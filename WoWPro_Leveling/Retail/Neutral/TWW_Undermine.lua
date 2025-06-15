@@ -248,24 +248,24 @@ C Get Out There|QID|85174|M|39.79,24.28|Z|2346; Undermine|QO|1|NC|N|Begin the Re
 T Get Out There|QID|85174|M|48.69,40.78|Z|2346; Undermine|N|To Dirk Greasedealer.|
 A Rally the People|QID|83195|PRE|85174|M|48.69,40.78|Z|2346; Undermine|N|From Dirk Greasedealer.|
 A Disperse!|QID|83196|PRE|85174|M|48.69,40.78|Z|2346; Undermine|N|From Dirk Greasedealer.|
-C Rally the People|QID|83195|M|48.69,40.78|QO|1|CHAT|N|Speak to Dirk Greasedealer.|
-C Rally the People|QID|83195|M|45.66,34.65|QO|3|NC|U|228196|N|Throw pamphlets to Terrified Citizens.|S|
-C Rally the People|QID|83195|M|43.85,30.79|QO|2|NC|N|Deface Darkfuse Propaganda.|S|
+C Rally the People|QID|83195|M|48.69,40.78|QO|1|CHAT|Z|2346; Undermine|N|Speak to Dirk Greasedealer.|
+C Rally the People|QID|83195|M|45.66,34.65|QO|3|NC|U|228196|Z|2346; Undermine|N|Throw pamphlets to Terrified Citizens.|S|
+C Rally the People|QID|83195|M|43.85,30.79|QO|2|NC|Z|2346; Undermine|N|Deface Darkfuse Propaganda.|S|
 C Disperse!|QID|83196|M|44.21,31.81|QO|1|Z|2346; Undermine|N|Darkfuse Riot Forces slain.|
-C Rally the People|QID|83195|M|45.66,34.65|QO|3|NC|U|228196|N|Throw pamphlets to Terrified Citizens.|US|
-C Rally the People|QID|83195|M|43.85,30.79|QO|2|NC|N|Deface Darkfuse Propaganda.|US|
+C Rally the People|QID|83195|M|45.66,34.65|QO|3|NC|U|228196|Z|2346; Undermine|N|Throw pamphlets to Terrified Citizens.|US|
+C Rally the People|QID|83195|M|43.85,30.79|QO|2|NC|Z|2346; Undermine|N|Deface Darkfuse Propaganda.|US|
 T Rally the People|QID|83195|M|51.12,35.84|Z|2346; Undermine|N|To Monte Gazlowe.|
 T Disperse!|QID|83196|M|51.12,35.84|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Who Owns the Streets?|QID|83197|PRE|83195&83196|M|50.85,34.55|Z|2346; Undermine|N|From Monte Gazlowe.|
-C Who Owns the Streets?|QID|83197|M|50.31,32.37|QO|1|NC|N|Join Gazlowe and confront Nikki.|
-C Who Owns the Streets?|QID|83197|M|50.31,32.23|QO|2|N|Defeat Nikki's Monstrosities .|
+C Who Owns the Streets?|QID|83197|M|50.31,32.37|QO|1|NC|Z|2346; Undermine|N|Join Gazlowe and confront Nikki.|
+C Who Owns the Streets?|QID|83197|M|50.31,32.23|QO|2|Z|2346; Undermine|N|Defeat Nikki's Monstrosities .|
 T Who Owns the Streets?|QID|83197|M|58.47,33.17|Z|2346; Undermine|N|To Baron Revilgaz.|
 A Backyard Navy|QID|83198|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Baron Revilgaz.|
 A Been Savin' This One|QID|83199|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Marin Noggenfogger.|
-C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|S|U|226217|
-l Cannonballs|ACTIVE|83198|M|63.42,18.96|QO|1|N|Kill Darkfuse or loot them off the piles by the water.|
-C Backyard Navy|QID|83198|M|61.78,24.39|QO|2|NC|N|Darkfuse Joyrider sunk.|EAB|
-C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|US|U|226217|
+C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|Z|2346; Undermine|N|Sliced Limes.|S|U|226217|
+l Cannonballs|ACTIVE|83198|M|63.42,18.96|QO|1|N|Z|2346; Undermine|Kill Darkfuse or loot them off the piles by the water.|
+C Backyard Navy|QID|83198|M|61.78,24.39|QO|2|NC|Z|2346; Undermine|N|Darkfuse Joyrider sunk.|EAB|
+C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|Z|2346; Undermine|N|Sliced Limes.|US|U|226217|
 T Backyard Navy|QID|83198|M|63.96,17.23|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 T Been Savin' This One|QID|83199|M|63.96,17.23|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 A A Vast, Ye Swabs|QID|83200|PRE|83198&83199|M|63.93,17.27|Z|2346; Undermine|N|From Fleet Master Seahorn.|

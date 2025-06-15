@@ -9,12 +9,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;Zones in guide
-;|Z|2339;Dornogal|
+;|Z|2339; Dornogal|
 ;|Z|2248; Isle of Dorn|
 
 t The Ringing Deeps|QID|83550|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
-A Into the Deeps|QID|80434|PRE|78546|M|31.93,59.89|Z|2339;Dornogal|N|From Moira Thaurissan.|
-R The.Coreway|ACTIVE|80434^83550|M|38.59,59.58|CC|Z|2339;Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
+A Into the Deeps|QID|80434|PRE|78546|M|31.93,59.89|Z|2339; Dornogal|N|From Moira Thaurissan.|
+R The.Coreway|ACTIVE|80434^83550|M|38.59,59.58|CC|Z|2339; Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
 T Into the Deeps|QID|80434|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Underground and Overwhelmed|QID|78555|PRE|80434|M|37.95,28.33|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 A Getting Off Track|QID|78557|PRE|80434|M|37.95,28.33|Z|2214; The Ringing Deeps|N|From Foreman Uzjax.|
@@ -138,13 +138,13 @@ T Wax On, Pot Off|QID|79267|M|57.29,31.99|Z|2214; The Ringing Deeps|N|To Speaker
 T Tackling Torchsnarl|QID|78641|M|57.29,31.99|Z|2214; The Ringing Deeps|N|To Skitter.|
 A New Candle, New Hope|QID|78642|PRE|78641&79267|M|57.29,31.99|Z|2214; The Ringing Deeps|N|From Skitter.|
 C New Candle, New Hope|QID|78642|M|57.29,31.99|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Speak with Skitter to enter the Darkflame Cleft.|
-C New Candle, New Hope|ACTIVE|78642|SO|1|M|41.58,12.54|Z|2304;Darkflame Cleft|N|Apply the kobold costume.|EAB|
-C New Candle, New Hope|ACTIVE|78642|SO|2|M|44.43,12.22;44.57,20.77;45.21,27.36;45.21,27.36;38.44,21.07;39.18,27.70|CN|Z|2304;Darkflame Cleft|N|Click on the candles to put them out, avoiding the see invis mobs.|
-C New Candle, New Hope|ACTIVE|78642|SO|3|M|41.59,40.97|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Waximus.|EAB|
-C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Reapply your disguise and head to the throne room.|BUFF|430738|
-C New Candle, New Hope|ACTIVE|78642|SO|5|M|41.47,81.12|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
-C New Candle, New Hope|ACTIVE|78642|SO|6|M|44.51,89.75|Z|2304;Darkflame Cleft|N|Open the treasure chests to get the crown.|
-C New Candle, New Hope|ACTIVE|78642|SO|7|M|41.52,89.46|Z|2304;Darkflame Cleft|N|Talk to Skitter to leave.|CHAT|
+C New Candle, New Hope|ACTIVE|78642|SO|1|M|41.58,12.54|Z|2304; Darkflame Cleft|N|Apply the kobold costume.|EAB|
+C New Candle, New Hope|ACTIVE|78642|SO|2|M|44.43,12.22;44.57,20.77;45.21,27.36;45.21,27.36;38.44,21.07;39.18,27.70|CN|Z|2304; Darkflame Cleft|N|Click on the candles to put them out, avoiding the see invis mobs.|
+C New Candle, New Hope|ACTIVE|78642|SO|3|M|41.59,40.97|Z|2304; Darkflame Cleft|N|Remove your disguise and kill Waximus.|EAB|
+C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.51,39.00|Z|2304; Darkflame Cleft|N|Reapply your disguise and head to the throne room.|BUFF|430738|
+C New Candle, New Hope|ACTIVE|78642|SO|5|M|41.47,81.12|Z|2304; Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
+C New Candle, New Hope|ACTIVE|78642|SO|6|M|44.51,89.75|Z|2304; Darkflame Cleft|N|Open the treasure chests to get the crown.|
+C New Candle, New Hope|ACTIVE|78642|SO|7|M|41.52,89.46|Z|2304; Darkflame Cleft|N|Talk to Skitter to leave.|CHAT|
 ;C New Candle, New Hope|QID|78642|QO|2|CHAT|Z|2304; DarkFlame Cleft|N|Candle Crown Retrieved.|
 T New Candle, New Hope|QID|78642|M|57.37,32.01|Z|2214; The Ringing Deeps|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|57.37,32.01|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
@@ -332,26 +332,26 @@ A Foreign Fog|QID|81556|M|54.29,62.40|Z|2214; The Ringing Deeps|N|From Noli Marl
 C Foreign Fog|QID|81556|M|54.64,60.75|Z|2214; The Ringing Deeps|QO|1|NC|N|Head to first fog site.|
 C Foreign Fog|QID|81556|M|54.64,60.75|Z|2214; The Ringing Deeps|QO|2|NC|N|Use [color=33fff9] Extra Action Button [/color] to activate the First fog collector, then kill what shows up while it fills.|EAB|
 A Badly Behaved Bot|QID|83165|M|56.17,57.05|Z|2214; The Ringing Deeps|N|From Sinruna.|RANK|2|;moved because flying past ! is distressing
-C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|3|NC|N|Head to second fog site.|
-C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|4|NC|N|Second fog sample collected.|EAB|
-C Foreign Fog|QID|81556|M|56.50, 60.91;59.93,47.39|CS|Z|2214;The Ringing Deeps|QO|5|NC|N|Head into the abandoned town of Traelloch for the third fog site.|
-C Foreign Fog|QID|81556|M|59.93,47.39|Z|2214;The Ringing Deeps|QO|6|NC|N|Third fog sample collected.|EAB|
-T Foreign Fog|QID|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|To Noli Marlen.|
-A Fog Tags|QID|81557|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
-A Unnatural Predators|QID|81558|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
-C Unnatural Predators|QID|81558|M|55.24,58.88|Z|2214;The Ringing Deeps|QO|1|N|Deepflayer Hunters slain.|S|
-C Fog Tags|QID|81557|M|55.24,58.88|Z|2214;The Ringing Deeps|QO|1|NC|U|219469|N|Trackers attached to fog beasts.|
-C Unnatural Predators|QID|81558|M|55.24,58.88|Z|2214;The Ringing Deeps|QO|1|N|Deepflayer Hunters slain.|US|
-T Fog Tags|QID|81557|M|54.28,62.42|Z|2214;The Ringing Deeps|N|To Noli Marlen.|
-T Unnatural Predators|QID|81558|M|54.28,62.42|Z|2214;The Ringing Deeps|N|To Noli Marlen.|
-A Fog Follower|QID|81559|PRE|81557&81558|M|58.43,62.40|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
+C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214; The Ringing Deeps|QO|3|NC|N|Head to second fog site.|
+C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214; The Ringing Deeps|QO|4|NC|N|Second fog sample collected.|EAB|
+C Foreign Fog|QID|81556|M|56.50, 60.91;59.93,47.39|CS|Z|2214; The Ringing Deeps|QO|5|NC|N|Head into the abandoned town of Traelloch for the third fog site.|
+C Foreign Fog|QID|81556|M|59.93,47.39|Z|2214; The Ringing Deeps|QO|6|NC|N|Third fog sample collected.|EAB|
+T Foreign Fog|QID|81556|M|54.31,62.45|Z|2214; The Ringing Deeps|N|To Noli Marlen.|
+A Fog Tags|QID|81557|PRE|81556|M|54.31,62.45|Z|2214; The Ringing Deeps|N|From Noli Marlen.|
+A Unnatural Predators|QID|81558|PRE|81556|M|54.31,62.45|Z|2214; The Ringing Deeps|N|From Noli Marlen.|
+C Unnatural Predators|QID|81558|M|55.24,58.88|Z|2214; The Ringing Deeps|QO|1|N|Deepflayer Hunters slain.|S|
+C Fog Tags|QID|81557|M|55.24,58.88|Z|2214; The Ringing Deeps|QO|1|NC|U|219469|N|Trackers attached to fog beasts.|
+C Unnatural Predators|QID|81558|M|55.24,58.88|Z|2214; The Ringing Deeps|QO|1|N|Deepflayer Hunters slain.|US|
+T Fog Tags|QID|81557|M|54.28,62.42|Z|2214; The Ringing Deeps|N|To Noli Marlen.|
+T Unnatural Predators|QID|81558|M|54.28,62.42|Z|2214; The Ringing Deeps|N|To Noli Marlen.|
+A Fog Follower|QID|81559|PRE|81557&81558|M|58.43,62.40|Z|2214; The Ringing Deeps|N|From Noli Marlen.|
 ;A Grotto Grievances|QID|79257|M|52.50,63.85|N|From UI|
-C Grotto Grievances|QID|79257|M|52.50,63.85|Z|2214;The Ringing Deeps|N|Kill mushrooms, loot eggs.|IZ|The Living Grotto|S!US|
+C Grotto Grievances|QID|79257|M|52.50,63.85|Z|2214; The Ringing Deeps|N|Kill mushrooms, loot eggs.|IZ|The Living Grotto|S!US|
 t Grotto Grievances|QID|79257|M|PLAYER|
-C Fog Follower|QID|81559|M|41.22,62.75|Z|2214;The Ringing Deeps|QO|1|N|Use Extra Action button to find the trail. Keep using it. or just fly to final waypoint.|NC|EAB|
-C Fog Follower|QID|81559|M|37.66,61.99|Z|2214;The Ringing Deeps|QO|2|NC|N|Noli will take off flying, go out and around to the right to find her.|
-C Fog Follower|QID|81559|M|37.66,61.99|Z|2214;The Ringing Deeps|QO|3|H|N|Photo taken.|
-T Fog Follower|QID|81559|M|55.16,63.96|Z|2214;The Ringing Deeps|N|To Noli Marlen, downstairs in the inn.|
+C Fog Follower|QID|81559|M|41.22,62.75|Z|2214; The Ringing Deeps|QO|1|N|Use Extra Action button to find the trail. Keep using it. or just fly to final waypoint.|NC|EAB|
+C Fog Follower|QID|81559|M|37.66,61.99|Z|2214; The Ringing Deeps|QO|2|NC|N|Noli will take off flying, go out and around to the right to find her.|
+C Fog Follower|QID|81559|M|37.66,61.99|Z|2214; The Ringing Deeps|QO|3|H|N|Photo taken.|
+T Fog Follower|QID|81559|M|55.16,63.96|Z|2214; The Ringing Deeps|N|To Noli Marlen, downstairs in the inn.|
 R Opportunity Point|ACTIVE|82956|M|59.12,78.90|Z|2214; The Ringing Deeps|N|Head over to Opportunity Point.|
 f Opportunity Point|ACTIVE|82956|M|60.56,78.17|Z|2214; The Ringing Deeps|N|At Clixi Fastfare.|
 T To Opportunity Point|QID|82956|M|59.12,78.90|Z|2214; The Ringing Deeps|N|To Griz Finglebur.|
@@ -385,20 +385,20 @@ T Undoing the Damage|QID|82990|M|54.86,64.15|Z|2214; The Ringing Deeps|N|To Dana
 A Duty of Care|QID|82786|PRE|82990|M|54.86,64.15|Z|2214; The Ringing Deeps|N|From Danagh.|
 A Stone Tracing|QID|82969|PRE|82990|M|54.86,64.15|Z|2214; The Ringing Deeps|N|From Clive DelGizmo.|
 t Duty of Care|QID|82786|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwalker.|
-t Stone Tracing|QID|82969|M|PLAYER|Z|2214;The Ringing Deeps|N|To Danagh's Cogwalker.|
+t Stone Tracing|QID|82969|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwalker.|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|3|N|Kill the pests bothering you while trying to triangulate.|S|
-C Stone Tracing|QID|82969|M|49.53,60.88|Z|2214;The Ringing Deeps|QO|1<1|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
-C Stone Tracing|QID|82969|M|48.51,53.35|Z|2214;The Ringing Deeps|QO|1<2|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
+C Stone Tracing|QID|82969|M|49.53,60.88|Z|2214; The Ringing Deeps|QO|1<1|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
+C Stone Tracing|QID|82969|M|48.51,53.35|Z|2214; The Ringing Deeps|QO|1<2|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|1|N|Click console to reroute power.|H|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|2|N|Click Leaking Pipes to patch.|H|
-C Stone Tracing|QID|82969|M|46.92,47.13|Z|2214;The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
+C Stone Tracing|QID|82969|M|46.92,47.13|Z|2214; The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|3|N|Finish up exterminating the pests.|US|
-A Decommissioning Darkness|QID|82814|PRE|82786&82969|M|PLAYER|Z|2214;The Ringing Deeps|N|From Danagh's Cogwalker.|
-K Corrupted Golem|ACTIVE|82814|M|45.03,62.12|Z|2214;The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
-C Decommissioning Darkness|QID|82814|M|45.54,47.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Arbauch's Memory Gem.|
-T Decommissioning Darkness|QID|82814|M|54.86,64.16|Z|2214;The Ringing Deeps|N|To Danagh.|
-R Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214;The Ringing Deeps|N|Head over to Shadowvein Point.|
-f Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214;The Ringing Deeps|N|At Milgrit Stonefeather.|
+A Decommissioning Darkness|QID|82814|PRE|82786&82969|M|PLAYER|Z|2214; The Ringing Deeps|N|From Danagh's Cogwalker.|
+K Corrupted Golem|ACTIVE|82814|M|45.03,62.12|Z|2214; The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
+C Decommissioning Darkness|QID|82814|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|2|NC|N|Arbauch's Memory Gem.|
+T Decommissioning Darkness|QID|82814|M|54.86,64.16|Z|2214; The Ringing Deeps|N|To Danagh.|
+R Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214; The Ringing Deeps|N|Head over to Shadowvein Point.|
+f Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214; The Ringing Deeps|N|At Milgrit Stonefeather.|
 T Badly Behaved Bot|QID|83165|M|58.03,46.80|Z|2214; The Ringing Deeps|N|To Kagfritha.|
 A Juicy Krolusk Meat|QID|81655|M|58.03,46.80|Z|2214; The Ringing Deeps|N|From Kagfritha.|RANK|2|
 A Sticks and Bones|QID|81669|PRE|83165|M|58.03,46.80|Z|2214; The Ringing Deeps|N|From Kagfritha.|RANK|2|
@@ -413,36 +413,36 @@ A In a Pinch|QID|81672|PRE|81655&81669|M|58.02,46.86|Z|2214; The Ringing Deeps|N
 C In a Pinch|QID|81672|M|57.75,50.69|Z|2214; The Ringing Deeps|QO|1|N|Place the meaty bait.|H|
 K Smaragthr|ACTIVE|81672|M|57.75,50.69|Z|2214; The Ringing Deeps|QO|2|N|Smaragthr slain.|T|Smaragthr|
 T In a Pinch|QID|81672|M|58.02,46.86|Z|2214; The Ringing Deeps|N|To Kagfritha.|
-A Listener Lost|QID|80576|PRE|81672|M|56.30,45.65|Z|2214;The Ringing Deeps|N|From Haimaz.|;prolly wrong pre, but i noticed it available after I came back from doing 81672--look for it before doing deepsflayer nests, since its the same mobs, maybe could be done together.
-C Listener Lost|QID|80576|M|59.21,43.39|Z|2214;The Ringing Deeps|QO|1|NC|N|Find Brennok.|
-T Listener Lost|QID|80576|M|59.21,43.39|Z|2214;The Ringing Deeps|N|To Brennok.|
-A Defragmenting Memory|QID|80676|PRE|80576|M|59.21,43.39|Z|2214;The Ringing Deeps|N|From Brennok.|
-C Defragmenting Memory|QID|80676|M|57.88,42.84|Z|2214;The Ringing Deeps|QO|1|NC|N|Lift Rocks to uncover bugs, kill bugs, loot pages.|
-T Defragmenting Memory|QID|80676|M|59.21,43.39|Z|2214;The Ringing Deeps|N|To Brennok.|
-A Let's Not Worry Her|QID|81613|PRE|80676|M|59.21,43.39|Z|2214;The Ringing Deeps|N|From Brennok.|
-C Let's Not Worry Her|QID|81613|M|57.88,45.44|Z|2214;The Ringing Deeps|QO|1|NC|N|Return to Haimaz.|
-T Let's Not Worry Her|QID|81613|M|57.88,45.44|Z|2214;The Ringing Deeps|N|To Haimaz.|
-A Readying the Recitation|QID|80577|PRE|81613|M|57.88,45.44|Z|2214;The Ringing Deeps|N|From Haimaz.|
-C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214;The Ringing Deeps|QO|2|H|N|Pick up the Mislaid Tools.|
-C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214;The Ringing Deeps|QO|3|H|N|Clean the Plaque.|
-C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214;The Ringing Deeps|QO|1|H|N|Shove the Stuck Minecart.|
-T Readying the Recitation|QID|80577|M|58.62,44.21|Z|2214;The Ringing Deeps|N|To Haimaz.|
-A Check on the Compiler|QID|82224|LEAD|80578|M|58.62,44.21|Z|2214;The Ringing Deeps|N|From Haimaz.|RANK|2|
-T Check on the Compiler|QID|82224|M|57.77,45.45|Z|2214;The Ringing Deeps|N|To Brennok.|
-A The Common Costume|QID|80578|PRE|81613|M|57.77,45.45|Z|2214;The Ringing Deeps|N|From Brennok.|
-C The Common Costume|QID|80578|M|57.55,46.00|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak to Resting Miners, in the inn.|
-C The Common Costume|QID|80578|M|57.75,45.95|Z|2214;The Ringing Deeps|QO|2|H|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
-T The Common Costume|QID|80578|M|57.77,45.45|Z|2214;The Ringing Deeps|N|To Brennok.|
-A A Sip of Cinder|QID|80593|PRE|80577&80578|M|57.89,45.51|Z|2214;The Ringing Deeps|N|From Haimaz.|
-C A Sip of Cinder|QID|80593|M|60.01,52.02|Z|2214;The Ringing Deeps|QO|1|N|Go kill the deepsflayers to get the cinder back. Also found as ground spawn along the elevated track.|
-T A Sip of Cinder|QID|80593|M|57.90,45.51|Z|2214;The Ringing Deeps|N|To Haimaz.|
-A One Last Story|QID|80682|PRE|80593|M|57.73,45.46|Z|2214;The Ringing Deeps|N|From Brennok.|
-C One Last Story|QID|80682|M|58.51,44.55|Z|2214;The Ringing Deeps|QO|1|V|N|Take a seat on the stool and listen.|
-C One Last Story|QID|80682|M|53.20,43.10|Z|2214;The Ringing Deeps|QO|2|NC|N|Meet Brennok by the bridge.|
-T One Last Story|QID|80682|M|53.20,43.10|Z|2214;The Ringing Deeps|N|To Haimaz.|
-A On the Road|QID|82144|PRE|80682|M|53.20,43.10|Z|2214;The Ringing Deeps|N|From Haimaz.|
-C On the Road|QID|82144|M|52.57,40.81|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill the large Krolusk.|
-T On the Road|QID|82144|M|53.20,43.10|Z|2214;The Ringing Deeps|N|To Haimaz.|
+A Listener Lost|QID|80576|PRE|81672|M|56.30,45.65|Z|2214; The Ringing Deeps|N|From Haimaz.|;prolly wrong pre, but i noticed it available after I came back from doing 81672--look for it before doing deepsflayer nests, since its the same mobs, maybe could be done together.
+C Listener Lost|QID|80576|M|59.21,43.39|Z|2214; The Ringing Deeps|QO|1|NC|N|Find Brennok.|
+T Listener Lost|QID|80576|M|59.21,43.39|Z|2214; The Ringing Deeps|N|To Brennok.|
+A Defragmenting Memory|QID|80676|PRE|80576|M|59.21,43.39|Z|2214; The Ringing Deeps|N|From Brennok.|
+C Defragmenting Memory|QID|80676|M|57.88,42.84|Z|2214; The Ringing Deeps|QO|1|NC|N|Lift Rocks to uncover bugs, kill bugs, loot pages.|
+T Defragmenting Memory|QID|80676|M|59.21,43.39|Z|2214; The Ringing Deeps|N|To Brennok.|
+A Let's Not Worry Her|QID|81613|PRE|80676|M|59.21,43.39|Z|2214; The Ringing Deeps|N|From Brennok.|
+C Let's Not Worry Her|QID|81613|M|57.88,45.44|Z|2214; The Ringing Deeps|QO|1|NC|N|Return to Haimaz.|
+T Let's Not Worry Her|QID|81613|M|57.88,45.44|Z|2214; The Ringing Deeps|N|To Haimaz.|
+A Readying the Recitation|QID|80577|PRE|81613|M|57.88,45.44|Z|2214; The Ringing Deeps|N|From Haimaz.|
+C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214; The Ringing Deeps|QO|2|H|N|Pick up the Mislaid Tools.|
+C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214; The Ringing Deeps|QO|3|H|N|Clean the Plaque.|
+C Readying the Recitation|QID|80577|M|58.50,44.37|Z|2214; The Ringing Deeps|QO|1|H|N|Shove the Stuck Minecart.|
+T Readying the Recitation|QID|80577|M|58.62,44.21|Z|2214; The Ringing Deeps|N|To Haimaz.|
+A Check on the Compiler|QID|82224|LEAD|80578|M|58.62,44.21|Z|2214; The Ringing Deeps|N|From Haimaz.|RANK|2|
+T Check on the Compiler|QID|82224|M|57.77,45.45|Z|2214; The Ringing Deeps|N|To Brennok.|
+A The Common Costume|QID|80578|PRE|81613|M|57.77,45.45|Z|2214; The Ringing Deeps|N|From Brennok.|
+C The Common Costume|QID|80578|M|57.55,46.00|Z|2214; The Ringing Deeps|QO|1|CHAT|N|Speak to Resting Miners, in the inn.|
+C The Common Costume|QID|80578|M|57.75,45.95|Z|2214; The Ringing Deeps|QO|2|H|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
+T The Common Costume|QID|80578|M|57.77,45.45|Z|2214; The Ringing Deeps|N|To Brennok.|
+A A Sip of Cinder|QID|80593|PRE|80577&80578|M|57.89,45.51|Z|2214; The Ringing Deeps|N|From Haimaz.|
+C A Sip of Cinder|QID|80593|M|60.01,52.02|Z|2214; The Ringing Deeps|QO|1|N|Go kill the deepsflayers to get the cinder back. Also found as ground spawn along the elevated track.|
+T A Sip of Cinder|QID|80593|M|57.90,45.51|Z|2214; The Ringing Deeps|N|To Haimaz.|
+A One Last Story|QID|80682|PRE|80593|M|57.73,45.46|Z|2214; The Ringing Deeps|N|From Brennok.|
+C One Last Story|QID|80682|M|58.51,44.55|Z|2214; The Ringing Deeps|QO|1|V|N|Take a seat on the stool and listen.|
+C One Last Story|QID|80682|M|53.20,43.10|Z|2214; The Ringing Deeps|QO|2|NC|N|Meet Brennok by the bridge.|
+T One Last Story|QID|80682|M|53.20,43.10|Z|2214; The Ringing Deeps|N|To Haimaz.|
+A On the Road|QID|82144|PRE|80682|M|53.20,43.10|Z|2214; The Ringing Deeps|N|From Haimaz.|
+C On the Road|QID|82144|M|52.57,40.81|Z|2214; The Ringing Deeps|QO|1|NC|N|Kill the large Krolusk.|
+T On the Road|QID|82144|M|53.20,43.10|Z|2214; The Ringing Deeps|N|To Haimaz.|
 T Desperately Seeking Skorthuz|QID|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|To Skorthuz.|
 A Lisky Business|QID|81712|PRE|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|From Skorthuz.|RANK|2|
 A Oozemodius|QID|81713|PRE|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|From Skorthuz.|RANK|2|
@@ -452,31 +452,31 @@ C Lisky Business|QID|81712|M|62.30,39.00|Z|2214; The Ringing Deeps|QO|1|N|Drop d
 C Lisky Business|QID|81712|M|60.78,41.10|Z|2214; The Ringing Deeps|QO|2|N|Keep using the whistle, every time Lisky is distracted to get her out of the cave to Skorthuz.|EAB|
 T Lisky Business|QID|81712|M|60.79,41.52|Z|2214; The Ringing Deeps|N|To Skorthuz.|
 T Oozemodius|QID|81713|M|60.79,41.52|Z|2214; The Ringing Deeps|N|To Skorthuz.|
-A A Nebb in Need|QID|79367|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214;The Ringing Deeps|QO|1|H|N|Bundle of Candles.|
-C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214;The Ringing Deeps|QO|2|NC|N|Candles placed.|
-T A Nebb in Need|QID|79367|M|61.69,42.61|Z|2214;The Ringing Deeps|N|To Nebb.|
-A Hair of the Spider|QID|79368|PRE|79367|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-A Protecting the Harvest|QID|79369|PRE|79367|M|61.74,42.68|Z|2214;The Ringing Deeps|N|From Snubjaw.|RANK|2|
-A Tending to the Terrified|QID|79481|PRE|79367|M|61.74,42.68|Z|2214;The Ringing Deeps|N|From Snubjaw.|RANK|2|
-C Hair of the Spider|QID|79368|M|63.22,42.62|Z|2214;The Ringing Deeps|QO|1|N|Kill Undercrawlers and loot their Venom.|S|
-C Protecting the Harvest|QID|79369|M|63.22,42.62|Z|2214;The Ringing Deeps|QO|1|NC|N|Pick up Grub Eggs from the ground, also dropped by the Jawgrubs.|S|H|
-C Tending to the Terrified|QID|79481|M|63.22,42.62|Z|2214;The Ringing Deeps|QO|1|NC|N|Free Terrified Grubtenders.|H|
-C Hair of the Spider|QID|79368|M|63.22,42.62|Z|2214;The Ringing Deeps|QO|1|N|Finish gathering Undercrawler Venom.|US|
-C Protecting the Harvest|QID|79369|M|63.22,42.62|Z|2214;The Ringing Deeps|QO|1|NC|N|Finish collecting Grub Eggs.|US|H|
-T Protecting the Harvest|QID|79369|M|61.74,42.68|Z|2214;The Ringing Deeps|N|To Snubjaw.|
-T Tending to the Terrified|QID|79481|M|61.74,42.68|Z|2214;The Ringing Deeps|N|To Snubjaw.|
-T Hair of the Spider|QID|79368|M|61.69,42.61|Z|2214;The Ringing Deeps|N|To Nebb.|
-A A Poultice for Poison|QID|79370|PRE|79368&79369&79481|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-C A Poultice for Poison|QID|79370|M|61.74,42.68|Z|2214;The Ringing Deeps|QO|1|NC|U|213539|N|Poultice applied to Snubjaw.|
-T A Poultice for Poison|QID|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|To Nebb.|
-A A Royal Cure|QID|79371|PRE|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-K Queen Rickiticka|ACTIVE|79371|M|64.19,39.76|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
-A A Clutch of Hope|QID|79372|PRE|79370|M|63.92,39.05|Z|2214;The Ringing Deeps|N|Go deeeper in the cave behind Queen Rickiticka to find a Broodmother's egg.|RANK|2|
-C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|2|NC|N|Give Queen Rickiticka's Venom to Nebb.|
-C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|3|NC|N|Cure Snubjaw.|
-T A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|N|To Nebb.|
-T A Clutch of Hope|QID|79372|M|61.68,42.57|Z|2214;The Ringing Deeps|N|To Nebb.|
+A A Nebb in Need|QID|79367|M|61.69,42.61|Z|2214; The Ringing Deeps|N|From Nebb.|RANK|2|
+C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214; The Ringing Deeps|QO|1|H|N|Bundle of Candles.|
+C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214; The Ringing Deeps|QO|2|NC|N|Candles placed.|
+T A Nebb in Need|QID|79367|M|61.69,42.61|Z|2214; The Ringing Deeps|N|To Nebb.|
+A Hair of the Spider|QID|79368|PRE|79367|M|61.69,42.61|Z|2214; The Ringing Deeps|N|From Nebb.|RANK|2|
+A Protecting the Harvest|QID|79369|PRE|79367|M|61.74,42.68|Z|2214; The Ringing Deeps|N|From Snubjaw.|RANK|2|
+A Tending to the Terrified|QID|79481|PRE|79367|M|61.74,42.68|Z|2214; The Ringing Deeps|N|From Snubjaw.|RANK|2|
+C Hair of the Spider|QID|79368|M|63.22,42.62|Z|2214; The Ringing Deeps|QO|1|N|Kill Undercrawlers and loot their Venom.|S|
+C Protecting the Harvest|QID|79369|M|63.22,42.62|Z|2214; The Ringing Deeps|QO|1|NC|N|Pick up Grub Eggs from the ground, also dropped by the Jawgrubs.|S|H|
+C Tending to the Terrified|QID|79481|M|63.22,42.62|Z|2214; The Ringing Deeps|QO|1|NC|N|Free Terrified Grubtenders.|H|
+C Hair of the Spider|QID|79368|M|63.22,42.62|Z|2214; The Ringing Deeps|QO|1|N|Finish gathering Undercrawler Venom.|US|
+C Protecting the Harvest|QID|79369|M|63.22,42.62|Z|2214; The Ringing Deeps|QO|1|NC|N|Finish collecting Grub Eggs.|US|H|
+T Protecting the Harvest|QID|79369|M|61.74,42.68|Z|2214; The Ringing Deeps|N|To Snubjaw.|
+T Tending to the Terrified|QID|79481|M|61.74,42.68|Z|2214; The Ringing Deeps|N|To Snubjaw.|
+T Hair of the Spider|QID|79368|M|61.69,42.61|Z|2214; The Ringing Deeps|N|To Nebb.|
+A A Poultice for Poison|QID|79370|PRE|79368&79369&79481|M|61.69,42.61|Z|2214; The Ringing Deeps|N|From Nebb.|RANK|2|
+C A Poultice for Poison|QID|79370|M|61.74,42.68|Z|2214; The Ringing Deeps|QO|1|NC|U|213539|N|Poultice applied to Snubjaw.|
+T A Poultice for Poison|QID|79370|M|61.69,42.61|Z|2214; The Ringing Deeps|N|To Nebb.|
+A A Royal Cure|QID|79371|PRE|79370|M|61.69,42.61|Z|2214; The Ringing Deeps|N|From Nebb.|RANK|2|
+K Queen Rickiticka|ACTIVE|79371|M|64.19,39.76|Z|2214; The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
+A A Clutch of Hope|QID|79372|PRE|79370|M|63.92,39.05|Z|2214; The Ringing Deeps|N|Go deeeper in the cave behind Queen Rickiticka to find a Broodmother's egg.|RANK|2|
+C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214; The Ringing Deeps|QO|2|NC|N|Give Queen Rickiticka's Venom to Nebb.|
+C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214; The Ringing Deeps|QO|3|NC|N|Cure Snubjaw.|
+T A Royal Cure|QID|79371|M|61.68,42.57|Z|2214; The Ringing Deeps|N|To Nebb.|
+T A Clutch of Hope|QID|79372|M|61.68,42.57|Z|2214; The Ringing Deeps|N|To Nebb.|
 C Dread in the Den|QID|80508|M|65.46,41.08|Z|2214; The Ringing Deeps|NC|N|Scrit's camp found.|
 T Dread in the Den|QID|80508|M|65.46,41.08|Z|2214; The Ringing Deeps|N|To Scrit.|
 A A Suit of Slime|QID|80509|PRE|80508|M|65.46,41.08|Z|2214; The Ringing Deeps|N|From Scrit.|RANK|2|
@@ -519,10 +519,10 @@ A Bump off the Boss|QID|80516|PRE|80515|M|65.46,40.98|Z|2214; The Ringing Deeps|
 C Boss Whiskerlash|ACTIVE|80516|M|69.66,34.93|Z|2214; The Ringing Deeps|QO|1|N|Boss Whiskerlash slain.|T|Boss Whiskerlash|
 T Bump off the Boss|QID|80516|M|65.42,40.97|Z|2214; The Ringing Deeps|N|To Scrit.|
 R Gundargaz|ACTIVE|78706|M|43.02,34.15|Z|2214; The Ringing Deeps|N|Head back to Gundargaz.|
-C Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214;The Ringing Deeps|QO|1|N|Show Gnawbles the Odd Glob of Wax you found.|H|
-C Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214;The Ringing Deeps|QO|2|N|Donate Wax to Middles.|H|
-B Everyday I'm Snufflin'|QID|79343|ACTIVE|79343|M|43.52,35.29|Z|2214;The Ringing Deeps|QO|3|N|Purchase a Waxy Bundle from Gnawbles.|; B Steps don't auto skip when not on the quest.
-t Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214;The Ringing Deeps|N|To Gnawbles.|
+C Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214; The Ringing Deeps|QO|1|N|Show Gnawbles the Odd Glob of Wax you found.|H|
+C Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214; The Ringing Deeps|QO|2|N|Donate Wax to Middles.|H|
+B Everyday I'm Snufflin'|QID|79343|ACTIVE|79343|M|43.52,35.29|Z|2214; The Ringing Deeps|QO|3|N|Purchase a Waxy Bundle from Gnawbles.|; B Steps don't auto skip when not on the quest.
+t Everyday I'm Snufflin'|QID|79343|M|43.52,35.29|Z|2214; The Ringing Deeps|N|To Gnawbles.|
 T The High Speaker's Secret|QID|78706|M|43.02,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Absent Speaker|QID|78738|PRE|78706|M|43.02,34.15|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 T Absent Speaker|QID|78738|M|42.93,20.77|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
@@ -566,19 +566,19 @@ C Dark Iron from Above|QID|78760|M|42.68,14.32|Z|2214; The Ringing Deeps|QO|4|N|
 T Dark Iron from Above|QID|78760|M|42.54,10.23|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A Into the Machine|QID|78761|M|42.54,10.23|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C Into the Machine|QID|78761|M|42.34,8.76|Z|2214; The Ringing Deeps|QO|1|N|Enter the Hall of Awakening.|
-C In Pursuit|ACTIVE|78761|SO|1|M|22.72,49.90|Z|2368;Hall of Awakening|N|Run forward.|I|
-C Security Breach|ACTIVE|78761|SO|2;2|M|28.40,48.25|Z|2368;Hall of Awakening|N|Collect an Ironfuse Bomb.|
-C Security Breach|ACTIVE|78761|SO|2;1|M|26.62,45.89|Z|2368;Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
-C Journey Deeper|ACTIVE|78761|SO|3|M|37.70,49.51|Z|2368;Hall of Awakening|N|Continue forward, it takes a bit before the doors open.|
-C Activate the Runelock|ACTIVE|78761|SO|4|M|42.68,45.18|Z|2368;Hall of Awakening|N|Go click the console.|NC|
-C Skardyn Breakout|ACTIVE|78761|SO|5|M|42.68,45.18|Z|2368;Hall of Awakening|N|Kill stuff coming to attack Dagran.|
-C Twin Guardians|ACTIVE|78761|SO|6;1|M|56.26,50.15|Z|2368;Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
-K Iron-Runed Protector|ACTIVE|78761|SO|6;3|M|62.42,52.88|Z|2368;Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
-C The Awaking Machine|ACTIVE|78761|SO|7|M|77.25,49.73|Z|2368;Hall of Awakening|N|Head into the final chamber.|
-C Vigilance and Violence|ACTIVE|78761|SO|8|M|84.48,49.47|Z|2368;Hall of Awakening|N|Defeat Master Machinist Dunstan.|T|Master Machinist Dunstan|
-C King of the Dwarves|ACTIVE|78761|SO|9|M|84.48,49.47|Z|2368;Hall of Awakening|N|Confront High Speaker Eirich.|
+C In Pursuit|ACTIVE|78761|SO|1|M|22.72,49.90|Z|2368; Hall of Awakening|N|Run forward.|I|
+C Security Breach|ACTIVE|78761|SO|2;2|M|28.40,48.25|Z|2368; Hall of Awakening|N|Collect an Ironfuse Bomb.|
+C Security Breach|ACTIVE|78761|SO|2;1|M|26.62,45.89|Z|2368; Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
+C Journey Deeper|ACTIVE|78761|SO|3|M|37.70,49.51|Z|2368; Hall of Awakening|N|Continue forward, it takes a bit before the doors open.|
+C Activate the Runelock|ACTIVE|78761|SO|4|M|42.68,45.18|Z|2368; Hall of Awakening|N|Go click the console.|NC|
+C Skardyn Breakout|ACTIVE|78761|SO|5|M|42.68,45.18|Z|2368; Hall of Awakening|N|Kill stuff coming to attack Dagran.|
+C Twin Guardians|ACTIVE|78761|SO|6;1|M|56.26,50.15|Z|2368; Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368; Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
+K Iron-Runed Protector|ACTIVE|78761|SO|6;3|M|62.42,52.88|Z|2368; Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368; Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
+C The Awaking Machine|ACTIVE|78761|SO|7|M|77.25,49.73|Z|2368; Hall of Awakening|N|Head into the final chamber.|
+C Vigilance and Violence|ACTIVE|78761|SO|8|M|84.48,49.47|Z|2368; Hall of Awakening|N|Defeat Master Machinist Dunstan.|T|Master Machinist Dunstan|
+C King of the Dwarves|ACTIVE|78761|SO|9|M|84.48,49.47|Z|2368; Hall of Awakening|N|Confront High Speaker Eirich.|
 ;C Into the Machine|QID|78761|QO|2|CHAT|Z|2214; The Ringing Deeps|N|Confront the High Speaker in the Halls of Awakening.|
 T Into the Machine|QID|78761|M|42.99,34.10|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A The Machine Speakers|QID|79354|M|42.99,34.10|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
@@ -588,47 +588,47 @@ A Orientation: Gundargaz|QID|81689|M|42.99,34.10|Z|2214; The Ringing Deeps|N|Fro
 C Orientation: Gundargaz|QID|81689|M|43.16,32.89|Z|2214; The Ringing Deeps|CHAT|N|Speak to Waxmonger Squick.|
 T Orientation: Gundargaz|QID|81689|M|42.99,34.10|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A The Hallowed Path|QID|78658|PRE|81689|M|42.93,32.27|Z|2214; The Ringing Deeps|N|From Anduin Wrynn.|
-A Daily Diagnostics|QID|83108|PRE|78761|M|43.12,31.63|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
-A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|
-A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|PRE|83543|
-T A Hint of Fear|QID|79256|M|50.90,63.29|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-t Daily Diagnostics|QID|83108|M|43.12,31.63|Z|2214;The Ringing Deeps|N|To Therkan.|RANK|3|IZ|Gundargaz|
-t Knicknack's Knicknacks|QID|83154|M|42.34,30.38|Z|2214;The Ringing Deeps|N|To Knicknack.|RANK|3|IZ|Gundargaz|
-A Put On a Good Face|QID|79259|PRE|79256|M|50.90,63.29|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-A Mineral Water Woes|QID|79258|PRE|79256|M|50.90,63.29|Z|2214;The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
-C Put On a Good Face|QID|79259|M|51.81,69.36|Z|2214;The Ringing Deeps|N|Kill Lashrooms and loot their dust.|S|
-C Mineral Water Woes|QID|79258|M|51.80,69.13|Z|2214;The Ringing Deeps|QO|1|H|N|Collect water from first pool.|
-C Mineral Water Woes|QID|79258|M|50.31,73.00|Z|2214;The Ringing Deeps|QO|2|H|N|Collect water from second pool.|
-C Put On a Good Face|QID|79259|M|51.81,69.36|Z|2214;The Ringing Deeps|N|Keep killing Lashrooms until you have enough dust.|US|
-C Mineral Water Woes|QID|79258|M|47.43,68.77|Z|2214;The Ringing Deeps|QO|3|H|N|Collect water from third pool.|
-T Mineral Water Woes|QID|79258|M|49.80,66.61|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-T Put On a Good Face|QID|79259|M|49.80,66.61|Z|2214;The Ringing Deeps|N|To Berrund the Gleaming.|
-A Epicenter|QID|79260|PRE|79259&79258|M|49.80,66.61|Z|2214;The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
-C Epicenter|QID|79260|M|49.22,66.13|Z|2214;The Ringing Deeps|QO|1|NC|N|Verdant Hulk approached.|
-K Verdant Hulk|ACTIVE|79260|M|49.22,66.13|Z|2214;The Ringing Deeps|QO|2|N|Verdant Hulk slain.|T|Verdant Hulk|
-T Epicenter|QID|79260|M|50.17,65.37|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-A Boiling Mad|QID|79261|PRE|79260|M|50.15,65.37|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+A Daily Diagnostics|QID|83108|PRE|78761|M|43.12,31.63|Z|2214; The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
+A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214; The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|
+A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214; The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|PRE|83543|
+T A Hint of Fear|QID|79256|M|50.90,63.29|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+t Daily Diagnostics|QID|83108|M|43.12,31.63|Z|2214; The Ringing Deeps|N|To Therkan.|RANK|3|IZ|Gundargaz|
+t Knicknack's Knicknacks|QID|83154|M|42.34,30.38|Z|2214; The Ringing Deeps|N|To Knicknack.|RANK|3|IZ|Gundargaz|
+A Put On a Good Face|QID|79259|PRE|79256|M|50.90,63.29|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+A Mineral Water Woes|QID|79258|PRE|79256|M|50.90,63.29|Z|2214; The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
+C Put On a Good Face|QID|79259|M|51.81,69.36|Z|2214; The Ringing Deeps|N|Kill Lashrooms and loot their dust.|S|
+C Mineral Water Woes|QID|79258|M|51.80,69.13|Z|2214; The Ringing Deeps|QO|1|H|N|Collect water from first pool.|
+C Mineral Water Woes|QID|79258|M|50.31,73.00|Z|2214; The Ringing Deeps|QO|2|H|N|Collect water from second pool.|
+C Put On a Good Face|QID|79259|M|51.81,69.36|Z|2214; The Ringing Deeps|N|Keep killing Lashrooms until you have enough dust.|US|
+C Mineral Water Woes|QID|79258|M|47.43,68.77|Z|2214; The Ringing Deeps|QO|3|H|N|Collect water from third pool.|
+T Mineral Water Woes|QID|79258|M|49.80,66.61|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+T Put On a Good Face|QID|79259|M|49.80,66.61|Z|2214; The Ringing Deeps|N|To Berrund the Gleaming.|
+A Epicenter|QID|79260|PRE|79259&79258|M|49.80,66.61|Z|2214; The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
+C Epicenter|QID|79260|M|49.22,66.13|Z|2214; The Ringing Deeps|QO|1|NC|N|Verdant Hulk approached.|
+K Verdant Hulk|ACTIVE|79260|M|49.22,66.13|Z|2214; The Ringing Deeps|QO|2|N|Verdant Hulk slain.|T|Verdant Hulk|
+T Epicenter|QID|79260|M|50.17,65.37|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A Boiling Mad|QID|79261|PRE|79260|M|50.15,65.37|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 R The Cataract River|ACTIVE|79261|M|50.85,59.84|Z|The Ringing Deeps!Khaz Algar|N|Make your way to the The Cataract River.|
-C Boiling Mad|QID|79261|QO|1<1|M|50.85,59.84|Z|2214;The Ringing Deeps|H|N|Inspect the trail Berrund left.|
-C Boiling Mad|QID|79261|QO|1<2|M|49.75,58.45|Z|2214;The Ringing Deeps|H|N|Inspect the trail Berrund left.|
-C Boiling Mad|QID|79261|QO|1<3|M|50.24,55.00|Z|2214;The Ringing Deeps|H|N|Inspect the trail Berrund left.|
-T Boiling Mad|QID|79261|M|51.84,50.13|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-A Fault Lines|QID|79263|PRE|79261|M|51.84,50.13|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-A Clean Up House|QID|79262|PRE|79261|M|51.84,50.13|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-C Clean Up House|QID|79262|M|53.18,47.57|Z|2214;The Ringing Deeps|N|Kill Agitated creatures.|
-C Fault Lines|QID|79263|M|53.05,47.07|Z|2214;The Ringing Deeps|NC|N|Find Cave Entrance.|
-T Clean Up House|QID|79262|M|53.00,45.55|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-T Fault Lines|QID|79263|M|53.00,45.55|Z|2214;The Ringing Deeps|N|To Berrund the Gleaming.|
-A These Strong Hands|QID|79264|PRE|79263&79262|M|53.00,45.55|Z|2214;The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
-C These Strong Hands|QID|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|NC|N|Witness Moira Thaurissan.|
-T These Strong Hands|QID|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-A Fearbreaker|QID|79265|PRE|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214;The Ringing Deeps|QO|2|NC|N|Fearbreaker used (Optional).|EAB|S|
-C Fearbreaker|QID|79265|M|53.63,53.36;54.72,54.54;56.82,54.80;56.28,50.62|CN|Z|2214;The Ringing Deeps|QO|3|NC|N|Click the glowing Fearbreaker on the groud to evacuate the holdout groups.|
-C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214;The Ringing Deeps|QO|1;2|N|Rescue Earthen and kill Skardyn.|US|
-T Fearbreaker|QID|79265|M|57.61,46.66|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
-A The Bronzebeard Legacy|QID|79266|PRE|79265|M|57.61,46.66|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-T The Bronzebeard Legacy|QID|79266|M|43.01,34.11|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
+C Boiling Mad|QID|79261|QO|1<1|M|50.85,59.84|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+C Boiling Mad|QID|79261|QO|1<2|M|49.75,58.45|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+C Boiling Mad|QID|79261|QO|1<3|M|50.24,55.00|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+T Boiling Mad|QID|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A Fault Lines|QID|79263|PRE|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+A Clean Up House|QID|79262|PRE|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+C Clean Up House|QID|79262|M|53.18,47.57|Z|2214; The Ringing Deeps|N|Kill Agitated creatures.|
+C Fault Lines|QID|79263|M|53.05,47.07|Z|2214; The Ringing Deeps|NC|N|Find Cave Entrance.|
+T Clean Up House|QID|79262|M|53.00,45.55|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+T Fault Lines|QID|79263|M|53.00,45.55|Z|2214; The Ringing Deeps|N|To Berrund the Gleaming.|
+A These Strong Hands|QID|79264|PRE|79263&79262|M|53.00,45.55|Z|2214; The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
+C These Strong Hands|QID|79264|M|53.00,45.55|Z|2214; The Ringing Deeps|NC|N|Witness Moira Thaurissan.|
+T These Strong Hands|QID|79264|M|53.00,45.55|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A Fearbreaker|QID|79265|PRE|79264|M|53.00,45.55|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214; The Ringing Deeps|QO|2|NC|N|Fearbreaker used (Optional).|EAB|S|
+C Fearbreaker|QID|79265|M|53.63,53.36;54.72,54.54;56.82,54.80;56.28,50.62|CN|Z|2214; The Ringing Deeps|QO|3|NC|N|Click the glowing Fearbreaker on the groud to evacuate the holdout groups.|
+C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214; The Ringing Deeps|QO|1;2|N|Rescue Earthen and kill Skardyn.|US|
+T Fearbreaker|QID|79265|M|57.61,46.66|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A The Bronzebeard Legacy|QID|79266|PRE|79265|M|57.61,46.66|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
+T The Bronzebeard Legacy|QID|79266|M|43.01,34.11|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A Cinderbrew Reserve|QID|83160|M|37.20,22.48|Z|2214; The Ringing Deeps|N|From Cogwin.|RANK|2|
 C Cinderbrew Reserve|QID|83160|M|38.25,24.74;39.06,25.16;37.36,24.88;37.36,24.88|CS|Z|2214; The Ringing Deeps|N|Go in side small room and grab the cinderbrew. When you come out turn to your right and go up the steps, avoiding the Embargo Enforcers and their visability circle. Run back to Cogwin, you have to dodge and not be seen, \n[color=FF0000]NOTE: [/color]You can't mount up. MUST RUN.|H|
 T Cinderbrew Reserve|QID|83160|M|37.36,24.88|Z|2214; The Ringing Deeps|N|To Cogwin.|
@@ -645,7 +645,7 @@ T An Igneous End|QID|83092|M|36.93,21.36|Z|2214; The Ringing Deeps|N|To Foreman 
 T Magmanagement|QID|83152|M|36.93,21.36|Z|2214; The Ringing Deeps|N|To Foreman Duinth.|
 T Sampling Steam|QID|83153|M|36.93,21.36|Z|2214; The Ringing Deeps|N|To Machinist Kilton.|
 
-N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339; Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
 
 ]]
 end)
