@@ -263,7 +263,7 @@ T Who Owns the Streets?|QID|83197|M|58.47,33.17|Z|2346; Undermine|N|To Baron Rev
 A Backyard Navy|QID|83198|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Baron Revilgaz.|
 A Been Savin' This One|QID|83199|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Marin Noggenfogger.|
 C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|Z|2346; Undermine|N|Sliced Limes.|S|U|226217|
-l Cannonballs|ACTIVE|83198|M|63.42,18.96|QO|1|N|Z|2346; Undermine|Kill Darkfuse or loot them off the piles by the water.|
+l Cannonballs|ACTIVE|83198|M|63.42,18.96|QO|1|Z|2346; Undermine|N|Kill Darkfuse or loot them off the piles by the water.|
 C Backyard Navy|QID|83198|M|61.78,24.39|QO|2|NC|Z|2346; Undermine|N|Darkfuse Joyrider sunk.|EAB|
 C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|Z|2346; Undermine|N|Sliced Limes.|US|U|226217|
 T Backyard Navy|QID|83198|M|63.96,17.23|Z|2346; Undermine|N|To Fleet Master Seahorn.|
