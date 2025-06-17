@@ -450,7 +450,7 @@ f The Dreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-P Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|Z|627;Dalaran!Broken Isles|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
+P Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|Z|627; Dalaran!Broken Isles|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ;4th spec
 A Weapons of the Ancient|QID|44443|M|44.55,51.02|N|From Rensar Greathoof.|PRE|44431|ACH|11174;;true|
 C Weapons of the Ancient|QID|44443|M|44.55,51.02|NC|N|Choose the last one.|

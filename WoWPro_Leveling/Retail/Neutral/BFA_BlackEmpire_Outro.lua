@@ -26,14 +26,14 @@ T Return of the Warrior King|QID|58498|M|87.45,35.50|Z|84;Stormwind City|N|To Ma
 A Where the Heart Is|QID|58502|M|87.45,35.50|Z|84;Stormwind City|N|From Magni Bronzebeard.|PRE|58498|FACTION|Alliance|
 P Boralus Harbor|ACTIVE|58502|M|49.36,86.90;48.71,88.12;46.89,89.70;47.99,93.74|Z|84;Stormwind City|CS|N|Take the portal back to Boralus.|FACTION|Alliance|
 P Silithus: The Wound|ACTIVE|58502|M|69.65,15.90|Z|Boralus|N|Take Portal to Silithus.|FACTION|Alliance|
-R Chamber of Heart|ACTIVE|58502|M|43.21,44.49|Z|81;Silithus|N|Run into the Chamber of Heart.|FACTION|Alliance|
+R Chamber of Heart|ACTIVE|58502|M|43.21,44.49|Z|81; Silithus|N|Run into the Chamber of Heart.|FACTION|Alliance|
 ; Horde Start
 A Return of the Black Prince|QID|58582|M|PLAYER|Z|Zuldazar|N|Lead in from Valeera Sanguinar.|FACTION|Horde|
 C What you saw|QID|58582|QO|1|M|57.88,64.47|Z|Zuldazar|CHAT|N|Ask Valeera what she saw.|FACTION|Horde|
 T Return of the Black Prince|QID|58582|M|57.88,64.47|Z|Zuldazar|N|To Valeera Sanguinar.|FACTION|Horde|
 A Where the Heart Is|QID|58583|M|87.45,35.50|N|From Magni Bronzebeard.|PRE|58582|FACTION|Horde|
 P Silithus: The Wound|ACTIVE|58583|N|Get to the Silithus.|FACTION|Horde|
-R Chamber of Heart|ACTIVE|58583|M|43.21,44.49|Z|81;Silithus|N|Run into the Chamber of Heart.|FACTION|Horde|
+R Chamber of Heart|ACTIVE|58583|M|43.21,44.49|Z|81; Silithus|N|Run into the Chamber of Heart.|FACTION|Horde|
 ; Common
 T Where the Heart Is|QID|58502^58583|M|50.14,59.07|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Network Diagnostics|QID|58506|M|50.14,59.07|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|58502^58583|
@@ -72,16 +72,16 @@ C Surfacing Threats|QID|56376|M|54.83,32.96|Z|249; Uldum|CHAT|QO|2|N|Complete an
 T Surfacing Threats|QID|56376|M|54.90,32.76|Z|249; Uldum|N|To King Phaoris.|
 ; Unlocks Uldum Assaults
 A Forging Onward|QID|56377|M|54.90,32.78|Z|249; Uldum|N|From King Phaoris.|PRE|56376|
-R Chamber of Heart|ACTIVE|56377|M|43.21,44.49|Z|81;Silithus|N|Run into the Chamber of Heart.|
+R Chamber of Heart|ACTIVE|56377|M|43.21,44.49|Z|81; Silithus|N|Run into the Chamber of Heart.|
 C Forging Onward|QID|56377|M|50.20,64.04|Z|Chamber of Heart!Dungeon1473|NC|N|Hear Magni's plan.|
 T Forging Onward|QID|56377|M|50.09,59.18|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A It's Never Easy|QID|56536|PRE|56377|M|50.09,59.18|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
 P Silithus|ACTIVE|56536|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Pandaria.|
-P Boralus|ACTIVE|56536|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
+P Boralus|ACTIVE|56536|M|41.48,44.86|Z|81; Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|56536|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
 P The Jade Forest|ACTIVE|56536|M|45.72,87.13|Z|84;Stormwind City|NC|N|Take the Portal to The Jade Forest.|FACTION|Alliance|
 F Temple of the White Tiger|ACTIVE|56536|M|46.04,85.13|Z|The Jade Forest|NC|N|To Wing Kyo.|FACTION|Alliance|
-P The Great Seal|ACTIVE|56536|M|41.48,44.86|Z|81;Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
+P The Great Seal|ACTIVE|56536|M|41.48,44.86|Z|81; Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|56536|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
 P The Jade Forest|ACTIVE|56536|M|57.45,92.29|Z|Orgrimmar|NC|N|Take the Portal to The Jade Forest.|FACTION|Horde|
 F Temple of the White Tiger|ACTIVE|56536|M|28.06,15.67|Z|The Jade Forest|NC|N|To Wing Hya.|FACTION|Horde|
@@ -169,10 +169,10 @@ T Investigating the Halls|QID|57222|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473
 ;  Legendary Cloak
 A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. This will be another 15 minute scenario.|PRE|57222|
 P Silithus: The Wound|ACTIVE|57290|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
-P Boralus|ACTIVE|57290|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
+P Boralus|ACTIVE|57290|M|41.48,44.86|Z|81; Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|57290|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
 F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|84;Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
-P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81;Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
+P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81; Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
 P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
 F Iron Summit|ACTIVE|57290|M|73.79,52.80|Z|Twilight Highlands|N|To Gorthul, to Fly to Iron Summit.|FACTION|Horde|
@@ -191,7 +191,7 @@ C Ritual of Flame|ACTIVE|57290|SO|9|M|47.40,78.44|Z|Vault of the Shadowflame@Bla
 C Scales of Corruption|ACTIVE|57290|SO|10|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|NC|N|Jump down, then Click on the Dragon Remains to destroy them.|
 C Corrupt Black Dragonscales|ACTIVE|57290|SO|11|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|NC|N|Pick up the Dragonscale.|
 R Silithus|ACTIVE|57290|M|48.2,66.11|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|TZ|Magni's Encampment|V|N|Wait a second for a ride to Silithus, Hop on the dragon.|
-P Chamber of Heart|ACTIVE|57290|M|43.21,44.49|Z|81;Silithus|N|Run to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|57290|M|43.21,44.49|Z|81; Silithus|N|Run to the Chamber of Heart.|
 T Beginning the Descent|QID|57290|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 ; Visions of N'zoth Introduction Questline
 A Deeper Into the Darkness|QID|57362|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57290|
@@ -205,7 +205,7 @@ P Chamber of Heart|ACTIVE|57362|M|47.14,53.13|Z|The Vault of Lights@Halls of Ori
 T Deeper Into the Darkness|QID|57362|M|46.10,63.58|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 A Descending Into Madness|QID|57373|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57362|
 C Vision of N'Zoth|QID|57373|NC|N|Pop open your quest log and see where if Vale of Eternal Blossoms or Uldum is your destination. The quest objective circle indicates where the gateway is.  Go exploring, but get out befoe you go insane!|
-P Chamber of Heart|ACTIVE|57373|M|43.21,44.49|Z|81;Silithus|N|Return to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|57373|M|43.21,44.49|Z|81; Silithus|N|Return to the Chamber of Heart.|
 T Descending Into Madness|QID|57373|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 A Opening the Gateway|QID|58634|M|46.10,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57373|
 C MOTHER|QID|58634|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to begin the activation sequence.|
