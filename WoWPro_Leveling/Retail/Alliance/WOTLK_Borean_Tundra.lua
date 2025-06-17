@@ -428,7 +428,7 @@ A Cracking the Code|QID|11931|PRE|11919|Z|114; Borean Tundra|N|From Raelorasz.|M
 N Drake Hunt|QID|12117|Z|114; Borean Tundra|N|Drake Hunt is now a repeatable daily quest. You may pick it up again and if you wish and do it again after the next step.|
 C Cracking the Code|QID|11931|Z|114; Borean Tundra|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code|QID|11931|Z|114; Borean Tundra|N|To Raelorasz.|M|33.31,34.53|
-A Corastrasza|QID|13412|PRE|11919|Z|114; Borean Tundra|N|From Librarian Serra|M|33.48,34.38|
+A Corastrasza|QID|13412|PRE|11919|Z|114; Borean Tundra|N|From Librarian Serra|M|33.48,34.38|LVL|30|
 T Corastrasza|QID|13412|Z|114; Borean Tundra|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
 A Aces High!|QID|13413|Z|114; Borean Tundra|N|From Corastrasza|M|29.48,24.81|PRE|13412|
 C Aces High!|QID|13413|Z|114; Borean Tundra|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|29.48,24.81|
