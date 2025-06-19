@@ -121,6 +121,7 @@ T Recipe for Destruction|QID|10437|M|60.13,31.81|Z|109; Netherstorm|N|To Profess
 A Dimensius the All-Devouring|QID|10439|PRE|10437|M|60.12,31.73|Z|109; Netherstorm|N|From Professor Dabiri.|
 C Dimensius the All-Devouring|QID|10439|M|60.60,32.16|Z|109; Netherstorm|QO|1|CHAT|N|Speak to Captain Saeed.|
 C Dimensius the All-Devouring|QID|10439|M|62.61,41.40|Z|109; Netherstorm|QO|2|N|Talk to Captain Saeed outside the mana forge, or else Dimensius won't be inside to kill.|T|Dimensius the All-Devouring|
+K Dimensius the All-Devouring|ACTIVE|10439|M|62.61,41.40|Z|109; Netherstorm|QO|3|N|Kill Dimensius the All-Devouring.|T|Dimensius the All-Devouring|
 T Dimensius the All-Devouring|QID|10439|M|60.11,31.86|Z|109; Netherstorm|N|To Professor Dabiri.|
 T Lorewalking: The Protectorate|QID|85027|M|PLAYER|N|To Lorewalker Cho.|
 A Lorewalking: Locus-Walker|QID|85029|PRE|10439&85027|M|PLAYER|N|From Lorewalker Cho.|

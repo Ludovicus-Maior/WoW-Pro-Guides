@@ -356,9 +356,9 @@ A Torches and Tar|QID|84639|PRE|84638|M|20.45,39.33|Z|2372; Arathi Highlands|N|F
 A Finding Family|QID|84658|PRE|84638|M|20.47,39.54|Z|2372; Arathi Highlands|N|From Maggie Wiltshire.|
 ;A Emblematic of Things to Come|QID|84640|PRE|84638|M|18.23,41.39|Z|2372; Arathi Highlands|;Loots from mobs in the area
 C Torches and Tar|QID|84639|M|14.80,40.72|Z|2372; Arathi Highlands|N|Loot the barrels of oil, and kill the defias around the area for the torches.|S|
+C Finding Family|QID|84658|M|17.36,42.23|Z|2372; Arathi Highlands|QO|2|NC|N|Sharon Wiltshire found.|
 C Finding Family|QID|84658|M|14.72,42.81|Z|2372; Arathi Highlands|QO|1|NC|N|Marshall Wiltshire found.|
 C Finding Family|QID|84658|M|14.10,41.84|Z|2372; Arathi Highlands|QO|3|NC|N|Ellie found.|
-C Finding Family|QID|84658|M|17.36,42.23|Z|2372; Arathi Highlands|QO|2|NC|N|Sharon Wiltshire found.|
 C Torches and Tar|QID|84639|M|14.80,40.72|Z|2372; Arathi Highlands|N|Loot the barrels of oil, and kill the defias around the area for the torches.|US|
 T Emblematic of Things to Come|QID|84640|M|20.43,39.27|Z|2372; Arathi Highlands|N|To Danath Trollbane.|
 T Torches and Tar|QID|84639|M|20.45,39.43|Z|2372; Arathi Highlands|N|To Walker Gresham.|
@@ -367,9 +367,13 @@ A Ill Tidings|QID|84641|PRE|84640&84639&84658|M|20.45,39.38|Z|2372; Arathi Highl
 T Ill Tidings|QID|84641|M|19.40,56.19|Z|2372; Arathi Highlands|N|To Danath Trollbane.|
 A Curfew Kerfuffle|QID|84643|PRE|84641|M|19.43,56.36|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
 A Deputy Delivery|QID|84645|PRE|84641|M|19.43,56.36|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
-C Deputy Delivery|QID|84645|M|21.85,65.17|Z|2372; Arathi Highlands|QO|1|NC|N|Brewston's requests delivered.|S|
-C Curfew Kerfuffle|QID|84643|M|14.58,68.43|Z|2372; Arathi Highlands|QO|1|NC|N|Marran Supporters sent home.|
-C Deputy Delivery|QID|84645|M|21.85,65.17|Z|2372; Arathi Highlands|QO|1|NC|N|Brewston's requests delivered.|US|
+C Curfew Kerfuffle|QID|84643|M|14.58,68.43|Z|2372; Arathi Highlands|QO|1|NC|N|Marran Supporters sent home.|S|
+C Deputy Delivery|QID|84645|M|20.57,62.51|Z|2372; Arathi Highlands|QO|1<1|CHAT|N|Talk to Balinda Darkstone.|
+C Deputy Delivery|QID|84645|M|21.92,65.16|Z|2372; Arathi Highlands|QO|1<2|CHAT|N|Talk to Joseph the Enlightened.|
+C Deputy Delivery|QID|84645|M|19.80,66.52|Z|2372; Arathi Highlands|QO|1<3|CHAT|N|Talk to Bertram Barleybeard.|
+C Deputy Delivery|QID|84645|M|14.35,70.05|Z|2372; Arathi Highlands|QO|1<4|CHAT|N|Talk to Luma Noss.|
+C Deputy Delivery|QID|84645|M|12.00,67.96|Z|2372; Arathi Highlands|QO|1<5|CHAT|N|Talk to Amy Hardy.|
+C Curfew Kerfuffle|QID|84643|M|14.58,68.43|Z|2372; Arathi Highlands|QO|1|NC|N|Marran Supporters sent home.|US|
 T Curfew Kerfuffle|QID|84643|M|17.48,59.76|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
 T Deputy Delivery|QID|84645|M|17.48,59.76|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
 A Marran Trollbane|QID|84649|PRE|84643&84645|M|17.53,59.74|Z|2372; Arathi Highlands|N|From Colonel Veronica Nials.|
@@ -379,7 +383,7 @@ C Marran Trollbane|QID|84649|M|17.65,60.32|Z|2372; Arathi Highlands|QO|3|NC|N|Li
 T Marran Trollbane|QID|84649|M|17.62,59.55|Z|2372; Arathi Highlands|N|To Colonel Veronica Nials.|
 A Finding Refuge at Refuge Pointe|QID|84650|PRE|84649|M|17.62,59.55|Z|2372; Arathi Highlands|N|From Colonel Veronica Nials.|
 C Finding Refuge at Refuge Pointe|QID|84650|M|38.02,52.50|Z|2372; Arathi Highlands|QO|1|NC|N|Meet Faerin at Refuge Pointe.|
-C Finding Refuge at Refuge Pointe|QID|84650|M|38.01,52.41|Z|2372; Arathi Highlands|QO|2|NC|N|Search the body for clues.|
+C Finding Refuge at Refuge Pointe|QID|84650|M|38.01,52.41|Z|2372; Arathi Highlands|QO|2|I|N|Search the body for clues.|
 C Finding Refuge at Refuge Pointe|QID|84650|M|40.77,53.36|Z|2372; Arathi Highlands|QO|3|NC|N|Follow Faerin up the hill.|
 C Finding Refuge at Refuge Pointe|QID|84650|M|40.85,53.43|Z|2372; Arathi Highlands|QO|4|CHAT|N|Speak to Karga.|
 T Finding Refuge at Refuge Pointe|QID|84650|M|40.76,53.72|Z|2372; Arathi Highlands|N|To Faerin Lothar.|
@@ -431,23 +435,44 @@ C False Flag|QID|84712|M|40.93,61.43|Z|2372; Arathi Highlands|QO|3|NC|N|Suspicio
 C False Flag|QID|84712|M|41.51,61.61|Z|2372; Arathi Highlands|QO|4|CHAT|N|Speak to Overlord Geya'rah.|
 C False Flag|QID|84712|M|41.51,61.43|Z|2372; Arathi Highlands|QO|5|NC|N|Listen to the conversation.|
 T False Flag|QID|84712|M|41.52,61.46|Z|2372; Arathi Highlands|N|To Overlord Geya'rah.|
-A Return to Stromgarde|QID|84657|PRE|84712|M|41.52,61.46|Z|2372; Arathi Highlands|N|From Faerin Lothar.|
-C Return to Stromgarde|QID|84657|M|17.60,59.94|Z|2372; Arathi Highlands|QO|1|CHAT|N|Speak with Nials in the Stromgarde barracks.|
-C Return to Stromgarde|QID|84657|M|17.65,59.91|Z|2372; Arathi Highlands|QO|2|NC|N|Await rescue.|
-T Return to Stromgarde|QID|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
-A How Old Are These Things?|QID|87299|PRE|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
-A The Search for Faerin|QID|84659|PRE|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
-C How Old Are These Things?|QID|87299|M|13.70,68.35|Z|2372; Arathi Highlands|QO|1|NC|N|Articles of Proof.|S|
-C The Search for Faerin|QID|84659|M|15.25,62.02|Z|2372; Arathi Highlands|QO|1|NC|N|Army tent searched.|
-C The Search for Faerin|QID|84659|M|16.42,68.78|Z|2372; Arathi Highlands|QO|4|NC|N|Home searched.|
-C The Search for Faerin|QID|84659|M|14.56,64.88|Z|2372; Arathi Highlands|QO|2|NC|N|Inn basement searched.|
-C The Search for Faerin|QID|84659|M|14.15,69.35|Z|2372; Arathi Highlands|QO|3|NC|N|Tavern searched.|
-C The Search for Faerin|QID|84659|M|11.12,70.84|Z|2372; Arathi Highlands|QO|5|NC|N|Mage tower searched.|
-C The Search for Faerin|QID|84659|M|11.03,70.51|Z|2372; Arathi Highlands|QO|6|NC|N|Faerin freed.|
-C How Old Are These Things?|QID|87299|M|13.70,68.35|Z|2372; Arathi Highlands|QO|1|NC|N|Articles of Proof.|US|
-T How Old Are These Things?|QID|87299|M|19.33,59.32|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
-T The Search for Faerin|QID|84659|M|19.33,59.32|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
+;~~~~~~~~~~~~~~~~Horde~~~~~~~~~~~~~
+A Fallen Fortress|QID|84713|M|41.62,61.50|Z|2372; Arathi Highlands|N|From Eitrigg.|FACTION|Horde|
+T Fallen Fortress|QID|84713|M|27.86,25.58|Z|2372; Arathi Highlands|N|To Eitrigg.|FACTION|Horde|
+A From Ironforge With Love|QID|84714|M|27.86,25.58|Z|2372; Arathi Highlands|N|From Overlord Geya'rah.|FACTION|Horde|
+A The Search for Danath|QID|84715|M|27.86,25.58|Z|2372; Arathi Highlands|N|From Eitrigg.|FACTION|Horde|
+C From Ironforge With Love|QID|84714|M|27.86,25.58|Z|2372; Arathi Highlands|N|Kill Defias and loot boxs.|FACTION|Horde|S|
+C The Search for Danath|QID|84715|QO|1|M|27.45,28.51|Z|2372; Arathi Highlands|N|Search the Altar of Storms.|FACTION|Horde|I|
+C The Search for Danath|QID|84715|QO|2|M|25.53,28.08|Z|2372; Arathi Highlands|N|Search the Workshop.|FACTION|Horde|I|
+C The Search for Danath|QID|84715|QO|4|M|25.13,32.09|Z|2372; Arathi Highlands|N|Search the Armory.|FACTION|Horde|I|
+C The Search for Danath|QID|84715|QO|3|M|29.01,30.59|Z|2372; Arathi Highlands|N|Search the Great Hall.|FACTION|Horde|I|
+C The Search for Danath|QID|84715|QO|5|M|27.94,34.11|Z|2372; Arathi Highlands|N|Search the Barraks.|FACTION|Horde|I|
+C From Ironforge With Love|QID|84714|M|27.86,25.58|Z|2372; Arathi Highlands|N|Kill Defias and loot boxs.|FACTION|Horde|US|
+T The Search for Danath|QID|84715|M|27.96,34.33|Z|2372; Arathi Highlands|N|To Eitrigg UNDER the barraks.|FACTION|Horde|
+T From Ironforge With Love|QID|84714|M|27.96,34.33|Z|2372; Arathi Highlands|N|To Overlord Geya'rah UNDER the barraks.|FACTION|Horde|
+A Returning to Stromgarde|QID|84716|M|27.96,34.33|Z|2372; Arathi Highlands|N|From Danath Trollbane.|FACTION|Horde|
+T Returning to Stromgarde|QID|84716|M|19.44,58.99|Z|2372; Arathi Highlands|N|To Overlord Geya'rah.|FACTION|Horde|
+A Rise of the Red Dawn|QID|84717|PRE|84716|M|19.39,59.30|Z|2372; Arathi Highlands|N|From Faerin Lothar.|FACTION|Horde|
+
+;~~~~~~~~~~~Alliance~~~~~~~~~~~~~~~~
+A Return to Stromgarde|QID|84657|PRE|84712|M|41.52,61.46|Z|2372; Arathi Highlands|N|From Faerin Lothar.|FACTION|Alliance|
+C Return to Stromgarde|QID|84657|M|17.60,59.94|Z|2372; Arathi Highlands|QO|1|CHAT|N|Speak with Nials in the Stromgarde barracks.|FACTION|Alliance|
+C Return to Stromgarde|QID|84657|M|17.65,59.91|Z|2372; Arathi Highlands|QO|2|NC|N|Await rescue.|FACTION|Alliance|
+T Return to Stromgarde|QID|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|FACTION|Alliance|
+A How Old Are These Things?|QID|87299|PRE|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|FACTION|Alliance|
+A The Search for Faerin|QID|84659|PRE|84657|M|17.70,60.28|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|FACTION|Alliance|
+C How Old Are These Things?|QID|87299|M|13.70,68.35|Z|2372; Arathi Highlands|QO|1|NC|N|Articles of Proof.|S|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|15.25,62.02|Z|2372; Arathi Highlands|QO|1|NC|N|Army tent searched.|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|16.42,68.78|Z|2372; Arathi Highlands|QO|4|NC|N|Home searched.|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|14.56,64.88|Z|2372; Arathi Highlands|QO|2|NC|N|Inn basement searched.|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|14.15,69.35|Z|2372; Arathi Highlands|QO|3|NC|N|Tavern searched.|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|11.12,70.84|Z|2372; Arathi Highlands|QO|5|NC|N|Mage tower searched.|FACTION|Alliance|
+C The Search for Faerin|QID|84659|M|11.03,70.51|Z|2372; Arathi Highlands|QO|6|NC|N|Faerin freed.|FACTION|Alliance|
+C How Old Are These Things?|QID|87299|M|13.70,68.35|Z|2372; Arathi Highlands|QO|1|NC|N|Articles of Proof.|US|FACTION|Alliance|
+T How Old Are These Things?|QID|87299|M|19.33,59.32|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|FACTION|Alliance|
+T The Search for Faerin|QID|84659|M|19.33,59.32|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|FACTION|Alliance|
 A Rise of the Red Dawn|QID|84717|PRE|87299&84659|M|19.39,59.30|Z|2372; Arathi Highlands|N|From Faerin Lothar.|
+;~~~~~~~~~~~~~~~~~~~Neutral~~~~~~~~~~
+;A Rise of the Red Dawn|QID|84717|PRE|87299&84659^84716|M|19.39,59.30|Z|2372; Arathi Highlands|N|From Faerin Lothar.|
 K Joseph the Enlightened|ACTIVE|84717|M|19.41,63.28|Z|2372; Arathi Highlands|QO|1|N|Joseph the Enlightened slain.|T|Joseph the Enlightened|
 C Rise of the Red Dawn|QID|84717|M|21.01,65.02|Z|2372; Arathi Highlands|QO|2|NC|N|Danath and Eitrigg found.|
 T Rise of the Red Dawn|QID|84717|M|21.60,65.02|Z|2372; Arathi Highlands|N|To Danath Trollbane.|
