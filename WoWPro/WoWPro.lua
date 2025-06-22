@@ -632,6 +632,11 @@ function WoWPro:OnEnable()
 		_G.WoWProDevCoords:Show()
 	end
 
+    if WoWProCharDB.DevZone then
+    WoWPro:DevZone()
+    _G.WoWProDevZone:Show()
+    end
+
     -- Module Enabling --
     for name, module in WoWPro:IterateModules() do
         WoWPro:dbp("Enabling "..name.." module...")
@@ -699,12 +704,16 @@ function WoWPro:DevZone()
     if not _G.WoWProDevZone then
         local p,f="player", _G.CreateFrame("EditBox","WoWProDevZone",_G.UIParent,"InputBoxTemplate")
         f:SetPoint("TOP",0,0)
-        f:SetSize(750, 70)
         f:SetScale(f:GetScale())
         f:SetFont("Fonts\\FRIZQT__.TTF",16,"outline")
         f:SetJustifyH("CENTER")
         f:SetJustifyV("MIDDLE")
         f:SetAutoFocus(false)
+        local measure = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
+        measure:SetFont("Fonts\\FRIZQT__.TTF",16,"outline")
+        measure:SetText("")
+        measure:Hide()
+        f.measureFS = measure
         f:SetScript("OnUpdate",function(s,e)
            local map = _G.C_Map.GetBestMapForUnit(p)
             if map then
@@ -712,7 +721,12 @@ function WoWPro:DevZone()
                 if playerpos then
                     local x, y, mapId = WoWPro:GetPlayerZonePosition()
                     if not _G.MouseIsOver(f) then
-                        f:SetText(_G.format("M|%.2f,%.2f|Z|%04d; %s|", x*100, y*100, mapId, WoWPro.GetZoneText()))
+                        local text = _G.format("M|%.2f,%.2f|Z|%04d; %s|", x*100, y*100, mapId, WoWPro.GetZoneText())
+                        f:SetText(text)
+                        f.measureFS:SetText(text)
+                        local w = f.measureFS:GetStringWidth() + 30
+                        local h = f.measureFS:GetStringHeight() + 20
+                        f:SetSize(w, h)
                     end
                 end
             end
