@@ -34,7 +34,7 @@ function WoWPro:RecordTaxiLocations(...)
         local location = (","):split(nomen)
         if (typo ~= "NONE" and typo ~= "DISTANT") and not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
-            WoWPro:Print("Discovered Flight Point: [%s]",location )
+            WoWPro:dbp("Discovered Flight Point: [%s]",location )
         end
         --- if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
         ---     WoWProCharDB.Taxi[location] = nil
