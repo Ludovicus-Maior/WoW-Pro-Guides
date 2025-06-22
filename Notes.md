@@ -1,3 +1,22 @@
+# Release 2025.05.22.A
+## Bug Fixes
+* Update Retail Interface to 110107
+* Close dropdown menus when loading a new guide
+* Add MOP support
+* Add fake item name in case `WoWPro.C_Item_GetItemInfo` fails
+* Freshen up the TomTom/Carbonite arrow message
+* Add new devzone command for guide writers
+* Freshen up output of "where" command
+* Silence some unneeded chatlog text messages
+
+## Guide Updates
+* Vanilla Leveling: Silverpine 12-15, 15-21 Barrens, 21-30 Chapter 1, 31-40 Chapter 2
+* MOP Leveling:  Resurrected all the old MOP guides!
+* Retail Leveling: 46 Guides updated.  Not listing them each!
+* Retail Achievements: Reorganize Heritage armor questlines
+
+
+
 # Release 2025.04.24.A
 ## Bug Fixes
 * Update Retail Interface to 110105
