@@ -54,14 +54,14 @@ function WoWPro.TakeTaxiClassic(destination)
         local location,zone = (","):split(nomen)
         WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone or "?")
         if location:find(destination, 1, true) or (nomen == destination) then
-            WoWPro:Print("Taking flight to: [%s]",location)
+            WoWPro:dbp("Taking flight to: [%s]",location)
             if _G.IsMounted() then
                 _G.Dismount()
             end
             for routeIndex = 1, _G.GetNumRoutes(i) do
                 local sourceSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, true)
                 local destinationSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, false)
-                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, _G.TaxiNodeName(sourceSlotIndex), _G.TaxiNodeName(destinationSlotIndex) )
+                WoWPro:dbp("Taking flight to: [%s] Hop %s => %s",location, _G.TaxiNodeName(sourceSlotIndex), _G.TaxiNodeName(destinationSlotIndex) )
             end
             _G.TakeTaxiNode(i)
             -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
@@ -89,7 +89,7 @@ function WoWPro.TakeTaxiRetail(destination)
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
                 return
             end
-            WoWPro:Print("Taking flight to: [%s]",location)
+            WoWPro:dbp("Taking flight to: [%s]",location)
             if _G.IsMounted() then
                 _G.Dismount()
             end
