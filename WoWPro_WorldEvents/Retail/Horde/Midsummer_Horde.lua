@@ -81,7 +81,7 @@ T Playing with Fire|RANK|2|QID|11915|M|47.6,38.2|N|To the Master Flame Eater.|PR
 T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|N|To the Earthen Ring Elder.|
 
 A Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|PRE|29092^12012|
-F Zoram'gar Strand|ACTIVE|11917|RANK|2|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
+F Zoram'gar Outpost|ACTIVE|11917|RANK|2|M|49.5,59.1|N|Fly to Zoram'gar Outpost.|
 C Striking Back|ACTIVE|11917|RANK|2|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
 H Orgrimmar|ACTIVE|11917|RANK|2|N|Back to Orgrimmar to continue thru the guide.|Z|Ashenvale|
 
