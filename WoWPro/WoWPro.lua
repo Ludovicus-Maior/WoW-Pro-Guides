@@ -726,7 +726,8 @@ function WoWPro:DevZone()
                         f.measureFS:SetText(text)
                         local w = f.measureFS:GetStringWidth() + 30
                         local h = f.measureFS:GetStringHeight() + 20
-                        f:SetSize(w, h)                    end
+                        f:SetSize(w, h)
+                    end
                 end
             end
         end)
