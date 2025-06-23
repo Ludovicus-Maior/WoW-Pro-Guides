@@ -31,7 +31,7 @@ local function handler(msg, editbox)
 			_G.WoWProDevZone:Hide()
 			WoWProCharDB.DevZone = false
 		else
-			if WoWProCharDB.DevCoords then
+			if _G.WoWProDevCoords and _G.WoWProDevCoords:IsVisible() then
                 _G.WoWProDevCoords:Hide()
                 WoWProCharDB.DevCoords = false
             end
