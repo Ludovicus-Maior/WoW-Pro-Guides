@@ -714,22 +714,28 @@ function WoWPro:DevZone()
         measure:SetText("")
         measure:Hide()
         f.measureFS = measure
-        f:SetScript("OnUpdate",function(s,e)
-           local map = _G.C_Map.GetBestMapForUnit(p)
+        local function updateText()
+            local map = _G.C_Map.GetBestMapForUnit(p)
             if map then
                 local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
                 if playerpos then
                     local x, y, mapId = WoWPro:GetPlayerZonePosition()
-                    if not _G.MouseIsOver(f) then
-                        local text = _G.format("M|%.2f,%.2f|Z|%04d; %s|", x*100, y*100, mapId, WoWPro.GetZoneText())
-                        f:SetText(text)
-                        f.measureFS:SetText(text)
-                        local w = f.measureFS:GetStringWidth() + 30
-                        local h = f.measureFS:GetStringHeight() + 20
-                        f:SetSize(w, h)
-                    end
+                    local text = _G.format("M|%.2f,%.2f|Z|%04d; %s|", x*100, y*100, mapId, WoWPro.GetZoneText())
+                    f:SetText(text)
+                    f.measureFS:SetText(text)
+                    local w = f.measureFS:GetStringWidth() + 30
+                    local h = f.measureFS:GetStringHeight() + 20
+                    f:SetSize(w, h)
                 end
             end
+        end
+        f:SetScript("OnUpdate",function(s,e)
+            if not _G.MouseIsOver(f) then
+                updateText()
+            end
+        end)
+        f:SetScript("OnShow", function(frame)
+            updateText()
         end)
         f:Hide()
     end
