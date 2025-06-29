@@ -39,7 +39,7 @@ A Demons Among Us|QID|40593|M|85.30,32.30|Z|84;Stormwind City|N|From Jace Darkwe
 C Demons Among Us|QID|40593|QO|1|M|85.30,32.30|Z|84;Stormwind City|N|Speak to Jace Darkweaver and ask him for the proof.|CHAT|C|-DemonHunter|
 C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|84;Stormwind City|N|Kill infiltrators.|S|C|-DemonHunter|
 ;C Demons Among Us|QID|40593|QO|4|M|80.59,33.38|Z|84;Stormwind City|NC|N|Destroy the Petitioner's Chamber Legion Portal (down the hall, then to the right).|C|-DemonHunter|
-C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|84;Stormwind City|NC|N|Destroy the Courtyard Legion Portal.|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|84;Stormwind City|H|N|Destroy the Courtyard Legion Portal.|C|-DemonHunter|
 C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|84;Stormwind City|N|Finish killing the infiltrators.|US|C|-DemonHunter|
 T Demons Among Us|QID|40593|M|85.76,31.75|Z|84;Stormwind City|N|To Anduin Wrynn.|C|-DemonHunter|
 A Demons Among Them|QID|44463|M|85.30,32.30|Z|84;Stormwind City|N|From Jace Darkweaver.|PRE|40517|C|DemonHunter|
