@@ -176,14 +176,14 @@ C Wrathion|QID|65101|QO|1|M|79.94,27.07|Z|84; Stormwind City|CHAT|N|Speak to Wra
 C An Iconic, Draconic Look|QID|65101|QO|2|M|83.01,24.13|Z|84; Stormwind City|NC|N|Learn about visage form.|FACTION|Alliance|
 C An Iconic, Draconic Look|QID|65101|QO|3|M|82.77,24.02|Z|84; Stormwind City|NC|EAB|N|Assume your mortal visage.|FACTION|Alliance|
 T An Iconic, Draconic Look|QID|65101|M|82.66,24.00|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
-A I Believe You Can Fly|QID|32675|PRE|65101|M|82.66,24.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
+N If you plan to continue on to the Dragon Isle right click on this step to continue./nIf you'd prefer to level elsewhere click on the book for more options.|JUMP|ChromieTimeA|
+;A I Believe You Can Fly|QID|32675|PRE|65101|M|82.66,24.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
 A The Obsidian Warders|QID|72240|PRE|65101|M|80.00,27.10|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|65101|M|79.82,27.26|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-C Dervishian|QID|72240|M|51.05,67.42|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
-C Thaelin Darkanvil|QID|66589|QO|1|M|64.11,37.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
-C Cataloger Wulfered|QID|66589|QO|3|M|63.36,70.02|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in Trade District.|FACTION|Alliance|
-C Dervishian|QID|72240|M|51.05,67.42|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders.|US|FACTION|Alliance|
-C Pathfinder Jeb|QID|66589|QO|2|M|38.45,45.37|Z|84; Stormwind City|CHAT|N|Talk to Pathfinder Jeb at Stormwind Harbor.|FACTION|Alliance|
+C Pathfinder Jeb|QID|66589|QO|2|M|38.39,45.31|Z|84; Stormwind City|CHAT|N|Talk to Pathfinder Jeb at Stormwind Harbor.|FACTION|Alliance|
+C Dervishian|QID|72240|M|39.31,41.45|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders.|FACTION|Alliance|
+C Thaelin Darkanvil|QID|66589|QO|1|M|37.99,35.20|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil.|FACTION|Alliance|
+C Cataloger Wulfered|QID|66589|QO|3|M|33.00,34.61|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.83,55.72|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.83,55.72|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Whispers on the Winds|QID|66596|PRE|66589|M|23.14,55.91|Z|84; Stormwind City|N|From Khadgar.|FACTION|Alliance|
