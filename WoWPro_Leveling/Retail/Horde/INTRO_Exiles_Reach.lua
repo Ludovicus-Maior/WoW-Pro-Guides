@@ -92,6 +92,9 @@ C Who Lurks in the Pit|QID|59949|M|50.90,58.12|QO|1<5|Z|1409; Exile's Reach|N|Co
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|2|Z|1409; Exile's Reach|N|Kill Hrun to rescue Crenna Earth-Daughter. If he is not next to Crenna Earth-Daughter, wait a minute for him to respawn.|
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|3|Z|1409; Exile's Reach|N|Board Crenna Earth-Daughter to ride out of the tunnel.|V|
 T Who Lurks in the Pit|QID|59949|M|52.17,55.34|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
+A Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|From Warlord Breka Grimaxe|
+C Repair Yourself|QID|85679|M|52.44,55.55|Z|1409; Exile's Reach#1409!Instance|N|Talk to Provisioner Jin'hake.|
+T Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|To Warlord Breka Grimaxe|
 A A Druid's Form|QID|59951|M|52.33,55.43|Z|1409; Exile's Reach|N|From Crenna Earth-Daughter.|PRE|59949|C|Druid|
 C A Druid's Form|QID|59951|M|45.37,49.25|NC|Z|1409; Exile's Reach|N|Commune with the Druid Stone.|C|Druid|
 T A Druid's Form|QID|59951|M|45.51,49.25|Z|1409; Exile's Reach|N|To Crenna Earth-Daughter.|C|Druid|
@@ -142,9 +145,6 @@ C Harpy Culling|QID|59945|M|54.28,41.60|Z|1409; Exile's Reach|N|Finish killing H
 T Harpy Culling|QID|59945|M|56.94,46.24|Z|1409; Exile's Reach|N|To Bo.|
 T Purge the Totems|QID|59946|M|56.94,46.24|Z|1409; Exile's Reach|N|To Bo.|
 T The Rescue of Herbert Gloomburst|QID|59944|M|56.90,46.14|Z|1409; Exile's Reach|N|To Herbert Gloomburst.|
-A Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|From Warlord Breka Grimaxe|
-C Repair Yourself|QID|85679|M|52.44,55.55|Z|1409; Exile's Reach#1409!Instance|N|Talk to Provisioner Jin'hake.|
-T Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|To Warlord Breka Grimaxe|
 A Message to Base|QID|59947|M|56.82,46.18|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|PRE|59944&59945&59946|
 T Message to Base|QID|59947|M|52.18,55.34|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
 A A Hunter's Trap|QID|59952|M|52.56,55.44|Z|1409; Exile's Reach|N|From Mithdran Dawntracker.|PRE|59947|C|Hunter|
