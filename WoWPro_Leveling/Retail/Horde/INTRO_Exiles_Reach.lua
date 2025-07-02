@@ -122,23 +122,23 @@ C The Divine's Shield|QID|60174|M|57.10,52.73|QO|1|NC|Z|1409; Exile's Reach|N|Ca
 C The Divine's Shield|QID|60174|M|57.10,52.73|QO|2|NC|Z|1409; Exile's Reach|N|Destroy the Necrotic Alter.|C|Paladin|
 T The Divine's Shield|QID|60174|M|57.57,52.23|Z|1409; Exile's Reach|N|To Daeyla Twilightsbane.|C|Paladin|
 A Freeing the Light|QID|54933|M|58.20,50.22|Z|1409; Exile's Reach|N|From Lightspawn.|LEAD|59985|
-C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|NC|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
-C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|NC|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
-C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|NC|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
-C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|NC|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
+C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|H|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
+C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|H|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
+C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|H|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
+C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|H|Z|1409; Exile's Reach|N|Right-click on the Ritual Pedestal.|
 T Freeing the Light|QID|54933|M|58.18,50.23|Z|1409; Exile's Reach|N|To Lightspawn.|
 T The Harpy Problem|QID|59943|M|56.94,46.24|Z|1409; Exile's Reach|N|To Bo.|
 A Harpy Culling|QID|59945|M|56.94,46.24|Z|1409; Exile's Reach|N|From Bo.|
 A Purge the Totems|QID|59946|M|56.94,46.24|Z|1409; Exile's Reach|N|From Bo.|
 A The Rescue of Herbert Gloomburst|QID|59944|M|56.83,46.16|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|
 C Harpy Culling|QID|59945|M|54.28,41.60|QO|1|Z|1409; Exile's Reach|N|Kill Harpies and Worgs. Don't focus on them as you will finish it in the main quest.|S|
-C Purge the Totems|QID|59946|M|58.23,44.43|QO|1<1|NC|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|58.84,42.96|QO|1<2|NC|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|61.25,41.33|QO|1<3|NC|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|59.01,39.07|QO|1<4|NC|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|58.23,44.43|QO|1<1|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|58.84,42.96|QO|1<2|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|61.25,41.33|QO|1<3|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|59.01,39.07|QO|1<4|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|Z|1409; Exile's Reach|N|Loot the treasure chest.|
 ;K Ogre Taskmaster|QID|ACTIVE|M|58.10,40.50|RARE|Z|1409; Exile's Reach|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
-C Purge the Totems|QID|59946|M|57.18,42.15|QO|1<5|NC|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|57.18,42.15|QO|1<5|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
 C The Rescue of Herbert Gloomburst|QID|59944|M|54.28,41.60|QO|1|Z|1409; Exile's Reach|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|
 C Purge the Totems|QID|59946|M|61.23,41.33|NC|QO|1|Z|1409; Exile's Reach|N|Finish burning the Harpy Totems.|US|
 C Harpy Culling|QID|59945|M|54.28,41.60|Z|1409; Exile's Reach|N|Finish killing Harpies and Worgs.|US|
@@ -201,7 +201,7 @@ $ Precious Ogre Stash|QID|56088|M|41.78,42.92|Z|1409; Exile's Reach|N|Loot the t
 C Like Ogres to the Slaughter|QID|59979|M|46.10,38.50|US|Z|1409; Exile's Reach|N|Finish killing the Ogres.|
 T Catapult Destruction|QID|59980|M|40.36,32.42|Z|1409; Exile's Reach|N|To Herbert Gloomburst.|
 T Like Ogres to the Slaughter|QID|59979|M|40.25,32.55|Z|1409; Exile's Reach|N|To Shuja Grimaxe.|
-C Controlling their Stones|QID|59981|M|39.96,32.12|QO|4|NC|Z|1409; Exile's Reach|N|Click on the wards to disable the runes holding Warlord Thunderwalker.|
+C Controlling their Stones|QID|59981|M|39.96,32.12|QO|4|H|Z|1409; Exile's Reach|N|Click on the wards to disable the runes holding Warlord Thunderwalker.|
 T Controlling their Stones|QID|59981|M|39.92,32.14|Z|1409; Exile's Reach|N|To Warlord Mulgrin Thunderwalker.|
 A Dungeon: Darkmaul Citadel|QID|59984|M|39.94,32.15|Z|1409; Exile's Reach|N|From Warlord Mulgrin Thunderwalker.|PRE|59981|
 C Dungeon: Darkmaul Citadel|QID|59984|Z|1609; Bonebreaker Hall@Darkmaul Citadel|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
@@ -262,10 +262,10 @@ T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|85; Orgrimmar|N|To Gormok Ogre
 A Home Is Where the Hearth Is|QID|60359|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|
 h The Wyvern's Tail|ACTIVE|60359|M|71.31,49.96|Z|85; Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
 T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|85; Orgrimmar|N|To Innkeeper Nufa.|
-A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|85; Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
+;A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|85; Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
 R Grommash Hold|QID|60360|M|49.90,75.62|Z|85; Orgrimmar|N|Head to Grommash Hold. The entrance to Grommash Hold is on the south side of the building.|ACTIVE|60360|
 R Grommash Hold|QID|60360|M|48.26,71.38|Z|85; Orgrimmar|QO|2|N|Head inside Grommash Hold.|
-T An Urgent Meeting|QID|60360|M|48.26,71.38|Z|85; Orgrimmar|N|To Warlord Breka Grimaxe.|
+t An Urgent Meeting|QID|60360|M|48.26,71.38|Z|85; Orgrimmar|N|To Warlord Breka Grimaxe.|
 A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|85; Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
 C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|85; Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
 C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|85; Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
