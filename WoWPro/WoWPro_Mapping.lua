@@ -456,18 +456,18 @@ function WoWPro:MapPoint(row)
 		local y = tonumber(jcoord:match(",([^|]*)"))/100
 		if x and x < 100 and y and y < 100 then
 			local uiMapPoint = _G.UiMapPoint.CreateFromCoordinates(zm, x, y);
-			if uiMapPoint then
+			if uiMapPoint and _G.C_Map and _G.C_Map.SetUserWaypoint then
 				_G.C_Map.SetUserWaypoint(uiMapPoint)
 				_G.C_SuperTrack.SetSuperTrackedUserWaypoint(true)
-				WoWProCharDB.SetWaypoint = true
+				WoWPro.SetWaypoint = true
 			end
 		end
 	elseif WoWPro.QID and WoWPro.QID[stepIndex] then
         local qid = tonumber(WoWPro.QID[stepIndex])
         if qid then
-			if WoWProCharDB.SetWaypoint then
+			if WoWPro.SetWaypoint and _G.C_Map and _G.C_Map.ClearUserWaypoint then
 				_G.C_Map.ClearUserWaypoint()
-				WoWProCharDB.SetWaypoint = false
+				WoWPro.SetWaypoint = false
 			end
 			WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
         end
