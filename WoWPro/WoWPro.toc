@@ -51,6 +51,7 @@ WoWPro_Zones.lua
 WoWPro_ZoneData.lua
 WoWPro_ZoneDataLegacy.lua
 WoWPro_Mapping.lua
+WoWPro_BrokerUtils.lua
 WoWPro_Broker.lua
 WoWPro_Events.lua
 WoWPro_Markup.lua
