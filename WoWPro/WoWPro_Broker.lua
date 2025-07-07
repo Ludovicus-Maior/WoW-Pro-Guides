@@ -163,7 +163,7 @@ function WoWPro.ValidObjective(questtext)
 end
 
 function WoWPro.ValidObjectives(objectives, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(objectives))
     end
     local numObjectives = select("#", (";"):split(objectives))
