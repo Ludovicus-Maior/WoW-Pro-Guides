@@ -22,11 +22,11 @@ WoWPro.playerGroup = {}
 
 -- See if any of the list of QIDs are true using the predicate, respecting logical separators
 function WoWPro:QIDsUsingPredicate(QIDs, predicate, abs_quid, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsUsingPredicate(%s,%s)",tostring(QIDs),tostring(predicate))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",predicate , why or "QIDsUsingPredicate", debug or quids_debug, abs_quid)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",predicate , why or "QIDsUsingPredicate", debug or WoWPro.quids_debug, abs_quid)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsUsingPredicate(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -34,11 +34,11 @@ end
 
 -- See if any of the list of QIDs are in the indicated table, respecting logical separators
 function WoWPro:QIDsInTableLogical(QIDs,tabla, abs_quid, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableLogical(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "QIDsInTableLogical", debug or quids_debug, abs_quid)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "QIDsInTableLogical", debug or WoWPro.quids_debug, abs_quid)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableLogical(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -46,11 +46,11 @@ end
 
 -- See if any of the list of QIDs are in the indicated table, ignoring logical separators
 function WoWPro:QIDsInTable(QIDs,tabla, abs_quid, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] end, why or "QIDsInTable", debug or WoWPro.quids_debug, abs_quid)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -58,11 +58,11 @@ end
 
 -- See if any of the list of QIDs are in the indicated table and return the first
 function WoWPro:QIDInTable(QIDs,tabla, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -70,11 +70,11 @@ end
 
 -- See if any of the list of QIDs are in the indicated table, return a subkey
 function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and tabla[qid][key] end, why or "QIDsInTableKey", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and tabla[qid][key] end, why or "QIDsInTableKey", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -82,11 +82,11 @@ end
 
 -- See if all of the list of QIDs are in the indicated table.
 function WoWPro:AllIDsInTable(QIDs,tabla, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -94,55 +94,55 @@ end
 
 -- Wipe out all the QIDs in the table.
 function WoWPro:WipeQIDsInTable(QIDs,tabla, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
 end
 
 -- Set all the QIDs in the table.
 function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:SetQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:SetQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
 
 function WoWPro.QuestAvailable(QIDs, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro.QuestAvailable(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailable", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailable", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro.QuestAvailable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
 
 function WoWPro.QuestCompleted(QIDs, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro.QuestCompleted(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro:IsQuestFlaggedCompleted(qid, true) and (not WoWPro.QuestLog[qid]) and qid; end, why or "QuestCompleted", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro:IsQuestFlaggedCompleted(qid, true) and (not WoWPro.QuestLog[qid]) and qid; end, why or "QuestCompleted", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro.QuestCompleted(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
 
 function WoWPro:QuestFailed(QIDs, debug, why)
-    if debug or quids_debug then
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QuestFailed(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and tonumber(WoWPro.QuestLog[qid]['complete']) and WoWPro.QuestLog[qid]['complete'] < 0; end, why or "QuestFailed", debug or quids_debug)
-    if debug or quids_debug then
+    local value = WoWPro.QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and tonumber(WoWPro.QuestLog[qid]['complete']) and WoWPro.QuestLog[qid]['complete'] < 0; end, why or "QuestFailed", debug or WoWPro.quids_debug)
+    if debug or WoWPro.quids_debug then
         WoWPro:dbp("WoWPro:QuestFailed(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
@@ -827,7 +827,7 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
         return WoWPro.C_Item_GetItemInfo(use), use
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+    local value = WoWPro.QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or WoWPro.quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
     return value, value
 end
@@ -2024,7 +2024,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
-                if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
+                if WoWPro.QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
                     WoWPro.CompleteStep(guideIndex,"Implicit criteria met")
                 end
             end
@@ -2115,9 +2115,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro.why[guideIndex] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
                         break
                     end
-                elseif stepAction == "T" and QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end, "Skip-CT1") then
+                elseif stepAction == "T" and WoWPro.QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end, "Skip-CT1") then
                     -- For turnins, make sure we have completed the criteria
-                    if WoWPro.conditional[guideIndex] and not QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "Skip-CT2") then
+                    if WoWPro.conditional[guideIndex] and not WoWPro.QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "Skip-CT2") then
                         skip = true
                         WoWPro.why[guideIndex] = "T criteria not met"
                         break
