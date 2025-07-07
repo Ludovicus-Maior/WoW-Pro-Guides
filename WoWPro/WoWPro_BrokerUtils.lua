@@ -1,10 +1,12 @@
 -- Utility functions extracted from WoWPro_Broker.lua
 
+-- luacheck: globals select ipairs pairs next tremove tinsert tostring tonumber type abs max min floor ceil date math debugstack strupper strsub strlower string
+
 local WoWPro = WoWPro or {}
 
 local quids_debug = false
 
-local function QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
+function WoWPro.QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
     if not list then
         if quids_debug then
             WoWPro:dbp("QidMapReduce(nil) default %s", tostring(default))
