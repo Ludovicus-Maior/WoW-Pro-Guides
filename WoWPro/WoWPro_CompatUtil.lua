@@ -8,9 +8,8 @@
     Menu system supports:
     - Modern MenuUtil API (Retail 11.0+)
     - UIDropDownMenu fallback (Classic/MoP Classic)
-    
-]]
 
+]]
 
 --[[ C_GossipInfo ]]--
 function WoWPro.GossipInfo_GetActiveQuests()
@@ -381,12 +380,12 @@ local function CreateMenuGenerator(menuList)
         if not menuList or type(menuList) ~= "table" or #menuList == 0 then
             return
         end
-        
+
         -- Check if rootDescription has expected methods
         if not rootDescription or not rootDescription.CreateButton then
             return
         end
-        
+
         -- Recursive function to populate a menu description
         local function PopulateDescription(description, items)
             for i, item in ipairs(items) do
@@ -402,7 +401,7 @@ local function CreateMenuGenerator(menuList)
                         -- Regular menu item
                         local callback = item.func or function() end
                         local button = description:CreateButton(item.text, callback)
-                        
+
                         if item.checked then
                             button:SetChecked(item.checked)
                         end
@@ -413,7 +412,7 @@ local function CreateMenuGenerator(menuList)
                 end
             end
         end
-        
+
         PopulateDescription(rootDescription, menuList)
     end
 end
@@ -422,13 +421,12 @@ function WoWPro.ShowContextMenu(menuList)
     if not menuList or type(menuList) ~= "table" or #menuList == 0 then
         return
     end
-    
+
     if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
         local success = pcall(function() -- luacheck: ignore 211
             local generator = CreateMenuGenerator(menuList)
             _G.MenuUtil.CreateContextMenu(_G.UIParent, generator)
         end)
-        
         if not success then
             if _G.MenuUtil.CreateFromList then
                 local success2 = pcall(function() -- luacheck: ignore 211
@@ -441,7 +439,7 @@ function WoWPro.ShowContextMenu(menuList)
                     return
                 end
             end
-            
+
             ShowLegacyDropDownMenu(menuList)
         end
     else
@@ -449,7 +447,6 @@ function WoWPro.ShowContextMenu(menuList)
         ShowLegacyDropDownMenu(menuList)
     end
 end
-
 -- Note: EasyMenu was removed in modern WoW, so this now redirects to our compatibility layer
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay) 
     WoWPro.ShowContextMenu(menuList)
