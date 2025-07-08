@@ -4,6 +4,11 @@
     This is a compatability layer between Classic and Retail, and is
     intended to convert the old API that Classic uses into the newer
     API that Retail uses or will use.
+    
+    Menu system supports:
+    - Modern MenuUtil API (Retail 11.0+)
+    - UIDropDownMenu fallback (Classic/MoP Classic)
+    
 ]]
 
 
@@ -349,27 +354,105 @@ function WoWPro.C_Item_IsEquippedItem(itemID)
     end
 end
 
--- [[EasyMenu]]
-local function EasyMenu_Initialize( frame, level, menuList )
-	for index = 1, #menuList do
-		local value = menuList[index]
-		if (value.text) then
-			value.index = index;
-			_G.UIDropDownMenu_AddButton( value, level );
-		end
-	end
+-- [[MenuUtil]]
+-- Legacy UIDropDownMenu initialization for Classic/MOP
+local function EasyMenu_Initialize(frame, level, menuList)
+    for index = 1, #menuList do
+        local value = menuList[index]
+        if (value.text) then
+            value.index = index
+            _G.UIDropDownMenu_AddButton(value, level)
+        end
+    end
 end
 
-function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
-    if not _G.EasyMenu then
-        if ( displayMode == "MENU" ) then
-            menuFrame.displayMode = displayMode;
-        end
-        _G.UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, displayMode, nil, menuList);
-        _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
-    else
-        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+-- Helper function to show legacy UIDropDownMenu
+local function ShowLegacyDropDownMenu(menuList)
+    if _G.UIDropDownMenu_Initialize and _G.ToggleDropDownMenu then
+        local menuFrame = _G.CreateFrame("Frame", "WoWPro_TempMenu" .. math.random(1000, 9999), _G.UIParent, "UIDropDownMenuTemplate")
+        _G.UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, "MENU", nil, menuList)
+        _G.ToggleDropDownMenu(1, nil, menuFrame, "cursor", 0, 0, menuList, nil, nil)
     end
+end
+
+local function CreateMenuGenerator(menuList)
+    return function(owner, rootDescription)
+        -- Validate input first
+        if not menuList or type(menuList) ~= "table" or #menuList == 0 then
+            return
+        end
+        
+        -- Check if rootDescription has expected methods
+        if not rootDescription or not rootDescription.CreateButton then
+            return
+        end
+        
+        -- Recursive function to populate a menu description
+        local function PopulateDescription(description, items)
+            for i, item in ipairs(items) do
+                if item and type(item) == "table" and item.text then
+                    if item.isTitle then
+                        -- Add title/separator
+                        description:CreateTitle(item.text)
+                    elseif item.menuList and #item.menuList > 0 then
+                        -- Create submenu
+                        local submenu = description:CreateButton(item.text)
+                        PopulateDescription(submenu, item.menuList)
+                    else
+                        -- Regular menu item
+                        local callback = item.func or function() end
+                        local button = description:CreateButton(item.text, callback)
+                        
+                        if item.checked then
+                            button:SetChecked(item.checked)
+                        end
+                        if item.disabled then
+                            button:SetEnabled(not item.disabled)
+                        end
+                    end
+                end
+            end
+        end
+        
+        PopulateDescription(rootDescription, menuList)
+    end
+end
+
+function WoWPro.ShowContextMenu(menuList)
+    if not menuList or type(menuList) ~= "table" or #menuList == 0 then
+        return
+    end
+    
+    if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+        local success, error = pcall(function()
+            local generator = CreateMenuGenerator(menuList)
+            _G.MenuUtil.CreateContextMenu(_G.UIParent, generator)
+        end)
+        
+        if not success then
+            if _G.MenuUtil.CreateFromList then
+                local success2, error2 = pcall(function()
+                    local menu = _G.MenuUtil.CreateFromList(_G.UIParent, menuList)
+                    if menu and menu.ShowAtCursor then
+                        menu:ShowAtCursor()
+                    end
+                end)
+                if success2 then
+                    return
+                end
+            end
+            
+            ShowLegacyDropDownMenu(menuList)
+        end
+    else
+        -- Fallback to legacy UIDropDownMenu system for older clients
+        ShowLegacyDropDownMenu(menuList)
+    end
+end
+
+-- Note: EasyMenu was removed in modern WoW, so this now redirects to our compatibility layer
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay)
+    WoWPro.ShowContextMenu(menuList)
 end
 
 function WoWPro.IsValidAchievement(achnum)

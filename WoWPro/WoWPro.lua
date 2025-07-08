@@ -943,7 +943,9 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
             sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
             func = function()
                 WoWPro:LoadGuide(GID)
-                _G.CloseDropDownMenus()
+                if not WoWPro.RETAIL then
+                    _G.CloseDropDownMenus()
+                end
             end
         })
     end
@@ -1027,9 +1029,7 @@ end
 
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
-    local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
-    menuFrame:SetPoint("Center", _G.UIParent, "Center")
-    WoWPro.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
+    WoWPro.ShowContextMenu(WoWPro.GuideMenuList)
 end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
