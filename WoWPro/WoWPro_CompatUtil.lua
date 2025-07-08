@@ -1,4 +1,4 @@
--- luacheck: globals tinsert select string unpack
+-- luacheck: globals tinsert select string unpack math ipairs type pcall
 
 --[[
     This is a compatability layer between Classic and Retail, and is
@@ -356,7 +356,7 @@ end
 
 -- [[MenuUtil]]
 -- Legacy UIDropDownMenu initialization for Classic/MOP
-local function EasyMenu_Initialize(frame, level, menuList)
+local function EasyMenu_Initialize(frame, level, menuList) 
     for index = 1, #menuList do
         local value = menuList[index]
         if (value.text) then
@@ -376,7 +376,7 @@ local function ShowLegacyDropDownMenu(menuList)
 end
 
 local function CreateMenuGenerator(menuList)
-    return function(owner, rootDescription)
+    return function(owner, rootDescription) 
         -- Validate input first
         if not menuList or type(menuList) ~= "table" or #menuList == 0 then
             return
@@ -424,14 +424,14 @@ function WoWPro.ShowContextMenu(menuList)
     end
     
     if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
-        local success, error = pcall(function()
+        local success = pcall(function() -- luacheck: ignore 211
             local generator = CreateMenuGenerator(menuList)
             _G.MenuUtil.CreateContextMenu(_G.UIParent, generator)
         end)
         
         if not success then
             if _G.MenuUtil.CreateFromList then
-                local success2, error2 = pcall(function()
+                local success2 = pcall(function() -- luacheck: ignore 211
                     local menu = _G.MenuUtil.CreateFromList(_G.UIParent, menuList)
                     if menu and menu.ShowAtCursor then
                         menu:ShowAtCursor()
@@ -451,7 +451,7 @@ function WoWPro.ShowContextMenu(menuList)
 end
 
 -- Note: EasyMenu was removed in modern WoW, so this now redirects to our compatibility layer
-function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay)
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay) 
     WoWPro.ShowContextMenu(menuList)
 end
 
