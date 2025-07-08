@@ -4,7 +4,7 @@
     This is a compatability layer between Classic and Retail, and is
     intended to convert the old API that Classic uses into the newer
     API that Retail uses or will use.
-    
+
     Menu system supports:
     - Modern MenuUtil API (Retail 11.0+)
     - UIDropDownMenu fallback (Classic/MoP Classic)
@@ -355,7 +355,7 @@ end
 
 -- [[MenuUtil]]
 -- Legacy UIDropDownMenu initialization for Classic/MOP
-local function EasyMenu_Initialize(frame, level, menuList) 
+local function EasyMenu_Initialize(frame, level, menuList)
     for index = 1, #menuList do
         local value = menuList[index]
         if (value.text) then
@@ -375,7 +375,7 @@ local function ShowLegacyDropDownMenu(menuList)
 end
 
 local function CreateMenuGenerator(menuList)
-    return function(owner, rootDescription) 
+    return function(owner, rootDescription)
         -- Validate input first
         if not menuList or type(menuList) ~= "table" or #menuList == 0 then
             return
@@ -448,7 +448,7 @@ function WoWPro.ShowContextMenu(menuList)
     end
 end
 -- Note: EasyMenu was removed in modern WoW, so this now redirects to our compatibility layer
-function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay) 
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay)
     WoWPro.ShowContextMenu(menuList)
 end
 
