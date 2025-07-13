@@ -4,31 +4,29 @@ WoWPro:GuideName(guide,"Westfall")
 WoWPro:GuideNextGuide(guide, 'Redridge Mountains')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Westfall|ACTIVE|184^26378^28562|Z|0052; Westfall|N|Follow the road west from Goldshire.|
-T Furlbrow's Deed|QID|184|M|60.05,19.40|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|O|
+R Westfall|ACTIVE|184^26378^28562|M|62.36,17.24|Z|0052; Westfall|N|Follow the road west from Goldshire.|
+T Furlbrow's Deed|QID|184|M|60.05,19.26|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|O|
 T Hero's Call: Westfall!|QID|26378^28562|M|60.05,19.28|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
-A Murder Was The Case That They Gave Me|QID|26209|M|60.05,19.40|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
+A Murder Was The Case That They Gave Me|QID|26209|M|60.05,19.26|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
 C Murder Was The Case That They Gave Me|QID|26209|M|58.26,18.50|Z|0052; Westfall|N|Question the Drifters, Transient, and Homeless in the field.\n[color=FF0000]NOTE: [/color]Some will fight you, some give information.|CHAT|
-T Murder Was The Case That They Gave Me|QID|26209|M|60.10,19.32|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
-A Hot On the Trail: The Riverpaw Clan|QID|26213|PRE|26209|M|60.10,19.32|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|S|
-A Hot On the Trail: Murlocs|QID|26214|PRE|26209|M|60.10,19.32|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
-A Hot On the Trail: The Riverpaw Clan|QID|26213|PRE|26209|M|60.10,19.32|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|US|
-K Murlocs|AVAILABLE|26353|Z|0052; Westfall|N|Kill and loot Murlocs until they drop a Treasure Map.|S!US|L|1357|RANK|2|
+T Murder Was The Case That They Gave Me|QID|26209|M|60.05,19.26|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
+A Hot On the Trail: Murlocs|QID|26214|PRE|26209|M|60.05,19.26|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
+A Hot On the Trail: The Riverpaw Clan|QID|26213|PRE|26209|M|60.05,19.26|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
+C Murlocs|AVAILABLE|26353|Z|0052; Westfall|L|1357|ITEM|1357|N|Murlocs.|RANK|2|
+A Captain Sanders' Hidden Treasure|QID|26353|M|PLAYER|CC|N|Accept the quest dropped by the Murlocs.|U|1357|O|
 C Hot On the Trail: Murlocs|QID|26214|M|55.98,11.02|Z|0052; Westfall|N|Kill and loot Murlocs until you have their clue.|S|
 C Hot On the Trail: The Riverpaw Clan|QID|26213|M|58.75,14.00|Z|0052; Westfall|N|Kill and loot Riverpaw Gnolls until you have their clue.|
 C Hot On the Trail: Murlocs|QID|26214|M|55.98,11.02|Z|0052; Westfall|N|Kill and loot Murlocs until you have their clue.|US|
-A Captain Sanders' Hidden Treasure|QID|26353|M|55.98,11.02|Z|0052; Westfall|N|Accept the quest dropped by the Murlocs|U|1357|RANK|2|
-T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|S|
-T Hot On the Trail: Murlocs|QID|26214|M|60.10,19.32|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
-T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|US|
-A Meet Two-Shoed Lou|QID|26215|PRE|26213&26214|M|60.13,19.37|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
+T Hot On the Trail: Murlocs|QID|26214|M|60.05,19.26|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
+T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.05,19.26|Z|0052; Westfall|N|To Lieutenant Horatio Laine.|
+A Meet Two-Shoed Lou|QID|26215|PRE|26213&26214|M|60.05,19.26|Z|0052; Westfall|N|From Lieutenant Horatio Laine.|
 f Furlbrow's Pumpkin Farm|QID|26215|M|49.85,18.75|Z|0052; Westfall|N|At Hoboair.|
 T Meet Two-Shoed Lou|QID|26215|M|49.71,19.41|Z|0052; Westfall|N|To Two-Shoed Lou.|
 A Livin' the Life|QID|26228|PRE|26215|M|49.71,19.41|Z|0052; Westfall|N|From Two-Shoed Lou.|
 A "I TAKE Candle!"|QID|26229|PRE|26215|M|49.59,19.60|Z|0052; Westfall|N|From Jimb "Candles" McHannigan.|RANK|2|
 A Feast or Famine|QID|26230|PRE|26215|M|49.52,19.08|Z|0052; Westfall|N|From Mama Celeste inside the cabin.|RANK|2|
 C Feast or Famine|QID|26230|M|52.83,22.45|Z|0052; Westfall|N|Kill Coyotes for their tails, and collect fresh dirt from the mounds.|
-C "I TAKE Candle!"|QID|26229|M|44.62,25.80|QO|1|Z|0052; Westfall|N|Kill Kobold Diggers you find outside and inside Jangalode Mine.|S|
+C "I TAKE Candle!"|QID|26229|M|44.62,25.80|Z|0052; Westfall|N|Kill Kobold Diggers you find outside and inside Jangalode Mine.|S|
 R Jangolode Mine|ACTIVE|26228|M|44.54,25.17|Z|0052; Westfall|N|Head to the Jangolode Mine.|
 C Livin' the Life|QID|26228|M|44.54,24.96;46.44,19.31|CS|Z|0052; Westfall|N|Use Two-Shoed Lou's Old House at the back of the cave.|U|57761|NC|
 C "I TAKE Candle!"|QID|26229|M|44.62,25.80|Z|0052; Westfall|N|Finish killing Kobold on your way out.|US|
@@ -134,9 +132,9 @@ T A Vision of the Past|QID|26320|M|56.32,47.52|Z|0052; Westfall|N|To Marshal Gry
 A Rise of the Brotherhood|QID|26322|PRE|26320|M|56.32,47.52|Z|0052; Westfall|N|From Marshal Gryan Stoutmantle.|
 C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|Z|0052; Westfall|N|Watch the scene.|NC|
 F Stormwind|ACTIVE|26322|M|56.64,49.44|Z|0052; Westfall|N|Fly to Stormwind City.|TZ|Stormwind City|
-T Rise of the Brotherhood|QID|26322|M|85.80,31.70|Z|1453; Stormwind City|N|To King Varian Wrynn.|
-A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.80,31.70|Z|1453; Stormwind City|N|From King Varian Wrynn.|
-F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|1453; Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|U|6948|
+T Rise of the Brotherhood|QID|26322|M|85.80,31.70|Z|0084; Stormwind City|N|To King Varian Wrynn.|
+A Return to Sentinel Hill|QID|26370|PRE|26322|M|85.80,31.70|Z|0084; Stormwind City|N|From King Varian Wrynn.|
+F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|0084; Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|U|6948|
 T Return to Sentinel Hill|QID|26370|M|56.37,49.63|Z|0052; Westfall|N|To Marshal Gryan Stoutmantle.|
 N Skip the next 2 steps, if you don't plan on following the guide to Redridge Mountains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Threat to the Kingdom|AVAILABLE|26761|PRE|26370|M|56.37,49.63|Z|0052; Westfall|N|From Marshal Gryan Stoutmantle.|

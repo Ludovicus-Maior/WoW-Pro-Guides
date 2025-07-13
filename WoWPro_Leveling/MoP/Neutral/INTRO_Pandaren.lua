@@ -267,7 +267,7 @@ A Warchief's Command: Azshara!|QID|28496|AVAILABLE|26642&28494&28496|M|49.67,76.
 D Onwards|ACTIVE|25648^28496|N|This ends Pandaren: Intro.\nAzshara is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitAzs1220|
 T Joining the Alliance|QID|30987|M|85.78,31.70|Z|84;Stormwind City|N|To King Varian Wrynn, in Stormwind Keep.|FACTION|Alliance|
 A The Alliance Way|QID|30988|PRE|30987|M|85.78,31.70|Z|84;Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
-C The Alliance Way|QID|30988|M|82.60,28.07|Z|85; Orgrimmar|N|Listen to King Varian Wrynn.\n[color=FF0000]NOTE: [/color]You can follow the King on his tour of Stormwind Keep, or skip this step and just meet him at the final location.|FACTION|Alliance|CHAT|
+C The Alliance Way|QID|30988|M|82.60,28.07|Z|84; Stormwind City|N|Listen to King Varian Wrynn.\n[color=FF0000]NOTE: [/color]You can follow the King on his tour of Stormwind Keep, or skip this step and just meet him at the final location.|FACTION|Alliance|CHAT|
 T The Alliance Way|QID|30988|M|82.60,28.07|Z|84; Stormwind City|N|To King Varian Wrynn.|FACTION|Alliance|
 A An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|84; Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
 C An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|84; Stormwind City|N|Defeat King Varian Wrynn.|FACTION|Alliance|
