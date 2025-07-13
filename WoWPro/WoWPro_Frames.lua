@@ -99,23 +99,23 @@ function WoWPro:TitlebarSet()
     WoWPro:dbp("WoWPro:TitlebarSet()")
 -- Titlebar enable/disable --
     WoWPro:TitlebarShow()
-	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
-		WoWPro.Titlebar:SetBackdrop( {
-			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-			tile = true, tileSize = 16,
-			insets = { left = 17,  right = 17,  top = 16,  bottom = -6 }
-		})
-		WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, -6)
-		WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, -6)
-	else
-		WoWPro.Titlebar:SetBackdrop( {
-			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-			tile = true, tileSize = 16,
-			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-		})
-		WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
-		WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
-	end
+    if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
+        WoWPro.Titlebar:SetBackdrop( {
+            bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+            tile = true, tileSize = 16,
+            insets = { left = 17,  right = 17,  top = 16,  bottom = -6 }
+        })
+        WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, -6)
+        WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, -6)
+    else
+        WoWPro.Titlebar:SetBackdrop( {
+            bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+            tile = true, tileSize = 16,
+            insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+        })
+        WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
+        WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
+    end
 -- Colors --
     WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 
@@ -133,22 +133,22 @@ end
 function WoWPro:BackgroundSet()
     WoWPro:dbp("WoWPro:BackgroundSet()")
 -- Textures and Borders --
-	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
-		WoWProDB.profile.pad = 14
-		WoWPro.MainFrame:SetBackdrop( {
-			bgFile = WoWProDB.profile.bgtexture,
-			edgeFile = WoWProDB.profile.bordertexture,
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 16,  right = 16,  top = 16,  bottom = 16 }
-		})
-	else
-		WoWPro.MainFrame:SetBackdrop( {
-			bgFile = WoWProDB.profile.bgtexture,
-			edgeFile = WoWProDB.profile.bordertexture,
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-		})
-	end
+    if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
+        WoWProDB.profile.pad = 14
+        WoWPro.MainFrame:SetBackdrop( {
+            bgFile = WoWProDB.profile.bgtexture,
+            edgeFile = WoWProDB.profile.bordertexture,
+            tile = true, tileSize = 16, edgeSize = 16,
+            insets = { left = 16,  right = 16,  top = 16,  bottom = 16 }
+        })
+    else
+        WoWPro.MainFrame:SetBackdrop( {
+            bgFile = WoWProDB.profile.bgtexture,
+            edgeFile = WoWProDB.profile.bordertexture,
+            tile = true, tileSize = 16, edgeSize = 16,
+            insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+        })
+    end
     WoWPro.StickyFrame:SetBackdrop( {
         bgFile = WoWProDB.profile.stickytexture,
         tile = true, tileSize = 16
@@ -178,14 +178,14 @@ function WoWPro:RowColorSet()
             row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
         end
 
-		-- Jump Override
-		if row.jumpbutton:IsShown() then
-			row:SetBackdrop( {
+        -- Jump Override
+        if row.jumpbutton:IsShown() then
+            row:SetBackdrop( {
                 bgFile = "Interface\\AchievementFrame\\UI-GuildAchievement-Parchment-Horizontal",
                 tile = false
             })
-			row:SetBackdropColor(0.2803921568627451, 0.411764705882353, 1, 0.9)
-		end
+            row:SetBackdropColor(0.2803921568627451, 0.411764705882353, 1, 0.9)
+        end
     end
 end
 function WoWPro.RowFontSet()
@@ -492,7 +492,7 @@ function WoWPro:CreateMainFrame()
             WoWPro:dbp("Clicking FauxJumpButton")
         end
     end)
-	WoWPro.FauxEAButton = _G.CreateFrame("Frame", "WoWPro_FauxEAButton", _G.UIParent)
+    WoWPro.FauxEAButton = _G.CreateFrame("Frame", "WoWPro_FauxEAButton", _G.UIParent)
     WoWPro.FauxEAButton:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" then
             WoWPro:dbp("Clicking FauxEAButton")
@@ -592,7 +592,9 @@ end)
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
             WoWPro.AnchorStore("OnDoubleClick1")
+            WoWPro.Collapsed = true
         else
+            WoWPro.Collapsed = false
             WoWPro.GuideFrame:Show()
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
@@ -691,13 +693,13 @@ function WoWPro:CreateRows()
         row.note = WoWPro:CreateNote(row, row.action)
         row.track = WoWPro:CreateTrack(row, row.action)
         row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(row, i)
-		row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
+        row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
         row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
-		row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(i)
+        row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(i)
         row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
         row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(row, i)
-		row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(row, i)
-		row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
+        row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(row, i)
+        row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
 
         local highlight = row:CreateTexture()
         highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
