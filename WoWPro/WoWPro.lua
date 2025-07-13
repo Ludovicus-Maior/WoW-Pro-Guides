@@ -734,7 +734,7 @@ function WoWPro:DevZone()
                 updateText()
             end
         end)
-        f:SetScript("OnShow", function(self)
+        f:SetScript("OnShow", function(_)
             updateText()
         end)
         f:Hide()
