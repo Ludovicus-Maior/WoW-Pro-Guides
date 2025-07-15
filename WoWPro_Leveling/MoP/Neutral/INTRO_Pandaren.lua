@@ -246,6 +246,7 @@ A A New Fate|QID|31450|PRE|29800|M|51.45,48.29|Z|378; The Wandering Isle|N|From 
 C A New Fate|QID|31450|M|51.45,48.29|Z|378; The Wandering Isle|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|CHAT|
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|M|PLAYER|CC|N|To Ji Firepaw.|
+N Please either do a /reload or click the target button next to the guide window. After the reload you can RIGHT click this step off.|T|self,reload|FACTION|Neutral|
 A Joining the Horde|QID|31012|PRE|31450|M|45.58,12.61|Z|1; Durotar|N|From Ji Firepaw.|FACTION|Horde|
 A Joining the Alliance|QID|30987|PRE|31450|M|74.21,91.97|Z|84; Stormwind City|N|From Aysa Cloudsinger.|FACTION|Alliance|
 T Joining the Horde|QID|31012|M|48.11,70.46|Z|85; Orgrimmar|N|To Garrosh Hellscream in Grommash Hold.|FACTION|Horde|
