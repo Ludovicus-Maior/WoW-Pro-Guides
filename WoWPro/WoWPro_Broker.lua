@@ -705,7 +705,6 @@ function WoWPro:UpdateGuide(From)
 end
 
 -- Guide Update --
-local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 WoWPro.GuideOffset = nil
 
 -- Update Quest Tracker --
@@ -1687,9 +1686,9 @@ function WoWPro.UpdateGuideReal(From)
                         WoWPro.rows[i]:SetChecked(nil)
                         if WoWPro.Recorder then
                             WoWPro:RowLeftClick(i)
-                            WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.ShowContextMenu(WoWPro.Recorder.RowDropdownMenu[i])
                         else
-                            WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.ShowContextMenu(WoWPro.RowDropdownMenu[i])
                         end
                     end
                 end)
