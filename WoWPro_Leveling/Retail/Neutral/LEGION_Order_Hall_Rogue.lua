@@ -126,12 +126,12 @@ T Fangs of the Devourer|QID|41924|M|40.82,75.40|N|To Valeera Sanguinar back in t
 
 ;After finishing first artifact-Class Hall
 A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924^40849^42627|
-C Honoring Success|QID|40950|QO|2|M|42.23,77.09|NC|N|Wait a bit for the dialog and then raise your glass (extra action button).|
-C Honoring Success|QID|40950|QO|3|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
+C Honoring Success|QID|40950|QO|1|M|42.23,77.09|NC|N|Wait a bit for the dialog and then raise your glass (extra action button).|EAB|
+C Honoring Success|QID|40950|QO|2|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
 T Honoring Success|QID|40950|M|41.43,78.10|N|To Lord Jorach Ravenholdt.|
 
 ;2nd spec artifact
-A Another Worthy Blade|QID|44034|M|41.41,78.21|N|2nd Artifact Weapon from Lord Jorach Ravenholdt. Skip if you want to ignore this for now.|PRE|40950|
+A Another Worthy Blade|QID|44034|M|41.41,78.21|N|2nd Artifact Weapon from Lord Jorach Ravenholdt. Skip if you want to ignore this for now.|PRE|40950&40996|
 C Another Worthy Blade|QID|44034|M|41.41,78.21|NC|N|Choose your next artifact to pursue. It will confirm you want to change specs after you choose. You can do the 3rd spec immediately after finishing the 2nd.|
 T Another Worthy Blade|QID|44034|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Artifact Specific Quest|QID|42501^40847|M|41.44,78.08|N|From one of the NPCs in this room for your second set of blades.|PRE|41919&44034|

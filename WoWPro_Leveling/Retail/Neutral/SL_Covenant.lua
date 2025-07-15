@@ -857,11 +857,12 @@ T Assistance from Sinfall|QID|58557|M|60.39,60.82|Z|1525;Revendreth|N|To The Cur
 A Overhead Intelligence|QID|58558|PRE|58557|M|60.39,60.82|Z|1525;Revendreth|N|From The Curator.|COV|Kyrian|
 A Eyes of the Master|QID|58559|PRE|58557|M|60.33,60.82|Z|1525;Revendreth|N|From Kleia.|COV|Kyrian|
 A Gothic Fashion|QID|58560|PRE|58557|M|50.40,52.89|Z|1525;Revendreth|N|From Pelagos, as you get to the Chalice District.|COV|Kyrian|
-C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|1525;Revendreth|QO|1|S|US|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
+C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|1525;Revendreth|QO|1|S|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
 C Gothic Fashion|QID|58560|M|51.92,47.12|Z|1525;Revendreth|S|US|N|Kill Chalice Residents for Venthyr clothing.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|52.86,45.04|Z|1525;Revendreth|QO|2|T|Guardian Mastrus|N|Guardian Mastrus slain.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|50.87,51.60|Z|1525;Revendreth|QO|1|T|Evaala|N|Evaala the All-Seeing slain.|COV|Kyrian|
 C Eyes of the Master|QID|58559|M|48.41,53.98|Z|1525;Revendreth|QO|3|T|Keraal|N|Keraal the Ripper slain.|COV|Kyrian|
+C Overhead Intelligence|QID|58558|M|54.26,47.68|Z|1525;Revendreth|QO|1|US|N|Kill Chalice Couriers to find Rumors of Favor.|COV|Kyrian|
 T Gothic Fashion|QID|58560|M|54.84,45.69;56.32,41.37|Z|1525;Revendreth|CS|N|To Pelagos.|COV|Kyrian|
 T Eyes of the Master|QID|58559|M|56.36,41.42|Z|1525;Revendreth|N|To Kleia.|COV|Kyrian|
 T Overhead Intelligence|QID|58558|M|56.36,41.42|Z|1525;Revendreth|N|To The Curator.|COV|Kyrian|
@@ -951,7 +952,8 @@ C Gorm Ruin Everything|QID|58938|M|50.41,76.27|Z|1565;Ardenweald!The Shadowlands
 T Gorm Ruin Everything|QID|58938|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 T Evil Grubbies|QID|58937|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A The Blue Seed|QID|58939|PRE|58937&58938|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|From Pelagos.|COV|Kyrian|
-C The Blue Seed|QID|58939|M|51.25,77.36|Z|1565;Ardenweald!The Shadowlands|QO|1;2|EAB|N|Locate Cave entrance, use EAB to destroy Bramble.|COV|Kyrian|
+C The Blue Seed|QID|58939|M|51.25,77.36|Z|1565;Ardenweald!The Shadowlands|QO|1|EAB|N|Locate Cave entrance.|COV|Kyrian|
+C The Blue Seed|QID|58939|M|51.25,77.36|Z|1565;Ardenweald!The Shadowlands|QO|2|EAB|N|use EAB to destroy Bramble.|COV|Kyrian|
 C The Blue Seed|QID|58939|M|50.84,77.35|Z|1565;Ardenweald!The Shadowlands|QO|3|NC|N|Loot Ripened Anima Seed.|COV|Kyrian|
 T The Blue Seed|QID|58939|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|To Willowblossom.|COV|Kyrian|
 A Seeds Away!|QID|58857|PRE|58939|M|PLAYER|Z|1565;Ardenweald!The Shadowlands|N|From Willowblossom.|COV|Kyrian|
@@ -1037,7 +1039,8 @@ T A Touch of Humility|QID|62555|M|55.27,42.39|Z|1707;Archon's Rise@Elysian Hold!
 N Renown Level 22|AVAILABLE|58854|N|You must reach Renown level 22 to continue to the next chapter.|COV|Kyrian|REN|-22|
 A Convene the Paragons|QID|58854|PRE|62555|M|55.27,42.39|Z|1707;Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|REN|22|
 C Convene the Paragons|QID|58854|M|56.02,41.27|Z|1707;Archon's Rise@Elysian Hold!Dungeon|QO|1|NC|N|Click on the Echo of Aeons, to Summon the Paragons.|COV|Kyrian|
-C Convene the Paragons|QID|58854|M|58.15,40.37|Z|1707;Archon's Rise@Elysian Hold!Dungeon|QO|2;3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
+C Convene the Paragons|QID|58854|M|58.15,40.37|Z|1707;Archon's Rise@Elysian Hold!Dungeon|QO|2|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
+C Convene the Paragons|QID|58854|M|58.15,40.37|Z|1707;Archon's Rise@Elysian Hold!Dungeon|QO|3|NC|N|Enter Archon's Rise, as the Paragons arrive, to plan an Assualt.|COV|Kyrian|
 T Convene the Paragons|QID|58854|M|55.51,42.47|Z|1707;Archon's Rise@Elysian Hold!Dungeon|N|To Polemarch Adrestes.|COV|Kyrian|
 A Before the Dawn|QID|58844|PRE|58854|M|55.51,42.47|Z|1707;Archon's Rise@Elysian Hold!Dungeon|N|From Polemarch Adrestes.|COV|Kyrian|
 F Aspirant's Rest|ACTIVE|58844|M|51.31,48.72|Z|1707;Archon's Rise@Elysian Hold!Dungeon|QO|1|IZ|-11014|N|Head to the flightmaster and take a flight to Aspirant's Rest.\n\n Or you can use your gateway to go directly to the Temple of Purity if you have it unlocked.|COV|Kyrian|
