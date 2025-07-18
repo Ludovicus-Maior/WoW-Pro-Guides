@@ -558,6 +558,14 @@ WoWPro.RegisterEventHandler("PLAYER_LEAVING_WORLD", function(event, ...)
     WoWPro.InitLockdown = true
     end)
 
+--- Check for a faction change
+if not WoWPro.CLASSIC then
+    WoWPro.RegisterEventHandler("NEUTRAL_FACTION_SELECT_RESULT", function (event, ...)
+        WoWPro:dbp("Detected Faction selection. Re-evaluating guide.")
+        WoWPro:UpdateGuide(event)
+    end)
+end
+
 -- Check to see if the current zone is mapped properly.
 WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
     WoWPro.CheckHBDData()
