@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 5)
 WoWPro:GuideLevels(guide,74,77,76.5)
 WoWPro.Dailies:GuideFaction(guide,1104) --  "Frenzyheart Tribe"
 WoWPro:GuideSteps(guide, function()

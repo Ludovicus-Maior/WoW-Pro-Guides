@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-local guide = WoWPro:RegisterGuide("Tailoring", "Profession", "Tailoring", "WoWPro Team", "Neutral",4)
+local guide = WoWPro:RegisterGuide("Tailoring", "Profession", "Tailoring", "WoWPro Team", "Neutral", 5)
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Tailoring")
@@ -39,7 +39,7 @@ M [item=2997/Bolt of Woolen Cloth]|QID|171000014|L|2997 45|N|Make until your ski
 M [item=10047/Simple Kilt]|QID|171000015|L|10047 13|N|Make until your skill level reaches 110|
 M [item=4314/Double-stitched Woolen Shoulders]|QID|171000016|L|4314 15|N|Make until your skill level reaches 125|
 = Learn [Expert Tailoring]|QID|171000017|N|Learn from a trainer in any major city. Requires Level 20|
-B Buy 36x [item=6260/Blue Dye], 83x [item=2321/Fine Thread], 10x [item=6260/Bleach],40x [item=2604/Blue Dye] for the 125-205 part.|QID|171000155|
+B Buy 36x [item=6260/Blue Dye], 83x [item=2321/Fine Thread], 10x [item=6260/Bleach], 5)0x [item=2604/Blue Dye] for the 125-205 part.|QID|171000155|
 = Learn [spell=3865/Bolt of Silk Cloth]|QID|171000018|N|Learn from a trainer in any major city.|
 M [item=4305/Bolt of Silk Cloth]|QID|171000019|L|4305 201|N|Make until your skill level reaches 145|
 = Learn [spell=8760/Azure Silk Hood ]|QID|171000020|N|Learn from a trainer in any major city.|

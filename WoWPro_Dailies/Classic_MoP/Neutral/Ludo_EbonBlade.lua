@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoEbonBlade",'Dailies', "Icecrown", "Ludovicus", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("LudoEbonBlade",'Dailies', "Icecrown", "Ludovicus", "Neutral", 5)
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.Dailies:GuideFaction(guide,1098) --  "Knights of the Ebon Blade"
 WoWPro:GuideSteps(guide, function()

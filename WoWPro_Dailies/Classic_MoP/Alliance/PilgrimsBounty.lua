@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesA",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesA",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Alliance", 5)
 WoWPro:GuideLevels(guide ,1,60)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty", "Holidays")
 WoWPro:GuideIcon(guide,"ACH",3596)

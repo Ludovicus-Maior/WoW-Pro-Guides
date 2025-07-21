@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmAchLost', "Achievements", 'Pandaria', 'WoWPro Team', 'Neutral', 5)
 WoWPro.Achievements:GuideMisc(guide, "Tresures of Pandaria", "Treasures", "Pandaria")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7284)

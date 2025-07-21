@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
+local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral', 5)
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",5548)
 WoWPro.Achievements:GuideMisc(guide, "Cata Animals", "Animals", "Cata", 5)

@@ -1,4 +1,4 @@
-## Interface: 40402
+## Interface: 50500
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -12,6 +12,6 @@ WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
-Cata\Alliance\Guides.xml
-Cata\Horde\Guides.xml
-Cata\Neutral\Guides.xml
+Classic_MoP\Alliance\Guides.xml
+Classic_MoP\Horde\Guides.xml
+Classic_MoP\Neutral\Guides.xml

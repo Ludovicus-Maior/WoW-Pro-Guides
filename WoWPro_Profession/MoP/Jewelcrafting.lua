@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-local guide = WoWPro:RegisterGuide("Jewelcrafting", "Profession", "Jewelcrafting", "WoWPro Team", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("Jewelcrafting", "Profession", "Jewelcrafting", "WoWPro Team", "Neutral", 5)
 WoWPro:GuideIcon(guide,"PRO",755)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Jewelcrafting")

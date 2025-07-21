@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("TwiGlop","Achievements","Deepholm","Twists", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiGlop","Achievements","Deepholm","Twists", "Neutral", 5)
 WoWPro:GuideIcon(guide,"ACH",5446)
 WoWPro:GuideNickname(guide, "The Glop Family Line")
 WoWPro:GuideName(guide,"The Glop Family Line")

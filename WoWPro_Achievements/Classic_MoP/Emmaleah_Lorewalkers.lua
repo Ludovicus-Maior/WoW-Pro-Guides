@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'WoWPro Team','Neutral')
+local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'WoWPro Team','Neutral', 5)
 WoWPro.Achievements:GuideMisc(guide, "Lorewalkers", "Faction", "Pandaria")
 WoWPro:GuideIcon(guide,"ACH",6548)
 WoWPro:GuideLevels(guide,10,50)

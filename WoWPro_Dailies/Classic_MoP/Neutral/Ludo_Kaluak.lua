@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoKaluak",'Dailies', "Northrend", "Ludovicus", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("LudoKaluak",'Dailies', "Northrend", "Ludovicus", "Neutral", 5)
 WoWPro:GuideLevels(guide,68,71,69.3)
 WoWPro.Dailies:GuideFaction(guide,1073) --  "The Kalu'ak"
 WoWPro:GuideSteps(guide, function()

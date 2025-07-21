@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral", 5)
 WoWPro:GuideLevels(guide,10,70,70)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Capitol Fishing", "Professions")
 WoWPro:GuideIcon(guide,"PRO",356)
@@ -12,25 +12,25 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ; Alliance Daily fishing guide
 ; Darnassus Quests
-A A Slippery Snack|QID|29325|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|O|FACTION|Alliance|
+A A Slippery Snack|QID|29325|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|O|FACTION|Alliance|
 C Baby Octopi|QID|29325|M|50,50|Z|1438;Teldrassil|T|Baby Octopus|N|Head out to Rut'theran Village and swim and click on the Octopi|FACTION|Alliance|
-T A Slippery Snack|QID|29325|M|49.11,60.97|Z|1457;Darnassus|N|To Astaia|FACTION|Alliance|
+T A Slippery Snack|QID|29325|M|49.11,60.97|Z|89; Darnassus|N|To Astaia|FACTION|Alliance|
 
-A An Old Favorite|QID|29359|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|O|FACTION|Alliance|
+A An Old Favorite|QID|29359|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|O|FACTION|Alliance|
 C Herring|QID|29359|M|50,50|Z|1438;Teldrassil|N|Head out to Rut'theran Village and fish off the dock.|FACTION|Alliance|
-T An Old Favorite|QID|29359|M|49.11,60.97|Z|1457;Darnassus|N|To Astaia|FACTION|Alliance|
+T An Old Favorite|QID|29359|M|49.11,60.97|Z|89; Darnassus|N|To Astaia|FACTION|Alliance|
 
-A Happy as a Clam Digger|QID|29321|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|O|FACTION|Alliance|
+A Happy as a Clam Digger|QID|29321|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|O|FACTION|Alliance|
 C Clams|QID|29321|M|50.10,83.70;57.85,94.65;58.38,90.70;54.70,82.38;53.53,92.60;48.25,84.97;53.62,95.35;52.59,90.16;58.65,88.20;55.77,95.42;51.15,85.62;53.21,84.24;57.24,92.57;54.03,87.18|CN|Z|1438;Teldrassil|N|Head out to Rut'theran Village and swim and click on the Clams|FACTION|Alliance|
-T Happy as a Clam Digger|QID|29321|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|FACTION|Alliance|
+T Happy as a Clam Digger|QID|29321|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|FACTION|Alliance|
 
-A Stocking Up|QID|29323|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|O|FACTION|Alliance|
-C Whitefish|QID|29323|M|39.10,61.30;39.80,12.10;40.90,55.40;41.70,46.60;43.60,67.60;45.00,44.10;47.20,44.60;47.90,49.30;53.00,40.20;53.20,47.90;55.90,41.40;53.45,66.20;44.40,46.60;50.58,52.60;39.45,52.10;51.24,60.49;52.53,54.19;52.65,62.30;45.55,48.45;49.70,38.17;45.29,53.16;43.38,42.10;42.65,54.40;47.44,39.11;49.56,47.74;48.51,62.16;48.19,59.34;44.08,58.92;47.33,42.38;48.25,55.04;43.27,62.50;51.28,57.45;52.04,43.87|CN|Z|1457;Darnassus|N|Catch Whitefish from any water in Darnassus.|FACTION|Alliance|
-T Stocking Up|QID|29323|M|49.11,60.97|Z|1457;Darnassus|N|To Astaia|FACTION|Alliance|
+A Stocking Up|QID|29323|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|O|FACTION|Alliance|
+C Whitefish|QID|29323|M|39.10,61.30;39.80,12.10;40.90,55.40;41.70,46.60;43.60,67.60;45.00,44.10;47.20,44.60;47.90,49.30;53.00,40.20;53.20,47.90;55.90,41.40;53.45,66.20;44.40,46.60;50.58,52.60;39.45,52.10;51.24,60.49;52.53,54.19;52.65,62.30;45.55,48.45;49.70,38.17;45.29,53.16;43.38,42.10;42.65,54.40;47.44,39.11;49.56,47.74;48.51,62.16;48.19,59.34;44.08,58.92;47.33,42.38;48.25,55.04;43.27,62.50;51.28,57.45;52.04,43.87|CN|Z|89; Darnassus|N|Catch Whitefish from any water in Darnassus.|FACTION|Alliance|
+T Stocking Up|QID|29323|M|49.11,60.97|Z|89; Darnassus|N|To Astaia|FACTION|Alliance|
 
-A The Sister's Pendant|QID|29324|M|49.11,60.97|Z|1457;Darnassus|N|From Astaia|O|FACTION|Alliance|
-C Pendant|QID|29324|U|69914|M|39.10,61.30;39.80,12.10;40.90,55.40;41.70,46.60;43.60,67.60;45.00,44.10;47.20,44.60;47.90,49.30;53.00,40.20;53.20,47.90;55.90,41.40;53.45,66.20;44.40,46.60;50.58,52.60;39.45,52.10;51.24,60.49;52.53,54.19;52.65,62.30;45.55,48.45;49.70,38.17;45.29,53.16;43.38,42.10;42.65,54.40;47.44,39.11;49.56,47.74;48.51,62.16;48.19,59.34;44.08,58.92;47.33,42.38;48.25,55.04;43.27,62.50;51.28,57.45;52.04,43.87|CN|Z|1457;Darnassus|N|Catch Giant Catfish from any water in Darnassus. Click on it to get the Pendant.|FACTION|Alliance|
-T The Sister's Pendant|QID|29324|M|49.11,60.97|Z|1457;Darnassus|N|To Astaia|FACTION|Alliance|
+A The Sister's Pendant|QID|29324|M|49.11,60.97|Z|89; Darnassus|N|From Astaia|O|FACTION|Alliance|
+C Pendant|QID|29324|U|69914|M|39.10,61.30;39.80,12.10;40.90,55.40;41.70,46.60;43.60,67.60;45.00,44.10;47.20,44.60;47.90,49.30;53.00,40.20;53.20,47.90;55.90,41.40;53.45,66.20;44.40,46.60;50.58,52.60;39.45,52.10;51.24,60.49;52.53,54.19;52.65,62.30;45.55,48.45;49.70,38.17;45.29,53.16;43.38,42.10;42.65,54.40;47.44,39.11;49.56,47.74;48.51,62.16;48.19,59.34;44.08,58.92;47.33,42.38;48.25,55.04;43.27,62.50;51.28,57.45;52.04,43.87|CN|Z|89; Darnassus|N|Catch Giant Catfish from any water in Darnassus. Click on it to get the Pendant.|FACTION|Alliance|
+T The Sister's Pendant|QID|29324|M|49.11,60.97|Z|89; Darnassus|N|To Astaia|FACTION|Alliance|
 
 ; Ironforge Quests
 A Cold Water Fishing|QID|29342|M|48.4,8.2|Z|1455;Ironforge|N|From Grimnur Stonebrand|O|FACTION|Alliance|

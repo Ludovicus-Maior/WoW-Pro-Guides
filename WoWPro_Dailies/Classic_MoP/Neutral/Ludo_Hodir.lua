@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoHodir",'Dailies', "The Storm Peaks", "Ludovicus", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("LudoHodir",'Dailies', "The Storm Peaks", "Ludovicus", "Neutral", 5)
 WoWPro:GuideLevels(guide,77,77,77)
 WoWPro.Dailies:GuideFaction(guide,1119) --  "The Sons of Hodir"
 WoWPro:GuideSteps(guide, function()

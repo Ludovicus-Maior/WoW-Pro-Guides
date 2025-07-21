@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 4)
+local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 5)
 WoWPro:GuideLevels(guide,76,77,76.5)
 WoWPro.Dailies:GuideFaction(guide,1105) --  "The Oracles Reputation"
 WoWPro:GuideSteps(guide, function()
