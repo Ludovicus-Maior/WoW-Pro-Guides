@@ -195,9 +195,9 @@ A Beetlejeweled|QID|82801|PRE|82800|M|47.32,60.98|Z|2248; Isle of Dorn|N|From Ce
 K Kix'arak|ACTIVE|82801|QO|1|M|46.04,61.99|Z|2248; Isle of Dorn|N|Kill Kix'arak. He spawns at the mark, and paths to the other mine entrance.|T|Kix'arak|
 C Not Enough Minerals|QID|83081|M|46.04,61.99|Z|2248; Isle of Dorn|N|Collect Opals.|H|US|
 C The Opalfront|QID|83082|M|44.86,64.33|Z|2248; Isle of Dorn|N|Kill the spiders.|US|
+K The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248; Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|; TESTING THIS PLACEMENT
 T The Opalfront|QID|83082|M|44.86,64.33|Z|2248; Isle of Dorn|N|To Peacekeeper Hektare.|
 T Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248; Isle of Dorn|N|To Dagran Thaurissan II.|
-
 A Golgrin's Reach|QID|78465|PRE|83081&83082|M|44.78,64.41|Z|2248; Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 T Beetlejeweled|QID|82801|M|41.04,72.12|Z|2248; Isle of Dorn|N|To Germira.|
 C Precious Gems|QID|82465|QO|1|M|33.54,80.25|Z|2248; Isle of Dorn|N|Meet Natalia outside the cave.|CHAT|
@@ -259,8 +259,6 @@ T Keeper's Aid|QID|78573|M|54.21,65.31|Z|2248; Isle of Dorn|N|To Woldtender Igri
 A Boss of the Bosk|QID|78574|PRE|78573|M|54.21,65.34|Z|2248; Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 K Rotbark the Unfelled|ACTIVE|78574|QO|2|M|53.45,68.02|Z|2248; Isle of Dorn|N|Rotbark the Unfelled slain.|U|215142|T|Rotbark the Unfelled|
 T Boss of the Bosk|QID|78574|M|54.22,65.30|Z|2248; Isle of Dorn|N|To Woldtender Igris.|
-K The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248; Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|; TESTING THIS PLACEMENT
-
 T The Proscenium|QID|78470|M|56.55,52.05|Z|2248; Isle of Dorn|N|To Moira Thaurissan.|
 A The Cavalry is Here|QID|79701|PRE|78470|M|56.54,52.06|Z|2248; Isle of Dorn|N|From Baelgrim.|
 A Fire in the Hole|QID|79721|PRE|78470|M|56.64,52.07|Z|2248; Isle of Dorn|N|From Wenbrandt.|
@@ -379,8 +377,6 @@ C The Weight of Duty|QID|82895|QO|3|M|57.25,42.77|Z|2248; Isle of Dorn|N|Heat pl
 C The Weight of Duty|QID|82895|QO|4|M|57.39,43.05|Z|2248; Isle of Dorn|N|Dip placard in bucket just outside the door.|H|
 C The Weight of Duty|QID|82895|QO|5|M|57.07,43.47|Z|2248; Isle of Dorn|N|Carve tempered placard at the worktable (outside).|H|
 T The Weight of Duty|QID|82895|M|57.17,43.40|Z|2248; Isle of Dorn|N|To Urtago.|
-
-;potential spot for K The Boroughbreaker
 T Golgrin's Reach|QID|78465|M|61.63,70.15|Z|2248; Isle of Dorn|N|To Dagran Thaurissan II.|
 A The History Beneath Us|QID|79716|PRE|78465|M|61.63,70.15|Z|2248; Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 A Charge for a Charge|QID|78467|PRE|78465|M|61.63,70.15|Z|2248; Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
@@ -402,7 +398,6 @@ C The Anachronism|QID|79213|M|62.53,71.89|Z|2248; Isle of Dorn|QO|3|N|Use the de
 K Sargassum Guardian|ACTIVE|79213|M|62.53,71.89|Z|2248; Isle of Dorn|QO|4|N|Kill Sargassum Guardian.|T|Sargassum Guardian|U|212602|
 T The Anachronism|QID|79213|M|61.63,70.15|Z|2248; Isle of Dorn|N|To Speaker Brinthe.|
 A A Place Forgotten|QID|83083|PRE|79213|M|61.63,70.15|Z|2248; Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
-
 F Durgaz Cabin|ACTIVE|78540|M|67.47,43.31|Z|2248; Isle of Dorn|N|At Drelda.|; Undiscovered flightpoint -- probably good while in route to the meadery
 T To the Meadery|QID|78540|M|75.33,43.17|Z|2248; Isle of Dorn|N|To Baelgrim.|
 A Lay the Trap|QID|78541|PRE|78540|M|75.33,43.17|Z|2248; Isle of Dorn|N|From Baelgrim.|
@@ -508,7 +503,6 @@ C Recompense|QID|78546|QO|2|M|31.93,59.35|Z|2339; Dornogal|N|Listen to the debri
 C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339; Dornogal|N|Tell Merrix "Let's do it."|CHAT|
 T Recompense|QID|78546|M|31.91,59.76|Z|2339; Dornogal|N|To Merrix.|
 A Into the Deeps|QID|80434|M|31.99,59.88|Z|2339; Dornogal|N|From Moira Thaurissan.|
-
 T A Place Forgotten|QID|83083|M|44.92,20.61|Z|2248; Isle of Dorn|N|To Speaker Brinthe.|
 A The Old Orders|QID|83084|PRE|83083|M|44.92,20.61|Z|2248; Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 C The Old Orders|QID|83084|QO|1|M|44.63,20.80|Z|2248; Isle of Dorn|N|Inspect the Forgotten Weapon Rack inside.|H|
