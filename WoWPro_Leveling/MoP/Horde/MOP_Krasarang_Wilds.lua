@@ -211,20 +211,20 @@ C For Family|QID|30174|M|23.64,48.82|Z|0418; Krasarang Wilds|N|Help kill Groundb
 T For Family|QID|30174|M|28.90,50.87|Z|0418; Krasarang Wilds|N|To Sunwalker Dezco back at Dawnchaser Retreat.|
 A Warn Stoneplow|QID|30241|PRE|29990&30117&30273&30174|M|28.90,50.87|Z|0418; Krasarang Wilds|N|From Sunwalker Dezco.|
 F Stoneplow|QID|30241|M|29.0,50.31|Z|0418; Krasarang Wilds|N|At Munch Windhoof.|
-T Warn Stoneplow|QID|30241|M|19.53,56.95|Z|0376; Valley of the Four Winds|N|To Loon Mai.|
-A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.97,56.43|Z|0376; Valley of the Four Winds|N|From Mei Barrelbottom.|
+T Warn Stoneplow|QID|30241|M|19.55,56.85|Z|0376; Valley of the Four Winds|N|To Loon Mai.\n[color=FF0000]NOTE: [/color]<ESC> to cancel cinematic.|
+A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.96,56.45|Z|0376; Valley of the Four Winds|N|From Mei Barrelbottom.|
+t The Mantidote|QID|30623|M|PLAYER|CC|N|<UI Alert>|
 A The Swarm Begins|QID|30622|PRE|30241^30360^30376|M|17.90,56.21|Z|0376; Valley of the Four Winds|N|From Loon Mai.|
-A It Does You No Good In The Keg|QID|30653|PRE|30241^30360^30376|M|18.05,55.69|Z|0376; Valley of the Four Winds|N|From Mudmug.|
-C The Mantidote|QID|30623|M|10.72,51.92|Z|0376; Valley of the Four Winds|N|Use the mask on the elites, kill the sha that appears.|U|80337|S|
-C The Swarm Begins|QID|30622|M|10.14,52.00|Z|0376; Valley of the Four Winds|S|
-C Deliver beer to Crane Wing Priests|QID|30653|QO|2|M|15.09,55.41|Z|0376; Valley of the Four Winds|N|Deliver beer to Crane Wing Priests.|NC|
-C Deliver beer to Zhu's Wardens|QID|30653|QO|1|M|17.01,50.46|Z|0376; Valley of the Four Winds|N|Deliver beer to Zhu's Wardens.|NC|
-C Deliver beer to Shado-Pan|QID|30653|QO|3|M|10.95,55.90|Z|0376; Valley of the Four Winds|N|Deliver beer to Shado-Pan.|NC|
-C Deliver beer to the Tauren settlers|QID|30653|QO|4|M|13.01,56.59|Z|0376; Valley of the Four Winds|N|Deliver beer to the Tauren settlers.|NC|
+A It Does You No Good In The Keg|QID|30653|PRE|30241^30360^30376|M|18.09,55.69|Z|0376; Valley of the Four Winds|N|From Mudmug.|
+C The Mantidote|QID|30623|M|10.72,51.92|Z|0376; Valley of the Four Winds|N|Use Ken-Ken's Mask on a Ik'thik Wing Commander and defeat the Manifestations of Fear that comes out.|U|80337|S|
+C The Swarm Begins|QID|30622|M|10.14,52.00|Z|0376; Valley of the Four Winds|N|Kill 15 Ik'thik Warriors or Ik'thik Infestors.|S|
+R It Does You No Good In The Keg|ACTIVE|30653|QO|2|M|15.09,55.41|Z|0376; Valley of the Four Winds|N|Deliver beer to Crane Wing Priests.|
+R It Does You No Good In The Keg|ACTIVE|30653|QO|1|M|17.01,50.46|Z|0376; Valley of the Four Winds|N|Deliver beer to Zhu's Wardens.|
+R It Does You No Good In The Keg|ACTIVE|30653|QO|3|M|10.95,55.90|Z|0376; Valley of the Four Winds|N|Deliver beer to Shado-Pan.|
+R It Does You No Good In The Keg|ACTIVE|30653|QO|4|M|13.01,56.59|Z|0376; Valley of the Four Winds|N|Deliver beer to the Tauren settlers.|
 T It Does You No Good In The Keg|QID|30653|M|PLAYER|CC|N|<UI Alert>|
-C The Mantidote|QID|30623|M|10.72,51.92|Z|0376; Valley of the Four Winds|U|80337|US|
-C The Swarm Begins|QID|30622|M|10.14,52.00|Z|0376; Valley of the Four Winds|US|
-T The Mantidote|QID|30623|M|PLAYER|CC|N|<UI Alert>|
+C The Mantidote|QID|30623|M|10.72,51.92|Z|0376; Valley of the Four Winds|N|Use Ken-Ken's Mask on a Ik'thik Wing Commander and defeat the Manifestation of Fear that comes out.\n[color=FF0000]NOTE: [/color]Make use of the Tauren Settlers (or any of the other groups) to help kill it.|T|Ik'thik Wing Commander|U|80337|US|
+C The Swarm Begins|QID|30622|M|10.14,52.00|Z|0376; Valley of the Four Winds|N|Kill 15 Ik'thik Warriors or Ik'thik Infestors.\n[color=FF0000]NOTE: [/color]Make use of the Tauren Settlers (or any of the other groups) to help kill them.|US|
 T The Swarm Begins|QID|30622|M|11.53,49.50|Z|0376; Valley of the Four Winds|N|To Guard Captain Oakenshield.|
 A Students No More|QID|30625|M|11.53,49.57|Z|0376; Valley of the Four Winds|N|From Guard Captain Oakenshield.|
 C Students No More|QID|30625|M|8.9,51.7;9.7,58.3;9.4,54.2;9.6,54.0|CN|Z|0376; Valley of the Four Winds|N|{coords}The NPC's will call you over to join them as they roam around this area killing these 4 elites.|
