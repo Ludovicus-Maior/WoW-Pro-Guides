@@ -32,10 +32,10 @@ C An Iconic, Draconic Look|QID|65613|QO|3|M|PLAYER|EAB|N|Use the Extra Ability B
 T An Iconic, Draconic Look|QID|65613|M|44.05,37.95|Z|85; Orgrimmar|N|To Ebyssian.|FACTION|Horde|R|Dracthyr|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
+C Pathfinder Jeb|QID|66589|QO|2|M|38.35,45.32|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 C Dervishian|QID|72240|QO|1|M|39.31,41.46|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
 C Thaelin Darkanvil|QID|66589|QO|1|M|38.10,35.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
 C Cataloger Wulfered|QID|66589|QO|3|M|33.13,34.55|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in the Trade District.|FACTION|Alliance|
-C Pathfinder Jeb|QID|66589|QO|2|M|38.35,45.32|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
