@@ -11,9 +11,9 @@ N The Klaxxi Reputation - Honored|QID|31175|Z|0422; Dread Wastes|N|If you have r
 N The Klaxxi Reputation - Revered|QID|31439|Z|0422; Dread Wastes|N|If you have reached revered while doing this guide, please switch to the dailies guide and do all the dailies to unlock things.|REP|The Klaxxi;1337;revered|
 F Serpent's Spine|QID|31847^31895^31000^31886^31390^31391^31656|Z|0422; Dread Wastes|N|From whatever flight master you are near, fly to Serpent's Spine in Vale of Eternal Blossoms.|
 T Whichever Lead In Quest|QID|31847^31895^31000^31886^31390^31391^31656|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|To Bowmistress Li.|
-A Falling Down|QID|31001|M|13.99,76.95|Z|Vale of Eternal Blossoms|Z|0422; Dread Wastes|N|From Bowmistress Li.|
-A Nope|QID|31002|M|13.99,76.95|Z|Vale of Eternal Blossoms|Z|0422; Dread Wastes|N|From Bowmistress Li.|
-C Falling Down|QID|31001|M|13.99,76.95|Z|Vale of Eternal Blossoms|Z|0422; Dread Wastes|N|Use the rope right behind Bowmistress Li.|NC|S|
+A Falling Down|QID|31001|M|13.99,76.95|Z|0422; Dread Wastes|N|From Bowmistress Li.|
+A Nope|QID|31002|M|13.99,76.95|Z|0422; Dread Wastes|N|From Bowmistress Li.|
+C Falling Down|QID|31001|M|13.99,76.95|Z|0422; Dread Wastes|N|Use the rope right behind Bowmistress Li.|NC|S|
 C Nope|QID|31002|U|82807|M|71.68,27.38|Z|0422; Dread Wastes|N|Kill spiders and use the gun to burn the eggs.|
 C Falling Down|QID|31001|M|72.56,28.70|Z|0422; Dread Wastes|N|.|NC|US|
 T Falling Down|QID|31001|M|72.56,28.70|Z|0422; Dread Wastes|N|To Marksman Lann.|

@@ -17,8 +17,8 @@ A Guardians of Hyjal: Firelands Invasion!|QID|29387|LEAD|29145|N|From your neare
 N Mount Hyjal Phasing|ACTIVE|29390^29391|AVAILABLE|25372|N|Before you can start this guide, it requires the completion of the Mount Hyjal quest Series up to (and including) 'Aessina's Miracle'.\n[color=FF0000]NOTE: [/color]This is because of zone phasing and the guide won't work properly if you're in the wrong phase.\nClick on the book to switch to the Mount Hyjal guide to do this now.|JUMP|Mount Hyjal|
 
 ; ** I think these are the correct QIDs - Hendo72
-R Mount Hyjal|ACTIVE|29388|PRE|25372|M|51.15,38.25|Z|1454; Orgrimmar|N|Go to Mount Hyjal via portal in Orgrimmar.|FACTION|Horde|
-R Mount Hyjal|ACTIVE|29387|PRE|25372|M|76.12,18.69|Z|1453; Stormwind City|N|Go to Mount Hyjal via portal in Stormwind.|FACTION|Alliance|
+R Mount Hyjal|ACTIVE|29388|PRE|25372|M|51.15,38.25|Z|85; Orgrimmar|N|Go to Mount Hyjal via portal in Orgrimmar.|FACTION|Horde|
+R Mount Hyjal|ACTIVE|29387|PRE|25372|M|76.12,18.69|Z|84; Stormwind City|N|Go to Mount Hyjal via portal in Stormwind.|FACTION|Alliance|
 
 A Flight of the Storm Crows|QID|29182|PRE|29181|M|42.60,45.60|Z|0198; Mount Hyjal|N|After the little event, accept this quest from Isara Riverstride, the Innkeeper at the bottom level of the Shrine of Aviana. If it is not offered, it will be tomorrow.|
 
