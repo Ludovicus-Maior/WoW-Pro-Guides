@@ -5,6 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("CraToBarA",'Dailies', "Tol Barad", "Crackerhead22", "Alliance", 5)
 WoWPro:GuideLevels(guide ,35,60)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Tol Barad","Rep")
 WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Guide"
 WoWPro:GuideSteps(guide, function()
 return [[

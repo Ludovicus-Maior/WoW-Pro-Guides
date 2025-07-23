@@ -6,4 +6,8 @@
   <Script file="Ludovicus_ValExp.lua"/>
   <Script file="Twists_Wildhammer.lua"/>
   <Script file="PilgrimsBounty.lua"/>
+  <Script file="Ludo_ShieldWall.lua"/>
+  <Script file="Ludo_Thunder.lua"/>
+  <Script file="Raj_PetBattles.lua"/>
+  
 </Ui> 
