@@ -15,10 +15,10 @@ l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rar
 R The Spring Road|AVAILABLE|31286|M|53.52,65.78|N|Head up to The Spring Road, north of the Tavern.|
 A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
-C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Maket Merchandise you see lying on the ground.|RANK|2|S|
+C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Market Merchandise you see lying on the ground.|RANK|2|S|
 R Hatescale Burrow|QID|31287|Z|The Veiled Stair|M|55.46,56.62|N|Head to the Hatescale Burrow, and enter the cave.|
 C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|Kill Leechfingers, who can be found at the back of the cave (head to the right at both the first and second forks of the tunnel).|RANK|2|
-C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|Finish picking up the Black Maket Merchandise you see lying on the ground as you head out of the cave.|RANK|2|US|
+C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|Finish picking up the Black Market Merchandise you see lying on the ground as you head out of the cave.|RANK|2|US|
 T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
 T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
 C Speak with Brewmaster Boof|QID|31254^31255|QO|2|CHAT|M|51.98,43.69|Z|The Veiled Stair|N|Continue up The Spring Road to the waters edge, then speak to Brewmaster Boof.|RANK|2|
@@ -188,7 +188,7 @@ A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
 C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
-A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted.|
+A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted when you complete 'At the Yak Wash'.\n[color=FF0000]NOTE: [/color]Killing a Burilgi Despoiler will start the quest if it didn't auto-start for you.|
 K Yakity Yak|ACTIVE|30587|M|69.94,72.81|QO|1|N|Kill the Burilgi Despoilers.|S|
 K Burilgi Despoiler|AVAILABLE|30582|M|70.20,69.40|L|80241|N|Kill Burilgi Despoilers until you loot Muskpaw's Keepsake.|
 A The Late Mrs. Muskpaw|QID|30582|N|Click the bracelet to obtain this quest.|U|80241|O|
