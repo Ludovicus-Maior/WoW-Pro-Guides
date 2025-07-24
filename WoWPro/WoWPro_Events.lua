@@ -562,6 +562,7 @@ WoWPro.RegisterEventHandler("PLAYER_LEAVING_WORLD", function(event, ...)
 if not WoWPro.CLASSIC then
     WoWPro.RegisterEventHandler("NEUTRAL_FACTION_SELECT_RESULT", function (event, ...)
         WoWPro:dbp("Detected Faction selection. Re-evaluating guide.")
+        WoWPro.Faction = _G.UnitFactionGroup("player")
         WoWPro:UpdateGuide(event)
     end)
 end
