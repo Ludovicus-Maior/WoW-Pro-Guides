@@ -40,10 +40,10 @@ T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To T
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Scalecommander Cinderthresh.|FACTION|Horde|
-C Boss Magor|QID|65443|QO|1|M|54.87,11.71|Z|85; Ogrimmar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
-C Cataloger Coralie|QID|65443|QO|3|M|71.45,50.64|Z|85; Orgrimmar|CHAT|N|Speak with Cataloger Coralie on the upper floor of the Wyvern's Tail in Valley of Honor.|FACTION|Horde|
-C Pathfinder Tacha|QID|65443|QO|2|M|38.60,56.96|Z|85; Orgrimmar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spires on the border between The Valley of Wisdom and the Valley of Spirits.\n[color=FF0000]NOTE: [/color]You're going to have to fly up there.|FACTION|Horde|
-C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver the orders to Kodethi on top of the front gate.|FACTION|Horde|
+C Pathfinder Tacha|QID|65443|QO|2|M|54.03,13.00|Z|0001; Durotar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spire.|FACTION|Horde|
+C Kodethi|QID|72256|QO|1|M|54.15,9.93|Z|0001; Durotar|CHAT|N|Deliver the orders to Kodethi.|FACTION|Horde|
+C Boss Magor|QID|65443|QO|1|M|55.14,11.52|Z|0001; Durotar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
+C Cataloger Coralie|QID|65443|QO|3|M|55.94,13.23|Z|0001; Durotar|CHAT|N|Speak with Cataloger Coralie.|FACTION|Horde|
 T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam at the top of the new zepplin tower by the harbor.|FACTION|Horde|
 T The Dark Talons|QID|72256|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.91,12.61|Z|1; Durotar|N|From Archmage Khadgar.|FACTION|Horde|
