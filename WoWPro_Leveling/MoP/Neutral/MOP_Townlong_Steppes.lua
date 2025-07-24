@@ -247,7 +247,7 @@ T Thinning the Sik'thik|QID|31687|M|53.96,78.18|Z|0388; Townlong Steppes|N|To Re
 T The Search for Restless Leng|QID|31688|M|53.96,78.18|Z|0388; Townlong Steppes|N|To Rensai Oakhide.|
 R Shado-Pan Garrison|AVAILABLE|30921|M|50.05,71.96|CC|Z|0388; Townlong Steppes|N|.|FLY|MOP|
 f Shado-Pan Garrison|AVAILABLE|30921|M|50.05,71.96|Z|0388; Townlong Steppes|N|At Kite Master Yao-Li.|
-A Stranger in a Strange Land|QID|31488|M|49.15,71.42|Z|0388; Townlong Steppes|ELITE|N|[color=FF8000]Legendary Quest: [/color]\nFrom Lorewalker Pao.\n[color=FF0000]NOTE: [/color]You're on your on because nothing more is done with it in the guides.\nManually check this step off if you're not interested.|LV|90|RANK|3|
+A Stranger in a Strange Land|QID|31488|M|49.15,71.42|Z|0388; Townlong Steppes|ELITE|N|[color=FF8000]Legendary Quest: [/color]\nFrom Lorewalker Pao.\n[color=FF0000]NOTE: [/color]You're on your on because nothing more is done with it in the guides.\nManually check this step off if you're not interested.|LVL|90|RANK|3|
 A The Motives of the Mantid|QID|30921|M|49.1,71.2|Z|0388; Townlong Steppes|N|From Tai Ho.|
 A Set the Mantid Back|QID|30923|M|49.1,71.2|Z|0388; Townlong Steppes|N|From Tai Ho.|
 A Natural Antiseptic|QID|30922|M|49.14,71.32|Z|0388; Townlong Steppes|N|From Provisioner Bamfu.|
