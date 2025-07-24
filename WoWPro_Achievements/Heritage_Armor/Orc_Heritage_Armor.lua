@@ -26,7 +26,7 @@ C The Farseer's Power|Z|Alterac Valley|SO|4|US|N|You have defeated Drek'Thar's w
 C Preparations|Z|Alterac Valley|SO|5|S|N|You have proven yourself worthy of being the first to complete the new rite. It is time to begin preparations for the Kosh'harg!|
 C A People in Need of Healing|QID|72462|M|47.54,86.99|Z|2162|QO|2|NC|N|Complete Scenario "The Future of Our People".|
 C Talk to Thrall|M|47.44,86.81|Z|Alterac Valley!Instance2162|SO|5;1|N|Talk to Thrall|
-U The Broken Tusk|M|47.38,86.82|Z|Alterac Valley!Instance2162|U|201957|N|Use Thrall's Hearthstone to return to Orgrimmar.|
+U The Broken Tusk|ACTIVE|72462|M|47.38,86.82|Z|Alterac Valley!Instance2162|U|201957|N|Use Thrall's Hearthstone to return to Orgrimmar.|
 T A People in Need of Healing|QID|72462|M|54.40,78.49|Z|85;Valley of Strength|N|To Aggra.|
 A The Kosh'harg|QID|72464|PRE|72462|M|54.40,78.49|Z|85;Valley of Strength|N|From Aggra.|
 C The Kosh'harg|QID|72464|M|52.09,79.27|Z|85;Valley of Strength|QO|1|NC|N|Travel to the Kosh'harg with Aggra's family (Optional).|
@@ -78,6 +78,10 @@ R Third Clue|ACTIVE|72474|M|49.76,60.23|Z|Valley of Trials|N|Wait for Completion
 R Fourth Clue|ACTIVE|72474|M|54.09,62.37|Z|Valley of Trials|N|Inspect Beast Tracks.||CS|
 C Fith Clue|QID|72474|M|52.31,68.48|Z|461;Valley of Trials|QO|1|NC|T|Terrified Peon|N|Talk to Terrified Peon.|
 T Tracking a Killer|QID|72474|M|45.40,68.37|Z|461;Valley of Trials|N|To Kaltunk.|
+
+A Galgar's Cactus Apple Surprise...|QID|72463|M|49.66,59.98|Z|0461; Valley of Trials|N|From Bag of Cactus Apples.|
+C Galgar's Cactus Apple Surprise...|QID|72463|M|49.66,59.98|Z|0461; Valley of Trials|N|Grab the Bag of Cactus Apples.|H
+T Galgar's Cactus Apple Surprise...|QID|72463|M|43.23,62.83|Z|0461; Valley of Trials|N|To Galgar.|
 A Cornering Gor'krosh|QID|72475|PRE|72474|M|45.40,68.37|Z|461;Valley of Trials|N|From Kaltunk.|
 C Cornering Gor'krosh|QID|72475|M|59.03,63.51|Z|1;Durotar|QO|1|NC|N|Trail Followed.|
 C Cornering Gor'krosh|QID|72475|M|58.96,63.39|Z|1;Durotar|QO|2|N|Gor'krosh slain.|
