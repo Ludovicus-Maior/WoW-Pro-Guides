@@ -29,9 +29,13 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
             WoWProCharDB.Guide[nGID].NoSelect = true;
         end,
         OnShow = function(this)
-            this.button3:SetScript("OnEnter", OnEnter);
-            this.button3:SetScript("OnLeave", OnLeave);
-        end,
+			local btn3 = this.button3 or (this.Buttons and this.Buttons[3])
+			if btn3 then
+				btn3:SetScript("OnEnter", OnEnter)
+				btn3:SetScript("OnLeave", OnLeave)
+			end
+		end,
+
         timeout = 30,
         button1 = _G.YES,
         button2 = _G.NO,
