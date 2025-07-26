@@ -6,10 +6,10 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
-A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
-R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
-C To Outland!|QID|60123|M|55.01,54.35|Z|17;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
-T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
+A Warchief's Command: Outland!|QID|28705|M|49.9,76.4|Z|85; Orgrimmar|N|From Hero's Call board in Orgrimmar|FACTION|Horde|
+P Blasted Lands|ACTIVE|28705|M|44.72,67.91|Z|85; Orgrimmar|N|Make your way to Blasted Lands.|
+C Warchief's Command: Outland!|QID|28705|M|55.01,54.35|Z|17;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
+T Warchief's Command: Outland!|QID|28705|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar|QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|

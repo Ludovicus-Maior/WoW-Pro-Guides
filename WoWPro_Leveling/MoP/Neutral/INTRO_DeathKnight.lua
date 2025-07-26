@@ -144,9 +144,9 @@ R Stormwind City|QID|13188|M|83.65,51.36|N|Click on the portal to go to Stormwin
 T Where Kings Walk|QID|13188|Z|84;Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 P Durotar|QID|13189|M|84.58,50.49|Z|23; Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
-T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|Z|Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
-A Hero's Call: Outland!|QID|28708|M|62.5,30.0|Z|84;Stormwind City|N|From Hero's Call board in Dwarven District|
-A Warchief's Command: Outland!|QID|28705|M|49.9,76.4|Z|Orgrimmar|N|From Hero's Call board in Dwarven District|
+T Saurfang's Blessing|QID|13189|M|48.14,70.56|Z|85; Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
+A Hero's Call: Outland!|QID|28708|M|62.5,30.0|Z|84;Stormwind City|N|From Hero's Call board in Dwarven District|FACTION|Alliance|
+A Warchief's Command: Outland!|QID|28705|M|49.9,76.4|Z|85; Orgrimmar|N|From Hero's Call board in Orgrimmar|FACTION|Horde|
 D Onwards|ACTIVE|28562|N|This ends Deathknight: Intro.\nHellfire Penninsula is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|JamHel6062|
 D Onwards|ACTIVE|28562|N|This ends Deathknight: Intro.\nHellfire Penninsula is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|JamHel6063|
 

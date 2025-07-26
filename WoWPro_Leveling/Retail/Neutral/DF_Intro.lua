@@ -32,18 +32,18 @@ C An Iconic, Draconic Look|QID|65613|QO|3|M|PLAYER|EAB|N|Use the Extra Ability B
 T An Iconic, Draconic Look|QID|65613|M|44.05,37.95|Z|85; Orgrimmar|N|To Ebyssian.|FACTION|Horde|R|Dracthyr|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
+C Pathfinder Jeb|QID|66589|QO|2|M|38.35,45.32|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 C Dervishian|QID|72240|QO|1|M|39.31,41.46|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
 C Thaelin Darkanvil|QID|66589|QO|1|M|38.10,35.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
 C Cataloger Wulfered|QID|66589|QO|3|M|33.13,34.55|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in the Trade District.|FACTION|Alliance|
-C Pathfinder Jeb|QID|66589|QO|2|M|38.35,45.32|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Scalecommander Cinderthresh.|FACTION|Horde|
-C Boss Magor|QID|65443|QO|1|M|54.87,11.71|Z|85; Ogrimmar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
-C Cataloger Coralie|QID|65443|QO|3|M|71.45,50.64|Z|85; Orgrimmar|CHAT|N|Speak with Cataloger Coralie on the upper floor of the Wyvern's Tail in Valley of Honor.|FACTION|Horde|
-C Pathfinder Tacha|QID|65443|QO|2|M|38.60,56.96|Z|85; Orgrimmar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spires on the border between The Valley of Wisdom and the Valley of Spirits.\n[color=FF0000]NOTE: [/color]You're going to have to fly up there.|FACTION|Horde|
-C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver the orders to Kodethi on top of the front gate.|FACTION|Horde|
+C Pathfinder Tacha|QID|65443|QO|2|M|54.03,13.00|Z|0001; Durotar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spire.|FACTION|Horde|
+C Kodethi|QID|72256|QO|1|M|54.15,9.93|Z|0001; Durotar|CHAT|N|Deliver the orders to Kodethi.|FACTION|Horde|
+C Boss Magor|QID|65443|QO|1|M|55.14,11.52|Z|0001; Durotar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
+C Cataloger Coralie|QID|65443|QO|3|M|55.94,13.23|Z|0001; Durotar|CHAT|N|Speak with Cataloger Coralie.|FACTION|Horde|
 T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam at the top of the new zepplin tower by the harbor.|FACTION|Horde|
 T The Dark Talons|QID|72256|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.91,12.61|Z|1; Durotar|N|From Archmage Khadgar.|FACTION|Horde|
@@ -108,7 +108,7 @@ C Adventuring in the Dragon Isles|QID|72293|M|76.51,34.23|Z|2022; The Waking Sho
 ;A Thaldraszus|QID|72269|
 T Adventuring in the Dragon Isles|QID|72293|M|PLAYER|N|Completed in the quest log UI.\n[color=FF0000]NOTE: [/color]Don't forget to add your favorite Dragon to your hotkeys!|
 
-A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|72293|M|76.51,34.29|Z|2022; The Waking Shores|N|From Karazal.\n[color=FF0000]NOTE: [/color]This is a weekly quest and will not be mentioned again in the guide.|
+;A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|72293|M|76.51,34.29|Z|2022; The Waking Shores|N|From Karazal.\n[color=FF0000]NOTE: [/color]This is a weekly quest and will not be mentioned again in the guide.|
 T Primal Pests|QID|65453|M|76.29,33.02|Z|2022; The Waking Shores|N|To Scalecommander Cinderthresh.|FACTION|Horde|ACTIVE|72267^72268^72269|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022; The Waking Shores|N|To Thaelin Darkanvil.|FACTION|Alliance|ACTIVE|72267^72268^72269|
 T Practice Materials|QID|65451|M|75.94,33.24|Z|2022; The Waking Shores|N|To Boss Magor.|FACTION|Horde|ACTIVE|72267^72268^72269|
