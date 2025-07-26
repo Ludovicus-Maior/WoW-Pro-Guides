@@ -1,3 +1,17 @@
+# Release 2025.07.26.A
+## Bug Fixes
+* Add new handling for `NEUTRAL_FACTION_SELECT_RESULT` event
+* Check that the TomTom API for map pins exists in this client
+* Updated Classic client for MOP
+## Guide Updates
+* MOP Achievements: Restored!
+* Retail Heritage Armor Achievements: All updated
+* Retail Lore Walking: Added
+* MOP Alliance/Horde/Neutral: Restored
+* Retail Leveling: 54 guides updated.  Good Enuf, eh?
+* MOP Professions: Restored.
+
+
 # Release 2025.05.22.A
 ## Bug Fixes
 * Update Retail Interface to 110107
