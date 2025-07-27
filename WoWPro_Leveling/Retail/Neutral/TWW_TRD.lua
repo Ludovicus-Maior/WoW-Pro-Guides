@@ -40,15 +40,15 @@ A Speaking to the Speakers|QID|78631|PRE|78838|M|43.03,34.16|Z|2214; The Ringing
 A Bless These Homes|QID|78877|M|42.84,32.35|Z|2214; The Ringing Deeps|N|From Speaker Jurlax.|RANK|2|C|Paladin,Priest|
 C Bless These Homes|QID|78877|M|43.84,34.26|Z|2214; The Ringing Deeps|N|Bless Gundargz Incense.|C|Paladin,Priest|
 T Bless These Homes|QID|78877|M|42.84,32.35|Z|2214; The Ringing Deeps|N|To Speaker Jurlax.|C|Paladin,Priest|
-A Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C Go Take Candle!|QID|78827|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
-T Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
-A More Candles!|QID|78860|PRE|78827|M|48.1,31.9|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C More Candles!|QID|78860|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
-T More Candles!|QID|78860|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
-A The Final Candle|QID|83326|PRE|78860|M|48.1,31.9|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C The Final Candle|QID|83326|M|49.00,32.5|Z|2214; The Ringing Deeps|N|Steal the Big Candle.|C|Rogue|
-T The Final Candle|QID|83326|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
+A Go Take Candle!|QID|78827|M|43.87,32.03|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
+C Go Take Candle!|QID|78827|M|44.10,32.35|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
+T Go Take Candle!|QID|78827|M|43.87,32.03|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
+A More Candles!|QID|78860|PRE|78827|M|43.87,32.03|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
+C More Candles!|QID|78860|M|44.10,32.35|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
+T More Candles!|QID|78860|M|43.87,32.03|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
+A The Final Candle|QID|83326|PRE|78860|M|43.87,32.03|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
+C The Final Candle|QID|83326|M|44.82,32.55|Z|2214; The Ringing Deeps|N|Steal the Big Candle.|C|Rogue|
+T The Final Candle|QID|83326|M|43.87,32.03|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
 A Conjured Help|QID|78874|M|43.82,32.17|Z|2214; The Ringing Deeps|N|From Inkeeper Brax.|RANK|2|C|Mage|
 C Conjured Help|QID|78874|M|44.01,32.21|Z|2214; The Ringing Deeps|N|Summon food for Innkeeper Brax in the Gundargaz Inn.|C|Mage|
 T Conjured Help|QID|78874|M|43.82,32.17|Z|2214; The Ringing Deeps|N|To Inkeeper Brax.|C|Mage|
