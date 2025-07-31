@@ -18,4 +18,5 @@
 	<Script file="HF_Dragon_Riding_Glyphs.lua"/>
 	<Script file="AK_Dragon_Riding_Glyphs.lua"/>
 	<Script file="Khaz_Algar_Glyph_Hunter.lua"/>
+	<Script file="K'aresh_Dragon_Riding_Glyphs.lua"/>	
 </Ui>
