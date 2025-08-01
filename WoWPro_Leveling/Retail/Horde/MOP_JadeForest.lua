@@ -5,21 +5,21 @@ WoWPro:GuideName(guide,"The Jade Forest")
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
-; -- Ignore Hero Board quests A Warchief's Command: Jade Forest!|QID|49538|M|49.69,76.44|Z|Orgrimmar|N|Seek out the nearest Warchief's Command Board, and select Report to Grommash Hold under The Jade Forest. Quest not there? Skip this step for an alternative one.|
-R Grommash Hold|ACTIVE|49538|M|49.69,76.44|Z|Orgrimmar|N|Walk into Grommash Hold, then wait for the cut-scene to finish.|
-T Warchief's Command: Jade Forest!|QID|49538|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim.|
-A The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
-T The Art of War|QID|29611|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
-A The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
-T The Art of War|QID|29612|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim|
-A To Pandaria!|QID|60126|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|LVL|-50|
-C To Pandaria!|QID|60126|M|49.79,75.27|Z|Orgrimmar|N|Head to Grommash Hold and watch the cut-scene\n<ESC> can cancel the cinematic.|
-T Mists of Pandaria: To Pandaria!|QID|60126|M|48.67,70.38|Z|Orgrimmar|N|To General Nazgrim.|
-A All Aboard!|QID|31853|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|PRE|29611|
-f Orgrimmar|ACTIVE|31853|M|49.65,59.19|Z|Orgrimmar|N|Take one of the 3 elevators up and make your way to Doras.|TAXI|-Orgrimmar|
-C All Aboard!|QID|31853|M|49.65,59.19|Z|Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|TAXI|Orgrimmar|
-C All Aboard!|QID|31853|M|49.65,59.19|Z|Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|FLY|OLD|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+; -- Ignore Hero Board quests A Warchief's Command: Jade Forest!|QID|49538|M|49.69,76.44|Z|85; Orgrimmar|N|Seek out the nearest Warchief's Command Board, and select Report to Grommash Hold under The Jade Forest. Quest not there? Skip this step for an alternative one.|
+R Grommash Hold|ACTIVE|49538|M|49.69,76.44|Z|85; Orgrimmar|N|Walk into Grommash Hold, then wait for the cut-scene to finish.|
+T Warchief's Command: Jade Forest!|QID|49538|M|48.66,70.32|Z|85; Orgrimmar|N|To General Nazgrim.|
+A The Art of War|QID|29611|M|48.66,70.32|Z|85; Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
+T The Art of War|QID|29611|M|48.66,70.32|Z|85; Orgrimmar|N|To General Nazgrim|
+A The Art of War|QID|29612|M|48.66,70.32|Z|85; Orgrimmar|N|From General Nazgrim. Quest not there? Skip this step for an alternative one.|
+T The Art of War|QID|29612|M|48.66,70.32|Z|85; Orgrimmar|N|To General Nazgrim|
+A To Pandaria!|QID|60126|M|40.82,80.15|Z|85; Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|LVL|-50|
+C To Pandaria!|QID|60126|M|49.79,75.27|Z|85; Orgrimmar|N|Head to Grommash Hold and watch the cut-scene\n<ESC> can cancel the cinematic.|
+T Mists of Pandaria: To Pandaria!|QID|60126|M|48.67,70.38|Z|85; Orgrimmar|N|To General Nazgrim.|
+A All Aboard!|QID|31853|M|48.56,70.62|Z|85; Orgrimmar|N|From General Nazgrim.|PRE|29611|
+f Orgrimmar|ACTIVE|31853|M|49.65,59.19|Z|85; Orgrimmar|N|Take one of the 3 elevators up and make your way to Doras.|TAXI|-Orgrimmar|
+C All Aboard!|QID|31853|M|49.65,59.19|Z|85; Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|TAXI|Orgrimmar|
+C All Aboard!|QID|31853|M|49.65,59.19|Z|85; Orgrimmar|QO|1|N|Ask Doras for a flight to Hellscream's Fist.|CHAT|FLY|OLD|
 F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|FLY|-OLD|
 C Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Talk with General Nazgrim.|CHAT|
 T All Aboard!|QID|31853|M|37.89,95.73|Z|Azshara|N|To General Nazgrim, who has relocated to the Hellscream's Fist.|

@@ -147,19 +147,19 @@ T Between Us and Freedom|QID|39694^39688^40255^40256|M|84.04,82.82|Z|The Warden'
 A Illidari, We Are Leaving|QID|39690^39689|PRE|39694^40256|M|85.99,84.31|Z|The Warden's Court@VaultOfTheWardensDH|N|From Archmage Khadgar.|
 T Illidari, We Are Leaving|QID|39690^39689|M|85.99,84.31|Z|The Warden's Court@VaultOfTheWardensDH|N|To Archmage Khadgar.|
 
-A Audience with the Warchief|QID|40976|M|52.53,88.14|Z|Orgrimmar|N|From Archmage Khadgar.|PRE|39690|FACTION|Horde|
-C Audience with the Warchief|QID|40976|M|50.03,75.97|Z|Orgrimmar|QO|1|CHAT|N|Report to Saurfang|FACTION|Horde|
-C Audience with the Warchief|QID|40976|M|50.03,75.97|Z|Orgrimmar|QO|2|NC|N|Learn the Fate of the Horde|FACTION|Horde|
-T Audience with the Warchief|QID|40976|M|45.81,15.11|Z|Durotar|N|To Allari the Souleater.|FACTION|Horde|
-A Second Sight|QID|40982|M|45.81,15.11|Z|Durotar|N|From Allari the Souleater.|PRE|40976|FACTION|Horde|
-C Second Sight|QID|40982|M|45.81,15.11|Z|Durotar|QO|1|N|1/1 Spectral Sight used|FACTION|Horde|
-T Second Sight|QID|40982|M|45.81,15.11|Z|Durotar|N|To Allari the Souleater.|FACTION|Horde|
-A Demons Among Them|QID|40983|M|45.81,15.11|Z|Durotar|N|From Allari the Souleater.|PRE|40982|FACTION|Horde|
-C Demons Among Them|QID|40983|M|45.71,15.87|Z|Durotar|QO|1|N|1/1 Warn Warchief Sylvanas|FACTION|Horde|
-C Demons Among Them|QID|40983|M|46.57,14.54|Z|Durotar|QO|2|N|12/12 Demons slain|FACTION|Horde|
-T Demons Among Them|QID|40983|M|45.68,15.93|Z|Durotar|N|To Lady Sylvanas Windrunner.|FACTION|Horde|
-A A Weapon of the Horde|QID|41002|M|45.68,15.93|Z|Durotar|N|From Lady Sylvanas Windrunner.|PRE|40983|FACTION|Horde|
-T A Weapon of the Horde|QID|41002|M|52.36,57.16|Z|Orgrimmar|N|To Elthyn Da'rai.|FACTION|Horde|
+A Audience with the Warchief|QID|40976|M|52.53,88.14|Z|85; Orgrimmar|N|From Archmage Khadgar.|PRE|39690|FACTION|Horde|
+C Audience with the Warchief|QID|40976|M|50.03,75.97|Z|85; Orgrimmar|QO|1|CHAT|N|Report to Saurfang|FACTION|Horde|
+C Audience with the Warchief|QID|40976|M|50.03,75.97|Z|85; Orgrimmar|QO|2|NC|N|Learn the Fate of the Horde|FACTION|Horde|
+T Audience with the Warchief|QID|40976|M|45.81,15.11|Z|1; Durotar|N|To Allari the Souleater.|FACTION|Horde|
+A Second Sight|QID|40982|M|45.81,15.11|Z|1; Durotar|N|From Allari the Souleater.|PRE|40976|FACTION|Horde|
+C Second Sight|QID|40982|M|45.81,15.11|Z|1; Durotar|QO|1|N|1/1 Spectral Sight used|FACTION|Horde|
+T Second Sight|QID|40982|M|45.81,15.11|Z|1; Durotar|N|To Allari the Souleater.|FACTION|Horde|
+A Demons Among Them|QID|40983|M|45.81,15.11|Z|1; Durotar|N|From Allari the Souleater.|PRE|40982|FACTION|Horde|
+C Demons Among Them|QID|40983|M|45.71,15.87|Z|1; Durotar|QO|1|N|1/1 Warn Warchief Sylvanas|FACTION|Horde|
+C Demons Among Them|QID|40983|M|46.57,14.54|Z|1; Durotar|QO|2|N|12/12 Demons slain|FACTION|Horde|
+T Demons Among Them|QID|40983|M|45.68,15.93|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|FACTION|Horde|
+A A Weapon of the Horde|QID|41002|M|45.68,15.93|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|PRE|40983|FACTION|Horde|
+T A Weapon of the Horde|QID|41002|M|52.36,57.16|Z|85; Orgrimmar|N|To Elthyn Da'rai.|FACTION|Horde|
 
 A The Call of War|QID|39691|M|72.55,47.03|Z|84;Stormwind City|N|From Archmage Khadgar.|PRE|39689|FACTION|Alliance|
 C The Call of War|QID|39691|M|83.48,34.59|Z|84;Stormwind City|NC|N|Run into the Throne Room of Stormwind Keep.|FACTION|Alliance|
@@ -177,14 +177,14 @@ T A Weapon of the Alliance|QID|44473|M|40.25,77.70|Z|84;Stormwind City|N|From El
 A In the Blink of an Eye|QID|44663|M|40.25,77.70|Z|84;Stormwind City|N|Auto Accepted from Khadgar.|PRE|41002^44473|
 R Wizard's Sanctum|QID|44663|M|49.36,86.93|Z|84;Stormwind City|N|Run to the Wizard Sanctum.|FACTION|Alliance|
 C In the Blink of an Eye|QID|44663|M|49.01,87.56|Z|84;Stormwind City|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Alliance|
-R Pathfinder's Den|QID|44663|M|53.57,90.43|Z|Orgrimmar|N|Run to the Pathfinder's Den.|FACTION|Horde|
-C In the Blink of an Eye|QID|44663|M|58.25,90.00|Z|Orgrimmar|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Horde|
+R Pathfinder's Den|QID|44663|M|53.57,90.43|Z|85; Orgrimmar|N|Run to the Pathfinder's Den.|FACTION|Horde|
+C In the Blink of an Eye|QID|44663|M|58.25,90.00|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Horde|
 C In the Blink of an Eye|QID|44663|M|49.83,48.28|Z|Dalaran!Deadwind Pass|QO|2|CHAT|N|Speak with Khadgar to witness the teleportation of Dalaran.|
 T In the Blink of an Eye|QID|44663|M|57.63,45.74|Z|Dalaran!Broken Isles|N|To Emissary Auldbridge.|
 P Stormwind City|QID|62567|M|39.55,63.23|Z|Dalaran!Broken Isles|N|Take the portal back to Stormwind to continue. Even if you plan on doing Legion content, we want to go back to activate Chromie Time.|FACTION|Alliance|
 P Orgrimmar|QID|62568|M|55.26,23.95|Z|Dalaran!Broken Isles|N|Take the portal back to Orgrimmar to continue. Even if you plan on doing Legion content, we want to go back to activate Chromie Time.|FACTION|Horde|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|CT|
 
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|CT|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|CT|
 ]]
 end)

@@ -7,7 +7,7 @@ WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ; Faction Specific Intro
 A The Hand of Fate|QID|47221|N|Accept from UI pop-up.|FACTION|Alliance|
@@ -19,10 +19,10 @@ C Two If By Sea|QID|47222|M|21.36,30.46|Z|84;Stormwind City|QO|1|CHAT|N|Tell Ver
 T Two If By Sea|QID|47222|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Alliance|
 A The Hand of Fate|QID|47835|N|Accept from UI pop-up.|FACTION|Horde|
 P The Hand of Fate|QID|47835|M|55.29,24.00|Z|Dalaran@Dalaran70|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
-C The Hand of Fate|QID|47835|M|58.29,12.09|Z|Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
-T The Hand of Fate|QID|47835|M|58.29,12.09|Z|Durotar|N|To Lady Liadrin.|FACTION|Horde|
-A Two If By Sea|QID|47867|PRE|47835|M|58.29,12.09|Z|Durotar|N|From Lady Liadrin.|FACTION|Horde|
-C Two If By Sea|QID|47867|M|58.29,12.09|Z|Durotar|QO|1|CHAT|N|Tell Lady Liadrin you are ready!|FACTION|Horde|
+C The Hand of Fate|QID|47835|M|58.29,12.09|Z|1; Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
+T The Hand of Fate|QID|47835|M|58.29,12.09|Z|1; Durotar|N|To Lady Liadrin.|FACTION|Horde|
+A Two If By Sea|QID|47867|PRE|47835|M|58.29,12.09|Z|1; Durotar|N|From Lady Liadrin.|FACTION|Horde|
+C Two If By Sea|QID|47867|M|58.29,12.09|Z|1; Durotar|QO|1|CHAT|N|Tell Lady Liadrin you are ready!|FACTION|Horde|
 T Two If By Sea|QID|47867|M|21.38,55.04|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Horde|
 ; THE ASSAULT BEGINS
 A Light's Exodus|QID|47223|PRE|47222^47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|;not spurious-ignore grail integration

@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 C Armies of Legionfall|QID|46730|M|66.46,42.63|Z|Dalaran@Dalaran70|NC|N|Meet Khadgar at Krasus' Landing. If you are already at Krasus' Landing, walk to wards the stairs and then back to the marked location.|
 T Armies of Legionfall|QID|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
@@ -249,7 +249,7 @@ A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^4704
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
 P Stormwind|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
 P Mt Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
-P Orgrimmar|QID|44914^47046^47043^47048^47047|M|55.29,24.00|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914^47046^47043^47048^47047|FACTION|HORDE|
+P Orgrimmar|QID|44914^47046^47043^47048^47047|M|55.29,24.00|Z|85; Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914^47046^47043^47048^47047|FACTION|HORDE|
 C The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
 T The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
 A Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44914^47046^47043^47048^47047|

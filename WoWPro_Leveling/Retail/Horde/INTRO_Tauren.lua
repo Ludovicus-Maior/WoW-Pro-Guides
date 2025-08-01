@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Tauren: Intro")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
 A The First Step|QID|14449|M|27.72,28.28|N|From Chief Hawkwind.|
 T The First Step|QID|14449|M|39.45,37.25|N|To Grull Hawkwind.|
 A Rite of Strength|QID|14452|PRE|14449|M|39.45,37.25|N|From Grull Hawkwind.|
@@ -152,6 +152,6 @@ T War Dance|QID|24540|M|59.88,51.62|Z|Thunder Bluff|R|Tauren|N|To Baine Bloodhoo
 A Walk With The Earth Mother|QID|26397|PRE|24540|M|59.88,51.62|Z|Thunder Bluff|R|Tauren|N|From Baine Bloodhoof.|
 F Orgrimmar|ACTIVE|26397|Z|Mulgore|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
 R Valley of Strength|ACTIVE|26397|Z|Mulgore|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
-T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.|
+T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|85; Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.|
 ]]
 end)

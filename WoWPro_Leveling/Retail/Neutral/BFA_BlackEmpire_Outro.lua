@@ -83,7 +83,7 @@ P The Jade Forest|ACTIVE|56536|M|45.72,87.13|Z|84;Stormwind City|NC|N|Take the P
 F Temple of the White Tiger|ACTIVE|56536|M|46.04,85.13|Z|The Jade Forest|NC|N|To Wing Kyo.|FACTION|Alliance|
 P The Great Seal|ACTIVE|56536|M|41.48,44.86|Z|81; Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|56536|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
-P The Jade Forest|ACTIVE|56536|M|57.45,92.29|Z|Orgrimmar|NC|N|Take the Portal to The Jade Forest.|FACTION|Horde|
+P The Jade Forest|ACTIVE|56536|M|57.45,92.29|Z|85; Orgrimmar|NC|N|Take the Portal to The Jade Forest.|FACTION|Horde|
 F Temple of the White Tiger|ACTIVE|56536|M|28.06,15.67|Z|The Jade Forest|NC|N|To Wing Hya.|FACTION|Horde|
 R Mogu'shan Terrace|ACTIVE|56536|M|59.75,39.01|Z|Kun-Lai Summit|N|Get to Kun-Lai Summit to meet with Magni.|
 C It's Never Easy|QID|56536|M|59.75,39.01|Z|Kun-Lai Summit|NC|QO|1|N|Meet with Magni.|
@@ -174,7 +174,7 @@ P Stormwind City|ACTIVE|57290|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to St
 F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|84;Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
 P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81; Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
-P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
+P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|85; Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
 F Iron Summit|ACTIVE|57290|M|73.79,52.80|Z|Twilight Highlands|N|To Gorthul, to Fly to Iron Summit.|FACTION|Horde|
 R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
 C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|

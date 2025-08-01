@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Stormheim")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 N Starting in Dalaran|ACTIVE|39864|U|140192|N|This guide assumes you are starting in Dalaran.|IZ|-627; Dalaran|
 N Treasure|ACTIVE|39864|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3. If you are using handy notes treasures, their treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Rares (Silver Elite)|ACTIVE|39864|N|All of the Silver mobs are also included. (on rank2/3) The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -14,13 +14,13 @@ T Stormheim|QID|39864|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|N|To Nathanos Blig
 A The Warchief Beckons|QID|38307|PRE|39864|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|N|From Nathanos Blightcaller.|
 C The Warchief Beckons|QID|38307|QO|1|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|NC|U|128692|N|Read the letter from Sylvanas.|
 C Bladefist Bay|ACTIVE|38307|QO|2|M|26.43,45.04|Z|Dalaran!Dalaran!Dungeon|H|N|Click the portal to travel to Bladefist Bay.|
-T The Warchief Beckons|QID|38307|M|61.34,8.93|Z|Durotar|N|To Nathanos Blightcaller.|
-A Making the Rounds|QID|39698|PRE|38307|M|61.38,8.85|Z|Durotar|N|From Lady Sylvanas Windrunner.|
-C Making the Rounds|QID|39698|QO|1|M|61.40,9.90|Z|Durotar|H|N|Click on the Catapult to inspect it when the dialog ends and you are able.|
-C Making the Rounds|QID|39698|QO|2|M|61.33,9.25|Z|Durotar|NC|EAB|N|Use your extra action button to Salute Forsaken Rangers when it becomes available.|
-C Making the Rounds|QID|39698|QO|3|M|61.48,9.07|Z|Durotar|NC|N|This step will auto-complete once the dialog ends.|
-T Making the Rounds|QID|39698|M|61.50,8.77|Z|Durotar|N|To Lady Sylvanas Windrunner.|
-A The Splintered Fleet|QID|39801|PRE|39698|M|61.50,8.77|Z|Durotar|N|From Lady Sylvanas Windrunner.|
+T The Warchief Beckons|QID|38307|M|61.34,8.93|Z|1; Durotar|N|To Nathanos Blightcaller.|
+A Making the Rounds|QID|39698|PRE|38307|M|61.38,8.85|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
+C Making the Rounds|QID|39698|QO|1|M|61.40,9.90|Z|1; Durotar|H|N|Click on the Catapult to inspect it when the dialog ends and you are able.|
+C Making the Rounds|QID|39698|QO|2|M|61.33,9.25|Z|1; Durotar|NC|EAB|N|Use your extra action button to Salute Forsaken Rangers when it becomes available.|
+C Making the Rounds|QID|39698|QO|3|M|61.48,9.07|Z|1; Durotar|NC|N|This step will auto-complete once the dialog ends.|
+T Making the Rounds|QID|39698|M|61.50,8.77|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|
+A The Splintered Fleet|QID|39801|PRE|39698|M|61.50,8.77|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
 C The Windrunner|QID|39801|SO|1|M|55.36,64.92|Z|AraukNashalIntroScenario|H|N|Click on Lady Sylvanas to start the dialog.|
 C The Windrunner|QID|39801|SO|2|M|53.83,64.92|Z|AraukNashalIntroScenario|V|N|Ride with Nathanos then hop on the Catapult and shoot down the skyfire gryphons.|
 C The Blightcaller|QID|39801|SO|3|M|42.05,54.13|Z|AraukNashalIntroScenario|V|N|Ride with Nathanos to 'The Blightcaller' and then slay all paratroopers there.|
