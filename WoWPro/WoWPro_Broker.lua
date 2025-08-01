@@ -2600,7 +2600,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                     local friendTextLevel = reputationInfo.reaction:lower()
                     standingId = Rep2IdAndClass[friendTextLevel][1]
-                    earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
+                    if reputationInfo.nextThreshold then 
+                        earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
+                    else
+                        earnedValue = 0 -- The reputation is at max
+                    end
                     WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", reputationInfo.name, friendTextLevel, standingId, earnedValue)
                 else
                     local factionInfo = WoWPro.C_Reputation_GetFactionDataByID(factionIndex)
