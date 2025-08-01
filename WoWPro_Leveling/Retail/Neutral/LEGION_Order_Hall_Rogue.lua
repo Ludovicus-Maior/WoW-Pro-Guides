@@ -9,9 +9,9 @@ WoWPro:GuideClassSpecific(guide, 'Rogue')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
-A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
-C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|85; Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
 A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
@@ -504,8 +504,8 @@ C Hiding In Plain Sight|QID|46089|QO|3|M|72.71,55.28|Z|Undercity|T|Mistress Mati
 b Orgrimmar|QID|46089|QO|4|M|60.44,58.90|Z|Tirisfal Glades|N|Outside Undercity, fly onto the zeppelin and head for Orgrimmar.|FACTION|ALLIANCE|ACTIVE|46089|
 F Thunder Bluff|QID|46089|QO|4|M|56.80,51.45|Z|Thunder Bluff|N|Watch out for/avoid the flying patrols in Orgrimmar and Thunder Bluff. They will stun and dismount you.|FACTION|ALLIANCE|ACTIVE|46089|
 C Hiding In Plain Sight|QID|46089|M|56.80,51.45|Z|Thunder Bluff|QO|4|T|Kroksy the Impregnable|N|Pick Pocket Kroksy and then use his key to remove his armor buff.|U|144296|FACTION|ALLIANCE|
-F Orgrimmar|QID|46089|QO|5|M|54.39,73.51|Z|Orgrimmar|N|Fly back to Orgrimmar. Lilian could use some lessons in efficient travel.|FACTION|ALLIANCE|ACTIVE|46089|
-C Hiding In Plain Sight|QID|46089|M|54.39,73.51|Z|Orgrimmar|QO|5|T|Auctioneer Xifa|N|The final mark, Auctioneer Xifa, can be found inside the main auction house.|FACTION|ALLIANCE|
+F Orgrimmar|QID|46089|QO|5|M|54.39,73.51|Z|85; Orgrimmar|N|Fly back to Orgrimmar. Lilian could use some lessons in efficient travel.|FACTION|ALLIANCE|ACTIVE|46089|
+C Hiding In Plain Sight|QID|46089|M|54.39,73.51|Z|85; Orgrimmar|QO|5|T|Auctioneer Xifa|N|The final mark, Auctioneer Xifa, can be found inside the main auction house.|FACTION|ALLIANCE|
 
 ;mount quest - horde - not tested - scouted and taken from wowhead
 T Dread Infiltrators|QID|46103|M|19.45,21.22|N|To Lilian Voss.|FACTION|HORDE|

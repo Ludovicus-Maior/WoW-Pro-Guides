@@ -125,7 +125,7 @@ A Decisions, Decisions|QID|25743|PRE|25732|RANK|2|M|58.37,48.52|Z|201; Kelp'thar
 C Decisions, Decisions|QID|25743|RANK|2|U|55806|M|58.37,48.52|Z|201; Kelp'thar Forest|N|Use The Pewter Pounder on The Porcelain Prophet next to you. Budd will turn back into a human.|
 T Decisions, Decisions|QID|25743|RANK|2|M|58.37,48.52|Z|201; Kelp'thar Forest|N|To Budd.|
 T A Desperate Plea|QID|25638|M|46.32,46.8|Z|201; Kelp'thar Forest|N|To Erunak Stonespeaker.|
-A Undersea Sanctuary|QID|25794|PRE|25638|RANK|1|M|46.3,46.8|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
+A Undersea Sanctuary|QID|25794|PRE|25638|M|46.3,46.8|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Undersea Sanctuary|QID|25794|U|56020|M|46.43,46.27|Z|201; Kelp'thar Forest|N|Use Erunak's Scrying Orb to view Deepmist Grotto.|
 T Undersea Sanctuary|QID|25794|M|46.3,46.8|Z|201; Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Spelunking|QID|25812|PRE|25794|M|46.3,46.8|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
@@ -200,11 +200,11 @@ C Slippery Threat|QID|25220|US|M|40.5,37.9;49.2,35.8;61,38.2|Z|205; Shimmering E
 l Don't be Shellfish|QID|25219|QO|1|M|49.2,35.8|Z|205; Shimmering Expanse|N|Collect Coilshell Sifters.|US|
 T A Distracting Scent|QID|25215|M|49.6,42.1|Z|205; Shimmering Expanse|N|To Felora Firewreath.|
 T Back in One Piece|QID|25456|M|49.6,42.1|Z|205; Shimmering Expanse|N|To Felora Firewreath.|
-A Toshe's Vengeance|QID|25359|PRE|25456|RANK|1|M|49.6,42.1|Z|205; Shimmering Expanse|N|From Felora Firewreath.|
+A Toshe's Vengeance|QID|25359|PRE|25456|M|49.6,42.1|Z|205; Shimmering Expanse|N|From Felora Firewreath.|
 T Slippery Threat|QID|25220|M|49.2,42|Z|205; Shimmering Expanse|N|To Caretaker Movra.|
 T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
 T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
-A Vengeful Heart|QID|25439|PRE|25359|RANK|1|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+A Vengeful Heart|QID|25439|PRE|25359|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
 A Vortex|QID|25441|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
 C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|205; Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the Naga command the snakes to attack you.|
 C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|205; Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
@@ -276,11 +276,11 @@ A Bellies Await|QID|25540|PRE|25538|M|49,49.2|Z|205; Shimmering Expanse|N|From D
 T Cold Welcome|QID|25536|M|46.63,57.46;49.2,57|Z|205; Shimmering Expanse|CC|N|To Captain Taylor.|
 T Bellies Await|QID|25540|M|49.46,57.40|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
 A An Occupation of Time|QID|25581|PRE|25536&25540|RANK|2|M|49.69,57.15|Z|205; Shimmering Expanse|N|From Levia Dreamwalker.|
-A Swift Approach|QID|25580|RANK|1|PRE|25536&25540|M|49.20,56.99|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+A Swift Approach|QID|25580|PRE|25536&25540|M|49.20,56.99|Z|205; Shimmering Expanse|N|From Captain Taylor.|
 A A Better Vantage|QID|25582|PRE|25536&25540|M|49.20,56.99|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
-A Caught Off-Guard|QID|25579|RANK|1|PRE|25536&25540|M|49.2,56.9|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
-C Caught Off-Guard|QID|25579|RANK|1|S|Z|205; Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
-C Swift Approach|QID|25580|RANK|1|S|Z|205; Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
+A Caught Off-Guard|QID|25579|PRE|25536&25540|M|49.2,56.9|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+C Caught Off-Guard|QID|25579|S|Z|205; Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
+C Swift Approach|QID|25580|S|Z|205; Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
 C Lestharia Vashj statue|QID|25581|QO|1|M|39.66,58.96|Z|205; Shimmering Expanse|NC|N|Read the inscription at the Lestharia Vashj statue.|; Lestharia Vashj statue: 1/1
 C Queen Azshara statue|QID|25581|QO|2|M|38.62,58.96|Z|205; Shimmering Expanse|NC|N|Read the inscription at the Queen Azshara statue.|; Queen Azshara statue: 1/1
 C Northern Quel'Dormir Gardens|QID|25582|QO|1|M|39.30,58.58|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to scout the Northern gardens.|
@@ -290,28 +290,28 @@ A Upon the Scene of Battle|QID|25583|PRE||M|40.52,75.42|Z|205; Shimmering Expans
 C Structures south of Quel'Dormir Gardens scouted|QID|25582|QO|3|M|40.49,74.95|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|; Structures south of Quel'Dormir Gardens scouted: 1/1
 C Tunnel west of Quel'Dormir Gardens scouted|QID|25582|QO|2|M|35.24,63.06|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
 C A Better Vantage|QID|25582|M|39.17,56.89|Z|205; Shimmering Expanse|N|Scout the area.|
-C Swift Approach|QID|25580|RANK|1|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|205; Shimmering Expanse|CN|N|Destroy Azsh'ir Monitors.|
-C Caught Off-Guard|QID|25579|RANK|1|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|205; Shimmering Expanse|CN|N|Kill remaining Azsh'ir Patrollers.|
+C Swift Approach|QID|25580|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|205; Shimmering Expanse|CN|N|Destroy Azsh'ir Monitors.|
+C Caught Off-Guard|QID|25579|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|205; Shimmering Expanse|CN|N|Kill remaining Azsh'ir Patrollers.|
 A Piece of the Past|QID|27716|RANK|2|U|62281|N|If you are VERY lucky, you have looted an Ancient Elven Etching from one of the naga (2% chance). Accept the quest. If not, either keep killing Naga until you do.|
 T An Occupation of Time|QID|25581|RANK|2|M|46.74,57.52;49.6,57.1|Z|205; Shimmering Expanse|CC|N|To Levia Dreamwalker.|
 T Piece of the Past|QID|27716|RANK|2|M|49.6,57.1|Z|205; Shimmering Expanse|N|To Levia Dreamwalker.|
-T Swift Approach|QID|25580|RANK|1|M|49.2,57|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+T Swift Approach|QID|25580|M|49.2,57|Z|205; Shimmering Expanse|N|To Captain Taylor.|
 T A Better Vantage|QID|25582|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
-T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+T Caught Off-Guard|QID|25579|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
 T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
-A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|RANK|1|U|55171|M|49.3,57.0|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|BUFF|73974|M|40.50,75.58|Z|205; Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|;Buff ID 73974 untested. When an author confirms the autocomplete works, please remove "Close this step" and this comment.
+A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|U|55171|M|49.3,57.0|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+U Visions of the Past: The Invasion of Vashj'ir|QID|25619|U|55171|BUFF|73974|M|40.50,75.58|Z|205; Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|;Buff ID 73974 untested. When an author confirms the autocomplete works, please remove "Close this step" and this comment.
 A Reoccupation|QID|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|CN|Z|205; Shimmering Expanse|N|Kill Kvaldir Defenders.|
 T Reoccupation|QID|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
 A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
 T The Revered Lady|QID|25620|M|39.4,59|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
 A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|205; Shimmering Expanse|N|From Lady Naz'jar.|
-A Built to Last|QID|25658|PRE|25620|RANK|1|M|39,58.6|Z|205; Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+A Built to Last|QID|25658|PRE|25620|M|39,58.6|Z|205; Shimmering Expanse|N|From Sira'kess Tide Priestess.|
 C To the Fathom-Lord's Call|QID|25637|S|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|205; Shimmering Expanse|CN|N|Kill Kvaldir.|
-C Built to Last|QID|25658|RANK|1|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|CN|N|Activate the defenses which look like blue basins.|Z|205; Shimmering Expanse|
+C Built to Last|QID|25658|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|CN|N|Activate the defenses which look like blue basins.|Z|205; Shimmering Expanse|
 C To the Fathom-Lord's Call|QID|25637|US|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|205; Shimmering Expanse|CN|N|Kill the remaining Kvaldir.|
-T Built to Last|QID|25658|RANK|1|M|38.99,58.71|Z|205; Shimmering Expanse|N|To Sira'kess Tide Priestess.|
+T Built to Last|QID|25658|M|38.99,58.71|Z|205; Shimmering Expanse|N|To Sira'kess Tide Priestess.|
 T To the Fathom-Lord's Call|QID|25637|M|36.5,78.5|Z|205; Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
 A Not Soon Forgotten|QID|25659|PRE|25637|M|36.5,78.5|Z|205; Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
 C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|205; Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So aatack Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
@@ -381,7 +381,7 @@ T Come Prepared|QID|25895|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Engineer He
 A Honor and Privilege|QID|25898|PRE|25894&25895&25897|M|56.9,80.5|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
 C Honor and Privilege|QID|25898|U|56188|M|56.6,80.4|Z|205; Shimmering Expanse|N|Swim straight up to the surface (You may have to jump near the balloon to get the credit for swimming to it.). Loot the Rescue Flare from the crate next to Jorlan Trueblade and fire a flare at the Alliance ships.|
 T Honor and Privilege|QID|25898|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Jorlan Trueblade.|
-A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|205; Shimmering Expanse|N|From Jorlan Trueblade.|
+A Welcome News|QID|25911|PRE|25898|M|56.6,80.4|Z|205; Shimmering Expanse|N|From Jorlan Trueblade.|
 T Welcome News|QID|25911|M|46.49,57.45;49.2,57|CS|Z|205; Shimmering Expanse|N|To Captain Taylor.|
 A Visions of the Past: Rise from the Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
 U Visions of the Past: Rise from the Deep|QID|25626|M|33.1,77.8|U|55171|BUFF|78264|Z|205; Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
@@ -486,7 +486,7 @@ C Unplug L'ghorek|QID|26130|M|29.58,52.99|Z|Abyssal Depths|N|Now kill Neph'Lahim
 C Fiends from the Netherworld|QID|26132|RANK|2|M|33.3,49.4;31.3,51.3;33.4,53.7;37.7,51|US|Z|Abyssal Depths|CN|N|Kill remaining Nether Fiends.|
 T Fiends from the Netherworld|QID|26132|RANK|2|M|42.7,37.9|Z|Abyssal Depths|N|To Captain Taylor.|
 T Unplug L'ghorek|QID|26130|M|42.7,37.8|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
-A Communing with the Ancient|QID|26140|PRE|26130|RANK|1|M|42.7,37.8|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
+A Communing with the Ancient|QID|26140|PRE|26130|M|42.7,37.8|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 T Communing with the Ancient|QID|26140|M|41.18,47.10;38.44,45.34|Z|Abyssal Depths|CS|N|Turn in the quest at L'ghorek's brain.|
 A Runestones of Binding|QID|26141|PRE|26140|M|38.44,45.34|Z|Abyssal Depths|N|From L'ghorek|
 A Ascend No More!|QID|26142|PRE|26140|M|38.44,45.34|Z|Abyssal Depths|N|From L'ghorek|

@@ -5,14 +5,14 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 N Flying Mount|QID|28825|FLY|OLD|Z|84;Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
-N Flying Mount|QID|27721|FLY|OLD|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
+N Flying Mount|QID|27721|FLY|OLD|Z|85; Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
 A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal.|FACTION|Alliance|
 C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.69,29.60|Z|84;Stormwind City|CHAT|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
 T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|80; Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
-A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
-C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|
+A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|85; Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
+C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|85; Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|
 T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|80; Moonglade|N|At Emissary Windsong.|FACTION|Horde|
 A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|80; Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
 A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|80; Moonglade|N|From Emissary Windsong.|FACTION|Horde|
@@ -463,7 +463,7 @@ T The Firelord|QID|25551|M|72.09,74.07|Z|198; Mount Hyjal|N|To Commander Jarod S
 A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|Z|198; Mount Hyjal|N|From Commander Jarod Shadowsong.|FACTION|Alliance|
 A The Battle Is Won, The War Goes On|QID|27399|PRE|25551|M|72.05,73.89|Z|198; Mount Hyjal|N|From Commander Jarod Shadowsong.|FACTION|Horde|
 F Orgrimmar|ACTIVE|28790|M|71.67,75.24|Z|198; Mount Hyjal|N|Fly back to Orgrimmar.|FACTION|Horde|
-T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
+T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|85; Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
 F Stormwind|ACTIVE|27398|M|71.67,75.24|Z|198; Mount Hyjal|N|Fly back to Stormwind.|FACTION|Alliance|
 T The Battle Is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|84; Stormwind City|N|In Stormwind, Naraat the Earthspeaker|FACTION|Alliance|
 

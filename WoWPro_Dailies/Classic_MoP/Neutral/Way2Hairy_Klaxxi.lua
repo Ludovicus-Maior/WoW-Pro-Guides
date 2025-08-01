@@ -18,7 +18,7 @@ N Klaxxi|QID|31175|N|You need to have opened the Dread Wastes Questline as descr
 
 A Skeer the Bloodseeker|QID|31175|REP|The Klaxxi;1337;honored|N|This is a one time quest available at honored. Accept this quest from Kil'ruk the Wind-Reaver.|M|55.00,35.80|
 
-R Underwater cave entrance|QID|31175|M|26.00,54.00|Z|Dread Wastes|CC|
+R Underwater cave entrance|ACTIVE|31175|M|26.00,54.00|Z|Dread Wastes|CC|
 
 C Skeer the Bloodseeker|QID|31175|M|25.60,50.40|N|Awaken Skeer|
 
@@ -54,7 +54,7 @@ C Damage Control|QID|31458|M|55.64,46.77|N|From Hisek the Swarmkeeper. Kill Ik't
 
 C Venom-Coated Mandible|QID|31465|N|Collect Mandibles from the Ik'thik Swarmborn|QO|1|M|51.20,49.80;51.40,46.20;51.65,51.75;51.40,44.00;54.33,45.19;54.40,51.05;56.59,46.55|CN|
 
-R Beneath the Heart of Fear|QID|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
+R Beneath the Heart of Fear|ACTIVE|31018|M|29.00,42.40|N|Entrance|Z|Dread Wastes|CC|
 
 C Adjunct Tzikzi slain|QID|31018|QO|4|M|30.80,44.20|N|Try to stay in the hall of the chamber, or he might reset.|
 
@@ -142,7 +142,7 @@ C Dark Skies|QID|31216|M|54.80,36.00|N|Speak to Xaril the Poisoned Mind to start
 
 C Locate Kovok|QID|31808|QO|1|M|50.7,41.6|N|Use Kovok to slay 200 Mantids.|
 
-K Mantids Slaughter|QID|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the area.|
+K Mantids Slaughter|ACTIVE|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the area.|
 
 ; Lake of Stars
 
@@ -156,7 +156,7 @@ C Bad Genes|QID|31271|M|59.00,71.00|N|Kill 3 Ik'thik Genemancers and 6 Ik'thik E
 
 C A Little Brain Work|QID|31268|U|85884|N|Collect 3 Amber-Encrusted Brains from Ik'thik Amberstingers.|US|M|61.00,71.00|
 
-R Mistblade Den|QID|31269|N|Cave Entrance|CC|M|66.73,63.61|
+R Mistblade Den|ACTIVE|31269|N|Cave Entrance|CC|M|66.73,63.61|
 
 C The Scale-Lord|QID|31269|M|66.40,65.80|N|Kill the Mistblade Scale-Lord.|
 
@@ -172,7 +172,7 @@ C Kunchong Treats|QID|31024|N|Drop from Chillwater Turtles.|US|M|57.20,54.00|
 
 ; Terrace of Gurthan
 
-R Terrace of Gurthan|QID|31233^31232^31231^31237^31235^31234|M|55.10,35.90|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
+R Terrace of Gurthan|ACTIVE|31233^31232^31231^31237^31235^31234|M|55.10,35.90|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
 
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|S|
 
@@ -188,7 +188,7 @@ C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40
 
 C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
-K Summon and Kill Warlord Gurthan|QID|31233^31232^31231^31237^31235^31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
+K Summon and Kill Warlord Gurthan|ACTIVE|31233^31232^31231^31237^31235^31234|QO|1|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
 
 A The Warlord's Ashes|QID|31677|ACTIVE|31233^31232^31231^31237^31235^31234|O|U|88715|N|Accept the quest from the ashes.|
 
@@ -204,7 +204,7 @@ C Brain Food|QID|31238|M|60.00,23.00|N|They drop off Greatback Mushan.|
 
 ; Clutches of Shek'zeer
 
-R Clutches of Shek'zeer|M|49.20,34.00|QID|31109^31504^31504^31502^31503^31599|N|Get your favorite Klaxxi buff from any of the available Paragons.|
+R Clutches of Shek'zeer|M|49.20,34.00|ACTIVE|31109^31504^31504^31502^31503^31599|N|Get your favorite Klaxxi buff from any of the available Paragons.|
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|S|
 
@@ -224,7 +224,7 @@ C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|T|Vess-Guard
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|35.60,31.40|
 
-K Karanosh|QID|31109^31504^31502^31503^31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
+K Karanosh|ACTIVE|31109^31504^31502^31503^31599|QO|1|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
 
 A The Matriarch's Maw|QID|31599|ACTIVE|31109^31504^31502^31503^31599|U|87878|N|Accept the quest from the mandibles.|
 
@@ -240,9 +240,9 @@ C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
 ; Briny Muck
 
-R The Briny Muck|QID|31111^31508^31509^31506^31505^31507^31510|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
+R The Briny Muck|ACTIVE|31111^31508^31509^31506^31505^31507^31510|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
 
-K Kypa'rak|QID|31111^31508^31509^31506^31505^31507^31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
+K Kypa'rak|ACTIVE|31111^31508^31509^31506^31505^31507^31510|M|34.20,59.80|QO|1|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
 A Kypa'rak's Core|QID|31598|ACTIVE|31111^31508^31509^31506^31505^31507^31510|O|U|87871|N|Accept the quest from the kyparite core.|
 
@@ -254,13 +254,13 @@ C Fear Takes Root|QID|31509|N|Destroy 15 Dreadspore Bulbs in Zan'vess and The Br
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|
 
-K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|1|T|Vess-Guard Vik'az|
+K Vess-Guard Vik'az|ACTIVE|31505|M|29.00,75.60|QO|1|T|Vess-Guard Vik'az|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
-R Whispering Stones|QID|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
+R Whispering Stones|ACTIVE|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
 
-K Adjunct Sek'ot|QID|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|1|N|After you interact with the crystal, he will appear, kill him.|
+K Adjunct Sek'ot|ACTIVE|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|1|N|After you interact with the crystal, he will appear, kill him.|
 
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|
 

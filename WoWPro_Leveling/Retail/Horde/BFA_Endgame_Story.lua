@@ -95,12 +95,12 @@ N Zandalari Empire Rep Gate|QID|51513|PRE|50954|N|Do WQs that give Zandalari Emp
 ; 8.1 quests
 A The Dark Lady Calls|QID|54097|PRE|53003|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|O|
 P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
-C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
-T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-A The High Overlord|QID|54099|PRE|54097|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|
-C The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
-T The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-A A Way Out|QID|54100|PRE|54099|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|
+C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|85; Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
+T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|85; Orgrimmar|N|To Sylvanas Windrunner.|
+A The High Overlord|QID|54099|PRE|54097|M|48.30,71.06|Z|85; Orgrimmar|N|From Sylvanas Windrunner.|
+C The High Overlord|QID|54099|M|48.30,71.06|Z|85; Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
+T The High Overlord|QID|54099|M|48.30,71.06|Z|85; Orgrimmar|N|To Sylvanas Windrunner.|
+A A Way Out|QID|54100|PRE|54099|M|48.30,71.06|Z|85; Orgrimmar|N|From Sylvanas Windrunner.|
 T A Way Out|QID|54100|M|30.54,57.66|Z|Elwynn Forest|N|Travel to Elwynn forest to meet Dark Ranger Lyana. Fastest way there is via the Stranglethron Zeppelin.|
 A On Track|QID|54101|PRE|54100|M|30.54,57.66|Z|Elwynn Forest|N|From Dark Ranger Lyana.|
 C On Track|QID|54101|QO|1|M|28.78,61.51|Z|Elwynn Forest|N|Investigate the area.|
@@ -140,7 +140,7 @@ C A Warrior's Death|QID|54108|QO|1|M|80.85,78.34|Z|51;Swamp of Sorrows|N|Chat wi
 T A Warrior's Death|QID|54108|M|80.80,78.74|Z|51;Swamp of Sorrows|N|To Varok Saurfang.|
 A Queen's Favor|QID|54109|PRE|54108|M|80.80,78.71|Z|51;Swamp of Sorrows|N|From Varok Saurfang.|
 C Queen's Favor|QID|54109|QO|1|M|80.80,78.68|Z|51;Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
-T Queen's Favor|QID|54109|M|48.34,71.14|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+T Queen's Favor|QID|54109|M|48.34,71.14|Z|85; Orgrimmar|N|To Lady Sylvanas Windrunner.|
 N Not the end|AVAILABLE|-54109|N|That's it for patch 8.1. Come back in 8.2 when the story continues.|
 ]]
 end)

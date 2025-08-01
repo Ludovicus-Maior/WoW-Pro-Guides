@@ -338,22 +338,22 @@ T Victory!|QID|25265|Z|The Lost Isles|M|42.14,17.41|N|To Thrall.|
 N Quest Skipping Not Allowed|QID|99999|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|LEAD|25265|
 A Warchief's Emissary|QID|25266|Z|The Lost Isles|M|42.14,17.41|N|From Thrall.|PRE|25265|LEAD|25267|
 R Bladefist Bay|QID|25266|Z|The Lost Isles|M|42.59,16.40|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|ACTIVE|25266|
-T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|Durotar|N|To Korkron Loyalist.|
-A Message for Saurfang|QID|25267|M|57.67,9.6|Z|Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
-T Message for Saurfang|QID|25267|M|48.26,70.93|Z|Orgrimmar|N|To Saurfang, inside Grommash Hold.|
-A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|49.22,71.87|Z|Orgrimmar|N|From Eitrigg.|
-A Missing Reports|QID|26803|M|49.0,72.2|Z|Orgrimmar|N|From Eitrigg.|RANK|2|
-T Missing Reports|QID|26803|M|49.4,59.2|Z|Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
-A Flight to Razor Hill|QID|26804|M|49.4,59.2|Z|Orgrimmar|N|From Doras, the flight master.|PRE|26803|RANK|2|
-F Razor Hill|QID|26804|M|49.4,59.2|Z|Orgrimmar|N|Fly to Razor Hill.|RANK|2|ACTIVE|26804|
-T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|Durotar|N|To Gar'Thok.|RANK|2|
-A Reports to Orgrimmar|QID|26806|M|51.8,43.4|Z|Durotar|N|From Gar'Thok.|PRE|26804|RANK|2|
-T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|Durotar|N|To Burok.|RANK|2|
-A Return to Eitrigg|QID|26807|M|53.0,43.6|Z|Durotar|N|To Burok.|PRE|26806|RANK|2|
-F Orgrimmar|QID|26807|M|53.0,43.6|Z|Durotar|N|Fly back to Orgrimmar.|ACTIVE|26807|
-T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|Orgrimmar|N|To Eitrigg.|RANK|2|
+T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1; Durotar|N|To Korkron Loyalist.|
+A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1; Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
+T Message for Saurfang|QID|25267|M|48.26,70.93|Z|85; Orgrimmar|N|To Saurfang, inside Grommash Hold.|
+A Report to the Labor Captain|QID|25275|LEAD|14129|PRE|25267|M|49.22,71.87|Z|85; Orgrimmar|N|From Eitrigg.|
+A Missing Reports|QID|26803|M|49.0,72.2|Z|85; Orgrimmar|N|From Eitrigg.|RANK|2|
+T Missing Reports|QID|26803|M|49.4,59.2|Z|85; Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
+A Flight to Razor Hill|QID|26804|M|49.4,59.2|Z|85; Orgrimmar|N|From Doras, the flight master.|PRE|26803|RANK|2|
+F Razor Hill|QID|26804|M|49.4,59.2|Z|85; Orgrimmar|N|Fly to Razor Hill.|RANK|2|ACTIVE|26804|
+T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1; Durotar|N|To Gar'Thok.|RANK|2|
+A Reports to Orgrimmar|QID|26806|M|51.8,43.4|Z|1; Durotar|N|From Gar'Thok.|PRE|26804|RANK|2|
+T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1; Durotar|N|To Burok.|RANK|2|
+A Return to Eitrigg|QID|26807|M|53.0,43.6|Z|1; Durotar|N|To Burok.|PRE|26806|RANK|2|
+F Orgrimmar|QID|26807|M|53.0,43.6|Z|1; Durotar|N|Fly back to Orgrimmar.|ACTIVE|26807|
+T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|85; Orgrimmar|N|To Eitrigg.|RANK|2|
 N City Facilities|QID|25275|N|You can take this opportunity to use the city's facilities (Repair, Auction House, etc.) before heading to Azshara.|ACTIVE|25275|S|
-R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|Orgrimmar|ACTIVE|25275|
+R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|85; Orgrimmar|ACTIVE|25275|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|Azshara|N|To Labor Captain Grabbit.|
 ]]
 end)

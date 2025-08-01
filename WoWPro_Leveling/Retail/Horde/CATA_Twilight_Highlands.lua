@@ -4,21 +4,21 @@ WoWPro:GuideSort(guide, 85)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
-R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgrimmar.|
-A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|Orgrimmar|
-T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
-A Machines of War|QID|26293|PRE|28717|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+R Orgrimmar|QID|28717|Z|85; Orgrimmar|N|Make your way to Orgrimmar.|
+A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|85; Orgrimmar|
+T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|85; Orgrimmar|N|To Eitrigg.|
+A Machines of War|QID|26293|PRE|28717|M|48.26,70.93|Z|85; Orgrimmar|N|From Eitrigg.|
 T Machines of War|QID|26293|M|26.18,78.80|Z|Azshara|N|To Foreman Glibbs.|
 A Weapons of Mass Dysfunction|QID|26294|PRE|26293|M|26.18,78.80|Z|Azshara|N|From Foreman Glibbs.|
-C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|Orgrimmar|N|Click the demo to find faulty one, then punt a gnome!|
-T Weapons of Mass Dysfunction|QID|26294|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
-A Sauranok Will Point the Way|QID|28909|LEAD|26311|PRE|26294|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
-T Sauranok Will Point the Way|QID|28909|M|48.07,71.15|Z|Orgrimmar|N|To Sauranok the Mystic.|
-A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|Orgrimmar|N|From Sauranok the Mystic.|
-C Unfamiliar Waters|QID|26311|M|71.24,50.60|Z|Orgrimmar|N|Talk to Herezegor Flamecrusk inside building. After the ambush, talk to him again to get the chart.|
-T Unfamiliar Waters|QID|26311|M|47.97,71.07|Z|Orgrimmar|N|To Sauranok the Mystic.|
-A Where Is My Warfleet?|QID|26324|PRE|26311|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
+C Weapons of Mass Dysfunction|QID|26294|NC|M|73.88,8.15|Z|85; Orgrimmar|N|Click the demo to find faulty one, then punt a gnome!|
+T Weapons of Mass Dysfunction|QID|26294|M|48.26,70.93|Z|85; Orgrimmar|N|To Eitrigg.|
+A Sauranok Will Point the Way|QID|28909|LEAD|26311|PRE|26294|M|48.26,70.93|Z|85; Orgrimmar|N|From Eitrigg.|
+T Sauranok Will Point the Way|QID|28909|M|48.07,71.15|Z|85; Orgrimmar|N|To Sauranok the Mystic.|
+A Unfamiliar Waters|QID|26311|M|48.07,71.15|Z|85; Orgrimmar|N|From Sauranok the Mystic.|
+C Unfamiliar Waters|QID|26311|M|71.24,50.60|Z|85; Orgrimmar|N|Talk to Herezegor Flamecrusk inside building. After the ambush, talk to him again to get the chart.|
+T Unfamiliar Waters|QID|26311|M|47.97,71.07|Z|85; Orgrimmar|N|To Sauranok the Mystic.|
+A Where Is My Warfleet?|QID|26324|PRE|26311|M|48.26,70.93|Z|85; Orgrimmar|N|From Eitrigg.|
 T Where Is My Warfleet?|QID|26324|M|60.05,50.46|Z|Azshara|N|To Warlord Krogg. Fly to Azshara.|
 A Ready the Navy|QID|26335|PRE|26324|M|60.15,50.43|Z|Azshara|N|From Warlord Krogg.|
 A Ready the Ground Troops|QID|26374|PRE|26324|M|60.15,50.43|Z|Azshara|N|From Warlord Krogg.|
@@ -69,11 +69,11 @@ C Muddied Waters|QID|26784|M|65.01,41.58|
 T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
 A Saurfang Will be Pleased|QID|26798|PRE|26784&26788|M|73.82,53.89|N|From Artesh.|
-T Saurfang Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg. Go through the portal.|
-A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
-C Traitor's Bait|QID|26830|M|43.73,63.68|Z|Orgrimmar|N|Bottom of the tower.|
-T Traitor's Bait|QID|26830|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|
-A Return to the Highlands|QID|26840|PRE|26830|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
+T Saurfang Will be Pleased|QID|26798|M|48.26,70.93|Z|85; Orgrimmar|N|To Eitrigg. Go through the portal.|
+A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|85; Orgrimmar|N|From Eitrigg.|
+C Traitor's Bait|QID|26830|M|43.73,63.68|Z|85; Orgrimmar|N|Bottom of the tower.|
+T Traitor's Bait|QID|26830|M|48.26,70.93|Z|85; Orgrimmar|N|To Eitrigg.|
+A Return to the Highlands|QID|26840|PRE|26830|M|48.26,70.93|Z|85; Orgrimmar|N|From Eitrigg.|
 f Dragonmaw Port|QID|26840|M|73.78,52.81|N|Take the portal from Org to Twilight Highlands.Get flight path|
 T Return to the Highlands|QID|26840|M|75.30,54.84|N|To Zaela.|
 A The Northern Flank|QID|27583|PRE|26840|M|75.30,54.84|N|From Zaela.|

@@ -206,7 +206,7 @@ T Storm's End|QID|50824|M|78.32,28.85|N|To Brother Pike after he runs up.|
 A Shrine of the Storm: Whispers Below|QID|50825|M|78.32,28.85|N|This is a dungeon quest, take or not as you choose.|NA|
 A A New Dawn|QID|50733|M|78.32,28.85|N|From Taelia.|PRE|50824|
 f Shrine of the Storm|ACTIVE|50733|M|78.32,28.85|N|From Galeheart.|
-F Brennadam|TZ|Brennadam|ACTIVE|51552|M|78.32,29.02|N|Fly back to Brennadam, at Galeheart.|RANK|1|
+F Brennadam|TZ|Brennadam|ACTIVE|51552|M|78.32,29.02|N|Fly back to Brennadam, at Galeheart.|
 ; sidequest Mildenhall Meadery
 F Mildenhall Meadery|ACTIVE|51582|M|78.32,28.85|N|Fly back to Mildenhall.|RANK|2|
 T Make it Mildenhall|QID|51582|M|68.88,65.16|N|To Ancel Mildenhall.|

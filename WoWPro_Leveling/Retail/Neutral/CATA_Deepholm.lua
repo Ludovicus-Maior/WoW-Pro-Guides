@@ -5,14 +5,14 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|84;Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 P Deepholm|QID|26245|M|73.20,19.62|Z|84;Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
-A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
-T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
-A The Maelstrom|QID|27203|M|50.45,38.35|Z|Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
-P The Maelstrom|QID|27203|M|50.03,37.78|Z|Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
+A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|85; Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
+T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|85; Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
+A The Maelstrom|QID|27203|M|50.45,38.35|Z|85; Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
+P The Maelstrom|QID|27203|M|50.03,37.78|Z|85; Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
 T The Maelstrom|QID|27203|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|PRE|27203|N|From Thrall.|
 F Deepholm|QID|27123|M|32.47,51.83|Z|The Maelstrom!The Maelstrom|V|N|Hop on the Wyvern behind you.|
@@ -63,7 +63,7 @@ T Deathwing's Fall|QID|26258|M|59.17,58.70|N|(UI Alert)|
 A Bleed the Bloodshaper|QID|26256|PRE|26258|M|59.17,58.70|N|(UI Alert)|
 C Bleed the Bloodshaper|QID|26256|M|61.21,59.44|N|Find and kill a Twilight Bloodshaper in the area around Deathwing's Fall. He should drop the Twilight Orders.|
 T Bleed the Bloodshaper|QID|26256|M|61.32,58.76|N|(UI Alert)|
-A Question the Slaves|QID|26261|PRE|26256|RANK|1|M|61.32,58.76|N|(UI Alert)|
+A Question the Slaves|QID|26261|PRE|26256|M|61.32,58.76|N|(UI Alert)|
 l Twilight Slaver's Key|QID|26261|L|60739|M|62.8,59.6|N|The key you need is in a small tent. Collect it from the chest here.|
 C Question the Slaves|QID|26261|M|65.47,62.41|N|Mount up and fly to quarry just to the southeast. Free 6 Enslaved Miners.|
 T Question the Slaves|QID|26261|M|65.47,62.41|N|(UI Alert)|
@@ -137,7 +137,7 @@ T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
 A One With the Ground|QID|27934|PRE|27932&27933|M|30.69,77.77|N|From Slate Quicksand.|
 C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion's Vault.|
 T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
-A Bring Down the Avalanche|QID|27935^27936|PRE|27934|RANK|1|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
+A Bring Down the Avalanche|QID|27935^27936|PRE|27934|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
 C Bring Down the Avalanche|QID|27935^27936|M|46.96,89.23|N|Kill Avalanchion.|
 T Bring Down the Avalanche|QID|27935^27936|M|27.88,68.68|N|Once he is dead, leave the cave by jumping down into the water and heading north to exit exit. Then return to Crag Rockcrusher at Stonehearth.|
 A Stonefather's Boon|QID|26499|PRE|27935^27936|M|27.88,68.68|N|From Crag Rockcrusher.|
@@ -146,7 +146,7 @@ C Stonefather's Boon|QID|26499|S|U|58884|M|29.85,73.77|N|Go to where the Earthen
 C We're Surrounded|QID|26500|M|31.38,72.07|N|Kill 12 Stone Trogg Ambushers.|
 C Stonefather's Boon|QID|26499|US|U|58884|M|29.85,73.77|N|Go to where the Earthen are fighting the troggs, just southwest of where Dolomite is. Use the Stonefather's Banner near any Stonehearth Defenders and kill any Stone Trogg Ambushers until you complete both of the quests you have.|
 T We're Surrounded|QID|26500|M|28.24,69.72|N|To Earthbreaker Dolomite.|
-A Thunder Stones|QID|26502|PRE|26500|RANK|1|M|28.21,69.66|N|From Earthbreaker Dolomite.|
+A Thunder Stones|QID|26502|PRE|26500|M|28.21,69.66|N|From Earthbreaker Dolomite.|
 T Stonefather's Boon|QID|26499|M|27.86,68.69|N|To Crag Rockcrusher.|
 A Sealing the Way|QID|26501|PRE|26499|M|27.86,68.69|N|From Crag Rockcrusher.|
 C Thunder Stones|QID|26502|S|M|25.84,68.47|N|From now on, collect Thunder Stones.|
@@ -204,7 +204,7 @@ T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
-A The Very Earth Beneath Our Feet|QID|26326|PRE|27938&26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
+A The Very Earth Beneath Our Feet|QID|26326|PRE|27938&26876|M|49.6,53|N|From Maruut Stonebinder.|
 T The Very Earth Beneath Our Feet|QID|26326|M|46.1, 45.7|N|To Earthcaller Torunscar.|
 A Crumbling Defenses|QID|26312|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
 A On Even Ground|QID|26314|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
@@ -259,35 +259,35 @@ C Making Things Crystal Clear|QID|26437|M|33.40,43.80|US|N|Finish collecting Cha
 T Putting the Pieces Together|QID|26439|M|34.2,35|N|To Berracite, who wanders.|
 T Making Things Crystal Clear|QID|26437|M|34.12,34.19|N|To Kor the Immovable.|
 T Intervention|QID|26438|M|34.12,34.19|N|To Kor the Immovable.|
-A Pebble|QID|28869|LEAD|26440|PRE|26439|RANK|1|M|34.12,34.19|N|From Kor the Immovable.|
+A Pebble|QID|28869|LEAD|26440|PRE|26439|M|34.12,34.19|N|From Kor the Immovable.|
 T Pebble|QID|28869|N|To Pebble.|
 A Clingy|QID|26440|PRE|26439|N|From Pebble.|
 C Clingy|QID|26440|M|30.00,46.00|N|Pebble will begin “harvesting” the crystal. Defend him.|
 T Clingy|QID|26440|N|To Pebble.|
 A So Big, So Round...|QID|26441|PRE|26440|N|From Pebble.|
 T So Big, So Round...|QID|26441|M|34.12,34.19|N|To Kor the Immovable.|
-A Petrified Delicacies|QID|26507|PRE|26441|RANK|1|M|34.12,34.19|N|From Kor the Immovable.|
+A Petrified Delicacies|QID|26507|PRE|26441|M|34.12,34.19|N|From Kor the Immovable.|
 A Rock Bottom|QID|26575|PRE|26441|M|34.12,34.19|N|From Kor the Immovable.|
-C Petrified Delicacies|QID|26507|RANK|1|M|39.1,28.8|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.|
-T Petrified Delicacies|QID|26507|RANK|1|N|To Pebble, who should still be following you around.|
+C Petrified Delicacies|QID|26507|M|39.1,28.8|N|Head to the shelf to the northeast. Loot any Petrified Bats off the ground. The basilisks in the area can also drop them.|
+T Petrified Delicacies|QID|26507|N|To Pebble, who should still be following you around.|
 C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
-A Steady Hand|QID|26576|PRE|26575&26507|RANK|1|M|34.12,34.19|N|From Kor.|
+A Steady Hand|QID|26576|PRE|26575&26507|M|34.12,34.19|N|From Kor.|
 A Rocky Upheaval|QID|26577|PRE|26575&26507|M|34.12,34.19|N|From Kor.|
-T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
-A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
-C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
-T Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
-A Hard Falls|QID|26657|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
-A Fragile Values|QID|26658|PRE|26656|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
-C Hard Falls|QID|26657|S|RANK|1|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
-C Fragile Values|QID|26658|RANK|1|U|60266|M|35.8,26.4|N|Search the area until you find two stone troggs with a basilisk in a net. Kill the two troggs and loot them to get a Stonework Mallet.|
-C Hard Falls|QID|26657|US|RANK|1|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
-T Hard Falls|QID|26657|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
-T Fragile Values|QID|26658|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
-A Resonating Blow|QID|26659|PRE|26657&26658|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
-C Resonating Blow|QID|26659|RANK|1|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
-T Resonating Blow|QID|26659|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
+T Steady Hand|QID|26576|N|To Terrath the Steady.|
+A Don't. Stop. Moving.|QID|26656|PRE|26576|M|39.94,19.41|N|From Terrath the Steady.|
+C Don't. Stop. Moving.|QID|26656|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
+T Don't. Stop. Moving.|QID|26656|M|39.94,19.41|N|To Terrath the Steady.|
+A Hard Falls|QID|26657|PRE|26656|M|39.94,19.41|N|From Terrath the Steady.|
+A Fragile Values|QID|26658|PRE|26656|M|39.94,19.41|N|From Terrath the Steady.|
+C Hard Falls|QID|26657|S|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
+C Fragile Values|QID|26658|U|60266|M|35.8,26.4|N|Search the area until you find two stone troggs with a basilisk in a net. Kill the two troggs and loot them to get a Stonework Mallet.|
+C Hard Falls|QID|26657|US|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
+T Hard Falls|QID|26657|M|39.94,19.41|N|To Terrath the Steady.|
+T Fragile Values|QID|26658|M|39.94,19.41|N|To Terrath the Steady.|
+A Resonating Blow|QID|26659|PRE|26657&26658|M|39.94,19.41|N|From Terrath the Steady.|
+C Resonating Blow|QID|26659|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
+T Resonating Blow|QID|26659|M|39.94,19.41|N|To Terrath the Steady.|
 T Rocky Upheaval|QID|26577|M|72.30,54.10|N|To Gorsik the Tumultuous.|
 A Doomshrooms|QID|26578|PRE|26577|M|72.2,53.9|N|From Gorsik the Tumultuous.|
 A Gone Soft|QID|26579|PRE|26577|M|72.2,53.9|N|From Gorsik the Tumultuous.|
@@ -326,7 +326,7 @@ A Our Part of the Bargain|QID|26828|PRE|26827|N|From Maruut.|
 T Our Part of the Bargain|QID|26828|M|63.30,25.00|N|Fly to the Halcyon Egress and find Therazane.|
 A The Stone March|QID|26829|PRE|26828|M|63.3,25.1|N|From Therazane.|
 A Therazane's Mercy|QID|26832|PRE|26828|M|63.3,25.1|N|From Therazane.|
-A The Twilight Flight|QID|26831|PRE|26828|M|62.2,27|N|From Boden the Imposing.|RANK|1|
+A The Twilight Flight|QID|26831|PRE|26828|M|62.2,27|N|From Boden the Imposing.|
 C The Stone March|QID|26829|S|N|Kill Twilight Precipice Cultists.|
 C High Priestess Lorthuna|QID|26832|QO|2|M|62.50,31.00|N|Very top of the tower.|; High Priestess Lorthuna defeated: 1/1
 C Boldrich Stonerender|QID|26832|QO|1|N|Head west to find him.|; Boldrich Stonerender defeated: 1/1
@@ -350,8 +350,8 @@ T The Binding|QID|26971|N|To Earthcaller Torunscar.|
 A The Stone Throne|QID|26709|PRE|26971|M|49.7,53.3|N|Will open up the Daily Quest hub in Deepholm, and to let the temple go back to normal.|
 A Wayward Child|QID|28824|PRE|26871|M|56.5,12.2|N|This is a Quest for Stonecore, the 5-man Dungeon in this zone. Feel free to pick up this quest so you can do it when you run the instance. However that will not be covered here.|
 T The Stone Throne|QID|26709|M|56.4,12.2|N|Back up on Therazane's Throne.|
-A The Twilight Plot|QID|27004|RANK|1|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
-A Fly Over|QID|27006|RANK|1|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
+A The Twilight Plot|QID|27004|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
+A Fly Over|QID|27006|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
 C The Twilight Plot|QID|27004|M|41.00,69.00|N|Kill Twilight Cultist in the area untill you get the Masters' Gate Plans.|FACTION|Alliance|
 C Fly Over|QID|27006|M|39.10,73.90|N|Fly to the Masters' Gate.|FACTION|Alliance|
 T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
@@ -398,8 +398,8 @@ T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgrimmar.|FACTION|Horde|
-T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
-A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|85; Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|85; Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
 T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
 T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
 N This ends this guide.|N|Close this step to continue to Uldum guide.|

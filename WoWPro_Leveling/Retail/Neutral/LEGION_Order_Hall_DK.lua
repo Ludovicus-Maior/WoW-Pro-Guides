@@ -9,11 +9,11 @@ WoWPro:GuideClassSpecific(guide, 'DeathKnight')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 N Guide Progression|QID|43877|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide. Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
-A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
-P In the Blink of an Eye|ACTIVE|44663^44184|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
+P In the Blink of an Eye|ACTIVE|44663^44184|NC|QO|1|M|45.33,62.57|Z|85; Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 P In the Blink of an Eye|ACTIVE|44663^44184|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran!Dalaran!Dungeon|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
@@ -351,11 +351,11 @@ f Acherus: The Ebon Hold|ACTIVE|42449|M|25.61,28.81|N|At Grimwing.|
 P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
 P Graymane Enclave|QID|42449|M|47.2,17.8|Z|Dalaran!Dalaran!Dungeon|N|Your method of travel depends on what prior quests you have done, The fastest, if you did the Mt Hyjel questline is take the Portal in Dalaran to Stormwind, and then the Mt Hyjel portal and fly from there. Lacking that, Stormwind to Booty Bay, boat to Ratchet and fly from there.|FACTION|ALLIANCE|ACTIVE|42449|
 P Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|N|Take the portal to Orgrimar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|42449|
-R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
-T Return of the Four Horsemen|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
-A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|Durotar|N|From Thassarian.|PRE|42449|
-C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|EAB|
-P Acherus: The Ebon Hold|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
+R Durotar|QID|42449|M|47.32,17.67|Z|1; Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
+T Return of the Four Horsemen|QID|42449|M|47.32,17.67|Z|1; Durotar|N|To Thassarian.|
+A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|1; Durotar|N|From Thassarian.|PRE|42449|
+C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|1; Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|EAB|
+P Acherus: The Ebon Hold|QID|42484|M|47.33,17.83|CC|Z|1; Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
 T The Firstborn Rises|QID|42484|M|50.85,50.52|N|To Highlord Darion Mograine.|
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
