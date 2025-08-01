@@ -2600,7 +2600,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                     local friendTextLevel = reputationInfo.reaction:lower()
                     standingId = Rep2IdAndClass[friendTextLevel][1]
-                    if reputationInfo.nextThreshold then 
+                    if reputationInfo.nextThreshold then
                         earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
                     else
                         earnedValue = 0 -- The reputation is at max
