@@ -526,7 +526,7 @@ A Hope's Blue Light|QID|49884|M|57.81,76.64|Z|0862;Zuldazar|N|From Captain Grez'
 C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|Z|0862;Zuldazar|N|Hop on the Captain's mount and fly up to light the Signal Fire. Press the "1" key when you are close to the top of the tower.|V|
 T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|1165;Dazar'alor|N|To Captain Rez'okun in Port of Zandalar after you're dropped off by Captain Grez'ko.|
 ; Block of R2/3 ends and R1 resumes
-F Zeb'ahari|ACTIVE|51101|M|51.91,41.20|Z|1165;Dazar'alor|N|At Paku'ai Rokata. (or other nearest Flight Master.|TZ|Grand Bazaar|RANK|1|TAXI|Zeb'ahari|
+F Zeb'ahari|ACTIVE|51101|M|51.91,41.20|Z|1165;Dazar'alor|N|At Paku'ai Rokata. (or other nearest Flight Master.|TZ|Grand Bazaar|TAXI|Zeb'ahari|
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|1165;Dazar'alor|N|At Paku'ai Rokata. (or other nearest Flight Master.|TZ|Grand Bazaar|RANK|-1|TAXI|-Zeb'ahari|
 A Who Seeks the Seekers?|QID|49283|M|57.76,92.28|Z|1165;Dazar'alor|N|From Sholo in Little Tortolla.|RANK|2|
 R Backwater Beach|AVAILABLE|50281|QO|1|M|61.85,62.87|Z|0862;Zuldazar|N|Head east into the Steamway and exit to the south.|RARE|

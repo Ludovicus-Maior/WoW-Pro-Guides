@@ -14,6 +14,6 @@ T For the Horde|QID|51485|M|39.39,79.58|N|To Ambassador Blackguard near the Emba
 A Stranger in a Strange Land|QID|53502|M|39.39,79.58|N|From Ambassador Blackguard.|
 C Stranger in a Strange Land|QID|53502|M|40.75,80.09|N|Talk to Chromie.|CHAT|
 T Stranger in a Strange Land|QID|53502|M|40.75,80.09|N|To Limbflayer Lasha.|
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|CT|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|CT|
 ]]
 end)

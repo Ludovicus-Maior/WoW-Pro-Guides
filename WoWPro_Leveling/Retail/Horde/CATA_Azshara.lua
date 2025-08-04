@@ -117,9 +117,11 @@ A Mortar the Point|QID|14258|M|52.22,74.23|Z|76; Azshara|N|From Bombardier Capta
 l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|NC|Z|76; Azshara|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|M|43.39,76.07|Z|76; Azshara|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|S|NC|
 A Bad Science! Bad!|QID|14322|M|45.09,75.46|Z|76; Azshara|N|From Twistex Happytongs.|
-A Nine's Plan|QID|14408|M|42.23,76.09|Z|76; Azshara|N|From Subject Nine.\n[color=FF0000]NOTE: [/color]Cut through the Secret lab and climb the hill on the other side. Go out the right side if you want to avoid "Subject Fear".| ; Storyline - Subject Nine from Space!
 K Bad Science! Bad!|ACTIVE|14322|M|44.40,79.00|QO|1|Z|76; Azshara|N|Kill Static-Charged Hippogryphs.|
 T Bad Science! Bad!|QID|14322|M|45.06,75.53|Z|76; Azshara|N|To Twistex Happytongs.|
+A My Favorite Subject|QID|14442|M|45.09,75.46|Z|76; Azshara|N|From Twistex Happytongs.|
+T My Favorite Subject|QID|14442|M|42.23,76.09|Z|76; Azshara|N|To Subject Nine.|
+A Nine's Plan|QID|14408|M|42.23,76.09|Z|76; Azshara|N|From Subject Nine.\n[color=FF0000]NOTE: [/color]Cut through the Secret lab and climb the hill on the other side. Go out the right side if you want to avoid "Subject Fear".| ; Storyline - Subject Nine from Space!
 C Nine's Plan|QID|14408|M|45.97,76.06|QO|1|Z|76; Azshara|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|NC|
 C Nine's Plan|QID|14408|M|45.97,76.06|QO|2|Z|76; Azshara|N|When the door opens, defeat the Mutant Goblin after he attacks you.\n[color=FF0000]NOTE: [/color]The Mutant Tentacles will continue to attack you after you defeat the Goblin. Just walk away and they will eventually despawn.|
 T Nine's Plan|QID|14408|M|42.22,76.12|Z|76; Azshara|N|To Subject Nine.|

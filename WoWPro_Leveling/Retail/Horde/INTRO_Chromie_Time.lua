@@ -41,10 +41,10 @@ N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once 
 ;A To Northrend!|QID|60097|M|40.82,80.15|N|From Chromie after activating Wrath of the Lich King timeline.|
 ;A To Pandaria!|QID|60126|M|40.82,80.15|N|From Chromie after activating Mists of Pandaria timeline.|
 ;A The Dark Portal|QID|34398|M|40.82,80.15|N|From Chromie after activating Warlords of Draenor timeline.|
-;A The Legion Returns|QID|43926|M|40.82,80.11|Z|Orgrimmar|N|From Chromie after activating Legion timeline.|C|-DemonHunter|
+;A The Legion Returns|QID|43926|M|40.82,80.11|Z|85; Orgrimmar|N|From Chromie after activating Legion timeline.|C|-DemonHunter|
 ;A Onward to Adventure: Broken Isles|QID|60970|M|40.82,80.15|N|From Chromie after activating Legion timeline.|C|DemonHunter|
 ;A Battle for Azeroth: Mission Statement|QID|51443|M|49.40,76.58|N|From Chromie after activating Battle for Azeroth timeline.|
-;A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|LVL|10|
+;A A Chilling Summons|QID|61874|Z|85; Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|LVL|10|
 
 ]]
 end)

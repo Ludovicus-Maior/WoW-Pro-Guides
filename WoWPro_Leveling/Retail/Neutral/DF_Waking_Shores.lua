@@ -48,7 +48,7 @@ T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
 A Quality Assurance|QID|69965|PRE|66110^67053|M|76.41,34.45|Z|2022|N|From Haephesta. Haephesta is sometimes missing, if she's not around click this step off and watch for her turning up as you pass through.|RANK|2|
 A Without Purpose|QID|70148|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|C|EVOKER|
 A Always Be Crafting|QID|66112|PRE|66110^67053|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
-A Opportunities Abound|QID|70042|M|76.4,33.3|Z|2022|N|From Vish the Sneak. He walks around the area.|T|Vish the Sneak|C|ROGUE|
+A Opportunities Abound|QID|70042|M|76.4,33.3|Z|2022|N|From Vish the Sneak. He walks around the area.|T|Vish the Sneak|C|ROGUE|RANK|2|
 C Opportunities Abound|QID|70042|M|75.75,33.37|Z|2022|QO|1|N|Pick the [color=33fff9]Golden Expiditon Compass[/color] up off the crate.|H|
 C Opportunities Abound|QID|70042|M|76.17,33.66;76.44,33.13|CN|Z|2022|QO|2|N|Pick the [color=33fff9]Shiny Surveyors Scope[/color] up off the crate.\n\n[color=FF0000]NOTE: [/color]If it is not there check the other location. Or you will have to wait for the Expedition Surveyor to set it down.|T|Expedition Surveyor|H|
 R Pathfinder Jeb|ACTIVE|70042|M|76.73,34.19|Z|2022|N|Come over here and Jeb will tell you the pack laying here isn't his real pack.|
