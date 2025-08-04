@@ -297,7 +297,7 @@ C A Somber Task|QID|8473|M|34.64,83.32|Z|0094; Eversong Woods|N|Finish up killin
 T A Somber Task|QID|8473|M|34.06,80.02|Z|0094; Eversong Woods|N|To Larianna Riverwind.|
 T Runewarden Deryan|QID|9253|M|44.20,85.46|Z|0094; Eversong Woods|N|To Runewarden Deryan in Runestone Falithas.|
 A Powering our Defenses|QID|8490|M|44.20,85.46|Z|0094; Eversong Woods|N|From Runewarden Deryan.|
-C Powering our Defenses|QID|8490|M|55.28,84.34|Z|0094; Eversong Woods|N|Use the Infused Crystal at Runestone Shan'dor and defend it against two waves of 3 Enraged Wraiths.\n[color=FF0000]NOTE: [/color]SIt takes a moment to complete after defeating the last wave.|U|22693|
+C Powering our Defenses|QID|8490|M|55.28,84.34|Z|0094; Eversong Woods|N|Use the Infused Crystal at Runestone Shan'dor and defend it against two waves of 3 Enraged Wraiths.\n[color=FF0000]NOTE: [/color]It takes a moment to complete after defeating the last wave.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|Z|0094; Eversong Woods|N|Back to Runewarden Deryan.|
 ]]
 end)
