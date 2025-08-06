@@ -999,7 +999,10 @@ function WoWPro.ParseSteps(steps)
 					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
 					if year then
 						hour = tonumber(hour) or 0
-						min = tonumber(min) or 0
+					local year, month, day, hour, min = datetime:match("^(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d?%d?)%:?(%d?%d?)$")
+					if year then
+						hour = hour and tonumber(hour) or 0
+						min = min and tonumber(min) or 0
 						-- Convert to Unix timestamp (UTC)
 						-- Validate date components before converting to Unix timestamp (UTC)
 						if WoWPro_IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
