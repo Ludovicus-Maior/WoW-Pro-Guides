@@ -1002,7 +1002,7 @@ function WoWPro.ParseSteps(steps)
 						min = tonumber(min) or 0
 						-- Validate date components before converting to Unix timestamp (UTC)
 						if WoWPro_IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
-							epochttime = os.time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
+							epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
 						else
 							epochttime = nil
 						end
