@@ -1018,7 +1018,22 @@ function WoWPro.ParseSteps(steps)
 							epochttime = epochttime + (15 * 3600)
 						elseif currentRegion == 5 then
 							-- CN gets content 24 hours after US
-							epochttime = epochttime + (24 * 3600)
+						-- WoW region release schedule offsets (in hours):
+						--   US: 0 (base UTC time)
+						--   EU: 8 hours after US
+						--   KR/TW: 15 hours after US
+						--   CN: 24 hours after US
+						local REGION_OFFSET_EU = 8      -- EU gets content 8 hours after US
+						local REGION_OFFSET_KR_TW = 15  -- KR/TW get content 15 hours after US
+						local REGION_OFFSET_CN = 24     -- CN gets content 24 hours after US
+						local currentRegion = GetCurrentRegion and GetCurrentRegion() or 1
+						-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
+						if currentRegion == 3 then
+							epochttime = epochttime + (REGION_OFFSET_EU * 3600)
+						elseif currentRegion == 2 or currentRegion == 4 then
+							epochttime = epochttime + (REGION_OFFSET_KR_TW * 3600)
+						elseif currentRegion == 5 then
+							epochttime = epochttime + (REGION_OFFSET_CN * 3600)
 						end
 						-- US (region 1) uses base UTC time, no adjustment
 						if epochttime >= epoch then
