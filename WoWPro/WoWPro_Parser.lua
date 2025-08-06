@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber
--- luacheck: globals max min abs type
+-- luacheck: globals max min abs type time
 -- luacheck: globals pairs select string tinsert tremove
 
 -----------------------------
@@ -990,13 +990,11 @@ function WoWPro.ParseSteps(steps)
 					local timeMet
 					local epochttime
 					guidelockdetected = true
-					
 					-- Handle negative dates (lock after this date)
 					if (datetime:sub(1, 1) == "-") then
 						datetime = datetime:sub(2)
 						dateFlip = true
 					end
-					
 					-- Parse user-friendly date format: YYYY-MM-DD or YYYY-MM-DD HH:MM (UTC)
 					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
 					if year then
@@ -1004,9 +1002,8 @@ function WoWPro.ParseSteps(steps)
 						min = tonumber(min) or 0
 						-- Convert to Unix timestamp (UTC)
 						epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
-						
 						-- Apply regional release delay (simple hour offset)
-						local currentRegion = GetCurrentRegion and GetCurrentRegion() or 1
+						local currentRegion = _G.GetCurrentRegion and _G.GetCurrentRegion() or 1
 						-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
 						if currentRegion == 3 then
 							-- EU gets content 8 hours after US
@@ -1019,7 +1016,6 @@ function WoWPro.ParseSteps(steps)
 							epochttime = epochttime + (24 * 3600)
 						end
 						-- US (region 1) uses base UTC time, no adjustment
-						
 						if epochttime >= epoch then
 							timeMet = true
 						end
