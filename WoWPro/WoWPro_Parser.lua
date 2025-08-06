@@ -983,24 +983,65 @@ function WoWPro.ParseSteps(steps)
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
             local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
 			if serverdate then
-				local epochttime, timelock = (";"):split(serverdate)
+				local datetime, timelock = (";"):split(serverdate)
 				if timelock == "1" then
 					local epoch = _G.GetServerTime()
 					local dateFlip
 					local timeMet
+					local epochttime
 					guidelockdetected = true
-					if (epochttime:sub(1, 1) == "-") then
-							epochttime = epochttime:sub(2)
-							dateFlip = true
-					 end
-					if tonumber(epochttime) >= epoch then
-						timeMet = true
+					
+					-- Handle negative dates (lock after this date)
+					if (datetime:sub(1, 1) == "-") then
+						datetime = datetime:sub(2)
+						dateFlip = true
 					end
-					if timeMet == dateFlip then
-						if dateFlip then
-							guidelock = epochttime
-						else
-							guidelock = "-" .. epochttime
+					
+					-- Parse user-friendly date format: YYYY-MM-DD or YYYY-MM-DD HH:MM (UTC)
+					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
+					if year then
+						hour = tonumber(hour) or 0
+						min = tonumber(min) or 0
+						-- Convert to Unix timestamp (UTC)
+						epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
+						
+						-- Apply regional release delay (simple hour offset)
+						local currentRegion = GetCurrentRegion and GetCurrentRegion() or 1
+						-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
+						if currentRegion == 3 then
+							-- EU gets content 8 hours after US
+							epochttime = epochttime + (8 * 3600)
+						elseif currentRegion == 2 or currentRegion == 4 then
+							-- KR/TW get content 15 hours after US
+							epochttime = epochttime + (15 * 3600)
+						elseif currentRegion == 5 then
+							-- CN gets content 24 hours after US
+							epochttime = epochttime + (24 * 3600)
+						end
+						-- US (region 1) uses base UTC time, no adjustment
+						
+						if epochttime >= epoch then
+							timeMet = true
+						end
+						if timeMet == dateFlip then
+							if dateFlip then
+								guidelock = tostring(epochttime)
+							else
+								guidelock = "-" .. tostring(epochttime)
+							end
+						end
+					else
+						-- Fallback to old Unix timestamp format for compatibility
+						epochttime = tonumber(datetime)
+						if epochttime and epochttime >= epoch then
+							timeMet = true
+						end
+						if epochttime and (timeMet == dateFlip) then
+							if dateFlip then
+								guidelock = datetime
+							else
+								guidelock = "-" .. datetime
+							end
 						end
 					end
 				end
