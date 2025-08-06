@@ -954,15 +954,15 @@ function WoWPro.ParseSteps(steps)
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
-		if mycovenant == 1 then
-			mycovenant = "Kyrian"
-		elseif mycovenant == 2 then
-			mycovenant = "Venthyr"
-		elseif mycovenant == 3 then
-			mycovenant = "NightFae"
-		elseif mycovenant == 4 then
-			mycovenant = "Necrolord"
-		end
+        if mycovenant == 1 then
+            mycovenant = "Kyrian"
+        elseif mycovenant == 2 then
+            mycovenant = "Venthyr"
+        elseif mycovenant == 3 then
+            mycovenant = "NightFae"
+        elseif mycovenant == 4 then
+            mycovenant = "Necrolord"
+        end
     end
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
@@ -998,8 +998,9 @@ function WoWPro.ParseSteps(steps)
 					-- Parse user-friendly date format: YYYY-MM-DD or YYYY-MM-DD HH:MM (UTC)
 					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
 					if year then
-						hour = tonumber(hour) or 0
-						min = tonumber(min) or 0
+						-- Safely convert hour and minute, handling empty strings
+						hour = (hour and hour ~= "") and tonumber(hour) or 0
+						min = (min and min ~= "") and tonumber(min) or 0
 						-- Convert to Unix timestamp (UTC)
 						epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
 						-- Apply regional release delay (simple hour offset)
