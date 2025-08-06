@@ -1,3 +1,15 @@
+# Release 2025.08.06.A
+## Bug Fixes
+* Update Retail .TOC from 110107 to 110200
+* Correctly handle friendship rep when it hits max.
+* Fix crash involving ExtraActionButton1Icon
+* Zone data update for 11.2.0
+## Guide Updates
+* Retail Achievements: K'aresh Dragon Riding Glyphs
+* MOP Achievements: Klaxxi
+* MOP Alliance/Horde/Neutral: Hellfire, Westfall, Northern_ Stranglethorn, Blood Elf Intro, Pandaren Intro, KunLai Summit
+* Retail Leveling: 103 guides updated somehow...
+
 # Release 2025.07.26.A
 ## Bug Fixes
 * Add new handling for `NEUTRAL_FACTION_SELECT_RESULT` event
