@@ -28,9 +28,9 @@ A Artifact Specific Quest|QID|41120^40819^40247^41803|M|55.87,65.36|Z|Dalaran!Da
 ; A Making Arrangements|QID|41120;40819|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
 T Making Arrangements|QID|41120|M|65.64,67.26|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury or.|
 A By Any Means|QID|41121^39051|PRE|41120|M|65.64,67.26|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-C By Any Means|QID|41121^39051|QO|1|M|66.08,68.11|Z|Dalaran!Dalaran!Dungeon|N|1/1 Convince Warden Alturas|
-C By Any Means|QID|41121^39051|QO|2|M|67.75,69.66|Z|Dalaran!Dalaran!Dungeon|N|1/1 Enter the Violet Hold|
-C By Any Means|QID|41121^39051|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
+C By Any Means|QID|41121^39051|QO|1|M|66.08,68.11|Z|Dalaran!Dalaran!Dungeon|N|Convince Warden Alturas|
+C By Any Means|QID|41121^39051|QO|2|M|67.75,69.66|Z|Dalaran!Dalaran!Dungeon|N|Enter the Violet Hold|
+C By Any Means|QID|41121^39051|QO|3|M|52.13,47.80|Z|The Violet Hold|N|Taldath interrogated|
 T By Any Means|QID|41121^39051|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
 A The Hunt|QID|41119^39247|PRE|41121^39051|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
 R Dalaran|ACTIVE|41119^39247|M|50.29,70.94|Z|The Violet Hold|N|Run out of the dungeon|
@@ -193,7 +193,7 @@ C If He Will Not Listen to Reason...|QID|42634^42921|Z|Black Temple|SO|4|N|Akama
 C Defeat Akama|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
 C A Final Attempt at Diplomacy|QID|42634^42921|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
 C Speak with Akama|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
-C Confrontation at the Black Temple|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
+C Confrontation at the Black Temple|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|Akama confronted|
 P Confrontation at the Black Temple|ACTIVE|42634^42921|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Click the Portal back to the Fel Hammer.|
 T Confrontation at the Black Temple|QID|42634^42921|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis te Sufferer / Kayn Sunfury|
 A Into Our Ranks|QID|39741^42665|PRE|42634^42921|M|58.57,57.63|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
@@ -308,7 +308,7 @@ C The Offer|QID|42810|QO|2|M|59.20,83.21|Z|Upper Command Center!Mardum, the Shat
 T A Final Offer|QID|42810|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 A The Invasion of Niskara|QID|42809^42920|PRE|42810|M|59.00,72.10|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
 C The Invasion of Niskara|QID|42920|M|58.96,66.12|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Go upstairs to activate the control console|
-C The Invasion of Niskara|QID|42920|M|27.41,41.79|Z|Niskara|QO|2|N|1/1 Jump to Niskara|
+C The Invasion of Niskara|QID|42920|M|27.41,41.79|Z|Niskara|QO|2|N|Jump to Niskara|
 C Commence Bombardment!|M|33.30,40.00|Z|Niskara|SO|1|N|Man the artillery console and use the Fel Hammer's batteries to lay waste to the Legion forces below.|
 C Demon slain|M|37.12,52.65|Z|Niskara|SO|1;1|N|Demon slain|
 C Glide Down to the Rendezvous|M|33.53,42.12;49.70,46.00|CC|Z|Niskara|SO|2|N|Speak with Kayn Sunfury to deploy your forces and then use your Glide ability to get down to the rendezvous point below.|
