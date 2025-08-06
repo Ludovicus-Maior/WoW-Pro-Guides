@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber
+-- luacheck: globals tostring tonumber time GetCurrentRegion WoWPro_IsValidDate
 -- luacheck: globals max min abs type
 -- luacheck: globals pairs select string tinsert tremove
 
@@ -990,37 +990,39 @@ function WoWPro.ParseSteps(steps)
 					local timeMet
 					local epochttime
 					guidelockdetected = true
-					
 					-- Handle negative dates (lock after this date)
 					if (datetime:sub(1, 1) == "-") then
 						datetime = datetime:sub(2)
 						dateFlip = true
 					end
-					
 					-- Parse user-friendly date format: YYYY-MM-DD or YYYY-MM-DD HH:MM (UTC)
 					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
 					if year then
 						hour = tonumber(hour) or 0
 						min = tonumber(min) or 0
-						-- Convert to Unix timestamp (UTC)
-						epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
-						
+						-- Validate date components before converting to Unix timestamp (UTC)
+						if WoWPro_IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
+							epochttime = os.time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
+						else
+							epochttime = nil
+						end
 						-- Apply regional release delay (simple hour offset)
-						local currentRegion = GetCurrentRegion and GetCurrentRegion() or 1
-						-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
-						if currentRegion == 3 then
-							-- EU gets content 8 hours after US
-							epochttime = epochttime + (8 * 3600)
-						elseif currentRegion == 2 or currentRegion == 4 then
-							-- KR/TW get content 15 hours after US
-							epochttime = epochttime + (15 * 3600)
-						elseif currentRegion == 5 then
-							-- CN gets content 24 hours after US
-							epochttime = epochttime + (24 * 3600)
+						if epochttime then
+							local currentRegion = _G.GetCurrentRegion and _G.GetCurrentRegion() or 1
+							-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
+							if currentRegion == 3 then
+								-- EU gets content 8 hours after US
+								epochttime = epochttime + (8 * 3600)
+							elseif currentRegion == 2 or currentRegion == 4 then
+								-- KR/TW get content 15 hours after US
+								epochttime = epochttime + (15 * 3600)
+							elseif currentRegion == 5 then
+								-- CN gets content 24 hours after US
+								epochttime = epochttime + (24 * 3600)
+							end
 						end
 						-- US (region 1) uses base UTC time, no adjustment
-						
-						if epochttime >= epoch then
+						if epochttime and epochttime >= epoch then
 							timeMet = true
 						end
 						if timeMet == dateFlip then
@@ -1332,31 +1334,24 @@ function WoWPro_IsValidDate(year, month, day, hour, min)
     if not year or not month or not day then
         return false
     end
-    
     -- Basic range checks
     if year < 2004 or year > 2050 then  -- WoW launched in 2004, reasonable future limit
         return false
     end
-    
     if month < 1 or month > 12 then
         return false
     end
-    
     if day < 1 or day > 31 then
         return false
     end
-    
     if hour and (hour < 0 or hour > 23) then
         return false
     end
-    
     if min and (min < 0 or min > 59) then
         return false
     end
-    
     -- Days in month check
     local daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
-    
     -- Leap year check
     if month == 2 and ((year % 4 == 0 and year % 100 ~= 0) or (year % 400 == 0)) then
         if day > 29 then
@@ -1365,6 +1360,5 @@ function WoWPro_IsValidDate(year, month, day, hour, min)
     elseif day > daysInMonth[month] then
         return false
     end
-    
     return true
 end
