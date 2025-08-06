@@ -983,7 +983,7 @@ function WoWPro.ParseSteps(steps)
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
             local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
 			if serverdate then
-				local datetime, timelock = (";"):split(serverdate)
+				local datetime, timelock = split(serverdate, ";")
 				if timelock == "1" then
 					local epoch = _G.GetServerTime()
 					local dateFlip
