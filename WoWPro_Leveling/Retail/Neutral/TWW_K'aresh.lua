@@ -15,7 +15,6 @@ T Return to the Veiled Market|QID|84957|M|59.64,83.52|Z|2472; Tazavesh|N|To Locu
 A Restoring Operational Efficiency|QID|85003|PRE|84957|M|59.67,83.33|Z|2472; Tazavesh|N|From Om'en.|
 A Compromised Containment|QID|85039|PRE|84957|M|56.82,73.17|Z|2472; Tazavesh|N|From Xy'bin.|
 A Beasts Unbound|QID|84958|PRE|84957|M|56.82,73.17|Z|2472; Tazavesh|N|From Ta'ka.|
-C Beasts Unbound|QID|84958|M|60.58,65.39|Z|2472; Tazavesh|QO|1|NC|N|Take the access to the overlook (Optional).|
 C Beasts Unbound|QID|84958|M|64.66,66.04|Z|2472; Tazavesh|QO|2|NC|N|Escaped creatures recovered.|
 T Beasts Unbound|QID|84958|M|56.91,73.21|Z|2472; Tazavesh|N|To Ta'ka.|
 A Lost Lines of Defense|QID|84959|PRE|84958|M|53.24,64.39|Z|2472; Tazavesh|N|From Ba'ver.|
@@ -29,10 +28,10 @@ T Compromised Containment|QID|85039|M|56.57,72.71|Z|2472; Tazavesh|N|To Xy'bin.|
 C Restoring Operational Efficiency|QID|85003|M|56.57,72.71|Z|2472; Tazavesh|QO|1|NC|N|Xy'bin assisted.|
 T Restoring Operational Efficiency|QID|85003|M|59.38,82.87|Z|2472; Tazavesh|N|To Om'en.|
 A The Darkness Among Us|QID|84960|PRE|84959&85039&85003|M|59.72,83.00|Z|2472; Tazavesh|N|From Locus-Walker.|
-C The Darkness Among Us|QID|84960|M|54.85,66.52|Z|2472; Tazavesh|QO|1|H|N|Investigate the Void Presence.|
-C The Darkness Among Us|QID|84960|M|47.86,63.67|Z|2472; Tazavesh|QO|2|NC|N|Locate the source.|
-C The Darkness Among Us|QID|84960|M|47.60,65.90|Z|2472; Tazavesh|QO|3|CHAT|N|Speak to Locus-Walker.|
-C The Darkness Among Us|QID|84960|M|46.63,66.78|Z|2472; Tazavesh|QO|4|N|Infiltrators defeated.|
+C The Darkness Among Us|QID|84960|M|54.85,66.52|Z|2472; Tazavesh|QO|2|H|N|Investigate the Void Presence.|
+C The Darkness Among Us|QID|84960|M|47.86,63.67|Z|2472; Tazavesh|QO|3|NC|N|Locate the source.|
+C The Darkness Among Us|QID|84960|M|47.60,65.90|Z|2472; Tazavesh|QO|4|CHAT|N|Speak to Locus-Walker.|
+C The Darkness Among Us|QID|84960|M|46.63,66.78|Z|2472; Tazavesh|QO|5|N|Infiltrators defeated.|
 T The Darkness Among Us|QID|84960|M|54.04,63.47|Z|2472; Tazavesh|N|To Om'en.|
 A Sealing the Shadows|QID|84963|PRE|84959&85039&85003|M|54.04,63.47|Z|2472; Tazavesh|N|From Om'en.|
 A Barriers to Entry|QID|84961|PRE|84959&85039&85003|M|54.04,63.47|Z|2472; Tazavesh|N|From Locus-Walker.|
@@ -178,7 +177,7 @@ T Stalking Stalkers|QID|84867|M|63.14,38.95|Z|2371; K'aresh|N|To Soul-Scribe.|
 T Distribution of Power|QID|86332|M|63.14,38.95|Z|2371; K'aresh|N|To Soul-Scribe.|
 A The Oasis|QID|84876|PRE|84867&86332|M|63.12,38.94|Z|2371; K'aresh|N|From Xal'atath.|
 C The Oasis|QID|84876|M|73.64,38.31|Z|2371; K'aresh|QO|1|CHAT|N|Report to Om'rajula at the Oasis.|
-T The Oasis|QID|84876|M|75.78,34.22|Z|2371; K'aresh|N|To Cartel Om Custodian.|
+T The Oasis|QID|84876|M|75.78,34.22|Z|2371; K'aresh|N|To Om'talad.|
 A K'aresh That Was|QID|84883|PRE|84876|M|75.83,34.23|Z|2371; K'aresh|N|From Soul-Scribe.|
 A Restoring Hope|QID|84879|PRE|84876|M|75.86,34.22|Z|2371; K'aresh|N|From Xal'atath.|
 C Restoring Hope|QID|84879|M|73.31,36.72|Z|2371; K'aresh|QO|1|N|Dome cleansed.|S|
@@ -194,7 +193,27 @@ C The Tabiqa|QID|84910|M|74.42,30.46|Z|2371; K'aresh|QO|3|H|N|Vial of water plac
 C The Tabiqa|QID|84910|M|74.42,30.46|Z|2371; K'aresh|QO|4|H|N|Ritual Dagger placed.|
 C The Tabiqa|QID|84910|M|74.39,30.39|Z|2371; K'aresh|QO|5|CHAT|N|Talk to Soul-Scribe.|
 T The Tabiqa|QID|84910|M|74.42,30.43|Z|2371; K'aresh|N|To Soul-Scribe.|
-A The Next Dimension|QID|84896|PRE|84910|M|74.42,30.43|Z|2371; K'aresh|N|From Soul-Scribe.|
+
+A Another World|QID|89380|M|74.87,31.06|Z|2371; K'aresh|N|From Shad'anis|
+T Another World|QID|89380|M|50.38,36.34|Z|2371; K'aresh|N|To Shad'anis.|
+A The Untethered Void|QID|89343|PRE|89380|M|50.38,36.34|Z|2371; K'aresh|N|From Shad'anis.|
+A Wrapped Up|QID|89561|PRE|89380|M|50.37,36.36|Z|2371; K'aresh|N|From Hashim.|
+C Wrapped Up|QID|89561|M|50.37,36.36|Z|2371; K'aresh|QO|1|NC|N|Ask Hashim about empowering the Reshii Wraps.|
+C Wrapped Up|QID|89561|M|50.37,36.36|Z|2371; K'aresh|QO|2|NC|N|Cloak power assigned.|
+C The Untethered Void|QID|89343|M|50.37,36.38|Z|2371; Untethered Space|QO|2|NC|N|Untethered Space entered.|
+T Wrapped Up|QID|89561|M|50.37,36.35|Z|2371; K'aresh|N|To Shad'anis.|
+T The Untethered Void|QID|89343|M|50.38,36.35|Z|2371; K'aresh|N|To Shad'anis.|
+A What Doesn't See You|QID|89344|PRE|89343|M|50.38,36.35|Z|2371; K'aresh|N|From Shad'anis.|
+C What Doesn't See You|QID|89344|M|49.31,38.60|Z|2371; Untethered Space|QO|1|N|Untethered Observers slain.|S|
+C What Doesn't See You|QID|89344|M|49.09,37.88|Z|2371; Untethered Space|QO|2|NC|N|Phase Energy collected.|
+C What Doesn't See You|QID|89344|M|49.31,38.60|Z|2371; Untethered Space|QO|1|N|Untethered Observers slain.|US|
+T What Doesn't See You|QID|89344|M|50.38,36.30|Z|2371; Untethered Space|N|To Shad'anis.|
+A The Untethered Horror|QID|89345|PRE|89344|M|50.38,36.30|Z|2371; Untethered Space|N|From Shad'anis.|
+C The Untethered Horror|QID|89345|M|48.01,40.52|Z|2371; Untethered Space|QO|1|N|Netherdeath slain within Untethered Space.|
+T The Untethered Horror|QID|89345|M|50.36,36.35|Z|2371; Untethered Space|N|To Shad'anis.|
+
+
+A The Next Dimension|QID|84896|PRE|84910|M|74.42,30.43|Z|2371; K'aresh|N|From Soul-Scribe.|DATE|1755018000|
 T The Next Dimension|QID|84896|M|60.26,29.17|Z|2371; K'aresh|N|To Soul-Scribe.|
 A The Calm Before We Storm|QID|84897|PRE|84896|M|60.26,29.17|Z|2371; K'aresh|N|From Soul-Scribe.|
 C The Calm Before We Storm|QID|84897|M|60.77,28.17|Z|2371; K'aresh|QO|1|NC|N|Approach Alleria.|
@@ -233,24 +252,24 @@ C To Walk Among Shadow|QID|84905|M|49.20,17.80|Z|2371; K'aresh|QO|3|H|N|Shadowgu
 T To Walk Among Shadow|QID|84905|M|48.25,19.16|Z|2371; K'aresh|N|To Locus-Walker.|
 A Nexus Regicide|QID|84906|PRE|84905|M|48.17,19.13|Z|2371; K'aresh|N|From Alleria Windrunner.|
 C Nexus Regicide|QID|84906|M|44.33,16.75|Z|2371; K'aresh|QO|1|NC|N|Follow Alleria to Shadow Point: Apotheosis.|
-K Nexus-Prince Azir|QID|84906|M|44.21,16.83|Z|2371; K'aresh|QO|2|N|Nexus-Prince Azir slain.|T|Nexus-Prince Azir|
+K Nexus-Prince Azir|ACTIVE|84906|M|44.21,16.83|Z|2371; K'aresh|QO|2|N|Nexus-Prince Azir slain.|T|Nexus-Prince Azir|
 C Nexus Regicide|QID|84906|M|44.20,16.84|Z|2371; K'aresh|QO|3|H|N|Nexus-Prince Azir's Reshii Ribbon.|
 T Nexus Regicide|QID|84906|M|44.28,18.35|Z|2371; K'aresh|N|To Alleria Windrunner.|
 A That's a Wrap|QID|85037|PRE|84906|M|44.27,18.45|Z|2371; K'aresh|N|From Xal'atath.|
 C That's a Wrap|QID|85037|M|42.83,21.57|Z|2371; K'aresh|QO|1|CHAT|N|Speak to Xal'atath.|
 C That's a Wrap|QID|85037|M|42.80,21.56|Z|2371; K'aresh|QO|2|NC|N|Reshii Wraps.|
 T That's a Wrap|QID|85037|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
-A Manaforge Omega: Dimensius Looms|QID|86820|M|42.86,21.52|Z|2371; K'aresh|N|From Alleria Windrunner.|
+A Manaforge Omega: Dimensius Looms|QID|86820|PRE|85037|M|42.86,21.52|Z|2371; K'aresh|N|From Alleria Windrunner.|
 t Manaforge Omega: Dimensius Looms|QID|86820|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
 
 ;Eco Dome quests
-A The Oasis|QID|87290|M|39.68,24.49|Z|2472; Tazavesh|N|From Om'talad.|
+A The Oasis|QID|87290|PRE|86820|M|39.68,24.49|Z|2472; Tazavesh|N|From Om'talad.|
 T The Oasis|QID|87290|M|75.78,34.22|Z|2371; K'aresh|N|To Cartel Om Custodian.|
-A Custodian Duties|QID|87337|M|75.78,34.22|Z|2371; K'aresh|N|From Cartel Om Custodian.|
+A Custodian Duties|QID|87337|PRE|87290|M|75.78,34.22|Z|2371; K'aresh|N|From Cartel Om Custodian.|
 C Custodian Duties|QID|87337|M|73.79,34.49|Z|2371; K'aresh|N|Clean up the poops (yes its another poop quest).|
 T Custodian Duties|QID|87337|M|75.78,34.22|Z|2371; K'aresh|N|To Cartel Om Custodian.|
-A Ongoing Activities|QID|87339|M|75.91,34.14|Z|2371; K'aresh|N|From Ve'nari|
-A Day One Orientation|QID|87338|M|75.91,34.14|Z|2371; K'aresh|N|From Ve'nari|
+A Ongoing Activities|QID|87339|PRE|87337|M|75.91,34.14|Z|2371; K'aresh|N|From Ve'nari|
+A Day One Orientation|QID|87338|PRE|87337|M|75.91,34.14|Z|2371; K'aresh|N|From Ve'nari|
 C Day One Orientation|QID|87338|QO|3|M|75.74,34.07|Z|2371; K'aresh|N|Click the console in the middle.|H|
 C Day One Orientation|QID|87338|QO|2|M|73.12,32.71|Z|2371; K'aresh|N|Talk to the Slateback Alpha.|CHAT|
 C Day One Orientation|QID|87338|QO|1|M|73.12,32.71|Z|2371; K'aresh|N|Talk to the Thorntail Matriarch.|CHAT|
@@ -260,21 +279,21 @@ C Ongoing Activities|QID|87339|QO|2|M|73.87,34.51|Z|2371; K'aresh|N|Click the li
 C Ongoing Activities|QID|87339|QO|1|M|72.50,34.70|Z|2371; K'aresh|N|Click the dirt pile.|H|
 T Ongoing Activities|QID|87339|M|75.91,34.14|Z|2371; K'aresh|N|To Ve'nari.|
 T Day One Orientation|QID|87338|M|75.91,34.14|Z|2371; K'aresh|N|To Ve'nari.|
-A Junk Mail|QID|87340|M|75.89,34.21|Z|2371; K'aresh|N|From Ve'nari.|
+A Junk Mail|QID|87340|PRE|87338&87339|M|75.89,34.21|Z|2371; K'aresh|N|From Ve'nari.|
 C Junk Mail|QID|87340|M|53.47,37.97|Z|2472; Tazavesh|N|From Ve'nari.|
 T Junk Mail|QID|87340|M|75.89,34.21|Z|2371; K'aresh|N|To Ve'nari.|
-A To Stormsong|QID|85075|M|75.87,34.24|Z|2371; K'aresh|N|From Ve,nari.|
+A To Stormsong|QID|85075|PRE|87340|M|75.87,34.24|Z|2371; K'aresh|N|From Ve,nari.|
 P Stormsong Valley|ACTIVE|85075|M|75.94,34.14|Z|2371; K'aresh|N|Take the portal to Stormsong Valley.|
 T To Stormsong|QID|85075|M|72.43,69.82|Z|0942; Stormsong Valley|N|To Botanist Alaenra.|
-A Sticky Fingers|QID|85077|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
-A Don't Bee Crazy|QID|85076|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A Sticky Fingers|QID|85077|PRE|85075|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A Don't Bee Crazy|QID|85076|PRE|85075|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
 C Sticky Fingers|QID|85077|M|69.53,70.12|Z|0942; Stormsong Valley|N|Kill honey oozes, loot globs.|S|
 C Don't Bee Crazy|QID|85076|M|69.58,73.93|Z|0942; Stormsong Valley|N|Merc some yetis.|
 C Sticky Fingers|QID|85077|M|69.53,70.12|Z|0942; Stormsong Valley|N|Kill honey oozes, loot globs.|US|
 T Sticky Fingers|QID|85077|M|72.43,69.82|Z|0942; Stormsong Valley|N|To Botanist Alaenra.|
 T Don't Bee Crazy|QID|85076|M|72.43,69.82|Z|0942; Stormsong Valley|N|To Botanist Alaenra.|
-A Bee in the Bonnet|QID|85078|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
-A Such a Sleebee-head|QID|85079|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A Bee in the Bonnet|QID|85078|PRE|85076|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A Such a Sleebee-head|QID|85079|PRE|85076|M|72.43,69.82|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
 C Such a Sleebee-head|QID|85079|QO|1|M|72.43,69.82|Z|0942; Stormsong Valley|N|Find a way to deal with the bees.|
 C Such a Sleebee-head|QID|850798|QO|2|M|72.43,69.82|Z|0942; Stormsong Valley|N|Grab the dart from the basket on the ground.|H|
 C Such a Sleebee-head|QID|85079|QO|3|M|72.43,69.82|Z|0942; Stormsong Valley|N|Kill or dart the guardians.|U|230210|S|
@@ -283,8 +302,8 @@ C Bee in the Bonnet|QID|85078|QO|2|M|72.43,69.82|Z|0942; Stormsong Valley|N|Insp
 C Such a Sleebee-head|QID|85079|QO|3|M|72.43,69.82|Z|0942; Stormsong Valley|N|Kill or dart the guardians.|U|230210|US|
 T Bee in the Bonnet|QID|85078|M|72.58,65.89|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
 T Such a Sleebee-head|QID|85079|M|72.58,65.89|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
-A An Un-Bee-lievable Solution|QID|85080|M|72.58,65.90|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
-A Beehemian Rhapsody|QID|85081|M|72.58,65.90|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A An Un-Bee-lievable Solution|QID|85080|PRE|85079|M|72.58,65.90|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
+A Beehemian Rhapsody|QID|85081|M|72.58,65.90|PRE|85079|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
 C Beehemian Rhapsody|QID|85081|M|72.59,65.93|Z|0942; Stormsong Valley|QO|1|NC|N|Honey Pot placed.|
 C Beehemian Rhapsody|QID|85081|M|72.64,66.05|Z|0942; Stormsong Valley|QO|2|NC|N|Queen Bee rescued.|
 C An Un-Bee-lievable Solution|QID|85080|M|72.64,65.87|Z|0942; Stormsong Valley|QO|1|NC|N|Ve'nari contacted.|
@@ -295,128 +314,47 @@ T An Un-Bee-lievable Solution|QID|85080|M|72.57,65.90|Z|0942; Stormsong Valley|N
 A To K'aresh|QID|85082|PRE|85081&85080|M|72.57,65.90|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
 C To K'aresh|QID|85082|M|72.66,65.86|Z|0942; Stormsong Valley|QO|1|NC|N|Take the portal to K'aresh (Optional).|
 P Rosaline's Apiary|ACTIVE|85082|M|72.66,65.86|Z|Stormsong Valley|N|Take the portal to Rosaline's Apiary.|
-T To K'aresh|QID|85082|M|75.89,34.23|Z|2371;K'aresh|N|To Ve'nari.|
-A A Bee Test|QID|85249|PRE|85082|M|75.89,34.23|Z|2371;K'aresh|N|From Ve'nari.|
-T A Bee Test|QID|85249|M|48.35,61.25|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Bee Strong|QID|85084|PRE|85249|M|48.35,61.25|Z|2371;K'aresh|N|From Botanist Alaenra.|
-A Photogra-Bee|QID|85083|PRE|85249|M|48.35,61.25|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C Bee Strong|QID|85084|M|48.37,61.27|Z|2371;K'aresh|QO|1|NC|N|Honey collected.|
-C Photogra-Bee|QID|85083|M|47.65,63.63|Z|2371;K'aresh|QO|1|NC|U|230729|N|Honey Bees documented.|
-C Bee Strong|QID|85084|M|48.06,62.73|Z|2371;K'aresh|QO|2|NC|N|Queen fed.|
-T Bee Strong|QID|85084|M|48.36,61.27|Z|2371;K'aresh|N|To Botanist Alaenra.|
-T Photogra-Bee|QID|85083|M|48.36,61.27|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Primus Buzzness|QID|85257|PRE|85084&85083|M|48.36,61.27|Z|2371;K'aresh|N|From Botanist Alaenra.|
-T Primus Buzzness|QID|85257|M|48.96,57.26|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Tranquila-Bee|QID|85255|PRE|85257|M|48.96,57.26|Z|2371;K'aresh|N|From Botanist Alaenra.|
-A Botany, Finally|QID|85256|PRE|85257|M|48.96,57.26|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C Tranquila-Bee|QID|85255|M|46.94,58.53|Z|2371;K'aresh|QO|1|NC|U|230210|N|Honey Bees tranquilized and tagged.|
-C Botany, Finally|QID|85256|M|47.89,57.70|Z|2371;K'aresh|QO|1|NC|N|K'aresh Flora Cutting.|
-T Tranquila-Bee|QID|85255|M|48.95,57.26|Z|2371;K'aresh|N|To Botanist Alaenra.|
-T Botany, Finally|QID|85256|M|48.95,57.26|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Let There Bee Love|QID|89348|PRE|85255&85256|M|48.95,57.26|Z|2371;K'aresh|N|From Botanist Alaenra.|
-T Let There Bee Love|QID|89348|M|75.76,33.91|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Oh Honey Honey|QID|85258|PRE|89348|M|75.76,33.91|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C Oh Honey Honey|QID|85258|M|76.33,29.76|Z|2371;K'aresh|QO|3|NC|N|Queen Bee petted.|
-C Oh Honey Honey|QID|85258|M|75.70,29.16|Z|2371;K'aresh|QO|2|NC|N|Honeycomb.|
-T Oh Honey Honey|QID|85258|M|75.82,34.22|Z|2371;K'aresh|N|To Om'talad.|
-A Waggle Dance|QID|85259|PRE|85258|M|75.82,34.22|Z|2371;K'aresh|N|From Om'talad.|
-C Waggle Dance|QID|85259|M|76.59,32.74|Z|2371;K'aresh|QO|3|NC|N|Eastern Waggle Dance.|
-C Waggle Dance|QID|85259|M|74.61,30.37|Z|2371;K'aresh|QO|1|NC|N|Northern Waggle Dance.|
-C Waggle Dance|QID|85259|M|71.86,32.22|Z|2371;K'aresh|QO|2|NC|N|Western Waggle Dance.|
-T Waggle Dance|QID|85259|M|75.75,33.82|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Hiving a Hard Day|QID|85260|PRE|85259|M|75.75,33.82|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C Hiving a Hard Day|QID|85260|M|73.93,32.98|Z|2371;K'aresh|QO|1|NC|N|Overworked Honey Bees picked up.|
-C Hiving a Hard Day|QID|85260|M|76.24,29.83|Z|2371;K'aresh|QO|2|NC|N|Bees returned.|
-T Hiving a Hard Day|QID|85260|M|75.78,33.78|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A Bee Roll|QID|85261|PRE|85260|M|75.78,33.78|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C Bee Roll|QID|85261|M|76.17,30.03|Z|2371;K'aresh|QO|2|NC|U|231163|N|Queen Bee documented.|
-C Bee Roll|QID|85261|M|74.68,30.89|Z|2371;K'aresh|QO|1|NC|U|231163|N|Honey Bees documented.|
-T Bee Roll|QID|85261|M|75.77,33.81|Z|2371;K'aresh|N|To Botanist Alaenra.|
-A The Royal Procession|QID|85262|PRE|85261|M|75.77,33.81|Z|2371;K'aresh|N|From Botanist Alaenra.|
-C The Royal Procession|QID|85262|M|76.29,29.73|Z|2371;K'aresh|QO|1|NC|N|Queen Bee beckoned.|
-C The Royal Procession|QID|85262|M|72.95,36.75|Z|2371;K'aresh|QO|2|NC|N|New Hive Location found.|
-T The Royal Procession|QID|85262|M|75.77,33.89|Z|2371;K'aresh|N|To Botanist Alaenra.|
-
-A Another World|QID|89380|M|74.87,31.06|Z|2371; K'aresh|N|From Shad'anis|
-T Another World|QID|89380|M|50.38,36.34|Z|2371;K'aresh|N|To Shad'anis.|
-A The Untethered Void|QID|89343|PRE|89380|M|50.38,36.34|Z|2371;K'aresh|N|From Shad'anis.|
-A Wrapped Up|QID|89561|PRE|89380|M|50.37,36.36|Z|2371;K'aresh|N|From Hashim.|
-C Wrapped Up|QID|89561|M|50.37,36.36|Z|2371;K'aresh|QO|1|NC|N|Ask Hashim about empowering the Reshii Wraps.|
-C Wrapped Up|QID|89561|M|50.37,36.36|Z|2371;K'aresh|QO|2|NC|N|Cloak power assigned.|
-C The Untethered Void|QID|89343|M|50.37,36.38|Z|2371;Untethered Space|QO|2|NC|N|Untethered Space entered.|
-T Wrapped Up|QID|89561|M|50.37,36.35|Z|2371;K'aresh|N|To Shad'anis.|
-T The Untethered Void|QID|89343|M|50.38,36.35|Z|2371;K'aresh|N|To Shad'anis.|
-A What Doesn't See You|QID|89344|PRE|89343|M|50.38,36.35|Z|2371;K'aresh|N|From Shad'anis.|
-C What Doesn't See You|QID|89344|M|49.31,38.60|Z|2371;Untethered Space|QO|1|N|Untethered Observers slain.|
-C What Doesn't See You|QID|89344|M|49.09,37.88|Z|2371;Untethered Space|QO|2|NC|N|Phase Energy collected.|
-T What Doesn't See You|QID|89344|M|50.38,36.30|Z|2371;Untethered Space|N|To Shad'anis.|
-A The Untethered Horror|QID|89345|PRE|89344|M|50.38,36.30|Z|2371;Untethered Space|N|From Shad'anis.|
-C The Untethered Horror|QID|89345|M|48.01,40.52|Z|2371;Untethered Space|QO|1|N|Netherdeath slain within Untethered Space.|
-T The Untethered Horror|QID|89345|M|50.36,36.35|Z|2371;Untethered Space|N|To Shad'anis.|
-A A Skip Through the Void|QID|90938|PRE|89345|M|65.93,80.17|Z|2371;Untethered Space|
-T The Shadowguard Resurgence|QID|86707|M|50.46,36.50|Z|2371;Tazavesh, the Veiled Market|
-T A Skip Through the Void|QID|90938|M|50.35,36.35|Z|2371;Untethered Space|N|To Hashim.|
-
-N That ends the campaign portion of the guide. If you would like to earn your sojourner of K'aresh acheivement. Click this off and make sure your rankings are set to 3.
-
-;SIDE QUESTS NEED WORK
-;A Overwhelm Them|QID|85429|M|50.54,38.86|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;A Mandatory Time Off|QID|85430|M|50.54,38.86|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;C Mandatory Time Off|QID|85430|M|51.57,38.88|Z|2472; Tazavesh|QO|1|NC|N|Spy on Coordinator Xy'thir (Optional).|
-;C Overwhelm Them|QID|85429|M|61.30,30.48|Z|2472; Tazavesh|QO|1|NC|N|Crates broken.|S|
-;C Mandatory Time Off|QID|85430|M|63.37,27.46|Z|2472; Tazavesh|QO|2|NC|N|Illusion Devices placed.|
-;C Overwhelm Them|QID|85429|M|61.30,30.48|Z|2472; Tazavesh|QO|1|NC|N|Crates broken.|US|
-;T Overwhelm Them|QID|85429|M|50.46,38.97|Z|2472; Tazavesh|N|To Associate Xy'nell.|
-;T Mandatory Time Off|QID|85430|M|50.46,38.97|Z|2472; Tazavesh|N|To Associate Xy'nell.|
-;A Drain Their Resources|QID|85431|PRE|85429&85430|M|50.46,38.97|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;A Confuse Their Contacts|QID|85432|PRE|85429&85430|M|50.46,38.97|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;K Respleth the Hungerer|ACTIVE|85431|QO|1|M|23.14,37.18|Z|2472; Tazavesh|N|Kill Respleth the Hungerer and loot the Overflowing Anima Core.|
-;C Confuse Their Contacts|QID|85432|M|36.15,42.89|Z|2472; Tazavesh|QO|1|NC|N|Disguise assumed.|U|232644|
-;C Confuse Their Contacts|QID|85432|M|37.68,45.26|Z|2472; Tazavesh|QO|2|CHAT|N|Traders informed.|U|232644|
-;T Drain Their Resources|QID|85431|M|50.42,39.03|Z|2472; Tazavesh|N|To Associate Xy'nell.|
-;T Confuse Their Contacts|QID|85432|M|50.42,39.03|Z|2472; Tazavesh|N|To Associate Xy'nell.|
-;A Eyes on Us|QID|85433|PRE|85431&85432|M|50.42,39.03|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;C Eyes on Us|QID|85433|M|50.42,39.03|Z|2472; Tazavesh|QO|2|CHAT|N|Speak to Associate Xy'nell.|
-;C Eyes on Us|QID|85433|M|50.42,39.03|Z|2472; Tazavesh|QO|1|NC|N|Xy'nell assured (Optional).|
-;C Eyes on Us|QID|85433|M|34.92,57.93|Z|2472; Tazavesh|QO|3|CHAT|N|Speak to Port Authority Zo'rau.|
-;T Eyes on Us|QID|85433|M|50.42,39.16|Z|2472; Tazavesh|N|To Associate Xy'nell.|
-;A On a Technicality|QID|85434|PRE|85433|M|50.42,39.16|Z|2472; Tazavesh|N|From Associate Xy'nell.|
-;C On a Technicality|QID|85434|M|52.47,38.03|Z|2472; Tazavesh|QO|1|CHAT|N|Speak with Port Authority Zo'rau (Optional).|
-;C On a Technicality|QID|85434|M|52.19,37.69|Z|2472; Tazavesh|QO|2|N|Coordinator Xy'thir defeated.|
-;T On a Technicality|QID|85434|M|52.37,38.08|Z|2472; Tazavesh|N|To Interim Coordinator Xy'nell.|
-;A The Oasis|QID|87290|PRE|85434|M|39.58,24.46|Z|2472; Tazavesh|N|From Om'talad.|
-;A A Lucrative Opportunity|QID|85052|PRE|85434|M|48.01,24.53|Z|2472; Tazavesh|N|From Vaultkeeper Xy'vez.|
-;T The Oasis|QID|87290|M|48.95,20.46|Z|2472; Tazavesh|
-;T A Lucrative Opportunity|QID|85052|M|50.40,19.37|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
-;A Obtaining Permits|QID|85053|PRE|85052|M|50.40,19.37|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|
-;C Obtaining Permits|QID|85053|M|47.30,16.37|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Teach Ba'vaal a Lesson (100%).|
-;T Obtaining Permits|QID|85053|M|50.38,19.38|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
-;A Articles of Acquisition|QID|85054|PRE|85053|M|50.38,19.38|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+T To K'aresh|QID|85082|M|75.89,34.23|Z|2371; K'aresh|N|To Ve'nari.|
+A A Bee Test|QID|85249|PRE|85082|M|75.89,34.23|Z|2371; K'aresh|N|From Ve'nari.|
+T A Bee Test|QID|85249|M|48.35,61.25|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Bee Strong|QID|85084|PRE|85249|M|48.35,61.25|Z|2371; K'aresh|N|From Botanist Alaenra.|
+A Photogra-Bee|QID|85083|PRE|85249|M|48.35,61.25|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C Bee Strong|QID|85084|M|48.37,61.27|Z|2371; K'aresh|QO|1|NC|N|Honey collected.|
+C Photogra-Bee|QID|85083|M|47.65,63.63|Z|2371; K'aresh|QO|1|NC|U|230729|N|Honey Bees documented.|
+C Bee Strong|QID|85084|M|48.06,62.73|Z|2371; K'aresh|QO|2|NC|N|Queen fed.|
+T Bee Strong|QID|85084|M|48.36,61.27|Z|2371; K'aresh|N|To Botanist Alaenra.|
+T Photogra-Bee|QID|85083|M|48.36,61.27|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Primus Buzzness|QID|85257|PRE|85084&85083|M|48.36,61.27|Z|2371; K'aresh|N|From Botanist Alaenra.|
+T Primus Buzzness|QID|85257|M|48.96,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Tranquila-Bee|QID|85255|PRE|85257|M|48.96,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
+A Botany, Finally|QID|85256|PRE|85257|M|48.96,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C Tranquila-Bee|QID|85255|M|46.94,58.53|Z|2371; K'aresh|QO|1|NC|U|230210|N|Honey Bees tranquilized and tagged.|
+C Botany, Finally|QID|85256|M|47.89,57.70|Z|2371; K'aresh|QO|1|NC|N|K'aresh Flora Cutting.|
+T Tranquila-Bee|QID|85255|M|48.95,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
+T Botany, Finally|QID|85256|M|48.95,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Let There Bee Love|QID|89348|PRE|85255&85256|M|48.95,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
+T Let There Bee Love|QID|89348|M|75.76,33.91|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Oh Honey Honey|QID|85258|PRE|89348|M|75.76,33.91|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C Oh Honey Honey|QID|85258|M|76.33,29.76|Z|2371; K'aresh|QO|3|NC|N|Queen Bee petted.|
+C Oh Honey Honey|QID|85258|M|75.70,29.16|Z|2371; K'aresh|QO|2|NC|N|Honeycomb.|
+T Oh Honey Honey|QID|85258|M|75.82,34.22|Z|2371; K'aresh|N|To Om'talad.|
+A Waggle Dance|QID|85259|PRE|85258|M|75.82,34.22|Z|2371; K'aresh|N|From Om'talad.|
+C Waggle Dance|QID|85259|M|76.59,32.74|Z|2371; K'aresh|QO|3|NC|N|Eastern Waggle Dance.|
+C Waggle Dance|QID|85259|M|74.61,30.37|Z|2371; K'aresh|QO|1|NC|N|Northern Waggle Dance.|
+C Waggle Dance|QID|85259|M|71.86,32.22|Z|2371; K'aresh|QO|2|NC|N|Western Waggle Dance.|
+T Waggle Dance|QID|85259|M|75.75,33.82|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Hiving a Hard Day|QID|85260|PRE|85259|M|75.75,33.82|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C Hiving a Hard Day|QID|85260|M|73.93,32.98|Z|2371; K'aresh|QO|1|NC|N|Overworked Honey Bees picked up.|
+C Hiving a Hard Day|QID|85260|M|76.24,29.83|Z|2371; K'aresh|QO|2|NC|N|Bees returned.|
+T Hiving a Hard Day|QID|85260|M|75.78,33.78|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A Bee Roll|QID|85261|PRE|85260|M|75.78,33.78|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C Bee Roll|QID|85261|M|76.17,30.03|Z|2371; K'aresh|QO|2|NC|U|231163|N|Queen Bee documented.|
+C Bee Roll|QID|85261|M|74.68,30.89|Z|2371; K'aresh|QO|1|NC|U|231163|N|Honey Bees documented.|
+T Bee Roll|QID|85261|M|75.77,33.81|Z|2371; K'aresh|N|To Botanist Alaenra.|
+A The Royal Procession|QID|85262|PRE|85261|M|75.77,33.81|Z|2371; K'aresh|N|From Botanist Alaenra.|
+C The Royal Procession|QID|85262|M|76.29,29.73|Z|2371; K'aresh|QO|1|NC|N|Queen Bee beckoned.|
+C The Royal Procession|QID|85262|M|72.95,36.75|Z|2371; K'aresh|QO|2|NC|N|New Hive Location found.|
+T The Royal Procession|QID|85262|M|75.77,33.89|Z|2371; K'aresh|N|To Botanist Alaenra.|
 
 ]]
 end)
