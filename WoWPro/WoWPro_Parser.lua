@@ -1001,7 +1001,12 @@ function WoWPro.ParseSteps(steps)
 						hour = tonumber(hour) or 0
 						min = tonumber(min) or 0
 						-- Convert to Unix timestamp (UTC)
-						epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
+						-- Validate date components before converting to Unix timestamp (UTC)
+						if WoWPro_IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
+							epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
+						else
+							epochttime = nil
+						end
 						-- Apply regional release delay (simple hour offset)
 						local currentRegion = _G.GetCurrentRegion and _G.GetCurrentRegion() or 1
 						-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
