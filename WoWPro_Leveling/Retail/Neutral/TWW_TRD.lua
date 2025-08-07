@@ -445,13 +445,13 @@ C On the Road|QID|82144|M|52.57,40.81|Z|2214; The Ringing Deeps|QO|1|NC|N|Kill t
 T On the Road|QID|82144|M|53.20,43.10|Z|2214; The Ringing Deeps|N|To Haimaz.|
 T Desperately Seeking Skorthuz|QID|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|To Skorthuz.|
 A Lisky Business|QID|81712|PRE|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|From Skorthuz.|RANK|2|
-A Oozemodius|QID|81713|PRE|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|From Skorthuz.|RANK|2|
-C Oozemodius|QID|81713|M|60.74,40.73|Z|2214; The Ringing Deeps|QO|1|N|Kill Tentacular Slime.|
-K Oozemodius|ACTIVE|81713|M|62.71,39.12|Z|2214; The Ringing Deeps|QO|2|N|Oozemodius is inside the cave, then up the ramp.|T|Oozemodius|
+A Oozemodious|QID|81713|PRE|81693|M|60.80,41.54|Z|2214; The Ringing Deeps|N|From Skorthuz.|RANK|2|
+C Oozemodious|QID|81713|M|60.74,40.73|Z|2214; The Ringing Deeps|QO|1|N|Kill Tentacular Slime.|
+K Oozemodious|ACTIVE|81713|M|62.71,39.12|Z|2214; The Ringing Deeps|QO|2|N|Oozemodius is inside the cave, then up the ramp.|T|Oozemodius|
 C Lisky Business|QID|81712|M|62.30,39.00|Z|2214; The Ringing Deeps|QO|1|N|Drop down to the pool below and use the whistle to find Lisky.|EAB|NC|
 C Lisky Business|QID|81712|M|60.78,41.10|Z|2214; The Ringing Deeps|QO|2|N|Keep using the whistle, every time Lisky is distracted to get her out of the cave to Skorthuz.|EAB|
 T Lisky Business|QID|81712|M|60.79,41.52|Z|2214; The Ringing Deeps|N|To Skorthuz.|
-T Oozemodius|QID|81713|M|60.79,41.52|Z|2214; The Ringing Deeps|N|To Skorthuz.|
+T Oozemodious|QID|81713|M|60.79,41.52|Z|2214; The Ringing Deeps|N|To Skorthuz.|
 A A Nebb in Need|QID|79367|M|61.69,42.61|Z|2214; The Ringing Deeps|N|From Nebb.|RANK|2|
 C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214; The Ringing Deeps|QO|1|H|N|Bundle of Candles.|
 C A Nebb in Need|QID|79367|M|61.71,42.75|Z|2214; The Ringing Deeps|QO|2|NC|N|Candles placed.|
