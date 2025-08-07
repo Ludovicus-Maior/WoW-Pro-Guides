@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber time GetCurrentRegion WoWPro_IsValidDate
+-- luacheck: globals tostring tonumber time
 -- luacheck: globals max min abs type
 -- luacheck: globals pairs select string tinsert tremove
 
@@ -1001,7 +1001,7 @@ function WoWPro.ParseSteps(steps)
 						hour = tonumber(hour) or 0
 						min = tonumber(min) or 0
 						-- Validate date components before converting to Unix timestamp (UTC)
-						if WoWPro_IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
+						if WoWPro.IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
 							epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
 						else
 							epochttime = nil
@@ -1330,7 +1330,7 @@ function WoWPro.SetupGuideReal()
 end
 
 -- Validate date components to ensure they form a valid date
-function WoWPro_IsValidDate(year, month, day, hour, min)
+function WoWPro.IsValidDate(year, month, day, hour, min)
     if not year or not month or not day then
         return false
     end
