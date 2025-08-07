@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber
+-- luacheck: globals tostring tonumber time
 -- luacheck: globals max min abs type
 -- luacheck: globals pairs select string tinsert tremove
 
@@ -983,24 +983,67 @@ function WoWPro.ParseSteps(steps)
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
             local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
 			if serverdate then
-				local epochttime, timelock = (";"):split(serverdate)
+				local datetime, timelock = serverdate:match("([^;]*);?(.*)")
 				if timelock == "1" then
 					local epoch = _G.GetServerTime()
 					local dateFlip
 					local timeMet
+					local epochttime
 					guidelockdetected = true
-					if (epochttime:sub(1, 1) == "-") then
-							epochttime = epochttime:sub(2)
-							dateFlip = true
-					 end
-					if tonumber(epochttime) >= epoch then
-						timeMet = true
+					-- Handle negative dates (lock after this date)
+					if (datetime:sub(1, 1) == "-") then
+						datetime = datetime:sub(2)
+						dateFlip = true
 					end
-					if timeMet == dateFlip then
-						if dateFlip then
-							guidelock = epochttime
+					-- Parse user-friendly date format: YYYY-MM-DD or YYYY-MM-DD HH:MM (UTC)
+					local year, month, day, hour, min = datetime:match("(%d%d%d%d)-(%d%d)-(%d%d)%s*(%d*)%:?(%d*)")
+					if year then
+						hour = tonumber(hour) or 0
+						min = tonumber(min) or 0
+						-- Validate date components before converting to Unix timestamp (UTC)
+						if WoWPro.IsValidDate(tonumber(year), tonumber(month), tonumber(day), hour, min) then
+							epochttime = time({year=tonumber(year), month=tonumber(month), day=tonumber(day), hour=hour, min=min, sec=0})
 						else
-							guidelock = "-" .. epochttime
+							epochttime = nil
+						end
+						-- Apply regional release delay (simple hour offset)
+						if epochttime then
+							local currentRegion = _G.GetCurrentRegion and _G.GetCurrentRegion() or 1
+							-- Region codes: 1=US, 2=KR, 3=EU, 4=TW, 5=CN
+							if currentRegion == 3 then
+								-- EU gets content 8 hours after US
+								epochttime = epochttime + (8 * 3600)
+							elseif currentRegion == 2 or currentRegion == 4 then
+								-- KR/TW get content 15 hours after US
+								epochttime = epochttime + (15 * 3600)
+							elseif currentRegion == 5 then
+								-- CN gets content 24 hours after US
+								epochttime = epochttime + (24 * 3600)
+							end
+						end
+						-- US (region 1) uses base UTC time, no adjustment
+						if epochttime and epochttime >= epoch then
+							timeMet = true
+						end
+						if timeMet == dateFlip then
+							if dateFlip then
+								guidelock = tostring(epochttime)
+							else
+								guidelock = "-" .. tostring(epochttime)
+							end
+						end
+					else
+						-- Fallback to old Unix timestamp format for compatibility
+						epochttime = tonumber(datetime)
+						if epochttime and epochttime >= epoch then
+							timeMet = true
+						end
+						if epochttime and (timeMet == dateFlip) then
+							if dateFlip then
+								guidelock = datetime
+							else
+								guidelock = "-" .. datetime
+							end
 						end
 					end
 				end
@@ -1284,4 +1327,38 @@ function WoWPro.SetupGuideReal()
         WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
     end
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
+end
+
+-- Validate date components to ensure they form a valid date
+function WoWPro.IsValidDate(year, month, day, hour, min)
+    if not year or not month or not day then
+        return false
+    end
+    -- Basic range checks
+    if year < 2004 or year > 2050 then  -- WoW launched in 2004, reasonable future limit
+        return false
+    end
+    if month < 1 or month > 12 then
+        return false
+    end
+    if day < 1 or day > 31 then
+        return false
+    end
+    if hour and (hour < 0 or hour > 23) then
+        return false
+    end
+    if min and (min < 0 or min > 59) then
+        return false
+    end
+    -- Days in month check
+    local daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
+    -- Leap year check
+    if month == 2 and ((year % 4 == 0 and year % 100 ~= 0) or (year % 400 == 0)) then
+        if day > 29 then
+            return false
+        end
+    elseif day > daysInMonth[month] then
+        return false
+    end
+    return true
 end
