@@ -5,6 +5,8 @@ WoWPro:GuideQuestTriggers(guide, 84956)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
+
+;========CHAPTER 1===========
 ;A A Shadowy Invitation|QID|84956|M|PLAYER|N|UI-ALert|
 R Dornogal|ACTIVE|84956|M|PLAYER|N|Make your way back to Dornogal by any means.|
 T A Shadowy Invitation|QID|84956|M|42.03,27.15|Z|2339; Dornogal|N|To Locus-Walker.|
@@ -52,6 +54,8 @@ T Regroup!|QID|86835|M|40.54,67.52|Z|2472; Tazavesh|N|To Locus-Walker.|
 A The Shadowguard Shattered|QID|84967|PRE|86835|M|40.54,67.52|Z|2472; Tazavesh|N|From Locus-Walker.|
 K Shadowlord Al'zar|ACTIVE|84967|M|37.60,75.42|Z|2472; Tazavesh|QO|1|N|Shadowlord Al'zar slain.|T|Shadowlord Al'zar|
 T The Shadowguard Shattered|QID|84967|M|37.66,74.55|Z|2472; Tazavesh|N|To Locus-Walker.|
+
+;========CHAPTER 2===========
 A What Is Left of Home|QID|85032|PRE|84967|M|37.76,74.47|Z|2472; Tazavesh|N|From Locus-Walker.|
 C What Is Left of Home|QID|85032|M|41.12,25.24|Z|2472; Tazavesh|QO|1|CHAT|N|Talk to the Innkeeper.|
 C What Is Left of Home|QID|85032|M|40.62,29.25|Z|2472; Tazavesh|QO|3|CHAT|N|Talk to the Quartermaster.|
@@ -127,6 +131,8 @@ T Unwrapped and Unraveled|QID|86946|M|47.10,54.52|Z|2371; K'aresh|N|To Ve'nari.|
 A My Part of the Deal|QID|90517|PRE|86946|M|47.10,54.52|Z|2371; K'aresh|N|From Ve'nari.|
 C My Part of the Deal|QID|90517|M|47.08,54.47|Z|2371; K'aresh|QO|1|H|N|Ve'nari's Reshii Ribbon acquired.|
 T My Part of the Deal|QID|90517|M|47.08,54.47|Z|2371; K'aresh|N|To Ve'nari.|
+
+;========CHAPTER 3===========
 A Eco-Dome: Rhovan|QID|84826|PRE|90517|M|47.08,54.47|Z|2371; K'aresh|N|From Locus-Walker.|
 T Eco-Dome: Rhovan|QID|84826|M|70.95,58.11|Z|2371; K'aresh|N|To Locus-Walker.|
 A The Shattered Dome|QID|84827|PRE|84826|M|70.95,58.11|Z|2371; K'aresh|N|From Locus-Walker.|
@@ -194,6 +200,9 @@ C The Tabiqa|QID|84910|M|74.42,30.46|Z|2371; K'aresh|QO|4|H|N|Ritual Dagger plac
 C The Tabiqa|QID|84910|M|74.39,30.39|Z|2371; K'aresh|QO|5|CHAT|N|Talk to Soul-Scribe.|
 T The Tabiqa|QID|84910|M|74.42,30.43|Z|2371; K'aresh|N|To Soul-Scribe.|
 
+;cape quests
+;A A Skip Through the Void|QID|90938|M|PLAYER|Z|2472; Tazavesh|N|UI-ALERT|
+T A Skip Through the Void|QID|90938|M|50.4,36.4|Z|2371; K'aresh|N|To Hashim.|
 A Another World|QID|89380|M|74.87,31.06|Z|2371; K'aresh|N|From Shad'anis|
 T Another World|QID|89380|M|50.38,36.34|Z|2371; K'aresh|N|To Shad'anis.|
 A The Untethered Void|QID|89343|PRE|89380|M|50.38,36.34|Z|2371; K'aresh|N|From Shad'anis.|
@@ -212,7 +221,7 @@ A The Untethered Horror|QID|89345|PRE|89344|M|50.38,36.30|Z|2371; Untethered Spa
 C The Untethered Horror|QID|89345|M|48.01,40.52|Z|2371; Untethered Space|QO|1|N|Netherdeath slain within Untethered Space.|
 T The Untethered Horror|QID|89345|M|50.36,36.35|Z|2371; Untethered Space|N|To Shad'anis.|
 
-
+;Chapter 4
 A The Next Dimension|QID|84896|PRE|84910|M|74.42,30.43|Z|2371; K'aresh|N|From Soul-Scribe.|DATE|1755018000|
 T The Next Dimension|QID|84896|M|60.26,29.17|Z|2371; K'aresh|N|To Soul-Scribe.|
 A The Calm Before We Storm|QID|84897|PRE|84896|M|60.26,29.17|Z|2371; K'aresh|N|From Soul-Scribe.|
@@ -259,6 +268,8 @@ A That's a Wrap|QID|85037|PRE|84906|M|44.27,18.45|Z|2371; K'aresh|N|From Xal'ata
 C That's a Wrap|QID|85037|M|42.83,21.57|Z|2371; K'aresh|QO|1|CHAT|N|Speak to Xal'atath.|
 C That's a Wrap|QID|85037|M|42.80,21.56|Z|2371; K'aresh|QO|2|NC|N|Reshii Wraps.|
 T That's a Wrap|QID|85037|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
+
+;========CHAPTER 5===========
 A Manaforge Omega: Dimensius Looms|QID|86820|PRE|85037|M|42.86,21.52|Z|2371; K'aresh|N|From Alleria Windrunner.|
 t Manaforge Omega: Dimensius Looms|QID|86820|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
 
@@ -356,5 +367,234 @@ C The Royal Procession|QID|85262|M|76.29,29.73|Z|2371; K'aresh|QO|1|NC|N|Queen B
 C The Royal Procession|QID|85262|M|72.95,36.75|Z|2371; K'aresh|QO|2|NC|N|New Hive Location found.|
 T The Royal Procession|QID|85262|M|75.77,33.89|Z|2371; K'aresh|N|To Botanist Alaenra.|
 
+;Sojourner of Karesh
+;========On a Technicality=========
+A Overwhelm Them|QID|85429|M|50.51,38.83|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+A Mandatory Time Off|QID|85430|M|50.51,38.83|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+C Mandatory Time Off|QID|85430|M|51.63,38.93|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Spy on Coordinator Xy'thir (Optional).|
+C Overwhelm Them|QID|85429|M|58.97,36.19|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Crates broken.|S|
+C Mandatory Time Off|QID|85430|M|63.28,27.54|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Illusion Devices placed.|
+C Overwhelm Them|QID|85429|M|58.97,36.19|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Crates broken.|S|
+T Overwhelm Them|QID|85429|M|50.47,38.73|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
+T Mandatory Time Off|QID|85430|M|50.47,38.73|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
+A Drain Their Resources|QID|85431|PRE|85429&85430|M|50.47,38.73|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+A Confuse Their Contacts|QID|85432|PRE|85429&85430|M|50.47,38.73|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+C Confuse Their Contacts|QID|85432|M|38.34,37.70|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|U|232644|N|Disguise assumed.|
+C Confuse Their Contacts|QID|85432|M|35.26,42.45|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|U|232644|N|Traders informed.|
+C Drain Their Resources|QID|85431|M|22.71,36.82|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|U|232644|N|Overflowing Anima Core.|
+T Drain Their Resources|QID|85431|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
+T Confuse Their Contacts|QID|85432|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
+A Eyes on Us|QID|85433|PRE|85431&85432|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+C Eyes on Us|QID|85433|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|QO|2|CHAT|N|Speak to Associate Xy'nell.|
+C Eyes on Us|QID|85433|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Xy'nell assured (Optional).|
+C Eyes on Us|QID|85433|M|34.95,57.86|Z|2472;Tazavesh, the Veiled Market|QO|3|CHAT|N|Speak to Port Authority Zo'rau.|
+T Eyes on Us|QID|85433|M|50.39,38.90|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
+A On a Technicality|QID|85434|PRE|85433|M|50.39,38.90|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|
+C On a Technicality|QID|85434|M|52.47,38.20|Z|2472;Tazavesh, the Veiled Market|QO|1|CHAT|N|Speak with Port Authority Zo'rau (Optional).|
+C On a Technicality|QID|85434|M|52.43,37.92|Z|2472;Tazavesh, the Veiled Market|QO|2|N|Coordinator Xy'thir defeated.|
+T On a Technicality|QID|85434|M|52.43,37.92|Z|2472;Tazavesh, the Veiled Market|N|To Interim Coordinator Xy'nell.|
+
+;================That Tazavesh Taste==============
+A Applied Mixology|QID|85383|PRE|85434|M|43.87,52.53|Z|2472;Tazavesh, the Veiled Market|N|From Trader Ba'kril.|
+C Applied Mixology|QID|85383|M|43.96,52.22|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Azerite Powder infused.|
+C Applied Mixology|QID|85383|M|43.96,52.22|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Mana Cell Energy infused.|
+C Applied Mixology|QID|85383|M|43.96,52.22|Z|2472;Tazavesh, the Veiled Market|QO|3|NC|N|Void Essence infused.|
+C Applied Mixology|QID|85383|M|43.96,52.22|Z|2472;Tazavesh, the Veiled Market|QO|4|NC|N|Finalize the concoction (100%).|
+T Applied Mixology|QID|85383|M|43.84,52.30|Z|2472;Tazavesh, the Veiled Market|N|To Trader Ba'kril.|
+A Market Research|QID|85384|PRE|85383|M|43.84,52.30|Z|2472;Tazavesh, the Veiled Market|N|From Trader Ba'kril.|
+C Market Research|QID|85384|M|31.89,44.24|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Riftwalker Ailaya tests drink.|
+C Market Research|QID|85384|M|51.74,37.90|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Hips tests drink.|
+C Market Research|QID|85384|M|44.96,63.13|Z|2472;Tazavesh, the Veiled Market|QO|3|NC|N|Drink tested on Bakishroth.|
+T Market Research|QID|85384|M|43.89,52.22|Z|2472;Tazavesh, the Veiled Market|N|To Trader Ba'kril.|
+A An Eye for Trouble|QID|85394|PRE|85384|M|43.89,52.22|Z|2472;Tazavesh, the Veiled Market|N|From Trader Ba'kril.|
+C An Eye for Trouble|QID|85394|M|59.34,46.70|Z|2472;Tazavesh, the Veiled Market|QO|1|N|Bakishroth the Empowered slain.|
+T An Eye for Trouble|QID|85394|M|43.89,52.22|Z|2472;Tazavesh, the Veiled Market|N|To Trader Ba'kril.|
+
+;==========Lost and Found Storage===========
+A A Lucrative Opportunity|QID|85052|M|48.00,24.55|Z|2472;Tazavesh, the Veiled Market|N|From Vaultkeeper Xy'vez.|
+T A Lucrative Opportunity|QID|85052|M|50.31,19.44|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
+A Obtaining Permits|QID|85053|PRE|85052|M|50.31,19.44|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|
+C Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Pay for the permit (Optional).|
+C Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Teach Ba'vaal a Lesson (100%).|
+T Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
+A Articles of Acquisition|QID|85054|PRE|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|
+T Articles of Acquisition|QID|85054|M|44.91,36.07|Z|2472;Tazavesh, the Veiled Market|N|To Vaultkeeper Xy'vez.|
+A Expired Goods|QID|85055|PRE|85054|M|44.91,36.07|Z|2472;Tazavesh, the Veiled Market|N|From Vaultkeeper Xy'vez.|
+C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Return a mount.|
+C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Return a weapon.|
+C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|3|NC|N|Return a trinket.|
+C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|4|NC|N|Return a weapon.|
+T Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|N|To Vaultkeeper Xy'vez.|
+
+:=============Of Boughs and Bonds================
+
+A Bridge to Nowhere|QID|84740|M|54.46,63.68|Z|2371;K'aresh|N|From Om'fennad.|
+A Clearing the Dunes|QID|84915|M|54.46,63.68|Z|2371;K'aresh|N|From Om'fennad.|
+C Clearing the Dunes|QID|84915|M|53.40,58.68|Z|2371;K'aresh|QO|1|NC|N|Dunes cleared.|S|
+C Bridge to Nowhere|QID|84740|M|51.98,62.32|Z|2371;K'aresh|QO|1|NC|N|First site surveyed.|
+C Bridge to Nowhere|QID|84740|M|54.33,53.65|Z|2371;K'aresh|QO|2|NC|N|Second site surveyed.|
+C Bridge to Nowhere|QID|84740|M|58.68,55.25|Z|2371;K'aresh|QO|3|NC|N|Third site surveyed.|
+C Clearing the Dunes|QID|84915|M|53.40,58.68|Z|2371;K'aresh|QO|1|NC|N|Dunes cleared.|US|
+T Bridge to Nowhere|QID|84740|M|54.44,63.63|Z|2371;K'aresh|N|To Om'fennad.|
+T Clearing the Dunes|QID|84915|M|54.44,63.63|Z|2371;K'aresh|N|To Om'fennad.|
+A Signs in the Sands|QID|84741|PRE|84740&84915|M|54.44,63.63|Z|2371;K'aresh|N|From Om'fennad.|
+C Signs in the Sands|QID|84741|M|60.37,54.71|Z|2371;K'aresh|QO|1|NC|N|Catch up with Om'fennad.|
+C Signs in the Sands|QID|84741|M|57.59,54.01|Z|2371;K'aresh|QO|2|NC|N|Footprints investigated.|
+C Signs in the Sands|QID|84741|M|57.60,53.94|Z|2371;K'aresh|QO|3|CHAT|N|Speak to the stranger.|
+T Signs in the Sands|QID|84741|M|60.72,54.28|Z|2371;K'aresh|N|To Om'fennad.|
+A Ill-met in Starlight|QID|84759|PRE|84741|M|60.72,54.28|Z|2371;K'aresh|N|From Shahata.|
+T Ill-met in Starlight|QID|84759|M|76.43,55.29|Z|2371;K'aresh|N|To Shahata.|
+A A Friendly Warning|QID|84760|PRE|84759|M|76.43,55.29|Z|2371;K'aresh|N|From Shahata.|
+A Toil and Trespass|QID|84761|PRE|84759|M|76.43,55.29|Z|2371;K'aresh|N|From Shahata.|
+C Toil and Trespass|QID|84761|M|77.12,50.89|Z|2371;K'aresh|QO|1|NC|N|Shahata's Supplies.|S|
+K Soulbinder Sabeel|ACTIVE|84760|M|76.67,51.10|Z|2371;K'aresh|QO|1|N|Soulbinder Sabeel slain.|T|Soulbinder Sabeel|
+K Duelist Xaheen|ACTIVE|84760|M|75.80,47.74|Z|2371;K'aresh|QO|2|N|Duelist Xaheen slain.|T|Duelist Xaheen|
+C Toil and Trespass|QID|84761|M|77.12,50.89|Z|2371;K'aresh|QO|1|NC|N|Shahata's Supplies.|US|
+T A Friendly Warning|QID|84760|M|76.31,55.26|Z|2371;K'aresh|N|To Shahata.|
+T Toil and Trespass|QID|84761|M|76.31,55.26|Z|2371;K'aresh|N|To Shahata.|
+A We Are Our Words|QID|84762|PRE|84760&84761|M|76.31,55.26|Z|2371;K'aresh|N|From Shahata.|
+C We Are Our Words|QID|84762|M|76.90,46.41|Z|2371;K'aresh|QO|1|NC|N|Search chests.|
+C We Are Our Words|QID|84762|M|77.04,46.12|Z|2371;K'aresh|QO|2|NC|N|Help Shahata.|
+C We Are Our Words|QID|84762|M|76.44,55.12|Z|2371;K'aresh|QO|3|NC|N|Check on Om'fennad.|
+T We Are Our Words|QID|84762|M|76.37,55.19|Z|2371;K'aresh|N|To Shahata.|
+A By Oath and Blood|QID|84820|PRE|84762|M|76.37,55.19|Z|2371;K'aresh|
+C By Oath and Blood|QID|84820|M|77.42,54.89|Z|2371;K'aresh|QO|1|NC|N|Commandeer Om'fennad's Barge.|
+C By Oath and Blood|QID|84820|M|77.08,48.92|Z|2371;K'aresh|QO|2|NC|N|Om'fennad rescued.|
+C By Oath and Blood|QID|84820|M|73.49,53.15|Z|2371;K'aresh|QO|3|NC|N|Escape North Sufaad.|
+T By Oath and Blood|QID|84820|M|73.78,53.29|Z|2371;K'aresh|N|To Om'fennad.|
+A Of Bonds and Boughs|QID|84765|PRE|84820|M|73.78,53.29|Z|2371;K'aresh|N|From Om'fennad.|
+C Of Bonds and Boughs|QID|84765|M|73.82,53.35|Z|2371;K'aresh|QO|1|NC|N|Incense lit.|
+C Of Bonds and Boughs|QID|84765|M|84.59,52.14|Z|2371;K'aresh|QO|2|NC|N|Follow the trail.|
+T Of Bonds and Boughs|QID|84765|M|85.13,52.06|Z|2371;K'aresh|N|To Om'fennad.|
+
+;==========Anyway, Here's Firewall=========
+A Give me Fuel|QID|86196|PRE|84765|M|49.85,57.38|Z|2371;K'aresh|N|From Assistant Engineer Om'vek.|
+C Give me Fuel|QID|86196|M|49.28,54.38|Z|2371;K'aresh|QO|1|NC|N|Firebud Pollen.|
+T Give me Fuel|QID|86196|M|49.86,57.35|Z|2371;K'aresh|N|To Assistant Engineer Om'vek.|
+A Give me Fire|QID|86200|PRE|86196|M|49.86,57.35|Z|2371;K'aresh|N|From Assistant Engineer Om'vek.|
+C Give me Fire|QID|86200|M|49.87,57.33|Z|2371;K'aresh|QO|1|NC|N|Firebud Pollen Batches placed.|
+T Give me Fire|QID|86200|M|49.86,57.37|Z|2371;K'aresh|N|To Assistant Engineer Om'vek.|
+A Watch me Make These Bugs Expire|QID|86201|PRE|86200|M|49.86,57.37|Z|2371;K'aresh|N|From Assistant Engineer Om'vek.|
+C Watch me Make These Bugs Expire|QID|86201|M|49.86,57.37|Z|2371;K'aresh|N|Use the flame thrower to get the bugs off the glass then slay them.|U|233028|
+T Watch me Make These Bugs Expire|QID|86201|M|49.83,57.45|Z|2371;K'aresh|N|To Assistant Engineer Om'vek.|
+
+;=========A Stranger's Gift=======
+A Stranger on the Steps|QID|85238|PRE|86201|M|57.04,57.33|Z|2371;K'aresh|N|From Om'taha.|
+C Stranger on the Steps|QID|85238|M|58.17,58.20|Z|2371;K'aresh|QO|1|NC|N|Om'baladh found.|
+T Stranger on the Steps|QID|85238|M|57.02,57.38|Z|2371;K'aresh|N|To Om'taha.|
+A A New Devouring|QID|85239|PRE|85238|M|57.02,57.38|Z|2371;K'aresh|N|From Om'taha.|
+A Only Hunger Remains|QID|85240|PRE|85238|M|57.02,57.38|Z|2371;K'aresh|
+C A New Devouring|QID|85239|M|60.05,58.11|Z|2371;K'aresh|QO|1|NC|N|Siphoning Staves destroyed.|
+C Only Hunger Remains|QID|85240|M|59.54,59.59|Z|2371;K'aresh|QO|1|N|Naakroan Wastelander slain.|
+T A New Devouring|QID|85239|M|59.44,60.51|Z|2371;K'aresh|N|To Om'taha.|
+T Only Hunger Remains|QID|85240|M|59.44,60.51|Z|2371;K'aresh|N|To Om'taha.|
+A A Once-Proud Priest|QID|85241|PRE|85239&85240|M|59.44,60.51|Z|2371;K'aresh|N|From Om'taha.|
+C A Once-Proud Priest|QID|85241|M|60.69,62.45|Z|2371;K'aresh|QO|1|N|Issam the Unraveler slain.|
+T A Once-Proud Priest|QID|85241|M|59.45,60.54|Z|2371;K'aresh|N|To Om'taha.|
+A Life for Life|QID|86193|PRE|85241|M|59.45,60.54|Z|2371;K'aresh|N|From Om'taha.|
+C Life for Life|QID|86193|M|59.45,60.54|Z|2371;K'aresh|QO|1|NC|N|Unbind Om'taha.|
+C Life for Life|QID|86193|M|59.61,60.79|Z|2371;K'aresh|QO|2|NC|N|Arcane Infuser destroyed.|
+T Life for Life|QID|86193|M|59.57,60.71|Z|2371;K'aresh|N|To Om'taha.|
+
+;=========Avoiding the Void=======
+A Chipping the Void|QID|84972|PRE|86193|M|76.62,34.32|Z|2371;K'aresh|N|From Driruj.|
+C Chipping the Void|QID|84972|M|66.55,42.69|Z|2371;K'aresh|QO|1|NC|N|Void Glass Sample.|
+T Chipping the Void|QID|84972|M|76.61,34.33|Z|2371;K'aresh|N|To Driruj.|
+A Of Motes and Husks|QID|84973|PRE|84972|M|76.62,34.35|Z|2371;K'aresh|N|From Driruj.|
+C Of Motes and Husks|QID|84973|M|67.94,33.75|Z|2371;K'aresh|QO|1|NC|N|Softly Swirling Mote.|
+C Of Motes and Husks|QID|84973|M|71.30,39.81|Z|2371;K'aresh|QO|2|NC|N|Krolusk Husk.|
+T Of Motes and Husks|QID|84973|M|76.64,34.32|Z|2371;K'aresh|N|To Driruj.|
+A Shards of Hope|QID|84974|PRE|84973|M|76.64,34.32|Z|2371;K'aresh|N|From Driruj.|
+C Shards of Hope|QID|84974|M|66.55,45.42|Z|2371;K'aresh|QO|1|NC|N|You have to stand in the void circles and use the Extra Action Button then collect the shards off the ground.|EAB|
+T Shards of Hope|QID|84974|M|76.64,34.32|Z|2371;K'aresh|N|To Driruj.|
+A Packets of Promises|QID|85018|PRE|84974|M|76.64,34.32|Z|2371;K'aresh|N|From Driruj.|
+C Packets of Promises|QID|85018|M|78.94,32.48|Z|2371;K'aresh|QO|1|NC|N|Talk to Driruj outside the eco-dome.|
+C Packets of Promises|QID|85018|M|78.94,32.48|Z|2371;K'aresh|QO|2|NC|N|Satchel of Seeds.|
+T Packets of Promises|QID|85018|M|76.58,34.29|Z|2371;K'aresh|N|To Om'gith.|
+
+;=========Priest of the Old Ways=======
+A An Outcast's Request|QID|85019|M|77.69,39.83|Z|2371;K'aresh|N|From Outcast Hizfran.|
+C An Outcast's Request|QID|85019|M|79.94,47.55|Z|2371;K'aresh|QO|3|NC|N|K'areshi Priest's Bowl.|
+C An Outcast's Request|QID|85019|M|79.69,47.65|Z|2371;K'aresh|QO|2|NC|N|Scepter of Priesthood.|
+C An Outcast's Request|QID|85019|M|80.91,49.95|Z|2371;K'aresh|QO|1|NC|N|Ways of the Priesthood.|
+T An Outcast's Request|QID|85019|M|77.71,39.84|Z|2371;K'aresh|N|To Outcast Hizfran.|
+A The Blood of K'aresh|QID|85020|PRE|85019|M|77.71,39.84|Z|2371;K'aresh|N|From Outcast Hizfran.|
+C The Blood of K'aresh|QID|85020|M|75.06,39.74|Z|2371;K'aresh|QO|1|NC|N|Blood of K'aresh Deposit.|
+T The Blood of K'aresh|QID|85020|M|77.69,39.80|Z|2371;K'aresh|N|To Outcast Hizfran.|
+A Cleansing the Void|QID|85021|PRE|85020|M|77.69,39.80|Z|2371;K'aresh|N|From Outcast Hizfran.|
+C Cleansing the Void|QID|85021|M|78.03,38.98|Z|2371;K'aresh|QO|1|NC|N|Ritual started.|
+C Cleansing the Void|QID|85021|M|78.00,39.26|Z|2371;K'aresh|QO|2|NC|N|Place Bowl and Salt.|
+C Cleansing the Void|QID|85021|M|77.89,39.26|Z|2371;K'aresh|QO|3|NC|N|Book Placed.|
+C Cleansing the Void|QID|85021|M|77.92,39.17|Z|2371;K'aresh|QO|4|NC|N|Scepter Placed.|
+C Cleansing the Void|QID|85021|M|77.96,39.18|Z|2371;K'aresh|QO|5|NC|N|Ritual Concludes.|
+T Cleansing the Void|QID|85021|M|77.94,39.26|Z|2371;K'aresh|N|To Outcast Hizfran.|
+A Priest of the Old Ways|QID|85022|PRE|85021|M|77.94,39.26|Z|2371;K'aresh|N|From Outcast Hizfran.|
+C Priest of the Old Ways|QID|85022|M|80.83,48.31|Z|2371;K'aresh|QO|2|N|Void of Doubt slain.|
+C Priest of the Old Ways|QID|85022|M|80.54,52.26|Z|2371;K'aresh|QO|3|N|Void of Falter slain.|
+C Priest of the Old Ways|QID|85022|M|77.68,54.26|Z|2371;K'aresh|QO|1|N|Void of Shame slain.|
+T Priest of the Old Ways|QID|85022|M|77.90,39.30|Z|2371;K'aresh|N|To Hizfran.|
+
+;=========In Search of Darkness=======
+A A Common Cause|QID|90972|PRE|85022|M|60.89,27.74|Z|2371;K'aresh|N|From Magister Umbric.|
+C A Common Cause|QID|90972|M|60.12,29.67|Z|2371;K'aresh|QO|1|NC|N|Ask Adarus about Leona's whereabouts.|
+T A Common Cause|QID|90972|M|59.37,24.19|Z|2371;K'aresh|N|To Leona Darkstrider.|
+A The Void Hunter|QID|86786|PRE|90972|M|59.37,24.19|Z|2371;K'aresh|N|From Leona Darkstrider.|
+C The Void Hunter|QID|86786|M|56.71,19.80|Z|2371;K'aresh|QO|1|NC|U|239074|N|Ramon'ta the Insatiable fed.|
+C The Void Hunter|QID|86786|M|57.22,18.60|Z|2371;K'aresh|QO|2|NC|U|239074|N|Ramon'ta the Insatiable lured.|
+C The Void Hunter|QID|86786|M|57.32,18.24|Z|2371;K'aresh|QO|3|U|239074|N|Ramon'ta the Insatiable defeated.|
+C The Void Hunter|QID|86786|M|60.16,29.67|Z|2371;K'aresh|QO|4|NC|U|239074|N|Report back to Adarus in Shan'dorah.|
+T The Void Hunter|QID|86786|M|60.16,29.74|Z|2371;K'aresh|N|To Adarus Duskblaze.|
+A Wasted Lands|QID|89323|PRE|86786|M|60.16,29.74|Z|2371;K'aresh|N|From Adarus Duskblaze.|
+C Wasted Lands|QID|89323|M|79.15,53.41|Z|2371;K'aresh|QO|1|NC|N|K'areshi Fragment Location Reached.|
+T Wasted Lands|QID|89323|M|78.92,53.41|Z|2371;K'aresh|N|To Adarus Duskblaze.|
+A A Piece of Something Greater|QID|89324|PRE|89323|M|78.92,53.41|Z|2371;K'aresh|N|From Adarus Duskblaze.|
+C A Piece of Something Greater|QID|89324|M|80.70,50.48|Z|2371;K'aresh|QO|2|NC|N|Key of the Waning Moon Recovered.|
+C A Piece of Something Greater|QID|89324|M|79.52,46.31|Z|2371;K'aresh|QO|1|NC|N|Key of the Eternal Night Recovered.|
+C A Piece of Something Greater|QID|89324|M|75.78,49.52|Z|2371;K'aresh|QO|3|NC|N|Key of the Dark Sun Recovered.|
+C A Piece of Something Greater|QID|89324|M|79.02,53.02|Z|2371;K'aresh|QO|4|NC|N|Return to the K'areshi Fragment.|
+C A Piece of Something Greater|QID|89324|M|78.82,53.64|Z|2371;K'aresh|QO|5|NC|N|Pylons Deactivated.|
+C A Piece of Something Greater|QID|89324|M|79.01,53.37|Z|2371;K'aresh|QO|6|NC|N|Fragment Retrieved.|
+T A Piece of Something Greater|QID|89324|M|78.93,53.45|Z|2371;K'aresh|N|To Adarus Duskblaze.|
+A The Void Confluence|QID|89325|PRE|89324|M|78.93,53.45|Z|2371;K'aresh|N|From Adarus Duskblaze.|
+T The Void Confluence|QID|89325|M|62.70,52.20|Z|2477;K'aresh|N|To Leona Darkstrider.|
+A Distilled Darkness|QID|89326|PRE|89325|M|62.70,52.20|Z|2477;K'aresh|N|From Leona Darkstrider.|
+C Distilled Darkness|QID|89326|M|49.74,74.43|Z|2477;K'aresh|QO|2|NC|N|Southern Fragment location aligned.|
+C Distilled Darkness|QID|89326|M|37.13,35.06|Z|2477;K'aresh|QO|1|NC|N|Northern Fragment location aligned.|
+T Distilled Darkness|QID|89326|M|62.41,52.37|Z|2477;K'aresh|N|To Leona Darkstrider.|
+A Chaos|QID|89327|PRE|89326|M|62.41,52.37|Z|2477;K'aresh|N|From Leona Darkstrider.|
+C Chaos|QID|89327|M|62.86,52.45|Z|2477;K'aresh|QO|1|NC|N|K'areshi Fragment Placed.|
+C Chaos|QID|89327|M|62.86,52.45|Z|2477;K'aresh|QO|2|CHAT|N|Speak to Adarus.|
+C Chaos|QID|89327|M|64.19,52.13|Z|2477;K'aresh|QO|3|NC|N|Ritual Witnessed.|
+C Chaos|QID|89327|M|64.19,52.13|Z|2477;K'aresh|QO|4|NC|N|Adarus Kicked.|
+T Chaos|QID|89327|M|62.68,52.29|Z|2477;K'aresh|N|To Leona Darkstrider.|
+A Hunger of the Void|QID|91044|PRE|89327|M|62.68,52.29|Z|2477;K'aresh|N|From Leona Darkstrider.|
+C Hunger of the Void|QID|91044|M|60.89,27.79|Z|2371;K'aresh|QO|1|NC|N|Report back to Umbric.|
+T Hunger of the Void|QID|91044|M|60.89,27.79|Z|2371;K'aresh|N|To Magister Umbric.|
+
+;=========Untethered Potential=======
+A Untethered Potential|QID|91314|PRE|91044|M|59.94,29.09|Z|2371;K'aresh|N|From Researcher Essarae.|
+C Untethered Potential|QID|91314|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Use the Phase Conduit to enter Untethered Space.|
+C Phase Diving: Shan'dorah Saboteurs|QID|86869|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Enter Phase Diving (Optional).|
+L Half-Digested Journal|AVAILABLE|91454|M|56.50,24.97|Z|2371;Untethered Space|l|246589|N|Looted from Phase-Lost Creepers|
+A Phase-Lost Adventurer|QID|91454|PRE|91044|M|56.50,24.97|Z|2371;Untethered Space|O|U|246589|
+C Untethered Potential|QID|91314|M|65.94,41.69|Z|2477;Untethered Space|QO|2|NC|N|Phase-Altered Essence collected in Untethered Space.|
+C Untethered Potential|QID|91314|M|56.20,21.51|Z|2371;K'aresh|QO|3|NC|N|Use the Phase Conduit to return to K'aresh.|
+T Untethered Potential|QID|91314|M|59.92,29.05|Z|2371;K'aresh|N|To Researcher Essarae.|
+T Phase-Lost Adventurer|QID|91454|M|59.92,29.05|Z|2371;K'aresh|N|To Researcher Essarae.|
+
+;=========Chasing Echoes=======
+A Phase Diving: Restless Souls|QID|88902|PRE|91314&91454|M|52.02,64.82|Z|2371;K'aresh|
+A Those We Have Lost|QID|85006|PRE|91314&91454|M|51.95,64.76|Z|2371;K'aresh|N|From Om'dalan.|
+A Extended Reach|QID|85007|PRE|91314&91454|M|51.95,64.76|Z|2371;K'aresh|N|From Om'dalan.|
+C Those We Have Lost|QID|85006|M|49.14,66.63|Z|2371;K'aresh|QO|1|NC|N|Flickering Essence.|
+C Extended Reach|QID|85007|M|52.11,69.46|Z|2371;K'aresh|QO|1|NC|N|Nether reading documented.|
+T Those We Have Lost|QID|85006|M|51.01,68.23|Z|2371;K'aresh|N|To Om'dalan.|
+T Extended Reach|QID|85007|M|51.01,68.23|Z|2371;K'aresh|N|To Om'dalan.|
+A Machinations of Memory|QID|85008|PRE|85006&85007|M|51.01,68.23|Z|2371;K'aresh|N|From Om'dalan.|
+C Machinations of Memory|QID|85008|M|50.99,68.83|Z|2371;K'aresh|QO|1|NC|N|Console Battery.|
+T Machinations of Memory|QID|85008|M|50.98,68.30|Z|2371;K'aresh|N|To Om'dalan.|
+A Those We Have Yet to Save|QID|85009|PRE|85008|M|50.98,68.30|Z|2371;K'aresh|N|From Om'dalan.|
+C Those We Have Yet to Save|QID|85009|M|51.26,65.89|Z|2371;K'aresh|QO|1|NC|U|230730|N|Flickering Ephemera tested.|
+T Those We Have Yet to Save|QID|85009|M|51.04,68.30|Z|2371;K'aresh|N|To Om'dalan.|
 ]]
 end)
