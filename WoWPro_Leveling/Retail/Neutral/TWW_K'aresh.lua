@@ -426,8 +426,7 @@ C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|3|
 C Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|QO|4|NC|N|Return a weapon.|
 T Expired Goods|QID|85055|M|45.04,36.00|Z|2472;Tazavesh, the Veiled Market|N|To Vaultkeeper Xy'vez.|
 
-:=============Of Boughs and Bonds================
-
+;=============Of Boughs and Bonds================
 A Bridge to Nowhere|QID|84740|M|54.46,63.68|Z|2371;K'aresh|N|From Om'fennad.|
 A Clearing the Dunes|QID|84915|M|54.46,63.68|Z|2371;K'aresh|N|From Om'fennad.|
 C Clearing the Dunes|QID|84915|M|53.40,58.68|Z|2371;K'aresh|QO|1|NC|N|Dunes cleared.|S|
@@ -575,7 +574,7 @@ T Hunger of the Void|QID|91044|M|60.89,27.79|Z|2371;K'aresh|N|To Magister Umbric
 A Untethered Potential|QID|91314|PRE|91044|M|59.94,29.09|Z|2371;K'aresh|N|From Researcher Essarae.|
 C Untethered Potential|QID|91314|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Use the Phase Conduit to enter Untethered Space.|
 C Phase Diving: Shan'dorah Saboteurs|QID|86869|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Enter Phase Diving (Optional).|
-L Half-Digested Journal|AVAILABLE|91454|M|56.50,24.97|Z|2371;Untethered Space|l|246589|N|Looted from Phase-Lost Creepers|
+l Half-Digested Journal|AVAILABLE|91454|M|56.50,24.97|Z|2371;Untethered Space|L|246589|N|Looted from Phase-Lost Creepers|
 A Phase-Lost Adventurer|QID|91454|PRE|91044|M|56.50,24.97|Z|2371;Untethered Space|O|U|246589|
 C Untethered Potential|QID|91314|M|65.94,41.69|Z|2477;Untethered Space|QO|2|NC|N|Phase-Altered Essence collected in Untethered Space.|
 C Untethered Potential|QID|91314|M|56.20,21.51|Z|2371;K'aresh|QO|3|NC|N|Use the Phase Conduit to return to K'aresh.|
