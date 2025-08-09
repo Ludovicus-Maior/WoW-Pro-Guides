@@ -14,6 +14,8 @@ A Return to the Veiled Market|QID|84957|M|42.03,27.15|Z|2339; Dornogal|N|From Lo
 C Return to the Veiled Market|QID|84957|M|40.40,22.85|Z|2339; Dornogal|QO|1|NC|N|Follow Locus-Walker.|
 C Return to the Veiled Market|QID|84957|M|40.34,22.73|Z|2339; Dornogal|QO|2|H|N|Take the Spatial Rift to Tazavesh.|
 T Return to the Veiled Market|QID|84957|M|59.64,83.52|Z|2472; Tazavesh|N|To Locus-Walker.|
+;A A Skip Through the Void|QID|90938|M|PLAYER|Z|2472; Tazavesh|N|UI-ALERT|
+T A Skip Through the Void|QID|90938|M|50.4,36.4|Z|2371; K'aresh|N|To Hashim.|
 A Restoring Operational Efficiency|QID|85003|PRE|84957|M|59.67,83.33|Z|2472; Tazavesh|N|From Om'en.|
 A Compromised Containment|QID|85039|PRE|84957|M|56.82,73.17|Z|2472; Tazavesh|N|From Xy'bin.|
 A Beasts Unbound|QID|84958|PRE|84957|M|56.82,73.17|Z|2472; Tazavesh|N|From Ta'ka.|
@@ -201,8 +203,6 @@ C The Tabiqa|QID|84910|M|74.39,30.39|Z|2371; K'aresh|QO|5|CHAT|N|Talk to Soul-Sc
 T The Tabiqa|QID|84910|M|74.42,30.43|Z|2371; K'aresh|N|To Soul-Scribe.|
 
 ;cape quests
-;A A Skip Through the Void|QID|90938|M|PLAYER|Z|2472; Tazavesh|N|UI-ALERT|
-T A Skip Through the Void|QID|90938|M|50.4,36.4|Z|2371; K'aresh|N|To Hashim.|
 A Another World|QID|89380|M|74.87,31.06|Z|2371; K'aresh|N|From Shad'anis|
 T Another World|QID|89380|M|50.38,36.34|Z|2371; K'aresh|N|To Shad'anis.|
 A The Untethered Void|QID|89343|PRE|89380|M|50.38,36.34|Z|2371; K'aresh|N|From Shad'anis.|
@@ -582,7 +582,6 @@ T Untethered Potential|QID|91314|M|59.92,29.05|Z|2371;K'aresh|N|To Researcher Es
 T Phase-Lost Adventurer|QID|91454|M|59.92,29.05|Z|2371;K'aresh|N|To Researcher Essarae.|
 
 ;=========Chasing Echoes=======
-A Phase Diving: Restless Souls|QID|88902|PRE|91314&91454|M|52.02,64.82|Z|2371;K'aresh|
 A Those We Have Lost|QID|85006|PRE|91314&91454|M|51.95,64.76|Z|2371;K'aresh|N|From Om'dalan.|
 A Extended Reach|QID|85007|PRE|91314&91454|M|51.95,64.76|Z|2371;K'aresh|N|From Om'dalan.|
 C Those We Have Lost|QID|85006|M|49.14,66.63|Z|2371;K'aresh|QO|1|NC|N|Flickering Essence.|
