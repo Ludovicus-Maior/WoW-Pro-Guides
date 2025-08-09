@@ -156,7 +156,7 @@ C Bad Genes|QID|31271|M|59.00,71.00|N|Kill 3 Ik'thik Genemancers and 6 Ik'thik E
 
 C A Little Brain Work|QID|31268|U|85884|N|Collect 3 Amber-Encrusted Brains from Ik'thik Amberstingers.|US|M|61.00,71.00|
 
-R Mistblade Den|ACTIVE|31269|N|Cave Entrance|CC|M|66.73,63.61|
+R Mistblade Den|ACTIVE|31269|QO|1|N|Cave Entrance|CC|M|66.73,63.61|
 
 C The Scale-Lord|QID|31269|M|66.40,65.80|N|Kill the Mistblade Scale-Lord.|
 
