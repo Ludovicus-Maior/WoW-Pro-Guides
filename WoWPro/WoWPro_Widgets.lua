@@ -127,7 +127,7 @@ function WoWPro:CreateTrack(parent, anchor1)
 end
 
 function WoWPro:CreateProgressBar(parent, anchor1)
-    local progressBar = _G.CreateFrame("StatusBar", nil, parent, BackdropTemplateMixin and "BackdropTemplate")
+    local progressBar = _G.CreateFrame("StatusBar", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate")
     progressBar:SetPoint("TOPLEFT", anchor1, "BOTTOMLEFT", 0, -3)
     progressBar:SetSize(100, 17)
 
