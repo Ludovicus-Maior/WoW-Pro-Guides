@@ -293,9 +293,9 @@ T Sous|QID|82848|M|69.93,32.59|Z|2215; Hallowfall|N|To Dolena.|
 
 ; Requires Campaign completion and lvl 80 or adventure mode
 ;A Keep the Home Fires Burning|QID|76247|PRE|79197|M|61.20,30.54|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
-A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
-A Seeds of Evil|QID|79108|M|61.18,30.51|PRE|79197|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
-A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
+A Keep the Home Fires Burning|QID|76247|PRE|79333|M|61.20,30.54|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
+A Seeds of Evil|QID|79108|M|61.18,30.51|PRE|79333|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
+A Seeds of Evil|QID|79108|M|61.18,30.51|PRE|79333|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
 C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215; Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|S|
 C Keep the Home Fires Burning|QID|76247|QO|1|M|61.20,30.54|Z|2215; Hallowfall|N|Loot some boxes of the ground.|H|S|
 A Eggs in One Basket|QID|80382|M|60.82,27.89|Z|2215; Hallowfall|N|From Egg Basket.|RANK|2|
@@ -306,13 +306,13 @@ C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215; Hallowfall|QO|1|N|Collect Corrup
 T Eggs in One Basket|QID|80382|M|61.20,30.54|Z|2215; Hallowfall|N|To Aliya Hillhelm.|
 T Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215; Hallowfall|N|To Aliya Hillhelm.|
 T Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215; Hallowfall|N|To Aliya Hillhelm.|
-A Follow Miral|QID|79109|M|61.18,30.51|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+A Follow Miral|QID|79109|PRE|79108|M|61.18,30.51|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+A A Flickering of Hope|QID|50690|PRE|79108|M|61.20,30.54|Z|2215; Hallowfall|N|From Aliya Hillhelm.|RANK|2|
 C Follow Miral|QID|79109|M|60.75,25.14|Z|2215; Hallowfall|QO|1|H|N|Hoe inspected.|
 C Follow Miral|QID|79109|M|60.12,24.28|Z|2215; Hallowfall|QO|2|H|N|Bag inspected.|
 C Follow Miral|QID|79109|M|60.28,22.85|Z|2215; Hallowfall|QO|3|H|N|Lamp inspected.|
 T Follow Miral|QID|79109|M|60.27,21.14|Z|2215; Hallowfall|N|To Miral Murder.|
-A Save Tomothy|QID|79110|M|60.27,21.14|Z|2215; Hallowfall|N|From Miral Murder.|RANK|2|
+A Save Tomothy|QID|79110|PRE|79109|M|60.27,21.14|Z|2215; Hallowfall|N|From Miral Murder.|RANK|2|
 K The Grasping Darkness|ACTIVE|79110|M|60.16,20.70|Z|2215; Hallowfall|QO|1|N|Defeat The Grasping Darkness.|T|The Grasping Darkness|
 T Save Tomothy|QID|79110|M|61.17,30.55|Z|2215; Hallowfall|N|To Aliya Hillhelm.|
 T A Flickering of Hope|QID|50690|M|65.4,32.2|Z|2215; Hallowfall|N|To Keyrra Flamestonge.|
