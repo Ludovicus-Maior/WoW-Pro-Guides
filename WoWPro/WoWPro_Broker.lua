@@ -742,7 +742,16 @@ function WoWPro.UpdateQuestTrackerRow(row)
                     if WoWPro.QuestLog[qid].leaderBoard[l] then
                         track = track.."- "..WoWPro.QuestLog[qid].leaderBoard[l]
 						if select(2, _G.GetQuestLogLeaderBoard(l, j)) == "progressbar" then
-							track = "- "..floor(_G.GetQuestProgressBarPercent(qid)).."% out of 100% Complete."
+                            local progress = floor(_G.GetQuestProgressBarPercent(qid))
+							track = "- "..progress.."% out of 100% Complete."
+                            row.progressBar:SetValue(progress)
+                            if WoWProDB.profile.progressbar then
+                                row.progressBar:Show()
+                            else
+                                row.progressBar:Hide()
+                            end
+                        else
+                            row.progressBar:Hide()
 						end
 						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
                             track =  track.." (C)"
@@ -758,8 +767,16 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 for l, lquesttext in ipairs({(";"):split(questtext)}) do
                     if WoWPro.ValidObjective(lquesttext) then
 						if select(2, _G.GetQuestLogLeaderBoard(lquesttext:sub(1, 1) , j)) == "progressbar" then
-							track = "- "..floor(_G.GetQuestProgressBarPercent(qid)).."% out of 100% Complete.\n"
+                            local progress = floor(_G.GetQuestProgressBarPercent(qid))
+							track = "- "..progress.."% out of 100% Complete.\n"
+                            row.progressBar:SetValue(progress)
+                            if WoWProDB.profile.progressbar then
+                                row.progressBar:Show()
+                            else
+                                row.progressBar:Hide()
+                            end
 						else
+                            row.progressBar:Hide()
 							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 							if l > 1 then
 								track = track.."\n"

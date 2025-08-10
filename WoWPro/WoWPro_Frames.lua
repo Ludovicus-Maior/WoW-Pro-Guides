@@ -268,12 +268,17 @@ function WoWPro.RowSizeSet()
             row.track:Show()
             row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
             trackh = row.track:GetHeight()
+            row.progressBar:SetWidth(row:GetWidth()-30)
         else
             row.track:Hide()
+            row.progressBar:Hide();
             trackh = 1
         end
 
         newh = noteh + trackh + max(row.step:GetHeight(),row.action:GetHeight()) + space*2 +3
+        if  row.progressBar:IsVisible() then
+            newh = newh + 20
+        end
         row:SetHeight(newh)
 
         -- Hiding the row if it's past the set number of steps --
@@ -690,6 +695,8 @@ function WoWPro:CreateRows()
         row.step = WoWPro:CreateStep(row, row.action)
         row.note = WoWPro:CreateNote(row, row.action)
         row.track = WoWPro:CreateTrack(row, row.action)
+        row.progressBar = WoWPro:CreateProgressBar(row, row.track)
+        row.progressBar:Hide()
         row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(row, i)
 		row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
         row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
