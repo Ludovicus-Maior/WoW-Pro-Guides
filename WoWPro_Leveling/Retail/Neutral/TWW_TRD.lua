@@ -613,11 +613,11 @@ C Boiling Mad|QID|79261|QO|1<1|M|50.85,59.84|Z|2214; The Ringing Deeps|H|N|Inspe
 C Boiling Mad|QID|79261|QO|1<2|M|49.75,58.45|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
 C Boiling Mad|QID|79261|QO|1<3|M|50.24,55.00|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
 T Boiling Mad|QID|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
-A Fault Lines|QID|79263|PRE|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 A Clean Up House|QID|79262|PRE|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 C Clean Up House|QID|79262|M|53.18,47.57|Z|2214; The Ringing Deeps|N|Kill Agitated creatures.|
 C Fault Lines|QID|79263|M|53.05,47.07|Z|2214; The Ringing Deeps|NC|N|Find Cave Entrance.|
 T Clean Up House|QID|79262|M|53.00,45.55|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A Fault Lines|QID|79263|PRE|79262|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 T Fault Lines|QID|79263|M|53.00,45.55|Z|2214; The Ringing Deeps|N|To Berrund the Gleaming.|
 A These Strong Hands|QID|79264|PRE|79263&79262|M|53.00,45.55|Z|2214; The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
 C These Strong Hands|QID|79264|M|53.00,45.55|Z|2214; The Ringing Deeps|NC|N|Witness Moira Thaurissan.|
