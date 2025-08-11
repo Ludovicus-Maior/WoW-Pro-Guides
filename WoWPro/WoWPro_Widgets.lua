@@ -126,6 +126,27 @@ function WoWPro:CreateTrack(parent, anchor1)
     return track
 end
 
+function WoWPro:CreateProgressBar(parent, anchor1)
+    local progressBar = _G.CreateFrame("StatusBar", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate")
+    progressBar:SetPoint("TOPLEFT", anchor1, "BOTTOMLEFT", 0, -3)
+    progressBar:SetSize(100, 17)
+
+    progressBar:SetStatusBarTexture("Interface/TargetingFrame/UI-StatusBar")
+    progressBar:SetBackdrop( {
+        bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
+        edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+        tile = true, tileSize = 16, edgeSize = 5,
+        insets = { left = 0,  right = 0,  top = 0,  bottom = 0 }
+    })
+    progressBar:SetBackdropBorderColor(1, 1, 1, 1)
+    progressBar:SetBackdropColor(.8, .8, .8, 1)
+
+    progressBar:SetStatusBarColor(0, 1, 0)
+    progressBar:SetMinMaxValues(0, 100)
+    progressBar:SetValue(0)
+    return progressBar
+end
+
 function WoWPro:CreateItemButton(parent, id)
     local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "InsecureActionButtonTemplate")
     itembutton:SetAttribute("type", "item")

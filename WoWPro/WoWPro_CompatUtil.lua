@@ -181,7 +181,7 @@ function WoWPro.QuestLog_IsComplete(questID)
     if _G.C_QuestLog and _G.C_QuestLog.IsComplete then
         if _G.C_QuestLog.IsComplete(questID) then
             return 1
-        elseif _G.C_QuestLog.IsFailed(questID) then
+        elseif _G.C_QuestLog.IsFailed and _G.C_QuestLog.IsFailed(questID) then
             return -1
         end
         return nil
@@ -351,13 +351,16 @@ end
 
 -- [[EasyMenu]]
 local function EasyMenu_Initialize( frame, level, menuList )
-	for index = 1, #menuList do
-		local value = menuList[index]
-		if (value.text) then
-			value.index = index;
-			_G.UIDropDownMenu_AddButton( value, level );
-		end
-	end
+    if not menuList then
+        return
+    end
+    for index = 1, #menuList do
+        local value = menuList[index]
+        if (value.text) then
+            value.index = index;
+            _G.UIDropDownMenu_AddButton( value, level );
+        end
+    end
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
@@ -365,7 +368,10 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
         if ( displayMode == "MENU" ) then
             menuFrame.displayMode = displayMode;
         end
-        _G.UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, displayMode, nil, menuList);
+        menuFrame.menuList = menuList;
+        _G.UIDropDownMenu_Initialize(menuFrame, function(frame, level)
+            EasyMenu_Initialize(frame, level, frame.menuList)
+        end, displayMode);
         _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
     else
         _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
