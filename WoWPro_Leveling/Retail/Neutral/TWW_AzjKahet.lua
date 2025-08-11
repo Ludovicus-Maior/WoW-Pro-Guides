@@ -73,7 +73,7 @@ A The Weaver's Gift|QID|78233|M|55.86,43.80|Z|2255; Azj-Kahet|N|From Widow Arak'
 ;A Of Pacts and Patrons|QID|84682|M|55.86,43.80|Z|2255; Azj-Kahet|N|From Widow Arak'nai.|;This is a 1 time account bound quest.
 C Of Pacts and Patrons|QID|84682|M|56.38,43.30|Z|2255; Azj-Kahet|QO|1|CHAT|N|Talk to Bobbin.|
 C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255; Azj-Kahet|QO|2|CHAT|N|Talk to Tulumun.|
-A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255; Azj-Kahet|N|From Tulumun.|RANK|2|
+; LFO: Needs to be later in guide: A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255; Azj-Kahet|N|From Tulumun.|RANK|2|
 A City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255; Azj-Kahet|N|From Tulumun.|RANK|3|
 t City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255; Azj-Kahet|N|To Tulumun.|
 C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255; Azj-Kahet|QO|2|CHAT|N|Talk to Anub'okki.|
@@ -83,14 +83,14 @@ C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255; Azj-Kahet|QO|4|NC|N|Pick 
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255; Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255; Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255; Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
-A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255; Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81929|RANK|2|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
+;LFO missing something: A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255; Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81929|RANK|2|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255; Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255; Azj-Kahet|N|To Faerin Lothar.|
 T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255; Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
 A Rations and Revelations|QID|80399|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|
 A Where the Wild Things Camp|QID|83306|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 A Beneath the Roots|QID|83716|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-A Here's the Plan|QID|81929|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A Here's the Plan|QID|81929|PRE|82248|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 C Here's the Plan|QID|81929|QO|1|M|59.37,19.36|Z|2255; Azj-Kahet|CHAT|N|Ask Faerin Lothar about her plan.|
 C Here's the Plan|QID|81929|QO|2|M|59.37,19.36|Z|2255; Azj-Kahet|CHAT|N|Wait while Ferin explains her plan.|
 C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255; Azj-Kahet|H|N|Pick up the Shield.|
@@ -103,7 +103,7 @@ t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255; Azj-Kahet|N|From S
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255; Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255; Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255; Azj-Kahet|N|From Faerin Lothar.|
-A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|LVL|80|RANK|2|
+A To Arathi's End|QID|81945|PRE|81929|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|LVL|80|RANK|2|
 A To Arathi's End|QID|81945|PRE|83543&81929|M|59.37,19.36|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|; Available at any level in adventure mode
 f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255; Azj-Kahet|N|At Courier Aidal.|
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255; Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
@@ -124,11 +124,11 @@ C Antifungal Firestarter|QID|79356|M|55.70,16.98|Z|2255; Azj-Kahet|QO|1|H|U|2123
 T Antifungal Firestarter|QID|79356|M|57.76,19.72|Z|2255; Azj-Kahet|N|To Great Hexer Ohodo.|
 T Removing the Cap|QID|79357|M|57.76,19.72|Z|2255; Azj-Kahet|N|To Great Hexer Ohodo.|
 T To Arathi's End|QID|81945|M|63.69,17.86|Z|2255; Azj-Kahet|N|To Monte Gazlowe.|
-A BOOM Treats!|QID|81950|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
-A Invasion Disruption|QID|81965|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-A The Blacksmith's Fate|QID|81964|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A BOOM Treats!|QID|81950|PRE|81945|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
+A Invasion Disruption|QID|81965|PRE|81945|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A The Blacksmith's Fate|QID|81964|PRE|81945|M|63.72,17.86|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 C The Blacksmith's Fate|QID|81964|M|65.80,14.28|Z|2255; Azj-Kahet|QO|1|CHAT|N|Free the Survivor.|
-C Invasion Disruption|QID|81965|M|61.86,8.44|Z|2255; Azj-Kahet|N|Disrupt Arathi's End.|S|
+C Invasion Disruption|QID|81965|PRE|81964|M|61.86,8.44|Z|2255; Azj-Kahet|N|Disrupt Arathi's End.|S|
 t Invasion Disruption|QID|81965|M|PLAYER|N|To Faerin Lothar who is accompanying you.|
 C BOOM Treats!|QID|81950|M|65.98,11.22;63.70,10.86;65.81,8.80;63.80,4.90;62.50,6.73|CS|Z|2255; Azj-Kahet|QO|1|H|N|Nerubian Ballistae destroyed.|
 t BOOM Treats!|QID|81950|M|PLAYER|N|To Monte Gazlowe who is accompanying you.|
@@ -140,9 +140,9 @@ C Invasion Disruption|QID|81965|M|61.86,8.44|Z|2255; Azj-Kahet|N|Disrupt Arathi'
 A An End to the End|QID|81969|PRE|81950&81965&81964|M|PLAYER|Z|2255; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 K Surek'Tak the Sundered|ACTIVE|81969|M|49.94,56.56|Z|2274; Azj-Kahet|QO|1|N|Kill Surek'Tak the Sundered.Periodically during the fight, your [color=33fff9] Extra Action Button [/color]will become active for Gazlowe to fire the Ballistae.|T|Surek'Tak the Sundered|
 T An End to the End|QID|81969|M|48.75,58.42|Z|2274; Azj-Kahet|N|To Faerin Lothar.|
-A The Sorrowful Journey Home|QID|82268|M|48.75,58.42|Z|2274; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A The Sorrowful Journey Home|QID|82268|PRE|81969|M|48.75,58.42|Z|2274; Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 T The Sorrowful Journey Home|QID|82268|M|43.25,56.26|Z|2215; Hallowfall|N|To Faerin Lothar.|
-A Remembrance for the Fallen|QID|82284|M|43.25,56.26|Z|2215; Hallowfall|N|From Faerin Lothar.|RANK|2|
+A Remembrance for the Fallen|QID|82284|PRE|82268|M|43.25,56.26|Z|2215; Hallowfall|N|From Faerin Lothar.|RANK|2|
 C Remembrance for the Fallen|QID|82284|M|43.33,56.41|Z|2215; Hallowfall|QO|1|NC|U|223515|N|Use[color=33fff9] Breastplate and Tinderbox [/color]and place in forge.|
 T Remembrance for the Fallen|QID|82284|M|43.28,56.27|Z|2215; Hallowfall|N|To Faerin Lothar.|
 F Faerin's Advance|ACTIVE|78236|M|41.57,52.59|Z|2215; Hallowfall|N|At Anje Noon.|
@@ -191,6 +191,7 @@ T Just Act Casual|QID|78255|M|51.82,25.78|Z|2255; Azj-Kahet|N|To Monte Gazlowe.|
 A The General's Consensus|QID|78256|M|51.82,25.78|Z|2255; Azj-Kahet|N|From Monte Gazlowe.|
 C The General's Consensus|QID|78256|M|51.82,25.80|Z|2255; Azj-Kahet|QO|1|H|N|Zev'kall's Pheromone Emitter.|
 T The General's Consensus|QID|78256|M|55.67,44.06|Z|2255; Azj-Kahet|N|To Widow Arak'nai.|
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255; Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81929|RANK|2|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
 A A Most Intriguing Invitation|QID|78226|M|55.67,44.06|Z|2255; Azj-Kahet|N|From Widow Arak'nai.|
 A Trade Partners|QID|79651|PRE|78256|M|55.77,43.74|Z|2255; Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
 A A Silken Thread|QID|83324|PRE|78256|M|55.77,43.74|Z|2255; Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
