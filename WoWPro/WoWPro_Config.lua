@@ -168,7 +168,6 @@ local function createDisplayConfig()
                 set = function(info,val) WoWProDB.profile.guidescroll = val
                     WoWPro:TitlebarSet()
                     WoWPro:UpdateGuide("Config: Scroll Mode") end,
-                    width = "double"
             },
             guideprogress = {
                 order = 21.5,
@@ -180,6 +179,17 @@ local function createDisplayConfig()
                     WoWProDB.profile.guideprogress = val
                     WoWPro:TitlebarSet()
                     WoWPro:UpdateGuide("Config: Guide Progress")
+                end,
+            },
+            progressbar = {
+                order = 21.7,
+                type = "toggle",
+                name = L["Display Quest Progress Bar"],
+                desc = L["If enabled, will show a progrerss bar for % based quests"],
+                get = function(info) return WoWProDB.profile.progressbar end,
+                set = function(info, val)
+                    WoWProDB.profile.progressbar = val
+                    WoWPro:UpdateGuide("Config: Display Quest Progress")
                 end,
             },
             checksoundfile = {
