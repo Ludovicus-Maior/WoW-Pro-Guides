@@ -460,6 +460,7 @@ T Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215; Hallowfall|N|To Orren 
 
 ; ---REST AT LAST QUESTLINE---
 R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|RANK|2|
+; LFO Note:  This quest was not available to me first time TWW toon, See WOWHead top comment. Might need Azj-Kahet first.
 A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339; Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
 T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215; Hallowfall|N|To Great Kyron back in Hallowfall.|RANK|2|
 A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215; Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
@@ -480,7 +481,7 @@ C Light's Gambit|QID|79168|M|43.15,52.40|Z|2215; Hallowfall|QO|2|NC|N|Stay a whi
 T Light's Gambit|QID|79168|M|43.15,52.40|Z|2215; Hallowfall|N|To Anduin Wrynn.|
 ; ---REST AT LAST STORYLINE END---
 
-; ---Memories of the Sky Beginning---
+; ---Memories of the Sky Beginning--- LFO NOTE: This was avaible to me instead of [A Concerned Friend]
 A Runway Scare-a-way|QID|80673|M|60.49,60.12|Z|2215; Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
 A Torching Lights|QID|80677|M|60.49,60.12|Z|2215; Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
 C Runway Scare-a-way|QID|80673|M|60.72,62.16|Z|2215; Hallowfall|QO|1|N|Fly into the Flickering Glowmoths.)|S|
