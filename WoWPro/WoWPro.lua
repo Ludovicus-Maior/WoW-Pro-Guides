@@ -583,10 +583,10 @@ function WoWPro:OnEnable()
 
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        if WoWPro.Retail and guide['TimerunningSeasonID'] ~= seasonID then
+        if WoWPro.RETAIL and guide['TimerunningSeasonID'] ~= seasonID then
             WoWPro:dbp("Queue %q to purge", gid)
             table.insert(to_purge, gid)
-        elseif WoWPro.Classic and guide['ClassicSeasonID'] ~= seasonID then
+        elseif WoWPro.CLASSIC and guide['ClassicSeasonID'] ~= seasonID then
             WoWPro:dbp("Queue %q to purge", gid)
             table.insert(to_purge, gid)
         end
