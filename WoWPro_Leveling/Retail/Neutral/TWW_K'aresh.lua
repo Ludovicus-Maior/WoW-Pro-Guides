@@ -273,8 +273,10 @@ T That's a Wrap|QID|85037|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.
 A Manaforge Omega: Dimensius Looms|QID|86820|PRE|85037|M|42.86,21.52|Z|2371; K'aresh|N|From Alleria Windrunner.|
 t Manaforge Omega: Dimensius Looms|QID|86820|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
 
+
 ;Eco Dome quests
-A The Oasis|QID|87290|PRE|85037|M|39.68,24.49|Z|2472; Tazavesh|N|From Om'talad.|
+;bees
+A The Oasis|QID|87290|PRE|86820|M|39.68,24.49|Z|2472; Tazavesh|N|From Om'talad.|
 T The Oasis|QID|87290|M|75.78,34.22|Z|2371; K'aresh|N|To Cartel Om Custodian.|
 A Custodian Duties|QID|87337|PRE|87290|M|75.78,34.22|Z|2371; K'aresh|N|From Cartel Om Custodian.|
 C Custodian Duties|QID|87337|M|73.79,34.49|Z|2371; K'aresh|N|Clean up the poops (yes its another poop quest).|
@@ -339,9 +341,8 @@ A Primus Buzzness|QID|85257|PRE|85084&85083|M|48.36,61.27|Z|2371; K'aresh|N|From
 T Primus Buzzness|QID|85257|M|48.96,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
 A Tranquila-Bee|QID|85255|PRE|85257|M|48.96,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
 A Botany, Finally|QID|85256|PRE|85257|M|48.96,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
-C Tranquila-Bee|QID|85255|M|46.94,58.53|Z|2371; K'aresh|QO|1|NC|U|230210|N|Honey Bees tranquilized and tagged.|S|
+C Tranquila-Bee|QID|85255|M|46.94,58.53|Z|2371; K'aresh|QO|1|NC|U|230210|N|Honey Bees tranquilized and tagged.|
 C Botany, Finally|QID|85256|M|47.89,57.70|Z|2371; K'aresh|QO|1|NC|N|K'aresh Flora Cutting.|
-C Tranquila-Bee|QID|85255|M|46.94,58.53|Z|2371; K'aresh|QO|1|NC|U|230210|N|Honey Bees tranquilized and tagged.|US|
 T Tranquila-Bee|QID|85255|M|48.95,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
 T Botany, Finally|QID|85256|M|48.95,57.26|Z|2371; K'aresh|N|To Botanist Alaenra.|
 A Let There Bee Love|QID|89348|PRE|85255&85256|M|48.95,57.26|Z|2371; K'aresh|N|From Botanist Alaenra.|
@@ -367,6 +368,38 @@ A The Royal Procession|QID|85262|PRE|85261|M|75.77,33.81|Z|2371; K'aresh|N|From 
 C The Royal Procession|QID|85262|M|76.29,29.73|Z|2371; K'aresh|QO|1|NC|N|Queen Bee beckoned.|
 C The Royal Procession|QID|85262|M|72.95,36.75|Z|2371; K'aresh|QO|2|NC|N|New Hive Location found.|
 T The Royal Procession|QID|85262|M|75.77,33.89|Z|2371; K'aresh|N|To Botanist Alaenra.|
+
+;Second animal
+A Hunting for a Good Author|QID|86352|M|75.90,34.15|Z|2371; K'aresh|N|From Ve'nari.|
+P Azure Span|ACTIVE|86352|M|75.60,34.31|Z|2371; K'aresh|N|Take the portal to Azure Span.|
+C Hunting for a Good Author|QID|86352|QO|2|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|Find Hemet Nesingwary.|
+T Hunting for a Good Author|QID|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Protecting the Young|QID|86353|PRE|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+A A Percussive Antidote|QID|86354|PRE|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C A Percussive Antidote|QID|86354|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Cleanse the Brambles.|S|
+C Protecting the Young|QID|86353|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Gather the kiddos.|
+C A Percussive Antidote|QID|86354|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Cleanse the Brambles.|US|
+T Protecting the Young|QID|86353|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+T A Percussive Antidote|QID|86354|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A To Iskaara|QID|84822|PRE|86353&86354|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+T To Iskaara|QID|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Sustainable Harvesting|QID|86356|PRE|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+A Using the Whole Animal|QID|86355|PRE|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C Using the Whole Animal|QID|86355|QO|1|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|S|U|234457|
+C Sustainable Harvesting|QID|86356|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C Using the Whole Animal|QID|86355|QO|1|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|US|U|234457|
+T Sustainable Harvesting|QID|86356|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+T Using the Whole Animal|QID|86355|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Time for Noms|QID|86357|PRE|86356&86355|M|13.64,49.12|Z|2024;The Azure Span|N|From Hemet Nesingwary.|
+A Any Old Excuse|QID|86358|PRE|86356&86355|M|13.64,49.12|Z|2024;The Azure Span|N|From Hemet Nesingwary.|
+C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk Pups petted.|S|
+C Time for Noms|QID|86357|M|14.77,48.34|Z|2024;The Azure Span|QO|1|NC|N|Pile of Meat placed.|
+C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk Pups petted.|US|
+T Time for Noms|QID|86357|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.|
+T Any Old Excuse|QID|86358|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.| 
+A Return to K'aresh|QID|86359|PRE|86357&86358|M|13.63,49.11|Z|2024|N|From Hemet Nesingwary.|
+P The Oasis|ACTIVE|86359|QO|M|13.69,49.17|Z|The Azure Span!Dragon Isles|N|Take the portal to The Oasis.|
+T Return to K'aresh|QID|86359|M|75.91,34.14|Z|2371;K'aresh|N|To Ve'nari.|
 
 N This concludes the campaign. If you would like to go to sojourner make sure you have it set to rank 2 or 3. Click this off when ready to move on.
 
