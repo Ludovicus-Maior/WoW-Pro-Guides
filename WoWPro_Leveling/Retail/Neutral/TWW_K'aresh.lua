@@ -396,7 +396,7 @@ C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk P
 C Time for Noms|QID|86357|M|14.77,48.34|Z|2024;The Azure Span|QO|1|NC|N|Pile of Meat placed.|
 C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk Pups petted.|US|
 T Time for Noms|QID|86357|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.|
-T Any Old Excuse|QID|86358|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.| 
+T Any Old Excuse|QID|86358|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.|
 A Return to K'aresh|QID|86359|PRE|86357&86358|M|13.63,49.11|Z|2024|N|From Hemet Nesingwary.|
 P The Oasis|ACTIVE|86359|QO|M|13.69,49.17|Z|The Azure Span!Dragon Isles|N|Take the portal to The Oasis.|
 T Return to K'aresh|QID|86359|M|75.91,34.14|Z|2371;K'aresh|N|To Ve'nari.|
