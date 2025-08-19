@@ -293,11 +293,11 @@ A Token of Power|QID|27402|PRE|27282|M|48.10,70.48|Z|0085; Orgrimmar|ELITE|N|[co
 ; -- Tirisfal Glades
 b Tirisfal Glades|AVAILABLE|28089&28571|M|50.79,55.85|Z|0085; Orgrimmar|N|Make your way back to the Zeppelin Tower and take "The Thundercaller" Zeppelin back to Tirisfal Glades.|IZ|0085; Orgrimmar|
 R Undercity|AVAILABLE|28571|ACTIVE|-9627|M|60.70,58.75|Z|0018; Tirisfal Glades|N|Enter the Ruins of Lordaeron and down into Undercity.|
-A Warchief's Command: Hillsbrad Foothills!|QID|28571|ACTIVE|-9627|M|65.93,49.99|Z|0998; Undercity|N|From the Warchief's Command Board in the Trade Quarter.\n[color=FF0000]NOTE: [/color]This is a 'breadcrumb' leading you to Hillsbrad Foothills and our next guide.|
+A Warchief's Command: Hillsbrad Foothills!|QID|28571|ACTIVE|-9627|LEAD|28096|M|65.93,49.99|Z|0998; Undercity|N|From the Warchief's Command Board in the Trade Quarter.\n[color=FF0000]NOTE: [/color]This is a 'breadcrumb' leading you to Hillsbrad Foothills and our next guide.|
 ; -- Silvermoon City
 P Silvermoon City|ACTIVE|9627|M|54.85,11.23|Z|0998; Undercity|N|Use the portal to Silvermoon City in the Ruins of Lordaeron.|
 T Allegiance to the Horde|QID|9627|M|53.77,20.19|Z|0110; Silvermoon City|N|To Lor'themar Theron.|
-A Warchief's Command: Hillsbrad Foothills!|QID|28571|PRE|9627|M|62.17,60.44|Z|0110; Silvermoon City|N|From the Warchief's Command Board in The Bazaar.\n[color=FF0000]NOTE: [/color]This is a 'breadcrumb' leading you to Hillsbrad Foothills and our next guide.|
+A Warchief's Command: Hillsbrad Foothills!|QID|28571|PRE|9627|LEAD|28096|M|62.17,60.44|Z|0110; Silvermoon City|N|From the Warchief's Command Board in The Bazaar.\n[color=FF0000]NOTE: [/color]This is a 'breadcrumb' leading you to Hillsbrad Foothills and our next guide.|
 P Undercity|ACTIVE|28571|M|49.47,14.81|Z|0100; Silvermoon City|N|Use the portal to return to Ruins of Lordaeron.|TZ|Ruins of Lordaeron|
 ; -- End of guide
 
