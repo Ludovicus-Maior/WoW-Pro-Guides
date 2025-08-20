@@ -271,11 +271,23 @@ T That's a Wrap|QID|85037|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.
 
 ;========CHAPTER 5===========
 A Manaforge Omega: Dimensius Looms|QID|86820|PRE|85037|M|42.86,21.52|Z|2371; K'aresh|N|From Alleria Windrunner.|
-t Manaforge Omega: Dimensius Looms|QID|86820|M|42.86,21.52|Z|2371; K'aresh|N|To Alleria Windrunner.|
-
-N This concludes the campaign. If you would like to go to sojourner make sure you have it set to rank 2 or 3. Click this off when ready to move on.
+C Manaforge Omega: Dimensius Looms|QID|86820|M|41.99,22.31|Z|2371; K'aresh|QO|1|NC|N|Enter the Manaforge Omega raid in Story Mode (Optional).|
+C Manaforge Omega: Dimensius Looms|QID|86820|Z|2470; Devourer's Heart@Manaforge Omega!Dungeon|QO|2|N|Dimensius defeated.|
+A An Elegy for a Silent World|QID|86456|PRE|86192|Z|2470; Devourer's Heart@Manaforge Omega!Dungeon|
+C Manaforge Omega: Dimensius Looms|QID|86820|Z|2465; Wastes of Karesh@Manaforge Omega!Dungeon|QO|3|NC|N|Use Xal'atath's portal to escape the Dark Heart.|
+T Manaforge Omega: Dimensius Looms|QID|86820|Z|2467; Seat of the Devourer@Manaforge Omega!Dungeon|
+C An Elegy for a Silent World|QID|86456|M|75.89,34.19|Z|2371;K'aresh|QO|1|NC|N|Dimmed Crystal shown to Ve'nari.|
+T An Elegy for a Silent World|QID|86456|M|75.89,34.19|Z|2371;K'aresh|N|To Ve'nari.|
+A A Lullaby of Hope|QID|86457|PRE|86820&86456|M|75.89,34.19|Z|2371;K'aresh|N|From Ve'nari.|
+C A Lullaby of Hope|QID|86457|M|75.89,34.19|Z|2371;K'aresh|QO|1|NC|N|Interact with the Dimmed Crystal.|
+T A Lullaby of Hope|QID|86457|M|75.89,34.19|Z|2371;K'aresh|N|To Ve'nari.|
+A A Song for Our Future|QID|86458|PRE|86457|M|75.89,34.19|Z|2371;K'aresh|N|From Ve'nari.|
+C A Song for Our Future|QID|86458|Z|2449;Eco-Dome Al'dani|QO|1|N|Soul-Scribe defeated.|
+C A Song for Our Future|QID|86458|Z|2449;Eco-Dome Al'dani|QO|2|NC|N|Talk to Ve'nari.|
+T A Song for Our Future|QID|86458|Z|2449;Eco-Dome Al'dani|N|To Ve'nari.|
 
 ;Eco Dome quests
+;The Bees Knees
 A The Oasis|QID|87290|PRE|86820|M|39.68,24.49|Z|2472; Tazavesh|N|From Om'talad.|
 T The Oasis|QID|87290|M|75.78,34.22|Z|2371; K'aresh|N|To Cartel Om Custodian.|
 A Custodian Duties|QID|87337|PRE|87290|M|75.78,34.22|Z|2371; K'aresh|N|From Cartel Om Custodian.|
@@ -325,7 +337,7 @@ C An Un-Bee-lievable Solution|QID|85080|M|72.61,65.89|Z|0942; Stormsong Valley|Q
 C An Un-Bee-lievable Solution|QID|85080|M|73.82,70.88|Z|0942; Stormsong Valley|QO|3|NC|U|229424|N|Honey Bees vacuumed.|
 T An Un-Bee-lievable Solution|QID|85080|M|72.57,65.90|Z|0942; Stormsong Valley|N|To Botanist Alaenra.|
 A To K'aresh|QID|85082|PRE|85081&85080|M|72.57,65.90|Z|0942; Stormsong Valley|N|From Botanist Alaenra.|
-C To K'aresh|QID|85082|M|72.66,65.86|Z|0942; Stormsong Valley|QO|1|NC|N|Take the portal to K'aresh (Optional).|
+C To K'aresh|QID|85082|M|72.66,65.86|Z|0942; Stormsong Valley|QO|1|NC|N|Take the portal to K'aresh.|
 P Rosaline's Apiary|ACTIVE|85082|M|72.66,65.86|Z|Stormsong Valley|N|Take the portal to Rosaline's Apiary.|
 T To K'aresh|QID|85082|M|75.89,34.23|Z|2371; K'aresh|N|To Ve'nari.|
 A A Bee Test|QID|85249|PRE|85082|M|75.89,34.23|Z|2371; K'aresh|N|From Ve'nari.|
@@ -369,11 +381,142 @@ C The Royal Procession|QID|85262|M|76.29,29.73|Z|2371; K'aresh|QO|1|NC|N|Queen B
 C The Royal Procession|QID|85262|M|72.95,36.75|Z|2371; K'aresh|QO|2|NC|N|New Hive Location found.|
 T The Royal Procession|QID|85262|M|75.77,33.89|Z|2371; K'aresh|N|To Botanist Alaenra.|
 
+;Nesingwary Necessities
+A Hunting for a Good Author|QID|86352|M|75.90,34.15|Z|2371; K'aresh|N|From Ve'nari.|
+P Azure Span|ACTIVE|86352|M|75.60,34.31|Z|2371; K'aresh|N|Take the portal to Azure Span.|
+C Hunting for a Good Author|QID|86352|QO|2|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|Find Hemet Nesingwary.|
+T Hunting for a Good Author|QID|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Protecting the Young|QID|86353|PRE|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+A A Percussive Antidote|QID|86354|PRE|86352|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C A Percussive Antidote|QID|86354|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Cleanse the Brambles.|S|
+C Protecting the Young|QID|86353|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Gather the kiddos.|
+C A Percussive Antidote|QID|86354|M|17.49,38.34|Z|2024; The Azure Span!Dragon Isles|N|Cleanse the Brambles.|US|
+T Protecting the Young|QID|86353|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+T A Percussive Antidote|QID|86354|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A To Iskaara|QID|84822|PRE|86353&86354|M|18.79,39.90|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+T To Iskaara|QID|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Sustainable Harvesting|QID|86356|PRE|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+A Using the Whole Animal|QID|86355|PRE|84822|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C Using the Whole Animal|QID|86355|QO|1|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|S|U|234457|
+C Sustainable Harvesting|QID|86356|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|
+C Using the Whole Animal|QID|86355|QO|1|M|16.67,46.12|Z|2024; The Azure Span!Dragon Isles|N|From Hemet Nesingwary.|US|U|234457|
+T Sustainable Harvesting|QID|86356|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+T Using the Whole Animal|QID|86355|M|13.64,49.11|Z|2024; The Azure Span!Dragon Isles|N|To Hemet Nesingwary.|
+A Time for Noms|QID|86357|PRE|86356&86355|M|13.64,49.12|Z|2024;The Azure Span|N|From Hemet Nesingwary.|
+A Any Old Excuse|QID|86358|PRE|86356&86355|M|13.64,49.12|Z|2024;The Azure Span|N|From Hemet Nesingwary.|
+C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk Pups petted.|S|
+C Time for Noms|QID|86357|M|14.77,48.34|Z|2024;The Azure Span|QO|1|NC|N|Pile of Meat placed.|
+C Any Old Excuse|QID|86358|M|14.89,48.14|Z|2024;The Azure Span|QO|1|NC|N|Ottuk Pups petted.|US|
+T Time for Noms|QID|86357|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.|
+T Any Old Excuse|QID|86358|M|13.64,49.15|Z|2024;The Azure Span|N|To Hemet Nesingwary.|
+A Return to K'aresh|QID|86359|PRE|86357&86358|M|13.63,49.11|Z|2024|N|From Hemet Nesingwary.|
+P The Oasis|ACTIVE|86359|QO|1|M|13.69,49.17|Z|The Azure Span!Dragon Isles|N|Take the portal to The Oasis.|
+T Return to K'aresh|QID|86359|M|75.91,34.14|Z|2371;K'aresh|N|To Ve'nari.|
+
+;Expertly Done
+A Hand of the Vizier|QID|80672|M|75.90,34.20|Z|2371; K'aresh|N|From Ve'nari.|
+C Ghost Buster|QID|86182|M|75.86,33.16|Z|2371; K'aresh|QO|2|NC|N|Untethered Space entered.|
+C Ghost Buster|QID|86182|M|61.82,49.81|Z|2371; K'aresh|QO|3|NC|N|Slateback Essence.|
+T Ghost Buster|QID|86182|M|75.90,34.22|Z|2371; K'aresh|N|To Ve'nari.|
+A The Power of Gods|QID|86183|PRE|86182|M|75.90,34.22|Z|2371; K'aresh|N|From Ve'nari.|
+C The Power of Gods|QID|86183|M|75.80,34.13|Z|2371; K'aresh|QO|1|NC|N|Insert Ghost Essences into the Oasis Console.|
+C The Power of Gods|QID|86183|M|75.80,34.13|Z|2371; K'aresh|QO|2|NC|N|Slateback Roamer created.|
+T The Power of Gods|QID|86183|M|75.83,34.14|Z|2371; K'aresh|N|To Ve'nari.|
+A Diminishing Returns|QID|86184|PRE|86183|M|75.83,34.14|Z|2371; K'aresh|N|From Ve'nari.|
+C Diminishing Returns|QID|86184|M|73.57,34.64|Z|2371; K'aresh|QO|1|NC|U|232432|N|Slateback Roamers shrunk and collected.|
+T Diminishing Returns|QID|86184|M|75.80,34.24|Z|2371; K'aresh|N|To Om'talad.|
+A Running Free|QID|86185|PRE|86184|M|75.84,34.07|Z|2371; K'aresh|N|From Hemet Nesingwary.|
+C Running Free|QID|86185|M|73.72,37.54|Z|2371; K'aresh|QO|1|NC|N|Slateback Alpha challenged.|
+C Running Free|QID|86185|M|74.31,27.56|Z|2371; K'aresh|QO|2|NC|N|Run the race.|
+T Running Free|QID|86185|M|75.83,34.00|Z|2371; K'aresh|N|To Hemet Nesingwary.|
+A The Super Sniffer|QID|86186|PRE|86185|M|75.90,34.13|Z|2371; K'aresh|N|From Ve'nari.|
+C The Super Sniffer|QID|86186|M|77.82,62.96|Z|2255;Azj-Kahet|QO|1|NC|N|Find a niffen who can help.|
+C The Super Sniffer|QID|86186|M|77.53,61.82|Z|2255;Azj-Kahet|QO|2|NC|N|Convince Rhubarn to come with you.|
+T The Super Sniffer|QID|86186|M|77.53,61.82|Z|2255;Azj-Kahet|N|To Rhubarn.|
+A The Smallest Possible Effort|QID|86187|PRE|86186|M|77.53,61.82|Z|2255;Azj-Kahet|N|From Rhubarn.|
+A More-shrooms|QID|86188|PRE|86186|M|77.53,61.82|Z|2255;Azj-Kahet|N|From Rhubarn.|
+C The Smallest Possible Effort|QID|86187|M|77.10,69.01|Z|2255;Azj-Kahet|QO|1|NC|N|Bug Bits.|S|
+C The Smallest Possible Effort|QID|86187|M|75.38,66.52|Z|2255;Azj-Kahet|QO|2|NC|U|232992|N|Chop a Large Bug Bit into Bug Bits.|S|
+C More-shrooms|QID|86188|M|74.38,77.58|Z|2255;Azj-Kahet|QO|1|NC|N|Rak-ush Mushroom.|
+C The Smallest Possible Effort|QID|86187|M|75.38,66.52|Z|2255;Azj-Kahet|QO|2|NC|U|232992|N|Chop a Large Bug Bit into Bug Bits.|US|
+C The Smallest Possible Effort|QID|86187|M|77.10,69.01|Z|2255;Azj-Kahet|QO|1|NC|N|Bug Bits.|US|
+T The Smallest Possible Effort|QID|86187|M|77.55,61.83|Z|2255;Azj-Kahet|N|To Rhubarn.|
+T More-shrooms|QID|86188|M|77.55,61.83|Z|2255;Azj-Kahet|N|To Rhubarn.|
+A Fungal Invasion|QID|86189|PRE|86187&86188|M|77.55,61.83|Z|2255;Azj-Kahet|N|From Rhubarn.|
+A One Mushroom to Rule Them All|QID|86190|PRE|86187&86188|M|77.55,61.83|Z|2255;Azj-Kahet|N|From Rhubarn.|
+C Fungal Invasion|QID|86189|M|54.27,17.34|Z|2255;Azj-Kahet|QO|1|N|Pillar-nest Vosh monsters slain.|S|
+C One Mushroom to Rule Them All|QID|86190|M|54.12,16.51|Z|2255;Azj-Kahet|QO|1|NC|N|Voshsroom.|
+C Fungal Invasion|QID|86189|M|54.27,17.34|Z|2255;Azj-Kahet|QO|1|N|Pillar-nest Vosh monsters slain.|US|
+T Fungal Invasion|QID|86189|M|77.58,61.82|Z|2255;Azj-Kahet|N|To Rhubarn.|
+T One Mushroom to Rule Them All|QID|86190|M|77.58,61.82|Z|2255;Azj-Kahet|N|To Rhubarn.|
+A Smell Ya Later|QID|86191|PRE|86189&86190|M|77.58,61.82|Z|2255;Azj-Kahet|N|From Rhubarn.|
+C Smell Ya Later|QID|86191|M|76.95,64.47|Z|2255|QO|1|NC|N|Take the Portal to K'aresh (Optional).|
+C Smell Ya Later|QID|86191|M|75.93,34.33|Z|2371;K'aresh|QO|2|NC|N|Arrive at the Oasis on K'aresh.|
+T Smell Ya Later|QID|86191|M|75.89,34.21|Z|2371;K'aresh|N|To Ve'nari.|
+A The Scent of Love|QID|86194|PRE|86191|M|75.97,34.54|Z|2371;K'aresh|N|From Rhubarn.|
+C The Scent of Love|QID|86194|M|73.57,34.78|Z|2371;K'aresh|QO|1|NC|U|233195|N|Slateback Roamer doused.|
+T The Scent of Love|QID|86194|M|75.98,34.55|Z|2371;K'aresh|N|To Rhubarn.|
+A On a Bed of Bones They Lie|QID|86192|PRE|86194|M|75.98,34.55|Z|2371;K'aresh|N|From Rhubarn.|
+C On a Bed of Bones They Lie|QID|86192|M|74.51,40.58|Z|2371;K'aresh|QO|1|NC|N|Creature Bones.|
+C On a Bed of Bones They Lie|QID|86192|M|73.13,32.57|Z|2371;K'aresh|QO|2|NC|N|Pile of Bones placed.|
+T On a Bed of Bones They Lie|QID|86192|M|75.86,34.18|Z|2371;K'aresh|N|To Om'talad.|
+
+;Week 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N This concludes the campaign. If you would like to go to sojourner make sure you have it set to rank 2 or 3. Click this off when ready to move on.
+
 ;Sojourner of Karesh
 ;========On a Technicality=========
 A Overwhelm Them|QID|85429|M|50.51,38.83|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|RANK|2|
 A Mandatory Time Off|QID|85430|M|50.51,38.83|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|RANK|2|
-C Mandatory Time Off|QID|85430|M|51.63,38.93|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Spy on Coordinator Xy'thir (Optional).|
+C Mandatory Time Off|QID|85430|M|51.63,38.93|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Spy on Coordinator Xy'thir.|
 C Overwhelm Them|QID|85429|M|58.97,36.19|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Crates broken.|S|
 C Mandatory Time Off|QID|85430|M|63.28,27.54|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Illusion Devices placed.|
 C Overwhelm Them|QID|85429|M|58.97,36.19|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Crates broken.|S|
@@ -388,11 +531,11 @@ T Drain Their Resources|QID|85431|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Mark
 T Confuse Their Contacts|QID|85432|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
 A Eyes on Us|QID|85433|PRE|85431&85432|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|RANK|2|
 C Eyes on Us|QID|85433|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|QO|2|CHAT|N|Speak to Associate Xy'nell.|
-C Eyes on Us|QID|85433|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Xy'nell assured (Optional).|
+C Eyes on Us|QID|85433|M|50.39,38.80|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Xy'nell assured.|
 C Eyes on Us|QID|85433|M|34.95,57.86|Z|2472;Tazavesh, the Veiled Market|QO|3|CHAT|N|Speak to Port Authority Zo'rau.|
 T Eyes on Us|QID|85433|M|50.39,38.90|Z|2472;Tazavesh, the Veiled Market|N|To Associate Xy'nell.|
 A On a Technicality|QID|85434|PRE|85433|M|50.39,38.90|Z|2472;Tazavesh, the Veiled Market|N|From Associate Xy'nell.|RANK|2|
-C On a Technicality|QID|85434|M|52.47,38.20|Z|2472;Tazavesh, the Veiled Market|QO|1|CHAT|N|Speak with Port Authority Zo'rau (Optional).|
+C On a Technicality|QID|85434|M|52.47,38.20|Z|2472;Tazavesh, the Veiled Market|QO|1|CHAT|N|Speak with Port Authority Zo'rau.|
 C On a Technicality|QID|85434|M|52.43,37.92|Z|2472;Tazavesh, the Veiled Market|QO|2|N|Coordinator Xy'thir defeated.|
 T On a Technicality|QID|85434|M|52.43,37.92|Z|2472;Tazavesh, the Veiled Market|N|To Interim Coordinator Xy'nell.|
 
@@ -416,7 +559,7 @@ T An Eye for Trouble|QID|85394|M|43.89,52.22|Z|2472;Tazavesh, the Veiled Market|
 A A Lucrative Opportunity|QID|85052|M|48.00,24.55|Z|2472;Tazavesh, the Veiled Market|N|From Vaultkeeper Xy'vez.|RANK|2|
 T A Lucrative Opportunity|QID|85052|M|50.31,19.44|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
 A Obtaining Permits|QID|85053|PRE|85052|M|50.31,19.44|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|RANK|2|
-C Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Pay for the permit (Optional).|
+C Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|QO|1|NC|N|Pay for the permit.|
 C Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|QO|2|NC|N|Teach Ba'vaal a Lesson (100%).|
 T Obtaining Permits|QID|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|N|To Cartel Boss Xy'eolm.|
 A Articles of Acquisition|QID|85054|PRE|85053|M|50.39,19.38|Z|2472;Tazavesh, the Veiled Market|N|From Cartel Boss Xy'eolm.|RANK|2|
@@ -575,7 +718,7 @@ T Hunger of the Void|QID|91044|M|60.89,27.79|Z|2371;K'aresh|N|To Magister Umbric
 ;=========Untethered Potential=======
 A Untethered Potential|QID|91314|PRE|91044|M|59.94,29.09|Z|2371;K'aresh|N|From Researcher Essarae.|RANK|2|
 C Untethered Potential|QID|91314|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Use the Phase Conduit to enter Untethered Space.|
-C Phase Diving: Shan'dorah Saboteurs|QID|86869|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Enter Phase Diving (Optional).|
+C Phase Diving: Shan'dorah Saboteurs|QID|86869|M|60.20,29.05|Z|2371;Untethered Space|QO|1|NC|N|Enter Phase Diving.|
 l Half-Digested Journal|AVAILABLE|91454|M|56.50,24.97|Z|2371;Untethered Space|L|246589|N|Looted from Phase-Lost Creepers|RANK|2|
 A Phase-Lost Adventurer|QID|91454|PRE|91044|M|56.50,24.97|Z|2371;Untethered Space|O|U|246589|RANK|2|
 C Untethered Potential|QID|91314|M|65.94,41.69|Z|2477;Untethered Space|QO|2|NC|N|Phase-Altered Essence collected in Untethered Space.|
