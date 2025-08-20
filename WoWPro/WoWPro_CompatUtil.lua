@@ -364,7 +364,6 @@ local function EasyMenu_Initialize( frame, level, menuList )
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
-    -- Try newest MenuUtil system first
     if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
         local function GenerateMenu(ownerRegion, rootDescription)
             local function AddMenuItems(description, items)
@@ -416,7 +415,6 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
         end, displayMode);
         _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
     else
-        -- No menu system available, fallback behavior
         WoWPro:Print("Warning: No compatible menu system found. Menu functionality disabled.")
     end
 end
