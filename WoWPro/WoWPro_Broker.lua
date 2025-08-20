@@ -1714,15 +1714,16 @@ function WoWPro.UpdateGuideReal(From)
                                 _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
                                     for _, item in ipairs(WoWPro.Recorder.RowDropdownMenu[i]) do
                                         if item.text then
-                                            local button = rootDescription:CreateButton(item.text, item.func)
+                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
                                             if item.checked ~= nil then
-                                                button:SetIsSelected(item.checked)
+                                                menuButton:SetIsSelected(item.checked)
                                             end
                                         end
                                     end
                                 end)
                             else
-                                WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                                local contextMenuFrame = CreateFrame("Frame")
+                                WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
                             end
                         else
                             -- Use context menu for right-click
@@ -1730,15 +1731,16 @@ function WoWPro.UpdateGuideReal(From)
                                 _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
                                     for _, item in ipairs(WoWPro.RowDropdownMenu[i]) do
                                         if item.text then
-                                            local button = rootDescription:CreateButton(item.text, item.func)
+                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
                                             if item.checked ~= nil then
-                                                button:SetIsSelected(item.checked)
+                                                menuButton:SetIsSelected(item.checked)
                                             end
                                         end
                                     end
                                 end)
                             else
-                                WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                                local contextMenuFrame = CreateFrame("Frame")
+                                WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
                             end
                         end
                     end
