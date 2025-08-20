@@ -1722,7 +1722,7 @@ function WoWPro.UpdateGuideReal(From)
                                     end
                                 end)
                             else
-                                local contextMenuFrame = CreateFrame("Frame")
+                                local contextMenuFrame = _G.CreateFrame("Frame")
                                 WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
                             end
                         else
@@ -1739,7 +1739,7 @@ function WoWPro.UpdateGuideReal(From)
                                     end
                                 end)
                             else
-                                local contextMenuFrame = CreateFrame("Frame")
+                                local contextMenuFrame = _G.CreateFrame("Frame")
                                 WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
                             end
                         end
