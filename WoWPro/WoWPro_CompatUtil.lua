@@ -1,4 +1,4 @@
--- luacheck: globals tinsert select string unpack
+-- luacheck: globals tinsert select string unpack math ipairs type pcall
 
 --[[
     This is a compatability layer between Classic and Retail, and is
@@ -364,7 +364,49 @@ local function EasyMenu_Initialize( frame, level, menuList )
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
-    if not _G.EasyMenu then
+    -- Try newest MenuUtil system first
+    if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+        local function GenerateMenu(ownerRegion, rootDescription)
+            local function AddMenuItems(description, items)
+                for _, item in ipairs(items) do
+                    if item.text then
+                        if item.isTitle then
+                            description:CreateTitle(item.text)
+                        elseif item.text == "" then
+                            description:CreateDivider()
+                        else
+                            if item.hasArrow and item.menuList then
+                                local submenu = description:CreateButton(item.text)
+                                AddMenuItems(submenu, item.menuList)
+                            else
+                                local button = description:CreateButton(item.text, item.func, item.arg1, item.arg2)
+                                if item.checked ~= nil then
+                                    button:SetIsSelected(item.checked)
+                                end
+                                if item.disabled then
+                                    button:SetEnabled(false)
+                                end
+                                if item.tooltipTitle or item.tooltipText then
+                                    button:SetTooltip(function(tooltip)
+                                        if item.tooltipTitle then
+                                            tooltip:AddLine(item.tooltipTitle, 1, 1, 1)
+                                        end
+                                        if item.tooltipText then
+                                            tooltip:AddLine(item.tooltipText, nil, nil, nil, true)
+                                        end
+                                    end)
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            AddMenuItems(rootDescription, menuList)
+        end
+        _G.MenuUtil.CreateContextMenu(menuFrame, GenerateMenu)
+    elseif _G.EasyMenu then
+        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+    elseif _G.UIDropDownMenu_Initialize and _G.ToggleDropDownMenu then
         if ( displayMode == "MENU" ) then
             menuFrame.displayMode = displayMode;
         end
@@ -374,7 +416,8 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
         end, displayMode);
         _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
     else
-        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+        -- No menu system available, fallback behavior
+        WoWPro:Print("Warning: No compatible menu system found. Menu functionality disabled.")
     end
 end
 
