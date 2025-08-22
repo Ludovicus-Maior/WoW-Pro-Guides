@@ -338,98 +338,418 @@ C Coming Home|QID|85192|QO|3|M|39.18,23.25|Z|2346; Undermine|N|Collect Renzik's 
 C Coming Home|QID|85192|QO|4|M|39.17,23.52|Z|2346; Undermine|N|Stand in the circle and use the Extra Action Button.|EAB|
 T Coming Home|QID|85192|M|39.18,23.25|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Cashing the Check|QID|87297|M|39.18,23.25|Z|2346; Undermine|N|From Monte Gazlowe.|
-T Cashing the Check|QID|87297|M|43.46,51.16|Z|2346; Undermine|N|To Grimla Fizzlecrank.|
+C Cashing the Check|QID|87297|M|43.46,51.16|Z|2346; Undermine|N|Talk to Grimla Fizzlecrank.|CHAT|
+T Cashing the Check|QID|87297|M|43.46,51.16|Z|2346; Undermine|N|To Monte Gazlowe.|
 
-N THIS CONCLUDES THE CAMPAIGN PORTION OF THIS GUIDE. SIDE QUESTS ARE WORK IN PROGRESS. PLEASE PROVIDE FEED BACK IF YOU WANT THEM AFTER THIS SECTION OR INTERWOVEN INTO THE GUIDE.
+N This concludes the campaign. If you would like to go to sojourner make sure you have it set to rank 2 or 3. Click this off when ready to move on.
 
+;The Highst
 
-;A Operation: Floodgate: Disposing of the Garbage|QID|86728|M|43.37,51.51|Z|2346; Undermine|N|From Paks Topskimmer|RANK|3|
-;t Operation: Floodgate: Disposing of the Garbage|QID|86728|M|43.37,51.51|Z|2346; Undermine|N|To Paks Topskimmer|;not sure where this gets turned in at
-;A Delves: Site of Madness|QID|87582|M|43.37,51.51|Z|2346; Undermine|N|From Paks Topskimmer|RANK|3|
-;A Delves: The Sluice Contains the Juice|QID|87583|M|43.37,51.51|Z|2346; Undermine|N|From Paks Topskimmer|RANK|3|
-;t Delves: Site of Madness|QID|87582|M|43.37,51.51|Z|2346; Undermine|N|To Paks Topskimmer|;not sure where this gets turned in at
-;t Delves: The Sluice Contains the Juice|QID|87583|M|43.37,51.51|Z|2346; Undermine|N|To Paks Topskimmer|
-;A Benefit Packages|QID|87496|PRE|83151|M|42.89,52.24|Z|2346; Undermine|N|From Kaydee Racketring.|RANK|2|
-;C Benefit Packages|QID|87496|M|53.18,72.68|QO|3|NC|Z|2346; Undermine|N|Venture Quartermaster visited.|
-;C Benefit Packages|QID|87496|M|39.07,22.14|QO|1|NC|Z|2346; Undermine|N|Bilgewater Quartermaster visited.|
-;C Benefit Packages|QID|87496|QO|2|M|27.13,72.58|Z|2346; Undermine|N|Steamwheedle Quartermaster visited.|NC|
-;C Benefit Packages|QID|87496|QO|4|M|53.18,72.68|Z|2346; Undermine|N|Venture Quartermaster visited.|NC|
-;T Benefit Packages|QID|87496|PRE|83151|M|42.89,52.24|Z|2346; Undermine|N|To Kaydee Racketring.|RANK|2|
-;A The Crew|QID|84215|M|43.11,82.84|Z|2346; Undermine|N|From Skedgit Cinderbangs.|RANK|2|
-;C The Crew|QID|84215|QO|1|M|41.54,65.20|Z|2346; Undermine|N|Talk to Pre-Expert Goldmine.|CHAT|
-;C The Crew|QID|84215|QO|2|M|43.86,51.06|Z|2346; Undermine|N|Talk to Handsome Crog.|CHAT|
-;C The Crew|QID|84215|QO|3|M|65.29,59.76|Z|2346; Undermine|N|Talk to Ripsnoodle.|CHAT|
-;T The Crew|QID|84215|M|43.11,82.84|Z|2346; Undermine|N|To Skedgit Cinderbangs.|
-;A The Play|QID|84216|M|43.11,82.84|Z|2346; Undermine|N|From Skedgit Cinderbangs.|RANK|2|
-;C The Play|QID|84216|QO|2|M|50.84,36.18|Z|2346; Undermine|N|Meet the crew.|CHAT|
-;C The Play|QID|84216|QO|3|M|51.12,37.06|Z|2346; Undermine|N|Follow Handsome Crog.|CHAT|
-;T The Play|QID|84216|M|51.12,37.06|Z|2346; Undermine|N|To Skedgit Cinderbangs.|
-;A The Highst|QID|84217|M|51.12,37.06|Z|2346; Undermine|N|From Skedgit Cinderbangs.|RANK|2|
-;C The Highst|QID|84217|QO|1|M|51.12,37.06|Z|2346; Undermine|N|Take the ballon and ride it.|H|
-;C The Highst|QID|84217|QO|2|M|66.66,23.73|Z|2346; Undermine|N|Click on the safe downstairs.|H|
-;C The Highst|QID|84217|QO|3|M|66.66,23.73|Z|2346; Undermine|N|Click on the outlines of the bombs.|H|
-;C The Highst|QID|84217|QO|4|M|66.66,23.73|Z|2346; Undermine|N|Talk to Skedgit Cinderbangs on top of the safe.|CHAT|
-;T The Highst|QID|84217|M|61.67,32.64|Z|2346; Undermine|N|To Skedgit Cinderbangs.|
-;A The Getaway|QID|84218|M|61.59,32.50|Z|2346; Undermine|N|From Skedgit Cinderbangs.|RANK|2|
-;C The Getaway|QID|84218|M|61.34,32.93|Z|2346; Undermine|N|Hop in the car.|H|
-;T The Getaway|QID|84218|M|61.34,32.93|Z|2346; Undermine|N|To Skedgit Cinderbangs.|
-;A Property Devalued|QID|84376|M|48.87,72.25|Z|2346; Undermine|N|From For Rent Sign.|RANK|2|
-;C Property Devalued|QID|84376|QO|1|M|39.45,68.30|Z|2346; Undermine|N|Visit the apartment.|NC|
-;C Property Devalued|QID|84376|QO|2|M|39.74,68.38|Z|2346; Undermine|N|Speak with Moz on the second floor.|CHAT|
-;T Property Devalued|QID|84376|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara on the top floor.|
-;A Tenant Trouble|QID|84379|PRE|84376|M|39.54,68.49|Z|2346; Undermine|N|From "Gabby" Gabi.|RANK|2|
-;C Tenant Trouble|QID|84379|QO|1|M|48.19,67.53|Z|2346; Undermine|N|Rescue the tenants.|CHAT|S|
-;C Tenant Trouble|QID|84379|QO|1|M|48.19,67.53|Z|2346; Undermine|N|Rescue the tenants.|CHAT|US|
-;T Tenant Trouble|QID|84379|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara.|
-;A Renter's Insurance|QID|84378|PRE|84376|M|39.54,68.49|Z|2346; Undermine|N|From Mama Keara.|RANK|2|
-;C Renter's Insurance|QID|84378|QO|1|M|48.19,67.53|Z|2346; Undermine|N|Underrider slain.|S|
-;C Renter's Insurance|QID|84378|QO|1|M|48.19,67.53|Z|2346; Undermine|N|Underrider slain.|US|
-;T Renter's Insurance|QID|84378|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara.|
-;A Weapons Cash|QID|84380|M|44.62,66.05|Z|2346; Undermine|N|From Weapons crate.|RANK|2|
-;C Weapons Cash|QID|84380|M|44.62,66.05|Z|2346; Undermine|N|Destory Underrider Equipment.|H|S|
-;C Weapons Cash|QID|84380|M|44.62,66.05|Z|2346; Undermine|N|Destory Underrider Equipment.|H|US|
-;T Weapons Cash|QID|84380|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara.|
-;A Renegotiations|QID|84381|PRE|84380&84378&84379|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara.|RANK|2|
-;K Jarvis Bonebreaker|QID|84381|QO|1|M|40.40,72.89|Z|2346; Undermine|N|Kill Jarvis Bonebreaker.|T|Jarvis Bonebreaker|
-;C Renegotiations|QID|84381|QO|2|M|40.40,72.89|Z|2346; Undermine|N|Knock out Moz and take the deed.|
-;T Renegotiations|QID|84381|M|39.54,68.49|Z|2346; Undermine|N|To Mama Keara.|
-;A My Hole in the Wall|QID|86408|PRE|84381|M|39.54,68.49|Z|2346; Undermine|N|Fom Mama Keara.|RANK|2|
-;C My Hole in the Wall|QID|86408|M|39.40,68.57|Z|2346; Undermine|N|Book on shelf behind you.|H|
-;T My Hole in the Wall|QID|86408|M|39.40,68.57|Z|2346; Undermine|N|To the Barrelbottom Apartments Log.|
-;A No More Walkin' Here|QID|84352|PRE|83167|M|42.65,51.24|Z|2346; Undermine|N|From Gas Grimeshank.|RANK|2|
-;T No More Walkin' Here|QID|84352|M|37.43,48.80|Z|2346; Undermine|N|To Nanny Talullah.|
-;A Trash to Profit|QID|86934|PRE|83167|M|42.75,50.27|Z|2346; Undermine|N|From Tenzi Boltcutter.|RANK|2|
-;T Trash to Profit|QID|86934|M|26.77,37.34|Z|2346; Undermine|N|To Carlo Greasegrind.|
-;A Or Else|QID|85438|M|44.12,49.93|Z|2346; Undermine|N|From Gerry Clogcraw.|RANK|2|
-;T Or Else|QID|85438|M|25.41,41.95|Z|2346; Undermine|N|To Papa Kraz Torquewrench.|
-;A The Perfect Guest List|QID|83419|M|25.41,41.95|Z|2346; Undermine|N|From Neenee Torquewrench.|RANK|2|
-;C The Perfect Guest List|QID|83419|QO|1|M|30.81,55.72|Z|2346; Undermine|N|Invite Auntie Starkwatt.|CHAT|
-;C The Perfect Guest List|QID|83419|QO|2|M|33.82,37.12|Z|2346; Undermine|N|Invite Uncle Greedbit.|CHAT|
-;C The Perfect Guest List|QID|83419|QO|3|M|39.51,35.70|Z|2346; Undermine|N|Invite Fezzer Rocketfang.|CHAT|
-;C The Perfect Guest List|QID|83419|QO|4|M|46.31,32.73|Z|2346; Undermine|N|Invite Cousin Hagglewrench.|CHAT|
-;C The Perfect Guest List|QID|83419|QO|5|M|60.20,31.42|Z|2346; Undermine|N|Invite Jet Sparkbomb.|CHAT|
-;T The Perfect Guest List|QID|83419|M|25.41,41.95|Z|2346; Undermine|N|To Neenee Torquewrench.|
-;A Out-laws|QID|83417|M|25.41,41.95|Z|2346; Undermine|N|From Papa Kraz Torquewrench.|RANK|2|
-;C Out-laws|QID|83417|QO|1|M|54.55,51.61|Z|2346; Undermine|N|Talk to Vrizek.|CHAT|
-;K Volo the Leg-Breaker|ACTIVE|83417|QO|2|M|49.45,41.94|Z|2346; Undermine|N|Kill Volo the Leg-Breaker.|T|Volo the Leg-Breaker|
-;K Lenny the Loandshark|ACTIVE|83417|QO|3|M|49.45,41.94|Z|2346; Undermine|N|Kill Lenny the Loandshark.|T|Lenny the Loandshark|
-;T Out-laws|QID|83417|M|25.41,41.95|Z|2346; Undermine|N|To Papa Kraz Torquewrench.|
-;A Catering to Perfection|QID|83420|M|25.41,41.95|Z|2346; Undermine|N|From Neenee Torquewrench.|RANK|2|
-;C Catering to Perfection|QID|83420|QO|1|M|25.74,44.18|Z|2346; Undermine|N|Talk to Chef Hardslice.|CHAT|
-;T Catering to Perfection|QID|83420|M|25.41,41.95|Z|2346; Undermine|N|From Neenee Torquewrench.|RANK|2|
-;A The Perfect Coat|QID|83418|M|25.41,41.95|Z|2346; Undermine|N|From Papa Kraz Torquewrench.|RANK|2|
-;A License Not Required|QID|86618|PRE|87581|M|37.43,48.80|Z|2346; Undermine|N|From Nanny Talullah.|RANK|2|
-;C License Not Required|QID|86618|QO|1|M|37.43,48.80|Z|2346; Undermine|N|Talk to Nanny Talullah.|CHAT|
-;C License Not Required|QID|86618|QO|2|M|36.69,50.08|Z|2346; Undermine|N|Get in the G-99 Breakneck.|NC|
-;C License Not Required|QID|86618|QO|3|M|42.05,38.62|Z|2346; Undermine|N|Drive around Undermine.|NC|
-;C License Not Required|QID|86618|QO|4|M|37.33,46.18|Z|2346; Undermine|N|Reach the D.R.I.V.E..|NC|
-;C License Not Required|QID|86618|QO|5|M|37.68,46.97|Z|2346; Undermine|N|Exit the G-99 Breakneck and install a turbo at the D.R.I.V.E..|NC|
-;C License Not Required|QID|86618|QO|6|M|35.84,40.02|Z|2346; Undermine|N|Get back in the G-99 Breakneck and activate your boost.|NC|
-;C License Not Required|QID|86618|QO|7|M|27.90,66.97|Z|2346; Undermine|N|Regain boost meter by drifting.|NC|
-;A On-the-Job Training|QID|86935|M|26.77,37.34|Z|2346; Undermine|N|From Carlo Greasegrind.|RANK|3|
-;C On-the-Job Training|QID|86935|QO|1|M|25.64,38.18|Z|2346; Undermine|N|Talk to Angelo Rustbin.|CHAT|
-;C On-the-Job Training|QID|86935|QO|2|M|50.40,63.02|Z|2346; Undermine|N|Talk to Carlo Greasegrind.|CHAT|
-;T On-the-Job Training|QID|86935|M|26.77,37.34|Z|2346; Undermine|N|To Carlo Greasegrind.|
+A The Job|QID|84214|M|42.80,53.04|Z|2346;Undermine|RANK|2|
+T The Job|QID|84214|M|43.10,82.76|Z|2346;Undermine|N|To Skedgit Cinderbangs.|
+A The Crew|QID|84215|PRE|84214|M|43.10,82.76|Z|2346;Undermine|N|From Skedgit Cinderbangs.|RANK|2|
+C The Crew|QID|84215|M|41.67,65.27|Z|2346;Undermine|QO|1|NC|N|Getaway Driver recruited.|
+C The Crew|QID|84215|M|43.74,50.99|Z|2346;Undermine|QO|2|NC|N|Face Man recruited.|
+C The Crew|QID|84215|M|65.21,59.55|Z|2346;Undermine|QO|3|NC|N|Cousin recruited.|
+T The Crew|QID|84215|M|43.12,82.68|Z|2346;Undermine|N|To Skedgit Cinderbangs.|
+A The Play|QID|84216|PRE|84215|M|43.12,82.68|Z|2346;Undermine|N|From Skedgit Cinderbangs.|RANK|2|
+C The Play|QID|84216|M|43.07,82.79|Z|2346;Undermine|QO|1|NC|N|Listen to the plan (Optional).|
+C The Play|QID|84216|M|50.96,36.12|Z|2346;Undermine|QO|2|NC|N|Meet crew at the Airship Station.|
+C The Play|QID|84216|M|51.13,36.39|Z|2346;Undermine|QO|3|NC|N|Follow Handsome Crog.|
+T The Play|QID|84216|M|51.11,37.14|Z|2346;Undermine|N|To Skedgit Cinderbangs.|
+A The Highst|QID|84217|PRE|84216|M|51.11,37.14|Z|2346;Undermine|N|From Skedgit Cinderbangs.|RANK|2|
+C The Highst|QID|84217|M|66.09,23.71|Z|2346;Undermine|QO|1|NC|N|Ride Service Balloon.|
+C The Highst|QID|84217|M|66.66,23.75|Z|2346;The Moneymaker|QO|2|NC|N|Find Safe.|
+C The Highst|QID|84217|M|66.66,23.75|Z|2346;The Moneymaker|QO|3|NC|N|Boomballs planted.|
+C The Highst|QID|84217|M|66.68,23.77|Z|2346;Undermine|QO|4|NC|N|Steal Safe.|
+T The Highst|QID|84217|M|61.72,32.23|Z|2346;Undermine|N|To Skedgit Cinderbangs.|
+A The Getaway|QID|84218|PRE|84217|M|61.72,32.23|Z|2346;Undermine|N|From Skedgit Cinderbangs.|RANK|2|
+C The Getaway|QID|84218|M|60.09,36.63|Z|2346;Undermine|QO|1|NC|N|Get away.|
+C The Getaway|QID|84218|M|55.59,37.33|Z|2346;Undermine|QO|2|NC|N|Badguys Boomer Balled.|
+C The Getaway|QID|84218|M|41.48,56.78|Z|2346;Undermine|QO|3|NC|N|Continue to Getaway.|
+C The Getaway|QID|84218|M|45.37,76.50|Z|2346;Undermine|QO|4|NC|N|Totems thrown.|
+C The Getaway|QID|84218|M|42.84,82.59|Z|2346;Undermine|QO|5|NC|N|Gotten Away.|
+T The Getaway|QID|84218|M|43.18,82.78|Z|2346;Undermine|N|To Skedgit Cinderbangs.|
+
+;Fore!
+
+A Can-Do Caddy|QID|84140|M|65.14,59.65|Z|2346;Undermine|N|From Ripsnoodle.|RANK|2|
+A Scam Cans|QID|84141|M|65.14,59.65|Z|2346;Undermine|N|From Ripsnoodle.|RANK|2|
+C Can-Do Caddy|QID|84140|M|68.83,62.97|Z|2346;Undermine|QO|1|N|Coursehare slain.|S|
+C Scam Cans|QID|84141|M|74.54,63.19|Z|2346;Undermine|QO|1|NC|N|Scam Cans removed.|
+C Can-Do Caddy|QID|84140|M|68.83,62.97|Z|2346;Undermine|QO|1|N|Coursehare slain.|US|
+T Can-Do Caddy|QID|84140|M|65.30,59.84|Z|2346;Undermine|N|To Ripsnoodle.|
+T Scam Cans|QID|84141|M|65.30,59.84|Z|2346;Undermine|N|To Ripsnoodle.|
+A The Hole Deal|QID|84142|PRE|84140&84141|M|65.30,59.84|Z|2346;Undermine|N|From Ripsnoodle.|RANK|2|
+C The Hole Deal|QID|84142|M|74.81,71.67|Z|2346;Undermine|QO|1|NC|N|Holes-In-One.|
+T The Hole Deal|QID|84142|M|65.38,59.74|Z|2346;Undermine|N|To Ripsnoodle.|
+
+;Hazards of Slimediving
+
+A Caustic Collectables|QID|83088|PRE|84142|M|40.71,87.08|Z|2346;Undermine|N|From Slimediver Kazzandra.|RANK|2|
+A Giving Goblins Goggles|QID|83089|PRE|84142|M|40.71,87.08|Z|2346;Undermine|N|From Slimediver Kazzandra.|RANK|2|
+C Caustic Collectables|QID|83088|M|39.72,87.32|Z|2346;Undermine|QO|1|NC|N|Stinging Residue.|S|
+C Giving Goblins Goggles|QID|83089|M|38.77,87.27|Z|2346;Undermine|QO|1|NC|N|Goggles distributed.|
+C Caustic Collectables|QID|83088|M|39.72,87.32|Z|2346;Undermine|QO|1|NC|N|Stinging Residue.|US|
+T Caustic Collectables|QID|83088|M|40.57,87.04|Z|2346;Undermine|N|To Slimediver Kazzandra.|
+T Giving Goblins Goggles|QID|83089|M|40.57,87.04|Z|2346;Undermine|N|To Slimediver Kazzandra.|
+A Shield Your Eyes|QID|83091|PRE|83088&83089|M|40.57,87.04|Z|2346;Undermine|N|From Slimediver Kazzandra.|RANK|2|
+C Shield Your Eyes|QID|83091|M|34.35,78.68|Z|2346;Undermine|QO|1|N|Causticaria slain.|
+T Shield Your Eyes|QID|83091|M|34.95,80.07|Z|2346;Undermine|N|To Slimediver Kazzandra.|
+
+;Oh, Rats!
+
+A Oh, Rats!|QID|83484|PRE|83091|M|38.21,88.33|Z|2346|N|From Humphrey Shortswig.|RANK|2|
+C Oh, Rats!|QID|83484|M|38.34,88.14|Z|2346|QO|1|NC|U|228614|N|Drink Potion of Comprehend Rats.|
+C Oh, Rats!|QID|83484|M|34.29,84.91|Z|2346|QO|2|NC|U|228614|N|Alice's Location Discovered.|
+C Oh, Rats!|QID|83484|M|33.19,84.22|Z|2346|QO|3|NC|U|228614|N|Alice Grillspark Found.|
+T Oh, Rats!|QID|83484|M|33.19,84.22|Z|2346|N|To Alice Grillspark.|
+A Potent Potables|QID|83485|PRE|83484|M|33.19,84.22|Z|2346|N|From Alice Grillspark.|RANK|2|
+C Potent Potables|QID|83485|M|32.74,83.30|Z|2346|QO|2|NC|U|228614|N|Rat Underground accessed (Optional).|
+C Potent Potables|QID|83485|M|32.27,55.78|Z|2346|QO|3|NC|U|228614|N|Vendor's Stall discovered.|
+T Potent Potables|QID|83485|M|32.25,55.85|Z|2346|
+A Remote Work|QID|83486|PRE|83485|M|32.25,55.85|Z|2346|RANK|2|
+C Remote Work|QID|83486|M|20.93,58.75|Z|862|QO|1|NC|N|Getry found near Kaja'Coast.|
+C Remote Work|QID|83486|M|20.94,58.76|Z|862|QO|2|NC|N|Getry's Body investigated.|
+C Remote Work|QID|83486|M|20.94,58.76|Z|862|QO|3|NC|N|Getry's Pack investigated.|
+T Remote Work|QID|83486|M|20.94,58.76|Z|862|N|To Getry Sellswill.|
+A Occupational Hazard|QID|83487|PRE|83486|M|20.94,58.76|Z|862|N|From Getry Sellswill.|RANK|2|
+C Occupational Hazard|QID|83487|M|21.44,62.14|Z|862|QO|1|NC|N|Redberries collected.|
+T Occupational Hazard|QID|83487|M|38.27,88.15|Z|2346;Undermine|N|To Humphrey Shortswig.|
+A Unsolicited Feedback|QID|85711|PRE|83487|M|38.27,88.15|Z|2346;Undermine|N|From Humphrey Shortswig.|RANK|2|
+C Unsolicited Feedback|QID|85711|M|38.30,89.49|Z|2346;Undermine|QO|1|NC|N|Patrons served.|
+T Unsolicited Feedback|QID|85711|M|38.28,88.38|Z|2346;Undermine|N|To Humphrey Shortswig.|
+
+;The Perfect Wedding
+
+A Or Else|QID|85438|PRE|85711|M|43.99,50.03|Z|2346;Undermine|N|From Gerry Clogcraw.|RANK|2|
+T Or Else|QID|85438|M|25.39,41.93|Z|2346;Sweethearts Resort & Catering|N|To Papa Kraz Torquewrench.|
+A Out-laws|QID|83417|PRE|85438|M|25.39,41.93|Z|2346;Sweethearts Resort & Catering|N|From Papa Kraz Torquewrench.|RANK|2|
+A The Perfect Guest List|QID|83419|PRE|85438|M|25.39,41.93|Z|2346;Sweethearts Resort & Catering|N|From Neenee Torquewrench.|RANK|2|
+C The Perfect Guest List|QID|83419|M|33.85,37.07|Z|2346;Undermine|QO|2|NC|N|Invite Uncle Greedbit.|
+C The Perfect Guest List|QID|83419|M|39.43,35.69|Z|2346;Undermine|QO|3|NC|N|Invite Fezzer Rocketfang.|
+C The Perfect Guest List|QID|83419|M|46.32,32.60|Z|2346;Undermine|QO|4|NC|N|Invite Cousin Hagglewrench.|
+C The Perfect Guest List|QID|83419|M|60.27,31.21|Z|2346;Undermine|QO|5|NC|N|Invite Jet Sparkbomb.|
+C Out-laws|QID|83417|M|54.55,51.47|Z|2346;Undermine|QO|1|NC|N|Talk to Vrizek.|
+C Out-laws|QID|83417|M|49.12,42.13|Z|2346;Undermine|QO|3|N|Lenny the Loanshark slain.|
+C Out-laws|QID|83417|M|49.12,42.13|Z|2346;Undermine|QO|2|N|Volo the Leg-Breaker slain.|
+C The Perfect Guest List|QID|83419|M|30.97,55.69|Z|2346;Undermine|QO|1|NC|N|Invite Auntie Starkwatt.|
+T Out-laws|QID|83417|M|25.44,41.94|Z|2346;Sweethearts Resort & Catering|N|To Papa Kraz Torquewrench.|
+T The Perfect Guest List|QID|83419|M|25.44,41.94|Z|2346;Sweethearts Resort & Catering|N|To Neenee Torquewrench.|
+A The Perfect Coat|QID|83418|PRE|83417|M|25.44,41.94|Z|2346;Sweethearts Resort & Catering|N|From Papa Kraz Torquewrench.|RANK|2|
+A Catering to Perfection|QID|83420|PRE|83419|M|25.44,41.94|Z|2346;Sweethearts Resort & Catering|N|From Neenee Torquewrench.|RANK|2|
+C Catering to Perfection|QID|83420|M|25.76,44.15|Z|2346;Undermine|QO|1|CHAT|N|Speak with Chef Hardslice.|
+C The Perfect Coat|QID|83418|M|37.50,26.28|Z|2346;Undermine|QO|1|NC|N|Take rocket to Exotics Market (Optional).|
+C The Perfect Coat|QID|83418|M|39.92,12.38|Z|2346;Undermine|QO|2|CHAT|N|Speak with Grelik Greaseguard.|
+C The Perfect Coat|QID|83418|M|39.83,13.50|Z|2346;Undermine|QO|3|N|Blazefeather Peacock slain.|
+C The Perfect Coat|QID|83418|M|39.86,13.20|Z|2346;Undermine|QO|4|NC|N|Obtain feathered pelt.|
+C Catering to Perfection|QID|83420|M|63.85,26.01|Z|2346;Undermine|QO|2|NC|N|Electric Eel Meat.|
+C Catering to Perfection|QID|83420|M|25.88,43.98|Z|2346;Undermine|QO|3|NC|N|Meat brought to Hardslice.|
+T The Perfect Coat|QID|83418|M|25.41,41.86|Z|2346;Sweethearts Resort & Catering|N|To Papa Kraz Torquewrench.|
+T Catering to Perfection|QID|83420|M|25.41,41.86|Z|2346;Sweethearts Resort & Catering|N|To Neenee Torquewrench.|
+A The Perfect Wedding|QID|83421|PRE|83418&83420|M|25.41,41.86|Z|2346;Sweethearts Resort & Catering|N|From Papa Kraz Torquewrench.|RANK|2|
+C The Perfect Wedding|QID|83421|M|26.24,43.57|Z|2346;Undermine|QO|1|CHAT|N|Speak with Kraz Torquewrench.|
+C The Perfect Wedding|QID|83421|M|26.45,42.93|Z|2346;Undermine|QO|2|NC|N|Wedding Crashers disuaded.|
+T The Perfect Wedding|QID|83421|M|26.31,43.58|Z|2346;Undermine|N|To Papa Kraz Torquewrench.|
+A Ad-Hoc Wedding Planner|QID|87008|PRE|83421|M|26.31,43.58|Z|2346;Undermine|N|From Papa Kraz Torquewrench.|RANK|2|
+C Ad-Hoc Wedding Planner|QID|87008|M|25.54,41.83|Z|2346;Sweethearts Resort & Catering|QO|1|CHAT|N|Speak with Neenee.|
+C Ad-Hoc Wedding Planner|QID|87008|M|25.54,41.83|Z|2346;Sweethearts Resort & Catering|QO|2|CHAT|N|Speak with Vrizek.|
+T Ad-Hoc Wedding Planner|QID|87008|M|25.97,41.74|Z|2346;Undermine|N|To Papa Kraz Torquewrench.|
+
+;Copyright Infringement
+
+A Tossed and Torqued|QID|83442|PRE|87008|M|32.07,31.18|Z|2346;Undermine|N|From Snap Vellumgrease.|RANK|2|
+C Tossed and Torqued|QID|83442|M|31.37,30.79|Z|2346;Undermine|QO|1|NC|N|Tossed Papers cleared.|
+C Tossed and Torqued|QID|83442|M|31.44,30.50|Z|2346;Undermine|QO|2|NC|N|Big Pile searched.|
+C Tossed and Torqued|QID|83442|M|31.44,30.50|Z|2346;Undermine|QO|3|NC|N|Taunting Note.|
+T Tossed and Torqued|QID|83442|M|32.14,31.18|Z|2346;Undermine|N|To Snap Vellumgrease.|
+A Something Smells|QID|83445|PRE|83442|M|32.14,31.18|Z|2346;Undermine|N|From Snap Vellumgrease.|RANK|2|
+C Something Smells|QID|83445|M|27.35,35.48|Z|2346;Undermine|QO|1|CHAT|N|Speak with Snap Vellumgrease.|
+C Something Smells|QID|83445|M|27.35,35.66|Z|2346;Undermine|QO|2|NC|N|Prototype Smellersweller activated.|
+T Something Smells|QID|83445|M|27.35,35.66|Z|2346;Undermine|N|To Snap Vellumgrease.|
+A Cease and Desist|QID|83446|PRE|83445|M|27.35,35.66|Z|2346;Undermine|N|From Unknown.|RANK|2|
+C Cease and Desist|QID|83446|M|27.55,33.68|Z|2346;Cheap Grillz Inc.|QO|1|NC|N|Grill manufacturing halted.|
+T Cease and Desist|QID|83446|M|27.73,34.83|Z|2346;Cheap Grillz Inc.|N|To Snap Vellumgrease.|
+
+;The G.O.L.E.M. of Progress
+
+A The G.O.L.E.M. of Progress|QID|84667|PRE|83446|M|27.47,62.58|Z|2346;Undermine|N|From Old Man Lowe.|RANK|2|
+A Garbage Day|QID|84672|PRE|83446|M|27.59,62.10|Z|2346;Undermine|N|From Pitz Lowe.|RANK|2|
+C Garbage Day|QID|84672|M|29.10,59.11|Z|2346;Undermine|QO|1|NC|N|Garbage disposed.|S|
+C The G.O.L.E.M. of Progress|QID|84667|M|30.61,52.93|Z|2346;Undermine|QO|2|NC|N|Crates moved for "Cranky" Nan.|
+C The G.O.L.E.M. of Progress|QID|84667|M|32.16,58.23|Z|2346;Undermine|QO|3|NC|N|Neighborhood children entertained.|
+C The G.O.L.E.M. of Progress|QID|84667|M|28.33,64.00|Z|2346;Undermine|QO|1|NC|N|Gart's bullies deterred.|
+C Garbage Day|QID|84672|M|29.10,59.11|Z|2346;Undermine|QO|1|NC|N|Garbage disposed.|US|
+T The G.O.L.E.M. of Progress|QID|84667|M|37.16,52.97|Z|2346;Undermine|N|To Pitz Lowe.|
+T Garbage Day|QID|84672|M|37.16,52.97|Z|2346;Undermine|N|To Pitz Lowe.|
+A World's Okayest Inventor|QID|84673|PRE|84667&84672|M|37.16,52.97|Z|2346;Undermine|N|From Pitz Lowe.|RANK|2|
+C World's Okayest Inventor|QID|84673|M|37.15,52.39|Z|2346;Undermine|QO|1|NC|N|G.O.L.E.M. tuned-up.|
+C World's Okayest Inventor|QID|84673|M|36.55,52.35|Z|2346;Undermine|QO|2|NC|N|G.O.L.E.M. fed.|
+C World's Okayest Inventor|QID|84673|M|36.54,52.71|Z|2346;Undermine|QO|3|NC|N|G.O.L.E.M. oiled.|
+C World's Okayest Inventor|QID|84673|M|37.44,52.48|Z|2346;Undermine|QO|4|NC|N|Pitz's Masterwork Invention... Used?.|
+T World's Okayest Inventor|QID|84673|M|37.18,53.07|Z|2346;Undermine|N|To Pitz Lowe.|
+A The G.O.L.E.M. Goes Berserk!|QID|84674|PRE|84673|M|37.18,53.07|Z|2346;Undermine|N|From Pitz Lowe.|RANK|2|
+C The G.O.L.E.M. Goes Berserk!|QID|84674|M|40.73,63.01|Z|2346;Undermine|QO|1|NC|N|G.O.L.E.M.'s chaos calmed.|
+T The G.O.L.E.M. Goes Berserk!|QID|84674|M|39.76,61.54|Z|2346;Undermine|N|To Old Man Lowe.|
+A Showdown in the Attic|QID|84675|PRE|84674|M|39.76,61.54|Z|2346;Undermine|N|From Old Man Lowe.|RANK|2|
+C Showdown in the Attic|QID|84675|M|39.37,60.64|Z|2346;Undermine|QO|1|NC|N|Find Pitz.|
+C Showdown in the Attic|QID|84675|M|39.11,60.58|Z|2346;Undermine|QO|2|N|G.O.L.E.M. slain.|
+T Showdown in the Attic|QID|84675|M|39.75,61.60|Z|2346;Undermine|N|To Old Man Lowe.|
+
+;The Verdigrease Knight
+
+R The Ringing Deeps|AVAILABLE|79559|N|Make your way to The Ringing Deeps any way you wish.|
+A The Verdigrease Knight|QID|79559|PRE|84675|M|68.12,80.40|Z|2214;The Ringing Deeps|N|From The Verdigrease Knight.|RANK|2|
+C The Verdigrease Knight|QID|79559|M|68.12,80.40|Z|2214;The Ringing Deeps|QO|1|N|The Verdigrease Knight slain.|
+T The Verdigrease Knight|QID|79559|M|66.76,78.57|Z|2214;Campalot|N|To Gullhead.|
+A Squire's Spurs|QID|84621|PRE|79559|M|66.76,78.57|Z|2214;Campalot|N|From Gullhead.|RANK|2|
+C Squire's Spurs|QID|84621|M|67.06,78.43|Z|2214;Campalot|QO|3|NC|N|Treasure polished.|
+C Squire's Spurs|QID|84621|M|67.71,77.34|Z|2214;Campalot|QO|4|N|Sparring Squire defeated.|
+C Squire's Spurs|QID|84621|M|66.76,79.51|Z|2214;Campalot|QO|2|NC|N|Stalls mucked.|
+C Squire's Spurs|QID|84621|M|66.73,79.46|Z|2214;Campalot|QO|1|NC|N|Moles brushed.|
+T Squire's Spurs|QID|84621|M|66.80,78.62|Z|2214;Campalot|N|To Gullhead.|
+A Lord of the Giants|QID|79561|PRE|84621|M|66.82,78.56|Z|2214;Campalot|N|From Walkmay.|RANK|2|
+A Biological Quintainment|QID|84821|PRE|84621|M|66.82,78.56|Z|2214;Campalot|N|From Walkmay.|RANK|2|
+C Biological Quintainment|QID|84821|M|67.52,80.48|Z|2214;The Ringing Deeps|QO|1|NC|N|Mount a Trusty Steed.|
+C Biological Quintainment|QID|84821|M|69.33,85.81|Z|2214;The Ringing Deeps|QO|2|NC|N|Pusglobs lanced.|
+C Lord of the Giants|QID|79561|M|68.47,84.03|Z|2214;The Ringing Deeps|QO|1|N|Greasebaddaden slain.|
+T Lord of the Giants|QID|79561|M|66.83,78.52|Z|2214;Campalot|N|To Walkmay.|
+T Biological Quintainment|QID|84821|M|66.83,78.52|Z|2214;Campalot|N|To Walkmay.|
+A The Holey Grail|QID|80144|PRE|79561&84821|M|66.82,78.42|Z|2214;Campalot|N|From Marline.|RANK|2|
+A The Shovel in the Stone|QID|80096|PRE|79561&84821|M|66.82,78.42|Z|2214;Campalot|N|From Marline.|RANK|2|
+C The Shovel in the Stone|QID|80096|M|68.83,73.88|Z|2214;The Ringing Deeps|QO|1|NC|N|Shovel pulled from the stone.|
+C The Shovel in the Stone|QID|80096|M|68.84,73.90|Z|2214;The Ringing Deeps|QO|2|NC|N|Shovel pulled harder.|
+C The Shovel in the Stone|QID|80096|M|68.84,73.93|Z|2214;The Ringing Deeps|QO|3|NC|N|Shovel pulled with the knees, not the back.|
+C The Shovel in the Stone|QID|80096|M|68.98,73.93|Z|2214;The Ringing Deeps|QO|4|NC|N|Excavator.|
+C The Holey Grail|QID|80144|M|69.83,71.08|Z|2214;The Ringing Deeps|QO|1|NC|N|Fishcan found (Optional).|
+C The Holey Grail|QID|80144|M|70.54,71.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Holey Grail.|
+T The Holey Grail|QID|80144|M|66.82,78.42|Z|2214;Campalot|N|To Marline.|
+T The Shovel in the Stone|QID|80096|M|66.82,78.42|Z|2214;Campalot|N|To Marline.|
+A The Verdigrease Knight Returns|QID|79564|PRE|80144&80096|M|66.90,78.51|Z|2214;Campalot|N|From The Verdigrease Knight.|RANK|2|
+C The Verdigrease Knight Returns|QID|79564|M|66.86,78.52|Z|2214;Campalot|QO|1|NC|N|Kneel and accept your fate.|
+T The Verdigrease Knight Returns|QID|79564|M|66.89,78.57|Z|2214;Campalot|N|To The Verdigrease Knight.|
+A Lady of the Lake|QID|79563|PRE|79564|M|66.73,78.52|Z|2214;Campalot|N|From Arfur.|RANK|2|
+C Lady of the Lake|QID|79563|M|68.69,78.08|Z|2214;Campalot|QO|1|NC|N|Beseech the Lady of the Lake.|
+C Lady of the Lake|QID|79563|M|68.00,77.23|Z|2214;The Ringing Deeps|QO|2|N|Lady of the Lake slain.|
+C Lady of the Lake|QID|79563|M|68.09,77.01|Z|2214;Campalot|QO|3|NC|N|Use the Damp Passage to return to Campalot.|
+T Lady of the Lake|QID|79563|M|66.72,78.52|Z|2214;Campalot|N|To Arfur.|
+
+;Hard Ways at the Gallagio
+
+A But What About the Casino?|QID|83519|M|63.62,44.41|Z|2346;Undermine|N|From Monte Gazlowe.|RANK|2|
+C But What About the Casino?|QID|83519|M|65.46,42.84|Z|2346;Undermine|QO|2|CHAT|N|Speak with Marin Noggenfogger.|
+C But What About the Casino?|QID|83519|M|66.33,42.66|Z|2346;Undermine|QO|4|CHAT|N|Speak with Grimla Fizzlecrank.|
+C But What About the Casino?|QID|83519|M|66.54,46.36|Z|2346;Undermine|QO|1|CHAT|N|Speak with Tarbonara Fizzlecrank.|
+C But What About the Casino?|QID|83519|M|65.62,46.43|Z|2346;Undermine|QO|3|CHAT|N|Speak with Baron Revilgaz.|
+C But What About the Casino?|QID|83519|M|66.37,42.81|Z|2346;Undermine|QO|5|NC|N|Report to Monte Gazlowe.|
+C But What About the Casino?|QID|83519|M|66.52,42.79|Z|2346;Undermine|QO|6|NC|N|Introduce yourself to Rosebud Gallywix.|
+C But What About the Casino?|QID|83519|M|66.73,44.41|Z|2346;Undermine|QO|7|NC|N|Take the Mega-Savor from Gazlowe's Toolbox.|
+C But What About the Casino?|QID|83519|M|66.89,44.56|Z|2346;Undermine|QO|8|NC|N|Attempt to Mega-Save Rosebud Gallywix.|
+T But What About the Casino?|QID|83519|M|66.98,44.57|Z|2346;Undermine|N|To Monte Gazlowe.|
+A Death and Taxes|QID|83569|PRE|83519|M|66.98,44.57|Z|2346;Undermine|N|From Monte Gazlowe.|RANK|2|
+C Death and Taxes|QID|83569|M|66.98,44.57|Z|2346;Undermine|QO|1|NC|N|Retrieve the Smoldering Deed to the Gallagio.|
+C Death and Taxes|QID|83569|M|38.45,33.73|Z|2346;Office of Lawyering|QO|2|NC|N|Go to the Public Defender's Office in Hovel Hill.|
+C Death and Taxes|QID|83569|M|38.61,34.19|Z|2346;Office of Lawyering|QO|3|NC|N|Investigate the Public Defender.|
+C Death and Taxes|QID|83569|M|38.84,33.49|Z|2346;Office of Lawyering|QO|4|NC|N|Dig through paperwork.|
+T Death and Taxes|QID|83569|M|38.78,33.82|Z|2346;Office of Lawyering|N|To Marty Zoomcart.|
+A Paperwork Makes the Mine Go Under|QID|84221|PRE|83569|M|38.78,33.82|Z|2346;Office of Lawyering|N|From Marty Zoomcart.|RANK|2|
+C Paperwork Makes the Mine Go Under|QID|84221|M|38.71,33.85|Z|2346;Office of Lawyering|QO|1|NC|N|Inspect Deed to the Gallagio.|
+C Paperwork Makes the Mine Go Under|QID|84221|M|38.71,33.85|Z|2346;Office of Lawyering|QO|2|NC|N|Ask Marty about the plan.|
+T Paperwork Makes the Mine Go Under|QID|84221|M|38.71,33.85|Z|2346;Office of Lawyering|N|To Marty Zoomcart.|
+A Diving into the Heaps|QID|84242|PRE|84221|M|38.71,33.85|Z|2346;Office of Lawyering|N|From Marty Zoomcart.|RANK|2|
+T Diving into the Heaps|QID|84242|M|50.51,69.83|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Debting For A Living|QID|83522|PRE|84242|M|50.51,69.83|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C Debting For A Living|QID|83522|M|52.59,73.02|Z|2346;Venture Plaza|QO|1|CHAT|N|Speak with Tarbonara Fizzlecrank.|
+C Debting For A Living|QID|83522|M|52.58,73.31|Z|2346;Venture Plaza|QO|2|CHAT|N|Speak to Kayjay.|
+C Debting For A Living|QID|83522|M|52.58,73.31|Z|2346;Venture Plaza|QO|3|CHAT|N|Speak to Fantastic Davey.|
+T Debting For A Living|QID|83522|M|52.62,73.15|Z|2346;Venture Plaza|N|To Tarbonara Fizzlecrank.|
+A Gold In Them There Trash|QID|83524|PRE|83522|M|52.62,73.15|Z|2346;Venture Plaza|N|From Tarbonara Fizzlecrank.|RANK|2|
+C Gold In Them There Trash|QID|83524|M|52.78,72.12|Z|2346;Venture Plaza|QO|1|NC|N|Grab a Slot Pick.|
+C Gold In Them There Trash|QID|83524|M|55.79,78.03|Z|2346;Undermine|QO|2|NC|N|Chits Acquired.|
+C Gold In Them There Trash|QID|83524|M|55.54,76.26|Z|2346;Undermine|QO|3|NC|N|Check your leaderboard status.|
+T Gold In Them There Trash|QID|83524|M|55.67,76.18|Z|2346;Undermine|N|To Kayjay.|
+A All Part of the Game|QID|83528|PRE|83524|M|55.67,76.18|Z|2346;Undermine|N|From Kayjay.|RANK|2|
+A Winning is for Losers, Anyway|QID|83527|PRE|83524|M|55.85,75.97|Z|2346;Undermine|N|From Fantastic Davey.|RANK|2|
+C Winning is for Losers, Anyway|QID|83527|M|55.94,78.06|Z|2346;Undermine|QO|1|NC|N|Indentured Debtors freed.|S|
+C All Part of the Game|QID|83528|M|57.07,80.63|Z|2346;Undermine|QO|1|NC|N|Collect Debt Markers from Kudd Milktooth.|
+C All Part of the Game|QID|83528|M|55.94,75.89|Z|2346;Undermine|QO|2|NC|N|Kayjay and Fantastic Davey freed.|
+C Winning is for Losers, Anyway|QID|83527|M|55.94,78.06|Z|2346;Undermine|QO|1|NC|N|Indentured Debtors freed.|US|
+T All Part of the Game|QID|83528|M|56.40,65.73|Z|2346;Undermine|N|To Marty Zoomcart.|
+T Winning is for Losers, Anyway|QID|83527|M|56.40,65.73|Z|2346;Undermine|N|To Marty Zoomcart.|
+A A Vat in the Pan|QID|84249|PRE|83528&83527|M|56.40,65.73|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C A Vat in the Pan|QID|84249|M|32.32,80.82|Z|2346;Undermine|QO|1|NC|N|Use the DeLux L-A-Vator.|
+T A Vat in the Pan|QID|84249|M|32.78,80.18|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Work the Line|QID|83540|PRE|84249|M|32.78,80.18|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C Work the Line|QID|83540|M|32.72,80.18|Z|2346;Undermine|QO|1|NC|N|Prod Noggenfogger for a recommendation.|
+C Work the Line|QID|83540|M|32.57,80.47|Z|2346;Undermine|QO|2|NC|N|Use the DeLux L-A-Vator (Optional).|
+C Work the Line|QID|83540|M|36.82,87.89|Z|2346;Undermine|QO|3|NC|N|Meet Jojo Gobdre.|
+T Work the Line|QID|83540|M|36.82,87.89|Z|2346;Undermine|N|To Jojo Gobdre.|
+A Review Bombed|QID|83541|PRE|83540|M|36.82,87.89|Z|2346;Undermine|N|From Jojo Gobdre.|RANK|2|
+C Review Bombed|QID|83541|M|37.36,82.00|Z|2346;Undermine|QO|1|NC|N|Diner Review Cards retrieved.|
+T Review Bombed|QID|83541|M|36.93,87.71|Z|2346;Undermine|N|To Jojo Gobdre.|
+A Quick Gills for Gold Now|QID|83542|PRE|83541|M|36.93,87.71|Z|2346;Undermine|N|From Jojo Gobdre.|RANK|2|
+C Quick Gills for Gold Now|QID|83542|M|34.04,71.07|Z|2346;Undermine|QO|1|NC|N|Ask Blair Bass how "Gold" Fish works.|
+C Quick Gills for Gold Now|QID|83542|M|34.04,71.07|Z|2346;Undermine|QO|2|NC|N|"Gold" Fish fished.|
+C Quick Gills for Gold Now|QID|83542|M|34.04,71.07|Z|2346;Undermine|QO|3|NC|N|Buy Gobdre's Prized Pan from Blair Bass.|
+T Quick Gills for Gold Now|QID|83542|M|36.88,87.83|Z|2346;Undermine|N|To Jojo Gobdre.|
+A Blackwater Beach Blast|QID|84244|PRE|83542|M|37.05,87.90|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+T Blackwater Beach Blast|QID|84244|M|56.75,35.43|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Ain't No Warm Up Act|QID|83534|PRE|84244|M|57.00,35.38|Z|2346;Undermine|N|From Chancellor Gnome.|RANK|2|
+C Ain't No Warm Up Act|QID|83534|M|57.83,31.18|Z|2346;Undermine|QO|1|NC|N|Gather a Crowd.|
+T Ain't No Warm Up Act|QID|83534|M|71.15,23.93|Z|2346;Undermine|N|To Chancellor Gnome.|
+A Plunder Party Rockin' Rumble|QID|83535|PRE|83534|M|71.15,23.93|Z|2346;Undermine|N|From Chancellor Gnome.|RANK|2|
+C Plunder Party Rockin' Rumble|QID|83535|M|71.15,23.93|Z|2346;Undermine|QO|1|NC|N|Cue Cellar Gnomes to start playing.|
+C Plunder Party Rockin' Rumble|QID|83535|M|71.15,23.96|Z|2346;Undermine|QO|2|NC|N|Defend the Cellar Gnomes.|
+C Plunder Party Rockin' Rumble|QID|83535|M|55.96,34.58|Z|2346;Undermine|QO|3|NC|N|Escape the Crowd!.|
+T Plunder Party Rockin' Rumble|QID|83535|M|55.89,34.71|Z|2346;Undermine|N|To Chancellor Gnome.|
+A Our Day in Court|QID|85189|PRE|83535|M|55.89,34.71|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+T Our Day in Court|QID|85189|M|38.72,33.79|Z|2346;Office of Lawyering|N|To Marty Zoomcart.|
+A Responsibility|QID|83546|PRE|85189|M|38.72,33.79|Z|2346;Office of Lawyering|N|From Marty Zoomcart.|RANK|2|
+C Responsibility|QID|83546|M|38.32,34.14|Z|2346;Office of Lawyering|QO|1|NC|N|Psuedo-Property Ownership Standards, Undermine Edition.|
+C Responsibility|QID|83546|M|38.72,33.69|Z|2346;Office of Lawyering|QO|2|NC|N|Deed Ammendments and Bylaws.|
+C Responsibility|QID|83546|M|38.92,33.95|Z|2346;Office of Lawyering|QO|3|NC|N|Plantiff's Battle Plan.|
+C Responsibility|QID|83546|M|38.86,33.72|Z|2346;Office of Lawyering|QO|4|NC|N|Let Marty know you're ready.|
+C Responsibility|QID|83546|M|55.21,42.57|Z|2346;Undermine|QO|6|NC|N|Arrive at Goblin Court.|
+C Responsibility|QID|83546|M|55.21,42.57|Z|2346;Undermine|QO|5|NC|N|Drive with the Zoomcarts (Optional).|
+T Responsibility|QID|83546|M|56.70,44.20|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Casino Court|QID|83558|PRE|83546|M|56.70,44.20|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C Casino Court|QID|83558|M|58.29,44.70|Z|2346;Undermine|QO|1|NC|N|Trace the Bomb.|
+C Casino Court|QID|83558|M|58.29,44.70|Z|2346;Undermine|QO|2|NC|N|Defuse First Bomb.|
+C Casino Court|QID|83558|M|57.20,43.10|Z|2346;Undermine|QO|3|NC|N|Trace the next Bomb.|
+C Casino Court|QID|83558|M|57.20,43.10|Z|2346;Undermine|QO|4|NC|N|Defuse Second Bomb.|
+C Casino Court|QID|83558|M|56.72,46.46|Z|2346;Undermine|QO|5|NC|N|Trace the final Bomb.|
+C Casino Court|QID|83558|M|56.72,46.46|Z|2346;Undermine|QO|6|NC|N|Defuse Third Bomb.|
+C Casino Court|QID|83558|M|56.72,45.01|Z|2346;Undermine|QO|7|NC|N|Triangulate the Signal.|
+C Casino Court|QID|83558|M|56.72,45.01|Z|2346;Undermine|QO|8|NC|N|Enhance the Image.|
+T Casino Court|QID|83558|M|56.74,44.40|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Coffee is for Closers|QID|83563|PRE|83558|M|56.74,44.40|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C Coffee is for Closers|QID|83563|M|57.14,44.79|Z|2346;Undermine|QO|1|NC|N|Present the Murder Evidence.|
+C Coffee is for Closers|QID|83563|M|56.94,44.62|Z|2346;Undermine|QO|2|NC|N|Expose Tarbonara.|
+C Coffee is for Closers|QID|83563|M|58.48,45.12|Z|2346;Undermine|QO|3|N|Tarbonara Fizzlecrank defeated.|
+C Coffee is for Closers|QID|83563|M|58.42,45.00|Z|2346;Undermine|QO|4|NC|N|Judge Landro rescued.|
+C Coffee is for Closers|QID|83563|M|57.23,44.39|Z|2346;Undermine|QO|5|NC|N|Ruling notarized.|
+T Coffee is for Closers|QID|83563|M|56.92,44.36|Z|2346;Undermine|N|To Marty Zoomcart.|
+A Oh, That Casino!|QID|83566|PRE|83563|M|56.92,44.36|Z|2346;Undermine|N|From Marty Zoomcart.|RANK|2|
+C Oh, That Casino!|QID|83566|M|57.14,44.60|Z|2346;Undermine|QO|1|NC|N|Collect Notarized Deed.|
+C Oh, That Casino!|QID|83566|M|66.93,44.65|Z|2346;Undermine|QO|2|NC|N|Hand Over the Deed.|
+T Oh, That Casino!|QID|83566|M|66.81,44.65|Z|2346;Undermine|N|To Monte Gazlowe.|
+
+;Property Devalued
+
+A Property Devalued|QID|84376|M|41.87,65.76|Z|2346;Undermine|RANK|2|
+C Property Devalued|QID|84376|M|38.94,67.98|Z|2346;Barrelbottom Apartments|QO|1|NC|N|Visit nearby apartments.|
+C Property Devalued|QID|84376|M|39.70,68.19|Z|2346;Barrelbottom Apartments|QO|2|CHAT|N|Speak with Moz on the Second Floor.|
+T Property Devalued|QID|84376|M|39.48,68.44|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+A Renter's Insurance|QID|84378|PRE|84376|M|39.48,68.44|Z|2346;Barrelbottom Apartments|N|From Mama Keara.|RANK|2|
+A Tenant Trouble|QID|84379|PRE|84376|M|39.48,68.44|Z|2346;Barrelbottom Apartments|N|From "Gabby" Gabi.|RANK|2|
+C Renter's Insurance|QID|84378|M|44.02,69.77|Z|2346;Undermine|QO|1|N|Underrider slain.|S|
+C Tenant Trouble|QID|84379|M|46.66,70.43|Z|2346;Undermine|QO|1|NC|N|Tenants rescued.|S|
+A Weapons Cash|QID|84380|PRE|84376|M|44.52,66.12|Z|2346;Undermine|N|From Captured Tenant.|RANK|2|
+C Weapons Cash|QID|84380|M|45.51,68.90|Z|2346;Undermine|QO|1|NC|N|Underrider equipment destroyed.|
+C Renter's Insurance|QID|84378|M|44.02,69.77|Z|2346;Undermine|QO|1|N|Underrider slain.|US|
+C Tenant Trouble|QID|84379|M|46.66,70.43|Z|2346;Undermine|QO|1|NC|N|Tenants rescued.|US|
+T Weapons Cash|QID|84380|M|39.59,68.40|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+T Renter's Insurance|QID|84378|M|39.59,68.40|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+T Tenant Trouble|QID|84379|M|39.59,68.40|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+A Renegotiations|QID|84381|PRE|84380&84378&84379|M|39.59,68.40|Z|2346;Barrelbottom Apartments|N|From Mama Keara.|RANK|2|
+C Renegotiations|QID|84381|M|40.18,72.68|Z|2346;Barrelbottom Apartments|QO|1|N|Jarvis Bonebreaker slain.|
+C Renegotiations|QID|84381|M|40.16,72.46|Z|2346;Barrelbottom Apartments|QO|2|NC|N|Barrelbottom Deed collected.|
+T Renegotiations|QID|84381|M|39.54,68.56|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+A My Hole in the Wall|QID|86408|PRE|84381|M|39.54,68.56|Z|2346;Barrelbottom Apartments|N|From Mama Keara.|RANK|2|
+C My Hole in the Wall|QID|86408|M|39.45,68.59|Z|2346;Barrelbottom Apartments|QO|1|NC|N|Inspect the Barrelbottom Apartment Log.|
+T My Hole in the Wall|QID|86408|M|39.45,68.59|Z|2346;Barrelbottom Apartments|N|To Mama Keara.|
+
+;G.E.T.A.
+
+A Working for G.E.T.A.|QID|84885|M|42.74,52.86|Z|2346;Undermine|RANK|2|
+C Working for G.E.T.A.|QID|84885|M|33.02,52.26|Z|2346;G.E.T.A. Headquarters|QO|1|NC|N|Report to the G.E.T.A. Office.|
+T Working for G.E.T.A.|QID|84885|M|33.02,52.26|Z|2346;G.E.T.A. Headquarters|N|To Bruxie Slyhook.|
+A G.E.T.A. The Radioactive Rat|QID|84891|PRE|84885|M|33.02,52.26|Z|2346;G.E.T.A. Headquarters|N|From Bruxie Slyhook.|RANK|2|
+A G.E.T.A. The Crocodilian|QID|84892|PRE|84885|M|33.02,52.26|Z|2346;G.E.T.A. Headquarters|N|From Bruxie Slyhook.|RANK|2|
+C G.E.T.A. The Crocodilian|QID|84892|M|24.43,43.29|Z|2346;Undermine|QO|1|NC|N|Sewer Entrance reached.|
+C G.E.T.A. The Crocodilian|QID|84892|M|25.63,41.71|Z|2346;Undermine|QO|2|NC|N|Bait placed.|
+C G.E.T.A. The Crocodilian|QID|84892|M|25.47,41.69|Z|2346;Undermine|QO|3|N|Crocodilian defeated.|
+C G.E.T.A. The Crocodilian|QID|84892|M|25.47,41.69|Z|2346;Undermine|QO|4|NC|N|Trophy retrieved.|
+C G.E.T.A. The Radioactive Rat|QID|84891|M|35.74,37.66|Z|2346;Undermine|QO|1|NC|N|Sewer Entrance reached.|
+C G.E.T.A. The Radioactive Rat|QID|84891|M|37.24,36.42|Z|2346;Undermine|QO|2|NC|N|Bait placed.|
+C G.E.T.A. The Radioactive Rat|QID|84891|M|37.24,36.42|Z|2346;Undermine|QO|3|N|Radioactive Rat defeated.|
+C G.E.T.A. The Radioactive Rat|QID|84891|M|37.24,36.42|Z|2346;Undermine|QO|4|NC|N|Trophy retrieved.|
+C G.E.T.A. The Radioactive Rat|QID|84891|M|33.06,52.01|Z|2346;G.E.T.A. Headquarters|QO|5|NC|N|Trophy placed.|
+C G.E.T.A. The Crocodilian|QID|84892|M|33.06,52.01|Z|2346;G.E.T.A. Headquarters|QO|5|NC|N|Trophy placed.|
+T G.E.T.A. The Radioactive Rat|QID|84891|M|33.06,52.01|Z|2346;G.E.T.A. Headquarters|N|To Bruxie Slyhook.|
+T G.E.T.A. The Crocodilian|QID|84892|M|33.06,52.01|Z|2346;G.E.T.A. Headquarters|N|To Bruxie Slyhook.|
+A G.E.T.A. The Captain|QID|84893|PRE|84891&84892|M|33.06,52.01|Z|2346;G.E.T.A. Headquarters|N|From Bruxie Slyhook.|RANK|2|
+C G.E.T.A. The Captain|QID|84893|M|54.77,62.49|Z|2346;Undermine|QO|1|NC|N|Sewer Entrance reached.|
+C G.E.T.A. The Captain|QID|84893|M|56.05,64.57|Z|2346;Undermine|QO|2|NC|N|Bait placed.|
+C G.E.T.A. The Captain|QID|84893|M|56.05,64.57|Z|2346;Undermine|QO|3|N|The Captain defeated.|
+C G.E.T.A. The Captain|QID|84893|M|56.05,64.57|Z|2346;Undermine|QO|4|NC|N|Trophy Retrieved.|
+C G.E.T.A. The Captain|QID|84893|M|33.10,51.89|Z|2346;G.E.T.A. Headquarters|QO|5|NC|N|Trophy Placed.|
+T G.E.T.A. The Captain|QID|84893|M|33.04,52.06|Z|2346;G.E.T.A. Headquarters|N|To Bruxie Slyhook.|
+
+;Kaja'Curiosity
+
+A HELP WANTED: Kaja'Curiosity|QID|84298|PRE|84893|M|42.67,52.86|Z|2346|N|From Gerry Clogcraw.|RANK|2|
+C HELP WANTED: Kaja'Curiosity|QID|84298|M|19.96,56.67|Z|862|QO|1|CHAT|N|Speak with Jazz on the Kaja'Coast.|
+T HELP WANTED: Kaja'Curiosity|QID|84298|M|19.96,56.47|Z|862|N|To Jazz Mokkitz.|
+A Refine, Repair, Repeat|QID|84300|PRE|84298|M|19.96,56.47|Z|862|N|From Jazz Mokkitz.|RANK|2|
+A Mineral Madness|QID|84301|PRE|84298|M|19.96,56.47|Z|862|N|From Jazz Mokkitz.|RANK|2|
+C Mineral Madness|QID|84301|M|22.70,60.96|Z|862|QO|1|NC|N|Raw Kaja'mite Chunk.|S|
+C Refine, Repair, Repeat|QID|84300|M|20.50,60.34|Z|862|QO|1|NC|N|Kaja'mite Refiners repaired.|
+C Mineral Madness|QID|84301|M|22.70,60.96|Z|862|QO|1|NC|N|Raw Kaja'mite Chunk.|US|
+T Refine, Repair, Repeat|QID|84300|M|22.53,59.44|Z|862|N|To Jazz Mokkitz.|
+T Mineral Madness|QID|84301|M|22.53,59.44|Z|862|N|To Jazz Mokkitz.|
+A Creative Iteration|QID|84302|PRE|84300&84301|M|22.53,59.44|Z|862|N|From Jazz Mokkitz.|RANK|2|
+C Creative Iteration|QID|84302|M|22.53,59.30|Z|862|QO|1|NC|N|Toss Jazz his spanner.|
+C Creative Iteration|QID|84302|M|22.44,59.31|Z|862|QO|2|NC|N|Toss Jazz some bolts.|
+C Creative Iteration|QID|84302|M|22.58,59.37|Z|862|QO|3|NC|N|Bring Jazz a Kaja'mite Crystal.|
+C Creative Iteration|QID|84302|M|22.59,59.38|Z|862|QO|4|NC|N|Bring Jazz his spanner.|
+C Creative Iteration|QID|84302|M|22.56,59.39|Z|862|QO|5|NC|N|Hold the Shrink Ray.|
+T Creative Iteration|QID|84302|M|22.56,59.39|Z|862|N|To Jazz Mokkitz.|
+A Experimental Application|QID|84303|PRE|84302|M|22.56,59.39|Z|862|N|From Jazz Mokkitz.|RANK|2|
+A A Gem-Splitting Headache|QID|84304|PRE|84302|M|22.56,59.39|Z|862|N|From Jazz Mokkitz.|RANK|2|
+C Experimental Application|QID|84303|M|24.66,59.79|Z|862|U|228948|N|Agitated Kaja'crawler slain.|S|
+C A Gem-Splitting Headache|QID|84304|M|25.01,59.52|Z|862|QO|2|U|228948|N|Raging Kaja'mite Gemsplitter slain.|
+C A Gem-Splitting Headache|QID|84304|M|25.01,59.52|Z|862|QO|3|NC|U|228948|N|Massive Kaja'mite Chunk.|
+C Experimental Application|QID|84303|M|24.66,59.79|Z|862|U|228948|N|Agitated Kaja'crawler slain.|US|
+T Experimental Application|QID|84303|M|19.80,56.47|Z|862|N|To Jazz Mokkitz.|
+T A Gem-Splitting Headache|QID|84304|M|19.80,56.47|Z|862|N|To Jazz Mokkitz.|
+A Kaja'Conclusions|QID|84439|PRE|84303&84304|M|19.80,56.47|Z|862|N|From Jazz Mokkitz.|RANK|2|
+C Kaja'Conclusions|QID|84439|M|42.68,53.06|Z|2346;Undermine|QO|1|NC|N|Return to Kory Hoxx.|
+T Kaja'Conclusions|QID|84439|M|42.70,53.04|Z|2346;Undermine|N|To Kory Hoxx.|
+
+;Sanity's Rest
+
+A Sanity's Rest|QID|86271|PRE|84439|M|68.46,96.44|Z|2214;The Ringing Deeps|N|From Benny Gooserocket.|RANK|2|
+C Sanity's Rest|QID|86271|M|68.41,96.46|Z|2214;The Ringing Deeps|QO|1|NC|N|Incapacitated Miner picked up.|
+C Sanity's Rest|QID|86271|M|67.61,96.99|Z|2214;The Ringing Deeps|QO|2|NC|N|Incapacitated Miner taken to Stitchoaf.|
+T Sanity's Rest|QID|86271|M|67.47,96.98|Z|2214;The Ringing Deeps|N|To Stitchoaf.|
+A Counteracting the Black Blood|QID|86272|PRE|86271|M|67.47,96.98|Z|2214;The Ringing Deeps|N|From Stitchoaf.|RANK|2|
+C Counteracting the Black Blood|QID|86272|M|67.51,96.76|Z|2214;The Ringing Deeps|QO|1|NC|N|Ingredients added.|
+C Counteracting the Black Blood|QID|86272|M|67.51,96.84|Z|2214;The Ringing Deeps|QO|2|NC|N|"Cure" picked up.|
+C Counteracting the Black Blood|QID|86272|M|67.59,96.93|Z|2214;The Ringing Deeps|QO|3|NC|N|"Cure" applied to Incapacitated Miners.|
+T Counteracting the Black Blood|QID|86272|M|67.48,96.96|Z|2214;The Ringing Deeps|N|To Stitchoaf.|
+A Visit to the Shop|QID|86273|PRE|86272|M|67.48,96.96|Z|2214;The Ringing Deeps|N|From Stitchoaf.|RANK|2|
+T Visit to the Shop|QID|86273|M|67.30,98.17|Z|2214;The Ringing Deeps|N|To Trixxie Boltcrank.|
+A Automation Solution|QID|86274|PRE|86273|M|67.30,98.17|Z|2214;The Ringing Deeps|N|From Trixxie Boltcrank.|RANK|2|
+A Bug Exterminator Needed|QID|86275|PRE|86273|M|67.30,98.17|Z|2214;The Ringing Deeps|N|From Trixxie Boltcrank.|RANK|2|
+C Bug Exterminator Needed|QID|86275|M|67.56,97.29|Z|2214;The Ringing Deeps|QO|1|N|Bloodfeaster slain.|US|
+C Automation Solution|QID|86274|M|67.50,96.74|Z|2214;The Ringing Deeps|QO|1|NC|N|Metal scrap collected.|
+C Bug Exterminator Needed|QID|86275|M|67.56,97.29|Z|2214;The Ringing Deeps|QO|1|N|Bloodfeaster slain.|US|
+T Automation Solution|QID|86274|M|67.30,98.09|Z|2214;The Ringing Deeps|N|To Trixxie Boltcrank.|
+T Bug Exterminator Needed|QID|86275|M|67.30,98.09|Z|2214;The Ringing Deeps|N|To Trixxie Boltcrank.|
+A Rocket Roll|QID|86575|PRE|86274&86275|M|67.30,98.09|Z|2214;The Ringing Deeps|N|From Trixxie Boltcrank.|RANK|2|
+T Rocket Roll|QID|86575|M|68.42,96.44|Z|2214;The Ringing Deeps|N|To Benny Gooserocket.|
+A Out in the Fields|QID|86276|PRE|86575|M|68.42,96.44|Z|2214;The Ringing Deeps|N|From Benny Gooserocket.|RANK|2|
+A "Worm" Food No More|QID|86277|PRE|86575|M|68.42,96.44|Z|2214;The Ringing Deeps|N|From Benny Gooserocket.|RANK|2|
+A The Cleanup Crew|QID|86697|PRE|86575|M|68.42,96.44|Z|2214;The Ringing Deeps|N|From Benny Gooserocket.|RANK|2|
+C The Cleanup Crew|QID|86697|M|68.65,94.32|Z|2214;The Ringing Deeps|QO|1|NC|N|Enemies killed in the Writhing Fields.|S|
+C Out in the Fields|QID|86276|M|71.05,94.93|Z|2214;The Ringing Deeps|QO|1|NC|N|Bots deployed.|S|
+C "Worm" Food No More|QID|86277|M|71.32,95.28|Z|2214;The Ringing Deeps|QO|1|N|Maddened Eyestalk slain.|
+C The Cleanup Crew|QID|86697|M|68.65,94.32|Z|2214;The Ringing Deeps|QO|1|NC|N|Enemies killed in the Writhing Fields.|US|
+C Out in the Fields|QID|86276|M|71.05,94.93|Z|2214;The Ringing Deeps|QO|1|NC|N|Bots deployed.|US|
+T Out in the Fields|QID|86276|M|68.47,96.43|Z|2214;The Ringing Deeps|N|To Benny Gooserocket.|
+T "Worm" Food No More|QID|86277|M|68.47,96.43|Z|2214;The Ringing Deeps|N|To Benny Gooserocket.|
+T The Cleanup Crew|QID|86697|M|68.47,96.43|Z|2214;The Ringing Deeps|N|To Benny Gooserocket.|
 
 ]]
 end)
