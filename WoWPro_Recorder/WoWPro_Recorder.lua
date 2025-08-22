@@ -34,7 +34,7 @@ function WoWPro.Recorder:OnEnable()
 	end
     -- Set LoadingGuide flag to prevent quest recording during initialization
     WoWPro.Recorder.LoadingGuide = true
-    
+
     --Loading Frames--
     if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro.Recorder:CreateRecorderFrame()
