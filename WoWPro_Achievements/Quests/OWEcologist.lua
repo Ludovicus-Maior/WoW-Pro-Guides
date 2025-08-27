@@ -232,5 +232,46 @@ C A Truth Universally Acknowledged|QID|87294|M|74.13,31.86|Z|2371;K'aresh|QO|3|N
 C A Truth Universally Acknowledged|QID|87294|M|71.56,33.89|Z|2371;K'aresh|QO|4|NC|U|236406|N|Sir Cuteington photographed.|
 T A Truth Universally Acknowledged|QID|87294|M|75.90,34.22|Z|2371;K'aresh|N|To Ve'nari.|
 
+;Week 5
+
+A The Dreamweavers|QID|42170|M|75.89,34.22|Z|2371;K'aresh|N|From Ve'nari.|
+C To Maldraxxus|QID|86587|M|69.11,48.49|Z|1536;Maldraxxus|QO|1|NC|N|Travel to Maldraxxus.|
+T To Maldraxxus|QID|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|
+A A Plague a Day Keeps the Doctor Away|QID|86589|PRE|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|
+A I Don't Even Work Here|QID|86590|PRE|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|
+A Ritualistic Murder|QID|86588|PRE|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|
+C Ritualistic Murder|QID|86588|M|70.01,52.44|Z|1536;Maldraxxus|QO|1|N|Morbid Ritualist slain.|S|
+C I Don't Even Work Here|QID|86590|M|70.31,51.82|Z|1536;Maldraxxus|QO|1|NC|N|Rancor Essence.|S|
+C A Plague a Day Keeps the Doctor Away|QID|86589|M|71.10,50.27|Z|1536;Maldraxxus|QO|1|NC|N|Plague Sample.|
+C Ritualistic Murder|QID|86588|M|70.01,52.44|Z|1536;Maldraxxus|QO|1|N|Morbid Ritualist slain.|US|
+C I Don't Even Work Here|QID|86590|M|70.31,51.82|Z|1536;Maldraxxus|QO|1|NC|N|Rancor Essence.|US|
+T Ritualistic Murder|QID|86588|M|69.00,48.47|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|
+T A Plague a Day Keeps the Doctor Away|QID|86589|M|69.00,48.47|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|
+T I Don't Even Work Here|QID|86590|M|69.00,48.47|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|
+A A Poor Imitation|QID|86591|PRE|86588&86589&86590|M|69.00,48.47|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|
+C To the Oasis|QID|86593|M|69.03,48.44|Z|1536;Maldraxxus|QO|1|NC|N|Take the portal to K'aresh (Optional).|
+C To the Oasis|QID|86593|M|75.93,34.33|Z|2371;K'aresh|QO|2|NC|N|Arrive in the Oasis.|
+T To the Oasis|QID|86593|M|75.90,34.21|Z|2371;K'aresh|N|To Ve'nari.|
+A Atrium Hospital|QID|86782|PRE|86593|M|75.90,34.21|Z|2371;K'aresh|N|From Ve'nari.|
+T Atrium Hospital|QID|86782|M|48.50,61.06|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A A Cultured Palette|QID|86594|PRE|86782|M|48.50,61.06|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+A Custodial Duties|QID|86595|PRE|86782|M|48.50,61.06|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Custodial Duties|QID|86595|M|47.51,63.43|Z|2371;K'aresh|QO|1|NC|U|235384|N|Conglealed Lumps cleaned.|S|
+C A Cultured Palette|QID|86594|M|48.41,61.24|Z|2371;K'aresh|QO|1|NC|N|Crate of Food.|
+C A Cultured Palette|QID|86594|M|48.00,63.31|Z|2371;K'aresh|QO|2|NC|N|Food Items placed.|
+C Custodial Duties|QID|86595|M|47.51,63.43|Z|2371;K'aresh|QO|1|NC|U|235384|N|Conglealed Lumps cleaned.|US|
+T A Cultured Palette|QID|86594|M|48.42,61.11|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+T Custodial Duties|QID|86595|M|48.42,61.11|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Rays of Sunshine|QID|86783|PRE|86594&86595|M|48.42,61.11|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+T Rays of Sunshine|QID|86783|M|49.07,57.08|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Medical Checkup|QID|86602|PRE|86783|M|49.07,57.08|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+A Triple Twenty|QID|86601|PRE|86783|M|49.07,57.08|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Medical Checkup|QID|86602|M|48.02,53.10|Z|2371;K'aresh|QO|1|NC|N|Slateback Fur collected.|
+C Medical Checkup|QID|86602|M|46.85,54.26|Z|2371;K'aresh|QO|3|NC|N|Lapbug Molting collected.|
+C Medical Checkup|QID|86602|M|46.95,58.03|Z|2371;K'aresh|QO|2|NC|N|Thorntail Fur collected.|
+C Triple Twenty|QID|86601|M|46.14,57.85|Z|2371;K'aresh|QO|1|NC|U|235411|N|Curious Necrorays tagged.|
+T Medical Checkup|QID|86602|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+T Triple Twenty|QID|86601|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+
 ]]
 end)
