@@ -1,5 +1,5 @@
 -- luacheck: globals WoWPro_RecorderDB
--- luacheck: globals table ipairs pairs tinsert tremove
+-- luacheck: globals table ipairs pairs tinsert tremove C_Timer
 -- luacheck: globals tonumber tostring type max
 
 -----------------------------------
@@ -183,7 +183,6 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             end
             local portalMap = WoWPro.Recorder.Portals.map
             local portalZone = WoWPro.Recorder.Portals.zone or _G.GetZoneText()
-
             if C_Timer and C_Timer.After then
                 C_Timer.After(2, function()
                     local destZone = _G.GetZoneText()
