@@ -183,7 +183,8 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			end
 			local portalMap = WoWPro.Recorder.Portals.map
 			local portalZone = WoWPro.Recorder.Portals.zone or _G.GetZoneText()
-			C_Timer.After(2, function()
+            if C_Timer and C_Timer.After then
+            C_Timer.After(2, function()
 				local destZone = _G.GetZoneText()
 				local stepInfo = {
 					action = "P",
