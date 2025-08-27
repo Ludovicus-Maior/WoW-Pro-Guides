@@ -175,22 +175,29 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder.Flights = nil
 		end
 	elseif event == "AREA_POIS_UPDATED" then
-		if WoWPro.Recorder.Portals  then
+		if WoWPro.Recorder.Portals and not WoWPro.Recorder.PortalRecordingPending then
+			WoWPro.Recorder.PortalRecordingPending = true
 			local subzone = _G.GetSubZoneText()
 			if subzone:len() < 2 then
 				subzone = _G.GetZoneText() --Other way wasn't working right since it wasn't nil
 			end
-			local stepInfo = {
-				action = "P",
-				step = subzone,
-				active = WoWPro.Recorder.lastStep,
-				map = WoWPro.Recorder.Portals.map,
-				zone = WoWPro.Recorder.Portals.zone,
-				note = "Take the portal to "..subzone.."."
-			}
-			WoWPro.Recorder:dbp("Adding P step location")
-			WoWPro.Recorder.AddStep(stepInfo)
-			WoWPro.Recorder.Portals = nil
+			local portalMap = WoWPro.Recorder.Portals.map
+			local portalZone = WoWPro.Recorder.Portals.zone or _G.GetZoneText()
+			C_Timer.After(2, function()
+				local destZone = _G.GetZoneText()
+				local stepInfo = {
+					action = "P",
+					step = subzone,
+					active = WoWPro.Recorder.lastStep,
+					map = portalMap,
+					zone = portalZone,
+					note = "Take the portal to "..destZone.."."
+				}
+				WoWPro.Recorder:dbp("Adding P step location after delay")
+				WoWPro.Recorder.AddStep(stepInfo)
+				WoWPro.Recorder.Portals = nil
+				WoWPro.Recorder.PortalRecordingPending = nil
+			end)
 		end
     elseif event == "PLAYER_LEVEL_UP" then
         WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
