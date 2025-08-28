@@ -4,5 +4,7 @@
 	<Script file="Pebble.lua"/>
 	<Script file="Son_of_Glop.lua"/>
 	<Script file="Return_to_Lordaeron_A.lua"/>
-	<Script file="Return_to_Lordaeron_H.lua"/>	
+	<Script file="Return_to_Lordaeron_H.lua"/>
+	<Script file="OWEcologist.lua"/>
+	
 </Ui>
