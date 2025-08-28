@@ -705,7 +705,6 @@ function WoWPro:UpdateGuide(From)
 end
 
 -- Guide Update --
-local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 WoWPro.GuideOffset = nil
 
 -- Update Quest Tracker --
@@ -1710,9 +1709,39 @@ function WoWPro.UpdateGuideReal(From)
                         WoWPro.rows[i]:SetChecked(nil)
                         if WoWPro.Recorder then
                             WoWPro:RowLeftClick(i)
-                            WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            -- Use context menu for right-click
+                            if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+                                _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
+                                    for _, item in ipairs(WoWPro.Recorder.RowDropdownMenu[i]) do
+                                        if item.text then
+                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
+                                            if item.checked ~= nil then
+                                                menuButton:SetIsSelected(item.checked)
+                                            end
+                                        end
+                                    end
+                                end)
+                            else
+                                local contextMenuFrame = _G.CreateFrame("Frame")
+                                WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
+                            end
                         else
-                            WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            -- Use context menu for right-click
+                            if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+                                _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
+                                    for _, item in ipairs(WoWPro.RowDropdownMenu[i]) do
+                                        if item.text then
+                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
+                                            if item.checked ~= nil then
+                                                menuButton:SetIsSelected(item.checked)
+                                            end
+                                        end
+                                    end
+                                end)
+                            else
+                                local contextMenuFrame = _G.CreateFrame("Frame")
+                                WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
+                            end
                         end
                     end
                 end)
