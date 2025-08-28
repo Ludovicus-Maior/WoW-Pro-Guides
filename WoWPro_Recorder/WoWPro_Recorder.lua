@@ -32,6 +32,9 @@ function WoWPro.Recorder:OnEnable()
 	if WoWProCharDB then
 		WoWPro.Recorder.Advanced = WoWProCharDB.Advanced or false
 	end
+    -- Set LoadingGuide flag to prevent quest recording during initialization
+    WoWPro.Recorder.LoadingGuide = true
+
     --Loading Frames--
     if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro.Recorder:CreateRecorderFrame()
@@ -227,6 +230,24 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
         WoWPro.inhibit_oldQuests_update = false
 
+        -- Don't record quests immediately after a reload or guide load
+        if WoWPro.Recorder.LoadingGuide then
+            WoWPro.Recorder:dbp("Suppressing quest recording during guide load/reload")
+            return
+        end
+
+        -- Also check if this is initial quest log population (empty oldQuests)
+        local oldQuestCount = 0
+        if WoWPro.oldQuests then
+            for _ in pairs(WoWPro.oldQuests) do
+                oldQuestCount = oldQuestCount + 1
+            end
+        end
+        if oldQuestCount == 0 then
+            WoWPro.Recorder:dbp("Suppressing quest recording during initial quest log population")
+            return
+        end
+
         if WoWPro.newQuest then
             local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
             local stepInfo = {
@@ -397,6 +418,12 @@ function WoWPro.Recorder.PostQuestLogUpdate()
 end
 
 function WoWPro.Recorder.PostGuideLoad()
+    -- Clear the LoadingGuide flag after guide has been loaded with a small delay
+    -- to ensure quest log has been properly populated
+    _G.C_Timer.After(1.0, function()
+        WoWPro.Recorder.LoadingGuide = false
+        WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay, quest recording enabled")
+    end)
 end
 
 function WoWPro.Recorder.PostUpdateGuide()
