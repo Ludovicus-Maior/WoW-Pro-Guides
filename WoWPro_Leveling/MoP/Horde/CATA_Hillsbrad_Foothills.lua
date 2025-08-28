@@ -255,5 +255,8 @@ C Silence of the Dwarves|QID|28636|M|62.85,85.11|Z|0025; Hillsbrad Foothills|N|K
 C Extinction|QID|28634|M|65.97,68.73|Z|0025; Hillsbrad Foothills|N|Kill Rampaging Owlbeasts.|T|Rampaging Owlbeast|US|
 T Silence of the Dwarves|QID|28636|M|59.99,63.34|Z|0025; Hillsbrad Foothills|N|To Captain Jekyll.|
 T Extinction|QID|28634|M|60.00,63.73|Z|0025; Hillsbrad Foothills|N|To Nils Beerot.|
+N The Durnholde Challenge: Zephyrus|ACTIVE|28643|N|If you couldn't find a group to do this quest,you can abandon the quest to avoid cluttering your quest log.\nYou can always pick it up again later.\n[color=FF0000]NOTE: [/color]Skip this step if you still want to do it.|
+N Yetimus|ACTIVE|28485|N|If you couldn't find a group to do this quest, you can abandon the quest to avoid cluttering your quest log.\nYou can always pick it up again later.\n[color=FF0000]NOTE: [/color]Skip this step if you still want to do it.|
+
 ]]
 end)
