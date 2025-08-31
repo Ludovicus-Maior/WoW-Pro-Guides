@@ -273,5 +273,26 @@ C Triple Twenty|QID|86601|M|46.14,57.85|Z|2371;K'aresh|QO|1|NC|U|235411|N|Curiou
 T Medical Checkup|QID|86602|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 T Triple Twenty|QID|86601|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 
+;Week 5
+
+A Ray-ket Ball|QID|86603|M|75.87,34.18|Z|2371;K'aresh|N|From Om'talad.|
+C Ray-ket Ball|QID|86603|M|76.22,34.39|Z|2371;K'aresh|QO|1|NC|U|229420|N|Ball caught.|
+T Ray-ket Ball|QID|86603|M|75.83,34.23|Z|2371;K'aresh|N|To Om'talad.|
+A Dubious Intent|QID|86604|PRE|86603|M|75.88,34.20|Z|2371;K'aresh|N|From Ve'nari.|
+C Dubious Intent|QID|86604|M|73.06,31.60|Z|2371;K'aresh|QO|1|NC|U|235500|N|Necroray Gunk collected.|
+T Dubious Intent|QID|86604|M|75.89,34.23|Z|2371;K'aresh|N|To Ve'nari.|
+A Booster Shots|QID|86605|PRE|86604|M|75.87,34.21|Z|2371;K'aresh|N|From Om'talad.|
+C Booster Shots|QID|86605|M|73.62,31.49|Z|2371;K'aresh|QO|1|NC|U|235851|N|Tranquil Necrorays lassoed.|
+C Booster Shots|QID|86605|M|76.14,34.94|Z|2371;K'aresh|QO|2|NC|U|235851|N|Lassoed Necrorays delivered.|
+T Booster Shots|QID|86605|M|75.82,34.24|Z|2371;K'aresh|N|To Om'talad.|
+A The Golden Ooze|QID|86606|PRE|86605|M|75.88,34.19|Z|2371;K'aresh|N|From Ve'nari.|
+C The Golden Ooze|QID|86606|M|73.55,29.60|Z|2371;K'aresh|QO|1|NC|U|235384|N|Congealed Lumps cleaned.|
+T The Golden Ooze|QID|86606|M|75.94,34.17|Z|2371;K'aresh|N|To Ve'nari.|
+A The Freedom of Ray-cing|QID|86607|PRE|86606|M|75.83,34.04|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C The Freedom of Ray-cing|QID|86607|M|77.42,32.92|Z|2371;K'aresh|QO|1|NC|N|Zooming Necroray challenged.|
+C The Freedom of Ray-cing|QID|86607|M|74.17,27.42|Z|2371;K'aresh|QO|2|NC|N|Race finished.|
+T The Freedom of Ray-cing|QID|86607|M|75.82,34.02|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+
+
 ]]
 end)
