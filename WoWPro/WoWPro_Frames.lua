@@ -48,7 +48,7 @@ function WoWPro:ResizeSet()
 end
 function WoWPro:DragSet()
     -- Drag Customization --
-    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
+    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     if WoWProDB.profile.drag then
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
@@ -455,7 +455,7 @@ function WoWPro:CreateMainFrame()
     frame:EnableMouseWheel()
     WoWPro.MainFrame = frame
     -- Menu --
-    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
+    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     -- Scripts --
     WoWPro.MainFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
@@ -573,7 +573,7 @@ end)
     WoWPro.TitleText = titletext
 
     -- Scripts --
-    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
+    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     titleicon:SetScript("OnMouseDown", function(this, button)
         if button == "RightButton" then
             WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
