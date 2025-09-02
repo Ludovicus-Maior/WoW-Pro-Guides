@@ -558,7 +558,7 @@ T Miner's Fortune|QID|896|M|63.35,38.45|Z|1413; The Barrens|N|To Wharfmaster Diz
 
 C Fresh Zhevra Carcass|ACTIVE|882|M|60.97,35.77|Z|1413; The Barrens|L|10338|ITEM|10338|N|the first Zhevra you see.\n[color=FF0000]NOTE: [/color]You have 30 minutes before it disappears from your bags.|T|Zhevra|
 R The dead tree|ACTIVE|882|M|60.01,30.36|CC|Z|1413; The Barrens|N|Head for the dead tree northwest of Ratchet.|
-C Ishamuhale|ACTIVE|882|Z|1413; The Barrens|L|5108|ITEM|5108|N|Ishamuhale.\n[color=FF0000]NOTE: [/color]Place the carcass on the ground by the dead tree to summon him.|U|10338|
+C Ishamuhale|ACTIVE|882|Z|1413; The Barrens|L|5101|ITEM|5101|N|Ishamuhale.\n[color=FF0000]NOTE: [/color]Place the carcass on the ground by the dead tree to summon him.|U|10338|
 R The Crossroads|ACTIVE|899|M|52.63,30.98|Z|1413; The Barrens|N|Run back to the Crossroads.\n[color=FF0000]NOTE: [/color]If you maneuver well enough, you can just go over the mountain instead of around it.|
 
 T Consumed by Hatred|QID|899|M|51.96,31.57|Z|1413; The Barrens|N|To Mankrik.|

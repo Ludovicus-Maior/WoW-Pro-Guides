@@ -163,7 +163,7 @@ A Alliance Relations|QID|1432|PRE|1431|M|22.56,52.62|Z|1454; Orgrimmar|N|From Ke
 F Freewind Post|ACTIVE|1146|M|45.11,63.91|Z|1454; Orgrimmar|N|Return to Thousand Needles.|
 N Bag space|AVAILABLE|1147|Z|1441; Thousand Needles|N|You're picking up a number of collection quests shortly and it would be in your best interest to make as much bag space as possible.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T The Swarm Grows|QID|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats.\n[color=FF0000]NOTE: [/color]Just follow the road to the east and when get to the point where the road veers left, go to the right and follow the canyon wall from here.|
-A The Swarm Grows|QID|1147|M|67.59,63.93|Z|1441; Thousand Needles|N|From Moktar Krin.|
+A The Swarm Grows|QID|1147|PRE|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|From Moktar Krin.|
 R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|M|75.09,71.85|Z|1441; Thousand Needles|N|Head across the Shimmering Flats to the Mirage Raceway in the middle of it.|
 A Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
 A Wharfmaster Dizzywig|QID|1111|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
@@ -188,11 +188,11 @@ C Salt Flat Venom|QID|1104|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thou
 C Hollow Vulture Bone|QID|1176|M|87.32,66.81|CC|Z|1441; Thousand Needles|L|5848 10|ITEM|5848|N|Salt Flats Vultures/Scavengers.|US|
 C Rocket Car Parts|QID|1110|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|US|
 C Hardened Shells|QID|1105|M|78.17,87.83|CC|Z|1441; Thousand Needles|L|5795 9|ITEM|5795|N|any type of Sparkleshell Tortoises.|US|
-C Turtle Meat|ACTIVE|1110|M|78.53,53.47|Z|1441; Thousand Needles|L|3712 10|N|Turtles.[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
+C Turtle Meat|ACTIVE|1110|M|78.53,53.47|Z|1441; Thousand Needles|L|3712 10|N|Turtles.\n[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
 T A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
-T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
 T Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
 A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.12|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
 T Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
@@ -205,51 +205,59 @@ A Family Tree|QID|5361|M|45.69,50.72|Z|1441; Thousand Needles|N|From Cliffwatche
 F Crossroads|ACTIVE|1148|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to the Crossroads.|TZ|The Crossroads|
 T Parts of the Swarm|QID|1148|M|51.07,29.63|Z|1413; The Barrens|N|To Korran.|
 A Parts of the Swarm|QID|1184|M|51.07,29.63|Z|1413; The Barrens|N|From Korran.|
-T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|1413; The Barrens|N|To Regthar Deathgate.|
-A The Kolkar of Desolace|QID|1362|M|45.34,28.40|Z|1413; The Barrens|N|From Regthar Deathgate.|
-R The Crossroads|ACTIVE|1184|M|50.61,29.01|Z|1413; The Barrens|N|Run to the Crossroads.|
+T Regthar Deathgate|QID|1361|M|45.34,28.42|Z|1413; The Barrens|N|To Regthar Deathgate.|
+A The Kolkar of Desolace|QID|1362|M|45.34,28.42|Z|1413; The Barrens|N|From Regthar Deathgate.|
+R The Crossroads|ACTIVE|1184|M|50.61,29.01|Z|1413; The Barrens|N|Return to the Crossroads.|
 F Orgrimmar|ACTIVE|1184|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Orgrimmar.|
-T Parts of the Swarm|QID|1184|M|75.21,34.23|Z|1454; Orgrimmar|N|To Belgrom Rockmaul.|
+T Parts of the Swarm|QID|1184|M|75.21,34.23|Z|1454; Orgrimmar|N|To Belgrom Rockmaul in Valley of Honor.|
 
 ; --- Undercity
-N Test of Lore|ACTIVE|1159|Z|1441; Thousand Needles|N|Making a side trip to unload a quest while we are in the area.|
+N Test of Lore|ACTIVE|1159|Z|1441; Thousand Needles|N|Making a side trip to unload a quest while we're in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 b Tirisfal Glades|ACTIVE|1159|M|50.88,13.83|Z|1411; Durotar|N|Take the Zeppelin to Tirisfal Glades.|
 R Undercity|ACTIVE|1159|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Enter Undercity.|
-T Test of Lore|QID|1159|M|57.67,65.35|Z|1458; Undercity|N|To Parqual Fintallas.|
-A Test of Lore|QID|1160|PRE|1159|M|57.67,65.35|Z|1458; Undercity|ELITE|N|[color=E6CC80]Dungeon: Scarlet Monastery[/color]\nFrom Parqual Fintallas.\nAccept this quest if you plan on running the dungeon.|DUNGEON|
-b Orgrimmar|ACTIVE|1181|M|60.71,58.78|Z|1420; Tirisfal Glades|N|Take the Zeppelin to Orgrimmar.|
+T Test of Lore|QID|1159|M|57.81,65.39|Z|1458; Undercity|N|To Parqual Fintallas.|
+A Test of Lore|QID|1160|PRE|1159|M|57.81,65.39|Z|1458; Undercity|ELITE|N|[color=E6CC80]Dungeon: Scarlet Monastery[/color]\nFrom Parqual Fintallas.|DUNGEON|
+; --- Warlock class quest
+T Tome of the Cabal|QID|1803|M|75.92,37.87|Z|1458; Undercity|N|To Jorah Annison.|
+A Tome of the Cabal|QID|1805|PRE|1803|M|75.92,37.87|Z|1458; Undercity|N|From Jorah Annison.|
+N Rod of Channeling|ACTIVE|1805|QO|1|N|Unless you really want to do it now, you can wait until you're in the area to do it (depending on how you're playing, it could be a few hours).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+;
+b Durotar|ACTIVE|1178|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Exit Undercity and take the zeppelin to Orgrimmar.|
+R Orgrimmar|ACTIVE|1178|M|49.22,94.06|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
 
 ; --- Booty Bay
-F Ratchet|ACTIVE|1181|M|45.50,63.84|Z|1454; Orgrimmar|
-T Goblin Sponsorship|QID|1178|M|62.6,36.2|Z|1413; The Barrens|N|To Gazlowe.|
-A Goblin Sponsorship|QID|1180|PRE|1178|M|62.6,36.2|Z|1413; The Barrens|N|From Gazlowe.|
+F Ratchet|ACTIVE|1178|M|45.09,63.88|Z|1454; Orgrimmar|N|Fly to Ratchet to see Gazlowe.|
+T Goblin Sponsorship|QID|1178|M|62.68,36.23|Z|1413; The Barrens|N|To Gazlowe.|
+A Goblin Sponsorship|QID|1180|PRE|1178|M|62.68,36.23|Z|1413; The Barrens|N|From Gazlowe.|
+T Wharfmaster Dizzywig|QID|1111|M|63.35,38.45|Z|1413; The Barrens|N|To Wharfmaster Dizzywig.|
+A Parts for Kravel|QID|1112|PRE|1111|M|63.35,38.45|Z|1413; The Barrens|N|From Wharfmaster Dizzywig.|
 b Booty Bay|ACTIVE|1180|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|
-T Goblin Sponsorship|QID|1180|M|26.4,73.6|Z|1434; Stranglethorn Vale|N|To Wharfmaster Lozgil.|
-A Goblin Sponsorship|QID|1181|PRE|1180|M|26.4,73.6|Z|1434; Stranglethorn Vale|N|From Wharfmaster Lozgil.|
-T Goblin Sponsorship|QID|1181|M|27.06,77.59;27.04,77.14;27.23,76.88|CC|Z|1434; Stranglethorn Vale|N|To Baron Revilgaz. Work your way through the Salty Sailor Tavern up to the deck.|
+T Goblin Sponsorship|QID|1180|M|26.34,73.56|Z|1434; Stranglethorn Vale|N|To Wharfmaster Lozgil.|
+A Goblin Sponsorship|QID|1181|PRE|1180|M|26.34,73.56|Z|1434; Stranglethorn Vale|N|From Wharfmaster Lozgil.|
+T Goblin Sponsorship|QID|1181|M|27.23,76.87|Z|1434; Stranglethorn Vale|N|To Baron Revilgaz.\n[color=FF0000]NOTE: [/color]Work your way up through the Salty Sailor Tavern to the deck.|
 A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|1434; Stranglethorn Vale|N|From Baron Revilgaz.|
-f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|1112|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
-F Freewind Post|ACTIVE|1112|M|63.08,37.16|Z|1413; The Barrens|
+f Booty Bay|ACTIVE|1182|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|At Gringer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue because you cannot open the flight map and 'learn' the FP yet.|TAXI|-Booty Bay|IZ|Booty Bay|
+H Freewind Post|ACTIVE|1112|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.|IZ|-1441; Thousand Needles|
+T The Swarm Grows|QID|1147|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp.|
 T Parts for Kravel|QID|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard at Mirage Raceway.|
-A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-T Delivery to the Gnomes|QID|1114|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
+A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard when he finishes his little interlude.|
+T Delivery to the Gnomes|QID|1114|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
 
 ; --- Desolace
-N Desolace|AVAILABLE|5501|Z|1441; Thousand Needles|N|We are now going to make our run to Desolace via Stonetalon Mountains.|
-H Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.|
-F Orgrimmar|AVAILABLE|5501^5561|M|45.05,49.16|Z|1441; Thousand Needles|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.|
-h Orgrimmar|AVAILABLE|5501^5561|M|54.03,68.77|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
-F Sun Rock Retreats|AVAILABLE|5501^5561|M|45.13,63.88|Z|1454; Orgrimmar|
-R The Charred Vale|AVAILABLE|5501^5561|M|44.55,63.01;37.99,68.08;30.19,76.00|CC|Z|1442; Stonetalon Mountains|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom. Make your way through the Charred Vale to the Desolace border in the south.|
-A Bone Collector|QID|5501|M|62.06,32.41;62.34,38.99|CC|Z|1443; Desolace|N|From Bibbly F'utzbuckle.|
+N Desolace|AVAILABLE|5501|Z|1441; Thousand Needles|N|We are now headed to Desolace via Stonetalon Mountains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|AVAILABLE|5501^5561|M|51.60,25.44|Z|1446; Tanaris|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.\n[color=FF0000]NOTE: [/color]The FP in Tanaris is closer than Freewind Post.|
+h Orgrimmar|AVAILABLE|5501^5561|M|54.11,68.39|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
+F Sun Rock Retreat|AVAILABLE|5501^5561|M|45.13,63.88|Z|1454; Orgrimmar|N|Continue on to your original destination in Stonetalon Mountains.|
+R The Charred Vale|AVAILABLE|5501^5561|M|44.55,63.01;37.99,68.08;30.19,76.00|CC|Z|1442; Stonetalon Mountains|N|Head up into the mountains and follow the torch-marked path south over the mountain to the bottom.
+R Desolace|AVAILABLE|5501^5561|M|54.11,3.01|Z|1443; Desolace|N|Follow the mountain edge around the Charred Vale to the Desolace border in the south.\n[color=FF0000]NOTE: [/color]The mobs are barely grey and can be annoying.|
+A Bone Collector|QID|5501|M|62.34,38.99|Z|1443; Desolace|N|From Bibbly F'utzbuckle at Kormek's Hut.|
 A Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443; Desolace|N|From Smeed Scrabblescrew at Scrabblescrew's Camp.\n[color=FF0000]NOTE: [/color]If you are feeling adventurous, you can try and make the run straight down through some higher level mobs. I'd suggest taking the road east and coming in that way.|
-R Ghost Walker Post|ACTIVE|1362|M|58.58,56.93|Z|1443; Desolace|
+R Ghost Walker Post|ACTIVE|1362|M|58.58,56.93|Z|1443; Desolace|N|Head northwest to the entrance.\n[color=FF0000]NOTE: [/color]Watch for the lv 38s beside the road.|
 T The Kolkar of Desolace|QID|1362|M|56.19,59.57|Z|1443; Desolace|N|To Felgur Twocuts.|
 A Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|1443; Desolace|N|From Felgur Twocuts.|
-N Gelkis or Magram|AVAILABLE|1367&1368|Z|1441; Thousand Needles|N|At this point in time, you need to decide which clan are you going to earn rep for.\nTo earn rep for the Gelkis Clan, you need to kill Magram Clan Centaurs and vice-versa.\n[color=FF0000]NOTE: [/color]Unless you are going after a specific reward item, Gelkis Clan is much easier to do.\nIt is possible to do both chains.|
-A Magram Alliance|QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.29,59.68|Z|1443; Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you're choosing the Gelkis Clan, skip this step to continue.|NA|
-A Gelkis Alliance|QID|1368|ACTIVE|-1367|M|56.29,59.68|Z|1443; Desolace|N|From Gurda Wildmane.|
+N Gelkis or Magram|AVAILABLE|1367&1368|Z|1443; Desolace|N|At this point in time, you need to decide which clan are you going to earn rep for.\nTo earn rep for the Gelkis Clan, you need to kill Magram Clan Centaurs and vice-versa.\n[color=FF0000]NOTE: [/color]Unless you are going after a specific reward item, Gelkis Clan is much easier to do.\nIt is possible to do both chains, but we won't be covering that.\n\nManually check this step off to continue.|
+A Magram Alliance|QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.30,59.69|Z|1443; Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you're choosing the Gelkis Clan, skip this step to continue.|NA|
+A Gelkis Alliance|QID|1368|ACTIVE|-1367|M|56.30,59.69|Z|1443; Desolace|N|From Gurda Wildmane.|
 T Family Tree|QID|5361|M|55.41,55.80|Z|1443; Desolace|N|To Nataka Longhorn.|
 A Catch of the Day|QID|5386|M|55.41,55.80|Z|1443; Desolace|N|From Nataka Longhorn.|
 T Alliance Relations|QID|1432|M|52.57,54.39|Z|1443; Desolace|N|To Takata Steelblade.|
@@ -257,94 +265,105 @@ A Alliance Relations|QID|1433|PRE|1432|M|52.57,54.39|Z|1443; Desolace|N|From Tak
 A Befouled by Satyr|QID|1434|M|52.57,54.39|Z|1443; Desolace|N|From Takata Steelblade.|
 T Alliance Relations|QID|1433|M|52.25,53.44|Z|1443; Desolace|N|To Maurin Bonesplitter.|
 A The Burning of Spirits|QID|1435|M|52.25,53.44|Z|1443; Desolace|N|From Maurin Bonesplitter.|
-C Bone Collector|QID|5501|Z|1441; Thousand Needles|L|13703 10|N|<coords>While you are in the Kodo Graveyard, collect any Kodo Bones you come across.\n[color=FF0000]NOTE: [/color]Be aware, there is a chance of a lv 37-38 Kodo Apparition appearing and attacking you. You can stand and fight or run. If you run, the Kodo will return to its spawn point and despawn after a couple minutes.\nUnless you want the added challenge, make sure you clear any Vultures in the area before looting the bones.|S|
-C Kodo Roundup|QID|5561|Z|1441; Thousand Needles|N|<coords>Go into the Kodo Graveyard and target one of the Kodos. Using the kombobulator, tame the kodo and have it follow you back to Scrabblescrew's Camp. After Scrabblescrew speaks with you, talk to the Kodo to get credit for it.\n[color=FF0000]NOTE: [/color]You can only do this one at a time and you have 5 minutes to bring the Kodo to Scrabblescrew.|U|13892|
+C Bone Collector|QID|5501|M|53.15,59.48|Z|1443; Desolace|L|13703 10|N|Collect any Kodo Bones you come across in the Kodo Graveyard.\n[color=FF0000]NOTE: [/color]There's a chance of a lv 37-38 Kodo Apparition appearing and attacking you. You can fight or run; up to you.\nThis quest is lv 39 for a reason.|S|
+C Kodo Roundup|QID|5561|M|53.15,59.48|Z|1443; Desolace|N|After targeting one of the Kodos in the Kodo Graveyard, use the Kombobulator to tame the kodo and have it follow you back to Scrabblescrew's Camp.\nAfter Scrabblescrew speaks with you, talk to the Kodo to get credit for it.\n[color=FF0000]NOTE: [/color]You can only do this one at a time and you have 5 minutes to bring the Kodo to Scrabblescrew.|U|13892|
 T Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443; Desolace|N|To Smeed Scrabblescrew.|
-C Bone Collector|QID|5501|Z|1441; Thousand Needles|L|13703 10|N|<coords>Go back into the Kodo Graveyard, finish collecting your Kodo Bones.|US|
-A Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443; Desolace|N|From Azore Aldamort at Ethel Rethor.\nTake the road north out of Kodo Graveyard and go west at the intersection. When you get to the ramp to the tower at the end of the road, go to the path along the right side of the ramp and follow it down.|
-T Bone Collector|QID|5501|M|62.31,38.96|Z|1443; Desolace|N|Head back to the road and follow it east to Bibbly F'utzbuckle at Kormek's Hut.|
-C The Burning of Spirits|QID|1435|Z|1441; Thousand Needles|N|<coords>Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to capture them. If they die, you will collect an Infused Burning Gem.\n[color=FF0000]NOTE: [/color]Avoid using special attacks (DOT) when they are near death. This could disrupt the Burning Gem effect. The mob MUST die from the 'Capture Spirit' debuff to collect the gem. The debuff does 100 damage every 3 seconds for 9 seconds.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|S|
-C The Burning of Spirits|QID|1435|Z|1441; Thousand Needles|N|<coords>Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to capture them. If they die, you will collect an Infused Burning Gem.\n[color=FF0000]NOTE: [/color]Avoid using special attacks (DOT) when they are near death. This could disrupt the Burning Gem effect. The mob MUST die from the 'Capture Spirit' debuff to collect the gem. The debuff does 100 damage every 3 seconds for 9 seconds.|U|6436|C|-Druid|S|
+C Bone Collector|QID|5501|M|53.15,59.48|Z|1443; Desolace|L|13703 10|N|Finish collecting your Kodo Bones.|US|
+R Ethel Rethor|AVAILABLE|5741|M|42.75,34.02|Z|1443; Desolace|N|Take the road north out of Kodo Graveyard and go west at the intersection.|
+A Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443; Desolace|N|From Azore Aldamort at Ethel Rethor.\n[color=FF0000]NOTE: [/color]Drop off the ledge to the lower area and go around to the north side.|
+T Bone Collector|QID|5501|M|62.34,38.99|Z|1443; Desolace|N|To Bibbly F'utzbuckle at Kormek's Hut.|
+C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|S|
+C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.\n|U|6436|C|-Druid|S|
 A The Corrupter|QID|1480|M|PLAYER|CC|N|Click on the Flayed Demon Skin to start the quest.\nThis item is dropped by Burning Blade mobs.|U|20310|O|
-; --- destroy excess quest starter item
-* Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
+* Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you can safely destroy them.|U|20310|O|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
-C Sceptre of Light|QID|5741|M|55.17,30.09|Z|1443; Desolace|N|Head north into Thunder Axe Fortress and kill the Burning Blade Seer to loot the Sceptre of Light.\nYou'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
-l The Burning of Spirits|QID|1435|L|6435 15|N|<coords>Finish collecting the Infused Burning Gems.|U|6436|US|
-T Sceptre of Light|QID|5741|M|38.89,27.19|Z|1443; Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
-A Book of the Ancients|QID|6027|M|38.89,27.19|Z|1443; Desolace|N|From Azore Aldamort.|
-T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|1443; Desolace|N|Make your way back to Maurin Bonesplitter at Ghost Walker Post.|
+C Sceptre of Light|QID|5741|M|55.17,30.09|Z|1443; Desolace|L|15750|ITEM|15750|N|the Burning Blade Seer at the top of the Watchtower just inside the entrance to Thunder Axe Fortress.\n[color=FF0000]NOTE: [/color]He has 2 Felsworn guards outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
+C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|S|
+C The Burning of Spirits|QID|1435|M|55.72,22.39|Z|1443; Desolace|L|6435 15|N|Attack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem to channel 'Capture Spirit' on them.\n[color=FF0000]NOTE: [/color]'Capture Spirit' does 100 damage every 3 seconds for 9 seconds and they MUST die directly from the debuff to collect the gem.|U|6436|C|-Druid|US|
+T Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443; Desolace|N|To Azore Aldamort in Ethel Rethor.|
+A Book of the Ancients|QID|6027|M|38.89,27.16|Z|1443; Desolace|N|From Azore Aldamort.|
+T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|1443; Desolace|N|To Maurin Bonesplitter at Ghost Walker Post.|
 T The Corrupter|QID|1480|M|52.24,53.44|Z|1443; Desolace|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1481|PRE|1480|M|52.24,53.44|Z|1443; Desolace|N|From Maurin Bonesplitter.|
-R Sargeron|ACTIVE|1434^1481|M|50.39,52.91;53.82,37.12;62.39,32.43;65.82,33.19;70.76,22.93|CC|Z|1443; Desolace|N|Head west out Ghost Walker Post and follow the road north to the intersection. Continue east along the road to the 2nd intersection and go north from that intersection into Sargeron.|
-C The Corrupter|QID|1481|Z|1441; Thousand Needles|N|<coords>Kill a Hatefury Shadowstalker to loot its scalp.|S|
-C Befouled by Satyr|QID|1434|QO|1;2;3|Z|1441; Thousand Needles|N|<coords>Kill Satyrs in the area.|
-C The Corrupter|QID|1481|Z|1441; Thousand Needles|N|<coords>Kill Hatefury Shadowstalkers until you loot a shadowstalker scalp.|US|
-C Khan Dez'hepah|ACTIVE|1365|QO|1|M|72.95,46.68|Z|1443; Desolace|N|Head south from Sargeron to Kolkar Village. Clear any Kolkar in the immediate area around the ramp leading up to Khan Dez'hepah. Once that is done, pull Khan Dez'hepah and kill him to loot his head.|
-R Ghost Walker Post|ACTIVE|1365|M|58.59,56.97|Z|1443; Desolace|N|Take the road back to Ghost Walker Post.|
+R Sargeron|ACTIVE|1434^1481|M|50.39,52.91;53.82,37.12;62.39,32.43;65.82,33.19;70.77,22.76|CC|Z|1443; Desolace|N|Head west out Ghost Walker Post and follow the road north to the intersection. Continue east along the road to the 2nd intersection and go north from that intersection into Sargeron.|
+C The Corrupter|QID|1481|M|78.91,17.39|Z|1443; Desolace|N|Hatefury Shadowstalkers.|S|
+C Befouled by Satyr|QID|1434|QO|1;2;3|M|80.45,15.47|Z|1443; Desolace|N|Kill the required Satyrs in the area.\n[color=FF0000]NOTE: [/color]Avoid the Tricksters because they are a useless fight.|
+C The Corrupter|QID|1481|M|78.91,17.39|Z|1443; Desolace|N|Hatefury Shadowstalkers.|US|
+C Khan Dez'hepah|ACTIVE|1365|QO|1|M|73.36,41.62;72.95,46.68;73.80,48.20|CN|Z|1443; Desolace|L|6066|ITEM|6066|N|Khan Dez'hepah in one of his 3 spawn points in Kolkar Village.\n[color=FF0000]NOTE: [/color]Once located, clear any Kolkar in the immediate area around the area of Khan Dez'hepah before you pull him.|T|Khan Dez'hepah|
+R Ghost Walker Post|ACTIVE|1365|M|58.59,56.97|Z|1443; Desolace|N|Head back to Ghost Walker Post.|
 T Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|1443; Desolace|N|To Felgur Twocuts.|
 A Centaur Bounty|QID|1366|PRE|1365|M|56.19,59.57|Z|1443; Desolace|N|From Felgur Twocuts.|
 T Befouled by Satyr|QID|1434|M|52.57,54.39|Z|1443; Desolace|N|To Takata Steelblade.|
-A Alliance Relations|QID|1436|PRE|1436|M|52.57,54.39|Z|1443; Desolace|N|From Takata Steelblade.|
-T The Corrupter|QID|1481|Z|1441; Thousand Needles|N|<coords>To Maurin Bonesplitter.|
-A The Corrupter|QID|1482|PRE|1481|Z|1441; Thousand Needles|N|From Maurin Bonesplitter.|
-R Shadowprey Village|AVAILABLE|6142^6143|M|26.50,75.15|Z|1443; Desolace|N|Leave Ghost Walker Post from the east and follow the road south all the way to the shore line at the end.|
-f Shadowprey Village|AVAILABLE|6142^6143|M|21.60,74.12|Z|1443; Desolace|N|Thalon can be found at the end of the dock.|
-A Clam Bait|QID|6142|M|22.72,72.09|Z|1443; Desolace|N|From Mai'Lahii.|
-A Other Fish to Fry|QID|6143|M|23.27,72.82|Z|1443; Desolace|N|From Drulzegar Skraghook.|
-P Moonglade|ACTIVE|1436|M|PLAYER|CC|N|Now that we have the FP in Desolace, use your Teleport: Moonglade to do your training.|C|Druid|
-H Orgrimmar|ACTIVE|1436|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
-H Orgrimmar|ACTIVE|1436|M|54.03,68.77|Z|1454; Orgrimmar|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
-l Advanced Target Dummy|ACTIVE|1367|N|Make sure you bring an 'Advanced Target Dummy' with you. You're going to need it for the quest chain.|
+A Alliance Relations|QID|1436|PRE|1434|M|52.57,54.39|Z|1443; Desolace|N|From Takata Steelblade.|
+T The Corrupter|QID|1481|M|52.24,53.44|Z|1443; Desolace|N|To Maurin Bonesplitter.|
+A The Corrupter|QID|1482|PRE|1481|M|52.24,53.44|Z|1443; Desolace|N|From Maurin Bonesplitter.|
+R Shadowprey Village|AVAILABLE|6142^6143|M|26.17,74.63|Z|1443; Desolace|N|Leave Ghost Walker Post from the west and head south through the Graveyard, looking for the path (marked with torches) over the mountain ridge. Once on the other side, follow the road west all the way to the shore line at the end.|
+f Shadowprey Village|AVAILABLE|6142^6143|M|21.60,74.12|Z|1443; Desolace|N|At Thalon, found at the end of the dock.|
+A Clam Bait|QID|6142|M|22.64,71.96|Z|1443; Desolace|N|From Mai'Lahii.|
+A Other Fish to Fry|QID|6143|M|23.32,72.87|Z|1443; Desolace|N|From Drulzegar Skraghook.\n[color=FF0000]NOTE: [/color]You'll have to manually accept this quest because it doesn't auto accept.|
+P Moonglade|ACTIVE|1436|M|PLAYER|CC|N|Now that we have the FP in Desolace, use your Teleport: Moonglade to do your lv 34 training.|C|Druid|
+= Level 34 Training|ACTIVE|1436|M|PLAYER|CC|N|Do your level 34 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|34|IZ|Moonglade|C|Druid|
+H Orgrimmar|ACTIVE|1436|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]It's faster than flying; unless your hearth is on CD.|C|Druid|
+H Orgrimmar|ACTIVE|1436|M|54.11,68.39|Z|1454; Orgrimmar|N|Now that we have the FP in Desolace, you can hearth back to Orgrimmar to do your lv 34 training.\n[color=FF0000]NOTE: [/color]It's faster than flying; unless your hearth is on CD.|C|-Druid|
+= Level 34 Training|ACTIVE|1436|M|PLAYER|CC|N|Do your level 34 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|34|IZ|Orgrimmar|
 T Alliance Relations|QID|1436|M|22.27,53.74|Z|1454; Orgrimmar|N|To Keldran.|
-F Shadowprey Village|QID|1366|M|45.50,63.84|Z|1454; Orgrimmar|N|Once you're done whatever you need to do, fly back to Desolace.|
-l Shellfish|AVAILABLE|5421|ACTIVE|5386|Z|1443; Desolace|L|13545 10|N|<coords>Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
-T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443; Desolace|N|To Jinar'Zillen on the pier.\nThis is a repeatable quest and you'll have to turn it in at least twice.|L|13546 2|NOCACHE|
-C Centaur Bounty|QID|1366|Z|1443; Desolace|N|<coords>Kill Centaurs and loot their ears.|S|
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|1443; Desolace|N|Follow the road out of Shadowprey Village.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|
-C Gelkis Clan Centaurs|QID|1368|N|<coords>Kill Gelkis Clan Centaurs until have reached Friendly status (3,000 rep) with the Magram Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
-R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|1443; Desolace|N|Follow the road out of Shadowprey Village as far east as it goes.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|
-C Magram Clan Centaurs|QID|1367|N|<coords>Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.|REP|Gelkis Clan Centaur;92;friendly|
-C Centaur Bounty|QID|1366|N|<coords>Continue killing Centaurs and looting their ears until done.|US|
-T Centaur Bounty|QID|1366|M|56.20,59.55|Z|1443; Desolace|N|To Felgur Twocuts.|
+l Advanced Target Dummy|ACTIVE|1367|N|Make sure you bring an 'Advanced Target Dummy' with you. You're going to need it for the quest chain.|
+r Housekeeping|ACTIVE|1366|PRE|1436|N|While in Orgrimmar, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|Orgrimmar|
+F Shadowprey Village|ACTIVE|1366|PRE|1436|M|45.50,63.84|Z|1454; Orgrimmar|N|Fly back to Desolace.|IZ|Orgrimmar|
+l Shellfish|ACTIVE|5386|QO|1|M|21.44,79.46|Z|1443; Desolace|L|13545 10|N|Look for Shellfish Traps on the ocean floor containing the Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
+A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|1443; Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\nThis is a repeatable quest and you'll have to do it at least twice.|NOCACHE|
+T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443; Desolace|N|To Jinar'Zillen on the pier.|NOCACHE|
+A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|1443; Desolace|L|13546 2|N|From Jinar'Zillen on the pier.\nThis is a repeatable quest and you'll have to do it at least twice.|NOCACHE|
+T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443; Desolace|N|To Jinar'Zillen on the pier.|NOCACHE|
+N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|IZ|Shadowprey Village|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.65,87.16|Z|1443; Desolace|L|6067 15|ITEM|6067|N|Centaurs.|S|
+C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.71,73.32|Z|1443; Desolace|L|6067 15|ITEM|6067|N|Centaurs.|S|
+R Gelkis Village|ACTIVE|1367|M|36.64,77.13|Z|1443; Desolace|N|Follow the road out of Shadowprey Village.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|REP|Magram Clan Centaur;93;neutral|
+C Magram Alliance|QID|1367|M|37.65,87.16|Z|1443; Desolace|N|Kill Gelkis Clan Centaurs until you've reached Friendly status (3,000 rep) with the Magram Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
+R Magram Village|ACTIVE|1368|M|67.29,66.29|Z|1443; Desolace|N|Follow the road out of Shadowprey Village as far east as it goes.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;neutral|
+C Gelkis Alliance|QID|1368|M|70.71,73.32|Z|1443; Desolace|N|Kill Magram Clan Centaurs until you've reached Friendly status (3,000 rep) with The Gelkis Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.\nAvoid the Pack Runner if you can. He'll aggro if you fight near him and his 2 lv 38 dogs really hurt.|REP|Gelkis Clan Centaur;92;neutral|
+C Centaur Bounty|QID|1366|ACTIVE|1367|M|37.65,87.16|Z|1443; Desolace|L|6067 15|ITEM|6067|N|Centaurs.|US|
+C Centaur Bounty|QID|1366|ACTIVE|1368|M|70.71,73.32|Z|1443; Desolace|L|6067 15|ITEM|6067|N|Centaurs.|US|
+T Centaur Bounty|QID|1366|M|56.20,59.55|Z|1443; Desolace|N|To Felgur Twocuts in Ghost Walker Post.|
 ; ** Gelkis quest chain
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|1443; Desolace|N|Follow the road out of Ghost Walker Post and go west at the intersection.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
+R Gelkis Village|ACTIVE|1368|M|37.65,79.11|Z|1443; Desolace|N|Exit Ghost Walker Post and follow the road west.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|1443; Desolace|N|To Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 A Stealing Supplies|QID|1370|PRE|1368|M|36.24,79.25|Z|1443; Desolace|N|From Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
-R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|1443; Desolace|N|Return to Magram Village.|
-C Stealing Supplies|QID|1370|L|6069 6|N|<coords>Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
-T Stealing Supplies|QID|1370|M|36.24,79.24|Z|1443; Desolace|N|To Uthek the Wise.|
+R Magram Village|ACTIVE|1370|M|67.29,66.29|Z|1443; Desolace|N|Return to Magram Village.\n[color=FF0000]NOTE: [/color]The Magram Centaurs are now hostile towards you.|
+C Stealing Supplies|QID|1370|M|70.07,76.40|Z|1443; Desolace|L|6069 6|N|Loot the yellow bags off the ground around the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
+T Stealing Supplies|QID|1370|M|36.24,79.24|Z|1443; Desolace|N|To Uthek the Wise back in Gelkis Village.|
 A Ongeku|QID|1373|M|36.24,79.20|Z|1443; Desolace|N|From Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
-R Shadowprey Village|ACTIVE|6143|M|26.50,75.15|Z|1443; Desolace|N|Return to Shadowprey Village.|
-N Shortcut|ACTIVE|6142|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.|
-C Clam Bait|ACTIVE|6142|M|45.20,63.80|Z|1443; Desolace|L|15924 10|N|Open Soft-shelled clams to collect the meat.\n[color=FF0000]NOTE: [/color]You can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|S|
-R Ethel Rethor|ACTIVE|6143|M|30.55,34.26;35.66,30.67|CC|Z|1443; Desolace|N|Walk into the water and swim north.|
-A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|1443; Desolace|N|Find Rackmore's Log on top of the barrel beside the wreckage of the boat on shore. Click on it to start the quest.|
-C Rackmore's Golden Key|ACTIVE|6161|L|15881|ITEM|15881|N|<coords>Nagas.|S|
-C Oracle Crystal|ACTIVE|1482|L|6442|ITEM|6442|N|<coords>Slitherblade Oracles until one drops.|S|
-C Rackmore's Silver Key|ACTIVE|6161|M|33.20,31.66|Z|1443; Desolace|L|15878|ITEM|15878|N|Drysnap Crawlers/Pincers.\n[color=FF0000]NOTE: [/color]Stick around the bubbling fissure so you don't have to keep swimming to the surface for air. They will come to you.|
-C Clam Bait|ACTIVE|6142|L|15924 10|N|<coords>Finish collecting the Soft-shelled Clam Meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|US|
-C Other Fish to Fry|QID|6143|QO|1;2;3|M|34.17,25.21|Z|1443; Desolace|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
-C Rackmore's Golden Key|ACTIVE|6161|L|15881|N|<coords>Kill Nagas until they drop one.|US|
-T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|1443; Desolace|N|Clear all mobs around the chest. Open the chest to complete the quest.|
-C Lord Kargaru|QID|6027|M|28.66,7.09|Z|1443; Desolace|L|15803|N|Right-click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.|
-C Oracle Crystal|ACTIVE|1482|N|<coords>Kill Slitherblade Oracles until one drops an Oracle Crystal.\n21% drop rate|US|
-T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|CC|Z|1443; Desolace|N|Swim back to shore and climb the ramp to Azore Aldamort at Ethel Rethor.|
-R Kormek's Hut|AVAILABLE|5821|M|60.33,38.11|Z|1443; Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
-N Gizelton Caravan|AVAILABLE|5821|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.|
+R Shadowprey Village|AVAILABLE|6161|M|26.17,74.63|Z|1443; Desolace|N|Return to Shadowprey Village.|
+N Shortcut|AVAILABLE|6161|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Clam Bait|ACTIVE|6142|M|45.20,63.80|Z|1443; Desolace|L|15924 10|N|Open Soft-shelled Clams.\n[color=FF0000]NOTE: [/color]You can get them from opening the Giant Soft Clams (guaranteed and static spawn points) on the ocean floor, or a drop chance by killing Drysnap Crawlers/Pincers and Reef Crawlers.\nIt's best to attack the Reef Crawler before they take your Giant Clam.|U|15874|S|
+R Ethel Rethor|AVAILABLE|6161|M|30.55,34.26;35.66,30.67|CC|Z|1443; Desolace|N|Walk into the water and swim north.|
+A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|1443; Desolace|N|From Rackmore's Log on top of the barrel beside the wreckage of the boat on shore.|
+C Other Fish to Fry|QID|6143|QO|1;2;3|M|28.68,7.01|Z|1443; Desolace|N|Kill the required Nagas.|S|
+C Claim Rackmore's Treasure!|QID|6161|QO|1|M|32.27,32.38|Z|1443; Desolace|L|15878|ITEM|15878|N|Drysnap Crawlers/Pincers.\n[color=FF0000]NOTE: [/color]If you stick around the bubbling fissure to maintain your breath, they will come to you.|
+C Claim Rackmore's Treasure!|QID|6161|QO|2|M|32.27,22.01|Z|1443; Desolace|L|15881|ITEM|15881|N|any type of Nagas.|S|
+C Oracle Crystal|QID|1482|M|32.27,22.01|Z|1443; Desolace|L|6442|ITEM|6442|N|Slitherblade Oracles.|S|
+C Claim Rackmore's Treasure!|QID|6161|QO|1;2|M|32.27,22.01|Z|1443; Desolace|L|15881|ITEM|15881|N|any type of Nagas.|US|
+C Clam Bait|QID|6142|M|45.20,63.80|Z|1443; Desolace|L|15924 10|N|Open Soft-shelled Clams.\n[color=FF0000]NOTE: [/color]You can get the Clams from opening the Giant Soft Clams on the ocean floor, or by killing Drysnap Crawlers/Pincers and Reef Crawlers.\nThe Reef Crawlers will take your Giant Clams.|U|15874|US|
+C Lord Kargaru|QID|6027|M|28.66,7.09|Z|1443; Desolace|L|15803|ITEM|15803|N|Lord Kargaru after clicking on the Serpent Statue to summon him.|
+T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|1443; Desolace|N|To Rackmore's Chest after clearing the area.|
+C Oracle Crystal|QID|1482|M|32.27,22.01|Z|1443; Desolace|L|6442|ITEM|6442|N|Slitherblade Oracles.|US|
+C Other Fish to Fry|QID|6143|QO|1;2;3|M|28.68,7.01|Z|1443; Desolace|N|Kill the required Nagas.|US|
+T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|CC|Z|1443; Desolace|N|To Azore Aldamort back on shore at Ethel Rethor.|
+R Kormek's Hut|AVAILABLE|5821|M|60.33,38.11|Z|1443; Desolace|N|Follow the road east to Kormek's Hut.\n[color=FF0000]NOTE: [/color]You're going to look for Cork Gizelton and his caravan.|
+N Gizelton Caravan|AVAILABLE|5821|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Bodyguard for Hire|QID|5821|M|66.55,37.48;67.25,56.55|CC|Z|1443; Desolace|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Cork Gizelton. Escort Cork and his caravan past Kolkar Village. On 3 occasions, 3 Kolkar will spawn (2 fighters and 1 spellcaster).\n[color=FF0000]NOTE: [/color]If Cork isn't here or at Kormek's Hut, wait here until he shows up.\nHe will only offer the quest on the trip south.\nCork will announce to the zone when he's offering the quest.|NA|
 T Bodyguard for Hire|QID|5821|M|60.86,61.88|Z|1443; Desolace|N|Head to Smeed Scrabblescrew at Scrabblescrew's Camp.|
 R Ghost Walker Post|ACTIVE|1482|M|58.59,57.04|Z|1443; Desolace|
 T The Corrupter|QID|1482|M|52.25,53.50|Z|1443; Desolace|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1484|PRE|1482|M|52.25,53.50|Z|1443; Desolace|N|From Maurin Bonesplitter, after a brief cinematic.|
-T The Corrupter|QID|1484|M|52.57,54.34|Z|1443; Desolace|N|To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
+T The Corrupter|QID|1484|M|52.57,54.34|Z|1443; Desolace|N|To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
 R Shadowprey Village|ACTIVE|6142^6143|M|26.50,75.15|Z|1443; Desolace|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|1443; Desolace|N|From Roon Wildmane.|
 T Other Fish to Fry|QID|6143|N|To Drulzegar Skraghook.|
 T Clam Bait|QID|6142|N|To Mai'Lahii.|
 
 ; --- Hillsbrad Foothills/Alterac
-F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|1443; Desolace|N|You're done with this area for now. You are now headed to Hillsbrad and Alterac.|
+F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|1443; Desolace|N|You're done with this area for now and headed to Hillsbrad and Alterac.|
 b Tirisfal Glades|ACTIVE|1136|M|50.8,13.6|Z|1411; Durotar|N|Take the Zeppelin to Undercity.|
 N Turtle Meat|AVAILABLE|7321|L|3712 10|N|Make sure you have the 10 pieces of Turtle Meat you were told to keep earlier. You'll need them now.|
 F Tarren Mill|ACTIVE|1136|M|62.89,48.16|Z|1458; Undercity|N|Enter Undercity and fly to Tarren Mill.|
@@ -356,25 +375,25 @@ t Soothing Turtle Bisque|QID|7321|M|62.31,19.09|Z|1424; Hillsbrad Foothills|N|To
 A Helcular's Revenge|QID|552|M|63.88,19.67|Z|1424; Hillsbrad Foothills|N|From Novice Thaivand.|
 A Infiltration|QID|533|M|63.23,20.66|Z|1424; Hillsbrad Foothills|N|From Krusk.|
 R Darrow Hill|ACTIVE|552|M|49.10,32.22|Z|1424; Hillsbrad Foothills|N|Run to the Cave in Darrow Hill.|
-C Helcular's Revenge|ACTIVE|552|N|<coords>Kill Yetis at Darrow Hill to loot Helcular's Rod|
+C Helcular's Revenge|ACTIVE|552|M|43.60,27.40|Z|1424; Hillsbrad Foothills|L|3710|ITEM|3710|N|Yetis at Darrow Hill to loot Helcular's Rod.|
 T Helcular's Revenge|QID|552|M|63.88,19.65|Z|1424; Hillsbrad Foothills|N|To Novice Thaivand.|
 A Helcular's Revenge|QID|553|M|63.88,19.65|Z|1424; Hillsbrad Foothills|N|From Novice Thaivand.|
 R Darrow Hill|ACTIVE|553|M|49.10,32.22|Z|1424; Hillsbrad Foothills|N|Return to the Cave in Darrow Hill.|
 C Flame of Azel|QID|553|QO|1|M|43.89,28.06|Z|1424; Hillsbrad Foothills|N|Click on Flame of Azel to charge Helcular's Rod.|NC|
 C Flame of Veraz|QID|553|QO|2|M|44.03,26.56|Z|1424; Hillsbrad Foothills|N|Click on Flame of Veraz to charge Helcular's Rod.|NC|
-R Alterac Mountains|ACTIVE|1136^553|M|55.60,19.41;54.49,9.46|CC|Z|1424; Hillsbrad Foothills|N|Head out of Tarren Mill and take the road north.|
+R Alterac Mountains|ACTIVE|1136^553|M|55.60,19.41;54.49,9.46|CC|Z|1424; Hillsbrad Foothills|N|Exit Tarren Mill and follow the road north.|
 l Mountain Lion Carcass|ACTIVE|1136|M|49.18,71.50|Z|1416; Alterac Mountains|L|5810|ITEM|5810|N|any type of Mountain Lion.\n[color=FF0000]NOTE: [/color]You'll need this to spawn Frostmaw.\n\nThe Fresh Carcass has a time limit of 30 minutes before it despawns and you'll have to get another one.|
-R Growless Cave|ACTIVE|1136|M|49.95,63.13;37.58,68.29|CC|Z|1416; Alterac Mountains|N|Head back to the road and continue north to Gallow's Corner. From here, head west to the Growless Cave entrance.|
-N Flame of Uzel|ACTIVE|1136&553|N|This item is used for both 'Frostmaw' and 'Helcular's Revenge'. That being said, if you click on it, I cannot say for certain which quest will activate first. Clicking on the 'Fresh Carcass' will guarantee you start Frostmaw.|
+R Growless Cave|ACTIVE|1136|M|49.95,63.13;37.58,68.29|CC|Z|1416; Alterac Mountains|N|Back to the road, continue north to Gallow's Corner and then west to the Growless Cave entrance.|
+N Flame of Uzel|ACTIVE|1136&553|N|This item is used for both 'Frostmaw' and 'Helcular's Revenge'. That being said, if you click on it, I cannot say for certain which quest will activate first. Clicking on the 'Fresh Carcass' will guarantee you start Frostmaw.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 l Fresh Carcass|ACTIVE|1136|M|49.18,71.50|Z|1416; Alterac Mountains|L|5810|ITEM|5810|N|another Mountain Lion.\n[color=FF0000]NOTE: [/color]Remember, the Fresh Carcass has a time limit of 30 minutes before it despawns.|
 C Frostmaw|QID|1136|QO|1|M|37.52,66.36|Z|1416; Alterac Mountains|N|Frostmaw after he spawns.\n[color=FF0000]NOTE: [/color]Clear all of the Yetis inside the cave. Once cleared, click on (use) the Fresh Carcass at Flame of Uzel.|U|5810|
 C Flame of Uzel|QID|553|QO|3|Z|1424; Hillsbrad Foothills|N|<coords>Click on Flame of Uzel to charge Helcular's Rod.|
 R Lordamere Internment Camp|QID|544|M|33.87,69.92|Z|1416; Alterac Mountains|N|Exit the cave and head west to Dalaran.|
-C Stone Tokens|QID|556|QO|1|M|21.70,82.83|Z|1416; Alterac Mountains|L|3714 10|ITEM|3714|N|Dalaran Shield Guards and Theurgists.\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|S|
+C Stone Tokens|QID|556|QO|1|M|21.70,82.83|Z|1416; Alterac Mountains|L|3714 10|ITEM|3714|N|Dalaran Shield Guards and Theurgists.\n[color=FF0000]NOTE: [/color]The Shield Guards can hit quite hard.|S|
 C Prison Break In|QID|544|QO|2|M|19.96,84.43|Z|1416; Alterac Mountains|N|Ricter to loot the Bloodstone Marble.\n[color=FF0000]NOTE: [/color]All of the targets involved in this quest are non-hostile and you can clear the area without fear of aggroing them.|
 C Prison Break In|QID|544|QO|3|M|20.33,86.34|Z|1416; Alterac Mountains|N|Alina to loot the Bloodstone Shard.|
 C Prison Break In|QID|544|QO|1|M|19.90,85.93|Z|1416; Alterac Mountains|N|Dermot to loot the Bloodstone Wedge.|
-C Prison Break In|QID|544|QO|4|M|17.86,83.10|Z|1416; Alterac Mountains|N|Kegan Darkmar to loot the Bloodstone Oval once the the room is clear.\n[color=FF0000]NOTE: [/color]Work your way into the house and up to the top floor. Each 'room' has 2 mobs in it.\nOnce you have dispatached the 2 guards at the top of the stairs, target Warden Belamoore and take her out first.|
+C Prison Break In|QID|544|QO|4|M|17.86,83.10|Z|1416; Alterac Mountains|N|Kegan Darkmar to loot the Bloodstone Oval once the the room is clear.\n[color=FF0000]NOTE: [/color]Work your way into the house and up to the top floor. Each 'room' has 2 mobs in it.\nOnce you have dispatached the 2 guards at the top of the stairs, target Warden Belamoore and take her out first.|T|Warden Belamoore|
 C Stone Tokens|QID|556|M|21.70,82.83|Z|1416; Alterac Mountains|L|3714 10|ITEM|3714|N|Dalaran Shield Guards and Theurgists.\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|US|
 R Corrahn's Dagger|ACTIVE|533|M|29.01,79.39;40.50,84.48;44.09,77.70|CC|Z|1416; Alterac Mountains|N|Leave the camp and head east into the hills. Continue east making sure to stay clear of the Alliance fort at The Headlands.|
 N Sofera's Naze|ACTIVE|533|N|If you find this area busy, you can find more mobs east of here, across the road.|
@@ -389,10 +408,9 @@ R Southshore|ACTIVE|553|M|54.47,51.56|Z|1424; Hillsbrad Foothills|N|Follow the r
 T Helcular's Revenge|QID|553|M|52.76,53.34|Z|1424; Hillsbrad Foothills|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
 C Turtle Meat|QID|7321|N|<coords>Finish collecting your Turtle meat as you make your way north along the river towards Tarren Mill.\n[color=FF0000]NOTE: [/color]You may have to travel up and down the river to kill enough turtles.|US|
 R Tarren Mill|ACTIVE|7321|M|67.69,21.35|Z|1424; Hillsbrad Foothills|N|Make your way back to Tarren Mill.|
-T Soothing Turtle Bisque|QID|7321|M|62.32,19.06|Z|1424; Hillsbrad Foothills|N|To Christoph Jeffcoat.|
 
 ; --- Thunder Bluff
-H Orgrimmar|ACTIVE|1136|M|54.03,68.77|Z|1454; Orgrimmar|N|Use your hearth to save time.\n[color=FF0000]NOTE: [/color]If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
+H Orgrimmar|ACTIVE|1136|M|54.11,68.39|Z|1454; Orgrimmar|N|Use your hearth to save time.\n[color=FF0000]NOTE: [/color]If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
 F Thunder Bluff|ACTIVE|1136|M|45.50,63.84|Z|1454; Orgrimmar|
 T Frostmaw|QID|1136|M|61.54,80.92|Z|1456; Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.\nDo not get the follow-up, 'Deadmire'.|
 * Kodo Skin Scroll|QID|1136|N|You safely delete your Kodo Skin Scroll now.|U|5838|
@@ -505,7 +523,7 @@ T Goblin Sponsorship|QID|1183|M|80.18,75.88|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.88|N|From Pozzik.|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
-H Orgrimmar|ACTIVE|569|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+H Orgrimmar|ACTIVE|569|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|1454; Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456; Thunder Bluff|C|Druid|
 ; --- STV
@@ -545,7 +563,7 @@ N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items
 F Grom'gol Base Camp|AVAILABLE|676|M|26.87,77.09|Z|1434; Stranglethorn Vale|
 b Tirisfal Glades|AVAILABLE|676|M|31.57,29.15|Z|1434; Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
 F Tarren Mill|AVAILABLE|676|M|62.89,48.16|Z|1458; Undercity|N|Fly from Undercity to Tarren Mill.|
-A The Hammer May Fall|QID|676|M|61.87,19.57|Z|1424; Hillsbrad Foothills|N|From Tallow.|
+A The Hammer May Fall|QID|676|M|61.87,19.57|Z|1424; Hillsbrad Foothills|N|From Tallow.\n[color=FF0000]NOTE: [/color]Arathi Highlands breadcrumb.|
 
 ; --- Arathi Highlands
 R Arathi Highlands|ACTIVE|676|M|63.32,41.78;81.13,56.04;82.62,57.63|CC|Z|1424; Hillsbrad Foothills|N|Follow the road to Thoradin's Wall in the east. Arathi is on the other side of this wall.|
@@ -657,7 +675,7 @@ R Dreadmurk Shore|ACTIVE|1202|M|57.85,19.01|Z|1445; Dustwallow Marsh|N|Make your
 C Hungry!|QID|1177|M|58.29,17.07|Z|1445; Dustwallow Marsh|N|Kill Mirefin Murlocs to collect the Mirefin Heads.|US|
 R Theramore Isle|ACTIVE|1202|M|66.13,43.56|Z|1445; Dustwallow Marsh|N|Make your way to the Theramore Isle. Follow the shore line the whole way there.\n[color=FF0000]NOTE: [/color]Do not go near the front entrance. This an Alliance city and the guards will kill you.|
 l The Theramore Docks|ACTIVE|1202|M|71.54,51.19|Z|1445; Dustwallow Marsh|L|5882|N|Work your way around the island to the dock at the back. Avoid the guards by the back gate. Locate the Captain's Documents on the ocean floor beneath the dock.\n[color=FF0000]NOTE: [/color]Do not linger in this area, as there are elite sharks in the water.|
-H Orgrimmar|ACTIVE|1202|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar.|
+H Orgrimmar|ACTIVE|1202|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar.|
 B Soothing Spice|ACTIVE|1218|M|47.90,80.33|Z|1454; Orgrimmar|L|3713 3|N|Buy 3 Soothing Spice from Shimra for "Swamp Eye" Jarl.|
 F Brackenwall Village|ACTIVE|1202|M|45.19,63.88|Z|1454; Orgrimmar|N|Fly to Brackenwall Village.|
 T The Theramore Docks|QID|1202|M|35.21,30.66|Z|1445; Dustwallow Marsh|N|To Nazeer Bloodpike.|
@@ -683,7 +701,7 @@ b Booty Bay|ACTIVE|1240|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Boo
 F Grom'gol Base Camp|ACTIVE|1240|M|26.03,73.23|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol Base Camp.|
 T The Troll Witchdoctor|QID|1240|M|32.27,27.70|Z|1434; Stranglethorn Vale|N|To Kin'weelay.|
 A Marg Speaks|QID|1261|PRE|1240|M|32.23,27.64|Z|1434; Stranglethorn Vale|N|Click on the cauldron to get the quest.|
-H Orgrimmar|ACTIVE|1261|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
+H Orgrimmar|ACTIVE|1261|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth back to Orgrimmar.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, take the boat and run into Orgrimmar.|
 F Brackenwall Village|ACTIVE|1261|M|45.58,63.99|Z|1454; Orgrimmar|N|Fly to Brackenwall Village.|
 R Main Road|ACTIVE|1261|M|39.14,37.96|CC|Z|1445; Dustwallow Marsh|N|Exit Brackenwall from the south and follow the road until it ends at the main road.|
 A Questioning Reethe|QID|1273|PRE|1323&1201|M|40.96,36.70|Z|1445; Dustwallow Marsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ogron, just to the north of your current position.\n[color=FF0000]NOTE: [/color]This quest is not easy and can be bugged requiring you to finish it twice.|RANK|3|
