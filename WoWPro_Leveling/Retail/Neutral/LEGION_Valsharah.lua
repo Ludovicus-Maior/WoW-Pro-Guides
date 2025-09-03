@@ -149,7 +149,7 @@ T The Chieftain's Beads|QID|38146|M|48.39,84.63|Z|641; Val'sharah|N|To Elder Soo
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|Z|641; Val'sharah|N|To Rylissa Bearsong.|
 A Awakening the Archdruid|QID|38143|PRE|38146&38246&38455|M|49.09,82.36|Z|641; Val'sharah|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|Z|641; Val'sharah|N|Loot for treasure and resources.|RANK|2|
-T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|641; Val'sharah|N|To Koda Steelclaw, inside Sleeper's Barrow.|
+T Awakening the Archdruid|QID|38143|M|50.01,85.58|Z|641; Val'sharah|N|To Koda Steelclaw, inside Sleeper's Barrow.|
 A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|641; Val'sharah|N|From Koda Steelclaw, wait a few seconds for the quest to become available.|
 A The Demons Below|QID|38144|PRE|38143|M|60.50,17.55|Z|641; Val'sharah|N|From Koda Steelclaw.|
 C The Demons Below|QID|38144|M|48.99,69.91|S|Z|641; Val'sharah|N|Kill the Darkfiend Intruders.|

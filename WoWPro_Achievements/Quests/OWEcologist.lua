@@ -273,7 +273,7 @@ C Triple Twenty|QID|86601|M|46.14,57.85|Z|2371;K'aresh|QO|1|NC|U|235411|N|Curiou
 T Medical Checkup|QID|86602|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 T Triple Twenty|QID|86601|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 
-;Week 5
+;Week 6
 
 A Ray-ket Ball|QID|86603|M|75.87,34.18|Z|2371;K'aresh|N|From Om'talad.|
 C Ray-ket Ball|QID|86603|M|76.22,34.39|Z|2371;K'aresh|QO|1|NC|U|229420|N|Ball caught.|
@@ -292,6 +292,40 @@ A The Freedom of Ray-cing|QID|86607|PRE|86606|M|75.83,34.04|Z|2371;K'aresh|N|Fro
 C The Freedom of Ray-cing|QID|86607|M|77.42,32.92|Z|2371;K'aresh|QO|1|NC|N|Zooming Necroray challenged.|
 C The Freedom of Ray-cing|QID|86607|M|74.17,27.42|Z|2371;K'aresh|QO|2|NC|N|Race finished.|
 T The Freedom of Ray-cing|QID|86607|M|75.82,34.02|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+
+; week 7
+
+A Being Spiritual|QID|87408|M|75.92,34.09|Z|2371;K'aresh|N|From Ve'nari.|
+C Being Spiritual|QID|87408|M|75.87,33.15|Z|2371;Untethered Space|QO|1|NC|N|Untethered Space entered.|
+C Being Spiritual|QID|87408|M|67.23,43.72|Z|2371;Untethered Space|QO|2|NC|N|Flyer Essence.|
+T Being Spiritual|QID|87408|M|75.87,34.25|Z|2371;K'aresh|N|To Ve'nari.|
+A From Death, Life|QID|87409|PRE|87408|M|75.87,34.25|Z|2371;K'aresh|N|From Ve'nari.|
+C From Death, Life|QID|87409|M|75.81,34.11|Z|2371;K'aresh|QO|1|NC|N|Insert the K'arroc Essence into the Oasis Console.|
+C From Death, Life|QID|87409|M|75.81,34.11|Z|2371;K'aresh|QO|2|NC|N|K'arroc created.|
+T From Death, Life|QID|87409|M|75.86,34.17|Z|2371;K'aresh|N|To Ve'nari.|
+A Percussive Negotiation|QID|87410|PRE|87409|M|75.83,34.08|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Percussive Negotiation|QID|87410|M|47.02,18.02|Z|2371;K'aresh|QO|1|NC|N|Void Shielding Part.|
+T Percussive Negotiation|QID|87410|M|75.88,34.22|Z|2371;K'aresh|N|To Ve'nari.|
+A Making Stuff to Look Tough|QID|87411|PRE|87410|M|75.88,34.22|Z|2371;K'aresh|N|From Ve'nari.|
+C Making Stuff to Look Tough|QID|87411|M|79.92,32.44|Z|2371;K'aresh|QO|1|CHAT|N|Speak with Ve'nari outside the Oasis.|
+C Making Stuff to Look Tough|QID|87411|M|79.85,32.40|Z|2371;K'aresh|QO|2|NC|N|Void Shield crafted.|
+C Making Stuff to Look Tough|QID|87411|M|79.90,32.40|Z|2371;K'aresh|QO|3|NC|N|Void Shield collected.|
+T Making Stuff to Look Tough|QID|87411|M|75.90,34.17|Z|2371;K'aresh|N|To Ve'nari.|
+A K'arrocing Photos|QID|87412|PRE|87411|M|75.85,34.21|Z|2371;K'aresh|N|From Om'talad.|
+C K'arrocing Photos|QID|87412|M|72.60,30.38|Z|2371;K'aresh|QO|1|NC|U|237012|N|Domineering K'arrocs documented.|
+T K'arrocing Photos|QID|87412|M|75.75,34.21|Z|2371;K'aresh|N|To Om'talad.|
+A Bird Bath|QID|87413|PRE|87412|M|75.97,34.58|Z|2371;K'aresh|N|From Rhubarn.|
+C Bird Bath|QID|87413|M|73.31,30.41|Z|2371;K'aresh|QO|1|NC|U|237013|N|Domineering K'arrocs washed.|
+T Bird Bath|QID|87413|M|75.98,34.57|Z|2371;K'aresh|N|To Rhubarn.|
+A Medical Maneuvers|QID|87414|PRE|87413|M|75.87,34.23|Z|2371;K'aresh|N|From Om'talad.|
+C Medical Maneuvers|QID|87414|M|73.38,30.42|Z|2371;K'aresh|QO|1|NC|U|237030|N|Domineering K'arrocs shrunk and collected.|
+T Medical Maneuvers|QID|87414|M|75.84,34.21|Z|2371;K'aresh|N|To Om'talad.|
+A The Skies of K'aresh|QID|87415|PRE|87414|M|75.84,34.21|Z|2371;K'aresh|N|From Om'talad.|
+C The Skies of K'aresh|QID|87415|M|75.84,34.21|Z|2371;K'aresh|QO|1|CHAT|N|Speak with Om'talad (Optional).|
+A Oasis Overdrive|QID|86339|PRE|87414|M|75.67,30.68|Z|2371;K'aresh|N|From Om'torid.|
+C The Skies of K'aresh|QID|87415|M|75.90,30.60|Z|2371;K'aresh|QO|2|NC|N|Race completed.|
+T The Skies of K'aresh|QID|87415|M|75.89,34.19|Z|2371;K'aresh|N|To Ve'nari.|
+
 
 
 ]]
