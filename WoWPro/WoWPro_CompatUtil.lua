@@ -364,6 +364,19 @@ local function EasyMenu_Initialize( frame, level, menuList )
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+    -- get a reference or create an anchor frame positioned at cursor
+    WoWPro.menuFrame = WoWPro.menuFrame or _G.CreateFrame("Frame", "WoWPro.menuFrame", _G.UIParent)
+    local uiScale = _G.UIParent:GetEffectiveScale()
+    local x, y = _G.GetCursorPosition()
+    local offsetX, offsetY = x/uiScale, y/uiScale
+    WoWPro.menuFrame:ClearAllPoints()
+    WoWPro.menuFrame:SetPoint("CENTER", _G.UIParent, "BOTTOMLEFT", offsetX, offsetY)
+    local anchorFrame
+    if menuFrame and menuFrame.GetName and #(menuFrame:GetName() or "") > 0 then
+        anchorFrame = menuFrame
+    else
+        anchorFrame = WoWPro.menuFrame
+    end
     if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
         local function GenerateMenu(ownerRegion, rootDescription)
             local function AddMenuItems(description, items)
@@ -402,18 +415,18 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
             end
             AddMenuItems(rootDescription, menuList)
         end
-        _G.MenuUtil.CreateContextMenu(menuFrame, GenerateMenu)
+        _G.MenuUtil.CreateContextMenu(anchorFrame, GenerateMenu)
     elseif _G.EasyMenu then
-        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+        _G.EasyMenu(menuList, anchorFrame, anchor, x, y, displayMode, autoHideDelay )
     elseif _G.UIDropDownMenu_Initialize and _G.ToggleDropDownMenu then
         if ( displayMode == "MENU" ) then
-            menuFrame.displayMode = displayMode;
+            anchorFrame.displayMode = displayMode;
         end
-        menuFrame.menuList = menuList;
-        _G.UIDropDownMenu_Initialize(menuFrame, function(frame, level)
+        anchorFrame.menuList = menuList;
+        _G.UIDropDownMenu_Initialize(anchorFrame, function(frame, level)
             EasyMenu_Initialize(frame, level, frame.menuList)
         end, displayMode);
-        _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
+        _G.ToggleDropDownMenu(1, nil, anchorFrame, anchor, x, y, menuList, nil, autoHideDelay);
     else
         WoWPro:Print("Warning: No compatible menu system found. Menu functionality disabled.")
     end
