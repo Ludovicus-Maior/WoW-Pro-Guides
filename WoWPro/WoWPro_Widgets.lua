@@ -389,23 +389,61 @@ function WoWPro:CreateBG(parent)
     local box = _G.CreateFrame('Frame', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     box:SetBackdrop(bg)
     box:SetBackdropBorderColor(1, 1, 1)
-    box:SetBackdropColor(0.2, 0.2, 0.2, 0.1)
+    box:SetBackdropColor(0.2, 0.2, 0.2, 1)
 
     return box
 end
 
 
 function WoWPro:CreateTab(name, parent)
-    local tab
-    if WoWPro.RETAIL then
-        tab = _G.CreateFrame('Button', nil, parent, "PanelTabButtonTemplate")
-    else
-        tab = _G.CreateFrame('Button', nil, parent, "TabButtonTemplate")
-    end
+    local tab = _G.CreateFrame('Button', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tab:RegisterForClicks("anyDown")
-    tab.Text:SetJustifyH("CENTER")
-    tab.Text:SetText(name)
-    _G.PanelTemplates_TabResize(tab)
+    
+    -- Modern tab styling
+    tab:SetBackdrop({
+        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = true, tileSize = 16, edgeSize = 16,
+        insets = { left = 4, right = 4, top = 4, bottom = 0 }
+    })
+    tab:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Dark background
+    tab:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Gray border
+    
+    -- Text styling
+    local text = tab:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    text:SetPoint("CENTER")
+    text:SetText(name)
+    text:SetTextColor(1, 1, 1, 1)  -- White text
+    tab.Text = text  -- Keep compatibility with existing code
+    
+    -- Hover effects
+    tab:SetScript("OnEnter", function(self)
+        self:SetBackdropColor(0.4, 0.4, 0.4, 0.9)  -- Lighter on hover
+    end)
+    tab:SetScript("OnLeave", function(self)
+        if self:GetID() ~= (parent.selectedTab or 1) then
+            self:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Reset if not selected
+            self:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Reset border color
+        end
+    end)
+    
+    -- Selected tab appearance
+    local function updateTabAppearance(tabButton, isSelected)
+        if isSelected then
+            tabButton:SetBackdropColor(0.4, 0.4, 0.4, 1)  -- Lighter gray for selected
+            tabButton:SetBackdropBorderColor(0.8, 0.8, 0.8, 1)  -- Light border
+            tabButton.Text:SetTextColor(1, 1, 1, 1)  -- White text
+        else
+            tabButton:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Dark for unselected
+            tabButton:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Gray border
+            tabButton.Text:SetTextColor(0.8, 0.8, 0.8, 1)  -- Light gray text
+        end
+    end
+    tab.updateTabAppearance = updateTabAppearance
+    
+    -- Size the tab based on text
+    local textWidth = text:GetStringWidth()
+    tab:SetSize(textWidth + 20, 25)
 
     return tab
 end

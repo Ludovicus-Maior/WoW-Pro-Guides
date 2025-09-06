@@ -92,7 +92,13 @@ function WoWPro:PaddingSet()
 end
 
 function WoWPro:TitlebarShow()
-    if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
+    if WoWProDB.profile.titlebar then 
+        WoWPro.Titlebar:Show()
+        WoWPro.ButtonBar:Show()
+    else 
+        WoWPro.Titlebar:Hide()
+        WoWPro.ButtonBar:Hide()
+    end
 end
 
 function WoWPro:TitlebarSet()
@@ -118,15 +124,18 @@ function WoWPro:TitlebarSet()
 	end
 -- Colors --
     WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-
--- Fonts --
+    
+    -- Tab Button Colors --
+    WoWPro.GuideListButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    WoWPro.CurrentGuideButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    WoWPro.OptionsButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])    -- Fonts --
     WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
     WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
 
--- Size --
+    -- Size --
     WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
 
--- Scrollbar --
+    -- Scrollbar --
     if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
     if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
@@ -141,12 +150,24 @@ function WoWPro:BackgroundSet()
 			tile = true, tileSize = 16, edgeSize = 16,
 			insets = { left = 16,  right = 16,  top = 16,  bottom = 16 }
 		})
+		WoWPro.ButtonBar:SetBackdrop( {
+			bgFile = WoWProDB.profile.bgtexture,
+			edgeFile = WoWProDB.profile.bordertexture,
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 16,  right = 16,  top = 16,  bottom = 0 }
+		})
 	else
 		WoWPro.MainFrame:SetBackdrop( {
 			bgFile = WoWProDB.profile.bgtexture,
 			edgeFile = WoWProDB.profile.bordertexture,
 			tile = true, tileSize = 16, edgeSize = 16,
 			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+		})
+		WoWPro.ButtonBar:SetBackdrop( {
+			bgFile = WoWProDB.profile.bgtexture,
+			edgeFile = WoWProDB.profile.bordertexture,
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 4,  right = 3,  top = 4,  bottom = 0 }
 		})
 	end
     WoWPro.StickyFrame:SetBackdrop( {
@@ -156,11 +177,14 @@ function WoWPro:BackgroundSet()
 -- Colors --
     WoWPro.MainFrame:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     WoWPro.StickyFrame:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
+    WoWPro.ButtonBar:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
 -- Border enable/disable --
     if WoWProDB.profile.border then
         WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1)
+        WoWPro.ButtonBar:SetBackdropBorderColor(1, 1, 1, 1)
     else
         WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0)
+        WoWPro.ButtonBar:SetBackdropBorderColor(1, 1, 1, 0)
     end
     if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
@@ -317,7 +341,9 @@ function WoWPro.RowSizeSet()
     -- Auto Resizing - Vertical --
     if WoWProDB.profile.autoresize then
         local titleheight = 0
-        if WoWPro.Titlebar:IsShown() then titleheight = WoWPro.Titlebar:GetHeight() end
+        if WoWPro.Titlebar:IsShown() then 
+            titleheight = WoWPro.Titlebar:GetHeight()
+        end
         totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
         WoWPro.MainFrame:SetHeight(totalh)
     end
@@ -532,6 +558,158 @@ function WoWPro:CreateResizeButton()
     WoWPro.resizebutton = resizebutton
 end
 
+-- Button Bar --
+function WoWPro:CreateButtonBar()
+    local buttonbar = _G.CreateFrame("Frame", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    buttonbar:SetHeight(25)
+    buttonbar:SetWidth(200)
+    buttonbar:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, -3)
+    buttonbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, -3)
+    buttonbar:SetBackdrop( {
+        bgFile = WoWProDB.profile.bgtexture,
+        edgeFile = WoWProDB.profile.bordertexture,
+        tile = true, tileSize = 16, edgeSize = 16,
+        insets = { left = 4,  right = 3,  top = 4,  bottom = 0 }
+    })
+    WoWPro.ButtonBar = buttonbar
+
+    -- Guide List Button --
+    local guidelistbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    guidelistbutton:SetSize(20, 16)
+    guidelistbutton:SetPoint("BOTTOMLEFT", WoWPro.ButtonBar, "BOTTOMLEFT", 2, 2)
+    guidelistbutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    guidelistbutton:RegisterForClicks("AnyUp")
+    WoWPro.GuideListButton = guidelistbutton
+
+    -- Guide List Button Icon --
+    local guidelisticon = guidelistbutton:CreateTexture(nil, "OVERLAY")
+    guidelisticon:SetSize(12, 12)
+    guidelisticon:SetPoint("CENTER")
+    guidelisticon:SetTexture("Interface\\Buttons\\UI-GuildButton-MOTD-Up")
+
+    -- Guide List Button Tooltip --
+    guidelistbutton:SetScript("OnEnter", function(self)
+        _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText(L["Choose a Guide"], nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+        -- Lighten on hover
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    guidelistbutton:SetScript("OnLeave", function(self)
+        _G.GameTooltip:Hide()
+        -- Reset color
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+
+    -- Guide List Button Click --
+    guidelistbutton:SetScript("OnMouseDown", function(this, button)
+        if button == "LeftButton" then
+            -- Toggle guide list - close if open, open if closed
+            if WoWPro.GuideList and WoWPro.GuideList:IsShown() then
+                WoWPro.GuideList:Hide()
+            else
+                -- Close current guide frame if it's open
+                if WoWPro.CurrentGuideFrame and WoWPro.CurrentGuideFrame:IsShown() then
+                    WoWPro.CurrentGuideFrame:Hide()
+                end
+                WoWPro.GuideList:Show()
+            end
+        end
+    end)
+
+    -- Current Guide Button --
+    local currentguidebutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    currentguidebutton:SetSize(20, 16)
+    currentguidebutton:SetPoint("LEFT", WoWPro.GuideListButton, "RIGHT", 2, 0)
+    currentguidebutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    currentguidebutton:RegisterForClicks("AnyUp")
+    WoWPro.CurrentGuideButton = currentguidebutton
+
+    -- Current Guide Button Icon --
+    local currentguideicon = currentguidebutton:CreateTexture(nil, "OVERLAY")
+    currentguideicon:SetSize(12, 12)
+    currentguideicon:SetPoint("CENTER")
+    currentguideicon:SetTexture("Interface\\Buttons\\UI-GuildButton-PublicNote-Up")
+
+    -- Current Guide Button Tooltip --
+    currentguidebutton:SetScript("OnEnter", function(self)
+        _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText(L["Current Guide"], nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+        -- Lighten on hover
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    currentguidebutton:SetScript("OnLeave", function(self)
+        _G.GameTooltip:Hide()
+        -- Reset color
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+
+    -- Current Guide Button Click --
+    currentguidebutton:SetScript("OnMouseDown", function(this, button)
+        if button == "LeftButton" then
+            -- Toggle current guide frame - close if open, open if closed
+            if WoWPro.CurrentGuideFrame and WoWPro.CurrentGuideFrame:IsShown() then
+                WoWPro.CurrentGuideFrame:Hide()
+            else
+                -- Close guide list if it's open
+                if WoWPro.GuideList and WoWPro.GuideList:IsShown() then
+                    WoWPro.GuideList:Hide()
+                end
+                WoWPro.CurrentGuideFrame:Show()
+            end
+        end
+    end)
+
+    -- Options Button --
+    local optionsbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    optionsbutton:SetSize(20, 16)
+    optionsbutton:SetPoint("BOTTOMRIGHT", WoWPro.ButtonBar, "BOTTOMRIGHT", -2, 2)
+    optionsbutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    optionsbutton:RegisterForClicks("AnyUp")
+    WoWPro.OptionsButton = optionsbutton
+
+    -- Options Button Icon --
+    local optionsicon = optionsbutton:CreateTexture(nil, "OVERLAY")
+    optionsicon:SetSize(12, 12)
+    optionsicon:SetPoint("CENTER")
+    optionsicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+
+    -- Options Button Tooltip --
+    optionsbutton:SetScript("OnEnter", function(self)
+        _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+        -- Lighten on hover
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    optionsbutton:SetScript("OnLeave", function(self)
+        _G.GameTooltip:Hide()
+        -- Reset color
+        self:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+
+    -- Options Button Click --
+    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
+    optionsbutton:SetScript("OnMouseDown", function(this, button)
+        if button == "LeftButton" or button == "RightButton" then
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+        end
+    end)
+end
+
 -- Titlebar --
 function WoWPro:CreateTitleBar()
     local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
@@ -547,22 +725,6 @@ function WoWPro:CreateTitleBar()
     titlebar:RegisterForClicks("AnyUp")
     WoWPro.Titlebar = titlebar
 
-    -- Icon --
-    local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
-    titleicon:SetSize(12, 12)
-    titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
-    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
-
--- Tooltip --
-titleicon:HookScript("OnEnter", function(tool)
-    _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
-    _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
-    _G.GameTooltip:Show()
-end)
-titleicon:HookScript("OnLeave", function(tool)
-    _G.GameTooltip:Hide()
-end)
-
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
     titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
@@ -573,12 +735,6 @@ end)
     WoWPro.TitleText = titletext
 
     -- Scripts --
-    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
-    titleicon:SetScript("OnMouseDown", function(this, button)
-        if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
-        end
-    end)
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
@@ -934,14 +1090,6 @@ function WoWPro:CreateDropdownMenu()
         {text = L["New Style Guide Select"], func = function()
             WoWPro.ShowGuideMenu()
         end},
-        {text = L["Old Style Guidelist"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
-        end},
-        {text = L["Current Guide"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "currentGuide")
-        end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
         {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
         {text = L["Quest Picker"], func = WoWPro.PickQuestline }
@@ -952,6 +1100,7 @@ end
 function WoWPro:CreateFrames()
 
     WoWPro:CreateResizeButton()
+    WoWPro:CreateButtonBar()
     WoWPro:CreateTitleBar()
     WoWPro:CreateStickyFrame()
     WoWPro:CreateGuideFrame()
@@ -999,9 +1148,11 @@ end
 function WoWPro:AbleFrames()
     if WoWPro:IsEnabled() then
         WoWPro.MainFrame:Show()
+        WoWPro.ButtonBar:Show()
         WoWPro.Titlebar:Show()
     else
         WoWPro.MainFrame:Hide()
+        WoWPro.ButtonBar:Hide()
         WoWPro.Titlebar:Hide()
     end
 end

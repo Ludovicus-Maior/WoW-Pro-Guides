@@ -65,7 +65,15 @@ function GuideListMixin:SelectTab(tabIndex)
         end
     end
 
-    _G.PanelTemplates_SetTab(self, tabIndex)
+    -- Update all tabs appearance with modern styling
+    for i, tab in ipairs(self.Tabs) do
+        if tab.updateTabAppearance then
+            tab.updateTabAppearance(tab, i == tabIndex)
+        end
+    end
+    
+    -- Store selected tab
+    self.selectedTab = tabIndex
 
     if module.GetGuideListInfo then
         local listInfo = module:GetGuideListInfo()
@@ -82,8 +90,8 @@ function GuideListMixin:SelectTab(tabIndex)
                     text = button:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
                     text:SetPoint("TOP")
                     text:SetPoint("BOTTOM")
-                    text:SetPoint("LEFT", self.headers[index], 6, 0) -- Controls position of list
-                    text:SetPoint("RIGHT", self.headers[index], -6, 0)
+                    text:SetPoint("LEFT", self.headers[index], 45, 0) -- Move content right to align under headers
+                    -- Removed RIGHT constraint to allow full text display
 
                     button[index] = text
                 end
@@ -107,25 +115,23 @@ function WoWPro.CreateGuideList()
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
 
-    local versionInfo = {
-        CLASSIC = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -45}, tabPoint = {13, -1},  scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, 10}},
-        CATA = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -50}, tabPoint = {13, 2}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, -40}},
-        MOP = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -50}, tabPoint = {13, 2}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, -40}},
-        WAR_WITHIN = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, 10}, tabPoint = {80, 1}, scrollBoxPoint = {"TOPLEFT", 5, -100, "BOTTOMRIGHT", -30, 10}},
-        default = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, 10}, tabPoint = {80, 1}, scrollBoxPoint = {"TOPLEFT", 5, -100, "BOTTOMRIGHT", -30, 10}}
-    }
-
-    local currentVersion = WoWPro.CLASSIC and "CLASSIC" or WoWPro.CATA and "CATA" or WoWPro.MOP and "MOP" or WoWPro.WAR_WITHIN and "WAR_WITHIN" or "default"
-    local currentVersionInfo = versionInfo[currentVersion]
-
-    frame:SetSize(unpack(currentVersionInfo.size))
+    frame:SetSize(650, 600)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 100)
     frame:SetFrameStrata("DIALOG")
+
+    -- Set backdrop for proper background
+    frame:SetBackdrop({
+        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = true, tileSize = 16, edgeSize = 16,
+        insets = { left = 4, right = 4, top = 4, bottom = 4 }
+    })
+    frame:SetBackdropColor(0, 0, 0, 0.8)  -- Dark background with 80% opacity
+    frame:SetBackdropBorderColor(1, 1, 1, 1)  -- White border
 
     local texture = frame:CreateTexture(nil, "BACKGROUND")
     texture:SetAllPoints(true)
     texture:SetColorTexture(0, 0, 0, 0)
-    frame:SetBackdropColor(0, 0, 0, 0)
     frame.okay = function () return true; end
     frame.default = function () return true; end
     frame.refresh =  function () return true; end
@@ -135,19 +141,19 @@ function WoWPro.CreateGuideList()
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    title:SetPoint("TOP", frame, "TOP", unpack(currentVersionInfo.titlePoint))
+    title:SetPoint("TOP", frame, "TOP", 0, -10)
 
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
-    subtitle:SetPoint("TOP", title, "BOTTOM", unpack(currentVersionInfo.subtitlePoint))
+    subtitle:SetPoint("TOP", title, "BOTTOM", 0, 10)
     subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
     frame.subtitle = subtitle
 
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
-    scrollBox:SetPoint(currentVersionInfo.scrollBoxPoint[1], currentVersionInfo.scrollBoxPoint[2], currentVersionInfo.scrollBoxPoint[3])
-    scrollBox:SetPoint(currentVersionInfo.scrollBoxPoint[4], currentVersionInfo.scrollBoxPoint[5], currentVersionInfo.scrollBoxPoint[6])
+    scrollBox:SetPoint("TOPLEFT", 5, -100)
+    scrollBox:SetPoint("BOTTOMRIGHT", -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
 
@@ -161,7 +167,7 @@ function WoWPro.CreateGuideList()
             if prev then
                 tab:SetPoint("BOTTOMLEFT", prev, "BOTTOMRIGHT", 0, 0)
             else
-                tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", unpack(currentVersionInfo.tabPoint))
+                tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 1)
             end
             tab.name = name
             tab:SetScript("OnClick", Tab_OnClick)

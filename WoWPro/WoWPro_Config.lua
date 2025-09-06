@@ -1299,8 +1299,6 @@ function WoWPro.CreateConfig()
         args = {
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
-            guideSelect = createGuideConfig(),
-            currentGuide = createCurrentGuideConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             rankConfig = createRankConfig(),
             actionConfig = createActionConfig(),
@@ -1310,8 +1308,6 @@ function WoWPro.CreateConfig()
     --  (default = 100, 0=first, -1=last)
     topConfig.args.mainConfig.order=0
     topConfig.args.displayConfig.order=10
-    topConfig.args.guideSelect.order=11
-    topConfig.args.currentGuide.order=12
     topConfig.args.profileConfig.order=13
     topConfig.args.rankConfig.order=14
     topConfig.args.actionConfig.order=15
