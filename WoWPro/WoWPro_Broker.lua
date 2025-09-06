@@ -4150,7 +4150,7 @@ _G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
 
 
 function WoWPro.PickQuestline(qid, step)
-    if step then
+    if type(qid)== "number" and type(step) == "string" then
         _G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"].text = ("Select quest [%s] (QID %s) and all prerequisites?"):format(step,tostring(qid))
         _G.StaticPopup_Show("WOWPRO_CONFIRMPICK")
     else
