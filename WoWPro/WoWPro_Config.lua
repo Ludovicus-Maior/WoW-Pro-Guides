@@ -1190,23 +1190,6 @@ local function createActionConfig()
     return actions
 end
 
-local function createGuideConfig()
-    local actions = {
-        name = L["Guide Selection"],
-        type = "group",
-        args = {
-            GuideListFrame = {
-                type = "input",
-                name = "",
-                get = function() end,
-                set = function() end,
-                dialogControl = "WoWPro_GuideListWidget",
-            },
-        },
-    }
-    return actions
-end
-
 local function WoWPro_GuideListWidget(widget)
     if not widget then
         widget = {
@@ -1271,23 +1254,6 @@ local function WoWPro_CurrentGuideWidget(widget)
         }
     end
     return AceGUI:RegisterAsContainer(widget)
-end
-
-local function createCurrentGuideConfig()
-    local actions = {
-        name = "Current Guide",
-        type = "group",
-        args = {
-            currentGuideFrame = {
-                type = "input",
-                name = "",
-                get = function() end,
-                set = function() end,
-                dialogControl = "WoWPro_CurrentGuideWidget",
-            },
-        },
-    }
-    return actions
 end
 
 
