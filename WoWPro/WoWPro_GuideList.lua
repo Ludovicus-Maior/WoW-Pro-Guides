@@ -66,12 +66,12 @@ function GuideListMixin:SelectTab(tabIndex)
     end
 
     -- Update all tabs appearance with modern styling
-    for i, tab in ipairs(self.Tabs) do
-        if tab.updateTabAppearance then
-            tab.updateTabAppearance(tab, i == tabIndex)
+    for i, currentTab in ipairs(self.Tabs) do
+        if currentTab.updateTabAppearance then
+            currentTab.updateTabAppearance(currentTab, i == tabIndex)
         end
     end
-    
+
     -- Store selected tab
     self.selectedTab = tabIndex
 

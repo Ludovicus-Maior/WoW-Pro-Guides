@@ -398,7 +398,7 @@ end
 function WoWPro:CreateTab(name, parent)
     local tab = _G.CreateFrame('Button', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tab:RegisterForClicks("anyDown")
-    
+
     -- Modern tab styling
     tab:SetBackdrop({
         bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
@@ -408,25 +408,25 @@ function WoWPro:CreateTab(name, parent)
     })
     tab:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Dark background
     tab:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Gray border
-    
+
     -- Text styling
     local text = tab:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     text:SetPoint("CENTER")
     text:SetText(name)
     text:SetTextColor(1, 1, 1, 1)  -- White text
     tab.Text = text  -- Keep compatibility with existing code
-    
+
     -- Hover effects
-    tab:SetScript("OnEnter", function(self)
-        self:SetBackdropColor(0.4, 0.4, 0.4, 0.9)  -- Lighter on hover
+    tab:SetScript("OnEnter", function(button)
+        button:SetBackdropColor(0.4, 0.4, 0.4, 0.9)  -- Lighter on hover
     end)
-    tab:SetScript("OnLeave", function(self)
-        if self:GetID() ~= (parent.selectedTab or 1) then
-            self:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Reset if not selected
+    tab:SetScript("OnLeave", function(button)
+        if button:GetID() ~= (parent.selectedTab or 1) then
+            button:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Reset if not selected
             self:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Reset border color
         end
     end)
-    
+
     -- Selected tab appearance
     local function updateTabAppearance(tabButton, isSelected)
         if isSelected then
@@ -440,7 +440,7 @@ function WoWPro:CreateTab(name, parent)
         end
     end
     tab.updateTabAppearance = updateTabAppearance
-    
+
     -- Size the tab based on text
     local textWidth = text:GetStringWidth()
     tab:SetSize(textWidth + 20, 25)
