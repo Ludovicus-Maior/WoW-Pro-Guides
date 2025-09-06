@@ -1190,23 +1190,6 @@ local function createActionConfig()
     return actions
 end
 
-local function createGuideConfig()
-    local actions = {
-        name = L["Guide Selection"],
-        type = "group",
-        args = {
-            GuideListFrame = {
-                type = "input",
-                name = "",
-                get = function() end,
-                set = function() end,
-                dialogControl = "WoWPro_GuideListWidget",
-            },
-        },
-    }
-    return actions
-end
-
 local function WoWPro_GuideListWidget(widget)
     if not widget then
         widget = {
@@ -1273,23 +1256,6 @@ local function WoWPro_CurrentGuideWidget(widget)
     return AceGUI:RegisterAsContainer(widget)
 end
 
-local function createCurrentGuideConfig()
-    local actions = {
-        name = "Current Guide",
-        type = "group",
-        args = {
-            currentGuideFrame = {
-                type = "input",
-                name = "",
-                get = function() end,
-                set = function() end,
-                dialogControl = "WoWPro_CurrentGuideWidget",
-            },
-        },
-    }
-    return actions
-end
-
 
 function WoWPro.CreateConfig()
     local topConfig = {
@@ -1299,8 +1265,6 @@ function WoWPro.CreateConfig()
         args = {
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
-            guideSelect = createGuideConfig(),
-            currentGuide = createCurrentGuideConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             rankConfig = createRankConfig(),
             actionConfig = createActionConfig(),
@@ -1310,8 +1274,6 @@ function WoWPro.CreateConfig()
     --  (default = 100, 0=first, -1=last)
     topConfig.args.mainConfig.order=0
     topConfig.args.displayConfig.order=10
-    topConfig.args.guideSelect.order=11
-    topConfig.args.currentGuide.order=12
     topConfig.args.profileConfig.order=13
     topConfig.args.rankConfig.order=14
     topConfig.args.actionConfig.order=15
