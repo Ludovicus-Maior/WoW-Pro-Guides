@@ -115,7 +115,7 @@ h Hiri'watha Research Station|ACTIVE|26384|M|31.83,58.03|Z|0026; The Hinterlands
 T Darkcleric Marnal|QID|26384|M|31.86,58.39|Z|0026; The Hinterlands|N|To Darkcleric Marnal.|
 A The Eye of Shadra|QID|26381|M|31.86,58.39|Z|0026; The Hinterlands|N|From Darkcleric Marnal.|
 A The Battle for Andorhal|QID|28508|LEAD|26921|M|31.96,58.33|Z|0026; The Hinterlands|N|From Darkcleric Marnal.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Western Plaguelands next. Otherwise, skip this step to move on.|NA|
-* Tablet of Shadra|PRE|26384|N|You can safely delete this item.|U|58830|
+* Tablet of Shadra|PRE|26384|N|You can safely delete this item.|U|58241|
 A Can't Make An Omelette Without...|QID|26382|M|31.82,58.55|Z|0026; The Hinterlands|N|From Apothecary Surlis.|
 C Can't Make An Omelette Without...|QID|26382|M|46.14,39.80|Z|0026; The Hinterlands|L|58252 5|N|Loot the Shadraspawn Eggs from around Agol'watha after killing the Vilebranch Broodguard protecting it.|
 C The Eye of Shadra|QID|26381|M|45.49,38.83|Z|0026; The Hinterlands|L|58282|N|Loot it from the Cache of Shadra inside the tent in Agol'Watha.|
