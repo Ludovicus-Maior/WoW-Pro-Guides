@@ -1179,14 +1179,13 @@ function WoWPro:GuideUseMapLevels(guide, mapID)
         guide['level_float'] = true
         playerMaxLevel = 0
         guide['level_float'] = true
-    else
-        local meanLevel = WoWPro:GetAverageLevel(playerMinLevel, playerMaxLevel, playerLevel)
-
-        guide['startlevel'] = tonumber(playerMinLevel)
-        guide['endlevel'] = tonumber(playerMaxLevel)
-        guide['level'] = tonumber(meanLevel)
-        guide['sortlevel'] = tonumber(meanLevel)
     end
+    local meanLevel = WoWPro:GetAverageLevel(playerMinLevel, playerMaxLevel, playerLevel)
+
+    guide['startlevel'] = tonumber(playerMinLevel)
+    guide['endlevel'] = tonumber(playerMaxLevel)
+    guide['level'] = tonumber(meanLevel)
+    guide['sortlevel'] = tonumber(meanLevel)
 end
 
 function WoWPro:TimerunningSeasonID(guide, seasonID)
