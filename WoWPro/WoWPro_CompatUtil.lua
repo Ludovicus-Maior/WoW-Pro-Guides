@@ -367,8 +367,8 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
     -- get a reference or create an anchor frame positioned at cursor
     WoWPro.menuFrame = WoWPro.menuFrame or _G.CreateFrame("Frame", "WoWPro.menuFrame", _G.UIParent)
     local uiScale = _G.UIParent:GetEffectiveScale()
-    local x, y = _G.GetCursorPosition()
-    local offsetX, offsetY = x/uiScale, y/uiScale
+    local cursor_x, cursor_y = _G.GetCursorPosition()
+    local offsetX, offsetY = cursor_x/uiScale, cursor_y/uiScale
     WoWPro.menuFrame:ClearAllPoints()
     WoWPro.menuFrame:SetPoint("CENTER", _G.UIParent, "BOTTOMLEFT", offsetX, offsetY)
     local anchorFrame
