@@ -422,8 +422,8 @@ function WoWPro:CreateTab(name, parent)
     end)
     tab:SetScript("OnLeave", function(button)
         if button:GetID() ~= (parent.selectedTab or 1) then
-            button:SetBackdropColor(0.2, 0.2, 0.2, 0.8)  -- Reset if not selected
-            self:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)  -- Reset border color
+            button:SetBackdropColor(0.2, 0.2, 0.2, 0.8)
+            button:SetBackdropBorderColor(0.6, 0.6, 0.6, 1)
         end
     end)
 
