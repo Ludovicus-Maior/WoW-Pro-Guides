@@ -759,7 +759,7 @@ function WoWPro:CreateButtonBar()
             _G.DEFAULT_CHAT_FRAME:AddMessage("|cffff0000No active step to skip.|r")
             return
         end
-        
+
         -- Find the current step row
         local currentRow = nil
         for i, row in ipairs(WoWPro.rows) do
@@ -768,7 +768,7 @@ function WoWPro:CreateButtonBar()
                 break
             end
         end
-        
+
         if currentRow then
             -- Simulate the checkbox being checked and call the existing check function
             currentRow.check:SetChecked(true)
@@ -1152,23 +1152,23 @@ end
 -- Discord Dialog --
 function WoWPro:CreateDiscordDialog()
     if WoWPro.DiscordDialog then return end
-    
+
     local frame = WoWPro:CreateDialogBox("Discord Server!", 400, 180)
     frame:SetFrameStrata("DIALOG")
-    
+
     -- Discord icon
     local icon = frame:CreateTexture(nil, "ARTWORK")
     icon:SetSize(26, 26)
     icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 15, -35)
     icon:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Discord.tga")
-    
+
     -- Description text
     local desc = frame:CreateFontString(nil, nil, "GameFontNormal")
     desc:SetPoint("TOPLEFT", icon, "TOPRIGHT", 10, -2)
     desc:SetPoint("RIGHT", frame, "RIGHT", -15, 0)
     desc:SetJustifyH("LEFT")
     desc:SetText("Connect with other players, get help, and stay updated!")
-    
+
     -- EditBox
     local editbox = _G.CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
     editbox:SetSize(260, 20)
@@ -1176,7 +1176,7 @@ function WoWPro:CreateDiscordDialog()
     editbox:SetText("https://discord.gg/aarduK7")
     editbox:SetAutoFocus(false)
     editbox:SetScript("OnEscapePressed", function() frame:Hide() end)
-    
+
     -- Copy button
     local copyButton = _G.CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
     copyButton:SetSize(80, 22)
@@ -1187,21 +1187,21 @@ function WoWPro:CreateDiscordDialog()
         editbox:HighlightText()
         _G.DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00Discord link copied! Paste it in your browser.|r")
     end)
-    
+
     -- Close button
     local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
     closeButton:SetSize(80, 22)
     closeButton:SetPoint("TOPRIGHT", editbox, "BOTTOMRIGHT", 0, -10)
     closeButton:SetText("Close")
     closeButton:SetScript("OnClick", function() frame:Hide() end)
-    
+
     -- Auto-select text when shown
     frame:SetScript("OnShow", function()
         editbox:SetText("https://discord.gg/aarduK7")
         editbox:SetFocus()
         editbox:HighlightText()
     end)
-    
+
     WoWPro.DiscordDialog = frame
 end
 
