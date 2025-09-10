@@ -701,10 +701,9 @@ function WoWPro:CreateButtonBar()
     end)
 
     -- Options Button Click --
-    local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     optionsbutton:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" or button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
         end
     end)
 end
