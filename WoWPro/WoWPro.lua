@@ -1123,6 +1123,23 @@ function WoWPro:GuideContent(guide, content)
     end
 end
 
+function WoWPro:GetAverageLevel(minLevel, maxLevel, playerLevel)
+    local meanLevel = 0
+    if maxLevel < playerLevel then
+        -- We are higher level than the guide
+        meanLevel = maxLevel
+    else
+        if minLevel <= playerLevel then
+            -- We are in the guide band
+            meanLevel = (playerLevel + minLevel) / 2.0
+        else
+            -- We are below the guide band
+            meanLevel = minLevel + 1.0
+        end
+    end
+    return meanLevel
+end
+
 -- This function should be called AFTER WoWPro:GuideLevels() (if it's being used) to override the settings from WoWPro:GuideLevels()
 function WoWPro:GuideSort(guide,sortLevel)
    guide['sortlevel'] = tonumber(sortLevel)
@@ -1136,29 +1153,41 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 70) -- REVIEW after Patch 10 for level changes.
+        upperLevel = min(playerLevel+1, 80) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
     if not meanLevel then
-		if upperLevel < playerLevel then
-			-- We are higher level than the guide
-			meanLevel = upperLevel
-		else
-			if lowerLevel <= playerLevel then
-				-- We are in the guide band
-				meanLevel = (playerLevel + lowerLevel) / 2.0
-			else
-				-- We are below the guide band
-				meanLevel = lowerLevel + 1.0
-			end
-		end
+	    meanLevel = WoWPro:GetAverageLevel(lowerLevel, upperLevel, playerLevel) 
 	end
 
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
 	guide['sortlevel'] = tonumber(meanLevel)
+end
+
+function WoWPro:GuideUseMapLevels(guide, mapID)
+    local playerLevel = WoWPro:PlayerLevel()
+
+    playerMinLevel, playerMaxLevel, _, _ = C_Map.GetMapLevels(mapID)
+
+    -- Set levels to 0 to (Hopefully) make it obvious something went wrong!
+    if not playerMinLevel or not playerMaxLevel then
+        WoWPro.Error("Failed to get Levels for mapID: %d", mapID)
+        playerMinLevel = 0
+        guide['level_float'] = true
+        playerMaxLevel = 0
+        guide['level_float'] = true
+    else 
+
+    local meanLevel = WoWPro:GetAverageLevel(playerMinLevel, playerMaxLevel, playerLevel) 
+
+    guide['startlevel'] = tonumber(playerMinLevel)
+    guide['endlevel'] = tonumber(playerMaxLevel)
+    guide['level'] = tonumber(meanLevel)
+	guide['sortlevel'] = tonumber(meanLevel)
+    end
 end
 
 function WoWPro:TimerunningSeasonID(guide, seasonID)
