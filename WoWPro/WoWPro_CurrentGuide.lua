@@ -13,39 +13,23 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-if WoWPro.CLASSIC then
-    frame:SetSize(600, 700)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.WRATH then
-    frame:SetSize(650, 520)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.CATA then
-    frame:SetSize(700, 550)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.MOP then
-    frame:SetSize(700, 550)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-else
-    frame:SetSize(625, 480)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-end
+frame:SetSize(650, 600)
+frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
 frame:SetFrameStrata("DIALOG")
 
--- Set backdrop to match GuideList frame
 frame:SetBackdrop({
     bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
     tile = true, tileSize = 16, edgeSize = 16,
     insets = { left = 4, right = 4, top = 4, bottom = 4 }
 })
-frame:SetBackdropColor(0, 0, 0, 0.8)  -- Dark background with 80% opacity to match GuideList
-frame:SetBackdropBorderColor(1, 1, 1, 1)  -- White border to match GuideList
+frame:SetBackdropColor(0, 0, 0, 1)
+frame:SetBackdropBorderColor(1, 1, 1, 1)
 
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
 texture:SetColorTexture(0, 0, 0, 0)
 
--- Add the frame to the special frames list
 _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
 frame:Hide()

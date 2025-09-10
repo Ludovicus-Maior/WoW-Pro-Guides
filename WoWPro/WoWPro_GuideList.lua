@@ -65,14 +65,12 @@ function GuideListMixin:SelectTab(tabIndex)
         end
     end
 
-    -- Update all tabs appearance with modern styling
     for i, currentTab in ipairs(self.Tabs) do
         if currentTab.updateTabAppearance then
             currentTab.updateTabAppearance(currentTab, i == tabIndex)
         end
     end
 
-    -- Store selected tab
     self.selectedTab = tabIndex
 
     if module.GetGuideListInfo then
@@ -90,8 +88,8 @@ function GuideListMixin:SelectTab(tabIndex)
                     text = button:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
                     text:SetPoint("TOP")
                     text:SetPoint("BOTTOM")
-                    text:SetPoint("LEFT", self.headers[index], 45, 0) -- Move content right to align under headers
-                    -- Removed RIGHT constraint to allow full text display
+                    text:SetPoint("LEFT", self.headers[index], 45, 0)
+
 
                     button[index] = text
                 end
@@ -116,7 +114,7 @@ function WoWPro.CreateGuideList()
     frame.parent = "WoWPro"
 
     frame:SetSize(650, 600)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 100)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
     frame:SetFrameStrata("DIALOG")
 
     -- Set backdrop for proper background
@@ -126,8 +124,8 @@ function WoWPro.CreateGuideList()
         tile = true, tileSize = 16, edgeSize = 16,
         insets = { left = 4, right = 4, top = 4, bottom = 4 }
     })
-    frame:SetBackdropColor(0, 0, 0, 0.8)  -- Dark background with 80% opacity
-    frame:SetBackdropBorderColor(1, 1, 1, 1)  -- White border
+    frame:SetBackdropColor(0, 0, 0, 0.8)
+    frame:SetBackdropBorderColor(1, 1, 1, 1)
 
     local texture = frame:CreateTexture(nil, "BACKGROUND")
     texture:SetAllPoints(true)

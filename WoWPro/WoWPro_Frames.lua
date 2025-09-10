@@ -50,7 +50,7 @@ function WoWPro:DragSet()
     -- Drag Customization --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     if WoWProDB.profile.drag then
-        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
+        WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
@@ -58,7 +58,7 @@ function WoWPro:DragSet()
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
             end
         end)
-        WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
+        WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
                 WoWPro.MainFrame:SetUserPlaced(false)
@@ -67,6 +67,13 @@ function WoWPro:DragSet()
             end
         end)
     else
+        WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
+            if button == "RightButton" then
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
+            end
+        end)
+        WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
+        end)
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
@@ -128,6 +135,15 @@ function WoWPro:TitlebarSet()
     -- Tab Button Colors --
     WoWPro.GuideListButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
     WoWPro.CurrentGuideButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    if WoWPro.ResetGuideButton then
+        WoWPro.ResetGuideButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end
+    if WoWPro.DiscordButton then
+        WoWPro.DiscordButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end
+    if WoWPro.SkipStepsButton then
+        WoWPro.SkipStepsButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end
     WoWPro.OptionsButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])    -- Fonts --
     WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
     WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
@@ -453,7 +469,7 @@ function WoWPro:CreateDialogBox(name, w, h)
         tile = true, tileSize = 16, edgeSize = 16,
         insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
     })
-    frame:SetBackdropColor(0.2, 0.2, 0.2, 1)
+    frame:SetBackdropColor(0.05, 0.05, 0.05, 1)
     frame:SetHeight(h)
     frame:SetWidth(w)
     frame:SetFrameStrata("TOOLTIP")
@@ -609,6 +625,7 @@ function WoWPro:CreateButtonBar()
     -- Guide List Button Click --
     guidelistbutton:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" then
+            WoWPro:CloseDiscordDialog()
             -- Toggle guide list - close if open, open if closed
             if WoWPro.GuideList and WoWPro.GuideList:IsShown() then
                 WoWPro.GuideList:Hide()
@@ -657,6 +674,7 @@ function WoWPro:CreateButtonBar()
     -- Current Guide Button Click --
     currentguidebutton:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" then
+            WoWPro:CloseDiscordDialog()
             -- Toggle current guide frame - close if open, open if closed
             if WoWPro.CurrentGuideFrame and WoWPro.CurrentGuideFrame:IsShown() then
                 WoWPro.CurrentGuideFrame:Hide()
@@ -666,6 +684,137 @@ function WoWPro:CreateButtonBar()
                     WoWPro.GuideList:Hide()
                 end
                 WoWPro.CurrentGuideFrame:Show()
+            end
+        end
+    end)
+
+    -- Guide Reset Button --
+    local resetbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    resetbutton:SetSize(20, 16)
+    resetbutton:SetPoint("LEFT", WoWPro.CurrentGuideButton, "RIGHT", 2, 0)
+    resetbutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    resetbutton:RegisterForClicks("AnyUp")
+    WoWPro.ResetGuideButton = resetbutton
+
+    local reseticon = resetbutton:CreateTexture(nil, "OVERLAY")
+    reseticon:SetSize(12, 12)
+    reseticon:SetPoint("CENTER")
+    reseticon:SetTexture("Interface\\Buttons\\UI-RefreshButton")
+
+    resetbutton:SetScript("OnEnter", function(button)
+        _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText("Reset Current Guide", nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    resetbutton:SetScript("OnLeave", function(button)
+        _G.GameTooltip:Hide()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+    resetbutton:SetScript("OnMouseDown", function(this, button)
+        if button == "LeftButton" then
+            WoWPro:CloseDiscordDialog()
+            WoWPro.ResetCurrentGuide()
+        end
+    end)
+
+    -- Skip Steps Button --
+    local skipbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    skipbutton:SetSize(20, 16)
+    skipbutton:SetPoint("LEFT", resetbutton, "RIGHT", 2, 0)
+    skipbutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    skipbutton:RegisterForClicks("AnyUp")
+    WoWPro.SkipStepsButton = skipbutton
+
+    local skipicon = skipbutton:CreateTexture(nil, "OVERLAY")
+    skipicon:SetSize(16, 16)
+    skipicon:SetPoint("CENTER")
+    skipicon:SetTexture("Interface\\Buttons\\UI-CheckBox-Check")
+    skipicon:SetVertexColor(1, 0.82, 0, 1) -- Gold color to match theme
+
+    skipbutton:SetScript("OnEnter", function(button)
+        _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText("Skip Current Step", 1, 1, 1, 1, true)
+        _G.GameTooltip:AddLine(" ", 1, 1, 1)
+        _G.GameTooltip:AddLine("Left-click: Skip step", 0.8, 0.8, 0.8)
+        _G.GameTooltip:AddLine("Right-click: Complete step", 0.8, 0.8, 0.8)
+        _G.GameTooltip:Show()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    skipbutton:SetScript("OnLeave", function(button)
+        _G.GameTooltip:Hide()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+    skipbutton:SetScript("OnMouseDown", function(this, button)
+        WoWPro:CloseDiscordDialog()
+        if not WoWPro.ActiveStep or not WoWPro.rows or not WoWPro.rows[1] then
+            _G.DEFAULT_CHAT_FRAME:AddMessage("|cffff0000No active step to skip.|r")
+            return
+        end
+        
+        -- Find the current step row
+        local currentRow = nil
+        for i, row in ipairs(WoWPro.rows) do
+            if row.index == WoWPro.ActiveStep then
+                currentRow = row
+                break
+            end
+        end
+        
+        if currentRow then
+            -- Simulate the checkbox being checked and call the existing check function
+            currentRow.check:SetChecked(true)
+            WoWPro:CheckFunction(currentRow, button, true)
+        else
+            _G.DEFAULT_CHAT_FRAME:AddMessage("|cffff0000Current step not visible in guide window.|r")
+        end
+    end)
+
+    -- Discord Button --
+    local discordbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    discordbutton:SetSize(20, 16)
+    discordbutton:SetPoint("LEFT", skipbutton, "RIGHT", 2, 0)
+    discordbutton:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        tile = true, tileSize = 16,
+        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
+    })
+    discordbutton:RegisterForClicks("AnyUp")
+    WoWPro.DiscordButton = discordbutton
+
+    local discordicon = discordbutton:CreateTexture(nil, "OVERLAY")
+    discordicon:SetSize(12, 12)
+    discordicon:SetPoint("CENTER")
+    discordicon:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Discord.tga")
+
+    discordbutton:SetScript("OnEnter", function(button)
+        _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText("Join our Discord!", nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
+    end)
+    discordbutton:SetScript("OnLeave", function(button)
+        _G.GameTooltip:Hide()
+        button:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    end)
+    discordbutton:SetScript("OnMouseDown", function(this, button)
+        if button == "LeftButton" then
+            if not WoWPro.DiscordDialog then
+                WoWPro:CreateDiscordDialog()
+            end
+            -- Toggle the dialog - show if hidden, hide if shown
+            if WoWPro.DiscordDialog:IsShown() then
+                WoWPro.DiscordDialog:Hide()
+            else
+                WoWPro.DiscordDialog:Show()
             end
         end
     end)
@@ -706,6 +855,7 @@ function WoWPro:CreateButtonBar()
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent)
     optionsbutton:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" or button == "RightButton" then
+            WoWPro:CloseDiscordDialog()
             WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
@@ -990,6 +1140,69 @@ function WoWPro:CreateSkipStepsDialog()
         end)
         WoWPro.SkipStepsDialog:Show()
     end
+end
+
+-- Helper function to close Discord dialog when other buttons are pressed
+function WoWPro:CloseDiscordDialog()
+    if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then
+        WoWPro.DiscordDialog:Hide()
+    end
+end
+
+-- Discord Dialog --
+function WoWPro:CreateDiscordDialog()
+    if WoWPro.DiscordDialog then return end
+    
+    local frame = WoWPro:CreateDialogBox("Discord Server!", 400, 180)
+    frame:SetFrameStrata("DIALOG")
+    
+    -- Discord icon
+    local icon = frame:CreateTexture(nil, "ARTWORK")
+    icon:SetSize(26, 26)
+    icon:SetPoint("TOPLEFT", frame, "TOPLEFT", 15, -35)
+    icon:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Discord.tga")
+    
+    -- Description text
+    local desc = frame:CreateFontString(nil, nil, "GameFontNormal")
+    desc:SetPoint("TOPLEFT", icon, "TOPRIGHT", 10, -2)
+    desc:SetPoint("RIGHT", frame, "RIGHT", -15, 0)
+    desc:SetJustifyH("LEFT")
+    desc:SetText("Connect with other players, get help, and stay updated!")
+    
+    -- EditBox
+    local editbox = _G.CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
+    editbox:SetSize(260, 20)
+    editbox:SetPoint("TOP", desc, "BOTTOM", 0, -20)
+    editbox:SetText("https://discord.gg/aarduK7")
+    editbox:SetAutoFocus(false)
+    editbox:SetScript("OnEscapePressed", function() frame:Hide() end)
+    
+    -- Copy button
+    local copyButton = _G.CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+    copyButton:SetSize(80, 22)
+    copyButton:SetPoint("TOPLEFT", editbox, "BOTTOMLEFT", 0, -10)
+    copyButton:SetText("Copy")
+    copyButton:SetScript("OnClick", function()
+        editbox:SetFocus()
+        editbox:HighlightText()
+        _G.DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00Discord link copied! Paste it in your browser.|r")
+    end)
+    
+    -- Close button
+    local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+    closeButton:SetSize(80, 22)
+    closeButton:SetPoint("TOPRIGHT", editbox, "BOTTOMRIGHT", 0, -10)
+    closeButton:SetText("Close")
+    closeButton:SetScript("OnClick", function() frame:Hide() end)
+    
+    -- Auto-select text when shown
+    frame:SetScript("OnShow", function()
+        editbox:SetText("https://discord.gg/aarduK7")
+        editbox:SetFocus()
+        editbox:HighlightText()
+    end)
+    
+    WoWPro.DiscordDialog = frame
 end
 
 -- TODO: make it module specific, move this to WoWPro_Leveling
