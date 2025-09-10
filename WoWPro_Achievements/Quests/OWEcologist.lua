@@ -234,7 +234,7 @@ T A Truth Universally Acknowledged|QID|87294|M|75.90,34.22|Z|2371;K'aresh|N|To V
 
 ;Week 5
 
-A The Dreamweavers|QID|42170|M|75.89,34.22|Z|2371;K'aresh|N|From Ve'nari.|
+A To Maldraxxus|QID|86587|M|75.89,34.22|Z|2371;K'aresh|N|From Ve'nari.|
 C To Maldraxxus|QID|86587|M|69.11,48.49|Z|1536;Maldraxxus|QO|1|NC|N|Travel to Maldraxxus.|
 T To Maldraxxus|QID|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|
 A A Plague a Day Keeps the Doctor Away|QID|86589|PRE|86587|M|69.00,48.41|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|
@@ -273,7 +273,7 @@ C Triple Twenty|QID|86601|M|46.14,57.85|Z|2371;K'aresh|QO|1|NC|U|235411|N|Curiou
 T Medical Checkup|QID|86602|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 T Triple Twenty|QID|86601|M|49.09,57.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 
-;Week 5
+;Week 6
 
 A Ray-ket Ball|QID|86603|M|75.87,34.18|Z|2371;K'aresh|N|From Om'talad.|
 C Ray-ket Ball|QID|86603|M|76.22,34.39|Z|2371;K'aresh|QO|1|NC|U|229420|N|Ball caught.|
@@ -293,6 +293,97 @@ C The Freedom of Ray-cing|QID|86607|M|77.42,32.92|Z|2371;K'aresh|QO|1|NC|N|Zoomi
 C The Freedom of Ray-cing|QID|86607|M|74.17,27.42|Z|2371;K'aresh|QO|2|NC|N|Race finished.|
 T The Freedom of Ray-cing|QID|86607|M|75.82,34.02|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 
+; week 7
+
+A Being Spiritual|QID|87408|M|75.92,34.09|Z|2371;K'aresh|N|From Ve'nari.|
+C Being Spiritual|QID|87408|M|75.87,33.15|Z|2371;Untethered Space|QO|1|NC|N|Untethered Space entered.|
+C Being Spiritual|QID|87408|M|67.23,43.72|Z|2371;Untethered Space|QO|2|NC|N|Flyer Essence.|
+T Being Spiritual|QID|87408|M|75.87,34.25|Z|2371;K'aresh|N|To Ve'nari.|
+A From Death, Life|QID|87409|PRE|87408|M|75.87,34.25|Z|2371;K'aresh|N|From Ve'nari.|
+C From Death, Life|QID|87409|M|75.81,34.11|Z|2371;K'aresh|QO|1|NC|N|Insert the K'arroc Essence into the Oasis Console.|
+C From Death, Life|QID|87409|M|75.81,34.11|Z|2371;K'aresh|QO|2|NC|N|K'arroc created.|
+T From Death, Life|QID|87409|M|75.86,34.17|Z|2371;K'aresh|N|To Ve'nari.|
+A Percussive Negotiation|QID|87410|PRE|87409|M|75.83,34.08|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Percussive Negotiation|QID|87410|M|47.02,18.02|Z|2371;K'aresh|QO|1|NC|N|Void Shielding Part.|
+T Percussive Negotiation|QID|87410|M|75.88,34.22|Z|2371;K'aresh|N|To Ve'nari.|
+A Making Stuff to Look Tough|QID|87411|PRE|87410|M|75.88,34.22|Z|2371;K'aresh|N|From Ve'nari.|
+C Making Stuff to Look Tough|QID|87411|M|79.92,32.44|Z|2371;K'aresh|QO|1|CHAT|N|Speak with Ve'nari outside the Oasis.|
+C Making Stuff to Look Tough|QID|87411|M|79.85,32.40|Z|2371;K'aresh|QO|2|NC|N|Void Shield crafted.|
+C Making Stuff to Look Tough|QID|87411|M|79.90,32.40|Z|2371;K'aresh|QO|3|NC|N|Void Shield collected.|
+T Making Stuff to Look Tough|QID|87411|M|75.90,34.17|Z|2371;K'aresh|N|To Ve'nari.|
+A K'arrocing Photos|QID|87412|PRE|87411|M|75.85,34.21|Z|2371;K'aresh|N|From Om'talad.|
+C K'arrocing Photos|QID|87412|M|72.60,30.38|Z|2371;K'aresh|QO|1|NC|U|237012|N|Domineering K'arrocs documented.|
+T K'arrocing Photos|QID|87412|M|75.75,34.21|Z|2371;K'aresh|N|To Om'talad.|
+A Bird Bath|QID|87413|PRE|87412|M|75.97,34.58|Z|2371;K'aresh|N|From Rhubarn.|
+C Bird Bath|QID|87413|M|73.31,30.41|Z|2371;K'aresh|QO|1|NC|U|237013|N|Domineering K'arrocs washed.|
+T Bird Bath|QID|87413|M|75.98,34.57|Z|2371;K'aresh|N|To Rhubarn.|
+A Medical Maneuvers|QID|87414|PRE|87413|M|75.87,34.23|Z|2371;K'aresh|N|From Om'talad.|
+C Medical Maneuvers|QID|87414|M|73.38,30.42|Z|2371;K'aresh|QO|1|NC|U|237030|N|Domineering K'arrocs shrunk and collected.|
+T Medical Maneuvers|QID|87414|M|75.84,34.21|Z|2371;K'aresh|N|To Om'talad.|
+A The Skies of K'aresh|QID|87415|PRE|87414|M|75.84,34.21|Z|2371;K'aresh|N|From Om'talad.|
+C The Skies of K'aresh|QID|87415|M|75.84,34.21|Z|2371;K'aresh|QO|1|CHAT|N|Speak with Om'talad (Optional).|
+C The Skies of K'aresh|QID|87415|M|75.90,30.60|Z|2371;K'aresh|QO|2|NC|N|Race completed.|
+T The Skies of K'aresh|QID|87415|M|75.89,34.19|Z|2371;K'aresh|N|To Ve'nari.|
+
+;week 8
+
+A Outbound for Outland|QID|88655|M|49.05,57.03|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+T Outbound for Outland|QID|88655|M|71.52,40.73|Z|107|N|To Hemet Nesingwary.|
+A Comfort Stones|QID|88656|PRE|88655|M|71.52,40.73|Z|107|N|From Hemet Nesingwary.|
+A Sneks and Things|QID|88658|PRE|88655|M|71.52,40.73|Z|107|N|From Hemet Nesingwary.|
+C Sneks and Things|QID|88658|M|58.80,54.98|Z|107|QO|1|NC|N|Nagrand Snake.|
+C Sneks and Things|QID|88658|M|58.80,54.98|Z|107|QO|2|NC|N|Fragrant Dreaming Glory.|
+C Comfort Stones|QID|88656|M|64.05,71.30|Z|107|QO|1|NC|N|Smooth Stone.|
+T Comfort Stones|QID|88656|M|71.55,40.71|Z|107|N|To Hemet Nesingwary.|
+T Sneks and Things|QID|88658|M|71.55,40.71|Z|107|N|To Hemet Nesingwary.|
+A Zangarmoss|QID|88657|PRE|88656&88658|M|71.55,40.71|Z|107|N|From Hemet Nesingwary.|
+C Zangarmoss|QID|88657|M|71.42,75.29|Z|102|QO|1|NC|N|Marsh Moss.|
+T Zangarmoss|QID|88657|M|71.57,40.69|Z|107|N|To Hemet Nesingwary.|
+A Snakes on a Plane|QID|88660|PRE|88657|M|71.57,40.69|Z|107|N|From Hemet Nesingwary.|
+C Snakes on a Plane|QID|88660|M|71.20,41.44|Z|107|QO|1|NC|N|Snakes gathered.|
+T Snakes on a Plane|QID|88660|M|71.52,40.70|Z|107|N|To Hemet Nesingwary.|
+A To the Atrium|QID|88661|PRE|88660|M|71.52,40.70|Z|107|N|From Hemet Nesingwary.|
+T To the Atrium|QID|88661|M|48.45,61.10|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A What's in a Name?|QID|88662|PRE|88661|M|48.45,61.10|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C What's in a Name?|QID|88662|M|48.44,60.99|Z|2371;K'aresh|QO|1|NC|N|Female snake named.|
+C What's in a Name?|QID|88662|M|48.44,60.99|Z|2371;K'aresh|QO|2|NC|N|Male snake named.|
+T What's in a Name?|QID|88662|M|48.45,61.11|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Scales and Measures|QID|88663|PRE|88662|M|48.45,61.11|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+A Nagrandification|QID|88664|PRE|88662|M|48.45,61.11|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Scales and Measures|QID|88663|M|48.48,61.03|Z|2371;K'aresh|QO|1|NC|N|Data Analyis initiated.|
+C Scales and Measures|QID|88663|M|48.48,61.03|Z|2371;K'aresh|QO|2|NC|N|Data Analysis completed.|
+C Nagrandification|QID|88664|M|47.48,63.61|Z|2371;K'aresh|QO|1|NC|N|Fragrant Dreaming Glory planted.|
+T Scales and Measures|QID|88663|M|48.44,61.10|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+T Nagrandification|QID|88664|M|48.44,61.10|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Follow Your Tongue|QID|88665|PRE|88663&88664|M|48.44,61.10|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Follow Your Tongue|QID|88665|M|47.90,60.44|Z|2371;K'aresh|QO|1|NC|N|Nagrand Snakes lured to Eco-Dome: Primus.|
+T Follow Your Tongue|QID|88665|M|49.05,57.03|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Mossy Beds|QID|88666|PRE|88665|M|49.05,57.03|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+A Water Snakes|QID|88667|PRE|88665|M|49.05,57.03|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Mossy Beds|QID|88666|M|46.29,57.65|Z|2371;K'aresh|QO|1|NC|N|Mossy Snake Beds tested.|
+C Water Snakes|QID|88667|M|47.75,56.55|Z|2371;K'aresh|QO|1|NC|U|237898|N|Parched Snake watered.|
+T Mossy Beds|QID|88666|M|49.07,57.02|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+T Water Snakes|QID|88667|M|49.07,57.02|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Ophidian Portation|QID|88668|PRE|88666&88667|M|49.07,57.02|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Ophidian Portation|QID|88668|M|49.01,57.06|Z|2371;K'aresh|QO|1|NC|N|Named snakes teleported.|
+T Ophidian Portation|QID|88668|M|75.86,34.04|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Nesting Time|QID|88669|PRE|88668|M|75.86,34.04|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+A Soothing Serpents|QID|88670|PRE|88668|M|75.86,34.04|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Nesting Time|QID|88669|M|74.57,31.24|Z|2371;K'aresh|QO|1|NC|N|Comfy Snake Bed summoned.|
+C Nesting Time|QID|88669|M|74.59,31.18|Z|2371;K'aresh|QO|5|NC|N|Guardian Bot summoned.|
+C Nesting Time|QID|88669|M|74.57,31.15|Z|2371;K'aresh|QO|2|NC|N|Cozy Heat Lamp summoned.|
+C Nesting Time|QID|88669|M|74.57,31.15|Z|2371;K'aresh|QO|4|NC|N|Fragrant Dreaming Glory summoned.|
+C Nesting Time|QID|88669|M|74.57,31.15|Z|2371;K'aresh|QO|3|NC|N|Extra Cushiony Moss summoned.|
+C Soothing Serpents|QID|88670|M|73.62,33.31|Z|2371;K'aresh|QO|1|NC|U|238216|N|Agitated Snake soothed.|
+T Nesting Time|QID|88669|M|75.79,34.06|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+T Soothing Serpents|QID|88670|M|75.79,34.06|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Eggstra Eggs|QID|88671|PRE|88669&88670|M|75.79,34.06|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Eggstra Eggs|QID|88671|M|72.51,30.14|Z|2371;K'aresh|QO|1|NC|N|K'arroc Egg.|
+T Eggstra Eggs|QID|88671|M|75.84,34.01|Z|2371;K'aresh|N|To Hemet Nesingwary.|
+A Snakelets!|QID|88672|PRE|88671|M|75.84,34.01|Z|2371;K'aresh|N|From Hemet Nesingwary.|
+C Snakelets!|QID|88672|M|74.56,31.23|Z|2371;K'aresh|QO|1|NC|N|Meet Hemet at the nest.|
+C Snakelets!|QID|88672|M|74.54,31.20|Z|2371;K'aresh|QO|2|NC|N|Help hatch the snakelets.|
+T Snakelets!|QID|88672|M|75.83,34.00|Z|2371;K'aresh|N|To Hemet Nesingwary.|
 
 ]]
 end)
