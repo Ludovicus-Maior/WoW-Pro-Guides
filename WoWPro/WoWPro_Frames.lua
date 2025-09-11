@@ -46,8 +46,8 @@ function WoWPro:ResizeSet()
         WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
     end
 end
+
 function WoWPro:DragSet()
-    -- Drag Customization --
     if WoWProDB.profile.drag then
         WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
@@ -68,17 +68,10 @@ function WoWPro:DragSet()
     else
         WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
-        end)
-        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-            if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
-            end
-        end)
-        WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         end)
     end
 end
