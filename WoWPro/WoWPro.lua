@@ -1026,11 +1026,9 @@ function WoWPro.BuildGuideInMenuList()
     SortNestedMenu(WoWPro.GuideMenuList, true)
 end
 
-function WoWPro.ShowGuideMenu()
+function WoWPro.ShowGuideMenu(anchorFrame)
     WoWPro.BuildGuideInMenuList()
-    local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent)
-    menuFrame:SetPoint("Center", _G.UIParent, "Center")
-    WoWPro.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
+    WoWPro.EasyMenu(WoWPro.GuideMenuList, anchorFrame, "cursor", 0 , 0, "MENU")
 end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)

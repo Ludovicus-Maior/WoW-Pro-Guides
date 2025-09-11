@@ -101,12 +101,11 @@ C Champion of Chi-Ji|QID|30740|M|34.4,81.8|Z|Krasarang Wilds|
 T Champion of Chi-Ji|QID|30740|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius. Congratulations, you have finished the August Celestials story line.|
 
 ;white tiger temple
-T Trial At The Temple of the White Tiger|QID|31380|M|66.4,46.4|Z|Kun-Lai Summit|FACTION|Alliance|N|To Xuen who moves around his temple depending on which quests he is going to give that day, if he is not here look for the ?.|
-T Trial At The Temple of the White Tiger|QID|31381|M|66.4,46.4|Z|Kun-Lai Summit|FACTION|Horde|N|To Xuen who moves around his temple depending on which quests he is going to give that day. if he is not here look for the ?.|
+T Trial At The Temple of the White Tiger|QID|31380|M|67.2,55.9|Z|Kun-Lai Summit|FACTION|Alliance|N|To Xuen who moves around his temple depending on which quests he is going to give that day, if he is not here look for the ?.|
+T Trial At The Temple of the White Tiger|QID|31381|M|67.2,55.9|Z|Kun-Lai Summit|FACTION|Horde|N|To Xuen who moves around his temple depending on which quests he is going to give that day. if he is not here look for the ?.|
 N Achievement Opportunity - Finish Them!|ACH|7286|PRE|31381^31380|N|This one will take a minimum of two trips to the Temple of the White Tiger. It requires you to face all the champions. It is random which set of champions you face. You do not have to get the Tag credit for these, only the kill credit.|
-A Contending With Bullies|QID|31517|PRE|31380^31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
-A Random Round 1|QID|30879^30880|PRE|31380^31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a differant spot in the temple.|
-A The Torch of Strength|QID|31492|PRE|31380^31381|LEAD|31517|M|68.4,56.4|Z|Kun-Lai Summit|N|From Lin Tenderpaw.|
+A Random Round 1|QID|30879^30880|PRE|31380^31381|M|67.2,55.9|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a differant spot in the temple.|
+A Contending with Bullies or Torch or Strength|QID|31517^31492|PRE|31380^31381|M|68.4,56.4|Z|Kun-Lai Summit|N|Lin Tenderpaw or Xuen.|
 C Contending With Bullies|QID|31517|M|71,55.8|Z|Kun-Lai Summit|N|Shonuf is located in the village of Yinying to the SE. Clear the area around him or the other mobs will assist.|
 C The Torch of Strength|QID|31492|N|If a whirlwind gets close, your torch goes out, if you still have the debuff, you can relight your torch by standing next to another player with a lit torch for a second or so, or go talk to the quest giver to get a new torch. Remember there is no time limit on this quest.|
 T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpaw.|
