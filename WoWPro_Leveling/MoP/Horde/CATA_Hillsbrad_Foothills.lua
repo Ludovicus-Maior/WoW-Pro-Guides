@@ -69,7 +69,7 @@ A No One Here Gets Out Alive|QID|28192|PRE|28096|M|36.18,61.14|Z|0025; Hillsbrad
 T No One Here Gets Out Alive|QID|28192|M|36.18,61.14|Z|0025; Hillsbrad Foothills|N|To Warden Stillwater.|
 A Discretion is Key|QID|28197|PRE|28192|M|36.18,61.14|Z|0025; Hillsbrad Foothills|N|From Warden Stillwater.|
 A For Science!|QID|28199|PRE|28192|M|36.34,60.25|Z|0025; Hillsbrad Foothills|N|From Flesh-Shaper Arnauld.|
-C For Science!|QID|28199|M|39.10,63.63|63254|Z|0025; Hillsbrad Foothills|L|63254 6|ITEM|N|Risen Hillsbrad Peasants and Farmers.|S|
+C For Science!|QID|28199|M|39.10,63.63|Z|0025; Hillsbrad Foothills|L|63254 6|ITEM|63254|N|Risen Hillsbrad Peasants and Farmers.|S|
 C Discretion is Key|QID|28197|QO|2|M|37.57,63.12|Z|0025; Hillsbrad Foothills|N|Kill Clerk Horrace Whitesteed.|T|Clerk Horrace Whitesteed|
 A The Battle for Hillsbrad|QID|28196|PRE|28192|M|PLAYER|CC|N|From The Battle for Hillsbrad you just looted from Clerk Horrace Whitesteed.|U|63250|O|
 C Discretion is Key|QID|28197|QO|1|M|38.70,64.65|Z|0025; Hillsbrad Foothills|N|Kill Citizen Wilkes in the southern part of the fields.\n[color=FF0000]NOTE: [/color]He'll jump off the tower and attack you.|

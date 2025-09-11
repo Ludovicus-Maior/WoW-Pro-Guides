@@ -39,6 +39,7 @@ C Raise the Alarm|QID|75923|M|53.08,46.58|Z|2112;Valdrakken|QO|4|NC|N|Follow gua
 C Raise the Alarm|QID|75923|M|54.62,47.40|Z|2112;Valdrakken|QO|5|CHAT|N|Ask Captain Drine what's going on.|
 T Raise the Alarm|QID|75923|M|53.95,46.34|Z|2112;Valdrakken|N|To Captain Drine.|
 ;may be already done; was from patch 10.0
+t To Valdrakken|QID|66244|M|58.11,34.88|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder.|
 A A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112;Valdrakken|N|From Alexstrasza the Life-Binder, back up on the Seat of the Aspects.|
 C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112;Valdrakken|CHAT|N|Tell her about Azure Span.|
 T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder.|

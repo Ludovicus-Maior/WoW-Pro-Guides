@@ -75,7 +75,7 @@ function WoWPro:DragSet()
         end)
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -109,7 +109,7 @@ end
 
 function WoWPro:TitlebarSet()
     WoWPro:dbp("WoWPro:TitlebarSet()")
-    -- Titlebar enable/disable --
+-- Titlebar enable/disable --
     WoWPro:TitlebarShow()
 	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
 		WoWPro.Titlebar:SetBackdrop( {
@@ -128,7 +128,7 @@ function WoWPro:TitlebarSet()
 		WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
 		WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
 	end
-    -- Colors --
+-- Colors --
     WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 
     -- Tab Button Colors --
@@ -147,17 +147,17 @@ function WoWPro:TitlebarSet()
     WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
     WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
 
-    -- Size --
+-- Size --
     WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
 
-    -- Scrollbar --
+-- Scrollbar --
     if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
     if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 
 function WoWPro:BackgroundSet()
     WoWPro:dbp("WoWPro:BackgroundSet()")
-    -- Textures and Borders --
+-- Textures and Borders --
 	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
 		WoWProDB.profile.pad = 14
 		WoWPro.MainFrame:SetBackdrop( {
@@ -190,11 +190,11 @@ function WoWPro:BackgroundSet()
         bgFile = WoWProDB.profile.stickytexture,
         tile = true, tileSize = 16
     })
-    -- Colors --
+-- Colors --
     WoWPro.MainFrame:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     WoWPro.StickyFrame:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
     WoWPro.ButtonBar:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
-    -- Border enable/disable --
+-- Border enable/disable --
     if WoWProDB.profile.border then
         WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1)
         WoWPro.ButtonBar:SetBackdropBorderColor(1, 1, 1, 1)
@@ -1231,7 +1231,7 @@ function WoWPro:CreateNextGuideDialog()
     button2text:SetText("Choose Guide From List")
     button2text:SetTextColor(1, 1, 1)
     button2:SetScript("OnClick", function(this, button)
-        WoWPro.ShowGuideMenu()
+        WoWPro.ShowGuideMenu(this)
         WoWPro.NextGuideDialog:Hide()
     end)
 
