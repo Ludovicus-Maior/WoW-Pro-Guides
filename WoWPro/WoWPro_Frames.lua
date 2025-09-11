@@ -75,6 +75,7 @@ function WoWPro:DragSet()
         end)
     end
 end
+
 function WoWPro:PaddingSet()
     local pad = WoWProDB.profile.pad
     -- Padding Customization --
