@@ -460,7 +460,7 @@ T Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215; Hallowfall|N|To Orren 
 
 ; ---REST AT LAST QUESTLINE---
 R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|RANK|2|
-; LFO Note:  This quest was not available to me first time TWW toon, See WOWHead top comment. Might need Azj-Kahet first.
+; LFO Note:  This quest was not available to me first time TWW toon, Need to finish Azj-Kahet first and unlock max level crap!
 A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339; Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
 T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215; Hallowfall|N|To Great Kyron back in Hallowfall.|RANK|2|
 A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215; Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
