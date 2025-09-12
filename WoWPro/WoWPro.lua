@@ -321,7 +321,7 @@ local defaults = { profile = {
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     bgcolor = {0.2, 0.2, 0.2, 0.7},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
-    border = true,
+    border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     stickycolor = {0.8, 0.8, 0.8, 0.7},
     stepfont = [[Fonts\FRIZQT__.TTF]],
