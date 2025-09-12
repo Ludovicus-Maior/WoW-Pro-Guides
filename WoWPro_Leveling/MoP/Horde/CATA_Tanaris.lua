@@ -70,8 +70,8 @@ T A Great Idea|QID|24951|M|55.65,60.79|N|To Zeke Bootscuff.|
 A Just Trying to Kill Some Bugs|QID|24953|PRE|24951|M|55.65,60.79|N|From Zeke Bootscuff.|
 R Talk to Narain Soothfancy.|QID|24953|CC|M|55.25,60.26|N|All that meat grinding was worth it, now you get to pilot a silithid!|
 R Go here|QID|24953|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ramp and you will be heading south west as you enter.|
-R Then here...|QID|24593|CC|M|54.19,70.07|N|Go to the cave mouth here, and take the left fork.|
-R Then finally here...|QID|24593|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2.|
+R Then here...|QID|24953|CC|M|54.19,70.07|N|Go to the cave mouth here, and take the left fork.|
+R Then finally here...|QID|24953|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2.|
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
 T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
 A Returning a Favor|QID|24905|LEAD|24955|PRE|24953|M|55.64,60.82|N|From Zeke Bootscuff.|
