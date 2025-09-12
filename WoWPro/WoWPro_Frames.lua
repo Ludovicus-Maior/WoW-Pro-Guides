@@ -125,19 +125,19 @@ function WoWPro:TitlebarSet()
     -- Colors --
     WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 
-    -- Tab Button Colors --
-    WoWPro.GuideListButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-    WoWPro.CurrentGuideButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    -- Tab Button Colors (match button bar background) --
+    WoWPro.GuideListButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
+    WoWPro.CurrentGuideButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     if WoWPro.ResetGuideButton then
-        WoWPro.ResetGuideButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+        WoWPro.ResetGuideButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     end
     if WoWPro.DiscordButton then
-        WoWPro.DiscordButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+        WoWPro.DiscordButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     end
     if WoWPro.SkipStepsButton then
-        WoWPro.SkipStepsButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+        WoWPro.SkipStepsButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     end
-    WoWPro.OptionsButton:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])    -- Fonts --
+    WoWPro.OptionsButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])    -- Fonts --
     WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
     WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
 
@@ -584,18 +584,13 @@ function WoWPro:CreateButtonBar()
     -- Guide List Button --
     local guidelistbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     guidelistbutton:SetSize(20, 16)
-    guidelistbutton:SetPoint("BOTTOMLEFT", WoWPro.ButtonBar, "BOTTOMLEFT", 2, 2)
-    guidelistbutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    guidelistbutton:SetPoint("CENTER", WoWPro.ButtonBar, "LEFT", 14, -1)
     guidelistbutton:RegisterForClicks("AnyUp")
     WoWPro.GuideListButton = guidelistbutton
 
     -- Guide List Button Icon --
     local guidelisticon = guidelistbutton:CreateTexture(nil, "OVERLAY")
-    guidelisticon:SetSize(12, 12)
+    guidelisticon:SetSize(14, 14)
     guidelisticon:SetPoint("CENTER")
     guidelisticon:SetTexture("Interface\\Buttons\\UI-GuildButton-MOTD-Up")
 
@@ -633,18 +628,13 @@ function WoWPro:CreateButtonBar()
     -- Current Guide Button --
     local currentguidebutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     currentguidebutton:SetSize(20, 16)
-    currentguidebutton:SetPoint("LEFT", WoWPro.GuideListButton, "RIGHT", 2, 0)
-    currentguidebutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    currentguidebutton:SetPoint("CENTER", guidelistbutton, "CENTER", 26, -1)
     currentguidebutton:RegisterForClicks("AnyUp")
     WoWPro.CurrentGuideButton = currentguidebutton
 
     -- Current Guide Button Icon --
     local currentguideicon = currentguidebutton:CreateTexture(nil, "OVERLAY")
-    currentguideicon:SetSize(12, 12)
+    currentguideicon:SetSize(14, 14)
     currentguideicon:SetPoint("CENTER")
     currentguideicon:SetTexture("Interface\\Buttons\\UI-GuildButton-PublicNote-Up")
 
@@ -682,17 +672,12 @@ function WoWPro:CreateButtonBar()
     -- Guide Reset Button --
     local resetbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     resetbutton:SetSize(20, 16)
-    resetbutton:SetPoint("LEFT", WoWPro.CurrentGuideButton, "RIGHT", 2, 0)
-    resetbutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    resetbutton:SetPoint("CENTER", currentguidebutton, "CENTER", 26, 0)
     resetbutton:RegisterForClicks("AnyUp")
     WoWPro.ResetGuideButton = resetbutton
 
     local reseticon = resetbutton:CreateTexture(nil, "OVERLAY")
-    reseticon:SetSize(12, 12)
+    reseticon:SetSize(14, 14)
     reseticon:SetPoint("CENTER")
     reseticon:SetTexture("Interface\\Buttons\\UI-RefreshButton")
 
@@ -716,20 +701,15 @@ function WoWPro:CreateButtonBar()
     -- Skip Steps Button --
     local skipbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     skipbutton:SetSize(20, 16)
-    skipbutton:SetPoint("LEFT", resetbutton, "RIGHT", 2, 0)
-    skipbutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    skipbutton:SetPoint("CENTER", resetbutton, "CENTER", 26, 0)
     skipbutton:RegisterForClicks("AnyUp")
     WoWPro.SkipStepsButton = skipbutton
 
     local skipicon = skipbutton:CreateTexture(nil, "OVERLAY")
-    skipicon:SetSize(16, 16)
+    skipicon:SetSize(17, 17)
     skipicon:SetPoint("CENTER")
     skipicon:SetTexture("Interface\\Buttons\\UI-CheckBox-Check")
-    skipicon:SetVertexColor(1, 0.82, 0, 1) -- Gold color to match theme
+    skipicon:SetVertexColor(1, 0.82, 0, 1)
 
     skipbutton:SetScript("OnEnter", function(button)
         _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
@@ -772,17 +752,12 @@ function WoWPro:CreateButtonBar()
     -- Discord Button --
     local discordbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     discordbutton:SetSize(20, 16)
-    discordbutton:SetPoint("LEFT", skipbutton, "RIGHT", 2, 0)
-    discordbutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    discordbutton:SetPoint("CENTER", skipbutton, "CENTER", 26, 0)
     discordbutton:RegisterForClicks("AnyUp")
     WoWPro.DiscordButton = discordbutton
 
     local discordicon = discordbutton:CreateTexture(nil, "OVERLAY")
-    discordicon:SetSize(12, 12)
+    discordicon:SetSize(16, 16)
     discordicon:SetPoint("CENTER")
     discordicon:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Discord.tga")
 
@@ -813,18 +788,13 @@ function WoWPro:CreateButtonBar()
     -- Options Button --
     local optionsbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     optionsbutton:SetSize(20, 16)
-    optionsbutton:SetPoint("BOTTOMRIGHT", WoWPro.ButtonBar, "BOTTOMRIGHT", -2, 2)
-    optionsbutton:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 2,  right = 2,  top = 2,  bottom = 0 }
-    })
+    optionsbutton:SetPoint("CENTER", WoWPro.ButtonBar, "RIGHT", -14, -1)
     optionsbutton:RegisterForClicks("AnyUp")
     WoWPro.OptionsButton = optionsbutton
 
     -- Options Button Icon --
     local optionsicon = optionsbutton:CreateTexture(nil, "OVERLAY")
-    optionsicon:SetSize(12, 12)
+    optionsicon:SetSize(14, 14)
     optionsicon:SetPoint("CENTER")
     optionsicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
