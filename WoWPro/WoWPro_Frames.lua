@@ -94,11 +94,11 @@ end
 function WoWPro:TitlebarShow()
     if WoWProDB.profile.titlebar then
         WoWPro.Titlebar:Show()
-        WoWPro.ButtonBar:Show()
     else
         WoWPro.Titlebar:Hide()
-        WoWPro.ButtonBar:Hide()
     end
+    -- Always show button bar regardless of titlebar setting
+    WoWPro.ButtonBar:Show()
 end
 
 function WoWPro:TitlebarSet()
