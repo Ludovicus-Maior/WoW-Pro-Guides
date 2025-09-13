@@ -97,8 +97,11 @@ function WoWPro:TitlebarShow()
     else
         WoWPro.Titlebar:Hide()
     end
-    -- Always show button bar regardless of titlebar setting
-    WoWPro.ButtonBar:Show()
+    if WoWProDB.profile.buttonbar then
+        WoWPro.ButtonBar:Show()
+    else
+        WoWPro.ButtonBar:Hide()
+    end
 end
 
 function WoWPro:TitlebarSet()
@@ -1220,8 +1223,11 @@ function WoWPro:CreateNextGuideDialog()
 end
 
 
+local isResettingGuide = false
 function WoWPro.ResetCurrentGuide()
-    if not WoWProDB.char.currentguide then return end
+    if isResettingGuide then return end
+    isResettingGuide = true
+    if not WoWProDB.char.currentguide then isResettingGuide = false; return end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = nil
     if WoWPro.stepcount then
@@ -1235,6 +1241,12 @@ function WoWPro.ResetCurrentGuide()
     WoWPro.ClearQID2Guide(GID)
     WoWPro.GuideLoaded = false
     WoWPro:LoadGuide(GID)
+    local timer = _G.C_Timer or _G.C and _G.C.Timer or nil
+    if timer and timer.After then
+        timer.After(0.5, function() isResettingGuide = false end)
+    else
+        isResettingGuide = false
+    end
 end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)

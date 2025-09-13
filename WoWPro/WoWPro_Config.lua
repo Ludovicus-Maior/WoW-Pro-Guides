@@ -295,7 +295,7 @@ local function createDisplayConfig()
             titleheading = {
                 order = 41,
                 type = "header",
-                name = L["Title Bar"],
+                name = L["Title Bar & Button Bar"],
             },
             titlebar = {
                 order = 42,
@@ -317,6 +317,18 @@ local function createDisplayConfig()
                 set = function(info,r,g,b,a)
                     WoWProDB.profile.titlecolor = {r,g,b,a}
                     WoWPro.TitlebarSet() end
+            },
+            buttonbar = {
+                order = 44,
+                type = "toggle",
+                name = L["Enable Button Bar"],
+                desc = L["Enables/disables the button bar attached to the guide window."],
+                get = function(info) return WoWProDB.profile.buttonbar ~= false end,
+                set = function(info,val)
+                    WoWProDB.profile.buttonbar = val
+                    WoWPro:TitlebarShow()
+                end,
+                width = "double"
             },
             blank5 = {
                 order = 50,

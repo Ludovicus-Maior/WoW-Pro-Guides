@@ -13,37 +13,32 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-if WoWPro.CLASSIC then
-    frame:SetSize(600, 700)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.WRATH then
-    frame:SetSize(650, 520)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.CATA then
-    frame:SetSize(700, 550)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-elseif WoWPro.MOP then
-    frame:SetSize(700, 550)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-else
-    frame:SetSize(625, 480)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-end
+frame:SetSize(700, 550)
+frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
 frame:SetFrameStrata("DIALOG")
+frame:SetMovable(true)
+frame:EnableMouse(true)
+frame:RegisterForDrag("LeftButton")
+frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
+frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
 
--- Set backdrop to match GuideList frame
 frame:SetBackdrop({
     bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
     tile = true, tileSize = 16, edgeSize = 16,
     insets = { left = 4, right = 4, top = 4, bottom = 4 }
 })
-frame:SetBackdropColor(0, 0, 0, 0.8)  -- Dark background with 80% opacity to match GuideList
-frame:SetBackdropBorderColor(1, 1, 1, 1)  -- White border to match GuideList
+frame:SetBackdropColor(0, 0, 0, 0.8)
+frame:SetBackdropBorderColor(1, 1, 1, 1)
 
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
 texture:SetColorTexture(0, 0, 0, 0)
+
+local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
+closeButton:SetSize(24, 24)
+closeButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -4, -4)
+closeButton:SetScript("OnClick", function() frame:Hide() end)
 
 -- Add the frame to the special frames list
 _G.table.insert(_G.UISpecialFrames, frame:GetName())
@@ -183,7 +178,8 @@ frame:SetScript("OnShow", function()
     local faction = WoWPro.Faction
     local guide = _G.WoWProDB.char.currentguide
     local rank, rankSource = WoWPro.GuideRank(guide)
-    frame.subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide.."\nRank: "..tostring(rank).." ("..rankSource..")")
+    local guideName = WoWPro.Guides[guide] and WoWPro.Guides[guide].name or guide
+    frame.subtitle:SetText("Faction: "..faction.."\nGuide: "..guideName.."\nRank: "..tostring(rank).." ("..rankSource..")")
 
     for i=1,NUMROWS do
         local row = WoWPro:CreateGuideRow(frame.box, ROWHEIGHT)
