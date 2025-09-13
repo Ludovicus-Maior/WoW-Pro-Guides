@@ -97,8 +97,11 @@ function WoWPro:TitlebarShow()
     else
         WoWPro.Titlebar:Hide()
     end
-    -- Always show button bar regardless of titlebar setting
-    WoWPro.ButtonBar:Show()
+    if WoWProDB.profile.buttonbar then
+        WoWPro.ButtonBar:Show()
+    else
+        WoWPro.ButtonBar:Hide()
+    end
 end
 
 function WoWPro:TitlebarSet()
@@ -1222,6 +1225,8 @@ end
 
 function WoWPro.ResetCurrentGuide()
     if not WoWProDB.char.currentguide then return end
+    if not WoWPro.GuideLoaded then return end
+    WoWPro.GuideLoaded = false
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = nil
     if WoWPro.stepcount then
@@ -1233,7 +1238,6 @@ function WoWPro.ResetCurrentGuide()
     end
     WoWPro.ClearNpcFauxQuests(GID)
     WoWPro.ClearQID2Guide(GID)
-    WoWPro.GuideLoaded = false
     WoWPro:LoadGuide(GID)
 end
 

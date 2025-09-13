@@ -115,9 +115,14 @@ function WoWPro.CreateGuideList()
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
 
-    frame:SetSize(650, 600)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 100)
+    frame:SetSize(700, 550)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
     frame:SetFrameStrata("DIALOG")
+    frame:SetMovable(true)
+    frame:EnableMouse(true)
+    frame:RegisterForDrag("LeftButton")
+    frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
+    frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
 
     -- Set backdrop for proper background
     frame:SetBackdrop({
@@ -143,9 +148,14 @@ function WoWPro.CreateGuideList()
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
     title:SetPoint("TOP", frame, "TOP", 0, -10)
 
+    local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
+    closeButton:SetSize(24, 24)
+    closeButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -4, -4)
+    closeButton:SetScript("OnClick", function() frame:Hide() end)
+
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
-    subtitle:SetPoint("TOP", title, "BOTTOM", 0, 10)
+    subtitle:SetPoint("TOP", title, "BOTTOM", 0, 5)
     subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
