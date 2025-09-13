@@ -1238,7 +1238,12 @@ function WoWPro.ResetCurrentGuide()
     WoWPro.ClearQID2Guide(GID)
     WoWPro.GuideLoaded = false
     WoWPro:LoadGuide(GID)
-    C_Timer.After(0.5, function() isResettingGuide = false end)
+    local timer = _G.C_Timer or _G.C and _G.C.Timer or nil
+    if timer and timer.After then
+        timer.After(0.5, function() isResettingGuide = false end)
+    else
+        isResettingGuide = false
+    end
 end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
