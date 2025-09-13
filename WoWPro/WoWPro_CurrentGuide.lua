@@ -16,6 +16,11 @@ frame.parent = "WoWPro"
 frame:SetSize(700, 550)
 frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
 frame:SetFrameStrata("DIALOG")
+frame:SetMovable(true)
+frame:EnableMouse(true)
+frame:RegisterForDrag("LeftButton")
+frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
+frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
 
 frame:SetBackdrop({
     bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
