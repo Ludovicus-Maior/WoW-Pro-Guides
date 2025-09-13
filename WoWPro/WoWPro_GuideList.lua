@@ -143,6 +143,11 @@ function WoWPro.CreateGuideList()
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
     title:SetPoint("TOP", frame, "TOP", 0, -10)
 
+    local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
+    closeButton:SetSize(24, 24)
+    closeButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -4, -4)
+    closeButton:SetScript("OnClick", function() frame:Hide() end)
+
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
     subtitle:SetPoint("TOP", title, "BOTTOM", 0, 5)
