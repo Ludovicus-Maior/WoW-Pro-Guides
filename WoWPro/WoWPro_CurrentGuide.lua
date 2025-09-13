@@ -30,6 +30,11 @@ local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
 texture:SetColorTexture(0, 0, 0, 0)
 
+local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
+closeButton:SetSize(24, 24)
+closeButton:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -4, -4)
+closeButton:SetScript("OnClick", function() frame:Hide() end)
+
 -- Add the frame to the special frames list
 _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
