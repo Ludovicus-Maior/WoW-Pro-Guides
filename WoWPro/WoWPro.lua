@@ -1422,7 +1422,7 @@ Difficulty[1] = {0,0.9,0.5} -- Red
 Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
 Difficulty[4] = {120/360,0.9,0.5} -- Green
-Difficulty[5] = {0, 0, 0.5} -- Grey
+Difficulty[5] = {0, 0, 0.97} -- Off White
 
 function WoWPro:InterpolateHSL(l,h,r)
     -- WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
