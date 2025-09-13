@@ -319,7 +319,7 @@ local defaults = { profile = {
     titlebar = true,
     titlecolor = {0.5, 0.5, 0.5, 1},
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-    bgcolor = {0.2, 0.2, 0.2, 0.7},
+    bgcolor = {0, 0, 0, 0.8},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
     border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
