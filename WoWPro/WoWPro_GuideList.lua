@@ -115,8 +115,8 @@ function WoWPro.CreateGuideList()
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
 
-    frame:SetSize(650, 600)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 100)
+    frame:SetSize(700, 550)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
     frame:SetFrameStrata("DIALOG")
 
     -- Set backdrop for proper background
@@ -145,7 +145,7 @@ function WoWPro.CreateGuideList()
 
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
-    subtitle:SetPoint("TOP", title, "BOTTOM", 0, 10)
+    subtitle:SetPoint("TOP", title, "BOTTOM", 0, 5)
     subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
