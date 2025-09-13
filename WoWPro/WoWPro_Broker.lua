@@ -1856,6 +1856,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
         WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
         return 1
     end
+    guide.skipped = guide.skipped or {}
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
     local skip = true

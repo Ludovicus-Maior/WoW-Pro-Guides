@@ -1220,8 +1220,11 @@ function WoWPro:CreateNextGuideDialog()
 end
 
 
+local isResettingGuide = false
 function WoWPro.ResetCurrentGuide()
-    if not WoWProDB.char.currentguide then return end
+    if isResettingGuide then return end
+    isResettingGuide = true
+    if not WoWProDB.char.currentguide then isResettingGuide = false; return end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = nil
     if WoWPro.stepcount then
@@ -1235,6 +1238,7 @@ function WoWPro.ResetCurrentGuide()
     WoWPro.ClearQID2Guide(GID)
     WoWPro.GuideLoaded = false
     WoWPro:LoadGuide(GID)
+    C_Timer.After(0.5, function() isResettingGuide = false end)
 end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
