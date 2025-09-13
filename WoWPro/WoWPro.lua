@@ -341,6 +341,7 @@ local defaults = { profile = {
     stickytitletextcolor = {1, 1, 1},
     guideprogress = false,
     progressbar = true,
+    buttonbar = true,
 } }
 
 
