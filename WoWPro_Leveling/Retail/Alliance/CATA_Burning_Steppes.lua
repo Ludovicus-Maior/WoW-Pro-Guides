@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Burning Steppes")
+WoWPro:GuideUseMapLevels(guide, 36)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'Swamp of Sorrows')
 WoWPro:GuideSteps(guide, function()
