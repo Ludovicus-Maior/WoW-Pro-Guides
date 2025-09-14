@@ -4,7 +4,7 @@
 ## Author: Twists
 ## IconTexture: Interface\ICONS\Achievement_General_StayClassy
 ## Dependencies: WoWPro
-## Version: 2025.09.12.A
+## Version: 2025.09.14.A
 ## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
