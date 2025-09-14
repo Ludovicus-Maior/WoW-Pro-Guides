@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("JamBla6870", "Leveling", "Blade's Edge Mount
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Blade's Edge Mountains")
 WoWPro:GuideName(guide,"Blade's Edge Mountains")
+WoWPro:GuideUseMapLevels(guide, 105)
 WoWPro:GuideNextGuide(guide, "Shadowmoon Valley BC")
 WoWPro:GuideSteps(guide, function()
 return [[
