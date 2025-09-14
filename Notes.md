@@ -1,3 +1,20 @@
+# Release 2025.09.14.A
+## Bugfix Release for 2025.09.12.A
+* Guide load issue for Classic Anniversary realms fixed (Thanks Cagomei)
+* Misc UI tweaks and fixes (Thanks Spoony)
+## Bug Fixes
+* Display a progress bar for "Fill The Bar Quests" (Thanks Furydin)
+* Revised Modern Menu system (Thanks Spoony)
+* Revised Menu Anchor System (Thanks Road Block)
+* Moved Current Guide and Guidelist out of Blizz options
+* Automatically determine guide level range from map ID
+## Guide Updates
+* Vanilla Leveling Horde: The Barrens 15-21, Horde Chapter 2
+* MOP Achievements: Klaxxi
+* MOP Horde: Arathi Highlands, Ghostlands, Hillsbrad Foothills, Hinterlands, Tanaris, Western Plaguelands
+* Retail Achievements: Ecologist
+* Retail Leveling: The Coalition of Flames, Valsharah, AzjKahet, Hallowfall, K'aresh, TRD, Undermine
+
 # Release 2025.09.12.A
 ## Bug Fixes
 * Display a progress bar for "Fill The Bar Quests" (Thanks Furydin)
