@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide,"Hellfire Peninsula")
+WoWPro:GuideUseMapLevels(guide, 100)
 WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
