@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjLoc1220', "Leveling", 'Loch Modan', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Loch Modan")
+WoWPro:GuideUseMapLevels(guide, 48)
 WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'Wetlands')
 WoWPro:GuideSteps(guide, function()

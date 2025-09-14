@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Feralas")
+WoWPro:GuideUseMapLevels(guide, 69)
 WoWPro:GuideSort(guide, 24)
 WoWPro:GuideNextGuide(guide, 'Thousand Needles')
 WoWPro:GuideSteps(guide, function()

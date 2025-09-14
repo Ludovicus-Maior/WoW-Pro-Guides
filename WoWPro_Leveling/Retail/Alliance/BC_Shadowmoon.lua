@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('CraSha7070A', "Leveling", 'Shadowmoon Valley
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Shadowmoon Valley BC")
 WoWPro:GuideName(guide,"Shadowmoon Valley")
+WoWPro:GuideUseMapLevels(guide, 104)
 WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[

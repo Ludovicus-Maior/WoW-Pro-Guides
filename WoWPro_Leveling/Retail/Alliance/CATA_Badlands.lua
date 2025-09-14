@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraBad4548', "Leveling", 'Badlands', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Badlands")
+WoWPro:GuideUseMapLevels(guide, 23)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'Searing Gorge')
 WoWPro:GuideSteps(guide, function()

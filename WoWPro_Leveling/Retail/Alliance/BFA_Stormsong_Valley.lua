@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong V
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Stormsong Valley")
 WoWPro:GuideName(guide,"Stormsong Valley")
+WoWPro:GuideUseMapLevels(guide, 942)
 WoWPro:GuideNextGuide(guide, "Battle for Azeroth: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
