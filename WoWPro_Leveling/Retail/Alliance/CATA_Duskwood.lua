@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "WoWPro Team", "Alliance")
 WoWPro:GuideName(guide,"Duskwood")
+WoWPro:GuideUseMapLevels(guide, 47)
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideNextGuide(guide, 'Northern Stranglethorn')
 WoWPro:GuideSteps(guide, function()
