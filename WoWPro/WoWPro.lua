@@ -368,7 +368,7 @@ function WoWPro:OnInitialize()
     WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
     WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
     WoWProCharDB.disabledAddons = WoWProCharDB.disabledAddons or {}
-    if WoWProCharDB.NoTomTom == NIL then
+    if WoWProCharDB.NoTomTom == nil then
         WoWProCharDB.NoTomTom = false
     end
     WoWProCharDB.EnableGrail = nil
