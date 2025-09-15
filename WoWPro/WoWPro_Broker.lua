@@ -4438,7 +4438,7 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     text = "Welcome to WoWPro.\n\n"
-        .. "For this addon to function, you need to install either: "
+        .. "For this addon to function properly, you need to install either: "
         .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\n"
         .. "WoW-Pro's guides won't have their full functionality without one of them!\n\n"
         .. "Download it for free from www.wowinterface.com or www.curseforge.com.",
@@ -4448,6 +4448,8 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     timeout = 15,
     OnAccept = function (self)
         _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+        if WoWPro.RETAIL then WoWProCharDB.NoTomTom = true -- Choose to ignore message because Retail can go without TomTom
+        else WoWProCharDB.NoTomTom = false end -- Classic/Vanilla must have TomTom and cannot ignore message.
     end
 }
 
@@ -4473,8 +4475,9 @@ function WoWPro.LockdownHandler(self, elapsed)
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
-                else
-                    -- Warning if the user is missing TomTom --
+                    if WoWProCharDB.NoTomTom ~= true then WoWProCharDB.NoTomTom = false end -- User must acknowledge the warning to ignore it.
+                elseif not WoWProCharDB.NoTomTom then
+                   -- Warning if the user is missing TomTom --
                     _G.StaticPopup_Show("WOWPRO_MISSING_ARROW")
                     if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
                         TomTom = nil
