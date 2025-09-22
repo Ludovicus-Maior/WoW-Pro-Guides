@@ -205,10 +205,10 @@ C Elemental Attunement|QID|34891|QO|1|NC|M|79.27,11.68|N|Click on the rock pilla
 K Unstable Earth Guardian|QID|34893|QO|1|M|81.51,14.46|T|Unstable Earth Guardian|RANK|2|
 K Tainted Water Guardian|QID|34893|QO|4|M|75.26,13.96|T|Tainted Water Guardian|RANK|2|
 C Elemental Attunement|QID|34891|M|73.84,10.41|QO|4|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
-K Magmire|QID|33928|M|70.23,9.59|L|113080|T|Magmire|N|Go into Magma Cave (its at the bottom of the path) and kill Magmire.|RANK|2|
+l Molten Core|AVAILABLE|33928|M|70.23,9.59|L|113080|N|Go into Magma Cave (its at the bottom of the path) and kill Magmire.|RANK|2|T|Magmire|
 A A Wrong of Earth and Fire|QID|33928|M|70.23,9.59|O|U|113080|N|From 'A Molten Core' which drops from Magmire.|RANK|2|
 C A Rare Bloom|QID|34894|NC|M|70.59,9.91|N|In the back of Magma Cave|RANK|2|
-C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
+C Elemental Attunement|QID|34891|M|67.42,9.06|QO|3|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Volatile Flame Guardian|QID|34893|QO|3|M|66.57,8.64|T|Volatile Flame Guardian|RANK|2|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|US|RANK|2|
 T A Rare Bloom|QID|34894|M|75.08,22.74|N|Run past the elemental lords and back up the hill on the other side to Gar'rok.|RANK|2|
@@ -299,9 +299,9 @@ T Along the Riverside|QID|35095|M|48.58,48.22|N|To Durotan.|RANK|2|
 A Terms of Surrender|QID|35096|PRE|35095|M|48.58,48.22|N|From Durotan.|RANK|2|
 T Terms of Surrender|QID|35096|M|55.50,42.10|N|To Uruk Foecleaver.|RANK|2|
 A The Pride of Lok-rath|QID|35097|PRE|35096|M|55.50,42.10|N|From Uruk Foecleaver.|RANK|2|
-A Silence the War Machines|QID|35099|PRE|35097|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
-A If They Won't Surrender...|QID|35100|PRE|35097|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
-A Terror of Nagrand|QID|35101|PRE|35097|M|56.10,43.76|N|From Fallen Horde Soldier.|RANK|2|
+A Silence the War Machines|QID|35099|PRE|35096|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
+A If They Won't Surrender...|QID|35100|PRE|35096|M|55.44,42.08|N|From Senior Sergeant Igerdes.|RANK|2|
+A Terror of Nagrand|QID|35101|PRE|35096|M|56.10,43.76|N|From Fallen Horde Soldier.|RANK|2|
 C Silence the War Machines|QID|35099|M|55.69,46.39|S|N|These are shown on your map by yellow dots.|RANK|2|
 C If They Won't Surrender...|QID|35100|M|53.93,45.40|S|RANK|2|
 C Terror of Nagrand|QID|35101|M|58.08,43.23|T|Shagor|RANK|2|
