@@ -27,7 +27,7 @@ T Venture Co. Misadventure|QID|12524|Z|119; Sholazar Basin|N|From Debaar.|M|27.2
 A Wipe That Grin Off His Face|QID|12525|PRE|12524|Z|119; Sholazar Basin|N|From Debaar.|M|27.2,59.9|
 T Have a Part, Give a Part|QID|12523|Z|119; Sholazar Basin|N|To Weslex Quickwrench. Back around the broken boat.|M|25.38,58.35|
 f Nesingwary Base Camp|QID|12696|Z|119; Sholazar Basin|N|At The Spirit of Gnomeregan.|
-A Aerial Surveillance|QID|12696|PRE|12523|Z|119; Sholazar Basin|N|From Professor Calvert.|M|25.4,58.5|
+A Aerial Surveillance|QID|12696|PRE|12523|Z|119; Sholazar Basin|N|From Professor Calvert.|M|25.4,58.5|LVL|77|IZ|Nesingwary Base Camp|
 C Wipe That Grin Off His Face|QID|12525|Z|119; Sholazar Basin|N|Go to the platform in the dig site.|M|35.72,50.24|
 T Wipe That Grin Off His Face|QID|12525|Z|119; Sholazar Basin|N|To Debaar, Nesingwary Base Camp.|M|27.21,59.86|
 A Kick, What Kick?|QID|12589|PRE|12525&12523|Z|119; Sholazar Basin|N|From Drostan, in the base camp.|M|27.07,59.82|
