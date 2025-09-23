@@ -2647,15 +2647,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                     
                     -- Use GetFriendshipReputationRanks for numeric level instead of localized string matching
-                    local rankInfo = C_GossipInfo.GetFriendshipReputationRanks(factionIndex)
+                    local rankInfo = _G.C_GossipInfo.GetFriendshipReputationRanks(factionIndex)
                     if rankInfo and rankInfo.currentLevel then
-                        -- API returns 1-6, we need 0-5 for our table
                         standingId = rankInfo.currentLevel - 1
                     else
                         -- Fallback to old string matching (should never happen in MoP+)
                         local friendTextLevel = reputationInfo.reaction:lower()
                         standingId = Rep2IdAndClass[friendTextLevel] and Rep2IdAndClass[friendTextLevel][1] or 0
-                        WoWPro:Warning("GetFriendshipReputationRanks not available for faction %d, using text fallback", factionIndex)
+                        WoWPro:dbp("GetFriendshipReputationRanks not available for faction %d, using text fallback", factionIndex)
                     end
                     
                     if reputationInfo.nextThreshold then
