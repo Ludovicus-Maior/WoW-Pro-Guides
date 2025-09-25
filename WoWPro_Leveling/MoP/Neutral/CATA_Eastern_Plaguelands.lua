@@ -338,8 +338,6 @@ N Hero's Call/Warlord's Command: Badlands|AVAILABLE|27762&28579&28580|N|If you w
 T Hero's Call: Badlands|QID|28579|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|To Gek Nozzlerocket.|
 T Warchief's Command: Badlands|QID|28580|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|To Gek Nozzlerocket.|
 A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|From Gek Nozzlerocket.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Badlands next. Otherwise, skip this step to move on.|NA|
-F Fuselight|ACTIVE|27762|M|73.69,53.11|Z|0023; Eastern Plaguelands|N|Hop on the rocket beside you for a free ride to Fuselight.|V|
-T Fuselight, Ho!|QID|27762|M|92.77,38.90|Z|0015; Badlands|N|To Eddie Flofizzle.|
 D Guide Complete|ACTIVE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to proceed to the Badlands guide.|GUIDE|CraBad4548|FACTION|Alliance|
 D Guide Complete|ACTIVE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to proceed to the Badlands guide.|GUIDE|LiaBad4548|FACTION|Horde|
 D Guide Complete|AVAILABLE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Choose your next guide from the guide list to continue.|
