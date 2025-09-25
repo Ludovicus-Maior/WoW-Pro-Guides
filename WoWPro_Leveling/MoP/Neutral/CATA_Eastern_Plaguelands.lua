@@ -334,10 +334,10 @@ l Counter-Plague Research|ACTIVE|27531|QO|2|M|29.09,30.16;26.17,36.51|CS|Z|0023;
 l Counter-Plague Research|ACTIVE|27531|QO|1|M|22.24,22.89|Z|0023; Eastern Plaguelands|N|The [color=33fff9]Rotberries[/color] are small green bushes with red berries amongst the mushrooms.\n[color=FF0000]NOTE: [/color]They are west and to the north of the Corpsebeasts.|
 T Counter-Plague Research|QID|27531|M|17.67,27.88|Z|0023; Eastern Plaguelands|N|To Argent Apothecary Judkins.\n[color=FF0000]NOTE: [/color]Remember to put your Graphic settings back to where they were if you changed them.|
 T Journey's End|QID|27527|M|73.70,52.09|Z|0023; Eastern Plaguelands|N|To Fiona in Light Hope's Chapel.\n[color=FF0000]NOTE: [/color]Use [color=33fff9]Gidwin's Hearthstone[/color] to save your own.|U|61379|
-N Hero's Call/Warlord's Command: Badlands|AVAILABLE|27762&28579&28580|N|If you wish to pick up this breadcrumb, fly to your respective city to pick it up now.\n[color=FF0000]NOTE: [/color]Otherwise, skip this step to move on.|
+N Hero's Call/Warlord's Command: Badlands|AVAILABLE|27762&28579&28580|LEAD|27774|N|If you wish to pick up this breadcrumb, fly to your respective city to pick it up now.\n[color=FF0000]NOTE: [/color]Otherwise, skip this step to move on.|
 T Hero's Call: Badlands|QID|28579|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|To Gek Nozzlerocket.|
 T Warchief's Command: Badlands|QID|28580|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|To Gek Nozzlerocket.|
-A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|From Gek Nozzlerocket.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Badlands next. Otherwise, skip this step to move on.|NA|
+A Fuselight, Ho!|QID|27762|LEAD|27774|M|73.78,53.05|Z|0023; Eastern Plaguelands|N|From Gek Nozzlerocket.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Badlands next. Otherwise, skip this step to move on.|NA|
 D Guide Complete|ACTIVE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to proceed to the Badlands guide.|GUIDE|CraBad4548|FACTION|Alliance|
 D Guide Complete|ACTIVE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to proceed to the Badlands guide.|GUIDE|LiaBad4548|FACTION|Horde|
 D Guide Complete|AVAILABLE|27762|LEAD|27774|N|This ends the Eastern Plaguelands guide.\n[color=FF0000]NOTE: [/color]Choose your next guide from the guide list to continue.|
