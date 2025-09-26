@@ -8,7 +8,7 @@
 	<Script file="Night_Elf_Heritage_Armor.lua"/>
 	<Script file="Orc_Heritage_Armor.lua"/>
 	<Script file="Tauren_Heritage_Armor.lua"/>
+	<Script file="Troll_Heritage_Armor.lua"/>
 	<Script file="Undead_Heritage_Armor.lua"/>
 	<Script file="Worgen_Heritage_Armor.lua"/>
-	
 </Ui>
