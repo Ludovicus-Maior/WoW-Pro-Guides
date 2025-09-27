@@ -223,8 +223,8 @@ function WoWPro.Recorder:CreateRecorderFrame()
 
     local recordtext = WoWPro.RecorderFrame:CreateFontString(nil, nil, "GameFontHighlight")
     recordtext:SetFont("Fonts\\FRIZQT__.TTF", 10)
-    recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 0)
-    recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 0)
+    recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 8)
+    recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 8)
     recordtext:SetJustifyH("LEFT")
     WoWPro.Recorder.status = WoWPro.Recorder.status or "REC"
     recordtext:SetText(WoWPro.Recorder.status)
