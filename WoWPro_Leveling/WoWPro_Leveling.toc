@@ -15,3 +15,6 @@ WoWPro_Leveling_Frames.lua
 Retail\Alliance\Guides.xml
 Retail\Neutral\Guides.xml
 Retail\Horde\Guides.xml
+Retail\TimeRunning\Alliance\Guides.xml
+Retail\TimeRunning\Neutral\Guides.xml
+Retail\TimeRunning\Horde\Guides.xml

@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="TR_LEGION_Argus.lua"/>
+	<Script file="TR_LEGION_Azsuna.lua"/>
+	<Script file="TR_LEGION_Broken_Shore.lua"/>
+	<Script file="TR_LEGION_Guide_Hub.lua"/>
+	<Script file="TR_LEGION_Highmountain.lua"/>
+	<Script file="TR_LEGION_Legion_Intro.lua"/>
+	<Script file="TR_LEGION_Order_Hall_DH.lua"/>
+	<Script file="TR_LEGION_Order_Hall_DK.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Druid.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Evoker.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Hunter.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Mage.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Monk.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Paladin.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Priest.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Rogue.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Shaman.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Warlock.lua"/>
+	<Script file="TR_LEGION_Order_Hall_Warrior.lua"/>
+	<Script file="TR_LEGION_Suramar.lua"/>
+	<Script file="TR_LEGION_Valsharah.lua"/>		
+</Ui>
