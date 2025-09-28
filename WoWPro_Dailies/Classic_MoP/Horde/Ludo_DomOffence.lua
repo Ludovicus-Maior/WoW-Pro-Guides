@@ -238,14 +238,14 @@ A Memory Wine|QID|32368|PRE|32448|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bl
 C Drink and Witness|QID|32368|QO|2|N|Drink the wine and see what happens.|
 T Memory Wine|QID|32368|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
 
-A The Ruins of Korune|QID|32391|M|10.39,53.71|REP|Dominance Offensive;1375;revered;31625|N|From General Nazgrim|
+A The Ruins of Korune|QID|32391|M|10.39,53.71|REP|Dominance Offensive;1375;revered;31700|N|From General Nazgrim|
 R Kun-Lai Summit|ACTIVE|32391|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T The Ruins of Korune|QID|32391|M|32.89,26.34|Z|Kun-Lai Summit|N|To Ishi|
 A The Divine Bell|QID|32392|PRE|32391|M|32.8,26.2|Z|Kun-Lai Summit|N|From Ishi|
 K Sarannha Skyglaive|ACTIVE|32392|M|60.87,22.43|Z|387;Crypt of Korune|QO|1|N|Head in, clear the elites around the altar. Stick to the left in the falling rocks room. Run down steps quickly then go for Sarannha.|
 T The Divine Bell|QID|32392|M|61.73,25.40|Z|387;Crypt of Korune|N|To Ishi.  Get back to Dominance Offensive on your own.|
 
-A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;31700|N|From General Nazgrim|
+A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;35700|N|From General Nazgrim|
 R Darnassus|ACTIVE|32326|N|Use the portal to get there. This is NOT a phased Darnassus. You will be flagged and players can kill you. Do your shapeshifting BEFORE accepting the followon quest from Fanlyr and your stealth buff will endure.|
 T Insertion|QID|32326|M|40,50.4|N|To Fanlyr Silverthorn.|
 A The Darnassus Mission|QID|32327|PRE|32326|M|40,50.4|N|From Fanlyr Silverthorn|
