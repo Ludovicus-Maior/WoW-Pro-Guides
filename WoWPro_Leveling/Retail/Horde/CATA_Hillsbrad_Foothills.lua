@@ -1,4 +1,5 @@
 local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'WoWPro Team', 'Horde')
+WoWPro:GuideUseMapLevels(guide, 0025)
 WoWPro:GuideName(guide,"Hillsbrad Foothills")
 WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
@@ -59,7 +60,7 @@ A For Science!|QID|28199|M|36.34,60.25|N|From Flesh-Shaper Arnauld.|PRE|28192|
 C For Science!|QID|28199|M|39.10,63.63|N|Kill and loot the Risen Hillsbrad Peasants and Farmers.|S|
 C Discretion is Key: Clerk Horrace Whitesteed|QID|28197|QO|2|M|38.7,62.5|N|Kill and loot Clerk Horrace Whitesteed.|T|Clerk Horrace Whitesteed|
 A The Battle for Hillsbrad|QID|28196|PRE|28192|U|63250|N|Start the quest from The Battle for Hillsbrad you looted from Clerk Horrace Whitesteed.|
-C Discretion is Key: Citizen Wilkes|QID|28197|QO|2|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
+C Discretion is Key: Citizen Wilkes|QID|28197|QO|1|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
 A Do the Right Thing|QID|28189|PRE|28192|M|39.72,63.04|N|From the shovel in the spotlight under the arch.|
 C Do the Right Thing|QID|28189|U|63150|M|39.10,63.63|N|Click on the Human Seedlings in the ground.|NC|
 T Do the Right Thing|QID|28189|N|(UI Alert)|
@@ -97,7 +98,7 @@ C Helcular's Rod Giveth...|QID|28331|U|63508|M|48.21,64.05|N|Target the Dark Ran
 C Helcular's Command|QID|28332|M|48.21,64.05|N|Kill the worgen in the area as you go.|US|
 C Green Living|QID|28325|M|48.59,71.42|S|N|Pick up broken barrels on the ground.|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|S|N|Use the Lethality Analyzer on the Blight Slimes.|
-A Angry Scrubbing Bubbles|QID|28329|N|Kill an Angry Blight Slime (they will have a red ! over their head) to get this quest.|
+A Angry Scrubbing Bubbles|QID|28329|M|49.08,68.72|Z|0025; Hillsbrad Foothills|N|Kill an Angry Blight Slime (they will have a red ! over their head) to get this quest.|
 C Angry Scrubbing Bubbles|QID|28329|M|48.59,71.42|N|Kill the Angry Blight Slime|
 T Angry Scrubbing Bubbles|QID|28329|N|To Serge Hinott|M|49.09,66.36|
 A Trail of Filth|QID|28330|N|From Serge Hinott|M|49.09,66.36|PRE|28329|
@@ -145,7 +146,7 @@ h Tarren Mill|QID|28620|M|57.95,47.29|N|At Innkeeper Shay.|
 A A Fighting Chance|QID|28495|M|56.74,47.48|N|From Advisor Duskingdawn.|
 f Tarren Mill|QID|28495|M|56.07,46.09|N|At Zarise.|
 r Sell, repair, and restock.|QID|28485|M|57.66,47.54|N|At Ott.|RANK|3|
-N Group for Yetimus|QID|28485|N|If you see a group looking to kill Yetimus, join them and deviate off the guide to do it. He hits far too hard for most classes to solo.|S|ACTIVE|28485|
+N Group for Yetimus|QID|28485|QO|1|N|If you see a group looking to kill Yetimus, join them and deviate off the guide to do it. He hits far too hard for most classes to solo.|S|ACTIVE|28485|
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|S|
 C Stagwiches|QID|28489|M|48.44,54.59|N|Kill Hill Stags for their meat.|S|
 C A Fighting Chance|QID|28495|M|48.44,54.59|N|Use Duskingdawn's Wand on Hill Fawns.|S|U|64416|
@@ -193,7 +194,7 @@ T Deception and Trickery|QID|28604|N|To Lilith.|
 A Domination|QID|28605|N|From Lilith.|PRE|28603&28604|
 R Gavin's Naze|QID|28605|M|41.62,47.34|
 C Domination|QID|28605|M|39.44,48.93|S|
-C Pocket-Nuke Armed at Gavin's Naze|QID|28556|M|39.44,48.93|QO|1|U|64471|; Pocket-Nuke Armed at Gavin's Naze: 1/1
+C Pocket-Nuke Armed at Gavin's Naze|QID|28556|M|39.44,48.93|QO|4|U|64471|; Pocket-Nuke Armed at Gavin's Naze: 1/1
 C Domination|QID|28605|M|39.44,48.93|US|
 A Basic Botany|QID|28733|M|33.53,49.35|N|If you'd like to do the Peacebloom vs. Ghouls quest line, now is an excellent time. It's a fun side-quest that rewards a Singing Sunflower vanity pet at the end. If you want to do it, follow the arrow and accept the quest "Basic Botany." THEN close this step. Otherwise, close this step without accepting the quest.|
 C Basic Botany|QID|28733|N|Right-click the glowing orbs to collect Solar Power. Place Spitters (button 1) in the center lane whenever you can.|O|

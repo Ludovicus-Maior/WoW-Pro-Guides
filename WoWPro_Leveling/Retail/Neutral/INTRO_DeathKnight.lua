@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 8, 18, 10)
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide,"Death Knight: Original Intro")
-WoWPro:GuideNextGuide(guide, "ChromieTime")
+WoWPro:GuideNextGuide(guide, "Dragonflight Intro")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
