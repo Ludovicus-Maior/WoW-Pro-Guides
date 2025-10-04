@@ -115,7 +115,7 @@ function WoWPro.CreateGuideList()
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
 
-    frame:SetSize(700, 550)
+    frame:SetSize(800, 550)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
     frame:SetFrameStrata("DIALOG")
     frame:SetMovable(true)
