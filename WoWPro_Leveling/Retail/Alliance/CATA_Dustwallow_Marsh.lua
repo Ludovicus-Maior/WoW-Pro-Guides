@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Dustwallow Marsh")
+WoWPro:GuideUseMapLevels(guide, 70)
 WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()

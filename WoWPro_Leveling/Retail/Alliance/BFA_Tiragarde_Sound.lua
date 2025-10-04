@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound'
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Tiragarde Sound")
 WoWPro:GuideName(guide,"Tiragarde Sound")
+WoWPro:GuideUseMapLevels(guide, 895)
 WoWPro:GuideNextGuide(guide, 'Drustvar')
 WoWPro:GuideSteps(guide, function()
 return [[

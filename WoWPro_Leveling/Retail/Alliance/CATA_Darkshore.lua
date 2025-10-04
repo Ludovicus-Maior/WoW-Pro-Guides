@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "WoWPro Team", "Alliance")
 WoWPro:GuideName(guide,"Darkshore")
+WoWPro:GuideUseMapLevels(guide, 62)
 WoWPro:GuideSort(guide, 12)
 WoWPro:GuideNextGuide(guide, 'Ashenvale')
 WoWPro:GuideSteps(guide, function()

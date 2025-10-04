@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraHin3035', 'Leveling', 'The Hinterlands', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Hinterlands")
+WoWPro:GuideUseMapLevels(guide, 26)
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()

@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WoWPro Team", "Alliance")
 WoWPro:GuideName(guide,"Bloodmyst Isle")
+WoWPro:GuideUseMapLevels(guide, 106)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'Darkshore')
 WoWPro:GuideSteps(guide, function()

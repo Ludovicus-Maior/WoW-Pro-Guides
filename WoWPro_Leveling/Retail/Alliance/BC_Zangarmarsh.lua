@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("JamZan6264", "Leveling", "Zangarmarsh", "WoW
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
+WoWPro:GuideUseMapLevels(guide, 102)
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[

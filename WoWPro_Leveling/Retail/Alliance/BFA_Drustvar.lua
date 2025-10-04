@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'WoW
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Drustvar")
 WoWPro:GuideName(guide,"Drustvar")
+WoWPro:GuideUseMapLevels(guide, 896)
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
