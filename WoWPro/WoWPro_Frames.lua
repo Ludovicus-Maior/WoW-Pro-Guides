@@ -65,7 +65,7 @@ function WoWPro:DragSet()
                 WoWPro.InhibitAnchorRestore = false
             end
         end)
-        
+
         -- Enable titlebar dragging when button bar is disabled
         if not WoWProDB.profile.buttonbar then
             WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
@@ -92,7 +92,7 @@ function WoWPro:DragSet()
         end)
         WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
         end)
-        
+
         -- Disable titlebar dragging when dragging is disabled
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
