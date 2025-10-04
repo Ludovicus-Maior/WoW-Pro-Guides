@@ -65,6 +65,25 @@ function WoWPro:DragSet()
                 WoWPro.InhibitAnchorRestore = false
             end
         end)
+
+        -- Enable titlebar dragging when button bar is disabled
+        if not WoWProDB.profile.buttonbar then
+            WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
+                if button == "LeftButton" and WoWProDB.profile.drag then
+                    WoWPro.InhibitAnchorRestore = true
+                    WoWPro.MainFrame:StartMoving()
+                elseif button == "RightButton" then
+                    WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
+                end
+            end)
+        else
+            -- Disable titlebar dragging when button bar is enabled (to avoid conflicts)
+            WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
+                if button == "RightButton" then
+                    WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
+                end
+            end)
+        end
     else
         WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
@@ -72,6 +91,13 @@ function WoWPro:DragSet()
             end
         end)
         WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
+        end)
+
+        -- Disable titlebar dragging when dragging is disabled
+        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
+            if button == "RightButton" then
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
+            end
         end)
     end
 end
