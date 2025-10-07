@@ -2661,7 +2661,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                     local name = factionInfo.name
                     local bottomValue = factionInfo.currentReactionThreshold
-                    earnedValue = factionInfo.nextReactionThreshold
+                    earnedValue = factionInfo.currentStanding
                     standingId = factionInfo.reaction
                     hasBonusRepGain = factionInfo.hasBonusRepGain
 
