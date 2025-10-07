@@ -2645,14 +2645,24 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
                         break
                     end
-                    local friendTextLevel = reputationInfo.reaction:lower()
-                    standingId = Rep2IdAndClass[friendTextLevel][1]
+
+                    -- Use GetFriendshipReputationRanks for numeric level instead of localized string matching
+                    local rankInfo = _G.C_GossipInfo and _G.C_GossipInfo.GetFriendshipReputationRanks and _G.C_GossipInfo.GetFriendshipReputationRanks(factionIndex)
+                    if rankInfo and rankInfo.currentLevel then
+                        standingId = rankInfo.currentLevel - 1
+                    else
+                        -- Fallback to old string matching (should never happen in MoP+)
+                        local friendTextLevel = reputationInfo.reaction:lower()
+                        standingId = Rep2IdAndClass[friendTextLevel] and Rep2IdAndClass[friendTextLevel][1] or 0
+                        WoWPro:dbp("NPC %s is a %s", reputationInfo.name, friendTextLevel)
+                    end
+
                     if reputationInfo.nextThreshold then
                         earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
                     else
                         earnedValue = 0 -- The reputation is at max
                     end
-                    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", reputationInfo.name, friendTextLevel, standingId, earnedValue)
+                    WoWPro:dbp("NPC %s: standing %d, earned %d", reputationInfo.name, standingId, earnedValue)
                 else
                     local factionInfo = WoWPro.C_Reputation_GetFactionDataByID(factionIndex)
                     if not factionInfo then
