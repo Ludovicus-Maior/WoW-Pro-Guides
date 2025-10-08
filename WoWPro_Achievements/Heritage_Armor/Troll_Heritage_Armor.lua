@@ -5,7 +5,7 @@ WoWPro:GuideQuestTriggers(guide, 77869)
 WoWPro.Achievements:GuideMisc(guide, "Troll Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
-N|You should get the Quest "Return to the Echo Isles" on Login. If not, you'll get it form Zi'guma in The Vallet of Spirits. Just follow the guide.|
+N You should ...|N|You should get the Quest "Return to the Echo Isles" on Login. If not, you'll get it from Zi'guma in The Vallet of Spirits. Just follow the guide.|
 
 A Return to the Echo Isles|QID|77869|M|32.76,64.84|Z|85|N|From Zi'guma.|
 T Return to the Echo Isles|QID|77869|M|61.10,65.64|Z|463|N|To Rokhan.|
