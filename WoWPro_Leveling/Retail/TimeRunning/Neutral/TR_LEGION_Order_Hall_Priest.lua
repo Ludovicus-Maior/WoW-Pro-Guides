@@ -33,7 +33,7 @@ T The Third Legend|QID|44407|M|51.60,47.77|N|To Alonsus Faol.|
 
 
 ;DISCIPLINE
-A The Light's Wrath|QID|41625|M|78.95,40.99|Z|0018; Tirisfal Glades|N|From Alonsus Faol.|
+;A The Light's Wrath|QID|41625|PRE|40706|M|78.95,40.99|Z|0018; Tirisfal Glades|N|From Alonsus Faol.|
 H Dalaran|QID|41625|M|78.95,40.99|Z|0018; Tirisfal Glades|U|140192|N|Use your Dalaran hearthstone or otherwise travel back to Dalaran.|ACTIVE|41625|
 T The Light's Wrath|QID|41625|M|28.64,49.92|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
 A A New Threat|QID|41626|M|28.64,49.92|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|41625|
@@ -73,7 +73,7 @@ A A Gift of Time|QID|41632|M|28.60,49.89|Z|0627; Dalaran!Broken Isles|N|From Arc
 C A Gift of Time|QID|41632|M|51.61,47.81|CHAT|N|Talk to Alonsus Faol in Netherlight Temple.|
 T A Gift of Time|QID|41632|M|46.37,20.96|Z|0627; Dalaran!Broken Isles|N|To Alonsus Faol.|
 ;HOLY
-A The Vindicator's Plea|QID|41957|M|78.51,41.07|Z|0018; Tirisfal Glades|N|From Brother Larry.|PRE|40706|
+;A The Vindicator's Plea|QID|41957|M|78.51,41.07|Z|0018; Tirisfal Glades|N|From Brother Larry.|PRE|40706|
 P Dalaran|ACTIVE|41957|M|49.68,79.52|Z|0702; Netherlight Temple!Dungeon|N|Taket he portal to Dalaran.|
 T The Vindicator's Plea|QID|41957|M|37.76,36.86|Z|0627; Dalaran!Broken Isles|N|To Vindicator Boros.|
 A House Call|QID|41966|M|37.76,36.86|Z|0627; Dalaran!Broken Isles|N|From Vindicator Boros.|PRE|41957|
@@ -100,7 +100,7 @@ C T'uure obtained.|QID|42074|SO|7;1|M|65.34,59.26|Z|Niskara|NC|N|Pick up T'uure.
 C Leave Niskara|QID|42074|SO|7;2|M|65.53,59.99|Z|Niskara|NC|N|Bo'ja made a portal for you, use it to Leave Niskara.|
 T Return of the Light|QID|42074|M|46.28,20.52|Z|0627; Dalaran!Broken Isles|N|To Prophet Velen.|
 ;SHADOW
-A Blade in Twilight|QID|40710|M|78.96,41.00|Z|0018; Tirisfal Glades|N|From Alonsus Faol.|
+;A Blade in Twilight|QID|40710|M|78.96,41.00|Z|0018; Tirisfal Glades|N|From Alonsus Faol.|
 C Blade in Twilight|QID|40710|QO|1|M|17.62,53.55|Z|0018; Tirisfal Glades|N|Go to the cultists' camp in Tirisfal Glades.|U|173523|
 C Find the first clue.|NC|QID|40710|QO|2|SO|1;1|M|13.47,57.58|Z|0018; Tirisfal Glades|N|Find the first clue in the bed of a wagon.|
 C Find the second clue.|NC|QID|40710|QO|2|SO|1;2|M|13.20,55.48|Z|0018; Tirisfal Glades|N|Find the second clue inside a tent.|
