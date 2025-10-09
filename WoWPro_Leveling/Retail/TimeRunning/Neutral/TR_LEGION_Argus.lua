@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_Ludo_Argus', 'Leveling', 'ArgusSurface', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNickname(guide, "Argus")

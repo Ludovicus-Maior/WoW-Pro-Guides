@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmStormheim', 'Leveling', 'Stormheim', 'WoWPro Team', 'Horde')
+local guide = WoWPro:RegisterGuide('TR_EmmStormheim', 'Leveling', 'Stormheim', 'WoWPro Team', 'Horde')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Stormheim")

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_EmmHighmountain', 'Leveling', 'Highmountain', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Highmountain")
