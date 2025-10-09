@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_EmmValsharah', 'Leveling', "Val'sharah", 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Val'sharah")
@@ -150,17 +150,17 @@ T The Chieftain's Beads|QID|38146|M|48.39,84.63|Z|641; Val'sharah|N|To Elder Soo
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|Z|641; Val'sharah|N|To Rylissa Bearsong.|
 A Awakening the Archdruid|QID|38143|PRE|38146&38246&38455|M|49.09,82.36|Z|641; Val'sharah|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|Z|641; Val'sharah|N|Loot for treasure and resources.|RANK|2|
-T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|641; Val'sharah|N|To Koda Steelclaw, inside Sleeper's Barrow.|
-A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|641; Val'sharah|N|From Koda Steelclaw, wait a few seconds for the quest to become available.|
-A The Demons Below|QID|38144|PRE|38143|M|60.50,17.55|Z|641; Val'sharah|N|From Koda Steelclaw.|
-C The Demons Below|QID|38144|M|48.99,69.91|S|Z|641; Val'sharah|N|Kill the Darkfiend Intruders.|
-C Out of the Dream|QID|38145|M|48.99,69.91|NC|Z|641; Val'sharah|N|Wake up the Druids.|
-C The Demons Below|QID|38144|M|48.99,69.91|US|Z|641; Val'sharah|N|Finish your demon quota.|
-T The Demons Below|QID|38144|M|62.53,48.82|Z|641; Val'sharah|N|To Koda Steelclaw.|
-T Out of the Dream|QID|38145|M|62.53,48.82|Z|641; Val'sharah|N|To Koda Steelclaw.|
-A Entangled Dreams|QID|38147|PRE|38145&38144|M|62.53,48.82|Z|641; Val'sharah|N|From Koda Steelclaw.|
-C Entangled Dreams|QID|38147|M|59.84,83.58|T|Morphael|Z|641; Val'sharah|N|Kill Morphael|
-T Entangled Dreams|QID|38147|M|48.85,81.52|Z|641; Val'sharah|N|To Koda Steelclaw.|
+T Awakening the Archdruid|QID|38143|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw, inside Sleeper's Barrow.|
+A Out of the Dream|QID|38145|PRE|38143|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|From Koda Steelclaw, wait a few seconds for the quest to become available.|
+A The Demons Below|QID|38144|PRE|38143|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|From Koda Steelclaw.|
+C The Demons Below|QID|38144|M|48.99,69.91|S|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Kill the Darkfiend Intruders.|
+C Out of the Dream|QID|38145|M|48.99,69.91|NC|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Wake up the Druids.|
+C The Demons Below|QID|38144|M|48.99,69.91|US|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Finish your demon quota.|
+T The Demons Below|QID|38144|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
+T Out of the Dream|QID|38145|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
+A Entangled Dreams|QID|38147|PRE|38145&38144|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|From Koda Steelclaw.|
+C Entangled Dreams|QID|38147|M|59.84,83.58|T|Morphael|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Kill Morphael|
+T Entangled Dreams|QID|38147|M|48.89,81.50|Z|641; Val'sharah|N|To Koda Steelclaw.|
 $ Treasure|QID|38366|M|48.69,73.79|Z|641; Val'sharah|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|RANK|2|
 T Archdruid of Lore|QID|38381^44106|M|48.87,70.18|Z|641; Val'sharah|N|To Elothir.|
 A Solid as a Rock|QID|38235|PRE|44106^38381|M|48.87,70.18|Z|641; Val'sharah|N|From Elothir.|
@@ -253,7 +253,7 @@ C The Farmsteads|QID|38644|M|42.35,59.10|QO|4|NC|Z|641; Val'sharah|N|Head back t
 T The Farmsteads|QID|38644|M|42.36,59.02|Z|641; Val'sharah|N|To Mayor Heathrow.|
 T Children of the Night|QID|38645|M|42.47,58.99|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 T The Warden's Signet|QID|38711|M|42.47,58.99|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
-A Jarod's Mission|QID|38691|PRE|38647&38646&38644&38645&38711&39117|M|42.48,58.96|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
+A Jarod's Mission|QID|38691|PRE|38647&38646&38644&38645&39117|M|42.48,58.96|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
 C Jarod's Mission|QID|38691|M|42.47,58.93|Z|641; Val'sharah|N|Tell Jarod Shadowsong you are ready to ride.|CHAT|
 T Jarod's Mission|QID|38691|M|40.85,53.01|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 A Kur'talos Ravencrest|QID|38718|PRE|38691|M|40.85,53.01|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
@@ -273,7 +273,7 @@ C Maiev's Trail|QID|38714|M|40.89,56.34|QO|2|NC|Z|641; Val'sharah|N|Check the pi
 C Maiev's Trail|QID|38714|M|42.05,51.52|QO|3|NC|Z|641; Val'sharah|N|Down to the main courtyard and pick up the glaive resting here.|
 C The Rook's Guard|QID|38715|M|42.93,52.00|QO|3|Z|641; Val'sharah|N|Kill Trelan Shieldbreaker.|T|Trelan Shieldbreaker|
 K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|Z|641; Val'sharah|N|Kill and loot for a companion pet.|ITEM|130166|RANK|2|ACH|11262;4|RARE|;unable to find related QID
-U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|Z|641; Val'sharah|N|Click the kitten to add to your pet journal.|RARE|;unable to find correct QID
+U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|Z|641; Val'sharah|N|Click the kitten to add to your pet journal.|RARE|O|;unable to find correct QID
 T Maiev's Trail|QID|38714|M|43.82,50.29|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 T The Rook's Guard|QID|38715|M|43.82,50.29|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 A Black Rook Prison|QID|38717|PRE|38714&38715|M|43.82,50.29|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
@@ -315,8 +315,8 @@ $ Treasure|QID|38781|M|67.39,57.41;67.81,58.86;68.94,60.64;69.67,61.08;69.44,59.
 f Starsong Refuge|ACTIVE|41054^41056|M|69.02,50.83|Z|641; Val'sharah|N|At Landrius Ravenfall.|
 T Love Lost|QID|41054^41056|M|69.55,49.52|Z|641; Val'sharah|N|To Tyrande Whisperwind.|
 A Dark Side of the Moon|QID|41708^41890|PRE|41056|M|69.55,49.52|Z|641; Val'sharah|N|From Tyrande Whisperwind.|
-A Wormtalon Wreckage|QID|41707|PRE|41056|M|69.47,49.34|Z|641; Val'sharah|N|From Aldos Duskwing.|
-A Lost in Retreat|QID|38671|PRE|41056|M|69.45,49.37|Z|641; Val'sharah|N|From Mender Onelle.|
+A Wormtalon Wreckage|QID|41707|PRE|41056|M|69.47,49.34|Z|641; Val'sharah|N|From Aldos Duskwing.|RANK|2|
+A Lost in Retreat|QID|38671|PRE|41056|M|69.45,49.37|Z|641; Val'sharah|N|From Mender Onelle.|RANK|2|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|S|Z|641; Val'sharah|N|As you go about your other tasks, kill Wormtalon Harpy.|
 C Dark Side of the Moon|QID|41890^41708|M|67.14,50.45|QO|1|Z|641; Val'sharah|N|Meet Tyrande in Shadowfen.|
 C Dark Side of the Moon|QID|41890^41708|M|66.87,50.12|QO|2|CHAT|Z|641; Val'sharah|N|Tell Tyrande that you are ready to guard her during her vigil, then kill the harpys that show up.|
@@ -396,10 +396,10 @@ T The Tears of Elune|QID|40890|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|Z|641; Val'sharah|N|Jump to the Guide Hub.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+;A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+;A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+;A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+;A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
 C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Pressing the Assault|QID|44545|NC|Z|641; Val'sharah|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
 C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_EmmHighmountain', 'Leveling', 'Highmountain', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Highmountain")
@@ -546,10 +546,10 @@ T The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|0629; Aegwynn's Gallery@Da
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+;A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+;A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+;A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+;A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
 C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
 C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|

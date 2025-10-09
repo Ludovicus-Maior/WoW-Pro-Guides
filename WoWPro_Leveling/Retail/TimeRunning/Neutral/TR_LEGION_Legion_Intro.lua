@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('LegionIntro', 'Leveling', 'Dalaran@Dalaran70', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_LegionIntro', 'Leveling', 'Dalaran@Dalaran70', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
@@ -38,13 +38,13 @@ C Infinite Bronze|QID|89409|M|45.42,28.68|Z|0627; Dalaran!Broken Isles|QO|4|NC|N
 C Infinite Bronze|QID|89409|M|45.11,28.69|Z|0627; Dalaran!Broken Isles|QO|5|NC|N|Infinite Bronze forged.|
 T Infinite Bronze|QID|89409|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Something Borrowed|QID|90659|PRE|89409|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
-C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|1|CHAT|N|Speak to Momentus after choosing a talent specialization.|
-C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Artifact Swapped.|
-C Something Borrowed|QID|90659|M|42.15,28.49|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Purchase the Remix Time trait in your Artifact Weapon.|
+C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|2|CHAT|N|Speak to Momentus after choosing a talent specialization.|
+C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Artifact Swapped.|
+C Something Borrowed|QID|90659|M|42.15,28.49|Z|0627; Dalaran!Broken Isles|QO|4|NC|N|Purchase the Remix Time trait in your Artifact Weapon.|
 T Something Borrowed|QID|90659|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Get Plenty of Exorcise|QID|89412|PRE|90659|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
 A Scavenger Hunting|QID|89411|PRE|90659|M|42.27,27.94|Z|0627; Dalaran!Broken Isles|N|From Erus.|
-A As A Matter of Artifac|QID|90901|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
+A As A Matter of Artifact|QID|90901|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
 C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|kill stuff farm infinite power.|S|
 C Scavenger Hunting|QID|89411|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Legion Armor Scraps.|S|
 C Get Plenty of Exorcise|QID|89412|M|48.05,37.41|Z|0627; Dalaran!Broken Isles|QO|1<1|NC|N|Legion Portal Sealed.|

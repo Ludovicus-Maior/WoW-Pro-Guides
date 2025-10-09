@@ -8,7 +8,6 @@
 	<Script file="TR_LEGION_Order_Hall_DH.lua"/>
 	<Script file="TR_LEGION_Order_Hall_DK.lua"/>
 	<Script file="TR_LEGION_Order_Hall_Druid.lua"/>
-	<Script file="TR_LEGION_Order_Hall_Evoker.lua"/>
 	<Script file="TR_LEGION_Order_Hall_Hunter.lua"/>
 	<Script file="TR_LEGION_Order_Hall_Mage.lua"/>
 	<Script file="TR_LEGION_Order_Hall_Monk.lua"/>
