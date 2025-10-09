@@ -583,6 +583,7 @@ function WoWPro:OnEnable()
     else
         WoWPro:dbp("ClassicSeasonID function is not available")
     end
+    WoWPro:dbp("Current PlayerGetTimerunningSeasonID is %s", tostring(seasonID))
 
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
@@ -1241,7 +1242,7 @@ function WoWPro:GuideClassSpecific(guide,class)
         return -- Allow developers to check everything, if they want
     end
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide,("Guide %s is class specific and you don't match"):format(guide.GID))
+        WoWPro:UnRegisterGuide(guide,("Guide %s is %s specific and you are a %s!"):format(guide.GID, class, engClass))
     end
 end
 
