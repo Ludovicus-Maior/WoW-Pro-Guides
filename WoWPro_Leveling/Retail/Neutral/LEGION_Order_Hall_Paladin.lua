@@ -173,8 +173,8 @@ F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|Broken Shore!Instance|N|Click on
 A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|39696|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
 t Pressing the Assault|QID|44545|M|53.32,78.77|N|To UI Alert.|
-C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|N|Enlist Lady Liadrin|
-A Champion: Lady Liadrin|QID|42881|M|38.19,64.62|N|From/To Lady Leadrin.|
+C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|S!US|N|Enlist Lady Liadrin|
+A Champion: Lady Liadrin|QID|42881|M|38.19,64.62|ACTIVE|42846|N|From/To Lady Leadrin.|
 T The Blood Matriarch|QID|42846|M|52.33,78.08|N|To Lord Grayson Shadowbreaker.|
 A Dark Storms|QID|42847|M|52.33,78.08|N|From Lord Grayson Shadowbreaker.|PRE|42846|
 C Dark Storms|QID|42847|M|53.35,78.74|NC|N|Open the scouting map and choose the missions tab. It will take 2 minutes for the mission to complete.|
@@ -251,7 +251,7 @@ C Communication Orbs|QID|42888|M|31.47,52.63;30.71,51.47;28.97,52.67|Z|Azsuna|CN
 T Communication Orbs|QID|42888|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
 T Mother Ozram|QID|43462|M|28.97,52.67|Z|Azsuna|N|To Justicar Julia Celeste.|
 A The Codex of Command|QID|42890|M|28.97,52.67|Z|Azsuna|N|From Justicar Julia Celeste.|PRE|43462|
-K Kill Bilebrain|QID|42417|QO|1|M|29.30,53.63|Z|Azsuna|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
+K Kill Bilebrain|QID|42417|QO|1|ACTIVE|42890|M|29.30,53.63|Z|Azsuna|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
 C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|Azsuna|T|Jarvox|N|Kill and loot to collect the Codex.|
 C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|Azsuna|N|Break the first lock.|
 C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|Azsuna|N|Break the second lock.|
@@ -346,9 +346,6 @@ A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Red
 ; LVL 110 Quests, Obliterum / Tears to Light's Heart.
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 ;lights heart - post 110
 A Awakenings|QID|44464|M|52.37,69.37|N|From Light's Heart|PRE|44448|
 P Dalaran|QID|44464|M|38.11,63.38|N|Take the portal to Dalaran.|ACTIVE|44464|
@@ -411,12 +408,6 @@ J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you wi
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
-; added 3/14/2017
-A An Urgent Warning|QID|45974|M|45.84,66.86|N|From Injured pally? (dont know coords).|
-T An Urgent Warning|QID|45974|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
-A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Maxwell Tyrosus.|
-C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|
-t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 ;champions of legionfall
 A Judgment Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
 C Judgment Awaits|QID|45143|M|75.69,53.86|Z|23;Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
@@ -447,7 +438,7 @@ C Oath Breaker|QID|45148|M|55.33,18.02|Z|Broken Shore|N|Kill Oathbinder Zorak|T|
 C Ending the Crescent Curse|QID|45149|M|55.33,18.02|Z|Broken Shore|US|N|Finish freeing the Felbound Spirits.|T|Felbound Spirit|
 T Oath Breaker|QID|45148|M|58.85,31.72|N|To Nerus Moonfang.|
 T Ending the Crescent Curse|QID|45149|M|58.85,31.72|N|To Nerus Moonfang.|
-A Champion: Nerus Moonfang|QID|46045|M|58.85,31.72|N|From/To Nerus Moonfang.|
+A Champion: Nerus Moonfang|QID|46045|M|58.85,31.72|PRE|45149|N|From/To Nerus Moonfang.|
 P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|47137|
 F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47137|
 T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
@@ -469,7 +460,7 @@ T A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schm
 A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46083|
 C Leather to Legendary|QID|46074|QO|2|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
 T Leather to Legendary|QID|46074|M|52.26,78.13|N|Return to your order hall and to Lord Grayson Shadowbreaker.|
-A Stirring in the Shadows|QID|45770|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|
+A Stirring in the Shadows|QID|45770|PRE|46074|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|
 R Eastwall Gate|QID|46074|M|43.44,19.56|Z|23;Eastern Plaguelands|N|Run up the stairs and out of the order hall into Eastern Plaguelands, Fly to the service entrance of Strathholme. DO NOT GO INSIDE YET.|ACTIVE|45770|
 C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|23;Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.|
 C Choose Your Allies|QID|45770|SO|1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Recruit 2 of the paladins to assist you.|
