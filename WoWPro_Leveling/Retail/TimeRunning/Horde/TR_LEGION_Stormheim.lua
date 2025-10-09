@@ -583,10 +583,10 @@ T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|R
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+;A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+;A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+;A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+;A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|0629; Aegwynn's Gallery@Dalaran|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
 C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
 C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|

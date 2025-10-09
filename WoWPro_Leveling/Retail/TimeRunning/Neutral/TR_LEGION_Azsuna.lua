@@ -480,10 +480,10 @@ T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|629; Aeg
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|Z|630; Azsuna!Broken Isles|N|Jump to the Guide Hub.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+;A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+;A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+;A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+;A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|629; Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
 C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Pressing the Assault|QID|44545|NC|Z|630; Azsuna!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
 C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
