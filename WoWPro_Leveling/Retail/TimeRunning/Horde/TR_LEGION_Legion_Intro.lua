@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'WoWPro Team', 'Horde')
+local guide = WoWPro:RegisterGuide('TR_EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'WoWPro Team', 'Horde')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)

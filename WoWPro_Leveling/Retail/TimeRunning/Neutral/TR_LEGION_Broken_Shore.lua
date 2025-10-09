@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Leveling', 'Broken Shore', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_Emm_BrokenShore', 'Leveling', 'Broken Shore', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideSort(guide, 9)
 WoWPro:GuideNickname(guide, "Broken Shore")
