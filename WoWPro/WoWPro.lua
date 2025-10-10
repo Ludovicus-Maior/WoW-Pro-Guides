@@ -356,6 +356,7 @@ function WoWPro:OnInitialize()
 
     -- Creating empty user settings if none exist --
     WoWProCharDB = WoWProCharDB or {}
+    WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
