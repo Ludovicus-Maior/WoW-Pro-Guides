@@ -109,7 +109,7 @@ end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
-    WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
+    WoWPro.Leveling:dbp("|cff33ff33Enabled|r")
 
     --Loading Frames--
     if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
@@ -125,7 +125,7 @@ function WoWPro.Leveling:OnEnable()
 
         -- New Level 1 Character --
         if currentLevel == 1 and currentXP < 100 then
-            WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
+            WoWPro.Leveling:Print("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
             elseif WoWPro.BC then
@@ -149,32 +149,37 @@ function WoWPro.Leveling:OnEnable()
 					WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
 				end
             end
+            WoWPro.Leveling:Print("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         -- New Death Knight --
 		elseif currentLevel == 55 and currentXP < 1000 and engClass == "DEATHKNIGHT" and WoWPro.WRATH then
-			WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+			WoWPro.Leveling:Print("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("WOTLK-DK")
 		elseif currentLevel == 58 and currentXP < 1000 and engRace == "Dracthyr" then
-			WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
+			WoWPro.Leveling:Print("Loading starter %s guide",engRace)
             WoWPro:LoadGuide("Intro_Dracthyr")
         elseif currentLevel == 8 and currentXP < 300 and engClass == "DEATHKNIGHT" then
-            WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+            WoWPro.Leveling:Print("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("JamScar5558")
+        elseif currentLevel == 10 and currentXP < 300 and _G.PlayerGetTimerunningSeasonID and (_G.PlayerGetTimerunningSeasonID() == 2) then
+            WoWProDB.char.currentguide = "TR_LegionIntro"
+            WoWPro.Leveling:Print("Loading Legion Remix universal starter guide %s", WoWProDB.char.currentguide)
+            WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 10 and currentXP < 300 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
-            WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
+            WoWPro.Leveling:Print("Loading Allied DK starter %s guide",locClass)
             WoWProDB.char.currentguide = "LudoAlliedDK"
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 8 and currentXP < 300 and engClass == "DEMONHUNTER" then
-            WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
+            WoWPro.Leveling:Print("Loading DH starter %s guide",locClass)
             WoWProDB.char.currentguide =  "LinksMardum098099"
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 10 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
-            WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
+            WoWPro.Leveling:Print("Loading Allied starter %s guide",engRace)
             WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         -- No current guide, but a guide was stored for later use --
         elseif WoWProDB.char.lastlevelingguide then
-            WoWPro.Leveling:dbp("Loading last leveling guide.")
+            WoWPro.Leveling:Print("Loading last leveling guide.")
             WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
         end
     end
