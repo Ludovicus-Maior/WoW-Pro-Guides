@@ -7,7 +7,6 @@
 * Updated Interfaces for MOP to 50501 and Retail to 110205
 * Added Legion Remix initial guide setting.
 ## Guide Updates
-* MOP Achievements: Klaxxi
 * MOP Dailies: Horde Dominance Offensive, Golden Lotus
 * MOP Leveling: Badlands, Eastern Plaguelands, Searing Gorge, Sholazar Basin
 * Retail Achievements: Heritage Armor for Belf and Troll.
