@@ -271,6 +271,10 @@ WoWPro.ShownRows = 0
 
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
+    if WoWPro.Minimized then
+        WoWPro:dbp("WoWPro.RowSizeSet(): Skipping because minimized")
+        return
+    end
     local space = WoWProDB.profile.space
     local pad = WoWProDB.profile.pad
     local biggeststep = 0
@@ -478,7 +482,9 @@ function WoWPro.CustomizeFrames()
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
     end
-    WoWPro.AnchorRestore(true) -- Just in case a module jiggled something
+    if not WoWPro.Minimized then
+        WoWPro.AnchorRestore(true) -- Just in case a module jiggled something
+    end
 end
 
 -- Create Dialog Box --
@@ -582,7 +588,9 @@ function WoWPro:CreateResizeButton()
             WoWPro.MainFrame:StartSizing("TOPLEFT")
             WoWPro:UpdateGuide("ResizeStart")
             WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
-                WoWPro.RowSizeSet()
+                if not WoWPro.Minimized then
+                    WoWPro.RowSizeSet()
+                end
             end)
         end)
         resizebutton:SetScript("OnMouseUp", function()
@@ -893,7 +901,9 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
             WoWPro.AnchorStore("OnDoubleClick1")
+            WoWPro.Minimized = true
         else
+            WoWPro.Minimized = false
             WoWPro.GuideFrame:Show()
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
@@ -905,6 +915,7 @@ function WoWPro:CreateTitleBar()
         end
     end)
 end
+
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
