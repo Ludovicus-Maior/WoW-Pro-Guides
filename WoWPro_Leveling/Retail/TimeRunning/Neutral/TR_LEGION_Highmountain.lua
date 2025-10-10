@@ -14,8 +14,7 @@ N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essentia
 U Cache of Infinite Treasure|U|237812|O|S!US|
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|0627; Dalaran!Broken Isles|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|0627; Dalaran!Broken Isles|N|From Warbrave Oro.|PRE|39733|
-F Thunder Totem|QID|38907|M|69.95,51.20|Z|0627; Dalaran!Broken Isles|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|FLY|OLD|
-C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
+F Thunder Totem|QID|38907|M|69.95,51.20|Z|0627; Dalaran!Broken Isles|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|
 T Tauren Tanning|QID|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof|
 A Drogbar Durability|QID|40186|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|From Hrul Sharphoof.|
 A Shoulder the Burden|QID|40185|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|From Hrul Sharphoof.|
@@ -78,7 +77,7 @@ R Whitewater Wash|QID|39498|M|60.75,18.07;73.25,81.73|CS|Z|Highmountain/20|N|Go 
 R Riverbend|QID|39498|M|41.97,66.70|N|Continue on the road until you get to Riverbend.|FLY|OLD|
 T High Water|QID|39498|M|40.36,71.70|N|To Jale Rivermane.|
 A The Underking Comes|QID|42104|M|40.36,71.70|N|From Jale Rivermane.|PRE|39498|
-C The Underking Comes|QID|42104|M|39.73,69.24|NC|N|Walk around pressing the extra action button near Rivermane Tauren to tell them to evacuate.|
+C The Underking Comes|QID|42104|M|39.73,69.24|NC|N|Walk around pressing the extra action button near Rivermane Tauren to tell them to evacuate.|EAB|
 T The Underking Comes|QID|42104|M|38.57,69.03|N|To Spiritwalker Ebonhorn.|
 A Grasp of the Underking|QID|39025|M|38.62,68.43|N|From Spiritwalker Ebonhorn.|PRE|42104|
 A The Drogbar|QID|39026|M|38.62,68.43|N|From Spiritwalker Ebonhorn.|PRE|42104|
