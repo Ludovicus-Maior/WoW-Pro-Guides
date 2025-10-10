@@ -1,3 +1,20 @@
+# Release 2025.10.10.A
+## Bug Fixes
+* Disable TomTom/Carbonite warning after acknowledgement (Thanks Hendo)
+* Enable drag by titlebar when button bar is disabled (Thanks Spoony)
+* Oppsie in Reputation tracking (Thanks Furydins)
+* Fixed Friendship reputation not working in non-English clients (Thanks And0r-)
+* Updated Interfaces for MOP to 50501 and Retail to 110205
+* Added Legion Remix initial guide setting.
+## Guide Updates
+* MOP Achievements: Klaxxi
+* MOP Dailies: Horde Dominance Offensive, Golden Lotus
+* MOP Leveling: Badlands, Eastern Plaguelands, Searing Gorge, Sholazar Basin
+* Retail Achievements: Heritage Armor for Belf and Troll.
+* Retail Leveling Horde: Ghostlands, Hillsbrad Foothills, Blood Elf Intro, Nagrand
+* Retail Leveling Neutral: DK Intro, Paladin Order Hall
+* Timerunning: Legion Release Zone guides restored!
+
 # Release 2025.09.14.A
 ## Bugfix Release for 2025.09.12.A
 * Guide load issue for Classic Anniversary realms fixed (Thanks Cagomei)
