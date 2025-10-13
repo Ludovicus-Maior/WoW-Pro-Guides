@@ -31,7 +31,7 @@ C Queen Takes King|QID|39801|SO|6|M|69.53,79.62|Z|AraukNashalIntroScenario|N|Go 
 T The Splintered Fleet|QID|39801|M|36.07,27.56|N|To Dread-Rider Cullen.|
 A The Ranger Lord|QID|38332|PRE|39801|M|36.07,27.56|N|From Dread-Rider Cullen. Congrats, you found a bug, go turn in and then get this quest.|
 A Pump it Up|QID|38358|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|
-A Side Effects May Include Mild Undeath|QID|38357|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|
+A Side Effects May Include Mild Undeath|QID|38357|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|RANK|2|
 C Side Effects May Include Mild Undeath|QID|38357|M|35.80,26.38|S|N|Kill Volatile Mobs as you are collecting the toxic waste.|
 $ Small Treasure Chest|QID|38490|M|33.62,27.28;32.73,27.90|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C Pump it Up|QID|38358|M|36.36,25.06|H|N|Click on the spewing barrels to collect the toxic waste.|
@@ -57,7 +57,7 @@ K Worgen Stalkers|ACTIVE|38627|QO|1|M|44.32,22.91|N|Help your forsaken buddies d
 T Side Effects May Include Mild Undeath|QID|38357|M|36.10,27.35|N|To Apothecary Withers.|
 T A Grim Trophy|QID|38362|M|36.58,29.04;36.83,30.95|CS|N|Elevator up is at first coordinate. Turn in to Nathanos Blightcaller.|
 A The Ancient Trials|QID|38459|PRE|38362|M|36.80,31.04|N|From Huginn.|
-A Eyes in the Overlook|QID|38308|PRE|38362|M|36.74,31.12|N|From Cullen's Scouting Report.|
+A Eyes in the Overlook|QID|38308|PRE|38362|M|36.74,31.12|N|From Cullen's Scouting Report.|RANK|2|
 A Stormforged Grapple Launcher|QID|39775|M|36.95,31.85|N|If you do not have flying yet, you'll need this for the next few quests (and for getting to some treasure chests).|
 N Grappling Hooks|ACTIVE|39775&38308|N|[color=FF0000]NOTE: [/color]When there is a series Grappling Points, the TomTom arrow will point to the next one.\nManually check this step off to continue.|FLY|OLD|
 C Eyes in the Overlook|QID|38308|M|33.33,31.47|H|N|Follow the road east to locate and investigate Spymaster Knockwhistle's corpse.|
@@ -88,7 +88,7 @@ T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
 A Ahead of the Game|QID|39590|PRE|38331|M|41.83,43.06|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|RANK|2|
-A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
+A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|RANK|2|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
 C Ahead of the Game|QID|39590|QO|2|M|42.07,45.97|T|Gro Rumblehoof|N|Kill the Rumblehoof Champion and loot his Head.|
 $ Small Treasure Chest|QID|38488|M|41.75,46.03|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -136,7 +136,7 @@ N Grapple Points|ACTIVE|38613|N|Use the Grapple Points to move about Hrydshal qu
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
 C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|S|N|Kill Vrykul to get the Bindings.|P|Leatherworking;165;6|
-A Built to Scale|QID|38616|M|45.52,66.73|N|From a scale you loot off the first Stormwing Drake you kill.|
+A Built to Scale|QID|38616|M|45.52,66.73|N|From a scale you loot off the first Stormwing Drake you kill.|RANK|2|
 C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C To Weather the Storm|QID|38614|QO|3|M|45.68,66.63|H|N|Pick up the Oiled Cloak.|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -385,7 +385,7 @@ C A Heavy Burden|QID|40078|M|59.94,50.60;60.54,51.24|CS|H|N|Carry Havi's fish to
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
 A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
 ; checked to here
-A The Dark Lady's Bidding|QID|38872|PRE|39855|M|59.97,51.36|N|From Dread-Rider Cullen.|
+A The Dark Lady's Bidding|QID|38872|PRE|39855|M|59.97,51.36|N|From Dread-Rider Cullen.|RANK|2|
 C The Dark Lady's Bidding|QID|38872|QO|1|M|59.97,51.36|CHAT|N|Ask Dread-Rider Cullen for a ride to Dreadwake's Landing.|
 f Dreadwake's Landing|ACTIVE|38872|M|54.52,73.00|N|At Dread-Rider Barnes.|
 T The Dark Lady's Bidding|QID|38872|M|55.05,72.52|N|To Nathanos Blightcaller.|
@@ -417,7 +417,7 @@ A Shielded Secrets|QID|38878|PRE|39154|M|56.76,66.30|N|From Lady Sylvanas Windru
 A Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|N|Auto-accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|RANK|2|
 C Shielded Secrets|QID|38878|M|63.42,64.64|S|I|N|Examine Engraved Shields, these are scattered all over the area.|
-A Stories of Battle|QID|39405|PRE|39154|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
+A Stories of Battle|QID|39405|PRE|39154|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|RANK|2|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|It's under the table. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Disable the Titan Defence Orbs so you can enter the building. Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]If you linger too long, the Orbs will respawn.|RANK|2|
@@ -600,18 +600,18 @@ t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
 t Master of the Isles|QID|44549|N|To UI Alert.|
 
-D On to Class Halls|N|This ends Stormheim and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
-D On to Class Halls|N|This ends Stormheim and the Death Knight order hall guide will load.|C|DeathKnight|GUIDE|EmmLegionDK|
-D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
-D On to Class Halls|N|This ends Stormheim and the Hunter order hall guide will load.|C|Hunter|GUIDE|EmmLegionHunter|
-D On to Class Halls|N|This ends Stormheim and the Mage order hall guide will load.|C|Mage|GUIDE|EmmLegionMage|
-D On to Class Halls|N|This ends Stormheim and the Monk order hall guide will load.|C|Monk|GUIDE|EmmLegionMonk|
-D On to Class Halls|N|This ends Stormheim and the Paladin order hall guide will load.|C|Paladin|GUIDE|EmmLegionPaladin|
-D On to Class Halls|N|This ends Stormheim and the Priest order hall guide will load.|C|Priest|GUIDE|EmmLegionPriest|
-D On to Class Halls|N|This ends Stormheim and the Rogue order hall guide will load.|C|Rogue|GUIDE|EmmLegionRogue|
-D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
-D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
-D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
-D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
+D On to Class Halls|N|This ends Stormheim and the Druid order hall guide will load.|C|Druid|GUIDE|TR_EmmLegionDruid|
+D On to Class Halls|N|This ends Stormheim and the Death Knight order hall guide will load.|C|DeathKnight|GUIDE|TR_EmmLegionDK|
+D On to Class Halls|N|This ends Stormheim and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|TR_LinksDHArtCH100100|
+D On to Class Halls|N|This ends Stormheim and the Hunter order hall guide will load.|C|Hunter|GUIDE|TR_EmmLegionHunter|
+D On to Class Halls|N|This ends Stormheim and the Mage order hall guide will load.|C|Mage|GUIDE|TR_EmmLegionMage|
+D On to Class Halls|N|This ends Stormheim and the Monk order hall guide will load.|C|Monk|GUIDE|TR_EmmLegionMonk|
+D On to Class Halls|N|This ends Stormheim and the Paladin order hall guide will load.|C|Paladin|GUIDE|TR_EmmLegionPaladin|
+D On to Class Halls|N|This ends Stormheim and the Priest order hall guide will load.|C|Priest|GUIDE|TR_EmmLegionPriest|
+D On to Class Halls|N|This ends Stormheim and the Rogue order hall guide will load.|C|Rogue|GUIDE|TR_EmmLegionRogue|
+D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will load.|C|Shaman|GUIDE|TR_EmmLegionShaman|
+D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|TR_EmmLegionWarlock|
+D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|TR_EmmLegionWarrior|
+
 ]]
 end)

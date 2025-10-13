@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('TR_EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
-WoWPro:GuideLevels(guide, 10, 45, 80)
+WoWPro:GuideLevels(guide, 10, 80)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide, 'Priest: Order Hall')
 WoWPro:GuideNickname(guide, "Priest: Order Hall")
