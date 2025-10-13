@@ -342,9 +342,6 @@ A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Red
 ; LVL 110 Quests, Obliterum / Tears to Light's Heart.
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 ;lights heart - post 110
 A Awakenings|QID|44464|M|52.37,69.37|N|From Light's Heart|PRE|44448|
 P Dalaran|QID|44464|M|38.11,63.38|N|Take the portal to Dalaran.|ACTIVE|44464|
@@ -410,8 +407,6 @@ J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you
 J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
 
 ; added 3/14/2017
-A An Urgent Warning|QID|45974|M|45.84,66.86|N|From Injured pally? (dont know coords).|
-T An Urgent Warning|QID|45974|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Maxwell Tyrosus.|
 C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
