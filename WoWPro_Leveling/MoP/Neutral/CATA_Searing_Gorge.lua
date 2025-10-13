@@ -47,7 +47,7 @@ f Thorium Point|ACTIVE|27965|M|34.84,30.89|Z|0032; Searing Gorge|N|At Grisha.|FA
 A The Spiders Have to Go|QID|27980|M|37.74,26.56|Z|0032; Searing Gorge|N|From Lookout Captain Lolo Longstriker, standing at the base of the tower.|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.12,26.95|Z|0032; Searing Gorge|N|To Overseer Oilfist, standing on the platform above you.|
 A Mouton Flamestar|QID|28514|LEAD|28172|M|38.12,26.95|Z|0032; Searing Gorge|N|From Overseer Oilfist.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Burning Steppes next. Otherwise, skip this step to move on.|FACTION|Alliance|LVL|49|IZ|Thorium Point|
-A Mouton Flamestar|QID|28515|M|38.12,26.95|Z|0032; Searing Gorge|N|From Overseer Oilfist.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Burning Steppes next. Otherwise, skip this step to move on.|FACTION|Horde|LVL|49|IZ|Thorium Point|
+A Mouton Flamestar|QID|28515|LEAD|28417|M|38.12,26.95|Z|0032; Searing Gorge|N|From Overseer Oilfist.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Burning Steppes next. Otherwise, skip this step to move on.|FACTION|Horde|LVL|49|IZ|Thorium Point|
 A Rasha'krak|QID|28099|PRE|27965|M|38.12,26.95|Z|0032; Searing Gorge|N|From Overseer Oilfist.|
 A Curse These Fat Fingers|QID|27976|PRE|27965|M|38.48,27.86|Z|0032; Searing Gorge|N|From Hansel Heavyhands standing by the corner of the tower below you.|
 A Heat That Just Don't Quit|QID|27981|PRE|27965|M|38.48,27.86|Z|0032; Searing Gorge|N|From Hansel Heavyhands.|
