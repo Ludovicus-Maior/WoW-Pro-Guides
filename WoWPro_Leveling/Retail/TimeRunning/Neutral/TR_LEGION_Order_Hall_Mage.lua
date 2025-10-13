@@ -23,7 +23,7 @@ T Felstorm's Plea|QID|41035|M|53.72,47.35|Z|0627; Dalaran!Broken Isles|N|To Mery
 A The Dreadlord's Prize|QID|41036|M|53.72,47.35|Z|0627; Dalaran!Broken Isles|N|From Meryl Felstorm.|PRE|41035|
 R The Violet Hold|QID|41036|M|67.50,69.80|QO|1|Z|0627; Dalaran!Broken Isles|CC|ACTIVE|41036|
 C Engage the Enemy|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|1|N|Help Meryl Felstorm battle the dreadlord Kathra'natir.|T|Kathra'natir|
-C Void Barrier passed|QID|41036|M|50.29,54.44|Z|TheVioletHoldAcquisition|NC|SO|2;1|N|Blink/Shimmer past the barrior.|
+C Void Barrier passed|QID|41036|M|50.29,54.44|Z|TheVioletHoldAcquisition|NC|SO|2;1|N|Blink/Shimmer past the barrier.|
 C Siphoning Rift slain|QID|41036|M|64.86,35.73|Z|TheVioletHoldAcquisition|SO|2;2|N|Kill the four siphening Rifts.|
 C Activate the Forge of the Guardian|QID|41036|M|50.80,47.75|Z|TheVioletHoldAcquisition|SO|3;1|NC|N|Activate the Forge of the Guardian.|
 C Kathra'natir defeated|QID|41036|M|52.11,70.47|Z|TheVioletHoldAcquisition|SO|4;1|N|Kathra'natir defeated. BTW, spellsteal is really handy here.|T|Kathra'natir|
@@ -59,14 +59,14 @@ t Tech It Up A Notch|QID|42696|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To
 A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|
 C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
 t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Recruiting Apprentices|QID|44098|PRE|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+A Recruiting Apprentices|QID|44098|PRE|42222|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
 T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
 A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ravandwyr.|
 A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|PRE|42418|
-C A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
-T A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr.|
+C A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|QO|1|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
+T A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr. (nearest flightpath is Felblaze Ingress)|
 A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|PRE|42434|
 C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|0630; Azsuna!Broken Isles|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 C Prepare To Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|0630; Azsuna!Broken Isles|N|Kill Spitespeaker Lir'kess|
