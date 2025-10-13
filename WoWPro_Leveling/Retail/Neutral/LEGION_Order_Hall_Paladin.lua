@@ -36,6 +36,7 @@ T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
 ; A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
 ; C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
 ; T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
+A Rise, Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|38566|
 A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|38566|
 T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
 A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
@@ -50,7 +51,7 @@ A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Juli
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A Rise, Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
+A Rise, Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|38566|
 ;2nd artifact
 A Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|
 C Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|Choose which artifact you want to pursue next.|
