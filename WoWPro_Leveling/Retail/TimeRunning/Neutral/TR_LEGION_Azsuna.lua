@@ -58,7 +58,7 @@ t Saving Stellagosa|QID|37450|M|PLAYER|Z|630; Azsuna!Broken Isles|N|To Kor'vas B
 $ Treasure Chest|QID|38316|M|40.57,57.66|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|H|Z|630; Azsuna!Broken Isles|N|Click on the locks to free Stellagosa.|
 C Fel Machinations|QID|37656|M|37.81,49.83;39.04,47.59;39.30,46.49;38.83,44.89;37.88,46.64;38.22,49.13|CN|H|Z|630; Azsuna!Broken Isles|N|Free the prisoners as you go.|
-K Cache of Infernals|M|35.38,50.37|Z|630; Azsuna!Broken Isles|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|ACH|42518;12|
+K Cache of Infernals|M|35.38,50.37|Z|630; Azsuna!Broken Isles|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|RARE|ACH|42518;12|
 K Ragemaw|QID|44108|M|32.57,48.74|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for some treasure and resources.|T|Ragemaw|RANK|2|RARE|ACH|42518;21|
 t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|Z|630; Azsuna!Broken Isles|N|Auto turned in upon completion.|
 
