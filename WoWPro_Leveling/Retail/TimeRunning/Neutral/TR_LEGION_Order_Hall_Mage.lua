@@ -44,24 +44,26 @@ C Rise, Champions|QID|42663|M|55.79,38.63|Z|The Guardian's Library@Hall of the G
 T Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|PRE|41141|M|55.30,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 T Technical Wizardry|QID|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-A Archmage Omniara|QID|42126|PRE|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Archmage Omniara|QID|42126|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-T Archmage Omniara|QID|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Building Our Troops|QID|42127|PRE|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Building Our Troops|QID|42127|M|87.88,47.50|Z|Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-T Building Our Troops|QID|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Troops in the Field|QID|42687|PRE|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Troops in the Field|QID|42687|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-t Troops in the Field|QID|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Tech It Up A Notch|QID|42696|PRE|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Tech It Up A Notch|QID|42696|M|74.88,28.88|Z|Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-t Tech It Up A Notch|QID|42696|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|
-C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
-t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Recruiting Apprentices|QID|44098|PRE|42222|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
+;A Archmage Omniara|QID|42126|PRE|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Archmage Omniara|QID|42126|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+;T Archmage Omniara|QID|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Building Our Troops|QID|42127|PRE|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Building Our Troops|QID|42127|M|87.88,47.50|Z|Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+;T Building Our Troops|QID|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Troops in the Field|QID|42687|PRE|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Troops in the Field|QID|42687|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+;t Troops in the Field|QID|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Tech It Up A Notch|QID|42696|PRE|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Tech It Up A Notch|QID|42696|M|74.88,28.88|Z|Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+;t Tech It Up A Notch|QID|42696|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|
+;C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
+;t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Recruiting Apprentices|QID|44098|PRE|42222|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+;T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
+
+A Orange is the New Purple|QID|44240|PRE|44496|M|45.4,57.2|N|From Jackson Watkins.|LVL|45| ;-- this may need moved
 A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ravandwyr.|
 A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|PRE|42418|
@@ -109,10 +111,10 @@ C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|0627; Dalaran!Broken Isle
 C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|0627; Dalaran!Broken Isles|QO|5|N|Examine the frosted doughnut.|
 C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|0627; Dalaran!Broken Isles|QO|4|N|Examine the crystal ball.|
 T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
-A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42423|
-C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
-t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42424|
+;A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42423|
+;C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
+;t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.\n\n[color=FF0000]NOTE: [/color]Currently, there are non-scaling mobs, expect to die several times if you are low level. (or come back to this later)|PRE|42424|
 T Kalec's Plan|QID|42451|M|29.26,87.96|Z|Suramar|N|To Kalecgos.|
 A Not A Toothless Dragon|QID|42508|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|PRE|42451|
 C Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|Ride Kalecgos.|
@@ -137,13 +139,16 @@ C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyr
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
 A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
 $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
+A Champion: Millhouse Manastorm|QID|42702|PRE|42493|M|56.2,57.8|N|From/To Millhouse Manastorm.|
+A Champion: Archmage Vargoth|QID|42917|PRE|42493|M|70.2,60.4|N|From/To Archmage Vargoth.|
+;A Champion: Arcane Destroyer|QID|42704|PRE|42493|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
-A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
-C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
-t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
-A Into the Oculus|QID|42734|M|71,55.4|N|From Archmage Khadgar.|PRE|42940|
-R Into the Oculus|QID|42734|M|71,55.4|N|Talk to Khadgar to start the scenario.|ACTIVE|42734|
+;A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
+;C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
+;t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
+A Into the Oculus|QID|42734|M|71,55.4|N|From Archmage Khadgar.|PRE|42940&42707|
+C Into the Oculus|QID|42734|M|71,55.4|N|Talk to Khadgar to start the scenario and then follow the scenario instructions in your quest tracker, to finsih this quest.|ACTIVE|42734|
 t Into the Oculus|QID|42734|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|PRE|42734|
 A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|
@@ -196,15 +201,11 @@ C Defeat Maiev|M|60.17,67.61|Z|70BlackTempleLegion/1|SO|6;1|N|Defeat Maiev|ACTIV
 C The Huntress|Z|Black Temple|SO|6|US|N|nil|ACTIVE|44496|
 C Destiny Unfulfilled|QID|44496|M|59.82,67.25|Z|70BlackTempleLegion/1|QO|1|N|Experience True Betrayal|
 T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
-;these need put in proper place
-A Orange is the New Purple|QID|44240|PRE|44496|M|45.4,57.2|N|From Jackson Watkins.|
-A Champion: Millhouse Manastorm|QID|42702|PRE|44240|M|56.2,57.8|N|From/To Millhouse Manastorm.|
-A Champion: Archmage Vargoth|QID|42917|PRE|44240|M|70.2,60.4|N|From/To Archmage Vargoth.|
-A Champion: Arcane Destroyer|QID|42704|PRE|44240|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
+
 ; if you pick the talent for Arcane Armements you get this one....
-A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|From Minuette.|O|
-C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
-T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|To Minuette.|
+;A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|From Minuette.|O|
+;C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
+;T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|To Minuette.|
 ;2nd artifact
 A A Second Weapon|QID|43441|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
 C A Second Weapon|QID|43441|M|60.4,36|N|Pick the artifact you want to pursue next.|
