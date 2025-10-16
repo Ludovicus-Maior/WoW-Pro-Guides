@@ -210,9 +210,9 @@ A Prince Farondis|QID|37733|PRE|37256|M|48.39,34.54|Z|630; Azsuna!Broken Isles|N
 R Crumbled Palace|QID|37733|M|46.48,36.53;46.98,41.11|CS|Z|630; Azsuna!Broken Isles|N|Ride over to the Crumbled Palace.|FLY|OLD|
 T Prince Farondis|QID|37733|M|46.97,41.25|Z|630; Azsuna!Broken Isles|N|To Nightwatcher Idri.|
 A Our Very Bones|QID|37257|PRE|37733|M|47.00,41.36|Z|630; Azsuna!Broken Isles|N|From Prince Farondis.|
-A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|Z|630; Azsuna!Broken Isles|N|From Lady Irisse.|
-A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|
-A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|
+A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|Z|630; Azsuna!Broken Isles|N|From Lady Irisse.|RANK|2|
+A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|RANK|2|
+A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|RANK|2|
 T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|To Celea|
 A Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|From Celea.|
 A Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|From Celea.|
