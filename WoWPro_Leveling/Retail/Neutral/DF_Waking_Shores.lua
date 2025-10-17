@@ -64,8 +64,8 @@ C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|H|N|Click on the glowing rock
 C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Slay Primal elementals.|S|
 C Opportunities Abound|QID|70042|M|74.66,35.68|QO|3|N|Kill Primal Lava Elementals until you get [color=33fff9]Jeb's Supply Pack[/color].|S|
 C Without Purpose|QID|70148|M|74.90,35.02|Z|2022|QO|5|CHAT|N|Talk to Talon Ethrethi under the tent.|
-C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|This is dropped by Baron Crustcord at the bottom of Quaking Cavern.|T|Baron Crustcore|
-C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|1|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
+C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|1|NC|N|This is dropped by Baron Crustcord at the bottom of Quaking Cavern.|T|Baron Crustcore|
+C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|2|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
 C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|H|N|Finish excavating the glowing Volcanic Geodes.|US|
 C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Finish slaying the Primal elementals.|US|
 C Opportunities Abound|QID|70042|M|74.66,35.68|QO|3|N|Kill Primal Lava Elementals until you get [color=33fff9]Jeb's Supply Pack[/color].|T|Primal Lava Elemental|US|
