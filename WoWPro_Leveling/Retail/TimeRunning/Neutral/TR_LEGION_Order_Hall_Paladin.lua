@@ -247,7 +247,7 @@ C Communication Orbs|QID|42888|M|31.47,52.63;30.71,51.47;28.97,52.67|Z|0630; Azs
 T Communication Orbs|QID|42888|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|To Justicar Julia Celeste.|
 T Mother Ozram|QID|43462|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|To Justicar Julia Celeste.|
 A The Codex of Command|QID|42890|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|From Justicar Julia Celeste.|PRE|43462|
-K Kill Bilebrain|QID|42417|QO|1|M|29.30,53.63|Z|0630; Azsuna!Broken Isles|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RARE|RANK|2|
+K Kill Bilebrain|ACTIVE|42417|QO|1|M|29.30,53.63|Z|0630; Azsuna!Broken Isles|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
 C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|0630; Azsuna!Broken Isles|T|Jarvox|N|Kill and loot to collect the Codex.|
 C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|0630; Azsuna!Broken Isles|N|Break the first lock.|
 C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|0630; Azsuna!Broken Isles|N|Break the second lock.|

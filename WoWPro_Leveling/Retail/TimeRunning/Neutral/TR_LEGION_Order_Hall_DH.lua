@@ -18,7 +18,7 @@ C Onward to Adventure: Broken Isles|QID|60970|M|58.88,89.54|Z|85; Orgrimmar|NC|N
 T Onward to Adventure: Broken Isles|QID|60970|M|PLAYER|N|Quest turn-in on quest tracker once you enter a Broken Isles zone.|FACTION|Horde|
 
 ; Dalaran in
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A Call of the Illidari|QID|39047^39261|M|PLAYER|Z|0627; Dalaran!Broken Isles|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
 T Call of the Illidari|QID|39047^39261|M|74.98,49.02|Z|0627; Dalaran!Broken Isles|N|To Altruis the Sufferer or Kayn Sunfury.|
 A The Power to Survive|QID|40816^40814|PRE|39047|M|74.98,49.02|Z|0627; Dalaran!Broken Isles|N|From Kayn Sunfury or Altruis the Sufferer.|

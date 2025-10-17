@@ -10,7 +10,7 @@ N Starting in Dalaran|ACTIVE|39864|U|140192|N|This guide assumes you are startin
 N Treasure|ACTIVE|39864|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3. If you are using handy notes treasures, their treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Rares (Silver Elite)|ACTIVE|39864|N|All of the Silver mobs are also included. (on rank2/3) The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Ranks|ACTIVE|39864|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are nearby. It also adds most of the bonus objectives, treasures and rares. Rank 3 gets every quest, treasure and rare in the zone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T Stormheim|QID|39864|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|N|To Nathanos Blightcaller who is in the Violet Citadel.|
 A The Warchief Beckons|QID|38307|PRE|39864|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|N|From Nathanos Blightcaller.|
 C The Warchief Beckons|QID|38307|QO|1|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|NC|U|128692|N|Read the letter from Sylvanas.|
@@ -88,7 +88,7 @@ T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
 A Ahead of the Game|QID|39590|PRE|38331|M|41.83,43.06|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|RANK|2|
-A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|RANK|2|
+A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|RANK|2|O|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
 C Ahead of the Game|QID|39590|QO|2|M|42.07,45.97|T|Gro Rumblehoof|N|Kill the Rumblehoof Champion and loot his Head.|
 $ Small Treasure Chest|QID|38488|M|41.75,46.03|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -301,7 +301,7 @@ C Lay Them to Rest|QID|39791|M|64.71,45.39|S|U|128772|N|Weaken them, below 75% a
 C Judgment Day|QID|38811|QO|2|M|64.81,46.56|T|Rythas the Oracle|N|Click on the offering bowl and be ready to fight.|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|RANK|2|
 C Judgment Day|QID|38811|QO|1|M|67.56,43.00|T|Heimir of the Black Fist|N|Judged by Heimir of the Black Fist.|
-K The Nameless King|QID|38685|QO|1|M|67.26,39.93|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|RANK|2|RARE|
+K The Nameless King|ACTIVE|38685|QO|1|M|67.26,39.93|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|RANK|2|RARE|
 C Judgment Day|QID|38811|QO|3|M|66.87,45.77|T|Oktel Dragonblood|N|Judged by Oktel Dragonblood|
 $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|US|U|128772|N|Finish returning the Restless Ancestors to the earth.|

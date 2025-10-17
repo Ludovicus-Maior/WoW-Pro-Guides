@@ -11,7 +11,7 @@ N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting i
 N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3.|
 N Rares (Silver Elite)|QID|39733|N|A significant number,(21/25) of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|0627; Dalaran!Broken Isles|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|0627; Dalaran!Broken Isles|N|From Warbrave Oro.|PRE|39733|
 F Thunder Totem|QID|38907|M|69.95,51.20|Z|0627; Dalaran!Broken Isles|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|

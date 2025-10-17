@@ -10,7 +10,7 @@ N Starting in Dalaran|AVAILABLE|38834^44137|U|140192|Z|630; Azsuna!Broken Isles|
 N Treasure|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
 N Rares (Silver Elite)|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|627; Dalaran!Broken Isles|CHAT|N|Fly down with Khadgar.|
@@ -210,9 +210,9 @@ A Prince Farondis|QID|37733|PRE|37256|M|48.39,34.54|Z|630; Azsuna!Broken Isles|N
 R Crumbled Palace|QID|37733|M|46.48,36.53;46.98,41.11|CS|Z|630; Azsuna!Broken Isles|N|Ride over to the Crumbled Palace.|FLY|OLD|
 T Prince Farondis|QID|37733|M|46.97,41.25|Z|630; Azsuna!Broken Isles|N|To Nightwatcher Idri.|
 A Our Very Bones|QID|37257|PRE|37733|M|47.00,41.36|Z|630; Azsuna!Broken Isles|N|From Prince Farondis.|
-A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|Z|630; Azsuna!Broken Isles|N|From Lady Irisse.|
-A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|
-A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|
+A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|Z|630; Azsuna!Broken Isles|N|From Lady Irisse.|RANK|2|
+A The Magister of Mixology|QID|37727|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|RANK|2|
+A Presentation is Everything|QID|37728|PRE|37256|M|47.12,41.42|Z|630; Azsuna!Broken Isles|N|From Magister Garuhod.|RANK|2|
 T Links in the Chain|QID|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|To Celea|
 A Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|From Celea.|
 A Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|From Celea.|
