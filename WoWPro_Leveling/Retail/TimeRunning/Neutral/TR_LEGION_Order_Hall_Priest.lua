@@ -8,7 +8,7 @@ WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Priest')
 WoWPro:GuideSteps(guide, function()
 return [[
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A Priestly Matters|QID|40705|M|PLAYER|Z|0627; Dalaran!Broken Isles|N|Wait a few seconds for Hooded Priestess to show up, then get this quest from her. | ; Does not need PRE of 43635, contrary to what Grail says. Quest
 C Priestly Matters|QID|40705|QO|1|M|PLAYER|Z|0627; Dalaran!Broken Isles|NC|N|Use Faol's Hearthstone.|U|173373|
 C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|0018; Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|

@@ -13,8 +13,6 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 ; Quests either REQUIRE lvl 45, AND opening Suramar (QID#42229)
 ; This Guide includes - ZONEID# Z|627;Dalaran!Dalaran!Dungeon|, Z|629;Aegwynn's Galley!Dalaran70|, Z|630;Azsuna|, Z|641;Val'sharah|, Z|680;Suramar|, Z|682;Felsoul Hold|, Z|684;Temple of Fal'adora@Suramar|, Z|685;Falanaar Tunnels@Shattered Locus|, Z|686;Elor'shan@Suramar|, Z|687;Kel'balor@Suramar, Z|689;Ley Station Moonfall|, Z|690;Ley Station Aethenar|, Z|798;ArcwayScenario/1|
 
-U Cache of Infinite Treasure|U|237812|O|S!US|
-
 ; Nightfallen But Not Forgotten - Nightfall
 A Khadgar's Discovery|QID|44555^39985|LEAD|39986|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|
 T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|627|N|To Archmage Khadgar in the Violet Citadel.|

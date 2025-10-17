@@ -8,7 +8,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 C Armies of Legionfall|QID|46730|M|66.46,42.63|Z|Dalaran@Dalaran70|NC|N|Meet Khadgar at Krasus' Landing. If you are already at Krasus' Landing, walk to wards the stairs and then back to the marked location.|
 T Armies of Legionfall|QID|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Assault on Broken Shore|QID|46734|PRE|46730|M|69.35,43.97|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|

@@ -12,7 +12,7 @@ N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting ach
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure and rare in the zone.|
 ; Greymane's Gambit Leadin
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 R The Violet Citadel|QID|39735|M|29.10,46.93|Z|0627; Dalaran!Broken Isles|N|At Sky Admiral Rogers.|FLY|OLD|
 T Stormheim|QID|39735|M|29.10,46.93|Z|0627; Dalaran!Broken Isles|N|To Sky Admiral Rogers.|
 A A Royal Summons|QID|38035|PRE|39735|M|29.10,46.93|Z|0627; Dalaran!Broken Isles|N|From Sky Admiral Rogers.|

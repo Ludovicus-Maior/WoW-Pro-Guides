@@ -10,7 +10,7 @@ return [[
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ; Faction Specific Intro
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A The Hand of Fate|QID|47221|N|Accept from UI pop-up.|FACTION|Alliance|
 P The Hand of Fate|QID|47221|M|39.60,63.23|Z|Dalaran@Dalaran70|QO|1|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
 C The Hand of Fate|QID|47221|M|21.89,30.59|Z|84;Stormwind City|QO|2|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|

@@ -10,7 +10,7 @@ WoWPro:GuideClassSpecific(guide, 'Hunter')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|35.34,71.34|Z|Cleft of Shadow@Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 A In the Blink of an Eye|QID|44663^44184|PRE|44120|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|

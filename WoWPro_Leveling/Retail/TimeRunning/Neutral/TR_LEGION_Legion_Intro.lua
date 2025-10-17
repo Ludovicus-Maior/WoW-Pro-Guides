@@ -10,7 +10,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A Time Crisis|QID|89404|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|From Morazari.|
 C Time Crisis|QID|89404|QO|1|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|Talk to Morazari.|CHAT|
 T Time Crisis|QID|89404|M|67.63,42.48|Z|0627; Dalaran!Broken Isles|N|To Khadgar's mirror image.|

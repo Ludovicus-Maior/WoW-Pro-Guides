@@ -11,7 +11,7 @@ N Starting in Dalaran|QID|39731|U|140192|Z|641; Val'sharah|N|This guide assumes 
 N Treasure|QID|39731|Z|641; Val'sharah|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3. None are included on rank 1.|
 N Rares (Silver Elite)|QID|39731|Z|641; Val'sharah|N|All of the Silver mobs are listed on rank 2 or 3 (none on rank 1).  The item displayed has a high chance to drop but not guaranteed.  Blizzard has marked these mobs on the minimap with a star. |
 N Ranks|QID|39731|Z|641; Val'sharah|N|Setting the guide to Rank 1 will get you the minimum nesessary for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there as well as treasure chests and rares that are in the same areas. Rank 3 gets every quest, rare and nearly every treasure in the zone.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Tying Up Loose Ends|QID|39861|PRE|39731|M|70.65,43.80|Z|627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
 C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|627; Dalaran!Broken Isles|QO|1|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|

@@ -10,7 +10,7 @@ N Starting in Dalaran|ACTIVE|39864|U|140192|N|This guide assumes you are startin
 N Treasure|ACTIVE|39864|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3. If you are using handy notes treasures, their treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Rares (Silver Elite)|ACTIVE|39864|N|All of the Silver mobs are also included. (on rank2/3) The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Ranks|ACTIVE|39864|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are nearby. It also adds most of the bonus objectives, treasures and rares. Rank 3 gets every quest, treasure and rare in the zone.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T Stormheim|QID|39864|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|N|To Nathanos Blightcaller who is in the Violet Citadel.|
 A The Warchief Beckons|QID|38307|PRE|39864|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|N|From Nathanos Blightcaller.|
 C The Warchief Beckons|QID|38307|QO|1|M|29.10,46.86|Z|0627; Dalaran!Broken Isles|NC|U|128692|N|Read the letter from Sylvanas.|

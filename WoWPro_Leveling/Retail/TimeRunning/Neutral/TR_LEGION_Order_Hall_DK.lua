@@ -11,7 +11,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Guide Progression|QID|43877|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide. Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 P In the Blink of an Eye|ACTIVE|44663^44184|NC|QO|1|M|45.33,62.57|Z|85; Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|

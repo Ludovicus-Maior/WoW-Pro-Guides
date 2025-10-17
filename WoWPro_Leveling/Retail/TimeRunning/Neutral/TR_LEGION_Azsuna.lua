@@ -10,7 +10,7 @@ N Starting in Dalaran|AVAILABLE|38834^44137|U|140192|Z|630; Azsuna!Broken Isles|
 N Treasure|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
 N Rares (Silver Elite)|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|AVAILABLE|38834^44137|Z|630; Azsuna!Broken Isles|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
-U Cache of Infinite Treasure|U|237812|O|S!US|
+
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|627; Dalaran!Broken Isles|CHAT|N|Fly down with Khadgar.|
