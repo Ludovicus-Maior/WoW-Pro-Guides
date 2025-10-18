@@ -154,13 +154,19 @@ A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|PRE|42
 A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|
 T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|To Ari.|
 A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42954|
-C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
+C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Kill Nightborne in Suramar city and use the provided wand to collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|To Ari.|
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
 T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
-t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|PRE|42956|
-A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}.|PRE|42940|
+C Three Is a Lucky Number|QID|42959|S!US|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
+t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|
+A Champion: Arcane Destroyer|QID|42704|PRE|42959|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
+A Awakenings|QID|44464|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart|PRE|44448|
+F Lorlathil|ACTIVE|44464|M|69.83,51.21|Z|627; Dalaran!Broken Isles|N|Take the flight from Dalaran or fly on your own.|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your special action button.|
+T Awakenings|QID|44464|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Light's Heart back in your order hall.|
+A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}. this may require a specific amount of infinate knowledge, in original Legion it was AK2|PRE|44464|
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
@@ -336,9 +342,9 @@ C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of th
 ; LVL 110 Quests
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
+;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
+;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
 ; Added on 3/14/2017
 A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|
 T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
