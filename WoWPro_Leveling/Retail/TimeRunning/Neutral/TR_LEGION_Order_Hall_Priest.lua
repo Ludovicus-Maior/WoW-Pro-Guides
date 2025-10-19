@@ -427,7 +427,7 @@ T The Third Legend|QID|44407|M|51.60,47.77|N|To Alonsus Faol.|
 
 
 ; added 3/14/2017
-A An Urgent Warning|QID|46028|M|51.12,52.88|N|From Injured Acolyte.|
+;A An Urgent Warning|QID|46028|M|51.12,52.88|N|From Injured Acolyte.|
 T An Urgent Warning|QID|46028|M|51.41,45.88|N|To Moira Thaurissan.|
 A Investigate the Broken Shore|QID|46029|PRE|46028|M|51.41,45.88|N|From Moira Thaurissan.|
 C Menace on the Broken Shore|QID|46029|M|49.23,48.61|N|Use Command Board to send on Mission.|
@@ -455,7 +455,7 @@ C Crafting a Cure|QID|45347|QO|4|NC|M|29.99,55.86|Z|Highmountain|N|Click on the 
 C Crafting a Cure|QID|45347|QO|5|NC|M|30.00,55.79|Z|Highmountain|N|Click on Roland to rez him.|
 T Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
 A Safekeeping|QID|45348|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45348|
-H Dalaran|QID|45348|U|140192|N|Use your Dalaran Hearthstone and return to Alonsus Faol in your order hall.|
+H Dalaran|ACTIVE|45348|U|140192|N|Use your Dalaran Hearthstone and return to Alonsus Faol in your order hall.|
 T Safekeeping|QID|45348|M|51.58,47.79|N|To Alonsus Faol.|
 A To the Broken Shore|QID|45349|M|51.58,47.79|N|From Alonsus Faol.|PRE|45348|
 P Dalaran|ACTIVE|45349|M|49.72,80.67|N|Take the portal to Dalaran.|
