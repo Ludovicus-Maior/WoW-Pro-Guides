@@ -392,7 +392,7 @@ C Going Down, Going Up|QID|42425|M|49.39,39.25|NC|N|Click on the rappel point, c
 T Going Down, Going Up|QID|42425|M|49.43,39.28|N|To Oren Windstrider.|RANK|2|
 A Empty Nest|QID|39305|M|49.43,39.28|N|From Oren Windstrider.|PRE|42425|RANK|2|
 C Empty Nest|QID|39305|M|51.68,36.77|QO|1|NC|N|Eagle Eggs placed.|RANK|2|
-T Empty Nest|QID|39305|M|50.88,36.57|N|To Oren Windstrider (just inside the cave).|RANK|2|
+T Empty Nest|QID|39305|M|50.88,36.57;49.43,39.23|CN|N|To Oren Windstrider (just inside the cave). If Oren isn't there he'll be back where you picked the quest up.|RANK|2|
 U Learn Companion Pet|AVAILABLE|38913|U|129277|N|Click to add to your pet collection. Manually check this step off.|RANK|2|
 T The Skyhorn Tribe|QID|38913|M|52.47,44.70|N|To Lasan Skyhorn.|
 A Nursing the Wounds|QID|39318|M|52.47,44.70|N|From Lasan Skyhorn.|PRE|38913|
@@ -464,7 +464,6 @@ T The Three|QID|39321|M|49.21,36.61|N|To Lasan Skyhorn.|
 T Assaulting the Haglands|QID|39429|M|49.21,36.61|N|To Lasan Skyhorn.|
 A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|PRE|39321^39429|
 K Kill the Exiled Shaman|QID|39782|QO|1|M|41.92,41.61|ITEM|129175|T|Tenpack Flametotem|N|Silver - Run down this path to find kill this shaman and adopt a new pet.|RANK|2|RARE|
-U Learn companion pet|ACTIVE|39322|M|41.92,41.61|U|129175|N|Click to add Crispin to your pet journal. (manually close this step.)|RANK|2|
 C The Witchqueen|QID|39322|M|46.36,39.97|T|High Crawliac|N|Kill High Crawliac.|
 $ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|

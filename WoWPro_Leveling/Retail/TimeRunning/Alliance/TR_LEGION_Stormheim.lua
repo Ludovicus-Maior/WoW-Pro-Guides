@@ -133,7 +133,7 @@ C No Wings Required|QID|38318|M|42.88,64.85|N|Click on the hook with the big Yel
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|S|NOCACHE|N|Go about your quests to advance this objective.|RANK|2|
 C Stormheim Savagery|QID|40179|M|42.88,64.85|Z|Stormheim|P|Leatherworking;165;6|S|N|Kill Vrykul to get the Bindings.|
-A Built to Scale|QID|38337|M|42.88,64.85|N|Kill a Stormwing Drake to get this quest from the UI.|
+; A Built to Scale|QID|38337|M|42.88,64.85|N|Kill a Stormwing Drake to get this quest from the UI.| - This quest just would not drop for me.
 C Built to Scale|QID|38337|M|42.88,64.85|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 K Kill Glimar Ironfist|QID|38333|M|41.5,66.7|QO|1|ITEM|129291|T|Glimar Ironfist|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C To Weather the Storm|QID|38405|M|41.86,68.40|QO|2|N|Loot Climbing Treads.|
