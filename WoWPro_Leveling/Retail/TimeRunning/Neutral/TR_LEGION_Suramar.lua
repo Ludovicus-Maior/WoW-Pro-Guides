@@ -329,7 +329,7 @@ P Telemancer Beacon|ACTIVE|44636|M|22.69,36.69|Z|0680; Suramar|N|Return to Shal'
 P Temple of Fal'adora|QID|43988|PRE|44492|M|35.89,45.55|Z|0680; Suramar|N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
 $ Volotile Leyline Crystal|QID|43988|PRE|42229|M|42.69,30.93;35.52,52.77|Z|684|CS|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|
 $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|684|N|Loot for a bit of treasure and resources.|RANK|2|
-R Temple of Fal'adora|QID|41452|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|Z|684|CS|N|Back up the stairs and head outside.|
+R Temple of Fal'adora|QID|41452^41469|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|Z|684|CS|N|Back up the stairs and head outside.|
 R Irongrove Retreat|QID|41452|PRE|44492|M|22.48,39.90;22.48,30.26|Z|0680; Suramar|CS|QO|1|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|FLY|OLD|
 f Irongrove Retreat|QID|41452|PRE|44492|M|25.47,31.76|Z|0680; Suramar|QO|1|N|At Alyndra Stormgazer.|
 ; Good Suramaritan - Eminent Grow-Main Side Storyline
