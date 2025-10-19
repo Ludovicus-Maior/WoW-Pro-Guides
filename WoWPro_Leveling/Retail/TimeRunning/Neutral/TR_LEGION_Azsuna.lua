@@ -72,7 +72,7 @@ $ Treasure Chest|QID|44105|M|26.25,47.14|Z|630; Azsuna!Broken Isles|N|Loot for a
 ;K Inquistitor Tivos|M|26.83,49.07;28.30,51.94|CS|T|Inquistitor Tivos|Z|630; Azsuna!Broken Isles|N|Silver - Use the portal located at the first coordinate, to port up to the Soulrender above, he is in the lower level. Kill and loot for some treasure and resources.|RANK|3|RARE|ACH|42518;25|
 K Broodmother Lizax|M|33.26,42.21|T|Broodmother Lizax|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for some treasure and resources.|RANK|3|RARE|ACH|42518;12|
 R Grey Shoals|QID|38238|M|32.43,28.61|Z|630; Azsuna!Broken Isles|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|FLY|OLD|
-;K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|Z|630; Azsuna!Broken Isles|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|;probably need a run step in here
+;K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|T|Beacher|Z|630; Azsuna!Broken Isles|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|;probably need a run step in here
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|Z|630; Azsuna!Broken Isles|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
 R Traitor's Overlook|QID|37449|M|35.54,52.50|Z|630; Azsuna!Broken Isles|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|FLY|OLD|
 C Dark Revelations|QID|37449|QO|1|M|35.54,52.50|Z|630; Azsuna!Broken Isles|N|Kill Nightglaive the Traitor.|T|Nightglaive the Traitor|
@@ -121,7 +121,7 @@ C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|US|Z|630; Azsuna!B
 A Challiane Vineyards|QID|38203|M|47.40,12.44|Z|630; Azsuna!Broken Isles|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
 $ Small Treasure Chest|QID|42295|M|47.85,7.73|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Vintner Shalrala|ACTIVE|38203|QO|1|M|47.16,8.30|T|Vintner Shalrala|Z|630; Azsuna!Broken Isles|N|Kill and loot first recipe.|RANK|3|
-K Kill Normantis the Deposed|ACTIVE|37928|QO|1|M|50.24,7.63;49.49,8.81|CS|ITEM|129061|T|Normantis the Deposed|Z|630; Azsuna!Broken Isles|N|Silver - In a cave down on the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
+K Kill Normantis the Deposed|ACTIVE|37928|QO|1|M|50.24,7.63;49.49,8.81|CS|T|Normantis the Deposed|Z|630; Azsuna!Broken Isles|N|Silver - In a cave down on the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 K Kill Vintner Liastrin|ACTIVE|38203|QO|2|M|45.58,12.73|T|Vintner Liastrin|Z|630; Azsuna!Broken Isles|N|Kill and loot second recipe.|RANK|3|
 K Kill Grand Vintner Valiana|ACTIVE|38203|QO|3|M|42.91,8.55|T|Grand Vintner Valiana|Z|630; Azsuna!Broken Isles|N|Kill and loot third recipe.|RANK|3|
 $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -137,7 +137,7 @@ A The Hunger Returns|QID|37959|PRE|37857|M|53.78,16.82|Z|630; Azsuna!Broken Isle
 T Inscription of the Body|QID|39936|M|54.00,15.28|Z|630; Azsuna!Broken Isles|N|To Baric Stormrunner.|P|Inscription;773;6|
 A Opposites Repel|QID|39937|M|54.00,15.28|Z|630; Azsuna!Broken Isles|N|From Baric Stormrunner.|P|Inscription;773;6|PRE|39936|
 $ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|Z|630; Azsuna!Broken Isles|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
-;K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|Z|630; Azsuna!Broken Isles|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
+;K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|T|Cailyn Paledoom|Z|630; Azsuna!Broken Isles|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
 ;A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|Z|630; Azsuna!Broken Isles|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|;I belive this bonus objective got turned into a world quest. I couldnt get it to pop up.
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|US|Z|630; Azsuna!Broken Isles|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -189,10 +189,10 @@ A Hunger's End|QID|42756|PRE|42567|M|48.26,22.78|Z|630; Azsuna!Broken Isles|N|Fr
 C Hunger's End|QID|42756|QO|1|M|48.39,26.79|Z|630; Azsuna!Broken Isles|N|Orbyth slain|
 C Hunger's End|QID|42756|QO|2|M|48.39,26.79|Z|630; Azsuna!Broken Isles|N|Ael'Yith slain|
 T Hunger's End|QID|42756|M|47.86,26.12|Z|630; Azsuna!Broken Isles|N|To Senegos.|
-;$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|Z|630; Azsuna!Broken Isles|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
+;$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|T|Kazrok|Z|630; Azsuna!Broken Isles|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|Z|630; Azsuna!Broken Isles|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|FLY|OLD|
-;K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|Z|630; Azsuna!Broken Isles|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
-;$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|Z|630; Azsuna!Broken Isles|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
+;K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|T|Arcanist Shal'iman|Z|630; Azsuna!Broken Isles|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
+;$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|T|Felwing|Z|630; Azsuna!Broken Isles|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|Z|630; Azsuna!Broken Isles|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 R Llothien Highlands|QID|37690|M|49.32,29.27|Z|630; Azsuna!Broken Isles|N|Run to Llothien Highlands.|FLY|OLD|
 A Felblaze Ingress|QID|42372|M|50.46,30.73|Z|630; Azsuna!Broken Isles|N|From Marius Felbane.|RANK|3|LEAD|42375|
@@ -201,7 +201,7 @@ A Missing Demon|QID|42238|M|50.41,30.77|Z|630; Azsuna!Broken Isles|N|From Tehd S
 T Those Who Remember|QID|37690|M|48.38,34.56|Z|630; Azsuna!Broken Isles|N|To Nightwatcher Idri.|
 A They Came From the Sea|QID|37256|PRE|37690|M|48.38,34.56|Z|630; Azsuna!Broken Isles|N|From Nightwatcher Idri.|
 C They Came From the Sea|QID|37256|QO|2|M|47.52,37.80|Z|630; Azsuna!Broken Isles|N|Kill naga as you accomplish the other objectives.|S|
-;K Kill Valiyaka|QID|37726|QO|1|T|Valiyaka the Stormbringer|M|47.41, 34.37|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129082|RANK|2|RARE|
+;K Kill Valiyaka|QID|37726|QO|1|T|Valiyaka the Stormbringer|M|47.41, 34.37|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C They Came From the Sea|QID|37256|T|Fathom-Commander Zarrin|QO|1|M|45.00,36.89|Z|630; Azsuna!Broken Isles|N|Kill and loot the commander's head.|
 $ Small Treasure Chest|QID|37713|M|44.48,39.47|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C They Came From the Sea|QID|37256|QO|2|M|47.30,35.41|Z|630; Azsuna!Broken Isles|N|Finish killing naga.|US|
@@ -218,7 +218,7 @@ A Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|63
 A Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|From Celea.|
 C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|Z|630; Azsuna!Broken Isles|N|Kill murlocs to retrieve the pilfered bones.|S|
 A Bottled Up|QID|38407|M|49.65,39.32|Z|630; Azsuna!Broken Isles|N|From 'Okuna's Message' looted from Salteye mobs.|
-;K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+;K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|T|Mrrgrl the Tide Reaver|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C A Rather Long Walk|QID|37492|QO|1|M|51.74,36.58|H|Z|630; Azsuna!Broken Isles|N|Aldryth is found underwater.|
 C The Magister of Mixology|QID|37727|QO|1|M|52.76,33.12|NC|Z|630; Azsuna!Broken Isles|N|The eggs are ground spawn in nests around Gangamesh's lair.\nShallows Heron's will attack when you loot the eggs.|S|
@@ -248,7 +248,7 @@ $ Small Treasure Chest|QID|42282|M|53.61,44.15|Z|630; Azsuna!Broken Isles|N|Loot
 C Children of Nar'thalas|QID|42692|QO|2|M|51.96,43.65|I|Z|630; Azsuna!Broken Isles|N|The second tome is right inside the building near Prince Farondis.|RANK|2|
 C Children of Nar'thalas|QID|42692|QO|3|M|51.88,44.96|I|Z|630; Azsuna!Broken Isles|N|The third tome is in the building above Prince Farondis.|RANK|2|
 $ Small Treasure Chest|QID|42283|M|53.50,45.47|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
-;K Kill Captain Volo'ren|QID|37821|QO|1|ITEM|129066|M|53.45,43.95|T|Captain Volo'ren|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+;K Kill Captain Volo'ren|QID|37821|QO|1|M|53.45,43.95|T|Captain Volo'ren|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|42281|M|52.00,42.10|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|US|Z|630; Azsuna!Broken Isles|N|Finish collecting the Glyptics.|RANK|2|
 T Children of Nar'thalas|QID|42692|M|53.27,45.31|Z|630; Azsuna!Broken Isles|N|To Kallistia Starlance.|RANK|2|
@@ -259,9 +259,9 @@ C Back from the Dead|QID|42694|QO|2|M|55.14,38.57|NC|Z|630; Azsuna!Broken Isles|
 $ Small Treasure Chest|QID|42287|M|54.40,36.33|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|37596|M|53.03,37.27|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C Back from the Dead|QID|42694|QO|3|M|55.92,42.47;56.21,42.24|CS|NC|Z|630; Azsuna!Broken Isles|N|Search the eastern colonnade.|RANK|2|
-$ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|ITEM|131795|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Glimmering Treasure Chest|QID|37830|M|58.36,43.78|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 C Nar'thalas Still Suffers|QID|37486|QO|1|M|55.58,48.10|T|Athissa|Z|630; Azsuna!Broken Isles|N|Defeat Athissa.|
-;K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|ITEM|129086|RANK|2|RARE|
+;K Kill Brawlgoth|QID|42450|QO|1|M|55.23,43.95|T|Brawlgoth|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Back from the Dead|QID|42694|QO|4|M|54.47,45.56|NC|Z|630; Azsuna!Broken Isles|N|Search near the plaza fountain.|RANK|2|
 C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165;6|QO|1|US|Z|630; Azsuna!Broken Isles|N|Kill the Naga for the Shoulderguards|
 C Best Served Cold|QID|40188|M|57.39,40.47|P|Leatherworking;165;6|QO|1|Z|630; Azsuna!Broken Isles|N|Kill Ranaris.|
@@ -330,7 +330,7 @@ T The Head of the Snake|QID|37470|M|61.70,41.08|Z|630; Azsuna!Broken Isles|N|To 
 A Eye of Azshara: Wrath of Azshara|QID|38286|PRE|37470|M|61.70,41.08|NA|Z|630; Azsuna!Broken Isles|N|From Prince Farondis. This is a dungeon quest, accept or not as you choose. Manually check the step off if you dont take the quest.|
 $ Small Treasure Chest|QID|42294|M|62.81,44.79|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|Z|630; Azsuna!Broken Isles|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|RARE|; There are ACH's for all silvers in this zone.
+K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|Z|630; Azsuna!Broken Isles|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|T|Golza the Iron Fin|RANK|2|RARE|; There are ACH's for all silvers in this zone.
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|Z|630; Azsuna!Broken Isles|N|Auto turned in when complete.|RANK|2|
 R Felblaze Ingress|QID|42372|M|63.86,28.92|Z|630; Azsuna!Broken Isles|N|Ride to the Felblaxe Ingress.|RANK|3|FLY|OLD|
 T Scribal Knowledge|QID|39939|M|65.07,25.94|Z|630; Azsuna!Broken Isles|N|To Zarla Shadowheart.|P|Inscription;773;6|
@@ -368,21 +368,21 @@ A Runic Catgut|QID|38947|M|60.00,34.48|Z|630; Azsuna!Broken Isles|N|From Lyndras
 A Hard Times|QID|38948|M|60.00,34.48|Z|630; Azsuna!Broken Isles|N|From Lyndras.|P|Tailoring;197;6|PRE|38946|
 $ Treasure Chest|QID|38419|M|57.15,31.06|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runic Catgut|QID|38947|M|57,31|S|Z|630; Azsuna!Broken Isles|N|Kill cats until you collect the catgut needed.|P|Tailoring;197;6|
-;K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|138395|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
+;K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 C Runic Catgut|QID|38947|M|57,31|US|Z|630; Azsuna!Broken Isles|N|Kill cats until you collect the catgut needed.|P|Tailoring;197;6|
 $ Small Treasure Chest|QID|42288|M|55.36,27.74|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|3|
 R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|Z|630; Azsuna!Broken Isles|N|Back to questing.|RANK|3|FLY|OLD|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 50 mobs nearby.|RANK|2|ITEM|129064|RARE|
+K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 50 mobs nearby.|RANK|2|RARE|
 T Missing Demon|QID|42238|M|62.91,51.45|Z|630; Azsuna!Broken Isles|N|To Daglop.|RANK|2|
 A Let's Make A Deal|QID|38460|PRE|42238|M|62.91,51.45|Z|630; Azsuna!Broken Isles|N|From Daglop.|RANK|2|
 C Let's Make A Deal|QID|38460|M|62.91,51.45|NC|Z|630; Azsuna!Broken Isles|N|Sign Daglop's Contract.|RANK|2|
 T Let's Make A Deal|QID|38460|M|62.91,51.45|Z|630; Azsuna!Broken Isles|N|To Daglop.|RANK|2|
 A Minion! Kill Them!|QID|38232|PRE|38460|M|62.91,51.45|Z|630; Azsuna!Broken Isles|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|Z|630; Azsuna!Broken Isles|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
-K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|Z|630; Azsuna!Broken Isles|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|RARE|
-$ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|Z|630; Azsuna!Broken Isles|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
+K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|T|Devious Sunrunner|Z|630; Azsuna!Broken Isles|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|RARE|
+$ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|T|Brogozog|Z|630; Azsuna!Broken Isles|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|Z|630; Azsuna!Broken Isles|N|Finish gathering the things Daglop wants.|RANK|2|
 T Minion! Kill Them!|QID|38232|RANK|2|M|PLAYER|Z|630; Azsuna!Broken Isles|N|To Daglop, on your shoulders.|
 A This IS In My Contract.|QID|38237|PRE|38232|RANK|2|Z|630; Azsuna!Broken Isles|N|From Daglop, on your shoulders.|
@@ -390,10 +390,10 @@ C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|Z|630; Azsuna!Broken Isle
 C This IS In My Contract.|QID|38237|QO|2|M|63.33,53.55|T|Sharazaan|RANK|2|
 $ Small Treasure Chest|QID|42278|M|62.99,54.17|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 T This IS In My Contract.|QID|38237|M|62.91,51.45|Z|630; Azsuna!Broken Isles|N|To Daglop.|RANK|2|
-K Kill The Oracle|QID|37822|QO|1|M|59.76,54.65;59.69,55.17|CS|Z|630; Azsuna!Broken Isles|N|Silver - Go up the stairs starting at the first marked spot.  Kill and loot for a bit of treasure and resources|T|The Oracle|ITEM|129065|RANK|2|RARE|
+K Kill The Oracle|QID|37822|QO|1|M|59.76,54.65;59.69,55.17|CS|Z|630; Azsuna!Broken Isles|N|Silver - Go up the stairs starting at the first marked spot.  Kill and loot for a bit of treasure and resources|T|The Oracle|RANK|2|RARE|
 $ Small Treasure Chest|QID|40752|M|58.64,53.38|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|44405|M|54.87,52.13|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources. Be aware. the NPCs in the alcove with you will take offense at you looting their treasure.|RANK|2|
-;K Kill Warbringer Mox'na|QID|37909|ITEM|129069|M|51.34,56.19|T|Warbringer Mox'na|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
+;K Kill Warbringer Mox'na|QID|37909|M|51.34,56.19|T|Warbringer Mox'na|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 $ Small Treasure Chest|QID|38370|M|49.41,57.98|Z|630; Azsuna!Broken Isles|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing their gifts. Loot for a bit of treasure and resources.|RANK|3|
 T Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|To Celea.|
 T Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|Z|630; Azsuna!Broken Isles|N|To Celea.|
@@ -436,7 +436,7 @@ A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|Z|630; Azsuna!Broken Isles|N|F
 C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna!Broken Isles|H|N|Grace the Green rescued|
 C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|Z|Azsuna!Broken Isles|H|N|Cleave Thunderhill rescued|
 C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|Z|Azsuna!Broken Isles|H|N|Gentle Rosh rescued|
-;K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain-Eater|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+;K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|T|Flog the Captain-Eater|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 t Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|Z|630; Azsuna!Broken Isles|N|Auto turned in when complete.|RANK|2|
 C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|632; Oceanus Cove|US|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
 T The Right Weapon for the Job|QID|37565|M|53.41,62.95|Z|630; Azsuna!Broken Isles|N|To Okuna Longtusk.|
@@ -453,12 +453,12 @@ C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|Z|630; Azsuna!
 C Shipwrecked Sailors|QID|42268|M|59.93,58.12|S|Z|630; Azsuna!Broken Isles|N|Rescue sailors as you go about your other objectives.|FACTION|Horde|
 C Shipwrecked Sailors|QID|42220|M|59.93,58.12|S|T|Queen's Reprisal Sailor|Z|630; Azsuna!Broken Isles|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
 $ Small Treasure Chest|QID|42272|M|59.54,61.99;59.88,63.20|CS|Z|630; Azsuna!Broken Isles|N|Path starts at first coord, treasure is on top of a rocky outcrop. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Tide Behemoth|QID|38217|QO|1|T|Tide Behemoth|M|61.35,61.93|ITEM|129062|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Tide Behemoth|QID|38217|QO|1|T|Tide Behemoth|M|61.35,61.93|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Making the World Safe for Profit|QID|37657|QO|2|M|62.21,61.48;63.52,63.55|CS|Z|630; Azsuna!Broken Isles|N|The queen is in an underwater cave.|
 $ Small Treasure Chest|QID|42273|M|62.38,58.41|Z|630; Azsuna!Broken Isles|N|Loot for a bit of treasure and resources.|RANK|2|
 T Maritime Law|QID|37654|M|64.25,56.10|Z|630; Azsuna!Broken Isles|N|To Looper Allen.|
 A The Captain's Foot Locker|QID|37659|PRE|37654|M|64.25,56.10|Z|630; Azsuna!Broken Isles|N|From Looper Allen.|
-K Kill Chief Bitterbrine|QID|42221|QO|1|ITEM|129073|T|Chief Bitterbrine|M|65.65,56.81|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|  ; debated taking off Rank 2 since you have to kill him to get the Foot locker, but left it, in case you might find him dead.
+K Kill Chief Bitterbrine|QID|42221|QO|1|T|Chief Bitterbrine|M|65.65,56.81|Z|630; Azsuna!Broken Isles|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|  ; debated taking off Rank 2 since you have to kill him to get the Foot locker, but left it, in case you might find him dead.
 T The Captain's Foot Locker|QID|37659|M|65.67,56.92|Z|630; Azsuna!Broken Isles|N|To the Captain's Foot Locker. Below Deck, Behind Silver Elite.|
 A Fate of the Queen's Reprisal|QID|42244^40794|PRE|37659|M|65.67,56.92|Z|630; Azsuna!Broken Isles|N|From the Captain's Foot Locker.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|Z|630; Azsuna!Broken Isles|N|Finish killing Gilblin & Makrura.|US|
