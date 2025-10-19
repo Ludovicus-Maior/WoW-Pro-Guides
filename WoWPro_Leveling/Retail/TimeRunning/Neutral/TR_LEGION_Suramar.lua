@@ -164,8 +164,8 @@ T Something in the Water|QID|40348|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Riv
 T Purge the Unclean|QID|40370|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Rivertamer.|RANK|2|
 ; Good Suramaritan - Tidying Tel'Anor Side Story Line, Activation of Tel'anor Teleporter
 R Tel'anor|QID|40266|M|41.83,41.39;41.12,42.37;44.75,42.94|Z|0680; Suramar|CS|N|Take the path here, back up to the city level.|FLY|OLD|
-A The Lost Advisor|QID|40266|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|
-A An Ancient Recipe|QID|40744|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|
+A The Lost Advisor|QID|40266|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|RANK|2|
+A An Ancient Recipe|QID|40744|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|RANK|2|
 C The Lost Advisor|QID|40266|M|44.04,39.40|Z|0680; Suramar|S|NC|N|Gather Cliffthorn from the ground.|
 C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|0680; Suramar|N|Kill Harpies to acquire the talons.|
 C The Lost Advisor|QID|40266|M|44.04,39.40|Z|0680; Suramar|US|NC|N|Finish picking up Cliffthorn.|
@@ -333,7 +333,7 @@ R Temple of Fal'adora|QID|41452|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,41.53;
 R Irongrove Retreat|QID|41452|PRE|44492|M|22.48,39.90;22.48,30.26|Z|0680; Suramar|CS|QO|1|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|FLY|OLD|
 f Irongrove Retreat|QID|41452|PRE|44492|M|25.47,31.76|Z|0680; Suramar|QO|1|N|At Alyndra Stormgazer.|
 ; Good Suramaritan - Eminent Grow-Main Side Storyline
-A Feline Frantic|QID|41452|PRE|42229|M|25.67,30.95|Z|0680; Suramar|N|From Mayruna Moonwing.|
+A Feline Frantic|QID|41452|PRE|42229|M|25.67,30.95|Z|0680; Suramar|N|From Mayruna Moonwing.|RANK|2|
 C Feline Frantic|QID|41452|M|25.64,30.83|Z|0680; Suramar|NC|QO|1|N|Tidy the Ransacked Crate.|
 C Feline Frantic|QID|41452|M|26.12,31.62|Z|0680; Suramar|NC|QO|2|N|Correct Toppled Bench.|
 C Feline Frantic|QID|41452|M|26.47,31.78|Z|0680; Suramar|NC|QO|3|N|Collect the Spilled Grain.|
@@ -387,8 +387,8 @@ T Natural Adversaries|QID|41479|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Feat
 T Managazer|QID|41480|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 T Moonwhisper Rescue|QID|41485|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 A Return to Irongrove Retreat|QID|41469|PRE|41479&41480&41485|M|30.37,30.79|Z|0680; Suramar|N|From Solendra Featherdown.|
-R Ley Station Moonfall|ACTIVE|41469|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|
-R Ley Station Moonfall|ACTIVE|41469|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
+R Ley Station Moonfall|AVAILABLE|41469|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|;not active, you dont have the quest yet
+R Ley Station Moonfall|AVAILABLE|41469|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|From Leyline Feed. (200 Ancient Mana)|
 C Broken Leydar Dish|QID|43590|M|34.91,29.48|Z|0680; Suramar|T|Thudchop Trunksmasher|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|To Leyline Feed.|
