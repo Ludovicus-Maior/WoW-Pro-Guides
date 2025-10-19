@@ -483,7 +483,7 @@ A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Sk
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
 t Claw of the Land|QID|40192|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof.|
-$ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|ITEM|141322 1|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
+$ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
 $ Small Treasure Chest|QID|40472|M|50.64,75.37|Z|ThunderTotem|N|Loot for a bit of resources and treasure.|RANK|2|
 T Battle of Snowblind Mesa|QID|38915|M|53.27,64.05|N|To Mayla Highmountain.|
 A Battle Worms|QID|39776|M|53.27,64.05|N|From Mayla Highmountain.|PRE|38915|
