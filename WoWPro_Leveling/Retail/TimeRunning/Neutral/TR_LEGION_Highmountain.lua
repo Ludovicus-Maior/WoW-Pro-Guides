@@ -59,7 +59,7 @@ T Fish Out of Water|QID|39614|M|41.13,61.56|N|To Angler Creel.|
 A Lifespring Cavern|QID|39661|M|41.18,61.49|N|From Jale Rivermane.|PRE|39277^39316^39614|
 T Moozy's Adventure|QID|39572|M|40.00,57.93|N|To Sella Waterwise.|RANK|2|
 $ Treasure Chest|QID|39812|M|39.53,57.44|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Flamescale|QID|39963|QO|1|M|40.97,57.72|T|Flamescale|N|Click on the abandoned fishing pole to summon up Flamescale, a rare mob you can kill for treasure and resources.|ITEM|131773|RANK|2|RARE|
+K Kill Flamescale|QID|39963|QO|1|M|40.97,57.72|T|Flamescale|N|Click on the abandoned fishing pole to summon up Flamescale, a rare mob you can kill for treasure and resources.|RANK|2|RARE|
 T Lifespring Cavern|QID|39661|M|38.40,61.20|N|To Jale Rivermane.|
 A Balance of Elements|QID|39488|M|38.40,61.20|N|From Jale Rivermane.|PRE|39661|
 A Invading Spelunkers|QID|39489|M|38.40,61.20|N|From Jale Rivermane.|PRE|39661|
@@ -194,8 +194,8 @@ C No Time to Talk|QID|39133|M|52.56,54.71|US|N|Finish off the remaining Enraged 
 T No Time to Talk|QID|39133|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
 T Wrathshard|QID|39134|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
 R Pinerock Basin|QID|38912|M|47.91,52.64|N|Take this road to Find Cliff's Edge.|FLY|OLD|
-$ Beastmaster Pao'lek & Arru|QID|39784|M|48.68,50.08|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods.|RANK|2|
-$ Floating Treasure|QID|39494|M|42.09,52.68|ITEM|131763|N|You can cross over on this log, or just swim, be on the lookout for a Treasure chest that comes to rest here briefly.|RANK|2|
+$ Beastmaster Pao'lek & Arru|QID|39784|M|48.68,50.08|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods.|RANK|2|
+$ Floating Treasure|QID|39494|M|42.09,52.68|N|You can cross over on this log, or just swim, be on the lookout for a Treasure chest that comes to rest here briefly.|RANK|2|
 A Amateur Hour|QID|40170|M|40.03,52.24|N|From Hemet Nesingwary.|RANK|2|
 A Note-Eating Goats|QID|39859|M|39.93,52.22|N|From Addie Fizzlebog.|RANK|2|
 f Nesingwary's Retreat|ACTIVE|40170|M|40.23,52.71|N|At Tamara Sigmund.|RANK|2|;yes, we skipped the lead-in because for some reason it isnt available yet, and this flows better than waiting until it is.
@@ -216,7 +216,7 @@ C Moose Shootin'|QID|39124|M|42.08,48.33|S|N|The moose are mostly on the other s
 $ Mara Swiftmane vs Sure Shot Arnie|QID|40612|M|43.47,47.31|N|Assist Mara and you can have the hunter's treasure. |RANK|2|
 R MuckSnout Den|QID|39392|M|41.78,47.26;38.34,42.49|CC|N|Run through Mucksnout Den to get to the Bears. (you can stay mounted.)|RANK|2|FLY|OLD|
 C Bear Huntin'|QID|39392|M|37.00,45.78|S|N|Kill and loot the Bristlefur Bears for their Pelts.|RANK|2|
-K Kill Bristlemaul|QID|40405|QO|1|M|38.11,45.68|T|Bristlemaul|N|Kill for a bit of treasure and resources.|ITEM|131761|RANK|2|RARE|
+K Kill Bristlemaul|QID|40405|QO|1|M|38.11,45.68|T|Bristlemaul|N|Kill for a bit of treasure and resources.|RANK|2|RARE|
 C Bear Huntin'|QID|39392|M|37.00,45.78|US|N|Finish up collecting pelts before you leave Field of An'she.|RANK|2|
 C Moose Shootin'|QID|39124|M|40.72,50.79|US|N|Finish up any needed moose on your way back to Nesingwary.|RANK|2|
 C Lion Stalkin'|QID|39123|M|40.72,50.79|US|N|Finish up any needed Pinerock Stalkers on your way back to Nesingwary.|RANK|2|
@@ -256,7 +256,7 @@ C Slime Time|QID|40049|M|45.43,10.17|S|NC|N|Stand near the glowing piles of seaw
 C I'll Huff, I'll Puff...|QID|40047|M|44.60,11.42|S|N|Kill and loot Pufferfish.|RANK|3|
 C Nature vs. Nurture|QID|40045|M|44.27,13.01|S|NC|N|Click on the Tadpole to gain their trust.|RANK|3|
 K Kill Crab Rider Grmlrml|QID|39994|QO|1|M|43.72,10.89|N|Kill Crab Rider Grmlml for some treasure and resources. He patrols through this area.|T|Crab Rider Grmlrml|RANK|3|RARE|
-$ Captured Survivor|QID|40096|M|46.66,7.52|ITEM|131797|T|Mrrklr|N|Talk to Sloppy Joe to attract his captor.|RANK|3|
+$ Captured Survivor|QID|40096|M|46.66,7.52|T|Mrrklr|N|Talk to Sloppy Joe to attract his captor.|RANK|3|
 C Nature vs. Nurture|QID|40045|M|44.27,13.01|US|NC|N|Finish up chatting up the tadpoles.|RANK|3|
 C I'll Huff, I'll Puff...|QID|40047|M|44.60,11.42|US|N|Finish up collecting pufferfish eggs.|RANK|3|
 C Slime Time|QID|40049|M|45.43,10.17|US|NC|N|Finish feeding Murky.|RANK|3|
@@ -298,7 +298,7 @@ C I Have a Bad Feeling About This|QID|39873|M|39.00,34.83|NC|N|Investigate this 
 C Witches of the Sky-Bonus Objective|QID|39371|M|41.96,34.65|S|N|Pick up the Harpy eggs and kill the harpies to advance this objective.|RANK|2|
 C Hags of a Feather|QID|39373|M|42.30,27.41|S|N|Kill the Harpies and loot feathers.|
 $ Small Treasure Chest|QID|40480|M|41.96,34.65;42.49,35.02|CS|N|This is on a tree that has fallen over (above) the road. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|ITEM|131921|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure.  Be aware a 50 elite paths through this area.|RANK|2|RARE|
+K Kill Slumber|QID|40175|QO|1|M|41.48,31.79|T|Slumber|N|Kill the sleeping bear for a bit of loot and treasure.  Be aware a 50 elite paths through this area.|RANK|2|RARE|
 C Witch of the Wood|QID|39372|M|41.29,28.10|T|Witch of the Wood|N|Kill her and her pet moose.|
 $ Small Treasure Chest|QID|40479|M|42.21,27.32|N|Loot for a bit of resources and treasure.|RANK|2|
 C Hags of a Feather|QID|39373|M|40.46,29.61|US|N|Finish collecting the feathers.|
@@ -329,10 +329,10 @@ C Pet Rocks|QID|39391|M|43.54,33.66|QO|2|NC|N|Lying by the mountain trail.|
 C Stonedark Crystal|QID|39425|M|44.31,27.89|S|N|It will drop from the feltotem mobs you are killing.|
 C They Will Pay With Blood|QID|39588|M|43.09,32.91|S|N|Kill Feltotem.|
 C Pet Rocks|QID|39391|M|43.53,28.39|QO|1|NC|N|Lying between the two braziers.|
-K Kill Majestic Elderhorn|QID|39646|QO|1|M|44.41,27.18|ITEM|131900|N|He paths aong the lake shore and then around the mountain.|RANK|2|RARE|
+K Kill Majestic Elderhorn|QID|39646|QO|1|M|44.41,27.18|N|He paths aong the lake shore and then around the mountain.|RANK|2|RARE|
 C Pet Rocks|QID|39391|M|45.33,27.58|QO|3|NC|N|Out on the island.|
-$ Small Treasure Chest|QID|44279|M|45.72,27.51;45.18,27.45|CS|ITEM|138885|N|Jump in the water and swim down to an underwater cave. Loot for treasure and resources.|RANK|2|
-K Kill Shara Felbreath|QID|39762|M|48.33,29.47;51.00,25.75|CS|ITEM|131791|T|Shara Felbreath|N|Down this path is another Silver to kill for treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|44279|M|45.72,27.51;45.18,27.45|CS|N|Jump in the water and swim down to an underwater cave. Loot for treasure and resources.|RANK|2|
+K Kill Shara Felbreath|QID|39762|M|48.33,29.47;51.00,25.75|CS|T|Shara Felbreath|N|Down this path is another Silver to kill for treasure and resources.|RANK|2|RARE|
 C They Will Pay With Blood|QID|39588|M|43.09,32.91|US|N|Finish killing Feltotem.|
 C Stonedark Crystal|QID|39425|M|44.31,27.89|US|N|If it hasnt dropped, kill a few extra.|
 T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
@@ -342,7 +342,7 @@ A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391^39425^39588|
 A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-45|CT|RANK|2|
 C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
-K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|ITEM|131808|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|RANK|2|RARE|
+K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|RANK|2|RARE|
 C Blood Debt|QID|39426|M|49.17,23.82|N|Torok Bloodtotem slain|
 T Blood Debt|QID|39426|M|49.20,23.81|N|To Navarrogg.|
 A Step into the Dark|QID|40229|M|49.20,23.81|N|From Navarrogg.|PRE|39426|
@@ -376,7 +376,7 @@ A Eagle Egg Recovery|QID|40070|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 A Tamer Takedown|QID|40071|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 C Eagle Egg Recovery|QID|40070|M|50.82,35.32|NC|S|N|Eagle Eggs are ground spawn.|RANK|2|
 C Fledgling Worm Guts|QID|40069|M|50.29,34.88|S|N|Kill the worms in this area and loot the worm Guts.|RANK|2|
-K Kill Luggut the Eggeater|QID|40406|QO|1|M|50.81,34.50|T|Luggut the Eggeater|N|Rare - Kill for a bit of treasure and resources.|ITEM|131776|RANK|2|RARE|
+K Kill Luggut the Eggeater|QID|40406|QO|1|M|50.81,34.50|T|Luggut the Eggeater|N|Rare - Kill for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|40496|M|50.99,36.47|N|Loot for a bit of treasure and resources.|RANK|2|
 C Eagle Egg Recovery|QID|40070|M|50.82,35.32|NC|US|N|Finish collecting Eagle Eggs.|RANK|2|
 C Fledgling Worm Guts|QID|40069|M|50.29,34.88|US|N|Finish collecting worm guts.|RANK|2|
@@ -424,7 +424,7 @@ C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|3|CHAT|N|Basilisk retu
 C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|4|NC|N|Grab reward from junk pile.|RANK|2|
 C Burn the Candle at Both Ends|QID|40345|M|55.30,42.51|QO|5|CHAT|N|Give reward to Trytooth Hardchisel.|RANK|2|
 C Burn the Candle at Both Ends|QID|40345|M|54.95,42.90|QO|6|NC|N|The miner is just around the corner.|RANK|2|
-K Kill Devouring Darkness|QID|40414|QO|1|T|Devouring Darkness|N|Take the kobold candles to start this and release the Devouring Darkness.|ITEM|131780|RANK|2|RARE|
+K Kill Devouring Darkness|QID|40414|QO|1|T|Devouring Darkness|N|Take the kobold candles to start this and release the Devouring Darkness.|RANK|2|RARE|
 $ Glimmering Treasure Chest|QID|40483|M|54.18,41.59|N|Continue up the path to find another chest. Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40484|M|53.46,43.56|N|Run (or jump) down to the bottom of the cavern.  Loot the chest for treasure and resources.|RANK|2|
 C Burn the Candle at Both Ends|QID|40345|M|53.61,42.15|QO|7|CHAT|N|Meet with Kindle.|RANK|2|
@@ -440,7 +440,7 @@ A Rocs vs Eagles|QID|38910|M|52.48,44.70|N|From Lasan Skyhorn.|PRE|39318|
 A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|S|N|Anything you kill inside the boundry line progresses the objective.|RANK|2|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|S|N|Captive Great Eagle rescued.|
-K Kill Crawshuk the  Hungry|QID|39806|QO|1|M|49.42,39.74;48.38,40.05|CS|T|Crawshuk the Hungry|RANK|2|ITEM|131809|RARE|
+K Kill Crawshuk the  Hungry|QID|39806|QO|1|M|49.42,39.74;48.38,40.05|CS|T|Crawshuk the Hungry|RANK|2|RARE|
 $ Treasure Chest|QID|39503|M|47.63,44.05|N|Kick the runt off the cliff, then loot the chest for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40498|M|50.98,38.80|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40499|M|53.06,39.47|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -451,11 +451,11 @@ T Rocs vs Eagles|QID|38910|M|52.31,36.45|N|To Lasan Skyhorn.|
 A The Three|QID|39321|M|52.31,36.45|N|From Lasan Skyhorn.|PRE|38910|
 A Assaulting the Haglands|QID|39429|M|52.31,36.45|N|From Lasan Skyhorn.|PRE|38910|
 C Assaulting the Haglands|QID|39429|M|50.04,34.58|S|N|Kill harpies and kobolds as you travel through.|
-$ Scout Harefoot|QID|39866|M|53.09,35.50;54.52,40.65|CS|ITEM|131792|N|Follow this path until you see the star. Talk to Scout Harefoot to start a vignette, where you need to kill 2 waves of 3 harpies and then thier boss. Treasure and resources are your reward.|RANK|2|
+$ Scout Harefoot|QID|39866|M|53.09,35.50;54.52,40.65|CS|N|Follow this path until you see the star. Talk to Scout Harefoot to start a vignette, where you need to kill 2 waves of 3 harpies and then thier boss. Treasure and resources are your reward.|RANK|2|
 C The Three|QID|39321|M|52.52,33.31|QO|1|N|Kill Ragi the Hexxer.|T|Ragi the Hexxer|
 $ Treasure Chest|QID|40505|M|52.03,32.44|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Three|QID|39321|M|51.74,34.12;50.15,32.18|CS|QO|2|N|Down this path to find and kill Agara Deathsong.|T|Agara Deathsong.|
-K Kill Skullhat|QID|39465|QO|1|M|51.37,31.96|T|Skullhat|N|Kill and loot for a bit of treasure and resources.|ITEM|131769|RANK|2|RARE|
+K Kill Skullhat|QID|39465|QO|1|M|51.37,31.96|T|Skullhat|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C The Three|QID|39321|M|50.51,35.49|QO|3|N|Back up the hill some more and kill Ugla the Hag.|T|Ugla the Hag|
 $ Treasure Chest|QID|40506|M|50.81,35.05|N|Loot for a bit of resources and treasure.|RANK|2|
 $ Treasure Chest|QID|39466|M|49.64,37.74|N|Loot for a bit of resources and treasure.|RANK|2|
@@ -463,7 +463,7 @@ C Assaulting the Haglands|QID|39429|M|49.64,35.99|US|N|Finish killing any needed
 T The Three|QID|39321|M|49.21,36.61|N|To Lasan Skyhorn.|
 T Assaulting the Haglands|QID|39429|M|49.21,36.61|N|To Lasan Skyhorn.|
 A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|PRE|39321^39429|
-K Kill the Exiled Shaman|QID|39782|QO|1|M|41.92,41.61|ITEM|129175|T|Tenpack Flametotem|N|Silver - Run down this path to find kill this shaman and adopt a new pet.|RANK|2|RARE|
+K Kill the Exiled Shaman|QID|39782|QO|1|M|41.92,41.61|T|Tenpack Flametotem|N|Silver - Run down this path to find kill this shaman and adopt a new pet.|RANK|2|RARE|
 C The Witchqueen|QID|39322|M|46.36,39.97|T|High Crawliac|N|Kill High Crawliac.|
 $ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
@@ -483,17 +483,17 @@ A Bolas Bastion|QID|42630|PRE|39387|M|42.86,38.79|Z|ThunderTotem|N|From Bolas Sk
 C Bolas Bastion|QID|42630|M|43.38,37.81|Z|ThunderTotem|NC|N|Hop in the Bolos Launcher and shoot at the Coven Attackers.|RANK|2|
 T Bolas Bastion|QID|42630|M|42.94,38.76|Z|ThunderTotem|N|To Bolas Skyfeather.|RANK|2|
 t Claw of the Land|QID|40192|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof.|
-$ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|ITEM|141322 1|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
+$ Steamy Jewerly Box|QID|39531|M|63.49,59.41|Z|ThunderTotem|N|I'm somewhat uncomfortable stealing from sleeping ally's, but there it is.|RANK|2|
 $ Small Treasure Chest|QID|40472|M|50.64,75.37|Z|ThunderTotem|N|Loot for a bit of resources and treasure.|RANK|2|
 T Battle of Snowblind Mesa|QID|38915|M|53.27,64.05|N|To Mayla Highmountain.|
 A Battle Worms|QID|39776|M|53.27,64.05|N|From Mayla Highmountain.|PRE|38915|
 A Buy Us Time|QID|39777|M|53.36,64.01|N|From Jale Rivermane.|PRE|38915|
 A The Siegebrul|QID|39862|M|53.38,64.12|N|From Navarrogg.|PRE|38915|
 C Buy Us Time|QID|39777|M|53.12,62.61|S|N|Kill the Mightstone Drogbar as you accomplish the other objectives.|
-$ Seemingly Unguarded Treasure|QID|40423|M|52.42,58.48;52.75,58.15|CS|ITEM|140681|N|What could go wrong? Click on the pile of gold and then fight for it.|RANK|2|
+$ Seemingly Unguarded Treasure|QID|40423|M|52.42,58.48;52.75,58.15|CS|N|What could go wrong? Click on the pile of gold and then fight for it.|RANK|2|
 C Battle Worms|QID|39776|M|52.95,58.57|QO|1|T|Naxa|N|Use your extra action button to summon the Rivermane to assist in the fight.|
 C The Siegebrul|QID|39862|M|52.59,57.23|T|Siegebrul Olgrul|N|Kill Siegebrul Olgrul.|
-$ Totally Safe Treasure Chest|QID|39766|M|53.04,55.56;52.32,51.39|CS|N|The path starts at the first coordinate.  It's a bit of a run, but with a beautiful view. What could go wrong.  Find the chest and be prepared to fight for it.  Loot for a bit of treasure and resources.|ITEM|131802|RANK|2|
+$ Totally Safe Treasure Chest|QID|39766|M|53.04,55.56;52.32,51.39|CS|N|The path starts at the first coordinate.  It's a bit of a run, but with a beautiful view. What could go wrong.  Find the chest and be prepared to fight for it.  Loot for a bit of treasure and resources.|RANK|2|
 C Battle Worms|QID|39776|M|53.91,56.86|QO|3|T|Xist|N|Use your extra action button to summon the power of earth to assist.|
 C Battle Worms|QID|39776|M|54.62,58.89|QO|2|T|Arxas|N|Use your extra action button to summon the Skyhorn eagle riders to assist.|
 C Buy Us Time|QID|39777|M|53.12,62.61|US|N|Finish up any needed drogbar.|
@@ -527,14 +527,14 @@ A Critter Scatter Shot|QID|39670|M|57.64,56.61|N|From Razik Gazbolt.|RANK|2|
 A A True Hunter|QID|40000|M|57.60,56.44|N|From Lorna Stoutfoot.|RANK|2|
 C Critter Scatter Shot|QID|39670|M|57.16,60.61|N|Click on the Rabbits to catch them.|RANK|2|
 C A True Hunter|QID|40000|M|55.56,61.67|S|N|The Hawks also want to catch the rabbits, try to kill them before they get to the rabbits.|RANK|2|
-K Kill Gurbog da Basher|QID|40347|QO|1|M|56.0,61.2|N|Kill for a bit of treasure and resources.|ITEM|131775|T|Gurbog da Basher|RANK|2|RARE|
+K Kill Gurbog da Basher|QID|40347|QO|1|M|56.0,61.2|N|Kill for a bit of treasure and resources.|T|Gurbog da Basher|RANK|2|RARE|
 C A True Hunter|QID|40000|M|55.56,61.67|US|N|Finsih killing Bonebeak Hawks.|RANK|2|
 C Critter Scatter Shot|QID|39670|M|57.16,60.61|US|N|Finish catching Rabbits.|RANK|2|
 T A True Hunter|QID|40000|M|57.59,56.41|N|To Lorna Stoutfoot.|RANK|2|
 T Critter Scatter Shot|QID|39670|M|57.63,56.60|N|To Razik Gazbolt.|RANK|2|
 A Wolf Pack Attack|QID|39656|M|57.63,56.60|N|From Razik Gazbolt.|RANK|2|PRE|40000^39670|
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|S|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
-$ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine and glide down from the branch. Then head to Thunder Totem. It's hard to explain and you may want to consult the internet for more info. Run/Fly back to Skyhorn village and then follow the arrow from there. The coordinates points to where the path starts leading to the tree that the chest is balanced on. Check this off manually if you don't want to do this. Check the next step off manually if you do.|RANK|2|
+$ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine and glide down from the branch. Then head to Thunder Totem. It's hard to explain and you may want to consult the internet for more info. Run/Fly back to Skyhorn village and then follow the arrow from there. The coordinates points to where the path starts leading to the tree that the chest is balanced on. Check this off manually if you don't want to do this. Check the next step off manually if you do.|RANK|2|
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|US|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
 T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class Order Hall to pick your next zone and tend to your missions.|

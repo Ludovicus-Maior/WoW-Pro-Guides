@@ -206,7 +206,7 @@ C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.
 C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
 A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
-K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|ITEM|140533|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
 t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
 C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
@@ -247,7 +247,7 @@ C Communication Orbs|QID|42888|M|31.47,52.63;30.71,51.47;28.97,52.67|Z|0630; Azs
 T Communication Orbs|QID|42888|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|To Justicar Julia Celeste.|
 T Mother Ozram|QID|43462|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|To Justicar Julia Celeste.|
 A The Codex of Command|QID|42890|M|28.97,52.67|Z|0630; Azsuna!Broken Isles|N|From Justicar Julia Celeste.|PRE|43462|
-K Kill Bilebrain|ACTIVE|42417|QO|1|M|29.30,53.63|Z|0630; Azsuna!Broken Isles|ITEM|129079|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
+K Kill Bilebrain|ACTIVE|42417|QO|1|M|29.30,53.63|Z|0630; Azsuna!Broken Isles|T|Bilebrain|N|If you didn't get him while questing in Azsuna, there is a Silver to kill for treasure and resources.|RANK|2|
 C The Codex of Command|QID|42890|QO|1|M|26.36,52.17;26.11,53.57|CS|Z|0630; Azsuna!Broken Isles|T|Jarvox|N|Kill and loot to collect the Codex.|
 C The Codex of Command|QID|42890|QO|2|M|25.62,55.23|Z|0630; Azsuna!Broken Isles|N|Break the first lock.|
 C The Codex of Command|QID|42890|QO|3|M|25.68,55.65|Z|0630; Azsuna!Broken Isles|N|Break the second lock.|
@@ -445,7 +445,7 @@ P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|47137|
 F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47137|
 T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
 ;legionfall mount quest
-B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ITEM|131746|ACTIVE|46070^46069|
+B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ACTIVE|46070^46069|
 t Worthy of the Title|QID|46069|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
 A Preparations Underway|QID|46070|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46069|
 T Preparations Underway|QID|46070|M|52.26,78.13|N|To Lord Grayson Shadowbreaker. Assuming you picked up the barding before coming to your order hall, you can immediately turn this in.|
@@ -453,10 +453,10 @@ A The Hammer of Dalaran|QID|46071|M|52.26,78.13|N|From Lord Grayson Shadowbreake
 P Dalaran|QID|46071|N|Return to Dalaran and the Blacksmithing Shop.|
 T The Hammer of Dalaran|QID|46071|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
 A A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46071|
-B Leystone Ore|QID|46083|L|123918 25|ITEM|123918|N|Pick up 25 Leystone Ore from somewhere. (mine, AH, guild bank, etc.)|ACTIVE|46083|
+B Leystone Ore|QID|46083|L|123918 25|N|Pick up 25 Leystone Ore from somewhere. (mine, AH, guild bank, etc.)|ACTIVE|46083|
 F Meredil|QID|46083|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46083|
 P Evermoon Terrace|QID|46083|M|36.49,44.74|Z|Suramar|N|You must have progressed the Suramar quest line far enough to have a nightfallen disguise to buy the Suramarian Sapphire.|ACTIVE|46083|
-B Suramarian Sapphire|QID|46083|M|50.90,77.78|Z|Suramar|L|147768|ITEM|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
+B Suramarian Sapphire|QID|46083|M|50.90,77.78|Z|Suramar|L|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
 P Dalaran|QID|46083|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|ACTIVE|46083|
 T A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
 A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46083|

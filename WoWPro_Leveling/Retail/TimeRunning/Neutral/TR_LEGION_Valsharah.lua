@@ -26,16 +26,16 @@ A Archdruid of the Claw|QID|38142|PRE|38384|M|54.38,73.58|Z|641; Val'sharah|N|Fr
 A Archdruid of Lore|QID|38381^44106|PRE|38384|M|54.38,73.58|Z|641; Val'sharah|N|From Aranelle.|
 $ Treasure|QID|38359|M|54.42,74.20|Z|641; Val'sharah|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39093|M|54.19,70.59|Z|641; Val'sharah|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure|QID|38466|M|55.55,77.60|L|130147|Z|641; Val'sharah|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
+$ Treasure|QID|38466|M|55.55,77.60|L|130147|Z|641; Val'sharah|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|RANK|2|
 ;U Thistleleaf Branch|AVAILABLE|39383|M|55.55,77.60|U|130147|Z|641; Val'sharah|N|Click to add the toy to your collection.|RANK|2|PRE|38466|; look at this again once Ludo implements TOY
-l Companion Pet|QID|38468|M|59.54,77.23|L|130154|Z|641; Val'sharah|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|ITEM|130154|RANK|2|T|Gorebeak|RARE|
+l Companion Pet|QID|38468|M|59.54,77.23|L|130154|Z|641; Val'sharah|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|RANK|2|T|Gorebeak|RARE|
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|Z|641; Val'sharah|N|Click to add the Pygmy Owl to your collection.|RANK|2|RARE|
 T Archdruid of the Vale|QID|38382|M|61.04,73.23|Z|641; Val'sharah|N|To Thaon Moonclaw.|
 A Dishonored|QID|39383|PRE|38382|M|61.04,73.25|Z|641; Val'sharah|N|From Thaon Moonclaw.|
 A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|Z|641; Val'sharah|N|Auto accepted by entering the area.|RANK|2|LVL|-45|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|Z|641; Val'sharah|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|RANK|2|
 $ Treasure|QID|38943|M|59.88,72.26|Z|641; Val'sharah|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|RANK|2|
-K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|Z|641; Val'sharah|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|RARE|
+K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|Z|641; Val'sharah|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|RARE|
 C Dishonored|QID|39383|M|62.90,70.99|Z|641; Val'sharah|N|Kill Xandris the Dishonored.|T|Xandris the Dishonored|
 $ Treasure|QID|39069|M|62.78,70.31|Z|641; Val'sharah|N|Located on second floor balcony. Loot for a bit of resources and treasure.|RANK|2|
 T Dishonored|QID|39383|M|62.78,71.66|Z|641; Val'sharah|N|To Thaon Moonclaw.|
@@ -63,7 +63,7 @@ A Moist Around the Hedges|QID|42857|M|66.82,75.66|Z|641; Val'sharah|N|From Moist
 C Grassroots Effort|QID|42884|S|U|138815|H|Z|641; Val'sharah|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
 C Moist Around the Hedges|QID|42857|H|S|Z|641; Val'sharah|N|These are scattered around and drop from the Grell.|RANK|2|
 C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|Z|641; Val'sharah|N|Kill Grell while going around clearing doorways.|RANK|2|
-$ Undergrell Attack|QID|43176|M|67.12,69.57|ITEM|130133|Z|641; Val'sharah|N|Help an embattled druid out for some treasure and resources.|RANK|2|
+$ Undergrell Attack|QID|43176|M|67.12,69.57|Z|641; Val'sharah|N|Help an embattled druid out for some treasure and resources.|RANK|2|
 C Grell to Pay|QID|42865|M|68.13,71.58|Z|641; Val'sharah|N|Kill Enderkind|T|Enderkind|RANK|2|
 C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|Z|641; Val'sharah|N|Kill Grell.|RANK|2|
 C Moist Around the Hedges|QID|42857|M|68.68,73.84|H|US|Z|641; Val'sharah|N|These are scattered around and drop from the Grell.|RANK|2|
@@ -114,7 +114,7 @@ C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197;6|S|QO|1|Z|641
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|Z|641; Val'sharah|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|Z|641; Val'sharah|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|Z|641; Val'sharah|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Jinikki The Puncturer|AVAILABLE|38889|M|53,87|T|Jinikki The Puncturer|Z|641; Val'sharah|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|RARE|
+K Kill Jinikki The Puncturer|AVAILABLE|38889|M|53,87|T|Jinikki The Puncturer|Z|641; Val'sharah|N|Enter the cave and chat with the little bear to rescue him.|RANK|2|RARE|
 A Adopting the Adorable|QID|38889|M|53,87|Z|641; Val'sharah|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|RARE|
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|Z|641; Val'sharah|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
 C Thorny Dancing|QID|40220|M|53.75,79.82|T|Thistleleaf Thorndancer|Z|641; Val'sharah|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
@@ -137,7 +137,7 @@ T Littlefur|QID|38922|M|46.24,84.56|Z|641; Val'sharah|N|To Littlefur.|
 A Totemic Call|QID|38246|PRE|38142|M|46.24,84.56|Z|641; Val'sharah|N|From Littlefur.|
 $ Treasure|QID|38277|M|46.46,86.33|Z|641; Val'sharah|N|Loot for treasure and resources.|RANK|2|
 R Marrowden|QID|43446|M|46.02,87.22|Z|641; Val'sharah|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|FLY|OLD|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
-K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|ITEM|130135|Z|641; Val'sharah|N|Silver - Kill for loot and resources.|RANK|3|RARE|
+K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|Z|641; Val'sharah|N|Silver - Kill for loot and resources.|RANK|3|RARE|
 $ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|Z|641; Val'sharah|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|;if we had such a rank... this would qualify for rank 4
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|Z|641; Val'sharah|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
 R Smolderhide Thicket|QID|38146|M|48.68,88.28|Z|641; Val'sharah|N|And... back to your questing.|RANK|3|FLY|OLD|
@@ -170,7 +170,7 @@ C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|Z|641; Val'sharah|N
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|Z|641; Val'sharah|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|Z|641; Val'sharah|N|Click Del'thanar to rescue him.|
 $ Treasure|QID|38363|M|43.39,75.89|Z|641; Val'sharah|N|Loot for a bit of resources and treasure.|RANK|2|
-K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|ITEM|130171|T|Seersei|Z|641; Val'sharah|N|Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
+K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|T|Seersei|Z|641; Val'sharah|N|Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
 C Death to the Witchmother|QID|38225|M|45.67,77.59|QO|1|Z|641; Val'sharah|N|Kill Magula.|T|Magula|
 C Solid as a Rock|QID|38235|M|46.58,76.53|QO|2|NC|Z|641; Val'sharah|N|Click Erwind to rescue him.|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|US|Z|641; Val'sharah|N|Finish or check this off manually.|RANK|2|
@@ -198,7 +198,7 @@ A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|Z|641; Val'sharah|N|From Lya
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|Z|641; Val'sharah|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|Z|641; Val'sharah|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|Z|641; Val'sharah|N|Click on the highlighted plants to collect the corrupted root samples.|
-K Kill Gravax the Desecrator|AVAILABLE|38656|M|56.40,55.58|T|Gravax|ITEM|124131|Z|641; Val'sharah|N|Group needed. Note he can one-shot kill you.|RANK|3|RARE|
+K Kill Gravax the Desecrator|AVAILABLE|38656|M|56.40,55.58|T|Gravax|Z|641; Val'sharah|N|Group needed. Note he can one-shot kill you.|RANK|3|RARE|
 A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|Z|641; Val'sharah|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|Z|641; Val'sharah|N|Listen to the dialog|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|Z|641; Val'sharah|N|Finish collecting any needed samples on your way back to the inner temple.|
@@ -210,8 +210,8 @@ A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|Z|641; Val'sharah|N|From Lya
 t Mark of the Demon|QID|38656|M|53.71,55.97|Z|641; Val'sharah|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
 A A Village in Peril|QID|38643|M|54.79,52.80|Z|641; Val'sharah|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|ACTIVE|38643|M|53.44,50.25;42.35,59.01|CS|Z|641; Val'sharah|N|Follow the road into Bradensbrook.|RANK|-1|FLY|OLD|
-$ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|Z|641; Val'sharah|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
-$ Old Bear Trap|QID|39357|M|47.20,57.99|ITEM|130214|T|Mad Henryk|Z|641; Val'sharah|N|Get close to the trap to start the vignette.|RANK|2|
+$ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|T|Gathenak|Z|641; Val'sharah|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
+$ Old Bear Trap|QID|39357|M|47.20,57.99|T|Mad Henryk|Z|641; Val'sharah|N|Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|Z|641; Val'sharah|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
 T A Village in Peril|QID|38643|M|42.35,59.01|Z|641; Val'sharah|N|To Mayor Heathrow.|
 A Children of the Night|QID|38645|PRE|38643^39149|M|42.48,58.98|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
@@ -238,7 +238,7 @@ $ Treasure|QID|39080|M|38.45,65.30|Z|641; Val'sharah|N|In the basement with Pene
 $ Treasure|QID|39079|M|38.64,67.18|Z|641; Val'sharah|N|On top of the support for the millwheel, just south of Heathrow house, loot for a bit of treasure and resources.|RANK|3|
 K Kill Lelyn Swiftshadow|AVAILABLE|38711|M|39.10,64.34|L|127860|T|Lelyn Swiftshadow|Z|641; Val'sharah|N|Drops a quest item.|RANK|2|
 A The Warden's Signet|QID|38711|M|39.10,64.34|Z|641; Val'sharah|N|From the ring dropped by Lelyn.|U|127860|
-$ Vibrating Arcane Trap|QID|39121|M|34.38,58.30|Z|641; Val'sharah|N|Click on the trap to attract Kiranys Duskwhisper, kill him for a bit of loot and treasure.|ITEM|141876|RANK|2|;unable to find correct QID
+$ Vibrating Arcane Trap|QID|39121|M|34.38,58.30|Z|641; Val'sharah|N|Click on the trap to attract Kiranys Duskwhisper, kill him for a bit of loot and treasure.|RANK|2|;unable to find correct QID
 $ Treasure|QID|39081|M|33.81,58.25|Z|641; Val'sharah|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Farmsteads|QID|38644|M|37.06,58.50|QO|3|NC|Z|641; Val'sharah|N|Check the Fishing Dock|
 A Shriek No More|QID|39117|PRE|38643^39149|M|37.06,58.48|Z|641; Val'sharah|N|From Cecily Radcliffe.|
@@ -272,7 +272,7 @@ C The Rook's Guard|QID|38715|M|41.00,56.23|QO|2|Z|641; Val'sharah|N|Continue up 
 C Maiev's Trail|QID|38714|M|40.89,56.34|QO|2|NC|Z|641; Val'sharah|N|Check the pile of scrolls lying here.|
 C Maiev's Trail|QID|38714|M|42.05,51.52|QO|3|NC|Z|641; Val'sharah|N|Down to the main courtyard and pick up the glaive resting here.|
 C The Rook's Guard|QID|38715|M|42.93,52.00|QO|3|Z|641; Val'sharah|N|Kill Trelan Shieldbreaker.|T|Trelan Shieldbreaker|
-K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|Z|641; Val'sharah|N|Kill and loot for a companion pet.|ITEM|130166|RANK|2|ACH|11262;4|RARE|;unable to find related QID
+K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|Z|641; Val'sharah|N|Kill and loot for a companion pet.|RANK|2|ACH|11262;4|RARE|;unable to find related QID
 U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|Z|641; Val'sharah|N|Click the kitten to add to your pet journal.|RARE|O|;unable to find correct QID
 T Maiev's Trail|QID|38714|M|43.82,50.29|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 T The Rook's Guard|QID|38715|M|43.82,50.29|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
@@ -324,7 +324,7 @@ T Dark Side of the Moon|QID|41890^41708|M|66.93,50.14|Z|641; Val'sharah|N|To Tyr
 A Regroup at the Refuge|QID|43576|PRE|41890&41708|M|66.93,50.14|Z|641; Val'sharah|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|Z|641; Val'sharah|N|Pick up the Shadowfen Heirlooms|
 $ Treasure|QID|38355|M|64.70,51.25|Z|641; Val'sharah|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|ITEM|130122|T|Grelda the Hag|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources|RANK|2|RARE|
+K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|T|Grelda the Hag|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources|RANK|2|RARE|
 $ Treasure|QID|38386|M|67.38,53.42|Z|641; Val'sharah|N|Upstairs on the second floor balcony. Loot for a bit of treasure and resources.|RANK|2|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|US|Z|641; Val'sharah|N|Finish picking up the Shadowfen Heirlooms|
 C Wormtalon Wreckage|QID|41707|M|66.86,50.18|US|Z|641; Val'sharah|N|Finish up killing Wormtalons.|
@@ -340,14 +340,14 @@ $ Purging the River|QID|39130|M|67.50,45.07|T|Pollous the Fetid|Z|641; Val'shara
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|Z|641; Val'sharah|N|Kill 'Twisted' mobs to collect corrupted petals|
 $ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|CS|Z|641; Val'sharah|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|Z|641; Val'sharah|N|Follow the path down, Chest is in house at base of falls. Loot for a bit of treasure and resources.|RANK|2|
-K Kill Wraithtalon|QID|39856^43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Wraithtalon|QID|39856^43447|QO|1|M|66.88,37.38|T|Wraithtalon|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|Z|641; Val'sharah|N|Finish collecting the petals.|
 C Given to Corruption|QID|41749^41893|M|66.64,36.14;68.69,35.32|CS|Z|641; Val'sharah|N|Kill Varethos.|T|Varethos|
 A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|Z|641; Val'sharah|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|Z|641; Val'sharah|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|RANK|2|
 $ Treasure|QID|44139|M|63.91,45.57|Z|641; Val'sharah|N|Loot for a bit of treasure and resources.|RANK|2|
-K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-K Kill Dreadbog|QID|39858|QO|1|M|60.24,44.26|ITEM|130125|T|Dreadbog|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|T|Thondrax|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Dreadbog|QID|39858|QO|1|M|60.24,44.26|T|Dreadbog|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|US|Z|641; Val'sharah|N|Finish, or check off manually as you choose.|RANK|2|
 t Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|Z|641; Val'sharah|N|Auto-turned in upon completion.|RANK|2|
 T Reading the Leaves|QID|38684|M|66.20,44.52|Z|641; Val'sharah|N|To Elothir.|
@@ -362,10 +362,10 @@ C Close Enough to Touch|QID|38687^41763|M|62.48,38.89|NC|QO|1|Z|641; Val'sharah|
 C Close Enough to Touch|QID|38687^41763|M|63.03,36.89|NC|QO|2|Z|641; Val'sharah|N|Search for Malfurion at the Inn|
 $ Treasure|QID|39088|M|61.07,34.24|Z|641; Val'sharah|N|Nearly at the bottom of the pond, tangled in some roots. Loot for a bit of treasure and resources.|RANK|2|
 C Close Enough to Touch|QID|38687^41763|M|62.42,33.18|NC|QO|3|Z|641; Val'sharah|N|Search for Malfurion near the Lake|
-K Kill Lyrath Moonfeather|QID|40079|QO|1|M|61.80,30.41|ITEM|130118|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|T|Lyrath Moonfeather|RANK|2|RARE|
+K Kill Lyrath Moonfeather|QID|40079|QO|1|M|61.80,30.41|Z|641; Val'sharah|N|Kill and loot for a bit of treasure and resources.|T|Lyrath Moonfeather|RANK|2|RARE|
 C Close Enough to Touch|QID|38687^41763|M|59.12,32.62|NC|QO|4|Z|641; Val'sharah|N|Search for Malfurion in the Village|
 K Kill Ironbranch|QID|40080|QO|1|M|58.78,33.91|Z|641; Val'sharah|N|Kill for a bit of loot and treasure.|T|Ironbranch|RANK|2|RARE|
-$ Treasure|QID|38390|M|53.2,38;54,34.89|CS|ITEM|141891|Z|641; Val'sharah|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|RANK|3|
+$ Treasure|QID|38390|M|53.2,38;54,34.89|CS|Z|641; Val'sharah|N|Just check this off and save the repair bill if you can't stealth or are not in a group. That being said, there is a cave in the tangled cleft.  In the middle of the cave is the treasure.|RANK|3|
 C Close Enough to Touch|QID|38687^41763|M|58.47,37.71|NC|QO|5|Z|641; Val'sharah|N|Find Malfurion|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|US|Z|641; Val'sharah|N|Stay and finish if you want to.|RANK|2|
 t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|Z|641; Val'sharah|N|Auto Turned in when completed.|RANK|2|
