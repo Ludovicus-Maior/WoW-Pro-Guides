@@ -6,7 +6,7 @@
 local guide = WoWPro:RegisterGuide("LareLvlPet","Dailies","Pandaria", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,1, 6, 4)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
-WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Levelup 1-25","Pets")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pandaria Battle Pets Leveling","Pets")
 WoWPro:GuidePetBattle(guide)
 WoWPro:GuideSteps(guide, function()
 
