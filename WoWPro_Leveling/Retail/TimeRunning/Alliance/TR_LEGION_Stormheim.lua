@@ -464,7 +464,7 @@ K Kill Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|T|Tarben|N|Silver - Ki
 $ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
 $ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
-C Remnants of the Past|QID|39984|M|59.14,43.14|QO|2|NC|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
+C Remnants of the Past|QID|39984|M|58.25,47.00|QO|2|NC|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
 C Remnants of the Past|QID|39984|M|59.77,45.05|QO|3|NC|N|Find the third clue.|RANK|2|
 C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
