@@ -73,23 +73,23 @@ $ Kel'danath's Manaflask|QID|42842|M|21.43,54.47|Z|0680; Suramar|ITEM|136269|U|1
 R Sundered Shoals|QID|43844|M|17.26,54.63|Z|0680; Suramar|N|Run over to the Sundered Shoals for a optional short quest chain, treasure and rares.|RANK|2|
 $ Treasure Chest|QID|43844|M|17.26,54.63|Z|0680; Suramar|N|At the top of the ruined building. Loot for some treasure and resources.|RANK|2|
 A Do The Thing!|QID|42396|M|16.02,55.11|Z|0680; Suramar|N|From Pearlhunter Phin.|RANK|2|
-C Do The Thing!|QID|42396|M|15.85,54.72|Z|0680; Suramar|NC|N|Pick up the 'Specked Pearl' off of the ground here.|RANK|2|
-T Do The Thing!|QID|42396|M|15.85,55.12|Z|0680; Suramar|N|To Pearlhunter Phin.|RANK|2|
+C Do The Thing!|QID|42396|M|15.85,54.72|Z|0680; Suramar|NC|N|Pick up the 'Specked Pearl' off of the ground here.|
+T Do The Thing!|QID|42396|M|15.85,55.12|Z|0680; Suramar|N|To Pearlhunter Phin.|
 A Mrgls of Endearment|QID|42688|PRE|42396|M|15.85,55.12|Z|0680; Suramar|N|From Pearlhunter Phin.|RANK|2|
-C Mrgls of Endearment|QID|42688|M|16.10,55.07|Z|0680; Suramar|QO|1|S|N|Kill Leyscar Scuttlers to loot something that interests Phin.|RANK|2|
+C Mrgls of Endearment|QID|42688|M|16.10,55.07|Z|0680; Suramar|QO|1|S|N|Kill Leyscar Scuttlers to loot something that interests Phin.|
 K Kill Tideclaw|QID|43542|QO|1|M|18.78,60.90|Z|0680; Suramar|T|Tideclaw|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Forgotten Crab Trap|QID|37832|M|63.23,15.22|Z|630|N|This one is actually in Azsuna, but you are closer now. Loot chest for a bit of treasure and resources.|
-C Mrgls of Endearment|QID|42688|M|16.10,55.07|Z|0680; Suramar|QO|1|US|N|Kill Leyscar Scuttlers to loot things to polish the pearl.|RANK|2|
-C Mrgls of Endearment|QID|42688|M|15.22,52.37|Z|0680; Suramar|CHAT|QO|2|N|Show Fine Sand to Phin|RANK|2|
-T Mrgls of Endearment|QID|42688|M|15.22,52.37|Z|0680; Suramar|N|To Pearlhunter Phin.|RANK|2|
+C Mrgls of Endearment|QID|42688|M|16.10,55.07|Z|0680; Suramar|QO|1|US|N|Kill Leyscar Scuttlers to loot things to polish the pearl.|
+C Mrgls of Endearment|QID|42688|M|15.22,52.37|Z|0680; Suramar|CHAT|QO|2|N|Show Fine Sand to Phin|
+T Mrgls of Endearment|QID|42688|M|15.22,52.37|Z|0680; Suramar|N|To Pearlhunter Phin.|
 A A Mlrglrmg For Grlmrgl|QID|42728|PRE|42688|M|15.22,52.35|Z|0680; Suramar|N|From Pearlhunter Phin.|RANK|2|
-C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|Z|0680; Suramar|S|N|Help Phin find whatever it is by taking him to Conspicuous Piles of Sand.|RANK|2|
+C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|Z|0680; Suramar|S|N|Help Phin find whatever it is by taking him to Conspicuous Piles of Sand.|
 K Kill Mar'tura|QID|44124|QO|1|M|13.96,53.13|Z|0680; Suramar|T|Mar'tura|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|Z|0680; Suramar|US|N|Take Phin around to the piles of dirt.|RANK|2|
-T A Mlrglrmg For Grlmrgl|QID|42728|M|15.18,51.78|Z|0680; Suramar|N|To Mrgrlilgrl.|RANK|2|
+C A Mlrglrmg For Grlmrgl|QID|42728|M|12.29,48.31|Z|0680; Suramar|US|N|Take Phin around to the piles of dirt.|
+T A Mlrglrmg For Grlmrgl|QID|42728|M|15.18,51.78|Z|0680; Suramar|N|To Mrgrlilgrl.|
 A Mglrgrs Of Our Grmlgrlr|QID|41143|PRE|42728|M|15.18,51.78|Z|0680; Suramar|N|From Mrgrlilgrl.|RANK|2|
-C Mglrgrs Of Our Grmlgrlr|QID|41143|M|17.96,48.31|Z|0680; Suramar|N|Find Mr. Mrglglrm by killing the spiders then opening the webs to reveal the victim.|RANK|2|
-T Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.24,51.73|Z|0680; Suramar|N|To Mr. Mrglglrm.|RANK|2|
+C Mglrgrs Of Our Grmlgrlr|QID|41143|M|17.96,48.31|Z|0680; Suramar|N|Find Mr. Mrglglrm by killing the spiders then opening the webs to reveal the victim.|
+T Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.24,51.73|Z|0680; Suramar|N|To Mr. Mrglglrm.|
 C Ancient Mana|QID|44672|M|34.81,55.09|Z|0680; Suramar|US|N|Continue gathering ancient manu up whenever you are not capped, as you will always have uses for it.|
 ; coordinates are entrance to cave to help those not yet familiar with it's location.
 H Shal'Aran|ACTIVE|41704|M|34.72,48.06|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
@@ -153,19 +153,19 @@ C Power Grid|QID|41028|M|54.64,52.32|Z|688|NC|N|Valtrois leads you to a room wit
 T Power Grid|QID|41028|M|54.64,52.32|Z|688|N|To Arcanist Valtrois.| 																; Actually in M|54.64,52.32|Z|688;Ley Station Anora|
 K Kill Myonix|QID|43358|QO|1|M|40.73,32.91|Z|0680; Suramar|ITEM|121739|T|Myonix|N|Silver - Kill Myonix for a bit of treasure and resources.|RANK|2|RARE|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|Z|0680; Suramar|CS|N|Go inside the cave behind the waterfall, The path is is across the river and up one tier from Myonix. Loot for treasure and resources.|RANK|2|
-C Turtle Powered|QID|40368|M|37.11,38.20|Z|0680; Suramar|US|N|Finish collecting the Shimmering Snapper Scales.|RANK|2|
-T Turtle Powered|QID|40368|M|43.39,41.69|Z|0680; Suramar|N|To Morhun Rivertamer.|RANK|2|
+C Turtle Powered|QID|40368|M|37.11,38.20|Z|0680; Suramar|US|N|Finish collecting the Shimmering Snapper Scales.|
+T Turtle Powered|QID|40368|M|43.39,41.69|Z|0680; Suramar|N|To Morhun Rivertamer.|
 A Something in the Water|QID|40348|PRE|40368|M|43.39,41.69|Z|0680; Suramar|N|From Morhun Rivertamer.|RANK|2|
 A Purge the Unclean|QID|40370|PRE|40368|M|43.39,41.69|Z|0680; Suramar|N|From Morhun Rivertamer.|RANK|2|
-C Something in the Water|QID|40348|M|46.72,37.71|Z|0680; Suramar|S|N|Kill Mana-corrupted Waterspawn.|RANK|2|
-C Purge the Unclean|QID|40370|M|43.01,39.98;47.04,36.73|Z|0680; Suramar|CS|QO|1|U|131760|N|Weaken the guardian then use the Focus item to cleanse the corruption.|RANK|2|
-C Something in the Water|QID|40348|M|46.72,37.71|Z|0680; Suramar|US|N|Kill Mana-corrupted Waterspawn.|RANK|2|
-T Something in the Water|QID|40348|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Rivertamer.|RANK|2|
-T Purge the Unclean|QID|40370|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Rivertamer.|RANK|2|
+C Something in the Water|QID|40348|M|46.72,37.71|Z|0680; Suramar|S|N|Kill Mana-corrupted Waterspawn.|
+C Purge the Unclean|QID|40370|M|43.01,39.98;47.04,36.73|Z|0680; Suramar|CS|QO|1|U|131760|N|Weaken the guardian then use the Focus item to cleanse the corruption.|
+C Something in the Water|QID|40348|M|46.72,37.71|Z|0680; Suramar|US|N|Kill Mana-corrupted Waterspawn.|
+T Something in the Water|QID|40348|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Rivertamer.|
+T Purge the Unclean|QID|40370|M|43.41,41.68|Z|0680; Suramar|N|To Morhun Rivertamer.|
 ; Good Suramaritan - Tidying Tel'Anor Side Story Line, Activation of Tel'anor Teleporter
 R Tel'anor|QID|40266|M|41.83,41.39;41.12,42.37;44.75,42.94|Z|0680; Suramar|CS|N|Take the path here, back up to the city level.|FLY|OLD|
-A The Lost Advisor|QID|40266|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|
-A An Ancient Recipe|QID|40744|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|
+A The Lost Advisor|QID|40266|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|RANK|2|
+A An Ancient Recipe|QID|40744|PRE|42229|M|45.59,40.75|Z|0680; Suramar|N|From Thaedris Feathersong.|RANK|2|
 C The Lost Advisor|QID|40266|M|44.04,39.40|Z|0680; Suramar|S|NC|N|Gather Cliffthorn from the ground.|
 C An Ancient Recipe|QID|40744|M|46.12,39.50|Z|0680; Suramar|N|Kill Harpies to acquire the talons.|
 C The Lost Advisor|QID|40266|M|44.04,39.40|Z|0680; Suramar|US|NC|N|Finish picking up Cliffthorn.|
@@ -242,31 +242,6 @@ A Lunastre Estate Teleporter Online!|QID|43811|PRE|40956|M|43.69,79.26|Z|0680; S
 T Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|Z|0680; Suramar|N|To Unpowered Telemancy Beacon.|
 K Kill Magister Phaedris|QID|43348|ACH|11265;13|M|41.99,79.87|Z|0680; Suramar|ITEM|140405|T|Magister Phaedris|N|Silver - Kill and loot for treasure and resources.|RANK|2|RARE|
 R The Grand Promanade|ACTIVE|42147|M|39.26,71.41|Z|0680; Suramar|CC|N|Reapply your mask via the Extra Action Button. While avoiding the NPCs who see illusion, ride over to see Vanthir.|
-; Adding (some) Tailoring Quest chain here....
-t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|627|P|Tailoring;197|N|To Tanithria|
-A The Nightborne Connection|QID|38967|PRE|38962|M|35.02,34.60|Z|627|P|Tailoring;197|N|From Tanithria|  ; Grail says No PRE, but disagree, PRE readded.
-t The Nightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|Z|0680; Suramar|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|  ;  Grail says No PRE, but after edits, put back in, Ludo disagrees w/Grail
-A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Inondra.|
-C Proof of Loyalty|QID|38968|M|35.76,55.65|Z|0680; Suramar|QO|1|P|Tailoring;197|N|Kill Withered.|
-B Master of Silkweave|QID|38969|M|40.20,69.55|Z|0680; Suramar|P|Tailoring;197|L|127266 1|N|Buy a Shal'dorei Mannequin from Leyweaver Mithrogane.|
-C Master of Silkweave|QID|38969|M|40.20,69.55|Z|0680; Suramar|QO|1|P|Tailoring;197|U|127266|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
-t Master of Silkweave|QID|38969|M|40.32,69.73|Z|0680; Suramar|P|Tailoring;197|N|To Leyweaver Inondra.|
-t Proof of Loyalty|QID|38968|M|40.34,69.47|Z|0680; Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Queen's Grace Loom|QID|38970|PRE|38969&38968|M|40.34,69.47|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|  ; Grail says No PRE, but you need to do the PRE, to get this one.
-C The Queen's Grace Loom|QID|38970|M|40.27,69.69|Z|0680; Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
-C The Queen's Grace Loom|QID|38970|M|40.39,69.61|Z|0680; Suramar|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
-C The Queen's Grace Loom|QID|38970|M|40.43,69.51|Z|0680; Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
-t The Queen's Grace Loom|QID|38970|M|40.34,69.47|Z|0680; Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A Return to Karazhan: The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan Mythic Dungeon. \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|  ; Grail says no PRE, Ludo disagrees with Grail, I added it back in.
-B Pattern: Imbued Silkeweave Flourish|PRE|38970|M|40.2,69.6|Z|0680; Suramar|P|Tailoring;197|L|127280|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186109|
-B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|Z|0680; Suramar|P|Tailoring;197|L|127279|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186106|
-B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|Z|0680; Suramar|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
-B Pattern: Imbued Silkeweave Cover|PRE|38970|M|40.2,69.6|Z|0680; Suramar|P|Tailoring;197|L|127277|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186112|
-A Inspire Me!|QID|38975|PRE|38970|M|40.20,69.55|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Mithrogane.|  ; Grail says No PRE, but you need to unlock the Loom, Ludo thinks it should be 38968.
-C Inspire Me!|QID|38975|M|40.22,69.55|Z|0680; Suramar|P|Tailoring;197|QO|5|N|Craft the following:\nBrown Linen Robe\nWhite Woolen Dress\nSimple Black Dress\nFrostwoven Robe\nSpiritmend Robe\nAll near Leyweaver Mithrogane\n\nRight click this step off if you can't complete now, to continue the guide.  Each time you come back to the guide this should popup for you.|
-t Inspire Me!|QID|38975|M|40.22,69.55|Z|0680; Suramar|P|Tailoring;197|N|To Leyweaver Mithrogane.|
-; might need to add more after big bag theory is done...
 C First Contact|QID|42147|M|42.78,60.26|Z|0680; Suramar|CHAT|N|Speak with Vanthir.|
 R Sanctum of Order|ACTIVE|42147|M|42.93,61.97;44.27,62.95;44.59,62.12|Z|0680; Suramar|CS|N|Into the building and down.|
 A Sanctum of Order Teleporter Online!|QID|43813|PRE|40956|M|43.39,60.65|Z|0680; Suramar|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|
@@ -329,7 +304,7 @@ P Telemancer Beacon|ACTIVE|44636|M|22.69,36.69|Z|0680; Suramar|N|Return to Shal'
 P Temple of Fal'adora|QID|43988|PRE|44492|M|35.89,45.55|Z|0680; Suramar|N|Return to Falanaar, to get a treasure and raise your ancient mana cap.|
 $ Volotile Leyline Crystal|QID|43988|PRE|42229|M|42.69,30.93;35.52,52.77|Z|684|CS|ITEM|140328|U|140328|N|Down the stairs and in the center of the room. Loot and use to increase the amount of Ancient Mana you can hold.|
 $ Small Treasure Chest|QID|43838|M|38.25,53.96|Z|684|N|Loot for a bit of treasure and resources.|RANK|2|
-R Temple of Fal'adora|QID|41452|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|Z|684|CS|N|Back up the stairs and head outside.|
+R Temple of Fal'adora|QID|41452^41469|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,41.53;50.31,63.07|Z|684|CS|N|Back up the stairs and head outside.|
 R Irongrove Retreat|QID|41452|PRE|44492|M|22.48,39.90;22.48,30.26|Z|0680; Suramar|CS|QO|1|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|FLY|OLD|
 f Irongrove Retreat|QID|41452|PRE|44492|M|25.47,31.76|Z|0680; Suramar|QO|1|N|At Alyndra Stormgazer.|
 ; Good Suramaritan - Eminent Grow-Main Side Storyline
@@ -387,8 +362,9 @@ T Natural Adversaries|QID|41479|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Feat
 T Managazer|QID|41480|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 T Moonwhisper Rescue|QID|41485|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 A Return to Irongrove Retreat|QID|41469|PRE|41479&41480&41485|M|30.37,30.79|Z|0680; Suramar|N|From Solendra Featherdown.|
-R Ley Station Moonfall|ACTIVE|41469|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|
-R Ley Station Moonfall|ACTIVE|41469|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
+
+R Ley Station Moonfall|AVAILABLE|41469|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|;not active, you dont have the quest yet
+R Ley Station Moonfall|AVAILABLE|41469|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|From Leyline Feed. (200 Ancient Mana)|
 C Broken Leydar Dish|QID|43590|M|34.91,29.48|Z|0680; Suramar|T|Thudchop Trunksmasher|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|To Leyline Feed.|
@@ -400,7 +376,8 @@ C Eminent Grow-main|QID|41494|M|26.18,31.18|Z|0680; Suramar|NC|N|Click on the bo
 T Eminent Grow-main|QID|41494|M|26.07,31.31|Z|0680; Suramar|N|To Mayruna Moonwing.|
 A Scouting the Crimson Thicket|QID|42223|LEAD|40617|PRE|41494|M|26.22,31.32|N|From Solendra Featherdown.|
 K Kill Rauren|QID|43484|M|24.03,25.48|Z|0680; Suramar|QO|1|ITEM|121759|T|Rauren|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-R Ley Station Aethenar|ACTIVE|42223|M|27.36,22.05;24.32,19.35|Z|0680; Suramar|CS|N|Run thru Moonfall Approach to find and restore another leyline feed. This one also costs 200 ancient mana and killing the mobs in the cavern.|
+
+R Ley Station Aethenar|AVAILABLE|43591|M|27.36,22.05;24.32,19.35|Z|0680; Suramar|CS|N|Run thru Moonfall Approach to find and restore another leyline feed. This one also costs 200 ancient mana and killing the mobs in the cavern.|
 A Leyline Feed: Ley Station Aethenar|QID|43591|M|48.14,48.60|Z|690|N|From Leyline Feed.|
 C Leyline Feed: Ley Station Aethenar|QID|43591|M|PLAYER|Z|690|QO|1|N|Kill wraiths to collect the Leyline Feed Fragments.|
 T Leyline Feed: Ley Station Aethenar|QID|43591|M|48.14,48.60|Z|690|N|To Leyline Feed.|
@@ -408,7 +385,7 @@ A Fate of the Guard|QID|40883|PRE|42229|M|27.83,21.17|Z|0680; Suramar|N|From Tha
 A Sigil Reclamation|QID|41030|ACTIVE|40883|M|26.68,17.20|Z|0680; Suramar|O|U|133968|N|From Moonguard Sigil you just looted.|  ;  Grail said this need PRE 40883, but you can only get the Item, when on QID|40883|, had PRE|42229|.
 C Sigil Reclamation|QID|41030|M|26.68,17.20|Z|0680; Suramar|S|N|Kill Nightborne to loot more Sigils.|
 $ Small Treasure Chest|QID|43847|M|26.82,16.96|Z|0680; Suramar|N|Loot for a bit of treasure and resources.|RANK|2|
-C Fate of the Guard|QID|40883|M|27.45,17.33|Z|0680; Suramar|QO|1|NC|N|Find and click on Nyellus Starweaver.|
+C Fate of the Guard|QID|40883|M|27.45,17.33|Z|0680; Suramar|QO|1|NC|N|Find and click on Nyellus Starweaver, (lying dead on the ground).|
 A Not Their Last Stand|QID|40949|PRE|42229|M|29.69,18.64|Z|0680; Suramar|N|From Ivanel Meadowsong.|
 C Not Their Last Stand|QID|40949|M|30.34,17.49|Z|0680; Suramar|NC|N|Click on the Hippogryphs to send them away.|
 C Fate of the Guard|QID|40883|M|30.79,17.91|Z|0680; Suramar|QO|2|NC|N|Find and click on Galar'thus Rivertree.|
@@ -421,24 +398,23 @@ A Take Them in Claw|QID|40963|PRE|40883&40949&41030|M|33.71,18.02|Z|0680; Surama
 C Take Them in Claw|QID|40963|M|31.81,22.60|Z|0680; Suramar|U|139882|N|Target the Nightborne and use vial to attract the wild hippogryphs.The nightborne can be found on this level and the next two.|
 T Take Them in Claw|QID|40963|M|31.43,23.20|Z|0680; Suramar|N|To Serena Windfeather, up the stairs.|
 A The Rift Between|QID|40964|PRE|40963|M|31.43,23.20|Z|0680; Suramar|N|From Serena Windfeather.|
-A Recovering Stolen Power|QID|40968|PRE|40963|M|31.43,23.20|N|From Serena Windfeather.|
+A Recovering Stolen Power|QID|40968|PRE|40963|M|31.43,23.20|N|From Serena Windfeather.|RANK|2|
 C The Rift Between|QID|40964|M|31.52,23.10|Z|0680; Suramar|CHAT|N|Ask Beakbuck for a ride into the Athenaeum.|
 T The Rift Between|QID|40964|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 A Precious Little Left|QID|40967|PRE|40964|M|36.44,22.40|Z|0680; Suramar|N|From Lothrius Mooncaller.|
 A Lay Waste, Lay Mines|QID|40965|PRE|40964|M|36.44,22.40|Z|0680; Suramar|N|From Lothrius Mooncaller.|
 A Stop the Spell Seekers|QID|41032|PRE|40964|M|36.44,22.40|Z|0680; Suramar|N|From Lothrius Mooncaller.|
 C Stop the Spell Seekers|QID|41032|M|36.45,17.00|Z|0680; Suramar|S|NC|N|Click on the purple portals to close them.|
-C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|Z|0680; Suramar|S|U|133882|N|Use the trap rune to kill multiple Nightborne at a time.|
+C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|Z|0680; Suramar|S!US|U|133882|N|Use the trap rune to kill multiple Nightborne at a time.|
 K Kill Siegemaster Aedrin|QID|43369|M|37.0,21.2|Z|0680; Suramar|ITEM|140406|T|Siegemaster Aedrin|N|Silver - Siegemaster Aedrin, for a bit of treasure and resources.|RANK|2|RARE|
 C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
 K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|Z|0680; Suramar|ITEM|140372|T|Artificer Lothaire|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Aggro the Artificer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|RARE|
 C Precious Little Left|QID|40967|M|34.07,17.89|Z|0680; Suramar|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
 K Kill Commander Domitille|AVAILABLE|40762|M|36.14,18.56|Z|0680; Suramar|ITEM|141672|L|136851|T|Commander Domitille|N|Kill and loot for an optional quest.|RANK|2|
 A Zealot's Dues|QID|40762|M|PLAYER|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
-C Lay Waste, Lay Mines|QID|40965|M|34.64,20.10|Z|0680; Suramar|US|U|133882|N|Down more stairs and finish up killing the Nightborne.|
 C Precious Little Left|QID|40967|M|34.80,22.53|Z|0680; Suramar|QO|2|NC|N|'Magical Manifest of the Moon' in on the table in the covered patio.|U|133882|
 C Stop the Spell Seekers|QID|41032|M|36.45,17.00|Z|0680; Suramar|US|NC|N|Finish closing the purple portals.|
-l Recovering Stolen Power|ACTIVE|40968|M|PLAYER|L|133957 10|S|N|Continue killing Nightborne until you have 10 spell focus fragments.|
+l Recovering Stolen Power|ACTIVE|40968|M|PLAYER|L|133957 10|S|N|Continue killing Nightborne until you have 10 spell focus fragments.|RANK|2|
 T Precious Little Left|QID|40967|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 T Lay Waste, Lay Mines|QID|40965|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 T Stop the Spell Seekers|QID|41032|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
@@ -461,7 +437,7 @@ $ Small Treasure Chest|QID|43848|M|29.27,16.22|Z|0680; Suramar|N|In the room at 
 C The Orchestrator of Our Demise|QID|40970|M|28.84,12.74|Z|0680; Suramar|N|Kill Conjurer Thalerian and loot the Astromancer's Keystone.|
 C Overwhelming Distraction|QID|40971|M|30.78,15.42|Z|0680; Suramar|US|U|133999|N|Stand on the purple runes, target a Nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
 R Moonfall Overlook|QID|43808|PRE|41108^41111|M|29.01,13.11;28.61,14.31;29.61,10.69|Z|0680; Suramar|CS|N|Run up the stairs and pass through the bubble at the top.|
-A Moon Guard Teleporter Online!|QID|43808|PRE|40956|M|30.82,11.06|Z|0680; Suramar|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|
+A Moon Guard Teleporter Online!|QID|43808|PRE|40956|M|30.82,11.06|Z|0680; Suramar|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
 T Moon Guard Teleporter Online!|QID|43808|M|30.82,11.06|Z|0680; Suramar|N|To Unpowered Telemancy Beacon.|
 $ Arcane Power Unit|QID|43989|M|35.58,12.04|Z|0680; Suramar|U|140329|N|Continue up the stairs for an item that raises your mana cap by 100.|
 $ Shimmering Ancient Mana Cluster|QID|43746|M|41.96,19.19|Z|0680; Suramar|ITEM|139786|N|Keep running along the path for storable, but non-stackable ancient mana.|RANK|3|		;for some reason -- this one isnt the epic 150 ancient mana
@@ -477,31 +453,31 @@ T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|Z|0680; Suramar|N|To Firs
 R Meredil|QID|40401|PRE|40972|M|34.36,49.95|Z|0680; Suramar|N|Run outside Shal'Aran and take the road Southeast.|RANK|2|
 A A Way Back In|QID|40401|M|34.36,56.14|Z|0680; Suramar|N|From Iadreth.|RANK|2|				; Had PRE|42229|, Grail says No.
 K Kill Mal'Dreth the Corruptor|QID|43351|M|34.21,60.94|Z|0680; Suramar|ITEM|140386|T|Mal'Dreth|N|Silver - Mal'Dreth the Corruptor, for a bit of treasure and resources.\nAttack Fel Crystals when active.|RANK|2|RARE|
-C A Way Back In|QID|40401|M|41.36,60.68|Z|0680; Suramar|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
-T A Way Back In|QID|40401|M|41.36,60.68|Z|0680; Suramar|N|To Astoril.|RANK|2|
+C A Way Back In|QID|40401|M|41.36,60.68|Z|0680; Suramar|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|
+T A Way Back In|QID|40401|M|41.36,60.68|Z|0680; Suramar|N|To Astoril.|
 A Final Preparations|QID|40469|PRE|40401|M|41.36,60.68|Z|0680; Suramar|N|From Astoril.|RANK|2|
-C Final Preparations|QID|40469|M|42.74,60.01|Z|0680; Suramar|S|NC|N|Collect crates of Stashed Supplies.|RANK|2|
+C Final Preparations|QID|40469|M|42.74,60.01|Z|0680; Suramar|S|NC|N|Collect crates of Stashed Supplies.|
 A An Artisan's Mark|QID|41123|M|41.54,71.17|Z|0680; Suramar|N|From Lespin Silverleaf.|RANK|2|		; Had PRE|40401|, Grail says No.
-C An Artisan's Mark|QID|41123|M|42.47,64.99|Z|0680; Suramar|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|RANK|2|
-T An Artisan's Mark|QID|41123|M|41.54,71.17|Z|0680; Suramar|N|To Lespin Silverleaf.|RANK|2|
+C An Artisan's Mark|QID|41123|M|42.47,64.99|Z|0680; Suramar|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|
+T An Artisan's Mark|QID|41123|M|41.54,71.17|Z|0680; Suramar|N|To Lespin Silverleaf.|
 A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|Z|0680; Suramar|N|From Lespin Silverleaf.|RANK|2|
 A Pry It From Their Cold, Feral Claws|QID|41320|PRE|41123|M|41.54,71.17|Z|0680; Suramar|N|From Lespin Silverleaf.|RANK|2|
-C Final Preparations|QID|40469|M|42.74,60.01|Z|0680; Suramar|US|NC|N|Finish collecting crates of Stashed Supplies.|RANK|2|
-T Final Preparations|QID|40469|M|34.32,56.13|Z|0680; Suramar|N|To Iadreth.|RANK|2|
+C Final Preparations|QID|40469|M|42.74,60.01|Z|0680; Suramar|US|NC|N|Finish collecting crates of Stashed Supplies.|
+T Final Preparations|QID|40469|M|34.32,56.13|Z|0680; Suramar|N|To Iadreth.|
 A A Desperate Journey|QID|40424|PRE|40469|M|34.32,56.13|Z|0680; Suramar|N|From Iadreth.|RANK|2|
-C A Desperate Journey|QID|40424|CC|M|35.11,58.95|Z|0680; Suramar|QO|1|N|Move near lightpost, wait for attack.|RANK|2|
-C A Desperate Journey|QID|40424|CC|M|36.36,60.48|Z|0680; Suramar|QO|2|N|Move towards cave, wait for attack.|RANK|2|
-C A Desperate Journey|QID|40424|M|37.82,61.68|Z|0680; Suramar|QO|3|NC|N|Find Astoril.|RANK|2|
-T A Desperate Journey|QID|40424|M|37.82,61.68|Z|0680; Suramar|N|To Astoril.|RANK|2|
+C A Desperate Journey|QID|40424|CC|M|35.11,58.95|Z|0680; Suramar|QO|1|N|Move near lightpost, wait for attack.|
+C A Desperate Journey|QID|40424|CC|M|36.36,60.48|Z|0680; Suramar|QO|2|N|Move towards cave, wait for attack.|
+C A Desperate Journey|QID|40424|M|37.82,61.68|Z|0680; Suramar|QO|3|NC|N|Find Astoril.|
+T A Desperate Journey|QID|40424|M|37.82,61.68|Z|0680; Suramar|N|To Astoril.|
 A Quality of Life|QID|40470|PRE|40424|M|37.83,61.60|Z|0680; Suramar|N|From Iadreth.|RANK|2|
-C Quality of Life|QID|40470|M|38.29,76.45|Z|0680; Suramar|QO|1|NC|N|Follow Iadreth, by stepping onto the circle.|RANK|2|
-K Astoril|ACTIVE|40470|M|43.34,37.43|Z|682|QO|2|N|Kill Astoril, once he's Hostile.|RANK|2|
+C Quality of Life|QID|40470|M|38.29,76.45|Z|0680; Suramar|QO|1|NC|N|Follow Iadreth, by stepping onto the circle.|
+K Astoril|ACTIVE|40470|M|43.34,37.43|Z|682|QO|2|N|Kill Astoril, once he's Hostile.|
 $ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|682|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|682|N|Loot chest for some treasure and resources.|RANK|2|
-A Felsoul Teleporter Online!|QID|41575|PRE|40956|M|53.45,37.31|Z|682|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2| ; Grail says need PRE
-T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|682|N|To Unpowered Telemancy Beacon.|RANK|2|
-P Shal'Aran|ACTIVE|41320|M|53.45,37.31|Z|682|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
-P Lunastre Estate|ACTIVE|41320|M|36.16,45.02|Z|0680; Suramar|N|Take the portal to Lunastre Estate.|RANK|2|
+A Felsoul Teleporter Online!|QID|41575|PRE|40956|M|53.45,37.31|Z|682|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)| ; Grail says need PRE
+T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|682|N|To Unpowered Telemancy Beacon.|
+P Shal'Aran|ACTIVE|41320|M|53.45,37.31|Z|682|N|After Killing Astoril, use portal behind you. OR Hearth.|
+P Lunastre Estate|ACTIVE|41320|M|36.16,45.02|Z|0680; Suramar|N|Take the portal to Lunastre Estate.|
 C Pry It From Their Cold, Feral Claws|QID|41320|M|40.54,79.66|Z|0680; Suramar|S|N|Kill Harpies for the Necklaces.|RANK|2|
 C All That Glitters|QID|41307|M|39.05,83.50|Z|0680; Suramar|S|NC|N|Loot Arcane Glowlamps off the ground.|RANK|2|
 $ Small Treasure Chest|QID|43830|M|38.15,87.11|Z|0680; Suramar|N|Loot for some treasure and resources.|RANK|2|
@@ -542,7 +518,6 @@ T Dispensing Compassion|QID|41148|M|48.40,83.28|Z|0680; Suramar|N|To Vanthir.|
 A The Gondolier|QID|41878|PRE|41148|M|48.40,83.28|Z|0680; Suramar|N|From Vanthir.|RANK|2|
 A Special Delivery|QID|40947|PRE|41148|M|48.28,83.22|Z|0680; Suramar|N|From Silgryn.|
 $ Small Treasure Chest|QID|43864|M|50.07,83.85;49.99,84.93|Z|0680; Suramar|CS|N|Look up from first coordinate to upper floor of tower for grapple point. Loot chest for treasure and resources.|RANK|2|
-B Pattern: Imbued Silkweave Hood|PRE|38970|M|49.4,75.8|Z|0680; Suramar|P|Tailoring;197|L|127025|RECIPE|185930|N|From Leyweaver Jorjana. (100 Shal'dorei Silk)|
 C The Gondolier|QID|41878|M|51.18,76.15|Z|0680; Suramar|NC|N|Make Contact with the Gondolier.|
 T The Gondolier|QID|41878|M|51.18,76.15|Z|0680; Suramar|N|To Deline.|
 A All Along the Waterways|QID|40727|PRE|41878|M|51.18,76.15|Z|0680; Suramar|N|From Deline.|
@@ -599,7 +574,7 @@ A Trapping Evolved|QID|41230|PRE|40617|M|61.88,49.05|Z|0680; Suramar|N|From Lilr
 A They Become The Hunted|QID|41215|PRE|40617|M|61.82,49.11|Z|0680; Suramar|N|From Nighteyes.|RANK|2|
 C They Become The Hunted|QID|41215|M|60.95,44.93|Z|0680; Suramar|S|N|Kill Nightborne Trappers.|
 C Trapping Evolved|QID|41230|M|61.49,43.00|Z|0680; Suramar|NC|S|N|Click on Arcane Traps.|
-R Kel'balor|ACTIVE|41215|M|59.2,44.7;59.31,42.93|Z|0680; Suramar|CS|N|Run into this cavern to activate another Leyline, make sure you have 200 ancient mana on hand.|
+R Kel'balor|AVAILABLE|43588|M|59.2,44.7;59.31,42.93|Z|0680; Suramar|CS|N|Run into this cavern to activate another Leyline, make sure you have 200 ancient mana on hand.|
 A Leyline Feed: Kel'balor|QID|43588|M|51.75,44.10|Z|687|N|From Leyline Feed. (200 Ancient Mana)| ; Grail says not need PRE|41138|
 C Leyline Feed: Kel'balor|QID|43588|M|51.80,46.01|Z|687|N|Click on the 'Leyline Feed Primer' and then kill the three waves of withered that come at you.|
 T Leyline Feed: Kel'balor|QID|43588|M|51.75,44.10|Z|687|N|To Leyline Feed.|
@@ -608,14 +583,14 @@ C They Become The Hunted|QID|41215|M|60.95,44.93|Z|0680; Suramar|US|N|Finish kil
 T They Become The Hunted|QID|41215|M|61.82,49.11|Z|0680; Suramar|N|To Nighteyes.|
 T Trapping Evolved|QID|41230|M|61.88,49.05|Z|0680; Suramar|N|To Lilryia Dawnwind.|
 $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|Z|0680; Suramar|CS|N|Inside a small alcove on the hillside, loot this chest for some resources and treasure.|RANK|2|
-f Crimson Thicket|QID|43587|PRE|41230|M|64.23,41.98|Z|0680; Suramar|N|At Ancient Cloudwing.|
+f Crimson Thicket|AVAILABLE|43587|PRE|41230|M|64.23,41.98|Z|0680; Suramar|N|At Ancient Cloudwing.|
 K Kill Hertha Grimdottir|QID|43993|M|61.30,39.70|Z|0680; Suramar|T|Hertha Grimdottir|N|Silver - Kill Hertha Grimdottir, for a bit of treasure and resources.|RANK|2|RARE|
-R Elor'shan|QID|43587|PRE|41230|M|65.87,41.89;65.88,42.04|Z|0680; Suramar|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|
+R Elor'shan|AVAILABLE|43587|PRE|41230|M|65.87,41.89;65.88,42.04|Z|0680; Suramar|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|
 A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|686|N|From Leyline Feed. (250 Ancient Mana)| ; Grail says not need PRE|41138|
 T Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|686|N|To Leyline Feed.|
 $ Shimmering Ancient Mana Cluster|QID|43743|M|48.91,16.22|Z|686|N|Before you leave Elor'shan Tunnels, loot for storable, but non-stackable ancient mana.|ITEM|141655|RANK|2|
 
-; Good Suramaritan - Jandvik's Jarl Side Storyline
+; Good Suramaritan - Jandvik's Jarl Side Storyline-But required for "campaign" achievement
 
 R Jandvik|QID|40907|PRE|41230|M|64.86,51.05|Z|0680; Suramar|N|Run/Fly to Jandvik for some sideline quests.|
 A Removing Obstacles|QID|40907|PRE|42229|M|65.71,51.15|Z|0680; Suramar|N|From Toryl (who wanders along this path).|
@@ -722,7 +697,7 @@ K Kill King Morgalash|QID|41786|M|87.42,62.35|Z|0680; Suramar|ITEM|140384|N|Clic
 T Shatter the Sashj'tar|QID|41001|M|70.59,49.17|Z|0680; Suramar|N|To Brandolf.|RANK|2|
 T Squid Out of Water|QID|41499|M|70.59,49.17|Z|0680; Suramar|N|To Brandolf.|RANK|2|
 T Turning the Tidemistress|QID|40336|M|70.68,48.79|Z|0680; Suramar|N|To Toryl.|
-B Recipe: Koi-Scented Stormray|PRE|40336|M|71.61,48.87|Z|0680; Suramar|P|Cooking;185|L|133819|RECIPE|201503|N|From Markus Hjolbruk. (don't forget to learn it.)|
+
 H Shal'Aran|ACTIVE|42488|M|36.56,46.93|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Thalyssra's Abode|QID|42488|M|36.88,46.61|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 T Thalyssra's Drawers|QID|42489|M|36.88,46.61|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
@@ -730,8 +705,6 @@ A Leyline Master|QID|44495|PRE|44493&43587&43588|M|37.00,46.35|Z|0680; Suramar|N
 T Leyline Master|QID|44495|M|37.00,46.35|N|To Arcanist Valtrois.|
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
 K Feed Llorian|QID|44676|M|29.32,50.79;29.39,53.31|Z|0680; Suramar|CS|T|Llorian|CHAT|N|Inside Cave, talk to Llorian, and give 25 Ancient Mana, 2 waves of mobs. Kill the waves, for a bit of treasure and resources. Dismiss your pet and/or unassign your follower!|RANK|2|RARE|
-T Felsmith Nal'ryssa|QID|38524|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
-A Part of the Team|QID|38525|PRE|38524|M|30.0,53.2|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
 R Felsoul Hold|QID|40297|PRE|42489|M|32.69,58.83|Z|0680; Suramar|N|Run/Fly towards Felsoul Hold.|
 A Lyana Darksorrow|QID|40297^44489|PRE|42229|M|30.18,60.60;30.87,59.17|Z|0680; Suramar|CS|N|From Lyana Darksorrow.|
 C Lyana Darksorrow|QID|40297^44489|M|30.87,59.17|Z|0680; Suramar|NC|N|Click to destroy Soul Harvester.|
@@ -740,13 +713,7 @@ A Glaive Circumstances|QID|40307|PRE|40297^44489|M|30.87,59.17|Z|0680; Suramar|N
 A Fresh Meat|QID|40898|PRE|40297^44489|M|30.87,59.17|Z|0680; Suramar|N|From Lyana Darksorrow.|
 C Fresh Meat|QID|40898|M|28.00,60.80|Z|0680; Suramar|S|N|Kill and loot the basilisks you can't avoid, but be aware a quest you are headed towards also has you killing them.|RANK|2|
 C Fresh Meat|QID|40898|M|28.00,60.80|Z|0680; Suramar|S|N|Kill and loot the basilisks for the meat.|RANK|-1|
-C Part of the Team|QID|38525|M|28.00,60.80|Z|0680; Suramar|P|Blacksmithing;164|S|N|Kill Demons in Felsoul Hold.|
 $ Small Treasure Chest|QID|43831|M|31.96,62.48|Z|0680; Suramar|N|Loot for some treasure and resources.|RANK|2|
-; Inserting Leatherworking / Tailoring Quests.
-t Demon Flesh|QID|40211|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Wrong End of the Knife|QID|40212|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Hounds Abound|QID|40213|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Exotic Textiles|QID|38971|PRE|38970|M|26.63,71.42|Z|0680; Suramar|P|Tailoring;197|N|From Leyweaver Athystro.|  ; Need to have opened up the Loom, for unlocking the Tailoring Recipes
 A A Different Source|QID|40625|M|29.38,71.78;27.34,72.89;26.78,70.82|Z|0680; Suramar|CS|N|From Kyrtos.|RANK|2|
 $ Kyrtos's Research Notes|QID|43987|M|26.86,70.74|Z|0680; Suramar|U|140327|ITEM|140327|N|Pick up and use Kyrtos's Research Notes to raise your ancient mana cap by 100.|
 C A Different Source|QID|40625|M|32.50,66.74|Z|0680; Suramar|N|Kill Abhorrent Artificers (or any wyrmtounge mob) in the area for Fel Deconstructor. Low droprate.|
@@ -757,21 +724,7 @@ C Discovery Requires Experimentation|QID|40683|M|29.42,66.05;27.91,56.83|Z|0680;
 C The Road to Fel|QID|40657|M|25.61,61.30|Z|0680; Suramar|NC|S|N|Pick up Fel-Infused Plate particularly around the fel cannons.|
 C Glaive Circumstances|QID|40307|M|27.17,59.90|Z|0680; Suramar|QO|2|N|Pick up Lyana's Vengeful Warglaive.|
 C Glaive Circumstances|QID|40307|M|25.56,62.43;24.64,64.46|Z|0680; Suramar|CS|QO|1|T|Baelbug|N|Lyana's Wrathful Warglaive after killing mob.|
-C Part of the Team|QID|38525|M|29.8,63.4|Z|0680; Suramar|P|Blacksmithing;164|US|N|Finish killing Demons in Felsoul Hold.|
 C Fresh Meat|QID|40898|M|28.00,60.80|Z|0680; Suramar|US|N|Finish collecting the Fel-Flesh.|
-; Blacksmithing Quests inserted here
-t Part of the Team|QID|38525|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
-A Smith Under Fire|QID|38526|PRE|38525|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
-C Smith Under Fire|QID|38526|M|29.90,53.27|Z|0680; Suramar|P|Blacksmithing;164|N|Create Leystone Boots, following Nal'ryssa's Instructions.\n\nNOTE: Do not create more than 2 Red-Hot Leystone bar AT A TIME!\n\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Footguards\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Heelguards\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Shinplate\nCreate 2 Red-Hot Leystone Bars\nCreate 2 Leystone Soleplate\n\nNow Create the Handmade Leystone Boots.|
-T Smith Under Fire|QID|38526|PRE|38525|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
-A Nal'ryssa's Technique|QID|38527|PRE|38526|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
-C Nal'ryssa's Technique|QID|38527|P|Blacksmithing;164|N|Collect Leystone Ore x60 and Felslate x60.|
-t Nal'ryssa's Technique|QID|38527|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
-A Leystone's Potential|QID|38528|PRE|38527|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
-C Leystone's Potential|QID|38528|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|Create Masterwork Leystone Armguards, following Nal'ryssa's Instructions.\n\nCreate: Engraved Leystone Armguards x1\nCreate: Molten Brimstone x2\nCreate: Brimstone-Covered Armguards x1\nCreate: Brimstone-Crusted Armguards x1\n\n Then Create: Masterwork Leystone Armguards.|
-T Leystone's Potential|QID|38528|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|To Felsmith Nal'ryssa.|
-A The Firmament Stone|QID|38530|PRE|38528|M|30.0,53.2|Z|0680; Suramar|P|Blacksmithing;164|N|From Felsmith Nal'ryssa.|
-; back to fel soul questing
 T Fresh Meat|QID|40898|M|30.86,59.17|Z|0680; Suramar|N|To Lyana Darksorrow.|
 T Glaive Circumstances|QID|40307|M|30.86,59.17|Z|0680; Suramar|N|To Lyana Darksorrow.|
 A Grimwing the Devourer|QID|40901^44490|PRE|40307&40898|M|30.86,59.17|Z|0680; Suramar|N|From Lyana Darksorrow.| ; 44490 is DH Class
@@ -826,7 +779,6 @@ T Fel Bent for Leather|QID|40919|M|26.79,70.79|Z|0680; Suramar|N|To Kyrtos.|
 T Power! Get The Power!|QID|40642|M|26.79,70.79|Z|0680; Suramar|N|To Kyrtos.|
 A The Bigger They Are, The Harder They Fel|QID|42366|PRE|40642&40713&40919|M|26.79,70.79|Z|0680; Suramar|N|From Kyrtos.\nUse His portal that he makes.|RANK|2|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|Z|0680; Suramar|QO|1|CHAT|N|Chat with Kyrtos to start the ritual, when he decides he wants your soul, kill him.\nWhen Finished, a portal will appear to take you back to His cave.|
-C Hounds Abound|QID|40213|M|36.67,73.20|Z|0680; Suramar|P|Leatherworking;165|S|T|Felsoul Ravener|N|Kill Felsoul Raveners for their Corpses.|
 C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.33,74.22;34.27,74.04|Z|0680; Suramar|NC|N|Escort Angus to Felmaw Cavern|
 T Into The Pit!|QID|41222|M|34.26,73.98|Z|0680; Suramar|N|To Angus Stormbrew.|
 A Parts Unknown|QID|41214|PRE|41222|M|34.26,73.98|Z|0680; Suramar|N|From Angus Stormbrew.|RANK|2|
@@ -842,11 +794,9 @@ C Mangelrath|QID|41309|M|35.39,71.01|Z|0680; Suramar|QO|1|N|Kill Mangelrath.|
 C Mangelrath|QID|41309|M|35.13,70.73|Z|0680; Suramar|QO|2|CHAT|N|Speak with Brambley Morrison.|
 C Mangelrath|QID|41309|M|35.46,71.30|Z|0680; Suramar|QO|3|NC|N|Follow Brambley Morrison, down the fel lava.|
 T Mangelrath|QID|41309|M|35.80,72.44|Z|0680; Suramar|N|To Brambley Morrison.|
-C Hounds Abound|QID|40213|M|36.67,73.20|Z|0680; Suramar|P|Leatherworking;165|US|T|Felsoul Ravener|N|Finish off killing the Felsoul Raveners for their Corpses.|
 R The Arcway|ACTIVE|41097|M|32.75,82.34;35.70,82.23|Z|0680; Suramar|CC|N|Run/Fly east towards Felsoul Hold, The Arcway|
 R Towards Vorgos|ACTIVE|41097|M|61.43,84.82;51.20,57.65;50.24,18.33|Z|682|CS|N|Run over to the East of the area. Felsoul Teleporter in same area.|
 C Shard of Vorgos|QID|41097|M|50.24,18.33|Z|682|N|Kill Vorgos and loot his shard.|
-C Exotic Textiles|QID|38971|M|37.47,39.95|Z|682|P|Tailoring;197|T|Djin'zal|N|Kill Djin'zal for the Fel Inscribed Shroud.|
 R The Fel Breach|ACTIVE|41097|M|53.15,72.22;42.35,67.59;43.16,40.24|CS|Z|682|RANK|-1|
 A Felsoul Teleporter Online!|QID|41575|PRE|40956|M|53.45,37.31|Z|682|N|From Unpowered Telemancy Beacon.|RANK|-1|;Rank -1 because if you are doing the guide on rank 2 or 3, you did this earlier. Grail says need PRE
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|682|N|To Unpowered Telemancy Beacon.|RANK|-1|
@@ -857,21 +807,11 @@ T Shard of Vorgos|QID|41097|M|30.87,85.00|Z|0680; Suramar|N|To Portal Activation
 A Azoran Must Die|QID|40412|PRE|41097&41098|M|31.04,85.01|Z|0680; Suramar|N|From Lyana Darksorrow.|
 C Azoran Must Die|QID|40412|M|32.27,75.68|Z|0680; Suramar|N|Use the portal to enter The Lightbreaker. Go up any ramp, to get to Azoran, kill him.|
 $ Treasure Chest|QID|43834|M|32.28,77.09|Z|0680; Suramar|N|Back down to the lower level of The Lightbreaker. Loot for a bit of treasure and resources.|RANK|2|
-P Felsoul Hold|ACTIVE|40412|M|33.08,75.14|Z|0680; Suramar|N|Take the portal back down to the ground.|
+P Felsoul Command|ACTIVE|40412|M|33.08,75.14|Z|0680; Suramar|N|Take the portal back down to the ground.|
 T Azoran Must Die|QID|40412|M|31.15,84.61|Z|0680; Suramar|N|To Lyana Darksorrow.|
-t Hounds Abound|QID|40213|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-t Exotic Textiles|QID|38971|M|26.63,71.42|Z|0680; Suramar|P|Tailoring;197|N|To Leyweaver Athystro.|
 H Shal'Aran|QID|42366|ACTIVE|42366|M|36.87,46.60|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
-; More Leatherworking Quests, with having moved Waning Crescent ABOVE Felsoul Hold, need to put here.
-P Starcaller Retreat|ACTIVE|40212|M|36.49,44.75|Z|0680; Suramar|P|Leatherworking;165|QO|1|N|Take Portal to Waning Crescent.|
-K Kill Tallian|QID|40212|M|47.33,76.33|Z|0680; Suramar|P|Leatherworking;165|T|Tallian|QO|2|N|Kill Tallian, he's in the house.\nCAUTION: Seeing Demon SPAWNS in this house.|
-K Kill Feorias|QID|40212|M|46.15,77.14|Z|0680; Suramar|P|Leatherworking;165|T|Feorias|QO|1|N|Kill Feorias, in the market, watch out for roving Seeing guards.|
-K Kill Syana|QID|40212|M|50.78,76.78|Z|0680; Suramar|P|Leatherworking;165|T|Syana|QO|3|N|Kill Syana, he's over by Deline.|
-t Wrong End of the Knife|QID|40212|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Fel Tanning|QID|40214|PRE|40212&40213|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.| ; Grail says dont need 40212&40213, Blanc disagrees
-C Fel Tanning|QID|40214|M|26.54,71.70|Z|0680; Suramar|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
-t Fel Tanning|QID|40214|M|26.53,71.61|Z|0680; Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
+N END OF SURAMAR|N|For now.  The rest of this is for after the Phase 2 releases Oct 21, 2025.|
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|Z|0680; Suramar|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|Z|0680; Suramar|N|From Keelay Moongrow|RANK|2|
 R Meredil|ACTIVE|41107|M|34.39,49.95|Z|0680; Suramar|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
@@ -901,6 +841,7 @@ C Shalassic Park|QID|43582|M|52.02,55.71|Z|0680; Suramar|QO|2|N|Escape the Menag
 C Shalassic Park|QID|43582|M|56.05,56.49|Z|0680; Suramar|QO|3|N|Adversaries slain - trample or eat the demons till you get 50.|RANK|2|
 T Shalassic Park|QID|43582|M|50.71,56.60|Z|0680; Suramar|N|To Nighteyes, back in the water.|RANK|2|
 t Seed of Hope|QID|44561|M|36.83,46.54|Z|0680; Suramar|N|To Valewalker Farodin.|
+
 A Moths to a Flame|QID|42828|PRE|42488|M|36.83,46.54|Z|0680; Suramar|N|From Valewalker Farodin.|
 A Growing Strong|QID|44562|PRE|44561|M|36.83,46.54|Z|0680; Suramar|N|From Valewalker Farodin.|
 C Moths to a Flame|QID|42828|M|36.53,46.74|Z|0680; Suramar|QO|1|NC|N|Click on the Underglow Locusts to Collect them.|
@@ -909,7 +850,7 @@ A Make an Entrance|QID|42829|PRE|42828|M|36.92,46.57|Z|0680; Suramar|N|From Firs
 P Sanctum of Order|ACTIVE|42829|M|36.70,44.64|Z|0680; Suramar|N|Take the Sanctum of Order Portal, remember to apply your mask on the other side.|
 R The Menagerie|ACTIVE|42829|M|43.85,63.02;42.92,61.92;49.54,54.22;50.61,52.42|Z|0680; Suramar|CS|N|Run to the Bridge OVER the Menagerie. Watch out for Sentries.|FLY|OLD|
 C Make an Entrance|QID|42829|M|51.10,52.21|Z|0680; Suramar|QO|1|CHAT|N|Chat with Ly'leth|
-C Make an Entrance|QID|42829|M|51.10,52.21|Z|0680; Suramar|QO|2|NC|N|Click on Palanquin. Don't worry you wont be seen.|
+C Make an Entrance|QID|42829|M|51.10,52.21|Z|0680; Suramar|QO|2|V|N|Click on Palanquin. Don't worry you wont be seen.|
 C Make an Entrance|QID|42829|M|54.50,52.20|Z|0680; Suramar|QO|3|CHAT|N|Chat with Margaux, 'Show your Sigil'.|
 T Make an Entrance|QID|42829|M|54.50,52.20|Z|0680; Suramar|N|To Margaux.|
 A The Fruit of Our Efforts|QID|42832|PRE|42829|M|54.50,52.20|Z|0680; Suramar|N|From Margaux.|
@@ -1092,10 +1033,7 @@ C Arluin's Request|QID|43569|M|47.55,66.37;48.24,66.84|Z|0680; Suramar|CS|NC|QO|
 C Arluin's Request|QID|43569|M|48.24,66.84|Z|0680; Suramar|QO|2|CHAT|N|Share Arcan'dor Fruit with Arluelle.|
 T Arluin's Request|QID|43569|M|48.24,66.84|Z|0680; Suramar|N|To Arluelle.|
 H Shal'Aran|AVAILABLE|45260|PRE|43569|M|36.51,46.80|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-; Tailoring Purchase of plans Need Exalted.
-B Pattern: Imbued Silkweave Bracers|PRE|38970|M|36.50,46.78|Z|0680; Suramar|P|Tailoring;197|L|137973|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185954|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Pantaloons|PRE|38974|M|36.50,46.78|Z|0680; Suramar|P|Tailoring;197|L|137976|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185957|REP|The Nightfallen;1859;Exalted|
-B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|Z|0680; Suramar|P|Tailoring;197|L|137979|N|From First Arcanist Thalyssra. (2,700 Gold)\nYou can buy, but can't learn if you don't have previous Rank.|RECIPE|185960|REP|The Nightfallen;1859;Exalted|
+
 ; Insurrection - Lockdown Storyline Quests
 A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
 T Insurrection|QID|45271|M|36.51,46.80|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
