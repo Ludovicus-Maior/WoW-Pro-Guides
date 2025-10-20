@@ -14,4 +14,3 @@ WoWPro_WorldEvents_GuideList.lua
 Retail\Alliance\Guides.xml
 Retail\Neutral\Guides.xml
 Retail\Horde\Guides.xml
-

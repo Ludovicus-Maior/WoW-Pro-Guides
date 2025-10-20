@@ -411,7 +411,7 @@ C Becoming the Ascendant|QID|39092|M|61.33,69.52|QO|1|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
 $ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
-K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 R Jotunnwood|ACTIVE|39792|M|58.94,73.97;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|FLY|OLD|
 C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
@@ -460,7 +460,7 @@ R Valdisdall|AVAILABLE|39984|M|63.00,48.61|N|On to Valdisdall for some optional 
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
-K Kill Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|ITEM|129199|T|Tarben|N|Silver - Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|T|Tarben|N|Silver - Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
 $ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
@@ -473,13 +473,13 @@ A Shadows in the Mists|QID|40044|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 A To Honor the Fallen|QID|43595|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 C To Honor the Fallen|QID|43595|M|60,43|S|N|Kill Kvaldir and collect the weapons.|RANK|2|
 C Scavenging the Shallows|QID|40046|M|60,43|S|NC|N|Pick up the boat debris until you find the clue.|RANK|2|
-K Kill Captain Brvet|QID|38642|M|57.97,45.28|QO|1|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Captain Brvet|QID|38642|M|57.97,45.28|QO|1|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 K Kill Captain Sten|ACTIVE|40044|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
 $ Treasure Chest|QID|40095|M|54.98,47.14|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Halvir|ACTIVE|40044|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
 K Kill Sigrid|ACTIVE|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
 K Kill Kjell|ACTIVE|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
-K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
 C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|Keep looking at ships debris until you find the one you are looking for.|RANK|2|
 C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK|2|
@@ -491,7 +491,7 @@ R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|N|Headed back to see those
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
-K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
 R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|OLD|
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
@@ -517,7 +517,7 @@ A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|LVL|-45|CT|M|80.44,53.11|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the houses, break the spears, etc to advance the objective. Click to proceeed.|RANK|2|
 C A Murky Fate|QID|40120|M|79.61,59.90|U|129725|S|N|Use the provided torch to burn the decaying corpses.|RANK|2|
-K Kill Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|40099|M|80.58,67.04;81.86,67.49|CS|N|Loot for a bit of treasure and resources.|RANK|3|
 C A Murky Fate|QID|40120|M|79.61,59.90|U|129725|US|N|Finish up burning the decaying corpses.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Stay and finish this up or click off manually and move on.|RANK|2|
