@@ -363,8 +363,8 @@ T Managazer|QID|41480|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 T Moonwhisper Rescue|QID|41485|M|30.37,30.79|Z|0680; Suramar|N|To Solendra Featherdown.|
 A Return to Irongrove Retreat|QID|41469|PRE|41479&41480&41485|M|30.37,30.79|Z|0680; Suramar|N|From Solendra Featherdown.|
 
-R Ley Station Moonfall|AVAILABLE|41469|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|;not active, you dont have the quest yet
-R Ley Station Moonfall|AVAILABLE|41469|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
+R Ley Station Moonfall|AVAILABLE|43590|M|30.74,29.46;36.68,27.16;36.11,25.73|Z|0680; Suramar|CS|N|Run through Moonwhisper Gulch to activate another waystation, you will need 200 ancient mana.|FLY|OLD|;not active, you dont have the quest yet
+R Ley Station Moonfall|AVAILABLE|43590|M|35.73,24.29|Z|0680; Suramar|N|Run into Ley Station Moonfall to activate another waystation, you will need 200 ancient mana.|
 A Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|From Leyline Feed. (200 Ancient Mana)|
 C Broken Leydar Dish|QID|43590|M|34.91,29.48|Z|0680; Suramar|T|Thudchop Trunksmasher|N|Kill Thudchop Trunksmasher (Ettin) wandering around across the river and loot the Broken Leydar Dish.|
 T Leyline Feed: Ley Station Moonfall|QID|43590|M|53.45,45.23|Z|689|N|To Leyline Feed.|
@@ -410,15 +410,15 @@ K Kill Siegemaster Aedrin|QID|43369|M|37.0,21.2|Z|0680; Suramar|ITEM|140406|T|Si
 C Precious Little Left|QID|40967|M|36.36,16.75|QO|1|NC|N|Up the stairs to find 'Anthology of the Guard' on a table.|
 K Kill Artificer Lothaire|QID|43717|QO|1|M|34.27,15.38|Z|0680; Suramar|ITEM|140372|T|Artificer Lothaire|N|Silver - Up more stairs to kill this rare for treasure and resources. The Trap Rune doesn't affect the Artificer or his companions. Aggro the Artificer and then the Constructs will attack, first one, then two.  Then the Artificer will attack.|RANK|2|RARE|
 C Precious Little Left|QID|40967|M|34.07,17.89|Z|0680; Suramar|QO|3|NC|N|Back down the stairs and 'Aftermath of the Well' is against the wall inside this room.|
-K Kill Commander Domitille|AVAILABLE|40762|M|36.14,18.56|Z|0680; Suramar|ITEM|141672|L|136851|T|Commander Domitille|N|Kill and loot for an optional quest.|RANK|2|
-A Zealot's Dues|QID|40762|M|PLAYER|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
+-- K Kill Commander Domitille|AVAILABLE|40762|M|36.14,18.56|Z|0680; Suramar|ITEM|141672|L|136851|T|Commander Domitille|N|Kill and loot for an optional quest.|RANK|2|
+-- A Zealot's Dues|QID|40762|M|PLAYER|O|U|136851|N|Accepted from Commander Domitille's helm which you just picked up.|
 C Precious Little Left|QID|40967|M|34.80,22.53|Z|0680; Suramar|QO|2|NC|N|'Magical Manifest of the Moon' in on the table in the covered patio.|U|133882|
 C Stop the Spell Seekers|QID|41032|M|36.45,17.00|Z|0680; Suramar|US|NC|N|Finish closing the purple portals.|
 l Recovering Stolen Power|ACTIVE|40968|M|PLAYER|L|133957 10|S|N|Continue killing Nightborne until you have 10 spell focus fragments.|RANK|2|
 T Precious Little Left|QID|40967|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 T Lay Waste, Lay Mines|QID|40965|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 T Stop the Spell Seekers|QID|41032|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
-T Zealot's Dues|QID|40762|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
+-- T Zealot's Dues|QID|40762|M|36.44,22.40|Z|0680; Suramar|N|To Lothrius Mooncaller.|
 A Starweaver's Fate|QID|40969|PRE|40967&40965&41032|M|36.44,22.40|Z|0680; Suramar|N|From Lothrius Mooncaller.|
 T Starweaver's Fate|QID|40969|M|32.20,12.73|Z|0680; Suramar|N|Click on the Elemental Summoners, Follow the summoned elementals, they will wipe out the mobs for you. follow all the way into the room at the top of the stairs (despite the last elemental not going that way). Turn quest in to Syrana Starweaver.|
 A The Orchestrator of Our Demise|QID|40970|PRE|40969|M|32.20,12.73|Z|0680; Suramar|N|From Syrana Starweaver.|
