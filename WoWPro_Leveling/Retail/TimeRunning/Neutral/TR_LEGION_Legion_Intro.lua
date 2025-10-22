@@ -10,7 +10,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 
-
 A Time Crisis|QID|89404|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|From Morazari.|
 C Time Crisis|QID|89404|QO|1|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|Talk to Morazari.|CHAT|
 T Time Crisis|QID|89404|M|67.63,42.48|Z|0627; Dalaran!Broken Isles|N|To Khadgar's mirror image.|
@@ -18,69 +17,72 @@ A Mean Streets of Dalaran|QID|89405|M|67.63,42.48|Z|0627; Dalaran!Broken Isles|N
 C Mean Streets of Dalaran|QID|89405|M|49.84,28.52|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Legion demons purged (100%).|
 T Mean Streets of Dalaran|QID|89405|M|49.42,47.23|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Seal and Protect|QID|89406|PRE|89405|M|49.42,47.23|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
-C Seal and Protect|QID|89406|M|48.66,70.99|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Magical barriers reinforced.|
-C Seal and Protect|QID|89406|M|42.45,28.15|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Talk to Momentus.|
+C Seal and Protect|QID|89406|M|48.66,70.99|Z|0627; Dalaran!Broken Isles|QO|2|H|N|Magical barriers reinforced.|
+C Seal and Protect|QID|89406|M|42.45,28.15|Z|0627; Dalaran!Broken Isles|QO|3|CHAT|N|Talk to Momentus.|
 T Seal and Protect|QID|89406|M|42.53,28.19|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Thrift|QID|89407|PRE|89406|M|42.53,28.19|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
 A Threadbare|QID|89408|PRE|89406|M|42.53,28.19|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
-C Threadbare|QID|89408|M|42.11,37.99|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Frayed Temporal Threads collected.|S|
-C Thrift|QID|89407|M|45.73,25.76|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Bent and Battered Blade.|
-C Thrift|QID|89407|M|40.63,24.07|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Dusty Stone Tablet.|
-C Thrift|QID|89407|M|38.56,40.20|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Curious Curio.|
-C Threadbare|QID|89408|M|42.11,37.99|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Frayed Temporal Threads collected.|US|
+C Threadbare|QID|89408|M|42.11,37.99|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Run through the gold orbs to collect Frayed Temporal Threads.|S|
+C Thrift|QID|89407|M|45.73,25.76|Z|0627; Dalaran!Broken Isles|QO|2|H|N|Pick up weapons crate upstairs in the Blacksmith shop(Tanks for Everything).|
+C Thrift|QID|89407|M|40.63,24.07|Z|0627; Dalaran!Broken Isles|QO|1|H|N|Pick up archeology chest in the shop on the other side of Etern. (Things of the Past).|
+C Thrift|QID|89407|M|38.56,40.20|Z|0627; Dalaran!Broken Isles|QO|3|H|N|Pick up the Curio Lockbox in 'Simply Enchanting'.|
+C Threadbare|QID|89408|M|42.11,37.99|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Keep running through the gold orbs until you have all the Frayed Temporal Threads collected.|US|
 T Thrift|QID|89407|M|42.74,28.51|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 T Threadbare|QID|89408|M|42.74,28.51|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Infinite Bronze|QID|89409|PRE|89407&89408|M|42.74,28.51|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
-C Infinite Bronze|QID|89409|M|44.41,29.48|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Arrived at Tanks for Everything.|
-C Infinite Bronze|QID|89409|M|44.81,29.09|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Anchor materials prepared.|
-C Infinite Bronze|QID|89409|M|45.10,28.91|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Temporal fibers separated.|
-C Infinite Bronze|QID|89409|M|45.42,28.68|Z|0627; Dalaran!Broken Isles|QO|4|NC|N|Anchoring materials infused.|
-C Infinite Bronze|QID|89409|M|45.11,28.69|Z|0627; Dalaran!Broken Isles|QO|5|NC|N|Infinite Bronze forged.|
+C Infinite Bronze|QID|89409|M|44.41,29.48|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Go to Tanks for Everything.|
+C Infinite Bronze|QID|89409|M|44.81,29.09|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Click the Forge to prepare the Anchor materials.|
+C Infinite Bronze|QID|89409|M|45.10,28.91|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Click the Temporal fibers on the anvil to separate them.|
+C Infinite Bronze|QID|89409|M|45.42,28.68|Z|0627; Dalaran!Broken Isles|QO|4|NC|N|Anchoring materials infused at the workbench.|
+C Infinite Bronze|QID|89409|M|45.11,28.69|Z|0627; Dalaran!Broken Isles|QO|5|NC|N|Back to the anvil to forge the Infinite Bronze.|
 T Infinite Bronze|QID|89409|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Something Borrowed|QID|90659|PRE|89409|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
 C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|2|CHAT|N|Speak to Momentus after choosing a talent specialization.|
-C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Artifact Swapped.|
-C Something Borrowed|QID|90659|M|42.15,28.49|Z|0627; Dalaran!Broken Isles|QO|4|NC|N|Purchase the Remix Time trait in your Artifact Weapon.|
+C Something Borrowed|QID|90659|M|42.58,28.24|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Click the portal beside you to swap out your Artifact .|
+C Something Borrowed|QID|90659|M|42.15,28.49|Z|0627; Dalaran!Broken Isles|QO|4|NC|N|Open your character portrait, shift click your artifact and purchase the Remix Time trait.|
 T Something Borrowed|QID|90659|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Get Plenty of Exorcise|QID|89412|PRE|90659|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
-A Scavenger Hunting|QID|89411|PRE|90659|M|42.27,27.94|Z|0627; Dalaran!Broken Isles|N|From Erus.|
 A As A Matter of Artifact|QID|90901|M|42.55,28.17|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
-C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|kill stuff farm infinite power.|S|
-C Scavenger Hunting|QID|89411|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Legion Armor Scraps.|S|
-C Get Plenty of Exorcise|QID|89412|M|48.05,37.41|Z|0627; Dalaran!Broken Isles|QO|1<1|NC|N|Legion Portal Sealed.|
-C Get Plenty of Exorcise|QID|89412|M|53.73,47.27|Z|0627; Dalaran!Broken Isles|QO|1<2|NC|N|Legion Portal Sealed.|
-C Scavenger Hunting|QID|89411|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Legion Armor Scraps.|US|
+A Scavenger Hunting|QID|89411|PRE|90659|M|42.27,27.94|Z|0627; Dalaran!Broken Isles|N|From Erus.|
+C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|1|N|kill stuff farm infinite power.|S|
+C Scavenger Hunting|QID|89411|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|QO|1|N|Kill stuff to loot Legion Armor Scraps.|S|
+C Get Plenty of Exorcise|QID|89412|M|48.05,37.41|Z|0627; Dalaran!Broken Isles|QO|1<1|NC|N|Up to the balcony of Legerdemain Lounge to seal a Legion Portal.|
+C Get Plenty of Exorcise|QID|89412|M|53.73,47.27|Z|0627; Dalaran!Broken Isles|QO|1<2|NC|N|Inside the Violet Gate to seal a second Legion Portal.|
+C Scavenger Hunting|QID|89411|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|QO|1|N|Keep killing stuff until you get some Legion Armor Scraps.|US|
 T Scavenger Hunting|QID|89411|M|42.18,27.95|Z|0627; Dalaran!Broken Isles|N|To Erus.|
 A Obliterate, Then Iterate|QID|89413|PRE|89411|M|42.42,27.99|Z|0627; Dalaran!Broken Isles|N|From Erus.|
 T Get Plenty of Exorcise|QID|89412|M|42.54,28.02|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 C Obliterate, Then Iterate|QID|89413|M|41.72,29.25|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Summon Unraveling Sands (Optional).|
 C Obliterate, Then Iterate|QID|89413|M|41.72,29.25|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Scrap Legion Armor Scraps.|
 T Obliterate, Then Iterate|QID|89413|M|42.06,28.06|Z|0627; Dalaran!Broken Isles|N|To Erus.|
-C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|kill stuff farm infinite power.|S|
+C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|kill stuff farm infinite power.|US|
 C As A Matter of Artifact|QID|90901|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Artifact weapon trait purchased.|
 T As A Matter of Artifact|QID|90901|M|42.61,28.47|Z|0627; Dalaran!Broken Isles|N|To Momentus.|
 A Not A Memento Too Soon|QID|89414|PRE|90901|M|42.61,28.47|Z|0627; Dalaran!Broken Isles|N|From Momentus.|
 T Not A Memento Too Soon|QID|89414|M|49.03,47.29|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Storm the Citadel|QID|89415|PRE|89414|M|49.03,47.29|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
 C Storm the Citadel|QID|89415|M|31.20,48.85|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Enter Violet Citadel (Optional).|
-K Fel Lord Nezmet|ACTIVE|89415|M|31.20,48.85|Z|0627; Dalaran!Broken Isles|QO|2|N|Fel Lord Nezmet slain.|
+K Fel Lord Nezmet|ACTIVE|89415|M|31.20,48.85|Z|0627; Dalaran!Broken Isles|QO|2|N|Slay Fel Lord Nezmet.|
 T Storm the Citadel|QID|89415|M|49.53,48.11|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A Eternal Gratitude|QID|89416|PRE|89415|M|50.81,48.23|Z|0627; Dalaran!Broken Isles|N|From Moratari.|
-C Eternal Gratitude|QID|89416|M|45.64,67.59|Z|619|QO|1|NC|N|Portal used.|
+C Eternal Gratitude|QID|89416|M|45.64,67.59|Z|619|QO|1|NC|N|Use Portal.|
 T Eternal Gratitude|QID|89416|M|45.69,68.49|Z|619|N|To Eternus.|
 A Infinite Meetings|QID|89417|PRE|89416|M|45.69,68.49|Z|619|N|From Eternus.|
-C Infinite Meetings|QID|89417|M|45.79,68.32|Z|619|QO|4|NC|N|Meet Hemet.|
-C Infinite Meetings|QID|89417|M|45.82,68.22|Z|619|QO|3|NC|N|Meet Horos.|
+C Infinite Meetings|QID|89417|M|45.79,68.32|Z|619|QO|4|CHAT|N|Meet Hemet.|
+C Infinite Meetings|QID|89417|M|45.82,68.22|Z|619|QO|3|CHAT|N|Meet Horos.|
 A Just Between Us|QID|91955|PRE|89416|M|45.81,67.97|Z|619|N|From Momentus.|
-C Infinite Meetings|QID|89417|M|45.81,67.97|Z|619|QO|2|NC|N|Meet Momentus, again.|
-C Infinite Meetings|QID|89417|M|45.95,67.92|Z|619|QO|1|NC|N|Meet Nostwin.|
-h Dalaran|QID|91955|M|45.95,67.92|Z|619|N|At Nostwin.|
-C Infinite Meetings|QID|89417|M|45.51,67.84|Z|619|QO|6|NC|N|Meet Pythagorus.|
+C Infinite Meetings|QID|89417|M|45.81,67.97|Z|619|QO|2|CHAT|N|Meet Momentus, again.|
+C Infinite Meetings|QID|89417|M|45.95,67.92|Z|619|QO|1|CHAT|N|Meet Nostwin.|
+h Dalaran|QID|91955|M|45.95,67.92|Z|619|N|At Nostwin.|ACTIVE|89417|
+C Infinite Meetings|QID|89417|M|45.51,67.84|Z|619|QO|6|CHAT|N|Meet Pythagorus.|
 C Infinite Meetings|QID|89417|M|45.47,68.39|Z|619|QO|5|NC|N|Meet Larah.|
 T Infinite Meetings|QID|89417|M|45.66,68.48|Z|619|N|To Eternus.|
 A A Fixed Point in Time|QID|89418|PRE|89417|M|45.66,68.48|Z|619|N|From Eternus.|
 C A Fixed Point in Time|QID|89418|M|73.19,44.05|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Fly with Moratari to Krasus' Landing.|
 T A Fixed Point in Time|QID|89418|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|N|To Moratari.|
+A The Future of the Fel Hammer|QID|90995|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|C|Demon Hunter|N|From Moratari.|
+C The Future of the Fel Hammer|QID|90995|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|N|Pick one, it's really just an RP choice, it's hwo will give you most of your DH quests, but the quests are nearly identical.|
+T The Future of the Fel Hammer|QID|90995|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|N|To Moratari.|
 A Skyriding|QID|90754|PRE|89418|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|N|From Moratari.|
 C Skyriding|QID|90754|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Take Moratari's portal.|
 C Skyriding|QID|90754|M|72.09,41.89|Z|0627; Dalaran!Broken Isles|QO|3|NC|N|Learn your new skyriding mount from your inventory.|
@@ -110,14 +112,7 @@ A Fashionable Flying|QID|80018|PRE|80017|M|65.22,37.25|Z|371|N|From Lord Andestr
 C Fashionable Flying|QID|80018|M|65.07,36.97|Z|371|QO|1|NC|N|Rostrum of Transformation used.|
 T Fashionable Flying|QID|80018|M|65.23,37.21|Z|371|N|To Lord Andestrasz.|
 A Time Flies|QID|90755|PRE|80018|M|65.23,37.21|Z|371|N|From Lord Andestrasz.|
-T Time Flies|QID|90755|M|72.17,42.01|Z|627;Dalaran|N|To Moratari.|
-
-
-
-
-
-
-
+T Time Flies|QID|90755|M|72.17,42.01|Z|627;Dalaran|N|Take the portal back to Dalaran and turn quest in to Moratari.|
 
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|TR_EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|TR_EmmLegionDK|
@@ -131,5 +126,6 @@ D On to Class Halls|N|This ends the intro scenario and the Rogue order hall guid
 D On to Class Halls|N|This ends the intro scenario and the Shaman order hall guide will load.|C|Shaman|GUIDE|TR_EmmLegionShaman|
 D On to Class Halls|N|This ends the intro scenario and the Warlock order hall guide will load.|C|Warlock|GUIDE|TR_EmmLegionWarlock|
 D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|TR_EmmLegionWarrior|
+D On to Class Halls|N|This ends the intro scenario and the Evoker order hall guide will load.|C|Evoker|GUIDE|TR_CagLegionEvoker|
 ]]
 end)
