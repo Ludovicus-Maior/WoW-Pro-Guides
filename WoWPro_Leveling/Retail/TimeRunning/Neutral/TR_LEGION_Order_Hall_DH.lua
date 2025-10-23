@@ -373,7 +373,7 @@ T Establishing a Connection|QID|41807|M|74.44,51.29|Z|0627; Dalaran!Broken Isles
 A Vengeance Will Be Ours|QID|40249^41863|PRE|41807|M|75.00,49.03|Z|0627; Dalaran!Broken Isles|N|From Kayn Sunfury or Altruis the Sufferer.|
 C Fel Bat Flight|QID|40249^41863|M|75.26,47.63|Z|0627; Dalaran!Broken Isles|QO|1|V|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
 C Picking Up the Pieces|ACTIVE|40249^41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1|H|N|Free Allari from her chains.|
-C Their Blood Will Flow|ACTIVE|40249^41863|M|16.07,56.08|CS|17.56,57.32|Z|BrokenShorePaladin|SO|2|H|N|Destroy the Legion Portal, and then do it again.|
+C Their Blood Will Flow|ACTIVE|40249^41863|M|16.07,56.08;17.56,57.32|CS|Z|BrokenShorePaladin|SO|2|H|N|Destroy the Legion Portal, and then do it again.|
 C A River of Souls|ACTIVE|40249^41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
 K Gorgonnash.|ACTIVE|40249^41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4|N|Destroy Gorgonnash.|
 C Nowhere to Hide|ACTIVE|40249^41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5|NC|N|Use Spectral Sight to pickup Caria's trail. The click on the wall.|
