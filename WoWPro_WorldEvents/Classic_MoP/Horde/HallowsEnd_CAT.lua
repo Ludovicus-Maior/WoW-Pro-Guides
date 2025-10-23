@@ -10,7 +10,7 @@ U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.|U|37586|S!US|O| ; 
 ; ** Deepholm
 R Deepholm portal|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|
 A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of Earth|
-R Orgrimmar|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
+R Orgrimmar|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
 
 R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mr. Hyjal.|
 A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)

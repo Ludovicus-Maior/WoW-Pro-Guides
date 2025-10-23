@@ -10,7 +10,7 @@ N Wall of Text Part 2 of 2|QID|12388|N|Also to note, you can get multiples of th
 
 N This guide starts|QID|12388|N|in Orgrimmar, so if you are in the Eastern Kingdoms, take the blimp and transport to Orgrimmar.|
 
-R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
+R Blasted Lands|M|44.73,68.01|Z|Cleft of Shadow0!Instance|N|Take the portal to the Blasted Lands in the Cleft of Shadow|
 R Hellfire Peninsula|N|Run thru the Dark Portal|M|54.95,54.02|Z|Blasted Lands|
 F Thrallmar|M|87.34,48.13|QID|12388|Z|Hellfire Peninsula|N|Fly to Thrallmar, Hellfire Peninsula.|
 A Candy Bucket|QID|12388|M|56.80,37.45|Z|Hellfire Peninsula|N|Floyd Pinkus, Thrallmar|

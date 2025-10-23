@@ -50,10 +50,10 @@ A Candy Bucket|QID|13548|M|37.1,49.6|Z|The Storm Peaks|N|Peon Gakra, Grom'arsh C
 F Bouldercrag's Refuge|M|36.2,49.2|QID|13462|Z|The Storm Peaks|U|37586|N|Fly to Bouldercrag's Refuge.|
 A Candy Bucket|QID|13462|M|30.93,37.15|Z|The Storm Peaks|N|From the Candy Bucket. (The Storm Peaks, Bouldercrag's Refuge)|
 F Dalaran|M|30.6,36.4|QID|13463|Z|The Storm Peaks|N|Fly to Dalaran.|
-A Candy Bucket|QID|13463|M|48.19,41.25|Z|Dalaran|N|Amisi Azuregaze, The Legerdemain Lounge)|
-A Candy Bucket|QID|13474|M|66.6,30.1|Z|Dalaran|N|Uda the Beast, Sunreaver's Sanctuary|
-A Candy Bucket|QID|13472|M|38.26,59.5|Z|The Underbelly|U|37586|N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
-F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran|N|Fly to Nessingwary Base Camp, Sholazar Basin.|
+A Candy Bucket|QID|13463|M|48.19,41.25|Z|Dalaran City@Dalaran!Northrend|N|Amisi Azuregaze, The Legerdemain Lounge)|
+A Candy Bucket|QID|13474|M|66.6,30.1|Z|Dalaran City@Dalaran!Northrend|N|Uda the Beast, Sunreaver's Sanctuary|
+A Candy Bucket|QID|13472|M|38.26,59.5|Z|The Underbelly@Dalaran!Crystalsong Forest|U|37586|N|Head down into the Underbelly from the entrance next to the stairs of the Silver Enclave. From the Candy Bucket. (Dalaran, The Underbelly)|
+F Nessingwary Base Camp|M|72.8,45.6|QID|12950|Z|Dalaran City@Dalaran!Northrend|N|Fly to Nessingwary Base Camp, Sholazar Basin.|
 A Candy Bucket|QID|12950|M|26.7,59.2|Z|Sholazar Basin|N|Purser Boulian, Nessingwary Base Camp|
 
 ]]
