@@ -1,3 +1,14 @@
+# Release 2025.10.23.A
+## Bug Fixes
+* Update Vanilla Interface to 11508
+## Guide Updates
+* MOP Leveling: Horde Swamp of Sorrows, Neutral Searing Gorge
+* MOP World Events: Hallows End
+* Retail Leveling Alliance: Exiles Reach
+* Retail Leveling Neutral: DF Waking Shores, Paladin Order Hall
+* Timerunning: Pretty much every guide has fixes.
+
+
 # Release 2025.10.10.A
 ## Bug Fixes
 * Disable TomTom/Carbonite warning after acknowledgement (Thanks Hendo)
