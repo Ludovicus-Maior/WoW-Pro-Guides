@@ -39,7 +39,7 @@ A Shopping Around|QID|29399|M|61.19,70.84|N|From Auctioneer Finch.|Z|Stormwind C
 C Shopping Around|QID|29399|M|63.62,47.42|N|Search the Shady Lady. Takes a while.|Z|Stormwind City|
 T Shopping Around|QID|29399|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 A Taking Precautions|QID|29402|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
-C Taking Precautions|QID|29402|QO|Blood Nettle: 5/5|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
+C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
 C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|Z|Stormwind City|
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
