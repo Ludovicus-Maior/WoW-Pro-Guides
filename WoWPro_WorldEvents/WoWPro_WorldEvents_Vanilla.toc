@@ -1,4 +1,4 @@
-## Interface: 11507
+## Interface: 11508
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -12,6 +12,3 @@ WoWPro_WorldEvents.lua
 WoWPro_WorldEvents_Parser.lua
 WoWPro_WorldEvents_Config.lua
 WoWPro_WorldEvents_GuideList.lua
-Vanilla\Alliance\Guides.xml
-Vanilla\Horde\Guides.xml
-Vanilla\Neutral\Guides.xml
