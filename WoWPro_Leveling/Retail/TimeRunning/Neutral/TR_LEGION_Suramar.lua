@@ -811,7 +811,7 @@ P Felsoul Command|ACTIVE|40412|M|33.08,75.14|Z|0680; Suramar|N|Take the portal b
 T Azoran Must Die|QID|40412|M|31.15,84.61|Z|0680; Suramar|N|To Lyana Darksorrow.|
 H Shal'Aran|QID|42366|ACTIVE|42366|M|36.87,46.60|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
-N END OF SURAMAR|N|For now.  The rest of this is for after the Phase 2 releases Oct 21, 2025.|
+
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|Z|0680; Suramar|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|Z|0680; Suramar|N|From Keelay Moongrow|RANK|2|
 R Meredil|ACTIVE|41107|M|34.39,49.95|Z|0680; Suramar|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
@@ -958,15 +958,15 @@ T Friends With Benefits|QID|44053|M|36.56,46.77|Z|0680; Suramar|N|To First Arcan
 ; N Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|Z|0680; Suramar|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 ; N Beware the Fury of a Patient Elf|QID|43314|PRE|44053^43313|M|36.56,46.77|Z|0680; Suramar|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 ; N Long Buried Knowledge|QID|42491|PRE|44053^43313|M|37.02,46.21|Z|0680; Suramar|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
-t The Arcway: Opening the Arcway|QID|42490|M|36.50,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
-t The Arcway: Long Buried Knowledge|QID|42491|M|36.50,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
+t The Arcway: Opening the Arcway|QID|42490|M|36.50,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.
+t The Arcway: Long Buried Knowledge|QID|42491|M|37.05,46.23|Z|0680; Suramar|N|To First Arcanist Valtrois.\n If you have completed Arluin's Request this can instead be handed in to First Arcanist Thalyssra.|
 
 
 ; Good Suramaritan - A Growing Crisis Story Arc
 t Growing Strong|QID|44562|M|36.54,46.77|Z|0680; Suramar|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
 A A Growing Crisis|QID|44152|PRE|43318|M|36.54,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
-P Temple of Fal'adora|ACTIVE|44152|M|35.94,45.55|Z|0680; Suramar|N|Take the Portal to Falanaar.|
+P Falanaar|ACTIVE|44152|M|35.94,45.55|Z|0680; Suramar|N|Take the Portal to Falanaar.|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|684|N|To Valewalker Farodin.|
 A Fragments of Disaster|QID|43361|PRE|44152|M|42.38,15.05|Z|684|N|From Valewalker Farodin.|
 A The Shardmaidens|QID|43360|PRE|44152|M|42.38,15.05|Z|684|N|From Valewalker Farodin.|
@@ -980,10 +980,10 @@ P Shal'Aran|ACTIVE|44156|M|40.90,13.72|Z|684|N|Take the portal back to Shal'Aran
 T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|Z|0680; Suramar|N|To Valewalker Farodin.|
 A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
 T Branch of the Arcan'dor|QID|40125|M|36.53,46.77|Z|0680; Suramar|NA|N|To First Arcanist Thalyssra.|
-A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From Valewalker Farodin.\nThis quest requires running a Raid 'The Emerald Nightmare'\nCan complete using LFR - Rift of Aln.|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - LFR Rift of Aln|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|2|NA|NC|N|Purified Life Essence LFR Rift of Aln, After leaving the dream, near Cenarius|
-T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|NA|N|To Valewalker Farodin.|
+A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From Valewalker Farodin.\n|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - Take the portal behind you - defeat image of xavious|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|2|NA|NC|N|Head to the quest marker ands loot the Purified Life Essence|
+T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|NA|N|To Valewalker Farodin. Take the nearby portal to return.|
 A A Change of Seasons|QID|43502|PRE|43362&43318|M|36.84,46.56|Z|0680; Suramar|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|Z|0680; Suramar|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|Z|0680; Suramar|N|From Arcanist Valtrois|
@@ -1035,15 +1035,15 @@ T Arluin's Request|QID|43569|M|48.24,66.84|Z|0680; Suramar|N|To Arluelle.|
 H Shal'Aran|AVAILABLE|45260|PRE|43569|M|36.51,46.80|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 
 ; Insurrection - Lockdown Storyline Quests
-A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
-T Insurrection|QID|45271|M|36.51,46.80|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
+;A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).| This does not seem to be available in Remix.
+;T Insurrection|QID|45271|M|36.51,46.80|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|Z|0680; Suramar|N|From First Arcanist Thalyssra.\n*Bread Crumb Quest: Check your Adventurer's Journal*|
 C One Day at a Time|QID|45260|M|37.90,45.65|Z|0680; Suramar|QO|1|NC|U|143597|N|Click on a Suramar Refugee.|
 T One Day at a Time|QID|45260|M|36.50,46.75|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A Silence in the City|QID|38649|PRE|45260|M|36.50,46.75|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
 T Silence in the City|QID|38649|M|36.59,45.08|Z|0680; Suramar|N|To Chief Telemancer Oculeth.|
 A Crackdown|QID|38695|PRE|38649|M|36.59,45.08|Z|0680; Suramar|N|From Chief Telemancer Oculeth.|
-C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|Z|0680; Suramar|CS|QO|1|NC|N|Step on the pad, to get Oculeth to teleport you.|
+C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|Z|0680; Suramar|CS|QO|1|NC|N|Step on the pad, to get Oculeth to teleport you. \n If he just stands there looking at you step away from the pad and back on.|
 C Crackdown|QID|38695|M|47.65,81.32|Z|0680; Suramar|QO|2|NC|N|Examine the Broken Telemancy Beacon. Watch out for seeing Demon.|
 C Crackdown|QID|38695|M|48.39,83.59|Z|0680; Suramar|QO|3|NC|N|Search the Waning Crescent.|
 C Crackdown|QID|38695|M|47.91,82.92|Z|0680; Suramar|QO|4|NC|N|Reunite with Silgryn.|
