@@ -406,6 +406,17 @@ J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you w
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|TR_EmmHighmountain|
 J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
 
+; Lights heart pt 2
+A The Hunt for Illidan Stormrage|QID|45174|PRE|44481|M|51.79,70.00|N|From Light's Heart.|
+P Dalaran|QID|45174|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45174|
+T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
+A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
+A Trial of Valor: The Once and Future Lord of Shadows|QID|45176|PRE|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. This is a Raid Quest.|
+t Trial of Valor: The Once and Future Lord of Shadows|QID|45176|PRE|45175|M|43.28,43.16|N|To Light's Heart in your order hall.|
+A The Nighthold|QID|45177|PRE|45176|M|51.79,70.00|N|From Light's Heart in your order hall. This is a Raid quest.|
+t The Nighthold|QID|45176|PRE|45176|M|28.80,48.40|Z|Dalaran@Dalaran70|N|To Khadgar.|
+
 ; added 3/14/2017
 A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Maxwell Tyrosus.|
 C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|

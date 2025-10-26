@@ -1040,10 +1040,10 @@ P Shal'Aran|ACTIVE|44156|M|40.90,13.72|Z|684|N|Take the portal back to Shal'Aran
 T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|Z|680|N|To Valewalker Farodin.|
 A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|Z|680|N|From First Arcanist Thalyssra.|
 T Branch of the Arcan'dor|QID|40125|M|36.53,46.77|Z|680|NA|N|To First Arcanist Thalyssra.|
-A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|680|N|From Valewalker Farodin.\nThis quest requires running a Raid 'The Emerald Nightmare'\nCan complete using LFR - Rift of Aln.|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|QO|1|NA|N|Xavius slain - LFR Rift of Aln|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|QO|2|NA|NC|N|Purified Life Essence LFR Rift of Aln, After leaving the dream, near Cenarius|
-T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|NA|N|To Valewalker Farodin.|
+A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|680|N|From Valewalker Farodin.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|QO|1|NA|N|Xavius slain Take the portal behind you - defeat image of Xavius.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|QO|2|NA|NC|N|Head to the quest marker ands loot the Purified Life Essence.|
+T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|680|NA|N|To Valewalker Farodin. Take the nearby portal to return.|
 A A Change of Seasons|QID|43502|PRE|43362&43318|M|36.84,46.56|Z|680|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|Z|680|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|Z|680|N|From Arcanist Valtrois|
@@ -1106,7 +1106,7 @@ T One Day at a Time|QID|45260|M|36.50,46.75|Z|680|N|To First Arcanist Thalyssra.
 A Silence in the City|QID|38649|PRE|45260|M|36.50,46.75|Z|680|N|From First Arcanist Thalyssra.|
 T Silence in the City|QID|38649|M|36.59,45.08|Z|680|N|To Chief Telemancer Oculeth.|
 A Crackdown|QID|38695|PRE|38649|M|36.59,45.08|Z|680|N|From Chief Telemancer Oculeth.|
-C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|Z|680|CS|QO|1|NC|N|Step on the pad, to get Oculeth to teleport you.|
+C Crackdown|QID|38695|M|36.49,44.75;46.05,79.85|Z|680|CS|QO|1|NC|N|Step on the pad, to get Oculeth to teleport you.\n If he just stands there looking at you step away from the pad and back on.|
 C Crackdown|QID|38695|M|47.65,81.32|Z|680|QO|2|NC|N|Examine the Broken Telemancy Beacon. Watch out for seeing Demon.|
 C Crackdown|QID|38695|M|48.39,83.59|Z|680|QO|3|NC|N|Search the Waning Crescent.|
 C Crackdown|QID|38695|M|47.91,82.92|Z|680|QO|4|NC|N|Reunite with Silgryn.|
