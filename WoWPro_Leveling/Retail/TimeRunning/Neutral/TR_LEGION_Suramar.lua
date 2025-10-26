@@ -980,9 +980,9 @@ P Shal'Aran|ACTIVE|44156|M|40.90,13.72|Z|684|N|Take the portal back to Shal'Aran
 T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|Z|0680; Suramar|N|To Valewalker Farodin.|
 A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
 T Branch of the Arcan'dor|QID|40125|M|36.53,46.77|Z|0680; Suramar|NA|N|To First Arcanist Thalyssra.|
-A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From Valewalker Farodin.\n|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - Take the portal behind you - defeat image of xavious|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|2|NA|NC|N|Head to the quest marker ands loot the Purified Life Essence|
+A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - Take the portal behind you - defeat image of Xavius.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|2|NA|NC|N|Head to the quest marker ands loot the Purified Life Essence.|
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|NA|N|To Valewalker Farodin. Take the nearby portal to return.|
 A A Change of Seasons|QID|43502|PRE|43362&43318|M|36.84,46.56|Z|0680; Suramar|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|Z|0680; Suramar|N|To Arcanist Valtrois|
