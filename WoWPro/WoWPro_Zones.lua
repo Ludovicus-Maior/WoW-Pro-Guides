@@ -301,7 +301,7 @@ local MapType2Name = {
 
 function WoWPro.EmitZones(release)
     local result = ""
-    for id = 1, 2500 do
+    for id = 1, 3000 do
 		local info = wip_map_info[id]
         local temp
         if info then
