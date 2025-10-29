@@ -92,7 +92,7 @@ A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo
 C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
 C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
 T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
-K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RARE|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
 t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
 C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
@@ -156,30 +156,29 @@ T Green Adepts|QID|42808|M|57.59,52.31|Z|0720; Upper Command Center@Mardum, the 
 
 ; LVL 45 Quests, or part thereof... perhaps will be lvl 30 tho ... quest log says to return at 30
 A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
-C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+C Goddess Watch Over You|QID|44338^44338|S!US|N|You need to do the main Val'sharah quest line to complete this quest.|
 t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|40890|LVL|45|
-R Illidari Gateway|ACTIVE|44448|M|97.18,68.28|Z|0627; Dalaran!Broken Isles|N|Return to your order hall.|
-C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
+C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, (in your order hall). Do anything else you need to do in your order hall, because the cut scene when you click on Lights' Heart, ends with you in Dalaran.|
 ;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|LVL|45|
 ;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|Right-click on the Obliterum Forge and drag Archmage Karlain's Imbued Silkweave Robe from your bags to the window that opens. Click on 'Obliterate' to collect the ashes.|NC||
 ;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
 t In the House of Light and Shadow|QID|44448|M|28.51,48.29|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 ;lights heart - post 45
-A Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart|PRE|44448|
-F Lorlathil|QID|44464|M|25.73,28.78|N|At Grimwing.|ACTIVE|44464|
+A Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart (still in your order hall)|PRE|44448|
+F Lorlathil|ACTIVE|44464|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
 C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart back in your order hall.|
+T Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart back in your order hall.|IZ|720|
 ;lights heart - post 45,requires AK>=2
 A An Unclear Path|QID|44466|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart, Requires Infinate Knowledge >=2. This will show in the guide before it is available in game, go do other stuff and check on it later.|PRE|44464|;no way to limit this showing until you get AK=2
-F Garden of the Moon|ACTIVE|44466|N|***Aladune***|
+F Garden of the Moon|ACTIVE|44466|M|69.92,51.10|Z|0627; Dalaran!Broken Isles|N|Back to Dalaran and then fly to Garden of the Moon.|
 R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
 C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan and Cenarius.|
 T An Unclear Path|QID|44466|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart, back in your order hall.|
 A Ravencrest's Legacy|QID|44479|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart.|PRE|44466|
-F Garden of the Moon|ACTIVE|44479|N|***Aladune***|
+F Garden of the Moon|ACTIVE|44479|M|69.92,51.10|Z|0627; Dalaran!Broken Isles|N|Back to Dalaran and then fly to Garden of the Moon.|
 R Black Rook Hold|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|0641;Val'sharah|N|Travel to Black Rook Hold.|
-C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path.|
+C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path. (Check off manually)|
 C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
 C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|
 C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|0793; Black Rook Hold!Instance|N|Rt Click to autoattack the infernals and then Xalian Felblaze. After a bit, you will a button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
@@ -203,14 +202,14 @@ R Temple of Zin-Malor|QID|44480|M|35.1,49.9|Z|Azshara|U|249230|N|Use provided sc
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your [color=33fff9] Extra Action Button [/color] to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481^44496^44497|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart.|PRE|44480|
-P Black Temple|ACTIVE|44481^44496^44497|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley.|IZ|759|
+P Black Temple|ACTIVE|44481^44496^44497|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley.|IZ|720|
 C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to see Illidan's side of the Black Temple Raid.|
 T Destiny Unfulfilled|QID|44481^44496^44497|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Return to Light's Heart in your order hall.|
 A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496^44497|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge.|
-F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|ACTIVE|45174|
+F Illidari Stand|QID|45174|M|69.97,51.10|Z|0627; Dalaran!Broken Isles|N|Take a flight or head to Azuna on your own.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
-t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|;guessing on turn in
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater still at Illidari Stand in Azuna|
 A The Power Within|QID|43496|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
 F Azurewing Repose|ACTIVE|43496|M|25.55,28.86|N|At Grimwing.|
 T The Power Within|QID|43496|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
@@ -221,20 +220,20 @@ C Working With the Wardens|QID|42731|M|58.12,54.02|Z|0720; Upper Command Center@
 A You Will Be Prepared!|LVL|45|QID|44213|M|57.80,43.56|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Falara Nightsong.|
 T You Will Be Prepared!|QID|44213|M|57.80,43.56|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Falara Nightsong.|
 A Deal With It Personally|LVL|45|QID|42787|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Belath Dawnblade.|
-P Illidari Gateway|ACTIVE|42787|M|59.23,91.53|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|TZ|Krasus' Landing|N|Take the Portal back to Dalaran.|
+P Illidari Gateway|ACTIVE|42787|M|59.23,91.53|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|TZ|Krasus' Landing|N|Take the Portal back to Dalaran.|IZ|720|
 F Skyhorn|ACTIVE|42787|N|Fly to Skyhorn|TAXI|Skyhorn|
 F Thunder Totem|ACTIVE|42787|N|Fly to Thunder Totem.|TAXI|-Skyhorn|
 R Skyhorn|ACTIVE|42787|M|55.50,50.79|N|Follow the signs to Skyhorn.|TAXI|-Skyhorn|
 f Skyhorn|ACTIVE|42787|M|52.58,45.21|Z|Highmountain|N|Make your way closer to the village and get the Skyhorn FP from Farah Skybeak.|TAXI|-Skyhorn|
 R Candle Rock|ACTIVE|42787|M|55.16,44.37|Z|Highmountain|N|Make your way down to the cave entrance and go inside.|
 K Devouring Darkness|ACTIVE|42787|QO|1|M|54.4,41.2|Z|Highmountain|N|Extinguish the flames of all of the kobold candles to summon forth the Devouring Darkness.|
-F Lorna's Watch|ACTIVE|42787|M|52.58,45.21|Z|Highmountain|N|Make your way out and back to Skyhorn. Fly to Lorna's Watch.|
+F Crimson Thicket|ACTIVE|42787|M|52.58,45.21|Z|Highmountain|N|Make your way out and back to Skyhorn. Fly to Crimson Thicket.|
 K Hertha Grimdottir|ACTIVE|42787|QO|2|M|61.4,39.6|Z|Suramar|
-F Bradensbrook|ACTIVE|42787|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Bradensbrook.|
+F Bradensbrook|ACTIVE|42787|M|64.32,41.94|Z|0680; Suramar|N|Head back to Crimson Thicket and fly to Bradensbrook.|
 R Heroes' Rest|ACTIVE|42787|M|38.31,57.09|Z|Val'sharah|N|Follow the road to Heroes' Rest.
 K Theryssia|ACTIVE|42787|QO|3|M|38.0,52.8|Z|Val'sharah|N|Make your way up the hill to the cemetary and click on the tombstone to summon Theryssia.|
 H Dalaran|ACTIVE|42787|U|140192|N|Hearth back to Dalaran.|
-R Illidari Gateway|ACTIVE|42787|M|97.18,68.28|Z|0627; Dalaran!Broken Isles|TZ|The Fel Hammer|N|Return to your order hall.|
+R Illidari Gateway|ACTIVE|42787|M|97.18,68.28|Z|0627; Dalaran!Broken Isles|TZ|The Fel Hammer|N|Return to your order hall.|IZ|627|
 
 T Deal With It Personally|QID|42787|PRE|44213|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Belath Dawnblade.|
 A Malace in Vrykul Land|QID|42735|PRE|42787|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Belath Dawnblade.|
@@ -253,19 +252,21 @@ R Rollo's Hideout|ACTIVE|42737|QO|1|M|71.37,39.00|Z|Stormheim|CS|N|Mount up and 
 K Runeskeld Rollo|ACTIVE|42737|QO|1|M|71.2,38.2|Z|Stormheim|N|Take his rune.|T|Runeskeld Rollo|
 R Tideskorn Harbor|ACTIVE|42737|M|63.19,48.89|Z|Stormheim|N|Mount up and head to Floki's House.
 K Runesage Floki|ACTIVE|42739|QO|1|M|60.8,46.0|Z|Stormheim|N|Kill Floki and loot his rune.|T|Runesage Floki|
-F Lorna's Watch|ACTIVE|42738|M|60.73,50.86|Z|Stormheim|N|Make your way to Valdisdall and fly to Lorna's Watch.|
+F Lorna's Watch|ACTIVE|42738|M|60.73,50.86|Z|Stormheim|N|Make your way to Valdisdall and fly to Lorna's Watch.|FACTION|ALLIANCE|
+F Cullen's Post|ACTIVE|42738|M|44.89,59.12|Z|0634; Stormheim!Broken Isles|N|Make your way to Valdisdall and fly to Cullen's Post.|FACTION|HORDE|
 K Runelord Ragnar|ACTIVE|42738|QO|2|M|45.6,69.2|Z|Stormheim|N|Make your way to Ragnar's place in Hrydshal. Kill him and loot his rune.\n[color=FF0000]NOTE: [/color]Use the Grappling Hooks to move around the city easier.|T|Runelord Ragnar|
-F Valdisdall|ACTIVE|42736|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Valdisdall.|
-T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.92,59.12|Z|Stormheim|N|From Rollo's Runestone|
-T Rune Ruination: Runelord Ragnar|QID|42738|M|64.82,58.92|Z|Stormheim|N|From Ragnar's Runestone|
-T Rune Ruination: Runesage Floki|QID|42739|M|65.00,58.90|Z|Stormheim|N|From Floki's Runestone|
+F Valdisdall|ACTIVE|42736|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Valdisdall.|FACTION|ALLIANCE|
+F Valdisdall|ACTIVE|42736|M|44.89,59.12|Z|0634; Stormheim!Broken Isles|N|Head back to Cullen's Post and fly to Valdisdall.|FACTION|HORDE|
+T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.92,59.12|Z|Stormheim|N|To Rollo's Runestone|
+T Rune Ruination: Runelord Ragnar|QID|42738|M|64.82,58.92|Z|Stormheim|N|To Ragnar's Runestone|
+T Rune Ruination: Runesage Floki|QID|42739|M|65.00,58.90|Z|Stormheim|N|To Floki's Runestone|
 T Rune Ruination|QID|42736|M|64.88,58.96|Z|Stormheim|N|From Malace Shade|
 A Strange Bedfellows|QID|42749|PRE|42736|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
 C Malace Shade|QID|42749|QO|1|M|66.4,63.7|Z|Stormheim|CHAT|N|Meet Malace at the end of the bridge to the Halls of Valor.\nAsk her to Taunt Lochaber|
 K Lochaber|ACTIVE|42749|QO|2|M|66.4,63.8|Z|Stormheim|N|Slay Lochaber|
 T Strange Bedfellows|QID|42749|N|\n[color=FF0000]NOTE: [/color]You have to manually turn in this quest through your quest log book.|
 A Vault of the Wardens: Vault Break-In|QID|42752^42753|PRE|42749|N|From the UI.|
-C Sargerite Keystone|QID|42752^42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|
+C Sargerite Keystone|QID|42752^42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|S!US|
 T Vault of the Wardens: Vault Break-In|QID|42752^42753|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Belath Dawnblade.|
 A The Crux of the Plan|QID|42775|PRE|42752^42753|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Belath Dawnblade.|
 C Sargerite Keystone|QID|42775|QO|1|M|58.12,54.02|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Go the command table and click on the key above.|
@@ -275,53 +276,45 @@ C Belath Dawnblade|QID|42776|QO|1|M|57.60,52.21|Z|0720; Upper Command Center@Mar
 C Malevolence|QID|42776|QO|2|M|59.90,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|CHAT|N|Recruit Matron Mother Malevolence.|
 T Two Worthies|QID|42776|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Allari the Souleater, downstairs.|
 A Preparations for Invasion|QID|42669|PRE|42776|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Allari the Souleater, downstairs.|
-A One Battle at a Time|QID|44694|PRE|42776|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
-C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|S|
+A One Battle at a Time|QID|44694|PRE|42776|M|59.15,75.33|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
+C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests.|S|
 C Missions|QID|42669|M|58.12,54.02|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Go the command table and do the 5 "Preparations for Invasion" missions.\nThey take an hour each.|
 C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|US|
 T Preparations for Invasion|QID|42669|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Allari the Souleater, downstairs.|
-T One Battle at a Time|QID|44694|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Allari the Souleater, downstairs.|
-A Deadlier Warglaives|QID|42732|PRE|42669&44694|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Allari the Souleater, downstairs.|
+t One Battle at a Time|QID|44694|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Allari the Souleater, downstairs.|
+;A Deadlier Warglaives|QID|42732|PRE|42669&44694|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Allari the Souleater, downstairs.|;quest deprecated per wowhead
 A A Very Special Kind of Fuel|QID|42733|PRE|42669&44694|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Allari the Souleater, downstairs.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|S|
 C Obliterum|QID|42732|QO|1|N|Collect 1 Obliterum, which can be obtained either the Forge of Fate in Dalaran or from the Auction House.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|US|
 T Deadlier Warglaives|QID|42732|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
 T A Very Special Kind of Fuel|QID|42733|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
-A Jump-Capable|QID|42754|PRE|42732&42733|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
-P Portal in Felsoul Hold|ACTIVE|42754|QO|1|M|31.4,83.6;26.8,49.1|Z|0630; Azsuna!Broken Isles|CS|N|Head to this building in Felsoul Hold and take the portal inside.|
-C Fel Engine Ignition|QID|42754|QO|2|M|28.5,52.2|Z|0630; Azsuna!Broken Isles|N|Run downstairs and find Inquisitor Tivos. The item is behind his altar.|
-C Vile Spirit Converter|QID|42754|QO|3|M|32.5,53.8|Z|0630; Azsuna!Broken Isles|N|Head outside and to the "Soul Engine: Apocalypse" building.  The item is near the central reactor.|
-P Portal at Faronaar|ACTIVE|42754|QO|4|M|31.3,84.0|Z|Suramar|N|Head to Suramar and take the portal in the building.|
-C Fel Engine Injector|QID|42754|QO|5|M|33.7,73.5|Z|Suramar|N|Head to the North-east chamber and get your Injector.|
-C Soul Configuration Matrix|QID|42754|QO|6|M|34.7,67.7|Z|Suramar|N|Head out and go to the central reactor to get your Matrix.|
-T Jump-Capable|QID|42754|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
-A A Final Offer|QID|42810|PRE|42754|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
-C Fel Hammer Balcony|QID|42810|QO|1|M|59.20,83.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Go the South balcony upstairs.|
-C The Offer|QID|42810|QO|2|M|59.20,83.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Click on the extra action button to reject his offer.|
-T A Final Offer|QID|42810|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
-A The Invasion of Niskara|QID|42809^42920|PRE|42810|M|59.00,72.10|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
-C The Invasion of Niskara|QID|42920|M|58.96,66.12|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|QO|1|N|Go upstairs to activate the control console|
-C The Invasion of Niskara|QID|42920|M|27.41,41.79|Z|Niskara|QO|2|N|Jump to Niskara|
-C Commence Bombardment!|ACTIVE|42920|M|33.30,40.00|Z|Niskara|SO|1|N|Man the artillery console and use the Fel Hammer's batteries to lay waste to the Legion forces below.|
-C Demon slain|ACTIVE|42920|M|37.12,52.65|Z|Niskara|SO|1;1|N|Demon slain|
-C Glide Down to the Rendezvous|ACTIVE|42920|M|33.53,42.12;49.70,46.00|CC|Z|Niskara|SO|2|N|Speak with Kayn Sunfury to deploy your forces and then use your Glide ability to get down to the rendezvous point below.|
-C Fel Cannon destroyed|ACTIVE|42920|M|37.12,52.65|Z|Niskara|SO|1;2|N|Fel Cannon destroyed|
-N Apologies|ACTIVE|42920|N|The coordinates for the next few steps have been messsed up in BFA.  We will send a DH down soon to correct them. Click to continue.|
-C Control Console activated|QID|42920|M|49.50,46.20|Z|Niskara|QO|1|N|Use your Doublejump ability to glide down to the rendezvous point|
-C Jump to Niskara|QID|42920|M|49.50,46.20|Z|Niskara|QO|2|N|Use your Doublejump ability to glide down to the rendezvous point|
-C Caria Felsoul slain|QID|42920|M|49.50,46.20|Z|Niskara|QO|5|N|Use your Doublejump ability to glide down to the rendezvous point|
-C Varedis Felsoul slain|QID|42920|M|49.50,46.20|Z|Niskara|QO|6|N|Use your Doublejump ability to glide down to the rendezvous point|
-C Speak with Kayn and then Glide down to the rendezvous|ACTIVE|42920|M|49.51,46.21|Z|Niskara|SO|2;1|N|Speak with Kayn and then Glide down to the rendezvous|
-C Otherworld Portals destroyed|ACTIVE|42920|M|51.76,55.27; 56.27,55.74;58.77,67.95;60.00,55.00;66.55,52.70|CC|Z|Niskara|SO|3|S|N|Otherworld Portals destroyed|
-C Carnivore slain|ACTIVE|42920|M|54.08,52.25|Z|Niskara|SO|3;2|N|Carnivore slain|
-C The Overseer slain|ACTIVE|42920|M|56.44,64.12|Z|Niskara|SO|3;3|N|The Overseer slain|
-C Soulchaser slain|ACTIVE|42920|M|62.38,60.20|Z|Niskara|SO|3;4|N|Soulchaser slain|
-C Otherworld Portals destroyed|ACTIVE|42920|M|51.76,55.27;56.27,55.74;58.77,67.95;60.00,55.00;66.55,52.70|CC|Z|Niskara|SO|3|US|N|Otherworld Portals destroyed|
-C Regroup In Front of the Command Center|ACTIVE|42920|M|69.20,67.50|Z|Niskara|SO|4|N|Speak with Kayn in front of the command center where Caria and Varedis are protected behind a Fel Barrier.|
-C Fel Hammer, Fire!|ACTIVE|42920|Z|Niskara|SO|5|N|Order the Fel Hammer to move into position and fire upon the other command center. This will bring down the Fel Barrier and allow entry.|
-C Caria and Varedis At Last|ACTIVE|42920|M|73.14,77.07|Z|Niskara|SO|6|N|Kill Caria and Varedis Felsoul.|
-C Malevolence, Get Us Out of Here!|ACTIVE|42920|M|73.03,77.86|Z|Niskara|SO|7|N|Speak with Kayn Sunfury|
+A Jump-Capable|QID|42754|PRE|42733|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
+P The Soulrender|ACTIVE|42754|QO|4|M|26.8,49.1|Z|0630; Azsuna!Broken Isles|CS|N|Head to the Pits of Despair in Azuna, and take the portal up to the Soulrender.|
+C Fel Engine Ignition|QID|42754|QO|5|M|28.5,52.2|Z|0630; Azsuna!Broken Isles|H|N|Run downstairs and find Inquisitor Tivos. The item is above his altar.|
+C Vile Spirit Converter|QID|42754|QO|6|M|32.5,53.8|Z|0630; Azsuna!Broken Isles|H|N|Take the portal back to the ground and head over to the "Soul Engine: Apocalypse" building.  The item is near the central reactor.|
+P Felsoul Hold|ACTIVE|42754|QO|1|M|31.3,84.0|Z|Suramar|N|Head to Suramar and take the portal in the building.|
+C Fel Engine Injector|QID|42754|QO|2|M|33.7,73.5|Z|Suramar|H|N|Head to the North-east chamber and get your Injector.|
+C Soul Configuration Matrix|QID|42754|QO|3|M|34.7,67.7|Z|Suramar|H|N|Head out and go to the central reactor to get your Matrix.|
+T Jump-Capable|QID|42754|M|59.02,75.64|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
+A A Final Offer|QID|42810|PRE|42754|M|59.02,75.64|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
+C Fel Hammer Balcony|QID|42810|QO|1|M|59.20,83.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Go upstairs to the south balcony.|
+C The Offer|QID|42810|QO|2|M|59.20,83.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|EAB|N|Listen to Kil'Jaeden's offer and then click on the [color=33fff9] Extra Action Button [/color] to reject it.|
+T A Final Offer|QID|42810|M|59.08,74.98|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Jace Darkweaver, downstairs.|
+A The Invasion of Niskara|QID|42809^42920|PRE|42810|M|59.08,74.98|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
+C The Invasion of Niskara|QID|42809^42920|M|58.96,66.12|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|QO|1|N|Go upstairs and activate the control console.|
+C The Invasion of Niskara|QID|42809^42920|M|27.41,41.79|Z|0714; Niskara!Instance714|QO|2|N|Wait a bit, then go into a cut scene for the jump to Niskara.|
+C Commence Bombardment!|ACTIVE|42809^42920|M|33.30,40.00|Z|0714; Niskara!Instance714|SO|1|N|Man the artillery console and use the Fel Hammer's batteries to lay waste to the Legion forces below.|
+C Glide Down to the Rendezvous|ACTIVE|42809^42920|M|33.53,42.12;49.70,46.00|CC|Z|0714; Niskara!Instance714|SO|2|CHAT|N|Speak with Altruis or Kayn to deploy your forces and then use your Glide ability to get down to the rendezvous point below. Then talk to him again.|
+C Otherworld Portals destroyed|ACTIVE|42809^42920|M|51.80,55.09|Z|0714; Niskara!Instance714|SO|3;1|S|N|Destroy the Otherworld Portals.|
+K Carnivore|ACTIVE|42809^42920|M|54.64,53.84|Z|0714; Niskara!Instance714|SO|3;2|N|Kill Carnivore.|
+K The Overseer|ACTIVE|42809^42920|M|56.44,64.28|Z|0714; Niskara!Instance714|SO|3;3|N|Kill The Overseer.|
+K Soulchaser|ACTIVE|42809^42920|M|62.97,60.46|Z|0714; Niskara!Instance714|SO|3;4|N|Kill Soulchaser.|
+C Otherworld Portals destroyed|ACTIVE|42809^42920|M|51.76,55.09;56.37,55.67;58.82,55.11;66.47,52.64;58.82,68.08|CC|Z|0714; Niskara!Instance714|SO|3;1|US|N|Destroy any remaining Otherworld Portals.|
+C Regroup In Front of the Command Center|ACTIVE|42809^42920|M|69.27,67.62|Z|0714; Niskara!Instance714|SO|4|CHAT|N|Speak with Kayn or Altruis in front of the command center where Caria and Varedis are protected behind a Fel Barrier.|
+C Fel Hammer, Fire!|ACTIVE|42809^42920|M|69.27,67.62|Z|0714; Niskara!Instance714|SO|5|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to order the Fel Hammer to move into position and fire upon the other command center. This will bring down the Fel Barrier and allow entry.|
+C Caria and Varedis At Last|ACTIVE|42809^42920|M|73.14,77.07|Z|0714; Niskara!Instance714|SO|6|N|Kill Caria and Varedis Felsoul.|
+C Malevolence, Get Us Out of Here!|ACTIVE|42809^42920|M|73.03,77.86|Z|0714; Niskara!Instance714|SO|7|CHAT|N|Speak with Altruis or Kayn.|
 T The Invasion of Niskara|QID|42809^42920|M|58.00,58.70|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer / Kayn Sunfury.|
 A Last, But Not Least|QID|42132|PRE|42809&42920|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.|
 C Allari the Souleater|QID|42132|QO|1|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|CHAT|N|Recruit Allari the Souleater, downstairs.|
@@ -331,10 +324,10 @@ A I Am the Slayer!|QID|43186|PRE|42132|M|58.63,57.85|Z|0720; Upper Command Cente
 C Slayer!|QID|43186|QO|1|N|Listen as you are honored by the Illidari.|
 T I Am the Slayer!|QID|43186|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer / Kayn Sunfury.|
 A One More Thing...|QID|44214|PRE|43186|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.|
-T One More Thing...|QID|44214|M|57.7,34.0|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
-A A Hero's Weapon|QID|43412|PRE|44214|M|57.7,34.0|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
-C Before the Forge|QID|43412|QO|1|NC|N|Stand in the marked spot and click on the extra action button.|
-T A Hero's Weapon|QID|43412|M|57.7,34.0|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
+T One More Thing...|QID|44214|M|57.25,32.33|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
+A A Hero's Weapon|QID|43412|PRE|44214|M|57.25,32.33|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
+C Before the Forge|QID|43412|M|58.56,31.37|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|EAB|NC|N|Stand in the marked spot and use the [color=33fff9] Extra Action Button [/color].|
+T A Hero's Weapon|QID|43412|M|57.25,32.33|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer / Kayn Sunfury, downstairs.|
 
 ;Havoc
 ; A Making Arrangements|QID|41120;40819|M|74.98,49.02|Z|0627; Dalaran!Broken Isles|N|From Kayn Sunfury or Altruis the Sufferer.|
