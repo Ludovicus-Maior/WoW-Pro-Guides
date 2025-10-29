@@ -693,7 +693,7 @@ end)
 
 WoWPro.RegisterEventHandler("AREA_POIS_UPDATED", function(event, ...)
 	if successfulRequest then
-		WoWPro:UpdateGuide(event)
+		WoWPro:UpdateGuideSlow(event)
 	end
 end)
 

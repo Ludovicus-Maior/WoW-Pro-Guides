@@ -554,6 +554,7 @@ function WoWPro:OnEnable()
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuideSlow",0.333,WoWPro.UpdateGuideRealSlow)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
     if WoWPro.Recorder then
