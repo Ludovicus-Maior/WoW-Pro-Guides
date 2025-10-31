@@ -165,7 +165,7 @@ local buttonTexture = [[Interface\Addons\WoWPro_Recorder\Textures\%s.tga]]
 local function CreateButton(name, desc, anchor, status)
     local button = _G.CreateFrame("Button", "WoWProRecorder"..name.."Button", WoWPro.RecorderFrame)
     button:SetSize(20,20)
-    button:SetPoint("LEFT", anchor, "RIGHT", 0, -10)
+    button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
     button:SetNormalTexture(buttonTexture:format(name))
     -- button:SetText(name:sub(1,1))
 
@@ -196,7 +196,7 @@ end
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
     local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    recorderframe:SetHeight(55)
+    recorderframe:SetHeight(48)
     recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
     recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
     recorderframe:SetBackdrop( {
@@ -205,6 +205,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
         tile = true, tileSize = 16,
         insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
     })
+    recorderframe:SetBackdropColor(1,1,1,1)
     recorderframe:RegisterForClicks("AnyUp")
     WoWPro.RecorderFrame = recorderframe
     -- Scripts --
