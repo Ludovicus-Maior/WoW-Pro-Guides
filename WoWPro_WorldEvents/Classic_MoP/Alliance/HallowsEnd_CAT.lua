@@ -1,10 +1,17 @@
-local guide = WoWPro:RegisterGuide("TwiHollCat","WorldEvents","Azeroth", "Twists", "Alliance", 5)
+local guide = WoWPro:RegisterGuide("TwiHallowCat","WorldEvents","Azeroth", "Twists", "Alliance", 5)
 WoWPro:GuideLevels(guide,1,80)
 WoWPro.WorldEvents:GuideHoliday(guide,"Hallow's End")
 WoWPro:GuideNickname(guide, "Hallow's End (Cataclysm)")
 WoWPro:GuideName(guide,"Hallow's End (Cataclysm)")
+WoWPro:GuideNextGuide(guide, "Hallow's End (Alliance Hub)")
 WoWPro:GuideSteps(guide, function()
 return [[
+; ** This step will appear whenever they have a Handful of Candy in their bag. - Hendo72
+U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.\n[color=FF0000]NOTE: [/color]If you get a duplicate item warning, you can either open your bag delete the duplicate item, or (the quicker way) close the loot window and manually check this step off to delete the Handful of Treats.|U|37586|O|
+* Handful of Treats|M|PLAYER|CC|N|If you got the duplicate error, use this step to delete the Handful of Treats.\n[color=FF0000]NOTE: [/color]|U|37586|O|
+* Penny Pouch|M|PLAYER|CC|N|Save bag space by immediately destroying any Penny Pouches you get from your Handful of Candy.\n[color=FF0000]NOTE: [/color]They are useless 1-slot bags that do not stack and only sell for 1 copper each.|U|37606|O|
+* Sinister Squashling|M|PLAYER|CC|N|Once you get a Sinister Squashling pet, they are BoP and you can safely delete any more you find.|ACH|292;1|U|33154|O|
+
 F Stormwind City|QID|29020|N|This starts in Stormwind.|
 ;
 ; ** Deepholm
@@ -47,9 +54,6 @@ R Ramkahen|QID|29017^29016|Z|0249; Uldum|N|Take the portal to Uldum.|
 A Candy Bucket|QID|29017|M|54.72,33.04|Z|0249; Uldum|N|Ramkahen|
 F Oasis of Vir'sar|QID|29016|M|26.62,8.34|Z|0249; Uldum|U|68648|
 A Candy Bucket|QID|29016|M|26.58,7.33|Z|0249; Uldum|N|Oasis of Vir'sar|
-;
-N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
-N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 
 N This completes Hallow's End for Cataclysm
 ]]

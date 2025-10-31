@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="HallowsEnd_AHub.lua"/>
 	<Script file="HallowsEnd_EK.lua"/>
 	<Script file="HallowsEnd_KAL.lua"/>
 	<Script file="HallowsEnd_OUT.lua"/>

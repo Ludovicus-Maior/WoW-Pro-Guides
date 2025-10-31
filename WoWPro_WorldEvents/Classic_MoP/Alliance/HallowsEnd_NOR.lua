@@ -1,12 +1,19 @@
-local guide = WoWPro:RegisterGuide("TwiHollNor","WorldEvents","Northrend", "Twists", "Alliance", 5)
+local guide = WoWPro:RegisterGuide("TwiHallowNor","WorldEvents","Northrend", "Twists", "Alliance", 5)
 WoWPro:GuideLevels(guide,1,80)
 WoWPro.WorldEvents:GuideHoliday(guide,"Hallow's End")
 WoWPro:GuideNickname(guide, "Hallow's End (Northrend)")
 WoWPro:GuideName(guide,"Hallow's End (Northrend)")
+WoWPro:GuideNextGuide(guide, "Hallow's End (Alliance Hub)")
 WoWPro:GuideSteps(guide, function()
 return [[
+; ** This step will appear whenever they have a Handful of Candy in their bag. - Hendo72
+U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.\n[color=FF0000]NOTE: [/color]If you get a duplicate item warning, you can either open your bag delete the duplicate item, or (the quicker way) close the loot window and manually check this step off to delete the Handful of Treats.|U|37586|O|
+* Handful of Treats|M|PLAYER|CC|N|If you got the duplicate error, use this step to delete the Handful of Treats.\n[color=FF0000]NOTE: [/color]|U|37586|O|
+* Penny Pouch|M|PLAYER|CC|N|Save bag space by immediately destroying any Penny Pouches you get from your Handful of Candy.\n[color=FF0000]NOTE: [/color]They are useless 1-slot bags that do not stack and only sell for 1 copper each.|U|37606|O|
+* Sinister Squashling|M|PLAYER|CC|N|Once you get a Sinister Squashling pet, they are BoP and you can safely delete any more you find.|ACH|292;1|U|33154|O|
+
 F Stormwind City|QID|13436|N|This starts in Stormwind.|Z|Stormwind City|
-b Valiance Keep|QID|13436|N|Take the boat to Northrend.|Z|Borean Tundra|
+b Valiance Keep|QID|13436|Z|Borean Tundra|N|Take the boat to Northrend.|
 A Candy Bucket |QID|13436|M|58.49,67.89|Z|Borean Tundra|N|Valiance Keep|
 F Unu'pe|QID|13460|M|78.49,51.48|Z|Borean Tundra|U|68648|
 A Candy Bucket |QID|13460|M|78.43,49.19|Z|Borean Tundra|N|Unu'pe|
@@ -50,11 +57,8 @@ A Candy Bucket |QID|13438|M|28.97,56.16|Z|Dragonblight|N|Star's Rest|
 
 F Dalaran|QID|13472|M|72.70,45.68|Z|0125; Dalaran City@Dalaran!Northrend|U|68648|
 A Candy Bucket |QID|13463|M|48.32,40.86|Z|0125; Dalaran City@Dalaran!Northrend|N|The Legerdemain Lounge|
-A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|CC|Z|0126; The Underbelly@Dalaran!Crystalsong Forest|U|68648|N|Underbelly|
-A Candy Bucket |QID|13473|M|42.56,63.27|Z|0125; Dalaran City@Dalaran!Northrend|U|68648|N|Hero's Rest Inn|
-N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
-N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
-
+A Candy Bucket |QID|13472|M|35.50,45.27;39.62,49.65;37.73,59.68|CC|Z|0126; The Underbelly@Dalaran!Crystalsong Forest|N|Underbelly|U|68648|
+A Candy Bucket |QID|13473|M|42.56,63.27|Z|0125; Dalaran City@Dalaran!Northrend|N|Hero's Rest Inn|U|68648|
 N This completes Hallow's End Northrend
 
 ]]
