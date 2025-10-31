@@ -1440,7 +1440,6 @@ C The Nighthold: The Eye of Aman'Thul|QID|45420|CHAT|N|Talk to Khadgar.|
 T The Nighthold: The Eye of Aman'Thul|QID|45420|M|46.19,55.66|Z|629|N|To Archmage Khadgar.|
 A Fate of the Nightborne|QID|45372|PRE|45417|M|36.62,45.08|Z|680|N|From Chief Telemancer Oculeth.|
 C Fate of the Nightborne|QID|45372|M|36.62,45.08|Z|680|CHAT|N|Tell Oculeth, that you are ready.|
-T Fate of the Nightborne|QID|45372|IZ|770|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)|
-N Suramar|QID|999999|M|PLAYER|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests.  If you have found any not list in the guide, please Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n#retail-bug-reports|
+T Fate of the Nightborne|QID|45372|IZ|770|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)\n If they just stand about doing nothing take the portal back and then speak to Oculeth again.|
 ]]
 end)

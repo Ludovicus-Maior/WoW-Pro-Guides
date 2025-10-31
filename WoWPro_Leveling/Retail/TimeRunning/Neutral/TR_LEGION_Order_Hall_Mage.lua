@@ -10,7 +10,6 @@ WoWPro:GuideClassSpecific(guide, 'Mage')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 ; For 44663 and 44184, Grail is reporting PRE of 44120+44473 - which are DH Quests
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|85; Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
@@ -40,35 +39,37 @@ T Growing Power|QID|42175|M|55.30,38.05|Z|The Guardian's Library@Hall of the Gua
 A Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm|PRE|41141|
 A Champion: Archmage Modera|QID|42685|ACTIVE|42663|M|55.23,39.47|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Modera.|
 A Champion: Archmage Kalec|QID|42662|ACTIVE|42663|M|56.28,37.84|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Kalec.|
-C Rise, Champions|QID|42663|M|55.79,38.63|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Recruit Modera and Kalec|
 T Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 A Technical Wizardry|QID|42703|PRE|41141|M|55.30,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 T Technical Wizardry|QID|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;A Archmage Omniara|QID|42126|PRE|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;C Archmage Omniara|QID|42126|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-;T Archmage Omniara|QID|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-;A Building Our Troops|QID|42127|PRE|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;C Building Our Troops|QID|42127|M|87.88,47.50|Z|Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-;T Building Our Troops|QID|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-;A Troops in the Field|QID|42687|PRE|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;C Troops in the Field|QID|42687|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-;t Troops in the Field|QID|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-;A Tech It Up A Notch|QID|42696|PRE|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;C Tech It Up A Notch|QID|42696|M|74.88,28.88|Z|Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-;t Tech It Up A Notch|QID|42696|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-;A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|
-;C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
-;t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-;A Recruiting Apprentices|QID|44098|PRE|42222|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-;C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-;T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
+A Archmage Omniara|QID|42126|PRE|42703|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|PRE|42126|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|M|87.88,47.50|Z|Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|PRE|42127|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|PRE|42687|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|M|74.88,28.88|Z|Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+; when you pick the talent for Arcane Armements you get this one....unfortunately ... not available in remix :(
+;A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|From Minuette.|O|
+C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
+T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|To Minuette.|
 
-A Orange is the New Purple|QID|44240|PRE|44496|M|45.4,57.2|N|From Jackson Watkins.|LVL|45| ;-- this may need moved
+A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|
+C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
+t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Recruiting Apprentices|QID|44098|PRE|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
 A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ravandwyr.|
 A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|PRE|42418|
-C A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|QO|1|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
-T A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr. (nearest flightpath is Felblaze Ingress)|
+C A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
+T A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr.|
 A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|PRE|42434|
 C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|0630; Azsuna!Broken Isles|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 C Prepare To Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|0630; Azsuna!Broken Isles|N|Kill Spitespeaker Lir'kess|
@@ -111,9 +112,9 @@ C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|0627; Dalaran!Broken Isle
 C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|0627; Dalaran!Broken Isles|QO|5|N|Examine the frosted doughnut.|
 C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|0627; Dalaran!Broken Isles|QO|4|N|Examine the crystal ball.|
 T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
-;A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42423|
-;C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
-;t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42423|
+C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
+t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.\n\n[color=FF0000]NOTE: [/color]Currently, there are non-scaling mobs, expect to die several times if you are low level. (or come back to this later)|PRE|42424|
 T Kalec's Plan|QID|42451|M|29.26,87.96|Z|Suramar|N|To Kalecgos.|
 A Not A Toothless Dragon|QID|42508|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|PRE|42451|
@@ -139,16 +140,13 @@ C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyr
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
 A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
 $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
-A Champion: Millhouse Manastorm|QID|42702|PRE|42493|M|56.2,57.8|N|From/To Millhouse Manastorm.|
-A Champion: Archmage Vargoth|QID|42917|PRE|42493|M|70.2,60.4|N|From/To Archmage Vargoth.|
-;A Champion: Arcane Destroyer|QID|42704|PRE|42493|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
-;A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
-;C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
-;t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
+A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
+C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
+t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
 A Into the Oculus|QID|42734|M|71,55.4|N|From Archmage Khadgar.|PRE|42940&42707|
-C Into the Oculus|QID|42734|M|71,55.4|N|Talk to Khadgar to start the scenario and then follow the scenario instructions in your quest tracker, to finsih this quest.|ACTIVE|42734|
+C Into the Oculus|QID|42734|M|71,55.4|N|Talk to Khadgar to start the scenario and then follow the scenario instructions in your quest tracker, to finsih this quest.|
 t Into the Oculus|QID|42734|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|PRE|42734|
 A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|
@@ -162,56 +160,70 @@ A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall 
 C Three Is a Lucky Number|QID|42959|S!US|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
 t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|
 A Champion: Arcane Destroyer|QID|42704|PRE|42959|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
-A Awakenings|QID|44464|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart|PRE|44448|
-F Lorlathil|ACTIVE|44464|M|69.83,51.21|Z|627; Dalaran!Broken Isles|N|Take the flight from Dalaran or fly on your own.|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Light's Heart back in your order hall.|
+
+A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
+C Goddess Watch Over You|QID|44338^44338|S!US|N|You need to do the main Val'sharah quest line to complete this quest.|
+t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
+C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S!US|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. |
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
+;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
+;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
+t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel.|
+;lights heart - post 45
+A Awakenings|QID|44464|M|83.92,32.64|Z|0734; Hall of the Guardian!Dungeon|N|From Light's Heart (still in your order hall)|PRE|44448|
+F Lorlathil|ACTIVE|44464|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your [color=33fff9] Extra Action Button [/color].|
+T Awakenings|QID|44464|M|83.92,32.64|Z|0734; Hall of the Guardian!Dungeon|N|To Light's Heart back in your order hall.|
+;lights heart - post 45,requires AK>=2
 A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}. this may require a specific amount of infinate knowledge, in original Legion it was AK2|PRE|44464|
-C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
+F Garden of the Moon|ACTIVE|44466|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
+C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|EAB|N|Use [color=33fff9] Extra Action Button [/color] to witness Illidan's Resilience.|
 T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
 A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
-F Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
-R Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
-C Surrounded by Darkness|QID|44479|Z|BlackRookHoldScenario|SO|1|N|Report to Kur'talos Ravencrest.|
-C Preparing for the Apocalypse|QID|44479|M|0.00,0.00|Z|BlackRookHoldScenario|SO|2;1|N|Repair the Deactivated Moon Guard Portal.|
-C The Road to Fel|QID|44479|M|44.28,49.40|Z|BlackRookHoldScenario|SO|3;1|N|Secure the rampart by defeating Xalian Felblaze.|
-C Behold, the Endless March|Z|Black Rook Hold|QID|44479|SO|4|US|N|Enter the upper ramparts of the courtyard.|
-C No Man an Island|QID|44479|M|43.54,51.40|Z|BlackRookHoldScenario|SO|5;1|N|Activate the remaining Moon Guard portals.|
-C True Sacrifice|Z|Black Rook Hold|QID|44479|SO|6|N|Destroy the Nihilam Portal and slay Balaadur to end the invasion.|
-C When Good Men Do Nothing|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|SO|7;1|N|Enter Raven's Glory and destroy the Colossal Siegebreaker.|
-C Ravencrest's Legacy|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|QO|1|N|Experience Ravencrest's Legacy|
-C A Personal Touch|QID|40562|QO|2|N|Port back to your Hall.|
+F Bradensbrook|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook.|; gone in timerunning >> or use your Teleportation Nexus: Val'sharah
+C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|EAB|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path. [color=FF0000]FYI: [/color] the guide will close when you go into the scenario, you can click twice on the minimap icon to re-enable it if you want. (Check off manually)|
+C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
+C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|
+C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|0793; Black Rook Hold!Instance|N|Rt Click to autoattack the infernals and then Xalian Felblaze. When Xalian is below 85%, you will a button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
+C No Man An Island|ACTIVE|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|0793; Black Rook Hold!Instance|N|Activate the remaining portals.|
+A Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|
+C Felspawns of Lothros|QID|44414|M|40.64,53.03|Z|793;BlackRookHold!Instance|N|Go down into the Mausoleum and help Jared kill Lothros.|
+T Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|To Jared Shadowsong. If Jared dies, (he doesn't seem to respawn anymore), you can either skip the next two quests, or exit the instance and reset instances, then restart the Ravecrest Scenario.|
+A The Red Axe|QID|44415|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|PRE|44414|
+C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|0793; Black Rook Hold!Instance|N|Click on the unstable portals to close them. You need to click all 3 orange portals before you do the last pink portal.|
+T The Red Axe|QID|44415|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red.|ACTIVE|44479|
+A Hunter of Night|QID|44416|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|From Broxigar the Red.|ACTIVE|44479|PRE|44415|
+C Hunter of Night|QID|44416|M|43.0,50.29|Z|0793; Black Rook Hold!Instance|N|Kill the demon.|
+T Hunter of Night|QID|44416|M|41.61,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red .|
+C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|0793; Black Rook Hold!Instance|N|Click the last portal.|
+C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|Z|0793; Black Rook Hold!Instance|N|You have one more button to use. (If you don't have [color=33fff9] Fury of the Cosmos [/color] on your vehicle bar, sacrifice your moonguard a few more times.) Go destroy the Nihilam Portal with the new ability and kill Balaadur.|
+C When Good Men Do Nothing|QID|44479|SO|7|M|42.8,48.4|Z|0793; Black Rook Hold!Instance|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
 T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}.|
 A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart.|
-C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
+P Azshara|ACTIVE|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|U|249230|N|Use the provided scroll to teleport to Azshara and witness Illidan's Resilience.|
+C In My Father's House|QID|44480|M|35.27,49.86|Z|Azshara|EAB|N|Head into the temple and use your [color=33fff9] Extra Action Button [/color]at the marked spot.|
 T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
-A Destiny Unfulfilled|QID|44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
-C Destiny Unfulfilled|QID|44496|QO|1|U|226973|N|Use the call button, Experience True Betrayal.|
-C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|S|N|Confront Akama.|ACTIVE|44496|
-C Confront Akama.|M|52.70,71.26|Z|70BlackTempleLegion/1|SO|1;2|N|Confront Akama.|ACTIVE|44496|
-C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|US|N|Confront Akama.|ACTIVE|44496|
-C You Are Not Prepared!|Z|Black Temple|SO|2|S|N|Survive until your reinforcements arrive.|ACTIVE|44496|
-C Survive the Assault|M|56.13,57.96|Z|70BlackTempleLegion/1|SO|2;2|N|Survive the Assault|ACTIVE|44496|
-C You Are Not Prepared!|Z|Black Temple|SO|2|US|N|Survive until your reinforcements arrive.|ACTIVE|44496|
-C To The Skies|Z|Black Temple|SO|3|S|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|ACTIVE|44496|
-C Eliminate Akama's allies|M|56.13,57.96|Z|70BlackTempleLegion/1|SO|2;1|N|Eliminate Akama's allies|ACTIVE|44496|
-C Flames of Azzinoth must survive|M|56.02,68.73|Z|70BlackTempleLegion/1|SO|3;2|N|Flames of Azzinoth must survive|ACTIVE|44496|
-C To The Skies|Z|Black Temple|SO|3|US|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|ACTIVE|44496|
-C The Final Countdown|Z|Black Temple|SO|4|S|N|Unleash the hatred of ten thousand years.|ACTIVE|44496|
-C Enemies Defeated|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|3;1|N|Enemies Defeated|ACTIVE|44496|
-C Use Metamorphosis.|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|4;1|N|Use Metamorphosis.|ACTIVE|44496|
-C The Final Countdown|Z|Black Temple|SO|4|US|N|Unleash the hatred of ten thousand years.|ACTIVE|44496|
-C The Demon Within|Z|Black Temple|SO|5|N|Annihilate your enemies.|ACTIVE|44496|
-C The Huntress|Z|Black Temple|SO|6|S|N|Defeat Maiev|ACTIVE|44496|
-C Defeat Maiev|M|60.17,67.61|Z|70BlackTempleLegion/1|SO|6;1|N|Defeat Maiev|ACTIVE|44496|
-C The Huntress|Z|Black Temple|SO|6|US|N|nil|ACTIVE|44496|
-C Destiny Unfulfilled|QID|44496|M|59.82,67.25|Z|70BlackTempleLegion/1|QO|1|N|Experience True Betrayal|
+A Destiny Unfulfilled|QID|44481^44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
+C Destiny Unfulfilled|QID|44481^44496|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley and see Illidan's side of the Black Temple Raid. [color=FF0000]FYI: [/color] the guide will close when you go into the scenario, you can click twice on the minimap icon to re-enable it if you want. If you fail, disable any cutscene skipping in addons, abandon quest, go back to your order hall, and grab the quest again.|IZ|-759|
+C Eliminate Akama's allies|M|52.70,71.26|Z|0759; Black Temple!Dungeon759|SO|2;1|N|Eliminate Akama's allies|ACTIVE|44496^44481|
+C To The Skies|Z|Black Temple|SO|3|S|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|ACTIVE|44496^44481|
+C Use Metamorphosis.|M|56.03,66.10|Z|0759; Black Temple!Dungeon759|SO|4;1|N|Use Metamorphosis to unleash the hatred of ten thousand years.|ACTIVE|44496^44481|
+C The Demon Within|Z|0759; Black Temple!Dungeon759|SO|5|N|Annihilate your enemies.|ACTIVE|44496^44481|
+C Defeat Maiev|M|60.17,67.61|Z|0759; Black Temple!Dungeon759|SO|6;1|N|Defeat Maiev|ACTIVE|44496^44481|
 T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
+A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Light's Heart. Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge.|
+F Illidari Stand|ACTIVE|45174|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
+T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
+A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.|
+C Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|S!US|N|Run Dungeons until you collect the needed shards.|
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
+A The Power Within|QID|43503^43505|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
+F Azurewing Repose|ACTIVE|43503^43505|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
+C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet.|
+T The Power Within|QID|43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
-; if you pick the talent for Arcane Armements you get this one....
-;A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|From Minuette.|O|
-;C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
-;T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|To Minuette.|
 ;2nd artifact
 A A Second Weapon|QID|43441|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
 C A Second Weapon|QID|43441|M|60.4,36|N|Pick the artifact you want to pursue next.|
@@ -340,23 +352,18 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide H
 
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ; LVL 110 Quests
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
-C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
-;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
-;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-; Added on 3/14/2017
-A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|
+; Added on 3/14/2017 - LEAD IN TO BROKEN SHORE
+A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|PRE|44448|
 T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 ; more quests, I'm sure.
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|TR_EmmAzsuna|
-J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_LudoStormheim|FACTION|ALLIANCE|
+J On to Stormheim|QID|39864^39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|TR_EmmValsharah|
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|TR_EmmHighmountain|
-J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
+J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|TR_Blanc_Suramar|
 ]]
 end)
