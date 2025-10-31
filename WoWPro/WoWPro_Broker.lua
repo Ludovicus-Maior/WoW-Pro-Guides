@@ -1574,7 +1574,7 @@ if step then
             if tar:sub(1, 1) == "/" then
                 mtext = tar:gsub("\\n", "\n")
             elseif emote then
-                mtext = "/target[nodead] "..tar.."\n/"..emote
+                mtext = "/target [nodead] "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
                 mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
@@ -1585,7 +1585,7 @@ if step then
                 WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
             end
 
-            -- WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
+            WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
 
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use or eab)
