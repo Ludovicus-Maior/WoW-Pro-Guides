@@ -205,7 +205,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
         tile = true, tileSize = 16,
         insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
     })
-    recorderframe:SetBackdropColor(1,1,1,1)
     recorderframe:RegisterForClicks("AnyUp")
     WoWPro.RecorderFrame = recorderframe
     -- Scripts --
