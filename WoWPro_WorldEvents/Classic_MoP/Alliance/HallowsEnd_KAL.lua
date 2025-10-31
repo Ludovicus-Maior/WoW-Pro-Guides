@@ -1,20 +1,27 @@
-local guide = WoWPro:RegisterGuide("TwiHollKAL","WorldEvents","Kalimdor", "Twists", "Alliance", 5)
+local guide = WoWPro:RegisterGuide("TwiHallowKAL","WorldEvents","Kalimdor", "Twists", "Alliance", 5)
 WoWPro:GuideLevels(guide,1,80)
 WoWPro.WorldEvents:GuideHoliday(guide,"Hallow's End")
 WoWPro:GuideNickname(guide, "Hallow's End (Kalimdor)")
 WoWPro:GuideName(guide,"Hallow's End (Kalimdor)")
+WoWPro:GuideNextGuide(guide, "Hallow's End (Alliance Hub)")
 WoWPro:GuideSteps(guide, function()
 return [[
-F Teldrassil|QID|12337|N|Start in Teldrassil|Z|Teldrassil|
-b Azuremyst Isle|QID|12337|M|52.08,89.47|N|Now take the boat to Azuremyste Isle.|Z|Teldrassil|
+; ** This step will appear whenever they have a Handful of Candy in their bag. - Hendo72
+U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.\n[color=FF0000]NOTE: [/color]If you get a duplicate item warning, you can either open your bag delete the duplicate item, or (the quicker way) close the loot window and manually check this step off to delete the Handful of Treats.|U|37586|O|
+* Handful of Treats|M|PLAYER|CC|N|If you got the duplicate error, use this step to delete the Handful of Treats.\n[color=FF0000]NOTE: [/color]|U|37586|O|
+* Penny Pouch|M|PLAYER|CC|N|Save bag space by immediately destroying any Penny Pouches you get from your Handful of Candy.\n[color=FF0000]NOTE: [/color]They are useless 1-slot bags that do not stack and only sell for 1 copper each.|U|37606|O|
+* Sinister Squashling|M|PLAYER|CC|N|Once you get a Sinister Squashling pet, they are BoP and you can safely delete any more you find.|ACH|292;1|U|33154|O|
+
+F Teldrassil|QID|12337|N|Start in Teldrassil|-IZ|Teldrassil|
+b Azuremyst Isle|QID|12337|M|52.08,89.47|Z|Teldrassil|N|Now take the boat to Azuremyste Isle.|
 A Candy Bucket|QID|12337|M|59.3,18.5|Z|The Exodar|N|The Exodar|
-A Candy Bucket|QID|12333|M|48.5,49.21|Z|Azuremyst Isle|U|68648|N|Azure Watch|
+A Candy Bucket|QID|12333|M|48.5,49.21|Z|Azuremyst Isle|N|Azure Watch|U|68648|
 A Candy Bucket|QID|12341|M|55.68,59.85|Z|Bloodmyst Isle|N|Blood Watch|
-F Teldrassil|QID|28951|M|55.40,88.50|N|Return to Teldrassil.|Z|Teldrassil|U|68648|
+F Teldrassil|QID|28951|M|55.40,88.50|Z|Teldrassil|N|Return to Teldrassil.|U|68648|
 R Enter Darnassus|QID|12334|M|55.10,88.52|Z|Teldrassil|
 A Candy Bucket|QID|12334|M|62.16,33.01|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
-C Dancing for Marzipan|QID|8357|T|dance;2|N|click the button to dance.|Z|Stormwind City|
+C Dancing for Marzipan|QID|8357|Z|Stormwind City|N|click the button to dance.|T|dance;2|
 
 A Candy Bucket|QID|12331|M|55.41,52.25|Z|Teldrassil|N|Dolanaar|
 F Lor'danel|QID|28951|M|51.72,17.70|N|In Darkshore.|Z|Darkshore|U|68648|
@@ -78,8 +85,6 @@ A Candy Bucket|QID|29007|M|65.61,46.59|Z|Southern Barrens|N|Northwatch Hold|
 
 F Ratchet|QID|12396|M|69.18,70.60|Z|Northern Barrens|U|68648|
 A Candy Bucket|QID|12396|M|67.34,74.60|Z|Northern Barrens|N|Ratchet|
-N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
-N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 
 N This completes Hallow's End for Kalimdor.
 
