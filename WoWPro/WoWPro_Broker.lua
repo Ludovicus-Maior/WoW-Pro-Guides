@@ -700,8 +700,13 @@ end
 
 
 function WoWPro:UpdateGuide(From)
-    WoWPro:print("Signaled for UpdateGuide from %s",tostring(From))
+    WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
+end
+
+function WoWPro:UpdateGuideSlow(From)
+    WoWPro:print("Signaled for UpdateGuideSlow from %s", WoWPro.Ptable(From))
+    WoWPro:SendMessage("WoWPro_UpdateGuideSlow",From)
 end
 
 -- Guide Update --
@@ -1569,7 +1574,7 @@ if step then
             if tar:sub(1, 1) == "/" then
                 mtext = tar:gsub("\\n", "\n")
             elseif emote then
-                mtext = "/target[nodead] "..tar.."\n/"..emote
+                mtext = "/target [nodead] "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
                 mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
@@ -1580,7 +1585,7 @@ if step then
                 WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
             end
 
-            -- WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
+            WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
 
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use or eab)
@@ -1635,6 +1640,15 @@ function WoWPro:RowLeftClick(i)
         _G.QuestMapFrame_OpenToQuestDetails(QID)
     end
     WoWPro.rows[i]:SetChecked(nil)
+end
+
+function WoWPro.UpdateGuideRealSlow(From)
+    for event, count in pairs(From) do
+        for _ = 1, count do
+            WoWPro:SendMessage("WoWPro_UpdateGuide", event)
+        end
+    end
+    WoWPro:dbp("UpdateGuideRealSlow(%s): Passing to WoWPro_UpdateGuide.", WoWPro.Ptable(From))
 end
 
 function WoWPro.UpdateGuideReal(From)
