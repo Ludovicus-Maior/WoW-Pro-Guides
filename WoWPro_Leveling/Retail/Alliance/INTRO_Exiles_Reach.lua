@@ -39,9 +39,10 @@ T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|Z|1409; Exile's Reach|N|Turn i
 A Northbound|QID|55173|PRE|55174|M|58.37,74.47|Z|1409; Exile's Reach|N|From Alaria.|
 $ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|Z|1409; Exile's Reach|N|Loot the treasure chest.|
 T Northbound|QID|55173|M|62.68,69.87|Z|1409; Exile's Reach|N|Turn into Austin Huxworth.|
-A Taming the Wilds|QID|59342|PRE|55173|M|62.73,69.84|Z|1409; Exile's Reach|N|From Lady Jaina Proudmoore.|C|Hunter|
+A Taming the Wilds|QID|59342|PRE|55173|M|62.73,69.84|Z|1409; Exile's Reach|N|From Austin Huxworth.|C|Hunter|
+C Taming the Wilds|ACTIVE|59342|M|62.73,69.84|QO|1|Z|1409; Exile's Reach|N|Tame a beast of your choice to be your pet. You can rename by right clicking on the pet's character portrait (below yours) and choosing rename from the menu options. Choose wisely as it isn't free to change it.|
 C Taming the Wilds|ACTIVE|59342|M|62.73,69.84|QO|2|Z|1409; Exile's Reach|N|Tame a beast of your choice to be your pet. You can rename by right clicking on the pet's character portrait (below yours) and choosing rename from the menu options. Choose wisely as it isn't free to change it.|
-T Taming the Wilds|QID|59342|M|62.73,69.84|Z|1409; Exile's Reach|N|Turn into Lady Jaina Proudmoore.|
+T Taming the Wilds|QID|59342|M|62.73,69.84|Z|1409; Exile's Reach|N|Turn into Austin Huxworth.|
 A Down with the Quilboar|QID|55186|PRE|55173|M|62.73,69.84|Z|1409; Exile's Reach|N|From Austin Huxworth.|
 A Quillboar Shadow Magic|QID|55184|PRE|55173|M|62.73,69.84|Z|1409; Exile's Reach|N|From Austin Huxworth.|
 C Quillboar Shadow Magic|QID|55184|Z|1409; Exile's Reach|N|Kill Quilboar in the area.|S|
@@ -50,11 +51,11 @@ C Quillboar Shadow Magic|QID|55184|M|61.60,62.88|Z|1409; Exile's Reach|N|Kill Qu
 C Down with the Quilboar|QID|55186|M|58.91,62.96|Z|1409; Exile's Reach|N|End Geolord Grek'og and rescue Lindie.|T|Geolord|
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|1409; Exile's Reach|N|Loot the treasure chest.|
 T Quillboar Shadow Magic|QID|55184|M|56.25,59.17|Z|1409; Exile's Reach|N|Turn into Austin Huxworth.|
-T Down with the Quilboar|QID|55186|M|56.16,59.13|Z|1409; Exile's Reach|N|Turn into Kalegos.|
-A The Scout-o-Matic 5000|QID|55193|PRE|55186&55184|M|56.16,59.13|Z|1409; Exile's Reach|N|From Kalegos.|
+T Down with the Quilboar|QID|55186|M|56.16,59.13|Z|1409; Exile's Reach|N|Turn into Lindle Springstock.|
+A The Scout-o-Matic 5000|QID|55193|PRE|55186&55184|M|56.16,59.13|Z|1409; Exile's Reach|N|From Lindle Springstock.|
 C The Scout-o-Matic 5000|QID|55193|M|56.06,58.79|Z|1409; Exile's Reach|N|Click the Scout-o-Matic Helicopter thing.|V|
-T The Scout-o-Matic 5000|QID|55193|M|56.16,59.13|Z|1409; Exile's Reach|N|Turn into Kalegos.|
-A Re-sizing the Situation|QID|56034|PRE|55193|M|56.16,59.13|Z|1409; Exile's Reach|N|From Kalegos.|
+T The Scout-o-Matic 5000|QID|55193|M|56.16,59.13|Z|1409; Exile's Reach|N|Turn into Lindle Springstock.|
+A Re-sizing the Situation|QID|56034|PRE|55193|M|56.16,59.13|Z|1409; Exile's Reach|N|From Lindle Springstock.|
 C Re-sizing the Situation|QID|56034|M|56.07,58.82|Z|1409; Exile's Reach|N|Click on a boar and use the special action button.|T|Wandering Boar|U|170557|NC|
 T Re-sizing the Situation|QID|56034|M|56.25,59.03|Z|1409; Exile's Reach|N|Turn into Lady Jaina Proudmoore.|
 A Ride of the Scientifically Enhanced Boar|QID|55879|PRE|56034|M|56.25,59.03|Z|1409; Exile's Reach|N|From Lady Jaina Proudmoore.|
@@ -134,7 +135,7 @@ T Harpy Culling|QID|55764|M|56.92,46.24|Z|1409; Exile's Reach|N|Turn into Kee-La
 T The Rescue of Meredy Huntswell|QID|55763|M|56.91,46.14|Z|1409; Exile's Reach|N|Turn into Meredy Huntswell.|
 T Purge the Totems|QID|55881|M|56.83,46.17|Z|1409; Exile's Reach|N|Turn into Henry Garrick.|
 A Message to Base|QID|55882|PRE|55764&55881&55763|M|56.83,46.17|Z|1409; Exile's Reach|N|From Henry Garrick.|
-T Message to Base|QID|55882|M|52.36,55.34|Z|1409; Exile's Reach|N|Turn into Lady Jaina Proudmoore.|
+T Message to Base|QID|55882|M|52.36,55.34|Z|1409; Exile's Reach|N|Turn into Captain Garrick.|
 T Hjalmar's Final Execution|QID|58915|M|52.29,47.52|Z|1409; Exile's Reach|N|Turn into Private Cole.|
 A A Hunter's Trap|QID|59355|PRE|55882|M|52.42,55.28|Z|1409; Exile's Reach|N|From Austin Huxworth.|C|Hunter|
 A A Mage's Knowledge|QID|59352|PRE|55882|M|52.35,55.26|Z|1409; Exile's Reach|N|From Meredy Huntswell|C|Mage|
@@ -194,8 +195,8 @@ C Dungeon: Darkmaul Citadel|QID|55992|QO|1|Z|1409; Exile's Reach|N|Use the Group
 C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|SO|1;1|Z|1409; Exile's Reach|N|Follow Captain Garrick through the room and up the stairs, killing ogres as you go. She waits for your signal (charging in) to fight Tunk.|
 C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|2|Z|1409; Exile's Reach|N|Continue deeper into the citadel to stop the ritual.|
 C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|3|Z|1409; Exile's Reach|N|Speak with Kalegos to leave Darkmaul Citadel.|CHAT|
-T Dungeon: Darkmaul Citadel|QID|55992|M|39.66,31.99|Z|1409; Exile's Reach|N|Turn in to Captain Garrick.|
-A An End to Beginnings|QID|55991|PRE|55992|M|39.66,31.99|Z|1409; Exile's Reach|N|From Captain Garrick.|
+T Dungeon: Darkmaul Citadel|QID|55992|M|39.66,31.99|Z|1409; Exile's Reach|N|Turn in to Lady Jaina Proudmoore.|
+A An End to Beginnings|QID|55991|PRE|55992|M|39.66,31.99|Z|1409; Exile's Reach|N|From Lady Jaina Proudmoore.|
 C An End to Beginnings|QID|55991|M|40.38,32.65|Z|1409; Exile's Reach|N|Talk to Kalegos to catch a ride to Dragon Isles.|CHAT|
 T An End to Beginnings|QID|55991|M|81.98,31.45|Z|2022; The Waking Shores|N|Turn in to Kalegos.|
 A What's Your Specialty?|QID|87547|PRE|55991|M|81.99,31.40|Z|2022; The Waking Shores|N|From Kalegos.|

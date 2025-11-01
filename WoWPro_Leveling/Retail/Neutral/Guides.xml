@@ -74,6 +74,7 @@
 	<Script file="TWW_Undermine.lua"/>
 	<Script file="TWW_Rise_of_the_Red_Dawn.lua"/>
 	<Script file="TWW_K'aresh.lua"/>
+	<Script file="TWW_Visions_of_a_Shadowed_Sun.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>
 	<Script file="WOTLK_Sholazar_Basin.lua"/>
