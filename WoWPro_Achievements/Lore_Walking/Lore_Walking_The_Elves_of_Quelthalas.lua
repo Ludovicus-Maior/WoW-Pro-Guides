@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('Lorewalking-The Elves of Quelthalas', 'Achievements', 'Stormwind City', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Lorewalking")
 WoWPro:GuideLevels(guide,10, 80)
-WoWPro.Achievements:GuideMisc(guide, "Lorewalking", "Lorewalking", "The War Within")
+WoWPro.Achievements:GuideMisc(guide, "Lorewalking-The Elves of Quelthalas", "Lorewalking", "The War Within")
+WoWPro:GuideQuestTriggers(guide, 90705)
 WoWPro:GuideSteps(guide, function()
 return [[
 
