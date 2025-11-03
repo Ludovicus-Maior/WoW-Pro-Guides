@@ -83,46 +83,48 @@ A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|PLAYER|CC|N|<UI Alert
 T Blessing of the Green Dragonflight|QID|27914|M|69.47,54.68|Z|0051; Swamp of Sorrows|N|To Lord Itharius.\n[color=FF0000]NOTE: [/color]You should've been teleported back to the top of the temple when you accepted this quest.\nIf you weren't... fight your way out, or use your hearth and run back.|
 A The Heart of the Temple|QID|27915|LEAD|27633|PRE|27914|M|69.47,54.68|Z|0051; Swamp of Sorrows|N|From Lord Itharius.|DUNGEON|
 A To Stonard|QID|27871|LEAD|27852^27853|M|69.47,54.68|Z|0051; Swamp of Sorrows|N|From Lord Itharius.|
-T To Stonard|QID|27871|M|49.36,55.33|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag at the top of the big building in Stonard.|
-A Okrilla and the Blasted Lands|QID|28553|AVAILABLE|27911&28671&28858|LEAD|25674|M|49.36,55.33|Z|0051; Swamp of Sorrows|N|Accepting this quest now will cost you 12,000+ exp later.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Blasted Lands next and don't care about the exp loss. Otherwise, decline the quest and skip this step to move on.|LVL|54|NA| ; ** This quest is offered before the other two after you turn in the previous quest - Hendo72
-A Lumbering Oafs|QID|27853|M|49.36,55.33|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-A Orcs and Humans|QID|27852|M|49.36,55.33|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+T To Stonard|QID|27871|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag at the top of the big building in Stonard.|
+A Okrilla and the Blasted Lands|QID|28553|ACTIVE|-28671&-28858|AVAILABLE|27916|LEAD|25674|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.\n[color=FF0000]NOTE: [/color]If you accept this breadcrumb quest now, you'll miss out on 12K+ exp.\nAccept this quest If you intend to do Blasted Lands next and don't care about missing out on the exp.\nOtherwise, decline the quest and manually check this step off to continue.|LVL|54|NA|
+A Lumbering Oafs|QID|27853|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+A Orcs and Humans|QID|27852|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
 f Stonard|ACTIVE|27852&27853|M|47.78,55.23|Z|0051; Swamp of Sorrows|N|At Breyk.|
 C Orcs and Humans|QID|27852|M|60.41,43.32|Z|0051; Swamp of Sorrows|N|Kill Marshtide Footmen in The Bloodmire to the northeast.|
 C Lumbering Oafs|QID|27853|M|65.42,35.01|Z|0051; Swamp of Sorrows|N|Kill Marshtide Peasants in the surrounding area.|T|Marshtide Peasant|
-T Orcs and Humans|QID|27852|M|49.43,55.40|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-T Lumbering Oafs|QID|27853|M|49.43,55.40|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-A Tides of Darkness|QID|27854|PRE|27852&27853|M|49.43,55.40|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-A Reinforcements Denied|QID|27855|PRE|27852&27853|M|49.43,55.40|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-A Marking the Fallen|QID|27856|PRE|27852&27853|M|49.43,55.40|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-C Reinforcements Denied|QID|27855|M|62.65,42.18|Z|0051; Swamp of Sorrows|N|Kill Marshtide Knights.|
-C Tides of Darkness|QID|27854|M|62.88,40.34|Z|0051; Swamp of Sorrows|N|Kill Marshtide Mages.|
-C Marking the Fallen|QID|27856|M|62.20,46.79|Z|0051; Swamp of Sorrows|N|Mark Fallen Stonard Warriors using the Banner of the Fallen.\n[color=FF0000]NOTE: [/color]You need to be right on top of them to do it.|T|Fallen Stonard Warrior|U|62548|
-T Tides of Darkness|QID|27854|M|49.41,55.40|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-T Reinforcements Denied|QID|27855|M|49.41,55.40|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-T Marking the Fallen|QID|27856|M|49.41,55.40|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-A We're Under Attack!|QID|27857|M|49.41,55.40|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-C We're Under Attack!|QID|27857|M|47.97,54.26|Z|0051; Swamp of Sorrows|N|.|
-T We're Under Attack!|QID|27857|M|49.38,55.36|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-A Neeka Bloodscar|QID|27906|M|49.38,55.36|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
-T Neeka Bloodscar|QID|27906|M|21.20,51.83|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar at the top of the tower in the hut.|
-A Prayerblossom|QID|27907|M|21.20,51.83|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-A Secrets of the Mire|QID|27908|M|21.20,51.83|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-C Secrets of the Mire|QID|27908|M|31.66,43.42|Z|0051; Swamp of Sorrows|N|Shifting Mireblobs in the rivers.|
-C Prayerblossom|QID|27907|M|31.66,43.42|Z|0051; Swamp of Sorrows|N|Loot the flowers scattered across the area.|
-T Prayerblossom|QID|27907|M|21.22,51.78|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
-T Secrets of the Mire|QID|27908|M|21.22,51.78|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
-A The Purespring|QID|27909|M|21.22,51.78|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-A Last Regrets|QID|27910|M|21.22,51.78|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-C The Purespring|QID|27909|M|18.69,60.44|Z|0051; Swamp of Sorrows|N|Elementals in the area.|
-C Last Regrets|QID|27910|M|10.47,33.78|Z|0051; Swamp of Sorrows|N|Kill Duskfang in the cave up north.|
-T The Purespring|QID|27909|M|21.24,51.86|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
-T Last Regrets|QID|27910|M|21.22,51.87|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
-A With Dying Breath|QID|27911|M|21.22,51.87|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-T With Dying Breath|QID|27911|M|21.22,51.87|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
-A Ruag's Report|QID|27916|LEAD|28865|PRE|27911|M|21.22,51.87|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
-T Ruag's Report|QID|27916|M|49.38,55.36|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
-A Okrilla and the Blasted Lands|QID|28553|ACTIVE|-28671^-28858|LEAD|25674|M|49.36,55.33|Z|0051; Swamp of Sorrows|N|Accepting this quest now will cost you 12,000+ exp later.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Blasted Lands next. Otherwise, skip this step to move on.|LVL|54|NA|
+T Orcs and Humans|QID|27852|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag on the top floor.|
+T Lumbering Oafs|QID|27853|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
+A Marking the Fallen|QID|27856|PRE|27852&27853|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+A Tides of Darkness|QID|27854|PRE|27852&27853|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+A Reinforcements Denied|QID|27855|PRE|27852&27853|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+C Reinforcements Denied|QID|27855|M|62.65,42.18|Z|0051; Swamp of Sorrows|N|Kill Marshtide Mages in the Bloodmire.|S|
+C Tides of Darkness|QID|27854|M|62.88,40.34|Z|0051; Swamp of Sorrows|N|Kill Marshtide Knights in the Bloodmire.|T|Marshtide Knight|
+C Reinforcements Denied|QID|27855|M|62.65,42.18|Z|0051; Swamp of Sorrows|N|Kill Marshtide Mages in the Bloodmire.|T|Marshtide Mage|US|
+C Marking the Fallen|QID|27856|M|59.46,47.78|Z|0051; Swamp of Sorrows|N|Mark Fallen Stonard Warriors using the Banner of the Fallen.\n[color=FF0000]NOTE: [/color]You need to be right on top of them to do it.\nIf you prefer, you can use the same one to finish because the buff lasts 20 seconds and fades.|T|Fallen Stonard Warrior|U|62548|
+T Tides of Darkness|QID|27854|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
+T Reinforcements Denied|QID|27855|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
+T Marking the Fallen|QID|27856|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
+A We're Under Attack!|QID|27857|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+C We're Under Attack!|QID|27857|M|47.97,54.26|Z|0051; Swamp of Sorrows|N|Kill the Marshtide Invaders attacking Stonard.\n[color=FF0000]NOTE: [/color]As long as you do more damage than the Defender(s) helping you, you'll get credit for the kill.|
+T We're Under Attack!|QID|27857|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag.|
+A Neeka Bloodscar|QID|27906|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.|
+T Neeka Bloodscar|QID|27906|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar at the top of the tower in Splinterspear Junction.\n[color=FF0000]NOTE: [/color]Follow the road west out of Stonard.|
+A Prayerblossom|QID|27907|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+A Secrets of the Mire|QID|27908|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+C Secrets of the Mire|QID|27908|M|33.41,40.48|Z|0051; Swamp of Sorrows|L|62593 10|ITEM|62593|N|Shifting Mireglobs in the rivers throughout the area.|S|
+C Prayerblossom|QID|27907|M|35.34,39.56|Z|0051; Swamp of Sorrows|L|62550 10|N|Collect the flowers scattered throughout The Shifting Mire and surrounding area.|
+C Secrets of the Mire|QID|27908|M|33.41,40.48|Z|0051; Swamp of Sorrows|L|62593 10|ITEM|62593|N|Shifting Mireglobs in the rivers throughout the area.|T|Shifting Mireglob|US|
+T Prayerblossom|QID|27907|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
+T Secrets of the Mire|QID|27908|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
+A The Purespring|QID|27909|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+A Last Regrets|QID|27910|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+C The Purespring|QID|27909|M|18.69,60.44|Z|0051; Swamp of Sorrows|L|62609 8|ITEM|62609|N|Purespring Elementals around Purespring Cavern.|
+C Last Regrets|QID|27910|M|10.47,33.78|Z|0051; Swamp of Sorrows|L|62714|ITEM|62714|N|Duskfang inside the cave in Misty Valley.\n[color=FF0000]NOTE: [/color]If you find the right angles, you can walk over the hills instead of going around them.|
+T The Purespring|QID|27909|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.\n[color=FF0000]NOTE: [/color]Going around the hill is your only choice this time.|
+T Last Regrets|QID|27910|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
+A With Dying Breath|QID|27911|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+T With Dying Breath|QID|27911|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|To Neeka Bloodscar.|
+A Ruag's Report|QID|27916|LEAD|28865|PRE|27911|M|21.21,51.73|Z|0051; Swamp of Sorrows|N|From Neeka Bloodscar.|
+T Ruag's Report|QID|27916|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|To Dispatch Commander Ruag in Stonard.|
+A Okrilla and the Blasted Lands|QID|28553|ACTIVE|-28671&-28858|LEAD|25674|M|49.34,55.34|Z|0051; Swamp of Sorrows|N|From Dispatch Commander Ruag.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Blasted Lands next.\nOtherwise, decline the quest and manually check this step off to move on.|LVL|54|NA|
 
 ]]
 end)
