@@ -41,26 +41,24 @@ A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the 
 ;ASSASINATION
 ;A Finishing the Job|QID|42501|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|40840|
 A No Sanctuary|QID|42502|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|42501|
-C Finishing the Job|QID|42501|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|Enter the Chamber of the Guardian.|
-C Finishing the Job|QID|42501|QO|2|M|32.03,71.37|Z|0629; Aegwynn's Gallery@Dalaran|NC|N|(Optional) Take the Portal to Karazhan.|
-C Finishing the Job|QID|42501|QO|3|M|35.38,25.32|Z|17;Blasted Lands|NC|N|(Optional) Fly to Blasted Lands.|
-C Finishing the Job|QID|42501|QO|4|M|37.03,29.14|Z|17;Blasted Lands|N|Kill Caden Shadowgaze.|T|Caden Shadowgaze|
-C Finishing the Job|QID|42501|QO|5|M|37.03,29.09|Z|17;Blasted Lands|NC|N|Loot the body.|
+C Finishing the Job|QID|42501|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|Use the scroll provided to TP to Blasted Lands.|U|173531|
+C Finishing the Job|QID|42501|QO|2|M|37.03,29.14|Z|17;Blasted Lands|N|Kill Caden Shadowgaze.|T|Caden Shadowgaze|
+C Finishing the Job|QID|42501|QO|3|M|37.03,29.09|Z|17;Blasted Lands|NC|N|Loot the body.|
 T Finishing the Job|QID|42501|M|37.03,29.09|Z|17;Blasted Lands|N|To UI Alert.|
-C No Sanctuary|QID|42502|QO|3|M|86.92,73.74|Z|Duskwood|NC|N|(Optional) Fly to Duskwood.|
-C No Sanctuary|QID|42502|QO|4|M|19.06,53.99|Z|Duskwood|N|Up the stairs, first room on the right.|
-C No Sanctuary|QID|42502|QO|5|M|19.06,53.99|Z|Duskwood|NC|N|Loot the body.|
+C No Sanctuary|QID|42502|QO|1|M|86.92,73.74|Z|Duskwood|NC|N|Use the scroll provided to TP to Duskwood.|U|173530|
+C No Sanctuary|QID|42502|QO|2|M|19.06,53.99|Z|Duskwood|N|Up the stairs, first room on the right.|
+C No Sanctuary|QID|42502|QO|3|M|19.06,53.99|Z|Duskwood|NC|N|Loot the body.|
 T No Sanctuary|QID|42502|M|19.52,54.68|Z|Duskwood|N|To UI Alert.|
 A Codebreaker|QID|42503|M|19.52,54.68|Z|Duskwood|PRE|42502&42501|N|From UI Alert|
 C Codebreaker|QID|42503|QO|1|M|19.52,54.68|Z|Duskwood|NC|N|Read the Coded Message.|U|138102|
 T Codebreaker|QID|42503|M|19.52,54.68|Z|Duskwood|N|To UI Alert.|
 A Cloak and Dagger|QID|42539|M|19.52,54.68|Z|Duskwood|PRE|42503|N|From UI Alert.|
-C Cloak and Dagger|QID|42539|QO|1|M|73.82,48.80|Z|Duskwood|N|You are a rogue, use stealth and sap to avoid fighting (... if you want). The skull is on a table just inside the main room.|
+C Cloak and Dagger|QID|42539|QO|1|M|73.82,48.80|Z|Duskwood|N|You are a rogue, use stealth and sap to avoid fighting (... if you want). The skull is on a table just inside the main room.|U|173527|
 C Cloak and Dagger|QID|42539|QO|3|M|71.88,46.80|Z|Duskwood|N|Attempt to kill Althea Ebonlocke|T|Commander Althea Ebonlocke|
 C Cloak and Dagger|QID|42539|NC|QO|2|M|73.62,43.64|Z|Duskwood|N|The blood is in a basin in the first room on the right at the top of the stairs.|
 T Cloak and Dagger|QID|42539|M|73.62,43.64|Z|Duskwood|N|To UI Alert.|
 A Preparation|QID|42568|M|73.62,43.64|Z|Duskwood|N|From UI Alert.|PRE|42539|
-T Preparation|QID|42568|M|36.76,52.58|Z|Elwynn Forest|N|To Garona Halforcen.|
+T Preparation|QID|42568|M|36.76,52.58|Z|Elwynn Forest|N|To Garona Halforcen.|U|173532|
 A The Unseen Blade|QID|42627^42504|M|36.76,52.58|Z|Elwynn Forest|N|From Garona Halforcen.|PRE|42568|
 C Confront Mathias Shaw.|QID|42627^42504|SO|1;1|M|32.05,49.24|Z|Elwynn Forest|NC|N|Confront Mathias Shaw.|
 C Live Drop|QID|42627^42504|SO|2|M|66.19,74.39|Z|84;Stormwind City|N|Use stealth (even if you are alliance), and sap on the guards that see invis (or fight them when they are far enough away from the others).  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right). Pick up the box on the table beside Elling.|NC|
@@ -73,7 +71,7 @@ C Make Althea Ebonlocke talk|QID|42627^42504|SO|6;2|M|76.11,53.72|Z|84;Stormwind
 C On the Trail|QID|42627^42504|SO|7;1|Z|84;Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|
 C Marked for Death|QID|42627^42504|QO|1|M|82.77,27.92|Z|84;Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
 C A Dark Gift|QID|42627^42504|M|82.77,27.92|Z|84;Stormwind City|NC|N|Take up the Kingslayers as your own.|
-C Take the portal to Dalaran|QID|42627^42504|SO|10;1|M|86.96,37.29|Z|84;Stormwind City|NC|N|Take the portal to Dalaran.|
+P Dalaran|ACTIVE|42627^42504|SO|10;1|M|86.92,37.23|Z|84;Stormwind City|NC|N|Take the portal to Dalaran.|
 T The Unseen Blade|QID|42627^42504|M|42.48,74.61|N|Enter your order hall from any of the hidden entrances and then return to Garona Halforcen.|
 
 ;OUTLAW
@@ -128,11 +126,12 @@ T Fangs of the Devourer|QID|41924|M|40.82,75.40|N|To Valeera Sanguinar back in t
 ;After finishing first artifact-Class Hall
 A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924^40849^42627|
 C Honoring Success|QID|40950|QO|1|M|42.23,77.09|NC|N|Wait a bit for the dialog and then raise your glass (extra action button).|EAB|
-C Honoring Success|QID|40950|QO|2|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
+C Honoring Success|QID|40950|QO|2|M|43.02,73.73|N|Celebrate your victory.|
+C Honoring Success|QID|40950|QO|3|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
 T Honoring Success|QID|40950|M|41.43,78.10|N|To Lord Jorach Ravenholdt.|
 
 ;2nd spec artifact
-A Another Worthy Blade|QID|44034|M|41.41,78.21|N|2nd Artifact Weapon from Lord Jorach Ravenholdt. Skip if you want to ignore this for now.|PRE|40950&40996|
+A Another Worthy Blade|QID|44034|M|41.41,78.21|N|2nd Artifact Weapon from Lord Jorach Ravenholdt. Skip if you want to ignore this for now.|PRE|40950&40997|
 C Another Worthy Blade|QID|44034|M|41.41,78.21|NC|N|Choose your next artifact to pursue. It will confirm you want to change specs after you choose. You can do the 3rd spec immediately after finishing the 2nd.|
 T Another Worthy Blade|QID|44034|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Artifact Specific Quest|QID|42501^40847|M|41.44,78.08|N|From one of the NPCs in this room for your second set of blades.|PRE|41919&44034|
@@ -174,7 +173,8 @@ A What Winstone Suggests|QID|43015|M|37.92,45.26|N|From Nikki the Gossip.|PRE|43
 C What Winstone Suggests|QID|43015|M|46.05,69.09|NC|N|Choose your first order hall unprade from Winstone.|;not correct coords. kinda close
 T What Winstone Suggests|QID|43015|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A A Body of Evidence|QID|43958|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43015|
-C A Body of Evidence|QID|43958|M|82.24,69.40|NC|N|Go out towards the main exit to find the body.|
+C A Body of Evidence|QID|43958|QO|1|M|82.24,69.40|NC|N|Go out towards the main exit to find the body.|
+C A Body of Evidence|QID|43958|QO|2|M|82.24,69.40|H|N|Grab the knife out of her hand.|
 T A Body of Evidence|QID|43958|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Spy vs. Spy|QID|43829|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43958|
 C Spy vs. Spy|QID|43829|M|37.92,45.26|NC|N|Use scouting map to send your followers on the 'Spy vs Spy' mission. This is your last order hall quest until level 41. Right Click to check this off manually to move to other steps in the guide, you will be reminded about it when you return to your order hall.|
@@ -184,7 +184,7 @@ t Spy vs. Spy|QID|43829|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A The Bloody Truth|QID|44041|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43829|
 C The Bloody Truth|QID|44041|QO|1|M|41.41,78.21;83,68|CS|U|140395|NC|N|Use the provided glasses, to see the blood trail and follow it.|
 C The Bloody Truth|QID|44041|QO|2|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed before you go upstairs in Legerdemain Lounge.|
-C The Bloody Truth|QID|44041|QO|3|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed abd sot ib tge SI:7 Agents.|
+C The Bloody Truth|QID|44041|QO|3|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed and sit on the SI:7 Agents.|
 T The Bloody Truth|QID|44041|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Mystery at Citrine Bay|QID|44116|M|41.41,78.21|N|From Lord Jorach Ravenholdt. Don't forget to re-equip your hat.|PRE|44041|
 C Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|NC|N|You can wait until you quest in Stormheim if you aren't in a rush.|

@@ -43,10 +43,10 @@ T Weapons of Legend|QID|40646|M|44.55,51.02|N|To Rensar Greathoof.|
 A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|40646|
 ;Class hall development lvl 10 to 49
 T Growing Power|QID|42516|M|44.66,51.95|N|To Rensar Greathoof.|
-A Rise Champions|QID|42583|M|44.66,51.95|N|From Rensar Greathoof.|PRE|42516|
+A Rise, Champions|QID|42583|M|44.66,51.95|N|From Rensar Greathoof.|PRE|42516|
 A Champion: Zen'tabra|QID|40650|M|47.31,7.61|N|From/To Zen'tabra who can be found in the Tel'Andu Barrow Den.|ACTIVE|42583|
 A Champion: Naralex|QID|42096|M|67.19,75.77|N|From/To Naralex. If you missed him in the Circle of Spirits, he has wandered off to near the exit into Val'sharah.|ACTIVE|42583|
-T Rise Champions|QID|42583|M|52.52,51.50|N|To Skylord Omnuron.|
+T Rise, Champions|QID|42583|M|52.52,51.50|N|To Skylord Omnuron.|
 A Sister Lilith|QID|42584|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42583|
 C Sister Lilith|QID|42584|M|52.66,51.20|N|Use your scouting map to send one of your new followers on their first mission. (It only takes 2 minutes.}|
 T Sister Lilith|QID|42584|M|52.52,51.50|N|To Skylord Omnuron.|
@@ -54,9 +54,9 @@ A Recruiting the Troops|QID|42585|M|52.52,51.50|N|From Skylord Omnuron.|PRE|4258
 A What Could Go Wrong|QID|41413|M|59.35,53.19|N|From/To Zen'kiki. Alas, no further interaction with Zen'kiki at this time.|PRE|42584|
 C Recruiting the Troops|QID|42585|M|36.37,25.35|N|Sister Lilith can be found near the Moonwell. Find her and train your first troop.  When that was finishes (near instant), Pick it up from the Banner beside her and then you can train 2 more.|
 T Recruiting the Troops|QID|42585|M|52.52,51.50|N|To Skylord Omnuron.|
-A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
-C Glade Defense|QID|42586|M|52.66,51.20|MID|924|NC|N|Use your scouting map to send your followers on the 'A Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit.|
-t Glade Defense|QID|42586|M|52.52,51.50|N|To Skylord Omnuron.|
+A A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
+C A Glade Defense|QID|42586|M|52.66,51.20|MID|924|NC|N|Use your scouting map to send your followers on the 'A Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit.|
+t A Glade Defense|QID|42586|M|52.52,51.50|N|To Skylord Omnuron.|
 A Branching Out|QID|42588|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42586|
 C Branching Out|QID|42588|M|32.83,29.19|NC|N|Pick your first order advancement at Leafbeard the Storied.|
 T Branching Out|QID|42588|M|52.52,51.50|N|To Skylord Omnuron.|
