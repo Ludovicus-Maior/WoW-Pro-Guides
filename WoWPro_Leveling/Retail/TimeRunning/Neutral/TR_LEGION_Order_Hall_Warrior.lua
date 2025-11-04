@@ -10,7 +10,6 @@ WoWPro:GuideClassSpecific(guide, 'Warrior')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 ;the lines starting with ";*" are copied from a differant class guide and need updated with the correct coordinates and/or NPC names
 A A Desperate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|0627; Dalaran!Broken Isles|N|From Eitrigg.|
 C A Desperate Plea|QID|41052|FACTION|Horde|M|75.04,46.22|Z|0627; Dalaran!Broken Isles|CHAT|N|Talk with High Overlord Saurfang.|
