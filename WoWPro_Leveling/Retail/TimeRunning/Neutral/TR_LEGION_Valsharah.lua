@@ -156,9 +156,9 @@ A The Demons Below|QID|38144|PRE|38143|M|60.46,18.26|Z|0643; Lower Sleepers Barr
 C The Demons Below|QID|38144|M|48.99,69.91|S|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Kill the Darkfiend Intruders.|
 C Out of the Dream|QID|38145|M|48.99,69.91|NC|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Wake up the Druids.|
 C The Demons Below|QID|38144|M|48.99,69.91|US|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Finish your demon quota.|
-T The Demons Below|QID|38144|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
-T Out of the Dream|QID|38145|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
-A Entangled Dreams|QID|38147|PRE|38145&38144|M|60.46,18.26|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|From Koda Steelclaw.|
+T The Demons Below|QID|38144|M|63.52,48.80|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
+T Out of the Dream|QID|38145|M|63.52,48.80|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|To Koda Steelclaw.|
+A Entangled Dreams|QID|38147|PRE|38145&38144|M|63.52,48.80|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|From Koda Steelclaw.|
 C Entangled Dreams|QID|38147|M|59.84,83.58|T|Morphael|Z|0643; Lower Sleepers Barrow@Sleeper's Barrow|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.89,81.50|Z|641; Val'sharah|N|To Koda Steelclaw.|
 $ Treasure|QID|38366|M|48.69,73.79|Z|641; Val'sharah|N|Surrounded by a circle of tree trunks. Loot for a bit of treasure and resources.|RANK|2|
@@ -237,7 +237,7 @@ C The Farmsteads|QID|38644|M|38.11,65.22|QO|1|CHAT|Z|641; Val'sharah|N|Click on 
 $ Treasure|QID|39080|M|38.45,65.30|Z|641; Val'sharah|N|In the basement with Penelope, Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39079|M|38.64,67.18|Z|641; Val'sharah|N|On top of the support for the millwheel, just south of Heathrow house, loot for a bit of treasure and resources.|RANK|3|
 K Kill Lelyn Swiftshadow|AVAILABLE|38711|M|39.10,64.34|L|127860|T|Lelyn Swiftshadow|Z|641; Val'sharah|N|Drops a quest item.|RANK|2|
-A The Warden's Signet|QID|38711|M|39.10,64.34|Z|641; Val'sharah|N|From the ring dropped by Lelyn.|U|127860|
+;A The Warden's Signet|QID|38711|M|39.10,64.34|Z|641; Val'sharah|N|From the ring dropped by Lelyn.|U|127860|
 $ Vibrating Arcane Trap|QID|39121|M|34.38,58.30|Z|641; Val'sharah|N|Click on the trap to attract Kiranys Duskwhisper, kill him for a bit of loot and treasure.|RANK|2|;unable to find correct QID
 $ Treasure|QID|39081|M|33.81,58.25|Z|641; Val'sharah|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Farmsteads|QID|38644|M|37.06,58.50|QO|3|NC|Z|641; Val'sharah|N|Check the Fishing Dock|

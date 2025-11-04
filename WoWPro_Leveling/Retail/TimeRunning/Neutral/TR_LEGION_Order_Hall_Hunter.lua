@@ -40,7 +40,7 @@ C Making Introductions|QID|41574|QO|2|SO|1|M|85.41,9.67;84.80,9.66|CS|CHAT|NC|Z|
 C Find Warlord Volund's tomb.|QID|41574|SO|2;1|M|52.65,52.30|Z|Stormheim/1|N|Head to the back of the tomb then kill the three Spectral Windshapers.|
 C Protect Prustaga as she opens Volund's tomb.|QID|41574|SO|3;1|M|53.84,47.37|Z|Stormheim/1|N|Protect Prustaga as she opens Volund's tomb. There will be three spawns of increasing numbers of mobs.|
 C Search for Titanstrike.|QID|41574|SO|4;1|M|57.1,27.6|Z|Stormheim/1||N|Head into Volund's Hoard, wait for the dialog (there will be round of fighting during the dialog).|
-K Warlord Volund|QID|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund, then wait for the dialog to finish.|
+K Warlord Volund|ACTIVE|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund, then wait for the dialog to finish.|
 C Join Keeper Mimiron in Ulduar.|QID|41574|SO|6;1|M|58.25,17.79|Z|Stormheim/1|NC|N|Wait for the dialog to finish, then click on the Teleporation Pad.|
 T Stolen Thunder|QID|41574|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|To Mimiron.|
 A The Creator's Workshop|QID|42158|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|From Mimiron.|PRE|41574|
@@ -123,7 +123,7 @@ A The Unseen Path|QID|40954|M|36.67,29.03|N|From Emmarel Shadewarden.|PRE|40953|
 C The Unseen Path|QID|40954|QO|1|M|43.61,24.08|NC|N|Listen to the tale of the Unseen Path|
 T The Unseen Path|QID|40954|M|43.51,24.77|N|To Emmarel Shadewarden.|
 A Oath of Service|QID|40955|M|43.51,24.77|N|From Emmarel Shadewarden.|PRE|40954|
-C Oath of Service|QID|40955|QO|1|M|44.32,27.18|NC|N|Click on the statue to take the oath|
+C Oath of Service|QID|40955|QO|1|M|44.32,27.18|H|N|Click on the statue to take the oath|
 T Oath of Service|QID|40955|M|43.53,24.71|N|To Emmarel Shadewarden.|
 ; A Altar of the Eternal Hunt|QID|41053|M|43.53,24.71|N|From Emmarel Shadewarden.|PRE|40955|
 ; T Altar of the Eternal Hunt|QID|41053|M|47.31,53.87|N|To Altar Keeper Biehn.|
@@ -165,13 +165,14 @@ A Scouting Reports|QID|42384|M|42.87,46.93|N|From Tactician Tinderfell.|PRE|4252
 C Scouting Reports|QID|42384|M|42.87,46.93|NC|N|This is a two hour mission, so no need to wait around. Manually check the step off to progress.|
 t Scouting Reports|QID|42384|M|43.40,26.37|N|To Emmarel Shadewarden.|
 A Lending a Hand|QID|42385|M|43.40,26.37|N|From Emmarel Shadewarden.|PRE|42384|
-C Lending a Hand|QID|42385|M|69.85,51.17|Z|Dalaran@Dalaran70|NC|N|Take the portal to Dalaran and then find Aladune at Krasus landing to go to Val'sharah. (chat option not flightpath). He is near Bradensbrook.  If you haven't quested in Val'sharah yet, you can do this while questing through. (if you want that option, switch to Val'sharah guide now).|
+C Lending a Hand|QID|42385|M|36.17,27.50|Z|0739; Trueshot Lodge!Highmountain|NC|N|Talk to Odan Battlebow. Pick the chat option, "I require a flight to Val'sharah".|
 T Lending a Hand|QID|42385|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 A Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|N|From Hudson Crawford.|PRE|42385|
 A Assassin Entrapment|QID|42387|M|41.69,60.00|Z|Val'sharah|N|From Hudson Crawford.|PRE|42385|
 C Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|S|N|Kill the hounds.|
 C Assassin Entrapment|QID|42387|M|39.51,61.60|Z|Val'sharah|QO|1|U|137551|NC|N|Place the trap.|
 C Assassin Entrapment|QID|42387|M|39.51,61.60|Z|Val'sharah|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|
+C Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|US|N|Kill the hounds.|
 T Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 T Assassin Entrapment|QID|42387|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 A Urgent Summons|QID|42388|M|41.68,59.97|Z|Val'sharah|N|From Snowfeather.|PRE|42387|
