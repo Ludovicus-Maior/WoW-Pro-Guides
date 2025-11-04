@@ -10,7 +10,7 @@ N Bag Space|AVAILABLE|12336|N|[color=FF0000]NOTE: [/color]You can get duplicate 
 N The guides|AVAILABLE|12336|N|Each continent has its own guide. This hub guide will link to all of them.\nStart with the continent you prefer (I suggest EK for better flow) and work your way through them all.\nAs you complete the guides, they'll be removed from the hub.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|NOCACHE|
 R Stormwind City|AVAILABLE|12337&29074|N|This guide starts in Stormwind City.|IZ|-0084; Stormwind City|
 h Trade District|AVAILABLE|12336|M|60.39,75.28|Z|0084; Stormwind City|N|Set your hearth to Stormwind City because all of the guides start there.\n[color=FF0000]NOTE: [/color]Innkeeper Allison is probably your best choice.|
-A Candy Bucket|QID|12336|M|60.52,75.34|Z|0084; Stormwind City|N|Beside Innkeeper Allison (while you're here).|
+A Candy Bucket|QID|12336|M|60.52,75.34|Z|0084; Stormwind City|N|Beside Innkeeper Allison (while you're here) inside The Gilded Rose.|
 C Out With It|QID|991656|L|33226 -20|N|Just eat one Tricky Treat every time the global cooldown is over until you throw up.\n[color=FF0000]NOTE: [/color]Tricky Treats are currency that you can buy items with. Stop using them as SOON as you finish the achieve.|ACH|1656;2|U|33226|O|
 C That Sparkling Smile|QID|990981|N|Use the toothpick.|ACH|1656;5|U|37604|O|
 D Hallow's End Eastern Kingdoms|AVAILABLE|28988|N|Click the book to load the Hallow's End (Eastern Kingdoms) guide.|JUMP|TwiHallowEK|

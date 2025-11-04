@@ -12,8 +12,8 @@ U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.\n[color=FF0000]NOT
 * Sinister Squashling|M|PLAYER|CC|N|Once you get a Sinister Squashling pet, they are BoP and you can safely delete any more you find.|ACH|292;1|U|33154|O|
 
 R Stormwind City|AVAILABLE|29074|N|This guide starts in Stormwind City.|IZ|-0084; Stormwind City|
-A Candy Bucket|QID|12336|M|60.60,75.02|Z|0084; Stormwind City|N|Stormwind City|
-A Missing Heirlooms|QID|29392|M|60.05,75.13|Z|0084; Stormwind City|N|From Anson Hastings.|
+A Candy Bucket|QID|12336|M|60.52,75.34|Z|0084; Stormwind City|N|Beside Innkeeper Allison (while you're here) inside The Gilded Rose.|
+A Missing Heirlooms|QID|29392|M|60.05,75.13|Z|0084; Stormwind City|N|From Anson Hastings inside the The Gilded Rose.|
 A A Season for Celebration|QID|29074|M|61.67,74.19|Z|0084; Stormwind City|N|From Human Commoner.|
 A Costumed Orphan Matron|QID|11356|M|61.67,74.19|Z|0084; Stormwind City|N|From Human Commoner.|
 T A Season for Celebration|QID|29074|M|32.04,50.51|Z|0037; Elwynn Forest|N|To Celestine of the Harvest.|
@@ -34,37 +34,43 @@ A Fencing the Goods|QID|29398|M|23.99,44.60|Z|0084; Stormwind City|N|To Hired Co
 b Rut'theran Village|ACTIVE|8311|QO|4|AVAILABLE|12331|M|22.06,56.06|Z|0084; Stormwind City|N|Take the boat to Teldrassil.|
 P Darnassus|ACTIVE|8311|QO|4|AVAILABLE|12331|M|54.96,87.90|Z|0057; Teldrassil|N|Go through the portal to Darnassus.|
 A Candy Bucket|QID|12334|M|62.29,33.17|Z|0089; Darnassus|N|Beside Innkeeper Saelienne in Craftsmen's Terrace.|
-A Dancing for Marzipan|QID|8357|ACTIVE|8311|M|62.53,32.79|Z|0089; Darnassus|L|20496 2|N|From Innkeeper Saelienne.|
+A Dancing for Marzipan|QID|8357|ACTIVE|8311|M|62.53,32.79|Z|0089; Darnassus|L|20496|N|From Innkeeper Saelienne.|
 C Dancing for Marzipan|QID|8357|M|PLAYER|CC|N|Click the button to dance.|T|Innkeeper Saelienne,dance|
 T Dancing for Marzipan|QID|8357|M|62.53,32.79|Z|0089; Darnassus|N|To Innkeeper Saelienne.|
 F Dolanaar|AVAILABLE|12331|M|36.61,47.83|Z|0089; Darnassus|N|Fly to Dolanaar from Leora.|
 A Candy Bucket|QID|12331|M|55.36,52.29|Z|0057; Teldrassil|N|Beside Innkeeper Keldamyr in Dolanaar.|
 H Stormwind City|ACTIVE|29398|PRE|12331&12334|M|60.39,75.28|Z|0084; Stormwind City|N|Hearth back to Stormwind.\n[color=FF0000]NOTE: [/color]If it's on cooldown, fly back to Darnassus and go through the portal to take the boat back.|
-A Flexing for Nougat|QID|8356|M|60.39,75.28|Z|0084; Stormwind City|N|From Innkeeper Allison.|
+A Flexing for Nougat|QID|8356|ACTIVE|8311|M|60.39,75.28|Z|0084; Stormwind City|L|20492|N|From Innkeeper Allison.|
 C Flexing for Nougat|QID|8356|M|PLAYER|CC|N|click the button to flex.|T|Innkeeper Allison,flex|
 T Flexing for Nougat|QID|8356|M|60.39,75.28|Z|0084; Stormwind City|N|To Innkeeper Allison.|
-C Fencing the Goods|QID|29398|M|61.19,70.84|Z|0084; Stormwind City|N|Talk to Auctioneer Finch.|
-T Fencing the Goods|QID|29398|M|61.19,70.84|Z|0084; Stormwind City|N|To Auctioneer Finch.|
-A Shopping Around|QID|29399|M|61.19,70.84|Z|0084; Stormwind City|N|From Auctioneer Finch.|
-C Shopping Around|QID|29399|M|63.62,47.42|Z|0084; Stormwind City|N|Search the Shady Lady. Takes a while.|
-T Shopping Around|QID|29399|M|64.17,46.46|Z|0084; Stormwind City|N|To Hudson Barnes.|
-A Taking Precautions|QID|29402|M|64.17,46.46|Z|0084; Stormwind City|N|From Hudson Barnes.|
-C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|Z|0084; Stormwind City|N|Around the pumpkin patch.|
-C Taking Precautions|QID|29402|M|62.8,74.8|Z|0084; Stormwind City|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|
-T Taking Precautions|QID|29402|M|64.17,46.46|Z|0084; Stormwind City|N|To Hudson Barnes.|
+C Fencing the Goods|QID|29398|M|61.12,70.62|Z|0084; Stormwind City|N|Talk to Auctioneer Finch.|CHAT|
+T Fencing the Goods|QID|29398|M|61.12,70.62|Z|0084; Stormwind City|N|To Auctioneer Finch.|
+A Shopping Around|QID|29399|M|61.12,70.62|Z|0084; Stormwind City|N|From Auctioneer Finch.|
+C Shopping Around|QID|29399|M|63.62,47.42|Z|0084; Stormwind City|N|Enter the Shady Lady and wait patiently for the quest to complete.|
+T Shopping Around|QID|29399|M|64.17,46.29|Z|0084; Stormwind City|N|To Hudson Barnes.|
+A Taking Precautions|QID|29402|M|64.17,46.29|Z|0084; Stormwind City|N|From Hudson Barnes.|
+C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|Z|0084; Stormwind City|L|71035 5|N|Pick up the Blood Nettles from around The Wollerton Stead northeast of the Dwarven District.|
+B Taking Precautions|QID|29402|QO|2|M|62.80,75.04|Z|0084; Stormwind City|L|3371 5|ITEM|3371|N|from Keldric Boucher inside Pestle's Apothecary in the Trade District.|
+B Taking Precautions|QID|29402|QO|1|M|52.81,74.26|Z|0084; Stormwind City|L|10940 2|ITEM|10940|N|from Jessara Cordell inside Cordell's Enchanting in the Canal side of the Mage Quarter, across from the Stockade entrance.\n[color=FF0000]NOTE: [/color]This is a limited quantity item and you may need to resort to other means of getting it (the AH, a friend, or an alternate toon).|
+T Taking Precautions|QID|29402|M|64.17,46.29|Z|0084; Stormwind City|N|To Hudson Barnes.|
 
-A The Collector's Agent|QID|29403|M|64.17,46.46|Z|0084; Stormwind City|N|From Hudson Barnes.|
-C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|CC|Z|0084; Stormwind City|N|In the catacombs in the Cathedral of Light.|
-T The Collector's Agent|QID|29403|M|55.26,43.54|Z|0084; Stormwind City|
-A What Now?|QID|29411|M|55.26,43.54|Z|0084; Stormwind City|N|From the crate.|
-T What Now?|QID|29411|M|60.39,75.28|Z|0084; Stormwind City|N|To Anson Hastings.|
-A The Creepy Crate|QID|29413|M|60.39,75.28|Z|0084; Stormwind City|N|Crate on the ground.|
-T The Creepy Crate|QID|29413|M|60.39,75.28|Z|0084; Stormwind City|N|Crate on the ground.|
+A The Collector's Agent|QID|29403|M|64.17,46.29|Z|0084; Stormwind City|N|From Hudson Barnes.|
+R Cathedral of Light|QID|29403|M|52.79,50.73|Z|0084; Stormwind City|N|Enter the Cathedral of Light in the Cathedral Square.|
+C The Collector's Agent|QID|29403|M|54.83,44.09|Z|0084; Stormwind City|N|Enter the room with Sanath Lim-yo and defeat the summoned Unleashed Void to complete the quest.\n[color=FF0000]NOTE: [/color]Access the Catacombs via the passage in the northwest corner of the Cathedral of Light.|
+T The Collector's Agent|QID|29403|M|55.40,43.39|Z|0084; Stormwind City|N|To the Stolen Crate.\n[color=FF0000]NOTE: [/color]Sanath Lim-yo won't bother with you anymore.|
+A What Now?|QID|29411|M|55.40,43.39|Z|0084; Stormwind City|N|From the Stolen Crate.|
+T What Now?|QID|29411|M|60.39,75.28|Z|0084; Stormwind City|N|To Anson Hastings in The Guilded Rose (Trade District Inn).|
+A The Creepy Crate|QID|29413|M|60.08,75.06|Z|0084; Stormwind City|N|From Anson's Crate on the floor beside you.|
+T The Creepy Crate|QID|29413|M|60.08,75.06|Z|0084; Stormwind City|N|To Anson's Crate on the floor.|
 
-C Clean Up in Stormwind|QID|29144|M|49.12,50.83|Z|0084; Stormwind City|N|Look for Orange clouds.|U|69191|US|
-T Clean Up in Stormwind|QID|29144|M|32.34,50.88|Z|0037; Elwynn Forest|N|From Gretchen Fenlow.|
-A Candy Bucket|QID|12286|M|43.73,65.97|Z|0037; Elwynn Forest|N|The Inn in Goldshire.|
-A Stop the Fires!|QID|11131|M|42.60,64.46|Z|0037; Elwynn Forest|N|From Costumed Orphan Matron. Go ahead and pick this up in case the quest is completed.|
+T Clean Up in Stormwind|QID|29144|M|32.34,50.88|Z|0037; Elwynn Forest|N|To Gretchen Fenlow outside Stormwind City's front gate.|
+T Costumed Orphan Matron|QID|11356|M|42.62,64.38|Z|0037; Elwynn Forest|N|To Costumed Orphan Matron in Goldshire.|
+A Fire Brigade Practice|QID|11360|M|42.62,64.38|Z|0037; Elwynn Forest|N|From Costumed Orphan Matron in Goldshire.|
+C Fire Brigade Practice|QID|11360|M|42.73,62.02|Z|0037; Elwynn Forest|N|Click on the Water Barrel to fill your bucket and use Full Water Bucket to put out the burning Wickermen in the practice area.\n[color=FF0000]NOTE: [/color]The practice area is on the hill to the north the Orphan Matron.\nYou need to refill at the Water Barrel after each use.|U|32971|NC|
+T Fire Brigade Practice|QID|11360|M|42.62,64.38|Z|0037; Elwynn Forest|N|To Costumed Orphan Matron.|
+A "Let the Fires Come!"|QID|12135|PRE|11360|M|42.62,64.38|Z|0037; Elwynn Forest|N|From Costumed Orphan Matron.\n[color=FF0000]NOTE: [/color]This quest starts the Headless Horseman's fire event.|
+A Stop the Fires!|QID|11131|ACTIVE|-12135|PRE|11360|M|42.62,64.38|Z|0037; Elwynn Forest|N|From Costumed Orphan Matron.\n[color=FF0000]NOTE: [/color]Pick this up in case the quest is completed while you're there.|
+A Candy Bucket|QID|12286|M|43.74,65.89|Z|0037; Elwynn Forest|N|Beside Innkeeper Farley inside The Lion's Pride Inn in Goldshire.|
 F Darkshire|QID|12344|M|77.53,44.32|Z|Duskwood|
 A Candy Bucket|QID|12344|M|73.80,43.61|Z|Duskwood|N|Darkshire|
 F Sentinel Hill|QID|12340|M|56.63,49.35|Z|Westfall|N|In Westfall.|
