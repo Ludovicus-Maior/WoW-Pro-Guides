@@ -1,3 +1,16 @@
+# Release 2025.11.05.A
+## Bug Fixes
+* Update to Ace Release-r1377
+* Hendo: I can't dance with Innkeeper Saelienne!
+* Hell:  `AREA_POIS_UPDATED` on classic may stutter.
+* Nevcairiel: Increase max map id to 3000, as Midnight crosses the 2500 boundary.
+* Furrydin: Fix recorder button alignment and bar size
+## Guide Updates
+* MOP Leveling Horde: Burning Steppes, Swamp of Sorrows
+* MOP World Events: Hallows End
+* Leveling Legion Remix: Order Halls, Suramar, Valsharah
+
+
 # Release 2025.10.23.A
 ## Bug Fixes
 * Update Vanilla Interface to 11508
