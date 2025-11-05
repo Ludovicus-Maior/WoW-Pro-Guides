@@ -205,7 +205,7 @@ C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|EAB|N|Use your [color=
 T An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
 A Ravencrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
 F Garden of the Moon|ACTIVE|44479|M|25.73,28.78|N|At Grimwing.|
-R Black Rook Hold|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|0641;Val'sharah|N|Travel to Black Rook Hold.|ACTIVE|44479|
+R Black Rook Hold|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|0641;Val'sharah|N|Travel to Black Rook Hold.|
 C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path.|
 C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
 C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|

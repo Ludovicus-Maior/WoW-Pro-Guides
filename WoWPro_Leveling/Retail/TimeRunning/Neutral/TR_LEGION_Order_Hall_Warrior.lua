@@ -10,15 +10,7 @@ WoWPro:GuideClassSpecific(guide, 'Warrior')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 ;the lines starting with ";*" are copied from a differant class guide and need updated with the correct coordinates and/or NPC names
-A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
-C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|85; Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120^44473|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
-;both
-C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|0627; Dalaran!Broken Isles|N|To Emissary Auldbridge.|
 A A Desperate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|0627; Dalaran!Broken Isles|N|From Eitrigg.|
 C A Desperate Plea|QID|41052|FACTION|Horde|M|75.04,46.22|Z|0627; Dalaran!Broken Isles|CHAT|N|Talk with High Overlord Saurfang.|
 T A Desperate Plea|QID|41052|FACTION|Horde|M|75.04,46.22|Z|0627; Dalaran!Broken Isles|N|To High Overlord Saurfang.|
@@ -27,87 +19,44 @@ T An Important Mission|QID|42814|FACTION|Alliance|M|74.64,45.01|Z|0627; Dalaran!
 A Return to the Broken Shore|QID|38904|FACTION|Horde|M|75.05,46.18|Z|0627; Dalaran!Broken Isles|N|From High Overlord Saurfang.|PRE|41052|
 A Return to the Broken Shore|QID|42815|FACTION|Alliance|M|75.05,46.18|Z|0627; Dalaran!Broken Isles|N|From Danath Trollbane.|PRE|42814|
 C Return to the Broken Shore|QID|38904^42815|NC|QO|1|M|75.04,47.17|Z|0627; Dalaran!Broken Isles|N|Hop on the extra mount.|
-C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|QID|38904^42815|
-C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904^42815|
-C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|38904^42815|
-C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Broken Shore|N|Defeat Bezzeredes and his allies.|QID|38904^42815|
-C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904^42815|
-C Return to the Broken Shore|QID|38904^42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
-T Return to the Broken Shore|QID|38904^42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
+C Meet up with the vrykul.|ACTIVE|38904^42815|SO|1|M|50.37,28.28|Z|0676; Broken Shore!Instance|N|Meet up with the vrykul.|
+C Legion forces eliminated|ACTIVE|38904^42815|SO|2|M|51.28,30.71|Z|0676; Broken Shore!Instance|N|Aid the vrykul in eliminating the Legion forces.|
+C Approach Danica|ACTIVE|38904^42815|SO|3|M|50.90,29.94|Z|0676; Broken Shore!Instance|N|Approach Danica.|
+C Defeat Bezzeredes and his allies.|ACTIVE|38904^42815|SO|4|M|49.45,32.56|Z|0676; Broken Shore!Instance|N|Defeat Bezzeredes and his allies.|
+C Defeat Malgalor|ACTIVE|38904^42815|SO|5|M|49.95,32.17|Z|0676; Broken Shore!Instance|N|Defeat Malgalor.|
+C Return to the Broken Shore|QID|38904^42815|QO|2|M|59.04,27.27|Z|0676; Broken Shore!Instance|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|T Return to the Broken Shore|QID|38904^42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
 A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|PRE|38904^42815|
-C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|Z|Skyhold!Dungeon|NC|N|Follow Danica|
-C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|Z|Skyhold!Dungeon|NC|N|Go to the Great Mead Hall|
-C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|Z|Skyhold!Dungeon|NC|N|Listen to Odyn|
+C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|Z|Skyhold!Dungeon|NC|N|Follow Danica.|
+C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|Z|Skyhold!Dungeon|NC|N|Go to the Great Mead Hall.|
+C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|Z|Skyhold!Dungeon|NC|N|Listen to Odyn.|
 T Odyn and the Valarjar|QID|39654|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
 A Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|39654|
-C Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|NC|N|Choose which artifact path you want, the next one will be available when you are level 102.|
+C Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|NC|N|Choose which artifact path you want, the next one will be available in the not too distant future.|
 T Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
 A Artifact Specific Quest|QID|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|40579|
-;ARMS
-A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582&40579|
-C The Sword of Kings|QID|41105|CHAT|QO|1|M|58.39,24.69|Z|Skyhold!Dungeon|N|(Optional) Speak with Aerylia to go to Dalaran|
-P Chamber of the Guardian|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|41105|
-C The Sword of Kings|QID|41105|NC|QO|2|M|29.13,77.48|Z|0629; Aegwynn's Gallery@Dalaran|N|(Optional) Take the Portal to Dalaran Crater. Its a long fall, you probably won't die...|
-C The Sword of Kings|QID|41105|QO|3|M|13.50,56.63|Z|0018; Tirisfal Glades|NC|N|Go to the Tomb of Tyr in Tirisfal Glades|
-C Culling the Cultists|QID|41105|SO|1;1|M|13.50,56.63|Z|0018; Tirisfal Glades|NC|N|Investigate the camp.|ACTIVE|41105|
-C Slay the ritualists torturing Thoradin.|SO|2|M|13.50,56.63|Z|0018; Tirisfal Glades|N|Slay the ritualists torturing Thoradin.|ACTIVE|41105|
-C Follow and listen to Thoradin.|SO|3|M|14.16,56.58|CHAT|Z|0018; Tirisfal Glades|N|Follow and listen to Thoradin.|ACTIVE|41105|
-C Enter the Tomb of Tyr.|SO|4|M|15.36,55.70|Z|0018; Tirisfal Glades|N|The entrance is beneath the lake.|ACTIVE|41105|
-C Void Tendrils killed|SO|5|M|37.44,54.31|Z|Keeper's Rest|N|Void Tendrils killed|ACTIVE|41105|
-C Kill Soth'ozz|SO|6|M|37.54,60.55|Z|Keeper's Rest|N|Kill Soth'ozz|ACTIVE|41105|
-C Reach the prison chamber.|SO|7|M|59.89,74.64|Z|Keeper's Rest|N|Reach the prison chamber.|ACTIVE|41105|
-C A Quick Execution|SO|8|M|63.91,71.43|Z|Keeper's Rest|N|Click on Zakajz before it is awake, ... (oh well, nothing is ever that easy.|ACTIVE|41105|
-C Defeat Zakajz|SO|9|M|63.91,71.43|Z|Keeper's Rest|N|Defeat Zakajz|ACTIVE|41105|
-C Take Strom'kar, the Warbreaker.|NC|SO|10;1|M|58.03,75.86|Z|Keeper's Rest|N|Take Strom'kar, the Warbreaker.|ACTIVE|41105|
-C Slay the Beast.|NC|SO|10;2|M|58.03,75.86|Z|Keeper's Rest|N|Use the Extra Action Button to permanently deal with Zakalz.|ACTIVE|41105|
-C The Sword of Kings|QID|41105|NC|QO|4|M|61.37,74.78|Z|Keeper's Rest|N|Use the Extra Action Button to permanently deal with Zakalz.|
-C The Sword of Kings|QID|41105|Z|Keeper's Rest|QO|5|NC|N|Step into the glowing circle made by the Val'kyr and use your extra action button.|
-T The Sword of Kings|QID|41105|M|58.64,85.92|Z|Skyhold!Dungeon|N|To Odyn.|
-;FURY
-A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|0627; Dalaran!Broken Isles|N|From Odyn.|PRE|40581&40579|
-C The Hunter of Heroes|QID|40043|M|58.43,24.55|Z|0627; Dalaran!Broken Isles|CHAT|N|Speak with Aerylia to go to Tideskorn Harbor.|
-C Into the Mists|SO|1|Z|Stormheim|N|The village is shrouded in mists. Light the bonfire to clear it and provoke the Helarjar.|QID|40043|
-C Defeat waves of Enemies|SO|2;2|M|62.47,46.23|Z|Stormheim|N|Defeat waves of Enemies.|QID|40043|
-C Kill the leader of the attackers|SO|2;1|M|62.27,46.07|Z|Stormheim|N|Kill the leader of the attackers.|QID|40043|
-C Kill the mystics and reach the docks|SO|3;1|M|60.16,47.59|Z|Stormheim|N|Kill the mystics and reach the docks.|QID|40043|
-C Destroy the Prison Runestones|SO|4;1|M|60.13,42.04|Z|Stormheim|N|Destroy the Prison Runestones.|QID|40043|
-C Defeat Vigfus Bladewind|SO|5;1|M|59.36,43.97|Z|Stormheim|N|Fight Vigfus Bladewind.|QID|40043|
-C Chase and kill Vigfus|SO|6;1|M|55.63,43.06|Z|Stormheim|N|Chase and kill Vigfus.|QID|40043|
-C The Hunter of Heroes|QID|40043|QO|2|M|55.70,42.97|Z|Stormheim|N|Deal with Vigfus Bladewind and his warband.|
-C Wield the Warswords|SO|7;1|M|55.70,42.97|Z|Stormheim|N|Pick up the Warswords.|QID|40043|
-C The Hunter of Heroes|QID|40043|NC|QO|3|M|55.41,42.94|Z|Stormheim|N|Stand in the middle of the glowing area and use your extra action button to return to Skyhold.|
-T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
-;PROTECTION
-A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40580&40579|
-C Legacy of the Icebreaker|QID|39191|M|59.31,26.60|CHAT|N|Talk with Hrithnir.|
-C The Sealed Tomb|QID|39191|SO|1;1|M|84.26,9.55|Z|Stormheim|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
-C Find Magnar|QID|39191|SO|3;1|M|53.22,57.52|Z|Stormheim/1|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|
-C Defend Hruthnir|QID|39191|SO|4;1|M|50.58,72.84|Z|Stormheim/1|N|Defend Hruthnir|
-C Defeat Magnar Icebreaker|QID|39191|SO|5;1|M|50.13,83.25|Z|Stormheim/1|N|Defeat Magnar Icebreaker|
-C Armaments of the Black Wyrm|QID|39191|SO|6;1|M|19.98,82.35|Z|Stormheim/1|N|The sword and shield are yours, claim them.|
-C Legacy of the Icebreaker|QID|39191|QO|3|M|19.98,82.35|Z|Stormheim/1|N|Stand in the middle of the glowing circle and use your extra action button to take Odyn's portal back to Skyhold.|
-T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|N|To Odyn.|
-;After finishing first artifact-Class Hall
-A The Eye of Odyn|QID|39214|M|59.63,83.80|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|
-T The Eye of Odyn|QID|39214|M|59.78,13.33|N|To Skyseer Ghrent.|
-A Thus Begins the War|QID|40585|M|59.78,13.33|N|From Skyseer Ghrent.|PRE|39214|
-A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
-T Thus Begins the War|QID|40585|M|59.78,13.33|N|To Skyseer Ghrent.|
+;2nd artifact
+A More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|From Odyn.|CCOUNT|1;41105;40043;39191|IZ|695|
+C More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|Pick your next artifact to aquire from the UI at Odyn.|
+T More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+A Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|43949|CCOUNT|1;41105;40043;39191|IZ|695|
+;3rd artifact
+A One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|From Odyn.|CCOUNT|2;41105;40043;39191|IZ|695|
+C One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|Pick your last artifact to acquire from UI at Odyn.|
+T One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+A Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|44417|CCOUNT|2;41105;40043;39191|IZ|695|
 
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
-
-C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|58.55,24.00|CHAT|N|Talk to the Val'kyr for transport to Dalaran.|
 ;Class hall development lvl 101 to 109
-A Odyn's Summons|QID|42597|M|60.71,45.05|Z|0627; Dalaran!Broken Isles|N|From Danica the Reclaimer.|PRE|40585| ; Popup when I came back to Dal after hitting 101
-R Class Hall|QID|42597|M|74.25,46.66|CS|Z|0627; Dalaran!Broken Isles|N|Travel to class hall.|ACTIVE|42597|
-T Odyn's Summons|QID|42597|M|58.30,82.79|N|To Odyn.|
-A Champions of Skyhold|QID|42598|PRE|42597|M|58.30,82.79|N|From Odyn.|
-C Champions of Skyhold|QID|42598|M|61.68,33.81|QO|1|N|Recruit Ragnvald Drakeborn|
-C Champions of Skyhold|QID|42598|M|61.68,33.81|QO|2|N|Recruit Finna Bjornsdottir|
-R Champions of Skyhold|QID|42598|M|59.52,13.60|N|Run over to the Eye of Odyn|ACTIVE|42598|
+A Odyn's Summons|QID|42597|M|60.71,45.05|Z|0627; Dalaran!Broken Isles|N|From Danica the Reclaimer.|PRE|40585|IZ|627| ; Popup when I came back to Dal after hitting 101
+R Class Hall|ACTIVE|42597|M|74.25,46.66|CS|Z|0627; Dalaran!Broken Isles|N|Travel to class hall.|
+T Odyn's Summons|QID|42597|M|58.30,82.79|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+A Champions of Skyhold|QID|42598|PRE|42597|M|58.30,82.79|Z|0695; Skyhold!Dungeon|N|From Odyn.|
+A Champion: Ragnvald Drakeborn|QID|42605|M|61.68,33.81|N|From Ragnvald Drakeborn.|
+T Champion: Ragnvald Drakeborn|QID|42605|M|61.68,33.81|N|To Ragnvald Drakeborn.|
+A Champion: Finna Bjornsdottir|QID|42606|M|61.68,33.81|N|From Finna Bjornsdottir.|
+T Champion: Finna Bjornsdottir|QID|42606|M|61.68,33.81|N|To Finna Bjornsdottir.|
 T Champions of Skyhold|QID|42598|M|59.52,13.60|N|To Skyseer Ghrent.|
 A Captain Stahlstrom|QID|42607|PRE|42598|M|59.52,13.60|N|From Skyseer Ghrent. Click on the Eye, and send Ragnvald on a Mission.|
-C Captain Stahlstrom|QID|42607|M|59.52,13.60|QO|1|N|Wait for "Captain Stahlstrom" mission completed to popup, then finish off mission.|
+C Captain Stahlstrom|QID|42607|M|59.52,13.60|N|Wait for "Captain Stahlstrom" mission completed to popup, then finish off mission.|
 T Captain Stahlstrom|QID|42607|M|59.52,13.60|N|To Skyseer Ghrent.|
 A Recruiting the Troops|QID|42609|PRE|42607|M|59.52,13.60|N|From Skyseer Ghrent.|
 C Recruiting the Troops|QID|42609|M|62.16,15.25|QO|1|N|Talk to Capt Hjalmar, he's to your right, then Recruit Valarjar Aspirants, wait 5 secs and click banner|
@@ -116,39 +65,40 @@ A Troops in the Field|QID|42610|PRE|42609|M|59.88,13.56|N|From Skyseer Ghrent.|
 C Troops in the Field|QID|42610|M|59.54,13.25|QO|1|N|Complete the mission, "Troops in the Field"|
 t Troops in the Field|QID|42610|M|59.34,13.49|N|To Skyseer Ghrent.|
 A Einar the Runecaster|QID|42611|PRE|42610|M|59.34,13.49|N|From Skyseer Ghrent.|
-R Einar the Runecaster|QID|42611|M|46.17,29.20|N|Select a Class Hall Upgrade|ACTIVE|42611|
-C Einar the Runecaster|QID|42611|M|46.17,29.20|QO|1|N|1/1 Class hall upgrade chosen|
+C Einar the Runecaster|QID|42611|M|46.17,29.20|N|Choose Class hall upgrade.|
 T Einar the Runecaster|QID|42611|M|59.85,13.52|N|To Skyseer Ghrent.|
 A The Call of Battle|QID|43750|PRE|42611|M|59.85,13.52|N|From Skyseer Ghrent.|
 T The Call of Battle|QID|43750|M|55.94,83.69|N|To Hymdall.|
 A The Gjallarhorn|QID|42193|PRE|43750|M|55.94,83.69|N|From Hymdall.|
-C The Gjallarhorn|QID|42193|M|63.89,47.29|Z|Stormheim|QO|1|NC|N|Find Svergan Stormcloak.|
-A Stolen Honor|QID|42194|PRE|43750|M|63.89,47.29|Z|Stormheim|N|From Svergan Stormcloak.|
-C Stolen Honor|QID|42194|M|63.83,51.35|Z|Stormheim|QO|3|N|Kill Areg and loot Medallion.|
-C Stolen Honor|QID|42194|M|69.48,51.70|Z|Stormheim|QO|1|N|Kill Nelvek and loot Crown.|
-C Stolen Honor|QID|42194|M|73.24,46.53|Z|Stormheim|QO|2|N|Kill Ragvar and loot Signet.|
-T Stolen Honor|QID|42194|M|63.89,47.29|Z|Stormheim|N|To Svergan Stormcloak.|
-A Break the Bonds|QID|42650|PRE|42194|M|63.89,47.29|Z|Stormheim|N|From Svergan Stormcloak.|
-R Break the Bonds|ACTIVE|42650|M|71.51,39.19|CC|Z|Stormheim|N|Drop down here.|
-C Break the Bonds|QID|42650|M|70.82,38.14|Z|Stormheim|QO|1|N|Burn belongings. Protect Svergan.|U|138204|
-T Break the Bonds|QID|42650|M|70.82,38.14|Z|Stormheim|N|To Svergan Stormcloak. (If he disappears, go back to where you first found him.)|
-A Svergan's Promise|QID|42651|PRE|42650|M|63.89,47.29|Z|Stormheim|N|From Svergan Stormcloak.|
-U Return to class hall.|ACTIVE|42651|M|60.17,52.23|Z|Stormheim|N|Jump to Skyhold.|
+R Gjallarhorn|ACTIVE|42193|QO|1|M|58.29,25.35|Z|0695; Skyhold!Dungeon|CHAT|N|Go to Aerylia (the Valkyr) and jump to Storheim.|
+T The Gjallarhorn|QID|42193|M|63.89,47.29|Z|0634; Stormheim|N|To Svergan Stormcloak.|
+A Stolen Honor|QID|42194|PRE|43750|M|63.89,47.29|Z|0634; Stormheim|N|From Svergan Stormcloak.|
+C Stolen Honor|QID|42194|M|63.83,51.35|Z|0634; Stormheim|QO|3|N|Kill Areg and loot Medallion.|
+C Stolen Honor|QID|42194|M|69.48,51.70|Z|0634; Stormheim|QO|1|N|Kill Nelvek and loot Crown.|
+C Stolen Honor|QID|42194|M|73.24,46.53|Z|0634; Stormheim|QO|2|N|Kill Ragvar and loot Signet.|
+T Stolen Honor|QID|42194|M|63.89,47.29|Z|0634; Stormheim|N|To Svergan Stormcloak.|
+A Break the Bonds|QID|42650|PRE|42194|M|63.89,47.29|Z|0634; Stormheim|N|From Svergan Stormcloak.|
+R Break the Bonds|ACTIVE|42650|M|71.51,39.19|CC|Z|0634; Stormheim|N|Drop down here.|
+C Break the Bonds|QID|42650|M|70.82,38.14|Z|0634; Stormheim|N|Use [color=33fff9] Severgan's Belongings [/color] to burn them and protect him.|U|138204|
+T Break the Bonds|QID|42650|M|70.82,38.14|Z|0634; Stormheim|N|To Svergan Stormcloak. (If he disappears, go back to where you first found him.)|
+A Svergan's Promise|QID|42651|PRE|42650|M|63.89,47.29|Z|0634; Stormheim|N|From Svergan Stormcloak.|
+U Return to class hall.|ACTIVE|42651|M|60.17,52.23|Z|0634; Stormheim|EAB|N|Jump to Skyhold.|IZ|634|
 T Svergan's Promise|QID|42651|M|55.94,83.69|N|To Hymdall.|
 A On the Trail of the Great Worm|QID|42107|PRE|42651|M|55.94,83.69|N|From Hymdall.|
 C On the Trail of the Great Worm|QID|42107|M|59.52,13.60|QO|1|NC|N|Complete the "Trail of the Great Worm" mission. (~1 hour)|
-T On the Trail of the Great Worm|QID|42107|M|55.94,83.69|N|From Hymdall.|
+T On the Trail of the Great Worm|QID|42107|M|55.94,83.69|N|To Hymdall.|
+A To The Summit!|QID|42110|M|55.94,83.69|N|From Hymdall.|
 A Champion: Svergan Stormcloak|QID|42614|PRE|42651|M|52.33,82.44|N|Recruit Svergan Stormcloak.|
-t To The Summit!|QID|42110|M|53.86,87.85|Z|Highmountain|N|To Jarum Skymane.|
-A Revenge, Served Cold|QID|42202|PRE|42110|M|53.86,87.85|Z|Highmountain|N|From Jarum Skymane.|
-C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|Highmountain|S|N|Kill Drogbar as you head to Kill Dorgrub.|
-C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|Highmountain|T|Dorgrub the Cruel|QO|1|N|Kill Dorgrub.|
-C Revenge, Served Cold|QID|42202|M|56.95,91.96|Z|Highmountain|T|Ugrul Skullcleaver|QO|2|N|Kill Ugrul.|
-C Revenge, Served Cold|QID|42202|M|57.14,89.29|Z|Highmountain|US|QO|3|N|Finish killing the Drogbar.|
-T Revenge, Served Cold|QID|42202|M|53.86,87.85|Z|Highmountain|N|To Jarum Skymane.|
+t To The Summit!|QID|42110|M|53.86,87.85|Z|0650; Highmountain|N|To Jarum Skymane.|
+A Revenge, Served Cold|QID|42202|PRE|42110|M|53.86,87.85|Z|0650; Highmountain|N|From Jarum Skymane.|
+C Revenge, Served Cold|QID|42202|QO|3|M|56.89,86.75|Z|0650; Highmountain|S|N|Kill Drogbar as you head to Kill Dorgrub.|
+C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|0650; Highmountain|T|Dorgrub the Cruel|QO|1|N|Kill Dorgrub.|
+C Revenge, Served Cold|QID|42202|M|56.95,91.96|Z|0650; Highmountain|T|Ugrul Skullcleaver|QO|2|N|Kill Ugrul.|
+C Revenge, Served Cold|QID|42202|M|57.14,89.29|Z|0650; Highmountain|US|QO|3|N|Finish killing the Drogbar.|
+T Revenge, Served Cold|QID|42202|M|53.86,87.85|Z|0650; Highmountain|N|To Jarum Skymane.|
 A Jorhuttam|QID|42204|PRE|42202|M|53.86,87.85|Z|Highmountain|N|From Jarum Skymane.|
-C Jorhuttam|QID|42204|M|57.14,93.78|Z|Highmountain|U|139501|QO|1|N|Use Drums near Jorhuttam's Feeding Mound.|
-T Jorhuttam|QID|42204|M|55.93,84.45|N|To Hymdall|
+C Jorhuttam|QID|42204|M|57.14,93.78|Z|Highmountain|U|139501|N|Use [color=33fff9] Drums [/color]near Jorhuttam's Feeding Mound.|
+T Jorhuttam|QID|42204|M|55.93,84.45|N|To Hymdall, back in your order hall.|
 A Preparing For War|QID|43585|PRE|42204|M|58.08,83.91|N|From Odyn.|
 C Preparing For War|QID|43585|M|59.06,13.38|N|Use Misson Table to complete 3 Missions. *Click off to continue*|
 t Preparing for War|QID|43585|M|59.06,13.38|N|To Skyseer Ghrent.|
@@ -156,67 +106,64 @@ A Recruiting Shieldmaidens|QID|43975|PRE|42204|M|59.06,13.38|N|From Skyseer Ghre
 T Recruiting Shieldmaidens|QID|43975|M|55.96,15.00|N|To Savyn Valorborn.|
 ;lights heart intro questline
 P Dalaran|QID|44009|M|58.55,24.00|N|Back to the outside world to continue leveling.|ACTIVE|44009|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|PRE|44100|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|PRE|44100|LVL|20| ;level is a guess, it wasnt at 15, was at 22
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|0627; Dalaran!Broken Isles|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009|
+R Dalaran|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009|
 R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|0629; Aegwynn's Gallery@Dalaran|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|0629; Aegwynn's Gallery@Dalaran|N|From Archmage Khadgar.|PRE|44009|
-P Khadgar's portal|QID|44004|M|28.77,33.28|Z|0629; Aegwynn's Gallery@Dalaran|N|Take his portal to enter a scenario.|ACTIVE|44004|
-C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
-C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|LVL|-109|
+P Azuremyst Isle|QID|44004|M|28.77,33.28|Z|0629; Aegwynn's Gallery@Dalaran|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
+C The Prophet and the Butcher|ACTIVE|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
+C In Defense of The Exodar|ACTIVE|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
+A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
 A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
 C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
 C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
 T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
-K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RANK|2|
+K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RARE|
 C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
 t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
 C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
-C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
-C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
-C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
-U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
+C Return to the Prophet|ACTIVE|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
+C The Light's Heart|ACTIVE|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
+C A Long Way Down|ACTIVE|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
+C Revelations|ACTIVE|44004|SO|6|M|53.39,38.91|Z|TheExodar|U|140319|N|Start the fight. After the demon dies use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|IZ|775|
+
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|45.31,30.30|NC|N|Return to your order hall and return to Light's Heart.|
-;fresh lvl 110 quests
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|0627; Dalaran!Broken Isles|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
-A Goddess Watch Over You|QID|44337|M|58.85,36.23|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|
-A Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|From Quartermaster Durnolf. Your class hall has a gift for you.|
+;fresh lvl 110 (now 45) quests
+A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|0627; Dalaran!Broken Isles|N|From UI Alert the first time you enter Dalaran after reaching level 45.|LVL|45|
+A Goddess Watch Over You|QID|44337^44438|M|58.85,36.23|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 30.|LVL|30|
+A Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|From Quartermaster Durnolf. Your class hall has a gift for you.|LVL|30|
 T Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|To Quartermaster Durnolf.|
-A Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|
-A The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|From Matilda Skoptidottir, IF you select the Val'kyr Call Order Advancement V, for your Order Hall.|
+A Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|LVL|45|
+;A The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|From Matilda Skoptidottir, IF you select the Val'kyr Call Order Advancement V, for your Order Hall.|LVL|45|;advancement not in remix
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|L|140147|N|Click on the Blessing of Mjolnir, to collect it.|
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|N|Open your World Map, and use the item to complete a World Quest.|
 t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
-C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
-R Dalaran|QID|44337^44338|ACTIVE|44337^44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
+C Goddess Watch Over You|QID|44338|S!US|N|You need to have finished the main Val'sharah quest line to complete this quest.|
+R Dalaran|ACTIVE|44337^44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
 t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-A Uniting the Isles|QID|45727|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|
+A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|IZ|627|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
-R Skyhold|QID|44448|M|75.19,47.20|Z|0627; Dalaran!Broken Isles|QO|1|N|Jump to Skyhold|ACTIVE|44448|
+R Skyhold|ACTIVE|44448|M|75.19,47.20|Z|0627; Dalaran!Broken Isles|QO|1|N|Jump to Skyhold|
 C In the House of Light and Shadow|QID|44448|M|45.40,30.03|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
-T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
 ;post 110 order hall progression
-A Champion Armaments|QID|44221|AVAILABLE|44221|M|61.95,26.00|N|From Haklang Ulfsson.|
+A Champion Armaments|QID|44221|AVAILABLE|44221|M|61.95,26.00|N|From Haklang Ulfsson.|LVL|45|
 C Champion Armaments|QID|44221|M|61.95,26.00|CHAT|N|Start work order.|
 T Champion Armaments|QID|44221|M|61.95,26.00|N|To Haklang Ulfsson.|
 t Message to Helya|QID|43586|M|58.32,82.86|N|To Odyn.|
 A Maw of Souls: Ymiron's Broken Blade|QID|43604|ACTIVE|43604|N|UI Alert, while in dungeon.|
 C Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|CHAT|N|Tell Odyn that:\n"King Ymiron has been defeated. He Fought fiercely."\n Then: "I want him to join our army."\nThen: "That may be, but..."\nThen: "Thank You."|
 t Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|N|To Odyn.|
-A Ulduar's Oath|QID|43090|M|58.32,82.86|N|From Odyn.|
+A Ulduar's Oath|QID|43090|M|58.32,82.86|N|From Odyn.|PRE|43604|
 C Ulduar's Oath|QID|43090|M|58.32,82.86|QO|1|N|Just stand by.|
 P Ulduar|QID|43090|ACTIVE|43090|QO|2|M|58.59,24.98|CHAT|N|Speak with Aerylia, to go to Ulduar.|
 C Demons, Demons, Everywhere...|ACTIVE|43090|Z|Ulduar|SO|1|N|Fight your way to the Observation Ring|
@@ -309,7 +256,7 @@ C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action
 H Dalaran|ACTIVE|44480|Z|Azshara|U|140192|N|Hearth to Dalaran, and return to your Order Hall.|
 T In My Father's House|QID|44480|M|45.31,30.30|N|Return to Light's Heart in your order hall.|
 A Destiny Unfulfilled|QID|44481^44496^44497|M|45.31,30.30|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481^44496^44497|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Dalaran.|ACTIVE|44481^44496^44497|
+P Dalaran|ACTIVE|44481^44496^44497|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Dalaran.|
 P Terrace of Light|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|0629; Aegwynn's Gallery@Dalaran|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
 F Sanctum of the Stars|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
 F Altar of Sha'tar|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
@@ -337,7 +284,56 @@ J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you w
 J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|TR_EmmHighmountain|
 J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
 
-; LVL 110 Quests
+;ARMS
+;A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582&40579|
+C The Sword of Kings|QID|41105|CHAT|QO|1|M|58.39,24.69|Z|Skyhold!Dungeon|N|(Optional) Speak with Aerylia to go to Tirisfal.|
+C The Sword of Kings|QID|41105|QO|2|M|13.50,56.63|Z|0018; Tirisfal Glades|NC|N|Go to the Tomb of Tyr in Tirisfal Glades|
+C Culling the Cultists|ACTIVE|41105|SO|1;1|M|13.50,56.63|Z|0018; Tirisfal Glades|NC|N|Investigate the camp.|
+C Slay the ritualists torturing Thoradin.|ACTIVE|41105|SO|2|M|13.50,56.63|Z|0018; Tirisfal Glades|N|Slay the ritualists torturing Thoradin.|
+C Follow and listen to Thoradin.|ACTIVE|41105|SO|3|M|14.16,56.58|CHAT|Z|0018; Tirisfal Glades|N|Follow and listen to Thoradin.|
+C Enter the Tomb of Tyr.|ACTIVE|41105|SO|4|M|36.92,46.81|Z|0020; Keeper's Rest|N|The entrance is beneath the lake.|
+C Void Tendrils killed|ACTIVE|41105|SO|5|M|37.44,54.31|Z|0020; Keeper's Rest|N|Void Tendrils killed|
+C Kill Soth'ozz|ACTIVE|41105|SO|6|M|37.54,60.55|Z|0020; Keeper's Rest|N|Kill Soth'ozz|
+C Reach the prison chamber.|ACTIVE|41105|SO|7|M|59.89,74.64|Z|0020; Keeper's Rest|N|Reach the prison chamber.|
+C A Quick Execution|ACTIVE|41105|SO|8|M|63.91,71.43|Z|0020; Keeper's Rest|N|Click on Zakajz before it is awake, ... (oh well, nothing is ever that easy.|
+C Defeat Zakajz|ACTIVE|41105|SO|9|M|63.91,71.43|Z|0020; Keeper's Rest|N|Defeat Zakajz|
+C Take Strom'kar, the Warbreaker.|NC|ACTIVE|41105|SO|10;1|M|58.03,75.86|Z|0020; Keeper's Rest|N|Take Strom'kar, the Warbreaker.|
+C Slay the Beast.|ACTIVE|41105|NC|SO|10;2|M|58.03,75.86|Z|0020; Keeper's Rest|EAB|N|Use the [color=33fff9] Extra Action Button [/color] to permanently deal with Zakalz.|
+C The Sword of Kings|QID|41105|Z|Keeper's Rest|QO|4|NC|EAB|N|Step into the glowing circle made by the Val'kyr and use your [color=33fff9] Extra Action Button [/color].|
+T The Sword of Kings|QID|41105|M|58.64,85.92|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+;FURY
+;A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|0627; Dalaran!Broken Isles|N|From Odyn.|PRE|40581&40579|
+C The Hunter of Heroes|QID|40043|QO|1|M|58.43,24.55|Z|0627; Dalaran!Broken Isles|CHAT|N|Speak with Aerylia to go to Tideskorn Harbor.|
+C Into the Mists|ACTIVE|40043|SO|1|M|61.40,46.00|Z|0634; Stormheim!Broken Isles|N|The village is shrouded in mists. Light the bonfire to clear it and provoke the Helarjar.|
+C Defeat waves of Enemies|ACTIVE|40043|SO|2;2|M|62.47,46.23|Z|0634; Stormheim!Broken Isles|N|Defeat waves of Enemies.|
+C Kill the leader of the attackers|ACTIVE|40043|SO|2;1|M|62.27,46.07|Z|0634; Stormheim!Broken Isles|N|Kill the leader of the attackers.|
+C Kill the mystics and reach the docks|ACTIVE|40043|SO|3|M|61.28,48.47;60.16,47.59|CS|Z|0634; Stormheim!Broken Isles|N|Kill the mystics and reach the docks.|
+C Destroy the Prison Runestones|ACTIVE|40043|SO|4|M|58.93,46.77;58.64,45.73;58.60,43.47;60.13,42.04|CS|Z|0634; Stormheim!Broken Isles|N|Destroy the Prison Runestones.|
+C Defeat Vigfus Bladewind|ACTIVE|40043|SO|5|M|59.36,43.97|Z|0634; Stormheim!Broken Isles|N|Fight Vigfus Bladewind.|
+C Chase and kill Vigfus|ACTIVE|40043|SO|6|M|55.63,43.06;55.66,42.65|CS|Z|0634; Stormheim!Broken Isles|N|Chase and kill Vigfus.|
+C Wield the Warswords|ACTIVE|40043|SO|7|M|55.70,42.97|Z|0634; Stormheim!Broken Isles|N|Pick up the Warswords.|;step not completing when you pick it up?
+C The Hunter of Heroes|QID|40043|QO|3|M|55.41,42.94|Z|0634; Stormheim!Broken Isles|EAB|NC|N|Stand in the middle of the glowing area and use your [color=33fff9] Extra Action Button [/color]to return to Skyhold.|
+T The Hunter of Heroes|QID|40043|M|58.58,85.63|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+;PROTECTION
+;A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|Z|0695; Skyhold!Dungeon|N|From Odyn.|PRE|40580&40579|
+C Legacy of the Icebreaker|QID|39191|QO|1|M|59.31,26.60|Z|0634; Stormheim!Broken Isles|CHAT|N|Talk with Hrithnir.|
+C The Sealed Tomb|ACTIVE|39191|SO|1;1|M|84.26,9.55|Z|0635; Shield's Rest|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
+C Find Magnar|ACTIVE|39191|SO|3;1|M|53.22,57.52|Z|0635; Shield's Rest|N|[color=33fff9] Heroic Throw [/color]to the nearest mob, after he dies, [color=33fff9] Heroic Leap [/color]to the one further out. When those two are dead, the wind on the floor goes away.|
+C Defend Hruthnir|ACTIVE|39191|SO|4;1|M|50.58,72.84|Z|0635; Shield's Rest|N|Defend Hruthnir|
+C Defeat Magnar Icebreaker|ACTIVE|39191|SO|5;1|M|50.13,83.25|Z|0635; Shield's Rest|N|Defeat Magnar Icebreaker|
+C Armaments of the Black Wyrm|ACTIVE|39191|SO|6;1|M|49.98,82.25|Z|0635; Shield's Rest|N|The sword and shield are yours, claim them.|
+C Legacy of the Icebreaker|QID|39191|QO|3|M|49.98,82.25|Z|0635; Shield's Rest|EAB|N|Stand in the middle of the glowing circle and use[color=33fff9] your extra action button [/color]to take Odyn's portal back to Skyhold.|
+T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|Z|0695; Skyhold!Dungeon|N|To Odyn.|
+;After finishing first artifact-Class Hall
+A The Eye of Odyn|QID|39214|M|59.63,83.80|Z|0695; Skyhold!Dungeon|N|From Danica the Reclaimer.|
+T The Eye of Odyn|QID|39214|M|59.78,13.33|Z|0695; Skyhold!Dungeon|N|To Skyseer Ghrent.|
+A Thus Begins the War|QID|40585|M|59.78,13.33|Z|0695; Skyhold!Dungeon|N|From Skyseer Ghrent.|PRE|39214|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|59.45,13.34|Z|0695; Skyhold!Dungeon|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
+T Thus Begins the War|QID|40585|M|59.78,13.33|Z|0695; Skyhold!Dungeon|N|To Skyseer Ghrent.|
+C Travel to Dalaran|ACTIVE|39718^39864^39731^39733^39735|M|58.55,24.00|Z|0695; Skyhold!Dungeon|CHAT|N|Talk to the Val'kyr for transport to Dalaran.|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
+; LVL 45 Quests
 A A Call to Action|QID|44720|M|73.86,41.70|Z|0627; Dalaran!Broken Isles|N|From Muninn.|
 T A Call to Action|QID|44720|M|60.15,50.75|Z|Stormheim|N|To Havi.|
 A A Threat Rises|QID|44771|PRE|44720|M|60.15,50.75|Z|Stormheim|N|From Havi.|

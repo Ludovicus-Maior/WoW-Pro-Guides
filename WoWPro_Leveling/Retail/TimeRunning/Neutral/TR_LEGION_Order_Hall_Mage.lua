@@ -215,9 +215,14 @@ T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|T
 A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Light's Heart. Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge.|
 F Illidari Stand|ACTIVE|45174|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.|
+A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater.|
 C Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|S!US|N|Run Dungeons until you collect the needed shards.|
-t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
+t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater, still at Illidari Stand in Azuna.|
+A Trial of Valor: The Once and Future Lord of Shadows|QID|45176|PRE|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater.|
+C Trial of Valor: The Once and Future Lord of Shadows|QID|45176|N|Don't forget to use the Soul Prism after you kill Helya next time in Trial of Valor Raid.|
+t Trial of Valor: The Once and Future Lord of Shadows|QID|45176|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart, back in your order hall.|
+A The Nighthold|QID|45177|PRE|45176|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Light's Heart.|
+t The Nighthold|QID|45177|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. Depending on where you are on other quests, Khadgar may be MIA.|
 A The Power Within|QID|43503^43505|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
 F Azurewing Repose|ACTIVE|43503^43505|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
 C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet.|
