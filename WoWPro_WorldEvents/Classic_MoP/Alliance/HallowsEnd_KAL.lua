@@ -12,7 +12,7 @@ U Handful of Treats|M|PLAYER|CC|N|Open your Handful of Candy.\n[color=FF0000]NOT
 * Penny Pouch|M|PLAYER|CC|N|Save bag space by immediately destroying any Penny Pouches you get from your Handful of Candy.\n[color=FF0000]NOTE: [/color]They are useless 1-slot bags that do not stack and only sell for 1 copper each.|U|37606|O|
 * Sinister Squashling|M|PLAYER|CC|N|Once you get a Sinister Squashling pet, they are BoP and you can safely delete any more you find.|ACH|292;1|U|33154|O|
 
-F Teldrassil|QID|12337|N|Start in Teldrassil|-IZ|Teldrassil|
+F Teldrassil|QID|12337|N|Start in Teldrassil|IZ|-Teldrassil|
 b Azuremyst Isle|QID|12337|M|52.08,89.47|Z|Teldrassil|N|Now take the boat to Azuremyste Isle.|
 A Candy Bucket|QID|12337|M|59.3,18.5|Z|The Exodar|N|The Exodar|
 A Candy Bucket|QID|12333|M|48.5,49.21|Z|Azuremyst Isle|N|Azure Watch|U|68648|
