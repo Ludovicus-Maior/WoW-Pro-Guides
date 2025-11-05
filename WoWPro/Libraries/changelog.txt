@@ -1,3 +1,12 @@
+Ace3 Release - Revision r1377 (October 28th, 2025)
+--------------------------------------------------
+- AceComm-3.0: Updated ChatThrottleLib for WoW 12.0
+- AceConfigDialog-3.0: Consistently provide an alpha value for GameTooltip:SetText
+- AceDB-3.0: Unloaded namespaces are handled when profiles are Reset, Copied, Deleted
+- AceDB-3.0: Empty namespaces are cleaned up on database shutdown
+- AceGUI-3.0: TreeGroup: Re-factor button hiding to help avoid bizarre button breakage
+- AceGUI-3.0: EditBox: Fix InsertLink hook for WoW 12.0
+
 Ace3 Release - Revision r1349 (July 23th, 2024)
 -----------------------------------------------
 - AceGUI-3.0: EditBoxes: Updated for WoW 11.0 API changes
