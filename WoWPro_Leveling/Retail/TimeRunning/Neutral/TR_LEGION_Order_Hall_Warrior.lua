@@ -24,7 +24,8 @@ C Legion forces eliminated|ACTIVE|38904^42815|SO|2|M|51.28,30.71|Z|0676; Broken 
 C Approach Danica|ACTIVE|38904^42815|SO|3|M|50.90,29.94|Z|0676; Broken Shore!Instance|N|Approach Danica.|
 C Defeat Bezzeredes and his allies.|ACTIVE|38904^42815|SO|4|M|49.45,32.56|Z|0676; Broken Shore!Instance|N|Defeat Bezzeredes and his allies.|
 C Defeat Malgalor|ACTIVE|38904^42815|SO|5|M|49.95,32.17|Z|0676; Broken Shore!Instance|N|Defeat Malgalor.|
-C Return to the Broken Shore|QID|38904^42815|QO|2|M|59.04,27.27|Z|0676; Broken Shore!Instance|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|T Return to the Broken Shore|QID|38904^42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
+C Return to the Broken Shore|QID|38904^42815|QO|2|M|59.04,27.27|Z|0676; Broken Shore!Instance|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
+T Return to the Broken Shore|QID|38904^42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
 A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|PRE|38904^42815|
 C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|Z|Skyhold!Dungeon|NC|N|Follow Danica.|
 C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|Z|Skyhold!Dungeon|NC|N|Go to the Great Mead Hall.|
