@@ -149,7 +149,7 @@ t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
 C Goddess Watch Over You|QID|44338|S!US|N|You need to have finished the main Val'sharah quest line to complete this quest.|
 R Dalaran|ACTIVE|44337^44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
 t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|IZ|627| 
+A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|IZ|627|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
