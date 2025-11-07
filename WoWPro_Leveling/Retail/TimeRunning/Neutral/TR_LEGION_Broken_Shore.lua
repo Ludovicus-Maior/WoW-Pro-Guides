@@ -31,8 +31,8 @@ A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Arch
 ;N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will find a 'Broken Sentianax Beacon' when you fight under the Sentinax (location varies, marked on your map). Turning in this quests enables you to loot items that will open portals and allow more nethershard farming.|
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
-A Defending Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46205|
-A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|ACH|10994|
+A Defending Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46734|
+A Champions of Legionfall|QID|47137|PRE|46734|M|44.54,63.55|N|From Maiev Shadowsong. In Remix this quest instantly completes.|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 ;A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
@@ -41,21 +41,22 @@ t The Nether Disruptor|QID|46774|M|44.54,63.15|N|To Commander Chambers.|
 ;A Shard Times|QID|46251|M|44.74,63.29|N|From Archmage Khadgar.|
 C Shard Times|QID|46251|M|44.74,63.29|N|Assuming you have 2500 shards, you can immediately turn this in. You get almost all of them back.|
 t Shard Times|QID|46251|M|44.74,63.29|N|To Archmage Khadgar.|
-A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46251|
+A Mark of the Sentinax|QID|47139|M|44.76,63.29|N|From Lord Illidan Stormrage.|PRE|46734|
 C Mark of the Sentinax|QID|47139|N|Go to wherever the Sentinax is and farm marks.|
 t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
 A Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|47139|
+C Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|Go do 5 World Quests in the Broken Shore.|
 t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
 A Intolerable Infestation|QID|46252|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46248|
-C Intolerable Infestation|QID|46252|S|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
+C Intolerable Infestation|QID|46252w|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
 t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 A Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|PRE|46252|
-C Relieved of Their Valuables|QID|46769|S|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
+C Relieved of Their Valuables|QID|46769|N|Go hunt down some Wyrmtongue treasures on the Broken Shore and loot them. They appear on the minimap when nearby|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
 A Take Out the Head...|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
-C Take Out the Head...|QID|46250|S|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
+C Take Out the Head...|QID|46250|N|S|Go and kill some of the rare elite demons (marked with a demon head on map).|
 t Take Out the Head...|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
-A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
+A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46734|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499|
 A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501|
 A Ship Graveyard|QID|46510|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46509|
@@ -166,7 +167,7 @@ A Begin Construction|QID|46245|M|44.57,63.23|N|From Commander Chambers.|PRE|4628
 C Begin Construction|QID|46245|M|44.56,63.07|N|Click on the construction table to donate Legionfall Supplies to your choice of buildings.|
 T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 ;A Delivering Lost Knowledge|QID|46809^47069^47070^47071^47072^47073^47074^47075^47076^47077^47078^47079|M|44.73,63.29|N|From Archmage Khadgar.|
-A Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
+A Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46734|
 t Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
 t Defending Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
 t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
@@ -243,7 +244,7 @@ T Away From Prying Eyes|QID|44782|M|22.08,38.99|Z|0627; Dalaran!Broken Isles|N|T
 A In Dire Need|QID|44821|M|22.08,38.99|Z|0627; Dalaran!Broken Isles|N|From Archmage Modera.|PRE|44782|
 C In Dire Need|QID|44821|M|22.08,38.99|Z|0627; Dalaran!Broken Isles|NC|N|Listen to the Council's Plea.|
 T In Dire Need|QID|44821|M|22.26,39.65|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
-A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^47047^45482^47049^47050^47051^47052^46078^47003^47004^47005^47006^45560^47018^47019^47020^45123^47055^47056^47057^47058^47059^45182^47037^47039^47041^47042|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
+A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^47047^45482^47049^47050^47051^47052^46078^47003^47004^47005^47006^45560^47018^47019^47020^45123^47055^47056^47057^47058^47059^45182^47037^47039^47041^47042|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|The questgivers and quests you receive will vary based on your spec type  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains. Take all of them (1 per spec).|PRE|44821|
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
 P Stormwind|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|0627; Dalaran!Broken Isles|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
 P Mt Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
@@ -287,7 +288,7 @@ P Dalaran|QID|45843|M|44.73,63.23|Z|100; Hellfire Peninsula|N|Return to Dalaran 
 T Dark Omens|QID|45843|M|28.35,48.93|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 ;Fate of the Tideskorn|QID|45482;47049;47050;47051;47052
 F Crimson Thicket|QID|45482^47049^47050^47051^47052|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45482^47049^47050^47051^47052|
-C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|1|M|64.4,50.8|Z|Suramar|CHAT|N|Go to the entrance to Jandvik and talk to Huntsman Slodi.|
+C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|1|M|65.34,50.85|Z|Suramar|CHAT|N|Go to the entrance to Jandvik and talk to Huntsman Slodi.|
 C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|2|M|70.5,50.0|Z|Suramar|CHAT|N|Go to indicated house, near the center of town to find Priestess Brynna.|
 C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|3|M|71.5,49.6|Z|Suramar|CHAT|N|Go to top of the tower to talk to Yngvild the Watcher.|
 T Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|M|76.3,50.1|Z|Suramar|N|To Sigryn.|
@@ -300,8 +301,8 @@ C The Reluctant Queen|QID|45486|QO|3|M|65,68|Z|Stormheim|CHAT|N|Chat with Priest
 C The Reluctant Queen|QID|45486|QO|4|M|65,68|Z|Stormheim|CHAT|N|Follow them in to meet with Eyir.|
 T The Reluctant Queen|QID|45486|M|65,68|Z|Stormheim|N|To Eyir.|
 A To Silence the Bonespeakers|QID|45522|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45486|
-C To Silence the Bonespeakers|QID|45522|M|73,42|Z|Stormheim|N|Runespeaker Faljar can be found in Haustvald, just above the entrance into Helheim. After she challenges him, you help defeat him.|
-T To Silence the Bonespeakers|QID|45522|M|73,42|Z|Stormheim|N|To Runespeaker Faljar.|
+C To Silence the Bonespeakers|QID|45522|M|72.90,40.59|Z|Stormheim|N|Runespeaker Faljar can be found in Haustvald, just above the entrance into Helheim. After she challenges him, you help defeat him.|
+T To Silence the Bonespeakers|QID|45522|M|73.20,39.93|Z|Stormheim|N|To Runespeaker Faljar.|
 A To Tame the Drekirjar|QID|45523|M|73,42|Z|Stormheim|N|From Silgryn.|PRE|45522|
 C To Tame the Drekirjar|QID|45523|M|40,72|Z|Stormheim|N|And we are off to Hrydshal, She can almost take him alone, but you need to help a little. (i.e it won't complete if you don't hit him.)|
 T To Tame the Drekirjar|QID|45523|M|41.2,71.8|Z|Stormheim|N|To Jarl Velbrand.|
@@ -309,7 +310,8 @@ A The Forgotten Heir|QID|45524|M|41.2,71.8|Z|Stormheim|N|From Silgryn.|PRE|45523
 C The Forgotten Heir|QID|45524|M|73.70,86.07;74.2,84.8|CS|NC|QO|1|Z|Stormheim|N|Torvald can be found inside this cave near Vrekt.|
 C The Forgotten Heir|QID|45524|M|74.2,84.8|QO|2|Z|Stormheim|N|Not quite the happy reunion. Kill Torvald.|
 T The Forgotten Heir|QID|45524|M|59.6,50.8|Z|Stormheim|N|To Sigryn.|
-A Unanswered Questions|QID|45525|M|59.6,50.8|Z|Stormheim|N|From Sigryn.|PRE|45525|
+A Unanswered Questions|QID|45525|M|59.6,50.8|Z|Stormheim|N|From Sigryn.|PRE|45524|
+C Unanswered Questions|QID|45525|M|66.17,49.79|Z|Stormheim|N|Speak to Sigryn.|
 T Unanswered Questions|QID|45525|M|62.5,68.09|Z|Stormheim|N|To Eyir. Turn in quickly, dont read the text, as she often bugs out, if she does, drop quest and go repick it up.|
 A The Gates Are Closed|QID|46340|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45525|
 P Dalaran|QID|46340|M|65,68|Z|Stormheim|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46340|
@@ -332,8 +334,8 @@ C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing th
 T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
-C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|1|M|38.55,54.68.4|N|Travel to Hero's Rest (outside of Blackrook Hold).|
+C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68.4|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|

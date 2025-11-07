@@ -138,8 +138,8 @@ C Confrontation at the Black Temple|QID|42634^42921|QO|3|M|PLAYER|Z|0759; BlackT
 P The Fel Hammer|ACTIVE|42634^42921|M|33.94,69.73|Z|0759; BlackTemple!Dungeon759|N|Click the Portal back to the Fel Hammer.|
 T Confrontation at the Black Temple|QID|42634^42921|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis te Sufferer / Kayn Sunfury|
 A Into Our Ranks|QID|39741^42665|PRE|42634^42921|M|58.57,57.63|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.|
-C Champion: Kor'vas Bloodthorn|QID|42673|ACTIVE|39741^42665|M|59.29,57.58|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Kor'vas.|
-C Champion: Akama|QID|42653|ACTIVE|39741^42665|M|57.88,57.78|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Akama / Akama's Shade.|
+A Champion: Kor'vas Bloodthorn|QID|42673|ACTIVE|39741^42665|M|59.29,57.58|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Kor'vas.|
+A Champion: Akama|QID|42653|ACTIVE|39741^42665|M|57.88,57.78|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Akama / Akama's Shade.|
 T Into Our Ranks|QID|39741^42665|M|59.93,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Matron Mother Malevolence.|
 A Securing Mardum|QID|42802|PRE|39741^42665|M|59.90,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Matron Mother Malevolence.|
 A Unexpected Visitors|QID|42131|PRE|39741^42665|M|59.90,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Matron Mother Malevolence.|
@@ -272,8 +272,8 @@ A The Crux of the Plan|QID|42775|PRE|42752^42753|M|57.60,52.21|Z|0720; Upper Com
 C Sargerite Keystone|QID|42775|QO|1|M|58.12,54.02|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Go the command table and click on the key above.|
 T The Crux of the Plan|QID|42775|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer / Kayn Sunfury.\nUse Spectral Sight if they are hiding.|
 A Two Worthies|QID|42776|PRE|42775|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.\nUse Spectral Sight if they are hiding.|
-C Belath Dawnblade|QID|42776|QO|1|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|CHAT|N|Recruit Belath Dawnblade.|
-C Malevolence|QID|42776|QO|2|M|59.90,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|CHAT|N|Recruit Matron Mother Malevolence.|
+A Champion: Belath Dawnblade|QID|42777|M|57.60,52.21|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Belath Dawnblade.|
+A Champion: Matron Mother Malevolence|QID|42701|M|59.90,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Recruit Matron Mother Malevolence.|
 T Two Worthies|QID|42776|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Allari the Souleater, downstairs.|
 A Preparations for Invasion|QID|42669|PRE|42776|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Allari the Souleater, downstairs.|
 A One Battle at a Time|QID|44694|PRE|42776|M|59.15,75.33|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Jace Darkweaver, downstairs.|
