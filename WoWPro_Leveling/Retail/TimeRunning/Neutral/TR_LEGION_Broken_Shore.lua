@@ -48,13 +48,13 @@ A Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|From Prophet Velen.|PRE|471
 C Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|Go do 5 World Quests in the Broken Shore.|
 t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
 A Intolerable Infestation|QID|46252|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46248|
-C Intolerable Infestation|QID|46252w|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
+C Intolerable Infestation|QID|46252|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
 t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 A Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|PRE|46252|
 C Relieved of Their Valuables|QID|46769|N|Go hunt down some Wyrmtongue treasures on the Broken Shore and loot them. They appear on the minimap when nearby|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
 A Take Out the Head...|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
-C Take Out the Head...|QID|46250|N|S|Go and kill some of the rare elite demons (marked with a demon head on map).|
+C Take Out the Head...|QID|46250|S|N|Go and kill some of the rare elite demons (marked with a demon head on map).|
 t Take Out the Head...|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46734|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499|
@@ -334,8 +334,8 @@ C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing th
 T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
-C Source of the Corruption|QID|46107|QO|1|M|38.55,54.68.4|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68.4|N|Jarod tries to reason with them. Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|1|M|38.55,54.68|N|Travel to Hero's Rest (outside of Blackrook Hold).|
+C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
