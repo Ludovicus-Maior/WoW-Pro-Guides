@@ -1,3 +1,4 @@
+
 local guide = WoWPro:RegisterGuide('TR_EmmLegionMage', 'Leveling', 'MageClassShrine', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideLevels(guide, 10, 50, 10)
@@ -357,12 +358,186 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide H
 
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ; LVL 110 Quests
-; Added on 3/14/2017 - LEAD IN TO BROKEN SHORE
-A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|PRE|44448|
-T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
-t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+; Added on 3/14/2017 -  BROKEN SHORE-THESE MAY BE GONE IN REMIX?
+;A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|PRE|44448|
+;T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+;A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+;C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
+;t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A An Urgent Situation|QID|45437|PRE|471337|N|This will appear when you enter your order hall, after you have been to the Broken Shore.|
+T An Urgent Situation|QID|45437|M|72.37,62.95|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Aethas Sunreaver.|
+A Backup Plan|QID|44766|PRE|45437|M|72.37,62.95|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+T Backup Plan|QID|44766|M|56.43,37.96|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec.|
+A The Vault of the Tirisgarde|QID|46335|PRE|44766|M|56.43,37.96|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+C Twilight Reliquary|QID|46335|QO|2|M|49.17,60.24|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|H|N|Pick up the twilight device in the next room.|
+C Nightborne Soulstone.|QID|46335|QO|5|M|73.20,63.06|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|H|N|Pick up the glowing green orb across the hall.|
+C Cache of the Sin'dorei|QID|46335|QO|3|M|58.09,67.95|Z|0734; Hall of the Guardian!Dungeon|H|N|Down a short flight in the middle of the order hall to find the cache containing the Coronet of the Lu'minellia.|
+C Crystallized Silithid Essence|QID|46335|QO|4|M|61.81,43.20|Z|0734; Hall of the Guardian!Dungeon|H|N|Continue to the lower level of the order hall to find the Crystall in the hallway.|
+C Erno's Enigma|QID|46335|QO|1|M|81.85,26.52|Z|0734; Hall of the Guardian!Dungeon|H|N|The enigma cube can be found next to where Light's Heart stood (or may still stand if you haven't taken it away yet).|
+T The Vault of the Tirisgarde|QID|46335|M|56.43,37.96|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec (on the top level).|
+A A Creative Solution|QID|46338|PRE|46335|M|56.43,37.96|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+C A Creative Solution|QID|46338|M|37.06,48.34|Z|0734; Hall of the Guardian!Dungeon|CHAT|N|Talk to Ari, on the lower level.|
+T A Creative Solution|QID|46338|M|72.36,62.93|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Aethas Sunreaver, back up to the top level again.|
+A The Nightborne Apprentice|QID|45207|PRE|46338|M|72.36,62.93|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+P Crimson Thicket|ACTIVE|45207|M|72.10,61.46|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|Take Aethas' portal or otherwise travel to the Crimson Thicket.|
+T The Nightborne Apprentice|QID|45207|M|55.82,41.98|Z|0680; Suramar||N|To Arcanist Ryanna.|
+A Retaliation Retaliation|QID|46705|PRE|45207|M|55.82,41.98|Z|0680; Suramar|N|From Arcanist Ryanna.|
+A Keymaster Orlis|QID|46339|PRE|45207|M|55.82,41.98|Z|0680; Suramar|N|From Arcanist Ryanna.|
+C Retaliation Retaliation|QID|46705|M|54.38,39.98|Z|0680; Suramar|S|N|Kill Felborne Insurgents in the area.|
+K Keymaster Orlis|ACTIVE|46339|QO|1|M|54.38,39.98|Z|0680; Suramar|N|Kill Keymaster Orlis and loot the crystal.|T|Orlis|
+C Retaliation Retaliation|QID|46705|M|54.38,39.98|Z|0680; Suramar|US|N|Kill Felborne Insurgents in the area.|
+T Retaliation Retaliation|QID|46705|M|54.58,39.15|Z|0680; Suramar|N|To Arcanist Ryanna.|
+T Keymaster Orlis|QID|46339|M|54.58,39.15|Z|0680; Suramar|N|To Arcanist Ryanna.|
+A Into the Hornet's Nest|QID|46345|PRE|46705&45207|M|54.58,39.15|Z|0680; Suramar|N|From Arcanist Ryanna.|
+P Nyell's Workshop|ACTIVE|46345|M|54.34,39.25|Z|0680; Suramar|H|N|Take the teleporter to Nyell's Workshop.|
+T Into the Hornet's Nest|QID|46345|M|47.19,23.65|Z|0691; Nyell's Workshop|N|To Arcanist Ryanna.|
+A Nyell's Workshop|QID|44768|PRE|46345|M|47.19,23.65|Z|0691; Nyell's Workshop|N|From Arcanist Ryanna.|
+A Secrets of the Shal'dorei|QID|44770|PRE|46345|M|47.19,23.65|Z|0691; Nyell's Workshop|N|From Arcanist Ryanna.|
+C Secrets of the Shal'dorei|QID|44770|S|H|N|Pick up the scrolls as you head towards Nyell.|
+K Master Artificer Nyell|ACTIVE|44768|QO|1|M|41.62,76.49|Z|0691; Nyell's Workshop|N|Go down to the lower level to find and kill Master Artificer Nyell.|T|Master Artificer Nyell|
+C Nyell's Workshop|QID|44768|QO|2|M|41.62,76.49|Z|0691; Nyell's Workshop|N|Loot him to get the beacon.|
+C Secrets of the Shal'dorei|QID|44770|M|48.33,38.52|Z|0691; Nyell's Workshop|US|H|N|Finish collecting the Ancient Shal'dorei Scrolls.|
+T Nyell's Workshop|QID|44768|M|47.18,23.58|Z|0691; Nyell's Workshop|N|To Arcanist Ryanna.|
+T Secrets of the Shal'dorei|QID|44770|M|47.18,23.58|Z|0691; Nyell's Workshop|N|To Arcanist Ryanna.|
+A Keep it Secret, Keep it Safe|QID|46351|PRE|44768&44770|M|47.18,23.58|Z|0691; Nyell's Workshop|N|From Arcanist Ryanna.|
+T Keep it Secret, Keep it Safe|QID|46351|M|72.12,60.64|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari, who has moved up to the top floor of your order hall.|
+A Redundancy|QID|45251|PRE|46351|M|72.31,63.18|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+P Broken Shore|ACTIVE|45251|M|72.93,57.78|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|Use Aethas' portal or otherwise travel to the Broken Shore.|IZ|735|
+T Redundancy|QID|45251|M|49.24,18.80|Z|0646; Broken Shore|N|To Aethas Sunreaver, now at the Broken Shore.|
+A Lady Remor'za|QID|45614|PRE|45251|M|49.24,18.80|Z|0646; Broken Shore|N|From Aethas Sunreaver.|
+A Shield Amplification|QID|45586|PRE|45251|M|49.24,18.80|Z|0646; Broken Shore|N|From Aethas Sunreaver.|
+C Shield Amplification|QID|45586|M|45.74,19.53|Z|0646; Broken Shore|S|U|143795|N|Kill and use the soulstone on the demon corpses.|
+K Lady Remor'za|ACTIVE|45614|QO|1|M|41.52,15.39|Z|0646; Broken Shore|N|Kill Lady Remor'za|T|Lady Remor'za|
+C Shield Amplification|QID|45586|M|45.74,19.53|Z|0646; Broken Shore|US|U|143795|N|Finish collecting souls.|
+T Shield Amplification|QID|45586|M|PLAYER|N|To Aethas Sunreaver.|
+T Lady Remor'za|QID|45614|M|PLAYER|N|To Aethas Sunreaver.|
+A Arming Dalaran|QID|46000|PRE|45586&45614|M|PLAYER|N|From Aethas Sunreaver.|
+C Arming Dalaran|QID|46000|QO|1|M|40.99,15.77|Z|0646; Broken Shore|CHAT|N|Ask Aethas to open a portal to return to Dalaran.|
+P Dalaran|ACTIVE|46000|QO|2|M|40.95,15.90|Z|0646; Broken Shore|N|Use Aethas' portal to return to Dalaran.|
+C Arming Dalaran|QID|46000|QO|3|H|N|Click on the crystal near where the portal takes you.|
+T Arming Dalaran|QID|46000|M|40.99,15.77|Z|0646; Broken Shore|N|To Aethas Sunreaver.|
+A Return of the Archmage|QID|46290|PRE|46000|M|40.99,15.77|Z|0646; Broken Shore|N|From Aethas Sunreaver.|
+T Return of the Archmage|QID|46290|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm, back on the upper floor of your order hall.|
+A Champion: Aethas Sunreaver|QID|46043|PRE|46290|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+T Champion: Aethas Sunreaver|QID|46043|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+A Avocation of Antonidas|QID|45844|PRE|46043|M|45.22,61.74|Z|0646; Broken Shore|N|From Invoker Threadgold. This shows on your map in the order hall, but it actually is at Broken Shore beside the Mage Tower.|
+T Avocation of Antonidas|QID|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec.|
+A Burning Within|QID|45845|PRE|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+A Chilled to the Core|QID|45846|PRE|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+A Close to Home|QID|45847|PRE|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+C Close to Home|QID|45847|QO|1|M|56.02,46.98|Z|0627; Dalaran!Broken Isles|CHAT|N|Ask Celindra about the disk.|
+C Close to Home|QID|45847|QO|2|M|53.77,47.40|Z|0627; Dalaran!Broken Isles|H|N|Follow her into the next room and pick up the piece.|
+C Burning Within|QID|45845|QO|1|M|28.52,48.43|Z|0627; Dalaran!Broken Isles|CHAT|N|Ask Khadgar about the piece of Antonidas' disk.|
+P Karazhan|ACTIVE|45845|QO|3|M|28.74,77.53|Z|0629; Aegwynn's Gallery@Dalaran|N|Head down to the teleport room in the middle of Dalaran and take the portal to Karazhn.|
+C Burning Within|QID|45845|QO|2|M|48.61,78.97|Z|0042; Deadwind Pass|CHAT|N|Ask Alturus about the disk.|
+P Alturus' Sanctum|QID|45845|QO|4|M|50.63,90.96|Z|0043; The Master's Cellar|N|Go down into the Master's Cellar, take the first left and at the end of that hall you will see Alturus' portal.--currently broken and returns you to Krasus Landing - no mage mount for joo!|
+C Burning Within|QID|45845|QO|5|M|51.64,89.48|Z|0042; Deadwind Pass|H|N|Pick up the piece of the disc.|
+P Dalaran Crater|ACTIVE|45846|QO|1|M|28.74,77.53|Z|0629; Aegwynn's Gallery@Dalaran|N|Don't forget to cast slowfall before landing..|
+C Chilled to the Core|QID|45846|QO|1|M|31.03,31.30|Z|0025; Hillsbrad Foothills|CHAT|N|Ask Archmage Cedric about the disk.|
+K Ok'rok Icetouch|ACTIVE|45846|QO|2|M|45,26|Z|0025; Hillsbrad Foothills|N|Go kill the ogre Ok'rok and loot the disc piece.|T|Ok'rok Icetouch|
+T Burning Within|QID|45845|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec, back in the order hall.|
+T Chilled to the Core|QID|45846|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec.|
+T Close to Home|QID|45847|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec.|
+A Dispersion of the Discs|QID|45354|PRE|45845&45846&45847|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
+C Dispersion of the Discs|QID|45354|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|CHAT|N|Let Archmage Kalec know you are ready to start the simple scenario.|IZ|735|
+C Prepare the Discs|ACTIVE|45354|SO|1|M|38.68,64.33|Z|0881; The Eye of Eternity!Dungeon881|N|Stand there and listen to Kalec.|
+C Disperse the Frost Disc|ACTIVE|45354|SO|2;1|M|46.97,55.48|Z|0881; The Eye of Eternity!Dungeon881|H|N|Click the frost disc, then kill the elemental.|
+C Disperse the Arcane Disc|ACTIVE|45354|SO|2;2|M|38.52,36.39|Z|0881; The Eye of Eternity!Dungeon881|H|N|Click the arcane disc, then kill the elemental.|
+C Disperse the Fire Discs|ACTIVE|45354|SO|2;3|M|31.21,56.63|Z|0881; The Eye of Eternity!Dungeon881|H|N|Click the fire disc, then kill the elemental. Check off manually, this one isnt closing on it's own.|
+C Dispersion of the Discs|QID|45354|M|38.35,49.72|Z|0881; The Eye of Eternity!Dungeon881|CHAT|N|Watch while the mage assistants stand around, and then if desired take Kalec's offered ride back to the mage hall.|
+T Dispersion of the Discs|QID|45354|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec. Congrats on your shiny new mount.|
+
+A The Council's Call|QID|47000|PRE|46765|M|28.70,48.40|Z|627;Dalaran|N|To/From Archmage Khadgar.|
+A Frost: The Twisted Twin|QID|45182|PRE|47000|M|28.45,49.48|Z|0627; Dalaran!Broken Isles|N|From Archmage Ansirem Runeweaver (or Kalec i wasnt recording)|
+A Fire: The Folly of Levia Laurence|QID|47055|PRE|47000|M|28.42,48.92|Z|627;Dalaran|N|From Archmage Modera.|
+A Arcane: Fate of the Tideskorn|QID|45482|PRE|47000|M|28.49,48.32|Z|627;Dalaran|N|From Archmage Khadgar.|
+C Fire: The Folly of Levia Laurence|QID|47055|M|41.27,37.02|Z|627;Dalaran|QO|1|CHAT|N|Ask Professor Pallin about Levia at the Scribe's Sacellum.|
+C Fire: The Folly of Levia Laurence|QID|47055|M|49.41,73.08|Z|627;Dalaran|QO|2|CHAT|N|Ask Icks about Levia at the Militant Mystic.|
+C Fire: The Folly of Levia Laurence|QID|47055|M|49.79,40.16|Z|627;Dalaran|QO|3|CHAT|N|Ask Amisi Azuregaze about Levia at the Legerdemain Lounge.|
+T Frost: The Twisted Twin|QID|45182|M|49.35,39.78|Z|627;Dalaran|N|To Karam Magespear.|
+A Message from the Shadows|QID|45185|PRE|45182|M|49.35,39.78|Z|627;Dalaran|N|From Karam Magespear.|
+C Message from the Shadows|QID|45185|M|47.00,39.20|Z|627;Dalaran|H|N|Go upstairs and find the mysterious note on the table between the two beds.|
+C Fire: The Folly of Levia Laurence|QID|47055|M|46.50,39.99|Z|627;Dalaran|QO|4|N|Pick up Levia's Research Journal from the table on the other side of the room.|
+T Message from the Shadows|QID|45185|M|49.39,39.76|Z|627;Dalaran|N|To Karam Magespear.|
+A Secrets in the Underbelly|QID|45187|PRE|45185|M|49.39,39.76|Z|627;Dalaran|N|From Karam Magespear.|
+R The Underbelly|ACTIVE|45187|M|73.89,62.62|Z|0628; The Underbelly@Dalaran!Broken Isles|N|Head down to the underbelly.|
+C Secrets in the Underbelly|QID|45187|M|62.09,78.99|Z|628;Dalaran|QO|1|NC|N|Ask the lowlifes hanging out down here, and kill whatever attacks you. An assasin dropped the clue for me.|
+T Secrets in the Underbelly|QID|45187|M|61.46,78.37|Z|628;Dalaran|N|To Karam Magespear.|
+A The Wisdom of the Council|QID|45188|PRE|45187|N|From Karam Magespear.|
+K Eriah Magespear|ACTIVE|45188|QO|1|M|61.46,78.37|Z|628;Dalaran|N|Kill and loot Eriah.|
+T Fire: The Folly of Levia Laurence|QID|47055|M|28.43,48.93|Z|627;Dalaran|N|To Archmage Modera.|
+A Bargaining with Shadows|QID|46327|PRE|47055|M|28.43,48.93|Z|627;Dalaran|N|From Archmage Modera.|
+T The Wisdom of the Council|QID|45188|M|28.59,47.80|Z|627;Dalaran|N|To Archmage Karlain.|
+A Where it's Thinnest|QID|45190|PRE|45188|M|28.59,47.80|Z|627;Dalaran|N|From Archmage Karlain.|
+T Bargaining with Shadows|QID|46327|M|52.63,59.68|Z|629;Dalaran|N|To Ritssyn Flamescowl, who is in the Chamber of the Guardian.|
+A The Acolyte Imperiled|QID|45916|PRE|46327|M|52.63,59.68|Z|629;Dalaran|N|From Ritssyn Flamescowl.|
+C The Acolyte Imperiled|QID|45916|M|57.97,72.96|Z|629;Dalaran|QO|1|H|N|Go into the room and investigate Levia's Ritual.|
+C The Acolyte Imperiled|QID|45916|M|60.86,71.75|Z|629;Dalaran|QO|2|N|Defend Ritssyn.|
+T The Acolyte Imperiled|QID|45916|M|57.84,73.07|Z|629;Dalaran|N|To Ritssyn Flamescowl.|
+A Dabbling in the Demonic|QID|45125|PRE|45916|M|57.84,73.07|Z|629;Dalaran|N|From Ritssyn Flamescowl.|
+C Dabbling in the Demonic|QID|45125|M|57.63,72.40|Z|629;Dalaran|QO|1|CHAT|N|Click on Taam, Talar and Dregia runes in any order, (the two middle ones and the one closest to the door on the right side when looking into the room from the doorway). Then, talk to Ritssyn to tell him it is done.|
+T Dabbling in the Demonic|QID|45125|M|57.63,72.40|Z|629;Dalaran|N|To Ritssyn Flamescowl.|
+A Following the Scent|QID|45917|PRE|45125|M|57.63,72.40|Z|629;Dalaran|N|From Ritssyn Flamescowl.|
+C Following the Scent|QID|45917|QO|1||M|30.96,51.84|Z|630;Azsuna|CHAT|N|Into the portal, then talk to Fhambar.|
+C Following the Scent|QID|45917|M|25.93,57.31|Z|630;Altar of End Times|QO|2|NC|N|Follow Fhambar until he finds Levia.|
+T Following the Scent|QID|45917|M|25.65,57.77|Z|630;Altar of End Times|N|To Levia Laurence.|
+A Unlikely Seduction|QID|45126|PRE|45917|M|25.65,57.77|Z|630;Altar of End Times|N|From Levia Laurence.|
+C Unlikely Seduction|QID|45126|M|25.76,57.59|Z|630;Altar of End Times|N|Kill Agatha.|
+T Unlikely Seduction|QID|45126|M|25.69,57.73|Z|630;Altar of End Times|N|To Levia Laurence.|
+A Fel-Crossed Lovers|QID|45127|PRE|45126|M|25.69,57.73|Z|630;Altar of End Times|N|From Levia Laurence.|
+
+F Broken Shore|ACTIVE|45190|M|56.44,27.34|Z|0646; Broken Shore|N|Head to Broken Shore to meet up with Karam.|
+T Where it's Thinnest|QID|45190|M|56.44,27.34|Z|646;Broken Shore|N|To Karam Magespear.|
+A Runes of Rending|QID|45192|PRE|45190|M|56.44,27.34|Z|646;Broken Shore|N|From Karam Magespear.|
+C Runes of Rending|QID|45192|M|58.00,27.20|Z|646;Broken Shore|QO|1|NC|N|Bypass the wards The easiest, is when you die to the damage from the pink tiles, rez on the other side of the puzzle. If you like to do things the hard way, you need to know that stepping on the bluish tinted tiles is safe and the pink ones will do significant damage, you can't move diagonally, only forward, backwards, left and right. Stepping on a rune may change the ones around it, go slow and take your time.|
+C Runes of Rending|QID|45192|M|59.64,27.32|Z|646;Broken Shore|QO|2|N|Wait/watch and eventually Raest summons a minue for you to kill.|
+T Runes of Rending|QID|45192|M|59.79,27.44|Z|646;Broken Shore|N|To Karam Magespear.|
+A One Step Behind|QID|45193|PRE|45192|M|59.79,27.44|Z|646;Broken Shore|N|From Karam Magespear.|
+
+F Jandvik|ACTIVE|45482|M|65.40,50.82|Z|0680; Suramar|N|Head to Jandvik in Suramar to meet up with Huntsman Slodi.|
+C Arcane: Fate of the Tideskorn|QID|45482|M|65.40,50.82|Z|680;Suramar|QO|1|CHAT|N|Speak with Huntsman Slodi.|
+C Arcane: Fate of the Tideskorn|QID|45482|M|70.54,49.94|Z|680;Suramar|QO|2|CHAT|N|Speak with Priestess Bryna.|
+C Arcane: Fate of the Tideskorn|QID|45482|M|71.47,49.58|Z|680;Suramar|QO|3|CHAT|N|Speak with Yngvild the Watcher, on top of the tower.|
+T Arcane: Fate of the Tideskorn|QID|45482|M|76.25,50.02|Z|680;Suramar|N|To Sigryn.|
+A The Reluctant Queen|QID|45486|PRE|45482|M|76.25,50.02|Z|680;Suramar|N|From Sigryn.|
+F Valdisdall|ACTIVE|45486|M|59.61,50.83|Z|0634; Stormheim!Broken Isles|N|Go to Valdisdall to meet up with Sigryn.|
+C The Reluctant Queen|QID|45486|M|59.61,50.83|Z|634;Stormheim|QO|1|CHAT|N|Speak to Sigryn in Valdisdall.|
+C The Reluctant Queen|QID|45486|M|62.20,67.92|Z|634;Stormheim|QO|2|NC|N|Escort Sigryn to Skold-Ashil.|
+C The Reluctant Queen|QID|45486|M|62.75,68.10|Z|634;Stormheim|QO|3|CHAT|N|Speak with Priestess Halla.|
+C The Reluctant Queen|QID|45486|M|72.84,50.80|Z|640;Stormheim|QO|4|NC|N|Gain an audience with Eyir.|
+T The Reluctant Queen|QID|45486|M|72.84,50.80|Z|640;Stormheim|N|To Eyir.|
+A To Silence the Bonespeakers|QID|45522|PRE|45486|M|72.84,50.80|Z|640;Stormheim|N|From Eyir.|
+F Haustvald|ACTIVE|45522|M|73.12,40.07|Z|634;Stormheim|N|This is the platform right above the entrance into Helheim.|
+C To Silence the Bonespeakers|QID|45522|M|73.12,40.07|Z|634;Stormheim|N|Defeat Runeseer Faljar.|
+T To Silence the Bonespeakers|QID|45522|M|73.26,39.90|Z|634;Stormheim|N|To Runeseer Faljar.|
+A To Tame the Drekirjar|QID|45523|PRE|45522|M|72.85,40.51|Z|634;Stormheim|N|From Sigryn.|
+F Hrydshal|ACTIVE|45523|M|72.85,40.51|Z|634;Stormheim|N|And back across Stormheim to find the next claiment.|
+C To Tame the Drekirjar|QID|45523|M|41.22,71.86|Z|634;Stormheim|N|Defeat Jarl Velbrand.|
+T To Tame the Drekirjar|QID|45523|M|41.13,71.90|Z|634;Stormheim|N|To Jarl Velbrand.|
+A The Forgotten Heir|QID|45524|PRE|45523|M|41.40,71.66|Z|634;Stormheim|N|From Sigryn.|
+F Vrekt|ACTIVE|45524|M|74.24,84.98|Z|634;Vrekt|N|Inside a little cave called Outcast's Hovel.|
+C The Forgotten Heir|QID|45524|M|74.24,84.98|Z|634;Vrekt|QO|1|NC|N|Go into the Outcast's Hovel.|
+C The Forgotten Heir|QID|45524|M|74.24,84.98|Z|634;Vrekt|QO|2|N|Kill Torvald.|
+T The Forgotten Heir|QID|45524|M|73.61,86.02|Z|634;Stormheim|N|To Sigryn.|
+A Unanswered Questions|QID|45525|PRE|45524|M|73.61,86.02|Z|634;Stormheim|N|From Sigryn.|
+F Skold-Ashil|M|61.65,68.06|Z|0634; Stormheim!Broken Isles|N|Back to Eyir in her temple.|
+C Unanswered Questions|QID|45525|M|66.16,50.71|Z|640;Stormheim|QO|1|CHAT|N|Speak to Sigryn.|
+T Unanswered Questions|QID|45525|M|73.01,51.00|Z|640;Stormheim|N|To Eyir.|
+A The Gates Are Closed|QID|46340|PRE|45525|M|73.01,51.00|Z|640;Stormheim|N|From Eyir.|
+
+F Dalaran|ACTIVE|46340^45127^45193|M|28.70,48.40|Z|627;Dalaran|U|140192|N|Head back to Dalaran via the method of your choosing.|
+T Fel-Crossed Lovers|QID|45127|M|28.43,48.90|Z|627;Dalaran|N|To Archmage Modera.|
+A A Gift From the Six|QID|45861|PRE|45127|M|28.43,48.90|Z|627;Dalaran|N|From Archmage Modera.|
+T One Step Behind|QID|45193|M|28.45,48.38|Z|627;Dalaran|N|To Archmage Khadgar.|
+T The Gates Are Closed|QID|46340|M|28.45,48.38|Z|627;Dalaran|N|To Archmage Khadgar.|
+A A Gift From the Six|QID|45866|PRE|45193&46340|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45862|PRE|45193&46340|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
+C A Gift From the Six|QID|45866|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
+C A Gift From the Six|QID|45861|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
+C A Gift From the Six|QID|45862|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
+T A Gift From the Six|QID|45866|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45861|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45862|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
 ; more quests, I'm sure.
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|TR_EmmAzsuna|
 J On to Stormheim|QID|39864^39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_LudoStormheim|FACTION|ALLIANCE|
