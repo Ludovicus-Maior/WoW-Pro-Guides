@@ -119,10 +119,10 @@ A On Eagle's Wings|QID|40953|M|60.10,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Sh
 C On Eagle's Wings|QID|40953|QO|1|M|69.87,51.16|Z|Dalaran@Dalaran70|CHAT|N|Speak to the flight master in Krasus' Landing and select the chat option "I need to fly to the Trueshot Lodge".|
 C On Eagle's Wings|QID|40953|QO|2|M|36.29,27.92|NC|N|Meet Emmarel Shadewarden at the Trueshot Lodge|
 T On Eagle's Wings|QID|40953|M|36.67,29.03|N|To Emmarel Shadewarden.|
-A The Unseen Path|QID|40954|M|36.67,29.03|N|From Emmarel Shadewarden.|PRE|40953|
-C The Unseen Path|QID|40954|QO|1|M|43.61,24.08|NC|N|Listen to the tale of the Unseen Path|
-T The Unseen Path|QID|40954|M|43.51,24.77|N|To Emmarel Shadewarden.|
-A Oath of Service|QID|40955|M|43.51,24.77|N|From Emmarel Shadewarden.|PRE|40954|
+A The Unseen Path|QID|40954|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|From Emmarel Shadewarden.|PRE|40953|
+C The Unseen Path|QID|40954|QO|1|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|NC|N|Listen to the tale of the Unseen Path|
+T The Unseen Path|QID|40954|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|To Emmarel Shadewarden.|
+A Oath of Service|QID|40955|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|From Emmarel Shadewarden.|PRE|40954|
 C Oath of Service|QID|40955|QO|1|M|44.32,27.18|H|N|Click on the statue to take the oath|
 T Oath of Service|QID|40955|M|43.53,24.71|N|To Emmarel Shadewarden.|
 ; A Altar of the Eternal Hunt|QID|41053|M|43.53,24.71|N|From Emmarel Shadewarden.|PRE|40955|
@@ -208,7 +208,7 @@ A Signaling Trouble|QID|42395|M|43.35,26.29|N|From Emmarel Shadewarden, after a 
 T Signaling Trouble|QID|42395|M|42.20,75.07|N|Run up to the top of the tower to meet with Khadgar and turn in the quest to him.|
 A Unseen Protection|QID|42394|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42395|
 A Aiding Our Allies|QID|42436|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42395|
-A Recruiting More Troops|QID|42134|M|42.76,46.92|N|From Tactician Tinderfell|PRE|42395|
+;A Recruiting More Troops|QID|42134|M|42.76,46.92|N|From Tactician Tinderfell|PRE|42395|
 C Unseen Protection|QID|42394|M|42.58,46.66|NC|S|N|Send your followers on the "Unseen Protection" missions at the Scouting Map.|
 T Recruiting More Troops|QID|42134|M|57.66,32.45|N|To Sampson who is outside by the stables.|
 F Skyhorn|QID|42436|M|35.83,27.68|N|Fly to Skyhorn at Odan Battlebow to meet with Meliah. Take some combination of 100 (by multiples of 5) of Highmountain Salmon, Big Gamy Ribs and/or Silkweave Bandages.|ACTIVE|42436|
@@ -379,7 +379,7 @@ A Delicate Enchantments|QID|42658|M|60.12,72.22|Z|Val'sharah|N|To Lyana Stardust
 C Delicate Enchantments|QID|42658|M|60.06,71.94|Z|Val'sharah|N|Protect Lyana while she works.|
 T Delicate Enchantments|QID|42658|M|60.12,72.22|Z|Val'sharah|N|To Lyana Stardust.|
 A Same Day Delivery|QID|42133|M|60.12,72.22|Z|Val'sharah|N|From Lyana Stardust.|PRE|42658|
-C Leading by Example|QID|44680|N|You progress on your order hall is held up until you finish the 20 WQs. rt click to go to the Light's Heart Questline and be reminded of this next time you experience a loading screen.|
+C Leading by Example|QID|44680|M|43.37,26.33|NA|US|N|Go out and do World Quests.|
 T The Missing Vessel|QID|43182|M|42.85,25.65|N|If you haven't yet, pick up your rewards from the mission and then go to Khadgar to turn in.|
 T Same Day Delivery|QID|42133|M|43.37,26.33|N|To Emmarel Shadewarden.|
 T Leading by Example|QID|44680|M|43.37,26.33|N|To Emmarel Shadewarden.|

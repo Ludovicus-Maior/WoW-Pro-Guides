@@ -56,6 +56,9 @@ t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
 A Take Out the Head...|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
 C Take Out the Head...|QID|46250|S|N|Go and kill some of the rare elite demons (marked with a demon head on map).|
 t Take Out the Head...|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
+A Strike Them Down|QID|46246|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46250|
+C Strike Them Down|QID|46246|M|43,38|N|This time you need to kill demons on the Broken Shore, the marked location is a decent spot.|
+t Strike Them Down|QID|46246|M|44.54,63.53|N|To Maiev Shadowsong.|
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46734|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499|
 A Tomb Raidering|QID|46509|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46501|
@@ -340,7 +343,7 @@ C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
 A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
 P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46200|
-T The Matter Resolved... For Now...|QID|46200|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
+T The Matter Resolved... For Now...|QID|46200|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
 F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
 T Rumblings Near Feltotem|QID|45560^47018^47019^47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|

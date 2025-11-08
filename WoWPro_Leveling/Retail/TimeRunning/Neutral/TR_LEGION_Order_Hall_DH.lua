@@ -317,8 +317,8 @@ C Caria and Varedis At Last|ACTIVE|42809^42920|M|73.14,77.07|Z|0714; Niskara!Ins
 C Malevolence, Get Us Out of Here!|ACTIVE|42809^42920|M|73.03,77.86|Z|0714; Niskara!Instance714|SO|7|CHAT|N|Speak with Altruis or Kayn.|
 T The Invasion of Niskara|QID|42809^42920|M|58.00,58.70|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer / Kayn Sunfury.|
 A Last, But Not Least|QID|42132|PRE|42809&42920|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.|
-C Allari the Souleater|QID|42132|QO|1|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|CHAT|N|Recruit Allari the Souleater, downstairs.|
-C Jace Darkweaver|QID|42132|QO|2|M|59.00,72.10|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|CHAT|N|Recruit Jace Darkweaver, downstairs.|
+A Champion: Allari the Souleater|QID|43184|M|59.39,51.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|Recruit Allari the Souleater, downstairs.|
+A Champion: Jace Darkweaver|QID|43185|M|59.00,72.10|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|Recruit Jace Darkweaver, downstairs.|
 T Last, But Not Least|QID|42132|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer / Kayn Sunfury.|
 A I Am the Slayer!|QID|43186|PRE|42132|M|58.63,57.85|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Altruis the Sufferer / Kayn Sunfury.|
 C Slayer!|QID|43186|QO|1|N|Listen as you are honored by the Illidari.|
