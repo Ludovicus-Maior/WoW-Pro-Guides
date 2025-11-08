@@ -454,7 +454,7 @@ T Ending the Crescent Curse|QID|45149|M|58.85,31.72|N|To Nerus Moonfang.|
 A Champion: Nerus Moonfang|QID|46045|PRE|45149|M|58.85,31.72|N|From/To Nerus Moonfang.|
 P Dalaran|QID|46069|M|37.53,64.07|N|Take the Portal to Dalaran.|PRE|46045|
 
-A Worthy of the Title|QID|46069|M|43.73,68.08|N|From Champion Cyssa Dawnrose.|
+A Worthy of the Title|QID|46069|M|43.73,68.08|N|From Champion Cyssa Dawnrose.|PRE|46045|
 P Sanctum of Light|ACTIVE|46069|M|32.68,69.85|Z|Dalaran@Dalaran70|N|Take the Portal to the Order Hall.|
 C Worthy of the Title|QID|46069|M|51.99,77.02|CHAT|N|Speak to Lord Grayson Shadowbreaker.|
 T Worthy of the Title|QID|46069|M|51.99,77.02|N|Speak to Lord Grayson Shadowbreaker.|
