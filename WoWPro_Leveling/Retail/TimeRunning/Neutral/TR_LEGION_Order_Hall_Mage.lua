@@ -158,7 +158,7 @@ T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeo
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
 T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
-C Three Is a Lucky Number|QID|42959|S!US|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
+C Three Is a Lucky Number|QID|42959|S|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
 t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|
 A Champion: Arcane Destroyer|QID|42704|PRE|42959|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 
@@ -430,7 +430,7 @@ C Close to Home|QID|45847|QO|2|M|53.77,47.40|Z|0627; Dalaran!Broken Isles|H|N|Fo
 C Burning Within|QID|45845|QO|1|M|28.52,48.43|Z|0627; Dalaran!Broken Isles|CHAT|N|Ask Khadgar about the piece of Antonidas' disk.|
 P Karazhan|ACTIVE|45845|QO|3|M|28.74,77.53|Z|0629; Aegwynn's Gallery@Dalaran|N|Head down to the teleport room in the middle of Dalaran and take the portal to Karazhn.|
 C Burning Within|QID|45845|QO|2|M|48.61,78.97|Z|0042; Deadwind Pass|CHAT|N|Ask Alturus about the disk.|
-P Alturus' Sanctum|QID|45845|QO|4|M|50.63,90.96|Z|0043; The Master's Cellar|N|Go down into the Master's Cellar, take the first left and at the end of that hall you will see Alturus' portal.--currently broken and returns you to Krasus Landing - no mage mount for joo!|
+P Alturus' Sanctum|ACTIVE|45845|QO|4|M|50.63,90.96|Z|0043; The Master's Cellar|N|Go down into the Master's Cellar, take the first left and at the end of that hall you will see Alturus' portal.--currently broken and returns you to Krasus Landing - no mage mount for joo!|
 C Burning Within|QID|45845|QO|5|M|51.64,89.48|Z|0042; Deadwind Pass|H|N|Pick up the piece of the disc.|
 P Dalaran Crater|ACTIVE|45846|QO|1|M|28.74,77.53|Z|0629; Aegwynn's Gallery@Dalaran|N|Don't forget to cast slowfall before landing..|
 C Chilled to the Core|QID|45846|QO|1|M|31.03,31.30|Z|0025; Hillsbrad Foothills|CHAT|N|Ask Archmage Cedric about the disk.|
@@ -520,7 +520,7 @@ C The Forgotten Heir|QID|45524|M|74.24,84.98|Z|634;Vrekt|QO|1|NC|N|Go into the O
 C The Forgotten Heir|QID|45524|M|74.24,84.98|Z|634;Vrekt|QO|2|N|Kill Torvald.|
 T The Forgotten Heir|QID|45524|M|73.61,86.02|Z|634;Stormheim|N|To Sigryn.|
 A Unanswered Questions|QID|45525|PRE|45524|M|73.61,86.02|Z|634;Stormheim|N|From Sigryn.|
-F Skold-Ashil|M|61.65,68.06|Z|0634; Stormheim!Broken Isles|N|Back to Eyir in her temple.|
+F Skold-Ashil|ACTIVE|45525|M|61.65,68.06|Z|0634; Stormheim!Broken Isles|N|Back to Eyir in her temple.|
 C Unanswered Questions|QID|45525|M|66.16,50.71|Z|640;Stormheim|QO|1|CHAT|N|Speak to Sigryn.|
 T Unanswered Questions|QID|45525|M|73.01,51.00|Z|640;Stormheim|N|To Eyir.|
 A The Gates Are Closed|QID|46340|PRE|45525|M|73.01,51.00|Z|640;Stormheim|N|From Eyir.|
