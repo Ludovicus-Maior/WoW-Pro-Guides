@@ -432,7 +432,7 @@ T An Urgent Warning|QID|46028|M|51.41,45.88|N|To Moira Thaurissan.|
 A Investigate the Broken Shore|QID|46029|PRE|46028|M|51.41,45.88|N|From Moira Thaurissan.|
 C Menace on the Broken Shore|QID|46029|M|49.23,48.61|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|46029|M|51.41,45.88|N|To Moira Thaurissan.|
-A A Curious Contagion|QID|45343|M|51.58,47.79|N|From Alonsus Faol.|ACTIVE|47137|
+A A Curious Contagion|QID|45343|M|51.58,47.79|N|From Alonsus Faol.|
 P Dalaran|ACTIVE|45343|M|49.72,80.67|N|Take the portal to Dalaran.|
 R Krasus' Landing|ACTIVE|45343|M|60.36,44.53|Z|0627; Dalaran!Broken Isles|N|Run out and up to Krasus' Landing|
 F Sylvan Falls, Highmountain|ACTIVE|45343|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|
@@ -454,7 +454,7 @@ C Crafting a Cure|QID|45347|QO|3|NC|M|29.99,55.86|Z|Highmountain|N|Click on the 
 C Crafting a Cure|QID|45347|QO|4|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion again(still sitting on the table) and then target Roland Abernathy and use the extra action button.|
 C Crafting a Cure|QID|45347|QO|5|NC|M|30.00,55.79|Z|Highmountain|N|Click on Roland to rez him.|
 T Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
-A Safekeeping|QID|45348|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45348|
+A Safekeeping|QID|45348|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45347|
 H Dalaran|ACTIVE|45348|U|140192|N|Use your Dalaran Hearthstone and return to Alonsus Faol in your order hall.|
 T Safekeeping|QID|45348|M|51.58,47.79|N|To Alonsus Faol.|
 A To the Broken Shore|QID|45349|M|51.58,47.79|N|From Alonsus Faol.|PRE|45348|
@@ -475,12 +475,13 @@ A Sterile Surroundings|QID|46145|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste
 H Dalaran|ACTIVE|46145|U|140192|N|Use your Dalaran Hearthstone and return to your order hall.|
 T Sterile Surroundings|QID|46145|M|24.25,43.64|N|To Aelthalyste.|
 A Champion: Aelthalyste|QID|46034|M|24.25,43.64|N|From/To Aelthalyste.|PRE|46145|
-A Further Advancement|QID|46788|M|51.46,45.84|N|From Moira Thaurissan.|PRE|46034|
+;A Further Advancement|QID|46788|M|51.46,45.84|N|From Moira Thaurissan.|PRE|46034|
 C Further Advancement|QID|46788|M|56.07,40.71|N|Go see Archon Torias and research the next order hall advancement. (cost 10K resources.)|
 T Further Advancement|QID|46788|M|51.46,45.84|N|To Moira Thaurissan.|
 ; mount quest added 6/6/17
-t The Speaker Awaits|QID|45788|M|48.78,22.93|N|To Betild Deepanvil.|
-A The Sunken Vault|QID|45789|M|48.78,22.93|N|From Betild Deepanvil.|PRE|45788|
+A The Speaker Awaits|QID|45788|M|44.42,63.55|Z|0646; Broken Shore|N|From Grand Priestess.|
+t The Speaker Awaits|QID|45788|M|48.78,22.93|Z|0646; Broken Shore|N|To Betild Deepanvil.|
+A The Sunken Vault|QID|45789|M|48.78,22.93|Z|0646; Broken Shore|N|From Betild Deepanvil.|PRE|45788|
 P Dalaran|ACTIVE|45789|M|49.76,80.57|N|Take the portal to Dalaran|
 F Illidari Stand|ACTIVE|45789|QO|1|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|
 R The Sunken Vault|ACTIVE|45789|QO|1|M|44.26,51.23|Z|0630; Azsuna!Broken Isles|CHAT|N|Run over and Chat with Brann Bronzebeard to start the scenario.|
@@ -489,7 +490,7 @@ C The Lost Observatory|QID|45789|SO|2|M|68.83,62.96|Z|PriestClassMountScenario|N
 C Custodial Matters|QID|45789|SO|3|M|72.98,70.94|Z|PriestClassMountScenario|NC|N|Activate the console.|
 C The Seekers|QID|45789|SO|4|M|73.98,70.94|Z|PriestClassMountScenario|NC|N|Listen, watch, wait.|
 C Constructs Awaken|QID|45789|SO|5|M|73.90,65.12|Z|PriestClassMountScenario|N|Kill the constructs that attack.|
-R The Sunken Vault|ACTIVE|45789|M|69.73,63.66|Z|PriestClassMountScenario|CHAT|N|Talk to Brann for transport back to Dalaran.|
+R Krasus' Landing|ACTIVE|45789|M|69.73,63.66|Z|PriestClassMountScenario|N|Talk to Brann for transport back to Dalaran.|
 T The Sunken Vault|ACTIVE|45789|M|49.71,20.57|N|To Betild Deepanvil back in your order hall.|
 ]]
 end)
