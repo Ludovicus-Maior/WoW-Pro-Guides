@@ -37,7 +37,7 @@ C Darkheart Thicket: Fallen Power|QID|43517|S!US|N|Run the dungeon on mythic dif
 B Vainglorious Past|QID|43514|QO|1|M|46.90,41.43|Z|0630; Azsuna!Broken Isles|N|Buy [color=33fff9] Vainglorious Draught [/color]from Veridis Fallon. (cost 120gold)|
 T Darkheart Thicket: Fallen Power|QID|43517|M|47.91,26.01|Z|0630; Azsuna!Broken Isles|N|To Senegos, at his pool in Azuna.|
 T Vainglorious Past|QID|43514|M|47.91,26.01|Z|0630; Azsuna!Broken Isles|N|To Senegos, at his pool in Azuna.|
-;A Tempering Darkness|QID|43518| -- not in remix 
+;A Tempering Darkness|QID|43518| -- not in remix
 ;C Tempering Darkness|QID|43518|
 ;T Tempering Darkness|QID|43518|
 A Lucid Strength|QID|43519|PRE|43514&43517|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|From Archmage Kalec.|
@@ -114,4 +114,5 @@ P Moonfall Overlook|ACTIVE|43533|M|36.01,45.26|Z|0680; Suramar|N|Take the portal
 C Balance of Power|QID|43533|M|41.40,18.34|Z|0680; Suramar|H|EAB|N|Click on the [color=33fff9]Heart of Zin-Azshari[/color] to absorb it's power. Then when the [color=33fff9] Extra Action Button [/color] appears, use it to release the power.|
 T Balance of Power|QID|43533|M|41.27,18.11|Z|0680; Suramar|N|To Archmage Kalec. If you should take too long to turn in, Kalec goes back to Shal-Aran, where he will also accept the turn in.|
 ]]
+
 end)
