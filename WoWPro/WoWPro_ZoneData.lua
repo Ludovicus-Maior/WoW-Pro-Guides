@@ -11,6 +11,7 @@ local DefineZone5 = WoWPro.DefineZone5 -- New Classic MoP
 local DefineZone9 = WoWPro.DefineZone9 -- New Shadowlands zones names
 local DefineZone10 = WoWPro.DefineZone10 -- New Dragonflight zones names
 local DefineZone11 = WoWPro.DefineZone11 -- New The War Within zones names
+local DefineZone12 = WoWPro.DefineZone12 -- New Midnight zones names
 
 local UIMapType = _G.Enum.UIMapType
 DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 1459, 1460, 1461)
