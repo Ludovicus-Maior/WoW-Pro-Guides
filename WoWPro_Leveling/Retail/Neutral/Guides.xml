@@ -49,6 +49,8 @@
 	<Script file="LEGION_Suramar.lua"/>
 	<Script file="LEGION_Order_Hall_Evoker.lua"/>
 	<Script file="LEGION_Valsharah.lua"/>
+	<Script file="MN_Midnight_Intro.lua"/>
+	<Script file="MN_Eversong_Woods.lua"/>
 	<Script file="MOP_Dread_Wastes.lua"/>
 	<Script file="MOP_KunLai_Summit.lua"/>
 	<Script file="MOP_Townlong_Steppes.lua"/>
