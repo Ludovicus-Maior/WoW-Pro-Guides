@@ -1319,6 +1319,15 @@ function WoWPro.Recorder:CreateRecorderFrame()
         end
     end)
 	dialog:SetDefaultSize("WoWPro Recorder - Portal", 300, 125)
+    
+    WoWPro.AdvancedButton = CreateButton("Advanced", "Toggle between Basic and Advanced Mode.", WoWPro.PortalButton)
+    WoWPro.AdvancedButton:SetScript("OnMouseUp", function(this, button)
+		if button == "LeftButton" then
+			 WoWPro.Recorder:ToggleAdvanced()
+        end
+    end)
+    dialog:SetDefaultSize("WoWPro Recorder - Adv", 300, 125)
+
 end
 
 -- Customizing Recorder Frame --
