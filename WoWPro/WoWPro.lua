@@ -799,21 +799,26 @@ end
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
     local GUID = _G.UnitGUID("target") or ""
-    local unitType = ("-"):split(GUID)
-    if unitType == "" then
-        WoWPro:dbp("No target");
-        return nil
-    end
+    if not issecretvalue or not issecretvalue(GUID) then 
+        local unitType = ("-"):split(GUID)
+        if unitType == "" then
+            WoWPro:dbp("No target");
+            return nil
+        end
 
-    if unitType == "Player" then
-        local _, _, playerUID = ("-"):split(GUID)
-        WoWPro:dbp("Your target " .. GUID.. " ID %s", tostring(playerUID))
-        return tonumber(playerUID)
-    else
-        local _, _, _, _, _, npcID = ("-"):split(GUID)
-        WoWPro:dbp("Your target  " .. GUID .. " ID %s", tostring(npcID))
-        return tonumber(npcID)
+        if unitType == "Player" then
+            local _, _, playerUID = ("-"):split(GUID)
+            WoWPro:dbp("Your target " .. GUID.. " ID %s", tostring(playerUID))
+            return tonumber(playerUID)
+        else
+            local _, _, _, _, _, npcID = ("-"):split(GUID)
+            WoWPro:dbp("Your target  " .. GUID .. " ID %s", tostring(npcID))
+            return tonumber(npcID)
+        end
+    else 
+        WoWPro:dpb("Target NPC cannot be identified in combat.")
     end
+    return nil
 end
 
 
