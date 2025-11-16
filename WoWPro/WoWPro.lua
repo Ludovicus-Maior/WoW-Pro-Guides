@@ -799,7 +799,7 @@ end
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
     local GUID = _G.UnitGUID("target") or ""
-    if not issecretvalue or not issecretvalue(GUID) then 
+    if not _G.issecretvalue or not _G.issecretvalue(GUID) then
         local unitType = ("-"):split(GUID)
         if unitType == "" then
             WoWPro:dbp("No target");
@@ -815,7 +815,7 @@ function WoWPro:TargetNpcId()
             WoWPro:dbp("Your target  " .. GUID .. " ID %s", tostring(npcID))
             return tonumber(npcID)
         end
-    else 
+    else
         WoWPro:dpb("Target NPC cannot be identified in combat.")
     end
     return nil
