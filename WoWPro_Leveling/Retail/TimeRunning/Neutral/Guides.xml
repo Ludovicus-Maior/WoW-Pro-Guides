@@ -19,5 +19,7 @@
 	<Script file="TR_LEGION_Order_Hall_Warrior.lua"/>
 	<Script file="TR_LEGION_Suramar.lua"/>
 	<Script file="TR_LEGION_Valsharah.lua"/>
-    <Script file="TR_Emmaleah_Hippogryph.lua"/>
+	<Script file="TR_Emmaleah_Hippogryph.lua"/>
+	<Script file="TR_LEGION_BalanceofPower.lua"/>
+	<Script file="TR_LEGION_LightsHeart.lua"/>
 </Ui>

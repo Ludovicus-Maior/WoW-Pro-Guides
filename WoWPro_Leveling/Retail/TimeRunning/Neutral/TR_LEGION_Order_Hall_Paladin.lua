@@ -422,7 +422,7 @@ A Investigate the Broken Shore|QID|45975|PRE|45974|M|52.26,78.14|N|From Lord Max
 C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send on Mission.|
 t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 ;champions of legionfall
-A Judgment Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
+A Judgment Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|PRE|47137|
 C Judgment Awaits|QID|45143|M|75.69,53.86|Z|23;Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
 T Judgment Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
 A Ancestors and Enemies|QID|45890|M|59.35,32.42|N|From Delas Moonfang.|PRE|45143|
@@ -451,31 +451,28 @@ C Oath Breaker|QID|45148|M|55.33,18.02|Z|Broken Shore|N|Kill Oathbinder Zorak|T|
 C Ending the Crescent Curse|QID|45149|M|55.33,18.02|Z|Broken Shore|US|N|Finish freeing the Felbound Spirits.|T|Felbound Spirit|
 T Oath Breaker|QID|45148|M|58.85,31.72|N|To Nerus Moonfang.|
 T Ending the Crescent Curse|QID|45149|M|58.85,31.72|N|To Nerus Moonfang.|
-A Champion: Nerus Moonfang|QID|46045|M|58.85,31.72|N|From/To Nerus Moonfang.|
-P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|47137|
-F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|47137|
-T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
-;legionfall mount quest
-B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ACTIVE|46070^46069|
-t Worthy of the Title|QID|46069|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
-A Preparations Underway|QID|46070|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46069|
-T Preparations Underway|QID|46070|M|52.26,78.13|N|To Lord Grayson Shadowbreaker. Assuming you picked up the barding before coming to your order hall, you can immediately turn this in.|
+A Champion: Nerus Moonfang|QID|46045|PRE|45149|M|58.85,31.72|N|From/To Nerus Moonfang.|
+P Dalaran|QID|46069|M|37.53,64.07|N|Take the Portal to Dalaran.|PRE|46045|
+
+A Worthy of the Title|QID|46069|M|43.73,68.08|N|From Champion Cyssa Dawnrose.|PRE|46045|
+P Sanctum of Light|ACTIVE|46069|M|32.68,69.85|Z|Dalaran@Dalaran70|N|Take the Portal to the Order Hall.|
+C Worthy of the Title|QID|46069|M|51.99,77.02|CHAT|N|Speak to Lord Grayson Shadowbreaker.|
+T Worthy of the Title|QID|46069|M|51.99,77.02|N|Speak to Lord Grayson Shadowbreaker.|
+A Preparations Underway|QID|94847|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46069|
+T Preparations Underway|QID|94847|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
 A The Hammer of Dalaran|QID|46071|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46070|
 P Dalaran|QID|46071|N|Return to Dalaran and the Blacksmithing Shop.|
 T The Hammer of Dalaran|QID|46071|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
-A A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46071|
-B Leystone Ore|QID|46083|L|123918 25|N|Pick up 25 Leystone Ore from somewhere. (mine, AH, guild bank, etc.)|ACTIVE|46083|
-F Meredil|QID|46083|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46083|
-P Evermoon Terrace|QID|46083|M|36.49,44.74|Z|Suramar|N|You must have progressed the Suramar quest line far enough to have a nightfallen disguise to buy the Suramarian Sapphire.|ACTIVE|46083|
-B Suramarian Sapphire|QID|46083|M|50.90,77.78|Z|Suramar|L|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|46083|
-P Dalaran|QID|46083|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|ACTIVE|46083|
-T A Few Things First|QID|46083|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
-A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46083|
-C Leather to Legendary|QID|46074|QO|2|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
+A A Few Things First|QID|91618|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|46071|
+B Suramarian Sapphire|QID|91618|M|49.98,77.09|Z|Suramar|L|147768|N|At the Sundries Merchant in Evermoon Commons - Suramar City. Costs 500 Ancient Mana.|ACTIVE|91618|
+P Dalaran|QID|91618|M|50.90,77.78|Z|Suramar|U|140192|N|Return to Dalaran.|ACTIVE|91618|
+T A Few Things First|QID|91618|M|44.13,28.69|Z|Dalaran@Dalaran70|N|To Alard Schmied.|
+A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard Schmied.|PRE|91618|
+C Leather to Legendary|QID|46074|QO|1|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
 T Leather to Legendary|QID|46074|M|52.26,78.13|N|Return to your order hall and to Lord Grayson Shadowbreaker.|
 A Stirring in the Shadows|QID|45770|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|
 R Eastwall Gate|QID|46074|M|43.44,19.56|Z|23;Eastern Plaguelands|N|Run up the stairs and out of the order hall into Eastern Plaguelands, Fly to the service entrance of Strathholme. DO NOT GO INSIDE YET.|ACTIVE|45770|
-C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|23;Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.|
+C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|23;Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.\n Click this step to continue.|
 C Choose Your Allies|QID|45770|SO|1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Recruit 2 of the paladins to assist you.|
 C Search the City|QID|45770|SO|2|S|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Find the needed items.|
 C Search the City|QID|45770|SO|2;1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|S|NC|N|Collect Holy Water scattered around in boxes.|

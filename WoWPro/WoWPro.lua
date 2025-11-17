@@ -1825,6 +1825,7 @@ WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
 WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
 WoWPro.WAR_WITHIN_PREPATCH = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 110002))
 WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
+WoWPro.MIDNIGHT = ((WoWPro.TocVersion >= 120000) and (WoWPro.TocVersion < 130000))
 WoWPro.RETAIL_RELEASE = 11
 WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
 

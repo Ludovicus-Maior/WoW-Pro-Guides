@@ -5,7 +5,7 @@ WoWPro:GuideName(guide, "Hallow's End (Pandaria)")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Wall of Text Part 1 of 2|QID|32049|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievements "Tricks and Treats of...".|
-N Wall of Text Part 2 of 2|QID|32049|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
+N Wall of Text Part 2 of 2|QID|32049|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So Be prepared to delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
 ; ** The Jade Forest
 R The Jade Forest|N|Take your portal to The Jade Forest|
 A Candy Bucket|QID|32049|M|44.81,84.37|Z|0371; The Jade Forest|N|Jiayi Applebloom, Paw'Don Village.|

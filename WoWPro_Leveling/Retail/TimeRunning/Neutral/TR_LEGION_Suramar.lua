@@ -811,7 +811,6 @@ P Felsoul Command|ACTIVE|40412|M|33.08,75.14|Z|0680; Suramar|N|Take the portal b
 T Azoran Must Die|QID|40412|M|31.15,84.61|Z|0680; Suramar|N|To Lyana Darksorrow.|
 H Shal'Aran|QID|42366|ACTIVE|42366|M|36.87,46.60|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T The Bigger They Are, The Harder They Fel|QID|42366|M|36.87,46.60|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
-
 A Bad Apples|QID|41107|M|42.44,59.32;44.27,56.60;47.25,56.50|Z|0680; Suramar|CS|N|From Keelay Moongrow|RANK|2|
 A Blast of Spice Fish|QID|41256|M|47.25,56.50|Z|0680; Suramar|N|From Keelay Moongrow|RANK|2|
 R Meredil|ACTIVE|41107|M|34.39,49.95|Z|0680; Suramar|N|The fruit and poison can be found out in the South part of Meridil.|RANK|2|
@@ -958,15 +957,15 @@ T Friends With Benefits|QID|44053|M|36.56,46.77|Z|0680; Suramar|N|To First Arcan
 ; N Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|Z|0680; Suramar|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 ; N Beware the Fury of a Patient Elf|QID|43314|PRE|44053^43313|M|36.56,46.77|Z|0680; Suramar|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 ; N Long Buried Knowledge|QID|42491|PRE|44053^43313|M|37.02,46.21|Z|0680; Suramar|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
-t The Arcway: Opening the Arcway|QID|42490|M|36.50,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.
-t The Arcway: Long Buried Knowledge|QID|42491|M|37.05,46.23|Z|0680; Suramar|N|To First Arcanist Valtrois.\n If you have completed Arluin's Request this can instead be handed in to First Arcanist Thalyssra.|
+t The Arcway: Opening the Arcway|QID|42490|M|36.50,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
+t The Arcway: Long Buried Knowledge|QID|42491|M|36.50,45.83|Z|0680; Suramar|N|To Arcanist Valtrois.\n If you have completed Arluin's Request this can instead be handed in to First Arcanist Thalyssra.|
 
 
 ; Good Suramaritan - A Growing Crisis Story Arc
 t Growing Strong|QID|44562|M|36.54,46.77|Z|0680; Suramar|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
 A A Growing Crisis|QID|44152|PRE|43318|M|36.54,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
-P Falanaar|ACTIVE|44152|M|35.94,45.55|Z|0680; Suramar|N|Take the Portal to Falanaar.|
+P Temple of Fal'adora|ACTIVE|44152|M|35.94,45.55|Z|0680; Suramar|N|Take the Portal to Falanaar.|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|684|N|To Valewalker Farodin.|
 A Fragments of Disaster|QID|43361|PRE|44152|M|42.38,15.05|Z|684|N|From Valewalker Farodin.|
 A The Shardmaidens|QID|43360|PRE|44152|M|42.38,15.05|Z|684|N|From Valewalker Farodin.|
@@ -981,7 +980,7 @@ T Another Arcan'dor Closes...|QID|44156|M|36.53,46.77|Z|0680; Suramar|N|To Valew
 A Branch of the Arcan'dor|QID|40125|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
 T Branch of the Arcan'dor|QID|40125|M|36.53,46.77|Z|0680; Suramar|NA|N|To First Arcanist Thalyssra.|
 A The Stuff of Dreams|QID|43362|PRE|44156|M|36.53,46.77|Z|0680; Suramar|N|From Valewalker Farodin.|
-C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - Take the portal behind you - defeat image of Xavius.|
+C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|1|NA|N|Xavius slain - Take the portal behind you - defeat image of Xavius. If you want this can be done in this scenario or in the raid.|
 C The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|QO|2|NA|NC|N|Head to the quest marker ands loot the Purified Life Essence.|
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|Z|0680; Suramar|NA|N|To Valewalker Farodin. Take the nearby portal to return.|
 A A Change of Seasons|QID|43502|PRE|43362&43318|M|36.84,46.56|Z|0680; Suramar|N|From Valewalker Farodin|
@@ -1035,7 +1034,7 @@ T Arluin's Request|QID|43569|M|48.24,66.84|Z|0680; Suramar|N|To Arluelle.|
 H Shal'Aran|AVAILABLE|45260|PRE|43569|M|36.51,46.80|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 
 ; Insurrection - Lockdown Storyline Quests
-;A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).| This does not seem to be available in Remix.
+;A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
 ;T Insurrection|QID|45271|M|36.51,46.80|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|Z|0680; Suramar|N|From First Arcanist Thalyssra.\n*Bread Crumb Quest: Check your Adventurer's Journal*|
 C One Day at a Time|QID|45260|M|37.90,45.65|Z|0680; Suramar|QO|1|NC|U|143597|N|Click on a Suramar Refugee.|
@@ -1253,19 +1252,18 @@ C Ready for Battle|QID|44739|M|41.64,51.49|Z|0680; Suramar|QO|2|CHAT|N|Speak to 
 C Ready for Battle|QID|44739|M|40.49,53.06|Z|0680; Suramar|QO|3|CHAT|N|Speak to Lady Liadrin|
 T Ready for Battle|QID|44739|M|41.07,51.80|Z|0680; Suramar|N|To Archmage Khadgar.|
 A Full Might of the Elves|QID|44738|PRE|44739|M|41.07,51.80|Z|0680; Suramar|N|From Archmage Khadgar.|
-C Defeat the Promenade Vanguard|QID|44738|M|42.74,54.55|Z|0680; Suramar|SO|1;2|N|Defeat the Promenade Vanguard.|
-C Defeat the Promenade Defenders|QID|44738|M|43.40,55.75|Z|0680; Suramar|SO|1;1|N|Defeat the Promenade Defenders.|
-C Defeat the Ancient Shieldguard|QID|44738|Z|0680; Suramar|SO|2|S|N|Defeat the Ancient Shieldguard.|
-C Secure the Concourse of Destiny|QID|44738|Z|0680; Suramar|SO|3|S|N|Run and kill Guards as you go.|
-C Telemancy Trap Placed|QID|44738|M|50.71,66.37|Z|0680; Suramar|SO|4|NC|N|Click on Telemancy Trap.|
-C Full Might of the Elves|QID|44738|M|50.71,66.37|Z|0680; Suramar|N|March on Suramar City.|
+C Defeat the Promenade Vanguard|ACTIVE|44738|M|42.74,54.55|Z|0680; Suramar|SO|1;2|N|Defeat the Promenade Vanguard.|
+C Defeat the Promenade Defenders|ACTIVE|44738|M|43.40,55.75|Z|0680; Suramar|SO|1;1|N|Defeat the Promenade Defenders.|
+C Defeat the Ancient Shieldguard|QID|44738|SO|2|M|49.24,64.17|Z|0680; Suramar|N|Defeat the Ancient Shieldguard.|
+C Secure the Concourse of Destiny|ACTIVE|44738|Z|0680; Suramar|SO|3|N|Run and kill Guards as you go.|
+C Telemancy Trap Placed|ACTIVE|44738|M|50.71,66.37|Z|0680; Suramar|SO|4|NC|N|Click on Telemancy Trap.|
 T Full Might of the Elves|QID|44738|M|52.25,68.73|Z|0680; Suramar|N|Run To Archmage Khadgar and turn-in.|
 A Staging Point|QID|44740|PRE|44738|M|52.25,68.73|Z|0680; Suramar|N|From Archmage Khadgar.|
 C Staging Point|QID|44740|M|54.47,69.43|Z|0680; Suramar|NC|N|Click on Telemancy Beacon to activate.|
 T Staging Point|QID|44740|M|54.88,72.87|Z|0680; Suramar|N|To Archmage Khadgar.|
 ; Insurrection - Elisande's Retort - Storyline.
 ;A Insurrection: Elisande's Retort|QID|45282|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
-H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|Z|0680; Suramar|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+H Shal'Aran|AVAILABLE|45267|PRE|44740|M|54.48,69.46|Z|0680; Suramar|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 ;T Insurrection: Elisande's Retort|QID|45282|M|36.50,46.72|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A Before the Siege|QID|45267|PRE|44740|M|36.50,46.72|Z|0680; Suramar|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|Z|0680; Suramar|NC|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1290,10 +1288,11 @@ C Scouting the Breach|QID|44832|M|43.82,59.77|Z|0680; Suramar|QO|4|NC|N|Wait wit
 T Scouting the Breach|QID|44832|M|44.02,59.73|Z|0680; Suramar|N|To Arcanist Valtrois.|
 A The Seal's Power|QID|44833|PRE|44832|M|44.02,59.73|Z|0680; Suramar|N|From Arcanist Valtrois.|
 F Crimson Thicket|ACTIVE|44833|M|59.21,44.64|Z|0680; Suramar|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly.  If you are bored, just run to the Thicket.|
+R Kel'Balor|ACTIVE|44833|M|49.24,64.17|Z|0680; Suramar|N|Head into Kel'Balor|
 C The Seal's Power|QID|44833|M|43.22,56.33|Z|687|QO|1|NC|N|Meet Arcanist Valtrois in Kel'balor.|
 C The Seal's Power|QID|44833|M|50.40,44.93|Z|687|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
 R Shal'Aran|ACTIVE|44833|M|39.93,50.96|Z|0680; Suramar|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|FLY|OLD|
-T The Seal's Power|QID|44833|M|36.49,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
+T The Seal's Power|QID|44833|M|36.49,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra, back in Shal'Aran.|
 ; Insurrection - As Strong As Our Will - Storyline
 ;A Insurrection: As Strong As Our Will|QID|45285|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 ;T Insurrection: As Strong As Our Will|QID|45285|M|36.49,45.83|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
@@ -1361,14 +1360,14 @@ T I'll Just Leave This Here|QID|44964|M|36.64,44.98|Z|0680; Suramar|N|To First A
 A Breaching the Sanctum|QID|44719|PRE|44964|M|36.62,45.08|Z|0680; Suramar|N|From Chief Telemancer Oculeth.|
 C Breaching the Sanctum|QID|44719|M|36.63,45.02|Z|0680; Suramar|QO|1|CHAT|N|Tell Oculeth, "I am ready to enter the Sanctum."|
 P Breaching the Sanctum|ACTIVE|44719|M|36.66,45.05|Z|0680; Suramar|QO|2|N|Enter the portal.|
-C The New Plan|QID|44719|M|45.95,66.19|Z|0680; Suramar|SO|1|U|142118|N|The teleport failed and you are outside the Sanctum. Up the stairs to find a way in.|
-C Magic Bars the Way|QID|44719|M|46.89,66.02|Z|0680; Suramar|SO|2|U|142118|N|Find a weakness to the barrier.|
-C Breaking the Barrier|QID|44719|SO|3|M|47.15,65.70;48.05,68.09;49.26,67.51|Z|0680; Suramar|CS|U|142118|N|Kill the ritualists at each Mana Generator to take down the barrier.|
-C The Fall of Dalion|QID|44719|SO|4|M|46.00,64.60|Z|0680; Suramar|U|142118|T|Dalion|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
-C Breaking Through|QID|44719|SO|5|M|43.72,62.52|Z|0680; Suramar|U|142118|N|Make your way deep into the Sanctum of Order and find the breach.|
-C Finally, Andaris|QID|44719|SO|6|M|43.69,62.33|Z|0680; Suramar|U|142118|N|Use Withered to Drain Andaris's shield.|
-C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|Z|0680; Suramar|U|142118|N|Andaris has fallen back to the breach. Slay her.|
-C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|Z|0680; Suramar|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
+C The New Plan|ACTIVE|44719|M|45.95,66.19|Z|0680; Suramar|SO|1|U|142118|N|The teleport failed and you are outside the Sanctum. Up the stairs to find a way in.|
+C Magic Bars the Way|ACTIVE|44719|M|46.89,66.02|Z|0680; Suramar|SO|2|U|142118|N|Find a weakness to the barrier.|
+C Breaking the Barrier|ACTIVE|44719|SO|3|M|47.15,65.70;48.05,68.09;49.26,67.51|Z|0680; Suramar|CS|U|142118|N|Kill the ritualists at each Mana Generator to take down the barrier.|
+C The Fall of Dalion|ACTIVE|44719|SO|4|M|46.00,64.60|Z|0680; Suramar|U|142118|T|Dalion|N|Armsmaster Dalion stands guard at the entrance. Slay him to proceed.|
+C Breaking Through|ACTIVE|44719|SO|5|M|43.72,62.52|Z|0680; Suramar|U|142118|N|Make your way deep into the Sanctum of Order and find the breach.|
+C Finally, Andaris|ACTIVE|44719|SO|6|M|43.69,62.33|Z|0680; Suramar|U|142118|N|Use Withered to Drain Andaris's shield.|
+C Death to Andaris|ACTIVE|44719|SO|7|M|42.61,61.79|Z|0680; Suramar|U|142118|N|Andaris has fallen back to the breach. Slay her.|
+C Reach the entrance to the Nighthold|ACTIVE|44719|M|44.13,60.04|Z|0680; Suramar|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|Z|0680; Suramar|N|To Archmage Khadgar.|
 A The Nighthold: Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|Z|0680; Suramar|IZ|8173|N|From Archmage Khadgar. *Raid Quest*|
 T The Nighthold: Lord of the Shadow Council|QID|45417|M|44.18,60.12|Z|0680; Suramar|N|To Archmage Khadgar. *Inside Raid!!!|
@@ -1378,5 +1377,6 @@ T The Nighthold: The Eye of Aman'Thul|QID|45420|M|46.19,55.66|Z|629|N|To Archmag
 A Fate of the Nightborne|QID|45372|PRE|45417|M|36.62,45.08|Z|0680; Suramar|N|From Chief Telemancer Oculeth.|
 C Fate of the Nightborne|QID|45372|M|36.62,45.08|Z|0680; Suramar|CHAT|N|Tell Oculeth, that you are ready.|
 T Fate of the Nightborne|QID|45372|IZ|770|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)\n If they just stand about doing nothing take the portal back and then speak to Oculeth again.|
+N Suramar|QID|999999|M|PLAYER|N|We are under the assumption, that this completes all the Quests in Suramar, excluding the World Quests.  If you have found any not list in the guide, please Join Us in Discord \n\nhttps://discord.gg/kCXYzdx\n#retail-bug-reports|
 ]]
 end)

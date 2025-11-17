@@ -56,7 +56,7 @@ T To Point the Way|QID|40606|M|52.42,34.41|Z|Deadwind Pass|N|To Revil Kost.|
 A The Fate of Deadwind|QID|40611|M|52.42,34.41|Z|Deadwind Pass|N|From Revil Kost.|PRE|40606|
 R Deadman's Crossing|ACTIVE|40611|M|35.52,35.43|Z|Deadwind Pass|N|Run(Fly) to Deadman's Pass.|
 C The Fate of Deadwind|QID|40611|NC|QO|1|M|35.52,35.43|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|
-R Deadwind Ravine (bridge across)|ACTIVE|40611|M|46.87,62.40|Z|Deadwind Pass|N|Run(Fly) to the bridge across Deadwind Ravine.|
+R Deadwind Ravine|ACTIVE|40611|M|46.87,62.40|Z|Deadwind Pass|N|Run(Fly) to the bridge across Deadwind Ravine.|
 C The Fate of Deadwind|QID|40611|NC|QO|3|M|46.87,62.40|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|
 R Karazhan (Chapel)|ACTIVE|40611|M|40.76,78.29|CC|Z|Deadwind Pass|N|Run (Fly) to the chapel at Karazhan.|
 C The Fate of Deadwind|QID|40611|NC|QO|2|M|40.76,78.29|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|
@@ -72,9 +72,9 @@ C Ariden defeated|SO|6;1|M|68.98,27.77|Z|KarazhanScenario|N|Defeat Ariden, don't
 C Ulthalesh, the Deadwind Harvester claimed|SO|7;1|M|68.62,26.02|Z|KarazhanScenario|N|Ulthalesh, the Deadwind Harvester claimed|QID|41155^40623|
 C The Dark Riders|QID|41155^40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pick up Ulthalesh.|
 T The Dark Riders|QID|41155^40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
-A The Power Possessed|QID|40712|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
-U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return.|ACTIVE|40712|
-T The Power Possessed|QID|40712|M|55.85,65.40|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
+A The Power Possessed|QID|41156|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
+U Return to Dalaran|QID|41156|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return.|ACTIVE|40712|
+T The Power Possessed|QID|41156|M|55.85,65.40|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
 ;DEMONOLOGY
 ; A Ritual Reagents|QID|42128|M|55.82,65.24|Z|0627; Dalaran!Broken Isles|N|From Calydus.|PRE|40684|
 C Ritual Reagents|QID|42128|NC|QO|1|M|33.87,39.56|Z|0627; Dalaran!Broken Isles|N|Grave Dust is found in the graveyard northeast of The Violet Citadel.|
@@ -153,9 +153,10 @@ T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|717|N|To Ritssyn Flamescow
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 A A Mutual Friend|QID|44099|N|From Black Harvest Acolyte.|
-T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
-A Rise, Champions|QID|42608|M|37.47,31.72|N|From Calydus.|
-C Rise, Champions|QID|42608|M|65.66,47.46|N|Recruit Ritssyn Flamescowl.|
+T A Mutual Friend|QID|44099|M|37.43,31.34|Z|0717; Dreadscar Rift!Instance717|N|To Calydus.|
+A Rise, Champions|QID|42608|M|37.43,31.34|Z|0717; Dreadscar Rift!Instance717|N|From Calydus.|
+C Rise, Champions|QID|42608|QO|1|M|37.43,31.34|Z|0717; Dreadscar Rift!Instance717|N|Recruit Calydus.|
+C Rise, Champions|QID|42608|QO|2|M|65.66,47.46|N|Recruit Ritssyn Flamescowl.|
 T Rise, Champions|QID|42608|M|66.82,45.95|N|To Gakin the Darkbinder.|
 A Information at Any Cost|QID|42603|PRE|42608|M|67.00,46.42|N|From Gakin the Darkbinder.|
 C Information at Any Cost|QID|42603|M|66.82,45.95|N|Use Battle Plans to complete mission, "Information at Any Cost".|
@@ -173,7 +174,7 @@ A Searching the Archives|QID|42097|M|65.66,47.46|N|From Ritssyn Flamescowl.|  ; 
 C Searching the Archives|QID|42097|N|Use Battle Plans to complete mission, "Searching the Archives".|
 t Searching the Archives|QID|42097|M|65.66,47.46|N|To Ritssyn Flamescowl.|
 A An Unlikely Ally|QID|41759|PRE|42097|M|65.66,47.46|N|From Ritssyn Flamescowl.|
-P Dalaran|QID|41759|ACTIVE|41759|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|
+P Dalaran|ACTIVE|41759|M|72.43,37.45|N|Take the portal to Dalaran.|
 R Krasus' Landing|QID|41759|ACTIVE|41759|M|60.36,44.53|Z|0627; Dalaran!Broken Isles|N|Run out and up to Krasus' Landing|
 F Felblaze Ingress|QID|41759|ACTIVE|41759|M|69.81,51.06|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|
 T An Unlikely Ally|QID|41759|M|60.77,30.68|Z|0630; Azsuna!Broken Isles|N|To Kira Iresoul.|
@@ -190,12 +191,12 @@ A Debt Repaid|QID|40218|PRE|39142|M|60.77,30.68|Z|0630; Azsuna!Broken Isles|N|Fr
 H Dalaran|QID|40218|ACTIVE|40218|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Debt Repaid|QID|40218|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A A Daring Rescue|QID|41767|PRE|40218|M|55.07,37.38|N|From Ritssyn Flamescowl.|
-C A Daring Rescue|QID|41767|M|54.14,34.86|CHAT|QO|1|N|Chat with Kira Iresoul, and tell her 'Yes'.|
+C A Daring Rescue|QID|41767|M|55.80,35.05|Z|0717; Dreadscar Rift!Instance717|CHAT|QO|1|N|Chat with Kira Iresoul, and tell her 'Yes'.|
 P A Daring Rescue|QID|41767|ACTIVE|41767|M|56.22,36.18|QO|2|N|Use Portal that they open.|
-C A Daring Rescue|QID|41767|QO|4|M|31.62,44.26|Z|Niskara|N|Click on Zinnin's cage.|
-C A Daring Rescue|QID|41767|QO|6|M|39.74,37.15|Z|Niskara|N|You'll find Shinfel's minion Golarb at this spot.|
-C A Daring Rescue|QID|41767|QO|5|M|50.24,47.78|Z|Niskara|N|Click on Jubeka's cage.|
-P Felblaze Ingress|QID|41767|ACTIVE|41767|M|50.11,45.10|Z|Niskara|N|Clicking on this Gateway will take you to Felblaze Ingress. Alternatively Dalaran hearth stone works well too.|
+C A Daring Rescue|QID|41767|QO|4|M|31.68,44.27|Z|0748; Niskara!Instance748|N|Click on Zinnin's cage.|
+C A Daring Rescue|QID|41767|QO|5|M|39.74,37.15|Z|0748; Niskara!Instance748|N|You'll find Shinfel's minion Golarb at this spot.|
+C A Daring Rescue|QID|41767|QO|3|M|50.24,47.78|Z|0748; Niskara!Instance748|N|Click on Jubeka's cage.|
+P Felblaze Ingress|QID|41767|ACTIVE|41767|M|50.11,45.10|Z|0748; Niskara!Instance748|N|Clicking on this Gateway will take you to Felblaze Ingress. Alternatively Dalaran hearth stone works well too.|
 F Dalaran|QID|41767|ACTIVE|41767|M|63.82,28.48|Z|0630; Azsuna!Broken Isles|N|At Adept Sunwing, then run back to your order hall to turn in.|
 T A Daring Rescue|QID|41767|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Champion: Zinnin Smythe|QID|41752|PRE|41767|M|57.2,34.8|CHAT|N|Recruit Zinnin Smythe.|
@@ -203,16 +204,16 @@ A Champion: Jubeka Shadowbreaker|QID|41753|PRE|41767|M|56.4,34|CHAT|N|Recruit Ju
 A Empowering the Soul|QID|42100|PRE|41767|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 C Empowering the Soul|QID|42100|M|66.27,46.96|NC|N|Use Battle Plans to complete 5 missions, that reawrd Empowered Soul Shards. Check this off manually while the missions are in progress to move on to other available steps.|
 t Empowering the Soul|QID|42100|M|55.07,37.38|N|To Ritssyn Flamescowl.|
-A Recruiting More Troops|QID|41798|PRE|41767|M|67.00,46.42|N|From Gakin the Darkbinder.|
+;A Recruiting More Troops|QID|41798|PRE|41767|M|67.00,46.42|N|From Gakin the Darkbinder.|
 T Recruiting More Troops|QID|41798|M|61.49,51.82|N|To Jared. Don't forget to recruit the new troop type now available.|
 ;lights heart intro questline
 P Dalaran|QID|44009|M|49.72,80.67|N|Back to the outside world to continue leveling.|ACTIVE|44009|
-A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|PRE|44100|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|0627; Dalaran!Broken Isles|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-U Dalaran Hearthstone|QID|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|ACTIVE|44009|
+H Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
 R Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardian and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
 T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|0629; Aegwynn's Gallery@Dalaran|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
 A Bringer of the Light|QID|44004|M|26.84,35.05|Z|0629; Aegwynn's Gallery@Dalaran|N|From Archmage Khadgar.|PRE|44009|
@@ -237,7 +238,8 @@ U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use it and th
 T Bringer of the Light|QID|44004|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Kadgar.|
 A Light's Charge|QID|44153|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|53.53,33.06|NC|N|Return to your order hall and return to Light's Heart (table in front of the Alter of Light and Shadow).|
-A Gazing Into Oblivion|QID|44254|M|58.6,33.2|N|From / To Gigi Gigavoid. *Wowhead says Horde only, NOT sure*.|
+A Gazing Into Oblivion|QID|44254|M|58.6,33.2|N|From Gigi Gigavoid.|
+T Gazing Into Oblivion|QID|44254|M|58.6,33.2|N|To Gigi Gigavoid.|
 A Black Rook Hold: An Unclaimed Soul|QID|42098|PRE|42100|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 t Black Rook Hold: An Unclaimed Soul|QID|42098|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Soul Beacon|QID|41768|PRE|42098|M|55.07,37.38|N|From Ritssyn Flamescowl.|
@@ -314,7 +316,7 @@ T A Hero's Weapon|QID|43414|M|36.39,30.60|N|To Ritssyn Flamescowl.|
 ; LVL 110 - Obliterum Quest Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337|
 C In the House of Light and Shadow|QID|44448|M|53.11,32.47|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|NC|N|Put the robes he gives you in the forge.|U|136352|;don't know if the use button will work. delete if it doesnt
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
 ;lights heart - post 110
@@ -393,7 +395,7 @@ F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|0627; Dalaran!Broken I
 T The Power Within|QID|43496|M|48.12,25.58|N|To Archmage Kalec.|
 A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 ;7.2 release of broken shore
-A An Urgent Warning|QID|45989|M|58.28,36.93|N|From Injured Invoker.|LEAD|46730|;may have been removed?
+;A An Urgent Warning|QID|45989|M|58.28,36.93|N|From Injured Invoker.|LEAD|46730|;may have been removed?
 T An Urgent Warning|QID|45989|M|67.00,46.42|N|To Gakin the Darkbinder.|
 A Investigate the Broken Shore|QID|45990|PRE|45989|M|67.00,46.42|N|From Gakin the Darkbinder.|
 C Menace on the Broken Shore|QID|45990|M|66.03,46.64|NC|N|Use Command Board to send on Mission.|

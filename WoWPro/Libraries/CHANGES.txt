@@ -1,53 +1,189 @@
 ------------------------------------------------------------------------
-r1348 | nevcairiel | 2024-07-23 11:23:40 +0000 (Tue, 23 Jul 2024) | 1 line
+r1376 | nevcairiel | 2025-10-28 22:06:01 +0000 (Tue, 28 Oct 2025) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1347 | nevcairiel | 2024-07-23 11:23:22 +0000 (Tue, 23 Jul 2024) | 1 line
+r1375 | funkehdude | 2025-10-24 04:07:54 +0000 (Fri, 24 Oct 2025) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
-Remove outdated TOC versions that are no longer maintained/tested
+Bump toc
 ------------------------------------------------------------------------
-r1346 | nevcairiel | 2024-07-20 07:10:33 +0000 (Sat, 20 Jul 2024) | 1 line
+r1374 | funkehdude | 2025-10-15 17:12:41 +0000 (Wed, 15 Oct 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1373 | funkehdude | 2025-10-13 14:09:48 +0000 (Mon, 13 Oct 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1372 | nevcairiel | 2025-10-05 05:38:34 +0000 (Sun, 05 Oct 2025) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Consistently provide an alpha value for GameTooltip:SetText
+------------------------------------------------------------------------
+r1371 | nevcairiel | 2025-10-03 10:25:33 +0000 (Fri, 03 Oct 2025) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/AceComm-3.0/ChatThrottleLib.lua
+
+ChatThrottleLib: Use C_BattleNet namespace, if available
+------------------------------------------------------------------------
+r1370 | nevcairiel | 2025-10-03 00:16:25 +0000 (Fri, 03 Oct 2025) | 1 line
 Changed paths:
    M /trunk
    M /trunk/.luacheckrc
+
+Update luacheck for chat changes
+------------------------------------------------------------------------
+r1369 | nevcairiel | 2025-10-02 23:56:28 +0000 (Thu, 02 Oct 2025) | 1 line
+Changed paths:
+   M /trunk
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
 
-AceGUI-3.0: Editboxes: Update spell drag-and-drop for WoW 11.0
+AceGUI-3.0: EditBox: Fix InsertLink hook for 12.0
 ------------------------------------------------------------------------
-r1345 | funkehdude | 2024-07-09 19:31:35 +0000 (Tue, 09 Jul 2024) | 1 line
+r1368 | nevcairiel | 2025-10-02 23:52:43 +0000 (Thu, 02 Oct 2025) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/AceComm-3.0/ChatThrottleLib.lua
+
+ChatThrottleLib: Properly use the right namespace for SendChatMessage
+------------------------------------------------------------------------
+r1367 | funkehdude | 2025-09-08 17:06:01 +0000 (Mon, 08 Sep 2025) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Remove untranslated text "Usage:" from input boxes that define a usage field
+------------------------------------------------------------------------
+r1366 | funkehdude | 2025-09-03 15:34:16 +0000 (Wed, 03 Sep 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1365 | funkehdude | 2025-07-11 17:08:49 +0000 (Fri, 11 Jul 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1364 | nevcairiel | 2025-07-05 16:01:08 +0000 (Sat, 05 Jul 2025) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceDB-3.0: Avoid hitting the metatable when looking up the keys
+------------------------------------------------------------------------
+r1363 | nevcairiel | 2025-07-05 15:42:11 +0000 (Sat, 05 Jul 2025) | 3 lines
+Changed paths:
+   M /trunk
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceDB-3.0: Aggressively cleanout empty profiles tables inside namespace on logout
+
+This should help cleanup unloaded empty namespaces
+------------------------------------------------------------------------
+r1362 | funkehdude | 2025-06-19 17:08:39 +0000 (Thu, 19 Jun 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1361 | nevcairiel | 2025-05-17 12:20:39 +0000 (Sat, 17 May 2025) | 6 lines
+Changed paths:
+   M /trunk
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceDB-3.0: Cleanup empty namespace tables
+
+Some addons use a large amount of namespaces which rarely get used, and
+empty tables can clutter the SV. Cleaning up empty tables is consistent
+with the other cleanup tasks done at logout, as they'll be re-created if
+needed.
+------------------------------------------------------------------------
+r1360 | funkehdude | 2025-05-01 22:54:00 +0000 (Thu, 01 May 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1359 | funkehdude | 2025-03-21 19:41:37 +0000 (Fri, 21 Mar 2025) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1344 | nevcairiel | 2024-07-03 10:50:13 +0000 (Wed, 03 Jul 2024) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/Ace3.toc
-
-Add 11.0.2 TOC
-------------------------------------------------------------------------
-r1343 | funkehdude | 2024-06-06 06:04:02 +0000 (Thu, 06 Jun 2024) | 1 line
+r1358 | funkehdude | 2025-03-21 19:37:45 +0000 (Fri, 21 Mar 2025) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
-   D /trunk/Ace3_Cata.toc
-   D /trunk/Ace3_TBC.toc
-   D /trunk/Ace3_Vanilla.toc
-   D /trunk/Ace3_Wrath.toc
 
-Update toc structure
+bump toc
 ------------------------------------------------------------------------
-r1342 | nevcairiel | 2024-05-26 11:49:35 +0000 (Sun, 26 May 2024) | 1 line
+r1357 | funkehdude | 2025-01-23 06:13:10 +0000 (Thu, 23 Jan 2025) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+bump toc
+------------------------------------------------------------------------
+r1356 | nevcairiel | 2024-12-05 06:15:30 +0000 (Thu, 05 Dec 2024) | 1 line
 Changed paths:
    M /trunk
-   M /trunk/AceTimer-3.0/AceTimer-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
-AceTimer-3.0: fix callback parameter name in docs
+AceGUI-3.0: TreeGroup: Re-factor button hiding to help avoid bizarre button breakage
+------------------------------------------------------------------------
+r1355 | funkehdude | 2024-11-20 01:54:56 +0000 (Wed, 20 Nov 2024) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+bump toc
+------------------------------------------------------------------------
+r1354 | funkehdude | 2024-09-10 14:01:06 +0000 (Tue, 10 Sep 2024) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+bump toc
+------------------------------------------------------------------------
+r1353 | nevcairiel | 2024-08-27 13:37:35 +0000 (Tue, 27 Aug 2024) | 8 lines
+Changed paths:
+   M /trunk
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceDB-3.0: Handle unloaded namespaces in Reset/Copy/Delete functions
+
+When applying profile changes to namespaces, we should also handle
+namespaces that are not currently loaded.
+
+These may be from optional Load-on-Demand parts that are not currently
+loaded, but the expectation is that the database behaves consistent
+no matter what is currently active.
+------------------------------------------------------------------------
+r1352 | funkehdude | 2024-07-24 18:29:31 +0000 (Wed, 24 Jul 2024) | 1 line
+Changed paths:
+   M /trunk/.luacheckrc
+
+Update luacheck
+------------------------------------------------------------------------
+r1351 | funkehdude | 2024-07-24 18:23:24 +0000 (Wed, 24 Jul 2024) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Don't change keyboard input propagation in combat when showing the popup
+------------------------------------------------------------------------
+r1350 | funkehdude | 2024-07-24 17:55:50 +0000 (Wed, 24 Jul 2024) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Restore old toc versions, these are here purely to compensate for bad addon updaters, we don't actually care if we fully support these versions of wow
 ------------------------------------------------------------------------
 

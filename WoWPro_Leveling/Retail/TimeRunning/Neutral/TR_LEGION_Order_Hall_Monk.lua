@@ -95,7 +95,7 @@ T Light's Charge|QID|44153|M|51.76,48.09|NC|N|Use Zen Pilgrimage to return to yo
 ;back to order hall quests
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 t Scrolls of Knowledge|QID|42210|M|52.78,59.77|N|To Master Hsu.|
-A Tech It Up A Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
+;A Tech It Up A Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
 C Tech It Up A Notch|QID|42191|M|53.04,59.79|NC|N|Click on Number Nine Jia to open a panel where you chose how you want to progress your order hall. Come back tomorrow when it completes.|
 T Tech It Up A Notch|QID|42191|M|51.41,48.36|N|To Iron-Body Ponshu.|
 A Report from Tian Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|PRE|42191|
@@ -103,22 +103,23 @@ C Report from Tian Monastery|QID|41905|M|52.96,60.19|NC|N|Use the scouting map (
 t Report from the Monastery|QID|41905|M|51.41,48.36|N|To Iron-Body Ponshu.|
 A The Defense of Tian Monastery|QID|41728|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41905|
 C The Defense of Tian Monastery|QID|41728|QO|1|M|47.14,47.74|N|Go out the Side door and Talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
-A Slowing the Spread|QID|41729|M|38.34,25.81|Z|The Jade Forest|N|From Instructor Myang.|PRE|41905|
-T The Defense of Tian Monastery|QID|41728|M|39.97,24.91|Z|The Jade Forest|N|To Taran Zhu.|
-A Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
-A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|N|From Taran Zhu.|PRE|41728|
-C Desperate Strike|QID|41730|M|39.97,24.91|Z|The Jade Forest|S|N|Kill the demons as you go along.|
-C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|The Jade Forest|NC|S|US|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|EAB|
-C Slowing the Spread|QID|41729|M|38.99,23.25;41.59,23.74;41.40,27.45|Z|The Jade Forest|CN|NC|N|Click on each of the Fel Spreader to destroy them.|
-C Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|US|N|Finish any needed demons.|
-T Slowing the Spread|QID|41729|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
-T Desperate Strike|QID|41730|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
-T Storm, Earth, and Fire|QID|41731|M|42.07,25.46|Z|The Jade Forest|N|To the Monkey King.|
-A The Hand of Keletress|QID|41732|M|42.07,25.46|Z|The Jade Forest|N|From the Monkey King.|PRE|41731|
-C The Hand of Keletress|QID|41732|M|44.00,25.00|Z|The Jade Forest|N|Kill Skola Greatsword,|T|Skola Greatsword|
-T The Hand of Keletress|QID|41732|M|45.50,25.07|Z|The Jade Forest|N|To High Elder Cloudfall.|
-A Rebuilding the Order|QID|41733|M|45.50,25.07|Z|The Jade Forest|N|From High Elder Cloudfall.|PRE|41732|
-C Rebuilding the Order|QID|41733|QO|1|M|45.11,24.99|Z|The Jade Forest|CHAT|N|Talk to Tak Tak to take a flight back to your order hall.|
+A Slowing the Spread|QID|41729|M|38.34,25.81|Z|0371; The Jade Forest|N|From Instructor Myang.|PRE|41905|
+T The Defense of Tian Monastery|QID|41728|M|39.97,24.91|Z|0371; The Jade Forest|N|To Taran Zhu.|
+A Desperate Strike|QID|41730|M|39.97,24.91|Z|0371; The Jade Forest|N|From Taran Zhu.|PRE|41728|
+A Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|0371; The Jade Forest|N|From Taran Zhu.|PRE|41728|
+C Desperate Strike|QID|41730|M|39.97,24.91|Z|0371; The Jade Forest|S|N|Kill the demons as you go along.|
+C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|0371; The Jade Forest|NC|S|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|EAB|
+C Slowing the Spread|QID|41729|M|38.99,23.25;41.59,23.74;41.40,27.45|Z|0371; The Jade Forest|CN|NC|N|Click on each of the Fel Spreader to destroy them.|
+C Desperate Strike|QID|41730|M|42.07,25.46|Z|0371; The Jade Forest|US|N|Finish any needed demons.|
+C Storm, Earth, and Fire|QID|41731|M|39.97,24.91|Z|0371; The Jade Forest|NC|US|N|As you go along, click on the tainted brew and the fel spikes to destroy. For the fires, you stand inside the circle and then an extra action button appears that you use to put out the fire.|EAB|
+T Slowing the Spread|QID|41729|M|42.07,25.46|Z|0371; The Jade Forest|N|To the Monkey King.|
+T Desperate Strike|QID|41730|M|42.07,25.46|Z|0371; The Jade Forest|N|To the Monkey King.|
+T Storm, Earth, and Fire|QID|41731|M|42.07,25.46|Z|0371; The Jade Forest|N|To the Monkey King.|
+A The Hand of Keletress|QID|41732|M|42.07,25.46|Z|0371; The Jade Forest|N|From the Monkey King.|PRE|41731|
+C The Hand of Keletress|QID|41732|M|44.00,25.00|Z|0371; The Jade Forest|N|Kill Skola Greatsword,|T|Skola Greatsword|
+T The Hand of Keletress|QID|41732|M|45.50,25.07|Z|0371; The Jade Forest|N|To High Elder Cloudfall.|
+A Rebuilding the Order|QID|41733|M|45.50,25.07|Z|0371; The Jade Forest|N|From High Elder Cloudfall.|PRE|41732|
+C Rebuilding the Order|QID|41733|QO|1|M|45.11,24.99|Z|0371; The Jade Forest|CHAT|N|Talk to Tak Tak to take a flight back to your order hall.|
 T Rebuilding the Order|QID|41733|M|51.41,48.36|N|To Iron-Body Ponshu. One of your rewards was more initiates to train, don't forget to go train them.|
 ;chapter II orderhall
 A The Way of the Tiger|QID|43319|M|51.41,48.36|N|From Iron-Body Ponshu.|PRE|41733|
@@ -317,10 +318,10 @@ A Artifact Specific Quest|QID|42762^41003^40569|M|51.39,48.38|N|From Iron-Body P
 ;BREWMASTER
 ;A The Wanderer's Companion|QID|42762|M|51.39,48.36|N|From Iron-Body Ponshu.|PRE|40636|
 C The Wanderer's Companion|QID|42762|M|47.14,47.74|N|Go out the side door, and talk to Tak Tak to take the flight to Tien Monestary.|CHAT|
-T The Wanderer's Companion|QID|42762|M|41.67,27.45|Z|The Jade Forest|N|To The Monkey King.|
-A The Riddle of Purity|QID|42768|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
-A The Riddle of the Barrel|QID|42766|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
-A The Riddle of the Land|QID|42767|M|41.67,27.45|Z|The Jade Forest|N|From The Monkey King.|PRE|42762|
+T The Wanderer's Companion|QID|42762|M|41.67,27.45|Z|0371; The Jade Forest|N|To The Monkey King.|
+A The Riddle of Purity|QID|42768|M|41.67,27.45|Z|0371; The Jade Forest|N|From The Monkey King.|PRE|42762|
+A The Riddle of the Barrel|QID|42766|M|41.67,27.45|Z|0371; The Jade Forest|N|From The Monkey King.|PRE|42762|
+A The Riddle of the Land|QID|42767|M|41.67,27.45|Z|0371; The Jade Forest|N|From The Monkey King.|PRE|42762|
 R Pools of Purity|QID|42767|M|63.3,26.04|Z|Valley of the Four Winds|N|Run/Fly over to the Valley of the Four Winds.\nGrab Flight Paths along the way if you are running.|ACTIVE|42767|CN|
 C The Riddle of Purity|QID|42768|M|63.3,26.04|Z|Valley of the Four Winds|N|Kill and loot the water elemental.|NC|
 R The Imperial Granary|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Run/Fly over to the Imperial Grainery.\nGrab Flight Paths along the way if you are running.|ACTIVE|42767|CN|
@@ -331,14 +332,14 @@ T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To T
 T The Riddle of the Barrel|QID|42766|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
 T The Riddle of the Land|QID|42767|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
 A Journey to the East|QID|42957|M|52.26,62.74|Z|Valley of the Four Winds|N|From The Monkey King.|PRE|42766&42767&42768|
-R Jade Temple Grounds|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|Run/Fly to the Temple of the Jade Serpent|ACTIVE|42957|CN|
-T Journey to the East|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|To The Monkey King.|
-A The Monkey King's Challenge|QID|42868|M|55.42,58.12|Z|The Jade Forest|N|From The Monkey King.|PRE|42957|
-C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Familiarize yourself with where the ingredients are\nLeft to Right: Bananas, Water, Fire, Grain, Smelly Brew\nItems only become clickable once he says what he wants.\nWhen Ready Click on the fire to begin.|NC|
-C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|The Jade Forest|N|Follow his clues to put the ingrediants into the brew.|NC|
-T The Monkey King's Challenge|QID|42868|M|55.42,58.37|Z|The Jade Forest|N|To The Monkey King.|
-A The Trial at the Temple|QID|42765|M|55.42,58.37|Z|The Jade Forest|N|From The Monkey King.|PRE|42868|
-C The Trial at the Temple|QID|42765|QO|1|M|55.42,58.37|Z|The Jade Forest|N|Talk to the Monkey King to start the solo scenario.|CHAT|
+R Jade Temple Grounds|QID|42957|M|55.42,58.12|Z|0371; The Jade Forest|N|Run/Fly to the Temple of the Jade Serpent|ACTIVE|42957|CN|
+T Journey to the East|QID|42957|M|55.42,58.12|Z|0371; The Jade Forest|N|To The Monkey King.|
+A The Monkey King's Challenge|QID|42868|M|55.42,58.12|Z|0371; The Jade Forest|N|From The Monkey King.|PRE|42957|
+C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|0371; The Jade Forest|N|Familiarize yourself with where the ingredients are\nLeft to Right: Bananas, Water, Fire, Grain, Smelly Brew\nItems only become clickable once he says what he wants.\nWhen Ready Click on the fire to begin.|NC|
+C The Monkey King's Challenge|QID|42868|M|55.31,58.56|Z|0371; The Jade Forest|N|Follow his clues to put the ingrediants into the brew.|NC|
+T The Monkey King's Challenge|QID|42868|M|55.42,58.37|Z|0371; The Jade Forest|N|To The Monkey King.|
+A The Trial at the Temple|QID|42765|M|55.42,58.37|Z|0371; The Jade Forest|N|From The Monkey King.|PRE|42868|
+C The Trial at the Temple|QID|42765|QO|1|M|55.42,58.37|Z|0371; The Jade Forest|N|Talk to the Monkey King to start the solo scenario.|CHAT|
 C Crisis in the Temple|QID|42765|M|37.66,44.92|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Listen to Master Windsong.|SO|1|NC|  ; wp where gives Temple of the Jade Serpent!Dungeon791
 C Gate to the Scrollkeepers Sanctum opened|QID|42765|M|33.18,54.42|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Click on the Gate.|SO|2;1|NC|
 C Scribes Rescued|QID|42765|M|47.8,70.17|Z|Temple of the Jade Serpent@ArtifactBrewmasterScenario|N|Kill the demons to rescue the scribes.|SO|2;2|

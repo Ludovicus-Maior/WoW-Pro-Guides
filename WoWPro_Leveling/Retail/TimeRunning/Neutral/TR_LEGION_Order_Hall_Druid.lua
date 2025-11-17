@@ -43,10 +43,10 @@ T Weapons of Legend|QID|40646|M|44.55,51.02|N|To Rensar Greathoof.|
 A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|40646|
 ;Class hall development lvl 10 to 49
 T Growing Power|QID|42516|M|44.66,51.95|N|To Rensar Greathoof.|
-A Rise Champions|QID|42583|M|44.66,51.95|N|From Rensar Greathoof.|PRE|42516|
+A Rise, Champions|QID|42583|M|44.66,51.95|N|From Rensar Greathoof.|PRE|42516|
 A Champion: Zen'tabra|QID|40650|M|47.31,7.61|N|From/To Zen'tabra who can be found in the Tel'Andu Barrow Den.|ACTIVE|42583|
 A Champion: Naralex|QID|42096|M|67.19,75.77|N|From/To Naralex. If you missed him in the Circle of Spirits, he has wandered off to near the exit into Val'sharah.|ACTIVE|42583|
-T Rise Champions|QID|42583|M|52.52,51.50|N|To Skylord Omnuron.|
+T Rise, Champions|QID|42583|M|52.52,51.50|N|To Skylord Omnuron.|
 A Sister Lilith|QID|42584|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42583|
 C Sister Lilith|QID|42584|M|52.66,51.20|N|Use your scouting map to send one of your new followers on their first mission. (It only takes 2 minutes.}|
 T Sister Lilith|QID|42584|M|52.52,51.50|N|To Skylord Omnuron.|
@@ -54,9 +54,9 @@ A Recruiting the Troops|QID|42585|M|52.52,51.50|N|From Skylord Omnuron.|PRE|4258
 A What Could Go Wrong|QID|41413|M|59.35,53.19|N|From/To Zen'kiki. Alas, no further interaction with Zen'kiki at this time.|PRE|42584|
 C Recruiting the Troops|QID|42585|M|36.37,25.35|N|Sister Lilith can be found near the Moonwell. Find her and train your first troop.  When that was finishes (near instant), Pick it up from the Banner beside her and then you can train 2 more.|
 T Recruiting the Troops|QID|42585|M|52.52,51.50|N|To Skylord Omnuron.|
-A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
-C Glade Defense|QID|42586|M|52.66,51.20|MID|924|NC|N|Use your scouting map to send your followers on the 'A Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit.|
-t Glade Defense|QID|42586|M|52.52,51.50|N|To Skylord Omnuron.|
+A A Glade Defense|QID|42586|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42585|
+C A Glade Defense|QID|42586|M|52.66,51.20|MID|924|NC|N|Use your scouting map to send your followers on the 'A Glade Defense' mission. As this is a four hour mission, it's time to leave your orderhall for a bit.|
+t A Glade Defense|QID|42586|M|52.52,51.50|N|To Skylord Omnuron.|
 A Branching Out|QID|42588|M|52.52,51.50|N|From Skylord Omnuron.|PRE|42586|
 C Branching Out|QID|42588|M|32.83,29.19|NC|N|Pick your first order advancement at Leafbeard the Storied.|
 T Branching Out|QID|42588|M|52.52,51.50|N|To Skylord Omnuron.|
@@ -70,7 +70,7 @@ C Dire Growth|QID|42031|QO|3|M|71.90,76.42|N|Destroy the seedling.|
 T Dire Growth|QID|42031|M|44.61,51.99|N|To Rensar Greathoof.|
 A Malorne's Refuge|QID|42033|M|44.61,51.99|N|From Rensar Greathoof.|PRE|42031|
 T Malorne's Refuge|QID|42033|M|57.16,71.26|Z|Val'sharah|N|To Broll Bearmantle, near Lorlathil if you want to fly there.|
-A Grip of Nightmare|QID|42034|M|57.16,71.26|Z|Val'sharah|N|From Broll Bearmantle.|PRE|42034|
+A Grip of Nightmare|QID|42034|M|57.16,71.26|Z|Val'sharah|N|From Broll Bearmantle.|PRE|42033|
 C Grip of Nightmare|QID|42034|QO|1|M|57.16,71.26|Z|Val'sharah|S|N|Kill the Darkfiend Raiders as you go to the other objectives.|
 C Grip of Nightmare|QID|42034|QO|2|M|57.24,68.79|Z|Val'sharah|NC|N|Click on Sylendra to rescue her.|
 C Grip of Nightmare|QID|42034|QO|3|M|58.18,68.73|Z|Val'sharah|NC|N|Click on the alter to examine, be ready for a fight.|
@@ -146,11 +146,11 @@ A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage 
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|NC|N|Since this is the first character to 45 on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests. Check this off manually until it's complete.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 P Emerald Dreamway|ACTIVE|44232|M|28.43,48.38|Z|Dalaran@Dalaran70|N|Use your Dreamwalk Portal|LVL|45|
-A Goddess Watch Over You|QID|44337|LVL|45|M|51.98,32.52|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45 and will follow you around until you accept this quest.|
-A An Urgent Warning|QID|46026|LVL|45|M|46.40,48.65|N|From an Injured Druid of the Claw.|
+A Goddess Watch Over You|QID|44338|LVL|45|M|51.98,32.52|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45 and will follow you around until you accept this quest.|
+;A An Urgent Warning|QID|46026|LVL|45|M|46.40,48.65|N|From an Injured Druid of the Claw.|
 A The Way to Nordrassil|QID|42040|LVL|45|M|44.59,49.95|N|From Keeper Remulos.|
 T An Urgent Warning|QID|46026|M|46.40,48.65|N|To Skylord Omnuron.|
-A Investigate the Broken Shore|QID|46027|LVL|45|M|46.40,48.65|N|From Skylord Omnuron.|
+;A Investigate the Broken Shore|QID|46027|LVL|45|M|46.40,48.65|N|From Skylord Omnuron.|
 C Investigate the Broken Shore|QID|46027|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it. Check this off manually until then.|
 ;back to order hall quests
 A The Grove Provides|QID|44232|M|40.30,24.48|LVL|45|N|From Amurra Thistledew. Your class hall has a gift for you.|
@@ -191,9 +191,9 @@ A Champion: Mylune|QID|42048|M|53.86,53.60|N|From/To Mylune.|PRE|42046|
 A Powering the Portal|QID|42049|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
 A Defending the Isles|QID|43403|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
 ;42037;44074;44075;44076;44077|
-A Focusing the Energies|QID|42365|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
-C Focusing the Energies|QID|42365|M|44.57,50.12|N|Assuming you have the Blood of Sargeras you can immediately turn this in, otherwise you can manually check this off and come turn it in when you have collected it.|
-t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
+A Focusing the Energies|QID|91614|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
+C Focusing the Energies|QID|91614|M|44.57,50.12|N|Assuming you have the Blood of Sargeras you can immediately turn this in, otherwise you can manually check this off and come turn it in when you have collected it.|
+t Focusing the Energies|QID|91614|M|44.57,50.12|N|To Keeper Remulos.|
 C Powering the Portal|QID|42049|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested missions. Manually check this off to continue thru the guide while the missions are in progress.|
 R Val'Sharah|QID|42129|M|41.93,39.20;31.7,51.25;27.06,45.91|CS|N|Run down this "path" and them swim along the coast to find Abyssal Queen Sha'rathra.|ACTIVE|42129|
 C The Pendant of Starlight|QID|42129|M|32,24|Z|Val'sharah|T|Abyssal Queen Sha'rathra|N|Kill Abyssal Queen Sha'rathra to find the pendant.|
@@ -204,8 +204,8 @@ t Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamw
 t The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brightwing.|PRE|43365&42719&42129|
 t Powering the Portal|QID|42049|M|44.57,50.12|N|To Keeper Remulos.|
-t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
-A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049&42365|
+t Focusing the Energies|QID|91614|M|44.57,50.12|N|To Keeper Remulos.|
+A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|43403|
 P Emerald Dreamway|ACTIVE|42051|M|55.27,22.93|N|Run out to the Emerald Dreamway.|
 C Enter Nightmare|QID|42051|M|44.56,45.38;81.32,40.02|CS|Z|EmeraldDreamway|N|Go through the Nightmare Portal.|
 T Enter Nightmare|QID|42051|M|61.44,65.67|Z|MalornesNightmare|N|To Keeper Remulos.|
@@ -241,15 +241,15 @@ t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|NC|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
-N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
+A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
+;N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 ;lights heart - post 45
-A Awakenings|QID|44464|M|28.43,48.38|N|From Light's Heart|PRE|44448|
+A Awakenings|QID|44464|M|59.84,52.48|Z|0747; The Dreamgrove!Instance747|N|From Light's Heart|PRE|44448|
 P Dalaran|QID|44464|QO|1|M|56.51,43.13|N|Take the portal to Dalaran.|ACTIVE|44464|
 R Krasus' Landing|QID|44464|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|44464|
 F Lorlathil|QID|44464|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|44464|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|28.43,48.38|N|To Light's Heart|
+C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|N|Walk towards the fountain and use your special action button.|EAB|
+T Awakenings|QID|44464|M|60.04,52.57|Z|0747; The Dreamgrove!Instance747|N|To Light's Heart|
 ;requires AK>=2
 A An Unclear Path|QID|44466|M|28.43,48.38|N|From Light's Heart, Requires Artifact Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
 P Dalaran|QID|44466|QO|1|M|56.51,43.13|N|Take the portal to Dalaran.|ACTIVE|44466|

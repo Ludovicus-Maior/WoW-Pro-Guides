@@ -40,7 +40,7 @@ C Making Introductions|QID|41574|QO|2|SO|1|M|85.41,9.67;84.80,9.66|CS|CHAT|NC|Z|
 C Find Warlord Volund's tomb.|QID|41574|SO|2;1|M|52.65,52.30|Z|Stormheim/1|N|Head to the back of the tomb then kill the three Spectral Windshapers.|
 C Protect Prustaga as she opens Volund's tomb.|QID|41574|SO|3;1|M|53.84,47.37|Z|Stormheim/1|N|Protect Prustaga as she opens Volund's tomb. There will be three spawns of increasing numbers of mobs.|
 C Search for Titanstrike.|QID|41574|SO|4;1|M|57.1,27.6|Z|Stormheim/1||N|Head into Volund's Hoard, wait for the dialog (there will be round of fighting during the dialog).|
-K Warlord Volund|QID|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund, then wait for the dialog to finish.|
+K Warlord Volund|ACTIVE|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund, then wait for the dialog to finish.|
 C Join Keeper Mimiron in Ulduar.|QID|41574|SO|6;1|M|58.25,17.79|Z|Stormheim/1|NC|N|Wait for the dialog to finish, then click on the Teleporation Pad.|
 T Stolen Thunder|QID|41574|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|To Mimiron.|
 A The Creator's Workshop|QID|42158|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|From Mimiron.|PRE|41574|
@@ -119,11 +119,11 @@ A On Eagle's Wings|QID|40953|M|60.10,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Sh
 C On Eagle's Wings|QID|40953|QO|1|M|69.87,51.16|Z|Dalaran@Dalaran70|CHAT|N|Speak to the flight master in Krasus' Landing and select the chat option "I need to fly to the Trueshot Lodge".|
 C On Eagle's Wings|QID|40953|QO|2|M|36.29,27.92|NC|N|Meet Emmarel Shadewarden at the Trueshot Lodge|
 T On Eagle's Wings|QID|40953|M|36.67,29.03|N|To Emmarel Shadewarden.|
-A The Unseen Path|QID|40954|M|36.67,29.03|N|From Emmarel Shadewarden.|PRE|40953|
-C The Unseen Path|QID|40954|QO|1|M|43.61,24.08|NC|N|Listen to the tale of the Unseen Path|
-T The Unseen Path|QID|40954|M|43.51,24.77|N|To Emmarel Shadewarden.|
-A Oath of Service|QID|40955|M|43.51,24.77|N|From Emmarel Shadewarden.|PRE|40954|
-C Oath of Service|QID|40955|QO|1|M|44.32,27.18|NC|N|Click on the statue to take the oath|
+A The Unseen Path|QID|40954|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|From Emmarel Shadewarden.|PRE|40953|
+C The Unseen Path|QID|40954|QO|1|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|NC|N|Listen to the tale of the Unseen Path|
+T The Unseen Path|QID|40954|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|To Emmarel Shadewarden.|
+A Oath of Service|QID|40955|M|43.39,25.97|Z|0739; Trueshot Lodge!Highmountain|N|From Emmarel Shadewarden.|PRE|40954|
+C Oath of Service|QID|40955|QO|1|M|44.32,27.18|H|N|Click on the statue to take the oath|
 T Oath of Service|QID|40955|M|43.53,24.71|N|To Emmarel Shadewarden.|
 ; A Altar of the Eternal Hunt|QID|41053|M|43.53,24.71|N|From Emmarel Shadewarden.|PRE|40955|
 ; T Altar of the Eternal Hunt|QID|41053|M|47.31,53.87|N|To Altar Keeper Biehn.|
@@ -165,13 +165,14 @@ A Scouting Reports|QID|42384|M|42.87,46.93|N|From Tactician Tinderfell.|PRE|4252
 C Scouting Reports|QID|42384|M|42.87,46.93|NC|N|This is a two hour mission, so no need to wait around. Manually check the step off to progress.|
 t Scouting Reports|QID|42384|M|43.40,26.37|N|To Emmarel Shadewarden.|
 A Lending a Hand|QID|42385|M|43.40,26.37|N|From Emmarel Shadewarden.|PRE|42384|
-C Lending a Hand|QID|42385|M|69.85,51.17|Z|Dalaran@Dalaran70|NC|N|Take the portal to Dalaran and then find Aladune at Krasus landing to go to Val'sharah. (chat option not flightpath). He is near Bradensbrook.  If you haven't quested in Val'sharah yet, you can do this while questing through. (if you want that option, switch to Val'sharah guide now).|
+C Lending a Hand|QID|42385|M|36.17,27.50|Z|0739; Trueshot Lodge!Highmountain|NC|N|Talk to Odan Battlebow. Pick the chat option, "I require a flight to Val'sharah".|
 T Lending a Hand|QID|42385|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 A Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|N|From Hudson Crawford.|PRE|42385|
 A Assassin Entrapment|QID|42387|M|41.69,60.00|Z|Val'sharah|N|From Hudson Crawford.|PRE|42385|
 C Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|S|N|Kill the hounds.|
 C Assassin Entrapment|QID|42387|M|39.51,61.60|Z|Val'sharah|QO|1|U|137551|NC|N|Place the trap.|
 C Assassin Entrapment|QID|42387|M|39.51,61.60|Z|Val'sharah|QO|2|T|Captain Tevaris|N|Kill Captain Tevaris.|
+C Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|US|N|Kill the hounds.|
 T Rising Troubles|QID|42386|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 T Assassin Entrapment|QID|42387|M|41.69,60.00|Z|Val'sharah|N|To Hudson Crawford.|
 A Urgent Summons|QID|42388|M|41.68,59.97|Z|Val'sharah|N|From Snowfeather.|PRE|42387|
@@ -207,7 +208,7 @@ A Signaling Trouble|QID|42395|M|43.35,26.29|N|From Emmarel Shadewarden, after a 
 T Signaling Trouble|QID|42395|M|42.20,75.07|N|Run up to the top of the tower to meet with Khadgar and turn in the quest to him.|
 A Unseen Protection|QID|42394|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42395|
 A Aiding Our Allies|QID|42436|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42395|
-A Recruiting More Troops|QID|42134|M|42.76,46.92|N|From Tactician Tinderfell|PRE|42395|
+;A Recruiting More Troops|QID|42134|M|42.76,46.92|N|From Tactician Tinderfell|PRE|42395|
 C Unseen Protection|QID|42394|M|42.58,46.66|NC|S|N|Send your followers on the "Unseen Protection" missions at the Scouting Map.|
 T Recruiting More Troops|QID|42134|M|57.66,32.45|N|To Sampson who is outside by the stables.|
 F Skyhorn|QID|42436|M|35.83,27.68|N|Fly to Skyhorn at Odan Battlebow to meet with Meliah. Take some combination of 100 (by multiples of 5) of Highmountain Salmon, Big Gamy Ribs and/or Silkweave Bandages.|ACTIVE|42436|
@@ -292,10 +293,10 @@ A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Arc
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
-B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
+B Arkhana|ACTIVE|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 F Trueshot Lodge|QID|44448|M|72.93,41.13|Z|Dalaran@Dalaran70|N|Talk to Talua for a quick flight to Trueshot Lodge.|
 C In the House of Light and Shadow|QID|44448|M|47.28,43.46|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
@@ -347,38 +348,38 @@ C Requesting Reinforcements|QID|42402|M|42.53,46.56|NC|N|Send your followers on 
 t Requesting Reinforcements|QID|42402|M|43.37,26.33|N|To Emmarel Shadewarden.|
 A Informing Our Allies|QID|42405|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|42402|
 C Informing Our Allies|QID|42405|QO|1|M|42.85,25.65|CHAT|N|Talk to Kadgar.|
-A The Missing Vessel|QID|43182|M|42.85,25.65|N|From Archmage Kadgar.|AVAILABLE|42405|
+A The Missing Vessel|QID|43182|M|42.85,25.65|N|From Archmage Kadgar.|
 C Informing Our Allies|QID|42405|QO|4|M|43.18,6.02|CHAT|N|Talk to Halduron. He is up in the guardtower.|
-A Ore Under the Sea|QID|42655|M|43.18,6.02|N|From Halduron Brightwing.|AVAILABLE|42405|
-A Nightmare Oak|QID|42654|M|43.18,6.02|N|From Halduron Brightwing.|AVAILABLE|42405|
+A Ore Under the Sea|QID|42655|M|43.18,6.02|N|From Halduron Brightwing.|
+A Darkheart Thicket: Nightmare Oak|QID|42654|M|43.18,6.02|N|From Halduron Brightwing.|
 C Informing Our Allies|QID|42405|QO|3|M|46.35,34.97|CHAT|N|Talk to Shandris.|
-A Required Reagents|QID|42408|M|46.35,34.97|N|From Shandris Feathermoon.|AVAILABLE|42405|
+A Required Reagents|QID|42408|M|46.35,34.97|N|From Shandris Feathermoon.|
 t Required Reagents|QID|42408|M|46.35,34.97|N|If you have the Arkhana, you can turn this in immediately.|
 C Informing Our Allies|QID|42405|QO|2|M|51.00,34.03|CHAT|N|Talk to Veressa.|
 C The Missing Vessel|QID|43182|M|42.53,46.56|NC|N|Send your followers on the 4 sequential "The Missing Vessel" missions at your scouting map.|
 T Informing Our Allies|QID|42405|M|43.37,26.33|N|To Emmarel Shadewarden.|
 A Leading by Example|QID|44680|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|42405|
 C Leading by Example|QID|44680|M|43.37,26.33|NA|S|N|Go out and do World Quests.|
-C Nightmare Oak|QID|42654|NA|NC|S|N|Queue for Darkheart Thicket.|
-C Ore Under the Sea|QID|42655|M|0,0|Z|Suramar|N|Go to Suramar and "mine" the ore.  This is a quest item, you need to mine for yourself, and doesn't require mining skill.|
-C Nightmare Oak|QID|42654|NA|N|Hopefully you have run Darkheart Thicket.|
+C Darkheart Thicket: Nightmare Oak|QID|42654|NA|NC|S|N|Queue for Darkheart Thicket.|
+C Ore Under the Sea|QID|42655|M|77.13,62.84|Z|0680; Suramar|N|Go to Suramar and "mine" the ore.  This is a quest item, you need to mine for yourself, and doesn't require mining skill.|
+C Darkheart Thicket: Nightmare Oak|QID|42654|NA|N|Hopefully you have run Darkheart Thicket.|
 T Ore Under the Sea|QID|42655|M|43.18,6.02|N|To Halduron Brightwing.|
-T Nightmare Oak|QID|42654|M|43.18,6.02|N|To Halduron Brightwing.|
+T Darkheart Thicket: Nightmare Oak|QID|42654|M|43.18,6.02|N|To Halduron Brightwing.|
 A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654&42655|
 P Dalaran|QID|42656|M|48.62,43.48|N|Take the Dalaran portal to find Blacksmith Kyriel.|ACTIVE|42656|
 C Azure Weaponry|QID|42656|M|44.40,28.42|Z|Dalaran@Dalaran70|NC|N|Walk into the blacksmithing shop and hang out for a min or so.|
-B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
+B Arkhana|ACTIVE|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 T Required Reagents|QID|42408|M|46.35,34.97|N|Return to your lodge and turn this in to Shandris Feathermoon.|
 T Azure Weaponry|QID|42656|M|46.35,34.97|N|To Shandris Feathermoon.|
 A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656&42408|
-F Lorlathil|QID|42657|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|42657|
-R Moonclaw Vale|QID|42657|QO|1|M|55.04,74.59;59.69,74.83|CS|Z|Val'sharah|N|Follow the road to Moonclaw Vale.|ACTIVE|42657|
+F Lorlathil|ACTIVE|42657|M|35.86,27.62|N|At Odan Battlebow.|
+R Moonclaw Vale|ACTIVE|42657|M|55.04,74.59;59.69,74.83|CS|Z|Val'sharah|N|Follow the road to Moonclaw Vale.|
 T Meeting in Moonclaw Vale|QID|42657|M|61.30,71.27;60.12,72.22|CS|Z|Val'sharah|N|To Lyana Stardust.|
 A Delicate Enchantments|QID|42658|M|60.12,72.22|Z|Val'sharah|N|To Lyana Stardust.|PRE|42657|
 C Delicate Enchantments|QID|42658|M|60.06,71.94|Z|Val'sharah|N|Protect Lyana while she works.|
 T Delicate Enchantments|QID|42658|M|60.12,72.22|Z|Val'sharah|N|To Lyana Stardust.|
 A Same Day Delivery|QID|42133|M|60.12,72.22|Z|Val'sharah|N|From Lyana Stardust.|PRE|42658|
-C Leading by Example|QID|44680|N|You progress on your order hall is held up until you finish the 20 WQs. rt click to go to the Light's Heart Questline and be reminded of this next time you experience a loading screen.|
+C Leading by Example|QID|44680|M|43.37,26.33|NA|US|N|Go out and do World Quests.|
 T The Missing Vessel|QID|43182|M|42.85,25.65|N|If you haven't yet, pick up your rewards from the mission and then go to Khadgar to turn in.|
 T Same Day Delivery|QID|42133|M|43.37,26.33|N|To Emmarel Shadewarden.|
 T Leading by Example|QID|44680|M|43.37,26.33|N|To Emmarel Shadewarden.|
@@ -494,7 +495,7 @@ C Felbound Beasts|QID|45555|QO|1|M|60.52,44.74|Z|Suramar|NC|N|Click on the felbo
 C Felbound Beasts|QID|45555|QO|2|M|60.52,44.74|Z|Suramar|US|N|Finish off the Felbourne and Nightborne Trappers.|
 T Felbound Beasts|QID|45555|M|59.41,41.22;55.78,42.20|CS|Z|Suramar|N|To Nighthuntress Syrenne. (If you can fly you can ignore the first coordinate.)|
 A Ready to Strike|QID|45556|M|55.78,42.20|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45555|
-F Vengeance Point, Broken Shore|QID|45556|M|64.31,41.91|Z|Suramar|N|At Ancient Cloudwing. Hearth, Fly or otherwise travel to the Broken Shore.|
+F Vengeance Point, Broken Shore|ACTIVE|45556|M|64.31,41.91|Z|Suramar|N|At Ancient Cloudwing. Hearth, Fly or otherwise travel to the Broken Shore.|
 T Ready to Strike|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 A Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
 A Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
