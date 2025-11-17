@@ -209,12 +209,12 @@ T Fancy Lads and Buccaneers|QID|43852|M|41.27,74.26|N|To Fleet Admiral Tethys.|
 A Champion: Fleet Admiral Tethys|QID|44181|M|41.27,74.26|N|From Fleet Admiral Tethys.|PRE|43852|
 A Throwing SI:7 Off the Trail|QID|42684|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
 A Blood for the Wolfe|QID|43468|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
-A Noggenfogger's Reasonable Request|QID|42730|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
-C Throwing SI:7 Off the Trail|QID|42684|M|37.92,45.26|S|NC|N|Use scouting map to do the 5 requested missions.|
+A Noggenfogger's Reasonable Request|QID|91620|M|40,76|N|From Valeera Sanguinar.|PRE|43852|
+;C Throwing SI:7 Off the Trail|QID|42684|M|37.92,45.26|S|NC|N|Use scouting map to do the 5 requested missions.|
 C Blood for the Wolfe|QID|43468|S|N|You have until lvl 49 to finish this, so I recommend right clicking this off manually and you can simply collect the blood as you go about normal stuff, if you get to 110 and this is still uncompleted, anywhere (other than outside Halls of Valor) where there is a concentration of demons is a good farm spot, especially Ilidari stand where the demon hunters almost kill them for you.|
-B Aethril|ACTIVE|42730|L|124101 20|N|Buy, gather or otherwise acquire 20 Aethril herbs.|
-T Noggenfogger's Reasonable Request|QID|42730|M|30.69,70.18|N|To Marin Noggenfogger.|
-A A Particularly Potent Potion|QID|44178|M|30.69,70.18|N|From Marin Noggenfogger.|PRE|42730|
+;B Aethril|ACTIVE|91620|L|124101 20|N|Buy, gather or otherwise acquire 20 Aethril herbs.|
+T Noggenfogger's Reasonable Request|QID|91620|M|30.69,70.18|N|To Marin Noggenfogger.|
+A A Particularly Potent Potion|QID|44178|M|30.69,70.18|N|From Marin Noggenfogger.|PRE|91620|
 R Azshara|ACTIVE|44178|M|20,51|Z|Azshara|N|Travel to Azshara by your choice of methods. Horde has it easy on this one, Alliance, you can go from the Mt Hyjal portal in Stormwind if you have it.|
 C A Particularly Potent Potion|QID|44178|QO|1|M|21.45,55.88|Z|Azshara|NC|N|Be stealthed. Watch out for the guards that see invis. Trixyni is on the golf course under a palm tree. Talking to her breaks stealth.|
 C A Particularly Potent Potion|QID|44178|QO|2|M|20.79,58.20|Z|Azshara|NC|N|Stay stealthed, be aware of the guards. Izak is in a lean-to near the pool. Talking to him breaks stealth.|
@@ -229,7 +229,7 @@ t Throwing SI:7 Off the Trail|QID|42684|M|40.84,75.16|N|To Valeera Sanguinar.|
 t Blood for the Wolfe|QID|43468|M|40.84,75.16|N|To Valeera Sanguinar.|
 
 ;lights heart intro questline
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|42139|
+;A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel.|PRE|42139|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran@Dalaran70|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
@@ -261,9 +261,9 @@ A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kad
 T Light's Charge|QID|44153|M|40.85,54.71|N|Return to your order hall and return to Light's Heart.|
 
 ;fresh lvl 110 quests
-A An Urgent Warning|QID|45991|N|Auto accepted from UI Alert.|
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
-A Goddess Watch Over You|QID|44337|M|52.93,33.77|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110. If you haven't done Val'sharah yet, you will get this quest in the Violet Citadel in Dalaran.|
+;A An Urgent Warning|QID|45991|N|Auto accepted from UI Alert.|
+;A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|
+;A Goddess Watch Over You|QID|44337|M|52.93,33.77|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110. If you haven't done Val'sharah yet, you will get this quest in the Violet Citadel in Dalaran.|
 A A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|From Kelsey Steelspark. Your class hall has a gift for you.|
 T A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|To Kelsey Steelspark.|
 T An Urgent Warning|QID|45991|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|
@@ -351,7 +351,7 @@ C A Hero's Weapon|QID|43422|M|34.25,60.70|N|Stand in the circle of pinkish light
 T A Hero's Weapon|QID|43422|M|38.02,58.26|N|To Lord Jorach Ravenholdt.|
 
 ;obliterum
-A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
+;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
@@ -423,7 +423,7 @@ A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Is
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|;guessing on turn in
 
 ; post class campaign
-A The Power Within|QID|43496^43501^43503^43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+;A The Power Within|QID|43496^43501^43503^43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 N The Power Within|ACTIVE|43496^43501^43503^43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
 F Azurewing Repose|QID|43496^43501^43503^43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496^43501^43503^43505|
 C The Power Within|QID|43501^43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
