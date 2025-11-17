@@ -2,27 +2,27 @@ local guide = WoWPro:RegisterGuide('EliHordeExile', 'Leveling', "Exile's Reach#1
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Exile's Reach")
-WoWPro:GuideNextGuide(guide, 'BurnTedrazilEmmaleah')
+WoWPro:GuideNextGuide(guide, 'Dragonflight Intro')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Warming Up|QID|59926|Z|1727; The North Sea#1727!Instance|N|From Warlord Breka Grimaxe.|
+A Warming Up|QID|59926|Z|1727; The North Sea#1727!Instance|N|From Thrall.|
 C Warming Up|QID|59926|Z|1727; The North Sea#1727!Instance|N|Destroy a Target Dummy.|
-T Warming Up|QID|59926|Z|1727; The North Sea#1727!Instance|N|To Warlord Breka Grimaxe.|
+T Warming Up|QID|59926|Z|1727; The North Sea#1727!Instance|N|To Thrall.|
 A Stand Your Ground|QID|59927|Z|1727; The North Sea#1727!Instance|N|From Grunt Throg.|PRE|59926|
 C Stand Your Ground|QID|59927|Z|1727; The North Sea#1727!Instance|N|Spar with Grunt Throg.|
 T Stand Your Ground|QID|59927|Z|1727; The North Sea#1727!Instance|N|To Grunt Throg.|
 A Brace for Impact|QID|59928|Z|1727; The North Sea#1727!Instance|N|From Grunt Throg.|PRE|59927|
-T Brace for Impact|QID|59928|Z|1727; The North Sea#1727!Instance|N|To Warlord Breka Grimaxe.|
-A Murloc Mania|QID|59929|M|61.87,82.89|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59928|
+T Brace for Impact|QID|59928|Z|1727; The North Sea#1727!Instance|N|To Thrall.|
+A Murloc Mania|QID|59929|M|61.87,82.89|Z|1409; Exile's Reach|N|From Thrall.|PRE|59928|
 C Murloc Mania|QID|59929|M|59.98,79.91|Z|1409; Exile's Reach|N|Kill Murlocs in the area and loot First Aid Kits from their corpses.|
-T Murloc Mania|QID|59929|M|61.87,82.88|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A Emergency First Aid|QID|59930|M|61.87,82.88|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59929|
+T Murloc Mania|QID|59929|M|61.87,82.88|Z|1409; Exile's Reach|N|To Thrall.|
+A Emergency First Aid|QID|59930|M|61.87,82.88|Z|1409; Exile's Reach|N|From Thrall.|PRE|59929|
 C Emergency First Aid|QID|59930|M|61.73,83.46|NC|QO|2|Z|1409; Exile's Reach|N|Target Bo and apply the First Aid Kit.|T|Bo|U|168410|
 C Emergency First Aid|QID|59930|M|61.38,82.60|NC|QO|3|Z|1409; Exile's Reach|N|Target Mithdran Dawntracker and apply the First Aid Kit.|T|Mithdran|U|168410|
 C Emergency First Aid|QID|59930|M|61.56,82.25|NC|QO|1|Z|1409; Exile's Reach|N|Target Lana Jordan and apply the First Aid Kit.|T|Lana|U|168410|
-T Emergency First Aid|QID|59930|M|61.88,82.89|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A Finding the Lost Expedition|QID|59931|M|61.88,82.89|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59930|
-T Finding the Lost Expedition|QID|59931|M|58.36,74.47|Z|1409; Exile's Reach|N|To Won'sa. Up the road north a bit.|
+T Emergency First Aid|QID|59930|M|61.88,82.89|Z|1409; Exile's Reach|N|To Thrall.|
+A Finding the Lost Expedition|QID|59931|M|61.88,82.89|Z|1409; Exile's Reach|N|From Thrall.|PRE|59930|
+T Finding the Lost Expedition|QID|59931|M|58.36,74.47|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe. Up the road north a bit.|
 A Cooking Meat|QID|59932|M|58.38,74.64|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59931|
 $ Abandoned Treasure Chest|QID|58882|S|M|57.05,68.40|Z|1409; Exile's Reach|N|There is a chest to the north of the abandoned camp.|
 C Cooking Meat|QID|59932|M|58.02,74.07|QO|1|Z|1409; Exile's Reach|N|Kill any wildlife in the area and collect their raw meat.|
@@ -43,29 +43,29 @@ C Taming the Wilds|QID|59937|M|62.72,69.85|QO|1|Z|1409; Exile's Reach|N|Wait a s
 C Taming the Wilds|QID|59937|M|62.93,68.49|QO|2|Z|1409; Exile's Reach|N|Pick an animal to tame for your first pet.|
 T Taming the Wilds|QID|59937|M|62.71,69.86|Z|1409; Exile's Reach|N|To Mithdran Dawntracker.|
 A Down with the Quilboar|QID|59938|M|62.71,69.86|Z|1409; Exile's Reach|N|From Mithdran Dawntracker.|PRE|59935|
-A Forbidden Quilboar Necromancy|QID|59939|M|62.71,69.86|Z|1409; Exile's Reach|N|From Mithdran Dawntracker.|PRE|59935|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|Z|1409; Exile's Reach|N|Kill Quilboar in the area.|S|
+A Forbidden Quillboar Shadow Magic|QID|59939|M|62.71,69.86|Z|1409; Exile's Reach|N|From Mithdran Dawntracker.|PRE|59935|
+C Forbidden Quillboar Shadow Magic|QID|59939|M|61.51,62.91|Z|1409; Exile's Reach|N|Kill Quilboar in the area.|S|
 ;K Ogre Overseer|QID|ACTIVE|M|60.52,59.86|RARE|T|Ogre Overseer|Z|1409; Exile's Reach|N|Silver Elite to kill and loot.|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|Z|1409; Exile's Reach|N|Wrap up the Quilboar massacre.|US|
+C Forbidden Quillboar Shadow Magic|QID|59939|M|61.51,62.91|Z|1409; Exile's Reach|N|Wrap up the Quilboar massacre.|US|
 C Down with the Quilboar|QID|59938|M|58.86,63.03|Z|1409; Exile's Reach|N|Kill Geolord Grek'og.|T|Geolord Grek'og|
 ; Moved down... Finish quest before getting treasure -- Hendo72
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|1409; Exile's Reach|N|Loot the treasure chest.|
-T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|Z|1409; Exile's Reach|N|To Mithdran Dawntracker.|
+T Forbidden Quillboar Shadow Magic|QID|59939|M|56.26,59.17|Z|1409; Exile's Reach|N|To Mithdran Dawntracker.|
 T Down with the Quilboar|QID|59938|M|56.16,59.13|Z|1409; Exile's Reach|N|To Cork Fizzlepop.|
 A The Choppy Booster Mk. 5|QID|59940|M|56.16,59.13|Z|1409; Exile's Reach|N|From Cork Fizzlepop.|PRE|59938&59939|
 C The Choppy Booster Mk. 5|QID|59940|M|56.06,58.79|Z|1409; Exile's Reach|N|Board the Choppy Booster Mk. 5, then sit back and watch the cutscene.|V|
 T The Choppy Booster Mk. 5|QID|59940|M|56.17,59.13|Z|1409; Exile's Reach|N|To Cork Fizzlepop.|
 A Re-sizing the Situation|QID|59941|M|56.17,59.13|Z|1409; Exile's Reach|N|From Cork Fizzlepop.|PRE|59940|
 C Re-sizing the Situation|QID|59941|M|55.98,57.96|NC|Z|1409; Exile's Reach|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|T|Wandering Boar|U|178051|
-T Re-sizing the Situation|QID|59941|M|56.25,59.03|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
+T Re-sizing the Situation|QID|59941|M|56.25,59.03|Z|1409; Exile's Reach|N|To Thrall.|
 A The Re-Deather|QID|59942|M|56.17,59.13|Z|1409; Exile's Reach|N|From Cork Fizzlepop.|PRE|59941|
 C The Re-Deather|QID|59942|M|56.03,58.78|QO|1|Z|1409; Exile's Reach|N|Board the Choppy Booster MK. 5 again.|V|
 C The Re-Deather|QID|59942|M|56.03,58.78|QO|2|Z|1409; Exile's Reach|N|Use action key '1' and target the Monstrous Cadavers.|
 C The Re-Deather|QID|59942|M|50.95,52.78|QO|3|Z|1409; Exile's Reach|N|Go put an end to Torgok's life.|
-T The Re-Deather|QID|59942|M|52.60,53.34|Z|1409; Exile's Reach|N|To Shuja Grimaxe.\nOnce they shut up. lol|
-A Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59942|
+T The Re-Deather|QID|59942|M|52.60,53.34|Z|1409; Exile's Reach|N|To Wrathion.|
+A Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|1409; Exile's Reach|N|From Thrall.|PRE|59942|
 C Stocking Up on Supplies|QID|59950|M|52.44,55.65|NC|Z|1409; Exile's Reach|N|Simply, sell something from your bags to Provisioner Jin'hake and then buy it back. Any item will do.|
-T Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
+T Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|1409; Exile's Reach|N|To Thrall.|
 A A Rogue's End|QID|59967|M|52.03,55.45|Z|1409; Exile's Reach|N|From Grunt Throg.|PRE|59950|C|Rogue|
 C A Rogue's End|QID|59967|M|45.65,56.13|CHAT|QO|1|Z|1409; Exile's Reach|N|Stealth and find Drizza Sidestabber.|C|Rogue|
 C A Rogue's End|QID|59967|M|45.17,55.68|NC|QO|2|Z|1409; Exile's Reach|N|Collect Withering Hemlock.|C|Rogue|
@@ -91,10 +91,10 @@ C Who Lurks in the Pit|QID|59949|M|51.98,60.72|QO|1<4|Z|1409; Exile's Reach|N|Co
 C Who Lurks in the Pit|QID|59949|M|50.90,58.12|QO|1<5|Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|2|Z|1409; Exile's Reach|N|Kill Hrun to rescue Crenna Earth-Daughter. If he is not next to Crenna Earth-Daughter, wait a minute for him to respawn.|
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|3|Z|1409; Exile's Reach|N|Board Crenna Earth-Daughter to ride out of the tunnel.|V|
-T Who Lurks in the Pit|QID|59949|M|52.17,55.34|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|From Warlord Breka Grimaxe|
+T Who Lurks in the Pit|QID|59949|M|52.17,55.34|Z|1409; Exile's Reach|N|To Thrall.|
+A Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|From Thrall.|
 C Repair Yourself|QID|85679|M|52.44,55.55|Z|1409; Exile's Reach#1409!Instance|N|Talk to Provisioner Jin'hake.|
-T Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|To Warlord Breka Grimaxe|
+T Repair Yourself|QID|85679|M|52.21,55.22|Z|1409; Exile's Reach#1409!Instance|N|To Thrall.|
 A A Druid's Form|QID|59951|M|52.33,55.43|Z|1409; Exile's Reach|N|From Crenna Earth-Daughter.|PRE|59949|C|Druid|
 C A Druid's Form|QID|59951|M|45.37,49.25|NC|Z|1409; Exile's Reach|N|Commune with the Druid Stone.|C|Druid|
 T A Druid's Form|QID|59951|M|45.51,49.25|Z|1409; Exile's Reach|N|To Crenna Earth-Daughter.|C|Druid|
@@ -146,7 +146,7 @@ T Harpy Culling|QID|59945|M|56.94,46.24|Z|1409; Exile's Reach|N|To Bo.|
 T Purge the Totems|QID|59946|M|56.94,46.24|Z|1409; Exile's Reach|N|To Bo.|
 T The Rescue of Herbert Gloomburst|QID|59944|M|56.90,46.14|Z|1409; Exile's Reach|N|To Herbert Gloomburst.|
 A Message to Base|QID|59947|M|56.82,46.18|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|PRE|59944&59945&59946|
-T Message to Base|QID|59947|M|52.18,55.34|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
+T Message to Base|QID|59947|M|52.18,55.34|Z|1409; Exile's Reach|N|To Thrall.|
 A A Hunter's Trap|QID|59952|M|52.56,55.44|Z|1409; Exile's Reach|N|From Mithdran Dawntracker.|PRE|59947|C|Hunter|
 C A Hunter's Trap|QID|59952|M|52.15,55.49|QO|1|CHAT|Z|1409; Exile's Reach|N|Talk with Herbert Gloomburst to get the Ice Mote.|C|Hunter|
 C A Hunter's Trap|QID|59952|M|52.24,53.03|QO|2|NC|Z|1409; Exile's Reach|N|Click the Rusted Chain.|C|Hunter|
@@ -174,21 +174,21 @@ A One Last Spar|QID|59957|M|52.62,49.47|Z|1409; Exile's Reach|N|From Bo.|PRE|599
 C One Last Spar|QID|59957|M|53.48,49.92|Z|1409; Exile's Reach|N|Spar with Bo and use Touch of Death on him.|C|Monk|
 T One Last Spar|QID|59957|M|52.17,55.33|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|C|Monk|
 T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|Z|1409; Exile's Reach|N|To Grunt Throg.|C|Warrior|
-A To Darkmaul Citadel|QID|59975|M|52.18,55.35|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59947&59949|
+A To Darkmaul Citadel|QID|59975|M|52.18,55.35|Z|1409; Exile's Reach|N|From Thrall.|PRE|59947&59949|
 A Killclaw the Terrible|QID|56839|M|48.74,54.24|ELITE|Z|1409; Exile's Reach|N|[color=ff8000]Elite: [/color]From the sign off the road.|LEAD|59985|
 C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|1409; Exile's Reach|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.13|Z|1409; Exile's Reach|N|At the Treasure Chest.|
-T To Darkmaul Citadel|QID|59975|M|48.95,49.33|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A Right Beneath Their Eyes|QID|59978|M|48.95,49.33|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59975|
+T To Darkmaul Citadel|QID|59975|M|48.95,49.33|Z|1409; Exile's Reach|N|To Thrall.|
+A Right Beneath Their Eyes|QID|59978|M|48.95,49.33|Z|1409; Exile's Reach|N|From Thrall.|PRE|59975|
 C Right Beneath Their Eyes|QID|59978|M|48.93,49.46|QO|1|CHAT|Z|1409; Exile's Reach|N|Speak with Herbert to get transformed into an Ogre.|
 C Right Beneath Their Eyes|QID|59978|M|45.70,44.70|QO|2|NC|Z|1409; Exile's Reach|N|Enter the Darkmaul Citadel.|
 C Right Beneath Their Eyes|QID|59978|M|45.61,38.49|QO|3|NC|Z|1409; Exile's Reach|N|Run over to the cooking area.|
 C Right Beneath Their Eyes|QID|59978|M|45.70,37.58|QO|4|NC|T|Gor'groth,Wave|Z|1409; Exile's Reach|N|Target Gor'groth and type /wave and then /dance afterward if you feel up to it.|
 C Right Beneath Their Eyes|QID|59978|M|39.89,32.12|QO|6|NC|Z|1409; Exile's Reach|N|Continue to the citadel entrance.|
-T Right Beneath Their Eyes|QID|59978|M|40.29,32.45|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A Controlling their Stones|QID|59981|M|40.29,32.45|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59978|
-A Like Ogres to the Slaughter|QID|59979|M|40.25,32.56|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|PRE|59978|
-A Catapult Destruction|QID|59980|M|40.37,32.42|Z|1409; Exile's Reach|N|From Herbert Gloomburst.|PRE|59978|
+T Right Beneath Their Eyes|QID|59978|M|40.29,32.45|Z|1409; Exile's Reach|N|To Thrall.|
+A Controlling their Stones|QID|59981|M|40.29,32.45|Z|1409; Exile's Reach|N|From Thrall.|PRE|59978|
+A Like Ogres to the Slaughter|QID|59979|M|40.25,32.56|Z|1409; Exile's Reach|N|From Breka Grimaxe.|PRE|59978|
+A Catapult Destruction|QID|59980|M|40.37,32.42|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|PRE|59978|
 C Like Ogres to the Slaughter|QID|59979|M|44.31,41.87|S|Z|1409; Exile's Reach|N|Kill the Ogres as you go.|
 K Wug|QID|59981|M|44.13,37.22|QO|2|Z|1409; Exile's Reach|N|Kill Wug and loot his ward stone.|ACTIVE|59981|
 C Catapult Destruction|QID|59980|M|47.06,36.37|QO|1<1|NC|Z|1409; Exile's Reach|N|Click on the first of four catapults to destroy it.|
@@ -199,78 +199,26 @@ K Grunk|QID|59981|M|42.75,41.00|QO|3|Z|1409; Exile's Reach|N|Kill Grunk and loot
 C Catapult Destruction|QID|59980|M|43.78,42.62|QO|1<4|NC|Z|1409; Exile's Reach|N|Click on the last catapult to destroy it.|
 $ Precious Ogre Stash|QID|56088|M|41.78,42.92|Z|1409; Exile's Reach|N|Loot the treasure chest.|L|169821|
 C Like Ogres to the Slaughter|QID|59979|M|46.10,38.50|US|Z|1409; Exile's Reach|N|Finish killing the Ogres.|
-T Catapult Destruction|QID|59980|M|40.36,32.42|Z|1409; Exile's Reach|N|To Herbert Gloomburst.|
-T Like Ogres to the Slaughter|QID|59979|M|40.25,32.55|Z|1409; Exile's Reach|N|To Shuja Grimaxe.|
+T Catapult Destruction|QID|59980|M|40.36,32.42|Z|1409; Exile's Reach|N|To Shuja Grimaxe.|
+T Like Ogres to the Slaughter|QID|59979|M|40.25,32.55|Z|1409; Exile's Reach|N|To Breka Grimaxe.|
 C Controlling their Stones|QID|59981|M|39.96,32.12|QO|4|H|Z|1409; Exile's Reach|N|Click on the wards to disable the runes holding Warlord Thunderwalker.|
 T Controlling their Stones|QID|59981|M|39.92,32.14|Z|1409; Exile's Reach|N|To Warlord Mulgrin Thunderwalker.|
 A Dungeon: Darkmaul Citadel|QID|59984|M|39.94,32.15|Z|1409; Exile's Reach|N|From Warlord Mulgrin Thunderwalker.|PRE|59981|
 C Dungeon: Darkmaul Citadel|QID|59984|Z|1609; Bonebreaker Hall@Darkmaul Citadel|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
 C Darkmaul Citadel|QID|59984|SO|1|Z|1609; Bonebreaker Hall@Darkmaul Citadel|N|Climb to the top of the citadel and stop Gor'groths profane ritual.|
 C Dungeon: Darkmaul Citadel|QID|59984|M|39.03,31.57|QO|3|CHAT|Z|1609; Bonebreaker Hall@Darkmaul Citadel|N|Speak with Warlord Grimaxe to leave Darkmaul Citadel.|
-T Dungeon: Darkmaul Citadel|QID|59984|M|39.67,31.99|Z|1409; Exile's Reach|N|To Warlord Breka Grimaxe.|
-A An End to Beginnings|QID|59985|M|39.67,31.99|Z|1409; Exile's Reach|N|From Warlord Breka Grimaxe.|PRE|59984|
-C An End to Beginnings|QID|59985|M|40.36,32.62|Z|1409; Exile's Reach|N|Mount the Horde Wyvern to ride back to Orgrimmar.|V|
-T An End to Beginnings|QID|59985|M|52.51,88.06|Z|85; Orgrimmar|N|To Warlord Breka Grimaxe.|
-A Welcome to Orgrimmar|QID|60343|M|52.51,88.06|Z|85; Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|59985|
-T Welcome to Orgrimmar|QID|60343|M|51.92,85.35|Z|85; Orgrimmar|N|To Cork Fizzlepop.|
-A Finding Your Way|QID|60344|M|51.92,85.35|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60343|
-C Finding Your Way|QID|60344|M|52.46,84.19|Z|85; Orgrimmar|QO|1|CHAT|N|Ask a guard for directions to the Stable Master.|
-C Finding Your Way|QID|60344|M|52.23,84.44|Z|85; Orgrimmar|QO|2|CHAT|N|Speak with Cork Fizzlepop for a ride.|
-C Finding Your Way|QID|60344|M|62.09,33.24|Z|85; Orgrimmar|QO|3|NC|N|Enjoy the ride. Don't dismount from the bike as it can cause this quest to bug.|
-T Finding Your Way|QID|60344|M|71.45,47.55|Z|85; Orgrimmar|N|To Rohaka Tuskmaul.|
-; Choose your class sp
-A What's Your Specialty?|QID|60346|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Druid|
-T What's Your Specialty?|QID|60346|M|72.92,43.25|Z|85; Orgrimmar|N|To Telotha Pinegrove.|C|Druid|
-A What's Your Specialty?|QID|60347|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Tamanji to learn about specializations.|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Hunter|
-T What's Your Specialty?|QID|60347|M|73.89,43.62|Z|85; Orgrimmar|N|To Tamanji.|C|Hunter|
-A What's Your Specialty?|QID|60348|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Feenix Arcshine to learn about specializations.|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Mage|
-T What's Your Specialty?|QID|60348|M|74.69,43.57|Z|85; Orgrimmar|N|To Feenix Arcshine.|C|Mage|
-A What's Your Specialty?|QID|60349|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Huinli Wingpaw to learn about specializations.|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Monk|
-T What's Your Specialty?|QID|60349|M|75.69,43.60|Z|85; Orgrimmar|N|To Huinli Wingpaw.|C|Monk|
-A What's Your Specialty?|QID|60350|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Avaros Dawnglaive to learn about specializations.|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Paladin|
-T What's Your Specialty?|QID|60350|M|73.18,47.40|Z|85; Orgrimmar|N|To Avaros Dawnglaive.|C|Paladin|
-A What's Your Specialty?|QID|60351|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Martin Goodchilde to learn about specializations.|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Priest|
-T What's Your Specialty?|QID|60351|M|72.63,46.93|Z|85; Orgrimmar|N|To Martin Goodchilde.|C|Priest|
-A What's Your Specialty?|QID|60352|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Thega Graveblade to learn about specializations.|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Rogue|
-T What's Your Specialty?|QID|60352|M|75.47,47.51|Z|85; Orgrimmar|N|To Thega Graveblade.|C|Rogue|
-A What's Your Specialty?|QID|60353|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Hretar Riverspeaker to learn about specializations.|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Shaman|
-T What's Your Specialty?|QID|60353|M|73.41,43.12|Z|85; Orgrimmar|N|To Hretar Riverspeaker.|C|Shaman|
-A What's Your Specialty?|QID|60355|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Kazak Darkscream to learn about specializations.|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warlock|
-T What's Your Specialty?|QID|60355|M|76.61,47.41|Z|85; Orgrimmar|N|To Kazak Darkscream.|C|Warlock|
-A What's Your Specialty?|QID|60357|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|85; Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warrior|
-T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|85; Orgrimmar|N|To Gormok Ogrefist.|C|Warrior|
-A Home Is Where the Hearth Is|QID|60359|M|PLAYER|Z|85; Orgrimmar|N|From Cork Fizzlepop.|PRE|60344|
-h The Wyvern's Tail|ACTIVE|60359|M|71.31,49.96|Z|85; Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
-T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|85; Orgrimmar|N|To Innkeeper Nufa.|
-;A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|85; Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
-R Grommash Hold|QID|60360|M|49.90,75.62|Z|85; Orgrimmar|N|Head to Grommash Hold. The entrance to Grommash Hold is on the south side of the building.|ACTIVE|60360|
-R Grommash Hold|QID|60360|M|48.26,71.38|Z|85; Orgrimmar|QO|2|N|Head inside Grommash Hold.|
-t An Urgent Meeting|QID|60360|M|48.26,71.38|Z|85; Orgrimmar|N|To Warlord Breka Grimaxe.|
-A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|85; Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|85; Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|85; Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
-C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|85; Orgrimmar|QO|3|CHAT|N|Speak with Warlord Breka Grimaxe. Optional step, right click the guide step to manually skip it.|
-C Battle for Azeroth: Mission Statement|QID|60361|M|51.25,77.10|Z|85; Orgrimmar|QO|4|N|Head outside then mount the Sturdy Wyvern for a ride to Princess Talanji's boat.|V|
-T Battle for Azeroth: Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
+T Dungeon: Darkmaul Citadel|QID|59984|M|39.67,31.99|Z|1409; Exile's Reach|N|To Thrall.|
+A An End to Beginnings|QID|59985|M|39.67,31.99|Z|1409; Exile's Reach|N|From Thrall.|PRE|59984|
+C An End to Beginnings|QID|59985|M|39.90,32.18|Z|1409; Exile's Reach|N|Talk to Kalecgos to catch a ride to the Dragon Isles.|CHAT|
+T An End to Beginnings|QID|59985|M|81.25,28.04|Z|2022; The Waking Shores|N|To Kalecgos.|
+A What's Your Specialty?|QID|90840|M|81.25,28.04|Z|2022; The Waking Shores|N|From Kalecgos.|PRE|59985|
+C What's Your Specialty?|QID|90840|M|81.25,28.04|Z|2022; The Waking Shores|QO|1|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+T What's Your Specialty?|QID|90840|M|81.25,28.04|Z|2022; The Waking Shores|N|To Kalegos.|
+A Home Is Where the Hearth Is|QID|90842|M|81.25,28.04|Z|2022; The Waking Shores|N|From Kalegos.|PRE|90840|
+C Home Is Where the Hearth Is|QID|90842|QO|1|M|81.25,28.04|Z|2022; The Waking Shores|N|Learn the mount you just got, and then mount up.|
+C Home Is Where the Hearth Is|QID|90842|QO|2|M|80.43,27.80|Z|2022; The Waking Shores|N|Talk to Hal and get your Hearthstone.|CHAT|
+T Home Is Where the Hearth Is|QID|90842|M|81.25,28.05|Z|2022; The Waking Shores|N|Turn in to Kalegos.|
+A Aiding the Dragon Isles|QID|90843|M|81.25,28.05|Z|2022; The Waking Shores|N|From Kalegos.|PRE|90842|
+T Aiding the Dragon Isles|QID|90843|M|80.61,27.60|Z|2022; The Waking Shores|N|To Naleidea Rivergleam.|
 ]]
 end)
