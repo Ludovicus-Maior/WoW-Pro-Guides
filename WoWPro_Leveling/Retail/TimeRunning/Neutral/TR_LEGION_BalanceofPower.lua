@@ -114,6 +114,4 @@ P Moonfall Overlook|ACTIVE|43533|M|36.01,45.26|Z|0680; Suramar|N|Take the portal
 C Balance of Power|QID|43533|M|41.40,18.34|Z|0680; Suramar|H|EAB|N|Click on the [color=33fff9]Heart of Zin-Azshari[/color] to absorb it's power. Then when the [color=33fff9] Extra Action Button [/color] appears, use it to release the power.|
 T Balance of Power|QID|43533|M|41.27,18.11|Z|0680; Suramar|N|To Archmage Kalec. If you should take too long to turn in, Kalec goes back to Shal-Aran, where he will also accept the turn in.|
 ]]
-
 end)
-
