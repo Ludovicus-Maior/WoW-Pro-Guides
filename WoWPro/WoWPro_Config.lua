@@ -748,13 +748,19 @@ local function createMainConfig()
                         end
                     end
             },
-            header3 = {
+            automationNote = {
                 order = 20,
+                type = "description",
+                name = L["NOTE: Quest automation does not work in instances or in combat"],
+                hidden = function() return not WoWPro.MIDNIGHT end,
+            },
+            header3 = {
+                order = 21,
                 type = "header",
                 name = "Guide Modifiers",
             },
             petBattles = {
-                order = 21,
+                order = 22,
                 type = "toggle",
                 name = L["Enable Pet Battles"],
                 desc = L["Enables/Disables automatic pet battle team selection in some guides"],
@@ -768,7 +774,7 @@ local function createMainConfig()
                     end
             },
             doRares = {
-                order = 22,
+                order = 23,
                 type = "toggle",
                 name = L["Enable Rares"],
                 desc = L["Enables/Disables killing optional Rares in guides."],
@@ -782,7 +788,7 @@ local function createMainConfig()
                     end
             },
             doTreasures = {
-                order = 23,
+                order = 24,
                 type = "toggle",
                 name = L["Enable Treasures"],
                 desc = L["Enables/Disables treasure hunting steps in guides."],
@@ -796,7 +802,7 @@ local function createMainConfig()
                     end
             },
             doDungeons = {
-                order = 24,
+                order = 25,
                 type = "toggle",
                 name = L["Skip Dungeon Quests"],
                 desc = L["Skips dungeon-specific quests outside Dungeon guides."],
@@ -811,7 +817,7 @@ local function createMainConfig()
                 width = "double"
             },
             doFlight = {
-                order = 25,
+                order = 26,
                 type = "toggle",
                 name = L["Skip Flights"],
                 desc = L["Skips most flight steps when you have flying in that zone."],
