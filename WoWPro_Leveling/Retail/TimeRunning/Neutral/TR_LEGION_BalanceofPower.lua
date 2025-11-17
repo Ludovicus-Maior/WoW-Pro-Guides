@@ -27,7 +27,7 @@ A The Power Within|QID|43496^43501|PRE|43414|M|56.6,31.4|Z|DreadscarRift|N|From 
 A The Power Within|QID|43496^43501|PRE|43425|M|45.4,44.4|Z|0695; Skyhold!Dungeon|N|From Image of Kalec, the next day.|C|Warrior|
 N The Power Within|ACTIVE|43496^43501^43503^43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance. With Remix, allegedly it unlocks the appearance for all classes from doing it just once?!?|
 C The Power Within|QID|43505^43501|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet.|
-T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec, at Azurewing Repose in Axuna.|
+T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec, at Azurewing Repose in Azuna.|
 A The Heart of Zin-Azshari|QID|40668|PRE|43496^43501^43503^43505|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|N|From Senegos. This is a mythic dungeon quest.|
 C Eye of Azshara: The Heart of Zin-Azshari|QID|40668|S!US|N|Run the dungeon on mythic difficulty. Heart is near final boss.|
 T Eye of Azshara: The Heart of Zin-Azshari|QID|40668|M|47.91,26.01|Z|0630; Azsuna!Broken Isles|N|To Senegos, at his pool in Azuna.|
@@ -116,3 +116,4 @@ T Balance of Power|QID|43533|M|41.27,18.11|Z|0680; Suramar|N|To Archmage Kalec. 
 ]]
 
 end)
+
