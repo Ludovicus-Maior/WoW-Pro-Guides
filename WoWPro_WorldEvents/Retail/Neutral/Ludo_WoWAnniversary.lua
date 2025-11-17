@@ -2,18 +2,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
+local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Tanaris", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
-WoWPro:GuideQuestTriggers(guide, 82672)
 WoWPro:NoCache(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
-A Another Timely Invitation|QID|82672|N|From the UI|
-P Caverns of Time|ACTIVE|82672|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
-P Caverns of Time|ACTIVE|82672|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
+A Another Timely Invitation|M|45.52,55.656|Z|2339; Dornogal|QID|82672|N|From the Holiday Celebrant|IZ|2339; Dornogal|
+; These seem to be gone in 11.2.5
+; A Another Timely Invitation|M|47.8,78|Z|Orgrimmar|QID|82672|N|From the Holiday Celebrant|FACTION|Horde|
+; A Another Timely Invitation|M|49.8,71|Z|Stormwind City|QID|82672|N|From the Holiday Celebrant|FACTION|Alliance|
+P Stormwind City|ACTIVE|-84616|M|41.18,22.68|IZ|2339; Dornogal|Z|2339; Dornogal|N|Head to Foundation hall to take the portal to the Caverns of Time|FACTION|Alliance|
+P Caverns of Time|ACTIVE|-84616|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
+P Orgrimmar|ACTIVE|-84616|M|38.15,27.24|IZ|2339; Dornogal|Z|2339; Dornogal|N|Head to Foundation hall to take the portal to the Caverns of Time|FACTION|Horde|
+P Caverns of Time|ACTIVE|-84616|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
 T Another Timely Invitation|QID|82672|M|62.87,50.66|Z|Tanaris|N|To Yllana|
 A Meet and Greet|QID|84254|M|62.87,50.66|Z|Tanaris|N|From Yllana|
 C Petra|QID|84254|QO|5|M|61.99,50.10|Z|Tanaris|CHAT|N|Talk to the Pet Greeter|
@@ -24,8 +27,7 @@ C Hansel Cyrilson|QID|84254|QO|2|M|63.25,51.26|Z|Tanaris|CHAT|N|Tak to the Mount
 T Meet and Greet|QID|84254|M|62.87,50.66|Z|Tanaris|N|To Yllana|
 A Shopping Squee!|QID|84489|M|62.87,50.66|Z|Tanaris|N|From Yllanai|
 C Traeya|QID|84489|QO|1|M|63.07,50.95|Z|Tanaris|CHAT|N|Talk to Traeya|
-C Bobadormu|QID|84489|QO|3|M|62.73,50.29|Z|Tanaris|CHAT|N|Talk to Bobadormu|
-C Historian Ma'di|QID|84489|QO|2|M|62.62,50.43|Z|Tanaris|CHAT|N|Talk to Ma'di|
+C Historian Ma'di|QID|84489|QO|2|M|62.66,50.36|Z|Tanaris|CHAT|N|Talk to Ma'di|
 T Shopping Squee!|QID|84489|M|62.87,50.66|Z|Tanaris|N|From Yllanai|
 A Celebrate Good Fun!|QID|84616|M|62.87,50.66|Z|Tanaris|N|From Yllanai (Daily)|NOCACHE|
 
