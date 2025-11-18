@@ -47,13 +47,13 @@ T One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|To Odyn.|
 A Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|44417|CCOUNT|2;41105;40043;39191|IZ|695|
 
 ;Class hall development lvl 101 to 109
-A Odyn's Summons|QID|42597|M|60.71,45.05|Z|0627; Dalaran!Broken Isles|N|From Danica the Reclaimer.|PRE|40585|IZ|627| ; Popup when I came back to Dal after hitting 101
+A Odyn's Summons|QID|42597|M|60.71,45.05|Z|0627; Dalaran!Broken Isles|N|From Danica the Reclaimer.|PRE|40585|IZ|627|
 R Class Hall|ACTIVE|42597|M|74.25,46.66|CS|Z|0627; Dalaran!Broken Isles|N|Travel to class hall.|
 T Odyn's Summons|QID|42597|M|58.30,82.79|Z|0695; Skyhold!Dungeon|N|To Odyn.|
 A Champions of Skyhold|QID|42598|PRE|42597|M|58.30,82.79|Z|0695; Skyhold!Dungeon|N|From Odyn.|
-A Champion: Ragnvald Drakeborn|QID|42605|M|61.68,33.81|N|From Ragnvald Drakeborn.|
+A Champion: Ragnvald Drakeborn|QID|42605|ACTIVE|42598|M|61.68,33.81|N|From Ragnvald Drakeborn.|
 T Champion: Ragnvald Drakeborn|QID|42605|M|61.68,33.81|N|To Ragnvald Drakeborn.|
-A Champion: Finna Bjornsdottir|QID|42606|M|61.68,33.81|N|From Finna Bjornsdottir.|
+A Champion: Finna Bjornsdottir|QID|42606|ACTIVE|42598|M|61.68,33.81|N|From Finna Bjornsdottir.|
 T Champion: Finna Bjornsdottir|QID|42606|M|61.68,33.81|N|To Finna Bjornsdottir.|
 T Champions of Skyhold|QID|42598|M|59.52,13.60|N|To Skyseer Ghrent.|
 A Captain Stahlstrom|QID|42607|PRE|42598|M|59.52,13.60|N|From Skyseer Ghrent. Click on the Eye, and send Ragnvald on a Mission.|
@@ -295,7 +295,7 @@ C Armaments of the Black Wyrm|ACTIVE|39191|SO|6;1|M|49.98,82.25|Z|0635; Shield's
 C Legacy of the Icebreaker|QID|39191|QO|3|M|49.98,82.25|Z|0635; Shield's Rest|EAB|N|Stand in the middle of the glowing circle and use[color=33fff9] your extra action button [/color]to take Odyn's portal back to Skyhold.|
 T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|Z|0695; Skyhold!Dungeon|N|To Odyn.|
 ;After finishing first artifact-Class Hall
-A The Eye of Odyn|QID|39214|M|59.63,83.80|Z|0695; Skyhold!Dungeon|N|From Danica the Reclaimer.|
+A The Eye of Odyn|QID|39214|PRE|41105^40043^39191|M|59.63,83.80|Z|0695; Skyhold!Dungeon|N|From Danica the Reclaimer.|
 T The Eye of Odyn|QID|39214|M|59.78,13.33|Z|0695; Skyhold!Dungeon|N|To Skyseer Ghrent.|
 A Thus Begins the War|QID|40585|M|59.78,13.33|Z|0695; Skyhold!Dungeon|N|From Skyseer Ghrent.|PRE|39214|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|59.45,13.34|Z|0695; Skyhold!Dungeon|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
