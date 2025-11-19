@@ -4,42 +4,40 @@ WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNickname(guide, "Argus")
 WoWPro:GuideName(guide,"Argus")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
-WoWPro:GuideQuestTriggers(guide, 47221, 47835)
+WoWPro:GuideQuestTriggers(guide, 48506, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ; Faction Specific Intro
 
-A The Hand of Fate|QID|47221|N|Accept from UI pop-up.|FACTION|Alliance|
-P The Hand of Fate|QID|47221|M|39.60,63.23|Z|Dalaran@Dalaran70|QO|1|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
-C The Hand of Fate|QID|47221|M|21.89,30.59|Z|84;Stormwind City|QO|2|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
-T The Hand of Fate|QID|47221|M|21.36,30.46|Z|84;Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
-A Two If By Sea|QID|47222|PRE|47221|M|21.36,30.46|Z|84;Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
+A The Hand of Fate|QID|48506|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.|FACTION|Alliance|
+P Stormwind City|ACTIVE|48506|M|39.60,63.23|Z|0627; Dalaran!Broken Isles|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
+C The Hand of Fate|QID|48506|M|21.89,30.59|Z|84;Stormwind City|QO|1|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
+T The Hand of Fate|QID|48506|M|21.36,30.46|Z|84;Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
+A Two If By Sea|QID|47222|PRE|48506|M|21.36,30.46|Z|84;Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
 C Two If By Sea|QID|47222|M|21.36,30.46|Z|84;Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
-T Two If By Sea|QID|47222|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Alliance|
-A The Hand of Fate|QID|47835|N|Accept from UI pop-up.|FACTION|Horde|
-P The Hand of Fate|QID|47835|M|55.29,24.00|Z|Dalaran@Dalaran70|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
-C The Hand of Fate|QID|47835|M|58.29,12.09|Z|1; Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
-T The Hand of Fate|QID|47835|M|58.29,12.09|Z|1; Durotar|N|To Lady Liadrin.|FACTION|Horde|
-A Two If By Sea|QID|47867|PRE|47835|M|58.29,12.09|Z|1; Durotar|N|From Lady Liadrin.|FACTION|Horde|
+T Two If By Sea|QID|47222|M|20.56,53.21|Z|0891; Azuremyst Isle!Dungeon|N|To Vindicator Boros.|FACTION|Alliance|
+A The Hand of Fate|QID|48507|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.||FACTION|Horde|
+P Orgrimmar|QID|48507|M|55.29,24.00|Z|0627; Dalaran!Broken Isles|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
+C The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
+T The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|N|To Lady Liadrin.|FACTION|Horde|
+A Two If By Sea|QID|47867|PRE|48507|M|58.29,12.09|Z|1; Durotar|N|From Lady Liadrin.|FACTION|Horde|
 C Two If By Sea|QID|47867|M|58.29,12.09|Z|1; Durotar|QO|1|CHAT|N|Tell Lady Liadrin you are ready!|FACTION|Horde|
-T Two If By Sea|QID|47867|M|21.38,55.04|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Horde|
+T Two If By Sea|QID|47867|M|21.38,55.04|Z|0891; Azuremyst Isle!Dungeon|N|To Vindicator Boros.|FACTION|Horde|
 ; THE ASSAULT BEGINS
-A Light's Exodus|QID|47223|PRE|47222^47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|;not spurious-ignore grail integration
-T Light's Exodus|QID|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|To Prophet Velen.|
-A The Vindicaar|QID|47224|PRE|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|From Prophet Velen.|
-C The Vindicaar|QID|47224|M|33.66,66.36|Z|Floor2@AzuremystScenario|QO|1|NC|N|Activate the Beacon by clicking on it.|
-P The Vindicaar|QID|47224|M|33.66,66.36|Z|Floor2@AzuremystScenario|QO|2|NC|N|Wait a moment for it to form and then board the Vindicaar, by clicking on the lightforged beacon.|
+A Light's Exodus|QID|47223|PRE|47222^47867|M|20.64,53.26|Z|0891; Azuremyst Isle!Dungeon|N|From Vindicator Boros.|;not spurious-ignore grail integration
+T Light's Exodus|QID|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|To Prophet Velen.|
+A The Vindicaar|QID|47224|PRE|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|From Prophet Velen.|
+C The Vindicaar|QID|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|1|H|N|Activate the Beacon by clicking on it.|
+P The Vindicaar|QID|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|2|NC|N|Wait a moment for it to form and then board the Vindicaar, by clicking on the lightforged beacon.|
 T The Vindicaar|QID|47224|M|39.12,78.35|Z|Floor3@AzuremystScenario|N|To Prophet Velen.|
 A Into the Night|QID|48440|PRE|47224|M|39.12,78.35|Z|Floor3@AzuremystScenario|N|From Prophet Velen.|
 C Into the Night|QID|48440|M|39.12,78.35|Z|Floor3@AzuremystScenario|QO|1|CHAT|N|Tell Velen you are ready!|
 T Into the Night|QID|48440|M|40.35,23.54|Z|Upper Deck@ArgusSurface|N|To Prophet Velen.|
 A Alone in the Abyss|QID|46938|PRE|48440|M|40.35,23.54|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
-C Alone in the Abyss|QID|46938|M|62.59,81.79|Z|Upper Deck@ArgusSurface|CHAT|N|Ask Romuul to take you to the surface.|
+C Alone in the Abyss|QID|46938|M|43.23,23.37|Z|0831; Upper Deck@The Vindicaar!Krokuun|CHAT|N|Ask Romuul to take you to the surface.|
 T Alone in the Abyss|QID|46938|M|60.82,79.38|N|To Prophet Velen.|
 A Righteous Fury|QID|47589|PRE|46938|M|60.82,79.38|N|From Prophet Velen.|
-N Underwhelming Weapon|AVAILABLE|46297|N|Illidan will give you Relics for your current spec ~880 ilevel, switch specs before accepting and turning in if you need to.|
 A Overwhelming Power|QID|46297|PRE|46938|M|60.91,79.22|N|From Illidan Stormrage.|
 C Overwhelming Power|QID|46297|M|58.08,77.15|N|Slay Demons.|S|
 A A Stranger's Plea|QID|48483|PRE|46938|M|58.78,78.36|N|From Chieftain Hatuun.|
@@ -51,7 +49,6 @@ C Overwhelming Power|QID|46297|M|58.08,77.15|N|Finish slaying demons.|US|
 C A Stranger's Plea|QID|48483|M|55.77,74.67|U|152472|N|Finish healing Felbound Drudges.|US|
 T Righteous Fury|QID|47589|M|54.24,75.41|N|To Prophet Velen.|
 T A Stranger's Plea|QID|48483|M|54.24,75.41|N|To Prophet Velen.|
-N Underwhelming Weapon|ACTIVE|46297|N|Illidan will give you Relics for your current spec ~880 ilevel, switch specs before accepting and turning in if you need to.|
 T Overwhelming Power|QID|46297|M|54.33,75.26|N|To Illidan Stormrage.|
 A Vengeance|QID|47627|PRE|46297&47589&48483|M|54.31,75.27|N|From Illidan Stormrage.|
 C Vengeance|QID|47627|M|54.17,75.15|QO|1|N|Siege Weapon destroyed, a really big demon!|
@@ -69,8 +66,8 @@ T Rendezvous|QID|46816|M|56.65,67.43|N|To High Exarch Turalyon.|
 A From Darkness|QID|46839|PRE|46816|M|56.65,67.43|N|From High Exarch Turalyon.|
 C From Darkness|QID|46839|M|59.95,66.37|CHAT|N|Tell High Exarch Turalyon you are ready to walk with him.|
 T From Darkness|QID|46839|M|59.95,66.37|N|To High Exarch Turalyon.|
-A Threat Reduction|QID|46841|PRE|46839|M|59.95,66.37|N|From High Exarch Turalyon.|
 A Prisoners No More|QID|46840|PRE|46839|M|59.95,66.37|N|From High Exarch Turalyon.|
+A Threat Reduction|QID|46841|PRE|46839|M|59.95,66.37|N|From High Exarch Turalyon.|
 C Prisoners No More|QID|46840|M|51.01,56.84|NC|N|Darkfallen Slaves rescued.|S|
 K Kill Xeth'tal|QID|46841|M|58.59,52.08|QO|2|T|Xeth'tal|
 K Kill Magraloth|QID|46841|M|55.31,55.44|QO|3|T|Magraloth|
@@ -119,7 +116,7 @@ A Bringing the Big Guns|QID|47526|M|31.45,63.78|N|From Baraat the Longshot.|PRE|
 C Bringing the Big Guns|QID|47526|M|31.60,58.20|QO|1|N|Go to Light's Judgment and battle the waves of demons.|
 T Bringing the Big Guns|QID|47526|M|31.78,57.87|N|To Light's Judgment.|
 A Lightly Roasted|QID|47754|PRE|47526|M|31.69,58.23|N|From Image of Grand Artificer Romuul.|
-C Lightly Roasted|QID|47754|M|36.16,57.39|NC|N|Go here and clear the Rubble from in front of the Xenedar using your extra action button.|
+C Lightly Roasted|QID|47754|M|36.16,57.39|NC|N|Go here and clear the Rubble from in front of the Xenedar using your extra action button.|EAB|
 T Lightly Roasted|QID|47754|M|36.33,56.93|N|To High Exarch Turalyon.|
 A The Light Mother|QID|47652|PRE|47754|M|36.33,56.93|N|From High Exarch Turalyon.|
 C The Light Mother|QID|47652|M|37.73,54.05|QO|1|NC|N|Go up, inside the Xenedar and click on the 3 Teleportation Crystals around Xe'ra.|
@@ -471,11 +468,12 @@ T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|
 ; C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|884;Upper Deck@ArgusEredath|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
 ; T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|To Artificer Shela'na.|
 A The Speaker Listens|QID|48273|M|45.66,23.86|Z|883;Upper Deck@ArgusEredath|N|From High Exarch Turalyon.|
+F Krokul Hovel, Krokuun|ACTIVE|48273|M|45.66,23.86|Z|883;Upper Deck@ArgusEredath|N|Use the Navigation Console to go to the Krokul Hovel.|
 T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
 C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
 T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|883;Upper Deck@ArgusEredath|N|From High Exarch Turalyon.|
+A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|M|39.84,24.21|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
 C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
