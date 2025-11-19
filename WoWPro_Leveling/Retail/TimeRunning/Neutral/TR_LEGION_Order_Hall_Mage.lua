@@ -1,4 +1,3 @@
-
 local guide = WoWPro:RegisterGuide('TR_EmmLegionMage', 'Leveling', 'MageClassShrine', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,2)
 WoWPro:GuideLevels(guide, 10, 50, 10)
@@ -158,7 +157,7 @@ T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeo
 A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
 T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
-C Three Is a Lucky Number|QID|42959|S|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
+C Three Is a Lucky Number|QID|42959|S!US|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
 t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|
 A Champion: Arcane Destroyer|QID|42704|PRE|42959|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 
@@ -170,65 +169,10 @@ C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Libr
 ;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
 ;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
 ;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel.|
-;lights heart - post 45
-A Awakenings|QID|44464|M|83.92,32.64|Z|0734; Hall of the Guardian!Dungeon|N|From Light's Heart (still in your order hall)|PRE|44448|
-F Lorlathil|ACTIVE|44464|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your [color=33fff9] Extra Action Button [/color].|
-T Awakenings|QID|44464|M|83.92,32.64|Z|0734; Hall of the Guardian!Dungeon|N|To Light's Heart back in your order hall.|
-;lights heart - post 45,requires AK>=2
-A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}. this may require a specific amount of infinate knowledge, in original Legion it was AK2|PRE|44464|
-F Garden of the Moon|ACTIVE|44466|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
-C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|EAB|N|Use [color=33fff9] Extra Action Button [/color] to witness Illidan's Resilience.|
-T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
-A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
-F Bradensbrook|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook.|; gone in timerunning >> or use your Teleportation Nexus: Val'sharah
-C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|EAB|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path. [color=FF0000]FYI: [/color] the guide will close when you go into the scenario, you can click twice on the minimap icon to re-enable it if you want. (Check off manually)|
-C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
-C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|
-C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|0793; Black Rook Hold!Instance|N|Rt Click to autoattack the infernals and then Xalian Felblaze. When Xalian is below 85%, you will a button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
-C No Man An Island|ACTIVE|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|0793; Black Rook Hold!Instance|N|Activate the remaining portals.|
-A Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|
-C Felspawns of Lothros|QID|44414|M|40.64,53.03|Z|793;BlackRookHold!Instance|N|Go down into the Mausoleum and help Jared kill Lothros.|
-T Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|To Jared Shadowsong. If Jared dies, (he doesn't seem to respawn anymore), you can either skip the next two quests, or exit the instance and reset instances, then restart the Ravecrest Scenario.|
-A The Red Axe|QID|44415|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|PRE|44414|
-C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|0793; Black Rook Hold!Instance|N|Click on the unstable portals to close them. You need to click all 3 orange portals before you do the last pink portal.|
-T The Red Axe|QID|44415|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red.|ACTIVE|44479|
-A Hunter of Night|QID|44416|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|From Broxigar the Red.|ACTIVE|44479|PRE|44415|
-C Hunter of Night|QID|44416|M|43.0,50.29|Z|0793; Black Rook Hold!Instance|N|Kill the demon.|
-T Hunter of Night|QID|44416|M|41.61,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red .|
-C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|0793; Black Rook Hold!Instance|N|Click the last portal.|
-C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|Z|0793; Black Rook Hold!Instance|N|You have one more button to use. (If you don't have [color=33fff9] Fury of the Cosmos [/color] on your vehicle bar, sacrifice your moonguard a few more times.) Go destroy the Nihilam Portal with the new ability and kill Balaadur.|
-C When Good Men Do Nothing|QID|44479|SO|7|M|42.8,48.4|Z|0793; Black Rook Hold!Instance|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
-T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}.|
-A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart.|
-P Azshara|ACTIVE|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|U|249230|N|Use the provided scroll to teleport to Azshara and witness Illidan's Resilience.|
-C In My Father's House|QID|44480|M|35.27,49.86|Z|Azshara|EAB|N|Head into the temple and use your [color=33fff9] Extra Action Button [/color]at the marked spot.|
-T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
-A Destiny Unfulfilled|QID|44481^44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
-C Destiny Unfulfilled|QID|44481^44496|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley and see Illidan's side of the Black Temple Raid. [color=FF0000]FYI: [/color] the guide will close when you go into the scenario, you can click twice on the minimap icon to re-enable it if you want. If you fail, disable any cutscene skipping in addons, abandon quest, go back to your order hall, and grab the quest again.|IZ|-759|
-C Eliminate Akama's allies|M|52.70,71.26|Z|0759; Black Temple!Dungeon759|SO|2;1|N|Eliminate Akama's allies|ACTIVE|44496^44481|
-C To The Skies|Z|Black Temple|SO|3|S|N|Summon the Flames of Azzinoth and eliminate your enemies from the sky.|ACTIVE|44496^44481|
-C Use Metamorphosis.|M|56.03,66.10|Z|0759; Black Temple!Dungeon759|SO|4;1|N|Use Metamorphosis to unleash the hatred of ten thousand years.|ACTIVE|44496^44481|
-C The Demon Within|Z|0759; Black Temple!Dungeon759|SO|5|N|Annihilate your enemies.|ACTIVE|44496^44481|
-C Defeat Maiev|M|60.17,67.61|Z|0759; Black Temple!Dungeon759|SO|6;1|N|Defeat Maiev|ACTIVE|44496^44481|
-T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
-A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Light's Heart. Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge.|
-F Illidari Stand|ACTIVE|45174|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
-T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater.|
-C Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|S!US|N|Run Dungeons until you collect the needed shards.|
-t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater, still at Illidari Stand in Azuna.|
-A Trial of Valor: The Once and Future Lord of Shadows|QID|45176|PRE|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater.|
-C Trial of Valor: The Once and Future Lord of Shadows|QID|45176|N|Don't forget to use the Soul Prism after you kill Helya next time in Trial of Valor Raid.|
-t Trial of Valor: The Once and Future Lord of Shadows|QID|45176|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart, back in your order hall.|
-A The Nighthold|QID|45177|PRE|45176|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Light's Heart.|
-t The Nighthold|QID|45177|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. Depending on where you are on other quests, Khadgar may be MIA.|
-A The Power Within|QID|43503^43505|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
+t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. The full quest chain has been moved into it's own guide called Light's Heart.|
+A The Power Within|QID|43503^43505|PRE|43407|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.This quest line is covered in the Balance of Power guide|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
 F Azurewing Repose|ACTIVE|43503^43505|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
-C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet.|
-T The Power Within|QID|43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet. The remainder of this questline is covered in the Balance of Power guide.|
 
 ;2nd artifact
 A A Second Weapon|QID|43441|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
@@ -340,6 +284,11 @@ C Wait for Balaadur's ambush.|QID|42479|M|27.60,50.93|Z|0630; Azsuna!Broken Isle
 C Slay Balaadur.|QID|42479|M|67.15,92.89|Z|0630; Azsuna!Broken Isles|SO|5;1|N|Slay Balaadur.|
 C The Mage Hunter|QID|42479|M|67.04,92.73|Z|0630; Azsuna!Broken Isles|QO|2|N|Pick up Ebonchill. Use the portals to go back home.|
 T The Mage Hunter|QID|42479|M|56.57,33.95|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+;memories of ebonchill wasn't available to me immediately, dispite having it equipped, wowhead says that is the only requirement and should be available at lvl 10, so Im putting it here...
+A Memories of Ebonchill|QID|42429|PRE|42479|M|53.21,41.58|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Old Fillmaff. Not sure what causes this quest to be available besides having Ebonchill Equipped.|
+C Memories of Ebonchill|QID|42429|M|51.87,68.09;47.96,17.04;48.75,42.92;24.60,50.13;42.13,48.21;61.58,44.44;43.66,33.03|CN|CHAT|Z|0627; Dalaran!Broken Isles|N|You only need to find one of them, (only one will be up at any given time). Some are inside, so the yellow dot isn't as obvious until you are right at it. You can come find these guys daily after you turn in this quest to get the buff, which will drop if you go in an instance.|
+t Memories of Ebonchill|QID|42429|M|53.21,41.58|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Old Fillmaff.|
+
 ;Mage Class Hall
 A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001^40267^42452|
 C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian!Dungeon|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
@@ -420,6 +369,25 @@ A Return of the Archmage|QID|46290|PRE|46000|M|40.99,15.77|Z|0646; Broken Shore|
 T Return of the Archmage|QID|46290|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm, back on the upper floor of your order hall.|
 A Champion: Aethas Sunreaver|QID|46043|PRE|46290|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
 T Champion: Aethas Sunreaver|QID|46043|M|72.74,61.72|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Aethas Sunreaver.|
+
+A Finders Keepers|QID|45615|PRE|46043|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|From The Great Akazamzarak. Available next weekly reset after getting Aethas as your champion.|
+C Finders Keepers|QID|45615|M|55.35,75.17|Z|0734; Hall of the Guardian!Dungeon|N|Pick up the pink piles of arcane dust around your order hall.|
+T Finders Keepers|QID|45615|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+A Servant to No One|QID|45630|PRE|45615|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|
+C Servant to No One|QID|45630|M|49.29,62.90|Z|0627; Dalaran!Broken Isles|H|N|Go to Dalaran and test his creation on players.|
+T Servant to No One|QID|45630|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+A Nothing up my Sleeve|QID|46722|PRE|45630|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|
+C Nothing up my Sleeve|QID|46722|M|81.16,59.97|Z|0734; Hall of the Guardian!Dungeon|H|N|Click the hat on the floor in front of him to do the trick.|
+T Nothing up my Sleeve|QID|46722|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+A Down the Rabit Hole|QID|46723|PRE|46722|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|
+C Down the Rabit Hole|QID|46723|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|H|N|Use the Hat to enter a scenario and find his rabbits.|IZ|734|
+C Into the Rabbit Hole|ACTIVE|46723|SO|1|M|81.54,60.25|Z|0734; Hall of the Guardian!Dungeon|N|Walk around the island.|
+C Lupine Fiasco|ACTIVE|46723|SO|2|M|81.54,60.25|Z|0734; Hall of the Guardian!Dungeon|N|Kill the Wolf.|
+C Return to Akazamzarak|ACTIVE|46723|QO|1|M|79.60,60.17|Z|0734; Hall of the Guardian!Dungeon|N|Wait a moment.|
+T Down the Rabit Hole|QID|46723|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+A Champion: The Great Akazamzarak|QID|46724|PRE|46723|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|
+T Champion: The Great Akazamzarak|QID|46724|M|81.62,60.29|Z|0734; Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+
 A Avocation of Antonidas|QID|45844|PRE|46043|M|45.22,61.74|Z|0646; Broken Shore|N|From Invoker Threadgold. This shows on your map in the order hall, but it actually is at Broken Shore beside the Mage Tower.|
 T Avocation of Antonidas|QID|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Kalec.|
 A Burning Within|QID|45845|PRE|45844|M|56.32,37.89|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Kalec.|
@@ -532,9 +500,7 @@ T One Step Behind|QID|45193|M|28.45,48.38|Z|627;Dalaran|N|To Archmage Khadgar.|
 T The Gates Are Closed|QID|46340|M|28.45,48.38|Z|627;Dalaran|N|To Archmage Khadgar.|
 A A Gift From the Six|QID|45866|PRE|45193&46340|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
 A A Gift From the Six|QID|45862|PRE|45193&46340|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
-C A Gift From the Six|QID|45866|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
-C A Gift From the Six|QID|45861|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
-C A Gift From the Six|QID|45862|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift.|
+C A Gift From the Six|QID|45861^45862^45866|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift. If you aren't doing these all 3 together, you need to have the correct spec active and weapon equipped for the one you are doing.|
 T A Gift From the Six|QID|45866|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
 T A Gift From the Six|QID|45861|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
 T A Gift From the Six|QID|45862|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
