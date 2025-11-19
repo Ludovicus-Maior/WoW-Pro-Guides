@@ -15,12 +15,12 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 
 ; Nightfallen But Not Forgotten - Nightfall
 A Khadgar's Discovery|QID|44555^39985|LEAD|39986|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|
-T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|627|N|To Archmage Khadgar in the Violet Citadel.|
-A Magic Message|QID|39986|PRE|44555&39985|M|28.47,48.31|Z|627|N|From Archmage Khadgar.| ; 44555 is Demonhunter quest, 39985 everyone else
-C Magic Message|QID|39986|M|29.32,48.80|Z|627|NC|N|Click on the Arcane Anomaly and watch the dialog.|
-T Magic Message|QID|39986|M|28.47,48.31|Z|627|N|To Archmage Khadgar.|
-A Trail of Echoes|QID|39987|PRE|39986|M|28.47,48.31|Z|627|N|From Archmage Khadgar.|
-P Suramar|ACTIVE|39987|M|29.35,48.83|Z|627|N|Click on the portal to be transported to Suramar.|
+T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|627;Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar in the Violet Citadel.|
+A Magic Message|QID|39986|PRE|44555&39985|M|28.47,48.31|Z|627;Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.| ; 44555 is Demonhunter quest, 39985 everyone else
+C Magic Message|QID|39986|M|29.32,48.80|Z|627;Dalaran!Dalaran!Dungeon|NC|N|Click on the Arcane Anomaly and watch the dialog.|
+T Magic Message|QID|39986|M|28.47,48.31|Z|627;Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Trail of Echoes|QID|39987|PRE|39986|M|28.47,48.31|Z|627;Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
+P Suramar|ACTIVE|39987|M|29.35,48.83|Z|627;Dalaran!Dalaran!Dungeon|N|Click on the portal to be transported to Suramar.|
 C Trail of Echoes|QID|39987|M|39.67,53.22|Z|0680; Suramar|QO|1|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Faint Arcane Echo.|
 C Trail of Echoes|QID|39987|M|39.59,55.73|Z|0680; Suramar|QO|2|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Blinking Arcane Echo.|
 C Trail of Echoes|QID|39987|M|35.87,55.05|Z|0680; Suramar|QO|3|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Pulsing Arcane Echo.|
@@ -34,10 +34,9 @@ A The Nightborne Pact|QID|40123|PRE|40008|M|35.33,47.40|Z|0680; Suramar|N|From F
 C The Nightborne Pact|QID|40123|M|35.33,47.40|Z|0680; Suramar|NC|N|Bandage Thalyssra.|
 T The Nightborne Pact|QID|40123|M|35.33,47.40|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A Arcane Thirst|QID|40009|PRE|40123|M|35.33,47.40|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
-C Arcane Thirst|QID|40009|M|37.01,46.48|Z|0680; Suramar|QO|3|S|NC|N|The Crystallized Ancient Mana is around the base of the piller Selentia is on.|
 C Arcane Thirst|QID|40009|M|36.74,46.57|Z|0680; Suramar|QO|1|NC|N|Walk up to the pillar Selentia is on.|
 C Arcane Thirst|QID|40009|M|36.71,45.77|Z|0680; Suramar|QO|2|N|Kill the Eternal Tethers first, so you can then slay Keeper Selentia.|
-C Arcane Thirst|QID|40009|M|37.01,46.48|Z|0680; Suramar|QO|3|US|NC|N|Finish collecting Crystallized Ancient Mana.|
+C Arcane Thirst|QID|40009|M|37.01,46.48|Z|0680; Suramar|QO|3|H|N|Finish collecting Crystallized Ancient Mana.|
 T Arcane Thirst|QID|40009|M|35.34,47.41|Z|0680; Suramar|N|To First Arcanist Thalyssra.|
 A Shal'Aran|QID|42229|PRE|40009|M|35.34,47.41|Z|0680; Suramar|N|From First Arcanist Thalyssra.|
 C Shal'Aran|QID|42229|M|36.54,46.94|Z|0680; Suramar|NC|N|Stand here, as she walks around Shal'aran.  You won't need to follow her for credit.|
