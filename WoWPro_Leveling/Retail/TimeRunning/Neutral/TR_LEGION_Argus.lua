@@ -473,7 +473,7 @@ T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
 C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
 T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|M|39.84,24.21|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
+A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
 C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
