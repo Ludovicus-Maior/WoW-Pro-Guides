@@ -330,11 +330,11 @@ t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEreda
 A Invasion Point Offensive|QID|48513|PRE|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
 C Invasion Points|QID|48513|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
 H Vindicaar|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
-t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindcaar to The Antoran Wastes.|
+t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindicaar to The Antoran Wastes.|
 A Commander's Downfall|QID|48605|PRE|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
 C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
 H Vindicaar|QID|48605|N|After it is finished return to Illidan.|
-t Commander's Downfall|QID|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindcaar to The Antoran Wastes.|
+t Commander's Downfall|QID|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindicaar to The Antoran Wastes.|
 A Invasion Onslaught|QID|49293|PRE|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage. This is now a weekly repeatable quest.|
 t Invasion Onslaught|QID|49293|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
 ; Fel Heart of Argus
