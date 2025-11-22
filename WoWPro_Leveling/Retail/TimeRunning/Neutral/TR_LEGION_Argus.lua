@@ -330,11 +330,11 @@ t Where They Least Expect It|QID|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEreda
 A Invasion Point Offensive|QID|48513|PRE|48461|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
 C Invasion Points|QID|48513|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|This time you have to do 3 invasion points. A new one starts every 2 hours, so there are always 3 active, but obviously if you just finished one, only 2 are available right now. After you turn this quest in, Greater invasion points open up which are on on a weekly lockout. They require more people (and a group is recommended). You can do them once a week and earn better loot. Manually check this off if you want to progress to other parts of the guide.|
 H Vindicaar|QID|48461|N|After it is finished return to Illidan for the follow up. If you set your hearthstone to the Vindicaar that is a easy way back.|
-t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
+t Invasion Point Offensive|QID|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindicaar to The Antoran Wastes.|
 A Commander's Downfall|QID|48605|PRE|48513|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage.|
 C Greater Invasion Point|QID|48605|M|49.16,23.09|Z|883;Upper Deck@ArgusEredath|NC|N|Open the Navigation Console and find the Greater Invasion Point. One is always available. Only one can be done per week.|
 H Vindicaar|QID|48605|N|After it is finished return to Illidan.|
-t Commander's Downfall|QID|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
+t Commander's Downfall|QID|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage. If Illidan is absent from the Vindicaar use the command console to move the Vindicaar to The Antoran Wastes.|
 A Invasion Onslaught|QID|49293|PRE|48605|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|From Illidan Stormrage. This is now a weekly repeatable quest.|
 t Invasion Onslaught|QID|49293|M|47.00,20.07|Z|883;Upper Deck@ArgusEredath|N|To Illidan Stormrage.|
 ; Fel Heart of Argus
@@ -458,8 +458,8 @@ F Vindicaar, Eredath|QID|47220|M|30.16,49.56|Z|882;Eredath|QO|1|NC|N|Return to t
 T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 A An Offering of Shadow|QID|48560|PRE|47220|M|54.33,50.19|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
 A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
-C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|1|
-C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|883;Upper Deck@ArgusEredath|N|If you aren't in Eredath, use the console to take the Vindicaar to Eredath, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|2|
+C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|2|
+C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|883;Upper Deck@ArgusEredath|N|If you aren't in Eredath, use the console to take the Vindicaar to Eredath, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|3|
 t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|884;Upper Deck@ArgusEredath|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|To Artificer Shela'na.|
@@ -473,7 +473,7 @@ T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
 C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
 T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|M|39.84,24.21|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
+A The Speaker Seeks|QID|48277|PRE|48272|M|39.56,25.27|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
 C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
