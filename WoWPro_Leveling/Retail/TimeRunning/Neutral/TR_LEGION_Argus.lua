@@ -458,8 +458,8 @@ F Vindicaar, Eredath|QID|47220|M|30.16,49.56|Z|882;Eredath|QO|1|NC|N|Return to t
 T A Beacon in the Dark|QID|47220|M|53.33,50.19|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 A An Offering of Shadow|QID|48560|PRE|47220|M|54.33,50.19|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen.|
 A Seat of the Triumvirate: The Crest of Knowledge|QID|47654|PRE|47220|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|From Prophet Velen. Seat of the Triumvirate Dungeon.|
-C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|1|
-C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|883;Upper Deck@ArgusEredath|N|If you aren't in Eredath, use the console to take the Vindicaar to Eredath, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|2|
+C The Crest of Knowledge|QID|47654|N|Run the Seat of the Triumvirate dungeon. be sure and loot the final boss, Lura.|QO|2|
+C The Crest of Knowledge|QID|47654|M|53.37,56.01|Z|883;Upper Deck@ArgusEredath|N|If you aren't in Eredath, use the console to take the Vindicaar to Eredath, then click on the outline of the crest. Wait for the cutscene and Velen to finish talking, Don't leave the area until the quest is complete.|QO|3|
 t Seat of the Triumvirate: The Crest of Knowledge|QID|47654|M|53.36,50.33|Z|883;Upper Deck@ArgusEredath|N|To Prophet Velen.|
 C An Offering of Shadow|QID|48560|M|56.20,68.40|Z|884;Upper Deck@ArgusEredath|QO|1|U|152594|NC|N|Go downstairs to the Netherlight Crucible and infuse it with the Essence of Shadow.\nClick on it.|
 T An Offering of Shadow|QID|48560|M|57.28,68.50|Z|884;Upper Deck@ArgusEredath|N|To Artificer Shela'na.|
@@ -473,7 +473,7 @@ T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To
 A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
 C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
 T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
+A The Speaker Seeks|QID|48277|PRE|48272|M|39.56,25.27|Z|0831; Upper Deck@The Vindicaar!Krokuun||N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
 C Visions of Another|QID|48280|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
