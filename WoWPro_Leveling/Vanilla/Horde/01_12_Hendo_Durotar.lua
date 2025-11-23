@@ -6,7 +6,6 @@ WoWPro:GuideLevels(guide,1, 12)
 WoWPro:GuideNextGuide(guide, 'Classic-12-15-Hendo-Silverpine-Forest')
 WoWPro:GuideSteps(guide, function() return [[
 
-N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
 A Your Place In The World|QID|4641|M|43.29,68.57|N|From Kaltunk.|LEAD|788|
 T Your Place In The World|QID|4641|M|42.10,68.35|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.10,68.35|N|From Gornek.|
@@ -71,7 +70,7 @@ A Vile Familiars|QID|792|M|42.85,69.15|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|T|Lazy Peon|U|16114|S|NC|
 C Call of Earth|QID|1516|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
-K Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
+C Vile Familiars|QID|792|M|45.17,57.12|N|Kill Vile Familiars in front of the cave.|
 C Call of Earth|QID|1516|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
 C Lazy Peons|QID|5441|N|Finish waking the Lazy Peons.|T|Lazy Peon|U|16114|US|NC|
 T Lazy Peons|QID|5441|M|44.62,68.65|N|To Foreman Thazz'ril.|

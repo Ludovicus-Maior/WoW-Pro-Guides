@@ -15,7 +15,7 @@ return [[
 ;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet, no one knows exactly what triggers it, but it is at least finishsing your class hall, so that was what was used as the PRE
 A The Power Within|QID|43496^43501|PRE|43407|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|C|Death Knight|
 A The Power Within|QID|43496^43501|PRE|43412|M|59.8,29|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Image of Kalec, the next day.|C|Demon Hunter|
-A The Power Within|QID|43496^43501|PRE|43412|M|31.50,63.45|Z|0747; The Dreamgrove!Instance747|N|From Image of Kalec, the next day.|C|Druid|
+A The Power Within|QID|43496^43501|PRE|43409|M|31.50,63.45|Z|0747; The Dreamgrove!Instance747|N|From Image of Kalec, the next day.|C|Druid|
 A The Power Within|QID|43496^43501|PRE|43423|M|44.24,45.64|Z|739; Trueshot Lodge|N|From Image of Kalec, the next day.|C|Hunter|
 A The Power Within|QID|43503^43505|PRE|43515|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.|C|Mage|
 A The Power Within|QID|43496^43501|PRE|43359|M|51.6,48.6|Z|The Wandering Isle|N|From Image of Kalec, the next day.|C|Monk|
