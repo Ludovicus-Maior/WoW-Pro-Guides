@@ -208,6 +208,7 @@ T Root Cause|QID|38655|M|51.49,56.85|Z|641; Val'sharah|N|To Isoraen Nightstar.|
 T Tears for Fears|QID|38662|M|51.43,57.01|Z|641; Val'sharah|N|To Lyanis Moonfall.|
 A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|Z|641; Val'sharah|N|From Lyanis Moonfall.|
 t Mark of the Demon|QID|38656|M|53.71,55.97|Z|641; Val'sharah|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
+N Light's Heart|ACTIVE|44338|N|If you are only going thru this guide to retrieve the Tear of Elune for Khadgar and progress the Light's Heart Quest line, manually check off this note and then [color=c9c1ab] A Village in Peril[/color], and the guide will advance to the turn in step for [color=c9c1ab]The Die is Cast[/color]. Carry on from there until you have the Tear.|
 A A Village in Peril|QID|38643|M|54.79,52.80|Z|641; Val'sharah|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
 R Bradensbrook|ACTIVE|38643|M|53.44,50.25;42.35,59.01|CS|Z|641; Val'sharah|N|Follow the road into Bradensbrook.|RANK|-1|FLY|OLD|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|T|Gathenak|Z|641; Val'sharah|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
@@ -261,7 +262,7 @@ C Kur'talos Ravencrest|QID|38718|M|40.89,53.00|QO|1|NC|Z|641; Val'sharah|N|Click
 T Kur'talos Ravencrest|QID|38718|M|40.74,53.01|Z|641; Val'sharah|N|To Commander Jarod Shadowsong.|
 A Maiev's Trail|QID|38714|PRE|38718|M|40.74,53.01|Z|641; Val'sharah|N|From Commander Jarod Shadowsong. If he disappears, run out of the room and back in and he reappears.|
 A The Rook's Guard|QID|38715|PRE|38718|M|40.74,53.01|Z|641; Val'sharah|N|From Commander Jarod Shadowsong.|
-R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|Z|641; Val'sharah|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
+R Ravencourt|ACTIVE|38715|M|39.06,53.03;38.96,52.44|CS|Z|641; Val'sharah|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|Z|641; Val'sharah|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|RARE|
 A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|Z|641; Val'sharah|N|Auto accepted as you enter this area.|RANK|2|LVL|-45|CT|
 C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|Z|641; Val'sharah|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|

@@ -15,7 +15,7 @@ return [[
 ;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet, no one knows exactly what triggers it, but it is at least finishsing your class hall, so that was what was used as the PRE
 A The Power Within|QID|43496^43501|PRE|43407|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|C|Death Knight|
 A The Power Within|QID|43496^43501|PRE|43412|M|59.8,29|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Image of Kalec, the next day.|C|Demon Hunter|
-A The Power Within|QID|43496^43501|PRE|43412|M|31.50,63.45|Z|0747; The Dreamgrove!Instance747|N|From Image of Kalec, the next day.|C|Druid|
+A The Power Within|QID|43496^43501|PRE|43409|M|31.50,63.45|Z|0747; The Dreamgrove!Instance747|N|From Image of Kalec, the next day.|C|Druid|
 A The Power Within|QID|43496^43501|PRE|43423|M|44.24,45.64|Z|739; Trueshot Lodge|N|From Image of Kalec, the next day.|C|Hunter|
 A The Power Within|QID|43503^43505|PRE|43515|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.|C|Mage|
 A The Power Within|QID|43496^43501|PRE|43359|M|51.6,48.6|Z|The Wandering Isle|N|From Image of Kalec, the next day.|C|Monk|
@@ -27,7 +27,7 @@ A The Power Within|QID|43496^43501|PRE|43414|M|56.6,31.4|Z|DreadscarRift|N|From 
 A The Power Within|QID|43496^43501|PRE|43425|M|45.4,44.4|Z|0695; Skyhold!Dungeon|N|From Image of Kalec, the next day.|C|Warrior|
 N The Power Within|ACTIVE|43496^43501^43503^43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance. With Remix, allegedly it unlocks the appearance for all classes from doing it just once?!?|
 C The Power Within|QID|43505^43501|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet.|
-T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec, at Azurewing Repose in Axuna.|
+T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec, at Azurewing Repose in Azuna.|
 A The Heart of Zin-Azshari|QID|40668|PRE|43496^43501^43503^43505|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|N|From Senegos. This is a mythic dungeon quest.|
 C Eye of Azshara: The Heart of Zin-Azshari|QID|40668|S!US|N|Run the dungeon on mythic difficulty. Heart is near final boss.|
 T Eye of Azshara: The Heart of Zin-Azshari|QID|40668|M|47.91,26.01|Z|0630; Azsuna!Broken Isles|N|To Senegos, at his pool in Azuna.|
@@ -114,5 +114,4 @@ P Moonfall Overlook|ACTIVE|43533|M|36.01,45.26|Z|0680; Suramar|N|Take the portal
 C Balance of Power|QID|43533|M|41.40,18.34|Z|0680; Suramar|H|EAB|N|Click on the [color=33fff9]Heart of Zin-Azshari[/color] to absorb it's power. Then when the [color=33fff9] Extra Action Button [/color] appears, use it to release the power.|
 T Balance of Power|QID|43533|M|41.27,18.11|Z|0680; Suramar|N|To Archmage Kalec. If you should take too long to turn in, Kalec goes back to Shal-Aran, where he will also accept the turn in.|
 ]]
-
 end)
