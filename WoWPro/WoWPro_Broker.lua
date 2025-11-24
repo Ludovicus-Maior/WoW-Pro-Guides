@@ -954,7 +954,12 @@ local Stones = {
     [206195] = "Path of the Naaru",
     [208704] = "Deepdweller's Earthen Hearthstone",
     [209035] = "Heathstone of the Flame",
-    [212337] = "Stone of the Hearth"
+    [212337] = "Stone of the Hearth",
+    [142542] = "Tome of Town Portal",
+    [235016] = "Redeployment Module",
+    [236687] = "Explosive Hearthstone",
+    [246565] = "Cosmic Hearthstone",
+    [245970] = "P.O.S.T. Master's Express Hearthstone"
 }
 
 function WoWPro.SelectHearthstone()
