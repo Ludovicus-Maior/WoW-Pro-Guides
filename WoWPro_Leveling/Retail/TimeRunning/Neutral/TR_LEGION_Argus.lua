@@ -31,7 +31,8 @@ T Light's Exodus|QID|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|
 A The Vindicaar|QID|47224|PRE|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|From Prophet Velen.|
 C The Vindicaar|QID|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|1|H|N|Activate the Beacon by clicking on it.|
 P The Vindicaar|ACTIVE|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|2|NC|N|Wait a moment for it to form and then board the Vindicaar, by clicking on the lightforged beacon.|
-T The Vindicaar|QID|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|N|To Prophet Velen.|A Into the Night|QID|48440|PRE|47224|M|39.12,78.35|Z|Floor3@AzuremystScenario|N|From Prophet Velen.|
+T The Vindicaar|QID|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|N|To Prophet Velen.|
+A Into the Night|QID|48440|PRE|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|N|From Prophet Velen.|
 C Into the Night|QID|48440|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|QO|1|CHAT|N|Tell Velen you are ready!|
 T Into the Night|QID|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|To Prophet Velen.|
 A Alone in the Abyss|QID|46938|PRE|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|From Prophet Velen.|
