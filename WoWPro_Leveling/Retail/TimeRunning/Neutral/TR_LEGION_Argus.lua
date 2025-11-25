@@ -10,14 +10,15 @@ return [[
 
 ; Faction Specific Intro
 
-A The Hand of Fate|QID|48506|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.|FACTION|Alliance|
+A The Hand of Fate|QID|48506^48507|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar, in the Violet Citadel.|
+;alliance
 P Stormwind City|ACTIVE|48506|M|39.60,63.23|Z|0627; Dalaran!Broken Isles|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
 C The Hand of Fate|QID|48506|M|21.89,30.59|Z|84;Stormwind City|QO|1|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
 T The Hand of Fate|QID|48506|M|21.36,30.46|Z|84;Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
 A Two If By Sea|QID|47222|PRE|48506|M|21.36,30.46|Z|84;Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
 C Two If By Sea|QID|47222|M|21.36,30.46|Z|84;Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
 T Two If By Sea|QID|47222|M|20.56,53.21|Z|0891; Azuremyst Isle!Dungeon|N|To Vindicator Boros.|FACTION|Alliance|
-A The Hand of Fate|QID|48507|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.||FACTION|Horde|
+;horde
 P Orgrimmar|QID|48507|M|55.29,24.00|Z|0627; Dalaran!Broken Isles|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
 C The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
 T The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|N|To Lady Liadrin.|FACTION|Horde|
