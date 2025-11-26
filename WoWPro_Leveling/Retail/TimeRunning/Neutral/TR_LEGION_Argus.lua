@@ -252,7 +252,7 @@ T Dark Machinations|QID|47991|M|60.61,43.98|N|To Illidan Stormrage.|
 T Heralds of Apocalypse|QID|47989|M|61.55,46.70|N|To Alleria Windrunner.|
 T A Touch of Fel|QID|47990|M|60.67,47.31|N|To Image of Grand Artificer Romuul.|
 A Dawn of Justice|QID|47992|PRE|47989&47990&47991|M|60.83,47.26|N|From High Exarch Turalyon.|
-C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|NC|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
+C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|V|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Click on the Nath'raxxan Rifts to close them.|S|
 C Dawn of Justice|QID|47992|M|55.00,21.10|QO|2|N|Kill Reinforcements, 60!|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Finish closing Nath'raxxan Rifts.|US|
