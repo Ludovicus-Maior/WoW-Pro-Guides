@@ -36,7 +36,7 @@ A Into the Night|QID|48440|PRE|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle
 C Into the Night|QID|48440|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|QO|1|CHAT|N|Tell Velen you are ready!|
 T Into the Night|QID|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|To Prophet Velen.|
 A Alone in the Abyss|QID|46938|PRE|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|From Prophet Velen.|
-C Alone in the Abyss|QID|46938|M|M|43.35,23.26|Z|0831; Upper Deck@The Vindicaar!Krokuun|CHAT|N|Ask Romuul to take you to the surface.|
+C Alone in the Abyss|QID|46938|M|43.35,23.26|Z|0831; Upper Deck@The Vindicaar!Krokuun|CHAT|N|Ask Romuul to take you to the surface.|
 T Alone in the Abyss|QID|46938|M|60.82,79.38|N|To Prophet Velen.|
 A Righteous Fury|QID|47589|PRE|46938|M|60.82,79.38|N|From Prophet Velen.|
 A Overwhelming Power|QID|46297|PRE|46938|M|60.91,79.22|N|From Illidan Stormrage.|
