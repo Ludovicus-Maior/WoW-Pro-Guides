@@ -315,7 +315,7 @@ T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|882;Eredath|N|To Vig
 T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
 A The Defiler's Legacy|QID|47690|PRE|47685&47687&47689|M|60.00,50.49|Z|882;Eredath|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
-R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|882;Eredath|CS|N|Mount up and head to the Praetorium.|
+R The Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|882;Eredath|CS|N|Mount up and head to the Praetorium.|
 K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|882;Eredath|QO|1|N|Kill Archimonde.|T|Archimonde|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|882;Eredath|QO|2|NC|N|Loot the Sigil of Awakening.|
 T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|882;Eredath|N|To Archmage Y'mera.|
