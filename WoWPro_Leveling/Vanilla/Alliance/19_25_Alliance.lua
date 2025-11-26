@@ -140,7 +140,7 @@ h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|1453; Stormwind City|N|At Innkeeper 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-F Sentinal Hill|ACTIVE|2360|N|Fly to Westfall|Z|1453; Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinel Hill|ACTIVE|2360|N|Fly to Westfall|Z|1453; Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|1436; Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|1436; Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
