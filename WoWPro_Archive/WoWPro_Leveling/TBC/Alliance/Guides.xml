@@ -1,0 +1,26 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="BCC_BC_Nagrand.lua"/>
+	<Script file="BCC_Blades_Edge_Mountains.lua"/>
+	<Script file="BCC_Hellfire_Peninsula.lua"/>
+	<Script file="BCC_Shadowmoon.lua"/>
+	<Script file="BCC_Terokkar_Forest.lua"/>
+	<Script file="BCC_Zangarmarsh.lua"/>
+	<Script file="INTRO_BCC_Draenai.lua"/>
+	<Script file="INTRO_BCC_DwarfGnome.lua"/>
+	<Script file="INTRO_BCC_Human.lua"/>
+	<Script file="INTRO_BCC_NightElf.lua"/>
+	<Script file="VAN_BCC_10_19_Bloodmyst.lua"/>
+	<Script file="VAN_BCC_10_19_Darkshore.lua"/>
+	<Script file="VAN_BCC_10_19_Eastern_Kingdom.lua"/>
+	<Script file="VAN_BCC_19_25_Alliance.lua"/>
+	<Script file="VAN_BCC_25_30_Alliance.lua"/>
+	<Script file="VAN_BCC_30_41_Alliance.lua"/>
+	<Script file="VAN_BCC_42_50_Alliance.lua"/>
+	<Script file="VAN_BCC_50_55_Alliance.lua"/>
+	<Script file="VAN_BCC_55_60_Alliance.lua"/>
+	<Script file="VAN_BCC_Dungeon_Blackrock_Depths.lua"/>
+	<Script file="VAN_BCC_Dungeon_Deadmines.lua"/>
+	<Script file="VAN_BCC_Dungeon_Maraudon.lua"/>
+	<Script file="VAN_BCC_Dungeon_Uldaman.lua"/>
+	<Script file="VAN_BCC_Dungeon_Zul_Farrak.lua"/>
+</Ui>
