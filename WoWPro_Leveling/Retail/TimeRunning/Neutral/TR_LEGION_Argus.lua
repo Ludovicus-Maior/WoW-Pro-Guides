@@ -10,14 +10,15 @@ return [[
 
 ; Faction Specific Intro
 
-A The Hand of Fate|QID|48506|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.|FACTION|Alliance|
+A The Hand of Fate|QID|48506^48507|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar, in the Violet Citadel.|
+;alliance
 P Stormwind City|ACTIVE|48506|M|39.60,63.23|Z|0627; Dalaran!Broken Isles|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
 C The Hand of Fate|QID|48506|M|21.89,30.59|Z|84;Stormwind City|QO|1|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
 T The Hand of Fate|QID|48506|M|21.36,30.46|Z|84;Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
 A Two If By Sea|QID|47222|PRE|48506|M|21.36,30.46|Z|84;Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
 C Two If By Sea|QID|47222|M|21.36,30.46|Z|84;Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
 T Two If By Sea|QID|47222|M|20.56,53.21|Z|0891; Azuremyst Isle!Dungeon|N|To Vindicator Boros.|FACTION|Alliance|
-A The Hand of Fate|QID|48507|M|28.71,48.32|Z|0627; Dalaran!Broken Isles|N|Accept from Khadgar.||FACTION|Horde|
+;horde
 P Orgrimmar|QID|48507|M|55.29,24.00|Z|0627; Dalaran!Broken Isles|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|
 C The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|QO|2|NC|N|Meet escort at Bladefist Bay|FACTION|Horde|
 T The Hand of Fate|QID|48507|M|58.29,12.09|Z|1; Durotar|N|To Lady Liadrin.|FACTION|Horde|
@@ -26,16 +27,16 @@ C Two If By Sea|QID|47867|M|58.29,12.09|Z|1; Durotar|QO|1|CHAT|N|Tell Lady Liadr
 T Two If By Sea|QID|47867|M|21.38,55.04|Z|0891; Azuremyst Isle!Dungeon|N|To Vindicator Boros.|FACTION|Horde|
 ; THE ASSAULT BEGINS
 A Light's Exodus|QID|47223|PRE|47222^47867|M|20.64,53.26|Z|0891; Azuremyst Isle!Dungeon|N|From Vindicator Boros.|;not spurious-ignore grail integration
-T Light's Exodus|QID|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|To Prophet Velen.|
+T Light's Exodus|QID|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|To Prophet Velen, inside Exodar.|
 A The Vindicaar|QID|47224|PRE|47223|M|33.81,65.16|Z|0892; Floor 1@Azuremyst Isle!Dungeon|N|From Prophet Velen.|
 C The Vindicaar|QID|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|1|H|N|Activate the Beacon by clicking on it.|
-P The Vindicaar|QID|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|2|NC|N|Wait a moment for it to form and then board the Vindicaar, by clicking on the lightforged beacon.|
-T The Vindicaar|QID|47224|M|39.12,78.35|Z|Floor3@AzuremystScenario|N|To Prophet Velen.|
-A Into the Night|QID|48440|PRE|47224|M|39.12,78.35|Z|Floor3@AzuremystScenario|N|From Prophet Velen.|
-C Into the Night|QID|48440|M|39.12,78.35|Z|Floor3@AzuremystScenario|QO|1|CHAT|N|Tell Velen you are ready!|
-T Into the Night|QID|48440|M|40.35,23.54|Z|Upper Deck@ArgusSurface|N|To Prophet Velen.|
-A Alone in the Abyss|QID|46938|PRE|48440|M|40.35,23.54|Z|Upper Deck@ArgusSurface|N|From Prophet Velen.|
-C Alone in the Abyss|QID|46938|M|43.23,23.37|Z|0831; Upper Deck@The Vindicaar!Krokuun|CHAT|N|Ask Romuul to take you to the surface.|
+P The Vindicaar|ACTIVE|47224|M|33.20,66.28|Z|0892; Floor 1@Azuremyst Isle!Dungeon|QO|2|NC|N|Wait a moment for it to form and then board the Vindicaar, by clicking on the lightforged beacon.|
+T The Vindicaar|QID|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|N|To Prophet Velen.|
+A Into the Night|QID|48440|PRE|47224|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|N|From Prophet Velen.|
+C Into the Night|QID|48440|M|38.78,78.92|Z|0893; Floor2@Azuremyst Isle!Dungeon|QO|1|CHAT|N|Tell Velen you are ready!|
+T Into the Night|QID|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|To Prophet Velen.|
+A Alone in the Abyss|QID|46938|PRE|48440|M|40.05,23.45|Z|0831; Upper Deck@The Vindicaar!Krokuun|N|From Prophet Velen.|
+C Alone in the Abyss|QID|46938|M|43.35,23.26|Z|0831; Upper Deck@The Vindicaar!Krokuun|CHAT|N|Ask Romuul to take you to the surface.|
 T Alone in the Abyss|QID|46938|M|60.82,79.38|N|To Prophet Velen.|
 A Righteous Fury|QID|47589|PRE|46938|M|60.82,79.38|N|From Prophet Velen.|
 A Overwhelming Power|QID|46297|PRE|46938|M|60.91,79.22|N|From Illidan Stormrage.|
@@ -251,7 +252,7 @@ T Dark Machinations|QID|47991|M|60.61,43.98|N|To Illidan Stormrage.|
 T Heralds of Apocalypse|QID|47989|M|61.55,46.70|N|To Alleria Windrunner.|
 T A Touch of Fel|QID|47990|M|60.67,47.31|N|To Image of Grand Artificer Romuul.|
 A Dawn of Justice|QID|47992|PRE|47989&47990&47991|M|60.83,47.26|N|From High Exarch Turalyon.|
-C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|NC|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
+C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|V|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Click on the Nath'raxxan Rifts to close them.|S|
 C Dawn of Justice|QID|47992|M|55.00,21.10|QO|2|N|Kill Reinforcements, 60!|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Finish closing Nath'raxxan Rifts.|US|
@@ -314,7 +315,7 @@ T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|882;Eredath|N|To Vig
 T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|882;Eredath|N|To Vigilant Quoram.|
 A The Defiler's Legacy|QID|47690|PRE|47685&47687&47689|M|60.00,50.49|Z|882;Eredath|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
-R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|882;Eredath|CS|N|Mount up and head to the Praetorium.|
+R The Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|882;Eredath|CS|N|Mount up and head to the Praetorium.|
 K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|882;Eredath|QO|1|N|Kill Archimonde.|T|Archimonde|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|882;Eredath|QO|2|NC|N|Loot the Sigil of Awakening.|
 T The Defiler's Legacy|QID|47690|M|63.28,39.72|Z|882;Eredath|N|To Archmage Y'mera.|

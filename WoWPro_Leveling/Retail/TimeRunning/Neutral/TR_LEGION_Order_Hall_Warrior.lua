@@ -36,15 +36,15 @@ C Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|NC|N|Choose which 
 T Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
 A Artifact Specific Quest|QID|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|40579|
 ;2nd artifact
-A More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|From Odyn.|CCOUNT|1;41105;40043;39191|IZ|695|
+A More Weapons of Legend|QID|43949|PRE|42597|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|From Odyn.|CCOUNT|1;41105;40043;39191|IZ|695|
 C More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|Pick your next artifact to aquire from the UI at Odyn.|
 T More Weapons of Legend|QID|43949|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|To Odyn.|
-A Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|43949|CCOUNT|1;41105;40043;39191|IZ|695|
+N Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn. RIGHT click this off when accepted.|PRE|43949|IZ|695|
 ;3rd artifact
 A One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|From Odyn.|CCOUNT|2;41105;40043;39191|IZ|695|
 C One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|Pick your last artifact to acquire from UI at Odyn.|
 T One More Legend|QID|44417|M|58.43,85.13|Z|0695; Skyhold!Dungeon|N|To Odyn.|
-A Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|44417|CCOUNT|2;41105;40043;39191|IZ|695|
+N Artifact Specific Quest|AVAILABLE|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn. RIGHT click this off when accepted.|PRE|44417|IZ|695|
 
 ;Class hall development lvl 101 to 109
 A Odyn's Summons|QID|42597|M|60.71,45.05|Z|0627; Dalaran!Broken Isles|N|From Danica the Reclaimer.|PRE|40585|IZ|627|
@@ -88,9 +88,9 @@ T Svergan's Promise|QID|42651|M|55.94,83.69|N|To Hymdall.|
 A On the Trail of the Great Worm|QID|42107|PRE|42651|M|55.94,83.69|N|From Hymdall.|
 C On the Trail of the Great Worm|QID|42107|M|59.52,13.60|QO|1|NC|N|Complete the "Trail of the Great Worm" mission. (~1 hour)|
 T On the Trail of the Great Worm|QID|42107|M|55.94,83.69|N|To Hymdall.|
-A To The Summit!|QID|42110|M|55.94,83.69|N|From Hymdall.|
+A To the Summit!|QID|42110|M|55.94,83.69|N|From Hymdall.|PRE|42107|
 A Champion: Svergan Stormcloak|QID|42614|PRE|42651|M|52.33,82.44|N|Recruit Svergan Stormcloak.|
-t To The Summit!|QID|42110|M|53.86,87.85|Z|0650; Highmountain|N|To Jarum Skymane.|
+t To the Summit!|QID|42110|M|53.86,87.85|Z|0650; Highmountain|N|To Jarum Skymane.|
 A Revenge, Served Cold|QID|42202|PRE|42110|M|53.86,87.85|Z|0650; Highmountain|N|From Jarum Skymane.|
 C Revenge, Served Cold|QID|42202|QO|3|M|56.89,86.75|Z|0650; Highmountain|S|N|Kill Drogbar as you head to Kill Dorgrub.|
 C Revenge, Served Cold|QID|42202|M|56.89,86.75|Z|0650; Highmountain|T|Dorgrub the Cruel|QO|1|N|Kill Dorgrub.|
@@ -102,21 +102,21 @@ C Jorhuttam|QID|42204|M|57.14,93.78|Z|Highmountain|U|139501|N|Use [color=33fff9]
 T Jorhuttam|QID|42204|M|55.93,84.45|N|To Hymdall, back in your order hall.|
 A Preparing For War|QID|43585|PRE|42204|M|58.08,83.91|N|From Odyn.|
 C Preparing For War|QID|43585|M|59.06,13.38|N|Use Misson Table to complete 3 Missions. *Click off to continue*|
-t Preparing for War|QID|43585|M|59.06,13.38|N|To Skyseer Ghrent.|
+t Preparing For War|QID|43585|M|59.06,13.38|N|To Skyseer Ghrent.|
 A Recruiting Shieldmaidens|QID|43975|PRE|42204|M|59.06,13.38|N|From Skyseer Ghrent.|
 T Recruiting Shieldmaidens|QID|43975|M|55.96,15.00|N|To Savyn Valorborn.|
 ;fresh lvl 110 (now 45) quests
-A Khadgar's Discovery|QID|39985^44455|LEAD|39986^39987|M|60.92,44.73|Z|0627; Dalaran!Broken Isles|N|From UI Alert the first time you enter Dalaran after reaching level 45.|LVL|45|
-A Goddess Watch Over You|QID|44337^44338|M|58.85,36.23|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 30. The remainder of this quest line is covered in it's own guide called [color=33fff9]Light's Heart.  [/color]It is for an artifact tint.|LVL|30|
+;A Khadgar's Discovery|QID|39985^44455|LEAD|39986^39987|M|60.92,44.73|Z|0627; Dalaran!Broken Isles|N|From UI Alert the first time you enter Dalaran after reaching level 45.|LVL|45|
+;A Goddess Watch Over You|QID|44337^44338|M|58.85,36.23|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 30. The remainder of this quest line is covered in it's own guide called [color=33fff9]Light's Heart.  [/color]It is for an artifact tint.|LVL|30|
 A Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|From Quartermaster Durnolf. Your class hall has a gift for you.|LVL|30|
 T Axe and You Shall Receive|QID|44255|M|55.96,26.37|N|To Quartermaster Durnolf.|
-A Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|LVL|45|
+A Maw of Souls: Message to Helya|QID|43586|M|58.32,82.86|N|From Odyn.|
 ;A The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|From Matilda Skoptidottir, IF you select the Val'kyr Call Order Advancement V, for your Order Hall.|LVL|45|;order hall advancement not in remix
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|L|140147|N|Click on the Blessing of Mjolnir, to collect it.|
 C The Might of the Val'kyr|QID|44222|M|71.95,31.26|N|Open your World Map, and use the item to complete a World Quest.|
 t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
 ; LVL 45 Quests
-A A Call to Action|QID|44720|M|73.86,41.70|Z|0627; Dalaran!Broken Isles|N|From Muninn.|
+;A A Call to Action|QID|44720|M|73.86,41.70|Z|0627; Dalaran!Broken Isles|N|From Muninn.|LVL|45|
 T A Call to Action|QID|44720|M|60.15,50.75|Z|Stormheim|N|To Havi.|
 A A Threat Rises|QID|44771|PRE|44720|M|60.15,50.75|Z|Stormheim|N|From Havi.|
 C A Threat Rises|QID|44771|M|60.51,51.42|Z|Stormheim|N|Click on Keg to pour Grog.|
@@ -138,7 +138,7 @@ t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N
 ;A Champion Armaments|QID|44221|AVAILABLE|44221|M|61.95,26.00|N|From Haklang Ulfsson.|LVL|45|
 ;C Champion Armaments|QID|44221|M|61.95,26.00|CHAT|N|Start work order.|
 ;T Champion Armaments|QID|44221|M|61.95,26.00|N|To Haklang Ulfsson.|
-t Message to Helya|QID|43586|M|58.32,82.86|N|To Odyn.|
+t Maw of Souls: Message to Helya|QID|43586|M|58.32,82.86|N|To Odyn.|
 A Maw of Souls: Ymiron's Broken Blade|QID|43604|PRE|43586|N|UI Alert, while in dungeon.|;removed the ACTIVE -- so people would know they need to run the dungeon.
 C Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|S!US|CHAT|N|After finishing Maw of Souls, tell Odyn that:\n"King Ymiron has been defeated. He Fought fiercely."\n Then: "I want him to join our army."\nThen: "That may be, but..."\nThen: "Thank You."|IZ|695|
 t Maw of Souls: Ymiron's Broken Blade|QID|43604|M|58.32,82.86|N|To Odyn.|
@@ -215,26 +215,39 @@ A Resource Management|QID|44889|PRE|45128|M|58.37,84.90|Z|0695; Skyhold!Dungeon|
 C Resource Management|ACTIVE|44889|M|58.33,24.94|Z|0695; Skyhold!Dungeon|CHAT|N|Ask Aerylia for transport to The Path of Suffering.|
 T Resource Management|QID|44889|M|69.81,34.75|Z|0646; Broken Shore|N|To Danica the Reclaimer.|
 A Kvaldir on Call|QID|45634|PRE|44889|M|69.81,34.75|Z|0646; Broken Shore|N|From Danica the Reclaimer.|
-A Missing in Action: Lord Darius Crowley|QID|45648|PRE|44889|M|69.81,34.75|Z|0646; Broken Shore|N|From Danica the Reclaimer.|
+A Missing in Action: Lord Darius Crowley|QID|45648|PRE|44889|M|69.81,34.75|Z|0646; Broken Shore|N|From Danica the Reclaimer.|FACTION|ALLIANCE|
 C Missing in Action: Lord Darius Crowley|QID|45648|M|71.49,28.61|Z|0646; Broken Shore|H|N|Click on the cage to free Lord Crowley.|
 T Missing in Action: Lord Darius Crowley|QID|45648|M|71.49,28.61|Z|0646; Broken Shore|N|To Lord Darius Crowley.|
-A Mission: Search and Rescue|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|
-A Operation Felrage|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|
-C Kvaldir on Call|QID|45634|QO|1|M|73.00,27.21|Z|0646; Broken Shore|EAB|NC|N|Stand near the flotsom in the rivulet and use the [color=33fff9] Extra Action Button [/color] when it appears.|
-C Mission: Search and Rescue|QID|45649|M|71.90,26.50|Z|0646; Broken Shore|S|H|N|Click on the prisoners to free them.|
-C Kvaldir on Call|QID|45634|QO|2<1|M|82.73,29.31|Z|0646; Broken Shore|EAB|N|Stand near the portal and use the [color=33fff9] Extra Action Button [/color] when it appears.|
-C Operation Felrage|QID|45649|M|83.13,26.87|Z|0646; Broken Shore|N|Kill Felbeard and Warlord Kaz'jatar.|
-C Mission: Search and Rescue|QID|45649|M|83.55,31.02|Z|0646; Broken Shore|S|H|N|Keep freeing  prisoners.|
-T Mission: Search and Rescue|QID|45649|M|PLAYER|N|To Lord Darius Crowley.|
-T Operation Felrage|QID|45649|M|PLAYER|N|To Lord Darius Crowley.|
+A Mission: Search and Rescue|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|ALLIANCE|
+A Operation Felrage|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|ALLIANCE|
+C Kvaldir on Call|QID|45634|QO|1|M|73.00,27.21|Z|0646; Broken Shore|EAB|NC|N|Stand near the flotsom in the rivulet and use the [color=33fff9] Extra Action Button [/color] when it appears.|FACTION|ALLIANCE|
+C Mission: Search and Rescue|QID|45649|M|71.90,26.50|Z|0646; Broken Shore|S|H|N|Click on the prisoners to free them.|FACTION|ALLIANCE|
+C Kvaldir on Call|QID|45634|QO|2<1|M|82.73,29.31|Z|0646; Broken Shore|EAB|N|Stand near the portal and use the [color=33fff9] Extra Action Button [/color] when it appears.|FACTION|ALLIANCE|
+C Operation Felrage|QID|45649|M|83.13,26.87|Z|0646; Broken Shore|N|Kill Felbeard and Warlord Kaz'jatar.|FACTION|ALLIANCE|
+C Mission: Search and Rescue|QID|45649|M|83.55,31.02|Z|0646; Broken Shore|S|H|N|Keep freeing  prisoners.|FACTION|ALLIANCE|
+T Mission: Search and Rescue|QID|45649|M|PLAYER|N|To Lord Darius Crowley.|FACTION|ALLIANCE|
+T Operation Felrage|QID|45649|M|PLAYER|N|To Lord Darius Crowley.|FACTION|ALLIANCE|
+A Missing in Action: Eitrigg|QID|45632|PRE|44889|M|69.81,34.75|Z|0646; Broken Shore|N|From Danica the Reclaimer.|FACTION|HORDE|
+C Missing in Action: Eitrigg|QID|45632|M|71.49,28.61|Z|0646; Broken Shore|H|N|Click on the cage to free Eitrigg.|FACTION|HORDE|
+T Missing in Action: Eitrigg|QID|45632|M|71.49,28.61|Z|0646; Broken Shore|N|To Eitrigg.|FACTION|HORDE|
+A Mission: Search and Rescue|QID|45647|PRE|45632|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|HORDE|
+A Operation Felrage|QID|45633|PRE|45632|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|HORDE|
+C Kvaldir on Call|QID|45634|QO|1|M|73.00,27.21|Z|0646; Broken Shore|EAB|NC|N|Stand near the flotsom in the rivulet and use the [color=33fff9] Extra Action Button [/color] when it appears.|FACTION|HORDE|
+C Mission: Search and Rescue|QID|45647|M|71.90,26.50|Z|0646; Broken Shore|S|H|N|Click on the prisoners to free them.|FACTION|HORDE|
+C Kvaldir on Call|QID|45634|QO|2<1|M|82.73,29.31|Z|0646; Broken Shore|EAB|N|Stand near the portal and use the [color=33fff9] Extra Action Button [/color] when it appears.|FACTION|HORDE|
+C Operation Felrage|QID|45633|M|83.13,26.87|Z|0646; Broken Shore|N|Kill Felbeard and Warlord Kaz'jatar.|FACTION|HORDE|
+C Mission: Search and Rescue|QID|45647|M|83.55,31.02|Z|0646; Broken Shore|S|H|N|Keep freeing  prisoners.|FACTION|HORDE|
+T Mission: Search and Rescue|QID|45647|M|PLAYER|N|To Lord Darius Crowley.|FACTION|HORDE|
+T Operation Felrage|QID|45633|M|PLAYER|N|To Lord Darius Crowley.|FACTION|HORDE|
 C Kvaldir on Call|QID|45634|QO|2<2|M|66.67,38.75|Z|0646; Broken Shore|EAB|N|Go into the cave and fight your way to the portal, when you are there use the [color=33fff9] Extra Action Button [/color] to close the portal.|
 C Kvaldir on Call|QID|45634|QO|2<3|M|66.67,38.75|Z|0646; Broken Shore|EAB|N|Stand near the portal and use the [color=33fff9] Extra Action Button [/color] when it appears.|
 T Kvaldir on Call|QID|45634|M|66.67,38.75|Z|0646; Broken Shore|N|To Danica the Reclaimer.|
-A Return of the Battlelord|QID|46267|PRE|45634|M|66.67,38.75|Z|0646; Broken Shore|N|From Danica the Reclaimer.|
+A Return of the Battlelord|QID|46267|PRE|45634|M|69.81,34.70|Z|0646; Broken Shore|N|From Danica the Reclaimer.|
 P Skyhold|ACTIVE|46267|M|66.67,38.75|Z|0646; Broken Shore|N|Ask Danica for a ride back or travel on your own.|
 T Return of the Battlelord|QID|46267|M|58.48,85.61|Z|0695; Skyhold!Dungeon|N|To Odyn.|
-A Champion: Lord Darius Crowley|QID|45876|PRE|46267|M|59.90,83.80|Z|0695; Skyhold!Dungeon|N|From/To Champion: Lord Darius Crowley.|
-A A Godly Invitation|QID|46208|PRE|46267&47137|M|43.60,63.08|Z|0646; Broken Shore|N|From Valarjar Warslinger.|
+A Champion: Lord Darius Crowley|QID|45876|PRE|46267|M|59.90,83.80|Z|0695; Skyhold!Dungeon|N|From/To Champion: Lord Darius Crowley.|FACTION|ALLIANCE|
+A Champion: Eitrigg|QID|45873|PRE|46267|M|59.90,83.80|Z|0695; Skyhold!Dungeon|N|From/To Champion: Eitrigg.|FACTION|HORDE|
+A A Godly Invitation|QID|46208|PRE|46267&47137|M|43.60,63.08|Z|0646; Broken Shore|N|From Valarjar Warslinger on the Broken Shore.|
 T A Godly Invitation|QID|46208|M|58.34,85.26|Z|0695; Skyhold!Dungeon|N|To Odyn.|
 A The Trial of Rage|QID|46207|PRE|46208|M|58.34,85.26|Z|0695; Skyhold!Dungeon|N|From Odyn.|
 C The Trial of Rage|QID|46207|QO|1|M|58.34,85.26|Z|0695; Skyhold!Dungeon|CHAT|N|Tell Odyn you are ready to begin the scenario.|IZ|695|
@@ -286,7 +299,7 @@ C The Hunter of Heroes|QID|40043|QO|3|M|55.41,42.94|Z|0634; Stormheim!Broken Isl
 T The Hunter of Heroes|QID|40043|M|58.58,85.63|Z|0695; Skyhold!Dungeon|N|To Odyn.|
 ;PROTECTION
 ;A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|Z|0695; Skyhold!Dungeon|N|From Odyn.|PRE|40580&40579|
-C Legacy of the Icebreaker|QID|39191|QO|1|M|59.31,26.60|Z|0634; Stormheim!Broken Isles|CHAT|N|Talk with Hrithnir.|
+C Legacy of the Icebreaker|QID|39191|QO|1|M|59.04,27.29|Z|0695; Skyhold!Dungeon|CHAT|N|Talk with Hrithnir.|
 C The Sealed Tomb|ACTIVE|39191|SO|1;1|M|84.26,9.55|Z|0635; Shield's Rest|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
 C Find Magnar|ACTIVE|39191|SO|3;1|M|53.22,57.52|Z|0635; Shield's Rest|N|[color=33fff9] Heroic Throw [/color]to the nearest mob, after he dies, [color=33fff9] Heroic Leap [/color]to the one further out. When those two are dead, the wind on the floor goes away.|
 C Defend Hruthnir|ACTIVE|39191|SO|4;1|M|50.58,72.84|Z|0635; Shield's Rest|N|Defend Hruthnir|

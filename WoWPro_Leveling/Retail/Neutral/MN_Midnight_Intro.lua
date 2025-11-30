@@ -32,13 +32,13 @@ T My Son|QID|89271|M|35.33,43.89|Z|2432; Isle of Quel'Danas (Intro)|N|To High Ex
 A The Hour of Need|QID|86805|PRE|86770&86780&89271|M|35.33,43.89|Z|2432; Isle of Quel'Danas (Intro)|N|From Lor'themar Theron.|
 A A Safe Path|QID|89012|PRE|86770&86780&89271|M|35.39,43.96|Z|2432; Isle of Quel'Danas (Intro)|N|From Arator.|
 C The Hour of Need|QID|86805|M|41.68,47.21|Z|2432; Isle of Quel'Danas (Intro)|QO|1|NC|U|248239|N|Civilian Rescued.|S|
-C A Safe Path|QID|89012|M|39.97,49.24|Z|2432; Isle of Quel'Danas (Intro)|QO|1|N|Gloomstress slain.|
+K Gloomstress|ACTIVE|89012|M|39.97,49.24|Z|2432; Isle of Quel'Danas (Intro)|QO|1|N|Gloomstress slain.|T|Gloomstress|
 C The Hour of Need|QID|86805|M|41.68,47.21|Z|2432; Isle of Quel'Danas (Intro)|QO|1|NC|U|248239|N|Civilian Rescued.|US|
-C The Hour of Need|QID|86805|M|41.18,51.24|Z|2432; Isle of Quel'Danas (Intro)|QO|2|NC|U|248239|N|Proceed to the Silver Landing.|
+C The Hour of Need|QID|86805|M|41.18,51.24|Z|2432; Isle of Quel'Danas (Intro)|QO|2|NC|N|Proceed to the Silver Landing.|
 T The Hour of Need|QID|86805|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|
 T A Safe Path|QID|89012|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|
 A Luminous Wings|QID|86806|PRE|86805&89012|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|From Lor'themar Theron.|
-C Luminous Wings|QID|86806|M|41.02,58.17|Z|2432; Isle of Quel'Danas (Intro)|QO|1|NC|N|Mount Empowered Dragonhawk.|
+C Luminous Wings|QID|86806|M|41.02,58.17|Z|2432; Isle of Quel'Danas (Intro)|QO|1|V|N|Mount Empowered Dragonhawk.|
 C Luminous Wings|QID|86806|M|35.66,67.81|Z|2432; Isle of Quel'Danas (Intro)|QO|2|N|Void Invaders slain.|
 C Luminous Wings|QID|86806|M|28.41,74.44|Z|2432; Isle of Quel'Danas (Intro)|QO|3|NC|N|Distressed Civilian rescued.|
 T Luminous Wings|QID|86806|M|41.32,56.81|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|

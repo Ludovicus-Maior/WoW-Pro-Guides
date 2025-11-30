@@ -145,24 +145,25 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|May the bloodied crown stay lost 
 
 
 C A Time to Reflect|QID|43323^43461|NC|QO|1|N|Hmm.  The question lookup failed.  You are on your own.|
-T A Time to Reflect|QID|43461|M|51.75,38.78|Z|Caverns of Time@Tanaris|N|To Ju'Pa|FACTION|Horde|
-T A Time to Reflect|QID|43323|M|51.47,38.56|Z|Caverns of Time@Tanaris|N|To Llore|FACTION|Alliance|
+T A Time to Reflect|QID|43461|M|62.88,50.23|Z|Tanaris|N|To Ju'Pa|FACTION|Horde|
+T A Time to Reflect|QID|43323|M|62.84,50.23|Z|Tanaris|N|To Llore|FACTION|Alliance|
 
 N Tomorrow|LVL|-30|N|Come back tomorrow for the next question.|
 
-N The Originals|AVAILABLE|47254|FACTION|Horde|N|The next daily involves a bit of traveling.|
-N The Originals|AVAILABLE|47253|FACTION|Alliance|N|The next daily involves a bit of traveling.|
-A The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|From Ju'Pa|FACTION|Horde|
-A The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
-K Lord Kazzak|ACTIVE|47253^47254|QO|1|M|32.4,49.6|Z|Blasted Lands|N|Careful.  These bosses scale from 30 to 60, so if you are low level, watch it!|
-K Azuregos|ACTIVE|47253^47254|QO|2|M|48.9,84.1|Z|Azshara|T|Azuregos|
-N Dragon of Nightmare|ACTIVE|47253^47254|QO|3|N|Look on your map to see which dragon is up. All 4 are listed after this step. Complete this step, don't skip!|
-K Emeriss|ACTIVE|47253^47254|M|46.6,40.2|Z|Duskwood|QO|3|T|Emeriss|
-K Ysondre|ACTIVE|47253^47254|M|50.4,12.4|Z|Feralas|QO|3|T|Ysondre|
-K Taerar|ACTIVE|47253^47254|M|93.8,41.2|Z|Ashenvale|QO|3|T|Taerar|
-K Seradane|ACTIVE|47253^47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
-T The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|To Ju'Pa|FACTION|Horde|
-T The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
+; [The Originals] seems to be gone as of 11.X
+; N The Originals|AVAILABLE|47254|FACTION|Horde|N|The next daily involves a bit of traveling.|
+; N The Originals|AVAILABLE|47253|FACTION|Alliance|N|The next daily involves a bit of traveling.|
+; A The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|From Ju'Pa|FACTION|Horde|
+; A The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
+; K Lord Kazzak|ACTIVE|47253^47254|QO|1|M|32.4,49.6|Z|Blasted Lands|N|Careful.  These bosses scale from 30 to 60, so if you are low level, watch it!|
+; K Azuregos|ACTIVE|47253^47254|QO|2|M|48.9,84.1|Z|Azshara|T|Azuregos|
+; N Dragon of Nightmare|ACTIVE|47253^47254|QO|3|N|Look on your map to see which dragon is up. All 4 are listed after this step. Complete this step, don't skip!|
+; K Emeriss|ACTIVE|47253^47254|M|46.6,40.2|Z|Duskwood|QO|3|T|Emeriss|
+; K Ysondre|ACTIVE|47253^47254|M|50.4,12.4|Z|Feralas|QO|3|T|Ysondre|
+; K Taerar|ACTIVE|47253^47254|M|93.8,41.2|Z|Ashenvale|QO|3|T|Taerar|
+; K Seradane|ACTIVE|47253^47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
+; T The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|To Ju'Pa|FACTION|Horde|
+; T The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
 
 N Tomorrow|N|Come back tomorrow for another set of quests.  There are portals at the entrace to the cave back to the capitol cities.|
 ]]
