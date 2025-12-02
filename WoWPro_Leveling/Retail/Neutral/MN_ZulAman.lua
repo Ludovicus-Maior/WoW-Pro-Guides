@@ -215,7 +215,7 @@ T Denial Denied|QID|87317|M|38.84,44.90|Z|2437;Zul'Aman|N|To Warlord Akutu.|
 A The Medicine Loa's Shrine|QID|92531|PRE|87317|M|38.81,44.85|Z|2437;Zul'Aman|N|From Kulzi.|
 T The Medicine Loa's Shrine|QID|92531|M|43.15,67.95|Z|2437;Zul'Aman|N|To Elder Doru.|
 
-Sawdust to Sawdust 
+Sawdust to Sawdust
 
 A Salvaged Sabotage|QID|88987|PRE|92531|M|28.41,27.31|Z|2437;Zul'Aman|N|From Woodcrafter Azai.|
 A Blind the Bandits|QID|88986|PRE|92531|M|28.41,27.31|Z|2437;Zul'Aman|N|From Woodcrafter Azai.|
@@ -249,7 +249,7 @@ A Love Triangle|QID|89233|PRE|89231|M|44.42,65.71|Z|2437;Zul'Aman|N|From Namaji.
 C Love Triangle|QID|89233|M|44.42,65.71|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Help Namaji decide.|
 T Love Triangle|QID|89233|M|44.42,65.71|Z|2437;Zul'Aman|N|To Unknown.|
 
-Sorrowing Kin - 
+Sorrowing Kin -
 
 A The Path of Mourning|QID|89565|PRE|89233|M|45.34,69.70|Z|2437;Zul'Aman|
 T The Path of Mourning|QID|89565|M|45.85,72.41|Z|2437;Zul'Aman|N|To Chana.|
@@ -295,7 +295,7 @@ A Perils of Trust|QID|91750|PRE|93734|M|41.33,80.09|Z|2437;Zul'Aman|N|From Fleeg
 C Perils of Trust|QID|91750|M|43.84,82.10|Z|2437;Zul'Aman|QO|1|U|250919|N|Fake Voice of Nalorakk slain.|
 T Perils of Trust|QID|91750|M|41.29,80.07|Z|2437;Zul'Aman|N|To Fleeg.|
 
-Reclaiming de Honor - 
+Reclaiming de Honor -
 
 A Honorin' de Sacrifice|QID|92492|PRE|91750|M|33.59,78.78|Z|2437;Zul'Aman|N|From Lilaju.|
 T Honorin' de Sacrifice|QID|92492|M|26.06,64.50|Z|2437;Zul'Aman|N|To Lilaju.|
@@ -336,7 +336,7 @@ A Loa's Flame|QID|91556|PRE|91070&91069&91071|M|53.12,62.84|Z|2437;Zul'Aman|N|Fr
 C Loa's Flame|QID|91556|M|53.12,62.84|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Amani Boat salvaged.|
 C Loa's Flame|QID|91556|M|53.07,62.78|Z|2437;Zul'Aman|QO|2|NC|U|250919|N|Funeral bonfire built.|
 T Loa's Flame|QID|91556|M|53.09,62.79|Z|2437;Zul'Aman|N|To Jehnira.|
- 
+
 The Loa of Murlocs
 
 A Murloc Madness|QID|92164|PRE|91556|M|52.89,60.28|Z|2437;Zul'Aman|N|From King Mrgl-Mrgl.|
@@ -479,7 +479,7 @@ C The Final Exam|QID|93051|M|43.86,64.78|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Tell
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437;Zul'Aman|QO|2|U|250919|N|Recruit Dar'rak slain.|
 T The Final Exam|QID|93051|M|43.87,64.78|Z|2437;Zul'Aman|N|To Ri'kari.|
 
-Something Vile This Way Comes - 
+Something Vile This Way Comes -
 
 A Dirty Deeps|QID|91833|PRE|93051|M|38.53,22.45|Z|2437;Zul'Aman|N|From Vun'zarah.|
 T Dirty Deeps|QID|91833|M|44.87,36.53|Z|2437;Zul'Aman|N|To Dak'zor.|
@@ -496,7 +496,7 @@ A One Will Not Rise|QID|91840|PRE|91835&91836&91838|M|47.15,41.28|Z|2437;Zul'Ama
 C One Will Not Rise|QID|91840|M|48.39,43.04|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Knife Priestess Hezzia's Head.|
 T One Will Not Rise|QID|91840|M|38.53,22.44|Z|2437;Zul'Aman|N|To Vun'zarah.|
 
-River-Walkers of the Prowl - 
+River-Walkers of the Prowl -
 
 A Revantusk at Risk|QID|93257|M|45.87,70.74|Z|2437;Zul'Aman|N|From Jak'zari.|
 T Revantusk at Risk|QID|93257|M|40.24,79.09|Z|2437;Zul'Aman|N|To Kahanea.|
@@ -515,7 +515,7 @@ A A Crab of Unusual Size|QID|93261|PRE|93260&93259|M|32.23,83.88|Z|2437;Zul'Aman
 C A Crab of Unusual Size|QID|93261|M|33.54,85.87|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Uncover the Void-Crazed Crawler's corruption.|
 T A Crab of Unusual Size|QID|93261|M|33.14,78.98|Z|2437;Zul'Aman|N|To Kahanea.|
 
-;Bloodstains - 
+;Bloodstains -
 
 A Personal History|QID|93440|PRE|93261|M|45.76,65.54|Z|2437;Zul'Aman|N|From Zul'jarra.|
 T Personal History|QID|93440|M|46.14,47.86|Z|2536;Atal'Aman|N|To Torundo the Grizzled.|
