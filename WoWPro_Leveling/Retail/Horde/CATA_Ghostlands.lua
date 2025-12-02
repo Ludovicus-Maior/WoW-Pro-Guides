@@ -68,14 +68,14 @@ T Vanquishing Aquantion|QID|9174|M|72.29,19.11|Z|0095; Ghostlands|N|To Geranis W
 T Spirits of the Drowned|QID|9274|M|72.20,29.83|Z|0095; Ghostlands|N|To Ranger Krenn'an.|
 A A Little Dash of Seasoning|QID|9275|PRE|9174&9274|M|72.66,31.57|Z|0095; Ghostlands|N|From Apothecary Venustus.|
 C Curbing the Plague|QID|9159|M|77.08,28.12|Z|0095; Ghostlands|QO|1|N|Vampiric Mistbat slain.|
-C Investigate the Amani Catacombs|QID|9193|M|58.91,63.25|Z|Amani Catacombs|QO|2|NC|N|Investigate the Amani Catacombs.|
-C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|S|
-C Troll Juju|QID|9199|M|57.62,66.20|Z|Amani Catacombs|QO|1|NC|N|Troll Juju.|S|
-A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|From Ranger Lilatha.|
-A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for them to respawn.|FAIL|
+C Investigate the Amani Catacombs|QID|9193|M|58.91,63.25|Z|96; Amani Catacombs|QO|2|NC|N|Investigate the Amani Catacombs.|
+C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|96; Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|S|
+C Troll Juju|QID|9199|M|57.62,66.20|Z|96; Amani Catacombs|QO|1|NC|N|Troll Juju.|S|
+A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|96; Amani Catacombs|N|From Ranger Lilatha.|
+A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|96; Amani Catacombs|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for them to respawn.|FAIL|
 T Escape from the Catacombs|QID|9212|M|72.36,29.63|Z|0095; Ghostlands|N|To Captain Helios.|
-C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|US|
-C Troll Juju|QID|9199|M|57.62,66.20|Z|Amani Catacombs|QO|1|NC|N|Troll Juju.|US|
+C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|96; Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|US|
+C Troll Juju|QID|9199|M|57.62,66.20|Z|96; Amani Catacombs|QO|1|NC|N|Troll Juju.|US|
 T Troll Juju|QID|9199|M|72.63,31.56|Z|0095; Ghostlands|N|To Apothecary Venustus.|
 T Investigate the Amani Catacombs|QID|9193|M|71.95,32.64|Z|0095; Ghostlands|N|To Ranger Vynna.|
 C Shadowpine Weaponry|QID|9214|M|65.93,53.07|Z|0095; Ghostlands|QO|4;3|N|Collect the weapons needed.|S|
