@@ -54,6 +54,10 @@
 	<Script file="MN_ZulAman.lua"/>
 	<Script file="MN_Harandar.lua"/>
 	<Script file="MN_Arators_Journey.lua"/>
+	<Script file="MN_Voidstorm.lua"/>
+	<Script file="MN_War_LS.lua"/>
+	
+	
 	<Script file="MOP_Dread_Wastes.lua"/>
 	<Script file="MOP_KunLai_Summit.lua"/>
 	<Script file="MOP_Townlong_Steppes.lua"/>

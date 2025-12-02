@@ -11,7 +11,7 @@ return [[
 
 
 A Time Crisis|QID|89404|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|From Moratari.|
-C Time Crisis|QID|89404|QO|1|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|Talk to Morazari.|CHAT|
+C Time Crisis|QID|89404|QO|1|M|72.41,45.96|Z|0627; Dalaran!Broken Isles|N|Talk to Moratari.|CHAT|
 T Time Crisis|QID|89404|M|67.63,42.48|Z|0627; Dalaran!Broken Isles|N|To Khadgar's mirror image.|
 A Mean Streets of Dalaran|QID|89405|M|67.63,42.48|Z|0627; Dalaran!Broken Isles|N|To Khadgar's mirror image.|
 C Mean Streets of Dalaran|QID|89405|M|49.84,28.52|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Legion demons purged (100%).|
