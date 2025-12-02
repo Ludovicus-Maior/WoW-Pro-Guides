@@ -46,17 +46,6 @@ C Echo of the Call|QID|90095|M|34.84,42.77|Z|2413;Harandar|QO|1|NC|N|Third visio
 C Echo of the Call|QID|90095|M|34.23,43.64|Z|2413;Harandar|QO|2|N|Observer Talos slain.|
 T Echo of the Call|QID|90095|M|33.94,44.80|Z|2413;Harandar|N|To Zur'ashar Kassameh.|
 A Down the Rootways|QID|86912|PRE|90095|M|33.94,44.80|Z|2413;Harandar|N|From Zur'ashar Kassameh.|
-C The Gulf of Memory|Z|Harandar|SO|1|S|N||
-C Down the Rootways|QID|86912|QO|1|NC|N|Gulf of Memory entered.|
-C Speak with Ashayo|M|51.90,16.22|Z|2505|SO|1;1|N|Speak with Ashayo|
-C The Gulf of Memory|Z|The Gulf of Memory|SO|1|US|N||
-C The Gulf of Memory|Z|The Gulf of Memory|SO|2|S|N||
-C Sprouting Lightbloom patch entered|M|51.76,16.86|Z|2505|SO|2;1|N|Sprouting Lightbloom patch entered|
-C The Gulf of Memory|Z|The Gulf of Memory|SO|2|US|N||
-C The Gulf of Memory|Z|The Gulf of Memory|SO|3|S|N||
-C Treasure Room|Z|The Gulf of Memory|SO|1|S|N||
-C Treasure Room|Z|The Gulf of Memory|SO|1|US|N||
-C Collect Your Reward!|Z|The Gulf of Memory|SO|2|S|N||
 A A Hut in Har'mara|QID|86913|PRE|90095|M|34.83,25.10|Z|2413|N|From Hagar.|
 T A Hut in Har'mara|QID|86913|M|34.92,24.96|Z|2413|N|To Orweyna.|
 A Tending to Har'mara|QID|86914|PRE|86913|M|34.92,24.99|Z|2413|N|From Hagar.|

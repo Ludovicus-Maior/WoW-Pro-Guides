@@ -215,7 +215,7 @@ T Denial Denied|QID|87317|M|38.84,44.90|Z|2437;Zul'Aman|N|To Warlord Akutu.|
 A The Medicine Loa's Shrine|QID|92531|PRE|87317|M|38.81,44.85|Z|2437;Zul'Aman|N|From Kulzi.|
 T The Medicine Loa's Shrine|QID|92531|M|43.15,67.95|Z|2437;Zul'Aman|N|To Elder Doru.|
 
-Sawdust to Sawdust
+;Sawdust to Sawdust
 
 A Salvaged Sabotage|QID|88987|PRE|92531|M|28.41,27.31|Z|2437;Zul'Aman|N|From Woodcrafter Azai.|
 A Blind the Bandits|QID|88986|PRE|92531|M|28.41,27.31|Z|2437;Zul'Aman|N|From Woodcrafter Azai.|
@@ -236,7 +236,7 @@ C Another One Bites the Sawdust|QID|88989|M|31.72,29.85|Z|2437;Zul'Aman|QO|2|NC|
 C Another One Bites the Sawdust|QID|88989|M|31.72,29.85|Z|2437;Zul'Aman|QO|3|U|250919|N|Covert Commander Tofir slain.|
 T Another One Bites the Sawdust|QID|88989|M|28.43,27.47|Z|2437;Zul'Aman|N|To Woodcrafter Azai.|
 
-Between Two Trolls
+;Between Two Trolls
 
 A A Lover Not a Fighter|QID|89230|PRE|88989|M|44.06,66.20|Z|2437;Zul'Aman|N|From Kagara.|
 C A Lover Not a Fighter|QID|89230|M|54.17,72.95|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Threshadon Tooth Necklace.|
@@ -249,7 +249,7 @@ A Love Triangle|QID|89233|PRE|89231|M|44.42,65.71|Z|2437;Zul'Aman|N|From Namaji.
 C Love Triangle|QID|89233|M|44.42,65.71|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Help Namaji decide.|
 T Love Triangle|QID|89233|M|44.42,65.71|Z|2437;Zul'Aman|N|To Unknown.|
 
-Sorrowing Kin -
+;Sorrowing Kin -
 
 A The Path of Mourning|QID|89565|PRE|89233|M|45.34,69.70|Z|2437;Zul'Aman|
 T The Path of Mourning|QID|89565|M|45.85,72.41|Z|2437;Zul'Aman|N|To Chana.|
@@ -273,7 +273,7 @@ C A Quiet Farewell|QID|89560|M|46.29,91.17|Z|2437;Zul'Aman|QO|4|NC|U|250919|N|Fi
 C A Quiet Farewell|QID|89560|M|46.29,91.17|Z|2437;Zul'Aman|QO|5|NC|U|250919|N|Pay your respects.|
 T A Quiet Farewell|QID|89560|M|46.29,91.17|Z|2437;Zul'Aman|N|To Chana.|
 
-The Voice of Nalorakk
+;The Voice of Nalorakk
 
 A The Spiritpaw|QID|91813|PRE|89560|M|33.61,78.80|Z|2437;Zul'Aman|N|From Pel'na Torntusk.|
 T The Spiritpaw|QID|91813|M|41.36,80.03|Z|2437;Zul'Aman|N|To Furgh.|
@@ -295,7 +295,7 @@ A Perils of Trust|QID|91750|PRE|93734|M|41.33,80.09|Z|2437;Zul'Aman|N|From Fleeg
 C Perils of Trust|QID|91750|M|43.84,82.10|Z|2437;Zul'Aman|QO|1|U|250919|N|Fake Voice of Nalorakk slain.|
 T Perils of Trust|QID|91750|M|41.29,80.07|Z|2437;Zul'Aman|N|To Fleeg.|
 
-Reclaiming de Honor -
+;Reclaiming de Honor -
 
 A Honorin' de Sacrifice|QID|92492|PRE|91750|M|33.59,78.78|Z|2437;Zul'Aman|N|From Lilaju.|
 T Honorin' de Sacrifice|QID|92492|M|26.06,64.50|Z|2437;Zul'Aman|N|To Lilaju.|
@@ -321,7 +321,7 @@ A The Wisest Leaders Follow|QID|92499|PRE|92497&92496|M|22.59,63.97|Z|2437;Zul'A
 A What Remains of a Temple Broken|QID|91390|PRE|92497&92496|M|26.87,71.38|Z|2437;Zul'Aman|
 T The Wisest Leaders Follow|QID|92499|M|33.59,78.76|Z|2437;Zul'Aman|N|To Lilaju.|
 
-Vengeance for Tolbani
+;Vengeance for Tolbani
 
 A Reclaim the Goods|QID|91070|PRE|92499|M|53.10,62.87|Z|2437;Zul'Aman|N|From Jehnira.|
 A Vengeance for Tolbani|QID|91069|PRE|92499|M|53.10,62.87|Z|2437;Zul'Aman|N|From Jehnira.|
@@ -337,7 +337,7 @@ C Loa's Flame|QID|91556|M|53.12,62.84|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Amani B
 C Loa's Flame|QID|91556|M|53.07,62.78|Z|2437;Zul'Aman|QO|2|NC|U|250919|N|Funeral bonfire built.|
 T Loa's Flame|QID|91556|M|53.09,62.79|Z|2437;Zul'Aman|N|To Jehnira.|
 
-The Loa of Murlocs
+;The Loa of Murlocs
 
 A Murloc Madness|QID|92164|PRE|91556|M|52.89,60.28|Z|2437;Zul'Aman|N|From King Mrgl-Mrgl.|
 A Fish Are Food, Not Friends|QID|92165|PRE|91556|M|52.89,60.28|Z|2437;Zul'Aman|N|From King Mrgl-Mrgl.|
@@ -357,7 +357,7 @@ C There Can Be Only One|QID|92167|M|57.37,59.64|Z|2437;Zul'Aman|QO|2|NC|U|263446
 C There Can Be Only One|QID|92167|M|57.36,59.59|Z|2437;Zul'Aman|QO|3|U|263446|N|Deepfin leader slain.|
 T There Can Be Only One|QID|92167|M|52.88,60.21|Z|2437;Zul'Aman|N|To King Mrgl-Mrgl.|
 
-No Fear
+;No Fear
 
 A Growing Up is Hard|QID|92450|PRE|92167|M|45.21,69.73|Z|2437;Zul'Aman|N|From Ani.|
 C Growing Up is Hard|QID|92450|M|48.07,67.64|Z|2437;Zul'Aman|QO|1|CHAT|U|250919|N|Speak to Ani at the waterfall.|
@@ -374,7 +374,7 @@ A Fearless|QID|92453|PRE|92452|M|44.64,60.51|Z|2437;Zul'Aman|N|From Ani.|
 C Fearless|QID|92453|M|45.17,69.68|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Meet Ani at Amani'Zar Village.|
 T Fearless|QID|92453|M|45.18,69.71|Z|2437;Zul'Aman|N|To Ani.|
 
-Bitter Honor
+;Bitter Honor
 
 A Gnarldin Trophies|QID|93093|PRE|92453|M|28.91,33.49|Z|2437;Zul'Aman|N|From Kel'venko.|
 A Scavenged Victory|QID|93094|PRE|92453|M|28.91,33.49|Z|2437;Zul'Aman|N|From Kel'venko.|
@@ -391,7 +391,7 @@ C Amani Honor|QID|93096|M|29.33,41.63|Z|2437;Zul'Aman|QO|1|CHAT|U|250919|N|Speak
 C Amani Honor|QID|93096|M|29.25,41.30|Z|2437;Zul'Aman|QO|2|NC|U|250919|N|Amani reward received.|
 T Amani Honor|QID|93096|M|44.24,66.54|Z|2437;Zul'Aman|N|To Huntmaster Jinki.|
 
-The Sound of Her Voice
+;The Sound of Her Voice
 
 A A Quiet Walk Interrupted|QID|93178|PRE|93096|M|36.74,25.11|Z|2437;Zul'Aman|N|From Nerunda.|
 C A Quiet Walk Interrupted|QID|93178|M|38.37,26.62|Z|2437;Zul'Aman|QO|1|CHAT|U|250919|N|Speak to Haz'kel.|
@@ -420,7 +420,7 @@ A Healing Homeward|QID|93182|PRE|93181|M|52.30,32.16|Z|2437;Zul'Aman|N|From Kanz
 C Healing Homeward|QID|93182|M|36.70,25.10|Z|2437;Zul'Aman|QO|1|CHAT|U|250919|N|Speak to Nerunda.|
 T Healing Homeward|QID|93182|M|36.70,25.10|Z|2437;Zul'Aman|N|To Nerunda.|
 
-A Venomous History
+;A Venomous History
 
 A Far from the Hinterlands|QID|91406|PRE|93182|M|36.12,24.83|Z|2437|N|From Nija Torntusk.|
 C Far from the Hinterlands|QID|91406|M|37.16,23.52|Z|2437|QO|1|NC|U|250919|N|Hinterlands evidence found.|
@@ -463,7 +463,7 @@ T Return of the Venom Queen|QID|91412|M|38.75,22.77|Z|2437;Zul'Aman|N|To Nija To
 A Shared Loa|QID|91410|PRE|91412|M|38.69,22.72|Z|2437;Zul'Aman|N|From Mixer Jamanga.|
 T Shared Loa|QID|91410|M|38.54,22.41|Z|2437;Zul'Aman|N|To Vun'zarah.|
 
-Beyond the Walls
+;Beyond the Walls
 
 A Got No Rhythm|QID|93048|PRE|91410|M|46.79,66.28|Z|2437;Zul'Aman|N|From Iklani.|
 C Got No Rhythm|QID|93048|M|46.89,66.79|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Demonstrate how to /dance for Kovu.|
@@ -479,7 +479,7 @@ C The Final Exam|QID|93051|M|43.86,64.78|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Tell
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437;Zul'Aman|QO|2|U|250919|N|Recruit Dar'rak slain.|
 T The Final Exam|QID|93051|M|43.87,64.78|Z|2437;Zul'Aman|N|To Ri'kari.|
 
-Something Vile This Way Comes -
+;Something Vile This Way Comes -
 
 A Dirty Deeps|QID|91833|PRE|93051|M|38.53,22.45|Z|2437;Zul'Aman|N|From Vun'zarah.|
 T Dirty Deeps|QID|91833|M|44.87,36.53|Z|2437;Zul'Aman|N|To Dak'zor.|
@@ -496,7 +496,7 @@ A One Will Not Rise|QID|91840|PRE|91835&91836&91838|M|47.15,41.28|Z|2437;Zul'Ama
 C One Will Not Rise|QID|91840|M|48.39,43.04|Z|2437;Zul'Aman|QO|1|NC|U|250919|N|Knife Priestess Hezzia's Head.|
 T One Will Not Rise|QID|91840|M|38.53,22.44|Z|2437;Zul'Aman|N|To Vun'zarah.|
 
-River-Walkers of the Prowl -
+;River-Walkers of the Prowl -
 
 A Revantusk at Risk|QID|93257|M|45.87,70.74|Z|2437;Zul'Aman|N|From Jak'zari.|
 T Revantusk at Risk|QID|93257|M|40.24,79.09|Z|2437;Zul'Aman|N|To Kahanea.|
