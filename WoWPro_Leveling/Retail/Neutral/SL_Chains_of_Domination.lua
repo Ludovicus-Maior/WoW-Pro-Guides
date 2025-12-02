@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Chains of Domination Campaign")
-WoWPro:GuideContent(guide, "Shadowlands")
+WoWPro:GuideContent(guide, 9)
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
