@@ -54,6 +54,8 @@
 	<Script file="MN_ZulAman.lua"/>
 	<Script file="MN_Harandar.lua"/>
 	<Script file="MN_Arators_Journey.lua"/>
+	<Script file="MN_Voidstorm.lua"/>
+	<Script file="MN_War_LS.lua"/>
 	<Script file="MOP_Dread_Wastes.lua"/>
 	<Script file="MOP_KunLai_Summit.lua"/>
 	<Script file="MOP_Townlong_Steppes.lua"/>
@@ -79,6 +81,7 @@
 	<Script file="TWW_Undermine.lua"/>
 	<Script file="TWW_Rise_of_the_Red_Dawn.lua"/>
 	<Script file="TWW_K'aresh.lua"/>
+	<Script file="TWW_Visions_of_a_Shadowed_Sun.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>
 	<Script file="WOTLK_Sholazar_Basin.lua"/>
