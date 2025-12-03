@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('The War of Light and Shadow', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('The War of Light and Shadow', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance',12)
 WoWPro:GuideName(guide,"The War of Light and Shadow")
 WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
