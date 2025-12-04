@@ -5,7 +5,7 @@ WoWPro:GuideQuestTriggers(guide, 84442)
 WoWPro.Achievements:GuideMisc(guide, "Pandaren Heritage Armor", "Heritage Armor", "The War Within")
 WoWPro:GuideSteps(guide, function()
 return [[
-A Invitation to the Spirit Festival|QID|84442|M|65.26,75.80|Z|84|
+A Invitation to the Spirit Festival|QID|84442|M|52.14,13.45|Z|84|
 T Invitation to the Spirit Festival|QID|84442|M|68.31,16.83|Z|84|N|To Aysa Cloudsinger.|
 A The Wanderers|QID|84451|PRE|84442|M|68.29,16.53|Z|84|N|From Li Li Stormstout.|
 C The Wanderers|QID|84451|M|49.47,24.60|Z|2366;The Wandering Isle|QO|1|NC|N|Ride the hot air balloon.|
@@ -17,7 +17,7 @@ A Tide of Virmen|QID|84454|PRE|84453|M|69.60,67.47|Z|2366;The Wandering Isle|N|F
 A Big Bertha|QID|84455|PRE|84453|M|69.72,67.30|Z|2366;The Wandering Isle|N|From Chon Po Stormstout.|
 C Tide of Virmen|QID|84454|M|74.07,74.39|Z|2366;The Wandering Isle|QO|1|NC|N|Take back the farm! (100%).|
 A Order of Embers|QID|50600|PRE|84453|M|71.79,71.44|Z|2366;The Wandering Isle|N|From Plump Virmen.|
-C Big Bertha|QID|84455|M|74.55,73.31|Z|2366;The Wandering Isle|QO|1|NC|N|Big Bertha found.|
+C Big Bertha|QID|84455|M|71.66,70.53;74.55,73.31|CS|Z|2366;The Wandering Isle|QO|1|NC|N|Big Bertha found.|
 C Big Bertha|QID|84455|M|74.71,74.08|Z|2366;The Wandering Isle|QO|2|N|Yak Eater slain.|
 T Big Bertha|QID|84455|M|69.91,67.36|Z|2366;The Wandering Isle|N|To Chon Po Stormstout.|
 T Tide of Virmen|QID|84454|M|69.84,67.66|Z|2366;The Wandering Isle|N|To Chen Stormstout.|
