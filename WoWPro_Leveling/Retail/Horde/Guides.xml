@@ -57,6 +57,7 @@
 	<Script file="LEGION_Stormheim.lua"/>
 	<Script file="MOP_JadeForest.lua"/>
 	<Script file="MOP_Krasarang_Wilds.lua"/>
+	<Script file="TWW_Returning_Player_H.lua"/>
 	<Script file="WOD_FrostFire.lua"/>
 	<Script file="WOD_Gorgrond.lua"/>
 	<Script file="WOD_Nagrand.lua"/>
