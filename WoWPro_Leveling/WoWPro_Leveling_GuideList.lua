@@ -44,6 +44,7 @@ local continentToXpac = {
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
     [1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
     [2274] = _G.LE_EXPANSION_WAR_WITHIN, -- The War Within
+    [2537] = _G.LE_EXPANSION_MIDNIGHT, -- MIDNIGHT
 }
 
 -- /dump C_Map.GetMapInfo(1355)
@@ -187,7 +188,8 @@ local expansionOrder = {
     ["Battle for Azeroth"] = 7,
     ["Shadowlands"] = 8,
     ["Dragonflight"] = 9,
-    ["The War Within"] = 10
+    ["The War Within"] = 10,
+    ["Midnight"] = 11
 }
 
 local function contentSort(a, b)

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Midnight Intro', 'Leveling', 'Dornogal', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Midnight Intro', 'Leveling', 'Dornogal', 'WoWPro Team', 'Neutral',12)
 WoWPro:GuideName(guide,"Midnight Intro")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)

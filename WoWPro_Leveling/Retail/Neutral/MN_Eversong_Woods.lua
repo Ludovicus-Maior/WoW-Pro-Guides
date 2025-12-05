@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Eversong Woods', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Eversong Woods', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral',12)
 WoWPro:GuideName(guide,"Eversong Woods")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)

@@ -1,3 +1,17 @@
+# Release 2025.12.03.A
+## Bug Fixes
+* Midnight Beta zones update
+* Update Retail TOC from 110205 to 110207
+* Don't query NPC ids during combat and instances in Midnight.
+* Add new TWW Heathstones
+* Avoid SetRaidTarget for now as it taints the UI!
+## Guide Updates
+* Retail Achievements: Pandaren Heritage Armor, Lore Walking
+* Retail World Events: WoW Anniversary
+* Retail Leveling: Exiles Reach, Ghostlands, Waking Shores, All Legion TR guides
+* Vanilla Leveling: Alliance 19-25, Durotar 1-12
+
+
 # Release 2025.11.05.A
 ## Bug Fixes
 * Update to Ace Release-r1377

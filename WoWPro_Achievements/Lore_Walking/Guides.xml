@@ -1,3 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="Lore_Walking.lua"/>
+	<Script file="Lore_Walking_Xalatath.lua"/>
+	<Script file="Lore_Walking_Ethereals.lua"/>
+	<Script file="Lore_Walking_The_Lich_King.lua"/>
+	<Script file="Lore_Walking_The_Elves_of_Quelthalas.lua"/>
+	
 </Ui>
