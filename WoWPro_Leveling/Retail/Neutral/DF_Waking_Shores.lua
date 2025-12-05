@@ -20,7 +20,11 @@ return [[
 
 T The Waking Shores|QID|72266|M|76.57,33.66|Z|2022; The Waking Shores|N|To Sendrax.|
 A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022; The Waking Shores|N|From Sendrax.|
-
+C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022; The Waking Shores|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
+C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022; The Waking Shores|QO|2|H|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
+C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022; The Waking Shores|QO|3|H|N|Read the stone tablet.|
+C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022; The Waking Shores|QO|4|H|N|Relight the Brazier of Kinship.|
+T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022; The Waking Shores|N|To Sendrax.|
 A Give Peace a Chance|QID|66110|PRE|65444|M|76.36,33.07|Z|2022; The Waking Shores|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
 T Primal Pests|QID|65453|M|76.29,33.02|Z|2022; The Waking Shores|N|To Scalecommander Cinderthresh.|FACTION|Horde|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022; The Waking Shores|N|To Thaelin Darkanvil.|FACTION|Alliance|
@@ -45,9 +49,14 @@ C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022; The Waking Shores|QO|4
 T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022; The Waking Shores|N|To Aster Cloudgaze.|FACTION|Alliance|
 ;moved T 72708. but leaving here too, as it won't hurt anything, and maybe it's diff in adventure mode?
 T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
-A Quality Assurance|QID|69965|PRE|66110^67053|M|76.41,34.45|Z|2022; The Waking Shores|N|From Haephesta. Haephesta is sometimes missing, if she's not around click this step off and watch for her turning up as you pass through.|RANK|2|
-A Without Purpose|QID|70148|M|76.41,34.45|Z|2022; The Waking Shores|N|From Haephesta.|RANK|2|C|EVOKER|
 A Always Be Crafting|QID|66112|PRE|66110^67053|M|76.36,34.63|Z|2022; The Waking Shores|N|From Grun Ashbeard.|RANK|2|
+C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022; The Waking Shores|N|Slay Primal elementals.|S|
+C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022; The Waking Shores|QO|1|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
+C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022; The Waking Shores|N|Finish slaying the Primal elementals.|US|
+T Encroaching Elementals|QID|66111|M|76.71,34.55|Z|2022; The Waking Shores|N|To Captain Garrick.|FACTION|Horde|
+T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022; The Waking Shores|N|To Grun Ashbeard.|
+A Quality Assurance|QID|69965|PRE|66110^66112|M|76.41,34.45|Z|2022; The Waking Shores|N|From Haephesta. Haephesta is sometimes missing, if she's not around click this step off and watch for her turning up as you pass through.|RANK|2|
+A Without Purpose|QID|70148|M|76.41,34.45|Z|2022; The Waking Shores|N|From Haephesta.|RANK|2|C|EVOKER|
 A Opportunities Abound|QID|70042|M|76.4,33.3|Z|2022; The Waking Shores|N|From Vish the Sneak. He walks around the area.|T|Vish the Sneak|C|ROGUE|RANK|2|
 C Opportunities Abound|QID|70042|M|75.75,33.37|Z|2022; The Waking Shores|QO|1|N|Pick the [color=33fff9]Golden Expiditon Compass[/color] up off the crate.|H|
 C Opportunities Abound|QID|70042|M|76.17,33.66;76.44,33.13|CN|Z|2022; The Waking Shores|QO|2|N|Pick the [color=33fff9]Shiny Surveyors Scope[/color] up off the crate.\n\n[color=FF0000]NOTE: [/color]If it is not there check the other location. Or you will have to wait for the Expedition Surveyor to set it down.|T|Expedition Surveyor|H|
@@ -55,27 +64,17 @@ R Pathfinder Jeb|ACTIVE|70042|M|76.73,34.19|Z|2022; The Waking Shores|N|Come ove
 C Without Purpose|QID|70148|M|76.44,34.41|Z|2022; The Waking Shores|QO|1|CHAT|N|Talk to Kholmar. He is to the right of Haephesta.|
 C Without Purpose|QID|70148|M|76.69,34.78|Z|2022; The Waking Shores|QO|2|CHAT|N|Talk to Toninaar. He is behind you.|
 f Wingrest Embassy|ACTIVE|69911|M|76.03,35.04|Z|2022; The Waking Shores|N|At Tixxa Mixxa.|
-C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022; The Waking Shores|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
-C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022; The Waking Shores|QO|2|H|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
-C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022; The Waking Shores|QO|3|H|N|Read the stone tablet.|
 C Without Purpose|QID|70148|M|75.88,33.46|Z|2022; The Waking Shores|QO|3|CHAT|N|Talk to Aster Cloudgaze.|
 C Without Purpose|QID|70148|M|75.05,33.52|Z|2022; The Waking Shores|QO|4|H|N|Click on the [color=33fff9]Conspicuous Note[/color] on the wall.|
 C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022; The Waking Shores|H|N|Click on the glowing rocks to excavate.|S|
-C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022; The Waking Shores|N|Slay Primal elementals.|S|
 C Opportunities Abound|QID|70042|M|74.66,35.68|QO|3|N|Kill Primal Lava Elementals until you get [color=33fff9]Jeb's Supply Pack[/color].|S|
 C Without Purpose|QID|70148|M|74.90,35.02|Z|2022; The Waking Shores|QO|5|CHAT|N|Talk to Talon Ethrethi under the tent.|
-C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022; The Waking Shores|QO|1|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
 C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022; The Waking Shores|H|N|Finish excavating the glowing Volcanic Geodes.|US|
-C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022; The Waking Shores|N|Finish slaying the Primal elementals.|US|
 C Opportunities Abound|QID|70042|M|74.66,35.68|QO|3|N|Kill Primal Lava Elementals until you get [color=33fff9]Jeb's Supply Pack[/color].|T|Primal Lava Elemental|US|
-T Encroaching Elementals|QID|66111|M|76.71,34.55|Z|2022; The Waking Shores|N|To Captain Garrick.|FACTION|Horde|
 T Quality Assurance|QID|69965|M|76.41,34.47|Z|2022; The Waking Shores|N|To Haephesta.|
 T Without Purpose|QID|70148|M|76.41,34.45|Z|2022; The Waking Shores|N|To Haephesta.|
-T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022; The Waking Shores|N|To Grun Ashbeard.|
 T Opportunities Abound|QID|70042|M|76.4,33.3|Z|2022; The Waking Shores|N|To Vish the Sneak. He walks around the area.|T|Vish the Sneak|
 T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022; The Waking Shores|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
-C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022; The Waking Shores|QO|4|H|N|Relight the Brazier of Kinship.|
-T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022; The Waking Shores|N|To Sendrax.|
 A My First Real Emergency!|QID|69912|PRE|69911|M|76.58,33.66|Z|2022; The Waking Shores|N|From Sendrax.|
 C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022; The Waking Shores|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
 C My First Real Emergency!|QID|69912|M|76.22,34.45|Z|2022; The Waking Shores|QO|2|NC|N|Wait for the dragons' arrival.|
