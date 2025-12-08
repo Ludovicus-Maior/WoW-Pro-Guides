@@ -1300,7 +1300,9 @@ function WoWPro.CreateConfig()
 
     config:RegisterOptionsTable("WoWPro", topConfig)
 
-    dialog:AddToBlizOptions("WoWPro", "WoWPro")
+    local _, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
+
+    return id or "WoWPro"
 end
 
 AceGUI:RegisterWidgetType("WoWPro_GuideListWidget", WoWPro_GuideListWidget, 0)
