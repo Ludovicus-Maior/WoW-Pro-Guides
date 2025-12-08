@@ -1301,7 +1301,6 @@ function WoWPro.CreateConfig()
     config:RegisterOptionsTable("WoWPro", topConfig)
 
     local _, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
-
     return id or "WoWPro"
 end
 
