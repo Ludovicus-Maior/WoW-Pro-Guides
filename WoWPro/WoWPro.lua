@@ -518,7 +518,7 @@ function WoWPro:OnEnable()
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro:CreateFrames()
-        WoWPro:CreateConfig()
+        WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
     else -- Addon was previously disabled, so no need to create frames, just turn them back on
