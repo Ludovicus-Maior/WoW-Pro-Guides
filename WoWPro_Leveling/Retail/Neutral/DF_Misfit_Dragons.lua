@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Misfit Dragons', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Misfit Dragons")
-WoWPro:GuideLevels(guide,70, 70)
+WoWPro:GuideLevels(guide,70, 80)
 WoWPro:GuideNickname(guide, "Misfit Dragons")
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideQuestTriggers(guide, 76460)

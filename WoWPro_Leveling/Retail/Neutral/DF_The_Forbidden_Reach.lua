@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('The Forbidden Reach', 'Leveling', 'The Forbi
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, "DF_Campaign")
 WoWPro:GuideName(guide,"The Forbidden Reach")
-WoWPro:GuideLevels(guide,70, 70)
+WoWPro:GuideLevels(guide,70, 80)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[

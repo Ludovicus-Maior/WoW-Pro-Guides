@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,70180) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,40, 80)
+WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,70180) -- add starting quest for each chapter
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
