@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Dragonflight Intro', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Intro")
-WoWPro:GuideLevels(guide,10, 80)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideSteps(guide, function()
 return [[

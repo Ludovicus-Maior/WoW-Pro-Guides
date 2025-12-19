@@ -289,7 +289,7 @@ A A Humble Request|QID|45652|PRE|47137|M|33.10,60.58|Z|0726; The Maelstrom!Insta
 C A Humble Request|QID|45652|M|35.87,76.01|Z|0726; The Maelstrom!Instance726|CHAT|N|Go introduce yourself to Magatha Grimtotem.|
 T A Humble Request|QID|45652|M|35.87,76.01|Z|0726; The Maelstrom!Instance726|N|To Magatha Grimtotem.|
 A The Power of Thousands|QID|45706|PRE|45652|M|35.87,76.01|Z|0726; The Maelstrom!Instance726|N|From Magatha Grimtotem.|
-P The Power of Thousands|QID|45706|QO|1|M|33.05,76.51|Z|0726; The Maelstrom!Instance726|N|Take the provided portal to Thousand Needles.|
+P The Power of Thousands|ACTIVE|45706|QO|1|M|33.05,76.51|Z|0726; The Maelstrom!Instance726|N|Take the provided portal to Thousand Needles.|
 T The Power of Thousands|QID|45706|M|42.12,45.09|Z|0064; Thousand Needles|N|To Magatha Grimtotem.|
 A Snakes and Stones|QID|45724|PRE|45706|M|42.12,45.09|Z|0064; Thousand Needles|N|From Magatha Grimtotem.|
 A The Crone's Wrath|QID|45723|PRE|45706|M|42.12,45.09|Z|0064; Thousand Needles|N|From Magatha Grimtotem.|

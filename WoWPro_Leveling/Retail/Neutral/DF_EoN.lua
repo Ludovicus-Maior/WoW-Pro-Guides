@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide("DF_EoN", 'Leveling', 'Zaralek Cavern!Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide, 'Embers of Neltharion')
-WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideQuestTriggers(guide, 72975)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:TopCategory(guide, "End Game")
