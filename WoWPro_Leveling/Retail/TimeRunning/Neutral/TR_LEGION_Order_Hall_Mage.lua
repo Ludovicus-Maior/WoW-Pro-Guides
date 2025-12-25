@@ -142,6 +142,25 @@ A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PR
 $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+A Arcane Hidden Appearance|QID|43787|PRE|42011|M|47.06,50.66|Z|0630; Azsuna!Broken Isles|N|Go Azsuna in the area just outside of Illidari Stand and polymorph a Cliffwing Hippogryph.|T|Cliffwing Hippogryph|
+A Arcane Hidden Appearance|QID|43790|PRE|42011|M|53.22,46.42|Z|0641; Val'sharah|N|Go Val'Sharah in the area just north of the Temple of Elune and polymorph a Wild Dreamrunner|T|Wild Dreamrunner|
+A Arcane Hidden Appearance|QID|43788|PRE|42011|M|47.49,73.61|Z|0650; Highmountain|N|Go to Thundar Totem in Highmountain and then fly up the mountain to find a Highpeak Goat and polymorph it.|T|Highpeak Goat|
+A Arcane Hidden Appearance|QID|43789|PRE|42011|M|62.16,56.84|Z|0634; Stormheim!Broken Isles|N|Go to Stormhiem and in the area around Valdisdall polymorph a Plains Runeforn Calf.|T|Plains Runeforn Calf|
+A Arcane Hidden Appearance|QID|43791|PRE|42011|M|64.12,41.87|Z|0680; Suramar|N|Go to Suramar and in the area near the Crimson Thicket and polymorph a Heartwood Doe.|T|Heartwood Doe|
+A Arcane Hidden Appearance|QID|43828&43799|PRE|43787&43788&43789&43790&43791|S!US|I|NA|N|Go to your Order Hall and walk out into the room, check for an line in your chat "Success!". If you don't see it try another day. If you do, click the Volatile sheep until it explodes|T|Volotile|
+A Arcane Hidden Appearance|QID|43800|PRE|43799|N|Head to Valdisdall in Stormheim, and then search in the Runewood for an Extremely Volatile Stormheim Sheep. Right click it till it explodes.|T|Extremely|
+H Arcane Hidden Appearance|PRE|43800|N|Return to Dalaran.|
+P Arcane Hidden Appearance|PRE|43800|N|Take the Karazhan portal in Dalaran and fly to Elwyn Forest to the Tower of Azora, talk to Cote and go thru the vignette.|FACTION|HORDE|IZ|627|
+P Arcane Hidden Appearance|PRE|43800|N|Take the Stormwind portal in Dalaran and fly to Elwyn Forest to the Tower of Azora, talk to Cote and go thru the vignette.|FACTION|ALLIANCE|IZ|627|
+U Arcane Hidden Appearance|QID|43658|O|U|139558|N|Be in Arcane spec and click the item.|
+A Fire Hidden Appearance|QID|43659|PRE|11997|M|31.94,84.24|Z|0680; Suramar|S!US|L|139559|N|Kill mobs in Suramar until you get this drop. Felsoul Hold has been reported as a great spot.|
+U Fire Hidden Appearance|QID|43659|O|U|139559|N|Use the item, You must be in Fire spec. Grats on the new look.|
+A Frost Hidden Appearance|QID|44384^43660|PRE|42429|S!US|N|Teleport into your Order Hall and walk near the portals. If you get an emote message about crackling, take any portal, If not comeback tomorrow and try again.|
+l Frost Hidden Appearance|QID|43660|PRE|44384|M|70.03,38.24|Z|0525; Frostfire Ridge|L|139560|N|Take any of the portals, it will take you to Frostfire Ridge, run forward and talk to the friendly fire elemental.|
+A Frost Hidden Appearance|QID|43660|O|U|139560|N|Use the item, You must be in Frost spec. Grats on the new look.|
+
 A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
 C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
 t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
@@ -169,8 +188,8 @@ C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Libr
 ;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
 ;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
 ;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. The full quest chain has been moved into it's own guide called Light's Heart.|
-A The Power Within|QID|43503^43505|PRE|43407|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec, the next day.This quest line is covered in the Balance of Power guide|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
+t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. The full quest chain in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|
+A The Power Within|QID|43503^43505|PRE|43407|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec,This appears up to 48 hours after you finish class order campaign. The full questline is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
 F Azurewing Repose|ACTIVE|43503^43505|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
 C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet. The remainder of this questline is covered in the Balance of Power guide.|
 
@@ -184,6 +203,7 @@ A Thrice the Power|QID|44310|M|60.4,36|N|From Meryl Felstorm.|ACH|11174;;true|
 C Thrice the Power|QID|44310|M|60.4,36|N|Choose the remaining artifact.|
 T Thrice the Power|QID|44310|M|60.4,36|N|From Meryl Felstorm.|
 A Artifact Specific Quest|QID|42001^40267^42452|M|60.4,36|N|From Meryl Felstorm.|PRE|44310|
+
 ;ARCANE
 ;A Aluneth, Greatstaff of the Magna|QID|42001|M|59.16,42.16|N|From Meryl Felstorm.|PRE|41085|a
 T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
@@ -303,7 +323,6 @@ A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian!Dungeon|N|Fro
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|81.61,60.26|Z|Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
 T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
 
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ; LVL 110 Quests
