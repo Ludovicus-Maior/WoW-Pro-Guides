@@ -51,39 +51,7 @@ C Salanar the Horseman|QID|43539|M|49.66,51.25|NC|N|Use the scouting map to send
 C Tech It Up A Notch|QID|43268|M|47.73,53.89|NC|N|Go to Archivist Zubashi and select which class hall upgrade you want.|
 T Tech It Up A Notch|QID|43268|M|49.66,51.25|N|To Siouxsie the Banshee.|
 t Salanar the Horseman|QID|43539|M|49.66,51.25|N|To Siouxsie the Banshee Whenever you exhaust a ghoul, you can (and should) recruit more over at Dark Summoner Marogh.|
-R Dalaran|QID|44009|M|24.67,33.69|NC|N|The portal is out by the flightmaster.|PRE|43539|
-;light's heart intro questline
-A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|PRE|43266|
-C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|0627; Dalaran!Broken Isles|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
-C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to see and then straight down to invistigate the site on the ocean floor.|
-C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
-C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-R Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|TZ|Krasus' Landing|
-P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
-T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|0629; Aegwynn's Gallery@Dalaran|N|Go down the first set of stairs and then to your right to find Khadgar and turn this quest in.|
-A Bringer of the Light|QID|44004|M|26.84,35.05|Z|0629; Aegwynn's Gallery@Dalaran|N|From Archmage Khadgar.|PRE|44009|
-P The Exodar|QID|44004|M|28.69,33.55|Z|0629; Aegwynn's Gallery@Dalaran|N|Take Khadgar's portal to enter a scenario.|ACTIVE|44004|
-C The Prophet and the Butcher|QID|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
-C In Defense of The Exodar|QID|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
-C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
-A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
-C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
-C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
-T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
-K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RARE|
-C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
-t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
-C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-C Return to the Prophet|QID|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
-C The Light's Heart|QID|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
-C A Long Way Down|QID|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
-C Revelations|QID|44004|SO|6|M|53.39,38.91|Z|TheExodar|N|Start the fight.  When Velen says to STOP, ignore him and continue killing the fel annihilator *even though Prophet Velen is also fighting you now*.|
-U Return to Khadgar|QID|44004|M|57.82,40.96|Z|TheExodar|U|140319|N|Use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|ACTIVE|44004|
-T Bringer of the Light|QID|44004|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-A Light's Charge|QID|44153|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44004|
-T Light's Charge|QID|44153|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to your order hall and return to Light's Heart (table in alcove adjacent Soul Forge on the upper level).|
-;back to DK quests
+
 R Dalaran Portal|QID|99999|M|24.67,33.69|N|The Portal is near the flightmaster.|PRE|44550|ACTIVE|39718^39864^39731^39733^39735|
 A The Ruined Kingdom|QID|42533|M|50.85,50.52|N|From Highlord Darion Mograine.|PRE|43539|
 R Dalaran Portal|QID|42533|M|24.67,33.69|N|The Portal is near the flightmaster.|ACTIVE|42533|
@@ -127,7 +95,27 @@ U Knights of the Ebon Blade|ACTIVE|44082|M|53.29,68.53|Z|The Heart of Acherus@Br
 T Knights of the Ebon Blade|QID|44082|M|53.29,68.53|Z|The Heart of Acherus@BrokenShore|N|To Korgaz Deadaxe.|
 A The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|NA|N|From Salanar the Horseman. This is a dungeon quest, so queue or find friends.|PRE|43571|
 t The Nightmare Lash|QID|43572|M|98.8,59.2|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|
-;upon first hitting 45
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+N Blood Hidden Appearance|QID|43646|PRE|40740|L|139546|S!US|N|Blood comes from final chest in Whithered army training. (the one  you loot after you leave, not one of the ones you send out.)|
+N Blood Hidden Appearance|QID|43646|PRE|40740|O|U|139546|N|Use the item to learn the appearance. You must be in Blood spec.|
+N Frost Hidden Appearance|QID|43647|PRE|38990|L|139547|S!US|N|The item drops from the World Boss, The Soultakers (100%)|; also not for remix, but chance in ICC raid
+N Frost Hidden Appearance|QID|43647|PRE|38990|O|U|139547|N|Use the item to learn the appearance. You must be in Frost spec.|
+N Unholy Hidden appearance|QID|44188|PRE|40935^40987|S!US|N|Use your skill Apocolypse to summon Army of the Dead, you have a chance to summon an extra ghoul, which will drop a book when it expires. Keep at it until you get one (but you don't actually have to read it). Training Dummys work just as well as real mobs.|
+N Unholy Hidden appearance|QID|43648|PRE|44188|M|39.45,66.43|Z|0648; Hall of Command@Acherus: The Ebon Hold|L|139548|N|There is a trapdoor in your order hall at marked location, click it to go to a special instance in Icecrown Citadel and kill Stitchwork. Loot for item.|
+N Unholy Hidden appearance|QID|43648|PRE|44188|O|U|139548|N|Use the item to learn the appearance. You must be in Unholy spec.|
+
+;2nd spec artifact
+A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|
+C Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the artifact quest you want to pursue next.|
+T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|To Duke Lankral.|
+A Artifact specific quest|QID|40740^38990^40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|
+;3rd spec artifact
+A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACTIVE|-38990&-40935&-40987|
+C A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact and then pick up the quest for it.|
+T A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
+
+;upon hitting 45
 A Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|From Quartermaster Ozorg.|LVL|45|
 T Armor Fit For A Deathlord|QID|44217|M|43.76,37.31|N|To Quartermaster Ozorg.|
 ;lvl 45 DK Campaign
@@ -152,7 +140,7 @@ A Advancing the War Effort|QID|43573|M|49.68,51.30|N|From Siouxsie the Banshee.|
 C Advancing the War Effort|QID|43573|S!US|N|Go do world quests.|
 t Advancing the War Effort|QID|43573|M|49.68,51.30|N|To Siouxsie the Banshee.|IZ|648|
 A A Thirst For Blood|QID|44690|M|63.17,69.42|N|From Lord Thorval.|PRE|43573|
-B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you don't already have them.|L|124124 5|ACTIVE|44690|
+;B Blood of Sargeras|QID|44690|M|63.17,69.42|N|Acquire Blood of Sargeras if you don't already have them.|L|124124 5|ACTIVE|44690|
 T A Thirst For Blood|QID|44690|M|63.17,69.42|N|To Lord Thorval.|
 A Maul of the Dead|QID|43574|M|36.19,56.14|NA|Z|The Heart of Acherus@BrokenShore|N|From Salanar the Horseman. This quest is completed in the Maw of Souls dungeon instance.|PRE|43573|
 t Maul of the Dead|QID|43574|M|36.19,56.14|Z|The Heart of Acherus@BrokenShore|N|To Salanar the Horseman.|IZ|648|
@@ -182,76 +170,9 @@ A Champion: High Inquisitor Whitemane|QID|44245|M|44.72,72.88|N|From/To High Inq
 A Eye of Azshara: The Frozen Soul|QID|44282|M|58.27,30.86|NA|N|From Amal'thazad. This quest is completed in the Eye of Azshara dungeon instance.|PRE|43928|
 t Eye of Azshara: The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|
 A Champion: Amal'thazad|QID|44247|M|58.20,31.00|N|From/To Amal'thazad.|PRE|44282|
-A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|45|PRE|40890|
-C Goddess Watch Over You|QID|44338^44338|S!US|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|40890|IZ|627|
-R Death Gate|QID|44448|M|28.43,40.38|Z|0627; Dalaran!Broken Isles|N|Return to your order hall.|ACTIVE|44448|
-C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
-;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
-;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
-;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.51,48.29|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-;lights heart - post 45
-A Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart|PRE|44448|
-F Lorlathil|QID|44464|M|25.73,28.78|N|At Grimwing.|ACTIVE|44464|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart back in your order hall.|
-;lights heart - post 45,requires AK>=2
-A An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart, Requires Infinate Knowledge >=2.|PRE|44464|;no way to limit this showing until you get AK=2
-F Garden of the Moon|QID|44466|M|25.73,28.78|N|At Grimwing.|ACTIVE|44466|
-R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
-C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan and Cenarius.|
-T An Unclear Path|QID|44466|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
-A Ravencrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44466|
-F Garden of the Moon|ACTIVE|44479|M|25.73,28.78|N|At Grimwing.|
-R Black Rook Hold|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|0641;Val'sharah|N|Travel to Black Rook Hold.|
-C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path.|
-C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
-C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|
-C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|0793; Black Rook Hold!Instance|N|Rt Click to autoattack the infernals and then Xalian Felblaze. After a bit, you will a button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
-C No Man An Island|QID|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|0793; Black Rook Hold!Instance|N|Activate the remaining portals.|
-A Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|
-C Felspawns of Lothros|QID|44414|M|40.64,53.03|Z|793;BlackRookHold!Instance|N|Go down into the Mausoleum and help Jared kill Lothros.|
-T Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|To Jared Shadowsong. If Jared dies, (he doesn't seem to respawn anymore), you can either skip the next two quests, or exit the instance and reset instances, then restart the Ravecrest Scenario.|
-A The Red Axe|QID|44415|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|PRE|44414|
-C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|0793; Black Rook Hold!Instance|N|Click on the unstable portals to close them. You need to click all 3 orange portals before you do the last pink portal.|
-T The Red Axe|QID|44415|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red.|ACTIVE|44479|
-A Hunter of Night|QID|44416|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|From Broxigar the Red.|ACTIVE|44479|PRE|44415|
-C Hunter of Night|QID|44416|M|43.0,50.29|Z|0793; Black Rook Hold!Instance|N|Kill the demon.|
-T Hunter of Night|QID|44416|M|41.61,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red .|
-C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|0793; Black Rook Hold!Instance|N|Click the last portal.|
-C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|Z|0793; Black Rook Hold!Instance|N|You have one more button to use. (If you don't have [color=33fff9] Fury of the Cosmos [/color] on your vehicle bar, sacrifice your moonguard a few more times.) Go destroy the Nihilam Portal with the new ability and kill Balaadur.|
-C When Good Men Do Nothing|QID|44479|SO|7|M|42.8,48.4|Z|0793; Black Rook Hold!Instance|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
-T Ravencrest's Legacy|QID|44479|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|To Light's Heart, back in your order hall.|
-;light's heart
-A In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Infinate Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
-R Temple of Zin-Malor|QID|44480|M|35.1,49.9|Z|Azshara|U|249230|N|Use provided scroll to get to Azshara, then run forward into the temple.|ACTIVE|44480|
-C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your [color=33fff9] Extra Action Button [/color] to see Xe'ra's message.|
-T In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481^44496^44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44480|
-P Black Temple|ACTIVE|44481^44496^44497|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley.|IZ|759|
-C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481^44496^44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
-A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496^44497|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|;Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge
-F Illidari Stand|QID|45174|M|25.55,28.86|N|At Grimwing.|ACTIVE|45174|
-T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
-t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
-A The Power Within|QID|43496|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
-F Azurewing Repose|ACTIVE|43496|M|25.55,28.86|N|At Grimwing.|
-T The Power Within|QID|43496|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
-;2nd spec artifact
-A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|
-C Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the artifact quest you want to pursue next.|
-T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|To Duke Lankral.|
-A Artifact specific quest|QID|40740^38990^40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|
-;3rd spec artifact
-A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990&-40935&-40987|
-C A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
-T A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
+A The Power Within|QID|43496^43501^43503^43505|PRE|43407|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day. This appears up to 48 hours after you finish class order hall campaign. This is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).
+
 ;BLOOD
 ;A The Dead and the Damned|QID|40740|M|73.03,46.79|Z|0627; Dalaran!Broken Isles|N|From UI (Lich King).|PRE|40715|
 C The Dead and the Damned|QID|40740|NC|QO|1|M|73.35,47.90|Z|0627; Dalaran!Broken Isles|N|Optional: Ride Zeomus from Krasus' Landing to the Broken Shore|
@@ -312,6 +233,7 @@ C The Call of Vengeance|QID|40935^40987|QO|1|M|69.56,26.63|Z|Karazhan Catacombs|
 C The Call of Vengeance|QID|40935^40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
 C The Call of Vengeance|QID|40935^40987|QO|3|M|63.38,69.31|Z|0627; Dalaran!Broken Isles|NC|N|Take the Death Gate to Acherus|
 T The Call of Vengeance|QID|40935^40987|M|50.85,50.52|N|To Highlord Darion Mograine.|
+
 ; class hall after finishing first artifact
 ; Hall of Command@BrokenShore is the bottom floor, with flight master
 ; The Heart of Acherus@BrokenShore is the top floor
@@ -327,8 +249,6 @@ A Our Next Move|QID|39799|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|39832|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
 
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
-
 A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|PRE|39799|
 f Acherus: The Ebon Hold|ACTIVE|42449|M|25.61,28.81|N|At Grimwing.|
 P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|
@@ -340,16 +260,10 @@ A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|1; Durotar|N|From Thassarian.|PR
 C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|1; Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|EAB|
 P Acherus: The Ebon Hold|QID|42484|M|47.33,17.83|CC|Z|1; Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
 T The Firstborn Rises|QID|42484|M|50.85,50.52|N|To Highlord Darion Mograine.|
-J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|TR_EmmAzsuna|
-J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_LudoStormheim|FACTION|ALLIANCE|
-J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_EmmStormheim|FACTION|Horde|
-J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|TR_EmmValsharah|
-J On to Highmountain|QID|39733|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|TR_EmmHighmountain|
-J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|Blanc_Suramar|
 
 ;Legionfall Champion questline
 A Making Preparations|QID|45240|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|ACTIVE|47137|
-C Meet with Minerva|QID|45240|M|24.13,27.68|Z|The Heart of Acherus@BrokenShore|NC|N|Click on the Deathgate behind Darion and meet with Minerva.|
+C Meet with Minerva|ACTIVE|45240|M|24.13,27.68|Z|The Heart of Acherus@BrokenShore|NC|N|Click on the Deathgate behind Darion and meet with Minerva.|IZ|647|
 T Making Preparations|QID|45240|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 A Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
 A Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45240|
@@ -359,7 +273,7 @@ C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|US|N|Finish raisi
 T Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 T Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398&45399|
-P Death-gate|QID|45331|M|48.22,18.93|Z|PitofSaronDK|N|Take the provided Deathgate back to Acherus.|ACTIVE|45331|
+P Death-gate|ACTIVE|45331|M|48.22,18.93|Z|PitofSaronDK|N|Take the provided Deathgate back to Acherus.|IZ|823|
 T Return to Acherus|QID|45331|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A The Peak of Bones|QID|44775|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|45331|
 C The Peak of Bones|QID|44775|M|25.63,28.85|CHAT|N|Talk to Grimwing for a ride to Thorim's Peak.|
@@ -374,8 +288,8 @@ T Thorim's Flame|QID|46305|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
 A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783&46305|
 C The Bonemother|QID|44787|QO|1|M|51.26,84.38|Z|Stormheim|N|Back down the mountain to where you met Minerva. Click on Thorim's Beacon to light it.|
 C The Bonemother|QID|44787|QO|2|M|51.26,84.38|Z|Stormheim|N|Kill Daumyr.|
-C The Bonemother|QID|44787|QO|3|M|51.26,84.38|Z|Stormheim|N|Use your extra action button to raise Daumyr.|
-C The Bonemother|QID|44787|QO|4|M|51.26,84.38|Z|Stormheim|N|Hop on Daumyr for a ride back to your order hall. (vehicle arrow)|
+C The Bonemother|QID|44787|QO|3|M|51.26,84.38|Z|Stormheim|EAB|N|Use your extra action button to raise Daumyr.|
+C The Bonemother|QID|44787|QO|4|M|51.26,84.38|Z|Stormheim|V|N|Hop on Daumyr for a ride back to your order hall.|
 T The Bonemother|QID|44787|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A On Daumyr's Wings|QID|45243|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|44787|
 C On Daumyr's Wings|QID|45243|M|21.53,31.86|Z|The Heart of Acherus@BrokenShore|CHAT|N|Ask Daumyr for a ride to Broken Shore.|
@@ -385,13 +299,13 @@ C We Ride!|QID|45103|QO|1|M|51.56,21.18|Z|Broken Shore|CHAT|N|Ask Daumyr for ano
 C We Ride!|QID|45103|QO|2|M|51.56,21.18|Z|Broken Shore|N|Starts standard bombing run.|
 T We Ride!|QID|45103|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A Champion: Minerva Ravensorrow|QID|46050|M|25.51,34.38|Z|The Heart of Acherus@BrokenShore|N|From/To Minerva Ravensorrow.|PRE|45103|
-A Further Advancement|QID|46789|PRE|45103|M|49.65,51.25|N|From Siouxsie the Banshee.|
+;A Further Advancement|QID|46789|PRE|45103|M|49.65,51.25|N|From Siouxsie the Banshee.|
 C Further Advancement|QID|46789|M|49.65,51.25|NC|N|At Archivist Zubashi. Talk to him even if you can't afford the next advancement.|
 T Further Advancement|QID|46789|M|49.65,51.25|N|To Siouxsie the Banshee.|
 F Deliverance Point|QID|47137|M|25.73,28.78|N|At Grimwing.|ACTIVE|47137|
 J Back to Broken Shore|QID|47137|N|Head back to Deliverance point to turn in Champions of Legionfall. The Broken Shore guide will auto load when you close this step.|GUIDE|Emm_BrokenShore|
 ;class mount quest
-A Amal'thazad's Message|QID|46719|M|44.0,62.6|Z|Broken Shore|ACH|42647;;true|N|From Dread Commander Thalanor, after completing [Breaching the Tomb].|;changed to the TR Ach... this may not be right
+A Amal'thazad's Message|QID|46719|PRE|46050|M|44.0,62.6|Z|Broken Shore|N|From Dread Commander Thalanor, after completing [Breaching the Tomb].|
 T Amal'thazad's Message|QID|46719|M|58.25,31.11|N|To Amal'thazad.|
 A Frozen Memories|QID|46720|M|58.25,31.11|Z|Hall of Command@BrokenShore|N|From Amal'thazad.|PRE|46719|
 C Frozen Memories|QID|46720|M|55.54,27.75|Z|Hall of Command@BrokenShore|QO|1|NC|N|Step onto the portal to Amal'thazod's right.|
