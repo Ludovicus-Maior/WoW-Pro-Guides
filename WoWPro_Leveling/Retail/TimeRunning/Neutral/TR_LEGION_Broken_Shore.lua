@@ -177,7 +177,6 @@ t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
 t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
 t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
 C Intolerable Infestation|QID|46252|US|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
-t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 C Relieved of Their Valuables|QID|46769|US|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
 C Take Out the Head...|QID|46250|US|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
@@ -319,27 +318,27 @@ A The Gates Are Closed|QID|46340|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45525|
 
 ;Bradensbrook Investigation|QID|46078;47003;47004;47005;47006
 F Bradensbrook|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|46078^47003^47004^47005^47006|
-T Bradensbrook Investigation|QID|46078^47003^47004^47005^47006|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
-A Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46078^47003^47004^47005^47006|
-C Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|NC|N|Use your healing abilities to heal and/or cure poison to the defenders lying on the ground just outside of Bradensbrook.|
-T Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
-A Shadowsong's Return|QID|46082|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46079|
-T Shadowsong's Return|QID|46082|M|39,58.2|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Cutting off the Heads|QID|46106|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
-A Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
-C Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|S|N|You may want to switch to your DPS spec (if possible) for this step. Otherwise just be careful and Jerod will help you to kill the Risen spirits.|
-C Cutting off the Heads|QID|46106|M|37.2,58.4|Z|Val'sharah|QO|2|N|Kill Nethos Starwalker.|T|Nethos Starwalker|
-C Cutting off the Heads|QID|46106|M|37,61.4|Z|Val'sharah|QO|1|N|Kill Disa Trueshaft.|T|Disa Trueshaft|
-C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|QO|3|N|Kill Tael'thos the Cutter.|T|Tael'thos the Cutter|
-C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing the risen spirits.|
-T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
-T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
-C Source of the Corruption|QID|46107|QO|1|M|38.55,54.68|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68|N|Jarod tries to reason with them. Kill the ones that can't be released.|
-C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
-T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
+T Bradensbrook Investigation|QID|46078^47003^47004^47005^47006|M|42.4,59|Z|0641; Val'sharah|N|To Mayor Heathrow.|
+A Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|N|From Mayor Heathrow.|PRE|46078^47003^47004^47005^47006|
+C Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|NC|N|Use your healing abilities to heal and/or cure poison to the defenders lying on the ground just outside of Bradensbrook.|
+T Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|N|To Mayor Heathrow.|
+A Shadowsong's Return|QID|46082|M|42.4,59|Z|0641; Val'sharah|N|From Mayor Heathrow.|PRE|46079|
+T Shadowsong's Return|QID|46082|M|39,58.2|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A Cutting off the Heads|QID|46106|M|39,58.2|Z|0641; Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
+A Quieting the Spirits|QID|46080|M|39,58.2|Z|0641; Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
+C Quieting the Spirits|QID|46080|M|39,58.2|Z|0641; Val'sharah|S|N|You may want to switch to your DPS spec (if possible) for this step. Otherwise just be careful and Jerod will help you to kill the Risen spirits.|
+C Cutting off the Heads|QID|46106|M|37.2,58.4|Z|0641; Val'sharah|QO|2|N|Kill Nethos Starwalker.|T|Nethos Starwalker|
+C Cutting off the Heads|QID|46106|M|37,61.4|Z|0641; Val'sharah|QO|1|N|Kill Disa Trueshaft.|T|Disa Trueshaft|
+C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|0641; Val'sharah|QO|3|N|Kill Tael'thos the Cutter.|T|Tael'thos the Cutter|
+C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|0641; Val'sharah|US|N|Finish killing the risen spirits.|
+T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
+T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A Source of the Corruption|QID|46107|M|39.2,61.4|Z|0641; Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
+C Source of the Corruption|QID|46107|QO|1|M|38.33,53.35|Z|0641; Val'sharah|N|Travel to Hero's Rest (outside of Blackrook Hold).|
+C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68|Z|0641; Val'sharah|N|Jarod tries to reason with them. Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|0641; Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
+T Source of the Corruption|QID|46107|M|38.8,51.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|0641; Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
 
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
 F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
@@ -368,7 +367,7 @@ A A Triumphant Report|QID|45841|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|P
 
 ;Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059
 C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|1|M|41.27,37.02|Z|627;Dalaran|CHAT|N|Ask Professor Pallin, in the inscription shop if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|2|M|49.45,73.10|Z|627;Dalaran|CHAT|N|Ask Icks in the shop next to the North Bank if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|2|M|49.45,73.10|Z|627;Dalaran|CHAT|N|Ask Icks in the shop next to the South Bank if he has seen Levia.|
 C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|3|M|49.78,40.15|Z|627;Dalaran|CHAT|N|Ask Amasi Azuregaze in the Legerdemain Lounge if she has seen Levia.|
 C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|4|M|46.34,40.16|Z|627;Dalaran|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
 T Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|M|28.46,48.92|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
