@@ -73,10 +73,10 @@ C Rescue Mission|QID|40419|QO|1|M|32.27,32.41|Z|Broken Shore|N|Speak to Vereesa 
 C Rescue Mission|QID|40419|QO|2|M|16.20,52.47|Z|Broken Shore|N|Travel through the portal to Niskara.|NC|
 C The Rescue|ACTIVE|40419|SO|1|M|20.65,50.35|Z|0714; Niskara!Instance714|N|Survey the rise ahead and eliminate Legion patrols.|
 C Stop the Summoners|ACTIVE|40419|SO|2|M|23.38,50.83|Z|0714; Niskara!Instance714|N|Defeat the Eredar Summoners before they bring in more demons.|
-C Search for Your Allies|ACTIVE|40419|SO|3|0714; Niskara!Instance714|N|Go deeper into Legion territory to locate Alleria and Orestes.|
-C Defeat the Hound Mistress|QID|40419|SO|4|M|39.54,45.46|0714; Niskara!Instance714|N|Slay Mistress Torvis and save Orestes.|
-C Quiet the Herald|ACTIVE|40419|SO|5|M|49.78,57.31|0714; Niskara!Instance714|N|Enter the cathedral and defeat Herald Xarbizuld.|
-C End the Inquisition|ACTIVE|40419|SO|6|M|63.99,59.35|0714; Niskara!Instance714|N|Defeat High Inquisitor Qormaladon and his guardian eyes.|
+C Search for Your Allies|ACTIVE|40419|SO|3|Z|0714; Niskara!Instance714|N|Go deeper into Legion territory to locate Alleria and Orestes.|
+C Defeat the Hound Mistress|QID|40419|SO|4|M|39.54,45.46|Z|0714; Niskara!Instance714|N|Slay Mistress Torvis and save Orestes.|
+C Quiet the Herald|ACTIVE|40419|SO|5|M|49.78,57.31|Z|0714; Niskara!Instance714|N|Enter the cathedral and defeat Herald Xarbizuld.|
+C End the Inquisition|ACTIVE|40419|SO|6|M|63.99,59.35|Z|0714; Niskara!Instance714|N|Defeat High Inquisitor Qormaladon and his guardian eyes.|
 C Where Is She?|ACTIVE|40419|SO|7|M|71.51,73.67|Z|0714; Niskara!Instance714|N|Help Vereesa search the Inquisitor's overlook for Alleria.|
 C Rescue Mission|QID|40419|QO|4|M|71.38,73.51|Z|0714; Niskara!Instance714|N|Take Thas'dorah|NC|
 C Rescue Mission|QID|40419|QO|5|M|70.90,72.29|Z|0714; Niskara!Instance714|N|Talk to Vereesa and leave Niskara|CHAT|
@@ -139,13 +139,13 @@ A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|42.62,46.84|N|From the 
 T The Campaign Begins|QID|40959|M|42.62,46.84|N|To Tactician Tinderfell.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
-B Beastmaster Hidden Artifact Appearance|QID|43655|PRE|42185|M|45.82,68.18|Z|0619; Broken Isles|L|267012|N|The very easiest Hidden appearance to get! Buy [Color=7eff8a] Designs of the Grand Architect [/color] from Horos in the Infinate Bazaar for 10,000 bronze.|
+B Beastmaster Hidden Artifact Appearance|QID|43655|PRE|42185|M|45.82,68.18|Z|0619; Broken Isles|L|267012|S!US|N|The very easiest Hidden appearance to get! Buy [Color=7eff8a] Designs of the Grand Architect [/color] from Horos in the Infinate Bazaar for 10,000 bronze.|
 U Beastmaster Hidden Artifact Appearance|QID|43655|M|45.82,68.18|Z|0619; Broken Isles|O|U|267012|N|Use the item to get the appearance, you must be in Beastmaster spec.|
-A Marksman Hidden Artifact Appearance|QID|43656|PRE|40419|N|This is a bit more work. It reqires revered with Court of Farondis, and then is purchased from their quartermaster for 1700 gold.|REP|1900;Court of Farondis;Hated-honored|
-B Marksman Hidden Artifact Appearance|QID|43656|PRE|40419|N|Congrats, you have the faction, now head to the Crumbled Palace and buy [Color=7eff8a] Syriel Crescemtfall's Notes: Ravenguard [/color] from the Court of Farondis quartermaster for 1700 gold.|L|139576|REP|1900;Court of Farondis;revered-exalted|
-U Marksman  Hidden Artifact Appearance|QID|43656|O|U|139576|N|Use the item to get the appearance, you must be in Marksman spec.|
-A Survival Hidden Artifact Appearance|QID|43657|PRE|N|Survival's hidden appearance is very RNG dependant. It is a random drop from Ursoc in the Emerald Nightmare Raid on any difficulty.|L|139577|
-U Survival  Hidden Artifact Appearance|QID|43657|O|U|139577|N|Use the item to get the appearance, you must be in Survival spec.|
+A Marksman Hidden Artifact Appearance|QID|43656|PRE|40419|S!US|N|This is a bit more work. It requires revered with Court of Farondis.|REP|Court of Farondis;1900;hostile-honored|
+B Marksman Hidden Artifact Appearance|QID|43656|PRE|40419|M|46.90,41.44|Z|0630; Azsuna!Broken Isles|N|Congrats, you have the faction, now head to the Crumbled Palace and buy [Color=7eff8a] Syriel Crescentfall's Notes: Ravenguard [/color] from the Court of Farondis quartermaster for 1700 gold.|L|139556|REP|Court of Farondis;1900;revered-exalted|
+U Marksman  Hidden Artifact Appearance|QID|43656|O|U|139556|N|Use the item to get the appearance, you must be in Marksman spec.|
+A Survival Hidden Artifact Appearance|QID|43657|PRE|40385|S!US|N|Survival's hidden appearance is very RNG dependant. It is a random drop from Ursoc in the Emerald Nightmare Raid on any difficulty.|L|139557|
+U Survival  Hidden Artifact Appearance|QID|43657|O|U|139557|N|Use the item to get the appearance, you must be in Survival spec.|
 
 P Krasus' Landing|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
 ;Class hall development lvl 101 to 109
@@ -270,8 +270,8 @@ A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Arc
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
 t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 ;not in remix B Arkhana|ACTIVE|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
-F Trueshot Lodge|QID|44448|M|72.93,41.13|Z|Dalaran@Dalaran70|N|Talk to Talua for a quick flight to Trueshot Lodge.|
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44337^44338|
+F Trueshot Lodge|ACTIVE|44448|M|72.93,41.13|Z|Dalaran@Dalaran70|N|Talk to Talua for a quick flight to Trueshot Lodge.|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39985^44455|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomaly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
@@ -293,7 +293,7 @@ A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|Z|Stormheim|N|From/To Huntsma
 A Ready to Work|QID|42399|M|80.13,66.22|Z|Stormheim|N|From Huntsman Blake.|PRE|42397|
 T Ready to Work|QID|42399|M|43.39,26.40|N|To Emmarel Shadewarden, back at her original spot by the fire in Trueshot lodge.|
 A Missing Mages|QID|42400|M|43.39,26.40|N|From Emmarel Shadewarden.|PRE|42399|
-T Missing Mages|QID|42400|M|38.08,47.09|Z|Suramar|N|To Archmage Khadgar. You probably want to do the opening up of Suramar questchain with Khadgar first if you haven't yet. (starts with Goddess Watch Over You)|
+T Missing Mages|QID|42400|M|38.08,47.09|Z|Suramar|N|To Archmage Khadgar. You probably want to do the opening up of Suramar questchain with Khadgar first if you haven't yet. (starts with Khadgar's Discovery)|
 A The Scent of Magic|QID|42401|M|38.08,47.09|Z|Suramar|N|From Archmage Khadgar.|PRE|42400|
 C The Scent of Magic|QID|42401|M|33.14,57.01|Z|Suramar|N|Follow Baron as he sniffs his way towards the missing mages.|
 T The Scent of Magic|QID|42401|M|33.14,57.01|Z|Suramar|N|To Archmage Khadgar.|
@@ -365,18 +365,15 @@ C Defeat Czaadym|ACTIVE|42659|SO|4;1|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|
 C Defeat Kreenam|ACTIVE|42659|SO|4;2|M|51.08,52.70|Z|TheVioletHoldAcquisition/1|N|Kill Kreenam.|
 C Defeat Hakkar|ACTIVE|42659|SO|5|M|45.56,49.83|Z|TheVioletHoldAcquisition/1|N|Kill Hakkar. If you are worried about adds you can take him down into the room under the hole in the floor, but as a beastmaster without barrage, that wasn't necessery.|
 C Final Stage|ACTIVE|42659|SO|6|M|50.83,66.58|Z|TheVioletHoldAcquisition/1|CHAT|N|Click on Khadgar and listen to his speech.|
-A Champion: Halduron Brightwing|QID|42415|M|49.65,65.51|Z|TheVioletHoldAcquisition/1|N|From/To Halduron Brightwing. If you miss him in the instance, you can find him on his watchtower.|PRE|42133|
+A Champion: Halduron Brightwing|QID|42415|M|49.65,65.51|Z|TheVioletHoldAcquisition/1|N|From/To Halduron Brightwing.|PRE|42133|IZ|168|;may be wrong zone id, didnt get a copy of the zone name/# since the old style worked -- so I didnt realize i needed it. then when trying to click on Halduron to get the quest, I managed to click on the portal (they kinda overlap depending on the angle) so added the second "A" step below showing where he is in Trueshot Lodge.
 P Trueshot Lodge|QID|42659|M|50.89,65.05|Z|TheVioletHoldAcquisition/1|N|Take the portal Khadgar has provided.|ACTIVE|42659|
 T In Defense of Dalaran|QID|42659|M|48.92,39.08|N|To Emmarel Shadewarden.|
+A Champion: Halduron Brightwing|QID|42415|M|49.83,39.46|Z|0739;Trueshot Lodge!Highmountain|N|From/To Halduron Brightwing.|PRE|42133|
 A A Hero's Weapon|QID|43423|M|47.62,49.34|N|From Emmarel Shadewarden.|PRE|42659|
 C A Hero's Weapon|QID|43423|M|47.96,51.30|N|Go stand in the indicated spot and use the provided extra action button.|
 T A Hero's Weapon|QID|43423|M|47.62,49.34|N|To Emmarel Shadewarden.|
 ; post class campaign completion
 A The Power Within|QID|43496|M|47.88,53.34|N|From Image of Kalec. This appears up to 48 hours after you finish class order campaign. The full questline is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).
-
-F Azurewing Repose|QID|43496|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|43496|
-T The Power Within|QID|43496|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
 
 ;2nd artifact quest
 A Continuing the Legend|QID|44043|M|43.37,26.30|N|From Emmarel Shadewarden.|PRE|40959|
@@ -390,15 +387,15 @@ T One Last Adventure|QID|44366|M|43.40,26.37|N|To Emmarel Shadewarden.|
 A Artifact specific quest|QID|41540^41541^41542|M|43.39,26.28|N|From Emmarel Shadewarden. This will change your spec if you are not in the spec, don't forget to pick talents and an appropriate weapon.|PRE|44366|
 
 ;legionfall additions
-A Devastating Effects|QID|45551|M|46.41,34.91|N|From Shandris Feathermoon.|ACTIVE|47137|
-F Meridil|QID|45551|M|35.81,27.63|N|At Odan Battlebow...or travel to Suramar via your own methods.|ACTIVE|47137|
-T Devastating Effects|QID|45551|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|PRE|45552|
+A Devastating Effects|QID|45551|M|46.41,34.91|N|From Shandris Feathermoon.|PRE|47137|
+F Meredil|ACTIVE|45551|M|35.81,27.63|N|At Odan Battlebow...or travel to Suramar via your own methods.|
+T Devastating Effects|QID|45551|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|
 A Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45551|
 C Soothing Wounds|QID|45552|QO|1|M|54.60,48.74|Z|Suramar|NC|N|Move to one of the purplish/white sparkly leylines on the ground and use your extra action button. When that leyline is exhausted, move to the next until you have foraged all the manaroot needed.|
 C Soothing Wounds|QID|45552|QO|2|M|52.23,48.85|Z|Suramar|NC|N|Return to D'Bynn and click on him.|
 T Soothing Wounds|QID|45552|M|52.23,48.85|Z|Suramar|N|To D'Bynn.|
 A The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|N|From D'Bynn.|PRE|45552|
-C The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|NC|N|Click on D'Bynn for a right to Nighthuntress Syrenne.|
+C The Nighthuntress Beckons|QID|45553|M|52.23,48.85|Z|Suramar|NC|N|Click on D'Bynn for a ride to Nighthuntress Syrenne.|
 T The Nighthuntress Beckons|QID|45553|M|57.48,44.79|Z|Suramar|N|To Nighthuntress Syrenne.|
 A Taking Control|QID|45554|M|57.48,44.79|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45553|
 C Taking Control|QID|45554|QO|1|M|60.87,49.95|Z|Suramar|N|Kill Torturer Relyn and loot his orb.|T|Torturer Relyn|
@@ -412,32 +409,34 @@ T Felbound Beasts|QID|45555|M|59.41,41.22;55.78,42.20|CS|Z|Suramar|N|To Nighthun
 A Ready to Strike|QID|45556|M|55.78,42.20|Z|Suramar|N|From Nighthuntress Syrenne.|PRE|45555|
 F Vengeance Point, Broken Shore|ACTIVE|45556|M|64.31,41.91|Z|Suramar|N|At Ancient Cloudwing. Hearth, Fly or otherwise travel to the Broken Shore.|
 T Ready to Strike|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
-A Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
+A Unnatural Consequences|QID|45557|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
 A Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45556|
 C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|S|NC|N|As you are travelling to kill Nighthuntress Lexera, click on the fel infected animals you come across.|
-C Unnatural Consequences|QID|45556|M|42.63,36.47;41.83,34.14|CS|Z|Broken Shore|N|Kill Nighthuntress Lexera.|T|Nighthuntress Lexera.|
+K Nighthuntress Lexera|ACTIVE|45557|QO|1|M|42.67,36.61;41.83,34.14|CS|Z|Broken Shore|N|Kill Nighthuntress Lexera.|T|Nighthuntress Lexera.|
 C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|US|NC|N|Finish applying the salve as you travel back to Syrenne.|
-T Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
+T Unnatural Consequences|QID|45557|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 T Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557&46060|
-F Delivererance Point|QID|46235|M|44.77,61.12|Z|Broken Shore|N|Travel to Deliverance Point to meet up with Nighthuntress Syrenne.|ACTIVE|46235|
+R Deliverance Point|QID|46235|M|44.77,61.12|Z|Broken Shore|N|Travel to Deliverance Point to meet up with Nighthuntress Syrenne.|ACTIVE|46235|
 T Secured Surroundings|QID|46235|M|44.77,61.12|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 A Champion: Nighthuntress Syrenne|QID|46048|M|44.77,61.12|Z|Broken Shore|N|From/To Nighthuntress Syrenne.|PRE|46235|
-A Further Advancement|QID|46783|M|41.46,21.72|N|From Tactician Tinderfell, next time you are in your order hall.|PRE|46235|
-C Further Advancement|QID|46783|M|58.64,51.10|N|Go see Survivalist Bahn and pick your next order hall advancement.|
-A Further Advancement|QID|46783|M|41.46,21.72|N|To Tactician Tinderfell.|
+
 ;mount quest added 6/6/17
+A A Golden Ticket|QID|46336|PRE|46048|M|43.74,63.40|Z|0646; Broken Shore|N|From Nimi Brightcastle.|
+;NOT IN REMIX A Further Advancement|QID|46783|M|41.46,21.72|N|From Tactician Tinderfell, next time you are in your order hall.|PRE|46235|
+C Further Advancement|QID|46783|M|58.64,51.10|N|Go see Survivalist Bahn and pick your next order hall advancement.|
+T Further Advancement|QID|46783|M|41.46,21.72|N|To Tactician Tinderfell.|
 T A Golden Ticket|QID|46336|M|42.79,45.69|N|To the Golden Letter the letter lying on the table in your hunter lodge.|
 A Night of the Wilds|QID|46337|M|42.79,45.69|N|From the Golden Letter.|
 C Night of the Wilds|QID|46337|QO|1|M|49.76,36.46|CHAT|N|Talk to the Valkyra, Herald of Odyn, to start the scenario.|
-C The Hunt Begins|ACTIVE|46337|SO|1;4|M|24.00,45.80|Z|HallsofValor#1164|T|Habrok|N|Locate and kill the owl Habrok.|
-C The Hunt Begins|ACTIVE|46337|SO|1;3|M|33.38,60.19|Z|HallsofValor#1164|T|Ketlingr|N|Locate and kill the cat Ketlingr.|
-C The Hunt Begins|ACTIVE|46337|SO|1;2|M|32.91,67.05;61.02,64.53;62.93,65.96|CS|Z|HallsofValor#1164|T|Garos|N|Locate and kill the worm Garos in a cave.|
-C The Hunt Begins|ACTIVE|46337|SO|1;1|M|65.54,26.44|Z|HallsofValor#1164|T|Hyrtir|N|Locate and kill the stag Hyrstir.|
-C Night of Claw and Talon|ACTIVE|46337|SO|2;1|M|51.40,43.17|Z|HallsofValor#1164|T|Vetholnir|N|Locate and kill the hawk as he patrols around this area.|
-C Night of Claw and Talon|ACTIVE|46337|SO|2;2|M|29.47,70.38;28.3,77.6|CS|Z|HallsofValor#1164|T|Fereki|N|Locate and kill the wolf Fareki inside this cave.|
-C Haukenulfnir|ACTIVE|46337|SO|3;1|M|23.68,66.12|Z|HallsofValor#1164|T|Haukenulfnir|N|Attack the wolfhawk Haukeulfnir. Avoid the whirlwinds, and dodge his charges.|
-C Revel the Night Away|ACTIVE|46337|SO|4;1|M|30.57,45.44;35.5,41.2|CS|Z|HallsofValor#1164|N|Speak with Odyn to leave.|
-T Night of the Wilds|QID|46337|M|44.24,21.47|N|Turn quest into the empty saddle outside your lodge.|
+C The Hunt Begins|ACTIVE|46337|SO|1;4|M|24.00,45.80|Z|00877; Fields of the Eternal Hunt!Instance|T|Habrok|N|Locate and kill the owl Habrok. (Flare helps you out as does Hunter tracking)|
+C The Hunt Begins|ACTIVE|46337|SO|1;3|M|33.38,60.19|Z|0877; Fields of the Eternal Hunt!Instance|T|Ketlingr|N|Locate and kill the cat Ketlingr.|
+C The Hunt Begins|ACTIVE|46337|SO|1;2|M|32.91,67.05;61.02,64.53;62.93,65.96|CS|Z|0877; Fields of the Eternal Hunt!Instance|T|Garos|N|Locate and kill the worm Garos in a cave.|
+C The Hunt Begins|ACTIVE|46337|SO|1;1|M|65.54,26.44|Z|0877; Fields of the Eternal Hunt!Instance|T|Hyrtir|N|Locate and kill the stag Hyrstir.|
+C Night of Claw and Talon|ACTIVE|46337|SO|2;1|M|51.40,43.17|Z|0877; Fields of the Eternal Hunt!Instance|T|Vetholnir|N|Locate and kill the hawk as he patrols around this area.|
+C Night of Claw and Talon|ACTIVE|46337|SO|2;2|M|29.47,70.38;28.3,77.6|CS|Z|0877; Fields of the Eternal Hunt!Instance|T|Fereki|N|Locate and kill the wolf Fareki inside this cave.|
+C Haukenulfnir|ACTIVE|46337|SO|3;1|M|23.68,66.12|Z|0877; Fields of the Eternal Hunt!Instance|T|Haukenulfnir|N|Attack the wolfhawk Haukeulfnir. Avoid the whirlwinds, and dodge his charges.|
+C Revel the Night Away|ACTIVE|46337|SO|4;1|M|36.66,41.00|Z|0877; Fields of the Eternal Hunt!Instance|N|Speak with Odyn to leave.|IZ|877|
+T Night of the Wilds|QID|46337|M|44.24,21.47|N|Turn quest into the empty saddle near Emmarel's fire. (outside your lodge).|
 ]]
 end)
