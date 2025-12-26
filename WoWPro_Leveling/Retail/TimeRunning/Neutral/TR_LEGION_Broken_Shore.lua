@@ -249,8 +249,8 @@ T In Dire Need|QID|44821|M|22.26,39.65|Z|0627; Dalaran!Broken Isles|N|To Archmag
 A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^47047^45482^47049^47050^47051^47052^46078^47003^47004^47005^47006^45560^47018^47019^47020^45123^47055^47056^47057^47058^47059^45182^47037^47039^47041^47042|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|The questgivers and quests you receive will vary based on your spec type  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains. Take all of them (1 per spec).|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
-P Stormwind|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|0627; Dalaran!Broken Isles|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Stormwind City|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|0627; Dalaran!Broken Isles|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Mount Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
 P Orgrimmar|QID|44914^47046^47043^47048^47047|M|55.29,24.00|Z|85; Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914^47046^47043^47048^47047|FACTION|HORDE|
 C The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
 T The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
@@ -341,7 +341,7 @@ T Source of the Corruption|QID|46107|M|38.8,51.4|Z|0641; Val'sharah|N|To Command
 A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|0641; Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
 
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
-F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
+F The Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
 T Rumblings Near Feltotem|QID|45560^47018^47019^47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|
 A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|45560^47018^47019^47020|
 C The Burning Birds|QID|45564|QO|1|M|33.40,23.32|Z|Highmountain|N|Click on the corpses to remove the fel infusing totems. Move quickly away to avoid the debuff. If you are squishy and get hit with the debuff, heal, eat, bandage, something... quickly.|
