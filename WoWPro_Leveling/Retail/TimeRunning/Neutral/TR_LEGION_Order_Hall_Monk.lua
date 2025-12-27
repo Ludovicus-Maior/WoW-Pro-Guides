@@ -79,7 +79,7 @@ A Building Our Troops|QID|41946|M|52.75,59.79|N|From Master Hsu.|PRE|41945|
 C Building Our Troops|QID|41946|M|53.35,59.75|NC|N|Give Tianji a work order to train an initiate, the first one is near instant.  After it is done, click on the banner to retrieve the initiate, then train the other two initiates which will take 30 minutes each.|
 T Building Our Troops|QID|41946|M|52.75,59.79|N|To Master Hsu.|
 A Scrolls of Knowledge|QID|42210|M|52.75,59.79|N|From Master Hsu.|PRE|41946|
-C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|S|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|            
+C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|S|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 C Scrolls of Knowledge|QID|42210|M|52.96,60.19|NC|US|N|Use the scouting map (missions tab) to send your people on the new mission. This one will take 4 hours. Check it off manually to continue with the guide while mission completes.|
 t Scrolls of Knowledge|QID|42210|M|52.78,59.77|N|To Master Hsu.|
 ;A Tech It Up A Notch|QID|42191|M|52.78,59.77|N|From Master Hsu.|PRE|42210|
