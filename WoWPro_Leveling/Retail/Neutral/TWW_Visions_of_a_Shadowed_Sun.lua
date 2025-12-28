@@ -109,7 +109,7 @@ C The Long Vigil|QID|84943|M|34.73,18.56|Z|1543; The Maw|QO|1|H|N|Stalwart Soul 
 C The Long Vigil|QID|84943|M|28.02,24.32|Z|1543; The Maw|QO|2|H|N|Plagued Soul soothed.|
 C The Long Vigil|QID|84943|M|20.79,29.71|Z|1543; The Maw|QO|3|H|N|Betrayed Soul soothed.|
 C The Long Vigil|QID|84943|M|25.51,30.78|Z|1543; The Maw|QO|4|H|N|Smoldering Soul soothed.|
-C Preludes and Preparations|QID|84944|M|33.88,17.51|Z|1543; The Maw|N|Collect all the things.|S|
+C Preludes and Preparations|QID|84944|M|33.88,17.51|Z|1543; The Maw|N|Collect all the things.|US|
 T Preludes and Preparations|QID|84944|M|26.86,37.67|Z|1543; The Maw|N|To Arator.|
 T The Long Vigil|QID|84943|M|26.82,37.86|Z|1543; The Maw|N|To Sylvanas Windrunner.|
 A Repent of the Highborne|QID|84945|PRE|84944&84943|M|26.82,37.86|Z|1543; The Maw|N|From Sylvanas Windrunner.|

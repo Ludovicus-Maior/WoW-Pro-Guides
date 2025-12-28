@@ -1,30 +1,9 @@
 local guide = WoWPro:RegisterGuide('Ohnahran_Plains', 'Leveling', "Ohn'ahran Plains", 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide,"Ohnahran Plains")
-WoWPro:GuideLevels(guide,10, 80)
 WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
-;Renown stuff -- all based on someone showing up whereever you are
-;A Call of the Plains|QID|71229|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;4|
-;A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|DFREN|Maruuk Centaur;2503;5|
-;A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
-;A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier may require lvl 70?
-
-;Dragon Riding Glyphs that need to be worked into the guide.
-;PLACED F Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
-;PLACED F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16054|
-;PLACED F Nokhudon Hold|N|Over the mountain top.|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16055|
-;PLACED F Emerald Gardens|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16056|
-;PLACED F The Eternal Kurgans|N|Just to the east of the mountain side.|M|29.5,75.1|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16057|
-;PLACED F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
-;PLACED F Ohn'iri Springs|N|Next to the mountain.|M|57.3,80.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16060|
-;PLACED F Mirror of the Sky|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
-;PLACED F Szar Skeleth|N|At the top of the tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
-;PLACED F Windsong Rise|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
-;PLACED in AS F Dragonspring Summit|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
-;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
-;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
 ;adventure mode
 F Dragonscale Basecamp|ACTIVE|72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|IZ|-13732|;Needs a FLY DF once its been implemented.
@@ -225,7 +204,7 @@ T The Khanam Matra|QID|66022|M|60.35,38.04|Z|2023;Ohn'ahran Plains|N|To Khansgua
 A Trucebreakers|QID|66023|PRE|66022|M|60.35,38.04|Z|2023;Ohn'ahran Plains|N|From Khansguard Akato.|
 C Trucebreakers|QID|66023|M|60.01,39.45|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Nokhud forces as you head to see Scout Tomul.|S|
 A Covering Their Tails|QID|66024|PRE|66022|M|59.50,38.74|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-C Covering Their Tails|QID|66024|M|58.06,39.35|Z|2023;Ohn'ahran Plains|QO|1|N|Guard Bahir slain.|
+K Guard Bahir|ACTIVE|66024|M|58.06,39.35|Z|2023;Ohn'ahran Plains|QO|1|N|Guard Bahir slain.|T|Guard Bahir|
 C Trucebreakers|QID|66023|M|60.01,39.45|Z|2023;Ohn'ahran Plains|QO|1|N|Finish off the Nokhud forces.|US|
 T Trucebreakers|QID|66023|M|60.35,38.04|Z|2023;Ohn'ahran Plains|N|To Khansguard Akato.|
 T Covering Their Tails|QID|66024|M|60.32,38.09|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
