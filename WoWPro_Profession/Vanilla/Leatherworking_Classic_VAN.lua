@@ -5,6 +5,7 @@ local guide = WoWPro:RegisterGuide("Leatherworking", "Profession", "Leatherworki
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Leatherworking")
+WoWPro:GuideNickname(guide, "LW_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
@@ -17,7 +18,6 @@ return [[
 ;		IE = Learn Recipe|QID|165700251|P|Leatherworking;165;7+25;0|RECIPE|256759|N|Learn [spell=256759/Shimmerscale Pauldrons] Recipe from Trainer.|
 ; 		IE learn 2 at lvl 25 |165700151| and |165700152|.
 ;   Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
-;	Zone IDs (CLASSIC) used in this guide:  Z|1417;Arathi Highlands|, Z|1420;Tirisfal Glades|, Z|1422;Western Plaguelands|, Z|1423;Eastern Plaguelands|, Z|1425;The Hinterlands|, Z|1444;Feralas|, Z|1456;Thunder Bluff|, Z|1457;Darnassus|
 ;	Updated to Classic splits / new format on 29-Jun-2021 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
 
 N This Guide|QID|165000001|N|Covers Classic - Vanilla content.\nAlso ASSUMES you have the appropriate Skills.|
@@ -54,8 +54,8 @@ M [item=4246/Fine Leather Belt]|QID|165003763|P|Leatherworking;165;0+125;1|ITEM|
 = Learn Recipe|QID|165001251|P|Leatherworking;165;0+125|RECIPE|3766|N|Learn [spell=3766] recipe, from Trainer.|
 M [item=2315/Dark Leather Boots]|QID|165002167|P|Leatherworking;165;0+137;1|ITEM|2315|CRAFT|2167 15|MATS|2319 4;2321 2;4340 1|N|Alternately: This is where you can make [item=4249/Dark Leather Belt] with the [item=4233/Cured Medium Hide] and [item=4246/Fine Leather Belt]. NOTE! Make the boots, first then the Belts.|
 M [item=4249/Dark Leather Belt]|QID|165003766|P|Leatherworking;165;0+150;1|ITEM|4249|CRAFT|3766 15|MATS|4246 1;4233 1;2321 2;4340 1|N|Just make as many as can.  Click step off when you cannot make any more. Materials on this step were NOT included in Shopping List.|
-= Learn [spell=3811/Expert Leatherworking]|QID|165003811|M|64.6,21.6|Z|1457|P|Leatherworking;165;0+125|SPELL|Leatherworking;3811|LVL|20|N|Learn from Telonis, Artisan Leatherworker, in Darnassus.|FACTION|Alliance|
-= Learn [spell=3811/Expert Leatherworking]|QID|165003811|M|41.8,42.6|Z|1456|P|Leatherworking;165;0+125|SPELL|Leatherworking;3811|LVL|20|N|Learn from Una, Artisan Leatherworker, in Thunder Bluff.|FACTION|Horde|
+= Learn [spell=3811/Expert Leatherworking]|QID|165003811|M|64.6,21.6|Z|1457; Darnassus|P|Leatherworking;165;0+125|SPELL|Leatherworking;3811|LVL|20|N|Learn from Telonis, Artisan Leatherworker, in Darnassus.|FACTION|Alliance|
+= Learn [spell=3811/Expert Leatherworking]|QID|165003811|M|41.8,42.6|Z|1456; Thunder Bluff|P|Leatherworking;165;0+125|SPELL|Leatherworking;3811|LVL|20|N|Learn from Una, Artisan Leatherworker, in Thunder Bluff.|FACTION|Horde|
 M [item=5961/Dark Leather Pants]|QID|165007135|P|Leatherworking;165;0+150;1|ITEM|5961|CRAFT|7135 20|MATS|2319 12;4340 1;2321 1|
 = Learn Recipe|QID|165001501|P|Leatherworking;165;0+150|RECIPE|20649|N|Learn [spell=20649] recipe, from Trainer.|
 = Learn Recipe|QID|165001502|P|Leatherworking;165;0+150|RECIPE|3818|N|Learn [spell=3818] recipe, from Trainer.|
@@ -69,13 +69,13 @@ M [item=5964/Barbaric Shoulders]|QID|165007151|P|Leatherworking;165;0+190;1|ITEM
 M [item=5962/Guardian Pants]|QID|165007147|P|Leatherworking;165;0+190;1|ITEM|5962|CRAFT|7147 10|MATS|4234 12;4305 2;2321 2|
 = Learn Recipe|QID|165001901|P|Leatherworking;165;0+190|RECIPE|7156|N|Learn [spell=7156] recipe, from Trainer.|
 M [item=5966/Guardian Gloves]|QID|165007156|P|Leatherworking;165;0+200;1|ITEM|5966|CRAFT|7156 10|MATS|4234 4;4236 1;4291 1|N|Alternately: [spell=7149/Barbaric Leggings], just click off this step to skip.|
-B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417|ITEM|5973|RECIPE|7149|T|Keena|N|Purchase [item=5973/Pattern Barbaric Leggings] from Keena, Hammerfall, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Horde|
-B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417|ITEM|5973|RECIPE|7149|T|Hammon Karwn|N|Purchase [item=5973/Pattern Barbaric Leggings] from Hammon Karwn, Refuge Pointe, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Alliance|
+B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417; Arathi Highlands|ITEM|5973|RECIPE|7149|T|Keena|N|Purchase [item=5973/Pattern Barbaric Leggings] from Keena, Hammerfall, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Horde|
+B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417; Arathi Highlands|ITEM|5973|RECIPE|7149|T|Hammon Karwn|N|Purchase [item=5973/Pattern Barbaric Leggings] from Hammon Karwn, Refuge Pointe, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Alliance|
 U Learn Recipe|QID|165007149|P|Leatherworking;165;0+190|ITEM|5973|U|5973|RECIPE|7149|N|Learn [spell=7149] from [item=5973] you just purchased.|
 M [item=5963/Barbaric Leggings]|QID|165007149|P|Leatherworking;165;0+200;1|ITEM|5963|CRAFT|7149 13|MATS|4234 10;2321 2;1206 1|
 = Learn Recipe|QID|165002001|P|Leatherworking;165;0+200|RECIPE|10487|N|Learn [spell=10487] recipe, from Trainer.|
 M [item=8173/Thick Armor Kit]|QID|165010487|P|Leatherworking;165;0+205;1|ITEM|8173|CRAFT|10487 7|MATS|4304 5;4291 1|
-= Learn [spell=10662/Artisan Leatherworking]|QID|165010662|M|13.4,43.4|Z|1425|P|Leatherworking;165;0+200|SPELL|Leatherworking;10662|LVL|35|N|Learn from Drakk Stonehand, Master Leatherworker at Wildhammer Keep in Aerie Peak, Hinterlands.|FACTION|Alliance|
+= Learn [spell=10662/Artisan Leatherworking]|QID|165010662|M|13.4,43.4|Z|1425; The Hinterlands|P|Leatherworking;165;0+200|SPELL|Leatherworking;10662|LVL|35|N|Learn from Drakk Stonehand, Master Leatherworker at Wildhammer Keep in Aerie Peak, Hinterlands.|FACTION|Alliance|
 = Learn [spell=10662/Artisan Leatherworking]|QID|165010662|M|74.4,73.0|Z|1444|P|Leatherworking;165;0+200|SPELL|Leatherworking;10662|LVL|35|N|Learn from Hahrana Ironhide, Master Leatherworker at Camp Mojache, Teralas.|FACTION|Horde|
 = Learn Recipe|QID|165002051|P|Leatherworking;165;0+205|RECIPE|10507|N|Learn [spell=10507] recipe, from Trainer.|
 M [item=8176/Nightscape Headband]|QID|165010507|P|Leatherworking;165;0+235;1|ITEM|8176|CRAFT|10507 40|MATS|4304 5;4291 2|N|You can make more [item=8173/Thick Armor Kit] if you want, but the Headband will sell to a vender for more.|
@@ -83,15 +83,15 @@ M [item=8176/Nightscape Headband]|QID|165010507|P|Leatherworking;165;0+235;1|ITE
 = Learn Recipe|QID|165002351|P|Leatherworking;165;0+235|RECIPE|10558|N|Learn [spell=10558] recipe, from Trainer.|
 M [item=8193/Nightscape Pants]|QID|165010548|P|Leatherworking;165;0+250;1|ITEM|8193|CRAFT|10548 15|MATS|4304 14;4291 4|
 M [item=8197/Nightscape Boots]|QID|165010558|P|Leatherworking;165;0+260;1|ITEM|8197|CRAFT|10558 13|MATS|4304 16;8343 2|
-B [spell=19049/Wicked Leather Gauntlets]|QID|165002601|M|83.2,69.6|Z|1420|T|Werg Thickblade|RECIPE|19049|N|Purchase [item=15725/Pattern - Wicked Leather Gauntlet] from Werg Thickblade, Bullwark, Tirisfal Glades.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|FACTION|Horde|
-B [spell=19049/Wicked Leather Gauntlets]|QID|165002601|M|43.0,84.2|Z|1422|T|Leonard Porter|RECIPE|19049|N|Purchase [item=15725/Pattern - Wicked Leather Gauntlet] from Leonard Porter, Chillwind Camp, Western Plaguelands.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|FACTION|Alliance|
+B [spell=19049/Wicked Leather Gauntlets]|QID|165002601|M|83.2,69.6|Z|1420; Tirisfal Glades|T|Werg Thickblade|RECIPE|19049|N|Purchase [item=15725/Pattern - Wicked Leather Gauntlet] from Werg Thickblade, Bullwark, Tirisfal Glades.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|FACTION|Horde|
+B [spell=19049/Wicked Leather Gauntlets]|QID|165002601|M|43.0,84.2|Z|1422; Western Plaguelands|T|Leonard Porter|RECIPE|19049|N|Purchase [item=15725/Pattern - Wicked Leather Gauntlet] from Leonard Porter, Chillwind Camp, Western Plaguelands.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|FACTION|Alliance|
 U [item=15725/Pattern - Wicked Leather Gauntlet]|QID|165002601|P|Leatherworking;165;0+260|RECIPE|19049|U|15725|N|Learn the [item=15725/Pattern - Wicked Leather Gauntlet] you Purchased.|
 M [item=15083/Wicked Leather Gauntlets]|QID|165019049|P|Leatherworking;165;0+290;1|ITEM|15083|CRAFT|19049 33|MATS|8170 8;2325 1;14341 1|N|Alternate: Make about 6-7 more of [item=8197/Nightscape Boots] to get to 265.|
 M [item=8197/Nightscape Boots]|QID|165010558|P|Leatherworking;165;0+265;1|ITEM|8197|CRAFT|10558 7|MATS|4304 16;8343 2|N|This is an alternate recipe, click step to skip.|
 B [spell=19052]|QID|165002651|RECIPE|19052|N|Purchase [item=15728] from Auction House, OR farm by killing Legashi Rogue in Azshara.|
 U [item=15728]|QID|165019052|P|Leatherworking;165;0+265|RECIPE|19052|U|15728|N|Learn [spell=19052] Recipe from the item you either purchased or farmed.|
 M [item=15084/Wicked Leather Bracers]|QID|165019052|P|Leatherworking;165;0+290;1|ITEM|15084|CRAFT|19052 28|MATS|8170 8;2325 1;14341 1|N|This recipe is dropped by Legashi Rogues in Azshara.|
-B [spell=19082/Runic Leather Headband]|QID|165002901|M|80.6,57.6|Z|1423|T|Jase Farlane|RECIPE|19082|N|Purchase [item=15756/Pattern - Runic Leather Headband] from Jase Farlane, in Eastern Plaguelands.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|
+B [spell=19082/Runic Leather Headband]|QID|165002901|M|80.6,57.6|Z|1423; Eastern Plaguelands|T|Jase Farlane|RECIPE|19082|N|Purchase [item=15756/Pattern - Runic Leather Headband] from Jase Farlane, in Eastern Plaguelands.\n[color=FF0000]NOTE: [/color]This item has a LONG respawn timer. Alt: Buy off AH|
 U [item=15756/Pattern - Runic Leather Headband]|QID|165002901|P|Leatherworking;165;0+290|RECIPE|19082|U|15756|N|Learn the [item=15756/Pattern - Runic Leather Headband] you purchased.|
 M [item=15094/Runic Leather Headband]|QID|165019082|P|Leatherworking;165;0+300;1|ITEM|15094|CRAFT|19082 10|MATS|8170 14;14047 10;14341 1|
 N Congratulations|QID|164000010|N|That completes Classic Leatherworking.|

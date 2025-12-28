@@ -5,6 +5,7 @@ local guide = WoWPro:RegisterGuide("Engineering", "Profession", "Engineering", "
 WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering")
+WoWPro:GuideNickname(guide, "ENG_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
