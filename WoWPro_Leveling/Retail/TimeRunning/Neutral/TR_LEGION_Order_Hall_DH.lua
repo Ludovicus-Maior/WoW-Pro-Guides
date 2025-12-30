@@ -46,6 +46,11 @@ C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sh
 T Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+N Havoc Hidden Appearance|QID|44455|PRE|41119^39247|M|54.58,63.82|Z|0680; Suramar|N|Kill mobs in Suramar until you get [color=33fff9] Candrael's Charm [/color] to drop, many people report getting it within 5-10 minutes.|L|141409|
+N Havoc Hidden Appearance|QID|43649|PRE|44455|M|28.39,70.28|Z|Suramar|CHAT|N|Once you have the charm, Find Candrael and [color=FF0000] DISMOUNT [/color]. Ask her about the charm. She will throw you off the cliff into a whirlwind surrounding Downfall. Kill and loot him for the item. If you should fail, talk to Candrael again.|L|139549|
+N Havoc Hidden Appearance|QID|43649|PRE|41119^39247|M|28.39,70.28|Z|Suramar|O|U|139549|N|You will need to be in Havoc spec to use the item.|
+N Vengeance Hidden Appearance|QID|44707^44708|PRE|40249^41863|M|54.06,61.34|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|NA|N|Click the Sanctum Crystal in the lower level of your order hall to be teleported to a platform at the top of the Fel Hammer, where you will see a fel tome on a table, (or someone just used it so wait a minute or two).Click the Fel Tome to summon a demon. Kill and loot the Demon for a chance to get the item. This can be done daily.|L|139550|
+N Vengeance Hidden Appearance|QID|43650|PRE|44707^44708|O|U|139550|N|Be in Vengeance spec to click on the item and thus acquire the appearance.|
 
 ;Next Artifact quest
 A Rise, Champions|QID|42670^42671|PRE|41069&40374|M|56.11,54.18|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Kor'vas Bloodthorn.|
@@ -73,37 +78,8 @@ T Demonic Improvements|QID|42683|M|59.93,48.92|Z|0720; Upper Command Center@Mard
 A Additional Accoutrements|QID|42682|PRE|42683|M|59.93,48.92|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Matron Mother Malevolence.|
 C Additional Accoutrements|QID|42682|M|58.12,54.02|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|QO|1|N|Use Scouting Map to complete the 1 hour Mission 'Additional Accoutrements'|
 T Additional Accoutrements|QID|42682|M|59.30,57.60|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Kor'vas Bloodthorn.|
-;light's heart intro questline
-A A Falling Star|QID|44009|M|28.44,48.35|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar in The Violet Citadel.|PRE|44379^44383|
-C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|0627; Dalaran!Broken Isles|CHAT|N|Tell Flightmaster Aludane Whitecloud [color=ffffff]'I'm ready to go to Suramar'[/color].|
-C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to sea and then straight down to investigate the site on the ocean floor.|
-C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
-C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
-P Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
-P Chamber of the Guardian|QID|44009|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|44009|
-T A Falling Star|QID|44009|M|56.59,37.28;36.76,47.43;26.84,35.05|CS|Z|0629; Aegwynn's Gallery@Dalaran|N|Go down the first set of stairs and then to your right to find Kadgar and turn this quest in.|
-A Bringer of the Light|QID|44004|M|26.84,35.05|Z|0629; Aegwynn's Gallery@Dalaran|N|From Archmage Khadgar.|PRE|44009|
-P The Exodar|ACTIVE|44004|M|28.69,33.55|Z|0629; Aegwynn's Gallery@Dalaran|N|Take Khadgar's portal to enter a scenario.|
-C The Prophet and the Butcher|ACTIVE|44004|SO|1|M|58.96,31.65;48.32,52.36;33.97,66.38|CS|Z|TheExodar|NC|N|Head to the Vault of Lights. Click on Velen when you find him.|
-C In Defense of The Exodar|ACTIVE|44004|SO|2|S|M|33.97,66.38|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-A Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Automatically accepted by entering the area.|RANK|2|ACTIVE|44004|
-C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|S|N|Kill demons to achieve the objective.|RANK|2|
-A Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|From Farseer Nobundo|RANK|2|ACTIVE|44004|
-C Nobundo's Last Stand|QID|43705|QO|1|M|44.87,9.35|Z|TheExodar|CHAT|N|Tell him you are ready.|RANK|2|
-C Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|Kill 3 waves of mobs.|RANK|2|
-T Nobundo's Last Stand|QID|43705|M|44.87,9.35|Z|TheExodar|N|To Farseer Nobundo.|RANK|2|
-K Kill Huk'roth the Huntmaster|QID|43480|QO|1|M|59.7,83.1|Z|TheExodar|T|Huk'roth the Huntmaster|N|Kill and loot for a bit of treasure and resources.|ACTIVE|44004|RARE|
-C Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|US|N|Finish the objective or click it off manually.|RANK|2|
-t Fel Annihilation-Bonus Objective|QID|43483|M|33.97,66.38|Z|TheExodar|N|Auto turned in upon completion.|RANK|2|
-C In Defense of the Exodar|QID|44004|SO|2|US|M|44.87,9.35|Z|TheExodar|N|Rescue citizens and close portals by clicking on them. Stay to the edges to avoid the swarms of demons.|
-C Return to the Prophet|ACTIVE|44004|SO|3|M|33.95,66.25|Z|TheExodar|NC|N|Head back to Prophet Velen.|
-C The Light's Heart|ACTIVE|44004|SO|4|M|33.95,66.25|Z|TheExodar|CHAT|N|Offer to show him the object.|
-C A Long Way Down|ACTIVE|44004|SO|5|M|33.95,66.25|Z|TheExodar|CHAT|N|Tell him you are ready then escort him to the Seat of the Naaru. Stay with him, do not run ahead.|
-C Revelations|ACTIVE|44004|SO|6|M|53.39,38.91|Z|TheExodar|U|140319|N|Start the fight. After the demon dies use Khadgar's Beacon and then cancel to see a short scene (or just go and ignore the lore). Use it again to leave afterwards.|IZ|775|
 
-T Bringer of the Light|QID|44004|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Kadgar.|
-A Light's Charge|QID|44153|M|28.48,48.31|Z|0627; Dalaran!Broken Isles|N|From Archmage Kadgar.|PRE|44004|
-T Light's Charge|QID|44153|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Return to your order hall and return to Light's Heart (table in alcove adjacent Soul Forge on the upper level).|IZ|720|
+
 t The Blood of Demons|QID|37447|M|58.41,51.62|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|To Altruis the Sufferer or Kayn Sunfury.|IZ|720^721|
 A Immortal Soul|QID|42510|PRE|37447|M|58.41,51.62|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Alturis the Sufferer or Kayn Sunfury.|
 C Immortal Soul|QID|42510|M|58.41,51.62|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|Click on the Blood Offering, to make the offering.|U|137690|
@@ -155,65 +131,7 @@ C Green Adepts|QID|42808|M|58.65,38.95|Z|0720; Upper Command Center@Mardum, the 
 T Green Adepts|QID|42808|M|57.59,52.31|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Belath Dawnblade.|
 
 ; LVL 45 Quests, or part thereof... perhaps will be lvl 30 tho ... quest log says to return at 30
-A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
-C Goddess Watch Over You|QID|44338^44338|S!US|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|40890|LVL|45|
-C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, (in your order hall). Do anything else you need to do in your order hall, because the cut scene when you click on Lights' Heart, ends with you in Dalaran.|
-;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|LVL|45|
-;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|Right-click on the Obliterum Forge and drag Archmage Karlain's Imbued Silkweave Robe from your bags to the window that opens. Click on 'Obliterate' to collect the ashes.|NC||
-;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.51,48.29|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-;lights heart - post 45
-A Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart (still in your order hall)|PRE|44448|
-F Lorlathil|ACTIVE|44464|M|69.85,51.11|Z|0627; Dalaran!Broken Isles|N|At Aludane.|
-C Awakenings|QID|44464|M|54.40,73.02|Z|Val'sharah|NC|EAB|N|Walk towards the fountain and use your special action button.|
-T Awakenings|QID|44464|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart back in your order hall.|IZ|720|
-;lights heart - post 45,requires AK>=2
-A An Unclear Path|QID|44466|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart, Requires Infinate Knowledge >=2. This will show in the guide before it is available in game, go do other stuff and check on it later.|PRE|44464|;no way to limit this showing until you get AK=2
-F Garden of the Moon|ACTIVE|44466|M|69.92,51.10|Z|0627; Dalaran!Broken Isles|N|Back to Dalaran and then fly to Garden of the Moon.|
-R Emerald Bay|QID|44466|M|54.76,51.73;53.17,49.45|CS|Z|Val'sharah|N|Take the path to the north away from the temple.|ACTIVE|44466|
-C An Unclear Path|QID|44466|M|45.39,34.26|Z|Val'sharah|NC|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan and Cenarius.|
-T An Unclear Path|QID|44466|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart, back in your order hall.|
-A Ravencrest's Legacy|QID|44479|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart.|PRE|44466|
-F Garden of the Moon|ACTIVE|44479|M|69.92,51.10|Z|0627; Dalaran!Broken Isles|N|Back to Dalaran and then fly to Garden of the Moon.|
-R Black Rook Hold|ACTIVE|44479|M|51.42,50.67;45.82,50.34|CS|Z|0641;Val'sharah|N|Travel to Black Rook Hold.|
-C Ravencrest's Legacy|QID|44479|M|41.44,45.63|Z|0641;Val'sharah|NC|N|Run to the alcove behind Araxxas (not in the instance). Use your [color=33fff9] Extra Action Button [/color] to watch a vignette about Illidan traveling the wrong path. (Check off manually)|
-C Report to Kur'talos|QID|44479|SO|1|M|42.4,46.56|Z|0793; Black Rook Hold!Instance|NC|N|Listen/watch the dialog.|
-C Repair the Portal|QID|44479|SO|2|M|42.0,46.2|Z|0793; Black Rook Hold!Instance|NC|N|Click on the portal to restore it.|
-C The Road to Fel|QID|44479|SO|3|M|44.3,49.57|Z|0793; Black Rook Hold!Instance|N|Rt Click to autoattack the infernals and then Xalian Felblaze. After a bit, you will a button will allow you to sacrifice one of the mages, once you do, "1" will appear, use it to damage Xalian.|
-C No Man An Island|QID|44479|SO|4|S|M|44.5,51.23;41.0,51.44|CS|Z|0793; Black Rook Hold!Instance|N|Activate the remaining portals.|
-A Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|
-C Felspawns of Lothros|QID|44414|M|40.64,53.03|Z|793;BlackRookHold!Instance|N|Go down into the Mausoleum and help Jared kill Lothros.|
-T Felspawns of Lothros|QID|44414|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|To Jared Shadowsong. If Jared dies, (he doesn't seem to respawn anymore), you can either skip the next two quests, or exit the instance and reset instances, then restart the Ravecrest Scenario.|
-A The Red Axe|QID|44415|M|38.84,53.05|Z|0793;BlackRookHold!Instance|N|From Jared Shadowsong.|ACTIVE|44479|PRE|44414|
-C The Red Axe|QID|44415|M|39.0,51.30;40.6,50.93;41.4,49.87|CS|Z|0793; Black Rook Hold!Instance|N|Click on the unstable portals to close them. You need to click all 3 orange portals before you do the last pink portal.|
-T The Red Axe|QID|44415|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red.|ACTIVE|44479|
-A Hunter of Night|QID|44416|M|43.91,50.31|Z|0793; Black Rook Hold!Instance|N|From Broxigar the Red.|ACTIVE|44479|PRE|44415|
-C Hunter of Night|QID|44416|M|43.0,50.29|Z|0793; Black Rook Hold!Instance|N|Kill the demon.|
-T Hunter of Night|QID|44416|M|41.61,50.31|Z|0793; Black Rook Hold!Instance|N|To Broxigar the Red .|
-C No Man An Island|QID|44479|SO|4|US|M|44.53,51.23;40.98,51.44;43.71,50.88|CS|Z|0793; Black Rook Hold!Instance|N|Click the last portal.|
-C True Sacrifice|QID|44479|SO|5|M|42.7,53.03|Z|0793; Black Rook Hold!Instance|N|You have one more button to use. (If you don't have [color=33fff9] Fury of the Cosmos [/color] on your vehicle bar, sacrifice your moonguard a few more times.) Go destroy the Nihilam Portal with the new ability and kill Balaadur.|
-C When Good Men Do Nothing|QID|44479|SO|7|M|42.8,48.4|Z|0793; Black Rook Hold!Instance|N|Defeat the Colossal Siegebreaker. During the middle of the fight, you get one more button, use it to win.|
-T Ravencrest's Legacy|QID|44479|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|To Light's Heart, back in your order hall.|
-;light's heart
-A In My Father's House|QID|44480|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart. Requires Infinate Knowledge >=5. (no way for guide to determine if you are eligible).|PRE|44479|
-R Temple of Zin-Malor|QID|44480|M|35.1,49.9|Z|Azshara|U|249230|N|Use provided scroll to get to Azshara, then run forward into the temple.|ACTIVE|44480|
-C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your [color=33fff9] Extra Action Button [/color] to see Xe'ra's message.|
-T In My Father's House|QID|44480|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481^44496^44497|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|From Light's Heart.|PRE|44480|
-P Black Temple|ACTIVE|44481^44496^44497|U|249229|N|Use the provided scroll to travel to the Black Temple in Shadowmoon Valley.|IZ|720|
-C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|EAB|N|Use your [color=33fff9] Extra Action Button [/color] to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481^44496^44497|M|58.68,43.30|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Return to Light's Heart in your order hall.|
-A The Hunt for Illidan Stormrage|QID|45174|PRE|44481^44496^44497|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Phase 2+ of Remix it seems or maybe high Infinate Knowledge.|
-F Illidari Stand|QID|45174|M|69.97,51.10|Z|0627; Dalaran!Broken Isles|N|Take a flight or head to Azuna on your own.|ACTIVE|45174|
-T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater.|
-A Soul Prism of the Illidari|QID|45175|PRE|45174|NA|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|
-t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|0630; Azsuna!Broken Isles|N|To Allari the Souleater still at Illidari Stand in Azuna|
-A The Power Within|QID|43496|M|44.24,45.64|Z|The Heart of Acherus@BrokenShore|N|From Image of Kalec, the next day.|PRE|43407|;may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
-F Azurewing Repose|ACTIVE|43496|M|25.55,28.86|N|At Grimwing.|
-T The Power Within|QID|43496|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|0630; Azsuna!Broken Isles|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496|
+A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere). The remainder of this quest line is covered in it's own guide [color=33fff9] Light's Heart [/color]. It is for an appearance change for your Artifact weapon(s).|
 
 R Illidari Gateway|LVL|45|AVAILABLE|44213|M|97.18,68.28|Z|0627; Dalaran!Broken Isles|TZ|The Fel Hammer|N|Return to your order hall.|
 C Working With the Wardens|QID|42731|M|58.12,54.02|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon!720|N|Use Scouting Map to complete WWtW Missions listed.\n[color=FF0000]NOTE: [/color]You must finish this before going any further.|US|
@@ -376,11 +294,60 @@ C Vengeance Will Be Ours|QID|40249^41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3
 T Vengeance Will Be Ours|QID|40249^41863|PRE|-41221|M|73.84,46.03|Z|0627; Dalaran!Broken Isles|N|To Kor'vas Bloodthorn at Krasus' Landing.|
 T Vengeance Will Be Ours|QID|40249^41863|PRE|41221|M|59.36,57.63|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Kor'vas Bloodthorn in your Order Hall.|
 
-J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|TR_EmmAzsuna|
-J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_LudoStormheim|FACTION|ALLIANCE|
-J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|TR_EmmStormheim|FACTION|Horde|
-J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|TR_EmmValsharah|
-J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|TR_EmmHighmountain|
-J On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically for other errends for you order hall.|GUIDE|TR_Blanc_Suramar|
+A The Power Within|QID|43496^43501^43503^43505|M|60.30,28.75|Z|0721; Lower Command Center@Mardum, the Shattered Abyss!Dungeon721|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign. This is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).
+
+;legionfall champion|PRE|47137|
+A An Urgent Message|QID|46159|PRE|47137|M|58.84,66.49|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|From UI Popup when you return to your order hall after finishing the 'Champions of Legionfall' quest on Broken Shore.|
+C An Urgent Message|QID|46159|M|58.84,66.49|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|Click on the command console.|
+T An Urgent Message|QID|46159|M|59.43,57.73|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Kor'vas Bloodthorn.|
+A Taking Charge|QID|45301|PRE|46159|M|59.43,57.73|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|From Kor'vas Bloodthrn.|
+C Taking Charge|QID|45301|M|57.77,17.71|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|CHAT|N|Ask Kyra Light for a ride to Mardum.|
+T Taking Charge|QID|45301|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthrn.|
+A Scouting Party|QID|45330|PRE|45301|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Operation: Portals|QID|45329|PRE|45301|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+C Scouting Party|QID|45330|QO|1||M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|S|N|Kill the mobs surrounding the scouts, then click to rescueas you travel to the portals.|
+C Operation: Portals|QID|45329|M|76.84,43.40|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|Close Portals.|
+C Scouting Party|QID|45330|QO|2|M|81.49,50.13|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|Lady S'theno can be found inside the cave.|
+C Scouting Party|QID|45330|QO|1|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|US|N|Finish Rescuing scouts. It's somewhat buggy in that there are precisely 8 scouts, so if someone else got one, you have to search until you find the one you missed, other respawns don't count.|
+T Scouting Party|QID|45330|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
+T Operation: Portals|QID|45329|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
+A Defense of the Fel Hammer|QID|45339|PRE|45329&45330|M|74.21,41.68|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+P The Fel Hammer|ACTIVE|45339|M|74.49,40.74|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|Click the Illidari Gateway to return to the Fel Hammer.|
+C Repel the Invaders|ACTIVE|45339|SO|1|M|57.01,51.55|Z|0719; Mardum, the Shattered Abyss!Dungeon|N|Kill demons.|
+C The Mother's Revenge|ACTIVE|45339|SO|2|M|56.57,29.84|Z|0880; Lower Command Center@Mardum, the Shattered Abyss!Dungeon880|N|Mother Volaz can be found in one of the control rooms on the lower level. Click the screen to enter than kill her.|
+C Gaining Control|ACTIVE|45339|SO|3|M|59.04,74.96|Z|0880; Lower Command Center@Mardum, the Shattered Abyss!Dungeon880|N|Lord Ar'dranath can be found in the other control room on the lower level, kill him too.|
+C Mutual Destruction|ACTIVE|45339|QO|1|SO|5|M|58.83,66.25|Z|0879; Upper Command Center@Mardum, the Shattered Abyss!Dungeon879|N|Go back upstairs and click on the main console.|
+T Defense of the Fel Hammer|QID|45339|M|59.39,57.53|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Kor'vas Bloodthorn.|
+A We Must be Prepared!|QID|45385|PRE|45339|M|59.30,57.72|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|From Kor'vas Bloodthorn.|
+T We Must be Prepared!|QID|45385|M|52.14,21.12|Z|0646; Broken Shore|N|To Lady S'theno.|
+A Restoring Equilibrium|QID|45764|PRE|45385|M|52.14,21.12|Z|0646; Broken Shore|N|From Lady S'theno.|
+A Power Outage|QID|46725|PRE|45385|M|52.14,21.12|Z|0646; Broken Shore|N|From Lady S'theno.|
+A War'zuul the Provoker|QID|45798|PRE|45385|M|52.14,21.12|Z|0646; Broken Shore|N|From Lady S'theno.|
+C War'zuul the Provoker|QID|45798|M|64.43,16.05|Z|0646; Broken Shore|N|Kill War'zuul.|
+C Restoring Equilibrium|QID|45764|M|63.22,22.15|Z|0646; Broken Shore|N|The crystals are all around the outside of Tomb of Sargaras, click 3 of them.|
+C Power Outage|QID|46725||M|51.87,20.69|Z|0646; Broken Shore|N|You can also fly on your mount or glide thru green orbs to power up the battery. Near the Stabalizing Crystals, are spots that will propel you up so you can glide back down thru them.|
+T Restoring Equilibrium|QID|45764|PRE|45385|M|64.00,18.62|Z|0646; Broken Shore|N|To Lady S'theno.|
+T Power Outage|QID|46725|PRE|45385|M|52.14,21.12|Z|0646; Broken Shore|N|To Lady S'theno.|
+T War'zuul the Provoker|QID|45798|PRE|45385|M|52.14,21.12|Z|0646; Broken Shore|N|To Lady S'theno.|
+A Return of the Slayer|QID|46266|PRE|45764&45385&45798|M|52.14,21.12|Z|0646; Broken Shore|N|From Lady S'theno.|
+T Return of the Slayer|QID|46266|M|59.28,57.72|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Kor'vas Bloodthorn.|
+A Champion: Lady S'theno|QID|45391|PRE|46266|M|62.00,53.94|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|From/To Lady S'theno.|
+
+;legionfall mount|PRE|45391|
+A Livin' on the Ledge|QID|46333|PRE|45391|M|43.94,62.68|Z|0646; Broken Shore|N|Head back to Broken Shore to get your mount quest from an Illidari Enforcer at Deliverance Point.|
+T Livin' on the Ledge|QID|46333|M|59.95,48.94|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Matron Mother Malevolence, back at your order hall.|
+A To Fel and Back|QID|46334|PRE|46333|M|59.95,48.94|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|From Matron Mother Malevolence.|
+C To Fel and Back|QID|46334|QO|1|M|57.75,18.04|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|CHAT|N|Ask Kyra for a ride to Felwing Ledge.|
+C Matron Mother Malevolence|ACTIVE|46334|SO|1|M|42.93,16.72|Z|0861; Mardum, the Shattered Abyss!Instance861|CHAT|N|Tell Matron Mother Malevolence you are ready.|
+C Bat Breaking|ACTIVE|46334|SO|2|M|42.20,20.00|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Subdue Lixahl. (or at least try).|
+C Trail of Blood|ACTIVE|46334|SO|3|M|44.30,34.93|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Jump and glide following the green splotches of felblood. Spectral sight makes the blood easier to see if you can't find it.|
+C A Strong Will|ACTIVE|46334|SO|4|M|42.73,39.18|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Attempt to subdue Lixahl again.|
+C You Can Run...|ACTIVE|46334|SO|5|M|41.72,56.08|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Continue tracking Lixahl.|
+C Leap of Faith|ACTIVE|46334|SO|6|M|42.86,58.63|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Glide to Lixahl. When you get close you will automatically jump on.|
+C Fel Dominance|ACTIVE|46334|SO|7|M|51.42,80.00|Z|0861; Mardum, the Shattered Abyss!Instance861|N|This time you have tired Lixahl out and you can subdue her.|
+C The Slayer's Steed|QID|46334|QO|2|M|51.42,80.00|Z|0861; Mardum, the Shattered Abyss!Instance861|V|N|Ride Lixahl.|
+C To Fel and Back|QID|46334|QO|3|M|48.58,17.10|Z|0861; Mardum, the Shattered Abyss!Instance861|N|Ask Yrdris for a ride back to the Fel Hammer.|
+T To Fel and Back|QID|46334|M|60.10,48.74|Z|0720; Upper Command Center@Mardum, the Shattered Abyss!Dungeon720|N|To Matron Mother Malevolence.|
+N Congrats|N|Slayer's Felbroken Shrieker was added to your collection, Now, you are really done with the campaign hall.|
 ]]
 end)
