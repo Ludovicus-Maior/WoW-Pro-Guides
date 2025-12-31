@@ -1,4 +1,4 @@
-## Interface: 50502
+## Interface: 50503
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
