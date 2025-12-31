@@ -3512,7 +3512,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 break
             end
             -- So we are in an active strategy step
-            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and WoWPro.RETAIL then
+            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and
+               WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and WoWPro.RETAIL then
                 if WoWPro.select[guideIndex] then
                     -- make sure this pet is active
                     WoWPro.PetSelect(WoWPro.select[guideIndex])
