@@ -32,7 +32,7 @@ A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Arch
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
 A Defending Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46734|
-A Champions of Legionfall|QID|47137|PRE|46734|M|44.54,63.55|N|From Maiev Shadowsong. In Remix this quest instantly completes.|
+A Champions of Legionfall|QID|47137|PRE|43414^43359^43407^43409^43412^43415^43418^43420^43422^43423^43424|M|44.54,63.55|N|From Maiev Shadowsong. In Remix this quest instantly completes.|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 ;A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|

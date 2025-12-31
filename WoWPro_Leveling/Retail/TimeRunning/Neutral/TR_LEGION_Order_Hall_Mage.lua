@@ -33,10 +33,10 @@ T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|The Guardian's Library@Hall of
 A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41036|
 C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Click on the book to choose your artifact.|
 T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41085|
+A Artifact Specific Quest|QID|42001^40267^42452|PRE|41085|M|59.08,42.86|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001&40267&42452|
 T Growing Power|QID|42175|M|55.30,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm|
-A Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm|PRE|41141|
+A Rise, Champions|QID|42663|PRE|41141|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm|
 A Champion: Archmage Modera|QID|42685|ACTIVE|42663|M|55.23,39.47|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Modera.|
 A Champion: Archmage Kalec|QID|42662|ACTIVE|42663|M|56.28,37.84|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S|US|N|From/To Archmage Kalec.|
 T Rise, Champions|QID|42663|M|55.37,38.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
@@ -65,17 +65,17 @@ t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Arch
 A Recruiting Apprentices|QID|44098|PRE|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 C Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
 T Recruiting Apprentices|QID|44098|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
-A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|
+A An Unexpected Visitor|QID|42418|PRE|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ravandwyr.|
-A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|PRE|42418|
+A A Covert Operation|QID|42434|PRE|42418|M|61.82,60.00|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Ravandwyr.|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
 T A Covert Operation|QID|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr.|
-A Prepare To Be Assimilated|QID|42435|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|PRE|42434|
+A Prepare To Be Assimilated|QID|42435|PRE|42434|M|64.9,37.8|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|
 C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|0630; Azsuna!Broken Isles|S|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 C Prepare To Be Assimilated|QID|42435|QO|1|M|64.8,41|Z|0630; Azsuna!Broken Isles|N|Kill Spitespeaker Lir'kess|
 C Prepare To Be Assimilated|QID|42435|QO|2|M|63.6,39|Z|0630; Azsuna!Broken Isles|US|N|Kill Hatescale Naga to collect the scrolls of Arcane Wisdom.|
 T Prepare To Be Assimilated|QID|42435|M|64.35,31.32|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr.|
-A What Is Going On Here?|QID|42166|M|64.35,31.32|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|PRE|42435|
+A What Is Going On Here?|QID|42166|PRE|42435|M|64.35,31.32|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|
 C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|0630; Azsuna!Broken Isles|CHAT|S|N|Talk to Empyrean Society Members.|
 C What Is Going On Here?|QID|42166|QO|2|M|64.90,32.86|Z|0630; Azsuna!Broken Isles|N|Investigate the Brazier.|
 C What Is Going On Here?|QID|42166|QO|1|M|64.3,31.4|Z|0630; Azsuna!Broken Isles|CHAT|US|N|Talk to Empyrean Society Members.|
@@ -84,8 +84,8 @@ C What Is Going On Here?|QID|42166|QO|4|M|66.47,33.58|Z|0630; Azsuna!Broken Isle
 C What Is Going On Here?|QID|42166|QO|5|M|66.53,33.74|Z|0630; Azsuna!Broken Isles|N|Examine the Exotic Book.|
 C What Is Going On Here?|QID|42166|QO|6|M|66.41,33.49|Z|0630; Azsuna!Broken Isles|N|Kill Marlan Blackfire.|
 T What Is Going On Here?|QID|42166|M|66.45,33.54|Z|0630; Azsuna!Broken Isles|N|To Ravandwyr, who is following you around.|
-A Some Knowledge Shouldn't Be Shared|QID|42149|M|66.45,33.54|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr, who is following you around.|PRE|42166|
-A The Next Level Has Arrived|QID|42206|M|66.45,33.54|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr, who is following you around.|PRE|42166|
+A Some Knowledge Shouldn't Be Shared|QID|42149|M|66.45,33.54|PRE|42166|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr, who is following you around.|
+A The Next Level Has Arrived|QID|42206|PRE|42166|M|66.45,33.54|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr, who is following you around.|
 C The Next Level Has Arrived|QID|42206|S|M|65.9,33.8|Z|0630; Azsuna!Broken Isles|N|Kill Empyrean Society Members.|
 C Some Knowledge Shouldn't Be Shared|QID|42149|M|65.9,33.8|Z|0630; Azsuna!Broken Isles|N|Pick up scrolls from the ground.|
 C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|0630; Azsuna!Broken Isles|US|N|Kill Empyrean Society Members.|
@@ -96,14 +96,14 @@ C Final Exit|QID|42171|M|66,32.4|Z|0630; Azsuna!Broken Isles|QO|1|N|Use Rune of 
 C Final Exit|QID|42171|M|66.13,32.69|Z|0630; Azsuna!Broken Isles|QO|2|N|Kill Nora Blackfire.|
 C Final Exit|QID|42171|M|66.17,32.63|Z|0630; Azsuna!Broken Isles|QO|3|N|Loot Missive from Chest.|
 T Final Exit|QID|42171|M|66.08,32.32|Z|0630; Azsuna!Broken Isles|N|To Ravamdwyr.|
-A Empyrean Society Report|QID|42222|M|66,32.4|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|PRE|42171|
+A Empyrean Society Report|QID|42222|PRE|42171|M|66,32.4|Z|0630; Azsuna!Broken Isles|N|From Ravandwyr.|
 C Empyrean Society Report|QID|42222|N|Use Teleport: Hall of the Guardian.|
 T Empyrean Society Report|QID|42222|M|72.84,55.66|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar, who is moving about.|
-A Champion: Esara Verrinde|QID|42706|M|74.04,59.61|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Esara Verrinde.|PRE|42222|
-A Champion: Ravandwyr|QID|42705|M|70.36,53.24|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Ravamdwyr.|PRE|42222|
-A The Council is in Session|QID|42416|M|72.84,55.66|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar, who is moving about.|PRE|42222|
+A Champion: Esara Verrinde|QID|42706|PRE|42222|M|74.04,59.61|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Esara Verrinde.|
+A Champion: Ravandwyr|QID|42705|PRE|42222|M|70.36,53.24|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From/To Ravamdwyr.|
+A The Council is in Session|QID|42416|PRE|42222|M|72.84,55.66|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar, who is moving about.|
 T The Council is in Session|QID|42416|M|28.41,49.51|Z|0627; Dalaran!Broken Isles|N|To Archmage Ansirem Runeweaver located in the Violet Citadel.|
-A Archmage Vargoth's Retreat|QID|42423|M|28.41,49.51|Z|0627; Dalaran!Broken Isles|N|From Archmage Ansirem Runeweaver.|PRE|42416|
+A Archmage Vargoth's Retreat|QID|42423|PRE|42416|M|28.41,49.51|Z|0627; Dalaran!Broken Isles|N|From Archmage Ansirem Runeweaver.|
 C Archmage Vargoth's Retreat|QID|42423|M|28.96,49.67|Z|0627; Dalaran!Broken Isles|QO|1|N|Take the portal to enter Vargoth's quarters.|
 C Archmage Vargoth's Retreat|QID|42423|M|24.28,55.94|Z|0627; Dalaran!Broken Isles|QO|2|N|Enter Vargoth's Retreat, click on door.|
 C Archmage Vargoth's Retreat|QID|42423|M|22.89,52.68|Z|0627; Dalaran!Broken Isles|QO|7|N|Examine well-worn scroll.|
@@ -112,16 +112,16 @@ C Archmage Vargoth's Retreat|QID|42423|M|20.73,54.02|Z|0627; Dalaran!Broken Isle
 C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|0627; Dalaran!Broken Isles|QO|5|N|Examine the frosted doughnut.|
 C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|0627; Dalaran!Broken Isles|QO|4|N|Examine the crystal ball.|
 T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
-A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42423|
+A Following In His Footsteps|QID|42424|PRE|42423|M|22.21,55.11|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|
 C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
 t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.\n\n[color=FF0000]NOTE: [/color]Currently, there are non-scaling mobs, expect to die several times if you are low level. (or come back to this later)|PRE|42424|
+A Kalec's Plan|QID|42451|PRE|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.\n\n[color=FF0000]NOTE: [/color]Currently, there are non-scaling mobs, expect to die several times if you are low level. (or come back to this later)|
 T Kalec's Plan|QID|42451|M|29.26,87.96|Z|Suramar|N|To Kalecgos.|
-A Not A Toothless Dragon|QID|42508|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|PRE|42451|
+A Not A Toothless Dragon|QID|42508|PRE|42451|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|
 C Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|Ride Kalecgos.|
 T Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|To Kalecgos.|
-A The Enemy of My Enemy...|QID|42521|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|PRE|42508|
-A More Than Just A Food Vendor|QID|42494|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|PRE|42508|
+A The Enemy of My Enemy...|QID|42521|PRE|42508|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|
+A More Than Just A Food Vendor|QID|42494|PRE|42508|M|34.16,83.46|Z|Suramar|N|From Kalecgos.|
 C More Than Just A Food Vendor|QID|42494|M|46.31,29.82|Z|Suramar/24|QO|2|S|N|Create Conjured Mana Food.|
 C More Than Just A Food Vendor|QID|42494|M|72.84,55.09|Z|Suramar/24|QO|3|S|N|Kill Demons.|
 C More Than Just A Food Vendor|QID|42494|M|60.75,60.11|Z|Suramar/24|QO|1|U|138115|N|Feed Starving Prisoners.|
@@ -132,16 +132,16 @@ C More Than Just A Food Vendor|QID|42494|M|72.84,55.09|Z|Suramar/24|QO|3|US|N|Ki
 C More Than Just A Food Vendor|QID|42494|M|60.75,60.11|Z|Suramar/24|QO|1|US|U|138115|N|Feed Starving Prisoners.|
 T The Enemy of My Enemy...|QID|42521|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
 T More Than Just A Food Vendor|QID|42494|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
-A Impending Dooooooom!|QID|42493|M|66.50,66.05|Z|Suramar/24|N|From Image of Kalec.|PRE|42494^42521|
+A Impending Dooooooom!|QID|42493|PRE|42494^42521|M|66.50,66.05|Z|Suramar/24|N|From Image of Kalec.|
 C Impending Dooooooom!|QID|42493|M|70.72,76.72|Z|Suramar/24|QO|1|N|Find the Nightborn Soulstone.|
 C Impending Dooooooom!|QID|42493|M|61.71,74.57|Z|Suramar/24|QO|2|N|Cross Magic Barrier.|
 C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|3|N|Find Archmage Vargoth.|
 C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|4|N|Slay Lady Kyranith.|
 T Impending Dooooooom!|QID|42493|M|41.81,60.31|Z|Suramar/24|N|To Image of Kalec.|
-A A Terrible Loss|QID|42520|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|PRE|42493|
+A A Terrible Loss|QID|42520|PRE|42493|M|41.81,60.31|Z|Suramar/24|N|From Image of Kalec.|
 $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|ACTIVE|42520|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
-A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
+A A Magical Affliction|QID|42707|PRE|42520|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 A Arcane Hidden Appearance|QID|43787|PRE|42011|M|47.06,50.66|Z|0630; Azsuna!Broken Isles|N|Go Azsuna in the area just outside of Illidari Stand and polymorph a Cliffwing Hippogryph.|T|Cliffwing Hippogryph|
@@ -150,10 +150,11 @@ A Arcane Hidden Appearance|QID|43788|PRE|42011|M|47.49,73.61|Z|0650; Highmountai
 A Arcane Hidden Appearance|QID|43789|PRE|42011|M|62.16,56.84|Z|0634; Stormheim!Broken Isles|N|Go to Stormhiem and in the area around Valdisdall polymorph a Plains Runeforn Calf.|T|Plains Runeforn Calf|
 A Arcane Hidden Appearance|QID|43791|PRE|42011|M|64.12,41.87|Z|0680; Suramar|N|Go to Suramar and in the area near the Crimson Thicket and polymorph a Heartwood Doe.|T|Heartwood Doe|
 A Arcane Hidden Appearance|QID|43828&43799|PRE|43787&43788&43789&43790&43791|S!US|I|NA|N|Go to your Order Hall and walk out into the room, check for an line in your chat "Success!". If you don't see it try another day. If you do, click the Volatile sheep until it explodes|T|Volotile|
-A Arcane Hidden Appearance|QID|43800|PRE|43799|N|Head to Valdisdall in Stormheim, and then search in the Runewood for an Extremely Volatile Stormheim Sheep. Right click it till it explodes.|T|Extremely|
-H Arcane Hidden Appearance|PRE|43800|N|Return to Dalaran.|
-P Arcane Hidden Appearance|PRE|43800|N|Take the Karazhan portal in Dalaran and fly to Elwyn Forest to the Tower of Azora, talk to Cote and go thru the vignette.|FACTION|HORDE|IZ|627|
-P Arcane Hidden Appearance|PRE|43800|N|Take the Stormwind portal in Dalaran and fly to Elwyn Forest to the Tower of Azora, talk to Cote and go thru the vignette.|FACTION|ALLIANCE|IZ|627|
+A Arcane Hidden Appearance|QID|43800|PRE|43799|M|60.2,54.8;66.8,54.4;70.2,56.8;76.8,62.4;79.4,67.9;72.0,49.6;70.8,38.0;64.8,45|CS|Z|0634; Stormheim!Broken Isles|N|Go to Valdisdall in Stormheim, and then search in the Runewood (and beyond) for an Extremely Volatile Stormheim Sheep. Right click it till it explodes.|T|Extremely|
+H Arcane Hidden Appearance|QID|43658|PRE|43800|N|Return to Dalaran.|IZ|634|
+P Arcane Hidden Appearance|QID|43658|PRE|43800|M|33.08,77.03|Z|0629; Aegwynn's Gallery@Dalaran|N|Take the Karazhan portal in Dalaran and fly to Elwynn Forest.|FACTION|HORDE|IZ|627| ;or use Portal Stonard if not in remix
+P Arcane Hidden Appearance|QID|43658|PRE|43800|N|Take the Stormwind portal in Dalaran and fly to Elwynn Forest.|FACTION|ALLIANCE|IZ|627|
+A Arcane Hidden Appearance|QID|43658|PRE|43800|M|64.11,68.72|Z|0037; Elwynn Forest|N|Fly to Elwynn Forest to the Tower of Azora, talk to Cote and go thru the vignette. You may need to wait for a bit for it to reset if someone else just finished it.|L|139558|
 U Arcane Hidden Appearance|QID|43658|O|U|139558|N|Be in Arcane spec and click the item.|
 A Fire Hidden Appearance|QID|43659|PRE|11997|M|31.94,84.24|Z|0680; Suramar|S!US|L|139559|N|Kill mobs in Suramar until you get this drop. Felsoul Hold has been reported as a great spot.|
 U Fire Hidden Appearance|QID|43659|O|U|139559|N|Use the item, You must be in Fire spec. Grats on the new look.|
@@ -161,76 +162,67 @@ A Frost Hidden Appearance|QID|44384^43660|PRE|42429|S!US|N|Teleport into your Or
 l Frost Hidden Appearance|QID|43660|PRE|44384|M|70.03,38.24|Z|0525; Frostfire Ridge|L|139560|N|Take any of the portals, it will take you to Frostfire Ridge, run forward and talk to the friendly fire elemental.|
 A Frost Hidden Appearance|QID|43660|O|U|139560|N|Use the item, You must be in Frost spec. Grats on the new look.|
 
-A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
+A When There's a Will, There's a Way|QID|42940|PRE|42520|M|73.41,56.15|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar.  (Champion Missions)|
 C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
 t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
-A Into the Oculus|QID|42734|M|71,55.4|N|From Archmage Khadgar.|PRE|42940&42707|
+A Into the Oculus|QID|42734|PRE|42940&42707|M|71,55.4|N|From Archmage Khadgar.|
 C Into the Oculus|QID|42734|M|71,55.4|N|Talk to Khadgar to start the scenario and then follow the scenario instructions in your quest tracker, to finsih this quest.|
 t Into the Oculus|QID|42734|M|71,55.4|N|To Archmage Khadgar.|
-A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|PRE|42734|
+A Champion: Meryl Felstorm|QID|42914|PRE|42734|M|71.4,61.8|N|From/To Meryl Felstorm|
 A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|
 T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|To Ari.|
-A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42954|
+A The Proper Way of Things|QID|42955|PRE|42954|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Ari.|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Kill Nightborne in Suramar city and use the provided wand to collect Phials of Nightwell Energy.|
 T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|To Ari.|
-A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
+A Ari's Package|QID|42956|PRE|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|
 T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Archmage Khadgar.|
-A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
+A Three Is a Lucky Number|QID|42959|PRE|42956|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Archmage Khadgar. (Dungeon Quest)|
 C Three Is a Lucky Number|QID|42959|S!US|N|Do three dungeons, any difficulty, one of the items will drop from the final boss.|
 t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Ari. (Dungeon Quest)|
 A Champion: Arcane Destroyer|QID|42704|PRE|42959|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 
-A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
-C Goddess Watch Over You|QID|44338^44338|S!US|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|0627; Dalaran!Broken Isles|N|From Archmage Khadgar.|PRE|44337^44338|
-C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@Hall of the Guardian!Dungeon|S!US|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. |
-;A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|0627; Dalaran!Broken Isles|N|From Archmage Karlain.|
-;C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|0627; Dalaran!Broken Isles|QO|1|N|1/1 Handful of Obliterum Ash|
-;T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|0627; Dalaran!Broken Isles|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.50,48.31|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar, in the Violet Citadel. The full quest chain in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|
+A Goddess Watch Over You|LVL|45|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere). The full quest chain in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|
+
 A The Power Within|QID|43503^43505|PRE|43407|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|From Image of Kalec,This appears up to 48 hours after you finish class order campaign. The full questline is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet
-F Azurewing Repose|ACTIVE|43503^43505|M|69.86,51.17|Z|0627; Dalaran!Broken Isles|N|Take a flight from Aludane or check this off and fly on your own.|FLY|
-C The Power Within|QID|43505|M|48.12,25.58|Z|0630; Azsuna!Broken Isles|S!US|N|Help Senegos by doing quests at Azurewing Repose, starting with Illidari Stand if you didn't rescue Stellagosa there yet. The remainder of this questline is covered in the Balance of Power guide.|
 
 ;2nd artifact
-A A Second Weapon|QID|43441|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
+A A Second Weapon|QID|43441|PRE|42175|M|60.4,36|N|From Meryl Felstorm.|
 C A Second Weapon|QID|43441|M|60.4,36|N|Pick the artifact you want to pursue next.|
 T A Second Weapon|QID|43441|M|60.4,36|N|From Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001^40267^42452|M|60.4,36|N|From Meryl Felstorm.|PRE|43441|
+A Artifact Specific Quest|QID|42001^40267^42452|PRE|43441|M|60.4,36|N|From Meryl Felstorm.|
 ;3rd artifact
 A Thrice the Power|QID|44310|M|60.4,36|N|From Meryl Felstorm.|ACH|11174;;true|
 C Thrice the Power|QID|44310|M|60.4,36|N|Choose the remaining artifact.|
 T Thrice the Power|QID|44310|M|60.4,36|N|From Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001^40267^42452|M|60.4,36|N|From Meryl Felstorm.|PRE|44310|
+A Artifact Specific Quest|QID|42001^40267^42452|PRE|44310|M|60.4,36|N|From Meryl Felstorm.|
 
 ;ARCANE
-;A Aluneth, Greatstaff of the Magna|QID|42001|M|59.16,42.16|N|From Meryl Felstorm.|PRE|41085|a
+;A Aluneth, Greatstaff of the Magna|QID|42001|PRE|41085|M|59.16,42.16|N|From Meryl Felstorm.|
 T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
-A A New Threat|QID|42006|M|28.69,49.94|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|PRE|42001|
+A A New Threat|QID|42006|PRE|42001|M|28.69,49.94|Z|0627; Dalaran!Broken Isles|N|From Archmage Kalec.|
 R Chamber of the Guardians|QID|42006|M|49.49,47.32|Z|0627; Dalaran!Broken Isles|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42006|
 C A New Threat|QID|42006|M|31.22,83.42|Z|0629; Aegwynn's Gallery@Dalaran|QO|1|N|Optional - Use the Dalaran Portal to Wrymrest Temple.|
 C A New Threat|QID|42006|M|55.74,63.89|Z|115; Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
 C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|115; Dragonblight|CN|QO|3|N|Find the 3 Clues.|
-T A New Threat|QID|42006|M|56.67,69.13|Z|115; Dragonblight|N|To Ethereal Communication Device.|
-A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|115; Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
+T A New Threat|QID|42006|PRE|42006|M|56.67,69.13|Z|115; Dragonblight|N|To Ethereal Communication Device.|
+A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|115; Dragonblight|N|From Ethereal Communication Device.|
 C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|115; Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
 T A Forgotten Enemy|QID|42007|M|56.69,69.12|Z|115; Dragonblight|N|To UI Alert.|
-A Eyes of the Dragon|QID|42008|M|56.69,69.12|Z|115; Dragonblight|N|From UI Alert.|PRE|42007|
+A Eyes of the Dragon|QID|42008|PRE|42007|M|56.69,69.12|Z|115; Dragonblight|N|From UI Alert.|
 F Coldarra|QID|42008|M|35,27|N|Fly to Coldarra in Borean Tundra.|ACTIVE|42008|
 C Eyes of the Dragon|QID|42008|M|29.32,26.68|Z|114; Borean Tundra|QO|1|NC|N|Nexus spire scouted|
 C Eyes of the Dragon|QID|42008|M|32.21,27.83|Z|114; Borean Tundra|QO|2|NC|N|Surge Needle scouted|
 C Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|114; Borean Tundra|QO|3|NC|N|Nexus foundation scouted|
 T Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|114; Borean Tundra|N|To UI Alert.|
-A Harnessing the Arcane|QID|42009|M|26.32,25.48|Z|114; Borean Tundra|N|From UI Alert.|PRE|42008|
+A Harnessing the Arcane|QID|42009|PRE|42008|M|26.32,25.48|Z|114; Borean Tundra|N|From UI Alert.|
 C Harnessing the Arcane|QID|42009|M|29.16,25.70|Z|114; Borean Tundra|QO|1|N|Click on the 'Breach of Arcane Energy' and kill the Arcane Aberrants to complete your progress bar.  Avoid dieing as it resets your progress.|
 T Harnessing the Arcane|QID|42009|M|28.92,26.13|Z|114; Borean Tundra|N|From UI Alert.|
-A Arcane Unleashed|QID|42010|M|28.92,26.13|Z|114; Borean Tundra|N|UI Alert.|PRE|42009|
+A Arcane Unleashed|QID|42010|PRE|42009|M|28.92,26.13|Z|114; Borean Tundra|N|UI Alert.|
 C Arcane Unleashed|QID|42010|M|27.32,20.40|Z|114; Borean Tundra|QO|3|NC|N|Click on the purple mass in the center.|
 C Arcane Unleashed|QID|42010|M|32.69,27.81|Z|114; Borean Tundra|QO|1|NC|N|Click on the purple mass in the center.|
 C Arcane Unleashed|QID|42010|M|24.17,29.59|Z|114; Borean Tundra|QO|2|N|This one you have to fight first, then click the void shadows to destroy it.|
 T Arcane Unleashed|QID|42010|M|23.95,29.50|Z|114; Borean Tundra|N|To UI Alert.|
-A The Nexus Vault|QID|42011|M|23.95,29.50|Z|114; Borean Tundra|N|From UI Alert.|PRE|42010|
+A The Nexus Vault|QID|42011|PRE|42010|M|23.95,29.50|Z|114; Borean Tundra|N|From UI Alert.|
 R The Nexus|QID|42011|M|27.52,26.60|Z|114; Borean Tundra|CC|N|Run into the Nexus instance to start a solo scenario.|ACTIVE|42011|
 C The Azure Prisoner|QID|42011|M|35.71,68.94|Z|The Nexus|N|Free Azuregos by defeating the mages guarding him.(One continuous fight, but only one at a time - Fire, Frost, then Arcane).|
 C Reach the Librarium|QID|42011|M|27.29,33.74|Z|The Nexus|SO|2;1|N|Reach the Librarium|
@@ -246,16 +238,16 @@ C Leave the Nexus Vault|QID|42011|M|60.01,20.01|Z|The Nexus|SO|7;2|N|Use the por
 R Portal to Dalaran|QID|42011|M|59.20,20.44|Z|The Nexus|CC|N|Azuregos has made you a portal to Dalaran.|ACTIVE|42011|
 T The Nexus Vault|QID|42011|M|28.58,49.86|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec who can be found in the Violet Citadel.|
 ;FIRE
-;A An Unexpected Message|QID|40267|M|58.12,41.11|N|From Meryl Felstorm.|PRE|41085|
+;A An Unexpected Message|QID|40267|PRE|41085|M|58.12,41.11|N|From Meryl Felstorm.|
 C An Unexpected Message|QID|40267|M|63.00,46.59|Z|0627; Dalaran!Broken Isles|QO|1|U|130131|NC|N|Use the Crystal to discover it's Message.|
 R Chamber of the Guardians|QID|40267|ACTIVE|40267|M|49.49,47.32|Z|0627; Dalaran!Broken Isles|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
 R Portal-Ancient Dalaran|QID|40267|ACTIVE|40267|M|28.64,77.37|Z|0629; Aegwynn's Gallery@Dalaran|N|Optional - Use the Dalaran Portal to the original site of Dalaran.  If you know it, you can use Teleport - Ancient Dalaran.|
 C An Unexpected Message|QID|40267|M|28.72,37.07|Z|Hillsbrad Foothills|QO|2|U|130131|N|Meet Archmage Modera in Hillsbrad.|
 T An Unexpected Message|QID|40267|M|28.76,37.32|Z|Hillsbrad Foothills|N|To Archmage Modera.|
-A The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|From Archmage Modera.|PRE|40267|
+A The Path of Atonement|QID|40270|PRE|40267|M|28.76,37.32|Z|Hillsbrad Foothills|N|From Archmage Modera.|
 C The Path of Atonement|QID|40270|M|28.76,37.32|Z|Hillsbrad Foothills|N|Listen to Aethas' story.|
 T The Path of Atonement|QID|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|To Aethas Sunreaver.|
-A The Frozen Flame|QID|11997|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|PRE|40270|
+A The Frozen Flame|QID|11997|PRE|40270|M|28.75,37.19|Z|Hillsbrad Foothills|N|From Aethas Sunreaver.|
 C The Frozen Flame|QID|11997|M|28.77,37.25|Z|Hillsbrad Foothills|QO|1|NC|N|Mage Portal Taken|
 C The Frozen Flame|QID|11997|M|76.78,63.53|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|1|N|Defeat the Iceborn Conjurer.|
 C Destroy Permafrost Walls|QID|11997|M|76.68,61.87;73.47,53.58;61.85,53.80;51.90,39.19|CS|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|SO|2;1|N|Destroy Permafrost Walls|
@@ -265,13 +257,13 @@ C The Frozen Flame|QID|11997|M|51.84,16.60|Z|Icecrown Citadel@IcecrownCitadelDea
 R Portal to Dalaran|QID|11997|M|51.84,18.26|Z|Icecrown Citadel@IcecrownCitadelDeathKnight|N|Aethas has made a portal to Dalaran for you.|ACTIVE|11997|
 T The Frozen Flame|QID|11997|M|28.45,48.97|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 ;FROST
-;A Finding Ebonchill|QID|42452|M|59.19,42.95|N|From Meryl Felstorm.|PRE|41085|
+;A Finding Ebonchill|QID|42452|PRE|41085|M|59.19,42.95|N|From Meryl Felstorm.|
 C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CS|QO|1|NC|N|Find information on Arrexis|
 C Finding Ebonchill|QID|42452|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|QO|2|N|Speak with Meryl|CHAT|
 T Finding Ebonchill|QID|42452|M|59.16,43.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
-A Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
-A Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Alodi.|PRE|42452|
+A The Deadwind Site|QID|42476|PRE|42452|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
+A Daio the Decrepit|QID|42477|PRE|42452|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
+A Alodi's Gems|QID|42455|PRE|42452|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Alodi.|
 R Portal to Dalaran|QID|42455|M|62.63,51.62|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CC|N|Use the portal to get back to Dalaran.|ACTIVE|42455|
 C Alodi's Gems|QID|42455|M|51.73,19.05|Z|0627; Dalaran!Broken Isles|QO|1|NC|N|Go to the Bank of Dalaran.|
 C Alodi's Gems|QID|42455|M|51.49,18.68|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|Speak with Glutonia.|
@@ -291,7 +283,7 @@ C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|17;Blasted Lands|QO|5|NC|N|Listen 
 T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
 T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455&42476&42477|
+A The Mage Hunter|QID|42479|PRE|42455&42476&42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 P Dalaran|QID|42479|N|Take the portal out to Dalaran.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|Z|0627; Dalaran!Broken Isles|QO|1|CHAT|N|Take the hippogryph in Dalaran to Faronaar.|
 R Faronaar|ACTIVE|42479|M|30.51,44.99|Z|0630; Azsuna!Broken Isles|N|Enjoy your flight.|
@@ -310,16 +302,16 @@ C Memories of Ebonchill|QID|42429|M|51.87,68.09;47.96,17.04;48.75,42.92;24.60,50
 t Memories of Ebonchill|QID|42429|M|53.21,41.58|Z|0735; The Guardian's Library@Hall of the Guardian!Dungeon|N|To Old Fillmaff.|
 
 ;Mage Class Hall
-A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001^40267^42452|
+A The Great Akazamzarak|QID|41112|PRE|42001^40267^42452|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian!Dungeon|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
 C The Great Akazamzarak|QID|41112|M|48.41,63.32|Z|0627; Dalaran!Broken Isles|QO|2|NC|N|You can find him by the statue in front of the south bank, click on his bucket to bribe him.|
 T The Great Akazamzarak|QID|41112|M|48.50,63.41|Z|0627; Dalaran!Broken Isles|N|To The Great Akazamzarak.|
-A The Only Way to Travel|QID|41113|M|48.50,63.41|Z|0627; Dalaran!Broken Isles|N|From The Great Akazamzarak.|PRE|41112|
+A The Only Way to Travel|QID|41113|PRE|41112|M|48.50,63.41|Z|0627; Dalaran!Broken Isles|N|From The Great Akazamzarak.|
 T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Take the portal he created and then turn in to Meryl Felstorm.|
-A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41113|
+A The Tirisgarde Reborn|QID|41124|PRE|41113|M|60.51,34.49|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|
 C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@Hall of the Guardian!Dungeon|NC|N|Watch and listen, eventually you will receive your new title.|
 T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|Hall of the Guardian!Dungeon|N|To The Great Akazamzarak, on the first floor.|
-A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|PRE|41124|
+A A Conjuror's Duty|QID|41141|PRE|41124|M|81.54,60.35|Z|Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|81.61,60.26|Z|Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
 T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
 
@@ -327,8 +319,6 @@ T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Dungeon|N|To 
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ; LVL 110 Quests
 ; Added on 3/14/2017 -  BROKEN SHORE-THESE MAY BE GONE IN REMIX?
-;A An Urgent Warning|QID|45997|M|61.61,27.94|N|From Injured Conjuror.|PRE|44448|
-;T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 ;A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
 ;C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
 ;t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
