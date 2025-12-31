@@ -30,7 +30,7 @@ C Boarding the Skyfire|QID|39801|SO|5|M|72.63,71.44|Z|AraukNashalIntroScenario|N
 C Queen Takes King|QID|39801|SO|6|M|69.53,79.62|Z|AraukNashalIntroScenario|N|Go to the top floor and fight more soldiers until Genn shows, then defeat Genn Greymane.|
 T The Splintered Fleet|QID|39801|M|36.07,27.56|N|To Dread-Rider Cullen.|
 A The Ranger Lord|QID|38332|PRE|39801|M|36.07,27.56|N|From Dread-Rider Cullen. Congrats, you found a bug, go turn in and then get this quest.|
-A Pump it Up|QID|38358|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|
+A Pump it Up|QID|38358|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|RANK|2|
 A Side Effects May Include Mild Undeath|QID|38357|PRE|39801|M|36.10,27.34|N|From Apothecary Withers.|RANK|2|
 C Side Effects May Include Mild Undeath|QID|38357|M|35.80,26.38|S|N|Kill Volatile Mobs as you are collecting the toxic waste.|
 $ Small Treasure Chest|QID|38490|M|33.62,27.28;32.73,27.90|CS|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -136,7 +136,7 @@ N Grapple Points|ACTIVE|38613|N|Use the Grapple Points to move about Hrydshal qu
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|S|N|Go about your quests to advance this objective.|RANK|2|
 C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|S|N|Kill Vrykul to get the Bindings.|P|Leatherworking;165;6|
-A Built to Scale|QID|38616|M|45.52,66.73|N|From a scale you loot off the first Stormwing Drake you kill.|RANK|2|
+;A Built to Scale|QID|38616|M|45.52,66.73|N|From a scale you loot off the first Stormwing Drake you kill.|RANK|2|
 C Built to Scale|QID|38616|M|45.05,66.45|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
 C To Weather the Storm|QID|38614|QO|3|M|45.68,66.63|H|N|Pick up the Oiled Cloak.|
 $ Treasure Chest|QID|38474|M|42.6,65.80|N|Loot for a bit of treasure and resources.|RANK|2|

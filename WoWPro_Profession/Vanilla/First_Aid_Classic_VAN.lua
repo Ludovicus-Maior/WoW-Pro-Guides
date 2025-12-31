@@ -5,6 +5,7 @@ local guide = WoWPro:RegisterGuide("First Aid", "Profession", "First Aid", "WoWP
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "First Aid")
+WoWPro:GuideNickname(guide, "AID_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:

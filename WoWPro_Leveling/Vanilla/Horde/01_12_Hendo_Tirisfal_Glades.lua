@@ -11,7 +11,8 @@ return [[
 R Go upstairs|QID|363|M|30.00,72.84|CC|Z|1420; Tirisfal Glades|N|Leave the crypt and go upstairs to your first quest.|R|Undead|
 A Rude Awakening|QID|363|M|30.21,71.64|Z|1420; Tirisfal Glades|N|From Undertaker Mordo outside.|R|Undead|
 T Rude Awakening|QID|363|M|30.84,66.20|Z|1420; Tirisfal Glades|N|To Shadow Priest Sarvis in the chapel to the north.|R|Undead|
-= Power Word: Fortitude|QID|376|Z|1420; Tirisfal Glades|N|[color=FF0000]NOTE: [/color]As soon as you have 10 copper (or can get from a vendor), go to Dark Cleric Duesten and learn Power Word: Fortitude.|SPELL|Power Word: Fortitude;1243|C|Priest|S|
+= Immolate|AVAILABLE|3099|M|PLAYER|CC|N|[color=FF0000]NOTE: [/color]As soon as you have 10 copper (or can get it from a vendor), go to Maximillion and learn Immolate.|SPELL|Immolate;348|C|Warlock|S|
+= Power Word: Fortitude|AVAILABLE|3097|M|PLAYER|CC|N|[color=FF0000]NOTE: [/color]As soon as you have 10 copper (or can get it from a vendor), go to Dark Cleric Duesten and learn Power Word: Fortitude.|SPELL|Power Word: Fortitude;1243|C|Priest|S|
 A The Mindless Ones|QID|364|PRE|363|M|30.84,66.20|Z|1420; Tirisfal Glades|N|From Shadow Priest Sarvis.|
 A Piercing the Veil|QID|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|From Venya Marthand.|R|Undead|C|Warlock|
 C The Mindless Ones|QID|364|QO|1;2|M|32.22,63.16|Z|1420; Tirisfal Glades|N|Kill Mindless Zombies and Wretched Zombies outside.|

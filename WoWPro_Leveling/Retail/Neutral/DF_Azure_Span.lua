@@ -1,7 +1,6 @@
 local guide = WoWPro:RegisterGuide('The_Azure_Span', 'Leveling', 'The Azure Span!Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideName(guide,"The Azure Span")
-WoWPro:GuideLevels(guide,10, 80)
 WoWPro:GuideNextGuide(guide, 'Thaldraszus')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -18,20 +17,6 @@ return [[
 ;A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
 ;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
 ;A A Cataloger's Paradise|QID|69869|ACTIVE|65490|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
-
-;Dragon Riding Glyphs that need to be worked into the guide.
-;PLACED F Cobalt Assembly|N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
-;PLACED F Zelthrak Outpost|N|This one is hidden between the trees, might have to look around a bit for it.|M|52.94,48.68|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
-;PLACED F Azure Archive|N|This is behind the purple light beam, kinda high up, fly to the highest crystal pairs and look right behind them.|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|ACH|16065|
-;PLACED F Imbu|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
-;PLACED F Ruins of Karnthar|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
-;PLACED F Lost Ruins|N|This one is inside the tower, might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
-;PLACED F Vakthros Range|N|Floating above the ground.|M|72.57,39.77|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
-;PLACED F Kalthraz Fortress|N|Inside the tower, might have to land for this one.|M|67.67,29.11|Z|2024;The Azure Plains!Dragonflight|ACH|16072|--renamed Rhonin's Shield
-;PLACED F The Fallen Course|N|Floating just above the platform.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
-;PLACED F Creektooth Den|N|Just above a tree snag|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|ACH|16069|
-;PLACED F Brackenhide Hollow|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Near the top of the highest tree|ACH|16068|
-;PLACED (in OP) F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
 
 ;adventure mode
 F Forkriver Crossing|ACTIVE|72268|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|

@@ -1,10 +1,10 @@
-## Interface: 50502
+## Interface: 50503
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## IconTexture: Interface\ICONS\INV_Misc_Ticket_Darkmoon_01
 ## Dependencies: WoWPro
-## Version: 2025.11.05.B
+## Version: 2025.12.03.A
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.

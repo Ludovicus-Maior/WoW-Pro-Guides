@@ -785,7 +785,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
 							if l > 1 then
 								track = track.."\n"
 							end
-							track = track.."- " .. status.."\n"
+							track = track.."- " .. status
 
 						end
                     else
@@ -1966,7 +1966,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= (WoWPro.lootqty[guideIndex] or 1) then
                         skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
                         WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
                     end
@@ -3416,9 +3416,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
                 if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
-                    if stepAction == "T" then
-                        -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
-                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest."
+                    if stepAction == "T" or stepAction == "U" then
+                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
+                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
                     else
                         if rowIndex == 1 then
                             -- Only complete the current step, the loot might go away!
@@ -3437,10 +3437,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                     skip = true
                 else
-                    if stepAction == "T" then
-                        -- Special for T steps, do skip.  Like Darkmoon [Test Your Strength]
-                        WoWPro.why[guideIndex] = "NextStep(): not enough loot to turn in quest."
+                    if stepAction == "T" or stepAction == "U" then
+                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
+                        WoWPro.why[guideIndex] = "NextStep(): not enough loot to turn in quest or use the items."
                         skip = true
+                        break
                     end
                 end
             else
@@ -3512,7 +3513,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 break
             end
             -- So we are in an active strategy step
-            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and WoWPro.RETAIL then
+            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and
+               WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and WoWPro.RETAIL then
                 if WoWPro.select[guideIndex] then
                     -- make sure this pet is active
                     WoWPro.PetSelect(WoWPro.select[guideIndex])

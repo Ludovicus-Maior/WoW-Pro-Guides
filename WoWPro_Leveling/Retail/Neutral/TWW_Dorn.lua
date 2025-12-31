@@ -105,7 +105,7 @@ C Delve into the Earth|QID|78464|QO|2|M|38.87,73.30|Z|2248; Isle of Dorn|N|Speak
 C Delve into the Earth|QID|78464|QO|3|M|38.90,73.32|Z|2248; Isle of Dorn|N|Open the Explorers' League Supplies.|
 C Delve into the Earth|QID|78464|QO|4|M|38.90,73.32|Z|2248; Isle of Dorn|N|Select a Combat Role for Brann Bronzebeard.|
 C Delve into the Earth|QID|78464|QO|5|M|45.11,11.57|Z|2269; Earthcrawl Mines!Dungeon|N|Earthcrawl Mines entered.|
-A Delver's Call: Earthcrawl Mines|QID|85648|PRE|78461|M|44.7,12.1|Z|2269; Earthcrawl Mines!Dungeon|N|Lying on the ground just inside.|;As we're doing the delve anyway
+;A Delver's Call: Earthcrawl Mines|QID|85648|PRE|78461|M|44.7,12.1|Z|2269; Earthcrawl Mines!Dungeon|N|Lying on the ground just inside.|;As we're doing the delve anyway
 t Delver's Call: Earthcrawl Mines|QID|85648|M|55.20,55.86|Z|2248; Isle of Dorn|N|To Bondaz.|IZ|Crossroads Plaza|
 C Delve into the Earth|QID|78464|QO|6|M|54.41,75.32|Z|2269; Earthcrawl Mines!Dungeon|N|Earthcrawl Mines objectives completed.|
 C Delve into the Earth|QID|78464|QO|7|M|64.62,88.06|Z|2269; Earthcrawl Mines!Dungeon|N|Earthcrawl Mines treasure found.|

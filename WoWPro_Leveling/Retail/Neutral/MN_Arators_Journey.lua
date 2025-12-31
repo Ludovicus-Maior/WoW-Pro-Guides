@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Arators Journey', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Arators Journey', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral', 12)
 WoWPro:GuideName(guide,"Arators Journey")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
@@ -144,7 +144,7 @@ P Icecrown Citadel|ACTIVE|92321|M|39.22,55.48|N|Take the portal to Icecrown.|
 C A Frostbitten Tally|QID|92321|Z|186|QO|3|NC|N|Frostbitten Tabard.|
 C A Frostbitten Tally|QID|92321|Z|186|QO|2|NC|N|Ebon Banner acquired (Optional).|
 T A Frostbitten Tally|QID|92321|M|39.07,55.08|N|To Gidwin Goldbraids.|
-P The Bazaar|M|50.66,83.46|Z|2541|N|Take the portal to Silvermoon City.|
+P The Bazaar|M|50.66,83.46|N|Take the portal to Silvermoon City.|
 T The Journey Ends|QID|91787|M|45.39,70.50|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
 
 ]]

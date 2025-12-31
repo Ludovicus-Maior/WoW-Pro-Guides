@@ -4,14 +4,11 @@
 ## Author: Twists
 ## IconTexture: Interface\ICONS\Trade_Engineering
 ## Dependencies: WoWPro
-## Version: 2025.11.05.B
+## Version: 2025.12.03.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Profession.lua
-Vendors\Guides.xml
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
 Vanilla\Guides.xml
-
-

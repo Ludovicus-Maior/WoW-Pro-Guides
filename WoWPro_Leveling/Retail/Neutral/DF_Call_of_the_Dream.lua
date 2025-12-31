@@ -1,6 +1,5 @@
-local guide = WoWPro:RegisterGuide('Call_of_the_Dream', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Call_of_the_Dream', 'Leveling', 'Emerald Dream', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Call of the Dream")
-WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideNickname(guide, "Call of the Dream")
 WoWPro:GuideQuestTriggers(guide, 76317, 76318)

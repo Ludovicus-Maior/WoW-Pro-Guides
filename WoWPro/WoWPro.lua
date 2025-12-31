@@ -518,7 +518,7 @@ function WoWPro:OnEnable()
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro:CreateFrames()
-        WoWPro:CreateConfig()
+        WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
     else -- Addon was previously disabled, so no need to create frames, just turn them back on
@@ -554,7 +554,7 @@ function WoWPro:OnEnable()
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
-    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuideSlow",0.333,WoWPro.UpdateGuideRealSlow)
+    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuideSlow",0.666,WoWPro.UpdateGuideRealSlow)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
     if WoWPro.Recorder then
@@ -1119,7 +1119,8 @@ local nameToID = {
     ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
     ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
     ["Dragonflight"] = _G.LE_EXPANSION_DRAGONFLIGHT,
-    ["The War Within"] = _G.LE_EXPANSION_THE_WAR_WITHIN,
+    ["The War Within"] = _G.LE_EXPANSION_WAR_WITHIN,
+    ["Midnight"] = _G.LE_EXPANSION_MIDNIGHT,
 }
 function WoWPro:GuideContent(guide, content)
     if content == "Intro" then

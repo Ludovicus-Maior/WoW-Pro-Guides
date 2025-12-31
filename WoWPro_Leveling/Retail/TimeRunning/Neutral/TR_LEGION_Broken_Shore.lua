@@ -32,7 +32,7 @@ A The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|From Arch
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
 A Defending Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46734|
-A Champions of Legionfall|QID|47137|PRE|46734|M|44.54,63.55|N|From Maiev Shadowsong. In Remix this quest instantly completes.|
+A Champions of Legionfall|QID|47137|PRE|43414^43359^43407^43409^43412^43415^43418^43420^43422^43423^43424|M|44.54,63.55|N|From Maiev Shadowsong. In Remix this quest instantly completes.|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 ;A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
 t The Mage Tower|QID|46772|M|44.54,63.15|N|To Commander Chambers.|
@@ -177,7 +177,6 @@ t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
 t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
 t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
 C Intolerable Infestation|QID|46252|US|N|Go to Felsoul Hold in Suramar or Faronaar in Azsuna (fly to Illidari Perch) and kill demons, lots of demons.|
-t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 C Relieved of Their Valuables|QID|46769|US|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
 C Take Out the Head...|QID|46250|US|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
@@ -248,9 +247,10 @@ A In Dire Need|QID|44821|M|22.08,38.99|Z|0627; Dalaran!Broken Isles|N|From Archm
 C In Dire Need|QID|44821|M|22.08,38.99|Z|0627; Dalaran!Broken Isles|NC|N|Listen to the Council's Plea.|
 T In Dire Need|QID|44821|M|22.26,39.65|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^47047^45482^47049^47050^47051^47052^46078^47003^47004^47005^47006^45560^47018^47019^47020^45123^47055^47056^47057^47058^47059^45182^47037^47039^47041^47042|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|The questgivers and quests you receive will vary based on your spec type  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains. Take all of them (1 per spec).|PRE|44821|
+
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
-P Stormwind|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|0627; Dalaran!Broken Isles|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Stormwind City|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|0627; Dalaran!Broken Isles|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Mount Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|84;Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
 P Orgrimmar|QID|44914^47046^47043^47048^47047|M|55.29,24.00|Z|85; Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914^47046^47043^47048^47047|FACTION|HORDE|
 C The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
 T The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
@@ -266,8 +266,7 @@ A The Archmage Accosted|QID|44924|M|25.01,38.52|Z|Azshara|N|From UI Alert.|PRE|4
 C The Archmage Accosted|QID|44924|M|25.4,39.2|Z|Azshara|N|Follow Xylem up to the top of the tower and through his portal, defeating apprentices as necessary. You will probably want to save CDs so you can burst kill the final apprentice at the top.|
 T The Archmage Accosted|QID|44924|M|25.22,37.90|Z|Azshara|N|To Joanna.|
 A A Portal Away|QID|46177|M|25.22,37.90|Z|Azshara|N|From Joanna.|PRE|44924|
-P Dalaran|QID|46177|M|25.22,37.90|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
-T A Portal Away|QID|46177|M|28.62,50.01|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
+
 ;A Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|From Archmage Ansirem Runeweaver.|
 C Aid of the Illidari|QID|45412^46314^47022^47023^47024^47025|M|47.81,29.79|Z|0627; Dalaran!Broken Isles|N|Kor'vas Bloodthorn is just outside the North Bank.|
 T Aid of the Illidari|QID|45412^46314^47022^47023^47024^47025|M|52.06,19.56|Z|0627; Dalaran!Broken Isles|N|To Kor'vas Bloodthorn.|
@@ -287,8 +286,7 @@ C Between Worlds|QID|45415|M|85.28,50.12|Z|100; Hellfire Peninsula|QO|2|CHAT|N|S
 C Between Worlds|QID|45415|M|84.73,50.04|Z|100; Hellfire Peninsula|QO|3|N|Fight the waves that come thru the portal until the last wave is Lord Vazuun.|
 T Between Worlds|QID|45415|M|85.30,50.11|Z|100; Hellfire Peninsula|N|To Kor'vas Bloodthorn.|
 A Dark Omens|QID|45843|M|85.30,50.11|Z|100; Hellfire Peninsula|N|From Kor'vas Bloodthorn.|PRE|45415|
-P Dalaran|QID|45843|M|44.73,63.23|Z|100; Hellfire Peninsula|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45843|
-T Dark Omens|QID|45843|M|28.35,48.93|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+
 ;Fate of the Tideskorn|QID|45482;47049;47050;47051;47052
 F Crimson Thicket|QID|45482^47049^47050^47051^47052|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45482^47049^47050^47051^47052|
 C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|1|M|65.34,50.85|Z|Suramar|CHAT|N|Go to the entrance to Jandvik and talk to Huntsman Slodi.|
@@ -312,40 +310,38 @@ T To Tame the Drekirjar|QID|45523|M|41.2,71.8|Z|Stormheim|N|To Jarl Velbrand.|
 A The Forgotten Heir|QID|45524|M|41.2,71.8|Z|Stormheim|N|From Silgryn.|PRE|45523|
 C The Forgotten Heir|QID|45524|M|73.70,86.07;74.2,84.8|CS|NC|QO|1|Z|Stormheim|N|Torvald can be found inside this cave near Vrekt.|
 C The Forgotten Heir|QID|45524|M|74.2,84.8|QO|2|Z|Stormheim|N|Not quite the happy reunion. Kill Torvald.|
-T The Forgotten Heir|QID|45524|M|59.6,50.8|Z|Stormheim|N|To Sigryn.|
-A Unanswered Questions|QID|45525|M|59.6,50.8|Z|Stormheim|N|From Sigryn.|PRE|45524|
-C Unanswered Questions|QID|45525|M|66.17,49.79|Z|Stormheim|N|Speak to Sigryn.|
-T Unanswered Questions|QID|45525|M|62.5,68.09|Z|Stormheim|N|To Eyir. Turn in quickly, dont read the text, as she often bugs out, if she does, drop quest and go repick it up.|
+T The Forgotten Heir|QID|45524|M|73.59,85.98|Z|0634; Stormheim!Broken Isles|N|To Sigryn. If she is not right outside the cave, she will be back at Eyir.|
+A Unanswered Questions|QID|45525|M|73.59,85.98|Z|0634; Stormheim!Broken Isles|N|From Sigryn.|PRE|45524|
+C Unanswered Questions|QID|45525|M|66.37,50.10|Z|0640; Vault of Eyir|N|Speak to Sigryn.|
+T Unanswered Questions|QID|45525|M|62.5,68.09|Z|0640; Vault of Eyir|N|To Eyir. Turn in quickly, dont read the text, as she often bugs out, if she does, drop quest and go repick it up.|
 A The Gates Are Closed|QID|46340|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45525|
-P Dalaran|QID|46340|M|65,68|Z|Stormheim|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46340|
-T The Gates Are Closed|QID|46340|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
+
 ;Bradensbrook Investigation|QID|46078;47003;47004;47005;47006
 F Bradensbrook|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|46078^47003^47004^47005^47006|
-T Bradensbrook Investigation|QID|46078^47003^47004^47005^47006|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
-A Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46078^47003^47004^47005^47006|
-C Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|NC|N|Use your healing abilities to heal and/or cure poison to the defenders lying on the ground just outside of Bradensbrook.|
-T Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
-A Shadowsong's Return|QID|46082|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46079|
-T Shadowsong's Return|QID|46082|M|39,58.2|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Cutting off the Heads|QID|46106|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
-A Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
-C Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|S|N|You may want to switch to your DPS spec (if possible) for this step. Otherwise just be careful and Jerod will help you to kill the Risen spirits.|
-C Cutting off the Heads|QID|46106|M|37.2,58.4|Z|Val'sharah|QO|2|N|Kill Nethos Starwalker.|T|Nethos Starwalker|
-C Cutting off the Heads|QID|46106|M|37,61.4|Z|Val'sharah|QO|1|N|Kill Disa Trueshaft.|T|Disa Trueshaft|
-C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|QO|3|N|Kill Tael'thos the Cutter.|T|Tael'thos the Cutter|
-C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing the risen spirits.|
-T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
-T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
-C Source of the Corruption|QID|46107|QO|1|M|38.55,54.68|N|Travel to Hero's Rest (outside of Blackrook Hold).|
-C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68|N|Jarod tries to reason with them. Kill the ones that can't be released.|
-C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
-T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
-P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46200|
-T The Matter Resolved... For Now...|QID|46200|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+T Bradensbrook Investigation|QID|46078^47003^47004^47005^47006|M|42.4,59|Z|0641; Val'sharah|N|To Mayor Heathrow.|
+A Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|N|From Mayor Heathrow.|PRE|46078^47003^47004^47005^47006|
+C Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|NC|N|Use your healing abilities to heal and/or cure poison to the defenders lying on the ground just outside of Bradensbrook.|
+T Aid on the Front Lines|QID|46079|M|42.4,59|Z|0641; Val'sharah|N|To Mayor Heathrow.|
+A Shadowsong's Return|QID|46082|M|42.4,59|Z|0641; Val'sharah|N|From Mayor Heathrow.|PRE|46079|
+T Shadowsong's Return|QID|46082|M|39,58.2|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A Cutting off the Heads|QID|46106|M|39,58.2|Z|0641; Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
+A Quieting the Spirits|QID|46080|M|39,58.2|Z|0641; Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
+C Quieting the Spirits|QID|46080|M|39,58.2|Z|0641; Val'sharah|S|N|You may want to switch to your DPS spec (if possible) for this step. Otherwise just be careful and Jerod will help you to kill the Risen spirits.|
+C Cutting off the Heads|QID|46106|M|37.2,58.4|Z|0641; Val'sharah|QO|2|N|Kill Nethos Starwalker.|T|Nethos Starwalker|
+C Cutting off the Heads|QID|46106|M|37,61.4|Z|0641; Val'sharah|QO|1|N|Kill Disa Trueshaft.|T|Disa Trueshaft|
+C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|0641; Val'sharah|QO|3|N|Kill Tael'thos the Cutter.|T|Tael'thos the Cutter|
+C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|0641; Val'sharah|US|N|Finish killing the risen spirits.|
+T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
+T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A Source of the Corruption|QID|46107|M|39.2,61.4|Z|0641; Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
+C Source of the Corruption|QID|46107|QO|1|M|38.33,53.35|Z|0641; Val'sharah|N|Travel to Hero's Rest (outside of Blackrook Hold).|
+C Source of the Corruption|QID|46107|QO|2|M|38.55,54.68|Z|0641; Val'sharah|N|Jarod tries to reason with them. Kill the ones that can't be released.|
+C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|0641; Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
+T Source of the Corruption|QID|46107|M|38.8,51.4|Z|0641; Val'sharah|N|To Commander Jarod Shadowsong.|
+A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|0641; Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
+
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
-F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
+F The Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
 T Rumblings Near Feltotem|QID|45560^47018^47019^47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|
 A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|45560^47018^47019^47020|
 C The Burning Birds|QID|45564|QO|1|M|33.40,23.32|Z|Highmountain|N|Click on the corpses to remove the fel infusing totems. Move quickly away to avoid the debuff. If you are squishy and get hit with the debuff, heal, eat, bandage, something... quickly.|
@@ -368,16 +364,15 @@ C Destroying the Nest|QID|45796|QO|3|M|34,34|Z|Highmountain|US|NC|N|Finish desto
 C Destroying the Nest|QID|45796|QO|4|M|34,34|Z|Highmountain|N|The Fel Broodmaster is to your right as you are leaving.|
 T Destroying the Nest|QID|45796|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
 A A Triumphant Report|QID|45841|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45796|
-P Dalaran|QID|45841|M|31.4,25|Z|Highmountain|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45841|
-T A Triumphant Report|QID|45841|M|28.8,48.8|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+
 ;Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059
-C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|1|M|41.27,37.02|CHAT|N|Ask Professor Pallin if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|2|M|49.45,73.10|CHAT|N|Ask Icks if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|3|M|49.78,40.15|CHAT|N|Ask Amasi Azuregaze if she has seen Levia.|
-C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|4|M|46.34,40.16|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|1|M|41.27,37.02|Z|627;Dalaran|CHAT|N|Ask Professor Pallin, in the inscription shop if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|2|M|49.45,73.10|Z|627;Dalaran|CHAT|N|Ask Icks in the shop next to the South Bank if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|3|M|49.78,40.15|Z|627;Dalaran|CHAT|N|Ask Amasi Azuregaze in the Legerdemain Lounge if she has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|4|M|46.34,40.16|Z|627;Dalaran|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
 T Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|M|28.46,48.92|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 A Bargaining with Shadows|QID|46327|M|28.46,48.92|Z|0627; Dalaran!Broken Isles|N|From Archmage Modera.|PRE|45123^47055^47056^47057^47058^47059|
-R Chamber of the Guardian|QID|46327|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|46327|
+R Chamber of the Guardian|ACTIVE|46327|M|49.04,48.03|Z|0627; Dalaran!Broken Isles|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|
 T Bargaining with Shadows|QID|46327|M|56.59,37.28;54.62,59.63|CS|Z|0629; Aegwynn's Gallery@Dalaran|N|Go down the first set of stairs and then to your left to find Ritssyn and turn this quest in.|
 A The Acolyte Imperiled|QID|45916|M|54.62,59.63|Z|0629; Aegwynn's Gallery@Dalaran|N|From Rittssyn Flamescowl.|PRE|46327|
 C The Acolyte Imperiled|QID|45916|M|57.86,72.85|QO|1|Z|0629; Aegwynn's Gallery@Dalaran|NC|N|Investigate the journal (just walk in the room).|
@@ -394,8 +389,7 @@ A Unlikely Seduction|QID|45126|M|25.67,57.74|Z|0630; Azsuna!Broken Isles|N|From 
 C Unlikely Seduction|QID|45126|M|25.83,57.43|Z|0630; Azsuna!Broken Isles|N|Defeat Agatha.|T|Agatha|
 T Unlikely Seduction|QID|45126|M|25.67,57.74|Z|0630; Azsuna!Broken Isles|N|To Levia Laurence|
 A Fel-Crossed Lovers|QID|45127|M|25.67,57.74|Z|0630; Azsuna!Broken Isles|N|From Levia Laurence|PRE|45126|
-P Dalaran|QID|45127|M|25.67,57.74|Z|0630; Azsuna!Broken Isles|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45127|
-T Fel-Crossed Lovers|QID|45127|M|28.46,48.92|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+
 ;Twisted Twin|QID|45182;47037;47039;47041;47042|
 T Twisted Twin|QID|45182^47037^47039^47041^47042|M|49.40,39.77|Z|0627; Dalaran!Broken Isles|N|To Karam Magespear.|
 A Message from the Shadows|QID|45185|M|49.40,39.77|Z|0627; Dalaran!Broken Isles|N|From Karam Magespear.|PRE|45182^47037^47039^47041^47042|
@@ -414,10 +408,32 @@ C Runes of Rending|QID|45192|QO|1|M|56.61,27.20|NC|N|Go slowly, be sure of your 
 C Runes of Rending|QID|45192|QO|2|M|59.43,27.34|N|Defeat Thar'kith.|T|Thar'kith|
 T Runes of Rending|QID|45192|M|59.81,27.45|N|To Karam Magespear.|
 A One Step Behind|QID|45193|M|59.81,27.45|N|From Karam Magespear.|PRE|45192|
-P Dalaran|QID|45193|M|59.7,27.4|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45193|
+
+;Final steps for all the artifact quest lines
+P Dalaran|ACTIVE|45127^45193^45841^45843^46177^46200^46340|M|PLAYER|N|Return to Dalaran and report your findings to the council.|U|140192|
+T A Portal Away|QID|46177|M|28.62,50.01|Z|0627; Dalaran!Broken Isles|N|To Archmage Kalec.|
+T The Matter Resolved... For Now...|QID|46200|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
 T One Step Behind|QID|45193|M|28.48,48.30|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
-; Obsolete [A Gift From the Six]
-F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
+T Dark Omens|QID|45843|M|28.35,48.93|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+T The Gates Are Closed|QID|46340|M|22.47,40.53|Z|0627; Dalaran!Broken Isles|N|To Archmage Khadgar.|
+T A Triumphant Report|QID|45841|M|28.8,48.8|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+T Fel-Crossed Lovers|QID|45127|M|28.46,48.92|Z|0627; Dalaran!Broken Isles|N|To Archmage Modera.|
+A A Gift From the Six|QID|45842|PRE|45841|M|28.43,48.90|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45861|PRE|45127|M|28.43,48.90|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45862|PRE|46340|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45863|PRE|45843|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45864|PRE|46200|M|28.43,48.90|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45865|PRE|46177|M|28.43,48.90|Z|627;Dalaran|N|From Archmage Modera.|
+A A Gift From the Six|QID|45866|PRE|45193|M|28.44,48.95|Z|627;Dalaran|N|From Archmage Modera.|
+C A Gift From the Six|ACTIVE|45842^45861^45862^45863^45864^45865^45866|M|30.43,48.95|Z|627;Dalaran|I|EAB|N|Step to the center of the rug and use you[color=33fff9] Extra Action Button [/color] to receive the Council's gift. If you aren't doing these all 3 together, you need to have the correct spec active and weapon equipped for the one you are doing.|
+T A Gift From the Six|QID|45842|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45861|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45862|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45863|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45864|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45865|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+T A Gift From the Six|QID|45866|M|28.36,48.87|Z|627;Dalaran|N|To Archmage Modera.|
+;obsolete in remix -- F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
 N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|
 ;F Deliverance Point|QID|99999|N|Fly back to Deliverance Point, make your donation to the construction effort and turn in the archeology quest.|
 N Guide Reset|N|Be sure and come back tomorrow for more fun and games on the Broken Shore.|ACH|11796|

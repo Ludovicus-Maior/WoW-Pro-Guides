@@ -307,7 +307,7 @@ R Temple of Fal'adora|QID|41452^41469|PRE|44492|M|45.81,31.22;38.49,42.14;54.27,
 R Irongrove Retreat|QID|41452|PRE|44492|M|22.48,39.90;22.48,30.26|Z|0680; Suramar|CS|QO|1|N|Run out of the temple, across the river and through Feathermane Hunting Grounds.|FLY|OLD|
 f Irongrove Retreat|QID|41452|PRE|44492|M|25.47,31.76|Z|0680; Suramar|QO|1|N|At Alyndra Stormgazer.|
 ; Good Suramaritan - Eminent Grow-Main Side Storyline
-A Feline Frantic|QID|41452|PRE|42229|M|25.67,30.95|Z|0680; Suramar|N|From Mayruna Moonwing.|
+A Feline Frantic|QID|41452|PRE|42229|M|25.67,30.95|Z|0680; Suramar|N|From Mayruna Moonwing.|RANK|2|
 C Feline Frantic|QID|41452|M|25.64,30.83|Z|0680; Suramar|NC|QO|1|N|Tidy the Ransacked Crate.|
 C Feline Frantic|QID|41452|M|26.12,31.62|Z|0680; Suramar|NC|QO|2|N|Correct Toppled Bench.|
 C Feline Frantic|QID|41452|M|26.47,31.78|Z|0680; Suramar|NC|QO|3|N|Collect the Spilled Grain.|
@@ -393,7 +393,7 @@ C Fate of the Guard|QID|40883|M|32.0,18.00;33.70,18.14|Z|0680; Suramar|CS|QO|3|N
 T Not Their Last Stand|QID|40949|M|33.71,18.02|Z|0680; Suramar|N|To Wounded Moonfall Defender.|
 T Fate of the Guard|QID|40883|M|33.73,18.09|Z|0680; Suramar|N|To Lyrea Windfeather.|
 T Sigil Reclamation|QID|41030|M|33.73,18.09|Z|0680; Suramar|N|To Lyrea Windfeather.|
-A Take Them in Claw|QID|40963|PRE|40883&40949&41030|M|33.71,18.02|Z|0680; Suramar|N|From Lyrea Windfeather.|
+A Take Them in Claw|QID|40963|PRE|40883&40949|M|33.71,18.02|Z|0680; Suramar|N|From Lyrea Windfeather.|
 C Take Them in Claw|QID|40963|M|31.81,22.60|Z|0680; Suramar|U|139882|N|Target the Nightborne and use vial to attract the wild hippogryphs.The nightborne can be found on this level and the next two.|
 T Take Them in Claw|QID|40963|M|31.43,23.20|Z|0680; Suramar|N|To Serena Windfeather, up the stairs.|
 A The Rift Between|QID|40964|PRE|40963|M|31.43,23.20|Z|0680; Suramar|N|From Serena Windfeather.|

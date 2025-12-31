@@ -1,17 +1,17 @@
 local guide = WoWPro:RegisterGuide('Dragonflight Intro', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Intro")
-WoWPro:GuideLevels(guide,10, 80)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84; Stormwind City|N|From UI Alert.|FACTION|Alliance|
+A The Dragon Isles Await|QID|65436|M|79.88,27.09|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
 C The Dragon Isles Await|QID|65436|QO|1|M|PLAYER|Z|84; Stormwind City|N|Use the Scale.|U|205456|FACTION|Alliance|
 C The Dragon Isles Await|QID|65436|QO|2|M|79.79,27.00|Z|84; Stormwind City|N|Talk to Wrathion.|CHAT|FACTION|Alliance|
 t The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion in Stormwind.|FACTION|Alliance|
-;A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85; Ogrimmar|N|From UI Alert.|FACTION|Horde|
-C The Dragon Isles Await|QID|65435|QO|1|M|PLAYER|Z|85; Ogrimmar|N|Use the Scale.|U|205456|FACTION|Horde|
+A The Dragon Isles Await|QID|65435|M|43.98,38.21|Z|85; Orgrimmar|N|From Ebyssian.|FACTION|Horde|
+C The Dragon Isles Await|QID|65435|QO|1|M|PLAYER|Z|85; Ogrimmar|N|Use the Scale.|U|205458|FACTION|Horde|
 C The Dragon Isles Await|QID|65435|QO|2|M|44.22,38.11|Z|85; Ogrimmar|N|Talk to Ebyssian.|CHAT|FACTION|Horde|
 t The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
 A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
@@ -40,6 +40,7 @@ T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To T
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Scalecommander Cinderthresh.|FACTION|Horde|
+P The Dranosh'ar Blockade|ACTIVE|65443|M|44.03,38.59|Z|0085; Orgrimmar|N|Take the portal to Dranosh'ar Blockade.|
 C Pathfinder Tacha|QID|65443|QO|2|M|54.03,13.00|Z|0001; Durotar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spire.|FACTION|Horde|
 C Kodethi|QID|72256|QO|1|M|54.15,9.93|Z|0001; Durotar|CHAT|N|Deliver the orders to Kodethi.|FACTION|Horde|
 C Boss Magor|QID|65443|QO|1|M|55.14,11.52|Z|0001; Durotar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
