@@ -9,25 +9,25 @@ return [[
 D You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
 D You silly Demon Hunter|QID|24764|C|Demon Hunter|N|Do not bother with this zone.  There are no quests for YOU.|
 D You silly Paladin|QID|24764|C|Paladin|N|Do not bother with this zone.  There are no quests for YOU.|
-D You silly Evoker|QID|24764|C|Evoker|N|Do not bother with this zone.  There are no quests for YOU.|
 A The Rise of the Darkspear|QID|31159|C|Monk|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24764|C|Druid|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24750|C|Mage|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24770|C|Rogue|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24607|C|Warrior|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|26272|C|Warlock|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24782|C|Priest|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24758|C|Shaman|M|42.82,53.44|N|From Jin'thala.|
-A The Rise of the Darkspear|QID|24776|C|Hunter|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|31159|C|Monk|M|52.57,51.86|N|To Zabrax.|
+A The Rise of the Darkspear|QID|24764|C|Druid|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24764|C|Druid|M|58.05,54.01|N|To Zen'tabra, who wanders.|
+A The Rise of the Darkspear|QID|24750|C|Mage|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24750|C|Mage|M|59.67,52.07|N|To Soratha.|
+A The Rise of the Darkspear|QID|24770|C|Rogue|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24770|C|Rogue|M|52.89,49.91|N|To Legati.|
+A The Rise of the Darkspear|QID|24607|C|Warrior|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24607|C|Warrior|M|52.55,53.66|N|To Nortet.|
+A The Rise of the Darkspear|QID|26272|C|Warlock|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|26272|C|Warlock|M|50.03,49.93|N|To Voldreka.|
+A The Rise of the Darkspear|QID|24782|C|Priest|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24782|C|Priest|M|58.04,49.26|N|To Tunari.|
+A The Rise of the Darkspear|QID|24758|C|Shaman|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24758|C|Shaman|M|50.08,52.75|N|To Nekali.|
+A The Rise of the Darkspear|QID|24776|C|Hunter|M|42.82,53.44|N|From Jin'thala.|
 T The Rise of the Darkspear|QID|24776|C|Hunter|M|56.38,50.09|N|To Ortezza.|
+
 A The Basics: Hitting Things|QID|31158|C|Monk|PRE|31159|M|52.57,51.86|N|From Zabrax.|
 A The Basics: Hitting Things|QID|24765|C|Druid|PRE|24764|M|58.13,54.14|N|From Zen'tabra.|
 A The Basics: Hitting Things|QID|24751|C|Mage|PRE|24750|M|59.68,52.10|N|From Soratha.|
@@ -118,15 +118,44 @@ T Proving Pit|QID|26276|C|Warlock|M|51.40,52.59|N|To Voldreka.|
 T Proving Pit|QID|24786|C|Priest|M|57.57,52.68|N|To Tunari.|
 T Proving Pit|QID|24762|C|Shaman|M|51.72,52.06|N|To Nekali.|
 T Proving Pit|QID|24780|C|Hunter|M|57.22,50.78|N|To Ortezza.|
-A More Than Expected|QID|31163|PRE|31161|C|Monk|M|52.56,51.84|N|From Zabrax.|
-A More Than Expected|QID|24769|PRE|24768|C|Druid|M|58.04,53.82|N|From Zen'tabra.|
-A More Than Expected|QID|24755|PRE|24754|C|Mage|M|59.68,52.10|N|From Soratha.|
-A More Than Expected|QID|24775|PRE|24774|C|Rogue|M|52.89,49.90|N|From Legati.|
-A More Than Expected|QID|24643|PRE|24642|C|Warrior|M|52.62,53.59|N|From Nortet.|
-A More Than Expected|QID|26277|PRE|26276|C|Warlock|M|50.02,49.96|N|From Voldreka.|
+
+A The Arts of a Monk|QID|31162|PRE|31161|C|Monk|M|52.57,51.86|N|To Zabrax.|
+C The Arts of a Monk|QID|31162|M|67.50,84.19|Z|0463; Echo Isles|N|Practice.|C|Monk|
+T The Arts of a Monk|QID|31162|C|Monk|M|52.57,51.86|N|To Zabrax.|
+A The Arts of a Druid|QID|24766|PRE|24768|M|PLAYER|Z|0463; Echo Isles|N|From Zen'tabra.|C|Druid|
+C The Arts of a Druid|QID|24766|M|PLAYER|Z|0463; Echo Isles|N|Practice.|C|Druid|
+T The Arts of a Druid|QID|24766|M|PLAYER|Z|0463; Echo Isles|N|To Zen'tabra.|C|Druid|
+A The Arts of a Hunter|QID|24778|PRE|24780|M|PLAYER|Z|0463; Echo Isles|N|From Ortezza.|C|Hunter|
+C The Arts of a Hunter|QID|24778|M|PLAYER|Z|0463; Echo Isles|N|Train Steady Shot and practice.|C|Hunter|
+T The Arts of a Hunter|QID|24778|M|PLAYER|Z|0463; Echo Isles|N|To Ortezza.|C|Hunter|
+A The Arts of a Mage|QID|24752|PRE|24754|M|PLAYER|Z|0463; Echo Isles|N|From Soratha.|C|Mage|
+C The Arts of a Mage|QID|24752|M|PLAYER|Z|0463; Echo Isles|N|Train Arcane Intellect and practice.|C|Mage|
+T The Arts of a Mage|QID|24752|M|PLAYER|Z|0463; Echo Isles|N|To Soratha.|C|Mage|
+A The Arts of a Priest|QID|24784|PRE|24786|M|PLAYER|Z|0463; Echo Isles|N|From Tunari.|C|Priest|
+C The Arts of a Priest|QID|24784|M|PLAYER|Z|0463; Echo Isles|N|Train Power Word: Fortitude and practice.|C|Priest|
+T The Arts of a Priest|QID|24784|M|PLAYER|Z|0463; Echo Isles|N|To Tunari.|C|Priest|
+A The Arts of a Rogue|QID|24772|PRE|24774|M|PLAYER|Z|0463; Echo Isles|N|From Legati.|C|Rogue|
+C The Arts of a Rogue|QID|24772|M|PLAYER|Z|0463; Echo Isles|N|Train Stealth and practice.|C|Rogue|
+T The Arts of a Rogue|QID|24772|M|PLAYER|Z|0463; Echo Isles|N|To Legati.|C|Rogue|
+A The Arts of a Shaman|QID|24760|PRE|24762|M|PLAYER|Z|0463; Echo Isles|N|From Nekali.|C|Shaman|
+C The Arts of a Shaman|QID|24760|M|PLAYER|Z|0463; Echo Isles|N|Train Primal Strike and practice.|C|Shaman|
+T The Arts of a Shaman|QID|24760|M|PLAYER|Z|0463; Echo Isles|N|To Nekali.|C|Shaman|
+A The Arts of a Warlock|QID|26274|PRE|26276|M|PLAYER|Z|0463; Echo Isles|N|From Voldreka.|C|Warlock|
+C The Arts of a Warlock|QID|26274|M|PLAYER|CC|N|Practice on a Tiki Target.|C|Warlock|
+T The Arts of a Warlock|QID|26274|M|PLAYER|Z|0463; Echo Isles|N|To Voldreka.|C|Warlock|
+A The Arts of a Warrior|QID|24640|PRE|24642|M|PLAYER|Z|0463; Echo Isles|N|From Nortet.|C|Warrior|
+C The Arts of a Warrior|QID|24640|QO|2|M|PLAYER|Z|0463; Echo Isles|N|Practice on a Tiki Target.|C|Warrior|
+T The Arts of a Warrior|QID|24640|M|52.56,53.65|Z|0463; Echo Isles|N|To Nortet.|C|Warrior|
+
+A More Than Expected|QID|31163|PRE|31162|C|Monk|M|52.56,51.84|N|From Zabrax.|
+A More Than Expected|QID|24769|PRE|24766|C|Druid|M|58.04,53.82|N|From Zen'tabra.|
+A More Than Expected|QID|24755|PRE|24752|C|Mage|M|59.68,52.10|N|From Soratha.|
+A More Than Expected|QID|24775|PRE|24772|C|Rogue|M|52.89,49.90|N|From Legati.|
+A More Than Expected|QID|24643|PRE|24640|C|Warrior|M|52.62,53.59|N|From Nortet.|
+A More Than Expected|QID|26277|PRE|26274|C|Warlock|M|50.02,49.96|N|From Voldreka.|
 A More Than Expected|QID|24787|PRE|24784|C|Priest|M|58.04,49.26|N|From Tunari.|
-A More Than Expected|QID|24763|PRE|24762|C|Shaman|M|50.08,52.74|N|From Nekali.|
-A More Than Expected|QID|24781|PRE|24780|C|Hunter|M|56.37,50.08|N|From Ortezza.|
+A More Than Expected|QID|24763|PRE|24760|C|Shaman|M|50.08,52.74|N|From Nekali.|
+A More Than Expected|QID|24781|PRE|24778|C|Hunter|M|56.37,50.08|N|From Ortezza.|
 T More Than Expected|QID|31163|C|Monk|M|61.57,65.85|N|To Vol'jin.|
 T More Than Expected|QID|24769|C|Druid|M|61.57,65.85|N|To Vol'jin.|
 T More Than Expected|QID|24755|C|Mage|M|61.57,65.85|N|To Vol'jin.|
