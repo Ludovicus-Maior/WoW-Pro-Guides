@@ -392,7 +392,7 @@ T Hamuul Runetotem|QID|1489|M|78.57,28.57|Z|1456; Thunder Bluff|N|To Arch Druid 
 A Nara Wildmane|QID|1490|PRE|1489|M|78.57,28.57|Z|1456; Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|
 T Nara Wildmane|QID|1490|M|75.65,31.63|Z|1456; Thunder Bluff|N|To Nara Wildmane.| ;120
 A Leaders of the Fang|QID|914|PRE|1490|M|75.65,31.63|Z|1456; Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.\n[color=FF0000]NOTE: [/color]Skip if you wish.|DUNGEON|NA|
-F Orgrimmar|AVAILABLE|6548|M|12.24,33.80|Z|1440; Ashenvale|N|Fly to Orgrimmar to do your training.|LV|20|C|Warlock,Rogue|
+F Orgrimmar|AVAILABLE|6548|M|12.24,33.80|Z|1440; Ashenvale|N|Fly to Orgrimmar to do your training.|LVL|20|C|Warlock,Rogue|
 = Level 20 Training|AVAILABLE|6548|M|PLAYER|CC|N|Do your level 20 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|20|IZ|1454; Orgrimmar|C|Warlock,Rogue|
 = Level 20 Training|AVAILABLE|6548|M|PLAYER|CC|N|Do your level 20 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|20|IZ|1456; Thunder Bluff|C|-Warlock,-Rogue|
 r Housekeeping|AVAILABLE|6548|N|Take a minute to visit the bank to pick up or offload items, the Auction House to find some gear or make some coin, or the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|C|-Warlock,-Druid|IZ|1456; Thunder Bluff|

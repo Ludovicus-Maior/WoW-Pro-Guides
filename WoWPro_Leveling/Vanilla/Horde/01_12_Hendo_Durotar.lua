@@ -29,7 +29,7 @@ A Simple Parchment|QID|2383|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.
 A Simple Tablet|QID|3065|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Warrior|
 A Etched Tablet|QID|3082|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Hunter|
 A Encrypted Tablet|QID|3083|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Rogue|
-A Rune-Inscribed Tablet|QID|PRE|788|3084|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Shaman|
+A Rune-Inscribed Tablet|QID|3084|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Shaman|
 A Hallowed Tablet|QID|3085|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Priest|
 A Glyphic Tablet|QID|3086|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Troll|C|Mage|
 A Etched Parchment|QID|3087|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|R|Orc|C|Hunter|
@@ -203,7 +203,7 @@ T Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok in Razor Hill
 L Level 10|PRE|837|AVAILABLE|6069|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're level 10.|LVL|10|R|Orc,Troll|C|Hunter|S|
 R Sen'jin Village|AVAILABLE|6069|M|54.33,72.91|Z|1411; Durotar|N|Head to Sen'jin Village.|R|Orc,Troll|C|Hunter|
 L Level 10|PRE|837|AVAILABLE|6069|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're level 10.|LVL|10|R|Orc,Troll|C|Hunter|US|
-A The Hunter's Path|QID|6069|M|56.2 74.2|Z|1411; Durotar|N|From Kali Remik.|R|Orc,Troll|C|Hunter|
+A The Hunter's Path|QID|6069|M|56.2,74.2|Z|1411; Durotar|N|From Kali Remik.|R|Orc,Troll|C|Hunter|
 R Razor Hill|ACTIVE|6069|M|52.48,44.42|Z|1411; Durotar|N|Return to Razor Hill.|LVL|10|R|Orc,Troll|C|Hunter|
 = Level 10 Training|AVAILABLE|840|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|-Mage|
 = Level 10 Training|AVAILABLE|840|M|PLAYER|CC|N|There's no need to run to Sen'jin at this time because you're headed to Orgrimmar shortly and you can do your training there.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Mage|
