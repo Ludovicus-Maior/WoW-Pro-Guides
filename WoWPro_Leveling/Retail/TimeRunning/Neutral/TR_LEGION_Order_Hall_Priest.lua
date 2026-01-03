@@ -136,9 +136,9 @@ l Discipline Hidden Appearance|QID|43667|PRE|44339&44340&44341&44342&44343&44344
 U Discipline Hidden Appearance|QID|43667|O|U|139567|N|Use the item, You must be in Disc spec. Grats on the new look.|
 A Holy Hidden Appearance|QID|43668|PRE|42074|S!US|N|Requires exalted with Valarjar combine drop from Hyrja in Halls of Valor, with item purchased from Valarjar quartermaster.|REP|Valarjar;1948;hostile-revered|
 A Holy Hidden Appearance|QID|43668|PRE|42074|S!US|N|Congrats, now that you have the faction, run Halls of Valor until Hyrja gives you Crest of the Lightborn.|REP|Valarjar;1948;exalted|L|140657|
-A Holy Hidden Appearance|QID|43668|PRE|42074|L|140656|N|Go buy Rod of the Ascended from Valdemar Stormseeker in Valdisdal, Stormheim.|REP|Valarjar;1948;exalted|
-U Holy Hidden Appearance|QID|43668|PRE|42074|O|U|140657|L|139568|N|Combine the two items.|REP|Valarjar;1948;exalted|
-U Holy Hidden Appearance|QID|43668|PRE|40724|O|U|139568|N|Use the item, You must be in Holy spec. Grats on the new look.|
+A Holy Hidden Appearance|QID|43668|PRE|42074|M|60.23,51.41|Z|0634; Stormheim!Broken Isles|L|140656|N|Go buy Rod of the Ascended from Valdemar Stormseeker in Valdisdal, Stormheim.|REP|Valarjar;1948;exalted|
+U Holy Hidden Appearance|QID|43668|PRE|42074|O|U|140657|L|139568|N|Combine the two items.|
+U Holy Hidden Appearance|QID|43668|PRE|42074|O|U|139568|N|Use the item, You must be in Holy spec. Grats on the new look.|
 A Shadow Hidden Appearance|QID|43669|PRE|40710|S!US|L|139569|N|Drops from Il'gynoth in the Emerald Nightmare raid on any difficulty.|
 U Shadow Hidden Appearance|QID|43669|PRE|40710|O|U|139569|N|Use the item, You must be in Shadow spec. Grats on the new look.|
 
@@ -258,7 +258,7 @@ H Dalaran|ACTIVE|43393|U|140192|M|24.29,37.79|Z|Duskwood|N|Use your Dalaran Hear
 A Crossing Legion Lines|QID|43394|PRE|43392|M|49.71,59.40|N|From Lord Maxwell Tyrosus who has come to visit your order hall.|
 T Rising Shadows|QID|43393|M|51.58,47.77|N|To Alonsus Faol.|
 F Felblaze Ingress|ACTIVE|43394|M|69.85,51.16|Z|0627; Dalaran!Broken Isles|N|Run back out to Dalaran and Krasus' Landing. Fly out to Felblaze Ingress.|
-     C Crossing Legion Lines|QID|43394|QO|1|NC|M|67.12,27.74|Z|0630; Azsuna!Broken Isles|N|Click to use the Felblaze Ingress Portal.|
+C Crossing Legion Lines|QID|43394|QO|1|NC|M|67.12,27.74|Z|0630; Azsuna!Broken Isles|N|Click to use the Felblaze Ingress Portal.|
 C Crossing Legion Lines|QID|43394|QO|2|NC|M|49,63.4|Z|Niskara#1078|N|Free Aponi Brightmane.|
 T Crossing Legion Lines|QID|43394|M|49,63.4|Z|Niskara#1078|N|To Aponi Brightmane.|
 A The Mind of the Enemy|QID|43396|PRE|43394|M|49,63.4|Z|Niskara#1078|N|From Aponi Brightmane.|
@@ -320,7 +320,7 @@ A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you
 A Goddess Watch Over You|QID|44337^44338|PRE|44153|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45. The full quest chain in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|
 
 R Broken Shore|AVAILABLE|47137|M|44.58,63.36|Z|0646; Broken Shore|N|Head to the Broken Shore and do the Legionfall campaign at least thru Champions of Legionfall before you come back to this guide.|
-A The Power Within|QID|43496|PRE|43420|M|49.68,16.98||N|From Image of Kalec,This appears up to 48 hours after you finish class order campaign. The full questline is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet - guessing at location. I havent gotten the quest yet
+A The Power Within|QID|43496|PRE|43420|M|49.68,16.98|N|From Image of Kalec,This appears up to 48 hours after you finish class order campaign. The full questline is covered in a separate guide, titled [Color=7eff8a] Balance of Power [/color]. The end result is an artifact appearance.|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead).may be a hidden QID for the one day delay (i.e. becomes unchecked the next day. but qc doesnt show one yet - guessing at location. I havent gotten the quest yet
 
 ; Champion added 3/14/2017
 A Investigate the Broken Shore|QID|46029|PRE|43420|M|51.41,45.88|N|From Moira Thaurissan.|
