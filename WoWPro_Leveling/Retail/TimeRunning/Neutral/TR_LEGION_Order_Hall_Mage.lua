@@ -153,8 +153,8 @@ A Arcane Hidden Appearance|QID|43828&43799|PRE|43787&43788&43789&43790&43791|S!U
 A Arcane Hidden Appearance|QID|43800|PRE|43799|M|60.2,54.8;66.8,54.4;70.2,56.8;76.8,62.4;79.4,67.9;72.0,49.6;70.8,38.0;64.8,45|CS|Z|0634; Stormheim!Broken Isles|N|Go to Valdisdall in Stormheim, and then search in the Runewood (and beyond) for an Extremely Volatile Stormheim Sheep. Right click it till it explodes.|T|Extremely|
 H Arcane Hidden Appearance|QID|43658|PRE|43800|N|Return to Dalaran.|IZ|634|
 P Arcane Hidden Appearance|QID|43658|PRE|43800|M|33.08,77.03|Z|0629; Aegwynn's Gallery@Dalaran|N|Take the Karazhan portal in Dalaran and fly to Elwynn Forest.|FACTION|HORDE|IZ|627| ;or use Portal Stonard if not in remix
-P Arcane Hidden Appearance|QID|43658|PRE|43800|N|Take the Stormwind portal in Dalaran and fly to Elwynn Forest.|FACTION|ALLIANCE|IZ|627|
-A Arcane Hidden Appearance|QID|43658|PRE|43800|M|64.11,68.72|Z|0037; Elwynn Forest|N|Fly to Elwynn Forest to the Tower of Azora, talk to Cote and go thru the vignette. You may need to wait for a bit for it to reset if someone else just finished it.|L|139558|
+P Arcane Hidden Appearance|QID|43658|PRE|43800|M|39.60,63.33|Z|0627; Dalaran!Broken Isles|N|Take the Stormwind portal in Dalaran and fly to Elwynn Forest.|FACTION|ALLIANCE|IZ|627|
+A Arcane Hidden Appearance|QID|43658|PRE|43800|M|64.11,68.72|Z|0037; Elwynn Forest|L|139558|N|Fly to Elwynn Forest to the Tower of Azora, talk to Cote and go thru the vignette. You may need to wait for a bit for it to reset if someone else just finished it.|
 U Arcane Hidden Appearance|QID|43658|O|U|139558|N|Be in Arcane spec and click the item.|
 A Fire Hidden Appearance|QID|43659|PRE|11997|M|31.94,84.24|Z|0680; Suramar|S!US|L|139559|N|Kill mobs in Suramar until you get this drop. Felsoul Hold has been reported as a great spot.|
 U Fire Hidden Appearance|QID|43659|O|U|139559|N|Use the item, You must be in Fire spec. Grats on the new look.|
