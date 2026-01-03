@@ -23,10 +23,10 @@ C Making the Rounds|QID|39698|QO|3|M|61.48,9.07|Z|1; Durotar|NC|N|This step will
 T Making the Rounds|QID|39698|M|61.50,8.77|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|
 A The Splintered Fleet|QID|39801|PRE|39698|M|61.50,8.77|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
 C The Windrunner|QID|39801|SO|1|M|55.36,64.92|Z|AraukNashalIntroScenario|H|N|Click on Lady Sylvanas to start the dialog.|
-C The Windrunner|QID|39801|SO|2|M|53.83,64.92|Z|AraukNashalIntroScenario|V|N|Ride with Nathanos then hop on the Catapult and shoot down the skyfire gryphons.|
-C The Blightcaller|QID|39801|SO|3|M|42.05,54.13|Z|AraukNashalIntroScenario|V|N|Ride with Nathanos to 'The Blightcaller' and then slay all paratroopers there.|
-C The Black Rose|QID|39801|SO|4|M|47.01,50.10|Z|AraukNashalIntroScenario|V|N|Ride with Nathanos and then slay all worgen on The Black Rose.|
-C Boarding the Skyfire|QID|39801|SO|5|M|72.63,71.44|Z|AraukNashalIntroScenario|NC|N|Place volatile flares (at the glowing bottles) on this floor and the ones upstairs.|
+C The Windrunner|QID|39801|SO|2|M|43.08,39.80|Z|0671; The Cove of Nashal!Instance|V|N|Ride with Nathanos then hop on the Catapult and shoot down the skyfire gryphons.|
+C The Blightcaller|QID|39801|SO|3|M|40.85,36.42;41.81,54.74|CS|Z|0671; The Cove of Nashal!Instance|V|N|Ride with Nathanos to 'The Blightcaller' and then slay all paratroopers there.|
+C The Black Rose|QID|39801|SO|4|M|41.75,51.42;47.01,50.10|CS|Z|0671; The Cove of Nashal!Instance|V|N|Ride with Nathanos and then slay all worgen on The Black Rose.|
+C Boarding the Skyfire|QID|39801|SO|5|M|48.91,51.58;72.63,71.44|CS|Z|0671; The Cove of Nashal!Instance|NC|N|Ride with Nathanos and then place volatile flares (at the glowing bottles) on this floor and the ones upstairs.|
 C Queen Takes King|QID|39801|SO|6|M|69.53,79.62|Z|AraukNashalIntroScenario|N|Go to the top floor and fight more soldiers until Genn shows, then defeat Genn Greymane.|
 T The Splintered Fleet|QID|39801|M|36.07,27.56|N|To Dread-Rider Cullen.|
 A The Ranger Lord|QID|38332|PRE|39801|M|36.07,27.56|N|From Dread-Rider Cullen. Congrats, you found a bug, go turn in and then get this quest.|
