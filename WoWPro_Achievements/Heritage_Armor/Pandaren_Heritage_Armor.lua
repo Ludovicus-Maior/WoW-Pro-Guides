@@ -16,7 +16,6 @@ T To Dai-Lo Farmstead|QID|84453|M|69.60,67.47|Z|2366;The Wandering Isle|N|To Che
 A Tide of Virmen|QID|84454|PRE|84453|M|69.60,67.47|Z|2366;The Wandering Isle|N|From Chen Stormstout.|
 A Big Bertha|QID|84455|PRE|84453|M|69.72,67.30|Z|2366;The Wandering Isle|N|From Chon Po Stormstout.|
 C Tide of Virmen|QID|84454|M|74.07,74.39|Z|2366;The Wandering Isle|QO|1|NC|N|Take back the farm! (100%).|
-A Order of Embers|QID|50600|PRE|84453|M|71.79,71.44|Z|2366;The Wandering Isle|N|From Plump Virmen.|
 C Big Bertha|QID|84455|M|71.66,70.53;74.55,73.31|CS|Z|2366;The Wandering Isle|QO|1|NC|N|Big Bertha found.|
 C Big Bertha|QID|84455|M|74.71,74.08|Z|2366;The Wandering Isle|QO|2|N|Yak Eater slain.|
 T Big Bertha|QID|84455|M|69.91,67.36|Z|2366;The Wandering Isle|N|To Chon Po Stormstout.|
