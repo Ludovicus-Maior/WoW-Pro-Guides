@@ -3439,7 +3439,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 end
-                print(allPositiveComplete, allNegativeComplete)
                 if allPositiveComplete then
                     if stepAction == "T" or stepAction == "U" then
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."

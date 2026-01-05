@@ -248,7 +248,7 @@ end
 ]]
 -- Update GetLootTrackingInfo to handle a table of items and return a combined tracking string (e.g., "ItemA: 2/5, ItemB: 1/3")
     if not lootItems or next(lootItems) == nil then return "" end
-    local tracks = {}
+    local tracks = ""
     for itemID, qty in pairs(lootItems) do
         if _G.WoWPro.C_Item_GetItemInfo(itemID) then
             local numinbag = _G.WoWPro.C_Item_GetItemCount(itemID)
@@ -256,10 +256,13 @@ end
             if (qty > 0 and numinbag >= qty) or (qty < 0 and numinbag < -qty) then
                 track = track .. " (C)"
             end
-            table.insert(tracks, track)
+            if tracks ~= "" then
+                tracks = tracks .. ", "
+            end
+            tracks = tracks .. track
         end
     end
-    return " - " .. table.concat(tracks, ", ")
+    return " - " .. tracks
 end
 
 -- Auto-Complete: Loot based --

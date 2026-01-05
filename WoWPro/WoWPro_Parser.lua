@@ -504,11 +504,14 @@ function WoWPro.EmitStep(i)
         local key = WoWPro.TagTable[tag].key
         -- Special tags get handled first
         if key == "lootitem" and WoWPro.lootitem[i] then
-            local items = {}
+            local items = ""
             for itemID, qty in pairs(WoWPro.lootitem[i]) do
-                table.insert(items, itemID .. " " .. qty)
+                if items ~= "" then
+                    items = items .. ";"
+                end
+                items = items .. itemID .. " " .. qty
             end
-            line = addTagValue(line, tag, table.concat(items, ";"))
+            line = addTagValue(line, tag, items)
         elseif key == "sticky" then
             if WoWPro.sticky[i] and WoWPro.unsticky[i] then
                 line = addTag(line, "S!US")
