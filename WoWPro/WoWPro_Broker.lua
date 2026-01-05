@@ -1978,7 +1978,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-            -- A/$ Steps --
+            -- A/$/U Steps --
             if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
                 if WoWPro.fail[guideIndex] then
                     WoWPro:dbp("Considering FAIL on %s [%s]", stepAction, step)
@@ -2014,6 +2014,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            -- A/N Group Steps --
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
                 local why = "You are not in a group."
                 WoWPro.why[guideIndex] = why
@@ -2021,7 +2022,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 skip = true
                 break
             end
-
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() >= 0) and stepAction == "N") then
                 local why = "You are in a group, note not needed."
                 WoWPro.why[guideIndex] = why
@@ -2030,7 +2030,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 break
             end
 
-            -- Availible quests: not complete  --
+            -- Available quests: not complete  --
             if WoWPro.available[guideIndex] then
                 if not WoWPro.QuestAvailable(WoWPro.available[guideIndex], false, "AVAILABLE") then
                     skip = true
@@ -2243,6 +2243,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 skip = true
                 break
             end
+
             -- Scenario objectives
             if WoWPro.sobjective[guideIndex] then
                 if WoWPro.Scenario then
@@ -2303,7 +2304,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-
             -- Skip C or T steps if not in QuestLog
             if (stepAction == "C" or stepAction == "T") and QID then
                 -- WoWPro:Print("LFO: %s [%s/%s] step %s",stepAction,step,QID,guideIndex)
@@ -2326,7 +2326,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Complete "f" steps if we know the flight point already
-            if stepAction == "f"  and WoWProCharDB.Taxi and WoWProCharDB.Taxi[step] then
+            if stepAction == "f" and WoWProCharDB.Taxi and WoWProCharDB.Taxi[step] then
                 WoWPro.CompleteStep(guideIndex, "Taxi point known")
                 skip = true
                 break
@@ -3270,6 +3270,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 end
             end
+
             -- WoWPro.recipe a number
             if WoWPro.recipe and WoWPro.recipe[guideIndex] then
                 WoWPro:dbp("Step %d Recipe %d",guideIndex,WoWPro.recipe[guideIndex])
@@ -3281,6 +3282,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     break
                 end
             end
+
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
                 local buff = WoWPro.buff[guideIndex]
@@ -3313,6 +3315,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     break
                 end
             end
+
             -- Test for pets
             if WoWPro.pet and WoWPro.pet[guideIndex] then
                 local petID,petCount,petFlip = (";"):split(WoWPro.pet[guideIndex])
@@ -3414,6 +3417,58 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- WoWPro:dbp("Checkpoint Daleth for step %d",guideIndex)
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
+                -- Serialize the lootitem table for debug
+                local lootStr = ""
+                for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                    lootStr = lootStr .. itemID .. ":" .. qty .. " "
+                end
+                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s", stepAction, step, tostring(QID), guideIndex, lootStr:trim())
+
+                -- Check if all loot items meet the condition
+                local allPositiveComplete = true
+                local allNegativeComplete = true
+                local hasNegative = false
+                for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                    local count = _G.WoWPro.C_Item_GetItemCount(itemID)
+                    if qty > 0 and count < qty then
+                        allPositiveComplete = false
+                    elseif qty < 0 then
+                        hasNegative = true
+                        if count >= -qty then
+                            allNegativeComplete = false
+                        end
+                    end
+                end
+                print(allPositiveComplete, allNegativeComplete)
+                if allPositiveComplete then
+                    if stepAction == "T" or stepAction == "U" then
+                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
+                    else
+                        if rowIndex == 1 then
+                            WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have enough loot in bags.")
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): skipped cause you have enough loot in bags."
+                        end
+                        skip = true
+                    end
+                end
+                if hasNegative and allNegativeComplete then
+                    if rowIndex == 1 then
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
+                    else
+                        WoWPro.why[guideIndex] = "NextStep(): skipped cause you consumed loot in bags."
+                    end
+                    skip = true
+                elseif hasNegative and not allNegativeComplete then
+                    if stepAction == "T" or stepAction == "U" then
+                        WoWPro.why[guideIndex] = "NextStep(): not enough loot to turn in quest or use the items."
+                        skip = true
+                        break
+                    end
+                end
+-- Old code for single lootitem/lootqty check
+-- removed in favor of multiple lootitem/qty support above
+--[[        if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
                 if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
                     if stepAction == "T" or stepAction == "U" then
@@ -3443,7 +3498,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         skip = true
                         break
                     end
-                end
+                end ]]
             else
                 -- Special for Buy steps where the step name is the item to buy and no |L| specified
                 if stepAction == "B" then

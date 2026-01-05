@@ -1079,15 +1079,29 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "input",
                     name = "Looted Item ID:",
                     desc = "If the step completes when you loot an item, put it's ID here.",
-                    get = function(info) return WoWPro.lootitem[WoWPro.Recorder.SelectedStep] end,
-                    set = function(info,val)
-                        if val == "" then val = nil end
-                        WoWPro.lootitem[WoWPro.Recorder.SelectedStep] = val
-                        WoWPro:UpdateGuide();
-                        WoWPro.Recorder:SaveGuide()
+                    get = function(info)
+                        local items = WoWPro.lootitem[WoWPro.Recorder.SelectedStep]
+                        if items then
+                            local str = ""
+                            for itemID, qty in pairs(items) do
+                                str = str .. itemID .. " " .. qty .. ";"
+                            end
+                            return str:sub(1, -2)  -- Remove trailing ;
+                        end
+                        return ""
+                    end,
+                    set = function(info, val)
+                        WoWPro.lootitem[WoWPro.Recorder.SelectedStep] = {}
+                        for itemPair in val:gmatch("([^;]+)") do
+                            local itemID, qty = itemPair:match("(%d+)%s?(%-?%d*)")
+                            if itemID then
+                                WoWPro.lootitem[WoWPro.Recorder.SelectedStep][tonumber(itemID)] = tonumber(qty) or 1
+                            end
+                        end
                     end,
                 },
-                lootqty = {
+-- lootqty removed, as lootitem now includes quantities
+--[[                 lootqty = {
                     order = 25,
                     type = "input",
                     name = "Looted Item Quantity:",
@@ -1100,7 +1114,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         WoWPro.Recorder:SaveGuide()
                     end,
                 },
-                level = {
+ ]]                level = {
                     order = 26,
                     type = "input",
                     name = "Level Completion:",

@@ -377,14 +377,15 @@ DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomple
 
 -- Item or Quest Objective Tags
 DefineTag("L","lootitem","string",nil,function(text,i)
-    local _
-    _, _, WoWPro.lootitem[i], WoWPro.lootqty[i] = text:find("(%d+)%s?(%-?%d*)");
-    -- WoWPro:dbp("L [%s]/[%s]",WoWPro.lootitem[i], WoWPro.lootqty[i])
-    if WoWPro.lootitem[i] then
-        if tonumber(WoWPro.lootqty[i]) ~= nil then
-            WoWPro.lootqty[i] = tonumber(WoWPro.lootqty[i])
-        else
-            WoWPro.lootqty[i] = 1
+    if not WoWPro.lootitem[i] then
+        WoWPro.lootitem[i] = {}
+    end
+    for itemPair in text:gmatch("([^;]+)") do  -- Split on ;
+        local itemID, qty = itemPair:match("(%d+)%s?(%-?%d*)")
+        if itemID then
+            itemID = tonumber(itemID)
+            qty = qty and tonumber(qty) or 1
+            WoWPro.lootitem[i][itemID] = qty
         end
     end
 end)
@@ -503,11 +504,11 @@ function WoWPro.EmitStep(i)
         local key = WoWPro.TagTable[tag].key
         -- Special tags get handled first
         if key == "lootitem" and WoWPro.lootitem[i] then
-            if WoWPro.lootqty[i] then
-                line = addTagValue(line, tag, WoWPro.lootitem[i].." "..WoWPro.lootqty[i])
-            else
-                line = addTagValue(line, tag, WoWPro.lootitem[i])
+            local items = {}
+            for itemID, qty in pairs(WoWPro.lootitem[i]) do
+                table.insert(items, itemID .. " " .. qty)
             end
+            line = addTagValue(line, tag, table.concat(items, ";"))
         elseif key == "sticky" then
             if WoWPro.sticky[i] and WoWPro.unsticky[i] then
                 line = addTag(line, "S!US")
