@@ -975,13 +975,43 @@ function WoWPro.SelectHearthstone()
 end
 
 function WoWPro.SelectItemToUse(use, debug)
-    if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
-        return WoWPro.C_Item_GetItemInfo(use), use
+    local result = {}
+    if use:find("&", 1, true) then
+        -- All items must be present
+        local items = {("&"):split(use)}
+        local allPresent = true
+        for _, item in ipairs(items) do
+            local count = _G.WoWPro.C_Item_GetItemCount(item)
+            if count == 0 then
+                allPresent = false
+                break
+            end
+            result[item] = count
+        end
+        if not allPresent then
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): & mode, result=%s", use, tostring(result and "table" or "nil"))
+    elseif not use:find("^", 1, true) and not use:find("|", 1, true) then
+        -- Single item
+        local count = _G.WoWPro.C_Item_GetItemCount(use)
+        if count > 0 then
+            result[use] = count
+        else
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): single, result=%s", use, tostring(result and "table" or "nil"))
+    else
+        -- ^ or | : select first available
+        local value = QidMapReduce(use, false, "^", "|", function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+        if value then
+            result[value] = _G.WoWPro.C_Item_GetItemCount(value)
+        else
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): ^| mode, result=%s", use, tostring(result and "table" or "nil"))
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
-    WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
-    return value, value
+    return result
 end
 
 function WoWPro.SetActionTexture(currentRow)
@@ -1966,7 +1996,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= (WoWPro.lootqty[guideIndex] or 1) then
+                    local qty = 1
+                    if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][WoWPro.use[guideIndex]] then
+                        qty = WoWPro.lootitem[guideIndex][WoWPro.use[guideIndex]]
+                    end
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= qty then
                         skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
                         WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
                     end
@@ -2005,15 +2039,25 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             if (stepAction == "A" or stepAction == "U") and WoWPro.use[guideIndex] then
-                if not WoWPro.SelectItemToUse(WoWPro.use[guideIndex]) then
-                    local why = "You don't have the item for this step."
+                local items
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
+                    items = WoWPro.lootitem[guideIndex]
+                    for itemID, qty in pairs(items) do
+                        if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                            items = nil
+                            break
+                        end
+                    end
+                else
+                    items = WoWPro.SelectItemToUse(WoWPro.use[guideIndex])
+                end
+                if not items then
+                    local why = "You don't have the required items for this step."
                     WoWPro.why[guideIndex] = why
                     WoWPro:dbp(why)
                     skip = true
                     break
                 end
-            end
-
             -- A/N Group Steps --
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
                 local why = "You are not in a group."
@@ -3415,6 +3459,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- WoWPro:dbp("Checkpoint Daleth for step %d",guideIndex)
+
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 -- Serialize the lootitem table for debug
@@ -3442,7 +3487,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if allPositiveComplete then
                     if stepAction == "T" or stepAction == "U" then
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
-                    else
+                    elseif not (stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex]) then
                         if rowIndex == 1 then
                             WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have enough loot in bags.")
                         else
@@ -3450,6 +3495,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         skip = true
                     end
+                end
+                -- Skip suppressible (optional) l steps if loot check fails
+                if not allPositiveComplete and stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
+                    WoWPro.why[guideIndex] = "NextStep(): Skipping loot step due to insufficient items."
+                    skip = true
+                    break
                 end
                 if hasNegative and allNegativeComplete then
                     if rowIndex == 1 then
