@@ -2058,6 +2058,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     skip = true
                     break
                 end
+            end
             -- A/N Group Steps --
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
                 local why = "You are not in a group."
