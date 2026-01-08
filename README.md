@@ -1,5 +1,5 @@
 # WoW-Pro-Guides
-A World of Warcraft addon bringing WoW-Pro.com's guides into the game.
+A World of Warcraft addon bringing WoW-Pro's paper guides into the game as an addon..
 
 This repository is for the code for the addon.
 
