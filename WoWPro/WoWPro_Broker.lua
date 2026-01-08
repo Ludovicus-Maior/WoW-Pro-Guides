@@ -1500,24 +1500,48 @@ if step then
 			end
 		end
 
-        -- Loots Button --
+        -- Loots Buttons --
         if item then
-            local nomen = currentRow.lootsbutton:SetItemByID(item)
+            -- Parse multiple items separated by semicolons
+            local items = {(";"):split(item)}
+            local buttonIndex = 1
+            local itemNames = {}
 
+            for _, itemID in ipairs(items) do
+                itemID = itemID:trim()
+                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
+                    local lootData = currentRow.lootsbuttons[buttonIndex]
+                    local nomen = lootData.button:SetItemByID(itemID)
+                    lootData.button:Show()
+                    table.insert(itemNames, nomen)
+                    buttonIndex = buttonIndex + 1
+                end
+            end
+
+            -- Hide unused loot buttons
+            for i = buttonIndex, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[i].button:Hide()
+            end
+
+            -- Update note text
             if note ~= "" then
                 if action == "B" then
-                    note = "Buy " .. nomen .. " " .. note
+                    note = "Buy " .. table.concat(itemNames, ", ") .. " " .. note
                 elseif action == "M" then
-                    note = "Craft " .. nomen .. " " .. note
+                    note = "Craft " .. table.concat(itemNames, ", ") .. " " .. note
                 else
                     note = "Kill and loot " .. note
                 end
             else
-                note = nomen
+                note = table.concat(itemNames, ", ")
             end
-            currentRow.lootsbutton:Show()
             currentRow.note:SetText(note)
-        else currentRow.lootsbutton:Hide() end
+        else
+            -- Hide all loot buttons when no items
+            for i = 1, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[i].button:Hide()
+            end
+        end
 
 		--Guide Jump Button
 		if WoWPro.jump[k] then
