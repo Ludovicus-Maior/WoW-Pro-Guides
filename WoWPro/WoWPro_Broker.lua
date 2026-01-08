@@ -1513,14 +1513,14 @@ if step then
                     local lootData = currentRow.lootsbuttons[buttonIndex]
                     local nomen = lootData.button:SetItemByID(itemID)
                     lootData.button:Show()
-                    table.insert(itemNames, nomen)
+                    tinsert(itemNames, nomen)
                     buttonIndex = buttonIndex + 1
                 end
             end
 
             -- Hide unused loot buttons
-            for i = buttonIndex, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[i].button:Hide()
+            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
             end
 
             -- Update note text
@@ -1538,8 +1538,8 @@ if step then
             currentRow.note:SetText(note)
         else
             -- Hide all loot buttons when no items
-            for i = 1, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[i].button:Hide()
+            for btnIdx = 1, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
             end
         end
 
@@ -3509,7 +3509,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 end
-                if allPositiveComplete then
+                 -- NEW LOGIC: For optional loot steps, hide them UNTIL all items are collected
+                if stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
+                    if not allPositiveComplete then
+                        -- Hide the step until all items are collected
+                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step hidden until all items collected."
+                        skip = true
+                        break
+                    else
+                        -- Show the step now that all items are collected
+                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
+                        skip = false
+                    end
+                elseif allPositiveComplete then
+                    -- Original behavior for non-optional loot steps
                     if stepAction == "T" or stepAction == "U" then
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
                     elseif not (stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex]) then
