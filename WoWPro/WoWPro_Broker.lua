@@ -1,5 +1,5 @@
 -- luacheck: globals Grail TomTom Nx
--- luacheck: globals select ipairs pairs next tremove tinsert
+-- luacheck: globals select ipairs pairs next tremove tinsert table
 -- luacheck: globals tostring tonumber type abs max min floor ceil date math
 -- luacheck: globals debugstack strupper strsub strlower string
 
