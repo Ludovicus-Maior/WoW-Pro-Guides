@@ -2047,7 +2047,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
                     local useTag = WoWPro.use[guideIndex]
-                    local showStep = false
+                    local showStep
 
                     if useTag:find("&", 1, true) then
                         -- & mode: ALL items must be present
