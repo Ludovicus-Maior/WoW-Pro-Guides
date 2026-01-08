@@ -992,7 +992,7 @@ function WoWPro.SelectItemToUse(use, debug)
             result = nil
         end
         WoWPro:dbp("SelectItemToUse(%q): & mode, result=%s", use, tostring(result and "table" or "nil"))
-    elseif not use:find("^", 1, true) and not use:find("|", 1, true) then
+    elseif not use:find("^", 1, true) then
         -- Single item
         local count = _G.WoWPro.C_Item_GetItemCount(use)
         if count > 0 then
@@ -1003,13 +1003,13 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): single, result=%s", use, tostring(result and "table" or "nil"))
     else
         -- ^ or | : select first available
-        local value = QidMapReduce(use, false, "^", "|", function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+        local value = QidMapReduce(use, false, "^", nil, function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
         if value then
             result[value] = _G.WoWPro.C_Item_GetItemCount(value)
         else
             result = nil
         end
-        WoWPro:dbp("SelectItemToUse(%q): ^| mode, result=%s", use, tostring(result and "table" or "nil"))
+        WoWPro:dbp("SelectItemToUse(%q): ^ mode, result=%s", use, tostring(result and "table" or "nil"))
     end
     return result
 end
@@ -1377,7 +1377,6 @@ if step then
     end
     WoWPro.RowDropdownMenu[i] = dropdown
 
-
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
@@ -1413,47 +1412,74 @@ if step then
                 WoWPro.BindKeysToButton(i)
                 itemkb = true
             end
-        elseif use and WoWPro.SelectItemToUse(use) then
-            local _, _use = WoWPro.SelectItemToUse(use)
-			currentRow.itemicon.item_IsVisible = nil
-			currentRow.itemcooldown.OnCooldown = nil
-			currentRow.itemcooldown.ActiveItem = nil
-            currentRow.itembutton:Show()
-			currentRow.itemicon.currentTexture = nil
-            currentRow.itembutton:SetAttribute("type1", "item")
-            currentRow.itembutton:SetAttribute("item1", "item:".._use)
-			currentRow.itembutton:SetScript("OnUpdate", function()
-				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
-				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
-				if not start then
-					WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
-				end
-				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon.item_IsVisible = true
-					currentRow.itemicon:SetTexture(itemtexture)
-					currentRow.itemicon.currentTexture = itemtexture
-				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon:SetTexture(itemtexture)
-					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon.item_IsVisible = false
-					currentRow.itemicon:SetTexture()
-					currentRow.itemicon.currentTexture = nil
-				end
-				if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
-                    currentRow.itemcooldown:Show()
-                    currentRow.itemcooldown:SetCooldown(start, duration)
-					currentRow.itemcooldown.OnCooldown = true
-					currentRow.itemcooldown.ActiveItem = _use
-                elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
-                    currentRow.itemcooldown:Hide()
-					currentRow.itemcooldown.OnCooldown = false
-				elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
-					currentRow.itemcooldown.OnCooldown = false
-					currentRow.itemcooldown:SetCooldown(start, duration)
-					currentRow.itemcooldown.ActiveItem = _use
+       elseif use and WoWPro.SelectItemToUse(use) then
+            local items = WoWPro.SelectItemToUse(use)
+            local _use = nil
+
+            -- Get the first item from the use tag that we have
+            if items then
+                if use:find("&", 1, true) then
+                    -- & mode: get first item from the original order
+                    local itemList = {("&"):split(use)}
+                    for _, itemID in ipairs(itemList) do
+                        if items[itemID] then
+                            _use = itemID
+                            break
+                        end
+                    end
+                elseif use:find("^", 1, true) then
+                    -- ^ mode: SelectItemToUse already selected the first available
+                    _use = next(items)
+                else
+                    -- Single item
+                    _use = next(items)
                 end
-			end)
+            end
+
+            if not _use then
+                -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
+                currentRow.itembutton:Hide()
+            else
+                currentRow.itemicon.item_IsVisible = nil
+                currentRow.itemcooldown.OnCooldown = nil
+                currentRow.itemcooldown.ActiveItem = nil
+                currentRow.itembutton:Show()
+                currentRow.itemicon.currentTexture = nil
+                currentRow.itembutton:SetAttribute("type1", "item")
+                currentRow.itembutton:SetAttribute("item1", "item:".._use)
+                currentRow.itembutton:SetScript("OnUpdate", function()
+                    local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
+                    local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+                    if not start then
+                        WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+                    end
+                    if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon.item_IsVisible = true
+                        currentRow.itemicon:SetTexture(itemtexture)
+                        currentRow.itemicon.currentTexture = itemtexture
+                    elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon:SetTexture(itemtexture)
+                        currentRow.itemicon.currentTexture = itemtexture
+                    elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon.item_IsVisible = false
+                        currentRow.itemicon:SetTexture()
+                        currentRow.itemicon.currentTexture = nil
+                    end
+                    if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+                        currentRow.itemcooldown:Show()
+                        currentRow.itemcooldown:SetCooldown(start, duration)
+                        currentRow.itemcooldown.OnCooldown = true
+                        currentRow.itemcooldown.ActiveItem = _use
+                    elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+                        currentRow.itemcooldown:Hide()
+                        currentRow.itemcooldown.OnCooldown = false
+                    elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
+                        currentRow.itemcooldown.OnCooldown = false
+                        currentRow.itemcooldown:SetCooldown(start, duration)
+                        currentRow.itemcooldown.ActiveItem = _use
+                    end
+                end)
+            end
 
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
@@ -2020,13 +2046,54 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    local qty = 1
-                    if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][WoWPro.use[guideIndex]] then
-                        qty = WoWPro.lootitem[guideIndex][WoWPro.use[guideIndex]]
+                    local useTag = WoWPro.use[guideIndex]
+                    local showStep = false
+
+                    if useTag:find("&", 1, true) then
+                        -- & mode: ALL items must be present
+                        local items = {("&"):split(useTag)}
+                        local allPresent = true
+                        for _, itemID in ipairs(items) do
+                            local qty = 1
+                            if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(itemID)] then
+                                qty = WoWPro.lootitem[guideIndex][tonumber(itemID)]
+                            end
+                            if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                                allPresent = false
+                                break
+                            end
+                        end
+                        showStep = allPresent
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with all & items present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - not all & items collected."
+                        end
+                    elseif useTag:find("^", 1, true) then
+                        -- ^ mode: ANY ONE item present is sufficient
+                        local items = WoWPro.SelectItemToUse(useTag)
+                        showStep = (items ~= nil)
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with at least one ^| item present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - no ^| items available."
+                        end
+                    else
+                        -- Single item
+                        local qty = 1
+                        if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(useTag)] then
+                            qty = WoWPro.lootitem[guideIndex][tonumber(useTag)]
+                        end
+                        showStep = (_G.WoWPro.C_Item_GetItemCount(useTag) >= qty)
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with item present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - item not collected."
+                        end
                     end
-                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= qty then
-                        skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
-                        WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
+
+                    if showStep then
+                        skip = false
                     end
                 end
                 -- Are we on the quest?
