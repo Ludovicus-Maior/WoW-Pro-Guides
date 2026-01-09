@@ -1556,7 +1556,9 @@ if step then
                 elseif action == "M" then
                     note = "Craft " .. table.concat(itemNames, ", ") .. " " .. note
                 else
-                    note = "Kill and loot " .. note
+                    if not (WoWPro.chat[k] or WoWPro.noncombat[k]) then
+                        note = "Kill and loot " .. note
+                    end
                 end
             else
                 note = table.concat(itemNames, ", ")
