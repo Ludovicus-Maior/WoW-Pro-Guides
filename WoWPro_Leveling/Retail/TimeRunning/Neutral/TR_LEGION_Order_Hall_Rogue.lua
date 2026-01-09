@@ -155,13 +155,14 @@ T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N Assasination Hidden Appearance|QID|43670|PRE|42627^42504|S!US|L|139570|N|This is a drop from Underbelly rares, get to farming.|
 N Assasination Hidden Appearance|QID|43670|O|U|139570|N|Use the item, must be in Assasination spec.|
-N Outlaw Hidden Appearance|QID|43671|PRE|40849|S!US|L|139468|N|Keep running Vault of the Wardens until Ash'golm gives you the Left Binding.|
-N Outlaw Hidden Appearance|QID|43671|PRE|40849|S!US|L|139466|N|Keep running Neltharion's Lair until Dargrul gives you the Right Binding.|
-N Outlaw Hidden Appearance|QID|43671|BUFF|-220486|N|I told you to choose the second chat option. Now you have irritated the dragon and it will be 20 hours (with this toon in game) before she will talk to you. The arena thing doesnt work in remix, since there are no arena's.|
-N Outlaw Hidden Appearance|QID|43671|PRE|40849|M|40.8,80.8|Z|Stormheim|CHAT|N|Once you have both bindings, go talk to Thrymjaris (in outlaw spec) and choose the SECOND chat option to start the dialog. You must have done the first bit of Stormheim to unlock Vethir and Thrymjaris.|O|U|139466|;this step and the next one ideally should be L|139466&139468| but that syntax isnt supported
-A Bindings of the Windlord|QID|43558|PRE|40849|M|40.8,80.8|Z|Stormheim|O|U|139466|N|After going thru the chat with Thrymjaris, she will offer you a quest, luckily since it's remix no Infernal Brimstone is required.|
-T Bindings of the Windlord|QID|43558|M|40.8,80.8|Z|Stormheim|N|To Thrymjaris.|
-N Outlaw Hidden Appearance|QID|43671|O|U|139536|N|Use the item, must be in Outlaw spec.|
+l Outlaw Hidden Appearance|QID|43671|PRE|40849|S!US|L|139468|N|Keep running Vault of the Wardens until Ash'golm gives you the Right Binding.|
+l Outlaw Hidden Appearance|QID|43671|PRE|40849|S!US|L|139466|N|Keep running Neltharion's Lair until Dargrul gives you the Left Binding.|
+N Outlaw Hidden Appearance|QID|43671|BUFF|-220486|N|I told you to choose the second chat option. Now you have irritated the dragon and it will be 20 hours (with this toon in game) before she will talk to you. The arena thing doesnt work in remix, since there are no arenas.|
+l Outlaw Hidden Appearance|QID|43671|M|40.86,80.97|Z|Stormheim|CHAT|N|Once you have both bindings, go talk to Thrymjaris (in outlaw spec) and choose the SECOND chat option to start the dialog. You must have done the first bit of Stormheim to unlock Vethir and Thrymjaris.|O|L|139466;139468|
+A Bindings of the Windlord|QID|43558^94932|PRE|40849|M|40.86,80.97|Z|Stormheim|O|U|139466|N|After going thru the chat with Thrymjaris, she will offer you a quest, luckily since it's remix no Infernal Brimstone is required.|
+T Bindings of the Windlord|QID|43558^94932|M|40.86,80.97|Z|Stormheim|N|To Thrymjaris.|
+A Audience with the Windlord|QID|43560|PRE|43558^94932|M|40.86,80.97Z|Stormheim|N|From Thrymjaris.|
+T Audience with the Windlord|QID|43560|M|41.23,80.70|Z|Stormheim|N|To Thunderaan.|
 N Subtlety Hidden Appearance|QID|43672|PRE|41924|M|45.83,68.19|Z|0619; Broken Isles|N|This one is MUCH easier in Remix. Go find Horos in the Infiite Bazaar and hand over some bronze for the [Color=7eff8a] Tome of Otherworldly Venoms [/color].|L|139571|
 N Subtlety Hidden Appearance|QID|43672|O|U|139571|N|Use the item, must be in Subtlety spec.|
 A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in the Violet Citadel.|
