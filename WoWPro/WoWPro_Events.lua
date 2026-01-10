@@ -246,7 +246,7 @@ function WoWPro.GetLootTrackingInfo(lootItems)
     end
 end
 ]]
--- Update GetLootTrackingInfo to handle a table of items and return a combined tracking string (e.g., "ItemA: 2/5, ItemB: 1/3")
+-- Update GetLootTrackingInfo to handle a table of items and return each on a separate line (e.g., "ItemA: 2/5\nItemB: 1/3")
     if not lootItems or next(lootItems) == nil then return "" end
     local tracks = ""
     for itemID, qty in pairs(lootItems) do
@@ -257,12 +257,12 @@ end
                 track = track .. " (C)"
             end
             if tracks ~= "" then
-                tracks = tracks .. ", "
+                tracks = tracks .. "\n"
             end
-            tracks = tracks .. track
+            tracks = tracks .. "- " .. track
         end
     end
-    return " - " .. tracks
+    return tracks
 end
 
 -- Auto-Complete: Loot based --
