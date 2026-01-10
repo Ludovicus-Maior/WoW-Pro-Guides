@@ -843,6 +843,13 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			track = track .. WoWPro.myGroupTrack[index]
 		end
 	end
+    -- Normalize and trim newlines to avoid extra blank lines in UI
+    if type(track) == "string" then
+        track = track:gsub("\r\n", "\n")            -- CRLF -> LF
+                       :gsub("^\n+", "")             -- strip leading newlines
+                       :gsub("\n+$", "")             -- strip trailing newlines
+                       :gsub("\n\n+", "\n")        -- collapse multiple blank lines
+    end
     row.track:SetText(track)
 end
 
@@ -1195,6 +1202,13 @@ function WoWPro:RowUpdate(offset)
             note = note.."\n(No coordinates)"
         end
 
+        -- Normalize note to avoid trailing blank lines impacting layout
+        if type(note) == "string" then
+            note = note:gsub("\r\n", "\n")            -- CRLF -> LF
+                         :gsub("^\n+", "")             -- strip leading newlines
+                         :gsub("\n+$", "")             -- strip trailing newlines
+                         :gsub("\n\n+", "\n")        -- collapse multiple blank lines
+        end
         currentRow.note:SetText(note)
         WoWPro.SetActionTexture(currentRow)
 
@@ -1562,6 +1576,13 @@ if step then
                 end
             else
                 note = table.concat(itemNames, ", ")
+            end
+            -- Normalize note to avoid trailing blank lines impacting layout
+            if type(note) == "string" then
+                note = note:gsub("\r\n", "\n")        -- CRLF -> LF
+                             :gsub("^\n+", "")         -- strip leading newlines
+                             :gsub("\n+$", "")         -- strip trailing newlines
+                             :gsub("\n\n+", "\n")    -- collapse multiple blank lines
             end
             currentRow.note:SetText(note)
         else

@@ -262,6 +262,8 @@ end
             tracks = tracks .. "- " .. track
         end
     end
+    -- Trim any trailing whitespace/newlines to avoid an extra blank line in the UI
+    tracks = tracks:gsub("\n+$", "")
     return tracks
 end
 
