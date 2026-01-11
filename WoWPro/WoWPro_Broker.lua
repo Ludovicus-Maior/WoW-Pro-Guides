@@ -1127,6 +1127,8 @@ function WoWPro:RowUpdate(offset)
 		local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
+        local questtext = WoWPro.questtext[k]
+        local lootitem = WoWPro.lootitem[k]
         local completion = WoWProCharDB.Guide[GID].completion
 
         if (i == 1) and not step then
@@ -1149,7 +1151,35 @@ function WoWPro:RowUpdate(offset)
         -- Unstickying stickies --
         if unsticky and (not sticky) and i == WoWPro.ActiveStickyCount+1 then
             for n, row in ipairs(WoWPro.rows) do
-                if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then
+                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
+                local rowQuesttext = WoWPro.questtext[row.index]
+                local rowLootitem = WoWPro.lootitem[row.index]
+                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
+
+                -- Compare lootitem tables by content, not reference
+                local lootMatch = false
+                if not lootitem and not rowLootitem then
+                    lootMatch = true
+                elseif lootitem and rowLootitem then
+                    -- Both have lootitem, compare contents
+                    lootMatch = true
+                    for itemID, qty in pairs(lootitem) do
+                        if rowLootitem[itemID] ~= qty then
+                            lootMatch = false
+                            break
+                        end
+                    end
+                    if lootMatch then
+                        for itemID, qty in pairs(rowLootitem) do
+                            if lootitem[itemID] ~= qty then
+                                lootMatch = false
+                                break
+                            end
+                        end
+                    end
+                end
+
+                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
                     completion[row.index] = true
                     return true --reloading
                 end
