@@ -14,6 +14,7 @@ R Stormind|ACTIVE|92405|M|41.29,27.45|Z|2339; Dornogal|N|Make your way to Stormw
 T The Cult Within|QID|90759|M|71.80,60.19|Z|84|N|To Magister Umbric.|FACTION|ALLIANCE|
 A Avoiding Blame|QID|90760|PRE|90759|M|71.80,60.19|Z|84|N|From Magister Umbric|FACTION|ALLIANCE|
 C Avoiding Blame|QID|90760|M|76.70,60.14|Z|84|QO|1|NC|N|Speak to the glowing NPCs and accuse them of being cultists.|FACTION|ALLIANCE|
+T Avoiding Blame|QID|90760|M|71.84,60.17|Z|84|N|To Magister Umbric.|FACTION|ALLIANCE|
 A The Twilight Highlands|QID|90762|PRE|90759|M|71.84,60.17|Z|84|N|From Magister Umbric.|FACTION|ALLIANCE|
 C The Twilight Highlands|QID|90762|M|71.92,60.17|Z|84|QO|1|NC|N|Take Umbric's portal to the Twilight Highlands|FACTION|ALLIANCE|
 T The Twilight Highlands|QID|90762|M|49.89,80.66|Z|241|N|To Grand Magister Rommath.|FACTION|ALLIANCE|
