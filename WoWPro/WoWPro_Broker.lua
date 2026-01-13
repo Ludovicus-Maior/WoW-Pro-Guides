@@ -1,5 +1,5 @@
 -- luacheck: globals Grail TomTom Nx
--- luacheck: globals select ipairs pairs next tremove tinsert
+-- luacheck: globals select ipairs pairs next tremove tinsert table
 -- luacheck: globals tostring tonumber type abs max min floor ceil date math
 -- luacheck: globals debugstack strupper strsub strlower string
 
@@ -843,6 +843,13 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			track = track .. WoWPro.myGroupTrack[index]
 		end
 	end
+    -- Normalize and trim newlines to avoid extra blank lines in UI
+    if type(track) == "string" then
+        track = track:gsub("\r\n", "\n")            -- CRLF -> LF
+                       :gsub("^\n+", "")             -- strip leading newlines
+                       :gsub("\n+$", "")             -- strip trailing newlines
+                       :gsub("\n\n+", "\n")        -- collapse multiple blank lines
+    end
     row.track:SetText(track)
 end
 
@@ -975,13 +982,43 @@ function WoWPro.SelectHearthstone()
 end
 
 function WoWPro.SelectItemToUse(use, debug)
-    if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
-        return WoWPro.C_Item_GetItemInfo(use), use
+    local result = {}
+    if use:find("&", 1, true) then
+        -- All items must be present
+        local items = {("&"):split(use)}
+        local allPresent = true
+        for _, item in ipairs(items) do
+            local count = _G.WoWPro.C_Item_GetItemCount(item)
+            if count == 0 then
+                allPresent = false
+                break
+            end
+            result[item] = count
+        end
+        if not allPresent then
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): & mode, result=%s", use, tostring(result and "table" or "nil"))
+    elseif not use:find("^", 1, true) then
+        -- Single item
+        local count = _G.WoWPro.C_Item_GetItemCount(use)
+        if count > 0 then
+            result[use] = count
+        else
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): single, result=%s", use, tostring(result and "table" or "nil"))
+    else
+        -- ^ or | : select first available
+        local value = QidMapReduce(use, false, "^", nil, function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+        if value then
+            result[value] = _G.WoWPro.C_Item_GetItemCount(value)
+        else
+            result = nil
+        end
+        WoWPro:dbp("SelectItemToUse(%q): ^ mode, result=%s", use, tostring(result and "table" or "nil"))
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
-    WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
-    return value, value
+    return result
 end
 
 function WoWPro.SetActionTexture(currentRow)
@@ -1090,6 +1127,8 @@ function WoWPro:RowUpdate(offset)
 		local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
+        local questtext = WoWPro.questtext[k]
+        local lootitem = WoWPro.lootitem[k]
         local completion = WoWProCharDB.Guide[GID].completion
 
         if (i == 1) and not step then
@@ -1112,7 +1151,35 @@ function WoWPro:RowUpdate(offset)
         -- Unstickying stickies --
         if unsticky and (not sticky) and i == WoWPro.ActiveStickyCount+1 then
             for n, row in ipairs(WoWPro.rows) do
-                if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then
+                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
+                local rowQuesttext = WoWPro.questtext[row.index]
+                local rowLootitem = WoWPro.lootitem[row.index]
+                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
+
+                -- Compare lootitem tables by content, not reference
+                local lootMatch = false
+                if not lootitem and not rowLootitem then
+                    lootMatch = true
+                elseif lootitem and rowLootitem then
+                    -- Both have lootitem, compare contents
+                    lootMatch = true
+                    for itemID, qty in pairs(lootitem) do
+                        if rowLootitem[itemID] ~= qty then
+                            lootMatch = false
+                            break
+                        end
+                    end
+                    if lootMatch then
+                        for itemID, qty in pairs(rowLootitem) do
+                            if lootitem[itemID] ~= qty then
+                                lootMatch = false
+                                break
+                            end
+                        end
+                    end
+                end
+
+                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
                     completion[row.index] = true
                     return true --reloading
                 end
@@ -1165,6 +1232,13 @@ function WoWPro:RowUpdate(offset)
             note = note.."\n(No coordinates)"
         end
 
+        -- Normalize note to avoid trailing blank lines impacting layout
+        if type(note) == "string" then
+            note = note:gsub("\r\n", "\n")            -- CRLF -> LF
+                         :gsub("^\n+", "")             -- strip leading newlines
+                         :gsub("\n+$", "")             -- strip trailing newlines
+                         :gsub("\n\n+", "\n")        -- collapse multiple blank lines
+        end
         currentRow.note:SetText(note)
         WoWPro.SetActionTexture(currentRow)
 
@@ -1347,7 +1421,6 @@ if step then
     end
     WoWPro.RowDropdownMenu[i] = dropdown
 
-
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
@@ -1383,47 +1456,74 @@ if step then
                 WoWPro.BindKeysToButton(i)
                 itemkb = true
             end
-        elseif use and WoWPro.SelectItemToUse(use) then
-            local _, _use = WoWPro.SelectItemToUse(use)
-			currentRow.itemicon.item_IsVisible = nil
-			currentRow.itemcooldown.OnCooldown = nil
-			currentRow.itemcooldown.ActiveItem = nil
-            currentRow.itembutton:Show()
-			currentRow.itemicon.currentTexture = nil
-            currentRow.itembutton:SetAttribute("type1", "item")
-            currentRow.itembutton:SetAttribute("item1", "item:".._use)
-			currentRow.itembutton:SetScript("OnUpdate", function()
-				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
-				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
-				if not start then
-					WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
-				end
-				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon.item_IsVisible = true
-					currentRow.itemicon:SetTexture(itemtexture)
-					currentRow.itemicon.currentTexture = itemtexture
-				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon:SetTexture(itemtexture)
-					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
-					currentRow.itemicon.item_IsVisible = false
-					currentRow.itemicon:SetTexture()
-					currentRow.itemicon.currentTexture = nil
-				end
-				if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
-                    currentRow.itemcooldown:Show()
-                    currentRow.itemcooldown:SetCooldown(start, duration)
-					currentRow.itemcooldown.OnCooldown = true
-					currentRow.itemcooldown.ActiveItem = _use
-                elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
-                    currentRow.itemcooldown:Hide()
-					currentRow.itemcooldown.OnCooldown = false
-				elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
-					currentRow.itemcooldown.OnCooldown = false
-					currentRow.itemcooldown:SetCooldown(start, duration)
-					currentRow.itemcooldown.ActiveItem = _use
+       elseif use and WoWPro.SelectItemToUse(use) then
+            local items = WoWPro.SelectItemToUse(use)
+            local _use = nil
+
+            -- Get the first item from the use tag that we have
+            if items then
+                if use:find("&", 1, true) then
+                    -- & mode: get first item from the original order
+                    local itemList = {("&"):split(use)}
+                    for _, itemID in ipairs(itemList) do
+                        if items[itemID] then
+                            _use = itemID
+                            break
+                        end
+                    end
+                elseif use:find("^", 1, true) then
+                    -- ^ mode: SelectItemToUse already selected the first available
+                    _use = next(items)
+                else
+                    -- Single item
+                    _use = next(items)
                 end
-			end)
+            end
+
+            if not _use then
+                -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
+                currentRow.itembutton:Hide()
+            else
+                currentRow.itemicon.item_IsVisible = nil
+                currentRow.itemcooldown.OnCooldown = nil
+                currentRow.itemcooldown.ActiveItem = nil
+                currentRow.itembutton:Show()
+                currentRow.itemicon.currentTexture = nil
+                currentRow.itembutton:SetAttribute("type1", "item")
+                currentRow.itembutton:SetAttribute("item1", "item:".._use)
+                currentRow.itembutton:SetScript("OnUpdate", function()
+                    local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
+                    local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+                    if not start then
+                        WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+                    end
+                    if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon.item_IsVisible = true
+                        currentRow.itemicon:SetTexture(itemtexture)
+                        currentRow.itemicon.currentTexture = itemtexture
+                    elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon:SetTexture(itemtexture)
+                        currentRow.itemicon.currentTexture = itemtexture
+                    elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+                        currentRow.itemicon.item_IsVisible = false
+                        currentRow.itemicon:SetTexture()
+                        currentRow.itemicon.currentTexture = nil
+                    end
+                    if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+                        currentRow.itemcooldown:Show()
+                        currentRow.itemcooldown:SetCooldown(start, duration)
+                        currentRow.itemcooldown.OnCooldown = true
+                        currentRow.itemcooldown.ActiveItem = _use
+                    elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+                        currentRow.itemcooldown:Hide()
+                        currentRow.itemcooldown.OnCooldown = false
+                    elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
+                        currentRow.itemcooldown.OnCooldown = false
+                        currentRow.itemcooldown:SetCooldown(start, duration)
+                        currentRow.itemcooldown.ActiveItem = _use
+                    end
+                end)
+            end
 
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
@@ -1470,24 +1570,57 @@ if step then
 			end
 		end
 
-        -- Loots Button --
+        -- Loots Buttons --
         if item then
-            local nomen = currentRow.lootsbutton:SetItemByID(item)
+            -- Parse multiple items separated by semicolons
+            local items = {(";"):split(item)}
+            local buttonIndex = 1
+            local itemNames = {}
 
+            for _, itemID in ipairs(items) do
+                itemID = itemID:trim()
+                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
+                    local lootData = currentRow.lootsbuttons[buttonIndex]
+                    local nomen = lootData.button:SetItemByID(itemID)
+                    lootData.button:Show()
+                    tinsert(itemNames, nomen)
+                    buttonIndex = buttonIndex + 1
+                end
+            end
+
+            -- Hide unused loot buttons
+            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
+            end
+
+            -- Update note text
             if note ~= "" then
                 if action == "B" then
-                    note = "Buy " .. nomen .. " " .. note
+                    note = "Buy " .. table.concat(itemNames, ", ") .. " " .. note
                 elseif action == "M" then
-                    note = "Craft " .. nomen .. " " .. note
+                    note = "Craft " .. table.concat(itemNames, ", ") .. " " .. note
                 else
-                    note = "Kill and loot " .. note
+                    if not (WoWPro.chat[k] or WoWPro.noncombat[k]) then
+                        note = "Kill and loot " .. note
+                    end
                 end
             else
-                note = nomen
+                note = table.concat(itemNames, ", ")
             end
-            currentRow.lootsbutton:Show()
+            -- Normalize note to avoid trailing blank lines impacting layout
+            if type(note) == "string" then
+                note = note:gsub("\r\n", "\n")        -- CRLF -> LF
+                             :gsub("^\n+", "")         -- strip leading newlines
+                             :gsub("\n+$", "")         -- strip trailing newlines
+                             :gsub("\n\n+", "\n")    -- collapse multiple blank lines
+            end
             currentRow.note:SetText(note)
-        else currentRow.lootsbutton:Hide() end
+        else
+            -- Hide all loot buttons when no items
+            for btnIdx = 1, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
+            end
+        end
 
 		--Guide Jump Button
 		if WoWPro.jump[k] then
@@ -1966,9 +2099,54 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= (WoWPro.lootqty[guideIndex] or 1) then
-                        skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
-                        WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
+                    local useTag = WoWPro.use[guideIndex]
+                    local showStep
+
+                    if useTag:find("&", 1, true) then
+                        -- & mode: ALL items must be present
+                        local items = {("&"):split(useTag)}
+                        local allPresent = true
+                        for _, itemID in ipairs(items) do
+                            local qty = 1
+                            if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(itemID)] then
+                                qty = WoWPro.lootitem[guideIndex][tonumber(itemID)]
+                            end
+                            if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                                allPresent = false
+                                break
+                            end
+                        end
+                        showStep = allPresent
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with all & items present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - not all & items collected."
+                        end
+                    elseif useTag:find("^", 1, true) then
+                        -- ^ mode: ANY ONE item present is sufficient
+                        local items = WoWPro.SelectItemToUse(useTag)
+                        showStep = (items ~= nil)
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with at least one ^| item present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - no ^| items available."
+                        end
+                    else
+                        -- Single item
+                        local qty = 1
+                        if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(useTag)] then
+                            qty = WoWPro.lootitem[guideIndex][tonumber(useTag)]
+                        end
+                        showStep = (_G.WoWPro.C_Item_GetItemCount(useTag) >= qty)
+                        if showStep then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step with item present is not skipped."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Optional U step hidden - item not collected."
+                        end
+                    end
+
+                    if showStep then
+                        skip = false
                     end
                 end
                 -- Are we on the quest?
@@ -1978,7 +2156,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-            -- A/$ Steps --
+            -- A/$/U Steps --
             if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
                 if WoWPro.fail[guideIndex] then
                     WoWPro:dbp("Considering FAIL on %s [%s]", stepAction, step)
@@ -2005,15 +2183,27 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             if (stepAction == "A" or stepAction == "U") and WoWPro.use[guideIndex] then
-                if not WoWPro.SelectItemToUse(WoWPro.use[guideIndex]) then
-                    local why = "You don't have the item for this step."
+                local items
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
+                    items = WoWPro.lootitem[guideIndex]
+                    for itemID, qty in pairs(items) do
+                        if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                            items = nil
+                            break
+                        end
+                    end
+                else
+                    items = WoWPro.SelectItemToUse(WoWPro.use[guideIndex])
+                end
+                if not items then
+                    local why = "You don't have the required items for this step."
                     WoWPro.why[guideIndex] = why
                     WoWPro:dbp(why)
                     skip = true
                     break
                 end
             end
-
+            -- A/N Group Steps --
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
                 local why = "You are not in a group."
                 WoWPro.why[guideIndex] = why
@@ -2021,7 +2211,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 skip = true
                 break
             end
-
             if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() >= 0) and stepAction == "N") then
                 local why = "You are in a group, note not needed."
                 WoWPro.why[guideIndex] = why
@@ -2030,7 +2219,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 break
             end
 
-            -- Availible quests: not complete  --
+            -- Available quests: not complete  --
             if WoWPro.available[guideIndex] then
                 if not WoWPro.QuestAvailable(WoWPro.available[guideIndex], false, "AVAILABLE") then
                     skip = true
@@ -2243,6 +2432,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 skip = true
                 break
             end
+
             -- Scenario objectives
             if WoWPro.sobjective[guideIndex] then
                 if WoWPro.Scenario then
@@ -2303,7 +2493,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-
             -- Skip C or T steps if not in QuestLog
             if (stepAction == "C" or stepAction == "T") and QID then
                 -- WoWPro:Print("LFO: %s [%s/%s] step %s",stepAction,step,QID,guideIndex)
@@ -2326,7 +2515,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Complete "f" steps if we know the flight point already
-            if stepAction == "f"  and WoWProCharDB.Taxi and WoWProCharDB.Taxi[step] then
+            if stepAction == "f" and WoWProCharDB.Taxi and WoWProCharDB.Taxi[step] then
                 WoWPro.CompleteStep(guideIndex, "Taxi point known")
                 skip = true
                 break
@@ -3270,6 +3459,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 end
             end
+
             -- WoWPro.recipe a number
             if WoWPro.recipe and WoWPro.recipe[guideIndex] then
                 WoWPro:dbp("Step %d Recipe %d",guideIndex,WoWPro.recipe[guideIndex])
@@ -3281,6 +3471,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     break
                 end
             end
+
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
                 local buff = WoWPro.buff[guideIndex]
@@ -3313,6 +3504,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     break
                 end
             end
+
             -- Test for pets
             if WoWPro.pet and WoWPro.pet[guideIndex] then
                 local petID,petCount,petFlip = (";"):split(WoWPro.pet[guideIndex])
@@ -3412,33 +3604,71 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- WoWPro:dbp("Checkpoint Daleth for step %d",guideIndex)
+
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
-                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
-                if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
-                    if stepAction == "T" or stepAction == "U" then
-                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
-                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
+                -- Serialize the lootitem table for debug
+                local lootStr = ""
+                for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                    lootStr = lootStr .. itemID .. ":" .. qty .. " "
+                end
+                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s", stepAction, step, tostring(QID), guideIndex, lootStr:trim())
+
+                -- Check if all loot items meet the condition
+                local allPositiveComplete = true
+                local allNegativeComplete = true
+                local hasNegative = false
+                for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                    local count = _G.WoWPro.C_Item_GetItemCount(itemID)
+                    if qty > 0 and count < qty then
+                        allPositiveComplete = false
+                    elseif qty < 0 then
+                        hasNegative = true
+                        if count >= -qty then
+                            allNegativeComplete = false
+                        end
+                    end
+                end
+                 -- NEW LOGIC: For optional loot steps, hide them UNTIL all items are collected
+                if stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
+                    if not allPositiveComplete then
+                        -- Hide the step until all items are collected
+                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step hidden until all items collected."
+                        skip = true
+                        break
                     else
+                        -- Show the step now that all items are collected
+                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
+                        skip = false
+                    end
+                elseif allPositiveComplete then
+                    -- Original behavior for non-optional loot steps
+                    if stepAction == "T" or stepAction == "U" then
+                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
+                    elseif not (stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex]) then
                         if rowIndex == 1 then
-                            -- Only complete the current step, the loot might go away!
                             WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have enough loot in bags.")
                         else
                             WoWPro.why[guideIndex] = "NextStep(): skipped cause you have enough loot in bags."
                         end
                         skip = true
                     end
-                elseif WoWPro.lootqty[guideIndex] < 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
+                end
+                -- Skip suppressible (optional) l steps if loot check fails
+                if not allPositiveComplete and stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
+                    WoWPro.why[guideIndex] = "NextStep(): Skipping loot step due to insufficient items."
+                    skip = true
+                    break
+                end
+                if hasNegative and allNegativeComplete then
                     if rowIndex == 1 then
-                        -- Only complete the current step, the loot might go away!
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
                     else
                         WoWPro.why[guideIndex] = "NextStep(): skipped cause you consumed loot in bags."
                     end
                     skip = true
-                else
+                elseif hasNegative and not allNegativeComplete then
                     if stepAction == "T" or stepAction == "U" then
-                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
                         WoWPro.why[guideIndex] = "NextStep(): not enough loot to turn in quest or use the items."
                         skip = true
                         break

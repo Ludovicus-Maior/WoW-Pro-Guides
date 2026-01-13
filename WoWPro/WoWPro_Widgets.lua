@@ -303,12 +303,15 @@ function WoWPro:CreateItemButtonSecured(id)
     return itembutton
 end
 
-function WoWPro:CreateLootsButton(parent, id)
-    local lootsbutton = _G.CreateFrame("Button", "WoWPro_looticon"..id, parent)
+function WoWPro:CreateLootsButton(parent, id, buttonIndex)
+    buttonIndex = buttonIndex or 1
+    local lootsbutton = _G.CreateFrame("Button", "WoWPro_looticon"..id.."_"..buttonIndex, parent)
     lootsbutton:SetFrameStrata("MEDIUM")
     lootsbutton:SetHeight(24)
     lootsbutton:SetWidth(24)
-    lootsbutton:SetPoint("TOPRIGHT", parent, "TOPRIGHT", 0, 0)
+    -- Position based on buttonIndex: 0 pixels for first, -26 for second, -52 for third, etc.
+    local xOffset = -(buttonIndex - 1) * 26
+    lootsbutton:SetPoint("TOPRIGHT", parent, "TOPRIGHT", xOffset, 0)
     lootsbutton.ID = nil
     lootsbutton:SetScript("OnEnter", function(this)
         _G.GameTooltip:SetOwner(this, 'ANCHOR_LEFT')
@@ -339,10 +342,10 @@ function WoWPro:CreateLootsButton(parent, id)
         local name, texture, _
         if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
             local result = _G.C_CurrencyInfo.GetCurrencyInfo(tonumber(ID:sub(2)))
-			if result then
-				name = result['name']
-				texture = result['iconFileID']
-			end
+            if result then
+                name = result['name']
+                texture = result['iconFileID']
+            end
         elseif tonumber(ID) then
             name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
         end
