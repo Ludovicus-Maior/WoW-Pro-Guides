@@ -1100,21 +1100,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         end
                     end,
                 },
--- lootqty removed, as lootitem now includes quantities
---[[                 lootqty = {
-                    order = 25,
-                    type = "input",
-                    name = "Looted Item Quantity:",
-                    desc = "If the step compeltes when you loot a certain number of items, put the number here.",
-                    get = function(info) return WoWPro.lootqty[WoWPro.Recorder.SelectedStep] end,
-                    set = function(info,val)
-                        if val == "" then val = nil end
-                        WoWPro.lootqty[WoWPro.Recorder.SelectedStep] = val
-                        WoWPro:UpdateGuide();
-                        WoWPro.Recorder:SaveGuide()
-                    end,
-                },
- ]]                level = {
+                level = {
                     order = 26,
                     type = "input",
                     name = "Level Completion:",

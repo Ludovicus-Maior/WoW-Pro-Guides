@@ -3674,39 +3674,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         break
                     end
                 end
--- Old code for single lootitem/lootqty check
--- removed in favor of multiple lootitem/qty support above
---[[        if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
-                WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
-                if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
-                    if stepAction == "T" or stepAction == "U" then
-                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
-                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
-                    else
-                        if rowIndex == 1 then
-                            -- Only complete the current step, the loot might go away!
-                            WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have enough loot in bags.")
-                        else
-                            WoWPro.why[guideIndex] = "NextStep(): skipped cause you have enough loot in bags."
-                        end
-                        skip = true
-                    end
-                elseif WoWPro.lootqty[guideIndex] < 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
-                    if rowIndex == 1 then
-                        -- Only complete the current step, the loot might go away!
-                        WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
-                    else
-                        WoWPro.why[guideIndex] = "NextStep(): skipped cause you consumed loot in bags."
-                    end
-                    skip = true
-                else
-                    if stepAction == "T" or stepAction == "U" then
-                        -- Special for T/U steps, do NOT skip.  Like Darkmoon [Test Your Strength] or steps requiring specific quantity of items to be collected first
-                        WoWPro.why[guideIndex] = "NextStep(): not enough loot to turn in quest or use the items."
-                        skip = true
-                        break
-                    end
-                end ]]
             else
                 -- Special for Buy steps where the step name is the item to buy and no |L| specified
                 if stepAction == "B" then

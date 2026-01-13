@@ -217,35 +217,6 @@ function WoWPro.GetLootTrackingInfo(lootItems)
     - how many the user needs
     - a complete symbol if the amount the user has is equal to the amount they need
 ]]
---[[ Updating to be able to handle multiple items. Old version below.
-    if not _G.WoWPro.C_Item_GetItemInfo(lootitem) then return "" end
-    local track = ""                                                --If the function did have a track string, adds a newline
-    track = track.." - ".. _G.WoWPro.C_Item_GetItemInfo(lootitem)..": "   --Adds the item's name to the string
-    local numinbag = _G.WoWPro.C_Item_GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
-    track = track..numinbag                                     --Adds the number in bag to the string
-    track = track.."/"..lootqty                             --Adds the total number needed to the string
-    if (lootqty > 0) then
-        if (numinbag >= lootqty) then
-            --If the user has the requisite number of items or more, adds a complete marker
-            track = track.." (C)"
-            return track , true
-        end
-        return track , false
-    elseif (lootqty < 0) then
-        if (numinbag < -lootqty) then
-            --If the user has less than the requisite number of items, adds a complete marker
-            track = track.." (C)"
-            return track , true
-        end
-        return track , false
-    else
-        -- Should not happen
-        WoWPro:print("GetLootTrackingInfo(!?): lootqty=%d, numinbag=%d", lootqty, numinbag)
-        track = track.." (!?)"
-        return track , false
-    end
-end
-]]
 -- Update GetLootTrackingInfo to handle a table of items and return each on a separate line (e.g., "ItemA: 2/5\nItemB: 1/3")
     if not lootItems or next(lootItems) == nil then return "" end
     local tracks = ""
@@ -268,41 +239,6 @@ end
 end
 
 -- Auto-Complete: Loot based --
--- Updated AutoCompleteLoot to check all items in the table. Old version below.
---[[function WoWPro.AutoCompleteLoot()
-    if not WoWPro.GuideLoaded then return end
-        for i = 1,1+WoWPro.ActiveStickyCount do
-            local index = WoWPro.rows[i].index
-            local lootqty = WoWPro.lootqty[index]
-            if WoWPro.lootitem[index] then
-                if WoWProDB.profile.track then
-                    local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqty)
-                    WoWPro.rows[i].track:SetText(track:trim())
-                    WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
-                end
-                local itemCount = _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[index])
-                if lootqty > 0 then
-                    if itemCount >= lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                        WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
-                        WoWPro.CompleteStep(index,"AutoCompleteLoot")
-                    else
-                        WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
-                    end
-                elseif lootqty < 0 then
-                    if itemCount < -lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                        WoWPro:dbp("AutoCompleteLoot: Used them up!")
-                        WoWPro.CompleteStep(index,"AutoCompleteLoot")
-                    else
-                        WoWPro:dbp("AutoCompleteLoot: Still too many!")
-                    end
-                else
-                    WoWPro:Error("Zero item count for item %s found", tostring(WoWPro.lootitem[index]))
-                end
-        end
-    end
-    WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
-end
-]]
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
     for i = 1, 1 + WoWPro.ActiveStickyCount do
