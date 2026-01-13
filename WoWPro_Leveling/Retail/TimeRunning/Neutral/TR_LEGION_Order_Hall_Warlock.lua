@@ -164,11 +164,13 @@ T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|0717; Dreadscar Rift!Insta
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ;hidden artifact acquisition
-N Affliction Hidden Appearance|QID|43676|PRE|40824&41155|ACTIVE|-44083|S!US|N|Go forth and kill Eredari, lots of Eredari until you get [Color=7eff8a] Grimoire of the First Necrolyte [/color]. The ship above Faronaar has 6 or 7 of them in the bottom floor you can just hang out and kill them.|L|140764|
-A The Grimoire of the First Necrolyte|QID|44083|O|U|140764|
+N Affliction Hidden Appearance|QID|44083|PRE|40824&41155|S!US|N|Go forth and kill Eredari, lots of Eredari until you get [Color=7eff8a] Grimoire of the First Necrolyte [/color]. The ship above Faronaar has 6 or 7 of them in the bottom floor you can just hang out and kill them.|L|140764|
+A The Grimoire of the First Necrolyte|QID|44083|O|U|140764|N|Accepted from item that dropped.|
 C The Grimoire of the First Necrolyte|QID|44083|S!US|N|Open your world map and go do any "Danger" WQs for Humonoid type mobs. They can drop the skulls you need.|
-t The Grimoire of the First Necrolyte|QID|44083|M|38.6,74|Z|Deadwind Pass|N|To Executioner's Alter.|
-K Sataiel|QID|43676|PRE|44083|M|38.6,74|Z|Deadwind Pass|N|Click the alter to summon and then kill Sataiel. Loot [Color=7eff8a] Essence of the Executioner [/color].|L|139575|
+t The Grimoire of the First Necrolyte|QID|44083|M|38.56,74.26|Z|Deadwind Pass|N|To Executioner's Alter located in the Forgotten Crypt next to Karazhan.|
+A The Rite of the Executioner|QID|44154|PRE|44083|M|38.56,74.26|Z|Deadwind Pass|N|From Executioner's Alter.|
+K Sataiel|ACTIVE|44154|M|38.56,74.26|Z|Deadwind Pass|N|Click the pile of skulls on the alter to summon and then kill Sataiel. Loot [Color=7eff8a] Essence of the Executioner [/color].|L|139575|
+t The Rite of the Executioner|QID|44154|N|Turns in to UI.|
 U Affliction Hidden Appearance|QID|43676|O|U|139575|N|Use the item, you must be in Affliction spec.|
 N Demonology Hidden Appearance|QID|43677|PRE|40824&42125|S!US|N|Go forth and kill even more Eredari, tons of Eredari until you get [Color=7eff8a]Visage of the First Wakener [/color]. Anywhere in the Broken isles or Argus works, you will get 5 unacceptable skulls in the process, you can sell or destroy them.|L|139576|
 U Demonology Hidden Appearance|QID|43677|O|U|139576|N|Use the item, you must be in Demonology spec.|
