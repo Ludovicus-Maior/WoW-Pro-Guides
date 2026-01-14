@@ -116,11 +116,11 @@ A Missing Friends|QID|10852|PRE|10849|M|37.74,51.34|Z|1952; Terokkar Forest|N|Fr
 A The Infested Protectors|QID|10896|M|37.86,51.69|Z|1952; Terokkar Forest|N|From Lakotae.|
 A Before Darkness Falls|QID|10878|M|37.26,50.86|Z|1952; Terokkar Forest|N|From Mekeda circling the broken down wagon.|
 l Prison Key|ACTIVE|10852|M|31.05,42.29|Z|1952; Terokkar Forest|L|31655|ITEM|31655|N|Skithian Dreadhawks or Windrippers|S!US|
-C Missing Friends|QID|10852|M|31.05,42.29|Z|1952; Terokkar Forest|N|Click on the Veil Skith Cages to release the children.NOTE You need Prison Keys to do it.|S|NC|
+C Missing Friends|QID|10852|M|31.05,42.29|Z|1952; Terokkar Forest|N|Click on the Veil Skith Cages to release the children.\n[color=FF0000]NOTE: [/color]You need Prison Keys to do it.|S|NC|
 C A Personal Favor|QID|10112|M|31.05,42.29|Z|1952; Terokkar Forest|L|27861 5|ITEM|27861|N|Skithian Dreadhawks or Windrippers|S|
 C Stymying the Arakkoa|QID|9987|QO|3|M|31.48,41.95|Z|1952; Terokkar Forest|N|Kill Urdak circling the platform.|
 C A Personal Favor|QID|10112|M|31.05,42.29|Z|1952; Terokkar Forest|L|27861 5|ITEM|27861|N|Skithian Dreadhawks or Windrippers|US|
-C Missing Friends|QID|10852|M|31.05,42.29|Z|1952; Terokkar Forest|N|Click on the Veil Skith Cages to release the children.NOTE You need Prison Keys to do it.|US|NC|
+C Missing Friends|QID|10852|M|31.05,42.29|Z|1952; Terokkar Forest|N|Click on the Veil Skith Cages to release the children.\n[color=FF0000]NOTE: [/color]You need Prison Keys to do it.|US|NC|
 T Veil Skith: Darkstone of Terokk|QID|10839|M|37.26,50.86|Z|1952; Terokkar Forest|N|To Kirrik the Awakened.|
 A Veil Rhaze: Unliving Evil|QID|10848|PRE|10839|M|37.26,50.86|Z|1952; Terokkar Forest|N|From Kirrik the Awakened.|
 T Missing Friends|QID|10852|M|37.74,51.34|Z|1952; Terokkar Forest|N|To Ethan.|
@@ -266,14 +266,14 @@ C Terokkarantula|QID|10921|QO|1|M|54.2,81.69|Z|1952; Terokkar Forest|ELITE|N|[co
 C Taken in the Night|QID|10873|QO|1|M|51.50,79.79|Z|1952; Terokkar Forest|N|Click on the Netherweb Victims to free them.\n[color=FF0000]NOTE: [/color]Not every one will contain Sha'tar Warrior or even a friendly.|US|NC|
 T Terokkarantula|QID|10921|M|49.71,76.18|Z|1952; Terokkar Forest|N|To Vindicator Haylen.|
 A Return to Sha'tari Base Camp|QID|10926|PRE|10921|N|From Vindicator Haylen.|
-N Escort Quest|AVAILABLE|10898|N|This is an explanation of how the upcoming escort quest will work.\nLet Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted.NOTE You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning (interrupt it if you can). The final fire is just next to him.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Escort Quest|AVAILABLE|10898|N|This is an explanation of how the upcoming escort quest will work.\nLet Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted.\n[color=FF0000]NOTE: [/color]You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning (interrupt it if you can). The final fire is just next to him.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Skywing|QID|10898|M|53.80,72.33|Z|1952; Terokkar Forest|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Skywing.|
 A Skywing|QID|10898|M|53.80,72.33|Z|1952; Terokkar Forest|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Skywing to restart the quest.|FAIL|
 C Skywing|QID|10898|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge.|S|
 C Veil Shalas: Signal Fires|QID|10874|QO|4|M|56.12,72.49|Z|1952; Terokkar Forest|N|Keep following Skywing and as you pass it, click on the Bloodstone Signal Fire to extinguish it.|NC|
 C Veil Shalas: Signal Fires|QID|10874|QO|3|M|56.63,69.19|Z|1952; Terokkar Forest|N|Keep following Skywing and as you pass it, click on the Violet Signal Fire to extinguish it.|NC|
 C Veil Shalas: Signal Fires|QID|10874|QO|2|M|55.47,69.80|Z|1952; Terokkar Forest|N|Keep following Skywing and as you pass it, click on the Emerald Signal Fire to extinguish it.|NC|
-C Skywing|QID|10898|M|55.70,69.60|Z|1952; Terokkar Forest|N|Defeat Luanga the Imprisoner to complete the quest.NOTE Continue following Skywing to the waypoint and upon reaching it, Luanga (lv 65 elite) will spawn.|US|
+C Skywing|QID|10898|M|55.70,69.60|Z|1952; Terokkar Forest|N|Defeat Luanga the Imprisoner to complete the quest.\n[color=FF0000]NOTE: [/color]Continue following Skywing to the waypoint and upon reaching it, Luanga (lv 65 elite) will spawn.|US|
 C Veil Shalas: Signal Fires|QID|10874|QO|1|M|57.26,65.09;55.18,67.21|CS|Z|1952; Terokkar Forest|N|The Sapphire Signal Fire is at next set of treehouses to the north. Make your way to the ground and head north to the ramp leading up to the string of treehouse platforms. Click on the Sapphire Signal Fire to extinguish it.|NC|FLY|OLD|
 C Veil Shalas: Signal Fires|QID|10874|QO|1|M|55.18,67.21|Z|1952; Terokkar Forest|N|This one requires that you fly to the next treehouse to where the Sapphire Signal Fire is and extinguish it.|NC|
 T Taken in the Night|QID|10873|M|31.44,75.66|Z|1952; Terokkar Forest|N|To Scout Navrin in Sha'tari Base Camp.|
@@ -289,7 +289,7 @@ T A Hero Is Needed|QID|10914|M|31.01,76.12|Z|1952; Terokkar Forest|N|To Commande
 A The Fallen Exarch|QID|10915|PRE|10914|M|31.01,76.12|Z|1952; Terokkar Forest|N|From Commander Ra'vaj.|
 C The Fallen Exarch|QID|10915|M|35.81,65.61|Z|1952; Terokkar Forest|N|Enter Auchindoun and locate the coffin. After clearing the area, click on the coffin and kill the Reanimated Exarch that spawns.\n[color=FF0000]NOTE: [/color]If you stand on the coffin, you will take damage (like standing in the fire).|
 C Doom Skulls|QID|10923|M|48.68,67.16|Z|1952; Terokkar Forest|L|31812 20|ITEM|31812|N|only Auchenai Death-Speakers and Doomsayers.\n[color=FF0000]NOTE: [/color]You can get these elsewhere, but you'll want to be in this area when you finish.|US|
-C Evil Draws Near|QID|10923|M|48.68,67.16|Z|1952; Terokkar Forest|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nKill Teribus the Cursed.NOTE Go to the rune in the middle of Writhing Mound and after clearing the area, use the Dread Relic to summon Teribus the Cursed.|U|31811|
+C Evil Draws Near|QID|10923|M|48.68,67.16|Z|1952; Terokkar Forest|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nKill Teribus the Cursed.\n[color=FF0000]NOTE: [/color]Go to the rune in the middle of Writhing Mound and after clearing the area, use the Dread Relic to summon Teribus the Cursed.|U|31811|
 T Evil Draws Near|QID|10923|M|31.06,76.54|Z|1952; Terokkar Forest|N|To Oakun in Sha'tari Base Camp.|
 T The Fallen Exarch|QID|10915|M|31.01,76.12|Z|1952; Terokkar Forest|N|To Commander Ra'vaj.|
 C Helping the Lost Find Their Way|QID|10031|QO|1;2|M|30.84,65.57|Z|1952; Terokkar Forest|US|

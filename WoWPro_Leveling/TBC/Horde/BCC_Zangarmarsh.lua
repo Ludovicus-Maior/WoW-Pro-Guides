@@ -158,7 +158,7 @@ A Impending Attack|QID|9822|PRE|9820|M|30.74,50.88|Z|1946; Zangarmarsh|N|From Sh
 T Familiar Fungi|QID|9708|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
-C A Spirit Ally?|QID|9847|QO|1|M|44.43,66.02|Z|1946; Zangarmarsh|N|Kill the summoned Serpent Spirit.NOTE After reaching the Boha'mu Ruins, while standing at the very bottom of the stairs, use the totem.|U|24498|
+C A Spirit Ally?|QID|9847|QO|1|M|44.43,66.02|Z|1946; Zangarmarsh|N|Kill the summoned Serpent Spirit.\n[color=FF0000]NOTE: [/color]After reaching the Boha'mu Ruins, while standing at the very bottom of the stairs, use the totem.|U|24498|
 T A Spirit Ally?|QID|9847|M|32.38,51.96|Z|1946; Zangarmarsh|N|To Seer Janidi.|
 C The Biggest of Them All|QID|9903|QO|1|M|42.17,41.48|Z|1946; Zangarmarsh|N|Kill Mragesh; just under the surface of Serpent Lake at the northern tip of the island in the southwest corner of the lake.|
 C Stinging the Stingers|QID|9841|QO|1|M|21.07,32.41|Z|1946; Zangarmarsh|S|

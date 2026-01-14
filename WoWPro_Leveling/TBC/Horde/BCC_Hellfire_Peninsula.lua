@@ -370,7 +370,7 @@ T The Demoniac Scryer|QID|10838|M|52.28,36.46|Z|1944; Hellfire Peninsula|N|To Ap
 A Report to Nazgrel|QID|10875|PRE|10838|M|52.28,36.46|Z|1944; Hellfire Peninsula|N|From Apothecary Antonivich.|
 T Report to Nazgrel|QID|10875|M|55.02,35.96|Z|1944; Hellfire Peninsula|N|To Nazgrel.|
 A The Foot of the Citadel|QID|10876|PRE|10875|M|55.02,35.96|Z|1944; Hellfire Peninsula|N|From Nazgrel.|
-R Hellfire Citadel|ACTIVE|10876|QO|1|M|51.56,46.37;49.68,50.64|CC|Z|1944; Hellfire Peninsula|N|Make your way down to The Path of Glory and head towards the right side of the Citadel.NOTE There is only way in to get to Gorax.|FLY|OLD|
+R Hellfire Citadel|ACTIVE|10876|QO|1|M|51.56,46.37;49.68,50.64|CC|Z|1944; Hellfire Peninsula|N|Make your way down to The Path of Glory and head towards the right side of the Citadel.\n[color=FF0000]NOTE: [/color]There is only way in to get to Gorax.|FLY|OLD|
 C Challenge From the Horde|ACTIVE|10876|M|55.02,35.96|Z|1944; Hellfire Peninsula|L|31702|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new flag.|NOCACHE|
 U The Foot of the Citadel|ACTIVE|10876|M|PLAYER|CC|N|Clear the area and pull Force-Commander Gorax away from everyone else and kill him. When you're ready summon the Hand of Kargath for the fight, plant the Challenge From the Horde flag on his corpse.|T|Force-Commander Gorax|U|31702|O|
 C The Foot of the Citadel|QID|10876|M|48.37,50.57|Z|1944; Hellfire Peninsula|L|31706|ITEM|31706|N|The Hand of Kargath.\n[color=FF0000]NOTE: [/color]If you die before killing him, you have to abandon the quest to get a new flag.|
