@@ -7,19 +7,19 @@ WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Nagrand")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955|TAXI|Shattrath|
-R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|Z|1952; Terokkar Forest|FLY|OLD|
-R Shattrath City|AVAILABLE|10210|M|70.31,3.64|Z|1955; Shattrath City|N|Run or fly.|TAXI|-Shattrath|
+F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|Shattrath City|TAXI|Shattrath|
+R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|Z|1952; Terokkar Forest|TAXI|-Shattrath|FLY|OLD|
+R Shattrath City|AVAILABLE|10210|M|70.31,3.64|Z|1955; Shattrath City|N|Run or fly.|TAXI|-Shattrath|FLY|OLD|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
 P Orgrimmar|ACTIVE|9438|N|Use the portal.|
-T Messenger to Thrall|QID|9438|M|31.64,37.83|Z|Orgrimmar|N|To Thrall in Grommash Hold.|
-A Envoy to the Mag'har|QID|9441|PRE|9438|M|31.64,37.83|Z|Orgrimmar|N|From Thrall.\n[color=FF0000]NOTE: [/color]If you don't accept the quest right away, a narrative starts and you'll have to wait for it to finish.|
-P The Dark Portal|ACTIVE|9441|M|38.06,85.72|Z|Orgrimmar|N|Use the portal in Valley of Spirits.|IZ|Orgrimmar|
+T Messenger to Thrall|QID|9438|M|31.64,37.83|Z|1454; Orgrimmar|N|To Thrall in Grommash Hold.|
+A Envoy to the Mag'har|QID|9441|PRE|9438|M|31.64,37.83|Z|1454; Orgrimmar|N|From Thrall.\n[color=FF0000]NOTE: [/color]If you don't accept the quest right away, a narrative starts and you'll have to wait for it to finish.|
+P The Dark Portal|ACTIVE|9441|M|38.06,85.72|Z|1454; Orgrimmar|N|Use the portal in Valley of Spirits.|IZ|Orgrimmar|
 R The Stair of Destiny|ACTIVE|9441|M|58.74,60.78|Z|1419; Blasted Lands|N|Go through the Dark Portal.|IZ|Blasted Lands|
-F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944; Hellfire Peninsula|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1952; Terokkar Forest|Z|1944|FLY|OLD|
 T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist in Mag'har Post.|
-F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955|
+F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955; Shattrath City|
 A A'dal|QID|10210|M|59.70,41.45|Z|1955; Shattrath City|N|From Haggard War Veteran.|
 T A'dal|QID|10210|M|54.02,44.75|Z|1955; Shattrath City|N|To A'dal.|
 A City of Light|QID|10211|PRE|10210|M|54.75,44.34|Z|1955; Shattrath City|N|From Khadgar.|
@@ -58,7 +58,7 @@ C Strange Energy|QID|9968|M|44.00,28.00|Z|1952; Terokkar Forest|L|25672 4|ITEM|2
 T Strange Energy|QID|9968|M|44.34,26.31|Z|1952; Terokkar Forest|N|To Earthbinder Tavgren.|
 A By Any Means Necessary|QID|9978|PRE|9968^9971|M|44.34,26.31|Z|1952; Terokkar Forest|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|51.29,29.29;37.62,25.75|CS|Z|1952; Terokkar Forest|N|Locate Empoor (and his bodyguard) on the road between Shattrath City and Tuurem and speak with him. They'll attack you until Empoor's low on health; at which time, he'll surrender and you can turn the quest in.|
-A Wind Trader Lathrai|QID|9979|PRE|9978|N|From Empoor.| ; == No coordinates because it'll be where you found him ~ Hendo72
+A Wind Trader Lathrai|QID|9979|PRE|9978|M|PLAYER|CC|N|From Empoor.|
 f Stonebreaker Hold|AVAILABLE|9987|M|49.20,43.42|Z|1952; Terokkar Forest|N|At Kerna.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T News from Zangarmarsh|QID|9796|M|49.71,43.32|Z|1952; Terokkar Forest|N|To Mokasa.| ; == In case they picked it up ~ Hendo72
 A Stymying the Arakkoa|QID|9987|M|48.97,44.64|Z|1952; Terokkar Forest|N|From Rokag.|
@@ -101,10 +101,10 @@ T Speak with Scout Neftis|QID|10039|M|39.03,43.74|Z|1952; Terokkar Forest|N|To S
 N Dismount|AVAILABLE|10041|N|You can't be on your mount for the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Who Are They?|QID|10041|PRE|10039|M|39.03,43.74|Z|1952; Terokkar Forest|N|From Scout Neftis.|
 N Protect your disguise|ACTIVE|10041|N|Do not do anything except talk to the intended targets while disguised or you'll lose it.\n[color=FF0000]NOTE: [/color]Speak with Scout Neftis to get another one if you do.\nManually check this step off to continue.|
-C Who Are They?|QID|10041|QO|2|M|38.24,41.02|Z|1952; Terokkar Forest|N|The Laborer wanders all over the place.|CHAT|S|
+C Who Are They?|QID|10041|QO|2|M|38.24,41.02|Z|1952; Terokkar Forest|N|The Laborer wanders all over the place.|S|CHAT|
 C Who Are They?|QID|10041|QO|1|M|39.03,39.67|Z|1952; Terokkar Forest|N|The Initiate is by the pond.\n[color=FF0000]NOTE: [/color]The Hunters can see through your disguise; avoid them.|T|Shadowy Initiate|CHAT|
 C Who Are They?|QID|10041|QO|3|M|40.31,39.04|Z|1952; Terokkar Forest|N|The Advisor is inside the large building.\n[color=FF0000]NOTE: [/color]There shouldn't be any Hunters inside.|T|Shadowy Advisor|CHAT|
-C Who Are They?|QID|10041|QO|2|M|39.80,41.97;38.08,41.12|CS|Z|1952; Terokkar Forest|N|The Laborer pathes between the tower on the east and the one on the west (with the ladder).\n[color=FF0000]NOTE: [/color]The Hunters can see through your disguise; avoid them.|T|Shadowy Laborer|CHAT|US|
+C Who Are They?|QID|10041|QO|2|M|39.80,41.97;38.08,41.12|CS|Z|1952; Terokkar Forest|N|The Laborer pathes between the tower on the east and the one on the west (with the ladder).\n[color=FF0000]NOTE: [/color]The Hunters can see through your disguise; avoid them.|T|Shadowy Laborer|US|CHAT|
 T Who Are They?|QID|10041|M|39.03,43.74|Z|1952; Terokkar Forest|N|To Scout Neftis.|
 A Kill the Shadow Council!|QID|10043|PRE|10041|M|39.03,43.74|Z|1952; Terokkar Forest|N|From Scout Neftis.|
 C Kill the Shadow Council!|QID|10043|QO|1;2|M|40.30,39.04|Z|1952; Terokkar Forest|N|They are all over Grangol'var Village.|S|
@@ -129,7 +129,7 @@ A Vengeful Souls|QID|10842|PRE|10852|M|37.45,50.77|Z|1952; Terokkar Forest|N|Fro
 C Wanted: Bonelashers Dead!|QID|10034|QO|1|M|42.64,50.40|Z|1952; Terokkar Forest|S|
 l Mark of Kil'jaeden|AVAILABLE|10325|M|39.66,58.16|Z|1952; Terokkar Forest|L|29425 10|ITEM|29425|N|any Orc.|REP|Aldor;932|S|
 l Cabal Orders|AVAILABLE|10880|M|40.00,56.00|Z|1952; Terokkar Forest|L|31707|ITEM|31707|N|any Orc.|S|
-A Cabal Orders|QID|10880|U|31707|O|
+A Cabal Orders|QID|10880|M|PLAYER|CC|N|From the Cabal Orders.|U|31707|O|
 C Before Darkness Falls|QID|10878|QO|1;2;3|M|40.00,56.00|Z|1952; Terokkar Forest|
 l Cabal Orders|AVAILABLE|10880|M|40.00,56.00|Z|1952; Terokkar Forest|L|31707|ITEM|31707|N|any Orc.|US|
 l Mark of Kil'jaeden|AVAILABLE|10325|M|39.66,58.16|Z|1952; Terokkar Forest|L|29425 10|ITEM|29425|N|any Orc.|REP|Aldor;932|US|
