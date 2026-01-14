@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CLASSIC_BC_Zangarmarsh", "Leveling", "Zangarmarsh", "Jame", "Horde", 2)
+local guide = WoWPro:RegisterGuide("CLASSIC_BC_Zangarmarsh", "Leveling", "Zangarmarsh", "WoWPro Team", "Horde", 2)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
@@ -6,204 +6,228 @@ WoWPro:GuideLevels(guide, 62, 64)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Terokkar_Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
-F Swamprat Post|QID|9770|N|Fly to Swamprat Post.|
-N Things to do: Zangarmarsh|QID|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
-A Uncatalogued Species|QID|9875|O|N|(UI Alert?)|
-A Thick Hydra Scales|QID|9774|M|85.3,54.8|N|From Zurai.|
-A Menacing Marshfangs|QID|9770|M|85.0,54.0|N|From Reavij.|
-A There's No Explanation for Fashion|QID|9769|M|84.4,54.3|N|From Magasha.|
-A No More Mushrooms!|QID|9773|M|84.4,54.3|N|From Magasha.|
-R Cenarion Refuge|QID|9747|M|78.5,62.9|N|Head over to the Cenarion Refuge.|
-; Not everybody completes Hellfire
-T Warchief's Command: Zangarmarsh|QID|39180|N|To Ysiel Windsinger.|M|78.43,62.00|
-T Return to the Marsh|QID|9732|N|To Ysiel Windsinger.|M|78.43,62.00|
-h Cenarion Refuge|QID|9747|M|78.5,62.9|N|At Innkeeper Coryth Stoktron.|
-A The Dying Balance|QID|9895|N|From Lethyn Moonfire|M|78.54,63.07|
-A The Umbrafen Tribe|QID|9747|N|From Ikeyen.|M|80.38,64.21|
-A Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|From Lauranna Thar'well.|
-A Leader of the Darkcrest|QID|9730|N|From the Wanted Poster.|M|79.13,64.78|
-A Leader of the Bloodscale|QID|9817|N|From the Wanted Poster|M|79.13,64.78|
-l Unidentified Plant Parts|QID|9802|S|L|24401 10|N|Loot 10 Unidentified Plant Parts, they can drop off of any mobs.|
-C Thick Hydra Scales|QID|9774|S|N|Kill and loot Mire Hyrdas.|M|78,74|
-C No More Mushrooms!|QID|9773|S|N|Head into the lake and kill the eels. The droprate is fairly low, so this may take a while.|M|74.2,60.7|U|25539|
-C No More Mushrooms!|QID|9773|US|N|Head into the lake and kill the eels. The droprate is fairly low, so this may take a while.|M|74.2,60.7|U|25539|
-C Thick Hydra Scales|QID|9774|US|N|Kill and loot Mire Hyrdas.|M|78,74|
-l Unidentified Plant Parts|QID|9802|US|L|24401 10|N|Loot 10 Unidentified Plant Parts, they can drop off of any mobs.|
-C The Dying Balance|QID|9895|N|Exit Umbrafen Lake on the east side and head southeast. Boglash is a named strider that wanders around here.|M|82,74|T|Boglash|
-C The Umbrafen Tribe|QID|9747|N|Head south and clear the two Umbrafen Villages. Then head further south, Kataru is in the big building at  on the top floor.|M|85,90|
-A Escape from Umbrafen|QID|9752|N|From Kayra Longmane. This is an escort quest. If she isn't there, that means someone else is doing it, so just wait.|M|83.37,85.53|
-C Escape from Umbrafen|QID|9752|M|83.4,85.5|N|Follow and protect Kayra. You'll get ambushed twice, by two Umbrafen Slavebinders each time.|
-T The Umbrafen Tribe|QID|9747|M|80.4,64.2|N|To Ikeyen.|
-A A Damp, Dark Place|QID|9788|PRE|9747|M|80.4,64.2|N|From Ikeyen.|
-T Plants of Zangarmarsh|QID|9802|M|80.4,64.2|N|To Lauranna Thar'well.|
-A Saving the Sporeloks|QID|10096|PRE|9747|M|80.4,64.2|N|From Lauranna Thar'well.|
-A Safeguarding the Watchers|QID|9894|PRE|9747|M|80.4,64.7|N|From Windcaller Blackhoof.|
-T The Dying Balance|QID|9895|M|78.5,63.1|N|To Lethyn Moonfire.|
-T Escape from Umbrafen|QID|9752|M|78.4,62.0|N|To Ysiel Windsinger.|
-C There's No Explanation for Fashion|QID|9769|S|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|M|79.7,70.1|
-C Menacing Marshfangs|QID|9770|N|Finish this off. They're around Swamprat Post (Go between the two waypoint until you have all your kills).|M|82.46,58.43;85.66,48.88|CN|
-C There's No Explanation for Fashion|QID|9769|M|79.7,70.1|N|Kill and loot flies for the wings. Pet collectors might want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly|US|
-T No More Mushrooms!|QID|9773|M|84.4,54.3|N|To Magasha.|
-T There's No Explanation for Fashion|QID|9769|M|84.4,54.3|N|To Magasha.|
-T Menacing Marshfangs|QID|9770|M|85.0,54.0|N|To Reavij.|
-A A Job Undone|QID|9899|M|84.4,54.3|N|From Magasha.|PRE|9770^9769|
-A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
-T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
-A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
-K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
-l Withered Basidium|QID|9828|L|24484|S|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
-l Bog Lord Tendrils|QID|9769|L|24291 3|S|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get at least 3 Bog Lord Tendrils. You need 6 for a quest later on, but you will have a chance to kill more then too.|
-T Searching for Scout Jyoba|QID|9771|M|80.76,36.3|N|To Scout Jyoba's corpse.|
-A Jyoba's Report|QID|9772|PRE|9771|M|80.8,36.3|N|From Scout Jyoba's corpse.|
-C Jyoba's Report|QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
-l Withered Basidium|QID|9828|L|24484|US|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
-A Withered Basidium|QID|9828|U|24484|M|78.3,45.2|N|From the Withered Basidium.|
-l Bog Lord Tendrils|QID|9769|L|24291 3|US|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get 3 Bog Lord Tendrils. These are used for a quest later on.|
-T A Job Undone|QID|9899|M|84.4,54.3|N|To Magasha.|
-T Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|
-T Jyoba's Report|QID|9772|M|85.3,54.8|N|To Zurai.|
-R Funggor Cavern|QID|10096|M|75.02,90.96|N|Fly/Ride to Funggor Cavern.|
-C Saving the Sporeloks|QID|10096|N|Kill Marsh Dredgers and Lurkers.|S|
-C A Damp, Dark Place|QID|9788|N|Enter Funggor Cavern to the southwest. Go right at the first fork, then right again at the second fork and down the slope, Ikeyen's Belongings are down the bottom on top of a flat rock.|M|70.5,97.9|
-C Safeguarding the Watchers|QID|9894|N|Head further down the slope and go west. Lord Klaq is at the end. He's guarded by 3 fungal giants, but should be soloable. It is possible to pull the guards without Klaq, and also to wait for Sporeloks to engage his guards and just kill him, or to kill him and run.|
-C Saving the Sporeloks|QID|10096|N|Kill Marsh Dredgers and Lurkers.|US|
-T A Damp, Dark Place|QID|9788|M|80.4,64.2|N|To Ikeyen.|
-T Saving the Sporeloks|QID|10096|M|80.4,64.2|N|To Lauranna Thar'well.|
-T Safeguarding the Watchers|QID|9894|M|80.4,64.7|N|To Windcaller Blackhoof.|
-r Fedryen Swiftspear|QID|9718|N|Sell junk and repair.|
-A Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|LEAD|9728|M|78.4,62.0|N|From Ysiel Windsinger.|
-T Warden Hamoot|QID|9778|M|79.1,65.32|N|To Warden Hamoot at the top of the tower.|
-A A Warm Welcome|QID|9728|M|79.1,65.32|N|From Warden Hamoot.|
-R Disturbance at Umbrafen Lake|QID|9716|QO|1|N|Head to the waypoint to get the quest completion.|M|70.9,82.1|
-T Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|To Ysiel Windsinger.|
-A As the Crow Flies|QID|9718|M|78.4,62.0|N|From Ysiel Windsinger.|PRE|9716|
-C As the Crow Flies|QID|9718|N|Use the amulet, and enjoy the ride (or go get a drink or something).|U|25465|
-T As the Crow Flies|QID|9718|M|78.4,62.0|N|To Ysiel Windsinger.|
-A Balance Must Be Preserved|QID|9720|PRE|9718|M|78.4,62.0|N|From Ysiel Windsinger.|
-C A Warm Welcome|QID|9728|M|70.9,82.1|N|Kill and loot Naga for their claws.|S|
-A Drain Schematics|QID|9731|U|24330|M|62.0,40.8|N|From the Drain Schematics.|O|
-N Disable the Umbrafen Lake Controls|QID|9720|QO|1|U|24355|N|They'll be guarded by a Steam Pump Overseer, kill him and use the seeds.|M|70.6,80.3|
-C Leader of the Darkcrest|QID|9730|N|Kill Rajah Haghazed.|M|65,69|
-N Disable the Lagoon Controls|QID|9720|QO|4|U|24355|N|Head northwest to the steam pump. Use the Ironvine Seeds on it.|M|63,65|
-l Drain Schematics|QID|9731|L|24330|U|24355|N|Keep using the Ironvine Seeds to spawn the Overseers and killing them until you get Drain Schematics to drop. It can take some time.|M|62,41|
-C Drain Schematics|QID|9731|N|Head to the large steam pump in Serpent Lake. Swim down a bit to get the quest update.|M|50.4,40.9|
-N Disable the Serpent Lake Controls|QID|9720|QO|3|U|24355|N|Head west to the steam pump at the shores of Serpent Lake. Use the ironvine seeds on it.|M|62,41|
-C Leader of the Bloodscale|QID|9817|N|Kill Rajis Fyashe.|M|65,41|
-C A Warm Welcome|QID|9728|M|70.9,82.1|N|Kill and loot Naga for their claws.|US|
-T Drain Schematics|QID|9731|M|78.4,62.0|N|To Ysiel Windsinger.|
-A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsinger.|
-T A Warm Welcome|QID|9728|M|79.1,65.3|N|To Warden Hamoot.|
-T Leader of the Darkcrest|QID|9730|N|To Warden Hamoot.|M|79.1,65.3|
-T Leader of the Bloodscale|QID|9817|N|To Warden Hamoot.|M|79.1,65.3|
-T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|Hellfire Peninsula|
-A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
-H Cenarion Refuge|QID|9730|U|9732|N|Hearth to the Cenarion Refuge.|
-T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
-A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|
-A Blessings of the Ancients|QID|9785|N|From Windcaller Blackhoof.|M|80.4,64.7|
-C Blessings of the Ancients|QID|9785|QO|1|CHAT|N|To Ashyen.|M|81.04,64.03|
-C Blessings of the Ancients|QID|9785|QO|2|CHAT|N|To Kelethwho wanders around.|M|78.1,63.8|
-T Blessings of the Ancients|QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
-C The Respect of Another|QID|9898|N|Kill and loot Blacksting.|M|50,60|
-T Watcher Leesa'oh|QID|9697|N|She's southwest along the road. She walks off after a quest is handed in, so you may have to wait a bit.|M|23,66|
-A Observing the Sporelings|QID|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
-A The Sporelings' Plight|QID|9739|N|From Fahssn.|M|19,63|
-A Natural Enemies|QID|9743|M|19.0,64.0|N|From Fahssn.|
-l Natural Enemies|QID|9743|S|M|14.5,61.6|N|Kill Giants to get more Bog Lord Tendrils|L|24291 6|
-C The Sporelings' Plight|QID|9739|M|14.5,61.6|N|Loot Mature Spore Sacs.|S|
-C Observing the Sporelings|QID|9701|N|Head into the Spawning Glen to the west. The quest update should be at around the waypoint.|M|15.4,61.2|
-C The Sporelings' Plight|QID|9739|M|14.5,61.6|N|Loot Mature Spore Sacs.|US|
-l Natural Enemies|QID|9743|US|M|14.5,61.6|N|Kill Giants to get more Bog Lord Tendrils|L|24291 6|
-T The Sporelings' Plight|QID|9739|N|Back at Fahssn.|M|19,63|
-T Natural Enemies|QID|9743|M|19.0,64.0|N|To Fahssn.|
-T Observing the Sporelings|QID|9701|N|Back at Leesa'oh.|M|23,66|
-A A Question of Gluttony|QID|9702|PRE|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
-C A Question of Gluttony|QID|9702|N|The discarded nutriments are on the ground.|M|27,63|
-T A Question of Gluttony|QID|9702|M|23,66|N|To Watcher Leesa'oh.|
-A Familiar Fungi|QID|9708|PRE|9702|M|23.3,66.2|N|From Watcher Leesa'oh.|
-R Zabra'jin|QID|9775|M|33.02,51.15|N|Go to Zabra'jin.|
-f Zabra'jin|QID|9775|M|33.00,51.15|N|Get the flight point at Du'ga.|
-F Swamprat Post|QID|9775|M|33.00,51.15|N|Fly to Swamprat post.|
-T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij.|
-N Things to do|QID|9808|N|Grab Glowcap Mushrooms on sight. You'll need 10 Glowcaps(red glowing mushrooms), plus more Glowcaps if you plan on buying anything from Sporeggar.|
-A Report to Shadow Hunter Denjai|QID|9775|M|85.3,54.8|N|From Zurai.|
-F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
-A Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|From Seer Janidi.|
-T Report to Shadow Hunter Denjai|QID|9775|M|30.7,50.9|N|To Shadow Hunter Denjai. He's at the top of the inn.|
-A Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|From Zurjaya.|
-A WANTED: Boss Grog'ak|QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
-A WANTED: Chieftain Mummaki|QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
-A Stinging the Stingers|QID|9841|M|31.6,49.2|N|From Gambarinka.|
-A Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
-C Burstcap Mushrooms, Mon!|QID|9814|NC|N|They're around Zabra'jin.|M|28.9,52.6|
-A The Count of the Marshes|QID|9911|U|25459|M|32.8,59.1|N|From "Count" Ungula's Mandible.|O|
-K "Count" Ungula|QID|9911|L|25459|N|Kill and loot "Count" Ungula. He drops a quest item.|M|33,60|
-C Spirits of the Feralfen|QID|9846|N|Kill the Feralfen here for the totems.|M|50,62|
-C Angling to Beat the Competition|QID|9845|N|Kill Fenclaw Thrashers, use the potion of water breathing if needed.|M|50,41|U|25539|
-C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|S|
-C WANTED: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
-C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|US|
-T Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|To Zurjaya.|
-A The Biggest of Them All|QID|9903|PRE|9845|M|32.2,49.6|N|From Zurjaya.|
-A Pursuing Terrorclaw|QID|9904|M|32.2,49.6|N|From Zurjaya.|
-T Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
-A Have You Ever Seen One of These?|QID|9816|PRE|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
-T Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|To Seer Janidi.|
-A A Spirit Ally?|QID|9847|PRE|9846|M|32.4,52.0|N|From Seer Janidi.|
-T WANTED: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-A Impending Attack|QID|9822|PRE|9820|M|30.7,50.9|N|From Shadow Hunter Denjai.|
-T Familiar Fungi|QID|9708|M|23.3,66.2|N|To Watcher Leesa'oh.|
-A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
-T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
-C A Spirit Ally?|QID|9847|U|24498|N|Head to Boha'mu Ruins. Go to the bottom of the stairs and use the totem. Kill the Serpent Spirit.|M|44.5,66.1|
-T A Spirit Ally?|QID|9847|M|32.4,52.0|N|To Seer Janidi.|
-C The Biggest of Them All|QID|9903|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|M|42,42|
-C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|S|
-C Have You Ever Seen One of These?|QID|9816|U|24470|N|Use the cage at the flat rock. Hilarity ensues with dancing Baby Murlocs as Daggerfen go fleeing.|M|27,23|
-C Wanted: Chieftain Mummaki|QID|10117|N|He's up the top of the main building. Kill and loot him.|M|23.8,26.8|
-C Impending Attack|QID|9822|N|Your end destination is Ango'rosh Grounds, and the tower. The attack plans are up the top.|M|19.9,27.1|
-C Pursuing Terrorclaw|QID|9904|N|He's on the southernmost isle of Marshlight Lake, around . You may want to clear the isle first, as he fears.|M|23,45|
-C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|US|
-T Stinging the Stingers|QID|9841|M|31.6,49.2|N|To Gambarinka.|
-A The Sharpest Blades|QID|9842|PRE|9841|M|31.6,49.2|N|From Gambarinka.|
-T Pursuing Terrorclaw|QID|9904|M|32.2,49.6|N|To Zurjaya.|
-T The Biggest of Them All|QID|9903|M|32.2,49.6|N|To Zurjaya.|
-T Have You Ever Seen One of These?|QID|9816|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
-T WANTED: Chieftain Mummaki|QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-T Impending Attack|QID|9822|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-A Us or Them|QID|9823|PRE|9822|M|30.7,50.9|N|From Shadow Hunter Denjai.|
-A Message to the Daggerfen|QID|10118|M|30.7,50.9|N|From Shadow Hunter Denjai.|
-N Sporeggar reputation|QID|9919|N|Go kill stuff in the Spawning Glade. We're aiming for 750/3000 neutral with Sporeggar. You subtract 750 rep for every 6 Bog Lord Tendrils or 10 Mature Spore Sacs. Once you've got this, head over to Fahssn and turn in everything you have to get to the required rep.|M|19,63|REP|Sporeggar;970;unfriendly|
-A Sporeggar|QID|9919|M|19.1,63.9|N|From Fahssn.|
-l Fertile Spores|QID|9806|L|24449 6|N|Kill Sporebats around this area until you have 6 Fertile Spores|
-T Sporeggar|QID|9919|M|19.7,52.1|N|To Msshi'fn.|
-A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly with Sporeggar, this will not be there.|REP|Sporeggar;970;neutral|
-T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
-A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
-T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
-C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
-N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
-C Now That We're Friends...|QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
-C Message to the Daggerfen|QID|10118|N|Kill Daggerfen Assassins and Muckdwellers.|M|25.05,25.97|
-C Stealing Back the Mushrooms|QID|9709|S|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
-C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|S|
-K Overlord Gorefist|QID|9823|QO|1|N|Kill Overlord Gorefist.|M|18.3,7.8|
-C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|US|
-C Stealing Back the Mushrooms|QID|9709|US|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
-T Now That We're Friends...|QID|9726|M|19.5,50.0|N|To Gzhun'tt.|
-C The Sharpest Blades|QID|9842|M|35.9,58.6|N|Kill and loot Marshfang Slicers.|
-T Stealing Back the Mushrooms|QID|9709|M|23.3,66.2|N|To Watcher Leesa'oh.|
-T The Sharpest Blades|QID|9842|M|31.6,49.2|N|To Gambarinka.|
-T Us or Them|QID|9823|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-T Message to the Daggerfen|QID|10118|M|30.7,50.9|N|To Shadow Hunter Denjai.|
-A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai. This leads into Terokkar Forest, accept if you want to go there next.|
-H Cenarion Refuge|QID|9720|N|Run back if your hearth isn't up.|M|33.0,51.1|
-T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
-A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
-N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|
-T Uncatalogued Species|QID|9875|M|80.4,64.2|N|To Lauranna Thar'well.|
-N This ends|N|Zangarmarsh. Visits your trainners and the AH if you wish. Close this step to continue on to Terokkar Forest.|
+
+R Swamprat Post|AVAILABLE|9770|M|83.06,55.30|Z|1946; Zangarmarsh|N|This guide starts in Swamprat Post.| ; ** This step will confirm they are where they're supposed to be - Hendo72
+f Swamprat Post|AVAILABLE|9770|M|84.77,55.11|Z|1946; Zangarmarsh|N|From Wind Rider Master Gur'zil.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+N Sporebats|AVAILABLE|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Collection Loot|AVAILABLE|9770|N|Keep any [color=33fff9]Fertile Spores[/color] and [color=33fff9]Unidentified Plant Parts[/color] you loot, they're part of collection quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Uncatalogued Species|QID|9875|N|(UI Alert?)|O|
+A Thick Hydra Scales|QID|9774|M|85.28,54.76|Z|1946; Zangarmarsh|N|From Zurai.|
+A Menacing Marshfangs|QID|9770|M|84.97,54.03|Z|1946; Zangarmarsh|N|From Reavij.|
+A There's No Explanation for Fashion|QID|9769|M|84.36,54.33|Z|1946; Zangarmarsh|N|From Magasha.|
+A No More Mushrooms!|QID|9773|M|84.36,54.33|Z|1946; Zangarmarsh|N|From Magasha.|
+R Cenarion Refuge|AVAILABLE|9747|M|77.97,61.86|Z|1946; Zangarmarsh|N|Head over to the Cenarion Refuge.|FLY|OLD| ; Not everybody completes Hellfire
+T Warchief's Command: Zangarmarsh|QID|39180|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger in Cenarion Refuge.|
+T Return to the Marsh|QID|9732|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger in Cenarion Refuge.|
+h Cenarion Refuge|QID|9747|M|78.49,62.95|Z|1946; Zangarmarsh|N|At Innkeeper Coryth Stoktron.\n[color=FF0000]NOTE: [/color]Skip this step if you want, but you'll have to find an alternate means of travel if you choose not to.|
+A The Dying Balance|QID|9895|M|78.53,63.15|Z|1946; Zangarmarsh|N|From Lethyn Moonfire|
+A The Umbrafen Tribe|QID|9747|M|80.39,64.16|Z|1946; Zangarmarsh|N|From Ikeyen.|
+A Plants of Zangarmarsh|QID|9802|M|80.32,64.16|Z|1946; Zangarmarsh|N|From Lauranna Thar'well.|
+A Leader of the Darkcrest|QID|9730|M|79.13,64.78|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
+A Leader of the Bloodscale|QID|9817|M|79.13,64.78|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
+C Unidentified Plant Parts|QID|9802|L|24401 10|ITEM|24401|N|Any mob in Zangarmarsh.|S!US|IZ|Zangarmarsh|
+C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|Z|1946; Zangarmarsh|L|24372 12|ITEM|24372|N|Any winged insect\n[color=FF0000]NOTE: [/color]Pet collectors may want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly.|S|
+C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375|ITEM|24375|N|{CORDS}Mire Hydras.|S|
+C No More Mushrooms!|QID|9773|M|75.25,73.05|Z|1946; Zangarmarsh|L|24374 8|ITEM|24374|N|Umbrafen Eel\n[color=FF0000]NOTE: [/color]The drop rate is fairly low, so this may take a while.\nKeep an eye on your breath meter.|U|25539|
+C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375|ITEM|24375|N|{CORDS}Mire Hydras.|US|
+C The Dying Balance|QID|9895|M|81.81,72.27;83.82,78.62|CS|Z|1946; Zangarmarsh|N|Boglash (Lv 61 Elite) is a named strider that paths back and forth along here.\n[color=FF0000]NOTE: [/color]If you cannot locate him, you're waiting for him to respawn.|T|Boglash|
+C The Umbrafen Tribe|QID|9747|QO|1;2;3;4|M|85.31,90.96|Z|1946; Zangarmarsh|N|Head south and clear the two Umbrafen Villages. Further south, Kataru is in the big building on the top floor.|
+A Escape from Umbrafen|QID|9752|M|83.37,85.53|Z|1946; Zangarmarsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kayra Longmane.\n[color=FF0000]NOTE: [/color]If she isn't there, that means someone else is doing it, or she's dead and you'll have to wait.|
+A Escape from Umbrafen|QID|9752|M|83.37,85.53|Z|1946; Zangarmarsh|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kayra Longmane to restart.\n[color=FF0000]NOTE: [/color]If she isn't there, that means someone else is doing it, or she's dead and you'll have to wait.|FAIL|
+C Escape from Umbrafen|QID|9752|M|79.50,67.41|Z|1946; Zangarmarsh|N|Follow and protect Kayra.\n[color=FF0000]NOTE: [/color]You'll get ambushed twice by two Umbrafen Slavebinders.|
+T The Umbrafen Tribe|QID|9747|M|80.39,64.16|Z|1946; Zangarmarsh|N|To Ikeyen.|
+A A Damp, Dark Place|QID|9788|PRE|9747|M|80.39,64.16|Z|1946; Zangarmarsh|N|From Ikeyen.|
+t Plants of Zangarmarsh|QID|9802|M|80.32,64.16|Z|1946; Zangarmarsh|N|To Lauranna Thar'well.|IZ|3565; Cenarion Refuge|
+A Saving the Sporeloks|QID|10096|PRE|9747|M|80.32,64.16|Z|1946; Zangarmarsh|N|From Lauranna Thar'well.|
+A Safeguarding the Watchers|QID|9894|PRE|9747|M|80.37,64.73|Z|1946; Zangarmarsh|N|From Windcaller Blackhoof.|
+T The Dying Balance|QID|9895|M|78.53,63.15|Z|1946; Zangarmarsh|N|To Lethyn Moonfire.|
+T Escape from Umbrafen|QID|9752|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger.|
+C Menacing Marshfangs|QID|9770|QO|1|M|82.46,58.43;85.66,48.88|CS|Z|1946; Zangarmarsh|N|Kill Marshfangs around Swamprat Post\n[color=FF0000]NOTE: [/color]Head back towards the first waypoint if you're not finished yet.|
+C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|Z|1946; Zangarmarsh|L|24372 12|ITEM|24372|N|Any winged insect|US|
+T No More Mushrooms!|QID|9773|M|84.36,54.33|Z|1946; Zangarmarsh|N|To Magasha.|
+T There's No Explanation for Fashion|QID|9769|M|84.36,54.33|Z|1946; Zangarmarsh|N|To Magasha.|
+A A Job Undone|QID|9899|PRE|9773&9769|M|84.36,54.33|Z|1946; Zangarmarsh|N|From Magasha.| ; ** Need to verify if PRE '&' or '^' - Hendo72
+T Menacing Marshfangs|QID|9770|M|84.97,54.03|Z|1946; Zangarmarsh|N|To Reavij.|
+A The Respect of Another|QID|9898|PRE|9770|M|84.97,54.03|Z|1946; Zangarmarsh|N|From Reavij.|
+T Thick Hydra Scales|QID|9774|M|85.28,54.76|Z|1946; Zangarmarsh|N|To Zurai.|
+A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.28,54.76|Z|1946; Zangarmarsh|N|From Zurai.|
+C A Job Undone|QID|9899|QO|1|M|76.71,45.97;79.56,47.30|CN|Z|1946; Zangarmarsh|N|Kill Sporewing, located somewhere between the two waypoints.\n[color=FF0000]NOTE: [/color]If you cannot find him, you're waiting for him to respawn.|T|Sporewing|
+l Withered Basidium|AVAILABLE|9828|M|81,36|Z|1946; Zangarmarsh|L|24484|ITEM|24484|N|Withered Giant\n{CORDS}It has a low drop rate and might take a while.|S!US|IZ|The Dead Mire|
+A Withered Basidium|QID|9828|N|From the Withered Basidium.|U|24484|O|
+l Bog Lord Tendrils|AVAILABLE|9743|M|81,36|Z|1946; Zangarmarsh|L|24291 6|ITEM|24291|N|any type of Bog Lord or Withered Giant\n{CORDS}You need 6 for a quest later on.|S!US|IZ|The Dead Mire|
+T Searching for Scout Jyoba|QID|9771|M|80.77,36.27|Z|1946; Zangarmarsh|N|To Scout Jyoba's corpse.|
+A Jyoba's Report|QID|9772|PRE|9771|M|80.77,36.27|Z|1946; Zangarmarsh|N|From Scout Jyoba's corpse.|
+C Jyoba's Report|QID|9772|M|79.26,34.54|Z|1946; Zangarmarsh|L|24373|ITEM|24373|N|Withered Giant.|
+T A Job Undone|QID|9899|M|84.36,54.33|Z|1946; Zangarmarsh|N|To Magasha.|
+t Withered Basidium|QID|9828|M|84.97,54.03|Z|1946; Zangarmarsh|N|To Reavij.|IZ|Swamprat Post|
+T Jyoba's Report|QID|9772|M|85.28,54.76|Z|1946; Zangarmarsh|N|To Zurai.|
+R Funggor Cavern|QID|10096|M|75.02,90.96|Z|1946; Zangarmarsh|N|Fly/Ride to Funggor Cavern.|FLY|OLD|
+C Saving the Sporeloks|QID|10096|QO|1;2|N|[color=FF0000]NOTE: [/color]They won't aggro you as long as they're fighting a Sporelok. Don't go out of your way to kill them.|S|
+C A Damp, Dark Place|QID|9788|M|74.43,92.03;70.52,97.90|CS|Z|1946; Zangarmarsh|L|24411|N|Enter the cavern to the southwest. Go right at the first fork, right again at the second fork and down the slope. Ikeyen's Belongings are at the bottom on top of a flat rock.|+
+C Safeguarding the Watchers|QID|9894|QO|1|N|Kill Lord Klaq.\n[color=FF0000]NOTE: [/color]Head further down the slope and go west to the end.\nHe's guarded by 3 Fungal Giants, but it's possible to pull the guards without Klaq, or wait for the Sporeloks to engage his guards. Alternatively, just kill Klaq and run.|
+C Saving the Sporeloks|QID|10096|QO|1;2|N|Finish up as you work your way back out.|US|
+T A Damp, Dark Place|QID|9788|M|80.39,64.16|Z|1946; Zangarmarsh|N|To Ikeyen in Cenarion Refuge.|
+T Saving the Sporeloks|QID|10096|M|80.32,64.16|Z|1946; Zangarmarsh|N|To Lauranna Thar'well.|
+T Safeguarding the Watchers|QID|9894|M|80.37,64.73|Z|1946; Zangarmarsh|N|To Windcaller Blackhoof.|
+r Fedryen Swiftspear|AVAILABLE|9778|M|79.25,63.67|Z|1946; Zangarmarsh|N|Sell junk and repair.|
+A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.02|Z|1946; Zangarmarsh|N|From Ysiel Windsinger.|
+A Warden Hamoot|QID|9778|LEAD|9728|M|78.40,62.02|Z|1946; Zangarmarsh|N|From Ysiel Windsinger.|
+T Warden Hamoot|QID|9778|M|79.10,65.26|Z|1946; Zangarmarsh|N|To Warden Hamoot at the top of the tower.|
+A A Warm Welcome|QID|9728|M|79.10,65.26|Z|1946; Zangarmarsh|N|From Warden Hamoot.|
+R Disturbance at Umbrafen Lake|QID|9716|QO|1|M|72.14,80.42|Z|1946; Zangarmarsh|N|Head to the waypoint to get the quest completion.|
+T Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger.|
+A As the Crow Flies|QID|9718|PRE|9716|M|78.40,62.02|Z|1946; Zangarmarsh|N|From Ysiel Windsinger.|
+C As the Crow Flies|QID|9718|N|Use the amulet and enjoy the tour (or go get a drink or something).|U|25465|
+T As the Crow Flies|QID|9718|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger.|
+A Balance Must Be Preserved|QID|9720|PRE|9718|M|78.40,62.02|Z|1946; Zangarmarsh|N|From Ysiel Windsinger.|
+C A Warm Welcome|QID|9728|M|70.9,82.1|Z|1946; Zangarmarsh|L|24280 30|ITEM|24280|N|{CORDS}Any Naga|S|
+A Drain Schematics|QID|9731|N|From the Drain Schematics.|U|24330|O|
+C Disable the Umbrafen Lake Controls|QID|9720|QO|1|M|70.59,80.31|Z|1946; Zangarmarsh|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+C Leader of the Darkcrest|QID|9730|QO|1|M|65.10,68.67|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nKill Rajah Haghazed (lv 63 Elite).\n[color=FF0000]NOTE: [/color]He's immune to Fear spells. Killing a Sporebat before attempting this is highly recommended./nThis may be more difficult for squishies to solo.|
+C Disable the Lagoon Controls|QID|9720|QO|4|M|63.13,64.11|Z|1946; Zangarmarsh|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+l Drain Schematics|QID|9731|M|63.13,64.11|Z|1946; Zangarmarsh|L|24330|ITEM|24330|N|Steam Pump Overseer\n[color=FF0000]NOTE: [/color]Keep using the Ironvine Seeds to spawn the Steam Pump Overseers and killing them until you get Drain Schematics to drop. It can take some time.|U|24355|
+C Drain Schematics|QID|9731|QO|1|N|Head to the large steam pump in Serpent Lake and swim down a bit to complete the quest.|
+C Disable the Serpent Lake Controls|QID|9720|QO|3|M|61.99,40.82|Z|1946; Zangarmarsh|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+C Leader of the Bloodscale|QID|9817|QO|1|M|65.17,40.89|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nKill Rajis Fyashe (lv 63 elite).|
+C A Warm Welcome|QID|9728|M|70.90,82.10|Z|1946; Zangarmarsh|L|24280 30|ITEM|24280|N|Any Naga|US|
+T Drain Schematics|QID|9731|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger.|
+A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.40,62.02|Z|1946; Zangarmarsh|N|From Ysiel Windsinger.|
+T A Warm Welcome|QID|9728|M|79.10,65.26|Z|1946; Zangarmarsh|N|To Warden Hamoot.|
+T Leader of the Darkcrest|QID|9730|M|79.10,65.26|Z|1946; Zangarmarsh|N|To Warden Hamoot.|
+T Leader of the Bloodscale|QID|9817|M|79.10,65.26|Z|1946; Zangarmarsh|N|To Warden Hamoot.|
+T Warning the Cenarion Circle|QID|9724|M|16.04,52.14|Z|1944; Hellfire Peninsula|N|To Amythiel Mistwalker at Cenarion Post in Hellfire Peninsula.|
+A Return to the Marsh|QID|9732|PRE|9724|M|16.04,52.14|Z|1944; Hellfire Peninsula|N|From Amythiel Mistwalker.|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+T Return to the Marsh|QID|9732|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger.|
+A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.53,63.15|Z|1946; Zangarmarsh|N|From Lethyn Moonfire.|
+A Blessings of the Ancients|QID|9785|M|80.37,64.73|Z|1946; Zangarmarsh|N|From Windcaller Blackhoof.|
+C Blessings of the Ancients|QID|9785|QO|1|M|81.04,64.03|Z|1946; Zangarmarsh|N|To Ashyen.|CHAT|
+C Blessings of the Ancients|QID|9785|QO|2|M|78.1,63.8|Z|1946; Zangarmarsh|N|{CORDS}To Kelethwho, who wanders around.|CHAT|
+T Blessings of the Ancients|QID|9785|M|80.37,64.73|Z|1946; Zangarmarsh|N|To Windcaller Blackhoof.|
+C The Respect of Another|QID|9898|M|49.68,59.55|Z|1946; Zangarmarsh|L|25448|N|Kill and loot Blacksting.|
+N Glowcaps|AVAILABLE|9808|N|These are a quest item used to gain Rep with Sporeggar from Neutral to Friendly. 40 will get you there.\nThey are also used as currency to buy items from Sporeggar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|REP|Sporeggar;970;unfriendly-neutral|
+N Sporeggar Rep Bar|AVAILABLE|9808|N|Open the Reputation UI (<U> key by default) and click on the 'Sporeggar'. In the window that opens, check the box beside 'Show as Experience Bar'./nThis will display your current reputation level with Sporeggar as a bar directly above the XP bar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+l Glowcaps|AVAILABLE|9808|L|24245 10|N|They're the red colored mushrooms you find on the ground around the area to the north and south of Zabra'jin.\n[color=FF0000]NOTE: [/color]You only need 10 unless you plan on buying anything from Sporeggar. Then you'll need more than that, obviously.|S!US|REP|Sporeggar;970;unfriendly-neutral| ; No need to collect these for the quest if Friendly with Sporeggar - Hendo72
+T Watcher Leesa'oh|QID|9697|M|23.33,66.23|Z|1946; Zangarmarsh|N|She's southwest along the road.\n[color=FF0000]NOTE: [/color]If she's not there and you don't see her wandering to the SE of her tent, she's dead and waiting to respawn.|
+A Observing the Sporelings|QID|9701|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
+A The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CN|Z|1946; Zangarmarsh|N|From Fahssn.\n[color=FF0000]NOTE: [/color]Pathes between the two waypoints|
+A Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CN|Z|1946; Zangarmarsh|N|From Fahssn.\n[color=FF0000]NOTE: [/color]Pathes between the two waypoints.|
+C Natural Enemies|QID|9743|M|14.17,60.63|Z|1946; Zangarmarsh|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nYou need 6 for a quest later on.|S|
+C The Sporelings' Plight|QID|9739|M|14.17,60.63|Z|1946; Zangarmarsh|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|S|
+R Observing the Sporelings|QID|9701|QO|1|M|15.30,61.08|Z|1946; Zangarmarsh|N|Head into the Spawning Glen to the west.\n[color=FF0000]NOTE: [/color]The quest will complete around the waypoint.|
+C The Sporelings' Plight|QID|9739|M|14.17,60.63|Z|1946; Zangarmarsh|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|US|
+C Natural Enemies|QID|9743|M|14.17,60.63|Z|1946; Zangarmarsh|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant|US|
+T The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|Back at Fahssn.|
+T Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|To Fahssn.|
+T Observing the Sporelings|QID|9701|N|Back at Leesa'oh.|M|23.33,66.23|Z|1946; Zangarmarsh|
+A A Question of Gluttony|QID|9702|PRE|9701|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
+C A Question of Gluttony|QID|9702|M|29.24,63.92|Z|1946; Zangarmarsh|L|24233 10|N|They are found on the ground around Quagg Ridge.\n[color=FF0000]NOTE: [/color]On the rare occassion, they can be looted from one of the Giants.|
+T A Question of Gluttony|QID|9702|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
+A Familiar Fungi|QID|9708|PRE|9702|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
+R Zabra'jin|QID|9898|M|33.02,51.15|Z|1946; Zangarmarsh|N|Head north FLY|OLD|
+f Zabra'jin|QID|9898|M|33.06,51.08|Z|1946; Zangarmarsh|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+F Swamprat Post|QID|9898|M|33.06,51.08|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+T The Respect of Another|QID|9898|M|84.97,54.03|Z|1946; Zangarmarsh|N|To Reavij in Swamprat Post.|
+A Report to Shadow Hunter Denjai|QID|9775|M|85.28,54.76|Z|1946; Zangarmarsh|N|From Zurai.|
+F Zabra'jin|AVAILABLE|9846|M|84.77,55.11|Z|1946; Zangarmarsh|N|From Gur'zil.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+A Spirits of the Feralfen|QID|9846|M|32.38,51.97|Z|1946; Zangarmarsh|N|From Seer Janidi in Zabra'jin.|
+T Report to Shadow Hunter Denjai|QID|9775|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]He's at the top of the inn via the stairs at the back.|
+A Angling to Beat the Competition|QID|9845|M|32.26,49.61|Z|1946; Zangarmarsh|N|From Zurjaya.|
+A WANTED: Boss Grog'ak|QID|9820|M|32.00,49.33|Z|1946; Zangarmarsh|N|From the Wanted Poster.|
+A Wanted: Chieftain Mummaki|QID|10117|M|32.00,49.33|Z|1946; Zangarmarsh|N|From the Wanted Poster.|
+A Stinging the Stingers|QID|9841|M|31.63,49.19|Z|1946; Zangarmarsh|N|From Gambarinka.|
+A Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|Z|1946; Zangarmarsh|N|From Witch Doctor Tor'gash.|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|Z|1946; Zangarmarsh|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
+C "Count" Ungula|AVAILABLE|9911|M|32.91,59.55|Z|1946; Zangarmarsh|L|25459|N|Kill "Count" Ungula, a named Marshfang, to loot a quest starter item.|T|"Count" Ungula|
+A The Count of the Marshes|QID|9911|N|From "Count" Ungula's Mandible.|U|25459|O|
+C Spirits of the Feralfen|QID|9846|M|43.71,62.57|Z|1946; Zangarmarsh|L|24497 10|ITEM|24497|N|Feralfen mobs|
+C Angling to Beat the Competition|QID|9845|QO|1|M|50.40,40.89|Z|1946; Zangarmarsh|N|They're located around Coilfang Reservoir in Serpent Lake.\n[color=FF0000]NOTE: [/color]Use the potion of water breathing so you won't drown|U|25539|
+C Familiar Fungi|QID|9708|M|33.36,30.99|Z|1946; Zangarmarsh|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|S|
+C WANTED: Boss Grog'ak|QID|9820|M|34.87,34.94|Z|1946; Zangarmarsh|L|24472|N|Head north to find Boss Grog'ak. Watch out for his knockback.\n[color=FF0000]NOTE: [/color]He tends to wander about in his little area.|
+C Familiar Fungi|QID|9708|M|33.36,30.99|Z|1946; Zangarmarsh|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|US|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|Z|1946; Zangarmarsh|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|US|
+T Angling to Beat the Competition|QID|9845|M|32.26,49.61|Z|1946; Zangarmarsh|N|To Zurjaya.|
+A The Biggest of Them All|QID|9903|PRE|9845|M|32.26,49.61|Z|1946; Zangarmarsh|N|From Zurjaya.|
+A Pursuing Terrorclaw|QID|9904|M|32.26,49.61|Z|1946; Zangarmarsh|N|From Zurjaya.|
+T Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|Z|1946; Zangarmarsh|N|To Witch Doctor Tor'gash.|
+A Have You Ever Seen One of These?|QID|9816|PRE|9814|M|32.89,48.89|Z|1946; Zangarmarsh|N|From Witch Doctor Tor'gash.|
+T Spirits of the Feralfen|QID|9846|M|32.38,51.96|Z|1946; Zangarmarsh|N|To Seer Janidi.|
+A A Spirit Ally?|QID|9847|PRE|9846|M|32.38,51.96|Z|1946; Zangarmarsh|N|From Seer Janidi.|
+T WANTED: Boss Grog'ak|QID|9820|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.|
+A Impending Attack|QID|9822|PRE|9820|M|30.74,50.88|Z|1946; Zangarmarsh|N|From Shadow Hunter Denjai.|
+T Familiar Fungi|QID|9708|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
+A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
+T The Count of the Marshes|QID|9911|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
+C A Spirit Ally?|QID|9847|QO|1|M|44.43,66.02|Z|1946; Zangarmarsh|N|Kill the summoned Serpent Spirit.NOTE After reaching the Boha'mu Ruins, while standing at the very bottom of the stairs, use the totem.|U|24498|
+T A Spirit Ally?|QID|9847|M|32.38,51.96|Z|1946; Zangarmarsh|N|To Seer Janidi.|
+C The Biggest of Them All|QID|9903|QO|1|M|42.17,41.48|Z|1946; Zangarmarsh|N|Kill Mragesh; just under the surface of Serpent Lake at the northern tip of the island in the southwest corner of the lake.|
+C Stinging the Stingers|QID|9841|QO|1|M|21.07,32.41|Z|1946; Zangarmarsh|S|
+C Have You Ever Seen One of These?|QID|9816|M|26.79,22.60|Z|1946; Zangarmarsh|N|Use the cage at the flat rock.\nHilarity ensues with dancing Baby Murlocs as Daggerfen go fleeing.|U|24470|NC|
+C Wanted: Chieftain Mummaki|QID|10117|M|23.76,26.73|Z|1946; Zangarmarsh|N|Locate Chieftain Mummaki at the top of the main building and kill him.\n[color=FF0000]NOTE: [/color]He has two Servants standing with him.\nBe aware that he can use Wound Poison, Backstab, and Vanish.|T|Chieftain|
+C Impending Attack|QID|9822|M|19.89,27.09|Z|1946; Zangarmarsh|L|24471|N|The Attack Plans are on the floor at the top of the tower in Ango'rosh Grounds.\n[color=FF0000]NOTE: [/color]They are protected by Captain Krosh and a guard that paths up and down the tower ramp.|
+C Pursuing Terrorclaw|QID|9904|QO|1|M|22.30,45.86|Z|1946; Zangarmarsh|N|Kill Terrorclaw on the southernmost island in Marshlight Lake.\n[color=FF0000]NOTE: [/color]You may want to clear a spot first, as he fears.|T|Terrorclaw|
+C Stinging the Stingers|QID|9841|QO|1|M|21.07,32.41|Z|1946; Zangarmarsh|US|
+T Stinging the Stingers|QID|9841|M|31.63,49.19|Z|1946; Zangarmarsh|N|To Gambarinka in Zabra'jin.|
+A The Sharpest Blades|QID|9842|PRE|9841|M|31.63,49.19|Z|1946; Zangarmarsh|N|From Gambarinka.|
+T Pursuing Terrorclaw|QID|9904|M|32.26,49.61|Z|1946; Zangarmarsh|N|To Zurjaya.|
+T The Biggest of Them All|QID|9903|M|32.26,49.61|Z|1946; Zangarmarsh|N|To Zurjaya.|
+T Have You Ever Seen One of These?|QID|9816|M|32.89,48.89|Z|1946; Zangarmarsh|N|To Witch Doctor Tor'gash.|
+T Wanted: Chieftain Mummaki|QID|10117|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.|
+T Impending Attack|QID|9822|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.|
+A Us or Them|QID|9823|PRE|9822|M|30.74,50.88|Z|1946; Zangarmarsh|N|From Shadow Hunter Denjai.|
+A Message to the Daggerfen|QID|10118|M|30.74,50.88|Z|1946; Zangarmarsh|N|From Shadow Hunter Denjai.|
+N Sporeggar Reputation|AVAILABLE|9744^9742|N|Remember that note when you first came to this area about Sporeggar rep?\nYou need to be at least neutral with Sporeggar to get the next quest to show.\n[color=FF0000]NOTE: [/color]750 rep for every 6 [color=33fff9]Bog Lord Tendrils[/color] or 10 [color=33fff9]Mature Spore Sacs[/color]. You also gain 15 rep for every Bog Lord/Giant you kill.\nYou do the math and figure out what works best for you.\nThe [color=33fff9]Mature Spore Sacs[/color] are probably the easier way to go.\nManually check this step off to continue.|REP|Sporeggar;970;unfriendly|
+C The Sharpest Blades|QID|9842|M|19.60,68.51|Z|1946; Zangarmarsh|L|24493 10|ITEM|24493|N|Marshfang Slicer|S|
+l Bog Lord Tendrils|AVAILABLE|9744|M|14.01,61.52|Z|1946; Zangarmarsh|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nBonus... you gain Sporeggar rep just for killing them.|S!US|REP|Sporeggar;970;unfriendly|
+l Mature Spore Sacs|AVAILABLE|9742|M|14.17,60.63|Z|1946; Zangarmarsh|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|REP|Sporeggar;970;unfriendly|
+A More Tendrils!|AVAILABLE|9744|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|L|24291 -5|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;unfriendly|NOCACHE|
+t More Tendrils!|QID|9744|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|To Fahssn.|REP|Sporeggar;970;unfriendly|
+A More Spore Sacs|AVAILABLE|9742|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|L|24290 -9|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;unfriendly|NOCACHE|
+t More Spore Sacs|QID|9742|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|To Fahssn.|REP|Sporeggar;970;unfriendly|
+A Sporeggar|QID|9919|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|From Fahssn.|REP|Sporeggar;970;neutral|
+C Fertile Spores|AVAILABLE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat or Strider/Walker|
+T Sporeggar|QID|9919|M|19.68,52.07|Z|1946; Zangarmarsh|N|To Msshi'fn.|
+A Glowcap Mushrooms|QID|9808|M|19.68,52.07|Z|1946; Zangarmarsh|N|From Msshi'fn.|REP|Sporeggar;970;neutral|
+C Glowcap Mushrooms|QID|9808|M|40.00,36.30|Z|1946; Zangarmarsh|L|24245 10|N|Get the rest of the glowcaps needed for this quest.|
+T Glowcap Mushrooms|QID|9808|M|19.68,52.07|Z|1946; Zangarmarsh|N|To Msshi'fn.|
+A Fertile Spores|QID|9806|M|19.14,49.38|Z|1946; Zangarmarsh|N|From Gshaff.|REP|Sporeggar;970;neutral|
+C Fertile Spores|QID|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat or Strider/Walker|
+T Fertile Spores|QID|9806|M|19.14,49.38|Z|1946; Zangarmarsh|N|To Gshaff.|
+N Friendly Rep|AVAILABLE|9726|N|The next quest requires that you have a minimum Rep of Friendly with Sporeggar to accept it.\nYou now have the choice of doing any of the 3 repeatable rep quests (or all 3 of them if you so choose).\nThe [color=33fff9]Bog Lord Tendrils[/color] and [color=33fff9]Mature Spore Sacs[/color] are your best bet to get this done quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|REP|Sporeggar;970;neutral|
+l Glowcaps|AVAILABLE|9809|M|40.00,36.30|Z|1946; Zangarmarsh|L|24245 10|N|Get the rest of the glowcaps needed for this quest.|S!US|REP|Sporeggar;970;neutral|
+l Fertile Spores|AVAILABLE|9807|L|24449 6|ITEM|24449|N|Any type of Sporebat or Strider/Walker|S!US|REP|Sporeggar;970;neutral|
+l Bog Lord Tendrils|AVAILABLE|9744|M|14.01,61.52|Z|1946; Zangarmarsh|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nBonus... you gain Sporeggar rep just for killing them.|S!US|REP|Sporeggar;970;neutral|
+l Mature Spore Sacs|AVAILABLE|9742|M|14.17,60.63|Z|1946; Zangarmarsh|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|REP|Sporeggar;970;neutral|
+A More Tendrils!|AVAILABLE|9744|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|L|24291 -5|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Tendrils!|QID|9744|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|To Fahssn.|REP|Sporeggar;970;neutral|
+A More Spore Sacs|AVAILABLE|9742|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|L|24290 -9|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Spore Sacs|QID|9742|M|19.20,64.52;19.03,62.38|CC|Z|1946; Zangarmarsh|N|To Fahssn.|REP|Sporeggar;970;neutral|
+A More Fertile Spores|QID|9807|M|19.14,49.38|Z|1946; Zangarmarsh|N|From Gshaff.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Fertile Spores|QID|9807|M|19.14,49.38|Z|1946; Zangarmarsh|N|To Gshaff.|
+A More Glowcaps|QID|9809|M|19.68,52.07|Z|1946; Zangarmarsh|N|From Msshi'fn.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Glowcaps|QID|9809|M|19.68,52.07|Z|1946; Zangarmarsh|N|To Msshi'fn.|
+A Now That We're Friends...|QID|9726|M|19.55,50.04|Z|1946; Zangarmarsh|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
+C Now That We're Friends...|QID|9726|QO|1;2|M|26.55,41.02|Z|1946; Zangarmarsh|S|
+C Disable the Marshlight Lake Controls|QID|9720|QO|2|M|25.42,42.87|Z|1946; Zangarmarsh|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+C Now That We're Friends...|QID|9726|QO|1;2|M|26.55,41.02|Z|1946; Zangarmarsh|N|As long as you're not damaging them (DoT), the Slaves will run away once you've killed the Slavedriver.\nLook for Enchantresses that are alone or pullable; you'll prefer it.\n[color=FF0000]NOTE: [/color]Stay away from the Sentries; you'll regret it when they call EVERYONE around you.|US|
+C Message to the Daggerfen|QID|10118|QO|1;2|M|24.65,22.60|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]\nThe Muckdweller's Paralytic Poison can get annoying at times when you can't do anything for 5 seconds. Avoid pulling too many at once for this exact reason.|
+C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|Z|1946; Zangarmarsh|L|24240 10|ITEM|24240|N|Ango'rosh mobs\n[color=FF0000]NOTE: [/color]Located on the ground around the Stronghold, they spawn a Mauler when picked.|S|
+C Us or Them|QID|9823|QO|2;3|M|19.25,7.62|Z|1946; Zangarmarsh|N|Kill the required Ango'rosh mobs.[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|S|
+C Us or Them|QID|9823|QO|1|M|18.70,9.64;18.36,7.74|CC|Z|1946; Zangarmarsh|N|Kill Overlord Gorefist, inside a building on top of the Stronghold (not inside the cave).|
+C Us or Them|QID|9823|QO|2;3|M|19.25,7.62|Z|1946; Zangarmarsh|N|Kill the required Ango'rosh mobs.[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|US|
+C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|Z|1946; Zangarmarsh|L|24240 10|ITEM|24240|N|Ango'rosh mobs\n[color=FF0000]NOTE: [/color]Located on the ground around the Stronghold, they spawn a Mauler when picked.|US|
+T Now That We're Friends...|QID|9726|M|19.55,50.04|Z|1946; Zangarmarsh|N|To Gzhun'tt in Sporeggar.|
+T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.\n[color=FF0000]NOTE: [/color]If she's not here, look east across the water and see if she's there. Otherwise, she's dead/phased and you have to wait.|
+C The Sharpest Blades|QID|9842|M|33.91,59.49|Z|1946; Zangarmarsh|L|24493 10|ITEM|24493|N|Marshfang Slicer|US|
+T The Sharpest Blades|QID|9842|M|31.63,49.19|Z|1946; Zangarmarsh|N|To Gambarinka.|
+T Us or Them|QID|9823|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.|
+T Message to the Daggerfen|QID|10118|M|30.74,50.88|Z|1946; Zangarmarsh|N|To Shadow Hunter Denjai.|
+A News for Rakoria|QID|10105|M|30.71,50.89|Z|1946; Zangarmarsh|N|From Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+T Balance Must Be Preserved|QID|9720|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger in Cenarion Refuge.|
+A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.53,63.15|Z|1946; Zangarmarsh|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
+t Identify Plant Parts|QID|9784|M|80.32,64.16|Z|1946; Zangarmarsh|N|To Lauranna Thar'well.|
+A Identify Plant Parts|AVAILABLE|9784|M|80.32,64.16|Z|1946; Zangarmarsh|L|24401 -10|N|From Lauranna Thar'well.\n[color=FF0000]NOTE: [/color]This a repeatable quest that you can do to get some useful herbs before you leave.\nSkip this step if you want to move on.|NOCACHE|
+D This ends Zangarmarsh.|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Don't forget to grab the Blessings from the two Ancients before you leave.\nManually check this step off to continue to Terokkar Forest.|
 ]]
 end)
