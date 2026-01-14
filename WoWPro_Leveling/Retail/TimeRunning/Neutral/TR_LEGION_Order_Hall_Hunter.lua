@@ -263,7 +263,7 @@ t Aiding Our Allies|QID|42436|M|41.59,74.69|N|To Emmarel Shadewarden.|
 C Unseen Protection|QID|42394|M|42.58,46.66|NC|US|N|Finish the 5 "Unseen Protection" missions at the Scouting Map.|
 t Unseen Protection|QID|42394|M|41.59,74.69|N|To Emmarel Shadewarden. She is still at the top of the lookout tower.|
 ;lights heart intro questline
-A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel. This is covered in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|PRE|44090|
+A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran@Dalaran70|N|From Archmage Khadgar in The Violet Citadel. This is covered in a separate guide called [Color=7eff8a] Light's Heart [/color] and awards a variation for your artifact weapons.|LVL|20|IZ|627
 ;fresh 45 [110] quests
 A Walk This Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|
 A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
