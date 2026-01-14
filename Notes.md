@@ -1,3 +1,22 @@
+# Release 2025.12.31.A
+## Bug Fixes
+* Tweak U tag behavious when O tag is present
+* Update mists .toc to 50503
+* Slow down WoWPro.UpdateGuideRealSlow to 2/3 of a second (Classic)
+* Furydin: If Settings.OpenToCategory returns an id - use that to open the options page instead of "WowPro".
+* Add Midnight Continent Ids
+## Guide Updates
+* Retail Achievements: Pandaren Heritage Armor
+* Retail Dailies: Rename Pandaria Pet Leveling Guide
+* MOP Leveling: Update Troll Intro
+* Retail Leveling Alliance: TWW Returning Player
+* Retail Leveling Neutral: Azure Span, Call of the Dream, DF Campaign, EoN, Harbinger, Misfit FRagons, Ohnahran Plains, Reclaiming Gilneas, Thaldraszus, Coalition of Flames, Forbidden Reach, Waking Shores, Speedrun, Midnight Prepatch, Chains of Domination, TWW Recap, Visions of a Shadowed Sun
+* Retail Leveling Horde: TWW Returning Player
+* Legion TR: All Order halls and Horde Stormheim
+* Vanilla Leveling Horde: Durotar, Mulgore, Tirisfal Glades, Silverpine Forest, Barrens
+* Professions Vanilla: Engineering, First Aid, Leatherworking
+
+
 # Release 2025.12.03.A
 ## Bug Fixes
 * Midnight Beta zones update

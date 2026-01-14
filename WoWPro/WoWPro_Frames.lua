@@ -997,7 +997,13 @@ function WoWPro:CreateRows()
 		row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
         row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
 		row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(i)
-        row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
+--        row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
+        -- multiple loot buttons
+        row.lootsbuttons = {}  -- Create a table to hold multiple loot buttons
+        for j = 1, 5 do  -- Create up to 5 loot buttons per row. Can be increased if necessary
+            local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, i, j)
+            row.lootsbuttons[j] = {button = lootsbutton, icon = lootsicon}
+        end
         row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(row, i)
 		row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(row, i)
 		row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
