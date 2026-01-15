@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="BC_NetherDrake.lua"/>
+	<Script file="BC_ShattSun.lua"/>
+	<Script file="BC_Skyguard.lua"/>
+</Ui>
+
