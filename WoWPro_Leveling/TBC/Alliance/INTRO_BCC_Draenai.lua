@@ -88,7 +88,7 @@ T Find Acteon!|QID|9453|Z|Azuremyst Isle|M|49.8,51.9|N|To Acteon at Azure Watch.
 A The Great Moongraze Hunt|QID|9454|Z|Azuremyst Isle|M|49.8,51.9|N|From Acteon.|
 T Travel to Azure Watch|QID|9313|Z|Azuremyst Isle|M|48.7,50.3|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|Z|Azuremyst Isle|M|48.3,49.2|N|To Caregiver Chellan.|
-h Azure Watch|QID|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
+h Azure Watch|QID|9454|M|PLAYER|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Help Tavara|QID|9586|Z|Azuremyst Isle|M|48.59,49.29|N|From Guvan.|R|Draenei|C|Priest|
 A Medicinal Purpose|QID|9463|Z|Azuremyst Isle|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|Z|Azuremyst Isle|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
@@ -235,9 +235,11 @@ A Warn Your People|QID|9622|PRE|9566&9570&9573|Z|Azuremyst Isle|M|46.68,20.63|N|
 T The Kurken's Hide|QID|9571|Z|Azuremyst Isle|M|44.77,23.90|N|To Moordo.|
 T Call of Fire|QID|9465|Z|Azuremyst Isle|M|59.52,17.95|N|To Temper.|C|Shaman|R|Draenei|
 A Call of Fire|QID|9467|Z|Azuremyst Isle|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
-C Call of Fire|QID|9467|Z|Azuremyst Isle|M|11.25,82.56|N|Click the Strawnman and then kill the fire elemental that spawns.|C|Shaman|R|Draenei|
+C Call of Fire|QID|9467|Z|Azuremyst Isle|M|11.25,82.56|N|Click the Strawman and then kill the fire elemental that spawns.|C|Shaman|R|Draenei|U||
 T Call of Fire|QID|9467|Z|Azuremyst Isle|M|59.52,17.95|N|Use the Orb of Returning and turn in to Temper.|C|Shaman|R|Draenei|U|24335|
-T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|
+A Call of Fire|QID|9468|Z|Azuremyst Isle|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
+T Call of Fire|QID|9468|Z|Azuremyst Isle|M|59.52,17.95|N|To Temper.|C|Shaman|R|Draenei|
+T Warn Your People|QID|9622|Z|Azuremyst Isle|M|48.06,50.44|N|To Tuluun.|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
 ;T Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 A Behomat|QID|10350|Z|Azuremyst Isle|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|
