@@ -19,6 +19,7 @@ function WoWPro.GetSide(frame)
 end
 
 function WoWPro.ResetMainFramePosition()
+    if _G.InCombatLockdown() then return end
     local top = WoWPro.Titlebar:GetTop()
     local left = WoWPro.Titlebar:GetLeft()
     WoWPro.MainFrame:ClearAllPoints()
@@ -34,6 +35,7 @@ function WoWPro:MinimapSet()
     end
 end
 function WoWPro:ResizeSet()
+    if _G.InCombatLockdown() then return end
     -- Resize Customization --
     if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
     WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize)
@@ -103,6 +105,7 @@ function WoWPro:DragSet()
 end
 
 function WoWPro:PaddingSet()
+    if _G.InCombatLockdown() then return end
     local pad = WoWProDB.profile.pad
     -- Padding Customization --
     if WoWPro.Titlebar:IsShown() then
@@ -271,6 +274,7 @@ WoWPro.ShownRows = 0
 
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
+    if _G.InCombatLockdown() then return end
     local space = WoWProDB.profile.space
     local pad = WoWProDB.profile.pad
     local biggeststep = 0
@@ -426,7 +430,7 @@ function WoWPro.AnchorStore(where)
 end
 
 function WoWPro.AnchorRestore(reset_size)
-    if WoWPro.InhibitAnchorRestore then
+    if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
         WoWPro:dbp("AnchorRestore: Punting for now.")
         return
     end

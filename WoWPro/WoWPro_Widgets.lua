@@ -284,11 +284,11 @@ end
 function WoWPro:CreateTargetButtonSecured(id)
     local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
     targetbutton:SetAttribute("type", "macro")
-    targetbutton:SetFrameStrata("MEDIUM")
+    targetbutton:SetFrameStrata("HIGH")
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton:Hide()
-	targetbutton:RegisterForClicks("anyDown")
+    targetbutton:RegisterForClicks("AnyDown", "AnyUp")
     return targetbutton
 end
 

@@ -1705,14 +1705,14 @@ if step then
 
 
         -- Target Button --
-        if target then
+        if target and not _G.InCombatLockdown() then
             local mtext
             local tar, emote = (","):split(target)
             currentRow.targetbutton:Show()
             if tar:sub(1, 1) == "/" then
                 mtext = tar:gsub("\\n", "\n")
             elseif emote then
-                mtext = "/target [nodead] "..tar.."\n/"..emote
+                mtext = "/target "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
                 if not WoWPro.MIDNIGHT then
@@ -1727,32 +1727,48 @@ if step then
 
             WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
 
-            -- Ask the target button to place itself
-            currentRow.targetbutton.Position(use or eab)
+            -- Ask the target button to place itself (only out of combat, as Position calls SetWidth/SetHeight)
+            if not _G.InCombatLockdown() then
+                currentRow.targetbutton.Position(use or eab)
+            end
 
-			if not _G.InCombatLockdown() then
-				if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
-					local Tleft, Tbottom = currentRow.targetbutton:GetRect()
-					currentRow.targetbuttonSecured:Show()
-					currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
-					currentRow.targetbuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
-				end
+			-- Set up secured button for hotkey execution (outside combat check to handle late setup)
+			if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
+				local Tleft, Tbottom = currentRow.targetbutton:GetRect()
+                if not _G.InCombatLockdown() then
+                    currentRow.targetbuttonSecured:Show()
+                    currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
+                    -- Overlay secured button directly over the visible target icon
+                    currentRow.targetbuttonSecured:ClearAllPoints()
+                    currentRow.targetbuttonSecured:SetPoint("BOTTOMLEFT", currentRow.targetbutton, "BOTTOMLEFT", 0, 0)
+                    -- Ensure secured button is above the icon for mouse clicks
+                    currentRow.targetbuttonSecured:SetFrameStrata("HIGH")
+                    currentRow.targetbuttonSecured:SetFrameLevel(currentRow.targetbutton:GetFrameLevel() + 1)
+                else
+                    -- Store for later setup when out of combat
+                    currentRow.targetbuttonSecured._pendingMacro = mtext
+                    currentRow.targetbuttonSecured._pendingPosition = {"BOTTOMLEFT", currentRow.targetbutton, "BOTTOMLEFT", 0, 0}
+                end
 			end
-            if not targetkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
+            if not targetkb and currentRow.targetbutton:IsVisible() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-                if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbuttonSecure"..i..":LeftButton")
+                if key1 and not _G.InCombatLockdown() then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_targetbuttonSecure"..i, "LeftButton")
                 end
-                if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbuttonSecure"..i..":LeftButton")
+                if key2 and not _G.InCombatLockdown() then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_targetbuttonSecure"..i, "LeftButton")
                 end
-                targetkb = true
+                if (key1 or key2) and not _G.InCombatLockdown() then
+                    targetkb = true
+                end
             end
         else
-            currentRow.targetbutton:Hide()
-			if not _G.InCombatLockdown() then
-				currentRow.targetbuttonSecured:Hide()
-			end
+            if not _G.InCombatLockdown() then
+                currentRow.targetbutton:Hide()
+            end
+		if not _G.InCombatLockdown() then
+			currentRow.targetbuttonSecured:Hide()
+		end
         end
 
         WoWPro.rows[i] = currentRow
@@ -1763,7 +1779,7 @@ if step then
     WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
     WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 
-    if not WoWPro.MaybeCombatLockdown() then
+    if not _G.InCombatLockdown() then
         WoWPro.RowSizeSet()
         WoWPro.PaddingSet()
     end
