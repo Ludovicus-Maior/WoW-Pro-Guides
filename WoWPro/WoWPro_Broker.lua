@@ -1425,7 +1425,9 @@ if step then
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
         if action == "*" and use and WoWPro.C_Item_GetItemInfo then
-            currentRow.itembutton:Show()
+            if not _G.InCombatLockdown() then
+                currentRow.itembutton:Show()
+            end
             currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
             currentRow.itembutton:SetAttribute("click", "clickbutton")
@@ -1476,12 +1478,16 @@ if step then
 
             if not _use then
                 -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
-                currentRow.itembutton:Hide()
+                if not _G.InCombatLockdown() then
+                    currentRow.itembutton:Hide()
+                end
             else
                 currentRow.itemicon.item_IsVisible = nil
                 currentRow.itemcooldown.OnCooldown = nil
                 currentRow.itemcooldown.ActiveItem = nil
-                currentRow.itembutton:Show()
+                if not _G.InCombatLockdown() then
+                    currentRow.itembutton:Show()
+                end
                 currentRow.itemicon.currentTexture = nil
                 currentRow.itembutton:SetAttribute("type1", "item")
                 currentRow.itembutton:SetAttribute("item1", "item:".._use)
@@ -1536,7 +1542,9 @@ if step then
                 itemkb = true
             end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
-            currentRow.itembutton:Show()
+            if not _G.InCombatLockdown() then
+                currentRow.itembutton:Show()
+            end
             currentRow.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
             currentRow.itembutton:SetAttribute("type", "SwitchPet")
             local switch = WoWPro.switch[k]
@@ -1560,7 +1568,9 @@ if step then
 				end
 			end
         else
-			currentRow.itembutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.itembutton:Hide()
+			end
 			if not _G.InCombatLockdown() then
 				currentRow.itembuttonSecured:Hide()
 			end
@@ -1621,7 +1631,9 @@ if step then
 		--Guide Jump Button
 		if WoWPro.jump[k] then
 			local newguide, ctID = (";"):split(WoWPro.jump[k])
-			currentRow.jumpbutton:Show()
+			if not _G.InCombatLockdown() then
+				currentRow.jumpbutton:Show()
+			end
 			currentRow.jumpbutton:SetScript("OnClick", function()
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
 				if ctID and WoWPro.RETAIL then
@@ -1640,13 +1652,17 @@ if step then
                 jumpkb = true
             end
         else
-            currentRow.jumpbutton:Hide()
+            if not _G.InCombatLockdown() then
+                currentRow.jumpbutton:Hide()
+            end
         end
 
         -- EA Button --
         if eab then
             local mtext = "/click ExtraActionButton1"
-            currentRow.eabutton:Show()
+            if not _G.InCombatLockdown() then
+                currentRow.eabutton:Show()
+            end
             currentRow.eabutton:SetAttribute("macrotext", mtext)
             currentRow.eaicon.EAB1_IsVisible = nil
             currentRow.eaicon.currentTexture = nil
@@ -1694,7 +1710,9 @@ if step then
                 eakb = true
             end
         else
-            currentRow.eabutton:Hide()
+            if not _G.InCombatLockdown() then
+                currentRow.eabutton:Hide()
+            end
 			if not _G.InCombatLockdown() then
 				currentRow.eabuttonSecured:Hide()
 			end
