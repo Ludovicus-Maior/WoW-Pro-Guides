@@ -10,11 +10,11 @@ return [[
 
 A Warchief's Command: Outland!|QID|28705|AVAILABLE|9407&10046|LEAD|10120|M|49.9,76.4|Z|1454; Orgrimmar|N|{coords}From the Warchief's Command Board in Orgrimmar.|
 P Blasted Lands|ACTIVE|28705|M|44.72,67.91|Z|1454; Orgrimmar|N|Make your way to Blasted Lands.|
-C Warchief's Command: Outland!|QID|28705|M|55.01,54.35|Z|0017; Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
+C Warchief's Command: Outland!|QID|28705|M|55.01,54.35|Z|1419; Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T Warchief's Command: Outland!|QID|28705|M|87.36,49.80|Z|1944; Hellfire Peninsula|N|To Lieutenant General Orion.|
-A Through the Dark Portal|QID|9407^10046|AVAILABLE|28705|LEAD|10120|M|58.06,56.00|Z|0017; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.|
-A Through the Dark Portal|QID|9407^10046|PRE|28705|LEAD|10120|M|58.06,56.00|Z|0017; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.\n[color=FF0000]NOTE: [/color]Having done the Warchief's Command Board quest, you now have the opportunity to back through and complete the alternate breadcrumb as well.\nSkip this step if you're not interested in an easy 2400 xp.|
-P The Stair of Destiny|ACTIVE|9407^10046|M|55.05,54.48|Z|0017; Blasted Lands|N|Go through the Dark Portal.|
+A Through the Dark Portal|QID|9407^10046|AVAILABLE|28705|LEAD|10120|M|58.06,56.00|Z|1419; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.|
+A Through the Dark Portal|QID|9407^10046|PRE|28705|LEAD|10120|M|58.06,56.00|Z|1419; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.\n[color=FF0000]NOTE: [/color]Having done the Warchief's Command Board quest, you now have the opportunity to back through and complete the alternate breadcrumb as well.\nSkip this step if you're not interested in an easy 2400 xp.|
+P The Stair of Destiny|ACTIVE|9407^10046|M|55.05,54.48|Z|1419; Blasted Lands|N|Go through the Dark Portal.|
 T Through the Dark Portal|QID|9407^10046|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|Z|1944; Hellfire Peninsula|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|Z|1944; Hellfire Peninsula|N|To Vlagga Freyfeather.|
@@ -27,7 +27,7 @@ T I Believe You Can Fly|QID|32674|M|48.93,59.27|Z|1454; Orgrimmar|N|To Maztha on
 = Expert Riding|M|48.93,59.27|Z|1454; Orgrimmar|N|For 250g (without discounts), learn 'flying' from Maztha in Orgrimmar.\n[color=FF0000]NOTE: [/color]If you need a flying mount, you can purchase one from Grol'dar (standing beside Maztha).\n\nSkip this step for now if you can't afford it. Don't forget to come back when you can.|LVL|60|SPELL|Expert Riding; 34090|
 = Flight Master's License|M|48.93,59.27|Z|1454; Orgrimmar|N|For an additional 250g (less discounts), if you just learned Expert Riding, be sure to get your Flight Master's License from Maztha in Orgrimmar.\n[color=FF0000]NOTE: [/color]Skip this step for now if you can't afford it or don't know Expert Riding yet.\nThis can be learned from many other Riding Trainers, including in HFP.|LVL|60|SPELL|Flight Master's License; 90267|
 P The Dark Portal|ACTIVE|10289|PRE|32674|M|44.62,68.15|Z|0086; Cleft of Shadow0!Instance|N|Make your way back through the portal to Hellfire Peninsula.|
-P Hellfire Peninsula|ACTIVE|10289|PRE|32674|M|55.05,54.48|Z|0017; Blasted Lands|N|Go through the Dark Portal.|TZ|Stair of Destiny|
+P Hellfire Peninsula|ACTIVE|10289|PRE|32674|M|55.05,54.48|Z|1419; Blasted Lands|N|Go through the Dark Portal.|TZ|Stair of Destiny|
 F Thrallmar|ACTIVE|10289|M|87.33,48.17|Z|1944; Hellfire Peninsula|N|At Vlagga Freyfeather.|
 T Journey to Thrallmar|QID|10289|M|55.87,36.99|Z|1944; Hellfire Peninsula|N|To General Krakork.|
 A Report to Nazgrel|QID|10291|PRE|10289|M|55.87,36.99|Z|1944; Hellfire Peninsula|N|From General Krakork.|

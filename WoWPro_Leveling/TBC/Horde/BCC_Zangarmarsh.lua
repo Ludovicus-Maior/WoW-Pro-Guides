@@ -63,7 +63,7 @@ t Withered Basidium|QID|9828|M|84.97,54.03|Z|1946; Zangarmarsh|N|To Reavij.|IZ|S
 T Jyoba's Report|QID|9772|M|85.28,54.76|Z|1946; Zangarmarsh|N|To Zurai.|
 R Funggor Cavern|QID|10096|M|75.02,90.96|Z|1946; Zangarmarsh|N|Fly/Ride to Funggor Cavern.|FLY|OLD|
 C Saving the Sporeloks|QID|10096|QO|1;2|N|[color=FF0000]NOTE: [/color]They won't aggro you as long as they're fighting a Sporelok. Don't go out of your way to kill them.|S|
-C A Damp, Dark Place|QID|9788|M|74.43,92.03;70.52,97.90|CS|Z|1946; Zangarmarsh|L|24411|N|Enter the cavern to the southwest. Go right at the first fork, right again at the second fork and down the slope. Ikeyen's Belongings are at the bottom on top of a flat rock.|+
+C A Damp, Dark Place|QID|9788|M|74.43,92.03;70.52,97.90|CS|Z|1946; Zangarmarsh|L|24411|N|Enter the cavern to the southwest. Go right at the first fork, right again at the second fork and down the slope. Ikeyen's Belongings are at the bottom on top of a flat rock.|
 C Safeguarding the Watchers|QID|9894|QO|1|N|Kill Lord Klaq.\n[color=FF0000]NOTE: [/color]Head further down the slope and go west to the end.\nHe's guarded by 3 Fungal Giants, but it's possible to pull the guards without Klaq, or wait for the Sporeloks to engage his guards. Alternatively, just kill Klaq and run.|
 C Saving the Sporeloks|QID|10096|QO|1;2|N|Finish up as you work your way back out.|US|
 T A Damp, Dark Place|QID|9788|M|80.39,64.16|Z|1946; Zangarmarsh|N|To Ikeyen in Cenarion Refuge.|
@@ -124,7 +124,7 @@ A A Question of Gluttony|QID|9702|PRE|9701|M|23.33,66.23|Z|1946; Zangarmarsh|N|F
 C A Question of Gluttony|QID|9702|M|29.24,63.92|Z|1946; Zangarmarsh|L|24233 10|N|They are found on the ground around Quagg Ridge.\n[color=FF0000]NOTE: [/color]On the rare occassion, they can be looted from one of the Giants.|
 T A Question of Gluttony|QID|9702|M|23.33,66.23|Z|1946; Zangarmarsh|N|To Watcher Leesa'oh.|
 A Familiar Fungi|QID|9708|PRE|9702|M|23.33,66.23|Z|1946; Zangarmarsh|N|From Watcher Leesa'oh.|
-R Zabra'jin|QID|9898|M|33.02,51.15|Z|1946; Zangarmarsh|N|Head north FLY|OLD|
+R Zabra'jin|QID|9898|M|33.02,51.15|Z|1946; Zangarmarsh|N|Head north.|FLY|OLD|
 f Zabra'jin|QID|9898|M|33.06,51.08|Z|1946; Zangarmarsh|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 F Swamprat Post|QID|9898|M|33.06,51.08|Z|1946; Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T The Respect of Another|QID|9898|M|84.97,54.03|Z|1946; Zangarmarsh|N|To Reavij in Swamprat Post.|

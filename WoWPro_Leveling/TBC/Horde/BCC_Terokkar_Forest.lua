@@ -17,7 +17,7 @@ A Envoy to the Mag'har|QID|9441|PRE|9438|M|31.64,37.83|Z|1454; Orgrimmar|N|From 
 P The Dark Portal|ACTIVE|9441|M|38.06,85.72|Z|1454; Orgrimmar|N|Use the portal in Valley of Spirits.|IZ|Orgrimmar|
 R The Stair of Destiny|ACTIVE|9441|M|58.74,60.78|Z|1419; Blasted Lands|N|Go through the Dark Portal.|IZ|Blasted Lands|
 F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944; Hellfire Peninsula|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
-R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1952; Terokkar Forest|Z|1944|FLY|OLD|
+R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1944; Hellfire Peninsula|FLY|OLD|
 T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist in Mag'har Post.|
 F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955; Shattrath City|
 A A'dal|QID|10210|M|59.70,41.45|Z|1955; Shattrath City|N|From Haggard War Veteran.|
@@ -39,7 +39,7 @@ h Shattrath City|ACTIVE|10553|M|56.31,81.52|Z|1955; Shattrath City|N|At Innkeepe
 T Voren'thal the Seer|QID|10553|M|42.79,91.73|Z|1955; Shattrath City|N|To Voren'thal the Seer|
 ; == ...and we're back
 A Rather Be Fishin'|QID|10037|M|63.94,15.52|Z|1955; Shattrath City|N|From Seth.|
-A The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|1952; Terokkar Forest|Z|1955; Shattrath City|N|From Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
+A The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|1955; Shattrath City|N|From Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|1955; Shattrath City|N|From Rilak the Redeemed.|
 R Terokkar Forest|ACTIVE|10037|QO|1|M|36.42,15.06|Z|1952; Terokkar Forest|N|Exit Shattrath City.|FLY|OLD|
 C Rather Be Fishin'|QID|10037|M|39.82,11.84|Z|1952; Terokkar Forest|L|25891 8|N|They are swimming in Slimyr Lake.[color=FF0000]NOTE: [/color]If you still have it, use your Potion of Water Breathing to make this a little easier.|U|25539|
@@ -92,7 +92,7 @@ H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|1955; Shattrath City|N|[color=FF00
 T Restoring the Light|QID|10021|M|23.95,29.69|Z|1955; Shattrath City|N|To Ishanah in Aldor Rise.|
 T The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|1955; Shattrath City|N|To Rilak the Redeemed in Lower City.|
 A Seek Out Kirrik|QID|10849|PRE|10847|M|52.53,21.01|Z|1955; Shattrath City|N|From Rilak the Redeemed.|
-T The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|1952; Terokkar Forest|Z|1955; Shattrath City|N|To Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
+T The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|1955; Shattrath City|N|To Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
 T Rather Be Fishin'|QID|10037|M|63.94,15.52|Z|1955; Shattrath City|N|To Seth.|
 A A Cure for Zahlia|QID|10020|M|64.49,15.09|Z|1955; Shattrath City|N|From Sha'nir.|REP|Aldor;932|
 T Wind Trader Lathrai|QID|9979|M|72.21,30.76|Z|1955; Shattrath City|N|To Wind Trader Lathrai.|
@@ -242,8 +242,8 @@ A Firewing Signets|QID|10412|M|45.35,81.23|Z|1955; Shattrath City|N|From Magistr
 H Shattrath City|ACTIVE|10228|M|56.35,81.55|Z|1955; Shattrath City|N|Hearth, or exit Auchenai Crypts and fly back.|REP|Scryers;934|
 T Firewing Signets|QID|10412|M|45.35,81.23|Z|1955; Shattrath City|N|To Magistriz Fyalenn.|REP|Scryers;934|
 T A Cure for Zahlia|QID|10020|M|64.49,15.09|Z|1955; Shattrath City|N|To Sha'nir in Lower City.|REP|Aldor;932|
-T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|1952; Terokkar Forest|Z|1955; Shattrath City|N|To Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light.|T|Ezekiel|
-A What Book? I Don't See Any Book.|QID|10231|PRE|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|1952; Terokkar Forest|Z|1955; Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light.|T|Ezekiel|
+T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|1955; Shattrath City|N|To Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light.|T|Ezekiel|
+A What Book? I Don't See Any Book.|QID|10231|PRE|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|1955; Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light.|T|Ezekiel|
 C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|1955; Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nTalk to "Dirty" Larry in Lower City and after he attacks you, he'll surrender when you get him down to 1% health.\n[color=FF0000]NOTE: [/color]If someone else starts and finishes the quest, you can get credit as long as you stick around.|
 T What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|1955; Shattrath City|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|PRE|10231|M|43.58,29.36|Z|1955; Shattrath City|N|From "Dirty" Larry, this leads into Nagrand.|
