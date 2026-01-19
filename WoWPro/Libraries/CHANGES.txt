@@ -1,189 +1,100 @@
 ------------------------------------------------------------------------
-r1376 | nevcairiel | 2025-10-28 22:06:01 +0000 (Tue, 28 Oct 2025) | 1 line
-Changed paths:
-   M /trunk/changelog.txt
-
-Update changelog
-------------------------------------------------------------------------
-r1375 | funkehdude | 2025-10-24 04:07:54 +0000 (Fri, 24 Oct 2025) | 1 line
+r1387 | funkehdude | 2026-01-13 16:57:21 +0000 (Tue, 13 Jan 2026) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 Bump toc
 ------------------------------------------------------------------------
-r1374 | funkehdude | 2025-10-15 17:12:41 +0000 (Wed, 15 Oct 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Bump toc
-------------------------------------------------------------------------
-r1373 | funkehdude | 2025-10-13 14:09:48 +0000 (Mon, 13 Oct 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Bump toc
-------------------------------------------------------------------------
-r1372 | nevcairiel | 2025-10-05 05:38:34 +0000 (Sun, 05 Oct 2025) | 1 line
+r1386 | nevcairiel | 2025-12-11 18:25:02 +0000 (Thu, 11 Dec 2025) | 5 lines
 Changed paths:
    M /trunk
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Consistently provide an alpha value for GameTooltip:SetText
+AceConfigDialog-3.0: Forward the "arg" option table member to widgets
+
+Widgets will receive the data through the SetCustomData function, if
+available, and can act on it as needed. This provides a clear lifecycle
+function before layout where the data is being made available.
 ------------------------------------------------------------------------
-r1371 | nevcairiel | 2025-10-03 10:25:33 +0000 (Fri, 03 Oct 2025) | 1 line
+r1385 | nevcairiel | 2025-12-06 11:26:20 +0000 (Sat, 06 Dec 2025) | 1 line
 Changed paths:
    M /trunk
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
 
-ChatThrottleLib: Use C_BattleNet namespace, if available
+AceConfig-3.0: Bump library versions for relative width support
 ------------------------------------------------------------------------
-r1370 | nevcairiel | 2025-10-03 00:16:25 +0000 (Fri, 03 Oct 2025) | 1 line
+r1384 | nevcairiel | 2025-12-06 10:23:20 +0000 (Sat, 06 Dec 2025) | 3 lines
+Changed paths:
+   M /trunk
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+
+AceGUI-3.0: Keybinding: Add gamepad support
+
+Gamepad bindings are completely in line with the rest of the keybinding system in WoW, so all that's really necessary to make them work in AceGUI is to add a handler to catch bindings.
+------------------------------------------------------------------------
+r1383 | nevcairiel | 2025-12-06 10:19:35 +0000 (Sat, 06 Dec 2025) | 8 lines
+Changed paths:
+   M /trunk
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+
+AceConfig-3.0: Widget width can be defined to be relative to the container
+
+Syntax in the config table:
+width = "relative"
+relWidth = "0.25"
+
+This will result in a widget that takes up a quarter of the container's
+width.
+------------------------------------------------------------------------
+r1382 | nevcairiel | 2025-12-05 08:44:39 +0000 (Fri, 05 Dec 2025) | 11 lines
 Changed paths:
    M /trunk
    M /trunk/.luacheckrc
-
-Update luacheck for chat changes
-------------------------------------------------------------------------
-r1369 | nevcairiel | 2025-10-02 23:56:28 +0000 (Thu, 02 Oct 2025) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-
-AceGUI-3.0: EditBox: Fix InsertLink hook for 12.0
-------------------------------------------------------------------------
-r1368 | nevcairiel | 2025-10-02 23:52:43 +0000 (Thu, 02 Oct 2025) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
-
-ChatThrottleLib: Properly use the right namespace for SendChatMessage
-------------------------------------------------------------------------
-r1367 | funkehdude | 2025-09-08 17:06:01 +0000 (Mon, 08 Sep 2025) | 1 line
-Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Remove untranslated text "Usage:" from input boxes that define a usage field
-------------------------------------------------------------------------
-r1366 | funkehdude | 2025-09-03 15:34:16 +0000 (Wed, 03 Sep 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
+AceConfigDialog-3.0: Preserve the original ID for BlizzOptions categories
 
-Bump toc
-------------------------------------------------------------------------
-r1365 | funkehdude | 2025-07-11 17:08:49 +0000 (Fri, 11 Jul 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
+In Midnight, the ID must be numeric, so we can no longer use the name,
+and this may prevent taint spread by the ID field, since the
+automatically generated value is assigned securely.
 
-Bump toc
+To open the settings panel through Settings.OpenToCategory, the ID needs
+to be passed, which is returned as the second value from :AddToBlizzOptions
+
+This change becomes effective when the new C_SettingsUtil API is added
+to the various clients, currently in 12.0
 ------------------------------------------------------------------------
-r1364 | nevcairiel | 2025-07-05 16:01:08 +0000 (Sat, 05 Jul 2025) | 1 line
+r1381 | nevcairiel | 2025-12-05 08:43:15 +0000 (Fri, 05 Dec 2025) | 4 lines
 Changed paths:
    M /trunk
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceDB-3.0: Avoid hitting the metatable when looking up the keys
+AceConfigDialog-3.0: Remove InterfaceOptions_AddCategory support
+
+All supported WoW versions have moved on to the new Settings interface,
+so this was unused.
 ------------------------------------------------------------------------
-r1363 | nevcairiel | 2025-07-05 15:42:11 +0000 (Sat, 05 Jul 2025) | 3 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
-
-AceDB-3.0: Aggressively cleanout empty profiles tables inside namespace on logout
-
-This should help cleanup unloaded empty namespaces
-------------------------------------------------------------------------
-r1362 | funkehdude | 2025-06-19 17:08:39 +0000 (Thu, 19 Jun 2025) | 1 line
+r1380 | funkehdude | 2025-12-03 00:09:20 +0000 (Wed, 03 Dec 2025) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 Bump toc
 ------------------------------------------------------------------------
-r1361 | nevcairiel | 2025-05-17 12:20:39 +0000 (Sat, 17 May 2025) | 6 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
-
-AceDB-3.0: Cleanup empty namespace tables
-
-Some addons use a large amount of namespaces which rarely get used, and
-empty tables can clutter the SV. Cleaning up empty tables is consistent
-with the other cleanup tasks done at logout, as they'll be re-created if
-needed.
-------------------------------------------------------------------------
-r1360 | funkehdude | 2025-05-01 22:54:00 +0000 (Thu, 01 May 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Bump toc
-------------------------------------------------------------------------
-r1359 | funkehdude | 2025-03-21 19:41:37 +0000 (Fri, 21 Mar 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1358 | funkehdude | 2025-03-21 19:37:45 +0000 (Fri, 21 Mar 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1357 | funkehdude | 2025-01-23 06:13:10 +0000 (Thu, 23 Jan 2025) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1356 | nevcairiel | 2024-12-05 06:15:30 +0000 (Thu, 05 Dec 2024) | 1 line
+r1379 | nevcairiel | 2025-11-27 18:58:03 +0000 (Thu, 27 Nov 2025) | 3 lines
 Changed paths:
    M /trunk
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
-AceGUI-3.0: TreeGroup: Re-factor button hiding to help avoid bizarre button breakage
+AceGUI-3.0: TreeGroup: Pass an explicit alpha value to SetText
+
+Fixes CF-#685
 ------------------------------------------------------------------------
-r1355 | funkehdude | 2024-11-20 01:54:56 +0000 (Wed, 20 Nov 2024) | 1 line
+r1378 | funkehdude | 2025-11-19 19:46:34 +0000 (Wed, 19 Nov 2025) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
-bump toc
-------------------------------------------------------------------------
-r1354 | funkehdude | 2024-09-10 14:01:06 +0000 (Tue, 10 Sep 2024) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1353 | nevcairiel | 2024-08-27 13:37:35 +0000 (Tue, 27 Aug 2024) | 8 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
-
-AceDB-3.0: Handle unloaded namespaces in Reset/Copy/Delete functions
-
-When applying profile changes to namespaces, we should also handle
-namespaces that are not currently loaded.
-
-These may be from optional Load-on-Demand parts that are not currently
-loaded, but the expectation is that the database behaves consistent
-no matter what is currently active.
-------------------------------------------------------------------------
-r1352 | funkehdude | 2024-07-24 18:29:31 +0000 (Wed, 24 Jul 2024) | 1 line
-Changed paths:
-   M /trunk/.luacheckrc
-
-Update luacheck
-------------------------------------------------------------------------
-r1351 | funkehdude | 2024-07-24 18:23:24 +0000 (Wed, 24 Jul 2024) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Don't change keyboard input propagation in combat when showing the popup
-------------------------------------------------------------------------
-r1350 | funkehdude | 2024-07-24 17:55:50 +0000 (Wed, 24 Jul 2024) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Restore old toc versions, these are here purely to compensate for bad addon updaters, we don't actually care if we fully support these versions of wow
+Bump toc
 ------------------------------------------------------------------------
 
