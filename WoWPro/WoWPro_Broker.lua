@@ -1487,42 +1487,43 @@ if step then
                 currentRow.itemcooldown.ActiveItem = nil
                 if not _G.InCombatLockdown() then
                     currentRow.itembutton:Show()
+
+                    currentRow.itemicon.currentTexture = nil
+                    currentRow.itembutton:SetAttribute("type1", "item")
+                    currentRow.itembutton:SetAttribute("item1", "item:".._use)
+                    currentRow.itembutton:SetScript("OnUpdate", function()
+                        local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
+                        local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+                        if not start then
+                            WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+                        end
+                        if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+                            currentRow.itemicon.item_IsVisible = true
+                            currentRow.itemicon:SetTexture(itemtexture)
+                            currentRow.itemicon.currentTexture = itemtexture
+                        elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+                            currentRow.itemicon:SetTexture(itemtexture)
+                            currentRow.itemicon.currentTexture = itemtexture
+                        elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+                            currentRow.itemicon.item_IsVisible = false
+                            currentRow.itemicon:SetTexture()
+                            currentRow.itemicon.currentTexture = nil
+                        end
+                        if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+                            currentRow.itemcooldown:Show()
+                            currentRow.itemcooldown:SetCooldown(start, duration)
+                            currentRow.itemcooldown.OnCooldown = true
+                            currentRow.itemcooldown.ActiveItem = _use
+                        elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+                            currentRow.itemcooldown:Hide()
+                            currentRow.itemcooldown.OnCooldown = false
+                        elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
+                            currentRow.itemcooldown.OnCooldown = false
+                            currentRow.itemcooldown:SetCooldown(start, duration)
+                            currentRow.itemcooldown.ActiveItem = _use
+                        end
+                    end)
                 end
-                currentRow.itemicon.currentTexture = nil
-                currentRow.itembutton:SetAttribute("type1", "item")
-                currentRow.itembutton:SetAttribute("item1", "item:".._use)
-                currentRow.itembutton:SetScript("OnUpdate", function()
-                    local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
-                    local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
-                    if not start then
-                        WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
-                    end
-                    if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
-                        currentRow.itemicon.item_IsVisible = true
-                        currentRow.itemicon:SetTexture(itemtexture)
-                        currentRow.itemicon.currentTexture = itemtexture
-                    elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
-                        currentRow.itemicon:SetTexture(itemtexture)
-                        currentRow.itemicon.currentTexture = itemtexture
-                    elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
-                        currentRow.itemicon.item_IsVisible = false
-                        currentRow.itemicon:SetTexture()
-                        currentRow.itemicon.currentTexture = nil
-                    end
-                    if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
-                        currentRow.itemcooldown:Show()
-                        currentRow.itemcooldown:SetCooldown(start, duration)
-                        currentRow.itemcooldown.OnCooldown = true
-                        currentRow.itemcooldown.ActiveItem = _use
-                    elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
-                        currentRow.itemcooldown:Hide()
-                        currentRow.itemcooldown.OnCooldown = false
-                    elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
-                        currentRow.itemcooldown.OnCooldown = false
-                        currentRow.itemcooldown:SetCooldown(start, duration)
-                        currentRow.itemcooldown.ActiveItem = _use
-                    end
-                end)
             end
 
 			if not _G.InCombatLockdown() then
