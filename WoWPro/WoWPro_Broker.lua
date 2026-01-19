@@ -1734,7 +1734,6 @@ if step then
 
 			-- Set up secured button for hotkey execution (outside combat check to handle late setup)
 			if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
-				local Tleft, Tbottom = currentRow.targetbutton:GetRect()
                 if not _G.InCombatLockdown() then
                     currentRow.targetbuttonSecured:Show()
                     currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
