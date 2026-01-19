@@ -273,11 +273,11 @@ end
 function WoWPro:CreateEAButtonSecured(id)
     local eabutton = _G.CreateFrame("Button", "WoWPro_eabuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
     eabutton:SetAttribute("type", "macro")
-    eabutton:SetFrameStrata("MEDIUM")
+    eabutton:SetFrameStrata("HIGH")
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
     eabutton:Hide()
-	eabutton:RegisterForClicks("anyDown")
+	eabutton:RegisterForClicks("AnyDown", "AnyUp")
     return eabutton
 end
 
@@ -295,11 +295,11 @@ end
 function WoWPro:CreateItemButtonSecured(id)
     local itembutton = _G.CreateFrame("Button", "WoWPro_itembuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
     itembutton:SetAttribute("type", "item")
-    itembutton:SetFrameStrata("MEDIUM")
+    itembutton:SetFrameStrata("HIGH")
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
-	itembutton:RegisterForClicks("anyDown")
+	itembutton:RegisterForClicks("AnyDown", "AnyUp")
     return itembutton
 end
 

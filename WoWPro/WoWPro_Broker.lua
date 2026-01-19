@@ -925,10 +925,10 @@ end
 function WoWPro.BindKeysToButton(step)
     local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
     if key1 then
-        _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
+        _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_itembuttonSecure"..step, "LeftButton")
     end
     if key2 then
-        _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
+        _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_itembuttonSecure"..step, "LeftButton")
     end
 end
 
@@ -1433,22 +1433,16 @@ if step then
                 WoWPro.TrashItem(use, k)
                 end)
 			if not _G.InCombatLockdown() then
-				currentRow.itembuttonSecured:Show()
-				currentRow.itembuttonSecured:SetAttribute("type1", "click1")
-				currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
-				currentRow.itembuttonSecured:SetScript("OnClick", function ()
-					WoWPro.TrashItem(use, k)
-                end)
-			end
-			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
-					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:Show()
 					currentRow.itembuttonSecured:SetAttribute("type1", "click1")
 					currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
 					currentRow.itembuttonSecured:SetScript("OnClick", function ()
 						WoWPro.TrashItem(use, k)
 					end)
-					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+					currentRow.itembuttonSecured:ClearAllPoints()
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+					currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
@@ -1527,11 +1521,12 @@ if step then
 
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
-					local Tleft, Tbottom = currentRow.itembutton:GetRect()
 					currentRow.itembuttonSecured:Show()
 					currentRow.itembuttonSecured:SetAttribute("type1", "item")
 					currentRow.itembuttonSecured:SetAttribute("item1", "item:".._use)
-					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+					currentRow.itembuttonSecured:ClearAllPoints()
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+					currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
 				end
 			end
 
@@ -1553,14 +1548,15 @@ if step then
 
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
-					local Tleft, Tbottom = currentRow.itembutton:GetRect()
 					currentRow.itembuttonSecured:Show()
 					currentRow.itembuttonSecured:SetAttribute("type", "SwitchPet")
 					currentRow.itembuttonSecured.SwitchPet = function ()
 					_G.C_PetBattles.ChangePet(switch)
 						WoWPro.CompleteStep(kk, "Clicked pet switch")
 					end
-					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+					currentRow.itembuttonSecured:ClearAllPoints()
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+					currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
 				end
 			end
         else
@@ -1636,10 +1632,10 @@ if step then
 			  if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxJumpButton:LeftButton")
                 if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_jumpbutton"..i, "LeftButton")
                 end
                 if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_jumpbutton"..i, "LeftButton")
                 end
                 jumpkb = true
             end
@@ -1679,20 +1675,21 @@ if step then
 
 			if not _G.InCombatLockdown() then
 				if currentRow.eabutton:IsShown() then
-					local Tleft, Tbottom = currentRow.eabutton:GetRect()
 					currentRow.eabuttonSecured:Show()
 					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
-					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+					currentRow.eabuttonSecured:ClearAllPoints()
+					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
+					currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
 				end
 			end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
                 if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_eabutton"..i..":LeftButton")
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_eabuttonSecure"..i, "LeftButton")
                 end
                 if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_eabutton"..i..":LeftButton")
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_eabuttonSecure"..i, "LeftButton")
                 end
                 eakb = true
             end
