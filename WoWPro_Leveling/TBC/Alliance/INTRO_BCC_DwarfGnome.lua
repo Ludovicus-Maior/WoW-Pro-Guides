@@ -168,13 +168,13 @@ T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 ; -- Hunter
 T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|T|Large Crag Boar|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
+C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|M|39.5,47.3|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|T|Large Crag Boar|U|15911|
 T Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Taming the Beast |QID|6084|PRE|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast |QID|6084|C|Hunter|R|Dwarf|U|15913|M|48.0,59.0|T|Snow Leopard|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|
+C Taming the Beast |QID|6084|C|Hunter|R|Dwarf|M|48.0,59.0|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|T|Snow Leopard|U|15913|
 T Taming the Beast |QID|6084|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Taming the Beast |QID|6085|PRE|6084|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|T|Ice Claw Bear|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|
+C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|M|51.5,44.5|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|T|Ice Claw Bear|U|15908|
 T Taming the Beast |QID|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
 T Training the Beast|QID|6086|C|Hunter|R|Dwarf|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
@@ -274,7 +274,7 @@ K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn point
 C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|Z|Elwynn Forest|
 L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|Z|Elwynn Forest|
 l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|Z|Elwynn Forest|
-A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
+A The Collector|QID|123|N|Quest obtained from the Gold Pickup Schedule.|U|1307|
 T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|Z|Elwynn Forest|
 
 T The Collector|QID|123|M|42.11,65.94|N|To Marshall Dughan.|Z|Elwynn Forest|
