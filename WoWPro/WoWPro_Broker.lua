@@ -1837,6 +1837,10 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
         return
     end
+    if WoWPro.LoadAllGuidesActive then
+        WoWPro:dbp("UpdateGuideReal(): Test Load active, supressing.")
+        return
+    end
     WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
     local GID = WoWProDB.char.currentguide
     local offset = WoWPro.GuideOffset
