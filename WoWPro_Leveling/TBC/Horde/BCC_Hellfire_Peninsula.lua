@@ -26,7 +26,7 @@ P Orgrimmar|ACTIVE|32674|M|88.57,47.70|Z|1944; Hellfire Peninsula|N|Go through t
 T I Believe You Can Fly|QID|32674|M|48.93,59.27|Z|1454; Orgrimmar|N|To Maztha on the 'flight' (upper) deck in Orgrimmar.|
 = Expert Riding|M|48.93,59.27|Z|1454; Orgrimmar|N|For 250g (without discounts), learn 'flying' from Maztha in Orgrimmar.\n[color=FF0000]NOTE: [/color]If you need a flying mount, you can purchase one from Grol'dar (standing beside Maztha).\n\nSkip this step for now if you can't afford it. Don't forget to come back when you can.|LVL|60|SPELL|Expert Riding; 34090|
 = Flight Master's License|M|48.93,59.27|Z|1454; Orgrimmar|N|For an additional 250g (less discounts), if you just learned Expert Riding, be sure to get your Flight Master's License from Maztha in Orgrimmar.\n[color=FF0000]NOTE: [/color]Skip this step for now if you can't afford it or don't know Expert Riding yet.\nThis can be learned from many other Riding Trainers, including in HFP.|LVL|60|SPELL|Flight Master's License; 90267|
-P The Dark Portal|ACTIVE|10289|PRE|32674|M|44.62,68.15|Z|0086; Cleft of Shadow0!Instance|N|Make your way back through the portal to Hellfire Peninsula.|
+; WRONG! P The Dark Portal|ACTIVE|10289|PRE|32674|M|44.62,68.15|Z|0086; Cleft of Shadow0!Instance|N|Make your way back through the portal to Hellfire Peninsula.|
 P Hellfire Peninsula|ACTIVE|10289|PRE|32674|M|55.05,54.48|Z|1419; Blasted Lands|N|Go through the Dark Portal.|TZ|Stair of Destiny|
 F Thrallmar|ACTIVE|10289|M|87.33,48.17|Z|1944; Hellfire Peninsula|N|At Vlagga Freyfeather.|
 T Journey to Thrallmar|QID|10289|M|55.87,36.99|Z|1944; Hellfire Peninsula|N|To General Krakork.|
