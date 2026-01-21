@@ -222,7 +222,19 @@ local function createDisplayConfig()
                 name = L["Left Handed"],
                 desc = L["Put Use and Target Icons on the right side of the guide window."],
                 get = function(info) return WoWProDB.profile.leftside end,
-                set = function(info,val) WoWProDB.profile.leftside = val end
+                set = function(info,val) WoWProDB.profile.leftside = val
+                    -- Refresh resize button position when left-handed mode changes
+                    if WoWPro.resizebutton then
+                        WoWPro.resizebutton:ClearAllPoints()
+                        if val then
+                            WoWPro.resizebutton:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, 0)
+                            WoWPro.resizebutton:GetNormalTexture():SetTexCoord(1, 0, 0, 1)
+                        else
+                            WoWPro.resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
+                            WoWPro.resizebutton:GetNormalTexture():SetTexCoord(0, 1, 0, 1)
+                        end
+                    end
+                end
             },
             blank3 = {
                 order = 30,
@@ -238,10 +250,14 @@ local function createDisplayConfig()
                 order = 32,
                 type = "toggle",
                 name = L["Resize Handle"],
-                desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
+                desc = L["Enable: shows the manual resize handle (disables auto resize).\nThe handle is bottom-right and grows up/left until it hits the screen edge, then grows away from it.\nWith Left Handed enabled, it appears on the left and grows to the right.\n\nDisable: hides the handle and locks the current size."],
                 get = function(info) return WoWProDB.profile.resize end,
                 set = function(info,val) WoWProDB.profile.resize = val
                     if val then WoWProDB.profile.autoresize = false end
+                    -- When disabling resize (locking), save the current size
+                    if not val then
+                        WoWPro.AnchorStore("ResizeLocked")
+                    end
                     WoWPro.ResizeSet() end
             },
             autoresize = {
@@ -251,7 +267,11 @@ local function createDisplayConfig()
                 desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
                 get = function(info) return WoWProDB.profile.autoresize end,
                 set = function(info,val) WoWProDB.profile.autoresize = val
-                    if val then WoWProDB.profile.resize = false end
+                    if val then WoWProDB.profile.resize = false
+                    else
+                        -- When disabling auto-resize (switching to manual), save the current auto-resized size
+                        WoWPro.AnchorStore("AutoResizeDisabled")
+                    end
                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
             },
             numsteps = {

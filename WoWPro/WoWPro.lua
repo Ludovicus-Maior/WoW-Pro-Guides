@@ -300,6 +300,7 @@ WoWPro:Export("toboolean")
 local defaults = { profile = {
     drag = true,
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
+    size = {300, 200},  -- {Height, Width}
     pad = 5,
     space = 5,
     mousenotes = false,

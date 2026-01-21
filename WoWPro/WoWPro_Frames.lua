@@ -409,6 +409,22 @@ end
 
 function WoWPro.AnchorStore(where)
     -- Update the position when we are no longer in combat
+    -- For ResizeEnd, save immediately since we're definitely out of combat
+    if where == "ResizeEnd" then
+        local pos = {WoWPro.MainFrame:GetPoint(1)}
+        pos[2] = "UIParent"
+        local scale = WoWPro.MainFrame:GetScale()
+        for i=4,5 do
+            pos[i] = pos[i] * scale
+        end
+        WoWProDB.profile.position = pos
+        WoWProDB.profile.scale = scale
+        local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
+        WoWProDB.profile.size = size
+        WoWPro:dbp("AnchorStore(" .. where .. "): Saved size - Width: " .. size[2] .. " Height: " .. size[1])
+        return
+    end
+
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
             local pos = {WoWPro.MainFrame:GetPoint(1)}
@@ -419,11 +435,9 @@ function WoWPro.AnchorStore(where)
             end
             WoWProDB.profile.position = pos
             WoWProDB.profile.scale = scale
-            WoWPro:dbp("AnchorStore(%s): point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f, scale=%.2f", where,
-                        pos[1], pos[2], pos[3], pos[4], pos[5], WoWProDB.profile.scale)
             local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
-            WoWPro:dbp("AnchorStore: Height=%.2f Width=%.2f", size[1], size[2])
             WoWProDB.profile.size = size
+            WoWPro:dbp("AnchorStore(" .. where .. "): Saved size - Width: " .. size[2] .. " Height: " .. size[1])
             WoWPro.MainFrame:SetScript("OnUpdate", nil)
         end
     end)
@@ -431,12 +445,12 @@ end
 
 function WoWPro.AnchorRestore(reset_size)
     if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
-        WoWPro:dbp("AnchorRestore: Punting for now.")
         return
     end
+    local wasInhibited = WoWPro.InhibitAnchorStore  -- Remember the state
+    WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from triggering AnchorStore
     WoWPro.MainFrame:ClearAllPoints()
     local pos = WoWProDB.profile.position
-    WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
     if WoWProDB.profile.scale then
         WoWPro.MainFrame:SetScale(WoWProDB.profile.scale)
     end
@@ -449,15 +463,16 @@ function WoWPro.AnchorRestore(reset_size)
     if size and not reset_size then
         WoWPro.MainFrame:SetHeight(size[1])
         WoWPro.MainFrame:SetWidth(size[2])
-        WoWPro:dbp("AnchorRestore: Height=%.2f Width=%.2f restored.", size[1], size[2])
+        WoWPro:dbp("AnchorRestore: Restored saved size - Width: " .. size[2] .. " Height: " .. size[1])
     elseif reset_size then
         size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
-        WoWPro:dbp("AnchorRestore: Height=%.2f Width=%.2f reset.", size[1], size[2])
         WoWProDB.profile.size = size
+        WoWPro:dbp("AnchorRestore: Reset size to current - Width: " .. size[2] .. " Height: " .. size[1])
     else
-        WoWPro:dbp("AnchorRestore: No size set.")
+        WoWPro:dbp("AnchorRestore: No size to restore")
     end
     WoWPro.SetMouseNotesPoints()
+    WoWPro.InhibitAnchorStore = wasInhibited  -- Restore the previous state
 end
 
 function WoWPro.RowSet()
@@ -465,24 +480,29 @@ function WoWPro.RowSet()
     WoWPro.RowColorSet()
     WoWPro.RowFontSet()
     WoWPro.RowSizeSet()
-    WoWPro.AnchorRestore(true)
+    -- Only restore saved size when not using auto-resize
+    if not WoWProDB.profile.autoresize then
+        WoWPro.AnchorRestore(false)
+    end
 end
 
 function WoWPro.CustomizeFrames()
     WoWPro:dbp("WoWPro.CustomizeFrames()")
-    WoWPro.ResizeSet();
+    WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
     WoWPro.DragSet();
     WoWPro.TitlebarSet();
     WoWPro.PaddingSet();
     WoWPro.BackgroundSet();
     WoWPro.RowSet();
+    WoWPro.ResizeSet();
     WoWPro.MinimapSet();
 
     -- Module Customize Frames --
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
     end
-    WoWPro.AnchorRestore(true) -- Just in case a module jiggled something
+    WoWPro.AnchorRestore(false) -- Just in case a module jiggled something
+    WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
 end
 
 -- Create Dialog Box --
@@ -543,7 +563,11 @@ function WoWPro:CreateMainFrame()
     WoWPro.MainFrame:SetScript("OnDragStop", function()
         WoWPro.AnchorStore("OnDragStop") ; end)
     WoWPro.MainFrame:SetScript("OnSizeChanged", function()
-        WoWPro.AnchorStore("OnSizeChanged") ; end)
+        -- Only save if we're past initialization and not inhibited
+        if WoWPro.FramesLoaded and not WoWPro.InhibitAnchorStore then
+            WoWPro.AnchorStore("OnSizeChanged")
+        end
+    end)
 
     -- Set initial keybindings frames
     WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
@@ -578,12 +602,22 @@ function WoWPro:CreateResizeButton()
     resizebutton:SetHeight(20)
     resizebutton:SetWidth(20)
     resizebutton:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel()+3)
-    resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
-    resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+
+    -- Position and sizing based on Left Handed setting
+    if WoWProDB.profile.leftside then
+        resizebutton:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, 0)
+        resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+        resizebutton:GetNormalTexture():SetTexCoord(1, 0, 0, 1)  -- Flip horizontally
+    else
+        resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
+        resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+    end
+
     -- Scripts --
         resizebutton:SetScript("OnMouseDown", function()
             WoWPro.InhibitAnchorRestore = true
-            WoWPro.MainFrame:StartSizing("TOPLEFT")
+            local corner = WoWProDB.profile.leftside and "TOPRIGHT" or "TOPLEFT"
+            WoWPro.MainFrame:StartSizing(corner)
             WoWPro:UpdateGuide("ResizeStart")
             WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
                 WoWPro.RowSizeSet()
@@ -595,6 +629,7 @@ function WoWPro:CreateResizeButton()
             WoWPro.InhibitAnchorRestore = false
             WoWPro:UpdateGuide("ResizeEnd")
             WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
+            WoWPro.AnchorStore("ResizeEnd")
         end)
     WoWPro.resizebutton = resizebutton
 end
