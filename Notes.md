@@ -1,3 +1,18 @@
+# Release 2026.01.21.A
+## Bug Fixes
+* Midnight and TBC Support!
+* HBD Update to 2.16-release
+* ACE3 Update to r1387-alpha
+* Window sizing issues
+* Target button during combat
+* More fancy U/L tags that handles multiple items
+
+## Guide Updates
+* TBC:  Revived the ancient guides of old!
+* Midnight: Returning Player, PrePatch
+* Retail Achievements: Heritage Armor for Goblins and Pandaren
+
+
 # Release 2025.12.31.A
 ## Bug Fixes
 * Tweak U tag behavious when O tag is present
