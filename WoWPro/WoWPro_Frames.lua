@@ -424,7 +424,7 @@ function WoWPro.AnchorStore(where)
         WoWPro:dbp("AnchorStore(" .. where .. "): Saved size - Width: " .. size[2] .. " Height: " .. size[1])
         return
     end
-    
+
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
             local pos = {WoWPro.MainFrame:GetPoint(1)}
@@ -602,7 +602,7 @@ function WoWPro:CreateResizeButton()
     resizebutton:SetHeight(20)
     resizebutton:SetWidth(20)
     resizebutton:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel()+3)
-    
+
     -- Position and sizing based on Left Handed setting
     if WoWProDB.profile.leftside then
         resizebutton:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, 0)
@@ -612,7 +612,7 @@ function WoWPro:CreateResizeButton()
         resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
         resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
     end
-    
+
     -- Scripts --
         resizebutton:SetScript("OnMouseDown", function()
             WoWPro.InhibitAnchorRestore = true
