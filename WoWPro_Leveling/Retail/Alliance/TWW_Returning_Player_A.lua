@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Returning Player', 'Leveling', 'Dornogal', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Returning Player")
 WoWPro:GuideContent(guide, 10)
-WoWPro:GuideLevels(guide,70,80)
+WoWPro:GuideLevels(guide,10,80)
 WoWPro:GuideSort(guide, 11)
 WoWPro:GuideQuestTriggers(guide,90882)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
