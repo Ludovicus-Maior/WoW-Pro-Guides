@@ -242,6 +242,10 @@ local function createDisplayConfig()
                 get = function(info) return WoWProDB.profile.resize end,
                 set = function(info,val) WoWProDB.profile.resize = val
                     if val then WoWProDB.profile.autoresize = false end
+                    -- When disabling resize (locking), save the current size
+                    if not val then
+                        WoWPro.AnchorStore("ResizeLocked")
+                    end
                     WoWPro.ResizeSet() end
             },
             autoresize = {
@@ -251,7 +255,11 @@ local function createDisplayConfig()
                 desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
                 get = function(info) return WoWProDB.profile.autoresize end,
                 set = function(info,val) WoWProDB.profile.autoresize = val
-                    if val then WoWProDB.profile.resize = false end
+                    if val then WoWProDB.profile.resize = false 
+                    else
+                        -- When disabling auto-resize (switching to manual), save the current auto-resized size
+                        WoWPro.AnchorStore("AutoResizeDisabled")
+                    end
                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
             },
             numsteps = {
