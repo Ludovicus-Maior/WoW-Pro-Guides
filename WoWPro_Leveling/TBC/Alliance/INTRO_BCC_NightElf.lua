@@ -15,7 +15,7 @@ return [[
 
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
-r Sell and Repair|AVAILABLE|4495|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|AVAILABLE|4495|M|59.31,41.09|N|Sell and Repair with Keina in Aldrassil.|
 T The Balance of Nature|QID|456|M|58.68,44.27|N|To Conservator Ilthalaine.|
 
 A Simple Sigil|QID|3116|PRE|456|C|Warrior|M|58.69,44.27|N|From Conservator Ilthalaine.|
