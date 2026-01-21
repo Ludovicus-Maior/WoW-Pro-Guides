@@ -1,8 +1,9 @@
 # Lib: HereBeDragons
 
-## [2.15-release-7-g5ccefa1](https://github.com/Nevcairiel/HereBeDragons/tree/5ccefa1c5ebb4bf157bb6b715207bd52cbe9cede) (2025-12-19)
-[Full Changelog](https://github.com/Nevcairiel/HereBeDragons/compare/2.15-release...5ccefa1c5ebb4bf157bb6b715207bd52cbe9cede) [Previous Releases](https://github.com/Nevcairiel/HereBeDragons/releases)
+## [2.16-release](https://github.com/Nevcairiel/HereBeDragons/tree/2.16-release) (2026-01-21)
+[Full Changelog](https://github.com/Nevcairiel/HereBeDragons/compare/2.15-release...2.16-release) [Previous Releases](https://github.com/Nevcairiel/HereBeDragons/releases)
 
+- Add TBC Anniversary TOC  
 - Only perform instance checks when both the instance and map are updated  
 - Do not use the overriden instance for the instance zone check  
     Instance Zones are determined at load, and dynamic overrides don't help  
