@@ -602,12 +602,22 @@ function WoWPro:CreateResizeButton()
     resizebutton:SetHeight(20)
     resizebutton:SetWidth(20)
     resizebutton:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel()+3)
-    resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
-    resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+    
+    -- Position and sizing based on Left Handed setting
+    if WoWProDB.profile.leftside then
+        resizebutton:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, 0)
+        resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+        resizebutton:GetNormalTexture():SetTexCoord(1, 0, 0, 1)  -- Flip horizontally
+    else
+        resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
+        resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+    end
+    
     -- Scripts --
         resizebutton:SetScript("OnMouseDown", function()
             WoWPro.InhibitAnchorRestore = true
-            WoWPro.MainFrame:StartSizing("TOPLEFT")
+            local corner = WoWProDB.profile.leftside and "TOPRIGHT" or "TOPLEFT"
+            WoWPro.MainFrame:StartSizing(corner)
             WoWPro:UpdateGuide("ResizeStart")
             WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
                 WoWPro.RowSizeSet()
