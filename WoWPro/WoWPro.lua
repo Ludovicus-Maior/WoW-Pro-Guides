@@ -817,7 +817,7 @@ function WoWPro:TargetNpcId()
             return tonumber(npcID)
         end
     else
-        WoWPro:dpb("Target NPC cannot be identified in combat.")
+        WoWPro:dbp("Target NPC cannot be identified in combat.")
     end
     return nil
 end
