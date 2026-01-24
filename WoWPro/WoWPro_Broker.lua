@@ -1666,6 +1666,7 @@ if step then
             currentRow.eabutton:SetAttribute("macrotext", mtext)
             currentRow.eaicon.EAB1_IsVisible = nil
             currentRow.eaicon.currentTexture = nil
+            local timeElapsed = 0
             currentRow.eabutton:SetScript("OnUpdate", function(_, elapsed)
                 -- Throttle to a max of 50ms updates
                 timeElapsed = timeElapsed + elapsed
