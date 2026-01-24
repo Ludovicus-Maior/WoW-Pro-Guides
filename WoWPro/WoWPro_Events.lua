@@ -134,7 +134,7 @@ function WoWPro:CheckAnimaPowers()
 	local numBuffs = 0
 	for i=1, 44 do
 		local _, _, _, _, _, _, _, _, _, spellID = WoWPro.UnitAura("player", i, "MAW")
-		if spellID then
+		if not ( _G.issecretvalue and _G.issecretvalue(BuffSpellId) ) and spellID then
 			numBuffs = numBuffs + 1
 		end
 	end
