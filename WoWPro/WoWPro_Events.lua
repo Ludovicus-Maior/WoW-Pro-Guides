@@ -404,7 +404,7 @@ end
 -- Auto-Complete: Set hearth --
 function WoWPro:AutoCompleteSetHearth(...)
     local msg = ...
-    if not ( _G.issecretvalue and _G.issecretvalue(GUID) ) then
+    if not ( _G.issecretvalue and _G.issecretvalue(msg) ) then
         local _, _, loc = msg:find(L["(.*) is now your home."])
         if loc then
             WoWProCharDB.Guide.hearth = loc
