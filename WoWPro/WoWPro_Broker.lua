@@ -1668,40 +1668,38 @@ if step then
             local mtext = "/click ExtraActionButton1"
             if not _G.InCombatLockdown() then
                 currentRow.eabutton:Show()
-            end
-            currentRow.eabutton:SetAttribute("macrotext", mtext)
-            currentRow.eaicon.EAB1_IsVisible = nil
-            currentRow.eaicon.currentTexture = nil
-            local timeElapsed = 0
-            currentRow.eabutton:SetScript("OnUpdate", function(_, elapsed)
-                -- Throttle to a max of 50ms updates
-                timeElapsed = timeElapsed + elapsed
-                if timeElapsed > 0.05 then
-                    timeElapsed = 0
-                    local eabIcon = nil
-                    if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
-                        eabIcon = _G.ExtraActionButton1.icon
-                    elseif _G.ExtraActionButton1Icon then
-                        eabIcon = _G.ExtraActionButton1Icon
-                    end
-                    local eabtexture = eabIcon and eabIcon:GetTexture() or nil
-                    if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
-                        currentRow.eaicon.EAB1_IsVisible =  _G.HasExtraActionBar()
-                        if currentRow.eaicon.EAB1_IsVisible then
-                            currentRow.eaicon:SetTexture(eabtexture)
-                            currentRow.eaicon.currentTexture = eabtexture
-                        else
-                            currentRow.eaicon:SetTexture()
-                            currentRow.eaicon.currentTexture = nil
+                currentRow.eabutton:SetAttribute("macrotext", mtext)
+                currentRow.eaicon.EAB1_IsVisible = nil
+                currentRow.eaicon.currentTexture = nil
+                local timeElapsed = 0
+                currentRow.eabutton:SetScript("OnUpdate", function(_, elapsed)
+                    -- Throttle to a max of 50ms updates
+                    timeElapsed = timeElapsed + elapsed
+                    if timeElapsed > 0.05 then
+                        timeElapsed = 0
+                        local eabIcon = nil
+                        if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
+                            eabIcon = _G.ExtraActionButton1.icon
+                        elseif _G.ExtraActionButton1Icon then
+                            eabIcon = _G.ExtraActionButton1Icon
                         end
-                    elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
-                        currentRow.eaicon.currentTexture = eabtexture
-                        currentRow.eaicon:SetTexture(eabtexture)
+                        local eabtexture = eabIcon and eabIcon:GetTexture() or nil
+                        if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
+                            currentRow.eaicon.EAB1_IsVisible =  _G.HasExtraActionBar()
+                            if currentRow.eaicon.EAB1_IsVisible then
+                                currentRow.eaicon:SetTexture(eabtexture)
+                                currentRow.eaicon.currentTexture = eabtexture
+                            else
+                                currentRow.eaicon:SetTexture()
+                                currentRow.eaicon.currentTexture = nil
+                            end
+                        elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
+                            currentRow.eaicon.currentTexture = eabtexture
+                            currentRow.eaicon:SetTexture(eabtexture)
+                        end
                     end
-                end
-            end)
+                end)
 
-			if not _G.InCombatLockdown() then
 				if currentRow.eabutton:IsShown() then
 					currentRow.eabuttonSecured:Show()
 					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
