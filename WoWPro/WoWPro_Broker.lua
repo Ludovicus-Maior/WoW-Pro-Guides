@@ -1492,7 +1492,7 @@ if step then
                     currentRow.itembutton:SetAttribute("type1", "item")
                     currentRow.itembutton:SetAttribute("item1", "item:".._use)
                     local timeElapsed = 0
-                    currentRow.itembutton:SetScript("OnUpdate", function()
+                    currentRow.itembutton:SetScript("OnUpdate", function(_,elapsed)
                         timeElapsed = timeElapsed + elapsed
                         if timeElapsed > 0.05 then
                             timeElapsed = 0
