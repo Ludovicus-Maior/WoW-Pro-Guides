@@ -145,15 +145,19 @@ function WoWPro.AuraScan(tabula, filter)
     local BuffIndex = 1
     local BuffString = tabula[0] or ""
     local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
+    -- Aura scanning is now restricted in combat
     while BuffName do
-        tabula[BuffSpellId] = BuffCount or 1
-        if BuffString ~= "" then
-            BuffString = BuffString .. ","
+        if not ( _G.issecretvalue and _G.issecretvalue(BuffSpellId) ) then
+            tabula[BuffSpellId] = BuffCount or 1
+            if BuffString ~= "" then
+                BuffString = BuffString .. ","
+            end
+            BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
+            BuffIndex = BuffIndex + 1
+            BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
         end
-        BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
-        BuffIndex = BuffIndex + 1
-        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
     end
+
     tabula[0] = BuffString
     return tabula
 end
