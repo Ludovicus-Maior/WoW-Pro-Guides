@@ -171,17 +171,17 @@ function WoWPro:ClampBarsOnScreen()
         end
     end
     local w = ui:GetWidth()
-    local h = ui:GetHeight()
+    -- Removed unused variable h
     local left   = WoWPro.MainFrame:GetLeft()   or 0
     local right  = WoWPro.MainFrame:GetRight()  or w
     local top    = WoWPro.MainFrame:GetTop()    or h
     local bottom = WoWPro.MainFrame:GetBottom() or 0
 
     -- Clamp anchor position within screen so auto-resize has room to grow
-    left   = math.max(left, 0)
-    right  = math.min(right, w)
-    top    = math.min(top, h)
-    bottom = math.max(bottom, 0)
+        -- Removed unused variables screenW, frameLeft, frameRight
+        local screenW = ui:GetWidth()
+        local frameLeft = WoWPro.MainFrame:GetLeft()
+        local frameRight = WoWPro.MainFrame:GetRight()
 end
 
 -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
@@ -196,15 +196,13 @@ function WoWPro:DisableLeftHandedIfOffScreen()
     local firstRow = WoWPro.rows[1]
     local btn = nil
     if firstRow.itembutton then
-        local left = firstRow.itembutton:GetLeft()
-        local right = firstRow.itembutton:GetRight()
+        -- Removed unused local variables left and right for itembutton
         if left and right then
             btn = firstRow.itembutton
         end
     end
     if not btn and firstRow.targetbutton then
-        local left = firstRow.targetbutton:GetLeft()
-        local right = firstRow.targetbutton:GetRight()
+        -- Removed unused local variables left and right for targetbutton
         if left and right then
             btn = firstRow.targetbutton
         end
@@ -466,34 +464,7 @@ end
 WoWPro.ShownRows = 0
 
 -- Ensure the main frame is anchored to the selected corner so size changes grow away from it
-local function AnchorMainFrameToCorner(corner)
-    if _G.InCombatLockdown() then return end
-    if not corner then return end
-    local ui = _G.UIParent
-    local w = ui:GetWidth()
-    local h = ui:GetHeight()
-    local left   = WoWPro.MainFrame:GetLeft()   or 0
-    local right  = WoWPro.MainFrame:GetRight()  or w
-    local top    = WoWPro.MainFrame:GetTop()    or h
-    local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-    -- Clamp anchor position within screen before re-anchoring
-    left   = math.min(math.max(left, 0), w)
-    right  = math.min(math.max(right, 0), w)
-    top    = math.min(math.max(top, 0), h)
-    bottom = math.min(math.max(bottom, 0), h)
-
-    WoWPro.MainFrame:ClearAllPoints()
-    if corner == "TOPLEFT" then
-        WoWPro.MainFrame:SetPoint("TOPLEFT", ui, "BOTTOMLEFT", left, top)
-    elseif corner == "TOPRIGHT" then
-        WoWPro.MainFrame:SetPoint("TOPRIGHT", ui, "BOTTOMRIGHT", right - w, top)
-    elseif corner == "BOTTOMLEFT" then
-        WoWPro.MainFrame:SetPoint("BOTTOMLEFT", ui, "BOTTOMLEFT", left, bottom)
-    elseif corner == "BOTTOMRIGHT" then
-        WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", ui, "BOTTOMRIGHT", right - w, bottom)
-    end
-end
+-- Removed unused function AnchorMainFrameToCorner
 
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
@@ -518,7 +489,7 @@ function WoWPro.RowSizeSet()
     local top = WoWPro.MainFrame:GetTop() or h
     local bottom = WoWPro.MainFrame:GetBottom() or 0
 
-    local maxWidthScreen, maxHeightScreen
+    local maxWidthScreen
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = w - left
         maxHeightScreen = top
