@@ -145,20 +145,22 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
     if event == "CHAT_MSG_SYSTEM" then
         WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
         local msg = ...
-        local _, _, loc = msg:find(L["(.*) is now your home."])
-        if loc then
-            local stepInfo = {
-                action = "h",
-                step = loc,
-                QID = WoWPro.Recorder.lastStep,
-                map = mapxy,
-                zone = zonetag
-            }
-            if targetName then stepInfo.note = "At "..targetName.."." end
-            WoWPro.Recorder:dbp("Adding hearth location "..loc)
-            WoWPro.Recorder.AddStep(stepInfo)
+        if not (_G.issecretvalue and _G.issecretvalue(msg)) then 
+            local _, _, loc = msg:find(L["(.*) is now your home."])
+            if loc then
+                local stepInfo = {
+                    action = "h",
+                    step = loc,
+                    QID = WoWPro.Recorder.lastStep,
+                    map = mapxy,
+                    zone = zonetag
+                }
+                if targetName then stepInfo.note = "At "..targetName.."." end
+                WoWPro.Recorder:dbp("Adding hearth location "..loc)
+                WoWPro.Recorder.AddStep(stepInfo)
+            end
+            WoWPro:AutoCompleteSetHearth(event, ...)
         end
-        WoWPro:AutoCompleteSetHearth(event, ...)
 	elseif event == "PLAYER_CONTROL_GAINED" then
 		if WoWPro.Recorder.Flights  then
 			local subzone = _G.GetSubZoneText()
