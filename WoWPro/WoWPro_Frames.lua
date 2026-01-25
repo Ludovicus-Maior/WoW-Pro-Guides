@@ -170,7 +170,7 @@ function WoWPro:ClampBarsOnScreen()
             WoWPro.AnchorStore("ClampBarsOnScreen")
         end
     end
-    local w = ui:GetWidth()
+    -- Removed unused variable w
     -- Removed unused variable h
     -- Removed unused variables left, right, top, bottom, screenW, frameLeft, frameRight
 end
@@ -199,8 +199,7 @@ function WoWPro:DisableLeftHandedIfOffScreen()
         end
     end
     if not btn then return end
-    local left = btn:GetLeft()
-    local right = btn:GetRight()
+    -- Removed unused variables left, right
     local windowLeft = WoWPro.MainFrame:GetLeft()
     local windowRight = WoWPro.MainFrame:GetRight()
     if not windowLeft or not windowRight then return end
@@ -477,22 +476,22 @@ function WoWPro.RowSizeSet()
     -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft() or 0
     local right = WoWPro.MainFrame:GetRight() or w
-    local top = WoWPro.MainFrame:GetTop() or h
+        local top = WoWPro.MainFrame:GetTop() or 0
     local bottom = WoWPro.MainFrame:GetBottom() or 0
 
     local maxWidthScreen
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = w - left
-        local maxHeightScreen = top
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        local maxHeightScreen = top
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = w - left
-        local maxHeightScreen = h - bottom
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        local maxHeightScreen = h - bottom
+        -- Removed unused variable maxHeightScreen
     end
 
     -- Capture anchor point in screen space (before any height changes)
@@ -528,16 +527,16 @@ function WoWPro.RowSizeSet()
 
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = w - left
-        local maxHeightScreen = top
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        local maxHeightScreen = top
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = w - left
-        local maxHeightScreen = h - bottom
+        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        local maxHeightScreen = h - bottom
+        -- Removed unused variable maxHeightScreen
     end
 
     -- Auto Resizing - Horizontal --
@@ -1042,10 +1041,10 @@ function WoWPro:SetDynamicResizeBounds(corner)
     elseif corner == "BOTTOMLEFT" then
         maxWidth = w - left
         -- Growth up; ensure button bar stays below screen top
-        maxHeight = (h - barMargin) - bottom
+        maxHeight = (ui:GetHeight() - barMargin) - bottom
     elseif corner == "BOTTOMRIGHT" then
         maxWidth = right
-        maxHeight = (h - barMargin) - bottom
+        maxHeight = (ui:GetHeight() - barMargin) - bottom
     end
     if maxWidth and maxHeight then
         WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize, maxWidth, maxHeight)
@@ -1061,7 +1060,7 @@ function WoWPro:SetAnchorToCorner(corner)
     local top = WoWPro.MainFrame:GetTop()
     local bottom = WoWPro.MainFrame:GetBottom()
     local w = ui:GetWidth()
-    local h = ui:GetHeight()
+    -- Removed unused variable h
 
     WoWPro.MainFrame:ClearAllPoints()
     if corner == "TOPLEFT" then
