@@ -522,8 +522,7 @@ function WoWPro.RowSizeSet()
     -- This prevents auto-resize from exceeding screen edges without moving the frame
     left = WoWPro.MainFrame:GetLeft() or 0
     right = WoWPro.MainFrame:GetRight() or screenW
-    top = WoWPro.MainFrame:GetTop() or 0
-    bottom = WoWPro.MainFrame:GetBottom() or 0
+    -- Removed unused assignments to top and bottom
 
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = screenW - left
