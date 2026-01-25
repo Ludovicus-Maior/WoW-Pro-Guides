@@ -1,3 +1,5 @@
+-- luacheck: globals ipairs unpack ceil max floor math C_Timer
+
 local L = WoWPro_Locale
 
 -- Frame Update Functions --
@@ -1357,8 +1359,8 @@ function WoWPro:CreateButtonBar()
         _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
         _G.GameTooltip:SetText("Skip Current Step", 1, 1, 1, 1, true)
         _G.GameTooltip:AddLine(" ", 1, 1, 1)
-        _G.GameTooltip:AddLine("Left-click: Skip step", 0.8, 0.8, 0.8)
-        _G.GameTooltip:AddLine("Right-click: Complete step", 0.8, 0.8, 0.8)
+        _G.GameTooltip:AddLine("Left-click: Skip step", 0.8, 0.8, 0.8, 0.8)
+        _G.GameTooltip:AddLine("Right-click: Complete step", 0.8, 0.8, 0.8, 0.8)
         _G.GameTooltip:Show()
         button:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
     end)
