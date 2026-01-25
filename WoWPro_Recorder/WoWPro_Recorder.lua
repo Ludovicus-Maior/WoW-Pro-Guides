@@ -145,7 +145,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
     if event == "CHAT_MSG_SYSTEM" then
         WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
         local msg = ...
-        if not (_G.issecretvalue and _G.issecretvalue(msg)) then 
+        if not (_G.issecretvalue and _G.issecretvalue(msg)) then
             local _, _, loc = msg:find(L["(.*) is now your home."])
             if loc then
                 local stepInfo = {
