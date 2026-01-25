@@ -188,13 +188,13 @@ function WoWPro:DisableLeftHandedIfOffScreen()
     local btn = nil
     if firstRow.itembutton then
         -- Removed unused local variables left and right for itembutton
-        if left and right then
+        if firstRow.itembutton:GetLeft() and firstRow.itembutton:GetRight() then
             btn = firstRow.itembutton
         end
     end
     if not btn and firstRow.targetbutton then
         -- Removed unused local variables left and right for targetbutton
-        if left and right then
+        if firstRow.targetbutton:GetLeft() and firstRow.targetbutton:GetRight() then
             btn = firstRow.targetbutton
         end
     end
@@ -481,13 +481,13 @@ function WoWPro.RowSizeSet()
 
     local maxWidthScreen
     if anchorCorner == "TOPLEFT" then
-        maxWidthScreen = w - left
+        maxWidthScreen = screenW - left
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
-        maxWidthScreen = w - left
+        maxWidthScreen = screenW - left
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
@@ -584,7 +584,7 @@ function WoWPro.RowSizeSet()
             row.track:Show()
             row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
             trackh = row.track:GetHeight()
-            row.progressBar:SetWidth(rowW-30)
+            row.progressBar:SetWidth(row:GetWidth()-30)
         else
             row.track:Hide()
             row.progressBar:Hide();
@@ -640,7 +640,7 @@ function WoWPro.RowSizeSet()
         totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
 
         -- Get current frame position for final clamping
-        local ui = _G.UIParent
+        -- ui already defined above, do not shadow
         local screenH = ui:GetHeight()
 
         if not _G.InCombatLockdown() then
@@ -675,7 +675,7 @@ function WoWPro.RowSizeSet()
 
     -- Final safety clamp: ensure window doesn't exceed screen edges after resizing (manual resize only)
     if not WoWProDB.profile.autoresize and not _G.InCombatLockdown() then
-        local ui = _G.UIParent
+        -- ui already defined above, do not shadow
         local screenH = ui:GetHeight()
         local frameBottom = WoWPro.MainFrame:GetBottom()
         local frameTop = WoWPro.MainFrame:GetTop()
