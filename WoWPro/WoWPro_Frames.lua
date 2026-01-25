@@ -472,11 +472,11 @@ function WoWPro.RowSizeSet()
 
     -- Calculate screen-limited bounds based on anchor corner
     local ui = _G.UIParent
-    local w = ui:GetWidth()
+    local screenW = ui:GetWidth()
     -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or w
-        local top = WoWPro.MainFrame:GetTop() or 0
+    local right = WoWPro.MainFrame:GetRight() or screenW
+    local top = WoWPro.MainFrame:GetTop() or 0
     local bottom = WoWPro.MainFrame:GetBottom() or 0
 
     local maxWidthScreen
@@ -521,18 +521,18 @@ function WoWPro.RowSizeSet()
     -- Calculate available screen space based on current frame position and anchor corner
     -- This prevents auto-resize from exceeding screen edges without moving the frame
     left = WoWPro.MainFrame:GetLeft() or 0
-    right = WoWPro.MainFrame:GetRight() or w
-    top = WoWPro.MainFrame:GetTop() or h
+    right = WoWPro.MainFrame:GetRight() or screenW
+    top = WoWPro.MainFrame:GetTop() or 0
     bottom = WoWPro.MainFrame:GetBottom() or 0
 
     if anchorCorner == "TOPLEFT" then
-        maxWidthScreen = w - left
+        maxWidthScreen = screenW - left
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
-        maxWidthScreen = w - left
+        maxWidthScreen = screenW - left
         -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
@@ -572,8 +572,8 @@ function WoWPro.RowSizeSet()
                 WoWPro.mousenotes[i]:Hide()
             end)
         else
-            local w = row:GetWidth()
-            row.note:SetWidth(w-30)
+            local rowW = row:GetWidth()
+            row.note:SetWidth(rowW-30)
             noteh = row.note:GetHeight()
             row.note:Show()
             row:SetScript("OnEnter", function() end)
@@ -584,7 +584,7 @@ function WoWPro.RowSizeSet()
             row.track:Show()
             row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
             trackh = row.track:GetHeight()
-            row.progressBar:SetWidth(row:GetWidth()-30)
+            row.progressBar:SetWidth(rowW-30)
         else
             row.track:Hide()
             row.progressBar:Hide();
@@ -664,11 +664,11 @@ function WoWPro.RowSizeSet()
             if anchorCorner == "TOPLEFT" then
                 WoWPro.MainFrame:SetPoint("TOPLEFT", ui, "BOTTOMLEFT", anchorX, anchorY)
             elseif anchorCorner == "TOPRIGHT" then
-                WoWPro.MainFrame:SetPoint("TOPRIGHT", ui, "BOTTOMRIGHT", anchorX - w, anchorY)
+                WoWPro.MainFrame:SetPoint("TOPRIGHT", ui, "BOTTOMRIGHT", anchorX - screenW, anchorY)
             elseif anchorCorner == "BOTTOMLEFT" then
                 WoWPro.MainFrame:SetPoint("BOTTOMLEFT", ui, "BOTTOMLEFT", anchorX, anchorY)
             elseif anchorCorner == "BOTTOMRIGHT" then
-                WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", ui, "BOTTOMRIGHT", anchorX - w, anchorY)
+                WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", ui, "BOTTOMRIGHT", anchorX - screenW, anchorY)
             end
         end
     end
@@ -677,10 +677,8 @@ function WoWPro.RowSizeSet()
     if not WoWProDB.profile.autoresize and not _G.InCombatLockdown() then
         local ui = _G.UIParent
         local screenH = ui:GetHeight()
-        local screenW = ui:GetWidth()
         local frameBottom = WoWPro.MainFrame:GetBottom()
         local frameTop = WoWPro.MainFrame:GetTop()
-        local frameLeft = WoWPro.MainFrame:GetLeft()
         -- Removed unused variable frameRight
         local minHeight = WoWProDB.profile.vminresize or 40
 
