@@ -682,7 +682,7 @@ function WoWPro.RowSizeSet()
         local frameBottom = WoWPro.MainFrame:GetBottom()
         local frameTop = WoWPro.MainFrame:GetTop()
         local frameLeft = WoWPro.MainFrame:GetLeft()
-        local frameRight = WoWPro.MainFrame:GetRight()
+        -- Removed unused variable frameRight
         local minHeight = WoWProDB.profile.vminresize or 40
 
         -- If bottom is off-screen, shrink height to fit within screen
@@ -1020,7 +1020,7 @@ end
 function WoWPro:SetDynamicResizeBounds(corner)
     local ui = _G.UIParent
     local w = ui:GetWidth()
-    local h = ui:GetHeight()
+    -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft()
     local right = WoWPro.MainFrame:GetRight()
     local top = WoWPro.MainFrame:GetTop()
