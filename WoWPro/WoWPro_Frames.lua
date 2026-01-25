@@ -172,16 +172,7 @@ function WoWPro:ClampBarsOnScreen()
     end
     local w = ui:GetWidth()
     -- Removed unused variable h
-    local left   = WoWPro.MainFrame:GetLeft()   or 0
-    local right  = WoWPro.MainFrame:GetRight()  or w
-    local top    = WoWPro.MainFrame:GetTop()    or h
-    local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-    -- Clamp anchor position within screen so auto-resize has room to grow
-        -- Removed unused variables screenW, frameLeft, frameRight
-        local screenW = ui:GetWidth()
-        local frameLeft = WoWPro.MainFrame:GetLeft()
-        local frameRight = WoWPro.MainFrame:GetRight()
+    -- Removed unused variables left, right, top, bottom, screenW, frameLeft, frameRight
 end
 
 -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
@@ -483,7 +474,7 @@ function WoWPro.RowSizeSet()
     -- Calculate screen-limited bounds based on anchor corner
     local ui = _G.UIParent
     local w = ui:GetWidth()
-    local h = ui:GetHeight()
+    -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft() or 0
     local right = WoWPro.MainFrame:GetRight() or w
     local top = WoWPro.MainFrame:GetTop() or h
@@ -492,16 +483,16 @@ function WoWPro.RowSizeSet()
     local maxWidthScreen
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = w - left
-        maxHeightScreen = top
+        local maxHeightScreen = top
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        maxHeightScreen = top
+        local maxHeightScreen = top
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = w - left
-        maxHeightScreen = h - bottom
+        local maxHeightScreen = h - bottom
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        maxHeightScreen = h - bottom
+        local maxHeightScreen = h - bottom
     end
 
     -- Capture anchor point in screen space (before any height changes)
@@ -537,16 +528,16 @@ function WoWPro.RowSizeSet()
 
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = w - left
-        maxHeightScreen = top
+        local maxHeightScreen = top
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        maxHeightScreen = top
+        local maxHeightScreen = top
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = w - left
-        maxHeightScreen = h - bottom
+        local maxHeightScreen = h - bottom
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        maxHeightScreen = h - bottom
+        local maxHeightScreen = h - bottom
     end
 
     -- Auto Resizing - Horizontal --
@@ -1694,7 +1685,7 @@ function WoWPro:CreateMiniMapButton()
     -- Register on PLAYER_ENTERING_WORLD to ensure Blizzard minimap is ready, with timed retries
     local f = _G.CreateFrame("Frame")
     f:RegisterEvent("PLAYER_ENTERING_WORLD")
-    f:SetScript("OnEvent", function(self)
+    f:SetScript("OnEvent", function()
         safeRegister()
         -- Keep frame alive for potential combat deferrals; no unregister
     end)
