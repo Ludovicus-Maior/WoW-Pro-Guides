@@ -170,9 +170,6 @@ function WoWPro:ClampBarsOnScreen()
             WoWPro.AnchorStore("ClampBarsOnScreen")
         end
     end
-    -- Removed unused variable w
-    -- Removed unused variable h
-    -- Removed unused variables left, right, top, bottom, screenW, frameLeft, frameRight
 end
 
 -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
@@ -187,19 +184,16 @@ function WoWPro:DisableLeftHandedIfOffScreen()
     local firstRow = WoWPro.rows[1]
     local btn = nil
     if firstRow.itembutton then
-        -- Removed unused local variables left and right for itembutton
         if firstRow.itembutton:GetLeft() and firstRow.itembutton:GetRight() then
             btn = firstRow.itembutton
         end
     end
     if not btn and firstRow.targetbutton then
-        -- Removed unused local variables left and right for targetbutton
         if firstRow.targetbutton:GetLeft() and firstRow.targetbutton:GetRight() then
             btn = firstRow.targetbutton
         end
     end
     if not btn then return end
-    -- Removed unused variables left, right
     local windowLeft = WoWPro.MainFrame:GetLeft()
     local windowRight = WoWPro.MainFrame:GetRight()
     if not windowLeft or not windowRight then return end
@@ -453,9 +447,6 @@ end
 
 WoWPro.ShownRows = 0
 
--- Ensure the main frame is anchored to the selected corner so size changes grow away from it
--- Removed unused function AnchorMainFrameToCorner
-
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
     if _G.InCombatLockdown() then return end
@@ -473,7 +464,6 @@ function WoWPro.RowSizeSet()
     -- Calculate screen-limited bounds based on anchor corner
     local ui = _G.UIParent
     local screenW = ui:GetWidth()
-    -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft() or 0
     local right = WoWPro.MainFrame:GetRight() or screenW
     local top = WoWPro.MainFrame:GetTop() or 0
@@ -482,16 +472,12 @@ function WoWPro.RowSizeSet()
     local maxWidthScreen
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = screenW - left
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = screenW - left
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        -- Removed unused variable maxHeightScreen
     end
 
     -- Capture anchor point in screen space (before any height changes)
@@ -522,20 +508,15 @@ function WoWPro.RowSizeSet()
     -- This prevents auto-resize from exceeding screen edges without moving the frame
     left = WoWPro.MainFrame:GetLeft() or 0
     right = WoWPro.MainFrame:GetRight() or screenW
-    -- Removed unused assignments to top and bottom
 
     if anchorCorner == "TOPLEFT" then
         maxWidthScreen = screenW - left
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "TOPRIGHT" then
         maxWidthScreen = right
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMLEFT" then
         maxWidthScreen = screenW - left
-        -- Removed unused variable maxHeightScreen
     elseif anchorCorner == "BOTTOMRIGHT" then
         maxWidthScreen = right
-        -- Removed unused variable maxHeightScreen
     end
 
     -- Auto Resizing - Horizontal --
@@ -639,7 +620,6 @@ function WoWPro.RowSizeSet()
         totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
 
         -- Get current frame position for final clamping
-        -- ui already defined above, do not shadow
         local screenH = ui:GetHeight()
 
         if not _G.InCombatLockdown() then
@@ -674,11 +654,9 @@ function WoWPro.RowSizeSet()
 
     -- Final safety clamp: ensure window doesn't exceed screen edges after resizing (manual resize only)
     if not WoWProDB.profile.autoresize and not _G.InCombatLockdown() then
-        -- ui already defined above, do not shadow
         local screenH = ui:GetHeight()
         local frameBottom = WoWPro.MainFrame:GetBottom()
         local frameTop = WoWPro.MainFrame:GetTop()
-        -- Removed unused variable frameRight
         local minHeight = WoWProDB.profile.vminresize or 40
 
         -- If bottom is off-screen, shrink height to fit within screen
@@ -1016,7 +994,6 @@ end
 function WoWPro:SetDynamicResizeBounds(corner)
     local ui = _G.UIParent
     local w = ui:GetWidth()
-    -- Removed unused variable h
     local left = WoWPro.MainFrame:GetLeft()
     local right = WoWPro.MainFrame:GetRight()
     local top = WoWPro.MainFrame:GetTop()
@@ -1057,7 +1034,6 @@ function WoWPro:SetAnchorToCorner(corner)
     local top = WoWPro.MainFrame:GetTop()
     local bottom = WoWPro.MainFrame:GetBottom()
     local w = ui:GetWidth()
-    -- Removed unused variable h
 
     WoWPro.MainFrame:ClearAllPoints()
     if corner == "TOPLEFT" then
