@@ -1357,7 +1357,6 @@ function WoWPro.Recorder:CustomizeFrames()
         WoWPro.MainFrame:SetWidth(minSize)
     end
 end
-end
 
 -- Dialogs --
 function WoWPro.Recorder.CreateDialogs()
