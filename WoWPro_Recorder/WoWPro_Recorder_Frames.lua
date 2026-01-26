@@ -1348,7 +1348,7 @@ function WoWPro.Recorder:CustomizeFrames()
     end
 
     --Minimum Frame Size to match --
-    local minSize = WoWProDB.profile.advancedMode and 310 or 225
+    local minSize = WoWProDB.profile.advancedMode and 350 or 250
     if WoWProDB.profile.hminresize < minSize then
         WoWProDB.profile.hminresize = minSize
     end
