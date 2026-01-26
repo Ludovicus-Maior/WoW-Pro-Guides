@@ -290,7 +290,7 @@ local function createDisplayConfig()
                 type = "range",
                 name = L["Min Resize - Horiz"],
                 desc = L["Minimum horizontal pixel size the guide window can be set to."],
-                min = 50, max = 1000, step = 10,
+                min = 250, max = 1000, step = 10,
                 get = function(info) return WoWProDB.profile.hminresize end,
                 set = function(info,val) WoWProDB.profile.hminresize = val
                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
