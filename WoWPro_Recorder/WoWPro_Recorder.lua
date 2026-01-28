@@ -63,11 +63,11 @@ end
 
 function WoWPro.Recorder:OnUIReloaded()
     if WoWProCharDB.Advanced then
-        WoWPro.RecorderFrame:SetWidth(310)
-        WoWPro.MainFrame:SetWidth(310)
+        WoWPro.RecorderFrame:SetWidth(350)
+        WoWPro.MainFrame:SetWidth(350)
     else
-        WoWPro.RecorderFrame:SetWidth(225)
-        WoWPro.MainFrame:SetWidth(225)
+        WoWPro.RecorderFrame:SetWidth(250)
+        WoWPro.MainFrame:SetWidth(250)
     end
 end
 

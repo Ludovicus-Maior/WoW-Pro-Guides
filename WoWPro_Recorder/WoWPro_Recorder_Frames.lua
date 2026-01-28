@@ -1347,14 +1347,13 @@ function WoWPro.Recorder:CustomizeFrames()
         WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0)
     end
 
-    --Minimum Frame Size to match --
-    local minSize = WoWProDB.profile.advancedMode and 310 or 225
-    if WoWProDB.profile.hminresize < minSize then
+--Minimum Frame Size to match --
+    local minSize = ( (WoWProCharDB and WoWProCharDB.Advanced) or WoWPro.Recorder.Advanced ) and 350 or 250
+    if WoWProDB and WoWProDB.profile then
         WoWProDB.profile.hminresize = minSize
     end
-    if WoWPro.MainFrame:GetWidth() < minSize then
-        -- MainFrame --
-        WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
+    if WoWPro.MainFrame:GetWidth() ~= minSize then
+        WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Adjusting MainFrame width to %d.", minSize)
         WoWPro.MainFrame:SetWidth(minSize)
     end
 end

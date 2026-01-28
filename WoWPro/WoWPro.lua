@@ -315,7 +315,7 @@ local defaults = { profile = {
     resize = false,
     autoresize = true,
     numsteps = 1,
-    hminresize = 200,
+    hminresize = 250,
     vminresize = 100,
     titlebar = true,
     titlecolor = {0.5, 0.5, 0.5, 1},
