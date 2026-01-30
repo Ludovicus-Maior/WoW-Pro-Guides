@@ -54,15 +54,6 @@ local function createDisplayConfig()
                 type = "description",
                 name = " ",
             },
-            drag = {
-                order = 2,
-                type = "toggle",
-                name = L["Enable Drag"],
-                desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
-                get = function(info) return WoWProDB.profile.drag end,
-                set = function(info,val) WoWProDB.profile.drag = val
-                    WoWPro.DragSet() end
-            },
             padding = {
                 order = 25,
                 type = "range",
@@ -220,26 +211,76 @@ local function createDisplayConfig()
                 order = 22,
                 type = "toggle",
                 name = L["Left Handed"],
-                desc = L["Put Use and Target Icons on the right side of the guide window."],
+                desc = L["When enabled:\n- Target and Use buttons move to the right side of the window\n\nAuto-protect:\n- Automatically enables or disables to keep the buttons on-screen\n\nWhen disabled:\n- Buttons stay on the left side of the window"],
                 get = function(info) return WoWProDB.profile.leftside end,
                 set = function(info,val) WoWProDB.profile.leftside = val
-                    -- Refresh resize button position when left-handed mode changes
-                    if WoWPro.resizebutton then
-                        WoWPro.resizebutton:ClearAllPoints()
-                        if val then
-                            WoWPro.resizebutton:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, 0)
-                            WoWPro.resizebutton:GetNormalTexture():SetTexCoord(1, 0, 0, 1)
-                        else
-                            WoWPro.resizebutton:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 0, 0)
-                            WoWPro.resizebutton:GetNormalTexture():SetTexCoord(0, 1, 0, 1)
+                    -- Reposition buttons when left-handed mode changes
+                    if WoWPro.rows then
+                        for _, row in ipairs(WoWPro.rows) do
+                            if row.itembutton then
+                                row.itembutton:ClearAllPoints()
+                                if val then
+                                    row.itembutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
+                                else
+                                    row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
+                                end
+                            end
+                            if row.targetbutton then
+                                row.targetbutton:ClearAllPoints()
+                                if row.targetbutton.Position then
+                                    row.targetbutton:Position(true)
+                                else
+                                    -- Only offset if itembutton is shown
+                                    if row.itembutton and row.itembutton:IsShown() then
+                                        if val then
+                                            row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 46, -7)
+                                        else
+                                            row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -46, -7)
+                                        end
+                                    else
+                                        if val then
+                                            row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
+                                        else
+                                            row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
+                                        end
+                                    end
+                                end
+                            end
                         end
                     end
                 end
             },
-            blank3 = {
+            anchorheading = {
                 order = 30,
-                type = "description",
+                type = "header",
+                name = L["Window Anchor Point"],
+            },
+            drag = {
+                order = 30.1,
+                type = "toggle",
+                name = L["Enable Drag"],
+                desc = L["When enabled: Click on the button bar to move the window. Drag to reposition it on your screen.\nWhen disabled: Window is locked in place."],
+                get = function(info) return WoWProDB.profile.drag end,
+                set = function(info,val) WoWProDB.profile.drag = val
+                    WoWPro.DragSet() end
+            },
+            anchorCorner = {
+                order = 30.3,
+                type = "select",
                 name = " ",
+                desc = L["Choose which corner anchors the window; it will grow away from that corner and stay on-screen."],
+                values = {
+                    ["TOPLEFT"] = "Top Left",
+                    ["TOPRIGHT"] = "Top Right",
+                    ["BOTTOMLEFT"] = "Bottom Left",
+                    ["BOTTOMRIGHT"] = "Bottom Right",
+                },
+                get = function(info) return WoWProDB.profile.anchorCorner or "TOPLEFT" end,
+                set = function(info, val)
+                    WoWPro:SetAnchorToCorner(val)
+                    WoWPro:UpdateResizeHandle()
+                    WoWPro.CustomizeFrames()
+                end,
             },
             resizeheading = {
                 order = 31,
@@ -250,7 +291,7 @@ local function createDisplayConfig()
                 order = 32,
                 type = "toggle",
                 name = L["Resize Handle"],
-                desc = L["Enable: shows the manual resize handle (disables auto resize).\nThe handle is bottom-right and grows up/left until it hits the screen edge, then grows away from it.\nWith Left Handed enabled, it appears on the left and grows to the right.\n\nDisable: hides the handle and locks the current size."],
+                desc = L["Shows a resize handle at the corner opposite your anchor point.\n\nWhen enabled:\n- Drag the handle to manually resize the window\n- Window respects screen boundaries\n- Auto-resize is disabled\n\nWhen disabled:\n- Hides the handle and locks the current window size"],
                 get = function(info) return WoWProDB.profile.resize end,
                 set = function(info,val) WoWProDB.profile.resize = val
                     if val then WoWProDB.profile.autoresize = false end
@@ -278,7 +319,7 @@ local function createDisplayConfig()
                 order = 34,
                 type = "range",
                 name = L["Auto Resize: Number of Steps"],
-                desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
+                desc = L["Sets how many steps to show and auto-resizes the window to fit them. Only applies when Auto Resize is enabled. Sticky steps are not counted."],
                 min = 1, max = 15, step = 1,
                 get = function(info) return WoWProDB.profile.numsteps end,
                 set = function(info,val) WoWProDB.profile.numsteps = val
@@ -288,7 +329,7 @@ local function createDisplayConfig()
             minresizeh = {
                 order = 35,
                 type = "range",
-                name = L["Min Resize - Horiz"],
+                name = L["Min Resize - Width"],
                 desc = L["Minimum horizontal pixel size the guide window can be set to."],
                 min = 250, max = 1000, step = 10,
                 get = function(info) return WoWProDB.profile.hminresize end,
@@ -299,8 +340,8 @@ local function createDisplayConfig()
             minresizev = {
                 order = 36,
                 type = "range",
-                name = L["Min Resize - Vert"],
-                desc = L["Minimum vertical pixel size the guide window can be set to."],
+                name = L["Min Resize - Height"],
+                desc = L["Minimum height (pixels) the guide window can be set to."],
                 min = 50, max = 1000, step = 10,
                 get = function(info) return WoWProDB.profile.vminresize end,
                 set = function(info,val) WoWProDB.profile.vminresize = val
