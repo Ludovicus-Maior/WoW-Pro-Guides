@@ -28,7 +28,7 @@ function WoWPro:MinimapSet()
             if _G.InCombatLockdown() then C_Timer.After(1, tryRegister); return end
             if not _G.Minimap or not _G.Minimap:IsVisible() then C_Timer.After(1, tryRegister); return end
             if not icon.objects or not icon.objects["WoWProIcon"] then
-                icon:Register("WoWProIcon", WoWPro.MinimapIcon, WoWProDB.profile.minimap)
+                icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
             else
                 icon:Show("WoWProIcon")
             end

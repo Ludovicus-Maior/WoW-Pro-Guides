@@ -39,8 +39,9 @@ T The Hour of Need|QID|86805|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|
 T A Safe Path|QID|89012|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|
 A Luminous Wings|QID|86806|PRE|86805&89012|M|41.25,56.86|Z|2432; Isle of Quel'Danas (Intro)|N|From Lor'themar Theron.|
 C Luminous Wings|QID|86806|M|41.02,58.17|Z|2432; Isle of Quel'Danas (Intro)|QO|1|V|N|Mount Empowered Dragonhawk.|
+C Luminous Wings|QID|86806|M|28.41,74.44|Z|2432; Isle of Quel'Danas (Intro)|QO|3|NC|N|Distressed Civilian rescued.|S|
 C Luminous Wings|QID|86806|M|35.66,67.81|Z|2432; Isle of Quel'Danas (Intro)|QO|2|N|Void Invaders slain.|
-C Luminous Wings|QID|86806|M|28.41,74.44|Z|2432; Isle of Quel'Danas (Intro)|QO|3|NC|N|Distressed Civilian rescued.|
+C Luminous Wings|QID|86806|M|28.41,74.44|Z|2432; Isle of Quel'Danas (Intro)|QO|3|NC|N|Distressed Civilian rescued.|US|
 T Luminous Wings|QID|86806|M|41.32,56.81|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|
 A The Gate|QID|86807|PRE|86806|M|41.32,56.81|Z|2432; Isle of Quel'Danas (Intro)|N|From Arator.|
 C The Gate|QID|86807|M|41.56,40.33|Z|2432; Isle of Quel'Danas (Intro)|QO|1|NC|N|Reach the North Gate.|
