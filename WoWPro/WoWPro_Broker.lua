@@ -1124,6 +1124,7 @@ function WoWPro:RowUpdate(offset)
     for _, v in ipairs(stickySteps) do table.insert(stepList, v) end
     for _, v in ipairs(regularSteps) do table.insert(stepList, v) end
 
+    -- Reset the active sticky count so that we don't confuse the unsticky handler
     WoWPro.ActiveStickyCount = 0
     for i = 1, 15 do
         -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
