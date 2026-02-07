@@ -1098,31 +1098,25 @@ function WoWPro:RowUpdate(offset)
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
-    local allSteps = {}
+    
     local tempK = k
-    for i = 1, 15 do
-        if WoWProDB.profile.guidescroll then
-            table.insert(allSteps, tempK)
-            tempK = tempK + 1
-        else
-            tempK = WoWPro.NextStep(tempK, i)
-            table.insert(allSteps, tempK)
-            tempK = tempK + 1
-        end
-    end
-
-    -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
     local stickySteps = {}
     local regularSteps = {}
-    for _, stepIdx in ipairs(allSteps) do
-        if stepIdx then
-            if WoWPro.sticky[stepIdx] and not completion[stepIdx] then
-                table.insert(stickySteps, stepIdx)
-            else
-                table.insert(regularSteps, stepIdx)
-            end
+    local foundRegular = false
+    for i = 1, 15 do
+        if not WoWProDB.profile.guidescroll then
+            tempK = WoWPro.NextStep(tempK, i)
         end
+        if WoWPro.sticky[tempK] and not completion[tempK]  and not foundRegular then
+            table.insert(stickySteps, tempK)
+            WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount + 1
+        else
+            table.insert(regularSteps, tempK)
+            foundRegular = true -- no more stickies allowed after we have found a regular step!
+        end
+
+        tempK = tempK + 1
     end
 
     -- Merge: stickies first, then regular
@@ -1130,6 +1124,7 @@ function WoWPro:RowUpdate(offset)
     for _, v in ipairs(stickySteps) do table.insert(stepList, v) end
     for _, v in ipairs(regularSteps) do table.insert(stepList, v) end
 
+    WoWPro.ActiveStickyCount = 0
     for i = 1, 15 do
         -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
         -- Use sorted step list with stickies first --
@@ -3760,6 +3755,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Skipping any unstickies until it's time for them to display --
             if WoWPro.unsticky[guideIndex] and (not WoWPro.sticky[guideIndex]) and WoWPro.ActiveStickyCount and rowIndex > WoWPro.ActiveStickyCount+1 then
+                WoWPro:Error("Skipping step %s, %d: ActiveStickyCount is %d, rowIndex is %d", WoWPro.step[guideIndex], guideIndex, WoWPro.ActiveStickyCount, rowIndex)
                 skip = true
             end
 
