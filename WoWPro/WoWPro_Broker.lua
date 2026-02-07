@@ -3756,7 +3756,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Skipping any unstickies until it's time for them to display --
             if WoWPro.unsticky[guideIndex] and (not WoWPro.sticky[guideIndex]) and WoWPro.ActiveStickyCount and rowIndex > WoWPro.ActiveStickyCount+1 then
-                WoWPro:Error("Skipping step %s, %d: ActiveStickyCount is %d, rowIndex is %d", WoWPro.step[guideIndex], guideIndex, WoWPro.ActiveStickyCount, rowIndex)
                 skip = true
             end
 
