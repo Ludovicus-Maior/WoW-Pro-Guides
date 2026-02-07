@@ -1098,7 +1098,7 @@ function WoWPro:RowUpdate(offset)
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
-    
+
     local tempK = k
     local completion = WoWProCharDB.Guide[GID].completion
     local stickySteps = {}
