@@ -176,8 +176,24 @@ local function handler(msg, editbox)
             WoWProCharDB.disabledAddons = {}
             _G.ReloadUI()
         end
+    elseif ltoken == "flightids" then
+        local type = tokens[2] and tokens[2]:lower()
+
+        local mapID = _G.C_Map.GetBestMapForUnit("player")
+        local flightnodes = {}
+        if "destination" == type or "dest" == type then
+            flightnodes = _G.C_TaxiMap.GetAllTaxiNodes(mapID)
+        else
+            flightNodes = _G.C_TaxiMap.GetTaxiNodesForMap(mapID)
+        end
+        if flightNodes then
+            for i, node in ipairs(flightNodes) do
+                local text = ("Flight Node %d: %s"):format(node.nodeID, node.name)
+                _G.ChatFrame1:AddMessage(text)
+            end
+        end
     else
-        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devzone|devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        local text = ("%s or %s [where|flightids¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devzone|devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
     end
 end
