@@ -178,11 +178,11 @@ local function handler(msg, editbox)
         end
     elseif ltoken == "flightids" then
         local type = tokens[2] and tokens[2]:lower()
-
         local mapID = _G.C_Map.GetBestMapForUnit("player")
-        local flightnodes = {}
+
+        local flightNodes = {}
         if "destination" == type or "dest" == type then
-            flightnodes = _G.C_TaxiMap.GetAllTaxiNodes(mapID)
+            flightNodes = _G.C_TaxiMap.GetAllTaxiNodes(mapID)
         else
             flightNodes = _G.C_TaxiMap.GetTaxiNodesForMap(mapID)
         end
