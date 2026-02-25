@@ -5,6 +5,7 @@
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
 local Leveling = WoWPro.Leveling
+local L = WoWPro_Locale
 Leveling.GuideList = {}
 
 local defaultXpac = _G.LE_EXPANSION_CLASSIC
@@ -147,6 +148,10 @@ local function GetGuides()
             }
             ResolveGuide(guide)
             guideInfo.progress, guideInfo.Progress = WoWPro:GetGuideProgress(guideID)
+            if (guideInfo.progress and guideInfo.progress >= 1)
+            or WoWPro:IsCurrentGuideTitlebarComplete(guideID) then
+                guideInfo.Progress = L["DONE"]
+            end
             tinsert(guides, guideInfo)
         end
     end
