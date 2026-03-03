@@ -105,7 +105,68 @@ C Watch the Den|QID|86864|M|54.24,55.70|Z|2413; Harandar|QO|4|CHAT|N|Speak to Ku
 T Watch the Den|QID|86864|M|54.24,55.70|Z|2413; Harandar|N|To Orweyna.|
 A The Hunter Awaits|QID|86836|PRE|86864|M|54.24,55.70|Z|2413; Harandar|N|From Ku'paal.|
 
-;at this point you have breadcrumbs to Har'mara, Har'kuai, Har'athir amd campaign The Hunter Awaits
+;at this point you have breadcrumbs to Har'mara, Har'kuai, Har'athir amd campaign The Hunter Awaits -- putting Har'kuai first, so that you can start getting skyshard drops sooner.
+;The Legend of Aln'sharan - In Har'kuai
+T Har'kuai, Village of Rain|QID|93771|M|65.24,26.39|Z|2413; Harandar|N|To Kamari.|;picked up 2nd time to The Den line ~100 -- keep these next 3 chains together at Village of Rain
+A Tales of the Sky|QID|90467|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
+A Ugh, Chores!|QID|90468|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
+C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Kill Saptors to loot the Intact Saptor Fronds.|S|
+C Tales of the Sky|QID|90467|M|70.20,32.01|Z|2413; Harandar|H|N|Pick up the glittering Skyshards.|
+C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Keep killing Saptor's until you have enough fronds.|US|
+T Tales of the Sky|QID|90467|M|69.44,29.31|Z|2413; Harandar|N|To Kamari.|
+T Ugh, Chores!|QID|90468|M|69.44,29.31|Z|2413; Harandar|N|To Kamari.|
+A Carry On, Wayward Kuri|QID|90469|PRE|90467&90468|M|69.44,29.31|Z|2413; Harandar|N|From Kamari.|
+C Carry On, Wayward Kuri|QID|90469|M|69.68,26.60|Z|2413; Harandar|I|N|Find Kuri.|
+T Carry On, Wayward Kuri|QID|90469|M|69.68,26.60|Z|2413; Harandar|N|To Kuri.|
+A Skyglass Scavenging|QID|90470|PRE|90469|M|69.70,26.59|Z|2413; Harandar|N|From Kuri.|
+C Skyglass Scavenging|QID|90470|M|71.45,28.80|Z|2413; Harandar|H|N|Use the provided [color=33fff9] Whistle (Extra Action Button) [/color] to call Kuri over to gather more Skyglass. Be aware the whistle attracts more than  Kuri.|EAB|
+T Skyglass Scavenging|QID|90470|M|69.70,26.59|Z|2413; Harandar|N|To Kuri.|
+A The Legend of Aln'sharan|QID|90474|PRE|90470|M|69.70,26.59|Z|2413; Harandar|N|From Kuri.|
+C The Legend of Aln'sharan|QID|90474|M|66.17,25.51|Z|2413; Harandar|H|N|Use your [color=33fff9] Extra Action Button [/color] to offer Aln'sharan the Skyshards.|EAB|
+T The Legend of Aln'sharan|QID|90474|M|66.17,25.51|Z|2413; Harandar|N|To Kuri. Now skyshards will drop rarely from most mobs in Harandar and Kuri will trade 500 of them for a mount.|
+f Har'kuai|ACTIVE|86836|PRE|93771|M|64.59,23.15|Z|2413; Harandar|N|At Lo'miko.|;not really sure what to use as active, 86836 maybe not the best, but if you are skipping campaign, you can probably figure out how to get fp's if you want them.
+
+;Peril Among Petals - In Har'kuai
+A The Blooming Lattice|QID|91063|PRE|86930|M|65.39,22.69|Z|2413; Harandar|N|From Su'meera.|RANK|2|
+T The Blooming Lattice|QID|91063|M|60.83,29.91|Z|2413; Harandar|N|To Su'meera.|
+A Purloining Petals|QID|91065|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
+A Nipping the Buds|QID|91086|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
+A Petal Bristles|QID|91085|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
+C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
+C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Pick these up from the ground or kill the Petalwings.|S|
+C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|U|250919|N|The Well-Worn Ladle is on the platform. Fly over here to start fighting.|
+C Purloining Petals|QID|91065|M|54.56,28.27|Z|2413; Harandar|QO|2|H|N|Across the platform you will find the Pilfered Crafting Drill.|
+C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|U|250919|N|Paint-Speckled Gourd is on the main platform.|
+C Nipping the Buds|QID|91086|M|54.87,31.59|Z|2413; Harandar|QO|2|N|Prime Bloodwarden Kazat is in the building in the middle of the platform.|T|Kazat|
+C Purloining Petals|QID|91065|M|54.90,32.10|Z|2413; Harandar|QO|3|H|N|The Splattered Scroll is behind the building that Kazat was in.|
+C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Finish collecting plumes from the ground or kill the Petalwings until you have enough.|US|
+C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|N|Keep wiping out Rutaani.|US|
+T Purloining Petals|QID|91065|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
+T Nipping the Buds|QID|91086|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
+T Petal Bristles|QID|91085|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
+A Behind the Falls|QID|91088|PRE|91065&91086&91085|M|60.81,29.92|Z|2413; Harandar|N|From Su'meera.|
+T Behind the Falls|QID|91088|M|55.81,26.12;56.08,24.88|CS|Z|2413; Harandar|N|To Su'meera.|
+A Memories in Stone|QID|91136|PRE|91088|M|56.08,24.88|Z|2413; Harandar|N|From Su'meera.|
+C Memories in Stone|QID|91136|M|56.08,24.88|Z|2413; Harandar|QO|1|CHAT|N|Talk to Su'meera.|
+C Memories in Stone|QID|91136|M|56.05,25.00|Z|2413; Harandar|QO|2|N|Defend Su'meera.|
+T Memories in Stone|QID|91136|M|55.73,26.53|Z|2413; Harandar|N|To Su'meera.|
+
+;The Greenspeaker's Vigil - In Har'kuai
+A Supplicants to the Goddess|QID|91346|PRE|86930|M|65.43,28.08|Z|2413; Harandar|N|From Greenspeaker Cyenna.|RANK|2|
+C Supplicants to the Goddess|QID|91346|M|65.48,28.00|Z|2413; Harandar|H|N|Click on the leather bucket beside Cyenna.|
+T Supplicants to the Goddess|QID|91346|M|65.45,28.02|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
+A Fungal Lashers B Gone|QID|91359|PRE|91346|M|65.45,28.02|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
+A Weeding Out the Unwanted|QID|91360|PRE|91346|M|65.45,28.02|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
+C Fungal Lashers B Gone|QID|91359|M|68.01,27.29|Z|2413; Harandar|QO|1|H|N|Kill and loot Lashrooms for their Harmonious Lashes.|S|
+C Weeding Out the Unwanted|QID|91360|M|61.92,31.59|Z|2413; Harandar|N|Click the weeds and walk away to pull them.|
+C Fungal Lashers B Gone|QID|91359|M|68.01,27.29|Z|2413; Harandar|N|Keep killing and looting Lashrooms until you have enough Harmonious Lash.|US|
+T Fungal Lashers B Gone|QID|91359|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
+T Weeding Out the Unwanted|QID|91360|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
+A Back on Duty?|QID|91361|PRE|91359&91360|M|65.43,28.06|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
+C Back on Duty?|QID|91361|M|66.83,25.83|Z|2413; Harandar|QO|1|U|250919|N|Slay Riverscale's favorite feasts.|
+T Back on Duty?|QID|91361|M|65.47,28.10|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
+
+;the hunter awaits
 C The Hunter Awaits|QID|86836|M|61.86,54.45|Z|2413; Harandar|QO|1|NC|N|Find Orweyna in the Shrine of Mists.|
 T The Hunter Awaits|QID|86836|M|61.98,54.57|Z|2413; Harandar|N|To Amarakk.|
 A Consequences of Our Duty|QID|86855|PRE|86836|M|61.98,54.57|Z|2413; Harandar|N|From Amarakk.|
@@ -284,7 +345,7 @@ T At the Root|QID|86881|M|30.61,77.22|Z|2413; Harandar|N|To Orweyna.|
 T Our Beloved, Returned|QID|86880|M|30.61,77.22|Z|2413; Harandar|N|To Orweyna.|
 T Righteous Pruning|QID|86877|M|30.61,77.22|Z|2413; Harandar|N|To Orweyna.|
 A Tell the People What You Have Seen|QID|86890|PRE|86881&86880&86877|M|30.61,77.22|Z|2413; Harandar|N|From Orweyna.|
-A Har'alnor, Village of Twilight|QID|93776|PRE|86877|M|30.48,77.19|Z|2413; Harandar|N|From Hannan.|RANK|2|;-don't go to Har'alor just yet, need to finish last segment of campaign
+A Har'alnor, Village of Twilight|QID|93776|PRE|86877|M|30.48,77.19|Z|2413; Harandar|N|From Hannan.|RANK|2|;-don't go to Har'alor just yet, need to turn in <tell the people> first
 C Tell the People What You Have Seen|QID|86890|M|50.06,54.18|Z|2413; Harandar|QO|1|NC|N|Return to the Den.|
 C Tell the People What You Have Seen|QID|86890|M|50.06,54.18|Z|2413; Harandar|QO|2|CHAT|N|Tell Halduron you are ready to address the council.|
 T Tell the People What You Have Seen|QID|86890|M|53.17,55.40|Z|2413; Harandar|N|To Orweyna.|
@@ -332,6 +393,112 @@ T Looming Shadows|QID|91084|M|45.33,70.40|Z|2393;Silvermoon City|N|To Lor'themar
 N Sojourner|ACTIVE|91375|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|
 ;verified all the rest of the quests chain starters are available at this point - almost for sure there is room for efficiency in routing still -- it appears none of the quest chains requires the dungeon to have been run before they are available.
 
+;Haramir Never Say Die -- in route to Har'mara
+A A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|N|From Shao'mal.|RANK|2|
+C A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|QO|1|CHAT|N|Talk to Shao'mal.|
+C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3<1|H|N|Find Wenalo near the base of a tree.|
+C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3<2|H|N|Find llomai behind a few tall plants.|
+C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3<3|H|N|Find Shao'mal on a giant fungus shelf.|
+C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3<4|H|N|Find Nayeli at the base of a giant mushroom.|
+T A Game of Silence and Shadow|QID|91550|M|53.87,41.26|Z|2413; Harandar|N|To Nayeli.|
+A De-nest-stration|QID|91551|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+A Feathered Fury|QID|91552|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Slay Petalwings.|S|
+C De-nest-stration|QID|91551|M|55.27,47.51|Z|2413; Harandar|H|N|Destroy Nests.|
+C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Keep killing Petalwings until the step closes.|US|
+T De-nest-stration|QID|91551|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
+T Feathered Fury|QID|91552|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
+A Haranir Never Say Die!|QID|91553|PRE|91552|M|57.27,48.96|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+K Behemoth Petalwing|ACTIVE|91553|M|57.99,50.04|Z|2413; Harandar|QO|1|N|Kill the Behemoth Petalwing.|T|Behemoth Petalwing|
+T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.|
+T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|From Ravi.|RANK|2|
+
+;Late Bloomers  - In Har'mara
+A Late Bloomers|QID|90537|PRE|86930|M|36.93,26.00|Z|2413; Harandar|N|From Ney'leia.|RANK|2|
+C Late Bloomers|QID|90537|M|48.67,32.06|Z|2413; Harandar|QO|1|I|N|Look for the missing caravan.|
+C Late Bloomers|QID|90537|M|48.71,32.04|Z|2413; Harandar|QO|2|H|N|Investigate the Corpse.|
+C Late Bloomers|QID|90537|M|48.71,32.13|Z|2413; Harandar|QO|3|H|N|Collect the Empty Seed Sack.|
+C Late Bloomers|QID|90537|M|48.77,32.13|Z|2413; Harandar|QO|4|CHAT|N|Talk to Ney'leia.|
+T Late Bloomers|QID|90537|M|48.96,29.78|Z|2413; Harandar|N|To Ney'leia.|
+A Rutaani Rescue|QID|90540|PRE|90537|M|48.96,29.78|Z|2413; Harandar|N|From Ney'leia.|
+A Back in the Bag|QID|90569|PRE|90537|M|48.96,29.78|Z|2413; Harandar|N|From Ney'leia.|
+C Back in the Bag|QID|90569|M|48.35,24.21|Z|2413; Harandar|N|Kill mushroom men to loot Stolen Seeds.|S|
+C Rutaani Rescue|QID|90540|M|47.77,23.88|Z|2413; Harandar|H|N|Rescue Captured Rutaani.|
+C Back in the Bag|QID|90569|M|48.35,24.21|Z|2413; Harandar|N|Keep killing the mushroom men to retreive those stolen seeds.|US|
+T Rutaani Rescue|QID|90540|M|48.91,29.73|Z|2413; Harandar|N|To Ney'leia.|
+T Back in the Bag|QID|90569|M|48.91,29.73|Z|2413; Harandar|N|To Ney'leia.|
+A Caves of the Cleft|QID|90963|PRE|90540&90569|M|48.91,29.73|Z|2413; Harandar|N|From Ney'leia.|
+T Caves of the Cleft|QID|90963|M|49.67,23.32|Z|2413; Harandar|N|To Ney'leia.|
+A Gathering Glowshrooms|QID|90601|PRE|90963|M|49.67,23.32|Z|2413; Harandar|N|From Ney'leia.|
+A Gomphusta|QID|90602|PRE|90963|M|49.67,23.32|Z|2413; Harandar|
+C Gathering Glowshrooms|QID|90601|M|49.16,22.16|Z|2413; Harandar|H|N|Collect Glowshrooms.|S|
+K Gomphusta|ACTIVE|90602|M|48.82,21.89|Z|2413; Harandar|QO|1|N|Slay Gomphusta.|T|Gomphusta|
+C Gomphusta|QID|90602|M|48.65,22.36|Z|2413; Harandar|QO|2|H|N|Loot Gomphusta's Chest, it's just up the path in the next room.|
+C Gathering Glowshrooms|QID|90601|M|49.16,22.16|Z|2413; Harandar|N|Glowshrooms collected.|US|
+T Gathering Glowshrooms|QID|90601|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
+T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
+
+;Harandar's Kitchen  - In Har'mara
+A Fresh from the Garden|QID|91585|PRE|86930|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
+A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
+A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
+C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|NC|U|250919|N|Yu'relen's Elixir drunk.|
+C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1|NC|U|250919|N|Frillfish Fillet.|
+C Carcass Cuisine|QID|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|U|250919|N|Sporeglider Bloomterror slain.|
+C Carcass Cuisine|QID|91587|M|39.13,22.87|Z|2413; Harandar|QO|2|NC|U|250919|N|Corpse Rind.|
+C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|QO|1|NC|U|250919|N|Nutrient-Rich Soil.|
+C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|NC|U|250919|N|Root Drift Jelly.|
+T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
+T Soil-Based Alternatives|QID|91586|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
+T Carcass Cuisine|QID|91587|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
+A Harandar's Kitchen|QID|91588|PRE|91585&91586&91587|M|40.86,23.22|Z|2413; Harandar|N|From Yu'relen.|
+C Harandar's Kitchen|QID|91588|M|41.04,23.48|Z|2413; Harandar|QO|3|NC|U|250919|N|Food cooked over campfire.|
+C Harandar's Kitchen|QID|91588|M|40.21,22.70|Z|2413; Harandar|QO|2|NC|U|250919|N|Fish filleted.|
+C Harandar's Kitchen|QID|91588|M|39.70,21.99|Z|2413; Harandar|QO|1|NC|U|250919|N|Salad washed.|
+T Harandar's Kitchen|QID|91588|M|40.85,23.20|Z|2413; Harandar|N|To Yu'relen.|
+A Root Dash Delivery|QID|91589|PRE|91588|M|40.85,23.20|Z|2413; Harandar|N|From Yu'relen.|
+C Root Dash Delivery|QID|91589|M|40.79,23.19|Z|2413; Harandar|QO|1|NC|U|250919|N|Pick up Delivery.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|4|NC|U|250919|N|Ribs served.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|5|NC|U|250919|N|Nutrient-Rich Dirt served.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|2|NC|U|250919|N|Salad served.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|NC|U|250919|N|Fish served.|
+T Root Dash Delivery|QID|91589|M|36.67,26.79|Z|2413; Harandar|N|To Yu'relen.|
+
+;Cultivating Hope
+A The Former Rootwarden|QID|91872|PRE|86930|M|34.91,25.02|Z|2413; Harandar|N|From Hagar.|RANK|2|
+T The Former Rootwarden|QID|91872|M|42.54,34.07|Z|2413; Harandar|N|To Hagar.|
+A Buffer Zone|QID|91873|PRE|91872|M|42.54,34.07|Z|2413; Harandar|N|From Hagar.|
+C Buffer Zone|QID|91873|M|40.57,31.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Shrine protected.|
+T Buffer Zone|QID|91873|M|42.28,34.10|Z|2413; Harandar|N|To Hagar.|
+A Natural Remedy|QID|91875|PRE|91873|M|42.28,34.10|Z|2413; Harandar|N|From Hagar.|
+C Natural Remedy|QID|91875|M|42.07,38.12|Z|2413; Harandar|QO|1|NC|U|250919|N|Verdant Stalker Sludge.|
+T Natural Remedy|QID|91875|M|42.47,34.38|Z|2413; Harandar|N|To Hagar.|
+A Flare Up|QID|91874|PRE|91875|M|42.47,34.38|Z|2413; Harandar|N|From Hagar.|
+C Flare Up|QID|91874|M|34.02,46.35|Z|2413; Harandar|QO|1|NC|U|250919|N|Smoldering Fires doused.|
+T Flare Up|QID|91874|M|42.55,33.67|Z|2413; Harandar|N|To Hagar.|
+A Tending Hope|QID|91876|PRE|91874|M|42.55,33.67|Z|2413; Harandar|N|From Hagar.|
+C Tending Hope|QID|91876|M|42.49,34.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Hagar's salve applied.|
+T Tending Hope|QID|91876|M|42.52,33.87|Z|2413; Harandar|N|To Hagar.|
+
+;Bloomtown
+A Light Disturbance|QID|92732|PRE|92448|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
+T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
+A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
+C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1|NC|U|250919|N|First Clue Found.|
+C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|2|NC|U|250919|N|Second Clue Found.|
+C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|3|NC|U|250919|N|Third Clue Found.|
+C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|4|NC|U|250919|N|Fourth Clue Found.|
+T Light Stroll|QID|92736|M|41.67,67.74|Z|2413; Harandar|N|To Hannan.|
+A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
+A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
+C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|QO|1|NC|U|250919|N|Lightspored Potadpole gathered.|
+C Light Carnage|QID|92737|M|39.08,71.74|Z|2413; Harandar|QO|1|U|250919|N|Lightfrenzied Potatoad slain.|
+T Light Carnage|QID|92737|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
+T Potatoad Tots|QID|92738|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
+A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From Hannan.|
+C O.K. Bloomer|QID|92739|M|36.09,74.07|Z|2413; Harandar|QO|1|U|250919|N|Adzikel slain.|
+T O.K. Bloomer|QID|92739|M|31.43,64.95|Z|2413;Har'alnor Den|N|To Hannan.|
+
 ;The Silence at Fungara Village
 T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To Hannan.|;must wait till after finishing campaign
 A The Silence at Fungara Village|QID|91375|M|33.38,66.66|Z|2413; Harandar|N|From Ghikal.|RANK|2|
@@ -366,168 +533,6 @@ A Leave Your Mark|QID|90535|PRE|90534|M|51.28,49.46|Z|2413; Harandar|N|From Orwe
 C Leave Your Mark|QID|90535|M|51.29,49.51|Z|2413; Harandar|QO|1|NC|U|250919|N|Apply Paint.|
 C Leave Your Mark|QID|90535|M|51.32,49.50|Z|2413; Harandar|QO|2|NC|U|250919|N|Leave Paint Mark.|
 T Leave Your Mark|QID|90535|M|51.32,49.50|Z|2413; Harandar|N|To Orweyna.|
-
-;Haramir Never Say Die -- in route to Har'mara
-A A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|N|From Shao'mal.|RANK|2|
-C A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|QO|1|CHAT|N|Talk to Shao'mal.|
-C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3<1|H|N|Find Wenalo.|
-C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3<2|H|N|Find llomai.|
-C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3<3|H|N|Find Shao'mal.|
-C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3<4|H|N|Find Nayeli.|
-T A Game of Silence and Shadow|QID|91550|M|53.87,41.26|Z|2413; Harandar|N|To Nayeli.|
-A De-nest-stration|QID|91551|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-A Feathered Fury|QID|91552|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|QO|1|N|Petalwings slain.|S|
-C De-nest-stration|QID|91551|M|55.27,47.51|Z|2413; Harandar|QO|1|H|N|Nests destroyed.|
-C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|QO|1|N|Petalwings slain.|US|
-T De-nest-stration|QID|91551|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
-T Feathered Fury|QID|91552|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
-A Haranir Never Say Die!|QID|91553|M|57.27,48.96|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-K Behemoth Petalwing|ACTIVE|91553|M|57.99,50.04|Z|2413; Harandar|QO|1|N|Behemoth Petalwing slain.|T|Behemoth Petalwing|
-T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.|
-T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|From Ravi.|RANK|2|
-
-;Late Bloomers  - In Har'mara
-A Late Bloomers|QID|90537|PRE|90474|M|36.93,26.00|Z|2413; Harandar|N|From Ney'leia.|RANK|2|
-C Late Bloomers|QID|90537|M|48.67,32.06|Z|2413; Harandar|QO|1|NC|U|250919|N|Look for the missing caravan.|
-C Late Bloomers|QID|90537|M|48.71,32.04|Z|2413; Harandar|QO|2|NC|U|250919|N|Corpse investigated.|
-C Late Bloomers|QID|90537|M|48.71,32.13|Z|2413; Harandar|QO|3|NC|U|250919|N|Empty Seed Sack collected.|
-C Late Bloomers|QID|90537|M|48.77,32.13|Z|2413; Harandar|QO|4|NC|U|250919|N|Talk to Ney'leia.|
-T Late Bloomers|QID|90537|M|48.96,29.78|Z|2413; Harandar|N|To Ney'leia.|
-A Rutaani Rescue|QID|90540|PRE|90537|M|48.96,29.78|Z|2413; Harandar|N|From Ney'leia.|
-A Back in the Bag|QID|90569|PRE|90537|M|48.96,29.78|Z|2413; Harandar|N|From Ney'leia.|
-C Back in the Bag|QID|90569|M|48.35,24.21|Z|2413; Harandar|QO|1|NC|U|250919|N|Stolen Seeds.|
-C Rutaani Rescue|QID|90540|M|47.77,23.88|Z|2413; Harandar|QO|1|NC|U|250919|N|Captured Rutaani rescued.|
-T Rutaani Rescue|QID|90540|M|48.91,29.73|Z|2413; Harandar|N|To Ney'leia.|
-T Back in the Bag|QID|90569|M|48.91,29.73|Z|2413; Harandar|N|To Ney'leia.|
-A Caves of the Cleft|QID|90963|PRE|90540&90569|M|48.91,29.73|Z|2413; Harandar|N|From Ney'leia.|
-T Caves of the Cleft|QID|90963|M|49.67,23.32|Z|2413; Harandar|N|To Ney'leia.|
-A Gathering Glowshrooms|QID|90601|PRE|90963|M|49.67,23.32|Z|2413; Harandar|N|From Ney'leia.|
-A Gomphusta|QID|90602|PRE|90963|M|49.67,23.32|Z|2413; Harandar|
-C Gathering Glowshrooms|QID|90601|M|49.16,22.16|Z|2413; Harandar|QO|1|NC|U|250919|N|Glowshrooms collected.|
-C Gomphusta|QID|90602|M|48.82,21.89|Z|2413; Harandar|QO|1|U|250919|N|Gomphusta slain.|
-C Gomphusta|QID|90602|M|48.65,22.36|Z|2413; Harandar|QO|2|NC|U|250919|N|Gomphusta's Chest looted.|
-T Gathering Glowshrooms|QID|90601|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
-T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
-
-;Harandar's Kitchen  - In Har'mara
-A Fresh from the Garden|QID|91585|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
-A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
-A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
-C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|NC|U|250919|N|Yu'relen's Elixir drunk.|
-C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1|NC|U|250919|N|Frillfish Fillet.|
-C Carcass Cuisine|QID|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|U|250919|N|Sporeglider Bloomterror slain.|
-C Carcass Cuisine|QID|91587|M|39.13,22.87|Z|2413; Harandar|QO|2|NC|U|250919|N|Corpse Rind.|
-C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|QO|1|NC|U|250919|N|Nutrient-Rich Soil.|
-C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|NC|U|250919|N|Root Drift Jelly.|
-T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
-T Soil-Based Alternatives|QID|91586|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
-T Carcass Cuisine|QID|91587|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
-A Harandar's Kitchen|QID|91588|PRE|91585&91586&91587|M|40.86,23.22|Z|2413; Harandar|N|From Yu'relen.|
-C Harandar's Kitchen|QID|91588|M|41.04,23.48|Z|2413; Harandar|QO|3|NC|U|250919|N|Food cooked over campfire.|
-C Harandar's Kitchen|QID|91588|M|40.21,22.70|Z|2413; Harandar|QO|2|NC|U|250919|N|Fish filleted.|
-C Harandar's Kitchen|QID|91588|M|39.70,21.99|Z|2413; Harandar|QO|1|NC|U|250919|N|Salad washed.|
-T Harandar's Kitchen|QID|91588|M|40.85,23.20|Z|2413; Harandar|N|To Yu'relen.|
-A Root Dash Delivery|QID|91589|PRE|91588|M|40.85,23.20|Z|2413; Harandar|N|From Yu'relen.|
-C Root Dash Delivery|QID|91589|M|40.79,23.19|Z|2413; Harandar|QO|1|NC|U|250919|N|Pick up Delivery.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|4|NC|U|250919|N|Ribs served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|5|NC|U|250919|N|Nutrient-Rich Dirt served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|2|NC|U|250919|N|Salad served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|NC|U|250919|N|Fish served.|
-T Root Dash Delivery|QID|91589|M|36.67,26.79|Z|2413; Harandar|N|To Yu'relen.|
-
-T Har'kuai, Village of Rain|QID|93771|;picked up 2nd time to The Den line ~100 -- keep these next 3 chains together at Village of Rain -- perhaps these should be prioritized earlier as its rumored that the Mysterious Skyshards can't drop until you do it.
-
-;The Legend of Aln'sharan - In Har'kuai
-A Tales of the Sky|QID|90467|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|;PRE|90535| this quest shows on my map(90467) and I have not done 90535
-A Ugh, Chores!|QID|90468|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|;PRE|90535| this quest shows on my map(90467) and I have not done 90535
-C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|QO|1|NC|U|250919|N|Intact Saptor Frond.|
-C Tales of the Sky|QID|90467|M|70.20,32.01|Z|2413; Harandar|QO|1|NC|U|250919|N|Stray Skyshards.|
-T Tales of the Sky|QID|90467|M|69.44,29.31|Z|2413; Harandar|N|To Kamari.|
-T Ugh, Chores!|QID|90468|M|69.44,29.31|Z|2413; Harandar|N|To Kamari.|
-A Carry On, Wayward Kuri|QID|90469|PRE|90467&90468|M|69.44,29.31|Z|2413; Harandar|N|From Kamari.|
-C Carry On, Wayward Kuri|QID|90469|M|69.68,26.60|Z|2413; Harandar|QO|1|NC|U|250919|N|Kuri found.|
-T Carry On, Wayward Kuri|QID|90469|M|69.68,26.60|Z|2413; Harandar|N|To Kuri.|
-A Skyglass Scavenging|QID|90470|PRE|90469|M|69.70,26.59|Z|2413; Harandar|N|From Kuri.|
-C Skyglass Scavenging|QID|90470|M|71.45,28.80|Z|2413; Harandar|QO|1|NC|U|250919|N|Skyglass Recovered.|
-T Skyglass Scavenging|QID|90470|M|69.70,26.59|Z|2413; Harandar|N|To Kuri.|
-A The Legend of Aln'sharan|QID|90474|PRE|90470|M|69.70,26.59|Z|2413; Harandar|N|From Kuri.|
-C The Legend of Aln'sharan|QID|90474|M|66.17,25.51|Z|2413; Harandar|QO|1|NC|U|250919|N|Skyshards thrown.|
-T The Legend of Aln'sharan|QID|90474|M|66.17,25.51|Z|2413; Harandar|N|To Kuri.|
-
-;The Greenspeaker's Vigil - In Har'kuai
-A Supplicants to the Goddess|QID|91346|M|65.43,28.08|Z|2413; Harandar|N|From Greenspeaker Cyenna.|RANK|2|;PRE|90601&90602| this quest (91346) on map - not yet completed 90601 or 90602
-C Supplicants to the Goddess|QID|91346|M|65.48,28.00|Z|2413; Harandar|QO|1|NC|U|250919|N|Interact with the Waters of Har'kuai.|
-T Supplicants to the Goddess|QID|91346|M|65.45,28.02|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
-A Fungal Lashers B Gone|QID|91359|PRE|91346|M|65.45,28.02|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
-A Weeding Out the Unwanted|QID|91360|PRE|91346|M|65.45,28.02|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
-C Weeding Out the Unwanted|QID|91360|M|61.92,31.59|Z|2413; Harandar|QO|1|NC|U|250919|N|Allergenic Weed pulled.|
-C Fungal Lashers B Gone|QID|91359|M|68.01,27.29|Z|2413; Harandar|QO|1|NC|U|250919|N|Harmonious Lash gathered.|
-T Fungal Lashers B Gone|QID|91359|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
-T Weeding Out the Unwanted|QID|91360|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
-A Back on Duty?|QID|91361|PRE|91359&91360|M|65.43,28.06|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
-C Back on Duty?|QID|91361|M|66.83,25.83|Z|2413; Harandar|QO|1|U|250919|N|Riverscale's favorite feasts slain.|
-T Back on Duty?|QID|91361|M|65.47,28.10|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
-
-;Peril Among Petals - In Har'kuai
-A The Blooming Lattice|QID|91063|M|65.39,22.69|Z|2413; Harandar|N|From Su'meera.|RANK|2|;PRE|91361| this quest shows on map, have not yet done 91361
-T The Blooming Lattice|QID|91063|M|60.83,29.91|Z|2413; Harandar|N|To Su'meera.|
-A Purloining Petals|QID|91065|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
-A Nipping the Buds|QID|91086|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
-A Petal Bristles|QID|91085|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
-C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|QO|1|U|250919|N|Rutaani slain.|
-C Purloining Petals|QID|91065|M|54.56,28.27|Z|2413; Harandar|QO|2|NC|U|250919|N|Pilfered Crafting Drill.|
-C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|U|250919|N|Well-Worn Ladle.|
-C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|U|250919|N|Paint-Speckled Gourd.|
-C Nipping the Buds|QID|91086|M|54.87,31.59|Z|2413; Harandar|QO|2|U|250919|N|Prime Bloodwarden Kazat slain.|
-C Purloining Petals|QID|91065|M|54.90,32.10|Z|2413; Harandar|QO|3|NC|U|250919|N|Splattered Scroll.|
-C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|NC|U|250919|N|Petalwing Plumes collected.|
-T Purloining Petals|QID|91065|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
-T Nipping the Buds|QID|91086|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
-T Petal Bristles|QID|91085|M|60.81,29.92|Z|2413; Harandar|N|To Su'meera.|
-A Behind the Falls|QID|91088|PRE|91065&91086&91085|M|60.81,29.92|Z|2413; Harandar|N|From Su'meera.|
-T Behind the Falls|QID|91088|M|56.08,24.88|Z|2413; Harandar|N|To Su'meera.|
-A Memories in Stone|QID|91136|PRE|91088|M|56.08,24.88|Z|2413; Harandar|N|From Su'meera.|
-C Memories in Stone|QID|91136|M|56.08,24.88|Z|2413; Harandar|QO|1|NC|U|250919|N|Talk to Su'meera.|
-C Memories in Stone|QID|91136|M|56.05,25.00|Z|2413; Harandar|QO|2|NC|U|250919|N|Su'meera defended.|
-T Memories in Stone|QID|91136|M|55.73,26.53|Z|2413; Harandar|N|To Su'meera.|
-
-
-;Cultivating Hope
-A The Former Rootwarden|QID|91872|PRE|91381|M|34.91,25.02|Z|2413; Harandar|N|From Hagar.|RANK|2|
-T The Former Rootwarden|QID|91872|M|42.54,34.07|Z|2413; Harandar|N|To Hagar.|
-A Buffer Zone|QID|91873|PRE|91872|M|42.54,34.07|Z|2413; Harandar|N|From Hagar.|
-C Buffer Zone|QID|91873|M|40.57,31.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Shrine protected.|
-T Buffer Zone|QID|91873|M|42.28,34.10|Z|2413; Harandar|N|To Hagar.|
-A Natural Remedy|QID|91875|PRE|91873|M|42.28,34.10|Z|2413; Harandar|N|From Hagar.|
-C Natural Remedy|QID|91875|M|42.07,38.12|Z|2413; Harandar|QO|1|NC|U|250919|N|Verdant Stalker Sludge.|
-T Natural Remedy|QID|91875|M|42.47,34.38|Z|2413; Harandar|N|To Hagar.|
-A Flare Up|QID|91874|PRE|91875|M|42.47,34.38|Z|2413; Harandar|N|From Hagar.|
-C Flare Up|QID|91874|M|34.02,46.35|Z|2413; Harandar|QO|1|NC|U|250919|N|Smoldering Fires doused.|
-T Flare Up|QID|91874|M|42.55,33.67|Z|2413; Harandar|N|To Hagar.|
-A Tending Hope|QID|91876|PRE|91874|M|42.55,33.67|Z|2413; Harandar|N|From Hagar.|
-C Tending Hope|QID|91876|M|42.49,34.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Hagar's salve applied.|
-T Tending Hope|QID|91876|M|42.52,33.87|Z|2413; Harandar|N|To Hagar.|
-
-
-;Bloomtown
-A Light Disturbance|QID|92732|PRE|92866&92448|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
-T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
-A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
-C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1|NC|U|250919|N|First Clue Found.|
-C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|2|NC|U|250919|N|Second Clue Found.|
-C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|3|NC|U|250919|N|Third Clue Found.|
-C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|4|NC|U|250919|N|Fourth Clue Found.|
-T Light Stroll|QID|92736|M|41.67,67.74|Z|2413; Harandar|N|To Hannan.|
-A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
-A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
-C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|QO|1|NC|U|250919|N|Lightspored Potadpole gathered.|
-C Light Carnage|QID|92737|M|39.08,71.74|Z|2413; Harandar|QO|1|U|250919|N|Lightfrenzied Potatoad slain.|
-T Light Carnage|QID|92737|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
-T Potatoad Tots|QID|92738|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
-A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From Hannan.|
-C O.K. Bloomer|QID|92739|M|36.09,74.07|Z|2413; Harandar|QO|1|U|250919|N|Adzikel slain.|
-T O.K. Bloomer|QID|92739|M|31.43,64.95|Z|2413;Har'alnor Den|N|To Hannan.|
 
 ;Trials of the Shul'ka
 A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua.|RANK|2|
