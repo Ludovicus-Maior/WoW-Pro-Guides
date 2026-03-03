@@ -706,6 +706,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.action[i] == "a" then
         WoWPro.action[i] = "A"
         WoWPro.repeatable[i] = true
+        WoWPro.repeatablecount = WoWPro.repeatablecount + 1
     end
     if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
         WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
@@ -1197,7 +1198,7 @@ function WoWPro.LoadGuideStepsReal()
     end
     WoWPro.conditional = {}
     WoWPro.repeatable = {}
-    WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+    WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount, WoWPro.repeatablecount = 0, 0, 0, 0
 
     -- Parsing quests --
     local sequencef = WoWPro.Guides[GID].sequence

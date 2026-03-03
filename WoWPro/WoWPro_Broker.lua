@@ -2199,12 +2199,13 @@ function WoWPro.UpdateGuideReal(From)
     for j = 1, WoWPro.stepcount do
         if (WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j])
         and not WoWPro.sticky[j]
-        and not WoWPro.optional[j] then
+        and not WoWPro.optional[j]
+        and not WoWPro.repeatable[j] then
             p = p + 1
         end
     end
     WoWProCharDB.Guide[GID].progress = p
-    WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
+    WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount - (WoWPro.repeatablecount or 0)
 
     -- TODO: make next lines module specific
     local total = WoWPro.stepcount or 1
