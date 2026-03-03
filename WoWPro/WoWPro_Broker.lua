@@ -3939,8 +3939,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         -- For optional steps with L tags (for U+L prerequisite scenarios)
                         if stepAction == "T" then
                             WoWPro.why[guideIndex] = "NextStep(): Optional turn-in ready - enough loot in bags."
+                            skip = false
                         elseif stepAction == "A" then
                             WoWPro.why[guideIndex] = "NextStep(): Optional accept ready - enough loot in bags."
+                            skip = false
                         else
                             -- U, C, B, N, etc. - auto-complete when items collected
                             if rowIndex == 1 then
