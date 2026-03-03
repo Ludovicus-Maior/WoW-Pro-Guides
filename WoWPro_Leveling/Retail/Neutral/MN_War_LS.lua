@@ -1,7 +1,9 @@
-local guide = WoWPro:RegisterGuide('The War of Light and Shadow', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance',12)
+local guide = WoWPro:RegisterGuide('The War of Light and Shadow', 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
 WoWPro:GuideName(guide,"The War of Light and Shadow")
-WoWPro:GuideLevels(guide,1, 60)
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideContent(guide, 11)
+WoWPro:GuideLevels(guide,90, 90)
+WoWPro:GuideQuestTriggers(guide, 90777)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Feeding the Flame|QID|90777|M|45.37,70.27|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
