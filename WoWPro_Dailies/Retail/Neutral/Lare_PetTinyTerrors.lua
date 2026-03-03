@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LarePetTinyTerrors","Dailies","Draenor","Larenon","Neutral")
-WoWPro:GuideLevels(guide,100, 100, 100)
+WoWPro:GuideLevels(guide,20, 20, 20)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Tiny Terrors in Tanaan Dailies","Pets")
 WoWPro:GuidePetBattle(guide)
