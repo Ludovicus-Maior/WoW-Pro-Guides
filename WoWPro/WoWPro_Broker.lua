@@ -2313,7 +2313,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             local stepAction = WoWPro.action[guideIndex]
 
             -- Uncomplete repeatable A steps if quest no longer in log (L tag controls visibility) --
-            if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex] 
+            if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex]
                and stepAction == "A" and QID then
                 if not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
                     guide.completion[guideIndex] = false
@@ -4205,7 +4205,7 @@ function WoWPro.CheckRepeatableSteps()
     if not GID or not WoWPro.Guides[GID] then return end
     local guide = WoWProCharDB.Guide[GID]
     if not guide then return end
-    
+
     local uncompleted = 0
     for i = 1, WoWPro.stepcount do
         if WoWPro.repeatable and WoWPro.repeatable[i] and guide.completion[i] and WoWPro.action[i] == "A" then
