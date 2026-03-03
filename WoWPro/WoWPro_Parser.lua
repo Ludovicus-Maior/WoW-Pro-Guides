@@ -1,8 +1,8 @@
 -- luacheck: globals tostring tonumber type pairs
 -- luacheck: globals max min abs select string tinsert tremove
 
--- Debug toggle for lootitem parsing
-WoWPro.DEBUG_LOOTITEM_PARSE = false
+-- Debug toggles
+WoWPro.DEBUG_LOOTITEM_PARSE = false -- Set to true to enable debug output for lootitem tag parsing to verify that item requirements are being read correctly
 
 local function lootitemTableToString(tbl)
     if type(tbl) ~= 'table' then return tostring(tbl) end
@@ -66,7 +66,6 @@ WoWPro.actionlabels = {
     a = "Accept (repeatable)",
     C = "Complete",
     T = "Turn in",
-
     t = "Turn in when complete",
     K = "Kill",
     R = "Run to",

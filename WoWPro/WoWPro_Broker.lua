@@ -18,6 +18,10 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+-- Debug toggles
+WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
+WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
+
 -- Encapsulated sticky count to prevent taint from direct global access
 local _activeStickyCount = 0
 
@@ -33,8 +37,6 @@ function WoWPro:IncrementActiveStickyCount()
     _activeStickyCount = _activeStickyCount + 1
 end
 
--- Debug toggle for lootitem output in Broker
-WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 
 -- Deep table comparison for lootitem matching
 local function deepTableEqual(t1, t2)
@@ -4218,7 +4220,7 @@ function WoWPro.CheckRepeatableSteps()
             end
         end
     end
-    if uncompleted > 0 then
+    if uncompleted > 0 and WoWPro.DEBUG_REPEATABLE then
         WoWPro:dbp("CheckRepeatableSteps: Uncompleted %d repeatable A steps", uncompleted)
     end
 end
