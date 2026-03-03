@@ -21,6 +21,7 @@ local L = WoWPro_Locale
 WoWPro.actiontypes = {
     A = "Interface\\GossipFrame\\AvailableQuestIcon",
     ["A ELITE"] = "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
+    a = "Interface\\GossipFrame\\AvailableQuestIcon",
     C = "Interface\\Icons\\Ability_DualWield",
     T = "Interface\\GossipFrame\\ActiveQuestIcon",
     t = "Interface\\GossipFrame\\ActiveQuestIcon",
@@ -62,6 +63,7 @@ end
 WoWPro.actionlabels = {
     A = "Accept",
     ["A ELITE"] = "Accept elite quest",
+    a = "Accept (repeatable)",
     C = "Complete",
     T = "Turn in",
 
@@ -701,6 +703,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.action[i] = "T"
         WoWPro.conditional[i] = true
     end
+    if WoWPro.action[i] == "a" then
+        WoWPro.action[i] = "A"
+        WoWPro.repeatable[i] = true
+    end
     if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
         WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
         WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i], WoWPro.action[i])
@@ -1189,6 +1195,8 @@ function WoWPro.LoadGuideStepsReal()
     for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag] = {}
     end
+    WoWPro.conditional = {}
+    WoWPro.repeatable = {}
     WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
 
     -- Parsing quests --

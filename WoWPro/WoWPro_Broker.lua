@@ -2311,6 +2311,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             local step = WoWPro.step[guideIndex]
             local stepAction = WoWPro.action[guideIndex]
 
+            -- Uncomplete repeatable A steps if quest no longer in log (L tag controls visibility) --
+            if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex] 
+               and stepAction == "A" and QID then
+                if not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
+                    guide.completion[guideIndex] = false
+                    WoWPro.why[guideIndex] = "NextStep(): Uncompleted repeatable A step - quest no longer in log."
+                end
+            end
+
             -- Quickly skip completed steps --
             if guide.completion[guideIndex] then
                 -- WoWPro.why[guideIndex] = "NextStep(): Completed."
@@ -4189,6 +4198,30 @@ end
 WoWPro.inhibit_oldQuests_update = false
 
 -- Populate the Quest Log table for other functions to call on --
+-- Check all repeatable A steps and uncomplete if quest no longer in log --
+function WoWPro.CheckRepeatableSteps()
+    local GID = WoWProDB.char.currentguide
+    if not GID or not WoWPro.Guides[GID] then return end
+    local guide = WoWProCharDB.Guide[GID]
+    if not guide then return end
+    
+    local uncompleted = 0
+    for i = 1, WoWPro.stepcount do
+        if WoWPro.repeatable and WoWPro.repeatable[i] and guide.completion[i] and WoWPro.action[i] == "A" then
+            local QID = WoWPro.QID[i]
+            if QID and not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
+                -- Quest not in log, uncomplete the repeatable step (L tag will control visibility)
+                guide.completion[i] = false
+                uncompleted = uncompleted + 1
+                WoWPro:print("Uncompleted repeatable A step %d: Quest %s left log.", i, tostring(QID))
+            end
+        end
+    end
+    if uncompleted > 0 then
+        WoWPro:dbp("CheckRepeatableSteps: Uncompleted %d repeatable A steps", uncompleted)
+    end
+end
+
 function WoWPro.PopulateQuestLog()
     WoWPro:print("PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is %s", tostring(WoWPro.inhibit_oldQuests_update))
 
