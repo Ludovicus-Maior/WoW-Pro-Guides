@@ -1,3 +1,13 @@
+# Release 2026.03.04.A
+## Bug Fixes
+* Add support for perpetually repeatable quest accepts
+* Add command to get flight points in a zone
+* Update LibDBIcon-1.0 to v12.0.0
+* Fix optional A steps with L tags showing as completed instead of ready
+## Guide Updates
+* Midnight Leveling: Arators Journey, Eversong Woods, Harandar, Intro, War of Light and Shadow, Zul Aman
+
+
 # Release 2026.02.26.A
 ## Bug Fixes
 * Fix Unsticky Step Display in Guide Window
@@ -6,8 +16,6 @@
 * Midnight Professions added
 ## Guide Updates
 * Midnight Leveling: Adventure Mode, Arators Journey, Eversong Woods, Harandar, Intro, Void Storm, War of Light and Shadow, Zul Aman
-
-
 
 
 # Release 2026.02.16.A
