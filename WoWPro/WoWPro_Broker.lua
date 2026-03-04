@@ -2397,6 +2397,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.optional[guideIndex] then
                 skip = true --Optional steps default to skipped --
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
+                -- If the step has an L tag and the loot requirement is already met, show it
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
+                    local allPresent = true
+                    for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                        if qty > 0 and _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                            allPresent = false
+                            break
+                        end
+                    end
+                    if allPresent then
+                        skip = false
+                        WoWPro.why[guideIndex] = "NextStep(): Optional step visible - enough loot in bags."
+                    end
+                end
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
                     local useTag = WoWPro.use[guideIndex]
@@ -3941,17 +3955,58 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
                         skip = false
                     end
-                elseif allPositiveComplete then
-                    -- Original behavior for non-optional loot steps
-                    if stepAction == "T" or stepAction == "U" then
-                        WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest or use the items."
-                    elseif not (stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex]) then
+                end
+                if allPositiveComplete then
+                    if stepAction == "l" then
+                        -- Auto-complete loot steps (both optional and non-optional)
                         if rowIndex == 1 then
-                            WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have enough loot in bags.")
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional loot step completed - all items collected.")
+                            else
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Loot step completed - all items collected.")
+                            end
                         else
-                            WoWPro.why[guideIndex] = "NextStep(): skipped cause you have enough loot in bags."
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.why[guideIndex] = "NextStep(): Optional loot step ready to complete - all items collected."
+                            else
+                                WoWPro.why[guideIndex] = "NextStep(): Loot step ready to complete - all items collected."
+                            end
                         end
                         skip = true
+                    elseif WoWPro.optional and WoWPro.optional[guideIndex] then
+                        -- For optional steps with L tags (for U+L prerequisite scenarios)
+                        if stepAction == "T" then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional turn-in ready - enough loot in bags."
+                            skip = false
+                        elseif stepAction == "A" then
+                            WoWPro.why[guideIndex] = "NextStep(): Optional accept ready - enough loot in bags."
+                            skip = false
+                        else
+                            -- U, C, B, N, etc. - auto-complete when items collected
+                            if rowIndex == 1 then
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional step completed - enough loot in bags.")
+                            else
+                                WoWPro.why[guideIndex] = "NextStep(): Optional step skipped - enough loot in bags."
+                            end
+                            skip = true
+                            WoWPro:Print("NextStep(): loot filter triggered skip for optional step "..guideIndex.." action "..stepAction.." allPositiveComplete (optional)")
+                        end
+                    elseif stepAction ~= "T" and stepAction ~= "A" then
+                        -- For non-optional steps with L tags (except T and A which show readiness)
+                        if rowIndex == 1 then
+                            WoWPro.CompleteStep(guideIndex, "NextStep(): Step completed - enough loot in bags.")
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Step skipped - enough loot in bags."
+                        end
+                        skip = true
+                        WoWPro:Print("NextStep(): loot filter triggered skip for non-optional step "..guideIndex.." action "..stepAction.." allPositiveComplete")
+                    else
+                        -- Non-optional T and A steps just show readiness
+                        if stepAction == "T" then
+                            WoWPro.why[guideIndex] = "NextStep(): Turn-in ready - enough loot in bags."
+                        else
+                            WoWPro.why[guideIndex] = "NextStep(): Accept ready - enough loot in bags."
+                        end
                     end
                 end
                 -- Skip suppressible (optional) l steps if loot check fails
