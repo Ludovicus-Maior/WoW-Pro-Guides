@@ -3989,7 +3989,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                                 WoWPro.why[guideIndex] = "NextStep(): Optional step skipped - enough loot in bags."
                             end
                             skip = true
-                            WoWPro:Print("NextStep(): loot filter triggered skip for optional step "..guideIndex.." action "..stepAction.." allPositiveComplete (optional)")
                         end
                     elseif stepAction ~= "T" and stepAction ~= "A" then
                         -- For non-optional steps with L tags (except T and A which show readiness)
@@ -3999,7 +3998,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             WoWPro.why[guideIndex] = "NextStep(): Step skipped - enough loot in bags."
                         end
                         skip = true
-                        WoWPro:Print("NextStep(): loot filter triggered skip for non-optional step "..guideIndex.." action "..stepAction.." allPositiveComplete")
                     else
                         -- Non-optional T and A steps just show readiness
                         if stepAction == "T" then
