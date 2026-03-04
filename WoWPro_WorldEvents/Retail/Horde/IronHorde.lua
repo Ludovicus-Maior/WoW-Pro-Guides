@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted Lands', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,90, 90, 90.1)
+WoWPro:GuideLevels(guide,20, 20, 20.1)
 WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
 WoWPro:GuideNextGuide(guide, 'EmmFluc_DarkPortal')
 WoWPro.WorldEvents:GuideOther(guide,"Iron Horde Invasion")

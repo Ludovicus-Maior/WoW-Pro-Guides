@@ -23,7 +23,7 @@ C Crafting Orders: Blacksmithing|QID|93726|M|43.78,51.20|Z|2393; Silvermoon City
 T Crafting Orders: Blacksmithing|QID|93726|M|43.73,51.85|Z|2393; Silvermoon City|N|To Bemarrin.|
 = Train Blacksmithing|QID|99999|M|43.75,51.82|Z|2393; Silvermoon City|N|From Bemarrin. Click this step off if you are done or dont care.|P|Blacksmithing;164|SPELL|Midnight Blacksmithing;471004|
 = Train Mining|QID|99999|M|42.67,52.85|Z|2393; Silvermoon City|N|From Belil. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Midnight Mining;471013|
-$ Sin'dorei Master's Forgemace|QID|89183|M|49.16,61.36|Z|2393; Silvermoon City|N|Pick up and use the forgemace on the table for a bit of profession knowledge.|
+$ Sin'dorei Master's Forgemace|QID|89183|M|49.16,61.36|Z|2393; Silvermoon City|N|Pick up and use the forgemace on the table for a bit of profession knowledge.|P|Blacksmithing;164|
 
 A Crafting Orders: Jewelcrafting|QID|93729|PRE|93723|M|45.12,55.19|Z|2393; Silvermoon City|N|From Captain Flaresworn.|RANK|2|P|Jewelcrafting;755|
 C Crafting Orders: Jewelcrafting|QID|93729|M|47.86,55.21|Z|2393; Silvermoon City|QO|1|NC|N|Use the Jewelcrafting Work Table.|
@@ -451,9 +451,9 @@ C Comprehend the Void|QID|86633|QO|1|M|37.37,74.66|Z|2395; Eversong Woods|N|Meet
 C Comprehend the Void|QID|86633|QO|3|M|37.39,74.72|Z|2395; Eversong Woods|N|Click the Void Shard and then bring it to the center, one at a time.|H|
 T Comprehend the Void|QID|86633|M|37.36,74.69|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A To Deatholme|QID|86635|PRE|86633|M|37.36,74.69|Z|2395; Eversong Woods|N|From Magister Umbric.|
-B Vial of Quicksilver|QID|92023|M|39.26,61.07|Z|2395; Eversong Woods|QO|1|N|Purchased from Vehn Sorrelstride.|
-B Flask of Dragon's Blood|QID|92023|M|39.58,60.60|Z|2395; Eversong Woods|QO|2|N|Purchased from Nara Fadebranch.|
-B Bottle of Magister's Reserve|QID|92023|M|40.69,60.12|Z|2395; Eversong Woods|QO|3|NC|N|Purchased from Limien Bountcask.|
+B Vial of Quicksilver|ACTIVE|92023|M|39.26,61.07|Z|2395; Eversong Woods|QO|1|N|Purchased from Vehn Sorrelstride.|
+B Flask of Dragon's Blood|ACTIVE|92023|M|39.58,60.60|Z|2395; Eversong Woods|QO|2|N|Purchased from Nara Fadebranch.|
+B Bottle of Magister's Reserve|ACTIVE|92023|M|40.69,60.12|Z|2395; Eversong Woods|QO|3|NC|N|Purchased from Limien Bountcask.|
 T Suspicious Sundries|QID|92023|M|40.69,60.12|Z|2395; Eversong Woods|N|To Limien Bountcask.|
 A House Call|QID|92024|PRE|92023|M|40.69,60.12|Z|2395; Eversong Woods|N|From Limien Bountcask.|RANK|2|
 C House Call|QID|92024|M|37.60,72.16|Z|2395; Eversong Woods|QO|1|CHAT|N|First clue found.|

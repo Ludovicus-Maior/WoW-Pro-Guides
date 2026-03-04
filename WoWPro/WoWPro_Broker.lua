@@ -3943,11 +3943,23 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 end
-                 -- NEW LOGIC: For optional loot steps, hide them UNTIL all items are collected
-                if stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
-                    if not allPositiveComplete then
-                        -- Hide the step until all items are collected
-                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step hidden until all items collected."
+                 -- For steps with L tags, auto-complete when all items are collected
+                if allPositiveComplete then
+                    if stepAction == "l" then
+                        -- Auto-complete loot steps (both optional and non-optional)
+                        if rowIndex == 1 then
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional loot step completed - all items collected.")
+                            else
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Loot step completed - all items collected.")
+                            end
+                        else
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.why[guideIndex] = "NextStep(): Optional loot step ready to complete - all items collected."
+                            else
+                                WoWPro.why[guideIndex] = "NextStep(): Loot step ready to complete - all items collected."
+                            end
+                        end
                         skip = true
                         break
                     else
@@ -4006,12 +4018,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             WoWPro.why[guideIndex] = "NextStep(): Accept ready - enough loot in bags."
                         end
                     end
-                end
-                -- Skip suppressible (optional) l steps if loot check fails
-                if not allPositiveComplete and stepAction == "l" and WoWPro.optional and WoWPro.optional[guideIndex] then
-                    WoWPro.why[guideIndex] = "NextStep(): Skipping loot step due to insufficient items."
-                    skip = true
-                    break
                 end
                 if hasNegative and allNegativeComplete then
                     if rowIndex == 1 then
