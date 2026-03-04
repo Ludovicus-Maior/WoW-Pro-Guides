@@ -1107,7 +1107,15 @@ end
 
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
     local delta = WoWPro.PopulateQuestLog()
-    WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+    if WoWPro.DEBUG_REPEATABLE then
+        WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+    end
+
+    -- Check repeatable steps after quest log update
+    if WoWPro.CheckRepeatableSteps then
+        WoWPro.CheckRepeatableSteps()
+    end
+
     if delta == 0 then
         return
     end

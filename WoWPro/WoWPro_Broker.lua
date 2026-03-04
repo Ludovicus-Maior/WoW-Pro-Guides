@@ -18,6 +18,10 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+-- Debug toggles
+WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
+WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
+
 -- Encapsulated sticky count to prevent taint from direct global access
 local _activeStickyCount = 0
 
@@ -33,8 +37,6 @@ function WoWPro:IncrementActiveStickyCount()
     _activeStickyCount = _activeStickyCount + 1
 end
 
--- Debug toggle for lootitem output in Broker
-WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 
 -- Deep table comparison for lootitem matching
 local function deepTableEqual(t1, t2)
@@ -2199,12 +2201,13 @@ function WoWPro.UpdateGuideReal(From)
     for j = 1, WoWPro.stepcount do
         if (WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j])
         and not WoWPro.sticky[j]
-        and not WoWPro.optional[j] then
+        and not WoWPro.optional[j]
+        and not WoWPro.repeatable[j] then
             p = p + 1
         end
     end
     WoWProCharDB.Guide[GID].progress = p
-    WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
+    WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount - (WoWPro.repeatablecount or 0)
 
     -- TODO: make next lines module specific
     local total = WoWPro.stepcount or 1
@@ -2311,6 +2314,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             local step = WoWPro.step[guideIndex]
             local stepAction = WoWPro.action[guideIndex]
 
+            -- Uncomplete repeatable A steps if quest no longer in log (L tag controls visibility) --
+            if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex]
+               and stepAction == "A" and QID then
+                if not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
+                    guide.completion[guideIndex] = false
+                    WoWPro.why[guideIndex] = "NextStep(): Uncompleted repeatable A step - quest no longer in log."
+                end
+            end
+
             -- Quickly skip completed steps --
             if guide.completion[guideIndex] then
                 -- WoWPro.why[guideIndex] = "NextStep(): Completed."
@@ -2385,6 +2397,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.optional[guideIndex] then
                 skip = true --Optional steps default to skipped --
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
+                -- If the step has an L tag and the loot requirement is already met, show it
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
+                    local allPresent = true
+                    for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
+                        if qty > 0 and _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                            allPresent = false
+                            break
+                        end
+                    end
+                    if allPresent then
+                        skip = false
+                        WoWPro.why[guideIndex] = "NextStep(): Optional step visible - enough loot in bags."
+                    end
+                end
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
                     local useTag = WoWPro.use[guideIndex]
@@ -3935,6 +3961,30 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             end
                         end
                         skip = true
+                        break
+                    else
+                        -- Show the step now that all items are collected
+                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
+                        skip = false
+                    end
+                end
+                if allPositiveComplete then
+                    if stepAction == "l" then
+                        -- Auto-complete loot steps (both optional and non-optional)
+                        if rowIndex == 1 then
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional loot step completed - all items collected.")
+                            else
+                                WoWPro.CompleteStep(guideIndex, "NextStep(): Loot step completed - all items collected.")
+                            end
+                        else
+                            if WoWPro.optional and WoWPro.optional[guideIndex] then
+                                WoWPro.why[guideIndex] = "NextStep(): Optional loot step ready to complete - all items collected."
+                            else
+                                WoWPro.why[guideIndex] = "NextStep(): Loot step ready to complete - all items collected."
+                            end
+                        end
+                        skip = true
                     elseif WoWPro.optional and WoWPro.optional[guideIndex] then
                         -- For optional steps with L tags (for U+L prerequisite scenarios)
                         if stepAction == "T" then
@@ -4210,6 +4260,30 @@ end
 WoWPro.inhibit_oldQuests_update = false
 
 -- Populate the Quest Log table for other functions to call on --
+-- Check all repeatable A steps and uncomplete if quest no longer in log --
+function WoWPro.CheckRepeatableSteps()
+    local GID = WoWProDB.char.currentguide
+    if not GID or not WoWPro.Guides[GID] then return end
+    local guide = WoWProCharDB.Guide[GID]
+    if not guide then return end
+
+    local uncompleted = 0
+    for i = 1, WoWPro.stepcount do
+        if WoWPro.repeatable and WoWPro.repeatable[i] and guide.completion[i] and WoWPro.action[i] == "A" then
+            local QID = WoWPro.QID[i]
+            if QID and not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
+                -- Quest not in log, uncomplete the repeatable step (L tag will control visibility)
+                guide.completion[i] = false
+                uncompleted = uncompleted + 1
+                WoWPro:print("Uncompleted repeatable A step %d: Quest %s left log.", i, tostring(QID))
+            end
+        end
+    end
+    if uncompleted > 0 and WoWPro.DEBUG_REPEATABLE then
+        WoWPro:dbp("CheckRepeatableSteps: Uncompleted %d repeatable A steps", uncompleted)
+    end
+end
+
 function WoWPro.PopulateQuestLog()
     WoWPro:print("PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is %s", tostring(WoWPro.inhibit_oldQuests_update))
 

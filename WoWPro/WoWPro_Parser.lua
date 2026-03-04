@@ -1,8 +1,8 @@
 -- luacheck: globals tostring tonumber type pairs
 -- luacheck: globals max min abs select string tinsert tremove
 
--- Debug toggle for lootitem parsing
-WoWPro.DEBUG_LOOTITEM_PARSE = false
+-- Debug toggles
+WoWPro.DEBUG_LOOTITEM_PARSE = false -- Set to true to enable debug output for lootitem tag parsing to verify that item requirements are being read correctly
 
 local function lootitemTableToString(tbl)
     if type(tbl) ~= 'table' then return tostring(tbl) end
@@ -21,6 +21,7 @@ local L = WoWPro_Locale
 WoWPro.actiontypes = {
     A = "Interface\\GossipFrame\\AvailableQuestIcon",
     ["A ELITE"] = "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
+    a = "Interface\\GossipFrame\\AvailableQuestIcon",
     C = "Interface\\Icons\\Ability_DualWield",
     T = "Interface\\GossipFrame\\ActiveQuestIcon",
     t = "Interface\\GossipFrame\\ActiveQuestIcon",
@@ -62,9 +63,9 @@ end
 WoWPro.actionlabels = {
     A = "Accept",
     ["A ELITE"] = "Accept elite quest",
+    a = "Accept (repeatable)",
     C = "Complete",
     T = "Turn in",
-
     t = "Turn in when complete",
     K = "Kill",
     R = "Run to",
@@ -701,6 +702,11 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.action[i] = "T"
         WoWPro.conditional[i] = true
     end
+    if WoWPro.action[i] == "a" then
+        WoWPro.action[i] = "A"
+        WoWPro.repeatable[i] = true
+        WoWPro.repeatablecount = WoWPro.repeatablecount + 1
+    end
     if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
         WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
         WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i], WoWPro.action[i])
@@ -1189,7 +1195,9 @@ function WoWPro.LoadGuideStepsReal()
     for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag] = {}
     end
-    WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+    WoWPro.conditional = {}
+    WoWPro.repeatable = {}
+    WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount, WoWPro.repeatablecount = 0, 0, 0, 0
 
     -- Parsing quests --
     local sequencef = WoWPro.Guides[GID].sequence
