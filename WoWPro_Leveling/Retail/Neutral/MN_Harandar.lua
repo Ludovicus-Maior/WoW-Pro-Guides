@@ -134,9 +134,9 @@ A Nipping the Buds|QID|91086|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'
 A Petal Bristles|QID|91085|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
 C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
 C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Pick these up from the ground or kill the Petalwings.|S|
-C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|U|250919|N|The Well-Worn Ladle is on the platform. Fly over here to start fighting.|
+C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|N|The Well-Worn Ladle is on the platform. Fly over here to start fighting.|
 C Purloining Petals|QID|91065|M|54.56,28.27|Z|2413; Harandar|QO|2|H|N|Across the platform you will find the Pilfered Crafting Drill.|
-C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|U|250919|N|Paint-Speckled Gourd is on the main platform.|
+C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|N|Paint-Speckled Gourd is on the main platform.|
 C Nipping the Buds|QID|91086|M|54.87,31.59|Z|2413; Harandar|QO|2|N|Prime Bloodwarden Kazat is in the building in the middle of the platform.|T|Kazat|
 C Purloining Petals|QID|91065|M|54.90,32.10|Z|2413; Harandar|QO|3|H|N|The Splattered Scroll is behind the building that Kazat was in.|
 C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Finish collecting plumes from the ground or kill the Petalwings until you have enough.|US|
@@ -163,7 +163,7 @@ C Fungal Lashers B Gone|QID|91359|M|68.01,27.29|Z|2413; Harandar|N|Keep killing 
 T Fungal Lashers B Gone|QID|91359|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
 T Weeding Out the Unwanted|QID|91360|M|65.43,28.06|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
 A Back on Duty?|QID|91361|PRE|91359&91360|M|65.43,28.06|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
-C Back on Duty?|QID|91361|M|66.83,25.83|Z|2413; Harandar|QO|1|U|250919|N|Slay Riverscale's favorite feasts.|
+C Back on Duty?|QID|91361|M|66.83,25.83|Z|2413; Harandar|QO|1|N|Slay Riverscale's favorite feasts.|
 T Back on Duty?|QID|91361|M|65.47,28.10|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
 
 ;the hunter awaits
@@ -269,7 +269,7 @@ A Be Grudge You|QID|90615|PRE|93745|M|70.33,52.86|Z|2413; Harandar|N|From Motta.
 t Delver's Call: The Grudge Pit|QID|93421|M|71.77,64.02|Z|2413; Harandar|N|To Boletus.|IZ|The Grudge Pit|
 T Be Grudge You|QID|90615|M|71.81,64.01|Z|2413; Harandar|N|To Boletus.|
 A You Strong?|QID|90616|M|71.81,64.01|Z|2413; Harandar|N|From Boletus.|RANK|2|
-C You Strong?|QID|90616|M|71.98,66.14|Z|2413; Harandar|QO|1|NC|U|250919|N|Demonstrate your abilities.|
+C You Strong?|QID|90616|M|71.98,66.14|Z|2413; Harandar|QO|1|NC|N|Demonstrate your abilities.|
 T You Strong?|QID|90616|M|71.81,64.02|Z|2413; Harandar|N|To Boletus.|
 A A Few Fun Guys|QID|90617|PRE|90616|M|71.81,64.02|Z|2413; Harandar|N|From Boletus.|
 C A Few Fun Guys|QID|90617|M|71.02,67.01|Z|2413; Harandar|QO|2|H|N|Recruits found.|
@@ -282,9 +282,9 @@ T What Doesn't Kill Them|QID|90619|M|72.10,62.81|Z|2413; Harandar|N|To Brakko.|
 A We Ready Now|QID|91450|PRE|90619|M|72.10,62.81|Z|2413; Harandar|N|From Brakko.|
 T We Ready Now|QID|91450|M|71.81,64.03|Z|2413; Harandar|N|To Boletus.|
 A The Most Important Thing|QID|91270|PRE|91450|M|71.85,63.94|Z|2413; Harandar|N|From Tuktuk.|
-C The Most Important Thing|QID|91270|M|71.85,63.94|Z|2413; Harandar|QO|2|CHAT|U|250919|N|Ziny consulted.|
-C The Most Important Thing|QID|91270|M|71.85,63.94|Z|2413; Harandar|QO|3|CHAT|U|250919|N|Tuktuk consulted.|
-C The Most Important Thing|QID|91270|M|71.79,63.95|Z|2413; Harandar|QO|1|CHAT|U|250919|N|Brakko consulted.|
+C The Most Important Thing|QID|91270|M|71.85,63.94|Z|2413; Harandar|QO|2|CHAT|N|Ziny consulted.|
+C The Most Important Thing|QID|91270|M|71.85,63.94|Z|2413; Harandar|QO|3|CHAT|N|Tuktuk consulted.|
+C The Most Important Thing|QID|91270|M|71.79,63.95|Z|2413; Harandar|QO|1|CHAT|N|Brakko consulted.|
 C The Most Important Thing|QID|91270|M|71.80,63.98|Z|2413; Harandar|QO|4|CHAT|N|Talk to Tuktuk to choose Team Name.|
 T The Most Important Thing|QID|91270|M|71.80,63.98|Z|2413; Harandar|N|To Tuktuk.|
 A To the Ring|QID|90620|PRE|91270|M|71.79,64.00|Z|2413; Harandar|N|From Boletus.|
@@ -393,26 +393,6 @@ T Looming Shadows|QID|91084|M|45.33,70.40|Z|2393;Silvermoon City|N|To Lor'themar
 N Sojourner|ACTIVE|91375|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|
 ;verified all the rest of the quests chain starters are available at this point - almost for sure there is room for efficiency in routing still -- it appears none of the quest chains requires the dungeon to have been run before they are available.
 
-;Haramir Never Say Die -- in route to Har'mara
-A A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|N|From Shao'mal.|RANK|2|
-C A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|QO|1|CHAT|N|Talk to Shao'mal.|
-C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3<1|H|N|Find Wenalo near the base of a tree.|
-C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3<2|H|N|Find llomai behind a few tall plants.|
-C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3<3|H|N|Find Shao'mal on a giant fungus shelf.|
-C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3<4|H|N|Find Nayeli at the base of a giant mushroom.|
-T A Game of Silence and Shadow|QID|91550|M|53.87,41.26|Z|2413; Harandar|N|To Nayeli.|
-A De-nest-stration|QID|91551|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-A Feathered Fury|QID|91552|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Slay Petalwings.|S|
-C De-nest-stration|QID|91551|M|55.27,47.51|Z|2413; Harandar|H|N|Destroy Nests.|
-C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Keep killing Petalwings until the step closes.|US|
-T De-nest-stration|QID|91551|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
-T Feathered Fury|QID|91552|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
-A Haranir Never Say Die!|QID|91553|PRE|91552|M|57.27,48.96|Z|2413; Harandar|N|From Nayeli.|RANK|2|
-K Behemoth Petalwing|ACTIVE|91553|M|57.99,50.04|Z|2413; Harandar|QO|1|N|Kill the Behemoth Petalwing.|T|Behemoth Petalwing|
-T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.|
-T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|From Ravi.|RANK|2|
-
 ;Late Bloomers  - In Har'mara
 A Late Bloomers|QID|90537|PRE|86930|M|36.93,26.00|Z|2413; Harandar|N|From Ney'leia.|RANK|2|
 C Late Bloomers|QID|90537|M|48.67,32.06|Z|2413; Harandar|QO|1|I|N|Look for the missing caravan.|
@@ -442,132 +422,158 @@ T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
 A Fresh from the Garden|QID|91585|PRE|86930|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
 A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
 A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
-C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|NC|U|250919|N|Yu'relen's Elixir drunk.|
-C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1|NC|U|250919|N|Frillfish Fillet.|
-C Carcass Cuisine|QID|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|U|250919|N|Sporeglider Bloomterror slain.|
-C Carcass Cuisine|QID|91587|M|39.13,22.87|Z|2413; Harandar|QO|2|NC|U|250919|N|Corpse Rind.|
-C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|QO|1|NC|U|250919|N|Nutrient-Rich Soil.|
-C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|NC|U|250919|N|Root Drift Jelly.|
+C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
+C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1;2|N|Kill and loot Frillfish and Drifters.|S|
+C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Click the mounds of Nutrient-Rich Soil.|S|
+K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|2|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
+C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Keep gathering Nutrient-Rich Soil.|US|
+C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|N|Keep killing Frillfish and Drifters until the step closes.|US|
 T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
 T Soil-Based Alternatives|QID|91586|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
 T Carcass Cuisine|QID|91587|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
 A Harandar's Kitchen|QID|91588|PRE|91585&91586&91587|M|40.86,23.22|Z|2413; Harandar|N|From Yu'relen.|
-C Harandar's Kitchen|QID|91588|M|41.04,23.48|Z|2413; Harandar|QO|3|NC|U|250919|N|Food cooked over campfire.|
-C Harandar's Kitchen|QID|91588|M|40.21,22.70|Z|2413; Harandar|QO|2|NC|U|250919|N|Fish filleted.|
-C Harandar's Kitchen|QID|91588|M|39.70,21.99|Z|2413; Harandar|QO|1|NC|U|250919|N|Salad washed.|
+C Harandar's Kitchen|QID|91588|M|39.70,21.99|Z|2413; Harandar|QO|1|H|N|Click the wash bed at the edge of the waterfall.|
+C Harandar's Kitchen|QID|91588|M|40.21,22.70|Z|2413; Harandar|QO|2|H|N|Click the fish.|
+C Harandar's Kitchen|QID|91588|M|41.04,23.48|Z|2413; Harandar|QO|3|H|N|Click the campfire.|
 T Harandar's Kitchen|QID|91588|M|40.85,23.20|Z|2413; Harandar|N|To Yu'relen.|
 A Root Dash Delivery|QID|91589|PRE|91588|M|40.85,23.20|Z|2413; Harandar|N|From Yu'relen.|
-C Root Dash Delivery|QID|91589|M|40.79,23.19|Z|2413; Harandar|QO|1|NC|U|250919|N|Pick up Delivery.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|4|NC|U|250919|N|Ribs served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|5|NC|U|250919|N|Nutrient-Rich Dirt served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|2|NC|U|250919|N|Salad served.|
-C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|NC|U|250919|N|Fish served.|
+C Root Dash Delivery|QID|91589|M|40.79,23.19|Z|2413; Harandar|QO|1|H|N|Pick up Delivery.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|4|H|N|Serve the Ribs.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|5|H|N|Serve the Nutrient-Rich Dirt.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|2|H|N|Serve the Salad.|
+C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|H|N|Serve the Fish.|
 T Root Dash Delivery|QID|91589|M|36.67,26.79|Z|2413; Harandar|N|To Yu'relen.|
 
 ;Cultivating Hope
 A The Former Rootwarden|QID|91872|PRE|86930|M|34.91,25.02|Z|2413; Harandar|N|From Hagar.|RANK|2|
 T The Former Rootwarden|QID|91872|M|42.54,34.07|Z|2413; Harandar|N|To Hagar.|
 A Buffer Zone|QID|91873|PRE|91872|M|42.54,34.07|Z|2413; Harandar|N|From Hagar.|
-C Buffer Zone|QID|91873|M|40.57,31.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Shrine protected.|
+C Buffer Zone|QID|91873|M|40.57,31.40|Z|2413; Harandar|N|Kill the hostile mobs around the island.|
 T Buffer Zone|QID|91873|M|42.28,34.10|Z|2413; Harandar|N|To Hagar.|
 A Natural Remedy|QID|91875|PRE|91873|M|42.28,34.10|Z|2413; Harandar|N|From Hagar.|
-C Natural Remedy|QID|91875|M|42.07,38.12|Z|2413; Harandar|QO|1|NC|U|250919|N|Verdant Stalker Sludge.|
+C Natural Remedy|QID|91875|M|42.07,38.12|Z|2413; Harandar|N|Kill and loot Wandering Stalkers.|
 T Natural Remedy|QID|91875|M|42.47,34.38|Z|2413; Harandar|N|To Hagar.|
 A Flare Up|QID|91874|PRE|91875|M|42.47,34.38|Z|2413; Harandar|N|From Hagar.|
-C Flare Up|QID|91874|M|34.02,46.35|Z|2413; Harandar|QO|1|NC|U|250919|N|Smoldering Fires doused.|
+C Flare Up|QID|91874|M|34.02,46.35|Z|2413; Harandar|I|N|Fly near the burning places on the roots in the marked area.|
 T Flare Up|QID|91874|M|42.55,33.67|Z|2413; Harandar|N|To Hagar.|
 A Tending Hope|QID|91876|PRE|91874|M|42.55,33.67|Z|2413; Harandar|N|From Hagar.|
-C Tending Hope|QID|91876|M|42.49,34.40|Z|2413; Harandar|QO|1|NC|U|250919|N|Hagar's salve applied.|
+C Tending Hope|QID|91876|M|42.49,34.40|Z|2413; Harandar|H|N|Apply the salve to the roots near you on the island (not where you were flying putting out fires).|
 T Tending Hope|QID|91876|M|42.52,33.87|Z|2413; Harandar|N|To Hagar.|
 
-;Bloomtown
-A Light Disturbance|QID|92732|PRE|92448|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
-T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
-A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
-C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1|NC|U|250919|N|First Clue Found.|
-C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|2|NC|U|250919|N|Second Clue Found.|
-C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|3|NC|U|250919|N|Third Clue Found.|
-C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|4|NC|U|250919|N|Fourth Clue Found.|
-T Light Stroll|QID|92736|M|41.67,67.74|Z|2413; Harandar|N|To Hannan.|
-A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
-A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
-C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|QO|1|NC|U|250919|N|Lightspored Potadpole gathered.|
-C Light Carnage|QID|92737|M|39.08,71.74|Z|2413; Harandar|QO|1|U|250919|N|Lightfrenzied Potatoad slain.|
-T Light Carnage|QID|92737|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
-T Potatoad Tots|QID|92738|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
-A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From Hannan.|
-C O.K. Bloomer|QID|92739|M|36.09,74.07|Z|2413; Harandar|QO|1|U|250919|N|Adzikel slain.|
-T O.K. Bloomer|QID|92739|M|31.43,64.95|Z|2413;Har'alnor Den|N|To Hannan.|
-
-;The Silence at Fungara Village
-T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To Hannan.|;must wait till after finishing campaign
-A The Silence at Fungara Village|QID|91375|M|33.38,66.66|Z|2413; Harandar|N|From Ghikal.|RANK|2|
-T The Silence at Fungara Village|QID|91375|M|43.90,71.75|Z|2413; Harandar|N|To Ghikal.|
-A Little Monsters|QID|91376|PRE|91375|M|43.90,71.75|Z|2413; Harandar|N|From Ghikal.|
-C Spawn of the Dead|QID|91377|M|45.19,69.42|Z|2413; Harandar|QO|1|NC|U|250919|N|Blooming Corpses investigated.|
-C Little Monsters|QID|91376|M|45.03,69.21|Z|2413; Harandar|QO|1|NC|U|250919|N|Strange Mycelium.|
-T Little Monsters|QID|91376|M|44.15,66.47|Z|2413; Harandar|N|To Ghikal.|
-T Spawn of the Dead|QID|91377|M|44.15,66.47|Z|2413; Harandar|N|To Ghikal.|
-A You Are Legend|QID|91378|PRE|91376&91377|M|44.15,66.47|Z|2413; Harandar|N|From Ghikal.|
-A Decayed Land|QID|91379|PRE|91376&91377|M|44.15,66.47|Z|2413; Harandar|N|From Ghikal.|
-C Decayed Land|QID|91379|M|42.72,65.77|Z|2413; Harandar|QO|1|NC|U|250919|N|Fruiting Mycelium destroyed.|
-C You Are Legend|QID|91378|M|42.85,67.23|Z|2413; Harandar|QO|1|U|250919|N|Decanimated creatures slain.|
-T You Are Legend|QID|91378|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
-T Decayed Land|QID|91379|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
-A Reticent Evil|QID|91381|PRE|91378&91379|M|44.12,66.42|Z|2413; Harandar|N|From Ghikal.|
-C Reticent Evil|QID|91381|M|45.71,66.81|Z|2413; Harandar|QO|1|NC|U|250919|N|Agericus Decanimatus destroyed.|
-C Reticent Evil|QID|91381|M|45.66,66.85|Z|2413; Harandar|QO|2|U|250919|N|Zombified Guardian slain.|
-T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
+;Haramir Never Say Die -- in route from Har'mara
+A A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|N|From Shao'mal.|RANK|2|
+C A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|QO|1|CHAT|N|Talk to Shao'mal.|
+C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3<1|H|N|Find Wenalo near the base of a tree.|
+C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3<2|H|N|Find llomai behind a few tall plants.|
+C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3<3|H|N|Find Shao'mal on a giant fungus shelf.|
+C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3<4|H|N|Find Nayeli at the base of a giant mushroom.|
+T A Game of Silence and Shadow|QID|91550|M|53.87,41.26|Z|2413; Harandar|N|To Nayeli.|
+A De-nest-stration|QID|91551|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+A Feathered Fury|QID|91552|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Slay Petalwings.|S|
+C De-nest-stration|QID|91551|M|55.27,47.51|Z|2413; Harandar|H|N|Destroy Nests.|
+C Feathered Fury|QID|91552|M|55.36,47.42|Z|2413; Harandar|N|Keep killing Petalwings until the step closes.|US|
+T De-nest-stration|QID|91551|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
+T Feathered Fury|QID|91552|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
+A Haranir Never Say Die!|QID|91553|PRE|91552|M|57.27,48.96|Z|2413; Harandar|N|From Nayeli.|RANK|2|
+K Behemoth Petalwing|ACTIVE|91553|M|57.99,50.04|Z|2413; Harandar|QO|1|N|Kill the Behemoth Petalwing.|T|Behemoth Petalwing|
+T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.|
+T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|From Ravi.|RANK|2|
 
 ;A Goblin in Harandar
 A Go Get Orweyna!|QID|90533|M|47.12,45.76|Z|2413; Harandar|N|From Monte Gazlowe.|RANK|2|
-C Go Get Orweyna!|QID|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|NC|U|241125|N|Acquire Handcrafted Plush for Nahuut.|
-C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|3|NC|U|241125|N|Offer Handcrafted Plush to Nahuut.|
+B Hand Crafted Plushie|ACTIVE|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|NC|U|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
+C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|3|H|U|241125|N|Offer Handcrafted Plush to Nahuut.|
 T Go Get Orweyna!|QID|90533|M|47.13,45.72|Z|2413; Harandar|N|To Orweyna.|
 A The Home of the Haranir|QID|90534|PRE|90533|M|47.13,45.72|Z|2413; Harandar|N|From Orweyna.|
-C The Home of the Haranir|QID|90534|M|51.85,50.45|Z|2413; Harandar|QO|1|NC|U|250919|N|Press the Button on Gazlowe's Shredder.|
-C The Home of the Haranir|QID|90534|M|52.67,56.59|Z|2413; Harandar|QO|2|NC|U|250919|N|Pick up Hand Claws.|
-C The Home of the Haranir|QID|90534|M|53.50,54.10|Z|2413; Harandar|QO|3|NC|U|250919|N|Try the Tasty Mushroom Soup.|
-T The Home of the Haranir|QID|90534|M|51.26,49.47|Z|2413; Harandar|N|To Monte Gazlowe.|
-A Leave Your Mark|QID|90535|PRE|90534|M|51.28,49.46|Z|2413; Harandar|N|From Orweyna.|
-C Leave Your Mark|QID|90535|M|51.29,49.51|Z|2413; Harandar|QO|1|NC|U|250919|N|Apply Paint.|
-C Leave Your Mark|QID|90535|M|51.32,49.50|Z|2413; Harandar|QO|2|NC|U|250919|N|Leave Paint Mark.|
-T Leave Your Mark|QID|90535|M|51.32,49.50|Z|2413; Harandar|N|To Orweyna.|
+C The Home of the Haranir|QID|90534|M|51.85,50.45|Z|2413; Harandar|QO|1|H|N|Press the Button on Gazlowe's Shredder.|
+C The Home of the Haranir|QID|90534|M|45.80,79.63|Z|2576; The Den|QO|2|H|N|Pick up Hand Claws from the weapons rack in The Den.|
+C The Home of the Haranir|QID|90534|M|65.86,59.77|Z|2576; The Den|QO|3|H|N|Go deeper into The Den to try the Tasty Mushroom Soup.|
+T The Home of the Haranir|QID|90534|M|47.94,22.70|Z|2576; The Den|N|Monte Gazlowe and Orwenya can be found back up towards the top, but still inside The Den.|
+A Leave Your Mark|QID|90535|PRE|90534|M|47.98,22.28|Z|2576; The Den|N|From Orweyna.|
+C Leave Your Mark|QID|90535|M|48.02,23.28|Z|2576; The Den|QO|1|H|N|Click the paint pot on the ground.|
+C Leave Your Mark|QID|90535|M|48.02,23.28|Z|2576; The Den|QO|2|H|N|Click the wall and leave your mark.|
+T Leave Your Mark|QID|90535|M|47.98,22.28|Z|2576; The Den|N|To Orweyna.|
 
 ;Trials of the Shul'ka
 A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua.|RANK|2|
 T My Brother's Alive!|QID|90824|M|43.09,61.41|Z|2413; Harandar|N|To En'liahn.|
 A The Healing Waters of Ahl'ua|QID|90826|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
 A Only the Poisonous Parts|QID|90827|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
-C Only the Poisonous Parts|QID|90827|M|40.36,54.86|Z|2413; Harandar|QO|1|NC|U|250919|N|Phytogenic Poison Part.|
-C The Healing Waters of Ahl'ua|QID|90826|M|39.72,53.08|Z|2413; Harandar|QO|1|NC|U|250919|N|Healing Waters of Ahl'ua.|
+C Only the Poisonous Parts|QID|90827|M|40.36,54.86|Z|2413; Harandar|N|Kill and loot creatures in the area to get the Phytogenic Poison Parts.|S|
+C The Healing Waters of Ahl'ua|QID|90826|M|39.72,53.08|Z|2413; Harandar|H|N|Click the waterspouts to collect Healing Waters of Ahl'ua.|
+C Only the Poisonous Parts|QID|90827|M|40.36,54.86|Z|2413; Harandar|N|Kill and loot creatures in the area to get the Phytogenic Poison Parts.|US|
 T The Healing Waters of Ahl'ua|QID|90826|M|43.06,61.37|Z|2413; Harandar|N|To En'liahn.|
 T Only the Poisonous Parts|QID|90827|M|43.06,61.37|Z|2413; Harandar|N|To En'liahn.|
 A Meeting My Mentor|QID|90829|PRE|90826&90827|M|43.06,61.37|Z|2413; Harandar|N|From En'liahn.|
 T Meeting My Mentor|QID|90829|M|63.88,54.64|Z|2413; Harandar|N|To En'liahn.|
 A The Path Will Reveal Itself|QID|90830|PRE|90829|M|63.88,54.64|Z|2413; Harandar|N|From En'liahn.|
+C The Path Will Reveal Itself|QID|90830|M|63.88,54.64|Z|2413; Harandar|QO|1|CHAT|N|Speak with En'liahn.|
 A Doing Is Becoming|QID|90831|PRE|90829|M|63.88,54.64|Z|2413; Harandar|N|From Amarakk.|
-C The Path Will Reveal Itself|QID|90830|M|63.88,54.64|Z|2413; Harandar|QO|1|CHAT|U|250919|N|Speak with En'liahn.|
-C The Path Will Reveal Itself|QID|90830|M|63.04,54.95|Z|2413; Harandar|QO|2|NC|U|250919|N|First Guide found.|
-C The Path Will Reveal Itself|QID|90830|M|65.88,58.48|Z|2413; Harandar|QO|3|NC|U|250919|N|Second Guide found.|
-C The Path Will Reveal Itself|QID|90830|M|64.51,58.50|Z|2413; Harandar|QO|4|NC|U|250919|N|Third Guide found.|
-C The Path Will Reveal Itself|QID|90830|M|62.58,58.87|Z|2413; Harandar|QO|5|NC|U|250919|N|Fourth Guide found.|
-C The Path Will Reveal Itself|QID|90830|M|61.94,59.77|Z|2413; Harandar|QO|6|NC|U|250919|N|Fifth Guide found.|
-C The Path Will Reveal Itself|QID|90830|M|63.47,60.11|Z|2413; Harandar|QO|7|NC|U|250919|N|Final Guide found.|
-C Doing Is Becoming|QID|90831|M|63.60,59.86|Z|2413; Harandar|QO|1|NC|U|250919|N|Disrupt the Rift of Aln.|
+C Doing Is Becoming|QID|90831|M|63.60,59.86|Z|2413; Harandar|N|Close Tears and kill creatures to disrupt the Rift of Aln.|S|
+C The Path Will Reveal Itself|QID|90830|M|63.04,54.95|Z|2413; Harandar|QO|2|I|N|Find First Guide.|
+C The Path Will Reveal Itself|QID|90830|M|65.88,58.48|Z|2413; Harandar|QO|3|I|N|Find Second Guide.|
+C The Path Will Reveal Itself|QID|90830|M|64.51,58.50|Z|2413; Harandar|QO|4|I|N|Find Third Guide.|
+C The Path Will Reveal Itself|QID|90830|M|62.58,58.87|Z|2413; Harandar|QO|5|I|N|Find Fourth Guide.|
+C The Path Will Reveal Itself|QID|90830|M|61.94,59.77|Z|2413; Harandar|QO|6|I|N|Find Fifth Guide.|
+C The Path Will Reveal Itself|QID|90830|M|63.47,60.11|Z|2413; Harandar|QO|7|I|N|Find Final Guide.|
+C Doing Is Becoming|QID|90831|M|63.60,59.86|Z|2413; Harandar|N|Disrupt the Rift of Aln.|US|
 T The Path Will Reveal Itself|QID|90830|M|62.92,62.32|Z|2413; Harandar|N|To Amarakk.|
 T Doing Is Becoming|QID|90831|M|62.92,62.32|Z|2413; Harandar|N|To Amarakk.|
 A As Her Voice Goes Silent|QID|90832|PRE|90830&90831|M|62.92,62.32|Z|2413; Harandar|N|From Amarakk.|
-C As Her Voice Goes Silent|QID|90832|M|62.95,62.05|Z|2413; Harandar|QO|1|NC|U|250919|N|Shul'ka Wards placed.|
-C As Her Voice Goes Silent|QID|90832|M|62.94,62.29|Z|2413; Harandar|QO|2|NC|U|250919|N|Ritual of Severing begun.|
-C As Her Voice Goes Silent|QID|90832|M|62.94,62.31|Z|2413; Harandar|QO|3|NC|U|250919|N|Ritual of Severing completed.|
+C As Her Voice Goes Silent|QID|90832|M|62.95,62.05|Z|2413; Harandar|QO|1|H|N|Click the two banners.|
+C As Her Voice Goes Silent|QID|90832|M|62.94,62.29|Z|2413; Harandar|QO|2|CHAT|N|Tell En'liahn you are ready.|
+C As Her Voice Goes Silent|QID|90832|M|62.94,62.31|Z|2413; Harandar|QO|3|NC|N|You will be in a vehicle UI, shoot at the amassed mobs until it completes.|
 T As Her Voice Goes Silent|QID|90832|M|62.94,62.31|Z|2413; Harandar|N|To Amarakk.|
 A The Final Rite|QID|90833|PRE|90832|M|62.94,62.31|Z|2413; Harandar|N|From Amarakk.|
-C The Final Rite|QID|90833|M|61.04,60.61|Z|2413; Harandar|QO|1|NC|U|250919|N|Let En'liahn know you're ready.|
-C The Final Rite|QID|90833|M|60.96,60.57|Z|2413; Harandar|QO|2|U|250919|N|Morta'ka the Sundered Echo slain.|
+C The Final Rite|QID|90833|M|61.37,60.51;61.01,60.66|CS|Z|2413; Harandar|QO|1|CHAT|N|Let En'liahn know you're ready.|
+C The Final Rite|QID|90833|M|60.96,60.57|Z|2413; Harandar|QO|2|N|Slay Morta'ka the Sundered Echo.|
 T The Final Rite|QID|90833|M|61.58,60.16|Z|2413; Harandar|N|To En'liahn.|
 A From This Point Forward|QID|90834|PRE|90833|M|61.58,60.16|Z|2413; Harandar|N|From En'liahn.|
 T From This Point Forward|QID|90834|M|63.83,54.71|Z|2413; Harandar|N|To En'liahn.|
+;you are near Hara'thir now. it might be a good place if you wanted to move those quests
 
+;Bloomtown
+A Light Disturbance|QID|92732|PRE|92448|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
+T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
+A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
+C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1<1|I|N|Find First Clue.|
+C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|1<2|I|N|Find Second Clue.|
+C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|1<3|I|N|Find Third Clue.|
+C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|1<4|I|N|Find Fourth Clue.|
+T Light Stroll|QID|92736|M|41.67,67.74|Z|2413; Harandar|N|To Hannan.|
+A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
+A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
+C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|H|N|Gather Lightspored Potadpole.|S|
+C Light Carnage|QID|92737|M|39.08,71.74|Z|2413; Harandar|N|Slay Lightfrenzied Potatoad.|
+C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|H|N|Gather Lightspored Potadpole.|S|
+T Light Carnage|QID|92737|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
+T Potatoad Tots|QID|92738|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
+A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From Hannan.|
+K Adzikel|ACTIVE|92739|M|36.09,74.07|Z|2413; Harandar|QO|1|N|Slay Adzikel.|T|Adzikel|
+
+;The Silence at Fungara Village
+T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To Hannan.|;must wait till after finishing campaign
+A The Silence at Fungara Village|QID|91375|M|33.38,66.66|Z|2413; Harandar|N|From Ghikal.|RANK|2|
+T The Silence at Fungara Village|QID|91375|M|43.90,71.75|Z|2413; Harandar|N|To Ghikal.|
+A Little Monsters|QID|91376|PRE|91375|M|43.90,71.75|Z|2413; Harandar|N|From Ghikal.|
+C Little Monsters|QID|91376|M|45.03,69.21|Z|2413; Harandar|N|Kill and loot the mushroom men for Strange Mycelium.|S|
+C Spawn of the Dead|QID|91377|M|45.19,69.42|Z|2413; Harandar|H|N|Investigate Blooming Corpses.|
+C Little Monsters|QID|91376|M|45.03,69.21|Z|2413; Harandar|H|N|Keep killing zombified mushroommen 'till you have enough Strange Mycelium.|US|
+T Little Monsters|QID|91376|M|44.15,66.47|Z|2413; Harandar|N|To Ghikal.|
+T Spawn of the Dead|QID|91377|M|44.15,66.47|Z|2413; Harandar|N|To Ghikal.|
+A You Are Legend|QID|91378|PRE|91376&91377|M|44.15,66.47|Z|2413; Harandar|N|From Ghikal.|
+A Decayed Land|QID|91379|PRE|91376&91377|M|44.15,66.47|Z|2413; Harandar|N|From Ghikal.|
+C You Are Legend|QID|91378|M|42.85,67.23|Z|2413; Harandar|N|Decanimated creatures slain.|S|
+C Decayed Land|QID|91379|M|42.72,65.77|Z|2413; Harandar|H|N|Fruiting Mycelium destroyed.|
+C You Are Legend|QID|91378|M|42.85,67.23|Z|2413; Harandar|N|Decanimated creatures slain.|US|
+T You Are Legend|QID|91378|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
+T Decayed Land|QID|91379|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
+A Reticent Evil|QID|91381|PRE|91378&91379|M|44.12,66.42|Z|2413; Harandar|N|From Ghikal.|
+C Reticent Evil|QID|91381|M|45.71,66.81|Z|2413; Harandar|QO|1|NC|N|Destroy Agericus Decanimatus.|
+C Reticent Evil|QID|91381|M|45.66,66.85|Z|2413; Harandar|QO|2|N|Slay Zombified Guardian.|
+T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
+
+T O.K. Bloomer|QID|92739|M|31.39,64.97|Z|2413; Harandar|N|To Hannan.|
 ]]
 end)
