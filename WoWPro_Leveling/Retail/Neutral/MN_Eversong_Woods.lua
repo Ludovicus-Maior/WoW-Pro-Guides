@@ -74,6 +74,7 @@ A Murder Row: Rumors Abound|QID|90835|PRE|86734|M|55.90,63.79|Z|2393; Silvermoon
 C Paved in Ash|QID|86735|M|60.05,70.16|Z|2393; Silvermoon City|QO|6|CHAT|N|Check in with Guard Captain Goldblade.|
 C Paved in Ash|QID|86736|M|69.11,67.51|Z|2393; Silvermoon City|QO|6|CHAT|N|Check in with Magistrix Nizara.|
 C Paved in Ash|QID|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|QO|1|CHAT|N|Talk to the innkeeper to check in at Wayfarer's Rest.|
+h Innkeeper|ACTIVE|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|N|Consider setting your hearthstone here, Dornagal's not so convenient anymore.|
 C Paved in Ash|QID|86735^86736|M|52.48,78.10|Z|2393; Silvermoon City|QO|5|CHAT|N|Talk to Valeera Sanguinar to check in with the Reliquary.|
 T Paved in Ash|QID|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 A Fair Breeze, Light Bloom|QID|86737|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
