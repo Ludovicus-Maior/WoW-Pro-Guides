@@ -69,7 +69,6 @@ C Paved in Ash|QID|86735^86736|M|45.64,63.03|Z|2393; Silvermoon City|QO|7|CHAT|N
 C Paved in Ash|QID|86735^86736|M|50.79,65.18|Z|2393; Silvermoon City|QO|4|CHAT|N|Check in with the head bank teller.|
 f Sanctum of Light|ACTIVE|86735|M|50.99,71.09|Z|2393; Silvermoon City|N|From Skymaster Skyies.|
 C Paved in Ash|QID|86735^86736|M|51.06,71.07|Z|2393; Silvermoon City|QO|3|CHAT|N|Speak with the Skymaster of Silvermoon.|
-;A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|;was here on first run through, couldnt find it again.
 C Paved in Ash|QID|86735^86736|M|52.65,65.34|Z|2393; Silvermoon City|QO|2|CHAT|N|Talk to Magistrix Narinth to check on the portal network.|
 A Murder Row: Rumors Abound|QID|90835|PRE|86734|M|55.90,63.79|Z|2393; Silvermoon City|N|From Avara.|RANK|2|
 C Paved in Ash|QID|86735|M|60.05,70.16|Z|2393; Silvermoon City|QO|6|CHAT|N|Check in with Guard Captain Goldblade.|
@@ -107,13 +106,6 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|Q
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
 t Murder Row: One Fel Swoop|QID|90822|Z|2434|N|To Belath Dawnblade.|IZ|Silvermoon City|
-
-
-
-
-
-
-
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|
 C Mad to Measure|QID|91386|M|48.66,54.48|Z|2393; Silvermoon City|QO|1|H|N|Fabric Shears fetched.|
 C Mad to Measure|QID|91386|M|48.92,54.15|Z|2393; Silvermoon City|QO|2|H|N|Plush Velour fetched.|
@@ -591,5 +583,80 @@ T Pet Wranglin'|QID|93965|M|41.75,76.41|Z|2393; Silvermoon City|N|To Hawkrancher
 C Fractured|QID|86650|M|45.44,70.36|Z|2393; Silvermoon City|N|Speak to Lor'themar.|CHAT|
 T Fractured|QID|86650|M|45.44,70.36|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 
+;Paladin Rescue
+A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|LVL|90| ;or maybe it's finishing something in zul'aman 
+
+;One Adventurous Hatchling
+A One Adventurous Hatchling|QID|89383|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+A A Hungry Flock|QID|89384|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+A A Roost-ed Development|QID|89386|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+C One Adventurous Hatchling|QID|89383|M|53.67,35.22|Z|2395; Eversong Woods|H|N|Click the Hatchling sitting in the middle of the table.|
+C A Hungry Flock|QID|89384|M|53.58,35.51|Z|2395; Eversong Woods|N|Kill the Toads and loot thier legs.|S|
+C A Roost-ed Development|QID|89386|M|53.58,35.51|Z|2395; Eversong Woods|H|N|Gather the glowing plants around the pond.|
+C A Hungry Flock|QID|89384|M|53.58,35.51|Z|2395; Eversong Woods|N|Kill the Toads and loot thier legs.|US|
+T One Adventurous Hatchling|QID|89383|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
+T A Hungry Flock|QID|89384|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
+T A Roost-ed Development|QID|89386|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
+A First Step Into Parenthood Complete|QID|89385|PRE|89383&89384&89386|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+T First Step Into Parenthood Complete|QID|89385|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume. Congratulations, you have an egg that will hatch in 24 hours.|
+
+;Runestone Rumbles -- probably could be a lot earlier need to check on that
+A Calling in the Cavalry|QID|92396|M|50.13,34.22|Z|2395; Eversong Woods|N|From Terel Bloodfate.|
+C Calling in the Cavalry|QID|92396|QO|1|M|50.11,34.28|Z|2395; Eversong Woods|H|N|Pick up the crate of supplies.|
+C Calling in the Cavalry|QID|92396|QO|2|M|39.30,56.72|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
+C Calling in the Cavalry|QID|92396|QO|3|M|53.36,54.26|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
+C Calling in the Cavalry|QID|92396|QO|4|M|61.58,62.70|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
+T Calling in the Cavalry|QID|92396|M|61.74,62.88|Z|2395; Eversong Woods|N|To Alesil Dawnblood.|
+A Dawnstar Defense|QID|92397|PRE|92396|M|61.74,62.88|Z|2395; Eversong Woods|N|From Alesil Dawnblood.|
+C Dawnstar Defense|QID|92397|M|61.74,62.88|Z|2395; Eversong Woods|H|N|Click all the barricades and other defenses around the area.|
+T Dawnstar Defense|QID|92397|M|61.74,62.88|Z|2395; Eversong Woods|N|To Alesil Dawnblood.|
+A And Then They Came|QID|92398|PRE|92397|M|61.74,62.88|Z|2395; Eversong Woods|N|From Alesil Dawnblood.|
+C And Then They Came|QID|92398|QO|1|M|60.71,62.38|Z|2395; Eversong Woods|CHAT|N|Let Alesil know you are ready.|
+C And Then They Came|QID|92398|QO|2|M|60.71,62.38|Z|2395; Eversong Woods|N|Kill the mobs that show up.|
+T And Then They Came|QID|92398|M|61.74,62.87|Z|2395; Eversong Woods|N|To Alesil Dawnblood.|
+
+T Missing Paladins|QID|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
+A Signs of the Struggle|QID|90549|PRE|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+A Twilight Missive|QID|90548|PRE|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+C Signs of the Struggle|QID|90549|S|M|42.90,68.54|Z|2395; Eversong Woods|H|N|Pick up the discarded weapons around the area.|
+C Twilight Missive|QID|90548|S|M|42.90,68.54|Z|2395; Eversong Woods|N|Kill and loot the twilight mobs.|
+A A Somber Sun|QID|90550|PRE|90546|M|43.31,69.78|Z|2395; Eversong Woods|N|From the mangled corpse of Crusader Sombersun.|
+C Twilight Missive|QID|90548|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue picking up discarded weapons.|
+C Signs of the Struggle|QID|90549|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue killing twilight cultists until you find enough evidence.|
+T Signs of the Struggle|QID|90549|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
+T Twilight Missive|QID|90548|M|44.06,66.98|Z|2395; Eversong Woods|N|To Salandria.|
+T A Somber Sun|QID|90550|M|44.06,66.98|Z|2395; Eversong Woods|N|To Salandria.|
+A Captured Information|QID|90551|PRE|90548&90549&90550|M|44.06,66.98|Z|2395; Eversong Woods|N|From Salandria.|
+C Captured Information|QID|90551|M|42.19,69.32|Z|2395; Eversong Woods|N|Attack the Isolated Shadecaster, until he becomes non-hostile (~30% health remaining) then click on him to capture.|T|Isolated Shadecaster|
+C Captured Information|QID|90551|M|41.58,72.16|Z|2395; Eversong Woods|I|N|Take him to Hollow Grove, which is right behind Sanctum of the Moon.|
+T Captured Information|QID|90551|M|41.58,72.16|Z|2395; Eversong Woods|N|To Salandria.|
+A Interrogation|QID|90552|PRE|90551|M|41.58,72.16|Z|2395; Eversong Woods|N|From Salandria.|
+C Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|CHAT|N|Let Salandria know you are ready.|
+C Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|N|Your top row of your action bar has changed, it doesn't seem to matter which option you choose, just keep hitting, 1, 2 or 3 until he talks.|
+T Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|N|To Salandria.|
+A To the Ruins of Deatholme|QID|90570|PRE|90552|M|41.63,72.21|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+T To the Ruins of Deatholme|QID|90570|M|44.40,81.22|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
+A Blessing of Freedom|QID|90555|PRE|90570|M|44.40,81.22|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+A Executing the Blades|QID|90553|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|
+A Leave Ashes in Your Wake|QID|90554|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|
+C Executing the Blades|QID|90553|M|44.00,83.49|Z|2395; Eversong Woods|S|N|Kill Cultists (like you have a choice).|
+C Leave Ashes in Your Wake|QID|90554|M|44.00,83.49|Z|2395; Eversong Woods|S|N|Wreak the camp as you look for the prisoners.|
+C Blessing of Freedom|QID|90555|QO|1|M|41.85,82.93|Z|2395; Eversong Woods|N|Rescue Sunwalker Athomo.|
+C Blessing of Freedom|QID|90555|QO|2|M|42.17,83.73|Z|2395; Eversong Woods|N|Rescue Archivist Colin.|
+C Blessing of Freedom|QID|90555|QO|4|M|41.27,85.90|Z|2395; Eversong Woods|N|Rescue Crusader Lightspear.|
+C Blessing of Freedom|QID|90555|QO|6|M|43.36,85.79|Z|2395; Eversong Woods|N|Rescue Crusader Whitney.|
+C Blessing of Freedom|QID|90555|QO|5|M|41.73,86.41;41.62,86.25|CS|Z|2395; Eversong Woods|N|Rescue Crusader Newbery inside the underground cavern.|
+C Blessing of Freedom|QID|90555|QO|3|M|42.32,85.11|Z|2395; Eversong Woods|N|Rescue Crusader Flaresong also in the underground cavern.|
+C Blessing of Freedom|QID|90555|QO|9|M|42.32,85.11|Z|2395; Eversong Woods|N|Rescue Crusader Dawnheart.|
+C Blessing of Freedom|QID|90555|QO|8|M|44.08,88.42|Z|2395; Eversong Woods|N|Head back up topside to Rescue Motega Firemane.|
+C Blessing of Freedom|QID|90555|QO|7|M|45.19,87.46|Z|2395; Eversong Woods|N|Rescue Bloodknight Ithelis.|
+C Leave Ashes in Your Wake|QID|90554|M|44.00,83.49|Z|2395; Eversong Woods|US|N|Make sure the camp is totally wrecked.|
+C Executing the Blades|QID|90553|M|44.00,83.49|Z|2395; Eversong Woods|US|N|Finish your quota of cultists.|
+T Blessing of Freedom|QID|90555|M|PLAYER|N|To Taelia Fordragon.|
+T Leave Ashes in Your Wake|QID|90554|M|PLAYER|N|To Salandria.|
+T Executing the Blades|QID|90553|M|PLAYER|N|To Salandria.|
+A Cutting off the Head|QID|90556|PRE|90553&90554&90555|M|PLAYER|N|From Salandria.|
+C Cutting off the Head|QID|90556|M|41.32,88.50|Z|2395; Eversong Woods|N|Slay Overseer Mognak. (not underground)|T|Overseer Mognak|
+T Cutting off the Head|QID|90556|M|44.39,81.36|Z|2395; Eversong Woods|N|To Salandria.|
 ]]
 end)
