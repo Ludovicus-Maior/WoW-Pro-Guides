@@ -30,30 +30,8 @@ end
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
-local SHOW_MINIMAP_MENU = true
-local SHOW_WORLDMAP_MENU = true
 local SHOW_MINIMAP_TOOLTIP = true
 local SHOW_WORLDMAP_TOOLTIP = true
-
--- WoWPro customized callback functions for TomTom --
-
--- Function to customize the drop-down menu when right-clicking
--- the TomTom waypoint on the minimap
-local function WoWProMapping_minimap_onclick(event, uid, self, button)
-    if SHOW_MINIMAP_MENU then
-        TomTom:InitializeDropdown(uid)
-        _G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
-    end
-end
-
--- Function to customize the drop-down menu when right-clicking
--- the TomTom waypoint on the world map
-local function WoWProMapping_worldmap_onclick(event, uid, self, button)
-    if SHOW_WORLDMAP_MENU then
-        TomTom:InitializeDropdown(uid)
-        _G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
-    end
-end
 
 -- Function to customize the tooltip when mouse-over the TomTom waypoint,
 -- can be called by both minimap and world map tooltip functions
@@ -194,12 +172,10 @@ end
 -- table with custom callback functions to use in TomTom
 local WoWProMapping_callbacks_tomtom = {
             minimap = {
-                onclick = WoWProMapping_minimap_onclick,
                 tooltip_show = WoWProMapping_tooltip_minimap,
                 tooltip_update = WoWProMapping_tooltip_update_both,
             },
             world = {
-                onclick = WoWProMapping_worldmap_onclick,
                 tooltip_show = WoWProMapping_tooltip_worldmap,
                 tooltip_update = WoWProMapping_tooltip_update_both,
             },
