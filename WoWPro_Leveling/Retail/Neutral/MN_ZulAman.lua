@@ -568,15 +568,20 @@ T Dirty Deeps|QID|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|To Dak'zor.|
 A Send Dem Home|QID|91835|PRE|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
 A Respect De Totem|QID|91836|PRE|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
 A De Vile Diminished|QID|91838|PRE|91833|M|44.87,36.53|Z|2437; Zul'Aman|RANK|2|
-C Respect De Totem|QID|91836|M|47.24,39.89|Z|2437; Zul'Aman|QO|1|NC|N|Totem Remnant.|
-C Send Dem Home|QID|91835|M|47.24,39.58|Z|2437; Zul'Aman|QO|1|NC|U|248745|N|Witherbark Prisoner freed.|
-C De Vile Diminished|QID|91838|M|45.50,42.21|Z|2437; Zul'Aman|QO|1|NC|N|Destroy Vile Orb.|
-T Send Dem Home|QID|91835|M|45.52,42.24|Z|2437; Zul'Aman|N|To Dak'zor.|
-T Respect De Totem|QID|91836|M|45.52,42.24|Z|2437; Zul'Aman|N|To Dak'zor.|
+C Respect De Totem|QID|91836|M|47.24,39.89|Z|2437; Zul'Aman|N|Kill and loot most everything in the area to get the totem remnants.|S|
+C Send Dem Home|QID|91835|M|47.24,39.58|Z|2437; Zul'Aman|H|U|248745|N|Free Witherbark Prisoners.|S|
+C De Vile Diminished|QID|91838|M|45.50,42.21|Z|2437; Zul'Aman|H|N|Click on the Vile Orbs to destroy them.|
+C Send Dem Home|QID|91835|M|47.24,39.58|Z|2437; Zul'Aman|H|U|248745|N|Free Witherbark Prisoners.|US|
+C Respect De Totem|QID|91836|M|47.24,39.89|Z|2437; Zul'Aman|N|Kill and loot most everything in the area to get the totem remnants.|US|
+T Send Dem Home|QID|91835|M|PLAYER|Z|2437; Zul'Aman|N|To Dak'zor.|
+T Respect De Totem|QID|91836|M|PLAYER|Z|2437; Zul'Aman|N|To Dak'zor.|
 T De Vile Diminished|QID|91838|M|47.15,41.28|Z|2437; Zul'Aman|N|To Tan'zin.|
-A One Will Not Rise|QID|91840|PRE|91835&91836&91838|M|47.15,41.28|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
+A One Will Not Rise|QID|91840|PRE|91835&91836&91838|M|PLAYER|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
 C One Will Not Rise|QID|91840|M|48.39,43.04|Z|2437; Zul'Aman|QO|1|NC|N|Knife Priestess Hezzia's Head.|
 T One Will Not Rise|QID|91840|M|38.53,22.44|Z|2437; Zul'Aman|N|To Vun'zarah.|
+A Sacrafice Denied|QID|91839|PRE|91840|M|38.53,22.34|Z|2437; Zul'Aman|N|From Daz'kor.|
+C Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|CHAT|N|Go Check in on Bin'zin.|
+T Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|N|To Bin'zin.|
 
 T Reports Returned|QID|91087|M|45.43,70.49|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
 ]]
