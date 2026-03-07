@@ -5,7 +5,7 @@
   <Script file="WOTLK_BC_Shadowmoon.lua"/>
   <Script file="WOTLK_BC_Terokkar.lua"/>
   <Script file="WOTLK_BC_Zangarmarsh.lua"/>
-  <Script file="WOTLK_INTRO_Draenai.lua"/>
+  <Script file="WOTLK_INTRO_Draenei.lua"/>
   <Script file="WOTLK_INTRO_DwarfGnome.lua"/>
   <Script file="WOTLK_INTRO_Human.lua"/>
   <Script file="WOTLK_INTRO_Night_Elf.lua"/>
