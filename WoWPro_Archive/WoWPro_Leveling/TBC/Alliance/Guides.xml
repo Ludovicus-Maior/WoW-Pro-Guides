@@ -5,7 +5,7 @@
 	<Script file="BCC_Shadowmoon.lua"/>
 	<Script file="BCC_Terokkar_Forest.lua"/>
 	<Script file="BCC_Zangarmarsh.lua"/>
-	<Script file="INTRO_BCC_Draenai.lua"/>
+	<Script file="INTRO_BCC_Draenei.lua"/>
 	<Script file="INTRO_BCC_DwarfGnome.lua"/>
 	<Script file="INTRO_BCC_Human.lua"/>
 	<Script file="INTRO_BCC_NightElf.lua"/>
