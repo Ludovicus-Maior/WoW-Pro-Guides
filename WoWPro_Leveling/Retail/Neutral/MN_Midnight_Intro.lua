@@ -20,12 +20,12 @@ T Last Bastion of the Light|QID|86769|M|46.07,44.42|Z|2432; Isle of Quel'Danas (
 A Champions of Quel'Danas|QID|86770|PRE|86769|M|46.07,44.42|Z|2432; Isle of Quel'Danas (Intro)|N|From Lady Liadrin.|
 A Where Heroes Hold|QID|86780|PRE|86769|M|46.05,44.48|Z|2432; Isle of Quel'Danas (Intro)|N|From High Exarch Turalyon.|
 A My Son|QID|89271|PRE|86769|M|46.05,44.48|Z|2432; Isle of Quel'Danas (Intro)|N|From High Exarch Turalyon.|
-C Where Heroes Hold|QID|86780|M|44.14,50.67|Z|2432; Isle of Quel'Danas (Intro)|QO|1|N|Hinder the attacking Void forces.|S|
-C Champions of Quel'Danas|QID|86770|M|41.58,44.45|Z|2432; Isle of Quel'Danas (Intro)|QO|3|CHAT|N|Back to the middle platform to find Lothraxion.|
-C Champions of Quel'Danas|QID|86770|M|45.18,38.28|Z|2432; Isle of Quel'Danas (Intro)|QO|1|CHAT|N|Recruit Faerin Lothar.|
-C Champions of Quel'Danas|QID|86770|M|42.28,50.83|Z|2432; Isle of Quel'Danas (Intro)|QO|2|CHAT|N|Recruit Alonsus Faol.|
-C My Son|QID|89271|M|44.32,51.63|Z|2432; Isle of Quel'Danas (Intro)|QO|1|CHAT|N|Stay on this level to find Arator. |
-C Where Heroes Hold|QID|86780|M|44.14,50.67|Z|2432; Isle of Quel'Danas (Intro)|QO|1|N|Hinder the attacking Void forces.|US|
+C Where Heroes Hold|QID|86780|M|44.14,50.67|Z|2432; Isle of Quel'Danas (Intro)|N|Hinder the attacking Void forces.|S|
+C Champions of Quel'Danas|QID|86770|M|41.58,44.45|Z|2432; Isle of Quel'Danas (Intro)|QO|3|CHAT|N|Out to the middle platform to find Lothraxion.|
+C Champions of Quel'Danas|QID|86770|M|70.26,17.45|Z|2565; Isle of Quel'Danas (Intro)|QO|1|CHAT|N|Stay on this level and 1/4 of the way around the circuit you can find Faerin Lothar. There is a box of medical supplies you can pick up here to heal the wounded also.|
+C Champions of Quel'Danas|QID|86770|M|65.3,87.60|Z|2565; Isle of Quel'Danas (Intro)|QO|2|CHAT|N|Recruit Alonsus Faol on the opposite side of the circle.|
+C My Son|QID|89271|M|65.30,87.60|Z|2565; Isle of Quel'Danas (Intro)|QO|1|CHAT|N|Arator is just down the walkway from Alonsus Faol.|;get correct coords. its about 20 feet from the mark
+C Where Heroes Hold|QID|86780|M|45.18,84.17|Z|2432; Isle of Quel'Danas (Intro)|N|Hinder the attacking Void forces.|US|
 T Where Heroes Hold|QID|86780|M|35.33,43.89|Z|2432; Isle of Quel'Danas (Intro)|N|To High Exarch Turalyon.|
 T My Son|QID|89271|M|35.33,43.89|Z|2432; Isle of Quel'Danas (Intro)|N|To High Exarch Turalyon.|
 T Champions of Quel'Danas|QID|86770|M|35.39,44.06|Z|2432; Isle of Quel'Danas (Intro)|N|To Lor'themar Theron.|

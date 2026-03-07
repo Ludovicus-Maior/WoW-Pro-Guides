@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("BC-Draenei", "Leveling", "Azuremyst Isle", "WoWPro Team", "Alliance", 2)
 WoWPro:GuideLevels(guide, 1, 10)
-WoWPro:GuideName(guide,"Draenai: Intro")
+WoWPro:GuideName(guide,"Draenei: Intro")
 WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Bloodmyst')
 WoWPro:GuideSteps(guide, function()
 return [[
