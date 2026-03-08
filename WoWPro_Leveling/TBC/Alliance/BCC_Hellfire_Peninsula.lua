@@ -228,7 +228,7 @@ T Shizz Work|QID|10629|M|51.37,30.52|N|To Foreman Razelcraz.|
 A Beneath Thrallmar|QID|10630|PRE|10629|M|51.37,30.52|N|From Foreman Razelcraz.|
 C Beneath Thrallmar|QID|10630|M|53.90,31.70|QO|1|N|Go in the cave and kill Urga'zz.|
 T Beneath Thrallmar|QID|10630|M|51.37,30.52|N|To Foreman Razelcraz.|
-H Honor Hold|QID|10400|N|Hearth to Honor Hold.|M|55.00,86.80|
+H Honor Hold|ACTIVE|10400|N|Hearth to Honor Hold.|M|55.00,86.80|
 T The Heart of Darkness|QID|10399|M|56.69,66.52|N|To Warp-Scryer Kryv|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
 N Check for Upgrades|ACTIVE|9427|M|56.7,62.58|N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|
