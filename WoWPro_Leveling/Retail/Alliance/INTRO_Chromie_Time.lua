@@ -6,7 +6,7 @@ WoWPro:GuideNickname(guide, "Chromie Time")
 WoWPro:GuideName(guide,"Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
-P Stormwind City|QID|62567|M|55.03,93.72|Z|Teldrassil|N|If you're near Teldrassil, Take the Portal to Stormwind City at the Rut'theran Village dock. Or otherwise make your way to Stormwind.|R|NightElf,Worgen,Draenai|C|-DemonHunter,-DeathKnight|CT|
+P Stormwind City|QID|62567|M|55.03,93.72|Z|Teldrassil|N|If you're near Teldrassil, Take the Portal to Stormwind City at the Rut'theran Village dock. Or otherwise make your way to Stormwind.|R|NightElf,Worgen,Draenei|C|-DemonHunter,-DeathKnight|CT|
 A Adventurers Wanted: Chromie's Call|QID|62567|M|62.25,29.93|N|Make your way to the nearest Hero's Call Board and accept Chromie's Call. Onward to Adventure!|CT|
 T Adventurers Wanted: Chromie's Call|QID|62567|M|56.26,17.32|N|To Chromie near the Stormwind Embassy.|CT|
 

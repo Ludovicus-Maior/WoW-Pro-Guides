@@ -47,7 +47,7 @@
 * Throttle on Update event on windows to lessen CPU load
 
 ## Guide Updates
-* TBC:  Draenai Intro, Ghostlands
+* TBC:  Draenei Intro, Ghostlands
 * Midnight: Eversong Woods, Intro, PrePatch
 
 
@@ -479,7 +479,7 @@
 ## Known *deficiencies*
 * Quest Picker depends on Grail, remove dependency
 ## Guide Updates
-* Classic Cata Leveling Alliance: Cape of Stranglethorn, Northen Stranglethorn, Redridge Mountains, Westfall, Intros for Draenai, Gnomes and Humans
+* Classic Cata Leveling Alliance: Cape of Stranglethorn, Northen Stranglethorn, Redridge Mountains, Westfall, Intros for Draenei, Gnomes and Humans
 
 # Release 2024.05.03.A
 ## Bug Fixes
@@ -652,7 +652,7 @@
 ## Guide Updates
 ### Retail
 * Note: Nearly all Intro guides had a bug with Chromie Time fixed
-* Leveling/Alliance:  Draenai Intro had surgery and is now in recovery
+* Leveling/Alliance:  Draenei Intro had surgery and is now in recovery
 * Neutral Leveling: Azure Span, Intro, Thaldraszus
 ### WotLK
 * Dailies/Alliance: Argent Tournament
@@ -1193,7 +1193,7 @@ Alliance: Hallows End update
 ### WotLK
 * Achievements: Exploration+General backported from Retail
 * Dailies: Wrath dailies backported from Retail
-* Alliance: Dungeon Guides, Draenai+DwarfGnome+Human+Nelf Intros, Darkshore 10-19, Alliance 19-25, 20-41, Borean Tundra, Storm Peaks,
+* Alliance: Dungeon Guides, Draenei+DwarfGnome+Human+Nelf Intros, Darkshore 10-19, Alliance 19-25, 20-41, Borean Tundra, Storm Peaks,
 * Neutral: Netherstorm, DK Intro
 * Horde: Hellfire Peninsula, Ghostlands, Ragefire Chasm
 
@@ -1238,7 +1238,7 @@ Alliance: Hallows End update
 * Nothing
 
 ### Burning Crusade Classic Leveling
-* Alliance: Draenai Intro, Human Intro, Nelf Intro, Eastern Kingdom 10-19,
+* Alliance: Draenei Intro, Human Intro, Nelf Intro, Eastern Kingdom 10-19,
 * Horde: Hellfire Peninsula, Barrens 12-22, HordeChapter1 HordeChapter3, Azshara 51-53, Ungoro Crater 51-53, Burning Steppes 53-54, Felwood 54-55, Winterspring 54-55
 
 ### WotLK
@@ -1501,7 +1501,7 @@ Alliance: Hallows End update
 
 ## Guide Updates
 ### Retail Leveling
-* Alliance: Bloodmyst, Dustwallow Marsh, Felwood, Southern Barrens, Tanaris, Thousand Needles, Draenai Intro
+* Alliance: Bloodmyst, Dustwallow Marsh, Felwood, Southern Barrens, Tanaris, Thousand Needles, Draenei Intro
 * Horde: None!
 * Neutral: Silithus, UnGoro, Winterspring
 ### World Events
