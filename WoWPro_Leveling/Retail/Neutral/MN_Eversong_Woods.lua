@@ -392,11 +392,13 @@ T The Traitors of Tranquillien|QID|90509|M|48.96,68.48|Z|2395; Eversong Woods|N|
 T The Heart of Tranquillien|QID|90493|M|48.96,68.48|Z|2395; Eversong Woods|N|To Arator.|
 A The Missing Magister|QID|90494|PRE|86632&90509&90493|M|48.96,68.48|Z|2395; Eversong Woods|N|From Arator.|
 C The Missing Magister|QID|90494|QO|1|M|47.26,68.31|Z|2395; Eversong Woods|N|Find Umbric.|NC|
-K Secretary Faloria|QID|90494|QO|2|M|47.26,68.38|Z|2395; Eversong Woods|N|Secretary Faloria slain.|T|Secretary Faloria|
+K Secretary Faloria|ACTIVE|90494|QO|2|M|47.26,68.38|Z|2395; Eversong Woods|N|Secretary Faloria slain.|T|Secretary Faloria|
 C The Missing Magister|QID|90494|QO|3|M|47.24,68.35|Z|2395; Eversong Woods|N|Jeweled Key collected.|H|
 C The Missing Magister|QID|90494|QO|4|M|47.15,68.38|Z|2395; Eversong Woods|N|Plans of Infiltration collected.|H|
 T The Missing Magister|QID|90494|M|47.72,69.72|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Face the Past|QID|86781|PRE|90494|M|47.72,69.72|Z|2395; Eversong Woods|N|From Magister Umbric.|
+A Slithering Closer|QID|94370|M|37.31,73.91|Z|2395; Eversong Woods|N|From Fern Shadestar|RANK|2|
+T Slithering Closer|QID|94370|M|38.98,61.62|Z|2395; Eversong Woods|N|To Hathvelion Sungaze|
 A Not What I Ordered|QID|91493|M|38.98,61.62|Z|2395; Eversong Woods|N|From Hathvelion Sungaze.|RANK|2|; I found this quest super late, Can probably be moved upwards with no issue
 C Not What I Ordered|QID|91493|M|38.96,61.46|Z|2395; Eversong Woods|QO|1|H|N|Intercepted Shipments inspected.|
 T Not What I Ordered|QID|91493|M|38.97,61.57|Z|2395; Eversong Woods|N|To Hathvelion Sungaze.|
@@ -587,6 +589,7 @@ T Fractured|QID|86650|M|45.44,70.36|Z|2393; Silvermoon City|N|To Lor'themar Ther
 
 ;Paladin Rescue
 A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|LVL|90| ;or maybe it's finishing something in zul'aman
+A Missing Paladins|QID|90547|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Salandria.|LVL|90| ;or maybe it's finishing something in zul'aman
 
 ;One Adventurous Hatchling
 A One Adventurous Hatchling|QID|89383|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
@@ -618,11 +621,12 @@ C And Then They Came|QID|92398|QO|2|M|60.71,62.38|Z|2395; Eversong Woods|N|Kill 
 T And Then They Came|QID|92398|M|61.74,62.87|Z|2395; Eversong Woods|N|To Alesil Dawnblood.|
 
 T Missing Paladins|QID|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
-A Signs of the Struggle|QID|90549|PRE|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
-A Twilight Missive|QID|90548|PRE|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+T Missing Paladins|QID|90547|M|44.03,66.98|Z|2395; Eversong Woods|N|To Salandria.|
+A Signs of the Struggle|QID|90549|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+A Twilight Missive|QID|90548|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
 C Signs of the Struggle|QID|90549|S|M|42.90,68.54|Z|2395; Eversong Woods|H|N|Pick up the discarded weapons around the area.|
 C Twilight Missive|QID|90548|S|M|42.90,68.54|Z|2395; Eversong Woods|N|Kill and loot the twilight mobs.|
-A A Somber Sun|QID|90550|PRE|90546|M|43.31,69.78|Z|2395; Eversong Woods|N|From the mangled corpse of Crusader Sombersun.|
+A A Somber Sun|QID|90550|PRE|90546^90547|M|43.31,69.78|Z|2395; Eversong Woods|N|From the mangled corpse of Crusader Sombersun.|
 C Twilight Missive|QID|90548|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue picking up discarded weapons.|
 C Signs of the Struggle|QID|90549|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue killing twilight cultists until you find enough evidence.|
 T Signs of the Struggle|QID|90549|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
