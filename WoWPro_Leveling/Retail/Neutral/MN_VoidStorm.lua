@@ -8,22 +8,12 @@ WoWPro:GuideNextGuide(guide, 'Arators Journey')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Deepening Shadows|QID|91854|M|45.37,70.27|Z|2393;Silvermoon City|N|From Commander Koruth Mountainfist.|local guide = WoWPro:RegisterGuide('Void Storm', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral')
-WoWPro:GuideName(guide,"Void Storm")
-WoWPro:GuideContent(guide, 11)
-WoWPro:GuideLevels(guide,80, 90)
-WoWPro:GuideQuestTriggers(guide, 91854)
-WoWPro:GuideSort(guide, 5)
-WoWPro:GuideNextGuide(guide, 'Arators Journey')
-WoWPro:GuideSteps(guide, function()
-return [[
-
 ;The Darkening Sky (Intro) |
 A Deepening Shadows|QID|91854|M|45.37,70.27|Z|2393; Silvermoon City|N|From Commander Koruth Mountainfist.|
-C Deepening Shadows|QID|91854|QO|3|M|47.89,62.13|Z|2393; Silvermoon City|CHAT|N|Keep an eye out for Doomsayers to talk out of their nonsense.|S|
+C Deepening Shadows|QID|91854|QO|3|M|47.89,62.13|Z|2393; Silvermoon City|CHAT|S|N|Keep an eye out for Doomsayers to talk out of their nonsense.|S|
 C Deepening Shadows|QID|91854|QO|2|M|45.77,81.44|Z|2393; Silvermoon City|H|N|Release Prisoner.|
 C Deepening Shadows|QID|91854|QO|1|M|47.13,59.37|Z|2393; Silvermoon City|CHAT|N|De-escalate City dispute.|
-C Deepening Shadows|QID|91854|QO|3|M|47.89,62.13|Z|2393; Silvermoon City|CHAT|N|Keep Rebuffing the Doomsayers.|
+C Deepening Shadows|QID|91854|QO|3|M|47.89,62.13|Z|2393; Silvermoon City|CHAT|USN|Keep Rebuffing the Doomsayers.|
 T Deepening Shadows|QID|91854|M|45.29,70.21|Z|2393; Silvermoon City|N|To Commander Koruth Mountainfist.|
 A You Know This Evil?|QID|91967|PRE|91854|M|45.29,70.21|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
 C You Know This Evil?|QID|91967|QO|1|M|45.43,36.50|Z|2393; Silvermoon City|CHAT|N|Talk to Umbric.|
