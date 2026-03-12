@@ -252,7 +252,7 @@ C Shrine Preparations|QID|93180|M|51.74,30.61|Z|2437; Zul'Aman|QO|5|H|N|Thorncap
 C Shrine Preparations|QID|93180|M|51.23,32.70|Z|2437; Zul'Aman|QO|3;4|N|Stinger Hatchling slain.|US|
 T Shrine Preparations|QID|93180|M|51.46,30.62|Z|2437; Zul'Aman|N|To Kanza.|
 A Temple and a Teapot|QID|93181|PRE|93180|M|51.46,30.62|Z|2437; Zul'Aman|N|From Kanza.|RANK|2|
-B Temple and a Teapot|QID|93181|M|47.21,24.50|Z|2437; Zul'Aman|QO|1|N|Go buy a Teapot from Honnu.|
+B Temple and a Teapot|ACTIVE|93181|M|47.21,24.50|Z|2437; Zul'Aman|QO|1|N|Go buy a Teapot from Honnu.|
 C Temple and a Teapot|QID|93181|M|52.30,32.16|Z|2437; Zul'Aman|QO|2|CHAT|N|Speak to Kanza.|
 C Temple and a Teapot|QID|93181|M|52.27,32.12|Z|2437; Zul'Aman|QO|3|H|N|Place Teapot.|
 T Temple and a Teapot|QID|93181|M|52.30,32.16|Z|2437; Zul'Aman|N|To Kanza.|

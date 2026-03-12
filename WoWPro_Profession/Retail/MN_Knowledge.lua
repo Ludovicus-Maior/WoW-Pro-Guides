@@ -101,8 +101,8 @@ $ Bloomed Bud|QID|89162|M|38.1,66.9|Z|2413;Harandar|P|Midnight Herbalism;2912|
 $ Lightbloom Root|QID|89159|M|36.6,25|Z|2413;Harandar|P|Midnight Herbalism;2912|
 $ Planting Shovel|QID|89155|M|51.1,55.7|Z|2413;Harandar|P|Midnight Herbalism;2912|
 $ Harvester's Sickle|QID|89157|M|76.1,51.1|Z|2413;Harandar|P|Midnight Herbalism;2912|
-$ Leftover Sanguithorn Pigment|QID|89070|M|52.7,50|Z|2413;Harandar|P|Midnight Inscription;2913|
-$ Intrepid Explorer's Marker|QID|89071|M|52.4,52.6|Z|2413;Harandar|P|Midnight Inscription;2913|
+$ Leftover Sanguithorn Pigment|QID|89071|M|52.7,50|Z|2413;Harandar|P|Midnight Inscription;2913|
+$ Intrepid Explorer's Marker|QID|89070|M|52.4,52.6|Z|2413;Harandar|P|Midnight Inscription;2913|
 $ Haranir Leatherworking Knife|QID|89095|M|36.1,25.2|Z|2413;Harandar|P|Midnight Leatherworking;2915|
 $ Haranir Leatherworking Mallet|QID|89094|M|51.8,51.3|Z|2413;Harandar|P|Midnight Leatherworking;2915|
 $ Spare Expedition Torch|QID|89151|M|38.8,65.9|Z|2413;Harandar|P|Midnight Mining;2916|
