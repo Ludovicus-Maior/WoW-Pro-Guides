@@ -598,7 +598,7 @@ C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|US|N|Keep fighti
 T Cut Her Strings|QID|91147|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 T Flickering Light|QID|91146|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 A Strung Along|QID|91148|PRE|91147&91146|M|PLAYER|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
-C Strung Along|QID|91148|QO|1|M|53.97,83.82|Z|2444; Slayer's Rise|CHAT|N|Meet Anais back at camp.| 
+C Strung Along|QID|91148|QO|1|M|53.97,83.82|Z|2444; Slayer's Rise|CHAT|N|Meet Anais back at camp.|
 C Strung Along|QID|91148|QO|2|M|53.97,83.82|Z|2444; Slayer's Rise|CHAT|N|Speak to Anais.|
 t Bloodying the Plain|QID|92641|M|50.69,82.76|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|
 C Strung Along|QID|91148|QO|3|M|44.53,86.75|Z|2444; Slayer's Rise|H|N|Find Callum Ashvow.|
