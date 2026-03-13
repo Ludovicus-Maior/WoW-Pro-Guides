@@ -85,4 +85,5 @@
 	<Script file="DF_ZCProfKnowledge.lua"/>
 	<Script file="DF_EDProfKnowledge.lua"/>
 	<Script file="TWW_Knowledge.lua"/>
+	<Script file="MN_Knowledge.lua"/>
 	</Ui>
