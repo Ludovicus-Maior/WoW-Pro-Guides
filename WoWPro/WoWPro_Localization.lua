@@ -16,6 +16,7 @@ local english = {
     -- Leveling Module --
     ["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."] = "Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it.",
     ["Guide List"] = "Guide List",
+    ["DONE"] = "DONE",
     ["Zone"] = "Zone",
     ["Level"] = "Level",
     ["Author"] = "Author",
@@ -205,6 +206,7 @@ if loc == "deDE" then L = {
     ["Right click for options"] = "Rechtsklick für Optionen",
     ["Left-click to enable/disable addon"] = "Linksklick, um Addon zu aktivieren/deaktivieren",
     ["Right-click to open config panel"] = "Rechtsklick, um das Konfigurationsmenü zu öffnen",
+    ["DONE"] = "FERTIG",
 
 } end
 
@@ -389,6 +391,7 @@ if loc == "frFR" then L = {
     ["Right click for options"] = "Clic droit pour les options",
     ["Left-click to enable/disable addon"] = "Clic gauche pour activer/désactiver l'addon",
     ["Right-click to open config panel"] = "Clic droit pour ouvrir le panneau de configuration",
+    ["DONE"] = "TERMINE",
 } end
 
 ----------------------
@@ -572,6 +575,7 @@ if loc == "ruRU" then L = {
     ["Right click for options"] = "Щелкните правой кнопкой мыши для выбора",
     ["Left-click to enable/disable addon"] = "Щелкните левой кнопкой мыши, чтобы включить/отключить аддон",
     ["Right-click to open config panel"] = "Щелкните правой кнопкой мыши, чтобы открыть панель настроек",
+    ["DONE"] = "ГОТОВО",
 } end
 
 
@@ -735,6 +739,7 @@ if loc == "krKR" then L = {
     ["Right click for options"] = "옵션을 보려면 오른쪽 클릭",
     ["Left-click to enable/disable addon"] = "애드온을 활성화/비활성화하려면 왼쪽 클릭",
     ["Right-click to open config panel"] = "설정 패널을 열려면 오른쪽 클릭",
+    ["DONE"] = "완료",
 } end
 
 ----------------------
@@ -918,6 +923,7 @@ if loc == "esES" then L = {
     ["Right click for options"] = "Haz clic derecho para ver las opciones",
     ["Left-click to enable/disable addon"] = "Haz clic izquierdo para activar/desactivar el complemento",
     ["Right-click to open config panel"] = "Haz clic derecho para abrir el panel de configuración",
+    ["DONE"] = "HECHO",
     } end
 
 ----------------------
@@ -1101,6 +1107,7 @@ if loc == "ptBR" then L = {
     ["Right click for options"] = "Clique com o botão direito para ver as opções",
     ["Left-click to enable/disable addon"] = "Clique com o botão esquerdo para ativar/desativar o addon",
     ["Right-click to open config panel"] = "Clique com o botão direito para abrir o painel de configuração",
+    ["DONE"] = "FEITO",
     } end
 
 ----------------------
@@ -1284,6 +1291,7 @@ if loc == "itIT" then L = {
     ["Right click for options"] = "Fai clic con il pulsante destro per le opzioni",
     ["Left-click to enable/disable addon"] = "Fai clic con il pulsante sinistro per abilitare/disabilitare l'addon",
     ["Right-click to open config panel"] = "Fai clic con il pulsante destro per aprire il pannello di configurazione",
+    ["DONE"] = "FATTO",
     } end
 
 WoWPro_Locale = nil
