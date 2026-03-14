@@ -349,20 +349,20 @@ C To Be Changed|QID|91546|QO|7|M|31.62,87.83|Z|2393; Silvermoon City|H|N|Add Sun
 C To Be Changed|QID|91546|QO|8|M|31.62,87.83|Z|2393; Silvermoon City|CHAT|N|Taste Ghostflower Tea, There are no wrong answers.|
 T To Be Changed|QID|91546|M|31.70,88.00|Z|2393; Silvermoon City|N|To Riftblade Astre.|
 
-P Howling Ridge|ACTIVE|90916|M|32.27,65.90|Z|2393; Silvermoon City|N|Return to Voidstorm via the portal or other method of your choice.|
+P The Howling Ridge|ACTIVE|90916|M|35.22,65.57|Z|2393; Silvermoon City|N|Return to Voidstorm via the portal or other method of your choice.|
 ;<guarded treasure> now available
 T Seek to Destroy|QID|90916|M|61.25,61.87|Z|2405; Voidstorm|N|To Decimus.|
 A Harvester of Savagery|QID|90917|PRE|90916|M|61.25,61.87|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 A The Unforgiven|QID|90918|PRE|90916|M|61.25,61.87|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C Harvester of Savagery|QID|90917|QO|1|M|65.19,59.17|Z|2405; Voidstorm|H|U|248593|S|N|After you kill stuff, use the [color=33fff9]  Nascent Blade [/color]. It works on your named targets as well.|
-K Averus|ACTIVE|90918|QO|2|M|64.66,63.35|Z|2405; Voidstorm|U|248593|N|Slay Averus.|T|Averus|
-K Noxian|ACTIVE|90918|QO|1|M|66.16,60.71|Z|2405; Voidstorm|U|248593|N|Slay Noxian.|T|Noxian|
-K Tenebre|ACTIVE|90918|QO|3|M|64.86,59.98|Z|2405; Voidstorm|U|248593|N|Slay Tenebre.|T|Tenebre|
+K Averus|ACTIVE|90918|QO|2|M|64.66,63.35|Z|2405; Voidstorm|N|Slay Averus.|T|Averus|
+K Noxian|ACTIVE|90918|QO|1|M|66.16,60.71|Z|2405; Voidstorm|N|Slay Noxian.|T|Noxian|
+K Tenebre|ACTIVE|90918|QO|3|M|64.86,59.98|Z|2405; Voidstorm|N|Slay Tenebre.|T|Tenebre|
 C Harvester of Savagery|QID|90917|QO|1|M|65.19,59.17|Z|2405; Voidstorm|H|US|U|248593|N|Kill killing and quenching the Nascent Blade in blood.|
 T Harvester of Savagery|QID|90917|M|61.27,61.88|Z|2405; Voidstorm|N|To Decimus.|
 T The Unforgiven|QID|90918|M|61.27,61.88|Z|2405; Voidstorm|N|To Decimus.|
 A The Fiend That Failed|QID|90919|PRE|90917&90918|M|61.27,61.88|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
-C The Fiend That Failed|QID|90919|QO|1|M|63.39,58.62|Z|2405; Voidstorm|N|Slay Vortensiun|
+K Vortensiun|ACTIVE|90919|QO|1|M|63.39,58.62|Z|2405; Voidstorm|N|Slay Vortensiun|T|Vortensiun|
 T The Fiend That Failed|QID|90919|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Warmth for the Soul|QID|90920|PRE|90919|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C Warmth for the Soul|QID|90920|QO|1|M|59.06,56.63|Z|2405; Voidstorm|CHAT|N|Speak with Decimus. All answers work.|
@@ -463,6 +463,7 @@ A Shedding the Yoke|QID|90860|PRE|90858|M|37.42,39.46|Z|2405; Voidstorm|N|From V
 C Shedding the Yoke|QID|90860|QO|1|M|37.12,37.46|Z|2405; Voidstorm|N|Slay Soulbinder D'zaar.|
 
 ;the rest of The Nethersent
+C The Nethersent|QID|90782|M|56.2,71.8|Z|2405; Voidstorm|N|Open the cage.|H|
 T The Nethersent|QID|90782|M|39.88,48.97|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 A Universal Language|QID|90866|PRE|90782|M|39.89,48.98|Z|2405; Voidstorm|N|From Tul'amar, Twice-Exiled.|RANK|2|
 C Universal Language|QID|90866|M|40.67,45.64|Z|2405; Voidstorm|N|Kill wasps and Packhunters for their blood.|
@@ -478,12 +479,16 @@ A Pestilent Petals|QID|91558|PRE|91559|M|35.92,48.26|Z|2405; Voidstorm|N|From La
 C Pestilent Petals|QID|91558|M|34.42,46.25|Z|2405; Voidstorm|S|H|N|
 C Virulent Vermin|QID|91559|M|34.42,46.25|Z|2405; Voidstorm|N|
 C Pestilent Petals|QID|91558|M|34.42,46.25|Z|2405; Voidstorm|US|H|N|
+T Pestilent Petals|QID|91558|M|34.63,43.79|Z|2405; Voidstorm|N|To Lady Darkglen.|
+T Virulent Vermin|QID|91559|M|34.63,43.79|Z|2405; Voidstorm|N|To Lady Darkglen.|
 A Expunging Explorers|QID|91560|PRE|91558|M|34.61,43.82|Z|2405; Voidstorm|N|From Lady Darkglen.|RANK|2|
-C Expunging Explorers|QID|91560|QO|1;2;3|M|34.61,43.78|Z|2405; Voidstorm|N|Click the ingrediants, then click the pot to create the antidote.|
-C Expunging Explorers|QID|91560|QO|4|M|34.66,43.87|Z|2405; Voidstorm|N|Click Scot Philanas to administer the antidote.|
+C Expunging Explorers|QID|91560|QO|1|M|34.61,43.78|Z|2405; Voidstorm|N|Click the Mature Blood Petals.|H|
+C Expunging Explorers|QID|91560|QO|2|M|34.61,43.78|Z|2405; Voidstorm|N|Click the Specialized Liver.|H|
+C Expunging Explorers|QID|91560|QO|3|M|34.61,43.78|Z|2405; Voidstorm|N|Click the pot to create the antidote.|H|
 A Calculated Culling|QID|93801|PRE|91560|M|34.65,43.84|Z|2405; Voidstorm|N|From Scout Philanas.|RANK|2|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|S|N|Slay Monsters in the Molt.|
-C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H|S|N|While in The Molt also find explorers to cure.|
+C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt also find explorers to cure.|
+C Expunging Explorers|QID|91560|QO|4|M|34.66,43.87|Z|2405; Voidstorm|N|Click Scot Philanas to administer the antidote.|
 C Expunging Explorers|QID|91560|QO|6|M|33.28,43.94|Z|2405; Voidstorm|H|N|Find Riftwarker Lorn and cure him too.|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|US|N|Slay Monsters in the Molt.|
 T Expunging Explorers|QID|91560|M|34.61,43.78|Z|2405; Voidstorm|N|To Lady Darkglen.|
@@ -549,7 +554,7 @@ C Guarded Treasures|QID|93933|M|26.59,68.44|Z|2405; Voidstorm|H|N|Defend the Sin
 ;T Stormarion Assault|QID|90962|M|26.29,67.99|Z|2405; Voidstorm|N|To Voidborn Linebreaker.|
 ;A Stand Your Ground|QID|94581|PRE|90962|M|26.38,68.03|Z|2405; Voidstorm|N|From Voidborn Linebreaker.|RANK|2|
 
-A Delver's Call: Sunkiller Sanctum|QID|93427|PRE|91533|M|42.65,70.72|Z|2405; Voidstorm|RANK|2|
+;A Delver's Call: Sunkiller Sanctum|QID|93427|PRE|91533|M|42.65,70.72|Z|2405; Voidstorm|RANK|2|
 t Delver's Call: Sunkiller Sanctum|QID|93427|M|51.35,67.61|Z|2405; Voidstorm|IZ|The Howling Ridge|
 ;back in howling ridge
 T Guarded Treasures|QID|93933|M|52.56,72.86|Z|2405; Voidstorm|N|To Void Researcher Anomander.|
@@ -560,7 +565,7 @@ T One Cruel Implement|QID|92509|M|53.24,70.38|Z|2405; Voidstorm|N|To Allari the 
 A Dark Infusion|QID|92510|PRE|92508&92509|M|53.24,70.38|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
 C Dark Infusion|QID|92510|QO|1|M|60.20,44.04|Z|2405; Voidstorm|CHAT|N|Signal Leona to begin the Ritual.|
 C Dark Infusion|QID|92510|QO|2|M|60.14,44.06|Z|2405; Voidstorm|H|N|Complete Ritual.|
-C Dark Infusion|QID|92510|QO|3|M|59.70,43.67|Z|2405; Voidstorm|H|N|Follow Leona.|
+C Dark Infusion|QID|92510|QO|3|M|60.20,44.01|Z|2405; Voidstorm|H|N|Follow Leona by jumping in the void portal.|
 C Dark Infusion|QID|92510|QO|4|M|52.16,69.68|Z|2405; Voidstorm|H|N|Return to Magister Umbric at Howling Ridge.|
 T Dark Infusion|QID|92510|M|52.16,69.68|Z|2405; Voidstorm|N|To Magister Umbric.|
 A Event Horizon|QID|92511|PRE|92510|M|52.16,69.68|Z|2405; Voidstorm|N|From Magister Umbric.|RANK|2|
@@ -582,7 +587,8 @@ C The Conquered Heroes|QID|91145|QO|2|M|46.90,56.25|Z|2405; Voidstorm|I|N|Invest
 C The Conquered Heroes|QID|91145|QO|3|M|46.98,54.67|Z|2405; Voidstorm|I|N|Catch up with Anais.|
 T The Conquered Heroes|QID|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|To Knight Anais.|
 A Cut Her Strings|QID|91147|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
-A Bloodying the Plain|QID|92641|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|This is a bonus objective Do it if you choose to.|RANK|2|
+;A Bloodying the Plain|QID|92641|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|This is a bonus objective Do it if you choose to.|RANK|2|
+C Bloodying the Plain|QID|92641|M|50.85,83.97|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|S!US|IZ|The Bloodplains|
 A Flickering Light|QID|91146|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
 C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|S|N|Fight the Alloyed mobs, when they get to 1% click on them so Anais can attempt to remove Shadowgrafts.|
 C Flickering Light|QID|91146|QO|1<1|M|50.78,78.02|Z|2444; Slayer's Rise|H|N|Find Callum's Tinderbox.|
@@ -592,8 +598,9 @@ C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|US|N|Keep fighti
 T Cut Her Strings|QID|91147|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 T Flickering Light|QID|91146|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 A Strung Along|QID|91148|PRE|91147&91146|M|PLAYER|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
+C Strung Along|QID|91148|QO|1|M|53.97,83.82|Z|2444; Slayer's Rise|CHAT|N|Meet Anais back at camp.|
 C Strung Along|QID|91148|QO|2|M|53.97,83.82|Z|2444; Slayer's Rise|CHAT|N|Speak to Anais.|
-T Bloodying the Plain|QID|92641|M|50.69,82.76|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|
+t Bloodying the Plain|QID|92641|M|50.69,82.76|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|
 C Strung Along|QID|91148|QO|3|M|44.53,86.75|Z|2444; Slayer's Rise|H|N|Find Callum Ashvow.|
 T Strung Along|QID|91148|M|44.14,87.12|Z|2444; Slayer's Rise|N|To Knight Anais.|
 A Bury Me Not|QID|91149|PRE|91148|M|44.14,87.12|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
@@ -601,12 +608,12 @@ C Bury Me Not|QID|91149|QO|1|M|44.14,87.11|Z|2444; Slayer's Rise|H|N|Pick up the
 C Bury Me Not|QID|91149|QO|2|M|44.39,87.37|Z|2444; Slayer's Rise|H|N|Use the Void Portal.|
 C Bury Me Not|QID|91149|QO|3|M|41.63,72.42|Z|2444; Slayer's Rise|N|Defeat Callum Ashvow.|
 C Bury Me Not|QID|91149|QO|4|M|41.71,72.56|Z|2444; Slayer's Rise|H|N|Destroy Imperia.|
-T Bury Me Not|QID|91149|M|44.08,86.99|Z|2444; Slayer's Rise|
+T Bury Me Not|QID|91149|M|44.08,86.99|Z|2444; Slayer's Rise|N|To Knight Anais.|
 
 T Drenched In It|QID|90872|M|35.06,88.56|Z|2444; Slayer's Rise|N|To Tul'amar, Twice-Exiled.|
 A These Violent Delights|QID|90873|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise|N|From Tul'amar, Twice-Exiled.|RANK|2|
 A Their Violent Ends|QID|90874|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise|N|From Tul'amar, Twice-Exiled.|RANK|2|
-C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|US|N|Kill and loot the voidwalkers to collect Abductor's Marks.|
+C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|N|Kill and loot the voidwalkers to collect Abductor's Marks.|S|
 C These Violent Delights|QID|90873|QO|1|M|35.06,88.56|Z|2444; Slayer's Rise|U|244173|S|N|Use the provided[color=33fff9] Relic of Liberation [/color]to free the Master's Prospects.|
 C These Violent Delights|QID|90873|QO|2<1|M|32.82,87.73|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
 C These Violent Delights|QID|90873|QO|2<2|M|41.48,90.65|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
