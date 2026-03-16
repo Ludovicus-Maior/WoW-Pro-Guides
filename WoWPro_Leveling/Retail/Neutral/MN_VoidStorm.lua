@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide('Void Storm', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral')
-WoWPro:GuideName(guide,"Void Storm")
+local guide = WoWPro:RegisterGuide('Voidstorm', 'Leveling', 'Eversong Woods', 'WoWPro Team', 'Neutral')
+WoWPro:GuideName(guide,"Voidstorm")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
 WoWPro:GuideQuestTriggers(guide, 91854)
@@ -236,7 +236,7 @@ C Daylight is Breaking|QID|86522|QO|1|M|45.65,25.91|Z|2393; Silvermoon City|NC|N
 T Daylight is Breaking|QID|86522|M|45.37,70.27|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 
 ;should this be here? its not really voidstorm ... and if it should, what about all the other quests that become availavle when you finish the campaign
-A Midnight: World Tour|QID|95245|PRE|86522|M|45.48,70.23|Z|2393; Silvermoon City|N|From Lor'themar Theron.|RANK|2|
+A Midnight: World Tour|QID|95245|PRE|86522|M|45.48,70.23|Z|2393; Silvermoon City|N|From Lor'themar Theron.|RANK|2|LVL|90|
 C Midnight: World Tour|QID|95245|QO|1|M|45.38,70.32|Z|2393; Silvermoon City|H|N|Ask Lor'themar for more information .|
 ;the crimson rogue story line should maybe be its own guide, or in the level 90 part of eversong woods -- but for now Ive just corrected the PRE and left it here.
 A A Favor for the Lion|QID|91828|PRE|91827|M|52.42,78.17|Z|2393; Silvermoon City|N|From Valeera Sanguinar.|RANK|2|
@@ -265,7 +265,7 @@ C Belly of the Beast|QID|91380|QO|3|M|51.18,68.43|Z|2405; Voidstorm|CHAT|N|Feed 
 C Belly of the Beast|QID|91380|QO|4|M|51.65,68.94|Z|2405; Voidstorm|H|N|Stand in the circle and use the [color=33fff9] Extra Action Button [/color] that appears.|
 C Belly of the Beast|QID|91380|QO|5|M|52.42,69.44|Z|2405; Voidstorm|H|N|Stand in the circle and use the [color=33fff9] Extra Action Button [/color] that appears.|
 C Belly of the Beast|QID|91380|QO|6|M|53.47,70.43|Z|2405; Voidstorm|H|N|Stand in the circle and use the [color=33fff9] Extra Action Button [/color] that appears.|
-A Truth of the Past|QID|92505|M|53.25,70.40|Z|2405; Voidstorm|N|From Leona Darkstrider.|RANK|2|
+A Truth of the Past|QID|92505|M|53.25,70.40|Z|2405; Voidstorm|N|From Leona Darkstrider.|RANK|2|LVL|90|
 C Truth of the Past|QID|92505|QO|1|M|53.19,70.45|Z|2405; Voidstorm|H|N|Enter Illidari Gateway.|
 C Truth of the Past|QID|92505|QO|2|M|53.21,13.48|Z|0882; Eredath|H|N|Arrived in Argus.|
 T Truth of the Past|QID|92505|M|52.90,14.14|Z|0882; Eredath|N|To Allari the Souleater.|
@@ -406,7 +406,7 @@ A She Started the Fire|QID|90848|PRE|90847|M|44.70,68.56|Z|2405; Voidstorm|N|Fro
 
 ;The Void Peers Back |
 T Scholarly Pursuits|QID|88755|M|41.16,61.53|Z|2405; Voidstorm|N|To Matrean Dawnfall.|
-A A Bigger Beast|QID|87388|PRE|92948&88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall.|RANK|2|
+A A Bigger Beast|QID|87388|PRE|92948&88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall. Wait a minute or two for the quest to appear.|RANK|2|
 A Sampling the Local Fare|QID|87391|PRE|92948&88755|M|41.16,61.51|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
 C Sampling the Local Fare|QID|87391|QO|1|M|39.90,64.66|Z|2405; Voidstorm|S|N|Exotic Tissue Samples drop from all the mobs around the Vicious Karion also.|
 C A Bigger Beast|QID|87388|QO|1|M|41.96,65.66|Z|2405; Voidstorm|N|Slay Vicious Karion. These are located inside the underground cave and above ground both.|
@@ -487,8 +487,8 @@ C Expunging Explorers|QID|91560|QO|2|M|34.61,43.78|Z|2405; Voidstorm|N|Click the
 C Expunging Explorers|QID|91560|QO|3|M|34.61,43.78|Z|2405; Voidstorm|N|Click the pot to create the antidote.|H|
 A Calculated Culling|QID|93801|PRE|91560|M|34.65,43.84|Z|2405; Voidstorm|N|From Scout Philanas.|RANK|2|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|S|N|Slay Monsters in the Molt.|
-C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt also find explorers to cure.|
 C Expunging Explorers|QID|91560|QO|4|M|34.66,43.87|Z|2405; Voidstorm|N|Click Scot Philanas to administer the antidote.|
+C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt find explorers to cure.|
 C Expunging Explorers|QID|91560|QO|6|M|33.28,43.94|Z|2405; Voidstorm|H|N|Find Riftwarker Lorn and cure him too.|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|US|N|Slay Monsters in the Molt.|
 T Expunging Explorers|QID|91560|M|34.61,43.78|Z|2405; Voidstorm|N|To Lady Darkglen.|
