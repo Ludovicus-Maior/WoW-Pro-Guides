@@ -53,7 +53,7 @@ C Patterns in Static|QID|84462|M|51.52,44.02|Z|2366;The Wandering Isle|QO|2|EAB|
 C Patterns in Static|QID|84462|M|51.51,47.08|Z|2366;The Wandering Isle|QO|3|NC|N|Dafeng, Ancient Spirit of Wind is on top of the building, float over towards them.|
 T Patterns in Static|QID|84462|M|51.50,47.43|Z|2366;The Wandering Isle|N|To Dafeng.|
 A Codependency|QID|84463|PRE|84462|M|50.69,76.86|Z|2366;The Wandering Isle|N|From Jojo Ironbrow.|
-C Codependency|QID|84463|M|45.74,69.92|Z|2366;The Wandering Isle|N|Slay the Mud Amalgam.|
+C Codependency|QID|84463|M|45.74,69.92|Z|2366;The Wandering Isle|N|Mud Amalgam slain.|
 T Codependency|QID|84463|M|39.63,63.43|Z|2366;The Wandering Isle|N|To Li Li Stormstout.|
 A Lost My Spark|QID|84464|PRE|84463|M|39.63,63.43|Z|2366;The Wandering Isle|N|From Li Li Stormstout.|
 C Lost My Spark|QID|84464|M|39.87,63.34|Z|2366;The Wandering Isle|QO|1|CHAT|N|Speak to Shu.|
@@ -83,5 +83,4 @@ A A New Tradition|QID|92030|PRE|84467|M|52.25,19.03|Z|2366;The Wandering Isle|N|
 T A New Tradition|QID|92030|M|50.48,20.06|Z|2366;The Wandering Isle|N|To Chon Po Stormstout.|
 N Congratulations|N|This ends this guide|
 ]]
-
 end)
