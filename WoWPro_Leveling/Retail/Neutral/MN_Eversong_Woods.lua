@@ -465,7 +465,7 @@ T Flowers for Amalthea|QID|92025|M|32.85,78.73|Z|2395; Eversong Woods|N|To Talan
 A Windrunner Spire: Haunting Melodies|QID|93850|M|35.52,79.16|Z|2395; Eversong Woods|N|From Restless Spirit.|RANK|2|
 t Windrunner Spire: Haunting Melodies|QID|93850|M|35.53,79.12|Z|2395; Eversong Woods|N|To Restless Spirit.|
 C To Deatholme|QID|86635|QO|1|M|44.34,85.70|Z|2395; Eversong Woods|N|Journey to the Ruins of Deatholme.|NC|
-C To Deatholme|QID|86635|QO|2|M|44.34,85.70|Z|2395; Eversong Woods|N|Speak to Valeera Sanguinar.|CHAT|
+C To Deatholme|QID|86635|QO|2|M|44.33,84.80|Z|2395; Eversong Woods|N|Speak to Valeera Sanguinar.|CHAT|
 T To Deatholme|QID|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Void Walk With Me|QID|86636|PRE|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|From Magister Umbric.|
 C Void Walk With Me|QID|86636|QO|1|M|45.48,86.18|Z|2395; Eversong Woods|N|Deathholme Delve entered.|NC|
@@ -510,7 +510,7 @@ C Following the Root|QID|86643|QO|4|M|55.13,65.45|Z|2395; Eversong Woods|N|Speak
 T Following the Root|QID|86643|M|54.80,65.50|Z|2395; Eversong Woods|N|To Arator.|
 A Gods Before Us|QID|86644|PRE|86643|M|54.80,65.50|Z|2395; Eversong Woods|N|From Arator.|
 C Gods Before Us|QID|86644|QO|2|M|54.59,65.49|Z|2395; Eversong Woods|N|Amani Riddle inspected.|H|
-C Gods Before Us|QID|86644|QO|3|M|54.61,65.44|Z|2395; Eversong Woods|N|Kill Child of Shadra, then Child of Hireek. Click the vases on each side to deposit the remains.|NC|
+C Gods Before Us|QID|86644|QO|3|M|41.44,51.20; 59.71,39.68;54.61,65.44|CS|Z|2395; Eversong Woods|N|Kill Spawn of Shadra, then Child of Hireek. Click the vases on each side to deposit the remains.|NC|
 C Gods Before Us|QID|86644|QO|4|M|53.95,65.54|Z|2395; Eversong Woods|N|Venture deeper into the crypt.|NC|
 C Gods Before Us|QID|86644|QO|5|M|53.70,65.88|Z|2395; Eversong Woods|N|Match pairs of Carved Tiles.|NC|
 T Gods Before Us|QID|86644|M|53.70,65.88|Z|2395; Eversong Woods|N|To Arator.|
