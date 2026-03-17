@@ -224,7 +224,7 @@ A Show Gnomercy|QID|9537|PRE|9531|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Adm
 C Show Gnomercy|QID|9537|M|48.28,72.22|Z|1943;Azuremyst Isle|L|23899|ITEM|23899|N|Engineer "Spark" Overgrind.\n[color=FF0000]NOTE: [/color]After you find Overgrind on the beach, talking to him will provoke an attack on you when the chat is over.|T|Engineer "Spark" Overgrind|
 T Show Gnomercy|QID|9537|M|47.04,70.22|Z|1943;Azuremyst Isle|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odesyus.| ;Non-Draenei
-R The Exodar|AVAILABLE|9462|LEAD|9464|M|87.45,65.01|Z|1943;Azuremyst Isle|N|Run to the Exodar to pick up your level 10 quest.NOTE This is only a breadcrumb worth ~200 exp.\nSkip this step if you don't want to bother with it.|R|Draenei|C|Shaman|LVL|10|
+R The Exodar|AVAILABLE|9462|LEAD|9464|M|87.45,65.01|Z|1943;Azuremyst Isle|N|Run to the Exodar to pick up your level 10 quest.\n[color=FF0000]NOTE: [/color]This is only a breadcrumb worth ~200 exp.\nSkip this step if you don't want to bother with it.|R|Draenei|C|Shaman|LVL|10|
 A Call of Fire|QID|9462|LEAD|9464|M|32.46,23.99|Z|1947;The Exodar|N|From Sulaa in The Crystal Hall.|R|Draenei|C|Shaman|LVL|10|IZ|1947;The Exodar|
 H Azure Watch|ACTIVE|9602|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Or run if your Hearthstone is on cooldown.|
 T Deliver Them From Evil...|QID|9602|M|47.12,50.61|Z|1943;Azuremyst Isle|N|To Exarch Menelaous.|
