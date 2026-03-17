@@ -6,56 +6,57 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;R Note:|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|Z|1947;The Exodar|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|R|Human, Gnome, Dwarf, Night Elf|
 f The Exodar|M|54.22,36.55|Z|1947;The Exodar|N|At Stephanos.|R|Human, Gnome, Dwarf, Night Elf|TAXI|-The Exodar|
-A You Survived!|QID|9279|LEAD|9280|M|83.01,43.85|Z|1943;Azuremyst Isle|N|From Megelon right in front of you.|R|Draenei|
+A You Survived!|QID|9279|LEAD|9280|M|82.97,43.88|Z|1943;Azuremyst Isle|N|From Megelon.|R|Draenei|
 T You Survived!|QID|9279|M|80.42,45.89|Z|1943;Azuremyst Isle|N|To Proenitus.|
 A Replenishing the Healing Crystals|QID|9280^9369|M|80.42,45.89|Z|1943;Azuremyst Isle|N|From Proenitus.| ;Non-Draenei
 = Power Word: Fortitude|ACTIVE|9280|N|[color=FF0000]NOTE: [/color]As soon as you have 10 copper (or can earn from a vendor), go to Zalduun inside the building and learn Power Word: Fortitude.|SPELL|Power Word: Fortitude;1243|C|Priest|
-C Replenishing the Healing Crystals|QID|9280^9369|M|77.43,42.72|Z|1943;Azuremyst Isle|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|
+C Replenishing the Healing Crystals|QID|9280^9369|M|77.43,42.72|Z|1943;Azuremyst Isle|L|22889 8|ITEM|22889|N|Vale Moths.|T|Vale Moth|
 T Replenishing the Healing Crystals|QID|9280^9369|M|80.42,45.89|Z|1943;Azuremyst Isle|N|To Proenitus.|
 A Urgent Delivery!|QID|9409|PRE|9280^9369|M|80.42,45.89|Z|1943;Azuremyst Isle|N|From Proenitus.| ;Non-Draenei
-T Urgent Delivery!|QID|9409|M|80.17,48.52|Z|1943;Azuremyst Isle|N|To Zaldunn inside the building (he wanders around inside the place a bit).|
-A Rescue the Survivors!|QID|9283|PRE|9409|M|80.17,48.52|Z|1943;Azuremyst Isle|N|From Zaldunn.| ;Non-Draenei
-A Warrior Training|QID|9289|M|79.59,49.43|Z|1943;Azuremyst Isle|N|From Kore.|C|Warrior|
-T Warrior Training|QID|9289|M|79.59,49.43|Z|1943;Azuremyst Isle|N|To Kore.|
+T Urgent Delivery!|QID|9409|M|80.12,48.72|Z|1943;Azuremyst Isle|N|To Zalduun inside the building (he wanders around inside the place a bit).|T|Zalduun|
+A Rescue the Survivors!|QID|9283|PRE|9409|M|PLAYER|CC|N|From Zalduun.|R|Draenei|
 A Paladin Training|QID|9287|M|79.70,48.23|Z|1943;Azuremyst Isle|N|From Aurelon.|C|Paladin|
 T Paladin Training|QID|9287|M|79.70,48.23|Z|1943;Azuremyst Isle|N|To Aurelon.|
 A Hunter Training|QID|9288|M|79.88,49.70|Z|1943;Azuremyst Isle|N|From Kellnel.|C|Hunter|
 T Hunter Training|QID|9288|M|79.88,49.70|Z|1943;Azuremyst Isle|N|To Kellnel.|
+A Warrior Training|QID|9289|M|79.59,49.43|Z|1943;Azuremyst Isle|N|From Kore.|C|Warrior|
+T Warrior Training|QID|9289|M|79.59,49.43|Z|1943;Azuremyst Isle|N|To Kore.|
 A Mage Training|QID|9290|M|79.58,48.77|Z|1943;Azuremyst Isle|N|From Valaatu.|C|Mage|
 T Mage Training|QID|9290|M|79.58,48.77|Z|1943;Azuremyst Isle|N|To Valaatu.|
-A Priest Training|QID|9291|M|80.17,48.52|Z|1943;Azuremyst Isle|N|From Zaldunn.|C|Priest|
-T Priest Training|QID|9291|M|80.17,48.52|Z|1943;Azuremyst Isle|N|To Zaldunn.|
+A Priest Training|QID|9291|M|80.12,48.72|Z|1943;Azuremyst Isle|N|From Zalduun.|C|Priest|
+T Priest Training|QID|9291|M|PLAYER|CC|N|To Zalduun.|
 A Shaman Training|QID|9421|M|79.28,49.11|Z|1943;Azuremyst Isle|N|To Firmanvaar.|C|Shaman|
 T Shaman Training|QID|9421|M|79.28,49.11|Z|1943;Azuremyst Isle|N|To Firmanvaar.|
-= Level 2 Training|AVAILABLE|10302|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 2 Training|AVAILABLE|10302|PRE|9287^9288^9289^9290^9291^9421|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|Z|1943;Azuremyst Isle|N|From Proenitus.|R|Human,Night Elf,Draenei|
 T Botanist Taerix|QID|9371|M|79.13,46.54|Z|1943;Azuremyst Isle|N|To Botanist Taerix around the corner near the Training dummies.|
 A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.13,46.54|Z|1943;Azuremyst Isle|N|From Botanist Taerix, back outside.| ;Non-Draenei
-C Rescue the Survivors!|QID|9283|M|77.45,44.80|Z|1943;Azuremyst Isle|N|Target a Draenei Survivor to the west of you and cast your [color=33fff9]Gift of the Naaru[/color] on them.|T|Draenei Survivor|S|NC|
-C Volatile Mutations|QID|10302|M|77.45,44.80|Z|1943;Azuremyst Isle|N|Kill Volatile Mutations.|
-C Rescue the Survivors!|QID|9283|M|77.45,44.80|Z|1943;Azuremyst Isle|N|Target a Draenei Survivor to the west of you and cast your [color=33fff9]Gift of the Naaru[/color] on them.|T|Draenei Survivor|US|NC|
+C Volatile Mutations|QID|10302|M|77.84,43.30|Z|1943;Azuremyst Isle|N|Kill Volatile Mutations.|S|
+C Rescue the Survivors!|QID|9283|M|77.24,44.78|Z|1943;Azuremyst Isle|N|Target a Draenei Survivor to the west of you and cast your [color=33fff9]Gift of the Naaru[/color] on them.|T|Draenei Survivor|NC|
+C Volatile Mutations|QID|10302|M|77.84,43.30|Z|1943;Azuremyst Isle|N|Kill Volatile Mutations.|T|Volatile Mutation|US|
 T Volatile Mutations|QID|10302|M|79.13,46.54|Z|1943;Azuremyst Isle|N|To Botanist Taerix.|
 A What Must Be Done...|QID|9293|PRE|10302|M|79.13,46.54|Z|1943;Azuremyst Isle|N|From Botanist Taerix.| ;Non-Draenei
 A Botanical Legwork|QID|9799|PRE|10302|M|79.07,46.63|Z|1943;Azuremyst Isle|N|From Apprentice Vishael.| ;Non-Draenei
 C Botanical Legwork|QID|9799|M|73.43,49.14|Z|1943;Azuremyst Isle|L|24416 3|N|Collect the red flowers growing in Ammen Vale.|S|
 C What Must Be Done...|QID|9293|M|73.43,49.14|Z|1943;Azuremyst Isle|L|22934 10|ITEM|22934|N|Mutated Root Lashers.|T|Mutated Root Lasher|
 C Botanical Legwork|QID|9799|M|73.43,49.14|Z|1943;Azuremyst Isle|L|24416 3|N|Collect the red flowers growing in Ammen Vale.|US|
-L Level 4|ACTIVE|9799|N|Grind until you're within 10.5 bubbles of level 4.|LVL|3;-710|
+L Level 4|ACTIVE|9799|N|Grind until you're within 9.5 bubbles of level 4.|LVL|3;-640|R|Draenei|
+L Level 4|ACTIVE|9799|N|Grind until you're within 6 bubbles of level 4.|LVL|3;-420|R|-Draenei| ; One less quest turn-in for non-Draenei
 T Botanical Legwork|QID|9799|M|79.07,46.63|Z|1943;Azuremyst Isle|N|To Apprentice Vishael.| ;250 exp
 T What Must Be Done...|QID|9293|M|79.13,46.54|Z|1943;Azuremyst Isle|N|To Botanist Taerix.| ;170 exp
 A Healing the Lake|QID|9294|PRE|9293|M|79.13,46.54|Z|1943;Azuremyst Isle|N|From Botanist Taerix.| ;Non-Draenei
-T Rescue the Survivors!|QID|9283|M|80.17,48.52|Z|1943;Azuremyst Isle|N|To wandering Zaldunn.| ;290 exp
+T Rescue the Survivors!|QID|9283|M|80.12,48.72|Z|1943;Azuremyst Isle|N|To wandering Zalduun.|T|Zalduun| ;220 exp
 = Level 4 Training|AVAILABLE|9305|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Crash Site|
 A Call of Earth|QID|9449|M|79.28,49.11|Z|1943;Azuremyst Isle|N|To Firmanvaar.|C|Shaman|LVL|4|
-T Call of Earth|QID|9449|M|71.81,40.26|Z|1943;Azuremyst Isle|N|To Spirit of the Vale.|
+T Call of Earth|QID|9449|M|71.81,40.26|Z|1943;Azuremyst Isle|N|To Spirit of the Vale in The Sacred Grove (northwest corner of Ammen Vale).|
 A Call of Earth|QID|9450|PRE|9449|M|71.81,40.26|Z|1943;Azuremyst Isle|N|To Spirit of the Vale.|C|Shaman|
-C Call of Earth|QID|9450|M|70.56,37.07|Z|1943;Azuremyst Isle|N|Kill Restless Spirit of Earth.|
+C Call of Earth|QID|9450|M|70.56,37.07|Z|1943;Azuremyst Isle|N|Kill Restless Spirit of Earth in The Sacred Grove.\n[color=FF0000]NOTE: [/color]Look for the ones with the least health (for obvious reasons).|T|Restless Spirit of Earth|
 T Call of Earth|QID|9450|M|71.81,40.26|Z|1943;Azuremyst Isle|N|To Spirit of the Vale.|
 A Call of Earth|QID|9451|PRE|9450|M|71.81,40.26|Z|1943;Azuremyst Isle|N|To Spirit of the Vale.|C|Shaman|
 T Call of Earth|QID|9451|M|79.28,49.11|Z|1943;Azuremyst Isle|N|To Firmanvaar.|
-A Spare Parts|QID|9305|PRE|10302|M|79.50,51.31|Z|1943;Azuremyst Isle|N|From Technician Zhanaa just outside the south door.| ;Non-Draenei
-N Vindicator Aldar|ACTIVE|9294|AVAILABLE|9303|N|Do not pick up his quest yet because there's a breadcrumb to that quest that you get when you turn in 'Healing The Lake' (which you're currently on).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Healing the Lake|QID|9294|M|77.48,58.11|Z|1943;Azuremyst Isle|N|Use the Neutralizing Agent on the Irradiated Power Crystal in Silverline Lake.|U|22955|NC|
+A Spare Parts|QID|9305|PRE|10302|M|79.42,51.24|Z|1943;Azuremyst Isle|N|From Technician Zhanaa just outside the south door.| ;Non-Draenei
+N Vindicator Aldar|ACTIVE|9294|AVAILABLE|9303|PRE|10302|N|Do not pick up Aldar's quest yet because there's a breadcrumb to his quest that you get when you turn in 'Healing The Lake' (which you're currently on).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Healing the Lake|QID|9294|M|77.36,57.95|Z|1943;Azuremyst Isle|N|Click on the Irradiated Power Crystal in Silverline Lake to use the Neutralizing Agent.|NC|
 T Healing the Lake|QID|9294|M|79.13,46.54|Z|1943;Azuremyst Isle|N|To Botanist Taerix.| ;250 exp
 A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303|M|79.13,46.54|Z|1943;Azuremyst Isle|N|From Botanist Taerix.| ;Non-Draenei
 T Vindicator Aldar|QID|10304|M|79.48,51.61|Z|1943;Azuremyst Isle|N|Speak to Vindicator Aldar.| ;180 exp
@@ -63,38 +64,39 @@ A Inoculation|QID|9303|PRE|10302|M|79.48,51.61|Z|1943;Azuremyst Isle|N|From Vind
 r Sell junk and repair|ACTIVE|9303|M|79.19,50.94|Z|1943;Azuremyst Isle|N|At Mura.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Inoculation|QID|9303|M|85.36,67.57|Z|1943;Azuremyst Isle|N|Use your Inoculating Crystal on Nestlewood Owlkins.\n[color=FF0000]NOTE: [/color]Not the mutated ones.|T|Nestlewood Owlkin|U|22962|S|NC|
 C Spare Parts|QID|9305|M|85.36,67.57|Z|1943;Azuremyst Isle|L|22978 4|N|They are spread all over the camp.\n[color=FF0000]NOTE: [/color]The camp is through the tunnel located in Nestlewood Hills.\nYou can also get there by walking over the top of the hill.|
-C Inoculation|QID|9303|M|85.36,67.57|Z|1943;Azuremyst Isle|N|Use your Inoculating Crystal on Nestlewood Owlkins.\n[color=FF0000]NOTE: [/color]Not the mutated ones.|T|Nestlewood Owlkin|U|22962|US|NC|
-H Ammen Vale|ACTIVE|9303|M|84.29,43.02|Z|1943;Azuremyst Isle|N|Hearth back to Ammen Vale, or run back if your hearthstone isn't available.|R|Draenei|
-T Inoculation|QID|9303|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar.| ;450 exp
+C Inoculation|QID|9303|M|85.36,67.57|Z|1943;Azuremyst Isle|N|Use your Inoculating Crystal on Nestlewood Owlkins.\n[color=FF0000]NOTE: [/color]Not the mutated ones.\nIf the area is busy, go back through the cave and check the hills leading to it.|T|Nestlewood Owlkin|U|22962|US|NC|
+H Ammen Vale|ACTIVE|9303|M|84.29,43.02|Z|1943;Azuremyst Isle|N|Hearth back to Ammen Vale, or run back if your hearthstone isn't available.|R|Draenei| ;Non-Draenei cannot set their hearth to Ammen Vale.
+T Inoculation|QID|9303|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar at The Crash Site.| ;450 exp
 A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|Z|1943;Azuremyst Isle|N|From Vindicator Aldar.| ;Non-Draenei
-T Spare Parts|QID|9305|M|79.50,51.31|Z|1943;Azuremyst Isle|N|To Technician Zhanaa.| ;360 exp
+T Spare Parts|QID|9305|M|79.42,51.24|Z|1943;Azuremyst Isle|N|To Technician Zhanaa.| ;360 exp
 T The Missing Scout|QID|9309|M|72.01,60.84|Z|1943;Azuremyst Isle|N|To Tolaan.|
 A The Blood Elves|QID|10303|PRE|9309|M|72.01,60.84|Z|1943;Azuremyst Isle|N|From Tolaan.| ;Non-Draenei
+l Blood Elf Plans|AVAILABLE|9798|PRE|9309|M|69.27,65.76|Z|1943;Azuremyst Isle|L|24414|ITEM|24414|N|Surveyor Candress.|IZ|Shadow Ridge|S!US|
+A Blood Elf Plans|QID|9798|M|PLAYER|CC|N|From the Blood Elf Plans.|U|24414|O|
 C The Blood Elves|QID|10303|M|70.56,61.90|Z|1943;Azuremyst Isle|N|Kill Blood Elf Scouts.|T|Blood Elf Scout|
 T The Blood Elves|QID|10303|M|72.01,60.84|Z|1943;Azuremyst Isle|N|To Tolaan.|
 A Blood Elf Spy|QID|9311|PRE|10303|M|72.01,60.84|Z|1943;Azuremyst Isle|N|From Tolaan.| ;Non-Draenei
-C Blood Elf Spy|QID|9311|M|69.80,65.32|Z|1943;Azuremyst Isle|N|Kill Surveyor Candress in front of a tent at the top of the ridge.|T|Surveyor Candress|
-C Blood Elf Plans|QID|9311|M|69.27,65.76|Z|1943;Azuremyst Isle|L|24414|ITEM|24414|N|Surveyor Candress.|
-A Blood Elf Plans|QID|9798|PRE|9309|M|69.80,65.32|Z|1943;Azuremyst Isle|N|From the Blood Elf Plans.|U|24414|O|
-T Blood Elf Spy|QID|9311|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar.|
-T Blood Elf Plans|QID|9798|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|79.48,51.61|Z|1943;Azuremyst Isle|N|From Vindicator Aldar.| ;Non-Draenei
-T The Emitter|QID|9312|M|79.50,51.31|Z|1943;Azuremyst Isle|N|To Technician Zhanaa.|
-A Travel to Azure Watch|QID|9313|PRE|9312|M|79.50,51.31|Z|1943;Azuremyst Isle|N|From Technician Zhanaa.| ;Non-Draenei
+C Blood Elf Spy|QID|9311|M|69.80,65.32|Z|1943;Azuremyst Isle|N|Kill Surveyor Candress at the tent on top of Shadow Ridge.\n[color=FF0000]NOTE: [/color]She's not alone and attacking either one will draw the other too.|T|Surveyor Candress|
+L Level 6|ACTIVE|9798|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-1235|
+L Level 6|AVAILABLE|9798|N|Grind until you're within 4.5 bubbles of level 6.|LVL|5;-785|
+T Blood Elf Spy|QID|9311|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar.| ;675 exp
+T Blood Elf Plans|QID|9798|M|79.48,51.61|Z|1943;Azuremyst Isle|N|To Vindicator Aldar.| ;450 exp
+A The Emitter|QID|9312|PRE|9305|M|79.48,51.61|Z|1943;Azuremyst Isle|N|From Vindicator Aldar.| ;Non-Draenei
+T The Emitter|QID|9312|M|79.42,51.24|Z|1943;Azuremyst Isle|N|To Technician Zhanaa.| ;110 exp
+A Travel to Azure Watch|QID|9313|PRE|9312|M|79.42,51.24|Z|1943;Azuremyst Isle|N|From Technician Zhanaa.| ;Non-Draenei
 r Sell junk and repair|AVAILABLE|9314|M|79.19,50.94|Z|1943;Azuremyst Isle|N|At Mura.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Word from Azure Watch|QID|9314|M|64.49,54.04|Z|1943;Azuremyst Isle|N|From Aeun.| ;Non-Draenei
+= Level 6 Training|AVAILABLE|9314|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Crash Site|
+A Word from Azure Watch|QID|9314|M|64.49,54.04|Z|1943;Azuremyst Isle|N|From Aeun.\n[color=FF0000]NOTE: [/color]You're leaving Ammen Vale now.| ;Non-Draenei
 A Red Snapper - Very Tasty!|QID|9452|M|61.05,54.25|Z|1943;Azuremyst Isle|N|From Diktynna.| ;Non-Draenei
 = Learn Fishing|ACTIVE|9452|M|61.05,54.25|Z|1943;Azuremyst Isle|N|Learn fishing from Diktynna for 95c.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested, or you can't afford it.|SPELL|Fishing;7620|
-C Red Snapper - Very Tasty!|QID|9452|M|62.31,55.11|Z|1943;Azuremyst Isle|L|23654 10|N|Use the Draenei Fishing Net on the Schools of Red Snapper along the shore.\n[color=FF0000]NOTE: [/color]Sometimes, an Angry Murloc will spawn and you'll have to kill him first.|U|23654|
-L Level 6|ACTIVE|9452|N|Grind until you're within 10.5 bubbles of level 6.|LVL|5;-710|
+C Red Snapper - Very Tasty!|QID|9452|M|61.35,50.15|Z|1943;Azuremyst Isle|L|23614 10|N|Use the Draenei Fishing Net on the Schools of Red Snapper along the shore.\n[color=FF0000]NOTE: [/color]Sometimes, an Angry Murloc will spawn and you'll have to kill him first.\nThe spawnpoints are static and respawn rather quickly.|U|23654|
 T Red Snapper - Very Tasty!|QID|9452|M|61.05,54.25|Z|1943;Azuremyst Isle|N|To Diktynna.| ;550 exp
 A Find Acteon!|QID|9453|PRE|9452|M|61.05,54.25|Z|1943;Azuremyst Isle|N|From Diktynna.| ;Non-Draenei
 T Find Acteon!|QID|9453|M|49.78,51.94|Z|1943;Azuremyst Isle|N|To Acteon in Azure Watch.| ;55 exp
 A The Great Moongraze Hunt|QID|9454|M|49.78,51.94|Z|1943;Azuremyst Isle|N|From Acteon.| ;Non-Draenei
-T Travel to Azure Watch|QID|9313|M|48.72,50.28|Z|1943;Azuremyst Isle|N|To Technician Dyvuun.| ;550 exp
+T Travel to Azure Watch|QID|9313|M|48.65,50.22|Z|1943;Azuremyst Isle|N|To Technician Dyvuun.| ;550 exp
 h Azure Watch|ACTIVE|9314|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 T Word from Azure Watch|QID|9314|M|48.34,49.14|Z|1943;Azuremyst Isle|N|To Caregiver Chellan.|
-= Level 6 Training|AVAILABLE|9463|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Azure Watch|
 A Help Tavara|QID|9586|M|48.59,49.29|Z|1943;Azuremyst Isle|N|From Guvan.|R|-Night Elf|C|Priest|
 = Professions|AVAILABLE|9463|M|PLAYER|CC|N|Learn your primary professions from the various trainers around Azure Watch.\n[color=FF0000]NOTE: [/color]There is no cooking trainer here, only First Aid.CONT|
 = First Aid|AVAILABLE|9463|M|PLAYER|CC|N|Learn Apprentice First Aid from Anchorite Fateema for 95c.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested, or you can't afford it.|SPELL|First Aid;3273|
@@ -119,8 +121,8 @@ A A Small Start|QID|9506|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odes
 = Cooking|AVAILABLE|9512|M|46.68,70.54|Z|1943;Azuremyst Isle|N|Learn Apprentice Cooking from "Cookie" McWeaksauce for 95c.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested, or you can't afford it.|SPELL|Cooking;2550|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.54|Z|1943;Azuremyst Isle|N|From "Cookie" McWeaksauce.| ;Non-Draenei
 C Cookie's Jumbo Gumbo|QID|9512|M|59.82,69.97|Z|1943;Azuremyst Isle|L|23757 6|ITEM|23757|N|Skittering Crawlers.|S|
-C A Small Start|QID|9506|M|58.61,66.38|Z|1943;Azuremyst Isle|L|23738|N|Pick up the Nautical Map at the first set of tents in Geezle's Camp.|
-C A Small Start|QID|9506|M|59.56,67.62|Z|1943;Azuremyst Isle|L|23739|N|Pick up the Nautical Compass at the first set of tents in Geezle's Camp.|
+C A Small Start|QID|9506|M|58.61,66.38|Z|1943;Azuremyst Isle|L|23739|N|Pick up the Nautical Map at the first set of tents in Geezle's Camp.|
+C A Small Start|QID|9506|M|59.58,67.63|Z|1943;Azuremyst Isle|L|23738|N|Pick up the Nautical Compass at the second set of tents in Geezle's Camp.|
 C Cookie's Jumbo Gumbo|QID|9512|M|45.66,74.79|Z|1943;Azuremyst Isle|L|23757 6|ITEM|23757|N|Skittering Crawlers.|T|Skittering Crawler|US|
 T A Small Start|QID|9506|M|47.04,70.22|Z|1943;Azuremyst Isle|N|To Admiral Odesyus.|
 A I've Got a Plant|QID|9530|PRE|9506|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odesyus.| ;Non-Draenei
@@ -132,7 +134,7 @@ C I've Got a Plant|QID|9530|M|38.67,70.38|Z|1943;Azuremyst Isle|L|23791 5;23790|
 C Reclaiming the Ruins|QID|9513|M|39.18,78.15|Z|1943;Azuremyst Isle|N|Kill the required Nagas.|S|
 l Rune Covered Tablet|AVAILABLE|9514|M|39.18,78.15|Z|1943;Azuremyst Isle|L|23759|ITEM|23759|N|any Wrathscale Naga around the area.|S|IZ|Wrathscale Point|
 A Rune Covered Tablet|QID|9514|M|PLAYER|CC|N|From the Rune Covered Tablet.|U|23759|O| ;Non-Draenei
-C Precious and Fragile Things Need Special Handling|QID|9523|M|24.97,73.00|Z|1943;Azuremyst Isle|N|Collect the Relics from around Wrathscale Point.\n[color=FF0000]NOTE: [/color]They have static spawn points.|
+C Precious and Fragile Things Need Special Handling|QID|9523|M|27.76,78.10|Z|1943;Azuremyst Isle|L|23779 8|N|Collect the Relics from around Wrathscale Point.\n[color=FF0000]NOTE: [/color]They have static spawn points./nIf required, you can find more inside Tides' Hollow.|
 C Reclaiming the Ruins|QID|9513|M|39.18,78.15|Z|1943;Azuremyst Isle|N|Kill the required Nagas.|US|
 C I've Got a Plant|QID|9530|M|47.31,61.83|Z|1943;Azuremyst Isle|L|23791 5;23790|N|Finish collecting what you need.\n[color=FF0000]NOTE: [/color]They have static spawn points.|US|
 L Level 8|AVAILABLE|9531|N|Grind until you're level 8.|LVL|8|
@@ -141,7 +143,7 @@ T I've Got a Plant|QID|9530|M|47.04,70.22|Z|1943;Azuremyst Isle|N|To Admiral Ode
 A Tree's Company|QID|9531|PRE|9530|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odesyus.| ;Non-Draenei
 T Reclaiming the Ruins|QID|9513|M|47.13,70.27|Z|1943;Azuremyst Isle|N|To Priestess Kyleen Il'dinare.\n[color=FF0000]NOTE: [/color]You may not be able to interact with her while someone else is turning the quest in.|
 T Rune Covered Tablet|QID|9514|M|47.13,70.27|Z|1943;Azuremyst Isle|N|To Priestess Kyleen Il'dinare.|
-A Warlord Sriss'tiz|QID|9515|PRE|9514|M|47.13,70.27|Z|1943;Azuremyst Isle|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.| ;Non-Draenei
+A Warlord Sriss'tiz|QID|9515|PRE|9514|M|47.13,70.27|Z|1943;Azuremyst Isle|N|From Priestess Kyleen Il'dinare once they finish their dialog.| ;Non-Draenei
 R Azure Watch|AVAILABLE|10428|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Run to Azure Watch.\n[color=FF0000]NOTE: [/color]Using your hearth at this point in time is not advised as you're going to need it shortly and it may still be on cooldown when you do.|
 = Level 8 Training|AVAILABLE|10428|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Azure Watch|
 T Help Tavara|QID|9586|M|48.59,49.29|Z|1943;Azuremyst Isle|N|To Guvan.|
@@ -160,21 +162,20 @@ T Learning the Language|QID|9538|M|49.44,50.98|Z|1943;Azuremyst Isle|N|To the To
 A Totem of Coo|QID|9539|PRE|9538|M|49.44,50.98|Z|1943;Azuremyst Isle|N|From the Totem of Akida.| ;Non-Draenei
 T Totem of Coo|QID|9539|M|55.23,41.64|Z|1943;Azuremyst Isle|N|To the Totem of Coo.\n[color=FF0000]NOTE: [/color]You don't need to follow the Ancestor there.|
 A Totem of Tikti|QID|9540|PRE|9539|M|55.23,41.64|Z|1943;Azuremyst Isle|N|From the Totem of Coo.| ;Non-Draenei
-T Totem of Tikti|QID|9540|M|64.47,39.79|Z|1943;Azuremyst Isle|N|To the Totem of Tikti.\n[color=FF0000]NOTE: [/color]AFTER you receive the "Ghost Walk" buff, jump off the cliff to the east side and continue running east until you cross the river.|
+T Totem of Tikti|QID|9540|M|64.47,39.79|Z|1943;Azuremyst Isle|N|To the Totem of Tikti.\n[color=FF0000]NOTE: [/color]AFTER you receive the "Ghost Walk" buff, jump off the cliff to the east side and continue running east until you cross the river (you can walk on water).|
 A Totem of Yor|QID|9541|PRE|9540|M|64.47,39.79|Z|1943;Azuremyst Isle|N|From the Totem of Tikti.| ;Non-Draenei
 T Totem of Yor|QID|9541|M|63.13,67.88|Z|1943;Azuremyst Isle|N|To the Totem of Yor.\n[color=FF0000]NOTE: [/color]AFTER you receive the "Embrace of the Serpent" buff, walk into the water and swim south to the southern estuary.|
 A Totem of Vark|QID|9542|PRE|9541|M|63.13,67.88|Z|1943;Azuremyst Isle|N|From the Totem of Yor.| ;Non-Draenei
 R Shadow of the Forest Buff|ACTIVE|9542|M|61.04,69.45|Z|1943; Azuremyst Isle|N|Follow Stillpine Ancestor Yor out of the water and wait for him to cast it on you.\n[color=FF0000]NOTE: [/color]If, for whatever reason, you cannot get the buff, manually check this step off to continue.|BUFF|30448|
 R Nightstalker Clean Up, Isle 2...|ACTIVE|9542&9456|M|34.96,58.29|CC|Z|1943;Azuremyst Isle|N|AFTER you get the 3 minute buff, immediately run straight to the waypoint.\n[color=FF0000]NOTE: [/color]You don't need the buff to do this; it just makes the run faster and a lot less eventful.|
-N Remove Buff|ACTIVE|9542&9456|M|30.94,56.87|Z|1943;Azuremyst Isle|N|Right-click your buff to return to the normal world.|BUFF|-30448|
+N Remove Buff|ACTIVE|9542&9456|M|34.54,55.38|Z|1943;Azuremyst Isle|N|Right-click your buff to return to the normal world.\n[color=FF0000]NOTE: [/color]It might be best to do it while standing in the water because you have no idea what's standing near you and there's nothing in the water.|BUFF|-30448|
 C Nightstalker Clean Up, Isle 2...|QID|9456|M|30.94,56.87|Z|1943;Azuremyst Isle|N|Kill Infected Nightstalker Runts.|T|Infected Nightstalker Runt|US|
 T Totem of Vark|QID|9542|M|28.11,62.39|Z|1943;Azuremyst Isle|N|To the Totem of Vark.|
 A The Prophecy of Akida|QID|9544|PRE|9542|M|28.11,62.39|Z|1943;Azuremyst Isle|N|From the Totem of Vark.| ;Non-Draenei
-l Bristlelimb Key|ACTIVE|9544|QO|1|M|26.90,65.55|Z|1943;Azuremyst Isle|L|23801 8|ITEM|23801|N|Bristlelimb Furbolgs in the camp near the Totem.\n[color=FF0000]NOTE: [/color]If you wish, you can open the cages as you collect these; this step will auto-complete if you finish.|T|Bristlelimb|
-l Bristlelimb Key|QID|9544|QO|1|ACTIVE|9544|M|26.90,65.55|Z|1943;Azuremyst Isle|L|23801 8|ITEM|23801|N|Bristlelimb Furbolgs in the camp near the Totem.\n[color=FF0000]NOTE: [/color]If you wish, you can open the cages as you collect these; this step will auto-complete if you finish.|T|Bristlelimb|
+l Bristlelimb Key|ACTIVE|9544|QO|1|M|26.90,65.55|Z|1943;Azuremyst Isle|L|23801 8|ITEM|23801|N|Bristlelimb Furbolgs in the camp near the Totem.\n[color=FF0000]NOTE: [/color]If you wish, you can open the cages as you collect these; this step will auto-complete if you finish.|T|Bristlelimb|S!US|
 C The Prophecy of Akida|QID|9544|M|26.90,65.55|Z|1943;Azuremyst Isle|N|Open the cages to free the Captives.\n[color=FF0000]NOTE: [/color]You need 1 key per cage.|
-C Warlord Sriss'tiz|QID|9515|M|27,77;26.34,73.90;25.12,74.19|CS|Z|1943;Azuremyst Isle|N|Kill Warlord Sriss'Tiz inside Tides Hollow, the cave in Wrathscale Point.\n[color=FF0000]NOTE: [/color]To take a shortcut, drop down the hole just inside the cave.|
-R Wrathscale Point|AVAILABLE|9528|M|26.11,77.63|Z|1943;Azuremyst Isle|N|Work your way out of Tides Hollow.\n[color=FF0000]NOTE: [/color]The shortcut is a one way trip.|IZ|Tides Hollow|
+C Warlord Sriss'tiz|QID|9515|M|27,77;26.34,73.90;25.12,74.19|CS|Z|1943;Azuremyst Isle|N|Kill Warlord Sriss'Tiz inside Tides' Hollow, the cave in Wrathscale Point.\n[color=FF0000]NOTE: [/color]To take a shortcut, drop down the hole just inside the cave.|
+R Wrathscale Point|AVAILABLE|9528|M|26.11,77.63|Z|1943;Azuremyst Isle|N|Work your way out of Tides' Hollow.\n[color=FF0000]NOTE: [/color]The shortcut is a one way trip.|IZ|Tides' Hollow|
 R Silvermyst Isle|AVAILABLE|9528|M|18.48,84.33|Z|1943;Azuremyst Isle|N|Swim across to Silvermyst Isle.|TZ|Traitor's Cove|
 C Tree's Company|QID|9531|M|18.48,84.33|Z|1943;Azuremyst Isle|N|While standing beside the Naga Flag in Traitor's Cove, use your Tree Disguise Kit and wait for the complete message.\n[color=FF0000]NOTE: [/color]Only one person can do it at a time!|U|23792|
 N Buff: Tree Disguise|ACTIVE|9528|M|PLAYER|CC|N|Dismiss your Tree Disguise if you don't want to wait for it to expire.|BUFF|30298|
@@ -190,12 +191,17 @@ T All That Remains|QID|9527|M|16.59,94.46|Z|1943;Azuremyst Isle|N|To Cowlen.| ; 
 H Azure Watch|QID|9544|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|M|49.37,51.09|Z|1943;Azuremyst Isle|N|To Arugoo of the Stillpine.| ; 1250 exp
 A Stillpine Hold|QID|9559|PRE|9544|M|49.37,51.09|Z|1943;Azuremyst Isle|N|From Arugoo of the Stillpine.| ;Non-Draenei
+;* Bristlelimb Key|PRE|9544|M|PLAYER|CC|N|You can safely delete any remaining keys you may have.|U|23801| ** Turns out you cannot delete them because they're on the keyring and therefore don't need to be removed. - Hendo72
 T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.12,50.61|Z|1943;Azuremyst Isle|N|To Exarch Menelaous.| ; 700 exp
 A Coming of Age|QID|9623|M|47.12,50.61|Z|1943;Azuremyst Isle|N|From Exarch Menelaous.|LVL|10| ;Non-Draenei
 = Level 10 Training|ACTIVE|9515|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|IZ|Azure Watch|
 ; Level 10 Class Quests
+; Warrior
 ;A Strength of One|QID|9582|M|50.02,50.52|Z|1943;Azuremyst Isle|N|From Ruada.|R|Draenei|C|Warrior|LVL|10|
-A Call of Fire|QID|9464|M|48.06,50.44|Z|1943;Azuremyst Isle|N|From Tuluun.|C|Shaman|LVL|10|
+;
+; Shaman
+;
+; Hunter
 A Seek Huntress Kella Nightbow|QID|9757|M|49.78,51.93|Z|1943;Azuremyst Isle|N|From Acteon.|C|Hunter|LVL|10|
 T Seek Huntress Kella Nightbow|QID|9757|M|24.19,54.34|Z|1943;Azuremyst Isle|N|To Huntress Kella Nightbow.|
 A Taming the Beast|QID|9591|PRE|9757|M|24.19,54.34|Z|1943;Azuremyst Isle|N|From Huntress Kella Nightbow.|C|Hunter|
@@ -209,26 +215,32 @@ C Taming the Beast|QID|9593|M|36.07,41.44|Z|1943;Azuremyst Isle|N|Use the Taming
 T Taming the Beast|QID|9593|M|24.19,54.34|Z|1943;Azuremyst Isle|N|To Huntress Kella Nightbow.|
 A Beast Training|QID|9675|PRE|9593|M|24.19,54.34|Z|1943;Azuremyst Isle|N|From Huntress Kella Nightbow.|C|Hunter|
 T Beast Training|QID|9675|M|44.25,86.62|Z|1947;The Exodar|N|To Ganaar.|
+
 r Sell junk and repair|ACTIVE|9515|M|49.69,52.75|Z|1943;Azuremyst Isle|N|At Kioni.|
 R Odesyus' Landing|ACTIVE|9515|M|46.11,72.16|Z|1943;Azuremyst Isle|N|Head to Odesyus' Landing... again...|
 T Warlord Sriss'tiz|QID|9515|M|47.13,70.27|Z|1943;Azuremyst Isle|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|M|47.04,70.22|Z|1943;Azuremyst Isle|N|To Admiral Odesyus.|
 A Show Gnomercy|QID|9537|PRE|9531|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odesyus.| ;Non-Draenei
-C Show Gnomercy|QID|9537|M|48.28,72.22|Z|1943;Azuremyst Isle|N|Engineer "Spark" Overgrind.\n[color=FF0000]NOTE: [/color]After you find Overgrind on the beach, talking to him will provoke an attack on you when the chat is over.|T|Engineer "Spark" Overgrind|
+C Show Gnomercy|QID|9537|M|48.28,72.22|Z|1943;Azuremyst Isle|L|23899|ITEM|23899|N|Engineer "Spark" Overgrind.\n[color=FF0000]NOTE: [/color]After you find Overgrind on the beach, talking to him will provoke an attack on you when the chat is over.|T|Engineer "Spark" Overgrind|
 T Show Gnomercy|QID|9537|M|47.04,70.22|Z|1943;Azuremyst Isle|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.04,70.22|Z|1943;Azuremyst Isle|N|From Admiral Odesyus.| ;Non-Draenei
-H Azure Watch|QID|9602|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Or run if your Hearthstone is on cooldown.|
+R The Exodar|AVAILABLE|9462|LEAD|9464|M|87.45,65.01|Z|1943;Azuremyst Isle|N|Run to the Exodar to pick up your level 10 quest.NOTE This is only a breadcrumb worth ~200 exp.\nSkip this step if you don't want to bother with it.|R|Draenei|C|Shaman|LVL|10|
+A Call of Fire|QID|9462|LEAD|9464|M|32.46,23.99|Z|1947;The Exodar|N|From Sulaa in The Crystal Hall.|R|Draenei|C|Shaman|LVL|10|IZ|1947;The Exodar|
+H Azure Watch|ACTIVE|9602|M|48.34,49.14|Z|1943;Azuremyst Isle|N|Or run if your Hearthstone is on cooldown.|
 T Deliver Them From Evil...|QID|9602|M|47.12,50.61|Z|1943;Azuremyst Isle|N|To Exarch Menelaous.|
+T Call of Fire|QID|9462|M|48.06,50.44|Z|1943;Azuremyst Isle|N|To Tuluun.|
+A Call of Fire|QID|9464|M|48.06,50.44|Z|1943;Azuremyst Isle|N|From Tuluun.|C|Shaman|LVL|10|
 ; Stillpine Hold
 R Stillpine Hold|QID|9559|M|45.69,24.69|Z|1943;Azuremyst Isle|N|Follow the road north out of Azure Watch.|
 A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.77,23.90|Z|1943;Azuremyst Isle|N|From Moordo.| ;Non-Draenei
+= Leatherworking|ACTIVE|9559|M|44.77,23.90|Z|1943;Azuremyst Isle|N|Learn Apprentice Leatherworking from Moordo for 10c.\n[color=FF0000]NOTE: [/color]Skip this step to continue if you're not interested.|SPELL|Apprentice Leatherworking;2108|
 A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.63,23.48|Z|1943;Azuremyst Isle|N|From Gurf.| ;Non-Draenei
 = Skinning|ACTIVE|9559|M|44.63,23.48|Z|1943;Azuremyst Isle|N|Learn Apprentice Skinning from Gurf for 10c.\n[color=FF0000]NOTE: [/color]Skip this step to continue if you're not interested.|SPELL|Apprentice Skinning;8613|
-B Skinning Knife|ACTIVE|9559|M|43.97,21.19|Z|1943;Azuremyst Isle|L|7005|ITEM|7005|N| from Ergh of the Stillpine for 55c.|P|Skinning;393;0|
+B Skinning Knife|ACTIVE|9559|M|43.97,21.19|Z|1943;Azuremyst Isle|L|7005|ITEM|7005|N| from Ergh of the Stillpine for 82c.|P|Skinning;393;0|
 T Stillpine Hold|QID|9559|M|46.68,20.63|Z|1943;Azuremyst Isle|N|To High Chief Stillpine.|
-T Call of Fire|QID|9464|M|59.52,17.95|Z|1943;Azuremyst Isle|N|To Temper.|
-A Call of Fire|QID|9465|PRE|9464|M|59.52,17.95|Z|1943;Azuremyst Isle|N|From Temper.|C|Shaman|
 C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|Z|1943;Azuremyst Isle|L|23845 8|ITEM|23845|N|Ravagers at the Menagerie Wreckage.|S|
+T Call of Fire|QID|9464|M|59.52,17.95|Z|1943;Azuremyst Isle|N|To Temper in Emberglade.|
+A Call of Fire|QID|9465|PRE|9464|M|59.52,17.95|Z|1943;Azuremyst Isle|N|From Temper.|C|Shaman|
 ;C Strength of One|QID|9582|M|54.06,9.84|Z|1943;Azuremyst Isle|N|Click on cage and kill Death Ravager.|R|Draenei|C|Warrior|
 C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|Z|1943;Azuremyst Isle|L|23845 8|ITEM|23845|N|Ravagers at the Menagerie Wreckage.|T|Ravager|US|
 T Beasts of the Apocalypse!|QID|9560|M|44.77,23.90|Z|1943;Azuremyst Isle|N|To Moordo.|
@@ -240,22 +252,22 @@ T Murlocs... Why Here? Why Now?|QID|9562|M|44.63,23.48|Z|1943;Azuremyst Isle|N|T
 T Gurf's Dignity|QID|9564|M|44.63,23.48|Z|1943;Azuremyst Isle|N|To Gurf.|
 A Search Stillpine Hold|QID|9565|PRE|9560&9562|M|46.68,20.63|Z|1943;Azuremyst Isle|N|From High Chief Stillpine.| ;Non-Draenei
 A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|Z|1943;Azuremyst Isle|N|From Stillpine the Younger.| ;Non-Draenei
-C Call of Fire|QID|9465|M|46.94,15.10|Z|1943;Azuremyst Isle|N|While you are killing Wildkin keep an eye out for the torch.|C|Shaman|S|
+C Call of Fire|QID|9465|M|46.94,15.10|Z|1943;Azuremyst Isle|L|23733|ITEM|23733|N|Crazed Wildkin.|S|
 C Chieftain Oomooroo|QID|9573|QO|2|M|47.43,14.18|Z|1943;Azuremyst Isle|N|Kill Crazed Wildkin.|S|
 C Chieftain Oomooroo|QID|9573|QO|1|M|45.39,18.06;47.43,14.18|CS|Z|1943;Azuremyst Isle|N|Kill Chieftain Oomooroo.\n[color=FF0000]NOTE: [/color]Enter Stillpine Hold and up the path to the right.|T|Chieftain Oomooroo|
 C Chieftain Oomooroo|QID|9573|QO|2|M|48.23,15.58|Z|1943;Azuremyst Isle|N|Kill Crazed Wildkin.|US|
-C Call of Fire|QID|9465|M|46.94,15.10|Z|1943;Azuremyst Isle|N|While you are killing Wildkin keep an eye out for the torch.|C|Shaman|US|
 T Chieftain Oomooroo|QID|9573|M|46.90,21.16|Z|1943;Azuremyst Isle|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943;Azuremyst Isle|N|From Kurz the Revelator.| ;Non-Draenei
 C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|Z|1943;Azuremyst Isle|L|23860|ITEM|23860|N|The Kurken.\n[color=FF0000]NOTE: [/color]Reenter Stillpine Hold, but this time take the path down to the left.\nIf it's not there, you're waiting for it to respawn.|T|The Kurken|
 T Search Stillpine Hold|QID|9565|M|50.57,11.49|Z|1943;Azuremyst Isle|N|To the Blood Crystal.|
-A Blood Crystals|QID|9566|PRE|9565|M|50.57,11.49|Z|1943;Azuremyst Isle|N|From the Blood Crystal.Note When you accept this quest, make sure you're at full health with your back facing the wall, as two owlkin will spawn in the water and attack you.|NA| ;Non-Draenei
-T Blood Crystals|QID|9566|M|46.68,20.63|Z|1943;Azuremyst Isle|N|To High Chief Stillpine.|
-T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943;Azuremyst Isle|N|To Kurz the Revelator.|
+A Blood Crystals|QID|9566|PRE|9565|M|50.57,11.49|Z|1943;Azuremyst Isle|N|From the Blood Crystal.\n[color=FF0000]NOTE: [/color]When you manually accept this quest, make sure you're at full health with your back facing the wall, as two Wildkin will spawn in the water and attack you.|NA| ;Non-Draenei
+C Call of Fire|QID|9465|M|46.94,15.10|Z|1943;Azuremyst Isle|L|23733|ITEM|23733|N|Crazed Wildkin.|US|
+T Blood Crystals|QID|9566|M|46.68,20.63|Z|1943;Azuremyst Isle|N|To High Chief Stillpine.| ;625 exp
+T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943;Azuremyst Isle|N|To Kurz the Revelator.| ;1150 exp
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|Z|1943;Azuremyst Isle|N|From Kurz the Revelator.| ;Non-Draenei
 A Warn Your People|QID|9622|PRE|9566&9570&9573|M|46.68,20.63|Z|1943;Azuremyst Isle|N|From High Chief Stillpine.| ;Non-Draenei
-T The Kurken's Hide|QID|9571|M|44.77,23.90|Z|1943;Azuremyst Isle|N|To Moordo.|
-T Call of Fire|QID|9465|M|59.52,17.95|Z|1943;Azuremyst Isle|N|To Temper.|
+T The Kurken's Hide|QID|9571|M|44.77,23.90|Z|1943;Azuremyst Isle|N|To Moordo.| ;85 exp
+T Call of Fire|QID|9465|M|59.52,17.95|Z|1943;Azuremyst Isle|N|To Temper in Emberglade.|
 A Call of Fire|QID|9467|PRE|9465|M|59.52,17.95|Z|1943;Azuremyst Isle|N|From Temper.|C|Shaman|
 C Call of Fire|QID|9467|M|11.25,82.56|Z|1943;Azuremyst Isle|N|Kill the fire elemental that spawns when you click the Scarecrow.|
 T Call of Fire|QID|9467|M|59.52,17.95|Z|1943;Azuremyst Isle|N|To Temper.\n[color=FF0000]NOTE: [/color]Use the Orb of Returning.|U|24335|
@@ -267,8 +279,8 @@ A Call of Fire|QID|9461|PRE|9468|M|48.07,50.48|Z|1943; Azuremyst Isle|N|From Tul
 ;T Strength of One|QID|9582|M|54.06,9.84|Z|1943;Azuremyst Isle|N|Click on cage and kill Death Ravager.|R|Draenei|C|Warrior|
 A Behomat|QID|10350|M|50.01,50.52|Z|1943;Azuremyst Isle|N|From Ruada.|C|Warrior|
 r Sell junk and repair|QID|9623|M|49.69,52.75|Z|1943;Azuremyst Isle|N|At Kioni.|
+L Level 12|ACTIVE|9623|M|81.64,51.70|Z|1947;The Exodar|N|Grind until you're level 12.|LVL|11;-90|
 T Behomat|QID|10350|M|55.58,82.36|Z|1947;The Exodar|N|To Behomat.|C|Warrior|
-L Level 12|ACTIVE|9623|N|Grind until you're level 12.|LVL|12|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|1947;The Exodar|N|To Torallius the Pack Handler standing outside The Exodar.| ; 90 exp
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|1947;The Exodar|N|From Torallius the Pack Handler.|
 = Level 12 Training|AVAILABLE|9634|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|The Exodar|
