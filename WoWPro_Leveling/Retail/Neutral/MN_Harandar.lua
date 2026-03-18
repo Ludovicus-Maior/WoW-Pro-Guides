@@ -575,5 +575,6 @@ C Reticent Evil|QID|91381|M|45.66,66.85|Z|2413; Harandar|QO|2|N|Slay Zombified G
 T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
 
 T O.K. Bloomer|QID|92739|M|31.39,64.97|Z|2413; Harandar|N|To Hannan.|
+N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
 ]]
 end)

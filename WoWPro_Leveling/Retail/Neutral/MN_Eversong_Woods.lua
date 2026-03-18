@@ -169,7 +169,7 @@ A Academic Aspirations|QID|87002|PRE|86998|M|38.49,18.73|Z|2395; Eversong Woods|
 C Academic Aspirations|QID|87002|M|38.09,18.08|Z|2395; Eversong Woods|QO|2|N|Tytalor Goldenblade defeated.|
 T Academic Aspirations|QID|87002|M|39.34,17.26|Z|2395; Eversong Woods|N|To Tytalor Goldenblade.|
 C A Test of the Arcane|QID|91292|M|41.83,20.27|Z|2395; Eversong Woods|QO|1|NC|N|Charge Staff.|
-C A Test of the Hunt|QID|91288|M|42.02,16.04|Z|2395; Eversong Woods|QO|1|S|N|Finish up collecting the Invasive Lynx pelts.|
+C A Test of the Hunt|QID|91288|M|42.02,16.04|Z|2395; Eversong Woods|QO|1|US|N|Finish up collecting the Invasive Lynx pelts.|
 T A Test of the Arcane|QID|91292|M|43.20,14.64|Z|2395; Eversong Woods|N|To Magister Jaronis.|
 C A Path Not Yet Chosen|QID|91284|M|43.20,14.64|Z|2395; Eversong Woods|QO|3|NC|N|Magister Recommendation.|
 T A Test of the Hunt|QID|91288|M|42.20,13.31|Z|2395; Eversong Woods|N|To Ranger Hannovia.|
@@ -185,7 +185,21 @@ C A Small Task|QID|89199|M|54.02,34.03|Z|2393; Silvermoon City|QO|1|NC|N|Pick up
 C A Small Task|QID|89199|M|53.96,33.06|Z|2393; Silvermoon City|QO|2|NC|N|Click on the Arcane Resevoirs floating around the edges of the room.|
 T A Small Task|QID|89199|M|54.04,33.72|Z|2393; Silvermoon City|N|To Magister Aradis.|
 A Unraveling Wards|QID|89200|PRE|89199|M|54.04,33.72|Z|2393; Silvermoon City|N|From Magister Aradis.|
-C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|1|NC|N|Click the purple orb to sabotage, then click it again to get transported to the next, keep doing it till all are done.|
+C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|1<1|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|2<1|H|N|Click the conduit to get transported to the next ward.|
+
+C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|1<2|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|2<2|H|N|Click the conduit to get transported to the next ward.|
+
+C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|1<3|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|2<3|H|N|Click the conduit to get transported to the next ward.|
+
+C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|1<4|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|2<4|H|N|Click the conduit to get transported to the next ward.|
+
+C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|1<5|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|2<5|H|N|Click the conduit to get transported to the next ward.|
+
 T Unraveling Wards|QID|89200|M|37.25,74.20|Z|2393; Silvermoon City|N|To Magister Aradis.|
 A Outschemed|QID|89201|PRE|89200|M|37.25,74.20|Z|2393; Silvermoon City|N|From Magister Aradis.|
 C Outschemed|QID|89201|M|37.90,75.20|Z|2393; Silvermoon City|QO|1|NC|N|Use the staff to destroy Dawnblaze's ward.|EAB|
@@ -664,6 +678,6 @@ T Executing the Blades|QID|90553|M|PLAYER|N|To Salandria.|
 A Cutting off the Head|QID|90556|PRE|90553&90554&90555|M|PLAYER|N|From Salandria.|
 C Cutting off the Head|QID|90556|M|41.32,88.50|Z|2395; Eversong Woods|N|Slay Overseer Mognak. (not underground)|T|Overseer Mognak|
 T Cutting off the Head|QID|90556|M|44.39,81.36|Z|2395; Eversong Woods|N|To Salandria.|
-N Jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
 ]]
 end)

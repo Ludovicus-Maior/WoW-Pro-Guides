@@ -68,9 +68,19 @@ T Killing Blow|QID|88705|M|55.92,64.83|Z|2405; Voidstorm|N|To Alleria Windrunner
 A Nothing Stands Forever|QID|88706|PRE|88705|M|55.92,64.83|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 C Nothing Stands Forever|QID|88706|QO|1|M|45.23,62.95|Z|2405; Voidstorm|N|Talk to Turalyon.|
 T Nothing Stands Forever|QID|88706|M|45.22,62.93|Z|2405; Voidstorm|N|To High Exarch Turalyon.|
-N Check back at a later date, once Blizzard releases more content.
+
+;Chapter 2
+
+A Charge of the Vanguard|QID|90690|M|45.35,70.31|Z|2393|N|From Lor'themar Theron.|
+P The Howling Ridge|ACTIVE|90690|M|35.32,65.93|Z|Silvermoon City|N|Take the portal to Voidstorm.|
+T Charge of the Vanguard|QID|90690|M|45.41,63.10|Z|2405;Voidstorm|N|To High Exarch Turalyon.|
+A The Voidspire|QID|88709|PRE|90690|M|45.41,63.10|Z|2405;Voidstorm|N|From High Exarch Turalyon.|
+t The Voidspire|QID|88709|M|45.41,63.10|Z|2405;Voidstorm|N|From High Exarch Turalyon.|
+
+
 ;A The Stage is Set|QID|88707|PRE|88706|M|45.43,63.09|Z|2405;Voidstorm|N|From High Exarch Turalyon.|;This didnt show up for me.
 ;T The Stage is Set|QID|88707|M|45.43,63.09|Z|2405;Voidstorm|N|To High Exarch Turalyon.|
+N Check back at a later date, once Blizzard releases more content.
 ]]
 
 end)

@@ -779,5 +779,6 @@ C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|Z|2405; Voidstorm|H|N|Pla
 T Across Worlds|QID|90875|M|39.34,48.05|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 
 t Research Console: Exploring the Void|QID|94790|M|52.58,72.90|Z|2405; Voidstorm|N|Back to Void Researcher Anomander for another point on your zone talent tree.|
+N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
 ]]
 end)

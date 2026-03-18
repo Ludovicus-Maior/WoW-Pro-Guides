@@ -390,7 +390,7 @@ K Tusk Taker|ACTIVE|93095|M|25.72,37.57|Z|2437; Zul'Aman|QO|2|N|Tusk Taker slain
 T Bitter Fury|QID|93095|M|28.92,33.45|Z|2437; Zul'Aman|N|To Kel'venko.|
 A Amani Honor|QID|93096|PRE|93095|M|28.92,33.45|Z|2437; Zul'Aman|N|From Kel'venko.|
 C Amani Honor|QID|93096|M|29.25,41.30|Z|2437; Zul'Aman|QO|2|CHAT|N|As you probably expected Kel'venko doesn't want to share.|
-f Atul'Aman|ACTIVE|93096|M|39.83,40.97|Z|2536; Atal'Aman|N|Stop and grab the flightpath as you are flying over...At Eagletender Po'vari.|
+f Atal'Aman|ACTIVE|93096|M|39.83,40.97|Z|2536; Atal'Aman|N|Stop and grab the flightpath as you are flying over...At Eagletender Po'vari.|
 T Amani Honor|QID|93096|M|44.24,66.54|Z|2437; Zul'Aman|N|To Huntmaster Jinki.|
 T In the Shadow of Rebirth|QID|86666|M|43.82,68.32|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Den of Nalorakk: A Taste of Vengeance|QID|86681|PRE|86666|M|43.82,68.32|Z|2437; Zul'Aman|N|From Zul'jarra.|
@@ -398,8 +398,10 @@ C Den of Nalorakk: A Taste of Vengeance|QID|86681|M|43.60,68.34|Z|2437; Zul'Aman
 C Den of Nalorakk: A Taste of Vengeance|QID|86681|M|43.60,68.24|Z|2437; Zul'Aman|QO|2|EAB|N|Stand in the gold circles near each of the three fires and use [color=33fff9] Extra Action Button [/color] to pour Death Rites Mixture into the fires.|
 T Den of Nalorakk: A Taste of Vengeance|QID|86681|M|43.80,68.27|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Den of Nalorakk: Waking de Bear|QID|86682|PRE|86681|M|43.80,68.27|Z|2437; Zul'Aman|N|From Zul'jarra.|
+N You are seeing this becuz you currently have Honorin' de Sacrifice quest in your log, Lilaju will not be at the cave entrace if you have this quest in your log. Please drop it. Don't worry the guide will direct you to pick it up later.|ACTIVE|92492&86682|S|
 C Den of Nalorakk: Waking de Bear|QID|86682|M|33.56,78.79|Z|2437; Zul'Aman|QO|1|CHAT|N|Speak with Lilaju.|
 T Den of Nalorakk: Waking de Bear|QID|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|To Zul'jarra.|
+N You are seeing this becuz you currently have Honorin' de Sacrifice quest in your log, Lilaju will not be at the cave entrace if you have this quest in your log. Please drop it. Don't worry the guide will direct you to pick it up later.|ACTIVE|92492&86682|US|
 A Den of Nalorakk: Unforgiven|QID|91958|PRE|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|From Zul'jarra.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|33.58,78.76|Z|2437; Zul'Aman|QO|2|CHAT|N|Talk to Zul'jarra to begin a follower dungeon.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|31.54,83.89|Z|2437; Zul'Aman|QO|4|NC|N|Talk to Zul'jarra outside the dungeon.|
@@ -425,9 +427,8 @@ T Precious Trinkets|QID|93734|M|41.35,80.05|Z|2437; Zul'Aman|N|To Furgh.|
 A Perils of Trust|QID|91750|PRE|93734|M|41.33,80.09|Z|2437; Zul'Aman|N|From Fleeg.|
 K Fake Voice of Nalorakk|ACTIVE|91750|M|43.84,82.10|Z|2437; Zul'Aman|QO|1|N|Fake Voice of Nalorakk slain.|T|Fake Voice of Nalorakk|
 T Perils of Trust|QID|91750|M|41.29,80.07|Z|2437; Zul'Aman|N|To Fleeg. Stay and watch a short vignette if you like that sort of thing.|
-
 C Hash'ey Away|QID|86683|M|43.87,68.97|Z|2437; Zul'Aman|QO|1|NC|N|Arrived in Amani'Zar Village.|
-C Hash'ey Away|QID|86683|M|43.49,68.88|Z|2437; Zul'Aman|QO|2|CHAT|N|Speak with Zul'jarra.|
+C Hash'ey Away|QID|86683|M|43.78,68.65|Z|2437; Zul'Aman|QO|2|CHAT|N|Speak with Zul'jarra.|
 T Hash'ey Away|QID|86683|M|43.49,68.88|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A The Blade's Edge|QID|86684|PRE|86683|M|43.49,68.88|Z|2437; Zul'Aman|N|From Zul'jarra.|
 C The Blade's Edge|QID|86684|M|28.65,77.43|Z|2437; Zul'Aman|QO|1|NC|N|Arrived at Broken Throne.|
@@ -584,5 +585,6 @@ C Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|CHAT|N|Go Check in o
 T Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|N|To Bin'zin.|
 
 T Reports Returned|QID|91087|M|45.43,70.49|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
+N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
 ]]
 end)
