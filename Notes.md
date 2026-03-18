@@ -1,3 +1,15 @@
+# Release 2026.03.18.A
+## Bug Fixes
+* Removed stale callbacks for TomTom
+* More Midnight Zone Data Updates
+## Guide Updates
+* Achievements: Faction Specific Pandaren Heritage Armor quests
+* Retail Alliance Leveling: Chromie Time, Draenei Intro, Lightforged Draenei Intro
+* Midnight Leveling: Adventure Mode, Arators Journey, Eversong Woods, Harandar, Intro, War of Light and Shadow, Zul Aman
+* TBC Alliance:  Hellfire Peninsula, Draenei Intro, Bloodmyst
+* Midnight Professions: Knowledge
+
+
 # Release 2026.03.04.A
 ## Bug Fixes
 * Add support for perpetually repeatable quest accepts
