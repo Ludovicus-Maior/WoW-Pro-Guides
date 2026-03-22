@@ -445,6 +445,7 @@ C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|H|N|Serve the
 T Root Dash Delivery|QID|91589|M|36.67,26.79|Z|2413; Harandar|N|To Yu'relen.|
 
 ;Cultivating Hope
+T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|To Hagar.|RANK|2|
 A The Former Rootwarden|QID|91872|PRE|86930|M|34.91,25.02|Z|2413; Harandar|N|From Hagar.|RANK|2|
 T The Former Rootwarden|QID|91872|M|42.54,34.07|Z|2413; Harandar|N|To Hagar.|
 A Buffer Zone|QID|91873|PRE|91872|M|42.54,34.07|Z|2413; Harandar|N|From Hagar.|
@@ -478,7 +479,6 @@ T Feathered Fury|QID|91552|M|57.27,48.96|Z|2413; Harandar|N|To Nayeli.|
 A Haranir Never Say Die!|QID|91553|PRE|91552|M|57.27,48.96|Z|2413; Harandar|N|From Nayeli.|RANK|2|
 K Behemoth Petalwing|ACTIVE|91553|M|57.99,50.04|Z|2413; Harandar|QO|1|N|Kill the Behemoth Petalwing.|T|Behemoth Petalwing|
 T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.|
-T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|From Ravi.|RANK|2|
 
 ;A Goblin in Harandar
 A Go Get Orweyna!|QID|90533|M|47.12,45.76|Z|2413; Harandar|N|From Monte Gazlowe.|RANK|2|
