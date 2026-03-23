@@ -233,7 +233,7 @@ A What We're Owed|QID|89208|PRE|89207|M|53.13,33.06|Z|2393; Silvermoon City|N|Fr
 C What We're Owed|QID|89208|M|37.44,74.74|Z|2393; Silvermoon City|QO|1|NC|N|Inform Dawnblaze the job was done.|
 T What We're Owed|QID|89208|M|37.44,74.74|Z|2393; Silvermoon City|N|To Magister Dawnblaze.|
 
-;Runestone Rumbles 
+;Runestone Rumbles
 A Calling in the Cavalry|QID|92396|M|50.13,34.22|Z|2395; Eversong Woods|N|From Terel Bloodfate.|
 C Calling in the Cavalry|QID|92396|QO|1|M|50.11,34.28|Z|2395; Eversong Woods|H|N|Pick up the crate of supplies.|
 C Calling in the Cavalry|QID|92396|QO|2|M|39.30,56.72|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
@@ -392,7 +392,7 @@ C Rational Explanation|QID|86624|QO|4|M|48.98,68.60|Z|2395; Eversong Woods|N|Go 
 C Appeal to the Void|QID|86623|QO|1|M|48.75,72.61|Z|2395; Eversong Woods|H|N|Complete Eastern ritual.|
 C Appeal to the Void|QID|86623|QO|2|M|46.81,71.63|Z|2395; Eversong Woods|H|N|Complete Western ritual.|
 
-;oh look, shiney!  moved section to here because this is when I noticed I was close to it... and the burbling paint pot treasure lured me over 
+;oh look, shiney!  moved section to here because this is when I noticed I was close to it... and the burbling paint pot treasure lured me over
 A A Fish!|QID|91271|M|48.72,76.72|Z|2395; Eversong Woods|N|From Valdekar Solaar.|RANK|2|
 C A Fish!|QID|91271|QO|1|M|49.79,75.19|Z|2395; Eversong Woods|N|Fish in the dirty water node.|
 C A Fish!|QID|91271|QO|2|M|48.75,76.67|Z|2395; Eversong Woods|N|Show the fish to Valdekar.|
