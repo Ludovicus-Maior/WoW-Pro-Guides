@@ -302,10 +302,10 @@ A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.51,51.44|Z|1947; 
 = Level 12 Training|AVAILABLE|9634|M|PLAYER|CC|N|Do your level 12 training inside The Exodar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|The Exodar|
 T Behomat|QID|10350|M|55.58,82.36|Z|1947; The Exodar|N|To Behomat on the upper level in Traders' Tier.|
 A Jol|QID|10366|M|48.36,49.55|Z|1943; Azuremyst Isle|N|From Tullas.|C|Paladin|LVL|12|
-T Jol|QID|10366|M|38.37,82.54Z|1947; The Exodar|N|To Jol.|C|Paladin|
-A Redemption|QID|9598|M|38.37,82.54Z|1947; The Exodar|N|From Jol.|C|Paladin|
-T Redemption|QID|9598|M|38.37,82.54Z|1947; The Exodar|N|To Jol.|C|Paladin|
-A Redemption|QID|9600|M|38.37,82.54Z|1947; The Exodar|N|From Jol.|C|Paladin|
+T Jol|QID|10366|M|38.37,82.54|Z|1947; The Exodar|N|To Jol.|C|Paladin|
+A Redemption|QID|9598|M|38.37,82.54|Z|1947; The Exodar|N|From Jol.|C|Paladin|
+T Redemption|QID|9598|M|38.37,82.54|Z|1947; The Exodar|N|To Jol.|C|Paladin|
+A Redemption|QID|9600|M|38.37,82.54|Z|1947; The Exodar|N|From Jol.|C|Paladin|
 R Azure Watch|ACTIVE|9612|M|48.34,49.14|Z|1943; Azuremyst Isle|N|Head back to Azure Watch.|
 R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|1950; Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a bit of a long run.|
 T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|1950; Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
