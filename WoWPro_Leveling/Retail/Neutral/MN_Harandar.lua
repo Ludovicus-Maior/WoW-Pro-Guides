@@ -108,8 +108,8 @@ A The Hunter Awaits|QID|86836|PRE|86864|M|54.24,55.70|Z|2413; Harandar|N|From Ku
 ;at this point you have breadcrumbs to Har'mara, Har'kuai, Har'athir amd campaign The Hunter Awaits -- putting Har'kuai first, so that you can start getting skyshard drops sooner.
 ;The Legend of Aln'sharan - In Har'kuai
 T Har'kuai, Village of Rain|QID|93771|M|65.24,26.39|Z|2413; Harandar|N|To Kamari.|;picked up 2nd time to The Den line ~100 -- keep these next 3 chains together at Village of Rain
-A Tales of the Sky|QID|90467|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
-A Ugh, Chores!|QID|90468|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
+A Tales of the Sky|QID|90467|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
+A Ugh, Chores!|QID|90468|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Kill Saptors to loot the Intact Saptor Fronds.|S|
 C Tales of the Sky|QID|90467|M|70.20,32.01|Z|2413; Harandar|H|N|Pick up the glittering Skyshards.|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Keep killing Saptor's until you have enough fronds.|US|
@@ -132,9 +132,9 @@ T The Blooming Lattice|QID|91063|M|60.83,29.91|Z|2413; Harandar|N|To Su'meera.|
 A Purloining Petals|QID|91065|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
 A Nipping the Buds|QID|91086|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
 A Petal Bristles|QID|91085|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
-C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
+C Nipping the Buds|QID|91086|QO|1|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
 C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Pick these up from the ground or kill the Petalwings.|S|
-C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|N|The Well-Worn Ladle is on the platform. Fly over here to start fighting.|
+C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|N|Fly up to the platform to find the Well-Worn Ladle and then start the rest of the fighting from here.|
 C Purloining Petals|QID|91065|M|54.56,28.27|Z|2413; Harandar|QO|2|H|N|Across the platform you will find the Pilfered Crafting Drill.|
 C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|N|Paint-Speckled Gourd is on the main platform.|
 C Nipping the Buds|QID|91086|M|54.87,31.59|Z|2413; Harandar|QO|2|N|Prime Bloodwarden Kazat is in the building in the middle of the platform.|T|Kazat|
