@@ -22,7 +22,7 @@ N Eversong Woods|QID|94871|M|PLAYER|N|Click the book to jump to the Eversong Woo
 N Zul'Aman|QID|86708|M|PLAYER|N|Click the book to jump to Zul'Aman guide.|JUMP|Zul'Aman|S|
 N Harandar|QID|89402|M|PLAYER|N|Click the book to jump to the Harandar guide.|JUMP|Harandar|S|
 N Void Storm|QID|91854|M|PLAYER|N|Click the book to jump to the Void Storm guide.|JUMP|Void Storm|S|
-N Arators Journey|QID|83552|M|PLAYER|N|Click the book to jump to the Arators Journey guide.|JUMP|Arators Journey|S|
+N Arators Journey|QID|89193|M|PLAYER|N|Click the book to jump to the Arators Journey guide.|JUMP|Arators Journey|S|
 
 ]]
 end)

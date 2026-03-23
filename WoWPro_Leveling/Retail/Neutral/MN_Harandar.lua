@@ -425,7 +425,7 @@ A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'r
 C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
 C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1;2|N|Kill and loot Frillfish and Drifters.|S|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Click the mounds of Nutrient-Rich Soil.|S|
-K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|2|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
+K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Keep gathering Nutrient-Rich Soil.|US|
 C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|N|Keep killing Frillfish and Drifters until the step closes.|US|
 T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
@@ -482,7 +482,8 @@ T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.
 
 ;A Goblin in Harandar
 A Go Get Orweyna!|QID|90533|M|47.12,45.76|Z|2413; Harandar|N|From Monte Gazlowe.|RANK|2|
-B Hand Crafted Plushie|ACTIVE|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|NC|U|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
+C Orwena|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|1|CHAT|N|Tell Orweyna that Gazlowe's Got Himself in a bit of a pickle.|
+B Hand Crafted Plushie|QID|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|NC|U|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
 C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|3|H|U|241125|N|Offer Handcrafted Plush to Nahuut.|
 T Go Get Orweyna!|QID|90533|M|47.13,45.72|Z|2413; Harandar|N|To Orweyna.|
 A The Home of the Haranir|QID|90534|PRE|90533|M|47.13,45.72|Z|2413; Harandar|N|From Orweyna.|
@@ -496,7 +497,7 @@ C Leave Your Mark|QID|90535|M|48.02,23.28|Z|2576; The Den|QO|2|H|N|Click the wal
 T Leave Your Mark|QID|90535|M|47.98,22.28|Z|2576; The Den|N|To Orweyna.|
 
 ;Trials of the Shul'ka
-A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua.|RANK|2|
+A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua. Outside, back up on the surface.e|RANK|2|
 T My Brother's Alive!|QID|90824|M|43.09,61.41|Z|2413; Harandar|N|To En'liahn.|
 A The Healing Waters of Ahl'ua|QID|90826|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
 A Only the Poisonous Parts|QID|90827|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
@@ -534,7 +535,8 @@ T From This Point Forward|QID|90834|M|63.83,54.71|Z|2413; Harandar|N|To En'liahn
 ;you are near Hara'thir now. it might be a good place if you wanted to move those quests
 
 ;Bloomtown
-A Light Disturbance|QID|92732|PRE|92448|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
+T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To Hannan.|;must wait till after finishing campaign
+A Light Disturbance|QID|92732|PRE|86898|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
 T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
 A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
 C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1<1|I|N|Find First Clue.|
@@ -553,7 +555,6 @@ A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From H
 K Adzikel|ACTIVE|92739|M|36.09,74.07|Z|2413; Harandar|QO|1|N|Slay Adzikel.|T|Adzikel|
 
 ;The Silence at Fungara Village
-T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To Hannan.|;must wait till after finishing campaign
 A The Silence at Fungara Village|QID|91375|M|33.38,66.66|Z|2413; Harandar|N|From Ghikal.|RANK|2|
 T The Silence at Fungara Village|QID|91375|M|43.90,71.75|Z|2413; Harandar|N|To Ghikal.|
 A Little Monsters|QID|91376|PRE|91375|M|43.90,71.75|Z|2413; Harandar|N|From Ghikal.|
