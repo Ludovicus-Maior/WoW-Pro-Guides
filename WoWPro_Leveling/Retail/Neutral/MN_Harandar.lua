@@ -497,7 +497,7 @@ C Leave Your Mark|QID|90535|M|48.02,23.28|Z|2576; The Den|QO|2|H|N|Click the wal
 T Leave Your Mark|QID|90535|M|47.98,22.28|Z|2576; The Den|N|To Orweyna.|
 
 ;Trials of the Shul'ka
-A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua. Outside, back up on the surface.e|RANK|2|
+A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua. Outside, back up on the surface.|RANK|2|
 T My Brother's Alive!|QID|90824|M|43.09,61.41|Z|2413; Harandar|N|To En'liahn.|
 A The Healing Waters of Ahl'ua|QID|90826|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
 A Only the Poisonous Parts|QID|90827|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
