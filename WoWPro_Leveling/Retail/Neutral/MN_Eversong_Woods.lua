@@ -688,6 +688,6 @@ A Cutting off the Head|QID|90556|PRE|90553&90554&90555|M|PLAYER|N|From Salandria
 C Cutting off the Head|QID|90556|M|41.32,88.50|Z|2395; Eversong Woods|N|Slay Overseer Mognak. (not underground)|T|Overseer Mognak|
 T Cutting off the Head|QID|90556|M|44.39,81.36|Z|2395; Eversong Woods|N|To Salandria.|
 
-A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.| 
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)
