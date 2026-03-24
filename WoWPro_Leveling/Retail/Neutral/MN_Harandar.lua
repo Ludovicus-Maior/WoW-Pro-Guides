@@ -482,7 +482,7 @@ T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.
 
 ;A Goblin in Harandar
 A Go Get Orweyna!|QID|90533|M|47.12,45.76|Z|2413; Harandar|N|From Monte Gazlowe.|RANK|2|
-C Go Get Orweyna!|QID|90533|M|54.17,55.24|Z|2413; Harandar|QO|!|CHAT|N|Tell Orwenya about Gazlowe's situation.|RANK|2|
+C Go Get Orweyna!|QID|90533|M|54.17,55.24|Z|2413; Harandar|QO|1|CHAT|N|Tell Orwenya about Gazlowe's situation.|RANK|2|
 B Hand Crafted Plushie|ACTIVE|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|L|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
 C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|3|H|U|241125|N|Offer Handcrafted Plush to Nahuut.|
 T Go Get Orweyna!|QID|90533|M|47.13,45.72|Z|2413; Harandar|N|To Orweyna.|
