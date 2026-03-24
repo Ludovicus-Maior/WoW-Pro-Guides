@@ -61,23 +61,23 @@ A The Sunwalker Path|QID|86845|PRE|86902|M|52.56,55.67|Z|2424; Isle of Quel'Dana
 C The Sunwalker Path|QID|86845|M|52.56,55.67|Z|2424; Isle of Quel'Danas|QO|1|NC|N|Tell Alonsus you're ready to Depart.|
 P Hammerfall|ACTIVE|86845|M|52.56,55.67|Z|Isle of Quel'Danas|N|Portal to Hammerfall.|
 C The Sunwalker Path|QID|86845|M|52.54,55.81|Z|2424; Isle of Quel'Danas|QO|2|NC|N|Portal to Hammerfall Taken.|
-T The Sunwalker Path|QID|86845|M|68.98,37.67|Z|14; Arathi Highlands|N|To Sunwalker Dezco.|
-A A Humble Servant|QID|91000|PRE|86845|M|68.98,37.67|Z|14; Arathi Highlands|N|From Sunwalker Dezco.|
-A Resupplying Our Suppliers|QID|86846|PRE|86845|M|68.98,37.67|Z|14; Arathi Highlands|N|From Sunwalker Dezco.|
-C A Humble Servant|QID|91000|M|68.73,33.69|Z|14; Arathi Highlands|QO|1|NC|N|Aid Hammerfall.|S|
-C Resupplying Our Suppliers|QID|86846|M|68.14,37.61|Z|14; Arathi Highlands|QO|1|NC|N|Tailoring supplies for Jun'ha.|
-C Resupplying Our Suppliers|QID|86846|M|69.99,35.70|Z|14; Arathi Highlands|QO|3|NC|N|Leatherworking supplies for Tunkk.|
-C Resupplying Our Suppliers|QID|86846|M|69.19,34.97|Z|14; Arathi Highlands|QO|2|NC|N|Butcher supplies for Slagg.|
-C Resupplying Our Suppliers|QID|86846|M|69.28,33.38|Z|14; Arathi Highlands|QO|5|NC|N|Trade goods for Keena.|
-C Resupplying Our Suppliers|QID|86846|M|68.42,31.99|Z|14; Arathi Highlands|QO|4|NC|N|Bowyer supplies for Mu'uta.|
-C A Humble Servant|QID|91000|M|68.73,33.69|Z|14; Arathi Highlands|QO|1|NC|N|Aid Hammerfall.|US|
-T A Humble Servant|QID|91000|M|68.56,32.27|Z|14; Arathi Highlands|N|To Sunwalker Dezco.|
-T Resupplying Our Suppliers|QID|86846|M|68.56,32.27|Z|14; Arathi Highlands|N|To Sunwalker Dezco.|
-A Gathering Plowshares|QID|89338|PRE|91000&86846|M|68.56,32.27|Z|14; Arathi Highlands|N|From Sunwalker Dezco.|
-C Gathering Plowshares|QID|89338|M|69.17,45.51|Z|14; Arathi Highlands|QO|2;3|H|N|Fallen Longswords and Skullcleavers.|
-T Gathering Plowshares|QID|89338|M|68.62,32.28|Z|14; Arathi Highlands|N|To Sunwalker Dezco.|
-A One Final Relic|QID|86822|PRE|89338|M|68.65,32.16|Z|14; Arathi Highlands|N|From Alonsus Faol.|
-C One Final Relic|QID|86822|M|68.65,32.16|Z|14; Arathi Highlands|QO|1|NC|N|Let Alonsus know you are ready.|
+T The Sunwalker Path|QID|86845|M|68.98,37.67|Z|2372; Arathi Highlands|N|To Sunwalker Dezco.|
+A A Humble Servant|QID|91000|PRE|86845|M|68.98,37.67|Z|2372; Arathi Highlands|N|From Sunwalker Dezco.|
+A Resupplying Our Suppliers|QID|86846|PRE|86845|M|68.98,37.67|Z|2372; Arathi Highlands|N|From Sunwalker Dezco.|
+C A Humble Servant|QID|91000|M|68.73,33.69|Z|2372; Arathi Highlands|QO|1|NC|N|Aid Hammerfall.|S|
+C Resupplying Our Suppliers|QID|86846|M|68.14,37.61|Z|2372; Arathi Highlands|QO|1|NC|N|Tailoring supplies for Jun'ha.|
+C Resupplying Our Suppliers|QID|86846|M|69.99,35.70|Z|2372; Arathi Highlands|QO|3|NC|N|Leatherworking supplies for Tunkk.|
+C Resupplying Our Suppliers|QID|86846|M|69.19,34.97|Z|2372; Arathi Highlands|QO|2|NC|N|Butcher supplies for Slagg.|
+C Resupplying Our Suppliers|QID|86846|M|69.28,33.38|Z|2372; Arathi Highlands|QO|5|NC|N|Trade goods for Keena.|
+C Resupplying Our Suppliers|QID|86846|M|68.42,31.99|Z|2372; Arathi Highlands|QO|4|NC|N|Bowyer supplies for Mu'uta.|
+C A Humble Servant|QID|91000|M|68.73,33.69|Z|2372; Arathi Highlands|QO|1|NC|N|Aid Hammerfall.|US|
+T A Humble Servant|QID|91000|M|68.56,32.27|Z|2372; Arathi Highlands|N|To Sunwalker Dezco.|
+T Resupplying Our Suppliers|QID|86846|M|68.56,32.27|Z|2372; Arathi Highlands|N|To Sunwalker Dezco.|
+A Gathering Plowshares|QID|89338|PRE|91000&86846|M|68.56,32.27|Z|2372; Arathi Highlands|N|From Sunwalker Dezco.|
+C Gathering Plowshares|QID|89338|M|69.17,45.51|Z|2372; Arathi Highlands|QO|2;3|H|N|Fallen Longswords and Skullcleavers.|
+T Gathering Plowshares|QID|89338|M|68.62,32.28|Z|2372; Arathi Highlands|N|To Sunwalker Dezco.|
+A One Final Relic|QID|86822|PRE|89338|M|68.65,32.16|Z|2372; Arathi Highlands|N|From Alonsus Faol.|
+C One Final Relic|QID|86822|M|68.65,32.16|Z|2372; Arathi Highlands|QO|1|NC|N|Let Alonsus know you are ready.|
 C One Final Relic|QID|86822|M|33.49,48.37|Z|0036; Burning Steppes|QO|2|NC|N|Talk to Alonsus.|CHAT|
 T One Final Relic|QID|86822|M|33.46,48.48|Z|36; Burning Steppes|N|To Danath Trollbane.|
 A The Dark Horde|QID|86823|PRE|86822|M|33.46,48.48|Z|36; Burning Steppes|N|From Eitrigg.|
