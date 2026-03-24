@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Eversong Woods', 'Leveling', 'Eversong Woods
 WoWPro:GuideName(guide,"Eversong Woods")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
-WoWPro:GuideQuestTriggers(guide, 86733)
+WoWPro:GuideQuestTriggers(guide, 86733^94871)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, "Zul'Aman")
 WoWPro:GuideSteps(guide, function()
@@ -234,7 +234,7 @@ C What We're Owed|QID|89208|M|37.44,74.74|Z|2393; Silvermoon City|QO|1|NC|N|Info
 T What We're Owed|QID|89208|M|37.44,74.74|Z|2393; Silvermoon City|N|To Magister Dawnblaze.|
 
 ;Runestone Rumbles
-A Calling in the Cavalry|QID|92396|M|50.13,34.22|Z|2395; Eversong Woods|N|From Terel Bloodfate.|
+A Calling in the Cavalry|QID|92396|M|50.13,34.22|Z|2395; Eversong Woods|N|From Terel Bloodfate.|RANK|2|
 C Calling in the Cavalry|QID|92396|QO|1|M|50.11,34.28|Z|2395; Eversong Woods|H|N|Pick up the crate of supplies.|
 C Calling in the Cavalry|QID|92396|QO|2|M|39.30,56.72|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
 C Calling in the Cavalry|QID|92396|QO|3|M|53.36,54.26|Z|2395; Eversong Woods|EAB|N|Use the [color=33fff9] Extra Action Button [/color]while in the circle.|
@@ -287,6 +287,7 @@ A To the North Tower|QID|91345|M|56.70,40.83|Z|2395; Eversong Woods|N|From Capta
 A To the Central Tower|QID|91462|M|56.70,40.83|Z|2395; Eversong Woods|N|From Captain Dawnrunner.|RANK|2|
 C Fair Breeze, Light Bloom|QID|86737|M|46.65,45.36|Z|2395; Eversong Woods|QO|3|NC|N|Reach Fairbreeze Village.|
 T Fair Breeze, Light Bloom|QID|86737|M|46.71,45.68|Z|2395; Eversong Woods|N|To Magistrix Landra Dawnstrider.|
+T Eversong|QID|94871|M|46.71,45.68|Z|2395; Eversong Woods|N|To Magistrix Landra Dawnstrider.|
 A Sharpmaw|QID|86738|M|46.71,45.68|Z|2395; Eversong Woods|N|From Magistrix Landra Dawnstrider.|
 A Fairbreeze Favors|QID|86739|M|46.71,45.68|Z|2395; Eversong Woods|N|From Magistrix Landra Dawnstrider.|
 A Displaced Denizens|QID|86740|M|46.68,45.67|Z|2395; Eversong Woods|N|From Orweyna.|
@@ -640,33 +641,33 @@ A First Step Into Parenthood Complete|QID|89385|PRE|89383&89384&89386|M|56.84,35
 T First Step Into Parenthood Complete|QID|89385|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume. Congratulations, you have an egg that will hatch in 24 hours.|
 
 ;Paladin Rescue
-A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|LVL|90|FACTION|ALLIANCE| ;lvl 90 or maybe it's finishing something in zul'aman
-A Missing Paladins|QID|90547|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Salandria.|LVL|90|FACTION|HORDE| ;or maybe it's finishing something in zul'aman
+A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|LVL|90|FACTION|ALLIANCE|RANK|2| ;lvl 90 or maybe it's finishing something in zul'aman
+A Missing Paladins|QID|90547|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Salandria.|LVL|90|FACTION|HORDE|RANK|2| ;or maybe it's finishing something in zul'aman
 T Missing Paladins|QID|90546|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
 T Missing Paladins|QID|90547|M|44.03,66.98|Z|2395; Eversong Woods|N|To Salandria.|
-A Signs of the Struggle|QID|90549|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
-A Twilight Missive|QID|90548|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+A Signs of the Struggle|QID|90549|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|RANK|2|
+A Twilight Missive|QID|90548|PRE|90546^90547|M|44.03,66.98|Z|2395; Eversong Woods|N|From Taelia Fordragon.|RANK|2|
 C Signs of the Struggle|QID|90549|S|M|42.90,68.54|Z|2395; Eversong Woods|H|N|Pick up the discarded weapons around the area.|
 C Twilight Missive|QID|90548|S|M|42.90,68.54|Z|2395; Eversong Woods|N|Kill and loot the twilight mobs.|
-A A Somber Sun|QID|90550|PRE|90546^90547|M|43.31,69.78|Z|2395; Eversong Woods|N|From the mangled corpse of Crusader Sombersun.|
+A A Somber Sun|QID|90550|PRE|90546^90547|M|43.31,69.78|Z|2395; Eversong Woods|N|From the mangled corpse of Crusader Sombersun.|RANK|2|
 C Twilight Missive|QID|90548|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue picking up discarded weapons.|
 C Signs of the Struggle|QID|90549|US|M|42.90,68.54|Z|2395; Eversong Woods|N|Continue killing twilight cultists until you find enough evidence.|
 T Signs of the Struggle|QID|90549|M|44.03,66.98|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
 T Twilight Missive|QID|90548|M|44.06,66.98|Z|2395; Eversong Woods|N|To Salandria.|
 T A Somber Sun|QID|90550|M|44.06,66.98|Z|2395; Eversong Woods|N|To Salandria.|
-A Captured Information|QID|90551|PRE|90548&90549&90550|M|44.06,66.98|Z|2395; Eversong Woods|N|From Salandria.|
+A Captured Information|QID|90551|PRE|90548&90549&90550|M|44.06,66.98|Z|2395; Eversong Woods|N|From Salandria.|RANK|2|
 C Captured Information|QID|90551|M|42.19,69.32|Z|2395; Eversong Woods|N|Attack the Isolated Shadecaster, until he becomes non-hostile (~30% health remaining) then click on him to capture.|T|Isolated Shadecaster|
 C Captured Information|QID|90551|M|41.58,72.16|Z|2395; Eversong Woods|I|N|Take him to Hollow Grove, which is right behind Sanctum of the Moon.|
 T Captured Information|QID|90551|M|41.58,72.16|Z|2395; Eversong Woods|N|To Salandria.|
-A Interrogation|QID|90552|PRE|90551|M|41.58,72.16|Z|2395; Eversong Woods|N|From Salandria.|
+A Interrogation|QID|90552|PRE|90551|M|41.58,72.16|Z|2395; Eversong Woods|N|From Salandria.|RANK|2|
 C Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|CHAT|N|Let Salandria know you are ready.|
 C Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|N|Your top row of your action bar has changed, it doesn't seem to matter which option you choose, just keep hitting, 1, 2 or 3 until he talks.|
 T Interrogation|QID|90552|M|41.58,72.16|Z|2395; Eversong Woods|N|To Salandria.|
-A To the Ruins of Deatholme|QID|90570|PRE|90552|M|41.63,72.21|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
+A To the Ruins of Deatholme|QID|90570|PRE|90552|M|41.63,72.21|Z|2395; Eversong Woods|N|From Taelia Fordragon.|RANK|2|
 T To the Ruins of Deatholme|QID|90570|M|44.40,81.22|Z|2395; Eversong Woods|N|To Taelia Fordragon.|
-A Blessing of Freedom|QID|90555|PRE|90570|M|44.40,81.22|Z|2395; Eversong Woods|N|From Taelia Fordragon.|
-A Executing the Blades|QID|90553|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|
-A Leave Ashes in Your Wake|QID|90554|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|
+A Blessing of Freedom|QID|90555|PRE|90570|M|44.40,81.22|Z|2395; Eversong Woods|N|From Taelia Fordragon.|RANK|2|
+A Executing the Blades|QID|90553|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|RANK|2|
+A Leave Ashes in Your Wake|QID|90554|PRE|90570|M|44.43,81.23|Z|2395; Eversong Woods|N|From Salandria.|RANK|2|
 C Executing the Blades|QID|90553|M|44.00,83.49|Z|2395; Eversong Woods|S|N|Kill Cultists (like you have a choice).|
 C Leave Ashes in Your Wake|QID|90554|M|44.00,83.49|Z|2395; Eversong Woods|S|N|Wreak the camp as you look for the prisoners.|
 C Blessing of Freedom|QID|90555|QO|1|M|41.85,82.93|Z|2395; Eversong Woods|N|Rescue Sunwalker Athomo.|
@@ -683,10 +684,10 @@ C Executing the Blades|QID|90553|M|44.00,83.49|Z|2395; Eversong Woods|US|N|Finis
 T Blessing of Freedom|QID|90555|M|PLAYER|N|To Taelia Fordragon.|
 T Leave Ashes in Your Wake|QID|90554|M|PLAYER|N|To Salandria.|
 T Executing the Blades|QID|90553|M|PLAYER|N|To Salandria.|
-A Cutting off the Head|QID|90556|PRE|90553&90554&90555|M|PLAYER|N|From Salandria.|
+A Cutting off the Head|QID|90556|PRE|90553&90554&90555|M|PLAYER|N|From Salandria.|RANK|2|
 C Cutting off the Head|QID|90556|M|41.32,88.50|Z|2395; Eversong Woods|N|Slay Overseer Mognak. (not underground)|T|Overseer Mognak|
 T Cutting off the Head|QID|90556|M|44.39,81.36|Z|2395; Eversong Woods|N|To Salandria.|
 
-N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.| 
 ]]
 end)
