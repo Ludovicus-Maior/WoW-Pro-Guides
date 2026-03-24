@@ -25,7 +25,7 @@ C To Har'athir|QID|86900|M|74.00,50.96|Z|2413; Harandar|QO|6|CHAT|N|Check on Hal
 A Delver's Call: The Grudge Pit|QID|93421|M|71.10,52.04|Z|2413; Harandar|N|From The banner on the roots.|RANK|2|
 f Har'athir|ACTIVE|86900|M|69.39,52.59|Z|2413; Harandar|N|From Nae'thall|
 A Where Dust Dances|QID|92448|O|L|251881|N|At some point you will undoubtedly click on a moth and get this quest.|
-t Where Dust Dances|QID|92448|M|49.25,54.33|Z|2413; Harandar|N|To Mothkeeper Wew'tam|IZ|Reliquary of the Zur'ashari|
+t Where Dust Dances|QID|92448|M|49.25,54.33|Z|2413; Harandar|N|To Mothkeeper Wew'tam|IZ|The Den|
 T To Har'athir|QID|86900|M|70.03,51.51|Z|2413; Harandar|N|To Ruia.|
 A The Rift and the Den|QID|86901|PRE|86900|M|70.01,51.52|Z|2413; Harandar|N|From Orweyna.|
 C The Rift and the Den|QID|86901|M|69.98,51.30|Z|2413; Harandar|QO|1|V|N|Petalvane ridden.|
@@ -108,8 +108,8 @@ A The Hunter Awaits|QID|86836|PRE|86864|M|54.24,55.70|Z|2413; Harandar|N|From Ku
 ;at this point you have breadcrumbs to Har'mara, Har'kuai, Har'athir amd campaign The Hunter Awaits -- putting Har'kuai first, so that you can start getting skyshard drops sooner.
 ;The Legend of Aln'sharan - In Har'kuai
 T Har'kuai, Village of Rain|QID|93771|M|65.24,26.39|Z|2413; Harandar|N|To Kamari.|;picked up 2nd time to The Den line ~100 -- keep these next 3 chains together at Village of Rain
-A Tales of the Sky|QID|90467|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
-A Ugh, Chores!|QID|90468|PRE|86930|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
+A Tales of the Sky|QID|90467|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
+A Ugh, Chores!|QID|90468|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Kill Saptors to loot the Intact Saptor Fronds.|S|
 C Tales of the Sky|QID|90467|M|70.20,32.01|Z|2413; Harandar|H|N|Pick up the glittering Skyshards.|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Keep killing Saptor's until you have enough fronds.|US|
@@ -127,14 +127,14 @@ T The Legend of Aln'sharan|QID|90474|M|66.17,25.51|Z|2413; Harandar|N|To Kuri. N
 f Har'kuai|ACTIVE|86836|PRE|93771|M|64.59,23.15|Z|2413; Harandar|N|At Lo'miko.|;not really sure what to use as active, 86836 maybe not the best, but if you are skipping campaign, you can probably figure out how to get fp's if you want them.
 
 ;Peril Among Petals - In Har'kuai
-A The Blooming Lattice|QID|91063|PRE|86930|M|65.39,22.69|Z|2413; Harandar|N|From Su'meera.|RANK|2|
+A The Blooming Lattice|QID|91063|M|65.39,22.69|Z|2413; Harandar|N|From Su'meera.|RANK|2|
 T The Blooming Lattice|QID|91063|M|60.83,29.91|Z|2413; Harandar|N|To Su'meera.|
 A Purloining Petals|QID|91065|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
 A Nipping the Buds|QID|91086|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
 A Petal Bristles|QID|91085|PRE|91063|M|60.83,29.91|Z|2413; Harandar|N|From Su'meera.|
-C Nipping the Buds|QID|91086|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
+C Nipping the Buds|QID|91086|QO|1|M|54.74,28.75|Z|2413; Harandar|N|Kill Rutaani.|S|
 C Petal Bristles|QID|91085|M|53.06,29.67|Z|2413; Harandar|QO|1|H|N|Pick these up from the ground or kill the Petalwings.|S|
-C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|N|The Well-Worn Ladle is on the platform. Fly over here to start fighting.|
+C Purloining Petals|QID|91065|M|55.30,28.28|Z|2413; Harandar|QO|1|NC|N|Fly up to the platform to find the Well-Worn Ladle and then start the rest of the fighting from here.|
 C Purloining Petals|QID|91065|M|54.56,28.27|Z|2413; Harandar|QO|2|H|N|Across the platform you will find the Pilfered Crafting Drill.|
 C Purloining Petals|QID|91065|M|55.30,30.64|Z|2413; Harandar|QO|4|NC|N|Paint-Speckled Gourd is on the main platform.|
 C Nipping the Buds|QID|91086|M|54.87,31.59|Z|2413; Harandar|QO|2|N|Prime Bloodwarden Kazat is in the building in the middle of the platform.|T|Kazat|
@@ -152,7 +152,7 @@ C Memories in Stone|QID|91136|M|56.05,25.00|Z|2413; Harandar|QO|2|N|Defend Su'me
 T Memories in Stone|QID|91136|M|55.73,26.53|Z|2413; Harandar|N|To Su'meera.|
 
 ;The Greenspeaker's Vigil - In Har'kuai
-A Supplicants to the Goddess|QID|91346|PRE|86930|M|65.43,28.08|Z|2413; Harandar|N|From Greenspeaker Cyenna.|RANK|2|
+A Supplicants to the Goddess|QID|91346|M|65.43,28.08|Z|2413; Harandar|N|From Greenspeaker Cyenna.|RANK|2|
 C Supplicants to the Goddess|QID|91346|M|65.48,28.00|Z|2413; Harandar|H|N|Click on the leather bucket beside Cyenna.|
 T Supplicants to the Goddess|QID|91346|M|65.45,28.02|Z|2413; Harandar|N|To Greenspeaker Cyenna.|
 A Fungal Lashers B Gone|QID|91359|PRE|91346|M|65.45,28.02|Z|2413; Harandar|N|From Greenspeaker Cyenna.|
@@ -227,7 +227,7 @@ C Feeding the Buds|QID|92865|M|69.43,44.65|Z|2413; Harandar|QO|1|NC|N|Chlorocero
 C A Hunter's Duty|QID|92883|QO|3|M|69.45,44.62|Z|2413; Harandar|N|Kill Lashers and the Chloroceros if you still need them too.|S|
 C A Hunter's Duty|QID|92883|QO|5<2|M|71.60,39.99|Z|2413; Harandar|CHAT|N|Check in with Ketan again.|
 C A Hunter's Duty|QID|92883|QO|3|M|69.45,44.62|Z|2413; Harandar|N|Find all the items all over the place.|US|
-C Feeding the Buds|QID|92865|M|69.40,50.63|Z|2413; Harandar|QO|2;3;4;5|H|N|Use your [color=33fff9] Extra Action Button [/color] to set out food for the baby hydras.|EAB|
+C Feeding the Buds|QID|92865|M|69.40,50.63|Z|2413; Harandar|QO|2;3;4;5|H|N|Use your [color=33fff9] Extra Action Button [/color] to set out food for the baby hydras. [color=FF0000]NOTE: [/color]Must Dismount first.|EAB|
 T Feeding the Buds|QID|92865|M|69.58,50.60|Z|2413; Harandar|N|To Ney'tar.|
 T Drift Them Away|QID|92864|M|69.58,50.60|Z|2413; Harandar|N|To Ney'tar.|
 A Re-Hydra-ted|QID|92866|PRE|92865&92864|M|69.58,50.60|Z|2413; Harandar|N|From Ney'tar.|RANK|2|
@@ -252,7 +252,7 @@ T Re-Hydra-ted|QID|92866|M|69.58,50.60|Z|2413; Harandar|N|To Ney'tar.|
 T Dusk Among Pigments|QID|92694|M|74.01,53.09|Z|2413; Harandar|N|To Orn'shan.|
 A The Stroke of Storms|QID|92695|PRE|92694|M|74.01,53.09|Z|2413; Harandar|N|From Orn'shan.|
 C The Stroke of Storms|QID|92695|M|72.30,55.62|Z|2413; Harandar|QO|1|H|N|Use the visionstone to enter the painting.|
-C The Stroke of Storms|QID|92695|M|72.78,53.39|Z|2413; Harandar|QO|2|N|Clean up the paint splatters, and killed the paint-crazed mobs.|
+C The Stroke of Storms|QID|92695|M|72.78,53.39|Z|2413; Harandar|QO|2|N|Clean up the paint splatters, and kill the paint-crazed mobs.|
 C The Stroke of Storms|QID|92695|M|72.29,55.61|Z|2413; Harandar|QO|3|H|N|Use the visonstone to return to your body.|
 T The Stroke of Storms|QID|92695|M|72.37,55.62|Z|2413; Harandar|N|To Orn'shan.|
 A Colors Reborn Anew|QID|92696|PRE|92695|M|72.37,55.62|Z|2413; Harandar|N|From Orn'shan.|
@@ -265,7 +265,7 @@ C Hues of Tomorrow|QID|92697|M|73.99,53.24|Z|2413; Harandar|H|N|Click adjacent '
 T Hues of Tomorrow|QID|92697|M|74.00,53.15|Z|2413; Harandar|N|To Orn'shan.|
 
 ;The Grudge Pit (outdoors -- not delve)
-A Be Grudge You|QID|90615|PRE|93745|M|70.33,52.86|Z|2413; Harandar|N|From Motta.|RANK|2|
+A Be Grudge You|QID|90615|PRE|93745|M|70.33,52.86|Z|2413; Harandar|N|From Motta.|RANK|2|LEAD|90616|
 t Delver's Call: The Grudge Pit|QID|93421|M|71.77,64.02|Z|2413; Harandar|N|To Boletus.|IZ|The Grudge Pit|
 T Be Grudge You|QID|90615|M|71.81,64.01|Z|2413; Harandar|N|To Boletus.|
 A You Strong?|QID|90616|M|71.81,64.01|Z|2413; Harandar|N|From Boletus.|RANK|2|
@@ -385,7 +385,7 @@ C Quelling the Frenzy|QID|86897|M|62.89,55.60|Z|2395; Eversong Woods|QO|1|N|Conf
 T Quelling the Frenzy|QID|86897|M|58.41,55.45|Z|2395; Eversong Woods|N|To Orweyna.|
 A Rise of the Haranir|QID|86898|PRE|86897|M|58.41,55.45|Z|2395; Eversong Woods|N|From Orweyna.|
 T Rise of the Haranir|QID|86898|M|36.62,68.68|Z|2393;Silvermoon City|N|To Orweyna.|
-A The Blinding Vale: Lightbloom Roots|QID|93651|PRE|86898|M|36.62,68.68|Z|2393;Silvermoon City|N|From Orweyna.|
+A The Blinding Vale: Lightbloom Roots|QID|93651|PRE|86898|M|36.62,68.68|Z|2393;Silvermoon City|N|From Orweyna.|;at least in adventure mode she also offers this in The Den.
 t The Blinding Vale: Lightbloom Roots|QID|93651|M|36.62,68.68|Z|2393;Silvermoon City|N|From Orweyna.|
 A Looming Shadows|QID|91084|PRE|86898|M|36.58,68.57|Z|2393;Silvermoon City|N|From Elder Hagar.|
 T Looming Shadows|QID|91084|M|45.33,70.40|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
@@ -394,7 +394,7 @@ P The Den|ACTIVE|93775|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal b
 ;verified all the rest of the quests chain starters are available at this point - almost for sure there is room for efficiency in routing still -- it appears none of the quest chains requires the dungeon to have been run before they are available.
 
 ;Late Bloomers  - In Har'mara
-A Late Bloomers|QID|90537|PRE|86930|M|36.93,26.00|Z|2413; Harandar|N|From Ney'leia.|RANK|2|
+A Late Bloomers|QID|90537|M|36.93,26.00|Z|2413; Harandar|N|From Ney'leia.|RANK|2|
 C Late Bloomers|QID|90537|M|48.67,32.06|Z|2413; Harandar|QO|1|I|N|Look for the missing caravan.|
 C Late Bloomers|QID|90537|M|48.71,32.04|Z|2413; Harandar|QO|2|H|N|Investigate the Corpse.|
 C Late Bloomers|QID|90537|M|48.71,32.13|Z|2413; Harandar|QO|3|H|N|Collect the Empty Seed Sack.|
@@ -419,7 +419,7 @@ T Gathering Glowshrooms|QID|90601|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
 T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
 
 ;Harandar's Kitchen  - In Har'mara
-A Fresh from the Garden|QID|91585|PRE|86930|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
+A Fresh from the Garden|QID|91585|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
 A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
 A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
 C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
@@ -482,8 +482,9 @@ T Haranir Never Say Die!|QID|91553|M|58.41,49.14|Z|2413; Harandar|N|To Shao'mal.
 
 ;A Goblin in Harandar
 A Go Get Orweyna!|QID|90533|M|47.12,45.76|Z|2413; Harandar|N|From Monte Gazlowe.|RANK|2|
-B Hand Crafted Plushie|ACTIVE|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|NC|U|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
-C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|3|H|U|241125|N|Offer Handcrafted Plush to Nahuut.|
+C Go Get Orweyna!|QID|90533|M|54.17,55.24|Z|2413; Harandar|CHAT|N|Tell Orwenya about Gazlowe's situation.|RANK|2|
+B Hand Crafted Plushie|ACTIVE|90533|M|53.89,55.17|Z|2413; Harandar|QO|2|L|241125|N|Acquire Handcrafted Plush from the nearby Toymaker.|;maybe pick up <My Brother's Alive> here
+C Go Get Orweyna!|QID|90533|M|47.14,45.84|Z|2413; Harandar|QO|2|H|U|241125|N|Offer Handcrafted Plush to Nahuut.|
 T Go Get Orweyna!|QID|90533|M|47.13,45.72|Z|2413; Harandar|N|To Orweyna.|
 A The Home of the Haranir|QID|90534|PRE|90533|M|47.13,45.72|Z|2413; Harandar|N|From Orweyna.|
 C The Home of the Haranir|QID|90534|M|51.85,50.45|Z|2413; Harandar|QO|1|H|N|Press the Button on Gazlowe's Shredder.|
@@ -496,7 +497,7 @@ C Leave Your Mark|QID|90535|M|48.02,23.28|Z|2576; The Den|QO|2|H|N|Click the wal
 T Leave Your Mark|QID|90535|M|47.98,22.28|Z|2576; The Den|N|To Orweyna.|
 
 ;Trials of the Shul'ka
-A My Brother's Alive!|QID|90824|PRE|90622|M|52.19,55.09|Z|2413; Harandar|N|From Chua.|RANK|2|
+A My Brother's Alive!|QID|90824|PRE|86890|M|52.19,55.09|Z|2413; Harandar|N|From Chua.|RANK|2|
 T My Brother's Alive!|QID|90824|M|43.09,61.41|Z|2413; Harandar|N|To En'liahn.|
 A The Healing Waters of Ahl'ua|QID|90826|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
 A Only the Poisonous Parts|QID|90827|PRE|90824|M|43.09,61.41|Z|2413; Harandar|N|From En'liahn.|
@@ -557,6 +558,7 @@ T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To H
 A The Silence at Fungara Village|QID|91375|M|33.38,66.66|Z|2413; Harandar|N|From Ghikal.|RANK|2|
 T The Silence at Fungara Village|QID|91375|M|43.90,71.75|Z|2413; Harandar|N|To Ghikal.|
 A Little Monsters|QID|91376|PRE|91375|M|43.90,71.75|Z|2413; Harandar|N|From Ghikal.|
+A Spawn of the Dead|QID|91377|PRE|91375|M|43.90,71.75|Z|2413; Harandar|N|From Ghikal.|
 C Little Monsters|QID|91376|M|45.03,69.21|Z|2413; Harandar|N|Kill and loot the mushroom men for Strange Mycelium.|S|
 C Spawn of the Dead|QID|91377|M|45.19,69.42|Z|2413; Harandar|H|N|Investigate Blooming Corpses.|
 C Little Monsters|QID|91376|M|45.03,69.21|Z|2413; Harandar|H|N|Keep killing zombified mushroommen 'till you have enough Strange Mycelium.|US|
@@ -570,7 +572,7 @@ C You Are Legend|QID|91378|M|42.85,67.23|Z|2413; Harandar|N|Decanimated creature
 T You Are Legend|QID|91378|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
 T Decayed Land|QID|91379|M|44.12,66.42|Z|2413; Harandar|N|To Ghikal.|
 A Reticent Evil|QID|91381|PRE|91378&91379|M|44.12,66.42|Z|2413; Harandar|N|From Ghikal.|
-C Reticent Evil|QID|91381|M|45.71,66.81|Z|2413; Harandar|QO|1|NC|N|Destroy Agericus Decanimatus.|
+C Reticent Evil|QID|91381|M|45.71,66.81|Z|2413; Harandar|QO|1|H|N|Destroy Agericus Decanimatus.|
 C Reticent Evil|QID|91381|M|45.66,66.85|Z|2413; Harandar|QO|2|N|Slay Zombified Guardian.|
 T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
 

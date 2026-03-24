@@ -95,7 +95,7 @@ $ Cadre Skinning Knife|QID|89167|M|45,44.7|Z|2536;Zul'Aman|P|Midnight Skinning;2
 $ Vial of Rootlands Oddities|QID|89113|M|34.7,24.7|Z|2413;Harandar|P|Midnight Alchemy;2906|
 $ Rutaani Floratender's Sword|QID|89182|M|66.3,50.8|Z|2413;Harandar|P|Midnight Blacksmithing;2907|
 $ Entropic Shard|QID|89104|M|37.7,65.3|Z|2413;Harandar|P|Midnight Enchanting;2909|
-$ Primal Essence Orb|QID|89105|M|65.8,50.2|Z|2413;Harandar|P|Midnight Enchanting;2909|
+$ Primal Essence Orb|QID|89105|M|65.8,50.2|Z|2413;Harandar|P|Midnight Enchanting;2909|N|Up on top of the giant mushrooms.|
 $ Expeditious Pylon|QID|89136|M|67.9,49.8|Z|2413;Harandar|P|Midnight Engineering;2910|
 $ Bloomed Bud|QID|89162|M|38.1,66.9|Z|2413;Harandar|P|Midnight Herbalism;2912|
 $ Lightbloom Root|QID|89159|M|36.6,25|Z|2413;Harandar|P|Midnight Herbalism;2912|
@@ -117,21 +117,21 @@ $ Pure Void Crystal|QID|89102|M|35.5,58.8|Z|2405;Voidstorm|P|Midnight Enchanting
 $ Peculiar Lotus|QID|89156|M|34.6,57|Z|2405;Voidstorm|P|Midnight Herbalism;2912|
 $ Speculative Voidstorm Crystal|QID|89123|M|30.6,69|Z|2405;Voidstorm|P|Midnight Jewelcrafting;2914|
 $ Ethereal Leatherworking Knife|QID|89090|M|34.8,56.9|Z|2405;Voidstorm|P|Midnight Leatherworking;2915|
-$ Star Metal Deposit|QID|89150|M|41.8,38.2|Z|2405;Voidstorm|P|Midnight Mining;2916|
-$ Vial of Voidstorm Oddities|QID|89112|M|41.8,40.5|Z|2444;Voidstorm|P|Midnight Alchemy;2906|
-$ Voidstorm Defense Spear|QID|89181|M|30.6,68.9|Z|2444;Voidstorm|P|Midnight Blacksmithing;2907|
-$ Ethereal Stormwrench|QID|89137|M|54,51|Z|2444;Voidstorm|P|Midnight Engineering;2910|
-$ Miniaturized Transport Skiff|QID|89134|M|29,39.2|Z|2444;Voidstorm|P|Midnight Engineering;2910|
-$ Void-Touched Quill|QID|89067|M|60.7,84.1|Z|2444;Voidstorm|P|Midnight Inscription;2913|
-$ Ethereal Gem Pliers|QID|89128|M|54.2,51.2|Z|2444;Voidstorm|P|Midnight Jewelcrafting;2914|
-$ Shattered Glass|QID|89126|M|62.9,53.5|Z|2444;Voidstorm|P|Midnight Jewelcrafting;2914|
-$ Patterns: Beyond the Void|QID|89093|M|53.8,51.6|Z|2444;Voidstorm|P|Midnight Leatherworking;2915|
-$ Glimmering Void Pearl|QID|89148|M|28.73,38.56|Z|2444;Voidstorm|P|Midnight Mining;2916|
-$ Lost Voidstorm Satchel|QID|89146|M|54.24,51.56|Z|2444;Voidstorm|P|Midnight Mining;2916|
-$ Miner's Guide to Voidstorm|QID|89144|M|30,69|Z|2444;Voidstorm|P|Midnight Mining;2916|
-$ Voidstorm Leather Sample|QID|89169|M|44.2,45.95|Z|2444;Voidstorm|P|Midnight Skinning;2917|
-$ Book of Sin'dorei Stitches|QID|89082|M|61.9,83.7|Z|2444;Voidstorm|P|Midnight Tailoring;2918|
-$ Satin Throw Pillow|QID|89083|M|61.4,85|Z|2444;Voidstorm|P|Midnight Tailoring;2918|
+$ Star Metal Deposit|QID|89150|M|34.24,76.08|Z|2444; Slayer's Rise|P|Midnight Mining;2916|;bliz moved this when season 1 started due to phasing issues
+$ Miner's Guide to Voidstorm|QID|89144|M|30,69|Z|2444; Slayer's Rise|P|Midnight Mining;2916|
+$ Vial of Voidstorm Oddities|QID|89112|M|41.8,40.5|Z|2444; Slayer's Rise|P|Midnight Alchemy;2906|
+$ Voidstorm Defense Spear|QID|89181|M|30.6,68.9|Z|2444; Slayer's Rise|P|Midnight Blacksmithing;2907|
+$ Ethereal Stormwrench|QID|89137|M|54,51|Z|2444; Slayer's Rise|P|Midnight Engineering;2910|
+$ Miniaturized Transport Skiff|QID|89134|M|29,39.2|Z|2444; Slayer's Rise|P|Midnight Engineering;2910|
+$ Void-Touched Quill|QID|89067|M|60.7,84.1|Z|2444; Slayer's Rise|P|Midnight Inscription;2913|
+$ Ethereal Gem Pliers|QID|89128|M|54.2,51.2|Z|2444; Slayer's Rise|P|Midnight Jewelcrafting;2914|
+$ Shattered Glass|QID|89126|M|62.9,53.5|Z|2444; Slayer's Rise|P|Midnight Jewelcrafting;2914|
+$ Patterns: Beyond the Void|QID|89093|M|53.8,51.6|Z|2444; Slayer's Rise|P|Midnight Leatherworking;2915|
+$ Glimmering Void Pearl|QID|89148|M|28.73,38.56|Z|2444; Slayer's Rise|P|Midnight Mining;2916|
+$ Lost Voidstorm Satchel|QID|89146|M|54.24,51.56|Z|2444; Slayer's Rise|P|Midnight Mining;2916|
+$ Voidstorm Leather Sample|QID|89169|M|44.2,45.95|Z|2444; Slayer's Rise|P|Midnight Skinning;2917|
+$ Book of Sin'dorei Stitches|QID|89082|M|61.9,83.7|Z|2444; Slayer's Rise|P|Midnight Tailoring;2918|
+$ Satin Throw Pillow|QID|89083|M|61.4,85|Z|2444; Slayer's Rise|P|Midnight Tailoring;2918|
 
 N Congratulations|N|You found all the knowledge treasures added in 12.0.2|
 ]]
