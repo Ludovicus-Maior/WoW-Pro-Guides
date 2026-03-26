@@ -575,8 +575,8 @@ A Reticent Evil|QID|91381|PRE|91378&91379|M|44.12,66.42|Z|2413; Harandar|N|From 
 C Reticent Evil|QID|91381|M|45.71,66.81|Z|2413; Harandar|QO|1|H|N|Destroy Agericus Decanimatus.|
 C Reticent Evil|QID|91381|M|45.66,66.85|Z|2413; Harandar|QO|2|N|Slay Zombified Guardian.|
 T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
-
 T O.K. Bloomer|QID|92739|M|31.39,64.97|Z|2413; Harandar|N|To Hannan.|
-N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)
