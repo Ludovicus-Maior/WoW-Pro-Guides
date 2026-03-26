@@ -142,6 +142,6 @@ T The Arcantina|QID|86903|M|50.49,61.71|Z|2541; Arcantina!Dungeon|N|To Arator.|
 A The Journey Ends|QID|91787|PRE|86903||Z|2541; Arcantina!Dungeon|M|50.49,61.71|N|From Arator.|
 P The Bazaar|M|50.66,83.46||Z|2541; Arcantina!Dungeon|N|Take the portal to Silvermoon City.|
 T The Journey Ends|QID|91787|M|45.39,70.50|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
-N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)

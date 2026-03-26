@@ -627,9 +627,9 @@ C Fractured|QID|86650|M|45.44,70.36|Z|2393; Silvermoon City|N|Speak to Lor'thema
 T Fractured|QID|86650|M|45.44,70.36|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 
 ;One Adventurous Hatchling available a lot earlier in adventure mode, but not till here first time thru
-A One Adventurous Hatchling|QID|89383|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
-A A Hungry Flock|QID|89384|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
-A A Roost-ed Development|QID|89386|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+A One Adventurous Hatchling|QID|89383|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
+A A Hungry Flock|QID|89384|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
+A A Roost-ed Development|QID|89386|PRE|86650&86636&86745|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
 C One Adventurous Hatchling|QID|89383|M|53.67,35.22|Z|2395; Eversong Woods|H|N|Click the Hatchling sitting in the middle of the table.|
 C A Hungry Flock|QID|89384|M|53.58,35.51|Z|2395; Eversong Woods|N|Kill the Toads and loot thier legs.|S|
 C A Roost-ed Development|QID|89386|M|53.58,35.51|Z|2395; Eversong Woods|H|N|Gather the glowing plants around the pond.|
@@ -637,7 +637,7 @@ C A Hungry Flock|QID|89384|M|53.58,35.51|Z|2395; Eversong Woods|N|Kill the Toads
 T One Adventurous Hatchling|QID|89383|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
 T A Hungry Flock|QID|89384|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
 T A Roost-ed Development|QID|89386|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
-A First Step Into Parenthood Complete|QID|89385|PRE|89383&89384&89386|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|
+A First Step Into Parenthood Complete|QID|89385|PRE|89383&89384&89386|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
 T First Step Into Parenthood Complete|QID|89385|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume. Congratulations, you have an egg that will hatch in 24 hours.|
 
 ;Paladin Rescue
