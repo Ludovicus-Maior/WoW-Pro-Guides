@@ -4,6 +4,7 @@
 --      WoWPro_WorldEvents_GuideList.lua      --
 ---------------------------------------------
 local WorldEvents = WoWPro.WorldEvents
+local L = WoWPro_Locale
 WorldEvents.GuideList = {}
 
 
@@ -39,6 +40,10 @@ local function GetGuides()
             })
 
             guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
+            if (guides[#guides].progress and guides[#guides].progress >= 1)
+            or WoWPro:IsCurrentGuideTitlebarComplete(guideID) then
+                guides[#guides].Progress = L["DONE"]
+            end
         end
     end
 

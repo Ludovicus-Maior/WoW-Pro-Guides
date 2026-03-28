@@ -5,6 +5,7 @@
 --      WoWPro_Achievements_GuideList.lua      --
 ---------------------------------------------
 local Achievements = WoWPro.Achievements
+local L = WoWPro_Locale
 Achievements.GuideList = {}
 
 local function AddInfo(guide)
@@ -64,6 +65,10 @@ local function GetGuides()
             })
 
             guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
+            if (guides[#guides].progress and guides[#guides].progress >= 1)
+            or WoWPro:IsCurrentGuideTitlebarComplete(guideID) then
+                guides[#guides].Progress = L["DONE"]
+            end
         end
     end
 

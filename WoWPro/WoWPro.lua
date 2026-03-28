@@ -1281,6 +1281,29 @@ function WoWPro:GetGuideProgress(guideID)
     return
 end
 
+function WoWPro:IsCurrentGuideTitlebarComplete(guideID)
+    local currentGuide = WoWProDB.char.currentguide
+    if not currentGuide then
+        return false
+    end
+    if guideID and guideID ~= currentGuide then
+        return false
+    end
+    local total = WoWPro.stepcount or 0
+    if total <= 0 then
+        return false
+    end
+    if WoWProDB.profile.guideprogress then
+        local currentStep = WoWPro.ActiveStep or 1
+        return currentStep >= total
+    end
+    local currentMainStep = WoWPro.NextStepNotSticky()
+    if not currentMainStep then
+        return false
+    end
+    return currentMainStep >= total
+end
+
 function WoWPro:GetGuideName(GID)
     if GID and WoWPro.Guides[GID] then
         return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
