@@ -106,8 +106,8 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.94,26.46|Z|2393; Silvermoon City|Q
 C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|QO|3|H|N|Search Tarelin's body.|
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
-C Murder Row: One Fel Swoop|QID|90822|S!US|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
-t Murder Row: One Fel Swoop|QID|90822|Z|2434|N|To Belath Dawnblade.|IZ|Silvermoon City|
+C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
+t Murder Row: One Fel Swoop|QID|90822|M|56.75,61.29|Z|2393; Silvermoon City|N|To Belath Dawnblade.|IZ|Silvermoon City|
 
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|
 C Mad to Measure|QID|91386|M|48.66,54.48|Z|2393; Silvermoon City|QO|1|H|N|Fetch Fabric Shears.|
@@ -158,7 +158,6 @@ A A Test of Blood|QID|91291|PRE|94393|M|42.93,13.79|Z|2395; Eversong Woods|N|Fro
 C A Test of Blood|QID|91291|M|43.40,14.55|Z|2395; Eversong Woods|QO|2|NC|N|Run up the ramp, use the translocation orb and spar with Jesthenis Sunstriker at the top of the tower.|
 T A Test of Blood|QID|91291|M|42.96,13.79|Z|2395; Eversong Woods|N|To Jesthenis Sunstriker.|
 A A Test of the Hunt|QID|91288|PRE|94393|M|42.21,13.29|Z|2395; Eversong Woods|N|From Ranger Hannovia.|
-C A Test of the Hunt|QID|91288|M|42.02,16.04|Z|2395; Eversong Woods|QO|1|S|N|Kill and loot the Invasive Lynx'.|
 T Down a Peg|QID|94396|M|39.43,17.47|Z|2395; Eversong Woods|N|To Tytalor Goldenblade.|
 A Spellbook Scuffle|QID|86997|PRE|94396|M|39.43,17.47|Z|2395; Eversong Woods|N|From Tytalor Goldenblade.|
 C Spellbook Scuffle|QID|86997|M|39.09,19.73|Z|2395; Eversong Woods|QO|1|N|Fight the Fiendish Inkbound Codex's and loot the Torn Spellbook Pages and/or pick Sedate Spellbooks up from the ground.|
@@ -170,7 +169,7 @@ A Academic Aspirations|QID|87002|PRE|86998|M|38.49,18.73|Z|2395; Eversong Woods|
 C Academic Aspirations|QID|87002|M|38.09,18.08|Z|2395; Eversong Woods|QO|2|N|Tytalor Goldenblade defeated.|
 T Academic Aspirations|QID|87002|M|39.34,17.26|Z|2395; Eversong Woods|N|To Tytalor Goldenblade.|
 C A Test of the Arcane|QID|91292|M|41.83,20.27|Z|2395; Eversong Woods|QO|1|NC|N|Charge Staff.|
-C A Test of the Hunt|QID|91288|M|42.02,16.04|Z|2395; Eversong Woods|QO|1|US|N|Finish up collecting the Invasive Lynx pelts.|
+C A Test of the Hunt|QID|91288|M|42.02,16.04|Z|2395; Eversong Woods|QO|1|N|Finish up collecting the Invasive Lynx pelts.|
 T A Test of the Arcane|QID|91292|M|43.20,14.64|Z|2395; Eversong Woods|N|To Magister Jaronis.|
 C A Path Not Yet Chosen|QID|91284|M|43.20,14.64|Z|2395; Eversong Woods|QO|3|CHAT|N|Ask for the Magister's Recommendation.|
 T A Test of the Hunt|QID|91288|M|42.20,13.31|Z|2395; Eversong Woods|N|To Ranger Hannovia.|
@@ -275,9 +274,9 @@ T Thief at Bark|QID|90544|M|38.93,38.62|Z|2395; Eversong Woods|N|To Luma.|
 A Range of Knowledge|QID|91452|M|57.38,39.95|Z|2395; Eversong Woods|N|From Arcanist Taemin.|RANK|2|
 A If You Want It Done Right|QID|91342|M|57.38,39.95|Z|2395; Eversong Woods|N|From Arcanist Taemin.|RANK|2|
 C If You Want It Done Right|QID|91342|M|57.04,41.52|Z|2395; Eversong Woods|QO|1|N|Unalive the Ornery Sweepers.|S|
-C Range of Knowledge|QID|91452|M|56.52,40.61|Z|2395; Eversong Woods|QO|2|NC|N|Pick up Index of Ranger Corps Recipes Vol. VII.|
-C Range of Knowledge|QID|91452|M|57.20,42.16|Z|2395; Eversong Woods|QO|1|NC|N|Pick up Herbalist's Handbook: Eversong Medicinals.|
-C Range of Knowledge|QID|91452|M|56.91,43.04|Z|2395; Eversong Woods|QO|3|NC|N|Pick up Songs for the Silver Streams.|
+C Range of Knowledge|QID|91452|M|56.52,40.61|Z|2395; Eversong Woods|QO|2|H|N|Pick up Index of Ranger Corps Recipes Vol. VII.|
+C Range of Knowledge|QID|91452|M|57.20,42.16|Z|2395; Eversong Woods|QO|1|H|N|Pick up Herbalist's Handbook: Eversong Medicinals.|
+C Range of Knowledge|QID|91452|M|56.91,43.04|Z|2395; Eversong Woods|QO|3|H|N|Pick up Songs for the Silver Streams.|
 C If You Want It Done Right|QID|91342|M|57.04,41.52|Z|2395; Eversong Woods|QO|1|N|Keep killing the Ornery Sweepers.|US|
 C Range of Knowledge|QID|91452|M|56.69,40.97|Z|2395; Eversong Woods|QO|4|NC|N|Use your [color=33fff9] Extra Action Button [/color] to Return books to the Farstrider Library.|EAB|
 C Range of Knowledge|QID|91452|M|56.68,40.93|Z|2395; Eversong Woods|QO|5|NC|N|Examine Taemin's favorite book on the ground beside him.|
@@ -339,9 +338,8 @@ A Silvermoon Must Know|QID|86745|PRE|86744|M|47.36,55.34|Z|2395; Eversong Woods|
 C Silvermoon Must Know|QID|86745|M|47.36,55.34|Z|2395; Eversong Woods|N|Contact Silvermoon.|NC|
 T Silvermoon Must Know|QID|86745|M|47.36,55.34|Z|2395; Eversong Woods|N|To Arator.|
 A The Wayward Magister|QID|86621|PRE|86745|M|47.36,55.34|Z|2395; Eversong Woods|N|From Arator.|
-
 C Warranted Search|QID|87393|M|39.83,45.00|Z|2395; Eversong Woods|QO|1|NC|N|"Interrogate" Tideborne Freight sailors.|S|
-C Supplier Surveillance|QID|87394|M|40.54,44.26|Z|2395; Eversong Woods|QO|1|NC|N|place Side View Recorder.|
+C Supplier Surveillance|QID|87394|M|40.54,44.26|Z|2395; Eversong Woods|QO|1|NC|N|Place Side View Recorder.|
 C Supplier Surveillance|QID|87394|M|39.43,45.30|Z|2395; Eversong Woods|QO|2|NC|N|Place Upper View Recorder.|;do you have to do these in order. because it would be much better to do the front view before going up if surveil can be done then . or from anywhere
 C Supplier Surveillance|QID|87394|M|39.62,44.17|Z|2395; Eversong Woods|QO|3|NC|N|Place Front View Recorder.|
 C Supplier Surveillance|QID|87394|M|39.62,44.17|Z|2395; Eversong Woods|QO|4|NC|N|Surveil Ship.|
