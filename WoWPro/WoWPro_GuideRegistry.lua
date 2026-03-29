@@ -1,3 +1,7 @@
+-- luacheck: globals select pairs ipairs tinsert tremove sort table
+-- luacheck: globals tostring tonumber
+-- luacheck: globals date type max min floor coroutine
+
 -------------------------------
 -- WoWPro_GuideRegistry.lua --
 -------------------------------
