@@ -263,7 +263,7 @@ C Coals of a Dead Loa|QID|86661|M|38.53,22.42|Z|2437; Zul'Aman|QO|1|CHAT|N|Speak
 T Coals of a Dead Loa|QID|86661|M|38.53,22.42|Z|2437; Zul'Aman|N|To Zul'jarra.|
 C I Have a Permit|QID|90481|M|38.26,20.98|Z|2437; Zul'Aman|N|Talk to Elder Ren'zen.|CHAT|
 T I Have a Permit|QID|90481|M|46.27,26.14|Z|2437; Zul'Aman|N|To Seeker Crikkash.|
-A Sightseeing Stegadon|QID|90484|PRE|90481|M|47.30,26.08|Z|2437; Zul'Aman|N|From Trishe.|RANK|2|
+A Sightseeing Stegadon|QID|90484|PRE|90481|M|47.30,26.08|Z|2437; Zul'Aman|N|From Trishe. Wait a minute or two to give them time to arrive. |RANK|2|
 f Camp Stonewash|ACTIVE|90484|M|47.32,25.52|Z|2437; Zul'Aman|N|From Scroll of Flight.|
 A Cuisine Connection|QID|90482|PRE|90481|M|47.18,24.66|Z|2437; Zul'Aman|N|From Amaxi.|RANK|2|
 A A Witherbark Story|QID|90483|PRE|90481|M|47.25,24.52|Z|2437; Zul'Aman|N|From Seeker Cikkash.|RANK|2|
