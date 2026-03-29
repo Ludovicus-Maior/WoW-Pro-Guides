@@ -862,6 +862,7 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(72769,"Spirit of Jadefire",951)
     _NPCScan.NPCAdd(73704,"Stinkbraid",951)
     _NPCScan.NPCAdd(72808,"Tsavo'ka",951)
+    _NPCScan.NPCAdd(73173,"Urdur the Cauterizer",951)
     _NPCScan.NPCAdd(73170,"Watcher Osu",951)
 
     _NPCScan.NPCAdd(72245,"Zesqua",951)
