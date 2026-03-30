@@ -18,6 +18,10 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+-- Update concurrency guards (prevent race conditions from nested / overlapping update loops)
+WoWPro.UpdateGuideBusy = false
+WoWPro.UpdateGuidePending = false
+
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
@@ -904,6 +908,14 @@ function WoWPro:CheckFunction(row, button, down)
         if WoWProDB.profile.checksound then
             _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
         end
+
+        -- Auto-check that criteria are met before forcing a completion (no user prompt)
+        if not WoWPro.AutoCompleteVerify(row.index) then
+            WoWPro:dbp("CheckFunction: AutoCompleteVerify failed for step %d, dropping complete", row.index)
+            row.check:SetChecked(nil)
+            return
+        end
+
         -- if CompleteStep() did a LoadGuide, skip out.
         if WoWPro.CompleteStep(row.index,"Right-Click") then
             return
@@ -2048,18 +2060,39 @@ function WoWPro.UpdateGuideReal(From)
     for who, count in pairs(From) do
         why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
     end
+
+    if WoWPro.UpdateGuideBusy then
+        WoWPro.UpdateGuidePending = true
+        WoWPro:dbp("UpdateGuideReal(%s): busy, setting pending and returning", why)
+        return
+    end
+
+    WoWPro.UpdateGuideBusy = true
+    local function unlock()
+        WoWPro.UpdateGuideBusy = false
+        if WoWPro.UpdateGuidePending then
+            WoWPro.UpdateGuidePending = false
+            WoWPro:dbp("UpdateGuideReal(%s): deferred update now firing", why)
+            WoWPro:UpdateGuide("WoWPro.UpdateGuideReal:deferred")
+        end
+    end
+
     WoWPro:dbp("UpdateGuideReal(%s): Running", why)
     if not WoWPro.GuideFrame:IsVisible() then
         -- Cinematic hides things ...
         WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
         WoWPro:dbp("UpdateGuideReal(): Punting")
+        unlock()
+        return
     end
     if not WoWPro.GuideLoaded then
         WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
+        unlock()
         return
     end
     if WoWPro.LoadAllGuidesActive then
         WoWPro:dbp("UpdateGuideReal(): Test Load active, supressing.")
+        unlock()
         return
     end
     WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
@@ -2070,25 +2103,32 @@ function WoWPro.UpdateGuideReal(From)
     -- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
     if WoWPro.InitLockdown then
         WoWPro:print("Suppresssed guide update.  In InitLockdown.")
+        unlock()
         return
     end
     if WoWPro.MaybeCombatLockdown() then
         WoWPro:print("Punted guide update.  In Combat.")
         WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
+        unlock()
         return
     end
     if  not GID or not WoWPro.Guides[GID] then
         WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
+        unlock()
         return
     end
     if  not WoWPro.GuideLoaded then
         WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
+        unlock()
         return
     end
 
     -- If the module that handles this guide is not present and enabled, then end --
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-    if not module or not module:IsEnabled() then return end
+    if not module or not module:IsEnabled() then
+        unlock()
+        return
+    end
 
     -- Finding the active step in the guide --
     WoWPro.ActiveStep = WoWPro.NextStepNotSticky(1)
@@ -2245,6 +2285,7 @@ function WoWPro.UpdateGuideReal(From)
             WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
             WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
             WoWPro:LoadGuide()
+            unlock()
             return
         else
             WoWPro.NextGuideDialog:Show()
@@ -2259,6 +2300,7 @@ function WoWPro.UpdateGuideReal(From)
     -- Update content and formatting --
     WoWPro.PaddingSet()
     WoWPro.RowSet()
+    unlock()
 end
 end
 
@@ -3400,13 +3442,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local seasonrealm = _G.C_Seasons.HasActiveSeason()
                 WoWPro:dbp("HasActiveSeason: %q",tostring(seasonrealm))
                 if not seasonrealm then
-                    WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
+                    guide.skipped[guideIndex] = true
+                    WoWPro.why[guideIndex] = "NextStep(): You are not playing on a seasonal realm."
                     skip = true
+                    break
                 else
                     local season = _G.C_Seasons.GetActiveSeason("player")
                     if season ~= 2 then
-                        WoWPro.CompleteStep(guideIndex, "NextStep(): GetActiveSeason mismatch %d ~= 2", season)
+                        guide.skipped[guideIndex] = true
+                        WoWPro.why[guideIndex] = "NextStep(): GetActiveSeason mismatch " .. tostring(season) .. " ~= 2"
                         skip = true
+                        break
                     end
                 end
            end
@@ -3414,8 +3460,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then
-					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. ".")
-					 skip = true
+					guide.skipped[guideIndex] = true
+					WoWPro.why[guideIndex] = "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. "."
+					skip = true
+					break
 				end
 			end
 
@@ -3425,8 +3473,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					myrace = "Undead"
 				end
 				if not WoWPro.SemiMatch(WoWPro.playerrace[guideIndex]:gsub(" ", ""),myrace)   and (stepAction == "A" or stepAction == "T") then
-					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. ".")
-					 skip = true
+					guide.skipped[guideIndex] = true
+					WoWPro.why[guideIndex] = "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. "."
+					skip = true
+					break
 				end
 			end
 
@@ -3441,8 +3491,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     gender = 1
                 end
 				if gender ~= _G.UnitSex("player") and (stepAction == "A" or stepAction == "T") then
-					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playergender[guideIndex] .. " character.")
-					 skip = true
+					guide.skipped[guideIndex] = true
+					WoWPro.why[guideIndex] = "NextStep(): You are not playing a " .. WoWPro.playergender[guideIndex] .. " character."
+					skip = true
+					break
 				end
 			end
 
@@ -3469,12 +3521,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     covenantMatch = not covenantMatch
                 end
 
-				if WoWPro.GroupSync and (not covenantMatch) and (stepAction == "A" or stepAction == "T") then
-					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not in the  " .. WoWPro.covenant[guideIndex] .. " covenant.")
+				if not covenantMatch and (stepAction == "A" or stepAction == "T") then
+					guide.skipped[guideIndex] = true
+					WoWPro.why[guideIndex] = "NextStep(): You are not in the " .. WoWPro.covenant[guideIndex] .. " covenant."
 					skip = true
-				elseif (not covenantMatch) then
-					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not in the  " .. WoWPro.covenant[guideIndex] .. " covenant.")
-					skip = true
+					break
 				end
 			end
 
@@ -4179,10 +4230,57 @@ function WoWPro.NextStepNotSticky(guideIndex)
 end
 
 -- Step Completion Tasks --
+function WoWPro.AutoCompleteVerify(step)
+    local action = WoWPro.action[step]
+    local QID = WoWPro.QID[step]
+
+    if not QID then return true end
+
+    -- if quest is claimably complete in the log, this is valid
+    if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].complete then
+        return true
+    end
+
+    -- if quest already completed in history, valid
+    if WoWPro:IsQuestFlaggedCompleted(QID, true) then
+        return true
+    end
+
+    -- For C steps with explicit objective text, ensure objectives are complete
+    if action == "C" and WoWPro.questtext[step] and WoWPro.QuestLog[QID] then
+        local numQuestText = select("#", (";"):split(WoWPro.questtext[step]))
+        for i=1,numQuestText do
+            local objective = select(numQuestText-i+1, (";"):split(WoWPro.questtext[step]))
+            if WoWPro.ValidObjective(objective) then
+                if not WoWPro.QuestObjectiveStatus(QID, objective) then
+                    WoWPro:dbp("AutoCompleteVerify step %d failed objective %s", step, objective)
+                    return false
+                end
+            end
+        end
+        return true
+    end
+
+    -- If we reach here, auto-complete should only proceed if step is already in quest log and completed or absent is okay.
+    if WoWPro.QuestLog[QID] then
+        return WoWPro.QuestLog[QID].complete and true or false
+    end
+
+    return false
+end
+
 function WoWPro.CompleteStep(step, why, noUpdate)
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
+
+    if not noUpdate then
+        if not WoWPro.AutoCompleteVerify(step) then
+            WoWPro:dbp("AutoCompleteVerify failed for step %d (why=%s), skipping completion", step, tostring(why))
+            return false
+        end
+    end
+
     if WoWProDB.profile.checksound and (not noUpdate) and (not WoWProCharDB.Guide[GID].completion[step]) then
         _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
     end
@@ -4217,7 +4315,12 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     end
     WoWPro.why[step] = why
     if not noUpdate then
-        WoWPro:UpdateGuide("WoWPro.CompleteStep")
+        if WoWPro.UpdateGuideBusy then
+            WoWPro.UpdateGuidePending = true
+            WoWPro:dbp("WoWPro.CompleteStep(%d): update in progress, deferring.", step)
+        else
+            WoWPro:UpdateGuide("WoWPro.CompleteStep")
+        end
     end
 end
 
@@ -4801,7 +4904,6 @@ _G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
     preferredIndex = 3,
     hasEditBox = false,
 }
-
 
 function WoWPro.PickQuestline(qid, step)
     if type(qid)== "number" and type(step) == "string" then
