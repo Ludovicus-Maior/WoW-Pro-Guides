@@ -2,11 +2,15 @@ local guide = WoWPro:RegisterGuide('Voidstorm', 'Leveling', 'Eversong Woods', 'W
 WoWPro:GuideName(guide,"Voidstorm")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
-WoWPro:GuideQuestTriggers(guide, 91854)
+WoWPro:GuideQuestTriggers(guide, 89388,91854)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNextGuide(guide, 'Arators Journey')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+A Voidstorm|QID|89388|M|45.37,70.27|Z|2393; Silvermoon City|N|From Silvermoon Scouting Map.|
+T Voidstorm|QID|89388|M|45.37,70.27|Z|2393; Silvermoon City|N|To Magister Umbric.|
+
 
 ;The Darkening Sky (Intro) |
 A Deepening Shadows|QID|91854|M|45.37,70.27|Z|2393; Silvermoon City|N|From Commander Koruth Mountainfist.|
@@ -34,7 +38,6 @@ C Magisters' Terrace: Homecoming|QID|86543|QO|2|M|62.13,14.70|Z|2424; Isle of Qu
 T Magisters' Terrace: Homecoming|QID|86543|M|35.18,65.66|Z|2393; Silvermoon City|N|To Magister Umbric.|
 A No Fear of the Dark|QID|86549|PRE|86543|M|35.18,65.66|Z|2393; Silvermoon City|N|From Magister Umbric.|
 C No Fear of the Dark|QID|86549|QO|1|M|35.08,65.51|Z|2393; Silvermoon City|H|N|Drag a tendril from one Shadow Foci to the adjacent one, continue until they are all connected.|
-C No Fear of the Dark|QID|86549|QO|2|M|35.09,65.62|Z|2393; Silvermoon City|CHAT|N|Stay a while and listen to Lor'themar.|
 C No Fear of the Dark|QID|86549|QO|3|M|35.23,65.95|Z|2393; Silvermoon City|H|N|Enter Portal.|
 T No Fear of the Dark|QID|86549|M|34.25,60.48|Z|2405; Voidstorm|N|To Magister Umbric.|
 A Save a Piece of Mind|QID|86558|PRE|86549|M|34.25,60.48|Z|2405; Voidstorm|N|From Magister Umbric.|
@@ -60,7 +63,7 @@ T A Strange, Different World|QID|86561|M|27.41,50.99|Z|2405; Voidstorm|N|To Loth
 A No Prayer for the Wicked|QID|86565|PRE|86562&86561|M|27.41,50.99|Z|2405; Voidstorm|N|From Lothraxion.|
 C No Prayer for the Wicked|QID|86565|QO|1|M|27.42,51.03|Z|2405; Voidstorm|H|N|Click on the Grafting Metal on the ground in fromt of Lothraxion.|
 K Sinewshredder|ACTIVE|86565|QO|2|M|26.45,51.60|Z|2405; Voidstorm|N|Slay Sinewshredder.|T|Sinewshredder|
-C No Prayer for the Wicked|QID|86565|QO|3|M|27.43,40.59|Z|2405; Voidstorm|H|N|Pursue Domanaar through the Stellar Vortex.|
+C No Prayer for the Wicked|QID|86565|QO|3|M|26.43,51.19|Z|2405; Voidstorm|H|N|Pursue Domanaar through the Stellar Vortex.|
 T No Prayer for the Wicked|QID|86565|M|35.34,59.14|Z|2405; Voidstorm|N|To Lothraxion.|
 ;(C)The Night's Veil |
 A Reliable Enemies|QID|86536|PRE|86565|M|35.34,59.14|Z|2405; Voidstorm|N|From Lothraxion.|
@@ -779,6 +782,6 @@ C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|Z|2405; Voidstorm|H|N|Pla
 T Across Worlds|QID|90875|M|39.34,48.05|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 
 t Research Console: Exploring the Void|QID|94790|M|52.58,72.90|Z|2405; Voidstorm|N|Back to Void Researcher Anomander for another point on your zone talent tree.|
-A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^89388^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)

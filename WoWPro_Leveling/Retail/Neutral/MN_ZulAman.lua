@@ -563,7 +563,7 @@ T Spears Against de Shadow|QID|92496|M|22.59,63.97|Z|2437; Zul'Aman|N|To Lilaju.
 A The Wisest Leaders Follow|QID|92499|PRE|92497&92496|M|22.59,63.97|Z|2437; Zul'Aman|N|From Lilaju.|RANK|2|
 T The Wisest Leaders Follow|QID|92499|M|33.59,78.76|Z|2437; Zul'Aman|N|To Lilaju.|
 
-N Zul'Aman Sojourner|N|The last part of the Sojourner for Zul Aman requires level 90, hit 90 and come back.|LVL|-90|
+N Zul'Aman Sojourner|N|The last part of the Sojourner for Zul Aman requires level 90, hit 90 and come back.|LVL|-90|RANK|2|
 A Dirty Deeps|QID|91833|PRE|93051|M|38.53,22.45|Z|2437; Zul'Aman|N|From Vun'zarah.|LVL|90|RANK|2|
 T Dirty Deeps|QID|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|To Dak'zor.|
 A Send Dem Home|QID|91835|PRE|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
