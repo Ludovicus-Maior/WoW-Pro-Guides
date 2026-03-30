@@ -23,6 +23,7 @@ WoWPro_CompatUtil.lua
 WoWPro_Templates.xml
 WoWPro_Widgets.lua
 WoWPro_Localization.lua
+WoWPro_GuideRegistry.lua
 WoWPro_CurrentGuide.lua
 WoWPro_GuideList.lua
 WoWPro_Frames.lua
