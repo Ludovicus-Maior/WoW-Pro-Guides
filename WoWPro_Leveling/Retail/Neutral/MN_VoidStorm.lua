@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Voidstorm', 'Leveling', 'Eversong Woods', 'W
 WoWPro:GuideName(guide,"Voidstorm")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
-WoWPro:GuideQuestTriggers(guide, 89388^91854)
+WoWPro:GuideQuestTriggers(guide, 89388,91854)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNextGuide(guide, 'Arators Journey')
 WoWPro:GuideSteps(guide, function()
