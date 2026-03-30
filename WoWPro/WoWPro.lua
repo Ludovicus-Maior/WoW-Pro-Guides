@@ -48,13 +48,18 @@ function WoWPro:Add2Log(level, msg)
     if WoWPro.Serial > 2500 then
         WoWPro.Serial = 1
     end
-    if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+
+    if WoWProDB and WoWProDB.global then
+        WoWProDB.global.Log = WoWProDB.global.Log or {}
         if WoWPro.Log then
-            WoWProDB.global.Log = WoWPro.Log
+            for k,v in pairs(WoWPro.Log) do
+                WoWProDB.global.Log[k] = v
+            end
             WoWPro.Log = nil
         end
         WoWProDB.global.Log[WoWPro.Serial] = msg
     else
+        WoWPro.Log = WoWPro.Log or {}
         WoWPro.Log[WoWPro.Serial] = msg
     end
 end
@@ -203,12 +208,23 @@ local LogCo = nil
 local LogCall = nil
 local LogFrame = nil
 local function LogGrow(frame, elapsed)
+    local logtable = (WoWProDB and WoWProDB.global and WoWProDB.global.Log) and WoWProDB.global.Log or WoWPro.Log
+    if not logtable then
+        if LogFrame then
+            LogFrame:SetScript("OnUpdate",nil)
+        end
+        if LogCall then
+            LogCall("")
+        end
+        return
+    end
+
     if Log == nil then
         -- Start coroutine
         Log = ""
         LogCo = coroutine.create(function()
             local loops = 25
-            for key, val in ipairs(WoWProDB.global.Log) do
+            for key, val in ipairs(logtable) do
                 Log = Log .. ("%05d ~ %s\n"):format(key, val)
                 loops = loops - 1
                 if loops < 0 then
@@ -231,7 +247,8 @@ local function LogGrow(frame, elapsed)
 end
 
 function WoWPro:LogDump(callback)
-    if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
+    local logtable = (WoWProDB and WoWProDB.global and WoWProDB.global.Log) and WoWProDB.global.Log or WoWPro.Log
+    if not logtable then return "" end
     _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
     WoWPro:Print("WoWPro Version %s, WoW Version/TOC %s/%d.", WoWPro.Version, _G.GetBuildInfo(), WoWPro.TocVersion)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
