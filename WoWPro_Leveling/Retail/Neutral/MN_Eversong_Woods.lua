@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Eversong Woods', 'Leveling', 'Eversong Woods
 WoWPro:GuideName(guide,"Eversong Woods")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,80, 90)
-WoWPro:GuideQuestTriggers(guide, 86733^94871)
+WoWPro:GuideQuestTriggers(guide, 86733,94871)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, "Zul'Aman")
 WoWPro:GuideSteps(guide, function()
