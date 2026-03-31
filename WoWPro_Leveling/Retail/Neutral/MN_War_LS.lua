@@ -154,7 +154,7 @@ C The Battle of the Bridge|QID|88769|M|45.60,3.17|Z|2443|QO|1|NC|N|The Battle of
 T The Battle of the Bridge|QID|88769|M|52.58,90.25|Z|2424;Isle of Quel'Danas|N|To Arator.|
 A March on Quel'Danas|QID|88710|PRE|88769|M|52.58,90.25|Z|2424;Isle of Quel'Danas|N|From Arator.|
 
-N Story mode for March on Quel'Danas not open till April 7th. will update at that time. 
+N Story mode for March on Quel'Danas not open till April 7th. will update at that time.
 
 
 ]]
