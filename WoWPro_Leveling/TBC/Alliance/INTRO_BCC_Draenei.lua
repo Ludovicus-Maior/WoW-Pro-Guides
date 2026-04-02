@@ -65,20 +65,22 @@ r Sell junk and repair|ACTIVE|9303|M|79.19,50.94|Z|1943; Azuremyst Isle|N|At Mur
 C Inoculation|QID|9303|M|85.36,67.57|Z|1943; Azuremyst Isle|N|Use your Inoculating Crystal on Nestlewood Owlkins.\n[color=FF0000]NOTE: [/color]Not the mutated ones.|T|Nestlewood Owlkin|U|22962|S|NC|
 C Spare Parts|QID|9305|M|85.36,67.57|Z|1943; Azuremyst Isle|L|22978 4|N|They are spread all over the camp.\n[color=FF0000]NOTE: [/color]The camp is through the tunnel located in Nestlewood Hills.\nYou can also get there by walking over the top of the hill.|
 C Inoculation|QID|9303|M|85.36,67.57|Z|1943; Azuremyst Isle|N|Use your Inoculating Crystal on Nestlewood Owlkins.\n[color=FF0000]NOTE: [/color]Not the mutated ones.\nIf the area is busy, go back through the cave and check the hills leading to it.|T|Nestlewood Owlkin|U|22962|US|NC|
-H Ammen Vale|ACTIVE|9303|M|84.29,43.02|Z|1943; Azuremyst Isle|N|Hearth back to Ammen Vale, or run back if your hearthstone isn't available.|R|Draenei| ;Non-Draenei cannot set their hearth to Ammen Vale.
-T Inoculation|QID|9303|M|79.48,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar at The Crash Site.| ;450 exp
+; ** Non-Draenei cannot set their hearth to Ammen Vale and using Ammen Vale as the location is immediately auto-completing it.
+R Crash Site|ACTIVE|9303|M|80.43,46.30|Z|1943; Azuremyst Isle|N|Return to the Crash Site.|R|-Draenei|
+H Crash Site|ACTIVE|9303|M|80.43,46.30|Z|1943; Azuremyst Isle|N|Return to the Crash Site.\n[color=FF0000]NOTE: [/color]Use your hearthstone and walk down the hill.|U|6948|R|Draenei|
+T Inoculation|QID|9303|M|79.48,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar at Crash Site.| ;450 exp
 A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.| ;Non-Draenei
 T Spare Parts|QID|9305|M|79.42,51.24|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.| ;360 exp
 T The Missing Scout|QID|9309|M|72.01,60.84|Z|1943; Azuremyst Isle|N|To Tolaan.|
 A The Blood Elves|QID|10303|PRE|9309|M|72.01,60.84|Z|1943; Azuremyst Isle|N|From Tolaan.| ;Non-Draenei
 l Blood Elf Plans|AVAILABLE|9798|PRE|9309|M|69.27,65.76|Z|1943; Azuremyst Isle|L|24414|ITEM|24414|N|Surveyor Candress.|IZ|Shadow Ridge|S!US|
 A Blood Elf Plans|QID|9798|M|PLAYER|CC|N|From the Blood Elf Plans.|U|24414|O|
-C The Blood Elves|QID|10303|M|70.56,61.90|Z|1943; Azuremyst Isle|N|Kill Blood Elf Scouts.|T|Blood Elf Scout|
+C The Blood Elves|QID|10303|M|70.56,61.90|Z|1943; Azuremyst Isle|N|Kill Blood Elf Scouts.\n[color=FF0000]NOTE: [/color]If you clear a path up the hill, it will be easier to do the follow-up quest.|T|Blood Elf Scout|
 T The Blood Elves|QID|10303|M|72.01,60.84|Z|1943; Azuremyst Isle|N|To Tolaan.|
 A Blood Elf Spy|QID|9311|PRE|10303|M|72.01,60.84|Z|1943; Azuremyst Isle|N|From Tolaan.| ;Non-Draenei
 C Blood Elf Spy|QID|9311|M|69.80,65.32|Z|1943; Azuremyst Isle|N|Kill Surveyor Candress at the tent on top of Shadow Ridge.\n[color=FF0000]NOTE: [/color]She's not alone and attacking either one will draw the other too.|T|Surveyor Candress|
-L Level 6|ACTIVE|9798|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-1235|
-L Level 6|AVAILABLE|9798|N|Grind until you're within 4.5 bubbles of level 6.|LVL|5;-785|
+L Level 6|ACTIVE|9798|M|PLAYER|CC|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-1235|
+L Level 6|AVAILABLE|9798|M|PLAYER|CC|N|Grind until you're within 4.5 bubbles of level 6.|LVL|5;-785|
 T Blood Elf Spy|QID|9311|M|79.48,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.| ;675 exp
 T Blood Elf Plans|QID|9798|M|79.48,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.| ;450 exp
 A The Emitter|QID|9312|PRE|9305|M|79.48,51.61|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.| ;Non-Draenei
@@ -98,8 +100,8 @@ T Travel to Azure Watch|QID|9313|M|48.65,50.22|Z|1943; Azuremyst Isle|N|To Techn
 h Azure Watch|ACTIVE|9314|M|48.34,49.14|Z|1943; Azuremyst Isle|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 T Word from Azure Watch|QID|9314|M|48.34,49.14|Z|1943; Azuremyst Isle|N|To Caregiver Chellan.|
 A Help Tavara|QID|9586|M|48.59,49.29|Z|1943; Azuremyst Isle|N|From Guvan.|R|-Night Elf|C|Priest|
-= Professions|AVAILABLE|9463|M|PLAYER|CC|N|Learn your primary professions from the various trainers around Azure Watch.\n[color=FF0000]NOTE: [/color]There is no cooking trainer here, only First Aid.CONT|
-= First Aid|AVAILABLE|9463|M|PLAYER|CC|N|Learn Apprentice First Aid from Anchorite Fateema for 95c.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested, or you can't afford it.|SPELL|First Aid;3273|
+= Professions|AVAILABLE|9463|M|PLAYER|CC|N|Learn your primary professions from the various trainers around Azure Watch.\n[color=FF0000]NOTE: [/color]There is no cooking trainer here, only First Aid.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= First Aid|AVAILABLE|9463|M|48.39,51.77|Z|1943; Azuremyst Isle|N|Learn Apprentice First Aid from Anchorite Fateema for 95c.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested, or you can't afford it.|SPELL|First Aid;3273|IZ|Azure Watch|
 A Medicinal Purpose|QID|9463|M|48.39,51.77|Z|1943; Azuremyst Isle|N|From Anchorite Fateema, the First Aid Trainer.|R|Draenei|
 N Draenei Youngling|AVAILABLE|9612|N|Keep an eye out for a wandering Draenei Youngling. They are elusive, but have a hidden quest for you should you happen upon them.\n \nCast [color=33fff9]Gift of the Naaru[/color] on them after they have taken damage in a fight and they'll offer you the quest once the fight is over.\n[color=FF0000]NOTE: [/color]You can either follow them until they get into a fight, or bring the fight to them by aggroing a mob and kiting it towards them. Do not attack the mob, or they won't be able to pull aggro from you.\nOnce they thank you, feel free to end the fight for them.\n \nManually check this step off to continue.|LVL|5|R|Draenei|
 t A Hearty Thanks!|QID|9612|M|47.10,50.59|Z|1943; Azuremyst|N|To Menelaous.|IZ|Azure Watch|
@@ -115,7 +117,8 @@ t Bandits!|QID|9616|M|47.10,50.59|Z|1943; Azuremyst Isle|N|To Exarch Menelaous.|
 A An Alternative Alternative|QID|9473|PRE|9463|M|48.39,51.48|Z|1943; Azuremyst Isle|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.78,51.94|Z|1943; Azuremyst Isle|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.78,51.94|Z|1943; Azuremyst Isle|N|From Acteon.| ;Non-Draenei
-C An Alternative Alternative|QID|9473|M|48.50,55.10|Z|1943; Azuremyst Isle|L|23692 5|N|Loot them from the bluish-colored flowers found at the base of trees on either side of the road.|
+C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|Z|1943; Azuremyst Isle|L|23677 6|ITEM|23677|N|Moongraze Bucks.|S|
+C An Alternative Alternative|QID|9473|M|48.50,55.10|Z|1943; Azuremyst Isle|L|23692 5|N|Collect the bluish-colored flowers found at the base of the trees on either side of the road.|
 T An Alternative Alternative|QID|9473|M|48.39,51.48|Z|1943; Azuremyst Isle|N|To Daedal.|
 A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.39,51.48|Z|1943; Azuremyst Isle|N|From Daedal after a short scene.\n[color=FF0000]NOTE: [/color]You cannot interact with him as long he's not at his original location.|R|Draenei|
 T The Prophecy of Velen|QID|9505|M|47.04,70.22|Z|1943; Azuremyst Isle|N|To Admiral Odesyus in Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Follow the road south from Azure Watch.|
@@ -134,7 +137,7 @@ T Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.54|Z|1943; Azuremyst Isle|N|To "Cooki
 r Sell junk and repair|ACTIVE|9530|M|46.35,71.19|Z|1943; Azuremyst Isle|N|At Blacksmith Calypso.|IZ|Odesyus' Landing|
 C I've Got a Plant|QID|9530|M|38.67,70.38|Z|1943; Azuremyst Isle|L|23791 5;23790|N|Loot the 'purple' piles of leaves to the north and west of Odesyus' Landing.\nThe tree trunk can be found on either side of the road just to the north.|S|
 C Reclaiming the Ruins|QID|9513|M|39.18,78.15|Z|1943; Azuremyst Isle|N|Kill the required Nagas.|S|
-l Rune Covered Tablet|AVAILABLE|9514|M|39.18,78.15|Z|1943; Azuremyst Isle|L|23759|ITEM|23759|N|any Wrathscale Naga around the area.|S|IZ|Wrathscale Point|
+l Rune Covered Tablet|AVAILABLE|9514|M|39.18,78.15|Z|1943; Azuremyst Isle|L|23759|ITEM|23759|N|any Wrathscale Naga around the area.|S|IZ|Wrathscale Point^Tides' Hollow|
 A Rune Covered Tablet|QID|9514|M|PLAYER|CC|N|From the Rune Covered Tablet.|U|23759|O| ;Non-Draenei
 C Precious and Fragile Things Need Special Handling|QID|9523|M|27.76,78.10|Z|1943; Azuremyst Isle|L|23779 8|N|Collect the Relics from around Wrathscale Point.\n[color=FF0000]NOTE: [/color]They have static spawn points.\nIf required, you can find more inside Tides' Hollow.|
 C Reclaiming the Ruins|QID|9513|M|39.18,78.15|Z|1943; Azuremyst Isle|N|Kill the required Nagas.|US|
@@ -151,7 +154,6 @@ R Azure Watch|AVAILABLE|10428|M|48.34,49.14|Z|1943; Azuremyst Isle|N|Run to Azur
 T Help Tavara|QID|9586|M|48.59,49.29|Z|1943; Azuremyst Isle|N|To Guvan.|
 A The Missing Fisherman|QID|10428|LEAD|9527|M|48.96,51.07|Z|1943; Azuremyst Isle|N|From Dulvi.| ;Non-Draenei
 A Learning the Language|QID|9538|M|49.38,50.97|Z|1943; Azuremyst Isle|N|From Cryptographer Aurren.| ;Non-Draenei
-C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|Z|1943; Azuremyst Isle|L|23677 6|ITEM|23677|N|Moongraze Bucks.|S|
 l Faintly Glowing Crystal|AVAILABLE|9455|M|48.26,41.43|Z|1943; Azuremyst Isle|L|23678|ITEM|23678|N|Infected Nightstalkers.|T|Infected Nightstalker|
 A Strange Findings|QID|9455|M|48.26,41.43|Z|1943; Azuremyst Isle|N|From the Faintly Glowing Crystal.|U|23678|O| ;Non-Draenei
 t Strange Findings|QID|9455|M|47.12,50.61|Z|1943; Azuremyst Isle|N|To Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]You'll want to turn this in right away to get the follow-up.|
@@ -176,7 +178,7 @@ T Totem of Vark|QID|9542|M|28.11,62.39|Z|1943; Azuremyst Isle|N|To the Totem of 
 A The Prophecy of Akida|QID|9544|PRE|9542|M|28.11,62.39|Z|1943; Azuremyst Isle|N|From the Totem of Vark.| ;Non-Draenei
 l Bristlelimb Key|ACTIVE|9544|QO|1|M|26.90,65.55|Z|1943; Azuremyst Isle|L|23801 8|ITEM|23801|N|Bristlelimb Furbolgs in the camp near the Totem.\n[color=FF0000]NOTE: [/color]If you wish, you can open the cages as you collect these; this step will auto-complete if you finish.|T|Bristlelimb|S!US|
 C The Prophecy of Akida|QID|9544|M|26.90,65.55|Z|1943; Azuremyst Isle|N|Open the cages to free the Captives.\n[color=FF0000]NOTE: [/color]You need 1 key per cage.|
-C Warlord Sriss'tiz|QID|9515|M|27,77;26.34,73.90;25.12,74.19|CS|Z|1943; Azuremyst Isle|N|Kill Warlord Sriss'Tiz inside Tides' Hollow, the cave in Wrathscale Point.\n[color=FF0000]NOTE: [/color]To take a shortcut, drop down the hole just inside the cave.|
+C Warlord Sriss'tiz|QID|9515|M|27.02,76.55;26.34,73.90;25.12,74.19|CS|Z|1943; Azuremyst Isle|N|Kill Warlord Sriss'Tiz inside Tides' Hollow, the cave in Wrathscale Point.\n[color=FF0000]NOTE: [/color]To take a shortcut, drop down the hole just inside the cave.|
 R Wrathscale Point|AVAILABLE|9528|M|26.11,77.63|Z|1943; Azuremyst Isle|N|Work your way out of Tides' Hollow.\n[color=FF0000]NOTE: [/color]The shortcut is a one way trip.|IZ|Tides' Hollow|
 R Silvermyst Isle|AVAILABLE|9528|M|18.48,84.33|Z|1943; Azuremyst Isle|N|Swim across to Silvermyst Isle.|TZ|Traitor's Cove|
 C Tree's Company|QID|9531|M|18.48,84.33|Z|1943; Azuremyst Isle|N|While standing beside the Naga Flag in Traitor's Cove, use your Tree Disguise Kit and wait for the complete message.\n[color=FF0000]NOTE: [/color]Only one person can do it at a time!|U|23792|
@@ -285,6 +287,8 @@ T Call of Fire|QID|9467|M|59.52,17.95|Z|1943; Azuremyst Isle|N|To Temper.\n[colo
 A Call of Fire|QID|9468|PRE|9467|M|59.52,17.95|Z|1943; Azuremyst Isle|N|From Temper.|C|Shaman|
 T Call of Fire|QID|9468|M|59.52,17.95|Z|1943; Azuremyst Isle|N|To Temper.|
 ;
+L Level 12|ACTIVE|9623|AVAILABLE|9616|M|PLAYER|CC|N|Grind until you're within 3 bubbles of level 12.\n[color=FF0000]NOTE: [/color]Now might be a good time to look for the Blood Elf Bandit.|LVL|11;-1290|
+L Level 12|ACTIVE|9623|M|PLAYER|CC|N|Grind until you're within 1.5 bubbles of level 12.|LVL|11;-660|
 T Warn Your People|QID|9622|M|47.13,50.61|Z|1943; Azuremyst Isle|N|To Exarch Menelaous in Azure Watch. \n[color=FF0000]NOTE: [/color]Run (or hearth if available) back.|U|6948|
 ; Shaman lv 10 quest cont.
 T Call of Fire|QID|9468|M|48.07,50.48|Z|1943; Azuremyst Isle|N|To Tuluun.|
@@ -292,21 +296,23 @@ A Call of Fire|QID|9461|PRE|9468|M|48.07,50.48|Z|1943; Azuremyst Isle|N|From Tul
 ; Warrior lv 10 quest cont.
 T Strength of One|QID|9582|M|50.01,50.52|Z|1943; Azuremyst Isle|N|To Ruada.|
 A Behomat|QID|10350|PRE|9582|M|50.01,50.52|Z|1943; Azuremyst Isle|N|From Ruada.|C|Warrior|
+; Paladin lv 12 quest
+A Jol|QID|10366|M|48.36,49.55|Z|1943; Azuremyst Isle|N|From Tullas.|C|Paladin|LVL|12|
 ;
-r Sell junk and repair|QID|9623|M|49.69,52.75|Z|1943; Azuremyst Isle|N|At Kioni.|IZ|Azure Watch|
-L Level 12|ACTIVE|9623|AVAILABLE|9616|M|81.64,51.70|Z|1947; The Exodar|N|As you make your way towards The Exodar, grind until you're level 12.NOTE Now might be a good time to look for the Blood Elf Bandit.|LVL|11;-90|
-L Level 12|ACTIVE|9623|M|81.64,51.70|Z|1947; The Exodar|N|As you make your way towards The Exodar, grind until you're level 12.|LVL|11;-90|
-R The Exodar|ACTIVE|9623|M|81.64,51.70|Z|1947; The Exodar|N|Head to The Exodar.|
+= Level 12 Training|ACTIVE|9623|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Azure Watch|
+r Sell junk and repair|ACTIVE|9623|M|49.69,52.75|Z|1943; Azuremyst Isle|N|At Kioni.|IZ|Azure Watch|
+R The Exodar|AVAILABLE|9625|LEAD|9634|M|81.64,51.70|Z|1947; The Exodar|N|Head to The Exodar.|
 T Coming of Age|QID|9623|M|81.51,51.44|Z|1947; The Exodar|N|To Torallius the Pack Handler standing outside The Exodar.| ; 90 exp
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.51,51.44|Z|1947; The Exodar|N|From Torallius the Pack Handler.|
-= Level 12 Training|AVAILABLE|9634|M|PLAYER|CC|N|Do your level 12 training inside The Exodar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|The Exodar|
+; Warrior lv 10 quest completion
 T Behomat|QID|10350|M|55.58,82.36|Z|1947; The Exodar|N|To Behomat on the upper level in Traders' Tier.|
-A Jol|QID|10366|M|48.36,49.55|Z|1943; Azuremyst Isle|N|From Tullas.|C|Paladin|LVL|12|
-T Jol|QID|10366|M|38.37,82.54|Z|1947; The Exodar|N|To Jol.|C|Paladin|
+; Paladin lv 12 quest cont.
+T Jol|QID|10366|M|38.37,82.54|Z|1947; The Exodar|N|To Jol in The Vault of Lights.|
 A Redemption|QID|9598|M|38.37,82.54|Z|1947; The Exodar|N|From Jol.|C|Paladin|
-T Redemption|QID|9598|M|38.37,82.54|Z|1947; The Exodar|N|To Jol.|C|Paladin|
+T Redemption|QID|9598|M|38.37,82.54|Z|1947; The Exodar|N|To Jol.|
 A Redemption|QID|9600|M|38.37,82.54|Z|1947; The Exodar|N|From Jol.|C|Paladin|
-R Azure Watch|ACTIVE|9612|M|48.34,49.14|Z|1943; Azuremyst Isle|N|Head back to Azure Watch.|
+;
+R Azure Watch|ACTIVE|9612|M|48.34,49.14|Z|1943; Azuremyst Isle|N|Head back to Azure Watch.| ; In case they have 'A Hearty Thanks' and haven't turned it in yet. - Hendo72
 R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|1950; Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a bit of a long run.|
 T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|1950; Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 ]]
