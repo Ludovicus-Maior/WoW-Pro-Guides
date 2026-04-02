@@ -108,15 +108,15 @@ T Nagosh the Scarred|QID|86826|M|21.11,39.62|Z|36; Burning Steppes|N|To Kurdran 
 T Disarm the Dark Horde|QID|91842|M|21.11,39.62|Z|36; Burning Steppes|N|To Kurdran Wildhammer.|
 A Not Just a Troll's Bane|QID|86828|PRE|86827&86826&91842|M|21.11,39.62|Z|36; Burning Steppes|N|From Kurdran Wildhammer.|
 T Not Just a Troll's Bane|QID|86828|M|31.55,37.70|Z|36; Burning Steppes|N|To Danath Trollbane.|
-A Warriors without a Warlord|QID|86831|PRE|86828|M|31.55,37.70|Z|36; Burning Steppes|N|From Danath Trollbane.|
+A Warriors Without a Warlord|QID|86831|PRE|86828|M|31.55,37.70|Z|36; Burning Steppes|N|From Danath Trollbane.|
 A A True Horde of Dark Horde|QID|86830|PRE|86828|M|31.55,37.70|Z|36; Burning Steppes|N|From Danath Trollbane.|
 C A True Horde of Dark Horde|QID|86830|M|35.65,34.90|Z|36; Burning Steppes|QO|2|N|Dark Horde Sergeants defeated.|S|
 C A True Horde of Dark Horde|QID|86830|M|37.17,35.47|Z|36; Burning Steppes|QO|1|N|Dark Horde Troops defeated.|S|
 K Warlord Grazla|ACTIVE|86831|M|31.17,33.60|Z|36; Burning Steppes|QO|1|N|Defeat Warlord Grazla.|T|Warlord Grazla|
-C Warriors without a Warlord|QID|86831|M|31.17,33.60|Z|36; Burning Steppes|QO|2|H|N|Third Fragment recovered.|
+C Warriors Without a Warlord|QID|86831|M|31.17,33.60|Z|36; Burning Steppes|QO|2|H|N|Third Fragment recovered.|
 C A True Horde of Dark Horde|QID|86830|M|35.65,34.90|Z|36; Burning Steppes|QO|2|N|Dark Horde Sergeants defeated.|US|
 C A True Horde of Dark Horde|QID|86830|M|37.17,35.47|Z|36; Burning Steppes|QO|1|N|Dark Horde Troops defeated.|US|
-T Warriors without a Warlord|QID|86831|M|31.53,37.71|Z|36; Burning Steppes|N|To Danath Trollbane.|
+T Warriors Without a Warlord|QID|86831|M|31.53,37.71|Z|36; Burning Steppes|N|To Danath Trollbane.|
 T A True Horde of Dark Horde|QID|86830|M|31.53,37.71|Z|36; Burning Steppes|N|To Danath Trollbane.|
 A A Landmark Moment|QID|86829|PRE|86831&86830|M|31.53,37.71|Z|36; Burning Steppes|N|From Danath Trollbane.|
 T A Landmark Moment|QID|86829|M|36.73,50.94|Z|36; Burning Steppes|N|To Alonsus Faol.|
@@ -142,6 +142,6 @@ T The Arcantina|QID|86903|M|50.49,61.71|Z|2541; Arcantina!Dungeon|N|To Arator.|
 A The Journey Ends|QID|91787|PRE|86903||Z|2541; Arcantina!Dungeon|M|50.49,61.71|N|From Arator.|
 P The Bazaar|M|50.66,83.46||Z|2541; Arcantina!Dungeon|N|Take the portal to Silvermoon City.|
 T The Journey Ends|QID|91787|M|45.39,70.50|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
-N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)

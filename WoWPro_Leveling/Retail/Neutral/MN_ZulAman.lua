@@ -263,7 +263,7 @@ C Coals of a Dead Loa|QID|86661|M|38.53,22.42|Z|2437; Zul'Aman|QO|1|CHAT|N|Speak
 T Coals of a Dead Loa|QID|86661|M|38.53,22.42|Z|2437; Zul'Aman|N|To Zul'jarra.|
 C I Have a Permit|QID|90481|M|38.26,20.98|Z|2437; Zul'Aman|N|Talk to Elder Ren'zen.|CHAT|
 T I Have a Permit|QID|90481|M|46.27,26.14|Z|2437; Zul'Aman|N|To Seeker Crikkash.|
-A Sightseeing Stegadon|QID|90484|PRE|90481|M|47.30,26.08|Z|2437; Zul'Aman|N|From Trishe.|RANK|2|
+A Sightseeing Stegadon|QID|90484|PRE|90481|M|47.30,26.08|Z|2437; Zul'Aman|N|From Trishe. Wait a minute or two to give them time to arrive. |RANK|2|
 f Camp Stonewash|ACTIVE|90484|M|47.32,25.52|Z|2437; Zul'Aman|N|From Scroll of Flight.|
 A Cuisine Connection|QID|90482|PRE|90481|M|47.18,24.66|Z|2437; Zul'Aman|N|From Amaxi.|RANK|2|
 A A Witherbark Story|QID|90483|PRE|90481|M|47.25,24.52|Z|2437; Zul'Aman|N|From Seeker Cikkash.|RANK|2|
@@ -563,7 +563,7 @@ T Spears Against de Shadow|QID|92496|M|22.59,63.97|Z|2437; Zul'Aman|N|To Lilaju.
 A The Wisest Leaders Follow|QID|92499|PRE|92497&92496|M|22.59,63.97|Z|2437; Zul'Aman|N|From Lilaju.|RANK|2|
 T The Wisest Leaders Follow|QID|92499|M|33.59,78.76|Z|2437; Zul'Aman|N|To Lilaju.|
 
-N Zul'Aman Sojourner|N|The last part of the Sojourner for Zul Aman requires level 90, hit 90 and come back.|S!US|LVL|-90|
+N Zul'Aman Sojourner|N|The last part of the Sojourner for Zul Aman requires level 90, hit 90 and come back.|LVL|-90|RANK|2|
 A Dirty Deeps|QID|91833|PRE|93051|M|38.53,22.45|Z|2437; Zul'Aman|N|From Vun'zarah.|LVL|90|RANK|2|
 T Dirty Deeps|QID|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|To Dak'zor.|
 A Send Dem Home|QID|91835|PRE|91833|M|44.87,36.53|Z|2437; Zul'Aman|N|From Dak'zor.|RANK|2|
@@ -583,8 +583,8 @@ T One Will Not Rise|QID|91840|M|38.53,22.44|Z|2437; Zul'Aman|N|To Vun'zarah.|
 A Sacrafice Denied|QID|91839|PRE|91840|M|38.53,22.34|Z|2437; Zul'Aman|N|From Daz'kor.|
 C Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|CHAT|N|Go Check in on Bin'zin.|
 T Sacrafice Denied|QID|91839|M|37.31,25.10|Z|2437; Zul'Aman|N|To Bin'zin.|
-
 T Reports Returned|QID|91087|M|45.43,70.49|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
-N Click the book to jump to the Guide Hub to pick your next zone.|JUMP|Midnight Adventure Mode Hub|SPELL|World Quests & Adventure Mode;1234841|
+
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)
