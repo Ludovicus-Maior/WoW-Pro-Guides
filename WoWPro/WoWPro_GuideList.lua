@@ -86,7 +86,8 @@ function GuideListMixin:GuideMatchesSearch(guide, filterText)
         return true
     end
 
-    for headerIndex = 1, #(self.headers or {}) do
+    local headerCount = self.activeHeaderCount or #(self.headers or {})
+    for headerIndex = 1, headerCount do
         local header = self.headers[headerIndex]
         if header and header.name and GuideFieldMatches(guide[header.name], filterText) then
             return true
@@ -95,14 +96,8 @@ function GuideListMixin:GuideMatchesSearch(guide, filterText)
 
     local guideData = guide.guide or {}
     return GuideFieldMatches(guide.GID, filterText)
-        or GuideFieldMatches(guide.Name, filterText)
-        or GuideFieldMatches(guide.Zone, filterText)
-        or GuideFieldMatches(guide.Content, filterText)
-        or GuideFieldMatches(guide.Author, filterText)
-        or GuideFieldMatches(guide.Progress, filterText)
         or GuideFieldMatches(guideData.name, filterText)
         or GuideFieldMatches(guideData.zone, filterText)
-        or GuideFieldMatches(guideData.author, filterText)
         or GuideFieldMatches(guideData.guidetype, filterText)
 end
 
