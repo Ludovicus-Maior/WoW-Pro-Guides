@@ -71,6 +71,7 @@ function ScrollListMixin:RefreshLayout()
     local guides = self.guides
     local buttons = _G.HybridScrollFrame_GetButtons(self)
     local offset = _G.HybridScrollFrame_GetOffset(self)
+    local headerCount = self.activeHeaderCount or #self.headers
 
 	if guides == nil then
 		return
@@ -88,7 +89,7 @@ function ScrollListMixin:RefreshLayout()
             guide.index = guideIndex
             button:SetID(guideIndex)
 
-            for index = 1, #self.headers do
+            for index = 1, headerCount do
                 text = button[index]
                 local header = self.headers[index]
 
@@ -100,6 +101,13 @@ function ScrollListMixin:RefreshLayout()
                 text:SetText(guide[header.name])
                 text:SetTextColor(r, g, b, 1)
                 text:SetJustifyH("LEFT")
+            end
+
+            for index = headerCount + 1, #self.headers do
+                text = button[index]
+                if text then
+                    text:SetText("")
+                end
             end
 
             -- One caveat is buttons are only anchored below one another with
@@ -167,16 +175,27 @@ end
 function SortableScrollListMixin:SetHeaderInfo(headerInfo)
     local frameWidth = self.titleRow:GetWidth() - 10
     local numHeaders = #headerInfo.names
-    for headerIndex = 1, numHeaders do
-        local header = self.headers[headerIndex]
-        header.name = headerInfo.names[headerIndex]
-        header.sort = headerInfo.sorts[headerIndex]
-        header.size = headerInfo.size[headerIndex]
+    self.activeHeaderCount = numHeaders
 
-        header.text:SetText(header.name)
-        header:SetWidth(frameWidth * header.size)
-        header.arrow:Hide()
-        header:Show()
+    for headerIndex = 1, #self.headers do
+        local header = self.headers[headerIndex]
+        if headerIndex <= numHeaders then
+            header.name = headerInfo.names[headerIndex]
+            header.sort = headerInfo.sorts[headerIndex]
+            header.size = headerInfo.size[headerIndex]
+
+            header.text:SetText(header.name)
+            header:SetWidth(frameWidth * header.size)
+            header.arrow:Hide()
+            header:Show()
+        else
+            header.name = nil
+            header.sort = nil
+            header.size = nil
+            header.text:SetText("")
+            header.arrow:Hide()
+            header:Hide()
+        end
     end
 end
 function SortableScrollListMixin:UpdateHeaders(sortIndex)
