@@ -19,7 +19,8 @@ C Renewal for the Weary|QID|86838|M|53.00,45.84|Z|2424; Isle of Quel'Danas|QO|1|
 T Renewal for the Weary|QID|86838|M|52.82,55.04|Z|2424; Isle of Quel'Danas|N|To Alonsus Faol.|
 A Relics of Light's Hope|QID|86839|PRE|86838|M|52.82,55.04|Z|2424; Isle of Quel'Danas|N|From Alonsus Faol.|
 C Relics of Light's Hope|QID|86839|QO|2|M|52.82,55.04|Z|2424; Isle of Quel'Danas|N|Tell Alonsus Faol you are ready.|CHAT|
-F Light's Hope Chapel|ACTIVE|86839|M|50.95,71.09|Z|2393; Silvermoon City|N|From Skymaster Skyles.|
+f Sunwell Ramparts|ACTIVE|86839|M|57.54,33.85|Z|2424; Isle of Quel'Danas|N|At Skymistress Gloaming.|
+F Light's Hope Chapel|ACTIVE|86839|M|57.54,33.85|Z|2424; Isle of Quel'Danas|N|From Skymistress Gloaming.|
 T Relics of Light's Hope|QID|86839|M|73.96,53.45|Z|23; Eastern Plaguelands!Eastern Kingdoms|N|To Lord Maxwell Tyrosus.|
 A Flickering Hope|QID|86840|PRE|86839|M|73.96,53.45|Z|23; Eastern Plaguelands!Eastern Kingdoms|N|From Lord Maxwell Tyrosus.|
 C Flickering Hope|QID|86840|M|72.61,55.87|Z|23; Eastern Plaguelands!Eastern Kingdoms|QO|1|NC|N|Light's Hope Defended.|
