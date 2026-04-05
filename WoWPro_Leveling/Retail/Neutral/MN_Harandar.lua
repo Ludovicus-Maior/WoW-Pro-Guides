@@ -109,7 +109,7 @@ A The Hunter Awaits|QID|86836|PRE|86864|M|54.24,55.70|Z|2413; Harandar|N|From Ku
 ;The Legend of Aln'sharan - In Har'kuai
 T Har'kuai, Village of Rain|QID|93771|M|65.24,26.39|Z|2413; Harandar|N|To Kamari.|;picked up 2nd time to The Den line ~100 -- keep these next 3 chains together at Village of Rain
 A Tales of the Sky|QID|90467|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
-A Ugh, Chores!|QID|90468|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|
+A Ugh, Chores!|QID|90468|M|67.74,27.49|Z|2413; Harandar|N|From Kuri.|RANK|2|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Kill Saptors to loot the Intact Saptor Fronds.|S|
 C Tales of the Sky|QID|90467|M|70.20,32.01|Z|2413; Harandar|H|N|Pick up the glittering Skyshards.|
 C Ugh, Chores!|QID|90468|M|69.99,32.10|Z|2413; Harandar|N|Keep killing Saptor's until you have enough fronds.|US|
