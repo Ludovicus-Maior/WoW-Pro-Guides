@@ -104,12 +104,12 @@ A Third, Blow It Up|QID|86540|PRE|86539|M|39.31,82.20|Z|2405; Voidstorm|N|From L
 A Agents of Darkness|QID|88768|PRE|86539|M|39.41,82.13|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 A Just In Case...|QID|86541|PRE|86539|M|39.44,82.12|Z|2405; Voidstorm|N|From Decimus.|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|S|N|Collect Fragmented Keystones as you head towards the shield.|
-U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
 K Insatiable Watcher|ACTIVE|88768|QO|2|M|41.22,85.22|Z|2405; Voidstorm|N|Slay Insatiable Watcher.|T|Insatiable Watcher|
 K Darkened Unbound|ACTIVE|88768|QO|1|M|38.57,87.50|Z|2405; Voidstorm|N|Slay Darkened Unbound.|T|Darkened Unbound|
 C Third, Blow It Up|QID|86540|QO|1|M|37.44,88.72|Z|2405; Voidstorm|H|N|Place Overcharged Manacells around the portal.|
 K Nethermade Protector|ACTIVE|88768|QO|3|M|37.82,85.50|Z|2405; Voidstorm|N|Slay Nethermade Protector.|T|Nethermade Protector|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|US|N|Fragmented Keystone.|
+U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
 T Just In Case...|QID|86541|M|38.55,83.81;37.95,83.15|CS|Z|2405; Voidstorm|N|To Decimus.|
 T Agents of Darkness|QID|88768|M|37.99,83.32|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 T Third, Blow It Up|QID|86540|M|37.99,83.24|Z|2405; Voidstorm|N|To Lothraxion.|
