@@ -491,7 +491,7 @@ C Expunging Explorers|QID|91560|QO|3|M|34.61,43.78|Z|2405; Voidstorm|N|Click the
 A Calculated Culling|QID|93801|PRE|91560|M|34.65,43.84|Z|2405; Voidstorm|N|From Scout Philanas.|RANK|2|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|S|N|Slay Monsters in the Molt.|
 C Expunging Explorers|QID|91560|QO|4|M|34.66,43.87|Z|2405; Voidstorm|N|Click Scot Philanas to administer the antidote.|
-C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt find explorers to cure.|
+C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt find explorers to cure. If the explorers won't let you cure them leave the area and return to try again.|
 C Expunging Explorers|QID|91560|QO|6|M|33.28,43.94|Z|2405; Voidstorm|H|N|Find Riftwarker Lorn and cure him too.|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|US|N|Slay Monsters in the Molt.|
 T Expunging Explorers|QID|91560|M|34.61,43.78|Z|2405; Voidstorm|N|To Lady Darkglen.|
