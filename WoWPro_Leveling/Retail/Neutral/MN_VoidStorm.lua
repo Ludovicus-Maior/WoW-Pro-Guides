@@ -281,7 +281,7 @@ C A More Potent Foe|QID|92507|QO|2|M|53.21,70.42|Z|2405; Voidstorm|H|N|Take Port
 T A More Potent Foe|QID|92507|M|53.24,70.39|Z|2405; Voidstorm|N|To Leona Darkstrider.|
 A The Mark of Sacrifice|QID|92508|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
 A One Cruel Implement|QID|92509|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
-A What We Leave Behind|QID|91533|PRE|91149|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
+A What We Leave Behind|QID|91533|PRE|92507|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
 C What We Leave Behind|QID|91533|M|53.72,69.92|Z|2405; Voidstorm|H|N|Collect Hieron's Belongings from the ground beside Sideras.|
 
 T Belly of the Beast|QID|91380|M|52.05,67.46|Z|2405; Voidstorm|N|To Ravenia.|
