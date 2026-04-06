@@ -572,7 +572,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
         WoWPro.AutoHideFrame("|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
     end
     if WoWPro.Ready(event) then
-        if WoWPro.AutoCompleteZone(...) then
+        if WoWPro.AutoCompleteZone() then
             WoWPro:UpdateGuide(event)
         end
     end
