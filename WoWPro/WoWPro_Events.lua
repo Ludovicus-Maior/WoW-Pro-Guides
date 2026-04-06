@@ -407,19 +407,15 @@ end
 
 
 -- Auto-Complete: Set hearth --
-function WoWPro:AutoCompleteSetHearth(...)
-    local msg = ...
-    if not ( _G.issecretvalue and _G.issecretvalue(msg) ) then
-        local _, _, loc = msg:find(L["(.*) is now your home."])
-        if loc then
-            WoWProCharDB.Guide.hearth = loc
-            for i = 1,15 do
-                local index = WoWPro.rows[i].index
-                if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
-                and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                    WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
-                end
-            end
+function WoWPro:AutoCompleteSetHearth()
+    local loc = _G.GetBindLocation()
+    if not loc then return end
+    -- WoWProCharDB.Guide.hearth = loc  ** Don't save it, just use it for auto-completion. If we save it, then we have to worry about it getting out of date and causing problems.
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
+        and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+            WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
         end
     end
 end
@@ -432,6 +428,13 @@ function WoWPro.AutoCompleteZone()
     local targetzone = WoWPro.targetzone[currentindex] or "!"
     local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
     WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
+
+    local hearthLocation = _G.GetBindLocation()
+    if action == "h" and hearthLocation and hearthLocation == step then
+        WoWPro.CompleteStep(currentindex, "Hearthstone already set")
+        return true
+    end
+
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
         if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
             if (step == zonetext) or (step == subzonetext) then
@@ -1097,8 +1100,8 @@ function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     end
 end
 
-WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
-    WoWPro:AutoCompleteSetHearth(...)
+WoWPro.RegisterEventHandler("HEARTHSTONE_BOUND", function(event, ...)
+    WoWPro:AutoCompleteSetHearth()
 end)
 
 if WoWPro.RETAIL then
