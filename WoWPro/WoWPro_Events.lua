@@ -5,7 +5,6 @@
 --  WoWPro_Events.lua   --
 --------------------------
 
-local L =  WoWPro_Locale
 local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 -- Are we ready to roll?
 function WoWPro.Ready(who)
