@@ -245,7 +245,7 @@ C Midnight: World Tour|QID|95245|QO|1|M|45.38,70.32|Z|2393; Silvermoon City|H|N|
 A A Favor for the Lion|QID|91828|PRE|91827|M|52.42,78.17|Z|2393; Silvermoon City|N|From Valeera Sanguinar.|RANK|2|
 C A Favor for the Lion|QID|91828|QO|1|M|52.70,78.51|Z|2393; Silvermoon City|H|N|Read Letter.|
 
-P Voidstorm|ACTIVE|91560|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
+P Voidstorm|AVAILABLE|91145|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
 A Researching the Storm|QID|93970|PRE|86522|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
 C Researching the Storm|QID|93970|M|52.62,72.85|Z|2405; Voidstorm|N|Click the console and choose the first talent, you got the first void sample free. Additional ones, to continue filling out this talent tree for zone buffs, come from doing activities (Stormarian Assault, Special Assignments, etc) in Voidstorm.|;not actually the pre, i picked up this quest earlier. but didnt notice and do anything with it.
 T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
