@@ -409,8 +409,8 @@ A She Started the Fire|QID|90848|PRE|90847|M|44.70,68.56|Z|2405; Voidstorm|N|Fro
 
 ;The Void Peers Back |
 T Scholarly Pursuits|QID|88755|M|41.16,61.53|Z|2405; Voidstorm|N|To Matrean Dawnfall.|
-A A Bigger Beast|QID|87388|PRE|92948&88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall. Wait a minute or two for the quest to appear.|RANK|2|
-A Sampling the Local Fare|QID|87391|PRE|92948&88755|M|41.16,61.51|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
+A A Bigger Beast|QID|87388|PRE|88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall. Wait a minute or two for the quest to appear.|RANK|2|
+A Sampling the Local Fare|QID|87391|PRE|88755|M|41.16,61.51|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
 C Sampling the Local Fare|QID|87391|QO|1|M|39.90,64.66|Z|2405; Voidstorm|S|N|Exotic Tissue Samples drop from all the mobs around the Vicious Karion also.|
 C A Bigger Beast|QID|87388|QO|1|M|41.96,65.66|Z|2405; Voidstorm|N|Slay Vicious Karion. These are located inside the underground cave and above ground both.|
 C Sampling the Local Fare|QID|87391|QO|1|M|39.90,64.66|Z|2405; Voidstorm|US|N|Keep killing/looting until you have enough Exotic Tissue Samples.|
