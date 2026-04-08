@@ -104,12 +104,12 @@ A Third, Blow It Up|QID|86540|PRE|86539|M|39.31,82.20|Z|2405; Voidstorm|N|From L
 A Agents of Darkness|QID|88768|PRE|86539|M|39.41,82.13|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 A Just In Case...|QID|86541|PRE|86539|M|39.44,82.12|Z|2405; Voidstorm|N|From Decimus.|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|S|N|Collect Fragmented Keystones as you head towards the shield.|
-U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
 K Insatiable Watcher|ACTIVE|88768|QO|2|M|41.22,85.22|Z|2405; Voidstorm|N|Slay Insatiable Watcher.|T|Insatiable Watcher|
 K Darkened Unbound|ACTIVE|88768|QO|1|M|38.57,87.50|Z|2405; Voidstorm|N|Slay Darkened Unbound.|T|Darkened Unbound|
 C Third, Blow It Up|QID|86540|QO|1|M|37.44,88.72|Z|2405; Voidstorm|H|N|Place Overcharged Manacells around the portal.|
 K Nethermade Protector|ACTIVE|88768|QO|3|M|37.82,85.50|Z|2405; Voidstorm|N|Slay Nethermade Protector.|T|Nethermade Protector|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|US|N|Fragmented Keystone.|
+U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
 T Just In Case...|QID|86541|M|38.55,83.81;37.95,83.15|CS|Z|2405; Voidstorm|N|To Decimus.|
 T Agents of Darkness|QID|88768|M|37.99,83.32|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 T Third, Blow It Up|QID|86540|M|37.99,83.24|Z|2405; Voidstorm|N|To Lothraxion.|
@@ -245,7 +245,7 @@ C Midnight: World Tour|QID|95245|QO|1|M|45.38,70.32|Z|2393; Silvermoon City|H|N|
 A A Favor for the Lion|QID|91828|PRE|91827|M|52.42,78.17|Z|2393; Silvermoon City|N|From Valeera Sanguinar.|RANK|2|
 C A Favor for the Lion|QID|91828|QO|1|M|52.70,78.51|Z|2393; Silvermoon City|H|N|Read Letter.|
 
-P Voidstorm|ACTIVE|91560|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
+P Voidstorm|AVAILABLE|93970|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
 A Researching the Storm|QID|93970|PRE|86522|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
 C Researching the Storm|QID|93970|M|52.62,72.85|Z|2405; Voidstorm|N|Click the console and choose the first talent, you got the first void sample free. Additional ones, to continue filling out this talent tree for zone buffs, come from doing activities (Stormarian Assault, Special Assignments, etc) in Voidstorm.|;not actually the pre, i picked up this quest earlier. but didnt notice and do anything with it.
 T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
@@ -281,7 +281,7 @@ C A More Potent Foe|QID|92507|QO|2|M|53.21,70.42|Z|2405; Voidstorm|H|N|Take Port
 T A More Potent Foe|QID|92507|M|53.24,70.39|Z|2405; Voidstorm|N|To Leona Darkstrider.|
 A The Mark of Sacrifice|QID|92508|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
 A One Cruel Implement|QID|92509|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
-A What We Leave Behind|QID|91533|PRE|91149|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
+A What We Leave Behind|QID|91533|PRE|92507|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
 C What We Leave Behind|QID|91533|M|53.72,69.92|Z|2405; Voidstorm|H|N|Collect Hieron's Belongings from the ground beside Sideras.|
 
 T Belly of the Beast|QID|91380|M|52.05,67.46|Z|2405; Voidstorm|N|To Ravenia.|
@@ -409,8 +409,8 @@ A She Started the Fire|QID|90848|PRE|90847|M|44.70,68.56|Z|2405; Voidstorm|N|Fro
 
 ;The Void Peers Back |
 T Scholarly Pursuits|QID|88755|M|41.16,61.53|Z|2405; Voidstorm|N|To Matrean Dawnfall.|
-A A Bigger Beast|QID|87388|PRE|92948&88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall. Wait a minute or two for the quest to appear.|RANK|2|
-A Sampling the Local Fare|QID|87391|PRE|92948&88755|M|41.16,61.51|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
+A A Bigger Beast|QID|87388|PRE|88755|M|41.16,61.53|Z|2405; Voidstorm|N|From Matrean Dawnfall. Wait a minute or two for the quest to appear.|RANK|2|
+A Sampling the Local Fare|QID|87391|PRE|88755|M|41.16,61.51|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
 C Sampling the Local Fare|QID|87391|QO|1|M|39.90,64.66|Z|2405; Voidstorm|S|N|Exotic Tissue Samples drop from all the mobs around the Vicious Karion also.|
 C A Bigger Beast|QID|87388|QO|1|M|41.96,65.66|Z|2405; Voidstorm|N|Slay Vicious Karion. These are located inside the underground cave and above ground both.|
 C Sampling the Local Fare|QID|87391|QO|1|M|39.90,64.66|Z|2405; Voidstorm|US|N|Keep killing/looting until you have enough Exotic Tissue Samples.|
@@ -491,7 +491,7 @@ C Expunging Explorers|QID|91560|QO|3|M|34.61,43.78|Z|2405; Voidstorm|N|Click the
 A Calculated Culling|QID|93801|PRE|91560|M|34.65,43.84|Z|2405; Voidstorm|N|From Scout Philanas.|RANK|2|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|S|N|Slay Monsters in the Molt.|
 C Expunging Explorers|QID|91560|QO|4|M|34.66,43.87|Z|2405; Voidstorm|N|Click Scot Philanas to administer the antidote.|
-C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt find explorers to cure.|
+C Expunging Explorers|QID|91560|QO|5|M|33.79,45.40|Z|2405; Voidstorm|H||N|While in The Molt find explorers to cure. If the explorers won't let you cure them leave the area and return to try again.|
 C Expunging Explorers|QID|91560|QO|6|M|33.28,43.94|Z|2405; Voidstorm|H|N|Find Riftwarker Lorn and cure him too.|
 C Calculated Culling|QID|93801||M|33.95,45.63|Z|2405; Voidstorm|US|N|Slay Monsters in the Molt.|
 T Expunging Explorers|QID|91560|M|34.61,43.78|Z|2405; Voidstorm|N|To Lady Darkglen.|
