@@ -153,10 +153,35 @@ A The Battle of the Bridge|QID|88769|M|45.88,70.23|Z|2393|N|From Arator.|
 C The Battle of the Bridge|QID|88769|M|45.60,3.17|Z|2443|QO|1|NC|N|The Battle of the Bridge won.|
 T The Battle of the Bridge|QID|88769|M|52.58,90.25|Z|2424;Isle of Quel'Danas|N|To Arator.|
 A March on Quel'Danas|QID|88710|PRE|88769|M|52.58,90.25|Z|2424;Isle of Quel'Danas|N|From Arator.|
+C March on Quel'Danas|QID|88710|M|49.73,87.66|Z|2424; Isle of Quel'Danas|N|Speak to Cousin Slowhands if you would like to enter story mode.|CHAT|
+T March on Quel'Danas|QID|88710|N|To Arator inside the sunwell.|
 
-N Story mode for March on Quel'Danas not open till April 7th. will update at that time.
+;Chapter 5
 
+A A Path Forward|QID|92689|M|45.35,70.37|Z|2393;Silvermoon City|N|From Lor'themar Theron.|
+A Reluctant Hand|QID|90876|M|53.28,60.18|Z|2393;Silvermoon City|N|From Grand Magister Rommath.|
+C Reluctant Hand|QID|90876|M|54.25,59.76|Z|2393;Silvermoon City|QO|1|NC|N|Harmonial dusted.|
+C Reluctant Hand|QID|90876|M|53.79,58.64|Z|2393;Silvermoon City|QO|2|NC|N|Lab Bench cleaned off.|
+C Reluctant Hand|QID|90876|M|54.16,58.92|Z|2393;Silvermoon City|QO|3|NC|N|Proclamation reviewed.|
+T Reluctant Hand|QID|90876|M|54.12,59.45|Z|2393;Silvermoon City|N|To Magister Umbric.|
+A The Silversun Compact|QID|90871|PRE|90876|M|40.11,89.76|Z|2393;Silvermoon City|N|From Vereesa Windrunner.|
+C The Silversun Compact|QID|90871|M|39.79,87.38|Z|2393;Silvermoon City|QO|1|NC|N|Flame of the Covenant lit.|
+C The Silversun Compact|QID|90871|M|41.41,86.34|Z|2393;Silvermoon City|QO|2|NC|N|Flame of the Sunreavers lit.|
+C The Silversun Compact|QID|90871|M|41.09,88.62|Z|2393;Silvermoon City|QO|3|NC|N|The Silversun Compact reviewed.|
+T The Silversun Compact|QID|90871|M|41.10,88.80|Z|2393;Silvermoon City|N|To Vereesa Windrunner.|
+C A Path Forward|QID|92689|M|41.10,88.80|Z|2393;The Sunsilver Accord|QO|2|NC|N|Assist Aethas Sunreaver.|
+T A Path Forward|QID|92689|M|45.41,70.39|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
+A Those Left Behind|QID|90861|PRE|90871&92689|M|45.41,70.39|Z|2393;Silvermoon City|N|From Lor'themar Theron.|
+T Those Left Behind|QID|90861|M|52.68,58.46|Z|2424;Isle of Quel'Danas|N|To Arator.|
+A In Times of Need|QID|90862|PRE|90861|M|52.68,58.46|Z|2424;Isle of Quel'Danas|N|From Arator.|
+C In Times of Need|QID|90862|M|56.13,60.58|Z|2424;Isle of Quel'Danas|QO|2|NC|N|Shal'dorei delegation met.|
+C In Times of Need|QID|90862|M|52.74,67.63|Z|2424;Isle of Quel'Danas|QO|4|NC|N|Quel'dorei delegation met.|
+C In Times of Need|QID|90862|M|48.50,64.89|Z|2424;Isle of Quel'Danas|QO|3|NC|N|Ren'dorei delegation met.|
+C In Times of Need|QID|90862|M|38.12,57.81|Z|2424;Isle of Quel'Danas|QO|1|NC|N|Kal'dorei delegation met.|
+T In Times of Need|QID|90862|M|52.60,46.19|Z|2424;Isle of Quel'Danas|N|To Lady Liadrin.|
+A From Darkness, Light|QID|90867|PRE|90862|M|52.60,46.19|Z|2424;Isle of Quel'Danas|N|From Lady Liadrin.|
+C From Darkness, Light|QID|90867|M|52.60,46.19|Z|2424;Isle of Quel'Danas|QO|1|CHAT|N|Speak with Liadrin to begin the Ritual.|
+T From Darkness, Light|QID|90867|M|52.63,45.92|Z|2424;Isle of Quel'Danas|N|To Lady Liadrin.|
 
 ]]
-
 end)
