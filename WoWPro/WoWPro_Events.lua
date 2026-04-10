@@ -335,13 +335,14 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 QID = tonumber(QID)
 
                 -- Quest Turn-Ins --
-                if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+                if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuests[QID]
+                and (not WoWPro.QuestLog[QID] or WoWPro:IsQuestFlaggedCompleted(QID)) then
                     WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
                     if not WoWPro.nocache[i] then
                         WoWProCharDB.completedQIDs[QID] = true
                     end
                     WoWPro.CompletingQuest = false
-                    WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
+                    WoWPro.missingQuests[QID] = nil  -- We got it, dont let the recorder get it!
                 end
 
                 -- Abandoned Quests --

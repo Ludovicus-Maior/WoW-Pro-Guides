@@ -4223,6 +4223,7 @@ end
 
 WoWPro.QuestLog = {}
 WoWPro.FauxQuestLog = {}
+WoWPro.missingQuests = {}
 
 local function  tablecopy(orig)
     local  copy = {}
@@ -4295,6 +4296,7 @@ function WoWPro.PopulateQuestLog()
         WoWPro.inhibit_oldQuests_update = true
     end
     WoWPro.newQuest, WoWPro.missingQuest = false, false
+    WoWPro.missingQuests = {}
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
@@ -4402,11 +4404,10 @@ function WoWPro.PopulateQuestLog()
     -- Finding WoWPro.missingQuest --
     for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if not WoWPro.QuestLog[QID] then
+            WoWPro.missingQuests[QID] = true
             if WoWPro:IsQuestFlaggedCompleted(QID) then
-                WoWPro.missingQuest = QID
                 WoWPro:print("Completed Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             else
-                WoWPro.missingQuest = QID
                 WoWPro:print("Missing Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             end
             delta = delta + 1
