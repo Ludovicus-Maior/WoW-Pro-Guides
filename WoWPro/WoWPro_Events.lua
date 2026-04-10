@@ -351,6 +351,8 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                     WoWPro:UpdateGuide("ACQU: Abandoned Quest")
                 end
 
+                local questLogEntry = WoWPro.QuestLog[QID]
+
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
 					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
@@ -361,8 +363,12 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 end
                 -- Quest Accepts --
                 if WoWPro.newQuest == QID and action == "A" and not completion then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
-                    WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                    if questLogEntry then
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
+                        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                    else
+                        WoWPro:dbp("AutoCompleteQuestUpdate: newQuest %d not found in QuestLog, skipping Accept auto-complete.", QID)
+                    end
                 end
 
                 -- Quest Completion via QuestLog--
