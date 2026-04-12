@@ -54,7 +54,8 @@ C Echo of the Call|QID|90095|M|34.84,42.77|Z|2413; Harandar|QO|1|H|N|Activate Th
 C Echo of the Call|QID|90095|M|34.23,43.64|Z|2413; Harandar|QO|2|N|Slay Observer Talos.|
 T Echo of the Call|QID|90095|M|33.94,44.80|Z|2413; Harandar|N|To Zur'ashar Kassameh.|
 A Down the Rootways|QID|86912|PRE|90095|M|33.94,44.80|Z|2413; Harandar|N|From Zur'ashar Kassameh.|
-C Down the Rootways|QID|86912|QO|1;2|M|36.73,49.64|Z|2413; Harandar|N|Run The Gulf of Memory, dont forget to loot the Fragment from the final boss.|
+C Down the Rootways|QID|86912|QO|1|M|36.73,49.64|Z|2413; Harandar|N|Enter The Gulf of Memory.|
+C Down the Rootways|QID|86912|QO|2|M|36.73,49.64|Z|2413; Harandar|N|Run The Gulf of Memory, dont forget to loot the Fragment from the final boss.|
 C Down the Rootways|QID|86912|QO|3|M|34.16,43.11|Z|2413; Harandar|N|After you leave the delve, go speak with Orweyna.|CHAT|
 T Down the Rootways|QID|86912|M|34.82,25.06|Z|2413; Harandar|N|To Hagar.|
 A A Hut in Har'mara|QID|86913|PRE|90095|M|34.83,25.10|Z|2413; Harandar|N|From Hagar.|
