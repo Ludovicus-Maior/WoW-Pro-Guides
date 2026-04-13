@@ -426,7 +426,7 @@ A Carcass Cuisine|QID|91587|PRE|90602|M|40.89,23.24|Z|2413; Harandar|N|From Yu'r
 C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
 C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1;2|N|Kill and loot Frillfish and Drifters.|S|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Click the mounds of Nutrient-Rich Soil.|S|
-K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|2|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
+K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Keep gathering Nutrient-Rich Soil.|US|
 C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|N|Keep killing Frillfish and Drifters until the step closes.|US|
 T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
