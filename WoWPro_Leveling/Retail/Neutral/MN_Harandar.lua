@@ -391,7 +391,7 @@ t The Blinding Vale: Lightbloom Roots|QID|93651|M|36.62,68.68|Z|2393;Silvermoon 
 A Looming Shadows|QID|91084|PRE|86898|M|36.58,68.57|Z|2393;Silvermoon City|N|From Elder Hagar.|
 T Looming Shadows|QID|91084|M|45.33,70.40|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
 
-P The Den|ACTIVE|93775|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|
+P The Den|AVAILABLE|90537|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|RANK|2|
 ;verified all the rest of the quests chain starters are available at this point - almost for sure there is room for efficiency in routing still -- it appears none of the quest chains requires the dungeon to have been run before they are available.
 
 ;Late Bloomers  - In Har'mara
