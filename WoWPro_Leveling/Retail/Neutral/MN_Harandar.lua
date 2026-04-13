@@ -421,8 +421,8 @@ T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
 
 ;Harandar's Kitchen  - In Har'mara
 A Fresh from the Garden|QID|91585|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
-A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
-A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
+A Soil-Based Alternatives|QID|91586|PRE|90602|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
+A Carcass Cuisine|QID|91587|PRE|90602|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
 C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
 C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1;2|N|Kill and loot Frillfish and Drifters.|S|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Click the mounds of Nutrient-Rich Soil.|S|
