@@ -242,7 +242,7 @@ C A Hunter's Weapon|QID|92884|M|70.43,50.73|Z|2413; Harandar|QO|4|CHAT|N|Ka'dani
 T A Hunter's Weapon|QID|92884|M|70.43,50.73|Z|2413; Harandar|N|To Akazi.|
 A A Hunter's Prey|QID|92885|PRE|92884|M|70.43,50.73|Z|2413; Harandar|N|From Akazi.|
 C A Hunter's Prey|QID|92885|M|68.97,54.91|Z|2413; Harandar|QO|1|NC|N|Find Ketan outside of Har'athir.|
-K Radooni|ACTIVE|92885|M|68.88,54.72|Z|2413; Harandar|QO|2|N|Radooni slain.|T|Radooni|
+K Radooni|ACTIVE|92885|M|68.60,54.11|Z|2413; Harandar|QO|2|N|Radooni slain.|T|Radooni|
 T A Hunter's Prey|QID|92885|M|70.44,50.71|Z|2413; Harandar|N|To Akazi.|
 C Re-Hydra-ted|QID|92866|M|69.92,45.37|Z|2413; Harandar|QO|4|H|N|T'omm released.|
 C Re-Hydra-ted|QID|92866|M|68.96,42.10|Z|2413; Harandar|QO|2|H|N|Grumpy released.|
