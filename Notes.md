@@ -1,3 +1,17 @@
+# Release 2026.04.15.A
+## Bug Fixes
+* Removed Author column from guidelist and add search box
+* Code refactoring: Split the big files into smaller files!
+* Keep S!US steps visible as true stickies until their completion conditions are met
+* More Midnight Zone Data Updates
+## Guide Updates
+* MOP Neutral Leveling: Eastern Plaugelands
+* Retail Neutral Leveling: Midnight Adventure Mode, Arators Journey, Eversong Woods, Harandar, Void Storm, War of Light and Shadow, Zul Aman, TWW Recap
+* Midnight Leveling: Adventure Mode, Arators Journey, Eversong Woods, Harandar, Intro, War of Light and Shadow, Zul Aman
+* TBC Alliance:  Draenei Intro
+* Midnight Professions: Knowledge
+
+
 # Release 2026.03.18.A
 ## Bug Fixes
 * Removed stale callbacks for TomTom
