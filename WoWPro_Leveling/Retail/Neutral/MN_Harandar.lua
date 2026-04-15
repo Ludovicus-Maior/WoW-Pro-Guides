@@ -54,7 +54,8 @@ C Echo of the Call|QID|90095|M|34.84,42.77|Z|2413; Harandar|QO|1|H|N|Activate Th
 C Echo of the Call|QID|90095|M|34.23,43.64|Z|2413; Harandar|QO|2|N|Slay Observer Talos.|
 T Echo of the Call|QID|90095|M|33.94,44.80|Z|2413; Harandar|N|To Zur'ashar Kassameh.|
 A Down the Rootways|QID|86912|PRE|90095|M|33.94,44.80|Z|2413; Harandar|N|From Zur'ashar Kassameh.|
-C Down the Rootways|QID|86912|QO|1;2|M|36.73,49.64|Z|2413; Harandar|N|Run The Gulf of Memory, dont forget to loot the Fragment from the final boss.|
+C Down the Rootways|QID|86912|QO|1|M|36.73,49.64|Z|2413; Harandar|N|Enter The Gulf of Memory.|
+C Down the Rootways|QID|86912|QO|2|M|36.73,49.64|Z|2413; Harandar|N|Run The Gulf of Memory, dont forget to loot the Fragment from the final boss.|
 C Down the Rootways|QID|86912|QO|3|M|34.16,43.11|Z|2413; Harandar|N|After you leave the delve, go speak with Orweyna.|CHAT|
 T Down the Rootways|QID|86912|M|34.82,25.06|Z|2413; Harandar|N|To Hagar.|
 A A Hut in Har'mara|QID|86913|PRE|90095|M|34.83,25.10|Z|2413; Harandar|N|From Hagar.|
@@ -241,7 +242,7 @@ C A Hunter's Weapon|QID|92884|M|70.43,50.73|Z|2413; Harandar|QO|4|CHAT|N|Ka'dani
 T A Hunter's Weapon|QID|92884|M|70.43,50.73|Z|2413; Harandar|N|To Akazi.|
 A A Hunter's Prey|QID|92885|PRE|92884|M|70.43,50.73|Z|2413; Harandar|N|From Akazi.|
 C A Hunter's Prey|QID|92885|M|68.97,54.91|Z|2413; Harandar|QO|1|NC|N|Find Ketan outside of Har'athir.|
-K Radooni|ACTIVE|92885|M|68.88,54.72|Z|2413; Harandar|QO|2|N|Radooni slain.|T|Radooni|
+K Radooni|ACTIVE|92885|M|68.60,54.11|Z|2413; Harandar|QO|2|N|Radooni slain.|T|Radooni|
 T A Hunter's Prey|QID|92885|M|70.44,50.71|Z|2413; Harandar|N|To Akazi.|
 C Re-Hydra-ted|QID|92866|M|69.92,45.37|Z|2413; Harandar|QO|4|H|N|T'omm released.|
 C Re-Hydra-ted|QID|92866|M|68.96,42.10|Z|2413; Harandar|QO|2|H|N|Grumpy released.|
@@ -390,7 +391,7 @@ t The Blinding Vale: Lightbloom Roots|QID|93651|M|36.62,68.68|Z|2393;Silvermoon 
 A Looming Shadows|QID|91084|PRE|86898|M|36.58,68.57|Z|2393;Silvermoon City|N|From Elder Hagar.|
 T Looming Shadows|QID|91084|M|45.33,70.40|Z|2393;Silvermoon City|N|To Lor'themar Theron.|
 
-P The Den|ACTIVE|93775|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|
+P The Den|AVAILABLE|90537|M|36.94,67.99|Z|2393; Silvermoon City|N|Take the portal back to Harandar if you want to finish up the sojourner achievement.|RANK|2|
 ;verified all the rest of the quests chain starters are available at this point - almost for sure there is room for efficiency in routing still -- it appears none of the quest chains requires the dungeon to have been run before they are available.
 
 ;Late Bloomers  - In Har'mara
@@ -420,12 +421,12 @@ T Gomphusta|QID|90602|M|49.68,23.34|Z|2413; Harandar|N|To Ney'leia.|
 
 ;Harandar's Kitchen  - In Har'mara
 A Fresh from the Garden|QID|91585|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
-A Soil-Based Alternatives|QID|91586|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
-A Carcass Cuisine|QID|91587|PRE|91553|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|
+A Soil-Based Alternatives|QID|91586|PRE|90602|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
+A Carcass Cuisine|QID|91587|PRE|90602|M|40.89,23.24|Z|2413; Harandar|N|From Yu'relen.|RANK|2|
 C Fresh from the Garden|QID|91585|M|40.84,23.19|Z|2413; Harandar|QO|3|H|N|Drink Yu'relen's Elixir.|
 C Fresh from the Garden|QID|91585|M|40.04,23.96|Z|2413; Harandar|QO|1;2|N|Kill and loot Frillfish and Drifters.|S|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Click the mounds of Nutrient-Rich Soil.|S|
-K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|2|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
+K Sporeglider Bloomterror|ACTIVE|91587|M|39.22,22.69|Z|2413; Harandar|QO|1|N|Slay Sporeglider Bloomterror then loot for the Corpse Rind.|T|Sporeglider Bloomterror|
 C Soil-Based Alternatives|QID|91586|M|40.38,25.38|Z|2413; Harandar|H|N|Keep gathering Nutrient-Rich Soil.|US|
 C Fresh from the Garden|QID|91585|M|40.34,24.64|Z|2413; Harandar|QO|2|N|Keep killing Frillfish and Drifters until the step closes.|US|
 T Fresh from the Garden|QID|91585|M|40.86,23.22|Z|2413; Harandar|N|To Yu'relen.|
