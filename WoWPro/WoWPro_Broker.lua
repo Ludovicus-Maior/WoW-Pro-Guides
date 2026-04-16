@@ -4295,7 +4295,7 @@ function WoWPro.PopulateQuestLog()
         WoWPro.oldQuests = WoWPro.QuestLog or {}
         WoWPro.inhibit_oldQuests_update = true
     end
-    WoWPro.newQuest, WoWPro.missingQuest = false, false
+    WoWPro.newQuest = false
     WoWPro.missingQuests = {}
 
     -- Generating the Quest Log table --
@@ -4401,7 +4401,7 @@ function WoWPro.PopulateQuestLog()
         end
     end
 
-    -- Finding WoWPro.missingQuest --
+    -- Finding missing quests --
     for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if not WoWPro.QuestLog[QID] then
             WoWPro.missingQuests[QID] = true

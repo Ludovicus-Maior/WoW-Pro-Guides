@@ -345,13 +345,6 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                     WoWPro.missingQuests[QID] = nil  -- We got it, dont let the recorder get it!
                 end
 
-                -- Abandoned Quests --
-                if not WoWPro.CompletingQuest and ( action == "A" or action == "C" )
-                and completion and WoWPro.missingQuest == QID then
-                    WoWProCharDB.Guide[GID].completion[i] = nil
-                    WoWPro:UpdateGuide("ACQU: Abandoned Quest")
-                end
-
                 local questLogEntry = WoWPro.QuestLog[QID]
 
                 -- Quest AutoComplete --
