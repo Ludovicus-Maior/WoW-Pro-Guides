@@ -94,11 +94,7 @@ function GuideListMixin:GuideMatchesSearch(guide, filterText)
         end
     end
 
-    local guideData = guide.guide or {}
-    return GuideFieldMatches(guide.GID, filterText)
-        or GuideFieldMatches(guideData.name, filterText)
-        or GuideFieldMatches(guideData.zone, filterText)
-        or GuideFieldMatches(guideData.guidetype, filterText)
+        return false
 end
 
 function GuideListMixin:ApplySearchFilter()
