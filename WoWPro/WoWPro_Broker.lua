@@ -1150,6 +1150,9 @@ function WoWPro:RowUpdate(offset)
     -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
     local stickyBoundary = WoWPro.ActiveStep or k
+    if WoWPro.ActiveStep and k < WoWPro.ActiveStep then
+        stickyBoundary = k
+    end
     local stickySteps = {}
     local regularSteps = {}
     for _, stepIdx in ipairs(allSteps) do
@@ -1164,16 +1167,14 @@ function WoWPro:RowUpdate(offset)
                 local available = WoWPro.available and WoWPro.available[stepIdx]
                 local activeReq = WoWPro.active and WoWPro.active[stepIdx]
 
-                local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
-                -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
-                if not isSUS and stepIdx > stickyBoundary then
+                -- Never show sticky steps that are after the current active step
+                if stepIdx > stickyBoundary then
                     showSticky = false
 
                 -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
-                -- S!US should always show until completion, regardless of these filters
-                elseif not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
+                elseif available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
                     showSticky = false
-                elseif not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
+                elseif activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
                     showSticky = false
                 -- For C steps with QID and QO, check if specific objective is incomplete
                 elseif action == "C" and QID and questtext then
@@ -1212,8 +1213,7 @@ function WoWPro:RowUpdate(offset)
                     end
                 -- For other sticky types, show if we've reached that step
                 else
-                    -- S!US steps should remain visible while incomplete, even if they are past the current active step
-                    if isSUS or stepIdx <= k then
+                    if stepIdx <= k then
                         showSticky = true
                     end
                 end
