@@ -277,27 +277,6 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             WoWPro.Recorder.AddStep(stepInfo)
             WoWPro:AutoCompleteQuestUpdate()
 
-        elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
-            local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
-            local stepInfo = {
-                action = "T",
-                step = questInfo.title,
-                QID = WoWPro.missingQuest,
-                map = mapxy,
-                zone = zonetag,
-                class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
-            }
-			if WoWPro.Recorder.PREquest and WoWPro.Recorder.PrevStep == "T" then
-				WoWPro.Recorder.PREquest = WoWPro.Recorder.PREquest .. "&" .. WoWPro.missingQuest
-			else
-				WoWPro.Recorder.PREquest = WoWPro.missingQuest
-			end
-			WoWPro.Recorder.PrevStep = "T"
-            if targetName then stepInfo.note = "To "..targetName.."." end
-            WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
-            WoWPro.Recorder.AddStep(stepInfo)
-            WoWPro:AutoCompleteQuestUpdate()
-
         else
             WoWPro.Recorder:dbp("Got PQLU and looking for changed quest status")
             for QID, questInfo in pairs(WoWPro.QuestLog) do
