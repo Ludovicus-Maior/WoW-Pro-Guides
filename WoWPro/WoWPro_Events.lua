@@ -5,7 +5,6 @@
 --  WoWPro_Events.lua   --
 --------------------------
 
-local L =  WoWPro_Locale
 local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 -- Are we ready to roll?
 function WoWPro.Ready(who)
@@ -312,12 +311,14 @@ end
 
 
 -- Auto-Complete: Quest Update --
-function WoWPro:AutoCompleteQuestUpdate(questComplete)
+function WoWPro:AutoCompleteQuestUpdate(questComplete, newQuests, missingQuests)
     local GID = WoWProDB.char.currentguide
     if not GID or not WoWPro.Guides[GID] then return end
     if not WoWProCharDB.Guide then return end
     if not WoWProCharDB.Guide[GID] then return end
     if not WoWProCharDB.Guide[GID].completion then return end
+    newQuests = newQuests or {}
+    missingQuests = missingQuests or {}
 
     WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
 
@@ -335,21 +336,17 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 QID = tonumber(QID)
 
                 -- Quest Turn-Ins --
-                if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+                if WoWPro.CompletingQuest and action == "T" and not completion and (missingQuests[QID] or WoWPro.missingQuests[QID])
+                and (not WoWPro.QuestLog[QID] or WoWPro:IsQuestFlaggedCompleted(QID)) then
                     WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
                     if not WoWPro.nocache[i] then
                         WoWProCharDB.completedQIDs[QID] = true
                     end
                     WoWPro.CompletingQuest = false
-                    WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
+                    WoWPro.missingQuests[QID] = nil  -- We got it, dont let the recorder get it!
                 end
 
-                -- Abandoned Quests --
-                if not WoWPro.CompletingQuest and ( action == "A" or action == "C" )
-                and completion and WoWPro.missingQuest == QID then
-                    WoWProCharDB.Guide[GID].completion[i] = nil
-                    WoWPro:UpdateGuide("ACQU: Abandoned Quest")
-                end
+                local questLogEntry = WoWPro.QuestLog[QID]
 
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
@@ -360,9 +357,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 					end
                 end
                 -- Quest Accepts --
-                if WoWPro.newQuest == QID and action == "A" and not completion then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
-                    WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                if (newQuests[QID] or WoWPro.newQuest == QID) and action == "A" and not completion then
+                    if questLogEntry then
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
+                        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                    else
+                        WoWPro:dbp("AutoCompleteQuestUpdate: newQuest %d not found in QuestLog, skipping Accept auto-complete.", QID)
+                    end
                 end
 
                 -- Quest Completion via QuestLog--
@@ -407,19 +408,15 @@ end
 
 
 -- Auto-Complete: Set hearth --
-function WoWPro:AutoCompleteSetHearth(...)
-    local msg = ...
-    if not ( _G.issecretvalue and _G.issecretvalue(msg) ) then
-        local _, _, loc = msg:find(L["(.*) is now your home."])
-        if loc then
-            WoWProCharDB.Guide.hearth = loc
-            for i = 1,15 do
-                local index = WoWPro.rows[i].index
-                if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
-                and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                    WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
-                end
-            end
+function WoWPro:AutoCompleteSetHearth()
+    local loc = _G.GetBindLocation()
+    if not loc then return end
+    -- WoWProCharDB.Guide.hearth = loc  ** Don't save it, just use it for auto-completion. If we save it, then we have to worry about it getting out of date and causing problems.
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
+        and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+            WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
         end
     end
 end
@@ -432,19 +429,30 @@ function WoWPro.AutoCompleteZone()
     local targetzone = WoWPro.targetzone[currentindex] or "!"
     local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
     WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
+
+    local hearthLocation = _G.GetBindLocation()
+    if action == "h" and hearthLocation and hearthLocation == step then
+        WoWPro.CompleteStep(currentindex, "Hearthstone already set")
+        _G.C_Timer.After(0, function() WoWPro:UpdateGuide("AutoCompleteZone:Refresh") end)
+        return true
+    end
+
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
         if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
             if (step == zonetext) or (step == subzonetext) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
+                _G.C_Timer.After(0, function() WoWPro:UpdateGuide("AutoCompleteZone:Refresh") end)
                 return true
             end
             if (targetzone == zonetext) or (targetzone == subzonetext) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                _G.C_Timer.After(0, function() WoWPro:UpdateGuide("AutoCompleteZone:Refresh") end)
                 return true
             end
             local _, _, mapId = WoWPro:GetPlayerZonePosition()
             if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                _G.C_Timer.After(0, function() WoWPro:UpdateGuide("AutoCompleteZone:Refresh") end)
                 return true
             end
         end
@@ -1097,8 +1105,8 @@ function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     end
 end
 
-WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
-    WoWPro:AutoCompleteSetHearth(...)
+WoWPro.RegisterEventHandler("HEARTHSTONE_BOUND", function(event, ...)
+    WoWPro:AutoCompleteSetHearth()
 end)
 
 if WoWPro.RETAIL then
@@ -1106,7 +1114,7 @@ if WoWPro.RETAIL then
 end
 
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
-    local delta = WoWPro.PopulateQuestLog()
+    local delta, newQuests, missingQuests = WoWPro.PopulateQuestLog()
     if WoWPro.DEBUG_REPEATABLE then
         WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
     end
@@ -1120,7 +1128,7 @@ WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
         return
     end
     if WoWPro.Ready(event) then
-        WoWPro:AutoCompleteQuestUpdate(nil)
+        WoWPro:AutoCompleteQuestUpdate(nil, newQuests, missingQuests)
         WoWPro:UpdateGuide(event)
         if WoWProCharDB.AutoSelect and delta == 1 then
         -- OK, now get the next quest if QuestCount is set
