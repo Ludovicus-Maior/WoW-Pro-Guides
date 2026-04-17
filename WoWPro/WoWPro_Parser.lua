@@ -1309,7 +1309,38 @@ function WoWPro.SetupGuideReal()
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro.SetupGuideReal(1)")
     -- Location, Location, Location
-    if WoWPro.AutoCompleteZone() then
+    local zoneAttempts = 0
+    local maxZoneAttempts = 5
+    local maxZoneTime = 1.0
+    local startTime = _G.GetTime()
+    local zoneCompleted = false
+    local zoneLoopExceeded = false
+    while true do
+        local zoneAutoComplete = WoWPro.AutoCompleteZone()
+        if not zoneAutoComplete then
+            break
+        end
+        zoneCompleted = true
+        zoneAttempts = zoneAttempts + 1
+        if zoneAttempts >= maxZoneAttempts then
+            WoWPro:dbp("SetupGuideReal(): AutoCompleteZone loop exceeded %d attempts, resetting guide.", maxZoneAttempts)
+            zoneLoopExceeded = true
+            break
+        end
+        if (_G.GetTime() - startTime) > maxZoneTime then
+            WoWPro:dbp("SetupGuideReal(): AutoCompleteZone loop exceeded %.2fs, resetting guide.", maxZoneTime)
+            zoneLoopExceeded = true
+            break
+        end
+    end
+    if zoneLoopExceeded then
+        WoWPro:dbp("SetupGuideReal(): AutoCompleteZone safety limit reached. Reloading guide %s.", GID)
+        WoWPro.GuideLoaded = false
+        WoWPro.current_strategy = nil
+        WoWPro:LoadGuide(GID)
+        return
+    end
+    if zoneCompleted then
         WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
     end
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
