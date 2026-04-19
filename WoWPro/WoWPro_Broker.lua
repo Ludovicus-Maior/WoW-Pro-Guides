@@ -1150,9 +1150,6 @@ function WoWPro:RowUpdate(offset)
     -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
     local stickyBoundary = WoWPro.ActiveStep or k
-    if WoWPro.ActiveStep and k < WoWPro.ActiveStep then
-        stickyBoundary = k
-    end
     local stickySteps = {}
     local regularSteps = {}
     for _, stepIdx in ipairs(allSteps) do
