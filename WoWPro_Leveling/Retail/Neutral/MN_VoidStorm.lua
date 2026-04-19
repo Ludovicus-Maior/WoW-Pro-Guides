@@ -109,7 +109,7 @@ K Darkened Unbound|ACTIVE|88768|QO|1|M|38.57,87.50|Z|2405; Voidstorm|N|Slay Dark
 C Third, Blow It Up|QID|86540|QO|1|M|37.44,88.72|Z|2405; Voidstorm|H|N|Place Overcharged Manacells around the portal.|
 K Nethermade Protector|ACTIVE|88768|QO|3|M|37.82,85.50|Z|2405; Voidstorm|N|Slay Nethermade Protector.|T|Nethermade Protector|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|US|N|Fragmented Keystone.|
-U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
+U Just In Case...|QID|86541|QO|2|O|U|237895|N|Now that you have 8 shards, click to combine them.|
 T Just In Case...|QID|86541|M|38.55,83.81;37.95,83.15|CS|Z|2405; Voidstorm|N|To Decimus.|
 T Agents of Darkness|QID|88768|M|37.99,83.32|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 T Third, Blow It Up|QID|86540|M|37.99,83.24|Z|2405; Voidstorm|N|To Lothraxion.|
@@ -190,7 +190,7 @@ A Edge of the Abyss|QID|86511|PRE|90571|M|51.05,67.96|Z|2405; Voidstorm|N|From A
 C Edge of the Abyss|QID|86511|QO|1|M|54.34,74.27|Z|2405; Voidstorm|H|N|Listen to the scouting report.|
 T Edge of the Abyss|QID|86511|M|54.34,74.27|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A The Harvest|QID|86512|PRE|86511|M|54.34,74.31|Z|2405; Voidstorm|N|From Decimus.|
-A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|
+A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|N|From Arator.|
 C The Harvest|QID|86512|QO|1|M|56.09,72.99|Z|2405; Voidstorm|H|S|N|Attract Torentia's attention.|
 C Face the Tide|QID|86513|QO|2|M|56.00,72.00|Z|2405; Voidstorm|H|S|N|Click the glowy gates, flesh and look for cages with captives to free.|
 ;the nethersent
