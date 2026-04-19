@@ -190,7 +190,7 @@ A Edge of the Abyss|QID|86511|PRE|90571|M|51.05,67.96|Z|2405; Voidstorm|N|From A
 C Edge of the Abyss|QID|86511|QO|1|M|54.34,74.27|Z|2405; Voidstorm|H|N|Listen to the scouting report.|
 T Edge of the Abyss|QID|86511|M|54.34,74.27|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A The Harvest|QID|86512|PRE|86511|M|54.34,74.31|Z|2405; Voidstorm|N|From Decimus.|
-A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|
+A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|N|From Arator.|
 C The Harvest|QID|86512|QO|1|M|56.09,72.99|Z|2405; Voidstorm|H|S|N|Attract Torentia's attention.|
 C Face the Tide|QID|86513|QO|2|M|56.00,72.00|Z|2405; Voidstorm|H|S|N|Click the glowy gates, flesh and look for cages with captives to free.|
 ;the nethersent
