@@ -352,7 +352,7 @@ C To Be Changed|QID|91546|QO|7|M|31.62,87.83|Z|2393; Silvermoon City|H|N|Add Sun
 C To Be Changed|QID|91546|QO|8|M|31.62,87.83|Z|2393; Silvermoon City|CHAT|N|Taste Ghostflower Tea, There are no wrong answers.|
 T To Be Changed|QID|91546|M|31.70,88.00|Z|2393; Silvermoon City|N|To Riftblade Astre.|
 
-P The Howling Ridge|ACTIVE| |M|35.22,65.57|Z|2393; Silvermoon City|N|Return to Voidstorm via the portal or other method of your choice.|
+P The Howling Ridge|ACTIVE|90916|M|35.22,65.57|Z|2393; Silvermoon City|N|Return to Voidstorm via the portal or other method of your choice.|
 ;<guarded treasure> now available
 T Seek to Destroy|QID|90916|M|61.25,61.87|Z|2405; Voidstorm|N|To Decimus.|
 A Harvester of Savagery|QID|90917|PRE|90916|M|61.25,61.87|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
