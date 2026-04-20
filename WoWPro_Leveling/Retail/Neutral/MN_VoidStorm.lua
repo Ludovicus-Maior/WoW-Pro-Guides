@@ -179,8 +179,8 @@ C Domus Penumbra|QID|86510|QO|1|M|52.56,72.87|Z|2405; Voidstorm|CHAT|N|Speak to 
 C Domus Penumbra|QID|86510|QO|3|M|51.63,70.09|Z|2405; Voidstorm|H|N|Click the pile of gnawed bones.|
 C Domus Penumbra|QID|86510|QO|4|M|51.25,69.32|Z|2405; Voidstorm|H|N|Click the fresh meat.|
 f Howling Ridge|ACTIVE|86510|M|51.14,69.27|Z|2405; Voidstorm|N|At Riftwalker Malloril.|
-A Masters' Perch|QID|93810|PRE|90860|M|51.35,67.63|Z|2405; Voidstorm|N|From Perodius.|RANK|2|
-A Harvest of Darkness|QID|91363|PRE|90860|M|52.06,67.47|Z|2405; Voidstorm|N|From Ravenia.|RANK|2|
+A Masters' Perch|QID|93810|PRE|91343|M|51.35,67.63|Z|2405; Voidstorm|N|From Perodius.|RANK|2|
+A Harvest of Darkness|QID|91363|PRE|91343|M|52.06,67.47|Z|2405; Voidstorm|N|From Ravenia.|RANK|2|
 C Domus Penumbra|QID|86510|QO|2|M|53.16,68.19|Z|2405; Voidstorm|CHAT|N|Speak to Innkeeper Hospitus.|
 T Domus Penumbra|QID|86510|M|51.05,67.94|Z|2405; Voidstorm|N|To Decimus.|
 A The Lay of the Beast|QID|90571|PRE|86510|M|51.05,67.94|Z|2405; Voidstorm|N|From Decimus.|
@@ -194,7 +194,7 @@ A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|N|From Arato
 C The Harvest|QID|86512|QO|1|M|56.09,72.99|Z|2405; Voidstorm|H|S|N|Attract Torentia's attention.|
 C Face the Tide|QID|86513|QO|2|M|56.00,72.00|Z|2405; Voidstorm|H|S|N|Click the glowy gates, flesh and look for cages with captives to free.|
 ;the nethersent
-A The Nethersent|QID|90782|PRE|90860|M|56.18,71.85|Z|2405; Voidstorm|N|From Juras the Nethersent.|RANK|2|
+A The Nethersent|QID|90782|PRE|90571|M|56.18,71.85|Z|2405; Voidstorm|N|From Juras the Nethersent.|RANK|2|
 C Face the Tide|QID|86513|M|56.53,70.61|Z|2405; Voidstorm|H|US|N|Finish freeing captives, and clicky glowy stuff.|
 C The Harvest|QID|86512|M|56.09,72.99|Z|2405; Voidstorm|H|US|N|Attract Torentia's attention.|
 T Face the Tide|QID|86513|M|55.62,72.77|Z|2405; Voidstorm|N|To Arator.|
