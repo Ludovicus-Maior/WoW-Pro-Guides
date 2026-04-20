@@ -195,6 +195,7 @@ C The Harvest|QID|86512|QO|1|M|56.09,72.99|Z|2405; Voidstorm|H|S|N|Attract Toren
 C Face the Tide|QID|86513|QO|2|M|56.00,72.00|Z|2405; Voidstorm|H|S|N|Click the glowy gates, flesh and look for cages with captives to free.|
 ;the nethersent
 A The Nethersent|QID|90782|PRE|90571|M|56.18,71.85|Z|2405; Voidstorm|N|From Juras the Nethersent.|RANK|2|
+C The Nethersent|QID|90782|M|56.2,71.8|Z|2405; Voidstorm|N|Open the cage.|H|
 C Face the Tide|QID|86513|M|56.53,70.61|Z|2405; Voidstorm|H|US|N|Finish freeing captives, and clicky glowy stuff.|
 C The Harvest|QID|86512|M|56.09,72.99|Z|2405; Voidstorm|H|US|N|Attract Torentia's attention.|
 T Face the Tide|QID|86513|M|55.62,72.77|Z|2405; Voidstorm|N|To Arator.|
@@ -465,7 +466,6 @@ A Shedding the Yoke|QID|90860|PRE|90858|M|37.42,39.46|Z|2405; Voidstorm|N|From V
 C Shedding the Yoke|QID|90860|QO|1|M|37.12,37.46|Z|2405; Voidstorm|N|Slay Soulbinder D'zaar.|
 
 ;the rest of The Nethersent
-C The Nethersent|QID|90782|M|56.2,71.8|Z|2405; Voidstorm|N|Open the cage.|H|
 T The Nethersent|QID|90782|M|39.88,48.97|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 A Universal Language|QID|90866|PRE|90782|M|39.89,48.98|Z|2405; Voidstorm|N|From Tul'amar, Twice-Exiled.|RANK|2|
 C Universal Language|QID|90866|M|40.67,45.64|Z|2405; Voidstorm|N|Kill wasps and Packhunters for their blood.|
