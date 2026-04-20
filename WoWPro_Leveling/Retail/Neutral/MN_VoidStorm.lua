@@ -252,9 +252,8 @@ T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Re
 ; Shadow puppets |
 A The Conquered Heroes|QID|91145|PRE|91887&91343&86522|M|51.84,71.90|Z|2405; Voidstorm|N|From Knight Anais.|RANK|2|
 
-
 ; Dance with the Devil |
-A A Born Killer|QID|90914|PRE|90860|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|;
+A A Born Killer|QID|90914|PRE|91828|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|;
 C A Born Killer|QID|90914|QO|1|M|55.38,74.72|Z|2405; Voidstorm|S|N|Void Essence drops from just about any mob, so don't worry about this quest and just go about your business.|
 ;A Domanaar's Best Friend (3 quests) |
 C Harvest of Darkness|QID|91363|QO|1|M|53.72,74.06|Z|2405; Voidstorm|S|N|Void-Infused Morsel can be looted from the mobs in this area.|
