@@ -383,7 +383,7 @@ T Shepherd of Fear|QID|90923|M|47.30,49.12|Z|2405; Voidstorm|N|To Decimus.|
 T The Fallen Wake|QID|90922|M|47.30,49.12|Z|2405; Voidstorm|N|To Decimus.|
 A The Wicked End|QID|90924|PRE|90923&90922|M|47.30,49.12|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C The Wicked End|QID|90924|QO|1|M|46.22,49.73|Z|2405; Voidstorm|H|N|Follow Decimus.|
-C The Wicked End|QID|90924|QO|2|M|46.09,49.97|Z|2405; Voidstorm|N|Slay Decimus. (Surprised?!?|
+C The Wicked End|QID|90924|QO|2|M|46.09,49.97|Z|2405; Voidstorm|N|Slay Decimus. (Surprised?!?)|
 
 ;turn in Masters' Perch?
 
