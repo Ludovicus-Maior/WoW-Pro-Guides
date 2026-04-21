@@ -4297,8 +4297,10 @@ function WoWPro.PopulateQuestLog()
     end
     local newQuests = {}
     local missingQuests = {}
-    WoWPro.newQuest = false
-    WoWPro.missingQuests = missingQuests
+    -- Legacy scalar quest state, preserved only for compatibility.
+    -- New code should use explicit diff tables instead.
+    -- WoWPro.newQuest = false
+    -- WoWPro.missingQuests = missingQuests
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
@@ -4391,7 +4393,8 @@ function WoWPro.PopulateQuestLog()
     if numLoggedQuests > 0 then
         for QID, questInfo in pairs(WoWPro.QuestLog) do
             if not WoWPro.oldQuests[QID] then
-                WoWPro.newQuest = QID
+                -- Legacy scalar quest state, preserve only for compatibility.
+                -- WoWPro.newQuest = QID
                 newQuests[QID] = true
                 WoWPro:print("New Quest %s: [%s]", tostring(QID), questInfo.title)
                 delta = delta + 1

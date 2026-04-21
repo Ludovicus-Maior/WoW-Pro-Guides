@@ -337,32 +337,50 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete, newQuests, missingQuests)
                 QID = tonumber(QID)
 
                 -- Quest Turn-Ins --
-                if WoWPro.CompletingQuest and action == "T" and not completion and (missingQuests[QID] or WoWPro.missingQuests[QID])
+                -- Legacy fallback path (commented out):
+                -- if WoWPro.CompletingQuest and action == "T" and not completion and (missingQuests[QID] or WoWPro.missingQuests[QID])
+                -- and (not WoWPro.QuestLog[QID] or WoWPro:IsQuestFlaggedCompleted(QID)) then
+                --     WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
+                --     if not WoWPro.nocache[i] then
+                --         WoWProCharDB.completedQIDs[QID] = true
+                --     end
+                --     WoWPro.CompletingQuest = false
+                --     WoWPro.missingQuests[QID] = nil  -- We got it, dont let the recorder get it!
+                -- end
+                if WoWPro.CompletingQuest and action == "T" and not completion and missingQuests[QID]
                 and (not WoWPro.QuestLog[QID] or WoWPro:IsQuestFlaggedCompleted(QID)) then
                     WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
                     if not WoWPro.nocache[i] then
                         WoWProCharDB.completedQIDs[QID] = true
                     end
                     WoWPro.CompletingQuest = false
-                    WoWPro.missingQuests[QID] = nil  -- We got it, dont let the recorder get it!
+                    -- WoWPro.missingQuests[QID] = nil  -- Legacy cleanup disabled for explicit diff mode
                 end
 
                 local questLogEntry = WoWPro.QuestLog[QID]
 
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
-						return
-					else
-						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
-					end
+                    if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+                        return
+                    else
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+                    end
                 end
                 -- Quest Accepts --
-                if (newQuests[QID] or WoWPro.newQuest == QID) and action == "A" and not completion then
+                -- Legacy fallback path (commented out):
+                -- if (newQuests[QID] or WoWPro.newQuest == QID) and action == "A" and not completion then
+                --     if questLogEntry then
+                --         WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
+                --         WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                --     else
+                --         WoWPro:dbp("AutoCompleteQuestUpdate: newQuest %d not found in QuestLog, skipping Accept auto-complete.", QID)
+                --     end
+                -- end
+                if newQuests[QID] and action == "A" and not completion then
                     if questLogEntry then
                         WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
-                        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
-                    else
+                        -- WoWPro.newQuest = nil -- Legacy cleanup disabled for explicit diff mode
                         WoWPro:dbp("AutoCompleteQuestUpdate: newQuest %d not found in QuestLog, skipping Accept auto-complete.", QID)
                     end
                 end
