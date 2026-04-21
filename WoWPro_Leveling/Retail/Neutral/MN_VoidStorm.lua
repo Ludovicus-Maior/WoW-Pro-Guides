@@ -109,7 +109,7 @@ K Darkened Unbound|ACTIVE|88768|QO|1|M|38.57,87.50|Z|2405; Voidstorm|N|Slay Dark
 C Third, Blow It Up|QID|86540|QO|1|M|37.44,88.72|Z|2405; Voidstorm|H|N|Place Overcharged Manacells around the portal.|
 K Nethermade Protector|ACTIVE|88768|QO|3|M|37.82,85.50|Z|2405; Voidstorm|N|Slay Nethermade Protector.|T|Nethermade Protector|
 C Just In Case...|QID|86541|QO|1|M|39.97,85.58|Z|2405; Voidstorm|H|US|N|Fragmented Keystone.|
-U Just In Case...|QID|86541|QO|2|O|U|237895|L|237895 8|N|Now that you have 8 shards, click to combine them.|
+U Just In Case...|QID|86541|QO|2|O|U|237895|N|Now that you have 8 shards, click to combine them.|
 T Just In Case...|QID|86541|M|38.55,83.81;37.95,83.15|CS|Z|2405; Voidstorm|N|To Decimus.|
 T Agents of Darkness|QID|88768|M|37.99,83.32|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 T Third, Blow It Up|QID|86540|M|37.99,83.24|Z|2405; Voidstorm|N|To Lothraxion.|
@@ -179,8 +179,8 @@ C Domus Penumbra|QID|86510|QO|1|M|52.56,72.87|Z|2405; Voidstorm|CHAT|N|Speak to 
 C Domus Penumbra|QID|86510|QO|3|M|51.63,70.09|Z|2405; Voidstorm|H|N|Click the pile of gnawed bones.|
 C Domus Penumbra|QID|86510|QO|4|M|51.25,69.32|Z|2405; Voidstorm|H|N|Click the fresh meat.|
 f Howling Ridge|ACTIVE|86510|M|51.14,69.27|Z|2405; Voidstorm|N|At Riftwalker Malloril.|
-A Masters' Perch|QID|93810|PRE|90860|M|51.35,67.63|Z|2405; Voidstorm|N|From Perodius.|RANK|2|
-A Harvest of Darkness|QID|91363|PRE|90860|M|52.06,67.47|Z|2405; Voidstorm|N|From Ravenia.|RANK|2|
+A Masters' Perch|QID|93810|PRE|91343|M|51.35,67.63|Z|2405; Voidstorm|N|From Perodius.|RANK|2|
+A Harvest of Darkness|QID|91363|PRE|91343|M|52.06,67.47|Z|2405; Voidstorm|N|From Ravenia.|RANK|2|
 C Domus Penumbra|QID|86510|QO|2|M|53.16,68.19|Z|2405; Voidstorm|CHAT|N|Speak to Innkeeper Hospitus.|
 T Domus Penumbra|QID|86510|M|51.05,67.94|Z|2405; Voidstorm|N|To Decimus.|
 A The Lay of the Beast|QID|90571|PRE|86510|M|51.05,67.94|Z|2405; Voidstorm|N|From Decimus.|
@@ -190,11 +190,12 @@ A Edge of the Abyss|QID|86511|PRE|90571|M|51.05,67.96|Z|2405; Voidstorm|N|From A
 C Edge of the Abyss|QID|86511|QO|1|M|54.34,74.27|Z|2405; Voidstorm|H|N|Listen to the scouting report.|
 T Edge of the Abyss|QID|86511|M|54.34,74.27|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A The Harvest|QID|86512|PRE|86511|M|54.34,74.31|Z|2405; Voidstorm|N|From Decimus.|
-A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|
+A Face the Tide|QID|86513|PRE|86511|M|54.31,74.29|Z|2405; Voidstorm|N|From Arator.|
 C The Harvest|QID|86512|QO|1|M|56.09,72.99|Z|2405; Voidstorm|H|S|N|Attract Torentia's attention.|
 C Face the Tide|QID|86513|QO|2|M|56.00,72.00|Z|2405; Voidstorm|H|S|N|Click the glowy gates, flesh and look for cages with captives to free.|
 ;the nethersent
-A The Nethersent|QID|90782|PRE|90860|M|56.18,71.85|Z|2405; Voidstorm|N|From Juras the Nethersent.|RANK|2|
+A The Nethersent|QID|90782|PRE|90571|M|56.18,71.85|Z|2405; Voidstorm|N|From Juras the Nethersent.|RANK|2|
+C The Nethersent|QID|90782|M|56.2,71.8|Z|2405; Voidstorm|N|Open the cage.|H|
 C Face the Tide|QID|86513|M|56.53,70.61|Z|2405; Voidstorm|H|US|N|Finish freeing captives, and clicky glowy stuff.|
 C The Harvest|QID|86512|M|56.09,72.99|Z|2405; Voidstorm|H|US|N|Attract Torentia's attention.|
 T Face the Tide|QID|86513|M|55.62,72.77|Z|2405; Voidstorm|N|To Arator.|
@@ -245,16 +246,15 @@ C Midnight: World Tour|QID|95245|QO|1|M|45.38,70.32|Z|2393; Silvermoon City|H|N|
 A A Favor for the Lion|QID|91828|PRE|91827|M|52.42,78.17|Z|2393; Silvermoon City|N|From Valeera Sanguinar.|RANK|2|
 C A Favor for the Lion|QID|91828|QO|1|M|52.70,78.51|Z|2393; Silvermoon City|H|N|Read Letter.|
 
-P Voidstorm|AVAILABLE|93970|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
+P Voidstorm|AVAILABLE|91145^93970|M|35.26,66.01|Z|2393; Silvermoon City|N|Take the portal or otherwise return to Voidstorm.|IZ|2393|
 A Researching the Storm|QID|93970|PRE|86522|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
 C Researching the Storm|QID|93970|M|52.62,72.85|Z|2405; Voidstorm|N|Click the console and choose the first talent, you got the first void sample free. Additional ones, to continue filling out this talent tree for zone buffs, come from doing activities (Stormarian Assault, Special Assignments, etc) in Voidstorm.|;not actually the pre, i picked up this quest earlier. but didnt notice and do anything with it.
 T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Researcher Anomander.|
 ; Shadow puppets |
 A The Conquered Heroes|QID|91145|PRE|91887&91343&86522|M|51.84,71.90|Z|2405; Voidstorm|N|From Knight Anais.|RANK|2|
 
-
 ; Dance with the Devil |
-A A Born Killer|QID|90914|PRE|90860|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|;
+A A Born Killer|QID|90914|PRE|91828|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C A Born Killer|QID|90914|QO|1|M|55.38,74.72|Z|2405; Voidstorm|S|N|Void Essence drops from just about any mob, so don't worry about this quest and just go about your business.|
 ;A Domanaar's Best Friend (3 quests) |
 C Harvest of Darkness|QID|91363|QO|1|M|53.72,74.06|Z|2405; Voidstorm|S|N|Void-Infused Morsel can be looted from the mobs in this area.|
@@ -281,7 +281,7 @@ C A More Potent Foe|QID|92507|QO|2|M|53.21,70.42|Z|2405; Voidstorm|H|N|Take Port
 T A More Potent Foe|QID|92507|M|53.24,70.39|Z|2405; Voidstorm|N|To Leona Darkstrider.|
 A The Mark of Sacrifice|QID|92508|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
 A One Cruel Implement|QID|92509|PRE|92507|M|53.24,70.39|Z|2405; Voidstorm|N|From Allari the Souleater.|RANK|2|
-A What We Leave Behind|QID|91533|PRE|92507|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
+A What We Leave Behind|QID|91533|PRE|91380|M|53.69,69.92|Z|2405; Voidstorm|N|From Riftwalker Sideras.|RANK|2|
 C What We Leave Behind|QID|91533|M|53.72,69.92|Z|2405; Voidstorm|H|N|Collect Hieron's Belongings from the ground beside Sideras.|
 
 T Belly of the Beast|QID|91380|M|52.05,67.46|Z|2405; Voidstorm|N|To Ravenia.|
@@ -371,7 +371,7 @@ A Warmth for the Soul|QID|90920|PRE|90919|M|59.06,56.63|Z|2405; Voidstorm|N|From
 C Warmth for the Soul|QID|90920|QO|1|M|59.06,56.63|Z|2405; Voidstorm|CHAT|N|Speak with Decimus. All answers work.|
 T Warmth for the Soul|QID|90920|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Shepherd of Fear|QID|90923|PRE|90920|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
-A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade.|RANK|2|
+A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. CLick on the blue "cloud" to make it spawn.|RANK|2|
 C Shepherd of Fear|QID|90923|QO|1|M|54.09,44.64|Z|2405; Voidstorm|H|S|N|Follow the trail of void to infuse the blade with void essense. You can ignore the Tasty treats.|
 C The Fallen Wake|QID|90922|QO|1<1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
 C The Fallen Wake|QID|90922|QO|1<2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
@@ -384,7 +384,7 @@ T Shepherd of Fear|QID|90923|M|47.30,49.12|Z|2405; Voidstorm|N|To Decimus.|
 T The Fallen Wake|QID|90922|M|47.30,49.12|Z|2405; Voidstorm|N|To Decimus.|
 A The Wicked End|QID|90924|PRE|90923&90922|M|47.30,49.12|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C The Wicked End|QID|90924|QO|1|M|46.22,49.73|Z|2405; Voidstorm|H|N|Follow Decimus.|
-C The Wicked End|QID|90924|QO|2|M|46.09,49.97|Z|2405; Voidstorm|N|Slay Decimus. (Surprised?!?|
+C The Wicked End|QID|90924|QO|2|M|46.09,49.97|Z|2405; Voidstorm|N|Slay Decimus. (Surprised?!?)|
 
 ;turn in Masters' Perch?
 
@@ -466,7 +466,6 @@ A Shedding the Yoke|QID|90860|PRE|90858|M|37.42,39.46|Z|2405; Voidstorm|N|From V
 C Shedding the Yoke|QID|90860|QO|1|M|37.12,37.46|Z|2405; Voidstorm|N|Slay Soulbinder D'zaar.|
 
 ;the rest of The Nethersent
-C The Nethersent|QID|90782|M|56.2,71.8|Z|2405; Voidstorm|N|Open the cage.|H|
 T The Nethersent|QID|90782|M|39.88,48.97|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 A Universal Language|QID|90866|PRE|90782|M|39.89,48.98|Z|2405; Voidstorm|N|From Tul'amar, Twice-Exiled.|RANK|2|
 C Universal Language|QID|90866|M|40.67,45.64|Z|2405; Voidstorm|N|Kill wasps and Packhunters for their blood.|
