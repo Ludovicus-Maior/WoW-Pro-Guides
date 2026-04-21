@@ -61,7 +61,7 @@ T Crafting Orders: Alchemy|QID|93724|M|46.99,52.01|Z|2393; Silvermoon City|N|To 
 
 C Silvermoon Negotiations|QID|86733|M|45.63,67.58|Z|2393; Silvermoon City|QO|1|NC|N|Head to the Sanctum of Light.|
 T Silvermoon Negotiations|QID|86733|M|45.35,70.31|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
-A Diplomacy|QID|86734|PRE|86733|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+A Diplomacy|QID|86734|PRE|86733|ACTIVE|-94871|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.| ;This isn't available if we take the scoutign map option for Eversong.
 C Diplomacy|QID|86734|M|45.35,70.31|Z|2393; Silvermoon City|QO|1|NC|N|Listen to the discussion.|
 T Diplomacy|QID|86734|M|45.35,70.31|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 A Paved in Ash|QID|86735^86736|PRE|86734|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
@@ -70,7 +70,7 @@ C Paved in Ash|QID|86735^86736|M|50.79,65.18|Z|2393; Silvermoon City|QO|4|CHAT|N
 f Sanctum of Light|ACTIVE|86735|M|50.99,71.09|Z|2393; Silvermoon City|N|From Skymaster Skyies.|
 C Paved in Ash|QID|86735^86736|M|51.06,71.07|Z|2393; Silvermoon City|QO|3|CHAT|N|Speak with the Skymaster of Silvermoon.|
 C Paved in Ash|QID|86735^86736|M|52.65,65.34|Z|2393; Silvermoon City|QO|2|CHAT|N|Talk to Magistrix Narinth to check on the portal network.|
-A Murder Row: Rumors Abound|QID|90835|PRE|86734|M|55.90,63.79|Z|2393; Silvermoon City|N|From Avara.|RANK|2|
+A Murder Row: Rumors Abound|QID|90835|M|55.90,63.79|Z|2393; Silvermoon City|N|From Avara.|RANK|2| ;We don't need Diplomacy to pick this up!
 C Paved in Ash|QID|86735|M|60.05,70.16|Z|2393; Silvermoon City|QO|6|CHAT|N|Check in with Guard Captain Goldblade.|
 C Paved in Ash|QID|86736|M|69.11,67.51|Z|2393; Silvermoon City|QO|6|CHAT|N|Check in with Magistrix Nizara.|
 C Paved in Ash|QID|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|QO|1|CHAT|N|Talk to the innkeeper at Wayfarer's Rest.|
