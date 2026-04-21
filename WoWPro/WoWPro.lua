@@ -95,12 +95,13 @@ end
 WoWPro:Export("Warning")
 
 -- WoWPro error function, log and console --
+local LogErrorCount = 0
 function WoWPro:Error(message, ...)
     if message ~= nil then
 
         local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
-        -- error(msg)
+        LogErrorCount = LogErrorCount + 1
     end
 end
 WoWPro:Export("Error")
@@ -166,6 +167,7 @@ function WoWPro.LogError(error_msg)
     msg = ("|cffff7d0a%s|r: Locals: %s"):format("Wow-Pro", debuglocals(DEBUG_LEVEL) or "Nada")
     WoWPro:Add2Log(3,msg)
     logerror_lock = nil
+    LogErrorCount = LogErrorCount + 1
 end
 
 -- Get the current error handler
@@ -209,7 +211,7 @@ local function LogGrow(frame, elapsed)
         LogCo = coroutine.create(function()
             local loops = 25
             for key, val in ipairs(WoWProDB.global.Log) do
-                Log = Log .. ("%05d ~ %s\n"):format(key, val)
+                Log = Log .. ("%05d~%s\n"):format(key, val)
                 loops = loops - 1
                 if loops < 0 then
                     coroutine.yield(true)
@@ -232,7 +234,7 @@ end
 
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
-    _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    -- _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
     WoWPro:Print("WoWPro Version %s, WoW Version/TOC %s/%d.", WoWPro.Version, _G.GetBuildInfo(), WoWPro.TocVersion)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
                  _G.UnitClass("player"), _G.UnitRace("player"),
@@ -251,6 +253,7 @@ function WoWPro:LogClear(where)
         WoWProDB.global.Log = {}
     end
     WoWPro.Serial = 999999999
+    LogErrorCount = 0
     WoWPro:print("Log Reset from %s", where)
 end
 WoWPro.Faction = _G.UnitFactionGroup("player")
@@ -261,13 +264,16 @@ function WoWPro:LogShow()
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
     LogBox:Hide()
-    LogBox.Box:SetText("")
+    LogBox.Box:SetText("|cffff7d0a: Start of Log Generation.|r\n")
+    return
     WoWPro:LogDump( function(text)
+        local last = ("WoWPro:LogShow(): Showing window, LogErrorCount=%d\n"):format(LogErrorCount)
+        text = text .. last
         LogBox.Box:SetText(text)
         WoWPro.LogText = text
         LogBox.Scroll:UpdateScrollChildRect()
         LogBox:Show()
-        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogShow(): Showing window")
+        _G.DEFAULT_CHAT_FRAME:AddMessage(last)
     end)
 end
 
@@ -1149,7 +1155,7 @@ function WoWPro.TestGuideLoad(guidID)
         WoWPro:Print("Finished loading guides.")
         return
     end
-    WoWPro:Print("Test Loading " .. guidID)
+    WoWPro:print("Test Loading " .. guidID)
     WoWProDB.char.currentguide = guidID
     --Re-initializing tags and counts--
     for i,tag in pairs(WoWPro.Tags) do
@@ -1194,7 +1200,7 @@ local function LoadNext(frame, elapsed)
                 WoWPro.TestGuideLoad(guidID)
                 coroutine.yield(guidID)
             until not guidID
-            WoWPro:Print("Exiting coroutine.")
+            WoWPro:print("Exiting coroutine.")
         end)
 
         WoWPro.LoadAll.Load = true
@@ -1204,7 +1210,7 @@ local function LoadNext(frame, elapsed)
         if coroutine.resume(WoWPro.LoadAll.Co) then return end
         -- false return implies we are done
         WoWPro.LoadAll.Frame:SetScript("OnUpdate",nil)
-        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
+        -- _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
         WoWPro.LoadAll.Call()
         WoWPro.LoadAll.Load = nil
     end
