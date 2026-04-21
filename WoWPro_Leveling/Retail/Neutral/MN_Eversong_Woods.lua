@@ -392,6 +392,9 @@ C Appeal to the Void|QID|86623|QO|1|M|48.75,72.61|Z|2395; Eversong Woods|H|N|Com
 C Appeal to the Void|QID|86623|QO|2|M|46.81,71.63|Z|2395; Eversong Woods|H|N|Complete Western ritual.|
 
 ;oh look, shiney!  moved section to here because this is when I noticed I was close to it... and the burbling paint pot treasure lured me over
+
+= Train Fishing|AVAILABLE|91271|M|48.64,76.10|Z|2395; Eversong Woods|N|From Melandra. You will need to learn fishing for the next couple quests.|SPELL|Midnight Fishing;471008|
+
 A A Fish!|QID|91271|M|48.72,76.72|Z|2395; Eversong Woods|N|From Valdekar Solaar.|RANK|2|
 C A Fish!|QID|91271|QO|1|M|49.79,75.19|Z|2395; Eversong Woods|N|Fish in the dirty water node.|
 C A Fish!|QID|91271|QO|2|M|48.75,76.67|Z|2395; Eversong Woods|N|Show the fish to Valdekar.|
@@ -401,8 +404,8 @@ C A Fish!|QID|91271|QO|5|M|48.74,75.35|Z|2395; Eversong Woods|N|Fish in the dirt
 C A Fish!|QID|91271|QO|6|M|48.75,76.67|Z|2395; Eversong Woods|N|Show the fish to Valdekar.|
 C A Fish!|QID|91271|QO|7|M|48.68,75.96|Z|2395; Eversong Woods|N|Fish in the dirty water node.|
 T A Fish!|QID|91271|M|48.75,76.71|Z|2395; Eversong Woods|N|To Valdekar Solaar.|
-A Pesky Pests|QID|91090|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|From Kaliel Solaar.|RANK|2|
-A Secret Ingredients|QID|91328|M|48.75,76.71|Z|2395; Eversong Woods|N|From Valdekar Solaar.|RANK|2|
+A Pesky Pests|QID|91090|PRE|91271|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|From Kaliel Solaar.|RANK|2|
+A Secret Ingredients|QID|91328|PRE|91271|M|48.75,76.71|Z|2395; Eversong Woods|N|From Valdekar Solaar.|RANK|2|
 C Secret Ingredients|QID|91328|M|48.75,76.71|Z|2395; Eversong Woods|N|Collect the berries from the bushes.|S|H|
 C Pesky Pests|QID|91090|QO|1|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Scare off the butterflys.|S|
 C Pesky Pests|QID|91090|QO|2|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Kill the grubs.|
@@ -581,9 +584,9 @@ C Facing the Sun|QID|87399|M|50.98,76.61|Z|2395; Eversong Woods|N|Slay Encroachi
 T Facing the Sun|QID|87399|M|50.57,78.14|Z|2395; Eversong Woods|N|To Farstrider Sedina.|
 A Scattered in Sunbeams|QID|87400|PRE|87399|M|50.57,78.14|Z|2395; Eversong Woods|N|From Farstrider Sedi|RANK|2|
 A Gardener Mishap|QID|87401|M|50.51,78.13|Z|2395; Eversong Woods|N|From Harris Lightsbreath|RANK|2|
-C Scattered in Sunbeams|QID|87400|M|52.36,74.86;53.20,73.93;51.54,73.52|CN|Z|2395; Eversong Woods|N|Gather the researchers evidence.|S|
+C Scattered in Sunbeams|QID|87400|M|52.36,74.86;53.20,73.93;51.54,73.52|CN|Z|2395; Eversong Woods|N|Gather the researchers evidence.|S|H|
 C Gardener Mishap|QID|87401|M|52.43,75.84|Z|2395; Eversong Woods|N|Kill the robot and loot the humming core.|
-C Scattered in Sunbeams|QID|87400|M|52.36,74.86;53.20,73.93;51.54,73.52|CN|Z|2395; Eversong Woods|N|Gather the researchers evidence.|US|
+C Scattered in Sunbeams|QID|87400|M|52.36,74.86;53.20,73.93;51.54,73.52|CN|Z|2395; Eversong Woods|N|Gather the researchers evidence.|US|H|
 T Scattered in Sunbeams|QID|87400|M|50.57,78.14|Z|2395; Eversong Woods|N|To Farstrider Sedi.|
 T Gardener Mishap|QID|87401|M|50.51,78.13|Z|2395; Eversong Woods|N|To Harris Lightsbreath.|
 A The Light Provides|QID|87402|M|50.53,78.13|Z|2395; Eversong Woods|N|From Harris Lightsbreath.|RANK|2|

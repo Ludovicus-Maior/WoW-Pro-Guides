@@ -77,7 +77,7 @@ C Left in the Shadows|QID|86652|M|43.97,65.14|Z|2437; Zul'Aman|QO|3|CHAT|N|Reque
 C Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|QO|4|CHAT|N|Speak with Kinduru.|
 T Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A The Path of the Amani|QID|86653|PRE|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|From Zul'jarra.|
-A Recuperating Returns|QID|88985|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
+A Recuperating Returns|QID|88985|LEAD|86722|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
 A The Final Exam|QID|93051|PRE|86652|M|43.19,67.11|Z|2437; Zul'Aman|N|From Recruit Dar'rak.|RANK|2|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|1|NC|N|Tell Ri'kari you're ready to begin.|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|2|N|Recruit Dar'rak slain.|
