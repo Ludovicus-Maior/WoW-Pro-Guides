@@ -37,6 +37,93 @@ do -- GuideListMixin:SetTooltip
         self.module:SetTooltip(guide)
     end
 end
+
+local function NormalizeSearchText(text)
+    text = tostring(text or ""):lower()
+    return text:match("^%s*(.-)%s*$")
+end
+
+local function GuideFieldMatches(value, filterText)
+    if value == nil then
+        return false
+    end
+    if type(value) == "function" then
+        value = value()
+    end
+    return tostring(value):lower():find(filterText, 1, true) ~= nil
+end
+
+local function GetVisibleHeaderInfo(headerInfo)
+    if not headerInfo or not headerInfo.names then
+        return headerInfo
+    end
+
+    local filteredHeaderInfo = { names = {}, sorts = {}, size = {} }
+    local totalSize = 0
+
+    for headerIndex = 1, #headerInfo.names do
+        if headerInfo.names[headerIndex] ~= "Author" then
+            tinsert(filteredHeaderInfo.names, headerInfo.names[headerIndex])
+            tinsert(filteredHeaderInfo.sorts, headerInfo.sorts[headerIndex])
+
+            local columnSize = headerInfo.size[headerIndex] or 0
+            tinsert(filteredHeaderInfo.size, columnSize)
+            totalSize = totalSize + columnSize
+        end
+    end
+
+    if totalSize > 0 then
+        for sizeIndex = 1, #filteredHeaderInfo.size do
+            filteredHeaderInfo.size[sizeIndex] = filteredHeaderInfo.size[sizeIndex] / totalSize
+        end
+    end
+
+    return filteredHeaderInfo
+end
+
+function GuideListMixin:GuideMatchesSearch(guide, filterText)
+    if filterText == "" then
+        return true
+    end
+
+    local headerCount = self.activeHeaderCount or #(self.headers or {})
+    for headerIndex = 1, headerCount do
+        local header = self.headers[headerIndex]
+        if header and header.name and GuideFieldMatches(guide[header.name], filterText) then
+            return true
+        end
+    end
+
+    local guideData = guide.guide or {}
+    return GuideFieldMatches(guide.GID, filterText)
+        or GuideFieldMatches(guideData.name, filterText)
+        or GuideFieldMatches(guideData.zone, filterText)
+        or GuideFieldMatches(guideData.guidetype, filterText)
+end
+
+function GuideListMixin:ApplySearchFilter()
+    local allGuides = self.allGuides or {}
+    local filterText = NormalizeSearchText(self.searchText)
+    local filteredGuides = {}
+
+    for guideIndex = 1, #allGuides do
+        local guide = allGuides[guideIndex]
+        if self:GuideMatchesSearch(guide, filterText) then
+            tinsert(filteredGuides, guide)
+        end
+    end
+
+    self.guides = filteredGuides
+
+    if self.scrollBar then
+        self.scrollBar:SetValue(0)
+    end
+    self:SetVerticalScroll(0)
+
+    local sortIndex = self:GetSort()
+    self:SetSort(sortIndex or self.module.sortIndex or 1, true)
+end
+
 function GuideListMixin:SelectTab(tabIndex)
     if not tabIndex then
         local GID = WoWProDB.char.currentguide
@@ -77,7 +164,8 @@ function GuideListMixin:SelectTab(tabIndex)
 
     if module.GetGuideListInfo then
         local listInfo = module:GetGuideListInfo()
-        self.guides = listInfo.guides
+        self.allGuides = listInfo.guides or {}
+        self.guides = self.allGuides
 
         local buttons = _G.HybridScrollFrame_GetButtons(self)
         for buttonIndex = 1, #buttons do
@@ -98,8 +186,8 @@ function GuideListMixin:SelectTab(tabIndex)
             end
         end
 
-        self:SetHeaderInfo(listInfo.headerInfo)
-        self:SetSort(module.sortIndex, true)
+        self:SetHeaderInfo(GetVisibleHeaderInfo(listInfo.headerInfo))
+        self:ApplySearchFilter()
     else
         WoWPro.ActivateTab(tab)
     end
@@ -165,7 +253,32 @@ function WoWPro.CreateGuideList()
     scrollBox:SetPoint("TOPLEFT", 5, -100)
     scrollBox:SetPoint("BOTTOMRIGHT", -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
+    scrollBox.searchText = ""
     frame.scrollBox = scrollBox
+
+    local searchBox = _G.CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
+    searchBox:SetSize(180, 20)
+    searchBox:SetAutoFocus(false)
+    searchBox:SetFontObject("ChatFontNormal")
+    searchBox:SetPoint("BOTTOMRIGHT", scrollBox.titleRow, "TOPRIGHT", -8, 8)
+    searchBox:SetScript("OnEscapePressed", function(self)
+        self:SetText("")
+        self:ClearFocus()
+    end)
+    searchBox:SetScript("OnEnterPressed", function(self)
+        self:ClearFocus()
+    end)
+    searchBox:SetScript("OnTextChanged", function(self)
+        scrollBox.searchText = self:GetText() or ""
+        if scrollBox.module then
+            scrollBox:ApplySearchFilter()
+        end
+    end)
+    frame.searchBox = searchBox
+
+    local searchLabel = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+    searchLabel:SetPoint("RIGHT", searchBox, "LEFT", -6, 0)
+    searchLabel:SetText(((_G.SEARCH or "Search") .. ":"))
 
     local prev
     local tabs = {}
