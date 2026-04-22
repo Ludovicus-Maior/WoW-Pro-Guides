@@ -61,7 +61,7 @@ T Crafting Orders: Alchemy|QID|93724|M|46.99,52.01|Z|2393; Silvermoon City|N|To 
 
 C Silvermoon Negotiations|QID|86733|M|45.63,67.58|Z|2393; Silvermoon City|QO|1|NC|N|Head to the Sanctum of Light.|
 T Silvermoon Negotiations|QID|86733|M|45.35,70.31|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
-A Diplomacy|QID|86734|PRE|86733|ACTIVE|-94871|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.| ;This isn't available if we take the scoutign map option for Eversong.
+A Diplomacy|QID|86734|PRE|86733|ACTIVE|-94871|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.| ;This isn't available if we take the scouting map option for Eversong.
 C Diplomacy|QID|86734|M|45.35,70.31|Z|2393; Silvermoon City|QO|1|NC|N|Listen to the discussion.|
 T Diplomacy|QID|86734|M|45.35,70.31|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
 A Paved in Ash|QID|86735^86736|PRE|86734|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
