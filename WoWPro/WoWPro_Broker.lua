@@ -1149,6 +1149,8 @@ function WoWPro:RowUpdate(offset)
 
     -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
+    -- Never show sticky steps that are after the current active step.
+    -- If the row list starts before the active step, keep the boundary at ActiveStep.
     local stickyBoundary = WoWPro.ActiveStep or k
     local stickySteps = {}
     local regularSteps = {}
@@ -1164,16 +1166,14 @@ function WoWPro:RowUpdate(offset)
                 local available = WoWPro.available and WoWPro.available[stepIdx]
                 local activeReq = WoWPro.active and WoWPro.active[stepIdx]
 
-                local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
-                -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
-                if not isSUS and stepIdx > stickyBoundary then
+                -- Never show sticky steps that are after the current active step
+                if stepIdx > stickyBoundary then
                     showSticky = false
 
                 -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
-                -- S!US should always show until completion, regardless of these filters
-                elseif not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
+                elseif available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
                     showSticky = false
-                elseif not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
+                elseif activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
                     showSticky = false
                 -- For C steps with QID and QO, check if specific objective is incomplete
                 elseif action == "C" and QID and questtext then
@@ -1207,13 +1207,12 @@ function WoWPro:RowUpdate(offset)
                     end
                 -- For C steps without QID (loot collection), only show if we've reached that step
                 elseif action == "C" and not QID then
-                    if stepIdx <= k then
+                    if stepIdx <= stickyBoundary then
                         showSticky = true
                     end
                 -- For other sticky types, show if we've reached that step
                 else
-                    -- S!US steps should remain visible while incomplete, even if they are past the current active step
-                    if isSUS or stepIdx <= k then
+                    if stepIdx <= stickyBoundary then
                         showSticky = true
                     end
                 end
@@ -4223,6 +4222,7 @@ end
 
 WoWPro.QuestLog = {}
 WoWPro.FauxQuestLog = {}
+WoWPro.missingQuests = {}
 
 local function  tablecopy(orig)
     local  copy = {}
@@ -4294,7 +4294,10 @@ function WoWPro.PopulateQuestLog()
         WoWPro.oldQuests = WoWPro.QuestLog or {}
         WoWPro.inhibit_oldQuests_update = true
     end
-    WoWPro.newQuest, WoWPro.missingQuest = false, false
+    local newQuests = {}
+    local missingQuests = {}
+    WoWPro.newQuest = false
+    WoWPro.missingQuests = missingQuests
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
@@ -4388,6 +4391,7 @@ function WoWPro.PopulateQuestLog()
         for QID, questInfo in pairs(WoWPro.QuestLog) do
             if not WoWPro.oldQuests[QID] then
                 WoWPro.newQuest = QID
+                newQuests[QID] = true
                 WoWPro:print("New Quest %s: [%s]", tostring(QID), questInfo.title)
                 delta = delta + 1
                 -- Is this an auto-switch quest?
@@ -4399,14 +4403,13 @@ function WoWPro.PopulateQuestLog()
         end
     end
 
-    -- Finding WoWPro.missingQuest --
+    -- Finding missing quests --
     for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if not WoWPro.QuestLog[QID] then
+            missingQuests[QID] = true
             if WoWPro:IsQuestFlaggedCompleted(QID) then
-                WoWPro.missingQuest = QID
                 WoWPro:print("Completed Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             else
-                WoWPro.missingQuest = QID
                 WoWPro:print("Missing Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             end
             delta = delta + 1
@@ -4447,7 +4450,7 @@ function WoWPro.PopulateQuestLog()
     -- Stop Tracking the QuestLogs for debugging for Emmaleah
     WoWProDB.char.Emmaleah = nil
     WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-    return delta
+    return delta, newQuests, missingQuests
 end
 
 function WoWPro.PostQuestLogUpdate()
