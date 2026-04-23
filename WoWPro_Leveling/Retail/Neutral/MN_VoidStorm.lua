@@ -8,7 +8,7 @@ WoWPro:GuideNextGuide(guide, 'Arators Journey')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Voidstorm|QID|89388|M|45.37,70.27|Z|2393; Silvermoon City|N|From Silvermoon Scouting Map.|
+A Voidstorm|QID|89388|M|45.37,70.27|Z|2393; Silvermoon City|N|From Silvermoon Scouting Map.|LEAD|91854|ACTIVE|-91854|
 T Voidstorm|QID|89388|M|45.37,70.27|Z|2393; Silvermoon City|N|To Magister Umbric.|
 
 
