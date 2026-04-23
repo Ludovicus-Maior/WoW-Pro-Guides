@@ -7,13 +7,16 @@ WoWPro:GuideSort(guide, 6)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
-A Feeding the Flame|QID|90777|M|45.37,70.27|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+
+A Feeding the Flame|QID|90777|M|45.37,70.27|Z|2393; Silvermoon City|N|From Lor'themar Theron.[color=FF0000]NOTE: [/color] If this quest is not available, and you finished the campaign on a different character, Choose, War of Light and Shadow from the scouting map beside you.|LEAD|94957|ACTIVE|-94957|
+C War of Light and Shadow|QID|94957|M|53.12,58.82|Z|2424; Isle of Quel'Danas|CHAT|N|Check in with Liadrin at the Sunwell and choose the campaign skip option.|
+T War of Light and Shadow|QID|94957|M|53.12,58.82|Z|2424; Isle of Quel'Danas|N|To Lady Liadrin.|
 C Feeding the Flame|QID|90777|M|53.12,58.82|Z|2424; Isle of Quel'Danas|QO|1|CHAT|N|Check in with Liadrin at the Sunwell.|
 C Feeding the Flame|QID|90777|M|53.99,58.16|Z|2424; Isle of Quel'Danas|QO|4|N|Spar with Commander Venel Lightblood.|
 C Feeding the Flame|QID|90777|M|51.63,56.45|Z|2424; Isle of Quel'Danas|QO|3|CHAT|N|Receive a blessing from War Chaplain Senn.|
 C Feeding the Flame|QID|90777|M|50.28,58.62|Z|2424; Isle of Quel'Danas|QO|2|CHAT|N|Speak with Commander Koruth Mountainfist.|
 T Feeding the Flame|QID|90777|M|53.00,58.69|Z|2424; Isle of Quel'Danas|N|To Lady Liadrin.|
-A The Devouring Citadel|QID|88696|PRE|90777|M|53.00,58.69|Z|2424; Isle of Quel'Danas|N|From Lady Liadrin.|
+A The Devouring Citadel|QID|88696|PRE|90777^94957|M|53.00,58.69|Z|2424; Isle of Quel'Danas|N|From Lady Liadrin.|
 C The Devouring Citadel|QID|88696|M|51.95,56.45|Z|2424; Isle of Quel'Danas|QO|1|NC|N|Take the Portal to Voidstorm Muster Point.|
 T The Devouring Citadel|QID|88696|M|45.40,63.12|Z|2405; Voidstorm|N|To High Exarch Turalyon.|
 A Clarity of Purpose|QID|88697|PRE|88696|M|45.40,63.12|Z|2405; Voidstorm|N|From High Exarch Turalyon.|

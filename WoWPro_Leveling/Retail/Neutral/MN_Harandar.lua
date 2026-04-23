@@ -579,6 +579,6 @@ T Reticent Evil|QID|91381|M|44.17,66.44|Z|2413; Harandar|N|To Ghikal.|
 
 T O.K. Bloomer|QID|92739|M|31.39,64.97|Z|2413; Harandar|N|To Hannan.|
 
-A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193|PRE|94993|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
+A Silvermoon Scouting Table|AVAILABLE|94871^86708^89402^91854^89193^89388|PRE|94993^95008|M|45.49,70.45|Z|2393; Silvermoon City|N| Click on the table to choose your next zone. The guide should switch automatically -  if it does not use the guide list to select.|
 ]]
 end)
