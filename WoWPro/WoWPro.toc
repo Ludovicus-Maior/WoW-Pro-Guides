@@ -6,7 +6,7 @@
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 2026.04.23.A
+## Version: 2026.04.23.B
 ## Category-enUS: Quests
 ## Category-deDE: Quests
 ## Category-esES: Misiones

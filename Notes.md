@@ -1,4 +1,4 @@
-# Release 2026.04.23.A
+# Release 2026.04.23.B
 ## Bug Fixes
 * Interface update for Retail for 12.0.5
 * Empty guide text updated
