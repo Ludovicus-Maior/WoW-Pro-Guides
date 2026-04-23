@@ -1,3 +1,16 @@
+# Release 2026.04.23.A
+## Bug Fixes
+* Interface update for Retail for 12.0.5
+* Empty guide text updated
+* Map updates for Midnight
+* Guide Search no longer looks at Metadata
+* Improved log generation and guide testing
+## Guide Updates
+* MOP Neutral Leveling: Eastern Plaugelands
+* Retail Neutral Leveling: Intro Haranir, Eversong Woods, Void Storm, Zul Aman
+* TBC Horde: Felwood
+
+
 # Release 2026.04.15.A
 ## Bug Fixes
 * Removed Author column from guidelist and add search box
