@@ -1,11 +1,170 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
--- luacheck: globals select foreach ipairs pairs next tinsert
+-- luacheck: globals select foreach ipairs pairs next tinsert type
 
 --------------------------
 --  WoWPro_Events.lua   --
 --------------------------
 
-local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
+-- Setting up event handler load time tables
+WoWPro.EventTable = {}
+WoWPro.InitLockdownEvents = {}
+
+function WoWPro:OnEnableEvents()
+    WoWPro:dbp("Registering Events: Core Addon")
+    WoWPro:RegisterEvents(nil)
+    WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
+    -- EventFrame is created earlier in WoWPro:OnEnable()
+    WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+end
+
+-- Event Registration Functions --
+function WoWPro.RegisterEventHandler(event, handler, lockdown)
+    WoWPro.EventTable[event] = true
+    WoWPro[event] = handler
+    if lockdown then
+        WoWPro.InitLockdownEvents[event] = true
+    end
+end
+
+function WoWPro.RegisterModernEventHandler(event, handler, lockdown)
+    if not WoWPro.RETAIL then return end
+    WoWPro.RegisterEventHandler(event, handler, lockdown)
+end
+
+-- Event Registration Functions --
+function WoWPro:RegisterEvents(eventtable)
+    --[[Purpose: Iterates through the supplied table of events, and registers each
+    event to the event frame.
+    ]]--
+    if not eventtable then
+        eventtable = WoWPro.EventTable
+    end
+    for key,value in pairs(eventtable) do
+        -- Event/Handler type of table
+        if type(key) == "string" then
+            WoWPro.EventFrame:RegisterEvent(key)
+            WoWPro.EventTable[key]=true
+        end
+        -- Event list for a module type of table
+        if type(value) == "string" then
+            WoWPro.EventFrame:RegisterEvent(value)
+            WoWPro.EventTable[value]=true
+        end
+    end
+end
+
+function WoWPro.RegisterAllEvents()
+    WoWPro:RegisterEvents(nil)
+end
+
+-- Event Un-Registration Functions --
+function WoWPro:UnregisterEvents(eventtable)
+    --[[Purpose: Iterates through the supplied table of events, and removes each
+    event from the event frame.
+    ]]--
+    if not eventtable then
+        eventtable = WoWPro.EventTable
+    end
+    for key,value in pairs(eventtable) do
+        -- Event/Handler type of table
+        if type(key) == "string" then
+            WoWPro.EventFrame:UnregisterEvent(key)
+            WoWPro.EventTable[key]=false
+        end
+        -- Event list for a module type of table
+        if type(value) == "string" then
+            WoWPro.EventFrame:UnregisterEvent(value)
+            WoWPro.EventTable[value]=false
+        end
+    end
+end
+
+function WoWPro.UnregisterAllEvents()
+    WoWPro:UnregisterEvents(nil)
+end
+
+function WoWPro.EventPunt(_event)
+end
+
+function WoWPro.EventHandler(frame, event, ...)
+    -- Filter out non-player UNIT_AURA events
+    if event == "UNIT_AURA" then
+         -- Process silently!
+        WoWPro.UNIT_AURA(event, ...)
+        return
+    end
+
+    -- Init Lockdown events are processed unconditionally and first.
+    if WoWPro.InitLockdownEvents[event] then
+        WoWPro:LogEvent("ILE:"..event, ...)
+        WoWPro[event](event, ...)
+    else
+        if WoWPro[event] then
+            WoWPro:LogEvent("Handled: "..event, ...)
+        else
+            WoWPro:LogEvent(event, ...)
+            -- Note: here we are just doing random event logging.
+            return
+        end
+    end
+
+    -- debug
+    if WoWPro.QuestDialogActive == "QUEST_GREETING" then
+        local numAvailableQuests = _G.GetNumAvailableQuests()
+        local numActiveQuests = _G.GetNumActiveQuests()
+        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
+    end
+    if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
+        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
+        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
+        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
+    end
+
+    if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
+        WoWPro:SendMessage("WoWPro_PuntedQLU")
+        return
+    end
+
+    if WoWPro.InitLockdown or WoWPro.InitLockdownEvents[event] then
+        -- Stop processing during init lockdown or if event already processed.
+        return
+    end
+
+    -- If we are not ready to handle the event, punt it.
+    -- If that is the case, then
+    if not WoWPro.Ready("EventHandler:"..event) then
+        return
+    else
+        WoWPro.EventPunt({event, ...})
+    end
+
+    -- For events with a handler, call it.
+    if WoWPro[event] then
+        WoWPro[event](event, ...)
+    end
+
+    -- Module Event Handlers have their own handlers, but they can second guess the base handlers --
+    for name, module in WoWPro:IterateModules() do
+        local guidetype = "WoWPro"
+        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+        end
+
+        if WoWPro[name].EventHandler and guidetype == name then
+            WoWPro:dbp("Now calling event handler for %s", name)
+            WoWPro[name]:EventHandler(event, ...)
+        end
+    end
+end
+
+function WoWPro.PuntedQLU()
+    if WoWPro.InitLockdown then
+        WoWPro:SendMessage("WoWPro_PuntedQLU")
+        return
+    end
+    WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE","-punted-")
+end
+
 -- Are we ready to roll?
 function WoWPro.Ready(who)
     if not WoWProDB.char.currentguide then
@@ -21,23 +180,6 @@ function WoWPro.Ready(who)
         return false
     end
     return true
-end
-
-WoWPro.InitLockdownEvents = {}
-WoWPro.InitLockdownEvents["ADDON_ACTION_FORBIDDEN"] = true
-WoWPro.InitLockdownEvents["ADDON_ACTION_BLOCKED"] = true
-WoWPro.InitLockdownEvents["PLAYER_ENTERING_WORLD"] = true
-WoWPro.InitLockdownEvents["PLAYER_LEAVING_WORLD"] = true
-
-function WoWPro.RegisterEventHandler(event, handler)
-    WoWPro.EventTable[event] = true
-    WoWPro[event] = handler
-end
-
-function WoWPro.RegisterModernEventHandler(event, handler)
-    if not WoWPro.RETAIL then return end
-    WoWPro.EventTable[event] = true
-    WoWPro[event] = handler
 end
 
 
@@ -56,8 +198,8 @@ WoWPro.RegisterModernEventHandler("UNIT_AURA", function(event, ...)
 WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function(event, ...)
     -- Its has been logged by LogEvent, so just return
     return
-    end)
-WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
+    end, true)
+WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN, true)
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end)
 WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event) return; end)
@@ -76,13 +218,13 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.LockdownTimer = 1.5
     WoWPro.AutoHideFrame("|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
     WoWPro:UpdateTradeSkills()
-    end)
+    end, true)
 
 -- Locking event processong till after things get settled --
 WoWPro.RegisterEventHandler("PLAYER_LEAVING_WORLD", function(event, ...)
     WoWPro:print("Locking Down PLW")
     WoWPro.InitLockdown = true
-    end)
+    end, true)
 
 --- Check for a faction change
 if not WoWPro.CLASSIC then
@@ -206,6 +348,9 @@ end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
+
+
+local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) == 0 then
@@ -696,75 +841,4 @@ function WoWPro.DelayedEventHandler(frame,event)
 end
 
 
-function WoWPro.EventHandler(frame, event, ...)
-    -- Filter out non-player UNIT_AURA events
-    if event == "UNIT_AURA" then
-         -- Process silently!
-        WoWPro.UNIT_AURA(event, ...)
-        return
-    end
 
-    -- Init Lockdown events are processed unconditionally and first.
-    if WoWPro.InitLockdownEvents[event] then
-        WoWPro:LogEvent("ILE:"..event, ...)
-        WoWPro[event](event, ...)
-    else
-        if WoWPro[event] then
-            WoWPro:LogEvent("Handled: "..event, ...)
-        else
-            WoWPro:LogEvent(event, ...)
-        end
-    end
-
-    -- debug
-    if WoWPro.QuestDialogActive == "QUEST_GREETING" then
-        local numAvailableQuests = _G.GetNumAvailableQuests()
-        local numActiveQuests = _G.GetNumActiveQuests()
-        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
-    end
-    if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
-        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
-        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
-    end
-
-    if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
-        WoWPro:SendMessage("WoWPro_PuntedQLU")
-        return
-    end
-
-    if WoWPro.InitLockdown or WoWPro.InitLockdownEvents[event] then
-        -- Stop processing during init lockdown or if event already processed.
-        return
-    end
-
-    -- Stop processing if no guide is active or something is odd!
-    if not WoWPro.Ready("EventHandler:"..event) then
-        return
-    end
-
-    if WoWPro[event] then
-        WoWPro[event](event, ...)
-    end
-
-    -- Module Event Handlers --
-    for name, module in WoWPro:IterateModules() do
-        local guidetype = "WoWPro"
-        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
-            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-        end
-
-        if WoWPro[name].EventHandler and guidetype == name then
-            WoWPro:dbp("Now calling event handler for %s", name)
-            WoWPro[name]:EventHandler(event, ...)
-        end
-    end
-end
-
-function WoWPro.PuntedQLU()
-    if WoWPro.InitLockdown then
-        WoWPro:SendMessage("WoWPro_PuntedQLU")
-        return
-    end
-    WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE","-punted-")
-end
