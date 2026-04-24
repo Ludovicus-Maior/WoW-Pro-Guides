@@ -1,9 +1,9 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
 -- luacheck: globals select foreach ipairs pairs next tinsert
 
---------------------------
---  WoWPro_Events.lua   --
---------------------------
+---------------------------
+--  WoWPro_AutoComplete  --
+---------------------------
 
 local L =  WoWPro_Locale
 
