@@ -33,6 +33,7 @@ WoWPro_ZoneData.lua
 WoWPro_ZoneDataLegacy.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
+WoWPro_AutoComplete.lua
 WoWPro_Events.lua
 WoWPro_Markup.lua
 WoWPro_NilGuide.lua
