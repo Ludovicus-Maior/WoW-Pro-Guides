@@ -440,6 +440,7 @@ function WoWPro:OnInitialize()
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
+    WoWPro.GuideUpdated = false
     -- Selector is Deprecated
     WoWProDB.profile.Selector = nil
     if type(WoWProDB.profile.checksoundfile) == "string" then
