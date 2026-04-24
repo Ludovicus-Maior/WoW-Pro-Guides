@@ -231,10 +231,6 @@ local function ptable_inner(item)
         tinsert(ptable_buf, ("%q"):format(item))
         return
     end
-    if item_type == "number" then
-        tinsert(ptable_buf, tostring(item))
-        return
-    end
     if item_type == "boolean" then
         tinsert(ptable_buf, tostring(item))
         return
