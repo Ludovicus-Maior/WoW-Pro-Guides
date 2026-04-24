@@ -445,7 +445,7 @@ function WoWPro.UnitAura(Unit, BuffIndex, filter)
     if _G.UnitAura then
         -- name, icon, count, dispelType, duration, expirationTime, source, isStealable,
         -- nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, castByPlayer, nameplateShowAll, timeMod
-        local ret = {_G.UnitAura("player",BuffIndex,filter)}
+        local ret = {_G.UnitAura(Unit, BuffIndex, filter)}
         return unpack(ret)
     else
         local ret = _G.C_UnitAuras.GetAuraDataByIndex(Unit, BuffIndex, filter)
