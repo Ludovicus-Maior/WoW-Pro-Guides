@@ -536,7 +536,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         if WoWPro.Recorder.QIDtoAdd and WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].leaderBoard then
                             local text = ""
                             for i,objective in pairs(WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].leaderBoard) do
-                                if i== 1 then text = objective else text = (";"):join(text, objective) end
+                                if i== 1 then text = objective else text = text .. ";" .. objective end
                             end
                             WoWPro.Recorder.stepInfo.questtext = text
                             return text
