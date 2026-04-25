@@ -4223,6 +4223,7 @@ end
 
 WoWPro.QuestLog = {}
 WoWPro.FauxQuestLog = {}
+WoWPro.missingQuests = {}
 
 local function  tablecopy(orig)
     local  copy = {}
@@ -4294,7 +4295,12 @@ function WoWPro.PopulateQuestLog()
         WoWPro.oldQuests = WoWPro.QuestLog or {}
         WoWPro.inhibit_oldQuests_update = true
     end
-    WoWPro.newQuest, WoWPro.missingQuest = false, false
+    local newQuests = {}
+    local missingQuests = {}
+    -- Legacy scalar quest state, preserved only for compatibility.
+    -- New code should use explicit diff tables instead.
+    -- WoWPro.newQuest = false
+    -- WoWPro.missingQuests = missingQuests
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
@@ -4387,7 +4393,9 @@ function WoWPro.PopulateQuestLog()
     if numLoggedQuests > 0 then
         for QID, questInfo in pairs(WoWPro.QuestLog) do
             if not WoWPro.oldQuests[QID] then
-                WoWPro.newQuest = QID
+                -- Legacy scalar quest state, preserve only for compatibility.
+                -- WoWPro.newQuest = QID
+                newQuests[QID] = true
                 WoWPro:print("New Quest %s: [%s]", tostring(QID), questInfo.title)
                 delta = delta + 1
                 -- Is this an auto-switch quest?
@@ -4399,14 +4407,13 @@ function WoWPro.PopulateQuestLog()
         end
     end
 
-    -- Finding WoWPro.missingQuest --
+    -- Finding missing quests --
     for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if not WoWPro.QuestLog[QID] then
+            missingQuests[QID] = true
             if WoWPro:IsQuestFlaggedCompleted(QID) then
-                WoWPro.missingQuest = QID
                 WoWPro:print("Completed Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             else
-                WoWPro.missingQuest = QID
                 WoWPro:print("Missing Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             end
             delta = delta + 1
@@ -4447,7 +4454,7 @@ function WoWPro.PopulateQuestLog()
     -- Stop Tracking the QuestLogs for debugging for Emmaleah
     WoWProDB.char.Emmaleah = nil
     WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-    return delta
+    return delta, newQuests, missingQuests
 end
 
 function WoWPro.PostQuestLogUpdate()
