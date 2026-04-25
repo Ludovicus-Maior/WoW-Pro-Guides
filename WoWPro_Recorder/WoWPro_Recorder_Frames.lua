@@ -744,6 +744,45 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "header",
                     name = "Required Info",
                 },
+                gotostep = {
+                    order = 0.1,
+                    type = "input",
+                    name = "Go To Step:",
+                    desc = "Jump to a step index while staying in the editor.",
+                    width = 1.5,
+                    get = function(info)
+                        local selected = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep or 1
+                        WoWPro.Recorder.EditGoToStep = WoWPro.Recorder.EditGoToStep or selected
+                        return tostring(WoWPro.Recorder.EditGoToStep)
+                    end,
+                    set = function(info, val)
+                        WoWPro.Recorder.EditGoToStep = tonumber(val)
+                    end,
+                },
+                gotostepbtn = {
+                    order = 0.2,
+                    type = "execute",
+                    name = "Go",
+                    width = 0.5,
+                    func = function(info, val)
+                        local step = tonumber(WoWPro.Recorder.EditGoToStep)
+                        local total = WoWPro.stepcount or 0
+                        if not step then
+                            WoWPro:Error("Please enter a valid step number.")
+                            return
+                        end
+                        if step < 1 or step > total then
+                            WoWPro:Error("Step %d is out of range. Valid range is 1 to %d.", step, total)
+                            return
+                        end
+                        WoWPro.Recorder.SelectedStep = step
+                        WoWPro.GuideOffset = step
+                        if WoWPro.Scrollbar then
+                            WoWPro.Scrollbar:SetValue(step)
+                        end
+                        WoWPro:UpdateGuide("WoWPro.Recorder:EditGoToStep")
+                    end,
+                },
                 action = {
                     order = 1,
                     type = "select",
@@ -1220,15 +1259,13 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     values = function()
                         local infoTable = {}
                         for GID, guideInfo in pairs(WoWPro.Guides) do
-                            if WoWPro_RecorderDB[GID] then
-                                if WoWPro.Recorder.Advanced then
-                                    infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..guideInfo.author
-                                    if WoWPro_RecorderDB[GID] then
-                                        infoTable[GID] = "!" .. infoTable[GID]
-                                    end
-                                else
-                                    infoTable[GID] = GID
+                            if WoWPro.Recorder.Advanced then
+                                infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..tostring(guideInfo.author)
+                                if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
+                                    infoTable[GID] = "!" .. infoTable[GID]
                                 end
+                            else
+                                infoTable[GID] = GID
                             end
                         end
                         return infoTable
@@ -1244,6 +1281,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
             },
         })
         dialog:SetDefaultSize("WoWPro Recorder - Open", 300, 125)
+
     WoWPro.SaveButton = CreateButton("Save", "Click to save the current guide.", WoWPro.OpenButton)
     WoWPro.SaveButton:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" then

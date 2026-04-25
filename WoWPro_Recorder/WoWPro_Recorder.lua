@@ -14,7 +14,7 @@ WoWPro:Embed(WoWPro.Recorder)
 WoWPro.Recorder.Version = WoWPro.GetAddOnMetadata("WoWPro_Recorder", "Version")
 WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
-WoWPro.Recorder.Advanced = false
+WoWPro.Recorder.Advanced = true
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 WoWPro.Recorder.Flights = nil
@@ -29,9 +29,12 @@ function WoWPro.Recorder:OnInitialize()
 end
 
 function WoWPro.Recorder:OnEnable()
-	if WoWProCharDB then
-		WoWPro.Recorder.Advanced = WoWProCharDB.Advanced or false
-	end
+    if WoWProCharDB then
+        if WoWProCharDB.Advanced == nil then
+            WoWProCharDB.Advanced = true
+        end
+        WoWPro.Recorder.Advanced = WoWProCharDB.Advanced
+    end
     -- Set LoadingGuide flag to prevent quest recording during initialization
     WoWPro.Recorder.LoadingGuide = true
 
