@@ -1048,7 +1048,7 @@ WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function(event, ...)
     WoWPro:dbp("%s(qidx=%d,qid=%d)",event,qlidx,qid)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
     local questtitle = _G.GetTitleText();
-    if WoWProCharDB.AutoTurnin == true and
+    if WoWProCharDB.AutoAccept == true and
        WoWPro.action[qidx] == "A" and
        questtitle == WoWPro.step[qidx] then
         WoWPro:AutoCompleteQuestUpdate(nil)
