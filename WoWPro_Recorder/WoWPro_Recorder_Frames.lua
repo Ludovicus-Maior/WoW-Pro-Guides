@@ -306,7 +306,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     values = function()
                         local questList = {}
                         for QID, info in pairs(WoWPro.QuestLog) do
-                            tinsert(questList, QID, info.title)
+                            questList[QID] = info.title
                         end
                         return questList
                     end,
@@ -568,7 +568,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         if WoWPro.Recorder.QIDtoAdd and not WoWPro.Recorder.stepInfo.use then
                             WoWPro.Recorder.stepInfo.use = WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].use
                             return WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].use
-                        else return WoWPro.Recorder.stepInfo.optional end
+                        else return WoWPro.Recorder.stepInfo.use end
                     end,
                     set = function(info,val)
                         if val == "" then val = nil end
@@ -673,7 +673,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         WoWPro.Recorder.AddStep(WoWPro.Recorder.stepInfo)
                         WoWPro.Recorder.stepInfo = {}
                         WoWPro.Recorder.QIDtoAdd = nil
-                        WoWPro.Recorder.questtextset = true
+                        WoWPro.Recorder.questtextset = nil
                         dialog:Close("WoWPro Recorder - Add - Edit Step");
                     end,
                 },

@@ -55,9 +55,10 @@ end
 
 function WoWPro.Recorder:OnDisable()
     -- Unregistering Recorder Module Events --
-    local events = {}
-    for _, event in ipairs(events) do
-        WoWPro.GuideFrame:UnregisterEvent(event)
+    if WoWPro.RecorderFrame and WoWPro.Recorder.events then
+        for _, event in ipairs(WoWPro.Recorder.events) do
+            WoWPro.RecorderFrame:UnregisterEvent(event)
+        end
     end
 end
 
