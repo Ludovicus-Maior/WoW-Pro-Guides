@@ -19,6 +19,10 @@ end
 
 -- Event Registration Functions --
 function WoWPro.RegisterEventHandler(event, handler, lockdown)
+    if WoWPro.EventTable[event] then
+        WoWPro:Error("Attempt to reregister event %s!", event)
+        return
+    end
     WoWPro.EventTable[event] = true
     WoWPro[event] = handler
     if lockdown then
@@ -143,7 +147,7 @@ function WoWPro.EventHandler(frame, event, ...)
         WoWPro[event](event, ...)
     end
 
-    -- Module Event Handlers have their own handlers, but they can second guess the base handlers --
+    -- Module Event Handlers should go away and just use the regular dispatch mechanism --
     for name, module in WoWPro:IterateModules() do
         local guidetype = "WoWPro"
         if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
