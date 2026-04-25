@@ -233,7 +233,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 zone = zonetag
             }
             if targetName then stepInfo.note = "At "..targetName.."." end
-            WoWPro.Recorder:dbp("Adding get FP ".._G.GetSubZoneText() or _G.GetZoneText())
+            WoWPro.Recorder:dbp("Adding get FP "..(_G.GetSubZoneText() or _G.GetZoneText()))
             WoWPro.Recorder.AddStep(stepInfo)
             WoWPro:AutoCompleteGetFP(event, ...)
         end
