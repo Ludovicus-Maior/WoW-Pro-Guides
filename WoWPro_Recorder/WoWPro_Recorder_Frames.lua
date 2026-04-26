@@ -1,6 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
 -- luacheck: globals ipairs pairs tinsert
--- luacheck: globals tostring tonumber
+-- luacheck: globals tostring tonumber string table
 
 ------------------------------------------
 --      WoWPro.Recorder_Frames.lua      --
