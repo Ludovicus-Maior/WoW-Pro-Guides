@@ -5,7 +5,7 @@ exclude_files = {
 max_line_length = false
 self = false
 unused_args = false
-std = "none"
+std = "lua51"
 globals = {
     "_G",
     "WoWPro",

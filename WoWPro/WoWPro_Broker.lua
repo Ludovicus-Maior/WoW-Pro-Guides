@@ -2225,17 +2225,20 @@ function WoWPro.UpdateGuideReal(From)
                 WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
             end
         end
+        WoWPro.GuideUpdated = true
+        return
+    end
+
+    if WoWProDB.profile.guideprogress then
+        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
     else
-        if WoWProDB.profile.guideprogress then
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+        if total > 0 then
+            local percentage = math.floor((currentMainStep / total) * 100)
+            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
         else
-            if total > 0 then
-                local percentage = math.floor((currentMainStep / total) * 100)
-                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
-            else
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
-            end
+            WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
         end
+    end
 
     -- If the guide is complete, loading the next guide --
     if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
@@ -2249,12 +2252,14 @@ function WoWPro.UpdateGuideReal(From)
         end
     end
     WoWPro:MapPoint()
-    WoWPro.GuideUpdated = true
+    if not WoWPro.GuideUpdated then
+        WoWPro.GuideUpdated = true
+        WoWPro.EventReplayStart()
+    end
     WoWPro:SendMessage("WoWPro_PostUpdateGuide")
     -- Update content and formatting --
     WoWPro.PaddingSet()
     WoWPro.RowSet()
-end
 end
 
 
