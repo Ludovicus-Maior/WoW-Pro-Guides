@@ -142,7 +142,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
 
-    local targetName = _G.GetUnitName("target")
+    local targetName = _G.UnitName and _G.UnitName("target")
     if event == "CHAT_MSG_SYSTEM" then
         WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
         local msg = ...
