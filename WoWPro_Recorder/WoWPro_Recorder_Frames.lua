@@ -11,6 +11,34 @@ local dialog = _G.LibStub("AceConfigDialog-3.0")
 
 local initSpecs = {}
 
+local function RecorderSelectedOrActiveStep()
+    return WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep or 1
+end
+
+local function BuildCurrentGuideStepList()
+    local total = WoWPro.stepcount or 0
+    local selected = RecorderSelectedOrActiveStep()
+    local lines = {}
+
+    if total < 1 then
+        return "No steps are loaded in the current guide."
+    end
+
+    for index = 1, total do
+        local prefix = "  "
+        local text = WoWPro.EmitSafeStep(index)
+
+        if index == selected then
+            prefix = ">>"
+        end
+
+        text = tostring(text):gsub("[\r\n]+", " ")
+        lines[#lines + 1] = string.format("%s %d. %s", prefix, index, text)
+    end
+
+    return table.concat(lines, "\n")
+end
+
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
 initSpecs["Leveling"] = {
     { "GID:", "The ID for this guide.", "GID" , nil},
@@ -735,6 +763,37 @@ function WoWPro.Recorder:CreateRecorderFrame()
         dialog:SetDefaultSize("WoWPro Recorder - Subtract", 300, 200)
 
     WoWPro.EditButton = CreateButton("Edit", "Click to open the step editor for the selected step.", WoWPro.SubtractButton)
+        config:RegisterOptionsTable("WoWPro Recorder - Current Guide Steps", {
+            name = "Current Guide Steps",
+            type = "group",
+            args = {
+                message = {
+                    order = 0,
+                    type = "description",
+                    fontSize = "medium",
+                    name = function()
+                        local guideId = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide or "Unknown"
+                        local total = WoWPro.stepcount or 0
+                        return string.format("Guide: %s\nSteps: %d\nSelected: %d\n", guideId, total, RecorderSelectedOrActiveStep())
+                    end,
+                    width = "full",
+                },
+                steplist = {
+                    order = 1,
+                    type = "input",
+                    multiline = 22,
+                    width = "full",
+                    name = "Step List",
+                    desc = "Full emitted guide lines for the current guide. The selected step is prefixed with >>.",
+                    get = function()
+                        return BuildCurrentGuideStepList()
+                    end,
+                    set = function()
+                    end,
+                },
+            },
+        })
+        dialog:SetDefaultSize("WoWPro Recorder - Current Guide Steps", 900, 560)
         config:RegisterOptionsTable("WoWPro Recorder - Edit", {
             name = "Edit Step",
             type = "group",
@@ -751,7 +810,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     desc = "Jump to a step index while staying in the editor.",
                     width = 1.5,
                     get = function(info)
-                        local selected = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep or 1
+                        local selected = RecorderSelectedOrActiveStep()
                         WoWPro.Recorder.EditGoToStep = WoWPro.Recorder.EditGoToStep or selected
                         return tostring(WoWPro.Recorder.EditGoToStep)
                     end,
@@ -781,6 +840,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             WoWPro.Scrollbar:SetValue(step)
                         end
                         WoWPro:UpdateGuide("WoWPro.Recorder:EditGoToStep")
+                    end,
+                },
+                showguidesteps = {
+                    order = 0.3,
+                    type = "execute",
+                    name = "Current Guide",
+                    width = 1,
+                    desc = "Open a numbered list of every step in the current guide.",
+                    func = function()
+                        dialog:Open("WoWPro Recorder - Current Guide Steps", WoWPro.DialogFrame)
                     end,
                 },
                 action = {
