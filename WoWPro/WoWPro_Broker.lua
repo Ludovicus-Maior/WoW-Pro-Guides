@@ -554,6 +554,7 @@ function WoWPro:LoadGuide(guideID)
         WoWProDB.char.currentguide = WoWPro:GuideFormalName(guideID)
     end
     WoWPro.GuideLoaded = false
+    WoWPro.GuideUpdated = false
     WoWPro.current_strategy = nil
     WoWPro:SendMessage("WoWPro_LoadGuide")
 	if WoWPro.GroupSync then
@@ -2044,6 +2045,7 @@ function WoWPro.UpdateGuideRealSlow(From)
 end
 
 function WoWPro.UpdateGuideReal(From)
+    local GID = WoWProDB.char.currentguide
     local why = ""
     for who, count in pairs(From) do
         why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
@@ -2055,7 +2057,7 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:dbp("UpdateGuideReal(): Punting")
     end
     if not WoWPro.GuideLoaded then
-        WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
+        WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
         return
     end
     if WoWPro.LoadAllGuidesActive then
@@ -2063,7 +2065,7 @@ function WoWPro.UpdateGuideReal(From)
         return
     end
     WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
-    local GID = WoWProDB.char.currentguide
+
     local offset = WoWPro.GuideOffset
     WoWPro.GuideOffset = nil
 
@@ -2079,10 +2081,6 @@ function WoWPro.UpdateGuideReal(From)
     end
     if  not GID or not WoWPro.Guides[GID] then
         WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
-        return
-    end
-    if  not WoWPro.GuideLoaded then
-        WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
         return
     end
 
@@ -2251,11 +2249,8 @@ function WoWPro.UpdateGuideReal(From)
         end
     end
     WoWPro:MapPoint()
+    WoWPro.GuideUpdated = true
     WoWPro:SendMessage("WoWPro_PostUpdateGuide")
-    if WoWPro.GuideLoaded ~= "Updated" then
-        WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
-        WoWPro.GuideLoaded = "Updated"
-    end
     -- Update content and formatting --
     WoWPro.PaddingSet()
     WoWPro.RowSet()
