@@ -14,7 +14,7 @@ WoWPro:Embed(WoWPro.Recorder)
 WoWPro.Recorder.Version = WoWPro.GetAddOnMetadata("WoWPro_Recorder", "Version")
 WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
-WoWPro.Recorder.Advanced = false
+WoWPro.Recorder.Advanced = true
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 WoWPro.Recorder.Flights = nil
@@ -29,9 +29,11 @@ function WoWPro.Recorder:OnInitialize()
 end
 
 function WoWPro.Recorder:OnEnable()
-	if WoWProCharDB then
-		WoWPro.Recorder.Advanced = WoWProCharDB.Advanced or false
-	end
+    WoWProCharDB = WoWProCharDB or {}
+    if WoWProCharDB.Advanced == nil then
+        WoWProCharDB.Advanced = WoWPro.Recorder.Advanced
+    end
+    WoWPro.Recorder.Advanced = WoWProCharDB.Advanced and true or false
     -- Set LoadingGuide flag to prevent quest recording during initialization
     WoWPro.Recorder.LoadingGuide = true
 
@@ -63,7 +65,7 @@ function WoWPro.Recorder:OnDisable()
 end
 
 function WoWPro.Recorder:OnUIReloaded()
-    if WoWProCharDB.Advanced then
+    if WoWPro.Recorder.Advanced then
         WoWPro.RecorderFrame:SetWidth(350)
         WoWPro.MainFrame:SetWidth(350)
     else
@@ -73,11 +75,9 @@ function WoWPro.Recorder:OnUIReloaded()
 end
 
 function WoWPro.Recorder:ToggleAdvanced()
-    if WoWProCharDB.Advanced then
-        WoWProCharDB.Advanced = false
-    else
-        WoWProCharDB.Advanced = true
-    end
+    WoWProCharDB = WoWProCharDB or {}
+    WoWProCharDB.Advanced = WoWProCharDB.Advanced ~= true
+    WoWPro.Recorder.Advanced = WoWProCharDB.Advanced
     _G.ReloadUI();
 end
 
