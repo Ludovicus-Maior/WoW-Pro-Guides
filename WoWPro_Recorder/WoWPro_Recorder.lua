@@ -76,7 +76,7 @@ end
 
 function WoWPro.Recorder:ToggleAdvanced()
     WoWProCharDB = WoWProCharDB or {}
-    WoWProCharDB.Advanced = not (WoWProCharDB.Advanced == true)
+    WoWProCharDB.Advanced = WoWProCharDB.Advanced ~= true
     WoWPro.Recorder.Advanced = WoWProCharDB.Advanced
     _G.ReloadUI();
 end
