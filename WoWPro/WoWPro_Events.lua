@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
--- luacheck: globals select foreach ipairs pairs next tinsert type
+-- luacheck: globals select foreach ipairs pairs next tinsert type unpack
 
 --------------------------
 --  WoWPro_Events.lua   --
@@ -87,11 +87,54 @@ function WoWPro.UnregisterAllEvents()
     WoWPro:UnregisterEvents(nil)
 end
 
-function WoWPro.EventPunt(_event)
+-- Are we ready to roll?
+function WoWPro.Ready(who)
+    if not WoWProDB.char.currentguide then
+        WoWPro:dbp("%s not Ready. No current guide!",(who or "Someone"))
+        return false
+    end
+    if not WoWPro.Guides[WoWProDB.char.currentguide] then
+        WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
+        return false
+    end
+    if not WoWPro.GuideLoaded then
+        WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
+        return false
+    end
+    if not WoWPro.GuideUpdated then
+        WoWPro:dbp("%s not Read. Guide %s is not updated once yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
+        return false
+    end
+    return true
 end
 
-function WoWPro.EventHandler(frame, event, ...)
-    -- Filter out non-player UNIT_AURA events
+-- We do not expect this to get very big, so a simple implementation is fine.
+WoWPro.EventQueue = {}
+function WoWPro.EventPunt(event)
+    table.insert(WoWPro.EventQueue, event)
+end
+
+function WoWPro.EventReplay()
+    local entry = table.remove(WoWPro.EventQueue, 1)
+    if not entry then
+        WoWPro.EventFrame:SetScript("OnUpdate", nil)
+        return false
+    end
+
+    local event = table.remove(entry, 1)
+    WoWPro.EventHandler(WoWPro.EventFrame, event, unpack(entry))
+    return event
+end
+
+-- This should be called after the first Guide Update
+function WoWPro.EventReplayStart()
+    if WoWPro.EventQueue[1] then
+        WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.EventReplay)
+    end
+end
+
+function WoWPro.EventHandler(_frame, event, ...)
+    -- Shunt UNIT_AURA events for fast path processing
     if event == "UNIT_AURA" then
          -- Process silently!
         WoWPro.UNIT_AURA(event, ...)
@@ -106,8 +149,8 @@ function WoWPro.EventHandler(frame, event, ...)
         if WoWPro[event] then
             WoWPro:LogEvent("Handled: "..event, ...)
         else
-            WoWPro:LogEvent(event, ...)
             -- Note: here we are just doing random event logging.
+            WoWPro:LogEvent(event, ...)
             return
         end
     end
@@ -135,11 +178,9 @@ function WoWPro.EventHandler(frame, event, ...)
     end
 
     -- If we are not ready to handle the event, punt it.
-    -- If that is the case, then
     if not WoWPro.Ready("EventHandler:"..event) then
-        return
-    else
         WoWPro.EventPunt({event, ...})
+        return
     end
 
     -- For events with a handler, call it.
@@ -169,22 +210,7 @@ function WoWPro.PuntedQLU()
     WoWPro.EventHandler(nil, "QUEST_LOG_UPDATE","-punted-")
 end
 
--- Are we ready to roll?
-function WoWPro.Ready(who)
-    if not WoWProDB.char.currentguide then
-        WoWPro:dbp("%s not Ready. No current guide!",(who or "Someone"))
-        return false
-    end
-    if not WoWPro.Guides[WoWProDB.char.currentguide] then
-        WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
-        return false
-    end
-    if not WoWPro.GuideLoaded then
-        WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
-        return false
-    end
-    return true
-end
+
 
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
