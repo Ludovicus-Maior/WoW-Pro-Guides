@@ -193,17 +193,13 @@ WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
     end
     end)
 
-WoWPro.RegisterModernEventHandler("UNIT_AURA", function(event, ...)
-    if not WoWPro.MaybeCombatLockdown() then
-        WoWPro.AutoCompleteBuff(...)
-    end
-    end)
 -- Naughty People!
 WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function(event, ...)
     -- Its has been logged by LogEvent, so just return
     return
     end, true)
 WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN, true)
+
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end)
 WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event) return; end)
