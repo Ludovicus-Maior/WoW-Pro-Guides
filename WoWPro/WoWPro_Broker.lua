@@ -2744,7 +2744,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Zone sensitive steps
             if stepAction:find("FHbPR") then
-                if WoWPro.AutoCompleteZone() then
+                if WoWPro.AutoCompleteZone(guideIndex) then
                     skip = true
                     break
                 end
@@ -2853,12 +2853,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Complete Travel steps if we are in the right zone already
-            if stepAction == "F" or stepAction == "H" or stepAction == "b" or stepAction == "P" or stepAction == "R" then
-                local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
-                if (step == zonetext or step == subzonetext) and ( rowIndex == 1) and not guide.completion[guideIndex] then
-                    WoWPro.CompleteStep(guideIndex,"AutoCompleteZoneBroker")
-                    WoWPro:dbp("Step %s [%s/%s] skipped because current zone matches step location",stepAction,step,tostring(QID))
-                    WoWPro.why[guideIndex] = "NextStep(): Skipping travel step because current zone matches current location."
+            if rowIndex == 1 and (stepAction == "F" or stepAction == "H" or stepAction == "b" or stepAction == "P" or stepAction == "R") then
+                if WoWPro.AutoCompleteZone(guideIndex) then
                     skip = true
                     break
                 end
