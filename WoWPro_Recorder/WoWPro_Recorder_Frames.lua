@@ -296,7 +296,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         local x, y = WoWPro:GetPlayerZonePosition()
                         local zonetag, note
                         if _G.GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = _G.GetZoneText() else zonetag = nil end
-                        if _G.UnitName("target") then note = "At ".._G.UnitName("target").."." end
+                        if _G.GetUnitName("target") then note = "At ".._G.GetUnitName("target").."." end
                         WoWPro.Recorder.AddStep({
                             action = "r",
                             step = "Repair/Restock",
