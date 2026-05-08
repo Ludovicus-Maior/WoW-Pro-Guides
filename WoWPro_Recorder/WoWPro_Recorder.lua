@@ -52,6 +52,13 @@ function WoWPro.Recorder:OnEnable()
     WoWPro.Recorder:RegisterSavedGuides()
     WoWPro.Recorder.ProcessScenarioStage(nil)
     WoWPro.Recorder:OnUIReloaded()
+    -- Fallback: if no guide is ever loaded, clear LoadingGuide so quest recording isn't permanently blocked
+    _G.C_Timer.After(5, function()
+        if WoWPro.Recorder.LoadingGuide then
+            WoWPro.Recorder.LoadingGuide = false
+            WoWPro.Recorder:dbp("OnEnable fallback: Clearing LoadingGuide flag after 5s")
+        end
+    end)
 end
 
 
@@ -262,6 +269,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 
         if WoWPro.newQuest then
             local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
+            if not questInfo then
+                WoWPro.Recorder:dbp("newQuest %s not found in QuestLog, skipping", tostring(WoWPro.newQuest))
+                return
+            end
             local stepInfo = {
                 action = "A",
                 step = questInfo.title,
@@ -280,6 +291,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 
         elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
             local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
+            if not questInfo then
+                WoWPro.Recorder:dbp("missingQuest %s not found in oldQuests, skipping", tostring(WoWPro.missingQuest))
+                return
+            end
             local stepInfo = {
                 action = "T",
                 step = questInfo.title,
@@ -402,6 +417,8 @@ function WoWPro.Recorder.PortalStep()
     local GID = WoWProDB.char.currentguide
     if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
     WoWPro.Recorder:dbp("Portal Step Requested.")
+    -- Clear any stale pending flag so a new portal can always be recorded
+    WoWPro.Recorder.PortalRecordingPending = nil
 	local x, y = WoWPro:GetPlayerZonePosition()
     local zonetag = WoWPro.GetZoneText()
     if zonetag == WoWPro.Guides[GID].zone then

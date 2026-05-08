@@ -148,23 +148,25 @@ local function CreateInitSpecMenu(module)
             end
 
             local UnitFaction = WoWPro.Faction
+            -- Auto-detect faction from the player (more reliable than manual entry)
             if UnitFaction == "Horde" then
-                WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
-                WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"
+                optArgs["faction"] = "Horde"
             else
-                WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind City"
-                WoWPro.Recorder.CurrentGuide["Faction"] = "Alliance"
+                optArgs["faction"] = "Alliance"
             end
-            WoWPro.Recorder.CurrentGuide["Author"] = "WoWPro Team"
-            WoWPro.Recorder.CurrentGuide["NextGID"] = "ChromieTime"
-            WoWPro.Recorder.CurrentGuide["StartLvl"] = "1"
-            WoWPro.Recorder.CurrentGuide["EndLvl"] = "60"
-            optArgs["zone"] = WoWPro.Recorder.CurrentGuide["Zone"]
-            optArgs["author"] = WoWPro.Recorder.CurrentGuide["Author"]
-            optArgs["nextGID"] = WoWPro.Recorder.CurrentGuide["NextGID"]
-            optArgs["startlevel"] = WoWPro.Recorder.CurrentGuide["StartLvl"]
-            optArgs["endlevel"] = WoWPro.Recorder.CurrentGuide["EndLvl"]
-            optArgs["faction"] = WoWPro.Recorder.CurrentGuide["Faction"]
+            -- Apply defaults only for fields the user left blank
+            if not optArgs["author"] or optArgs["author"] == "" then
+                optArgs["author"] = "WoWPro Team"
+            end
+            if not optArgs["nextGID"] or optArgs["nextGID"] == "" then
+                optArgs["nextGID"] = "ChromieTime"
+            end
+            if not optArgs["startlevel"] or optArgs["startlevel"] == "" then
+                optArgs["startlevel"] = "1"
+            end
+            if not optArgs["endlevel"] or optArgs["endlevel"] == "" then
+                optArgs["endlevel"] = "90"
+            end
 
             WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
             WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
@@ -294,7 +296,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         local x, y = WoWPro:GetPlayerZonePosition()
                         local zonetag, note
                         if _G.GetZoneText() ~= WoWPro.Guides[WoWProDB.char.currentguide].zone then zonetag = _G.GetZoneText() else zonetag = nil end
-                        if _G.GetUnitName("target") then note = "At ".._G.GetUnitName("target").."." end
+                        if _G.UnitName("target") then note = "At ".._G.UnitName("target").."." end
                         WoWPro.Recorder.AddStep({
                             action = "r",
                             step = "Repair/Restock",
