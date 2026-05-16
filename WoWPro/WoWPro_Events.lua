@@ -821,13 +821,30 @@ function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
     if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
         if _G.UnitOnTaxi("player") then
-            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
-            WoWPro.CompleteStep(qidx,"Took a taxi")
+            WoWPro.TaxiPendingStep = qidx
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! pending taxi completion for step %d", qidx)
         else
             WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
         end
     end
 end
+
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_GAINED", function(event, ...)
+    if WoWPro.TaxiPendingStep then
+        if not _G.UnitOnTaxi("player") then
+            local qidx = WoWPro.TaxiPendingStep
+            WoWPro.TaxiPendingStep = nil
+            if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: Taxi has ended, completing pending step %d", qidx)
+                WoWPro.CompleteStep(qidx, "Taxi ride completed")
+            else
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: Pending step %d is no longer a taxi step", qidx)
+            end
+        else
+            WoWPro:dbp("PLAYER_CONTROL_GAINED: still on taxi, waiting for disembark")
+        end
+    end
+end)
 
 WoWPro.RegisterEventHandler("HEARTHSTONE_BOUND", function(event, ...)
     -- In all clients:
