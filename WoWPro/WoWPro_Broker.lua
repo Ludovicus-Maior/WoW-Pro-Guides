@@ -931,11 +931,19 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
         _G.ClearCursor()
         _G.C_Container.PickupContainerItem(self.data2.bag, self.data2.slot)
         _G.DeleteCursorItem()
-        WoWPro.CompleteStep(self.data.step, "Trashed item: " .. self.data.itemName)
+        if self.data and self.data.step then
+            WoWPro.CompleteStep(self.data.step, "Trashed item: " .. self.data.itemName)
+        else
+            WoWPro:print("WoWPro:WOWPRO_DELETE_ITEM OnAccept: missing step data for item %s", tostring(self.data and self.data.itemName))
+        end
     end,
     OnCancel = function (self, data, why)
         _G.ClearCursor()
-        WoWPro.CompleteStep(self.data.step, "Canceled Item trash: " .. self.data.itemName)
+        if self.data and self.data.step then
+            WoWPro.CompleteStep(self.data.step, "Canceled Item trash: " .. self.data.itemName)
+        else
+            WoWPro:print("WoWPro:WOWPRO_DELETE_ITEM OnCancel: missing step data for item %s", tostring(self.data and self.data.itemName))
+        end
     end
 }
 
@@ -4197,6 +4205,10 @@ end
 
 -- Step Completion Tasks --
 function WoWPro.CompleteStep(step, why, noUpdate)
+    if not step then
+        WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
+        return false
+    end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
