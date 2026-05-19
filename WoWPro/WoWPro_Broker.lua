@@ -18,6 +18,13 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+-- Shared Broker update wiring
+local BrokerUpdateFrame = _G.CreateFrame("Frame")
+local BrokerUpdateElapsed = 0
+local BrokerUpdateInterval = 0.1
+local BrokerUpdateRows = {}
+local BrokerUpdateRowLookup = {}
+
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
