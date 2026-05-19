@@ -3981,30 +3981,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             end
                         end
                         skip = true
-                        break
-                    else
-                        -- Show the step now that all items are collected
-                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
-                        skip = false
-                    end
-                end
-                if allPositiveComplete then
-                    if stepAction == "l" then
-                        -- Auto-complete loot steps (both optional and non-optional)
-                        if rowIndex == 1 then
-                            if WoWPro.optional and WoWPro.optional[guideIndex] then
-                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional loot step completed - all items collected.")
-                            else
-                                WoWPro.CompleteStep(guideIndex, "NextStep(): Loot step completed - all items collected.")
-                            end
-                        else
-                            if WoWPro.optional and WoWPro.optional[guideIndex] then
-                                WoWPro.why[guideIndex] = "NextStep(): Optional loot step ready to complete - all items collected."
-                            else
-                                WoWPro.why[guideIndex] = "NextStep(): Loot step ready to complete - all items collected."
-                            end
-                        end
-                        skip = true
                     elseif WoWPro.optional and WoWPro.optional[guideIndex] then
                         -- For optional steps with L tags (for U+L prerequisite scenarios)
                         if stepAction == "T" then
