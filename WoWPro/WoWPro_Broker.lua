@@ -69,6 +69,97 @@ function WoWPro:UnregisterBrokerUpdateRow(row)
     BrokerUpdateRowLookup[row] = nil
 end
 
+local function BrokerUpdateItemRow(currentRow)
+    if not currentRow or not currentRow.itembutton or not currentRow.itembutton:IsShown() then
+        return
+    end
+    local use = currentRow.BrokerUpdateUse
+    if not use then
+        return
+    end
+
+    local itemtexture = WoWPro.C_Item_GetItemIconByID(use)
+    local start, duration, enabled = _G.WoWPro.GetItemCooldown(use)
+    if not start then
+        return
+    end
+
+    if _G.WoWPro.C_Item_GetItemCount(use) > 0 and not currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon.item_IsVisible = true
+        currentRow.itemicon:SetTexture(itemtexture)
+        currentRow.itemicon.currentTexture = itemtexture
+    elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(use) > 0 and currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon:SetTexture(itemtexture)
+        currentRow.itemicon.currentTexture = itemtexture
+    elseif _G.WoWPro.C_Item_GetItemCount(use) == 0 and currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon.item_IsVisible = false
+        currentRow.itemicon:SetTexture()
+        currentRow.itemicon.currentTexture = nil
+    end
+
+    if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+        currentRow.itemcooldown:Show()
+        currentRow.itemcooldown:SetCooldown(start, duration)
+        currentRow.itemcooldown.OnCooldown = true
+        currentRow.itemcooldown.ActiveItem = use
+    elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+        currentRow.itemcooldown:Hide()
+        currentRow.itemcooldown.OnCooldown = false
+    elseif currentRow.itemcooldown.ActiveItem ~= use and start then
+        currentRow.itemcooldown.OnCooldown = false
+        currentRow.itemcooldown:SetCooldown(start, duration)
+        currentRow.itemcooldown.ActiveItem = use
+    end
+end
+
+local function BrokerUpdateEABRow(currentRow)
+    if not currentRow or not currentRow.eabutton or not currentRow.eabutton:IsShown() then
+        return
+    end
+
+    local eabIcon = nil
+    if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
+        eabIcon = _G.ExtraActionButton1.icon
+    elseif _G.ExtraActionButton1Icon then
+        eabIcon = _G.ExtraActionButton1Icon
+    end
+    local eabtexture = eabIcon and eabIcon:GetTexture() or nil
+
+    if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
+        currentRow.eaicon.EAB1_IsVisible = _G.HasExtraActionBar()
+        if currentRow.eaicon.EAB1_IsVisible then
+            currentRow.eaicon:SetTexture(eabtexture)
+            currentRow.eaicon.currentTexture = eabtexture
+        else
+            currentRow.eaicon:SetTexture()
+            currentRow.eaicon.currentTexture = nil
+        end
+    elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
+        currentRow.eaicon.currentTexture = eabtexture
+        currentRow.eaicon:SetTexture(eabtexture)
+    end
+end
+
+BrokerUpdateFrame:SetScript("OnUpdate", function(_, elapsed)
+    BrokerUpdateElapsed = BrokerUpdateElapsed + elapsed
+    if BrokerUpdateElapsed < BrokerUpdateInterval then
+        return
+    end
+    BrokerUpdateElapsed = 0
+
+    if WoWPro.MaybeCombatLockdown() then
+        return
+    end
+
+    for i = 1, #BrokerUpdateRows do
+        local currentRow = BrokerUpdateRows[i]
+        if currentRow then
+            BrokerUpdateItemRow(currentRow)
+            BrokerUpdateEABRow(currentRow)
+        end
+    end
+end)
+
 
 -- Deep table comparison for lootitem matching
 local function deepTableEqual(t1, t2)
@@ -1723,6 +1814,7 @@ if step then
 
                 if not _use then
                     -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
+                    currentRow.BrokerUpdateUse = nil
                     if not _G.InCombatLockdown() then
                         currentRow.itembutton:Hide()
                     end
@@ -1730,6 +1822,7 @@ if step then
                         WoWPro:UnregisterBrokerUpdateRow(currentRow)
                     end
                 else
+                    currentRow.BrokerUpdateUse = _use
                     currentRow.itemicon.item_IsVisible = nil
                     currentRow.itemcooldown.OnCooldown = nil
                     currentRow.itemcooldown.ActiveItem = nil
@@ -1829,6 +1922,7 @@ if step then
                 end
             end
         else
+            currentRow.BrokerUpdateUse = nil
             if not _G.InCombatLockdown() then
                 currentRow.itembutton:Hide()
                 currentRow.itembuttonSecured:Hide()
