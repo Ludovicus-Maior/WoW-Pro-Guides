@@ -1994,6 +1994,8 @@ if step then
                     currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
                     currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
                 end
+
+                WoWPro:RegisterBrokerUpdateRow(currentRow)
             end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
