@@ -1726,6 +1726,9 @@ if step then
                     if not _G.InCombatLockdown() then
                         currentRow.itembutton:Hide()
                     end
+                    if not currentRow.eabutton:IsShown() then
+                        WoWPro:UnregisterBrokerUpdateRow(currentRow)
+                    end
                 else
                     currentRow.itemicon.item_IsVisible = nil
                     currentRow.itemcooldown.OnCooldown = nil
@@ -1773,6 +1776,7 @@ if step then
                                 end
                             end
                         end)
+                        WoWPro:RegisterBrokerUpdateRow(currentRow)
                     end
                 end
 
@@ -1828,6 +1832,9 @@ if step then
             if not _G.InCombatLockdown() then
                 currentRow.itembutton:Hide()
                 currentRow.itembuttonSecured:Hide()
+            end
+            if not currentRow.eabutton:IsShown() then
+                WoWPro:UnregisterBrokerUpdateRow(currentRow)
             end
         end
 
@@ -1948,6 +1955,7 @@ if step then
                         end
                     end
                 end)
+                WoWPro:RegisterBrokerUpdateRow(currentRow)
 
 				if currentRow.eabutton:IsShown() then
 					currentRow.eabuttonSecured:Show()
@@ -1971,6 +1979,9 @@ if step then
         else
             if not _G.InCombatLockdown() then
                 currentRow.eabutton:Hide()
+            end
+            if not currentRow.itembutton:IsShown() then
+                WoWPro:UnregisterBrokerUpdateRow(currentRow)
             end
 			if not _G.InCombatLockdown() then
 				currentRow.eabuttonSecured:Hide()
