@@ -1411,6 +1411,7 @@ function WoWPro:RowUpdate(offset)
         if not k then
             for j = i, 15 do
                 WoWPro.rows[j]:Hide()
+                WoWPro:UnregisterBrokerUpdateRow(WoWPro.rows[j])
                 if not _G.InCombatLockdown() then
                     if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
                     if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
@@ -1425,6 +1426,7 @@ function WoWPro:RowUpdate(offset)
             WoWPro.RowLimit = math.min(WoWPro.RowLimit or 15, i - 1)
             for j = i, 15 do
                 WoWPro.rows[j]:Hide()
+                WoWPro:UnregisterBrokerUpdateRow(WoWPro.rows[j])
                 if not _G.InCombatLockdown() then
                     if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
                     if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
