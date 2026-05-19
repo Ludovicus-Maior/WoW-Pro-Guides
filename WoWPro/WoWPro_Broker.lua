@@ -1985,11 +1985,14 @@ if step then
                 currentRow.eaicon.EAB1_IsVisible = nil
                 currentRow.eaicon.currentTexture = nil
 
-					currentRow.eabuttonSecured:ClearAllPoints()
-					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
-					currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
-				end
-			end
+                if currentRow.eabutton:IsShown() then
+                    currentRow.eabuttonSecured:Show()
+                    currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
+                    currentRow.eabuttonSecured:ClearAllPoints()
+                    currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
+                    currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
+                end
+            end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
