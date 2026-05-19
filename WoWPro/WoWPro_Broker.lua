@@ -44,6 +44,31 @@ function WoWPro:IncrementActiveStickyCount()
     _activeStickyCount = _activeStickyCount + 1
 end
 
+-- Broker row update registration helpers
+function WoWPro:RegisterBrokerUpdateRow(row)
+    if not row or BrokerUpdateRowLookup[row] then
+        return
+    end
+    local index = #BrokerUpdateRows + 1
+    BrokerUpdateRows[index] = row
+    BrokerUpdateRowLookup[row] = index
+end
+
+function WoWPro:UnregisterBrokerUpdateRow(row)
+    local index = BrokerUpdateRowLookup[row]
+    if not index then
+        return
+    end
+    local lastIndex = #BrokerUpdateRows
+    if index ~= lastIndex then
+        local lastRow = BrokerUpdateRows[lastIndex]
+        BrokerUpdateRows[index] = lastRow
+        BrokerUpdateRowLookup[lastRow] = index
+    end
+    BrokerUpdateRows[lastIndex] = nil
+    BrokerUpdateRowLookup[row] = nil
+end
+
 
 -- Deep table comparison for lootitem matching
 local function deepTableEqual(t1, t2)
