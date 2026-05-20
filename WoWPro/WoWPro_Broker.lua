@@ -24,6 +24,7 @@ local BrokerUpdateElapsed = 0
 local BrokerUpdateInterval = 0.1
 local BrokerUpdateRows = {}
 local BrokerUpdateRowLookup = {}
+WoWPro.PendingGuideUpdate = false
 
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
@@ -859,6 +860,11 @@ end
 
 function WoWPro:UpdateGuide(From)
     WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
+    if WoWPro.MaybeCombatLockdown() then
+        WoWPro.PendingGuideUpdate = true
+        WoWPro:dbp("UpdateGuide deferred until out of combat")
+        return
+    end
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
 end
 
@@ -2151,10 +2157,11 @@ function WoWPro.UpdateGuideReal(From)
         return
     end
     if WoWPro.MaybeCombatLockdown() then
+        WoWPro.PendingGuideUpdate = true
         WoWPro:print("Punted guide update.  In Combat.")
-        WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
         return
     end
+    WoWPro.PendingGuideUpdate = false
     if  not GID or not WoWPro.Guides[GID] then
         WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
         return
