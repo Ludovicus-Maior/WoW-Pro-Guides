@@ -89,6 +89,58 @@ local function ApplyBrokerRowPendingSecureState(row)
         secureTarget._pendingMacro = nil
         secureTarget._pendingPosition = nil
     end
+
+    local secureItem = row.itembuttonSecured
+    if secureItem and secureItem._pendingType then
+        local itembutton = row.itembutton
+        if itembutton and itembutton:IsVisible() then
+            secureItem:Show()
+            if secureItem._pendingType == "item" then
+                secureItem:SetAttribute("type1", "item")
+                secureItem:SetAttribute("item1", secureItem._pendingItem1)
+            elseif secureItem._pendingType == "click1" then
+                secureItem:SetAttribute("type1", "click1")
+                secureItem:SetAttribute("click", secureItem._pendingClick or "clickbutton")
+                local pendingTrashUse = secureItem._pendingTrashUse
+                local pendingTrashStep = secureItem._pendingTrashStep
+                secureItem:SetScript("OnClick", function()
+                    WoWPro.TrashItem(pendingTrashUse, pendingTrashStep)
+                end)
+            elseif secureItem._pendingType == "SwitchPet" then
+                secureItem:SetAttribute("type", "SwitchPet")
+                secureItem.SwitchPet = function()
+                    _G.C_PetBattles.ChangePet(secureItem._pendingSwitchPet)
+                    WoWPro.CompleteStep(secureItem._pendingStep, "Clicked pet switch")
+                end
+            end
+            secureItem:ClearAllPoints()
+            secureItem:SetPoint("BOTTOMLEFT", itembutton, "BOTTOMLEFT", 0, 0)
+            secureItem:SetFrameLevel(itembutton:GetFrameLevel() + 1)
+            secureItem._pendingType = nil
+            secureItem._pendingItem1 = nil
+            secureItem._pendingClick = nil
+            secureItem._pendingTrashUse = nil
+            secureItem._pendingTrashStep = nil
+            secureItem._pendingSwitchPet = nil
+            secureItem._pendingStep = nil
+        end
+    end
+
+    local secureEA = row.eabuttonSecured
+    if secureEA and secureEA._pendingMacro then
+        local eabutton = row.eabutton
+        if eabutton and eabutton:IsVisible() then
+            secureEA:Show()
+            secureEA:SetAttribute("macrotext", secureEA._pendingMacro)
+            secureEA:ClearAllPoints()
+            if secureEA._pendingPosition then
+                secureEA:SetPoint(unpack(secureEA._pendingPosition))
+            end
+            secureEA:SetFrameLevel(eabutton:GetFrameLevel() + 1)
+            secureEA._pendingMacro = nil
+            secureEA._pendingPosition = nil
+        end
+    end
 end
 
 function WoWPro:ApplyBrokerPendingRowState()
@@ -1820,6 +1872,11 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "click1"
+                    currentRow.itembuttonSecured._pendingClick = "clickbutton"
+                    currentRow.itembuttonSecured._pendingTrashUse = use
+                    currentRow.itembuttonSecured._pendingTrashStep = k
                 end
                 WoWPro:dbp("RowUpdate: enabled trash: %s", use)
                 if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
@@ -1883,6 +1940,9 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "item"
+                    currentRow.itembuttonSecured._pendingItem1 = "item:".._use
                 end
 
                 WoWPro:dbp("RowUpdate: enabled use: %s", use)
@@ -1915,6 +1975,10 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "SwitchPet"
+                    currentRow.itembuttonSecured._pendingSwitchPet = switch
+                    currentRow.itembuttonSecured._pendingStep = kk
                 end
             else
                 if not _G.InCombatLockdown() then
@@ -2032,6 +2096,9 @@ if step then
                 end
 
                 WoWPro:RegisterBrokerUpdateRow(currentRow)
+            else
+                currentRow.eabuttonSecured._pendingMacro = mtext
+                currentRow.eabuttonSecured._pendingPosition = {"BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0}
             end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
