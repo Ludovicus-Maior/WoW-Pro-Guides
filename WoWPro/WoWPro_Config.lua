@@ -972,58 +972,53 @@ local function createAboutConfig()
                 name = "About WoW-Pro",
                 inline = true,
                 args = {
-                    intro1 = {
+                    introTitle = {
                         order = 1,
+                        type = "description",
+                        fontSize = "large",
+                        width = "full",
+                        name = "What WoW-Pro Does"
+                    },
+                    intro1 = {
+                        order = 2,
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "WoW-Pro is an addon collection by gamers, for gamers. It provides guided questing, leveling help, automation helpers, and progression tools across modern and classic-era content."
+                        name = "WoW-Pro is a community-built addon collection that helps with questing, leveling, and guide-driven progression."
                     },
                     intro2 = {
-                        order = 2,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "The project has grown through years of community contributions. Guides and systems continue to evolve from old expansions through current retail content."
-                    },
-                    intro3 = {
                         order = 3,
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "If you are new, start with the Main and Guide Display tabs. If you are troubleshooting, use the built-in log tools and command shortcuts listed below."
+                        name = "It has grown through years of player contributions, covering content from legacy expansions through current Retail."
                     },
-                },
-            },
-            quickStart = {
-                order = 20,
-                type = "group",
-                name = "Quick Start",
-                inline = true,
-                args = {
-                    qs1 = {
-                        order = 1,
-                        type = "description",
-                        width = "full",
-                        name = "1) Open the guide list and pick a guide for your character level or campaign."
-                    },
-                    qs2 = {
-                        order = 2,
-                        type = "description",
-                        width = "full",
-                        name = "2) In Main, choose automation settings like Auto Accept, Auto Turnin, and Auto Select."
-                    },
-                    qs3 = {
-                        order = 3,
-                        type = "description",
-                        width = "full",
-                        name = "3) In Guide Display, tune sizing, text, and background style to match your UI."
-                    },
-                    qs4 = {
+                    introSpacer = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "4) If progress appears off, use Main > Master Addon Tools to reset state or inspect logs."
+                        name = " "
+                    },
+                    introStartTitle = {
+                        order = 5,
+                        type = "description",
+                        fontSize = "medium",
+                        width = "full",
+                        name = "Where To Start"
+                    },
+                    intro3 = {
+                        order = 6,
+                        type = "description",
+                        fontSize = "medium",
+                        width = "full",
+                        name = "New here: begin with Main and Guide Display to set automation, layout, and text style."
+                    },
+                    intro4 = {
+                        order = 7,
+                        type = "description",
+                        fontSize = "medium",
+                        width = "full",
+                        name = "Troubleshooting: use the built-in log tools and command shortcuts listed below."
                     },
                 },
             },
@@ -1033,31 +1028,43 @@ local function createAboutConfig()
                 name = "Community and Links",
                 inline = true,
                 args = {
-                    discordIcon = {
+                    linksTitle = {
                         order = 1,
                         type = "description",
-                        name = "",
-                        image = "Interface/AddOns/WoWPro/Textures/Discord",
-                        imageWidth = 24,
-                        imageHeight = 24,
-                        width = 0.15
+                        fontSize = "large",
+                        width = "full",
+                        name = "Stay Connected"
+                    },
+                    linksIntro = {
+                        order = 2,
+                        type = "description",
+                        fontSize = "medium",
+                        width = "full",
+                        name = "Use these links for announcements, support, and development updates."
                     },
                     discord = {
-                        order = 2,
+                        order = 3,
                         type = "input",
-                        name = "Discord",
+                        name = "Discord Invite",
                         get = function() return "https://discord.gg/aarduK7" end,
                         set = function() return "https://discord.gg/aarduK7" end,
                         icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
-                        width = "double"
+                        width = "full"
                     },
                     github = {
-                        order = 3,
+                        order = 4,
                         type = "input",
-                        name = "GitHub",
+                        name = "Source Repository",
                         get = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
                         set = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
-                        width = "double"
+                        width = "full"
+                    },
+                    linksNote = {
+                        order = 5,
+                        type = "description",
+                        fontSize = "medium",
+                        width = "full",
+                        name = "Tip: Include your guide name or ID and a short log snippet when asking for help in Discord."
                     },
                 },
             },
@@ -1157,8 +1164,148 @@ local function createAboutConfig()
                     },
                 },
             },
-            help = {
-                order = 60,
+        },
+    }
+end
+
+local function createHelpConfig()
+    return {
+        name = "Help",
+        type = "group",
+        args = {
+            gettingStarted = {
+                order = 10,
+                type = "group",
+                name = "Getting Started",
+                inline = true,
+                args = {
+                    intro = {
+                        order = 1,
+                        type = "description",
+                        width = "full",
+                        name = "Use these steps to get running with WoW-Pro as a player, then use the Recorder to build or edit your own guide.",
+                    },
+                    wowproHeader = {
+                        order = 2,
+                        type = "header",
+                        name = "Starting WoW-Pro",
+                    },
+                    wowpro1 = {
+                        order = 3,
+                        type = "description",
+                        width = "full",
+                        name = "1) Open Guide List and choose a guide that matches your level, campaign, or expansion path.",
+                    },
+                    wowpro2 = {
+                        order = 4,
+                        type = "description",
+                        width = "full",
+                        name = "2) Open Main and set your automation preferences, especially Auto Accept, Auto Turn-in, and Auto Select, before you start questing.",
+                    },
+                    wowpro3 = {
+                        order = 5,
+                        type = "description",
+                        width = "full",
+                        name = "3) Open Guide Display and adjust frame size, number of rows, text scale, and background so the guide fits your UI cleanly.",
+                    },
+                    wowpro4 = {
+                        order = 6,
+                        type = "description",
+                        width = "full",
+                        name = "4) Start playing. WoW-Pro will load the selected guide into the main frame and advance steps as quests and objectives update.",
+                    },
+                    wowpro5 = {
+                        order = 7,
+                        type = "description",
+                        width = "full",
+                        name = "5) If a guide looks stuck or out of sync, use /wp reset to clear guide state and /wp log to inspect the debug log before reporting the issue.",
+                    },
+                    recorderHeader = {
+                        order = 8,
+                        type = "header",
+                        name = "Starting With The Recorder",
+                    },
+                    recorder1 = {
+                        order = 9,
+                        type = "description",
+                        width = "full",
+                        name = "1) Enable WoWPro_Recorder in the AddOns list, then reload the UI if needed. When it is active, a recorder toolbar appears above the main WoW-Pro frame.",
+                    },
+                    recorder2 = {
+                        order = 10,
+                        type = "description",
+                        width = "full",
+                        name = "2) Click New on the recorder toolbar to create a guide. Choose the guide type first, then fill in the guide fields such as Guide ID, zone, author, faction, and level range.",
+                    },
+                    recorder3 = {
+                        order = 11,
+                        type = "description",
+                        width = "full",
+                        name = "3) Finish the New Guide dialog to register the guide. WoW-Pro will load that guide immediately so you can begin editing or recording steps into it.",
+                    },
+                    recorder4 = {
+                        order = 12,
+                        type = "description",
+                        width = "full",
+                        name = "4) Click Record to capture questing progress while you play. Click Stop any time you want to pause before moving, testing, or editing steps manually.",
+                    },
+                    recorder5 = {
+                        order = 13,
+                        type = "description",
+                        width = "full",
+                        name = "5) Use Open to load an existing guide for editing. Use Save to write the current recorder version to your saved guides so it can be reopened later.",
+                    },
+                    recorder6 = {
+                        order = 14,
+                        type = "description",
+                        width = "full",
+                        name = "6) In Advanced mode, use Add to insert a step after the selected step, or use buttons such as Run, Flight, Portal, Note, and Delete to refine the route.",
+                    },
+                    recorder7 = {
+                        order = 15,
+                        type = "description",
+                        width = "full",
+                        name = "7) Use /wpr to toggle Basic or Advanced recorder mode. Use /wpr help to list recorder slash commands, and /wpr qdebug on or off if you need extra quest API logging while testing.",
+                    },
+                    recorder8 = {
+                        order = 16,
+                        type = "description",
+                        width = "full",
+                        name = "8) After saving, reopen the guide with Open and run through a few steps to verify quest IDs, notes, and automatic completion behave the way you expect.",
+                    },
+                    exportHeader = {
+                        order = 17,
+                        type = "header",
+                        name = "Exporting And Sharing",
+                    },
+                    export1 = {
+                        order = 18,
+                        type = "description",
+                        width = "full",
+                        name = "1) Click Save after recording or editing. The recorder opens a large text box containing the full Lua guide definition for the currently loaded guide.",
+                    },
+                    export2 = {
+                        order = 19,
+                        type = "description",
+                        width = "full",
+                        name = "2) Copy that text and paste it into a guide file if you want to move the guide into the addon source, share it with another author, or submit it for review.",
+                    },
+                    export3 = {
+                        order = 20,
+                        type = "description",
+                        width = "full",
+                        name = "3) The recorder also keeps a saved copy in WoWPro_RecorderDB, so you can reload the guide later with Open even if you have not moved it into a permanent guide file yet.",
+                    },
+                    export4 = {
+                        order = 21,
+                        type = "description",
+                        width = "full",
+                        name = "4) For out-of-game backup or sharing, look in your WoW SavedVariables for WoWPro_Recorder.lua under WTF/Account/<account>/SavedVariables. That file stores the recorder guides saved on this installation.",
+                    },
+                },
+            },
+            troubleshooting = {
+                order = 20,
                 type = "group",
                 name = "Troubleshooting Checklist",
                 inline = true,
@@ -1186,41 +1333,6 @@ local function createAboutConfig()
                         type = "description",
                         width = "full",
                         name = "- If needed, share logs and guide ID in Discord for faster support."
-                    },
-                },
-            },
-        },
-    }
-end
-
-local function createHTMLConfig()
-    return {
-        name = "HTML",
-        type = "group",
-        args = {
-            htmlPanel = {
-                order = 10,
-                type = "group",
-                name = "Simple HTML",
-                inline = true,
-                args = {
-                    htmlNote = {
-                        order = 1,
-                        type = "description",
-                        width = "full",
-                        fontSize = "medium",
-                        name = "Simple HTML sample text for reference.",
-                    },
-                    htmlSample = {
-                        order = 2,
-                        type = "input",
-                        multiline = 12,
-                        width = "full",
-                        name = "Markup",
-                        get = function()
-                            return "<h1>WoW-Pro</h1>\n<p>This is a simple HTML-style sample tab.</p>\n<ul>\n  <li>Main</li>\n  <li>Guide Display</li>\n  <li>Profiles</li>\n</ul>"
-                        end,
-                        set = function() end,
                     },
                 },
             },
@@ -1616,7 +1728,7 @@ function WoWPro.CreateConfig()
         childGroups = "tab",
         args = {
             aboutConfig = createAboutConfig(),
-            htmlConfig = createHTMLConfig(),
+            helpConfig = createHelpConfig(),
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
             profileConfig = profileConfig,
@@ -1632,7 +1744,7 @@ function WoWPro.CreateConfig()
     topConfig.args.profileConfig.order=13
     topConfig.args.rankConfig.order=14
     topConfig.args.actionConfig.order=15
-    topConfig.args.htmlConfig.order=98
+    topConfig.args.helpConfig.order=98
     topConfig.args.expertConfig.order=99
 
 
