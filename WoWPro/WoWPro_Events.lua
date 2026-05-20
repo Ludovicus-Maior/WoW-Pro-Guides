@@ -410,7 +410,7 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) == 0 then
+	if not _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
@@ -440,7 +440,7 @@ WoWPro.GroupVersionMismatchOnce = {}
 
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
-	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+	if successfulRequest and prefix == "WoWPro" and _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
 		if gname ~= _G.UnitName("Player") then

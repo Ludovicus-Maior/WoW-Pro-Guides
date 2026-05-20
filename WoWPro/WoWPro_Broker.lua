@@ -1485,7 +1485,7 @@ if step then
             end}
         )
     end
-    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.GetNumGroupMembers() > 0 then
+    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
         tinsert(dropdown,
             {text = "Share Quest", func = function()
                 _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
@@ -2537,14 +2537,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             -- A/N Group Steps --
-            if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
+            if (WoWPro.group[guideIndex] and (not _G.IsInGroup()) and stepAction == "A") then
                 local why = "You are not in a group."
                 WoWPro.why[guideIndex] = why
                 WoWPro:dbp(why)
                 skip = true
                 break
             end
-            if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() >= 0) and stepAction == "N") then
+            if (WoWPro.group[guideIndex] and _G.IsInGroup() and stepAction == "N") then
                 local why = "You are in a group, note not needed."
                 WoWPro.why[guideIndex] = why
                 WoWPro:dbp(why)
