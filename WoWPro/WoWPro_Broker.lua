@@ -70,6 +70,36 @@ function WoWPro:UnregisterBrokerUpdateRow(row)
     BrokerUpdateRowLookup[row] = nil
 end
 
+local function ApplyBrokerRowPendingSecureState(row)
+    if not row or _G.InCombatLockdown() then
+        return
+    end
+    local secureTarget = row.targetbuttonSecured
+    if secureTarget and secureTarget._pendingMacro then
+        secureTarget:Show()
+        secureTarget:SetAttribute("macrotext", secureTarget._pendingMacro)
+        secureTarget:ClearAllPoints()
+        if secureTarget._pendingPosition then
+            secureTarget:SetPoint(unpack(secureTarget._pendingPosition))
+        end
+        secureTarget:SetFrameStrata("HIGH")
+        if row.targetbutton then
+            secureTarget:SetFrameLevel(row.targetbutton:GetFrameLevel() + 1)
+        end
+        secureTarget._pendingMacro = nil
+        secureTarget._pendingPosition = nil
+    end
+end
+
+function WoWPro:ApplyBrokerPendingRowState()
+    if _G.InCombatLockdown() then
+        return
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        ApplyBrokerRowPendingSecureState(row)
+    end
+end
+
 local function BrokerUpdateItemRow(currentRow)
     if not currentRow or not currentRow.itembutton or not currentRow.itembutton:IsShown() then
         return
@@ -2137,6 +2167,7 @@ function WoWPro.UpdateGuideReal(From)
         -- Cinematic hides things ...
         WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
         WoWPro:dbp("UpdateGuideReal(): Punting")
+        return
     end
     if not WoWPro.GuideLoaded then
         WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))

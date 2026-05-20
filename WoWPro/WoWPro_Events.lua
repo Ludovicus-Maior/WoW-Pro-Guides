@@ -400,6 +400,7 @@ end)
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
     WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
+    WoWPro:ApplyBrokerPendingRowState()
     if WoWPro.PendingGuideUpdate then
         WoWPro.PendingGuideUpdate = false
         WoWPro:dbp("Flush pending guide update after combat")
