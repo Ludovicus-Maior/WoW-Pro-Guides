@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber string hooksecurefunc
+﻿-- luacheck: globals tostring tonumber string hooksecurefunc
 -- luacheck: globals select foreach ipairs pairs next tinsert type unpack
 
 --------------------------
@@ -14,6 +14,7 @@ function WoWPro:OnEnableEvents()
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
+    WoWPro:RegisterBucketMessage("WoWPro_QuestLogUpdate", 0.333, WoWPro.QuestLogUpdateReal)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 end
@@ -224,6 +225,28 @@ end
 
 
 
+
+function WoWPro.QuestLogUpdateReal(From)
+    local event = "QUEST_LOG_UPDATE"
+    local delta = WoWPro.PopulateQuestLog()
+    if WoWPro.DEBUG_REPEATABLE then
+        WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+    end
+
+    if delta == 0 then
+        return
+    end
+    if WoWPro.Ready(event) then
+        WoWPro:AutoCompleteQuestUpdate(nil)
+        WoWPro:UpdateGuide(event)
+        if WoWProCharDB.AutoSelect and delta == 1 then
+            if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
+                WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
+                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
+            end
+        end
+    end
+end
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
     if not WoWPro.MaybeCombatLockdown() then
@@ -857,29 +880,8 @@ if WoWPro.RETAIL then
 end
 
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
-    local delta = WoWPro.PopulateQuestLog()
-    if WoWPro.DEBUG_REPEATABLE then
-        WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
-    end
-
-    -- Check repeatable steps after quest log update
-    if WoWPro.CheckRepeatableSteps then
-        WoWPro.CheckRepeatableSteps()
-    end
-
-    if delta == 0 then
-        return
-    end
     if WoWPro.Ready(event) then
-        WoWPro:AutoCompleteQuestUpdate(nil)
-        WoWPro:UpdateGuide(event)
-        if WoWProCharDB.AutoSelect and delta == 1 then
-        -- OK, now get the next quest if QuestCount is set
-            if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
-                WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
-                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
-            end
-        end
+        WoWPro:SendMessage("WoWPro_QuestLogUpdate", event)
     end
 end)
 
@@ -915,6 +917,7 @@ function WoWPro.DelayedEventHandler(frame,event)
         WoWPro.EventHandler(frame,event)
     end)
 end
+
 
 
 
