@@ -941,7 +941,6 @@ end
 
 
 function WoWPro:UpdateGuide(From)
-    WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
     if WoWPro.MaybeCombatLockdown() then
         WoWPro.PendingGuideUpdate = true
         WoWPro:dbp("UpdateGuide deferred until out of combat")
@@ -951,7 +950,6 @@ function WoWPro:UpdateGuide(From)
 end
 
 function WoWPro:UpdateGuideSlow(From)
-    WoWPro:print("Signaled for UpdateGuideSlow from %s", WoWPro.Ptable(From))
     WoWPro:SendMessage("WoWPro_UpdateGuideSlow",From)
 end
 
@@ -1343,18 +1341,52 @@ function WoWPro:RowUpdate(offset)
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
-    local allSteps = {}
+    local allSteps = WoWPro.RowUpdateAllSteps
+    if not allSteps then
+        allSteps = {}
+        WoWPro.RowUpdateAllSteps = allSteps
+    else
+        table.wipe(allSteps)
+    end
+    local stickySteps = WoWPro.RowUpdateStickySteps
+    if not stickySteps then
+        stickySteps = {}
+        WoWPro.RowUpdateStickySteps = stickySteps
+    else
+        table.wipe(stickySteps)
+    end
+    local regularSteps = WoWPro.RowUpdateRegularSteps
+    if not regularSteps then
+        regularSteps = {}
+        WoWPro.RowUpdateRegularSteps = regularSteps
+    else
+        table.wipe(regularSteps)
+    end
+    local stepList = WoWPro.RowUpdateStepList
+    if not stepList then
+        stepList = {}
+        WoWPro.RowUpdateStepList = stepList
+    else
+        table.wipe(stepList)
+    end
+    local allStepsCount = 0
+    local stickyCount = 0
+    local regularCount = 0
+    local stepListCount = 0
+
     local tempK = k
     for i = 1, 15 do
         if WoWProDB.profile.guidescroll then
-            table.insert(allSteps, tempK)
+            allStepsCount = allStepsCount + 1
+            allSteps[allStepsCount] = tempK
             tempK = tempK + 1
         else
             if WoWPro.sticky[tempK] then
                 WoWPro:IncrementActiveStickyCount()
             end
             tempK = WoWPro.NextStep(tempK, 1)
-            table.insert(allSteps, tempK)
+            allStepsCount = allStepsCount + 1
+            allSteps[allStepsCount] = tempK
             tempK = tempK + 1
         end
     end
@@ -1363,9 +1395,8 @@ function WoWPro:RowUpdate(offset)
     -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
     local stickyBoundary = WoWPro.ActiveStep or k
-    local stickySteps = {}
-    local regularSteps = {}
-    for _, stepIdx in ipairs(allSteps) do
+    for i = 1, allStepsCount do
+        local stepIdx = allSteps[i]
         if stepIdx then
             if WoWPro.sticky[stepIdx] then
                 -- Show sticky step if it's ready to be displayed (regardless of completion status)
@@ -1432,10 +1463,12 @@ function WoWPro:RowUpdate(offset)
                 end
 
                 if showSticky then
-                    table.insert(stickySteps, stepIdx)
+                    stickyCount = stickyCount + 1
+                    stickySteps[stickyCount] = stepIdx
                 end
             else
-                table.insert(regularSteps, stepIdx)
+                regularCount = regularCount + 1
+                regularSteps[regularCount] = stepIdx
             end
         end
     end
@@ -1444,11 +1477,12 @@ function WoWPro:RowUpdate(offset)
     -- US step visibility: US steps are only eligible to be shown after their corresponding S step is completed.
     -- This means US steps are not added to the visible stepList until their S step is complete, regardless of US conditionals.
     -- When a US step becomes the activestep, it completes its S step immediately (see NextStep logic).
-    local stepList = {}
-    for _, v in ipairs(stickySteps) do
-        table.insert(stepList, v)
+    for i = 1, stickyCount do
+        stepListCount = stepListCount + 1
+        stepList[stepListCount] = stickySteps[i]
     end
-    for _, v in ipairs(regularSteps) do
+    for i = 1, regularCount do
+        local v = regularSteps[i]
         -- If this is a US step (unsticky and not sticky)
         if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
             -- Find the corresponding S step by QID, questtext (QO), and lootitem (L tag) if present
@@ -1482,16 +1516,18 @@ function WoWPro:RowUpdate(offset)
             end
             -- Only show US step if its S step is completed (or no S step exists)
             if not foundSticky or completion[foundSticky] then
-                table.insert(stepList, v)
+                stepListCount = stepListCount + 1
+                stepList[stepListCount] = v
             end
         else
-            table.insert(stepList, v)
+            stepListCount = stepListCount + 1
+            stepList[stepListCount] = v
         end
     end
-    WoWPro.RowLimit = #stepList
+    WoWPro.RowLimit = stepListCount
 
     -- Set ActiveStickyCount based on actual visible stickies
-    WoWPro:SetActiveStickyCount(#stickySteps)
+    WoWPro:SetActiveStickyCount(stickyCount)
     for i = 1, 15 do
         -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
         -- Use sorted step list with stickies first --
@@ -2449,7 +2485,6 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.EventReplayStart()
     end
 end
-
 
 local Rep2IdAndClass
 Rep2IdAndClass = {

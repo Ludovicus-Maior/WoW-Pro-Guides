@@ -14,7 +14,7 @@ function WoWPro:OnEnableEvents()
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
-    WoWPro:RegisterBucketMessage("WoWPro_QuestLogUpdate", 0.333, WoWPro.QuestLogUpdateReal)
+    WoWPro:RegisterBucketMessage("WoWPro_QuestLogUpdate", 0.500, WoWPro.QuestLogUpdateReal)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 end
