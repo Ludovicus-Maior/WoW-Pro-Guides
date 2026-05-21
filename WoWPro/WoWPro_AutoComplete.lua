@@ -253,7 +253,7 @@ function WoWPro.AutoCompleteLoot()
             end
         end
     end
-    WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
+    WoWPro:ScheduleGuideRefresh("WoWPro.AutoCompleteLoot")
 end
 
 local LUNARFALL_MAPID
@@ -329,7 +329,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 if not WoWPro.CompletingQuest and ( action == "A" or action == "C" )
                 and completion and WoWPro.missingQuest == QID then
                     WoWProCharDB.Guide[GID].completion[i] = nil
-                    WoWPro:UpdateGuide("ACQU: Abandoned Quest")
+                    WoWPro:ScheduleGuideRefresh("ACQU: Abandoned Quest")
                 end
 
                 -- Quest AutoComplete --
@@ -456,7 +456,7 @@ function WoWPro.AutoCompleteCriteria()
     if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
         WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
     else
-        WoWPro:UpdateGuide("WoWPro.AutoCompleteCriteria?")
+        WoWPro:ScheduleGuideRefresh("WoWPro.AutoCompleteCriteria?")
     end
 end
 

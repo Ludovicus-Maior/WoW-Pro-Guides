@@ -18,6 +18,16 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+-- Shared Broker update wiring
+local BrokerUpdateFrame = _G.CreateFrame("Frame")
+local BrokerUpdateElapsed = 0
+local BrokerUpdateInterval = 0.1
+local BrokerUpdateRows = {}
+local BrokerUpdateRowLookup = {}
+WoWPro.PendingGuideUpdate = false
+WoWPro.PendingGuideRefresh = false
+WoWPro.PendingGuideRefreshReason = nil
+
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
@@ -36,6 +46,204 @@ end
 function WoWPro:IncrementActiveStickyCount()
     _activeStickyCount = _activeStickyCount + 1
 end
+
+-- Broker row update registration helpers
+function WoWPro:RegisterBrokerUpdateRow(row)
+    if not row or BrokerUpdateRowLookup[row] then
+        return
+    end
+    local index = #BrokerUpdateRows + 1
+    BrokerUpdateRows[index] = row
+    BrokerUpdateRowLookup[row] = index
+end
+
+function WoWPro:UnregisterBrokerUpdateRow(row)
+    local index = BrokerUpdateRowLookup[row]
+    if not index then
+        return
+    end
+    local lastIndex = #BrokerUpdateRows
+    if index ~= lastIndex then
+        local lastRow = BrokerUpdateRows[lastIndex]
+        BrokerUpdateRows[index] = lastRow
+        BrokerUpdateRowLookup[lastRow] = index
+    end
+    BrokerUpdateRows[lastIndex] = nil
+    BrokerUpdateRowLookup[row] = nil
+end
+
+local function ApplyBrokerRowPendingSecureState(row)
+    if not row or _G.InCombatLockdown() then
+        return
+    end
+    local secureTarget = row.targetbuttonSecured
+    if secureTarget and secureTarget._pendingMacro then
+        secureTarget:Show()
+        secureTarget:SetAttribute("macrotext", secureTarget._pendingMacro)
+        secureTarget:ClearAllPoints()
+        if secureTarget._pendingPosition then
+            secureTarget:SetPoint(unpack(secureTarget._pendingPosition))
+        end
+        secureTarget:SetFrameStrata("HIGH")
+        if row.targetbutton then
+            secureTarget:SetFrameLevel(row.targetbutton:GetFrameLevel() + 1)
+        end
+        secureTarget._pendingMacro = nil
+        secureTarget._pendingPosition = nil
+    end
+
+    local secureItem = row.itembuttonSecured
+    if secureItem and secureItem._pendingType then
+        local itembutton = row.itembutton
+        if itembutton and itembutton:IsVisible() then
+            secureItem:Show()
+            if secureItem._pendingType == "item" then
+                secureItem:SetAttribute("type1", "item")
+                secureItem:SetAttribute("item1", secureItem._pendingItem1)
+            elseif secureItem._pendingType == "click1" then
+                secureItem:SetAttribute("type1", "click1")
+                secureItem:SetAttribute("click", secureItem._pendingClick or "clickbutton")
+                local pendingTrashUse = secureItem._pendingTrashUse
+                local pendingTrashStep = secureItem._pendingTrashStep
+                secureItem:SetScript("OnClick", function()
+                    WoWPro.TrashItem(pendingTrashUse, pendingTrashStep)
+                end)
+            elseif secureItem._pendingType == "SwitchPet" then
+                secureItem:SetAttribute("type", "SwitchPet")
+                secureItem.SwitchPet = function()
+                    _G.C_PetBattles.ChangePet(secureItem._pendingSwitchPet)
+                    WoWPro.CompleteStep(secureItem._pendingStep, "Clicked pet switch")
+                end
+            end
+            secureItem:ClearAllPoints()
+            secureItem:SetPoint("BOTTOMLEFT", itembutton, "BOTTOMLEFT", 0, 0)
+            secureItem:SetFrameLevel(itembutton:GetFrameLevel() + 1)
+            secureItem._pendingType = nil
+            secureItem._pendingItem1 = nil
+            secureItem._pendingClick = nil
+            secureItem._pendingTrashUse = nil
+            secureItem._pendingTrashStep = nil
+            secureItem._pendingSwitchPet = nil
+            secureItem._pendingStep = nil
+        end
+    end
+
+    local secureEA = row.eabuttonSecured
+    if secureEA and secureEA._pendingMacro then
+        local eabutton = row.eabutton
+        if eabutton and eabutton:IsVisible() then
+            secureEA:Show()
+            secureEA:SetAttribute("macrotext", secureEA._pendingMacro)
+            secureEA:ClearAllPoints()
+            if secureEA._pendingPosition then
+                secureEA:SetPoint(unpack(secureEA._pendingPosition))
+            end
+            secureEA:SetFrameLevel(eabutton:GetFrameLevel() + 1)
+            secureEA._pendingMacro = nil
+            secureEA._pendingPosition = nil
+        end
+    end
+end
+
+function WoWPro:ApplyBrokerPendingRowState()
+    if _G.InCombatLockdown() then
+        return
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        ApplyBrokerRowPendingSecureState(row)
+    end
+end
+
+local function BrokerUpdateItemRow(currentRow)
+    if not currentRow or not currentRow.itembutton or not currentRow.itembutton:IsShown() then
+        return
+    end
+    local use = currentRow.BrokerUpdateUse
+    if not use then
+        return
+    end
+
+    local itemtexture = WoWPro.C_Item_GetItemIconByID(use)
+    local start, duration, enabled = _G.WoWPro.GetItemCooldown(use)
+    if not start then
+        return
+    end
+
+    if _G.WoWPro.C_Item_GetItemCount(use) > 0 and not currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon.item_IsVisible = true
+        currentRow.itemicon:SetTexture(itemtexture)
+        currentRow.itemicon.currentTexture = itemtexture
+    elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(use) > 0 and currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon:SetTexture(itemtexture)
+        currentRow.itemicon.currentTexture = itemtexture
+    elseif _G.WoWPro.C_Item_GetItemCount(use) == 0 and currentRow.itemicon.item_IsVisible then
+        currentRow.itemicon.item_IsVisible = false
+        currentRow.itemicon:SetTexture()
+        currentRow.itemicon.currentTexture = nil
+    end
+
+    if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+        currentRow.itemcooldown:Show()
+        currentRow.itemcooldown:SetCooldown(start, duration)
+        currentRow.itemcooldown.OnCooldown = true
+        currentRow.itemcooldown.ActiveItem = use
+    elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+        currentRow.itemcooldown:Hide()
+        currentRow.itemcooldown.OnCooldown = false
+    elseif currentRow.itemcooldown.ActiveItem ~= use and start then
+        currentRow.itemcooldown.OnCooldown = false
+        currentRow.itemcooldown:SetCooldown(start, duration)
+        currentRow.itemcooldown.ActiveItem = use
+    end
+end
+
+local function BrokerUpdateEABRow(currentRow)
+    if not currentRow or not currentRow.eabutton or not currentRow.eabutton:IsShown() then
+        return
+    end
+
+    local eabIcon = nil
+    if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
+        eabIcon = _G.ExtraActionButton1.icon
+    elseif _G.ExtraActionButton1Icon then
+        eabIcon = _G.ExtraActionButton1Icon
+    end
+    local eabtexture = eabIcon and eabIcon:GetTexture() or nil
+
+    if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
+        currentRow.eaicon.EAB1_IsVisible = _G.HasExtraActionBar()
+        if currentRow.eaicon.EAB1_IsVisible then
+            currentRow.eaicon:SetTexture(eabtexture)
+            currentRow.eaicon.currentTexture = eabtexture
+        else
+            currentRow.eaicon:SetTexture()
+            currentRow.eaicon.currentTexture = nil
+        end
+    elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
+        currentRow.eaicon.currentTexture = eabtexture
+        currentRow.eaicon:SetTexture(eabtexture)
+    end
+end
+
+BrokerUpdateFrame:SetScript("OnUpdate", function(_, elapsed)
+    BrokerUpdateElapsed = BrokerUpdateElapsed + elapsed
+    if BrokerUpdateElapsed < BrokerUpdateInterval then
+        return
+    end
+    BrokerUpdateElapsed = 0
+
+    if WoWPro.MaybeCombatLockdown() then
+        return
+    end
+
+    for i = 1, #BrokerUpdateRows do
+        local currentRow = BrokerUpdateRows[i]
+        if currentRow then
+            BrokerUpdateItemRow(currentRow)
+            BrokerUpdateEABRow(currentRow)
+        end
+    end
+end)
 
 
 -- Deep table comparison for lootitem matching
@@ -734,13 +942,33 @@ function WoWPro:NextGuide(GID)
 end
 
 
+function WoWPro:ScheduleGuideRefresh(From)
+    if WoWPro.PendingGuideRefresh then
+        if not WoWPro.PendingGuideRefreshReason and From then
+            WoWPro.PendingGuideRefreshReason = From
+        end
+        return
+    end
+    WoWPro.PendingGuideRefresh = true
+    WoWPro.PendingGuideRefreshReason = From
+    _G.C_Timer.After(0.01, function()
+        WoWPro.PendingGuideRefresh = false
+        local reason = WoWPro.PendingGuideRefreshReason
+        WoWPro.PendingGuideRefreshReason = nil
+        WoWPro:UpdateGuide(reason or "Scheduled")
+    end)
+end
+
 function WoWPro:UpdateGuide(From)
-    WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
+    if WoWPro.MaybeCombatLockdown() then
+        WoWPro.PendingGuideUpdate = true
+        WoWPro:dbp("UpdateGuide deferred until out of combat")
+        return
+    end
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
 end
 
 function WoWPro:UpdateGuideSlow(From)
-    WoWPro:print("Signaled for UpdateGuideSlow from %s", WoWPro.Ptable(From))
     WoWPro:SendMessage("WoWPro_UpdateGuideSlow",From)
 end
 
@@ -1140,18 +1368,52 @@ function WoWPro:RowUpdate(offset)
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
-    local allSteps = {}
+    local allSteps = WoWPro.RowUpdateAllSteps
+    if not allSteps then
+        allSteps = {}
+        WoWPro.RowUpdateAllSteps = allSteps
+    else
+        table.wipe(allSteps)
+    end
+    local stickySteps = WoWPro.RowUpdateStickySteps
+    if not stickySteps then
+        stickySteps = {}
+        WoWPro.RowUpdateStickySteps = stickySteps
+    else
+        table.wipe(stickySteps)
+    end
+    local regularSteps = WoWPro.RowUpdateRegularSteps
+    if not regularSteps then
+        regularSteps = {}
+        WoWPro.RowUpdateRegularSteps = regularSteps
+    else
+        table.wipe(regularSteps)
+    end
+    local stepList = WoWPro.RowUpdateStepList
+    if not stepList then
+        stepList = {}
+        WoWPro.RowUpdateStepList = stepList
+    else
+        table.wipe(stepList)
+    end
+    local allStepsCount = 0
+    local stickyCount = 0
+    local regularCount = 0
+    local stepListCount = 0
+
     local tempK = k
     for i = 1, 15 do
         if WoWProDB.profile.guidescroll then
-            table.insert(allSteps, tempK)
+            allStepsCount = allStepsCount + 1
+            allSteps[allStepsCount] = tempK
             tempK = tempK + 1
         else
             if WoWPro.sticky[tempK] then
                 WoWPro:IncrementActiveStickyCount()
             end
             tempK = WoWPro.NextStep(tempK, 1)
-            table.insert(allSteps, tempK)
+            allStepsCount = allStepsCount + 1
+            allSteps[allStepsCount] = tempK
             tempK = tempK + 1
         end
     end
@@ -1160,9 +1422,8 @@ function WoWPro:RowUpdate(offset)
     -- Now sort: stickies first, then regular
     local completion = WoWProCharDB.Guide[GID].completion
     local stickyBoundary = WoWPro.ActiveStep or k
-    local stickySteps = {}
-    local regularSteps = {}
-    for _, stepIdx in ipairs(allSteps) do
+    for i = 1, allStepsCount do
+        local stepIdx = allSteps[i]
         if stepIdx then
             if WoWPro.sticky[stepIdx] then
                 -- Show sticky step if it's ready to be displayed (regardless of completion status)
@@ -1229,10 +1490,12 @@ function WoWPro:RowUpdate(offset)
                 end
 
                 if showSticky then
-                    table.insert(stickySteps, stepIdx)
+                    stickyCount = stickyCount + 1
+                    stickySteps[stickyCount] = stepIdx
                 end
             else
-                table.insert(regularSteps, stepIdx)
+                regularCount = regularCount + 1
+                regularSteps[regularCount] = stepIdx
             end
         end
     end
@@ -1241,11 +1504,12 @@ function WoWPro:RowUpdate(offset)
     -- US step visibility: US steps are only eligible to be shown after their corresponding S step is completed.
     -- This means US steps are not added to the visible stepList until their S step is complete, regardless of US conditionals.
     -- When a US step becomes the activestep, it completes its S step immediately (see NextStep logic).
-    local stepList = {}
-    for _, v in ipairs(stickySteps) do
-        table.insert(stepList, v)
+    for i = 1, stickyCount do
+        stepListCount = stepListCount + 1
+        stepList[stepListCount] = stickySteps[i]
     end
-    for _, v in ipairs(regularSteps) do
+    for i = 1, regularCount do
+        local v = regularSteps[i]
         -- If this is a US step (unsticky and not sticky)
         if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
             -- Find the corresponding S step by QID, questtext (QO), and lootitem (L tag) if present
@@ -1279,16 +1543,18 @@ function WoWPro:RowUpdate(offset)
             end
             -- Only show US step if its S step is completed (or no S step exists)
             if not foundSticky or completion[foundSticky] then
-                table.insert(stepList, v)
+                stepListCount = stepListCount + 1
+                stepList[stepListCount] = v
             end
         else
-            table.insert(stepList, v)
+            stepListCount = stepListCount + 1
+            stepList[stepListCount] = v
         end
     end
-    WoWPro.RowLimit = #stepList
+    WoWPro.RowLimit = stepListCount
 
     -- Set ActiveStickyCount based on actual visible stickies
-    WoWPro:SetActiveStickyCount(#stickySteps)
+    WoWPro:SetActiveStickyCount(stickyCount)
     for i = 1, 15 do
         -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
         -- Use sorted step list with stickies first --
@@ -1296,6 +1562,7 @@ function WoWPro:RowUpdate(offset)
         if not k then
             for j = i, 15 do
                 WoWPro.rows[j]:Hide()
+                WoWPro:UnregisterBrokerUpdateRow(WoWPro.rows[j])
                 if not _G.InCombatLockdown() then
                     if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
                     if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
@@ -1310,6 +1577,7 @@ function WoWPro:RowUpdate(offset)
             WoWPro.RowLimit = math.min(WoWPro.RowLimit or 15, i - 1)
             for j = i, 15 do
                 WoWPro.rows[j]:Hide()
+                WoWPro:UnregisterBrokerUpdateRow(WoWPro.rows[j])
                 if not _G.InCombatLockdown() then
                     if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
                     if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
@@ -1667,6 +1935,11 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "click1"
+                    currentRow.itembuttonSecured._pendingClick = "clickbutton"
+                    currentRow.itembuttonSecured._pendingTrashUse = use
+                    currentRow.itembuttonSecured._pendingTrashStep = k
                 end
                 WoWPro:dbp("RowUpdate: enabled trash: %s", use)
                 if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
@@ -1699,10 +1972,15 @@ if step then
 
                 if not _use then
                     -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
+                    currentRow.BrokerUpdateUse = nil
                     if not _G.InCombatLockdown() then
                         currentRow.itembutton:Hide()
                     end
+                    if not currentRow.eabutton:IsShown() then
+                        WoWPro:UnregisterBrokerUpdateRow(currentRow)
+                    end
                 else
+                    currentRow.BrokerUpdateUse = _use
                     currentRow.itemicon.item_IsVisible = nil
                     currentRow.itemcooldown.OnCooldown = nil
                     currentRow.itemcooldown.ActiveItem = nil
@@ -1712,43 +1990,7 @@ if step then
                         currentRow.itemicon.currentTexture = nil
                         currentRow.itembutton:SetAttribute("type1", "item")
                         currentRow.itembutton:SetAttribute("item1", "item:".._use)
-                        local timeElapsed = 0
-                        currentRow.itembutton:SetScript("OnUpdate", function(_,elapsed)
-                            timeElapsed = timeElapsed + elapsed
-                            if timeElapsed > 0.05 then
-                                timeElapsed = 0
-                                local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
-                                local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
-                                if not start then
-                                    WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
-                                end
-                                if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
-                                    currentRow.itemicon.item_IsVisible = true
-                                    currentRow.itemicon:SetTexture(itemtexture)
-                                    currentRow.itemicon.currentTexture = itemtexture
-                                elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
-                                    currentRow.itemicon:SetTexture(itemtexture)
-                                    currentRow.itemicon.currentTexture = itemtexture
-                                elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
-                                    currentRow.itemicon.item_IsVisible = false
-                                    currentRow.itemicon:SetTexture()
-                                    currentRow.itemicon.currentTexture = nil
-                                end
-                                if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
-                                    currentRow.itemcooldown:Show()
-                                    currentRow.itemcooldown:SetCooldown(start, duration)
-                                    currentRow.itemcooldown.OnCooldown = true
-                                    currentRow.itemcooldown.ActiveItem = _use
-                                elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
-                                    currentRow.itemcooldown:Hide()
-                                    currentRow.itemcooldown.OnCooldown = false
-                                elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
-                                    currentRow.itemcooldown.OnCooldown = false
-                                    currentRow.itemcooldown:SetCooldown(start, duration)
-                                    currentRow.itemcooldown.ActiveItem = _use
-                                end
-                            end
-                        end)
+                        WoWPro:RegisterBrokerUpdateRow(currentRow)
                     end
                 end
 
@@ -1761,6 +2003,9 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "item"
+                    currentRow.itembuttonSecured._pendingItem1 = "item:".._use
                 end
 
                 WoWPro:dbp("RowUpdate: enabled use: %s", use)
@@ -1793,6 +2038,10 @@ if step then
                         currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
                         currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
                     end
+                else
+                    currentRow.itembuttonSecured._pendingType = "SwitchPet"
+                    currentRow.itembuttonSecured._pendingSwitchPet = switch
+                    currentRow.itembuttonSecured._pendingStep = kk
                 end
             else
                 if not _G.InCombatLockdown() then
@@ -1801,9 +2050,13 @@ if step then
                 end
             end
         else
+            currentRow.BrokerUpdateUse = nil
             if not _G.InCombatLockdown() then
                 currentRow.itembutton:Hide()
                 currentRow.itembuttonSecured:Hide()
+            end
+            if not currentRow.eabutton:IsShown() then
+                WoWPro:UnregisterBrokerUpdateRow(currentRow)
             end
         end
 
@@ -1896,43 +2149,20 @@ if step then
                 currentRow.eabutton:SetAttribute("macrotext", mtext)
                 currentRow.eaicon.EAB1_IsVisible = nil
                 currentRow.eaicon.currentTexture = nil
-                local timeElapsed = 0
-                currentRow.eabutton:SetScript("OnUpdate", function(_, elapsed)
-                    -- Throttle to a max of 50ms updates
-                    timeElapsed = timeElapsed + elapsed
-                    if timeElapsed > 0.05 then
-                        timeElapsed = 0
-                        local eabIcon = nil
-                        if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
-                            eabIcon = _G.ExtraActionButton1.icon
-                        elseif _G.ExtraActionButton1Icon then
-                            eabIcon = _G.ExtraActionButton1Icon
-                        end
-                        local eabtexture = eabIcon and eabIcon:GetTexture() or nil
-                        if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
-                            currentRow.eaicon.EAB1_IsVisible =  _G.HasExtraActionBar()
-                            if currentRow.eaicon.EAB1_IsVisible then
-                                currentRow.eaicon:SetTexture(eabtexture)
-                                currentRow.eaicon.currentTexture = eabtexture
-                            else
-                                currentRow.eaicon:SetTexture()
-                                currentRow.eaicon.currentTexture = nil
-                            end
-                        elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
-                            currentRow.eaicon.currentTexture = eabtexture
-                            currentRow.eaicon:SetTexture(eabtexture)
-                        end
-                    end
-                end)
 
-				if currentRow.eabutton:IsShown() then
-					currentRow.eabuttonSecured:Show()
-					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
-					currentRow.eabuttonSecured:ClearAllPoints()
-					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
-					currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
-				end
-			end
+                if currentRow.eabutton:IsShown() then
+                    currentRow.eabuttonSecured:Show()
+                    currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
+                    currentRow.eabuttonSecured:ClearAllPoints()
+                    currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
+                    currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
+                end
+
+                WoWPro:RegisterBrokerUpdateRow(currentRow)
+            else
+                currentRow.eabuttonSecured._pendingMacro = mtext
+                currentRow.eabuttonSecured._pendingPosition = {"BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0}
+            end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
@@ -1947,6 +2177,9 @@ if step then
         else
             if not _G.InCombatLockdown() then
                 currentRow.eabutton:Hide()
+            end
+            if not currentRow.itembutton:IsShown() then
+                WoWPro:UnregisterBrokerUpdateRow(currentRow)
             end
 			if not _G.InCombatLockdown() then
 				currentRow.eabuttonSecured:Hide()
@@ -2064,6 +2297,7 @@ function WoWPro.UpdateGuideReal(From)
         -- Cinematic hides things ...
         WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
         WoWPro:dbp("UpdateGuideReal(): Punting")
+        return
     end
     if not WoWPro.GuideLoaded then
         WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
@@ -2084,10 +2318,11 @@ function WoWPro.UpdateGuideReal(From)
         return
     end
     if WoWPro.MaybeCombatLockdown() then
+        WoWPro.PendingGuideUpdate = true
         WoWPro:print("Punted guide update.  In Combat.")
-        WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
         return
     end
+    WoWPro.PendingGuideUpdate = false
     if  not GID or not WoWPro.Guides[GID] then
         WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
         return
@@ -2277,7 +2512,6 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.EventReplayStart()
     end
 end
-
 
 local Rep2IdAndClass
 Rep2IdAndClass = {

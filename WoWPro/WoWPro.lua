@@ -558,14 +558,15 @@ function WoWPro:OnEnable()
     WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
     if WoWPro.RETAIL then
         WoWPro:RegisterBucketEvent({"QUEST_LOG_CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
-        WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.50, WoWPro.UpdateGuideReal)
+        -- CRITERIA_UPDATE can fire frequently while walking; remove it to avoid non-combat stutter.
+        -- WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.50, WoWPro.UpdateGuide)
     end
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
     WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
-    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.500,WoWPro.UpdateGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_UpdateGuideSlow",0.666,WoWPro.UpdateGuideRealSlow)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
     if WoWPro.Recorder then

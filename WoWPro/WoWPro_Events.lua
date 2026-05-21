@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber string hooksecurefunc
+﻿-- luacheck: globals tostring tonumber string hooksecurefunc
 -- luacheck: globals select foreach ipairs pairs next tinsert type unpack
 
 --------------------------
@@ -14,6 +14,7 @@ function WoWPro:OnEnableEvents()
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
+    WoWPro:RegisterBucketMessage("WoWPro_QuestLogUpdate", 0.500, WoWPro.QuestLogUpdateReal)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 end
@@ -225,6 +226,28 @@ end
 
 
 
+function WoWPro.QuestLogUpdateReal(From)
+    local event = "QUEST_LOG_UPDATE"
+    local delta = WoWPro.PopulateQuestLog()
+    if WoWPro.DEBUG_REPEATABLE then
+        WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+    end
+
+    if delta == 0 then
+        return
+    end
+    if WoWPro.Ready(event) then
+        WoWPro:AutoCompleteQuestUpdate(nil)
+        WoWPro:ScheduleGuideRefresh(event)
+        if WoWProCharDB.AutoSelect and delta == 1 then
+            if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
+                WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
+                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
+            end
+        end
+    end
+end
+
 WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro.AutoCompleteBuff(...)
@@ -262,7 +285,7 @@ end, true)
 WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 -- Unlocking event processing after things get settled --
@@ -288,7 +311,7 @@ if not WoWPro.CLASSIC then
     WoWPro.RegisterEventHandler("NEUTRAL_FACTION_SELECT_RESULT", function (event, ...)
         WoWPro:dbp("Detected Faction selection. Re-evaluating guide.")
         WoWPro.Faction = _G.UnitFactionGroup("player")
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end)
 end
 
@@ -302,7 +325,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
     end
     if WoWPro.Ready(event) then
         if WoWPro.AutoCompleteZone(...) then
-            WoWPro:UpdateGuide(event)
+            WoWPro:ScheduleGuideRefresh(event)
         end
     end
 end)
@@ -313,12 +336,12 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
 -- Scenario Tracking
 WoWPro.RegisterModernEventHandler("SCENARIO_UPDATE", function(event, ...)
     WoWPro.ProcessScenarioStage(...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("SCENARIO_CRITERIA_UPDATE", function(event, ...)
     WoWPro.ProcessScenarioCriteria(false)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
@@ -340,7 +363,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
 end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function(event, ...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
@@ -379,7 +402,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
         WoWPro.current_strategy = nil
         WoWPro:dbp("WoWPro.current_strategy = nil")
     end
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 --  WoWPro.UnregisterAllEvents()
 --  WoWPro:RegisterEvents()
     end)
@@ -393,14 +416,21 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
     WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
     -- Combat lockdown begins after this event
     if not WoWPro.MaybeCombatLockdown() then
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
     WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
-    WoWPro:UpdateGuide(event)
+    WoWPro:ApplyBrokerPendingRowState()
+    if WoWPro.PendingGuideUpdate then
+        WoWPro.PendingGuideUpdate = false
+        WoWPro:dbp("Flush pending guide update after combat")
+        WoWPro:UpdateGuide({reason = event, pending = true})
+    else
+        WoWPro:ScheduleGuideRefresh(event)
+    end
 end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
@@ -414,7 +444,7 @@ WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
-		WoWPro:UpdateGuide(event)
+		WoWPro:ScheduleGuideRefresh(event)
 		WoWPro:SendGroupInfo()
 	end
 end)
@@ -430,7 +460,7 @@ if WoWPro.RETAIL then
 		if successfulRequest then
 			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
 				WoWPro.AnimaPowers = WoWPro.AnimaPowers + 1
-				WoWPro:UpdateGuide(event)
+				WoWPro:ScheduleGuideRefresh(event)
 			end
 		end
 	end)
@@ -482,7 +512,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
-				WoWPro:UpdateGuide(event)
+				WoWPro:ScheduleGuideRefresh(event)
 			elseif synctype == "track" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local gindex, gtrack = string.split(" ", message, 2)
@@ -584,7 +614,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     end
 
     if WoWPro.gossip and WoWPro.GossipText and WoWPro.gossip[qidx] then
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end
 end
 
@@ -808,7 +838,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
             WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
         end
     end
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
@@ -850,35 +880,14 @@ if WoWPro.RETAIL then
 end
 
 WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
-    local delta = WoWPro.PopulateQuestLog()
-    if WoWPro.DEBUG_REPEATABLE then
-        WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
-    end
-
-    -- Check repeatable steps after quest log update
-    if WoWPro.CheckRepeatableSteps then
-        WoWPro.CheckRepeatableSteps()
-    end
-
-    if delta == 0 then
-        return
-    end
     if WoWPro.Ready(event) then
-        WoWPro:AutoCompleteQuestUpdate(nil)
-        WoWPro:UpdateGuide(event)
-        if WoWProCharDB.AutoSelect and delta == 1 then
-        -- OK, now get the next quest if QuestCount is set
-            if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
-                WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
-                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
-            end
-        end
+        WoWPro:SendMessage("WoWPro_QuestLogUpdate", event)
     end
 end)
 
 WoWPro.RegisterEventHandler("UI_INFO_MESSAGE", function(event, ...)
     WoWPro:AutoCompleteGetFP(event, ...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function(event, ...)
@@ -908,6 +917,7 @@ function WoWPro.DelayedEventHandler(frame,event)
         WoWPro.EventHandler(frame,event)
     end)
 end
+
 
 
 
