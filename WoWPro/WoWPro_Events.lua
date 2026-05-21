@@ -238,7 +238,7 @@ function WoWPro.QuestLogUpdateReal(From)
     end
     if WoWPro.Ready(event) then
         WoWPro:AutoCompleteQuestUpdate(nil)
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
         if WoWProCharDB.AutoSelect and delta == 1 then
             if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
                 WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
@@ -285,7 +285,7 @@ end, true)
 WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 -- Unlocking event processing after things get settled --
@@ -311,7 +311,7 @@ if not WoWPro.CLASSIC then
     WoWPro.RegisterEventHandler("NEUTRAL_FACTION_SELECT_RESULT", function (event, ...)
         WoWPro:dbp("Detected Faction selection. Re-evaluating guide.")
         WoWPro.Faction = _G.UnitFactionGroup("player")
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end)
 end
 
@@ -325,7 +325,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
     end
     if WoWPro.Ready(event) then
         if WoWPro.AutoCompleteZone(...) then
-            WoWPro:UpdateGuide(event)
+            WoWPro:ScheduleGuideRefresh(event)
         end
     end
 end)
@@ -336,12 +336,12 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
 -- Scenario Tracking
 WoWPro.RegisterModernEventHandler("SCENARIO_UPDATE", function(event, ...)
     WoWPro.ProcessScenarioStage(...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("SCENARIO_CRITERIA_UPDATE", function(event, ...)
     WoWPro.ProcessScenarioCriteria(false)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
@@ -363,7 +363,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
 end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function(event, ...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
     end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
@@ -402,7 +402,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
         WoWPro.current_strategy = nil
         WoWPro:dbp("WoWPro.current_strategy = nil")
     end
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 --  WoWPro.UnregisterAllEvents()
 --  WoWPro:RegisterEvents()
     end)
@@ -416,7 +416,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
     WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
     -- Combat lockdown begins after this event
     if not WoWPro.MaybeCombatLockdown() then
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end
 end)
 
@@ -429,7 +429,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
         WoWPro:dbp("Flush pending guide update after combat")
         WoWPro:UpdateGuide({reason = event, pending = true})
     else
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end
 end)
 
@@ -444,7 +444,7 @@ WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
-		WoWPro:UpdateGuide(event)
+		WoWPro:ScheduleGuideRefresh(event)
 		WoWPro:SendGroupInfo()
 	end
 end)
@@ -460,7 +460,7 @@ if WoWPro.RETAIL then
 		if successfulRequest then
 			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
 				WoWPro.AnimaPowers = WoWPro.AnimaPowers + 1
-				WoWPro:UpdateGuide(event)
+				WoWPro:ScheduleGuideRefresh(event)
 			end
 		end
 	end)
@@ -512,7 +512,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
-				WoWPro:UpdateGuide(event)
+				WoWPro:ScheduleGuideRefresh(event)
 			elseif synctype == "track" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local gindex, gtrack = string.split(" ", message, 2)
@@ -614,7 +614,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     end
 
     if WoWPro.gossip and WoWPro.GossipText and WoWPro.gossip[qidx] then
-        WoWPro:UpdateGuide(event)
+        WoWPro:ScheduleGuideRefresh(event)
     end
 end
 
@@ -838,7 +838,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
             WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
         end
     end
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
@@ -887,7 +887,7 @@ end)
 
 WoWPro.RegisterEventHandler("UI_INFO_MESSAGE", function(event, ...)
     WoWPro:AutoCompleteGetFP(event, ...)
-    WoWPro:UpdateGuide(event)
+    WoWPro:ScheduleGuideRefresh(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function(event, ...)

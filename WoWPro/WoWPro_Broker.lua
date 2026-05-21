@@ -25,6 +25,8 @@ local BrokerUpdateInterval = 0.1
 local BrokerUpdateRows = {}
 local BrokerUpdateRowLookup = {}
 WoWPro.PendingGuideUpdate = false
+WoWPro.PendingGuideRefresh = false
+WoWPro.PendingGuideRefreshReason = nil
 
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
@@ -939,6 +941,23 @@ function WoWPro:NextGuide(GID)
 
 end
 
+
+function WoWPro:ScheduleGuideRefresh(From)
+    if WoWPro.PendingGuideRefresh then
+        if not WoWPro.PendingGuideRefreshReason and From then
+            WoWPro.PendingGuideRefreshReason = From
+        end
+        return
+    end
+    WoWPro.PendingGuideRefresh = true
+    WoWPro.PendingGuideRefreshReason = From
+    _G.C_Timer.After(0.01, function()
+        WoWPro.PendingGuideRefresh = false
+        local reason = WoWPro.PendingGuideRefreshReason
+        WoWPro.PendingGuideRefreshReason = nil
+        WoWPro:UpdateGuide(reason or "Scheduled")
+    end)
+end
 
 function WoWPro:UpdateGuide(From)
     if WoWPro.MaybeCombatLockdown() then
