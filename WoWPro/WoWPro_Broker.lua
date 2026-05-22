@@ -1154,7 +1154,7 @@ function WoWPro:RowUpdate(offset)
             if WoWPro.sticky[tempK] then
                 WoWPro:IncrementActiveStickyCount()
             end
-            tempK = WoWPro.NextStep(tempK, 1)
+            tempK = WoWPro.NextStep(tempK, i)
             table.insert(allSteps, tempK)
             tempK = tempK + 1
         end
