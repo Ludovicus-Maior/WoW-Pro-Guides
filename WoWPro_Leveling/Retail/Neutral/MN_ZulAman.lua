@@ -77,7 +77,8 @@ C Left in the Shadows|QID|86652|M|43.97,65.14|Z|2437; Zul'Aman|QO|3|CHAT|N|Reque
 C Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|QO|4|CHAT|N|Speak with Kinduru.|
 T Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A The Path of the Amani|QID|86653|PRE|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|From Zul'jarra.|
-A Recuperating Returns|QID|88985|LEAD|86722|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
+; This is a leadin quest for Salvaged Sabotage, but becomes unavailable if the main campaign is completed.
+A Recuperating Returns|QID|88985|LEAD|88987^86693|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
 A The Final Exam|QID|93051|PRE|86652|M|43.19,67.11|Z|2437; Zul'Aman|N|From Recruit Dar'rak.|RANK|2|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|1|NC|N|Tell Ri'kari you're ready to begin.|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|2|N|Recruit Dar'rak slain.|
@@ -361,7 +362,7 @@ A Shared Loa|QID|91410|PRE|91412|M|42.92,71.80|Z|2583; Wit'Kalar Crypt|N|From Mi
 T Shared Loa|QID|91410|M|38.54,22.41|Z|2437; Zul'Aman|N|To Vun'zarah back above in the village.|
 
 T Recuperating Returns|QID|88985|PRE|86652|M|28.37,27.24|Z|2437; Zul'Aman|N|To Woodcrafter Azai.|
-A Salvaged Sabotage|QID|88987|PRE|88985|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
+A Salvaged Sabotage|QID|88987|PRE|88985^86652|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
 A Blind the Bandits|QID|88986|PRE|88985|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
 C Salvaged Sabotage|QID|88987|M|29.29,29.05|Z|2437; Zul'Aman|QO|1|NC|N|Stolen Equipment.|S|
 C Blind the Bandits|QID|88986|M|28.87,30.26|Z|2437; Zul'Aman|QO|2|U|238962|N|Kill Twilight's Blade cultists.|
@@ -404,6 +405,7 @@ T Den of Nalorakk: Waking de Bear|QID|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|To 
 N You are seeing this becuz you currently have Honorin' de Sacrifice quest in your log, Lilaju will not be at the cave entrace if you have this quest in your log. Please drop it. Don't worry the guide will direct you to pick it up later.|ACTIVE|92492&86682|US|
 A Den of Nalorakk: Unforgiven|QID|91958|PRE|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|From Zul'jarra.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|33.58,78.76|Z|2437; Zul'Aman|QO|2|CHAT|N|Talk to Zul'jarra to begin a follower dungeon.|
+C Den of Nalorakk: Unforgiven|QID|91958|M|33.58,78.76|Z|2437; Zul'Aman|QO|3|CHAT|N|Complete the Dungeon.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|31.54,83.89|Z|2437; Zul'Aman|QO|4|NC|N|Talk to Zul'jarra outside the dungeon.|
 T Den of Nalorakk: Unforgiven|QID|91958|M|31.55,83.88|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Hash'ey Away|QID|86683|PRE|91958|M|31.55,83.88|Z|2437; Zul'Aman|N|From Zul'jarra.|
@@ -458,7 +460,7 @@ A De Legend of de Hash'ey|QID|86693|PRE|86692|M|21.44,77.38|Z|2437; Zul'Aman|N|F
 C De Legend of de Hash'ey|QID|86693|M|45.28,66.20|Z|2437; Zul'Aman|QO|1|CHAT|N|Talk to Zul'jarra at Amani'Zar Village.|
 T De Legend of de Hash'ey|QID|86693|M|45.76,65.53|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Broken Bridges|QID|91062|PRE|86693|M|45.76,65.53|Z|2437; Zul'Aman|N|From Zul'jarra.|
-C Broken Bridges|QID|91062|M|51.22,54.37|Z|2437; Zul'Aman|QO|2|CHAT|N|Check on Zul'jan.|
+C Broken Bridges|QID|91062|M|51.22,54.37|Z|2437; Zul'Aman|QO|1|CHAT|N|Check on Zul'jan.|
 T Broken Bridges|QID|91062|M|50.76,54.47|Z|2437; Zul'Aman|N|To Lady Liadrin.|
 A Reports Returned|QID|91087|PRE|91062|M|50.76,54.47|Z|2437; Zul'Aman|N|From Lady Liadrin.|
 

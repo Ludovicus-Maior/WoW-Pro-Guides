@@ -441,7 +441,7 @@ end
 function WoWPro:GetGuideProgress(guideID)
     local guideDB = WoWProCharDB.Guide[guideID]
     if guideDB and guideDB.progress and guideDB.total then
-		 if guideDB.total > 0 and guideDB.progress > 0 then -- They can exist but have a value of 0 (Recorder caused this issue if you reload or relog with empty new guide.)
+		 if guideDB.total > 0 and guideDB.progress >= 0 then  -- They can exist but have a value of 0 (Recorder caused this issue if you reload or relog with empty new guide.)
 			return guideDB.progress / guideDB.total, ("%d/%d"):format(guideDB.progress, guideDB.total)
 		end
     end
