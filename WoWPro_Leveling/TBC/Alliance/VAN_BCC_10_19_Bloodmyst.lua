@@ -103,7 +103,7 @@ A The Second Sample|QID|9584|PRE|9628|M|52.58,53.21|Z|1950;Bloodmyst Isle|N|From
 T Blood Watch|QID|9694|M|55.43,55.27|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.| ;1050 exp
 A Intercepting the Message|QID|9779|PRE|9694|M|55.43,55.27|Z|1950;Bloodmyst Isle|N|From Vindicator Boros.| ;Non-Draenei
 A Know Thine Enemy|QID|9567|M|55.08,58.00|Z|1950;Bloodmyst Isle|N|From Vindicator Aalesia.| ;Non-Draenei
-F The Exodar|ACTIVE|9567|QO|1|M|57.69,53.88|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to do your level 14 training.|LVL|14|IZ|Blood Watch|
+F The Exodar|ACTIVE|9567|M|57.69,53.88|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to do your level 14 training.\n[color=FF0000]NOTE: [/color]Skip this step if you've already done it.|LVL|14|IZ|Blood Watch|
 = Level 14 Training|ACTIVE|9567|M|PLAYER|CC|N|Do your level 14 training.\n \nAsk one of the guards if you don't know where your trainer is.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|IZ|1947;The Exodar|
 r Housekeeping|ACTIVE|9567|N|Before leaving The Exodar, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1947;The Exodar^1943;Azuremyst Isle|
 F Blood Watch|ACTIVE|9567|M|68.51,63.61|Z|1947;The Exodar|N|Fly back to Bloodmyst Isle.|IZ|1947;The Exodar|
@@ -193,9 +193,9 @@ A Galaen's Fate|QID|9579|PRE|9578|M|37.51,61.27|Z|1950;Bloodmyst Isle|N|From Gal
 A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|PRE|9779|M|37.55,61.24|Z|1950; Bloodmyst Isle|N|From the book on the ground next to Galaen's Corpse.| ;Non-Draenei
 C Galaen's Fate|QID|9579|M|39.27,60.42|Z|1950;Bloodmyst Isle|N|Blood Elves outside the Cryo Core.|
 C The Cryo-Core|QID|9703|M|39.27,60.42|Z|1950;Bloodmyst Isle|L|24236 12|ITEM|24236|N|Sunhawk Reclaimers.\n[color=FF0000]NOTE: [/color]You can pick them up from as well.|US|
-T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
-A Matis the Cruel|QID|9711|PRE|9706|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.| ;Non-Draenei
-T The Cryo-Core|QID|9703|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+A Matis the Cruel|QID|9711|PRE|9706|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.| ;Non-Draenei
+T The Cryo-Core|QID|9703|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
 A Don't Drink the Water|QID|9748|PRE|9703|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.| ;Non-Draenei
 T Galaen's Fate|QID|9579|M|53.25,57.75|Z|1950;Bloodmyst Isle|N|To Morae.|
 t Culling the Flutterers|QID|9647|M|55.86,57.01|Z|1950;Bloodmyst Isle|N|To Tracker Lyceon.|IZ|Blood Watch|
@@ -208,86 +208,95 @@ C Containing the Threat|QID|9569|QO|2;3|M|41.6,29.8|Z|1950;Bloodmyst Isle|N|Fini
 C Containing the Threat|QID|9569|QO|4|M|41.6,29.8|Z|1950;Bloodmyst Isle|L|23863 5|N|Collect them from the small, red crystals found all around Axxarien.|US|
 C Don't Drink the Water|QID|9748|M|34.37,33.56|Z|1950;Bloodmyst Isle|N|Drop down to the bottom of the waterfall and use your flask while standing under it.|U|24318|
 C Culling the Flutterers|QID|9647|M|47.24,36.95|Z|1950;Bloodmyst Isle|N|Finish killing Royal Blue Flutterers that you need.\n[color=FF0000]NOTE: [/color]They share spawnpoints with the Bears and Constrictors; meaning you may need to kill them to get the Flutterers to spawn.|T|Royal Blue|US|
-H Blood Watch|QID|9569|M|55.04,59.33|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
-T Containing the Threat|QID|9569|M|55.05,58.01|Z|1950;Bloodmyst Isle|N|To Vindicator Aalesia.|
-T Don't Drink the Water|QID|9748|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
+L Level 18|ACTIVE|9569|M|PLAYER|CC|N|Grind until you're within 3.5 bubbles of level 18.|LVL|17;-2700|
+H Blood Watch|AVAILABLE|9753|M|55.04,59.33|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
+T Containing the Threat|QID|9569|M|55.05,58.01|Z|1950;Bloodmyst Isle|N|To Vindicator Aalesia.| ;1350 exp
+T Don't Drink the Water|QID|9748|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.| ;1350 exp
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.| ;Non-Draenei
-A What We Know...|QID|9753|M|55.6,55.4|Z|1950;Bloodmyst Isle|N|{coords}From Vindicator Aesom.|LVL|18|
+A What We Know...|QID|9753|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|LVL|18|
 T The Final Sample|QID|9585|M|52.58,53.21|Z|1950;Bloodmyst Isle|N|To Harbinger Mikolaas.|
 T What We Know...|QID|9753|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|To Exarch Admetius.|
 A What We Don't Know...|QID|9756|PRE|9753|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|From Exarch Admetius.|
-C What We Don't Know...|QID|9756|M|54.4,54.3|Z|1950;Bloodmyst Isle|N|{coords}Talk to the prisoner.|
+C What We Don't Know...|QID|9756|M|54.42,54.28|Z|1950;Bloodmyst Isle|N|Talk to the prisoner.|
 T What We Don't Know...|QID|9756|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|To Exarch Admetius.|
 A Vindicator's Rest|QID|9760|PRE|9756|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|From Exarch Admetius.|
-C Matis the Cruel|QID|9711|M|31.5,48|Z|1950;Bloodmyst Isle|N|{coords}Use the flare gun! When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|T|Matis the Cruel|U|24278|
-T Vindicator's Rest|QID|9760|M|30.6,46.6|Z|1950;Bloodmyst Isle|N|{coords}To Vindicator Corin.|
-A Fouled Water Spirits|QID|10067|M|30.6,46.6|Z|1950;Bloodmyst Isle|N|{coords}From Vindicator Corin.| ;Non-Draenei
-A Oh, the Tangled Webs They Weave|QID|10066|M|30.6,46.6|Z|1950;Bloodmyst Isle|N|{coords}From Vindicator Corin.| ;Non-Draenei
-T Talk to the Hand|QID|10064|M|30.27,45.94|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
-A Cutting a Path|QID|10065|M|30.28,45.88|Z|1950;Bloodmyst Isle|N|From Scout Joril.| ;Non-Draenei
-A Critters of the Void|QID|9741|M|30.28,45.88|Z|1950;Bloodmyst Isle|N|From Scout Loryi.| ;Non-Draenei
+F The Exodar|ACTIVE|9760|M|57.69,53.88|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to do your level 18 training.\n[color=FF0000]NOTE: [/color]Skip this step if you've already done it.|LVL|18|IZ|Blood Watch|
+= Level 18 Training|ACTIVE|9760|M|PLAYER|CC|N|Do your level 18 training.\n \nAsk one of the guards if you don't know where your trainer is.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|18|IZ|1947;The Exodar|
+F Blood Watch|ACTIVE|9760|M|68.51,63.61|Z|1947;The Exodar|N|Fly back to Blood Watch.|IZ|1947;The Exodar|
+C Matis the Cruel|QID|9711|M|46.57,40.45;34.34,46.38|CS|Z|1950;Bloodmyst Isle|N|Target Matis the Cruel (lv 19 Elite) and use the flare gun when you get into range.\n[color=FF0000]NOTE: [/color]You'll find him pathing along the road between Vindicator's Rest and the intersection.\n \nDon't worry, he won't touch you.|T|Matis the Cruel|U|24278|
+T Vindicator's Rest|QID|9760|M|30.75,46.85|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
+A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.|
+A Fouled Water Spirits|QID|10067|M|30.75,46.85|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.| ;Non-Draenei
+A Oh, the Tangled Webs They Weave|QID|10066|M|30.75,46.85|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.| ;Non-Draenei
+N Ending Their World|AVAILABLE|9759&10065|PRE|9753|M|30.82,46.64|Z|1950;Bloodmyst Isle|N|The quest offered by Demolitionist Legoso is an escort quest and you're nowhere near ready to attempt it just yet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Vindicator's Rest|
+T Talk to the Hand|QID|10064|M|30.26,45.92|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
+A Cutting a Path|QID|10065|M|30.26,45.92|Z|1950;Bloodmyst Isle|N|From Scout Joril.| ;Non-Draenei
+A Critters of the Void|QID|9741|M|30.24,45.86|Z|1950;Bloodmyst Isle|N|From Scout Loryi.| ;Non-Draenei
 C Cutting a Path|QID|10065|M|31.25,56.68|Z|1950;Bloodmyst Isle|N|Kill 10 Enraged Ravagers.|S|
 C Oh, the Tangled Webs They Weave|QID|10066|M|31.25,56.68|Z|1950;Bloodmyst Isle|N|Kill 8 Mutated Tanglers.|
 C Cutting a Path|QID|10065|M|31.25,56.68|Z|1950;Bloodmyst Isle|N|Kill 10 Enraged Ravagers.|US|
 C Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|Z|1950;Bloodmyst Isle|N|Kill Sunhawk Pyromancers and Defenders.|S|
-C Critters of the Void|QID|9741|M|18.70,63.61|Z|1950;Bloodmyst Isle|N|Kill 12 Void Critters. They are small and can be hard to target sometimes.|
-C Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|Z|1950;Bloodmyst Isle|N|Finish killing Sunhawk Pyromancers and Defenders.|US|
-A They're Alive! Maybe...|QID|9670|M|24.9,34.3|Z|1950;Bloodmyst Isle|N|{coords}From Researcher Cornelius.| ;Non-Draenei
-C Fouled Water Spirits|QID|10067|M|28.92,36.47|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits.|S|
-C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|{coords}Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|S|
-C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|Z|1950;Bloodmyst Isle|N|Kill spiders on the way.
-C The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|Z|1950;Bloodmyst Isle|N|Kill Zarakh.|T|Zarakh|
-C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|{coords}Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|US|
-T They're Alive! Maybe...|QID|9670|M|24.9,34.3|Z|1950;Bloodmyst Isle|N|{coords}To Researcher Cornelius.|
-C Fouled Water Spirits|QID|10067|M|28.92,36.47|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits.|US|
-T Cutting a Path|QID|10065|M|30.28,45.88|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
+C Critters of the Void|QID|9741|M|18.70,63.61|Z|1950;Bloodmyst Isle|N|Kill 12 Void Critters.\n[color=FF0000]NOTE: [/color]They can be a distraction for the Sunhawk mobs.|T|Void Critter|
+C Limits of Physical Exhaustion|QID|9746|M|25.43,50.38|Z|1950;Bloodmyst Isle|N|Finish killing Sunhawk Pyromancers and Defenders.|US|
+C The Missing Expedition|QID|9669|QO|1;2|M|16.23,30.66|Z|1950;Bloodmyst Isle|N|Kill the required spiders.|S|
+C Fouled Water Spirits|QID|10067|M|28.92,36.47|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits.\n[color=FF0000]NOTE: [/color]They are immune to frost and nature damage.|S|IZ|The Foul Pool|
+A They're Alive! Maybe...|QID|9670|M|24.87,34.36|Z|1950;Bloodmyst Isle|N|From Researcher Cornelius.| ;Non-Draenei
+C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|Attack the Webbed Creatures to free the Researchers.\n[color=FF0000]NOTE: [/color]There's a chance you'll free a hostile mob instead, and they won't be very appreciative for it.|S|
+C The Missing Expedition|QID|9669|QO|3|M|18.39,37.98|Z|1950;Bloodmyst Isle|N|Kill Zarakh at the top of Amberweb Pass.\n[color=FF0000]NOTE: [/color]I highly recommend getting yourself to the path leading up the mountain as quick as you can. The climb up is going to be quite eventful.\n \nIf you damage a Webbed Creature, you'll remain in combat until you finish it.|T|Zarakh|
+C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|Attack the Webbed Creatures to free the Researchers.\n[color=FF0000]NOTE: [/color]There's a chance you'll free a hostile mob instead, and they won't be very appreciative for it.|US|
+T They're Alive! Maybe...|QID|9670|M|24.87,34.36|Z|1950;Bloodmyst Isle|N|To Researcher Cornelius.\n[color=FF0000]NOTE: [/color]Unless feel like fighting your way back down the path, I'd drop down the backside of the hill. If you do it in stages, the falling damage isn't as severe.|
+C Fouled Water Spirits|QID|10067|M|28.92,36.47|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits in The Foul Pool.\n[color=FF0000]NOTE: [/color]They are immune to frost and nature damage.|US|
+T Cutting a Path|QID|10065|M|30.26,45.92|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
 T Fouled Water Spirits|QID|10067|M|30.74,46.83|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
 T Oh, the Tangled Webs They Weave|QID|10066|M|30.74,46.83|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
-H Blood Watch|QID|9711|M|55.04,59.33|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
-T Matis the Cruel|QID|9711|M|55.61,55.14|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+H Blood Watch|ACTIVE|9711|M|55.04,59.33|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
+T Matis the Cruel|QID|9711|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
 T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.| ;Non-Draenei
 T Critters of the Void|QID|9741|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
 T The Missing Expedition|QID|9669|M|53.25,57.02|Z|1950;Bloodmyst Isle|N|To Achelus.|
-r Repair/Restock|ACTIVE|9671|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-= train your skills|ACTIVE|9671|N|Train skills, then restock on food/water, etc.|
-A Urgent Delivery|QID|9671|PRE|9506|M|PLAYER|Z|1950;Bloodmyst Isle|N|From Messenger Hermesius, who walks all over Blood Watch.| ;Non-Draenei
-;At the time of this run through, the quest is bugged on BCC. The mail doesn't have a quest item in it.
+A Urgent Delivery|QID|9671|PRE|9506|M|PLAYER|CC|N|From Messenger Hermesius, who wanders all over Blood Watch.|T|Messenger| ;Non-Draenei
 l Check your mailbox|AVAILABLE|9672&9751|M|55.18,59.19|Z|1950;Bloodmyst Isle|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.|
-A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|N|From A Letter from the Admiral.|U|24132| ;Non-Draenei
-T Nolkai's Words|QID|9561|M|61.11,49.62|Z|1950;Bloodmyst Isle|N|It's a pile of dirt.|
-A Restoring Sanctity|QID|9687|M|74.46,33.66|Z|1950;Bloodmyst Isle|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.| ;Non-Draenei
+A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|M|PLAYER|CC|N|From A Letter from the Admiral.|U|24132| ;Non-Draenei
+T Nolkai's Words|QID|9561|M|61.17,49.63|Z|1950;Bloodmyst Isle|N|To the Mound of Dirt in the Ruins of Loreth'Aran.\n[color=FF0000]NOTE: [/color]You may want to clear the area first.|
+U Nolkai's Box|PRE|9561|M|PLAYER|CC|N|Open this quest reward to get 3 items, an 8-slot bag, an offhand Frill, and a piece of junk.|U|23846|O| ;Non-Draenei
+* Nolkai's Band|PRE|9561|M|PLAYER|CC|N|This ring is useless and you can't sell it.|U|23847|
+R Wyrmscar Island|AVAILABLE|9687|M|74.46,33.66|Z|1950;Bloodmyst Isle|N|Swim across to the large island north of Crimson Reach.|
+A Restoring Sanctity|QID|9687|M|74.46,33.66|Z|1950;Bloodmyst Isle|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He wanders around the area in front of the building.| ;Non-Draenei
+C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|L|24049 2|N|Loot the green glowing mushrooms from the ground.|S|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.| ;Non-Draenei
-C The Bloodcursed Naga|QID|9674|M|81.33,21.06|Z|1950;Bloodmyst Isle|N|Head into the water and kill Naga.|
+C The Bloodcursed Naga|QID|9674|M|81.33,21.06|Z|1950;Bloodmyst Isle|N|Kill the Bloodcursed Nagas (Frost mages) in Bloodcursed Reef.\n[color=FF0000]NOTE: [/color]The Captain will give you a 20min buff that increases your swim speed and allows you to breathe underwater. Make sure to ask him to refresh it if it runs out.|T|Bloodcursed Naga|
 T The Bloodcursed Naga|QID|9674|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Hopeless Ones...|QID|9682|PRE|9674|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.| ;Non-Draenei
-C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|Z|1950;Bloodmyst Isle|N|{coords}Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|
-N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|{coords}The swim speed and water breathing buff is really useful for another quest.\nGo back to Captain Edward Hanes and ask him to renew the buff on you.\n** Don't turn in the quest yet.|
-C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|S|
-C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|Z|1950;Bloodmyst Isle|N|Loot the bones. They are around where the small Wildkin camps are.|
+C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|Z|1950;Bloodmyst Isle|L|24153 4|ITEM|24153|N|Bloodcursed Voyagers in and around the submerged ships.|T|Bloodcursed Voyager|
+N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|[color=FF0000]Don't turn in "The Hopeless Ones..." yet.[/color]\nThe swim speed and water breathing buff is really useful for the next step.\nReturn to Captain Edward Hanes and ask him to renew the buff.|BUFF|31319|
+C Restoring Sanctity|QID|9687|M|56.32,34.52|Z|1950;Bloodmyst Isle|L|24185 8|N|Loot the Bones from the ground around Ragefeather Ridge.\n[color=FF0000]NOTE: [/color]The spawnpoints are static, but the respawn rate doesn't justify camping a spot.|
 T Restoring Sanctity|QID|9687|M|73.75,33.73|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
 A Into the Dream|QID|9688|PRE|9687|M|73.75,33.73|Z|1950;Bloodmyst Isle|N|From Prince Toreth.| ;Non-Draenei
-C Into the Dream|QID|9688|M|72.6,27.78|Z|1950;Bloodmyst Isle|N|Kill Veridian Whelps and Broodlings. They are all over the island.|
+C Into the Dream|QID|9688|M|72.6,27.78|Z|1950;Bloodmyst Isle|N|Kill Veridian Whelps and Broodlings, found all over the island.|
+L Level 19|ACTIVE|9688|M|PLAYER|CC|N|Grind until you're within 1.5 bubbles of level 19.|LVL|18;-1450|
 T Into the Dream|QID|9688|M|73.75,33.73|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
-A Razormaw|QID|9689|PRE|9688|M|73.75,33.73|Z|1950;Bloodmyst Isle|N|From Prince Toreth.|LVL|19| ;Non-Draenei
-C Razormaw|QID|9689|M|72,20|Z|1950;Bloodmyst Isle|N|{coords}Move to the top of the hill. Clear the whelplings, and get ready for a fight.|U|24221|
-C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|US|
-T The Hopeless Ones...|QID|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes. Before turning in, refresh your buff again.|
+A Razormaw|QID|9689|PRE|9688|M|73.75,33.73|Z|1950;Bloodmyst Isle|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Prince Toreth.|LVL|19| ;Non-Draenei
+R Talon Stand|ACTIVE|9689|QO|1|M|72.6,27.78|Z|1950;Bloodmyst Isle|N|Follow the path up the hill in the middle of the island to the top.|
+C Razormaw|QID|9689|M|72.63,20.80|Z|1950;Bloodmyst Isle|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nKill Razormaw (lv 20 elite) after clicking on the Ever-burning Pyre to summon him.\n[color=FF0000]NOTE: [/color]Clear the area of any enemies before summoning.\n \nIf you die, you'll have to abandon the quest to get another Bundle of Dragon Bones.|
+C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|L|24049 2|N|Loot the green glowing mushrooms from the ground.|US|
+T The Hopeless Ones...|QID|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes, after refreshing your buff again.|NA|
 A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.| ;Non-Draenei
-T Razormaw|QID|9689|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|{coords}To Prince Toreth.|
-C Ending the Bloodcurse|QID|9683|M|85,54|Z|1950;Bloodmyst Isle|N|{coords}Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
-T Ending the Bloodcurse|QID|9683|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
+T Razormaw|QID|9689|M|73.75,33.73|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
+* Bundle of Dragon Bones|PRE|9688|M|PLAYER|CC|N|You've completed the quest and no longer need the Bundle of Dragon Bones.|U|24184|
+R Bloodcurse Isle|ACTIVE|9683|QO|1|M|82.14,46.57|Z|1950;Bloodmyst Isle|N|Swim to the small island south of Wyrmscar Island.|
+C Ending the Bloodcurse|QID|9683|M|86.00,54.43|Z|1950;Bloodmyst Isle|N|Kill Atoph the Bloodcursed at the top of the hill.\n[color=FF0000]NOTE: [/color]Click on the Statue of Queen Azshara to summon him.|
+T Ending the Bloodcurse|QID|9683|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.\n[color=FF0000]NOTE: [/color]As long as you hit the water, jump down instead of walking.|
+L Level 20|ACTIVE|9759|M|PLAYER|CC|N|Grind until you're within 1.5 bubbles of level 20.|LVL|19;-1350|
 H Blood Watch|QID|9649|M|55.04,59.33|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
-T Ysera's Tears|QID|9649|M|56.42,56.82|Z|1950;Bloodmyst Isle|N|To Maatparm.|
-r Repair/Restock|QID|9740|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
-;F The Exodar|QID|9740|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|
-;N Get your Mount|QID|9740|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
-F Blood Watch|QID|9740|M|54.46,36.4|Z|1947;The Exodar|N|Fly back to Blood Watch. Skip if you're already there.|R|Draenei|
-A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.|LVL|18|
-A Ending Their World|QID|9759|PRE|9753|M|30.75,46.80|Z|1950;Bloodmyst Isle|N|From Demolitionist Legoso.|
-C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|{coords}Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
+T Ysera's Tears|QID|9649|M|56.42,56.82|Z|1950;Bloodmyst Isle|N|To Maatparm.| ;1350 exp
+F The Exodar|AVAILABLE|9759|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to do your lv 20 training.\n[color=FF0000]NOTE: [/color]Skip this step if you've already done it.|IZ|Blood Watch|
+= Level 20 Training|AVAILABLE|9759|M|PLAYER|CC|N|Do your level 20 training.\n \nAsk one of the guards if you don't know where your trainer is.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|20|IZ|1947;The Exodar|
+F Blood Watch|AVAILABLE|9759|M|68.51,63.61|Z|1947;The Exodar|N|Fly back to Blood Watch.|
+A Ending Their World|QID|9759|PRE|9753|M|30.82,46.64|Z|1950;Bloodmyst Isle|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Demolitionist Legoso in Vindicator's Rest.\n[color=FF0000]NOTE: [/color]If he's not here, either someone is already on the quest or he hasn't respawned yet and you'll have to wait.|NA|
+A Ending Their World|QID|9759|PRE|9753|M|30.82,46.64|Z|1950;Bloodmyst Isle|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Demolitionist Legoso in Vindicator's Rest to restart.\n[color=FF0000]NOTE: [/color]If he's not here, either someone is already on the quest or he hasn't respawned yet and you'll have to wait.|FAIL|
+C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|{coords}Kill Sunhawk Agents and Saboteurs.\n[color=FF0000]NOTE: [/color]Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
 C Ending Their World|QID|9759|M|19,52|Z|1950;Bloodmyst Isle|N|{coords}Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
 C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|{coords}Finish killing Sunhawk Agents and Saboteurs.|US|
 C The Sun Gate|QID|9740|M|18.95,63.5|Z|1950;Bloodmyst Isle|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
