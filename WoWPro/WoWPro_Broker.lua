@@ -968,6 +968,17 @@ function WoWPro:UpdateGuide(From)
     WoWPro:SendMessage("WoWPro_UpdateGuide",From)
 end
 
+function WoWPro:UpdateGuideImmediate(From)
+    if WoWPro.MaybeCombatLockdown() then
+        WoWPro.PendingGuideUpdate = true
+        WoWPro:dbp("UpdateGuideImmediate deferred until out of combat")
+        return
+    end
+    local fromTable = type(From) == "table" and From or { [tostring(From or "UpdateGuideImmediate")] = 1 }
+    WoWPro:dbp("UpdateGuideImmediate(%s)", tostring(From))
+    WoWPro.UpdateGuideReal(fromTable)
+end
+
 function WoWPro:UpdateGuideSlow(From)
     WoWPro:SendMessage("WoWPro_UpdateGuideSlow",From)
 end
@@ -4480,7 +4491,7 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     end
     WoWPro.why[step] = why
     if not noUpdate then
-        WoWPro:UpdateGuide("WoWPro.CompleteStep")
+        WoWPro:UpdateGuideImmediate("WoWPro.CompleteStep")
     end
 end
 
