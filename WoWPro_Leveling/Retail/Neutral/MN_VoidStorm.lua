@@ -297,7 +297,7 @@ T Home Sweet Grave|QID|91535|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astr
 T Like a Weed|QID|91536|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Confronting It|QID|91537|PRE|91535&91536|M|41.87,74.57|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Confronting It|QID|91537|QO|1|M|41.87,74.58|Z|2405; Voidstorm|H|N|Click the teapot over the fire to Brew Tea.|
-C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as she runs off, then Slay Shade of Grief.|
+C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as they run off, then Slay Shade of Grief.|
 T Confronting It|QID|91537|M|41.93,74.48|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Unchecked Emotions|QID|91541|PRE|91537|M|41.93,74.48|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Mighty and Superior|QID|91382|QO|1|M|48.04,75.38|Z|2405; Voidstorm|I|N|Watch Fidoficus slay Den-Gorger Zitoc.|
