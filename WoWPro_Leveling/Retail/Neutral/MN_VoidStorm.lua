@@ -371,7 +371,7 @@ A Warmth for the Soul|QID|90920|PRE|90919|M|59.06,56.63|Z|2405; Voidstorm|N|From
 C Warmth for the Soul|QID|90920|QO|1|M|59.06,56.63|Z|2405; Voidstorm|CHAT|N|Speak with Decimus. All answers work.|
 T Warmth for the Soul|QID|90920|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Shepherd of Fear|QID|90923|PRE|90920|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
-A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. CLick on the blue "cloud" to make it spawn.|RANK|2|
+A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. Click on the blue "cloud" to make it spawn.|RANK|2|
 C Shepherd of Fear|QID|90923|QO|1|M|54.09,44.64|Z|2405; Voidstorm|H|S|N|Follow the trail of void to infuse the blade with void essense. You can ignore the Tasty treats.|
 C The Fallen Wake|QID|90922|QO|1<1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
 C The Fallen Wake|QID|90922|QO|1<2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
