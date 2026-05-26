@@ -73,7 +73,10 @@ C Legacy of the Amani|QID|93011|M|67.54,47.58|Z|2536;Atal'Aman|QO|2|NC|N|Zul'jan
 C Legacy of the Amani|QID|93011|M|44.41,66.75|Z|2437; Zul'Aman|QO|3|CHAT|N|Speak to Kinduru.|
 T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437;Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437;Zul'Aman|N|From Orweyna.|
-
+C Dead End|QID|93012|M|43.82,68.34|Z|2437;Zul'Aman|QO|1|CHAT|N|Speak to Zul'jarra.|
+C Dead End|QID|93012|M|43.54,68.34|Z|2437;Zul'Aman|QO|2|NC|N|Use Kinduru's Mortar to grind Bog Herbs.|
+C Dead End|QID|93012|M|43.86,68.67|Z|2437;Zul'Aman|QO|3|NC|N|Pour Death Rites Mixture into the fires.|
+T Dead End|QID|93012|M|43.78,68.40|Z|2437;Zul'Aman|N|To Zul'jarra.|
 
 ]]
 end)
