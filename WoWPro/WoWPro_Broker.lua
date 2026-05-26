@@ -2758,7 +2758,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
-                if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
+                    WoWPro:dbp("NextStep(): Skipping implicit C completion for loot-backed step %d; loot not collected.", guideIndex)
+                elseif QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
                     WoWPro.CompleteStep(guideIndex,"Implicit criteria met")
                 end
             end
