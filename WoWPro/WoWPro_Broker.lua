@@ -2337,6 +2337,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             local step = WoWPro.step[guideIndex]
             local stepAction = WoWPro.action[guideIndex]
 
+            if guide.completion[guideIndex]
+               and stepAction == "C"
+               and WoWPro.lootitem and WoWPro.lootitem[guideIndex]
+               and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
+                guide.completion[guideIndex] = false
+                WoWPro.why[guideIndex] = "NextStep(): Cleared completion for loot-backed C step because required loot is no longer present."
+            end
+
             -- Uncomplete repeatable A steps if quest no longer in log (L tag controls visibility) --
             if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex]
                and stepAction == "A" and QID then
@@ -3975,8 +3983,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 end
+                local allLootComplete = allPositiveComplete and (not hasNegative or allNegativeComplete)
                  -- For steps with L tags, auto-complete when all items are collected
-                if allPositiveComplete then
+                if allLootComplete then
                     if stepAction == "l" then
                         -- Auto-complete loot steps (both optional and non-optional)
                         if rowIndex == 1 then
