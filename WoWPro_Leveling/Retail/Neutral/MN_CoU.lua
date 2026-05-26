@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide('The Curse of Ula'tek', 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
-WoWPro:GuideName(guide,"The Curse of Ula'tek")
+local guide = WoWPro:RegisterGuide('The Curse of Ulatek', 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
+WoWPro:GuideName(guide,"The Curse of Ulatek")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,90, 90)
 WoWPro:GuideQuestTriggers(guide, 92895)
