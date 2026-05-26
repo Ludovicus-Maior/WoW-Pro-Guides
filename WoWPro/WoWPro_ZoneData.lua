@@ -7504,7 +7504,7 @@ DefineZone12(1264, "Stormwind City!Eastern Kingdoms#1208", UIMapType.Zone, 1208,
 DefineZone12(1265, "Ironforge!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
 DefineZone12(1266, "Undercity!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
 DefineZone12(1267, "Eversong Woods!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
-DefineZone12(1268, "Ghostlands", UIMapType.Zone, 1208, nil)
+DefineZone12(1268, "Ghostlands!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
 DefineZone12(1269, "Silvermoon City!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
 DefineZone12(1270, "Isle of Quel'Danas!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
 DefineZone12(1271, "Gilneas!Eastern Kingdoms#1208", UIMapType.Zone, 1208, nil)
@@ -8254,7 +8254,7 @@ DefineZone12(2401, "Alliance Housing District#2401", UIMapType.Zone, 0000, nil)
 DefineZone12(2402, "Horde Housing District#2402", UIMapType.Zone, 0000, nil)
 DefineZone12(2403, "Vision of Orgrimmar", UIMapType.Zone, 0012, nil)
 DefineZone12(2404, "Vision of Stormwind!Eastern Kingdoms", UIMapType.Zone, 0013, nil)
-DefineZone12(2405, "Voidstorm", UIMapType.Zone, 2537, nil, 2444, 2506, 2507, 2526, 2527, 2528, 2529, 2530, 2556, 2571, 2572, 2573, 2574, 2581, 2582)
+DefineZone12(2405, "Voidstorm", UIMapType.Zone, 2537, nil, 2444, 2506, 2507, 2526, 2527, 2528, 2529, 2530, 2556, 2571, 2572, 2573, 2574, 2581, 2582, 2599, 2600, 2623)
 DefineZone12(2406, "Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
 DefineZone12(2407, "The Gallagio@Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
 DefineZone12(2408, "The Lucky Heart@Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
@@ -8266,9 +8266,10 @@ DefineZone12(2420, "The Pits@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346
 DefineZone12(2421, "The Low Decks@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
 DefineZone12(2422, "The High Decks@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
 DefineZone12(2423, "Entrance@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
-DefineZone12(2424, "Isle of Quel'Danas", UIMapType.Zone, 2537, nil, 2511, 2515, 2516, 2517, 2518, 2519, 2520, 2545) -- Collided {count=4,[2424]=true,[2432]=true,[2566]=true,[2565]=true}
+DefineZone12(2424, "Isle of Quel'Danas", UIMapType.Zone, 2537, nil, 2511, 2515, 2516, 2517, 2518, 2519, 2520, 2545, 2649) -- Collided {count=4,[2424]=true,[2432]=true,[2566]=true,[2565]=true}
 DefineZone12(2425, "Demolition Dome!Dungeon", UIMapType.Dungeon, 2346, 461)
 DefineZone12(2426, "Demolition Arena@Demolition Dome!Dungeon", UIMapType.Dungeon, 2346, 461)
+DefineZone12(2427, "Sporefall#2427!Dungeon", UIMapType.Dungeon, 0000, nil)
 DefineZone12(2428, "Research and Destruction@Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
 DefineZone12(2431, "Minimap_RingingDeeps_Coreway!Instance", UIMapType.Orphan, 2214, nil)
 DefineZone12(2432, "Isle of Quel'Danas", UIMapType.Zone, 2537, nil, 2566) -- Collided {count=4,[2424]=true,[2432]=true,[2566]=true,[2565]=true}
@@ -8303,7 +8304,7 @@ DefineZone12(2476, "Crystal Chambers@Archival Assault!Dungeon", UIMapType.Dungeo
 DefineZone12(2477, "Voidscar Cavern", UIMapType.Micro, 2371, nil)
 DefineZone12(2479, "Voidstorm#2479", UIMapType.Zone, 0000, nil)
 DefineZone12(2480, "Harandar#2480", UIMapType.Zone, 0000, nil)
-DefineZone12(2481, "Eastern Kingdoms#2481", UIMapType.Continent, 0000, nil, 2567, 2568, 2569)
+DefineZone12(2481, "Eastern Kingdoms#2481", UIMapType.Continent, 0000, nil, 2561, 2567, 2568, 2569)
 DefineZone12(2484, "Voidrazor Sanctuary!Dungeon", UIMapType.Dungeon, 2371, nil)
 DefineZone12(2492, "The Promenade@Windrunner Spire!Dungeon", UIMapType.Dungeon, 2395, 465)
 DefineZone12(2493, "Vereesa's Repose - Upper@Windrunner Spire!Dungeon", UIMapType.Dungeon, 2395, 465)
@@ -8344,11 +8345,12 @@ DefineZone12(2533, "March on Quel'Danas!Dungeon", UIMapType.Dungeon, 2537, 467, 
 DefineZone12(2534, "The Darkwell@March on Quel'Danas!Dungeon", UIMapType.Dungeon, 2533, 467)
 DefineZone12(2535, "Atal'Aman!Dungeon", UIMapType.Dungeon, 2437, nil)
 DefineZone12(2536, "Atal'Aman", UIMapType.Zone, 2437, nil)
-DefineZone12(2537, "Quel'Thalas", UIMapType.Continent, 0013, nil, 2395, 2405, 2413, 2424, 2432, 2437, 2533, 2541, 2565)
+DefineZone12(2537, "Quel'Thalas", UIMapType.Continent, 0013, nil, 2395, 2405, 2413, 2424, 2432, 2437, 2533, 2541, 2565) -- Collided {count=2,[2537]=true,[2561]=true}
 DefineZone12(2541, "Arcantina!Dungeon", UIMapType.Dungeon, 2537, nil)
 DefineZone12(2545, "Parhelion Plaza!Dungeon", UIMapType.Dungeon, 2424, nil)
 DefineZone12(2547, "Collegiate Calamity!Dungeon", UIMapType.Dungeon, 2393, nil)
 DefineZone12(2556, "Nexus Point Xenas!Dungeon", UIMapType.Dungeon, 2405, nil)
+DefineZone12(2561, "Quel'Thalas", UIMapType.Continent, 2481, nil) -- Collided {count=2,[2537]=true,[2561]=true}
 DefineZone12(2564, "Dreamer's Passage@Den of Nalorakk!Dungeon", UIMapType.Dungeon, 2437, 470)
 DefineZone12(2565, "Isle of Quel'Danas", UIMapType.Zone, 2537, nil) -- Collided {count=4,[2424]=true,[2432]=true,[2566]=true,[2565]=true}
 DefineZone12(2566, "Isle of Quel'Danas!Isle of Quel'Danas", UIMapType.Zone, 2432, nil)
@@ -8371,4 +8373,13 @@ DefineZone12(2583, "Wit'Kalar Crypt", UIMapType.Micro, 2437, nil)
 DefineZone12(2584, "Revantusk Sedge", UIMapType.Micro, 2437, nil)
 DefineZone12(2585, "Zul'Aman!Zul'Aman", UIMapType.Zone, 2437, nil)
 DefineZone12(2594, "Eversong Woods!Eversong Woods", UIMapType.Zone, 2395, nil)
-
+DefineZone12(2599, "Val", UIMapType.Zone, 2405, nil, 2617, 2618, 2619, 2620, 2621)
+DefineZone12(2600, "Naigtal", UIMapType.Zone, 2405, nil, 2646) -- Collided {[2623]=true,[2600]=true,count=2}
+DefineZone12(2617, "Void Acropolis!Dungeon2617", UIMapType.Dungeon, 2599, nil)
+DefineZone12(2618, "Void Acropolis!Dungeon2618", UIMapType.Dungeon, 2599, nil)
+DefineZone12(2619, "Val_Platform_A!Dungeon", UIMapType.Dungeon, 2599, nil)
+DefineZone12(2620, "Forgotten Chamber!Dungeon2620", UIMapType.Dungeon, 2599, nil)
+DefineZone12(2621, "Forgotten Chamber!Dungeon2621", UIMapType.Dungeon, 2599, nil)
+DefineZone12(2623, "Naigtal", UIMapType.Zone, 2405, nil) -- Collided {[2623]=true,[2600]=true,count=2}
+DefineZone12(2646, "Naigtal_Micro", UIMapType.Micro, 2600, nil)
+DefineZone12(2649, "Magister_Library_Micro", UIMapType.Micro, 2424, nil)
