@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide('The Curse of Ulatek', 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
-WoWPro:GuideName(guide,"The Curse of Ulatek")
+local guide = WoWPro:RegisterGuide("The Curse of Ula'tek", 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
+WoWPro:GuideName(guide,"The Curse of Ula'tek")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,90, 90)
 WoWPro:GuideQuestTriggers(guide, 92895)
@@ -67,11 +67,10 @@ C Maisara Caverns: Master of Souls|QID|92954|M|44.46,36.66|Z|2437;Zul'Aman|QO|2|
 C Maisara Caverns: Master of Souls|QID|92954|Z|2501|QO|3|NC|N|Malacrass's Notes.|
 C Maisara Caverns: Master of Souls|QID|92954|Z|2501|QO|4|N|Rak'tul defeated.|
 T Maisara Caverns: Master of Souls|QID|92954|M|44.46,36.66|Z|2437;Zul'Aman|N|To Zul'jan.|
-A Legacy of the Amani|QID|93011|PRE|93010|M|67.67,47.31|Z|2536;Atal'Aman|N|From Unknown.|
+A Legacy of the Amani|QID|93011|PRE|92954|M|67.67,47.31|Z|2536;Atal'Aman|N|From Zul'jan.|
 C Legacy of the Amani|QID|93011|M|67.77,47.01|Z|2536;Atal'Aman|QO|1|CHAT|N|Speak to Zul'jan (Optional).|
 C Legacy of the Amani|QID|93011|M|67.54,47.58|Z|2536;Atal'Aman|QO|2|NC|N|Zul'jan defended.|
-C Spot the Scoundrels|Z|Atal'Aman|SO|1|S|N|Search for sneaking cultists and oust them.|
-C Legacy of the Amani|QID|93011|M|44.41,66.75|Z|2437;Atal'Aman|QO|3|CHAT|N|Speak to Kinduru.|
+C Legacy of the Amani|QID|93011|M|44.41,66.75|Z|2437; Zul'Aman|QO|3|CHAT|N|Speak to Kinduru.|
 T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437;Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437;Zul'Aman|N|From Orweyna.|
 
