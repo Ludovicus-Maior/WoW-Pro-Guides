@@ -106,7 +106,7 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.94,26.46|Z|2393; Silvermoon City|Q
 C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|QO|3|H|N|Search Tarelin's body.|
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
-C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
+C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|S!US|
 t Murder Row: One Fel Swoop|QID|90822|M|56.75,61.29|Z|2393; Silvermoon City|N|To Belath Dawnblade.|IZ|Silvermoon City|
 
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|
