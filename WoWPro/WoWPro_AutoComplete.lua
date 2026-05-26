@@ -335,7 +335,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
 					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
-						return
+					break
 					else
 						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
 					end
@@ -349,7 +349,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 -- Quest Completion via QuestLog--
                 if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
 					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
-						return
+					break
 					else
 						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
 						WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
