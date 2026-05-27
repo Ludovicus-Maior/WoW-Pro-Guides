@@ -504,7 +504,7 @@ C Disrupt the Guilty|QID|93436|M|52.10,19.29|Z|2536; Atal'Aman|QO|1<1|H|N|Click 
 K Zungam|ACTIVE|93435|M|43.58,31.78|Z|2536; Atal'Aman|QO|2|N|Slay Zungam.|T|Zungam|
 C Disrupt the Guilty|QID|93436|M|67.23,47.47|Z|2536; Atal'Aman|QO|3|H|N|Click the Warlord's Chest.|
 K Prigmon|ACTIVE|93435|M|34.43,80.11|Z|2536; Atal'Aman|QO|1|N|Slay Prigmon.|T|Prigmon|
-C Disrupt the Guilty|QID|93436|QO|1<2|M|52.10,19.29|Z|2536; Atal'Aman|H|N|Click the feast.|
+C Disrupt the Guilty|QID|93436|QO|1<2|M|22.89, 81.01|Z|2536; Atal'Aman|H|N|Click the feast.|
 K Harrison Jones|ACTIVE|93435|M|8.47,40.77|Z|2536; Atal'Aman|QO|4|N|Slay Harrison Jones. (I know you have wanted to for awhile.|T|Harrison Jones|
 K Budd Nedreck|ACTIVE|93435|M|10.59,27.38|Z|2536; Atal'Aman|QO|3|N|Slay Budd Nedreck.|T|Budd Nedreck|
 C Disrupt the Guilty|QID|93436|M|7.66,8.84|Z|2536; Atal'Aman|QO|1<3|H|N|And the last one way out on the edge of the battlefield.|
@@ -512,7 +512,7 @@ C Hex the Innocent|QID|93436|M|37.58,79.91|Z|2536; Atal'Aman|QO|2|H|U|259967|N|F
 T Hex the Innocent, Disrupt the Guilty|QID|93436|M|45.79,47.33|Z|2536; Atal'Aman|N|To Elder Doru.|
 T Four Instigators|QID|93435|M|45.79,47.33|Z|2536; Atal'Aman|N|To Torundo the Grizzled.|
 A In Their Own Blood|QID|93437|PRE|93436&93435|M|45.79,47.33|Z|2536; Atal'Aman|N|From Torundo the Grizzled.|RANK|2|
-C In Their Own Blood|QID|93437|M|34.49,25.46;16.80,21.34;22.19,66.96;34.49,65.25|CN|Z|2536; Atal'Aman|QO|1|NC|N|Inhabit a Loa Avatar. Any of the 4 works. Stand in the highlighted sigil, and use [color=33fff9] Extra Action Button [/color].|
+C In Their Own Blood|QID|93437|M|34.49,25.46;16.80,21.34;22.19,66.96;34.49,65.25|CN|Z|2536; Atal'Aman|QO|1|NC|N|Inhabit a Loa Avatar. I reccomend Halazzi. Stand in the highlighted sigil, and use [color=33fff9] Extra Action Button [/color].|
 C In Their Own Blood|QID|93437|M|38.29,72.68|Z|2536; Atal'Aman|QO|2|NC|N|Slay Echoes.|
 C In Their Own Blood|QID|93437|M|38.62,70.42|Z|2536; Atal'Aman|QO|3|NC|N|Use Time Flies ability to travel (Optional).|
 C In Their Own Blood|QID|93437|M|63.55,47.43|Z|2536; Atal'Aman|QO|4|N|Slay the Raid Leader. The rightmost button on your Vehicle UI is a teleport to the raid leader.|

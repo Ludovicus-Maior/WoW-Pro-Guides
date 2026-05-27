@@ -77,7 +77,7 @@ C Paved in Ash|QID|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|QO|1|CHAT|N
 h Wayfarer's Rest|ACTIVE|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|N|Consider setting your hearthstone here, Dornagal's not so convenient anymore.|
 C Paved in Ash|QID|86735^86736|M|52.48,78.10|Z|2393; Silvermoon City|QO|5|CHAT|N|Talk to Valeera Sanguinar at the Reliquary.|
 T Paved in Ash|QID|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
-A Fair Breeze, Light Bloom|QID|86737|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+A Fair Breeze, Light Bloom|QID|86737|AVAILABLE|94871|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|; Cannot pick up if we have the quest from the mission table
 C Fair Breeze, Light Bloom|QID|86737|M|45.37,70.42|Z|2393; Silvermoon City|QO|1|H|N|Obtain the arcane projector from Rommath.|
 T Murder Row: Rumors Abound|QID|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|Fly up to the platform to find Belath Dawnblade.|
 A Murder Row: Loose Lips|QID|90818|PRE|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
@@ -106,7 +106,7 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.94,26.46|Z|2393; Silvermoon City|Q
 C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|QO|3|H|N|Search Tarelin's body.|
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
-C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
+C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|S!US|
 t Murder Row: One Fel Swoop|QID|90822|M|56.75,61.29|Z|2393; Silvermoon City|N|To Belath Dawnblade.|IZ|Silvermoon City|
 
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|

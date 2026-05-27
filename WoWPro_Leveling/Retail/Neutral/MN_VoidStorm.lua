@@ -232,7 +232,7 @@ A Hunt the Light|QID|86520|PRE|86519|M|60.08,76.17|Z|2405; Voidstorm|N|From Alle
 C Hunt the Light|QID|86520|QO|1|M|64.00,61.83|Z|2405; Voidstorm|I|N|Travel to Nexus-Point Xenas.|
 T Hunt the Light|QID|86520|M|64.09,61.82|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Nexus-Point Xenas: Eclipse|QID|86521|PRE|86520|M|64.09,61.82|Z|2405; Voidstorm|N|From Alleria Windrunner.|
-C Nexus-Point Xenas: Eclipse|QID|86521|QO|3|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Run the dungeon, after the end talk to Decimus to weaken the storm.|
+C Nexus-Point Xenas: Eclipse|QID|86521|QO|4|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Run the dungeon, after the end talk to Decimus to weaken the storm.|
 T Nexus-Point Xenas: Eclipse|QID|86521|M|45.93,64.58|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Daylight is Breaking|QID|86522|PRE|86521|M|45.93,64.58|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 P Silvermoon City|ACTIVE|86522|M|45.43,63.77|Z|2405; Voidstorm|N|You can use the Portal for a quick trip, or travel on your own.|IZ|The Approach|
@@ -254,7 +254,7 @@ T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Re
 A The Conquered Heroes|QID|91145|PRE|91887&91343&86522|M|51.84,71.90|Z|2405; Voidstorm|N|From Knight Anais.|RANK|2|
 
 ; Dance with the Devil |
-A A Born Killer|QID|90914|PRE|91828|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
+A A Born Killer|QID|90914|PRE|86522|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C A Born Killer|QID|90914|QO|1|M|55.38,74.72|Z|2405; Voidstorm|S|N|Void Essence drops from just about any mob, so don't worry about this quest and just go about your business.|
 ;A Domanaar's Best Friend (3 quests) |
 C Harvest of Darkness|QID|91363|QO|1|M|53.72,74.06|Z|2405; Voidstorm|S|N|Void-Infused Morsel can be looted from the mobs in this area.|
@@ -297,7 +297,7 @@ T Home Sweet Grave|QID|91535|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astr
 T Like a Weed|QID|91536|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Confronting It|QID|91537|PRE|91535&91536|M|41.87,74.57|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Confronting It|QID|91537|QO|1|M|41.87,74.58|Z|2405; Voidstorm|H|N|Click the teapot over the fire to Brew Tea.|
-C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as she runs off, then Slay Shade of Grief.|
+C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as they run off, then Slay Shade of Grief.|
 T Confronting It|QID|91537|M|41.93,74.48|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Unchecked Emotions|QID|91541|PRE|91537|M|41.93,74.48|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Mighty and Superior|QID|91382|QO|1|M|48.04,75.38|Z|2405; Voidstorm|I|N|Watch Fidoficus slay Den-Gorger Zitoc.|
@@ -371,7 +371,7 @@ A Warmth for the Soul|QID|90920|PRE|90919|M|59.06,56.63|Z|2405; Voidstorm|N|From
 C Warmth for the Soul|QID|90920|QO|1|M|59.06,56.63|Z|2405; Voidstorm|CHAT|N|Speak with Decimus. All answers work.|
 T Warmth for the Soul|QID|90920|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Shepherd of Fear|QID|90923|PRE|90920|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
-A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. CLick on the blue "cloud" to make it spawn.|RANK|2|
+A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. Click on the blue "cloud" to make it spawn.|RANK|2|
 C Shepherd of Fear|QID|90923|QO|1|M|54.09,44.64|Z|2405; Voidstorm|H|S|N|Follow the trail of void to infuse the blade with void essense. You can ignore the Tasty treats.|
 C The Fallen Wake|QID|90922|QO|1<1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
 C The Fallen Wake|QID|90922|QO|1<2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
