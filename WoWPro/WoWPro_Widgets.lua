@@ -69,9 +69,8 @@ function WoWPro:CreateAction(parent, anchor)
     tooltip:SetHeight(125)
     tooltip:SetWidth(64)
     tooltip:SetAlpha(1)
-    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
-    tooltip:SetFrameLevel(1000)
-    tooltip:SetToplevel(true)
+    tooltip:SetFrameStrata("DIALOG")
+    tooltip:SetFrameLevel(100)
     tooltip:SetClampedToScreen(true)
     tooltip:Hide()
 
@@ -80,22 +79,21 @@ function WoWPro:CreateAction(parent, anchor)
     tooltiptext:SetPoint("RIGHT", -10, 0)
     tooltiptext:SetJustifyH("LEFT")
     tooltiptext:SetJustifyV("TOP")
-    tooltiptext:SetWidth(50)
+    tooltiptext:SetWidth(160)
     tooltiptext:SetAlpha(1)
     tooltiptext:SetText("")
     tooltip.text = tooltiptext
 
     frame:SetScript("OnEnter", function()
-        local textWidth = tooltiptext:GetStringWidth() + 20
-        if textWidth < 80 then textWidth = 80 end
-        if textWidth > 260 then textWidth = 260 end
-        tooltip:SetWidth(textWidth)
-        tooltiptext:SetWidth(textWidth - 20)
+        local width = tooltiptext:GetStringWidth() + 20
+        if width < 80 then width = 80 end
+        if width > 260 then width = 260 end
+        tooltiptext:SetWidth(width - 20)
+        tooltip:SetWidth(width)
 
         tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
-        tooltiptext:SetHeight(125)
         tooltiptext:SetHeight(tooltiptext:GetStringHeight())
-        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
+        tooltip:SetHeight(tooltiptext:GetStringHeight() + 20)
         tooltip:Show()
     end)
     frame:SetScript("OnLeave", function()
@@ -562,7 +560,7 @@ do
     tooltip:SetBackdropColor(0, 0, 0, 0.7)
     tooltip:SetHeight(125)
     tooltip:SetWidth(512)
-    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
+    tooltip:SetFrameStrata("DIALOG")
     tooltip:SetFrameLevel(100)
 
     tooltip:Hide()
@@ -584,9 +582,8 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     local tooltip = WoWPro.GuideRowTooltip
     local tooltiptext = tooltip.tooltiptext
     tooltip:SetParent(_G.UIParent)
-    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
-    tooltip:SetFrameLevel(1000)
-    tooltip:SetToplevel(true)
+    tooltip:SetFrameStrata("DIALOG")
+    tooltip:SetFrameLevel(100)
     row:SetPoint("LEFT", 12, 0)
     row:SetHeight(rowHeight or 25)
 
