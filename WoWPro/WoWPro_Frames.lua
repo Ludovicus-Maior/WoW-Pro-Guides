@@ -1164,7 +1164,7 @@ function WoWPro:CreateDialogBox(name, w, h)
     frame:SetBackdropColor(0.05, 0.05, 0.05, 1)
     frame:SetHeight(h)
     frame:SetWidth(w)
-    frame:SetFrameStrata("TOOLTIP")
+    frame:SetFrameStrata("FULLSCREEN_DIALOG")
     frame:Hide()
 
     local titletext = frame:CreateFontString()

@@ -637,7 +637,7 @@ function WoWPro:CreateErrorLog(title)
     ErrorLog = _G.CreateFrame("Frame", "WoWProErrorLog", _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     ErrorLog:Hide()
     ErrorLog:SetPoint("CENTER", "UIParent", "CENTER")
-    ErrorLog:SetFrameStrata("TOOLTIP")
+    ErrorLog:SetFrameStrata("FULLSCREEN_DIALOG")
     ErrorLog:SetHeight(512)
     ErrorLog:SetWidth(768)
     ErrorLog:SetBackdrop({
