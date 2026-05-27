@@ -798,10 +798,12 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function(event, ...)
 end)
 
 -- Auto-Completion --
+-- TAXIMAP_OPENED is only for auto-select route selection and flight-point discovery.
+-- It does not mean the ride has started or ended.
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if WoWPro.action[qidx] == "F" then
+    if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
         if WoWProCharDB.AutoSelect == true then
             WoWPro.TakeTaxi(WoWPro.step[qidx])
         else
@@ -819,7 +821,8 @@ end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if WoWPro.action[qidx] == "F" then
+    local action = WoWPro.action[qidx]
+    if action == "F" or action == "b" or action == "R" then
         if _G.UnitOnTaxi("player") then
             WoWPro.TaxiPendingStep = qidx
             WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! pending taxi completion for step %d", qidx)
@@ -834,7 +837,8 @@ WoWPro.RegisterEventHandler("PLAYER_CONTROL_GAINED", function(event, ...)
         if not _G.UnitOnTaxi("player") then
             local qidx = WoWPro.TaxiPendingStep
             WoWPro.TaxiPendingStep = nil
-            if WoWPro.action[qidx] == "F" then
+            local action = WoWPro.action[qidx]
+            if action == "F" or action == "b" or action == "R" then
                 WoWPro:dbp("PLAYER_CONTROL_GAINED: Taxi has ended, completing pending step %d", qidx)
                 WoWPro.CompleteStep(qidx, "Taxi ride completed")
             else
