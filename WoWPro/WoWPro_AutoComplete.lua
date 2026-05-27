@@ -450,6 +450,8 @@ function WoWPro.AutoCompleteZone(_event)
     local action = WoWPro.action[currentindex] or "?"
     local step = WoWPro.step[currentindex] or "?"
     local targetzone = WoWPro.targetzone[currentindex] or "!"
+    local zoneTag = select(1, (";"):split(targetzone)) or targetzone
+    zoneTag = zoneTag:trim()
     local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
     WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
@@ -458,12 +460,12 @@ function WoWPro.AutoCompleteZone(_event)
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
                 return true
             end
-            if (targetzone == zonetext) or (targetzone == subzonetext) then
+            if (zoneTag == zonetext) or (zoneTag == subzonetext) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
                 return true
             end
             local _, _, mapId = WoWPro:GetPlayerZonePosition()
-            if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
+            if (tonumber(zoneTag) and tonumber(zoneTag) == mapId) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
                 return true
             end
