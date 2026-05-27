@@ -8,25 +8,25 @@ WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Hagar's Invitation|QID|92895|M|45.33,70.26|Z|2393|N|From Orweyna.|
-C Hagar's Invitation|QID|92895|M|36.97,68.16|Z|2393|QO|1|NC|N|Take the Rootway to Harandar (Optional).|
-C Hagar's Invitation|QID|92895|M|44.34,53.07|Z|2576;Harandar|QO|2|NC|N|Arrive at the meeting.|
-T Hagar's Invitation|QID|92895|M|44.34,53.07|Z|2576;Harandar|N|To Orweyna.|
-A History Lesson|QID|92899|PRE|92895|M|44.34,53.07|Z|2576;Harandar|N|From Orweyna.|
-C History Lesson|QID|92899|M|49.65,42.20|Z|2576;Harandar|QO|1|CHAT|N|Speak to delegates.|
-C History Lesson|QID|92899|M|44.20,53.18|Z|2576;Harandar|QO|2|CHAT|N|Speak to Orweyna.|
-T History Lesson|QID|92899|M|43.62,51.07|Z|2576;Harandar|N|To Loa Speaker Kinduru.|
-A A Favor for Kinduru|QID|92900|PRE|92899|M|43.62,51.07|Z|2576;Harandar|N|From Loa Speaker Kinduru.|
-C A Favor for Kinduru|QID|92900|M|44.67,48.02|Z|2576;Harandar|QO|1|NC|N|Stay awhile and listen to the elves (Optional).|
-C A Favor for Kinduru|QID|92900|M|49.24,42.13|Z|2576;Harandar|QO|2|NC|N|Stay awhile and listen to the trolls (Optional).|
-C A Favor for Kinduru|QID|92900|M|54.38,52.48|Z|2413;Harandar|QO|3|CHAT|N|Speak to Zul'jan.|
-C A Favor for Kinduru|QID|92900|M|38.80,46.82|Z|2413;Harandar|QO|4|NC|N|Meet at the Den of Echoes.|
-T A Favor for Kinduru|QID|92900|M|38.80,46.82|Z|2413;Harandar|N|To Zul'jan.|
-A Revisionist History|QID|92901|PRE|92900|M|38.72,46.83|Z|2413;Harandar|N|From Orweyna.|
-C Revisionist History|QID|92901|M|37.54,47.76|Z|2413;Harandar|QO|1|NC|N|Ancient visionstone activated.|
-C Revisionist History|QID|92901|M|36.30,45.83|Z|2413;Harandar|QO|2|NC|N|Assist the Amani (100%).|
-C Revisionist History|QID|92901|M|34.97,43.86|Z|2413;Harandar|QO|3|NC|N|Summoning completed.|
-T Revisionist History|QID|92901|M|34.91,43.94|Z|2413;Harandar|N|To Orweyna.|
+A Hagar's Invitation|QID|92895|M|45.33,70.26|Z|2393; Silvermoon City|N|From Orweyna.|
+C Hagar's Invitation|QID|92895|M|36.97,68.16|Z|2393; Silvermoon City|QO|1|NC|N|Take the Rootway to Harandar (Optional).|
+C Hagar's Invitation|QID|92895|M|44.34,53.07|Z|2576; The Den|QO|2|NC|N|Arrive at the meeting.|
+T Hagar's Invitation|QID|92895|M|44.34,53.07|Z|2576; The Den|N|To Orweyna.|
+A History Lesson|QID|92899|PRE|92895|M|44.34,53.07|Z|2576; The Den|N|From Orweyna.|
+C History Lesson|QID|92899|M|49.65,42.20|Z|2576; The Den|QO|1|CHAT|N|Speak to delegates.|
+C History Lesson|QID|92899|M|44.20,53.18|Z|2576; The Den|QO|2|CHAT|N|Speak to Orweyna.|
+T History Lesson|QID|92899|M|43.62,51.07|Z|2576; The Den|N|To Loa Speaker Kinduru.|
+A A Favor for Kinduru|QID|92900|PRE|92899|M|43.62,51.07|Z|2576; The Den|N|From Loa Speaker Kinduru.|
+C A Favor for Kinduru|QID|92900|M|44.67,48.02|Z|2576; The Den|QO|1|NC|N|Stay awhile and listen to the elves (Optional).|
+C A Favor for Kinduru|QID|92900|M|49.24,42.13|Z|2576; The Den|QO|2|NC|N|Stay awhile and listen to the trolls (Optional).|
+C A Favor for Kinduru|QID|92900|M|54.38,52.48|Z|2413; Harandar|QO|3|CHAT|N|Speak to Zul'jan.|
+C A Favor for Kinduru|QID|92900|M|38.80,46.82|Z|2413; Harandar|QO|4|NC|N|Meet at the Den of Echoes.|
+T A Favor for Kinduru|QID|92900|M|38.80,46.82|Z|2413; Harandar|N|To Zul'jan.|
+A Revisionist History|QID|92901|PRE|92900|M|38.72,46.83|Z|2413; Harandar|N|From Orweyna.|
+C Revisionist History|QID|92901|M|37.54,47.76|Z|2413; Harandar|QO|1|NC|N|Ancient visionstone activated.|
+C Revisionist History|QID|92901|M|36.30,45.83|Z|2413; Harandar|QO|2|NC|N|Assist the Amani (100%).|
+C Revisionist History|QID|92901|M|34.97,43.86|Z|2413; Harandar|QO|3|NC|N|Summoning completed.|
+T Revisionist History|QID|92901|M|34.91,43.94|Z|2413; Harandar|N|To Orweyna.|
 A Return to Zul'Aman|QID|92904|PRE|92901|M|34.89,43.98|Z|2413|N|From Zul'jan.|
 C Return to Zul'Aman|QID|92904|M|34.83,43.87|Z|2413|QO|1|NC|N|Take the Rootway to Zul'Aman (Optional).|
 C Return to Zul'Aman|QID|92904|M|16.84,23.68|Z|2536;Atal'Aman|QO|2|NC|N|Arrive at Talonstrike Terrace.|
