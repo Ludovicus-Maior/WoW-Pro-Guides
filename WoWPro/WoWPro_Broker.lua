@@ -4012,6 +4012,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         elseif stepAction == "A" then
                             WoWPro.why[guideIndex] = "NextStep(): Optional accept ready - enough loot in bags."
                             skip = false
+                        elseif stepAction == "R" or stepAction == "F" or stepAction == "H" or stepAction == "b" or stepAction == "P" or stepAction == "f" then
+                            -- Optional travel steps should remain visible when the loot prerequisite is met
+                            WoWPro.why[guideIndex] = "NextStep(): Optional travel step shown - enough loot in bags."
+                            skip = false
                         else
                             -- U, C, B, N, etc. - auto-complete when items collected
                             if rowIndex == 1 then
