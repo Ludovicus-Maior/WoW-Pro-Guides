@@ -46,7 +46,7 @@ A A Titanic Problem|QID|56374|M|50.12,59.22|Z|Chamber of Heart!Dungeon1473|N|Fro
 R Silithus: The Wound|QID|56374|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
 T A Titanic Problem|QID|56374|M|69.85,52.18|Z|249; Uldum|N|To Magni Bronzebeard.|
 A The Halls of Origination|QID|56209|PRE|56374|M|69.85,52.18|Z|249; Uldum|N|From Magni Bronzebeard.|
-R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|249; Uldum|TZ|1540|N|Zone into the Halls of Origination.|
+R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|249; Uldum|TZ|1540; The Vault of Lights@Halls of Origination!Dungeon1540|N|Zone into the Halls of Origination.|
 C Unwelcome Guests|ACTIVE|56209|M|53.38,62.78|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|1|N|Reach the inner chambers of the Halls of Origination.|
 C Ever Watching|ACTIVE|56209|M|57.91,66.67|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<1|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Ever Watching|ACTIVE|56209|M|58.53,66.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<2|N|Disable the defensive systems in the Chamber of Prophecy.|
@@ -176,7 +176,7 @@ P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81; Silithus|NC|N|Take the Portal 
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
 P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|85; Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
 F Iron Summit|ACTIVE|57290|M|73.79,52.80|Z|Twilight Highlands|N|To Gorthul, to Fly to Iron Summit.|FACTION|Horde|
-R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
+R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538; The Broken Hall@Blackwing Descent!Dungeon1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
 C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|
 C Something must be done|ACTIVE|57290|SO|2|M|47.88,84.09|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Speak with Wrathion.|
 K Extractor Thelsara|ACTIVE|57290|SO|3;1|M|71.46,69.77|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Work your way torward the right and then kill Thelsara.|

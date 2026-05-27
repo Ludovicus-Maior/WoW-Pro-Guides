@@ -38,7 +38,7 @@ A Archives Return|QID|72935|PRE|75023|M|67.09,11.77|Z|2025|N|From Senegos.|
 F Azure Archives|ACTIVE|72935|M|62.07,18.93|Z|Thaldraszus|N|Head to the flightmaster and take a flight to Azure Archives. (or fly on your own.)|
 T Archives Return|QID|72935|M|39.46,63.06|Z|2024|N|To Kalecgos.|
 A Azuregos's Support|QID|72936|PRE|72935|M|39.46,63.06|Z|2024|N|From Kalecgos.|
-P Nexus|ACTIVE|72936|M|39.38,62.95|Z|The Azure Span!Dragon Isles|N|Take the portal to Azure Archives.|TZ|4024|
+P Nexus|ACTIVE|72936|M|39.38,62.95|Z|The Azure Span!Dragon Isles|N|Take the portal to Azure Archives.|TZ|2024; The Azure Span!Dragon Isles|
 T Azuregos's Support|QID|72936|M|22.50,23.82|Z|114|N|To Azuregos.|
 A Unusual Disruptions|QID|72937|PRE|72936|M|22.50,23.82|Z|114|N|From Azuregos.|
 C Unusual Disruptions|QID|72937|M|26.71,24.70|Z|114|QO|1|NC|U|205931|N|Fly over to the bridge (not way up to the rings) click Azuregos' staff to contain the Northern disruption.|
@@ -101,7 +101,7 @@ T Zeroing Debt|QID|73181|M|39.46,62.98|Z|2024|N|To Senegos.|
 ;A Crystalsong Forest|QID|73091|PRE|72938|M|39.46,63.04|Z|2024|N|From Kalecgos.|
 T Crystalsong Forest|QID|73091|M|39.46,63.04|Z|2024|N|To Kalecgos.|
 A Regrets in Crystal|QID|73090|PRE|73091|M|39.46,63.04|Z|2024|N|From Kalecgos.|
-P Crystalsong Forest|ACTIVE|73090|M|39.42,63.01|Z|The Azure Span!Dragon Isles|N|Take the portal to Crystalsong Forest .|TZ|121|
+P Crystalsong Forest|ACTIVE|73090|M|39.42,63.01|Z|The Azure Span!Dragon Isles|N|Take the portal to Crystalsong Forest .|TZ|121; Zul'Drak|
 T Regrets in Crystal|QID|73090|M|91.31,57.24|Z|127|N|To Lanigosa.|
 A Those We Left Behind|QID|72670|PRE|73090|M|91.31,57.24|Z|127|N|From Lanigosa.|
 A A Shattered Legacy|QID|72674|PRE|73090|M|91.31,57.24|Z|127|N|From Lanigosa.|
@@ -151,7 +151,7 @@ T Blue is My Favorite Color|QID|74291|M|39.46,63.04|Z|2024|N|To Kalecgos.|
 ;A Theramore|QID|72939|PRE|72938|M|39.47,63.02|Z|2024|N|From Kalecgos.|
 T Theramore|QID|72939|M|39.46,63.04|Z|2024|N|To Kalecgos.|
 A The Sullied Banner|QID|73188|PRE|72939|M|39.46,63.04|Z|2024|N|From Kalecgos.|
-P Theramore|ACTIVE|73188|M|39.46,63.02|Z|The Azure Span!Dragon Isles|N|Take the portal to Theremore.|TZ|70|
+P Theramore|ACTIVE|73188|M|39.46,63.02|Z|The Azure Span!Dragon Isles|N|Take the portal to Theremore.|TZ|70; Dustwallow Marsh|
 T The Sullied Banner|QID|73188|M|62.91,49.69|Z|70|N|To Surigosa.|
 A Aftershocks|QID|72832|PRE|73188|M|62.91,49.69|Z|70|N|From Surigosa.|
 A Creative Solutions|QID|72831|PRE|73188|M|62.81,49.73|Z|70|N|From Kalecgos.|
