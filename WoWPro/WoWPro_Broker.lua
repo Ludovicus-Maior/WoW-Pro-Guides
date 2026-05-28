@@ -2065,9 +2065,13 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro:dbp("UpdateGuideReal(%s): Running", why)
     if not WoWPro.GuideFrame:IsVisible() then
-        -- Cinematic hides things ...
-        WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+        -- Cinematic hides things (or user collapsed frame with double-click).
+        -- Only re-queue if the user did not intentionally collapse the frame.
+        if not WoWPro.UserCollapsed then
+            WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+        end
         WoWPro:dbp("UpdateGuideReal(): Punting")
+        return
     end
     if not WoWPro.GuideLoaded then
         WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
