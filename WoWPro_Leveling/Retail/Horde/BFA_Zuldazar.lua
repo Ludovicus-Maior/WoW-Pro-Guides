@@ -183,7 +183,7 @@ F The Great Seal|ACTIVE|47439|M|49.72,26.28|Z|0862;Zuldazar|N|At Paku'ai Rip'nat
 T Gonk, Lord of the Pack|QID|47439|M|49.89,33.34|Z|1165;Dazar'alor|N|To Wardruid Loti at the very bottom of the stairs.|
 A The Bargain is Struck|QID|48897|PRE|47439|M|49.89,33.34|Z|1165;Dazar'alor|N|From Wardruid Loti.|
 A The Bargain is Struck|QID|47432|PRE|47440|M|49.92,33.38|Z|1165;Dazar'alor|N|From Hexlord Raal.|
-R Flightmaster, The Great Seal|ACTIVE|47432|M|49.54,32.83;49.91,39.56|CS|Z|1165;Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|TZ|1165;Dazar'alor|
+R Flightmaster, The Great Seal|ACTIVE|47432|M|49.54,32.83;49.91,39.56|CS|Z|1165;Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|TZ|1165; Dazar'alor|
 R Flightmaster, The Great Seal|ACTIVE|48897|M|49.54,32.83;51.61,41.33|CC|Z|1165;Dazar'alor|N|Use Gonk's totem for the speed buff and up the stairs to the Flightmaster area.|
 ; R2 quest chain
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|1165;Dazar'alor|N|From Huntmaster Kil'ja.|RANK|2|

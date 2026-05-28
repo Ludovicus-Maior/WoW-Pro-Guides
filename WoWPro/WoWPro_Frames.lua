@@ -1730,6 +1730,7 @@ function WoWPro:CreateTitleBar()
         if WoWPro.GuideFrame:IsVisible() then
             if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
             WoWPro.GuideFrame:Hide()
+            WoWPro.UserCollapsed = true
             WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(this:GetHeight())
@@ -1738,6 +1739,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
+            WoWPro.UserCollapsed = false
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)

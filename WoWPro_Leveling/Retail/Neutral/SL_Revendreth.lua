@@ -38,7 +38,7 @@ t Revendreth|QID|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.
 A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Sanctuary of the Mad|ACTIVE|63037|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|COV|Venthyr|
-R Sinfall Reaches|ACTIVE|63037|CC|M|29.35,42.68|TZ|1699|N|Take the Elevator up into Sinfall and then go down, and thru the mirror.|TOF|COV|Venthyr|
+R Sinfall Reaches|ACTIVE|63037|CC|M|29.35,42.68|TZ|1699; Sinfall Reaches@Sinfall!Dungeon|N|Take the Elevator up into Sinfall and then go down, and thru the mirror.|TOF|COV|Venthyr|
 T Dark Aspirations|QID|63037|CS|M|51.65,37.56|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|TOF|COV|Venthyr|
 F Darkhaven|ACTIVE|62740|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 T Dark Aspirations|QID|62740|CS|M|61.12,59.05;61.4,60.4|Z|1525;Revendreth|N|To Prince Renathal.|TOF|
