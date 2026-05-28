@@ -798,10 +798,12 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function(event, ...)
 end)
 
 -- Auto-Completion --
+-- TAXIMAP_OPENED is only for auto-select route selection and flight-point discovery.
+-- It does not mean the ride has started or ended.
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+    if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
         if WoWProCharDB.AutoSelect == true then
             WoWPro.TakeTaxi(WoWPro.step[qidx])
         else
@@ -819,15 +821,37 @@ end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+    local action = WoWPro.action[qidx]
+    if action == "F" or action == "b" or action == "R" then
         if _G.UnitOnTaxi("player") then
-            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
-            WoWPro.CompleteStep(qidx,"Took a taxi")
+            WoWPro.TaxiPendingStep = qidx
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! pending taxi completion for step %d", qidx)
         else
             WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
         end
     end
 end
+
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_GAINED", function(event, ...)
+    if WoWPro.TaxiPendingStep then
+        if not _G.UnitOnTaxi("player") then
+            local currentindex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
+            if currentindex == WoWPro.TaxiPendingStep then
+                local completed = WoWPro.AutoCompleteZone("PLAYER_CONTROL_GAINED")
+                if completed then
+                    WoWPro:dbp("PLAYER_CONTROL_GAINED: completed pending taxi step %d", WoWPro.TaxiPendingStep)
+                    WoWPro.TaxiPendingStep = nil
+                else
+                    WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d ended but destination not reached", WoWPro.TaxiPendingStep)
+                end
+            else
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d is not the current active step %d", WoWPro.TaxiPendingStep, currentindex)
+            end
+        else
+            WoWPro:dbp("PLAYER_CONTROL_GAINED: still on taxi, waiting for disembark")
+        end
+    end
+end)
 
 WoWPro.RegisterEventHandler("HEARTHSTONE_BOUND", function(event, ...)
     -- In all clients:
