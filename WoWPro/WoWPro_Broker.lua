@@ -1242,51 +1242,21 @@ function WoWPro:RowUpdate(offset)
     end
 
     -- Merge: stickies first, then regular.
-    -- US step visibility: US steps are only eligible to be shown after their corresponding S step is completed.
-    -- This means US steps are not added to the visible stepList until their S step is complete, regardless of US conditionals.
-    -- When a US step becomes the activestep, it completes its S step immediately (see NextStep logic).
+    -- US steps should only be visible when they are the first regular row after active stickies.
     local stepList = {}
     for _, v in ipairs(stickySteps) do
         table.insert(stepList, v)
     end
+    local firstRegular = true
     for _, v in ipairs(regularSteps) do
-        -- If this is a US step (unsticky and not sticky)
         if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
-            -- Find the corresponding S step by QID, questtext (QO), and lootitem (L tag) if present
-            local foundSticky = nil
-            local qidUS = WoWPro.QID[v]
-            local qtextUS = WoWPro.questtext and WoWPro.questtext[v]
-            local lootUS = WoWPro.lootitem and WoWPro.lootitem[v]
-            for idx = 1, WoWPro.stepcount do
-                if WoWPro.sticky[idx] and not WoWPro.unsticky[idx]
-                    and WoWPro.QID[idx] == qidUS then
-                    local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
-                    local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
-                    if qtextUS == qtextS and lootUS == lootS then
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    elseif qtextUS == qtextS and type(lootUS) == "table" and type(lootS) == "table" and deepTableEqual(lootUS, lootS) then
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    elseif not qtextUS and not qtextS and not lootUS and not lootS then
-                        -- Both questtext and lootitem are nil, treat as match
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    end
-                end
-            end
-            -- Only show US step if its S step is completed (or no S step exists)
-            if not foundSticky or completion[foundSticky] then
+            if firstRegular then
                 table.insert(stepList, v)
+                firstRegular = false
             end
         else
             table.insert(stepList, v)
+            firstRegular = false
         end
     end
     WoWPro.RowLimit = #stepList
