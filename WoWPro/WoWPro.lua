@@ -1220,13 +1220,6 @@ WoWPro.MIDNIGHT = ((WoWPro.TocVersion >= 120000) and (WoWPro.TocVersion < 130000
 WoWPro.RETAIL_RELEASE = 12
 WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
 
--- TEMP DEBUG: Verify retail/runtime classification
-WoWPro:Print("WoWPro Runtime: TocVersion=%d, Client=%d, RETAIL=%s, CLASSIC=%s, BC=%s", WoWPro.TocVersion, WoWPro.Client,
-             tostring(WoWPro.RETAIL), tostring(WoWPro.CLASSIC), tostring(WoWPro.BC))
-WoWPro.DebugNextStep = true
-WoWPro.NextStepCallCount = 0
-WoWPro.NextStepCImplicitCount = 0
-
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
 if WoWPro.FakeClassic then

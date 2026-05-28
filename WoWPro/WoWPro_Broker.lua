@@ -1242,21 +1242,51 @@ function WoWPro:RowUpdate(offset)
     end
 
     -- Merge: stickies first, then regular.
-    -- US steps should only be visible when they are the first regular row after active stickies.
+    -- US step visibility: US steps are only eligible to be shown after their corresponding S step is completed.
+    -- This means US steps are not added to the visible stepList until their S step is complete, regardless of US conditionals.
+    -- When a US step becomes the activestep, it completes its S step immediately (see NextStep logic).
     local stepList = {}
     for _, v in ipairs(stickySteps) do
         table.insert(stepList, v)
     end
-    local firstRegular = true
     for _, v in ipairs(regularSteps) do
+        -- If this is a US step (unsticky and not sticky)
         if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
-            if firstRegular then
+            -- Find the corresponding S step by QID, questtext (QO), and lootitem (L tag) if present
+            local foundSticky = nil
+            local qidUS = WoWPro.QID[v]
+            local qtextUS = WoWPro.questtext and WoWPro.questtext[v]
+            local lootUS = WoWPro.lootitem and WoWPro.lootitem[v]
+            for idx = 1, WoWPro.stepcount do
+                if WoWPro.sticky[idx] and not WoWPro.unsticky[idx]
+                    and WoWPro.QID[idx] == qidUS then
+                    local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
+                    local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
+                    if qtextUS == qtextS and lootUS == lootS then
+                        if not completion[idx] then
+                            foundSticky = idx
+                            break
+                        end
+                    elseif qtextUS == qtextS and type(lootUS) == "table" and type(lootS) == "table" and deepTableEqual(lootUS, lootS) then
+                        if not completion[idx] then
+                            foundSticky = idx
+                            break
+                        end
+                    elseif not qtextUS and not qtextS and not lootUS and not lootS then
+                        -- Both questtext and lootitem are nil, treat as match
+                        if not completion[idx] then
+                            foundSticky = idx
+                            break
+                        end
+                    end
+                end
+            end
+            -- Only show US step if its S step is completed (or no S step exists)
+            if not foundSticky or completion[foundSticky] then
                 table.insert(stepList, v)
-                firstRegular = false
             end
         else
             table.insert(stepList, v)
-            firstRegular = false
         end
     end
     WoWPro.RowLimit = #stepList
@@ -1338,6 +1368,44 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:ValidateMapCoords(GID,action,step,coord)
 			end
 		end
+        -- Unstickying stickies --
+        if unsticky and (not sticky) and i == WoWPro:GetActiveStickyCount()+1 then
+            for n, row in ipairs(WoWPro.rows) do
+                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
+                local rowQuesttext = WoWPro.questtext[row.index]
+                local rowLootitem = WoWPro.lootitem[row.index]
+                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
+
+                -- Compare lootitem tables by content, not reference
+                local lootMatch = false
+                if not lootitem and not rowLootitem then
+                    lootMatch = true
+                elseif lootitem and rowLootitem then
+                    -- Both have lootitem, compare contents
+                    lootMatch = true
+                    for itemID, qty in pairs(lootitem) do
+                        if rowLootitem[itemID] ~= qty then
+                            lootMatch = false
+                            break
+                        end
+                    end
+                    if lootMatch then
+                        for itemID, qty in pairs(rowLootitem) do
+                            if lootitem[itemID] ~= qty then
+                                lootMatch = false
+                                break
+                            end
+                        end
+                    end
+                end
+
+                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
+                    completion[row.index] = true
+                    return true --reloading
+                end
+            end
+        end
+
         -- Counting stickies that are currently active (at the top) --
         if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
             WoWPro:IncrementActiveStickyCount()
@@ -2253,12 +2321,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
     guide.skipped = guide.skipped or {}
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
-    if WoWPro.DebugNextStep then
-        WoWPro.NextStepCallCount = (WoWPro.NextStepCallCount or 0) + 1
-        if WoWPro.NextStepCallCount == 1 or (WoWPro.NextStepCallCount % 50) == 0 then
-            WoWPro:Print("NextStep() call #%d guideIndex=%d rowIndex=%s", WoWPro.NextStepCallCount, guideIndex, tostring(rowIndex))
-        end
-    end
     local skip = true
 
     while skip do
@@ -2700,12 +2762,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
-                if WoWPro.DebugNextStep then
-                    WoWPro.NextStepCImplicitCount = (WoWPro.NextStepCImplicitCount or 0) + 1
-                    if WoWPro.NextStepCImplicitCount <= 10 or (WoWPro.NextStepCImplicitCount % 25) == 0 then
-                        WoWPro:Print("NextStep C implicit candidate #%d guideIndex=%d step=%s QID=%s loot=%s", WoWPro.NextStepCImplicitCount, guideIndex, tostring(step), tostring(QID), tostring(WoWPro.lootitem[guideIndex] and "yes" or "no"))
-                    end
-                end
                 if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
                     WoWPro:dbp("NextStep(): Skipping implicit C completion for loot-backed step %d; loot not collected.", guideIndex)
                 elseif QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
