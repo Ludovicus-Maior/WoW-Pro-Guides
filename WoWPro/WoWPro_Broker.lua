@@ -1338,44 +1338,6 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:ValidateMapCoords(GID,action,step,coord)
 			end
 		end
-        -- Unstickying stickies --
-        if unsticky and (not sticky) and i == WoWPro:GetActiveStickyCount()+1 then
-            for n, row in ipairs(WoWPro.rows) do
-                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
-                local rowQuesttext = WoWPro.questtext[row.index]
-                local rowLootitem = WoWPro.lootitem[row.index]
-                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
-
-                -- Compare lootitem tables by content, not reference
-                local lootMatch = false
-                if not lootitem and not rowLootitem then
-                    lootMatch = true
-                elseif lootitem and rowLootitem then
-                    -- Both have lootitem, compare contents
-                    lootMatch = true
-                    for itemID, qty in pairs(lootitem) do
-                        if rowLootitem[itemID] ~= qty then
-                            lootMatch = false
-                            break
-                        end
-                    end
-                    if lootMatch then
-                        for itemID, qty in pairs(rowLootitem) do
-                            if lootitem[itemID] ~= qty then
-                                lootMatch = false
-                                break
-                            end
-                        end
-                    end
-                end
-
-                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
-                    completion[row.index] = true
-                    return true --reloading
-                end
-            end
-        end
-
         -- Counting stickies that are currently active (at the top) --
         if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
             WoWPro:IncrementActiveStickyCount()
@@ -2291,6 +2253,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
     guide.skipped = guide.skipped or {}
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
+    if WoWPro.DebugNextStep then
+        WoWPro.NextStepCallCount = (WoWPro.NextStepCallCount or 0) + 1
+        if WoWPro.NextStepCallCount == 1 or (WoWPro.NextStepCallCount % 50) == 0 then
+            WoWPro:Print("NextStep() call #%d guideIndex=%d rowIndex=%s", WoWPro.NextStepCallCount, guideIndex, tostring(rowIndex))
+        end
+    end
     local skip = true
 
     while skip do
@@ -2732,6 +2700,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
+                if WoWPro.DebugNextStep then
+                    WoWPro.NextStepCImplicitCount = (WoWPro.NextStepCImplicitCount or 0) + 1
+                    if WoWPro.NextStepCImplicitCount <= 10 or (WoWPro.NextStepCImplicitCount % 25) == 0 then
+                        WoWPro:Print("NextStep C implicit candidate #%d guideIndex=%d step=%s QID=%s loot=%s", WoWPro.NextStepCImplicitCount, guideIndex, tostring(step), tostring(QID), tostring(WoWPro.lootitem[guideIndex] and "yes" or "no"))
+                    end
+                end
                 if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
                     WoWPro:dbp("NextStep(): Skipping implicit C completion for loot-backed step %d; loot not collected.", guideIndex)
                 elseif QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
