@@ -1124,23 +1124,27 @@ function WoWPro.FindPairedStickyStep(usIndex)
 
     for idx = 1, WoWPro.stepcount do
         if WoWPro.sticky[idx] and not WoWPro.unsticky[idx] then
+            local valid = true
             if qid and WoWPro.QID[idx] ~= qid then
-                goto continue
+                valid = false
             end
-            if WoWPro.step[idx] ~= stepText then
-                goto continue
+            if valid and WoWPro.step[idx] ~= stepText then
+                valid = false
             end
-            local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
-            if questtext ~= qtextS then
-                goto continue
+            if valid then
+                local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
+                if questtext ~= qtextS then
+                    valid = false
+                end
             end
-            local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
-            local lootKeyS = LootItemKey(lootS)
-            if lootKeyS == lootKeyUS then
-                return idx
+            if valid then
+                local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
+                local lootKeyS = LootItemKey(lootS)
+                if lootKeyS == lootKeyUS then
+                    return idx
+                end
             end
         end
-        ::continue::
     end
     return nil
 end
