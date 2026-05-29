@@ -1201,8 +1201,7 @@ function WoWPro:RowUpdate(offset)
     for _, stepIdx in ipairs(allSteps) do
         if stepIdx then
             if WoWPro.sticky[stepIdx] then
-                -- Show sticky step if it's ready to be displayed (regardless of completion status)
-                -- Completed stickies still show, just with a checkmark
+                -- Completed sticky steps are removed from the visible window.
                 local showSticky = false
                 local action = WoWPro.action[stepIdx]
                 local QID = WoWPro.QID[stepIdx]
@@ -1210,57 +1209,64 @@ function WoWPro:RowUpdate(offset)
                 local available = WoWPro.available and WoWPro.available[stepIdx]
                 local activeReq = WoWPro.active and WoWPro.active[stepIdx]
 
-                local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
-                -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
-                if not isSUS and stepIdx > stickyBoundary then
+                if completion[stepIdx] then
                     showSticky = false
-
-                -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
-                -- S!US should always show until completion, regardless of these filters
-                elseif not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
-                    showSticky = false
-                elseif not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
-                    showSticky = false
-                -- For C steps with QID and QO, check if specific objective is incomplete
-                elseif action == "C" and QID and questtext then
-                    if stepIdx == k then
-                        -- Active sticky step - always show
-                        showSticky = true
-                    elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
-                        -- Only show while S phase is active (not yet marked complete)
-                        local qid = WoWPro:QIDInTable(QID, WoWPro.QuestLog)
-                        -- Check all QO objectives; sticky shows only if any is incomplete
-                        local anyIncomplete = false
-                        for l, lquesttext in ipairs({(";"):split(questtext)}) do
-                            if WoWPro.ValidObjective(lquesttext) then
-                                local complete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
-                                if not complete then
-                                    anyIncomplete = true
-                                    break
+                else
+                    local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
+                    -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
+                    if not isSUS and stepIdx > stickyBoundary then
+                        showSticky = false
+                    -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
+                    -- S!US should always show until completion, regardless of these filters
+                    elseif not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
+                        showSticky = false
+                    elseif not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
+                        showSticky = false
+                    -- For C steps with QID and QO, check if specific objective is incomplete
+                    elseif action == "C" and QID and questtext then
+                        if stepIdx == k then
+                            -- Active sticky step - always show, unless this is a paired S step
+                            -- that has already been completed by the active US step.
+                            local activeUS = WoWPro.ActiveStep
+                            local pairedS = (activeUS and WoWPro.unsticky[activeUS] and not WoWPro.sticky[activeUS]) and WoWPro.FindPairedStickyStep(activeUS)
+                            if completion[stepIdx] and pairedS == stepIdx then
+                                showSticky = false
+                            else
+                                showSticky = true
+                            end
+                        elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+                            -- Only show while S phase is active (not yet marked complete)
+                            local qid = WoWPro:QIDInTable(QID, WoWPro.QuestLog)
+                            -- Check all QO objectives; sticky shows only if any is incomplete
+                            local anyIncomplete = false
+                            for l, lquesttext in ipairs({(";"):split(questtext)}) do
+                                if WoWPro.ValidObjective(lquesttext) then
+                                    local complete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
+                                    if not complete then
+                                        anyIncomplete = true
+                                        break
+                                    end
                                 end
                             end
+                            showSticky = anyIncomplete  -- Show only if objectives are incomplete (S phase still active)
                         end
-                        showSticky = anyIncomplete  -- Show only if objectives are incomplete (S phase still active)
-                    end
-                -- For C steps with QID (no QO), show if quest is in log and not yet completed
-                elseif action == "C" and QID then
-                    if stepIdx == k then
-                        -- Active sticky step - always show
-                        showSticky = true
-                    elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
-                        -- Show if not yet marked complete and quest is in log (S phase is active)
-                        showSticky = true
-                    end
-                -- For C steps without QID (loot collection), only show if we've reached that step
-                elseif action == "C" and not QID then
-                    if stepIdx <= k then
-                        showSticky = true
-                    end
-                -- For other sticky types, show if we've reached that step
-                else
-                    -- S!US steps should remain visible while incomplete, even if they are past the current active step
-                    if isSUS or stepIdx <= k then
-                        showSticky = true
+                    elseif action == "C" and QID then
+                        if stepIdx == k then
+                            -- Active sticky step - always show
+                            showSticky = true
+                        elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+                            -- Show if not yet marked complete and quest is in log (S phase is active)
+                            showSticky = true
+                        end
+                    elseif action == "C" and not QID then
+                        if stepIdx <= k then
+                            showSticky = true
+                        end
+                    else
+                        -- S!US steps should remain visible while incomplete, even if they are past the current active step
+                        if isSUS or stepIdx <= k then
+                            showSticky = true
+                        end
                     end
                 end
 
@@ -1280,13 +1286,19 @@ function WoWPro:RowUpdate(offset)
         table.insert(stepList, v)
     end
     for _, v in ipairs(regularSteps) do
-        if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
-            local foundSticky = WoWPro.FindPairedStickyStep(v)
-            if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
+        if not completion[v] then
+            if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
+                local foundSticky = WoWPro.FindPairedStickyStep(v)
+                if foundSticky and not completion[foundSticky] and v == WoWPro.ActiveStep then
+                    WoWPro.CompleteStep(foundSticky, "[Broker] Active US row paired completion", true)
+                    completion = WoWProCharDB.Guide[GID].completion
+                end
+                if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
+                    table.insert(stepList, v)
+                end
+            else
                 table.insert(stepList, v)
             end
-        else
-            table.insert(stepList, v)
         end
     end
     WoWPro.RowLimit = #stepList
@@ -2072,9 +2084,9 @@ function WoWPro.UpdateGuideReal(From)
         local guide = WoWProCharDB.Guide[GID]
         local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
-            guide.completion[foundSticky] = true
+            WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true)
             if WoWPro.DEBUG_STICKY_PAIRING then
-                WoWPro:dbp("[Broker] ActiveStep is US step %d: Marked paired S step %d complete", WoWPro.ActiveStep, foundSticky)
+                WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d", WoWPro.ActiveStep, foundSticky)
             end
         end
     end
