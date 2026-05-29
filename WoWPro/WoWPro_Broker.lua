@@ -38,19 +38,6 @@ function WoWPro:IncrementActiveStickyCount()
 end
 
 
--- Deep table comparison for lootitem matching
-local function deepTableEqual(t1, t2)
-    if t1 == t2 then return true end
-    if type(t1) ~= "table" or type(t2) ~= "table" then return false end
-    for k, v in pairs(t1) do
-        if t2[k] ~= v then return false end
-    end
-    for k, v in pairs(t2) do
-        if t1[k] ~= v then return false end
-    end
-    return true
-end
-
 local quids_debug = false
 
 local function QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
@@ -1182,16 +1169,6 @@ function WoWPro:RowUpdate(offset)
     local step_limit = WoWProDB.profile.numsteps + 5
 	local sendsteps = "steps "
 
-    local function LootItemKey(lootitem)
-        if not lootitem then return "" end
-        local items = {}
-        for itemID, qty in pairs(lootitem) do
-            table.insert(items, tostring(itemID) .. ":" .. tostring(qty))
-        end
-        table.sort(items)
-        return table.concat(items, "|")
-    end
-
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
@@ -1360,20 +1337,11 @@ function WoWPro:RowUpdate(offset)
         local QID = tonumber(WoWPro.QID[k])
         local coord = WoWPro.map[k]
         local sticky = WoWPro.sticky[k]
-        local unsticky = WoWPro.unsticky[k]
         local use = WoWPro.use[k]
         local zone = WoWPro.zone[k]
-		local eab = WoWPro.eab[k]
+        local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
-        local questtext = WoWPro.questtext[k]
-        local lootitem = WoWPro.lootitem[k]
-        completion = WoWProCharDB.Guide[GID].completion
-
-        if (i == 1) and not step then
-            WoWProCharDB.Guide[GID].done = true
-        end
-
 		if coord then
 			if (coord == "PLAYER") then
 				local x, y, m  = WoWPro:GetPlayerZonePosition()
