@@ -1194,6 +1194,7 @@ function WoWPro:RowUpdate(offset)
     WoWPro:SetActiveStickyCount(0)
 
     -- Now sort: stickies first, then regular
+    -- RowUpdate() only filters already-completed steps; it does not complete steps itself.
     local completion = WoWProCharDB.Guide[GID].completion
     local stickyBoundary = WoWPro.ActiveStep or k
     local stickySteps = {}
@@ -1280,7 +1281,9 @@ function WoWPro:RowUpdate(offset)
     end
 
     -- Merge: stickies first, then regular.
-    -- US steps should be visible and may complete their paired S step when active.
+    -- RowUpdate() must not change completion state; it only filters visible rows.
+    -- Paired S completion is handled in UpdateGuideReal().
+    -- US steps should be visible even if their paired sticky S is not yet complete.
     local stepList = {}
     for _, v in ipairs(stickySteps) do
         table.insert(stepList, v)
@@ -1289,10 +1292,6 @@ function WoWPro:RowUpdate(offset)
         if not completion[v] then
             if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
                 local foundSticky = WoWPro.FindPairedStickyStep(v)
-                if foundSticky and not completion[foundSticky] and v == WoWPro.ActiveStep then
-                    WoWPro.CompleteStep(foundSticky, "[Broker] Active US row paired completion", true)
-                    completion = WoWProCharDB.Guide[GID].completion
-                end
                 if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
                     table.insert(stepList, v)
                 end
