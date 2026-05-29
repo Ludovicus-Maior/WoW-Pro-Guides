@@ -1117,6 +1117,47 @@ function WoWPro.SetActionTexture(currentRow)
     end
 end
 
+local function LootItemKey(lootitem)
+    if not lootitem then return "" end
+    local items = {}
+    for itemID, qty in pairs(lootitem) do
+        table.insert(items, tostring(itemID) .. ":" .. tostring(qty))
+    end
+    table.sort(items)
+    return table.concat(items, "|")
+end
+
+function WoWPro.FindPairedStickyStep(usIndex)
+    if not usIndex or not WoWPro.step[usIndex] then return nil end
+    local qid = WoWPro.QID[usIndex]
+    local questtext = WoWPro.questtext and WoWPro.questtext[usIndex]
+    local stepText = WoWPro.step[usIndex]
+    local lootUS = WoWPro.lootitem and WoWPro.lootitem[usIndex]
+    local lootKeyUS = LootItemKey(lootUS)
+
+    for idx = 1, WoWPro.stepcount do
+        if WoWPro.sticky[idx] and not WoWPro.unsticky[idx] then
+            if qid and WoWPro.QID[idx] ~= qid then
+                goto continue
+            end
+            if WoWPro.step[idx] ~= stepText then
+                goto continue
+            end
+            local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
+            if questtext ~= qtextS then
+                goto continue
+            end
+            local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
+            local lootKeyS = LootItemKey(lootS)
+            if lootKeyS == lootKeyUS then
+                return idx
+            end
+        end
+        ::continue::
+    end
+    return nil
+end
+
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
     local GID = WoWProDB.char.currentguide
@@ -1140,6 +1181,16 @@ function WoWPro:RowUpdate(offset)
 
     local step_limit = WoWProDB.profile.numsteps + 5
 	local sendsteps = "steps "
+
+    local function LootItemKey(lootitem)
+        if not lootitem then return "" end
+        local items = {}
+        for itemID, qty in pairs(lootitem) do
+            table.insert(items, tostring(itemID) .. ":" .. tostring(qty))
+        end
+        table.sort(items)
+        return table.concat(items, "|")
+    end
 
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
@@ -1242,47 +1293,15 @@ function WoWPro:RowUpdate(offset)
     end
 
     -- Merge: stickies first, then regular.
-    -- US step visibility: US steps are only eligible to be shown after their corresponding S step is completed.
-    -- This means US steps are not added to the visible stepList until their S step is complete, regardless of US conditionals.
-    -- When a US step becomes the activestep, it completes its S step immediately (see NextStep logic).
+    -- US steps should be visible and may complete their paired S step when active.
     local stepList = {}
     for _, v in ipairs(stickySteps) do
         table.insert(stepList, v)
     end
     for _, v in ipairs(regularSteps) do
-        -- If this is a US step (unsticky and not sticky)
         if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
-            -- Find the corresponding S step by QID, questtext (QO), and lootitem (L tag) if present
-            local foundSticky = nil
-            local qidUS = WoWPro.QID[v]
-            local qtextUS = WoWPro.questtext and WoWPro.questtext[v]
-            local lootUS = WoWPro.lootitem and WoWPro.lootitem[v]
-            for idx = 1, WoWPro.stepcount do
-                if WoWPro.sticky[idx] and not WoWPro.unsticky[idx]
-                    and WoWPro.QID[idx] == qidUS then
-                    local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
-                    local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
-                    if qtextUS == qtextS and lootUS == lootS then
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    elseif qtextUS == qtextS and type(lootUS) == "table" and type(lootS) == "table" and deepTableEqual(lootUS, lootS) then
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    elseif not qtextUS and not qtextS and not lootUS and not lootS then
-                        -- Both questtext and lootitem are nil, treat as match
-                        if not completion[idx] then
-                            foundSticky = idx
-                            break
-                        end
-                    end
-                end
-            end
-            -- Only show US step if its S step is completed (or no S step exists)
-            if not foundSticky or completion[foundSticky] then
+            local foundSticky = WoWPro.FindPairedStickyStep(v)
+            if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
                 table.insert(stepList, v)
             end
         else
@@ -1368,44 +1387,6 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:ValidateMapCoords(GID,action,step,coord)
 			end
 		end
-        -- Unstickying stickies --
-        if unsticky and (not sticky) and i == WoWPro:GetActiveStickyCount()+1 then
-            for n, row in ipairs(WoWPro.rows) do
-                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
-                local rowQuesttext = WoWPro.questtext[row.index]
-                local rowLootitem = WoWPro.lootitem[row.index]
-                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
-
-                -- Compare lootitem tables by content, not reference
-                local lootMatch = false
-                if not lootitem and not rowLootitem then
-                    lootMatch = true
-                elseif lootitem and rowLootitem then
-                    -- Both have lootitem, compare contents
-                    lootMatch = true
-                    for itemID, qty in pairs(lootitem) do
-                        if rowLootitem[itemID] ~= qty then
-                            lootMatch = false
-                            break
-                        end
-                    end
-                    if lootMatch then
-                        for itemID, qty in pairs(rowLootitem) do
-                            if lootitem[itemID] ~= qty then
-                                lootMatch = false
-                                break
-                            end
-                        end
-                    end
-                end
-
-                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
-                    completion[row.index] = true
-                    return true --reloading
-                end
-            end
-        end
-
         -- Counting stickies that are currently active (at the top) --
         if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
             WoWPro:IncrementActiveStickyCount()
@@ -2117,19 +2098,7 @@ function WoWPro.UpdateGuideReal(From)
     -- If the active step is a US step, mark its paired S step complete now
     if WoWPro.ActiveStep and WoWPro.unsticky[WoWPro.ActiveStep] and not WoWPro.sticky[WoWPro.ActiveStep] then
         local guide = WoWProCharDB.Guide[GID]
-        local foundSticky = nil
-        for idx = 1, WoWPro.stepcount do
-            if WoWPro.sticky[idx] and not WoWPro.unsticky[idx]
-                and WoWPro.step[idx] == WoWPro.step[WoWPro.ActiveStep]
-                and WoWPro.questtext[idx] == WoWPro.questtext[WoWPro.ActiveStep] then
-                local lootS = WoWPro.lootitem[idx]
-                local lootUS = WoWPro.lootitem[WoWPro.ActiveStep]
-                if lootS == lootUS or (type(lootS) == "table" and type(lootUS) == "table" and deepTableEqual(lootS, lootUS)) then
-                    foundSticky = idx
-                    break
-                end
-            end
-        end
+        local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
             guide.completion[foundSticky] = true
             if WoWPro.DEBUG_STICKY_PAIRING then
