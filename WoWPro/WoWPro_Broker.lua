@@ -1341,19 +1341,11 @@ function WoWPro:RowUpdate(offset)
         local QID = tonumber(WoWPro.QID[k])
         local coord = WoWPro.map[k]
         local sticky = WoWPro.sticky[k]
-        local unsticky = WoWPro.unsticky[k]
         local use = WoWPro.use[k]
         local zone = WoWPro.zone[k]
-		local eab = WoWPro.eab[k]
+        local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
-        local questtext = WoWPro.questtext[k]
-        local lootitem = WoWPro.lootitem[k]
-        completion = WoWProCharDB.Guide[GID].completion
-
-        if (i == 1) and not step then
-            WoWProCharDB.Guide[GID].done = true
-        end
 
 		if coord then
 			if (coord == "PLAYER") then
@@ -1368,44 +1360,6 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:ValidateMapCoords(GID,action,step,coord)
 			end
 		end
-        -- Unstickying stickies --
-        if unsticky and (not sticky) and i == WoWPro:GetActiveStickyCount()+1 then
-            for n, row in ipairs(WoWPro.rows) do
-                -- Match by step text AND questtext (QO) AND lootitem (L) to handle multiple stickies with same name but different objectives/items
-                local rowQuesttext = WoWPro.questtext[row.index]
-                local rowLootitem = WoWPro.lootitem[row.index]
-                local qoMatch = (questtext == rowQuesttext) or (not questtext and not rowQuesttext)
-
-                -- Compare lootitem tables by content, not reference
-                local lootMatch = false
-                if not lootitem and not rowLootitem then
-                    lootMatch = true
-                elseif lootitem and rowLootitem then
-                    -- Both have lootitem, compare contents
-                    lootMatch = true
-                    for itemID, qty in pairs(lootitem) do
-                        if rowLootitem[itemID] ~= qty then
-                            lootMatch = false
-                            break
-                        end
-                    end
-                    if lootMatch then
-                        for itemID, qty in pairs(rowLootitem) do
-                            if lootitem[itemID] ~= qty then
-                                lootMatch = false
-                                break
-                            end
-                        end
-                    end
-                end
-
-                if step == row.step:GetText() and qoMatch and lootMatch and WoWPro.sticky[row.index] and not completion[row.index] then
-                    completion[row.index] = true
-                    return true --reloading
-                end
-            end
-        end
-
         -- Counting stickies that are currently active (at the top) --
         if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
             WoWPro:IncrementActiveStickyCount()
