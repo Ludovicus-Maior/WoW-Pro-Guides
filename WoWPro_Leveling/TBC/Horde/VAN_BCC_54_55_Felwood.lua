@@ -6,8 +6,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 F Splintertree Post|AVAILABLE|8460|M|45.13,63.90|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Splintertree Post.|
-R Falfarren River|AVAILABLE|8460|M|72.0,64.0;69.04,62.27|CC|Z|Ashenvale|N|Taking a short cut through Nightsong Woods.\n[color=FF0000]NOTE: [/color]Short of running into them, nothing should bother you as you head through.|
-R Raynewood Retreat|AVAILABLE|8460|M|62.89,53.02|Z|Ashenvale|
+R Falfarren River|AVAILABLE|8460|M|72.0,64.0;69.04,62.27|CC|Z|1440; Ashenvale|N|Taking a short cut through Nightsong Woods.\n[color=FF0000]NOTE: [/color]Short of running into them, nothing should bother you as you head through.|
+R Raynewood Retreat|AVAILABLE|8460|M|62.89,53.02|Z|1440; Ashenvale|
 R Felwood|AVAILABLE|8460|M|54.91,92.88|Z|Felwood|
 R Emerald Sanctuary|AVAILABLE|8460|M|51.89,85.06|Z|Felwood|
 A Timbermaw Ally|QID|8460|M|50.93,85.01|Z|Felwood|

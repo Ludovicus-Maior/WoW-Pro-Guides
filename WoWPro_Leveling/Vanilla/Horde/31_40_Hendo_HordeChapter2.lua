@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('Classic-31-40-Hendo-HordeChapter2', 'Leveling', 'Thousand Needles', 'Hendo72', 'Horde',1)
+local guide = WoWPro:RegisterGuide('ClassicHorde3140', 'Leveling', 'Thousand Needles', 'WoWPro Team', 'Horde',1)
 WoWPro:GuideName(guide, 'Horde Chapter 2')
 WoWPro:GuideLevels(guide,30, 40)
-WoWPro:GuideNextGuide(guide, 'Classic-40-50-Hendo-HordeChapter3')
+WoWPro:GuideNextGuide(guide, 'ClassicHorde4050')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -523,7 +523,7 @@ T Goblin Sponsorship|QID|1183|M|80.18,75.88|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.88|N|From Pozzik.|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
-H Orgrimmar|ACTIVE|569|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
+H Orgrimmar|ACTIVE|569|PRE|1186|M|54.11,68.39|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|ACTIVE|569|M|45.50,63.84|Z|1454; Orgrimmar|C|Druid|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456; Thunder Bluff|C|Druid|
 ; --- STV
@@ -724,7 +724,8 @@ T Stinky's Escape|QID|1270|M|62.37,37.62|Z|1413; The Barrens|N|To Mebok Mizzyrix
 ; Stranglethorn Vale
 N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|1413; The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|392|
 b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|IZ|-1434|
-F Grom'gol Base Camp|ACTIVE|572^605^196|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol Base Camp.|
+A Skullsplitter Tusks|QID|209|PRE|189|M|27.00,77.13|Z|1434; Stranglethorn Vale|N|From Kebok.|
+F Grom'gol Base Camp|ACTIVE|209|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol Base Camp.|
 
 ; Saving for use in Chap3 - Hendo72
 ;A Excelsior|QID|628|PRE|577|M|28.29,77.59|Z|1434; Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|

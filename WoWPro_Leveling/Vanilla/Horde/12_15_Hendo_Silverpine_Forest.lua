@@ -1,9 +1,9 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('Classic-12-15-Hendo-Silverpine-Forest', 'Leveling', 'Silverpine Forest', 'Hendo72', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('ClassicSilverpineForest1215', 'Leveling', 'Silverpine Forest', 'Hendo72', 'Horde', 1)
 WoWPro:GuideLevels(guide, 10, 15)
-WoWPro:GuideNextGuide(guide, 'Classic-15-21-Hendo-TheBarrens')
+WoWPro:GuideNextGuide(guide, 'ClassicTheBarrens1521')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- Travel to Tirisfal Glades from Orgrimmar

@@ -13,7 +13,7 @@ return [[
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 B Silk Cloth|QID|4449|N|You shouldn't need to buy these, but a reminder to keep 15 of them handy once you're in the level 46-47 range.|L|4306 15|ITEM|4306|
-F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
+F Booty Bay|QID|595|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
 t Back to Booty Bay|QID|1118|M|27.12,77.21|N|To Crank Fizzlebub.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
 A Zanzil's Secret|QID|621|M|27.12,77.21|N|From Crank Fizzlebub.|
@@ -58,9 +58,9 @@ T Up to Snuff|QID|587|M|26.92,77.34|N|To Deeg. Top floor of the Inn.|
 T The Bloodsail Buccaneers|QID|604|M|27.17,77.01|N|To Fleet Master Seahorn.  Skip follow-up for now.|
 
 F Stormwind|AVAILABLE|212|M|27.53,77.78|N|Fly to stormwind. Get ready for a timed quest.|
-h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
-A A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
-F Rebel Camp|ACTIVE|212|M|66.2,62.4|Z|Stormwind City|N|Fly to Rebel Camp at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
+h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|1453; Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
+A A Meal Served Cold|QID|212|M|41.50,89.39|Z|1453; Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
+F Rebel Camp|ACTIVE|212|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Rebel Camp at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
 A Troll Witchery|QID|205|M|37.83,3.56|N|From Brother Nimetz.|PRE|207|
 R Nesingwary's Expedition|QID|196||M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
@@ -68,10 +68,10 @@ C Raptor Mastery|QID|196|M|32.80,40.30|S|N|Kill Jungle Stalkers near this locati
 C Feast Meal Served Cold|QID|212|M|32.80,40.30|N|Kill the Cold Eye Basilisks until you get the haunch. You should arrive to the area with about 17.5 minutes to spare giving you about 15 minutes.|
 C Raptor Mastery|QID|196|M|32.80,40.30|US|N|Kill Jungle Stalkers near this location.\n\nIf you get to less than 3 minutes I would skip this and we can catch the rest on the way back up next time.|
 H Stormwind City|ACTIVE|212|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-T A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern.|
+T A Meal Served Cold|QID|212|M|41.50,89.39|Z|1453; Stormwind City|N|To Angus Stern.|
 N Green Hills of Stranglethorn|QID|338|M|26.60,76.37|Z|Stranglethorn Vale|N|We are about to have our last trip to nesingwary so now is the time to make sure you have everything to finish it up.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 
-F Booty Bay|QID|600|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
+F Booty Bay|QID|600|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
 h Booty Bay|QID|600|M|27.00,77.30|N|Make Booty Bay your home location.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 R Ziata'jai Ruins|ACTIVE|209|M|42,36|N|Go East to Ziata'Jai ruins.|
@@ -105,19 +105,19 @@ T Akiris by the Bundle |QID|617|M|26.8,76.4|N|To Privateer Bloads.|
 A Akiris by the Bundle |QID|623|M|26.8,76.4|N|From Privateer Bloads.|PRE|617|
 
 F Sentinel Hill|QID|48|M|27.53,77.78|N|At Gyll.|
-R The Dagger Hills|QID|48|M|52.56,72.21;44.6,80.2|CN|Z|Westfall|N|Toward the mountain behind Deadmines.|
-A Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew.|
-T Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
-A Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|48|
+R The Dagger Hills|QID|48|M|52.56,72.21;44.6,80.2|CN|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
+A Sweet Amber|QID|48|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew.|
+T Sweet Amber|QID|48|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
+A Sweet Amber|QID|49|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|48|
 
-F Stormwind|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
-h Stormwind City|QID|1449|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
+F Stormwind|QID|1449|M|56.56,52.65|Z|1436; Westfall|N|At Thor.|
+h Stormwind City|QID|1449|M|52.62,65.67|Z|1453; Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
 B Truesilver Bar|QID|49|N|Make sure you buy or make yourself a Truesilver Bar soon.|L|6037|ITEM|6037|
-A To The Hinterlands|QID|1449|M|64.33,20.62|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
+A To The Hinterlands|QID|1449|M|64.33,20.62|Z|1453; Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
 N Dungeon Interlude|QID|1449|N|If you want to do Uldaman now is a good time. Check this step off manually.|
-R Deeprun Tram|QID|1449|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
+R Deeprun Tram|QID|1449|M|63.85,8.19|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1449|N|Take the tram ride and then run into Ironforge.|
-F Southshore|QID|1449|M|55.50,47.76|Z|Ironforge|N|Flight to Hillsbrad Foothills.|
+F Southshore|QID|1449|M|55.50,47.76|Z|1455; Ironforge|N|Flight to Hillsbrad Foothills.|
 R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CS|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
 
 A Troll Necklace Bounty|QID|2880|M|14.83,44.56|Z|The Hinterlands|N|From Fraggar Thundermantle.|
@@ -148,11 +148,11 @@ C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp an
 T Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 
 H Stormwind City|QID|49|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-A Vital Supplies|QID|1477|M|37.52,81.66|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
-F Darkshire|ACTIVE|1477|M|66.29,62.13|Z|Stormwind City|N|At Dungar Longdrink.|
-T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|
-A Supplies for Nethergarde|QID|1395|M|75.8,46.2|Z|Duskwood|N|From Watchmaster Sorigal.|PRE|1477|
-F Nethergarde Keep|QID|49|M|77.50,44.30|Z|Duskwood|N|Fly to Nethergarde Keep.|
+A Vital Supplies|QID|1477|M|37.52,81.66|Z|1453; Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
+F Darkshire|ACTIVE|1477|M|66.29,62.13|Z|1453; Stormwind City|N|At Dungar Longdrink.|
+T Vital Supplies|QID|1477|M|75.8,46.2|Z|1431; Duskwood|N|To Watchmaster Sorigal.|
+A Supplies for Nethergarde|QID|1395|M|75.8,46.2|Z|1431; Duskwood|N|From Watchmaster Sorigal.|PRE|1477|
+F Nethergarde Keep|QID|49|M|77.50,44.30|Z|1431; Duskwood|N|Fly to Nethergarde Keep.|
 T Supplies for Nethergarde|QID|1395|M|66.5,21.4|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 
 R Swamp of Sorrows|QID|49|M|52.08,4.48|Z|Blasted Lands|N|Run to the Swamp of Sorrows|
@@ -224,15 +224,15 @@ R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan. When you
 T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn't set it here right? If you did then make it back the old fashioned way.|
-r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
+r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|1453; Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
-F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
-R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
-T Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
-A Sweet Amber|QID|50|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|49|
-T Sweet Amber|QID|50|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
-A Sweet Amber|QID|51|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|50|
-F Booty Bay|QID|4124|M|56.56,52.65|Z|Westfall|N|At Thor.|
+F Sentinel Hill|QID|49|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Sentinel Hill in Westfall.|
+R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CS|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
+T Sweet Amber|QID|49|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
+A Sweet Amber|QID|50|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|49|
+T Sweet Amber|QID|50|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
+A Sweet Amber|QID|51|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|50|
+F Booty Bay|QID|4124|M|56.56,52.65|Z|1436; Westfall|N|At Thor.|
 T Report Back to Fizzlebub|QID|1122|M|27.12,77.21|N|To Crank Fizzlebub.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 b Ratchet|QID|4124|M|25.80,73.10|N|Take the boat to Ratchet.|
@@ -309,7 +309,7 @@ A Rise of the Silithid|QID|4267|M|30.28,46.17|Z|Feralas|N|From Shandris Featherm
 
 F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village.|TAXI|Rut'theran Village|
 F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|TAXI|-Rut'theran Village|
-b The Moonspray|ACTIVE|3022|M|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
+b The Moonspray|ACTIVE|3022|M|33.2, 40.2|Z|1439; Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
 
 T Handle With Care|QID|3022|M|55.50,92.04|Z|Teldrassil|N|To Erelas Ambersky.|
 A Favored of Elune?|QID|3661|M|55.50,92.04|Z|Teldrassil|N|From Erelas Ambersky.|
@@ -319,8 +319,8 @@ T Feralas: A History|QID|2940|M|55.41,92.23|Z|Teldrassil|N|To Daryn Lightwind.|
 A The Borrower|QID|2941|M|55.41,92.23|Z|Teldrassil|N|From Daryn Lightwind.|PRE|2940|
 
 R Darnassus|ACTIVE|4267|Z|Teldrassil|M|55.93,89.60|N|Thru the pink haze.|
-T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|Darnassus|N|To Gracina Spiritmight, second floor Temple of the Moon.|
-T Doling Justice|QID|2972|M|39.11,81.59|Z|Darnassus|N|To Tyrande Whisperwind.|
+T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|1457; Darnassus|N|To Gracina Spiritmight, second floor Temple of the Moon.|
+T Doling Justice|QID|2972|M|39.11,81.59|Z|1457; Darnassus|N|To Tyrande Whisperwind.|
 r Sell junk, repair, restock, train skills|QID|4281|N|Sell junk, repair, restock, train skills|
 
 F Feathermoon|ACTIVE|4281|N|Fly back to Feathermoon Stronghold. (Or Hearth if you are returning from a break)|
@@ -366,29 +366,29 @@ T The Bloodsail Buccaneers|QID|608|M|27.2,77.0|N|To Fleet Master Seahorn, back i
 A Cortello's Riddle|QID|624|M|PLAYER|U|4056|N|From item in your inventory.|
 
 F Sentinel Hill|QID|51|M|27.53,77.78|N|At Gyll. Unfortunately we got some running around to do, tying up loose ends and getting us back in sync.|
-R Sweet Amber|QID|51|M|52.5,72.2;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
-T Sweet Amber|QID|51|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
-A Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|51|
+R Sweet Amber|QID|51|M|52.5,72.2;44.6,80.2|CS|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
+T Sweet Amber|QID|51|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
+A Sweet Amber|QID|53|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|51|
 
-F Darkshire|ACTIVE|624|M|56.56,52.65|Z|Westfall|N|At Thor.|
-R Deadwind Pass|ACTIVE|624|M|91.00,41.00|Z|Duskwood|N|Run east thru Duskwood to Deadwind Pass.|
+F Darkshire|ACTIVE|624|M|56.56,52.65|Z|1436; Westfall|N|At Thor.|
+R Deadwind Pass|ACTIVE|624|M|91.00,41.00|Z|1431; Duskwood|N|Run east thru Duskwood to Deadwind Pass.|
 R Swamp of Sorrows|ACTIVE|624|M|60.00,41.20|Z|Deadwind Pass|N|Run east to Swamp of Sorrows.|
 T Cortello's Riddle|QID|624|M|22.87,48.19|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
 A Cortello's Riddle|QID|625|M|22.87,48.19|Z|Swamp of Sorrows|N|From A Soggy Scroll.|PRE|624|
 R Deadwind Pass|ACTIVE|625|M|60.00,41.20|Z|Deadwind Pass|N|Run to Duskwood through Deadwind Pass.|
 
-F Stormwind|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
-r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
+F Stormwind|QID|1452|M|77.48,44.29|Z|1431; Duskwood|N|Fly to Stormwind.|
+r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|1453; Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude. You need these on you now.|L|3825 2|
-R Deeprun Tram|QID|1452|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
+R Deeprun Tram|QID|1452|M|63.85,8.19|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1452|N|Take the tram ride and then run into Ironforge.|
-A The Brassbolts Brothers|QID|2769|M|67.91,46.07|Z|Ironforge|N|From Klockmort Spannerspan.|
-A Passing the Burden|QID|3448|M|77.53,11.81|Z|Ironforge|N|From Historian Karnik.|
-T Passing the Burden|QID|3448|M|30.98,4.80|Z|Ironforge|N|To Tymor. Skip Follow-up.|
-A Tabetha's Task|QID|2861|ACTIVE|625|M|27.25,8.30|Z|Ironforge|N|From Bink.|
-h Ironforge|QID|1000|ACTIVE|3841^625|M|18.14,51.41|Z|Ironforge|N|Set your hearthstone here, again, seriously do this unless you have a means to teleport yourself back.|
-F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|Ironforge|N|Fly to Wetlands|
-b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|Wetlands|N|Take the boat to Theramore|
+A The Brassbolts Brothers|QID|2769|M|67.91,46.07|Z|1455; Ironforge|N|From Klockmort Spannerspan.|
+A Passing the Burden|QID|3448|M|77.53,11.81|Z|1455; Ironforge|N|From Historian Karnik.|
+T Passing the Burden|QID|3448|M|30.98,4.80|Z|1455; Ironforge|N|To Tymor. Skip Follow-up.|
+A Tabetha's Task|QID|2861|ACTIVE|625|M|27.25,8.30|Z|1455; Ironforge|N|From Bink.|
+h Ironforge|QID|1000|ACTIVE|3841^625|M|18.14,51.41|Z|1455; Ironforge|N|Set your hearthstone here, again, seriously do this unless you have a means to teleport yourself back.|
+F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|1455; Ironforge|N|Fly to Wetlands|
+b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|1437; Wetlands|N|Take the boat to Theramore|
 R The Quagmire|QID|1000|ACTIVE|625^2861|M|55.69,50.16;46.06,57.09|CC|Z|Dustwallow Marsh|N|It's faster to swim, opening up at waypoint.|
 T Tabetha's Task|QID|2861|LEAD|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|
 A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|
@@ -422,7 +422,7 @@ T A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
 A The Newest Member of the Family|QID|3843|M|78.35,74.72|Z|Thousand Needles|N|From Quentin.|PRE|3842|
 
 H Ironforge|QID|1000|ACTIVE|3843^626|N|Your hearthstone should be set to Ironforge. If not, you can fly from Gadgetzan to Dustwallow Marsh, take the boat from there to Menethil Harbor, then fly from there to Aerie Peak and check this off manually.|
-F Aerie Peak|QID|1452|M|55.50,47.75|Z|Ironforge|N|Head up to the Hinterlands|
+F Aerie Peak|QID|1452|M|55.50,47.75|Z|1455; Ironforge|N|Head up to the Hinterlands|
 A The Altar of Zul|QID|2989|M|9.75,44.48|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2988|
 T The Newest Member of the Family|QID|3843|M|14.16,43.62|Z|The Hinterlands|N|To Agnar Beastamer, in the basement of the inn. Stairs down are on the sides.|
 A Food for Baby|QID|4297|M|14.16,43.62|Z|The Hinterlands|N|From Agnar Beastamer.|PRE|3843|
@@ -459,7 +459,7 @@ T The Altar of Zul|QID|2989|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master T
 A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
 
 F Menethil Harbor|QID|2944|M|11.07,46.15|Z|The Hinterlands|N|Fly to Menethil Harbor.|
-b Darkshore|QID|2944|M|4.59,57.15|Z|Wetlands|N|Take Boat to Darkshore.|
+b Darkshore|QID|2944|M|4.59,57.15|Z|1437; Wetlands|N|Take Boat to Darkshore.|
 F Rut'theran Village|ACTIVE|2944|N|Travel to Rut'theran Village (Darnassus).|
 T Favored of Elune?|QID|3661|M|55.49,92.05|Z|Teldrassil|N|To Erelas Ambersky.|
 T The Super Snapper FX|QID|2944|M|55.41,92.23|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
@@ -468,8 +468,8 @@ A Return to Troyas|QID|2943|M|55.41,92.23|Z|Teldrassil|N|From Daryn Lightwind.|P
 H Ironforge|QID|3441|M|PLAYER|Z|Teldrassil|N|Use your hearthstone to get back to Ironforge, if you changed it or used it, you know the drill.|
 r City Stuff in Ironforge|QID|3441|N|Sell junk, repair, restock, train, auction, professions.|
 B Silk Cloth|QID|4449|N|You will need these now. Hopefully you've saved them.|L|4306 15|ITEM|4306|
-F Thelsamar|QID|3441|M|55.50,47.80|Z|Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
-R Badlands|QID|3441|M|47.2,77.6;47.00,85.00|Z|Loch Modan|CC|N|Run to The Badlands|
+F Thelsamar|QID|3441|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
+R Badlands|QID|3441|M|47.2,77.6;47.00,85.00|Z|1432; Loch Modan|CC|N|Run to The Badlands|
 R Searing Gorge|QID|3441|M|0.01,63.54|Z|Badlands|N|Run to Searing Gorge.|
 A Caught!|QID|4449|M|65.61,62.06|Z|Searing Gorge|N|From the Wooden Outhouse.|
 A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|
@@ -528,22 +528,22 @@ T The Undermarket|QID|3385|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|T
 A The Undermarket|QID|3402|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|PRE|3385|
 
 F Ironforge|QID|1469|M|37.94,30.85|Z|Searing Gorge|N|Fly to Ironforge.|
-A I Know A Guy...|QID|6612|M|60.10,36.45|Z|Ironforge|N|From Daryl Riknussun. This is the quest to unlock the master trainer.|P|Cooking;185;0+225;0|
-A Portents of Uldum|QID|2963|M|69.93,18.57|Z|Ironforge|N|From High Explorer Magellas.|PRE|2439|
-T Suntara Stones|QID|3368|M|71.83,15.53|Z|Ironforge|N|To Curator Thorius. He wanders back and forth. Skip follow-up.|
-T Portents of Uldum|QID|2963|M|77.53,11.82|Z|Ironforge|N|To Historian Karnik.|
-A Seeing What Happens|QID|2946|M|77.53,11.82|Z|Ironforge|N|From Historian Karnik.|PRE|2963|
+A I Know A Guy...|QID|6612|M|60.10,36.45|Z|1455; Ironforge|N|From Daryl Riknussun. This is the quest to unlock the master trainer.|P|Cooking;185;0+225;0|
+A Portents of Uldum|QID|2963|M|69.93,18.57|Z|1455; Ironforge|N|From High Explorer Magellas.|PRE|2439|
+T Suntara Stones|QID|3368|M|71.83,15.53|Z|1455; Ironforge|N|To Curator Thorius. He wanders back and forth. Skip follow-up.|
+T Portents of Uldum|QID|2963|M|77.53,11.82|Z|1455; Ironforge|N|To Historian Karnik.|
+A Seeing What Happens|QID|2946|M|77.53,11.82|Z|1455; Ironforge|N|From Historian Karnik.|PRE|2963|
 
-R Deeprun Tram|QID|1469|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Deeprun Tram|QID|1469|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|1469|N|Take the tram ride and then run into Stormwind.|
-T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
+T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|1453; Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
 r City Stuff in stormwind|QID|580|N|Sell junk, repair, restock, train, auction, professions.|
 
-F Sentinel Hill|QID|53|M|66.28,62.16|Z|Stormwind City|N|At Dungar Longdrink.|
-R Sweet Amber|QID|53|M|52.5,72.2;44.6,80.2|CS|Z|Westfall|N|Toward the mountain behind Deadmines.|
-T Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
+F Sentinel Hill|QID|53|M|66.28,62.16|Z|1453; Stormwind City|N|At Dungar Longdrink.|
+R Sweet Amber|QID|53|M|52.5,72.2;44.6,80.2|CS|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
+T Sweet Amber|QID|53|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
 
-F Nethergarde Keep|ACTIVE|2990|M|56.56,52.65|Z|Westfall|N|At Thor.|
+F Nethergarde Keep|ACTIVE|2990|M|56.56,52.65|Z|1436; Westfall|N|At Thor.|
 T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower. Skip follow-up unless you intend on doing Zul'Farrak.|
 
 F Booty Bay|QID|580|M|65.53,24.33|Z|Blasted Lands|N|Fly to Booty Bay.|
@@ -648,20 +648,20 @@ T Insect Part Analysis |QID|113|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fiz
 A Rise of the Silithid|QID|162|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 H Ironforge|QID|2977|M|PLAYER|Z|Tanaris|N|Use your hearthstone to get back to Ironforge, if you changed it or used it, you know the drill.|
-A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|Ironforge|N|From Inkeeper Firebrew.|
-A Arcane Runes|QID|3449|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
-A An Easy Pickup|QID|3450|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
-t Return to Ironforge|QID|2977|M|77.55,11.81|Z|Ironforge|N|To Historian Karnik.|
-A A Future Task|QID|2964|M|77.55,11.81|Z|Ironforge|N|From Historian Karnik.|PRE|2977|
-T A Future Task|QID|2964|M|69.96,18.54|Z|Ironforge|N|To High Explorer Magellas.|
-T An Easy Pickup|QID|3450|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
-A Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|From Xiggs Fuselighter.|PRE|3450|
-T Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
+A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|1455; Ironforge|N|From Inkeeper Firebrew.|
+A Arcane Runes|QID|3449|M|30.95,4.84|Z|1455; Ironforge|N|From Tymor.|
+A An Easy Pickup|QID|3450|M|30.95,4.84|Z|1455; Ironforge|N|From Tymor.|
+t Return to Ironforge|QID|2977|M|77.55,11.81|Z|1455; Ironforge|N|To Historian Karnik.|
+A A Future Task|QID|2964|M|77.55,11.81|Z|1455; Ironforge|N|From Historian Karnik.|PRE|2977|
+T A Future Task|QID|2964|M|69.96,18.54|Z|1455; Ironforge|N|To High Explorer Magellas.|
+T An Easy Pickup|QID|3450|M|70.86,94.54|Z|1455; Ironforge|N|To Xiggs Fuselighter.|
+A Signal for Pickup|QID|3451|M|70.86,94.54|Z|1455; Ironforge|N|From Xiggs Fuselighter.|PRE|3450|
+T Signal for Pickup|QID|3451|M|70.86,94.54|Z|1455; Ironforge|N|To Xiggs Fuselighter.|
 r Sell junk, repair, restock, train skills.|QID|3444|N|Sell junk, repair, restock, train skills.|
 
-R Deeprun Tram|QID|2583|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Deeprun Tram|QID|2583|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|2583|N|Take the tram ride and then run into Stormwind.|
-F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|1453; Stormwind City|N|At Dungar Longdrink.|
 
 A The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 A Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|

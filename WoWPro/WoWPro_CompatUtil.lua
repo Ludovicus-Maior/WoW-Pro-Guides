@@ -194,6 +194,20 @@ function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
     return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
 end
 
+function WoWPro.QuestLog_IsQuestFlaggedCompletedOnAccount(questID)
+    if not _G.C_QuestLog then
+        return false
+    end
+    if _G.C_QuestLog.IsQuestFlaggedCompletedOnAccount then
+        return _G.C_QuestLog.IsQuestFlaggedCompletedOnAccount(questID)
+    end
+    if _G.C_QuestLog.IsQuestFlaggedCompletedForAccount then
+        return _G.C_QuestLog.IsQuestFlaggedCompletedForAccount(questID)
+    end
+    return false
+end
+
+
 
 --[[ C_SuperTrack ]]--
 function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)

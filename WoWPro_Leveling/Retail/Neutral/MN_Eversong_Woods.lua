@@ -77,7 +77,7 @@ C Paved in Ash|QID|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|QO|1|CHAT|N
 h Wayfarer's Rest|ACTIVE|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|N|Consider setting your hearthstone here, Dornagal's not so convenient anymore.|
 C Paved in Ash|QID|86735^86736|M|52.48,78.10|Z|2393; Silvermoon City|QO|5|CHAT|N|Talk to Valeera Sanguinar at the Reliquary.|
 T Paved in Ash|QID|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
-A Fair Breeze, Light Bloom|QID|86737|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+A Fair Breeze, Light Bloom|QID|86737|AVAILABLE|94871|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|; Cannot pick up if we have the quest from the mission table
 C Fair Breeze, Light Bloom|QID|86737|M|45.37,70.42|Z|2393; Silvermoon City|QO|1|H|N|Obtain the arcane projector from Rommath.|
 T Murder Row: Rumors Abound|QID|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|Fly up to the platform to find Belath Dawnblade.|
 A Murder Row: Loose Lips|QID|90818|PRE|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
@@ -106,7 +106,7 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.94,26.46|Z|2393; Silvermoon City|Q
 C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|QO|3|H|N|Search Tarelin's body.|
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
-C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
+C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|S!US|
 t Murder Row: One Fel Swoop|QID|90822|M|56.75,61.29|Z|2393; Silvermoon City|N|To Belath Dawnblade.|IZ|Silvermoon City|
 
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|
@@ -146,7 +146,7 @@ A What We Do Best|QID|87457|PRE|87455|M|33.40,89.25|Z|2393; Silvermoon City|N|Fr
 C Souvenirs Scattered|QID|87456|M|33.16,89.23|Z|2393; Silvermoon City|QO|2|NC|N|Collect Satchel of Herbs.|
 C Souvenirs Scattered|QID|87456|M|33.47,89.48|Z|2393; Silvermoon City|QO|3|NC|N|Collect Nondescript Bottle of Water.|
 C Souvenirs Scattered|QID|87456|M|33.62,90.11|Z|2393; Silvermoon City|QO|1|NC|N|Collect Art and Architecture of Silvermoon: Vol. 3.|
-C What We Do Best|QID|87457|M|33.53,90.15|Z|2393; Silvermoon City|QO|1|NC|N|Collect Antique Necklace.|
+C What We Do Best|QID|87457|M|33.53,90.15|Z|2393; Silvermoon City|QO|1|N|Collect Antique Necklace from the spider at the top of the ramp.|
 T Souvenirs Scattered|QID|87456|M|33.33,90.27|Z|2393; Silvermoon City|N|To Gidwin Goldbraids.|
 T What We Do Best|QID|87457|M|33.33,90.27|Z|2393; Silvermoon City|N|To Gidwin Goldbraids.|
 A Debts Paid|QID|87458|PRE|87456&87457|M|33.33,90.27|Z|2393; Silvermoon City|N|From Gidwin Goldbraids.|
@@ -293,7 +293,7 @@ A Displaced Denizens|QID|86740|M|46.68,45.67|Z|2395; Eversong Woods|N|From Orwey
 A Cargo Conspiracy|QID|87392|M|46.88,45.22|Z|2395; Eversong Woods|N|From Lyssara Duskmourne.|RANK|2|
 C Fairbreeze Favors|QID|86739|M|46.52,45.83|Z|2395; Eversong Woods|N|Help out the citizenry. Use the [color=33fff9] Extra Action Button [/color] to scare Hawkstriders|S|EAB|
 C Displaced Denizens|QID|86740|M|47.17,46.22|Z|2395; Eversong Woods|H|S|N|Basically click glowing things.|
-C Assist Citizens|QID|86739|QO|4<1|M|45.52,45.91|Z|2395; Eversong Woods|H|N|Bandage Injured Pet.|;these 3 steps may need rearranged as I added them to guide after quest was done -- since I had a hard time finding them.
+C Assist Citizens|QID|86739|QO|4<1|M|46.53,45.87|Z|2395; Eversong Woods|H|N|Bandage Injured Pet.|;these 3 steps may need rearranged as I added them to guide after quest was done -- since I had a hard time finding them.
 C Assist Citizens|QID|86739|QO|4<2|M|45.63, 45.47|Z|2395; Eversong Woods|H|N|Rescue cat on top of statue's outstreached hand.|
 C Assist Citizens|QID|86739|QO|4<3|M|44.74, 45.00|Z|2395; Eversong Woods|H|N|Pick up all the books.|
 C Sharpmaw|QID|86738|QO|1|M|45.74,47.77|Z|2395; Eversong Woods|N|Approach Sharpmaw.|NC|
@@ -407,9 +407,9 @@ T A Fish!|QID|91271|M|48.75,76.71|Z|2395; Eversong Woods|N|To Valdekar Solaar.|
 A Pesky Pests|QID|91090|PRE|91271|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|From Kaliel Solaar.|RANK|2|
 A Secret Ingredients|QID|91328|PRE|91271|M|48.75,76.71|Z|2395; Eversong Woods|N|From Valdekar Solaar.|RANK|2|
 C Secret Ingredients|QID|91328|M|48.75,76.71|Z|2395; Eversong Woods|N|Collect the berries from the bushes.|S|H|
-C Pesky Pests|QID|91090|QO|1|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Scare off the butterflys.|S|
+C Pesky Pests|QID|91090|QO|1|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Jump on a flying mount and fly through the butterflies to scare them off.|S|
 C Pesky Pests|QID|91090|QO|2|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Kill the grubs.|
-C Pesky Pests|QID|91090|QO|1|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Scare off the butterflys.|US|
+C Pesky Pests|QID|91090|QO|1|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|Jump on a flying mount and fly through the butterflies to scare them off.|US|
 C Secret Ingredients|QID|91328|M|48.75,76.71|Z|2395; Eversong Woods|N|Collect the berries from the bushes.|US|H|
 T Secret Ingredients|QID|91328|M|48.75,76.71|Z|2395; Eversong Woods|N|To Valdekar Solaar.|
 T Pesky Pests|QID|91090|M|48.75,76.71|Z|2395; Eversong Woods|NC|N|To Kaliel Solaar.|
@@ -457,7 +457,7 @@ T The Missing Magister|QID|90494|M|47.72,69.72|Z|2395; Eversong Woods|N|To Magis
 A Face the Past|QID|86781|PRE|90494|M|47.72,69.72|Z|2395; Eversong Woods|N|From Magister Umbric.|
 C Face the Past|QID|86781|QO|1|M|47.71,69.12|Z|2395; Eversong Woods|CHAT|N|Ask Arator about it.|
 A Slithering Closer|QID|94370|M|37.31,73.91|Z|2395; Eversong Woods|N|From Fern Shadestar|RANK|2|
-T Slithering Closer|QID|94370|M|38.98,61.62|Z|2395; Eversong Woods|N|To Hathvelion Sungaze.|
+T Slithering Closer|QID|94370|M|38.98,61.62|Z|2395; Eversong Woods|N|To Numia Golden.|
 A Not What I Ordered|QID|91493|M|38.98,61.62|Z|2395; Eversong Woods|N|From Hathvelion Sungaze.|RANK|2|; I found this quest super late, Can probably be moved upwards with no issue
 C Not What I Ordered|QID|91493|M|38.96,61.46|Z|2395; Eversong Woods|QO|1|H|N|Inspect Intercepted Shipments.|
 T Not What I Ordered|QID|91493|M|38.97,61.57|Z|2395; Eversong Woods|N|To Hathvelion Sungaze.|
@@ -618,7 +618,7 @@ T A Ranger's Spirit|QID|91385|M|59.48,67.13|Z|2395; Eversong Woods|N|To Arcanist
 T Beat of Blood|QID|86647|M|55.17,81.36|Z|2395; Eversong Woods|N|To Arator.|
 A Light Guide Us|QID|86648|PRE|86647|M|55.12,81.35|Z|2395; Eversong Woods|N|From Lor'themar Theron.|
 C Light Guide Us|QID|86648|M|58.96,81.37|Z|2395; Eversong Woods|N|Make your way down the bridge clicking on all the things as you go.|NC|
-T Light Guide Us|QID|86648|M|60.22,81.45|Z|2395; Eversong Woods|N|To Lor'themar Theron.|
+T Light Guide Us|QID|86648|M|60.07,81.45|Z|2395; Eversong Woods|N|To Lor'themar Theron.|
 A Past Redemption|QID|86649|PRE|86648|M|60.22,81.45|Z|2395; Eversong Woods|N|From High Exarch Turalyon.|
 C Past Redemption|QID|86649|M|60.22,81.45|Z|2395; Eversong Woods|N|Speak to Turalyon.|CHAT|
 T Past Redemption|QID|86649|M|60.56,81.48|Z|2395; Eversong Woods|N|To Lor'themar Theron.|

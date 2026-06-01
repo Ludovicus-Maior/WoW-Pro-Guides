@@ -317,7 +317,7 @@ A A Swift Message|QID|26393|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Arg
 r Sell Junk, Restock, Train and Repair.|ACTIVE|26393|M|41.86,65.68|Z|1429; Elwynn Forest|N|Take this opportunity to sell Junk, Restock, Train and Repair before you leave Goldshire.|S|
 T A Swift Message|QID|26393|M|41.72,64.64|Z|1429; Elwynn Forest|N|To Bartlett the Brave.|R|Human|
 A Continue to Stormwind|QID|26394|PRE|26393|M|41.72,64.64|Z|1429; Elwynn Forest|N|From Bartlett the Brave.|R|Human|
-F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|1429; Elwynn Forest|TZ|84;Stormwind City|N|Fly to Stormwind City.|
+F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|1429; Elwynn Forest|TZ|84; Stormwind City|N|Fly to Stormwind City.|
 T Continue to Stormwind|QID|26394|M|77.17,60.98|Z|1453; Stormwind City|N|To Osric Strang.|
 A Dungar Longdrink|QID|26395|PRE|26394|M|77.17,60.98|Z|1453; Stormwind City|N|From Osric Strang.|R|Human|
 T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|1453; Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|

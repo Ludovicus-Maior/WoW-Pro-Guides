@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('Classic-15-21-Hendo-TheBarrens', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('ClassicTheBarrens1521', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 15, 21, 18)
-WoWPro:GuideNextGuide(guide, 'Classic-21-30-Hendo-HordeChapter1')
+WoWPro:GuideNextGuide(guide, 'ClassicHorde2130')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- Druid 'Cure Poison' lv 14 class quest

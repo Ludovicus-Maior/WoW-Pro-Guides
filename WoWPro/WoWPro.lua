@@ -16,8 +16,8 @@ WoWPro.CombatLock = false
 WoWPro.DevMode = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
-WoWPro.Log = {}
-WoWPro.GuideLoaded = nil
+WoWPro.Log = {} -- Temporary local log
+WoWPro.GuideLoaded = false
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -49,12 +49,14 @@ function WoWPro:Add2Log(level, msg)
         WoWPro.Serial = 1
     end
     if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+        -- Now that the global log has been established, copy over the local log and turn it off.
         if WoWPro.Log then
             WoWProDB.global.Log = WoWPro.Log
             WoWPro.Log = nil
         end
         WoWProDB.global.Log[WoWPro.Serial] = msg
     else
+        -- no global log yet
         WoWPro.Log[WoWPro.Serial] = msg
     end
 end
@@ -318,6 +320,7 @@ local defaults = { profile = {
     checksound = true,
     checksoundfile = 567416, -- MapPing
     rank = 2,
+    useWarbandCompletion = false,
     resize = false,
     autoresize = true,
     numsteps = 1,
@@ -366,6 +369,7 @@ function WoWPro:OnInitialize()
     WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+    WoWProCharDB.completedQIDsWarband = WoWProCharDB.completedQIDsWarband or {}
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
     WoWProDB.profile.position = WoWProDB.profile.position or {"CENTER", "UIParent" , "CENTER", 0, 0}
     WoWProDB.profile.anchorpoint = nil  -- Clean out old setting
@@ -439,8 +443,8 @@ function WoWPro:OnInitialize()
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
-    WoWPro.GuideLoaded = nil
-    WoWPro.GuideUpdated = nil
+    WoWPro.GuideLoaded = false
+    WoWPro.GuideUpdated = false
     -- Selector is Deprecated
     WoWProDB.profile.Selector = nil
     if type(WoWProDB.profile.checksoundfile) == "string" then
@@ -918,7 +922,7 @@ end
 
 function WoWPro:SendGroupInfo()
 	--if WoWProCharDB.GroupSync then
-	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+	if _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		local _, myclass = _G.UnitClass("player")
 		local _, myrace = _G.UnitRace("player")
 		local gender = _G.UnitSex("player")

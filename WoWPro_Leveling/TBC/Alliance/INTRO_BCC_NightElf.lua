@@ -177,11 +177,11 @@ R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the ro
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Skinning;393]
 ; B Skinning Knife|QID|922|S|P|Skinning;393|L|7005|N|Buy a Skinning Knife from Mytrhin'dir if you just learned Skinning.|
 
-N Visit the Bank and Fishing Trainer|QID|922|S|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. Be sure to visit the Fishing trainer who is just to the east of the bank.\nYou can visit the Auction House and other profession trainers before you leave, as well.|
+N Visit the Bank and Fishing Trainer|QID|922|S|M|40.02,42.28|Z|1457; Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. Be sure to visit the Fishing trainer who is just to the east of the bank.\nYou can visit the Auction House and other profession trainers before you leave, as well.|
 
-T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
-A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
-R Teldrassil|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Head back to Teldrassil.|
+T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|1457; Darnassus|N|To Rellian Greenspyre.|
+A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|1457; Darnassus|N|From Rellian Greenspyre.|
+R Teldrassil|QID|933|M|88.39,35.55|Z|1457; Darnassus|CC|N|Head back to Teldrassil.|
 
 C Crown of the Earth|QID|933|NC|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
 R Ban'ethil Hollow|QID|487|ACTIVE|487|M|40.35,54.03;43.35,53.95|CS|N|Head to Ban'ethil Hollow (a cave just south of the road)|
@@ -235,60 +235,60 @@ T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87|CS|N|To Moon Priestess
 R Darnassus|QID|923|M|47.27,49.59|CC|N|Run west to Darnassus. We make a detour to pick up the Mossy Tumors on the way.|
 C Tumors|QID|923|M|43.67,42.85|QO|1|N|Kill and loot Timberlings for the Mossy Tumors, found along and in Wellspring River.|
 R Darnassus|QID|923|M|36.24,54.32|CC|N|Continue west to Darnassus.|
-A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
+A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|1457; Darnassus|N|From Mydrannul.|
 
-T Elanaria|QID|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
-A Vorlus Vilehoof|QID|1683|PRE|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|
+T Elanaria|QID|1684|C|Warrior|M|57.34,34.66|Z|1457; Darnassus|N|To Elanaria.|
+A Vorlus Vilehoof|QID|1683|PRE|1684|C|Warrior|M|57.34,34.66|Z|1457; Darnassus|N|From Elanaria.|
 
 h Darnassus|QID|923|C|Druid|M|67.42,15.69|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
-T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
-A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
+T Tumors|QID|923|M|38.24,21.61|Z|1457; Darnassus|N|To Rellian Greenspyre.|
+A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|1457; Darnassus|N|From Rellian Greenspyre.|
 
-R Enter the Rogue's Den|QID|2241|C|Rogue|M|33.64,15.89|Z|Darnassus|
-T The Apple Falls|QID|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
-A Destiny Calls|QID|2242|PRE|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|From Syurna.|
+R Enter the Rogue's Den|QID|2241|C|Rogue|M|33.64,15.89|Z|1457; Darnassus|
+T The Apple Falls|QID|2241|C|Rogue|M|36.99,21.92|Z|1457; Darnassus|N|To Syurna.|
+A Destiny Calls|QID|2242|PRE|2241|C|Rogue|M|36.99,21.92|Z|1457; Darnassus|N|From Syurna.|
 
-R Heeding the Call|QID|5925|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|
-T Heeding the Call|QID|5925|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
+R Heeding the Call|QID|5925|C|Druid|M|35.56,10.74|Z|1457; Darnassus|CC|N|Go one floor up inside this building.|
+T Heeding the Call|QID|5925|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
+A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|From Mathrengyl Bearwalker.|
 
-T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
-R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
+T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|1457; Darnassus|N|To Jocaste.|
+R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|1457; Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
 
-A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|Darnassus|N|From Sister Aquinne.|
-R Rut'theran Village|QID|6344|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
+A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|1457; Darnassus|N|From Sister Aquinne.|
+R Rut'theran Village|QID|6344|M|28.82,41.50|Z|1457; Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
 T Nessa Shadowsong|QID|6344|M|56.25,92.44|Z|Teldrassil|N|To Nessa Shadowsong.|
 A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|N|From Nessa Shadowsong.|
 T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
 A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
 
 
-T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
-A Great Bear Spirit|QID|5929|PRE|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
-C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|
-T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
-A Back to Darnassus|QID|5931|PRE|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
-H Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|If your Hearth is up use it, other wise fly back using the Darnassus Flight Master.|
+T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
+A Great Bear Spirit|QID|5929|PRE|5921|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|
+C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|1450; Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|
+T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
+A Back to Darnassus|QID|5931|PRE|5929|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|
+H Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|1450; Moonglade|N|If your Hearth is up use it, other wise fly back using the Darnassus Flight Master.|
 R Darnassus|QID|5931|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
-T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A Body and Heart|QID|6001|PRE|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
-R Rut'theran Village|QID|6001|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
+T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
+A Body and Heart|QID|6001|PRE|5931|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|From Mathrengyl Bearwalker.|
+R Rut'theran Village|QID|6001|ACTIVE|6001|M|28.82,41.50|Z|1457; Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
 
 F Auberdine|QID|6342|ACTIVE|6342|M|58.40,94.01|N|At Flight Master Vesprystus.|
-T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|Darkshore|N|To Laird.|
-A Return to Nessa|QID|6343|PRE|6342|M|36.77,44.29|Z|Darkshore|N|From Laird.|
-C Body and Heart|QID|6001|C|Druid|M|43.22,45.70|Z|Darkshore|QO|1|U|15208|N|Use the Cenarion Moondust on the Moonkin Stone in the cave and summon Lunaclaw. Defeat him, then talk to his ghost.|
-F Rut'theran Village|QID|6343|ACTIVE|6343|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
+T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|1439; Darkshore|N|To Laird.|
+A Return to Nessa|QID|6343|PRE|6342|M|36.77,44.29|Z|1439; Darkshore|N|From Laird.|
+C Body and Heart|QID|6001|C|Druid|M|43.22,45.70|Z|1439; Darkshore|QO|1|U|15208|N|Use the Cenarion Moondust on the Moonkin Stone in the cave and summon Lunaclaw. Defeat him, then talk to his ghost.|
+F Rut'theran Village|QID|6343|ACTIVE|6343|M|36.34,45.57|Z|1439; Darkshore|N|At flight master Caylais Moonfeather.|
 T Return to Nessa|QID|6343|M|56.25,92.44|N|To Nessa Shadowsong.|
 
 R Darnassus|QID|2519|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
-T Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-R The Temple of the Moon|QID|2519|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CS|N|Head to the top floor of The Temple of the Moon|
-T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora up the ramp.|
-A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
+T Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
+R The Temple of the Moon|QID|2519|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|1457; Darnassus|CS|N|Head to the top floor of The Temple of the Moon|
+T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|1457; Darnassus|N|To Priestess A'moora up the ramp.|
+A Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457; Darnassus|N|From Priestess A'moora.|
 
-T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|
-R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
+T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|1457; Darnassus|N|To Priestess Alathea.|
+R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|1457; Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
 
 C Crown of the Earth|QID|7383|NC|M|38.44,34.06|U|18152|N|Fill the Amethyst Phial.|
 A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
@@ -341,17 +341,17 @@ T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
 H Darnassus|QID|935|ACTIVE|935|C|Druid|M|36.52,54.42|CC|N|If your Hearth is up use it, other wise run back to Darnassus.|
 R Darnassus|QID|935|ACTIVE|935|C|-Druid|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|
-T Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
-A The Shade of Elura|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
-T Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
-R Crown of the Earth|QID|935|ACTIVE|935|M|34.34,08.80|Z|Darnassus|CC|N|Go to the top of this building.|
-T Crown of the Earth|QID|935|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
-T Teldrassil|QID|940|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
-A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm. This quest turn-in is in southern Darkshore and has the turn-in on the Darkshore guide.|
-T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
-A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
-C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathrah's Sacrifice in the fountain down below.|
-T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
+T Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|1457; Darnassus|N|To Elanaria.|
+A The Shade of Elura|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|1457; Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
+T Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|1457; Darnassus|N|To Syurna.|
+R Crown of the Earth|QID|935|ACTIVE|935|M|34.34,08.80|Z|1457; Darnassus|CC|N|Go to the top of this building.|
+T Crown of the Earth|QID|935|M|34.91,08.82|Z|1457; Darnassus|N|To Arch Druid Fandral Staghelm.|
+T Teldrassil|QID|940|M|34.91,08.82|Z|1457; Darnassus|N|To Arch Druid Fandral Staghelm.|
+A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|1457; Darnassus|N|From Arch Druid Fandral Staghelm. This quest turn-in is in southern Darkshore and has the turn-in on the Darkshore guide.|
+T Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457; Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
+A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|1457; Darnassus|N|From Priestess A'moora.|
+C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|1457; Darnassus|U|8155|N|Use Sathrah's Sacrifice in the fountain down below.|
+T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|1457; Darnassus|N|To Priestess A'moora.|
 ; --- Guide ends in Darnassus.
 ]]
 end)

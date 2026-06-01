@@ -133,6 +133,7 @@ function WoWPro.UpdateCurrentGuidePanel()
             step = step.." (un-sticky)"
         end
 
+        if step then step = index .. ". " .. step end
         row.step:SetText(step)
         WoWPro.SetActionTexture(row)
 

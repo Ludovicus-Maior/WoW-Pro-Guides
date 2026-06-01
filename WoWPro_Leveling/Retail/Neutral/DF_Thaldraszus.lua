@@ -82,6 +82,7 @@ h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112;Valdrakken|N|At Tithris (or Marin
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112;Valdrakken|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112;Valdrakken|H||N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112;Valdrakken|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
+C Eyes and Ears|QID|66166|M|74.38,56.27|Z|2112; Valdrakken|QO|4|H|N|Go inside the Bronze Enclave and talk to Warpweaver Dayelis.\n[color=FF0000]NOTE: [/color]Don't leave the area until you get quest update.|
 T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112;Valdrakken|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw her.)|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112;Valdrakken|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112;Valdrakken|N|From Captain Drine.|

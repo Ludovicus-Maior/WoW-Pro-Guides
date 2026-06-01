@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('TWW Recap', 'Leveling', 'Dornogal', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"TWW Recap")
 WoWPro:GuideContent(guide, 10)
-WoWPro:GuideLevels(guide,80,80)
+WoWPro:GuideLevels(guide,70,80)
 WoWPro:GuideSort(guide, 12)
 WoWPro:GuideQuestTriggers(guide,93929)
 WoWPro:TopCategory(guide, "End Game")
@@ -14,8 +14,9 @@ T Recap: The Harbinger|QID|91843|M|49.52,31.88|Z|2339|N|To Tome of History.|
 A Recap: Fractured Visions|QID|91864|PRE|91843|M|49.52,31.88|Z|2339|N|From Tome of History.|
 C Recap: Fractured Visions|QID|91864|M|49.52,31.88|Z|2339|QO|1|NC|N|Consult the Tome to learn about the Radiant Song.|
 A Breach|QID|79105|M|50.15,50.47|Z|2305|
+C Breach|QID|79105|M|53.28,63.57|Z|2305|QO|2|N|Nerubians slain.|S|
 C Breach|QID|79105|M|58.98,62.66|Z|2305|QO|1|NC|N|Citizens saved.|
-C Breach|QID|79105|M|53.28,63.57|Z|2305|QO|2|N|Nerubians slain (100%).|
+C Breach|QID|79105|M|53.28,63.57|Z|2305|QO|2|N|Nerubians slain.|US|
 T Breach|QID|79105|M|35.94,71.32|Z|2305|N|To Alleria Windrunner.|
 A Rupture|QID|79106|M|35.94,71.32|Z|2305|
 A Rupture|QID|79106|M|35.72,71.68|Z|2305|N|From Alleria Windrunner.|
@@ -38,12 +39,13 @@ T Violent Impact|QID|78529|M|29.47,54.98|Z|2248|N|To Lady Jaina Proudmoore.|
 A Slay the Saboteurs|QID|78530|PRE|78529|M|29.47,54.98|Z|2248|N|From Lady Jaina Proudmoore.|
 A Shattered Spires|QID|80334|PRE|78529|M|29.47,54.98|Z|2248|N|From Lady Jaina Proudmoore.|
 A Urgent Recovery|QID|78531|PRE|78529|M|29.46,55.03|Z|2248|N|From Thrall.|
-C Slay the Saboteurs|QID|78530|M|29.76,53.35|Z|2248|QO|1|N|Nerubians slain.|
+C Slay the Saboteurs|QID|78530|M|29.76,53.35|Z|2248|QO|1|N|Nerubians slain.|S|
+C Urgent Recovery|QID|78531|M|30.34,52.81|Z|2248|QO|1|NC|N|Crash survivors aided.|S|
 T Shattered Spires|QID|80334|M|30.95,55.14|Z|2248|N|To Archmage Aethas Sunreaver.|
 A Erratic Artifacts|QID|78532|PRE|80334|M|30.95,55.14|Z|2248|N|From Archmage Aethas Sunreaver.|
 C Erratic Artifacts|QID|78532|M|31.24,53.44|Z|2248|QO|1|NC|U|211535|N|Damaged Arcane Relics destroyed.|
-C Urgent Recovery|QID|78531|M|30.16,53.50|Z|2248|QO|2|NC|U|211535|N|Dalaran Civilians healed (Optional).|
-C Urgent Recovery|QID|78531|M|30.34,52.81|Z|2248|QO|1|NC|U|211535|N|Crash survivors aided.|
+C Slay the Saboteurs|QID|78530|M|29.76,53.35|Z|2248|QO|1|N|Nerubians slain.|US|
+C Urgent Recovery|QID|78531|M|30.34,52.81|Z|2248|QO|1|NC|N|Crash survivors aided.|US|
 T Slay the Saboteurs|QID|78530|M|29.51,55.00|Z|2248|N|To Lady Jaina Proudmoore.|
 T Erratic Artifacts|QID|78532|M|29.51,55.00|Z|2248|N|To Lady Jaina Proudmoore.|
 T Urgent Recovery|QID|78531|M|29.48,55.05|Z|2248|N|To Thrall.|
@@ -86,7 +88,7 @@ C Recap: Fractured Visions|QID|91864|M|35.83,52.68|Z|2339|QO|10|NC|N|Consult the
 A Bring the Thunder|QID|78544|PRE|80022|M|74.80,42.36|Z|2248|N|From Baelgrim.|
 C Bring the Thunder|QID|78544|M|74.49,41.44|Z|2248|QO|1|NC|N|Defenses placed.|
 C Bring the Thunder|QID|78544|M|74.78,42.29|Z|2248|QO|2|CHAT|N|Speak to Baelgrim to begin the defense.|
-C Bring the Thunder|QID|78544|M|74.78,42.29|Z|2248|QO|3|N|Nerubians slain (100%).|
+C Bring the Thunder|QID|78544|M|74.78,42.29|Z|2248|QO|3|N|Nerubians slain.|
 C Bring the Thunder|QID|78544|M|74.78,42.29|Z|2248|QO|4|NC|N|Baelgrim's plan witnessed.|
 T Bring the Thunder|QID|78544|M|75.13,43.82|Z|2248|N|To Adelgonn.|
 A Return to the Coreway|QID|78545|PRE|78544|M|75.13,43.82|Z|2248|N|From Adelgonn.|
@@ -193,7 +195,7 @@ C Friends in Low Places|QID|78348|M|32.98,56.28|Z|2255|QO|2|NC|N|Mysterious Prot
 T Friends in Low Places|QID|78348|M|32.98,56.26|Z|2255|N|To Orweyna.|
 A Fear the Old Blood|QID|78353|PRE|78348|M|32.98,56.26|Z|2255|N|From Orweyna.|
 A For Naught, So Vial|QID|78352|PRE|78348|M|32.98,56.26|Z|2255|N|From Orweyna.|
-C Fear the Old Blood|QID|78353|M|33.73,55.12|Z|2255|QO|1|NC|N|The Breathing Pit Cleansed (100%).|
+C Fear the Old Blood|QID|78353|M|33.73,55.12|Z|2255|QO|1|NC|N|The Breathing Pit Cleansed.|
 C For Naught, So Vial|QID|78352|M|33.27,56.83|Z|2255|QO|1|NC|N|Nerubian Extractor.|
 T Fear the Old Blood|QID|78353|M|35.75,58.14|Z|2255|N|To Orweyna.|
 T For Naught, So Vial|QID|78352|M|35.75,58.14|Z|2255|N|To Orweyna.|

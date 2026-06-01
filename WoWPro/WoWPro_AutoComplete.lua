@@ -224,6 +224,29 @@ function WoWPro.GetLootTrackingInfo(lootItems)
     return tracks
 end
 
+function WoWPro.LootItemsCollected(lootItems)
+    if not lootItems or next(lootItems) == nil then
+        return true
+    end
+    local allPositiveComplete = true
+    local allNegativeComplete = true
+    local hasNegative = false
+    for itemID, qty in pairs(lootItems) do
+        local count = _G.WoWPro.C_Item_GetItemCount(itemID)
+        if qty > 0 then
+            if count < qty then
+                allPositiveComplete = false
+            end
+        else
+            hasNegative = true
+            if count >= -qty then
+                allNegativeComplete = false
+            end
+        end
+    end
+    return allPositiveComplete and (not hasNegative or allNegativeComplete)
+end
+
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
@@ -334,27 +357,28 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
-						return
-					else
-						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
-					end
-                end
-                -- Quest Accepts --
-                if WoWPro.newQuest == QID and action == "A" and not completion then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
-                    WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                    if action == "C" and WoWPro.lootitem and WoWPro.lootitem[i] and not WoWPro.LootItemsCollected(WoWPro.lootitem[i]) then
+                        WoWPro:dbp("AutoCompleteQuestUpdate: skipping auto-complete for loot-backed C step %d", i)
+                        break
+                    elseif WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+                        break
+                    else
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+                    end
                 end
 
                 -- Quest Completion via QuestLog--
                 if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
-						return
-					else
-						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
-						WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
-						WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
-					end
+                    if action == "C" and WoWPro.lootitem and WoWPro.lootitem[i] and not WoWPro.LootItemsCollected(WoWPro.lootitem[i]) then
+                        WoWPro:dbp("AutoCompleteQuestUpdate: skipping QuestLog completion for loot-backed C step %d", i)
+                        break
+                    elseif WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+                        break
+                    else
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
+                        WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
+                        WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
+                    end
                 end
 
                 -- Partial Completion --
@@ -432,6 +456,8 @@ function WoWPro.AutoCompleteZone(index)
     local action = WoWPro.action[currentindex] or "?"
     local step = WoWPro.step[currentindex] or "?"
     local targetzone = WoWPro.targetzone[currentindex] or "!"
+    local zoneTag = select(1, (";"):split(targetzone)) or targetzone
+    zoneTag = zoneTag:trim()
     local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
     WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
@@ -440,12 +466,12 @@ function WoWPro.AutoCompleteZone(index)
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
                 return true
             end
-            if (targetzone == zonetext) or (targetzone == subzonetext) then
+            if (zoneTag == zonetext) or (zoneTag == subzonetext) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
                 return true
             end
             local _, _, mapId = WoWPro:GetPlayerZonePosition()
-            if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
+            if (tonumber(zoneTag) and tonumber(zoneTag) == mapId) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
                 return true
             end

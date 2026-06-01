@@ -5,12 +5,13 @@
 --  WoWPro_Events.lua   --
 --------------------------
 
--- Setting up event handler load time tables
-WoWPro.EventTable = {}
-WoWPro.InitLockdownEvents = {}
+    -- Setting up event handler load time tables
+    WoWPro.EventTable = {}
+    WoWPro.InitLockdownEvents = {}
 
 function WoWPro:OnEnableEvents()
     WoWPro:dbp("Registering Events: Core Addon")
+    WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
     -- EventFrame is created earlier in WoWPro:OnEnable()
@@ -97,12 +98,12 @@ function WoWPro.Ready(who)
         WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
         return false
     end
-    if WoWPro.GuideLoaded ~= true then
+    if not WoWPro.GuideLoaded then
         WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
         return false
     end
-    if WoWPro.GuideUpdated ~= true then
-        WoWPro:dbp("%s not Ready. Guide %s is not updated once yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
+    if WoWPro.FirstUpdatePending then
+        WoWPro:dbp("%s not Ready. First guide update for %s is still pending!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
         return false
     end
     return true
@@ -252,13 +253,13 @@ function WoWPro:InitializeHearthBind()
     WoWPro:AutoCompleteSetHearth(nil, loc, true)
 end
 
-WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end)
-WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
+WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end, true)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end, true)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event)
     WoWPro:InitializeHearthBind()
     return
-end)
-WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end)
+end, true)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
     WoWPro:UpdateGuide(event)
@@ -409,7 +410,7 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) == 0 then
+	if not _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		WoWPro.GroupSync = false
 	end
 	if successfulRequest then
@@ -439,7 +440,7 @@ WoWPro.GroupVersionMismatchOnce = {}
 
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
-	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+	if successfulRequest and prefix == "WoWPro" and _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
 		if gname ~= _G.UnitName("Player") then
@@ -797,10 +798,12 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function(event, ...)
 end)
 
 -- Auto-Completion --
+-- TAXIMAP_OPENED is only for auto-select route selection and flight-point discovery.
+-- It does not mean the ride has started or ended.
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+    if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
         if WoWProCharDB.AutoSelect == true then
             WoWPro.TakeTaxi(WoWPro.step[qidx])
         else
@@ -818,18 +821,47 @@ end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+    local action = WoWPro.action[qidx]
+    if action == "F" or action == "b" or action == "R" then
         if _G.UnitOnTaxi("player") then
-            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
-            WoWPro.CompleteStep(qidx,"Took a taxi")
+            WoWPro.TaxiPendingStep = qidx
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! pending taxi completion for step %d", qidx)
         else
             WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
         end
     end
 end
 
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_GAINED", function(event, ...)
+    if WoWPro.TaxiPendingStep then
+        if not _G.UnitOnTaxi("player") then
+            local currentindex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
+            if currentindex == WoWPro.TaxiPendingStep then
+                local completed = WoWPro.AutoCompleteZone("PLAYER_CONTROL_GAINED")
+                if completed then
+                    WoWPro:dbp("PLAYER_CONTROL_GAINED: completed pending taxi step %d", WoWPro.TaxiPendingStep)
+                    WoWPro.TaxiPendingStep = nil
+                else
+                    WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d ended but destination not reached", WoWPro.TaxiPendingStep)
+                end
+            else
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d is not the current active step %d", WoWPro.TaxiPendingStep, currentindex)
+            end
+        else
+            WoWPro:dbp("PLAYER_CONTROL_GAINED: still on taxi, waiting for disembark")
+        end
+    end
+end)
+
 WoWPro.RegisterEventHandler("HEARTHSTONE_BOUND", function(event, ...)
-    local loc = select(2, ...) or _G.GetBindLocation()
+    -- In all clients:
+    --                 {
+    --                     Name = "HearthstoneBound",
+    --                     Type = "Event",
+    --                     LiteralName = "HEARTHSTONE_BOUND",
+    --                     SynchronousEvent = true,
+    --             },
+    local loc = _G.GetBindLocation()
     if not loc or (_G.issecretvalue and _G.issecretvalue(loc)) then
         return
     end

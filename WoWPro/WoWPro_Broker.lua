@@ -348,9 +348,13 @@ function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
     return done , status
 end
 
+-- Objective comparator semantics:
+-- Q< / S< should mean "objective count is less than or equal to target".
+-- Q> / S> should mean "objective count is greater than or equal to target".
+-- These literal operator meanings are now aligned with the function names.
 function WoWPro.ObjectiveOperators.QuestLess(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective]
-    done = done and WoWPro.QuestLog[qid].ncompleted[objective] >= target
+    done = done and WoWPro.QuestLog[qid].ncompleted[objective] <= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
@@ -364,7 +368,7 @@ end
 
 function WoWPro.ObjectiveOperators.QuestGreater(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective]
-    done = done and WoWPro.QuestLog[qid].ncompleted[objective] <= target
+    done = done and WoWPro.QuestLog[qid].ncompleted[objective] >= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
@@ -381,7 +385,7 @@ end
 
 function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity
-    done = done and WoWPro.Scenario.Criteria[objective].quantity >= target
+    done = done and WoWPro.Scenario.Criteria[objective].quantity <= target
     local status = "?"
     if WoWPro.Scenario.Criteria[objective] then
         status = ("%s: %d/%d"):format(WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
@@ -401,7 +405,7 @@ end
 
 function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
     local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity
-    done = done and WoWPro.Scenario.Criteria[objective].quantity <= target
+    done = done and WoWPro.Scenario.Criteria[objective].quantity >= target
     local status = "?"
     if WoWPro.Scenario.Criteria[objective] then
         status = ("%s: %d/%d"):format(WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
@@ -931,11 +935,19 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
         _G.ClearCursor()
         _G.C_Container.PickupContainerItem(self.data2.bag, self.data2.slot)
         _G.DeleteCursorItem()
-        WoWPro.CompleteStep(self.data.step, "Trashed item: " .. self.data.itemName)
+        if self.data and self.data.step then
+            WoWPro.CompleteStep(self.data.step, "Trashed item: " .. self.data.itemName)
+        else
+            WoWPro:print("WoWPro:WOWPRO_DELETE_ITEM OnAccept: missing step data for item %s", tostring(self.data and self.data.itemName))
+        end
     end,
     OnCancel = function (self, data, why)
         _G.ClearCursor()
-        WoWPro.CompleteStep(self.data.step, "Canceled Item trash: " .. self.data.itemName)
+        if self.data and self.data.step then
+            WoWPro.CompleteStep(self.data.step, "Canceled Item trash: " .. self.data.itemName)
+        else
+            WoWPro:print("WoWPro:WOWPRO_DELETE_ITEM OnCancel: missing step data for item %s", tostring(self.data and self.data.itemName))
+        end
     end
 }
 
@@ -1142,7 +1154,7 @@ function WoWPro:RowUpdate(offset)
             if WoWPro.sticky[tempK] then
                 WoWPro:IncrementActiveStickyCount()
             end
-            tempK = WoWPro.NextStep(tempK, 1)
+            tempK = WoWPro.NextStep(tempK, i)
             table.insert(allSteps, tempK)
             tempK = tempK + 1
         end
@@ -1477,7 +1489,7 @@ if step then
             end}
         )
     end
-    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.GetNumGroupMembers() > 0 then
+    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
         tinsert(dropdown,
             {text = "Share Quest", func = function()
                 _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
@@ -2053,9 +2065,13 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro:dbp("UpdateGuideReal(%s): Running", why)
     if not WoWPro.GuideFrame:IsVisible() then
-        -- Cinematic hides things ...
-        WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+        -- Cinematic hides things (or user collapsed frame with double-click).
+        -- Only re-queue if the user did not intentionally collapse the frame.
+        if not WoWPro.UserCollapsed then
+            WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+        end
         WoWPro:dbp("UpdateGuideReal(): Punting")
+        return
     end
     if not WoWPro.GuideLoaded then
         WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
@@ -2263,6 +2279,7 @@ function WoWPro.UpdateGuideReal(From)
     if not WoWPro.GuideUpdated then
         WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
         WoWPro.GuideUpdated = true
+        WoWPro.FirstUpdatePending = false
         WoWPro:dbp("[Naughty Broker]: Invoke the ZONE_CHANGED_NEW_AREA event handler directly before Replay!")
         WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_UPDATE")
         WoWPro.EventReplayStart()
@@ -2323,6 +2340,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             local step = WoWPro.step[guideIndex]
             local stepAction = WoWPro.action[guideIndex]
+
+            if guide.completion[guideIndex]
+               and stepAction == "C"
+               and WoWPro.lootitem and WoWPro.lootitem[guideIndex]
+               and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
+                guide.completion[guideIndex] = false
+                WoWPro.why[guideIndex] = "NextStep(): Cleared completion for loot-backed C step because required loot is no longer present."
+            end
 
             -- Uncomplete repeatable A steps if quest no longer in log (L tag controls visibility) --
             if guide.completion[guideIndex] and WoWPro.repeatable and WoWPro.repeatable[guideIndex]
@@ -2528,14 +2553,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             -- A/N Group Steps --
-            if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() == 0) and stepAction == "A") then
+            if (WoWPro.group[guideIndex] and (not _G.IsInGroup()) and stepAction == "A") then
                 local why = "You are not in a group."
                 WoWPro.why[guideIndex] = why
                 WoWPro:dbp(why)
                 skip = true
                 break
             end
-            if (WoWPro.group[guideIndex] and (_G.GetNumGroupMembers() >= 0) and stepAction == "N") then
+            if (WoWPro.group[guideIndex] and _G.IsInGroup() and stepAction == "N") then
                 local why = "You are in a group, note not needed."
                 WoWPro.why[guideIndex] = why
                 WoWPro:dbp(why)
@@ -2647,7 +2672,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local numprereqs = select("#", ("&"):split(pre))
                 for j=1,numprereqs do
                     local jprereq = select(numprereqs-j+1, ("&"):split(pre))
-                    if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
+                    if WoWProCharDB.skippedQIDs[tonumber(jprereq)] and not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                         skip = true
                         WoWPro.why[guideIndex] = "NextStep(): Skipping step with skipped prerequisite."
                         WoWPro:dbp("MissingPreReq2(%d)",guideIndex)
@@ -2737,7 +2762,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- C step implicit completion
             if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
-                if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
+                if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and not WoWPro.LootItemsCollected(WoWPro.lootitem[guideIndex]) then
+                    WoWPro:dbp("NextStep(): Skipping implicit C completion for loot-backed step %d; loot not collected.", guideIndex)
+                elseif QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end, "C-implicit") then
                     WoWPro.CompleteStep(guideIndex,"Implicit criteria met")
                 end
             end
@@ -3958,32 +3985,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 end
+                local allLootComplete = allPositiveComplete and (not hasNegative or allNegativeComplete)
                  -- For steps with L tags, auto-complete when all items are collected
-                if allPositiveComplete then
-                    if stepAction == "l" then
-                        -- Auto-complete loot steps (both optional and non-optional)
-                        if rowIndex == 1 then
-                            if WoWPro.optional and WoWPro.optional[guideIndex] then
-                                WoWPro.CompleteStep(guideIndex, "NextStep(): Optional loot step completed - all items collected.")
-                            else
-                                WoWPro.CompleteStep(guideIndex, "NextStep(): Loot step completed - all items collected.")
-                            end
-                        else
-                            if WoWPro.optional and WoWPro.optional[guideIndex] then
-                                WoWPro.why[guideIndex] = "NextStep(): Optional loot step ready to complete - all items collected."
-                            else
-                                WoWPro.why[guideIndex] = "NextStep(): Loot step ready to complete - all items collected."
-                            end
-                        end
-                        skip = true
-                        break
-                    else
-                        -- Show the step now that all items are collected
-                        WoWPro.why[guideIndex] = "NextStep(): Optional loot step shown - all items collected."
-                        skip = false
-                    end
-                end
-                if allPositiveComplete then
+                if allLootComplete then
                     if stepAction == "l" then
                         -- Auto-complete loot steps (both optional and non-optional)
                         if rowIndex == 1 then
@@ -4007,6 +4011,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             skip = false
                         elseif stepAction == "A" then
                             WoWPro.why[guideIndex] = "NextStep(): Optional accept ready - enough loot in bags."
+                            skip = false
+                        elseif stepAction == "R" or stepAction == "F" or stepAction == "H" or stepAction == "b" or stepAction == "P" or stepAction == "f" then
+                            -- Optional travel steps should remain visible when the loot prerequisite is met
+                            WoWPro.why[guideIndex] = "NextStep(): Optional travel step shown - enough loot in bags."
                             skip = false
                         else
                             -- U, C, B, N, etc. - auto-complete when items collected
@@ -4192,6 +4200,10 @@ end
 
 -- Step Completion Tasks --
 function WoWPro.CompleteStep(step, why, noUpdate)
+    if not step then
+        WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
+        return false
+    end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
@@ -4578,6 +4590,21 @@ local function is_int(number)
     return floor(number) == ceil(number)
 end
 
+local function questCompleted(questID, force)
+    local hasCharacterCache = type(WoWProCharDB.completedQIDs[questID]) ~= "nil"
+    local useWarbandCompletion = WoWProDB and WoWProDB.profile and WoWProDB.profile.useWarbandCompletion
+    local hasWarbandCache = (not useWarbandCompletion) or (type(WoWProCharDB.completedQIDsWarband[questID]) ~= "nil")
+    if not force and hasCharacterCache and hasWarbandCache then
+        return WoWProCharDB.completedQIDs[questID] or (useWarbandCompletion and WoWProCharDB.completedQIDsWarband[questID]) or false
+    end
+
+    WoWProCharDB.completedQIDs[questID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(questID) or false
+    if useWarbandCompletion then
+        WoWProCharDB.completedQIDsWarband[questID] = WoWPro.QuestLog_IsQuestFlaggedCompletedOnAccount(questID) or false
+    end
+    return WoWProCharDB.completedQIDs[questID] or (useWarbandCompletion and WoWProCharDB.completedQIDsWarband[questID]) or false
+end
+
 -- Cached version of function
 function WoWPro:IsQuestFlaggedCompleted(qid,force)
     if qid == "*" then return nil; end
@@ -4607,31 +4634,34 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     if not WoWProCharDB.completedQIDs then
         WoWProCharDB.completedQIDs = {}
     end
+    if not WoWProCharDB.completedQIDsWarband then
+        WoWProCharDB.completedQIDsWarband = {}
+    end
+
     if not force and type(WoWProCharDB.completedQIDs[QID]) ~= "nil" then
         if QID > 0 then
             if is_int(QID) then
-                return WoWProCharDB.completedQIDs[QID]
+                return questCompleted(QID, force)
             else
                 QID = floor(QID)
                 WoWProCharDB.completedQIDs[-QID] = not WoWPro.QuestLog[-QID]
                 return WoWProCharDB.completedQIDs[-QID]
             end
         else
-            return not WoWProCharDB.completedQIDs[-QID]
+            local value = questCompleted(-QID, force)
+            return not value
         end
     end
     if QID > 0 then
         if is_int(QID) then
-            WoWProCharDB.completedQIDs[QID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(QID) or false
-            return WoWProCharDB.completedQIDs[QID]
+            return questCompleted(QID, force)
         else
             QID = floor(QID)
             WoWProCharDB.completedQIDs[-QID] = not WoWPro.QuestLog[-QID]
             return WoWProCharDB.completedQIDs[QID]
         end
     else
-        WoWProCharDB.completedQIDs[-QID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(-QID) or false
-        return not WoWProCharDB.completedQIDs[-QID]
+        return not questCompleted(-QID, force)
     end
 end
 

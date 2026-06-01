@@ -1,8 +1,8 @@
 
-local guide = WoWPro:RegisterGuide('classic-young-winterspring', 'Leveling', 'Winterspring', 'Jame', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('ClassicHordeWinterspring5455', 'Leveling', 'Winterspring', 'WoWPro Team', 'Horde', 1)
 WoWPro:GuideName(guide, 'Winterspring (54-55)')
 WoWPro:GuideLevels(guide, 54, 55, 54.75)
-WoWPro:GuideNextGuide(guide, 'classic-young-western-plaguelands56')
+WoWPro:GuideNextGuide(guide, 'ClassicHordeWesternPlaguelands56')
 WoWPro:GuideSteps(guide, function()
 return [[
 

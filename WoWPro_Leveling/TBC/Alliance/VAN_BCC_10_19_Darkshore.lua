@@ -10,7 +10,7 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_19_25_Alliance')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- This guide begins in Darnassus
-R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
+R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|1457; Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|
 h Auberdine|AVAILABLE|1141|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone at the Innkeeper|
@@ -82,11 +82,11 @@ N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish a
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
 F Rut'theran Village|AVAILABLE|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|
-A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
-A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|
-T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
-A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
-H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
+A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|1457; Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
+A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|1457; Darnassus|N|From Mathrengyl Bearwalker on the second floor.|
+T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
+A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|6121|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|1439; Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
@@ -103,7 +103,7 @@ T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
 C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
-H Auberdine|AVAILABLE|4722|M|37.04,44.12|Z|Darkshore|N|Return to Auberdine. If hearthstone is on CD you can be killing any wildlife with quest objectives remaining in the area|
+H Auberdine|AVAILABLE|4722|M|37.04,44.12|Z|1439; Darkshore|N|Return to Auberdine. If hearthstone is on CD you can be killing any wildlife with quest objectives remaining in the area|
 R Auberdine|AVAILABLE|4722|M|37.04,44.12|N|Sell/repair whilst at the Inn|
 A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N| South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.|
@@ -145,21 +145,21 @@ T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 L Level 16|C|Druid|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|
 C Curing the Sick|QID|6124|C|Druid|N|Finish curing the deer.|U|15826|T|Sickly Deer|NC|
-T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
-A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
-F Rut'theran Village|AVAILABLE|26|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.
-R Darnassus|AVAILABLE|26|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.
-T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
+T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|
+A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|6124|
+F Rut'theran Village|AVAILABLE|26|C|Druid|M|44.15,45.22|Z|1450; Moonglade|N|Fly back using the Darnassus Flight Master.
+R Darnassus|AVAILABLE|26|C|Druid|M|55.86,89.45|Z|1457; Darnassus|N|Walk into the portal back to Darnassus.
+T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
 ; Druid class quest line to gain swim form
-A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
-P Moonglade|ACTIVE|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
-T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
-A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
-R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
+A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
+P Moonglade|ACTIVE|26|C|Druid|Z|1450; Moonglade|N|Use your Moonglade portal spell.|
+T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|To Dendrite Starblaze.|
+A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
+R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|1450; Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
 C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
 T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
 A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
-F Rut'theran Village|ACTIVE|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+F Rut'theran Village|ACTIVE|272|C|Druid|M|44.15,45.22|Z|1450; Moonglade|N|Fly back using the Darnassus Flight Master.|
 F Auberdine|ACTIVE|272|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
@@ -212,12 +212,12 @@ A Escape Through Force or Stealth|QID|994^995|N|Stealth is much easier and requi
 C Escape Through Force|ACTIVE|994|M|41.91,81.59|N|Prepare for an escort with 3 waves of fighting. Stay behind Volcor and allow him to pull the aggro first. If he doesn't get aggro, he will keep walking into the next wave.\nThe quest will complete when you reach the road/Grimclaw.|
 A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\n|
 C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground.|
-C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|
-T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
-T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
-T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|Do not get followup.|
-T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
-f Astranaar|AVAILABLE|741|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|Get the flight path while you're here.|
+C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440; Ashenvale|U|13536|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|
+T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|1440; Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
+T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|1440; Ashenvale|N|To Liladris Moonriver.|
+T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440; Ashenvale|N|Do not get followup.|
+T Therylune's Escape|QID|945|M|22.65,51.92|Z|1440; Ashenvale|N|To Therysil at the Shrine of Aessina.|
+f Astranaar|AVAILABLE|741|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|1440; Ashenvale|N|Get the flight path while you're here.|
 F Auberdine|AVAILABLE|741|N|Fly back to turn in quests, repair and sell.|
 T The Absent Minded Prospector|QID|731|M|37.44,41.85|N|To Archaeologist Hollee.|
 A The Absent Minded Prospector|QID|741|M|37.44,41.85|N|From Archaeologist Hollee.|PRE|731|
@@ -225,8 +225,8 @@ T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
 T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
 F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, Be sure to pickup your level 18 skills from your trainer, do professions, bank, repair, sell.|
 R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
-T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
-A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
+T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|1457; Darnassus|N|To Chief Archaeologist Greywhisker.|
+A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|1457; Darnassus|N|From Chief Archaeologist Greywhisker.|
 F Auberdine|AVAILABLE|2098|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
@@ -258,21 +258,21 @@ L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|If you haven't gotten th
 N Next steps|QID|942|N|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|ACTIVE|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
-f Menethil Harbor|ACTIVE|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
-T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
+f Menethil Harbor|ACTIVE|942|M|9.48,59.68|Z|1437; Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
+T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|1437; Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
 F Ironforge|AVAILABLE|971|N|Fly to Ironforge|TAXI|Ironforge|
 N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|
 R Harbor Docks|AVAILABLE|971|M|5.1,63.4|CC|N|Get on the boat for Theramore|TAXI|-Ironforge|
-R Dun Morogh|AVAILABLE|971|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
-R Kharanos|AVAILABLE|971|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
+R Dun Morogh|AVAILABLE|971|M|32.0,6.4;17.7,16.4|CS|Z|1426; Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
+R Kharanos|AVAILABLE|971|M|17.9,17|Z|1426; Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
 R Ironforge|AVAILABLE|971|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
 R Deeprun Tram|AVAILABLE|971|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
-f Ironforge|AVAILABLE|971|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
-T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
-A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
-R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
+f Ironforge|AVAILABLE|971|M|55.49,47.72|Z|1455; Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
+T The Powers Below|QID|968|M|50.82,5.66|Z|1455; Ironforge|N|To Gerrig Bonegrip.|
+A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455; Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
+R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|1455; Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|AVAILABLE|343|N|Take the tram ride and then run into Stormwind.|
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 ; --- This guide ends in Stormwind City
 
 

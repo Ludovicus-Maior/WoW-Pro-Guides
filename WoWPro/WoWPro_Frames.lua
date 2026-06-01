@@ -541,6 +541,7 @@ function WoWPro.RowSizeSet()
     local pad = WoWProDB.profile.pad
     local biggeststep = 0
     local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
+    local guideWindowCropped = false
 
     -- Get current expansion anchor (default to TOPLEFT if not set)
     local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
@@ -692,6 +693,7 @@ function WoWPro.RowSizeSet()
         else
             totalh = totalh + newh
             if totalh > maxh then
+                guideWindowCropped = true
                 for j=i,15 do
                     WoWPro.rows[j]:Hide()
                     if not _G.InCombatLockdown() then
@@ -775,7 +777,7 @@ function WoWPro.RowSizeSet()
             if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
                 -- Growing downward: max height is distance from current top to bottom of screen
                 local frameTop = WoWPro.MainFrame:GetTop() or screenH
-                maxHeightScreen = screenH - frameTop
+                maxHeightScreen = frameTop
             else
                 -- Growing upward: max height is distance from current bottom to top of screen
                 local frameBottom = WoWPro.MainFrame:GetBottom() or 0
@@ -783,12 +785,16 @@ function WoWPro.RowSizeSet()
             end
 
             -- Clamp calculated height to not exceed screen edge
+            if totalh > maxHeightScreen then
+                guideWindowCropped = true
+            end
             totalh = math.min(totalh, maxHeightScreen)
 
             -- Temporarily disable clamping to allow frame to grow upward for bottom-anchored frames
             local wasClampedToScreen = WoWPro.MainFrame:IsClampedToScreen()
             WoWPro.MainFrame:SetClampedToScreen(false)
             WoWPro.MainFrame:SetHeight(totalh)
+            WoWPro.PaddingSet()
             WoWPro.MainFrame:SetClampedToScreen(wasClampedToScreen)
 
             -- For bottom-anchored frames, re-establish the anchor after resize to ensure bottom doesn't drift
@@ -815,6 +821,17 @@ function WoWPro.RowSizeSet()
         elseif frameTop and frameTop > screenH and frameBottom then
             local newHeight = math.max(minHeight, screenH - frameBottom)
             WoWPro.MainFrame:SetHeight(newHeight)
+        end
+    end
+
+    if not _G.InCombatLockdown() then
+        if guideWindowCropped then
+            if not WoWPro.CroppedGuideWarning then
+                WoWPro:Print("|cffffff00WoWPro: Screen height limits guide visibility. Enable mouseover notes or reduce displayed rows.|r")
+                WoWPro.CroppedGuideWarning = true
+            end
+        else
+            WoWPro.CroppedGuideWarning = nil
         end
     end
 
@@ -1713,6 +1730,7 @@ function WoWPro:CreateTitleBar()
         if WoWPro.GuideFrame:IsVisible() then
             if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
             WoWPro.GuideFrame:Hide()
+            WoWPro.UserCollapsed = true
             WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(this:GetHeight())
@@ -1721,6 +1739,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
+            WoWPro.UserCollapsed = false
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)

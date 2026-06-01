@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('Classic-01-12-Hendo-Mulgore', "Leveling", 'Mulgore', 'Hendo72', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('ClassicMulgore0112', "Leveling", 'Mulgore', 'WoWPro Team', 'Horde', 1)
 WoWPro:GuideName(guide, 'Mulgore')
 WoWPro:GuideLevels(guide, 1, 12, 2)
-WoWPro:GuideNextGuide(guide, 'Classic-12-15-Hendo-Silverpine-Forest')
+WoWPro:GuideNextGuide(guide, 'ClassicSilverpineForest1215')
 WoWPro:GuideSteps(guide, function() return [[
 
 A The Hunt Begins|QID|747|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|
