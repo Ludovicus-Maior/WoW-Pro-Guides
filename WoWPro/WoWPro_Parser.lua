@@ -1310,7 +1310,8 @@ function WoWPro.SetupGuideReal()
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro.SetupGuideReal(1)")
     -- Location, Location, Location
-    if WoWPro.AutoCompleteZone() then
+    local currentindex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
+    if currentindex and WoWPro.AutoCompleteZone(currentindex) then
         WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
     end
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
