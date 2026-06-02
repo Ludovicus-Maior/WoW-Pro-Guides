@@ -136,9 +136,9 @@ C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248; Isle of Dorn|N|Modh
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248; Isle of Dorn|N|Back out of the cave to pick up Glittering Ore from the ground.|H|S|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248; Isle of Dorn|N|Fungarian Chunks drop from the mushrooms.|S|
 A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248; Isle of Dorn|N|From Discarded Botenist Note on floor inside building under stairs.|RANK|2|
-C Concerning Fungarians|QID|79686|QO|1<1|M|35.6,77.2|Z|2248; Isle of Dorn|N|Up the stairs on the window-ledge.|H|
-C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248; Isle of Dorn|N|Further up the stairs on the bannister.|H|
-C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248; Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
+C Concerning Fungarians|QID|79686|QO|1>1|M|35.6,77.2|Z|2248; Isle of Dorn|N|Up the stairs on the window-ledge.|H|
+C Concerning Fungarians|QID|79686|QO|1>2|M|35.6,77.2|Z|2248; Isle of Dorn|N|Further up the stairs on the bannister.|H|
+C Concerning Fungarians|QID|79686|QO|1>3|M|35.65,77.07|Z|2248; Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248; Isle of Dorn|N|Fungarian Chunks.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248; Isle of Dorn|N|Glittering Ore.|H|US|
 T Buried, Not Forgotten|QID|79692|M|42.28,73.29|Z|2248; Isle of Dorn|N|To Kodun.|
@@ -161,13 +161,13 @@ A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248; Isle of Dorn|N|From M
 A Weapons and Warriors|QID|78996|M|42.72,71.72|Z|2248; Isle of Dorn|N|From Aggartha.|RANK|2|
 R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|CC|Z|2248; Isle of Dorn|N|Enter the herbalist and go downstairs.|
 T Concerning Fungarians|QID|79686|M|42.11,71.33;41.47,71.46|Z|2248; Isle of Dorn|CS|N|To Yeonin (downstairs).|
-C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248; Isle of Dorn|N|Recruit Kaldrinn.|CHAT|
-C Weapons and Warriors|QID|78996|QO|2<1|M|41.0,73.1|Z|2248; Isle of Dorn|N|Pick up Weapon crate beside flightmaster.|H|
-C Weapons and Warriors|QID|78996|QO|1<2|M|41.4,74.0|Z|2248; Isle of Dorn|N|Recruit Garrak.|CHAT|
-C Weapons and Warriors|QID|78996|QO|2<2|M|41.6,74.5|Z|2248; Isle of Dorn|N|Pick up weapon crate just inside building.|H|
-C Weapons and Warriors|QID|78996|QO|2<3|M|43.9,78.8|Z|2248; Isle of Dorn|N|Grab last weapon crate.|H|
-C Weapons and Warriors|QID|78996|QO|1<4|M|44.4,79.3|Z|2248; Isle of Dorn|N|Recruit Eiggard and Bertola - Inside bottom of building.|CHAT|
-C Weapons and Warriors|QID|78996|QO|1<5|M|44.7,79.3|Z|2248; Isle of Dorn|N|Merrimack is at the top of the tower.|CHAT|
+C Weapons and Warriors|QID|78996|QO|1>1|M|42.12,72.27|Z|2248; Isle of Dorn|N|Recruit Kaldrinn.|CHAT|
+C Weapons and Warriors|QID|78996|QO|2>1|M|41.0,73.1|Z|2248; Isle of Dorn|N|Pick up Weapon crate beside flightmaster.|H|
+C Weapons and Warriors|QID|78996|QO|1>2|M|41.4,74.0|Z|2248; Isle of Dorn|N|Recruit Garrak.|CHAT|
+C Weapons and Warriors|QID|78996|QO|2>2|M|41.6,74.5|Z|2248; Isle of Dorn|N|Pick up weapon crate just inside building.|H|
+C Weapons and Warriors|QID|78996|QO|2>3|M|43.9,78.8|Z|2248; Isle of Dorn|N|Grab last weapon crate.|H|
+C Weapons and Warriors|QID|78996|QO|1>4|M|44.4,79.3|Z|2248; Isle of Dorn|N|Recruit Eiggard and Bertola - Inside bottom of building.|CHAT|
+C Weapons and Warriors|QID|78996|QO|1>5|M|44.7,79.3|Z|2248; Isle of Dorn|N|Merrimack is at the top of the tower.|CHAT|
 T For The Love of Gems|QID|82441|M|43.03,69.99|Z|2248; Isle of Dorn|N|To Natalia Pearce.|
 A Precious Gems|QID|82465|PRE|82441|M|43.03,69.99|Z|2248; Isle of Dorn|N|From Natalia Pearce.|RANK|2|
 A Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248; Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
@@ -250,10 +250,10 @@ C Wold Memories|QID|78572|QO|5|M|54.37,65.05|Z|2248; Isle of Dorn|N|Pick up the 
 T Wold Memories|QID|78572|M|54.25,65.31|Z|2248; Isle of Dorn|N|To Woldtender Igris.|
 A Keeper's Aid|QID|78573|PRE|78572|M|54.25,65.31|Z|2248; Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 C Infected Wildlife|QID|78573|QO|1|N|Keep and eye out for the non hostile 'Infected' Wildlife and use the Shillelagh on them.|U|215158|H|S|
-C Keeper's Aid|QID|78573|QO|2<1|M|53.8,65.3|Z|2248; Isle of Dorn|N|Click the stone ward to destroy it.|H|
-C Keeper's Aid|QID|78573|QO|2<2|M|54.8,66.9|Z|2248; Isle of Dorn|N|Cick the stone ward to destroy it.|H|
-C Keeper's Aid|QID|78573|QO|2<3|M|52.62,69.82|Z|2248; Isle of Dorn|N|Click the stone ward to destroy it.|H|
-C Keeper's Aid|QID|78573|QO|2<4|M|51.73,67.75|Z|2248; Isle of Dorn|N|Cick the stone ward to destroy it.|H|
+C Keeper's Aid|QID|78573|QO|2>1|M|53.8,65.3|Z|2248; Isle of Dorn|N|Click the stone ward to destroy it.|H|
+C Keeper's Aid|QID|78573|QO|2>2|M|54.8,66.9|Z|2248; Isle of Dorn|N|Cick the stone ward to destroy it.|H|
+C Keeper's Aid|QID|78573|QO|2>3|M|52.62,69.82|Z|2248; Isle of Dorn|N|Click the stone ward to destroy it.|H|
+C Keeper's Aid|QID|78573|QO|2>4|M|51.73,67.75|Z|2248; Isle of Dorn|N|Cick the stone ward to destroy it.|H|
 C Keeper's Aid|QID|78573|QO|1|M|52.15,70.60|Z|2248; Isle of Dorn|N|Continue beating up the innocent Wildlife.|U|215158|US|
 T Keeper's Aid|QID|78573|M|54.21,65.31|Z|2248; Isle of Dorn|N|To Woldtender Igris.|
 A Boss of the Bosk|QID|78574|PRE|78573|M|54.21,65.34|Z|2248; Isle of Dorn|N|From Woldtender Igris.|RANK|2|
@@ -306,11 +306,11 @@ T You No Take Plunder!|QID|78745|M|63.32,42.56|Z|2248; Isle of Dorn|N|To Urtago.
 T Laws Apply to All|QID|78746|M|63.32,42.56|Z|2248; Isle of Dorn|N|To Urtago.|
 A The Great Collapse|QID|78747|PRE|78745&78746|M|63.32,42.56|Z|2248; Isle of Dorn|N|From Urtago.|RANK|2|
 A Cutting the Wick|QID|78748|PRE|78745&78746|M|63.32,42.56|Z|2248; Isle of Dorn|N|From Urtago.|RANK|2|
-C The Great Collapse|QID|78747|M|62.87,44.71|QO|1<1|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|U|211435|
+C The Great Collapse|QID|78747|M|62.87,44.71|QO|1>1|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|U|211435|
 K Workmaster Nast Slain|ACTIVE|78748|M|63.25,44.45|QO|3|Z|2248; Isle of Dorn|N|Kill Workmaster Nast.|T|Workmaster Nast|
-C The Great Collapse|QID|78747|M|63.53,44.35|QO|1<2|U|211435|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|
+C The Great Collapse|QID|78747|M|63.53,44.35|QO|1>2|U|211435|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|
 K Workmaster Earwax|ACTIVE|78748|M|64.18,43.77|QO|2|Z|2248; Isle of Dorn|N|Workmaster Earwax Slain.|T|Workmaster Earwax|
-C The Great Collapse|QID|78747|M|64.19,42.96|QO|1<3|U|211435|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|
+C The Great Collapse|QID|78747|M|64.19,42.96|QO|1>3|U|211435|Z|2248; Isle of Dorn|N|Use provided [color=33fff9] Explosive Sticks [/color]to destroy the Kobold tunnels.|
 K Hairless the Menace|ACTIVE|78748|M|64.38,42.54|QO|1|Z|2248; Isle of Dorn|N|Hairless the Menace Slain.|T|Hairless the Menace|
 T The Great Collapse|QID|78747|M|63.30,42.64|Z|2248; Isle of Dorn|N|To Urtago.|
 T Cutting the Wick|QID|78748|M|63.30,42.64|Z|2248; Isle of Dorn|N|To Urtago.|
@@ -385,9 +385,9 @@ A Charge for a Charge|QID|78467|PRE|78465|M|61.63,70.15|Z|2248; Isle of Dorn|N|F
 ;t It's Elementary|QID|78467|M|61.63,70.15|Z|2248; Isle of Dorn|N|Auto Turn In.|
 C It's Elementary|QID|79667|M|61.63,70.15|Z|2248; Isle of Dorn|N|Kill elementals... fill the bar.|S!US|IZ|Golgrin's Reach|
 C The History Beneath Us|QID|79716|M|63.38,71.61|Z|2248; Isle of Dorn|QO|1|NC|N|Kill and loot elemetnals to collect Shattered Relic Fragments.|S|
-C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248; Isle of Dorn|QO|1<1|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
-C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248; Isle of Dorn|QO|1<2|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
-C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248; Isle of Dorn|QO|1<3|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
+C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248; Isle of Dorn|QO|1>1|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
+C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248; Isle of Dorn|QO|1>2|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
+C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248; Isle of Dorn|QO|1>3|NC|N|When you are at the spot, a sand pile will appear, click to loot the Power Cell.|
 C The History Beneath Us|QID|79716|M|63.38,71.61|Z|2248; Isle of Dorn|QO|1|NC|N|Continue with the elementals until you have enough Shattered Relic Fragments.|US|
 T The History Beneath Us|QID|79716|M|61.63,70.15|Z|2248; Isle of Dorn|N|To Dagran Thaurissan II.|
 T Charge for a Charge|QID|78467|M|61.63,70.15|Z|2248; Isle of Dorn|N|To Speaker Brinthe.|

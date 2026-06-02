@@ -203,9 +203,9 @@ A It's Elementary|QID|79667|PRE|78618&78571|M|60.69,70.19|Z|2248|
 T Golgrin's Reach|QID|78465|M|61.64,70.14|Z|2248|N|To Dagran Thaurissan II.|
 A The History Beneath Us|QID|79716|PRE|78465|M|61.64,70.14|Z|2248|N|From Dagran Thaurissan II.|
 A Charge for a Charge|QID|78467|PRE|78465|M|61.66,70.15|Z|2248|N|From Speaker Brinthe.|
-C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248;Isle of Dorn|QO|1<1|NC|N|Power Cell.|
-C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248;Isle of Dorn|QO|1<2|NC|N|Power Cell.|
-C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248;Isle of Dorn|QO|1<3|NC|N|Power Cell.|
+C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248;Isle of Dorn|QO|1>1|NC|N|Power Cell.|
+C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248;Isle of Dorn|QO|1>2|NC|N|Power Cell.|
+C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248;Isle of Dorn|QO|1>3|NC|N|Power Cell.|
 C The History Beneath Us|QID|79716|M|62.96,71.22|Z|2248|QO|1|NC|N|Shattered Relic Fragments.|
 C It's Elementary|QID|79667|M|61.98,71.78|Z|2248|QO|1|NC|N|Elementals stopped (100%).|
 T It's Elementary|QID|79667|M|61.98,71.78|Z|2248|

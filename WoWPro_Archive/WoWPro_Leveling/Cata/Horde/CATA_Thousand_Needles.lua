@@ -71,7 +71,7 @@ K Seadog Fajardo|QID|25661|QO|2|M|88.09,73.92|N|Kill Seadog Fajardo on the next 
 C With a Little Help...|QID|25661|QO|3|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|RANK|2|QID|25661|M|96.94,72.45|N|To Ajamon Ghostcaller.|
 A Carcass Collection|RANK|2|QID|25672|PRE|25661|M|96.82,72.50|N|From Ajamon Ghostcaller.|
-C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|1<5|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
+C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|1>5|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
 T Special Delivery for Brivelthwerp|RANK|2|QID|28042|M|69.95,85.18|N|To Brivelthwerp.|
 A The Greatest Flavor in the World!|RANK|2|QID|28045|PRE|28031^28042|M|69.95,85.18|N|From Brivelthwerp.|
 A We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|PRE|28031^28042|M|69.86,85.09|N|From Brivelthwerp.|

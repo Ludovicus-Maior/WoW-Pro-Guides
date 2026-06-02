@@ -52,10 +52,10 @@ T Forging Connections|QID|65271|M|34.91,64.81|N|To Elder Kreth.|
 A Defending Haven|QID|64953|PRE|65271|M|34.91,64.81|N|From Elder Kreth.|
 A Destroying the Destructors|QID|64952|PRE|65271|M|34.82,64.82|N|From Elder Ara.|
 C Defending Haven|QID|64953|N|Mawsworn attackers slain.|S|
-C Destroying the Destructors|QID|64952|M|37.88,63.99|CS|QO|1<1|NC|N|Maw Destructor.|
-C Destroying the Destructors|QID|64952|M|39.03,63.56|CS|QO|1<2|NC|N|Maw Destructor.|
-C Destroying the Destructors|QID|64952|M|38.19,60.36|CS|QO|1<3|NC|N|Maw Destructor.|
-C Destroying the Destructors|QID|64952|M|36.79,61.60|CS|QO|1<4|NC|N|Maw Destructor.|
+C Destroying the Destructors|QID|64952|M|37.88,63.99|CS|QO|1>1|NC|N|Maw Destructor.|
+C Destroying the Destructors|QID|64952|M|39.03,63.56|CS|QO|1>2|NC|N|Maw Destructor.|
+C Destroying the Destructors|QID|64952|M|38.19,60.36|CS|QO|1>3|NC|N|Maw Destructor.|
+C Destroying the Destructors|QID|64952|M|36.79,61.60|CS|QO|1>4|NC|N|Maw Destructor.|
 C Defending Haven|QID|64953|M|38.14,62.55|N|Mawsworn attackers slain.|US|
 T Destroying the Destructors|QID|64952|M|34.86,64.78|N|To Elder Ara.|
 T Defending Haven|QID|64953|M|34.86,64.78|N|To Elder Kreth.|
@@ -203,9 +203,9 @@ T Forging Unity from Diversity|QID|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|To
 A Remnants of the First Ones|QID|64831|PRE|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|From Elder Ara.|
 A Reclaiming Provis Esper|QID|64832|PRE|64833|M|56.20,57.87|Z|1970;Zereth Mortis|N|From Elder Ara.|
 C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Kill Reality Breachers.|S|
-C Remnants of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1<1|NC|N|Click on the bird.|
-C Remnants of the First Ones|QID|64831|M|52.77,51.87|Z|1970;Zereth Mortis|QO|1<2|NC|N|Click on the pile of rubble.|
-C Remnants of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1<3|NC|N|Beat up Zarenak The Soulstealer.|
+C Remnants of the First Ones|QID|64831|M|54.86,49.38|Z|1970;Zereth Mortis|QO|1>1|NC|N|Click on the bird.|
+C Remnants of the First Ones|QID|64831|M|52.77,51.87|Z|1970;Zereth Mortis|QO|1>2|NC|N|Click on the pile of rubble.|
+C Remnants of the First Ones|QID|64831|M|53.11,59.70|Z|1970;Zereth Mortis|QO|1>3|NC|N|Beat up Zarenak The Soulstealer.|
 C Reclaiming Provis Esper|QID|64832|M|53.81,56.82|Z|1970;Zereth Mortis|N|Finish cleaning up whatever mobs you have left.|US|
 T Remnants of the First Ones|QID|64831|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
 T Reclaiming Provis Esper|QID|64832|M|PLAYER|Z|1970;Zereth Mortis|N|To Elder Ara.|
@@ -301,9 +301,9 @@ A Oppress and Destroy|QID|64810|PRE|64809|M|57.22,31.09|Z|1970;Zereth Mortis|N|F
 A Aggressive Excavation|QID|64811|PRE|64809|M|57.23,31.16|Z|1970;Zereth Mortis|N|From Taelia Fordragon.|
 C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|S|
 C Aggressive Excavation|QID|64811|M|63.01,22.34|Z|1970;Zereth Mortis|QO|1|NC|N|Blocked Door destroyed.|
-C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970;Zereth Mortis|QO|2<1|NC|N|Inscrutable Phrases infused.|
-C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970;Zereth Mortis|QO|2<2|NC|N|Inscrutable Phrases infused.|
-C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970;Zereth Mortis|QO|2<3|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|62.85,21.31|Z|1970;Zereth Mortis|QO|2>1|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|66.08,25.74|Z|1970;Zereth Mortis|QO|2>2|NC|N|Inscrutable Phrases infused.|
+C Aggressive Excavation|QID|64811|M|59.70,32.27|Z|1970;Zereth Mortis|QO|2>3|NC|N|Inscrutable Phrases infused.|
 C Oppress and Destroy|QID|64810|M|60.24,31.48|Z|1970;Zereth Mortis|QO|1|N|Invading Mawsworn slain (100%).|US|
 T Oppress and Destroy|QID|64810|M|PLAYER|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
 T Aggressive Excavation|QID|64811|M|57.32,31.11|Z|1970;Zereth Mortis|N|To Highlord Bolvar Fordragon.|
@@ -376,10 +376,10 @@ A Between A Rock & A Rock|QID|64935|PRE|64888&65245|M|48.42,27.03|Z|1970;Zereth 
 C Between A Rock & A Rock|QID|64935|M|48.37,26.84|Z|1970;Zereth Mortis|QO|1|NC|N|Nascence Servitor located.|
 C Between A Rock & A Rock|QID|64935|M|48.32,26.71|Z|1970;Zereth Mortis|QO|2|NC|N|Nascene Servitor controlled.|
 C Between A Rock & A Rock|QID|64935|M|48.42,27.12|Z|1970;Zereth Mortis|QO|3|NC|N|Suspicious Rubble Pile searched.|
-C Between A Rock & A Rock|QID|64935|M|48.95,29.32|Z|1970;Zereth Mortis|QO|4<1|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|49.80,28.57|Z|1970;Zereth Mortis|QO|4<2|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|50.31,27.23|Z|1970;Zereth Mortis|QO|4<3|NC|N|Rubble Piles searched.|
-C Between A Rock & A Rock|QID|64935|M|49.48,25.43|Z|1970;Zereth Mortis|QO|4<4|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|48.95,29.32|Z|1970;Zereth Mortis|QO|4>1|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|49.80,28.57|Z|1970;Zereth Mortis|QO|4>2|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|50.31,27.23|Z|1970;Zereth Mortis|QO|4>3|NC|N|Rubble Piles searched.|
+C Between A Rock & A Rock|QID|64935|M|49.48,25.43|Z|1970;Zereth Mortis|QO|4>4|NC|N|Rubble Piles searched.|
 C Between A Rock & A Rock|QID|64935|M|49.49,26.88|Z|1970;Zereth Mortis|QO|5|NC|N|Glowing Rubblepile searched.|
 C Match Made in Zereth Mortis|QID|64889|M|49.50,26.87|Z|1970;Zereth Mortis|QO|5|NC|N|Secundus Locus Arrangement found.|
 T Between A Rock & A Rock|QID|64935|M|PLAYER|Z|1970;Zereth Mortis|N|To Pocopoc.|
@@ -394,9 +394,9 @@ C Match Made in Zereth Mortis|QID|64889|M|49.93,32.38|Z|1970;Zereth Mortis|QO|13
 C Match Made in Zereth Mortis|QID|64889|M|50.64,32.60|Z|1970;Zereth Mortis|QO|14|NC|N|Ascend to Ultimus Locus.|
 T Match Made in Zereth Mortis|QID|64889|M|48.76,31.93|Z|1970;Zereth Mortis|N|To Pocopoc.|
 A Searching High and Low|QID|64936|PRE|64889|M|48.76,31.93|Z|1970;Zereth Mortis|N|From Pocopoc.|
-C Searching High and Low|QID|64936|M|47.31,33.13|Z|1970;Zereth Mortis|QO|1<1|NC|N|Ingress Phrase.|
-C Searching High and Low|QID|64936|M|48.61,34.13|Z|1970;Zereth Mortis|QO|1<2|NC|N|Ingress Phrase.|
-C Searching High and Low|QID|64936|M|49.14,32.53|Z|1970;Zereth Mortis|QO|1<3|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|47.31,33.13|Z|1970;Zereth Mortis|QO|1>1|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|48.61,34.13|Z|1970;Zereth Mortis|QO|1>2|NC|N|Ingress Phrase.|
+C Searching High and Low|QID|64936|M|49.14,32.53|Z|1970;Zereth Mortis|QO|1>3|NC|N|Ingress Phrase.|
 C Searching High and Low|QID|64936|M|48.07,33.51|Z|1970;Zereth Mortis|QO|2|NC|N|Ingress Phrases placed.|
 C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970;Zereth Mortis|QO|3|NC|N|Vessel chamber entered.|
 C Searching High and Low|QID|64936|M|47.92,33.91|Z|1970;Zereth Mortis|QO|4|NC|N|Vessel acquired.|
@@ -576,8 +576,8 @@ C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breach
 C Restore the Flow|QID|65350|M|55.08,50.30|Z|1970;Zereth Mortis|QO|1|NC|N|Locrian Keystone.|
 C Restore the Flow|QID|65350|M|20.12,34.90|Z|2028;ZerethMicro_B|QO|2|NC|N|Locrian Esper entered.|
 C Restore the Flow|QID|65350|M|47.87,66.82|Z|2028;Zereth Mortis|QO|3|NC|N|Locrian Swale aligned.|
-C Restore the Flow|QID|65350|M|44.14,68.88|Z|2028;Zereth Mortis|QO|4<1|NC|N|Valves tuned.|
-C Restore the Flow|QID|65350|M|48.64,75.04|Z|2028;Zereth Mortis|QO|4<2|NC|N|Valves tuned.|
+C Restore the Flow|QID|65350|M|44.14,68.88|Z|2028;Zereth Mortis|QO|4>1|NC|N|Valves tuned.|
+C Restore the Flow|QID|65350|M|48.64,75.04|Z|2028;Zereth Mortis|QO|4>2|NC|N|Valves tuned.|
 C Restore the Flow|QID|65350|M|51.17,68.72|Z|2028;Zereth Mortis|QO|5|NC|N|Percolation Array aligned.|
 C Restore the Flow|QID|65350|M|71.73,64.27|Z|2028;Zereth Mortis|QO|6|N|Defeat Xelieth the Souldrinker.|
 C An Automa-free Diet|QID|65353|M|54.83,53.41|Z|1970;Zereth Mortis|QO|1|N|Breachers and Gorgers Slain.|US|

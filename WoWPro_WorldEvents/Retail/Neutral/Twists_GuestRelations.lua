@@ -379,11 +379,11 @@ T Buried Tweasure|QID|85476|M|63.20,52.34|Z|71;Tanaris|N|To Maru back in the Cav
 T Festive Reflections|QID|85502|M|61.00,50.72|Z|71;Tanaris|N|To Athelton Jones|
 
 A A Surprising Investigation|QID|85503|PRE|85502|M|61.00,50.72|Z|71;Tanaris|N|From Athelton Jones|
-C A Surprising Investigation|QID|85503|M|63.80,51.76|Z|71;Tanaris|QO|2<1|N|Talk to Jepetto Joybuzz.|T|Jepetto Joybuzz|
-C A Surprising Investigation|QID|85503|M|63.02,49.85|Z|71;Tanaris|QO|2<2|N|Talk to Big Kinook.|T|Big Kinook|
-C A Surprising Investigation|QID|85503|M|62.98,49.16|Z|71;Tanaris|QO|2<3|N|Talk to Reshad (on top of the stage).|T|Reshad|
-C A Surprising Investigation|QID|85503|M|61.90,49.90|Z|71;Tanaris|QO|2<4|N|Talk to Maru.|T|Maru|
-C A Surprising Investigation|QID|85503|M|61.65,51.04|Z|71;Tanaris|QO|2<5|N|Talk to Lorewalker Cho.|T|Lorewalker Cho|
+C A Surprising Investigation|QID|85503|M|63.80,51.76|Z|71;Tanaris|QO|2>1|N|Talk to Jepetto Joybuzz.|T|Jepetto Joybuzz|
+C A Surprising Investigation|QID|85503|M|63.02,49.85|Z|71;Tanaris|QO|2>2|N|Talk to Big Kinook.|T|Big Kinook|
+C A Surprising Investigation|QID|85503|M|62.98,49.16|Z|71;Tanaris|QO|2>3|N|Talk to Reshad (on top of the stage).|T|Reshad|
+C A Surprising Investigation|QID|85503|M|61.90,49.90|Z|71;Tanaris|QO|2>4|N|Talk to Maru.|T|Maru|
+C A Surprising Investigation|QID|85503|M|61.65,51.04|Z|71;Tanaris|QO|2>5|N|Talk to Lorewalker Cho.|T|Lorewalker Cho|
 C A Surprising Investigation|QID|85503|M|61.00,50.72|Z|71;Tanaris|QO|3|N|Talk to Athelton Jones|
 C A Surprising Investigation|QID|85503|M|63.47,51.90;64.01,51.22|Z|71;Tanaris|QO|4|CS|U|231905|
 C A Surprising Investigation|QID|85503|M|61.00,50.72|Z|71;Tanaris|QO|5|N|To Athelton Jones.|

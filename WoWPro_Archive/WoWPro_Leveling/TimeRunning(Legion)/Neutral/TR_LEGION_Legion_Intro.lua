@@ -45,8 +45,8 @@ A As A Matter of Artifact|QID|90901|M|42.79,27.67|Z|0627; Dalaran!Broken Isles|N
 A Scavenger Hunting|QID|89411|PRE|90659|M|42.30,27.28|Z|0627; Dalaran!Broken Isles|N|From Erus.|
 C As A Matter of Artifact|QID|90901|QO|1|M|42.45,28.36|Z|0627; Dalaran!Broken Isles|N|Kill stuff to collect 250 infinite power.|S|
 C Scavenger Hunting|QID|89411|QO|1|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|N|Kill stuff to loot Legion Armor Scraps.|S|
-C Get Plenty of Exorcise|QID|89412|QO|1<1|M|48.05,37.41|Z|0627; Dalaran!Broken Isles|N|Clear your way up to the balcony of Legerdemain Lounge to seal the first Legion Portal.\n[color=FF0000]NOTE: [/color]Use the north entrance.|H|
-C Get Plenty of Exorcise|QID|89412|QO|1<2|M|53.73,47.27|Z|0627; Dalaran!Broken Isles|N|Clear your way inside the Violet Gate to seal the second Legion Portal.|H|
+C Get Plenty of Exorcise|QID|89412|QO|1>1|M|48.05,37.41|Z|0627; Dalaran!Broken Isles|N|Clear your way up to the balcony of Legerdemain Lounge to seal the first Legion Portal.\n[color=FF0000]NOTE: [/color]Use the north entrance.|H|
+C Get Plenty of Exorcise|QID|89412|QO|1>2|M|53.73,47.27|Z|0627; Dalaran!Broken Isles|N|Clear your way inside the Violet Gate to seal the second Legion Portal.|H|
 C Scavenger Hunting|QID|89411|QO|1|M|45.99,37.87|Z|0627; Dalaran!Broken Isles|N|Keep killing stuff until you get some Legion Armor Scraps.|US|
 T Scavenger Hunting|QID|89411|M|42.30,27.28|Z|0627; Dalaran!Broken Isles|N|To Erus.|
 A Obliterate, Then Iterate|QID|89413|PRE|89411|M|42.30,27.28|Z|0627; Dalaran!Broken Isles|N|From Erus.|

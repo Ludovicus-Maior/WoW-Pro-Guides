@@ -132,9 +132,9 @@ C A Bitter Pill to Swallow|QID|72883|M|55.72,60.20|Z|2133;Zaralek Cavern|QO|1|CH
 T Incense Gratification|QID|72880|M|54.66,54.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 T A Bitter Pill to Swallow|QID|72883|M|54.64,54.78|Z|2133;Zaralek Cavern|N|To Aurantia.|
 A Expedition Effervesta|QID|72884|PRE|72880&72882&72883|M|54.64,54.78|Z|2133;Zaralek Cavern|N|From Aurantia.|
-C Expedition Effervesta|QID|72884|M|55.89,57.32|CS|Z|2133;Zaralek Cavern|QO|1<1|NC|N|Pick up Effervesta's scent journal.|
-C Expedition Effervesta|QID|72884|M|57.63,56.36|CS|Z|2133;Zaralek Cavern|QO|1<2|NC|N|Pick up Effervesta's toy.|
-C Expedition Effervesta|QID|72884|M|58.04,54.41|CS|Z|2133;Zaralek Cavern|QO|1<3|NC|N|Pick up Effervesta's Trusty Pickaxe.|
+C Expedition Effervesta|QID|72884|M|55.89,57.32|CS|Z|2133;Zaralek Cavern|QO|1>1|NC|N|Pick up Effervesta's scent journal.|
+C Expedition Effervesta|QID|72884|M|57.63,56.36|CS|Z|2133;Zaralek Cavern|QO|1>2|NC|N|Pick up Effervesta's toy.|
+C Expedition Effervesta|QID|72884|M|58.04,54.41|CS|Z|2133;Zaralek Cavern|QO|1>3|NC|N|Pick up Effervesta's Trusty Pickaxe.|
 T Expedition Effervesta|QID|72884|M|58.07,54.23|Z|2133;Zaralek Cavern|N|To Aurantia.|
 A Suss Out the Imposter|QID|72886|PRE|72884|M|58.07,54.23|Z|2133;Zaralek Cavern|N|From Aurantia.|
 C Suss Out the Imposter|QID|72886|M|58.30,52.44|Z|2133;Zaralek Cavern|QO|1|N|Kill the 2 Drogbar and Nevroll.|
@@ -187,9 +187,9 @@ T Aspects of Our Legacy|QID|72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|To Sabel
 A Where There's Smoke, There's Fire|QID|72966|M|56.60,56.78|Z|2133|N|From Sabellian.|
 T Where There's Smoke, There's Fire|QID|72966|M|41.00,41.87|Z|2133|N|To Sabellian.|
 A Sight Beyond Sight|QID|72908|PRE|72966|M|40.97,41.85|Z|2133|N|From Ebyssian.|
-C Sight Beyond Sight|QID|72908|M|40.51,43.16|Z|2133|QO|1<1|H|N|Flamesight Rune.|
-C Sight Beyond Sight|QID|72908|M|39.70,42.28|Z|2133|QO|1<2|H|N|Flamesight Rune.|
-C Sight Beyond Sight|QID|72908|M|37.19,42.01|Z|2133|QO|1<3|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|40.51,43.16|Z|2133|QO|1>1|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|39.70,42.28|Z|2133|QO|1>2|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|37.19,42.01|Z|2133|QO|1>3|H|N|Flamesight Rune.|
 K High Seer Jhatal|ACTIVE|72908|M|35.37,42.33|Z|2133|QO|2||N|Kill High Seer Jhatal and loot the rune.|
 C Sight Beyond Sight|QID|72908|M|35.49,42.09|Z|2133|QO|3|H|N|Climb the stairs on side of the building and activate the totem on top.|
 T Sight Beyond Sight|QID|72908|M|35.43,41.89|Z|2133|N|To Ebyssian.|
@@ -333,8 +333,8 @@ T Forward Camp|QID|72931|M|44.05,15.64|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Finding Sarkareth|QID|72927|PRE|72931&72928&72926|M|44.05,15.64|Z|2133;Zaralek Cavern|N|From Ebyssian.|
 T Finding Sarkareth|QID|72927|M|47.37,15.61|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
 A Cracking His Shell|QID|72929|PRE|72927|M|47.37,15.61|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
-C Cracking His Shell|QID|72929|M|47.53,16.38|Z|2133;Zaralek Cavern|QO|1<1|H|N|Click the [Color=7eff8a] Aberrus Charge [/color] to destroy the connection.|
-C Cracking His Shell|QID|72929|M|49.23,16.62|Z|2133;Zaralek Cavern|QO|1<2|H|N|Click the [Color=7eff8a] Aberrus Charge [/color] to destroy the connection.|
+C Cracking His Shell|QID|72929|M|47.53,16.38|Z|2133;Zaralek Cavern|QO|1>1|H|N|Click the [Color=7eff8a] Aberrus Charge [/color] to destroy the connection.|
+C Cracking His Shell|QID|72929|M|49.23,16.62|Z|2133;Zaralek Cavern|QO|1>2|H|N|Click the [Color=7eff8a] Aberrus Charge [/color] to destroy the connection.|
 T Cracking His Shell|QID|72929|M|47.37,15.61|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
 A Stopping Sarkareth|QID|72930|PRE|72929|M|47.37,15.61|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
 C Stopping Sarkareth|QID|72930|M|47.47,14.95|Z|2133;Zaralek Cavern|NC|N|Kill the Dreadful Defender.|
@@ -381,12 +381,12 @@ A Restless Death|QID|73039|PRE|73042|M|48.96,45.50|Z|2133;Zaralek Cavern|N|From 
 A A Ghastly Legacy|QID|73043|PRE|73042|M|48.94,45.52|Z|2133;Zaralek Cavern|N|From Veritistrasz.|RANK|2|
 A Cataloging Horror|QID|73044|PRE|73042|M|48.87,45.40|Z|2133;Zaralek Cavern|N|From Voraxian.|RANK|2|
 C A Ghastly Legacy|QID|73043|M|49.95,45.49|Z|2133;Zaralek Cavern|N|Unalive the Ghostly Researchers or the Failed Experiments.|S|
-C Cataloging Horror|QID|73044|QO|1<1|M|49.25,44.82|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
-C Cataloging Horror|QID|73044|QO|1<2|M|49.05,45.28|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
-C Cataloging Horror|QID|73044|QO|1<3|M|49.80,45.58|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1>1|M|49.25,44.82|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1>2|M|49.05,45.28|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1>3|M|49.80,45.58|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Restless Death|QID|73039|M|50.40,43.96|Z|2133;Zaralek Cavern|QO|1|H|N|First ritual anchor.|
-C Cataloging Horror|QID|73044|QO|1<4|M|49.98,43.83;49.50,42.75|CS|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
-C Cataloging Horror|QID|73044|QO|1<5|M|49.50,42.75|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1>4|M|49.98,43.83;49.50,42.75|CS|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1>5|M|49.50,42.75|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Restless Death|QID|73039|M|50.20,41.14|Z|2133;Zaralek Cavern|QO|2|H|N|Second ritual anchor.|
 C Cataloging Horror|QID|73044|M|50.54,41.19|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 t Cataloging Horror|QID|73044|M|PLAYER|Z|2133;Zaralek Cavern|N|To Voraxian.|

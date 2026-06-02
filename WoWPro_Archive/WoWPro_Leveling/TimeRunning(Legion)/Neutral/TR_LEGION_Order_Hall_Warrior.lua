@@ -222,7 +222,7 @@ A Mission: Search and Rescue|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Sh
 A Operation Felrage|QID|45649|PRE|45648|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|ALLIANCE|
 C Kvaldir on Call|QID|45634|QO|1|M|73.00,27.21|Z|0646; Broken Shore|N|Stand near the flotsom in the rivulet and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|NC|
 C Mission: Search and Rescue|QID|45649|M|71.90,26.50|Z|0646; Broken Shore|N|Click on the prisoners to free them.|S|H|
-C Kvaldir on Call|QID|45634|QO|2<1|M|82.73,29.31|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
+C Kvaldir on Call|QID|45634|QO|2>1|M|82.73,29.31|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
 C Operation Felrage|QID|45649|M|83.13,26.87|Z|0646; Broken Shore|N|Kill Felbeard and Warlord Kaz'jatar.|
 C Mission: Search and Rescue|QID|45649|M|83.55,31.02|Z|0646; Broken Shore|N|Keep freeing  prisoners.|S|H|
 T Mission: Search and Rescue|QID|45649|M|PLAYER|N|To Lord Darius Crowley.|
@@ -234,13 +234,13 @@ A Mission: Search and Rescue|QID|45647|PRE|45632|M|71.49,28.61|Z|0646; Broken Sh
 A Operation Felrage|QID|45633|PRE|45632|M|71.49,28.61|Z|0646; Broken Shore|N|From Lord Darius Crowley.|FACTION|HORDE|
 C Kvaldir on Call|QID|45634|QO|1|M|73.00,27.21|Z|0646; Broken Shore|N|Stand near the flotsom in the rivulet and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|NC|
 C Mission: Search and Rescue|QID|45647|M|71.90,26.50|Z|0646; Broken Shore|N|Click on the prisoners to free them.|S|H|
-C Kvaldir on Call|QID|45634|QO|2<1|M|82.73,29.31|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
+C Kvaldir on Call|QID|45634|QO|2>1|M|82.73,29.31|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
 C Operation Felrage|QID|45633|M|83.13,26.87|Z|0646; Broken Shore|N|Kill Felbeard and Warlord Kaz'jatar.|
 C Mission: Search and Rescue|QID|45647|M|83.55,31.02|Z|0646; Broken Shore|N|Keep freeing  prisoners.|S|H|
 T Mission: Search and Rescue|QID|45647|M|PLAYER|N|To Lord Darius Crowley.|
 T Operation Felrage|QID|45633|M|PLAYER|N|To Lord Darius Crowley.|
-C Kvaldir on Call|QID|45634|QO|2<2|M|66.67,38.75|Z|0646; Broken Shore|N|Go into the cave and fight your way to the portal, when you are there use the [color=33fff9]Extra Action Button[/color] to close the portal.|EAB|
-C Kvaldir on Call|QID|45634|QO|2<3|M|66.67,38.75|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
+C Kvaldir on Call|QID|45634|QO|2>2|M|66.67,38.75|Z|0646; Broken Shore|N|Go into the cave and fight your way to the portal, when you are there use the [color=33fff9]Extra Action Button[/color] to close the portal.|EAB|
+C Kvaldir on Call|QID|45634|QO|2>3|M|66.67,38.75|Z|0646; Broken Shore|N|Stand near the portal and use the [color=33fff9]Extra Action Button[/color] when it appears.|EAB|
 T Kvaldir on Call|QID|45634|M|66.67,38.75|Z|0646; Broken Shore|N|To Danica the Reclaimer.|
 A Return of the Battlelord|QID|46267|PRE|45634|M|69.81,34.70|Z|0646; Broken Shore|N|From Danica the Reclaimer.|
 P Skyhold|ACTIVE|46267|M|66.67,38.75|Z|0646; Broken Shore|N|Ask Danica for a ride back or travel on your own.|

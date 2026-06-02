@@ -312,9 +312,9 @@ t Pressing the Assualt|QID|44545|M|PLAYER|N|To UI Alert.|
 
 ;legionfall champion
 A A Brewing Situation|QID|45440|M|51.55,48.41|N|From Brewmaster Blanche.|ACTIVE|47137|
-C A Brewing Situation|QID|45440|QO|1<1|M|51.00,55.81|NC|N|Click on the keg here.|
-C A Brewing Situation|QID|45440|QO|1<2|M|50.82,59.20|NC|N|Click on the keg here.|
-C A Brewing Situation|QID|45440|QO|1<3|M|54.00,58.33|NC|N|Click on the keg here.|
+C A Brewing Situation|QID|45440|QO|1>1|M|51.00,55.81|NC|N|Click on the keg here.|
+C A Brewing Situation|QID|45440|QO|1>2|M|50.82,59.20|NC|N|Click on the keg here.|
+C A Brewing Situation|QID|45440|QO|1>3|M|54.00,58.33|NC|N|Click on the keg here.|
 T A Brewing Situation|QID|45440|M|51.40,48.39|N|To Iron-Body Ponshu.|
 A Panic at the Brewery|QID|45404|PRE|45440|M|51.30,48.42|N|From Brewer Almai.|
 C Panic at the Brewery|QID|45404|QO|1|M|47.15,47.76|CHAT|N|Ask Tak-Tak for a ride.|

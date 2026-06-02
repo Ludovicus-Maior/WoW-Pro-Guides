@@ -112,7 +112,7 @@ C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect 5 Hops. Save th
 ;--------------------new content---------------------------
 N Bag space|ACTIVE|22^38|Z|Westfall|N|There are a number of collection quests in this zone. You will need a minimum of 9 empty spaces to carry everything.|
 A Red Leather Bandanas|QID|153|M|53.98,52.99|Z|Westfall|N|From Scout Galiaan.|
-C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1<8|Z|Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S!US|
+C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1>8|Z|Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S!US|
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle.|
 A The People's Militia |QID|12|M|56.33,47.52|Z|Westfall|N|From Gryan Stoutmantle.|
 C The People's Militia|QID|12|QO|1;2|Z|Westfall|N|Kill any Defias Trappers and Smugglers you may come across.|S|

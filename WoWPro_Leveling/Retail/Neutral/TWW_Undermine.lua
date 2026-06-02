@@ -19,9 +19,9 @@ T When Opportunity Explodes|QID|83137|M|63.00,78.38|Z|2214; The Ringing Deeps|N|
 A Mixed Messages|QID|83139|PRE|83137|M|63.00,78.38|Z|2214; The Ringing Deeps|N|From Monte Gazlowe.|
 C Mixed Messages|QID|83139|QO|1|M|63.03,78.32|Z|2214; The Ringing Deeps|N|Speak to Tollbooth Entrepreneur.|CHAT|
 C Mixed Messages|QID|83139|QO|2|M|65.71,75.57|Z|2214; The Ringing Deeps|N|Locate Mining Camp.|NC|
-C Mixed Messages|QID|83139|QO|3<1|M|65.95,75.60|Z|2214; The Ringing Deeps|N|Talk to Trella.|NC|
-C Mixed Messages|QID|83139|QO|3<2|M|65.97,75.27|Z|2214; The Ringing Deeps|N|Talk to Ishqikle.|NC|
-C Mixed Messages|QID|83139|QO|3<3|M|65.80,75.33|Z|2214; The Ringing Deeps|N|Talk to Aberee.|NC|
+C Mixed Messages|QID|83139|QO|3>1|M|65.95,75.60|Z|2214; The Ringing Deeps|N|Talk to Trella.|NC|
+C Mixed Messages|QID|83139|QO|3>2|M|65.97,75.27|Z|2214; The Ringing Deeps|N|Talk to Ishqikle.|NC|
+C Mixed Messages|QID|83139|QO|3>3|M|65.80,75.33|Z|2214; The Ringing Deeps|N|Talk to Aberee.|NC|
 T Mixed Messages|QID|83139|M|65.91,75.49|Z|2214; The Ringing Deeps|N|To Monte Gazlowe.|
 A Hostile Work Environment|QID|83140|PRE|83139|M|65.91,75.49|Z|2214; The Ringing Deeps|N|From Monte Gazlowe.|
 A Miner Investigations|QID|83141|PRE|83139|M|65.86,75.44|Z|2214; The Ringing Deeps|N|From Orweyna.|
@@ -327,9 +327,9 @@ C Settled Dust|QID|85190|QO|2|M|42.52,51.64|Z|2346; Undermine|N|Wait and listen 
 P Westfall|ACTIVE|85190|QO|3|M|42.84,52.06|Z|2346; Undermine|N|Take the portal to Westfall.|
 T Settled Dust|QID|85190|M|29.99,86.04|Z|52; Westfall|N|To Master Mathias Shaw.|
 A Cut After Cut|QID|85191|M|29.99,86.04|Z|52; Westfall|N|From Master Mathias Shaw.|
-C Cut After Cut|QID|85191|QO|1<1|M|30.14,86.42|Z|52; Westfall|N|Pull the knife out of the target on the side of the house.|H|
-C Cut After Cut|QID|85191|QO|1<2|M|29.68,85.33|Z|52; Westfall|N|Down on the dock grab the fishing pole propped against the boxs.|H|
-C Cut After Cut|QID|85191|QO|1<3|M|30.56,85.89|Z|52; Westfall|N|Grab the map ontop of the barrels to the other side of the house.|H|
+C Cut After Cut|QID|85191|QO|1>1|M|30.14,86.42|Z|52; Westfall|N|Pull the knife out of the target on the side of the house.|H|
+C Cut After Cut|QID|85191|QO|1>2|M|29.68,85.33|Z|52; Westfall|N|Down on the dock grab the fishing pole propped against the boxs.|H|
+C Cut After Cut|QID|85191|QO|1>3|M|30.56,85.89|Z|52; Westfall|N|Grab the map ontop of the barrels to the other side of the house.|H|
 T Cut After Cut|QID|85191|M|29.99,86.04|Z|52; Westfall|N|To Master Mathias Shaw.|
 A Coming Home|QID|85192|M|29.99,86.04|Z|52; Westfall|N|From Master Mathias Shaw.|
 P Undermine|ACTIVE|85192|QO|1|M|29.57,85.99|Z|52; Westfall|N|Take the portal back to The Undermine.|
