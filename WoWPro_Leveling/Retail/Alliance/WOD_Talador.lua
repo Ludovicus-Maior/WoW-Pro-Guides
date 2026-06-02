@@ -116,9 +116,9 @@ K Hilaani|ACTIVE|34104|M|66.21,65.30|QO|1|N|Hilaani, between Tombs of Light and 
 ; [aldavor] Use PREs with these arcane tower ones.
 T The Foot of the Fortress|QID|34908|M|62.25,68.29|N|To Magister Serena|
 A Dropping In|QID|34913|PRE|34908|M|62.25,68.29|N|From Magister Serena|
-C Dropping In|QID|34913|M|63.46,68.99|QO|1<1|N|Base Catapult, click on it to mark for destruction.|
-C Dropping In|QID|34913|M|65.51,68.91|QO|1<2|N|Central Catapult, click on it to mark for destruction.|
-C Dropping In|QID|34913|M|66.82,68.05|QO|1<3|N|Summit Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|63.46,68.99|QO|1>1N|Base Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|65.51,68.91|QO|1>2N|Central Catapult, click on it to mark for destruction.|
+C Dropping In|QID|34913|M|66.82,68.05|QO|1>3N|Summit Catapult, click on it to mark for destruction.|
 C Dropping In|QID|34913|M|69.05,69.04|QO|2|N|Meet Serena at the gate.|
 C Dropping In|QID|34913|M|69.05,69.04|QO|3|U|112091|N|Use Magister Serena's portal, click on it.|
 T Dropping In|QID|34913|M|69.95,69.46|N|To Magister Serena|

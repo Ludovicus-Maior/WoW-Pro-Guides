@@ -429,10 +429,10 @@ A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022; The Waking Shores|N|
 C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022; The Waking Shores|N|Kill stuff as you go about the other objectives.|S!US|IZ|13733|
 C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022; The Waking Shores|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
 C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022; The Waking Shores|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
-C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022; The Waking Shores|QO|1<1|H|N|Click the Sleeping Whelp to pet it.|
-C Behavior Analysis "Homework"|QID|69897|M|42.40,82.57|Z|2022; The Waking Shores|QO|1<2|H|N|Pet the Sleeping Whelps.|
+C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022; The Waking Shores|QO|1>1H|N|Click the Sleeping Whelp to pet it.|
+C Behavior Analysis "Homework"|QID|69897|M|42.40,82.57|Z|2022; The Waking Shores|QO|1>2H|N|Pet the Sleeping Whelps.|
 C Amateur Protography|QID|66524|M|43.38,82.70|Z|2022; The Waking Shores|QO|1|NC|U|192465|N|Photograph a Proto-Dragon Egg.|
-C Behavior Analysis "Homework"|QID|69897|QO|1<3|M|43.53,84.94|Z|2022; The Waking Shores|H|N|And here is the last Sleeping Whelp to pet.|
+C Behavior Analysis "Homework"|QID|69897|QO|1>3M|43.53,84.94|Z|2022; The Waking Shores|H|N|And here is the last Sleeping Whelp to pet.|
 T Amateur Protography|QID|66524|M|39.03,83.23|Z|2022; The Waking Shores|N|To Cataloger Wulferd.|
 A Competitive Protography|QID|66525|PRE|66524|M|39.03,83.23|Z|2022; The Waking Shores|N|From Cataloger Wulferd.|RANK|2|
 A Preserving the Wilds|QID|66526|PRE|66524|M|39.09,83.26|Z|2022; The Waking Shores|N|From Dervishian.|RANK|2|

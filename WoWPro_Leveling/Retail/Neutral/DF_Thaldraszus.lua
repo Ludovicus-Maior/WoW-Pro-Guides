@@ -94,9 +94,9 @@ T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025;Thaldraszus|N|To Guardian Vel
 A The Fog of Battle|QID|66246|PRE|66167|M|35.84,82.52|Z|2025;Thaldraszus|N|From Guardian Velomir.|
 A Vengeance, Served Hot|QID|66169|PRE|66167|M|35.84,82.52|Z|2025;Thaldraszus|N|From Guardian Velomir.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025;Thaldraszus|N|Kill Magmasworn Primalists as you are searching for Velomir's unit.|S|
-C Kaora|QID|66246|M|36.24,83.78|Z|2025;Thaldraszus|QO|1<1|CHAT|N|Inspect the mangled corpse.|
-C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025;Thaldraszus|QO|1<2|CHAT|N|Inspect the mangled corpse.|
-C Mikor|QID|66246|M|35.74,84.21|Z|2025;Thaldraszus|QO|1<3|CHAT|N|Inspect the mangled corpse.|
+C Kaora|QID|66246|M|36.24,83.78|Z|2025;Thaldraszus|QO|1>1CHAT|N|Inspect the mangled corpse.|
+C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025;Thaldraszus|QO|1>2CHAT|N|Inspect the mangled corpse.|
+C Mikor|QID|66246|M|35.74,84.21|Z|2025;Thaldraszus|QO|1>3CHAT|N|Inspect the mangled corpse.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025;Thaldraszus|N|Keep killing Magmasworn Primalists until step closes.|US|
 T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025;Thaldraszus|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025;Thaldraszus|N|To Guardian Velomir.|
@@ -191,7 +191,7 @@ A Ring of Fire|QID|70878|PRE|70874|M|42.29,78.90|Z|2025;Thaldraszus|N|From Maldr
 A Worst of the Worst|QID|70875|PRE|70874|M|42.44,78.84|Z|2025;Thaldraszus|N|From Investigator Erima.|
 A Fracture the Foci|QID|70876|PRE|70874|M|42.44,78.84|Z|2025;Thaldraszus|N|From Investigator Erima.|
 C Worst of the Worst|QID|70875|M|44.57,78.15|Z|2025;Thaldraszus|N|Go through the firewall, into Emberslate Cavern. Kill Rebels and elementals while you destroy the primal Foci.|S|
-C Fracture the Foci|QID|70876|M|43.85,77.82;44.23,77.83;44.66,77.62|CS|Z|2025;Thaldraszus|QO|1<3|H|N|Click the Primal Foci to destroy them.|
+C Fracture the Foci|QID|70876|M|43.85,77.82;44.23,77.83;44.66,77.62|CS|Z|2025;Thaldraszus|QO|1>3H|N|Click the Primal Foci to destroy them.|
 C Ring of Fire|QID|70878|M|43.42,78.84;44.66,78.35|CS|Z|2025;Thaldraszus|N|If the fight isn't going when you get there, talk to Maldra to start it. Kill the things coming thru the portal while she closes it.|
 C Fracture the Foci|QID|70876|M|44.65,78.41|Z|2025;Thaldraszus|H|N|The last Primal Focus to destroy is up above/behind the portal Maldra just destroyed.|
 C Worst of the Worst|QID|70875|M|44.57,78.15|Z|2025;Thaldraszus|N|Continue killing the Rebels and elementals as you leave the cavern.|US|
@@ -209,9 +209,9 @@ A The Forward Push|QID|66470|PRE|66468|M|54.44,65.15|Z|2025;Thaldraszus|N|From S
 A Prime Planning|QID|66471|PRE|66468|M|54.44,65.15|Z|2025;Thaldraszus|N|From Sharnax.|
 C Prime Planning|QID|66471|M|54.85,62.05|Z|2025;Thaldraszus|N|Kill and loot Primalists to get the Orders.|S|
 K Karthis Sleetsong|ACTIVE|66470|M|53.71,63.38|Z|2025;Thaldraszus|QO|3|N|Kill and loot Karthis Sleetsong to get an Iceforged Gateway Stone.|T|Karthis Sleetsong|
-C The Forward Push|QID|66470|QO|4<1|M|53.71,63.38|Z|2025;Thaldraszus|H|N|Click the Elemental Gateway Gateway to close it.|
+C The Forward Push|QID|66470|QO|4>1M|53.71,63.38|Z|2025;Thaldraszus|H|N|Click the Elemental Gateway Gateway to close it.|
 K Morgg|ACTIVE|66470|M|54.81,62.07|Z|2025;Thaldraszus|QO|2|N|Down the stairs to kill and loot Morgg to get the Earthen Gateway Stone.|T|Morgg|
-C The Forward Push|QID|66470|QO|4<2|M|54.90,62.05|Z|2025;Thaldraszus|H|N|Click the Elemental Gateway Gateway to close it.|
+C The Forward Push|QID|66470|QO|4>2M|54.90,62.05|Z|2025;Thaldraszus|H|N|Click the Elemental Gateway Gateway to close it.|
 K Alora Mistbreeze|ACTIVE|66470|M|54.63,62.66|Z|2025;Thaldraszus|QO|1|N|Back up the stairs, continue up another set of stairs to find, kill and loot Alora Mistbreeze for a Misttouched Gateway Stone.|T|Alora Mistbreeze|
 C The Forward Push|QID|66470|M|54.82,62.66|Z|2025;Thaldraszus|QO|4|H|N|Click the Elemental Gateway to close it.|
 C Prime Planning|QID|66471|M|54.92,63.46|Z|2025;Thaldraszus|N|Continue killing Primalists until you have enough Orders.|US|
@@ -300,7 +300,7 @@ A Quelling Causalities|QID|66646|PRE|65935|M|59.57,82.66|Z|2025;Thaldraszus|N|Fr
 C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025;Thaldraszus|N|Kill the Time Elementals as you go.|S|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025;Thaldraszus|NC|EAB|N|Use your [color=33fff9]Extra Action Button [/color] to free the Timewalkers. There are exactly 8, so don't skip any.|S|
 C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025;Thaldraszus|QO|2|NC|EAB|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
-C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025;Thaldraszus|QO|3<50|H|N|Pick up the shards from the ground.|
+C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025;Thaldraszus|QO|3>50H|N|Pick up the shards from the ground.|
 C Cracks in Time|QID|65948|M|58.43,83.09|Z|2025;Thaldraszus|QO|1|NC|EAB|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025;Thaldraszus|QO|3|H|N|Pick up the shards.|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025;Thaldraszus|NC|EAB|N|Continue using your [color=33fff9]Extra Action Button [/color] until all the Timewalkers are free.|US|

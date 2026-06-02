@@ -158,10 +158,10 @@ C Collect Stygia|QID|60287|M|32.19,40.17|Z|1543;The Maw|QO|3|N|Killing enemies, 
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|1543;The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Night Fae|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|1543;The Maw|N|To Ve'nari.|COV|Night Fae|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|1543;The Maw|N|From Ve'nari.|PRE|60287|COV|Night Fae|
-C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1<1|NC|N|Click the Soul Ward.|COV|Night Fae|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1<2|NC|N|Click the Soul Ward.|COV|Night Fae|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1<3|NC|N|Click the Soul Ward.|COV|Night Fae|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1<4|NC|N|Click the Soul Ward.|COV|Night Fae|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1>1NC|N|Click the Soul Ward.|COV|Night Fae|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1>2NC|N|Click the Soul Ward.|COV|Night Fae|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1>3NC|N|Click the Soul Ward.|COV|Night Fae|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1>4NC|N|Click the Soul Ward.|COV|Night Fae|
 T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|1543;The Maw|N|To Ve'nari.|COV|Night Fae|
 A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|1543;The Maw|N|From Ve'nari.|PRE|61355|COV|Night Fae|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|1543;The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Night Fae|
@@ -614,10 +614,10 @@ C Collect Stygia|QID|60287|M|32.19,40.17|Z|1543;The Maw|QO|2|N|Killing enemies, 
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|1543;The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Kyrian|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.84,41.70|Z|1543;The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|1543;The Maw|N|From Ve'nari.|PRE|60287|COV|Kyrian|
-C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1<1|NC|N|Click the Soul Ward.|COV|Kyrian|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1<2|NC|N|Click the Soul Ward.|COV|Kyrian|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1<3|NC|N|Click the Soul Ward.|COV|Kyrian|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1<4|NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1>1NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1>2NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1>3NC|N|Click the Soul Ward.|COV|Kyrian|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1>4NC|N|Click the Soul Ward.|COV|Kyrian|
 T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|1543;The Maw|N|To Ve'nari.|COV|Kyrian|
 A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|1543;The Maw|N|From Ve'nari.|COV|Kyrian|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|1543;The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Kyrian|
@@ -871,9 +871,9 @@ A Shards of the Countess|QID|58561|PRE|58558&58559&58560|M|56.36,41.42|Z|1525;Re
 C Shards of the Countess|QID|58561|M|55.41,41.20|Z|1525;Revendreth|QO|1|NC|N|Bell of Transport rang (Optional).|COV|Kyrian|
 C Collecting Dust|QID|58562|M|55.41,41.20|Z|1525;Revendreth|QO|1|NC|N|Bell of Transport rung (Optional).|COV|Kyrian|
 C Collecting Dust|QID|58562|M|56.05,36.19|Z|1525;Revendreth|QO|2|NC|N|Click on Death Lotus Petal around the area.|S|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|52.81,37.85|Z|1525;Revendreth|QO|2<1|N|Kill Mob, get Shard of the Countess, from in the window.|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|54.78,37.11|Z|1525;Revendreth|QO|2<2|N|Kill the 2 mobs, get Shard of the Countess from the table.|COV|Kyrian|
-C Shards of the Countess|QID|58561|M|56.22,39.84|Z|1525;Revendreth|QO|2<3|T|Duchess Minodora|N|Kill Duchess Minodora amd loot the last Shard of the Countess.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|52.81,37.85|Z|1525;Revendreth|QO|2>1N|Kill Mob, get Shard of the Countess, from in the window.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|54.78,37.11|Z|1525;Revendreth|QO|2>2N|Kill the 2 mobs, get Shard of the Countess from the table.|COV|Kyrian|
+C Shards of the Countess|QID|58561|M|56.22,39.84|Z|1525;Revendreth|QO|2>3T|Duchess Minodora|N|Kill Duchess Minodora amd loot the last Shard of the Countess.|COV|Kyrian|
 C Collecting Dust|QID|58562|M|56.05,36.19|Z|1525;Revendreth|QO|2|NC|N|Click on Death Lotus Petal around the area.|US|COV|Kyrian|
 T Shards of the Countess|QID|58561|M|55.19,34.79|Z|1525;Revendreth|N|To The Curator.|COV|Kyrian|
 T Collecting Dust|QID|58562|M|55.19,34.79|Z|1525;Revendreth|N|To The Curator.|COV|Kyrian|
@@ -999,9 +999,9 @@ T Compassion, Blade of Humility|QID|57120|M|66.05,47.14|Z|1533;Bastion!The Shado
 A Distorted by the Maw|QID|57118|PRE|57116&57115&57120|M|66.05,47.04|Z|1533;Bastion!The Shadowlands|N|From Voitha.|COV|Kyrian|
 A Fallen to Their Vices|QID|57117|PRE|57116&57115&57120|M|66.05,47.04|Z|1533;Bastion!The Shadowlands|N|From Voitha.|COV|Kyrian|
 C Fallen to Their Vices|QID|57117|M|67.59,40.45|Z|1533;Bastion!The Shadowlands|S|N|Kill Forsworn forces in the area, you can use the extra action button to deal more damage.|EAB|COV|Kyrian|
-C Distorted by the Maw|QID|57118|M|68.97,44.51|Z|1533;Bastion!The Shadowlands|QO|1<1|NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
-C Distorted by the Maw|QID|57118|M|67.76,40.25|Z|1533;Bastion!The Shadowlands|QO|1<2|NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
-C Distorted by the Maw|QID|57118|M|65.30,43.67|Z|1533;Bastion!The Shadowlands|QO|1<3|NC|N|Click on the Anima Collectors to destroy them||COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|68.97,44.51|Z|1533;Bastion!The Shadowlands|QO|1>1NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|67.76,40.25|Z|1533;Bastion!The Shadowlands|QO|1>2NC|N|Click on the Anima Collectors to destroy them.|COV|Kyrian|
+C Distorted by the Maw|QID|57118|M|65.30,43.67|Z|1533;Bastion!The Shadowlands|QO|1>3NC|N|Click on the Anima Collectors to destroy them||COV|Kyrian|
 C Fallen to Their Vices|QID|57117|M|67.59,40.45|Z|1533;Bastion!The Shadowlands|US|N|Kill Forsworn forces in the area, you can use the extra action button to deal more damage.|EAB|COV|Kyrian|
 T Distorted by the Maw|QID|57118|M|68.37,41.65|Z|1533;Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
 T Fallen to Their Vices|QID|57117|M|68.37,41.65|Z|1533;Bastion!The Shadowlands|N|To Kleia.|COV|Kyrian|
@@ -1138,10 +1138,10 @@ C Collect Stygia|QID|60287|M|32.19,40.17|Z|1543;The Maw|QO|3|N|Killing enemies, 
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|1543;The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Venthyr|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|1543;The Maw|N|To Ve'nari.|COV|Venthyr|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|1543;The Maw|N|From Ve'nari.|PRE|60287|COV|Venthyr|
-C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1<1|NC|N|Click the Soul Ward.|COV|Venthyr|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1<2|NC|N|Click the Soul Ward.|COV|Venthyr|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1<3|NC|N|Click the Soul Ward.|COV|Venthyr|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1<4|NC|N|Click the Soul Ward.|COV|Venthyr|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1>1NC|N|Click the Soul Ward.|COV|Venthyr|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1>2NC|N|Click the Soul Ward.|COV|Venthyr|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1>3NC|N|Click the Soul Ward.|COV|Venthyr|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1>4NC|N|Click the Soul Ward.|COV|Venthyr|
 T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|1543;The Maw|N|To Ve'nari.|COV|Venthyr|
 A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|1543;The Maw|N|From Ve'nari.|COV|Venthyr|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|1543;The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Venthyr|
@@ -1192,10 +1192,10 @@ R Darkwall Tower|ACTIVE|61492|M|42.07,47.15|Z|1525;Revendreth|N|Run to and take 
 C The Princeguard|QID|61492|M|43.99,50.75|Z|1525;Revendreth|QO|1|NC|N|Click on Chelra the Bladewall to revive her.|COV|Venthyr|
 C The Princeguard|QID|61492|M|41.03,48.71|Z|1525;Revendreth|QO|2|N|Kill the Venthyr invaders.|S|COV|Venthyr|
 t The Princeguard|QID|61492|M|PLAYER|Z|1525;Revendreth|N|To Chelra the Bladewall.|COV|Venthyr|
-C Common Ground|QID|59701|M|44.54,53.99|Z|1525;Revendreth|QO|1<1|NC|N|Place the Renathal Banner.|COV|Venthyr|
-C Common Ground|QID|59701|M|45.37,49.01|Z|1525;Revendreth|QO|1<2|NC|N|Place the Renathal Banner.|COV|Venthyr|
-C Common Ground|QID|59701|M|45.02,48.47|Z|1525;Revendreth|QO|1<3|NC|N|Place the Renathal Banner.|COV|Venthyr|
-C Common Ground|QID|59701|M|40.45,50.78|Z|1525;Revendreth|QO|1<4|NC|N|Place the Renathal Banner.|COV|Venthyr|
+C Common Ground|QID|59701|M|44.54,53.99|Z|1525;Revendreth|QO|1>1NC|N|Place the Renathal Banner.|COV|Venthyr|
+C Common Ground|QID|59701|M|45.37,49.01|Z|1525;Revendreth|QO|1>2NC|N|Place the Renathal Banner.|COV|Venthyr|
+C Common Ground|QID|59701|M|45.02,48.47|Z|1525;Revendreth|QO|1>3NC|N|Place the Renathal Banner.|COV|Venthyr|
+C Common Ground|QID|59701|M|40.45,50.78|Z|1525;Revendreth|QO|1>4NC|N|Place the Renathal Banner.|COV|Venthyr|
 C The Princeguard|QID|61492|M|41.03,48.71|Z|1525;Revendreth|QO|2|N|Kill the Venthyr invaders.|US|COV|Venthyr|
 T Common Ground|QID|59701|M|41.02,54.81|Z|1525;Revendreth|N|To Prince Renathal. If you're near the back, it's possible to walk the ledge to him.|COV|Venthyr|
 A Invitation for the Countess|QID|59706|M|41.02,54.81|Z|1525;Revendreth|N|From Prince Renathal.|PRE|61492&59701|COV|Venthyr|REN|5|
@@ -1426,9 +1426,9 @@ C Someone Worth Saving|QID|58382|M|48.17,24.73|Z|1700;Sinfall Depths@Sinfall!Dun
 T Someone Worth Saving|QID|58382|M|46.41,32.26|Z|1700;Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A The Many Sins of Kael'thas Sunstrider|QID|58383|PRE|58382|M|46.41,32.26|Z|1700;Sinfall Depths@Sinfall!Dungeon|N|From Sinfall Executor.|COV|Venthyr|REN|17|
 C The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.45,32.13|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|1|CHAT|N|Talk with the Accuser to begin the ritual of absolution.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|43.74,26.40|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
-C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2>1NC|N|Click on Kael'thas: Arrogance.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|43.74,26.40|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2>2NC|N|Click on Kael'thas: Burning Legion.|COV|Venthyr|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|41.71,31.43|Z|1700;Sinfall Depths@Sinfall!Dungeon|QO|2>5NC|N|Click on any of them, he is guilty of all 3.|COV|Venthyr|
 T The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.44,32.15|Z|1700;Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|COV|Venthyr|
 A In the Shadow of our Failures|QID|58426|PRE|58383|M|46.44,32.15|Z|1700;Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|COV|Venthyr|REN|17|
 P In the Shadow of our Failures|ACTIVE|58426|M|70.41,38.48|Z|1700;Sinfall Depths@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1700|COV|Venthyr|
@@ -1622,10 +1622,10 @@ C Collect Stygia|QID|60287|M|32.19,40.17|Z|1543;The Maw|QO|3|N|Killing enemies, 
 C Rule 1: Have an Escape Plan|QID|60287|M|46.92,41.70|Z|1543;The Maw|QO|4|NC|N|Purchase a Cypher of Relocation from Ve'nari for 60 Stygia.|COV|Necrolord|
 T Rule 1: Have an Escape Plan|QID|60287|M|46.91,41.69|Z|1543;The Maw|N|To Ve'nari.|COV|Necrolord|
 A Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.69|Z|1543;The Maw|N|From Ve'nari.|PRE|60287|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1<1|NC|N|Click the Soul Ward.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1<2|NC|N|Click the Soul Ward.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1<3|NC|N|Click the Soul Ward.|COV|Necrolord|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1<4|NC|N|Click the Soul Ward.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|46.93,39.49|Z|1543;The Maw|QO|1>1NC|N|Click the Soul Ward.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.20,40.21|Z|1543;The Maw|QO|1>2NC|N|Click the Soul Ward.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|48.41,41.82|Z|1543;The Maw|QO|1>3NC|N|Click the Soul Ward.|COV|Necrolord|
+C Rule 2: Keep a Low Profile|QID|61355|M|47.20,43.16|Z|1543;The Maw|QO|1>4NC|N|Click the Soul Ward.|COV|Necrolord|
 T Rule 2: Keep a Low Profile|QID|61355|M|46.91,41.70|Z|1543;The Maw|N|To Ve'nari.|COV|Necrolord|
 A Rule 3: Trust is Earned|QID|60289|M|46.91,41.70|Z|1543;The Maw|N|From Ve'nari.|COV|Necrolord|
 C Rule 3: Trust is Earned|QID|60289|M|34.98,47.68|Z|1543;The Maw|QO|1|NC|N|Place the Signaling Beacon.|COV|Necrolord|

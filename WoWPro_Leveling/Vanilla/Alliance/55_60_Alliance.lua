@@ -340,22 +340,22 @@ T A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen H
 A The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2801|
 
 C Servants of Grol|QID|2681|M|41.2,14|Z|1419; Blasted Lands|QO|2|N|Servants of Grol Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|42.82,41.38|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|41.29,39.66|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|38.2,33.4|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|42.82,41.38|Z|1419; Blasted Lands|QO|4>1N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|41.29,39.66|Z|1419; Blasted Lands|QO|4>1N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|38.2,33.4|Z|1419; Blasted Lands|QO|4>1N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
 C Servants of Sevine|QID|2681|M|38.2,33.4|Z|1419; Blasted Lands|QO|4|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|51.26,57.71|Z|1419; Blasted Lands|QO|1<1|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|53.24,59.70|Z|1419; Blasted Lands|QO|1<2|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|54.01,53.58|Z|1419; Blasted Lands|QO|1<3|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|55.37,50.58|Z|1419; Blasted Lands|QO|1<4|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|58.01,49.21|Z|1419; Blasted Lands|QO|1<5|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|60.03,49.96|Z|1419; Blasted Lands|QO|1<6|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|62.19,51.61|Z|1419; Blasted Lands|QO|1<7|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|63.78,55.90|Z|1419; Blasted Lands|QO|1<8|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|63.15,57.26|Z|1419; Blasted Lands|QO|1<9|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3<1|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|1419; Blasted Lands|QO|3<2|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3<3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|51.26,57.71|Z|1419; Blasted Lands|QO|1>1N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|53.24,59.70|Z|1419; Blasted Lands|QO|1>2N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|54.01,53.58|Z|1419; Blasted Lands|QO|1>3N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|55.37,50.58|Z|1419; Blasted Lands|QO|1>4N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|58.01,49.21|Z|1419; Blasted Lands|QO|1>5N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|60.03,49.96|Z|1419; Blasted Lands|QO|1>6N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|62.19,51.61|Z|1419; Blasted Lands|QO|1>7N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.78,55.90|Z|1419; Blasted Lands|QO|1>8N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.15,57.26|Z|1419; Blasted Lands|QO|1>9N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3>1N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|1419; Blasted Lands|QO|3>2N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3>3N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
 T The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A Heroes of Old|QID|2702|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2681|
 T Heroes of Old|QID|2702|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|To Corporal Thund Splithoof.

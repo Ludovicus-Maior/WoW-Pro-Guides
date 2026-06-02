@@ -37,11 +37,11 @@ T Magic-stealing Kobolds|QID|83553|M|61.73,41.55|Z|2248; Isle of Dorn|N|To Kalec
 A Trinkets, Curios and Other Powerful Objects|QID|83554|PRE|83553|M|61.73,41.55|Z|2248; Isle of Dorn|N|From Kalecgos.|
 A Mysterious Necklace|QID|83555|PRE|83553|M|62.12,41.64|Z|2248; Isle of Dorn|N|From Unknown.|
 C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|1|M|62.73,40.99|Z|2248; Isle of Dorn|N|Kirin Tor Artifacts collected.|S|
-C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<1|M|62.16,40.54|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
-C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<2|M|64.32,41.47|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
-C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<3|M|64.40,43.11|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
-C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<4|M|64.43,44.16|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
-C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<5|M|63.25,45.30|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
+C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2>1M|62.16,40.54|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
+C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2>2M|64.32,41.47|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
+C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2>3M|64.40,43.11|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
+C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2>4M|64.43,44.16|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
+C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2>5M|63.25,45.30|Z|2248; Isle of Dorn|N|Arcane Manuscripts found.|H|
 C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|1|M|62.73,40.99|Z|2248; Isle of Dorn|N|Kirin Tor Artifacts collected.|US|
 T Trinkets, Curios and Other Powerful Objects|QID|83554|M|61.53,42.84|Z|2248; Isle of Dorn|N|To Kalecgos.|
 T Mysterious Necklace|QID|83555|M|61.53,42.84|Z|2248; Isle of Dorn|N|To Kalecgos.|

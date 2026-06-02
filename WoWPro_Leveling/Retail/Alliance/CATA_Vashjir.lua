@@ -180,9 +180,9 @@ A Slippery Threat|QID|25220|PRE|25222|RANK|2|M|49.13,41.95|Z|205; Shimmering Exp
 h Silver Tide Hollow|QID|25215|M|49.13,41.95|Z|205; Shimmering Expanse|N|At Caretaker Movra.|
 l Don't be Shellfish|QID|25219|QO|1|S|M|49.2,35.8|Z|205; Shimmering Expanse|N|Collect Coilshell Sifters.|
 C Slippery Threat|QID|25220|S|M|40.5,37.9;49.2,35.8;61,38.2|Z|205; Shimmering Expanse|CN|N|Kill Spiketooth Eels.|
-C A Distracting Scent|QID|25215|QO|1<1|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
-C A Distracting Scent|QID|25215|QO|1<2|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
-C A Distracting Scent|QID|25215|QO|1<3|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|QO|1>1M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|QO|1>2M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|QO|1>3M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
 T The Great Sambino|QID|25216|M|41.3,34.2|Z|205; Shimmering Expanse|N|To The Great Sambino.|
 A Undersea Inflation|QID|25218|PRE|25216|M|41.3,34.3|Z|205; Shimmering Expanse|N|From The Great Sambino.|
 A Crabby Patrons|QID|25360|M|41.2,34.2|Z|205; Shimmering Expanse|N|From Felice.|

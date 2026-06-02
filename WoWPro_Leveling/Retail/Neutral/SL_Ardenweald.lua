@@ -145,10 +145,10 @@ A Shooing Wildlife|QID|60567|M|64.27,41.28|Z|Ardenweald!The Shadowlands|N|From D
 A Tending to Wildseeds|QID|60563|M|64.27,41.28|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|57816|MS|
 C Tending to Wildseeds|QID|60563|M|64.27,41.28|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Pick up the basket beside Dreamweaver.|MS|
 C Shooing Wildlife|QID|60567|M|62.78,40.27|Z|Ardenweald!The Shadowlands|N|Anima-starved wildlife slain.|S|MS|
-C Tending to Wildseeds|QID|60563|M|62.22,40.07|Z|Ardenweald!The Shadowlands|QO|2<1|NC|N|Wildseeds imbued with anima.|MS|
-C Tending to Wildseeds|QID|60563|M|63.49,41.49|Z|Ardenweald!The Shadowlands|QO|2<2|NC|N|Wildseeds imbued with anima.|MS|
-C Tending to Wildseeds|QID|60563|M|63.99,43.02|Z|Ardenweald!The Shadowlands|QO|2<3|NC|N|Wildseeds imbued with anima.|MS|
-C Tending to Wildseeds|QID|60563|M|65.57,43.33|Z|Ardenweald!The Shadowlands|QO|2<4|NC|N|Wildseeds imbued with anima.|MS|
+C Tending to Wildseeds|QID|60563|M|62.22,40.07|Z|Ardenweald!The Shadowlands|QO|2>1NC|N|Wildseeds imbued with anima.|MS|
+C Tending to Wildseeds|QID|60563|M|63.49,41.49|Z|Ardenweald!The Shadowlands|QO|2>2NC|N|Wildseeds imbued with anima.|MS|
+C Tending to Wildseeds|QID|60563|M|63.99,43.02|Z|Ardenweald!The Shadowlands|QO|2>3NC|N|Wildseeds imbued with anima.|MS|
+C Tending to Wildseeds|QID|60563|M|65.57,43.33|Z|Ardenweald!The Shadowlands|QO|2>4NC|N|Wildseeds imbued with anima.|MS|
 C Shooing Wildlife|QID|60567|M|62.78,40.27|Z|Ardenweald!The Shadowlands|N|Anima-starved wildlife slain.|US|MS|
 T Shooing Wildlife|QID|60567|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Tending to Wildseeds|QID|60563|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
@@ -309,10 +309,10 @@ T Extreme Recycling|QID|60629|M|51.30,33.96|Z|Ardenweald!The Shadowlands|N|To Hu
 A Totem Eclipse|QID|60630|M|51.30,33.96|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60628&60629|MS|
 A Big Problem, Little Vorkai|QID|60631|M|51.30,33.96|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60628&60629|MS|
 C Big Problem, Little Vorkai|QID|60631|M|54.63,38.77|Z|Ardenweald!The Shadowlands|N|Slay Blighted. The extra action button calls for assistance on the elites.|S|MS|EAB|
-C Totem Eclipse|QID|60630|M|52.41,35.40|Z|Ardenweald!The Shadowlands|QO|1<1|NC|N|Destroy Foul Totem.|MS|
-C Totem Eclipse|QID|60630|M|54.86,38.68|Z|Ardenweald!The Shadowlands|QO|1<2|NC|N|Destroy Foul Totem.|MS|
-C Totem Eclipse|QID|60630|M|52.59,37.22|Z|Ardenweald!The Shadowlands|QO|1<3|NC|N|Destroy Foul Totem.|MS|
-C Totem Eclipse|QID|60630|M|50.61,37.35|Z|Ardenweald!The Shadowlands|QO|1<4|NC|N|Destroy Foul Totem.|MS|
+C Totem Eclipse|QID|60630|M|52.41,35.40|Z|Ardenweald!The Shadowlands|QO|1>1NC|N|Destroy Foul Totem.|MS|
+C Totem Eclipse|QID|60630|M|54.86,38.68|Z|Ardenweald!The Shadowlands|QO|1>2NC|N|Destroy Foul Totem.|MS|
+C Totem Eclipse|QID|60630|M|52.59,37.22|Z|Ardenweald!The Shadowlands|QO|1>3NC|N|Destroy Foul Totem.|MS|
+C Totem Eclipse|QID|60630|M|50.61,37.35|Z|Ardenweald!The Shadowlands|QO|1>4NC|N|Destroy Foul Totem.|MS|
 C Big Problem, Little Vorkai|QID|60631|M|50.61,37.35|Z|Ardenweald!The Shadowlands|N|Slay Blighted. The extra action button calls for assistance on the elites.|US|MS|EAB|
 T Totem Eclipse|QID|60630|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 T Big Problem, Little Vorkai|QID|60631|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
@@ -340,11 +340,11 @@ A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowla
 C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Pick up the Treated Gorm Husks scattered about the area.|S|
 A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
-C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<1|N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>1N|Use the provided pipes to ask for a Culexwood Branch.|
 ;$ Lost Satchel|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|ITEM|182731|ACH|14313;2|
 A Satchel of Culexwood|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|From Lost Satchel hanging from a branch. Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|RANK|2|
-C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<2|N|Use the provided pipes to ask for a Culexwood Branch.|
-C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<3|N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>2N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>3N|Use the provided pipes to ask for a Culexwood Branch.|
 T Satchel of Culexwood|QID|62187|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|RANK|2|

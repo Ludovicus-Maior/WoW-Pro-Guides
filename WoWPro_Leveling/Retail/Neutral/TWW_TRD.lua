@@ -149,12 +149,12 @@ C New Candle, New Hope|ACTIVE|78642|SO|7|M|41.52,89.46|Z|2304; Darkflame Cleft|N
 T New Candle, New Hope|QID|78642|M|57.37,32.01|Z|2214; The Ringing Deeps|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|57.37,32.01|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 A Preserve and Pretend|QID|83331|M|54.14,32.09|Z|2214; The Ringing Deeps|N|From Chive.|RANK|2|
-C Preserve and Pretend|QID|83331|QO|1<1|M|54.60,32.06|Z|2214; The Ringing Deeps|N|Use your [color=33fff9] Extra Action Button [/color] and follow the spark, click the dig spot to help Chive find some history|EAB|H|
-C Preserve and Pretend|QID|83331|QO|1<2|M|54.87,31.53|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
-C Preserve and Pretend|QID|83331|QO|1<3|M|55.40,31.04|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
-C Preserve and Pretend|QID|83331|QO|1<4|M|55.83,31.79|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
-C Preserve and Pretend|QID|83331|QO|1<5|M|55.27,32.64|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
-C Preserve and Pretend|QID|83331|QO|1<6|M|54.67,33.25|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>1M|54.60,32.06|Z|2214; The Ringing Deeps|N|Use your [color=33fff9] Extra Action Button [/color] and follow the spark, click the dig spot to help Chive find some history|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>2M|54.87,31.53|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>3M|55.40,31.04|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>4M|55.83,31.79|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>5M|55.27,32.64|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
+C Preserve and Pretend|QID|83331|QO|1>6M|54.67,33.25|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
 T Preserve and Pretend|QID|83331|M|54.15,32.10|Z|2214; The Ringing Deeps|N|To Chive.|
 A An Opportunity to Relax|QID|82952|M|49.62,43.87|Z|2214; The Ringing Deeps|N|From Mindi Maxlof.|RANK|2|
 A Rust and Redemption|QID|82195|M|49.21,44.58|Z|2214; The Ringing Deeps|N|From Rusted Lever.|RANK|2|
@@ -293,12 +293,12 @@ T We Don't Go to Taelloch|QID|78696|M|58.14,58.11|Z|2214; The Ringing Deeps|N|To
 A Ghost of a Company Town|QID|78697|PRE|78696|M|58.14,58.11|Z|2214; The Ringing Deeps|N|From Dagran Thaurissan II.|
 C Ghost of a Company Town|QID|78697|M|58.14,58.11|QO|1|Z|2214; The Ringing Deeps|N|Tell Magni you are ready to go.|CHAT|
 C Ghost of a Company Town|QID|78697|M|59.38,58.72|QO|2|Z|2214; The Ringing Deeps|N|Go outside and then up the steps to enter the town.|NC|
-C Ghost of a Company Town|QID|78697|QO|3<1|M|59.98,58.62|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<2|M|59.99,58.06|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<3|M|59.36,57.87|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<4|M|61.18,58.67|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<5|M|60.93,57.84|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<6|M|61.67,57.41|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>1M|59.98,58.62|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>2M|59.99,58.06|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>3M|59.36,57.87|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>4M|61.18,58.67|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>5M|60.93,57.84|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3>6M|61.67,57.41|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|M|61.84,58.34|QO|4|Z|2214; The Ringing Deeps|N|Break down the boarded up door.|H|
 T Ghost of a Company Town|QID|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|To Magni Bronzebeard.|
 A Controlled Demolition|QID|78700|PRE|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|From Magni Bronzebeard.|
@@ -387,11 +387,11 @@ A Stone Tracing|QID|82969|PRE|82990|M|54.86,64.15|Z|2214; The Ringing Deeps|N|Fr
 t Duty of Care|QID|82786|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwalker.|
 t Stone Tracing|QID|82969|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwalker.|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|3|N|Kill the pests bothering you while trying to triangulate.|S|
-C Stone Tracing|QID|82969|M|49.53,60.88|Z|2214; The Ringing Deeps|QO|1<1|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
-C Stone Tracing|QID|82969|M|48.51,53.35|Z|2214; The Ringing Deeps|QO|1<2|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
+C Stone Tracing|QID|82969|M|49.53,60.88|Z|2214; The Ringing Deeps|QO|1>1NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
+C Stone Tracing|QID|82969|M|48.51,53.35|Z|2214; The Ringing Deeps|QO|1>2NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|1|N|Click console to reroute power.|H|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|2|N|Click Leaking Pipes to patch.|H|
-C Stone Tracing|QID|82969|M|46.92,47.13|Z|2214; The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
+C Stone Tracing|QID|82969|M|46.92,47.13|Z|2214; The Ringing Deeps|QO|1>3NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|3|N|Finish up exterminating the pests.|US|
 A Decommissioning Darkness|QID|82814|PRE|82786&82969|M|PLAYER|Z|2214; The Ringing Deeps|N|From Danagh's Cogwalker.|
 K Corrupted Golem|ACTIVE|82814|M|45.03,62.12|Z|2214; The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
@@ -609,9 +609,9 @@ K Verdant Hulk|ACTIVE|79260|M|49.22,66.13|Z|2214; The Ringing Deeps|QO|2|N|Verda
 T Epicenter|QID|79260|M|50.17,65.37|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A Boiling Mad|QID|79261|PRE|79260|M|50.15,65.37|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 R The Cataract River|ACTIVE|79261|M|50.85,59.84|Z|The Ringing Deeps!Khaz Algar|N|Make your way to the The Cataract River.|
-C Boiling Mad|QID|79261|QO|1<1|M|50.85,59.84|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
-C Boiling Mad|QID|79261|QO|1<2|M|49.75,58.45|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
-C Boiling Mad|QID|79261|QO|1<3|M|50.24,55.00|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+C Boiling Mad|QID|79261|QO|1>1M|50.85,59.84|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+C Boiling Mad|QID|79261|QO|1>2M|49.75,58.45|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
+C Boiling Mad|QID|79261|QO|1>3M|50.24,55.00|Z|2214; The Ringing Deeps|H|N|Inspect the trail Berrund left.|
 T Boiling Mad|QID|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A Clean Up House|QID|79262|PRE|79261|M|51.84,50.13|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 C Clean Up House|QID|79262|M|53.18,47.57|Z|2214; The Ringing Deeps|N|Kill Agitated creatures.|

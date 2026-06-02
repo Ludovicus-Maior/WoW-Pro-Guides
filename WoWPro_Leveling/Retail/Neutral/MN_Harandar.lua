@@ -220,13 +220,13 @@ C Drift Them Away|QID|92864|M|69.35,39.50|Z|2413; Harandar|QO|2|H|N|Drifter Egg 
 C Feeding the Buds|QID|92865|M|69.43,44.65|Z|2413; Harandar|QO|1|NC|H|N|Chloroceros Buds collected.|S|
 C Drift Them Away|QID|92864|M|69.20,38.53|Z|2413; Harandar|QO|1|N|Cascade Drifter slain.|S|
 C A Hunter's Duty|QID|92883|QO|1;2;4|M|69.45,44.62|Z|2413; Harandar|H|N|Find all the items all over the place.|S|
-C A Hunter's Duty|QID|92883|QO|5<1|M|69.44,43.65|Z|2413; Harandar|CHAT|N|Check in with Ketan.|
+C A Hunter's Duty|QID|92883|QO|5>1M|69.44,43.65|Z|2413; Harandar|CHAT|N|Check in with Ketan.|
 C A Hunter's Duty|QID|92883|QO|1;2;4|M|69.45,44.62|Z|2413; Harandar|H|N|Find all the items all over the place.|US|
 C Drift Them Away|QID|92864|M|69.35,39.50|Z|2413; Harandar|QO|2|H|N|Drifter Egg Sacks removed.|US|
 C Drift Them Away|QID|92864|M|69.20,38.53|Z|2413; Harandar|QO|1|N|Cascade Drifter slain.|US|
 C Feeding the Buds|QID|92865|M|69.43,44.65|Z|2413; Harandar|QO|1|NC|N|Chloroceros Buds collected.|US|
 C A Hunter's Duty|QID|92883|QO|3|M|69.45,44.62|Z|2413; Harandar|N|Kill Lashers and the Chloroceros if you still need them too.|S|
-C A Hunter's Duty|QID|92883|QO|5<2|M|71.60,39.99|Z|2413; Harandar|CHAT|N|Check in with Ketan again.|
+C A Hunter's Duty|QID|92883|QO|5>2M|71.60,39.99|Z|2413; Harandar|CHAT|N|Check in with Ketan again.|
 C A Hunter's Duty|QID|92883|QO|3|M|69.45,44.62|Z|2413; Harandar|N|Find all the items all over the place.|US|
 C Feeding the Buds|QID|92865|M|69.40,50.63|Z|2413; Harandar|QO|2;3;4;5|H|N|Use your [color=33fff9] Extra Action Button [/color] to set out food for the baby hydras. [color=FF0000]NOTE: [/color]Must Dismount first.|EAB|
 T Feeding the Buds|QID|92865|M|69.58,50.60|Z|2413; Harandar|N|To Ney'tar.|
@@ -316,9 +316,9 @@ T Not-Yet Defeated Champions|QID|90622|M|71.78,64.04|Z|2413; Harandar|N|To Bolet
 T In Search of the Problem|QID|86865|M|31.39,64.88|Z|2413; Harandar|N|To Byarc.|
 A Can We Heal This?|QID|86866|PRE|86865|M|31.41,64.88|Z|2413; Harandar|N|From Orweyna.|
 A The Missing Rootwarden|QID|94677|PRE|86865|M|31.41,64.88|Z|2413; Harandar|N|From Orweyna.|
-C The Missing Rootwarden|QID|94677|M|30.95,64.74|Z|2413; Harandar|QO|1<1|H|N|Find Ruia's notes-part 1-inside the building.|
-C The Missing Rootwarden|QID|94677|M|32.97,65.06|Z|2413; Harandar|QO|1<2|H|N|Find Ruia's notes-part 2.|
-C The Missing Rootwarden|QID|94677|M|30.44,67.46|Z|2413; Harandar|QO|1<3|H|N|Find Ruia's notes-part 3-on platform overlooking the river.|
+C The Missing Rootwarden|QID|94677|M|30.95,64.74|Z|2413; Harandar|QO|1>1H|N|Find Ruia's notes-part 1-inside the building.|
+C The Missing Rootwarden|QID|94677|M|32.97,65.06|Z|2413; Harandar|QO|1>2H|N|Find Ruia's notes-part 2.|
+C The Missing Rootwarden|QID|94677|M|30.44,67.46|Z|2413; Harandar|QO|1>3H|N|Find Ruia's notes-part 3-on platform overlooking the river.|
 C Can We Heal This?|QID|86866|M|31.95,61.21|Z|2413; Harandar|QO|1|H|N|Use Alndust on the afflicted rutaani.|
 T Can We Heal This?|QID|86866|M|32.02,61.42|Z|2413; Harandar|N|To Orweyna.|
 T The Missing Rootwarden|QID|94677|M|32.02,61.42|Z|2413; Harandar|N|To Orweyna.|
@@ -465,10 +465,10 @@ T Tending Hope|QID|91876|M|42.52,33.87|Z|2413; Harandar|N|To Hagar.|
 ;Haramir Never Say Die -- in route from Har'mara
 A A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|N|From Shao'mal.|RANK|2|
 C A Game of Silence and Shadow|QID|91550|M|48.74,44.35|Z|2413; Harandar|QO|1|CHAT|N|Talk to Shao'mal.|
-C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3<1|H|N|Find Wenalo near the base of a tree.|
-C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3<2|H|N|Find llomai behind a few tall plants.|
-C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3<3|H|N|Find Shao'mal on a giant fungus shelf.|
-C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3<4|H|N|Find Nayeli at the base of a giant mushroom.|
+C A Game of Silence and Shadow|QID|91550|M|49.57,43.05|Z|2413; Harandar|QO|3>1H|N|Find Wenalo near the base of a tree.|
+C A Game of Silence and Shadow|QID|91550|M|50.40,40.74|Z|2413; Harandar|QO|3>2H|N|Find llomai behind a few tall plants.|
+C A Game of Silence and Shadow|QID|91550|M|51.38,41.52|Z|2413; Harandar|QO|3>3H|N|Find Shao'mal on a giant fungus shelf.|
+C A Game of Silence and Shadow|QID|91550|M|51.73,39.50|Z|2413; Harandar|QO|3>4H|N|Find Nayeli at the base of a giant mushroom.|
 T A Game of Silence and Shadow|QID|91550|M|53.87,41.26|Z|2413; Harandar|N|To Nayeli.|
 A De-nest-stration|QID|91551|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
 A Feathered Fury|QID|91552|M|53.87,41.26|Z|2413; Harandar|N|From Nayeli.|RANK|2|
@@ -540,10 +540,10 @@ T Har'alnor, Village of Twilight|QID|93776|M|31.44,64.97|Z|2413; Harandar|N|To H
 A Light Disturbance|QID|92732|PRE|86898&86890&86956|M|31.41,64.91|Z|2413;Har'alnor Den|N|From Hannan.|RANK|2|
 T Light Disturbance|QID|92732|M|40.86,63.10|Z|2413; Harandar|N|To Luminescent Corpse.|
 A Light Stroll|QID|92736|PRE|92732|M|40.86,63.10|Z|2413; Harandar|N|From Luminescent Corpse.|
-C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1<1|I|N|Find First Clue.|
-C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|1<2|I|N|Find Second Clue.|
-C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|1<3|I|N|Find Third Clue.|
-C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|1<4|I|N|Find Fourth Clue.|
+C Light Stroll|QID|92736|M|40.84,63.96|Z|2413; Harandar|QO|1>1I|N|Find First Clue.|
+C Light Stroll|QID|92736|M|40.84,65.23|Z|2413; Harandar|QO|1>2I|N|Find Second Clue.|
+C Light Stroll|QID|92736|M|41.18,66.62|Z|2413; Harandar|QO|1>3I|N|Find Third Clue.|
+C Light Stroll|QID|92736|M|41.65,67.36|Z|2413; Harandar|QO|1>4I|N|Find Fourth Clue.|
 T Light Stroll|QID|92736|M|41.67,67.74|Z|2413; Harandar|N|To Hannan.|
 A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
 A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|

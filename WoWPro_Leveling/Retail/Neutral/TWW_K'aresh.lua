@@ -105,10 +105,10 @@ T Eco-Stabilizing|QID|84860|M|47.10,54.54|Z|2371; K'aresh|N|To Ve'nari.|
 A This Is Our Dome!|QID|84861|PRE|84859&84860|M|47.10,54.54|Z|2371; K'aresh|N|From Ve'nari.|
 A Void Alliance|QID|84862|PRE|84859&84860|M|47.10,54.54|Z|2371; K'aresh|N|From Xal'atath.|
 C This Is Our Dome!|QID|84861|M|51.74,59.38|Z|2371; K'aresh|QO|1|N|Shadowguard forces slain.|S|
-C Void Alliance|QID|84862|M|49.28,60.57|Z|2371; K'aresh|QO|1<1|H|N|Defense Matrices placed.|
-C Void Alliance|QID|84862|M|50.29,58.83|Z|2371; K'aresh|QO|1<2|H|N|Defense Matrices placed.|
-C Void Alliance|QID|84862|M|50.98,56.37|Z|2371; K'aresh|QO|1<3|H|N|Defense Matrices placed.|
-C Void Alliance|QID|84862|M|50.48,54.13|Z|2371; K'aresh|QO|1<4|H|N|Defense Matrices placed.|
+C Void Alliance|QID|84862|M|49.28,60.57|Z|2371; K'aresh|QO|1>1H|N|Defense Matrices placed.|
+C Void Alliance|QID|84862|M|50.29,58.83|Z|2371; K'aresh|QO|1>2H|N|Defense Matrices placed.|
+C Void Alliance|QID|84862|M|50.98,56.37|Z|2371; K'aresh|QO|1>3H|N|Defense Matrices placed.|
+C Void Alliance|QID|84862|M|50.48,54.13|Z|2371; K'aresh|QO|1>4H|N|Defense Matrices placed.|
 C This Is Our Dome!|QID|84861|M|51.74,59.38|Z|2371; K'aresh|QO|1|N|Shadowguard forces slain.|US|
 T Void Alliance|QID|84862|M|47.09,54.57|Z|2371; K'aresh|N|To Xal'atath.|
 T This Is Our Dome!|QID|84861|M|47.09,54.57|Z|2371; K'aresh|N|To Ve'nari.|
@@ -147,11 +147,11 @@ C The Rhovan Infestation|QID|84831|M|70.11,53.73|Z|2371; K'aresh|QO|1|N|Invasive
 T The Rhovan Infestation|QID|84831|M|70.99,58.03|Z|2371; K'aresh|N|To Om'resh.|
 T The Shattered Dome|QID|84827|M|70.96,58.13|Z|2371; K'aresh|N|To Locus-Walker.|
 A Salvaging What's Left|QID|85730|PRE|84831&84827|M|70.96,58.13|Z|2371; K'aresh|N|From Om'resh.|
-C Salvaging What's Left|QID|85730|M|67.06,57.61|Z|2371; K'aresh|QO|1<1|H|N|Stolen Research Crate.|
-C Salvaging What's Left|QID|85730|M|66.43,58.18|Z|2371; K'aresh|QO|1<2|H|N|Stolen Research Crate.|
-C Salvaging What's Left|QID|85730|M|65.74,57.08|Z|2371; K'aresh|QO|1<3|H|N|Stolen Research Crate.|
-C Salvaging What's Left|QID|85730|M|65.81,58.53|Z|2371; K'aresh|QO|1<4|H|N|Stolen Research Crate.|
-C Salvaging What's Left|QID|85730|M|65.27,57.00|Z|2371; K'aresh|QO|1<5|H|N|Stolen Research Crate.|
+C Salvaging What's Left|QID|85730|M|67.06,57.61|Z|2371; K'aresh|QO|1>1H|N|Stolen Research Crate.|
+C Salvaging What's Left|QID|85730|M|66.43,58.18|Z|2371; K'aresh|QO|1>2H|N|Stolen Research Crate.|
+C Salvaging What's Left|QID|85730|M|65.74,57.08|Z|2371; K'aresh|QO|1>3H|N|Stolen Research Crate.|
+C Salvaging What's Left|QID|85730|M|65.81,58.53|Z|2371; K'aresh|QO|1>4H|N|Stolen Research Crate.|
+C Salvaging What's Left|QID|85730|M|65.27,57.00|Z|2371; K'aresh|QO|1>5H|N|Stolen Research Crate.|
 C Salvaging What's Left|QID|85730|M|68.52,53.96|Z|2371; K'aresh|QO|2|H|N|Stolen Crates returned.|
 C Salvaging What's Left|QID|85730|M|68.50,53.92|Z|2371; K'aresh|QO|3|CHAT|N|Talk to Locus-Walker.|
 T Salvaging What's Left|QID|85730|M|68.45,52.00|Z|2371; K'aresh|N|To Om'resh.|
@@ -232,9 +232,9 @@ T The Calm Before We Storm|QID|84897|M|60.67,27.97|Z|2371; K'aresh|N|To Soul-Scr
 A The Sands of K'aresh|QID|84898|PRE|84897|M|60.67,27.97|Z|2371; K'aresh|N|From Soul-Scribe.|
 A Shadowguard Diffusion|QID|84899|PRE|84897|M|60.71,27.96|Z|2371; K'aresh|N|From Alleria Windrunner.|
 C Shadowguard Diffusion|QID|84899|M|58.40,29.74|Z|2371; K'aresh|N|Shadowguard slain.|S|
-C The Sands of K'aresh|QID|84898|M|58.67,29.53|Z|2371; K'aresh|QO|1<1|H|N|Shadowguard Weapons.|
-C The Sands of K'aresh|QID|84898|M|59.11,28.52|Z|2371; K'aresh|QO|1<2|H|N|Shadowguard Weapons.|
-C The Sands of K'aresh|QID|84898|M|58.35,26.29|Z|2371; K'aresh|QO|1<3|H|N|Shadowguard Weapons.|
+C The Sands of K'aresh|QID|84898|M|58.67,29.53|Z|2371; K'aresh|QO|1>1H|N|Shadowguard Weapons.|
+C The Sands of K'aresh|QID|84898|M|59.11,28.52|Z|2371; K'aresh|QO|1>2H|N|Shadowguard Weapons.|
+C The Sands of K'aresh|QID|84898|M|58.35,26.29|Z|2371; K'aresh|QO|1>3H|N|Shadowguard Weapons.|
 C Shadowguard Diffusion|QID|84899|M|58.40,29.74|Z|2371; K'aresh|N|Shadowguard slain.|US|
 T The Sands of K'aresh|QID|84898|M|55.19,30.33|Z|2371; K'aresh|N|To Soul-Scribe.|
 T Shadowguard Diffusion|QID|84899|M|55.11,30.44|Z|2371; K'aresh|N|To Alleria Windrunner.|

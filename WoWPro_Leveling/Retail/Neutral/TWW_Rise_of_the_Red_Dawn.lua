@@ -29,11 +29,11 @@ T Ill Tidings|QID|84641|M|19.40,56.19|Z|2372; Arathi Highlands|N|To Danath Troll
 A Curfew Kerfuffle|QID|84643|PRE|84641|M|19.43,56.36|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
 A Deputy Delivery|QID|84645|PRE|84641|M|19.43,56.36|Z|2372; Arathi Highlands|N|From Captain Roderick Brewston.|
 C Curfew Kerfuffle|QID|84643|M|14.58,68.43|Z|2372; Arathi Highlands|QO|1|NC|N|Marran Supporters sent home.|S|
-C Deputy Delivery|QID|84645|M|20.57,62.51|Z|2372; Arathi Highlands|QO|1<1|CHAT|N|Talk to Balinda Darkstone.|
-C Deputy Delivery|QID|84645|M|21.92,65.16|Z|2372; Arathi Highlands|QO|1<2|CHAT|N|Talk to Joseph the Enlightened.|
-C Deputy Delivery|QID|84645|M|19.80,66.52|Z|2372; Arathi Highlands|QO|1<3|CHAT|N|Talk to Bertram Barleybeard.|
-C Deputy Delivery|QID|84645|M|14.35,70.05|Z|2372; Arathi Highlands|QO|1<4|CHAT|N|Talk to Luma Noss.|
-C Deputy Delivery|QID|84645|M|12.00,67.96|Z|2372; Arathi Highlands|QO|1<5|CHAT|N|Talk to Amy Hardy.|
+C Deputy Delivery|QID|84645|M|20.57,62.51|Z|2372; Arathi Highlands|QO|1>1CHAT|N|Talk to Balinda Darkstone.|
+C Deputy Delivery|QID|84645|M|21.92,65.16|Z|2372; Arathi Highlands|QO|1>2CHAT|N|Talk to Joseph the Enlightened.|
+C Deputy Delivery|QID|84645|M|19.80,66.52|Z|2372; Arathi Highlands|QO|1>3CHAT|N|Talk to Bertram Barleybeard.|
+C Deputy Delivery|QID|84645|M|14.35,70.05|Z|2372; Arathi Highlands|QO|1>4CHAT|N|Talk to Luma Noss.|
+C Deputy Delivery|QID|84645|M|12.00,67.96|Z|2372; Arathi Highlands|QO|1>5CHAT|N|Talk to Amy Hardy.|
 C Curfew Kerfuffle|QID|84643|M|14.58,68.43|Z|2372; Arathi Highlands|QO|1|NC|N|Marran Supporters sent home.|US|
 T Curfew Kerfuffle|QID|84643|M|17.48,59.76|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|
 T Deputy Delivery|QID|84645|M|17.48,59.76|Z|2372; Arathi Highlands|N|To Captain Roderick Brewston.|

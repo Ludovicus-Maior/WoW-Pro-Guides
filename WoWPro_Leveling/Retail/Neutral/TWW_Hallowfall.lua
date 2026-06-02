@@ -160,10 +160,10 @@ C Shadow upon Shadow|QID|78937|M|55.22,34.99|Z|2215; Hallowfall|CHAT|N|Find Faer
 T Shadow upon Shadow|QID|78937|M|55.79,41.28|Z|2215; Hallowfall|N|To Alleria Windrunner.|
 A The Darkened Flame|QID|78939|M|55.79,41.28|Z|2215; Hallowfall|N|From Alleria Windrunner.|
 C The Darkened Flame|QID|78939|M|56.27,41.98|Z|2215; Hallowfall|QO|1|H|N|Go inside the building and click on the Darkfire.|
-C The Darkened Flame|QID|78939|M|56.32,40.63|Z|2215; Hallowfall|QO|2<1|H|N|Pick up the spear.|
-C The Darkened Flame|QID|78939|M|55.91,42.01|Z|2215; Hallowfall|QO|2<2|H|N|Examine Kealther's body.|
-C The Darkened Flame|QID|78939|M|55.39,41.97|Z|2215; Hallowfall|QO|2<3|H|N|Read the poster.|
-C The Darkened Flame|QID|78939|M|54.73,43.00|Z|2215; Hallowfall|QO|2<4|H|N|Read the journal.|
+C The Darkened Flame|QID|78939|M|56.32,40.63|Z|2215; Hallowfall|QO|2>1H|N|Pick up the spear.|
+C The Darkened Flame|QID|78939|M|55.91,42.01|Z|2215; Hallowfall|QO|2>2H|N|Examine Kealther's body.|
+C The Darkened Flame|QID|78939|M|55.39,41.97|Z|2215; Hallowfall|QO|2>3H|N|Read the poster.|
+C The Darkened Flame|QID|78939|M|54.73,43.00|Z|2215; Hallowfall|QO|2>4H|N|Read the journal.|
 C The Darkened Flame|QID|78939|M|56.27,41.99|Z|2215; Hallowfall|QO|3|CHAT|N|Return to Faerin.|
 T The Darkened Flame|QID|78939|M|56.23,41.99|Z|2215; Hallowfall|N|To Faerin Lothar.|
 A Ever Deeper Shadow|QID|78951|M|56.23,41.99|Z|2215; Hallowfall|N|From Faerin Lothar.|
@@ -470,10 +470,10 @@ A Lost Pieces|QID|79166|PRE|79165^83497|M|40.71,70.89|Z|2215; Hallowfall|N|From 
 C Lost Pieces|QID|79166|M|44.32,75.89|Z|2215; Hallowfall|QO|1|NC|N|Kill mobs, loot lost belongings.|
 T Lost Pieces|QID|79166|M|43.17,52.56|Z|2215; Hallowfall|N|To Faerin Lothar|
 A Crowdsourcing|QID|79167|M|43.17,52.57|Z|2215; Hallowfall|N|From Faerin Lothar, after a bit of dialog.|RANK|2|PRE|79166|LVL|80|
-C Crowdsourcing|QID|79167|QO|1<1|M|43.93,49.73|Z|2215; Hallowfall|CHAT|N|Talk to Kiera Horth.|
-C Crowdsourcing|QID|79167|QO|1<2|M|40.33,50.98|Z|2215; Hallowfall|CHAT|N|Talk to Marja Lenglow in the Priory.|
-C Crowdsourcing|QID|79167|QO|1<3|M|41.76,55.81|Z|2215; Hallowfall|CHAT|N|Talk to Keth Wernt, upstairs in the orphanage.|
-C Crowdsourcing|QID|79167|QO|1<4|M|43.01,56.83|Z|2215; Hallowfall|CHAT|N|Talk to Cargen Fairleifen, next to the mining trainer (outside).|
+C Crowdsourcing|QID|79167|QO|1>1M|43.93,49.73|Z|2215; Hallowfall|CHAT|N|Talk to Kiera Horth.|
+C Crowdsourcing|QID|79167|QO|1>2M|40.33,50.98|Z|2215; Hallowfall|CHAT|N|Talk to Marja Lenglow in the Priory.|
+C Crowdsourcing|QID|79167|QO|1>3M|41.76,55.81|Z|2215; Hallowfall|CHAT|N|Talk to Keth Wernt, upstairs in the orphanage.|
+C Crowdsourcing|QID|79167|QO|1>4M|43.01,56.83|Z|2215; Hallowfall|CHAT|N|Talk to Cargen Fairleifen, next to the mining trainer (outside).|
 T Crowdsourcing|QID|79167|M|43.15,52.40|Z|2215; Hallowfall|N|To Faerin Lothar. (Top floor)|
 A Light's Gambit|QID|79168|M|43.15,52.40|Z|2215; Hallowfall|N|From Faerin Lothar.|RANK|2|PRE|79167|
 C Light's Gambit|QID|79168|M|43.19,52.39|Z|2215; Hallowfall|QO|1|H|N|Click on the table to play a round of Light's Gambit.|

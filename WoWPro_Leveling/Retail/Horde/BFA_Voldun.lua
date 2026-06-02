@@ -9,9 +9,9 @@ A Vol'dun|QID|47513|M|41.77,69.35|Z|1164;Hall of Croniclers!Dazar'alor|N|Pick Vo
 t Vol'dun|QID|47513|M|57.81,44.34|Z|1164;Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 N Secrets in the Sands Achievement|AVAILABLE|47513|N|If your intent is to only complete the zone achievement, right-click on the guide title bar and select 'Main Options'. From here, select the "Ranks" tab and set the 'Toon Rank' to 1.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Discreet Discussions|QID|47313|PRE|47513|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|
-C Discreet Discussions|QID|47313|QO|1<1|M|50.12,37.41|Z|1165;Dazar'alor|N|Head down the stairs to find Enforcer Sekal on the terrace.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.\nOr, just fly to his location.|CHAT|
-C Discreet Discussions|QID|47313|QO|1<2|M|52.20,37.54|Z|1165;Dazar'alor|N|Continue down to find Enforcer Gortok.|CHAT|
-C Discreet Discussions|QID|47313|QO|1<3|M|54.26,35.85|Z|1165;Dazar'alor|N|And down some more to find Enforcer Dakanji.|CHAT|
+C Discreet Discussions|QID|47313|QO|1>1M|50.12,37.41|Z|1165;Dazar'alor|N|Head down the stairs to find Enforcer Sekal on the terrace.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.\nOr, just fly to his location.|CHAT|
+C Discreet Discussions|QID|47313|QO|1>2M|52.20,37.54|Z|1165;Dazar'alor|N|Continue down to find Enforcer Gortok.|CHAT|
+C Discreet Discussions|QID|47313|QO|1>3M|54.26,35.85|Z|1165;Dazar'alor|N|And down some more to find Enforcer Dakanji.|CHAT|
 
 ;  Unlikely Allies
 T Discreet Discussions|QID|47313|M|51.57,31.82|Z|1165;Dazar'alor|N|To Bladeguard Kaja.|
@@ -78,9 +78,9 @@ T A Balm to Calm|QID|47320|M|56.84,50.52|Z|0864;Vol'dun|N|To Bladeguard Kaja.|
 A Searching for Survivors|QID|47317|PRE|47320|M|56.84,50.52|Z|0864;Vol'dun|N|From Bladeguard Kaja.|
 A Knickknack Takeback|QID|47321|PRE|47320|M|56.79,50.53|Z|0864;Vol'dun|N|From Kiro.|
 A Secrets in the Sand|QID|47316|PRE|47320|M|56.76,50.53|Z|0864;Vol'dun|N|From Meerah.|
-C Secrets in the Sand|QID|47316|QO|1<1|M|55.79,48.68|Z|0864;Vol'dun|N|Page 1 is lying near the rock.|H|
-C Secrets in the Sand|QID|47316|QO|1<2|M|52.80,46.41|Z|0864;Vol'dun|N|Page 4 is lying on the sand in the middle of nowhere.|H|
-C Secrets in the Sand|QID|47316|QO|1<3|M|52.78,41.79|Z|0864;Vol'dun|N|Page 3 is lying just beyond the colapsed bridge beside some boulders.|H|
+C Secrets in the Sand|QID|47316|QO|1>1M|55.79,48.68|Z|0864;Vol'dun|N|Page 1 is lying near the rock.|H|
+C Secrets in the Sand|QID|47316|QO|1>2M|52.80,46.41|Z|0864;Vol'dun|N|Page 4 is lying on the sand in the middle of nowhere.|H|
+C Secrets in the Sand|QID|47316|QO|1>3M|52.78,41.79|Z|0864;Vol'dun|N|Page 3 is lying just beyond the colapsed bridge beside some boulders.|H|
 A Aided Escape|QID|47322|M|54.69,42.48|Z|0864;Vol'dun|N|From Neri.|RANK|2|
 A A Meal for Birds|QID|50755|M|54.75,42.40|Z|0864;Vol'dun|N|From Mekaru.|RANK|2|
 l Knickknack Takeback|ACTIVE|47321|QO|1|M|55.35,39.28|Z|0864;Vol'dun|ITEM|151273|N|any Faithless mob around the Serpent's Maw.|S|
@@ -217,8 +217,8 @@ T The Secrets of Zul'Ahjin|QID|50539|M|48.91,74.49|Z|0864;Vol'dun|N|To the Crumb
 A Hollow, Empty Eyes|QID|48315|PRE|50539|M|48.91,74.49|Z|0864;Vol'dun|N|From the Crumbling Statue.|
 A Exterminate the Vermin|QID|50596|M|49.76,75.90|Z|0864;Vol'dun|N|From Foreman Jethek.|RANK|2|
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|Z|0864;Vol'dun|N|Click on the ball to free the Excavators.(Note, must be in snake form)|NC|S|
-C Hollow, Empty Eyes|QID|48315|QO|1<1|M|49.85,73.18|Z|0864;Vol'dun|N|Pick up the Glittering Sapphire on the ground, near the wall.|H|  ;  doesn't work after first toon
-C Hollow, Empty Eyes|QID|48315|QO|1<2|M|50.65,73.66;51.05,72.34|CS|Z|0864;Vol'dun|N|The second Glittering Sapphire is the second tier on the rubble at the corner of the building.\n[color=FF0000]NOTE: [/color]You can get up there using the 'dirt' ramp in the corner.|H|  ;  doesn't work after first toon
+C Hollow, Empty Eyes|QID|48315|QO|1>1M|49.85,73.18|Z|0864;Vol'dun|N|Pick up the Glittering Sapphire on the ground, near the wall.|H|  ;  doesn't work after first toon
+C Hollow, Empty Eyes|QID|48315|QO|1>2M|50.65,73.66;51.05,72.34|CS|Z|0864;Vol'dun|N|The second Glittering Sapphire is the second tier on the rubble at the corner of the building.\n[color=FF0000]NOTE: [/color]You can get up there using the 'dirt' ramp in the corner.|H|  ;  doesn't work after first toon
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|Z|0864;Vol'dun|N|Click on the ball to free the Excavators.|NC|US|
 T Hollow, Empty Eyes|QID|48315|M|48.90,74.49|Z|0864;Vol'dun|N|To the Crumbling Statue.|
 A Sulthis' Stone|QID|50561|PRE|48315|M|48.90,74.26|Z|0864;Vol'dun|N|From Ancient Reliquary.|
@@ -289,9 +289,9 @@ A Stolen Goods|QID|48790|PRE|48846|M|43.39,75.36|Z|0864;Vol'dun|N|From Razgaji.|
 A Bandit Blades|QID|51602|PRE|48846|M|43.39,75.36|Z|0864;Vol'dun|N|From Razgaji.|RANK|2|
 C Bandit Blades|QID|51602|M|40.44,76.37|Z|0864;Vol'dun|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|NC|S|
 K Tongo|ACTIVE|48850|QO|1|M|40.65,76.02|Z|0864;Vol'dun|N|Kill Tongo and loot his head.|T|Tongo|
-C Stolen Goods|QID|48790|QO|1<3|M|40.74,74.76|Z|0864;Vol'dun|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|NC|
-C Stolen Goods|QID|48790|QO|1<5|M|40.42,75.29|Z|0864;Vol'dun|N|Hyena Jerky and Medicinal Herbs can be found through this underground entrance.|NC|
-C Stolen Goods|QID|48790|QO|1<6|M|40.02,75.67|Z|0864;Vol'dun|N|Pick up the Fresh Water here (last of the stolen supplies).|NC|
+C Stolen Goods|QID|48790|QO|1>3M|40.74,74.76|Z|0864;Vol'dun|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|NC|
+C Stolen Goods|QID|48790|QO|1>5M|40.42,75.29|Z|0864;Vol'dun|N|Hyena Jerky and Medicinal Herbs can be found through this underground entrance.|NC|
+C Stolen Goods|QID|48790|QO|1>6M|40.02,75.67|Z|0864;Vol'dun|N|Pick up the Fresh Water here (last of the stolen supplies).|NC|
 C Bandit Blades|QID|51602|M|40.79,76.04|Z|0864;Vol'dun|N|Finish collecting the blades.|S|
 T Tongo|QID|48850|M|43.39,75.36|Z|0864;Vol'dun|N|To Razgaji.|
 T Stolen Goods|QID|48790|M|43.39,75.36|Z|0864;Vol'dun|N|To Razgaji.|

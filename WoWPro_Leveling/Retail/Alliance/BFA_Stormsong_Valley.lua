@@ -63,9 +63,9 @@ A Proclamation Investigation|QID|49706|M|63.42,64.76|N|From Brother Pike.|PRE|49
 A Haywire Harvesters|QID|49704|M|63.47,64.96|N|From Taelia.|PRE|49703|
 C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|S|NC|N|Click item next to human workers.|
 C Haywire Harvesters|QID|49704|M|61.93,65.11|S|N|Looted from mechs you kill.|
-C Proclamation Investigation|QID|49706|M|62.84,65.06|NC|QO|1<1|N|Read the Proclamations hanging from the wall.|
-C Proclamation Investigation|QID|49706|M|61.92,65.14|NC|QO|1<2|N|Read the Proclamations posted here.|
-C Proclamation Investigation|QID|49706|M|62.84,65.06|NC|QO|1<3|N|Read the Proclamations hanging from the wall.|
+C Proclamation Investigation|QID|49706|M|62.84,65.06|NC|QO|1>1N|Read the Proclamations hanging from the wall.|
+C Proclamation Investigation|QID|49706|M|61.92,65.14|NC|QO|1>2N|Read the Proclamations posted here.|
+C Proclamation Investigation|QID|49706|M|62.84,65.06|NC|QO|1>3N|Read the Proclamations hanging from the wall.|
 C Unnecessary Duress|QID|49705|M|61.93,65.11|U|155893|US|NC|N|Click item next to human workers.|
 C Haywire Harvesters|QID|49704|M|61.93,65.11|US|N|Looted from mechs you kill.|
 T Unnecessary Duress|QID|49705|M|63.40,64.73|N|To Brother Pike.|
@@ -142,10 +142,10 @@ A Forbidden Rites|QID|50608|M|66.17,47.45|N|From Brother Pike.|PRE|50595&50594&5
 A Gathering Storm|QID|50610|M|66.17,47.45|N|From Brother Pike.|PRE|50595&50594&50593|
 A From the Maw of Madness|QID|50609|M|66.32,47.08|N|From Taelia.|PRE|50595&50594&50593|
 C Forbidden Rites|QID|50608|M|66.17,47.45|S|U|158465|N|Kill mobs and disrupt the rituals with the item - the rituals are the Fanatical Acolytes kneeling in the purple circles.|
-C Gathering Storm|QID|50610|QO|1<1|M|66.27,43.53|NC|N|Click on the rod on the very top deck of the ship.|
+C Gathering Storm|QID|50610|QO|1>1M|66.27,43.53|NC|N|Click on the rod on the very top deck of the ship.|
 K Brother Halsey|ACTIVE|50609|QO|1|M|66.52,43.48|T|Brother Halsey|N|Find them on deck immediately below the rod used in the last step (2nd from top). Kill Brother Halsey standing in the doorway.|
 C Rescue Samuel Williams|QID|50609|QO|3|M|66.32,47.08|T|Samuel Williams|N|Then fight Samuel Williams until he can break free.|
-C Gathering Storm|QID|50610|QO|1<2|NC|M|67.95,43.19|N|On the top deck of the other side of the ship.|
+C Gathering Storm|QID|50610|QO|1>2NC|M|67.95,43.19|N|On the top deck of the other side of the ship.|
 C Gathering Storm|QID|50610|M|62.85,44.55;35.21,60.18|CS|Z|Upper Deck!Abyssal Melody|NC|N|Two more below decks. |
 C Forbidden Rites|QID|50608|M|66.17,47.45|US|U|158465|N|Finish up with rituals.|
 T From the Maw of Madness|QID|50609|M|66.03,47.11|N|To Samuel Williams.|
@@ -216,12 +216,12 @@ T Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Ancel will be up beside
 A Detective Mildenhall|QID|50070|M|68.49,67.60|N|From Ancel Mildenhall.|RANK|2|PRE|50343|
 A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|RANK|2|PRE|50343|
 C Cleanup Duty|QID|50359|M|68.49,67.60|S|N|Kill Honey and Mead while you find the clues.|
-C Honey Soaked Boot|QID|50070|QO|1<1|M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
-C Misplaced Flask|QID|50070|QO|1<2|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
+C Honey Soaked Boot|QID|50070|QO|1>1M|68.52,69.00|NC|N|Pick up the boot in the middle of the path.|
+C Misplaced Flask|QID|50070|QO|1>2M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
 $ Honey Vat|QID|50576|M|66.48,71.17|N|Click the honey vat for zome azerite resources and enjoy the nod to Winnie.|RANK|2|
-C Rough Map|QID|50070|QO|1<3|M|69.22,70.75|NC|N|Pick up the map.|
-C Brewmaster's Treatise Vol. 1|QID|50070|QO|1<4|M|69.15,69.32|NC|N|Pick up the book on the table.|
-C Crystalized Honey Fragment|QID|50070|QO|1<5|M|70.82,69.66|NC|N|Pick up the honey inside the house.|
+C Rough Map|QID|50070|QO|1>3M|69.22,70.75|NC|N|Pick up the map.|
+C Brewmaster's Treatise Vol. 1|QID|50070|QO|1>4M|69.15,69.32|NC|N|Pick up the book on the table.|
+C Crystalized Honey Fragment|QID|50070|QO|1>5M|70.82,69.66|NC|N|Pick up the honey inside the house.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|US|N|Finish up the killing.|
 T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
@@ -231,9 +231,9 @@ K The Brue|ACTIVE|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|RANK|2|PRE|50064|
 C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|NC|N|Back outside. Pick up the other boot.|
-C First Journal Page|QID|50161|QO|2<1|M|72.42,68.6|NC|N|Pick up first journal page from the ground.|
-C Second Journal Page|QID|50161|M|72.32,70.56|QO|2<2|NC|N|Pick up the second page.|
-C Last Journal Page|QID|50161|M|73.37,72.27|QO|2<3|NC|N|Pick up the third page.|
+C First Journal Page|QID|50161|QO|2>1M|72.42,68.6|NC|N|Pick up first journal page from the ground.|
+C Second Journal Page|QID|50161|M|72.32,70.56|QO|2>2NC|N|Pick up the second page.|
+C Last Journal Page|QID|50161|M|73.37,72.27|QO|2>3NC|N|Pick up the third page.|
 T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave.|
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
@@ -336,8 +336,8 @@ T There's Gold in Them There Fields|QID|50157|M|50.75,73.18|N|To Farmer Goldfiel
 A A Pocketful of Shells|QID|50041|M|50.76,73.15|N|From Farmer Goldfield.|PRE|50157|
 A A Reason to Stay|QID|50065|M|49.85,73.54|N|From a pocketwatch on the ground.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|NC|S|U|160561|N|'Skin' the boars with this after you kill them.|
-C Battered Toy Sword|QID|50065|QO|1<2|M|50.04,71.45|NC|N|Pick up the sword.|
-C Tarnished Locket|QID|50065|QO|1<3|M|48.89,71.23|NC|N|Pick up the locket in the building.|
+C Battered Toy Sword|QID|50065|QO|1>2M|50.04,71.45|NC|N|Pick up the sword.|
+C Tarnished Locket|QID|50065|QO|1>3M|48.89,71.23|NC|N|Pick up the locket in the building.|
 C A Pocketful of Shells|QID|50041|M|50.76,73.15|US|NC|U|160561|N|Finish with boars.|
 T A Pocketful of Shells|QID|50041|M|50.76,73.15|N|To Farmer Goldfield.|
 T A Reason to Stay|QID|50065|M|50.76,73.14|N|To Farmer Goldfield.|
@@ -366,15 +366,15 @@ C Totems, Totems, Totems!|QID|50111|M|44.04,72.46|QO|1|NC|N|Destroy the same tot
 K Briarbacks|ACTIVE|50367|US|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
 $ Carved Wooden Chest|QID|52429|M|43.45,73.15;44.44,75.24;44.44,73.52|CS|N|Follow the path up, then at the divot in the ledge, very carefully back off the ledge so that you land on the middle platform with blue fire. Then go into a cave to get this treasure.|RANK|2|
 K Wagga Snarltusk|QID|50819|QO|1|Z|Thornheart!Dungeon|M|90.70,22.61;29.00,38.89|CS|T|Wagga Snarltusk|N|When you come out of the cave with the chest, jump to your right to go into Wagga's cave. Run down between the blue lights and kill Wagga. If you wait until after turning in quests, Wagga will be phased out.|RARE|ITEM|154431|RANK|2|
-C Free a Farmer|QID|50353|QO|1<1|M|45.44,72.50|NC|N|Free the first farmer.|
+C Free a Farmer|QID|50353|QO|1>1M|45.44,72.50|NC|N|Free the first farmer.|
 C Totems, Totems, Totems!|QID|50111|M|46.07,74.48|QO|4|NC|N|Southern totem here.|
-C Two More Farmers|QID|50353|QO|1<3|M|46.23,72.73;47.25,74.32|CS|NC|N|Go out of the cave and find two more farmers down the right path in this cave.|
-C Another Two Farmers|QID|50353|QO|1<5|M|46.83,72.60;47.89,73.35|CS|NC|N|Back out, and into the next cave for two more.|
-C And Another Farmer|QID|50353|QO|1<6|M|46.51,71.97|NC|N|Back out and next farmer here.|
+C Two More Farmers|QID|50353|QO|1>3M|46.23,72.73;47.25,74.32|CS|NC|N|Go out of the cave and find two more farmers down the right path in this cave.|
+C Another Two Farmers|QID|50353|QO|1>5M|46.83,72.60;47.89,73.35|CS|NC|N|Back out, and into the next cave for two more.|
+C And Another Farmer|QID|50353|QO|1>6M|46.51,71.97|NC|N|Back out and next farmer here.|
 C Totems, Totems, Totems!|QID|50111|M|46.41,72.10|QO|3|NC|N|Central totem here.|
 C Farmer Deal|QID|50353|M|46.17,72.04|QO|2|NC|N|Free Farmer Deal.|
 C Totems, Totems, Totems!|QID|50111|M|47.00,70.22|QO|2|NC|N|Last totem down the hill and around the corner.|
-C Finish Freeing Farmers|QID|50353|QO|1<7|M|47.00,70.22|NC|N|Final farmers down here if you need more.|
+C Finish Freeing Farmers|QID|50353|QO|1>7M|47.00,70.22|NC|N|Final farmers down here if you need more.|
 C Look Out!|QID|50354|M|42.50,67.69|US|N|Finish killing Briarback Lookouts.|
 T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|CS|N|Head up to the top to turn in to Sergeant Calvin.|
 T Boaring Company|QID|50353|M|46.65,73.86|N|To Sergeant Calvin.|
@@ -383,12 +383,12 @@ A War Pigs|QID|50363|M|46.65,73.86|N|From Sergeant Calvin.|PRE|50354&50353|
 A Run For the Hills|QID|50365|M|46.65,73.86|N|From Sergeant Calvin.|PRE|50354&50353|
 A Steal Them Back|QID|50340|M|46.31,77.03|N|Grab this one from the crate over to the left.|RANK|2|
 C War Pigs|QID|50363|M|46.65,73.86|NC|S|N|Click on the pigs along the way. Killing Briarbacks also makes more little pigs spawn.|
-C Steal Them Back|QID|50340|QO|1<1|M|47.41,77.09|NC|N|Into the cave to the left.|
+C Steal Them Back|QID|50340|QO|1>1M|47.41,77.09|NC|N|Into the cave to the left.|
 C Run For the Hills|QID|50365|M|46.33,78.17|QO|1|NC|N|Up inside the cave destroy the stockpile and grab the crate.|
-C Steal Them Back|QID|50340|QO|1<3|M|46.21,80.16|NC|N|There is another in the next cave.|
+C Steal Them Back|QID|50340|QO|1>3M|46.21,80.16|NC|N|There is another in the next cave.|
 C Run For the Hills|QID|50365|M|44.54,78.41;42.49,79.22|NC|CS|QO|3|N|Follow the path under the Thornvine for the Western stockpile in this cave with another crate.|
 C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|NC|N|The Central Stockpile is in a cave on the valley floor. Go inside and destroy it and grabe the crate if needed.|
-C Steal Them Back|QID|50340|QO|1<5|M|42.72,78.85|NC|N|Another crate here if you need one more.|
+C Steal Them Back|QID|50340|QO|1>5M|42.72,78.85|NC|N|Another crate here if you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Finish collecting pigs.|
 C Anger in a Bottle|QID|50367|M|44.60,73.78|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
 T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|ACTIVE|50363^50365|

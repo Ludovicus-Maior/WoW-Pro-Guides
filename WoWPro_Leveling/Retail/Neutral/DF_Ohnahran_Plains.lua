@@ -64,7 +64,7 @@ A The Ora-cull|QID|65953|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N
 A Release the Hounds|QID|65954|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 A A Centaur's Best Friend|QID|65955|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 C A Centaur's Best Friend|QID|65955|M|80.59,30.74|Z|2023;Ohn'ahran Plains|QO|1|H|N|Free Khasar.|
-C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2<1|H|N|Click the Bakar to collect his collar.|
+C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2>1H|N|Click the Bakar to collect his collar.|
 C The Ora-cull|QID|65953|M|81.26,29.79|Z|2023;Ohn'ahran Plains|N|Kill Mudfin Shamans and loot their totems.|S|
 C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click the cages to free the rest of the dogs.|S|
 C Release the Hounds|QID|65954|M|82.20,30.43|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click Sarnai to collect the second Collar.|
@@ -190,9 +190,9 @@ H Maruukai|ACTIVE|70337|M|PLAYER|N|Hearth back to Maruukai for a bit of a time s
 T Shikaar Giver|QID|70730|M|62.81,35.45|Z|2023;Ohn'ahran Plains|N|To Windsage Dawa.|
 T Bloodlines, Sweets, and Teerai|QID|70739|M|63.62,40.47|Z|2023;Ohn'ahran Plains|N|To Hunter Narman.|
 C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Report to Sansok Khan. Tell him you are ready, next follows answers to his questions.|
-C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2<1|CHAT|N|[color=FFFFFF]Clan Teerai.[/color]|
-C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2<2|CHAT|N|[color=FFFFFF]Clan Ohn'ir.[/color]|
-C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2<3|CHAT|N|[color=FFFFFF]Clan Nokhud.[/color]|
+C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2>1CHAT|N|[color=FFFFFF]Clan Teerai.[/color]|
+C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2>2CHAT|N|[color=FFFFFF]Clan Ohn'ir.[/color]|
+C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2>3CHAT|N|[color=FFFFFF]Clan Nokhud.[/color]|
 C Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|[color=FFFFFF]Clan Shikaar.[/color]|
 T Clans of the Plains|QID|66969|M|61.44,39.50|Z|2023;Ohn'ahran Plains|N|To Sansok Khan.|
 A The Emissary's Arrival|QID|66948|PRE|66969|M|61.02,40.41|Z|2023;Ohn'ahran Plains|N|From Gemisath.|
@@ -227,9 +227,9 @@ C The Relic Inquiry|QID|65893|M|64.06,15.56|Z|2023;Ohn'ahran Plains|N|Kill and l
 T Tools of the Tirade|QID|65891|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 T The Relic Inquiry|QID|65893|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 A Competing Company|QID|65895|PRE|65891&65893|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
-l Remains of Xalgaz|ACTIVE|65895|QO|1<1|M|61.72,18.65|Z|2023;Ohn'ahran Plains|N|Examine the corpse to find your next clue. Avoid the eggs to avoid unnecesary fighting.|
-K Sootscale the Indomitable|ACTIVE|65895|QO|1<2|M|62.45,18.60|Z|2023;Ohn'ahran Plains|N|Kill and loot Sootscale to find your next clue.|T|Sootscale the Indomitable|
-K Tserasor the Preserver|ACTIVE|65895|QO|1<3|M|62.92,18.71|Z|2023;Ohn'ahran Plains|N|Kill and loot Tserasor to find your last clue.|T|Tserasor the Preserver|
+l Remains of Xalgaz|ACTIVE|65895|QO|1>1M|61.72,18.65|Z|2023;Ohn'ahran Plains|N|Examine the corpse to find your next clue. Avoid the eggs to avoid unnecesary fighting.|
+K Sootscale the Indomitable|ACTIVE|65895|QO|1>2M|62.45,18.60|Z|2023;Ohn'ahran Plains|N|Kill and loot Sootscale to find your next clue.|T|Sootscale the Indomitable|
+K Tserasor the Preserver|ACTIVE|65895|QO|1>3M|62.92,18.71|Z|2023;Ohn'ahran Plains|N|Kill and loot Tserasor to find your last clue.|T|Tserasor the Preserver|
 K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and loot Malifron to find your first clue.|T|Malifron|
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
 ;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|

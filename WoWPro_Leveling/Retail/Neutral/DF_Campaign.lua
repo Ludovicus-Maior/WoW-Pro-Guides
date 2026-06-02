@@ -250,9 +250,9 @@ C Hall of the Aspects|QID|66174|M|54.85,55.89|Z|Thaldraszus|QO|1|NC|N|Enter the 
 P Hall of Samples|ACTIVE|66173|M|57.25,54.10|Z|2025;Thaldraszus|QO|1|NC|N|Enter the Hall of Samples through the nearby Teleporter.|
 C Hall of Samples|QID|66173|M|57.29,53.64|Z|2025;Thaldraszus|QO|2|CHAT|N|Listen to Toddy.|
 C Hall of Samples|QID|66173|M|57.24,53.76|Z|2025;Thaldraszus|QO|3|H|N|Pickup Titan Lure.|
-C Hall of Samples|QID|66173|M|57.44,53.49|Z|2025;Thaldraszus|QO|4<1|H|T|Escaped Earth Proto-dragon|EAB|N|Target the Escaped Earth Proto-Dragon and use the provided lure, and drag it to the containment field.|
-C Hall of Samples|QID|66173|M|57.46,53.29|Z|2025;Thaldraszus|QO|4<2|H|T|Escaped Water Proto-dragon|EAB|N|Target the Escaped Water Proto-Dragon and use the provided lure, and drag it to the containment field.|
-C Hall of Samples|QID|66173|M|57.04,53.28|Z|2025;Thaldraszus|QO|4<3|H|T|Escaped Fire Proto-dragon|EAB|N|Target the Escaped Fire Proto-Dragon and use the provided lure, and drag it to the containment field.|
+C Hall of Samples|QID|66173|M|57.44,53.49|Z|2025;Thaldraszus|QO|4>1H|T|Escaped Earth Proto-dragon|EAB|N|Target the Escaped Earth Proto-Dragon and use the provided lure, and drag it to the containment field.|
+C Hall of Samples|QID|66173|M|57.46,53.29|Z|2025;Thaldraszus|QO|4>2H|T|Escaped Water Proto-dragon|EAB|N|Target the Escaped Water Proto-Dragon and use the provided lure, and drag it to the containment field.|
+C Hall of Samples|QID|66173|M|57.04,53.28|Z|2025;Thaldraszus|QO|4>3H|T|Escaped Fire Proto-dragon|EAB|N|Target the Escaped Fire Proto-Dragon and use the provided lure, and drag it to the containment field.|
 C Hall of Samples|QID|66173|M|57.03,53.66|Z|2025;Thaldraszus|QO|4|H|T|Escaped Air Proto-dragon|EAB|N|Target the Escaped Air Proto-Dragon and use the provided lure, and drag it to the containment field.|
 C Hall of Samples|QID|66173|M|57.03,53.66|Z|2025;Thaldraszus|QO|5|H|N|Lure proto-dragons to Containment Spheres.|
 C Hall of Samples|QID|66173|M|57.25,52.69|Z|2025;Thaldraszus|QO|6|H|N|Click the Security Console to activate it.|

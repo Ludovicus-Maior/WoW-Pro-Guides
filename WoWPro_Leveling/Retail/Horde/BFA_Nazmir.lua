@@ -144,16 +144,16 @@ K Blood Witch Najima|ACTIVE|47244|QO|1|M|38.54,49.98|Z|0863;Nazmir|N|Kill Blood 
 T A Culling of Souls|QID|47244|M|39.52,43.84|Z|0863;Nazmir|N|To Hanzabu.|
 A Spiritual Restoration|QID|49278|PRE|47244|M|39.52,43.84|Z|0863;Nazmir|N|From Hanzabu.|
 f Zo'bal Ruins|ACTIVE|49278|M|40.18,42.81|Z|0863;Nazmir|N|At Du'ba.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Spiritual Restoration|QID|49278|QO|1<1|M|40.89,43.54|Z|0863;Nazmir|N|Click on the first glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
-C Spiritual Restoration|QID|49278|QO|1<2|M|39.03,43.92|Z|0863;Nazmir|N|Click on the second glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
-C Spiritual Restoration|QID|49278|QO|1<3|M|38.86,43.49|Z|0863;Nazmir|N|Click on the last glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1>1M|40.89,43.54|Z|0863;Nazmir|N|Click on the first glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1>2M|39.03,43.92|Z|0863;Nazmir|N|Click on the second glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1>3M|38.86,43.49|Z|0863;Nazmir|N|Click on the last glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
 T Spiritual Restoration|QID|49278|M|39.53,43.83|Z|0863;Nazmir|N|To Hanzabu.|
 A The Necropolis|QID|47868|PRE|49278|M|39.53,43.83|Z|0863;Nazmir|N|From Hanzabu.|
 ;  Undercover Sista
 A Blood Troll on the Outside|QID|49440|PRE|49278|M|39.65,43.85|Z|0863;Nazmir|N|From Witch Doctor Kejabu after he appears beside you.|
-C Blood Troll on the Outside|QID|49440|QO|1<1|M|39.58,43.76|Z|0863;Nazmir|N|Click on the first pedestal around the circle to place the Blood Troll Skulls.|H|
-C Blood Troll on the Outside|QID|49440|QO|1<2|M|39.42,43.51|Z|0863;Nazmir|N|Click on the second pedestal to place the Blood Troll Skulls.|H|
-C Blood Troll on the Outside|QID|49440|QO|1<3|M|39.75,43.50|Z|0863;Nazmir|N|Click on the last pedestal to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1>1M|39.58,43.76|Z|0863;Nazmir|N|Click on the first pedestal around the circle to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1>2M|39.42,43.51|Z|0863;Nazmir|N|Click on the second pedestal to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1>3M|39.75,43.50|Z|0863;Nazmir|N|Click on the last pedestal to place the Blood Troll Skulls.|H|
 C Blood Troll on the Outside|QID|49440|QO|2|M|39.63,43.87|Z|0863;Nazmir|N|Speak to Witch Doctor Kejabu to complete the ritual.|CHAT|
 T Blood Troll on the Outside|QID|49440|M|39.63,43.87|Z|0863;Nazmir|N|To Witch Doctor Kejabu.|
 A Sneaking into Zalamar|QID|48699|PRE|49440|M|39.63,43.87|Z|0863;Nazmir|N|From Witch Doctor Kejabu.|
@@ -411,10 +411,10 @@ C Torga's Eternal Return|QID|49160|M|56.51,26.64|Z|0863;Nazmir|N|Use the scroll 
 T Torga's Eternal Return|QID|49160|M|56.59,26.75|Z|0863;Nazmir|N|To Kisha.|
 A To Gloom Hollow|QID|49902|PRE|49160|M|56.59,26.75|Z|0863;Nazmir|N|From Kisha.|
 R Razorjaw River|ACTIVE|49902|M|55.79,34.32|Z|0863;Nazmir|N|Follow whats left of the road across the Razorjaw River to find the Tortollans.|FLY|OLD|
-C Crez|QID|49902|QO|1<1|M|55.73,39.72|Z|0863;Nazmir|N|Talk to Crez.|CHAT|
+C Crez|QID|49902|QO|1>1M|55.73,39.72|Z|0863;Nazmir|N|Talk to Crez.|CHAT|
 K Scout Skrasniss|QID|48972|QO|1|M|58.84,38.98|Z|0863;Nazmir|ITEM|160951|N|Silver Elite to kill and loot for resources and artifact power.|T|Scout Skrasniss|RANK|2|RARE|
-C Korkrush|QID|49902|QO|1<2|M|60.24,46.18|Z|0863;Nazmir|N|Talk to Korkrush.|CHAT|
-C Yash|QID|49902|QO|1<3|M|63.88,47.75|Z|0863;Nazmir|N|Talk to Yash.|CHAT|
+C Korkrush|QID|49902|QO|1>2M|60.24,46.18|Z|0863;Nazmir|N|Talk to Korkrush.|CHAT|
+C Yash|QID|49902|QO|1>3M|63.88,47.75|Z|0863;Nazmir|N|Talk to Yash.|CHAT|
 R Gloom Hollow|ACTIVE|49902|M|66.42,42.98|Z|0863;Nazmir|N|Follow the road across Razorjaw River.|FLY|OLD|
 f Gloom Hollow|ACTIVE|49902|M|66.98,43.77|Z|0863;Nazmir|N|At Cuja.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T To Gloom Hollow|QID|49902|M|67.44,42.30|Z|0863;Nazmir|N|To Rokhan.|
@@ -451,9 +451,9 @@ C A True Loa Feast|QID|47621|M|75.95,45.97|Z|0863;Nazmir|N|Finish collecting mea
 T A True Loa Feast|QID|47621|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 T A Magical Glow|QID|47622|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 A Totemic Restoration|QID|47540|PRE|47621&47622|M|75.50,56.81|Z|0863;Nazmir|N|From Krag'wa the Huge.|
-C Totemic Restoration|QID|47540|QO|1<1|M|75.19,56.69|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
-C Totemic Restoration|QID|47540|QO|1<2|M|75.33,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
-C Totemic Restoration|QID|47540|QO|1<3|M|75.68,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1>1M|75.19,56.69|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1>2M|75.33,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1>3M|75.68,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
 T Totemic Restoration|QID|47540|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|PRE|47540|M|75.50,56.81|Z|0863;Nazmir|N|From Krag'wa the Huge.|
 R Meet Krag'wa|ACTIVE|47696|QO|1|M|67.29,56.30|Z|0863;Nazmir|N|Exit Krag'wa's Lair meet him in the Frogmarsh.|

@@ -139,7 +139,7 @@ C Almost Worth Saving|QID|51691|QO|1|M|51.80,32.43|Z|0942;Stormsong Valley|N|Res
 C Hunt Them Down|QID|51675|QO|2|M|51.80,32.43|Z|0942;Stormsong Valley|S|N|Kill footman.|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|0942;Stormsong Valley|S|N|The mages drop the wands you need to douse the flames.|U|160565|
 K Captain Ara|ACTIVE|51675|QO|1|M|51.85,33.63|Z|0942;Stormsong Valley|N|Kill Captain Ara.|T|Captain Ara.|
-C Almost Worth Saving|QID|51691|QO|1<3|M|51.85,32.63|Z|0942;Stormsong Valley|N|Click on the barricade behind Captain Ara.|NC|
+C Almost Worth Saving|QID|51691|QO|1>3M|51.85,32.63|Z|0942;Stormsong Valley|N|Click on the barricade behind Captain Ara.|NC|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|0942;Stormsong Valley|US|N|Finish putting out the fires. The mages drop the wands you need to douse the flames.|U|160565|
 C Hunt Them Down|QID|51675|QO|2|M|49.29,32.84|Z|0942;Stormsong Valley|US|N|Finish your quota of footman.|
 C Almost Worth Saving|QID|51691|QO|1|M|51.80,32.43|Z|0942;Stormsong Valley|N|Finish rescuing Frightened Peons.|NC|US|
@@ -272,17 +272,17 @@ A Tapping the Breach|QID|54844|PRE|54416|M|47.93,36.20|Z|0062;Darkshore!Kalimdor
 C Ivus the Forest Lord|QID|54896|M|42.44,35.16|Z|0062;Darkshore!Kalimdor|N|This is a raid, so you will want to Queue for it. Since the other quests are group quests, be sure to not stay in the raid after.|
 C Remaining Threats|QID|54843|M|39.14,61.88|Z|0062;Darkshore!Kalimdor|S|N|Queue for a group doing Darkshore rares for an easier time. If no group, you can do it by soloing the lvl 121 mobs.|
 C Tapping the Breach|QID|54844|M|39.36,61.24|Z|0062;Darkshore!Kalimdor|S|N|Easiest done in a group.|
-C Buzzkill|QID|54845|M|55.57,23.89|Z|0062;Darkshore!Kalimdor|QO|1<4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Buzzkill|QID|54845|M|55.57,23.89|Z|0062;Darkshore!Kalimdor|QO|1>4N|Destroy the Buzzbox, kill the 3 robots that appear.|
 C Athrikus Narassin|QID|54793|M|58.76,24.46|Z|0062;Darkshore!Kalimdor|;WQ
 C Thelar Moonstrike|QID|54808|QO|1|M|62.12,16.49|Z|0062;Darkshore!Kalimdor|N|Kill Thelar Moonstrike slain|T|Thelar Moonstrike|;WQ
 C Buzzkill|QID|54845|M|41.25,47.68|Z|0062;Darkshore!Kalimdor|QO|1=1|N|Destroy the Buzzbox, kill the 3 robots that appear.|
 C Prisoners of the Darkscale|QID|54514|QO|1|M|43.77,61.19|Z|0062;Darkshore!Kalimdor|N|Kill naga to collect keys and rescue Forsaken Harvester.|;wq
 C Turning the Tides|QID|54722|QO|1|M|38.94,41.12|Z|0062;Darkshore!Kalimdor|N|Man the Dread Ballista|;WQ
 C Turning the Tides|QID|54722|QO|2|M|38.20,44.96|Z|0062;Darkshore!Kalimdor|N|Use the one key to shoot down the keldori flying towards you.|
-C Buzzkill|QID|54845|M|55.57,23.89|Z|0062;Darkshore!Kalimdor|QO|1<4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Buzzkill|QID|54845|M|55.57,23.89|Z|0062;Darkshore!Kalimdor|QO|1>4N|Destroy the Buzzbox, kill the 3 robots that appear.|
 C Twilight Prophet Graeme|QID|54800|M|40.67,82.25|Z|0062;Darkshore!Kalimdor|N|Kill Twilight Prophet Greame.|T|Twilight Prophet Graeme|;WQ
-C Buzzkill|QID|54845|M|36.93,65.51|Z|0062;Darkshore!Kalimdor|QO|1<4||N|Destroy the Buzzbox, kill the 3 robots that appear.|
-C Buzzkill|QID|54845|M|40.82,81.16|Z|0062;Darkshore!Kalimdor|QO|1<4||N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Buzzkill|QID|54845|M|36.93,65.51|Z|0062;Darkshore!Kalimdor|QO|1>4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Buzzkill|QID|54845|M|40.82,81.16|Z|0062;Darkshore!Kalimdor|QO|1>4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
 C Tapping the Breach|QID|54844|M|39.36,61.24|Z|0062;Darkshore!Kalimdor|US|N|Looks like you are just about done here, finish up killing any needed elementals.|
 C Remaining Threats|QID|54843|M|39.14,61.88|Z|0062;Darkshore!Kalimdor|US|N|Finish up the rares you choose to do.|
 T Remaining Threats|QID|54843|M|46.97,35.51|Z|0062;Darkshore!Kalimdor|N|To Deathstalker Commander Belmont.|
@@ -461,10 +461,10 @@ A Zandalari Justice|QID|54249|PRE|54244|M|30.90,51.87|Z|0863;Nazmir|N|From Princ
 A None Shall Escape|QID|54269|PRE|54244|M|30.82,51.81|Z|0863;Nazmir|N|From General Rakera.|
 A Breaking Mirrors|QID|54270|PRE|54244|M|30.82,51.81|Z|0863;Nazmir|N|From General Rakera.|
 C Zandalari Justice|QID|54249|M|30.27,46.48|Z|0863;Nazmir|S|N|Kill the alliance forces about the other objectives.|
-C None Shall Escape|QID|54269|QO|1<1|M|32.13,48.24|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|NC|
-C None Shall Escape|QID|54269|QO|1<2|M|32.91,47.32|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|NC|
+C None Shall Escape|QID|54269|QO|1>1M|32.13,48.24|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|NC|
+C None Shall Escape|QID|54269|QO|1>2M|32.91,47.32|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|NC|
 C Breaking Mirrors|QID|54270|QO|2|M|33.38,45.96|Z|0863;Nazmir|N|Kill Talaamon's Mirror Image to aid Jo'chunga.|T|Telaamon's Mirror Image|
-C None Shall Escape|QID|54269|QO|1<3|M|32.58,44.51|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|T|Telaamon's Mirror Image|
+C None Shall Escape|QID|54269|QO|1>3M|32.58,44.51|Z|0863;Nazmir|N|Click on the Mole Machine to destroy it.|T|Telaamon's Mirror Image|
 C Breaking Mirrors|QID|54270|QO|1|M|31.40,45.54;30.98,45.09|CS|Z|0863;Nazmir|N|Kill Telaamon's Mirror Image to aid Witch Doctor Kejabu.|T|Telaamon's Mirror Image|
 C None Shall Escape|QID|54269|QO|1|M|30.78,48.32|Z|0863;Nazmir|N|Destroy the last mole machine.|NC|
 C Zandalari Justice|QID|54249|M|30.61,47.84|Z|0863;Nazmir|US|N|Finish your quota of alliance.|

@@ -96,9 +96,9 @@ A Walk Among Death|QID|57512|M|48.35,57.25|Z|1536;Maldraxxus|N|From Baroness Dra
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|1536;Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
 t Walk Among Death|QID|57512|M|PLAYER|Z|1536;Maldraxxus|N|To Baroness Draka.|MS|
 A Memory of Honor|QID|60179|M|48.36,57.78|Z|1536;Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
-C Memory of Honor|QID|60179|M|44.80,58.33|Z|1536;Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
-C Memory of Honor|QID|60179|M|44.01,61.50|Z|1536;Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
-C Memory of Honor|QID|60179|M|45.87,61.75|Z|1536;Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|44.80,58.33|Z|1536;Maldraxxus|QO|1>1NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|44.01,61.50|Z|1536;Maldraxxus|QO|1>2NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|45.87,61.75|Z|1536;Maldraxxus|QO|1>3NC|N|Read the Faded Epitaphs off the headstones.|MS|
 T Memory of Honor|QID|60179|M|PLAYER|Z|1536;Maldraxxus|N|To Baroness Draka.|MS|
 $ Ornate Bone Shield|QID|59358|M|47.25,62.14|ITEM|180749|N|Up the hill for a bit of treasure.|ACH|14312;1|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|1536;Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|T|Displaced Scavenger|US|MS|
@@ -235,16 +235,16 @@ A Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|1536;Maldraxxus|N|From Du
 C Smack and Grab|QID|58785|M|43.90,50.15|Z|1536;Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
 K Tahonta|QID|61986^58783|QO|1|M|45.04,50.56|Z|1536;Maldraxxus|T|Tahonta|N|Rare wanders around area, fight isn't hard, Avoid pulling other mobs.|ITEM|182190|RARE|ACH|14308;12|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|1536;Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1<1|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1>1N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|1536;Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1<2|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1>2N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|1536;Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1<3|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1>3N|Ride the Tauralus back to Dundae.|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|1536;Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1<4|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1>4N|Ride the Tauralus back to Dundae.|
 C Smack and Grab|QID|58785|M|43.90,50.15|Z|1536;Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
 C Take the Bull by the Horns|ACTIVE|58750|M|43.90,50.15|Z|1536;Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Target the Bloodskin Tauralus and use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|QID|58750|
-C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1<5|N|Ride the Tauralus back to Dundae.|
+C Take the Bull by the Horns|QID|58750|M|46.86,48.73|Z|1536;Maldraxxus|NC|QO|1>5N|Ride the Tauralus back to Dundae.|
 T Smack and Grab|QID|58785|M|46.99,49.05|Z|1536;Maldraxxus|N|To Caleesy.|
 T Take the Bull by the Horns|QID|58750|M|46.87,48.59|Z|1536;Maldraxxus|N|To Dundae.|
 A Stabbing Wasteward|QID|58794|M|46.87,48.59|Z|1536;Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
@@ -450,21 +450,21 @@ C A Plague on Your House|QID|59430|M|59.04,73.86|Z|1536;Maldraxxus|QO|3|CHAT|N|C
 T A Plague on Your House|QID|59430|M|59.04,73.86|Z|1536;Maldraxxus|N|To Boil Master Yetch.|
 A Pool of Potions|QID|58431|M|59.04,73.86|Z|1536;Maldraxxus|N|From Boil Master Yetch.|PRE|59430|RANK|2|
 K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions. You can carry only one oil at a time.|
+R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1>1N|Return the Viscous Oil to the Pool of Potions. You can carry only one oil at a time.|
 K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1<2|N|Return the Viscous Oil to the Pool of Potions.|
+R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1>2N|Return the Viscous Oil to the Pool of Potions.|
 K Burning Extract|ACTIVE|58431|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1<3|N|Return the Viscous Oil to the Pool of Potions.|
+R Pool of Potions|QID|58431|ACTIVE|58431|M|59.03,74.19|Z|1536;Maldraxxus|QO|1>3N|Return the Viscous Oil to the Pool of Potions.|
 T Pool of Potions|QID|58431|M|59.10,73.87|Z|1536;Maldraxxus|N|To Boil Master Yetch.|
 A Callous Concoctions|QID|57301|M|58.52,73.53|Z|1536;Maldraxxus|N|From Foul-Tongue Cyrlix.|PRE|58431|RANK|2|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
-R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
+R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1>1N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
-R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
+R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1>2N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 $ Vat of Conspicuous Slime|QID|61444|M|59.88,79.00|Z|1536;Maldraxxus|N|Pick up "Empty Plague Bottle" from table, then click on the vat for treasure.|ACH|14312;4|ITEM|181825|
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|1536;Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|MS|
 K Burning Extract or Colossal Goo|ACTIVE|57301|M|59.05,77.66|Z|1536;Maldraxxus|N|Kill the Burning Extracts, Colossal Goo or Prodigious Animates, once it dies there will sometimes be a 2nd corpse, that you click on to collect the oil, ooze or goo.|BUFF|306636^306606^306630|
-R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
+R Pool of Mixed Monstrosities|QID|57301|ACTIVE|57301|M|58.29,74.23|Z|1536;Maldraxxus|QO|1>3N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 T Callous Concoctions|QID|57301|M|58.54,73.53|Z|1536;Maldraxxus|N|To Foul-Tongue Cyrlix.|
 T By Any Other Name|QID|59223|M|60.44,71.64|Z|1536;Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|1536;Maldraxxus|N|From Plague Deviser Marileth.|PRE|59223|MS|
@@ -498,9 +498,9 @@ A Prey Upon Them|QID|59171|M|67.75,45.87|Z|1536;Maldraxxus|N|From Baroness Vashj
 A ...Why Me?|QID|62085|M|66.16,50.44|Z|1536;Maldraxxus|N|From Stolen Jar in ground level cave, you are facing NE when you enter. There is a cave practically on top of this one. May not be there due to respawn timer.|RANK|2|ITEM|182618|ACH|14312;5|;$
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|1536;Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until he is under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|1536;Maldraxxus|QO|2|N|Kill the Morbid Disciples|S|MS|
-C Prey Upon Them|QID|59171|M|61.97,51.91|Z|1536;Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
-C Prey Upon Them|QID|59171|M|63.30,52.65|Z|1536;Maldraxxus|NC|QO|1<2|N|Click on the Anima-charged Maldracite to collect it.|MS|
-C Prey Upon Them|QID|59171|M|64.42,52.34|Z|1536;Maldraxxus|NC|QO|1<3|N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|61.97,51.91|Z|1536;Maldraxxus|NC|QO|1>1N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|63.30,52.65|Z|1536;Maldraxxus|NC|QO|1>2N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|64.42,52.34|Z|1536;Maldraxxus|NC|QO|1>3N|Click on the Anima-charged Maldracite to collect it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|1536;Maldraxxus|QO|2|N|Kill a few more Morbid Disciples.|US|MS|
 C Glorious Pursuits|QID|58821|CS|M|61.82,46.75;67.66,45.92|Z|1536;Maldraxxus|QO|3|NC|N|You actually need to follow the road (unless you can fly) to return Mephiles.|MS|
 T Prey Upon Them|QID|59171|M|67.61,45.92|Z|1536;Maldraxxus|N|To Baroness Vashj.|MS|
@@ -527,9 +527,9 @@ T Vaunted Vengeance|QID|59188|M|73.42,44.52|Z|1536;Maldraxxus|N|To Khaliiq.|MS|
 T Entangling Web|QID|59185|M|73.59,44.60|Z|1536;Maldraxxus|N|To Baroness Vashj.|MS|
 T Tainted Cores|QID|59210|M|73.59,44.60|Z|1536;Maldraxxus|N|To Baroness Vashj.|MS|
 A Seek Your Mark|QID|59190|M|73.47,44.53|Z|1536;Maldraxxus|N|From Baroness Vashj.|PRE|59185&59210&59188|MS|
-C Seek Your Mark|QID|59190|M|74.44,43.82|Z|1536;Maldraxxus|QO|1<1|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
-C Seek Your Mark|QID|59190|M|73.17,44.46|Z|1536;Maldraxxus|QO|1<2|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
-C Seek Your Mark|QID|59190|M|72.96,42.91|Z|1536;Maldraxxus|QO|1<3|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|74.44,43.82|Z|1536;Maldraxxus|QO|1>1NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|73.17,44.46|Z|1536;Maldraxxus|QO|1>2NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|72.96,42.91|Z|1536;Maldraxxus|QO|1>3NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
 C Seek Your Mark|QID|59190|M|73.83,43.83|Z|1536;Maldraxxus|QO|2|NC|N|Click on the obelisk to draw your Binding Sigil.|MS|
 T Seek Your Mark|QID|59190|M|73.61,44.49|Z|1536;Maldraxxus|N|To Baroness Vashj.|MS|
 A Straight to the Heart|QID|59025|M|73.61,44.49|Z|1536;Maldraxxus|N|From Baroness Vashj.|PRE|59190|MS|

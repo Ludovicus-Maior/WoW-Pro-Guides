@@ -23,14 +23,14 @@ T The Fleet Arrives|QID|79333|FACTION|Horde|M|36.20,81.48|Z|2339; Dornogal|N|To 
 ;-----------Alliance----------
 A Embassies and Envoys|QID|82153|PRE|79333|FACTION|Alliance|M|35.89,81.45|Z|2339; Dornogal|N|From Lady Jaina Proudmoore.|
 C Embassies and Envoys|QID|82153|FACTION|Alliance|M|30.27,55.92|Z|2339; Dornogal|QO|1|NC|N|Alliance Embassy steward found in Dornogal.|
-C Alliance Banner|QID|82153|FACTION|Alliance|M|30.12,56.52|Z|2339; Dornogal|QO|2<1|N|Place Banner|H|
-C Alliance Banner|QID|82153|FACTION|Alliance|M|30.67,55.69|Z|2339; Dornogal|QO|2<2|N|Place Banner|H|
+C Alliance Banner|QID|82153|FACTION|Alliance|M|30.12,56.52|Z|2339; Dornogal|QO|2>1N|Place Banner|H|
+C Alliance Banner|QID|82153|FACTION|Alliance|M|30.67,55.69|Z|2339; Dornogal|QO|2>2N|Place Banner|H|
 C Embassies and Envoys|QID|82153|FACTION|Alliance|M|30.56,55.89|Z|2339; Dornogal|QO|2|NC|N|Alliance banners placed.|
-C Small Alliance Banner|QID|82153|FACTION|Alliance|M|28.85,51.05|Z|2339; Dornogal|QO|3<1|N|Place Banner|H|
-C Supplies|QID|82153|FACTION|Alliance|M|27.78,49.91|Z|2339; Dornogal|QO|3<2|N|Place Supplies|H|
-C Weapon Rack|QID|82153|FACTION|Alliance|M|27.57,49.88|Z|2339; Dornogal|QO|3<3|N|Place weapon rack|H|
-C Large Alliance Banner|QID|82153|FACTION|Alliance|M|27.39,50.02|Z|2339; Dornogal|QO|3<4|N|Place Banner|H|
-C Large Alliance Banner|QID|82153|FACTION|Alliance|M|26.38,50.02|Z|2339; Dornogal|QO|3<5|N|Place Banner|H|
+C Small Alliance Banner|QID|82153|FACTION|Alliance|M|28.85,51.05|Z|2339; Dornogal|QO|3>1N|Place Banner|H|
+C Supplies|QID|82153|FACTION|Alliance|M|27.78,49.91|Z|2339; Dornogal|QO|3>2N|Place Supplies|H|
+C Weapon Rack|QID|82153|FACTION|Alliance|M|27.57,49.88|Z|2339; Dornogal|QO|3>3N|Place weapon rack|H|
+C Large Alliance Banner|QID|82153|FACTION|Alliance|M|27.39,50.02|Z|2339; Dornogal|QO|3>4N|Place Banner|H|
+C Large Alliance Banner|QID|82153|FACTION|Alliance|M|26.38,50.02|Z|2339; Dornogal|QO|3>5N|Place Banner|H|
 C Embassies and Envoys|QID|82153|FACTION|Alliance|M|26.52,51.69|Z|2339; Dornogal|QO|3|NC|N|Decorations placed inside.|
 C Embassies and Envoys|QID|82153|FACTION|Alliance|M|28.18,52.95|Z|2339; Dornogal|QO|4|NC|N|Document signed.|
 T Embassies and Envoys|QID|82153|FACTION|Alliance|M|31.79,59.17|Z|2339; Dornogal|N|To Moira Thaurissan.|
@@ -38,14 +38,14 @@ T Embassies and Envoys|QID|82153|FACTION|Alliance|M|31.79,59.17|Z|2339; Dornogal
 ;-----------Horde----------
 A Embassies and Envoys|QID|79328|PRE|79333|FACTION|Horde|M|36.20,81.48|Z|2339; Dornogal|N|From Thrall.|
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|30.38,63.17|Z|2339; Dornogal|QO|1|NC|N|Horde Embassy steward found in Dornogal.|
-C Horde Banner|QID|79328|FACTION|Horde|M|30.65,63.55|Z|2339; Dornogal|QO|2<1|N|Place Banner|H|
-C Horde Banner|QID|79328|FACTION|Horde|M|30.14,62.79|Z|2339; Dornogal|QO|2<2|N|Place Banner|H|
+C Horde Banner|QID|79328|FACTION|Horde|M|30.65,63.55|Z|2339; Dornogal|QO|2>1N|Place Banner|H|
+C Horde Banner|QID|79328|FACTION|Horde|M|30.14,62.79|Z|2339; Dornogal|QO|2>2N|Place Banner|H|
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|30.14,62.79|Z|2339; Dornogal|QO|2|NC|N|Horde banners placed.|
-C Small Horde Banner|QID|79328|FACTION|Horde|M|27.03,65.48|Z|2339; Dornogal|QO|3<1|N|Place Banner|H|
-C Strongbox|QID|79328|FACTION|Horde|M|26.23,67.09|Z|2339; Dornogal|QO|3<2|N|Place Strongbox|H|
-C Weapon Rack|QID|79328|FACTION|Horde|M|26.30,67.29|Z|2339; Dornogal|QO|3<3|N|Place weapon rack|H|
-C Large Horde Banner|QID|79328|FACTION|Horde|M|26.38,67.66|Z|2339; Dornogal|QO|3<4|N|Place Banner|H|
-C Large Horde Banner|QID|79328|FACTION|Horde|M|27.37,69.24|Z|2339; Dornogal|QO|3<5|N|Place Banner|H|
+C Small Horde Banner|QID|79328|FACTION|Horde|M|27.03,65.48|Z|2339; Dornogal|QO|3>1N|Place Banner|H|
+C Strongbox|QID|79328|FACTION|Horde|M|26.23,67.09|Z|2339; Dornogal|QO|3>2N|Place Strongbox|H|
+C Weapon Rack|QID|79328|FACTION|Horde|M|26.30,67.29|Z|2339; Dornogal|QO|3>3N|Place weapon rack|H|
+C Large Horde Banner|QID|79328|FACTION|Horde|M|26.38,67.66|Z|2339; Dornogal|QO|3>4N|Place Banner|H|
+C Large Horde Banner|QID|79328|FACTION|Horde|M|27.37,69.24|Z|2339; Dornogal|QO|3>5N|Place Banner|H|
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|27.37,69.24|Z|2339; Dornogal|QO|3|NC|N|Decorations placed inside.|
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|28.29,66.42|Z|2339; Dornogal|QO|4|NC|N|Document signed.|
 T Embassies and Envoys|QID|79328|FACTION|Horde|M|31.75,59.25|Z|2339; Dornogal|N|To Moira Thaurissan.|
@@ -69,10 +69,10 @@ T Urban Odyssey|QID|79344|M|31.79,59.24|Z|2339; Dornogal|N|To Moira Thaurissan.|
 
 ;--Ties that bind
 A After the Storm|QID|79107|PRE|79344|M|31.51,59.86|Z|2339; Dornogal|N|From Alleria Windrunner.|
-C Stormrider Meirand|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1<1|N|Stormrider Meirand assessed.|CHAT|
-C Stormrider Vokmar|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1<2|N|Stormrider Vokmar assessed.|CHAT|
-C Stormrider Edeltrau|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1<3|N|Stormrider Edeltrau assessed.|CHAT|
-C Stormrider Hunfrid|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1<4|N|Stormrider Hunfrid assessed.|CHAT|
+C Stormrider Meirand|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1>1N|Stormrider Meirand assessed.|CHAT|
+C Stormrider Vokmar|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1>2N|Stormrider Vokmar assessed.|CHAT|
+C Stormrider Edeltrau|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1>3N|Stormrider Edeltrau assessed.|CHAT|
+C Stormrider Hunfrid|QID|79107|M|38.16,71.23|Z|2339; Dornogal|QO|1>4N|Stormrider Hunfrid assessed.|CHAT|
 C Rooktender Lufsela|QID|79107|M|38.18,71.62|Z|2339; Dornogal|QO|2|N|Lufsela questioned.|CHAT|
 T After the Storm|QID|79107|M|37.55,81.98|Z|2339; Dornogal|N|To Rooktender Lufsela.|
 A Dhar Oztan|QID|81914|PRE|79107|M|37.55,81.98|Z|2339; Dornogal|N|From Rooktender Lufsela.|
@@ -103,9 +103,9 @@ T Goldbricking|QID|79140|M|33.26,63.39|Z|2248; Isle of Dorn|N|To Overlord Geya'r
 A Home to Roost|QID|81915|PRE|79145&79140|M|33.28,63.39|Z|2248; Isle of Dorn|N|From Adelgonn.|
 T Home to Roost|QID|81915|M|29.01,61.71|Z|2248; Isle of Dorn|N|To Rooktender Lufsela.|
 A Strays|QID|79477|PRE|81915|M|29.01,61.71|Z|2248; Isle of Dorn|N|From Rooktender Lufsela.|
-C Kothilde|QID|79477|M|31.48,56.35|Z|2248; Isle of Dorn|QO|1<1|NC|N|Stray recruit found.|CHAT|
-C Adalar|QID|79477|M|23.47,51.09|Z|2248; Isle of Dorn|QO|1<2|NC|N|Stray recruit found.|CHAT|
-C Gurnot|QID|79477|M|23.61,67.16|Z|2248; Isle of Dorn|QO|1<3|NC|N|Stray recruit found.|CHAT|
+C Kothilde|QID|79477|M|31.48,56.35|Z|2248; Isle of Dorn|QO|1>1NC|N|Stray recruit found.|CHAT|
+C Adalar|QID|79477|M|23.47,51.09|Z|2248; Isle of Dorn|QO|1>2NC|N|Stray recruit found.|CHAT|
+C Gurnot|QID|79477|M|23.61,67.16|Z|2248; Isle of Dorn|QO|1>3NC|N|Stray recruit found.|CHAT|
 T Strays|QID|79477|M|29.04,61.67|Z|2248; Isle of Dorn|N|To Kurdran Wildhammer.|
 N Flight Training & Stormrook battle|QID|79147|N|During these quests you will have a choice whether to Skyride and control Shraubendre or to ride along. If you ride along it will work like any other riding quest, where you point and shoot (eventually). If you Skyride, your Skyriding skills gain an extra ability. Skyward Ascent will cast lighting. Surge Forward will give you a shield. Whirling Surge will deflect enemies. Second Wind will cast a heal. The glowing green areas will grant you vigor. |
 A Flight Training 101|QID|79147|PRE|82451&79477|M|29.03,61.67|Z|2248; Isle of Dorn|N|From Kurdran Wildhammer.|
@@ -213,8 +213,8 @@ A To the Waterworks|QID|79324|PRE|79025|M|42.91,34.18|Z|2214; The Ringing Deeps|
 T To the Waterworks|QID|79324|M|43.14,42.29|Z|2214; The Ringing Deeps|N|To Dagran Thaurissan II.|
 A Elemental Trepidation|QID|79027|PRE|79324|M|43.14,42.29|Z|2214; The Ringing Deeps|N|From "Zee-Zee".|
 A Putting the Works in Waterworks|QID|79026|PRE|79324|M|43.14,42.29|Z|2214; The Ringing Deeps|N|From Dagran Thaurissan II.|
-C Waterwheel Activated|QID|79026|M|44.25,46.06|Z|2214; The Ringing Deeps|QO|1<1|H|N|Clear the wax off the console and click to activate.|
-C Waterwheel Activated|QID|79026|M|41.27,46.36|Z|2214; The Ringing Deeps|QO|1<2|H|N|Clear the wax off the console and click to activate.|
+C Waterwheel Activated|QID|79026|M|44.25,46.06|Z|2214; The Ringing Deeps|QO|1>1H|N|Clear the wax off the console and click to activate.|
+C Waterwheel Activated|QID|79026|M|41.27,46.36|Z|2214; The Ringing Deeps|QO|1>2H|N|Clear the wax off the console and click to activate.|
 C Putting the Works in Waterworks|QID|79026|QO|2|M|42.02,48.03|Z|2214; The Ringing Deeps|NC|N|Delve Entered.|
 C Putting the Works in Waterworks|QID|79026|QO|3|M|42.02,48.03|Z|2251;The Waterworks|H|N|Main Drain Restored.|
 C Putting the Works in Waterworks|QID|79026|QO|4|M|42.02,48.03|Z|2251;The Waterworks|N|Delve Completed.|
@@ -296,9 +296,9 @@ C No Breathing Room|QID|82691|M|64.17,68.64|Z|2215; Hallowfall|QO|1|NC|N|Seeping
 C Price of a Mission|QID|82692|M|64.97,67.40|Z|2215; Hallowfall|QO|1|NC|N|Strange Flower examined.|S|
 C Price of a Mission|QID|82692|M|64.24,64.66|Z|2215; Hallowfall|QO|2|NC|N|Haranir evacuated.|S|
 C Standing in the Way|QID|82693|M|65.67,65.56|Z|2215; Hallowfall|QO|1|N|Bloodcrust Behemoth slain.|
-C Price of a Mission|QID|82692|M|66.66,64.89|Z|2215; Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
-C Price of a Mission|QID|82692|M|64.21,64.55|Z|2215; Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
-C Price of a Mission|QID|82692|M|64.45,68.06|Z|2215; Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|66.66,64.89|Z|2215; Hallowfall|QO|2>1NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|64.21,64.55|Z|2215; Hallowfall|QO|2>1NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|64.45,68.06|Z|2215; Hallowfall|QO|2>1NC|N|Haranir evacuated.|US|
 C Price of a Mission|QID|82692|M|64.97,67.40|Z|2215; Hallowfall|QO|1|NC|N|Strange Flower examined.|US|
 C No Breathing Room|QID|82691|M|64.17,68.64|Z|2215; Hallowfall|QO|1|NC|N|Seeping creatures culled (100%).|US|
 T Price of a Mission|QID|82692|M|63.01,67.52|Z|2215; Hallowfall|N|To Orweyna.|

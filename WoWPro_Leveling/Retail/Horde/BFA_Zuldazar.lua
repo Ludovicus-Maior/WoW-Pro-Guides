@@ -30,7 +30,7 @@ A The Urn of Voices|QID|49490|PRE|49488|M|62.82,32.56|Z|0862;Zuldazar|N|From Zul
 A Fuel for the Voodoo|QID|49491|PRE|49488|M|63.62,31.78|Z|0862;Zuldazar|N|From Izita's Spirit.| ; ** Storyline - Of Prophecies and Prophets
 C The Urn of Voices|QID|49490|M|62.70,28.39|Z|0862;Zuldazar|N|Kill mobs in the area to collect 30 Ounces of Soul.|S|
 C Fuel for the Voodoo|QID|49491|M|63.75,30.89|Z|0862;Zuldazar|N|Pick up the Voodoo Totems scattered about.|H|S|
-C Needs a Little Body|QID|49489|QO|1<1|M|65.05,32.94|Z|0862;Zuldazar|N|Push Atal'jamba Ungo into the cauldron.|H|
+C Needs a Little Body|QID|49489|QO|1>1M|65.05,32.94|Z|0862;Zuldazar|N|Push Atal'jamba Ungo into the cauldron.|H|
 C Needs a Little Body|QID|49489|QO|1|M|63.17,29.06|Z|0862;Zuldazar|N|Push Atal'jamba Iri into the cauldron.|H|
 C The Urn of Voices|QID|49490|M|62.70,28.39|Z|0862;Zuldazar|N|Finish collecting the needed souls.|US|
 C Fuel for the Voodoo|QID|49491|M|63.75,30.89|Z|0862;Zuldazar|N|Finish picking up the Voodoo Totems.|H|US|
@@ -109,10 +109,10 @@ A Punishment of Tal'aman|QID|46927|PRE|46846|M|50.06,84.72|Z|1165;Dazar'alor|N|F
 R Terrace of the Speakers|ACTIVE|46929|QO|1|M|50.07,78.94|Z|1165;Dazar'alor|N|Run up the stairs to find the Amani and Sandfury mobs.|
 C Deterrent|QID|46929|QO|1|M|56.17,81.12|Z|1165;Dazar'alor|ITEM|160107|N|any Amani mobs.|S|
 K Kul'krazahn|QID|48333|QO|1|M|54.93,82.67|Z|1165;Dazar'alor|ITEM|160947|N|Kul'krazahn\nA Silver Elite to kill and loot for azerite power and resources.|T|Kul'krazahn|RANK|2|RARE|
-C Punishment of Tal'aman|QID|46927|QO|1<1|M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Akil'zon and kill him.|
-C Punishment of Tal'aman|QID|46927|QO|1<2|M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Halazzi and kill him.|
-C Punishment of Tal'aman|QID|46927|QO|1<3|M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Jan'alai and kill him.|
-C Punishment of Tal'aman|QID|46927|QO|1<4|M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Nalorakk and kill him.|
+C Punishment of Tal'aman|QID|46927|QO|1>1M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Akil'zon and kill him.|
+C Punishment of Tal'aman|QID|46927|QO|1>2M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Halazzi and kill him.|
+C Punishment of Tal'aman|QID|46927|QO|1>3M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Jan'alai and kill him.|
+C Punishment of Tal'aman|QID|46927|QO|1>4M|56.18,87.47|Z|1165;Dazar'alor|N|Click the gong to release the Disciple of Nalorakk and kill him.|
 C Deterrent|QID|46929|QO|1|M|50.00,78.00|Z|1165;Dazar'alor|ITEM|160107|N|any Amani mobs.|US|
 C Deterrent|QID|46929|QO|2|M|56.17,81.12|Z|1165;Dazar'alor|ITEM|158898|N|any Sandfury mob.|S|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|1165;Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|

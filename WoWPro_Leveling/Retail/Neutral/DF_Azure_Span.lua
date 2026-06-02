@@ -59,7 +59,7 @@ T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024; The Azure Span!Dragon Isles|N|T
 A Assemble the Defenses|QID|67033|PRE|66228^70747|M|46.69,39.76|Z|2024; The Azure Span!Dragon Isles|N|From Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228^70747|M|46.66,39.74|Z|2024; The Azure Span!Dragon Isles|N|From Althanus.|
 A Supporting the Cobalt Assembly|QID|72784|PRE|66228|LEAD|70550|M|46.66,39.74|Z|2024; The Azure Span!Dragon Isles|N|From Althanus.|LVL|30|RANK|2|
-C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024; The Azure Span!Dragon Isles|H|N|Beware of the bombardment. Pick the first device up here.|
+C Assemble the Defenses|QID|67033|QO|1>1M|46.16,39.35|Z|2024; The Azure Span!Dragon Isles|H|N|Beware of the bombardment. Pick the first device up here.|
 C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the tomes in the pavilion.|
 C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024; The Azure Span!Dragon Isles|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
 T Preservation of Knowledge|QID|67035|M|46.67,39.74|Z|2024; The Azure Span!Dragon Isles|N|To Althanus.|
@@ -260,18 +260,18 @@ T To Iskaara|QID|65849|M|13.24,49.55|Z|2024; The Azure Span!Dragon Isles|N|To Br
 A Gather the Family|QID|66210|PRE|65849|M|13.24,49.55|Z|2024; The Azure Span!Dragon Isles|N|From Brena.|
 A Brackenhide Hollow: To the Source|QID|66211|PRE|65849|M|13.24,49.55|Z|2024; The Azure Span!Dragon Isles|N|From Brena. This is a [color=c9c1ab]Dungeon [/color]quest. Accept or not as you choose.|RANK|2|
 A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024; The Azure Span!Dragon Isles|N|From Murik.|RANK|2|
-C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the stone sculpture in The Filled Bowl (the underground inn).|
+C Gather the Family|QID|66210|QO|1>1M|12.79,49.33;12.49,49.45|CS|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the stone sculpture in The Filled Bowl (the underground inn).|
 A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024; The Azure Span!Dragon Isles|N|From Elder Nappa.|RANK|2|
 C The Weave of a Tale|QID|66213|M|12.41,49.34|Z|2024; The Azure Span!Dragon Isles|CHAT|N|Tell Elder Poa a made up a story about a fish.|
 A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024; The Azure Span!Dragon Isles|N|At Elder Poa. This is a repeatable quest for faction, and will not be available if you don't have any totems.|
 T The Weave of a Tale|QID|66213|M|12.41,49.40|Z|2024; The Azure Span!Dragon Isles|N|To Elder Nappa.|
-C Gather the Family|QID|66210|QO|1<2|M|12.46,50.31|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the shield by the docks.|
+C Gather the Family|QID|66210|QO|1>2M|12.46,50.31|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the shield by the docks.|
 A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024; The Azure Span!Dragon Isles|N|From Hanu.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024; The Azure Span!Dragon Isles|CHAT|N|Say Hello to Norukk.|
 A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|12.53,49.83;13.18,48.76|CN|Z|2024; The Azure Span!Dragon Isles|N|From Bukarakikk. He could be in one of two places.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024; The Azure Span!Dragon Isles|NC|N|Click on Tatto to discover he supplies mounts.|
 C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024; The Azure Span!Dragon Isles|NC|N|Check out what Arvik has for sale.|
-C Gather the Family|QID|66210|QO|1<3|M|13.87,49.49|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the boat from on the piling beside Jinkutuk.|
+C Gather the Family|QID|66210|QO|1>3M|13.87,49.49|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the boat from on the piling beside Jinkutuk.|
 C Gather the Family|QID|66210|QO|1|M|13.49,48.55|Z|2024; The Azure Span!Dragon Isles|H|N|Pick up the teapot beside Kinook's cookpot.|
 t Community Feasts|QID|70938|M|13.48,48.61|Z|2024; The Azure Span!Dragon Isles|N|To Big Kinook.|IZ|13837|
 A Cooking Utensils|QID|70939|PRE|70938|M|13.57,48.68|Z|2024; The Azure Span!Dragon Isles|N|At Lil Ki.|RANK|2|
@@ -387,8 +387,8 @@ A Elemental Unfocus|QID|66647|PRE|65887|M|70.02,35.32|Z|2024; The Azure Span!Dra
 K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024; The Azure Span!Dragon Isles|N|Bonus Objective - Kill it or not as you choose.|RARE|
 ;t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024; The Azure Span!Dragon Isles|N|Bonus Objective - Autocompleted.|
 C Primal Offensive|QID|65943|M|73.33,38.07|Z|2024; The Azure Span!Dragon Isles|N|Kill Primalist forces as you head deaper into the cavern.|S|
-C Lava Burst|QID|65944|QO|1<1|M|72.25,37.28|Z|2024; The Azure Span!Dragon Isles|H|N|Click on first Lava orb.|
-C Lava Burst|QID|65944|QO|1<2|M|73.12,37.78|Z|2024; The Azure Span!Dragon Isles|H|N|Click on the next Lava orb.|
+C Lava Burst|QID|65944|QO|1>1M|72.25,37.28|Z|2024; The Azure Span!Dragon Isles|H|N|Click on first Lava orb.|
+C Lava Burst|QID|65944|QO|1>2M|73.12,37.78|Z|2024; The Azure Span!Dragon Isles|H|N|Click on the next Lava orb.|
 C Elemental Unfocus|QID|66647|M|72.90,38.73|Z|2024; The Azure Span!Dragon Isles|N|Kill and loot Ruvin Stonegrinder just inside the small cave to get the Elemental Focus.|T|Ruvin Stonegrinder|
 C Lava Burst|QID|65944|M|73.77,38.31|Z|2024; The Azure Span!Dragon Isles|H|N|Click on the last Lava orb.|
 C Primal Offensive|QID|65943|M|74.15,38.05|Z|2024; The Azure Span!Dragon Isles|N|Keep killing Primalist forces to make Kalecgos feel happy.|US|
@@ -510,7 +510,7 @@ T What the Enemy Knows|QID|66352|M|65.01,58.62|Z|2024; The Azure Span!Dragon Isl
 A The Expedition Continues!|QID|66422|PRE|66352&66353|M|65.01,58.63|Z|2024; The Azure Span!Dragon Isles|N|From Lathos Sunband.|
 T The Expedition Continues!|QID|66422|M|65.63,60.80|Z|2024; The Azure Span!Dragon Isles|N|To Lathos Sunband.|
 A Worries and Validations|QID|66423|PRE|66422|M|65.63,60.80|Z|2024; The Azure Span!Dragon Isles|N|From Lathos Sunband.|
-C Worries and Validations|QID|66423|M|65.33,60.79|Z|2024; The Azure Span!Dragon Isles|QO|1<1|NC|N|Click on the Ruined Draconic Tablet partially obscured by bushes.|
+C Worries and Validations|QID|66423|M|65.33,60.79|Z|2024; The Azure Span!Dragon Isles|QO|1>1NC|N|Click on the Ruined Draconic Tablet partially obscured by bushes.|
 C Worries and Validations|QID|66423|M|65.87,60.55|Z|2024; The Azure Span!Dragon Isles|QO|1|NC|N|Click on the Ruined Draconic Tablet at the top of the stairs. (much more obvious -- now you know what you are looking for.)|
 T Worries and Validations|QID|66423|M|65.64,60.80|Z|2024; The Azure Span!Dragon Isles|N|To Lathos Sunband.|
 A Arcane Overload|QID|66425|PRE|66423|M|65.63,60.76|Z|2024; The Azure Span!Dragon Isles|N|From Rannan Korren.|
@@ -713,7 +713,7 @@ T Nothing for Breakfast|QID|66837|M|18.74,24.47|Z|2024; The Azure Span!Dragon Is
 T It's Cold Up Here|QID|66838|M|18.75,24.47|Z|2024; The Azure Span!Dragon Isles|N|To Willa Stronghinge.|
 T It's Brew Time!|QID|66839|M|18.98,23.29|Z|2024; The Azure Span!Dragon Isles|N|To Modurun Sixtoes.|
 A Water Safety|QID|66840|PRE|66844&66837|M|18.54,23.67|Z|2024; The Azure Span!Dragon Isles|N|From Manny Read.|RANK|2|
-C Water Safety|QID|66840|QO|1<1|M|17.31,23.19|Z|2024; The Azure Span!Dragon Isles|U|193569|NC|N|Click your [color=33fff9]water testing flask [/color]at the base of the waterfall, to collect a sample.|
+C Water Safety|QID|66840|QO|1>1M|17.31,23.19|Z|2024; The Azure Span!Dragon Isles|U|193569|NC|N|Click your [color=33fff9]water testing flask [/color]at the base of the waterfall, to collect a sample.|
 A A Shard of the Past|QID|66841|PRE|66844&66837|M|19.16,24.73|Z|2024; The Azure Span!Dragon Isles|N|From Gannar Fullpack.|RANK|2|
 C A Shard of the Past|QID|66841|M|17.61,28.24|Z|2024; The Azure Span!Dragon Isles|H|N|The artifact is on a rock in the middle of the creek, at the top of the waterfall, a bit hard to get as you get swept over by force of the current.|
 C Water Safety|QID|66840|M|19.42,23.84;20.00,24.14|CS|Z|2024; The Azure Span!Dragon Isles|NC|U|193569|N|The other two samples are on the other side of camp. The last sample you pick up will trigger a creature to kill.|

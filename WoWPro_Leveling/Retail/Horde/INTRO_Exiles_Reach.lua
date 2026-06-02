@@ -77,18 +77,18 @@ T The Deadliest of Poisons|QID|59968|M|52.03,55.45|Z|1409; Exile's Reach|N|To Gr
 A A Shaman's Duty|QID|59002|M|52.3,55.66|Z|1409; Exile's Reach|N|From Ghost Wolf.|PRE|59950|C|Shaman|
 C A Shaman's Duty|QID|59002|M|52.11,51.3|QO|1|NC|Z|1409; Exile's Reach|N|Collect Veil blossom.|C|Shaman|
 C A Shaman's Duty|QID|59002|M|52.21,55.58|QO|2|NC|Z|1409; Exile's Reach|N|Burn the blossoms on the campfire.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|54.38,58.44|QO|3<1|NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|55.27,52.79|QO|3<2|NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|55.4,50.78|QO|3<3|NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|54.38,58.44|QO|3>1NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|55.27,52.79|QO|3>2NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|55.4,50.78|QO|3>3NC|Z|1409; Exile's Reach|N|Free the captured ghost wolves.|C|Shaman|
 T A Shaman's Duty|QID|59002|M|52.3,55.66|Z|1409; Exile's Reach|N|To Ghost Wolf.|C|Shaman|
 A Westward Bound|QID|59948|M|52.89,56.47|Z|1409; Exile's Reach|N|From Lana Jordan.|PRE|59950|
 T Westward Bound|QID|59948|M|51.10,59.50|Z|1409; Exile's Reach|N|To Lana Jordan.|
 A Who Lurks in the Pit|QID|59949|M|51.10,59.50|Z|1409; Exile's Reach|N|From Lana Jordan.|PRE|59948|
-C Who Lurks in the Pit|QID|59949|M|52.05,60.01|QO|1<1|Z|1409; Exile's Reach|N|Head into Hrun's Barrow, follow the path on the side of the hole, and rescue the Trapped Expedition Members from the cocoons.|NC|
-C Who Lurks in the Pit|QID|59949|M|50.28,58.67|QO|1<2|Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
-C Who Lurks in the Pit|QID|59949|M|49.73,62.00|QO|1<3|Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
-C Who Lurks in the Pit|QID|59949|M|51.98,60.72|QO|1<4|Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
-C Who Lurks in the Pit|QID|59949|M|50.90,58.12|QO|1<5|Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|59949|M|52.05,60.01|QO|1>1Z|1409; Exile's Reach|N|Head into Hrun's Barrow, follow the path on the side of the hole, and rescue the Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|59949|M|50.28,58.67|QO|1>2Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|59949|M|49.73,62.00|QO|1>3Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|59949|M|51.98,60.72|QO|1>4Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|59949|M|50.90,58.12|QO|1>5Z|1409; Exile's Reach|N|Continue going into the burrow, rescuing the Trapped Expedition Members from the cocoons.|NC|
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|2|Z|1409; Exile's Reach|N|Kill Hrun to rescue Crenna Earth-Daughter. If he is not next to Crenna Earth-Daughter, wait a minute for him to respawn.|
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|QO|3|Z|1409; Exile's Reach|N|Board Crenna Earth-Daughter to ride out of the tunnel.|V|
 T Who Lurks in the Pit|QID|59949|M|52.17,55.34|Z|1409; Exile's Reach|N|To Thrall.|
@@ -132,13 +132,13 @@ A Harpy Culling|QID|59945|M|56.94,46.24|Z|1409; Exile's Reach|N|From Bo.|
 A Purge the Totems|QID|59946|M|56.94,46.24|Z|1409; Exile's Reach|N|From Bo.|
 A The Rescue of Herbert Gloomburst|QID|59944|M|56.83,46.16|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|
 C Harpy Culling|QID|59945|M|54.28,41.60|QO|1|Z|1409; Exile's Reach|N|Kill Harpies and Worgs. Don't focus on them as you will finish it in the main quest.|S|
-C Purge the Totems|QID|59946|M|58.23,44.43|QO|1<1|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|58.84,42.96|QO|1<2|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|61.25,41.33|QO|1<3|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
-C Purge the Totems|QID|59946|M|59.01,39.07|QO|1<4|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|58.23,44.43|QO|1>1H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|58.84,42.96|QO|1>2H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|61.25,41.33|QO|1>3H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|59.01,39.07|QO|1>4H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|Z|1409; Exile's Reach|N|Loot the treasure chest.|
 ;K Ogre Taskmaster|QID|ACTIVE|M|58.10,40.50|RARE|Z|1409; Exile's Reach|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
-C Purge the Totems|QID|59946|M|57.18,42.15|QO|1<5|H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
+C Purge the Totems|QID|59946|M|57.18,42.15|QO|1>5H|Z|1409; Exile's Reach|N|Burn the Harpy Totem.|
 C The Rescue of Herbert Gloomburst|QID|59944|M|54.28,41.60|QO|1|Z|1409; Exile's Reach|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|
 C Purge the Totems|QID|59946|M|61.23,41.33|NC|QO|1|Z|1409; Exile's Reach|N|Finish burning the Harpy Totems.|US|
 C Harpy Culling|QID|59945|M|54.28,41.60|Z|1409; Exile's Reach|N|Finish killing Harpies and Worgs.|US|
@@ -191,12 +191,12 @@ A Like Ogres to the Slaughter|QID|59979|M|40.25,32.56|Z|1409; Exile's Reach|N|Fr
 A Catapult Destruction|QID|59980|M|40.37,32.42|Z|1409; Exile's Reach|N|From Shuja Grimaxe.|PRE|59978|
 C Like Ogres to the Slaughter|QID|59979|M|44.31,41.87|S|Z|1409; Exile's Reach|N|Kill the Ogres as you go.|
 K Wug|QID|59981|M|44.13,37.22|QO|2|Z|1409; Exile's Reach|N|Kill Wug and loot his ward stone.|ACTIVE|59981|
-C Catapult Destruction|QID|59980|M|47.06,36.37|QO|1<1|NC|Z|1409; Exile's Reach|N|Click on the first of four catapults to destroy it.|
+C Catapult Destruction|QID|59980|M|47.06,36.37|QO|1>1NC|Z|1409; Exile's Reach|N|Click on the first of four catapults to destroy it.|
 K Jugnug|QID|59981|M|47.48,34.26|QO|1|Z|1409; Exile's Reach|N|Kill Jugnug and loot his ward stone.|ACTIVE|59981|
-C Catapult Destruction|QID|59980|M|46.13,39.55|QO|1<2|NC|Z|1409; Exile's Reach|N|Click on the second catapult to destroy it.|
-C Catapult Destruction|QID|59980|M|45.19,41.52|QO|1<3|NC|Z|1409; Exile's Reach|N|Click on the third catapult to destroy it.|
+C Catapult Destruction|QID|59980|M|46.13,39.55|QO|1>2NC|Z|1409; Exile's Reach|N|Click on the second catapult to destroy it.|
+C Catapult Destruction|QID|59980|M|45.19,41.52|QO|1>3NC|Z|1409; Exile's Reach|N|Click on the third catapult to destroy it.|
 K Grunk|QID|59981|M|42.75,41.00|QO|3|Z|1409; Exile's Reach|N|Kill Grunk and loot his ward stone.|ACTIVE|59981|
-C Catapult Destruction|QID|59980|M|43.78,42.62|QO|1<4|NC|Z|1409; Exile's Reach|N|Click on the last catapult to destroy it.|
+C Catapult Destruction|QID|59980|M|43.78,42.62|QO|1>4NC|Z|1409; Exile's Reach|N|Click on the last catapult to destroy it.|
 $ Precious Ogre Stash|QID|56088|M|41.78,42.92|Z|1409; Exile's Reach|N|Loot the treasure chest.|L|169821|
 C Like Ogres to the Slaughter|QID|59979|M|46.10,38.50|US|Z|1409; Exile's Reach|N|Finish killing the Ogres.|
 T Catapult Destruction|QID|59980|M|40.36,32.42|Z|1409; Exile's Reach|N|To Shuja Grimaxe.|

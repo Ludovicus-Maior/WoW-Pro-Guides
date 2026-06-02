@@ -92,7 +92,7 @@ A Defang the Faithless|QID|51391|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|5136
 A Break the Siege|QID|51394|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|51369|
 A Breaking Free|QID|51389|M|27.18,53.91|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51369|
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|S|N|Kill the snake people as you go.|
-C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3<1|NC|N|Click on the spire to shatter it.|
+C Shatter Spires|QID|51394|M|29.02,54.98|Z|Vol'dun|QO|3>1NC|N|Click on the spire to shatter it.|
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|S|NC|N|Click on the cannons to crush them as you go.|
 C Burn the Flags|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|S|NC|N|Click on the banners to burn them as you go.|
 C Breaking Free|QID|51389|M|30.07,53.65|Z|Vol'dun|NC|N|Rescue Private James.|
@@ -605,8 +605,8 @@ A Repurposing Their Village|QID|54310|M|31.04,29.48|Z|Nazmir|N|From Lady Jaina P
 A Dark Iron Machinations|QID|54404|M|30.96,29.44|Z|Nazmir|N|From Master Mathias Shaw.|PRE|54303|
 R Zalamar|ACTIVE|54310|M|31.64,42.29|Z|Nazmir|FLY|BFA|
 C Repurposing Their Village|QID|54310|M|32.89,47.52|Z|Nazmir|S|N|Defeat blood trolls within Zalamar.|
-C Dark Iron Machinations|QID|52785|M|32.58,44.50|Z|Nazmir|QO|1<1|NC|N|Click on the translucent mole machine.|
-C Dark Iron Machinations|QID|52785|M|32.89,47.52|Z|Nazmir|QO|1<2|NC|N|Click on the translucent mole machine.|
+C Dark Iron Machinations|QID|52785|M|32.58,44.50|Z|Nazmir|QO|1>1NC|N|Click on the translucent mole machine.|
+C Dark Iron Machinations|QID|52785|M|32.89,47.52|Z|Nazmir|QO|1>2NC|N|Click on the translucent mole machine.|
 C Dark Iron Machinations|QID|54404|M|30.78,48.33|Z|Nazmir|QO|1|NC|N|Mole machines signalled.|
 C Repurposing Their Village|QID|54310|M|33.18,46.97|Z|Nazmir|US|N|Defeat blood trolls within Zalamar.|
 T Repurposing Their Village|QID|54310|M|33.35,45.92|Z|Nazmir|N|To Blademaster Telaamon.|
