@@ -4193,7 +4193,7 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     WoWPro.why[step] = why
     if not noUpdate then
         if step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown() then
-            WoWPro:print("BUCKET_BYPASS: CompleteStep(%d) ActiveStep=%s immediate refresh", step, tostring(WoWPro.ActiveStep))
+            WoWPro:print("BUCKET_BYPASS: CompleteStep(%d) ActiveStep=%s visible=%s initLockdown=%s combat=%s immediate refresh", step, tostring(WoWPro.ActiveStep), tostring(WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()), tostring(WoWPro.InitLockdown), tostring(_G.InCombatLockdown()))
             WoWPro:RemoveMapPoint()
             WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"] = 1})
         else
