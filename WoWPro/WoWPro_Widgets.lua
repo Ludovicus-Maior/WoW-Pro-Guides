@@ -53,12 +53,13 @@ function WoWPro:CreateAction(parent, anchor)
     frame:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
     frame:SetWidth(16)
     frame:SetHeight(16)
+    frame:EnableMouse(true)
 
     local action = frame:CreateTexture()
     action.frame = frame
     action:SetAllPoints()
 
-    local tooltip = _G.CreateFrame("Frame", nil, frame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local tooltip = _G.CreateFrame("Frame", nil, _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tooltip:SetBackdrop( {
         bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
         edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -83,7 +84,12 @@ function WoWPro:CreateAction(parent, anchor)
     tooltip.text = tooltiptext
 
     frame:SetScript("OnEnter", function()
-        tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
+        tooltip:ClearAllPoints()
+        if WoWPro.GetSide(WoWPro.MainFrame) == "TOP" then
+            tooltip:SetPoint("TOPLEFT", frame, "BOTTOMRIGHT", 0, 0)
+        else
+            tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
+        end
         tooltiptext:SetHeight(125)
         tooltiptext:SetHeight(tooltiptext:GetStringHeight())
         tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
@@ -574,7 +580,6 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     local row = _G.CreateFrame("Frame", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     local tooltip = WoWPro.GuideRowTooltip
     local tooltiptext = tooltip.tooltiptext
-    tooltip:SetParent(parent)
     tooltip:SetFrameLevel(row:GetFrameLevel() + 1)
     row:SetPoint("LEFT", 12, 0)
     row:SetHeight(rowHeight or 25)
@@ -582,22 +587,31 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     row.check = WoWPro:CreateCheck(row)
     row.action = WoWPro:CreateAction(row, row.check)
     row.action.frame:SetScript("OnEnter", function()
-        if row.index and WoWPro.why and WoWPro.why[row.index] then
-            tooltip:SetPoint("BOTTOMLEFT", row.action.frame, "TOPRIGHT", 2, -2)
+        if row.index then
+            tooltip:ClearAllPoints()
+            if WoWPro.GetSide(WoWPro.MainFrame) == "TOP" then
+                tooltip:SetPoint("TOPLEFT", row.action.frame, "BOTTOMRIGHT", 2, 2)
+            else
+                tooltip:SetPoint("BOTTOMLEFT", row.action.frame, "TOPRIGHT", 2, -2)
+            end
             tooltiptext:SetHeight(125)
             -- Step Tooltip
-            if WoWPro.active[row.index] and not WoWPro.QID[row.index] then
+            if WoWPro.why and WoWPro.why[row.index] and WoWPro.active[row.index] and not WoWPro.QID[row.index] then
                 tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]),
                                                                      tostring(WoWPro.why[row.index])))
-            elseif not WoWPro.active[row.index] and WoWPro.QID[row.index] then
+            elseif WoWPro.why and WoWPro.why[row.index] and not WoWPro.active[row.index] and WoWPro.QID[row.index] then
                 tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
                                                                      tostring(WoWPro.why[row.index])))
-            elseif WoWPro.active[row.index] and  WoWPro.QID[row.index] then
+            elseif WoWPro.why and WoWPro.why[row.index] and WoWPro.active[row.index] and  WoWPro.QID[row.index] then
                 tooltiptext:SetText(("Step %d/QID %s/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
                                                                             tostring(WoWPro.active[row.index]),
                                                                             tostring(WoWPro.why[row.index])))
-            else
+            elseif WoWPro.why and WoWPro.why[row.index] then
                 tooltiptext:SetText(("Step %d: %s"):format(row.index, tostring(WoWPro.why[row.index])))
+            elseif row.action and row.action.tooltip and row.action.tooltip.text then
+                tooltiptext:SetText(tostring(row.action.tooltip.text:GetText() or ""))
+            else
+                tooltiptext:SetText(("Step %d"):format(row.index))
             end
             tooltiptext:SetHeight(tooltiptext:GetStringHeight())
             tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
