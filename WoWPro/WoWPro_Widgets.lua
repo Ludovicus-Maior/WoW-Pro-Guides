@@ -58,7 +58,7 @@ function WoWPro:CreateAction(parent, anchor)
     action.frame = frame
     action:SetAllPoints()
 
-    local tooltip = _G.CreateFrame("Frame", nil, frame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local tooltip = _G.CreateFrame("Frame", nil, _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tooltip:SetBackdrop( {
         bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
         edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -69,7 +69,9 @@ function WoWPro:CreateAction(parent, anchor)
     tooltip:SetHeight(125)
     tooltip:SetWidth(64)
     tooltip:SetAlpha(1)
-    tooltip:SetFrameStrata("TOOLTIP")
+    tooltip:SetFrameStrata("DIALOG")
+    tooltip:SetFrameLevel(100)
+    tooltip:SetClampedToScreen(true)
     tooltip:Hide()
 
     local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
@@ -77,16 +79,21 @@ function WoWPro:CreateAction(parent, anchor)
     tooltiptext:SetPoint("RIGHT", -10, 0)
     tooltiptext:SetJustifyH("LEFT")
     tooltiptext:SetJustifyV("TOP")
-    tooltiptext:SetWidth(50)
+    tooltiptext:SetWidth(160)
     tooltiptext:SetAlpha(1)
     tooltiptext:SetText("")
     tooltip.text = tooltiptext
 
     frame:SetScript("OnEnter", function()
+        local width = tooltiptext:GetStringWidth() + 20
+        if width < 80 then width = 80 end
+        if width > 260 then width = 260 end
+        tooltiptext:SetWidth(width - 20)
+        tooltip:SetWidth(width)
+
         tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
-        tooltiptext:SetHeight(125)
         tooltiptext:SetHeight(tooltiptext:GetStringHeight())
-        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
+        tooltip:SetHeight(tooltiptext:GetStringHeight() + 20)
         tooltip:Show()
     end)
     frame:SetScript("OnLeave", function()
@@ -553,7 +560,7 @@ do
     tooltip:SetBackdropColor(0, 0, 0, 0.7)
     tooltip:SetHeight(125)
     tooltip:SetWidth(512)
-    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
+    tooltip:SetFrameStrata("DIALOG")
     tooltip:SetFrameLevel(100)
 
     tooltip:Hide()
@@ -574,8 +581,9 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     local row = _G.CreateFrame("Frame", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     local tooltip = WoWPro.GuideRowTooltip
     local tooltiptext = tooltip.tooltiptext
-    tooltip:SetParent(parent)
-    tooltip:SetFrameLevel(row:GetFrameLevel() + 1)
+    tooltip:SetParent(_G.UIParent)
+    tooltip:SetFrameStrata("DIALOG")
+    tooltip:SetFrameLevel(100)
     row:SetPoint("LEFT", 12, 0)
     row:SetHeight(rowHeight or 25)
 
@@ -626,7 +634,7 @@ function WoWPro:CreateErrorLog(title)
     ErrorLog = _G.CreateFrame("Frame", "WoWProErrorLog", _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     ErrorLog:Hide()
     ErrorLog:SetPoint("CENTER", "UIParent", "CENTER")
-    ErrorLog:SetFrameStrata("TOOLTIP")
+    ErrorLog:SetFrameStrata("FULLSCREEN_DIALOG")
     ErrorLog:SetHeight(512)
     ErrorLog:SetWidth(768)
     ErrorLog:SetBackdrop({
