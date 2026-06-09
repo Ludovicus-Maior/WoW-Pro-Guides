@@ -7,10 +7,10 @@ WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
-D You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
-D You silly Demon Hunter|QID|24764|C|Demon Hunter|N|Do not bother with this zone.  There are no quests for YOU.|
-D You silly Paladin|QID|24764|C|Paladin|N|Do not bother with this zone.  There are no quests for YOU.|
-D You silly Evoker|QID|24764|C|Evoker|N|Do not bother with this zone.  There are no quests for YOU.|
+D You silly Death Knight|QID|24764|N|Do not bother with this zone.  There are no quests for YOU.|C|DeathKnight|
+D You silly Demon Hunter|QID|24764|N|Do not bother with this zone.  There are no quests for YOU.|C|Demon Hunter|
+D You silly Paladin|QID|24764|N|Do not bother with this zone.  There are no quests for YOU.|C|Paladin|
+D You silly Evoker|QID|24764|N|Do not bother with this zone.  There are no quests for YOU.|C|Evoker|
 A The Rise of the Darkspear|QID|31159|C|Monk|M|42.82,53.44|Z|463; Echo Isles|N|From Jin'thala.|
 A The Rise of the Darkspear|QID|24764|C|Druid|M|42.82,53.44|Z|463; Echo Isles|N|From Jin'thala.|
 A The Rise of the Darkspear|QID|24750|C|Mage|M|42.82,53.44|Z|463; Echo Isles|N|From Jin'thala.|
@@ -158,25 +158,26 @@ A Crab Fishin'|QID|25037|PRE|24781|C|Hunter|M|60.53,62.90|Z|463; Echo Isles|N|Fr
 C Crab Fishin'|QID|25037|M|65.89,43.37|Z|463; Echo Isles|N|Kill and loot the Pygmy Surf Crawlers for the Fresh Crawler Meat.|
 T Crab Fishin'|QID|25037|M|60.53,62.90|Z|463; Echo Isles|N|To Tora'jin.|
 T Moraya|QID|25064|M|56.83,63.68|Z|463; Echo Isles|N|To Moraya.|
+
 A A Troll's Truest Companion|QID|24622|PRE|25064|M|56.83,63.68|Z|463; Echo Isles|N|From Moraya.|
 T A Troll's Truest Companion|QID|24622|M|45.58,85.11|Z|463; Echo Isles|N|To Kijara, who wanders a bit.|
 A Saving the Young|QID|24623|PRE|24622|M|45.58,85.11|Z|463; Echo Isles|N|From Kijara.|
 A Mercy for the Lost|QID|24624|PRE|24622|M|45.72,85.00|Z|463; Echo Isles|N|From Tegashi.|
 A Consort of the Sea Witch|QID|24625|PRE|24622|M|45.72,85.00|Z|463; Echo Isles|N|From Tegashi.|
-C Saving the Young|QID|24623|U|52283|S|M|37.02,68.58|Z|463; Echo Isles|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|
-C Mercy for the Lost|QID|24624|S|M|34.59,66.26|Z|463; Echo Isles|N|Kill the Corrupted Bloodtalon Raptors.|
+C Saving the Young|QID|24623|M|37.02,68.58|Z|463; Echo Isles|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|S|U|52283|
+C Mercy for the Lost|QID|24624|M|34.59,66.26|Z|463; Echo Isles|N|Kill the Corrupted Bloodtalon Raptors.|S|
 C Consort of the Sea Witch|QID|24625|M|37.02,68.58|Z|463; Echo Isles|N|Kill Naj'tess and retrieve his orb. Any Hatchlings you have with you will attack as well.|
-C Saving the Young|QID|24623|U|52283|US|M|37.02,68.58|Z|463; Echo Isles|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|
-C Mercy for the Lost|QID|24624|US|M|34.59,66.26|Z|463; Echo Isles|N|Finish killing the Corrupted Bloodtalon Raptors.|
+C Saving the Young|QID|24623|M|37.02,68.58|Z|463; Echo Isles|N|Use the Bloodtalon Whistle to rescue the Lost Bloodtalon Hatchlings.|NC|U|52283|US|
+C Mercy for the Lost|QID|24624|M|34.59,66.26|Z|463; Echo Isles|N|Finish killing the Corrupted Bloodtalon Raptors.|US|
 T Saving the Young|QID|24623|M|45.58,85.11|Z|463; Echo Isles|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|45.72,85.00|Z|463; Echo Isles|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|45.72,85.00|Z|463; Echo Isles|N|To Tegashi.|
 A Young and Vicious|QID|24626|PRE|24623&24624&24625|M|45.58,85.11|Z|463; Echo Isles|N|From Kijara.|
-C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|48.32,62.22|Z|463; Echo Isles|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|QO|1|NC|
-C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|53.18,64.74|Z|463; Echo Isles|N|Ride him to the raptor pens near Darkspear Hold.|QO|2|NC|
+C Young and Vicious|QID|24626|QO|1|M|48.32,62.22|Z|463; Echo Isles|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|NC|T|Swiftclaw|U|50053|
+C Young and Vicious|QID|24626|QO|2|M|53.18,64.74|Z|463; Echo Isles|N|Ride him to the raptor pens near Darkspear Hold.|NC|T|Swiftclaw|U|50053|
 T Young and Vicious|QID|24626|M|56.83,63.68|Z|463; Echo Isles|N|To Moraya.|
 A Breaking the Line|QID|25035|PRE|24626|M|58.97,66.85|Z|463; Echo Isles|N|From Tortunga.|
-R Spitescale Cove|QID|25035|M|59.09,66.92|Z|463; Echo Isles|N|Talk to Jornun, right behind Tortunga for a ride to Spitescale Cove.|CHAT|ACTIVE|25035|
+R Spitescale Cove|ACTIVE|25035|M|59.09,66.92|Z|463; Echo Isles|N|Talk to Jornun, right behind Tortunga for a ride to Spitescale Cove.|CHAT|
 T Breaking the Line|QID|25035|M|58.90,23.08|Z|463; Echo Isles|N|To Morakki.|
 A No More Mercy|QID|24812|PRE|25035|M|58.90,23.08|Z|463; Echo Isles|N|From Morakki.|
 A Territorial Fetish|QID|24813|PRE|25035|M|58.90,23.08|Z|463; Echo Isles|N|From Morakki.|
@@ -187,9 +188,9 @@ T No More Mercy|QID|24812|M|58.90,23.08|Z|463; Echo Isles|N|To Morakki.|
 T Territorial Fetish|QID|24813|PRE|24812|M|58.90,23.08|Z|463; Echo Isles|N|To Morakki.|
 A An Ancient Enemy|QID|24814|PRE|24812&24813|M|58.90,23.08|Z|463; Echo Isles|N|From Morakki.|
 ; The waypoint arrow points towards the cave. A new player may not know that this is on top of the cave and not inside.
-C An Ancient Enemy|QID|24814|M|62.85,23.92;62.23,18.00|CC|Z|463; Echo Isles|N|Follow the waypoints to Vol'jin, who is on top of the cave, then tell him you're ready.|CHAT|QO|1|
-C An Ancient Enemy|QID|24814|M|60.29,16.97|Z|463; Echo Isles|N|Wait for Zar'jira, the Sea Witch to become attackable, then kill her.|QO|2|
-R Darkspear Hold|QID|24814|M|61.37,16.19|Z|463; Echo Isles|N|Wait for the dialog to finish, then speak with Vanira for a teleport back to Darkspear Hold.|ACTIVE|24814|CHAT|
+C An Ancient Enemy|QID|24814|QO|1|M|62.85,23.92;62.23,18.00|CC|Z|463; Echo Isles|N|Follow the waypoints to Vol'jin, who is on top of the cave, then tell him you're ready.|CHAT|
+C An Ancient Enemy|QID|24814|QO|2|M|60.29,16.97|Z|463; Echo Isles|N|Wait for Zar'jira, the Sea Witch to become attackable, then kill her.|
+R Darkspear Hold|ACTIVE|24814|M|61.37,16.19|Z|463; Echo Isles|N|Wait for the dialog to finish, then speak with Vanira for a teleport back to Darkspear Hold.|CHAT|
 T An Ancient Enemy|QID|24814|M|61.57,65.85|Z|463; Echo Isles|N|To Vol'jin.|
 A Sen'jin Village|QID|25073|LEAD|25167|PRE|24814|M|61.57,65.85|Z|463; Echo Isles|N|From Vol'jin.|
 T Sen'jin Village|QID|25073|M|55.95,74.72|Z|1; Durotar|N|To Master Gadrin.|
