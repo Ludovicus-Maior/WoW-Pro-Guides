@@ -113,7 +113,7 @@ C Sharing the Land|QID|745|M|53.60,73.13;48.56,73.11|CN|Z|1412; Mulgore|N|Kill t
 ; lv 7
 C Dangers of the Windfury|QID|743|M|62.22,71.05|Z|1412; Mulgore|L|4751 8|ITEM|4751|N|any type of Windfury Harpy.\n[color=FF0000]NOTE: [/color]The Wind Witches can be annoying.|
 R Camp Taurajo|AVAILABLE|749|M|43.73,58.63|Z|1413; The Barrens|N|While you're in the area, run to Camp Taurajo to get the flight point.\n[color=FF0000]NOTE: [/color]Follow the base of the mountain around to the road avoiding the level 9+ wolves.|TAXI|-Camp Taurajo|
-f Camp Taurajo|AVAILABLE|749|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point at Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+f Camp Taurajo|AVAILABLE|749|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point at Omusa Thunderhorn.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Camp Taurajo|
 A The Ravaged Caravan|QID|749|M|69.71,60.63|Z|1412; Mulgore|N|From Morin Cloudstalker.\n[color=FF0000]NOTE: [/color]He patrols the road between the intersection and the Barrens border.|
 T The Ravaged Caravan|QID|749|M|53.74,48.17|Z|1412; Mulgore|N|Clear the area and click on the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|PRE|749|M|53.74,48.17|Z|1412; Mulgore|N|From the Sealed Supply Crate.|
@@ -178,7 +178,7 @@ A Taming the Beast|QID|6087|PRE|6061|M|47.82,55.68|Z|1412; Mulgore|N|From Yaw Sh
 C Taming the Beast|QID|6087|M|47.07,49.26|Z|1412; Mulgore|N|Use the Taming Rod on an Prairie Stalker north of the Bloodhoof Village.|U|15915|
 T Taming the Beast|QID|6087|M|47.82,55.68|Z|1412; Mulgore|N|To Yaw Sharpmane.|
 A Taming the Beast|QID|6088|PRE|6087|M|47.82,55.68|Z|1412; Mulgore|N|From Yaw Sharpmane.|R|Tauren|C|Hunter|
-C Taming the Beast|QID|6088|M|48.82,46.57|Z|1412; Mulgore|N|Use the Taming Rod on a Swoop north of the Bloodhoof Village.NOTE You may want to wait for the first Swoop Stun before you start the taming.|U|15916|
+C Taming the Beast|QID|6088|M|48.82,46.57|Z|1412; Mulgore|N|Use the Taming Rod on a Swoop north of the Bloodhoof Village.\n[color=FF0000]NOTE: [/color]You may want to wait for the first Swoop Stun before you start the taming.|U|15916|
 T Taming the Beast|QID|6088|M|47.82,55.68|Z|1412; Mulgore|N|To Yaw Sharpmane.|
 A Training the Beast|QID|6089|PRE|6088|M|47.82,55.68|Z|1412; Mulgore|N|From Yaw Sharpmane.|R|Tauren|C|Hunter|
 ; ---
@@ -187,7 +187,7 @@ A Preparation for Ceremony|QID|744|M|37.69,59.57|Z|1456; Thunder Bluff|N|From Ey
 ; --- Complete Hunter {Tame pet quest chain}
 T Training the Beast|QID|6089|M|57.29,89.75|Z|1456; Thunder Bluff|N|To Holt Thunderhorn.|
 ; ---
-T Journey into Thunder Bluff|QID|775|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cairne Bloodhoof, High Chieftain.|
+T Journey into Thunder Bluff|QID|775|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cairne Bloodhoof, High Chieftain (top floor, center tier).|
 A Rites of the Earthmother|QID|776|PRE|775|M|60.26,51.69|Z|1456; Thunder Bluff|N|From Cairne Bloodhoof.|
 A Testing an Enemy's Strength|QID|5723|M|61.30,40.38;70.53,31.77|Z|1456; Thunder Bluff|CC|ELITE|N|[color=E6CC80]Dungeon: 'Ragefire Chasm'[/color]\nFrom Rahauro.|DUNGEON|
 A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|1456; Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: 'Ragefire Chasm'[/color]\nFrom Rahauro.|DUNGEON|
@@ -205,56 +205,58 @@ A Back to Thunder Bluff|QID|5932|PRE|5930|M|56.21,30.62|Z|1450; Moonglade|N|From
 F Thunder Bluff|QID|5932|M|44.29,45.85|Z|1450; Moonglade|N|Speak with Bumthen Plainswind to fly back to Thunder Bluff.\n[color=FF0000]NOTE: [/color]Go grab a coffee; it's a 10 minute flight.\nIt's easier than hearthing and running from Bloodhoof.|C|Druid|
 T Back to Thunder Bluff|QID|5932|M|76.47,27.26|Z|1456; Thunder Bluff|N|To Turak Runetotem.|
 A Body and Heart|QID|6002|PRE|5932|M|76.47,27.26|Z|1456; Thunder Bluff|N|From Turak Runetotem.|C|Druid|
-F Camp Taurajo|QID|6002|M|46.98,49.84|Z|1456; Thunder Bluff|C|Druid|
-R Moonkin Stone|ACTIVE|6002|M|42.00,60.90|CS|Z|1413; The Barrens|N|Run to the Moonkin Stone in the alcove behind the house just south of Camp Taurajo.NOTE Avoid the level 20 Thunderheads that roam the area by staying on the road until you get to the house.|
-U Body and Heart|ACTIVE|6002|M|42.00,60.90|Z|1413; The Barrens|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw.NOTE If you die, run back as fast you can because if Lunaclaw despawns, you'll have to go back to Turak Runetotem in Thunder Bluff, abandon the quest and restart it.|U|15710|O|
+F Camp Taurajo|ACTIVE|6002|M|46.98,49.84|Z|1456; Thunder Bluff|N|Fly to Camp Taurajo.|C|Druid|TAXI|Camp Taurajo|
+R Camp Taurajo|ACTIVE|6002|M|43.73,58.63|Z|1413; The Barrens|N|Run to Camp Taurajo.\n[color=FF0000]NOTE: [/color]Now you know why you were told to get it earlier.|C|Druid|TAXI|-Camp Taurajo|
+R Moonkin Stone|ACTIVE|6002|M|42.00,60.90|CS|Z|1413; The Barrens|N|Run to the Moonkin Stone in the alcove behind the house just south of Camp Taurajo.\n[color=FF0000]NOTE: [/color]Avoid the level 20 Thunderheads that roam the area by staying on the road until you get to the house.|
+N Cenarion Lunardust|ACTIVE|6002|N|This item is consumed on use and the only way to get more is to abandon the quest and go back to Turak Runetotem in Thunder Bluff to get it again.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+U Body and Heart|ACTIVE|6002|M|42.00,60.87|Z|1413; The Barrens|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw.\n[color=FF0000]NOTE: [/color]If you die, get back before Lunaclaw despawns and you're screwed.|U|15710|O|
 C Body and Heart|QID|6002|M|42.00,60.90|CC|Z|1413; The Barrens|N|Kill Lunaclaw and speak with Lunaclaw Spirit before he despawns.|
-F Thunder Bluff|QID|6002|M|44.44,59.15|Z|1413; The Barrens|C|Druid|
+F Thunder Bluff|QID|6002|M|44.44,59.15|Z|1413; The Barrens|N|Fly back to Thunder Bluff.|C|Druid|
 T Body and Heart|QID|6002|M|76.47,27.26|Z|1456; Thunder Bluff|N|To Turak Runetotem.|
+= Demoralizing Roar|PRE|6002|M|76.47,27.26|Z|1456; Thunder Bluff|N|Now that you have Bear form, you can learn Demoralizing Roar from your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Demoralizing Roar; 99|C|Druid|
 ; ---
 
 R Exit Thunder Bluff|QID|759|M|67.42,28.69;50.85,32.38|CS|Z|1456; Thunder Bluff|N|Use the lifts on the north side to exit Thunder Bluff.|
-C Wildmane Totem|QID|759|M|50.91,14.50|Z|1412; Mulgore|L|4803 8|N|Prairie Wolf Alphas.|S|
-C The Hunter's Way|QID|861|M|50.91,14.50|Z|1412; Mulgore|L|5203 4|N|Flatland Prowlers.|S|
-C Preparation for Ceremony|QID|744|QO|1;2|M|51.87,6.26;54.82,11.00;56.06,15.82|CC|Z|1412; Mulgore|N|Kill and loot Windfury Matriarchs for the Bronze Feathers and Sorceresses for the Azure Feathers at the three locations.\n[color=FF0000]NOTE: [/color]Watch for Sister Hatelash (lv 11 rare elite) around the 2nd camp.|
+C Wildmane Totem|QID|759|M|50.91,14.50|Z|1412; Mulgore|L|4803 8|ITEM|4803|N|Prairie Wolf Alphas.|S|
+C The Hunter's Way|QID|861|M|50.91,14.50|Z|1412; Mulgore|L|5203 4|ITEM|5203|N|Flatland Prowlers.|S|
+C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CC|Z|1412; Mulgore|L|4752 6;4753 6|ITEM|4752;4753|N|Windfury Matriarchs for the Bronze Feathers and Sorceresses for the Azure Feathers at the three locations.\n[color=FF0000]NOTE: [/color]Watch for Sister Hatelash (lv 11 rare elite) around the 2nd camp.|
 ; lv 11
-C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CC|Z|1412; Mulgore|L|4841|N|Arra'chea.NOTE He travels clockwise through the waypoints.\nFind a clear spot to attack him.|T|Arra'chea|
-C Wildmane Totem|QID|759|M|50.91,14.50|Z|1412; Mulgore|L|4803 8|N|Prairie Wolf Alphas.NOTE They are spread all over the area.|US|
-C The Hunter's Way|QID|861|QO|1|M|53.19,34.87|Z|1412; Mulgore|L|5203 4|N|Flatland Prowlers.NOTE They are spread all over the area.|US|
+C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CC|Z|1412; Mulgore|L|4841|N|Arra'chea.\n[color=FF0000]NOTE: [/color]He travels clockwise through the waypoints.\nFind a clear spot to attack him.|T|Arra'chea|
+C Wildmane Totem|QID|759|M|50.91,14.50|Z|1412; Mulgore|L|4803 8|N|Prairie Wolf Alphas.\n[color=FF0000]NOTE: [/color]They are spread all over the area.|US|
+C The Hunter's Way|QID|861|QO|1|M|53.19,34.87|Z|1412; Mulgore|L|5203 4|N|Flatland Prowlers.\n[color=FF0000]NOTE: [/color]They are spread all over the area.|US|
 R The Venture Co. Mine|ACTIVE|764|M|60.58,49.77|Z|1412; Mulgore|N|Run to the Venture Co. Mine.|
 C The Venture Co.|QID|764|M|64.29,42.24|Z|1412; Mulgore|N|Kill the required Venture Co. Workers and Supervisors.|S|
 C Supervisor Fizsprocket|QID|765|M|61.45,47.22;64.78,43.38|CS|Z|1412; Mulgore|L|4819|N|Supervisor Fizsprocket (lv 12) after you carefully work your way into the mine.|
 C The Venture Co.|QID|764|M|60.47,49.65|Z|1412; Mulgore|N|Kill the required Venture Co. Workers and Supervisors.|US|
-T The Venture Co.|QID|764|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker on the road.\n[color=FF0000]NOTE: [/color]Start at the intersection unless you know where to begin looking for him.|T|Morin Cloudstalker|
-T Supervisor Fizsprocket|QID|765|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker.|
-T Wildmane Totem|QID|759|M|48.53,60.39|Z|1412; Mulgore|N|To Mull Thunderhorn in Bloodhoof Village.|
+T The Venture Co.|QID|764|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker on the road.\n[color=FF0000]NOTE: [/color]Start at the intersection unless you know where to begin looking for him.|T|Morin Cloudstalker| ;625 exp
+T Supervisor Fizsprocket|QID|765|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker.| ;900 exp
+T Wildmane Totem|QID|759|M|48.53,60.39|Z|1412; Mulgore|N|To Mull Thunderhorn in Bloodhoof Village.| ;850 exp
 ; lv 12
 A Wildmane Cleansing|QID|760|PRE|759|M|48.53,60.39|Z|1412; Mulgore|N|From Mull Thunderhorn.|R|Tauren|
-R Thunder Bluff|QID|744|M|36.11,28.92|Z|1412; Mulgore|N|Run to Thunder Bluff and go up the lift.|S|
-L Level 12|AVAILABLE|860|M|PLAYER|CC|N|Grind until you're halfway to level 12.|LVL|11;-2975|
-R Thunder Bluff|QID|744|M|36.11,28.92|Z|1412; Mulgore|N|Run to Thunder Bluff and go up the lift.|US|
-T Preparation for Ceremony|QID|744|M|37.69,59.57|Z|1456; Thunder Bluff|N|To Eyahn Eagletalon.|
-T The Hunter's Way|QID|861|M|61.52,80.92|Z|1456; Thunder Bluff|N|To Melor Stonehoof.|
+R Thunder Bluff|ACTIVE|744|M|36.11,28.92|Z|1412; Mulgore|N|Run to Thunder Bluff and go up the lift.|S|
+L Level 12|AVAILABLE|860|M|PLAYER|CC|N|Grind until you're within 12.5 bubbles of to level 12.|LVL|11;-5350|
+R Thunder Bluff|ACTIVE|744|M|36.11,28.92|Z|1412; Mulgore|N|Run to Thunder Bluff and go up the lift.|US|
+T Preparation for Ceremony|QID|744|M|37.69,59.57|Z|1456; Thunder Bluff|N|To Eyahn Eagletalon.| ;875 exp
+T The Hunter's Way|QID|861|M|61.52,80.92|Z|1456; Thunder Bluff|N|To Melor Stonehoof.| ;850 exp
 A Sergra Darkthorn|QID|860|PRE|861|M|61.52,80.92|Z|1456; Thunder Bluff|N|From Melor Stonehoof.|
-T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cairne Bloodhoof.|
+T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cairne Bloodhoof.| ;1250 exp
 = Level 12 Training|ACTIVE|760|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Thunder Bluff|
 R Wildmane Water Well|ACTIVE|760|M|42.31,15.37|Z|1412; Mulgore|N|Use the lifts on the north side to exit Thunder Bluff and head north.|
 C Wildmane Cleansing|QID|760|M|42.65,14.23|Z|1412; Mulgore|N|Clear your way to the well and use the Wildmane Totem.\n \n[color=FF0000]NOTE: [/color]Pulling the Supervisor will draw EVERYONE around him.|U|5416|NC|
 H Bloodhoof Village|ACTIVE|760|M|46.62,61.09|Z|1412; Mulgore|N|Hearth back to Bloodhoof Village.|
 T Wildmane Cleansing|QID|760|M|48.53,60.39|Z|1412; Mulgore|N|To Mull Thunderhorn.|
-R Camp Taurajo|QID|886|M|43.73,58.63|Z|1413; The Barrens|N|Run to Camp Taurajo.NOTE Unless you really want to run back to Thunder Bluff and fly there.|TAXI|Camp Taurajo|
+R Camp Taurajo|ACTIVE|886|M|43.73,58.63|Z|1413; The Barrens|N|Run to Camp Taurajo.\n[color=FF0000]NOTE: [/color]Unless you really want to run back to Thunder Bluff and fly there.|IZ|-The Crossroads|
 ; ** In case they didn't do it earlier when the guide told them to do it. - Hendo72
-R Camp Taurajo|QID|886|M|43.73,58.63|Z|1413; The Barrens|N|Run to Camp Taurajo.|TAXI|-Camp Taurajo|
-f Camp Taurajo|QID|886|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+f Camp Taurajo|ACTIVE|886|M|44.44,59.15|Z|1413; The Barrens|N|Get the flightpoint from Omusa Thunderhorn.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Camp Taurajo|
 A Journey to the Crossroads|QID|854|M|44.88,58.61|Z|1413; The Barrens|N|From Kirge Sternhorn.|R|Tauren|
-R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|1413; The Barrens|N|Run to the Crossroads while staying on the road.\n[color=FF0000]NOTE: [/color]If you stray from the road, you WILL die. Some of the mobs will be up to 5+ levels above you.|
-N Available quests at The Crossroads|AVAILABLE|6364|Z|1413; The Barrens|N|You may find multiple quests available for you to pick up around The Crossroads. We're only turning in and picking up specific ones.\nThis is because we are following a specific quest path and the other quests won't be done until we return in "The Barrens" guide.\n\nManually check this step off to continue.|
+R The Crossroads|ACTIVE|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|1413; The Barrens|N|Run to the Crossroads while staying on the road.\n[color=FF0000]NOTE: [/color]If you stray from the road, you WILL die. Some of the mobs will be up to 5+ levels above you.|
+N Available quests at The Crossroads|AVAILABLE|6364|Z|1413; The Barrens|N|You may find multiple quests available for you to pick up around The Crossroads. We're only turning in and picking up specific ones.\nThis is because we are following a specific quest path and the other quests won't be done until we return in "The Barrens" guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T The Barrens Oases|QID|886|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.|
 A The Forgotten Pools|QID|870|PRE|886|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|
 T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|1413; The Barrens|N|To Sergra Darkthorn.|
 A Plainstrider Menace|QID|844|PRE|860|M|52.23,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|
 T Journey to the Crossroads|QID|854|M|51.50,30.87|Z|1413; The Barrens|N|To Thork.|
-f Crossroads|QID|6361|M|51.50,30.33|Z|1413; The Barrens|N|At Devrak.|TAXI|-Crossroads|
+f Crossroads|QID|6361|M|51.50,30.33|Z|1413; The Barrens|N|At Devrak.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Crossroads|
 A A Bundle of Hides|QID|6361|M|51.21,29.05|Z|1413; The Barrens|N|From Jahan Hawkwing.|R|Tauren|
 T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|1413; The Barrens|N|To Devrak.|
 A Ride to Thunder Bluff|QID|6362|PRE|6361|M|51.50,30.33|Z|1413; The Barrens|N|From Devrak.|R|Tauren|
@@ -263,14 +265,15 @@ T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|1456; Thunder Bluff|N|To Ahanu,
 A Tal the Wind Rider Master|QID|6363|PRE|6362|M|45.73,55.83|Z|1456; Thunder Bluff|N|From Ahanu.|R|Tauren|
 T Tal the Wind Rider Master|QID|6363|M|46.98,49.84|Z|1456; Thunder Bluff|N|To Tal at the top of the tower.|
 A Return to Jahan|QID|6364|PRE|6363|M|46.98,49.84|Z|1456; Thunder Bluff|N|From Tal.|R|Tauren|
-F Crossroads|QID|6364|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly back to The Crossroads.|R|Tauren|
+F Crossroads|QID|6364|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly back to The Crossroads.|R|Tauren|TZ|The Crossroads|
 T Return to Jahan|QID|6364|M|51.21,29.05|Z|1413; The Barrens|N|To Jahan Hawkwing.|
 
 N A very long run|AVAILABLE|445|Z|1412; Mulgore|N|Because you are Tauren, you won't have the flightpath to Orgrimmar and the trek from The Crossroads to Orgrimmar is a long run.\nThe simplest route is to just stick to the road and follow the signs.\nIt's faster, and a little more perilous, to take shortcuts to straighten out the route.\nI have found a route that it is a little faster and less likely to get you killed.\n[color=FF0000]NOTE: [/color]Manually check this step off to get started.|R|Tauren|TAXI|-Orgrimmar|
-R Far Watch Outpost|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|1413; The Barrens|N|Take the north road out of The Crossroads to the first intersection. Follow the road east to Far Watch Outpost.|R|Tauren|TAXI|-Orgrimmar|
+R Far Watch Post|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|1413; The Barrens|N|Follow Gold Road north to the first intersection and continue east to Far Watch Post from there.|R|Tauren|TAXI|-Orgrimmar|
 
 ; --- Tauren Warrior class quest
-N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.NOTECONT|R|Tauren|C|Warrior|
+N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
+|R|Tauren|C|Warrior|
 T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|R|Tauren|C|Warrior|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|1411; Durotar|N|Cross the bridge over the river and run to the entrance of Thunder Ridge.|R|Tauren|C|Warrior|
@@ -295,11 +298,11 @@ T Conscript of the Horde|QID|840|M|62.26,19.37|Z|1412; Mulgore|N|To Kargal Battl
 A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|1412; Mulgore|N|From Kargal Battlescar.|C|Shaman|
 ; ---
 
-R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|CC|Z|1413; The Barrens|N|From here, take the road north to the bend before Boulder Lode Mine.|
-R Orgrimmar|AVAILABLE|445|M|52.42,84.43|Z|1454; Orgrimmar|N|At this point, you can either take your chances with the level 15+ mobs and make a run straight north for the west entrance to Orgrimmar (not recommended), or cross the Southfury River and head for the south entrance.NOTE We'll be crossing the river and your best bet is to stick to the shoreline, following it north to the mountain wall and then east to the entrance. The mobs in this area should be level 10ish.|
-f Orgrimmar|AVAILABLE|445|M|45.11,63.89|Z|1454; Orgrimmar|N|Get the FP from Doras at the top of the tower.|TAXI|-1454; Orgrimmar|
-R Leave Orgrimmar|AVAILABLE|445|M|45.56,12.20|Z|1411; Durotar|CC|N|Exit Orgrimmar through the south gate.|
-N READ FIRST: Druids|AVAILABLE|445|Z|1412; Mulgore|N|[color=FF0000]NOTE: [/color]Unfortunately, there are no Druid class trainers outside of Kalimdor. Therefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar. Either way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\nNOTECONT|C|Druid|
-
+R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|CC|Z|1413; The Barrens|TZ|1454; Orgrimmar|N|From here, take the road north to the bend before Boulder Lode Mine.|TAXI|-Orgrimmar|
+R Orgrimmar|AVAILABLE|445|M|52.42,84.43|Z|1454; Orgrimmar|N|At this point, you can either take your chances with the level 15+ mobs and make a run straight north for the west entrance to Orgrimmar (not recommended), or cross the Southfury River and head for the south entrance.\n[color=FF0000]NOTE: [/color]We'll be crossing the river and your best bet is to stick to the shoreline, following it north to the mountain wall and then east to the entrance. The mobs in this area should be level 10ish.|TAXI|-Orgrimmar|
+f Orgrimmar|AVAILABLE|445|M|45.11,63.89|Z|1454; Orgrimmar|N|Get the FP from Doras at the top of the tower.|TAXI|-Orgrimmar|
+R Leave Orgrimmar|AVAILABLE|445|M|45.56,12.20|Z|1411; Durotar|TZ|1411; Durotar|N|Exit Orgrimmar through the south gate.|
+N Druid Trainers|AVAILABLE|445|N|Unfortunately, there are no Druid trainers outside of Kalimdor.\n \nTherefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar.\n \nEither way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\n \nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
+b Tirisfal Glades|AVAILABLE|445|M|50.89,13.86|Z|1411; Durotar|N|Take the Zeppelin to Tirisfal Glades (Undercity).|
 ]]
 end)
