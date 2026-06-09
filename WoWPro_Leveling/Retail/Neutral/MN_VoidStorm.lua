@@ -373,9 +373,9 @@ T Warmth for the Soul|QID|90920|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Shepherd of Fear|QID|90923|PRE|90920|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. Click on the blue "cloud" to make it spawn.|RANK|2|
 C Shepherd of Fear|QID|90923|QO|1|M|54.09,44.64|Z|2405; Voidstorm|H|S|N|Follow the trail of void to infuse the blade with void essense. You can ignore the Tasty treats.|
-C The Fallen Wake|QID|90922|QO|1<1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
-C The Fallen Wake|QID|90922|QO|1<2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
-C The Fallen Wake|QID|90922|QO|1<3|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>3|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
 C Shepherd of Fear|QID|90923|QO|2|M|54.09,44.64|Z|2405; Voidstorm|CHAT|N|Infused blade with more Unstable Light.|;i wonder what happens if you choose do nothing...
 C The Fallen Wake|QID|90922|QO|2|M|50.46,45.44|Z|2405; Voidstorm|H|N|Free Glowering Shade.|
 C Shepherd of Fear|QID|90923|QO|1|M|50.08,48.42|Z|2405; Voidstorm|H|US|N|Absorb Void Essence in the Gnawing Reach.|
@@ -420,9 +420,9 @@ T Sampling the Local Fare|QID|87391|M|41.17,61.50|Z|2405; Voidstorm|N|To Kelia E
 A Void is in the Air|QID|87672|PRE|87388&87391|M|41.17,61.50|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
 A Yolks on You|QID|88653|PRE|87388&87391|M|41.16,61.52|Z|2405; Voidstorm|N|From Matrean Dawnfall.|RANK|2|
 C Yolks on You|QID|88653|QO|1|M|42.03,64.16|Z|2405; Voidstorm|I|S|N|Run over the Eggs.|
-C Void is in the Air|QID|87672|QO|1<1|M|42.28,63.41;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|Only one Void Surge is in each cage. You provided [color=33fff9] Whispering Phial [/color]to capture.|
-C Void is in the Air|QID|87672|QO|1<2|M|41.66,65.94;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|On to the next cave.|
-C Void is in the Air|QID|87672|QO|1<3|M|41.11,63.94;40.02,65.10|CS|Z|2405; Voidstorm|H|U|267614|N|Capture Void Surges.|
+C Void is in the Air|QID|87672|QO|1>1|M|42.28,63.41;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|Only one Void Surge is in each cage. You provided [color=33fff9] Whispering Phial [/color]to capture.|
+C Void is in the Air|QID|87672|QO|1>2|M|41.66,65.94;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|On to the next cave.|
+C Void is in the Air|QID|87672|QO|1>3|M|41.11,63.94;40.02,65.10|CS|Z|2405; Voidstorm|H|U|267614|N|Capture Void Surges.|
 C Yolks on You|QID|88653|QO|1|M|42.03,64.16|Z|2405; Voidstorm|H|U|267614|US|N|Squish Blistercreep Eggs.|
 T Yolks on You|QID|88653|M|41.15,61.56|Z|2405; Voidstorm|N|To Matrean Dawnfall.|
 T Void is in the Air|QID|87672|M|41.18,61.52|Z|2405; Voidstorm|N|To Kelia Everglow.|
@@ -593,9 +593,9 @@ A Cut Her Strings|QID|91147|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From
 C Bloodying the Plain|QID|92641|M|50.85,83.97|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|S!US|IZ|The Bloodplains|
 A Flickering Light|QID|91146|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
 C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|S|N|Fight the Alloyed mobs, when they get to 1% click on them so Anais can attempt to remove Shadowgrafts.|
-C Flickering Light|QID|91146|QO|1<1|M|50.78,78.02|Z|2444; Slayer's Rise|H|N|Find Callum's Tinderbox.|
-C Flickering Light|QID|91146|QO|1<2|M|47.47,74.82|Z|2444; Slayer's Rise|H|N|Find Callum's Necklace.|
-C Flickering Light|QID|91146|QO|1<3|M|51.64,73.36|Z|2444; Slayer's Rise|H|N|Find Callum's Shield.|
+C Flickering Light|QID|91146|QO|1>1|M|50.78,78.02|Z|2444; Slayer's Rise|H|N|Find Callum's Tinderbox.|
+C Flickering Light|QID|91146|QO|1>2|M|47.47,74.82|Z|2444; Slayer's Rise|H|N|Find Callum's Necklace.|
+C Flickering Light|QID|91146|QO|1>3|M|51.64,73.36|Z|2444; Slayer's Rise|H|N|Find Callum's Shield.|
 C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|US|N|Keep fighting alloyed mobs until you find enough Shadowgrafts.|
 T Cut Her Strings|QID|91147|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 T Flickering Light|QID|91146|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
@@ -617,9 +617,9 @@ A These Violent Delights|QID|90873|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise
 A Their Violent Ends|QID|90874|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise|N|From Tul'amar, Twice-Exiled.|RANK|2|
 C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|N|Kill and loot the voidwalkers to collect Abductor's Marks.|S|
 C These Violent Delights|QID|90873|QO|1|M|35.06,88.56|Z|2444; Slayer's Rise|U|244173|S|N|Use the provided[color=33fff9] Relic of Liberation [/color]to free the Master's Prospects.|
-C These Violent Delights|QID|90873|QO|2<1|M|32.82,87.73|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
-C These Violent Delights|QID|90873|QO|2<2|M|41.48,90.65|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
-C These Violent Delights|QID|90873|QO|2<3|M|37.43,90.45|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>1|M|32.82,87.73|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>2|M|41.48,90.65|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>3|M|37.43,90.45|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
 C These Violent Delights|QID|90873|QO|1|M|36.86,88.76|Z|2444; Slayer's Rise|U|244173|US|N|Use the provided[color=33fff9] Relic of Liberation [/color]to free Master's Prospects.|
 C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|US|N|Keep killing voidwalkers and collecting marks.|
 T These Violent Delights|QID|90873|M|35.06,88.56|Z|2444; Slayer's Rise|N|To Tul'amar, Twice-Exiled.|

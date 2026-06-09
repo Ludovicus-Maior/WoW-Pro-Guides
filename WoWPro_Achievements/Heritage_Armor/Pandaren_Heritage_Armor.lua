@@ -35,9 +35,9 @@ T To Morning Breeze|QID|84457|M|30.12,41.72|Z|2366;The Wandering Isle|N|To Ji Fi
 A Devil's in the Details|QID|84458|PRE|84468&84456&84557|M|30.12,41.78|Z|2366;The Wandering Isle|N|From Aysa Cloudsinger.|;bliz marks both 84556 and 84557 done no matter which you did
 A Scamps Ain't It!|QID|84459|PRE|84468&84456&84557|M|30.11,41.79|Z|2366;The Wandering Isle|N|From Ji Firepaw.|;also,  dont know that 84468 is actually a PRE for these
 C Scamps Ain't It!|QID|84459|M|30.37,43.34|Z|2366;The Wandering Isle|S|NC|N|Search the Wooden Barrels searched.|
-C Devil's in the Details|QID|84458|M|30.35,38.24|Z|2366;The Wandering Isle|QO|1<1|NC|N|Check out the Banannas.|
-C Devil's in the Details|QID|84458|M|31.60,41.81|Z|2366;The Wandering Isle|QO|1<2|CHAT|N|Talk to the Morning Breeze Witness.|
-C Devil's in the Details|QID|84458|M|28.47,42.73|Z|2366;The Wandering Isle|QO|1<3|H|N|Examine the patches of fur in the house.|
+C Devil's in the Details|QID|84458|M|30.35,38.24|Z|2366;The Wandering Isle|QO|1>1|NC|N|Check out the Banannas.|
+C Devil's in the Details|QID|84458|M|31.60,41.81|Z|2366;The Wandering Isle|QO|1>2|CHAT|N|Talk to the Morning Breeze Witness.|
+C Devil's in the Details|QID|84458|M|28.47,42.73|Z|2366;The Wandering Isle|QO|1>3|H|N|Examine the patches of fur in the house.|
 C Scamps Ain't It!|QID|84459|M|30.37,43.34|Z|2366;The Wandering Isle|US|NC|N|Search the Wooden Barrels.|
 T Scamps Ain't It!|QID|84459|M|PLAYER|Z|2366;The Wandering Isle|N|To Ji Firepaw.|
 T Devil's in the Details|QID|84458|M|PLAYER|Z|2366;The Wandering Isle|N|To Aysa Cloudsinger.|

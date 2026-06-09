@@ -85,9 +85,9 @@ C Grip of Nightmare|QID|42034|QO|3|M|58.18,68.73|Z|0641; Val'sharah|NC|N|Click o
 C Grip of Nightmare|QID|42034|QO|1|M|58.18,68.73|Z|0641; Val'sharah|US|N|Finish killing the Darkfiend Raiders as you head back to turn in.|
 T Grip of Nightmare|QID|42034|M|56.76,71.52|Z|0641; Val'sharah|N|To Sylendra Gladesong.|
 A Tracking the Enemy|QID|42035|PRE|42034|M|56.76,71.52|Z|0641; Val'sharah|N|From Sylendra Gladesong.|
-C Tracking the Enemy|QID|42035|QO|1<1|M|58.61,74.01|Z|0641; Val'sharah|H|N|Shift into catform and follow the tracks. Investigate the first clue.|
-C Tracking the Enemy|QID|42035|QO|1<2|M|56.72,74.93|Z|0641; Val'sharah|H|N|On to the next clue.|
-C Tracking the Enemy|QID|42035|QO|1<3|M|59.81,75.13|Z|0641; Val'sharah||H|N|Last clue is here.|
+C Tracking the Enemy|QID|42035|QO|1>1|M|58.61,74.01|Z|0641; Val'sharah|H|N|Shift into catform and follow the tracks. Investigate the first clue.|
+C Tracking the Enemy|QID|42035|QO|1>2|M|56.72,74.93|Z|0641; Val'sharah|H|N|On to the next clue.|
+C Tracking the Enemy|QID|42035|QO|1>3|M|59.81,75.13|Z|0641; Val'sharah||H|N|Last clue is here.|
 T Tracking the Enemy|QID|42035|M|59.86,75.20|Z|0641; Val'sharah|N|To Sylendra Gladesong.|
 A Idol of the Wilds|QID|42036|PRE|42035|M|59.86,75.20|Z|0641; Val'sharah|N|From Sylendra Gladesong.|
 C Idol of the Wilds|QID|42036|QO|1|M|60.50,74.00|Z|0641; Val'sharah|N|Go into Moonclaw Vale and beat up some Satyrs.|

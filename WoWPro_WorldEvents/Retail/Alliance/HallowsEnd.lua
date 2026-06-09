@@ -85,8 +85,8 @@ T Shades of Scarlet|QID|76072|M|14.78,70.64|Z|Scarlet Monastery Entrance|
 A No Laughing Matter|QID|76073|M|14.78,70.64|Z|Scarlet Monastery Entrance|
 C No Laughing Matter|QID|76073|M|83.24,30.10|QO|1|Z|Tirisfal Glades|
 C No Laughing Matter|QID|76073|M|83.24,30.10|N|Click on the glowing orb.|QO|2|Z|Tirisfal Glades|
-C No Laughing Matter|QID|76073|QO|3<1|M|84.54,27.94|N|Click on the foci.|Z|Tirisfal Glades|
-C No Laughing Matter|QID|76073|QO|3<2|M|80.89,28.87|N|Click on the foci.|Z|Tirisfal Glades|
+C No Laughing Matter|QID|76073|QO|3>1|M|84.54,27.94|N|Click on the foci.|Z|Tirisfal Glades|
+C No Laughing Matter|QID|76073|QO|3>2|M|80.89,28.87|N|Click on the foci.|Z|Tirisfal Glades|
 C No Laughing Matter|QID|76073|QO|3|M|81.94,33.18|N|Click on the foci.|Z|Tirisfal Glades|
 C No Laughing Matter|QID|76073|QO|4|M|83.18,30.01|Z|Tirisfal Glades|
 C No Laughing Matter|QID|76073|QO|5|M|83.18,30.01|Z|Tirisfal Glades|

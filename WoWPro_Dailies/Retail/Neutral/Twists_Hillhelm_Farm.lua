@@ -96,8 +96,8 @@ T Reinforcements - Activate|QID|78452|M|64.60,30.54|Z|2215;Hallowfall|N|Continue
 
 A Weekly Quest #3|QID|76997^81574|PRE|78452|M|64.61,30.65|Z|2215;Hallowfall|N|From Yorvas Flintstrike.|
 
-C Lost in Shadows|QID|76997|M|63.80,25.80|Z|2215;Hallowfall|QO|1<1|U|211872|
-C Lost in Shadows|QID|76997|M|66.40,28.20|Z|2215;Hallowfall|QO|1<2|U|211872|
+C Lost in Shadows|QID|76997|M|63.80,25.80|Z|2215;Hallowfall|QO|1>1|U|211872|
+C Lost in Shadows|QID|76997|M|66.40,28.20|Z|2215;Hallowfall|QO|1>2|U|211872|
 C Lost in Shadows|QID|76997|M|67.80,28.77|Z|2215;Hallowfall|U|211872|
 T Lost in Shadows|QID|76997|M|64.61,30.65|Z|2215;Hallowfall|N|To Yorvas Flintstrike.|
 

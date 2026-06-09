@@ -97,7 +97,7 @@ C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255; Azj-Kahet|H|N|Pick up the
 C Here's the Plan|QID|81929|QO|4|M|59.37,19.36|Z|2255; Azj-Kahet|H|N|Hand Shield to Faerin.|
 C Here's the Plan|QID|81929|QO|5|M|59.04,18.85|Z|2255; Azj-Kahet|H|N|Grab the bag off the ground.|
 T Here's the Plan|QID|81929|M|59.37,19.36|Z|2255; Azj-Kahet|N|To Faerin Lothar.|
-C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255; Azj-Kahet|QO|1<1|H|N|Distribute Arathi Rations.|
+C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255; Azj-Kahet|QO|1>1|H|N|Distribute Arathi Rations.|
 A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255; Azj-Kahet|N|From Sir Jonathan Trueheart.|RANK|3|
 t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255; Azj-Kahet|N|From Sir Jonathan Trueheart.|IZ|Faerin's Advance|
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255; Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
@@ -109,10 +109,10 @@ f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255; Azj-Kahet|N|At Courier Aid
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255; Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255; Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255; Azj-Kahet|QO|1|N|Slay Spore-afflicted beasts.|S|
-C Prisoner Preservation|QID|79355|M|55.25,23.99|Z|2255; Azj-Kahet|QO|1<1|H|N|Find Mimbihi.|
-C Prisoner Preservation|QID|79355|M|54.96,21.24|Z|2255; Azj-Kahet|QO|1<2|H|N|Find Drog Skullbreaker.|
-C Prisoner Preservation|QID|79355|M|53.94,21.81|Z|2255; Azj-Kahet|QO|1<3|H|N|Find Aemara.|
-C Prisoner Preservation|QID|79355|M|54.90,18.69|Z|2255; Azj-Kahet|QO|1<4|H|N|Find Jeti Amberhoof.|
+C Prisoner Preservation|QID|79355|M|55.25,23.99|Z|2255; Azj-Kahet|QO|1>1|H|N|Find Mimbihi.|
+C Prisoner Preservation|QID|79355|M|54.96,21.24|Z|2255; Azj-Kahet|QO|1>2|H|N|Find Drog Skullbreaker.|
+C Prisoner Preservation|QID|79355|M|53.94,21.81|Z|2255; Azj-Kahet|QO|1>3|H|N|Find Aemara.|
+C Prisoner Preservation|QID|79355|M|54.90,18.69|Z|2255; Azj-Kahet|QO|1>4|H|N|Find Jeti Amberhoof.|
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255; Azj-Kahet|QO|1|N|Finish slaying Spore-afflicted beasts.|US|
 T Prisoner Preservation|QID|79355|M|57.82,19.70|Z|2255; Azj-Kahet|N|To Great Hexer Ohodo.|
 T Infested Infestation|QID|79174|M|57.82,19.70|Z|2255; Azj-Kahet|N|To Great Hexer Ohodo.|
@@ -270,9 +270,9 @@ T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2216; City of Threads|N|To Mr. Su
 
 T A Silken Thread|QID|83324|M|51.40,63.95|Z|2255; Azj-Kahet|N|To Sum'latha.|
 A The Voice of the People|QID|81928|PRE|83324|M|51.40,63.95|Z|2255; Azj-Kahet|N|To Sum'latha.|RANK|2|
-C The Voice of the People|QID|81928|QO|1<1|M|53.64,61.34|Z|2255; Azj-Kahet|CHAT|N|Talk to Worker Yareh'losh.|
-C The Voice of the People|QID|81928|QO|1<2|M|54.18,52.22|Z|2255; Azj-Kahet|CHAT|N|Talk to Teacher Zas'rush.|
-C The Voice of the People|QID|81928|QO|1<3|M|57.47,50.14|Z|2255; Azj-Kahet|CHAT|N|Talk to Priest Maro'zik.|
+C The Voice of the People|QID|81928|QO|1>1|M|53.64,61.34|Z|2255; Azj-Kahet|CHAT|N|Talk to Worker Yareh'losh.|
+C The Voice of the People|QID|81928|QO|1>2|M|54.18,52.22|Z|2255; Azj-Kahet|CHAT|N|Talk to Teacher Zas'rush.|
+C The Voice of the People|QID|81928|QO|1>3|M|57.47,50.14|Z|2255; Azj-Kahet|CHAT|N|Talk to Priest Maro'zik.|
 T The Voice of the People|QID|81928|M|59.92,54.19|Z|2255; Azj-Kahet|N|To Alchemist Talbax.|
 A Collecting a Concoction|QID|81959|M|59.92,54.19|Z|2255; Azj-Kahet|N|From Alchemist Talbax.|RANK|2|
 C Collecting a Concoction|QID|81959|M|58.96,58.02|Z|2256; Azj-Kahet|H|N|The Brightshade Potions are scattered on the ground below the Silken Ward.|
@@ -281,9 +281,9 @@ A A Nudge in the Right Direction|QID|81962|M|59.92,54.19|Z|2255; Azj-Kahet|N|Fro
 C A Nudge in the Right Direction|QID|81962|M|58.65,53.32|Z|2255; Azj-Kahet|QO|1|N|Pale Weavelashers Slain.|EAB|
 T A Nudge in the Right Direction|QID|81962|M|59.92,54.19|Z|2255; Azj-Kahet|N|To Alchemist Talbax.|
 A The Fruits of Our Labor|QID|81963|M|59.92,54.19|Z|2255; Azj-Kahet|N|From Alchemist Talbax.|RANK|2|
-C The Fruits of Our Labor|QID|81963|M|57.53,50.15|Z|2255; Azj-Kahet|QO|1<1|CHAT|N|Hand over some potions to Priest Maro'zik.|
-C The Fruits of Our Labor|QID|81963|M|54.16,52.28|Z|2255; Azj-Kahet|QO|1<2|CHAT|N|Hand over potions to Teacher Zas'rush.|
-C The Fruits of Our Labor|QID|81963|M|53.69,61.23|Z|2255; Azj-Kahet|QO|1<3|CHAT|N|Hand over potions to Worker Yareh'losh.|
+C The Fruits of Our Labor|QID|81963|M|57.53,50.15|Z|2255; Azj-Kahet|QO|1>1|CHAT|N|Hand over some potions to Priest Maro'zik.|
+C The Fruits of Our Labor|QID|81963|M|54.16,52.28|Z|2255; Azj-Kahet|QO|1>2|CHAT|N|Hand over potions to Teacher Zas'rush.|
+C The Fruits of Our Labor|QID|81963|M|53.69,61.23|Z|2255; Azj-Kahet|QO|1>3|CHAT|N|Hand over potions to Worker Yareh'losh.|
 T The Fruits of Our Labor|QID|81963|M|59.92,54.19|Z|2255; Azj-Kahet|N|To Alchemist Talbax.|
 
 ; <<< 2nd block inserted here >>>
@@ -440,9 +440,9 @@ f Mmarl|ACTIVE|79117|M|76.84,64.44|Z|2255; Azj-Kahet|N|At Roughrider Tany.|
 C Bright Young Niffen|QID|79117|M|73.43,61.75|Z|2255; Azj-Kahet|QO|1|NC|N|Niffen Arachnologist recruited.|
 T Bright Young Niffen|QID|79117|M|77.22,64.46|Z|2255; Azj-Kahet|N|To Vetiverian.|
 A Rak-Ush Under New Management|QID|79118|M|77.22,64.46|Z|2255; Azj-Kahet|N|From Vetiverian.|RANK|2|
-C Sammy Fizzvolt|QID|80558|QO|1<1|M|78.60,61.89|Z|2255; Azj-Kahet|CHAT|N|Ask Sammy about how things are going around here.|T|Sammy Fizzvolt|
-C Grigg, the Pool Boy|QID|80558|QO|1<2|M|77.70,59.65|Z|2255; Azj-Kahet|CHAT|N|Ask Grigg about how things are going around here.|T|Grigg|
-C Murphie the Bartender|QID|80558|QO|1<3|M|78.67,60.11|Z|2255; Azj-Kahet|CHAT|N|Ask Murphie about how things are going around here.|T|Murphie|
+C Sammy Fizzvolt|QID|80558|QO|1>1|M|78.60,61.89|Z|2255; Azj-Kahet|CHAT|N|Ask Sammy about how things are going around here.|T|Sammy Fizzvolt|
+C Grigg, the Pool Boy|QID|80558|QO|1>2|M|77.70,59.65|Z|2255; Azj-Kahet|CHAT|N|Ask Grigg about how things are going around here.|T|Grigg|
+C Murphie the Bartender|QID|80558|QO|1>3|M|78.67,60.11|Z|2255; Azj-Kahet|CHAT|N|Ask Murphie about how things are going around here.|T|Murphie|
 C Jenni Boombuckle|QID|80558|M|77.86,62.92|Z|2255; Azj-Kahet|QO|2|CHAT|N|Ask Jenni if she is in charge.|T|Jenni Boombuckle.|
 T Nothing Ventured|QID|80558|M|77.81,62.89|Z|2255; Azj-Kahet|N|To Monte Gazlowe.|
 A Electrifying!|QID|79539|PRE|80558|M|77.86,62.92|Z|2255; Azj-Kahet|N|From Jenni Boombuckle.|RANK|2|

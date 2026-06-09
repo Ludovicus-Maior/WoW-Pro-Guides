@@ -22,9 +22,9 @@ T Our Mutual Enemy|QID|90749|M|5.41,47.16|Z|2536; Atal'Aman|N|To Lady Liadrin.|
 A Goodwill Tour|QID|86868|PRE|90749|M|5.41,47.16|Z|2536; Atal'Aman|N|From Lady Liadrin.|
 A Amani Clarion Call|QID|86711|PRE|90749|M|5.50,47.56|Z|2536; Atal'Aman|N|From Zul'jarra.|
 C Goodwill Tour|QID|86868|M|35.52,48.82|Z|2536; Atal'Aman|QO|1|N|Invading Shadow slain.|S|
-C Amani Clarion Call|QID|86711|M|16.46,47.07|Z|2536; Atal'Aman|QO|1<1|H|N|Amani War Drum sounded.|
-C Amani Clarion Call|QID|86711|M|25.05,48.40|Z|2536; Atal'Aman|QO|1<2|H|N|Amani War Drum sounded.|
-C Amani Clarion Call|QID|86711|M|35.69,49.23|Z|2536; Atal'Aman|QO|1<3|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|16.46,47.07|Z|2536; Atal'Aman|QO|1>1|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|25.05,48.40|Z|2536; Atal'Aman|QO|1>2|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|35.69,49.23|Z|2536; Atal'Aman|QO|1>3|H|N|Amani War Drum sounded.|
 C Goodwill Tour|QID|86868|M|35.52,48.82|Z|2536; Atal'Aman|QO|1|N|Invading Shadow slain.|US|
 T Goodwill Tour|QID|86868|M|45.98,48.58|Z|2536; Atal'Aman|N|To Lady Liadrin.|
 T Amani Clarion Call|QID|86711|M|46.11,48.70|Z|2536; Atal'Aman|N|To Zul'jarra.|
@@ -313,9 +313,9 @@ T The Flames Rise Higher|QID|90772|M|55.01,18.36|Z|2437; Zul'Aman|N|To Zul'jarra
 A In the Shadow of Rebirth|QID|86666|PRE|90772|M|55.01,18.36|Z|2437; Zul'Aman|N|From Zul'jarra.|
 T Unlikely Friends|QID|90568|M|38.28,20.95|Z|2437; Zul'Aman|N|To Elder Ren'zen.|
 A Far from the Hinterlands|QID|91406|M|36.12,24.83|Z|2437|N|From Nija Torntusk.|RANK|2|
-C Far from the Hinterlands|QID|91406|M|37.16,23.52|Z|2437|QO|1<1|NC|N|The first bit of evidence is found on a table on the 2nd floor of the hut.|
-C Far from the Hinterlands|QID|91406|M|38.08,24.09|Z|2437; Zul'Aman|QO|1<2|NC|N|The next bit in on a set of shelves near Headhunter Og'beh.|
-C Far from the Hinterlands|QID|91406|M|37.14,26.25|Z|2437; Zul'Aman|QO|1<3|NC|N|The last bit is found on a table in Rajom Swiftspear's hut.|
+C Far from the Hinterlands|QID|91406|M|37.16,23.52|Z|2437|QO|1>1|NC|N|The first bit of evidence is found on a table on the 2nd floor of the hut.|
+C Far from the Hinterlands|QID|91406|M|38.08,24.09|Z|2437; Zul'Aman|QO|1>2|NC|N|The next bit in on a set of shelves near Headhunter Og'beh.|
+C Far from the Hinterlands|QID|91406|M|37.14,26.25|Z|2437; Zul'Aman|QO|1>3|NC|N|The last bit is found on a table in Rajom Swiftspear's hut.|
 T Far from the Hinterlands|QID|91406|M|36.08,24.79|Z|2437|N|To Nija Torntusk.|
 A The Eye of the Loa|QID|91407|PRE|91406|M|36.08,24.79|Z|2437|N|From Nija Torntusk.|RANK|2|
 C The Eye of the Loa|QID|91407|M|35.97,24.76|Z|2437|QO|1|NC|N|Stand in front of the shrine and use [color=33fff9] Extra Action Button [/color] to request Halazzi's.|EAB|
@@ -500,14 +500,14 @@ T Swords to Plowshares|QID|93432|M|45.41,44.74|Z|2536; Atal'Aman|N|To Torundo th
 A Four Instigators|QID|93435|PRE|93433&93432|M|45.41,44.74|Z|2536; Atal'Aman|N|From Torundo the Grizzled.|RANK|2|
 A Hex the Innocent, Disrupt the Guilty|QID|93436|PRE|93433&93432|M|45.20,44.90|Z|2536; Atal'Aman|N|From Elder Doru.|RANK|2|
 C Hex the Innocent|QID|93436|M|37.58,79.91|Z|2536; Atal'Aman|QO|2|H|U|259967|N|Click the Civilians to hex them. Bliz has conveniently given you yellow dots to find them.|S|
-C Disrupt the Guilty|QID|93436|M|52.10,19.29|Z|2536; Atal'Aman|QO|1<1|H|N|Click the Feast to poison it.|
+C Disrupt the Guilty|QID|93436|M|52.10,19.29|Z|2536; Atal'Aman|QO|1>1|H|N|Click the Feast to poison it.|
 K Zungam|ACTIVE|93435|M|43.58,31.78|Z|2536; Atal'Aman|QO|2|N|Slay Zungam.|T|Zungam|
 C Disrupt the Guilty|QID|93436|M|67.23,47.47|Z|2536; Atal'Aman|QO|3|H|N|Click the Warlord's Chest.|
 K Prigmon|ACTIVE|93435|M|34.43,80.11|Z|2536; Atal'Aman|QO|1|N|Slay Prigmon.|T|Prigmon|
-C Disrupt the Guilty|QID|93436|QO|1<2|M|22.89, 81.01|Z|2536; Atal'Aman|H|N|Click the feast.|
+C Disrupt the Guilty|QID|93436|QO|1>2|M|22.89, 81.01|Z|2536; Atal'Aman|H|N|Click the feast.|
 K Harrison Jones|ACTIVE|93435|M|8.47,40.77|Z|2536; Atal'Aman|QO|4|N|Slay Harrison Jones. (I know you have wanted to for awhile.|T|Harrison Jones|
 K Budd Nedreck|ACTIVE|93435|M|10.59,27.38|Z|2536; Atal'Aman|QO|3|N|Slay Budd Nedreck.|T|Budd Nedreck|
-C Disrupt the Guilty|QID|93436|M|7.66,8.84|Z|2536; Atal'Aman|QO|1<3|H|N|And the last one way out on the edge of the battlefield.|
+C Disrupt the Guilty|QID|93436|M|7.66,8.84|Z|2536; Atal'Aman|QO|1>3|H|N|And the last one way out on the edge of the battlefield.|
 C Hex the Innocent|QID|93436|M|37.58,79.91|Z|2536; Atal'Aman|QO|2|H|U|259967|N|Finish hexxing Civilians.|US|
 T Hex the Innocent, Disrupt the Guilty|QID|93436|M|45.79,47.33|Z|2536; Atal'Aman|N|To Elder Doru.|
 T Four Instigators|QID|93435|M|45.79,47.33|Z|2536; Atal'Aman|N|To Torundo the Grizzled.|

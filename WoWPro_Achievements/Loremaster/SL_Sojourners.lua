@@ -59,10 +59,10 @@ C Mark of Humility|QID|57875|QO|4|CS|M|41.28,37.31;41.27,37.30|Z|Bastion!The Sha
 T Mark of Humility|QID|57875|M|43.2,38.4|Z|Bastion!The Shadowlands|N|To Artificer Ligiea.|
 T Mark of Knowledge|QID|57914|M|42.73,39.41|Z|Bastion!The Shadowlands|N|To Artificer Ligiea.|
 A You Go First|QID|57966|PRE|57875&57914|M|42.73,39.41|Z|Bastion!The Shadowlands|N|From Artificer Ligiea.|
-C You Go First|QID|57966|QO|1<1|M|33.70,81.34|Z|Third Chamber of Kalliope|NC|N|Dodge the beams of light and click the yellow button to disable the first trap.|
+C You Go First|QID|57966|QO|1>1|M|33.70,81.34|Z|Third Chamber of Kalliope|NC|N|Dodge the beams of light and click the yellow button to disable the first trap.|
 C You Go First|QID|57966|QO|2|M|40.99,73.76|Z|Third Chamber of Kalliope|N|Click the bell to summon the first guardian and then kill it.|
-C You Go First|QID|57966|QO|1<2|M|60.55,79.41|Z|Third Chamber of Kalliope|NC|N|Again dodge the beams of light and click the yellow button to disable the second trap.|
-C You Go First|QID|57966|QO|1<3|M|68.92,60.22|Z|Third Chamber of Kalliope|NC|N|And, one last time dodge the beams of light and click the yellow button to disable the second trap.|
+C You Go First|QID|57966|QO|1>2|M|60.55,79.41|Z|Third Chamber of Kalliope|NC|N|Again dodge the beams of light and click the yellow button to disable the second trap.|
+C You Go First|QID|57966|QO|1>3|M|68.92,60.22|Z|Third Chamber of Kalliope|NC|N|And, one last time dodge the beams of light and click the yellow button to disable the second trap.|
 T You Go First|QID|57966|M|61.01,50.88|Z|Third Chamber of Kalliope|N|To Artificer Ligiea.|
 A The Spear of Kalliope|QID|57989|PRE|57966|M|61.01,50.88|Z|Third Chamber of Kalliope|N|From Artificer Ligiea.|
 C The Spear of Kalliope|QID|57989|M|61.01,50.88|Z|Third Chamber of Kalliope|N|Defeat Ligiea and then pick up the spear.|
@@ -94,11 +94,11 @@ A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowla
 C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|U|172950|NC|N|Use the provided clay Heal Wounded fae.|S!US|
 C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Pick up the Treated Gorm Husks scattered about the area.|S|
 A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|
-C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<1|N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>1|N|Use the provided pipes to ask for a Culexwood Branch.|
 $ Lost Satchel|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|Carefully, slowly, walk down the tree root to get this treasure. Turns in for a decent amount of xp. Return the same way you came down.|ITEM|182731|ACH|14313;2|
 A Satchel of Culexwood|QID|62187|M|48.19,20.39|Z|Ardenweald!The Shadowlands|N|From Lost Satchel hanging from a branch. Carefully, slowly, walk down the tree root to get this treasure. Return the same way you came down.|
-C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<2|N|Use the provided pipes to ask for a Culexwood Branch.|
-C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1<3|N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>2|N|Use the provided pipes to ask for a Culexwood Branch.|
+C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|NC|QO|1>3|N|Use the provided pipes to ask for a Culexwood Branch.|
 T Satchel of Culexwood|QID|62187|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
 A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|
