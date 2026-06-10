@@ -31,6 +31,12 @@ T Dwarven Artifacts|QID|24477|M|61.75,22.17|Z|427; Coldridge Valley|N|To Grundel
 A Make Hay While the Sun Shines|QID|24486|PRE|24477|M|61.75,22.17|Z|427; Coldridge Valley|N|From Grundel Harkin.|
 T First Things First: We're Gonna Need Some Beer|QID|24474|M|62.45,22.05|Z|427; Coldridge Valley|N|To Jona Ironstock.|
 A All the Other Stuff|QID|24475|PRE|24474|M|62.45,22.05|Z|427; Coldridge Valley|N|From Jona Ironstock.|
+A Consecrated Rune|QID|3107|M|61.69,22.07|Z|427; Coldridge Valley|N|From Grundel Harkin.|LVL|3|R|Dwarf|C|Paladin|
+T Consecrated Rune|QID|3107|M|61.90,24.56|Z|0427; Coldridge Valley!Instance|N|To Bromos Grummner.|
+A The Power of the Light|QID|24528|PRE|3107|M|61.90,24.56|Z|0427; Coldridge Valley!Instance|N|From Bromos Grummner.|LVL|3|R|Dwarf|C|Paladin|
+C The Power of the Light|QID|24528|QO|1|M|PLAYER|Z|0427; Coldridge Valley!Instance|N|Reach Level 3.|
+C The Power of the Light|QID|24528|QO|2|M|62.01,29.26|Z|0427; Coldridge Valley!Instance|N|Use Seal of Command, and then attack the training dummy.|
+T The Power of the Light|QID|24528|M|61.90,24.56|Z|0427; Coldridge Valley!Instance|N|To Bromos Grummner.|
 C All the Other Stuff - Haunch|QID|24475|QO|1|Z|427; Coldridge Valley|N|Kill and loot the Small Crag Boars for their Haunches|S|
 C All the Other Stuff - Ragged Hide|QID|24475|QO|2|Z|427; Coldridge Valley|N|Kill and loot the Ragged Timber Wolf for the Ragged Hides.|S|
 C Make Hay While the Sun Shines|QID|24486|M|52.35,46.04|Z|427; Coldridge Valley|N|Attack the Rockjaw Scavengers, and they will throw the artifacts at you, or kill them and loot the artifacts.|
@@ -55,10 +61,10 @@ T Trolling for Information|QID|24489|M|43.24,63.12|Z|427; Coldridge Valley|N|To 
 T A Refugee's Quandary|QID|3361|M|42.04,63.34|Z|427; Coldridge Valley|N|To Felix Whindlebolt.|
 T The Troll Menace|QID|182|M|42.74,62.22|Z|427; Coldridge Valley|N|To Grelin Whitebeard.|
 A Ice and Fire|QID|218|PRE|24489|M|42.74,62.22|Z|427; Coldridge Valley|N|From Grelin Whitebeard.|
-C Ice and Fire|QID|218|QO|3;4|M|51.17,82.44;37.17,78.31|CC|Z|427; Coldridge Valley|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|S|
-K Wayward Fire Elemental|ACTIVE|218|QO|2|M|12.61,36.80;34.15,35.67;66.63,29.93|CS|Z|Frostmane Hovel|N|Kill the Wayward Fire Elemental|T|Wayward Fire Elemental|
+C Ice and Fire|QID|218|QO|2|M|51.17,82.44;37.17,78.31|CC|Z|427; Coldridge Valley|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|S|
+K Wayward Fire Elemental|ACTIVE|218|QO|3|M|12.61,36.80;34.15,35.67;66.63,29.93|CS|Z|Frostmane Hovel|N|Kill the Wayward Fire Elemental|T|Wayward Fire Elemental|
 K Grik'nir the Cold|ACTIVE|218|M|76.24,32.00|QO|1|Z|Frostmane Hovel|N|Kill Grik'nir the Cold.|T|Grik'nir the Cold|
-C Ice and Fire|QID|218|QO|3;4|M|33.31,77.83|Z|427; Coldridge Valley|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|US|
+C Ice and Fire|QID|218|QO|2|M|33.31,77.83|Z|427; Coldridge Valley|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|US|
 T Ice and Fire|QID|218|M|42.74,62.22|Z|427; Coldridge Valley|N|To Grelin Whitebeard.|
 A A Trip to Ironforge|QID|24490|PRE|218|M|42.74,62.22|Z|427; Coldridge Valley|N|From Grelin Whitebeard.|
 T A Trip to Ironforge|QID|24490|M|87.50,44.39|Z|427; Coldridge Valley|N|To Hands Springsprocket at the top of the hill.|
@@ -67,9 +73,9 @@ T Follow that Gyro-Copter!|QID|24491|M|69.95,44.08|Z|427; Coldridge Valley|N|To 
 A Pack Your Bags|QID|24492|PRE|24491|M|69.95,44.08|Z|427; Coldridge Valley|N|From Milo Geartwinge.|
 A Don't Forget About Us|QID|24493|M|62.45,22.05|Z|427; Coldridge Valley|N|From Jona Ironstock.|RANK|2|
 r Repair and Sell Junk|QID|24492|S|ACTIVE|24492|Z|427; Coldridge Valley|N|Take this opportunity to sell your junk and repair with the sellers in Anvilmar.|T|Grundel Harkin|
-C Coldridge Beer Flagon|QID|24492|M|62.45,23.87|QO|1|Z|427; Coldridge Valley|N|Go to near the entrance, and all the items are around a table. Pick up the barrel of Coldridge Beer from the floor.|NC|
-C Ragged Wolf-Hide Cloak|QID|24492|M|62.45,23.87|QO|2|Z|427; Coldridge Valley|N|Pick up the box of Wolf-Hide Cloaks.|NC|
-C Leftover Boar Meat|QID|24492|M|62.45,23.87|QO|3|Z|427; Coldridge Valley|N|Pick up the Leftover Boar Meat that's on the table.|NC|
+C Leftover Boar Meat|QID|24492|QO|3|M|59.62,21.00|Z|0427; Coldridge Valley!Instance|N|Pick up the Leftover Boar Meat that's on the table.|NC|
+C Coldridge Beer Flagon|QID|24492|QO|1|M|60.18,16.49|Z|0427; Coldridge Valley!Instance|N|Go to near the entrance, and all the items are around a table. Pick up the barrel of Coldridge Beer from the floor.|NC|
+C Ragged Wolf-Hide Cloak|QID|24492|QO|2|M|61.63,13.30|Z|0427; Coldridge Valley!Instance|N|Pick up the box of Wolf-Hide Cloaks.|NC|
 T Pack Your Bags|QID|24492|M|69.95,44.08|Z|427; Coldridge Valley|N|To Milo Geartwinge. On handing this quest, you will be whisked by gyro-copter to Kharanos.|
 T Don't Forget About Us|QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|Z|27;Dun Morogh|
 ]]
