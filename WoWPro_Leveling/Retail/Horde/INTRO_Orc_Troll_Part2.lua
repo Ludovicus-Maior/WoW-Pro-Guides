@@ -13,7 +13,7 @@ A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|Z|1; Durotar|N|From Bom'bay.
 C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|Z|1; Durotar|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus.|S|
 C Breaking the Chain|QID|25167|M|52.45,80.60|Z|1; Durotar|N|Kill the Northwatch Lugs, and destroy the supply crates they drop.|
 C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|Z|1; Durotar|N|Kill and loot the Pygmy Surf Crawlers.|US|
-r Trayexir|QID|25167|M|56.47,73.11|ACTIVE|25167|Z|1; Durotar|N|Take this opportunity to sell and repair with Trayexir, who is at the back of the hut to the north of Master Gadrin.|S|
+r Trayexir|ACTIVE|25167|M|56.47,73.11|Z|1; Durotar|N|Take this opportunity to sell and repair with Trayexir, who is at the back of the hut to the north of Master Gadrin.|S|
 T Breaking the Chain|QID|25167|M|55.95,74.80|Z|1; Durotar|N|To Master Gadrin.|
 A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|Z|1; Durotar|N|From Master Gadrin.|
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|Z|1; Durotar|N|To Bom'bay.|
@@ -22,9 +22,9 @@ A The War of Northwatch Aggression|QID|25169|PRE|25167|M|55.46,75.04|Z|1; Durota
 C Never Trust a Big Barb and a Smile|QID|25165|M|54.16,75.20|Z|1; Durotar|N|Summon the Poison Extraction Totem, then let the Clattering Scorpids cast Envenom near it.|U|52505|
 C Purge the Valley|QID|25168|M|46.64,79.51|Z|1; Durotar|N|Kill Northwatch Rangers and Infantryman troops.|S|
 R Northwatch Foothold|ACTIVE|25169^25168|M|50.78,79.10|Z|1; Durotar|N|Head to Northwatch Foothold.|
-C Attack Plan: Valley of Trials burned|QID|25169|M|49.88,81.52|QO|1|Z|1; Durotar|N|Burn the Valley of Trials attack plans that are sitting on the stool.|NC|
-C Attack Plan: Sen'jin Village burned|QID|25169|M|47.95,77.5|QO|2|Z|1; Durotar|N|Burn the Sen'jin Village attack plans that are sitting on the crate.|NC|
-C Attack Plan: Orgrimmar burned|QID|25169|M|46.42,78.93|QO|3|Z|1; Durotar|N|Burn the Orgrimmar attack plans that are on the table in front of the tent.|NC|
+C Attack Plan: Valley of Trials burned|QID|25169|QO|1|M|49.88,81.52|Z|1; Durotar|N|Burn the Valley of Trials attack plans that are sitting on the stool.|NC|
+C Attack Plan: Sen'jin Village burned|QID|25169|QO|2|M|47.95,77.5|Z|1; Durotar|N|Burn the Sen'jin Village attack plans that are sitting on the crate.|NC|
+C Attack Plan: Orgrimmar burned|QID|25169|QO|3|M|46.42,78.93|Z|1; Durotar|N|Burn the Orgrimmar attack plans that are on the table in front of the tent.|NC|
 C Purge the Valley|QID|25168|M|46.64,79.51|Z|1; Durotar|N|Finish killing the Northwatch Rangers and Infantryman troops.|US|
 R Sen'jin Village|ACTIVE|25169|M|54.80,75.35|Z|1; Durotar|N|Return to Sen'jin Village.| ; Added this so they know where they are going - Hendo72
 T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|Z|1; Durotar|N|To Lar Prowltusk.|
@@ -51,7 +51,7 @@ T Return to Razor Hill|QID|6386|M|50.73,42.83|Z|1; Durotar|N|To Grimtak.|
 C Northwatch Marines|QID|25173|QO|1|M|58.25,57.35|Z|1; Durotar|N|Kill the Northwatch Marine.|S|
 C Northwatch Sharpshooters|QID|25173|QO|2|M|58.25,57.35|Z|1; Durotar|N|Kill the Northwatch Sharpshooter.|S|
 C Exploiting the Situation|QID|25176|M|62.70,77.92|Z|3; Tiragarde Keep|N|Loot the Kul Tiras Treasure scattered inside Tiragarde Keep.|NC|S|
-K Lieutenant Palliter|ACTIVE|25173|M|53.13,52.85|Z|4; Great Hall@Tiragarde Keep|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|
+K Lieutenant Palliter|ACTIVE|25173|QO|3|M|53.13,52.85|Z|4; Great Hall@Tiragarde Keep|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|
 C Exploiting the Situation|QID|25176|M|62.70,77.92|Z|3; Tiragarde Keep|N|Finish looting the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|US|
 C Northwatch Sharpshooters|QID|25173|QO|2|M|58.25,57.35|Z|1; Durotar|N|Finish killing the Northwatch Sharpshooters|T|Northwatch Sharpshooter|US|
 C Northwatch Marines|QID|25173|QO|1|M|58.25,57.35|Z|1; Durotar|N|Finish killing the Northwatch Marines|T|Northwatch Marine|US|
@@ -61,7 +61,7 @@ T Exploiting the Situation|QID|25176|M|53.06,43.12|Z|1; Durotar|N|To Gail Nozzyw
 A Shipwreck Searching|QID|25178|PRE|25173&25176|M|53.06,43.12|Z|1; Durotar|N|From Gail Nozzywig.|
 C Storming the Beaches|QID|25177|M|58.96,49.79|Z|1; Durotar|N|Kill Foaming Sea Elementals.|S|
 C Shipwreck Searching|QID|25178|M|57.35,44.65|Z|1; Durotar|N|Obtain 4 sets of Gnomish Tools.|NC|S|
-A Loss Reduction|QID|25179|PRE|25173|M|57.90,45.10|Z|1; Durotar|N|Speak to an Injured Razor Hill Grunt.|CHAT|
+A Loss Reduction|QID|25179|PRE|25173|M|57.90,45.10|Z|1; Durotar|N|Speak to an Injured Razor Hill Grunt.|
 C Loss Reduction|QID|25179|M|59.64,49.92|Z|1; Durotar|N|Rescue the Injured Razor Hill Grunts.|CHAT|
 C Storming the Beaches|QID|25177|M|58.96,49.79|Z|1; Durotar|N|Finish killing the Foaming Sea Elementals.|US|
 C Shipwreck Searching|QID|25178|M|57.35,44.65|Z|1; Durotar|N|Finish looting the Gnomish Tools.|NC|US|
@@ -96,7 +96,7 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|Z|1; Durotar|N|Kill and loot Cr
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|Z|1; Durotar|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|Z|1; Durotar|N|To Thonk.|
 A The Burning Blade|QID|25232|M|52.27,43.09|Z|1; Durotar|N|From Orgnil Soulscar.|
-N Riding|ACTIVE|25232|Z|1; Durotar|N|Now that you are level 10, go visit the riding trainer.\n[color=FF0000]NOTE: [/color]You may have received a quest through the UI to do this. You get 2 silver for turning it in.|LVL|10|FLY|OLD|
+;N Riding|ACTIVE|25232|Z|1; Durotar|N|Now that you are level 10, go visit the riding trainer.\n[color=FF0000]NOTE: [/color]You may have received a quest through the UI to do this. You get 2 silver for turning it in.|LVL|10|FLY|OLD|
 R Dustwind Cave|ACTIVE|25232|M|54.13,40.71;55.68,38;52.79,28.53|CS|Z|1; Durotar|N|Run to Dustwind Cave.|FLY|OLD|
 C The Burning Blade|QID|25232|M|52.79,28.53|Z|1; Durotar|N|Kill and loot the Burning Blade thugs, neophytes and cultists for their spellscrolls.|
 H Razor Hill|ACTIVE|25232|M|51.61,41.65|Z|1; Durotar|N|Hearth to Razor Hill. Run if your Hearthstone is on cooldown.|
@@ -125,7 +125,7 @@ T Fizzled|QID|25260|M|44.98,14.76|Z|1; Durotar|N|To Gor the Enforcer.|
 A Margoz|QID|25261|PRE|25260|M|44.98,14.76|Z|1; Durotar|N|From Gor the Enforcer.|
 T Thunder Down Under|QID|25236|M|44.98,14.76|Z|1; Durotar|N|To Gor the Enforcer.|
 T Ignoring the Warnings|QID|25206|M|44.98,14.76|Z|1; Durotar|N|To Gor the Enforcer.|
-A Beyond Durotar|QID|25648|PRE|25206&25236|M|44.98,14.76|Z|1; Durotar|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
+A Beyond Durotar|QID|25648|PRE|25206&25236|M|44.98,14.76|Z|1; Durotar|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Azshara next. Otherwise, decline the quest and skip this step to move on.|ACTIVE|25261|
 T Margoz|QID|25261|M|56.39,20.17|Z|1; Durotar|N|To Margoz.|
 A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|Z|1; Durotar|N|From Margoz.|
 A Sent for Help|QID|25256|M|56.39,20.17|Z|1; Durotar|N|From Vek'nag.|RANK|2|
@@ -144,9 +144,10 @@ T Skull Rock|QID|25262|M|56.41,20.05|Z|1; Durotar|N|To Margoz.|
 A Arnak Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|1; Durotar|N|From Margoz.|
 R Orgrimmar |QID|25263|ACTIVE|25263|Z|1; Durotar|N|Head to Orgrimmar|M|45.50,11.43|FLY|OLD|
 T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, in the Cleft of Shadow in Orgrimmar.|
-A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|85; Orgrimmar|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Neeru Fireblade.|
-N Azshara|QID|25648|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara.|JUMP|Azshara|S!US|
-N Northern Barrens|QID|25264|ACTIVE|25264|N|You have an Northern Barrens quest in your log. If you wish to move onto Northern Barrens zone next, please manually change the guide to Northern Barens.|JUMP|Northern Barrens|S!US|
+A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|85; Orgrimmar|N|*Northern Barrens Quest*From Neeru Fireblade.\n\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Northern Barrens next. Otherwise, decline the quest and skip this step to move on.|
+N Azshara|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara.|JUMP|Azshara|S|
+N Northern Barrens|ACTIVE|25264|N|You have an Northern Barrens quest in your log. If you wish to move onto Northern Barrens zone next, please manually change the guide to Northern Barens.|JUMP|Northern Barrens|
+N Azshara|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara.|JUMP|Azshara|US|
 ;A Warchief's Command: Northern Barrens!|QID|28494|LEAD|871|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
 ]]
 end)
