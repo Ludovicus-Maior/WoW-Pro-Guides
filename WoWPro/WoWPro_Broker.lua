@@ -18,6 +18,8 @@ WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
 
+WoWPro.UpdateGuideRealInProgress = false
+
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
@@ -39,6 +41,10 @@ end
 
 
 local quids_debug = false
+
+local function CanCompleteStepImmediateRefresh(step)
+    return step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown()
+end
 
 local function QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
     if not list then
@@ -2021,13 +2027,19 @@ function WoWPro.UpdateGuideRealSlow(From)
 end
 
 function WoWPro.UpdateGuideReal(From)
-    local GID = WoWProDB.char.currentguide
-    local why = ""
-    for who, count in pairs(From) do
-        why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
+    if WoWPro.UpdateGuideRealInProgress then
+        WoWPro:dbp("UpdateGuideReal(): nested update suppressed")
+        return
     end
-    WoWPro:dbp("UpdateGuideReal(%s): Running", why)
-    if not WoWPro.GuideFrame:IsVisible() then
+    WoWPro.UpdateGuideRealInProgress = true
+    local function runUpdate()
+        local GID = WoWProDB.char.currentguide
+        local why = ""
+        for who, count in pairs(From) do
+            why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
+        end
+        WoWPro:dbp("UpdateGuideReal(%s): Running", why)
+        if not WoWPro.GuideFrame:IsVisible() then
         -- Cinematic hides things (or user collapsed frame with double-click).
         -- Only re-queue if the user did not intentionally collapse the frame.
         if not WoWPro.UserCollapsed then
@@ -2235,6 +2247,9 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_UPDATE")
         WoWPro.EventReplayStart()
     end
+end
+    runUpdate()
+    WoWPro.UpdateGuideRealInProgress = false
 end
 
 
@@ -4190,9 +4205,8 @@ function WoWPro.CompleteStep(step, why, noUpdate)
             return true
         end
     end
-    WoWPro.why[step] = why
     if not noUpdate then
-        if step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown() then
+        if CanCompleteStepImmediateRefresh(step) then
             WoWPro:print("BUCKET_BYPASS: CompleteStep(%d) ActiveStep=%s visible=%s initLockdown=%s combat=%s immediate refresh", step, tostring(WoWPro.ActiveStep), tostring(WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()), tostring(WoWPro.InitLockdown), tostring(_G.InCombatLockdown()))
             WoWPro:RemoveMapPoint()
             WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"] = 1})
