@@ -53,7 +53,7 @@ C WANTED: The Dark Iron Spy|QID|13648|M|36.46,61.23|Z|48; Loch Modan|N|Kill Gori
 A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|Z|48; Loch Modan|N|From the Stolen Explorers' League Document.|
 C Thelsamar Blood Sausages|QID|26860|M|36.75,38.25|Z|48; Loch Modan|N|Kill and loot bears for their rumps.|US|
 C Looking for Lurkers|QID|25118|M|38.0,39.25|Z|48; Loch Modan|N|Kill 8 Forest Lurkers.|US|
-T Explorers' League Document (1 of 6)|QID|13656|M|37.18,47.82|Z|48; Loch Modan|N|To Torren Squarejaw.|
+T Explorers' League Document (1 of 6)|QID|13656|M|37.14,46.32|Z|48; Loch Modan|N|To Torren Squarejaw.|
 T Looking for Lurkers|QID|25118|M|35.35,42.82|Z|48; Loch Modan|N|To Dakk Blunderblast.|
 T WANTED: The Dark Iron Spy|QID|13648|M|34.60,44.50|Z|48; Loch Modan|N|To Magistrate Bluntnose.|
 T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|Z|48; Loch Modan|N|To Vidra Hearthstove.|
@@ -89,7 +89,7 @@ A Smells Like A Plan|QID|26928|PRE|26927|M|34.81,49.06|Z|48; Loch Modan|N|From C
 C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Kill and loot the Bluegill Murloc's until you get the 7 glands.|S|
 A Explorers' League Document (2 of 6)|QID|13655|M|41.35,39.00|Z|48; Loch Modan|N|From the Stolen Explorers' League Documents. It is hard to see, it is just under the south side of the bridge.|
 C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Finish killing and the Bluegill Murloc's until you get the 7 glands.|US|
-T Explorers' League Document (2 of 6)|QID|13655|M|37.18,47.82|Z|48; Loch Modan|N|To Torren Squarejaw.|
+T Explorers' League Document (2 of 6)|QID|13655|M|37.14,46.32|Z|48; Loch Modan|N|To Torren Squarejaw.|
 A Buzz Off|QID|26932|PRE|26927|M|35.01,46.42|Z|48; Loch Modan|N|From Mountaineer Kadrell.|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|Z|48; Loch Modan|N|To Cannary Caskshot.|
 A Axis of Awful|QID|26868|PRE|26928|M|34.85,49.07|Z|48; Loch Modan|N|From Cannary Caskshot.|
@@ -142,9 +142,9 @@ A Explorers' League Document (5 of 6)|QID|13660|M|53.70,38.21|Z|48; Loch Modan|N
 C The Joy of Boar Hunting|QID|27016|M|57.54,34.71|Z|48; Loch Modan|N|Kill 10 Mudbelly Boars.|US|
 C Hornet Hunting|QID|27028|M|54.64,32.21|Z|48; Loch Modan|N|Kill and loot Marsh Hornets.|US|
 H Stoutlager Inn|QID|13658|M|37.17,46.40|Z|48; Loch Modan|N|Hearth back to the Stoutlager Inn in Thelsamar.|
-T Explorers' League Document (4 of 6)|QID|13658|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
-T Explorers' League Document (5 of 6)|QID|13660|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
-T Explorers' League Document (6 of 6)|QID|13659|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
+T Explorers' League Document (4 of 6)|QID|13658|M|37.18,46.32|Z|48; Loch Modan|N|To Torren Squarejaw.|
+T Explorers' League Document (5 of 6)|QID|13660|M|37.18,46.32|Z|48; Loch Modan|N|To Torren Squarejaw.|
+T Explorers' League Document (6 of 6)|QID|13659|M|37.18,46.32|Z|48; Loch Modan|N|To Torren Squarejaw.|
 F Farstrider Lodge|QID|27031|M|33.96,50.88|Z|48; Loch Modan|N|Fly to Farstrider Lodge.|
 h The Farstrider Lodge|QID|27031|M|81.91,64.60|Z|48; Loch Modan|N|At Vyrin Swiftwind.|
 T Wing Nut|QID|27031|M|81.68,64.66|Z|48; Loch Modan|N|To Bingles Blastenheimer.|
