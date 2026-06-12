@@ -69,30 +69,28 @@ N Cure Poison Class Quest|AVAILABLE|6126|N|Instead of making a special trip back
 A Supplying the Sepulcher|QID|6321|M|43.43,41.69|Z|1421; Silverpine Forest|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|PRE|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|From Karos Razok.|R|Undead|
-F Undercity|ACTIVE|447|M|45.62,42.60|Z|1421; Silverpine Forest|
-R The Apothecarium|ACTIVE|447^1359|M|52.61,52.77|Z|1458;Undercity|N|Make your way to The Apothecarium in the southwest corner of Undercity.
-T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|CC|Z|1458; Undercity|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
+F Undercity|ACTIVE|447|M|45.62,42.60|Z|1421; Silverpine Forest|TZ|Undercity|N|Fly to Undercity.|
+R The Apothecarium|ACTIVE|447^1359|M|52.61,52.77|Z|1458;Undercity|N|Make your way to The Apothecarium in the southwest corner of Undercity.|
+T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|CC|Z|1458; Undercity|N|To Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Cross the bridge over the canal to the outer ring and make your way to the passage way\n \nDo not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|1458; Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|PRE|1359|M|50.15,67.93|Z|1458; Undercity|N|From Apothecary Zinge.|
 
-T Ride to the Undercity|QID|6323|M|61.51,41.81|Z|1458; Undercity|N|To Gordon Wendham.|R|Undead|
+T Ride to the Undercity|QID|6323|M|61.51,41.81|Z|1458; Undercity|N|To Gordon Wendham.|
 A Michael Garrett|QID|6322|PRE|6324|M|61.51,41.81|Z|1458; Undercity|N|From Gordon Wendham.|R|Undead|
-T Michael Garrett|QID|6322|M|63.26,48.54|Z|1458; Undercity|N|To Michael Garrett.|R|Undead|
+T Michael Garrett|QID|6322|M|63.26,48.54|Z|1458; Undercity|N|To Michael Garrett.|
 A Return to Podrig|QID|6324|PRE|6322|M|63.26,48.54|Z|1458; Undercity|N|From Michael Garrett.|R|Undead|
 F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|1458; Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|M|43.43,41.69|Z|1421; Silverpine Forest|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
 R North Tide's Hollow|ACTIVE|423|M|44.78,34.34|Z|1421; Silverpine Forest|N|Exit the Sepulcher through the gap in the hills on the north side. Follow the hill down to the bottom.\n[color=FF0000]NOTE: [/color]This is a one way trip. You cannot climb back up this way.|
-C Arugal's Folly|QID|423|QO|1;2|M|44.12,31.76|Z|1421; Silverpine Forest|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 20-25 Elite that roams the area.|
-R The Decrepit Ferry|ACTIVE|438|M|49.73,28.53;52.11,30.01;54.63,31.24|Z|1421; Silverpine Forest|CC|N|Make your way to the bridge on the main road. Cross the bridge and follow the south shore east.\n[color=FF0000]NOTE: [/color]The mobs in this area (Hand of Ravenclaw) hit hard and they roam considerably.|
+C Arugal's Folly|QID|423|QO|1;2|M|44.12,31.76|Z|1421; Silverpine Forest|L|3156 6;3157 3|ITEM|3156;3157|N|Moonrage Gluttons and Darksouls.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 20-25 Elite that roams the area.|
+R The Decrepit Ferry|ACTIVE|438|M|49.73,28.53;52.11,30.01;54.63,31.24|CC|Z|1421; Silverpine Forest|N|At the bridge on the main road, cross the bridge and follow the south shore east.\n[color=FF0000]NOTE: [/color]The mobs in this area (Hand of Ravenclaw) hit hard and they roam considerably.|
 T The Decrepit Ferry|QID|438|M|58.41,34.83|Z|1421; Silverpine Forest|N|Drop into the water and follow the shoreline around to where the dock is. Click on the Decrepit Ferry to turn in the quest.|
 A Rot Hide Clues|QID|439|PRE|438|M|58.41,34.83|Z|1421; Silverpine Forest|N|From the Decrepit Ferry.|
-T Border Crossings|QID|477|M|51.70,56.16;49.92,60.28|Z|1421; Silverpine Forest|CC|N|Head towards the hills to the south and follow them back to the main road. Continue south to an alcove on the west side of the road. Click on the Dalaran Crate at the camp to turn in the quest.\n[color=FF0000]NOTE: [/color]It's best to work your way around to the back of the camp and try pulling\picking them off from there. There are at least 3 Frost mages that you WILL need to take out; 2 on either side of the crate and the 1 on the hill south of it (each can be done solo).\nBe warned, they will run and you will be frost slowed. That's why it's a good idea to start with the furthest and work your way in.\nOr, just Leeroy it and hope for the best.|
-T Rot Hide Clues|QID|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec.|
-A The Engraved Ring|QID|440|PRE|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|From High Executor Hadrec.|
+T Border Crossings|QID|477|M|51.70,56.16;49.92,60.28|CC|Z|1421; Silverpine Forest|N|To the Dalaran Crate at the camp.\n[color=FF0000]NOTE: [/color]Head towards the hills to the south and follow them back to the main road. Continue south to an alcove on the west side of the road.\n \nThere are at least 3 Frost mages that you WILL need to take out; 2 on either side of the crate and the 1 on the hill south of it (each can be done solo).\nIt's best to work your way around to the back of the camp and starting with the furthest and working your way in, try pulling\picking them off from there.\nBe warned, they will run and you'll be frost slowed.\n \nOr, just Leeroy it and hope for the best.|
 A Maps and Runes|QID|478|PRE|477|M|40.92,60.28|Z|1421; Silverpine Forest|N|From the Dalaran Crate.|
-L Level 15|QID|478|N|Make sure you are within 3 bubbles of level 15 before heading back to the Sepulcher. You'll be starting your class quest shortly.|LVL|15;-1920|R|Undead,Troll|C|Mage|
-H The Sepulcher|ACTIVE|478|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elem Mine, run back to The Sepulcher instead.\n(I strongly recommend it)|
+L Level 15|ACTIVE|478|N|Grind until you're within 3 bubbles of level 15.|LVL|15;-1920|
+R The Sepulcher|ACTIVE|478|M|46.21,41.59|Z|1421; Silverpine Forest|N|Return back to The Sepulcher.\n[color=FF0000]NOTE: [/color]Follow the road or take the short cut through the hills.\n \nYou'll want to save your hearth for Deep Elem Mine... and I strongly recommend you do.|
 T Maps and Runes|QID|478|M|43.97,40.93|Z|1421; Silverpine Forest|N|To Shadow Priest Allister.|
 A Dalar's Analysis|QID|481|PRE|478|M|43.97,40.93|Z|1421; Silverpine Forest|N|From Shadow Priest Allister.|
 T Arugal's Folly|QID|423|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Dawnweaver.|
@@ -101,6 +99,8 @@ T Dalar's Analysis|QID|481|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Da
 A Dalaran's Intentions|QID|482|PRE|481|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|Z|1421; Silverpine Forest|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|PRE|482|M|43.97,40.93|Z|1421; Silverpine Forest|N|From Shadow Priest Allister.|
+T Rot Hide Clues|QID|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec.|
+A The Engraved Ring|QID|440|PRE|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|From High Executor Hadrec.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
 N Spellfire Robe|AVAILABLE|1959|N|[color=FF0000]NOTE: [/color]Unlike the Druid quest, your class quest is done in this area.\nIt's in your best interest to make the trip now to start this class quest chain.|R|Undead,Troll|C|Mage|
@@ -108,7 +108,7 @@ F Undercity|AVAILABLE|1959|M|45.62,42.60|Z|1421; Silverpine Forest|N|Fly to Unde
 R Leave Undercity|AVAILABLE|1959|M|65.99,36.85;66.22,0.90;66.22,1.27|CC|Z|1458; Undercity|N|Take the elevator up and leave Undercity through the front gates.|R|Undead,Troll|C|Mage|
 b Durotar|AVAILABLE|1959|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|R|Undead,Troll|C|Mage|
 R Enter Orgrimmar|AVAILABLE|1959|M|45.52,12.07|CC|Z|1411; Durotar|N|Make your way to the south entrance.|R|Undead,Troll|C|Mage|
-f Origrimmar|AVAILABLE|1959|M|45.35,63.92|Z|1454; Orgrimmar|N|Doras|R|Undead,Troll|C|Mage|TAXI|-Orgrimmar|
+f Origrimmar|AVAILABLE|1959|M|45.35,63.92|Z|1454; Orgrimmar|N|Doras|R|Undead,Troll|C|Mage|
 A Report to Anastasia|QID|1959|M|45.35,63.92;39.16,86.27|CC|Z|1454; Orgrimmar|N|From Uthel'nay in the Valley of Spirits.|LVL|15|R|Undead,Troll|C|Mage|
 R Leave Orgrimmar|ACTIVE|1959|M|52.42,84.43|CC|Z|1454; Orgrimmar|N|Exit Orgrimmar through the south gate.\nDrop to the lower level using the building roofs|R|Undead,Troll|C|Mage|
 b Tirisfal Glades|ACTIVE|1959|M|50.88,13.83|Z|1411; Durotar|N|Take the Zepplin to Tirisfal Glade.|R|Undead,Troll|C|Mage|
@@ -122,24 +122,24 @@ C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|1458; Undercity|N|Use 
 C Investigate the Alchemist Shop|QID|1960|QO|1|M|51.47,74.48|Z|1458; Undercity|N|Subdue the creatures with your spells and use a coffer to capture them.|U|7247|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|1458; Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|PRE|1960|M|85.13,10.07|Z|1458; Undercity|N|From Anastasia Hartwell.|R|Undead,Troll|C|Mage|
-F The Sepulcher|QID|1961|M|63.26,48.54|Z|1458; Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
+F The Sepulcher|ACTIVE|1961|M|63.26,48.54|Z|1458; Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
 ; ---
 
 ; lv 15
-R Deep Elem Mine|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|Z|1421; Silverpine Forest|CC|N|Head to Deep Elem Mine. We are taking a shortcut to get to the mine entrance. It's not necessary to go all the way around.|
-C Arugal's Folly|QID|424|QO|1|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|Z|1421; Silverpine Forest|CC|N|Enter Deep Elem Mine and fight your way to the back of the mine. Kill Grimson the Pale and loot his head.\n[color=FF0000]NOTE: [/color]The faster you do this, the less likely you are to get as many repops should you have to fight your way out.|
-H The Sepulcher|ACTIVE|424|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, be prepared to fight your way out (if you didn't respawn outside).|
+R Deep Elem Mine|ACTIVE|424|QO|1|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|Z|1421; Silverpine Forest|N|Head to Deep Elem Mine.NOTE We are taking a shortcut to get to the mine entrance. It's not necessary to go all the way around.|
+C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|Z|1421; Silverpine Forest|L|3634|ITEM|3634|N|Grimson the Pale at the back of the mine.\n[color=FF0000]NOTE: [/color]The faster you do this, the less likely you are to get as many repops should you have to fight your way out.|
+H The Sepulcher|ACTIVE|424|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, be prepared to fight your way out.\nIf you die, respawn outside (if you can).|
 T Arugal's Folly|QID|424|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Dawnweaver.|
 
 C Gathering Materials|QID|1961|QO|1;2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
 R Ambermill|ACTIVE|479|M|55.71,64.46|Z|1421; Silverpine Forest|N|Make your way to Ambermill.|
-C Ambermill Investigations|QID|479|L|3354 8|N|Kill the residents to collect your Dalaran pendants.\n \n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.\nWatch out for the Mages; they pack a wallop.|
+C Ambermill Investigations|QID|479|L|3354 8|ITEM|3354|N|Dalaran residents to collect your Dalaran pendants.\n \n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.\nWatch out for the Mages; they pack a wallop.|
 C Gathering Materials|QID|1961|QO|1;2|N|Finish collecting the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|US|
-R The Sepulcher|QID|479|M|44.51,41.47|Z|1421; Silverpine Forest|N|Return to The Sepulcher.|
+R The Sepulcher|ACTIVE|479|M|44.51,41.47|Z|1421; Silverpine Forest|N|Return to The Sepulcher.|
 T Ambermill Investigations|QID|479|M|43.97,40.93|Z|1421; Silverpine Forest|N|To Shadow Priest Allister.|
-F Undercity|QID|440|M|45.62,42.60|Z|1421; Silverpine Forest|
+F Undercity|ACTIVE|440|M|45.62,42.60|Z|1421; Silverpine Forest|
 T Gathering Materials|QID|1961|M|70.6,30.6|Z|1458; Undercity|N|To Josef Gregorian, Artisan Tailor.|R|Undead,Troll|C|Mage|
-R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|CC|Z|1458; Undercity|TZ|1420; Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|
+R Leave Undercity|ACTIVE|440|M|65.99,36.85;66.22,0.90;66.22,1.27|CC|Z|1458; Undercity|TZ|1420; Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|
 T The Engraved Ring|QID|440|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate Sevren in Brill.|
 A Raleigh and the Undercity|QID|441|PRE|440|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From Magistrate Sevren.|
 R Undercity|ACTIVE|441|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Return to Undercity.|
