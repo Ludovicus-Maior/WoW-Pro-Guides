@@ -529,8 +529,8 @@ C To Deatholme|QID|86635|QO|2|M|44.33,84.80|Z|2395; Eversong Woods|CHAT|N|Speak 
 T To Deatholme|QID|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Void Walk With Me|QID|86636|PRE|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|From Magister Umbric.|
 C Void Walk With Me|QID|86636|QO|1|M|45.48,86.18|Z|2395; Eversong Woods|N|Enter Deathholme Delve.|NC|
-C Void Walk With Me|QID|86636|QO|2|M|63.55,33.49|Z|2395; Eversong Woods|N|Slay Lord Antenorian.|
-C Void Walk With Me|QID|86636|QO|3|M|63.44,29.21|Z|2395; Eversong Woods|N|Reclaimed Stolen Knowledge.|NC|
+C Void Walk With Me|QID|86636|QO|4|M|63.55,33.49|Z|2395; Eversong Woods|N|Slay Lord Antenorian.|
+C Void Walk With Me|QID|86636|QO|5|M|63.44,29.21|Z|2395; Eversong Woods|N|Reclaimed Stolen Knowledge.|NC|
 T Void Walk With Me|QID|86636|M|44.69,85.19|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Anything but Reprieve|QID|86637|PRE|86636|M|44.64,85.28|Z|2395; Eversong Woods|N|From Arator.|
 C Anything but Reprieve|QID|86637|QO|1|M|44.64,85.28|Z|2395; Eversong Woods|N|Contact Silvermoon.|NC|
