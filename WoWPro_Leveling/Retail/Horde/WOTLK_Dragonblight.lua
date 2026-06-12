@@ -79,6 +79,8 @@ C WANTED: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
 C Avenge this Atrocity! |QID|12006|US|N|Finish killing the needed mobs.|M|19,58|
 T Avenge this Atrocity! |QID|12006|N|To Ethenial Moonshadow.|M|24.00,60.00|
 A End Arcanimus |QID|12013|PRE|12006|M|24.2,60.1|N|From Ethenial Moonshadow.|
+K Arcanimus |QID|12013|QO|1|N|Kill Arcanimus right now while you're already in the area — no need to come back later.|M|20.00,60.00|; Arcanimus slain: 1/1
+T End Arcanimus |QID|12013|N|Use the Surge Needle Teleporter, then turn this quest into Ethenial Moonshadow.|M|24.00,60.00|U|36747|
 T WANTED: Magister Keldonus |QID|12089|N|To Captain Gort.|M|35.8,48.4|
 T The Flesh-Bound Tome |QID|12057|N|To Captain Gort.|
 A Koltira and the Language of Death |QID|12115|M|35.8,48.4|PRE|12057|N|From Captain Gort.|
@@ -99,9 +101,7 @@ A In Service of Blood |QID|12125|M|37.1,46.5|N|From Koltira Deathweaver.|
 A In Service of Frost |QID|12127|M|37.1,46.5|N|From Koltira Deathweaver.|
 A In Service of the Unholy |QID|12126|M|37.1,46.5|N|From Koltira Deathweaver.|
 C Blightbeasts be Damned! |QID|12072|N|Head to Icemist Village, use Valnok's Flare gun and get on the Kor'kron War Rider. Ability 1 is a quick fire attack; Ability 2 is a powerful AoE; Ability 3 is an almost complete heal, so save it for when you're nearly dead. Keep moving and dodge the Blight Shrieks.|U|36774|
-K Arcanimus |QID|12013|QO|1|N|Go down to the waypoint and kill Arcanimus.|M|20.00,60.00|; Arcanimus slain: 1/1
-C Projections and Plans |QID|12061|U|36747|N|Use the teleporter, then walk forward until you complete the quest.|M|22.2,54.8|
-T End Arcanimus |QID|12013|N|Use the Surge Needle Teleporter, then turn this quest into Ethenial Moonshadow.|M|24.00,60.00|U|36747|
+C Projections and Plans |QID|12061|U|36747|N|Head to the Surge Needle (~22, 54). Use the teleporter, then walk forward until you complete the quest.|M|22.2,54.8|
 T Blightbeasts be Damned! |QID|12072|N|To Valnok Windrager.|M|37.2,45.7|
 T Projections and Plans |QID|12061|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A The Focus on the Beach |QID|12066|M|38.1,46.2|PRE|12061|N|From the Image of Archmage Aethas Sunreaver.|
@@ -111,11 +111,10 @@ T The Focus on the Beach |QID|12066|N|To the Image of Archmage Aethas Sunreaver.
 A Atop the Woodlands |QID|12084|M|38.1,46.2|PRE|12066|N|From the Image of Archmage Aethas Sunreaver.|
 A Strengthen the Ancients |QID|12096|M|36.5,47.9|N|From Earthwarden Grife.|
 C Strengthen the Ancients |S|QID|12096|U|36786|N|Look for Woodlands Walkers. Dismount, and right click. They'll either attack or give you some bark. You can loot the bark off the ones that attack. Use the Bark on the non-aggressive Ancients.|M|31.2,59.7|
-K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36779|M|32,71|
-K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36780|M|32,71|
+K Lieutenant Ta'zinni |QID|12085|T|Lieutenant Ta'zinni|N|He drops 2 quest items from a single kill — the Amulet (for Atop the Woodlands) AND the Letter (for A Letter for Home). Make sure you loot both before moving on.|L|36779|L|36780|M|32,71|
 C Atop the Woodlands |QID|12084|U|36779|N|Use the amulet next to the big arch.|M|32.2,71.2|
 A A Letter for Home |QID|12085|U|36780|M|32.2,70.6|N|From Lieutenant Ta'zinni's Letter.|
-C Strengthen the Ancients |US|QID|12096|U|36786|N|Use the Bark of the Walkers on the Ancients. It will only work on those who are not aggressive.|M|31.2,59.7|
+C Strengthen the Ancients |US|QID|12096|U|36786|T|Woodlands Walker|N|Use the Bark of the Walkers on the Ancients. It will only work on those who are not aggressive.|M|31.2,59.7|
 T Strengthen the Ancients |QID|12096|N|To Earthwarden Grife.|M|36.5,47.9|
 T Atop the Woodlands |QID|12084|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A Search Indu'le Village |QID|12106|M|38.1,46.2|PRE|12084|N|From the Image of Archmage Aethas Sunreaver.|
@@ -167,11 +166,12 @@ A Meat on the Hook |QID|12017|PRE|12016|M|47.7,76.6|N|From Tua'kea.|
 K Tu'u'gwar |QID|12017|QO|1|U|35838|N|Follow the fishing line (which actually looks more like a big rope), southwest into the water, all the way to Tua'kea's Fishing Hook. Use Tu'u'gwar's Bait, then kill Tu'u'gwar.|M|46.7,78.2|; Tu'u'gwar slain: 1/1
 T Meat on the Hook |QID|12017|N|To Tua'kea.|M|47.7,76.6|
 T Conversing With the Depths |QID|12032|N|To Toalu'u The Mystic.|M|49.12,75.68|
+N Hearthstone Cooldown Check|QID|12090|N|==Note== You used your hearthstone earlier to return to Moa'ki Harbor from the Briny Pinnacle. If it is still on cooldown (2 hours), fly to Agmar's Hammer from Moa'ki Harbor's flight master instead — the flight path exists. Do NOT wait for the cooldown; just use the flight master.|
 F Agmar's Hammer|QID|12090|N|Fly to Agmar's Hammer.|M|48.51,74.38|
 T WANTED: Gigantaur |QID|12090|N|To Captain Gort.|M|35.8,48.2|
 T The End of the Line |QID|12110|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A Gaining an Audience |QID|12122|M|38.1,46.2|PRE|12110|N|From the Image of Archmage Aethas Sunreaver.|
-A Imbeciles Abound! |QID|12189|PRE|12182|M|36.1,48.8|N|From Doctor Sintar Malefious.|
+A Imbeciles Abound! |QID|12189|PRE|12182|M|36.1,48.8|N|From Doctor Sintar Malefious. ==Note== You've visited Sintar twice now — that's intentional. His first chain (The Good Doctor / In Search of the Ruby Lilac) required picking up the Ruby Lilac from the Ruby Dragonshrine, which you'll collect later. The Imbeciles Abound! chain is separate and unlocked by The Forsaken Blight prerequisite from Venomspite, so the two visits are chain-gated, not an error in the guide.|
 T In Service of Blood |QID|12125|M|37.1,46.5|N|To Koltira Deathweaver.|
 F Wrymrest Temple|QID|12122|M|37.51,45.76|N|Fly to Wrymrest Temple.|
 T Gaining an Audience |QID|12122|N|Tariolstrasz, the dragon you want to see, is on the west side of Wyrmrest Temple.|M|58,54|
@@ -213,6 +213,7 @@ T Beachfront Property |QID|12304|M|79,65|N|To Surveyor Hansen.|
 T Funding the War Effort |QID|12303|N|To Quartermaster Bartlett.|M|76,63.2|
 T The Forsaken Blight and You: How Not to Die |QID|12188|M|77.7,62.8|N|To Chief Plaguebringer Middleton.|
 A Emerald Dragon Tears |QID|12200|M|77.7,62.8|PRE|12188|N|From Chief Plaguebringer Middleton.|
+N Emerald Dragon Tears Detour|QID|12200|N|==Note== This sends you back to the Emerald Dragonshrine (~63, 70), which you visited earlier. Unfortunately this detour cannot be avoided — Emerald Dragon Tears is gated behind The Forsaken Blight and You, which is only available here at Venomspite. The orbs are easy to loot and the round trip is quick; just be aware you are heading west and coming straight back.|
 C Emerald Dragon Tears |QID|12200|M|63.3,70.3|N|Head to the Emerald Dragonshrine. Loot the tears off of the ground (sparkling, green-glowing orbs).|
 T Emerald Dragon Tears |QID|12200|M|77.7,62.8|N|To Chief Plaguebringer Middleton.|
 A Spread the Good Word |QID|12218|M|77.7,62.8|PRE|12200|N|From Chief Plaguebringer Middleton.|
@@ -227,7 +228,7 @@ T Materiel Plunder |QID|12209|M|76.0,63.3|N|To Quartermaster Bartlett.|
 A Fresh Remounts |QID|12214|M|75.9,61.9|N|From Hansel Bauer.|
 A Stealing from the Siegesmiths |QID|12230|M|77.5,62.0|N|From Deathguard Molder. He wanders around.|
 C Spread the Good Word |QID|12218|N|Hop into a Forsaken Blight Spreader at the east gate. Follow the road to the crossing. Shoot the scourge to the north, hold down the right mouse button to aim. Hop out of the vehicle when you're done.|M|77.8,61.5;86,58|CS|
-A The Call Of The Crusade |QID|12542|LEAD|12545|N|From Tilda Darathan, just east.|M|87,57|
+A The Call Of The Crusade |QID|12542|LEAD|12545|N|From Tilda Darathan, just east. ==Note== You'll carry this quest for a while — it turns in to Crusader Valus at (~84, 26), which is in the north. You'll get there naturally after finishing the Obsidian Dragonshrine chain. Don't backtrack early; just keep it in your log.|M|87,57|
 C Stealing from the Siegesmiths |NC|QID|12230|S|M|85.0,51.1|N|Loot any bombs you see.|
 C That Which Creates Can Also Destroy |QID|12459|QO|2|U|37887|N|Head into the keep in the center of the Carion Fields. Use the Seeds of Nature's Wrath on Turgid the Vile inside and kill him.|M|86,47|; Weakened Turgid the Vile slain: 1/1
 C Stealing from the Siegesmiths |NC|QID|12230|US|N|They can be found in the other buildings of the Carrion Fields, but this is the best spot.|M|85.0,51.1|
