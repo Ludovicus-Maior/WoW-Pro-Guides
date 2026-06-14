@@ -283,7 +283,7 @@ A Call of Fire|QID|1525|PRE|1524|M|38.52,58.92|Z|1411; Durotar|N|From Telf Joola
 R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
 C Call of Fire|QID|1525|M|57.04,23.08|Z|1413; The Barrens|L|5026|ITEM|5026|N|Razormane Geomancers, Thornweavers, Water Seekers, or Mystics in Thorn Hill (SW of Far Watch Outpost).|
 R Dustwind Cave|ACTIVE|1525|M|50.63,43.97;54.14,40.68|CS|Z|1411; Durotar|N|Go through Razor Hill and exit out the east gate. Go up the hill and follow the ridge north to the cave entrance.|R|Tauren|C|Shaman|
-C Call of Fire|QID|1525|Z|1412; Mulgore|L|6652|ITEM|6652|N|CoordsBurning Blade Cultists.|
+C Call of Fire|QID|1525|Z|1412; Mulgore|L|6652|ITEM|6652|N|{COORDS}Burning Blade Cultists.|
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|1411; Durotar|N|From Takrin Pathseeker.\n[color=FF0000]NOTE: [/color]We pick this up because its and free XP.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1525|M|38.52,58.92|Z|1411; Durotar|N|Make your way back to Telf Joolam.|
 R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
@@ -294,8 +294,8 @@ A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|1412; Mulgore|N|From K
 R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|CC|Z|1413; The Barrens|N|From here, take the road north to the bend before Boulder Lode Mine.|
 R Orgrimmar|AVAILABLE|445|M|52.42,84.43|Z|1454; Orgrimmar|N|At this point, you can either take your chances with the level 15+ mobs and make a run straight north for the west entrance to Orgrimmar (not recommended), or cross the Southfury River and head for the south entrance.NOTE We'll be crossing the river and your best bet is to stick to the shoreline, following it north to the mountain wall and then east to the entrance. The mobs in this area should be level 10ish.|
 f Orgrimmar|AVAILABLE|445|M|45.11,63.89|Z|1454; Orgrimmar|N|Get the FP from Doras at the top of the tower.|TAXI|-Orgrimmar|
-R Leave Orgrimmar|AVAILABLE|445|M|45.56,12.20|Z|1411; Durotar|CC|N|Exit Orgrimmar through the south gate.|
-N READ FIRST: Druids|AVAILABLE|445|Z|1412; Mulgore|N|[color=FF0000]NOTE: [/color]Unfortunately, there are no Druid class trainers outside of Kalimdor. Therefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar. Either way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\nNOTECONT|C|Druid|
+R Leave Orgrimmar|AVAILABLE|445|M|45.56,12.20|Z|1411; Durotar|TZ|Durotar|N|Exit Orgrimmar through the south gate.|
+N Druid trainers|AVAILABLE|445|N|[color=FF0000]NOTE: [/color]Unfortunately, there are no Druid class trainers outside of Kalimdor. Therefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar. Either way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\nNOTECONT|C|Druid|
 
 ]]
 end)
