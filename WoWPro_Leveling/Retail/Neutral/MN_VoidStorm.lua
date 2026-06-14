@@ -778,7 +778,9 @@ t A Golden Pull|QID|94056|M|40.89,83.99|Z|2444; Slayer's Rise|N|To Vidious.|
 T Contract of Service|QID|94408|QO|1|M|40.96,83.86|Z|2444; Slayer's Rise|N|To Pursewarden of Grief.|
 t Old War Grudge|QID|94402|M|40.79,84.00|Z|2444; Slayer's Rise|N|To Amari Lyndon.|
 
-C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
+K Across Worlds|QID|90875|M|33.38,80.97|Z|2405; Voidstorm|QO|1|N|Defeat Snaerius.|
+C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|QO|2|Z|2405; Voidstorm|N|Back to Exile's Hovel.|
+C Across Worlds|QID|90875|M|39.36,48.04|QO|3|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
 T Across Worlds|QID|90875|M|39.34,48.05|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 
 t Research Console: Exploring the Void|QID|94790|M|52.58,72.90|Z|2405; Voidstorm|N|Back to Void Researcher Anomander for another point on your zone talent tree.|
