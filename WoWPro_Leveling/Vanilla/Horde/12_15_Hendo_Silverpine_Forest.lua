@@ -13,7 +13,7 @@ R Leave Undercity|AVAILABLE|445|M|65.99,36.85;66.22,0.90|CC|Z|1458; Undercity|N|
 R Brill|AVAILABLE|445|M|61.49,53.75|Z|1420; Tirisfal Glades|N|Brill is just to the north of you.|
 A Delivery to Silverpine Forest|QID|445|M|59.45,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
 ; --- UC Entrance and FP
-R Undercity|ACTIVE|445|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Enter Undercity.NOTE You can either follow the road, or go back over the hill.|R|-Undead|
+R Undercity|ACTIVE|445|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Enter Undercity.\n[color=FF0000]NOTE: [/color]You can either follow the road, or go back over the hill.|R|-Undead|
 f Undercity|ACTIVE|445|M|63.26,48.54|Z|1458; Undercity|N|Grab the FP from Michael Garrett.\n[color=FF0000]NOTE: [/color]This FP will not populate until you have a connecting one (The Sepulcher).\nManually check this step off if you've already gotten it.|R|-Undead| ; TAXI won't work here. - Hendo72
 ; --- Travel to Silverpine Forest
 R Tirisfal Glades|ACTIVE|445|M|51.02,71.59|Z|1420; Tirisfal Glades|N|Exit Undercity through the Sewers.\n[color=FF0000]NOTE: [/color]You'll come out at the Scarlet Tower where you were before.|R|Undead|IZ|1458; Undercity|
@@ -29,21 +29,20 @@ T Delivery to Silverpine Forest|QID|445|M|42.80,40.86|Z|1421; Silverpine Forest|
 A A Recipe For Death|QID|447|M|42.80,40.86|Z|1421; Silverpine Forest|N|From Apothecary Renferrel.|
 A Border Crossings|QID|477|M|43.97,40.93|Z|1421; Silverpine Forest|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
-
-C A Recipe For Death|QID|447|QO|1|M|48.28,19.70|Z|1421; Silverpine Forest|L|3253 6|ITEM|3253|N|Ferocious/Giant Grizzled Bears.NOTEDon't go out of your way to get them.|S|
+C A Recipe For Death|QID|447|M|51.36,39.07|Z|1421; Silverpine Forest|L|3253 6;3254 6|ITEM|3253;3254|N|Grizzled Bear and spiders.\n[color=FF0000]NOTE: [/color]Do not go out of your way to get them. You will come to a good spot later.|S|
 C Prove Your Worth|QID|421|QO|1|M|47.97,40.43|Z|1421; Silverpine Forest|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
 T Lost Deathstalkers|QID|428|M|53.47,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
-C Wild Hearts|QID|429|QO|1|M|56.25,11.33|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|any Worgs.|S|
+C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
 A Escorting Erland|QID|435|M|56.18,9.18|Z|1421; Silverpine Forest|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Deathstalker Erland inside the house at Malden's Orchard.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you have to wait for them to finish, or he's dead and you're waiting for him to respawn.|NA|
 A Escorting Erland|QID|435|M|56.18,9.18|Z|1421; Silverpine Forest|N|[color=FF0000]NOTE: [/color]You failed the quest.\nGo back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
 C Escorting Erland|QID|435|M|54.07,13.56|Z|1421; Silverpine Forest|N|Escort Erland to Rane Yorick in Ivar Patch.\n[color=FF0000]NOTE: [/color]Let him pull the aggro, but DO NOT leave him to tank or he will die.|
 T Escorting Erland|QID|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick (after they finish the convo).|
 ; lv 13
 A The Deathstalkers' Report|QID|449|PRE|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
-C Prove Your Worth|ACTIVE|421|QO|1|M|55.75,18.26|Z|1421; Silverpine Forest|N|Finish killing the Moonrage Whitescalps.|T|Moonrage Whitescalp|US|
-C Wild Hearts|QID|429|QO|1|M|49.07,23.85|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|any Worgs.|US|
-H The Sepulcher|ACTIVE|421|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth or run back to the Sepulcher.|
+C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|T|Mottled Worg|US|
+C Prove Your Worth|QID|421|M|55.75,18.26|Z|1421; Silverpine Forest|N|Finish killing the Moonrage Whitescalps.|T|Moonrage Whitescalp|US|
+R The Sepulcher|ACTIVE|421|M|46.21,41.59|Z|1421; Silverpine Forest|N|Run back to the Sepulcher.|
 
 T Prove Your Worth|QID|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|422|PRE|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
@@ -63,10 +62,10 @@ R The Dead Field|ACTIVE|437|QO|2|M|47.14,20.17|Z|1421; Silverpine Forest|N|Head 
 C The Dead Fields|QID|437|QO|1|M|45.34,21.10|Z|1421; Silverpine Forest|L|3622|ITEM|3622|N|Nightlash after clearing the area.\n[color=FF0000]NOTE: [/color]If she's not there, kill all the Rot Hide Gnolls you see until she spawns.\nMake sure you keep the area cleared or you'll get overwhelmed very quickly.|T|Nightlash|
 C A Recipe For Death|QID|447|M|35.92,15.37|Z|1421; Silverpine Forest|L|3254 6|ITEM|3254|N|Moss Stalkers in The Skittering Dark.|S|
 C A Recipe For Death|QID|447|M|38.50,15.85|Z|1421; Silverpine Forest|L|3253 6|ITEM|3253|N|Ferocious/Giant Grizzled Bears.|US|
-C A Recipe For Death|QID|447|M|35.92,15.37|Z|1421; Silverpine Forest|L|3254 6|ITEM|3254|N|Moss Stalkers in The Skittering Dark.\n[color=FF0000]NOTE: [/color]There are more inside the mine, but don't go too deep.\nKeep an eye out for Krethis Shadowspinner (lv 15 rare) that spawns at the mine entrance.\nIf you need bag space, there's a vendor down by the water.|T|Moss Stalker|US|
+C A Recipe For Death|QID|447|M|35.91,15.07|Z|1421; Silverpine Forest|L|3253 6;3254 6|ITEM|3253;3254|N|Grizzled Bear and spiders.\n[color=FF0000]NOTE: [/color]Don't go in the mine unless you have to.\nKeep an eye out for Krethis Shadowspinner (lv 15 rare) that spawns at the mine entrance.\n \nIf you need bag space, there's a vendor down by the water.|T|Moss Stalker|US|
 B Cooking recipes|ACTIVE|437|M|33.00,17.84|Z|1421; Silverpine Forest|N|From Killian Sanatha.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 L Level 14|ACTIVE|437|N|Grind until you're level 14.|LVL|14|C|Druid|
-P Moonglade|ACTIVE|437|N|Use your 'Teleport: Moonglade'.NOTE Use this before you hearth back to the Sepulcher.|R|Tauren|C|Druid|
+P Moonglade|ACTIVE|437|N|Use your 'Teleport: Moonglade'.\n[color=FF0000]NOTE: [/color]Use this before you hearth back to the Sepulcher.|R|Tauren|C|Druid|
 = Level 14 Training|ACTIVE|437|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|IZ|Nighthaven|R|Tauren|C|Druid|
 N Cure Poison Class Quest|AVAILABLE|6126|ACTIVE|437|N|This is generally not worth the time doing as you can simply train 'Abolish Poison' at level 26, which is a better version of the spell.\nIf you still want to do it, do so now.SKIP|SPELL|Cure Poison;8946|R|Tauren|C|Druid|
 H The Sepulcher|ACTIVE|437|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth back to The Sepulcher|
@@ -113,7 +112,7 @@ T Dalar's Analysis|QID|481|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Da
 A Dalaran's Intentions|QID|482|PRE|481|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|Z|1421; Silverpine Forest|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|PRE|482|M|43.97,40.93|Z|1421; Silverpine Forest|N|From Shadow Priest Allister.|
-T Rot Hide Clues|QID|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec inside the crypt.NOTE Don't get the follow-up yet; it won't be done until you return in "Chapter 1".|
+T Rot Hide Clues|QID|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec inside the crypt.\n[color=FF0000]NOTE: [/color]Don't get the follow-up yet; it won't be done until you return in "Chapter 1".|
 A The Engraved Ring|QID|440|PRE|439|M|43.43,40.86|Z|1421; Silverpine Forest|N|From High Executor Hadrec.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
