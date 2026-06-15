@@ -59,7 +59,7 @@ function WoWPro:CreateAction(parent, anchor)
     action.frame = frame
     action:SetAllPoints()
 
-    local tooltip = _G.CreateFrame("Frame", nil, _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local tooltip = _G.CreateFrame("Frame", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tooltip:SetBackdrop( {
         bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
         edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
