@@ -232,7 +232,8 @@ A Hunt the Light|QID|86520|PRE|86519|M|60.08,76.17|Z|2405; Voidstorm|N|From Alle
 C Hunt the Light|QID|86520|QO|1|M|64.00,61.83|Z|2405; Voidstorm|I|N|Travel to Nexus-Point Xenas.|
 T Hunt the Light|QID|86520|M|64.09,61.82|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Nexus-Point Xenas: Eclipse|QID|86521|PRE|86520|M|64.09,61.82|Z|2405; Voidstorm|N|From Alleria Windrunner.|
-C Nexus-Point Xenas: Eclipse|QID|86521|QO|4|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Run the dungeon, after the end talk to Decimus to weaken the storm.|
+C Nexus-Point Xenas: Eclipse|QID|86521|QO|3|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Talk to Alleria to queue for follower dungeon. You can queue for this as a follower dungeon or grab some friends, but either way, you need to run the dungeon to progress the campaign.|
+C Nexus-Point Xenas: Eclipse|QID|86521|QO|4|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|After completing the dungeon, talk to Decimus to weaken the storm.|
 T Nexus-Point Xenas: Eclipse|QID|86521|M|45.93,64.58|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Daylight is Breaking|QID|86522|PRE|86521|M|45.93,64.58|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 P Silvermoon City|ACTIVE|86522|M|45.43,63.77|Z|2405; Voidstorm|N|You can use the Portal for a quick trip, or travel on your own.|IZ|The Approach|
@@ -777,7 +778,9 @@ t A Golden Pull|QID|94056|M|40.89,83.99|Z|2444; Slayer's Rise|N|To Vidious.|
 T Contract of Service|QID|94408|QO|1|M|40.96,83.86|Z|2444; Slayer's Rise|N|To Pursewarden of Grief.|
 t Old War Grudge|QID|94402|M|40.79,84.00|Z|2444; Slayer's Rise|N|To Amari Lyndon.|
 
-C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
+K Across Worlds|QID|90875|M|33.38,80.97|Z|2405; Voidstorm|QO|1|N|Defeat Snaerius.|
+C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|QO|2|Z|2405; Voidstorm|N|Back to Exile's Hovel.|
+C Across Worlds|QID|90875|M|39.36,48.04|QO|3|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
 T Across Worlds|QID|90875|M|39.34,48.05|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 
 t Research Console: Exploring the Void|QID|94790|M|52.58,72.90|Z|2405; Voidstorm|N|Back to Void Researcher Anomander for another point on your zone talent tree.|
