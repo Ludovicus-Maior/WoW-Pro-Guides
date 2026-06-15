@@ -48,7 +48,7 @@ function WoWPro:CreateCheck(parent)
     return check
 end
 
-function WoWPro:CreateAction(parent, anchor)
+function WoWPro:CreateIcon(parent, anchor)
     local frame = _G.CreateFrame("Frame", nil, parent)
     frame:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
     frame:SetWidth(16)
@@ -585,14 +585,14 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     row:SetHeight(rowHeight or 25)
 
     row.check = WoWPro:CreateCheck(row)
-    row.action = WoWPro:CreateAction(row, row.check)
-    row.action.frame:SetScript("OnEnter", function()
+    row.iconTexture = WoWPro:CreateIcon(row, row.check)
+    row.iconTexture.frame:SetScript("OnEnter", function()
         if row.index then
             tooltip:ClearAllPoints()
             if WoWPro.GetSide(WoWPro.MainFrame) == "TOP" then
-                tooltip:SetPoint("TOPLEFT", row.action.frame, "BOTTOMRIGHT", 2, 2)
+                tooltip:SetPoint("TOPLEFT", row.iconTexture.frame, "BOTTOMRIGHT", 2, 2)
             else
-                tooltip:SetPoint("BOTTOMLEFT", row.action.frame, "TOPRIGHT", 2, -2)
+                tooltip:SetPoint("BOTTOMLEFT", row.iconTexture.frame, "TOPRIGHT", 2, -2)
             end
             tooltiptext:SetHeight(125)
             -- Step Tooltip
@@ -608,8 +608,8 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
                                                                             tostring(WoWPro.why[row.index])))
             elseif WoWPro.why and WoWPro.why[row.index] then
                 tooltiptext:SetText(("Step %d: %s"):format(row.index, tostring(WoWPro.why[row.index])))
-            elseif row.action and row.action.tooltip and row.action.tooltip.text then
-                tooltiptext:SetText(tostring(row.action.tooltip.text:GetText() or ""))
+            elseif row.iconTexture and row.iconTexture.tooltip and row.iconTexture.tooltip.text then
+                tooltiptext:SetText(tostring(row.iconTexture.tooltip.text:GetText() or ""))
             else
                 tooltiptext:SetText(("Step %d"):format(row.index))
             end
@@ -618,16 +618,16 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
             tooltip:Show()
         end
     end)
-    row.action.frame:SetScript("OnLeave", function()
+    row.iconTexture.frame:SetScript("OnLeave", function()
         tooltip:Hide()
     end)
---- row.action.frame:RegisterForClicks("AnyUp")
---- row.action.frame:SetScript("OnClick", function(self, button, down)
+--- row.iconTexture.frame:RegisterForClicks("AnyUp")
+--- row.iconTexture.frame:SetScript("OnClick", function(self, button, down)
 ---     WoWPro.PickQuestline(WoWPro.QID[row.index], WoWPro.step[row.index])
 --- end)
 
-    row.step = WoWPro:CreateStep(row, row.action)
-    row.note = WoWPro:CreateNote(row, row.action)
+    row.step = WoWPro:CreateStep(row, row.iconTexture)
+    row.note = WoWPro:CreateNote(row, row.iconTexture)
     return row
 end
 
