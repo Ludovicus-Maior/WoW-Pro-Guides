@@ -903,11 +903,15 @@ function WoWPro.SetMouseNotesPoints()
             note:ClearAllPoints()
             local guideAnchor = WoWPro.GuideFrame or WoWPro.MainFrame
             local noteWidth = note:GetWidth()
+            local noteHeight = note:GetHeight()
             local left = guideAnchor:GetLeft() or 0
             local right = guideAnchor:GetRight() or screenW
+            local top = guideAnchor:GetTop() or screenH
             local placeRight = WoWProDB.profile.leftside
             local canPlaceRight = (right + 10 + noteWidth <= screenW)
             local canPlaceLeft = (left - 10 - noteWidth >= 0)
+            local availableBelow = top - 10
+            local yOffset = 0
 
             -- Prefer the current leftside preference, but flip if the chosen side would be off-screen.
             if placeRight and not canPlaceRight and canPlaceLeft then
@@ -916,10 +920,15 @@ function WoWPro.SetMouseNotesPoints()
                 placeRight = true
             end
 
+            -- If the note would extend below the screen, move it up by the exact amount needed.
+            if noteHeight > availableBelow then
+                yOffset = noteHeight - availableBelow
+            end
+
             if placeRight then
-                note:SetPoint("TOPLEFT", guideAnchor, "TOPRIGHT", 10, 0)
+                note:SetPoint("TOPLEFT", guideAnchor, "TOPRIGHT", 10, yOffset)
             else
-                note:SetPoint("TOPRIGHT", guideAnchor, "TOPLEFT", -10, 0)
+                note:SetPoint("TOPRIGHT", guideAnchor, "TOPLEFT", -10, yOffset)
             end
         end
     end
