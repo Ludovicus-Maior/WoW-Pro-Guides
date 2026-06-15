@@ -121,8 +121,10 @@ frame:SetScript("OnShow", function()
 
             local action = WoWPro.action[index]
             row.iconTexture:SetTexture(WoWPro.Dailies.actiontypes[action])
+            row.iconTexture.tooltip.text = WoWPro.actionlabels[action] or ""
             if WoWPro.noncombat[index] then
                 row.iconTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+                row.iconTexture.tooltip.text = "No Combat"
             end
 
             local note = WoWPro.note[index]

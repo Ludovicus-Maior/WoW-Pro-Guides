@@ -1058,49 +1058,53 @@ function WoWPro.SetActionTexture(currentRow)
     local k = currentRow.index
     local action = WoWPro.action[k]
     local QID = WoWPro.QID[k]
+    if not currentRow or not currentRow.iconTexture then return end
+
+    currentRow.iconTexture.tooltip = currentRow.iconTexture.tooltip or { text = "" }
+    local tooltipText = currentRow.iconTexture.tooltip
 
     -- Set default Texture
     currentRow.iconTexture:SetTexture(WoWPro.actiontypes[action])
-    -- Set custom Texure
-    currentRow.iconTexture.tooltip.text:SetText(WoWPro.actionlabels[action])
+    -- Set custom Texture tooltip text
+    tooltipText.text = WoWPro.actionlabels[action] or ""
     if WoWPro.action[k] == "C" then
         local tex = WoWPro.GetQuestIconActive(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        currentRow.iconTexture.tooltip.text:SetText("Campaign Quest")
+        tooltipText.text = "Campaign Quest"
     end
     if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
         currentRow.iconTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
-        currentRow.iconTexture.tooltip.text:SetText("No Combat")
+        currentRow.iconTexture.tooltip.text = "No Combat"
     elseif WoWPro.hand[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes["HAND TAG"])
-        currentRow.iconTexture.tooltip.text:SetText(WoWPro.actionlabels["HAND TAG"])
+        currentRow.iconTexture.tooltip.text = WoWPro.actionlabels["HAND TAG"]
     elseif WoWPro.inspect[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes["INSPECT TAG"])
-        currentRow.iconTexture.tooltip.text:SetText(WoWPro.actionlabels["INSPECT TAG"])
+        currentRow.iconTexture.tooltip.text = WoWPro.actionlabels["INSPECT TAG"]
     elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes['l'])
-        currentRow.iconTexture.tooltip.text:SetText("Loot Complete")
+        currentRow.iconTexture.tooltip.text = "Loot Complete"
     elseif WoWPro.chat[k] then
         currentRow.iconTexture:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
-        currentRow.iconTexture.tooltip.text:SetText("Chat")
+        currentRow.iconTexture.tooltip.text = "Chat"
     elseif WoWPro.jump[k] then
         currentRow.iconTexture:SetTexture("Interface\\Icons\\spell_arcane_teleportironforge")
-        currentRow.iconTexture.tooltip.text:SetText("Jump")
+        currentRow.iconTexture.tooltip.text = "Jump"
     elseif WoWPro.vehichle[k] then
         -- Yeah, that is how blizzard spelled it!
         currentRow.iconTexture:SetTexture("Interface\\CURSOR\\vehichleCursor")
-        currentRow.iconTexture.tooltip.text:SetText("Take Vehicle")
+        currentRow.iconTexture.tooltip.text = "Take Vehicle"
     elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes[action.." ELITE"])
-        currentRow.iconTexture.tooltip.text:SetText("Elite Quest")
+        currentRow.iconTexture.tooltip.text = "Elite Quest"
     elseif WoWPro.action[k] == "A" then
         local tex = WoWPro.GetQuestIconOffer(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        currentRow.iconTexture.tooltip.text:SetText("Campaign Quest")
+        currentRow.iconTexture.tooltip.text = "Campaign Quest"
     elseif WoWPro.action[k] == "T" then
         local tex = WoWPro.GetQuestIconComplete(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        currentRow.iconTexture.tooltip.text:SetText("Campaign Quest")
+        currentRow.iconTexture.tooltip.text = "Campaign Quest"
     end
 end
 

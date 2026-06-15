@@ -59,46 +59,28 @@ function WoWPro:CreateIcon(parent, anchor)
     action.frame = frame
     action:SetAllPoints()
 
-    local tooltip = _G.CreateFrame("Frame", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    tooltip:SetBackdrop( {
-        bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
-        edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
-        tile = true, tileSize = 16, edgeSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-    })
-    tooltip:SetBackdropColor(0.1, 0.1, 0.1, 1)
-    tooltip:SetHeight(125)
-    tooltip:SetWidth(64)
-    tooltip:SetAlpha(1)
-    tooltip:SetFrameStrata("TOOLTIP")
-    tooltip:Hide()
-
-    local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
-    tooltiptext:SetPoint("TOPLEFT", 10, -10)
-    tooltiptext:SetPoint("RIGHT", -10, 0)
-    tooltiptext:SetJustifyH("LEFT")
-    tooltiptext:SetJustifyV("TOP")
-    tooltiptext:SetWidth(50)
-    tooltiptext:SetAlpha(1)
-    tooltiptext:SetText("")
-    tooltip.text = tooltiptext
+    action.tooltip = { text = "" }
 
     frame:SetScript("OnEnter", function()
-        tooltip:ClearAllPoints()
-        if WoWPro.GetSide(WoWPro.MainFrame) == "TOP" then
-            tooltip:SetPoint("TOPLEFT", frame, "BOTTOMRIGHT", 0, 0)
-        else
-            tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
+        local text = action.tooltip and action.tooltip.text
+        if text and text ~= "" then
+            local gt = _G.GameTooltip
+            local backdrop = {
+                bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+                edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+                tile = true, tileSize = 16, edgeSize = 16,
+                insets = { left = 4, right = 3, top = 4, bottom = 3 }
+            }
+            gt:SetBackdrop(backdrop)
+            gt:SetBackdropColor(0, 0, 0, 0.95)
+            gt:SetOwner(frame, "ANCHOR_RIGHT")
+            gt:SetText(text, nil, nil, nil, nil, true)
+            gt:Show()
         end
-        tooltiptext:SetHeight(125)
-        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
-        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
-        tooltip:Show()
     end)
     frame:SetScript("OnLeave", function()
-        tooltip:Hide()
+        _G.GameTooltip:Hide()
     end)
-    action.tooltip = tooltip
 
     return action
 end
@@ -578,49 +560,11 @@ end
 
 function WoWPro:CreateGuideRow(parent, rowHeight)
     local row = _G.CreateFrame("Frame", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    local tooltip = WoWPro.GuideRowTooltip
-    local tooltiptext = tooltip.tooltiptext
-    tooltip:SetFrameLevel(row:GetFrameLevel() + 1)
     row:SetPoint("LEFT", 12, 0)
     row:SetHeight(rowHeight or 25)
 
     row.check = WoWPro:CreateCheck(row)
     row.iconTexture = WoWPro:CreateIcon(row, row.check)
-    row.iconTexture.frame:SetScript("OnEnter", function()
-        if row.index then
-            tooltip:ClearAllPoints()
-            if WoWPro.GetSide(WoWPro.MainFrame) == "TOP" then
-                tooltip:SetPoint("TOPLEFT", row.iconTexture.frame, "BOTTOMRIGHT", 2, 2)
-            else
-                tooltip:SetPoint("BOTTOMLEFT", row.iconTexture.frame, "TOPRIGHT", 2, -2)
-            end
-            tooltiptext:SetHeight(125)
-            -- Step Tooltip
-            if WoWPro.why and WoWPro.why[row.index] and WoWPro.active[row.index] and not WoWPro.QID[row.index] then
-                tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]),
-                                                                     tostring(WoWPro.why[row.index])))
-            elseif WoWPro.why and WoWPro.why[row.index] and not WoWPro.active[row.index] and WoWPro.QID[row.index] then
-                tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
-                                                                     tostring(WoWPro.why[row.index])))
-            elseif WoWPro.why and WoWPro.why[row.index] and WoWPro.active[row.index] and  WoWPro.QID[row.index] then
-                tooltiptext:SetText(("Step %d/QID %s/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
-                                                                            tostring(WoWPro.active[row.index]),
-                                                                            tostring(WoWPro.why[row.index])))
-            elseif WoWPro.why and WoWPro.why[row.index] then
-                tooltiptext:SetText(("Step %d: %s"):format(row.index, tostring(WoWPro.why[row.index])))
-            elseif row.iconTexture and row.iconTexture.tooltip and row.iconTexture.tooltip.text then
-                tooltiptext:SetText(tostring(row.iconTexture.tooltip.text:GetText() or ""))
-            else
-                tooltiptext:SetText(("Step %d"):format(row.index))
-            end
-            tooltiptext:SetHeight(tooltiptext:GetStringHeight())
-            tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
-            tooltip:Show()
-        end
-    end)
-    row.iconTexture.frame:SetScript("OnLeave", function()
-        tooltip:Hide()
-    end)
 --- row.iconTexture.frame:RegisterForClicks("AnyUp")
 --- row.iconTexture.frame:SetScript("OnClick", function(self, button, down)
 ---     WoWPro.PickQuestline(WoWPro.QID[row.index], WoWPro.step[row.index])
