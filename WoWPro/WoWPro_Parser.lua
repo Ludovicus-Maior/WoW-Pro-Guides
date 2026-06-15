@@ -98,7 +98,7 @@ WoWPro.actionlabels = {
     s = "Take Spirit Healer",
 }
 
-local GetQuestInfoDebug = true
+local GetQuestInfoDebug = false -- Set to true to enable debug output for GetQuestInfo calls to verify that quest information is being retrieved correctly
 function WoWPro.GetQuestInfo(QuidList)
     if tonumber(QuidList) and WoWPro.QuestLog[tonumber(QuidList)] then
         local result = WoWPro.QuestLog[tonumber(QuidList)]
