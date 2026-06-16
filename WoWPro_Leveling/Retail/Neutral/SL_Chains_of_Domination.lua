@@ -236,11 +236,11 @@ A Gates of the Damned|QID|63613|PRE|63612|M|62.88,65.99|Z|1543;The Maw|N|From Ba
 A Clip Their Wings|QID|63615|PRE|63612|M|PLAYER|Z|1543;The Maw|N|From Baroness Draka.|
 A Weapon in Hand|QID|63614|PRE|63612|M|PLAYER|Z|1543;The Maw|N|From Thrall.|
 C Clip Their Wings|QID|63615|M|64.56,63.91|Z|1543;The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|S|U|185742|
-C Gates of the Damned|QID|63613|M|67.45,65.51|Z|1543;The Maw|QO|1<1|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damned|QID|63613|M|67.45,65.51|Z|1543;The Maw|QO|1>1|NC|N|Click the outline of the Death Gate to summon it.|
 C Weapon in Hand|QID|63614|M|61.85,56.46|Z|1543;The Maw|NC|N|Kill the weaponsmith and loot Dra'gora.|
-C Gates of the Damned|QID|63613|M|67.39,55.61|Z|1543;The Maw|QO|1<2|NC|N|Click the outline of the Death Gate to summon it.|
-C Gates of the Damned|QID|63613|M|62.46,51.61|Z|1543;The Maw|QO|1<3|NC|N|Click the outline of the Death Gate to summon it.|
-C Gates of the Damnede|QID|63613|M|67.01,48.93|Z|1543;The Maw|QO|1<4|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damned|QID|63613|M|67.39,55.61|Z|1543;The Maw|QO|1>2|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damned|QID|63613|M|62.46,51.61|Z|1543;The Maw|QO|1>3|NC|N|Click the outline of the Death Gate to summon it.|
+C Gates of the Damnede|QID|63613|M|67.01,48.93|Z|1543;The Maw|QO|1>4|NC|N|Click the outline of the Death Gate to summon it.|
 C Clip Their Wings|QID|63615|M|64.56,63.91|Z|1543;The Maw|N|Target the Helsworn Soulbreakers and use the chains collected by killing Helsworn in the area.|US|U|185742|
 T Weapon in Hand|QID|63614|M|PLAYER|Z|1543;The Maw|N|To Thrall.|
 T Gates of the Damned|QID|63613|M|PLAYER|Z|1543;The Maw|N|To Baroness Draka.|
@@ -403,9 +403,9 @@ C Rituals of Night|QID|64042|M|45.39,64.98|Z|1740;Ardenweald!The Shadowlands|QO|
 C Rituals of Night|QID|64042|M|45.20,64.62|Z|1740;Ardenweald!The Shadowlands|QO|4|NC|N|Click on the jar of Ritual Oil and bring it to the former Night Warriors.|
 C Rituals of Night|QID|64042|M|45.25,65.71|Z|1740;Ardenweald!The Shadowlands|QO|3|NC|N|Go back to the supplies and click on the flowers to spread around Tyrande.|EAB|
 C Rituals of Night|QID|64042|M|45.30,66.10|Z|1740;Ardenweald!The Shadowlands|QO|5|NC|N|Go back to the supplies and click on the incense and place it near Tyrande.|
-C Rituals of Night|QID|64042|M|45.24,65.35|Z|1740;Ardenweald!The Shadowlands|QO|2<1|NC|N|Click on the first floating Orb.|
-C Rituals of Night|QID|64042|M|45.46,65.68|Z|1740;Ardenweald!The Shadowlands|QO|2<2|NC|N|Click on the second floating Orb.|
-C Rituals of Night|QID|64042|M|45.10,65.70|Z|1740;Ardenweald!The Shadowlands|QO|2<3|NC|N|Click on the third floating Orb.|
+C Rituals of Night|QID|64042|M|45.24,65.35|Z|1740;Ardenweald!The Shadowlands|QO|2>1|NC|N|Click on the first floating Orb.|
+C Rituals of Night|QID|64042|M|45.46,65.68|Z|1740;Ardenweald!The Shadowlands|QO|2>2|NC|N|Click on the second floating Orb.|
+C Rituals of Night|QID|64042|M|45.10,65.70|Z|1740;Ardenweald!The Shadowlands|QO|2>3|NC|N|Click on the third floating Orb.|
 T Rituals of Night|QID|64042|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|N|To Ysera.|
 A The Power of Elune|QID|63682|PRE|64042|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|N|From Ysera.|
 C The Power of Elune|QID|63682|M|45.31,64.80|Z|1740;Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Ysera to Begin.|
@@ -518,10 +518,10 @@ T A Symbol of Hope|QID|64213|M|63.12,24.52|Z|1961;Korthia|N|To Lady Jaina Proudm
 T A Symbol of Hope|QID|64214|M|63.03,24.54|Z|1961;Korthia|N|To Thrall.|FACTION|Horde|
 A Covenants Renewed|QID|64314|PRE|64213^64214|M|63.12,24.42|Z|1961;Korthia|N|From Highlord Bolvar Fordragon.|
 C Covenants Renewed|QID|64314|M|62.79,26.39|Z|1961;Korthia|QO|1|CHAT|N|Speak to the Primus.|
-C Covenants Renewed|QID|64314|M|63.52,25.01|Z|1961;Korthia|QO|2<1|NC|N|Click on the Night Fae Sigil.|
-C Covenants Renewed|QID|64314|M|63.61,24.54|Z|1961;Korthia|QO|2<2|NC|N|Click on the Necrolord Sigil.|
-C Covenants Renewed|QID|64314|M|63.44,24.12|Z|1961;Korthia|QO|2<3|NC|N|Click on the Kyrian Sigil.|
-C Covenants Renewed|QID|64314|M|63.13,24.08|Z|1961;Korthia|QO|2<4|NC|N|Click on the Venthyr Sigil.|
+C Covenants Renewed|QID|64314|M|63.52,25.01|Z|1961;Korthia|QO|2>1|NC|N|Click on the Night Fae Sigil.|
+C Covenants Renewed|QID|64314|M|63.61,24.54|Z|1961;Korthia|QO|2>2|NC|N|Click on the Necrolord Sigil.|
+C Covenants Renewed|QID|64314|M|63.44,24.12|Z|1961;Korthia|QO|2>3|NC|N|Click on the Kyrian Sigil.|
+C Covenants Renewed|QID|64314|M|63.13,24.08|Z|1961;Korthia|QO|2>4|NC|N|Click on the Venthyr Sigil.|
 C Covenants Renewed|QID|64314|M|63.02,24.80|Z|1961;Korthia|QO|3|CHAT|N|Interact with the Primus to present the sigils to him.|
 T Covenants Renewed|QID|64314|M|63.02,24.80|Z|1961;Korthia|N|To The Primus.|
 A A Loose Thread|QID|64441|PRE|64314|M|60.95,25.41|Z|1961;Korthia|N|From Misplaced Venthyr Tome.|

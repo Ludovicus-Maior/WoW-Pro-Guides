@@ -77,24 +77,24 @@ C Paved in Ash|QID|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|QO|1|CHAT|N
 h Wayfarer's Rest|ACTIVE|86735^86736|M|56.29,70.35|Z|2393; Silvermoon City|N|Consider setting your hearthstone here, Dornagal's not so convenient anymore.|
 C Paved in Ash|QID|86735^86736|M|52.48,78.10|Z|2393; Silvermoon City|QO|5|CHAT|N|Talk to Valeera Sanguinar at the Reliquary.|
 T Paved in Ash|QID|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|To Lor'themar Theron.|
-A Fair Breeze, Light Bloom|QID|86737|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+A Fair Breeze, Light Bloom|QID|86737|AVAILABLE|94871|PRE|86735^86736|M|45.44,70.46|Z|2393; Silvermoon City|N|From Lor'themar Theron.|; Cannot pick up if we have the quest from the mission table
 C Fair Breeze, Light Bloom|QID|86737|M|45.37,70.42|Z|2393; Silvermoon City|QO|1|H|N|Obtain the arcane projector from Rommath.|
 T Murder Row: Rumors Abound|QID|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|Fly up to the platform to find Belath Dawnblade.|
 A Murder Row: Loose Lips|QID|90818|PRE|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
 A Murder Row: Traces of Fel|QID|90837|PRE|90835|M|51.71,64.47|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
 A Gold is Gold|QID|90669|PRE|90835|M|54.52,61.71|Z|2393; Silvermoon City|N|From Sarvi.|RANK|2|
 C Murder Row: Traces of Fel|QID|90837|M|51.03,56.23|Z|2393; Silvermoon City|QO|1|H|N|Find the sources of fel magic scattered around.|S|
-C Murder Row: Loose Lips|QID|90818|M|52.28,60.59|Z|2393; Silvermoon City|QO|1<1|N|Use [color=33fff9] Extra Action Button [/color] to pretend to browse while gathering information.|EAB|
-C Murder Row: Loose Lips|QID|90818|M|51.38,57.10|Z|2393; Silvermoon City|QO|1<2|N|Use [color=33fff9] Extra Action Button [/color] to take a sip of wine while gathering information.|EAB|
-C Murder Row: Loose Lips|QID|90818|M|52.41,63.56|Z|2393; Silvermoon City|QO|1<3|N|Use [color=33fff9] Extra Action Button [/color] to study your map while gathering information.|EAB|
+C Murder Row: Loose Lips|QID|90818|M|52.28,60.59|Z|2393; Silvermoon City|QO|1>1|N|Use [color=33fff9] Extra Action Button [/color] to pretend to browse while gathering information.|EAB|
+C Murder Row: Loose Lips|QID|90818|M|51.38,57.10|Z|2393; Silvermoon City|QO|1>2|N|Use [color=33fff9] Extra Action Button [/color] to take a sip of wine while gathering information.|EAB|
+C Murder Row: Loose Lips|QID|90818|M|52.41,63.56|Z|2393; Silvermoon City|QO|1>3|N|Use [color=33fff9] Extra Action Button [/color] to study your map while gathering information.|EAB|
 C Murder Row: Traces of Fel|QID|90837|M|51.03,56.23|Z|2393; Silvermoon City|QO|1|H|N|Finish discovering the sources of fel magic.|US|
 T Murder Row: Loose Lips|QID|90818|M|55.99,56.56|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 T Murder Row: Traces of Fel|QID|90837|M|55.99,56.56|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: Acting the Part|QID|90819|PRE|90818&90837|M|55.99,56.56|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
 C Murder Row: Acting the Part|QID|90819|M|56.14,56.63|Z|2393; Silvermoon City|QO|1|H|N|Pick up the Cracked Wyrm Core.|
-C Murder Row: Acting the Part|QID|90819|M|50.68,48.00|Z|2393; Silvermoon City|QO|2<1|CHAT|N|Ask the Shady Dealer in the Cloak and Dagger where to find more.|
-C Murder Row: Acting the Part|QID|90819|M|53.13,52.84|Z|2393; Silvermoon City|QO|2<2|CHAT|N|Ask Miss Len'dali at the streetside stall for some special reagents.|
-C Murder Row: Acting the Part|QID|90819|M|56.42,48.62|Z|2393; Silvermoon City|QO|2<3|CHAT|N|Ask the Animal Smuggler in Denorin's Emporium if he has any mana wyrms in stock.|
+C Murder Row: Acting the Part|QID|90819|M|50.68,48.00|Z|2393; Silvermoon City|QO|2>1|CHAT|N|Ask the Shady Dealer in the Cloak and Dagger where to find more.|
+C Murder Row: Acting the Part|QID|90819|M|53.13,52.84|Z|2393; Silvermoon City|QO|2>2|CHAT|N|Ask Miss Len'dali at the streetside stall for some special reagents.|
+C Murder Row: Acting the Part|QID|90819|M|56.42,48.62|Z|2393; Silvermoon City|QO|2>3|CHAT|N|Ask the Animal Smuggler in Denorin's Emporium if he has any mana wyrms in stock.|
 C Murder Row: Acting the Part|QID|90819|M|56.18,54.23|Z|2393; Silvermoon City|QO|3|NC|N|Look for the green fel braziers flanking the doors of the Den of Indulgence.|
 C Murder Row: Acting the Part|QID|90819|M|57.36,52.03|Z|2393; Silvermoon City|QO|4|NC|N|Go up the ramp to the platform to find Vira.|
 C Murder Row: Acting the Part|QID|90819|M|57.57,52.06|Z|2393; Silvermoon City|QO|5|CHAT|N|Speak to Vira.|
@@ -106,7 +106,7 @@ C Murder Row: Harbored Secrets|QID|90821|M|33.94,26.46|Z|2393; Silvermoon City|Q
 C Murder Row: Harbored Secrets|QID|90821|M|33.85,26.47|Z|2393; Silvermoon City|QO|3|H|N|Search Tarelin's body.|
 T Murder Row: Harbored Secrets|QID|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|To Belath Dawnblade.|
 A Murder Row: One Fel Swoop|QID|90822|PRE|90821|M|32.25,25.88|Z|2393; Silvermoon City|N|From Belath Dawnblade.|RANK|2|
-C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|
+C Murder Row: One Fel Swoop|QID|90822|N|Queue for Murder Row dungeon, (follower or regular) Completion is after the last boss, but before you leave. No rush on this as nothing else is dependent on it being done.|S!US|
 t Murder Row: One Fel Swoop|QID|90822|M|56.75,61.29|Z|2393; Silvermoon City|N|To Belath Dawnblade.|IZ|Silvermoon City|
 
 A Mad to Measure|QID|91386|M|48.33,54.56|Z|2393; Silvermoon City|N|From Solwin Brightstitch.|RANK|2|
@@ -185,16 +185,16 @@ C A Small Task|QID|89199|M|54.02,34.03|Z|2393; Silvermoon City|QO|1|NC|N|Pick up
 C A Small Task|QID|89199|M|53.96,33.06|Z|2393; Silvermoon City|QO|2|NC|N|Click on the Arcane Resevoirs floating around the edges of the room.|
 T A Small Task|QID|89199|M|54.04,33.72|Z|2393; Silvermoon City|N|To Magister Aradis.|
 A Unraveling Wards|QID|89200|PRE|89199|M|54.04,33.72|Z|2393; Silvermoon City|N|From Magister Aradis.|
-C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|1<1|H|N|Click the purple orb to sabotage.|
-C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|2<1|H|N|Click the conduit to get transported to the next ward.|
-C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|1<2|H|N|Click the purple orb to sabotage.|
-C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|2<2|H|N|Click the conduit to get transported to the next ward.|
-C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|1<3|H|N|Click the purple orb to sabotage.|
-C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|2<3|H|N|Click the conduit to get transported to the next ward.|
-C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|1<4|H|N|Click the purple orb to sabotage.|
-C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|2<4|H|N|Click the conduit to get transported to the next ward.|
-C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|1<5|H|N|Click the purple orb to sabotage.|
-C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|2<5|H|N|Click the conduit to get transported to the next ward.|
+C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|1>1|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|53.64,33.80|Z|2393; Silvermoon City|QO|2>1|H|N|Click the conduit to get transported to the next ward.|
+C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|1>2|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|49.22,42.47|Z|2393; Silvermoon City|QO|2>2|H|N|Click the conduit to get transported to the next ward.|
+C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|1>3|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|52.82,44.43|Z|2393; Silvermoon City|QO|2>3|H|N|Click the conduit to get transported to the next ward.|
+C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|1>4|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|53.59,76.90|Z|2393; Silvermoon City|QO|2>4|H|N|Click the conduit to get transported to the next ward.|
+C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|1>5|H|N|Click the purple orb to sabotage.|
+C Unraveling Wards|QID|89200|M|31.51,67.85|Z|2393; Silvermoon City|QO|2>5|H|N|Click the conduit to get transported to the next ward.|
 T Unraveling Wards|QID|89200|M|37.25,74.20|Z|2393; Silvermoon City|N|To Magister Aradis.|
 A Outschemed|QID|89201|PRE|89200|M|37.25,74.20|Z|2393; Silvermoon City|N|From Magister Aradis.|
 C Outschemed|QID|89201|M|37.90,75.20|Z|2393; Silvermoon City|QO|1|H|N|Use the staff to destroy Dawnblaze's ward.|EAB|
@@ -293,9 +293,9 @@ A Displaced Denizens|QID|86740|M|46.68,45.67|Z|2395; Eversong Woods|N|From Orwey
 A Cargo Conspiracy|QID|87392|M|46.88,45.22|Z|2395; Eversong Woods|N|From Lyssara Duskmourne.|RANK|2|
 C Fairbreeze Favors|QID|86739|M|46.52,45.83|Z|2395; Eversong Woods|N|Help out the citizenry. Use the [color=33fff9] Extra Action Button [/color] to scare Hawkstriders|S|EAB|
 C Displaced Denizens|QID|86740|M|47.17,46.22|Z|2395; Eversong Woods|H|S|N|Basically click glowing things.|
-C Assist Citizens|QID|86739|QO|4<1|M|46.53,45.87|Z|2395; Eversong Woods|H|N|Bandage Injured Pet.|;these 3 steps may need rearranged as I added them to guide after quest was done -- since I had a hard time finding them.
-C Assist Citizens|QID|86739|QO|4<2|M|45.63, 45.47|Z|2395; Eversong Woods|H|N|Rescue cat on top of statue's outstreached hand.|
-C Assist Citizens|QID|86739|QO|4<3|M|44.74, 45.00|Z|2395; Eversong Woods|H|N|Pick up all the books.|
+C Assist Citizens|QID|86739|QO|4>1|M|46.53,45.87|Z|2395; Eversong Woods|H|N|Bandage Injured Pet.|;these 3 steps may need rearranged as I added them to guide after quest was done -- since I had a hard time finding them.
+C Assist Citizens|QID|86739|QO|4>2|M|45.63, 45.47|Z|2395; Eversong Woods|H|N|Rescue cat on top of statue's outstreached hand.|
+C Assist Citizens|QID|86739|QO|4>3|M|44.74, 45.00|Z|2395; Eversong Woods|H|N|Pick up all the books.|
 C Sharpmaw|QID|86738|QO|1|M|45.74,47.77|Z|2395; Eversong Woods|N|Approach Sharpmaw.|NC|
 C Sharpmaw|QID|86738|QO|2|M|45.80,47.83|Z|2395; Eversong Woods|N|Examine Sharpmaw.|H|
 C Cargo Conspiracy|QID|87392|M|46.26,44.12|Z|2395; Eversong Woods|QO|1|NC|N|Find a place to eavesdrop on Sunrun Salvage.|
@@ -529,8 +529,8 @@ C To Deatholme|QID|86635|QO|2|M|44.33,84.80|Z|2395; Eversong Woods|CHAT|N|Speak 
 T To Deatholme|QID|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Void Walk With Me|QID|86636|PRE|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|From Magister Umbric.|
 C Void Walk With Me|QID|86636|QO|1|M|45.48,86.18|Z|2395; Eversong Woods|N|Enter Deathholme Delve.|NC|
-C Void Walk With Me|QID|86636|QO|2|M|63.55,33.49|Z|2395; Eversong Woods|N|Slay Lord Antenorian.|
-C Void Walk With Me|QID|86636|QO|3|M|63.44,29.21|Z|2395; Eversong Woods|N|Reclaimed Stolen Knowledge.|NC|
+C Void Walk With Me|QID|86636|QO|4|M|63.55,33.49|Z|2395; Eversong Woods|N|Slay Lord Antenorian.|
+C Void Walk With Me|QID|86636|QO|5|M|63.44,29.21|Z|2395; Eversong Woods|N|Reclaimed Stolen Knowledge.|NC|
 T Void Walk With Me|QID|86636|M|44.69,85.19|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Anything but Reprieve|QID|86637|PRE|86636|M|44.64,85.28|Z|2395; Eversong Woods|N|From Arator.|
 C Anything but Reprieve|QID|86637|QO|1|M|44.64,85.28|Z|2395; Eversong Woods|N|Contact Silvermoon.|NC|
@@ -552,25 +552,25 @@ T Premonition|QID|86640|M|59.17,51.05|Z|2395; Eversong Woods|N|To Lor'themar The
 A Old Scars|QID|86641|PRE|86640|M|59.17,51.05|Z|2395; Eversong Woods|N|From Lor'themar Theron.|
 A A Foe Unseen|QID|86642|PRE|86640|M|59.13,51.08|Z|2395; Eversong Woods|N|From Arator.|
 C Old Scars|QID|86641|M|62.75,49.21|Z|2395; Eversong Woods|N|Disrupt the troll lumber operations.|S|
-C A Foe Unseen|QID|86642|M|60.74,51.84|Z|2395; Eversong Woods|QO|1<1|N|Investigate Amani operations.|H|
-C A Foe Unseen|QID|86642|M|60.63,52.35|Z|2395; Eversong Woods|QO|1<2|N|Investigate Amani operations.|H|
-C A Foe Unseen|QID|86642|M|63.01,53.06|Z|2395; Eversong Woods|QO|1<3|N|Investigate Amani operations.|H|
-C A Foe Unseen|QID|86642|M|63.03,53.02|Z|2395; Eversong Woods|QO|1<4|N|Investigate Amani operations.|H|
-C A Foe Unseen|QID|86642|M|63.01,53.06|Z|2395; Eversong Woods|QO|1<5|N|Investigate Amani operations.|H|
+C A Foe Unseen|QID|86642|M|60.74,51.84|Z|2395; Eversong Woods|QO|1>1|N|Investigate Amani operations.|H|
+C A Foe Unseen|QID|86642|M|60.63,52.35|Z|2395; Eversong Woods|QO|1>2|N|Investigate Amani operations.|H|
+C A Foe Unseen|QID|86642|M|63.01,53.06|Z|2395; Eversong Woods|QO|1>3|N|Investigate Amani operations.|H|
+C A Foe Unseen|QID|86642|M|63.03,53.02|Z|2395; Eversong Woods|QO|1>4|N|Investigate Amani operations.|H|
+C A Foe Unseen|QID|86642|M|63.01,53.06|Z|2395; Eversong Woods|QO|1>5|N|Investigate Amani operations.|H|
 C Old Scars|QID|86641|M|62.75,49.21|Z|2395; Eversong Woods|N|Keep disrupting the Troll lumber operations.|US|
 T Old Scars|QID|86641|M|64.49,48.76|Z|2395; Eversong Woods|N|To Lor'themar Theron.|
 T A Foe Unseen|QID|86642|M|64.51,48.76|Z|2395; Eversong Woods|N|To Arator.|
 A Following the Root|QID|86643|PRE|86641&86642|M|64.51,48.76|Z|2395; Eversong Woods|N|From Arator.|
 C Following the Root|QID|86643|QO|1|M|56.58,65.77|Z|2395; Eversong Woods|N|Meet Arator at the entrance of Watha'nan Crypts.|NC|
-C Following the Root|QID|86643|QO|3<1|M|56.53,65.68|Z|2395; Eversong Woods|N|Destroy Shrouding Totem by the first doorway.|H|
-C Following the Root|QID|86643|QO|3<2|M|56.49,65.78|Z|2395; Eversong Woods|N|Destroy Shrouding Totem by the second doorway.|H|
-C Following the Root|QID|86643|QO|3<3|M|55.64,65.52|Z|2395; Eversong Woods|N|Destroy Grimfire Totem.|H|
-C Following the Root|QID|86643|QO|3<4|M|55.29,65.44|Z|2395; Eversong Woods|N|Destroy Stranglemist Totem.|H|
+C Following the Root|QID|86643|QO|3>1|M|56.53,65.68|Z|2395; Eversong Woods|N|Destroy Shrouding Totem by the first doorway.|H|
+C Following the Root|QID|86643|QO|3>2|M|56.49,65.78|Z|2395; Eversong Woods|N|Destroy Shrouding Totem by the second doorway.|H|
+C Following the Root|QID|86643|QO|3>3|M|55.64,65.52|Z|2395; Eversong Woods|N|Destroy Grimfire Totem.|H|
+C Following the Root|QID|86643|QO|3>4|M|55.29,65.44|Z|2395; Eversong Woods|N|Destroy Stranglemist Totem.|H|
 C Following the Root|QID|86643|QO|4|M|55.13,65.45|Z|2395; Eversong Woods|N|Speak to Arator.|CHAT|
 T Following the Root|QID|86643|M|54.80,65.50|Z|2395; Eversong Woods|N|To Arator.|
 A Gods Before Us|QID|86644|PRE|86643|M|54.80,65.50|Z|2395; Eversong Woods|N|From Arator.|
 C Gods Before Us|QID|86644|QO|2|M|54.59,65.49|Z|2395; Eversong Woods|N|Inspect Amani Riddle.|H|
-C Gods Before Us|QID|86644|QO|3|M|41.44,51.20;59.71,39.68;54.61,65.44|CS|Z|2395; Eversong Woods|N|Kill Spawn of Shadra, then Child of Hir'eek. Click the vases on each side of the alter to deposit the remains.|NC|
+C Gods Before Us|QID|86644|QO|3|M|42.35,42.20;59.55,42.68;39.47,29.12|CS|Z|2579; Wartha'nan Crypts|N|Kill Spawn of Shadra, then Child of Hir'eek. Click the vases on each side of the alter to deposit the remains.|NC|
 C Gods Before Us|QID|86644|QO|4|M|53.95,65.54|Z|2395; Eversong Woods|N|Venture deeper into the crypt.|NC|
 C Gods Before Us|QID|86644|QO|5|M|53.70,65.88|Z|2395; Eversong Woods|N|Match pairs of Carved Tiles.|NC|
 T Gods Before Us|QID|86644|M|53.70,65.88|Z|2395; Eversong Woods|N|To Arator.|

@@ -47,16 +47,16 @@ A Flight Training: Full Speed Ahead|QID|30145|PRE|30144|M|58.6,43.6|N|From Instr
 C Flight Training: Full Speed Ahead|QID|30145|NC|M|58.6,43.6|N|Mount up (vehicle green arrow). You are leashed to Instructor Windblade, follow him to learn the course.|
 T Flight Training: Full Speed Ahead|QID|30145|M|58.6,43.6|N|You have to dismount (default NumPad5) before you can turn in the quest to Instructor Windblade.|
 A Flight Training: In Due Course|QID|30187|PRE|30145|M|58.6,43.6|N|From Instructor Windblade.|
-C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|1<1|N|Mount up (vehicle green arrow).|
-C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|1<2|
-C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|1<3|
-C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|1<4|
-C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|1<5|
-C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|1<6|
-C Flight Training: In Due Course|QID|30187|NC|M|64.00,51.92|QO|1<7|
-C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|1<8|
-C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|1<9|
-C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|1<10|
+C Flight Training: In Due Course|QID|30187|NC|M|60.56,39|QO|1>1|N|Mount up (vehicle green arrow).|
+C Flight Training: In Due Course|QID|30187|NC|M|59.69,31.43|QO|1>2|
+C Flight Training: In Due Course|QID|30187|NC|M|61.32,25.10|QO|1>3|
+C Flight Training: In Due Course|QID|30187|NC|M|66.31,35.99|QO|1>4|
+C Flight Training: In Due Course|QID|30187|NC|M|66.09,42.55|QO|1>5|
+C Flight Training: In Due Course|QID|30187|NC|M|66.75,51.57|QO|1>6|
+C Flight Training: In Due Course|QID|30187|NC|M|64.00,51.92|QO|1>7|
+C Flight Training: In Due Course|QID|30187|NC|M|61.75,54.62|QO|1>8|
+C Flight Training: In Due Course|QID|30187|NC|M|60.42,52.85|QO|1>9|
+C Flight Training: In Due Course|QID|30187|NC|M|58.69,46.66|QO|1>10|
 C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
@@ -92,16 +92,16 @@ C The Trainer's Challenge: Qua-Ro Whitebrow|QID|31721|M|57.2,43.4|N|Talk to him 
 C The Trainer's Challenge: Suchi the Sweet|QID|31720|M|58.4,44.6|N|Talk to her to start the fight. She does lots of AE, easiest way is to keep running in and out of range and do dmg as you go past.|
 
 ;sky race compliments of Twists
-C The Sky Race|QID|30152|CHAT|M|60.56,39|QO|1<1|N|Talk to her again to start the race.|
-C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|1<2|
-C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|1<3|
-C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|1<4|
-C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|1<5|
-C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|1<6|
-C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|1<7|
-C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|1<8|
-C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|1<9|
-C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|1<10|
+C The Sky Race|QID|30152|CHAT|M|60.56,39|QO|1>1|N|Talk to her again to start the race.|
+C The Sky Race|QID|30152|NC|M|59.69,31.43|QO|1>2|
+C The Sky Race|QID|30152|NC|M|61.32,25.10|QO|1>3|
+C The Sky Race|QID|30152|NC|M|66.31,35.99|QO|1>4|
+C The Sky Race|QID|30152|NC|M|66.09,42.55|QO|1>5|
+C The Sky Race|QID|30152|NC|M|66.75,51.57|QO|1>6|
+C The Sky Race|QID|30152|NC|M|64.00,50.92|QO|1>7|
+C The Sky Race|QID|30152|NC|M|61.75,54.62|QO|1>8|
+C The Sky Race|QID|30152|NC|M|60.42,52.85|QO|1>9|
+C The Sky Race|QID|30152|NC|M|58.69,46.66|QO|1>10|
 C The Sky Race|QID|30152|NC|M|58.33,46.29|
 
 ;sri-la village

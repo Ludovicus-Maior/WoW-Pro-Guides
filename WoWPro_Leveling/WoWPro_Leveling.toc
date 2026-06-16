@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## IconTexture: Interface\GossipFrame\AvailableQuestIcon
 ## Dependencies: WoWPro
-## Version: 2026.04.23.B
+## Version: 2026.05.13.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Leveling.lua
@@ -15,6 +15,3 @@ WoWPro_Leveling_Frames.lua
 Retail\Alliance\Guides.xml
 Retail\Neutral\Guides.xml
 Retail\Horde\Guides.xml
-Retail\TimeRunning\Alliance\Guides.xml
-Retail\TimeRunning\Neutral\Guides.xml
-Retail\TimeRunning\Horde\Guides.xml

@@ -120,6 +120,7 @@ function WoWPro:DragSet()
                 WoWPro.MainFrame:SetUserPlaced(false)
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
+                WoWPro.SetMouseNotesPoints()
                 WoWPro.AnchorStore("OnMouseUp0")
                 WoWPro.InhibitAnchorRestore = false
             end
@@ -141,6 +142,7 @@ function WoWPro:DragSet()
                 WoWPro.MainFrame:SetUserPlaced(false)
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
+                WoWPro.SetMouseNotesPoints()
                 WoWPro.AnchorStore("OnMouseUpTitlebar")
                 WoWPro.InhibitAnchorRestore = false
             end
@@ -300,6 +302,7 @@ function WoWPro:DisableLeftHandedIfOffScreen()
                 end
             end
         end
+        WoWPro.SetMouseNotesPoints()
         return
     end
 
@@ -321,6 +324,7 @@ function WoWPro:DisableLeftHandedIfOffScreen()
                 end
             end
         end
+        WoWPro.SetMouseNotesPoints()
         return
     end
 end
@@ -377,6 +381,7 @@ function WoWPro:ClampSideButtonsOnScreen()
         if not WoWPro.IsMoving then
             WoWPro.AnchorStore("ClampSideButtonsOnScreen")
         end
+        WoWPro.SetMouseNotesPoints()
     end
 end
 
@@ -616,7 +621,7 @@ function WoWPro.RowSizeSet()
 
         -- Setting the note frame size correctly, setting up mouseover notes --
         local newh, noteh, trackh
-        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords))) then
+        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index) then
             noteh = 1
             row.note:Hide()
             WoWPro.mousenotes[i]:Hide()
@@ -624,6 +629,7 @@ function WoWPro.RowSizeSet()
             local mnh = WoWPro.mousenotes[i].note:GetHeight()
             WoWPro.mousenotes[i]:SetHeight(mnh+20)
             row:SetScript("OnEnter", function()
+                WoWPro.SetMouseNotesPoints()
                 WoWPro.mousenotes[i]:Show()
             end)
             row:SetScript("OnLeave", function()
@@ -640,7 +646,7 @@ function WoWPro.RowSizeSet()
 
         if row.trackcheck and row.track:GetText() ~= "" then
             row.track:Show()
-            row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
+            row.track:SetPoint("TOPLEFT", row.iconTexture, "BOTTOMLEFT", 0, -noteh-5)
             trackh = row.track:GetHeight()
             row.progressBar:SetWidth(row:GetWidth()-30)
         else
@@ -649,7 +655,7 @@ function WoWPro.RowSizeSet()
             trackh = 1
         end
 
-        newh = noteh + trackh + max(row.step:GetHeight(),row.action:GetHeight()) + space*2 +3
+        newh = noteh + trackh + max(row.step:GetHeight(),row.iconTexture:GetHeight()) + space*2 +3
         if row.progressBar:IsVisible() then
             newh = newh + 20
         end
@@ -890,15 +896,40 @@ function WoWPro:ContractGuideToRows()
 end
 
 function WoWPro.SetMouseNotesPoints()
+    local screenW, screenH = GetUIScreenSize()
     for i,row in ipairs(WoWPro.rows) do
-        if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
-            WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
-            WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPLEFT", -210, 10)
---          row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -15, -10)
-        else
-            WoWPro.mousenotes[i]:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, 10)
-            WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPRIGHT", 210, 10)
---          row.itembutton:SetPoint("TOPRIGHT", row, "TOPRIGHT", 35, -10)
+        local note = WoWPro.mousenotes[i]
+        if note then
+            note:ClearAllPoints()
+            local guideAnchor = WoWPro.GuideFrame or WoWPro.MainFrame
+            local noteWidth = note:GetWidth()
+            local noteHeight = note:GetHeight()
+            local left = guideAnchor:GetLeft() or 0
+            local right = guideAnchor:GetRight() or screenW
+            local top = guideAnchor:GetTop() or screenH
+            local placeRight = WoWProDB.profile.leftside
+            local canPlaceRight = (right + 10 + noteWidth <= screenW)
+            local canPlaceLeft = (left - 10 - noteWidth >= 0)
+            local availableBelow = top - 10
+            local yOffset = 0
+
+            -- Prefer the current leftside preference, but flip if the chosen side would be off-screen.
+            if placeRight and not canPlaceRight and canPlaceLeft then
+                placeRight = false
+            elseif not placeRight and not canPlaceLeft and canPlaceRight then
+                placeRight = true
+            end
+
+            -- If the note would extend below the screen, move it up by the exact amount needed.
+            if noteHeight > availableBelow then
+                yOffset = noteHeight - availableBelow
+            end
+
+            if placeRight then
+                note:SetPoint("TOPLEFT", guideAnchor, "TOPRIGHT", 10, yOffset)
+            else
+                note:SetPoint("TOPRIGHT", guideAnchor, "TOPLEFT", -10, yOffset)
+            end
         end
     end
 end
@@ -1204,6 +1235,8 @@ function WoWPro:CreateMainFrame()
             this:StopMovingOrSizing()
             this:SetUserPlaced(false)
             WoWPro:StopMoveClamp()
+            WoWPro:DisableLeftHandedIfOffScreen()
+            WoWPro.SetMouseNotesPoints()
             WoWPro.AnchorStore("OnMouseUp1")
             WoWPro.InhibitAnchorRestore = false
         end
@@ -1730,6 +1763,7 @@ function WoWPro:CreateTitleBar()
         if WoWPro.GuideFrame:IsVisible() then
             if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
             WoWPro.GuideFrame:Hide()
+            WoWPro.UserCollapsed = true
             WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(this:GetHeight())
@@ -1738,6 +1772,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
+            WoWPro.UserCollapsed = false
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
@@ -1867,10 +1902,10 @@ function WoWPro:CreateRows()
         row.check:SetScript("OnLeave", function(this)
             _G.GameTooltip:Hide()
         end)
-        row.action = WoWPro:CreateAction(row, row.check)
-        row.step = WoWPro:CreateStep(row, row.action)
-        row.note = WoWPro:CreateNote(row, row.action)
-        row.track = WoWPro:CreateTrack(row, row.action)
+        row.iconTexture = WoWPro:CreateIcon(row, row.check)
+        row.step = WoWPro:CreateStep(row, row.iconTexture)
+        row.note = WoWPro:CreateNote(row, row.iconTexture)
+        row.track = WoWPro:CreateTrack(row, row.iconTexture)
         row.progressBar = WoWPro:CreateProgressBar(row, row.track)
         row.progressBar:Hide()
         row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, i, row)
@@ -1903,7 +1938,8 @@ end
 function WoWPro:CreateMouseNotes()
     WoWPro.mousenotes = {}
     for i=1,15 do
-        local row = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+        local row = _G.CreateFrame("Frame", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+        row:SetFrameStrata("FULLSCREEN_DIALOG")
         row:SetBackdrop( {
             bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
             edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],

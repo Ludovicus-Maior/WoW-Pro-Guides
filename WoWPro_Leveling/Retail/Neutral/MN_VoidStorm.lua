@@ -232,7 +232,8 @@ A Hunt the Light|QID|86520|PRE|86519|M|60.08,76.17|Z|2405; Voidstorm|N|From Alle
 C Hunt the Light|QID|86520|QO|1|M|64.00,61.83|Z|2405; Voidstorm|I|N|Travel to Nexus-Point Xenas.|
 T Hunt the Light|QID|86520|M|64.09,61.82|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Nexus-Point Xenas: Eclipse|QID|86521|PRE|86520|M|64.09,61.82|Z|2405; Voidstorm|N|From Alleria Windrunner.|
-C Nexus-Point Xenas: Eclipse|QID|86521|QO|3|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Run the dungeon, after the end talk to Decimus to weaken the storm.|
+C Nexus-Point Xenas: Eclipse|QID|86521|QO|3|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|Talk to Alleria to queue for follower dungeon. You can queue for this as a follower dungeon or grab some friends, but either way, you need to run the dungeon to progress the campaign.|
+C Nexus-Point Xenas: Eclipse|QID|86521|QO|4|M|45.93,64.58|Z|2405; Voidstorm|CHAT|N|After completing the dungeon, talk to Decimus to weaken the storm.|
 T Nexus-Point Xenas: Eclipse|QID|86521|M|45.93,64.58|Z|2405; Voidstorm|N|To Alleria Windrunner.|
 A Daylight is Breaking|QID|86522|PRE|86521|M|45.93,64.58|Z|2405; Voidstorm|N|From Alleria Windrunner.|
 P Silvermoon City|ACTIVE|86522|M|45.43,63.77|Z|2405; Voidstorm|N|You can use the Portal for a quick trip, or travel on your own.|IZ|The Approach|
@@ -254,7 +255,7 @@ T Researching the Storm|QID|93970|M|52.58,72.90|Z|2405; Voidstorm|N|From Void Re
 A The Conquered Heroes|QID|91145|PRE|91887&91343&86522|M|51.84,71.90|Z|2405; Voidstorm|N|From Knight Anais.|RANK|2|
 
 ; Dance with the Devil |
-A A Born Killer|QID|90914|PRE|91828|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
+A A Born Killer|QID|90914|PRE|86522|M|51.19,68.39|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
 C A Born Killer|QID|90914|QO|1|M|55.38,74.72|Z|2405; Voidstorm|S|N|Void Essence drops from just about any mob, so don't worry about this quest and just go about your business.|
 ;A Domanaar's Best Friend (3 quests) |
 C Harvest of Darkness|QID|91363|QO|1|M|53.72,74.06|Z|2405; Voidstorm|S|N|Void-Infused Morsel can be looted from the mobs in this area.|
@@ -297,7 +298,7 @@ T Home Sweet Grave|QID|91535|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astr
 T Like a Weed|QID|91536|M|41.87,74.57|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Confronting It|QID|91537|PRE|91535&91536|M|41.87,74.57|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Confronting It|QID|91537|QO|1|M|41.87,74.58|Z|2405; Voidstorm|H|N|Click the teapot over the fire to Brew Tea.|
-C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as she runs off, then Slay Shade of Grief.|
+C Confronting It|QID|91537|QO|2|M|39.66,76.42|Z|2405; Voidstorm|N|Follow Astre as they run off, then Slay Shade of Grief.|
 T Confronting It|QID|91537|M|41.93,74.48|Z|2405; Voidstorm|N|To Riftblade Astre.|
 A Unchecked Emotions|QID|91541|PRE|91537|M|41.93,74.48|Z|2405; Voidstorm|N|From Riftblade Astre.|RANK|2|
 C Mighty and Superior|QID|91382|QO|1|M|48.04,75.38|Z|2405; Voidstorm|I|N|Watch Fidoficus slay Den-Gorger Zitoc.|
@@ -371,11 +372,11 @@ A Warmth for the Soul|QID|90920|PRE|90919|M|59.06,56.63|Z|2405; Voidstorm|N|From
 C Warmth for the Soul|QID|90920|QO|1|M|59.06,56.63|Z|2405; Voidstorm|CHAT|N|Speak with Decimus. All answers work.|
 T Warmth for the Soul|QID|90920|M|59.06,56.63|Z|2405; Voidstorm|N|To Decimus.|
 A Shepherd of Fear|QID|90923|PRE|90920|M|59.06,56.63|Z|2405; Voidstorm|N|From Decimus.|RANK|2|
-A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. CLick on the blue "cloud" to make it spawn.|RANK|2|
+A The Fallen Wake|QID|90922|PRE|90920|M|59.03,57.17|Z|2405; Voidstorm|N|From Lingering Shade. Click on the blue "cloud" to make it spawn.|RANK|2|
 C Shepherd of Fear|QID|90923|QO|1|M|54.09,44.64|Z|2405; Voidstorm|H|S|N|Follow the trail of void to infuse the blade with void essense. You can ignore the Tasty treats.|
-C The Fallen Wake|QID|90922|QO|1<1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
-C The Fallen Wake|QID|90922|QO|1<2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
-C The Fallen Wake|QID|90922|QO|1<3|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>1|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>2|M|58.45,48.11|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
+C The Fallen Wake|QID|90922|QO|1>3|M|56.10,44.97|Z|2405; Voidstorm|H|N|Free Familiar Shade.|
 C Shepherd of Fear|QID|90923|QO|2|M|54.09,44.64|Z|2405; Voidstorm|CHAT|N|Infused blade with more Unstable Light.|;i wonder what happens if you choose do nothing...
 C The Fallen Wake|QID|90922|QO|2|M|50.46,45.44|Z|2405; Voidstorm|H|N|Free Glowering Shade.|
 C Shepherd of Fear|QID|90923|QO|1|M|50.08,48.42|Z|2405; Voidstorm|H|US|N|Absorb Void Essence in the Gnawing Reach.|
@@ -420,9 +421,9 @@ T Sampling the Local Fare|QID|87391|M|41.17,61.50|Z|2405; Voidstorm|N|To Kelia E
 A Void is in the Air|QID|87672|PRE|87388&87391|M|41.17,61.50|Z|2405; Voidstorm|N|From Kelia Everglow.|RANK|2|
 A Yolks on You|QID|88653|PRE|87388&87391|M|41.16,61.52|Z|2405; Voidstorm|N|From Matrean Dawnfall.|RANK|2|
 C Yolks on You|QID|88653|QO|1|M|42.03,64.16|Z|2405; Voidstorm|I|S|N|Run over the Eggs.|
-C Void is in the Air|QID|87672|QO|1<1|M|42.28,63.41;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|Only one Void Surge is in each cage. You provided [color=33fff9] Whispering Phial [/color]to capture.|
-C Void is in the Air|QID|87672|QO|1<2|M|41.66,65.94;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|On to the next cave.|
-C Void is in the Air|QID|87672|QO|1<3|M|41.11,63.94;40.02,65.10|CS|Z|2405; Voidstorm|H|U|267614|N|Capture Void Surges.|
+C Void is in the Air|QID|87672|QO|1>1|M|42.28,63.41;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|Only one Void Surge is in each cage. You provided [color=33fff9] Whispering Phial [/color]to capture.|
+C Void is in the Air|QID|87672|QO|1>2|M|41.66,65.94;41.33,63.76|CS|Z|2405; Voidstorm|H|U|267614|N|On to the next cave.|
+C Void is in the Air|QID|87672|QO|1>3|M|41.11,63.94;40.02,65.10|CS|Z|2405; Voidstorm|H|U|267614|N|Capture Void Surges.|
 C Yolks on You|QID|88653|QO|1|M|42.03,64.16|Z|2405; Voidstorm|H|U|267614|US|N|Squish Blistercreep Eggs.|
 T Yolks on You|QID|88653|M|41.15,61.56|Z|2405; Voidstorm|N|To Matrean Dawnfall.|
 T Void is in the Air|QID|87672|M|41.18,61.52|Z|2405; Voidstorm|N|To Kelia Everglow.|
@@ -593,9 +594,9 @@ A Cut Her Strings|QID|91147|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From
 C Bloodying the Plain|QID|92641|M|50.85,83.97|Z|2444; Slayer's Rise|N|Finish the Bonus Objective or click this step closed.|S!US|IZ|The Bloodplains|
 A Flickering Light|QID|91146|PRE|91145|M|53.96,84.08|Z|2444; Slayer's Rise|N|From Knight Anais.|RANK|2|
 C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|S|N|Fight the Alloyed mobs, when they get to 1% click on them so Anais can attempt to remove Shadowgrafts.|
-C Flickering Light|QID|91146|QO|1<1|M|50.78,78.02|Z|2444; Slayer's Rise|H|N|Find Callum's Tinderbox.|
-C Flickering Light|QID|91146|QO|1<2|M|47.47,74.82|Z|2444; Slayer's Rise|H|N|Find Callum's Necklace.|
-C Flickering Light|QID|91146|QO|1<3|M|51.64,73.36|Z|2444; Slayer's Rise|H|N|Find Callum's Shield.|
+C Flickering Light|QID|91146|QO|1>1|M|50.78,78.02|Z|2444; Slayer's Rise|H|N|Find Callum's Tinderbox.|
+C Flickering Light|QID|91146|QO|1>2|M|47.47,74.82|Z|2444; Slayer's Rise|H|N|Find Callum's Necklace.|
+C Flickering Light|QID|91146|QO|1>3|M|51.64,73.36|Z|2444; Slayer's Rise|H|N|Find Callum's Shield.|
 C Cut Her Strings|QID|91147|M|49.78,79.81|Z|2444; Slayer's Rise|US|N|Keep fighting alloyed mobs until you find enough Shadowgrafts.|
 T Cut Her Strings|QID|91147|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
 T Flickering Light|QID|91146|M|PLAYER|Z|2444; Slayer's Rise|N|To Knight Anais.|
@@ -617,9 +618,9 @@ A These Violent Delights|QID|90873|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise
 A Their Violent Ends|QID|90874|PRE|90872|M|35.06,88.56|Z|2444; Slayer's Rise|N|From Tul'amar, Twice-Exiled.|RANK|2|
 C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|N|Kill and loot the voidwalkers to collect Abductor's Marks.|S|
 C These Violent Delights|QID|90873|QO|1|M|35.06,88.56|Z|2444; Slayer's Rise|U|244173|S|N|Use the provided[color=33fff9] Relic of Liberation [/color]to free the Master's Prospects.|
-C These Violent Delights|QID|90873|QO|2<1|M|32.82,87.73|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
-C These Violent Delights|QID|90873|QO|2<2|M|41.48,90.65|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
-C These Violent Delights|QID|90873|QO|2<3|M|37.43,90.45|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>1|M|32.82,87.73|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>2|M|41.48,90.65|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
+C These Violent Delights|QID|90873|QO|2>3|M|37.43,90.45|Z|2444; Slayer's Rise|H|N|Click them to send the Unwilling Summon Home.|
 C These Violent Delights|QID|90873|QO|1|M|36.86,88.76|Z|2444; Slayer's Rise|U|244173|US|N|Use the provided[color=33fff9] Relic of Liberation [/color]to free Master's Prospects.|
 C Their Violent Ends|QID|90874|M|36.86,88.76|Z|2444; Slayer's Rise|US|N|Keep killing voidwalkers and collecting marks.|
 T These Violent Delights|QID|90873|M|35.06,88.56|Z|2444; Slayer's Rise|N|To Tul'amar, Twice-Exiled.|
@@ -777,7 +778,9 @@ t A Golden Pull|QID|94056|M|40.89,83.99|Z|2444; Slayer's Rise|N|To Vidious.|
 T Contract of Service|QID|94408|QO|1|M|40.96,83.86|Z|2444; Slayer's Rise|N|To Pursewarden of Grief.|
 t Old War Grudge|QID|94402|M|40.79,84.00|Z|2444; Slayer's Rise|N|To Amari Lyndon.|
 
-C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
+K Across Worlds|QID|90875|M|33.38,80.97|Z|2405; Voidstorm|QO|1|N|Defeat Snaerius.|
+C Across Worlds|QID|90875|M|40.24,49.13;39.36,48.04|CS|QO|2|Z|2405; Voidstorm|N|Back to Exile's Hovel.|
+C Across Worlds|QID|90875|M|39.36,48.04|QO|3|Z|2405; Voidstorm|H|N|Place the Lodestar to power the portal.|
 T Across Worlds|QID|90875|M|39.34,48.05|Z|2405; Voidstorm|N|To Tul'amar, Twice-Exiled.|
 
 t Research Console: Exploring the Void|QID|94790|M|52.58,72.90|Z|2405; Voidstorm|N|Back to Void Researcher Anomander for another point on your zone talent tree.|

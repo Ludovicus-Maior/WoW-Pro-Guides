@@ -38,7 +38,7 @@ t Revendreth|QID|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.
 A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Sanctuary of the Mad|ACTIVE|63037|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|COV|Venthyr|
-R Sinfall Reaches|ACTIVE|63037|CC|M|29.35,42.68|TZ|1699|N|Take the Elevator up into Sinfall and then go down, and thru the mirror.|TOF|COV|Venthyr|
+R Sinfall Reaches|ACTIVE|63037|CC|M|29.35,42.68|TZ|1699; Sinfall Reaches@Sinfall!Dungeon|N|Take the Elevator up into Sinfall and then go down, and thru the mirror.|TOF|COV|Venthyr|
 T Dark Aspirations|QID|63037|CS|M|51.65,37.56|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|TOF|COV|Venthyr|
 F Darkhaven|ACTIVE|62740|M|60.87,68.63|Z|1671;Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 T Dark Aspirations|QID|62740|CS|M|61.12,59.05;61.4,60.4|Z|1525;Revendreth|N|To Prince Renathal.|TOF|
@@ -193,9 +193,9 @@ A Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|1525;Revendreth|N|F
 C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.27,68.53|Z|1525;Revendreth|QO|1|CHAT|N|Question Cobwobble.|
 C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.06,69.61|Z|1525;Revendreth|QO|2|CHAT|N|Question Dobwobble.|
 C Finders-Keepers, Sinners-Weepers|QID|59846|M|61.37,68.01|Z|1525;Revendreth|QO|3|CHAT|N|Question Slobwobble.|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.99,67.63|Z|1525;Revendreth|QO|4<1|NC|N|Click on the Sinstone Fragments to collect the Worn Sinstone.|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.41,69.88|Z|1525;Revendreth|QO|4<2|NC|N|Click on the Sinstone Fragments to collect the Cracked Sinstone.|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.80,72.10|Z|1525;Revendreth|QO|4<3|NC|N|Click on the Sinstone Fragments to collect the Chipped Sinstone.|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.99,67.63|Z|1525;Revendreth|QO|4>1|NC|N|Click on the Sinstone Fragments to collect the Worn Sinstone.|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.41,69.88|Z|1525;Revendreth|QO|4>2|NC|N|Click on the Sinstone Fragments to collect the Cracked Sinstone.|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.80,72.10|Z|1525;Revendreth|QO|4>3|NC|N|Click on the Sinstone Fragments to collect the Chipped Sinstone.|
 T Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|1525;Revendreth|N|To Nadjia the Mistblade.|
 A Active Ingredients|QID|59713|M|59.86,68.91|Z|1525;Revendreth|N|From Nadjia the Mistblade.|PRE|59846|RANK|2|
 A A Fine Vintage|QID|59714|M|59.86,68.91|Z|1525;Revendreth|N|From Nadjia the Mistblade.|PRE|59846|RANK|2|
@@ -325,9 +325,9 @@ T Herald Their Demise|QID|59021|M|67.42,53.63|Z|1525;Revendreth|N|To Echelon.|MS
 A Inquisitor Vilhelm's Sinstone|QID|57175|M|67.42,53.63|Z|1525;Revendreth|N|From Echelon.|LVL|57|PRE|59021|MS|
 A A Fresh Start|QID|57177|M|67.42,53.63|Z|1525;Revendreth|N|Bonus Objective: Autoaccepted when you enter the Halls of Atonement.|ACTIVE|57175|MS|;you get this even at lvl 60
 C A Fresh Start|QID|57177|M|67.42,53.63|Z|1525;Revendreth|N|Kill enemies and interact with items on the ground.|S|MS|
-C Inquisitor Vilhelm's Sinstone|QID|57175|M|67.84,51.48|Z|1525;Revendreth|QO|1<1|NC|N|Destroy the Headstone, dig, and then collect the Hidden Sinstone Fragment.|MS|
-C Inquisitor Vilhelm's Sinstone|QID|57175|M|65.31,51.06|Z|1525;Revendreth|QO|1<2|NC|N|Light the ritual candles, and then collect the Hidden Sinstone Fragment.|MS|
-C Inquisitor Vilhelm's Sinstone|QID|57175|M|64.89,48.40|Z|1525;Revendreth|QO|1<3|NC|N|Click on the Piled Planks faster than the Frantic Mason can place them (or just kill them), and then collect the Hidden Sinstone Fragment.|MS|
+C Inquisitor Vilhelm's Sinstone|QID|57175|M|67.84,51.48|Z|1525;Revendreth|QO|1>1|NC|N|Destroy the Headstone, dig, and then collect the Hidden Sinstone Fragment.|MS|
+C Inquisitor Vilhelm's Sinstone|QID|57175|M|65.31,51.06|Z|1525;Revendreth|QO|1>2|NC|N|Light the ritual candles, and then collect the Hidden Sinstone Fragment.|MS|
+C Inquisitor Vilhelm's Sinstone|QID|57175|M|64.89,48.40|Z|1525;Revendreth|QO|1>3|NC|N|Click on the Piled Planks faster than the Frantic Mason can place them (or just kill them), and then collect the Hidden Sinstone Fragment.|MS|
 T Inquisitor Vilhelm's Sinstone|QID|57175|M|65.89,47.22|Z|1525;Revendreth|N|To Echelon.|MS|
 A Ending the Inquisitor|QID|59023|M|65.89,47.22|Z|1525;Revendreth|N|From Echelon.|LVL|57|PRE|57175|MS|
 C Ending the Inquisitor|QID|59023|M|67.30,43.55|Z|1525;Revendreth|N|Use the "[color=40C7EB]Read Inquisitor Vilhelm's Sinstone[/color]" Action Ability to take down Inquisitor Vilhelm's shield and kill him.|EAB|MS|
@@ -582,10 +582,10 @@ A In the Ruin of Rebellion|QID|59327|M|29.86,42.33|Z|1525;Revendreth|N|From Theo
 C In the Ruin of Rebellion|QID|59327|M|29.36,42.66|Z|1525;Revendreth|QO|1|NC|N|Head down the stairs behind Theotar to find a mirror to enter Sinfall.|MS|
 T In the Ruin of Rebellion|QID|59327|M|29.43,42.89|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|Continue down the stairs inside Sinfall to find Vorpalia. It can be roaming around the circle.|MS|
 A Prince Renathal|QID|57689|M|31.2,40.6|Z|1699;Sinfall Reaches@Sinfall!Dungeon|N|From Vorpalia.|LVL|58|PRE|59327|MS|
-C Prince Renathal|QID|57689|M|37.48,56.25|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1<1|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
-C Prince Renathal|QID|57689|M|41.57,51.16|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1<2|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
-C Prince Renathal|QID|57689|M|38.26,40.59|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1<3|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
-C Prince Renathal|QID|57689|M|33.19,41.91|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1<4|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|37.48,56.25|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1>1|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|41.57,51.16|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1>2|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|38.26,40.59|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1>3|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
+C Prince Renathal|QID|57689|M|33.19,41.91|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|1>4|NC|N|Click to open the Containers of Dark Will around the circle.|MS|
 C Prince Renathal|QID|57689|M|28.64,43.99|Z|1699;Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Jump into the Maw once the portal opens.|MS|
 T Prince Renathal|QID|57689|M|PLAYER|Z|1960;The Maw|N|To Vorpalia.|MS|
 A Cages For All Occasions|QID|57690|M|PLAYER|Z|1960;The Maw|N|From Vorpalia.|LVL|58|PRE|57689|MS|

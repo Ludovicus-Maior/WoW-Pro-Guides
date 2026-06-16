@@ -40,8 +40,8 @@ T Scarlet Power|QID|86842|M|47.75,89.63|Z|2438; Scarlet Halls!Dungeon2438|N|To A
 A Light Miswielded|QID|86843|PRE|86842|M|47.69,89.96|Z|2438; Scarlet Halls!Dungeon2438|N|From Alonsus Faol.|
 A Light Repurposed|QID|86844|PRE|86842|M|47.69,89.96|Z|2438; Scarlet Halls!Dungeon2438|N|From Alonsus Faol.|
 C Light Miswielded|QID|86843|M|62.87,50.28|Z|2438; Scarlet Halls!Dungeon2438|QO|1|N|Defeat Scarlet Forces.|S|
-C Light Repurposed|QID|86844|M|61.39,50.62|Z|2438; Scarlet Halls!Dungeon2438|QO|2|NC|N|Aelyse's Gleaming Falchion.|
 C Light Repurposed|QID|86844|M|57.03,80.83|Z|2438; Scarlet Halls!Dungeon2438|QO|1|NC|N|Meyer's Rod of Castigation.|
+C Light Repurposed|QID|86844|M|61.39,50.62|Z|2438; Scarlet Halls!Dungeon2438|QO|2|NC|N|Aelyse's Gleaming Falchion.|
 C Light Repurposed|QID|86844|M|39.61,16.56|Z|2438; Scarlet Halls!Dungeon2438|QO|3|NC|N|Benthar's Scarlet Spire.|
 C Light Miswielded|QID|86843|M|61.81,58.95|Z|2438; Scarlet Halls!Dungeon2438|QO|1|N|Defeat Scarlet Forces.|US|
 T Light Miswielded|QID|86843|M|40.92,28.83|Z|2438; Scarlet Halls!Dungeon2438|N|To Alonsus Faol.|

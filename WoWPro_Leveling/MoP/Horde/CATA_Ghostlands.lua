@@ -273,7 +273,7 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.87,48.55|Z|0095; Ghostlands|N|To Magister
 ; -- An'telas
 T Deactivate An'owyn|QID|9169|M|60.27,35.67|Z|0095; Ghostlands|N|To Magister Sylastor in An'telas.|
 ; -- Tranquillien
-F Silvermoon City|ACTIVE|9328^9811|M|45.42,30.53|Z|0095; Ghostlands|N|Return to Tranquillien and fly to Silvermoon City.|TZ|0094; Eversong Woods|
+F Silvermoon City|ACTIVE|9328^9811|M|45.42,30.53|Z|0095; Ghostlands|N|Return to Tranquillien and fly to Silvermoon City.|TZ|94; Eversong Woods|
 A Zevrost's Behest|QID|27282|LEAD|27402|M|73.05,45.28|Z|0110; Silvermoon City|N|From Zanien in The Sanctum.\n[color=FF0000]NOTE: [/color]This leads to a Dungeon quest that rewards you with a nice INT/HIT staff.\nSkip this step if you're not interested.|LVL|20|C|Warlock|NA|
 T Hero of the Sin'dorei|QID|9328|M|53.77,20.19|Z|0110; Silvermoon City|N|To Lor'themar Theron in Sunfury Spire.|R|BloodElf|
 T Friend of the Sin'dorei|QID|9811|M|53.77,20.19|Z|0110; Silvermoon City|N|To Lor'themar Theron in Sunfury Spire.|R|-BloodElf|

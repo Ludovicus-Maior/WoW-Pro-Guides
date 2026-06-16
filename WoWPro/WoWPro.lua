@@ -378,7 +378,7 @@ function WoWPro:OnInitialize()
     WoWProDB.global.RecklessCombat = true
     WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
-    WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
+    WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.5
     WoWProCharDB.disabledAddons = WoWProCharDB.disabledAddons or {}
     if WoWProCharDB.NoTomTom == nil then
         WoWProCharDB.NoTomTom = false
@@ -922,7 +922,7 @@ end
 
 function WoWPro:SendGroupInfo()
 	--if WoWProCharDB.GroupSync then
-	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+	if _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		local _, myclass = _G.UnitClass("player")
 		local _, myrace = _G.UnitRace("player")
 		local gender = _G.UnitSex("player")

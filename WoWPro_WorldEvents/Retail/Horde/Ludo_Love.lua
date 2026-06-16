@@ -38,7 +38,7 @@ T An Unwelcome Gift|QID|78983|M|PLAYER|Z|85; Orgrimmar|N|To Detective Snap Snagb
 
 A Raising a Stink|QID|78978|M|PLAYER|Z|85; Orgrimmar|N|From Detective Snap Snagbolt.|
 
-P Undercity|ACTIVE|78978|M|50.81,55.38|QO|1|Z|85; Orgrimmar|N|Take the portal to Undercity.|TZ|2070|
+P Undercity|ACTIVE|78978|M|50.81,55.38|QO|1|Z|85; Orgrimmar|N|Take the portal to Undercity.|TZ|2070; Tirisfal Glades|
 R Silverpine Forest|ACTIVE|78978|M|69.31,79.63|Z|21; Silverpine Forest|N|Run Fly teleport skip, whatever means you choose make your way to Silverpine Forest.|
 
 T Raising a Stink|QID|78978|M|45.77,68.42|Z|21; Silverpine Forest|N|To Detective Snap Snagbolt.|

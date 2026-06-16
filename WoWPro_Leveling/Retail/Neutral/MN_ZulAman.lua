@@ -22,9 +22,9 @@ T Our Mutual Enemy|QID|90749|M|5.41,47.16|Z|2536; Atal'Aman|N|To Lady Liadrin.|
 A Goodwill Tour|QID|86868|PRE|90749|M|5.41,47.16|Z|2536; Atal'Aman|N|From Lady Liadrin.|
 A Amani Clarion Call|QID|86711|PRE|90749|M|5.50,47.56|Z|2536; Atal'Aman|N|From Zul'jarra.|
 C Goodwill Tour|QID|86868|M|35.52,48.82|Z|2536; Atal'Aman|QO|1|N|Invading Shadow slain.|S|
-C Amani Clarion Call|QID|86711|M|16.46,47.07|Z|2536; Atal'Aman|QO|1<1|H|N|Amani War Drum sounded.|
-C Amani Clarion Call|QID|86711|M|25.05,48.40|Z|2536; Atal'Aman|QO|1<2|H|N|Amani War Drum sounded.|
-C Amani Clarion Call|QID|86711|M|35.69,49.23|Z|2536; Atal'Aman|QO|1<3|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|16.46,47.07|Z|2536; Atal'Aman|QO|1>1|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|25.05,48.40|Z|2536; Atal'Aman|QO|1>2|H|N|Amani War Drum sounded.|
+C Amani Clarion Call|QID|86711|M|35.69,49.23|Z|2536; Atal'Aman|QO|1>3|H|N|Amani War Drum sounded.|
 C Goodwill Tour|QID|86868|M|35.52,48.82|Z|2536; Atal'Aman|QO|1|N|Invading Shadow slain.|US|
 T Goodwill Tour|QID|86868|M|45.98,48.58|Z|2536; Atal'Aman|N|To Lady Liadrin.|
 T Amani Clarion Call|QID|86711|M|46.11,48.70|Z|2536; Atal'Aman|N|To Zul'jarra.|
@@ -77,7 +77,8 @@ C Left in the Shadows|QID|86652|M|43.97,65.14|Z|2437; Zul'Aman|QO|3|CHAT|N|Reque
 C Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|QO|4|CHAT|N|Speak with Kinduru.|
 T Left in the Shadows|QID|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A The Path of the Amani|QID|86653|PRE|86652|M|43.78,68.37|Z|2437; Zul'Aman|N|From Zul'jarra.|
-A Recuperating Returns|QID|88985|LEAD|86722|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
+; This is a leadin quest for Salvaged Sabotage, but becomes unavailable if the main campaign is completed.
+A Recuperating Returns|QID|88985|LEAD|88987^86693|PRE|86652|M|45.70,65.49|Z|2437; Zul'Aman|N|From Torundo the Grizzled.|RANK|2|;This is a breadcrumb
 A The Final Exam|QID|93051|PRE|86652|M|43.19,67.11|Z|2437; Zul'Aman|N|From Recruit Dar'rak.|RANK|2|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|1|NC|N|Tell Ri'kari you're ready to begin.|
 C The Final Exam|QID|93051|M|43.86,64.78|Z|2437; Zul'Aman|QO|2|N|Recruit Dar'rak slain.|
@@ -312,9 +313,9 @@ T The Flames Rise Higher|QID|90772|M|55.01,18.36|Z|2437; Zul'Aman|N|To Zul'jarra
 A In the Shadow of Rebirth|QID|86666|PRE|90772|M|55.01,18.36|Z|2437; Zul'Aman|N|From Zul'jarra.|
 T Unlikely Friends|QID|90568|M|38.28,20.95|Z|2437; Zul'Aman|N|To Elder Ren'zen.|
 A Far from the Hinterlands|QID|91406|M|36.12,24.83|Z|2437|N|From Nija Torntusk.|RANK|2|
-C Far from the Hinterlands|QID|91406|M|37.16,23.52|Z|2437|QO|1<1|NC|N|The first bit of evidence is found on a table on the 2nd floor of the hut.|
-C Far from the Hinterlands|QID|91406|M|38.08,24.09|Z|2437; Zul'Aman|QO|1<2|NC|N|The next bit in on a set of shelves near Headhunter Og'beh.|
-C Far from the Hinterlands|QID|91406|M|37.14,26.25|Z|2437; Zul'Aman|QO|1<3|NC|N|The last bit is found on a table in Rajom Swiftspear's hut.|
+C Far from the Hinterlands|QID|91406|M|37.16,23.52|Z|2437|QO|1>1|NC|N|The first bit of evidence is found on a table on the 2nd floor of the hut.|
+C Far from the Hinterlands|QID|91406|M|38.08,24.09|Z|2437; Zul'Aman|QO|1>2|NC|N|The next bit in on a set of shelves near Headhunter Og'beh.|
+C Far from the Hinterlands|QID|91406|M|37.14,26.25|Z|2437; Zul'Aman|QO|1>3|NC|N|The last bit is found on a table in Rajom Swiftspear's hut.|
 T Far from the Hinterlands|QID|91406|M|36.08,24.79|Z|2437|N|To Nija Torntusk.|
 A The Eye of the Loa|QID|91407|PRE|91406|M|36.08,24.79|Z|2437|N|From Nija Torntusk.|RANK|2|
 C The Eye of the Loa|QID|91407|M|35.97,24.76|Z|2437|QO|1|NC|N|Stand in front of the shrine and use [color=33fff9] Extra Action Button [/color] to request Halazzi's.|EAB|
@@ -361,7 +362,7 @@ A Shared Loa|QID|91410|PRE|91412|M|42.92,71.80|Z|2583; Wit'Kalar Crypt|N|From Mi
 T Shared Loa|QID|91410|M|38.54,22.41|Z|2437; Zul'Aman|N|To Vun'zarah back above in the village.|
 
 T Recuperating Returns|QID|88985|PRE|86652|M|28.37,27.24|Z|2437; Zul'Aman|N|To Woodcrafter Azai.|
-A Salvaged Sabotage|QID|88987|PRE|88985|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
+A Salvaged Sabotage|QID|88987|PRE|88985^86652|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
 A Blind the Bandits|QID|88986|PRE|88985|M|28.41,27.31|Z|2437; Zul'Aman|N|From Woodcrafter Azai.|
 C Salvaged Sabotage|QID|88987|M|29.29,29.05|Z|2437; Zul'Aman|QO|1|NC|N|Stolen Equipment.|S|
 C Blind the Bandits|QID|88986|M|28.87,30.26|Z|2437; Zul'Aman|QO|2|U|238962|N|Kill Twilight's Blade cultists.|
@@ -404,6 +405,7 @@ T Den of Nalorakk: Waking de Bear|QID|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|To 
 N You are seeing this becuz you currently have Honorin' de Sacrifice quest in your log, Lilaju will not be at the cave entrace if you have this quest in your log. Please drop it. Don't worry the guide will direct you to pick it up later.|ACTIVE|92492&86682|US|
 A Den of Nalorakk: Unforgiven|QID|91958|PRE|86682|M|33.58,78.76|Z|2437; Zul'Aman|N|From Zul'jarra.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|33.58,78.76|Z|2437; Zul'Aman|QO|2|CHAT|N|Talk to Zul'jarra to begin a follower dungeon.|
+C Den of Nalorakk: Unforgiven|QID|91958|M|33.58,78.76|Z|2437; Zul'Aman|QO|3|CHAT|N|Complete the Dungeon.|
 C Den of Nalorakk: Unforgiven|QID|91958|M|31.54,83.89|Z|2437; Zul'Aman|QO|4|NC|N|Talk to Zul'jarra outside the dungeon.|
 T Den of Nalorakk: Unforgiven|QID|91958|M|31.55,83.88|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Hash'ey Away|QID|86683|PRE|91958|M|31.55,83.88|Z|2437; Zul'Aman|N|From Zul'jarra.|
@@ -458,7 +460,7 @@ A De Legend of de Hash'ey|QID|86693|PRE|86692|M|21.44,77.38|Z|2437; Zul'Aman|N|F
 C De Legend of de Hash'ey|QID|86693|M|45.28,66.20|Z|2437; Zul'Aman|QO|1|CHAT|N|Talk to Zul'jarra at Amani'Zar Village.|
 T De Legend of de Hash'ey|QID|86693|M|45.76,65.53|Z|2437; Zul'Aman|N|To Zul'jarra.|
 A Broken Bridges|QID|91062|PRE|86693|M|45.76,65.53|Z|2437; Zul'Aman|N|From Zul'jarra.|
-C Broken Bridges|QID|91062|M|51.22,54.37|Z|2437; Zul'Aman|QO|2|CHAT|N|Check on Zul'jan.|
+C Broken Bridges|QID|91062|M|51.22,54.37|Z|2437; Zul'Aman|QO|1|CHAT|N|Check on Zul'jan.|
 T Broken Bridges|QID|91062|M|50.76,54.47|Z|2437; Zul'Aman|N|To Lady Liadrin.|
 A Reports Returned|QID|91087|PRE|91062|M|50.76,54.47|Z|2437; Zul'Aman|N|From Lady Liadrin.|
 
@@ -498,19 +500,19 @@ T Swords to Plowshares|QID|93432|M|45.41,44.74|Z|2536; Atal'Aman|N|To Torundo th
 A Four Instigators|QID|93435|PRE|93433&93432|M|45.41,44.74|Z|2536; Atal'Aman|N|From Torundo the Grizzled.|RANK|2|
 A Hex the Innocent, Disrupt the Guilty|QID|93436|PRE|93433&93432|M|45.20,44.90|Z|2536; Atal'Aman|N|From Elder Doru.|RANK|2|
 C Hex the Innocent|QID|93436|M|37.58,79.91|Z|2536; Atal'Aman|QO|2|H|U|259967|N|Click the Civilians to hex them. Bliz has conveniently given you yellow dots to find them.|S|
-C Disrupt the Guilty|QID|93436|M|52.10,19.29|Z|2536; Atal'Aman|QO|1<1|H|N|Click the Feast to poison it.|
+C Disrupt the Guilty|QID|93436|M|52.10,19.29|Z|2536; Atal'Aman|QO|1>1|H|N|Click the Feast to poison it.|
 K Zungam|ACTIVE|93435|M|43.58,31.78|Z|2536; Atal'Aman|QO|2|N|Slay Zungam.|T|Zungam|
 C Disrupt the Guilty|QID|93436|M|67.23,47.47|Z|2536; Atal'Aman|QO|3|H|N|Click the Warlord's Chest.|
 K Prigmon|ACTIVE|93435|M|34.43,80.11|Z|2536; Atal'Aman|QO|1|N|Slay Prigmon.|T|Prigmon|
-C Disrupt the Guilty|QID|93436|QO|1<2|M|52.10,19.29|Z|2536; Atal'Aman|H|N|Click the feast.|
+C Disrupt the Guilty|QID|93436|QO|1>2|M|22.89, 81.01|Z|2536; Atal'Aman|H|N|Click the feast.|
 K Harrison Jones|ACTIVE|93435|M|8.47,40.77|Z|2536; Atal'Aman|QO|4|N|Slay Harrison Jones. (I know you have wanted to for awhile.|T|Harrison Jones|
 K Budd Nedreck|ACTIVE|93435|M|10.59,27.38|Z|2536; Atal'Aman|QO|3|N|Slay Budd Nedreck.|T|Budd Nedreck|
-C Disrupt the Guilty|QID|93436|M|7.66,8.84|Z|2536; Atal'Aman|QO|1<3|H|N|And the last one way out on the edge of the battlefield.|
+C Disrupt the Guilty|QID|93436|M|7.66,8.84|Z|2536; Atal'Aman|QO|1>3|H|N|And the last one way out on the edge of the battlefield.|
 C Hex the Innocent|QID|93436|M|37.58,79.91|Z|2536; Atal'Aman|QO|2|H|U|259967|N|Finish hexxing Civilians.|US|
 T Hex the Innocent, Disrupt the Guilty|QID|93436|M|45.79,47.33|Z|2536; Atal'Aman|N|To Elder Doru.|
 T Four Instigators|QID|93435|M|45.79,47.33|Z|2536; Atal'Aman|N|To Torundo the Grizzled.|
 A In Their Own Blood|QID|93437|PRE|93436&93435|M|45.79,47.33|Z|2536; Atal'Aman|N|From Torundo the Grizzled.|RANK|2|
-C In Their Own Blood|QID|93437|M|34.49,25.46;16.80,21.34;22.19,66.96;34.49,65.25|CN|Z|2536; Atal'Aman|QO|1|NC|N|Inhabit a Loa Avatar. Any of the 4 works. Stand in the highlighted sigil, and use [color=33fff9] Extra Action Button [/color].|
+C In Their Own Blood|QID|93437|M|34.49,25.46;16.80,21.34;22.19,66.96;34.49,65.25|CN|Z|2536; Atal'Aman|QO|1|NC|N|Inhabit a Loa Avatar. I reccomend Halazzi. Stand in the highlighted sigil, and use [color=33fff9] Extra Action Button [/color].|
 C In Their Own Blood|QID|93437|M|38.29,72.68|Z|2536; Atal'Aman|QO|2|NC|N|Slay Echoes.|
 C In Their Own Blood|QID|93437|M|38.62,70.42|Z|2536; Atal'Aman|QO|3|NC|N|Use Time Flies ability to travel (Optional).|
 C In Their Own Blood|QID|93437|M|63.55,47.43|Z|2536; Atal'Aman|QO|4|N|Slay the Raid Leader. The rightmost button on your Vehicle UI is a teleport to the raid leader.|

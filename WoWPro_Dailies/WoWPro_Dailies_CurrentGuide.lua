@@ -61,9 +61,9 @@ frame:SetScript("OnShow", function()
         row:SetHeight(ROWHEIGHT)
 
         row.check = WoWPro:CreateCheck(row)
-        row.action = WoWPro:CreateAction(row, row.check)
-        row.step = WoWPro:CreateStep(row, row.action)
-        row.note = WoWPro:CreateNote(row, row.action)
+        row.iconTexture = WoWPro:CreateIcon(row, row.check)
+        row.step = WoWPro:CreateStep(row, row.iconTexture)
+        row.note = WoWPro:CreateNote(row, row.iconTexture)
 
         rows[i] = row
     end
@@ -120,9 +120,11 @@ frame:SetScript("OnShow", function()
             row.step:SetText(step)
 
             local action = WoWPro.action[index]
-            row.action:SetTexture(WoWPro.Dailies.actiontypes[action])
+            row.iconTexture:SetTexture(WoWPro.Dailies.actiontypes[action])
+            row.iconTexture.tooltip.text = WoWPro.actionlabels[action] or ""
             if WoWPro.noncombat[index] then
-                row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+                row.iconTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+                row.iconTexture.tooltip.text = "No Combat"
             end
 
             local note = WoWPro.note[index]
