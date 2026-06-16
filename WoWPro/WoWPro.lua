@@ -378,7 +378,7 @@ function WoWPro:OnInitialize()
     WoWProDB.global.RecklessCombat = true
     WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
-    WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
+    WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.5
     WoWProCharDB.disabledAddons = WoWProCharDB.disabledAddons or {}
     if WoWProCharDB.NoTomTom == nil then
         WoWProCharDB.NoTomTom = false
