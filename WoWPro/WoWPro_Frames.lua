@@ -646,7 +646,7 @@ function WoWPro.RowSizeSet()
 
         if row.trackcheck and row.track:GetText() ~= "" then
             row.track:Show()
-            row.track:SetPoint("TOPLEFT", row.action, "BOTTOMLEFT", 0, -noteh-5)
+            row.track:SetPoint("TOPLEFT", row.iconTexture, "BOTTOMLEFT", 0, -noteh-5)
             trackh = row.track:GetHeight()
             row.progressBar:SetWidth(row:GetWidth()-30)
         else
@@ -655,7 +655,7 @@ function WoWPro.RowSizeSet()
             trackh = 1
         end
 
-        newh = noteh + trackh + max(row.step:GetHeight(),row.action:GetHeight()) + space*2 +3
+        newh = noteh + trackh + max(row.step:GetHeight(),row.iconTexture:GetHeight()) + space*2 +3
         if row.progressBar:IsVisible() then
             newh = newh + 20
         end
@@ -1902,10 +1902,10 @@ function WoWPro:CreateRows()
         row.check:SetScript("OnLeave", function(this)
             _G.GameTooltip:Hide()
         end)
-        row.action = WoWPro:CreateAction(row, row.check)
-        row.step = WoWPro:CreateStep(row, row.action)
-        row.note = WoWPro:CreateNote(row, row.action)
-        row.track = WoWPro:CreateTrack(row, row.action)
+        row.iconTexture = WoWPro:CreateIcon(row, row.check)
+        row.step = WoWPro:CreateStep(row, row.iconTexture)
+        row.note = WoWPro:CreateNote(row, row.iconTexture)
+        row.track = WoWPro:CreateTrack(row, row.iconTexture)
         row.progressBar = WoWPro:CreateProgressBar(row, row.track)
         row.progressBar:Hide()
         row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, i, row)
