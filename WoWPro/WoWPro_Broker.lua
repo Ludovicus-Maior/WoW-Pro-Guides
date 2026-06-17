@@ -75,6 +75,50 @@ function WoWPro:SetStepState(stepIndex, state, reason)
 end
 
 WoWPro.EventListeners = WoWPro.EventListeners or {}
+WoWPro.InternalMessageQueue = WoWPro.InternalMessageQueue or {}
+WoWPro.InternalMessagePump = WoWPro.InternalMessagePump or { scheduled = false }
+
+local function ScheduleInternalMessagePump()
+    if WoWPro.InternalMessagePump.scheduled then
+        return
+    end
+    WoWPro.InternalMessagePump.scheduled = true
+
+    if _G.C_Timer and _G.C_Timer.After then
+        _G.C_Timer.After(0, function()
+            WoWPro:ProcessInternalMessages()
+        end)
+    else
+        WoWPro.EventFrame:SetScript("OnUpdate", function(frame)
+            frame:SetScript("OnUpdate", nil)
+            WoWPro:ProcessInternalMessages()
+        end)
+    end
+end
+
+function WoWPro:PostInternalMessage(eventName, ...)
+    if not eventName then return end
+    local queue = WoWPro.InternalMessageQueue
+    queue[eventName] = queue[eventName] or {}
+    table.insert(queue[eventName], {...})
+    ScheduleInternalMessagePump()
+end
+
+function WoWPro:ProcessInternalMessages()
+    local queue = WoWPro.InternalMessageQueue
+    if not next(queue) then
+        WoWPro.InternalMessagePump.scheduled = false
+        return
+    end
+    WoWPro.InternalMessageQueue = {}
+    WoWPro.InternalMessagePump.scheduled = false
+
+    for eventName, messages in pairs(queue) do
+        for _, payload in ipairs(messages) do
+            WoWPro:DispatchEvent(eventName, unpack(payload))
+        end
+    end
+end
 
 function WoWPro:AddEventListener(eventName, listenerFn, purpose)
     if not eventName or type(listenerFn) ~= "function" then return end
