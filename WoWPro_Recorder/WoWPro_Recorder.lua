@@ -313,16 +313,16 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     QID = QID,
                                     map = mapxy,
                                     zone = zonetag,
-						            chat = WoWPro.Recorder.FindText("chat", objectiveText),
-                                    noncombat = WoWPro.Recorder.FindText("nc", objectiveText),
+                                    chat = WoWPro.Recorder.FindText("chat", status),
+                                    noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
                                     note = cleanedNote .. ".",
                                     questtext = tostring(idx),
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
-                                if WoWPro.Recorder.FindText("kill", objectiveText) then
+                                if WoWPro.Recorder.FindText("kill", status) then
                                     stepInfo.action = "K"
-                                    local target = WoWPro.Recorder.FindTarget(objectiveText)
+                                    local target = WoWPro.Recorder.FindTarget(status)
                                     if target then stepInfo.target = target end
                                 end
                                 WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
