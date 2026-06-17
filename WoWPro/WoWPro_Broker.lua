@@ -74,6 +74,44 @@ function WoWPro:SetStepState(stepIndex, state, reason)
     end
 end
 
+WoWPro.EventListeners = WoWPro.EventListeners or {}
+
+function WoWPro:AddEventListener(eventName, listenerFn, purpose)
+    if not eventName or type(listenerFn) ~= "function" then return end
+    WoWPro.EventListeners[eventName] = WoWPro.EventListeners[eventName] or {}
+    WoWPro.EventListeners[eventName][listenerFn] = purpose or true
+end
+
+function WoWPro:RemoveEventListener(eventName, listenerFn)
+    if not eventName or type(listenerFn) ~= "function" then return end
+    local listeners = WoWPro.EventListeners[eventName]
+    if not listeners then return end
+    listeners[listenerFn] = nil
+end
+
+function WoWPro:DispatchEvent(eventName, ...)
+    if not eventName then return end
+    local listeners = WoWPro.EventListeners[eventName]
+    if not listeners then return end
+
+    local snapshot = {}
+    for fn, purpose in pairs(listeners) do
+        snapshot[fn] = purpose
+    end
+
+    for listenerFn, purpose in pairs(snapshot) do
+        if listeners[listenerFn] == purpose then
+            local ok, err = pcall(listenerFn, eventName, ...)
+            if not ok then
+                WoWPro:Error("DispatchEvent(%s): listener=%s purpose=%s error=%s",
+                    tostring(eventName), tostring(listenerFn), tostring(purpose), tostring(err))
+                listeners[listenerFn] = nil
+            end
+        end
+    end
+end
+
+
 function WoWPro:GetActiveStickyCount()
     return _activeStickyCount
 end
