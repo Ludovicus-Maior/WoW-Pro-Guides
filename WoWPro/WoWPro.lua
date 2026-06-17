@@ -576,6 +576,8 @@ function WoWPro:OnEnable()
         WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.PostQuestLogUpdate)
     end
 
+    WoWPro:RegisterBucketMessage("WoWPro_InternalMessagePump",0.01,WoWPro.ProcessInternalMessages)
+
     WoWPro.LockdownTimer = nil
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro:dbp("Setting Timer OnEnable")
