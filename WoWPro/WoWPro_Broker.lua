@@ -101,16 +101,23 @@ function WoWPro:DispatchEvent(eventName, ...)
 
     for listenerFn, purpose in pairs(snapshot) do
         if listeners[listenerFn] == purpose then
-            local ok, err = pcall(listenerFn, eventName, ...)
-            if not ok then
+            local function dispatchErrorHandler(err)
+                local message = tostring(err)
                 WoWPro:Error("DispatchEvent(%s): listener=%s purpose=%s error=%s",
-                    tostring(eventName), tostring(listenerFn), tostring(purpose), tostring(err))
+                    tostring(eventName), tostring(listenerFn), tostring(purpose), message)
+                local handler = geterrorhandler()
+                if handler then
+                    handler(message)
+                end
+                return message
+            end
+
+            if not xpcall(listenerFn, dispatchErrorHandler, eventName, ...) then
                 listeners[listenerFn] = nil
             end
         end
     end
 end
-
 
 function WoWPro:GetActiveStickyCount()
     return _activeStickyCount
