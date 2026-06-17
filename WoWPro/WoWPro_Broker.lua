@@ -101,20 +101,7 @@ function WoWPro:DispatchEvent(eventName, ...)
 
     for listenerFn, purpose in pairs(snapshot) do
         if listeners[listenerFn] == purpose then
-            local function dispatchErrorHandler(err)
-                local message = tostring(err)
-                WoWPro:Error("DispatchEvent(%s): listener=%s purpose=%s error=%s",
-                    tostring(eventName), tostring(listenerFn), tostring(purpose), message)
-                local handler = geterrorhandler()
-                if handler then
-                    handler(message)
-                end
-                return message
-            end
-
-            if not xpcall(listenerFn, dispatchErrorHandler, eventName, ...) then
-                listeners[listenerFn] = nil
-            end
+            listenerFn(eventName, ...)
         end
     end
 end
