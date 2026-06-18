@@ -307,19 +307,25 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                         for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
+                                local cleanedNote = (status or ""):gsub("%.$", "")
                                 local stepInfo = {
                                     action = "C",
                                     step = WoWPro.QuestLog[QID].title,
                                     QID = QID,
                                     map = mapxy,
                                     zone = zonetag,
-									chat = WoWPro.Recorder.FindText("chat", WoWPro.QuestLog[QID].leaderBoard[idx]),
-                                    noncombat = WoWPro.Recorder.FindText("nc", WoWPro.QuestLog[QID].leaderBoard[idx]),
+                                    chat = WoWPro.Recorder.FindText("chat", status),
+                                    noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
-                                    note = WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+")..".",
+                                    note = cleanedNote .. ".",
                                     questtext = tostring(idx),
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
+                                if WoWPro.Recorder.FindText("kill", status) then
+                                    stepInfo.action = "K"
+                                    local target = WoWPro.Recorder.FindTarget(status)
+                                    if target then stepInfo.target = target end
+                                end
                                 WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
                                 WoWPro.Recorder.AddStep(stepInfo)
                                 WoWPro:AutoCompleteQuestUpdate()
@@ -338,13 +344,29 @@ function WoWPro.Recorder.FindText(otype, objectiveText)
 		if otype == "chat" then return true end
 	elseif objectiveText:find("speak", 1, true) then
 		if otype == "chat" then return true end
-	elseif objectiveText:find("slain", 1, true) then
-		return
-	elseif objectiveText:find("defeat", 1, true) then
+	elseif objectiveText:find("%f[%a]slain%f[%A]")
+	or objectiveText:find("%f[%a]defeat%f[%A]")
+	or objectiveText:find("%f[%a]kill%f[%A]")
+	or objectiveText:find("%f[%a]slay%f[%A]") then
+		if otype == "kill" then return true end
 		return
 	elseif otype == "nc" then
 		return true
 	end
+end
+
+function WoWPro.Recorder.FindTarget(objectiveText)
+	if not objectiveText then return nil end
+	local text = objectiveText:match("[^/%d%s].+")
+	if not text then return nil end
+	text = text:gsub("%.$", "")
+	text = text:gsub("^%s+", ""):gsub("%s+$", "")
+	local target = text:match("^(?:[Ss]lay|[Kk]ill|[Dd]efeat)%s+(.+)")
+	if not target then return nil end
+	target = target:gsub("^%d+%s+", "")
+	target = target:gsub("%s+$", "")
+	if target ~= "" then return target end
+	return nil
 end
 
 function WoWPro.Recorder.RunStep()
