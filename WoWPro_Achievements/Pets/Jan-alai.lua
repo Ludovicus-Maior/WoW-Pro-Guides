@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Jan\'alai', "Achievements",'Harandar', 'WoWPro Team'' ,'Neutral')
+local guide = WoWPro:RegisterGuide('Jan\'alai', "Achievements",'Harandar', 'WoWPro Team' ,'Neutral')
 WoWPro:GuideName(guide,"janalai")
 WoWPro:GuideLevels(guide,90, 90)
 WoWPro.Achievements:GuideMisc(guide, "Jan\'alai", "Pets", "Harandar")
