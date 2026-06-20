@@ -35,7 +35,15 @@ function WoWPro.GetSide(frame)
 end
 
 function WoWPro.ResetMainFramePosition()
-    if _G.InCombatLockdown() then return end
+    if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
+        return
+    end
+    if WoWPro.MainFrame:IsMoving() then
+        if WoWPro.DebugAnchor then
+            WoWPro:dbp("ResetMainFramePosition: skipped because MainFrame is moving")
+        end
+        return
+    end
     -- Use the stored expansion anchor to position the frame, respecting the user's chosen growth direction
     local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     local ui = _G.UIParent
@@ -117,7 +125,7 @@ function WoWPro:DragSet()
         WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
+                WoWPro.MainFrame:SetUserPlaced(true)
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
                 WoWPro.SetMouseNotesPoints()
@@ -139,7 +147,7 @@ function WoWPro:DragSet()
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
+                WoWPro.MainFrame:SetUserPlaced(true)
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
                 WoWPro.SetMouseNotesPoints()
@@ -1176,7 +1184,9 @@ function WoWPro.CustomizeFrames()
     end
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorRestore(false) -- Restore saved position after initial module setup
+        if not WoWPro.MainFrame.WoWProHasSavedPoint then
+            WoWPro.AnchorRestore(false) -- Restore saved position after initial module setup
+        end
         WoWPro.HasRestoredThisSession = true
     end
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -1217,7 +1227,11 @@ function WoWPro:CreateMainFrame()
     frame:SetHeight(300)
     frame:SetWidth(200)
     WoWPro.SetResizeBounds(frame, 150, 40)
-    frame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
+    local hasSavedPoint = frame:IsUserPlaced() or false
+    if not hasSavedPoint then
+        frame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
+    end
+    frame.WoWProHasSavedPoint = hasSavedPoint
     frame:EnableMouseWheel()
     WoWPro.MainFrame = frame
     -- Scripts --
@@ -1233,7 +1247,7 @@ function WoWPro:CreateMainFrame()
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             this:StopMovingOrSizing()
-            this:SetUserPlaced(false)
+            this:SetUserPlaced(true)
             WoWPro:StopMoveClamp()
             WoWPro:DisableLeftHandedIfOffScreen()
             WoWPro.SetMouseNotesPoints()
@@ -1313,7 +1327,7 @@ function WoWPro:CreateResizeButton()
         end)
         resizebutton:SetScript("OnMouseUp", function()
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro.InhibitAnchorRestore = false
             WoWPro.InhibitReanchor = false
             WoWPro.InhibitClampBars = false
@@ -1403,7 +1417,7 @@ function WoWPro:CreateCornerHandles()
         end)
         btn:SetScript("OnMouseUp", function()
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro.InhibitAnchorRestore = false
             WoWPro.InhibitReanchor = false
             WoWPro.InhibitClampBars = false
@@ -1753,7 +1767,7 @@ function WoWPro:CreateTitleBar()
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro:StopMoveClamp()
             WoWPro.AnchorStore("OnMouseUp2")
             WoWPro.InhibitAnchorRestore = false
@@ -1768,7 +1782,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(this:GetHeight())
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
@@ -1777,7 +1791,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro.AnchorStore("OnDoubleClick0")
             WoWPro:UpdateGuide("DoubleClick")
         end
@@ -1817,7 +1831,7 @@ function WoWPro:CreateGuideFrame()
     WoWPro.GuideFrame:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.MainFrame:SetUserPlaced(true)
             WoWPro:StopMoveClamp()
             WoWPro.AnchorStore("OnMouseUpGuide")
             WoWPro.InhibitAnchorRestore = false
@@ -1883,7 +1897,7 @@ function WoWPro:CreateRows()
         row:SetScript("OnDragStop", function()
             if WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
+                WoWPro.MainFrame:SetUserPlaced(true)
                 WoWPro:StopMoveClamp()
                 WoWPro.AnchorStore("OnDragStopRow")
                 WoWPro.InhibitAnchorRestore = false
