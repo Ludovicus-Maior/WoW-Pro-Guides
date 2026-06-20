@@ -1331,13 +1331,14 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     values = function()
                         local infoTable = {}
                         for GID, guideInfo in pairs(WoWPro.Guides) do
+                            local guideName = WoWPro:GetGuideName(GID)
                             if WoWPro.Recorder.Advanced then
-                                infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..tostring(guideInfo.author)
+                                infoTable[GID] = guideName .." ("..GID..") "..tostring(guideInfo.zone).." by "..tostring(guideInfo.author)
                                 if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
                                     infoTable[GID] = "!" .. infoTable[GID]
                                 end
                             else
-                                infoTable[GID] = GID
+                                infoTable[GID] = guideName
                             end
                         end
                         return infoTable
@@ -1382,12 +1383,19 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     name = "Delete",
                     width = "full",
                     func = function(info,val)
-                        if WoWPro.Guides[WoWProDB.char.currentguide] then
-                            if WoWPro.Guides[WoWProDB.char.currentguide].original then
-                                WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
+                        local GID = WoWProDB.char.currentguide
+                        if GID and WoWPro.Guides[GID] then
+                            if WoWPro.Guides[GID].original then
+                                WoWPro.Guides[GID] = WoWPro.Guides[GID].original
+                            else
+                                WoWPro.Guides[GID] = nil
                             end
-                            WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
                         end
+                        if GID and WoWPro_RecorderDB then
+                            WoWPro_RecorderDB[GID] = nil
+                        end
+                        WoWProDB.char.currentguide = nil
+                        WoWPro.Recorder.SelectedStep = nil
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
 
