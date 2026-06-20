@@ -120,12 +120,16 @@ function WoWPro:DragSet()
         end)
         WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro:StopMoveClamp()
-                WoWPro:DisableLeftHandedIfOffScreen()
-                WoWPro.SetMouseNotesPoints()
-                WoWPro.AnchorStore("OnMouseUp0")
+                if not _G.InCombatLockdown() then
+                    WoWPro.MainFrame:StopMovingOrSizing()
+                    WoWPro.MainFrame:SetUserPlaced(false)
+                    WoWPro:StopMoveClamp()
+                    WoWPro:DisableLeftHandedIfOffScreen()
+                    WoWPro.SetMouseNotesPoints()
+                    WoWPro.AnchorStore("OnMouseUp0")
+                else
+                    WoWPro:Print("Cannot stop moving WoWPro frame while in combat.")
+                end
                 WoWPro.InhibitAnchorRestore = false
             end
         end)
@@ -146,12 +150,16 @@ function WoWPro:DragSet()
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro:StopMoveClamp()
-                WoWPro:DisableLeftHandedIfOffScreen()
-                WoWPro.SetMouseNotesPoints()
-                WoWPro.AnchorStore("OnMouseUpTitlebar")
+                if not _G.InCombatLockdown() then
+                    WoWPro.MainFrame:StopMovingOrSizing()
+                    WoWPro.MainFrame:SetUserPlaced(false)
+                    WoWPro:StopMoveClamp()
+                    WoWPro:DisableLeftHandedIfOffScreen()
+                    WoWPro.SetMouseNotesPoints()
+                    WoWPro.AnchorStore("OnMouseUpTitlebar")
+                else
+                    WoWPro:Print("Cannot stop moving WoWPro frame while in combat.")
+                end
                 WoWPro.InhibitAnchorRestore = false
             end
         end)
