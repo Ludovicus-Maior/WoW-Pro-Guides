@@ -1294,18 +1294,30 @@ function WoWPro:RowUpdate(offset)
     -- Paired S completion is handled in UpdateGuideReal().
     -- US steps should be visible even if their paired sticky S is not yet complete.
     local stepList = {}
-    for _, v in ipairs(stickySteps) do
-        table.insert(stepList, v)
-    end
-    for _, v in ipairs(regularSteps) do
-        if not completion[v] then
-            if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
-                local foundSticky = WoWPro.FindPairedStickyStep(v)
-                if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
+    if WoWPro.Recorder then
+        local firstStep = WoWPro.Recorder.SelectedStep or k or 1
+        if type(firstStep) ~= "number" or firstStep < 1 or firstStep > WoWPro.stepcount or not WoWPro.step[firstStep] then
+            firstStep = 1
+        end
+        WoWPro.Recorder.SelectedStep = firstStep
+        for idx = firstStep, math.min(WoWPro.stepcount, firstStep + 14) do
+            table.insert(stepList, idx)
+        end
+        stickySteps = {}
+    else
+        for _, v in ipairs(stickySteps) do
+            table.insert(stepList, v)
+        end
+        for _, v in ipairs(regularSteps) do
+            if not completion[v] then
+                if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
+                    local foundSticky = WoWPro.FindPairedStickyStep(v)
+                    if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
+                        table.insert(stepList, v)
+                    end
+                else
                     table.insert(stepList, v)
                 end
-            else
-                table.insert(stepList, v)
             end
         end
     end
