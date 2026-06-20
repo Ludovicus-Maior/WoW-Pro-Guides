@@ -38,7 +38,7 @@ function WoWPro.ResetMainFramePosition()
     if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
         return
     end
-    if WoWPro.MainFrame:IsMoving() then
+    if WoWPro.MainFrame and WoWPro.MainFrame.IsMoving and WoWPro.MainFrame:IsMoving() then
         if WoWPro.DebugAnchor then
             WoWPro:dbp("ResetMainFramePosition: skipped because MainFrame is moving")
         end
