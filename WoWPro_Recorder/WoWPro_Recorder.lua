@@ -319,7 +319,6 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
                                     note = cleanedNote .. ".",
-                                    questtext = tostring(idx),
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
                                 if WoWPro.Recorder.FindText("kill", status) then
