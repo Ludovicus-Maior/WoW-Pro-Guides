@@ -308,6 +308,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
                                 local cleanedNote = (status or ""):gsub("%.$", "")
+                                cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
                                 local stepInfo = {
                                     action = "C",
                                     step = WoWPro.QuestLog[QID].title,
