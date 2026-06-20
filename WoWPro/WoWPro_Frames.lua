@@ -107,9 +107,13 @@ function WoWPro:DragSet()
     if WoWProDB.profile.drag then
         WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.InhibitAnchorRestore = true
-                WoWPro:StartMoveClamp()
-                WoWPro.MainFrame:StartMoving()
+                if not _G.InCombatLockdown() then
+                    WoWPro.InhibitAnchorRestore = true
+                    WoWPro:StartMoveClamp()
+                    WoWPro.MainFrame:StartMoving()
+                else
+                    WoWPro:Print("Cannot drag WoWPro frame while in combat.")
+                end
             elseif button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
             end
@@ -129,9 +133,13 @@ function WoWPro:DragSet()
         -- Enable titlebar dragging regardless of button bar visibility
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.InhibitAnchorRestore = true
-                WoWPro:StartMoveClamp()
-                WoWPro.MainFrame:StartMoving()
+                if not _G.InCombatLockdown() then
+                    WoWPro.InhibitAnchorRestore = true
+                    WoWPro:StartMoveClamp()
+                    WoWPro.MainFrame:StartMoving()
+                else
+                    WoWPro:Print("Cannot drag WoWPro frame while in combat.")
+                end
             elseif button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
             end
