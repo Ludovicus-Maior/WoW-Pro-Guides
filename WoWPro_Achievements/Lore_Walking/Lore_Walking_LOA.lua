@@ -1,6 +1,7 @@
-local guide = WoWPro:RegisterGuide('d', 'Achievements', 'Orgrimmar', 'WoWPro Team', 'Horde')
-WoWPro:GuideName(guide,"d")
-WoWPro:GuideLevels(guide,1, 60)
+local guide = WoWPro:RegisterGuide('Lorewalking-Loa', 'Achievements', 'Orgrimmar', 'WoWPro Team', 'Neutral')
+WoWPro:GuideName(guide,"Lorewalking")
+WoWPro:GuideLevels(guide,10, 90)
+WoWPro.Achievements:GuideMisc(guide, "Lorewalking-Loa", "Lorewalking", "Midnight")
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
