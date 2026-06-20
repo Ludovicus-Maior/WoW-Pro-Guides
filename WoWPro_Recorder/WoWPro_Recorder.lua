@@ -318,7 +318,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     chat = WoWPro.Recorder.FindText("chat", status),
                                     noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
-                                    note = cleanedNote .. ".",
+                                    note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
                                 if WoWPro.Recorder.FindText("kill", status) then
@@ -814,6 +814,14 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     local sequence = {}
 
     for i,action in pairs(WoWPro.action) do
+        if WoWPro.questtext[i] and WoWPro.note[i] then
+            WoWPro.note[i] = WoWPro.Recorder.CleanObjectiveNote(WoWPro.note[i])
+            if WoWPro.note[i] ~= "" then
+                WoWPro.note[i] = WoWPro.note[i] .. "."
+            else
+                WoWPro.note[i] = false
+            end
+        end
         local line = WoWPro.EmitStep(i)
         tinsert(sequence,line)
     end
