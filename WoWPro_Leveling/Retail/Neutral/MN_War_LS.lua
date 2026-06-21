@@ -74,7 +74,7 @@ C Nothing Stands Forever|QID|88706|QO|1|M|45.23,62.95|Z|2405; Voidstorm|N|Talk t
 T Nothing Stands Forever|QID|88706|M|45.22,62.93|Z|2405; Voidstorm|N|To High Exarch Turalyon.|
 
 ;Chapter 2
-A Charge of the Vanguard|QID|90690|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
+A Charge of the Vanguard|QID|90690|LEAD|88709|M|45.35,70.31|Z|2393; Silvermoon City|N|From Lor'themar Theron.|
 P The Howling Ridge|ACTIVE|90690|M|35.32,65.93|Z|2393; Silvermoon City|N|Take the portal to Voidstorm.|
 T Charge of the Vanguard|QID|90690|M|45.41,63.10|Z|2405; Voidstorm|N|To High Exarch Turalyon.|
 A The Voidspire|QID|88709|PRE|90690|M|45.41,63.10|Z|2405; Voidstorm|N|From High Exarch Turalyon.|
