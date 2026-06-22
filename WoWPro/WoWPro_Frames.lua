@@ -760,19 +760,19 @@ function WoWPro.RowSizeSet()
                 WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
 
                 if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
-                    local left = WoWPro.MainFrame:GetLeft() or 0
-                    local right = WoWPro.MainFrame:GetRight() or screenW
+                    local frameLeft = WoWPro.MainFrame:GetLeft() or 0
+                    local frameRight = WoWPro.MainFrame:GetRight() or screenW
                     local top = WoWPro.MainFrame:GetTop() or screenH
                     local bottom = WoWPro.MainFrame:GetBottom() or 0
                     local x, y
                     if expansionAnchor == "TOPLEFT" then
-                        x, y = left, top - screenH
+                        x, y = frameLeft, top - screenH
                     elseif expansionAnchor == "TOPRIGHT" then
-                        x, y = right - screenW, top - screenH
+                        x, y = frameRight - screenW, top - screenH
                     elseif expansionAnchor == "BOTTOMLEFT" then
-                        x, y = left, bottom
+                        x, y = frameLeft, bottom
                     else
-                        x, y = right - screenW, bottom
+                        x, y = frameRight - screenW, bottom
                     end
                     WoWPro.MainFrame:ClearAllPoints()
                     WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
