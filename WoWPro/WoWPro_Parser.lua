@@ -210,19 +210,38 @@ end
 ---},
 
 function WoWPro.InsertActionDescriptions(tabla, order)
+    local actionList = {}
     for action, icon in pairs(WoWPro.actiontypes) do
-        local label = WoWPro.actionlabels[action]
-        local nickname = label:gsub("%s+", "")
-        tabla[nickname] = {
-            order = order,
-            type = "description",
-            fontSize = "medium",
-            name = label .. " (" .. action .. ")",
-            image = icon,
-            imageWidth = 16,
-            imageHeight = 16
-        }
-        order = order + 1
+        table.insert(actionList, action)
+    end
+
+    table.sort(actionList, function(a, b)
+        local la = WoWPro.actionlabels[a] or a
+        local lb = WoWPro.actionlabels[b] or b
+        if la == lb then
+            return a < b
+        end
+        return la < lb
+    end)
+
+    for _, action in ipairs(actionList) do
+        -- Keep the legend compact by hiding expanded Accept subtypes (e.g. "A Campaign").
+        if not action:match("^A%s+") then
+            local icon = WoWPro.actiontypes[action]
+            local label = WoWPro.actionlabels[action] or action
+            local nickname = ("Action_%s"):format(action:gsub("%s+", "_"))
+            tabla[nickname] = {
+                order = order,
+                type = "description",
+                fontSize = "medium",
+                width = "full",
+                name = label .. " (" .. action .. ")",
+                image = icon,
+                imageWidth = 16,
+                imageHeight = 16
+            }
+            order = order + 1
+        end
     end
     return tabla
 end
