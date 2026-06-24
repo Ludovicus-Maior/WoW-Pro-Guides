@@ -623,7 +623,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     local primo = tags[1]
     if primo:len() < 3 then
         -- Too short to be valid
-        WoWPro:Error("Line %d in guide %s has too short a preamble.  Only %d characters. '%s'", i, GID, primo:len(), primo)
+        WoWPro:Error("Line %d [%s] in guide %s has too short a preamble.  Only %d characters. '%s'", i, text:gsub("|", "¦"), GID, primo:len(), primo)
         return nil
     end
     if primo:sub(2, 2) ~= " " then

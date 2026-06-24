@@ -1,3 +1,23 @@
+# Release 2026.06.23.A
+## Bug Fixes
+* Add Interface support for the 120100 PTR.
+* Fix tooltip creation in by guarding GameTooltip:SetBackdrop and SetBackdropColor calls so they’re only invoked when available.
+* Tooltip Icon clipping fixed.
+* Modernize Options Panel
+* Changed Tooltip parenting from UIParent to WoWPro MainFrame.
+* Notes were being clipped depending on window positioning.
+* Normal guide update rate changed from 3 times per second to 2.
+* MoP Zone data updated.
+* Stupid stack overflow error fixed.
+* Yet another bunch of Sticky Step updates!
+* Quest completion comparators had terrible copy paste errors: < was behaving like >=, > like <= !  The guides modified as a result will not be mentioned, as there ALOT.
+* Other bugs to embarrassing to mention.
+## Guide Updates
+* MOP Leveling: Loch Modan, Vashjir, Dwarf Intro,
+* Retail Leveling: Troll Intro, Earthen Intro
+* Retail Midnight: The Curse of Ula'tek, Eversong Woods, Harandar, Voidstorm, War of Light and Shadow, Zul' Aman, Rise of the Red Dawn
+
+
 # Release 2026.05.13.A
 ## Bug Fixes
 * Add optional Warband quest completion support for guide step filtering
