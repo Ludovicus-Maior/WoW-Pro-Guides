@@ -266,9 +266,7 @@ local function createDisplayConfig()
                                 },
                                 get = function(info) return WoWProDB.profile.expansionAnchor or "TOPLEFT" end,
                                 set = function(info, val)
-                                    WoWProDB.profile.expansionAnchor = val
-                                    WoWProDB.profile.leftside = (val == "TOPLEFT" or val == "BOTTOMLEFT")
-                                    WoWPro:UpdateResizeHandle()
+                                    WoWPro:SetExpansionAnchor(val)
                                 end,
                             },
                             resize = {
