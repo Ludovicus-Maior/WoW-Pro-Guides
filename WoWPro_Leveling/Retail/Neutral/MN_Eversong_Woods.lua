@@ -372,7 +372,7 @@ T To the Central Tower|QID|91462|M|48.62,57.65|Z|2395; Eversong Woods|N|To Range
 A See a Mana 'bout a Wyrm|QID|91348|PRE|91347&91462|M|48.62,57.65|Z|2395; Eversong Woods|N|From Ranger Asterae.|RANK|2|
 C See a Mana 'bout a Wyrm|QID|91348|M|48.96,56.01|Z|2395; Eversong Woods|QO|1|N|Assist Agitated Wyrms.|
 C See a Mana 'bout a Wyrm|QID|91348|M|48.65,57.61|Z|2395; Eversong Woods|QO|2|NC|N|Return to Ranger Astarae.|
-C See a Mana 'bout a Wyrm|QID|91348|M|48.65,57.61|Z|2395; Eversong Woods|QO|3|H|N|Finish collecting the Mysterious Blooms.|
+C See a Mana 'bout a Wyrm|QID|91348|M|48.65,57.61|Z|2395; Eversong Woods|QO|3|H|N|Collect the Mysterious Bloom.|
 T See a Mana 'bout a Wyrm|QID|91348|M|48.62,57.64|Z|2395; Eversong Woods|N|To Ranger Asterae.|
 A To the South Tower|QID|91463|PRE|91348|M|48.62,57.64|Z|2395; Eversong Woods|N|From Ranger Asterae.|RANK|2|
 
@@ -529,6 +529,7 @@ C To Deatholme|QID|86635|QO|2|M|44.33,84.80|Z|2395; Eversong Woods|CHAT|N|Speak 
 T To Deatholme|QID|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|To Magister Umbric.|
 A Void Walk With Me|QID|86636|PRE|86635|M|44.34,84.70|Z|2395; Eversong Woods|N|From Magister Umbric.|
 C Void Walk With Me|QID|86636|QO|1|M|45.48,86.18|Z|2395; Eversong Woods|N|Enter Deathholme Delve.|NC|
+C Void Walk With Me|QID|86636|QO|2;3|M|63.55,33.49|Z|2395; Eversong Woods|N|Pick a Role for Valeera.|NC|
 C Void Walk With Me|QID|86636|QO|4|M|63.55,33.49|Z|2395; Eversong Woods|N|Slay Lord Antenorian.|
 C Void Walk With Me|QID|86636|QO|5|M|63.44,29.21|Z|2395; Eversong Woods|N|Reclaimed Stolen Knowledge.|NC|
 T Void Walk With Me|QID|86636|M|44.69,85.19|Z|2395; Eversong Woods|N|To Magister Umbric.|
@@ -572,7 +573,7 @@ A Gods Before Us|QID|86644|PRE|86643|M|54.80,65.50|Z|2395; Eversong Woods|N|From
 C Gods Before Us|QID|86644|QO|2|M|54.59,65.49|Z|2395; Eversong Woods|N|Inspect Amani Riddle.|H|
 C Gods Before Us|QID|86644|QO|3|M|42.35,42.20;59.55,42.68;39.47,29.12|CS|Z|2579; Wartha'nan Crypts|N|Kill Spawn of Shadra, then Child of Hir'eek. Click the vases on each side of the alter to deposit the remains.|NC|
 C Gods Before Us|QID|86644|QO|4|M|53.95,65.54|Z|2395; Eversong Woods|N|Venture deeper into the crypt.|NC|
-C Gods Before Us|QID|86644|QO|5|M|53.70,65.88|Z|2395; Eversong Woods|N|Match pairs of Carved Tiles.|NC|
+C Gods Before Us|QID|86644|QO|5|M|53.70,65.88|Z|2395; Eversong Woods|N|Click tiles and pair matching colors. Don't click the one in the middle.|NC|
 T Gods Before Us|QID|86644|M|53.70,65.88|Z|2395; Eversong Woods|N|To Arator.|
 A An Impasse|QID|86646|PRE|86644|M|53.70,65.88|Z|2395; Eversong Woods|N|From Arator.|
 C An Impasse|QID|86646|M|53.88,66.90|Z|2395; Eversong Woods|N|Confront Vanatha.|NC|
