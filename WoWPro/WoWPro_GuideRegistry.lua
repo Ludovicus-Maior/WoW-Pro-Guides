@@ -115,7 +115,7 @@ function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, e
     end
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
     if AddonIndex < 1 then
-        if table.getn(GuideMenuList) == 0 then
+        if #GuideMenuList == 0 then
             table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
         end
         local stuff = { text = AddonAndType, hasArrow = true, menuList = {} }
@@ -125,12 +125,12 @@ function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, e
             end
         end
         table.insert(GuideMenuList, stuff)
-        AddonIndex = table.getn(GuideMenuList)
+        AddonIndex = #GuideMenuList
     end
 
     local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideName)
     if GuideNameIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList,
                 { text = "Select a Guide", isTitle = true })
         end
@@ -148,7 +148,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     local GuideMenuList = WoWPro.GuideMenuList
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
     if AddonIndex < 1 then
-        if table.getn(GuideMenuList) == 0 then
+        if #GuideMenuList == 0 then
             table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
         end
         local stuff = { text = AddonType, hasArrow = true, menuList = {} }
@@ -158,21 +158,21 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
             end
         end
         table.insert(GuideMenuList, stuff)
-        AddonIndex = table.getn(GuideMenuList)
+        AddonIndex = #GuideMenuList
     end
 
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
         end
         table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
-        GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
+        GTypeIndex = #GuideMenuList[AddonIndex].menuList
     end
 
     local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, GuideName)
     if GuideNameIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList,
                 { text = "Select a Guide", isTitle = true })
         end
