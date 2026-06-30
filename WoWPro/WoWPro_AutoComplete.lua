@@ -413,7 +413,7 @@ end
 
 -- Auto-Complete: Set hearth --
 function WoWPro:AutoCompleteSetHearth(event, loc, noUpdate)
-    if event and event ~= "HEARTHSTONE_BOUND" then
+    if event ~= "HEARTHSTONE_BOUND" then
         return
     end
     if not loc or (_G.issecretvalue and _G.issecretvalue(loc)) then
