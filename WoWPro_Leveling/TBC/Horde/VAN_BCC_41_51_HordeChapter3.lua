@@ -298,12 +298,12 @@ R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|Z|1434|N|Head up the s
 R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|Z|1434|N|Head east down the hill towards the water.|
 R Swim|ACTIVE|-624&608|M|34.44,85.51|Z|1434|N|Enter the water and swim across to the island near the far left pirate ship.|
 N The Bloodsail Buccaneers|ACTIVE|608|N|All 3 of your targets will be found in the same spot on their ship, in the Captain's Room on the first floor at the back of the ship. The ships are from left to right and first to third.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Cortello's Riddle|AVAILABLE|624|L|4056|N|Search the lower deck of the pirate ships until you find this scroll.|S|
+l Cortello's Riddle|AVAILABLE|624|ACTIVE|608|L|4056|N|Search the lower deck of the pirate ships until you find this scroll.|S|
 A Cortello's Riddle|QID|624|N|Accept the quest from the soggy scroll you found.|U|4056|O|
 K Captain Stillwater|ACTIVE|608|M|32.87,88.20|Z|1434|QO|1|N|Board the first pirate ship and kill Captain Stillwater.|T|Captain Stillwater|
 K Fleet Master Firallon|ACTIVE|608|M|30.6,90.6|Z|1434|QO|3|N|Fleet Master Firallon can be found second ship.\n[color=FF0000]NOTE: [/color]Watch for Ironpatch in the room beside him. He'll aggro Firallon if you can't pull him away.|T|Fleet Master Firallon|
 K Captain Keelhaul|ACTIVE|608|M|29.3,88.4|Z|1434|QO|2|N|You'll find Captain Keelhaul aboard the last ship.\n[color=FF0000]NOTE: [/color]Like Ironpatch, kite Garr Salthoof before he aggroes everybody.|T|Captain Keelhaul|
-C Cortello's Riddle|AVAILABLE|624|ACTIVE|608|L|4056|N|Search the lower deck of the three pirate ships until you find this scroll.|US|
+l Cortello's Riddle|AVAILABLE|624|ACTIVE|608|L|4056|N|Search the lower deck of the three pirate ships until you find this scroll.|US|
 R The Crystal Shore|ACTIVE|624^8551|M|36.03,70.46|Z|1434|N|Follow the shoreline north.|
 K Gorlash|ACTIVE|8551|M|36.43,70.77|Z|1434|L|3932|ITEM|3932|N|Gorlash\n[color=FF0000]NOTE: [/color]Gorlash is a lv 42 Elite and hits really hard; avoiding it as best you can is advised.|
 R Ruins of Aboraz|ACTIVE|624^609|M|38.91,60.82|Z|1434|N|Continue north along the shoreline.|
