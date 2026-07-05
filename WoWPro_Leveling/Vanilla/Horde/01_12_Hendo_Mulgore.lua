@@ -266,7 +266,7 @@ N A very long run|AVAILABLE|445|Z|1412; Mulgore|N|Because you are Tauren, you wo
 R Far Watch Outpost|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|1413; The Barrens|N|Take the north road out of The Crossroads to the first intersection. Follow the road east to Far Watch Outpost.|R|Tauren|TAXI|-Orgrimmar|
 
 ; --- Tauren Warrior class quest
-N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.NOTECONT|R|Tauren|C|Warrior|
+N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Tauren|C|Warrior|
 T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|R|Tauren|C|Warrior|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|1411; Durotar|N|Cross the bridge over the river and run to the entrance of Thunder Ridge.|R|Tauren|C|Warrior|
@@ -295,7 +295,7 @@ R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|CC|Z|1413; The Barrens|N|From 
 R Orgrimmar|AVAILABLE|445|M|52.42,84.43|Z|1454; Orgrimmar|N|At this point, you can either take your chances with the level 15+ mobs and make a run straight north for the west entrance to Orgrimmar (not recommended), or cross the Southfury River and head for the south entrance.NOTE We'll be crossing the river and your best bet is to stick to the shoreline, following it north to the mountain wall and then east to the entrance. The mobs in this area should be level 10ish.|
 f Orgrimmar|AVAILABLE|445|M|45.11,63.89|Z|1454; Orgrimmar|N|Get the FP from Doras at the top of the tower.|TAXI|-Orgrimmar|
 R Leave Orgrimmar|AVAILABLE|445|M|45.56,12.20|Z|1411; Durotar|TZ|Durotar|N|Exit Orgrimmar through the south gate.|
-N Druid trainers|AVAILABLE|445|N|[color=FF0000]NOTE: [/color]Unfortunately, there are no Druid class trainers outside of Kalimdor. Therefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar. Either way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\nNOTECONT|C|Druid|
+N Druid trainers|AVAILABLE|445|N|[color=FF0000]NOTE: [/color]Unfortunately, there are no Druid class trainers outside of Kalimdor. Therefore, any time you require training, use your Moonglade portal (which will require you to fly back to Thunder Bluff and take the Zepplin back), or you can take the zepplin back and fly to Thunder Bluff from Orgrimmar. Either way, you have some traveling to do every 2 levels.\nTime wise, you're looking at about 30-45 minutes (roundtrip). You can shorten the time by using your hearth, but that may mean not having it available when you need it.\nConsidering the next guide is short, you can always wait until you return to Kalimdor to do your training.\n\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 
 ]]
 end)
