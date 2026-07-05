@@ -251,7 +251,6 @@ C Stolen Silver|QID|3281|QO|1|M|58.04,53.87|N|Clear your way through the grounds
 C Raptor Horns|QID|865|M|57.41,52.01|L|5055 5|N|Stay at the Raptor Grounds until you finish this quest|US|
 C Sunscale Feathers|QID|905|M|57.41,52.01|Z|1413; The Barrens|L|5165 3|ITEM|5165|N|any Sunscale Raptor you come across for the next quest, 'The Angry Scytheclaws'.|
 C The Angry Scytheclaws|QID|905|QO|1;2;3|M|58.04,53.87;52.45,46.57;52.03,46.48;52.60,46.10|CC|N|Go to the raptor nests. Clear the area, then right-click each of the nests. They do not have to be done in any particular order.|NC|
-* Sunscale Feathers|PRE|905|N|You can safely destroy your leftover Sunscale Feathers.|U|5165|
 R Lushwater Oasis|QID|880|M|48.24,40.48|N|Go to the Lushwater Oasis.|
 C Altered Beings|QID|880|M|47.98,40.27|L|5098 8|N|Kill Oasis Snapjaws and loot their shells.|
 C Hezrul Bloodmark|QID|852|QO|1|M|46.15,36.84|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|T|Hezrul|
@@ -273,6 +272,7 @@ T Altered Beings|QID|880|M|52.26,31.93|N|To Tonga Runetotem.|
 A Hamuul Runetotem|QID|1489|PRE|880|M|52.26,31.93|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem. This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|
 T The Angry Scytheclaws|QID|905|M|52.23,31.01|N|To Sergra Darkthorn.|
 A Jorn Skyseer|QID|3261|PRE|905|M|52.23,31.01|N|From Sergra Darkthorn.|
+* Sunscale Feathers|PRE|905|N|You can safely destroy your leftover Sunscale Feathers.|U|5165|
 T Stolen Silver|QID|3281|M|51.93,30.32|N|To Gazrog.|
 A Report to Kadrak|QID|6541|LEAD|6543|M|51.50,30.87|N|From Thork.|
 T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
