@@ -72,6 +72,12 @@ local function SoundDiag(fmt, ...)
     end
 end
 
+-- Chapter 1 helper skeleton: centralized sound eligibility with feature parity.
+local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
+    local checksoundEnabled = WoWProDB.profile.checksound
+    return checksoundEnabled and (not noUpdate) and (not alreadyComplete)
+end
+
 local function CanCompleteStepImmediateRefresh(step)
     return step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown()
 end
@@ -4212,7 +4218,7 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
     local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
     local checksoundEnabled = WoWProDB.profile.checksound
-    local soundEligible = checksoundEnabled and (not noUpdate) and (not alreadyComplete)
+    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
     SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s alreadyComplete=%s eligible=%s why=%q",
         tostring(step),
         SoundDiagOrigin(why),
