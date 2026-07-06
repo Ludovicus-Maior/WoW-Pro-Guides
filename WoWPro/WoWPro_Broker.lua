@@ -72,10 +72,40 @@ local function SoundDiag(fmt, ...)
     end
 end
 
--- Chapter 1 helper skeleton: centralized sound eligibility with feature parity.
+local function IsStepVisibleInGuide(step)
+    if not step then
+        return false
+    end
+    if not WoWPro.rows then
+        return false
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        if row and row.index == step and row.IsVisible and row:IsVisible() then
+            return true
+        end
+    end
+    return false
+end
+
+-- Chapter 2 helper: universal visibility-gated completion sound policy.
 local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
     local checksoundEnabled = WoWProDB.profile.checksound
-    return checksoundEnabled and (not noUpdate) and (not alreadyComplete)
+    if not checksoundEnabled then
+        return false
+    end
+    if alreadyComplete then
+        return false
+    end
+    if noUpdate then
+        return false
+    end
+    if not (WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()) then
+        return false
+    end
+    if not IsStepVisibleInGuide(step) then
+        return false
+    end
+    return true
 end
 
 local function CanCompleteStepImmediateRefresh(step)
@@ -4218,13 +4248,17 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
     local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
     local checksoundEnabled = WoWProDB.profile.checksound
+    local guideVisible = WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()
+    local stepVisible = IsStepVisibleInGuide(step)
     local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
-    SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s alreadyComplete=%s eligible=%s why=%q",
+    SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s guideVisible=%s stepVisible=%s alreadyComplete=%s eligible=%s why=%q",
         tostring(step),
         SoundDiagOrigin(why),
         tostring(WoWPro.action[step]),
         tostring(noUpdate),
         tostring(checksoundEnabled),
+        tostring(guideVisible),
+        tostring(stepVisible),
         tostring(alreadyComplete),
         tostring(soundEligible),
         tostring(why))
