@@ -23,6 +23,7 @@ WoWPro.UpdateGuideRealInProgress = false
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
+WoWPro.DEBUG_SOUND_DIAGNOSTICS = false -- Set to true to enable chapter-0 completion sound diagnostics
 
 -- Encapsulated sticky count to prevent taint from direct global access
 local _activeStickyCount = 0
@@ -41,6 +42,35 @@ end
 
 
 local quids_debug = false
+
+local function SoundDiagOrigin(why)
+    why = tostring(why or "")
+    if why == "Right-Click" then
+        return "MANUAL_RIGHTCLICK"
+    end
+    if why:find("Active US step paired completion", 1, true) then
+        return "STICKY_UNSTICKY_PAIR"
+    end
+    if why:find("NextStep()", 1, true) then
+        return "NEXTSTEP_AUTOCOMPLETE"
+    end
+    if why:find("AutoComplete", 1, true) then
+        return "AUTOCOMPLETE_EVENT"
+    end
+    if why:find("autoarrival=", 1, true) then
+        return "MAPPING_AUTOARRIVAL"
+    end
+    if why:find("RecordTaxiLocations", 1, true) then
+        return "TRAVEL_TAXI_DISCOVERY"
+    end
+    return "OTHER"
+end
+
+local function SoundDiag(fmt, ...)
+    if WoWPro.DEBUG_SOUND_DIAGNOSTICS then
+        WoWPro:print("SOUND_DIAG: " .. tostring(fmt), ...)
+    end
+end
 
 local function CanCompleteStepImmediateRefresh(step)
     return step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown()
@@ -2043,6 +2073,7 @@ function WoWPro.UpdateGuideReal(From)
             why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
+        SoundDiag("UpdateGuideReal source=%s", why)
         if not WoWPro.GuideFrame:IsVisible() then
         -- Cinematic hides things (or user collapsed frame with double-click).
         -- Only re-queue if the user did not intentionally collapse the frame.
@@ -2098,6 +2129,7 @@ function WoWPro.UpdateGuideReal(From)
         local guide = WoWProCharDB.Guide[GID]
         local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
+            SoundDiag("StickyPair complete us=%s sticky=%s", tostring(WoWPro.ActiveStep), tostring(foundSticky))
             WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true)
             if WoWPro.DEBUG_STICKY_PAIRING then
                 WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d", WoWPro.ActiveStep, foundSticky)
@@ -2542,6 +2574,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.available[guideIndex] then
                 if not WoWPro.QuestAvailable(WoWPro.available[guideIndex], false, "AVAILABLE") then
                     skip = true
+                    SoundDiag("NextStep AVAILABLE auto-complete step=%s action=%s available=%s qid=%s name=%q", tostring(guideIndex), tostring(stepAction), tostring(WoWPro.available[guideIndex]), tostring(QID), tostring(step))
                     WoWPro.CompleteStep(guideIndex,"NextStep(): Skipping step, available quest is currently complete or active")
                     break
                 end
@@ -4177,7 +4210,19 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
-    if WoWProDB.profile.checksound and (not noUpdate) and (not WoWProCharDB.Guide[GID].completion[step]) then
+    local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
+    local checksoundEnabled = WoWProDB.profile.checksound
+    local soundEligible = checksoundEnabled and (not noUpdate) and (not alreadyComplete)
+    SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s alreadyComplete=%s eligible=%s why=%q",
+        tostring(step),
+        SoundDiagOrigin(why),
+        tostring(WoWPro.action[step]),
+        tostring(noUpdate),
+        tostring(checksoundEnabled),
+        tostring(alreadyComplete),
+        tostring(soundEligible),
+        tostring(why))
+    if soundEligible then
         _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
     end
     why = tostring(why)
