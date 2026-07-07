@@ -966,9 +966,6 @@ function WoWPro:CheckFunction(row, button, down)
     elseif button == "RightButton" and row.check:GetChecked() then
         row.check:SetGold()
         WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-        if WoWProDB.profile.checksound then
-            _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
-        end
         -- if CompleteStep() did a LoadGuide, skip out.
         if WoWPro.CompleteStep(row.index,"Right-Click") then
             return
