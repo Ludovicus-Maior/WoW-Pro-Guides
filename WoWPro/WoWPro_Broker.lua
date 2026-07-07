@@ -88,7 +88,7 @@ local function IsStepVisibleInGuide(step)
 end
 
 -- Chapter 2 helper: universal visibility-gated completion sound policy.
-local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
+local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundCtx)
     local checksoundEnabled = WoWProDB.profile.checksound
     if not checksoundEnabled then
         return false
@@ -97,6 +97,9 @@ local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
         return false
     end
     if noUpdate then
+        return false
+    end
+    if soundCtx and soundCtx.suppressSound then
         return false
     end
     if not (WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()) then
@@ -4235,7 +4238,7 @@ function WoWPro.NextStepNotSticky(guideIndex)
 end
 
 -- Step Completion Tasks --
-function WoWPro.CompleteStep(step, why, noUpdate)
+function WoWPro.CompleteStep(step, why, noUpdate, soundCtx)
     if not step then
         WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
         return false
@@ -4247,10 +4250,11 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     local checksoundEnabled = WoWProDB.profile.checksound
     local guideVisible = WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()
     local stepVisible = IsStepVisibleInGuide(step)
-    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete)
+    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundCtx)
+    local soundOrigin = (soundCtx and soundCtx.origin) or SoundDiagOrigin(why)
     SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s guideVisible=%s stepVisible=%s alreadyComplete=%s eligible=%s why=%q",
         tostring(step),
-        SoundDiagOrigin(why),
+        tostring(soundOrigin),
         tostring(WoWPro.action[step]),
         tostring(noUpdate),
         tostring(checksoundEnabled),
