@@ -96,7 +96,7 @@ local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundC
     if alreadyComplete then
         return false
     end
-    if noUpdate then
+    if noUpdate and not (soundCtx and soundCtx.allowSoundWhileNoUpdate) then
         return false
     end
     if soundCtx and soundCtx.suppressSound then
@@ -2165,8 +2165,8 @@ function WoWPro.UpdateGuideReal(From)
         local guide = WoWProCharDB.Guide[GID]
         local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
-            SoundDiag("StickyPair complete us=%s sticky=%s", tostring(WoWPro.ActiveStep), tostring(foundSticky))
-            WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true)
+            SoundDiag("StickyPair complete us=%s sticky=%s visible=%s", tostring(WoWPro.ActiveStep), tostring(foundSticky), tostring(IsStepVisibleInGuide(foundSticky)))
+            WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true, { origin = "STICKY_UNSTICKY_PAIR", allowSoundWhileNoUpdate = true })
             if WoWPro.DEBUG_STICKY_PAIRING then
                 WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d", WoWPro.ActiveStep, foundSticky)
             end
