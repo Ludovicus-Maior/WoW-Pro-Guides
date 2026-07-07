@@ -2,15 +2,18 @@ local guide = WoWPro:RegisterGuide("The Curse of Ula'tek", 'Leveling', 'Silvermo
 WoWPro:GuideName(guide,"The Curse of Ula'tek")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,90, 90)
-WoWPro:GuideQuestTriggers(guide, 92895)
+WoWPro:GuideQuestTriggers(guide, 92897^92895)
 WoWPro:GuideSort(guide, 7)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+;CHAPTER 1
+A The Preparations Are Complete|QID|92897|M|PLAYER|N|From the Adventure Journal.|LEAD|92895|
+T The Preparations Are Complete|QID|92897|M|45.37,70.07|Z|2393; Silvermoon City|N|To Orweyna.|
 A Hagar's Invitation|QID|92895|M|45.37,70.07|Z|2393; Silvermoon City|N|From Orweyna.|
 P The Den|ACTIVE|92895|QO|1|M|36.92,68.05|Z|2393; Silvermoon City|N|Take the Rootway to Harandar.|
-C Hagar's Invitation|QID|92895|QO|2|M|44.34,53.07|Z|2576; The Den|N|Arrive at the meeting.|
+C Hagar's Invitation|QID|92895|QO|2|M|44.34,53.07|Z|2576; The Den|N|Arrive at the meeting.|NC|
 T Hagar's Invitation|QID|92895|M|43.89,53.23|Z|2576; The Den|N|To Orweyna.|
 A History Lesson|QID|92899|PRE|92895|M|43.89,53.23|Z|2576; The Den|N|From Orweyna.|
 C History Lesson|QID|92899|QO|1>1|M|44.47,56.97|Z|2576; The Den|N|Speak to Magister Umbric.|CHAT|
@@ -71,23 +74,19 @@ C Maisara Caverns: Master of Souls|QID|92954|QO|2|M|44.46,36.66|Z|2437; Zul'Aman
 C Maisara Caverns: Master of Souls|QID|92954|QO|3|Z|2501; Maisara Caverns!Dungeon|N|Malacrass's Notes.|NC|
 C Maisara Caverns: Master of Souls|QID|92954|QO|4|Z|2501; Maisara Caverns!Dungeon|N|Rak'tul defeated.|
 T Maisara Caverns: Master of Souls|QID|92954|M|44.46,36.66|Z|2437; Zul'Aman|N|To Zul'jan.|
-
 A The Serpent Shrine|QID|93010|PRE|92954|M|44.47,36.69|Z|2437; Zul'Aman!Quel'Thalas|N|From Zul'jan|
 T The Serpent Shrine|QID|93010|M|67.79,47.24|Z|2536; Atal'Aman|N|To Zul'jan|
-
-
-
-
-
 A Legacy of the Amani|QID|93011|PRE|93010|M|67.67,47.31|Z|2536; Atal'Aman|N|From Zul'jan.|
 C Legacy of the Amani|QID|93011|QO|1;2|M|67.54,47.58|Z|2536; Atal'Aman|N|Tell Zul'jan you are ready then defended him.|CHAT|
 C Legacy of the Amani|QID|93011|QO|3|M|44.41,66.75|Z|2437; Zul'Aman|N|Speak to Kinduru.|CHAT|
 T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|From Orweyna.|
 C Dead End|QID|93012|QO|1|M|43.82,68.34|Z|2437; Zul'Aman|N|Speak to Zul'jarra.|CHAT|
-C Dead End|QID|93012|QO|2|M|43.54,68.34|Z|2437; Zul'Aman|N|Use Kinduru's Mortar to grind Bog Herbs.|NC|
-C Dead End|QID|93012|QO|3|M|43.86,68.67|Z|2437; Zul'Aman||N|Pour Death Rites Mixture into the fires.|NC
+C Dead End|QID|93012|QO|2|M|43.54,68.34|Z|2437; Zul'Aman|N|Use Kinduru's Mortar to grind Bog Herbs.|H|
+C Dead End|QID|93012|QO|3|M|43.86,68.67|Z|2437; Zul'Aman|N|Pour Death Rites Mixture into the fires.|EAB|
 T Dead End|QID|93012|M|43.78,68.40|Z|2437; Zul'Aman|N|To Zul'jarra.|
+
+;CHAPTER 2
 
 ]]
 end)
