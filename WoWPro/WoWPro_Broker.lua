@@ -2160,15 +2160,16 @@ function WoWPro.UpdateGuideReal(From)
     WoWPro.ActiveStep = WoWPro.NextStepNotSticky(1)
     WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitSafeStep(WoWPro.ActiveStep))
 
-    -- If the active step is a US step, mark its paired S step complete now
+    -- If the active step is a US step, defer paired S completion until after rows are rebuilt.
+    -- This ensures sound visibility checks use current-pass row state, not stale row visibility.
+    local pendingPairedSticky
     if WoWPro.ActiveStep and WoWPro.unsticky[WoWPro.ActiveStep] and not WoWPro.sticky[WoWPro.ActiveStep] then
         local guide = WoWProCharDB.Guide[GID]
         local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
-            SoundDiag("StickyPair complete us=%s sticky=%s visible=%s", tostring(WoWPro.ActiveStep), tostring(foundSticky), tostring(IsStepVisibleInGuide(foundSticky)))
-            WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true, { origin = "STICKY_UNSTICKY_PAIR", allowSoundWhileNoUpdate = true })
+            pendingPairedSticky = foundSticky
             if WoWPro.DEBUG_STICKY_PAIRING then
-                WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d", WoWPro.ActiveStep, foundSticky)
+                WoWPro:dbp("[Broker] ActiveStep is US step %d: Queued paired S step %d for completion after row rebuild", WoWPro.ActiveStep, foundSticky)
             end
         end
     end
@@ -2243,6 +2244,14 @@ function WoWPro.UpdateGuideReal(From)
     -- Reloading until all stickies that need to unsticky have done so --
     while reload do
         reload = rowContentUpdate()
+    end
+
+    if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
+        SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
+        WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, { origin = "STICKY_UNSTICKY_PAIR", allowSoundWhileNoUpdate = true })
+        if WoWPro.DEBUG_STICKY_PAIRING then
+            WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d after row rebuild", WoWPro.ActiveStep, pendingPairedSticky)
+        end
     end
 
     -- Updating the guide list or current guide panels if they are shown --
