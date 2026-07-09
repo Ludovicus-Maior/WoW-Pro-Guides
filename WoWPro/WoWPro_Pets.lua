@@ -520,7 +520,7 @@ function WoWPro.ProcessFinalRound(winner, qidx)
         WoWPro:DelFauxQuest(QID)
         for i=1, WoWPro.stepcount do
             if not WoWProCharDB.Guide[GID].completion[i] and WoWPro.strategy[i] and ((WoWPro.QID[i] and WoWPro.QID[i] == QID) or (WoWPro.available[i] and WoWPro.available[i] == QID))  then
-                WoWPro.CompleteStep(i,"Pet battle WON!", nil, { origin = "PetBattleFinalRound" })
+                WoWPro.CompleteStep(i,"Pet battle WON!", nil, "PetBattleFinalRound")
             end
         end
         WoWPro.current_strategy = false

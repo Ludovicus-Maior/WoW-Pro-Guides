@@ -88,7 +88,7 @@ local function IsStepVisibleInGuide(step)
 end
 
 -- Chapter 2 helper: universal visibility-gated completion sound policy.
-local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundCtx)
+local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, origin)
     local checksoundEnabled = WoWProDB.profile.checksound
     if not checksoundEnabled then
         return false
@@ -96,10 +96,7 @@ local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundC
     if alreadyComplete then
         return false
     end
-    if noUpdate and not (soundCtx and soundCtx.allowSoundWhileNoUpdate) then
-        return false
-    end
-    if soundCtx and soundCtx.suppressSound then
+    if noUpdate and origin ~= "STICKY_UNSTICKY_PAIR" then
         return false
     end
     if not (WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()) then
@@ -2248,7 +2245,7 @@ function WoWPro.UpdateGuideReal(From)
 
     if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
         SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
-        WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, { origin = "STICKY_UNSTICKY_PAIR", allowSoundWhileNoUpdate = true })
+        WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")
         if WoWPro.DEBUG_STICKY_PAIRING then
             WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d after row rebuild", WoWPro.ActiveStep, pendingPairedSticky)
         end
@@ -4247,7 +4244,7 @@ function WoWPro.NextStepNotSticky(guideIndex)
 end
 
 -- Step Completion Tasks --
-function WoWPro.CompleteStep(step, why, noUpdate, soundCtx)
+function WoWPro.CompleteStep(step, why, noUpdate, origin)
     if not step then
         WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
         return false
@@ -4259,8 +4256,8 @@ function WoWPro.CompleteStep(step, why, noUpdate, soundCtx)
     local checksoundEnabled = WoWProDB.profile.checksound
     local guideVisible = WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()
     local stepVisible = IsStepVisibleInGuide(step)
-    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, soundCtx)
-    local soundOrigin = (soundCtx and soundCtx.origin) or SoundDiagOrigin(why)
+    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, origin)
+    local soundOrigin = origin or SoundDiagOrigin(why)
     SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s guideVisible=%s stepVisible=%s alreadyComplete=%s eligible=%s why=%q",
         tostring(step),
         tostring(soundOrigin),

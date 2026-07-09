@@ -145,7 +145,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
         end
 
         if iactual == 1 and autoComplete then
-            WoWPro.CompleteStep(index, "autoarrival=1", nil, { origin = "MappingAutoArrival" })
+            WoWPro.CompleteStep(index, "autoarrival=1", nil, "MappingAutoArrival")
         end
 
     elseif autoarrival == 2 then
@@ -154,7 +154,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
             return
         elseif iactual == 1 then
             if autoComplete then
-                WoWPro.CompleteStep(index, "autoarrival=2", nil, { origin = "MappingAutoArrival" })
+                WoWPro.CompleteStep(index, "autoarrival=2", nil, "MappingAutoArrival")
             end
         else
             WoWPro:dbp("Mapping(AA2): removing uid #%d %s.", iactual, tostring(cache[iactual].uid))
