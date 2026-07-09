@@ -250,15 +250,11 @@ end
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
-    for i = 1, 1 + WoWPro:GetActiveStickyCount() do
-        local index = WoWPro.rows[i].index
-        local lootItems = WoWPro.lootitem[index]
-        if lootItems then
-            if WoWProDB.profile.track then
-                local track = WoWPro.GetLootTrackingInfo(lootItems)
-                WoWPro.rows[i].track:SetText(track:trim())
-                WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s", track)
-            end
+
+    -- FIX: iterate all steps with lootitem, not just visible rows
+    for index, lootItems in pairs(WoWPro.lootitem) do
+        -- skip already-completed steps
+        if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
             local allComplete = true
             for itemID, qty in pairs(lootItems) do
                 local itemCount = _G.WoWPro.C_Item_GetItemCount(itemID)
@@ -268,14 +264,23 @@ function WoWPro.AutoCompleteLoot()
                     if itemCount >= -qty then allComplete = false; break end
                 end
             end
-            if allComplete and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
+            if allComplete then
+                WoWPro:dbp("AutoCompleteLoot: Time to complete step %d.", index)
                 WoWPro.CompleteStep(index, "AutoCompleteLoot")
-            else
-                WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
             end
         end
     end
+
+    -- Still update tracking text for visible rows
+    for i = 1, 1 + WoWPro:GetActiveStickyCount() do
+        local index = WoWPro.rows[i].index
+        local lootItems = WoWPro.lootitem[index]
+        if lootItems and WoWProDB.profile.track then
+            local track = WoWPro.GetLootTrackingInfo(lootItems)
+            WoWPro.rows[i].track:SetText(track:trim())
+        end
+    end
+
     WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
@@ -356,7 +361,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 end
 
                 -- Quest AutoComplete --
-                if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
+                if questComplete and (action == "A" or action == "C" or action == "K" or action == "T" or action == "N") and QID == questComplete then
                     if action == "C" and WoWPro.lootitem and WoWPro.lootitem[i] and not WoWPro.LootItemsCollected(WoWPro.lootitem[i]) then
                         WoWPro:dbp("AutoCompleteQuestUpdate: skipping auto-complete for loot-backed C step %d", i)
                         break
@@ -368,7 +373,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 end
 
                 -- Quest Completion via QuestLog--
-                if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
+                if WoWPro.QuestLog[QID] and (action == "C" or action == "K") and not completion and WoWPro.QuestLog[QID].complete then
                     if action == "C" and WoWPro.lootitem and WoWPro.lootitem[i] and not WoWPro.LootItemsCollected(WoWPro.lootitem[i]) then
                         WoWPro:dbp("AutoCompleteQuestUpdate: skipping QuestLog completion for loot-backed C step %d", i)
                         break
