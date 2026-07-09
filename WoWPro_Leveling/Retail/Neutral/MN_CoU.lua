@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("The Curse of Ula'tek", 'Leveling', 'Silvermo
 WoWPro:GuideName(guide,"The Curse of Ula'tek")
 WoWPro:GuideContent(guide, 11)
 WoWPro:GuideLevels(guide,90, 90)
-WoWPro:GuideQuestTriggers(guide, 92897^92895)
+WoWPro:GuideQuestTriggers(guide, 92897,92895)
 WoWPro:GuideSort(guide, 7)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
