@@ -347,7 +347,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
-        WoWPro.CompleteStep(qidx,"Forced Swap")
+        WoWPro.CompleteStep(qidx,"Forced Swap", nil, "PetBattleForcedSwap")
     end
     end)
 
@@ -509,7 +509,7 @@ WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function(event, ...)
         if WoWPro.rows[index]:IsVisible() then
             local qidx = WoWPro.rows[index].index
             if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
-                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index))
+                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index), nil, "MerchantRepair")
             end
         else
             break

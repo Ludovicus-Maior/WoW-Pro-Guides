@@ -23,6 +23,7 @@ WoWPro.UpdateGuideRealInProgress = false
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
+WoWPro.DEBUG_SOUND_DIAGNOSTICS = false -- Set to true to enable chapter-0 completion sound diagnostics
 
 -- Encapsulated sticky count to prevent taint from direct global access
 local _activeStickyCount = 0
@@ -41,6 +42,71 @@ end
 
 
 local quids_debug = false
+
+local function SoundDiagOrigin(why)
+    why = tostring(why or "")
+    if why == "Right-Click" then
+        return "MANUAL_RIGHTCLICK"
+    end
+    if why:find("Active US step paired completion", 1, true) then
+        return "STICKY_UNSTICKY_PAIR"
+    end
+    if why:find("NextStep()", 1, true) then
+        return "NEXTSTEP_AUTOCOMPLETE"
+    end
+    if why:find("AutoComplete", 1, true) then
+        return "AUTOCOMPLETE_EVENT"
+    end
+    if why:find("autoarrival=", 1, true) then
+        return "MAPPING_AUTOARRIVAL"
+    end
+    if why:find("RecordTaxiLocations", 1, true) then
+        return "TRAVEL_TAXI_DISCOVERY"
+    end
+    return "OTHER"
+end
+
+local function SoundDiag(fmt, ...)
+    if WoWPro.DEBUG_SOUND_DIAGNOSTICS then
+        WoWPro:print("SOUND_DIAG: " .. tostring(fmt), ...)
+    end
+end
+
+local function IsStepVisibleInGuide(step)
+    if not step then
+        return false
+    end
+    if not WoWPro.rows then
+        return false
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        if row and row.index == step and row.IsVisible and row:IsVisible() then
+            return true
+        end
+    end
+    return false
+end
+
+-- Chapter 2 helper: universal visibility-gated completion sound policy.
+local function ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, origin)
+    local checksoundEnabled = WoWProDB.profile.checksound
+    if not checksoundEnabled then
+        return false
+    end
+    if alreadyComplete then
+        return false
+    end
+    if noUpdate and origin ~= "STICKY_UNSTICKY_PAIR" then
+        return false
+    end
+    if not (WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()) then
+        return false
+    end
+    if not IsStepVisibleInGuide(step) then
+        return false
+    end
+    return true
+end
 
 local function CanCompleteStepImmediateRefresh(step)
     return step == WoWPro.ActiveStep and WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible() and not WoWPro.InitLockdown and not _G.InCombatLockdown()
@@ -900,9 +966,6 @@ function WoWPro:CheckFunction(row, button, down)
     elseif button == "RightButton" and row.check:GetChecked() then
         row.check:SetGold()
         WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-        if WoWProDB.profile.checksound then
-            _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
-        end
         -- if CompleteStep() did a LoadGuide, skip out.
         if WoWPro.CompleteStep(row.index,"Right-Click") then
             return
@@ -2043,6 +2106,7 @@ function WoWPro.UpdateGuideReal(From)
             why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
+        SoundDiag("UpdateGuideReal source=%s", why)
         if not WoWPro.GuideFrame:IsVisible() then
         -- Cinematic hides things (or user collapsed frame with double-click).
         -- Only re-queue if the user did not intentionally collapse the frame.
@@ -2093,14 +2157,16 @@ function WoWPro.UpdateGuideReal(From)
     WoWPro.ActiveStep = WoWPro.NextStepNotSticky(1)
     WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitSafeStep(WoWPro.ActiveStep))
 
-    -- If the active step is a US step, mark its paired S step complete now
+    -- If the active step is a US step, defer paired S completion until after rows are rebuilt.
+    -- This ensures sound visibility checks use current-pass row state, not stale row visibility.
+    local pendingPairedSticky
     if WoWPro.ActiveStep and WoWPro.unsticky[WoWPro.ActiveStep] and not WoWPro.sticky[WoWPro.ActiveStep] then
         local guide = WoWProCharDB.Guide[GID]
         local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
         if foundSticky and not guide.completion[foundSticky] then
-            WoWPro.CompleteStep(foundSticky, "[Broker] Active US step paired completion", true)
+            pendingPairedSticky = foundSticky
             if WoWPro.DEBUG_STICKY_PAIRING then
-                WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d", WoWPro.ActiveStep, foundSticky)
+                WoWPro:dbp("[Broker] ActiveStep is US step %d: Queued paired S step %d for completion after row rebuild", WoWPro.ActiveStep, foundSticky)
             end
         end
     end
@@ -2175,6 +2241,14 @@ function WoWPro.UpdateGuideReal(From)
     -- Reloading until all stickies that need to unsticky have done so --
     while reload do
         reload = rowContentUpdate()
+    end
+
+    if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
+        SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
+        WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")
+        if WoWPro.DEBUG_STICKY_PAIRING then
+            WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d after row rebuild", WoWPro.ActiveStep, pendingPairedSticky)
+        end
     end
 
     -- Updating the guide list or current guide panels if they are shown --
@@ -2542,6 +2616,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.available[guideIndex] then
                 if not WoWPro.QuestAvailable(WoWPro.available[guideIndex], false, "AVAILABLE") then
                     skip = true
+                    SoundDiag("NextStep AVAILABLE auto-complete step=%s action=%s available=%s qid=%s name=%q", tostring(guideIndex), tostring(stepAction), tostring(WoWPro.available[guideIndex]), tostring(QID), tostring(step))
                     WoWPro.CompleteStep(guideIndex,"NextStep(): Skipping step, available quest is currently complete or active")
                     break
                 end
@@ -4169,7 +4244,7 @@ function WoWPro.NextStepNotSticky(guideIndex)
 end
 
 -- Step Completion Tasks --
-function WoWPro.CompleteStep(step, why, noUpdate)
+function WoWPro.CompleteStep(step, why, noUpdate, origin)
     if not step then
         WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
         return false
@@ -4177,7 +4252,24 @@ function WoWPro.CompleteStep(step, why, noUpdate)
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
-    if WoWProDB.profile.checksound and (not noUpdate) and (not WoWProCharDB.Guide[GID].completion[step]) then
+    local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
+    local checksoundEnabled = WoWProDB.profile.checksound
+    local guideVisible = WoWPro.GuideFrame and WoWPro.GuideFrame:IsVisible()
+    local stepVisible = IsStepVisibleInGuide(step)
+    local soundEligible = ShouldPlayCompletionSound(step, noUpdate, alreadyComplete, origin)
+    local soundOrigin = origin or SoundDiagOrigin(why)
+    SoundDiag("CompleteStep step=%s origin=%s action=%s noUpdate=%s checksound=%s guideVisible=%s stepVisible=%s alreadyComplete=%s eligible=%s why=%q",
+        tostring(step),
+        tostring(soundOrigin),
+        tostring(WoWPro.action[step]),
+        tostring(noUpdate),
+        tostring(checksoundEnabled),
+        tostring(guideVisible),
+        tostring(stepVisible),
+        tostring(alreadyComplete),
+        tostring(soundEligible),
+        tostring(why))
+    if soundEligible then
         _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
     end
     why = tostring(why)

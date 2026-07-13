@@ -24,7 +24,7 @@ function WoWPro:RecordTaxiLocations(...)
     end
     WoWPro:dbp("RecordTaxiLocations(%s): Step %s/%d [%s]?", tostring(_event), tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
     if (WoWPro.action[index] == 'f') and WoWProCharDB.Taxi[WoWPro.step[index]] then
-        WoWPro.CompleteStep(index, "RecordTaxiLocations")
+            WoWPro.CompleteStep(index, "RecordTaxiLocations", nil, "RecordTaxiLocations")
     end
 end
 
@@ -102,7 +102,7 @@ function WoWPro:AutoCompleteGetFP(...)
              WoWPro:dbp(msg)
              if WoWPro.rows[i]:IsVisible() and WoWPro.action[index] == "f" then
                 if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-                    WoWPro.CompleteStep(index, "AutoCompleteGetFP("..msg..")")
+                        WoWPro.CompleteStep(index, "AutoCompleteGetFP("..msg..")", nil, "AutoCompleteGetFP")
                     return
                 end
              end
@@ -181,7 +181,7 @@ function WoWPro.AutoCompleteBuff(unit, ...)
         if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
             -- Log only the usefull ones!
             WoWPro:LogEvent("UNIT_AURA", unit, ...)
-            WoWPro.CompleteStep(index, "AutoCompleteBuff")
+            WoWPro.CompleteStep(index, "AutoCompleteBuff", nil, "AutoCompleteBuff")
         end
     end
 end
@@ -191,7 +191,7 @@ function WoWPro:AutoCompleteDeath(...)
     local index = WoWPro.rows[1].index
     local dead = _G.UnitIsDeadOrGhost("player")
     if (WoWPro.action[index] == "d" and dead) or (WoWPro.action[index] == "s" and not dead)then
-        WoWPro.CompleteStep(index, "AutoCompleteDeath")
+        WoWPro.CompleteStep(index, "AutoCompleteDeath", nil, "AutoCompleteDeath")
     end
 end
 
@@ -270,7 +270,7 @@ function WoWPro.AutoCompleteLoot()
             end
             if allComplete and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                 WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
-                WoWPro.CompleteStep(index, "AutoCompleteLoot")
+                WoWPro.CompleteStep(index, "AutoCompleteLoot", nil, "AutoCompleteLoot")
             else
                 WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
             end
@@ -340,7 +340,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 
                 -- Quest Turn-Ins --
                 if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
-                    WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
+                    WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.", nil, "AutoCompleteQuestUpdate")
                     if not WoWPro.nocache[i] then
                         WoWProCharDB.completedQIDs[QID] = true
                     end
@@ -363,7 +363,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                     elseif WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
                         break
                     else
-                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete", nil, "AutoCompleteQuestUpdate")
                     end
                 end
 
@@ -375,7 +375,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                     elseif WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
                         break
                     else
-                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog", nil, "AutoCompleteQuestUpdate")
                         WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
                         WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
                     end
@@ -396,7 +396,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                     end
                     if complete then
                         --if the step has been found to be complete, run the completion function
-                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete")
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete", nil, "AutoCompleteQuestUpdate")
                     end
                 end
             end
@@ -438,7 +438,7 @@ function WoWPro:AutoCompleteSetHearth(event, loc, noUpdate)
             if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
             and not guideData.completion[index] then
                 WoWPro:dbp("AutoCompleteSetHearth: completing h-step index %d step [%s] because hearth matches", index, loc)
-                WoWPro.CompleteStep(index, "AutoCompleteSetHearth", noUpdate)
+                    WoWPro.CompleteStep(index, "AutoCompleteSetHearth", noUpdate, "AutoCompleteSetHearth")
             end
         end
     end
@@ -463,16 +463,16 @@ function WoWPro.AutoCompleteZone(index)
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
         if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
             if (step == zonetext) or (step == subzonetext) then
-                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
+                    WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step, nil, "AutoCompleteZone")
                 return true
             end
             if (zoneTag == zonetext) or (zoneTag == subzonetext) then
-                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                    WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone, nil, "AutoCompleteZone")
                 return true
             end
             local _, _, mapId = WoWPro:GetPlayerZonePosition()
             if (tonumber(zoneTag) and tonumber(zoneTag) == mapId) then
-                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                    WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone, nil, "AutoCompleteZone")
                 return true
             end
         end
@@ -486,7 +486,7 @@ function WoWPro.AutoCompleteCriteria()
 
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
     if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
+           WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest", nil, "AutoCompleteCriteria")
     else
         WoWPro:UpdateGuide("WoWPro.AutoCompleteCriteria?")
     end
@@ -500,7 +500,7 @@ function WoWPro.AutoCompleteChest()
     if zone == "Timeless Isle" then
         local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
         if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-            WoWPro.CompleteStep(qidx,"AutoCompleteChest")
+                WoWPro.CompleteStep(qidx,"AutoCompleteChest", nil, "AutoCompleteChest")
         end
     end
 end
@@ -515,7 +515,7 @@ function WoWPro:AutoCompleteLevel(...)
             if not WoWProCharDB.Guide[GID].completion[i]
                 and WoWPro.level[i]
                 and tonumber(WoWPro.level[i]) <= newlevel then
-                    WoWPro.CompleteStep(i,"AutoCompleteLevel")
+                        WoWPro.CompleteStep(i,"AutoCompleteLevel", nil, "AutoCompleteLevel")
             end
         end
     end
