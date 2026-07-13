@@ -117,17 +117,18 @@ A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar P
 
 A A Peon's Burden|QID|2161|M|52.05,68.32|Z|1411; Durotar|N|From Ukor, at the sign post.|
 R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind until you're within 3 bubbles of level 6.|LVL|5;-430|
+L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind until you're within 2 bubbles of level 6.|LVL|5;-320|
 T Report to Orgnil|QID|823|M|52.24,43.15|Z|1411; Durotar|N|To Orgnil Soulscar.| ;320
 A Dark Storms|QID|806|PRE|823|M|52.24,43.15|Z|1411; Durotar|N|From Orgnil Soulscar.|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
-A Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
+N Level 6|N|You need to grind till level 6|LVL|-6|
+A Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|LVL|6|
 h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
 T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
 ; -- Training in Razor Hill
 = Level 6 Training|AVAILABLE|815|M|51.98,43.70|Z|1411; Durotar|N|Do your Level 6 training with Kaplak (standing beside Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 = Level 6 Training|AVAILABLE|815|M|51.85,43.49|Z|1411; Durotar|N|Do your Level 6 training with Thotar (standing below Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Level 6 Training|AVAILABLE|815|M|52.02,43.55|Z|1411; Durotar|N|Do your Level 6 training with Harruk (standing beside Thotar).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+;= Level 6 Training|AVAILABLE|815|M|52.02,43.55|Z|1411; Durotar|N|Do your Level 6 training with Harruk (standing beside Thotar).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
 = Level 6 Training|AVAILABLE|815|M|54.26,42.94|Z|1411; Durotar|N|Do your Level 6 training with Tai'jin inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Level 6 Training|AVAILABLE|815|M|54.42,42.59|Z|1411; Durotar|N|Do your Level 6 training with Swart inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Shaman|
 = Level 6 Training|AVAILABLE|815|M|54.19,42.47|Z|1411; Durotar|N|Do your Level 6 training with Tarshaw Jaggedscar inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|
