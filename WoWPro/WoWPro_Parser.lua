@@ -219,7 +219,7 @@ function WoWPro.GetQuestIconComplete(QID)
     end
     return WoWPro.CompleteIcons["default"], "Default"
 end
-end
+
 for flag, icon in pairs(WoWPro.OfferIcons) do
     if string.sub(flag,1,2) == "is" then
         local key = string.format("A %s", string.sub(flag,3))
