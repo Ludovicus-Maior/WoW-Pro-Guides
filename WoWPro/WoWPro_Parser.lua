@@ -131,6 +131,16 @@ WoWPro.OfferIcons = {
     isRepeatable = "Interface/GossipFrame/DailyActiveQuestIcon",
     default = "Interface/GossipFrame/AvailableQuestIcon"
 }
+WoWPro.OfferIconPriority = {
+    "isCampaign",
+    "isLegendary",
+    "isCovenantCalling",
+    "isImportant",
+    "isMeta",
+    "isDaily",
+    "isWeekly",
+    "isRepeatable",
+}
 
 function WoWPro.GetQuestIconOffer(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
@@ -139,7 +149,8 @@ function WoWPro.GetQuestIconOffer(QID)
         if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID or "No Quest ID", result); end
         return result, "Ordinary"
     end
-    for flag, icon in pairs(WoWPro.OfferIcons) do
+    for _, flag in ipairs(WoWPro.OfferIconPriority) do
+        local icon = WoWPro.OfferIcons[flag]
         if quest_info[flag] then
             if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): %s=%s", QID, flag, icon); end
             return icon, string.sub(flag,3)
@@ -158,12 +169,20 @@ WoWPro.ActiveIcons = {
     isRecurring = "RepeatableInProgressquesticon",
     default = "SideInProgressquesticon"
 }
+WoWPro.ActiveIconPriority = {
+    "isCampaign",
+    "isLegendary",
+    "isImportant",
+    "isMeta",
+    "isRecurring",
+}
 function WoWPro.GetQuestIconActive(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
     if not quest_info then
         return WoWPro.ActiveIcons["default"]
     end
-    for flag, icon in pairs(WoWPro.ActiveIcons) do
+    for _, flag in ipairs(WoWPro.ActiveIconPriority) do
+        local icon = WoWPro.ActiveIcons[flag]
         if quest_info[flag] then
             return icon
         end
@@ -179,12 +198,21 @@ WoWPro.CompleteIcons = {
     isRecurring = "Recurringactivequesticon",
     default = "Interface/GossipFrame/ActiveQuestIcon"
 }
+WoWPro.CompleteIconPriority = {
+    "isCampaign",
+    "isLegendary",
+    "isCovenantCalling",
+    "isImportant",
+    "isMeta",
+    "isRecurring",
+}
 function WoWPro.GetQuestIconComplete(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
     if not quest_info then
         return WoWPro.CompleteIcons["default"], "Ordinary"
     end
-    for flag, icon in pairs(WoWPro.CompleteIcons) do
+    for _, flag in ipairs(WoWPro.CompleteIconPriority) do
+        local icon = WoWPro.CompleteIcons[flag]
         if quest_info[flag] then
             return icon, string.sub(flag,3)
         end
@@ -331,7 +359,7 @@ function WoWPro.UnSkipStep(index)
             local numprereqs = select("#", ("^&"):split(WoWPro.prereq[j]))
             for k=1,numprereqs do
                 local kprereq = select(numprereqs-k+1, ("^&"):split(WoWPro.prereq[j]))
-                if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
+                if tonumber(kprereq) and tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) then
                     if WoWPro.action[j] == "A"
                     or WoWPro.action[j] == "C"
                     or WoWPro.action[j] == "T" then
