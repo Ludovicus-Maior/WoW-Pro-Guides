@@ -217,7 +217,8 @@ function WoWPro.GetQuestIconComplete(QID)
             return icon, string.sub(flag,3)
         end
     end
-    return WoWPro.CompleteIcons["default"]
+    return WoWPro.CompleteIcons["default"], "Default"
+end
 end
 for flag, icon in pairs(WoWPro.OfferIcons) do
     if string.sub(flag,1,2) == "is" then
