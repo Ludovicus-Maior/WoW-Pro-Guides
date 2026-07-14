@@ -331,7 +331,7 @@ function WoWPro.UnSkipStep(index)
             local numprereqs = select("#", ("^&"):split(WoWPro.prereq[j]))
             for k=1,numprereqs do
                 local kprereq = select(numprereqs-k+1, ("^&"):split(WoWPro.prereq[j]))
-                if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
+                if tonumber(kprereq) and tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) then
                     if WoWPro.action[j] == "A"
                     or WoWPro.action[j] == "C"
                     or WoWPro.action[j] == "T" then
