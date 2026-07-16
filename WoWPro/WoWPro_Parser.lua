@@ -331,11 +331,12 @@ function WoWPro.UnSkipStep(index)
             local numprereqs = select("#", ("^&"):split(WoWPro.prereq[j]))
             for k=1,numprereqs do
                 local kprereq = select(numprereqs-k+1, ("^&"):split(WoWPro.prereq[j]))
-                if tonumber(kprereq) and tonumber(kprereq) == tonumber(WoWPro.QID[currentstep]) then
+                local kprereqid = tonumber(kprereq)
+                if kprereqid and WoWPro:QIDsInTable(WoWPro.QID[currentstep], {[kprereqid] = true}, true) then
                     if WoWPro.action[j] == "A"
                     or WoWPro.action[j] == "C"
                     or WoWPro.action[j] == "T" then
-                        WoWProCharDB.skippedQIDs[tonumber(kprereq)] = nil
+                        WoWProCharDB.skippedQIDs[kprereqid] = nil
                         WoWPro:dbp("UnSkipStep(): pre quid %s", kprereq)
                     end
                     unskipstep(j)
