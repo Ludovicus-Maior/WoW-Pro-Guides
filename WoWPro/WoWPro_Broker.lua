@@ -367,11 +367,23 @@ function WoWPro:QuestFailed(QIDs, debug, why)
 end
 
 local OBJECTIVE_PATTERN = "^(%d*)([<=>]*)(%d*)$"
+local function CanonicalizeObjectiveOperator(operator)
+    if operator == "<=" then
+        return "<"
+    elseif operator == ">=" then
+        return ">"
+    elseif operator == "<" or operator == ">" or operator == "=" or operator == "" then
+        return operator
+    end
+    return nil
+end
+
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = tostring(questtext):match(OBJECTIVE_PATTERN)
+    local canonical = CanonicalizeObjectiveOperator(operator)
     if operator == "" and target == "" then
         return tonumber(objective)
-    elseif operator ~= "" and target ~= "" and operator:match("^[<=>]$") then
+    elseif operator ~= "" and target ~= "" and canonical then
         return tonumber(objective)
     else
         return false
