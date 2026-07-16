@@ -369,12 +369,10 @@ end
 local OBJECTIVE_PATTERN = "^(%d*)([<=>]*)(%d*)$"
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = tostring(questtext):match(OBJECTIVE_PATTERN)
-    if operator ~= "" and target ~= "" then
+    if operator == "" and target == "" then
         return tonumber(objective)
-    elseif target == "" and operator == "" then
+    elseif operator ~= "" and target ~= "" and operator:match("^[<=>]$") then
         return tonumber(objective)
-    elseif operator and target then
-        return true
     else
         return false
     end
