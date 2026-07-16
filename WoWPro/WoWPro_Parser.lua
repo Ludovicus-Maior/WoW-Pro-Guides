@@ -158,17 +158,19 @@ WoWPro.ActiveIcons = {
     isRecurring = "RepeatableInProgressquesticon",
     default = "SideInProgressquesticon"
 }
+
 function WoWPro.GetQuestIconActive(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
     if not quest_info then
-        return WoWPro.ActiveIcons["default"]
+        return WoWPro.ActiveIcons["default"], "Default"
     end
-    for flag, icon in pairs(WoWPro.ActiveIcons) do
+    for _, flag in ipairs(WoWPro.ActiveIconPriority) do
+        local icon = WoWPro.ActiveIcons[flag]
         if quest_info[flag] then
-            return icon
+            return icon, string.sub(flag,3)
         end
     end
-    return WoWPro.ActiveIcons["default"]
+    return WoWPro.ActiveIcons["default"], "Default"
 end
 WoWPro.CompleteIcons = {
     isCampaign = "CampaignActiveQuestIcon",

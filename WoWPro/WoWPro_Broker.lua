@@ -1137,9 +1137,9 @@ function WoWPro.SetActionTexture(currentRow)
     -- Set custom Texture tooltip text
     tooltipText.text = WoWPro.actionlabels[action] or ""
     if WoWPro.action[k] == "C" then
-        local tex = WoWPro.GetQuestIconActive(QID)
+        local tex, label = WoWPro.GetQuestIconActive(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        tooltipText.text = "Campaign Quest"
+        tooltipText.text = label or ""
     end
     if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
         currentRow.iconTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
@@ -1167,13 +1167,13 @@ function WoWPro.SetActionTexture(currentRow)
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes[action.." ELITE"])
         currentRow.iconTexture.tooltip.text = "Elite Quest"
     elseif WoWPro.action[k] == "A" then
-        local tex = WoWPro.GetQuestIconOffer(QID)
+        local tex, label = WoWPro.GetQuestIconOffer(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        currentRow.iconTexture.tooltip.text = "Campaign Quest"
+        currentRow.iconTexture.tooltip.text = label or ""
     elseif WoWPro.action[k] == "T" then
-        local tex = WoWPro.GetQuestIconComplete(QID)
+        local tex, label = WoWPro.GetQuestIconComplete(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
-        currentRow.iconTexture.tooltip.text = "Campaign Quest"
+        currentRow.iconTexture.tooltip.text = label or ""
     end
 end
 
