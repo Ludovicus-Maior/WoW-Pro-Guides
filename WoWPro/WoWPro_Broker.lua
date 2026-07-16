@@ -833,7 +833,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
         WoWPro:dbp("UpdateQuestTrackerRow: profile.track=%s num=%d action=%s questtext=%s lootitem=%s",tostring(WoWProDB.profile.track),row.num,tostring(action),tostring(questtext),tostring(lootitem))
     end
     if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then
-        if QID and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') then
+        if QID and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTableKey(QID, WoWPro.QuestLog, 'leaderBoard') then
             local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
             local j = WoWPro.QuestLog[qid].index
             row.trackcheck = true
