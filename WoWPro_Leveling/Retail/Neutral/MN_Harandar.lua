@@ -549,7 +549,7 @@ A Light Carnage|QID|92737|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan
 A Potatoad Tots|QID|92738|PRE|92736|M|41.67,67.74|Z|2413; Harandar|N|From Hannan.|
 C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|H|N|Gather Lightspored Potadpole.|S|
 C Light Carnage|QID|92737|M|39.08,71.74|Z|2413; Harandar|N|Slay Lightfrenzied Potatoad.|
-C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|H|N|Gather Lightspored Potadpole.|S|
+C Potatoad Tots|QID|92738|M|39.35,69.20|Z|2413; Harandar|H|N|Gather Lightspored Potadpole.|US|
 T Light Carnage|QID|92737|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
 T Potatoad Tots|QID|92738|M|37.34,72.40|Z|2413; Harandar|N|To Hannan.|
 A O.K. Bloomer|QID|92739|PRE|92737&92738|M|37.34,72.40|Z|2413; Harandar|N|From Hannan.|
