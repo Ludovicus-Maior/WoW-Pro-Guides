@@ -794,11 +794,14 @@ function WoWPro.RowSizeSet()
                 -- After re-anchoring, calculate maximum height before hitting screen edge in the growth direction
                 local maxHeightScreen
                 if resizeAnchor == "TOPLEFT" or resizeAnchor == "TOPRIGHT" then
-            else
-                -- Growing upward: max height is distance from current bottom to top of screen
-                local frameBottom = WoWPro.MainFrame:GetBottom() or 0
-                maxHeightScreen = screenH - frameBottom
-            end
+                    -- Growing downward: max height is distance from current top to bottom of screen
+                    local frameTop = WoWPro.MainFrame:GetTop() or screenH
+                    maxHeightScreen = frameTop
+                else
+                    -- Growing upward: max height is distance from current bottom to top of screen
+                    local frameBottom = WoWPro.MainFrame:GetBottom() or 0
+                    maxHeightScreen = screenH - frameBottom
+                end
 
             -- Clamp calculated height to not exceed screen edge
             if totalh > maxHeightScreen then
