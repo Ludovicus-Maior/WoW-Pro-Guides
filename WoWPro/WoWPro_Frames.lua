@@ -114,7 +114,7 @@ end
 function WoWPro:DragSet()
     if WoWProDB.profile.drag then
         WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag then
+            if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro:StartMoveClamp()
                 WoWPro.MainFrame:StartMoving()
@@ -137,7 +137,7 @@ function WoWPro:DragSet()
 
         -- Enable titlebar dragging regardless of button bar visibility
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag then
+            if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro:StartMoveClamp()
                 WoWPro.MainFrame:StartMoving()
@@ -1239,7 +1239,7 @@ function WoWPro:CreateMainFrame()
     WoWPro.MainFrame = frame
     -- Scripts --
     WoWPro.MainFrame:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
+        if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
             WoWPro.InhibitAnchorRestore = true
             WoWPro:StartMoveClamp()
             this:StartMoving()
@@ -1850,7 +1850,7 @@ function WoWPro:CreateGuideFrame()
     WoWPro.GuideFrame:EnableMouse(true)
     WoWPro.GuideFrame:SetClipsChildren(true)
     WoWPro.GuideFrame:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
+        if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
             WoWPro.InhibitAnchorRestore = true
             WoWPro:StartMoveClamp()
             WoWPro.MainFrame:StartMoving()
@@ -1918,7 +1918,7 @@ function WoWPro:CreateRows()
         row:RegisterForClicks("AnyUp");
         row:RegisterForDrag("LeftButton")
         row:SetScript("OnDragStart", function()
-            if WoWProDB.profile.drag then
+            if WoWProDB.profile.drag and not _G.InCombatLockdown() then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro:StartMoveClamp()
                 WoWPro.MainFrame:StartMoving()

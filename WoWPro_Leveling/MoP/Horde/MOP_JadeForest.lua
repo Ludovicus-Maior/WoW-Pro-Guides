@@ -175,10 +175,10 @@ T Furious Fowl|QID|29937|M|27.23,50.78|Z|0371; The Jade Forest|N|To Rivett Clutc
 A Boom Bait|QID|29939|PRE|29937|M|27.23,50.78|Z|0371; The Jade Forest|N|From Rivett Clutchpop.|
 A Silly Wikket, Slickies are for Hozen|QID|29942|PRE|29937|M|27.03,50.85|Z|0371; The Jade Forest|N|From Eekle Eekle.|
 T What's in a Name Name?|QID|31239|M|27.98,47.19|Z|0371; The Jade Forest|N|To Chief Kah Kah.|
-C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|Z|0371; The Jade Forest|L|76420 5|ITEM|76420|N|Muck Snappers.|S|
+C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|Z|0371; The Jade Forest|L|76420 4|ITEM|76420|N|Muck Snappers.|S|
 C Boom Bait|QID|29939|M|26.72,55.37|Z|0371; The Jade Forest|N|Stand at the end of the pier and throw the bomb in the water. Collect the fish that float up.|U|76262|
 $ Chest of Supplies|QID|31864|M|24.63,53.27|Z|0371; The Jade Forest|N|Open the Chest of Supplies in the alcove just across the river to earn some gold and xp.|RANK|2|
-C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|Z|0371; The Jade Forest|L|76420 5|ITEM|76420|N|Muck Snappers.|US|
+C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|Z|0371; The Jade Forest|L|76420 4|ITEM|76420|N|Muck Snappers.|US|
 T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.03,50.85|Z|0371; The Jade Forest|N|To Eekle Eekle.|
 T Boom Bait|QID|29939|M|27.23,50.78|Z|0371; The Jade Forest|N|To Rivett Clutchpop.|
 A The Scouts Return|QID|29971|PRE|29939&29942&31239|LEAD|29730|M|27.23,50.78|Z|0371; The Jade Forest|N|From Rivett Clutchpop.|

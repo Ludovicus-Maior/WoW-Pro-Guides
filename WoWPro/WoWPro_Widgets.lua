@@ -71,8 +71,12 @@ function WoWPro:CreateIcon(parent, anchor)
                 tile = true, tileSize = 16, edgeSize = 16,
                 insets = { left = 4, right = 3, top = 4, bottom = 3 }
             }
-            gt:SetBackdrop(backdrop)
-            gt:SetBackdropColor(0, 0, 0, 0.95)
+            if gt.SetBackdrop then
+                gt:SetBackdrop(backdrop)
+            end
+            if gt.SetBackdropColor then
+                gt:SetBackdropColor(0, 0, 0, 0.95)
+            end
             gt:SetOwner(frame, "ANCHOR_RIGHT")
             gt:SetText(text, nil, nil, nil, nil, true)
             gt:Show()

@@ -9,7 +9,7 @@ N The Northern Barrens|AVAILABLE|871|ACTIVE|-28494^-840|N|There are two lead in 
 A Plainstrider Menace|QID|844|M|67.41,38.77|Z|10; Northern Barrens|N|From Halga Bloodeye.|RANK|3|
 T Warchief's Command: Northern Barrens!|QID|28494|M|67.67,39.39|O|Z|10; Northern Barrens|N|To Kargal Battlescar.|
 T Conscript of the Horde|QID|840|M|67.67,39.39|O|Z|10; Northern Barrens|N|To Kargal Battlescar.|
-A In Defense of Far Watch|QID|871|Z|10; Northern Barrens|N|From Kargal Battlescar.| ; Storyline
+A In Defense of Far Watch|QID|871|M|67.66,39.39|Z|10; Northern Barrens|N|From Kargal Battlescar.| ; Storyline
 T Ak'Zeloth|QID|25264|M|67.81,40.53|O|Z|10; Northern Barrens|N|To Ak'Zeloth.|
 C Plainstrider Menace|QID|844|M|67.41,38.77|S|Z|10; Northern Barrens|N|Kill and loot Plainstriders.|
 C In Defense of Far Watch|QID|871|S|Z|10; Northern Barrens|N|Kill 8 Razormane Plunderer and 3 Razormane Hunter.|

@@ -272,8 +272,7 @@ N A very long run|AVAILABLE|445|Z|1412; Mulgore|N|Because you are Tauren, you wo
 R Far Watch Post|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|1413; The Barrens|N|Follow Gold Road north to the first intersection and continue east to Far Watch Post from there.|R|Tauren|TAXI|-Orgrimmar|
 
 ; --- Tauren Warrior class quest
-N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
-|R|Tauren|C|Warrior|
+N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your class quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Tauren|C|Warrior|
 T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|R|Tauren|C|Warrior|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|1411; Durotar|N|Cross the bridge over the river and run to the entrance of Thunder Ridge.|R|Tauren|C|Warrior|

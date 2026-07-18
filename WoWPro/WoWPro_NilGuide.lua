@@ -25,7 +25,9 @@ function WoWPro:LoadNilGuide()
         WoWPro.rows[i].itembutton:Hide()
         WoWPro.rows[i].step:SetText(nil)
         WoWPro.rows[i].note:SetText(nil)
-        WoWPro.rows[i].action:SetTexture(nil)
+        if WoWPro.rows[i].iconTexture then
+            WoWPro.rows[i].iconTexture:SetTexture(nil)
+        end
         WoWPro.rows[i].track:SetText(nil)
     end
 

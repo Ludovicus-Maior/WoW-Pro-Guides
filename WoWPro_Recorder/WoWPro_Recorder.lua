@@ -308,6 +308,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
                                 local cleanedNote = (status or ""):gsub("%.$", "")
+                                cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
                                 local stepInfo = {
                                     action = "C",
                                     step = WoWPro.QuestLog[QID].title,
@@ -317,8 +318,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     chat = WoWPro.Recorder.FindText("chat", status),
                                     noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
-                                    note = cleanedNote .. ".",
-                                    questtext = tostring(idx),
+                                    note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
                                 if WoWPro.Recorder.FindText("kill", status) then
@@ -814,6 +814,14 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     local sequence = {}
 
     for i,action in pairs(WoWPro.action) do
+        if WoWPro.questtext[i] and WoWPro.note[i] then
+            WoWPro.note[i] = WoWPro.Recorder.CleanObjectiveNote(WoWPro.note[i])
+            if WoWPro.note[i] ~= "" then
+                WoWPro.note[i] = WoWPro.note[i] .. "."
+            else
+                WoWPro.note[i] = false
+            end
+        end
         local line = WoWPro.EmitStep(i)
         tinsert(sequence,line)
     end
