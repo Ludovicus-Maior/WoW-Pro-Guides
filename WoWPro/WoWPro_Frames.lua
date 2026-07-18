@@ -1167,10 +1167,8 @@ function WoWPro.RowSet()
     WoWPro.RowColorSet()
     WoWPro.RowFontSet()
     WoWPro.RowSizeSet()
-    -- Only restore saved size when not using auto-resize
-    if not WoWProDB.profile.autoresize then
-        WoWPro.AnchorRestore(false)
-    end
+    -- Do not restore saved position during normal row/layout updates.
+    -- Saved position should only be restored on initial load or explicit reset.
     -- Keep bars on-screen after row/size updates
     WoWPro:ClampBarsOnScreen()
 end
