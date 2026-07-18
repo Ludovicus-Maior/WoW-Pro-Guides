@@ -746,54 +746,54 @@ function WoWPro.RowSizeSet()
         -- Get current frame position for final clamping
 
         if not _G.InCombatLockdown() then
-            -- Before resizing, re-anchor frame to expansionAnchor so height grows in correct direction
-            local pt = WoWPro.MainFrame:GetPoint()
-            local validAnchor = (pt == "TOPLEFT" or pt == "TOPRIGHT" or pt == "BOTTOMLEFT" or pt == "BOTTOMRIGHT")
-            if not validAnchor then
-                AnchorDebug("RowSizeSet: pt=%s not corner; skipping reanchor", _G.tostring(pt))
-                pt = expansionAnchor
-            end
-            AnchorDebug("RowSizeSet: pt=%s exp=%s screen=(%.1f,%.1f)", _G.tostring(pt), expansionAnchor, screenW or 0, screenH or 0)
-            if pt ~= expansionAnchor then
-                -- The desired expansion anchor is authoritative here.
-                AnchorDebug("RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", pt, expansionAnchor)
-                WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
-
-                if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
-                    local frameLeft = WoWPro.MainFrame:GetLeft() or 0
-                    local frameRight = WoWPro.MainFrame:GetRight() or screenW
-                    local top = WoWPro.MainFrame:GetTop() or screenH
-                    local bottom = WoWPro.MainFrame:GetBottom() or 0
-                    local x, y
-                    if expansionAnchor == "TOPLEFT" then
-                        x, y = frameLeft, top - screenH
-                    elseif expansionAnchor == "TOPRIGHT" then
-                        x, y = frameRight - screenW, top - screenH
-                    elseif expansionAnchor == "BOTTOMLEFT" then
-                        x, y = frameLeft, bottom
-                    else
-                        x, y = frameRight - screenW, bottom
-                    end
-                    WoWPro.MainFrame:ClearAllPoints()
-                    WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
-                    pt = expansionAnchor
-                    anchorChanged = true
+                -- Before resizing, preserve the current valid corner anchor.
+                local pt = WoWPro.MainFrame:GetPoint()
+                local validAnchor = (pt == "TOPLEFT" or pt == "TOPRIGHT" or pt == "BOTTOMLEFT" or pt == "BOTTOMRIGHT")
+                local resizeAnchor = expansionAnchor
+                if validAnchor then
+                    resizeAnchor = pt
                 else
-                    AnchorDebug("RowSizeSet: anchor enforcement skipped due to manual move/resize")
+                    AnchorDebug("RowSizeSet: pt=%s not corner; using saved expansionAnchor", _G.tostring(pt))
                 end
-            end
-            -- Only log these if anchor actually changed
-            if anchorChanged then
-                WoWPro:dbp("[DEBUG] RowSizeSet: autoresize=%s exp=%s", tostring(WoWProDB.profile.autoresize), tostring(expansionAnchor))
-                WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s exp=%s screenW=%.1f screenH=%.1f", tostring(pt), tostring(expansionAnchor), screenW or 0, screenH or 0)
-            end
+                AnchorDebug("RowSizeSet: pt=%s resizeAnchor=%s screen=(%.1f,%.1f)", _G.tostring(pt), resizeAnchor, screenW or 0, screenH or 0)
 
-            -- After re-anchoring, calculate maximum height before hitting screen edge in the growth direction
-            local maxHeightScreen
-            if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
-                -- Growing downward: max height is distance from current top to bottom of screen
-                local frameTop = WoWPro.MainFrame:GetTop() or screenH
-                maxHeightScreen = frameTop
+                -- Only restore saved anchor if the current frame point is invalid.
+                if not validAnchor and pt ~= expansionAnchor then
+                    AnchorDebug("RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", pt, expansionAnchor)
+                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
+
+                    if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
+                        local frameLeft = WoWPro.MainFrame:GetLeft() or 0
+                        local frameRight = WoWPro.MainFrame:GetRight() or screenW
+                        local top = WoWPro.MainFrame:GetTop() or screenH
+                        local bottom = WoWPro.MainFrame:GetBottom() or 0
+                        local x, y
+                        if expansionAnchor == "TOPLEFT" then
+                            x, y = frameLeft, top - screenH
+                        elseif expansionAnchor == "TOPRIGHT" then
+                            x, y = frameRight - screenW, top - screenH
+                        elseif expansionAnchor == "BOTTOMLEFT" then
+                            x, y = frameLeft, bottom
+                        else
+                            x, y = frameRight - screenW, bottom
+                        end
+                        WoWPro.MainFrame:ClearAllPoints()
+                        WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
+                        pt = expansionAnchor
+                        anchorChanged = true
+                    else
+                        AnchorDebug("RowSizeSet: anchor enforcement skipped due to manual move/resize")
+                    end
+                end
+                -- Only log these if anchor actually changed
+                if anchorChanged then
+                    WoWPro:dbp("[DEBUG] RowSizeSet: autoresize=%s exp=%s", tostring(WoWProDB.profile.autoresize), tostring(expansionAnchor))
+                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s exp=%s screenW=%.1f screenH=%.1f", tostring(pt), tostring(expansionAnchor), screenW or 0, screenH or 0)
+                end
+
+                -- After re-anchoring, calculate maximum height before hitting screen edge in the growth direction
+                local maxHeightScreen
+                if resizeAnchor == "TOPLEFT" or resizeAnchor == "TOPRIGHT" then
             else
                 -- Growing upward: max height is distance from current bottom to top of screen
                 local frameBottom = WoWPro.MainFrame:GetBottom() or 0
