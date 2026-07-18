@@ -1096,8 +1096,8 @@ function WoWPro.AnchorRestore(reset_size)
     local scale = WoWPro.MainFrame:GetScale()
     local posClone = {unpack(pos)}
     -- Prefer the saved anchor from the stored position so restore matches the saved location.
+    -- Do not overwrite the user's saved expansion anchor preference during normal restore.
     local expansionAnchor = posClone[1] or WoWProDB.profile.expansionAnchor or "TOPLEFT"
-    WoWProDB.profile.expansionAnchor = expansionAnchor
     posClone[1] = expansionAnchor
     local restoreMode = "px"
     if posClone[6] == "pct" then
