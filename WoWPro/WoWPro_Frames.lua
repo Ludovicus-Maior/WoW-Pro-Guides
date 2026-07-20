@@ -816,12 +816,10 @@ function WoWPro.RowSizeSet()
             WoWPro.PaddingSet()
             WoWPro.MainFrame:SetClampedToScreen(wasClampedToScreen)
 
-            -- For bottom-anchored frames, re-establish the anchor after resize to ensure bottom doesn't drift
-            if expansionAnchor == "BOTTOMLEFT" or expansionAnchor == "BOTTOMRIGHT" then
-                local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
-                if ptAnchor then
-                    WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
-                end
+            -- Re-establish the current anchor after resize to avoid drift
+            local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
+            if ptAnchor then
+                WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
             end
         end
     end
