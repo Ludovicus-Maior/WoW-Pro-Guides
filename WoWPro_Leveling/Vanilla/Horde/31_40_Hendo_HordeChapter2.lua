@@ -192,7 +192,8 @@ C Turtle Meat|ACTIVE|1110|M|78.53,53.47|Z|1441; Thousand Needles|L|3712 10|N|Tur
 T A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
-T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
+A Martek the Exiled|QID|1106|PRE|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|From Fizzle Brassbolts.\n[color=FF0000]NOTE: [/color]This is a breadcrumb quest to the Badlands. Accept the quest to continue.|NA|
 T Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
 A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.12|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
 T Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
@@ -725,7 +726,7 @@ T Stinky's Escape|QID|1270|M|62.37,37.62|Z|1413; The Barrens|N|To Mebok Mizzyrix
 N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|1413; The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|392|
 b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|IZ|-1434|
 A Skullsplitter Tusks|QID|209|PRE|189|M|27.00,77.13|Z|1434; Stranglethorn Vale|N|From Kebok.|
-F Grom'gol Base Camp|ACTIVE|209|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol Base Camp.|
+F Grom'gol Base Camp|ACTIVE|209|AVAILABLE|1418|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol Base Camp.|
 
 ; Saving for use in Chap3 - Hendo72
 ;A Excelsior|QID|628|PRE|577|M|28.29,77.59|Z|1434; Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|
