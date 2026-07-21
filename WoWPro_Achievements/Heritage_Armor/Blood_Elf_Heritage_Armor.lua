@@ -36,13 +36,13 @@ A A People Shattered|QID|53725|PRE|53738|M|48.41,35.87|Z|122; Isle of Quel'Danas
 C A People Shattered|QID|53725|M|48.57,37.05|Z|122; Isle of Quel'Danas|QO|1|NC|N|Light the Final Flame.|
 T A People Shattered|QID|53725|M|48.60,36.86|Z|122; Isle of Quel'Danas|N|To Lady Liadrin.|
 A The Setting Sun|QID|53853|PRE|53725|M|48.47,36.18|Z|122; Isle of Quel'Danas|N|From Lady Liadrin.|
-R The Dead Scar|ACTIVE|53853|M|47.22,51.25|Z|Isle of Quel'Danas|N|Make your way South.|CC|
+R The Dead Scar|ACTIVE|53853|M|53.46,87.14|Z|Isle of Quel'Danas|N|Make your way South.|CC|
 C The Setting Sun|QID|53853|M|53.46,87.14|Z|122; Isle of Quel'Danas|QO|1|NC|N|Light shed on Anasterian's Fall.|
 C The Setting Sun|QID|53853|M|53.47,85.63|Z|122; Isle of Quel'Danas|QO|2|N|Blightgut slain.|
 R Isle of Quel'Danas|M|46.67,56.78|Z|Isle of Quel'Danas|N|Make your way back North.|CC|
 T The Setting Sun|QID|53853|M|48.37,36.14|Z|122; Isle of Quel'Danas|N|To Lady Liadrin.|
 A The Fall of the Sunwell|QID|54096|PRE|53853|M|48.37,36.14|Z|122; Isle of Quel'Danas|N|From Lady Liadrin.|
-P The Shepherd's Gate|ACTIVE|53435|M|44.25,45.46|Z|Isle of Quel'Danas|N|Take the portal into The Sunwell Plateau.|
+P The Shepherd's Gate|ACTIVE|53435|M|44.25,45.46|Z|122; Isle of Quel'Danas|N|Take the portal into The Sunwell Plateau.|
 C By Blood Remembered|Z|0973; The Sunwell!Dungeon|SO|1|S|N|Shine the lantern and start the memories of the fallen.\nIn the middle of the golden Cyrcle, hard to see.|
 C By Blood Remembered|Z|0973; The Sunwell!Dungeon|SO|1|US|N|Shine the lantern and start the memories of the fallen.\nIn the middle of the golden Cyrcle, hard to see.|
 C Until Our Last Breath|Z|0973; The Sunwell!Dungeon|SO|2|S|N|Hold the line against the Scourge|

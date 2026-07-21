@@ -638,8 +638,8 @@ C A Hungry Flock|QID|89384|M|53.58,35.51|Z|2395; Eversong Woods|N|Kill the Toads
 T One Adventurous Hatchling|QID|89383|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
 T A Hungry Flock|QID|89384|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
 T A Roost-ed Development|QID|89386|M|56.84,35.56|Z|2395; Eversong Woods|N|To Vaelith Sunplume.|
-A First Step Into Parenthood Complete|QID|89385|PRE|89383&89384&89386|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
-T First Step Into Parenthood Complete|QID|89385|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume. Congratulations, you have an egg that will hatch in 24 hours.|
+A First Step Into Parenthood|QID|89385|PRE|89383&89384&89386|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume.|RANK|2|
+T First Step Into Parenthood|QID|89385|M|56.84,35.56|Z|2395; Eversong Woods|N|From Vaelith Sunplume. Congratulations, you have an egg that will hatch in 24 hours.|
 
 ;Paladin Rescue
 A Missing Paladins|QID|90546|PRE|86734|M|53.14,69.40|Z|2393; Silvermoon City|N|From Taelia Fordragon.|LVL|90|FACTION|ALLIANCE|RANK|2| ;lvl 90 or maybe it's finishing something in zul'aman
