@@ -308,11 +308,11 @@ F Camp Taurajo|ACTIVE|852|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly to Camp Taur
 
 h Camp Taurajo|ACTIVE|852|M|45.58,59.04|Z|1413; The Barrens|N|Set your Hearthstone to Camp Taurajo.\n[color=FF0000]NOTE: [/color]Skip this step if you're fine with flying here from The Crossroads, or wherever you have it set to.|
 C Raptor Horns|QID|865|Z|1413; The Barrens|L|5055 5|ITEM|5055|N|any Scytheclaws you come across.|S|
-C Sunscale Feathers|QID|905|M|57.41,52.01|Z|1413; The Barrens|L|5165 3|ITEM|5165|N|any Sunscale Raptor you come across for the next quest, 'The Angry Scytheclaws'.|S|
+l Sunscale Feathers|ACTIVE|905|QO|1;2;3|M|57.41,52.01|Z|1413; The Barrens|L|5165 3|ITEM|5165|N|any Sunscale Raptor you come across for the next quest, 'The Angry Scytheclaws'.|S|
 R Raptor Grounds|ACTIVE|3281|QO|1|M|50.80,50.42;57.41,52.01|CC|Z|1413; The Barrens|N|Head to the Raptor Grounds.\n[color=FF0000]NOTE: [/color]You'll want to avoid the Bristleback Quilboar camps for now.\nYour best route is to take the road north to about the bridge and then follow the dry river bed east.|
 C Stolen Silver|QID|3281|QO|1|M|58.04,53.87|Z|1413; The Barrens|N|The stolen silver is in a chest at the back of the grounds, guarded by three raptors.\n[color=FF0000]NOTE: [/color]Clear your way through the grounds, picking off Raptors one by one.\nWhen you get to the chest, the one closest to you can be pulled solo. Pick the smaller of the other two to attack first.|
 C Raptor Horns|QID|865|M|57.41,52.01|Z|1413; The Barrens|L|5055 5|ITEM|5055|N|Sunscale Scytheclaws.\n[color=FF0000]NOTE: [/color]Stay in the Raptor Grounds until you finish this quest.|US|
-C Sunscale Feathers|QID|905|M|57.41,52.01|Z|1413; The Barrens|L|5165 3|ITEM|5165|N|any Sunscale Raptor you come across for the next quest, 'The Angry Scytheclaws'.|US|
+l Sunscale Feathers|ACTIVE|905|QO|1;2;3|M|57.41,52.01|Z|1413; The Barrens|L|5165 3|ITEM|5165|N|any Sunscale Raptor you come across for the next quest, 'The Angry Scytheclaws'.|US|
 C The Angry Scytheclaws|QID|905|QO|1;2;3|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|Z|1413; The Barrens|N|Clear the area around the Raptor nests and click on each of the nests.\n[color=FF0000]NOTE: [/color]They do not have to be done in any particular order.|NC|
 R Lushwater Oasis|ACTIVE|880|QO|1|M|48.24,40.48|Z|1413; The Barrens|N|Go to the Lushwater Oasis.|
 C Hezrul Bloodmark|QID|852|QO|1|M|46.15,36.84|Z|1413; The Barrens|L|5025|ITEM|2025|N|Hezrul Bloodmark.|S|
@@ -335,7 +335,7 @@ T Altered Beings|QID|880|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.
 A Hamuul Runetotem|QID|1489|PRE|880|M|52.26,31.93|Z|1413; The Barrens|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem.\n[color=FF0000]NOTE: [/color]This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|
 T The Angry Scytheclaws|QID|905|M|52.23,31.01|Z|1413; The Barrens|N|To Sergra Darkthorn.|
 A Jorn Skyseer|QID|3261|PRE|905|M|52.23,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|
-* Sunscale Feathers|PRE|905|N|You can safely destroy your leftover Sunscale Feathers.|U|5165|O|
+* Sunscale Feathers|PRE|905|N|You can safely destroy your leftover Sunscale Feathers.|U|5165|
 T Stolen Silver|QID|3281|M|51.93,30.32|Z|1413; The Barrens|N|To Gazrog.|
 T Harpy Lieutenants|QID|875|M|51.62,30.90|Z|1413; The Barrens|N|To Darsok Swiftdagger.|
 A Serena Bloodfeather|QID|876|PRE|875|M|51.62,30.90|Z|1413; The Barrens|N|From Darsok Swiftdagger.|
