@@ -144,7 +144,7 @@ C I Think I Can|QID|92451|M|48.14,67.57|Z|2437; Zul'Aman|QO|2|EAB|N|Ani cheered 
 C I Think I Can|QID|92451|M|48.14,67.57|Z|2437; Zul'Aman|QO|3|NC|N|Ani's jump observed.|
 T I Think I Can|QID|92451|M|48.70,66.09|Z|2437; Zul'Aman|N|To Ani's Trinket Bag.|
 A Not According to Plan|QID|92452|PRE|92451|M|48.70,66.09|Z|2437; Zul'Aman|N|Ani's Trinket Bag.|RANK|2|
-C Not According to Plan|QID|92452|M|47.47,63.45;46.00,30.02;45.30,61.12|CS|Z|2437; Zul'Aman|QO|1|NC|N|Ani's belongings recovered.|
+C Not According to Plan|QID|92452|M|47.47,63.45;46.36,62.39;45.29,61.08|CS|Z|2437; Zul'Aman|QO|1|NC|N|Ani's belongings recovered.|
 T Not According to Plan|QID|92452|M|44.64,60.51|Z|2437; Zul'Aman|N|To Ani.|
 A Fearless|QID|92453|PRE|92452|M|44.64,60.51|Z|2437; Zul'Aman|N|From Ani.|RANK|2|
 C Fearless|QID|92453|M|45.17,69.68|Z|2437; Zul'Aman|QO|1|NC|N|Meet Ani at Amani'Zar Village.|

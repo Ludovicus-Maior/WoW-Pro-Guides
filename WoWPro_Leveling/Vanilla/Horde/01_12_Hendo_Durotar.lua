@@ -8,12 +8,12 @@ WoWPro:GuideSteps(guide, function() return
 [[
 
 A Your Place In The World|QID|4641|LEAD|788|M|43.29,68.53|Z|1411; Durotar|N|From Kaltunk.|
+A Vile Familiars|QID|1485|M|42.59,69.00|Z|1411; Durotar|N|From Ruzan.\n[color=FF0000]NOTE: [/color]This class quest is to unlock your Imp.|R|Orc,Troll|C|Warlock|
 T Your Place In The World|QID|4641|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
 = Arcane Intellect|ACTIVE|788|M|42.59,67.34;42.51,69.04|CC|Z|1411; Durotar|N|This buff gives you +2 INT for 30 min.\nSell your food and/or water to Duokna to get the 1 copper required to afford to learn it from Mai'ah.\n[color=FF0000]NOTE: [/color]This step will complete once you've learned it.|SPELL|Arcane Intellect;1459|C|Mage|
 C Cutting Teeth|QID|788|M|44.23,66.39|Z|1411; Durotar|N|Kill Mottled boars.\n[color=FF0000]NOTE: [/color]They're all over the area.|S|
-A Vile Familiars|QID|1485|M|42.59,69.00|Z|1411; Durotar|N|From Ruzan.\n[color=FF0000]NOTE: [/color]This class quest is to unlock your Imp.|R|Orc,Troll|C|Warlock|
-C Vile Familiars|QID|1485|M|45.17,57.12|Z|1411; Durotar|N|Kill the Vile Familiars in front of the cave.\n[color=FF0000]NOTE: [/color]Don't worry about their level. They don't hit very hard if you're using your Demon Skin buff.|
+C Vile Familiars|QID|1485|M|45.17,57.12|Z|1411; Durotar|L|6487 6|ITEM|6487|N|the Vile Familiars in front of the cave.\n[color=FF0000]NOTE: [/color]Don't worry about their level. They don't hit very hard if you're using your Demon Skin buff.|
 C Cutting Teeth|QID|788|M|44.23,66.39|Z|1411; Durotar|N|Kill Mottled boars.\n[color=FF0000]NOTE: [/color]They're all over the area.|US|
 
 r Sell junk/reload|QID|788|M|42.59,67.34|Z|1411; Durotar|N|At Duokna to pay for your upcoming training.\n[color=FF0000]NOTE: [/color]Don't go to the vendors inside the Den, just in case you accidentally pay for any repairs; you'll need the extra money.\n\nManually check this step off to continue.|
@@ -54,7 +54,7 @@ T Tainted Parchment|QID|3090|M|40.65,68.51|Z|1411; Durotar|N|To Nartok at the ve
 A Galgar's Cactus Apple Surprise|QID|4402|PRE|788|M|42.73,67.24|Z|1411; Durotar|N|From Galgar.|
 C Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|Z|1411; Durotar|L|11583 10|N|Collect them from random cactuses around the area.|S|
 C Sting of the Scorpid|QID|789|M|41.61,63.61|Z|1411; Durotar|L|4862 10|ITEM|4862|N|Scorpid Workers.|S|
-A Sarkoth|QID|790|M|40.59,62.59|Z|1411; Durotar|N|From Hana'zua.|
+A Sarkoth|QID|790|M|40.59,62.59|Z|1411; Durotar|N|From Hana'zua laying on the ground at the base of the big tree.|
 C Sarkoth|QID|790|M|40.66,65.73|Z|1411; Durotar|L|4905|ITEM|4905|N|Sarkoth.\n[color=FF0000]NOTE: [/color]He's a level 4 scorpid.|T|Sarkoth|
 T Sarkoth|QID|790|M|40.59,62.59|Z|1411; Durotar|N|To Hana'zua.|
 A Sarkoth|QID|804|PRE|790|M|40.59,62.59|Z|1411; Durotar|N|From Hana'zua.|
@@ -67,8 +67,7 @@ r Sell junk/reload|ACTIVE|789^804|M|42.59,67.34|Z|1411; Durotar|N|At Duokna.\n[c
 T Sting of the Scorpid|QID|789|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 T Sarkoth|QID|804|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 = Level 4 Training|AVAILABLE|5441|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
-B Grimoire of Blood Pact|AVAILABLE|5441|M|42.59,69.00|Z|1411; Durotar|L|16321|ITEM|16321|N|from Hraug.\n[color=FF0000]NOTE: [/color]Take \n[color=FF0000]NOTE: [/color]of when you should come back to buy your next one.\nYou can buy any of them at any time, but they can only be used when a specific level has achieved.|R|Orc,Troll|C|Warlock|LVL|4|
-U Blood Pact|AVAILABLE|5441|M|42.59,69.00|Z|1411; Durotar|N|Use the Grimoire to learn your new spell.\n[color=FF0000]NOTE: [/color]Your Imp must be present to use it.|U|16321|SPELL|Blood Pact; 6307|R|Orc,Troll|C|Warlock|LVL|4|O|
+= Level 4 Demon Training|AVAILABLE|5441|PRE|804|M|PLAYER|CC|N|Pick up your Grimoire of Blood Pact for 1s.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|SPELL|Blood Pact;6307|C|Warlock|
 A Call of Earth|QID|1516|M|42.41,69.16|Z|1411; Durotar|N|From Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
 A Vile Familiars|QID|792|M|42.85,69.15|Z|1411; Durotar|N|From Zureetha Fargaze.|C|-Warlock| ; ** Warlocks should've already done this one - Hendo72
 A Lazy Peons|QID|5441|M|44.62,68.65|Z|1411; Durotar|N|From Foreman Thazz'ril.|
@@ -91,9 +90,9 @@ T Call of Earth|QID|1518|M|42.41,69.16|Z|1411; Durotar|N|To Canaga Earthcaller.|
 ; ---
 
 r Sell junk/reload|ACTIVE|794|M|42.59,67.34|Z|1411; Durotar|N|At Duokna.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Valley of Trials|
-R Burning Blade Coven|ACTIVE|794|QO|1|M|45.31,56.57|Z|1411; Durotar|N|Head back to the cave entrance you were just at.|
-C Thazz'ril's Pick|QID|6394|M|43.73,53.79|Z|1411; Durotar|L|16332|N|You'll find the Pick leaning against a spire, on the far side of the pool.\n[color=FF0000]NOTE: [/color]When the entrance tunnel opens up at the fork, go though the center passage.|
-C Burning Blade Medallion|QID|794|M|42.70,52.91|Z|1411; Durotar|L|4859|ITEM|4859|N|Yarrog Baneshadow.\n[color=FF0000]NOTE: [/color]Head back out to the fork and going through the passage on the far right this time, stay to the right at the next fork past the stream, continue forward to the opening at the end of the tunnel.|T|Yarrog Baneshadow|
+R Burning Blade Coven|ACTIVE|794|QO|1|M|45.31,56.57|Z|1411; Durotar|N|Head back to the cave entrance in the north.|
+C Thazz'ril's Pick|QID|6394|M|43.73,53.79|Z|1411; Durotar|L|16332|N|Pick up the Pick leaning against a spire on the far side of the pool.\n[color=FF0000]NOTE: [/color]When the entrance tunnel opens up at the fork, go though the center passage.|
+C Burning Blade Medallion|QID|794|M|42.70,52.91|Z|1411; Durotar|L|4859|ITEM|4859|N|Yarrog Baneshadow.\n[color=FF0000]NOTE: [/color]Head back out to the fork and go through the tunnel on your left as you come out. Continue past the stream and staying to the right at the next fork, continue to the opening at the end of the tunnel.|T|Yarrog Baneshadow|
 H Valley of Trials|ACTIVE|6394|M|44.62,68.65|Z|1411; Durotar|N|Use your hearth to avoid fighting your way out (unless you really want to).|
 T Burning Blade Medallion|QID|794|M|42.85,69.15|Z|1411; Durotar|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|805|PRE|794|M|42.85,69.15|Z|1411; Durotar|N|From Zureetha Fargaze.|
@@ -102,7 +101,7 @@ r Repair/Sell Junk|ACTIVE|6394|M|40.61,67.81|Z|1411; Durotar|N|At one of the ven
 N Mage Trainer|ACTIVE|805|N|Mai'ah (Valley of Trials) and Un'Thuwa (Sen'jin Village) are the only Mage trainers in Durotar.\nAfter level 6, Mai'ah will no longer train you. You either have go to Orgrimmar, or return to Sen'jin Village.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 L Level 6|ACTIVE|805|Z|1411; Durotar|N|Grind until you're within 5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]You'll want to be level 6 before you leave Sen'jin because you won't be back here for a while, and you'll want to do your level 6 training before leaving.|LVL|5;-680|C|Mage|S|
 T Thazz'ril's Pick|QID|6394|M|44.62,68.65|Z|1411; Durotar|N|To Foreman Thazz'ril.|
-R Exit Valley of Trials|ACTIVE|805|PRE|6394|M|50.79,68.42|Z|1411; Durotar|N|Follow the road east out of Valley of Trials.|IZ|363|
+R Exit Valley of Trials|ACTIVE|805|PRE|6394|M|50.79,68.42|Z|1411; Durotar|TZ|Sen'jin Village|N|Follow the road east out of Valley of Trials.|IZ|Valley of Trials|
 R Sen'jin Village|ACTIVE|805|M|54.30,72.84|Z|1411; Durotar|N|Continue east, taking the south road when you get to the road marker.|
 L Level 6|ACTIVE|805|N|Grind until you're within 1.5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]You'll want to be level 6 before you leave Sen'jin because you won't be back here for a while, and you'll want to do your level 6 training before leaving.|LVL|5;-225|C|Mage|US|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|Z|1411; Durotar|N|To Master Gadrin.|
@@ -118,16 +117,18 @@ A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar P
 
 A A Peon's Burden|QID|2161|M|52.05,68.32|Z|1411; Durotar|N|From Ukor, at the sign post.|
 R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind until you're within 3 bubbles of level 6.|LVL|5;-430|
+L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind until you're within 2 bubbles of level 6.|LVL|5;-320|
 T Report to Orgnil|QID|823|M|52.24,43.15|Z|1411; Durotar|N|To Orgnil Soulscar.| ;320
 A Dark Storms|QID|806|PRE|823|M|52.24,43.15|Z|1411; Durotar|N|From Orgnil Soulscar.|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
+N Level 6|N|You need to grind till level 6|LVL|-6|
+A Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|LVL|6|
+h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
 T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
-h Razor Hill|AVAILABLE|815|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
 ; -- Training in Razor Hill
 = Level 6 Training|AVAILABLE|815|M|51.98,43.70|Z|1411; Durotar|N|Do your Level 6 training with Kaplak (standing beside Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 = Level 6 Training|AVAILABLE|815|M|51.85,43.49|Z|1411; Durotar|N|Do your Level 6 training with Thotar (standing below Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
-= Level 6 Training|AVAILABLE|815|M|52.02,43.55|Z|1411; Durotar|N|Do your Level 6 training with Harruk (standing beside Thotar).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
+;= Level 6 Training|AVAILABLE|815|M|52.02,43.55|Z|1411; Durotar|N|Do your Level 6 training with Harruk (standing beside Thotar).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
 = Level 6 Training|AVAILABLE|815|M|54.26,42.94|Z|1411; Durotar|N|Do your Level 6 training with Tai'jin inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Level 6 Training|AVAILABLE|815|M|54.42,42.59|Z|1411; Durotar|N|Do your Level 6 training with Swart inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Shaman|
 = Level 6 Training|AVAILABLE|815|M|54.19,42.47|Z|1411; Durotar|N|Do your Level 6 training with Tarshaw Jaggedscar inside Razor Hill Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|
@@ -151,7 +152,6 @@ T Vanquish the Betrayers|QID|784|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|PRE|784|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
 T The Admiral's Orders|QID|830|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|PRE|830|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
-A Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|49.88,40.39|Z|1411; Durotar|N|To Furl Scornbrow.|
 C A Solvent Spirit|QID|818|M|60.33,49.85|Z|1411; Durotar|N|Kill and loot Makrura for the Eyes and Crawlers for the Mucus.|S|
 C From The Wreckage....|QID|825|M|62.66,49.44|Z|1411; Durotar|L|4863 3|N|Look for the Gnomish Toolboxes amongst the ship wrecks in the water along Scuttle Coast.|

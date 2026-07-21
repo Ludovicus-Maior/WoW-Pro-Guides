@@ -17,18 +17,17 @@ function GuideListMixin:SetDisplay()
     -- Select the first one, if none selected
     self:SelectTab(1)
 end
+
 function GuideListMixin:SelectListItem(itemIndex)
     local guide = self.guides[itemIndex]
     if _G.IsShiftKeyDown() then
         WoWProCharDB.Guide[guide.GID] = nil
-        WoWPro.Resetting = true
-        WoWPro:LoadGuide(guide.GID)
-        WoWPro.Resetting = false
         WoWPro:LoadGuide(guide.GID)
     else
         WoWPro:LoadGuide(guide.GID)
     end
 end
+
 do -- GuideListMixin:SetTooltip
     function GuideListMixin:SetTooltip(listItem)
         local guide = self.guides[listItem:GetID()].guide
@@ -447,9 +446,6 @@ WoWPro:Export("GuideTabFrame_RowOnClick")
 function WoWPro:GuideTabFrame_RowOnClick()
     if _G.IsShiftKeyDown() then
         WoWProCharDB.Guide[self.GID] = nil
-        WoWPro.Resetting = true
-        WoWPro:LoadGuide(self.GID)
-        WoWPro.Resetting = false
         WoWPro:LoadGuide(self.GID)
     else
         WoWPro:LoadGuide(self.GID)

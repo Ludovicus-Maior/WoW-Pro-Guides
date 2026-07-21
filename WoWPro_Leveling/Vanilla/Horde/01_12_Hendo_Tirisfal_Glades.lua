@@ -47,7 +47,7 @@ T Piercing the Veil|QID|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|To Venya Ma
 N Summon Imp|AVAILABLE|6395|PRE|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|You can now have the ability to summon your Imp.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 A Marla's Last Wish|QID|6395|PRE|376|M|30.85,66.05|Z|1420; Tirisfal Glades|N|From Novice Elreth.|
 = Level 4 Training|AVAILABLE|3902|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
-= Level 4 Demon Training|AVAILABLE|3902|PRE|1470|M|PLAYER|CC|N|Do your level 4 Demon training.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
+= Level 4 Demon Training|AVAILABLE|3902|PRE|1470|M|PLAYER|CC|N|Pick up your Grimoire of Blood Pact for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
 
 A Scavenging Deathknell|QID|3902|PRE|376|M|31.64,65.58|Z|1420; Tirisfal Glades|N|From Deathguard Saltain.|R|-Tauren|
 A Night Web's Hollow|QID|380|PRE|376|M|32.14,66.02|Z|1420; Tirisfal Glades|N|From Executor Arren.|R|-Tauren|
@@ -147,7 +147,7 @@ r Housekeeping|ACTIVE|5481|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and v
 B Coarse Thread|QID|375|QO|2|M|61.02,52.37|Z|1420; Tirisfal Glades|L|2320|N|From Abigail Shiel in front of the wagon.|
 T The Chill of Death|QID|375|M|61.89,52.71|Z|1420; Tirisfal Glades|N|To Gretchen Dedmar upstairs at the Tavern.|
 = Level 8 Training|ACTIVE|5481|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Brill|
-= Level 8 Demon Training|ACTIVE|5481|M|PLAYER|CC|N|Do your level 8 Demon training.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|C|Warlock|
+= Level 8 Demon Training|ACTIVE|5481|M|PLAYER|CC|N|Pick up your Grimoire of Firebolt for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|C|Warlock|
 T Gordo's Task|QID|5481|M|57.67,48.97;59.24,46.77;58.32,50.49|CS|Z|1420; Tirisfal Glades|N|To Junior Apothecary Holland in the cemetery.\n[color=FF0000]NOTE: [/color]He paths between the north and south entrances, cutting through the fountain on the west side.|T|Junior Apothecary Holland|
 A Doom Weed|QID|5482|PRE|5481|Z|1420; Tirisfal Glades|N|From Junior Apothecary Holland.|
 
@@ -199,14 +199,14 @@ T The Mills Overrun|QID|426|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguar
 ; --- Mage
 A Speak with Anastasia|QID|1881|M|61.96,52.45|Z|1420; Tirisfal Glades|N|From Cain Firesong at the top of the stairs in the Tavern.\n[color=FF0000]NOTE: [/color]Your lv 10 class quest.|LVL|10|R|Undead|C|Mage|
 ; --- Rogue
-A Mennet Carkad|QID|1885|M|61.74,52.01|Z|1420; Tirisfal Glades|N|From Marion Cal upstairs at the Tavern.\n[color=FF0000]NOTE: [/color]Your lv 10 class quest.|LVL|10|R|Undead|C|Rogue|
+A Mennet Carkad|QID|1885|AVAILABLE|1859|M|61.74,52.01|Z|1420; Tirisfal Glades|N|From Marion Cal upstairs at the Tavern.\n[color=FF0000]NOTE: [/color]Your lv 10 class quest.|LVL|10|R|Undead|C|Rogue|
 ; --- Warlock
 A Halgar's Summons|QID|1478|M|61.62,52.66|Z|1420; Tirisfal Glades|N|From Ageron Kargal upstairs at the Tavern.\n[color=FF0000]NOTE: [/color]Your lv 10 class quest.|LVL|10|R|Undead|C|Warlock|
 ; --- Warrior
 A Speak with Dillinger|QID|1818|M|61.85,52.54|Z|1420; Tirisfal Glades|N|From Austil de Mon inside the Tavern.\n[color=FF0000]NOTE: [/color]Your lv 10 class quest.|LVL|10|C|Warrior|
 T Speak with Dillinger|QID|1818|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguard Dillinger.|
 A Ulag the Cleaver|QID|1819|PRE|1818|M|58.20,51.45|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger.|C|Warrior|
-C Ulag the Cleaver|QID|1819|M|59.17,48.54|Z|1420; Tirisfal Glades|N|Kill Ulag the Cleaver at the mausoleum to the north.\n[color=FF0000]NOTE: [/color] Click the skull stone trigger to call him out.|
+K Ulag the Cleaver|ACTIVE|1819|QO|1|M|59.17,48.54|Z|1420; Tirisfal Glades|N|Kill Ulag the Cleaver at the mausoleum to the north.\n[color=FF0000]NOTE: [/color]Click the skull stone trigger to call him out.|
 T Ulag the Cleaver|QID|1819|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguard Dillinger.|
 A Speak with Coleman|QID|1820|PRE|1819|M|58.20,51.45|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger.|C|Warrior|
 T Speak with Coleman|QID|1820|M|61.71,52.31|Z|1420; Tirisfal Glades|N|To Coleman Farthing by the fireplace inside the Tavern.|
@@ -268,7 +268,7 @@ C Balnir Farmstead|QID|1882|M|76.94,62.21|Z|1420; Tirisfal Glades|L|7227|N|Loot 
 
 R Crusader Outpost|ACTIVE|371|QO|1;2|M|76.92,56.34|Z|1420; Tirisfal Glades|N|Head north from Balnir Farmstead up into the hills.|
 C At War With The Scarlet Crusade|QID|371|QO|2|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill 5 Scarlet Friars.|S|
-C Captain Vachon|QID|371|QO|1|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill Captain Vachon outside outside the tower after clearing the entrance.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.\nIf you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.|U|3434|
+K Captain Vachon|ACTIVE|371|QO|1|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill Captain Vachon outside outside the tower after clearing the entrance.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.\nIf you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.|U|3434|
 C At War With The Scarlet Crusade|QID|371|QO|2|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill 5 Scarlet Friars.|US|
 C Proof of Demise|QID|374|M|79.20,54.55|Z|1420; Tirisfal Glades|L|2875 10|ITEM|2875|N|Scarlet Crusade mobs.|US|
 R Venomweb Vale|ACTIVE|369|QO|1|M|82.20,53.95|Z|1420; Tirisfal Glades|N|Leave Crusader Outpost from the east entrance.|
@@ -290,12 +290,12 @@ T The Lich's Identity|QID|357|M|84.05,17.37|Z|1458; Undercity|N|To Bethor Icesha
 A Return the Book|QID|366|PRE|357|M|84.05,17.37|Z|1458; Undercity|N|From Bethor Iceshard.|R|-Tauren|
 T The Balnir Farmstead|QID|1882|M|85,10|Z|1458; Undercity|N|To Anastasia Hartwell.|
 
-R Leave Undercity|ACTIVE|356|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|
+R Leave Undercity|ACTIVE|356|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal Glades|N|Take the elevator up and exit Undercity through the front gates.|
 T Rear Guard Patrol|QID|356|M|65.48,60.24|Z|1420; Tirisfal Glades|N|Leave the Undercity and follow the road northeast to Deathguard Linnea.|
 = Fishing|ACTIVE|366|M|67.17,50.99|Z|1420; Tirisfal Glades|N|From Clyde Kellen.\n[color=FF0000]NOTE: [/color]He's on the south shore of Brightwater Lake.\nManually check this step off to continue.|SPELL|Fishing;7620|
 T Return the Book|QID|366|M|68.19,41.92|Z|1420; Tirisfal Glades|N|To Gunther Arcanus, on the island in Brightwater Lake.|
 A Proving Allegiance|QID|409|PRE|366|M|68.19,41.92|Z|1420; Tirisfal Glades|N|From Gunther Arcanus.|
-N Hidden quests|ACTIVE|409|QO|1|N|2 additional quests have been unlocked but do not show in the quest log.\nThese quests are The Candles of Beckoning and The Dormant Shade.\nThey are sequential steps that are required to complete the main quest.NOTECONT|
+N Hidden quests|ACTIVE|409|QO|1|N|2 additional quests have been unlocked but do not show in the quest log.\nThese quests are The Candles of Beckoning and The Dormant Shade.\nThey are sequential steps that are required to complete the main quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Candles of Beckoning|ACTIVE|409|QO|1|M|68.17,42.02|Z|1420; Tirisfal Glades|L|3080|N|Click on the Crate of Candles and manually complete the quest to loot the Candle of Beckoning.|NC|
 C The Dormant Shade|ACTIVE|409|QO|1|M|66.63,44.87|Z|1420; Tirisfal Glades|N|Clear the area and click on Lillith's Dinner Table.\n[color=FF0000]NOTE: [/color]Manually complete the quest to summon Lillith Nefara.|NC|
 C Proving Allegiance|QID|409|M|66.63,44.87|Z|1420; Tirisfal Glades|N|Kill Lillith Nefara.NOTE Summoning Lillith consumes the Candle of Beckoning.|
@@ -321,9 +321,11 @@ T The Family Crypt|QID|408|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate
 
 R Undercity|ACTIVE|411|M|66.22,2.14|Z|1458; Undercity|N|Head to Undercity.|
 T The Prodigal Lich Returns|QID|411|M|84.05,17.37|Z|1458; Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
-= Level 12 Training|ACTIVE|445|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|1458; Undercity|
-= Level 12 Demon Training|ACTIVE|445|M|PLAYER|CC|N|Do your level 12 Demon training.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warlock|IZ|1458; Undercity|
-r Housekeeping|ACTIVE|445|M|PLAYER|CC|N|Before leaving Undercity, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1458; Undercity|
+= Level 12 Training|PRE|411|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|1458; Undercity|
+= Level 12 Demon Training|PRE|411|M|PLAYER|CC|N|Do your level 12 Demon training.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warlock|IZ|1458; Undercity|
+r Housekeeping|PRE|411|M|PLAYER|CC|N|Before leaving Undercity, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1458; Undercity|
+R Tirisfal Glades|PRE|411|M|61.86,64.98|Z|1420; Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|IZ|1458; Undercity|
 
+D Next Guide|AVAILABLE|445|PRE|411|N|This ends the Tirisfal Glades guide. Seeing as you skipped the breadcrumb, we assume you want to use a different guide next.\n[color=FF0000]NOTE: [/color]Manually check this step off to move on and choose your next guide from the guide list.|
 ]]
 end)

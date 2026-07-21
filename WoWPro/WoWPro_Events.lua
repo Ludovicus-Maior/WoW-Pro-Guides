@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
--- luacheck: globals select foreach ipairs pairs next tinsert type unpack
+-- luacheck: globals select ipairs pairs next tinsert type unpack
 
 --------------------------
 --  WoWPro_Events.lua   --
@@ -347,7 +347,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
-        WoWPro.CompleteStep(qidx,"Forced Swap")
+        WoWPro.CompleteStep(qidx,"Forced Swap", nil, "PetBattleForcedSwap")
     end
     end)
 
@@ -468,16 +468,16 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local tbl = {string.split(" ", message)}
 					WoWPro.playerGroup[sender]["step"] = {}
-					foreach(tbl, function(k,v)
+					for k,v in ipairs(tbl) do
 						if (v ~= "") then
 							WoWPro.playerGroup[sender]["step"][tonumber(v)] = true
 						end
-					end);
+					end
 					WoWPro.mygroupsteps = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
-						foreach(gvalue["step"], function(gkey,gval)
+						for gkey,gval in pairs(gvalue["step"]) do
 							WoWPro.mygroupsteps[tonumber(gkey)] = true
-						end);
+						end
 					end
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
@@ -489,9 +489,9 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
 					WoWPro.myGroupTrack = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
-						foreach(gvalue["track"], function(gkey,gval)
+						for gkey,gval in pairs(gvalue["track"]) do
 							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gname .. ": " .. gval
-						end);
+						end
 					end
 				else
 					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
@@ -509,7 +509,7 @@ WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function(event, ...)
         if WoWPro.rows[index]:IsVisible() then
             local qidx = WoWPro.rows[index].index
             if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
-                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index))
+                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index), nil, "MerchantRepair")
             end
         else
             break

@@ -134,12 +134,14 @@ WoWPro.OfferIcons = {
 
 function WoWPro.GetQuestIconOffer(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
+    local priority = WoWPro.OfferIconPriority or {}
     if not quest_info then
         local result = WoWPro.OfferIcons["default"]
         if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID or "No Quest ID", result); end
         return result, "Ordinary"
     end
-    for flag, icon in pairs(WoWPro.OfferIcons) do
+    for _, flag in ipairs(priority) do
+        local icon = WoWPro.OfferIcons[flag]
         if quest_info[flag] then
             if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): %s=%s", QID, flag, icon); end
             return icon, string.sub(flag,3)
@@ -158,18 +160,22 @@ WoWPro.ActiveIcons = {
     isRecurring = "RepeatableInProgressquesticon",
     default = "SideInProgressquesticon"
 }
+
 function WoWPro.GetQuestIconActive(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
+    local priority = WoWPro.ActiveIconPriority or {}
     if not quest_info then
-        return WoWPro.ActiveIcons["default"]
+        return WoWPro.ActiveIcons["default"], "Default"
     end
-    for flag, icon in pairs(WoWPro.ActiveIcons) do
+    for _, flag in ipairs(priority) do
+        local icon = WoWPro.ActiveIcons[flag]
         if quest_info[flag] then
-            return icon
+            return icon, string.sub(flag,3)
         end
     end
-    return WoWPro.ActiveIcons["default"]
+    return WoWPro.ActiveIcons["default"], "Default"
 end
+
 WoWPro.CompleteIcons = {
     isCampaign = "CampaignActiveQuestIcon",
     isLegendary = "legendaryactivequesticon",
@@ -179,17 +185,20 @@ WoWPro.CompleteIcons = {
     isRecurring = "Recurringactivequesticon",
     default = "Interface/GossipFrame/ActiveQuestIcon"
 }
+
 function WoWPro.GetQuestIconComplete(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
+    local priority = WoWPro.CompleteIconPriority or {}
     if not quest_info then
         return WoWPro.CompleteIcons["default"], "Ordinary"
     end
-    for flag, icon in pairs(WoWPro.CompleteIcons) do
+    for _, flag in ipairs(priority) do
+        local icon = WoWPro.CompleteIcons[flag]
         if quest_info[flag] then
             return icon, string.sub(flag,3)
         end
     end
-    return WoWPro.CompleteIcons["default"]
+    return WoWPro.CompleteIcons["default"], "Default"
 end
 for flag, icon in pairs(WoWPro.OfferIcons) do
     if string.sub(flag,1,2) == "is" then

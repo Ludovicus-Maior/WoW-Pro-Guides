@@ -17,8 +17,6 @@ A Menacing Marshfangs|QID|9770|M|84.97,54.03|Z|1946; Zangarmarsh|N|From Reavij.|
 A There's No Explanation for Fashion|QID|9769|M|84.36,54.33|Z|1946; Zangarmarsh|N|From Magasha.|
 A No More Mushrooms!|QID|9773|M|84.36,54.33|Z|1946; Zangarmarsh|N|From Magasha.|
 R Cenarion Refuge|AVAILABLE|9747|M|77.97,61.86|Z|1946; Zangarmarsh|N|Head over to the Cenarion Refuge.|FLY|OLD| ; Not everybody completes Hellfire
-T Warchief's Command: Zangarmarsh|QID|39180|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger in Cenarion Refuge.|
-T Return to the Marsh|QID|9732|M|78.40,62.02|Z|1946; Zangarmarsh|N|To Ysiel Windsinger in Cenarion Refuge.|
 h Cenarion Refuge|QID|9747|M|78.49,62.95|Z|1946; Zangarmarsh|N|At Innkeeper Coryth Stoktron.\n[color=FF0000]NOTE: [/color]Skip this step if you want, but you'll have to find an alternate means of travel if you choose not to.|
 A The Dying Balance|QID|9895|M|78.53,63.15|Z|1946; Zangarmarsh|N|From Lethyn Moonfire|
 A The Umbrafen Tribe|QID|9747|M|80.39,64.16|Z|1946; Zangarmarsh|N|From Ikeyen.|
@@ -26,10 +24,10 @@ A Plants of Zangarmarsh|QID|9802|M|80.32,64.16|Z|1946; Zangarmarsh|N|From Lauran
 A Leader of the Darkcrest|QID|9730|M|79.13,64.78|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 A Leader of the Bloodscale|QID|9817|M|79.13,64.78|Z|1946; Zangarmarsh|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 C Unidentified Plant Parts|QID|9802|L|24401 10|ITEM|24401|N|Any mob in Zangarmarsh.|S!US|IZ|Zangarmarsh|
-C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|Z|1946; Zangarmarsh|L|24372 12|ITEM|24372|N|Any winged insect\n[color=FF0000]NOTE: [/color]Pet collectors may want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly.|S|
-C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375|ITEM|24375|N|{CORDS}Mire Hydras.|S|
+C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|Z|1946; Zangarmarsh|L|24372 8|ITEM|24372|N|Any winged insect\n[color=FF0000]NOTE: [/color]Pet collectors may want to kill Bogflare Needlers along the northern border for a small chance of a Caged Firefly.|S|
+C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375 12|ITEM|24375|N|Mire Hydras.|S|
 C No More Mushrooms!|QID|9773|M|75.25,73.05|Z|1946; Zangarmarsh|L|24374 8|ITEM|24374|N|Umbrafen Eel\n[color=FF0000]NOTE: [/color]The drop rate is fairly low, so this may take a while.\nKeep an eye on your breath meter.|U|25539|
-C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375|ITEM|24375|N|{CORDS}Mire Hydras.|US|
+C Thick Hydra Scales|QID|9774|M|78,74|Z|1946; Zangarmarsh|L|24375 12|ITEM|24375|N|Mire Hydras.|US|
 C The Dying Balance|QID|9895|M|81.81,72.27;83.82,78.62|CS|Z|1946; Zangarmarsh|N|Boglash (Lv 61 Elite) is a named strider that paths back and forth along here.\n[color=FF0000]NOTE: [/color]If you cannot locate him, you're waiting for him to respawn.|T|Boglash|
 C The Umbrafen Tribe|QID|9747|QO|1;2;3;4|M|85.31,90.96|Z|1946; Zangarmarsh|N|Head south and clear the two Umbrafen Villages. Further south, Kataru is in the big building on the top floor.|
 A Escape from Umbrafen|QID|9752|M|83.37,85.53|Z|1946; Zangarmarsh|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kayra Longmane.\n[color=FF0000]NOTE: [/color]If she isn't there, that means someone else is doing it, or she's dead and you'll have to wait.|
@@ -138,7 +136,7 @@ A Wanted: Chieftain Mummaki|QID|10117|M|32.00,49.33|Z|1946; Zangarmarsh|N|From t
 A Stinging the Stingers|QID|9841|M|31.63,49.19|Z|1946; Zangarmarsh|N|From Gambarinka.|
 A Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|Z|1946; Zangarmarsh|N|From Witch Doctor Tor'gash.|
 C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|Z|1946; Zangarmarsh|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
-C "Count" Ungula|AVAILABLE|9911|M|32.91,59.55|Z|1946; Zangarmarsh|L|25459|N|Kill "Count" Ungula, a named Marshfang, to loot a quest starter item.|T|"Count" Ungula|
+l "Count" Ungula's Mandible|AVAILABLE|9911|M|32.91,59.55|Z|1946; Zangarmarsh|L|25459|ITEM|25459|N|"Count" Ungula, a named Marshfang.|T|"Count" Ungula|
 A The Count of the Marshes|QID|9911|N|From "Count" Ungula's Mandible.|U|25459|O|
 C Spirits of the Feralfen|QID|9846|M|43.71,62.57|Z|1946; Zangarmarsh|L|24497 10|ITEM|24497|N|Feralfen mobs|
 C Angling to Beat the Competition|QID|9845|QO|1|M|50.40,40.89|Z|1946; Zangarmarsh|N|They're located around Coilfang Reservoir in Serpent Lake.\n[color=FF0000]NOTE: [/color]Use the potion of water breathing so you won't drown|U|25539|

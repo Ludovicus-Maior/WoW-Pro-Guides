@@ -473,7 +473,7 @@ A Secret Research|QID|69899|PRE|69897&69898|M|45.92,81.45|Z|2022; The Waking Sho
 C Secret Research|QID|69899|M|45.92,81.45|Z|2022; The Waking Shores|CHAT|QO|1|N|Listen to Iyali.|
 C Secret Research|QID|69899|M|45.92,81.45|Z|2022; The Waking Shores|H|QO|2|N|Open the box, listen some more.|
 C Secret Research|QID|69899|M|45.92,81.45|Z|2022; The Waking Shores|NC|QO|3|N|Listen some more.|
-C Secret Research|QID|69899|M|45.92,81.45|Z|2022; The Waking Shores|CHAT|QO|4|N|Convince him to accpet help.|
+C Secret Research|QID|69899|M|45.92,81.45|Z|2022; The Waking Shores|CHAT|QO|4|N|Convince him to accept help.|
 T Secret Research|QID|69899|M|45.95,81.49|Z|2022; The Waking Shores|N|To Tyrgon.|
 A Identifying the Source|QID|69900|PRE|69899|M|45.95,81.49|Z|2022; The Waking Shores|N|From Tyrgon.|RANK|2|
 A Bring In the Expert|QID|69901|PRE|69899|M|45.95,81.49|Z|2022; The Waking Shores|N|From Tyrgon.|RANK|2|
