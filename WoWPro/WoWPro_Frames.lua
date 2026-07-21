@@ -746,19 +746,22 @@ function WoWPro.RowSizeSet()
         -- Get current frame position for final clamping
 
         if not _G.InCombatLockdown() then
-                -- Before resizing, preserve the current valid corner anchor.
+                -- Before resizing, use the saved expansion anchor as the canonical resize anchor.
                 local pt = WoWPro.MainFrame:GetPoint()
                 local validAnchor = (pt == "TOPLEFT" or pt == "TOPRIGHT" or pt == "BOTTOMLEFT" or pt == "BOTTOMRIGHT")
                 local resizeAnchor = expansionAnchor
                 if validAnchor then
-                    resizeAnchor = pt
+                    if pt ~= expansionAnchor then
+                        AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", pt, expansionAnchor)
+                        WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
+                    end
                 else
                     AnchorDebug("RowSizeSet: pt=%s not corner; using saved expansionAnchor", _G.tostring(pt))
                 end
                 AnchorDebug("RowSizeSet: pt=%s resizeAnchor=%s screen=(%.1f,%.1f)", _G.tostring(pt), resizeAnchor, screenW or 0, screenH or 0)
 
-                -- Only restore saved anchor if the current frame point is invalid.
-                if not validAnchor and pt ~= expansionAnchor then
+                -- Restore saved anchor whenever the live point differs.
+                if pt ~= expansionAnchor then
                     AnchorDebug("RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", pt, expansionAnchor)
                     WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
 
