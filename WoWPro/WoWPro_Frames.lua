@@ -752,7 +752,7 @@ function WoWPro.RowSizeSet()
                 local resizeAnchor = expansionAnchor
                 if validAnchor then
                     if pt ~= expansionAnchor then
-                        AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", pt, expansionAnchor)
+                        AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", _G.tostring(pt), _G.tostring(expansionAnchor))
                         WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
                     end
                 else
