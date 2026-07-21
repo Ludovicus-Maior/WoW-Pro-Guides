@@ -1385,36 +1385,45 @@ end
 -- Helper: set expansion anchor to a specific corner
 function WoWPro:SetExpansionAnchor(corner)
     if _G.InCombatLockdown() then return end
+    local currentAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     -- Update side preference based on horizontal anchor
     WoWProDB.profile.leftside = (corner == "TOPLEFT" or corner == "BOTTOMLEFT")
     -- Persist the expansion anchor choice
     WoWProDB.profile.expansionAnchor = corner
 
-    if WoWPro.MainFrame then
-        local ui = _G.UIParent
-        local screenW = ui and ui:GetWidth() or 0
-        local screenH = ui and ui:GetHeight() or 0
-        if screenW <= 0 or screenH <= 0 then
-            screenW, screenH = GetUIScreenSize()
-        end
-        local left = WoWPro.MainFrame:GetLeft() or 0
-        local right = WoWPro.MainFrame:GetRight() or screenW
-        local top = WoWPro.MainFrame:GetTop() or screenH
-        local bottom = WoWPro.MainFrame:GetBottom() or 0
-        local x, y
-        if corner == "TOPLEFT" then
-            x, y = left, top - screenH
-        elseif corner == "TOPRIGHT" then
-            x, y = right - screenW, top - screenH
-        elseif corner == "BOTTOMLEFT" then
-            x, y = left, bottom
-        elseif corner == "BOTTOMRIGHT" then
-            x, y = right - screenW, bottom
-        end
-        WoWPro.MainFrame:ClearAllPoints()
-        WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
-        WoWPro.AnchorStore("SetExpansionAnchor")
+    if not WoWPro.MainFrame then
+        WoWPro:UpdateResizeHandle()
+        return
     end
+
+    if corner == currentAnchor then
+        WoWPro:UpdateResizeHandle()
+        return
+    end
+
+    local ui = _G.UIParent
+    local screenW = ui and ui:GetWidth() or 0
+    local screenH = ui and ui:GetHeight() or 0
+    if screenW <= 0 or screenH <= 0 then
+        screenW, screenH = GetUIScreenSize()
+    end
+    local left = WoWPro.MainFrame:GetLeft() or 0
+    local right = WoWPro.MainFrame:GetRight() or screenW
+    local top = WoWPro.MainFrame:GetTop() or screenH
+    local bottom = WoWPro.MainFrame:GetBottom() or 0
+    local x, y
+    if corner == "TOPLEFT" then
+        x, y = left, top - screenH
+    elseif corner == "TOPRIGHT" then
+        x, y = right - screenW, top - screenH
+    elseif corner == "BOTTOMLEFT" then
+        x, y = left, bottom
+    elseif corner == "BOTTOMRIGHT" then
+        x, y = right - screenW, bottom
+    end
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
+    WoWPro.AnchorStore("SetExpansionAnchor")
 
     -- Update resize handle visibility based on new anchor
     WoWPro:UpdateResizeHandle()
