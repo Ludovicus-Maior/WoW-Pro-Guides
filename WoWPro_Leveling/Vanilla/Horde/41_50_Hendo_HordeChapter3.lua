@@ -44,8 +44,7 @@ C Lack of Surplus|QID|698|M|81.20,26.82|Z|1435; Swamp of Sorrows|L|6169 8|ITEM|6
 R Misty Reed Post|ACTIVE|698|M|81.18,78.57|Z|1435; Swamp of Sorrows|N|Head south through Sorrowmurk, keeping an eye out for Somnus, an elite lv 62 dragon who pathes through the area.\n[color=FF0000]NOTE: [/color]Don't forget to turn your "Ground Clutter" back up.|
 T Lack of Surplus|QID|698|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|To Tok'Kar.|
 A Lack of Surplus|QID|699|PRE|698|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|From Tak'Kar.|
-R Stonard|ACTIVE|9440|M|41.93,54.82|Z|1435; Swamp of Sorrows|
-T Little Morsels|QID|9440|M|47.81,54.95|Z|1435; Swamp of Sorrows|N|To Cersei Dusksinger.|
+R Stonard|ACTIVE|1424|M|41.93,54.82|Z|1435; Swamp of Sorrows|N|Return to Stonard.|
 T Pool of Tears|QID|1424|M|47.93,54.79|Z|1435; Swamp of Sorrows|N|To Fel'zerul; at the top the stairs.\n[color=FF0000]NOTE: [/color]Don't get the follow-up quest.|
 
 ; --- Badlands
@@ -54,16 +53,16 @@ F Kargath|ACTIVE|1418|M|46.08,54.82|Z|1435; Swamp of Sorrows|N|At Breyk, Wind Ri
 N Badlands|ACTIVE|1418|N|Seeing as you don't have the FP in Badlands, you're going to have to foot it there. Don't worry, this isn't as bad as it sounds.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 H Orgrimmar|AVAILABLE|2842|TAXI|-Kargath|IZ|1435;Swamp of Sorrows|
 A Chief Engineer Scooty|QID|2842|M|75.51,25.36|Z|1454; Orgrimmar|N|From Sovik, inside Nogg's Machine Shop.|TAXI|-Kargath|
-F Ratchet|ACTIVE|2842|M|45.13,63.90|Z|1454; Orgrimmar|TAXI|-Kargath|
+F Ratchet|ACTIVE|2842|M|45.13,63.90|Z|1454; Orgrimmar|N|Fly to Ratchet.|TAXI|-Kargath|
 b Booty Bay|ACTIVE|2842|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|TAXI|-Kargath|
 T Chief Engineer Scooty|QID|2842|M|27.60,77.48|Z|1434; Stranglethorn Vale|N|To Chief Engineer Scooty.|TAXI|-Kargath|
 A Gnomer-gooooone!|QID|2843|PRE|2842|M|27.60,77.48|Z|1434; Stranglethorn Vale|N|From Chief Engineer Scooty.|TAXI|-Kargath|
 T Gnomer-gooooone!|QID|2843|M|27.60,77.48|Z|1434; Stranglethorn Vale|N|To Chief Engineer Scooty after a few moments past.|TAXI|-Kargath|
-P Gnomeregan|AVAILABLE|-2843|M|27.63,77.56|Z|1434; Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
-R Exit to Dun Morogh|ACTIVE|1418|M|43.01,60.19;42.85,60.17;43.12,60.26|CS|Z|1415; Gnomeregan|N|Exit the room and take the big lift up. Head up the ramp to the top.\n[color=FF0000]NOTE: [/color]At this level, you can easily avoid aggroing the mobs as long as you give them room.|TAXI|-Kargath|
-R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|CC|Z|1426; Dun Morogh|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Unless you run into them, the Alliance guards should leave you alone.|TAXI|-Kargath|
+P Gnomeregan|PRE|2843|M|27.63,77.56|Z|1434; Stranglethorn Vale|N|Step on the Transpolyporter.\n[color=FF0000]NOTE: [/color]Make sure you have your Goblin Transponder or it won't work.|TAXI|-Kargath|IZ|Booty Bay|
+R Exit Gnomeragon|ACTIVE|1418|M|43.01,60.19;42.85,60.17;43.12,60.26|CS|Z|1415; Gnomeregan|TZ|Dun Morogh|N|Exit the room, walk around the corner to your right, and take the big lift at the end of the hallway up to the top. Follow the ramp up to the surface.\n[color=FF0000]NOTE: [/color]Do not stand under the lift as it's coming down.|TAXI|-Kargath|
+R South Gate Pass|ACTIVE|1418|M|47.4,44.9;78.2,49.8;79.89,52.43|CC|Z|1426; Dun Morogh|N|Head east across Iceflow Lake towards the sign post at Kharanos (or follow the road the long way around if you wish). From here, 'follow' the road east until you reach the next sign post.\n[color=FF0000]NOTE: [/color]Feel free to straighten out the curves in the road.\nUnless you run into them, the Alliance guards (and the local mobs) should leave you alone.|TAXI|-Kargath|
 R South Gate Outpost|ACTIVE|1418|M|84.23,51.29|Z|1426; Dun Morogh|N|At the top of the hill, enter the tunnel and go through to the other side.|TAXI|-Kargath|
-R Badlands|ACTIVE|1418|M|22.7,70.9;28.5,66.0;37.5,74.6;46.40,73.50|CC|Z|1432; Loch Modan|N|Follow the road into the tunnel and continue through until you reach the intersection. Head north to the next intersection and cut across Stonesplinter Valley to Grizzlepaw Ridge. Make your way around the mountain side to the road leading into the Badlands.|TAXI|-Kargath|
+R Badlands|ACTIVE|1418|M|22.7,70.9;28.5,66.0;37.5,74.6;46.40,73.50|CC|Z|1432; Loch Modan|N|Follow the road into the tunnel and continue through until you reach the intersection. Head north to the next intersection and cut across Stonesplinter Valley to Grizzlepaw Ridge. Make your way around the mountain side to the road leading into the Badlands.\n[color=FF0000]NOTE: [/color]Feel free to straighten out the curves in the road.\nUnless you run into them, the Alliance guards (and the local mobs) should leave you alone.|TAXI|-Kargath|
 R Badlands|ACTIVE|1418|M|49.06,6.76|Z|1418; Badlands|N|Follow the road into the Badlands.|TAXI|-Kargath|
 R Kargath|ACTIVE|1418|M|10.02,42.87|Z|1418; Badlands|N|Head south past Uldaman and follow the edge of the mountains as you make your west.\n[color=FF0000]NOTE: [/color]It should be fairly uneventful until reach the Dustbowl and the mobs are now your level.|TAXI|-Kargath|
 f Kargath|AVAILABLE|1420|M|3.99,44.77|Z|1418; Badlands|N|Get the FP from Gorrik.|TAXI|-Kargath|
@@ -72,14 +71,14 @@ A Report to Helgrum|QID|1420|M|6.48,47.20|Z|1418; Badlands|N|From Neeka Bloodsca
 A Coyote Thieves|QID|1419|M|6.48,47.20|Z|1418; Badlands|N|From Neeka Bloodscar.|
 A Badlands Reagent Run|QID|2258|M|2.42,46.06|Z|1418; Badlands|N|From Jarkal Mossmeld; top of the ramp inside the Inn.|
 A Broken Alliances|QID|782|M|2.92,45.62|Z|1418; Badlands|N|From Gorn.|
-C Coyote Thieves|QID|1419|L|6166 30|ITEM|6166|N|Coyote|S|
-C Crag Coyote Fangs|ACTIVE|2258|L|7846 10|ITEM|7846|N|Coyote|S|
-C Buzzard Gizzard|QID|2258|L|7847 5|ITEM|7847|N|Buzzard|S|
-C Rock Elemental Shard|QID|2258|L|7848 5|ITEM|7848|N|Rock Elemental|S|
+C Coyote Thieves|QID|1419|M|58.16,64.22|Z|1418; Badlands|L|6166 30|ITEM|6166|N|Coyote|S|
+C Crag Coyote Fangs|ACTIVE|2258|M|58.16,64.22|Z|1418; Badlands|L|7846 10|ITEM|7846|N|Coyote|S|
+C Buzzard Gizzard|QID|2258|M|58.16,64.22|Z|1418; Badlands|L|7847 5|ITEM|7847|N|Buzzard|S|
+C Rock Elemental Shard|QID|2258|M|58.16,64.22|Z|1418; Badlands|L|7848 5|ITEM|7848|N|Rock Elemental|S|
 K Boss Tho'grun|ACTIVE|782|M|38.37,71.37|Z|1418; Badlands|L|4640|ITEM|4640|N|Boss Tho'grun\n[color=FF0000]NOTE: [/color]Keep an eye out for his entourage as you doing your other quests.|S|
-R Valley of Fangs|AVAILABLE|703|M|39.92,54.57|Z|1418; Badlands|
-T Martek the Exiled|QID|1106|M|42.21,52.69|Z|1418; Badlands|N|Martek is in the Valley of Fangs, east side of the second spire.|
-A Indurium|QID|1108|PRE|1106|M|42.21,52.69|Z|1418; Badlands|N|From Martek.|
+R Valley of Fangs|AVAILABLE|703|M|39.92,54.57|Z|1418; Badlands|N|Make your way to the Valley of Fangs, east side of the second spire.|
+T Martek the Exiled|QID|1106|M|42.21,52.69|Z|1418; Badlands|N|To Martek the Exiled.|
+A Indurium|QID|1108|PRE|1106|M|42.21,52.69|Z|1418; Badlands|N|From Martek the Exiled.|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418; Badlands|N|From Rigglefuzz.|
 C Barbecued Buzzard Wings|QID|703|L|3404 4|ITEM|3404|N|Any Buzzard|S|
 R Agmond's End|ACTIVE|1108|QO|1|M|51.31,62.37|Z|1418; Badlands|
@@ -93,7 +92,7 @@ R Valley of Fangs|AVAILABLE|1137|M|39.92,54.57|Z|1418; Badlands|
 T Barbecued Buzzard Wings|QID|703|M|42.39,52.93|Z|1418; Badlands|N|To Rigglefuzz.|
 T Indurium|QID|1108|M|42.21,52.69|Z|1418; Badlands|N|To Martek the Exiled.|
 A News for Fizzle|QID|1137|PRE|1108|M|42.21,52.69|Z|1418; Badlands|N|From Martek the Exiled.\n[color=FF0000]NOTE: [/color]After a brief interlude.|
-K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|1418; Badlands|L|4640|ITEM|4640|N|Boss Tho'grun\nHe passes this point as part of a massive circuit. He's escorted by 5 ogres, however, he often lags behind his troops and can be pulled along with only one add. Kill him fast and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his circuit, or wait here for him to pass through.|US|
+K Boss Tho'grun|ACTIVE|782&2258|M|42.61,53.58|Z|1418; Badlands|L|4640|ITEM|4640|N|Boss Tho'grun\nHe passes this point as part of a massive circuit. He's escorted by 5 ogres, however, he often lags behind his troops and can be pulled along with only one add. Kill him fast and run away. Use long cooldown abilities and potions if needed.\n[color=FF0000]NOTE: [/color]You can go looking for him on his circuit, or wait here for him to pass through.|T|Boss Tho'grun|US|
 L Level 42|ACTIVE|1419|N|Grind until you're within 3.5 bubbles of 42.|LVL|41;-13550|
 R Kargath|ACTIVE|1419|M|10.02,42.87|Z|1418; Badlands|
 T Coyote Thieves|QID|1419|M|6.48,47.20|Z|1418; Badlands|N|To Neeka Bloodscar.|
@@ -104,26 +103,33 @@ T Broken Alliances|QID|782|M|2.92,45.59|Z|1418; Badlands|N|To Gorn.\n[color=FF00
 H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar to do your training or whatever else you need to do.|C|-Druid|
 P Moonglade|ACTIVE|1420|N|Use your Teleport: Moonglade to do your training.|C|Druid|
 = Level 42 Training|ACTIVE|1420|N|Do your level 42 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar. It's faster than flying; unless your hearth is on CD.|C|Druid|
+H Orgrimmar|ACTIVE|1420|N|Hearth back to Orgrimmar. It's faster than flying;NOTE Skip this step if your hearth is on CD.|C|Druid|
 F Orgrimmar|ACTIVE|1420|M|47.02,49.83|Z|1456; Thunder Bluff|C|Druid|IZ|1456;Thunder Bluff|
 b Grom'gol Base Camp|ACTIVE|1420|M|50.59,12.67|Z|1411; Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 F Stonard|ACTIVE|1420|M|32.54,29.35|N|At Thysta.|
 T Report to Helgrum|QID|1420|M|47.74,55.20|Z|1435; Swamp of Sorrows|N|To Helgrum the Swift.|
-R Northeast|ACTIVE|699|QO|1|M|75.82,13.95|CS|Z|1435; Swamp of Sorrows|N|Make your way to the northeast corner through the swamp.|
-C Lack of Surplus|QID|699|M|85.23,36.53|Z|1435; Swamp of Sorrows|L|6168 6|ITEM|6168|N|Sawtooth Snapper\nWork your way south until you're done.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|
+R Northeast|ACTIVE|699|QO|1|M|73.93,16.85|CC|Z|1435; Swamp of Sorrows|N|Make your way to the northeast corner through the swamp to where the Sawtooth Snappers are.|
+C Fresh Meat|QID|1430|M|95,45|Z|1435; Swamp of Sorrows|L|6184 10|ITEM|6184|N|Monstrous Crawlers.\n[color=FF0000]NOTE: [/color]They are non-aggressive, but everything else around them isn't.|S|IZ|Misty Reed Strand|
+C Lack of Surplus|QID|699|M|85.23,36.53|Z|1435; Swamp of Sorrows|L|6168 6|ITEM|6168|N|Sawtooth Snappers.\nWork your way south until you're done.\n[color=FF0000]NOTE: [/color]Be aware of the Scalebane Dragonkin if you make it as far south as Sorrowmurk.|T|Sawtooth Snapper|
 R Misty Reed Post|ACTIVE|699|M|81.18,78.57|Z|1435; Swamp of Sorrows|N|You may want to go to the east and come down through Misty Reed Strand to avoid the Scalebane Dragonkin in Sorrowmurk.\n[color=FF0000]NOTE: [/color]Your path may not be uneventful either way.|
 T Lack of Surplus|QID|699|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|To Tok'Kar.|
 A Threat From the Sea|QID|1422|PRE|699|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|From Tok'Kar.|
 T Threat From the Sea|QID|1422|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|To Katar.|
 A Threat From the Sea|QID|1426|PRE|1422|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|From Katar.|
-C Fresh Meat|QID|1430|M|95,45|Z|1435; Swamp of Sorrows|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]They are non=aggressive, but everything else around them isn't.|T|Monstrous Crawler|S|
-K Threat From the Sea|ACTIVE|1426|QO|1;2;3|M|80.0,93.8;95.0,45.0;94.50,53.83|CS|Z|1435; Swamp of Sorrows|N|Starting at the southern-most point of the shoreline, work your way north along the shoreline.\n[color=FF0000]NOTE: [/color]The Murlocs are in the south, The Flesheaters are primarily in the north section and the Inkspewers are every where. Avoid the Oracles as best you can.|
+C Threat From the Sea|QID|1426|QO|2|M|95.00,45.00|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|S|
+C Threat From the Sea|QID|1426|QO|1|M|80.00,93.80|Z|1435; Swamp of Sorrows|N|Kill the Marsh Murlocs found at the southern end of the coast.|
+C Threat From the Sea|QID|1426|QO|3|M|94.50,53.83|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters found primarily in the center of the coast.\nAvoid the Oracles as best you can.|
+C Threat From the Sea|QID|1426|QO|2|M|80.00,93.80|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.\nAvoid the Oracles as best you can.|US|
 T Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|To Katar.|
 A Threat From the Sea|QID|1427|PRE|1426|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|From Katar.|
 T Threat From the Sea|QID|1427|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|To Tok'Kar.|
 A Continued Threat|QID|1428|PRE|1427|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|From Katar.|
-K Continued Threat|ACTIVE|1428|QO|1;2;3|M|89.1,78.4;95.08,27.10|CS|Z|1435; Swamp of Sorrows|N|As you make your way up the shoreline, work on killing the Inkspewers.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the last location. They randomly respawn as either an Oracle or a Flesheater.\n\nKeep an eye out for Jarquia, a level 46 mob that hangs out near the Oracles by the camps.|
-C Fresh Meat|QID|1430|M|94.88,44.57|Z|1435; Swamp of Sorrows|L|6184 10|ITEM|6184|N|Monstrous Crawlers\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
+C Continued Threat|QID|1428|QO|1|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|S|IZ|Misty Reed Strand|
+C Continued Threat|QID|1428|QO|2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters and Oracles; found primarily in the center of the coast.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the waypoint. They randomly respawn as either an Oracle or a Flesheater.\n \nKeep an eye out for Jarquia, a level 46 mob that hangs out near the Oracles by the camps.|S|IZ|Misty Reed Strand|
+C Fresh Meat|QID|1430|M|94.88,44.57|Z|1435; Swamp of Sorrows|L|6184 10|ITEM|6184|N|Monstrous Crawlers found in the water all the way up and down the coast.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
+C Continued Threat|QID|1428|QO|2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters and Oracles; found primarily in the center of the coast.\n[color=FF0000]NOTE: [/color]If you wish, there is a cave to the west of Misty Reed Post that has many of them inside.|US|IZ|Misty Reed Strand|
+C Continued Threat|QID|1428|QO|1|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|US|IZ|Misty Reed Strand|
+C Continued Threat|QID|1428|QO|1;2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers, Flesheaters and Oracles found inside the cave.|US|IZ|-Misty Reed Strand|
 T Continued Threat|QID|1428|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|To Katar.|
 R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435; Swamp of Sorrows|
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435; Swamp of Sorrows|N|To Dar.|

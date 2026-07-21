@@ -136,7 +136,7 @@ A Wanted: Chieftain Mummaki|QID|10117|M|32.00,49.33|Z|1946; Zangarmarsh|N|From t
 A Stinging the Stingers|QID|9841|M|31.63,49.19|Z|1946; Zangarmarsh|N|From Gambarinka.|
 A Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|Z|1946; Zangarmarsh|N|From Witch Doctor Tor'gash.|
 C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|Z|1946; Zangarmarsh|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
-C "Count" Ungula|AVAILABLE|9911|M|32.91,59.55|Z|1946; Zangarmarsh|L|25459|N|Kill "Count" Ungula, a named Marshfang, to loot a quest starter item.|T|"Count" Ungula|
+l "Count" Ungula's Mandible|AVAILABLE|9911|M|32.91,59.55|Z|1946; Zangarmarsh|L|25459|ITEM|25459|N|"Count" Ungula, a named Marshfang.|T|"Count" Ungula|
 A The Count of the Marshes|QID|9911|N|From "Count" Ungula's Mandible.|U|25459|O|
 C Spirits of the Feralfen|QID|9846|M|43.71,62.57|Z|1946; Zangarmarsh|L|24497 10|ITEM|24497|N|Feralfen mobs|
 C Angling to Beat the Competition|QID|9845|QO|1|M|50.40,40.89|Z|1946; Zangarmarsh|N|They're located around Coilfang Reservoir in Serpent Lake.\n[color=FF0000]NOTE: [/color]Use the potion of water breathing so you won't drown|U|25539|
