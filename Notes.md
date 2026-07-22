@@ -1,3 +1,27 @@
+# Release 2026.07.22.A
+## Bug Fixes
+* Update LibSharedMedia to r173
+* Update Vanilla TOC to 1.15.9
+* Fix GetQuestIconActive()
+* Reject malformed operator objectives in validation
+* Add a Combat Lockdown to the window drag handler
+* Icon for all C steps was not being set correctly
+* Remove some dead code from the reset/reload code handler
+* Use keyed leaderBoard lookup per quest tracker row
+* STFU: completion sound refactor
+* Update TBC .TOC files to 20505
+* Deferred sticky/unsticky paired completion to post-row rebuild so completion sound visibility checks use current-pass row state instead of stale visibility.
+* Sorted DefineZone2 by ID to make looking up easier.
+* Replace deprecated Lua 4 functions with modern equivalents
+## Guide Updates
+* Achievements: BELF Heritage Armor, Lorewalking LOA
+* MOP Leveling: Horde Jade Forest
+* Retail Leveling: DF Intro, Ohnahran Plains, Waking Shores
+* Retail Midnight: The Curse of Ula'tek, Eversong Woods, Harandar, Zul' Aman, Rise of the Red Dawn
+* TBC Leveling: Alliance 30-41, Horde Zangarmarsh, Horde Bareerens 14-22, Horde Chapter 3
+* Vanilla Horde Leveling:  1-12 Durotar, Mulgore, Tirisfal Glades, Silverpine Forest, The Barrens, Horde Chapters 2+3
+
+
 # Release 2026.06.23.A
 ## Bug Fixes
 * Add Interface support for the 120100 PTR.
