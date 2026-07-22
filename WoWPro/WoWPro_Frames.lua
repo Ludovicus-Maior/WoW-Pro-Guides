@@ -24,18 +24,61 @@ end
 
 
 -- Frame Update Functions --
-function WoWPro.GetSide(frame)
-    local x, y = frame:GetCenter()
-    if (not x) or (not y) then
-        return nil, nil
-    end
-    local horizontal = (x > (_G.UIParent:GetWidth() / 2)) and "RIGHT" or "LEFT"
-    local vertical = (y > (_G.UIParent:GetHeight() / 2)) and "TOP" or "BOTTOM"
-    return horizontal, vertical
+function WoWPro:GetButtonBarHideOffset()
+    if not WoWPro.ButtonBar then return 0 end
+    local barHeight = WoWPro.ButtonBar:GetHeight() or 0
+    local barGap = 3
+    return math.max(barHeight - barGap, 0)
+end
+
+function WoWPro:AdjustMainFrameForHiddenButtonBar()
+    if _G.InCombatLockdown() or WoWProDB.profile.buttonbar then return end
+    local offset = WoWPro:GetButtonBarHideOffset()
+    if offset <= 0 then return end
+    local ui = _G.UIParent
+    local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
+    local top = WoWPro.MainFrame:GetTop()
+    if not top or not uiTop then return end
+    local gap = uiTop - top
+    if gap < 0 or gap > offset + 1 then return end
+    local point = {WoWPro.MainFrame:GetPoint(1)}
+    if not point[1] then return end
+    if point[1] ~= "TOPLEFT" and point[1] ~= "TOPRIGHT" then return end
+    local x = point[4] or 0
+    local y = point[5] or 0
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint(point[1], point[2] or _G.UIParent, point[3] or point[1], x, y + offset)
+end
+
+function WoWPro:AdjustMainFrameForVisibleButtonBar()
+    if _G.InCombatLockdown() or not WoWProDB.profile.buttonbar then return end
+    if not WoWPro.ButtonBar or not WoWPro.ButtonBar:IsShown() then return end
+    local offset = WoWPro:GetButtonBarHideOffset()
+    if offset <= 0 then return end
+    local ui = _G.UIParent
+    local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
+    local barTop = WoWPro.ButtonBar:GetTop()
+    if not barTop or not uiTop then return end
+    if barTop <= uiTop then return end
+    local point = {WoWPro.MainFrame:GetPoint(1)}
+    if not point[1] then return end
+    if point[1] ~= "TOPLEFT" and point[1] ~= "TOPRIGHT" then return end
+    local x = point[4] or 0
+    local y = point[5] or 0
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint(point[1], point[2] or _G.UIParent, point[3] or point[1], x, y - offset)
 end
 
 function WoWPro.ResetMainFramePosition()
-    if _G.InCombatLockdown() then return end
+    if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
+        return
+    end
+    if WoWPro.MainFrame:IsMoving() then
+        if WoWPro.DebugAnchor then
+            WoWPro:dbp("ResetMainFramePosition: skipped because MainFrame is moving")
+        end
+        return
+    end
     -- Use the stored expansion anchor to position the frame, respecting the user's chosen growth direction
     local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     local ui = _G.UIParent
@@ -121,6 +164,7 @@ function WoWPro:DragSet()
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
                 WoWPro.SetMouseNotesPoints()
+                WoWPro.RowSizeSet()
                 WoWPro.AnchorStore("OnMouseUp0")
                 WoWPro.InhibitAnchorRestore = false
             end
@@ -143,6 +187,7 @@ function WoWPro:DragSet()
                 WoWPro:StopMoveClamp()
                 WoWPro:DisableLeftHandedIfOffScreen()
                 WoWPro.SetMouseNotesPoints()
+                WoWPro.RowSizeSet()
                 WoWPro.AnchorStore("OnMouseUpTitlebar")
                 WoWPro.InhibitAnchorRestore = false
             end
@@ -205,11 +250,14 @@ function WoWPro:TitlebarShow()
     else
         WoWPro.Titlebar:Hide()
     end
+
+    local wasButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
     if WoWProDB.profile.buttonbar then
         WoWPro.ButtonBar:Show()
     else
         WoWPro.ButtonBar:Hide()
     end
+
     -- Keep options (gear) button visible when button bar is hidden
     if WoWPro.OptionsButton then
         WoWPro.OptionsButton:ClearAllPoints()
@@ -224,6 +272,21 @@ function WoWPro:TitlebarShow()
             WoWPro.OptionsButton:Show()
         end
     end
+
+    local isButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
+    if wasButtonBarShown ~= isButtonBarShown then
+        local point = {WoWPro.MainFrame:GetPoint(1)}
+        if point[1] == "TOPLEFT" or point[1] == "TOPRIGHT" then
+            local offset = WoWPro:GetButtonBarHideOffset()
+            if offset > 0 then
+                local x = point[4] or 0
+                local y = point[5] or 0
+                WoWPro.MainFrame:ClearAllPoints()
+                WoWPro.MainFrame:SetPoint(point[1], point[2] or _G.UIParent, point[3] or point[1], x + 0, y + (wasButtonBarShown and offset or -offset))
+            end
+        end
+    end
+
     -- Ensure top bars remain on-screen
     if WoWProDB.profile.buttonbar then
         WoWPro:ClampBarsOnScreen()
@@ -237,7 +300,6 @@ function WoWPro:ClampBarsOnScreen()
         AnchorDebug("ClampBarsOnScreen: inhibited")
         return
     end
-    if WoWPro.IsMoving then return end
     if not WoWPro.ButtonBar or not WoWPro.ButtonBar:IsShown() then return end
     local ui = _G.UIParent
     local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
@@ -444,6 +506,7 @@ function WoWPro:TitlebarSet()
     -- Scrollbar --
     if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
     if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
+    WoWPro:AdjustMainFrameForHiddenButtonBar()
 end
 
 function WoWPro:BackgroundSet()
@@ -736,59 +799,50 @@ function WoWPro.RowSizeSet()
         -- Get current frame position for final clamping
 
         if not _G.InCombatLockdown() then
-            -- Before resizing, re-anchor frame to expansionAnchor so height grows in correct direction
-            local pt = WoWPro.MainFrame:GetPoint()
-            local validAnchor = (pt == "TOPLEFT" or pt == "TOPRIGHT" or pt == "BOTTOMLEFT" or pt == "BOTTOMRIGHT")
-            if not validAnchor then
-                AnchorDebug("RowSizeSet: pt=%s not corner; skipping reanchor", _G.tostring(pt))
-                pt = expansionAnchor
-            end
-            AnchorDebug("RowSizeSet: pt=%s exp=%s screen=(%.1f,%.1f)", _G.tostring(pt), expansionAnchor, screenW or 0, screenH or 0)
-            if pt ~= expansionAnchor then
-                -- Update the saved anchor when it changes
-                WoWProDB.profile.expansionAnchor = expansionAnchor
-                -- Get frame's current screen position
-                local curLeft = WoWPro.MainFrame:GetLeft() or 0
-                local curRight = WoWPro.MainFrame:GetRight() or screenW
-                local curTop = WoWPro.MainFrame:GetTop() or screenH
-                local curBottom = WoWPro.MainFrame:GetBottom() or 0
+                local pt = WoWPro.MainFrame:GetPoint()
+                if pt ~= expansionAnchor then
+                    AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", _G.tostring(pt), _G.tostring(expansionAnchor))
+                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
+                    if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
+                        local frameLeft = WoWPro.MainFrame:GetLeft() or 0
+                        local frameRight = WoWPro.MainFrame:GetRight() or screenW
+                        local top = WoWPro.MainFrame:GetTop() or screenH
+                        local bottom = WoWPro.MainFrame:GetBottom() or 0
+                        local x, y
+                        if expansionAnchor == "TOPLEFT" then
+                            x, y = frameLeft, top - screenH
+                        elseif expansionAnchor == "TOPRIGHT" then
+                            x, y = frameRight - screenW, top - screenH
+                        elseif expansionAnchor == "BOTTOMLEFT" then
+                            x, y = frameLeft, bottom
+                        else
+                            x, y = frameRight - screenW, bottom
+                        end
+                        WoWPro.MainFrame:ClearAllPoints()
+                        WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
+                        pt = expansionAnchor
+                        anchorChanged = true
+                    else
+                        AnchorDebug("RowSizeSet: anchor enforcement skipped due to manual move/resize")
+                    end
+                end
+                AnchorDebug("RowSizeSet: resizeAnchor=%s screen=(%.1f,%.1f)", expansionAnchor, screenW or 0, screenH or 0)
 
-                -- Calculate offset from new anchor point to maintain screen position
-                local newX, newY
-                if expansionAnchor == "TOPLEFT" then
-                    newX, newY = curLeft, curTop - screenH
-                elseif expansionAnchor == "TOPRIGHT" then
-                    newX, newY = curRight - screenW, curTop - screenH
-                elseif expansionAnchor == "BOTTOMLEFT" then
-                    newX, newY = curLeft, curBottom
-                elseif expansionAnchor == "BOTTOMRIGHT" then
-                    newX, newY = curRight - screenW, curBottom
+                if anchorChanged then
+                    WoWPro:dbp("[DEBUG] RowSizeSet: autoresize=%s exp=%s", tostring(WoWProDB.profile.autoresize), tostring(expansionAnchor))
+                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s exp=%s screenW=%.1f screenH=%.1f", tostring(pt), tostring(expansionAnchor), screenW or 0, screenH or 0)
                 end
 
-                AnchorDebug("RowSizeSet: reanchor %s -> (%.1f,%.1f) cur=(L%.1f R%.1f T%.1f B%.1f)", expansionAnchor, newX or 0, newY or 0, curLeft, curRight, curTop, curBottom)
-                -- Only log to debug if anchor actually changes
-                WoWPro:dbp("[DEBUG] RowSizeSet: reanchor %s -> (%.1f,%.1f) cur=(L%.1f R%.1f T%.1f B%.1f)", tostring(expansionAnchor), newX or 0, newY or 0, curLeft, curRight, curTop, curBottom)
-                anchorChanged = true
-                WoWPro.MainFrame:ClearAllPoints()
-                WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, newX, newY)
-            end
-            -- Only log these if anchor actually changed
-            if anchorChanged then
-                WoWPro:dbp("[DEBUG] RowSizeSet: autoresize=%s exp=%s", tostring(WoWProDB.profile.autoresize), tostring(expansionAnchor))
-                WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s exp=%s screenW=%.1f screenH=%.1f", tostring(pt), tostring(expansionAnchor), screenW or 0, screenH or 0)
-            end
-
-            -- After re-anchoring, calculate maximum height before hitting screen edge in the growth direction
-            local maxHeightScreen
-            if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
-                -- Growing downward: max height is distance from current top to bottom of screen
-                local frameTop = WoWPro.MainFrame:GetTop() or screenH
-                maxHeightScreen = frameTop
-            else
-                -- Growing upward: max height is distance from current bottom to top of screen
-                local frameBottom = WoWPro.MainFrame:GetBottom() or 0
-                maxHeightScreen = screenH - frameBottom
-            end
+                local maxHeightScreen
+                if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
+                    -- Growing downward: max height is distance from current top to bottom of screen
+                    local frameTop = WoWPro.MainFrame:GetTop() or screenH
+                    maxHeightScreen = frameTop
+                else
+                    -- Growing upward: max height is distance from current bottom to top of screen
+                    local frameBottom = WoWPro.MainFrame:GetBottom() or 0
+                    maxHeightScreen = screenH - frameBottom
+                end
 
             -- Clamp calculated height to not exceed screen edge
             if totalh > maxHeightScreen then
@@ -803,12 +857,10 @@ function WoWPro.RowSizeSet()
             WoWPro.PaddingSet()
             WoWPro.MainFrame:SetClampedToScreen(wasClampedToScreen)
 
-            -- For bottom-anchored frames, re-establish the anchor after resize to ensure bottom doesn't drift
-            if expansionAnchor == "BOTTOMLEFT" or expansionAnchor == "BOTTOMRIGHT" then
-                local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
-                if ptAnchor then
-                    WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
-                end
+            -- Re-establish the current anchor after resize to avoid drift
+            local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
+            if ptAnchor then
+                WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
             end
         end
     end
@@ -833,7 +885,7 @@ function WoWPro.RowSizeSet()
     if not _G.InCombatLockdown() then
         if guideWindowCropped then
             if not WoWPro.CroppedGuideWarning then
-                WoWPro:Print("|cffffff00WoWPro: Screen height limits guide visibility. Enable mouseover notes or reduce displayed rows.|r")
+                WoWPro:Print("|cffffff00WoWPro: Screen height limits guide visibility. Enable mouseover notes, reduce displayed rows, or move the window to give more space.|r")
                 WoWPro.CroppedGuideWarning = true
             end
         else
@@ -937,7 +989,13 @@ end
 function WoWPro.AnchorStore(where)
     -- Save the current anchor and frame position to the profile
     -- Handles persistence after resizing, moving, or anchor changes
-    local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
+    local currentAnchor = WoWPro.MainFrame:GetPoint()
+    local expansionAnchor = currentAnchor
+    if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" or expansionAnchor == "BOTTOMLEFT" or expansionAnchor == "BOTTOMRIGHT" then
+        WoWProDB.profile.expansionAnchor = expansionAnchor
+    else
+        expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
+    end
     local ui = _G.UIParent
     local screenW = ui and ui:GetWidth() or 0
     local screenH = ui and ui:GetHeight() or 0
@@ -1076,8 +1134,9 @@ function WoWPro.AnchorRestore(reset_size)
     end
     local scale = WoWPro.MainFrame:GetScale()
     local posClone = {unpack(pos)}
-    -- Always use the current expansionAnchor from the profile
-    local expansionAnchor = WoWProDB.profile.expansionAnchor or posClone[1] or "TOPLEFT"
+    -- Prefer the saved anchor from the stored position so restore matches the saved location.
+    -- Do not overwrite the user's saved expansion anchor preference during normal restore.
+    local expansionAnchor = posClone[1] or WoWProDB.profile.expansionAnchor or "TOPLEFT"
     posClone[1] = expansionAnchor
     local restoreMode = "px"
     if posClone[6] == "pct" then
@@ -1150,10 +1209,8 @@ function WoWPro.RowSet()
     WoWPro.RowColorSet()
     WoWPro.RowFontSet()
     WoWPro.RowSizeSet()
-    -- Only restore saved size when not using auto-resize
-    if not WoWProDB.profile.autoresize then
-        WoWPro.AnchorRestore(false)
-    end
+    -- Do not restore saved position during normal row/layout updates.
+    -- Saved position should only be restored on initial load or explicit reset.
     -- Keep bars on-screen after row/size updates
     WoWPro:ClampBarsOnScreen()
 end
@@ -1366,10 +1423,46 @@ end
 -- Helper: set expansion anchor to a specific corner
 function WoWPro:SetExpansionAnchor(corner)
     if _G.InCombatLockdown() then return end
+    local currentAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     -- Update side preference based on horizontal anchor
     WoWProDB.profile.leftside = (corner == "TOPLEFT" or corner == "BOTTOMLEFT")
     -- Persist the expansion anchor choice
     WoWProDB.profile.expansionAnchor = corner
+
+    if not WoWPro.MainFrame then
+        WoWPro:UpdateResizeHandle()
+        return
+    end
+
+    if corner == currentAnchor then
+        WoWPro:UpdateResizeHandle()
+        return
+    end
+
+    local ui = _G.UIParent
+    local screenW = ui and ui:GetWidth() or 0
+    local screenH = ui and ui:GetHeight() or 0
+    if screenW <= 0 or screenH <= 0 then
+        screenW, screenH = GetUIScreenSize()
+    end
+    local left = WoWPro.MainFrame:GetLeft() or 0
+    local right = WoWPro.MainFrame:GetRight() or screenW
+    local top = WoWPro.MainFrame:GetTop() or screenH
+    local bottom = WoWPro.MainFrame:GetBottom() or 0
+    local x, y
+    if corner == "TOPLEFT" then
+        x, y = left, top - screenH
+    elseif corner == "TOPRIGHT" then
+        x, y = right - screenW, top - screenH
+    elseif corner == "BOTTOMLEFT" then
+        x, y = left, bottom
+    elseif corner == "BOTTOMRIGHT" then
+        x, y = right - screenW, bottom
+    end
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
+    WoWPro.AnchorStore("SetExpansionAnchor")
+
     -- Update resize handle visibility based on new anchor
     WoWPro:UpdateResizeHandle()
 end
