@@ -18,7 +18,7 @@
 * MOP Leveling: Horde Jade Forest
 * Retail Leveling: DF Intro, Ohnahran Plains, Waking Shores
 * Retail Midnight: The Curse of Ula'tek, Eversong Woods, Harandar, Zul' Aman, Rise of the Red Dawn
-* TBC Leveling: Alliance 30-41, Horde Zangarmarsh, Horde Bareerens 14-22, Horde Chapter 3
+* TBC Leveling: Alliance 30-41, Horde Zangarmarsh, Horde Barrens 14-22, Horde Chapter 3
 * Vanilla Horde Leveling:  1-12 Durotar, Mulgore, Tirisfal Glades, Silverpine Forest, The Barrens, Horde Chapters 2+3
 
 
