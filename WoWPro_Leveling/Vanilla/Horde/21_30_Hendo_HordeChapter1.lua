@@ -298,7 +298,7 @@ F Orgrimmar|AVAILABLE|502|ACTIVE|1195|M|47.02,49.83|Z|1456; Thunder Bluff|
 R Durotar|AVAILABLE|502|ACTIVE|1195|M|45.55,12.06|Z|1411; Durotar|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|AVAILABLE|502|ACTIVE|1195|M|50.88,13.83|Z|1411; Durotar|N|Take the Zepplin to Tirisfal Glade.|
 R Undercity|AVAILABLE|502|ACTIVE|1195|M|66.22,1.74|Z|1458; Undercity|N|Enter Undercity.|
-F Tarren Mill|AVAILABLE|502|ACTIVE|1195|M|63.26,48.54|Z|1458; Undercity|N|Fly to Undercity.|
+F Tarren Mill|AVAILABLE|502|ACTIVE|1195|M|63.26,48.54|Z|1458; Undercity|N|Fly to Tarren Mill.|
 A Elixir of Pain|QID|502|PRE|501|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 A Elixir of Agony|QID|509|PRE|502|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 A Dangerous!|QID|567|M|62.55,19.69|Z|1424; Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
