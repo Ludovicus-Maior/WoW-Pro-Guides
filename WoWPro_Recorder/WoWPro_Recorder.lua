@@ -369,14 +369,6 @@ function WoWPro.Recorder.FindTarget(objectiveText)
 	return nil
 end
 
-function WoWPro.Recorder.CleanObjectiveNote(objectiveText)
-    local text = tostring(objectiveText or "")
-    text = text:gsub("%.$", "")
-    text = text:gsub("%s*%(%d+%%%s*%)%s*$", "")
-    text = text:gsub("^%s+", ""):gsub("%s+$", "")
-    return text
-end
-
 function WoWPro.Recorder.RunStep()
     local GID = WoWProDB.char.currentguide
     if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
