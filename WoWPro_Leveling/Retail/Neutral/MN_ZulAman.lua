@@ -11,11 +11,11 @@ return [[
 A The Gates of Zul'Aman|QID|86708|M|45.49,70.60|Z|2393; Silvermoon City|N|From Scouting Map|
 F Tranquillien|ACTIVE|86708|M|51.02,71.16|Z|2393; Silvermoon City|N|Head to the flightmaster and take a flight to Tranquillien.|
 T The Gates of Zul'Aman|QID|86708|M|60.13,81.43|Z|2395; Eversong Woods|N|To Lady Liadrin.|
-A The Line Must be Drawn Here|QID|86710|PRE|86708|M|60.13,81.43|Z|2395; Eversong Woods|N|From Lady Liadrin.|
-C The Line Must be Drawn Here|QID|86710|M|60.27,81.43|Z|2395; Eversong Woods|QO|1|CHAT|N|Speak to Zul'jan.|
-C The Line Must be Drawn Here|QID|86710|M|60.18,81.39|Z|2395; Eversong Woods|QO|2|NC|N|Calm the situation.|
+A The Line Must Be Drawn Here|QID|86710|PRE|86708|M|60.13,81.43|Z|2395; Eversong Woods|N|From Lady Liadrin.|
+C The Line Must Be Drawn Here|QID|86710|M|60.27,81.43|Z|2395; Eversong Woods|QO|1|CHAT|N|Speak to Zul'jan.|
+C The Line Must Be Drawn Here|QID|86710|M|60.18,81.39|Z|2395; Eversong Woods|QO|2|NC|N|Calm the situation.|
 K Void Beast|ACTIVE|86710|QO|3|M|60.34,81.44|Z|2395; Eversong Woods||N|Kill Void Beast.|T|Void Beast|
-T The Line Must be Drawn Here|QID|86710|M|60.15,81.50|Z|2395; Eversong Woods|N|To Lady Liadrin.|
+T The Line Must Be Drawn Here|QID|86710|M|60.15,81.50|Z|2395; Eversong Woods|N|To Lady Liadrin.|
 A Our Mutual Enemy|QID|90749|PRE|86710|M|60.15,81.50|Z|2395; Eversong Woods|N|From Lady Liadrin.|
 C Our Mutual Enemy|QID|90749|M|5.41,47.16|Z|2536; Atal'Aman|QO|1|NC|N|Pass through the Amani Gate with Lady Liadrin.|
 T Our Mutual Enemy|QID|90749|M|5.41,47.16|Z|2536; Atal'Aman|N|To Lady Liadrin.|
