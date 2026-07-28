@@ -1192,7 +1192,7 @@ local function createHelpConfig()
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "1) Open Guide List and choose a guide that matches your level, campaign, or expansion path.",
+                        name = "1) WoWPro has 2 options to display guides. You can either choose the 'Horn' icon on the button bar to open the 'Old Style' Guide List and select a guide that matches your level, campaign, or expansion path or you can right click the 'Options' icon on the button bar to open the 'New Style' Guide List and select a guide that matches your level, campaign, or expansion path.",
                     },
                     wowpro2 = {
                         order = 4,
