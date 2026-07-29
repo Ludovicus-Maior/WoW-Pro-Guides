@@ -1330,23 +1330,48 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     width = "full",
                     values = function()
                         local infoTable = {}
+                        local sortedGuides = {}
+                        WoWPro.Recorder.OpenGuideMap = {}
                         for GID, guideInfo in pairs(WoWPro.Guides) do
+                            local guideName = WoWPro:GetGuideName(GID)
+                            local author = tostring(guideInfo.author or "Unknown")
+                            local label
                             if WoWPro.Recorder.Advanced then
-                                infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..tostring(guideInfo.author)
+                                label = string.format("%s (%s) by %s", guideName, GID, author)
                                 if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
-                                    infoTable[GID] = "!" .. infoTable[GID]
+                                    label = "!" .. label
                                 end
                             else
-                                infoTable[GID] = GID
+                                label = string.format("%s (%s)", guideName, GID)
                             end
+                            sortedGuides[#sortedGuides + 1] = {
+                                gid = GID,
+                                label = label,
+                                sortName = tostring(guideName):lower(),
+                            }
+                        end
+                        table.sort(sortedGuides, function(a, b)
+                            if a.sortName == b.sortName then
+                                return tostring(a.gid):lower() < tostring(b.gid):lower()
+                            end
+                            return a.sortName < b.sortName
+                        end)
+                        for idx, entry in ipairs(sortedGuides) do
+                            infoTable[idx] = entry.label
+                            WoWPro.Recorder.OpenGuideMap[idx] = entry.gid
                         end
                         return infoTable
                     end,
                     get = function(info)
                             return nil end,
                     set = function(info,val)
-                            WoWPro:Print("Recorder loading guide %s",val)
-                            WoWPro:LoadGuide(val)
+                            local GID = WoWPro.Recorder.OpenGuideMap and WoWPro.Recorder.OpenGuideMap[val]
+                            if not GID then
+                                WoWPro:Error("Recorder could not resolve selected guide.")
+                                return
+                            end
+                            WoWPro:Print("Recorder loading guide %s",GID)
+                            WoWPro:LoadGuide(GID)
                             dialog:Close("WoWPro Recorder - Open")
                         end,
                 },
