@@ -446,7 +446,7 @@ C Root Dash Delivery|QID|91589|M|36.58,26.82|Z|2413; Harandar|QO|3|H|N|Serve the
 T Root Dash Delivery|QID|91589|M|36.67,26.79|Z|2413; Harandar|N|To Yu'relen.|
 
 ;Cultivating Hope
-T Har'mara, Village of Balance|QID|93775|M|50.75,55.73|Z|2413; Harandar|N|To Hagar.|
+T Har'mara, Village of Balance|QID|93775|M|34.91,25.02|Z|2413; Harandar|N|To Hagar.|
 A The Former Rootwarden|QID|91872|PRE|86898&86890&86956|M|34.91,25.02|Z|2413; Harandar|N|From Hagar.|RANK|2|
 T The Former Rootwarden|QID|91872|M|42.54,34.07|Z|2413; Harandar|N|To Hagar.|
 A Buffer Zone|QID|91873|PRE|91872|M|42.54,34.07|Z|2413; Harandar|N|From Hagar.|
