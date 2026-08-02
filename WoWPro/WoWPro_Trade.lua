@@ -342,7 +342,7 @@ if not WoWPro.RETAIL then
     end
 
     -- get tradeskill information from skill lines
-    function WoWPro.UpdateTradeSkills()
+    function WoWPro.RefreshCurrentTradeSkills()
         local scanned = 0
         local tradeskills = {}
 
@@ -362,19 +362,19 @@ if not WoWPro.RETAIL then
         end
 
         WoWPro.UpdateTradeSkillsTable(tradeskills)
-        WoWPro:dbp("UpdateTradeSkills() for Classic scanned %d tradeskills", scanned)
+        WoWPro:dbp("RefreshCurrentTradeSkills() for Classic scanned %d tradeskills", scanned)
     end
 elseif WoWPro.RETAIL then
-    function WoWPro.UpdateTradeSkills()
+    function WoWPro.RefreshCurrentTradeSkills()
         local scanned = 0
         local tradeskills = {}
 
         -- first scan all profession tradeskill lines that are learned
         local tradeSkills = _G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()
         for _, skillLineID in pairs(tradeSkills) do
-            -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
+            -- WoWPro:dbp("RefreshCurrentTradeSkills() scanning %d", skillLineID)
             local professionInfo = _G.C_TradeSkillUI.GetProfessionInfoBySkillLineID(skillLineID)
-            -- WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, professionInfo.professionName)
+            -- WoWPro:dbp("RefreshCurrentTradeSkills() scanned %d/%s", skillLineID, professionInfo.professionName)
             if professionInfo and professionInfo.skillLevel > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
@@ -382,16 +382,16 @@ elseif WoWPro.RETAIL then
                     skillMax = professionInfo.maxSkillLevel,
                     skillMod = professionInfo.skillModifier
                 }
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, professionInfo.professionName, professionInfo.skillLevel, professionInfo.maxSkillLevel)
+                WoWPro:dbp("RefreshCurrentTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, professionInfo.professionName, professionInfo.skillLevel, professionInfo.maxSkillLevel)
                 scanned = scanned + 1
             end
         end
 
         -- scan with GetProfessions()
         for _, profID in pairs({_G.GetProfessions()}) do
-            -- WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
+            -- WoWPro:dbp("RefreshCurrentTradeSkills() scan profession %d", profID)
             local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier = _G.GetProfessionInfo(profID)
-            -- WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
+            -- WoWPro:dbp("RefreshCurrentTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
             -- skillLineID is always the parent ID, so once you learn an expansion, ...
             if WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
@@ -400,16 +400,21 @@ elseif WoWPro.RETAIL then
                     skillMax = skillLineMaxRank,
                     skillMod = skillLineModifier
                 }
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, name)
+                WoWPro:dbp("RefreshCurrentTradeSkills() added %d/%s", skillLineID, name)
                 scanned = scanned + 1
             end
         end
 
         WoWPro.UpdateTradeSkillsTable(tradeskills)
-        WoWPro:dbp("UpdateTradeSkills() scanned %d tradeskills", scanned)
+        WoWPro:dbp("RefreshCurrentTradeSkills() scanned %d tradeskills", scanned)
     end
 else
-    WoWPro:Error("UpdateTradeSkills(): Release Confusion!")
+    WoWPro:Error("RefreshCurrentTradeSkills(): Release Confusion!")
+end
+
+-- Compatibility alias for existing callers.
+function WoWPro.UpdateTradeSkills(...)
+    return WoWPro.RefreshCurrentTradeSkills(...)
 end
 
 
