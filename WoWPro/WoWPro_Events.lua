@@ -791,11 +791,14 @@ local tradeSkillRefreshPending = false
 
 local function QueueTradeSkillRefresh()
     if tradeSkillRefreshPending then
+        WoWPro:dbp("QueueTradeSkillRefresh() skipped: already pending")
         return
     end
     tradeSkillRefreshPending = true
+    WoWPro:dbp("QueueTradeSkillRefresh() scheduled")
     _G.C_Timer.After(0.2, function()
         tradeSkillRefreshPending = false
+        WoWPro:dbp("QueueTradeSkillRefresh() running RefreshCurrentTradeSkills()")
         WoWPro.RefreshCurrentTradeSkills()
     end)
 end
