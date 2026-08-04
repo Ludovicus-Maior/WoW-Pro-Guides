@@ -250,6 +250,7 @@ end
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
+    local guideStateChanged = false
     for i = 1, 1 + WoWPro:GetActiveStickyCount() do
         local index = WoWPro.rows[i].index
         local lootItems = WoWPro.lootitem[index]
@@ -271,12 +272,15 @@ function WoWPro.AutoCompleteLoot()
             if allComplete and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                 WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
                 WoWPro.CompleteStep(index, "AutoCompleteLoot", nil, "AutoCompleteLoot")
+                guideStateChanged = true
             else
                 WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
             end
         end
     end
-    WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
+    if guideStateChanged then
+        WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
+    end
 end
 
 local LUNARFALL_MAPID
