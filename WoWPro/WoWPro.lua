@@ -9,6 +9,13 @@
 --------------------------
 
 WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
+
+WoWPro.DefaultInset = 4 -- Default inset for mainframe and it's children
+function WoWPro:GetInset() -- Temporary until UI subsystem is fully implemented
+    local pad = WoWProDB.profile.pad or 0
+    return WoWPro.DefaultInset + pad
+end
+
 WoWPro.GetAddOnMetadata = _G.GetAddOnMetadata or _G.C_AddOns.GetAddOnMetadata
 WoWPro.Version = WoWPro.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0

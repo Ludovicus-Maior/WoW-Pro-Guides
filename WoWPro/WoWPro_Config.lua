@@ -227,8 +227,10 @@ local function createDisplayConfig()
                                 desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
                                 min = 0, max = 20, step = 1,
                                 get = function(info) return WoWProDB.profile.pad end,
-                                set = function(info,val) WoWProDB.profile.pad = val
-                                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                set = function(info,val)
+                                        WoWProDB.profile.pad = val
+                                        WoWPro.RowSizeSet()
+                                    end,
                                 width = "full"
                             },
                             spacing = {
