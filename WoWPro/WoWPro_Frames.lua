@@ -258,19 +258,12 @@ function WoWPro:TitlebarShow()
         WoWPro.ButtonBar:Hide()
     end
 
-    -- Keep options (gear) button visible when button bar is hidden
+    -- Keep the options button anchored to the main frame
     if WoWPro.OptionsButton then
         WoWPro.OptionsButton:ClearAllPoints()
-        if WoWProDB.profile.buttonbar then
-            WoWPro.OptionsButton:SetParent(WoWPro.ButtonBar)
-            WoWPro.OptionsButton:SetPoint("CENTER", WoWPro.ButtonBar, "RIGHT", -14, -1)
-            WoWPro.OptionsButton:Show()
-        else
-            local anchor = (WoWPro.Titlebar and WoWPro.Titlebar:IsShown()) and WoWPro.Titlebar or WoWPro.MainFrame
-            WoWPro.OptionsButton:SetParent(anchor)
-            WoWPro.OptionsButton:SetPoint("TOPRIGHT", anchor, "TOPRIGHT", -6, -6)
-            WoWPro.OptionsButton:Show()
-        end
+        WoWPro.OptionsButton:SetParent(WoWPro.MainFrame)
+        WoWPro.OptionsButton:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -6, -6)
+        WoWPro.OptionsButton:Show()
     end
 
     local isButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
@@ -1566,10 +1559,11 @@ end
 -- Button Bar --
 function WoWPro:CreateButtonBar()
     local buttonbar = _G.CreateFrame("Frame", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    buttonbar:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel() + 1)
     buttonbar:SetHeight(25)
     buttonbar:SetWidth(200)
-    buttonbar:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, -3)
-    buttonbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, -3)
+    buttonbar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", 4, -4)
+    buttonbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -4, -4)
     buttonbar:SetBackdrop( {
         bgFile = WoWProDB.profile.bgtexture,
         edgeFile = WoWProDB.profile.bordertexture,
@@ -1783,9 +1777,9 @@ function WoWPro:CreateButtonBar()
     end)
 
     -- Options Button --
-    local optionsbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local optionsbutton = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     optionsbutton:SetSize(20, 16)
-    optionsbutton:SetPoint("CENTER", WoWPro.ButtonBar, "RIGHT", -14, -1)
+    optionsbutton:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -6, -6)
     optionsbutton:RegisterForClicks("AnyUp")
     WoWPro.OptionsButton = optionsbutton
 
@@ -1921,8 +1915,8 @@ end
 -- Scrollbar --
 function WoWPro:CreateGuideWindowScrollbar()
     WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame, nil, 1)
-    WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 20, -20)
-    WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
+    WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -2, -2)
+    WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.GuideFrame, "BOTTOMRIGHT", -2, 2)
 
     WoWPro.Scrollbar:SetValueStep(1)
     local onValueChanged = WoWPro.Scrollbar:GetScript("OnValueChanged")
