@@ -331,6 +331,7 @@ local defaults = { profile = {
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     bgcolor = {0, 0, 0, 0.8},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
+    borderthickness = 0,
     border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     stickycolor = {0.8, 0.8, 0.8, 0.7},

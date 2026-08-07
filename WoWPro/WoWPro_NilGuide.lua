@@ -33,5 +33,5 @@ function WoWPro:LoadNilGuide()
 
     WoWPro.RowColorSet()
     WoWPro.RowSizeSet()
-    WoWPro.PaddingSet()
+    WoWPro.MainFrameLayout()
 end

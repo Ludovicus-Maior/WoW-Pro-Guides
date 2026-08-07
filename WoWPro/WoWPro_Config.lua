@@ -228,7 +228,7 @@ local function createDisplayConfig()
                                 min = 0, max = 20, step = 1,
                                 get = function(info) return WoWProDB.profile.pad end,
                                 set = function(info,val) WoWProDB.profile.pad = val
-                                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                    WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "full"
                             },
                             spacing = {
@@ -346,7 +346,7 @@ local function createDisplayConfig()
                                 desc = L["Enables/disables the title bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.titlebar end,
                                 set = function(info,val) WoWProDB.profile.titlebar = val
-                                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                    WoWPro.TitlebarSet(); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
                             },
                             titlecolor = {
@@ -434,11 +434,37 @@ local function createDisplayConfig()
                                 name = L["Enable Border"],
                                 desc = L["Enables/disables the border around the guide window."],
                                 get = function(info) return WoWProDB.profile.border end,
-                                set = function(info,val) WoWProDB.profile.border = val
-                                    WoWPro.BackgroundSet() end
+                                set = function(info,val)
+                                    WoWProDB.profile.border = val
+                                    if not val then
+                                        WoWProDB.profile.borderthickness = 0
+                                    end
+                                    WoWPro.BackgroundSet()
+                                    WoWPro.MainFrameLayout()
+                                    WoWPro.RowSizeSet()
+                                end
+                            },
+                            borderthickness = {
+                                order = 5,
+                                type = "range",
+                                name = "Border Thickness Override",
+                                desc = "Locked: border thickness is fixed at 4px for all textures.",
+                                min = 0, max = 0, step = 1,
+                                disabled = function() return true end,
+                                get = function(info)
+                                    WoWProDB.profile.borderthickness = 0
+                                    return 0
+                                end,
+                                set = function(info,val)
+                                    WoWProDB.profile.borderthickness = 0
+                                    WoWPro.BackgroundSet()
+                                    WoWPro.MainFrameLayout()
+                                    WoWPro.RowSizeSet()
+                                end,
+                                width = "double"
                             },
                             stickytexture = {
-                                order = 5,
+                                order = 6,
                                 type = "select",
                                 name = L["Sticky Background"],
                                 desc = L["Texture used for sticky step background."],
@@ -456,7 +482,7 @@ local function createDisplayConfig()
                                 width = "double"
                             },
                             stickycolor = {
-                                order = 6,
+                                order = 7,
                                 type = "color",
                                 name = L["Sticky Step Color"],
                                 desc = L["Background color for the sticky step frames."],
