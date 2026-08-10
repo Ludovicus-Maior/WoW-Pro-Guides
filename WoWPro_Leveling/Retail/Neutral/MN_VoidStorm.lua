@@ -693,8 +693,8 @@ A Voidscar Arena: For My Horde|QID|94844|PRE|94845|M|23.39,54.39|Z|Slayer's Rise
 C Voidscar Arena: For My Horde|QID|94844|M|37,67|Z|Slayer's Rise|H|S|U|266183|N|Use provided[color=33fff9] Enigmatic Voidclarion [/color] to Empower Hatebound forces.|
 C Voidscar Arena: The Bastion of Might|QID|94845|M|37,67|Z|Slayer's Rise|N|Kill and loot hostile NPCs in the area for the Spiteful Shadowgraft.|
 C Voidscar Arena: For My Horde|QID|94844|M|37,67|Z|Slayer's Rise|H|S|U|266183|N|Use provided[color=33fff9] Enigmatic Voidclarion [/color] to Empower Hatebound forces.|
-T Voidscar Arena: The Bastion of Might|QID|94845|M|23.39,54.39|Z|Slayer's Rise|N|To Ziadan.|
-T Voidscar Arena: For My Horde|QID|94844||M|23.39,54.39|Z|Slayer's Rise|N|To Ziadan.|
+T Voidscar Arena: The Bastion of Might|QID|94845|M|50.56,59.11|Z|Slayer's Rise|N|To Ziadan.|
+T Voidscar Arena: For My Horde|QID|94844||M|50.56,59.11|Z|Slayer's Rise|N|To Ziadan.|
 A Voidscar Arena: Pre-Provoked Violence|QID|94848|PRE|94844&91845|M|50.60,59.01|Z|Slayer's Rise|N|From Ziadan.|RANK|2|FACTION|HORDE|
 A Voidscar Arena: A Familiar Grudge|QID|94849|PRE|94848|M|50.58,58.97|Z|Slayer's Rise|N|From Ziadan.|RANK|2|FACTION|HORDE|
 C Voidscar Arena: Pre-Provoked Violence|QID|94848|M|35,67|Z|Slayer's Rise|S|N|Kill Players or Griefbound Forces.|
@@ -712,13 +712,14 @@ C Voidscar Arena: Two Against One|QID|91603|QO|1|M|50.55,12.56|Z|2444; Slayer's 
 C Voidscar Arena: The Wrong Side|QID|91605|M|55.43,20.80|Z|2444; Slayer's Rise|US|N|Click the glowy things, kill the hostile mobs.|
 T Voidscar Arena: Two Against One|QID|91603|M|53.49,11.40|Z|2444; Slayer's Rise|N|To Ziadan.|
 T Voidscar Arena: The Wrong Side|QID|91605|M|53.69,11.31|Z|2444; Slayer's Rise|N|To Vidious.|
-T Voidscar Arena: Setting it Aside|QID|94855|M|50.58,58.99|Z|Slayer's Rise|N|To Ziadan.|
+T Voidscar Arena: Setting it Aside|QID|94855|M|53.52,21.51|Z|Slayer's Rise|N|To Ziadan.|
 ;this should work, but it isnt... so putting in 2 faction specific steps --A Voidscar Arena: Clearing House|QID|91606|CCOUNT|2;91603;91605;94855|M|53.69,11.31|Z|2444; Slayer's Rise|N|From Vidious.|RANK|2|
 A Voidscar Arena: Clearing House|QID|91606|PRE|91603&91605|M|53.69,11.31|Z|2444; Slayer's Rise|N|From Vidious.|RANK|2|FACTION|ALLIANCE|
-A Voidscar Arena: Clearing House|QID|91606|PRE|91603&94855|M|53.69,11.31|Z|2444; Slayer's Rise|N|From Vidious.|RANK|2|FACTION|HORDE|
+A Voidscar Arena: Clearing House|QID|91606|PRE|91603&94855|M|53.69,11.31|Z|2444; Slayer's Rise|N|From Ziadan.|RANK|2|FACTION|HORDE|
 K  Trelus the Grafter|ACTIVE|91606|QO|1|M|53.59,6.81|Z|2444; Slayer's Rise|N|Slay Trelus the Grafter.|T|Trelus the Grafter|
 C Voidscar Arena: Clearing House|QID|91606|QO|2|M|53.79,11.17|Z|2444; Slayer's Rise|H|N|Tell the Domanaar you are ready.|
-T Voidscar Arena: Clearing House|QID|91606|M|53.74,11.23|Z|2444; Slayer's Rise|N|To Vidious.|
+T Voidscar Arena: Clearing House|QID|91606|M|53.74,11.23|Z|2444; Slayer's Rise|N|To Vidious.|FACTION|ALLIANCE|
+T Voidscar Arena: Clearing House|QID|91606|M|53.74,11.23|Z|2444; Slayer's Rise|N|To Ziadan.|FACTION|HORDE|
 A Voidscar Arena: Breaking the Triad|QID|91694|PRE|91606|M|53.65,11.06|Z|2444; Slayer's Rise|N|From Charonus. As you just observed, the dungeon isn't required for the Sojourner Achievement.|RANK|2|
 t Voidscar Arena: Breaking the Triad|QID|91694|M|40.89,83.99|Z|2444; Slayer's Rise|N|To Vidious.|FACTION|ALLIANCE|IZ|Slayer's Rise|
 t Voidscar Arena: Breaking the Triad|QID|91694|M|34.81,80.40|Z|2444; Slayer's Rise|N|To Ziadan.|FACTION|HORDE|IZ|Slayer's Rise|
