@@ -1,8 +1,9 @@
--- luacheck: globals ipairs unpack ceil max floor math C_Timer tostring string CreateFrame UIParent InCombatLockdown
+-- luacheck: globals ipairs unpack ceil max floor math C_Timer tostring string CreateFrame UIParent InCombatLockdown BackdropTemplateMixin GameTooltip debugstack
 
 WoWPro.DebugAnchorSave = false -- Enables detailed AnchorSave debug logging
 WoWPro.DebugAnchor = false -- Enables debug logging for window anchor/position changes
 
+-- luacheck: ignore AnchorDebug
 local function AnchorDebug(msg, ...)
     -- AnchorDebug: Centralized function for anchor-related debug logging.
     -- Only logs messages if anchor debugging is enabled and debug level is set.
@@ -77,10 +78,10 @@ function WoWPro:MouseSet()
             WoWPro.MainFrame:StartMoving()
         elseif button == "RightButton" then
             WoWPro:CloseDiscordDialog()
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, self, "cursor", 0, 0, "MENU")
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, _self, "cursor", 0, 0, "MENU")
         end
     end)
-    OB:SetScript("OnMouseUp", function(self, button)
+    OB:SetScript("OnMouseUp", function(_self, button)
         if button == "LeftButton" then
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
@@ -92,7 +93,7 @@ function WoWPro:MouseSet()
     local BB = WoWPro.ButtonBar
     BB:SetScript("OnMouseDown", function(self, button)
         if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, self, "cursor", 0, 0, "MENU")
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, _self, "cursor", 0, 0, "MENU")
         end
     end)
 
@@ -696,11 +697,10 @@ function WoWPro:AnchorSave(where)
     if not frame then return end
 
     -- Read current anchor (WoW may return 3 or 5 values)
-    local point, relativeTo, relativePoint, offsetX, offsetY = frame:GetPoint()
+    local point, relativePoint, offsetX, offsetY = frame:GetPoint()
 
     offsetX = offsetX or 0
     offsetY = offsetY or 0
-    relativeTo = relativeTo or UIParent
 
     -- Normalize offsets by scale
     local scale = frame:GetScale() or 1
@@ -967,7 +967,7 @@ function WoWPro:GetOppositeAnchor(anchor)
 end
 
 -- Whenever the ExpansionAnchor changes, calculate the new anchor point based on the old anchor point relative to the new one so the window doesn't move.
-function ConvertAnchor(oldCorner, newCorner, frame)
+function WoWPro:ConvertAnchor(oldCorner, newCorner, frame)
     local left   = frame:GetLeft()
     local right  = frame:GetRight()
     local top    = frame:GetTop()
@@ -1314,20 +1314,20 @@ function WoWPro:CreateRows()
         row:EnableMouse(true)
         row:RegisterForClicks("AnyUp")
         -- Right-click context menu (row-specific behavior)
-        row:SetScript("OnClick", function(self, button)
+        row:SetScript("OnClick", function(_, button)
             if button == "RightButton" then
-                WoWPro:RowContextMenu(self, i)
+                WoWPro:RowContextMenu(_self, i)
             end
         end)
         -- Mouseover behavior (highlight + optional note display)
-        row:SetScript("OnEnter", function(self)
-            self:LockHighlight()
+        row:SetScript("OnEnter", function(rowFrame)
+            rowFrame:LockHighlight()
             if WoWProDB.profile.showmousenotes then
                 WoWPro.mousenotes[i]:Show()
             end
         end)
-        row:SetScript("OnLeave", function(self)
-            self:UnlockHighlight()
+        row:SetScript("OnLeave", function(rowFrame)
+            rowFrame:UnlockHighlight()
             WoWPro.mousenotes[i]:Hide()
         end)
 

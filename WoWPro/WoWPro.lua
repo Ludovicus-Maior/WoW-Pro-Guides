@@ -3,7 +3,7 @@
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
-
+-- luacheck: globals C_Timer
 --------------------------
 --      WoWPro.lua      --
 --------------------------

@@ -2,7 +2,7 @@
 -- luacheck: globals select ipairs pairs next tremove tinsert table
 -- luacheck: globals tostring tonumber type abs max min floor ceil date math
 -- luacheck: globals debugstack strupper strsub strlower string
-
+-- luacheck: globals C_Timer
 -----------------------------
 --      WoWPro_Broker      --
 -----------------------------
