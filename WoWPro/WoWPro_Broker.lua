@@ -528,7 +528,6 @@ WoWPro.ObjectiveOperators['H='] = WoWPro.ObjectiveOperators.HeartEqual
 WoWPro.ObjectiveOperators['H>'] = WoWPro.ObjectiveOperators.HeartGreater
 WoWPro.ObjectiveOperators['H'] = WoWPro.ObjectiveOperators.HearStop
 
-
 function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = questtext:match(OBJECTIVE_PATTERN)
     WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, tostring(objective), tostring(operator), tostring(target))
@@ -1245,19 +1244,19 @@ function WoWPro:RowUpdate(offset)
     local k = offset or WoWPro.NextStep(1)
     local itemkb = false
     local targetkb = false
-	local eakb = false
-	local jumpkb = false
+    local eakb = false
+    local jumpkb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-	if not _G.InCombatLockdown() then
-		_G.ClearOverrideBindings(WoWPro.MainFrame)
-	end
+    if not _G.InCombatLockdown() then
+        _G.ClearOverrideBindings(WoWPro.MainFrame)
+    end
     WoWPro.RowDropdownMenu = {}
 
     local step_limit = WoWProDB.profile.numsteps + 5
-	local sendsteps = "steps "
+    local sendsteps = "steps "
 
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
-    -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
+    -- StickyHeader reparenting is avoided because CheckButton rows are protected in combat.
     -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
     local allSteps = {}
     local tempK = k
@@ -1421,7 +1420,7 @@ function WoWPro:RowUpdate(offset)
         local currentRow = WoWPro.rows[i]
         currentRow.index = k
         currentRow.num = i
-		sendsteps = sendsteps .. k .. " "
+        sendsteps = sendsteps .. k .. " "
         -- Run Module specific PreRowUpdate()
         if WoWPro[module:GetName()].PreRowUpdate then
             WoWPro[module:GetName()]:PreRowUpdate(currentRow)
@@ -1439,26 +1438,26 @@ function WoWPro:RowUpdate(offset)
         local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
-		if coord then
-			if (coord == "PLAYER") then
-				local x, y, m  = WoWPro:GetPlayerZonePosition()
-				if (x and y) then
-					coord = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+        if coord then
+            if (coord == "PLAYER") then
+                local x, y, m  = WoWPro:GetPlayerZonePosition()
+                if (x and y) then
+                    coord = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
                     zone = ("%d;player"):format(m)
-				else
-					coord = nil
-				end
-			else
-				WoWPro:ValidateMapCoords(GID,action,step,coord)
-			end
-		end
+                else
+                    coord = nil
+                end
+            else
+                WoWPro:ValidateMapCoords(GID,action,step,coord)
+            end
+        end
         -- Counting stickies that are currently active (at the top) --
         if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
             WoWPro:IncrementActiveStickyCount()
         end
 
         if i > step_limit and WoWPro:GetActiveStickyCount() == 0 and WoWPro.GroupSync then
-			_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+            _G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
             return false
         end
 
@@ -1514,187 +1513,184 @@ function WoWPro:RowUpdate(offset)
             WoWPro:CheckFunction(currentRow, button, down)
         end)
 
--- Right-Click Drop-Down --
-local dropdown = {}
-if step then
-    tinsert(dropdown,
-        {text = step.." Options", isTitle = true}
-    )
-    if WoWPro.RETAIL then
-        -- TODO: Is this needed at all?
-        _G.QuestMapUpdateAllQuests()
-        _G.QuestPOIUpdateIcons()
-    end
-    if coord then
-        tinsert(dropdown,
-            {text = "Map Coordinates", func = function()
-                WoWPro.UserClicked = true
-                WoWPro:RemoveMapPoint()
-                WoWPro:MapPoint(currentRow.num)
-                WoWPro.UserClicked = nil
-            end}
+        -- Right-Click Drop-Down --
+        local dropdown = {}
+        if step then
+            tinsert(dropdown,
+                {text = step.." Options", isTitle = true}
+            )
+            if WoWPro.RETAIL then
+                -- TODO: Is this needed at all?
+                _G.QuestMapUpdateAllQuests()
+                _G.QuestPOIUpdateIcons()
+            end
+            if coord then
+                tinsert(dropdown,
+                    {text = "Map Coordinates", func = function()
+                        WoWPro.UserClicked = true
+                        WoWPro:RemoveMapPoint()
+                        WoWPro:MapPoint(currentRow.num)
+                        WoWPro.UserClicked = nil
+                    end}
+                )
+            end
+            if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
+                tinsert(dropdown,
+                    {text = "Share Quest", func = function()
+                        _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
+                    end}
+                )
+            end
+            if sticky then
+                tinsert(dropdown,
+                    {text = "Un-Sticky", func = function()
+                        WoWPro.sticky[currentRow.index] = false
+                        WoWPro:UpdateGuide("ClickedUnSticky")
+                    end}
+                )
+            else
+                tinsert(dropdown,
+                    {text = "Make Sticky", func = function()
+                        WoWPro.sticky[currentRow.index] = true
+                        WoWPro.unsticky[currentRow.index] = false
+                        WoWPro:UpdateGuide("ClickedMakeSticky")
+                    end}
+                )
+            end
+            if QID then
+                local questId = string.match(QID, "([^%^]*)")
+
+                tinsert(dropdown,
+                    {text = "Wowhead Link", func = function()
+                        local link = "https://www.wowhead.com/quest=" .. questId
+
+                        local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent)
+                        newEditBox:SetSize(300, 100)
+                        newEditBox:SetPoint("CENTER")
+                        newEditBox:SetFrameStrata("DIALOG")
+
+                        local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
+                        texture:SetAllPoints(true)
+                        texture:SetColorTexture(0.1, 0.1, 0.1, 0.8)
+
+                        local titleBar = newEditBox:CreateTexture(nil, "OVERLAY")
+                        titleBar:SetHeight(24)
+                        titleBar:SetPoint("TOPLEFT", 10, -10)
+                        titleBar:SetPoint("TOPRIGHT", -10, -10)
+                        titleBar:SetColorTexture(0, 0, 0, 0)
+
+                        local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+                        title:SetPoint("TOP", titleBar, "TOP", 0, -6)
+                        title:SetText("Wowhead Link")
+
+                        local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
+                        editBox:SetAutoFocus(true)
+                        editBox:SetWidth(260)
+                        editBox:SetHeight(32)
+                        editBox:SetPoint("TOP", titleBar, "BOTTOM", 0, -10)
+                        editBox:SetText(link)
+                        editBox:HighlightText()
+
+                        local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
+                        closeButton:SetPoint("TOPRIGHT")
+                        closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
+
+                        editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+                    end}
+                )
+            end
+
+            WoWPro.RowDropdownMenu[i] = dropdown
+            tinsert(dropdown,
+                {text = "Report an Issue", func = function()
+                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue", "Hit escape to dismiss")
+                    local LogBox = WoWPro.LogBox
+            local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+            local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+
+            -- Add step info without GID
+            local Sindex = WoWPro.rows[currentRow.num].index
+            if WoWPro.rows[currentRow.num]:IsVisible() then
+                text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
+            end
+
+            text = text .. "\n|cffffff00Guide Info:|r\n"
+            text = text .. GID .. "\n"
+            text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+
+            -- Retrieve additional player information
+            local _, class = _G.UnitClass("player")
+            local _, race = _G.UnitRace("player")
+            class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
+            local level = _G.UnitLevel("player")
+            local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
+            local locale = _G.GetLocale()
+            local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
+
+            -- Retrieve the player's realm name
+            local realmName = _G.GetRealmName()
+
+            -- Retrieve the player's character name
+            local playerName = _G.UnitName("player")
+
+            text = text .. "\n|cffffff00Player Info:|r\n"
+            text = text .. "Character Name: " .. playerName .. "\n"
+            text = text .. "Class: " .. class .. "\n"
+            text = text .. "Race: " .. race .. "\n"
+            text = text .. "Level: " .. level .. "\n"
+            text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
+            text = text .. "Addon Version: " .. version .. "\n"
+            text = text .. "Game Version: " .. gameVersion .. "\n"  -- Add the game version
+            text = text .. "Locale: " .. locale .. "\n"
+            if (not X) or (not Y) then
+                text = text .. "Location: Unknown\n"
+            else
+                text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+                text = text .. "Map ID: " .. tostring(mapId) .. "\n"  -- Map ID on a separate line
+            end
+            text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
+            text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
+
+            -- Add instructions for copying the text
+            if _G.IsMacClient() then
+                text = text .. "\n\nTo copy this information, press âŒ˜+A to select all text, then press âŒ˜+C to copy it. You can then paste this into a Discord ticket by pressing âŒ˜+V.\n"
+            else
+                text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
+            end
+
+            -- Set the text of the LogBox and show it
+            LogBox.Box:SetText(text)
+
+            -- Create a hidden frame to measure the text width
+            local hiddenFrame = _G.CreateFrame("Frame")
+            hiddenFrame:Hide()
+
+            local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+            fontString:SetText(text)
+
+            -- Get the width of the text
+            local textWidth = fontString:GetStringWidth()
+
+            -- Set the width of the LogBox and the text box
+            LogBox:SetWidth(textWidth + 20)  -- Add some padding
+            LogBox.Box:SetWidth(textWidth + 20)  -- Add some padding
+
+            LogBox.Box:Show()
+
+            -- Hide the EditBox if it exists
+            if WoWPro.EditBox then
+                WoWPro.EditBox:Hide()
+            end
+
+            LogBox:Show()
+        end}
         )
-    end
-    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
-        tinsert(dropdown,
-            {text = "Share Quest", func = function()
-                _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
-            end}
-        )
-    end
-    if sticky then
-        tinsert(dropdown,
-            {text = "Un-Sticky", func = function()
-                WoWPro.sticky[currentRow.index] = false
-                WoWPro:UpdateGuide("ClickedUnSticky")
-            end}
-        )
-    else
-        tinsert(dropdown,
-            {text = "Make Sticky", func = function()
-                WoWPro.sticky[currentRow.index] = true
-                WoWPro.unsticky[currentRow.index] = false
-                WoWPro:UpdateGuide("ClickedMakeSticky")
-            end}
-        )
-    end
-    if QID then
-        local questId = string.match(QID, "([^%^]*)")
-
-        tinsert(dropdown,
-        {text = "Wowhead Link", func = function()
-            local link = "https://www.wowhead.com/quest=" .. questId
-
-            local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent)
-            newEditBox:SetSize(300, 100)
-            newEditBox:SetPoint("CENTER")
-            newEditBox:SetFrameStrata("DIALOG")
-
-            local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
-            texture:SetAllPoints(true)
-            texture:SetColorTexture(0.1, 0.1, 0.1, 0.8)
-
-            local titleBar = newEditBox:CreateTexture(nil, "OVERLAY")
-            titleBar:SetHeight(24)
-            titleBar:SetPoint("TOPLEFT", 10, -10)
-            titleBar:SetPoint("TOPRIGHT", -10, -10)
-            titleBar:SetColorTexture(0, 0, 0, 0)
-
-            local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-            title:SetPoint("TOP", titleBar, "TOP", 0, -6)
-            title:SetText("Wowhead Link")
-
-            local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
-            editBox:SetAutoFocus(true)
-            editBox:SetWidth(260)
-            editBox:SetHeight(32)
-            editBox:SetPoint("TOP", titleBar, "BOTTOM", 0, -10)
-            editBox:SetText(link)
-            editBox:HighlightText()
-
-            local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
-            closeButton:SetPoint("TOPRIGHT")
-            closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
-
-            editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
-            end}
-        )
-    end
-
-    WoWPro.RowDropdownMenu[i] = dropdown
-    tinsert(dropdown,
-    { text = "Report an Issue", func = function()
-        WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
-        local LogBox = WoWPro.LogBox
-        local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
-
-
-    -- Add step info without GID
-    local Sindex = WoWPro.rows[currentRow.num].index
-    if WoWPro.rows[currentRow.num]:IsVisible() then
-    text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
-    end
-
-    text = text .. "\n|cffffff00Guide Info:|r\n"
-    text = text .. GID .. "\n"
-    text = text .. "Faction: " .. WoWPro.Faction .. "\n"
-
-
-        -- Retrieve additional player information
-        local _, class = _G.UnitClass("player")
-        local _, race = _G.UnitRace("player")
-        class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
-        local level = _G.UnitLevel("player")
-        local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
-        local locale = _G.GetLocale()
-        local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
-
-        -- Retrieve the player's realm name
-        local realmName = _G.GetRealmName()
-
-        -- Retrieve the player's character name
-        local playerName = _G.UnitName("player")
-
-        text = text .. "\n|cffffff00Player Info:|r\n"
-        text = text .. "Character Name: " .. playerName .. "\n"
-        text = text .. "Class: " .. class .. "\n"
-        text = text .. "Race: " .. race .. "\n"
-        text = text .. "Level: " .. level .. "\n"
-        text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
-        text = text .. "Addon Version: " .. version .. "\n"
-        text = text .. "Game Version: " .. gameVersion .. "\n"  -- Add the game version
-        text = text .. "Locale: " .. locale .. "\n"
-        if (not X) or (not Y) then
-            text = text .. "Location: Unknown\n"
-        else
-            text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
-            text = text .. "Map ID: " .. tostring(mapId) .. "\n"  -- Map ID on a separate line
-        end
-        text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
-        text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
-
-        -- Add instructions for copying the text
-        if _G.IsMacClient() then
-            text = text .. "\n\nTo copy this information, press ⌘+A to select all text, then press ⌘+C to copy it. You can then paste this into a Discord ticket by pressing ⌘+V.\n"
-        else
-            text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
-        end
-
-        -- Set the text of the LogBox and show it
-        LogBox.Box:SetText(text)
-
-        -- Create a hidden frame to measure the text width
-        local hiddenFrame = _G.CreateFrame("Frame")
-        hiddenFrame:Hide()
-
-        local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
-        fontString:SetText(text)
-
-        -- Get the width of the text
-        local textWidth = fontString:GetStringWidth()
-
-        -- Set the width of the LogBox and the text box
-        LogBox:SetWidth(textWidth + 20)  -- Add some padding
-        LogBox.Box:SetWidth(textWidth + 20)  -- Add some padding
-
-        LogBox.Box:Show()
-
-        -- Hide the EditBox if it exists
-        if WoWPro.EditBox then
-            WoWPro.EditBox:Hide()
-        end
-
-        LogBox:Show()
-    end}
-    )
     end
     WoWPro.RowDropdownMenu[i] = dropdown
 
         -- Item Button --
         if showButtons then
             if action == "H" and not use then use = WoWPro.SelectHearthstone() end
-
             if action == "*" and use and WoWPro.C_Item_GetItemInfo then
                 if not _G.InCombatLockdown() then
                     currentRow.itembutton:Show()
@@ -1704,7 +1700,7 @@ if step then
                 currentRow.itembutton:SetAttribute("click", "clickbutton")
                 currentRow.itembutton:SetScript("OnClick", function ()
                     WoWPro.TrashItem(use, k)
-                    end)
+                end)
                 if not _G.InCombatLockdown() then
                     if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
                         currentRow.itembuttonSecured:Show()
@@ -1770,7 +1766,7 @@ if step then
                                 local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
                                 local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
                                 if not start then
-                                    WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+                                    WoWPro:dbp("RowUpdate(): UÂ¦%s/%sÂ¦ has bad GetItemCooldown()", use, _use)
                                 end
                                 if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
                                     currentRow.itemicon.item_IsVisible = true
@@ -1911,18 +1907,18 @@ if step then
 
         --Guide Jump Button
         if showButtons and WoWPro.jump[k] then
-			local newguide, ctID = (";"):split(WoWPro.jump[k])
-			if not _G.InCombatLockdown() then
-				currentRow.jumpbutton:Show()
-			end
-			currentRow.jumpbutton:SetScript("OnClick", function()
-				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
-				if ctID and WoWPro.RETAIL then
-					_G.C_ChromieTime.SelectChromieTimeOption(ctID)
-				end
-				WoWPro:LoadGuide(newguide)
-			end)
-			  if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
+            local newguide, ctID = (";"):split(WoWPro.jump[k])
+            if not _G.InCombatLockdown() then
+                currentRow.jumpbutton:Show()
+            end
+            currentRow.jumpbutton:SetScript("OnClick", function()
+                WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
+                if ctID and WoWPro.RETAIL then
+                    _G.C_ChromieTime.SelectChromieTimeOption(ctID)
+                end
+                WoWPro:LoadGuide(newguide)
+            end)
+            if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxJumpButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_jumpbutton"..i, "LeftButton")
@@ -1975,14 +1971,14 @@ if step then
                     end
                 end)
 
-				if currentRow.eabutton:IsShown() then
-					currentRow.eabuttonSecured:Show()
-					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
-					currentRow.eabuttonSecured:ClearAllPoints()
-					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
-					currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
-				end
-			end
+                if currentRow.eabutton:IsShown() then
+                    currentRow.eabuttonSecured:Show()
+                    currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
+                    currentRow.eabuttonSecured:ClearAllPoints()
+                    currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
+                    currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
+                end
+            end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
@@ -1998,9 +1994,9 @@ if step then
             if not _G.InCombatLockdown() then
                 currentRow.eabutton:Hide()
             end
-			if not _G.InCombatLockdown() then
-				currentRow.eabuttonSecured:Hide()
-			end
+            if not _G.InCombatLockdown() then
+                currentRow.eabuttonSecured:Hide()
+            end
         end
 
 
@@ -2032,8 +2028,8 @@ if step then
                 currentRow.targetbutton.Position(use or eab)
             end
 
-			-- Set up secured button for hotkey execution (outside combat check to handle late setup)
-			if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
+            -- Set up secured button for hotkey execution (outside combat check to handle late setup)
+            if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
                 if not _G.InCombatLockdown() then
                     currentRow.targetbuttonSecured:Show()
                     currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
@@ -2048,7 +2044,7 @@ if step then
                     currentRow.targetbuttonSecured._pendingMacro = mtext
                     currentRow.targetbuttonSecured._pendingPosition = {"BOTTOMLEFT", currentRow.targetbutton, "BOTTOMLEFT", 0, 0}
                 end
-			end
+            end
             if not targetkb and currentRow.targetbutton:IsVisible() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 and not _G.InCombatLockdown() then
@@ -2065,9 +2061,9 @@ if step then
             if not _G.InCombatLockdown() then
                 currentRow.targetbutton:Hide()
             end
-		if not _G.InCombatLockdown() then
-			currentRow.targetbuttonSecured:Hide()
-		end
+            if not _G.InCombatLockdown() then
+                currentRow.targetbuttonSecured:Hide()
+            end
         end
 
         WoWPro.rows[i] = currentRow
@@ -2079,9 +2075,9 @@ if step then
         WoWPro.RowSizeSet()
         WoWPro.MainFrameLayout()
     end
-	if WoWPro.GroupSync then
-		_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
-	end
+    if WoWPro.GroupSync then
+        _G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+    end
     return reload
 end
 
@@ -2118,228 +2114,227 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
         SoundDiag("UpdateGuideReal source=%s", why)
         if not WoWPro.GuideFrame:IsVisible() then
-        -- Cinematic hides things (or user collapsed frame with double-click).
-        -- Only re-queue if the user did not intentionally collapse the frame.
-        if not WoWPro.UserCollapsed then
-            WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+            -- Cinematic hides things (or user collapsed frame with double-click).
+            -- Only re-queue if the user did not intentionally collapse the frame.
+            if not WoWPro.UserCollapsed then
+                WoWPro:SendMessage("WoWPro_UpdateGuide","UpdateGuideReal()")
+            end
+            WoWPro:dbp("UpdateGuideReal(): Punting")
+            return
         end
-        WoWPro:dbp("UpdateGuideReal(): Punting")
-        return
-    end
-    if not WoWPro.GuideLoaded then
-        WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
-        return
-    end
-    if WoWPro.LoadAllGuidesActive then
-        WoWPro:dbp("UpdateGuideReal(): Test Load active, supressing.")
-        return
-    end
-    WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
+        if not WoWPro.GuideLoaded then
+            WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
+            return
+        end
+        if WoWPro.LoadAllGuidesActive then
+            WoWPro:dbp("UpdateGuideReal(): Test Load active, supressing.")
+            return
+        end
+        WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
 
-    local offset = WoWPro.GuideOffset
-    WoWPro.GuideOffset = nil
+        local offset = WoWPro.GuideOffset
+        WoWPro.GuideOffset = nil
 
-    -- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
-    if WoWPro.InitLockdown then
-        WoWPro:print("Suppresssed guide update.  In InitLockdown.")
-        return
-    end
-    if WoWPro.MaybeCombatLockdown() then
-        WoWPro:print("Punted guide update.  In Combat.")
-        WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
-        return
-    end
-    if  not GID or not WoWPro.Guides[GID] then
-        WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
-        return
-    end
+        -- If the user is in combat, or if a GID is not present, or if the guide cannot be found, end --
+        if WoWPro.InitLockdown then
+            WoWPro:print("Suppresssed guide update.  In InitLockdown.")
+            return
+        end
+        if WoWPro.MaybeCombatLockdown() then
+            WoWPro:print("Punted guide update.  In Combat.")
+            WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
+            return
+        end
+        if  not GID or not WoWPro.Guides[GID] then
+            WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
+            return
+        end
 
-    -- If the module that handles this guide is not present and enabled, then end --
-    local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-    if not module or not module:IsEnabled() then return end
+        -- If the module that handles this guide is not present and enabled, then end --
+        local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
+        if not module or not module:IsEnabled() then return end
 
-    -- If we already know the current hearth bind, try to auto-complete any matching h step before selecting the active step --
-    if WoWProDB.char and WoWProDB.char.hearth then
-        WoWPro:AutoCompleteSetHearth(nil, WoWProDB.char.hearth, true)
-    end
+        -- If we already know the current hearth bind, try to auto-complete any matching h step before selecting the active step --
+        if WoWProDB.char and WoWProDB.char.hearth then
+            WoWPro:AutoCompleteSetHearth(nil, WoWProDB.char.hearth, true)
+        end
 
-    -- Finding the active step in the guide --
-    WoWPro.ActiveStep = WoWPro.NextStepNotSticky(1)
-    WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitSafeStep(WoWPro.ActiveStep))
+        -- Finding the active step in the guide --
+        WoWPro.ActiveStep = WoWPro.NextStepNotSticky(1)
+        WoWPro:print("UpdateGuideReal(%d): ActiveStep=%s", WoWPro.ActiveStep, WoWPro.EmitSafeStep(WoWPro.ActiveStep))
 
-    -- If the active step is a US step, defer paired S completion until after rows are rebuilt.
-    -- This ensures sound visibility checks use current-pass row state, not stale row visibility.
-    local pendingPairedSticky
-    if WoWPro.ActiveStep and WoWPro.unsticky[WoWPro.ActiveStep] and not WoWPro.sticky[WoWPro.ActiveStep] then
-        local guide = WoWProCharDB.Guide[GID]
-        local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
-        if foundSticky and not guide.completion[foundSticky] then
-            pendingPairedSticky = foundSticky
-            if WoWPro.DEBUG_STICKY_PAIRING then
-                WoWPro:dbp("[Broker] ActiveStep is US step %d: Queued paired S step %d for completion after row rebuild", WoWPro.ActiveStep, foundSticky)
+        -- If the active step is a US step, defer paired S completion until after rows are rebuilt.
+        -- This ensures sound visibility checks use current-pass row state, not stale row visibility.
+        local pendingPairedSticky
+        if WoWPro.ActiveStep and WoWPro.unsticky[WoWPro.ActiveStep] and not WoWPro.sticky[WoWPro.ActiveStep] then
+            local guide = WoWProCharDB.Guide[GID]
+            local foundSticky = WoWPro.FindPairedStickyStep(WoWPro.ActiveStep)
+            if foundSticky and not guide.completion[foundSticky] then
+                pendingPairedSticky = foundSticky
+                if WoWPro.DEBUG_STICKY_PAIRING then
+                    WoWPro:dbp("[Broker] ActiveStep is US step %d: Queued paired S step %d for completion after row rebuild", WoWPro.ActiveStep, foundSticky)
+                end
             end
         end
-    end
 
-    if WoWPro.Recorder then
-        WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
-    end
-    if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
-    WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount))
-
-    -- Calling on the guide's module to populate the guide window's rows --
-    local function rowContentUpdate()
-        local reload = WoWPro:RowUpdate(offset)
-        -- Hyjack the click and menu functions for the Recorder if it's enabled --
         if WoWPro.Recorder then
-            WoWPro.Recorder:RowUpdate(offset)
+            WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
         end
-        for i, row in pairs(WoWPro.rows) do
-            if WoWPro.RowDropdownMenu[i] then
-                row:SetScript("OnClick", function(self, button, down)
-                    if button == "LeftButton" then
-                        if WoWPro.Recorder then
-                            WoWPro.Recorder:RowLeftClick(i)
-                        else
-                            WoWPro:RowLeftClick(i)
-                        end
-                    elseif button == "RightButton" then
-                        WoWPro.rows[i]:SetChecked(nil)
-                        if WoWPro.Recorder then
-                            WoWPro:RowLeftClick(i)
-                            -- Use context menu for right-click
-                            if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
-                                _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
-                                    for _, item in ipairs(WoWPro.Recorder.RowDropdownMenu[i]) do
-                                        if item.text then
-                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
-                                            if item.checked ~= nil then
-                                                menuButton:SetIsSelected(item.checked)
+        if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
+        WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount))
+
+        -- Calling on the guide's module to populate the guide window's rows --
+        local function rowContentUpdate()
+            local reload = WoWPro:RowUpdate(offset)
+            -- Hyjack the click and menu functions for the Recorder if it's enabled --
+            if WoWPro.Recorder then
+                WoWPro.Recorder:RowUpdate(offset)
+            end
+            for i, row in pairs(WoWPro.rows) do
+                if WoWPro.RowDropdownMenu[i] then
+                    row:SetScript("OnClick", function(self, button, down)
+                        if button == "LeftButton" then
+                            if WoWPro.Recorder then
+                                WoWPro.Recorder:RowLeftClick(i)
+                            else
+                                WoWPro:RowLeftClick(i)
+                            end
+                        elseif button == "RightButton" then
+                            WoWPro.rows[i]:SetChecked(nil)
+                            if WoWPro.Recorder then
+                                WoWPro:RowLeftClick(i)
+                                -- Use context menu for right-click
+                                if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+                                    _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
+                                        for _, item in ipairs(WoWPro.Recorder.RowDropdownMenu[i]) do
+                                            if item.text then
+                                                local menuButton = rootDescription:CreateButton(item.text, item.func)
+                                                if item.checked ~= nil then
+                                                    menuButton:SetIsSelected(item.checked)
+                                                end
                                             end
                                         end
-                                    end
-                                end)
+                                    end)
+                                else
+                                    local contextMenuFrame = _G.CreateFrame("Frame")
+                                    WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
+                                end
                             else
-                                local contextMenuFrame = _G.CreateFrame("Frame")
-                                WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
-                            end
-                        else
-                            -- Use context menu for right-click
-                            if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
-                                _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
-                                    for _, item in ipairs(WoWPro.RowDropdownMenu[i]) do
-                                        if item.text then
-                                            local menuButton = rootDescription:CreateButton(item.text, item.func)
-                                            if item.checked ~= nil then
-                                                menuButton:SetIsSelected(item.checked)
+                                -- Use context menu for right-click
+                                if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+                                    _G.MenuUtil.CreateContextMenu(WoWPro.rows[i], function(ownerRegion, rootDescription)
+                                        for _, item in ipairs(WoWPro.RowDropdownMenu[i]) do
+                                            if item.text then
+                                                local menuButton = rootDescription:CreateButton(item.text, item.func)
+                                                if item.checked ~= nil then
+                                                    menuButton:SetIsSelected(item.checked)
+                                                end
                                             end
                                         end
-                                    end
-                                end)
-                            else
-                                local contextMenuFrame = _G.CreateFrame("Frame")
-                                WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
+                                    end)
+                                else
+                                    local contextMenuFrame = _G.CreateFrame("Frame")
+                                    WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], contextMenuFrame, "cursor", 0 , 0, "MENU")
+                                end
                             end
                         end
-                    end
-                end)
+                    end)
+                end
+            end
+            return reload
+        end
+        local reload = true
+        -- Reloading until all stickies that need to unsticky have done so --
+        while reload do
+            reload = rowContentUpdate()
+        end
+
+        if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
+            SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
+            WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")
+            if WoWPro.DEBUG_STICKY_PAIRING then
+                WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d after row rebuild", WoWPro.ActiveStep, pendingPairedSticky)
             end
         end
-        return reload
-    end
-    local reload = true
-    -- Reloading until all stickies that need to unsticky have done so --
-    while reload do
-        reload = rowContentUpdate()
-    end
 
-    if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
-        SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
-        WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")
-        if WoWPro.DEBUG_STICKY_PAIRING then
-            WoWPro:dbp("[Broker] ActiveStep is US step %d: Completed paired S step %d after row rebuild", WoWPro.ActiveStep, pendingPairedSticky)
+        -- Updating the guide list or current guide panels if they are shown --
+        if WoWPro[module:GetName()].GuideList
+            and WoWPro[module:GetName()].GuideList.Frame
+            and WoWPro[module:GetName()].GuideList.Frame:IsVisible()
+            and WoWPro[module:GetName()].UpdateGuideList then
+                WoWPro[module:GetName()]:UpdateGuideList()
         end
-    end
+        if WoWPro.CurrentGuideFrame:IsVisible() then WoWPro.UpdateCurrentGuidePanel() end
 
-    -- Updating the guide list or current guide panels if they are shown --
-    if WoWPro[module:GetName()].GuideList
-    and WoWPro[module:GetName()].GuideList.Frame
-    and WoWPro[module:GetName()].GuideList.Frame:IsVisible()
-    and WoWPro[module:GetName()].UpdateGuideList then
-        WoWPro[module:GetName()]:UpdateGuideList()
-    end
-    if WoWPro.CurrentGuideFrame:IsVisible() then WoWPro.UpdateCurrentGuidePanel() end
-
-    -- Updating the progress count --
-    local p = 0
-    for j = 1, WoWPro.stepcount do
-        if (WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j])
-        and not WoWPro.sticky[j]
-        and not WoWPro.optional[j]
-        and not WoWPro.repeatable[j] then
-            p = p + 1
+        -- Updating the progress count --
+        local p = 0
+        for j = 1, WoWPro.stepcount do
+            if (WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j])
+            and not WoWPro.sticky[j]
+            and not WoWPro.optional[j]
+            and not WoWPro.repeatable[j] then
+                p = p + 1
+            end
         end
-    end
-    WoWProCharDB.Guide[GID].progress = p
-    WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount - (WoWPro.repeatablecount or 0)
+        WoWProCharDB.Guide[GID].progress = p
+        WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount - (WoWPro.repeatablecount or 0)
 
-    -- TODO: make next lines module specific
-    local total = WoWPro.stepcount or 1
-    local currentStep = WoWPro.ActiveStep or 1
-    local currentMainStep = WoWPro.NextStepNotSticky()
-    if WoWPro.Recorder then
-        if WoWProDB.profile.guideprogress then
-            WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+        -- TODO: make next lines module specific
+        local total = WoWPro.stepcount or 1
+        local currentStep = WoWPro.ActiveStep or 1
+        local currentMainStep = WoWPro.NextStepNotSticky()
+        if WoWPro.Recorder then
+            if WoWProDB.profile.guideprogress then
+                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+            else
+                if total > 0 then
+                    local percentage = math.floor((currentMainStep / total) * 100)
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                else
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                end
+            end
         else
-            if total > 0 then
-                local percentage = math.floor((currentMainStep / total) * 100)
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+            if WoWProDB.profile.guideprogress then
+                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
             else
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                if total > 0 then
+                    local percentage = math.floor((currentMainStep / total) * 100)
+                    WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                else
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                end
             end
-        end
-    else
-        if WoWProDB.profile.guideprogress then
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
-        else
-            if total > 0 then
-                local percentage = math.floor((currentMainStep / total) * 100)
-                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
-            else
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
-            end
-        end
 
-        -- If the guide is complete, loading the next guide --
-        if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
-            if WoWProDB.profile.autoload then
-                WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
-                WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
-                WoWPro:LoadGuide()
-                return
-            else
-                WoWPro.NextGuideDialog:Show()
+            -- If the guide is complete, loading the next guide --
+            if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
+                if WoWProDB.profile.autoload then
+                    WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
+                    WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
+                    WoWPro:LoadGuide()
+                    return
+                else
+                    WoWPro.NextGuideDialog:Show()
+                end
             end
         end
+        WoWPro:MapPoint()
+        WoWPro:SendMessage("WoWPro_PostUpdateGuide")
+        -- Update content and formatting --
+        WoWPro.MainFrameLayout()
+        WoWPro.RowSet()
+        if not WoWPro.GuideUpdated then
+            WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
+            WoWPro.GuideUpdated = true
+            WoWPro.FirstUpdatePending = false
+            WoWPro:dbp("[Naughty Broker]: Invoke the ZONE_CHANGED_NEW_AREA event handler directly before Replay!")
+            WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_UPDATE")
+            WoWPro.EventReplayStart()
+        end
     end
-    WoWPro:MapPoint()
-    WoWPro:SendMessage("WoWPro_PostUpdateGuide")
-    -- Update content and formatting --
-    WoWPro.MainFrameLayout()
-    WoWPro.RowSet()
-    if not WoWPro.GuideUpdated then
-        WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
-        WoWPro.GuideUpdated = true
-        WoWPro.FirstUpdatePending = false
-        WoWPro:dbp("[Naughty Broker]: Invoke the ZONE_CHANGED_NEW_AREA event handler directly before Replay!")
-        WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_UPDATE")
-        WoWPro.EventReplayStart()
-    end
-end
     runUpdate()
     WoWPro.UpdateGuideRealInProgress = false
 end
-
 
 local Rep2IdAndClass
 Rep2IdAndClass = {
@@ -2359,7 +2354,6 @@ Rep2IdAndClass = {
     ["good friend"] = {4,true},
     ["best friend"] = {5,true},
 }
-
 
 
 -- Next Step --
@@ -3575,7 +3569,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
                 local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
                 if (not dfrenownName) or (not dfrenownID) or (not dfrenownLevel) then
-                    WoWPro.why[guideIndex] = ("NextStep(): Malformed DFREN¦%s¦ tag in step [%s:%s]."):format(WoWPro.dfrenown[guideIndex], stepAction, step)
+                    WoWPro.why[guideIndex] = ("NextStep(): Malformed DFRENÂ¦%sÂ¦ tag in step [%s:%s]."):format(WoWPro.dfrenown[guideIndex], stepAction, step)
                     WoWPro:Warning(WoWPro.why[guideIndex])
                     skip = true
                     break
@@ -3610,7 +3604,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.twwrenown and WoWPro.twwrenown[guideIndex] and WoWPro.RETAIL then
                 local twwrenownName, twwrenownID, twwrenownLevel = (";"):split(WoWPro.twwrenown[guideIndex])
                 if (not twwrenownName) or (not twwrenownID) or (not twwrenownLevel) then
-                    WoWPro.why[guideIndex] = ("NextStep(): Malformed TWWREN¦%s¦ tag in step [%s:%s]."):format(WoWPro.twwrenown[guideIndex], stepAction, step)
+                    WoWPro.why[guideIndex] = ("NextStep(): Malformed TWWRENÂ¦%sÂ¦ tag in step [%s:%s]."):format(WoWPro.twwrenown[guideIndex], stepAction, step)
                     WoWPro:Warning(WoWPro.why[guideIndex])
                     skip = true
                     break
@@ -3740,7 +3734,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellInfo then
                     spellName = spellInfo.name
                 else
-                    WoWPro:Error("GetSpellInfo(%q) ¦%q¦ is unknown.", spellID, WoWPro.spell[guideIndex])
+                    WoWPro:Error("GetSpellInfo(%q) Â¦%qÂ¦ is unknown.", spellID, WoWPro.spell[guideIndex])
                     skip = true
                     break
                 end
@@ -4655,7 +4649,7 @@ function WoWPro:QuestLogStatus()
         if WoWPro.QuestLog[QID].leaderBoard then
             for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                 local finished = WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].ocompleted and WoWPro.QuestLog[QID].ocompleted[idx]
-                line = ("QID: %d, QO¦%d¦%s %s\n"):format(QID, idx, status, tostring(finished))
+                line = ("QID: %d, QOÂ¦%dÂ¦%s %s\n"):format(QID, idx, status, tostring(finished))
                 text = text .. line
             end
         end
@@ -5227,6 +5221,7 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
 
 
 function WoWPro.LockdownHandler(self, elapsed)
+    -- Tracker timer block
     if WoWPro.TrackerTimer ~= nil then
         WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
         if WoWPro.TrackerTimer < 0 then
@@ -5237,8 +5232,11 @@ function WoWPro.LockdownHandler(self, elapsed)
         WoWPro:dbp("TrackerTimer: %03.3f, Position %02.2f %02.2f", WoWPro.TrackerTimer, x*100, y*100)
         return
     end
+
+    -- Lockdown timer block
     if WoWPro.LockdownTimer ~= nil then
         WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
+
         if WoWPro.LockdownTimer < 0 then
             if TomTom and TomTom.AddWaypoint then
                 WoWPro:CarboniteProfileHack()
@@ -5247,14 +5245,14 @@ function WoWPro.LockdownHandler(self, elapsed)
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
-                    if WoWProCharDB.NoTomTom ~= true then WoWProCharDB.NoTomTom = false end -- User must acknowledge the warning to ignore it.
+                    if WoWProCharDB.NoTomTom ~= true then
+                        WoWProCharDB.NoTomTom = false
+                    end
                 elseif not WoWProCharDB.NoTomTom then
-                   -- Warning if the user is missing TomTom --
                     _G.StaticPopup_Show("WOWPRO_MISSING_ARROW")
-                    if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
+                    if TomTom then
                         TomTom = nil
-                        WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
-                            .."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
+                        WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, do not forget to enable Carbonite's TomTom emulation! (Tracking HUD section)")
                     end
                 end
             end
@@ -5264,18 +5262,34 @@ function WoWPro.LockdownHandler(self, elapsed)
                 WoWPro.LockdownCounter = nil
                 WoWPro.LockdownTimer = nil
                 WoWPro.InitLockdown = false
+
                 local moduleCount = 0
                 for name, module in WoWPro:IterateModules() do
                     moduleCount = moduleCount + 1
                 end
+
                 if moduleCount == 0 then
                     _G.StaticPopup_Show("WOWPRO_ENABLE_SECONDARIES")
                 end
-                WoWPro:LoadGuide()          -- Loads Current Guide (if nil, loads NilGuide)
+
+                -- Load guide (this triggers all layout passes)
+                WoWPro:LoadGuide()
+
+                -- Allow anchor saves AFTER startup is fully complete
+                WoWPro.InhibitAnchorSave = false
+
+                -- Restore saved anchor once per session
+                if not WoWPro.HasRestoredThisSession then
+                    C_Timer.After(0.1, function()
+                        WoWPro.AnchorResync(false)
+                        WoWPro.HasRestoredThisSession = true
+                    end)
+                end
             end
         end
     end
 end
+
 
 -- Carbonite - TomTom profile hack Section
 function WoWPro:CarboniteProfileHack()
@@ -5299,3 +5313,4 @@ function WoWPro:CarboniteProfileHack()
         end
     end
 end
+

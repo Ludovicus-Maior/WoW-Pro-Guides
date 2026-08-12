@@ -14,17 +14,16 @@ local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
 function WoWPro:RefreshConfig()
+    WoWPro.RefreshingConfig = true
     WoWPro:LoadGuide()
     WoWPro:CustomizeFrames()
+    WoWPro.RefreshingConfig = false
 end
 
 function WoWPro:SetDefaults()
-    -- MainFrame --
     WoWPro.MainFrame:SetHeight(300)
     WoWPro.MainFrame:SetWidth(200)
     WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
-    WoWPro.MainFrame:ClearAllPoints()
-    WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
 
     WoWPro:RefreshConfig()
 end
@@ -246,11 +245,13 @@ local function createDisplayConfig()
                                 order = 3,
                                 type = "toggle",
                                 name = L["Enable Drag"],
-                                desc = L["When enabled: Click on the button bar to move the window. Drag to reposition it on your screen.\nWhen disabled: Window is locked in place."],
+                                desc = L["When enabled: Use the top-right option button to drag and reposition the window.\nWhen disabled: Window is locked in place."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.drag end,
-                                set = function(info,val) WoWProDB.profile.drag = val
-                                    WoWPro.DragSet() end
+                                set = function(info,val)
+                                    WoWProDB.profile.drag = val
+                                    WoWPro.MouseSet()
+                                end
                             },
                             expansionAnchor = {
                                 order = 4,
@@ -264,9 +265,12 @@ local function createDisplayConfig()
                                     ["BOTTOMLEFT"] = "Bottom Left",
                                     ["BOTTOMRIGHT"] = "Bottom Right",
                                 },
-                                get = function(info) return WoWProDB.profile.expansionAnchor or "TOPLEFT" end,
+                                get = function(info)
+                                    return WoWProDB.profile.expansionAnchor or "TOPLEFT"
+                                end,
                                 set = function(info, val)
-                                    WoWPro:SetExpansionAnchor(val)
+                                    WoWPro:AnchorSave(val)
+                                    WoWPro.AnchorResync()
                                 end,
                             },
                             resize = {
@@ -279,7 +283,7 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.resize = val
                                     if val then WoWProDB.profile.autoresize = false end
                                     if not val then
-                                        WoWPro.AnchorStore("ResizeLocked")
+                                        WoWPro.AnchorSave("ResizeLocked")
                                     end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },
@@ -293,7 +297,7 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.autoresize = val
                                     if val then WoWProDB.profile.resize = false
                                     else
-                                        WoWPro.AnchorStore("AutoResizeDisabled")
+                                        WoWPro.AnchorSave("AutoResizeDisabled")
                                     end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },

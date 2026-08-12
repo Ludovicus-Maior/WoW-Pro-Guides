@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
--- luacheck: globals select ipairs pairs next tinsert type unpack
+-- luacheck: globals select ipairs pairs next tinsert type unpack CreateFrame UIParent InCombatLockdown
 
 --------------------------
 --  WoWPro_Events.lua   --
