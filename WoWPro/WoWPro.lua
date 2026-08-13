@@ -704,7 +704,7 @@ function WoWPro:DevCoords()
 				local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
 				if playerpos then
 					local x,y=playerpos:GetXY()
-					if not _G.MouseIsOver(f) then
+					if not f:IsMouseOver() then
 						f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
 					end
 				end
