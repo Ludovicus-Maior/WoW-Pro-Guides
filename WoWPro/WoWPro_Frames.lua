@@ -66,34 +66,27 @@ function WoWPro:ResizeSet()
     end
 end
 
+-- Mouse actions
 function WoWPro:MouseSet()
-
     -- OPTIONBUTTON (sole drag authority)
     local OB = WoWPro.OptionButton
     OB:RegisterForDrag("LeftButton")
     OB:RegisterForClicks("AnyUp")
 
-    OB:SetScript("OnMouseDown", function(self, button)
+    OB:SetScript("OnMouseDown", function(obFrame, button)
         if button == "LeftButton" then
             WoWPro.MainFrame:StartMoving()
         elseif button == "RightButton" then
             WoWPro:CloseDiscordDialog()
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, _self, "cursor", 0, 0, "MENU")
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, obFrame, "cursor", 0, 0, "MENU")
         end
     end)
-    OB:SetScript("OnMouseUp", function(_self, button)
+
+    OB:SetScript("OnMouseUp", function(obFrame, button)
         if button == "LeftButton" then
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
             WoWPro.AnchorSave("DragEnd")
-        end
-    end)
-
-    -- BUTTONBAR (right-click menu only)
-    local BB = WoWPro.ButtonBar
-    BB:SetScript("OnMouseDown", function(self, button)
-        if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, _self, "cursor", 0, 0, "MENU")
         end
     end)
 
@@ -1289,7 +1282,7 @@ function WoWPro:CreateGuideWindowScrollbar()
     end)
 end
 
--- Rows to be populated by individual addons --
+-- Construct the row frames used to display guide steps (UI only; data filled later)
 function WoWPro:CreateRows()
     WoWPro.rows = {}
     for i = 1, 15 do
@@ -1314,26 +1307,25 @@ function WoWPro:CreateRows()
         row:EnableMouse(true)
         row:RegisterForClicks("AnyUp")
         -- Right-click context menu (row-specific behavior)
-        row:SetScript("OnClick", function(_, button)
+        row:SetScript("OnClick", function(rowFrame, button)
             if button == "RightButton" then
-                WoWPro:RowContextMenu(_self, i)
+                WoWPro:RowContextMenu(rowFrame, i)
             end
         end)
-        -- Mouseover behavior (highlight + optional note display)
+
         row:SetScript("OnEnter", function(rowFrame)
             rowFrame:LockHighlight()
             if WoWProDB.profile.showmousenotes then
                 WoWPro.mousenotes[i]:Show()
             end
         end)
+
         row:SetScript("OnLeave", function(rowFrame)
             rowFrame:UnlockHighlight()
             WoWPro.mousenotes[i]:Hide()
         end)
 
-        --------------------------------------------------------------------
         -- CHILD ELEMENTS
-        --------------------------------------------------------------------
         row.check = WoWPro:CreateCheck(row)
         row.iconTexture = WoWPro:CreateIcon(row, row.check)
         row.step = WoWPro:CreateStep(row, row.iconTexture)
