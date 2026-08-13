@@ -230,7 +230,7 @@ C Awe of She|QID|93064|M|70.25,65.85|Z|2512; The Coiled Isle|CHAT|N|Talk to Orwe
 T Awe of She|QID|93064|M|69.23,64.19|Z|2512; The Coiled Isle|N|To Strongblood Jak'mo.|
 A Pushed to the Brink|QID|92935|PRE|93064|M|69.23,64.19|Z|2512; The Coiled Isle|N|From Strongblood Jak'mo.|
 A Fuel the Calling|QID|92934|PRE|93064|M|69.29,64.08|Z|2512; The Coiled Isle|N|From Summoner Jawae.|
-C Pushed to the Brink|QID|M|69.23,64.19|Z|2512; The Coiled Isle|N|Use Nek'zali's abilities to kill aqir.|S|
+C Pushed to the Brink|QID|92935|M|69.23,64.19|Z|2512; The Coiled Isle|N|Use Nek'zali's abilities to kill aqir.|S|
 C Fuel the Calling|QID|92934|QO|1|M|69.29,64.08|Z|2512; The Coiled Isle|H|N|Click on the hunters you see (green/friendly mobs).|S|
 C Fuel the Calling|QID|92934|QO|2|M|68.63,62.66|Z|2512; The Coiled Isle|CHAT|N|Talk to Jaz'di Wiseman.|
 C Fuel the Calling|QID|92934|QO|1|M|67.95,65.77|Z|2512; The Coiled Isle|H|N|Keep draining hunters.|US|
