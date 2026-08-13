@@ -8,16 +8,6 @@ WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-local guide = WoWPro:RegisterGuide("The Curse of Ula'tek", 'Leveling', 'Silvermoon City', 'WoWPro Team', 'Neutral',12)
-WoWPro:GuideName(guide,"The Curse of Ula'tek")
-WoWPro:GuideContent(guide, 11)
-WoWPro:GuideLevels(guide,90, 90)
-WoWPro:GuideQuestTriggers(guide, 92897,92895)
-WoWPro:GuideSort(guide, 7)
-WoWPro:TopCategory(guide, "End Game")
-WoWPro:GuideSteps(guide, function()
-return [[
-
 ;CHAPTER 1 - Legacy of the Amani
 A The Preparations Are Complete|QID|92897|M|PLAYER|N|From the Adventure Journal.|LEAD|92895|
 T The Preparations Are Complete|QID|92897|M|45.37,70.07|Z|2393; Silvermoon City|N|To Orweyna.|
@@ -161,7 +151,7 @@ C Come With Me|QID|93024|M|44.60,27.43|Z|2512; The Coiled Isle|CHAT|N|Check on Z
 R Tokka's Landing|ACTIVE|93024|M|58.34,46.10|Z|2512; The Coiled Isle|N|Fly back to Tokka's Landing to meet up with Lady Liadrin.|
 T Come With Me|QID|93024|M|58.34,46.10|Z|2512; The Coiled Isle|N|To Lady Liadrin.|
 
-;Chapter 3 - Ghosts of the Past
+;CHAPTER 3 - Ghosts of the Past
 A Words to Hear|QID|93454|PRE|93024|M|58.36,46.06|Z|2512; The Coiled Isle|N|From Zul'jarra.|
 C Words to Hear|QID|93454|QO|1|M|58.36,46.06|Z|2512; The Coiled Isle|CHAT|N|Tell Zul'jarra, you will help.|
 C Words to Hear|QID|93454|QO|3|M|58.30,45.58|Z|2512; The Coiled Isle|CHAT|N|Listen to Captain Tokka.|
@@ -183,7 +173,6 @@ C Somethin's Not Right|QID|96089|QO|2|M|56.98,48.03|Z|2512; The Coiled Isle|CHAT
 C Somethin's Not Right|QID|96089|QO|3|M|57.20,48.46|Z|2512; The Coiled Isle|CHAT|N|Tell Apothecare Dezi what you know.|
 T Somethin's Not Right|QID|96089|M|57.20,48.46|Z|2512; The Coiled Isle|N|To Apothecare Dezi.|
 A Venemetic|QID|96090|PRE|96089|M|57.20,48.46|Z|2512; The Coiled Isle|N|From Apothecare Dezi.|
-
 R Path of Whispers|ACTIVE|92925|M|47.46,73.51|Z|2512; The Coiled Isle|N|Off to find Orweyna.|
 C The Glint of History|QID|92925|QO|1|M|47.46,73.51|Z|2512; The Coiled Isle|CHAT|N|Talk to Orweyna.|
 C The Glint of History|QID|92925|QO|2|M|47.41,73.50|Z|2512; The Coiled Isle|H|N|Click the Worldsoul Memory globe.|
@@ -209,43 +198,121 @@ C Written by the Victors|QID|92930|QO|2|M|25.11,74.43|Z|2639; Crypt of the Denie
 P Path of Whispers|ACTIVE|92930|M|28.19,73.46|Z|2639; Crypt of the Denied|N|Take the portal provided or otherwise travel back to Tokka's Landing.|
 T Written by the Victors|QID|92930|M|57.47,49.09|Z|2512; The Coiled Isle|N|To Orweyna.|
 
-;CHAPTER 4-Original Sin
+;CHAPTER 4 - Original Sin
 A Delay the Venom|QID|92931|PRE|92930|M|57.49,49.13|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
-A Clear the Swamp|QID|92932|PRE|92931|
-A Haunted Shore|QID|92933|PRE|92932|
-A Site of Terror|QID|92938|PRE|92933|
-A Broken Spears|QID|93063|PRE|92938|
-A Awe of She|QID|93064|PRE|93063|
-A Fuel the Calling|QID|92934|PRE|93064|
-A Pushed to the Brink|QID|92935|PRE|92934|
-A The Summoning of Ula'tek|QID|92936|PRE|92935|
-A Awakened Evil|QID|92937|PRE|92936|
+C Delay the Venom|QID|92931|QO|1|M|57.55,49.00|Z|2512; The Coiled Isle|CHAT|N|Ask Rak'taka for the cure.|
+C Delay the Venom|QID|92931|QO|2|M|57.51,49.12|Z|2512; The Coiled Isle|H|N|Admisnister the cure to Zul'jarra.|
+C Delay the Venom|QID|92931|QO|3|M|57.53,48.97|Z|2512; The Coiled Isle|CHAT|N|Ask Tak'lego what he thinks.|
+C Delay the Venom|QID|92931|QO|5|M|57.23,48.86|Z|2512; The Coiled Isle|CHAT|N|Check in with Captain Tokka.|
+C Delay the Venom|QID|92931|QO|4|M|57.51,47.69|Z|2512; The Coiled Isle|H|N|Destroy the training dummy so you can check in with Dak'zor.|
+C Delay the Venom|QID|92931|QO|6|M|57.49,49.13|Z|2512; The Coiled Isle|CHAT|N|(Optional) Ask Lady Liadrin what she thinks.|
+T Delay the Venom|QID|92931|M|64.00,56.64|Z|2512; The Coiled Isle|N|To Orweyna.|
+A Clear the Swamp|QID|92932|PRE|92931|M|64.00,56.64|Z|2512; The Coiled Isle|N|From Orweyna.|
+A Haunted Shore|QID|92933|PRE|92931|M|64.02,56.60|Z|2512; The Coiled Isle|N|From Dak'zor.|
+C Clear the Swamp|QID|92932|M|64.00,56.64|Z|2512; The Coiled Isle|N|Kill swamp beasts.|S|
+C Haunted Shore|QID|92933|QO|1|M|64.66,59.26|Z|2512; The Coiled Isle|CHAT|N|Ask First Mata Nama if everything is ok?|
+C Haunted Shore|QID|92933|QO|2|M|66.43,61.49|Z|2512; The Coiled Isle|H|N|Rescue Lost Tortollans.|
+C Clear the Swamp|QID|92932|M|65.41,60.83|Z|2512; The Coiled Isle|N|Continue killing swamp beasts.|US|
+T Haunted Shore|QID|92933|M|67.46,62.31|Z|2512; The Coiled Isle|N|To Dak'zor.|
+T Clear the Swamp|QID|92932|M|67.47,62.25|Z|2512; The Coiled Isle|N|To Orweyna.|
+A Site of Terror|QID|92938|PRE|92932&92933|M|67.47,62.25|Z|2512; The Coiled Isle|N|From Orweyna.|
+A Broken Spears|QID|93063|PRE|92932&92933|M|67.46,62.31|Z|2512; The Coiled Isle|N|From Dak'zor.|
+C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Kill and loot 'Fallen' mobs to collect the Amani weapons.|S|
+C Site of Terror|QID|92938|QO|1|M|67.24,66.18|Z|2512; The Coiled Isle|H|N|Investigate the Shattered Mound.|
+C Site of Terror|QID|92938|QO|3|M|67.47,62.25|Z|2512; The Coiled Isle|H|N|Investigate the Profaned Remains.|
+C Site of Terror|QID|92938|QO|2|M|71.21,64.75|Z|2512; The Coiled Isle|H|N|Investigate the Defiled Shrine.|
+C Site of Terror|QID|92938|QO|4|M|70.32,65.85|Z|2512; The Coiled Isle|H|N|Investigate the Forgotten Alter.|
+C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Keep looting those weapons.|US|
+T Broken Spears|QID|93063|M|70.31,65.70|Z|2512; The Coiled Isle|N|To Dak'zor.|
+T Site of Terror|QID|92938|M|70.25,65.85|Z|2512; The Coiled Isle|N|To Orweyna.|
+A Awe of She|QID|93064|PRE|93063&92938|M|70.25,65.85|Z|2512; The Coiled Isle|N|From Orweyna.|
+C Awe of She|QID|93064|M|70.25,65.85|Z|2512; The Coiled Isle|CHAT|N|Talk to Orweyna to witness the memory. This puts you in the Memories of Nek'zali the Soulcoiler.|
+T Awe of She|QID|93064|M|69.23,64.19|Z|2512; The Coiled Isle|N|To Strongblood Jak'mo.|
+A Pushed to the Brink|QID|92935|PRE|93064|M|69.23,64.19|Z|2512; The Coiled Isle|N|From Strongblood Jak'mo.|
+A Fuel the Calling|QID|92934|PRE|93064|M|69.29,64.08|Z|2512; The Coiled Isle|N|From Summoner Jawae.|
+C Pushed to the Brink|QID|M|69.23,64.19|Z|2512; The Coiled Isle|N|Use Nek'zali's abilities to kill aqir.|S|
+C Fuel the Calling|QID|92934|QO|1|M|69.29,64.08|Z|2512; The Coiled Isle|H|N|Click on the hunters you see (green/friendly mobs).|S|
+C Fuel the Calling|QID|92934|QO|2|M|68.63,62.66|Z|2512; The Coiled Isle|CHAT|N|Talk to Jaz'di Wiseman.|
+C Fuel the Calling|QID|92934|QO|1|M|67.95,65.77|Z|2512; The Coiled Isle|H|N|Keep draining hunters.|US|
+C Pushed to the Brink|QID|92935|PRE|93064|M|67.95,65.77|Z|2512; The Coiled Isle|N|Keep killing aqir.|US|
+T Fuel the Calling|QID|92934|M|69.29,64.08|Z|2512; The Coiled Isle|N|To Summoner Jawae.|
+T Pushed to the Brink|QID|92935|M|69.23,64.19|Z|2512; The Coiled Isle|N|To Strongblood Jak'mo.|
+A The Summoning of Ula'tek|QID|92936|PRE|92934&92935|M|69.23,64.19|Z|2512; The Coiled Isle|N|From Strongblood Jak'mo.|
+C The Summoning of Ula'tek|QID|92936|M|69.12,64.06|Z|2512; The Coiled Isle|EAB|N|Step into the circle and then use the [color=33fff9] Extra Action Button [/color] that appears to summon Ula'tek.|
+T The Summoning of Ula'tek|QID|92936|M|70.31,65.70|Z|2512; The Coiled Isle|N|To Dak'zor.|
+A Awakened Evil|QID|92937|PRE|92936|M|70.31,65.70|Z|2512; The Coiled Isle|N|From Dak'zor|
+C Awakened Evil|QID|92937|QO|1|M|70.25,65.84|Z|2512; The Coiled Isle|CHAT|N|Ask Orweyna what she is going on about.|
+C Awakened Evil|QID|92937|QO|2|M|69.02,63.93|Z|2512; The Coiled Isle|N|Free Orweyna by beating her down.|
+R Tokka's Landing|ACTIVE|92937|M|57.49,49.12|Z|2512; The Coiled Isle|N|Return to Tokka's Landing to continue the campaign story.|
+T Awakened Evil|QID|92937|M|57.49,49.12|Z|2512; The Coiled Isle|N|To Lady Liadrin.|
 
-;Chapter 5- Battle for Atal'Utek
-A The Vaults of Atal'Utek: Altar of Fangs|QID|93417|PRE|92936|
-A Nature of Her Wounds|QID|93419|PRE|93417|
-A The Venomous Abyss|QID|93418|PRE|93419|
+;CHAPTER 5 - Battle for Atal'Utek
+A The Vaults of Atal'Utek: Altar of Fangs|QID|93417|PRE|92936|M|57.49,49.12|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
+R Gate of the Eastern Fang|ACTIVE|93417|M|45.47,64.94|Z|2512; The Coiled Isle|N|Fly over to the Gate for the Vault.|
+R Amani Foothold|ACTIVE|93417|M|47.39,81.91;51.39,81.99;47.24,68.89|CS|Z|2509; Vaults of Atal'Utek|N|Follow the corridor until you see a white air current, step on it to fly down.|
+C The Vaults of Atal'Utek: Altar of Fangs|QID|93417|QO|1|M|47.24,60.82|Z|2509; Vaults of Atal'Utek|CHAT|N|Check in with Warleader Abdumati.|
+A Into the Vaults of Atal'Utek|QID|98388|PRE|92936|M|47.24,60.82|Z|2509; Vaults of Atal'Utek|N|From Warleader Abdumati.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|1|M|47.22,60.30|Z|2509; Vaults of Atal'Utek|V|N|Ride the Spirtwing Gust down to Naz'ara.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|2|M|46.86,51.86|Z|2509; Vaults of Atal'Utek|N|If there are any mobs there, you need to kill them, then you automatically rescue Naz'ara.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|3|M|46.86,51.86|Z|2509; Vaults of Atal'Utek|EAB|N|Pick up the feather and then use your [color=33fff9] Extra Action Button [/color]for a ride back up.|
+C The Vaults of Atal'Utek: Altar of Fangs|QID|93417|QO|2|M|47.04,68.31|Z|2509; Vaults of Atal'Utek|CHAT|N|Meet up with Lady Liadrin at the dungeon entrance. You can queue for a follower dungeon at Lady Liadrin if you so choose. Run the dungeon to progress the questline.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|4|M|49.93,61.89|Z|2509; Vaults of Atal'Utek|CHAT|N|Ask the Windcaller for a ride to the Eastern Amani Outpost.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|5|M|54.31,39.27|Z|2509; Vaults of Atal'Utek|CHAT|N|Ask the Windcaller to hide you (optional)
+C Into the Vaults of Atal'Utek|QID|98388|QO|6|M|50.34,38.99|Z|2509; Vaults of Atal'Utek|H|N|Rescue Hawkeye Socho.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|7|M|54.31,39.26|Z|2509; Vaults of Atal'Utek|CHAT|N|Ask the Windcaller for a ride to the Northern Amani Bulwark.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|8|M|42.35,14.57|Z|2509; Vaults of Atal'Utek|H|N|Rescue Commander Gazba.|
+C Into the Vaults of Atal'Utek|QID|98388|QO|9|M|42.35,14.57|Z|2509; Vaults of Atal'Utek|H|N|Pick up the coin from the ground.|
+F Amani Foothold|ACTIVE|98388|M|41.61,23.32|Z|2509; Vaults of Atal'Utek|CHAT|N|Ask the Windcaller for a ride back to the Amani Foothold.|
+T Into the Vaults of Atal'Utek|QID|98388|M|47.24,60.80|Z|2509; Vaults of Atal'Utek|N|To Warleader Abdumati.|
+A Vaults of Atal'Utek: One Coin Too Many|QID|97640|PRE|98388|M|47.24,60.80|Z|2509; Vaults of Atal'Utek|N|From Warleader Abdumati.|
+A Vaults of Atal'Utek: A Toxic Tour|QID|98515|PRE|97388|M|47.24,60.80|Z|2509; Vaults of Atal'Utek|N|From Warleader Abdumati. Pick up all the repeatable quests too.|
+T Vaults of Atal'Utek: One Coin Too Many|QID|97640|M|51.18,62.80|Z|2509; Vaults of Atal'Utek|N|To Er'inye.|
+A Vaults of Atal'Utek: The Altar of Corrosion|QID|98428|PRE|97640|M|51.18,62.80|Z|2509; Vaults of Atal'Utek|N|From Er'inye.|
+C Vaults of Atal'Utek: The Altar of Corrosion|QID|98428|QO|1|M|51.18,62.80|Z|2509; Vaults of Atal'Utek|CHAT|N|Are we using our wisdom here... well no, but ask Er'inye to corrode your spirit.|
+C Vaults of Atal'Utek: The Altar of Corrosion|QID|98428|QO|2|M|51.24,62.58|Z|2509; Vaults of Atal'Utek|CHAT|N|Click on the alter anyway and spend your first power-up.|
+T Vaults of Atal'Utek: The Altar of Corrosion|QID|98428|M|51.18,62.80|Z|2509; Vaults of Atal'Utek|N|To Er'inye.|
+C Vaults of Atal'Utek: A Toxic Tour|QID|98428|M|PLAYER|N|Participate in the activities in the vault and do the repeatable quests.|
+t Vaults of Atal'Utek: A Toxic Tour|QID|98515|M|47.24,60.80|Z|2509; Vaults of Atal'Utek|N|To Warleader Abdumati.|
+f Amani Foothold|ACTIVE|93417|M|44.43,62.19|Z|2509; Vaults of Atal'Utek|N|At Eagletender Mal'Tiki. You can fly back to Tokka's Landing from here.|
+T The Vaults of Atal'Utek: Altar of Fangs|QID|93417|M|57.27,48.59|Z|2512; The Coiled Isle|N|When you have finished whatever you choose to do in the vaults, head out to find Lady Liadrin.|
+A Nature of Her Wounds|QID|93419|PRE|93417|M|57.27,48.59|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
+C Nature of Her Wounds|QID|93419|QO|1|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Place the dagger on the ground.|
+C Nature of Her Wounds|QID|93419|QO|2|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Destroy the dagger (by clicking it.)
+T Nature of Her Wounds|QID|93419|M|57.27,48.66|Z|2512; The Coiled Isle|N|To Zul'jarra.|
+A The Venomous Abyss|QID|93418|PRE|93419|N|this is a quest to do the raid. Haven't found it yet, maybe not available until next week?|
+T The Venomous Abyss|QID|93418|
 A Lor'themar's Judgement|QID|93420|PRE|93418|
-A Into the Vaults of Atal'Utek|QID|98388|PRE|93420|
-A Vaults of Atal'Utek: One Coin Too Many|QID|97640|PRE|98388|
-A Vaults of Atal'Utek: A Toxic Tour|QID|98515|PRE|97640|
-A Vaults of Atal'Utek: The Altar of Corrosion|QID|98428|PRE|98515|
+T Lor'themar's Judgement|QID|93420|
 
-;Chapter 6 - The Call of the Void
-A Echoes of the Darkwell|QID|95973|PRE|98428
+
+;CHAPTER 6 - The Call of the Void
+A Echoes of the Darkwell|QID|95973|PRE|93420|
+T Echoes of the Darkwell|QID|95973|
 A What Hope in the Light?|QID|94519|PRE|95973|
+T What Hope in the Light?|QID|94519|
 A Resurgence in Deatholme|QID|94520|PRE|94519|
+T Resurgence in Deatholme|QID|94520|
 A The Direct Method|QID|94521|PRE|94520|
+T The Direct Method|QID|94521|
 A They Always Write It Down|QID|94522|PRE|94521|
+T They Always Write It Down|QID|94522|
 A My Poor Beautiful Self|QID|94523|PRE|94522|
+T My Poor Beautiful Self|QID|94523|
 A Under New Management|QID|94524|PRE|94523|
+T Under New Management|QID|94524|
 A A Comeback Story|QID|94525|PRE|94524|
+T A Comeback Story|QID|94525|
 A Verifiably Untrustworthy|QID|94526|PRE|94525|
+T Verifiably Untrustworthy|QID|94526
 A Null Space|QID|94527|PRE|94526|
+T Null Space|QID|94527|
 A Carving Out Room|QID|94528|PRE|94527|
+T Carving Out Room|QID|94528|
 A A Dark Shadow Looms|QID|94529|PRE|94528|
+T A Dark Shadow Looms|QID|94529|
 A The Call of the Void|QID|94530|PRE|94529|
+T The Call of the Void|QID|94530|PRE|
 A Like Mother, Like Son|QID|94531|PRE|94530|
-
+T Like Mother, Like Son|QID|94531|
 ]]
 end)
