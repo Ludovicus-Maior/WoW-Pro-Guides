@@ -193,26 +193,49 @@ end
 end
  ]]
 
-function WoWPro:TitlebarShow()
-    local titlebar = WoWPro.Titlebar
-    local buttonbar = WoWPro.ButtonBar
+-- Maintain visibility of bars based on user toggle.
+function WoWPro:UpdateBars()
+    local db = WoWProDB.profile
 
-    -- Capture old states
-    local oldTitle = titlebar:IsShown()
-    local oldButton = buttonbar:IsShown()
-
-    -- Apply user toggles
-    titlebar:SetShown(WoWProDB.profile.titlebar)
-    buttonbar:SetShown(WoWProDB.profile.buttonbar)
-
-    -- Capture new states
-    local newTitle = titlebar:IsShown()
-    local newButton = buttonbar:IsShown()
-
-    -- Only reanchor if visibility actually changed
-    if oldTitle ~= newTitle or oldButton ~= newButton then
-        WoWPro.MainFrameLayout()
+    -- BUTTON BAR ---------------------------------------------------------
+    if db.buttonbar then
+        WoWPro.ButtonBar:Show()
+        WoWPro.ButtonBar:SetHeight(WoWPro.ButtonBarOriginalHeight)
+    else
+        WoWPro.ButtonBar:SetHeight(0)
+        WoWPro.ButtonBar:Hide()
     end
+
+    -- OPTION BUTTON ------------------------------------------------------
+    -- Always size OB based on the ORIGINAL bar height (static)
+    local obHeight = WoWPro.ButtonBarOriginalHeight or 24
+    WoWPro.OptionButton:SetHeight(obHeight)
+    WoWPro.OptionButton:SetWidth(obHeight)
+
+    -- TITLE BAR ----------------------------------------------------------
+    if db.titlebar then
+        WoWPro.Titlebar:Show()
+
+        -- Safe font height measurement
+        local titleFontHeight = 0
+        if WoWPro.TitleText and WoWPro.TitleText.GetStringHeight then
+            titleFontHeight = WoWPro.TitleText:GetStringHeight() or 0
+        end
+
+        local padding = 4
+        local computedHeight = titleFontHeight + padding
+
+        -- Titlebar must never be smaller than the OptionButton
+        local minHeight = WoWPro.ButtonBarOriginalHeight or 24
+        WoWPro.Titlebar:SetHeight(math.max(computedHeight, minHeight))
+
+    else
+        WoWPro.Titlebar:SetHeight(0)
+        WoWPro.Titlebar:Hide()
+    end
+
+    -- MAIN FRAME RESIZE --------------------------------------------------
+    WoWPro:UpdateMainFrameLayout()
 end
 
 -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
@@ -405,8 +428,6 @@ end
 -- Titlebar Setup --
 function WoWPro:TitlebarSet()
     WoWPro:dbp("WoWPro:TitlebarSet()")
-    -- Titlebar enable/disable
-    WoWPro:TitlebarShow()
 
     local borderMetrics = WoWPro:GetBorderMetrics()
     -- Titlebar backdrop
@@ -600,7 +621,7 @@ function WoWPro.RowSizeSet()
     WoWPro.GuideFrame:SetHeight(totalh)
 
     -- LET MAINFRAME LAYOUT HANDLE EVERYTHING ELSE
-    WoWPro.MainFrameLayout()
+    WoWPro:UpdateMainFrameLayout()
 
     -- RECORDER SUPPORT
     if WoWPro.Recorder then
@@ -689,8 +710,8 @@ function WoWPro:AnchorSave(where)
     local frame = WoWPro.MainFrame
     if not frame then return end
 
-    -- Read current anchor (WoW may return 3 or 5 values)
-    local point, relativePoint, offsetX, offsetY = frame:GetPoint()
+    -- Read current anchor (GetPoint returns 5 values; capture all to keep offsets aligned)
+    local point, _relativeTo, relativePoint, offsetX, offsetY = frame:GetPoint()
 
     offsetX = offsetX or 0
     offsetY = offsetY or 0
@@ -715,12 +736,14 @@ function WoWPro:AnchorSave(where)
     WoWProDB.profile.anchorY = offsetY
 
     -- Ensure expansionAnchor is vertical
-    local expansionAnchor = WoWProDB.profile.expansionAnchor or point
+    -- The anchor will never be just left or right. This overrides the bottom setting and it will expand in the wrong direction
+--[[     local expansionAnchor = WoWProDB.profile.expansionAnchor or point
     if expansionAnchor == "LEFT" or expansionAnchor == "RIGHT" then
         expansionAnchor = "TOP"
     end
     WoWProDB.profile.expansionAnchor = expansionAnchor
-end
+ ]]
+ end
 
 function WoWPro.AnchorResync()
     local frame = WoWPro.MainFrame
@@ -773,6 +796,11 @@ function WoWPro.AnchorOffset()
     WoWPro.AnchorOffsets = offsets
 end
 
+function WoWPro:UpdateMainFrameLayout()
+    WoWPro.AnchorOffset()
+    WoWPro.MainFrameLayout()
+end
+
 function WoWPro.RowSet()
     WoWPro:dbp("WoWPro.RowSet()")
     WoWPro.RowColorSet()
@@ -785,12 +813,12 @@ function WoWPro.CustomizeFrames()
     WoWPro.InhibitAnchorSave = true
 
     -- VISUAL / LAYOUT INITIALIZATION
-    WoWPro.TitlebarSet()
-    WoWPro.MainFrameLayout()
-    WoWPro.BackgroundSet()
-    WoWPro.RowSet()
-    WoWPro.ResizeSet()
-    WoWPro.MinimapSet()
+    WoWPro.TitlebarSet()        -- styling only
+    WoWPro.MainFrameLayout()    -- main frame layout only
+    WoWPro.BackgroundSet()      -- background visuals only
+    WoWPro.RowSet()             -- row visuals only
+    WoWPro.ResizeSet()          -- resize handle visuals only
+    WoWPro.MinimapSet()         -- minimap button visuals only
 
     -- MODULE-SPECIFIC CUSTOMIZATION
     for name, module in WoWPro:IterateModules() do
@@ -859,14 +887,18 @@ end
 function WoWPro:CreateOptionButton()
     -- OPTION BUTTON (drag + right-click menu)
     local OptionButton = CreateFrame("Button", "WoWPro.OptionButton", WoWPro.MainFrame, BackdropTemplateMixin and "BackdropTemplate" or nil)
-    OptionButton:SetSize(20, 16)
+
+    -- Make the button match the buttonbar height
+    local barHeight = WoWPro.ButtonBar:GetHeight()
+    OptionButton:SetHeight(barHeight)
+    OptionButton:SetWidth(barHeight)   -- keep it square
+
     OptionButton:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
     OptionButton:RegisterForClicks("AnyUp")
 
     -- Icon
     local optionsicon = OptionButton:CreateTexture(nil, "OVERLAY")
-    optionsicon:SetSize(14, 14)
-    optionsicon:SetPoint("CENTER")
+    optionsicon:SetAllPoints()   -- icon fills the button
     optionsicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
     -- Tooltip
@@ -1209,6 +1241,9 @@ function WoWPro:CreateButtonBar()
     WoWPro.SkipStepsButton = ssb
     WoWPro.DiscordButton = db
     WoWPro.ButtonBar = bar
+
+    -- Capture the real height AFTER creation
+    WoWPro.ButtonBarOriginalHeight = bar:GetHeight()
 end
 
 -- TitleBar --
@@ -1233,7 +1268,6 @@ function WoWPro:CreateTitleBar()
     titletext:SetTextColor(1, 1, 1)
 
     WoWPro.TitleText = titletext
-
 end
 
 -- StickyHeader --
@@ -1692,8 +1726,8 @@ end
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
     WoWPro:CreateMainFrame()
-    WoWPro:CreateOptionButton()
     WoWPro:CreateButtonBar()
+    WoWPro:CreateOptionButton()
     WoWPro:CreateTitleBar()
     WoWPro:CreateStickyHeader()
     WoWPro:CreateGuideFrame()
@@ -1707,36 +1741,8 @@ function WoWPro:CreateFrames()
     WoWPro:CreateMiniMapButton()
     WoWPro:CreateDropdownMenu()
     WoWPro:CreateGuideList()
---      local createGuideFrame()
-            --Create the guide frame with default settings
-            --Attach todefault position on screen
-            --Set to moveable and resizeable
---      local createTitleBar()
-            --Create the title bar frame with default settings
-            --Attach to the guide frame, above it
---      local createStickyFrame()
-            --Create the sticky frame with default settings
-            --Attach to the guide frame, inside at the top
-            --Hide the sticky frame by default
---      local createResizeButton()
-            --Create the resize button frame with default settings
-            --Attach to the guide frame, inside at the bottom right
---      local createGuideWindowScrollbar()
-            --Create the scroll bar frame with default settings
-            --Attach to the guide frame, outside to the right
-            --Hide by default
---      local createRows()
-            --Create the 25 row frames with default settings
-            --Attach to the guide frame, inside, starting at the top (first attaches to the sticky frame)
---      local createMouseNotes()
-            --Create the 25 mouse note frames with default settings
-            --Attach to the row frames
-            --Hide by default
---      local createDialog()
-            --Create the dialog frame with default settings - empty by default
-            --Attach to the center of the screen
-            --Hide by default
---      local createMiniMapButton()
+    WoWPro:TitlebarSet()
+    WoWPro:UpdateBars()
 end
 
 --Enables or Disables MainFrame (hides/shows)
