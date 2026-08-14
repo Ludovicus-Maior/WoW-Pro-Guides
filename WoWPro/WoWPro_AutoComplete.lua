@@ -250,15 +250,12 @@ end
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
-    local guideStateChanged = false
     for i = 1, 1 + WoWPro:GetActiveStickyCount() do
         local index = WoWPro.rows[i].index
         local lootItems = WoWPro.lootitem[index]
         if lootItems then
             if WoWProDB.profile.track then
-                local track = WoWPro.GetLootTrackingInfo(lootItems)
-                WoWPro.rows[i].track:SetText(track:trim())
-                WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s", track)
+                WoWPro.UpdateQuestTrackerRow(WoWPro.rows[i])
             end
             local allComplete = true
             for itemID, qty in pairs(lootItems) do
@@ -272,14 +269,10 @@ function WoWPro.AutoCompleteLoot()
             if allComplete and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                 WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
                 WoWPro.CompleteStep(index, "AutoCompleteLoot", nil, "AutoCompleteLoot")
-                guideStateChanged = true
             else
                 WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
             end
         end
-    end
-    if guideStateChanged then
-        WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
     end
 end
 
