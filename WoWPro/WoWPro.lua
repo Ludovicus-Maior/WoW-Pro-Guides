@@ -744,7 +744,7 @@ function WoWPro:DevZone()
             end
         end
         f:SetScript("OnUpdate",function(s,e)
-            if not _G.MouseIsOver(f) then
+            if not f:IsMouseOver() then
                 updateText()
             end
         end)
