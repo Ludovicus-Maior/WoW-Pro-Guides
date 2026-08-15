@@ -226,7 +226,7 @@ end
 
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
-    if not WoWPro.MaybeCombatLockdown() then
+    if not _G.InCombatLockdown() then
         WoWPro.AutoCompleteBuff(...)
     end
     end)
