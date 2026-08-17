@@ -335,12 +335,12 @@ function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
         GameTooltip:SetOwner(frameSelf, "ANCHOR_LEFT")
 
         -- Currency: "$123"
-        if type(_self.ID) == "string" and _self.ID:sub(1,1) == "$" then
-            local cid = tonumber(_self.ID:sub(2))
+        if type(frameSelf.ID) == "string" and frameSelf.ID:sub(1,1) == "$" then
+            local cid = tonumber(frameSelf.ID:sub(2))
             if cid then GameTooltip:SetCurrencyByID(cid) end
         else
             -- Item
-            local iid = tonumber(_self.ID)
+            local iid = tonumber(frameSelf.ID)
             if iid then GameTooltip:SetItemByID(iid) end
         end
 
