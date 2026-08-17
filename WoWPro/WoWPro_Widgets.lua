@@ -33,7 +33,10 @@ end
 function WoWPro:CreateCheck(parent)
     local check = _G.CreateFrame("CheckButton", nil, parent)
     check:RegisterForClicks("anyDown")
-    check:SetPoint("TOPLEFT")
+
+    check:ClearAllPoints()
+    check:SetPoint("LEFT", parent, "LEFT", WoWPro.DEFAULT_BORDER_METRICS.stackSideInset, 0)
+
     check:SetWidth(16)
     check:SetHeight(16)
     check:SetNormalTexture(WoWPro.UI_CheckBox_Up)
@@ -91,9 +94,9 @@ end
 
 function WoWPro:CreateStep(parent, anchor)
     local step = parent:CreateFontString(nil, nil, "GameFontHighlight")
-    step:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
-    step:SetPoint("RIGHT")
-    step:SetJustifyH("LEFT")
+    step:ClearAllPoints()
+    step:SetPoint("LEFT", anchor, "RIGHT", WoWPro.DEFAULT_BORDER_METRICS.stackSideInset, 0)
+    step:SetPoint("RIGHT", parent, "RIGHT", -WoWPro.DEFAULT_BORDER_METRICS.stackSideInset, 0)
 
     return step
 end
@@ -302,62 +305,83 @@ end
 function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
     positionParent = positionParent or parent
     buttonIndex = buttonIndex or 1
-    local lootsbutton = _G.CreateFrame("Button", "WoWPro_looticon"..id.."_"..buttonIndex, parent)
-    lootsbutton:SetFrameStrata("MEDIUM")
-    lootsbutton:SetHeight(24)
-    lootsbutton:SetWidth(24)
-    -- Position based on buttonIndex: 0 pixels for first, -26 for second, -52 for third, etc.
+
+    -- Create the actual clickable button
+    local btn = CreateFrame("Button", "WoWPro_looticon"..id.."_"..buttonIndex, parent)
+    btn:SetFrameStrata("MEDIUM")
+    btn:SetSize(24, 24)
+    btn:Hide()
+
+    -- Position relative to parent row
     local xOffset = -(buttonIndex - 1) * 26
-    lootsbutton:SetPoint("TOPRIGHT", positionParent, "TOPRIGHT", xOffset, 0)
-    lootsbutton.ID = nil
-    lootsbutton:SetScript("OnEnter", function(this)
-        _G.GameTooltip:SetOwner(this, 'ANCHOR_LEFT')
-        if this.ID and this.ID:len() > 1 and this.ID:sub(1,1) == "$" then
-            _G.GameTooltip:SetCurrencyByID(tonumber(this.ID:sub(2)))
-            _G.GameTooltip:Show()
-        elseif tonumber(this.ID) then
-            _G.GameTooltip:SetItemByID(tonumber(this.ID))
-            _G.GameTooltip:Show()
-        end
-    end)
-    lootsbutton:SetScript("OnLeave", function(this)
-        if this.ID then
-            _G.GameTooltip:Hide()
-        end
-    end)
+    btn:ClearAllPoints()
+    btn:SetPoint(
+        "RIGHT",
+        positionParent,
+        "RIGHT",
+        xOffset - (WoWPro.DEFAULT_BORDER_METRICS.stackSideInset or 4),
+        0
+    )
 
+    -- Create icon texture
+    local icon = btn:CreateTexture(nil, "ARTWORK")
+    icon:SetAllPoints(btn)
+    icon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
 
-    local lootsicon = lootsbutton:CreateTexture(nil, "ARTWORK")
-    lootsbutton.lootsicon = lootsicon
-    lootsicon:SetWidth(24)
-    lootsicon:SetHeight(24)
-    lootsicon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
-    lootsicon:SetAllPoints(lootsbutton)
+    -- Tooltip on hover
+    btn:SetScript("OnEnter", function(self)
+        if not self.ID then return end
+        GameTooltip:SetOwner(self, "ANCHOR_LEFT")
 
-    function lootsbutton:SetItemByID(ID)
-        self.ID = ID
-        local name, texture, _
-        if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
-            local result = _G.C_CurrencyInfo.GetCurrencyInfo(tonumber(ID:sub(2)))
-            if result then
-                name = result['name']
-                texture = result['iconFileID']
-            end
-        elseif tonumber(ID) then
-            name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
-        end
-        if texture then
-            self.lootsicon:SetTexture(texture)
-            return name
+        -- Currency: "$123"
+        if type(self.ID) == "string" and self.ID:sub(1,1) == "$" then
+            local cid = tonumber(self.ID:sub(2))
+            if cid then GameTooltip:SetCurrencyByID(cid) end
         else
-            self.lootsicon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
+            -- Item
+            local iid = tonumber(self.ID)
+            if iid then GameTooltip:SetItemByID(iid) end
+        end
+
+        GameTooltip:Show()
+    end)
+
+    btn:SetScript("OnLeave", function()
+        GameTooltip:Hide()
+    end)
+
+    -- Assign item/currency and update icon
+    function btn:SetItemByID(ID)
+        self.ID = ID
+        local name, texture
+
+        -- Currency
+        if type(ID) == "string" and ID:sub(1,1) == "$" then
+            local cid = tonumber(ID:sub(2))
+            local info = C_CurrencyInfo.GetCurrencyInfo(cid)
+            if info then
+                name = info.name
+                texture = info.iconFileID
+            end
+
+        -- Item
+        else
+            local iid = tonumber(ID)
+            if iid then
+                name, _, _, _, _, _, _, _, _, texture = WoWPro.C_Item_GetItemInfo(iid)
+            end
+        end
+
+        if texture then
+            icon:SetTexture(texture)
+            return name or ("Item "..tostring(ID))
+        else
+            icon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
             return ("Unknown item [%s]"):format(tostring(ID))
         end
     end
 
-    lootsbutton:Hide()
-
-    return lootsbutton, lootsicon
+    return btn, icon
 end
 
 function WoWPro:CreateHeading(parent, text, subtext)

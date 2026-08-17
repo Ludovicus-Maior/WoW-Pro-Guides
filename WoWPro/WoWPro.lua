@@ -19,6 +19,17 @@ WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {} -- Temporary local log
 WoWPro.GuideLoaded = false
 
+-- UI border + padding metrics (must load before Frames/Widgets)
+WoWPro.DEFAULT_BORDER_METRICS = {
+    edgeSize = 4,
+    mainInsets = { left = 4, right = 3, top = 4, bottom = 3 },
+    buttonInsets = { left = 4, right = 3, top = 4, bottom = 0 },
+    titleInsets = { left = 4, right = 3, top = 4, bottom = 3 },
+    titleTextYOffset = 5,
+    stackTopInset = 4,
+    stackSideInset = 4,
+}
+
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
 function WoWPro:Embed(target)
@@ -279,7 +290,6 @@ function WoWPro:LogShow()
     end)
 end
 
-
 function WoWPro.toboolean(v)
     v = tonumber(v) or v  -- Catch numeric strings
     if type(v) == "string" then
@@ -301,8 +311,6 @@ function WoWPro.toboolean(v)
     return false
 end
 WoWPro:Export("toboolean")
-
-
 
 -- Default profile options --
 local defaults = { profile = {
@@ -524,15 +532,15 @@ function WoWPro:OnEnable()
 
     WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
 
-local lastAnchor = WoWProDB.profile.expansionAnchor
+    local lastAnchor = WoWProDB.profile.expansionAnchor
 
-C_Timer.NewTicker(0.1, function()
-    local cur = WoWProDB.profile.expansionAnchor
-    if cur ~= lastAnchor then
-        print("DEBUG: expansionAnchor CHANGED from", tostring(lastAnchor), "to", tostring(cur))
-        lastAnchor = cur
-    end
-end)
+    C_Timer.NewTicker(0.1, function()
+        local cur = WoWProDB.profile.expansionAnchor
+        if cur ~= lastAnchor then
+            print("DEBUG: expansionAnchor CHANGED from", tostring(lastAnchor), "to", tostring(cur))
+            lastAnchor = cur
+        end
+    end)
 
     if not WoWPro.FramesLoaded then
         WoWPro:CreateFrames()
@@ -670,7 +678,6 @@ end)
         module:Enable()
     end
 end
-
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
@@ -1214,8 +1221,6 @@ function WoWPro:LoadAllGuides()
     WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))
     WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
 end
-
-
 
 --- Release Function Compatibility Section
 WoWPro.TocVersion =  select(4, _G.GetBuildInfo())

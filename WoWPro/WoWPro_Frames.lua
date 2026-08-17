@@ -90,32 +90,13 @@ function WoWPro:MouseSet()
         end
     end)
 
-    -- BUTTONBAR BUTTONS (click handlers)
-        -- GUIDE LIST BUTTON
-        WoWPro.GuideListButton:SetScript("OnClick", function()
-            WoWPro:ToggleGuideList()
-        end)
-        -- CURRENT GUIDE BUTTON
-        WoWPro.CurrentGuideButton:SetScript("OnClick", function()
-            WoWPro:ShowCurrentGuide()
-        end)
-        -- RESET GUIDE BUTTON
-        WoWPro.ResetGuideButton:SetScript("OnClick", function()
-            WoWPro:ResetGuide()
-        end)
-        -- SKIP STEPS BUTTON
-        WoWPro.SkipStepsButton:SetScript("OnClick", function()
-            WoWPro:SkipStep()
-        end)
-        -- DISCORD BUTTON
-        WoWPro.DiscordButton:SetScript("OnClick", function()
-            WoWPro:OpenDiscordDialog()
-        end)
-
-     -- TITLEBAR (double-click only)
-    WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
+    -- TITLEBAR (double-click only)
+    WoWPro.Titlebar:SetScript("OnDoubleClick", function(this)
         if WoWPro.GuideFrame:IsVisible() then
-            if WoWPro.StickyHeader:IsShown() then WoWPro.StickyHeader:Hide(); WoWPro.StickyHide = true end
+            if WoWPro.StickyHeader:IsShown() then
+                WoWPro.StickyHeader:Hide()
+                WoWPro.StickyHide = true
+            end
             WoWPro.GuideFrame:Hide()
             WoWPro.UserCollapsed = true
             WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
@@ -127,7 +108,10 @@ function WoWPro:MouseSet()
         else
             WoWPro.GuideFrame:Show()
             WoWPro.UserCollapsed = false
-            if WoWPro.StickyHide then WoWPro.StickyHeader:Show(); WoWPro.StickyHide = false end
+            if WoWPro.StickyHide then
+                WoWPro.StickyHeader:Show()
+                WoWPro.StickyHide = false
+            end
             WoWPro.MainFrame:StartSizing("TOP")
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
             WoWPro.MainFrame:StopMovingOrSizing()
@@ -137,67 +121,27 @@ function WoWPro:MouseSet()
         end
     end)
 
-   -- RESIZE BUTTON (resize only)
+    -- RESIZE BUTTON (resize only)
     local RB = WoWPro.resizebutton
     RB:SetScript("OnMouseDown", WoWPro.ResizeStart)
     RB:SetScript("OnMouseUp", WoWPro.ResizeEnd)
 
-    -- MAINFRAME SCROLL WHEEL (This one may need rework to GuideFrame later - Hendo72)
-    WoWPro.MainFrame:SetScript("OnMouseWheel", function(this, val)
-        if WoWProDB.profile.guidescroll then
-            WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val)
-        end
-    end)
-
-    -- GuideFrame
-    WoWPro.GuideFrame:EnableMouse(true)
-    -- this is not ready for use yet, but it will be used to scroll the guide frame when the mouse is over it
---[[     WoWPro.GuideFrame:SetScript("OnMouseWheel", function(self, delta)
+    -- MAINFRAME SCROLL WHEEL
+    WoWPro.MainFrame:SetScript("OnMouseWheel", function(_, delta)
         if WoWProDB.profile.guidescroll then
             WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - delta)
         end
     end)
- ]]
-end
 
---[[ function WoWPro:PaddingSet()
-    if _G.InCombatLockdown() then return end
-    local pad = WoWProDB.profile.pad
-    -- Padding Customization --
-    if WoWPro.Titlebar:IsShown() then
-        WoWPro.StickyHeader:SetPoint("TOPLEFT", WoWPro.Titlebar, "BOTTOMLEFT", pad+3, -pad+3)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", -pad-3, -pad+3)
-    else
-        -- Match the same vertical padding as the titlebar-shown case
-        WoWPro.StickyHeader:SetPoint("TOPLEFT", pad+3, -pad+3)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", -pad-3, -pad+3)
-    end
-    WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
-    WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
-    -- Only anchor to bottom when scrolling is enabled to constrain height
-    if WoWProDB.profile.guidescroll then
-        WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
-        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
-        local mainHeight = WoWPro.MainFrame:GetHeight() or 0
-        local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
-        WoWPro.GuideFrame:SetHeight(guideHeight)
-    else
-        WoWPro.GuideFrame:ClearAllPoints()
-        WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
-        WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
-        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
-        local mainHeight = WoWPro.MainFrame:GetHeight() or 0
-        local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
-        WoWPro.GuideFrame:SetHeight(guideHeight)
-    end
+    -- GuideFrame mouse enable (scroll handler added later)
+    WoWPro.GuideFrame:EnableMouse(true)
 end
- ]]
 
 -- Maintain visibility of bars based on user toggle.
 function WoWPro:UpdateBars()
     local db = WoWProDB.profile
 
-    -- BUTTON BAR ---------------------------------------------------------
+    -- BUTTON BAR
     if db.buttonbar then
         WoWPro.ButtonBar:Show()
         WoWPro.ButtonBar:SetHeight(WoWPro.ButtonBarOriginalHeight)
@@ -206,17 +150,15 @@ function WoWPro:UpdateBars()
         WoWPro.ButtonBar:Hide()
     end
 
-    -- OPTION BUTTON ------------------------------------------------------
-    -- Always size OB based on the ORIGINAL bar height (static)
+    -- OPTION BUTTON
     local obHeight = WoWPro.ButtonBarOriginalHeight or 24
     WoWPro.OptionButton:SetHeight(obHeight)
     WoWPro.OptionButton:SetWidth(obHeight)
 
-    -- TITLE BAR ----------------------------------------------------------
+    -- TITLE BAR
     if db.titlebar then
         WoWPro.Titlebar:Show()
 
-        -- Safe font height measurement
         local titleFontHeight = 0
         if WoWPro.TitleText and WoWPro.TitleText.GetStringHeight then
             titleFontHeight = WoWPro.TitleText:GetStringHeight() or 0
@@ -224,17 +166,22 @@ function WoWPro:UpdateBars()
 
         local padding = 4
         local computedHeight = titleFontHeight + padding
-
-        -- Titlebar must never be smaller than the OptionButton
         local minHeight = WoWPro.ButtonBarOriginalHeight or 24
-        WoWPro.Titlebar:SetHeight(math.max(computedHeight, minHeight))
 
+        WoWPro.Titlebar:SetHeight(math.max(computedHeight, minHeight))
     else
         WoWPro.Titlebar:SetHeight(0)
         WoWPro.Titlebar:Hide()
     end
 
-    -- MAIN FRAME RESIZE --------------------------------------------------
+    -- SCROLLBAR
+    if db.guidescroll then
+        WoWPro.Scrollbar:Show()
+    else
+        WoWPro.Scrollbar:Hide()
+    end
+
+    -- MAIN FRAME RESIZE
     WoWPro:UpdateMainFrameLayout()
 end
 
@@ -324,7 +271,7 @@ function WoWPro:ClampSideButtons()
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
             local function check(btn)
-                if btn and btn:IsShown() then
+                if btn and btn.IsShown and btn:IsShown() then
                     local left = btn:GetLeft()
                     local right = btn:GetRight()
                     if left and left < screenLeft + margin then
@@ -389,39 +336,29 @@ function WoWPro:ClampSideButtons()
     WoWPro.SetMouseNotesPoints()
 end
 
-local DEFAULT_BORDER_METRICS = {
-    edgeSize = 4,
-    mainInsets = { left = 4, right = 3, top = 4, bottom = 3 },
-    buttonInsets = { left = 4, right = 3, top = 4, bottom = 0 },
-    titleInsets = { left = 4, right = 3, top = 4, bottom = 3 },
-    titleTextYOffset = 5,
-    stackTopInset = 4,
-    stackSideInset = 4,
-}
-
 function WoWPro:GetBorderMetrics()
     return {
-        edgeSize = DEFAULT_BORDER_METRICS.edgeSize,
+        edgeSize = WoWPro.DEFAULT_BORDER_METRICS.edgeSize,
         mainInsets = {
-            left = DEFAULT_BORDER_METRICS.mainInsets.left,
-            right = DEFAULT_BORDER_METRICS.mainInsets.right,
-            top = DEFAULT_BORDER_METRICS.mainInsets.top,
-            bottom = DEFAULT_BORDER_METRICS.mainInsets.bottom,
+            left = WoWPro.DEFAULT_BORDER_METRICS.mainInsets.left,
+            right = WoWPro.DEFAULT_BORDER_METRICS.mainInsets.right,
+            top = WoWPro.DEFAULT_BORDER_METRICS.mainInsets.top,
+            bottom = WoWPro.DEFAULT_BORDER_METRICS.mainInsets.bottom,
         },
         buttonInsets = {
-            left = DEFAULT_BORDER_METRICS.buttonInsets.left,
-            right = DEFAULT_BORDER_METRICS.buttonInsets.right,
-            top = DEFAULT_BORDER_METRICS.buttonInsets.top,
-            bottom = DEFAULT_BORDER_METRICS.buttonInsets.bottom,
+            left = WoWPro.DEFAULT_BORDER_METRICS.buttonInsets.left,
+            right = WoWPro.DEFAULT_BORDER_METRICS.buttonInsets.right,
+            top = WoWPro.DEFAULT_BORDER_METRICS.buttonInsets.top,
+            bottom = WoWPro.DEFAULT_BORDER_METRICS.buttonInsets.bottom,
         },
         titleInsets = {
-            left = DEFAULT_BORDER_METRICS.titleInsets.left,
-            right = DEFAULT_BORDER_METRICS.titleInsets.right + 1,
+            left = WoWPro.DEFAULT_BORDER_METRICS.titleInsets.left,
+            right = WoWPro.DEFAULT_BORDER_METRICS.titleInsets.right + 1,
             top = 0,
             bottom = 0,
-        },        titleTextYOffset = DEFAULT_BORDER_METRICS.titleTextYOffset,
-        stackTopInset = DEFAULT_BORDER_METRICS.stackTopInset,
-        stackSideInset = DEFAULT_BORDER_METRICS.stackSideInset,
+        },        titleTextYOffset = WoWPro.DEFAULT_BORDER_METRICS.titleTextYOffset,
+        stackTopInset = WoWPro.DEFAULT_BORDER_METRICS.stackTopInset,
+        stackSideInset = WoWPro.DEFAULT_BORDER_METRICS.stackSideInset,
     }
 end
 
@@ -540,13 +477,13 @@ end
 
 WoWPro.ShownRows = 0
 
+-- Compute row heights, stack rows vertically, and update GuideFrame/MainFrame layout
 function WoWPro.RowSizeSet()
     if InCombatLockdown() then return end
 
     local spc = WoWProDB.profile.space or 0
     local maxRows = WoWProDB.profile.numsteps + WoWPro:GetActiveStickyCount()
 
-    -- ROW HEIGHTS
     WoWPro.ShownRows = 0
     local totalh = 0
 
@@ -560,42 +497,34 @@ function WoWPro.RowSizeSet()
             break
         end
 
-        -- MEASURE CONTENTS
-        -- Step + icon
-        local headerH = math.max(row.step:GetHeight(), row.iconTexture:GetHeight())
+        -- FIXED-SIZE ELEMENTS (checkbox, action icon, loot buttons)
+        -- These DO NOT contribute to row height.
+        local fixedH = WoWPro.DEFAULT_ROW_HEIGHT or 16
 
-        -- Multiple loot buttons
-        local lootH = 0
-        if row.lootsbuttons then
-            for _, loot in ipairs(row.lootsbuttons) do
-                if loot.button:IsShown() then
-                    lootH = math.max(lootH, loot.button:GetHeight())
-                end
-            end
-        end
-        headerH = math.max(headerH, lootH)
+        -- STEP + TEXT HEIGHT (this drives row height)
+        local stepH = (row.step and row.step.GetHeight and row.step:GetHeight()) or 0
+        local headerH = math.max(stepH, fixedH)
 
-        -- Note
-        local noteH = (row.note and row.note:IsShown()) and row.note:GetHeight() or 0
-
-        -- Tracker
-        local trackH = (row.track and row.track:IsShown()) and row.track:GetHeight() or 0
-
-        -- Progress bar
-        local progressH = row.progressBar:IsVisible() and row.progressBar:GetHeight() or 0
-
-        -- Buttons (item, target, jump, EA)
-        local buttonH = 0
-        local function bump(btn)
-            if btn and btn:IsShown() then
-                buttonH = math.max(buttonH, btn:GetHeight() + 7)
-            end
+        -- NOTE HEIGHT
+        local noteH = 0
+        if row.note and row.note.IsShown and row.note:IsShown() then
+            noteH = (row.note.GetHeight and row.note:GetHeight()) or 0
         end
 
-        bump(row.itembutton)
-        bump(row.targetbutton)
-        bump(row.jumpbutton)
-        bump(row.eabutton)
+        -- TRACKER HEIGHT
+        local trackH = 0
+        if row.track and row.track.IsShown and row.track:IsShown() then
+            trackH = (row.track.GetHeight and row.track:GetHeight()) or 0
+        end
+
+        -- PROGRESS BAR HEIGHT
+        local progressH = 0
+        if row.progressBar and row.progressBar.IsShown and row.progressBar:IsShown() then
+            progressH = (row.progressBar.GetHeight and row.progressBar:GetHeight()) or 0
+        end
+
+        -- ITEM/TARGET/JUMP/EA BUTTONS (fixed size, do NOT affect row height)
+        local buttonH = fixedH + 7
 
         -- FINAL ROW HEIGHT
         local newh = headerH + noteH + trackH + progressH + (spc * 2) + 3
@@ -604,7 +533,59 @@ function WoWPro.RowSizeSet()
         row:SetHeight(newh)
         totalh = totalh + newh
 
-        -- STACK ROWS INSIDE GUIDEFRAME
+        -- LAYOUT: checkbox → action icon → step text
+        local INSET = WoWPro.DEFAULT_BORDER_METRICS.stackSideInset or 4
+
+        -- Checkbox
+        if row.check then
+            row.check:ClearAllPoints()
+            row.check:SetPoint("LEFT", row, "LEFT", INSET, 0)
+            row.check:SetSize(fixedH, fixedH)
+        end
+
+        -- Action icon (row.iconTexture.frame is the actual frame)
+        if row.iconTexture and row.iconTexture.frame then
+            local frame = row.iconTexture.frame
+            frame:ClearAllPoints()
+            frame:SetPoint("LEFT", row.check, "RIGHT", INSET, 0)
+            frame:SetSize(fixedH, fixedH)
+        end
+
+        -- Step text
+        if row.step then
+            row.step:ClearAllPoints()
+            row.step:SetPoint("LEFT",
+                (row.iconTexture and row.iconTexture.frame) or row.check,
+                "RIGHT", INSET, 0)
+        end
+
+        -- LOOT BUTTONS (fixed size, right-aligned)
+        if row.lootsbuttons then
+            for j, loot in ipairs(row.lootsbuttons) do
+                local btn = loot.button
+                local icon = loot.icon
+
+                if btn then
+                    btn:SetSize(fixedH, fixedH)
+                    btn:ClearAllPoints()
+
+                    -- Right‑aligned, spaced 26px apart
+                    local xOffset = -(j - 1) * 26
+                    btn:SetPoint("RIGHT", row, "RIGHT", xOffset - INSET, 0)
+                end
+
+                if icon and btn then
+                    icon:SetAllPoints(btn)
+                end
+            end
+        end
+
+        -- Step text right anchor (after loot buttons)
+        if row.step and row.lootsbuttons and row.lootsbuttons[1] and row.lootsbuttons[1].button then
+            row.step:SetPoint("RIGHT", row.lootsbuttons[1].button, "LEFT", -INSET, 0)
+        end
+
+        -- STACK ROWS VERTICALLY (ScrollMode removed)
         local spacing = WoWProDB.profile.stepSpacing or 0
 
         if i == 1 then
@@ -617,13 +598,10 @@ function WoWPro.RowSizeSet()
         WoWPro.ShownRows = WoWPro.ShownRows + 1
     end
 
-    -- GUIDEFRAME HEIGHT ONLY
+    -- GUIDEFRAME HEIGHT + MAINFRAME LAYOUT (ScrollMode removed)
     WoWPro.GuideFrame:SetHeight(totalh)
-
-    -- LET MAINFRAME LAYOUT HANDLE EVERYTHING ELSE
     WoWPro:UpdateMainFrameLayout()
 
-    -- RECORDER SUPPORT
     if WoWPro.Recorder then
         WoWPro.Recorder:CustomizeFrames()
     end
@@ -801,12 +779,78 @@ function WoWPro:UpdateMainFrameLayout()
     WoWPro.MainFrameLayout()
 end
 
-function WoWPro.RowSet()
-    WoWPro:dbp("WoWPro.RowSet()")
-    WoWPro.RowColorSet()
-    WoWPro.RowFontSet()
-    WoWPro.RowSizeSet()
-end
+--[[ function WoWPro.RowSet(row, step, action, note, item, trackText, progressValue)
+    row.step:SetText(step or "")
+    row.iconTexture:SetTexture(WoWPro.actiontexture[action] or "Interface\\Icons\\INV_Misc_QuestionMark")
+
+    -- Hide all loot buttons first
+    for _, loot in ipairs(row.lootsbuttons or {}) do
+        if loot.button then loot.button:Hide() end
+    end
+
+    local itemNames = {}
+
+    if item and row.lootsbuttons then
+        local items = {(";"):split(item)}
+        local idx = 1
+
+        for _, itemID in ipairs(items) do
+            itemID = itemID:trim()
+            if itemID ~= "" and idx <= #row.lootsbuttons then
+                local loot = row.lootsbuttons[idx]
+                local btn = loot.button
+                local name = btn:SetItemByID(itemID)
+                btn:Show()
+                table.insert(itemNames, name)
+                idx = idx + 1
+            end
+        end
+
+        -- Hide unused loot buttons
+        for j = idx, #row.lootsbuttons do
+            row.lootsbuttons[j].button:Hide()
+        end
+
+        -- Rewrite note based on action
+        if note ~= "" then
+            if action == "B" then
+                note = "Buy " .. table.concat(itemNames, ", ") .. " " .. note
+            elseif action == "M" then
+                note = "Craft " .. table.concat(itemNames, ", ") .. " " .. note
+            else
+                note = table.concat(itemNames, ", ") .. " " .. note
+            end
+        else
+            note = table.concat(itemNames, ", ")
+        end
+    end
+
+    -- Clean note formatting
+    if type(note) == "string" then
+        note = note:gsub("\r\n", "\n")
+                   :gsub("^\n+", "")
+                   :gsub("\n+$", "")
+                   :gsub("\n\n+", "\n")
+    end
+    row.note:SetText(note or "")
+
+    -- Tracker
+    if trackText and trackText ~= "" then
+        row.track:SetText(trackText)
+        row.track:Show()
+    else
+        row.track:SetText("")
+        row.track:Hide()
+    end
+
+    -- Progress bar
+    if progressValue and progressValue > 0 then
+        row.progressBar:SetValue(progressValue)
+        row.progressBar:Show()
+    else
+        row.progressBar:Hide()
+    end
+end ]]
 
 function WoWPro.CustomizeFrames()
     -- Prevent AnchorSave during initialization
@@ -816,7 +860,7 @@ function WoWPro.CustomizeFrames()
     WoWPro.TitlebarSet()        -- styling only
     WoWPro.MainFrameLayout()    -- main frame layout only
     WoWPro.BackgroundSet()      -- background visuals only
-    WoWPro.RowSet()             -- row visuals only
+    WoWPro.RowVisualRefresh()             -- row visuals only
     WoWPro.ResizeSet()          -- resize handle visuals only
     WoWPro.MinimapSet()         -- minimap button visuals only
 
@@ -871,7 +915,7 @@ function WoWPro:CreateMainFrame()
     frame:EnableMouse(true)
     frame:SetMovable(true)
 
-    local PAD = 3
+    local PAD = 4
 
     frame:SetBackdrop({
         bgFile   = WoWProDB.profile.bgtexture,
@@ -1041,7 +1085,7 @@ function WoWPro:GetValidAnchor(anchor)
     return "TOPLEFT"
 end
 
--- Reapply the saved anchor and offsets to MainFrame, then position children
+-- Layout MainFrame: stack child frames vertically and compute final height
 function WoWPro.MainFrameLayout()
     if InCombatLockdown() then return end
 
@@ -1168,16 +1212,14 @@ function WoWPro:CreateButtonBar()
     local bar = CreateFrame("Frame", "WoWPro.ButtonBar", WoWPro.MainFrame, BackdropTemplateMixin and "BackdropTemplate" or nil)
     bar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", 0, -20)
 
-    -- These are used to calculate the bar height, but the bar width is set dynamically in MainFrameLayout
     local BUTTON_SIZE = 20
-    local BUTTON_GAP = 4        -- horizontal spacing between buttons
-    local BAR_PADDING = 2       -- left padding inside the bar
-    local BOTTOM_PADDING = 10   -- vertical padding
+    local BUTTON_GAP = 6
+    local BAR_PADDING = 2
+    local BOTTOM_PADDING = 10
     local barHeight = BUTTON_SIZE + BOTTOM_PADDING
 
-    bar:SetSize(WoWPro.MainFrame:GetWidth(), barHeight)    bar:SetSize(WoWPro.MainFrame:GetWidth(), barHeight)
+    bar:SetSize(WoWPro.MainFrame:GetWidth(), barHeight)
 
-    -- Buttonbar Backdrop
     bar:SetBackdrop({
         bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
         tile = true, tileSize = 16,
@@ -1188,9 +1230,8 @@ function WoWPro:CreateButtonBar()
     -- GUIDE LIST BUTTON
     local glb = CreateFrame("Button", "WoWPro.GuideListButton", bar, BackdropTemplateMixin and "BackdropTemplate" or nil)
     glb:SetSize(20, 20)
-    glb:SetPoint("LEFT", bar, "LEFT", BAR_PADDING, 0)
+    glb:SetPoint("LEFT", bar, "LEFT", BAR_PADDING+4, -1)
     glb:SetBackdropColor(0, 0, 0, 0.5)
-
     local glbTex = glb:CreateTexture(nil, "OVERLAY")
     glbTex:SetAllPoints()
     glbTex:SetTexture("Interface\\Buttons\\UI-GuildButton-MOTD-Up")
@@ -1200,7 +1241,6 @@ function WoWPro:CreateButtonBar()
     cgb:SetSize(20, 20)
     cgb:SetPoint("LEFT", glb, "RIGHT", BUTTON_GAP, 0)
     cgb:SetBackdropColor(0, 0, 0, 0.5)
-
     local cgbTex = cgb:CreateTexture(nil, "OVERLAY")
     cgbTex:SetAllPoints()
     cgbTex:SetTexture("Interface\\Buttons\\UI-GuildButton-PublicNote-Up")
@@ -1210,31 +1250,33 @@ function WoWPro:CreateButtonBar()
     rgb:SetSize(20, 20)
     rgb:SetPoint("LEFT", cgb, "RIGHT", BUTTON_GAP, 0)
     rgb:SetBackdropColor(0, 0, 0, 0.5)
-
     local rgbTex = rgb:CreateTexture(nil, "OVERLAY")
     rgbTex:SetAllPoints()
     rgbTex:SetTexture("Interface\\Buttons\\UI-RefreshButton")
 
-    -- SKIP STEPS BUTTON
+    -- SKIP STEP BUTTON
     local ssb = CreateFrame("Button", "WoWPro.SkipStepsButton", bar, BackdropTemplateMixin and "BackdropTemplate" or nil)
     ssb:SetSize(20, 20)
     ssb:SetPoint("LEFT", rgb, "RIGHT", BUTTON_GAP, 0)
-    ssb:SetBackdropColor(0, 0, 0, 0.5)
 
     local ssbTex = ssb:CreateTexture(nil, "OVERLAY")
     ssbTex:SetAllPoints()
-    ssbTex:SetTexture("Interface\\Buttons\\UI-ForwardButton-Up")
+    ssbTex:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
+
+    ssb:SetScript("OnClick", function()
+        WoWPro.SkipStep(WoWPro.CurrentIndex)
+    end)
 
     -- DISCORD BUTTON
     local db = CreateFrame("Button", "WoWPro.DiscordButton", bar, BackdropTemplateMixin and "BackdropTemplate" or nil)
     db:SetSize(20, 20)
     db:SetPoint("LEFT", ssb, "RIGHT", BUTTON_GAP, 0)
     db:SetBackdropColor(0, 0, 0, 0.5)
-
     local dbTex = db:CreateTexture(nil, "OVERLAY")
     dbTex:SetAllPoints()
-    dbTex:SetTexture("Interface\\FriendsFrame\\UI-FriendsList-Small-Up")
+    dbTex:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Discord")
 
+    -- Assign globals
     WoWPro.GuideListButton = glb
     WoWPro.CurrentGuideButton = cgb
     WoWPro.ResetGuideButton = rgb
@@ -1242,8 +1284,32 @@ function WoWPro:CreateButtonBar()
     WoWPro.DiscordButton = db
     WoWPro.ButtonBar = bar
 
-    -- Capture the real height AFTER creation
+    -- Capture height
     WoWPro.ButtonBarOriginalHeight = bar:GetHeight()
+
+    -- CLICK HANDLERS (corrected)
+    glb:SetScript("OnClick", function()
+        WoWPro.ShowGuideMenu()
+    end)
+
+    cgb:SetScript("OnClick", function()
+        if WoWPro.CurrentGuideFrame then
+            WoWPro.CurrentGuideFrame:Show()
+            WoWPro.CurrentGuideFrame:Raise()
+        end
+    end)
+
+    rgb:SetScript("OnClick", function()
+        WoWPro.ResetCurrentGuide()
+    end)
+
+    ssb:SetScript("OnClick", function()
+        WoWPro:RowLeftClick(WoWPro.ActiveStep)
+    end)
+
+    db:SetScript("OnClick", function()
+        WoWPro:OpenDiscordDialog()
+    end)
 end
 
 -- TitleBar --
@@ -1295,23 +1361,38 @@ function WoWPro:CreateGuideFrame()
     WoWPro.GuideFrame:SetClipsChildren(true)
 end
 
--- Scrollbar --
+-- Create the GuideFrame scrollbar (kept intact but disabled by default)
 function WoWPro:CreateGuideWindowScrollbar()
+    -- Create the scrollbar normally
     WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame, nil, 1)
+
+    -- Always hide on creation; UpdateBars() may try to show it, so we force-hide later too
+    WoWPro.Scrollbar:Hide()
+    WoWPro.Scrollbar:SetAlpha(0)   -- Fully invisible but still exists
+
+    -- Anchor it properly (harmless even when hidden)
     WoWPro.Scrollbar:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -2, -2)
     WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.GuideFrame, "BOTTOMRIGHT", -2, 2)
 
     WoWPro.Scrollbar:SetValueStep(1)
+
+    -- Preserve original OnValueChanged logic
     local onValueChanged = WoWPro.Scrollbar:GetScript("OnValueChanged")
     local oldOffset = 0
+
     WoWPro.Scrollbar:SetScript("OnValueChanged", function(this, value, ...)
+        -- Disable scroll behavior unless guidescroll is explicitly enabled
+        if not WoWProDB.profile.guidescroll then
+            return
+        end
+
         local offset = floor(value)
-        if not WoWProDB.profile.guidescroll then return end
         if offset ~= oldOffset then
             oldOffset = offset
             WoWPro.GuideOffset = offset
             WoWPro:UpdateGuide("ScrollBar")
         end
+
         return onValueChanged(this, value, ...)
     end)
 end
@@ -1361,6 +1442,8 @@ function WoWPro:CreateRows()
 
         -- CHILD ELEMENTS
         row.check = WoWPro:CreateCheck(row)
+        row.button = row.check   -- REQUIRED: WoWPro’s layout engine expects this
+
         row.iconTexture = WoWPro:CreateIcon(row, row.check)
         row.step = WoWPro:CreateStep(row, row.iconTexture)
         row.note = WoWPro:CreateNote(row, row.iconTexture)
@@ -1377,7 +1460,8 @@ function WoWPro:CreateRows()
         row.lootsbuttons = {}
         for j = 1, 5 do
             local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, i, j)
-            row.lootsbuttons[j] = {button = lootsbutton, icon = lootsicon}
+            lootsbutton.icon = lootsicon
+            row.lootsbuttons[j] = lootsbutton
         end
 
         row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, i, row)
@@ -1394,6 +1478,859 @@ function WoWPro:CreateRows()
 
         WoWPro.rows[i] = row
     end
+end
+
+-- Row Content Update --
+function WoWPro:RowUpdate(offset)
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
+        WoWPro:dbp("Punting: WoWPro:RowUpdate()")
+        return
+    end
+    WoWPro:dbp("Running: WoWPro:RowUpdate()")
+    WoWPro:SetActiveStickyCount(0)
+    local reload = false
+    local k = offset or WoWPro.NextStep(1)
+    local itemkb = false
+    local targetkb = false
+    local eakb = false
+    local jumpkb = false
+    local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
+    if not _G.InCombatLockdown() then
+        _G.ClearOverrideBindings(WoWPro.MainFrame)
+    end
+    WoWPro.RowDropdownMenu = {}
+
+    local step_limit = WoWProDB.profile.numsteps + 5
+    local sendsteps = "steps "
+
+    -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
+    -- StickyHeader reparenting is avoided because CheckButton rows are protected in combat. <- I think this wording needs some rethought - Hendo72
+    -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
+    local allSteps = {}
+    local tempK = k
+    for i = 1, 15 do
+        if WoWProDB.profile.guidescroll then
+            table.insert(allSteps, tempK)
+            tempK = tempK + 1
+        else
+            if WoWPro.sticky[tempK] then
+                WoWPro:IncrementActiveStickyCount()
+            end
+            tempK = WoWPro.NextStep(tempK, i)
+            table.insert(allSteps, tempK)
+            tempK = tempK + 1
+        end
+    end
+    WoWPro:SetActiveStickyCount(0)
+
+    -- Now sort: stickies first, then regular
+    -- RowUpdate() only filters already-completed steps; it does not complete steps itself.
+    local completion = WoWProCharDB.Guide[GID].completion
+    local stickyBoundary = WoWPro.ActiveStep or k
+    local stickySteps = {}
+    local regularSteps = {}
+    for _, stepIdx in ipairs(allSteps) do
+        if stepIdx then
+            if WoWPro.sticky[stepIdx] then
+                -- Completed sticky steps are removed from the visible window.
+                local showSticky = false
+                local action = WoWPro.action[stepIdx]
+                local QID = WoWPro.QID[stepIdx]
+                local questtext = WoWPro.questtext and WoWPro.questtext[stepIdx]
+                local available = WoWPro.available and WoWPro.available[stepIdx]
+                local activeReq = WoWPro.active and WoWPro.active[stepIdx]
+
+                if completion[stepIdx] then
+                    showSticky = false
+                else
+                    local activeUS = WoWPro.ActiveStep
+                    local pairedS = (activeUS and WoWPro.unsticky[activeUS] and not WoWPro.sticky[activeUS]) and WoWPro.FindPairedStickyStep(activeUS)
+                    if pairedS == stepIdx then
+                        -- Hide the paired sticky S when its US step is active.
+                        showSticky = false
+                    else
+                        local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
+                        -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
+                        if not isSUS and stepIdx > stickyBoundary then
+                            showSticky = false
+                        -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
+                        -- S!US should always show until completion, regardless of these filters
+                        elseif not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
+                            showSticky = false
+                        elseif not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
+                            showSticky = false
+                        elseif action == "C" and QID and questtext then
+                            if stepIdx == k then
+                                -- Active sticky step - always show
+                                showSticky = true
+                            elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+                                -- Only show while S phase is active (not yet marked complete)
+                                local qid = WoWPro:QIDInTable(QID, WoWPro.QuestLog)
+                                -- Check all QO objectives; sticky shows only if any is incomplete
+                                local anyIncomplete = false
+                                for l, lquesttext in ipairs({(";"):split(questtext)}) do
+                                    if WoWPro.ValidObjective(lquesttext) then
+                                        local complete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
+                                        if not complete then
+                                            anyIncomplete = true
+                                            break
+                                        end
+                                    end
+                                end
+                                showSticky = anyIncomplete  -- Show only if objectives are incomplete (S phase still active)
+                            end
+                        elseif action == "C" and QID then
+                            if stepIdx == k then
+                                -- Active sticky step - always show
+                                showSticky = true
+                            elseif not completion[stepIdx] and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+                                -- Show if not yet marked complete and quest is in log (S phase is active)
+                                showSticky = true
+                            end
+                        elseif action == "C" and not QID then
+                            if stepIdx <= k then
+                                showSticky = true
+                            end
+                        else
+                            -- S!US steps should remain visible while incomplete, even if they are past the current active step
+                            if isSUS or stepIdx <= k then
+                                showSticky = true
+                            end
+                        end
+                    end
+                end
+
+                if showSticky then
+                    table.insert(stickySteps, stepIdx)
+                end
+            else
+                table.insert(regularSteps, stepIdx)
+            end
+        end
+    end
+
+    -- Merge: stickies first, then regular.
+    -- RowUpdate() must not change completion state; it only filters visible rows.
+    -- Paired S completion is handled in UpdateGuideReal().
+    -- US steps should be visible even if their paired sticky S is not yet complete.
+    local stepList = {}
+    for _, v in ipairs(stickySteps) do
+        table.insert(stepList, v)
+    end
+    for _, v in ipairs(regularSteps) do
+        if not completion[v] then
+            if WoWPro.unsticky[v] and not WoWPro.sticky[v] then
+                local foundSticky = WoWPro.FindPairedStickyStep(v)
+                if not foundSticky or completion[foundSticky] or v == WoWPro.ActiveStep then
+                    table.insert(stepList, v)
+                end
+            else
+                table.insert(stepList, v)
+            end
+        end
+    end
+    WoWPro.RowLimit = #stepList
+
+    -- Set ActiveStickyCount based on actual visible stickies
+    WoWPro:SetActiveStickyCount(#stickySteps)
+    for i = 1, 15 do
+        -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
+        -- Use sorted step list with stickies first --
+        k = stepList[i]
+        if not k then
+            for j = i, 15 do
+                WoWPro.rows[j]:Hide()
+                if not _G.InCombatLockdown() then
+                    if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
+                    if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
+                    if WoWPro.rows[j].jumpbutton then WoWPro.rows[j].jumpbutton:Hide() end
+                    if WoWPro.rows[j].eabutton then WoWPro.rows[j].eabutton:Hide() end
+                end
+            end
+            break
+        end
+
+        if not WoWPro.step[k] then
+            WoWPro.RowLimit = math.min(WoWPro.RowLimit or 15, i - 1)
+            for j = i, 15 do
+                WoWPro.rows[j]:Hide()
+                if not _G.InCombatLockdown() then
+                    if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
+                    if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
+                    if WoWPro.rows[j].jumpbutton then WoWPro.rows[j].jumpbutton:Hide() end
+                    if WoWPro.rows[j].eabutton then WoWPro.rows[j].eabutton:Hide() end
+                end
+            end
+            break
+        end
+
+        --Setup row--
+        local currentRow = WoWPro.rows[i]
+        currentRow.index = k
+        currentRow.num = i
+        sendsteps = sendsteps .. k .. " "
+        -- Run Module specific PreRowUpdate()
+        if WoWPro[module:GetName()].PreRowUpdate then
+            WoWPro[module:GetName()]:PreRowUpdate(currentRow)
+        end
+
+        --Loading Variables --
+        local step = (WoWPro.step[k] and WoWPro.ExpandMarkup(WoWPro.step[k])) or ""
+        local action = WoWPro.action[k]
+        local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
+        local QID = tonumber(WoWPro.QID[k])
+        local coord = WoWPro.map[k]
+        local sticky = WoWPro.sticky[k]
+        local use = WoWPro.use[k]
+        local zone = WoWPro.zone[k]
+        local eab = WoWPro.eab[k]
+        local target = WoWPro.target[k]
+        local item = WoWPro.item[k]
+        if coord then
+            if (coord == "PLAYER") then
+                local x, y, m  = WoWPro:GetPlayerZonePosition()
+                if (x and y) then
+                    coord = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+                    zone = ("%d;player"):format(m)
+                else
+                    coord = nil
+                end
+            else
+                WoWPro:ValidateMapCoords(GID,action,step,coord)
+            end
+        end
+        -- Counting stickies that are currently active (at the top) --
+        if sticky and i == WoWPro:GetActiveStickyCount()+1 and not completion[k] then
+            WoWPro:IncrementActiveStickyCount()
+        end
+
+        if i > step_limit and WoWPro:GetActiveStickyCount() == 0 and WoWPro.GroupSync then
+            _G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+            return false
+        end
+
+        local showButtons = sticky or (i == WoWPro:GetActiveStickyCount() + 1)
+
+        -- Getting the image and text for the step --
+        currentRow.step:SetText(step)
+        WoWPro.UpdateQuestTrackerRow(currentRow)
+
+        if step then currentRow.check:Show() else currentRow.check:Hide() end
+        if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
+            if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
+                currentRow.check:SetSilver()
+            else
+                currentRow.check:SetGold()
+            end
+        else
+            currentRow.check:SetBlank()
+        end
+
+        if note then
+            note = note:trim()
+            note = note:gsub("\\n","\n")
+        else
+            note = ""
+        end
+
+        if WoWProDB.profile.showcoords and coord then
+            local coords = coord
+            if coord:len() > 64 then
+                coords = coord:sub(1, 64) .. "..."
+            end
+            note = note.." ("..coords..")"
+            if zone then
+                note = note .. "@" ..zone
+            end
+        elseif not coord and action and not WoWPro.Guides[GID].NoCoordsOK then
+            -- No coordinates, let them know!
+            note = note.."\n(No coordinates)"
+        end
+
+        -- Normalize note to avoid trailing blank lines impacting layout
+        if type(note) == "string" then
+            note = note:gsub("\r\n", "\n")            -- CRLF -> LF
+                         :gsub("^\n+", "")             -- strip leading newlines
+                         :gsub("\n+$", "")             -- strip trailing newlines
+                         :gsub("\n\n+", "\n")        -- collapse multiple blank lines
+        end
+        currentRow.note:SetText(note)
+        WoWPro.SetActionTexture(currentRow)
+
+        currentRow.check:SetScript("OnClick", function(this, button, down)
+            WoWPro:CheckFunction(currentRow, button, down)
+        end)
+
+        -- Right-Click Drop-Down --
+        local dropdown = {}
+        if step then
+            tinsert(dropdown,
+                {text = step.." Options", isTitle = true}
+            )
+            if WoWPro.RETAIL then
+                -- TODO: Is this needed at all?
+                _G.QuestMapUpdateAllQuests()
+                _G.QuestPOIUpdateIcons()
+            end
+            if coord then
+                tinsert(dropdown,
+                    {text = "Map Coordinates", func = function()
+                        WoWPro.UserClicked = true
+                        WoWPro:RemoveMapPoint()
+                        WoWPro:MapPoint(currentRow.num)
+                        WoWPro.UserClicked = nil
+                    end}
+                )
+            end
+            if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
+                tinsert(dropdown,
+                    {text = "Share Quest", func = function()
+                        _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
+                    end}
+                )
+            end
+            if sticky then
+                tinsert(dropdown,
+                    {text = "Un-Sticky", func = function()
+                        WoWPro.sticky[currentRow.index] = false
+                        WoWPro:UpdateGuide("ClickedUnSticky")
+                    end}
+                )
+            else
+                tinsert(dropdown,
+                    {text = "Make Sticky", func = function()
+                        WoWPro.sticky[currentRow.index] = true
+                        WoWPro.unsticky[currentRow.index] = false
+                        WoWPro:UpdateGuide("ClickedMakeSticky")
+                    end}
+                )
+            end
+            if QID then
+                local questId = string.match(QID, "([^%^]*)")
+
+                tinsert(dropdown,
+                    {text = "Wowhead Link", func = function()
+                        local link = "https://www.wowhead.com/quest=" .. questId
+
+                        local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent)
+                        newEditBox:SetSize(300, 100)
+                        newEditBox:SetPoint("CENTER")
+                        newEditBox:SetFrameStrata("DIALOG")
+
+                        local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
+                        texture:SetAllPoints(true)
+                        texture:SetColorTexture(0.1, 0.1, 0.1, 0.8)
+
+                        local titleBar = newEditBox:CreateTexture(nil, "OVERLAY")
+                        titleBar:SetHeight(24)
+                        titleBar:SetPoint("TOPLEFT", 10, -10)
+                        titleBar:SetPoint("TOPRIGHT", -10, -10)
+                        titleBar:SetColorTexture(0, 0, 0, 0)
+
+                        local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+                        title:SetPoint("TOP", titleBar, "TOP", 0, -6)
+                        title:SetText("Wowhead Link")
+
+                        local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
+                        editBox:SetAutoFocus(true)
+                        editBox:SetWidth(260)
+                        editBox:SetHeight(32)
+                        editBox:SetPoint("TOP", titleBar, "BOTTOM", 0, -10)
+                        editBox:SetText(link)
+                        editBox:HighlightText()
+
+                        local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
+                        closeButton:SetPoint("TOPRIGHT")
+                        closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
+
+                        editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+                    end}
+                )
+            end
+
+            WoWPro.RowDropdownMenu[i] = dropdown
+            tinsert(dropdown,
+                {text = "Report an Issue", func = function()
+                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue", "Hit escape to dismiss")
+                    local LogBox = WoWPro.LogBox
+            local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+            local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+
+            -- Add step info without GID
+            local Sindex = WoWPro.rows[currentRow.num].index
+            if WoWPro.rows[currentRow.num]:IsVisible() then
+                text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
+            end
+
+            text = text .. "\n|cffffff00Guide Info:|r\n"
+            text = text .. GID .. "\n"
+            text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+
+            -- Retrieve additional player information
+            local _, class = _G.UnitClass("player")
+            local _, race = _G.UnitRace("player")
+            class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
+            local level = _G.UnitLevel("player")
+            local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
+            local locale = _G.GetLocale()
+            local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
+
+            -- Retrieve the player's realm name
+            local realmName = _G.GetRealmName()
+
+            -- Retrieve the player's character name
+            local playerName = _G.UnitName("player")
+
+            text = text .. "\n|cffffff00Player Info:|r\n"
+            text = text .. "Character Name: " .. playerName .. "\n"
+            text = text .. "Class: " .. class .. "\n"
+            text = text .. "Race: " .. race .. "\n"
+            text = text .. "Level: " .. level .. "\n"
+            text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
+            text = text .. "Addon Version: " .. version .. "\n"
+            text = text .. "Game Version: " .. gameVersion .. "\n"  -- Add the game version
+            text = text .. "Locale: " .. locale .. "\n"
+            if (not X) or (not Y) then
+                text = text .. "Location: Unknown\n"
+            else
+                text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+                text = text .. "Map ID: " .. tostring(mapId) .. "\n"  -- Map ID on a separate line
+            end
+            text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
+            text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
+
+            -- Add instructions for copying the text
+            if _G.IsMacClient() then
+                text = text .. "\n\nTo copy this information, press âŒ˜+A to select all text, then press âŒ˜+C to copy it. You can then paste this into a Discord ticket by pressing âŒ˜+V.\n"
+            else
+                text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
+            end
+
+            -- Set the text of the LogBox and show it
+            LogBox.Box:SetText(text)
+
+            -- Create a hidden frame to measure the text width
+            local hiddenFrame = _G.CreateFrame("Frame")
+            hiddenFrame:Hide()
+
+            local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+            fontString:SetText(text)
+
+            -- Get the width of the text
+            local textWidth = fontString:GetStringWidth()
+
+            -- Set the width of the LogBox and the text box
+            LogBox:SetWidth(textWidth + 20)  -- Add some padding
+            LogBox.Box:SetWidth(textWidth + 20)  -- Add some padding
+
+            LogBox.Box:Show()
+
+            -- Hide the EditBox if it exists
+            if WoWPro.EditBox then
+                WoWPro.EditBox:Hide()
+            end
+
+            LogBox:Show()
+        end}
+        )
+    end
+    WoWPro.RowDropdownMenu[i] = dropdown
+
+        -- Item Button --
+        if showButtons then
+            if action == "H" and not use then use = WoWPro.SelectHearthstone() end
+            if action == "*" and use and WoWPro.C_Item_GetItemInfo then
+                if not _G.InCombatLockdown() then
+                    currentRow.itembutton:Show()
+                end
+                currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
+                currentRow.itembutton:SetAttribute("type1", "click1")
+                currentRow.itembutton:SetAttribute("click", "clickbutton")
+                currentRow.itembutton:SetScript("OnClick", function ()
+                    WoWPro.TrashItem(use, k)
+                end)
+                if not _G.InCombatLockdown() then
+                    if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+                        currentRow.itembuttonSecured:Show()
+                        currentRow.itembuttonSecured:SetAttribute("type1", "click1")
+                        currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
+                        currentRow.itembuttonSecured:SetScript("OnClick", function ()
+                            WoWPro.TrashItem(use, k)
+                        end)
+                        currentRow.itembuttonSecured:ClearAllPoints()
+                        currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+                        currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
+                    end
+                end
+                WoWPro:dbp("RowUpdate: enabled trash: %s", use)
+                if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                    WoWPro.BindKeysToButton(i)
+                    itemkb = true
+                end
+           elseif use and WoWPro.SelectItemToUse(use) then
+                local items = WoWPro.SelectItemToUse(use)
+                local _use = nil
+
+                -- Get the first item from the use tag that we have
+                if items then
+                    if use:find("&", 1, true) then
+                        -- & mode: get first item from the original order
+                        local itemList = {("&"):split(use)}
+                        for _, itemID in ipairs(itemList) do
+                            if items[itemID] then
+                                _use = itemID
+                                break
+                            end
+                        end
+                    elseif use:find("^", 1, true) then
+                        -- ^ mode: SelectItemToUse already selected the first available
+                        _use = next(items)
+                    else
+                        -- Single item
+                        _use = next(items)
+                    end
+                end
+
+                if not _use then
+                    -- Safety check - this shouldn't happen since we already checked SelectItemToUse above
+                    if not _G.InCombatLockdown() then
+                        currentRow.itembutton:Hide()
+                    end
+                else
+                    currentRow.itemicon.item_IsVisible = nil
+                    currentRow.itemcooldown.OnCooldown = nil
+                    currentRow.itemcooldown.ActiveItem = nil
+                    if not _G.InCombatLockdown() then
+                        currentRow.itembutton:Show()
+
+                        currentRow.itemicon.currentTexture = nil
+                        currentRow.itembutton:SetAttribute("type1", "item")
+                        currentRow.itembutton:SetAttribute("item1", "item:".._use)
+                        local timeElapsed = 0
+                        currentRow.itembutton:SetScript("OnUpdate", function(_,elapsed)
+                            timeElapsed = timeElapsed + elapsed
+                            if timeElapsed > 0.05 then
+                                timeElapsed = 0
+                                local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
+                                local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+                                if not start then
+                                    WoWPro:dbp("RowUpdate(): UÂ¦%s/%sÂ¦ has bad GetItemCooldown()", use, _use)
+                                end
+                                if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+                                    currentRow.itemicon.item_IsVisible = true
+                                    currentRow.itemicon:SetTexture(itemtexture)
+                                    currentRow.itemicon.currentTexture = itemtexture
+                                elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+                                    currentRow.itemicon:SetTexture(itemtexture)
+                                    currentRow.itemicon.currentTexture = itemtexture
+                                elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+                                    currentRow.itemicon.item_IsVisible = false
+                                    currentRow.itemicon:SetTexture()
+                                    currentRow.itemicon.currentTexture = nil
+                                end
+                                if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+                                    currentRow.itemcooldown:Show()
+                                    currentRow.itemcooldown:SetCooldown(start, duration)
+                                    currentRow.itemcooldown.OnCooldown = true
+                                    currentRow.itemcooldown.ActiveItem = _use
+                                elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+                                    currentRow.itemcooldown:Hide()
+                                    currentRow.itemcooldown.OnCooldown = false
+                                elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
+                                    currentRow.itemcooldown.OnCooldown = false
+                                    currentRow.itemcooldown:SetCooldown(start, duration)
+                                    currentRow.itemcooldown.ActiveItem = _use
+                                end
+                            end
+                        end)
+                    end
+                end
+
+                if not _G.InCombatLockdown() then
+                    if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+                        currentRow.itembuttonSecured:Show()
+                        currentRow.itembuttonSecured:SetAttribute("type1", "item")
+                        currentRow.itembuttonSecured:SetAttribute("item1", "item:".._use)
+                        currentRow.itembuttonSecured:ClearAllPoints()
+                        currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+                        currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
+                    end
+                end
+
+                WoWPro:dbp("RowUpdate: enabled use: %s", use)
+                if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                    WoWPro.BindKeysToButton(i)
+                    itemkb = true
+                end
+            elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
+                if not _G.InCombatLockdown() then
+                    currentRow.itembutton:Show()
+                end
+                currentRow.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
+                currentRow.itembutton:SetAttribute("type", "SwitchPet")
+                local switch = WoWPro.switch[k]
+                local kk = k
+                currentRow.itembutton.SwitchPet = function ()
+                    _G.C_PetBattles.ChangePet(switch)
+                    WoWPro.CompleteStep(kk, "Clicked pet switch")
+                end
+
+                if not _G.InCombatLockdown() then
+                    if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+                        currentRow.itembuttonSecured:Show()
+                        currentRow.itembuttonSecured:SetAttribute("type", "SwitchPet")
+                        currentRow.itembuttonSecured.SwitchPet = function ()
+                        _G.C_PetBattles.ChangePet(switch)
+                            WoWPro.CompleteStep(kk, "Clicked pet switch")
+                        end
+                        currentRow.itembuttonSecured:ClearAllPoints()
+                        currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+                        currentRow.itembuttonSecured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
+                    end
+                end
+            else
+                if not _G.InCombatLockdown() then
+                    currentRow.itembutton:Hide()
+                    currentRow.itembuttonSecured:Hide()
+                end
+            end
+        else
+            if not _G.InCombatLockdown() then
+                currentRow.itembutton:Hide()
+                currentRow.itembuttonSecured:Hide()
+            end
+        end
+
+        -- Loots Buttons --
+        if item then
+            -- Parse multiple items separated by semicolons
+            local items = {(";"):split(item)}
+            local buttonIndex = 1
+            local itemNames = {}
+
+            for _, itemID in ipairs(items) do
+                itemID = itemID:trim()
+                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
+                    local lootData = currentRow.lootsbuttons[buttonIndex]
+
+                    -- FIXED: lootData *is* the button
+                    local nomen = lootData:SetItemByID(itemID)
+                    lootData:Show()
+
+                    tinsert(itemNames, nomen)
+                    buttonIndex = buttonIndex + 1
+                end
+            end
+
+            -- Hide unused loot buttons
+            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx]:Hide()
+            end
+
+            -- Update note text
+            if note ~= "" then
+                if action == "B" then
+                    note = "Buy " .. table.concat(itemNames, ", ") .. " " .. note
+                elseif action == "M" then
+                    note = "Craft " .. table.concat(itemNames, ", ") .. " " .. note
+                else
+                    if not (WoWPro.chat[k] or WoWPro.noncombat[k]) then
+                        note = "Kill and loot " .. note
+                    end
+                end
+            else
+                note = table.concat(itemNames, ", ")
+            end
+            -- Normalize note to avoid trailing blank lines impacting layout
+            if type(note) == "string" then
+                note = note:gsub("\r\n", "\n")        -- CRLF -> LF
+                             :gsub("^\n+", "")         -- strip leading newlines
+                             :gsub("\n+$", "")         -- strip trailing newlines
+                             :gsub("\n\n+", "\n")    -- collapse multiple blank lines
+            end
+            currentRow.note:SetText(note)
+        else
+            -- Hide all loot buttons when no items
+            for btnIdx = 1, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx]:Hide()
+            end
+        end
+
+        --Guide Jump Button
+        if showButtons and WoWPro.jump[k] then
+            local newguide, ctID = (";"):split(WoWPro.jump[k])
+            if not _G.InCombatLockdown() then
+                currentRow.jumpbutton:Show()
+            end
+            currentRow.jumpbutton:SetScript("OnClick", function()
+                WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
+                if ctID and WoWPro.RETAIL then
+                    _G.C_ChromieTime.SelectChromieTimeOption(ctID)
+                end
+                WoWPro:LoadGuide(newguide)
+            end)
+            if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxJumpButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_jumpbutton"..i, "LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_jumpbutton"..i, "LeftButton")
+                end
+                jumpkb = true
+            end
+        else
+            if not _G.InCombatLockdown() then
+                currentRow.jumpbutton:Hide()
+            end
+        end
+
+        -- EA Button --
+        if showButtons and eab then
+            local mtext = "/click ExtraActionButton1"
+            if not _G.InCombatLockdown() then
+                currentRow.eabutton:Show()
+                currentRow.eabutton:SetAttribute("macrotext", mtext)
+                currentRow.eaicon.EAB1_IsVisible = nil
+                currentRow.eaicon.currentTexture = nil
+                local timeElapsed = 0
+                currentRow.eabutton:SetScript("OnUpdate", function(_, elapsed)
+                    -- Throttle to a max of 50ms updates
+                    timeElapsed = timeElapsed + elapsed
+                    if timeElapsed > 0.05 then
+                        timeElapsed = 0
+                        local eabIcon = nil
+                        if _G.ExtraActionButton1 and _G.ExtraActionButton1.icon then
+                            eabIcon = _G.ExtraActionButton1.icon
+                        elseif _G.ExtraActionButton1Icon then
+                            eabIcon = _G.ExtraActionButton1Icon
+                        end
+                        local eabtexture = eabIcon and eabIcon:GetTexture() or nil
+                        if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
+                            currentRow.eaicon.EAB1_IsVisible =  _G.HasExtraActionBar()
+                            if currentRow.eaicon.EAB1_IsVisible then
+                                currentRow.eaicon:SetTexture(eabtexture)
+                                currentRow.eaicon.currentTexture = eabtexture
+                            else
+                                currentRow.eaicon:SetTexture()
+                                currentRow.eaicon.currentTexture = nil
+                            end
+                        elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
+                            currentRow.eaicon.currentTexture = eabtexture
+                            currentRow.eaicon:SetTexture(eabtexture)
+                        end
+                    end
+                end)
+
+                if currentRow.eabutton:IsShown() then
+                    currentRow.eabuttonSecured:Show()
+                    currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
+                    currentRow.eabuttonSecured:ClearAllPoints()
+                    currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", currentRow.eabutton, "BOTTOMLEFT", 0, 0)
+                    currentRow.eabuttonSecured:SetFrameLevel(currentRow.eabutton:GetFrameLevel() + 1)
+                end
+            end
+
+            if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_eabuttonSecure"..i, "LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_eabuttonSecure"..i, "LeftButton")
+                end
+                eakb = true
+            end
+        else
+            if not _G.InCombatLockdown() then
+                currentRow.eabutton:Hide()
+            end
+            if not _G.InCombatLockdown() then
+                currentRow.eabuttonSecured:Hide()
+            end
+        end
+
+
+        -- Target Button --
+        if showButtons and target and not _G.InCombatLockdown() then
+            local mtext
+            local tar, emote = (","):split(target)
+            currentRow.targetbutton:Show()
+            if tar:sub(1, 1) == "/" then
+                mtext = tar:gsub("\\n", "\n")
+            elseif emote then
+                mtext = "/target "..tar.."\n/"..emote
+            else
+                mtext = "/cleartarget[dead]\n/target "..tar.."\n"
+                if not WoWPro.MIDNIGHT then
+                    mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
+                end
+            end
+            currentRow.targetbutton:SetAttribute("macrotext", mtext)
+            -- Run Module specific RowUpdateTarget() to override macrotext
+            if WoWPro[module:GetName()].RowUpdateTarget then
+                WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
+            end
+
+            WoWPro:dbp("Target text set to: %s",currentRow.targetbutton:GetAttribute("macrotext"))
+
+            -- Ask the target button to place itself (only out of combat, as Position calls SetWidth/SetHeight)
+            if not _G.InCombatLockdown() then
+                currentRow.targetbutton.Position(use or eab)
+            end
+
+            -- Set up secured button for hotkey execution (outside combat check to handle late setup)
+            if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
+                if not _G.InCombatLockdown() then
+                    currentRow.targetbuttonSecured:Show()
+                    currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
+                    -- Overlay secured button directly over the visible target icon
+                    currentRow.targetbuttonSecured:ClearAllPoints()
+                    currentRow.targetbuttonSecured:SetPoint("BOTTOMLEFT", currentRow.targetbutton, "BOTTOMLEFT", 0, 0)
+                    -- Ensure secured button is above the icon for mouse clicks
+                    currentRow.targetbuttonSecured:SetFrameStrata("HIGH")
+                    currentRow.targetbuttonSecured:SetFrameLevel(currentRow.targetbutton:GetFrameLevel() + 1)
+                else
+                    -- Store for later setup when out of combat
+                    currentRow.targetbuttonSecured._pendingMacro = mtext
+                    currentRow.targetbuttonSecured._pendingPosition = {"BOTTOMLEFT", currentRow.targetbutton, "BOTTOMLEFT", 0, 0}
+                end
+            end
+            if not targetkb and currentRow.targetbutton:IsVisible() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+                if key1 and not _G.InCombatLockdown() then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_targetbuttonSecure"..i, "LeftButton")
+                end
+                if key2 and not _G.InCombatLockdown() then
+                    _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key2, "WoWPro_targetbuttonSecure"..i, "LeftButton")
+                end
+                if (key1 or key2) and not _G.InCombatLockdown() then
+                    targetkb = true
+                end
+            end
+        else
+            if not _G.InCombatLockdown() then
+                currentRow.targetbutton:Hide()
+            end
+            if not _G.InCombatLockdown() then
+                currentRow.targetbuttonSecured:Hide()
+            end
+        end
+
+        WoWPro.rows[i] = currentRow
+    end
+
+    WoWPro.CurrentIndex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
+
+    if not _G.InCombatLockdown() then
+        WoWPro.RowSizeSet()
+        WoWPro.MainFrameLayout()
+    end
+    if WoWPro.GroupSync then
+        _G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+    end
+    return reload
 end
 
 -- Mouseover Notes individual addons --
@@ -1425,6 +2362,12 @@ function WoWPro:CreateMouseNotes()
 
         WoWPro.mousenotes[i] = row
     end
+end
+
+function WoWPro.RowVisualRefresh()
+    WoWPro.RowColorSet()
+    WoWPro.RowFontSet()
+    WoWPro.RowSizeSet()
 end
 
 -- Mini-map Button --
@@ -1743,6 +2686,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateGuideList()
     WoWPro:TitlebarSet()
     WoWPro:UpdateBars()
+    WoWPro:MouseSet()
 end
 
 --Enables or Disables MainFrame (hides/shows)
