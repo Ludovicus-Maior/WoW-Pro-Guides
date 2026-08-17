@@ -1,3 +1,9 @@
+Ace3 Release - Revision r1403 (August 12th, 2026)
+-------------------------------------------------
+- AceGUI-3.0: CheckBox: Fixed desaturation for WoW 12.1
+- AceGUI-3.0: Slider: Workaround for font loading issues with the label/editbox
+- AceComm-3.0/ChatThrottleLib: Fixed errors from secrets during chat lockdown
+
 Ace3 Release - Revision r1390 (February 3rd, 2026)
 --------------------------------------------------
 - AceConfigDialog-3.0: The original category ID is now preserved in AddToBlizOptions in 12.0, making it mandatory for addons to store the second return value and forward it to Settings.OpenToCategory
