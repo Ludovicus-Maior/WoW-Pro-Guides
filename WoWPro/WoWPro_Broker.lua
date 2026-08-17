@@ -3886,6 +3886,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
                 local buff = WoWPro.buff[guideIndex]
+                if _G.InCombatLockdown() then
+                    WoWPro:dbp("Skipping buff check because in combat.", buff)
+                    break
+                end
                 local buffy = WoWPro:CheckPlayerForBuffs(buff)
                 if buffy then
                     skip = true
