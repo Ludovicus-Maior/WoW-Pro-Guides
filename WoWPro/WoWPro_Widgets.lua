@@ -1,4 +1,5 @@
--- luacheck: globals tonumber tostring type WoWPro _G.WoWProDB
+-- luacheck: globals tonumber tostring type WoWPro _G.WoWProDB CreateFrame GameTooltip C_CurrencyInfo _
+
 ---@diagnostic disable-next-line: undefined-field
 local WoWPro= _G.WoWPro
 
@@ -329,17 +330,17 @@ function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
     icon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
 
     -- Tooltip on hover
-    btn:SetScript("OnEnter", function(self)
-        if not self.ID then return end
-        GameTooltip:SetOwner(self, "ANCHOR_LEFT")
+    btn:SetScript("OnEnter", function(_self)
+        if not _self.ID then return end
+        GameTooltip:SetOwner(_self, "ANCHOR_LEFT")
 
         -- Currency: "$123"
-        if type(self.ID) == "string" and self.ID:sub(1,1) == "$" then
-            local cid = tonumber(self.ID:sub(2))
+        if type(_self.ID) == "string" and _self.ID:sub(1,1) == "$" then
+            local cid = tonumber(_self.ID:sub(2))
             if cid then GameTooltip:SetCurrencyByID(cid) end
         else
             -- Item
-            local iid = tonumber(self.ID)
+            local iid = tonumber(_self.ID)
             if iid then GameTooltip:SetItemByID(iid) end
         end
 
