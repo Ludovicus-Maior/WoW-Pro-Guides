@@ -330,9 +330,9 @@ function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
     icon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
 
     -- Tooltip on hover
-    btn:SetScript("OnEnter", function(_self)
-        if not _self.ID then return end
-        GameTooltip:SetOwner(_self, "ANCHOR_LEFT")
+    btn:SetScript("OnEnter", function(frameSelf)
+        if not frameSelf.ID then return end
+        GameTooltip:SetOwner(frameSelf, "ANCHOR_LEFT")
 
         -- Currency: "$123"
         if type(_self.ID) == "string" and _self.ID:sub(1,1) == "$" then

@@ -1,5 +1,5 @@
 -- luacheck: globals ipairs unpack ceil max floor math C_Timer tostring string CreateFrame UIParent InCombatLockdown BackdropTemplateMixin GameTooltip debugstack
--- luacheck: global tinsert strupper strlower strsub
+-- luacheck: globals tinsert strupper strlower strsub
 
 WoWPro.DebugAnchorSave = false -- Enables detailed AnchorSave debug logging
 WoWPro.DebugAnchor = false -- Enables debug logging for window anchor/position changes
