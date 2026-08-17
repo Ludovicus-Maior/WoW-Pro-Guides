@@ -255,9 +255,7 @@ function WoWPro.AutoCompleteLoot()
         local lootItems = WoWPro.lootitem[index]
         if lootItems then
             if WoWProDB.profile.track then
-                local track = WoWPro.GetLootTrackingInfo(lootItems)
-                WoWPro.rows[i].track:SetText(track:trim())
-                WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s", track)
+                WoWPro.UpdateQuestTrackerRow(WoWPro.rows[i])
             end
             local allComplete = true
             for itemID, qty in pairs(lootItems) do
@@ -276,7 +274,6 @@ function WoWPro.AutoCompleteLoot()
             end
         end
     end
-    WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
 local LUNARFALL_MAPID
