@@ -3,7 +3,7 @@
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
-
+-- luacheck: globals C_Timer
 --------------------------
 --      WoWPro.lua      --
 --------------------------
@@ -18,6 +18,17 @@ WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {} -- Temporary local log
 WoWPro.GuideLoaded = false
+
+-- UI border + padding metrics (must load before Frames/Widgets)
+WoWPro.DEFAULT_BORDER_METRICS = {
+    edgeSize = 4,
+    mainInsets = { left = 4, right = 3, top = 4, bottom = 3 },
+    buttonInsets = { left = 4, right = 3, top = 4, bottom = 0 },
+    titleInsets = { left = 4, right = 3, top = 4, bottom = 3 },
+    titleTextYOffset = 5,
+    stackTopInset = 4,
+    stackSideInset = 4,
+}
 
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
@@ -279,7 +290,6 @@ function WoWPro:LogShow()
     end)
 end
 
-
 function WoWPro.toboolean(v)
     v = tonumber(v) or v  -- Catch numeric strings
     if type(v) == "string" then
@@ -301,8 +311,6 @@ function WoWPro.toboolean(v)
     return false
 end
 WoWPro:Export("toboolean")
-
-
 
 -- Default profile options --
 local defaults = { profile = {
@@ -331,6 +339,7 @@ local defaults = { profile = {
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     bgcolor = {0, 0, 0, 0.8},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
+    borderthickness = 0,
     border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     stickycolor = {0.8, 0.8, 0.8, 0.7},
@@ -354,7 +363,6 @@ local defaults = { profile = {
     buttonbar = true,
 } }
 
-
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
@@ -372,7 +380,6 @@ function WoWPro:OnInitialize()
     WoWProCharDB.completedQIDsWarband = WoWProCharDB.completedQIDsWarband or {}
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
     WoWProDB.profile.position = WoWProDB.profile.position or {"CENTER", "UIParent" , "CENTER", 0, 0}
-    WoWProDB.profile.anchorpoint = nil  -- Clean out old setting
     WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
     WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
     WoWProDB.global.RecklessCombat = true
@@ -520,22 +527,30 @@ end
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
+    -- Block anchor saves during startup
+    WoWPro.InhibitAnchorSave = true
+
     WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
-    -- Shouldn't be necessary anymore but keeping just in case we need to revert back.
-	--if  WoWProDB.global.RecklessCombat then
-        --WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
-    --end
-    -- Loading Frames --
-    if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
+
+    local lastAnchor = WoWProDB.profile.expansionAnchor
+
+    C_Timer.NewTicker(0.1, function()
+        local cur = WoWProDB.profile.expansionAnchor
+        if cur ~= lastAnchor then
+            print("DEBUG: expansionAnchor CHANGED from", tostring(lastAnchor), "to", tostring(cur))
+            lastAnchor = cur
+        end
+    end)
+
+    if not WoWPro.FramesLoaded then
         WoWPro:CreateFrames()
         WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
-    else -- Addon was previously disabled, so no need to create frames, just turn them back on
+    else
         WoWPro:AbleFrames()
     end
 
-    --Initializing base tags, before we enable each module or they might see missing tags or odd events! --
     for i,tag in pairs(WoWPro.Tags) do
         WoWPro[tag] = WoWPro[tag] or {}
     end
@@ -543,9 +558,10 @@ function WoWPro:OnEnable()
     -- Reset anchor restore flag for this session
     WoWPro.HasRestoredThisSession = false
 
-    WoWPro:CustomizeFrames()    -- Applies profile display settings
+    -- Apply profile display settings
+    WoWPro:CustomizeFrames()
 
-    -- Keybindings Initial Setup --
+    -- Keybindings
     if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
         _G.SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
     end
@@ -553,21 +569,25 @@ function WoWPro:OnEnable()
         _G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
     end
 
-    -- Event/Message/Module Setup --
+    -- Event/Message/Module Setup
     WoWPro:OnEnableEvents()
     WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
+
     if WoWPro.RETAIL then
         WoWPro:RegisterBucketEvent({"QUEST_LOG_CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
         WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.50, WoWPro.UpdateGuideReal)
     end
+
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
     WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
+
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_UpdateGuideSlow",0.666,WoWPro.UpdateGuideRealSlow)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
+
     if WoWPro.Recorder then
         WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
         WoWPro:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
@@ -576,14 +596,16 @@ function WoWPro:OnEnable()
         WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.PostQuestLogUpdate)
     end
 
+    -- Lockdown startup sequence
     WoWPro.LockdownTimer = nil
-    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+    WoWPro.LockdownCounter = 5
     WoWPro:dbp("Setting Timer OnEnable")
     WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 
+    -- Season purge
     WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
-    -- Purge guides that do not match the SeasonID
     local seasonID
+
     if _G.PlayerGetTimerunningSeasonID then
         seasonID = _G.PlayerGetTimerunningSeasonID()
     else
@@ -595,6 +617,7 @@ function WoWPro:OnEnable()
     else
         WoWPro:dbp("ClassicSeasonID function is not available")
     end
+
     WoWPro:dbp("Current PlayerGetTimerunningSeasonID is %s", tostring(seasonID))
 
     local to_purge = {}
@@ -604,18 +627,19 @@ function WoWPro:OnEnable()
             table.insert(to_purge, gid)
         end
     end
+
     for _, gid in ipairs(to_purge) do
         WoWPro:dbp("Purge %q", gid)
         WoWPro.Guides[gid] = nil
     end
 
     for gid, guide in pairs(WoWPro.Guides) do
-        if  WoWPro[guide.guidetype].RegisterGuide then
+        if WoWPro[guide.guidetype].RegisterGuide then
             WoWPro[guide.guidetype]:RegisterGuide(guide)
         end
     end
 
-    -- Set up the Nickname -> Guide map.
+    -- Nickname map
     WoWPro.Nickname2Guide = {}
     for guidID,guide in pairs(WoWPro.Guides) do
         local nickname = guide['nickname']
@@ -625,7 +649,6 @@ function WoWPro:OnEnable()
             WoWPro:dbp("Warning: Guide %q does not have a valid zone.", guidID)
         elseif guide.guidetype == 'Leveling' then
             if WoWPro.Nickname2Guide[guide.zone] then
-                -- Collision, mark
                 WoWPro.Nickname2Guide[guide.zone] = true
             else
                 WoWPro.Nickname2Guide[guide.zone] = guidID
@@ -633,24 +656,23 @@ function WoWPro:OnEnable()
         end
     end
 
-    -- WoWPro:MapPoint()               -- Maps the active step
-    -- If the base addon was disabled by the user, put it to sleep now.
+    -- Disable if user disabled addon
     if not WoWProCharDB.Enabled then
         WoWPro:Disable()
         return
     end
 
-	if WoWProCharDB.DevCoords then
-		WoWPro:DevCoords()
-		_G.WoWProDevCoords:Show()
-	end
-
-    if WoWProCharDB.DevZone then
-    WoWPro:DevZone()
-    _G.WoWProDevZone:Show()
+    if WoWProCharDB.DevCoords then
+        WoWPro:DevCoords()
+        _G.WoWProDevCoords:Show()
     end
 
-    -- Module Enabling --
+    if WoWProCharDB.DevZone then
+        WoWPro:DevZone()
+        _G.WoWProDevZone:Show()
+    end
+
+    -- Enable modules
     for name, module in WoWPro:IterateModules() do
         WoWPro:dbp("Enabling "..name.." module...")
         module:Enable()
@@ -665,10 +687,10 @@ function WoWPro:OnDisable()
         module:Disable()
     end
 
-    WoWPro:AbleFrames()                             -- Hides all frames
+    WoWPro:AbleFrames()  -- Hides all frames
     WoWPro:UnregisterAllEvents() -- Unregister all events
     WoWPro:UnregisterAllBuckets()
-    WoWPro:RemoveMapPoint()                         -- Removes any active map points
+    WoWPro:RemoveMapPoint() -- Removes any active map points
     WoWPro.EventQueue = {}
     WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
@@ -1060,7 +1082,7 @@ function WoWPro.HideFrame(toHide, why)
             WoWPro.Titlebar:Hide()
         else
             WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
+            WoWPro:UpdateBars()
         end
         WoWPro.IsHidden = toHide
     end
@@ -1199,8 +1221,6 @@ function WoWPro:LoadAllGuides()
     WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))
     WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
 end
-
-
 
 --- Release Function Compatibility Section
 WoWPro.TocVersion =  select(4, _G.GetBuildInfo())

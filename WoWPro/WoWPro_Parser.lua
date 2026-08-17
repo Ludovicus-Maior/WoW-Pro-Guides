@@ -256,7 +256,6 @@ function WoWPro.InsertActionDescriptions(tabla, order)
 end
 
 -- Skip a step --
-
 function WoWPro.SkipStep(index, list_only)
     local GID = WoWProDB.char.currentguide
     local skippedQIDs = {}

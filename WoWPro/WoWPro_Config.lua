@@ -14,17 +14,16 @@ local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
 function WoWPro:RefreshConfig()
+    WoWPro.RefreshingConfig = true
     WoWPro:LoadGuide()
     WoWPro:CustomizeFrames()
+    WoWPro.RefreshingConfig = false
 end
 
 function WoWPro:SetDefaults()
-    -- MainFrame --
     WoWPro.MainFrame:SetHeight(300)
     WoWPro.MainFrame:SetWidth(200)
     WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
-    WoWPro.MainFrame:ClearAllPoints()
-    WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
 
     WoWPro:RefreshConfig()
 end
@@ -228,7 +227,7 @@ local function createDisplayConfig()
                                 min = 0, max = 20, step = 1,
                                 get = function(info) return WoWProDB.profile.pad end,
                                 set = function(info,val) WoWProDB.profile.pad = val
-                                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                    WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "full"
                             },
                             spacing = {
@@ -246,11 +245,13 @@ local function createDisplayConfig()
                                 order = 3,
                                 type = "toggle",
                                 name = L["Enable Drag"],
-                                desc = L["When enabled: Click on the button bar to move the window. Drag to reposition it on your screen.\nWhen disabled: Window is locked in place."],
+                                desc = L["When enabled: Use the top-right option button to drag and reposition the window.\nWhen disabled: Window is locked in place."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.drag end,
-                                set = function(info,val) WoWProDB.profile.drag = val
-                                    WoWPro.DragSet() end
+                                set = function(info,val)
+                                    WoWProDB.profile.drag = val
+                                    WoWPro.MouseSet()
+                                end
                             },
                             expansionAnchor = {
                                 order = 4,
@@ -264,9 +265,12 @@ local function createDisplayConfig()
                                     ["BOTTOMLEFT"] = "Bottom Left",
                                     ["BOTTOMRIGHT"] = "Bottom Right",
                                 },
-                                get = function(info) return WoWProDB.profile.expansionAnchor or "TOPLEFT" end,
+                                get = function(info)
+                                    return WoWProDB.profile.expansionAnchor or "TOPLEFT"
+                                end,
                                 set = function(info, val)
-                                    WoWPro:SetExpansionAnchor(val)
+                                    WoWPro:AnchorSave(val)
+                                    WoWPro.AnchorResync()
                                 end,
                             },
                             resize = {
@@ -279,7 +283,7 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.resize = val
                                     if val then WoWProDB.profile.autoresize = false end
                                     if not val then
-                                        WoWPro.AnchorStore("ResizeLocked")
+                                        WoWPro.AnchorSave("ResizeLocked")
                                     end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },
@@ -293,7 +297,7 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.autoresize = val
                                     if val then WoWProDB.profile.resize = false
                                     else
-                                        WoWPro.AnchorStore("AutoResizeDisabled")
+                                        WoWPro.AnchorSave("AutoResizeDisabled")
                                     end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },
@@ -339,40 +343,47 @@ local function createDisplayConfig()
                         name = L["Title Bar & Button Bar"],
                         inline = true,
                         args = {
-                            titlebar = {
-                                order = 1,
-                                type = "toggle",
-                                name = L["Enable Title Bar"],
-                                desc = L["Enables/disables the title bar attached to the guide window."],
-                                get = function(info) return WoWProDB.profile.titlebar end,
-                                set = function(info,val) WoWProDB.profile.titlebar = val
-                                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
-                                width = "double"
-                            },
-                            titlecolor = {
-                                order = 2,
-                                type = "color",
-                                name = L["Title Bar Color"],
-                                desc = L["Background color for the title bar."],
-                                hasAlpha = true,
-                                get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-                                set = function(info,r,g,b,a)
-                                    WoWProDB.profile.titlecolor = {r,g,b,a}
-                                    WoWPro.TitlebarSet() end
-                            },
                             buttonbar = {
-                                order = 3,
+                                order = 1,
                                 type = "toggle",
                                 name = L["Enable Button Bar"],
                                 desc = L["Enables/disables the button bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.buttonbar ~= false end,
-                                set = function(info,val)
+                                set = function(info, val)
                                     WoWProDB.profile.buttonbar = val
-                                    WoWPro:TitlebarShow()
+                                    WoWPro:UpdateBars()
                                 end,
                                 width = "double"
                             },
-                        },
+
+                            titlebar = {
+                                order = 2,
+                                type = "toggle",
+                                name = L["Enable Title Bar"],
+                                desc = L["Enables/disables the title bar attached to the guide window."],
+                                get = function(info) return WoWProDB.profile.titlebar end,
+                                set = function(info, val)
+                                    WoWProDB.profile.titlebar = val
+                                    WoWPro:UpdateBars()
+                                end,
+                                width = "double"
+                            },
+
+                            titlecolor = {
+                                order = 3,
+                                type = "color",
+                                name = L["Title Bar Color"],
+                                desc = L["Background color for the title bar."],
+                                hasAlpha = true,
+                                get = function(info)
+                                    return unpack(WoWProDB.profile.titlecolor)
+                                end,
+                                set = function(info, r, g, b, a)
+                                    WoWProDB.profile.titlecolor = {r, g, b, a}
+                                    WoWPro.TitlebarSet()
+                                end
+                            },
+                        }
                     },
                     backgrounds = {
                         order = 40,
@@ -434,11 +445,37 @@ local function createDisplayConfig()
                                 name = L["Enable Border"],
                                 desc = L["Enables/disables the border around the guide window."],
                                 get = function(info) return WoWProDB.profile.border end,
-                                set = function(info,val) WoWProDB.profile.border = val
-                                    WoWPro.BackgroundSet() end
+                                set = function(info,val)
+                                    WoWProDB.profile.border = val
+                                    if not val then
+                                        WoWProDB.profile.borderthickness = 0
+                                    end
+                                    WoWPro.BackgroundSet()
+                                    WoWPro.MainFrameLayout()
+                                    WoWPro.RowSizeSet()
+                                end
+                            },
+                            borderthickness = {
+                                order = 5,
+                                type = "range",
+                                name = "Border Thickness Override",
+                                desc = "Locked: border thickness is fixed at 4px for all textures.",
+                                min = 0, max = 0, step = 1,
+                                disabled = function() return true end,
+                                get = function(info)
+                                    WoWProDB.profile.borderthickness = 0
+                                    return 0
+                                end,
+                                set = function(info,val)
+                                    WoWProDB.profile.borderthickness = 0
+                                    WoWPro.BackgroundSet()
+                                    WoWPro.MainFrameLayout()
+                                    WoWPro.RowSizeSet()
+                                end,
+                                width = "double"
                             },
                             stickytexture = {
-                                order = 5,
+                                order = 6,
                                 type = "select",
                                 name = L["Sticky Background"],
                                 desc = L["Texture used for sticky step background."],
@@ -456,7 +493,7 @@ local function createDisplayConfig()
                                 width = "double"
                             },
                             stickycolor = {
-                                order = 6,
+                                order = 7,
                                 type = "color",
                                 name = L["Sticky Step Color"],
                                 desc = L["Background color for the sticky step frames."],
