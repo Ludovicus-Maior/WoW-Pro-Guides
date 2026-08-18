@@ -1,113 +1,79 @@
 ------------------------------------------------------------------------
-r1389 | nevcairiel | 2026-02-03 18:39:11 +0000 (Tue, 03 Feb 2026) | 1 line
+r1402 | nevcairiel | 2026-08-12 05:50:27 +0000 (Wed, 12 Aug 2026) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1388 | funkehdude | 2026-01-22 23:05:57 +0000 (Thu, 22 Jan 2026) | 1 line
-Changed paths:
-   M /trunk/.luacheckrc
-   M /trunk/AceTab-3.0/AceTab-3.0.lua
-
-AceTab-3.0/AceTab-3.0: `NUM_CHAT_WINDOWS` was replaced by `Constants.ChatFrameConstants.MaxChatWindows`
-------------------------------------------------------------------------
-r1387 | funkehdude | 2026-01-13 16:57:21 +0000 (Tue, 13 Jan 2026) | 1 line
+r1401 | funkehdude | 2026-08-10 20:19:45 +0000 (Mon, 10 Aug 2026) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 Bump toc
 ------------------------------------------------------------------------
-r1386 | nevcairiel | 2025-12-11 18:25:02 +0000 (Thu, 11 Dec 2025) | 5 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Forward the "arg" option table member to widgets
-
-Widgets will receive the data through the SetCustomData function, if
-available, and can act on it as needed. This provides a clear lifecycle
-function before layout where the data is being made available.
-------------------------------------------------------------------------
-r1385 | nevcairiel | 2025-12-06 11:26:20 +0000 (Sat, 06 Dec 2025) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-
-AceConfig-3.0: Bump library versions for relative width support
-------------------------------------------------------------------------
-r1384 | nevcairiel | 2025-12-06 10:23:20 +0000 (Sat, 06 Dec 2025) | 3 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
-
-AceGUI-3.0: Keybinding: Add gamepad support
-
-Gamepad bindings are completely in line with the rest of the keybinding system in WoW, so all that's really necessary to make them work in AceGUI is to add a handler to catch bindings.
-------------------------------------------------------------------------
-r1383 | nevcairiel | 2025-12-06 10:19:35 +0000 (Sat, 06 Dec 2025) | 8 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-
-AceConfig-3.0: Widget width can be defined to be relative to the container
-
-Syntax in the config table:
-width = "relative"
-relWidth = "0.25"
-
-This will result in a widget that takes up a quarter of the container's
-width.
-------------------------------------------------------------------------
-r1382 | nevcairiel | 2025-12-05 08:44:39 +0000 (Fri, 05 Dec 2025) | 11 lines
+r1400 | nevcairiel | 2026-08-05 06:13:20 +0000 (Wed, 05 Aug 2026) | 3 lines
 Changed paths:
    M /trunk
    M /trunk/.luacheckrc
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceComm-3.0/ChatThrottleLib.lua
 
-AceConfigDialog-3.0: Preserve the original ID for BlizzOptions categories
+Ignore secret values in ChatThrottleLib hooks
 
-In Midnight, the ID must be numeric, so we can no longer use the name,
-and this may prevent taint spread by the ID field, since the
-automatically generated value is assigned securely.
-
-To open the settings panel through Settings.OpenToCategory, the ID needs
-to be passed, which is returned as the second value from :AddToBlizzOptions
-
-This change becomes effective when the new C_SettingsUtil API is added
-to the various clients, currently in 12.0
+Secret values can occur during combat when using normal chat, avoid errors from the bandwidth calculation since we can't measure the length of the messages in this case.
 ------------------------------------------------------------------------
-r1381 | nevcairiel | 2025-12-05 08:43:15 +0000 (Fri, 05 Dec 2025) | 4 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Remove InterfaceOptions_AddCategory support
-
-All supported WoW versions have moved on to the new Settings interface,
-so this was unused.
-------------------------------------------------------------------------
-r1380 | funkehdude | 2025-12-03 00:09:20 +0000 (Wed, 03 Dec 2025) | 1 line
+r1399 | funkehdude | 2026-07-10 21:40:53 +0000 (Fri, 10 Jul 2026) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 Bump toc
 ------------------------------------------------------------------------
-r1379 | nevcairiel | 2025-11-27 18:58:03 +0000 (Thu, 27 Nov 2025) | 3 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-
-AceGUI-3.0: TreeGroup: Pass an explicit alpha value to SetText
-
-Fixes CF-#685
-------------------------------------------------------------------------
-r1378 | funkehdude | 2025-11-19 19:46:34 +0000 (Wed, 19 Nov 2025) | 1 line
+r1398 | funkehdude | 2026-06-26 15:09:40 +0000 (Fri, 26 Jun 2026) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 Bump toc
+------------------------------------------------------------------------
+r1397 | funkehdude | 2026-06-20 00:35:53 +0000 (Sat, 20 Jun 2026) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1396 | funkehdude | 2026-06-20 00:33:25 +0000 (Sat, 20 Jun 2026) | 1 line
+Changed paths:
+   M /trunk/.luacheckrc
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+
+AceGUI-3.0/widgets/AceGUIWidget-CheckBox: Fix setting desaturation on WoW 12.1
+------------------------------------------------------------------------
+r1395 | funkehdude | 2026-05-17 23:36:19 +0000 (Sun, 17 May 2026) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1394 | funkehdude | 2026-04-22 07:51:15 +0000 (Wed, 22 Apr 2026) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1393 | funkehdude | 2026-04-10 01:52:49 +0000 (Fri, 10 Apr 2026) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1392 | funkehdude | 2026-03-16 00:15:39 +0000 (Mon, 16 Mar 2026) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Bump toc
+------------------------------------------------------------------------
+r1391 | funkehdude | 2026-03-06 14:48:32 +0000 (Fri, 06 Mar 2026) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+
+AceGUI-3.0/widgets/AceGUIWidget-Slider: Workaround font loading issue sometimes making freshly created editboxes blank until the text is changed.
 ------------------------------------------------------------------------
 
