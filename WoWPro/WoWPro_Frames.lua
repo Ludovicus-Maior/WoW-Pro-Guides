@@ -721,6 +721,9 @@ function WoWPro.RowSizeSet()
 
     -- guideframe height + mainframe layout
     WoWPro.GuideFrame:SetHeight(totalh)
+    -- Re-align row after height changes
+    WoWPro:LayoutRow(row)
+
     --WoWPro:UpdateMainFrameLayout()
 
     if WoWPro.Recorder then
@@ -1120,6 +1123,47 @@ function WoWPro.MainFrameLayout()
     local finalh = buttonh + titleh + stickyh + guideh + (pad * 2)
 
     WoWPro.MainFrame:SetHeight(finalh)
+end
+
+-- Lay out all row parts left-to-right so the row stays aligned and consistent
+function WoWPro:LayoutRow(row)
+    -- Row missing? Stop.
+    if not row then
+        return
+    end
+
+    local L = WoWPro.Layout
+    local maxHeight = 0
+    local prev
+    local x = L.RowPaddingLeft or 0
+
+    -- Order missing? Stop.
+    local order = row.Elements and row.Elements.Order
+    if not order then
+        return
+    end
+
+    -- Align only real frames
+    for _, element in ipairs(order) do
+        if element and element.GetObjectType then
+            element:ClearAllPoints()
+
+            if prev then
+                element:SetPoint("LEFT", prev, "RIGHT", L.ColumnSpacing or 0, 0)
+            else
+                element:SetPoint("LEFT", row, "LEFT", x, 0)
+            end
+
+            prev = element
+
+            local h = element:GetHeight() or 0
+            if h > maxHeight then
+                maxHeight = h
+            end
+        end
+    end
+
+    row:SetHeight(maxHeight + (L.RowPaddingBottom or 0))
 end
 
 -- Create Dialog Box --
@@ -1927,6 +1971,8 @@ function WoWPro:CreateRows()
             Jump         = row.jumpbutton,
             Extra        = row.eabutton
         }
+        -- Keep row elements aligned left-to-right
+        WoWPro:LayoutRow(row)
 
         -- Highlight texture
         local highlight = row:CreateTexture()
@@ -2214,7 +2260,6 @@ function WoWPro:CreateNextGuideDialog()
 
     WoWPro.NextGuideDialog = frame
 end
-
 
 function WoWPro.ResetCurrentGuide()
     if not WoWProDB.char.currentguide then return end
