@@ -1069,10 +1069,10 @@ function WoWPro.HideFrame(toHide, why)
     if toHide ~= WoWPro.IsHidden then
         if toHide then
             WoWPro.MainFrame:Hide()
-            WoWPro.Titlebar:Hide()
+            WoWPro.TitleBar:Hide()
         else
             WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
+            WoWPro:TitleBarShow()
         end
         WoWPro.IsHidden = toHide
     end

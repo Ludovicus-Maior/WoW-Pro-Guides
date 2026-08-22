@@ -142,7 +142,7 @@ local function createDisplayConfig()
                                 width = "double",
                                 get = function(info) return WoWProDB.profile.guidescroll end,
                                 set = function(info,val) WoWProDB.profile.guidescroll = val
-                                    WoWPro:TitlebarSet()
+                                    WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Scroll Mode") end,
                             },
                             guideprogress = {
@@ -154,7 +154,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.guideprogress end,
                                 set = function(info, val)
                                     WoWProDB.profile.guideprogress = val
-                                    WoWPro:TitlebarSet()
+                                    WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Guide Progress")
                                 end,
                             },
@@ -612,7 +612,7 @@ local function createDisplayConfig()
                                 set = function(info,val)
                                     local hashtable = LSM:HashTable("font")
                                     WoWProDB.profile.titlefont = hashtable[val]
-                                    WoWPro:TitlebarSet() end
+                                    WoWPro:TitleBarSet() end
                             },
                             titletextsize = {
                                 order = 11,
@@ -622,7 +622,7 @@ local function createDisplayConfig()
                                 min = 1, max = 30, step = 1,
                                 get = function(info) return WoWProDB.profile.titletextsize end,
                                 set = function(info,val) WoWProDB.profile.titletextsize = val
-                                    WoWPro:TitlebarSet() end
+                                    WoWPro:TitleBarSet() end
                             },
                             titletextcolor = {
                                 order = 12,
@@ -633,7 +633,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.titletextcolor = {r,g,b}
-                                    WoWPro:TitlebarSet() end
+                                    WoWPro:TitleBarSet() end
                             },
                             stickytitlefont = {
                                 order = 13,
