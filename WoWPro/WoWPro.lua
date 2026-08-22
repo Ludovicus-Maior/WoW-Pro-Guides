@@ -19,6 +19,14 @@ WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {} -- Temporary local log
 WoWPro.GuideLoaded = false
 
+-- Layout table: centralizes spacing, padding, and sizing values for all row/frame layout
+WoWPro.Layout = {
+    RowPadding = 4,
+    StepTextOffsetX = 4,
+    RowMinHeight = 22,
+    IconSize = 16,
+}
+
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
 function WoWPro:Embed(target)
