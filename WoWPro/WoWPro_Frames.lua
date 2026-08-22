@@ -897,6 +897,79 @@ function WoWPro.RowSet()
     WoWPro:ClampBarsOnScreen()
 end
 
+-- Compute vertical offsets for all MainFrame children based on visibility and growth direction
+function WoWPro.AnchorOffset()
+    local offsets = {}
+    local cumulative = 0
+
+    -- ButtonBar
+    if WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown() then
+        offsets.ButtonBar = cumulative
+        cumulative = cumulative + WoWPro.ButtonBar:GetHeight()
+    else
+        offsets.ButtonBar = cumulative
+    end
+
+    -- TitleBar
+    if WoWPro.TitleBar and WoWPro.TitleBar:IsShown() then
+        offsets.TitleBar = cumulative
+        cumulative = cumulative + WoWPro.TitleBar:GetHeight()
+    else
+        offsets.TitleBar = cumulative
+    end
+
+    -- StickyHeader
+    if WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown() then
+        offsets.StickyHeader = cumulative
+        cumulative = cumulative + WoWPro.StickyHeader:GetHeight()
+    else
+        offsets.StickyHeader = cumulative
+    end
+
+    -- GuideFrame (rows)
+    offsets.GuideFrame = cumulative
+    cumulative = cumulative + WoWPro.GuideFrame:GetHeight()
+
+    WoWProDB.profile.totalOffset = cumulative
+    WoWPro.AnchorOffsets = offsets
+end
+
+-- Keeps all bars visually stacked by applying visibility‑based offsets from AnchorOffset()
+function WoWPro:UpdateBars()
+    local mf  = WoWPro.MainFrame
+    local off = WoWPro.AnchorOffsets
+
+    if not mf or not off then return end
+
+    -- TitleBar
+    if WoWPro.TitleBar then
+        WoWPro.TitleBar:ClearAllPoints()
+        WoWPro.TitleBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.TitleBar)
+        WoWPro.TitleBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.TitleBar)
+    end
+
+    -- ButtonBar
+    if WoWPro.ButtonBar then
+        WoWPro.ButtonBar:ClearAllPoints()
+        WoWPro.ButtonBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.ButtonBar)
+        WoWPro.ButtonBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.ButtonBar)
+    end
+
+    -- StickyHeader
+    if WoWPro.StickyHeader then
+        WoWPro.StickyHeader:ClearAllPoints()
+        WoWPro.StickyHeader:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.StickyHeader)
+        WoWPro.StickyHeader:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.StickyHeader)
+    end
+
+    -- GuideFrame
+    if WoWPro.GuideFrame then
+        WoWPro.GuideFrame:ClearAllPoints()
+        WoWPro.GuideFrame:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.GuideFrame)
+        WoWPro.GuideFrame:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.GuideFrame)
+    end
+end
+
 function WoWPro.CustomizeFrames()
     WoWPro:dbp("WoWPro.CustomizeFrames()")
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
