@@ -8,8 +8,8 @@ function WoWPro:LoadNilGuide()
     WoWPro.stepcount = 1
 
     WoWPro.TitleText:SetText("No Guide Loaded")
-    WoWPro.StickyFrame:Hide()
-    WoWPro.StickyFrame:SetHeight(1)
+    WoWPro.StickyHeader:Hide()
+    WoWPro.StickyHeader:SetHeight(1)
 
     -- Getting the image and text for the step --
     WoWPro.rows[1].check:Hide()
