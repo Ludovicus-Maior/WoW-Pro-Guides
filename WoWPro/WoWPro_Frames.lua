@@ -600,301 +600,133 @@ end
 
 WoWPro.ShownRows = 0
 
+-- Compute row heights, stack rows vertically, and update GuideFrame/MainFrame layout
 function WoWPro.RowSizeSet()
--- Row-Specific Customization --
-    if _G.InCombatLockdown() then return end
-    local wasInhibit = WoWPro.InhibitAnchorStore
-    WoWPro.InhibitAnchorStore = true
-    local space = WoWProDB.profile.space
-    local pad = WoWProDB.profile.pad
-    local biggeststep = 0
-    local totalh, maxh = 0, WoWPro.GuideFrame:GetHeight()
-    local guideWindowCropped = false
+    if InCombatLockdown() then return end
 
-    -- Get current expansion anchor (default to TOPLEFT if not set)
-    local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-    AnchorDebug("RowSizeSet: autoresize=%s exp=%s", _G.tostring(WoWProDB.profile.autoresize), expansionAnchor)
-    -- Only debug if anchor or position changes
-    local anchorChanged = false
-
-    -- Calculate screen-limited bounds based on expansion anchor
-    local screenW, screenH = GetUIScreenSize()
-    local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or screenW
-
-    local maxWidthScreen
-    if expansionAnchor == "TOPLEFT" then
-        maxWidthScreen = screenW - left
-    elseif expansionAnchor == "TOPRIGHT" then
-        maxWidthScreen = right
-    elseif expansionAnchor == "BOTTOMLEFT" then
-        maxWidthScreen = screenW - left
-    elseif expansionAnchor == "BOTTOMRIGHT" then
-        maxWidthScreen = right
-    end
-
-    -- Hiding the row if it's past the set number of steps --
+    local L = WoWPro.Layout  -- layout table
+    local spc = WoWProDB.profile.space or 0
     local maxRows = WoWProDB.profile.numsteps + WoWPro:GetActiveStickyCount()
-    if WoWPro.RowLimit and WoWPro.RowLimit < maxRows then
-        maxRows = WoWPro.RowLimit
-    end
-
-    for i,row in ipairs(WoWPro.rows) do
-        if WoWProDB.profile.autoresize then
-            if i <= maxRows then
-                biggeststep = ceil(max(biggeststep,row.step:GetStringWidth()))
-                if WoWProDB.profile.track and row.trackcheck then
-                    biggeststep = ceil(max(biggeststep,row.track:GetStringWidth()))
-                end
-            end
-        end
-    end
-
-    -- Calculate available screen space based on current frame position and expansion anchor
-    -- This prevents auto-resize from exceeding screen edges without moving the frame
-    left = WoWPro.MainFrame:GetLeft() or 0
-    right = WoWPro.MainFrame:GetRight() or screenW
-
-    if expansionAnchor == "TOPLEFT" then
-        maxWidthScreen = screenW - left
-    elseif expansionAnchor == "TOPRIGHT" then
-        maxWidthScreen = right
-    elseif expansionAnchor == "BOTTOMLEFT" then
-        maxWidthScreen = screenW - left
-    elseif expansionAnchor == "BOTTOMRIGHT" then
-        maxWidthScreen = right
-    end
-
-    -- Auto Resizing - Horizontal --
-    if WoWProDB.profile.autoresize and biggeststep and biggeststep ~= 0 then
-        local totalw = biggeststep + 50 + pad*2
-        totalw = max(totalw,WoWProDB.profile.hminresize)
-        if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10)) end
-        -- Clamp to screen limits based on anchor
-        if maxWidthScreen then
-            totalw = math.min(totalw, maxWidthScreen)
-        end
-        WoWPro.MainFrame:SetWidth(totalw)
-    end
 
     WoWPro.ShownRows = 0
+    local totalh = 0
 
-    for i,row in ipairs(WoWPro.rows) do
-        row.check:SetPoint("TOPLEFT", 1, -space)
-
-        -- Setting the note frame size correctly, setting up mouseover notes --
-        local newh, noteh, trackh
-        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index) then
-            noteh = 1
-            row.note:Hide()
-            WoWPro.mousenotes[i]:Hide()
-            WoWPro.mousenotes[i].note:SetText(row.note:GetText())
-            local mnh = WoWPro.mousenotes[i].note:GetHeight()
-            WoWPro.mousenotes[i]:SetHeight(mnh+20)
-            row:SetScript("OnEnter", function()
-                WoWPro.SetMouseNotesPoints()
-                WoWPro.mousenotes[i]:Show()
-            end)
-            row:SetScript("OnLeave", function()
-                WoWPro.mousenotes[i]:Hide()
-            end)
-        else
-            local rowW = row:GetWidth()
-            row.note:SetWidth(rowW-30)
-            noteh = row.note:GetHeight()
-            row.note:Show()
-            row:SetScript("OnEnter", function() end)
-            row:SetScript("OnLeave", function() end)
+    for i, row in ipairs(WoWPro.rows) do
+        if i > maxRows then
+            row:Hide()
+            if row.itembutton then row.itembutton:Hide() end
+            if row.targetbutton then row.targetbutton:Hide() end
+            if row.jumpbutton then row.jumpbutton:Hide() end
+            if row.eabutton then row.eabutton:Hide() end
+            break
         end
 
-        if row.trackcheck and row.track:GetText() ~= "" then
-            row.track:Show()
-            row.track:SetPoint("TOPLEFT", row.iconTexture, "BOTTOMLEFT", 0, -noteh-5)
-            trackh = row.track:GetHeight()
-            row.progressBar:SetWidth(row:GetWidth()-30)
-        else
-            row.track:Hide()
-            row.progressBar:Hide();
-            trackh = 1
+        -- fixed-size elements
+        local fixedH = L.IconSize
+
+        -- step text height
+        local stepH = (row.step and row.step.GetHeight and row.step:GetHeight()) or 0
+        local headerH = math.max(stepH, fixedH)
+
+        -- note height
+        local noteH = 0
+        if row.note and row.note.IsShown and row.note:IsShown() then
+            noteH = (row.note.GetHeight and row.note:GetHeight()) or 0
         end
 
-        newh = noteh + trackh + max(row.step:GetHeight(),row.iconTexture:GetHeight()) + space*2 +3
-        if row.progressBar:IsVisible() then
-            newh = newh + 20
+        -- tracker height
+        local trackH = 0
+        if row.track and row.track.IsShown and row.track:IsShown() then
+            trackH = (row.track.GetHeight and row.track:GetHeight()) or 0
         end
-        local buttonHeight = 0
-        if row.itembutton and row.itembutton:IsShown() then
-            buttonHeight = max(buttonHeight, row.itembutton:GetHeight() + 7)
+
+        -- progress bar height
+        local progressH = 0
+        if row.progressBar and row.progressBar.IsShown and row.progressBar:IsShown() then
+            progressH = (row.progressBar.GetHeight and row.progressBar:GetHeight()) or 0
         end
-        if row.targetbutton and row.targetbutton:IsShown() then
-            buttonHeight = max(buttonHeight, row.targetbutton:GetHeight() + 7)
-        end
-        if row.jumpbutton and row.jumpbutton:IsShown() then
-            buttonHeight = max(buttonHeight, row.jumpbutton:GetHeight() + 7)
-        end
-        if row.eabutton and row.eabutton:IsShown() then
-            buttonHeight = max(buttonHeight, row.eabutton:GetHeight() + 7)
-        end
-        if buttonHeight > 0 then
-            newh = max(newh, buttonHeight)
-        end
+
+        -- buttons (fixed size)
+        local buttonH = fixedH + 7
+
+        -- final row height
+        local newh = headerH + noteH + trackH + progressH + (spc * 2) + L.RowPadding
+        newh = math.max(newh, buttonH)
+
         row:SetHeight(newh)
+        totalh = totalh + newh
 
-        -- Hiding the row if it's past the set number of steps --
-        if WoWProDB.profile.autoresize then
-            if i <= maxRows then
-                totalh = totalh + newh
-                row:Show()
-                WoWPro.ShownRows = WoWPro.ShownRows + 1
-            else
-                for j=i,15 do
-                    WoWPro.rows[j]:Hide()
-                    if not _G.InCombatLockdown() then
-                        if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
-                        if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
-                        if WoWPro.rows[j].jumpbutton then WoWPro.rows[j].jumpbutton:Hide() end
-                        if WoWPro.rows[j].eabutton then WoWPro.rows[j].eabutton:Hide() end
-                    end
+        -- layout inset
+        local INSET = L.StepTextOffsetX
+
+        -- checkbox
+        if row.check then
+            row.check:ClearAllPoints()
+            row.check:SetPoint("LEFT", row, "LEFT", INSET, 0)
+            row.check:SetSize(fixedH, fixedH)
+        end
+
+        -- action icon
+        if row.iconTexture and row.iconTexture.frame then
+            local frame = row.iconTexture.frame
+            frame:ClearAllPoints()
+            frame:SetPoint("LEFT", row.check, "RIGHT", INSET, 0)
+            frame:SetSize(fixedH, fixedH)
+        end
+
+        -- step text
+        if row.step then
+            row.step:ClearAllPoints()
+            row.step:SetPoint("LEFT",
+                (row.iconTexture and row.iconTexture.frame) or row.check,
+                "RIGHT", INSET, 0)
+        end
+
+        -- loot buttons
+        if row.lootsbuttons then
+            for j, loot in ipairs(row.lootsbuttons) do
+                local btn = loot.button
+                local icon = loot.icon
+
+                if btn then
+                    btn:SetSize(fixedH, fixedH)
+                    btn:ClearAllPoints()
+
+                    local xOffset = -(j - 1) * 26
+                    btn:SetPoint("RIGHT", row, "RIGHT", xOffset - INSET, 0)
                 end
-                break
+
+                if icon and btn then
+                    icon:SetAllPoints(btn)
+                end
             end
-        -- Hiding the row if the new height makes it too large --
+        end
+
+        -- step text right anchor
+        if row.step and row.lootsbuttons and row.lootsbuttons[1] and row.lootsbuttons[1].button then
+            row.step:SetPoint("RIGHT", row.lootsbuttons[1].button, "LEFT", -INSET, 0)
+        end
+
+        -- stack rows vertically
+        local spacing = WoWProDB.profile.stepSpacing or 0
+
+        if i == 1 then
+            row:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", 0, 0)
         else
-            totalh = totalh + newh
-            if totalh > maxh then
-                guideWindowCropped = true
-                for j=i,15 do
-                    WoWPro.rows[j]:Hide()
-                    if not _G.InCombatLockdown() then
-                        if WoWPro.rows[j].itembutton then WoWPro.rows[j].itembutton:Hide() end
-                        if WoWPro.rows[j].targetbutton then WoWPro.rows[j].targetbutton:Hide() end
-                        if WoWPro.rows[j].jumpbutton then WoWPro.rows[j].jumpbutton:Hide() end
-                        if WoWPro.rows[j].eabutton then WoWPro.rows[j].eabutton:Hide() end
-                    end
-                end
-                break
-            else
-                row:Show()
-                WoWPro.ShownRows = WoWPro.ShownRows + 1
-            end
+            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT", 0, -spacing)
         end
+
+        row:Show()
+        WoWPro.ShownRows = WoWPro.ShownRows + 1
     end
 
-    if WoWPro:GetActiveStickyCount() >= 1 then
-        WoWPro.StickyFrame:Show()
-        WoWPro.StickyFrame:SetHeight(WoWPro.StickyTitle:GetHeight())
-    else
-        WoWPro.StickyFrame:Hide()
-        WoWPro.StickyFrame:SetHeight(1)
+    -- guideframe height + mainframe layout
+    WoWPro.GuideFrame:SetHeight(totalh)
+    WoWPro:UpdateMainFrameLayout()
+
+    if WoWPro.Recorder then
+        WoWPro.Recorder:CustomizeFrames()
     end
-
-    -- Auto Resizing - Vertical --
-    if WoWProDB.profile.autoresize then
-        local titleheight = 0
-        if WoWPro.Titlebar:IsShown() then
-            titleheight = WoWPro.Titlebar:GetHeight()
-        end
-        totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
-
-        -- Get current frame position for final clamping
-
-        if not _G.InCombatLockdown() then
-                local pt = WoWPro.MainFrame:GetPoint()
-                if pt ~= expansionAnchor then
-                    AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", _G.tostring(pt), _G.tostring(expansionAnchor))
-                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
-                    if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
-                        local frameLeft = WoWPro.MainFrame:GetLeft() or 0
-                        local frameRight = WoWPro.MainFrame:GetRight() or screenW
-                        local top = WoWPro.MainFrame:GetTop() or screenH
-                        local bottom = WoWPro.MainFrame:GetBottom() or 0
-                        local x, y
-                        if expansionAnchor == "TOPLEFT" then
-                            x, y = frameLeft, top - screenH
-                        elseif expansionAnchor == "TOPRIGHT" then
-                            x, y = frameRight - screenW, top - screenH
-                        elseif expansionAnchor == "BOTTOMLEFT" then
-                            x, y = frameLeft, bottom
-                        else
-                            x, y = frameRight - screenW, bottom
-                        end
-                        WoWPro.MainFrame:ClearAllPoints()
-                        WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
-                        pt = expansionAnchor
-                        anchorChanged = true
-                    else
-                        AnchorDebug("RowSizeSet: anchor enforcement skipped due to manual move/resize")
-                    end
-                end
-                AnchorDebug("RowSizeSet: resizeAnchor=%s screen=(%.1f,%.1f)", expansionAnchor, screenW or 0, screenH or 0)
-
-                if anchorChanged then
-                    WoWPro:dbp("[DEBUG] RowSizeSet: autoresize=%s exp=%s", tostring(WoWProDB.profile.autoresize), tostring(expansionAnchor))
-                    WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s exp=%s screenW=%.1f screenH=%.1f", tostring(pt), tostring(expansionAnchor), screenW or 0, screenH or 0)
-                end
-
-                local maxHeightScreen
-                if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
-                    -- Growing downward: max height is distance from current top to bottom of screen
-                    local frameTop = WoWPro.MainFrame:GetTop() or screenH
-                    maxHeightScreen = frameTop
-                else
-                    -- Growing upward: max height is distance from current bottom to top of screen
-                    local frameBottom = WoWPro.MainFrame:GetBottom() or 0
-                    maxHeightScreen = screenH - frameBottom
-                end
-
-            -- Clamp calculated height to not exceed screen edge
-            if totalh > maxHeightScreen then
-                guideWindowCropped = true
-            end
-            totalh = math.min(totalh, maxHeightScreen)
-
-            -- Temporarily disable clamping to allow frame to grow upward for bottom-anchored frames
-            local wasClampedToScreen = WoWPro.MainFrame:IsClampedToScreen()
-            WoWPro.MainFrame:SetClampedToScreen(false)
-            WoWPro.MainFrame:SetHeight(totalh)
-            WoWPro.PaddingSet()
-            WoWPro.MainFrame:SetClampedToScreen(wasClampedToScreen)
-
-            -- Re-establish the current anchor after resize to avoid drift
-            local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
-            if ptAnchor then
-                WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
-            end
-        end
-    end
-
-    -- Final safety clamp: ensure window doesn't exceed screen edges after resizing (manual resize only)
-    if not WoWProDB.profile.autoresize and not _G.InCombatLockdown() then
-        local frameBottom = WoWPro.MainFrame:GetBottom()
-        local frameTop = WoWPro.MainFrame:GetTop()
-        local minHeight = WoWProDB.profile.vminresize or 40
-
-        -- If bottom is off-screen, shrink height to fit within screen
-        if frameBottom and frameBottom < 0 and frameTop then
-            local newHeight = math.max(minHeight, frameTop)
-            WoWPro.MainFrame:SetHeight(newHeight)
-        -- If top is off-screen (for upward growth), shrink height to fit within screen
-        elseif frameTop and frameTop > screenH and frameBottom then
-            local newHeight = math.max(minHeight, screenH - frameBottom)
-            WoWPro.MainFrame:SetHeight(newHeight)
-        end
-    end
-
-    if not _G.InCombatLockdown() then
-        if guideWindowCropped then
-            if not WoWPro.CroppedGuideWarning then
-                WoWPro:Print("|cffffff00WoWPro: Screen height limits guide visibility. Enable mouseover notes, reduce displayed rows, or move the window to give more space.|r")
-                WoWPro.CroppedGuideWarning = true
-            end
-        else
-            WoWPro.CroppedGuideWarning = nil
-        end
-    end
-
-    if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
-    WoWPro.InhibitAnchorStore = wasInhibit
 end
 
 function WoWPro:ContractGuideToRows()
