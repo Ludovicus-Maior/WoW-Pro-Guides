@@ -22,6 +22,10 @@ WoWPro.GuideLoaded = false
 -- Layout table: centralizes spacing, padding, and sizing values for all row/frame layout
 WoWPro.Layout = {
     RowPadding = 4,
+    RowPaddingLeft = 4,
+    RowPaddingTop = 2,
+    RowPaddingBottom = 2,
+    ColumnSpacing = 4,
     StepTextOffsetX = 4,
     RowMinHeight = 22,
     IconSize = 16,
