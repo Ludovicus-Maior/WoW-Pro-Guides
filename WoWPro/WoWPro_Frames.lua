@@ -124,6 +124,7 @@ function WoWPro:MinimapSet()
         icon:Hide("WoWProIcon")
     end
 end
+
 function WoWPro:ResizeSet()
     if _G.InCombatLockdown() then return end
     if WoWProDB.profile.resize then
@@ -145,79 +146,13 @@ function WoWPro:ResizeSet()
     end
 end
 
-function WoWPro:DragSet()
-    if WoWProDB.profile.drag then
-        WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
-                WoWPro.InhibitAnchorRestore = true
-                WoWPro:StartMoveClamp()
-                WoWPro.MainFrame:StartMoving()
-            elseif button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
-            end
-        end)
-        WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro:StopMoveClamp()
-                WoWPro:DisableLeftHandedIfOffScreen()
-                WoWPro.SetMouseNotesPoints()
-                WoWPro.RowSizeSet()
-                WoWPro.AnchorStore("OnMouseUp0")
-                WoWPro.InhibitAnchorRestore = false
-            end
-        end)
-
-        -- Enable titlebar dragging regardless of button bar visibility
-        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag and not _G.InCombatLockdown() then
-                WoWPro.InhibitAnchorRestore = true
-                WoWPro:StartMoveClamp()
-                WoWPro.MainFrame:StartMoving()
-            elseif button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
-            end
-        end)
-        WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
-            if button == "LeftButton" and WoWProDB.profile.drag then
-                WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro:StopMoveClamp()
-                WoWPro:DisableLeftHandedIfOffScreen()
-                WoWPro.SetMouseNotesPoints()
-                WoWPro.RowSizeSet()
-                WoWPro.AnchorStore("OnMouseUpTitlebar")
-                WoWPro.InhibitAnchorRestore = false
-            end
-        end)
-    else
-        WoWPro.ButtonBar:SetScript("OnMouseDown", function(this, button)
-            if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU")
-            end
-        end)
-        WoWPro.ButtonBar:SetScript("OnMouseUp", function(this, button)
-        end)
-
-        -- Disable titlebar dragging when dragging is disabled
-        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-            if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
-            end
-        end)
-        WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
-        end)
-    end
-end
-
 function WoWPro:PaddingSet()
     if _G.InCombatLockdown() then return end
     local pad = WoWProDB.profile.pad
     -- Padding Customization --
-    if WoWPro.Titlebar:IsShown() then
-        WoWPro.StickyFrame:SetPoint("TOPLEFT", WoWPro.Titlebar, "BOTTOMLEFT", pad+3, -pad+3)
-        WoWPro.StickyFrame:SetPoint("TOPRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", -pad-3, -pad+3)
+    if WoWPro.TitleBar:IsShown() then
+        WoWPro.StickyFrame:SetPoint("TOPLEFT", WoWPro.TitleBar, "BOTTOMLEFT", pad+3, -pad+3)
+        WoWPro.StickyFrame:SetPoint("TOPRIGHT", WoWPro.TitleBar, "BOTTOMRIGHT", -pad-3, -pad+3)
     else
         -- Match the same vertical padding as the titlebar-shown case
         WoWPro.StickyFrame:SetPoint("TOPLEFT", pad+3, -pad+3)
@@ -244,10 +179,10 @@ function WoWPro:PaddingSet()
 end
 
 function WoWPro:TitlebarShow()
-    if WoWProDB.profile.titlebar then
-        WoWPro.Titlebar:Show()
+    if WoWProDB.profile.titleBar then
+        WoWPro.TitleBar:Show()
     else
-        WoWPro.Titlebar:Hide()
+        WoWPro.TitleBar:Hide()
     end
 
     local wasButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
@@ -442,40 +377,6 @@ end
 function WoWPro:StopMoveClamp()
     WoWPro.IsMoving = false
     WoWPro.MainFrame:SetScript("OnUpdate", nil)
-end
-
-function WoWPro:TitlebarSet()
-    WoWPro:dbp("WoWPro:TitlebarSet()")
-    -- Titlebar enable/disable --
-    WoWPro:TitlebarShow()
-	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
-        WoWPro.Titlebar:SetBackdrop( {
-            bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-            tile = true, tileSize = 16,
-            insets = { left = 17,  right = 17,  top = 16,  bottom = -6 }
-        })
-        WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, -6)
-        WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, -6)
-	else
-        WoWPro.Titlebar:SetBackdrop( {
-            bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-            tile = true, tileSize = 16,
-            insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-        })
-        WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
-        WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
-	end
-    -- Colors --
-    WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-    -- Text
-    WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
-    WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
-    -- Size --
-    WoWPro.Titlebar:SetHeight(WoWPro.TitleText:GetHeight()+10)
-    -- Scrollbar --
-    if WoWProDB.profile.guidescroll then WoWPro.Scrollbar:Show() else WoWPro.Scrollbar:Hide() end
-    if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
-    WoWPro:AdjustMainFrameForHiddenButtonBar()
 end
 
 function WoWPro:BackgroundSet()
@@ -697,7 +598,7 @@ function WoWPro:ContractGuideToRows()
     if _G.InCombatLockdown() or WoWProDB.profile.autoresize then return end
     if not WoWPro.MainFrame or not WoWPro.rows then return end
     local pad = WoWProDB.profile.pad or 0
-    local titleheight = (WoWPro.Titlebar and WoWPro.Titlebar:IsShown()) and WoWPro.Titlebar:GetHeight() or 0
+    local titleheight = (WoWPro.TitleBar and WoWPro.TitleBar:IsShown()) and WoWPro.TitleBar:GetHeight() or 0
     local stickyHeight = (WoWPro.StickyFrame and WoWPro.StickyFrame:IsShown()) and WoWPro.StickyFrame:GetHeight() or 0
     local rowsHeight = 0
     for _, row in ipairs(WoWPro.rows) do
@@ -1014,8 +915,6 @@ end
 function WoWPro.CustomizeFrames()
     WoWPro:dbp("WoWPro.CustomizeFrames()")
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
-    WoWPro.DragSet();
-    WoWPro.TitlebarSet();
     WoWPro.PaddingSet();
     WoWPro.BackgroundSet();
     WoWPro.RowSet();
@@ -1053,11 +952,11 @@ function WoWPro.MainFrameLayout()
 
     -- TITLEBAR (BELOW BUTTONBAR)
     local titleh = 0
-    if WoWPro.Titlebar and WoWPro.Titlebar:IsShown() then
-        titleh = WoWPro.Titlebar:GetHeight()
-        WoWPro.Titlebar:ClearAllPoints()
-        WoWPro.Titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, -buttonh)
-        WoWPro.Titlebar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, -buttonh)
+    if WoWPro.TitleBar and WoWPro.TitleBar:IsShown() then
+        titleh = WoWPro.TitleBar:GetHeight()
+        WoWPro.TitleBar:ClearAllPoints()
+        WoWPro.TitleBar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, -buttonh)
+        WoWPro.TitleBar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, -buttonh)
     end
 
     -- STICKYHEADER (BELOW TITLEBAR)
@@ -1550,64 +1449,54 @@ function WoWPro:CreateButtonBar()
     BB:SetWidth((#BB.Buttons * barHeight) + ((#BB.Buttons - 1) * 2))
 end
 
--- Titlebar --
+-- TitleBar --
 function WoWPro:CreateTitleBar()
-    local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    titlebar:SetHeight(22)
-    titlebar:SetWidth(200)
-    titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
-    titlebar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT")
-    titlebar:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-    })
-    titlebar:RegisterForClicks("AnyUp")
-    WoWPro.Titlebar = titlebar
+    WoWPro:dbp("WoWPro:CreateTitleBar()")
 
-    -- Text --
-    local titletext = WoWPro.Titlebar:CreateFontString()
-    titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
-    titletext:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
-    titletext:SetFontObject(_G.GameFontNormal)
-    titletext:SetText("WoW-Pro Guides")
-    titletext:SetTextColor(1, 1, 1)
-    WoWPro.TitleText = titletext
+    -- Create the new TitleBar frame
+    local TB = CreateFrame("Frame", "WoWProTitleBar", WoWPro.MainFrame)
+    WoWPro.TitleBar = TB
 
-    -- Scripts --
-    WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro:StopMoveClamp()
-            WoWPro.AnchorStore("OnMouseUp2")
-            WoWPro.InhibitAnchorRestore = false
-        end
-    end)
-    WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
-        if WoWPro.GuideFrame:IsVisible() then
-            if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
-            WoWPro.GuideFrame:Hide()
-            WoWPro.UserCollapsed = true
-            WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
-            WoWPro.MainFrame:StartSizing("TOP")
-            WoWPro.MainFrame:SetHeight(this:GetHeight())
-            WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore("OnDoubleClick1")
-        else
-            WoWPro.GuideFrame:Show()
-            WoWPro.UserCollapsed = false
-            if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
-            WoWPro.MainFrame:StartSizing("TOP")
-            WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
-            WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore("OnDoubleClick0")
-            WoWPro:UpdateGuide("DoubleClick")
-        end
-    end)
+    -- TitleBar background texture (no backdrop)
+    TB.bg = TB:CreateTexture(nil, "BACKGROUND")
+    TB.bg:SetAllPoints(TB)
+    TB.bg:SetColorTexture(0, 0, 0, 0.40) -- temporary visual until later styling
+
+    -- Title text (Guide Name)
+    TB.title = TB:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+    TB.title:SetPoint("LEFT", TB, "LEFT", 10, 0)
+    TB.title:SetText("WoWPro Guide") -- replaced dynamically later
+
+    -- Progress text (0% etc.)
+    TB.progress = TB:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+    TB.progress:SetPoint("LEFT", TB.title, "RIGHT", 10, 0)
+    TB.progress:SetText("(0%)")
+
+    -- Zone text (Elwynn Forest etc.)
+    TB.zone = TB:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    TB.zone:SetPoint("LEFT", TB.progress, "RIGHT", 10, 0)
+    TB.zone:SetText("Zone")
+
+    -- Guide Icon (optional now, wired later)
+    TB.icon = TB:CreateTexture(nil, "OVERLAY")
+    TB.icon:SetSize(20, 20)
+    TB.icon:SetPoint("RIGHT", TB, "RIGHT", -10, 0)
+    TB.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
+
+    -- Anchor TitleBar to MainFrame
+    TB:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
+    TB:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
+    TB:SetHeight(24)
+
+    -- Anchor ButtonBar to TitleBar
+    if WoWPro.ButtonBar then
+        WoWPro.ButtonBar:SetPoint("TOPLEFT", TB, "BOTTOMLEFT", 0, 0)
+        WoWPro.ButtonBar:SetPoint("TOPRIGHT", TB, "BOTTOMRIGHT", 0, 0)
+    end
+
+    return TB
 end
+
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWProStickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
@@ -2151,10 +2040,10 @@ function WoWPro:AbleFrames()
     if WoWPro:IsEnabled() then
         WoWPro.MainFrame:Show()
         WoWPro.ButtonBar:Show()
-        WoWPro.Titlebar:Show()
+        WoWPro.TitleBar:Show()
     else
         WoWPro.MainFrame:Hide()
         WoWPro.ButtonBar:Hide()
-        WoWPro.Titlebar:Hide()
+        WoWPro.TitleBar:Hide()
     end
 end

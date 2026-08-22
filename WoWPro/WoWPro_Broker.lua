@@ -2289,24 +2289,24 @@ function WoWPro.UpdateGuideReal(From)
     local currentMainStep = WoWPro.NextStepNotSticky()
     if WoWPro.Recorder then
         if WoWProDB.profile.guideprogress then
-            WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+            WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
             if total > 0 then
                 local percentage = math.floor((currentMainStep / total) * 100)
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
             else
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
             end
         end
     else
         if WoWProDB.profile.guideprogress then
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+            WoWPro.TitleBar.title:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
             if total > 0 then
                 local percentage = math.floor((currentMainStep / total) * 100)
-                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                WoWPro.TitleBar.title:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
             else
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
             end
         end
 
