@@ -951,7 +951,7 @@ function WoWPro.AnchorStore(where)
     end)
 end
 
-function WoWPro.AnchorRestore(reset_size)
+function WoWPro.AnchorSync(reset_size)
     if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
         return
     end
@@ -982,7 +982,7 @@ function WoWPro.AnchorRestore(reset_size)
         if screenW <= 0 or screenH <= 0 then
             screenW, screenH = GetUIScreenSize()
         end
-        AnchorDebug("AnchorRestore: ui=(%.1f,%.1f) uiScale=%.3f screen=(%.1f,%.1f)", uiW, uiH, uiScale, screenW, screenH)
+        AnchorDebug("AnchorSync: ui=(%.1f,%.1f) uiScale=%.3f screen=(%.1f,%.1f)", uiW, uiH, uiScale, screenW, screenH)
         local savedW = _G.tonumber(posClone[9])
         local savedH = _G.tonumber(posClone[10])
         if savedW and savedH and math.abs(savedW - screenW) < 1 and math.abs(savedH - screenH) < 1 then
@@ -1001,7 +1001,7 @@ function WoWPro.AnchorRestore(reset_size)
         end
     end
     posClone[6] = nil
-    AnchorDebug("AnchorRestore: mode=%s offs=(%.1f,%.1f)", restoreMode, posClone[4] or 0, posClone[5] or 0)
+    AnchorDebug("AnchorSync: mode=%s offs=(%.1f,%.1f)", restoreMode, posClone[4] or 0, posClone[5] or 0)
     -- Restore size BEFORE position so WoW's clamping uses correct dimensions
     local size = WoWProDB.profile.size
     if size and not reset_size then
@@ -1009,17 +1009,17 @@ function WoWPro.AnchorRestore(reset_size)
         WoWPro.MainFrame:SetWidth(size[2])
         if WoWPro.DebugAnchor then
                 -- Debug: Log anchor restore details for troubleshooting frame position and size issues
-            WoWPro:dbp("AnchorRestore: Restored saved size - Width: " .. size[2] .. " Height: " .. size[1])
+            WoWPro:dbp("AnchorSync: Restored saved size - Width: " .. size[2] .. " Height: " .. size[1])
         end
     elseif reset_size then
         size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
         WoWProDB.profile.size = size
         if WoWPro.DebugAnchor then
-            WoWPro:dbp("AnchorRestore: Reset size to current - Width: " .. size[2] .. " Height: " .. size[1])
+            WoWPro:dbp("AnchorSync: Reset size to current - Width: " .. size[2] .. " Height: " .. size[1])
         end
     else
         if WoWPro.DebugAnchor then
-            WoWPro:dbp("AnchorRestore: No size to restore")
+            WoWPro:dbp("AnchorSync: No size to restore")
         end
     end
     -- Look up parent frame from saved name string
@@ -1029,7 +1029,7 @@ function WoWPro.AnchorRestore(reset_size)
     -- Debug: Check position immediately after SetPoint
     local debugTop = WoWPro.MainFrame:GetTop() or 0
     local debugBot = WoWPro.MainFrame:GetBottom() or 0
-    AnchorDebug("AnchorRestore: setpoint anchor=%s offs=(%.1f,%.1f) immediate=(T%.1f B%.1f)", _G.tostring(posClone[1]), posClone[4] or 0, posClone[5] or 0, debugTop, debugBot)
+    AnchorDebug("AnchorSync: setpoint anchor=%s offs=(%.1f,%.1f) immediate=(T%.1f B%.1f)", _G.tostring(posClone[1]), posClone[4] or 0, posClone[5] or 0, debugTop, debugBot)
 
     WoWPro.SetMouseNotesPoints()
     WoWPro.InhibitAnchorStore = wasInhibited  -- Restore the previous state
@@ -1067,7 +1067,7 @@ function WoWPro.CustomizeFrames()
     end
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorRestore(false) -- Restore saved position after initial module setup
+        WoWPro.AnchorSync(false) -- Restore saved position after initial module setup
         WoWPro.HasRestoredThisSession = true
     end
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
