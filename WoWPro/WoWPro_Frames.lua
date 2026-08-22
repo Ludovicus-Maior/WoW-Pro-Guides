@@ -1163,7 +1163,10 @@ function WoWPro:LayoutRow(row)
         end
     end
 
-    row:SetHeight(maxHeight + (L.RowPaddingBottom or 0))
+    local topPad = L.RowPaddingTop or 0
+    local bottomPad = L.RowPaddingBottom or 0
+
+    row:SetHeight(maxHeight + topPad + bottomPad)
 end
 
 -- Create Dialog Box --
@@ -1884,40 +1887,14 @@ function WoWPro:CreateRows()
         })
         row:SetBackdropBorderColor(1, 1, 1, 0)
 
-        -- Vertical stacking
+        -- Vertical stacking only (no padding, no horizontal stretch)
         if i == 1 then
             row:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", L.StepTextOffsetX, 0)
             row:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -L.StepTextOffsetX, 0)
         else
-            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT", 0, -L.RowPadding)
-            row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT", 0, -L.RowPadding)
+            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT", 0, 0)
+            row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT", 0, 0)
         end
-
-        -- Horizontal stretch
-        row:SetPoint("LEFT", WoWPro.GuideFrame, "LEFT", L.StepTextOffsetX, 0)
-        row:SetPoint("RIGHT", WoWPro.GuideFrame, "RIGHT", -L.StepTextOffsetX, 0)
-
-        row:SetHeight(L.RowMinHeight)
-        row:RegisterForClicks("AnyUp")
-        row:RegisterForDrag("LeftButton")
-
-        row:SetScript("OnDragStart", function()
-            if WoWProDB.profile.drag and not _G.InCombatLockdown() then
-                WoWPro.InhibitAnchorRestore = true
-                WoWPro:StartMoveClamp()
-                WoWPro.MainFrame:StartMoving()
-            end
-        end)
-
-        row:SetScript("OnDragStop", function()
-            if WoWProDB.profile.drag then
-                WoWPro.MainFrame:StopMovingOrSizing()
-                WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro:StopMoveClamp()
-                WoWPro.AnchorStore("OnDragStopRow")
-                WoWPro.InhibitAnchorRestore = false
-            end
-        end)
 
         -- Create row elements
         row.check = WoWPro:CreateCheck(row)
@@ -1956,8 +1933,7 @@ function WoWPro:CreateRows()
         row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, i, row)
         row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
 
-        -- This groups all parts of the row in one place so other authors can
-        -- easily see what the row contains. It doesn't change how anything works.
+        -- Group row elements
         row.Elements = {
             Check        = row.check,
             Icon         = row.iconTexture,
@@ -1971,8 +1947,6 @@ function WoWPro:CreateRows()
             Jump         = row.jumpbutton,
             Extra        = row.eabutton
         }
-        -- Keep row elements aligned left-to-right
-        WoWPro:LayoutRow(row)
 
         -- Highlight texture
         local highlight = row:CreateTexture()
@@ -1981,6 +1955,13 @@ function WoWPro:CreateRows()
         highlight:SetAllPoints()
         row:SetHighlightTexture(highlight)
         row:SetCheckedTexture(highlight)
+
+        -- Right-click only: open context menu
+        row:SetScript("OnClick", function(self, button)
+            if button == "RightButton" then
+                WoWPro:ShowContextMenu(self)
+            end
+        end)
 
         WoWPro.rows[i] = row
     end
