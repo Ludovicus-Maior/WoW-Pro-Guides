@@ -55,10 +55,10 @@ A Brain Drain|QID|92958|PRE|92955|M|38.98,38.89|Z|2437; Zul'Aman|N|From Befuddle
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Kill Vilebranch and loot the Hex Fetishes.|S|
 C There's the Rub|QID|92957|M|36.75,37.05|Z|2437; Zul'Aman|N|Click the Amani Tablets.|H|
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Finish collecting Hex Fetishes from the Vilebranch you slaughter.|S|
-T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 T There's the Rub|QID|92957|M|38.98,38.90|Z|2437; Zul'Aman|N|To Loa Speaker Kinduru.|
+T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 A Mission to Maisara|QID|92952|PRE|92958&92957|M|38.98,38.90|Z|2437; Zul'Aman|N|From Befuddled Amani Mask.|
-R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Arrive at Maisara Deeps.|
+R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Fly to Maisara Deeps.|
 T Mission to Maisara|QID|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|To Enchanted Amani Mask.|
 A Memories of Malacrass|QID|92953|PRE|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|From Enchanted Amani Mask.|
 A Digging Deeper|QID|92951|PRE|92952|M|44.48,36.65|Z|2437; Zul'Aman|N|From Zul'jan.|
@@ -83,7 +83,6 @@ T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|From Orweyna.|
 C Dead End|QID|93012|QO|1|M|43.82,68.34|Z|2437; Zul'Aman|N|Speak to Zul'jarra.|CHAT|
 C Dead End|QID|93012|QO|2|M|43.54,68.34|Z|2437; Zul'Aman|N|Use Kinduru's Mortar to grind Bog Herbs.|H|
-C Dead End|QID|93012|QO|3|M|43.86,68.67|Z|2437; Zul'Aman|N|Stand in the gold circle and use your pour Death Rites Mixture into the fires.|EAB|
 C Dead End|QID|93012|QO|3|M|43.95,68.66;43.86,68.67;43.59,68.25|CN|Z|2437; Zul'Aman|N|Stand in the gold circle and use your [color=33fff9] Extra Action Button [/color] to pour Death Rites Mixture into the three fires.|EAB|
 T Dead End|QID|93012|M|43.78,68.40|Z|2437; Zul'Aman|N|To Zul'jarra.|
 
@@ -93,8 +92,8 @@ R Witherbark Bluff|ACTIVE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|Fly to Witherba
 T A Call for Aid|QID|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|To Lady Liadrin.|
 A Saving Those Bound|QID|92917|PRE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|From Lady Liadrin.|
 A All Bark, All Bite|QID|92919|PRE|92916|M|36.97,23.36|Z|2437; Zul'Aman|N|From Orweyna.|
-C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
-C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
 C Saving Those Bound|QID|92917|QO|2|M|38.08,26.05|Z|2437; Zul'Aman|N|Rescue Dak'zor.|H|
 C Saving Those Bound|QID|92917|QO|1|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish rescuing villagers.|US|
 C All Bark, All Bite|QID|92919|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish slaying invaders.|US|
