@@ -1829,26 +1829,34 @@ end
 
 -- Rows to be populated by individual addons --
 function WoWPro:CreateRows()
+    local L = WoWPro.Layout
     WoWPro.rows = {}
-    for i=1,15 do
+
+    for i = 1, 15 do
         local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-        row:SetBackdrop( {
+        row:SetBackdrop({
             bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
             tile = true, tileSize = 16
         })
         row:SetBackdropBorderColor(1, 1, 1, 0)
+
+        -- Vertical stacking
         if i == 1 then
-            row:SetPoint("TOPLEFT")
-            row:SetPoint("TOPRIGHT")
+            row:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", L.StepTextOffsetX, 0)
+            row:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -L.StepTextOffsetX, 0)
         else
-            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT")
-            row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT")
+            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT", 0, -L.RowPadding)
+            row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT", 0, -L.RowPadding)
         end
-        row:SetPoint("LEFT")
-        row:SetPoint("RIGHT")
-        row:SetHeight(25)
-        row:RegisterForClicks("AnyUp");
+
+        -- Horizontal stretch
+        row:SetPoint("LEFT", WoWPro.GuideFrame, "LEFT", L.StepTextOffsetX, 0)
+        row:SetPoint("RIGHT", WoWPro.GuideFrame, "RIGHT", -L.StepTextOffsetX, 0)
+
+        row:SetHeight(L.RowMinHeight)
+        row:RegisterForClicks("AnyUp")
         row:RegisterForDrag("LeftButton")
+
         row:SetScript("OnDragStart", function()
             if WoWProDB.profile.drag and not _G.InCombatLockdown() then
                 WoWPro.InhibitAnchorRestore = true
@@ -1856,6 +1864,7 @@ function WoWPro:CreateRows()
                 WoWPro.MainFrame:StartMoving()
             end
         end)
+
         row:SetScript("OnDragStop", function()
             if WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
@@ -1866,6 +1875,7 @@ function WoWPro:CreateRows()
             end
         end)
 
+        -- Create row elements
         row.check = WoWPro:CreateCheck(row)
         row.check:SetScript("OnEnter", function(this)
             _G.GameTooltip:SetOwner(this, "CheckButton")
@@ -1875,30 +1885,34 @@ function WoWPro:CreateRows()
             _G.GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
             _G.GameTooltip:Show()
         end)
-        row.check:SetScript("OnLeave", function(this)
-            _G.GameTooltip:Hide()
-        end)
+        row.check:SetScript("OnLeave", function() _G.GameTooltip:Hide() end)
+
         row.iconTexture = WoWPro:CreateIcon(row, row.check)
         row.step = WoWPro:CreateStep(row, row.iconTexture)
         row.note = WoWPro:CreateNote(row, row.iconTexture)
         row.track = WoWPro:CreateTrack(row, row.iconTexture)
+
         row.progressBar = WoWPro:CreateProgressBar(row, row.track)
         row.progressBar:Hide()
-        row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, i, row)
-		row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
-        row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(WoWPro.MainFrame, i, row)
-		row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(i)
---        row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
-        -- multiple loot buttons
-        row.lootsbuttons = {}  -- Create a table to hold multiple loot buttons
-        for j = 1, 5 do  -- Create up to 5 loot buttons per row. Can be increased if necessary
-            local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, i, j)
-            row.lootsbuttons[j] = {button = lootsbutton, icon = lootsicon}
-        end
-        row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, i, row)
-		row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, i, row)
-		row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
 
+        row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, i, row)
+        row.itembuttonSecured = WoWPro:CreateItemButtonSecured(i)
+
+        row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(WoWPro.MainFrame, i, row)
+        row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(i)
+
+        -- Multiple loot buttons
+        row.lootsbuttons = {}
+        for j = 1, 5 do
+            local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, i, j)
+            row.lootsbuttons[j] = { button = lootsbutton, icon = lootsicon }
+        end
+
+        row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, i, row)
+        row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, i, row)
+        row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
+
+        -- Highlight texture
         local highlight = row:CreateTexture()
         highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
         highlight:SetTexCoord(0, 1, 0, 0.578125)
