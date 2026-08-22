@@ -151,64 +151,49 @@ function WoWPro:PaddingSet()
     local pad = WoWProDB.profile.pad
     -- Padding Customization --
     if WoWPro.TitleBar:IsShown() then
-        WoWPro.StickyFrame:SetPoint("TOPLEFT", WoWPro.TitleBar, "BOTTOMLEFT", pad+3, -pad+3)
-        WoWPro.StickyFrame:SetPoint("TOPRIGHT", WoWPro.TitleBar, "BOTTOMRIGHT", -pad-3, -pad+3)
+        WoWPro.StickyHeader:SetPoint("TOPLEFT", WoWPro.TitleBar, "BOTTOMLEFT", pad+3, -pad+3)
+        WoWPro.StickyHeader:SetPoint("TOPRIGHT", WoWPro.TitleBar, "BOTTOMRIGHT", -pad-3, -pad+3)
     else
         -- Match the same vertical padding as the titlebar-shown case
-        WoWPro.StickyFrame:SetPoint("TOPLEFT", pad+3, -pad+3)
-        WoWPro.StickyFrame:SetPoint("TOPRIGHT", -pad-3, -pad+3)
+        WoWPro.StickyHeader:SetPoint("TOPLEFT", pad+3, -pad+3)
+        WoWPro.StickyHeader:SetPoint("TOPRIGHT", -pad-3, -pad+3)
     end
-    WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyFrame, "BOTTOMLEFT" )
-    WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyFrame, "BOTTOMRIGHT" )
+    WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
+    WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
     -- Only anchor to bottom when scrolling is enabled to constrain height
     if WoWProDB.profile.guidescroll then
         WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
-        local stickyHeight = WoWPro.StickyFrame:IsShown() and WoWPro.StickyFrame:GetHeight() or 0
+        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
         local mainHeight = WoWPro.MainFrame:GetHeight() or 0
         local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
         WoWPro.GuideFrame:SetHeight(guideHeight)
     else
         WoWPro.GuideFrame:ClearAllPoints()
-        WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyFrame, "BOTTOMLEFT" )
-        WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyFrame, "BOTTOMRIGHT" )
-        local stickyHeight = WoWPro.StickyFrame:IsShown() and WoWPro.StickyFrame:GetHeight() or 0
+        WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
+        WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
+        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
         local mainHeight = WoWPro.MainFrame:GetHeight() or 0
         local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
         WoWPro.GuideFrame:SetHeight(guideHeight)
     end
 end
 
-function WoWPro:TitlebarShow()
-    if WoWProDB.profile.titleBar then
-        WoWPro.TitleBar:Show()
-    else
-        WoWPro.TitleBar:Hide()
-    end
-
-    local wasButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
-    if WoWProDB.profile.buttonbar then
-        WoWPro.ButtonBar:Show()
-    else
-        WoWPro.ButtonBar:Hide()
-    end
-
-    local isButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
-    if wasButtonBarShown ~= isButtonBarShown then
-        local point = {WoWPro.MainFrame:GetPoint(1)}
-        if point[1] == "TOPLEFT" or point[1] == "TOPRIGHT" then
-            local offset = WoWPro:GetButtonBarHideOffset()
-            if offset > 0 then
-                local x = point[4] or 0
-                local y = point[5] or 0
-                WoWPro.MainFrame:ClearAllPoints()
-                WoWPro.MainFrame:SetPoint(point[1], point[2] or _G.UIParent, point[3] or point[1], x + 0, y + (wasButtonBarShown and offset or -offset))
-            end
+-- Set visibility of the title bar and button bar based on user settings
+function WoWPro:TitleBarSetVisible(isVisible)
+    if WoWPro.TitleBar then
+        if isVisible then
+            WoWPro.TitleBar:Show()
+        else
+            WoWPro.TitleBar:Hide()
         end
     end
-
-    -- Ensure top bars remain on-screen
-    if WoWProDB.profile.buttonbar then
-        WoWPro:ClampBarsOnScreen()
+end
+function WoWPro:ButtonBarSetVisible(isVisible)
+    if WoWPro.ButtonBar then
+        if isVisible then
+            WoWPro.ButtonBar:Show()
+        else
+            WoWPro.ButtonBar:Hide() end
     end
 end
 
@@ -398,16 +383,16 @@ function WoWPro:BackgroundSet()
 			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
 		})
 	end
-    if WoWPro.StickyFrame then
-        WoWPro.StickyFrame:SetBackdrop({
+    if WoWPro.StickyHeader then
+        WoWPro.StickyHeader:SetBackdrop({
             bgFile = WoWProDB.profile.stickytexture or "Interface\\Tooltips\\UI-Tooltip-Background",
             tile = true, tileSize = 16
         })
     end
     -- Colors --
     WoWPro.MainFrame:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
-    if WoWPro.StickyFrame then
-        WoWPro.StickyFrame:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
+    if WoWPro.StickyHeader then
+        WoWPro.StickyHeader:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
     end
     WoWPro.ButtonBar:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     -- Border enable/disable --
@@ -599,7 +584,7 @@ function WoWPro:ContractGuideToRows()
     if not WoWPro.MainFrame or not WoWPro.rows then return end
     local pad = WoWProDB.profile.pad or 0
     local titleheight = (WoWPro.TitleBar and WoWPro.TitleBar:IsShown()) and WoWPro.TitleBar:GetHeight() or 0
-    local stickyHeight = (WoWPro.StickyFrame and WoWPro.StickyFrame:IsShown()) and WoWPro.StickyFrame:GetHeight() or 0
+    local stickyHeight = (WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown()) and WoWPro.StickyHeader:GetHeight() or 0
     local rowsHeight = 0
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
@@ -1497,14 +1482,16 @@ function WoWPro:CreateTitleBar()
     return TB
 end
 
--- Sticky Frame --
-function WoWPro:CreateStickyFrame()
-    local sticky = _G.CreateFrame("Frame", "WoWProStickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+-- Sticky Header --
+function WoWPro:CreateStickyHeader()
+    -- Create StickyHeader as a child of MainFrame
+    local sticky = CreateFrame("Frame", "WoWProStickyHeader", WoWPro.MainFrame, BackdropTemplateMixin and "BackdropTemplate" or nil)
     sticky:SetHeight(1)
     sticky:Hide()
-    WoWPro.StickyFrame = sticky
-    -- "As you go:" --
-    local stickytitle = WoWPro.StickyFrame:CreateFontString(nil, nil, "GameFontHighlight")
+    WoWPro.StickyHeader = sticky
+
+    -- "As you go:" label
+    local stickytitle = sticky:CreateFontString(nil, nil, "GameFontHighlight")
     stickytitle:SetPoint("TOPLEFT", 2, 4)
     stickytitle:SetPoint("TOPRIGHT", -5, 4)
     stickytitle:SetHeight(25)
@@ -1993,7 +1980,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateCornerHandles()
     WoWPro:CreateButtonBar()
     WoWPro:CreateTitleBar()
-    WoWPro:CreateStickyFrame()
+    WoWPro:CreateStickyHeader()
     WoWPro:CreateGuideFrame()
     WoWPro:CreateGuideWindowScrollbar()
     WoWPro:CreateRows()
