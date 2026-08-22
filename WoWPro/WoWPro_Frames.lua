@@ -257,21 +257,6 @@ function WoWPro:TitlebarShow()
         WoWPro.ButtonBar:Hide()
     end
 
-    -- Keep options (gear) button visible when button bar is hidden
-    if WoWPro.OptionsButton then
-        WoWPro.OptionsButton:ClearAllPoints()
-        if WoWProDB.profile.buttonbar then
-            WoWPro.OptionsButton:SetParent(WoWPro.ButtonBar)
-            WoWPro.OptionsButton:SetPoint("CENTER", WoWPro.ButtonBar, "RIGHT", -14, -1)
-            WoWPro.OptionsButton:Show()
-        else
-            local anchor = (WoWPro.Titlebar and WoWPro.Titlebar:IsShown()) and WoWPro.Titlebar or WoWPro.MainFrame
-            WoWPro.OptionsButton:SetParent(anchor)
-            WoWPro.OptionsButton:SetPoint("TOPRIGHT", anchor, "TOPRIGHT", -6, -6)
-            WoWPro.OptionsButton:Show()
-        end
-    end
-
     local isButtonBarShown = WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown()
     if wasButtonBarShown ~= isButtonBarShown then
         local point = {WoWPro.MainFrame:GetPoint(1)}
@@ -495,7 +480,6 @@ function WoWPro:TitlebarSet()
     if WoWPro.SkipStepsButton then
         WoWPro.SkipStepsButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
     end
-    WoWPro.OptionsButton:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])    -- Fonts --
     WoWPro.TitleText:SetFont(WoWProDB.profile.titlefont, WoWProDB.profile.titletextsize)
     WoWPro.TitleText:SetTextColor(WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3], 1);
 
@@ -1264,6 +1248,47 @@ function WoWPro:CreateMainFrame()
     end)
 end
 
+-- Option Button --
+function WoWPro:CreateOptionButton()
+    local OB = CreateFrame("Button", "WoWProOptionButton", WoWPro.MainFrame)
+    WoWPro.OptionButton = OB
+
+    -- Debug: confirm creation
+    print("OB CREATED", OB)
+
+    -- Size (must not be zero)
+    local iconSize = WoWProDB.profile.buttoniconsize or 24
+    OB:SetSize(iconSize, iconSize)
+
+    -- Anchor (CRITICAL — without this OB is hidden behind MainFrame)
+    OB:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
+
+    -- Texture (CRITICAL — must be OVERLAY so it appears above MainFrame backdrop)
+    OB.icon = OB:CreateTexture(nil, "OVERLAY")
+    OB.icon:SetAllPoints()
+    OB.icon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+
+    -- Mouse + drag
+    OB:EnableMouse(true)
+    OB:RegisterForDrag("LeftButton")
+
+    OB:SetScript("OnDragStart", function(self)
+        if InCombatLockdown() then return end
+        WoWPro.MainFrame:StartMoving()
+    end)
+
+    OB:SetScript("OnDragStop", function(self)
+        WoWPro.MainFrame:StopMovingOrSizing()
+        WoWPro.AnchorStore("OptionButtonDrag")
+    end)
+
+    OB:SetScript("OnMouseDown", function(self, button)
+        if button == "RightButton" then
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, self, "cursor", 0, 0, "MENU")
+        end
+    end)
+end
+
 -- Resize Button --
 function WoWPro:CreateResizeButton()
     local resizebutton = _G.CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
@@ -1711,42 +1736,7 @@ function WoWPro:CreateButtonBar()
             end
         end
     end)
-
-    -- Options Button --
-    local optionsbutton = _G.CreateFrame("Button", nil, WoWPro.ButtonBar, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    optionsbutton:SetSize(20, 16)
-    optionsbutton:SetPoint("CENTER", WoWPro.ButtonBar, "RIGHT", -14, -1)
-    optionsbutton:RegisterForClicks("AnyUp")
-    WoWPro.OptionsButton = optionsbutton
-
-    -- Options Button Icon --
-    local optionsicon = optionsbutton:CreateTexture(nil, "OVERLAY")
-    optionsicon:SetSize(14, 14)
-    optionsicon:SetPoint("CENTER")
-    optionsicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
-
-    -- Options Button Tooltip --
-    optionsbutton:SetScript("OnEnter", function(button)
-        _G.GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
-        _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
-        _G.GameTooltip:Show()
-        -- Lighten on hover
-        button:SetBackdropColor(WoWProDB.profile.titlecolor[1] + 0.2, WoWProDB.profile.titlecolor[2] + 0.2, WoWProDB.profile.titlecolor[3] + 0.2, WoWProDB.profile.titlecolor[4])
-    end)
-    optionsbutton:SetScript("OnLeave", function(button)
-        _G.GameTooltip:Hide()
-        -- Reset color
-        button:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-    end)
-
-    -- Options Button Click --
-    optionsbutton:SetScript("OnMouseDown", function(this, button)
-        if button == "RightButton" then
-            WoWPro:CloseDiscordDialog()
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, this, "cursor", 0 , 0, "MENU");
-        end
-    end)
-end
+ end
 
 -- Titlebar --
 function WoWPro:CreateTitleBar()
@@ -2296,8 +2286,8 @@ end
 
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
-
     WoWPro:CreateMainFrame()
+    WoWPro:CreateOptionButton()
     WoWPro:CreateResizeButton()
     WoWPro:CreateCornerHandles()
     WoWPro:CreateButtonBar()
