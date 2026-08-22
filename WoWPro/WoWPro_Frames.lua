@@ -144,6 +144,7 @@ function WoWPro:ResizeSet()
     if WoWPro.MainFrame:GetHeight() < WoWProDB.profile.vminresize then
         WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
     end
+    WoWPro:UpdateBars()
 end
 
 function WoWPro:PaddingSet()
@@ -186,6 +187,7 @@ function WoWPro:TitleBarSetVisible(isVisible)
         else
             WoWPro.TitleBar:Hide()
         end
+        WoWPro:UpdateBars()
     end
 end
 function WoWPro:ButtonBarSetVisible(isVisible)
@@ -193,7 +195,9 @@ function WoWPro:ButtonBarSetVisible(isVisible)
         if isVisible then
             WoWPro.ButtonBar:Show()
         else
-            WoWPro.ButtonBar:Hide() end
+            WoWPro.ButtonBar:Hide()
+        end
+        WoWPro:UpdateBars()
     end
 end
 
@@ -571,8 +575,6 @@ function WoWPro.RowSizeSet()
     WoWPro.GuideFrame:SetHeight(totalh)
     -- Re-align row after height changes
     WoWPro:LayoutRow(row)
-
-    --WoWPro:UpdateMainFrameLayout()
 
     if WoWPro.Recorder then
         WoWPro.Recorder:CustomizeFrames()
@@ -1507,50 +1509,38 @@ function WoWPro:CreateButtonBar()
     BB:SetWidth((#BB.Buttons * barHeight) + ((#BB.Buttons - 1) * 2))
 end
 
--- TitleBar --
+-- Create the TitleBar frame
 function WoWPro:CreateTitleBar()
     WoWPro:dbp("WoWPro:CreateTitleBar()")
 
-    -- Create the new TitleBar frame
     local TB = CreateFrame("Frame", "WoWProTitleBar", WoWPro.MainFrame)
     WoWPro.TitleBar = TB
 
-    -- TitleBar background texture (no backdrop)
+    -- Background
     TB.bg = TB:CreateTexture(nil, "BACKGROUND")
     TB.bg:SetAllPoints(TB)
-    TB.bg:SetColorTexture(0, 0, 0, 0.40) -- temporary visual until later styling
+    TB.bg:SetColorTexture(0, 0, 0, 0.40)
 
     -- Title text (Guide Name)
     TB.title = TB:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
     TB.title:SetPoint("LEFT", TB, "LEFT", 10, 0)
-    TB.title:SetText("WoWPro Guide") -- replaced dynamically later
+    TB.title:SetText("WoWPro Guide")
 
-    -- Progress text (0% etc.)
+    -- Progress text
     TB.progress = TB:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     TB.progress:SetPoint("LEFT", TB.title, "RIGHT", 10, 0)
     TB.progress:SetText("(0%)")
 
-    -- Zone text (Elwynn Forest etc.)
+    -- Zone text
     TB.zone = TB:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     TB.zone:SetPoint("LEFT", TB.progress, "RIGHT", 10, 0)
     TB.zone:SetText("Zone")
 
-    -- Guide Icon (optional now, wired later)
+    -- Guide Icon
     TB.icon = TB:CreateTexture(nil, "OVERLAY")
     TB.icon:SetSize(20, 20)
     TB.icon:SetPoint("RIGHT", TB, "RIGHT", -10, 0)
     TB.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
-
-    -- Anchor TitleBar to MainFrame
-    TB:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
-    TB:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
-    TB:SetHeight(24)
-
-    -- Anchor ButtonBar to TitleBar
-    if WoWPro.ButtonBar then
-        WoWPro.ButtonBar:SetPoint("TOPLEFT", TB, "BOTTOMLEFT", 0, 0)
-        WoWPro.ButtonBar:SetPoint("TOPRIGHT", TB, "BOTTOMRIGHT", 0, 0)
-    end
 
     return TB
 end
