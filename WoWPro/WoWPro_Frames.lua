@@ -721,7 +721,7 @@ function WoWPro.RowSizeSet()
 
     -- guideframe height + mainframe layout
     WoWPro.GuideFrame:SetHeight(totalh)
-    WoWPro:UpdateMainFrameLayout()
+    --WoWPro:UpdateMainFrameLayout()
 
     if WoWPro.Recorder then
         WoWPro.Recorder:CustomizeFrames()
@@ -1911,6 +1911,22 @@ function WoWPro:CreateRows()
         row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, i, row)
         row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, i, row)
         row.eabuttonSecured = WoWPro:CreateEAButtonSecured(i)
+
+        -- This groups all parts of the row in one place so other authors can
+        -- easily see what the row contains. It doesn't change how anything works.
+        row.Elements = {
+            Check        = row.check,
+            Icon         = row.iconTexture,
+            Step         = row.step,
+            Note         = row.note,
+            Track        = row.track,
+            Progress     = row.progressBar,
+            Item         = row.itembutton,
+            Target       = row.targetbutton,
+            Loots        = row.lootsbuttons,
+            Jump         = row.jumpbutton,
+            Extra        = row.eabutton
+        }
 
         -- Highlight texture
         local highlight = row:CreateTexture()
