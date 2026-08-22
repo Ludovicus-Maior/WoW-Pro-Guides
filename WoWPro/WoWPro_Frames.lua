@@ -22,7 +22,6 @@ local function GetUIScreenSize()
     return screenW, screenH
 end
 
-
 -- Frame Update Functions --
 function WoWPro:GetButtonBarHideOffset()
     if not WoWPro.ButtonBar then return 0 end
@@ -1069,6 +1068,58 @@ function WoWPro.CustomizeFrames()
         WoWPro.HasRestoredThisSession = true
     end
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
+end
+
+-- Layout MainFrame: stack child frames vertically and compute final height
+function WoWPro.MainFrameLayout()
+    if InCombatLockdown() then return end
+
+    local L = WoWPro.Layout        -- layout table
+    local pad = WoWProDB.profile.pad or 0
+
+    -- BUTTONBAR (TOP OF MAINFRAME)
+    local buttonh = 0
+    if WoWPro.ButtonBar then
+        buttonh = WoWPro.ButtonBar:GetHeight()
+        WoWPro.ButtonBar:ClearAllPoints()
+        WoWPro.ButtonBar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, 0)
+        WoWPro.ButtonBar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, 0)
+    end
+
+    -- TITLEBAR (BELOW BUTTONBAR)
+    local titleh = 0
+    if WoWPro.Titlebar and WoWPro.Titlebar:IsShown() then
+        titleh = WoWPro.Titlebar:GetHeight()
+        WoWPro.Titlebar:ClearAllPoints()
+        WoWPro.Titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, -buttonh)
+        WoWPro.Titlebar:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, -buttonh)
+    end
+
+    -- STICKYHEADER (BELOW TITLEBAR)
+    local stickyh = 0
+    if WoWPro.StickyHeader and WoWPro:GetActiveStickyCount() >= 1 then
+        stickyh = WoWPro.StickyText:GetHeight()
+        WoWPro.StickyHeader:SetHeight(stickyh)
+        WoWPro.StickyHeader:Show()
+
+        WoWPro.StickyHeader:ClearAllPoints()
+        WoWPro.StickyHeader:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, -(buttonh + titleh))
+        WoWPro.StickyHeader:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, -(buttonh + titleh))
+    elseif WoWPro.StickyHeader then
+        WoWPro.StickyHeader:SetHeight(0)
+        WoWPro.StickyHeader:Hide()
+    end
+
+    -- GUIDEFRAME (BELOW STICKYHEADER)
+    WoWPro.GuideFrame:ClearAllPoints()
+    WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", L.StepTextOffsetX, -(buttonh + titleh + stickyh))
+    WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -L.StepTextOffsetX, -(buttonh + titleh + stickyh))
+
+    -- MAINFRAME HEIGHT
+    local guideh = WoWPro.GuideFrame:GetHeight()
+    local finalh = buttonh + titleh + stickyh + guideh + (pad * 2)
+
+    WoWPro.MainFrame:SetHeight(finalh)
 end
 
 -- Create Dialog Box --
