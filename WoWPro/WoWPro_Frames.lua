@@ -1501,7 +1501,6 @@ end
 -- Button Bar --
 function WoWPro:CreateButtonBar()
     -- Shorthand locals
-    local Layout  = WoWPro.Layout
     local Profile = WoWProDB.profile
     local BM      = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
@@ -1862,11 +1861,14 @@ end
 
 -- Rows to be populated by individual addons --
 function WoWPro:CreateRows()
-    local L = WoWPro.Layout
+    -- Shorthand locals
+    local Layout = WoWPro.Layout
+    local GF     = WoWPro.GuideFrame
+
     WoWPro.rows = {}
 
     for i = 1, 15 do
-        local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+        local row = _G.CreateFrame("CheckButton", nil, GF, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
         row:SetBackdrop({
             bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
             tile = true, tileSize = 16
@@ -1875,17 +1877,17 @@ function WoWPro:CreateRows()
 
         -- Vertical stacking only (no padding, no horizontal stretch)
         if i == 1 then
-            row:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", L.StepTextOffsetX, 0)
-            row:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -L.StepTextOffsetX, 0)
+            row:SetPoint("TOPLEFT",  GF, "TOPLEFT",  Layout.StepTextOffsetX, 0)
+            row:SetPoint("TOPRIGHT", GF, "TOPRIGHT", -Layout.StepTextOffsetX, 0)
         else
-            row:SetPoint("TOPLEFT", WoWPro.rows[i-1], "BOTTOMLEFT", 0, 0)
+            row:SetPoint("TOPLEFT",  WoWPro.rows[i-1], "BOTTOMLEFT", 0, 0)
             row:SetPoint("TOPRIGHT", WoWPro.rows[i-1], "BOTTOMRIGHT", 0, 0)
         end
 
         -- Create row elements
         row.check = WoWPro:CreateCheck(row)
-        row.check:SetScript("OnEnter", function(this)
-            _G.GameTooltip:SetOwner(this, "CheckButton")
+        row.check:SetScript("OnEnter", function(checkBtn)
+            _G.GameTooltip:SetOwner(checkBtn, "CheckButton")
             _G.GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
             _G.GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
             _G.GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
@@ -1895,9 +1897,9 @@ function WoWPro:CreateRows()
         row.check:SetScript("OnLeave", function() _G.GameTooltip:Hide() end)
 
         row.iconTexture = WoWPro:CreateIcon(row, row.check)
-        row.step = WoWPro:CreateStep(row, row.iconTexture)
-        row.note = WoWPro:CreateNote(row, row.iconTexture)
-        row.track = WoWPro:CreateTrack(row, row.iconTexture)
+        row.step        = WoWPro:CreateStep(row, row.iconTexture)
+        row.note        = WoWPro:CreateNote(row, row.iconTexture)
+        row.track       = WoWPro:CreateTrack(row, row.iconTexture)
 
         row.progressBar = WoWPro:CreateProgressBar(row, row.track)
         row.progressBar:Hide()
@@ -1921,17 +1923,17 @@ function WoWPro:CreateRows()
 
         -- Group row elements
         row.Elements = {
-            Check        = row.check,
-            Icon         = row.iconTexture,
-            Step         = row.step,
-            Note         = row.note,
-            Track        = row.track,
-            Progress     = row.progressBar,
-            Item         = row.itembutton,
-            Target       = row.targetbutton,
-            Loots        = row.lootsbuttons,
-            Jump         = row.jumpbutton,
-            Extra        = row.eabutton
+            Check    = row.check,
+            Icon     = row.iconTexture,
+            Step     = row.step,
+            Note     = row.note,
+            Track    = row.track,
+            Progress = row.progressBar,
+            Item     = row.itembutton,
+            Target   = row.targetbutton,
+            Loots    = row.lootsbuttons,
+            Jump     = row.jumpbutton,
+            Extra    = row.eabutton
         }
 
         -- Highlight texture
@@ -1948,6 +1950,7 @@ function WoWPro:CreateRows()
                 WoWPro:ShowContextMenu(rowFrame)
             end
         end)
+
         WoWPro.rows[i] = row
     end
 end
