@@ -1511,7 +1511,6 @@ function WoWPro:CreateButtonBar()
     local userPad   = tonumber(Profile.pad) or 0
 
     local frameSize = iconSize + (btnPad * 2)
-    local barHeight = frameSize + (userPad * 2) + 10
 
     -- Create ButtonBar frame
     local BB = CreateFrame("Frame", "WoWPro_ButtonBar", MF, "BackdropTemplate")
@@ -1634,7 +1633,6 @@ end
 -- Create the TitleBar frame
 function WoWPro:CreateTitleBar()
     -- Shorthand locals
-    local Layout  = WoWPro.Layout
     local Profile = WoWProDB.profile
     local BM      = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
@@ -1704,7 +1702,7 @@ end
 
 -- Applies all user Title Bar appearance settings to the existing TitleBar frame.
 function WoWPro:TitleBarSet()
-    local TB = WoWPro.TitleBar or WoWPro.Titlebar
+    local TB = WoWPro.TitleBar
     if not TB then return end
 
     -- User settings
@@ -1732,7 +1730,6 @@ end
 -- Sticky Header --
 function WoWPro:CreateStickyHeader()
     -- Shorthand locals
-    local Layout  = WoWPro.Layout
     local Profile = WoWProDB.profile
     local BM      = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
@@ -1801,7 +1798,6 @@ end
 -- Guide Frame --
 function WoWPro:CreateGuideFrame()
     -- Shorthand locals
-    local Layout  = WoWPro.Layout
     local Profile = WoWProDB.profile
     local BM      = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
