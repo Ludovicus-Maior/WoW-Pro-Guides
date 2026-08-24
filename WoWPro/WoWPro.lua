@@ -362,7 +362,6 @@ local defaults = { profile = {
     guideprogress = false,
     progressbar = true,
     buttonbar = true,
-    buttonbar = true,
     buttoniconsize = 20,
     buttonpadding  = 2,
     }
