@@ -1,4 +1,6 @@
 -- luacheck: globals ipairs unpack ceil max floor math C_Timer tostring string
+-- luacheck: globals CreateFrame UIParent InCombatLockdown BackdropTemplateMixin
+
 WoWPro.DebugAnchorStore = false -- Enables detailed AnchorStore debug logging
 WoWPro.DebugAnchor = false -- Enables debug logging for window anchor/position changes
 
@@ -1136,10 +1138,10 @@ end
 
 -- MainFrame (the whole guide window)--
 function WoWPro:CreateMainFrame()
-    -- Shorthand locals
-    local Layout  = WoWPro.Layout
-    local Profile = WoWProDB.profile
-    local BM      = WoWPro:GetBorderMetrics()
+    -- Shorthand locals (not used at the moment)
+    -- local Layout  = WoWPro.Layout
+    -- local Profile = WoWProDB.profile
+    -- local BM      = WoWPro:GetBorderMetrics()
 
     -- MainFrame (MF) — passive container
     local MF = CreateFrame("Frame", "WoWPro.MainFrame", UIParent)
@@ -1216,14 +1218,14 @@ function WoWPro:CreateOptionButton()
     OB:EnableMouse(true)
     OB:RegisterForDrag("LeftButton")
 
-    OB:SetScript("OnDragStart", function(self)
+    OB:SetScript("OnDragStart", function(btn)
         if InCombatLockdown() then return end
         WoWPro.InhibitAnchorRestore = true
         WoWPro:StartMoveClamp()
         WoWPro.MainFrame:StartMoving()
     end)
 
-    OB:SetScript("OnDragStop", function(self)
+    OB:SetScript("OnDragStop", function(btn)
         WoWPro.MainFrame:StopMovingOrSizing()
         WoWPro.MainFrame:SetUserPlaced(false)
         WoWPro:StopMoveClamp()
@@ -1232,9 +1234,9 @@ function WoWPro:CreateOptionButton()
     end)
 
     -- Right-click menu (OnMouseUp, not OnMouseDown)
-    OB:SetScript("OnMouseUp", function(self, button)
+    OB:SetScript("OnMouseUp", function(frame, button)
         if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, self, "cursor", 0, 0, "MENU")
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, frame, "cursor", 0, 0, "MENU")
         end
     end)
 end
@@ -1647,7 +1649,7 @@ function WoWPro:CreateTitleBar()
     WoWPro.ProgressText = progress
 
     -- Double‑click collapse
-    TB:SetScript("OnDoubleClick", function(self)
+    TB:SetScript("OnDoubleClick", function(tb)
         WoWPro:ToggleCollapse()
     end)
 
@@ -1773,9 +1775,9 @@ function WoWPro:CreateGuideFrame()
     GF:SetClipsChildren(true)
 
     -- Right‑click menu only (GF does NOT drag MF)
-    GF:SetScript("OnMouseDown", function(self, button)
+    GF:SetScript("OnMouseDown", function(gf, button)
         if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, self, "cursor", 0, 0, "MENU")
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, gf, "cursor", 0, 0, "MENU")
         end
     end)
 
@@ -1898,12 +1900,11 @@ function WoWPro:CreateRows()
         row:SetCheckedTexture(highlight)
 
         -- Right-click only: open context menu
-        row:SetScript("OnClick", function(self, button)
+        row:SetScript("OnClick", function(rowFrame, button)
             if button == "RightButton" then
-                WoWPro:ShowContextMenu(self)
+                WoWPro:ShowContextMenu(rowFrame)
             end
         end)
-
         WoWPro.rows[i] = row
     end
 end
