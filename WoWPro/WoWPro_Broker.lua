@@ -1678,7 +1678,7 @@ function WoWPro:LegacyRowUpdate(offset)
 
     if not _G.InCombatLockdown() then
         WoWPro.RowSizeSet()
-        WoWPro.PaddingSet()
+        WoWPro.MainFrameLayout()
     end
 	if WoWPro.GroupSync then
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
@@ -1870,7 +1870,7 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:MapPoint()
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
-        WoWPro.PaddingSet()
+        WoWPro.MainFrameLayout()
         WoWPro.RowSet()
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
