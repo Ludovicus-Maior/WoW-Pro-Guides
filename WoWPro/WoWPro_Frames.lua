@@ -1021,7 +1021,6 @@ function WoWPro:UpdateBars()
     end
 end
 
-
 function WoWPro.CustomizeFrames()
     WoWPro:dbp("WoWPro.CustomizeFrames()")
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
@@ -2283,7 +2282,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateMainFrame()
     WoWPro:CreateOptionButton()
     WoWPro:CreateResizeButton()
-    WoWPro:CreateCornerHandles()
+    WoWPro:CornerResizeHandles()
     WoWPro:CreateButtonBar()
     WoWPro:CreateTitleBar()
     WoWPro:CreateStickyHeader()
