@@ -371,45 +371,79 @@ function WoWPro:StopMoveClamp()
 end
 
 function WoWPro:BackgroundSet()
-    WoWPro:dbp("WoWPro:BackgroundSet()")
-    -- Textures and Borders --
-	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
-		WoWProDB.profile.pad = 14
-		WoWPro.MainFrame:SetBackdrop( {
-			bgFile = WoWProDB.profile.bgtexture,
-			edgeFile = WoWProDB.profile.bordertexture,
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 16,  right = 16,  top = 16,  bottom = 16 }
-		})
-	else
-		WoWPro.MainFrame:SetBackdrop( {
-			bgFile = WoWProDB.profile.bgtexture,
-			edgeFile = WoWProDB.profile.bordertexture,
-			tile = true, tileSize = 16, edgeSize = 16,
-			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-		})
-	end
-    if WoWPro.StickyHeader then
-        WoWPro.StickyHeader:SetBackdrop({
-            bgFile = WoWProDB.profile.stickytexture or "Interface\\Tooltips\\UI-Tooltip-Background",
-            tile = true, tileSize = 16
+    -- Shorthand locals
+    local Profile = WoWProDB.profile
+    local MF      = WoWPro.MainFrame
+    local BB      = WoWPro.ButtonBar
+    local SH      = WoWPro.StickyHeader
+
+    -- Safety: MainFrame must exist
+    if not MF then
+        return
+    end
+
+    -- Determine insets based on border texture
+    local insets
+    if Profile.bordertexture == "EliTexture" then
+        Profile.pad = 14
+        insets = { left = 16, right = 16, top = 16, bottom = 16 }
+    else
+        insets = { left = 4, right = 3, top = 4, bottom = 3 }
+    end
+
+    -- MainFrame backdrop
+    MF:SetBackdrop({
+        bgFile   = Profile.bgtexture,
+        edgeFile = Profile.bordertexture,
+        tile     = true,
+        tileSize = 16,
+        edgeSize = 16,
+        insets   = insets
+    })
+
+    -- StickyHeader backdrop (optional)
+    if SH then
+        SH:SetBackdrop({
+            bgFile   = Profile.stickytexture or "Interface\\Tooltips\\UI-Tooltip-Background",
+            tile     = true,
+            tileSize = 16
         })
     end
-    -- Colors --
-    WoWPro.MainFrame:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
-    if WoWPro.StickyHeader then
-        WoWPro.StickyHeader:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], WoWProDB.profile.stickycolor[4])
+
+    -- Colors
+    MF:SetBackdropColor(
+        Profile.bgcolor[1],
+        Profile.bgcolor[2],
+        Profile.bgcolor[3],
+        Profile.bgcolor[4]
+    )
+
+    BB:SetBackdropColor(
+        Profile.bgcolor[1],
+        Profile.bgcolor[2],
+        Profile.bgcolor[3],
+        Profile.bgcolor[4]
+    )
+
+    if SH then
+        SH:SetBackdropColor(
+            Profile.stickycolor[1],
+            Profile.stickycolor[2],
+            Profile.stickycolor[3],
+            Profile.stickycolor[4]
+        )
     end
-    WoWPro.ButtonBar:SetBackdropColor(WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3], WoWProDB.profile.bgcolor[4])
-    -- Border enable/disable --
-    if WoWProDB.profile.border then
-        WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 1)
-        WoWPro.ButtonBar:SetBackdropBorderColor(1, 1, 1, 1)
-    else
-        WoWPro.MainFrame:SetBackdropBorderColor(1, 1, 1, 0)
-        WoWPro.ButtonBar:SetBackdropBorderColor(1, 1, 1, 0)
+
+    -- Border enable/disable
+    local alpha = Profile.border and 1 or 0
+    MF:SetBackdropBorderColor(1, 1, 1, alpha)
+    BB:SetBackdropBorderColor(1, 1, 1, alpha)
+
+    -- Recorder customization (optional)
+    local Recorder = WoWPro.Recorder
+    if Recorder and Recorder.CustomizeFrames then
+        Recorder:CustomizeFrames()
     end
-    if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 
 function WoWPro:GetBorderMetrics()
@@ -1186,7 +1220,7 @@ function WoWPro:CreateMainFrame()
     -- local BM      = WoWPro:GetBorderMetrics()
 
     -- MainFrame (MF) — passive container
-    local MF = CreateFrame("Frame", "WoWPro.MainFrame", UIParent)
+    local MF = CreateFrame("Frame", "WoWProMainFrame", UIParent, "BackdropTemplate")
     MF:SetClampedToScreen(true)
 
     -- Default size (static)
