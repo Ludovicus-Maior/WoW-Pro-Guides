@@ -1,3 +1,16 @@
+# Release 2026.08.26.A
+## Bug Fixes
+* Don't check Auras during combat, just in case
+* Update to Ace3 Release-r1403
+* Update HereBeDragons to 2.17-release
+* Preserve loot tracking updates without guide rebuilds
+* Update invocation of IsMouseOver from global to frame method
+* Yet more map updates from the Retail PTR
+* Tiny fixes in WoWPro_AutoComplete.lua and WoWPro_Config.lua
+* Fix bug in Recorder to use the right guide names
+## Guide Updates
+* Retail Neutral Leveling: The Curse of Ula'tek, Harandar, Voidstorm, Zul' Aman
+
 # Release 2026.07.22.A
 ## Bug Fixes
 * Update LibSharedMedia to r173
