@@ -55,10 +55,10 @@ A Brain Drain|QID|92958|PRE|92955|M|38.98,38.89|Z|2437; Zul'Aman|N|From Befuddle
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Kill Vilebranch and loot the Hex Fetishes.|S|
 C There's the Rub|QID|92957|M|36.75,37.05|Z|2437; Zul'Aman|N|Click the Amani Tablets.|H|
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Finish collecting Hex Fetishes from the Vilebranch you slaughter.|S|
-T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 T There's the Rub|QID|92957|M|38.98,38.90|Z|2437; Zul'Aman|N|To Loa Speaker Kinduru.|
+T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 A Mission to Maisara|QID|92952|PRE|92958&92957|M|38.98,38.90|Z|2437; Zul'Aman|N|From Befuddled Amani Mask.|
-R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Arrive at Maisara Deeps.|
+R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Fly to Maisara Deeps.|
 T Mission to Maisara|QID|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|To Enchanted Amani Mask.|
 A Memories of Malacrass|QID|92953|PRE|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|From Enchanted Amani Mask.|
 A Digging Deeper|QID|92951|PRE|92952|M|44.48,36.65|Z|2437; Zul'Aman|N|From Zul'jan.|
@@ -83,7 +83,6 @@ T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|From Orweyna.|
 C Dead End|QID|93012|QO|1|M|43.82,68.34|Z|2437; Zul'Aman|N|Speak to Zul'jarra.|CHAT|
 C Dead End|QID|93012|QO|2|M|43.54,68.34|Z|2437; Zul'Aman|N|Use Kinduru's Mortar to grind Bog Herbs.|H|
-C Dead End|QID|93012|QO|3|M|43.86,68.67|Z|2437; Zul'Aman|N|Stand in the gold circle and use your pour Death Rites Mixture into the fires.|EAB|
 C Dead End|QID|93012|QO|3|M|43.95,68.66;43.86,68.67;43.59,68.25|CN|Z|2437; Zul'Aman|N|Stand in the gold circle and use your [color=33fff9] Extra Action Button [/color] to pour Death Rites Mixture into the three fires.|EAB|
 T Dead End|QID|93012|M|43.78,68.40|Z|2437; Zul'Aman|N|To Zul'jarra.|
 
@@ -93,8 +92,8 @@ R Witherbark Bluff|ACTIVE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|Fly to Witherba
 T A Call for Aid|QID|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|To Lady Liadrin.|
 A Saving Those Bound|QID|92917|PRE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|From Lady Liadrin.|
 A All Bark, All Bite|QID|92919|PRE|92916|M|36.97,23.36|Z|2437; Zul'Aman|N|From Orweyna.|
-C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
-C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
 C Saving Those Bound|QID|92917|QO|2|M|38.08,26.05|Z|2437; Zul'Aman|N|Rescue Dak'zor.|H|
 C Saving Those Bound|QID|92917|QO|1|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish rescuing villagers.|US|
 C All Bark, All Bite|QID|92919|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish slaying invaders.|US|
@@ -186,9 +185,9 @@ T Echoed Steps|QID|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|To Orweyna.
 A What Was Buried|QID|92928|PRE|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|
 A Lurking in the Dark|QID|92929|PRE|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|
 C Lurking in the Dark|QID|92929|M|69.89,13.50|Z|2639; Crypt of the Denied|N|Click the Haunted Sarcophagi and kill the other things.|S|
-C What Was Buried|QID|92928|M|29.43,21.65|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Forgotten chamber.|
-C What Was Buried|QID|92928|M|42.59,49.30|Z|2639; Crypt of the Denied|N|Click the Urn to investigate the Necrotic chamber.|
-C What Was Buried|QID|92928|M|69.89,13.50|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Torture chamber.|
+C What Was Buried|QID|92928|M|29.43,21.65|QO|2|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Forgotten chamber.|
+C What Was Buried|QID|92928|M|42.59,49.30|QO|3|Z|2639; Crypt of the Denied|N|Click the Urn to investigate the Necrotic chamber.|
+C What Was Buried|QID|92928|M|69.89,13.50|QO|1|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Torture chamber.|
 C Lurking in the Dark|QID|92929|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|US|
 T What Was Buried|QID|92928|PRE|92927|M|PLAYER|Z|2639; Crypt of the Denied|N|To Orweyna.|
 T Lurking in the Dark|QID|92929|PRE|92927|M|PLAYER|Z|2639; Crypt of the Denied|N|To Orweyna.|
@@ -201,7 +200,7 @@ T Written by the Victors|QID|92930|M|57.47,49.09|Z|2512; The Coiled Isle|N|To Or
 ;CHAPTER 4 - Original Sin
 A Delay the Venom|QID|92931|PRE|92930|M|57.49,49.13|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
 C Delay the Venom|QID|92931|QO|1|M|57.55,49.00|Z|2512; The Coiled Isle|CHAT|N|Ask Rak'taka for the cure.|
-C Delay the Venom|QID|92931|QO|2|M|57.51,49.12|Z|2512; The Coiled Isle|H|N|Admisnister the cure to Zul'jarra.|
+C Delay the Venom|QID|92931|QO|2|M|57.51,49.12|Z|2512; The Coiled Isle|H|N|Administer the cure to Zul'jarra.|
 C Delay the Venom|QID|92931|QO|3|M|57.53,48.97|Z|2512; The Coiled Isle|CHAT|N|Ask Tak'lego what he thinks.|
 C Delay the Venom|QID|92931|QO|5|M|57.23,48.86|Z|2512; The Coiled Isle|CHAT|N|Check in with Captain Tokka.|
 C Delay the Venom|QID|92931|QO|4|M|57.51,47.69|Z|2512; The Coiled Isle|H|N|Destroy the training dummy so you can check in with Dak'zor.|
@@ -219,7 +218,7 @@ A Site of Terror|QID|92938|PRE|92932&92933|M|67.47,62.25|Z|2512; The Coiled Isle
 A Broken Spears|QID|93063|PRE|92932&92933|M|67.46,62.31|Z|2512; The Coiled Isle|N|From Dak'zor.|
 C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Kill and loot 'Fallen' mobs to collect the Amani weapons.|S|
 C Site of Terror|QID|92938|QO|1|M|67.24,66.18|Z|2512; The Coiled Isle|H|N|Investigate the Shattered Mound.|
-C Site of Terror|QID|92938|QO|3|M|67.47,62.25|Z|2512; The Coiled Isle|H|N|Investigate the Profaned Remains.|
+C Site of Terror|QID|92938|QO|3|M|70.50,62.28|Z|2512; The Coiled Isle|H|N|Investigate the Profaned Remains.|
 C Site of Terror|QID|92938|QO|2|M|71.21,64.75|Z|2512; The Coiled Isle|H|N|Investigate the Defiled Shrine.|
 C Site of Terror|QID|92938|QO|4|M|70.32,65.85|Z|2512; The Coiled Isle|H|N|Investigate the Forgotten Alter.|
 C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Keep looting those weapons.|US|
@@ -279,11 +278,13 @@ A Nature of Her Wounds|QID|93419|PRE|93417|M|57.27,48.59|Z|2512; The Coiled Isle
 C Nature of Her Wounds|QID|93419|QO|1|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Place the dagger on the ground.|
 C Nature of Her Wounds|QID|93419|QO|2|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Destroy the dagger (by clicking it.)
 T Nature of Her Wounds|QID|93419|M|57.27,48.66|Z|2512; The Coiled Isle|N|To Zul'jarra.|
-A The Venomous Abyss|QID|93418|PRE|93419|N|this is a quest to do the raid. Haven't found it yet, maybe not available until next week?|
-T The Venomous Abyss|QID|93418|
+A The Venomous Abyss|QID|93418|PRE|93419|m57.27,48.67|Z|2512; The Coiled Isle|N|From Zul'jarra. Don't skip the first step, i.e. you need to actually walk/fly to the raid entrance, not be summoned inside. I know it says optional, but at release anyway, that was bugged.|
+C The Venomous Abyss|QID|93418|QO|1|M|43.64,44.22|Z|2512; The Coiled Isle|N|Go to the Gate of the Serpant's Eye.|
+C The Venomous Abyss|QID|93418|QO|3|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Seh'ka can start story mode if you want to go that route, check off manually or just zone into the rade|IZ|2509|
+C The Venomous Abyss|QID|93418|QO|2|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Do the raid, queue for LFR, or find a group however you choose to get the raid done.|
+T The Venomous Abyss|QID|93418|N|To be continued.|
 A Lor'themar's Judgement|QID|93420|PRE|93418|
 T Lor'themar's Judgement|QID|93420|
-
 
 ;CHAPTER 6 - The Call of the Void
 A Echoes of the Darkwell|QID|95973|PRE|93420|
