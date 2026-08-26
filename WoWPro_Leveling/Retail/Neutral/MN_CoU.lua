@@ -278,7 +278,7 @@ A Nature of Her Wounds|QID|93419|PRE|93417|M|57.27,48.59|Z|2512; The Coiled Isle
 C Nature of Her Wounds|QID|93419|QO|1|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Place the dagger on the ground.|
 C Nature of Her Wounds|QID|93419|QO|2|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Destroy the dagger (by clicking it.)
 T Nature of Her Wounds|QID|93419|M|57.27,48.66|Z|2512; The Coiled Isle|N|To Zul'jarra.|
-A The Venomous Abyss|QID|93418|PRE|93419|m57.27,48.67|Z|2512; The Coiled Isle|N|From Zul'jarra. Don't skip the first step, i.e. you need to actually walk/fly to the raid entrance, not be summoned inside. I know it says optional, but at release anyway, that was bugged.|
+A The Venomous Abyss|QID|93418|PRE|93419|M|57.27,48.67|Z|2512; The Coiled Isle|N|From Zul'jarra. Don't skip the first step, i.e. you need to actually walk/fly to the raid entrance, not be summoned inside. I know it says optional, but at release anyway, that was bugged.|
 C The Venomous Abyss|QID|93418|QO|1|M|43.64,44.22|Z|2512; The Coiled Isle|N|Go to the Gate of the Serpant's Eye.|
 C The Venomous Abyss|QID|93418|QO|3|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Seh'ka can start story mode if you want to go that route, check off manually or just zone into the rade|IZ|2509|
 C The Venomous Abyss|QID|93418|QO|2|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Do the raid, queue for LFR, or find a group however you choose to get the raid done.|
