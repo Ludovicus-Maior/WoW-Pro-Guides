@@ -1,4 +1,4 @@
-# Release 2026.08.26.A
+# Release 2026.08.27.A
 ## Bug Fixes
 * Don't check Auras during combat, just in case
 * Update to Ace3 Release-r1403
@@ -10,6 +10,7 @@
 * Fix bug in Recorder to use the right guide names
 ## Guide Updates
 * Retail Neutral Leveling: The Curse of Ula'tek, Harandar, Voidstorm, Zul' Aman
+
 
 # Release 2026.07.22.A
 ## Bug Fixes
