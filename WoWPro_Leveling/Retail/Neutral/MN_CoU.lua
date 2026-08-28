@@ -55,10 +55,10 @@ A Brain Drain|QID|92958|PRE|92955|M|38.98,38.89|Z|2437; Zul'Aman|N|From Befuddle
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Kill Vilebranch and loot the Hex Fetishes.|S|
 C There's the Rub|QID|92957|M|36.75,37.05|Z|2437; Zul'Aman|N|Click the Amani Tablets.|H|
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Finish collecting Hex Fetishes from the Vilebranch you slaughter.|S|
-T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 T There's the Rub|QID|92957|M|38.98,38.90|Z|2437; Zul'Aman|N|To Loa Speaker Kinduru.|
+T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 A Mission to Maisara|QID|92952|PRE|92958&92957|M|38.98,38.90|Z|2437; Zul'Aman|N|From Befuddled Amani Mask.|
-R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Arrive at Maisara Deeps.|
+R Maisara Deeps|ACTIVE|92952|QO|2|M|44.52,36.63|Z|2437; Zul'Aman|N|Fly to Maisara Deeps.|
 T Mission to Maisara|QID|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|To Enchanted Amani Mask.|
 A Memories of Malacrass|QID|92953|PRE|92952|M|44.51,36.67|Z|2437; Zul'Aman|N|From Enchanted Amani Mask.|
 A Digging Deeper|QID|92951|PRE|92952|M|44.48,36.65|Z|2437; Zul'Aman|N|From Zul'jan.|
@@ -83,7 +83,6 @@ T Legacy of the Amani|QID|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|To Orweyna.|
 A Dead End|QID|93012|PRE|93011|M|44.36,66.66|Z|2437; Zul'Aman|N|From Orweyna.|
 C Dead End|QID|93012|QO|1|M|43.82,68.34|Z|2437; Zul'Aman|N|Speak to Zul'jarra.|CHAT|
 C Dead End|QID|93012|QO|2|M|43.54,68.34|Z|2437; Zul'Aman|N|Use Kinduru's Mortar to grind Bog Herbs.|H|
-C Dead End|QID|93012|QO|3|M|43.86,68.67|Z|2437; Zul'Aman|N|Stand in the gold circle and use your pour Death Rites Mixture into the fires.|EAB|
 C Dead End|QID|93012|QO|3|M|43.95,68.66;43.86,68.67;43.59,68.25|CN|Z|2437; Zul'Aman|N|Stand in the gold circle and use your [color=33fff9] Extra Action Button [/color] to pour Death Rites Mixture into the three fires.|EAB|
 T Dead End|QID|93012|M|43.78,68.40|Z|2437; Zul'Aman|N|To Zul'jarra.|
 
@@ -93,8 +92,8 @@ R Witherbark Bluff|ACTIVE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|Fly to Witherba
 T A Call for Aid|QID|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|To Lady Liadrin.|
 A Saving Those Bound|QID|92917|PRE|92916|M|36.99,23.16|Z|2437; Zul'Aman|N|From Lady Liadrin.|
 A All Bark, All Bite|QID|92919|PRE|92916|M|36.97,23.36|Z|2437; Zul'Aman|N|From Orweyna.|
-C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
-C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C All Bark, All Bite|QID|92919|M|36.97,23.36|Z|2437; Zul'Aman|N|Slay Invaders.|S|
+C Saving Those Bound|QID|92917|QO|1|M|36.99,23.16|Z|2437; Zul'Aman|N|Rescue Villagers.|S|H|
 C Saving Those Bound|QID|92917|QO|2|M|38.08,26.05|Z|2437; Zul'Aman|N|Rescue Dak'zor.|H|
 C Saving Those Bound|QID|92917|QO|1|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish rescuing villagers.|US|
 C All Bark, All Bite|QID|92919|M|37.32,25.84|Z|2437; Zul'Aman|N|Finish slaying invaders.|US|
@@ -186,9 +185,9 @@ T Echoed Steps|QID|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|To Orweyna.
 A What Was Buried|QID|92928|PRE|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|
 A Lurking in the Dark|QID|92929|PRE|92927|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|
 C Lurking in the Dark|QID|92929|M|69.89,13.50|Z|2639; Crypt of the Denied|N|Click the Haunted Sarcophagi and kill the other things.|S|
-C What Was Buried|QID|92928|M|29.43,21.65|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Forgotten chamber.|
-C What Was Buried|QID|92928|M|42.59,49.30|Z|2639; Crypt of the Denied|N|Click the Urn to investigate the Necrotic chamber.|
-C What Was Buried|QID|92928|M|69.89,13.50|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Torture chamber.|
+C What Was Buried|QID|92928|M|29.43,21.65|QO|2|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Forgotten chamber.|
+C What Was Buried|QID|92928|M|42.59,49.30|QO|3|Z|2639; Crypt of the Denied|N|Click the Urn to investigate the Necrotic chamber.|
+C What Was Buried|QID|92928|M|69.89,13.50|QO|1|Z|2639; Crypt of the Denied|N|Click the Mural to investigate the Torture chamber.|
 C Lurking in the Dark|QID|92929|M|69.89,13.50|Z|2639; Crypt of the Denied|N|From Orweyna.|US|
 T What Was Buried|QID|92928|PRE|92927|M|PLAYER|Z|2639; Crypt of the Denied|N|To Orweyna.|
 T Lurking in the Dark|QID|92929|PRE|92927|M|PLAYER|Z|2639; Crypt of the Denied|N|To Orweyna.|
@@ -201,7 +200,7 @@ T Written by the Victors|QID|92930|M|57.47,49.09|Z|2512; The Coiled Isle|N|To Or
 ;CHAPTER 4 - Original Sin
 A Delay the Venom|QID|92931|PRE|92930|M|57.49,49.13|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
 C Delay the Venom|QID|92931|QO|1|M|57.55,49.00|Z|2512; The Coiled Isle|CHAT|N|Ask Rak'taka for the cure.|
-C Delay the Venom|QID|92931|QO|2|M|57.51,49.12|Z|2512; The Coiled Isle|H|N|Admisnister the cure to Zul'jarra.|
+C Delay the Venom|QID|92931|QO|2|M|57.51,49.12|Z|2512; The Coiled Isle|H|N|Administer the cure to Zul'jarra.|
 C Delay the Venom|QID|92931|QO|3|M|57.53,48.97|Z|2512; The Coiled Isle|CHAT|N|Ask Tak'lego what he thinks.|
 C Delay the Venom|QID|92931|QO|5|M|57.23,48.86|Z|2512; The Coiled Isle|CHAT|N|Check in with Captain Tokka.|
 C Delay the Venom|QID|92931|QO|4|M|57.51,47.69|Z|2512; The Coiled Isle|H|N|Destroy the training dummy so you can check in with Dak'zor.|
@@ -219,7 +218,7 @@ A Site of Terror|QID|92938|PRE|92932&92933|M|67.47,62.25|Z|2512; The Coiled Isle
 A Broken Spears|QID|93063|PRE|92932&92933|M|67.46,62.31|Z|2512; The Coiled Isle|N|From Dak'zor.|
 C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Kill and loot 'Fallen' mobs to collect the Amani weapons.|S|
 C Site of Terror|QID|92938|QO|1|M|67.24,66.18|Z|2512; The Coiled Isle|H|N|Investigate the Shattered Mound.|
-C Site of Terror|QID|92938|QO|3|M|67.47,62.25|Z|2512; The Coiled Isle|H|N|Investigate the Profaned Remains.|
+C Site of Terror|QID|92938|QO|3|M|70.50,62.28|Z|2512; The Coiled Isle|H|N|Investigate the Profaned Remains.|
 C Site of Terror|QID|92938|QO|2|M|71.21,64.75|Z|2512; The Coiled Isle|H|N|Investigate the Defiled Shrine.|
 C Site of Terror|QID|92938|QO|4|M|70.32,65.85|Z|2512; The Coiled Isle|H|N|Investigate the Forgotten Alter.|
 C Broken Spears|QID|93063|M|67.46,62.31|Z|2512; The Coiled Isle|N|Keep looting those weapons.|US|
@@ -279,40 +278,134 @@ A Nature of Her Wounds|QID|93419|PRE|93417|M|57.27,48.59|Z|2512; The Coiled Isle
 C Nature of Her Wounds|QID|93419|QO|1|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Place the dagger on the ground.|
 C Nature of Her Wounds|QID|93419|QO|2|M|57.34,48.62|Z|2512; The Coiled Isle|H|N|Destroy the dagger (by clicking it.)
 T Nature of Her Wounds|QID|93419|M|57.27,48.66|Z|2512; The Coiled Isle|N|To Zul'jarra.|
-A The Venomous Abyss|QID|93418|PRE|93419|N|this is a quest to do the raid. Haven't found it yet, maybe not available until next week?|
-T The Venomous Abyss|QID|93418|
-A Lor'themar's Judgement|QID|93420|PRE|93418|
-T Lor'themar's Judgement|QID|93420|
-
+A The Venomous Abyss|QID|93418|PRE|93419|M|57.27,48.67|Z|2512; The Coiled Isle|N|From Zul'jarra. Don't skip the first step, i.e. you need to actually walk/fly to the raid entrance, not be summoned inside. I know it says optional, but at release anyway, that was bugged. BTW, final turn in is back outside.|
+C The Venomous Abyss|QID|93418|QO|1|M|43.64,44.22|Z|2512; The Coiled Isle|N|Go to the Gate of the Serpant's Eye.|
+C The Venomous Abyss|QID|93418|QO|3|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Seh'ka can start story mode if you want to go that route, check off manually or just zone into the rade|IZ|2509|
+C The Venomous Abyss|QID|93418|QO|2|M|47.86,22.28|Z|2509; Vaults of Atal'Utek|N|Do the raid, queue for LFR, or find a group however you choose to get the raid done.|
+T The Venomous Abyss|QID|93418|M|21.69,64.92|Z|2512; The Coiled Isle|N|To Lady Liadrin. The west exit from the vault is the one closest to her.|
+A Lor'themar's Judgement|QID|93420|PRE|93418|M|21.69,64.92|Z|2512; The Coiled Isle|N|From Lady Liadrin.|
+T Lor'themar's Judgement|QID|93420|M|45.44,70.33|Z|2393; Silvermoon City|N|To Lor'themar (in Silvermoon).|
 
 ;CHAPTER 6 - The Call of the Void
-A Echoes of the Darkwell|QID|95973|PRE|93420|
-T Echoes of the Darkwell|QID|95973|
-A What Hope in the Light?|QID|94519|PRE|95973|
-T What Hope in the Light?|QID|94519|
-A Resurgence in Deatholme|QID|94520|PRE|94519|
-T Resurgence in Deatholme|QID|94520|
-A The Direct Method|QID|94521|PRE|94520|
-T The Direct Method|QID|94521|
-A They Always Write It Down|QID|94522|PRE|94521|
-T They Always Write It Down|QID|94522|
-A My Poor Beautiful Self|QID|94523|PRE|94522|
-T My Poor Beautiful Self|QID|94523|
-A Under New Management|QID|94524|PRE|94523|
-T Under New Management|QID|94524|
-A A Comeback Story|QID|94525|PRE|94524|
-T A Comeback Story|QID|94525|
-A Verifiably Untrustworthy|QID|94526|PRE|94525|
-T Verifiably Untrustworthy|QID|94526
-A Null Space|QID|94527|PRE|94526|
-T Null Space|QID|94527|
-A Carving Out Room|QID|94528|PRE|94527|
-T Carving Out Room|QID|94528|
-A A Dark Shadow Looms|QID|94529|PRE|94528|
-T A Dark Shadow Looms|QID|94529|
-A The Call of the Void|QID|94530|PRE|94529|
-T The Call of the Void|QID|94530|PRE|
-A Like Mother, Like Son|QID|94531|PRE|94530|
-T Like Mother, Like Son|QID|94531|
+A Echoes of the Darkwell|QID|95973|PRE|93420|M|45.44,70.33|Z|2393; Silvermoon City|N|From Lor'themar.|
+T Echoes of the Darkwell|QID|95973|M|46.20,47.23|Z|2393; Silvermoon City|N|To Magister Umbric.|
+A What Hope in the Light?|QID|94519|PRE|95973|M|46.20,47.23|Z|2393; Silvermoon City|N|From Magister Umbric.|
+C What Hope in the Light?|QID|94519|M|52.24,48.67|Z|2424; Isle of Quel'Danas|CHAT|N|Talk to Magister Umbric to watch cutscene of Arator.|
+T What Hope in the Light?|QID|94519|M|52.34,48.69|Z|2424; Isle of Quel'Danas|N|To Arator.|
+A Resurgence in Deatholme|QID|94520|PRE|94519|M|52.24,48.69|Z|2424; Isle of Quel'Danas|N|From Magister Umbric.|
+T Resurgence in Deatholme|QID|94520|M|43.77,82.44|Z|2395; Eversong Woods!Quel'Thalas|N|To Arator.|
+A The Direct Method|QID|94521|PRE|94520|M|43.77,82.44|Z|2395; Eversong Woods!Quel'Thalas|N|From Arator.|
+A They Always Write It Down|QID|94522|PRE|94520|M|43.75,82.43|Z|2395; Eversong Woods!Quel'Thalas|N|From Magister Umbric.|
+C The Direct Method|QID|94521|M|43.77,82.44|Z|2395; Eversong Woods!Quel'Thalas|N|Kill things, loot to find clues.|S|
+C They Always Write It Down|QID|94522|QO|1|M|43.42,84.56|Z|2395; Eversong Woods!Quel'Thalas|H|N|Collect Pilfered Amani tablet here.|
+A My Poor Beautiful Self|QID|94523|PRE|94520|M|42.96,85.00|Z|2395; Eversong Woods!Quel'Thalas|N|From Pathetic Voidling.|
+C They Always Write It Down|QID|94522|QO|2|M|41.45,86.21|Z|2395; Eversong Woods!Quel'Thalas|H|N|Loa-Speaker's mask can be found here..|
+C They Always Write It Down|QID|94522|QO|3|M|41.67,67.88|Z|2395; Eversong Woods!Quel'Thalas|H|N|Damaged Amani Tablet is here.|
+C My Poor Beautiful Self|QID|94523|M|44.01,88.65|Z|2395; Eversong Woods!Quel'Thalas|N|Kill Aspirant Commander Glivh.|
+C They Always Write It Down|QID|94522|QO|4|M|45.03,87.43|Z|2395; Eversong Woods!Quel'Thalas|H|N|Amani chisel is found here.|
+C The Direct Method|QID|94521|M|43.77,82.44|Z|2395; Eversong Woods!Quel'Thalas|N|Finish gathering the clues.|US|
+T My Poor Beautiful Self|QID|94523|M|42.96,85.01|Z|2395; Eversong Woods!Quel'Thalas|N|To Pathetic Voidling.|
+T The Direct Method|QID|94521|M|42.91,85.02|Z|2395; Eversong Woods!Quel'Thalas|N|To Arator.|
+T They Always Write It Down|QID|94522|M|42.91,85.02|Z|2395; Eversong Woods!Quel'Thalas|N|To Arator.|
+A Under New Management|QID|94524|PRE|94521&94522&94523|M|42.91,85.02|Z|2395; Eversong Woods!Quel'Thalas|N|From Arator.|
+A A Comeback Story|QID|94525|PRE|94521&94522&94523|M|42.94,85.00|Z|2395; Eversong Woods!Quel'Thalas|N|From Pathetic Voidling.|
+C A Comeback Story|QID|94525|M|42.20,86.37|Z|2395; Eversong Woods!Quel'Thalas|H|N|Click on the blue flames found thru out the caves under Deatholme.|S|
+C Under New Management|QID|94524|QO|2|M|43.45,86.30|Z|2395; Eversong Woods!Quel'Thalas|N|Kill Aspirant Commander Tai'ko.|T|Aspirant Commander Tai'ko|
+C Under New Management|QID|94524|QO|1|M|43.48,87.78|Z|2395; Eversong Woods!Quel'Thalas|N|Kill Aspirant Commander Mynra.|T|Aspirant Commander Mynra|
+C Under New Management|QID|94524|QO|3|M|41.66,86.19|Z|2395; Eversong Woods!Quel'Thalas|N|Kill Aspirant Commander Thornheel.|T|Aspirant Commander Thornheel|
+C A Comeback Story|QID|94525|M|42.69,88.46|Z|2395; Eversong Woods!Quel'Thalas|H|N|Keep clicking the blue flames.|US|
+T Under New Management|QID|94524|M|42.75,88.58|Z|2395; Eversong Woods!Quel'Thalas|N|To Arator.|
+T A Comeback Story|QID|94525|M|42.69,88.46|Z|2395; Eversong Woods!Quel'Thalas|N|To Magister Umbric (in the underground cave system).|
+A Verifiably Untrustworthy|QID|94526|PRE|94524&94525|M|42.69,88.46|Z|2395; Eversong Woods!Quel'Thalas|N|From Magister Umbric.|
+C Verifiably Untrustworthy|QID|94526|M|42.54,88.89|Z|2395; Eversong Woods!Quel'Thalas|EAB|N|Now is the time to use the Extra Action Button that seemed pretty useless. Break the shield then kill Antenorian.|
+T Verifiably Untrustworthy|QID|94526|M|42.46,89.24|Z|2395; Eversong Woods!Quel'Thalas|N|To Magister Umbric.|
+A Null Space|QID|94527|PRE|94526|M|42.46,89.24|Z|2395; Eversong Woods!Quel'Thalas|N|From Magister Umbric.|
+C Null Space|QID|94527|M|42.36,89.37|Z|2395; Eversong Woods!Quel'Thalas|H|N|Follow Umbric thru the void portal. This will put you into a vehicle UI, use the 3rd button to draw in the void, use it on cooldown, 1st key to throw spears at Antenorian, and the middle key is a shield, you want to keep it on cool down too. Eventually, you will have a Arator's shield and you click that to get out.|
+T Null Space|QID|94527|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|To Arator.|
+A Carving Out Room|QID|94528|PRE|94527|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|From Arator.|
+A A Dark Shadow Looms|QID|94529|PRE|94527|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|From Magister Umbric.|
+C Carving Out Room|QID|94528|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|Kill Twilight's blade as you go from one marked spot to the next, as if you had a choice.|S|
+C A Dark Shadow Looms|QID|94529|QO|1<1|M|38.55,71.98|Z|2437; Zul'Aman!Quel'Thalas|H|N|Click the Orb to destroy the coorespondence.|
+C A Dark Shadow Looms|QID|94529|QO|1<3|M|38.55,71.98|Z|2437; Zul'Aman!Quel'Thalas|H|N|Click the Orb to destroy the coorespondence.|
+C A Dark Shadow Looms|QID|94529|QO|1<3|M|35.67,73.47|Z|2437; Zul'Aman!Quel'Thalas|H|N|Click the Orb to destroy the coorespondence.|
+C Carving Out Room|QID|94528|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|Keep slaughtering Twilight's Blade.|US|
+T Carving Out Room|QID|94528|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|To Arator.|
+T A Dark Shadow Looms|QID|94529|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|To Magister Umbric.|
+A The Call of the Void|QID|94530|PRE|94528&94529|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|From Magister Umbric.|
+C The Call of the Void|QID|94530|QO|1|M|38.94,73.99|Z|2437; Zul'Aman!Quel'Thalas|H|N|Take the portal.|
+C The Call of the Void|QID|94530|QO|2|M|38.07,73.19|Z|2437; Zul'Aman!Quel'Thalas|N|Attack Lord Antenorian, (yet again).|
+C The Call of the Void|QID|94530|QO|3|M|38.71,74.00|Z|2437; Zul'Aman!Quel'Thalas|H|N|Take the portal.|
+T The Call of the Void|QID|94530|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|To Arator.|
+A Like Mother, Like Son|QID|94531|PRE|94530|M|38.84,74.09|Z|2437; Zul'Aman!Quel'Thalas|N|From Arator.|
+T Like Mother, Like Son|QID|94531|M|45.44,70.33|Z|2393; Silvermoon City|N|To Lor'themar (in Silvermoon).|
+
+;SIDEQUESTS
+;The Troubles of Mlurkkr Mire
+T Trouble in the Swamp|QID|93449|M|63.00,44.51|Z|2512; The Coiled Isle|N|To Zawadi.|
+A Fried Eggs|QID|93229|PRE|93449|M|63.00,44.51|Z|2512; The Coiled Isle|N|From Zawadi.|
+A Slithering in the Mire|QID|93199|PRE|93449|M|63.00,44.51|Z|2512; The Coiled Isle|N|From Zawadi.|
+C Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|S|N|Kill the snake people.|
+C Fried Eggs|QID|93229|M|66.02,38.97|Z|2512; The Coiled Isle|EAB|N|Use the provided torch to burn the eggs.|
+C Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|N|Keep killing Children of Ula'tek.|
+T Fried Eggs|QID|93229|M|66.02,38.97|Z|2512; The Coiled Isle|N|To Zawadi.|
+T Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|N|To Zawadi.|
+A The Search for Wa'kani|QID|93576|PRE|93199&93229|M|66.02,38.97|Z|2512; The Coiled Isle|N|From Zawadi.|
+C The Search for Wa'kani|QID|93576|M|65.07,37.16|Z|2512; The Coiled Isle|CHAT|N|Tell Wa'kani is it safe.|
+T The Search for Wa'kani|QID|93576|M|64.65,37.88|Z|2512; The Coiled Isle|N|To Wa'kani.|
+A Ophidia the Broodmother|QID|94447|PRE|93576|M|64.65,37.88|Z|2512; The Coiled Isle|N|From Wa'kani.|
+C Ophidia the Broodmother|QID|94447|QO|1|M|63.62,36.08|Z|2512; The Coiled Isle|N|Kill Ophidia|T|Ophidia|
+C Ophidia the Broodmother|QID|94447|QO|2|M|64.65,37.88|Z|2512; The Coiled Isle|CHAT|N|Tell Wa'kani to return to Zawadi.|
+T Ophidia the Broodmother|QID|94447|M|66.03,38.98|Z|2512; The Coiled Isle|N|To Zawadi.|
+A Scouts in the Swamp|QID|93239|PRE|94447|M|66.03,38.98|Z|2512; The Coiled Isle|N|From Zawadi.|
+A Savagery Among the Ruins|QID|93233|PRE|94447|M|66.03,38.98|Z|2512; The Coiled Isle|N|From Zawadi.|
+A Trinket Trading|QID|93339|PRE|94447|M|66.00,39.02|Z|2512; The Coiled Isle|N|From Wa'kani.|
+C Trinket Trading|QID|93339|M|66.00,39.02|Z|2512; The Coiled Isle|N|Pick up the are small glowing feathers scattered around on the ground. Can also drop from the murlocs.|S|
+C Savagery Among the Ruins|QID|93233|M|67.65,37.09|Z|2512; The Coiled Isle|N|Kill Murlocs, as if you had a choice. Click the tadpoles to shoo them away, (slightly larger and often close to the feathers ).|S|
+C Scouts in the Swamp|QID|93239|QO|2|M|68.17,34.53|Z|2512; The Coiled Isle|I|N|Find Abaano.|
+C Scouts in the Swamp|QID|93239|QO|1|M|66.03,38.98|Z|2512; The Coiled Isle|CHAT|N|Tell Ndamu it is safe to go home.|
+C Scouts in the Swamp|QID|93239|QO|3|M|66.85,33.38|Z|2512; The Coiled Isle|CHAT|N|Tell Tefokal it is safe to go home.|
+C Trinket Trading|QID|93339|M|66.00,39.02|Z|2512; The Coiled Isle|N|Finish up with the feathers.|US|
+C Savagery Among the Ruins|QID|93233|M|67.65,37.09|Z|2512; The Coiled Isle|N|Frish up with the murlocs.|US|
+T Scouts in the Swamp|QID|93239|M|68.86,37.25|Z|2512; The Coiled Isle|N|To Zawadi.|
+T Savagery Among the Ruins|QID|93233|M|68.86,37.25|Z|2512; The Coiled Isle|N|To Zawadi.|
+T Trinket Trading|QID|93339|M|68.86,37.19|Z|2512; The Coiled Isle|N|To Wa'kani.|
+A The Shadow Shard|QID|93340|PRE|93239&93233&93339|M|68.86,37.19|Z|2512; The Coiled Isle|N|From Wa'kani.|
+C The Shadow Shard|QID|93340|M|71.22,38.28|Z|2512; The Coiled Isle|H|N|Loot the Shard behind Smrglemrgl, presumably after killing him.|
+T The Shadow Shard|QID|93340|M|68.86,37.19|Z|2512; The Coiled Isle|N|To Wa'kani.|
+
+;
+C Venomatic|QID|96090|M|58.78,45.95|Z|2512; The Coiled Isle|N|Kill the snakes, loot the venom.|
+T Venomatic|QID|96090|M|57.21,48.46|Z|2512; The Coiled Isle|N|To Apothecary Dezi.|
+A Get the Balance Right|QID|96091|PRE|96090|M|57.21,48.46|Z|2512; The Coiled Isle|N|From Apothecary Dezi.|
+C Get the Balance Right|QID|96091|QO|1|M|57.49,48.78|Z|2512; The Coiled Isle|NC|N|Go up the stairs by the cauldren and use the extra action button, which will put you in a vehicle type UI. Use the 3 buttons to get the spark into the green section of each of the three bars.|
+C Get the Balance Right|QID|96091|QO|2|M|57.03,48.08|Z|2512; The Coiled Isle|H|N|Target Medic La'una and use the emetic.|
+C Get the Balance Right|QID|96091|QO|3|M|57.03,48.08|Z|2512; The Coiled Isle|CHAT|N|Check on Medic La'una.|
+C Get the Balance Right|QID|96091|QO|4|M|56.99,48.03|Z|2512; The Coiled Isle|CHAT|N|Let Scout Oma'ema know you will keep looking.|
+T Get the Balance Right|QID|96091|M|57.20,48.45|Z|2512; The Coiled Isle|N|To Apothecary Dezi.|
+A That Fool, Ruma|QID|96092|PRE|96091|M|57.20,48.45|Z|2512; The Coiled Isle|N|From Apothecary Dezi.|
+C That Fool, Ruma|QID|96092|M|64.53,77.44|Z|2512; The Coiled Isle|H|N|Administer the elixir to Scrollmaster Ruma.|
+T That Fool, Ruma|QID|96092|M|64.53,77.44|Z|2512; The Coiled Isle|N|To Scrollmaster Ruma.|
+A It's a Satchel, Not a Bag|QID|96093|PRE|96092|M|64.53,77.44|Z|2512; The Coiled Isle|N|From Scrollmaster Ruma.|
+C It's a Satchel, Not a Bag|QID|96093|M|25.47,34.74|Z|2635; Gnarldor Isle!Dungeon|N|The satchel is pretty deep into the delve. (lvl 1 works)|
+T It's a Satchel, Not a Bag|QID|96093|M|64.53,77.44|Z|2512; The Coiled Isle|N|To Scrollmaster Ruma.|
+A To the Forum|QID|96094|PRE|96093|M|64.53,77.44|Z|2512; The Coiled Isle|N|From Scrollmaster Ruma.|
+T To the Forum|QID|96094|M|23.84,64.48|Z|2512; The Coiled Isle|N|To Scrollmaster Ruma.|
+A Sampling the Local Wildlife|QID|96095|PRE|96094|M|23.84,64.48|Z|2512; The Coiled Isle|N|From Scrollmaster Ruma.|
+A Scout Team Seven|QID|96096|PRE|96094|M|23.84,64.54|Z|2512; The Coiled Isle|N|From Scout Oma'ema.|
+C Sampling the Local Wildlife|QID|96095|M|23.84,64.54|Z|2512; The Coiled Isle|N|Kill and loot the wildlife to find the samples.|S|
+C Scout Kamaina|QID|96096|QO|2|M|24.92,61.93|Z|2512; The Coiled Isle|H|N|Find Scout Kamaina.|
+C Dusk Prowler Hano'mon|QID|96096|QO|1|H|N|Find Dusk Prowler Hano'mon.|
+C Scout Ko'ruku|QID|96096|QO|3|H|N|Find Scout Ko'ruku.|
+C Scout Hua'ne|QID|96096|QO|4|H|N|Find Scout Hua'ne.|
+C Wartusk A'pone|QID|96096|QO|5|H|N|Find Wartusk A'pone.|
+C Sampling the Local Wildlife|QID|96095|M|23.84,64.54|Z|2512; The Coiled Isle|N|Kill and loot the wildlife to find the samples.|US|
+T Sampling the Local Wildlife|QID|96095|PRE|96094|M|23.84,64.48|Z|2512; The Coiled Isle|N|To Scrollmaster Ruma.|
+T Scout Team Seven|QID|96096|PRE|96094|M|23.84,64.54|Z|2512; The Coiled Isle|N|To Scout Oma'ema.|
+
+
+;requires renown 5?
+A Counter-Curse Bounty|QID|97382|M|58.78,45.95|Z|2512; The Coiled Isle|N|From Jan'sari the Watchful.|
+t Counter-Curse Bounty|QID|97382|M|58.78,45.95|Z|2512; The Coiled Isle|N|To Jan'sari the Watchful.|
+
 ]]
 end)
