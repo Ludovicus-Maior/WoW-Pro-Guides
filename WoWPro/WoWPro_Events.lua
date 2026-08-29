@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber string hooksecurefunc
--- luacheck: globals select ipairs pairs next tinsert type unpack
+-- luacheck: globals select ipairs pairs next tinsert type unpack CreateFrame UIParent InCombatLockdown
 
 --------------------------
 --  WoWPro_Events.lua   --
@@ -37,10 +37,11 @@ function WoWPro.RegisterModernEventHandler(event, handler, lockdown)
 end
 
 -- Event Registration Functions --
+--Purpose: Iterates through the supplied table of events, and registers each event to the event frame. --
 function WoWPro:RegisterEvents(eventtable)
-    --[[Purpose: Iterates through the supplied table of events, and registers each
-    event to the event frame.
-    ]]--
+    if not WoWPro.EventFrame then
+        WoWPro.EventFrame = CreateFrame("Frame", "WoWProEventFrame", UIParent)
+    end
     if not eventtable then
         eventtable = WoWPro.EventTable
     end
