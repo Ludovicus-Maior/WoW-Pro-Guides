@@ -219,13 +219,21 @@ function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)
 end
 
 function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
+    -- Safe defaults
+    minWidth  = minWidth  or 100
+    minHeight = minHeight or 40
+
+    -- Clamp max size to screen if not provided
+    maxWidth  = maxWidth  or UIParent:GetWidth()
+    maxHeight = maxHeight or UIParent:GetHeight()
+
     if frame.SetResizeBounds then
-       frame:SetResizeBounds(minWidth, minHeight, maxWidth, maxHeight)
+        -- Retail 10.0+
+        frame:SetResizeBounds(minWidth, minHeight, maxWidth, maxHeight)
     else
+        -- Classic fallback
         frame:SetMinResize(minWidth, minHeight)
-        if maxWidth then
-            frame:SetMaxResize(maxWidth, maxHeight)
-        end
+        frame:SetMaxResize(maxWidth, maxHeight)
     end
 end
 

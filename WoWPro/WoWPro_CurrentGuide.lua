@@ -19,9 +19,10 @@ frame:SetFrameStrata("DIALOG")
 frame:SetMovable(true)
 frame:EnableMouse(true)
 frame:RegisterForDrag("LeftButton")
-frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
-frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
-
+frame:SetScript("OnDragStart", function(self)
+    self:StartMoving() end)
+frame:SetScript("OnDragStop", function(self)
+    self:StopMovingOrSizing() end)
 frame:SetBackdrop({
     bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
     edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
