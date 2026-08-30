@@ -1577,7 +1577,7 @@ end
 -- Sticky Header --
 function WoWPro:CreateStickyHeader()
     -- Shorthand locals
-    local Profile = WoWProDB.profile
+    -- local Profile = WoWProDB.profile
     -- local GBM     = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
 
