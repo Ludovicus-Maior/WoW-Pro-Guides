@@ -1612,10 +1612,10 @@ end
 function WoWPro:CreateStickyHeader()
     -- Shorthand locals
     local Profile = WoWProDB.profile
-    local GBM     = WoWPro:GetBorderMetrics()
+    -- local GBM     = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
 
-    local userPad = tonumber(Profile.userPad) or 0
+    -- local userPad = tonumber(Profile.userPad) or 0
 
     local SH = CreateFrame("Frame", "WoWProStickyHeader", MF,
         BackdropTemplateMixin and "BackdropTemplate" or nil)
@@ -1741,11 +1741,11 @@ function WoWPro:CreateRow(index)
     row:SetBackdropColor(row.baseR, row.baseG, row.baseB, row.baseA)
 
     -- Hover scripts
-    row:SetScript("OnEnter", function(self)
-        self:SetBackdropColor(1, 1, 1, 0.12)
+    row:SetScript("OnEnter", function(rowFrame)
+        rowFrame:SetBackdropColor(1, 1, 1, 0.12)
     end)
-    row:SetScript("OnLeave", function(self)
-        self:SetBackdropColor(self.baseR, self.baseG, self.baseB, self.baseA)
+    row:SetScript("OnLeave", function(rowFrame)
+        rowFrame:SetBackdropColor(rowFrame.baseR, rowFrame.baseG, rowFrame.baseB, rowFrame.baseA)
     end)
 
     -- Checkbox

@@ -2191,7 +2191,7 @@ end
                     WoWPro.Recorder:RowUpdate(offset)
                 end
                 for i, row in pairs(WoWPro.rows) do
-                    if WoWPro.RowDropdownMenu[i] then
+                    -- if WoWPro.RowDropdownMenu[i] then
                         -- row:SetScript("OnMouseDown", function(self, button, down)
                         --     if button == "LeftButton" then
                         --         if WoWPro.Recorder then
@@ -2252,7 +2252,7 @@ end
                         --         end
                         --     end
                         -- end)
-                    end
+                    -- end
                 end
                 return reload
             end
