@@ -40,6 +40,7 @@
 -- eaicon targetbutton targetbuttonSecured
 
 function WoWPro:RowUpdate(offset)
+    WoWPro.RowDropdownMenu = {}
     local module = self
     local GID = WoWProDB.char.currentguide
     local completion = WoWPro.Completion
@@ -108,7 +109,7 @@ function WoWPro:RowUpdate(offset)
         currentRow.note:SetText(note)
 
         -- Dropdown menu
-        BuildDropdownMenu(i, currentRow, step, action, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], module)
+        BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
 
         -- Item buttons
         if use and use ~= "" then
@@ -1146,4 +1147,182 @@ local function BindKeysToButton(fauxName, buttonName)
     end
 
     return bound
+end
+
+WoWPro.BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
+    -- Populate RowDropdownMenu data --
+    WoWPro.RowDropdownMenu = WoWPro.RowDropdownMenu or {}
+    local dropdown = {}
+    if step then
+        tinsert(dropdown,
+            {text = step.." Options", isTitle = true}
+        )
+        if WoWPro.RETAIL then
+            -- TODO: Is this needed at all?
+            _G.QuestMapUpdateAllQuests()
+            _G.QuestPOIUpdateIcons()
+        end
+        if coord then
+            tinsert(dropdown,
+                {text = "Map Coordinates", func = function()
+                    WoWPro.UserClicked = true
+                    WoWPro:RemoveMapPoint()
+                    WoWPro:MapPoint(currentRow.num)
+                    WoWPro.UserClicked = nil
+                end}
+            )
+        end
+        if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.IsInGroup() then
+            tinsert(dropdown,
+                {text = "Share Quest", func = function()
+                    _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
+                end}
+            )
+        end
+        if sticky then
+            tinsert(dropdown,
+                {text = "Un-Sticky", func = function()
+                    WoWPro.sticky[currentRow.index] = false
+                    WoWPro:UpdateGuide("ClickedUnSticky")
+                end}
+            )
+        else
+            tinsert(dropdown,
+                {text = "Make Sticky", func = function()
+                    WoWPro.sticky[currentRow.index] = true
+                    WoWPro.unsticky[currentRow.index] = false
+                    WoWPro:UpdateGuide("ClickedMakeSticky")
+                end}
+            )
+        end
+        if QID then
+            local questId = string.match(QID, "([^%^]*)")
+
+            tinsert(dropdown,
+                {text = "Wowhead Link", func = function()
+                    local link = "https://www.wowhead.com/quest=" .. questId
+
+                    local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent)
+                    newEditBox:SetSize(300, 100)
+                    newEditBox:SetPoint("CENTER")
+                    newEditBox:SetFrameStrata("DIALOG")
+
+                    local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
+                    texture:SetAllPoints(true)
+                    texture:SetColorTexture(0.1, 0.1, 0.1, 0.8)
+
+                    local titleBar = newEditBox:CreateTexture(nil, "OVERLAY")
+                    titleBar:SetHeight(24)
+                    titleBar:SetPoint("TOPLEFT", 10, -10)
+                    titleBar:SetPoint("TOPRIGHT", -10, -10)
+                    titleBar:SetColorTexture(0, 0, 0, 0)
+
+                    local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+                    title:SetPoint("TOP", titleBar, "TOP", 0, -6)
+                    title:SetText("Wowhead Link")
+
+                    local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
+                    editBox:SetAutoFocus(true)
+                    editBox:SetWidth(260)
+                    editBox:SetHeight(32)
+                    editBox:SetPoint("TOP", titleBar, "BOTTOM", 0, -10)
+                    editBox:SetText(link)
+                    editBox:HighlightText()
+
+                    local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
+                    closeButton:SetPoint("TOPRIGHT")
+                    closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
+
+                    editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+                end}
+            )
+        end
+
+        WoWPro.RowDropdownMenu[i] = dropdown
+        tinsert(dropdown,
+            { text = "Report an Issue", func = function()
+                WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+                local LogBox = WoWPro.LogBox
+                local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+                local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+
+                -- Add step info without GID
+                local Sindex = WoWPro.rows[currentRow.num].index
+                if WoWPro.rows[currentRow.num]:IsVisible() then
+                    text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
+                end
+
+                text = text .. "\n|cffffff00Guide Info:|r\n"
+                text = text .. GID .. "\n"
+                text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+
+                -- Retrieve additional player information
+                local _, class = _G.UnitClass("player")
+                local _, race = _G.UnitRace("player")
+                class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
+                local level = _G.UnitLevel("player")
+                local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
+                local locale = _G.GetLocale()
+                local gameVersion, _, _, _ = _G.GetBuildInfo()
+
+                -- Retrieve the player's realm name
+                local realmName = _G.GetRealmName()
+
+                -- Retrieve the player's character name
+                local playerName = _G.UnitName("player")
+
+                text = text .. "\n|cffffff00Player Info:|r\n"
+                text = text .. "Character Name: " .. playerName .. "\n"
+                text = text .. "Class: " .. class .. "\n"
+                text = text .. "Race: " .. race .. "\n"
+                text = text .. "Level: " .. level .. "\n"
+                text = text .. "Realm: " .. realmName .. "\n"
+                text = text .. "Addon Version: " .. version .. "\n"
+                text = text .. "Game Version: " .. gameVersion .. "\n"
+                text = text .. "Locale: " .. locale .. "\n"
+                if (not X) or (not Y) then
+                    text = text .. "Location: Unknown\n"
+                else
+                    text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+                    text = text .. "Map ID: " .. tostring(mapId) .. "\n"
+                end
+                text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
+                text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
+
+                -- Add instructions for copying the text
+                if _G.IsMacClient() then
+                    text = text .. "\n\nTo copy this information, press ⌘+A to select all text, then press ⌘+C to copy it. You can then paste this into a Discord ticket by pressing ⌘+V.\n"
+                else
+                    text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
+                end
+
+                -- Set the text of the LogBox and show it
+                LogBox.Box:SetText(text)
+
+                -- Create a hidden frame to measure the text width
+                local hiddenFrame = _G.CreateFrame("Frame")
+                hiddenFrame:Hide()
+
+                local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+                fontString:SetText(text)
+
+                -- Get the width of the text
+                local textWidth = fontString:GetStringWidth()
+
+                -- Set the width of the LogBox and the text box
+                LogBox:SetWidth(textWidth + 20)
+                LogBox.Box:SetWidth(textWidth + 20)
+
+                LogBox.Box:Show()
+
+                -- Hide the EditBox if it exists
+                if WoWPro.EditBox then
+                    WoWPro.EditBox:Hide()
+                end
+
+                LogBox:Show()
+            end}
+        )
+    end
+    WoWPro.RowDropdownMenu[i] = dropdown
 end
