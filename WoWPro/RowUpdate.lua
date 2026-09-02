@@ -39,6 +39,27 @@
 -- lootsbuttons jumpbutton jumpbuttonSecured eabutton eabuttonSecured
 -- eaicon targetbutton targetbuttonSecured
 
+local InCombatLockdown = _G.InCombatLockdown
+local GetBindingKey = _G.GetBindingKey
+local SetOverrideBindingClick = _G.SetOverrideBindingClick
+local C_ChatInfo = _G.C_ChatInfo
+local C_ChromieTime = _G.C_ChromieTime
+local C_PetBattles = _G.C_PetBattles
+local HasExtraActionBar = _G.HasExtraActionBar
+local ExtraActionButton1 = _G.ExtraActionButton1
+local ExtraActionButton1Icon = _G.ExtraActionButton1Icon
+
+local tinsert = table.insert
+local strupper = string.upper
+local strsub = string.sub
+local strlower = string.lower
+
+local NormalizeStepText, NormalizeNote, FormatCoords, EmbedCoordsInNote, AddNoCoordsWarning
+local IsStickyVisible, SetupItemKeybind, SetupTrashItemButton, SetupUseItemButton
+local SetupPetSwitchButton, SetupPetSwitchKeybind, SetupLootButtons, SetupJumpButton, SetupEAButton
+local SetupTargetButton, ShouldShowRow, HideRemainingRows, ApplyRowSizing, ApplyMainFrameLayout
+local ComputeRowLimit, RunModulePreRowUpdate
+
 function WoWPro:RowUpdate(offset)
     WoWPro.RowDropdownMenu = {}
     local module = self
@@ -98,18 +119,16 @@ function WoWPro:RowUpdate(offset)
         if formattedCoord then
             note = EmbedCoordsInNote(note, formattedCoord, zone)
         else
-            note = AddNoCoordsWarning(note, action, GID)
+            note = AddNoCoordsWarning(note, action, GID, coord)
         end
 
         -- Sticky visibility
-        local showSticky = IsStickyVisible(k, k, completion, stickyBoundary)
+        IsStickyVisible(k, k, completion, stickyBoundary)
 
         -- Set row text
         currentRow.step:SetText(step)
-        currentRow.note:SetText(note)
-
         -- Dropdown menu
-        BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
+        WoWPro.BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
 
         -- Item buttons
         if use and use ~= "" then
@@ -134,6 +153,7 @@ function WoWPro:RowUpdate(offset)
 
         -- Loot buttons
         note = SetupLootButtons(currentRow, item, action, note, k)
+        currentRow.note:SetText(note)
 
         -- Jump button
         if jump then
@@ -183,7 +203,7 @@ end
 -----------------------
 -- Text, Note, Coord, and Step Normalization Helpers
 -- Normalize step text (expand markup, trim whitespace)
-local function NormalizeStepText(step)
+function NormalizeStepText(step)
     -- Expand WoWPro markup if present
     if step then
         step = WoWPro.ExpandMarkup(step)
@@ -194,7 +214,7 @@ local function NormalizeStepText(step)
 end
 
 -- Normalize note text (newline cleanup, collapse blank lines)
-local function NormalizeNote(note)
+function NormalizeNote(note)
     if not note then
         return ""
     end
@@ -218,7 +238,7 @@ local function NormalizeNote(note)
 end
 
 -- Validate and format coordinate text
-local function FormatCoords(GID, action, step, coord)
+function FormatCoords(GID, action, step, coord)
     if not coord then
         return nil
     end
@@ -241,7 +261,7 @@ local function FormatCoords(GID, action, step, coord)
 end
 
 -- Embed coordinates + zone into note text
-local function EmbedCoordsInNote(note, coord, zone)
+function EmbedCoordsInNote(note, coord, zone)
     if not coord then
         return note
     end
@@ -261,7 +281,7 @@ local function EmbedCoordsInNote(note, coord, zone)
 end
 
 -- Add "No coordinates" warning when appropriate
-local function AddNoCoordsWarning(note, action, GID)
+function AddNoCoordsWarning(note, action, GID, coord)
     if not coord and action and not WoWPro.Guides[GID].NoCoordsOK then
         return note .. "\n(No coordinates)"
     end
@@ -305,7 +325,7 @@ local function StickyObjectiveIncomplete(QID, questtext)
 end
 
 -- Main sticky visibility logic extracted from RowUpdate
-local function IsStickyVisible(stepIdx, k, completion, stickyBoundary)
+function IsStickyVisible(stepIdx, k, completion, stickyBoundary)
     -- Completed sticky steps never show
     if completion[stepIdx] then
         return false
@@ -380,7 +400,7 @@ end
 -- Item Button Helpers
 
 -- Helper: Bind keys to a visible item button (only once per RowUpdate pass)
-local function SetupItemKeybind(i, currentRow)
+function SetupItemKeybind(i, currentRow)
     -- Only bind if button is visible and not in combat
     if currentRow.itembutton:IsVisible() and not InCombatLockdown() then
         WoWPro.BindKeysToButton(i)
@@ -407,7 +427,7 @@ local function SetupItemSecuredOverlay(currentRow, attributeType, attributeValue
 end
 
 -- Helper: Setup trash-item button (action "*")
-local function SetupTrashItemButton(currentRow, use, k)
+function SetupTrashItemButton(currentRow, use, k)
     if InCombatLockdown() then
         return
     end
@@ -499,7 +519,7 @@ local function SelectUseItem(use)
 end
 
 -- Helper: Setup item-use button (action uses item)
-local function SetupUseItemButton(currentRow, use, k)
+function SetupUseItemButton(currentRow, use, k)
     if InCombatLockdown() then
         return
     end
@@ -529,7 +549,7 @@ end
 
 -- Pet Switch Button Helpers
 -- Helper: Bind keys to pet-switch button (only once per RowUpdate pass)
-local function SetupPetSwitchKeybind(i, currentRow)
+function SetupPetSwitchKeybind(i, currentRow)
     if currentRow.itembutton:IsVisible() and not InCombatLockdown() then
         local key1, key2 = GetBindingKey("CLICK WoWPro_FauxPetSwitchButton:LeftButton")
 
@@ -573,7 +593,7 @@ local function SetupPetSwitchSecuredOverlay(currentRow, switch, k)
 end
 
 -- Helper: Setup pet-switch button (WoWPro.switch[k] > 0)
-local function SetupPetSwitchButton(currentRow, switch, k)
+function SetupPetSwitchButton(currentRow, switch, k)
     if InCombatLockdown() then
         return
     end
@@ -659,7 +679,7 @@ local function NormalizeLootNote(note)
 end
 
 -- Main helper: Setup loot buttons + update note
-local function SetupLootButtons(currentRow, item, action, note, k)
+function SetupLootButtons(currentRow, item, action, note, k)
     -- No loot items → hide all buttons
     if not item then
         HideAllLootButtons(currentRow)
@@ -741,7 +761,7 @@ local function SetupJumpSecuredOverlay(currentRow)
 end
 
 -- Helper: Setup jump button (guide jump)
-local function SetupJumpButton(currentRow, jumpTag, i)
+function SetupJumpButton(currentRow, jumpTag, i)
     if not jumpTag then
         return
     end
@@ -858,7 +878,7 @@ local function SetupEAIconTracking(currentRow)
 end
 
 -- Main helper: Setup EA button
-local function SetupEAButton(currentRow, eab, i)
+function SetupEAButton(currentRow, eab, i)
     if not eab then
         return
     end
@@ -960,7 +980,7 @@ local function SetupTargetKeybind(i, currentRow)
 end
 
 -- Main helper: Setup target button
-local function SetupTargetButton(currentRow, target, module)
+function SetupTargetButton(currentRow, target, module)
     if not target then
         -- Hide both buttons when no target tag
         if not InCombatLockdown() then
@@ -1001,7 +1021,7 @@ end
 
 -- Row Visibility, RowLimit, and Layout Helpers
 -- Helper: Determine if a row should be shown (non-sticky logic)
-local function ShouldShowRow(stepIdx, completion)
+function ShouldShowRow(stepIdx, completion)
     -- Completed steps are filtered out (RowUpdate never completes steps)
     if completion[stepIdx] then
         return false
@@ -1019,7 +1039,7 @@ local function ShouldShowRow(stepIdx, completion)
 end
 
 -- Helper: Hide all remaining rows starting at index i
-local function HideRemainingRows(startIndex)
+function HideRemainingRows(startIndex)
     for j = startIndex, 15 do
         local row = WoWPro.rows[j]
         row:Hide()
@@ -1041,7 +1061,7 @@ local function HideRemainingRows(startIndex)
 end
 
 -- Helper: Apply row sizing (height, spacing, indentation)
-local function ApplyRowSizing()
+function ApplyRowSizing()
     -- RowSizeSet adjusts row height based on note text, icons, etc.
     -- Safe to call only out of combat.
     if not InCombatLockdown() then
@@ -1050,7 +1070,7 @@ local function ApplyRowSizing()
 end
 
 -- Helper: Apply main frame layout (anchors, scroll, sticky header)
-local function ApplyMainFrameLayout()
+function ApplyMainFrameLayout()
     -- MainFrameLayout adjusts the entire guide frame layout.
     if not InCombatLockdown() then
         WoWPro.MainFrameLayout()
@@ -1058,14 +1078,14 @@ local function ApplyMainFrameLayout()
 end
 
 -- Helper: Update RowLimit based on visible steps
-local function ComputeRowLimit(stepList)
+function ComputeRowLimit(stepList)
     -- RowLimit is simply the number of visible steps
     return #stepList
 end
 
 -- Module Hook Helpers
 -- Helper: Run module-specific PreRowUpdate() if present
-local function RunModulePreRowUpdate(module, currentRow)
+function RunModulePreRowUpdate(module, currentRow)
     -- Some modules define a PreRowUpdate hook to adjust row before processing
     local mod = WoWPro[module:GetName()]
     if mod and mod.PreRowUpdate then
@@ -1074,7 +1094,7 @@ local function RunModulePreRowUpdate(module, currentRow)
 end
 
 -- Helper: Run module-specific RowUpdateTarget() if present
-local function RunModuleTargetOverride(module, currentRow)
+local function _RunModuleTargetOverride(module, currentRow)
     -- Some modules override target macrotext logic
     local mod = WoWPro[module:GetName()]
     if mod and mod.RowUpdateTarget then
@@ -1120,7 +1140,7 @@ local function GetFauxBindingKeys(fauxName)
 end
 
 -- Helper: Bind both primary + secondary keys to a secured button
-local function BindKeysToSecuredButton(fauxName, securedButtonName)
+local function _BindKeysToSecuredButton(fauxName, securedButtonName)
     local key1, key2 = GetFauxBindingKeys(fauxName)
     local bound = false
 
@@ -1135,7 +1155,7 @@ local function BindKeysToSecuredButton(fauxName, securedButtonName)
 end
 
 -- Helper: Bind both primary + secondary keys to a normal button
-local function BindKeysToButton(fauxName, buttonName)
+local function _BindKeysToButton(fauxName, buttonName)
     local key1, key2 = GetFauxBindingKeys(fauxName)
     local bound = false
 
