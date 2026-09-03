@@ -67,7 +67,7 @@ function WoWPro:RowUpdate(offset)
     WoWPro.RowDropdownMenu = {}
     local module = self
     local GID = WoWProDB.char.currentguide
-    local completion = WoWPro.Completion
+    local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
     local reload = false
     local sendsteps = ""
     local stickyBoundary = WoWPro:GetActiveStickyCount()
