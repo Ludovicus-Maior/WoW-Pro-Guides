@@ -1871,7 +1871,6 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
         WoWPro.MainFrameLayout()
-        WoWPro.RowSet()
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
             WoWPro.GuideUpdated = true
