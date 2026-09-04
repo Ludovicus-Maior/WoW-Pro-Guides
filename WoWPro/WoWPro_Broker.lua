@@ -2335,7 +2335,7 @@ end
             WoWPro:SendMessage("WoWPro_PostUpdateGuide")
             -- Update content and formatting --
             WoWPro.MainFrameLayout()
-            Fix refactored guide row initialization and layout            if not WoWPro.GuideUpdated then
+            if not WoWPro.GuideUpdated then
                 WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
                 WoWPro.GuideUpdated = true
                 WoWPro.FirstUpdatePending = false
