@@ -536,6 +536,9 @@ function WoWPro:ContractGuideToRows()
 end
 
 function WoWPro.SetMouseNotesPoints()
+    if not WoWPro.rows or not WoWPro.mousenotes then
+        return
+    end
     local screenW, screenH = GetUIScreenSize()
     for i,row in ipairs(WoWPro.rows) do
         local note = WoWPro.mousenotes[i]
@@ -1727,139 +1730,79 @@ end
 
 -- Create a row in the GuideFrame ready to be populated with guide data
 function WoWPro:CreateRow(index)
-    -- Row frame
-    local row = CreateFrame("Button", "WoWProRow"..index, WoWPro.MainFrame)
-    row.index = index
-    row.Elements = {}
-
-    -- Default backdrop (temporary)
-    row:SetBackdrop({
+    local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    row:SetBackdrop( {
         bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
         tile = true, tileSize = 16
     })
-    row.baseR, row.baseG, row.baseB, row.baseA = 1, 1, 1, 0.06
-    row:SetBackdropColor(row.baseR, row.baseG, row.baseB, row.baseA)
-
-    -- Hover scripts
-    row:SetScript("OnEnter", function(rowFrame)
-        rowFrame:SetBackdropColor(1, 1, 1, 0.12)
-    end)
-    row:SetScript("OnLeave", function(rowFrame)
-        rowFrame:SetBackdropColor(rowFrame.baseR, rowFrame.baseG, rowFrame.baseB, rowFrame.baseA)
-    end)
-
-    -- Checkbox
-    local check = CreateFrame("CheckButton", nil, row, "UICheckButtonTemplate")
-    check:SetPoint("LEFT", row, "LEFT", 2, 0)
-    row.check = check
-    row.Elements.check = check
-
-    -- Step icon
-    local stepicon = row:CreateTexture(nil, "ARTWORK")
-    stepicon:SetSize(16, 16)
-    stepicon:SetPoint("LEFT", check, "RIGHT", 2, 0)
-    row.stepicon = stepicon
-    row.Elements.stepicon = stepicon
-
-    -- Loot icon
-    local LootIcon = row:CreateTexture(nil, "ARTWORK")
-    LootIcon:SetSize(16, 16)
-    LootIcon:SetPoint("LEFT", stepicon, "RIGHT", 2, 0)
-    LootIcon:Hide()
-    row.LootIcon = LootIcon
-    row.Elements.LootIcon = LootIcon
-
-    -- Step text
-    local text = row:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    text:SetFont("Fonts\\FRIZQT__.TTF", 12)
-    text:SetPoint("LEFT", LootIcon, "RIGHT", 4, 0)
-    text:SetJustifyH("LEFT")
-    row.text = text
-    row.Elements.text = text
-
-    -- Note text
-    local note = row:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
-    note:SetFont("Fonts\\FRIZQT__.TTF", 11)
-    note:SetPoint("TOPLEFT", text, "BOTTOMLEFT", 0, -2)
-    note:SetJustifyH("LEFT")
-    note:Hide()
-    row.note = note
-    row.Elements.note = note
-
-    -- Tracker text
-    local track = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-    track:SetFont("Fonts\\FRIZQT__.TTF", 11)
-    track:SetPoint("RIGHT", row, "RIGHT", -4, 0)
-    track:SetJustifyH("RIGHT")
-    track:Hide()
-    row.track = track
-    row.Elements.track = track
-
-    -- Jump button
-    local jumpbutton = CreateFrame("Button", nil, row)
-    jumpbutton:SetSize(16, 16)
-    jumpbutton:SetPoint("LEFT", text, "RIGHT", 4, 0)
-    jumpbutton:Hide()
-    row.jumpbutton = jumpbutton
-    row.Elements.jumpbutton = jumpbutton
-
-    -- Action button
-    local actionbutton = CreateFrame("Button", nil, row, "SecureActionButtonTemplate")
-    actionbutton:SetSize(20, 20)
-    actionbutton:SetPoint("LEFT", jumpbutton, "RIGHT", 4, 0)
-    actionbutton:Hide()
-    row.actionbutton = actionbutton
-    row.Elements.actionbutton = actionbutton
-
-    -- Coordinate button
-    local coordbutton = CreateFrame("Button", nil, row)
-    coordbutton:SetSize(16, 16)
-    coordbutton:SetPoint("LEFT", actionbutton, "RIGHT", 4, 0)
-    coordbutton:Hide()
-    row.coordbutton = coordbutton
-    row.Elements.coordbutton = coordbutton
-
-    -- Spacer / indent
-    local spacer = CreateFrame("Frame", nil, row)
-    spacer:SetPoint("LEFT", row, "LEFT", 0, 0)
-    spacer:SetSize(1, 1)
-    row.spacer = spacer
-    row.Elements.spacer = spacer
-
-    -- Highlight texture
-    local highlight = row:CreateTexture(nil, "BACKGROUND")
-    highlight:SetAllPoints(row)
-    highlight:SetColorTexture(1, 1, 0, 0.15)
-    highlight:Hide()
-    row.highlight = highlight
-    row.Elements.highlight = highlight
-
-    -- Tooltip anchor
-    local tooltipanchor = CreateFrame("Frame", nil, row)
-    tooltipanchor:SetAllPoints(row)
-    row.tooltipanchor = tooltipanchor
-    row.Elements.tooltipanchor = tooltipanchor
-
-    -- Target button (MF‑parented)
-    local targetbutton = CreateFrame("Button", nil, WoWPro.MainFrame, "SecureActionButtonTemplate")
-    targetbutton:SetSize(20, 20)
-    targetbutton:SetPoint("LEFT", row, "RIGHT", 4, 0)
-    targetbutton:Hide()
-    row.targetbutton = targetbutton
-    row.Elements.targetbutton = targetbutton
-
-    -- Default size
-    row:SetHeight(20)
-    row:SetWidth(WoWPro.MainFrame:GetWidth())
-
-    -- Default anchoring
+    row:SetBackdropBorderColor(1, 1, 1, 0)
     if index == 1 then
-        row:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", 0, -10)
+        row:SetPoint("TOPLEFT")
+        row:SetPoint("TOPRIGHT")
     else
-        row:SetPoint("TOPLEFT", WoWPro.rows[index-1], "BOTTOMLEFT", 0, 0)
+        row:SetPoint("TOPLEFT", WoWPro.rows[index-1], "BOTTOMLEFT")
+        row:SetPoint("TOPRIGHT", WoWPro.rows[index-1], "BOTTOMRIGHT")
     end
+    row:SetPoint("LEFT")
+    row:SetPoint("RIGHT")
+    row:SetHeight(25)
+    row:RegisterForClicks("AnyUp")
+    row:RegisterForDrag("LeftButton")
+    row:SetScript("OnDragStart", function()
+        if WoWProDB.profile.drag and not _G.InCombatLockdown() then
+            WoWPro.InhibitAnchorRestore = true
+            WoWPro:StartMoveClamp()
+            WoWPro.MainFrame:StartMoving()
+        end
+    end)
+    row:SetScript("OnDragStop", function()
+        if WoWProDB.profile.drag then
+            WoWPro.MainFrame:StopMovingOrSizing()
+            WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro:StopMoveClamp()
+            WoWPro.AnchorStore("OnDragStopRow")
+            WoWPro.InhibitAnchorRestore = false
+        end
+    end)
 
-    -- Store row
+    row.check = WoWPro:CreateCheck(row)
+    row.check:SetScript("OnEnter", function(this)
+        _G.GameTooltip:SetOwner(this, "CheckButton")
+        _G.GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
+        _G.GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
+        _G.GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
+        _G.GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
+        _G.GameTooltip:Show()
+    end)
+    row.check:SetScript("OnLeave", function()
+        _G.GameTooltip:Hide()
+    end)
+    row.iconTexture = WoWPro:CreateIcon(row, row.check)
+    row.step = WoWPro:CreateStep(row, row.iconTexture)
+    row.note = WoWPro:CreateNote(row, row.iconTexture)
+    row.track = WoWPro:CreateTrack(row, row.iconTexture)
+    row.progressBar = WoWPro:CreateProgressBar(row, row.track)
+    row.progressBar:Hide()
+    row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, index, row)
+    row.itembuttonSecured = WoWPro:CreateItemButtonSecured(index)
+    row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(WoWPro.MainFrame, index, row)
+    row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(index)
+    row.lootsbuttons = {}
+    for buttonIndex = 1, 5 do
+        local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, index, buttonIndex)
+        row.lootsbuttons[buttonIndex] = {button = lootsbutton, icon = lootsicon}
+    end
+    row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, index, row)
+    row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, index, row)
+    row.eabuttonSecured = WoWPro:CreateEAButtonSecured(index)
+
+    local highlight = row:CreateTexture()
+    highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
+    highlight:SetTexCoord(0, 1, 0, 0.578125)
+    highlight:SetAllPoints()
+    row:SetHighlightTexture(highlight)
+    row:SetCheckedTexture(highlight)
+
     WoWPro.rows[index] = row
 end
 
@@ -1881,7 +1824,7 @@ function WoWPro:RowSet(row, step)
     WoWPro:RowVisibilitySet(row)
 
     -- compute final row height
-    WoWPro:RowSizeSet(row)
+    WoWPro:RowLayoutSizeSet(row)
 
     -- attach right-click context menu
     WoWPro:RowContextMenuSet(row)
@@ -1978,8 +1921,73 @@ function WoWPro:RowIconSet(row, step)
     row.IconClusterHeight = hQuest + hAction + hLoot + (row.IconSpacing * 2)
 end
 
+function WoWPro.RowSizeSet()
+    if _G.InCombatLockdown() or not WoWPro.rows then
+        return
+    end
+
+    local space = WoWProDB.profile.space
+    for i, row in ipairs(WoWPro.rows) do
+        local iconFrame = row.iconTexture.frame
+        row.check:ClearAllPoints()
+        row.check:SetPoint("TOPLEFT", 1, -space)
+        iconFrame:ClearAllPoints()
+        iconFrame:SetPoint("LEFT", row.check, "RIGHT", 3, 0)
+        row.step:ClearAllPoints()
+        row.step:SetPoint("TOPLEFT", iconFrame, "TOPRIGHT", 3, 0)
+        row.step:SetPoint("TOPRIGHT", row, "TOPRIGHT", -132, 0)
+
+        local noteHeight
+        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index) then
+            noteHeight = 1
+            row.note:Hide()
+            if WoWPro.mousenotes and WoWPro.mousenotes[i] then
+                WoWPro.mousenotes[i]:Hide()
+                WoWPro.mousenotes[i].note:SetText(row.note:GetText())
+                WoWPro.mousenotes[i]:SetHeight(WoWPro.mousenotes[i].note:GetHeight() + 20)
+                row:SetScript("OnEnter", function()
+                    WoWPro.SetMouseNotesPoints()
+                    WoWPro.mousenotes[i]:Show()
+                end)
+                row:SetScript("OnLeave", function()
+                    WoWPro.mousenotes[i]:Hide()
+                end)
+            end
+        else
+            row.note:ClearAllPoints()
+            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            row.note:SetPoint("TOPRIGHT", row, "TOPRIGHT", -3, -3)
+            noteHeight = row.note:GetHeight()
+            row.note:Show()
+            row:SetScript("OnEnter", function() end)
+            row:SetScript("OnLeave", function() end)
+        end
+
+        local trackHeight
+        if row.trackcheck and row.track:GetText() ~= "" then
+            row.track:Show()
+            row.track:ClearAllPoints()
+            if row.note:IsShown() then
+                row.track:SetPoint("TOPLEFT", row.note, "BOTTOMLEFT", 0, -3)
+            else
+                row.track:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            end
+            row.track:SetPoint("TOPRIGHT", row, "TOPRIGHT", -3, -3)
+            trackHeight = row.track:GetHeight()
+            row.progressBar:SetWidth(row:GetWidth() - 30)
+        else
+            row.track:Hide()
+            row.progressBar:Hide()
+            trackHeight = 1
+        end
+
+        local rowHeight = noteHeight + trackHeight + max(row.step:GetHeight(), row.iconTexture:GetHeight()) + space * 2 + 3
+        row:SetHeight(rowHeight)
+    end
+end
+
 -- Computes final row height from text and icon heights
-function WoWPro:RowSizeSet(row)
+function WoWPro:RowLayoutSizeSet(row)
     -- gather text heights
     local titleHeight   = row.StepTitleHeight or 0
     local noteHeight    = row.StepNoteHeight or 0
@@ -2412,6 +2420,10 @@ function WoWPro:CreateFrames()
     WoWPro:CreateTitleBar()
     WoWPro:CreateStickyHeader()
     WoWPro:CreateGuideFrame()
+    WoWPro.rows = {}
+    for i = 1, 15 do
+        WoWPro:CreateRow(i)
+    end
     WoWPro:CreateGuideWindowScrollbar()
     WoWPro:CreateMouseNotes()
     WoWPro:CreateNextGuideDialog()
