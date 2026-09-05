@@ -408,7 +408,6 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     return value
 end
 
-
 WoWPro.ObjectiveOperators = {}
 -- Quest Objective functions
 function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
@@ -528,7 +527,6 @@ WoWPro.ObjectiveOperators['H='] = WoWPro.ObjectiveOperators.HeartEqual
 WoWPro.ObjectiveOperators['H>'] = WoWPro.ObjectiveOperators.HeartGreater
 WoWPro.ObjectiveOperators['H'] = WoWPro.ObjectiveOperators.HearStop
 
-
 function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = questtext:match(OBJECTIVE_PATTERN)
     WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, tostring(objective), tostring(operator), tostring(target))
@@ -618,6 +616,7 @@ end
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
+    WoWPro:Trace("LoadGuide")
     WoWPro:dbp("Signaled for LoadGuide %s",tostring(guideID))
     if WoWPro.GuideLoaded and guideID and WoWProDB.char.currentguide == guideID then
         WoWPro:print("Guide %s already loaded. Recycle!", guideID)
@@ -639,6 +638,7 @@ function WoWPro:LoadGuide(guideID)
 end
 
 function WoWPro.LoadGuideReal()
+    WoWPro:Trace("LoadGuideReal:ENTER")
     local GID = WoWProDB.char.currentguide
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
     -- If currently in startup lockdown, punt
@@ -805,7 +805,6 @@ function WoWPro:NextGuide(GID)
     return WoWPro:GuideFormalName(nextGID)
 
 end
-
 
 function WoWPro:UpdateGuide(From)
     WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
@@ -1705,6 +1704,7 @@ function WoWPro.UpdateGuideRealSlow(From)
 end
 
 function WoWPro.UpdateGuideReal(From)
+    WoWPro:Trace("UpdateGuideReal:ENTER")
     if WoWPro.UpdateGuideRealInProgress then
         WoWPro:dbp("UpdateGuideReal(): nested update suppressed")
         return

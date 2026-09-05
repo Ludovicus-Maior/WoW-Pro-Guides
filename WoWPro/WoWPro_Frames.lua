@@ -13,6 +13,14 @@ local function AnchorDebug(msg, ...)
     WoWPro:dbp(msg, ...)
 end
 
+-- Where are you going? Trace function calls for debugging.
+local Tracer = true
+function WoWPro:Trace(func)
+    if Tracer and WoWPro.DebugLevel > 0 then
+        print("TRACE:", func) -- It will output to chat whatever you pass to it
+    end
+end
+
 local L = WoWPro_Locale
 
 -- Component tables (An idea that didn't pan out, but kept for reference)
@@ -117,6 +125,7 @@ function WoWPro.ResetMainFramePosition()
 end
 
 function WoWPro:MinimapSet()
+    WoWPro:Trace("MinimapSet")
     local icon = _G.LibStub("LibDBIcon-1.0")
     if not WoWProDB.profile.minimap.hide then
         local function tryRegister()
@@ -135,6 +144,7 @@ function WoWPro:MinimapSet()
 end
 
 function WoWPro:ResizeSet()
+    WoWPro:Trace("ResizeSet")
     if _G.InCombatLockdown() then return end
     if WoWProDB.profile.resize then
         WoWPro.resizebutton:Hide()
@@ -212,6 +222,7 @@ end
 
 -- Keep button bar fully visible; adjust frame down if needed
 function WoWPro:ClampBarsOnScreen()
+    WoWPro:Trace("ClampBarsOnScreen")
     -- Don't clamp during manual resize operations or right after restore
     if WoWPro.InhibitReanchor or WoWPro.InhibitClampBars then
         AnchorDebug("ClampBarsOnScreen: inhibited")
@@ -372,6 +383,7 @@ function WoWPro:StopMoveClamp()
 end
 
 function WoWPro:BackgroundSet()
+    WoWPro:Trace("BackgroundSet")
     -- Shorthand locals
     local Profile = WoWProDB.profile
     local MF      = WoWPro.MainFrame
@@ -544,6 +556,7 @@ function WoWPro.SetMouseNotesPoints()
 end
 
 function WoWPro.AnchorStore(where)
+    WoWPro:Trace("AnchorStore")
     -- Save the current anchor and frame position to the profile
     -- Handles persistence after resizing, moving, or anchor changes
 
@@ -604,7 +617,7 @@ function WoWPro.AnchorStore(where)
     WoWProDB.profile.size = size
 
     WoWPro:dbp("AnchorStore(" .. where .. "): Saved position using " .. expansionAnchor .. " - Width: " .. size[2] .. " Height: " .. size[1])
-
+    WoWPro.Trace("AnchorStore: position saved", where)
     -- AnchorStore debug log gate
     if WoWPro.DebugAnchorStore and WoWPro.DebugLevel > 0 then
         WoWPro:dbp("AnchorStore(" .. where .. "): " ..
@@ -688,6 +701,7 @@ function WoWPro.AnchorStore(where)
 end
 
 function WoWPro.AnchorSync(reset_size)
+    WoWPro:Trace("AnchorSync")
     if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
         return
     end
@@ -834,6 +848,7 @@ end
 
 -- Keeps all bars visually stacked by applying visibility‑based offsets from MainFrameStackOffset()
 function WoWPro:UpdateBars()
+    WoWPro:Trace("UpdateBars")
     local mf  = WoWPro.MainFrame
     local off = WoWPro.AnchorOffsets
 
@@ -869,6 +884,8 @@ function WoWPro:UpdateBars()
 end
 
 function WoWPro.CustomizeFrames()
+    WoWPro:Trace("CustomizeFrames:CALLED_FROM_" .. debugstack(2,1,0))
+    -- WoWPro:Trace("CustomizeFrames")
     WoWPro:dbp("WoWPro.CustomizeFrames()")
 
     if not WoWPro.rows then return end
@@ -877,7 +894,7 @@ function WoWPro.CustomizeFrames()
 
     WoWPro.MainFrameLayout()
     WoWPro.BackgroundSet()
-    -- WoWPro.RowSet() ** Do not call RowSet during initial frame customization to avoid layout conflicts
+    WoWPro.RowSet()
     WoWPro.ResizeSet()
     WoWPro.MinimapSet()
     WoWPro:ClampBarsOnScreen()
@@ -899,8 +916,8 @@ function WoWPro.CustomizeFrames()
 end
 
 function WoWPro.MainFrameLayout()
+    WoWPro:Trace("MainFrameLayout")
     if InCombatLockdown() then return end
-    print("WoWPro.MainFrameLayout()")
 
     local MF  = WoWPro.MainFrame
     local pad = WoWProDB.profile.userPad or 0
@@ -938,7 +955,6 @@ function WoWPro.MainFrameLayout()
     end
 
     -- GUIDEFRAME (static)
-    print("WoWPro.MainFrameLayout(): GuideFrame is shown")
     local GF = WoWPro.GuideFrame
     GF:ClearAllPoints()
     GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
@@ -948,8 +964,32 @@ function WoWPro.MainFrameLayout()
     MF:SetHeight(-y + pad)
 end
 
+function WoWPro:GuideWindowLayout()
+    WoWPro:Trace("GuideWindowLayout")
+    local GF = WoWPro.GuideFrame
+    local totalHeight = 0
+
+    for i = 1, #WoWPro.rows do
+        local row = WoWPro.rows[i]
+        if not row then return false end -- Ensure row exists before proceeding
+
+        if row:IsShown() then
+            totalHeight = totalHeight + row:GetHeight()
+        end
+    end
+
+    -- enforce minimum height
+    local minHeight = WoWProDB.profile.minResizeHeight or 50
+    if totalHeight < minHeight then
+        totalHeight = minHeight
+    end
+
+    GF:SetHeight(totalHeight)
+end
+
 -- Refreshes MainFrame after any changes.
 function WoWPro:UpdateMainFrameLayout()
+    WoWPro:Trace("UpdateMainFrameLayout")
     -- Update bar visibility, heights, etc.
     WoWPro:UpdateBars()
 
@@ -961,8 +1001,10 @@ function WoWPro:UpdateMainFrameLayout()
 end
 
 -- Lay out all row parts left-to-right so the row stays aligned and consistent
-function WoWPro:LayoutRow(row)
+function WoWPro:RowLayout(row)
+    WoWPro:Trace("RowLayout")
     if not row then
+        WoWPro:Trace("RowLayout: No row provided")
         return
     end
 
@@ -981,6 +1023,7 @@ function WoWPro:LayoutRow(row)
     -- Order missing? Stop.
     local order = row.Elements and row.Elements.Order
     if not order then
+        WoWPro:Trace("RowLayout: No order defined for row")
         return
     end
 
@@ -1068,6 +1111,10 @@ function WoWPro:CreateMainFrame()
     end)
 
     WoWPro.MainFrame = MF
+
+    if WoWPro.MainFrame:GetHeight() < 200 then
+        WoWPro.MainFrame:SetHeight(400)
+    end
 
     -- Faux buttons (unchanged)
     WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
@@ -1774,6 +1821,9 @@ end
 
 -- Orchestrates all row layout functions in correct order
 function WoWPro:RowSet(row, step)
+    WoWPro:Trace("RowSet:ENTER")
+    if not row then return end -- guard against nil row
+
     -- apply fonts from profile
     WoWPro:RowFontSet(row)
 
@@ -1798,6 +1848,9 @@ end
 
 -- Sets text and lays out StepTitle, StepNote, and Tracker
 function WoWPro:RowTextSet(row, step)
+    WoWPro:Trace("RowTextSet:ENTER")
+    if not row then return end -- guard against nil row
+
     -- set text
     row.StepTitle:SetText(step.text or "")
     row.StepNote:SetText(step.note or "")
@@ -1954,6 +2007,7 @@ end
 
 -- Computes final row height from text and icon heights
 function WoWPro:RowLayoutSizeSet(row)
+    WoWPro:Trace("RowLayoutSizeSet")
     -- gather text heights
     local titleHeight   = row.StepTitleHeight or 0
     local noteHeight    = row.StepNoteHeight or 0
@@ -2397,36 +2451,6 @@ function WoWPro:CreateFrames()
     WoWPro:CreateMiniMapButton()
     WoWPro:CreateDropdownMenu()
     WoWPro:CreateGuideList()
---      local createGuideFrame()
-            --Create the guide frame with default settings
-            --Attach todefault position on screen
-            --Set to moveable and resizeable
---      local createTitleBar()
-            --Create the title bar frame with default settings
-            --Attach to the guide frame, above it
---      local createStickyFrame()
-            --Create the sticky frame with default settings
-            --Attach to the guide frame, inside at the top
-            --Hide the sticky frame by default
---      local createResizeButton()
-            --Create the resize button frame with default settings
-            --Attach to the guide frame, inside at the bottom right
---      local createGuideWindowScrollbar()
-            --Create the scroll bar frame with default settings
-            --Attach to the guide frame, outside to the right
-            --Hide by default
---      local CreateRow()
-            --Create the 25 row frames with default settings
-            --Attach to the guide frame, inside, starting at the top (first attaches to the sticky frame)
---      local createMouseNotes()
-            --Create the 25 mouse note frames with default settings
-            --Attach to the row frames
-            --Hide by default
---      local createDialog()
-            --Create the dialog frame with default settings - empty by default
-            --Attach to the center of the screen
-            --Hide by default
---      local createMiniMapButton()
 end
 
 --Enables or Disables frames (hides/shows)

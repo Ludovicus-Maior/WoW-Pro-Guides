@@ -554,7 +554,7 @@ function WoWPro:OnEnable()
     --end
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro:CreateFrames()
+        -- WoWPro:CreateFrames() ** called too early - hendo72
         WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
@@ -570,7 +570,9 @@ function WoWPro:OnEnable()
     -- Reset anchor restore flag for this session
     WoWPro.HasRestoredThisSession = false
 
-    WoWPro:CustomizeFrames()    -- Applies profile display settings
+    -- Applies profile display settings
+    WoWPro:Trace("CustomizeFrames:FROM_WOWPRO")
+    WoWPro:CustomizeFrames()
 
     -- Keybindings Initial Setup --
     if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
@@ -1020,6 +1022,8 @@ function WoWPro.LevelColor(guide)
 end
 
 function WoWPro.ShouldInstanceHide()
+    if not WoWPro.rows or not WoWPro.rows[1] then return false end
+
     local inInstance, instanceType = _G.IsInInstance()
 
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index or 1
@@ -1063,6 +1067,7 @@ WoWPro.IsHidden = false
 function WoWPro.AutoHideFrame(msg, why)
 
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
+
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == false  then
             WoWPro:dbp("WoWPro.ShowFrame(hide):"..msg)
         else

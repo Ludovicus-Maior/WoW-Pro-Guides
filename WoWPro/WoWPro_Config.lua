@@ -15,6 +15,7 @@ LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\
 
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
+    WoWPro:Trace("CustomizeFrames:FROM_CONFIG")
     WoWPro:CustomizeFrames()
 end
 
