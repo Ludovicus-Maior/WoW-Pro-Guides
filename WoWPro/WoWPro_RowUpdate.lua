@@ -470,6 +470,23 @@ function WoWPro:RowUpdate(offset)
             SetupTargetButton(currentRow, nil, module)
         end
 
+        if not row then return false end -- Ensure row exists before assigning elements
+        -- Assign elements to the row for layout purposes
+        row.Elements = {
+            Order = {
+                row.check,
+                row.iconTexture,
+                row.step,
+                row.note,
+                row.track,
+                row.itembutton,
+                row.targetbutton,
+                row.jumpbutton,
+                row.eabutton,
+            }
+        }
+
+        WoWPro:RowLayout(currentRow)
         -- Save row
         WoWPro.rows[i] = currentRow
     end
@@ -1275,9 +1292,13 @@ SetupTargetButton = function(currentRow, target, module)
     -- Allow module override
     if WoWPro[module:GetName()].RowUpdateTarget then
         WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
-        macroText = currentRow.targetbutton:GetAttribute("macrotext") or macroText
+        if currentRow.targetbutton then
+            macroText = currentRow.targetbutton:GetAttribute("macrotext") or macroText
+        end
     else
-        currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        if currentRow.targetbutton then
+            currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        end
     end
 
     WoWPro:dbp("Target text set to: %s", macroText)
