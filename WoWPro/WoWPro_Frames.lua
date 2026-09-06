@@ -1,5 +1,5 @@
 -- luacheck: globals ipairs unpack ceil max floor math C_Timer tostring string
--- luacheck: globals CreateFrame UIParent InCombatLockdown BackdropTemplateMixin
+-- luacheck: globals CreateFrame UIParent InCombatLockdown BackdropTemplateMixin debugstack
 
 WoWPro.DebugAnchorStore = false -- Enables detailed AnchorStore debug logging
 WoWPro.DebugAnchor = false -- Enables debug logging for window anchor/position changes
@@ -31,27 +31,14 @@ WoWPro.GuideFrame     = WoWPro.GuideFrame or {}
 WoWPro.StickyHeader   = WoWPro.StickyHeader or {}
 WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 
--- Binds all mouse interactions for the MainFrame window and its child elements
-function WoWPro:BindMainFrameMouse()
-    local MF    = WoWPro.MainFrame
-    local Mover = WoWPro.MainFrameMover
-    local BB    = WoWPro.ButtonBar
-    local TB    = WoWPro.TitleBar
-    local RH    = WoWPro.ResizeHandlers
-    local OB    = WoWPro.OptionButton
-
-    -- MainFrame movement
-    if MF then
-        MF:SetScript("OnMouseDown", function(self, btn)
-            -- Forward the event to OB's mover
-            WoWPro.MainFrameMover.OnMouseDown(OB, btn)
-        end)
-
-        MF:SetScript("OnMouseUp", function(self)
-            -- Forward the event to OB's mover
-            WoWPro.MainFrameMover.OnMouseUp(OB)
-        end)
-    end
+-- Contains all mouse interactions for the MainFrame window and its child elements
+function WoWPro:MainFrameMouseHandler()
+    local MF      = WoWPro.MainFrame
+    local BB      = WoWPro.ButtonBar
+    local TB      = WoWPro.TitleBar
+    local RH      = WoWPro.ResizeHandlers
+    local OB      = WoWPro.OptionButton
+    local Profile = WoWProDB.profile
 
     -- Resize Controls (Button + 4 Corners)
     local ctrls = {
@@ -70,9 +57,33 @@ function WoWPro:BindMainFrameMouse()
         end
     end
 
-    -- Option Button
+    -- Option Button Click
     if OB and WoWPro.OptionHandlers then
         OB:SetScript("OnClick", WoWPro.OptionHandlers.OnClick)
+    end
+
+    -- OB MOVEMENT LOGIC (ONLY drag point, restrictor applied correctly)
+    if OB then
+        OB:RegisterForDrag("LeftButton")
+
+        -- Start movement (restricted)
+        OB:SetScript("OnDragStart", function(frame)
+            if not Profile.locked and not InCombatLockdown() then
+                MF:StartMoving()
+            end
+        end)
+
+        -- Stop movement (always allowed)
+        OB:SetScript("OnDragStop", function(frame)
+            MF:StopMovingOrSizing()
+        end)
+
+        -- Save anchor on intentional release
+        OB:SetScript("OnMouseUp", function(frame, btn)
+            if btn == "LeftButton" then
+                WoWPro.AnchorStore()
+            end
+        end)
     end
 
     -- ButtonBar Buttons
@@ -84,12 +95,14 @@ function WoWPro:BindMainFrameMouse()
         BB.Buttons[5]:SetScript("OnClick", function() WoWPro:OpenDiscord() end)
     end
 
-    -- TitleBar
-    TB:SetScript("OnMouseUp", function(self, btn)
-        if btn == "LeftButton" and self.doubleClick then
-            WoWPro.CollapseToggle()
-        end
-    end)
+    -- TitleBar Double-Click Collapse
+    if TB then
+        TB:SetScript("OnMouseUp", function(frame, btn)
+            if btn == "LeftButton" and frame.doubleClick then
+                WoWPro.CollapseToggle()
+            end
+        end)
+    end
 
     -- Row Clicks
     if WoWPro.Rows and WoWPro.RowHandlers then
@@ -125,12 +138,6 @@ function WoWPro:BindMainFrameMouse()
         end)
     end
 
-    TB:SetScript("OnMouseUp", function(self, btn)
-        if btn == "LeftButton" and self.doubleClick then
-            WoWPro:CollapseToggle()   -- or whatever your collapse function is
-        end
-    end)
-
     -- ScrollFrame MouseWheel
     local SF = WoWPro.ScrollFrame
     if SF and WoWPro.ScrollHandlers then
@@ -141,19 +148,21 @@ function WoWPro:BindMainFrameMouse()
     WoWPro:UpdateResizeHandle()
 end
 
--- Handles the movement of the MainFrame window
-WoWPro.MainFrameMover = {
-    OnMouseDown = function(self, btn)
-        if btn == "LeftButton" then
-            WoWPro.MainFrame:StartMoving()
-        end
-    end,
+-- OB movement helpers (logic only, no binding)
+function WoWPro.OB_StartMove(self)
+    if not WoWProDB.profile.locked and not InCombatLockdown() then
+        WoWPro.MainFrame:StartMoving()
+    end
+end
+function WoWPro.OB_StopMove(self)
+    WoWPro.MainFrame:StopMovingOrSizing()
+end
 
-    OnMouseUp = function(self)
-        WoWPro.MainFrame:StopMovingOrSizing()
+function WoWPro.OB_SaveAnchor(self, btn)
+    if btn == "LeftButton" then
         WoWPro.AnchorStore()
-    end,
-}
+    end
+end
 
 -- Collapse or expand the GuideFrame by double-clicking the TitleBar
 function WoWPro.CollapseToggle()
@@ -1216,45 +1225,64 @@ end
 
 -- MainFrame (the whole guide window)--
 function WoWPro:CreateMainFrame()
-    -- MainFrame (MF) — passive container
     local MF = CreateFrame("Frame", "WoWProMainFrame", UIParent, "BackdropTemplate")
     MF:SetClampedToScreen(true)
+    MF:SetSize(200, 300) -- Default size for the main frame until user resizes it
+    MF:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175) -- Default position for the main frame until user moves it
 
-    -- Default size (static)
-    MF:SetSize(200, 300)
-
-    -- Default position (static until AnchorRestore runs)
-    MF:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
-
-    -- MF accepts mouse ONLY for resize handle hit‑testing
-    MF:EnableMouse(true)
-
-    -- MF must be eligible to be moved or resized indirectly
+    -- MF is movable, but NOT a drag surface
     MF:SetMovable(true)
-    MF:SetResizable(true)
-    MF:SetUserPlaced(true)
-
-    -- MF ONLY responds to size changes (ResizeHandle drives this)
-    MF:SetScript("OnSizeChanged", function()
-        if WoWPro.FramesLoaded and not WoWPro.InhibitAnchorStore then
-            WoWPro.AnchorStore("OnSizeChanged")
-        end
-    end)
+    MF:RegisterForDrag()               -- clears drag types
+    MF:SetScript("OnDragStart", nil)   -- MF cannot start moving itself
+    MF:SetScript("OnDragStop", nil)    -- MF cannot stop moving itself
 
     WoWPro.MainFrame = MF
 
-    if WoWPro.MainFrame:GetHeight() < 200 then
-        WoWPro.MainFrame:SetHeight(400)
+    -- Faux buttons (harmless legacy code)
+    WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
+    WoWPro.FauxItemButton:EnableMouse(true)
+    WoWPro.FauxItemButton:SetScript("OnMouseUp", function(_, button)
+        if button == "LeftButton" then
+            WoWPro:dbp("Clicking FauxItemButton")
+        end
+    end)
+
+    WoWPro.FauxTargetButton = CreateFrame("Frame", "WoWPro_FauxTargetButton", UIParent)
+    WoWPro.FauxTargetButton:EnableMouse(true)
+
+    WoWPro.FauxJumpButton = CreateFrame("Frame", "WoWPro_FauxJumpButton", UIParent)
+    WoWPro.FauxJumpButton:EnableMouse(true)
+
+    WoWPro.FauxEAButton = CreateFrame("Frame", "WoWPro_FauxEAButton", UIParent)
+    WoWPro.FauxEAButton:EnableMouse(true)
+end
+
+-- Compute total height for MF
+function WoWPro.ComputeMFHeight()
+    local Profile = WoWProDB.profile
+    local pad = Profile.userPad or 0
+    local total = pad
+
+    local BB = WoWPro.ButtonBar
+    local TB = WoWPro.TitleBar
+    local SH = WoWPro.StickyHeader
+    local GF = WoWPro.GuideFrame
+
+    if BB and BB:IsShown() then
+        total = total + BB:GetHeight()
     end
 
-    -- Faux buttons (unchanged)
-    WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
-    WoWPro.FauxItemButton:SetScript("OnMouseUp", function(_, button)
-        if button == "LeftButton" then WoWPro:dbp("Clicking FauxItemButton") end
-    WoWPro.FauxTargetButton = CreateFrame("Frame", "WoWPro_FauxTargetButton", UIParent)
-    WoWPro.FauxJumpButton = CreateFrame("Frame", "WoWPro_FauxJumpButton", UIParent)
-    WoWPro.FauxEAButton = CreateFrame("Frame", "WoWPro_FauxEAButton", UIParent)
-    end)
+    if TB and TB:IsShown() then
+        total = total + TB:GetHeight()
+    end
+
+    if SH and SH:IsShown() then
+        total = total + SH:GetHeight()
+    end
+
+    total = total + GF:GetHeight()
+
+    return total
 end
 
 -- Option Button --
@@ -1274,8 +1302,10 @@ function WoWPro:CreateOptionButton()
     OB.icon:SetAllPoints()
     OB.icon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
-    -- Mouse
+    -- Mouse enabled (needed so handler can attach scripts later)
     OB:EnableMouse(true)
+
+    return OB
 end
 
 -- Resize Controls --
@@ -1566,7 +1596,6 @@ function WoWPro:CreateButtonBar()
 
     -- Apply user font/color settings
     WoWPro:ButtonBarSet()
-
 end
 
 -- Apply user settings to ButtonBar (from GuideWindow)
@@ -1831,23 +1860,6 @@ function WoWPro:CreateRow(index)
     row:SetPoint("RIGHT")
     row:SetHeight(25)
     row:RegisterForClicks("AnyUp")
-    row:RegisterForDrag("LeftButton")
-    row:SetScript("OnDragStart", function()
-        if WoWProDB.profile.drag and not _G.InCombatLockdown() then
-            WoWPro.InhibitAnchorRestore = true
-            WoWPro:StartMoveClamp()
-            WoWPro.MainFrame:StartMoving()
-        end
-    end)
-    row:SetScript("OnDragStop", function()
-        if WoWProDB.profile.drag then
-            WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro:StopMoveClamp()
-            WoWPro.AnchorStore("OnDragStopRow")
-            WoWPro.InhibitAnchorRestore = false
-        end
-    end)
 
     row.check = WoWPro:CreateCheck(row)
     row.check:SetScript("OnEnter", function(this)
