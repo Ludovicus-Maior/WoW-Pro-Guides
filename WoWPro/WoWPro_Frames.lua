@@ -24,11 +24,148 @@ end
 local L = WoWPro_Locale
 
 -- Component tables (An idea that didn't pan out, but kept for reference)
-WoWPro.ButtonBar   = WoWPro.ButtonBar   or {}
-WoWPro.TitleBar    = WoWPro.TitleBar    or {}
-WoWPro.MainFrame   = WoWPro.MainFrame   or {}
-WoWPro.GuideFrame  = WoWPro.GuideFrame  or {}
-WoWPro.StickyFrame = WoWPro.StickyFrame or {}
+WoWPro.ButtonBar      = WoWPro.ButtonBar or {}
+WoWPro.TitleBar       = WoWPro.TitleBar or {}
+WoWPro.MainFrame      = WoWPro.MainFrame or {}
+WoWPro.GuideFrame     = WoWPro.GuideFrame or {}
+WoWPro.StickyHeader   = WoWPro.StickyHeader or {}
+WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
+
+-- Binds all mouse interactions for the MainFrame window and its child elements
+function WoWPro:BindMainFrameMouse()
+    local MF    = WoWPro.MainFrame
+    local Mover = WoWPro.MainFrameMover
+    local BB    = WoWPro.ButtonBar
+    local TB    = WoWPro.TitleBar
+    local RH    = WoWPro.ResizeHandlers
+    local OB    = WoWPro.OptionButton
+
+    -- MainFrame movement
+    if MF then
+        MF:SetScript("OnMouseDown", function(self, btn)
+            -- Forward the event to OB's mover
+            WoWPro.MainFrameMover.OnMouseDown(OB, btn)
+        end)
+
+        MF:SetScript("OnMouseUp", function(self)
+            -- Forward the event to OB's mover
+            WoWPro.MainFrameMover.OnMouseUp(OB)
+        end)
+    end
+
+    -- Resize Controls (Button + 4 Corners)
+    local ctrls = {
+        WoWPro.resizebutton,
+        WoWPro.ResizeTL,
+        WoWPro.ResizeTR,
+        WoWPro.ResizeBL,
+        WoWPro.ResizeBR,
+    }
+
+    for i = 1, #ctrls do
+        local ctrl = ctrls[i]
+        if ctrl then
+            ctrl:SetScript("OnMouseDown", RH.OnMouseDown)
+            ctrl:SetScript("OnMouseUp",   RH.OnMouseUp)
+        end
+    end
+
+    -- Option Button
+    if OB and WoWPro.OptionHandlers then
+        OB:SetScript("OnClick", WoWPro.OptionHandlers.OnClick)
+    end
+
+    -- ButtonBar Buttons
+    if BB and BB.Buttons then
+        BB.Buttons[1]:SetScript("OnClick", function() WoWPro:GuideListShow() end)
+        BB.Buttons[2]:SetScript("OnClick", function() WoWPro:ShowCurrentGuide() end)
+        BB.Buttons[3]:SetScript("OnClick", function() WoWPro:ResetGuide() end)
+        BB.Buttons[4]:SetScript("OnClick", function() WoWPro:SkipStep() end)
+        BB.Buttons[5]:SetScript("OnClick", function() WoWPro:OpenDiscord() end)
+    end
+
+    -- TitleBar
+    TB:SetScript("OnMouseUp", function(self, btn)
+        if btn == "LeftButton" and self.doubleClick then
+            WoWPro.CollapseToggle()
+        end
+    end)
+
+    -- Row Clicks
+    if WoWPro.Rows and WoWPro.RowHandlers then
+        for _, row in ipairs(WoWPro.Rows) do
+            if row and row.SetScript then
+                row:SetScript("OnClick", WoWPro.RowHandlers.OnClick)
+            end
+        end
+    end
+
+    -- Faux Buttons
+    if WoWPro.FauxItemButton then
+        WoWPro.FauxItemButton:SetScript("OnMouseUp", function(_, btn)
+            if btn == "LeftButton" then WoWPro:dbp("Clicking FauxItemButton") end
+        end)
+    end
+
+    if WoWPro.FauxTargetButton then
+        WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(_, btn)
+            if btn == "LeftButton" then WoWPro:dbp("Clicking FauxTargetButton") end
+        end)
+    end
+
+    if WoWPro.FauxJumpButton then
+        WoWPro.FauxJumpButton:SetScript("OnMouseUp", function(_, btn)
+            if btn == "LeftButton" then WoWPro:dbp("Clicking FauxJumpButton") end
+        end)
+    end
+
+    if WoWPro.FauxEAButton then
+        WoWPro.FauxEAButton:SetScript("OnMouseUp", function(_, btn)
+            if btn == "LeftButton" then WoWPro:dbp("Clicking FauxEAButton") end
+        end)
+    end
+
+    TB:SetScript("OnMouseUp", function(self, btn)
+        if btn == "LeftButton" and self.doubleClick then
+            WoWPro:CollapseToggle()   -- or whatever your collapse function is
+        end
+    end)
+
+    -- ScrollFrame MouseWheel
+    local SF = WoWPro.ScrollFrame
+    if SF and WoWPro.ScrollHandlers then
+        SF:SetScript("OnMouseWheel", WoWPro.ScrollHandlers.OnMouseWheel)
+    end
+
+    -- Ensure correct resize handle visibility
+    WoWPro:UpdateResizeHandle()
+end
+
+-- Handles the movement of the MainFrame window
+WoWPro.MainFrameMover = {
+    OnMouseDown = function(self, btn)
+        if btn == "LeftButton" then
+            WoWPro.MainFrame:StartMoving()
+        end
+    end,
+
+    OnMouseUp = function(self)
+        WoWPro.MainFrame:StopMovingOrSizing()
+        WoWPro.AnchorStore()
+    end,
+}
+
+-- Collapse or expand the GuideFrame by double-clicking the TitleBar
+function WoWPro.CollapseToggle()
+    if WoWPro.GuideFrame:IsShown() then
+        WoWPro.GuideFrame:Hide()
+        WoWPro.UserCollapsed = true
+    else
+        WoWPro.GuideFrame:Show()
+        WoWPro.UserCollapsed = false
+        WoWPro:UpdateGuide("TB_DoubleClick")
+    end
+end
 
 local function GetUIScreenSize()
     local ui = _G.UIParent
@@ -1092,12 +1229,6 @@ function WoWPro:CreateMainFrame()
     -- MF accepts mouse ONLY for resize handle hit‑testing
     MF:EnableMouse(true)
 
-    -- MF has NO mouse scripts
-    MF:SetScript("OnMouseDown", nil)
-    MF:SetScript("OnMouseUp", nil)
-    MF:SetScript("OnDragStart", nil)
-    MF:SetScript("OnDragStop", nil)
-
     -- MF must be eligible to be moved or resized indirectly
     MF:SetMovable(true)
     MF:SetResizable(true)
@@ -1120,21 +1251,9 @@ function WoWPro:CreateMainFrame()
     WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
     WoWPro.FauxItemButton:SetScript("OnMouseUp", function(_, button)
         if button == "LeftButton" then WoWPro:dbp("Clicking FauxItemButton") end
-    end)
-
     WoWPro.FauxTargetButton = CreateFrame("Frame", "WoWPro_FauxTargetButton", UIParent)
-    WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(_, button)
-        if button == "LeftButton" then WoWPro:dbp("Clicking FauxTargetButton") end
-    end)
-
     WoWPro.FauxJumpButton = CreateFrame("Frame", "WoWPro_FauxJumpButton", UIParent)
-    WoWPro.FauxJumpButton:SetScript("OnMouseUp", function(_, button)
-        if button == "LeftButton" then WoWPro:dbp("Clicking FauxJumpButton") end
-    end)
-
     WoWPro.FauxEAButton = CreateFrame("Frame", "WoWPro_FauxEAButton", UIParent)
-    WoWPro.FauxEAButton:SetScript("OnMouseUp", function(_, button)
-        if button == "LeftButton" then WoWPro:dbp("Clicking FauxEAButton") end
     end)
 end
 
@@ -1155,89 +1274,44 @@ function WoWPro:CreateOptionButton()
     OB.icon:SetAllPoints()
     OB.icon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
-    -- Mouse + drag
+    -- Mouse
     OB:EnableMouse(true)
-    OB:RegisterForDrag("LeftButton")
-
-    OB:SetScript("OnDragStart", function(btn)
-        if InCombatLockdown() then return end
-        WoWPro.InhibitAnchorRestore = true
-        WoWPro:StartMoveClamp()
-        WoWPro.MainFrame:StartMoving()
-    end)
-
-    OB:SetScript("OnDragStop", function(btn)
-        WoWPro.MainFrame:StopMovingOrSizing()
-        WoWPro.MainFrame:SetUserPlaced(false)
-        WoWPro:StopMoveClamp()
-        WoWPro.AnchorStore("OptionButtonDrag")
-        WoWPro.InhibitAnchorRestore = false
-    end)
-
-    -- Right-click menu (OnMouseUp, not OnMouseDown)
-    OB:SetScript("OnMouseUp", function(frame, button)
-        if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, frame, "cursor", 0, 0, "MENU")
-        end
-    end)
 end
 
--- Resize Button --
-function WoWPro:CreateResizeButton()
-    local resizebutton = _G.CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
-    resizebutton:SetHeight(20)
-    resizebutton:SetWidth(20)
-    resizebutton:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel()+3)
+-- Resize Controls --
+function WoWPro:CreateResizeControls()
+    local MF = WoWPro.MainFrame
+    if not MF then return end
 
-    -- Position handle opposite the expansion anchor (independent of Left Handed)
-    local anchorCorner = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-    local handleCorner = "BOTTOMRIGHT"
-    if anchorCorner == "TOPRIGHT" then
-        handleCorner = "BOTTOMLEFT"
-    elseif anchorCorner == "BOTTOMLEFT" then
-        handleCorner = "TOPRIGHT"
-    elseif anchorCorner == "BOTTOMRIGHT" then
-        handleCorner = "TOPLEFT"
-    end
+    -- Main resize button
+    local RB = CreateFrame("Button", "WoWProResizeButton", MF)
+    RB:SetSize(16, 16)
+    RB:SetPoint("BOTTOMRIGHT", MF, "BOTTOMRIGHT", 0, 0)
+    RB:SetNormalTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up")
+    RB:SetHighlightTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight")
+    RB:SetPushedTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Down")
+    WoWPro.resizebutton = RB
 
-    resizebutton:SetPoint(handleCorner, WoWPro.MainFrame, handleCorner, 0, 0)
-    resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
+    -- Corner handles
+    local TL = CreateFrame("Frame", nil, MF)
+    TL:SetSize(16, 16)
+    TL:SetPoint("TOPLEFT", MF, "TOPLEFT")
+    WoWPro.ResizeTL = TL
 
-    -- Scripts --
-    resizebutton:SetScript("OnMouseDown", function()
-        WoWPro.InhibitAnchorRestore = true
-        WoWPro.InhibitReanchor = true  -- Prevent RowSizeSet from re-anchoring during resize
-        WoWPro.InhibitClampBars = true -- Prevent ClampBarsOnScreen during manual resize
-        WoWPro.InhibitAnchorStore = true -- Prevent OnSizeChanged AnchorStore during resize
+    local TR = CreateFrame("Frame", nil, MF)
+    TR:SetSize(16, 16)
+    TR:SetPoint("TOPRIGHT", MF, "TOPRIGHT")
+    WoWPro.ResizeTR = TR
 
-        local corner = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-        WoWPro:SetDynamicResizeBounds(corner)
-        WoWPro.MainFrame:StartSizing(corner)
-        WoWPro:UpdateGuide("ResizeStart")
+    local BL = CreateFrame("Frame", nil, MF)
+    BL:SetSize(16, 16)
+    BL:SetPoint("BOTTOMLEFT", MF, "BOTTOMLEFT")
+    WoWPro.ResizeBL = BL
 
-        WoWPro.MainFrame:SetScript("OnSizeChanged", function()
-            WoWPro.MainFrameLayout()
-            WoWPro.RowSizeSet()
-        end)
-    end)
-
-    resizebutton:SetScript("OnMouseUp", function()
-        WoWPro.MainFrame:StopMovingOrSizing()
-        WoWPro.MainFrame:SetUserPlaced(false)
-
-        WoWPro.InhibitAnchorRestore = false
-        WoWPro.InhibitReanchor = false
-        WoWPro.InhibitClampBars = false
-        WoWPro.InhibitAnchorStore = false
-
-        WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
-        WoWPro.MainFrameLayout()
-        WoWPro.RowSizeSet()
-        WoWPro:ContractGuideToRows()
-        WoWPro.AnchorStore("ResizeEnd")
-    end)
-
-    WoWPro.resizebutton = resizebutton
+    local BR = CreateFrame("Frame", nil, MF)
+    BR:SetSize(16, 16)
+    BR:SetPoint("BOTTOMRIGHT", MF, "BOTTOMRIGHT")
+    WoWPro.ResizeBR = BR
 end
 
 -- Dynamic resize bounds to prevent opposite-direction growth past screen edges
@@ -1330,48 +1404,6 @@ function WoWPro:SetExpansionAnchor(corner)
     WoWPro:UpdateResizeHandle()
 end
 
--- Corner Resize Handles
-function WoWPro:CornerResizeHandles()
-    local MF = WoWPro.MainFrame
-
-    local function makeHandle(name, point, texFlipH, texFlipV)
-        local btn = CreateFrame("Button", name, MF)
-        btn:SetSize(24, 24)
-        btn:SetFrameLevel(MF:GetFrameLevel() + 3)
-
-        btn:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
-        local tex = btn:GetNormalTexture()
-
-        local l, r, t, b = 0, 1, 0, 1
-        if texFlipH then l, r = 1, 0 end
-        if texFlipV then t, b = 1, 0 end
-        tex:SetTexCoord(l, r, t, b)
-
-        btn:SetPoint(point, MF, point, 0, 0)
-
-        btn:SetScript("OnMouseDown", function()
-            MF:StartSizing(point)
-        end)
-
-        btn:SetScript("OnMouseUp", function()
-            MF:StopMovingOrSizing()
-            WoWPro.AnchorStore("ResizeEnd")
-        end)
-
-        return btn
-    end
-
-    WoWPro.ResizeTL = makeHandle("WoWPro.ResizeTL", "TOPLEFT",  true,  false)
-    WoWPro.ResizeTR = makeHandle("WoWPro.ResizeTR", "TOPRIGHT", false, false)
-    WoWPro.ResizeBL = makeHandle("WoWPro.ResizeBL", "BOTTOMLEFT", true,  true)
-    WoWPro.ResizeBR = makeHandle("WoWPro.ResizeBR", "BOTTOMRIGHT", false, true)
-
-    WoWPro.ResizeTL:Hide()
-    WoWPro.ResizeTR:Hide()
-    WoWPro.ResizeBL:Hide()
-    WoWPro.ResizeBR:Hide()
-end
-
 -- Update visible resize handle based on expansion anchor
 function WoWPro:UpdateResizeHandle()
     if not WoWProDB.profile.resize then return end
@@ -1411,11 +1443,50 @@ function WoWPro:UpdateResizeHandle()
     end
 end
 
+-- Begin resize operation from the active expansion anchor
+function WoWPro.ResizeHandlers.OnMouseDown(btn)
+    local Profile = WoWProDB.profile
+
+    -- Restrictor: block resizing when toggle is off
+    if not Profile.resize then
+        return
+    end
+
+    WoWPro.InhibitAnchorRestore = true
+    WoWPro.InhibitReanchor      = true
+    WoWPro.InhibitClampBars     = true
+    WoWPro.InhibitAnchorStore   = true
+
+    local corner = Profile.expansionAnchor or "TOPLEFT"
+    WoWPro:SetDynamicResizeBounds(corner)
+
+    WoWPro.MainFrame:StartSizing(corner)
+    WoWPro:UpdateGuide("ResizeStart")
+
+    WoWPro.MainFrame:SetScript("OnSizeChanged", function()
+        WoWPro.MainFrameLayout()
+        WoWPro.RowSizeSet()
+    end)
+end
+
+-- End resize operation and restore normal anchor behavior
+function WoWPro.ResizeHandlers.OnMouseUp()
+    WoWPro.MainFrame:StopMovingOrSizing()
+
+    WoWPro.InhibitAnchorRestore = false
+    WoWPro.InhibitReanchor      = false
+    WoWPro.InhibitClampBars     = false
+    WoWPro.InhibitAnchorStore   = false
+
+    WoWPro.AnchorStore("ResizeStop")
+    WoWPro:UpdateGuide("ResizeStop")
+end
+
 -- Button Bar --
 function WoWPro:CreateButtonBar()
     -- Shorthand locals
     local Profile = WoWProDB.profile
-    local GBM      = WoWPro:GetBorderMetrics()
+    local GBM     = WoWPro:GetBorderMetrics()
     local MF      = WoWPro.MainFrame
 
     -- Local mixed math (never stored in Layout)
@@ -1500,7 +1571,7 @@ end
 
 -- Apply user settings to ButtonBar (from GuideWindow)
 function WoWPro:ButtonBarSet()
-    local BB = WoWPro.ButtonBar
+    local BB      = WoWPro.ButtonBar
     local Profile = WoWProDB.profile
 
     -- Read Profile values
@@ -2434,8 +2505,7 @@ end
 function WoWPro:CreateFrames()
     WoWPro:CreateMainFrame()
     WoWPro:CreateOptionButton()
-    WoWPro:CreateResizeButton()
-    WoWPro:CornerResizeHandles()
+    WoWPro:CreateResizeControls()
     WoWPro:CreateButtonBar()
     WoWPro:CreateTitleBar()
     WoWPro:CreateStickyHeader()
