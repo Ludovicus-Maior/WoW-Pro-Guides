@@ -4758,10 +4758,10 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
-    text = "Welcome to WoWPro.\n\n"
+    text = "Welcome to WoWPro.\n \n"
         .. "For this addon to function properly, you need to install either: "
-        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\n"
-        .. "WoW-Pro's guides won't have their full functionality without one of them!\n\n"
+        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n \n"
+        .. "WoWPro's guides won't have their full functionality without one of them!\n\n"
         .. "Download it for free from www.wowinterface.com or www.curseforge.com.",
     button1 = _G.OKAY,
     whileDead = true,

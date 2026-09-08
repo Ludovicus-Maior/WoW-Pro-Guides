@@ -14,7 +14,7 @@ local function AnchorDebug(msg, ...)
 end
 
 -- Where are you going? Trace function calls for debugging.
-local Tracer = true
+local Tracer = false
 function WoWPro:Trace(func)
     if Tracer and WoWPro.DebugLevel > 0 then
         print("TRACE:", func) -- It will output to chat whatever you pass to it
@@ -87,7 +87,7 @@ function WoWPro:AdjustMainFrameForVisibleButtonBar()
 end
 
 function WoWPro.ResetMainFramePosition()
-    if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
+    if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
         return
     end
     if WoWPro.MainFrame:IsMoving() then
@@ -147,6 +147,9 @@ end
 function WoWPro:ResizeSet()
     WoWPro:Trace("ResizeSet")
     if _G.InCombatLockdown() then return end
+    if WoWPro.MainFrame then
+        WoWPro.MainFrame:SetResizable(WoWProDB.profile.resize and true or false)
+    end
     if WoWProDB.profile.resize then
         WoWPro.resizebutton:Hide()
         WoWPro:UpdateResizeHandle()
@@ -158,45 +161,19 @@ function WoWPro:ResizeSet()
         if WoWPro.ResizeBR then WoWPro.ResizeBR:Hide() end
     end
     WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize)
+    local resized = false
     if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
         WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
+        resized = true
     end
     if WoWPro.MainFrame:GetHeight() < WoWProDB.profile.vminresize then
         WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
+        resized = true
+    end
+    if resized then
+        WoWPro.AnchorSync(true)
     end
     WoWPro:UpdateBars()
-end
-
-function WoWPro:PaddingSet()
-    if _G.InCombatLockdown() then return end
---[[     local pad = WoWProDB.profile.pad
-    -- Padding Customization --
-    if WoWPro.TitleBar:IsShown() then
-        WoWPro.StickyHeader:SetPoint("TOPLEFT", WoWPro.TitleBar, "BOTTOMLEFT", pad+3, -pad+3)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", WoWPro.TitleBar, "BOTTOMRIGHT", -pad-3, -pad+3)
-    else
-        -- Match the same vertical padding as the titlebar-shown case
-        WoWPro.StickyHeader:SetPoint("TOPLEFT", pad+3, -pad+3)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", -pad-3, -pad+3)
-    end
-    WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
-    WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
-    -- Only anchor to bottom when scrolling is enabled to constrain height
-    if WoWProDB.profile.guidescroll then
-        WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
-        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
-        local mainHeight = WoWPro.MainFrame:GetHeight() or 0
-        local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
-        WoWPro.GuideFrame:SetHeight(guideHeight)
-    else
-        WoWPro.GuideFrame:ClearAllPoints()
-        WoWPro.GuideFrame:SetPoint("TOPLEFT", WoWPro.StickyHeader, "BOTTOMLEFT" )
-        WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyHeader, "BOTTOMRIGHT" )
-        local stickyHeight = WoWPro.StickyHeader:IsShown() and WoWPro.StickyHeader:GetHeight() or 0
-        local mainHeight = WoWPro.MainFrame:GetHeight() or 0
-        local guideHeight = math.max(mainHeight - stickyHeight - (pad * 2), 25)
-        WoWPro.GuideFrame:SetHeight(guideHeight)
-    end ]]
 end
 
 -- Set visibility of the title bar and button bar based on user settings
@@ -207,6 +184,8 @@ function WoWPro:TitleBarSetVisible(isVisible)
         else
             WoWPro.TitleBar:Hide()
         end
+        WoWPro.MainFrameLayout()
+        WoWPro:MainFrameStackOffset()
         WoWPro:UpdateBars()
     end
 end
@@ -217,32 +196,9 @@ function WoWPro:ButtonBarSetVisible(isVisible)
         else
             WoWPro.ButtonBar:Hide()
         end
+        WoWPro.MainFrameLayout()
+        WoWPro:MainFrameStackOffset()
         WoWPro:UpdateBars()
-    end
-end
-
--- Keep button bar fully visible; adjust frame down if needed
-function WoWPro:ClampBarsOnScreen()
-    WoWPro:Trace("ClampBarsOnScreen")
-    -- Don't clamp during manual resize operations or right after restore
-    if WoWPro.InhibitReanchor or WoWPro.InhibitClampBars then
-        AnchorDebug("ClampBarsOnScreen: inhibited")
-        return
-    end
-    if not WoWPro.ButtonBar or not WoWPro.ButtonBar:IsShown() then return end
-    local ui = _G.UIParent
-    local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
-    local barTop = WoWPro.ButtonBar:GetTop()
-    if not barTop or not uiTop then return end
-    if barTop > uiTop then
-        local delta = barTop - uiTop + 2
-        local pos = {WoWPro.MainFrame:GetPoint(1)}
-        local scale = WoWPro.MainFrame:GetScale() or 1
-        local x = pos[4] or 0
-        local y = pos[5] or 0
-        AnchorDebug("ClampBarsOnScreen: barTop=%.1f uiTop=%.1f delta=%.1f", barTop, uiTop, delta)
-        WoWPro.MainFrame:ClearAllPoints()
-        WoWPro.MainFrame:SetPoint(pos[1], pos[2], pos[3], x, y - (delta / scale))
     end
 end
 
@@ -370,19 +326,6 @@ function WoWPro:ClampSideButtonsOnScreen()
     end
 end
 
--- Live clamp during move to prevent bars going off-screen
-function WoWPro:StartMoveClamp()
-    WoWPro.IsMoving = true
-    WoWPro.MainFrame:SetScript("OnUpdate", function()
-        WoWPro:ClampBarsOnScreen()
-    end)
-end
-
-function WoWPro:StopMoveClamp()
-    WoWPro.IsMoving = false
-    WoWPro.MainFrame:SetScript("OnUpdate", nil)
-end
-
 function WoWPro:BackgroundSet()
     WoWPro:Trace("BackgroundSet")
     -- Shorthand locals
@@ -390,6 +333,7 @@ function WoWPro:BackgroundSet()
     local MF      = WoWPro.MainFrame
     local BB      = WoWPro.ButtonBar
     local SH      = WoWPro.StickyHeader
+    local GF      = WoWPro.GuideFrame
 
     -- Safety: MainFrame must exist
     if not MF then
@@ -424,6 +368,14 @@ function WoWPro:BackgroundSet()
         })
     end
 
+    if GF and GF.SetBackdrop then
+        GF:SetBackdrop({
+            bgFile   = Profile.bgtexture,
+            tile     = true,
+            tileSize = 16
+        })
+    end
+
     -- Colors
     MF:SetBackdropColor(
         Profile.bgcolor[1],
@@ -448,6 +400,21 @@ function WoWPro:BackgroundSet()
         )
     end
 
+    if GF and GF.SetBackdropColor then
+        GF:SetBackdropColor(
+            Profile.bgcolor[1],
+            Profile.bgcolor[2],
+            Profile.bgcolor[3],
+            Profile.bgcolor[4]
+        )
+    end
+
+    if WoWPro.rows then
+        for _, row in ipairs(WoWPro.rows) do
+            WoWPro:SetRowBackdrop(row)
+        end
+    end
+
     -- Border enable/disable
     local alpha = Profile.border and 1 or 0
     MF:SetBackdropBorderColor(1, 1, 1, alpha)
@@ -458,6 +425,22 @@ function WoWPro:BackgroundSet()
     if Recorder and Recorder.CustomizeFrames then
         Recorder:CustomizeFrames()
     end
+end
+
+function WoWPro:SetRowBackdrop(row)
+    if not row or not row.SetBackdrop then return end
+    local Profile = WoWProDB.profile
+    local sticky = row.index and WoWPro.sticky and WoWPro.sticky[row.index]
+    local texture = sticky and Profile.stickytexture or Profile.bgtexture
+    local color = sticky and Profile.stickycolor or Profile.bgcolor
+
+    row:SetBackdrop({
+        bgFile = texture,
+        tile = true,
+        tileSize = 16
+    })
+    row:SetBackdropColor(color[1], color[2], color[3], color[4])
+    row:SetBackdropBorderColor(1, 1, 1, 0)
 end
 
 function WoWPro:GetBorderMetrics()
@@ -488,11 +471,20 @@ end
 
 WoWPro.ShownRows = 0
 
+local function GetMainFrameContentPad()
+    local pad = tonumber(WoWProDB.profile.userPad) or 0
+    if WoWProDB.profile.border then
+        local metrics = WoWPro:GetBorderMetrics()
+        pad = math.max(pad, metrics.edgeSize or 0)
+    end
+    return pad
+end
+
 function WoWPro:ContractGuideToRows()
     if _G.InCombatLockdown() or WoWProDB.profile.autoresize then return end
     if not WoWPro.MainFrame or not WoWPro.rows then return end
 
-    local pad = WoWProDB.profile.userPad or 0
+    local pad = GetMainFrameContentPad()
     local titleheight = (WoWPro.TitleBar and WoWPro.TitleBar:IsShown()) and WoWPro.TitleBar:GetHeight() or 0
     local stickyHeight = (WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown()) and WoWPro.StickyHeader:GetHeight() or 0
 
@@ -523,16 +515,16 @@ function WoWPro.SetMouseNotesPoints()
         local note = WoWPro.mousenotes[i]
         if note then
             note:ClearAllPoints()
-            local guideAnchor = WoWPro.GuideFrame or WoWPro.MainFrame
             local noteWidth = note:GetWidth()
             local noteHeight = note:GetHeight()
-            local left = guideAnchor:GetLeft() or 0
-            local right = guideAnchor:GetRight() or screenW
-            local top = guideAnchor:GetTop() or screenH
+            local left = row:GetLeft() or 0
+            local right = row:GetRight() or screenW
+            local top = row:GetTop() or screenH
+            local bottom = row:GetBottom() or 0
             local placeRight = WoWProDB.profile.leftside
             local canPlaceRight = (right + 10 + noteWidth <= screenW)
             local canPlaceLeft = (left - 10 - noteWidth >= 0)
-            local availableBelow = top - 10
+            local availableBelow = top
             local yOffset = 0
 
             -- Prefer the current leftside preference, but flip if the chosen side would be off-screen.
@@ -546,32 +538,30 @@ function WoWPro.SetMouseNotesPoints()
             if noteHeight > availableBelow then
                 yOffset = noteHeight - availableBelow
             end
+            if bottom + yOffset < 0 then
+                yOffset = -bottom
+            end
 
             if placeRight then
-                note:SetPoint("TOPLEFT", guideAnchor, "TOPRIGHT", 10, yOffset)
+                note:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, yOffset)
             else
-                note:SetPoint("TOPRIGHT", guideAnchor, "TOPLEFT", -10, yOffset)
+                note:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, yOffset)
             end
         end
     end
 end
 
-function WoWPro.AnchorStore(where)
-    where = where or "Unknown"
+-- Save the current anchor and frame position to the profile
+function WoWPro.AnchorStore(where, expansionAnchorOverride)
     WoWPro:Trace("AnchorStore")
     local MF = WoWPro.MainFrame
     local Profile = WoWProDB.profile
-    -- Save the current anchor and frame position to the profile
-    -- Handles persistence after resizing, moving, or anchor changes
 
-    local currentAnchor = MF:GetPoint()
-    local expansionAnchor = currentAnchor
-
-    if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" or expansionAnchor == "BOTTOMLEFT" or expansionAnchor == "BOTTOMRIGHT" then
-        Profile.expansionAnchor = expansionAnchor
-    else
-        expansionAnchor = Profile.expansionAnchor or "TOPLEFT"
+    local expansionAnchor = expansionAnchorOverride or Profile.expansionAnchor or "TOPLEFT"
+    if expansionAnchor ~= "TOPLEFT" and expansionAnchor ~= "TOPRIGHT" and expansionAnchor ~= "BOTTOMLEFT" and expansionAnchor ~= "BOTTOMRIGHT" then
+        expansionAnchor = "TOPLEFT"
     end
+    Profile.expansionAnchor = expansionAnchor
 
     local ui = _G.UIParent
     local screenW = ui and ui:GetWidth() or 0
@@ -707,20 +697,20 @@ end
 
 function WoWPro.AnchorSync(reset_size)
     WoWPro:Trace("AnchorSync")
-    if WoWPro.InhibitAnchorRestore or _G.InCombatLockdown() then
+    if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
         return
     end
 
     local wasInhibited = WoWPro.InhibitAnchorStore  -- Remember the state
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from triggering AnchorStore
 
-    WoWPro.MainFrame:ClearAllPoints()
-
     local pos = WoWProDB.profile.position
     if not pos then
         WoWPro.InhibitAnchorStore = wasInhibited
         return
     end
+
+    WoWPro.MainFrame:ClearAllPoints()
 
     if WoWProDB.profile.scale then
         WoWPro.MainFrame:SetScale(WoWProDB.profile.scale)
@@ -729,10 +719,12 @@ function WoWPro.AnchorSync(reset_size)
     local scale = WoWPro.MainFrame:GetScale()
     local posClone = { unpack(pos) }
 
-    -- Prefer the saved anchor from the stored position so restore matches the saved location.
-    -- Do not overwrite the user's saved expansion anchor preference during normal restore.
-    local expansionAnchor = posClone[1] or WoWProDB.profile.expansionAnchor or "TOPLEFT"
+    local expansionAnchor = WoWProDB.profile.expansionAnchor or posClone[1] or "TOPLEFT"
+    if expansionAnchor ~= "TOPLEFT" and expansionAnchor ~= "TOPRIGHT" and expansionAnchor ~= "BOTTOMLEFT" and expansionAnchor ~= "BOTTOMRIGHT" then
+        expansionAnchor = "TOPLEFT"
+    end
     posClone[1] = expansionAnchor
+    posClone[3] = expansionAnchor
 
     local restoreMode = "px"
 
@@ -808,10 +800,6 @@ function WoWPro.AnchorSync(reset_size)
     WoWPro.SetMouseNotesPoints()
 
     WoWPro.InhibitAnchorStore = wasInhibited  -- Restore the previous state
-
-    -- Prevent ClampBarsOnScreen from immediately moving the restored position
-    WoWPro.InhibitClampBars = true
-    _G.C_Timer.After(0.5, function() WoWPro.InhibitClampBars = false end)
 end
 
 -- Compute vertical offsets for all MainFrame children based on visibility and growth direction
@@ -856,45 +844,43 @@ end
 function WoWPro:UpdateBars()
     WoWPro:Trace("UpdateBars")
     local mf  = WoWPro.MainFrame
-    local off = WoWPro.AnchorOffsets
+    local pad = GetMainFrameContentPad()
 
-    if not mf or not off then return end
+    if not mf then return end
+    WoWPro:MainFrameStackOffset()
+    local off = WoWPro.AnchorOffsets
+    if not off then return end
 
     -- TitleBar
     if WoWPro.TitleBar then
         WoWPro.TitleBar:ClearAllPoints()
-        WoWPro.TitleBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.TitleBar)
-        WoWPro.TitleBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.TitleBar)
+        WoWPro.TitleBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  pad, -pad - off.TitleBar)
+        WoWPro.TitleBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", -pad, -pad - off.TitleBar)
     end
 
     -- ButtonBar
     if WoWPro.ButtonBar then
         WoWPro.ButtonBar:ClearAllPoints()
-        WoWPro.ButtonBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.ButtonBar)
-        WoWPro.ButtonBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.ButtonBar)
+        WoWPro.ButtonBar:SetPoint("TOPLEFT",  mf, "TOPLEFT",  pad, -pad - off.ButtonBar)
+        WoWPro.ButtonBar:SetPoint("TOPRIGHT", mf, "TOPRIGHT", -pad, -pad - off.ButtonBar)
     end
 
     -- StickyHeader
     if WoWPro.StickyHeader then
         WoWPro.StickyHeader:ClearAllPoints()
-        WoWPro.StickyHeader:SetPoint("TOPLEFT",  mf, "TOPLEFT",  0, -off.StickyHeader)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.StickyHeader)
+        WoWPro.StickyHeader:SetPoint("TOPLEFT",  mf, "TOPLEFT",  pad, -pad - off.StickyHeader)
+        WoWPro.StickyHeader:SetPoint("TOPRIGHT", mf, "TOPRIGHT", -pad, -pad - off.StickyHeader)
     end
 
     -- GuideFrame
     if WoWPro.GuideFrame then
         WoWPro.GuideFrame:ClearAllPoints()
-        WoWPro.GuideFrame:SetPoint("TOPLEFT", mf, "TOPLEFT", 0, -off.GuideFrame)
-        WoWPro.GuideFrame:SetPoint("TOPRIGHT", mf, "TOPRIGHT", 0, -off.GuideFrame)
-        WoWPro.GuideFrame:SetPoint("BOTTOMRIGHT", mf, "BOTTOMRIGHT", 0, 0)
+        WoWPro.GuideFrame:SetPoint("TOPLEFT", mf, "TOPLEFT", pad, -pad - off.GuideFrame)
+        WoWPro.GuideFrame:SetPoint("TOPRIGHT", mf, "TOPRIGHT", -pad, -pad - off.GuideFrame)
     end
 end
 
 function WoWPro.CustomizeFrames()
-    WoWPro:Trace("CustomizeFrames:CALLED_FROM_" .. debugstack(2,1,0))
-    -- WoWPro:Trace("CustomizeFrames")
-    WoWPro:dbp("WoWPro.CustomizeFrames()")
-
     if not WoWPro.rows then return end
 
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
@@ -903,7 +889,6 @@ function WoWPro.CustomizeFrames()
     WoWPro.RowSet()
     WoWPro.ResizeSet()
     WoWPro.MinimapSet()
-    WoWPro:ClampBarsOnScreen()
 
     -- Module Customize Frames --
     for name, module in WoWPro:IterateModules() do
@@ -929,12 +914,11 @@ function WoWPro.MainFrameLayout()
     if InCombatLockdown() then return end
 
     local MF  = WoWPro.MainFrame
-    local pad = WoWProDB.profile.userPad or 0
+    local pad = GetMainFrameContentPad()
     local y   = -pad
 
     -- BUTTONBAR (optional)
     if WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown() then
-        print("WoWPro.MainFrameLayout(): ButtonBar is shown")
         local BB = WoWPro.ButtonBar
         BB:ClearAllPoints()
         BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
@@ -944,9 +928,7 @@ function WoWPro.MainFrameLayout()
 
     -- TITLEBAR (optional)
     if WoWPro.TitleBar and WoWPro.TitleBar:IsShown() then
-        print("WoWPro.MainFrameLayout(): TitleBar is shown")
         local TB = WoWPro.TitleBar
-        print("TB size:", TB:GetWidth(), TB:GetHeight())
         TB:ClearAllPoints()
         TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
         TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
@@ -955,7 +937,6 @@ function WoWPro.MainFrameLayout()
 
     -- STICKYHEADER (optional)
     if WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown() then
-        print("WoWPro.MainFrameLayout(): StickyHeader is shown")
         local SH = WoWPro.StickyHeader
         SH:ClearAllPoints()
         SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
@@ -968,9 +949,15 @@ function WoWPro.MainFrameLayout()
     GF:ClearAllPoints()
     GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
     GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
-    y = y - GF:GetHeight()
+    if WoWProDB.profile.autoresize then
+        y = y - GF:GetHeight()
 
-    MF:SetHeight(-y + pad)
+        MF:SetHeight(-y + pad)
+        WoWPro.AnchorSync(true)
+    else
+        local guideHeight = math.max((MF:GetHeight() or 0) + y - pad, WoWProDB.profile.vminresize or 50)
+        GF:SetHeight(guideHeight)
+    end
 end
 
 function WoWPro:GuideWindowLayout()
@@ -999,11 +986,11 @@ end
 -- Refreshes MainFrame after any changes.
 function WoWPro:UpdateMainFrameLayout()
     WoWPro:Trace("UpdateMainFrameLayout")
-    -- Update bar visibility, heights, etc.
-    WoWPro:UpdateBars()
-
     -- Compute vertical stack offsets
     WoWPro:MainFrameStackOffset()
+
+    -- Update bar visibility, heights, etc.
+    WoWPro:UpdateBars()
 
     -- Apply offsets and final layout
     WoWPro:MainFrameLayout()
@@ -1095,6 +1082,7 @@ function WoWPro:CreateMainFrame()
 
     -- MF is the ONLY movable frame
     MF:SetMovable(true)
+    MF:SetResizable(WoWProDB.profile.resize and true or false)
     MF:EnableMouse(true)
     MF:RegisterForDrag("LeftButton")
 
@@ -1117,6 +1105,25 @@ function WoWPro:CreateMainFrame()
 
     WoWPro.FauxEAButton = CreateFrame("Frame", "WoWPro_FauxEAButton", UIParent)
     WoWPro.FauxEAButton:EnableMouse(true)
+end
+
+function WoWPro.DragSet()
+    if not WoWPro.MainFrame then return end
+    WoWPro.MainFrame:SetMovable(WoWProDB.profile.drag and true or false)
+end
+
+function WoWPro.GetResizeCorner(expansionAnchor)
+    expansionAnchor = expansionAnchor or WoWProDB.profile.expansionAnchor or "TOPLEFT"
+    if expansionAnchor == "TOPLEFT" then
+        return "BOTTOMRIGHT"
+    elseif expansionAnchor == "TOPRIGHT" then
+        return "BOTTOMLEFT"
+    elseif expansionAnchor == "BOTTOMLEFT" then
+        return "TOPRIGHT"
+    elseif expansionAnchor == "BOTTOMRIGHT" then
+        return "TOPLEFT"
+    end
+    return "BOTTOMRIGHT"
 end
 
 -- Compute total height for MF
@@ -1188,6 +1195,32 @@ function WoWPro:CreateResizeControls()
     local MF = WoWPro.MainFrame
     if not MF then return end
 
+    local function CreateResizeHandle(name, point)
+        local optionSize = WoWPro.OptionButton and WoWPro.OptionButton:GetWidth() or WoWProDB.profile.buttoniconsize or 24
+        local handleSize = optionSize + 8
+        local handle = CreateFrame("Button", name, MF)
+        handle:SetSize(handleSize, handleSize)
+        handle:SetPoint(point, MF, point)
+        handle:SetNormalTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up")
+        handle:SetHighlightTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight")
+        handle:SetPushedTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Down")
+        if WoWPro.OptionButton then
+            handle:SetFrameLevel(WoWPro.OptionButton:GetFrameLevel() + 2)
+        end
+        handle:EnableMouse(true)
+        handle.resizeCorner = point
+        handle:SetScript("OnEnter", function(this)
+            _G.GameTooltip:SetOwner(this, "ANCHOR_TOP")
+            _G.GameTooltip:SetText("Resize guide window", nil, nil, nil, nil, true)
+            _G.GameTooltip:Show()
+        end)
+        handle:SetScript("OnLeave", function()
+            _G.GameTooltip:Hide()
+        end)
+        handle:Hide()
+        return handle
+    end
+
     -- Main resize button
     local RB = CreateFrame("Button", "WoWProResizeButton", MF)
     RB:SetSize(16, 16)
@@ -1198,25 +1231,10 @@ function WoWPro:CreateResizeControls()
     WoWPro.resizebutton = RB
 
     -- Corner handles
-    local TL = CreateFrame("Frame", nil, MF)
-    TL:SetSize(16, 16)
-    TL:SetPoint("TOPLEFT", MF, "TOPLEFT")
-    WoWPro.ResizeTL = TL
-
-    local TR = CreateFrame("Frame", nil, MF)
-    TR:SetSize(16, 16)
-    TR:SetPoint("TOPRIGHT", MF, "TOPRIGHT")
-    WoWPro.ResizeTR = TR
-
-    local BL = CreateFrame("Frame", nil, MF)
-    BL:SetSize(16, 16)
-    BL:SetPoint("BOTTOMLEFT", MF, "BOTTOMLEFT")
-    WoWPro.ResizeBL = BL
-
-    local BR = CreateFrame("Frame", nil, MF)
-    BR:SetSize(16, 16)
-    BR:SetPoint("BOTTOMRIGHT", MF, "BOTTOMRIGHT")
-    WoWPro.ResizeBR = BR
+    WoWPro.ResizeTL = CreateResizeHandle("WoWProResizeTL", "TOPLEFT")
+    WoWPro.ResizeTR = CreateResizeHandle("WoWProResizeTR", "TOPRIGHT")
+    WoWPro.ResizeBL = CreateResizeHandle("WoWProResizeBL", "BOTTOMLEFT")
+    WoWPro.ResizeBR = CreateResizeHandle("WoWProResizeBR", "BOTTOMRIGHT")
 end
 
 -- Dynamic resize bounds to prevent opposite-direction growth past screen edges
@@ -1268,8 +1286,6 @@ function WoWPro:SetExpansionAnchor(corner)
     local currentAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     -- Update side preference based on horizontal anchor
     WoWProDB.profile.leftside = (corner == "TOPLEFT" or corner == "BOTTOMLEFT")
-    -- Persist the expansion anchor choice
-    WoWProDB.profile.expansionAnchor = corner
 
     if not WoWPro.MainFrame then
         WoWPro:UpdateResizeHandle()
@@ -1303,28 +1319,26 @@ function WoWPro:SetExpansionAnchor(corner)
     end
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
-    WoWPro.AnchorStore("SetExpansionAnchor")
+    WoWPro.AnchorStore("SetExpansionAnchor", corner)
 
     -- Update resize handle visibility based on new anchor
-    WoWPro:UpdateResizeHandle()
+    WoWPro:ResizeSet()
 end
 
 -- Update visible resize handle based on expansion anchor
 function WoWPro:UpdateResizeHandle()
     if not WoWProDB.profile.resize then return end
 
-    local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-    local oppositeCorner
-
-    if expansionAnchor == "TOPLEFT" then
-        oppositeCorner = "BOTTOMRIGHT"
-    elseif expansionAnchor == "TOPRIGHT" then
-        oppositeCorner = "BOTTOMLEFT"
-    elseif expansionAnchor == "BOTTOMLEFT" then
-        oppositeCorner = "TOPRIGHT"
-    elseif expansionAnchor == "BOTTOMRIGHT" then
-        oppositeCorner = "TOPLEFT"
+    local function ShowResizeHandle(handle)
+        if WoWPro.OptionButton then
+            handle:SetFrameLevel(WoWPro.OptionButton:GetFrameLevel() + 2)
+        elseif WoWPro.MainFrame then
+            handle:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel() + 10)
+        end
+        handle:Show()
     end
+
+    local oppositeCorner = WoWPro.GetResizeCorner()
 
     -- Hide all handles
     WoWPro.ResizeTL:Hide()
@@ -1334,17 +1348,25 @@ function WoWPro:UpdateResizeHandle()
 
     -- Show only the opposite corner handle
     if oppositeCorner == "TOPLEFT" then
+        WoWPro.ResizeTL:ClearAllPoints()
         WoWPro.ResizeTL:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
-        WoWPro.ResizeTL:Show()
+        ShowResizeHandle(WoWPro.ResizeTL)
     elseif oppositeCorner == "TOPRIGHT" then
-        WoWPro.ResizeTR:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT")
-        WoWPro.ResizeTR:Show()
+        WoWPro.ResizeTR:ClearAllPoints()
+        if WoWPro.OptionButton then
+            WoWPro.ResizeTR:SetPoint("TOPRIGHT", WoWPro.OptionButton, "TOPLEFT", -2, 0)
+        else
+            WoWPro.ResizeTR:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT")
+        end
+        ShowResizeHandle(WoWPro.ResizeTR)
     elseif oppositeCorner == "BOTTOMLEFT" then
+        WoWPro.ResizeBL:ClearAllPoints()
         WoWPro.ResizeBL:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "BOTTOMLEFT")
-        WoWPro.ResizeBL:Show()
+        ShowResizeHandle(WoWPro.ResizeBL)
     elseif oppositeCorner == "BOTTOMRIGHT" then
+        WoWPro.ResizeBR:ClearAllPoints()
         WoWPro.ResizeBR:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT")
-        WoWPro.ResizeBR:Show()
+        ShowResizeHandle(WoWPro.ResizeBR)
     end
 end
 
@@ -1357,12 +1379,10 @@ function WoWPro.ResizeHandlers.OnMouseDown(btn)
         return
     end
 
-    WoWPro.InhibitAnchorRestore = true
-    WoWPro.InhibitReanchor      = true
-    WoWPro.InhibitClampBars     = true
+    WoWPro.InhibitAnchorSync = true
     WoWPro.InhibitAnchorStore   = true
 
-    local corner = Profile.expansionAnchor or "TOPLEFT"
+    local corner = btn and btn.resizeCorner or WoWPro.GetResizeCorner(Profile.expansionAnchor)
     WoWPro:SetDynamicResizeBounds(corner)
 
     WoWPro.MainFrame:StartSizing(corner)
@@ -1378,9 +1398,7 @@ end
 function WoWPro.ResizeHandlers.OnMouseUp()
     WoWPro.MainFrame:StopMovingOrSizing()
 
-    WoWPro.InhibitAnchorRestore = false
-    WoWPro.InhibitReanchor      = false
-    WoWPro.InhibitClampBars     = false
+    WoWPro.InhibitAnchorSync = false
     WoWPro.InhibitAnchorStore   = false
 
     WoWPro.AnchorStore("ResizeStop")
@@ -1648,11 +1666,11 @@ function WoWPro:StickyHeaderSet()
     local fontName  = WoWProDB.profile.stickyheaderfont or "Fonts\\FRIZQT__.TTF"
     local fontSize  = WoWProDB.profile.stickyheaderfontsize or 14
     local textColor = WoWProDB.profile.stickyheadertextcolor or {1, 1, 1, 1}
-    local bgColor   = WoWProDB.profile.stickyheadercolor or {0, 0, 0, 0.85}
+    local bgColor   = WoWProDB.profile.stickycolor or {0, 0, 0, 0.85}
     local inset     = WoWProDB.profile.stickyheaderinset or 4
 
     SH:SetBackdrop({
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        bgFile = WoWProDB.profile.stickytexture or [[Interface\Tooltips\UI-Tooltip-Background]],
         tile = true, tileSize = 16
     })
     SH:SetBackdropColor(bgColor[1], bgColor[2], bgColor[3], bgColor[4])
@@ -1680,7 +1698,7 @@ function WoWPro:CreateGuideFrame()
     local userPad = tonumber(Profile.userPad) or 0
 
     -- Create GuideFrame
-    local GF = CreateFrame("Frame", "WoWPro.GuideFrame", MF)
+    local GF = CreateFrame("Frame", "WoWPro.GuideFrame", MF, BackdropTemplateMixin and "BackdropTemplate" or nil)
     WoWPro.GuideFrame = GF
 
     GF:EnableMouse(true)
@@ -1787,6 +1805,9 @@ function WoWPro:CreateRow(index)
     row:SetHighlightTexture(highlight)
     row:SetCheckedTexture(highlight)
 
+    -- RowSet() is never called with a row/step pair, so bind the context menu here instead
+    WoWPro:RowContextMenuBind(row)
+
     WoWPro.rows[index] = row
 end
 
@@ -1812,9 +1833,6 @@ function WoWPro:RowSet(row, step)
 
     -- compute final row height
     WoWPro:RowLayoutSizeSet(row)
-
-    -- attach right-click context menu
-    WoWPro:RowContextMenuBind(row)
 end
 
 -- Sets text and lays out StepTitle, StepNote, and Tracker
@@ -2072,7 +2090,11 @@ end
 
 -- Mouseover Notes individual rows --
 function WoWPro:CreateMouseNotes()
-    if not WoWProDB.profile.MouseNotes or not WoWPro.rows then
+    if not WoWProDB.profile.mousenotes or not WoWPro.rows then
+        return
+    end
+    if WoWPro.mousenotes then
+        WoWPro.SetMouseNotesPoints()
         return
     end
 
@@ -2428,7 +2450,7 @@ function WoWPro:MainFrameMouseHandler()
     -- OB drag: start + stop, MF only moves
     if OB then
         OB:SetScript("OnMouseDown", function(ob, button)
-            if button == "LeftButton" and not Profile.locked and not InCombatLockdown() then
+            if button == "LeftButton" and Profile.drag and not InCombatLockdown() then
                 MF:StartMoving()
             elseif button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, ob, "cursor", 0, 0, "MENU")
@@ -2436,7 +2458,7 @@ function WoWPro:MainFrameMouseHandler()
         end)
 
         OB:SetScript("OnMouseUp", function(ob, button)
-            if button == "LeftButton" then
+            if button == "LeftButton" and Profile.drag then
                 MF:StopMovingOrSizing()
                 WoWPro.AnchorStore()
             end

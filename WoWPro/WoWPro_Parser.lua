@@ -891,12 +891,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         local _, Name, _, _, _, _, _, Description = _G.GetAchievementInfo(achnum)
         if WoWPro.step[i] == "Achievement" and count == 0 then
             WoWPro.step[i] = Name
-            WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
+            WoWPro.note[i] = Description.."\n \n"..WoWPro.note[i]
         end
         if WoWPro.step[i] == "Achievement" and count > 0 then
             WoWPro.step[i] = Name
             local description, _, _, _, requiredQuantity, _, _, _, quantityString = _G.GetAchievementCriteriaInfo(achnum, achitem)
-            WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
+            WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n \n"..WoWPro.note[i]
         end
     end
 

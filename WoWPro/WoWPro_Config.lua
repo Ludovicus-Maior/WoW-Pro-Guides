@@ -104,6 +104,7 @@ local function createDisplayConfig()
                                 width = "double",
                                 get = function(info) return WoWProDB.profile.mousenotes end,
                                 set = function(info,val) WoWProDB.profile.mousenotes = val
+                                    if val then WoWPro:CreateMouseNotes() end
                                     WoWPro.RowSizeSet() end
                             },
                             track = {
@@ -348,7 +349,7 @@ local function createDisplayConfig()
                                 order = 6,
                                 type = "toggle",
                                 name = L["Auto Resize"],
-                                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
+                                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle.\n \n**A reload is required to re-initialize Auto Resize."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.autoresize end,
                                 set = function(info,val) WoWProDB.profile.autoresize = val
@@ -378,6 +379,10 @@ local function createDisplayConfig()
                                 min = 250, max = 1000, step = 10,
                                 get = function(info) return WoWProDB.profile.hminresize end,
                                 set = function(info,val) WoWProDB.profile.hminresize = val
+                                    if WoWPro.MainFrame and not _G.InCombatLockdown() then
+                                        WoWPro.MainFrame:SetWidth(val)
+                                        WoWPro.AnchorSync(true)
+                                    end
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
                                 width = "full"
                             },

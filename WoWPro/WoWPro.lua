@@ -318,6 +318,7 @@ WoWPro:Export("toboolean")
 -- Default profile options --
 local defaults = { profile = {
     drag = true,
+    expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     size = {300, 200},  -- {Height, Width}
     pad = 5,
