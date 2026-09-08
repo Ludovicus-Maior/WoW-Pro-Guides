@@ -254,12 +254,12 @@ function WoWPro:InitializeHearthBind()
 end
 
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end, true)
-WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end, true)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event)
     WoWPro:InitializeHearthBind()
     return
-end, true)
-WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
+end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
     WoWPro:UpdateGuide(event)

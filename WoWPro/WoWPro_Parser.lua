@@ -1353,9 +1353,13 @@ function WoWPro.SetupGuideReal()
         end
     end
 
-    -- Scrollbar Settings --
+        -- Scrollbar Settings --
+    print("Setting up scrollbar")
     if not WoWPro.Scrollbar then
+        print("Creating frames because scrollbar is not set up.")
         WoWPro:CreateFrames()
+        -- Frames didn't exist yet when OnEnable ran CustomizeFrames, so the saved anchor was never restored; do it now.
+        WoWPro:CustomizeFrames()
     end
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
@@ -1373,4 +1377,11 @@ function WoWPro.SetupGuideReal()
             WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
         end
     end    WoWPro:SendMessage("WoWPro_PostLoadGuide")
+
+    WoWPro:MainFrameStackOffset()
+    WoWPro:UpdateBars()
+    if not WoWPro.MouseHandlerBound then
+        WoWPro:MainFrameMouseHandler()
+        WoWPro.MouseHandlerBound = true
+    end
 end
