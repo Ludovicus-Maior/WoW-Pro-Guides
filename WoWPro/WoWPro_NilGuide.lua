@@ -1,37 +1,45 @@
--------------------------------
---      WoWPro_NilGuide      --
--------------------------------
-
+-- Purpose: Reset WoWPro when no guide is loaded
 function WoWPro:LoadNilGuide()
+    -- If the UI isn't created yet, do NOT run layout
+    if not WoWPro.MainFrame
+       or not WoWPro.ButtonBar
+       or not WoWPro.TitleBar
+       or not WoWPro.GuideFrame
+       or not WoWPro.StickyHeader then
+        return
+    end
+
     WoWPro.step = { "No Guide Loaded" }
     WoWPro.action = { "Interface\\Icons\\INV_Misc_Note_01" }
     WoWPro.stepcount = 1
 
+    -- Clear guide metadata
     WoWPro.TitleText:SetText("No Guide Loaded")
-    WoWPro.StickyHeader:Hide()
-    WoWPro.StickyHeader:SetHeight(1)
+    WoWPro.CurrentGuide = nil
+    WoWPro.GuideLoaded = false
 
-    -- Getting the image and text for the step --
-    WoWPro.rows[1].check:Hide()
-    WoWPro.rows[1].targetbutton:Hide()
-    WoWPro.rows[1].itembutton:Hide()
-    WoWPro.rows[1].note:SetText('To select a guide, click the horn icon in the top bar')
-    WoWPro.rows[1].track:SetText(nil)
-
-    for i=2,15 do
-        WoWPro.rows[i]:Hide()
-        WoWPro.rows[i].check:Hide()
-        WoWPro.rows[i].targetbutton:Hide()
-        WoWPro.rows[i].itembutton:Hide()
-        WoWPro.rows[i].step:SetText(nil)
-        WoWPro.rows[i].note:SetText(nil)
-        if WoWPro.rows[i].iconTexture then
-            WoWPro.rows[i].iconTexture:SetTexture(nil)
+    -- Clear rows
+    for i, row in ipairs(WoWPro.rows or {}) do
+        if row then
+            row.index = nil
+            row:Hide()
+            if row.check then row.check:Hide() end
+            if row.targetbutton then row.targetbutton:Hide() end
+            if row.itembutton then row.itembutton:Hide() end
+            if row.jumpbutton then row.jumpbutton:Hide() end
+            if row.eabutton then row.eabutton:Hide() end
+            if row.step then row.step:SetText(nil) end
+            if row.note then row.note:SetText(nil) end
+            if i == 1 and row.note then
+                row.note:SetText("To select a guide, click the horn icon in the top bar")
+            end
+            if row.track then row.track:SetText(nil) end
+            if row.iconTexture then row.iconTexture:SetTexture(nil) end
         end
-        WoWPro.rows[i].track:SetText(nil)
     end
 
-    WoWPro.RowColorSet()
-    WoWPro.RowSizeSet()
-    WoWPro.MainFrameLayout()
+    -- Run layout safely
+    if WoWPro.RowColorSet then WoWPro.RowColorSet() end
+    if WoWPro.RowSizeSet then WoWPro.RowSizeSet() end
+    if WoWPro.MainFrameLayout then WoWPro.MainFrameLayout() end
 end

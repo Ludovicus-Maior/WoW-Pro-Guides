@@ -561,7 +561,7 @@ end
 
 -- Save the current anchor and frame position to the profile
 function WoWPro.AnchorStore(reason, expansionAnchorOverride)
-    local reason = reason or "Unknown"
+    reason = reason or "Unknown"
     WoWPro:Trace("AnchorStore")
     local MF = WoWPro.MainFrame
     local Profile = WoWProDB.profile
@@ -684,7 +684,7 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
                 anchorUpdate_pos[10] = anchorUpdate_screenH
             end
 
-            AnchorDebug("AnchorStore %s: anchor=%s offs=(%.1f,%.1f) screen=(%.1f,%.1f) scale=%.3f mode=%s", where, anchorUpdate_expansionAnchor, anchorUpdate_offsetX, anchorUpdate_offsetY, anchorUpdate_screenW, anchorUpdate_screenH, anchorUpdate_scale, anchorUpdate_pos[6] or "px")
+            AnchorDebug("AnchorStore %s: anchor=%s offs=(%.1f,%.1f) screen=(%.1f,%.1f) scale=%.3f mode=%s", reason, anchorUpdate_expansionAnchor, anchorUpdate_offsetX, anchorUpdate_offsetY, anchorUpdate_screenW, anchorUpdate_screenH, anchorUpdate_scale, anchorUpdate_pos[6] or "px")
 
             Profile.position = anchorUpdate_pos
             Profile.scale = anchorUpdate_scale
