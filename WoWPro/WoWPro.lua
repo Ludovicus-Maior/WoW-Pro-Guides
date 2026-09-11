@@ -321,7 +321,7 @@ local defaults = { profile = {
     expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     size = {300, 200},  -- {Height, Width}
-    pad = 5,
+    userPad = 5,
     space = 5,
     mousenotes = false,
     minimap = { hidden = false, },
