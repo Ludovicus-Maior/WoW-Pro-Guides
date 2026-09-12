@@ -14,12 +14,77 @@ end
 local L = WoWPro_Locale
 
 local function GetUIScreenSize()
+    -- Returns the screen size in UIParent coordinates, which is what every
+    -- GetLeft/GetRight/GetTop/GetBottom call in this file is measured in.
     local ui = _G.UIParent
+    local screenW = ui and ui:GetWidth() or 0
+    local screenH = ui and ui:GetHeight() or 0
+    if screenW > 0 and screenH > 0 then
+        return screenW, screenH
+    end
+    -- Fallback: derive it from the physical resolution. WoW's UI coordinate
+    -- space is always 768 units tall, so convert through that -- using the raw
+    -- pixel height here would overstate the screen by physH/768 and push the
+    -- frame off the bottom.
     local physW, physH = _G.GetPhysicalScreenSize()
-    local uiScale = ui:GetEffectiveScale() or ui:GetScale() or 1
-    local screenW = (physW and physW > 0) and (physW / uiScale) or ui:GetWidth()
-    local screenH = (physH and physH > 0) and (physH / uiScale) or ui:GetHeight()
+    local uiScale = ui and (ui:GetEffectiveScale() or ui:GetScale()) or 1
+    if not uiScale or uiScale <= 0 then uiScale = 1 end
+    if physW and physH and physW > 0 and physH > 0 then
+        screenH = 768 / uiScale
+        screenW = screenH * (physW / physH)
+    end
     return screenW, screenH
+end
+
+-- GetLeft/GetRight/GetTop/GetBottom report coordinates in each frame's own scaled
+-- space, and SetPoint offsets are in the anchored frame's space -- while UIParent's
+-- edges and GetUIScreenSize() are in UIParent's space. Mixing the two silently works
+-- at scale 1.0 and breaks proportionally as the scale moves away from it, so every
+-- comparison between the two has to go through this ratio.
+local function UIParentRatio(frame)
+    local ui = _G.UIParent
+    if not frame or not ui then return 1 end
+    local frameScale = frame.GetEffectiveScale and frame:GetEffectiveScale() or 1
+    local uiScale = ui.GetEffectiveScale and ui:GetEffectiveScale() or 1
+    if not frameScale or frameScale <= 0 then frameScale = 1 end
+    if not uiScale or uiScale <= 0 then uiScale = 1 end
+    return frameScale / uiScale
+end
+
+-- Returns the SetPoint offsets, in MainFrame's own coordinate space, that leave the
+-- frame exactly where it is while anchored to `corner` of UIParent. Also returns the
+-- same offsets in UIParent space (what AnchorStore persists, so a saved position
+-- survives a scale change) and the screen size used.
+local function GetCornerOffsets(corner)
+    local frame = WoWPro.MainFrame
+    if not frame then return end
+    local ui = _G.UIParent
+    local screenW = ui and ui:GetWidth() or 0
+    local screenH = ui and ui:GetHeight() or 0
+    if screenW <= 0 or screenH <= 0 then
+        screenW, screenH = GetUIScreenSize()
+    end
+    local ratio = UIParentRatio(frame)
+    local left, right = frame:GetLeft(), frame:GetRight()
+    local top, bottom = frame:GetTop(), frame:GetBottom()
+    left   = left   and left   * ratio or 0
+    right  = right  and right  * ratio or screenW
+    top    = top    and top    * ratio or screenH
+    bottom = bottom and bottom * ratio or 0
+
+    local offsetX, offsetY
+    if corner == "TOPLEFT" then
+        offsetX, offsetY = left, top - screenH
+    elseif corner == "TOPRIGHT" then
+        offsetX, offsetY = right - screenW, top - screenH
+    elseif corner == "BOTTOMLEFT" then
+        offsetX, offsetY = left, bottom
+    elseif corner == "BOTTOMRIGHT" then
+        offsetX, offsetY = right - screenW, bottom
+    else
+        return
+    end
+    return offsetX / ratio, offsetY / ratio, offsetX, offsetY, screenW, screenH
 end
 
 
@@ -39,7 +104,8 @@ function WoWPro:AdjustMainFrameForHiddenButtonBar()
     local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
     local top = WoWPro.MainFrame:GetTop()
     if not top or not uiTop then return end
-    local gap = uiTop - top
+    -- `top` and `offset` are in MainFrame space, so bring uiTop across to match.
+    local gap = (uiTop / UIParentRatio(WoWPro.MainFrame)) - top
     if gap < 0 or gap > offset + 1 then return end
     local point = {WoWPro.MainFrame:GetPoint(1)}
     if not point[1] then return end
@@ -59,7 +125,7 @@ function WoWPro:AdjustMainFrameForVisibleButtonBar()
     local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
     local barTop = WoWPro.ButtonBar:GetTop()
     if not barTop or not uiTop then return end
-    if barTop <= uiTop then return end
+    if barTop * UIParentRatio(WoWPro.ButtonBar) <= uiTop then return end
     local point = {WoWPro.MainFrame:GetPoint(1)}
     if not point[1] then return end
     if point[1] ~= "TOPLEFT" and point[1] ~= "TOPRIGHT" then return end
@@ -81,28 +147,8 @@ function WoWPro.ResetMainFramePosition()
     end
     -- Use the stored expansion anchor to position the frame, respecting the user's chosen growth direction
     local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-    local ui = _G.UIParent
-    local screenW = ui and ui:GetWidth() or 0
-    local screenH = ui and ui:GetHeight() or 0
-    if screenW <= 0 or screenH <= 0 then
-        screenW, screenH = GetUIScreenSize()
-    end
-    local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or screenW
-    local top = WoWPro.MainFrame:GetTop() or screenH
-    local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-    -- Calculate offsets based on expansion anchor
-    local offsetX, offsetY
-    if expansionAnchor == "TOPLEFT" then
-        offsetX, offsetY = left, top - screenH
-    elseif expansionAnchor == "TOPRIGHT" then
-        offsetX, offsetY = right - screenW, top - screenH
-    elseif expansionAnchor == "BOTTOMLEFT" then
-        offsetX, offsetY = left, bottom
-    elseif expansionAnchor == "BOTTOMRIGHT" then
-        offsetX, offsetY = right - screenW, bottom
-    end
+    local offsetX, offsetY = GetCornerOffsets(expansionAnchor)
+    if not offsetX then return end
 
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, offsetX, offsetY)
@@ -305,15 +351,18 @@ function WoWPro:ClampBarsOnScreen()
     local uiTop = ui and ui:GetTop() or (ui and ui:GetHeight())
     local barTop = WoWPro.ButtonBar:GetTop()
     if not barTop or not uiTop then return end
+    -- Compare in UIParent space; barTop is in the bar's own (MainFrame-derived) space.
+    barTop = barTop * UIParentRatio(WoWPro.ButtonBar)
     if barTop > uiTop then
         local delta = barTop - uiTop + 2
         local pos = {WoWPro.MainFrame:GetPoint(1)}
-        local scale = WoWPro.MainFrame:GetScale() or 1
+        local ratio = UIParentRatio(WoWPro.MainFrame)
         local x = pos[4] or 0
         local y = pos[5] or 0
         AnchorDebug("ClampBarsOnScreen: barTop=%.1f uiTop=%.1f delta=%.1f", barTop, uiTop, delta)
         WoWPro.MainFrame:ClearAllPoints()
-        WoWPro.MainFrame:SetPoint(pos[1], pos[2], pos[3], x, y - (delta / scale))
+        -- delta is a UIParent-space distance; SetPoint offsets are in MainFrame space.
+        WoWPro.MainFrame:SetPoint(pos[1], pos[2] or _G.UIParent, pos[3], x, y - (delta / ratio))
         if not WoWPro.IsMoving then
             WoWPro.AnchorStore("ClampBarsOnScreen")
         end
@@ -345,6 +394,10 @@ function WoWPro:DisableLeftHandedIfOffScreen()
     local windowLeft = WoWPro.MainFrame:GetLeft()
     local windowRight = WoWPro.MainFrame:GetRight()
     if not windowLeft or not windowRight then return end
+    -- screenRight is in UIParent space; the window edges are not.
+    local ratio = UIParentRatio(WoWPro.MainFrame)
+    windowLeft = windowLeft * ratio
+    windowRight = windowRight * ratio
 
     -- If buttons on LEFT of window (leftside=false) and window is at left edge, move buttons to RIGHT of window (leftside=true)
     if not WoWProDB.profile.leftside and windowLeft < screenMargin then
@@ -401,45 +454,43 @@ function WoWPro:ClampSideButtonsOnScreen()
     local screenLeft = 0
     local overflowLeft, overflowRight = 0, 0
 
+    -- The row buttons are parented to MainFrame, so their edges are in MainFrame's
+    -- space while screenLeft/screenRight are in UIParent's. Convert before comparing.
+    local function measure(button)
+        if not button or not button:IsShown() then return end
+        local buttonRatio = UIParentRatio(button)
+        local left = button:GetLeft()
+        local right = button:GetRight()
+        if left and (left * buttonRatio) < screenLeft then
+            overflowLeft = math.max(overflowLeft, (screenLeft - (left * buttonRatio)) + 2)
+        end
+        if right and (right * buttonRatio) > screenRight then
+            overflowRight = math.max(overflowRight, ((right * buttonRatio) - screenRight) + 2)
+        end
+    end
+
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
-            if row.itembutton and row.itembutton:IsShown() then
-                local left = row.itembutton:GetLeft()
-                local right = row.itembutton:GetRight()
-                if left and left < screenLeft then
-                    overflowLeft = math.max(overflowLeft, (screenLeft - left) + 2)
-                end
-                if right and right > screenRight then
-                    overflowRight = math.max(overflowRight, (right - screenRight) + 2)
-                end
-            end
-            if row.targetbutton and row.targetbutton:IsShown() then
-                local left = row.targetbutton:GetLeft()
-                local right = row.targetbutton:GetRight()
-                if left and left < screenLeft then
-                    overflowLeft = math.max(overflowLeft, (screenLeft - left) + 2)
-                end
-                if right and right > screenRight then
-                    overflowRight = math.max(overflowRight, (right - screenRight) + 2)
-                end
-            end
+            measure(row.itembutton)
+            measure(row.targetbutton)
         end
     end
 
     if overflowLeft > 0 or overflowRight > 0 then
         local pos = { WoWPro.MainFrame:GetPoint(1) }
-        local scale = WoWPro.MainFrame:GetScale() or 1
+        local ratio = UIParentRatio(WoWPro.MainFrame)
         local x = pos[4] or 0
         local y = pos[5] or 0
         local dx = 0
+        -- Overflows are UIParent-space distances; SetPoint offsets are MainFrame space.
         if overflowLeft > 0 then
-            dx = dx + (overflowLeft / scale)  -- move right
+            dx = dx + (overflowLeft / ratio)  -- move right
         end
         if overflowRight > 0 then
-            dx = dx - (overflowRight / scale) -- move left
+            dx = dx - (overflowRight / ratio) -- move left
         end
         WoWPro.MainFrame:ClearAllPoints()
-        WoWPro.MainFrame:SetPoint(pos[1], pos[2], pos[3], x + dx, y)
+        WoWPro.MainFrame:SetPoint(pos[1], pos[2] or _G.UIParent, pos[3], x + dx, y)
         if not WoWPro.IsMoving then
             WoWPro.AnchorStore("ClampSideButtonsOnScreen")
         end
@@ -617,18 +668,22 @@ function WoWPro.RowSizeSet()
     -- Only debug if anchor or position changes
     local anchorChanged = false
 
-    -- Calculate screen-limited bounds based on expansion anchor
+    -- Calculate screen-limited bounds based on expansion anchor.
+    -- screenW/screenH are UIParent-space; every size below (totalw, totalh, the frame
+    -- edges) is MainFrame-space, so keep a converted copy of the screen for them.
     local screenW, screenH = GetUIScreenSize()
+    local ratio = UIParentRatio(WoWPro.MainFrame)
+    local screenWFrame, screenHFrame = screenW / ratio, screenH / ratio
     local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or screenW
+    local right = WoWPro.MainFrame:GetRight() or screenWFrame
 
     local maxWidthScreen
     if expansionAnchor == "TOPLEFT" then
-        maxWidthScreen = screenW - left
+        maxWidthScreen = screenWFrame - left
     elseif expansionAnchor == "TOPRIGHT" then
         maxWidthScreen = right
     elseif expansionAnchor == "BOTTOMLEFT" then
-        maxWidthScreen = screenW - left
+        maxWidthScreen = screenWFrame - left
     elseif expansionAnchor == "BOTTOMRIGHT" then
         maxWidthScreen = right
     end
@@ -653,14 +708,14 @@ function WoWPro.RowSizeSet()
     -- Calculate available screen space based on current frame position and expansion anchor
     -- This prevents auto-resize from exceeding screen edges without moving the frame
     left = WoWPro.MainFrame:GetLeft() or 0
-    right = WoWPro.MainFrame:GetRight() or screenW
+    right = WoWPro.MainFrame:GetRight() or screenWFrame
 
     if expansionAnchor == "TOPLEFT" then
-        maxWidthScreen = screenW - left
+        maxWidthScreen = screenWFrame - left
     elseif expansionAnchor == "TOPRIGHT" then
         maxWidthScreen = right
     elseif expansionAnchor == "BOTTOMLEFT" then
-        maxWidthScreen = screenW - left
+        maxWidthScreen = screenWFrame - left
     elseif expansionAnchor == "BOTTOMRIGHT" then
         maxWidthScreen = right
     end
@@ -804,24 +859,13 @@ function WoWPro.RowSizeSet()
                     AnchorDebug("RowSizeSet: pt=%s differs from saved expansionAnchor=%s; enforcing saved anchor", _G.tostring(pt), _G.tostring(expansionAnchor))
                     WoWPro:dbp("[DEBUG] RowSizeSet: pt=%s differs from expansionAnchor=%s; enforcing saved anchor", tostring(pt), tostring(expansionAnchor))
                     if not WoWPro.InhibitAnchorRestore and not WoWPro.InhibitReanchor then
-                        local frameLeft = WoWPro.MainFrame:GetLeft() or 0
-                        local frameRight = WoWPro.MainFrame:GetRight() or screenW
-                        local top = WoWPro.MainFrame:GetTop() or screenH
-                        local bottom = WoWPro.MainFrame:GetBottom() or 0
-                        local x, y
-                        if expansionAnchor == "TOPLEFT" then
-                            x, y = frameLeft, top - screenH
-                        elseif expansionAnchor == "TOPRIGHT" then
-                            x, y = frameRight - screenW, top - screenH
-                        elseif expansionAnchor == "BOTTOMLEFT" then
-                            x, y = frameLeft, bottom
-                        else
-                            x, y = frameRight - screenW, bottom
+                        local x, y = GetCornerOffsets(expansionAnchor)
+                        if x then
+                            WoWPro.MainFrame:ClearAllPoints()
+                            WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
+                            pt = expansionAnchor
+                            anchorChanged = true
                         end
-                        WoWPro.MainFrame:ClearAllPoints()
-                        WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, x, y)
-                        pt = expansionAnchor
-                        anchorChanged = true
                     else
                         AnchorDebug("RowSizeSet: anchor enforcement skipped due to manual move/resize")
                     end
@@ -836,12 +880,12 @@ function WoWPro.RowSizeSet()
                 local maxHeightScreen
                 if expansionAnchor == "TOPLEFT" or expansionAnchor == "TOPRIGHT" then
                     -- Growing downward: max height is distance from current top to bottom of screen
-                    local frameTop = WoWPro.MainFrame:GetTop() or screenH
+                    local frameTop = WoWPro.MainFrame:GetTop() or screenHFrame
                     maxHeightScreen = frameTop
                 else
                     -- Growing upward: max height is distance from current bottom to top of screen
                     local frameBottom = WoWPro.MainFrame:GetBottom() or 0
-                    maxHeightScreen = screenH - frameBottom
+                    maxHeightScreen = screenHFrame - frameBottom
                 end
 
             -- Clamp calculated height to not exceed screen edge
@@ -876,8 +920,8 @@ function WoWPro.RowSizeSet()
             local newHeight = math.max(minHeight, frameTop)
             WoWPro.MainFrame:SetHeight(newHeight)
         -- If top is off-screen (for upward growth), shrink height to fit within screen
-        elseif frameTop and frameTop > screenH and frameBottom then
-            local newHeight = math.max(minHeight, screenH - frameBottom)
+        elseif frameTop and frameTop > screenHFrame and frameBottom then
+            local newHeight = math.max(minHeight, screenHFrame - frameBottom)
             WoWPro.MainFrame:SetHeight(newHeight)
         end
     end
@@ -913,22 +957,8 @@ function WoWPro:ContractGuideToRows()
     local currentHeight = WoWPro.MainFrame:GetHeight() or 0
     if desiredHeight > 0 and desiredHeight < currentHeight then
         local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-        local screenW, screenH = GetUIScreenSize()
-        local left = WoWPro.MainFrame:GetLeft() or 0
-        local right = WoWPro.MainFrame:GetRight() or screenW
-        local top = WoWPro.MainFrame:GetTop() or screenH
-        local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-        local offsetX, offsetY
-        if expansionAnchor == "TOPLEFT" then
-            offsetX, offsetY = left, top - screenH
-        elseif expansionAnchor == "TOPRIGHT" then
-            offsetX, offsetY = right - screenW, top - screenH
-        elseif expansionAnchor == "BOTTOMLEFT" then
-            offsetX, offsetY = left, bottom
-        elseif expansionAnchor == "BOTTOMRIGHT" then
-            offsetX, offsetY = right - screenW, bottom
-        end
+        local offsetX, offsetY = GetCornerOffsets(expansionAnchor)
+        if not offsetX then return end
 
         WoWPro.MainFrame:ClearAllPoints()
         WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, offsetX, offsetY)
@@ -954,13 +984,17 @@ function WoWPro.SetMouseNotesPoints()
         if note then
             note:ClearAllPoints()
             local guideAnchor = WoWPro.GuideFrame or WoWPro.MainFrame
+            -- The anchor and the note live in MainFrame's scaled space; the screen
+            -- size does not, so convert it before comparing edges against it.
+            local ratio = UIParentRatio(guideAnchor)
+            local screenWFrame, screenHFrame = screenW / ratio, screenH / ratio
             local noteWidth = note:GetWidth()
             local noteHeight = note:GetHeight()
             local left = guideAnchor:GetLeft() or 0
-            local right = guideAnchor:GetRight() or screenW
-            local top = guideAnchor:GetTop() or screenH
+            local right = guideAnchor:GetRight() or screenWFrame
+            local top = guideAnchor:GetTop() or screenHFrame
             local placeRight = WoWProDB.profile.leftside
-            local canPlaceRight = (right + 10 + noteWidth <= screenW)
+            local canPlaceRight = (right + 10 + noteWidth <= screenWFrame)
             local canPlaceLeft = (left - 10 - noteWidth >= 0)
             local availableBelow = top - 10
             local yOffset = 0
@@ -996,36 +1030,14 @@ function WoWPro.AnchorStore(where)
     else
         expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     end
-    local ui = _G.UIParent
-    local screenW = ui and ui:GetWidth() or 0
-    local screenH = ui and ui:GetHeight() or 0
-    if screenW <= 0 or screenH <= 0 then
-        screenW, screenH = GetUIScreenSize()
-    end
-    local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or screenW
-    local top = WoWPro.MainFrame:GetTop() or screenH
-    local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-    -- Calculate offsets based on expansion anchor
-    local offsetX, offsetY
-    if expansionAnchor == "TOPLEFT" then
-        offsetX, offsetY = left, top - screenH
-    elseif expansionAnchor == "TOPRIGHT" then
-        offsetX, offsetY = right - screenW, top - screenH
-    elseif expansionAnchor == "BOTTOMLEFT" then
-        offsetX, offsetY = left, bottom
-    elseif expansionAnchor == "BOTTOMRIGHT" then
-        offsetX, offsetY = right - screenW, bottom
-    end
+    -- Persist the offsets in UIParent space so a later scale change re-derives the
+    -- same on-screen position; AnchorRestore converts back to MainFrame space.
+    local _, _, offsetX, offsetY, screenW, screenH = GetCornerOffsets(expansionAnchor)
+    if not offsetX then return end
 
     local pos = {expansionAnchor, "UIParent", expansionAnchor, offsetX, offsetY}
     local scale = WoWPro.MainFrame:GetScale()
     local storePercent = true
-
-    for i=4,5 do
-        pos[i] = pos[i] * scale
-    end
 
     if storePercent and screenW > 0 and screenH > 0 then
         pos[6] = "pct"
@@ -1062,36 +1074,16 @@ function WoWPro.AnchorStore(where)
         if not WoWPro.MaybeCombatLockdown() then
             -- Use the user's configured expansion anchor for consistent position storage
             local anchorUpdate_expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-            local anchorUpdate_ui = _G.UIParent
-            local anchorUpdate_screenW = anchorUpdate_ui and anchorUpdate_ui:GetWidth() or 0
-            local anchorUpdate_screenH = anchorUpdate_ui and anchorUpdate_ui:GetHeight() or 0
-            if anchorUpdate_screenW <= 0 or anchorUpdate_screenH <= 0 then
-                anchorUpdate_screenW, anchorUpdate_screenH = GetUIScreenSize()
-            end
-            local anchorUpdate_left = WoWPro.MainFrame:GetLeft() or 0
-            local anchorUpdate_right = WoWPro.MainFrame:GetRight() or anchorUpdate_screenW
-            local anchorUpdate_top = WoWPro.MainFrame:GetTop() or anchorUpdate_screenH
-            local anchorUpdate_bottom = WoWPro.MainFrame:GetBottom() or 0
-
-            -- Calculate offsets based on expansion anchor
-            local anchorUpdate_offsetX, anchorUpdate_offsetY
-            if anchorUpdate_expansionAnchor == "TOPLEFT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_left, anchorUpdate_top - anchorUpdate_screenH
-            elseif anchorUpdate_expansionAnchor == "TOPRIGHT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_right - anchorUpdate_screenW, anchorUpdate_top - anchorUpdate_screenH
-            elseif anchorUpdate_expansionAnchor == "BOTTOMLEFT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_left, anchorUpdate_bottom
-            elseif anchorUpdate_expansionAnchor == "BOTTOMRIGHT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_right - anchorUpdate_screenW, anchorUpdate_bottom
+            local _, _, anchorUpdate_offsetX, anchorUpdate_offsetY,
+                  anchorUpdate_screenW, anchorUpdate_screenH = GetCornerOffsets(anchorUpdate_expansionAnchor)
+            if not anchorUpdate_offsetX then
+                WoWPro.MainFrame:SetScript("OnUpdate", nil)
+                return
             end
 
             local anchorUpdate_pos = {anchorUpdate_expansionAnchor, "UIParent", anchorUpdate_expansionAnchor, anchorUpdate_offsetX, anchorUpdate_offsetY}
             local anchorUpdate_scale = WoWPro.MainFrame:GetScale()
             local anchorUpdate_storePercent = true
-
-            for i=4,5 do
-                anchorUpdate_pos[i] = anchorUpdate_pos[i] * anchorUpdate_scale
-            end
 
             if anchorUpdate_storePercent and anchorUpdate_screenW > 0 and anchorUpdate_screenH > 0 then
                 anchorUpdate_pos[6] = "pct"
@@ -1132,7 +1124,8 @@ function WoWPro.AnchorRestore(reset_size)
     if WoWProDB.profile.scale then
         WoWPro.MainFrame:SetScale(WoWProDB.profile.scale)
     end
-    local scale = WoWPro.MainFrame:GetScale()
+    -- Stored offsets are UIParent-space; SetPoint needs them in MainFrame space.
+    local scale = UIParentRatio(WoWPro.MainFrame)
     local posClone = {unpack(pos)}
     -- Prefer the saved anchor from the stored position so restore matches the saved location.
     -- Do not overwrite the user's saved expansion anchor preference during normal restore.
@@ -1157,8 +1150,9 @@ function WoWPro.AnchorRestore(reset_size)
             end
             restoreMode = "pct-same"
         else
-            posClone[4] = (posClone[7] or 0) * screenW
-            posClone[5] = (posClone[8] or 0) * screenH
+            -- pct * screen yields a UIParent-space offset; convert like the branch above.
+            posClone[4] = ((posClone[7] or 0) * screenW) / scale
+            posClone[5] = ((posClone[8] or 0) * screenH) / scale
             restoreMode = "pct-rescale"
         end
     else
@@ -1388,7 +1382,11 @@ end
 -- Dynamic resize bounds to prevent opposite-direction growth past screen edges
 function WoWPro:SetDynamicResizeBounds(corner)
     local ui = _G.UIParent
-    local w = ui:GetWidth()
+    -- SetResizeBounds takes sizes in MainFrame's own space, as do the frame edges
+    -- and barMargin below -- so bring the screen dimensions into that space too.
+    local ratio = UIParentRatio(WoWPro.MainFrame)
+    local w = ui:GetWidth() / ratio
+    local h = ui:GetHeight() / ratio
     local left = WoWPro.MainFrame:GetLeft()
     local right = WoWPro.MainFrame:GetRight()
     local top = WoWPro.MainFrame:GetTop()
@@ -1410,10 +1408,10 @@ function WoWPro:SetDynamicResizeBounds(corner)
     elseif corner == "BOTTOMLEFT" then
         maxWidth = w - left
         -- Growth up; ensure button bar stays below screen top
-        maxHeight = (ui:GetHeight() - barMargin) - bottom
+        maxHeight = (h - barMargin) - bottom
     elseif corner == "BOTTOMRIGHT" then
         maxWidth = right
-        maxHeight = (ui:GetHeight() - barMargin) - bottom
+        maxHeight = (h - barMargin) - bottom
     end
     if maxWidth and maxHeight then
         WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize, maxWidth, maxHeight)
@@ -1439,28 +1437,13 @@ function WoWPro:SetExpansionAnchor(corner)
         return
     end
 
-    local ui = _G.UIParent
-    local screenW = ui and ui:GetWidth() or 0
-    local screenH = ui and ui:GetHeight() or 0
-    if screenW <= 0 or screenH <= 0 then
-        screenW, screenH = GetUIScreenSize()
-    end
-    local left = WoWPro.MainFrame:GetLeft() or 0
-    local right = WoWPro.MainFrame:GetRight() or screenW
-    local top = WoWPro.MainFrame:GetTop() or screenH
-    local bottom = WoWPro.MainFrame:GetBottom() or 0
-    local x, y
-    if corner == "TOPLEFT" then
-        x, y = left, top - screenH
-    elseif corner == "TOPRIGHT" then
-        x, y = right - screenW, top - screenH
-    elseif corner == "BOTTOMLEFT" then
-        x, y = left, bottom
-    elseif corner == "BOTTOMRIGHT" then
-        x, y = right - screenW, bottom
+    local x, y = GetCornerOffsets(corner)
+    if not x then
+        WoWPro:UpdateResizeHandle()
+        return
     end
     WoWPro.MainFrame:ClearAllPoints()
-    WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
+    WoWPro.MainFrame:SetPoint(corner, _G.UIParent, corner, x, y)
     WoWPro.AnchorStore("SetExpansionAnchor")
 
     -- Update resize handle visibility based on new anchor
