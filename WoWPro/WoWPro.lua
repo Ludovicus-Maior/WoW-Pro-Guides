@@ -110,7 +110,12 @@ WoWPro:Export("Error")
 
 local function ends_with(str, ending)
     return ending == "" or str:sub(-#ending) == ending
- end
+end
+
+local function QueueTradeWindowScan(...)
+    WoWPro:dbp("QueueTradeWindowScan() running ScanTrade()")
+    WoWPro.ScanTrade(...)
+end
 
 -- WoWPro Log function all only --
 function WoWPro.LogCall(nomen, ...)
@@ -561,7 +566,7 @@ function WoWPro:OnEnable()
         WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.50, WoWPro.UpdateGuideReal)
     end
     WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
-    WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
+    WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, QueueTradeWindowScan)
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
     WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
     WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)

@@ -274,7 +274,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.LockdownTimer = 1.5
     WoWPro.AutoHideFrame("|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
     WoWPro:InitializeHearthBind()
-    WoWPro:UpdateTradeSkills()
+    WoWPro:RefreshCurrentTradeSkills()
     end, true)
 
 -- Locking event processong till after things get settled --
@@ -787,9 +787,30 @@ WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function(event, ...)
     end
 end)
 
+local tradeSkillRefreshPending = false
+
+local function QueueTradeSkillRefresh()
+    if tradeSkillRefreshPending then
+        WoWPro:dbp("QueueTradeSkillRefresh() skipped: already pending")
+        return
+    end
+    tradeSkillRefreshPending = true
+    WoWPro:dbp("QueueTradeSkillRefresh() scheduled")
+    _G.C_Timer.After(0.2, function()
+        tradeSkillRefreshPending = false
+        WoWPro:dbp("QueueTradeSkillRefresh() running RefreshCurrentTradeSkills()")
+        WoWPro.RefreshCurrentTradeSkills()
+    end)
+end
+
 -- scan skill lines when they change
 WoWPro.RegisterEventHandler("SKILL_LINES_CHANGED", function(event, ...)
-    WoWPro.UpdateTradeSkills(...)
+    QueueTradeSkillRefresh()
+end)
+
+-- refresh profession levels when a spell is learned in a skill line
+WoWPro.RegisterEventHandler("LEARNED_SPELL_IN_SKILL_LINE", function(event, ...)
+    QueueTradeSkillRefresh()
 end)
 
 -- register newly learned recipes
