@@ -2473,6 +2473,7 @@ function WoWPro:MainFrameMouseHandler()
     local RH      = WoWPro.ResizeHandlers
     local TB      = WoWPro.TitleBar
     local SF      = WoWPro.ScrollFrame
+    local GF      = WoWPro.GuideFrame
     local Profile = WoWProDB.profile
 
     -- Resize Controls
