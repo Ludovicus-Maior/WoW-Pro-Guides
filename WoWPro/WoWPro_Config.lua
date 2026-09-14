@@ -353,7 +353,7 @@ local function createDisplayConfig()
                                 name = L["Enable Title Bar"],
                                 desc = L["Enables/disables the title bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.titlebar end,
-                                set = function(info,val) WoWProDB.profile.titlebar = val; WoWPro:TitleBarSetVisible(val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
+                                set = function(info,val) WoWPro:HideAndSeek(WoWPro.TitleBar, "titlebar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
                             },
                             titlecolor = {
@@ -363,7 +363,7 @@ local function createDisplayConfig()
                                 desc = L["Background color for the title bar."],
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-                                set = function(info,r,g,b,a) WoWProDB.profile.titlecolor = {r,g,b,a}; WoWPro:TitleBarSetVisible(WoWProDB.profile.titlebar) end,
+                                set = function(info,r,g,b,a) WoWProDB.profile.titlecolor = {r,g,b,a}; WoWPro:BackgroundSet() end,
                             },
                             buttonbar = {
                                 order = 3,
@@ -371,7 +371,7 @@ local function createDisplayConfig()
                                 name = L["Enable Button Bar"],
                                 desc = L["Enables/disables the button bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.buttonbar ~= false end,
-                                set = function(info,val) WoWProDB.profile.buttonbar = val; WoWPro:ButtonBarSetVisible(val) end,
+                                set = function(info,val) WoWPro:HideAndSeek(WoWPro.ButtonBar, "buttonbar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
                             },
                         },

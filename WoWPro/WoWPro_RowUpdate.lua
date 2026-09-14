@@ -109,11 +109,13 @@ function WoWPro:RowUpdate(offset)
 
     local stickySteps = {}
     local regularSteps = {}
+    WoWPro.StickyHeader.Visible = false -- Initialize StickyHeader as not visible
     for _, stepIdx in ipairs(allSteps) do
         if stepIdx then
             if WoWPro.sticky[stepIdx] then
                 if IsStickyVisible(stepIdx, k, completion, stickyBoundary) then
                     table.insert(stickySteps, stepIdx)
+                    WoWPro.StickyHeader.Visible = true -- Mark StickyHeader as visible
                 end
             elseif not completion[stepIdx] then
                 if WoWPro.unsticky[stepIdx] and not WoWPro.sticky[stepIdx] then
@@ -1160,7 +1162,6 @@ ApplyMainFrameLayout = function()
         WoWPro.MainFrameLayout()
     end
 end
-
 
 -- Helper: Update RowLimit based on visible steps
 ComputeRowLimit = function(stepList)

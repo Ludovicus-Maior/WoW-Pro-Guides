@@ -184,30 +184,29 @@ function WoWPro:ResizeSet()
     WoWPro:UpdateBars()
 end
 
--- Set visibility of the title bar and button bar based on user settings
-function WoWPro:TitleBarSetVisible(isVisible)
-    if WoWPro.TitleBar then
+-- Purpose: Toggle the ButtonBar, GuideFrame, and TitleBar (TB) visibility while preventing TB+GF from both being hidden
+function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
+    local TB      = WoWPro.TitleBar
+    local GF      = WoWPro.GuideFrame
+    local Profile = WoWProDB.profile
+
+    if bar then if isVisible then bar:Show() else bar:Hide() end end
+    -- Toggle the GuideFrame visibility if gfToo
+    if toggleGF and GF then
         if isVisible then
-            WoWPro.TitleBar:Show()
+            GF:Show()
         else
-            WoWPro.TitleBar:Hide()
+            GF:Hide()
         end
-        WoWPro.MainFrameLayout()
-        WoWPro:MainFrameStackOffset()
-        WoWPro:UpdateBars()
     end
-end
-function WoWPro:ButtonBarSetVisible(isVisible)
-    if WoWPro.ButtonBar then
-        if isVisible then
-            WoWPro.ButtonBar:Show()
-        else
-            WoWPro.ButtonBar:Hide()
-        end
-        WoWPro.MainFrameLayout()
-        WoWPro:MainFrameStackOffset()
-        WoWPro:UpdateBars()
-    end
+
+    -- If both the TitleBar and GuideFrame are hidden, show the TitleBar
+    if not TB:IsShown() and not GF:IsShown() then TB:Show() end
+    Profile[key] = isVisible
+
+    WoWPro.MainFrameLayout()
+    WoWPro:MainFrameStackOffset()
+    WoWPro:UpdateBars()
 end
 
 -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
@@ -345,6 +344,7 @@ function WoWPro:BackgroundSet()
     local BB      = WoWPro.ButtonBar
     local SH      = WoWPro.StickyHeader
     local GF      = WoWPro.GuideFrame
+    local TB      = WoWPro.TitleBar
 
     -- Safety: MainFrame must exist
     if not MF then
@@ -400,6 +400,13 @@ function WoWPro:BackgroundSet()
         Profile.bgcolor[2],
         Profile.bgcolor[3],
         Profile.bgcolor[4]
+    )
+
+    TB:SetBackdropColor(
+        Profile.titlecolor[1],
+        Profile.titlecolor[2],
+        Profile.titlecolor[3],
+        Profile.titlecolor[4]
     )
 
     if SH then
@@ -592,9 +599,10 @@ end
 
 -- Save the current anchor and frame position to the profile
 function WoWPro.AnchorStore(reason, expansionAnchorOverride)
-    reason = reason or "Unknown"
     WoWPro:Trace("AnchorStore")
-    local MF = WoWPro.MainFrame
+    reason = reason or "Unknown"
+
+    local MF      = WoWPro.MainFrame
     local Profile = WoWProDB.profile
 
     local expansionAnchor = expansionAnchorOverride or Profile.expansionAnchor or "TOPLEFT"
@@ -904,6 +912,12 @@ function WoWPro:UpdateBars()
         WoWPro.StickyHeader:ClearAllPoints()
         WoWPro.StickyHeader:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.StickyHeader)
         WoWPro.StickyHeader:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.StickyHeader)
+        -- Conditionally show/hide
+        if WoWPro.StickyHeader.Visible then
+            WoWPro.StickyHeader:Show()
+        else
+            WoWPro.StickyHeader:Hide()
+        end
     end
 
     -- GuideFrame
@@ -974,7 +988,7 @@ function WoWPro.MainFrameLayout()
     end
 
     -- STICKYHEADER (optional)
-    if SH and SH:IsShown() then
+    if GF and GF:IsShown() and SH and SH.Visible then
         SH:ClearAllPoints()
         SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
         SH:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
@@ -985,8 +999,12 @@ function WoWPro.MainFrameLayout()
     GF:ClearAllPoints()
     GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
     GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+
     if Profile.autoresize then
-        y = y - GF:GetHeight()
+        if GF:IsShown() then
+            y = y - GF:GetHeight()
+            print("y = " .. y)
+        end
 
         MF:SetHeight(-y + pad)
         WoWPro.AnchorSync(true)
@@ -1017,19 +1035,6 @@ function WoWPro:GuideWindowLayout()
     end
 
     GF:SetHeight(totalHeight)
-end
-
--- Refreshes MainFrame after any changes.
-function WoWPro:UpdateMainFrameLayout()
-    WoWPro:Trace("UpdateMainFrameLayout")
-    -- Compute vertical stack offsets
-    WoWPro:MainFrameStackOffset()
-
-    -- Update bar visibility, heights, etc.
-    WoWPro:UpdateBars()
-
-    -- Apply offsets and final layout
-    WoWPro:MainFrameLayout()
 end
 
 -- Lay out all row parts left-to-right so the row stays aligned and consistent
@@ -1587,8 +1592,7 @@ function WoWPro:CreateTitleBar()
     local visualHeight   = internalHeight + GBM.titleInsets.top + GBM.titleInsets.bottom
 
     -- Frame
-    local TB = CreateFrame("Button", "WoWProTitleBar", MF,
-        BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local TB = CreateFrame("Button", "WoWProTitleBar", MF, BackdropTemplateMixin and "BackdropTemplate" or nil)
 
     TB:SetHeight(visualHeight)
 
@@ -1608,7 +1612,7 @@ function WoWPro:CreateTitleBar()
         edgeSize = 1,
         tile = true,
         tileSize = 16,
-        insets = { left = 4, right = 3, top = 4, bottom = 3 }
+        insets = { left = 0, right = 0, top = 0, bottom = 0 }
     })
 
     -- User font settings
@@ -1627,19 +1631,16 @@ function WoWPro:CreateTitleBar()
 
     -- Progress text (right)
     local progress = TB:CreateFontString(nil, "OVERLAY")
-    progress:SetPoint("RIGHT", TB, "RIGHT", -4, 0)
+    progress:SetPoint("RIGHT", TB, "RIGHT", 0, 0)
     progress:SetFont(fontName, fontSize)
     progress:SetTextColor(unpack(fontColor))
 
     TB.progress = progress
     WoWPro.ProgressText = progress
 
-    -- Double‑click collapse
-    TB:SetScript("OnDoubleClick", function(tb)
-        WoWPro:ToggleCollapse()
-    end)
-
     TB:EnableMouse(true)
+    TB:RegisterForClicks("LeftButtonUp", "LeftButtonDown")
+
     WoWPro.TitleBar = TB
 
     -- Apply user font/color settings
@@ -1682,8 +1683,7 @@ function WoWPro:CreateStickyHeader()
 
     -- local userPad = tonumber(Profile.userPad) or 0
 
-    local SH = CreateFrame("Frame", "WoWProStickyHeader", MF,
-        BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local SH = CreateFrame("Frame", "WoWProStickyHeader", MF, BackdropTemplateMixin and "BackdropTemplate" or nil)
 
     SH:Hide()
     WoWPro.StickyHeader = SH
@@ -1846,7 +1846,7 @@ function WoWPro:CreateRow(index)
     highlight:SetTexCoord(0, 1, 0, 0.578125)
     highlight:SetAllPoints()
     row:SetHighlightTexture(highlight)
-    row:SetCheckedTexture(highlight)
+    -- row:SetCheckedTexture(highlight)
 
     -- RowSet() is never called with a row/step pair, so bind the context menu here instead
     WoWPro:RowContextMenuBind(row)
@@ -2471,6 +2471,8 @@ function WoWPro:MainFrameMouseHandler()
     local MF      = WoWPro.MainFrame
     local OB      = WoWPro.OptionButton
     local RH      = WoWPro.ResizeHandlers
+    local TB      = WoWPro.TitleBar
+    local SF      = WoWPro.ScrollFrame
     local Profile = WoWProDB.profile
 
     -- Resize Controls
@@ -2508,12 +2510,12 @@ function WoWPro:MainFrameMouseHandler()
         end)
     end
 
-    -- TitleBar collapse
-    local TB = WoWPro.TitleBar
+    -- TitleBar double-click toggles GuideFrame
     if TB then
-        TB:SetScript("OnMouseUp", function(frame, btn)
-            if btn == "LeftButton" and frame.doubleClick then
-                WoWPro.CollapseToggle()
+        TB:SetScript("OnDoubleClick", function(tb, button)
+            if button == "LeftButton" then
+                local newGFState = not WoWPro.GuideFrame:IsShown()
+                WoWPro:HideAndSeek(GF, "guideframe", newGFState, true)
             end
         end)
     end
@@ -2618,7 +2620,6 @@ function WoWPro:MainFrameMouseHandler()
     end
 
     -- ScrollFrame wheel
-    local SF = WoWPro.ScrollFrame
     if SF and WoWPro.ScrollHandlers then
         SF:SetScript("OnMouseWheel", WoWPro.ScrollHandlers.OnMouseWheel)
     end
@@ -2659,17 +2660,5 @@ function WoWPro:AbleFrames()
         WoWPro.MainFrame:Hide()
         WoWPro.ButtonBar:Hide()
         WoWPro.TitleBar:Hide()
-    end
-end
-
--- Collapse or expand the GuideFrame by double-clicking the TitleBar
-function WoWPro.CollapseToggle()
-    if WoWPro.GuideFrame:IsShown() then
-        WoWPro.GuideFrame:Hide()
-        WoWPro.UserCollapsed = true
-    else
-        WoWPro.GuideFrame:Show()
-        WoWPro.UserCollapsed = false
-        WoWPro:UpdateGuide("TB_DoubleClick")
     end
 end

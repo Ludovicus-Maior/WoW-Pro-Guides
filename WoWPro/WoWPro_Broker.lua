@@ -963,6 +963,7 @@ end
 -- Checkbox Function --
 function WoWPro:CheckFunction(row, button, down)
     WoWPro:dbp("WoWPro:CheckFunction: row %d button %s UD %s rowChecked %s",row.index, button, tostring(down), tostring(row.check:GetChecked()))
+    -- manually skip step with left click
     if button == "LeftButton" and row.check:GetChecked() then
         local steplist = WoWPro.SkipStep(row.index, true)
         if steplist ~= "" then
@@ -972,14 +973,12 @@ function WoWPro:CheckFunction(row, button, down)
             row.check:SetSilver()
             WoWPro:UpdateGuide("CheckFunction:Skip1Step")
         end
+    -- Manually complete step with right click
     elseif button == "RightButton" and row.check:GetChecked() then
         row.check:SetGold()
         WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
-        -- if CompleteStep() did a LoadGuide, skip out.
-        if WoWPro.CompleteStep(row.index,"Right-Click") then
-            return
-        end
-        WoWPro:UpdateGuide("CheckFunction:CompleteClick")
+        -- CompleteStep() already triggers a guide refresh if needed
+        if WoWPro.CompleteStep(row.index,"Right-Click") then return end
     elseif not row.check:GetChecked() then
         WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as UNskipped.", row.index)
         WoWPro.UnSkipStep(row.index)
