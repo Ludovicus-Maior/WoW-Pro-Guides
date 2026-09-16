@@ -1692,7 +1692,7 @@ if step then
     WoWPro.RowDropdownMenu[i] = dropdown
 
         -- Item Button --
-        if showButtons then
+        if showButtons and WoWProDB.profile.showItemButton then
             if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
             if action == "*" and use and WoWPro.C_Item_GetItemInfo then
@@ -1858,7 +1858,7 @@ if step then
         end
 
         -- Loots Buttons --
-        if item then
+        if item and WoWProDB.profile.showLootsButtons then
             -- Parse multiple items separated by semicolons
             local items = {(";"):split(item)}
             local buttonIndex = 1
@@ -1910,7 +1910,7 @@ if step then
         end
 
         --Guide Jump Button
-        if showButtons and WoWPro.jump[k] then
+        if showButtons and WoWPro.jump[k] and WoWProDB.profile.showJumpButton then
 			local newguide, ctID = (";"):split(WoWPro.jump[k])
 			if not _G.InCombatLockdown() then
 				currentRow.jumpbutton:Show()
@@ -1939,7 +1939,7 @@ if step then
         end
 
         -- EA Button --
-        if showButtons and eab then
+        if showButtons and eab and WoWProDB.profile.showEAButton then
             local mtext = "/click ExtraActionButton1"
             if not _G.InCombatLockdown() then
                 currentRow.eabutton:Show()
@@ -2005,7 +2005,7 @@ if step then
 
 
         -- Target Button --
-        if showButtons and target and not _G.InCombatLockdown() then
+        if showButtons and target and not _G.InCombatLockdown() and WoWProDB.profile.showTargetButton then
             local mtext
             local tar, emote = (","):split(target)
             currentRow.targetbutton:Show()

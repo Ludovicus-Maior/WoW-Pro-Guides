@@ -352,6 +352,11 @@ local defaults = { profile = {
     guideprogress = false,
     progressbar = true,
     buttonbar = true,
+    showItemButton = true,
+    showTargetButton = true,
+    showEAButton = true,
+    showJumpButton = true,
+    showLootsButtons = true,
 } }
 
 
