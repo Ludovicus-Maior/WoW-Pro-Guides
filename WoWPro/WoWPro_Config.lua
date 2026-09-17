@@ -212,6 +212,64 @@ local function createDisplayConfig()
                                     end
                                 end
                             },
+                            buttonDisplay = {
+                                order = 15,
+                                type = "group",
+                                name = "Button Display Options",
+                                inline = true,
+                                args = {
+                                    showItemButton = {
+                                        order = 1,
+                                        type = "toggle",
+                                        name = L["Show Item/Use Button"],
+                                        desc = L["Enable/Disable the item use button (trash item, use item actions)"],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.showItemButton end,
+                                        set = function(info,val) WoWProDB.profile.showItemButton = val
+                                            WoWPro:UpdateGuide("Config: Item Button Visibility") end
+                                    },
+                                    showTargetButton = {
+                                        order = 2,
+                                        type = "toggle",
+                                        name = L["Show Target Button"],
+                                        desc = L["Enable/Disable the target button (target and emote actions)"],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.showTargetButton end,
+                                        set = function(info,val) WoWProDB.profile.showTargetButton = val
+                                            WoWPro:UpdateGuide("Config: Target Button Visibility") end
+                                    },
+                                    showEAButton = {
+                                        order = 3,
+                                        type = "toggle",
+                                        name = L["Show Extra Action Button"],
+                                        desc = L["Enable/Disable the extra action button (for quest objectives)"],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.showEAButton end,
+                                        set = function(info,val) WoWProDB.profile.showEAButton = val
+                                            WoWPro:UpdateGuide("Config: EA Button Visibility") end
+                                    },
+                                    showJumpButton = {
+                                        order = 4,
+                                        type = "toggle",
+                                        name = L["Show Jump Button"],
+                                        desc = L["Enable/Disable the guide jump button (for level jumps or guide transitions)"],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.showJumpButton end,
+                                        set = function(info,val) WoWProDB.profile.showJumpButton = val
+                                            WoWPro:UpdateGuide("Config: Jump Button Visibility") end
+                                    },
+                                    showLootsButtons = {
+                                        order = 5,
+                                        type = "toggle",
+                                        name = L["Show Loot Buttons"],
+                                        desc = L["Enable/Disable the loot item buttons (for item actions)"],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.showLootsButtons end,
+                                        set = function(info,val) WoWProDB.profile.showLootsButtons = val
+                                            WoWPro:UpdateGuide("Config: Loots Button Visibility") end
+                                    },
+                                },
+                            },
                         },
                     },
                     windowLayout = {

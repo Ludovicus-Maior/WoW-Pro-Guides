@@ -14,12 +14,13 @@ return [[
 A Call to Lordaeron|QID|65656|M|41.19,69.29|Z|1670|N|From Calia Menethil.|
 C Call to Lordaeron|QID|65656|M|41.51,69.77|Z|1670|QO|1|CHAT|N|Talk to Forsaken Dreadmage for a Teleport.|
 T Call to Lordaeron|QID|65656|M|60.80,51.37|Z|2070|N|To Calia Menethil.|
-A Assemble the Forsaken|QID|65657|M|60.80,51.37|Z|2070|N|From Calia Menethil.|PRE|65655|
+A Assemble the Forsaken|QID|65657|M|60.80,51.37|Z|2070|N|From Calia Menethil.|PRE|65656|
 C Assemble the Forsaken|QID|65657|M|57.60,49.25|Z|2070|QO|2|CHAT|N|Talk to Lilian Voss.|
 C Assemble the Forsaken|QID|65657|M|63.18,55.53|Z|2070|QO|3|CHAT|N|Talk to Master Apothecary Faranell.|
-A This Land is Ours|QID|65658|M|61.96,50.60|Z|2070|N|From Dark Ranger Velonara.|PRE|65657|
+C Assemble the Forsaken|QID|65657|M|61.97,50.51|Z|2070|QO|1|CHAT|N|Talk to Dark Ranger Velonara1|
+A This Land is Ours|QID|65658|M|61.97,50.51|Z|2070|N|From Dark Ranger Velonara.|PRE|65657|
 C This Land is Ours|QID|65658|M|63.32,51.99|Z|2070|QO|1|N|Kill 8 Blighted Soldiers and Shadowmages.|
-T This Land is Ours|QID|65658|M|60.91,51.42|Z|2070|N|To Dark Ranger Velonara.|
+T This Land is Ours|QID|65658|M|60.79,51.57|Z|2070|N|To Dark Ranger Velonara.|
 T Assemble the Forsaken|QID|65657|M|60.90,51.34|Z|2070|N|To Lilian Voss.|
 A The Blight Congress|QID|65659|M|60.90,51.34|Z|2070|N|From Lilian Voss.|PRE|65658|
 C The Blight Congress|QID|65659|M|60.90,51.34|Z|2070|QO|1|CHAT|N|Talk to Lilian.|
@@ -32,11 +33,10 @@ C Wlak of Faith|QID|65660|M|61.94,58.48|Z|2070|QO|2|N|Kill enemies that attack C
 C Walk of Faith|QID|65660|M|61.92,55.55|Z|2070|QO|3|N|Kill enemies that attack Calia and stay inside Calia's bubble.|
 T Walk of Faith|QID|65660|M|61.92,55.56|Z|2070|N|To Lilian Voss.|
 A Consulting Our Allies|QID|65661|M|61.92,55.56|Z|2070|N|From Lilian Voss.|PRE|65660|
-F Renounced Bastille|ACTIVE|65661|CC|M|67.86,45.84|Z|1536|N|Fly to the Renounced Bastille.|
-P Gateway to Exoramas|ACTIVE|65661|CC|M|74.35,33.93|Z|1536|N|Click Gateway to Exoramas.|
+P Maldraxxus|ACTIVE|65661|M|62.21,55.20|Z|2070|IZ|2070|N|Take the protal to Maldraxxus.|
 T Consulting Our Allies|QID|65661|M|74.83,33.65|Z|1536|N|To Margrave Sin'dane.|
 A House of Plagues|QID|65662|M|74.83,33.65|Z|1536|N|From Margrave Sin'dane.|PRE|65661|
-F Plague Watch|ACTIVE|65662|CC|M|58.20,72.34|Z|1536|N|Fly to the Plague Watch.|
+P House of Rituals|ACTIVE|65662|M|73.56,33.42|Z|1536|IZ|1536|N|Take the portal to the Surface, where the House of Rituals is.| ; This step needs a better deactivate
 T House of Plagues|QID|65662|M|71.15,71.47|Z|1536|N|To Plague Deviser Marileth.|
 A Essence of Plague|QID|65664|M|71.15,71.47|Z|1536|N|From Plague Deviser Marileth.|PRE|65662|
 A Feed the Eater|QID|65663|M|71.14,71.37|Z|1536|N|From Calia Menethil.|PRE|65662|
