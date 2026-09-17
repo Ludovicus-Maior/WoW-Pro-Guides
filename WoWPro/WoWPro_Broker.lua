@@ -1737,7 +1737,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Guide Jump Button
-        if showButtons and WoWPro.jump[k] then
+        if showButtons and WoWPro.jump[k] and WoWProDB.profile.showJumpButton then
             local newguide, ctID = (";"):split(WoWPro.jump[k])
             if not _G.InCombatLockdown() then
                 currentRow.jumpbutton:Show()

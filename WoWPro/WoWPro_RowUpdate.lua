@@ -160,7 +160,7 @@ function WoWPro:RowUpdate(offset)
         SetupLootButtons(currentRow, item, action, note, k)
 
         -- Jump button
-        if jump then
+        if jump and WoWProDB.profile.showJumpButton then
             SetupJumpButton(currentRow, jump, i)
         else
             if not InCombatLockdown() then
