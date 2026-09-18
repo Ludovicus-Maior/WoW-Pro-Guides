@@ -2026,6 +2026,14 @@ function WoWPro.UpdateGuideReal(From)
             reload = rowContentUpdate()
         end
 
+        -- RowUpdate owns row content and row-local sizing; Broker coordinates frame layout.
+        if WoWPro.GuideWindowLayout then
+            WoWPro:GuideWindowLayout()
+        end
+        if WoWPro.MainFrameLayout then
+            WoWPro.MainFrameLayout()
+        end
+
         if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
             SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
             WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")

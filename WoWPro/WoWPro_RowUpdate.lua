@@ -32,7 +32,7 @@
 -- FormatCoords NormalizeStepText NormalizeNote EmbedCoordsInNote AddNoCoordsWarning
 -- IsStickyVisible BuildDropdownMenu SetupTrashItemButton SetupUseItemButton
 -- SetupItemKeybind SetupPetSwitchButton SetupPetSwitchKeybind SetupLootButtons
--- SetupJumpButton SetupEAButton SetupTargetButton ApplyRowSizing ApplyMainFrameLayout
+-- SetupJumpButton SetupEAButton SetupTargetButton ApplyRowSizing
 
 -- Row fields accessed
 -- luacheck: globals
@@ -60,7 +60,6 @@ local SetupJumpButton
 local SetupEAButton
 local SetupTargetButton
 local ApplyRowSizing
-local ApplyMainFrameLayout
 
 function WoWPro:RowUpdate(offset)
     WoWPro:Trace("RowUpdate:ENTER")
@@ -105,11 +104,9 @@ function WoWPro:RowUpdate(offset)
             tempK = tempK + 1
         end
     end
-    WoWPro:SetActiveStickyCount(0)
 
     local stickySteps = {}
     local regularSteps = {}
-    WoWPro.StickyHeader.Visible = false -- Initialize StickyHeader as not visible
     for _, stepIdx in ipairs(allSteps) do
         if stepIdx then
             if WoWPro.sticky[stepIdx] then
@@ -141,6 +138,7 @@ function WoWPro:RowUpdate(offset)
         table.insert(stepList, stepIdx)
     end
     WoWPro.RowLimit = ComputeRowLimit(stepList)
+    -- Final sticky count
     WoWPro:SetActiveStickyCount(#stickySteps)
 
     -- Hide rows beyond visible limit
@@ -285,13 +283,9 @@ function WoWPro:RowUpdate(offset)
     HideRemainingRows(#stepList + 1)
     -- Update current index
     WoWPro.CurrentIndex = WoWPro.rows[1 + WoWPro:GetActiveStickyCount()].index
-    -- Force GuideFrame to expand
-    if WoWPro.GuideFrame:GetHeight() < 50 then
-        WoWPro.GuideFrame:SetHeight(#WoWPro.rows * 25)
-    end
-    -- Layout updates
+
+    -- Apply row-local sizing. Frame layout is coordinated by the broker.
     ApplyRowSizing()
-    ApplyMainFrameLayout()
 
     -- Group sync
     if WoWPro.GroupSync then
@@ -1152,14 +1146,6 @@ ApplyRowSizing = function()
     -- Safe to call only out of combat.
     if not InCombatLockdown() then
         WoWPro.RowSizeSet()
-    end
-end
-
--- Helper: Apply main frame layout (anchors, scroll, sticky header)
-ApplyMainFrameLayout = function()
-    if not InCombatLockdown() then
-        WoWPro:GuideWindowLayout()
-        WoWPro.MainFrameLayout()
     end
 end
 

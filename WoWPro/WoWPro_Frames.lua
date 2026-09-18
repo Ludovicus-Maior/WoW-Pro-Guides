@@ -153,12 +153,15 @@ function WoWPro:MinimapSet()
 end
 
 function WoWPro:ResizeSet()
+    local MF      = WoWPro.MainFrame
+    local Profile = WoWProDB.profile
+
     WoWPro:Trace("ResizeSet")
     if _G.InCombatLockdown() then return end
-    if WoWPro.MainFrame then
-        WoWPro.MainFrame:SetResizable(WoWProDB.profile.resize and true or false)
+    if MF then
+        MF:SetResizable(Profile.resize and true or false)
     end
-    if WoWProDB.profile.resize then
+    if Profile.resize then
         WoWPro.resizebutton:Hide()
         WoWPro:UpdateResizeHandle()
     else
@@ -168,14 +171,14 @@ function WoWPro:ResizeSet()
         if WoWPro.ResizeBL then WoWPro.ResizeBL:Hide() end
         if WoWPro.ResizeBR then WoWPro.ResizeBR:Hide() end
     end
-    WoWPro.SetResizeBounds(WoWPro.MainFrame, WoWProDB.profile.hminresize, WoWProDB.profile.vminresize)
+    WoWPro.SetResizeBounds(MF, Profile.hminresize, Profile.vminresize)
     local resized = false
-    if WoWPro.MainFrame:GetWidth() < WoWProDB.profile.hminresize then
-        WoWPro.MainFrame:SetWidth(WoWProDB.profile.hminresize)
+    if MF:GetWidth() < Profile.hminresize then
+        MF:SetWidth(Profile.hminresize)
         resized = true
     end
-    if WoWPro.MainFrame:GetHeight() < WoWProDB.profile.vminresize then
-        WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
+    if MF:GetHeight() < Profile.vminresize then
+        MF:SetHeight(Profile.vminresize)
         resized = true
     end
     if resized then
@@ -886,6 +889,11 @@ end
 function WoWPro:UpdateBars()
     WoWPro:Trace("UpdateBars")
     local MF  = WoWPro.MainFrame
+    local BB  = WoWPro.ButtonBar
+    local TB  = WoWPro.TitleBar
+    local SH  = WoWPro.StickyHeader
+    local GF  = WoWPro.GuideFrame
+
     local pad = GetMainFrameContentPad()
 
     if not MF then return end
@@ -894,37 +902,34 @@ function WoWPro:UpdateBars()
     if not off then return end
 
     -- TitleBar
-    if WoWPro.TitleBar then
-        WoWPro.TitleBar:ClearAllPoints()
-        WoWPro.TitleBar:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.TitleBar)
-        WoWPro.TitleBar:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.TitleBar)
+    if TB then
+        TB:ClearAllPoints()
+        TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.TitleBar)
+        TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.TitleBar)
     end
 
     -- ButtonBar
-    if WoWPro.ButtonBar then
-        WoWPro.ButtonBar:ClearAllPoints()
-        WoWPro.ButtonBar:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.ButtonBar)
-        WoWPro.ButtonBar:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.ButtonBar)
+    if BB then
+        BB:ClearAllPoints()
+        BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.ButtonBar)
+        BB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.ButtonBar)
     end
 
     -- StickyHeader
-    if WoWPro.StickyHeader then
-        WoWPro.StickyHeader:ClearAllPoints()
-        WoWPro.StickyHeader:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.StickyHeader)
-        WoWPro.StickyHeader:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.StickyHeader)
-        -- Conditionally show/hide
-        if WoWPro.StickyHeader.Visible then
-            WoWPro.StickyHeader:Show()
-        else
-            WoWPro.StickyHeader:Hide()
-        end
+    if SH then
+        SH:ClearAllPoints()
+        SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.StickyHeader)
+        SH:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.StickyHeader)
+
+        -- Apply visibility as dictated by RowUpdate
+        SH:SetShown(SH.Visible)
     end
 
     -- GuideFrame
-    if WoWPro.GuideFrame then
-        WoWPro.GuideFrame:ClearAllPoints()
-        WoWPro.GuideFrame:SetPoint("TOPLEFT", MF, "TOPLEFT", pad, -pad - off.GuideFrame)
-        WoWPro.GuideFrame:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.GuideFrame)
+    if GF then
+        GF:ClearAllPoints()
+        GF:SetPoint("TOPLEFT", MF, "TOPLEFT", pad, -pad - off.GuideFrame)
+        GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.GuideFrame)
     end
 end
 
@@ -971,6 +976,11 @@ function WoWPro.MainFrameLayout()
     local pad = GetMainFrameContentPad()
     local y   = -pad
 
+    if SH then
+        SH.Visible = WoWPro:GetActiveStickyCount() > 0
+        SH:SetShown(SH.Visible)
+    end
+
     -- BUTTONBAR (optional)
     if BB and BB:IsShown() then
         BB:ClearAllPoints()
@@ -1000,10 +1010,10 @@ function WoWPro.MainFrameLayout()
     GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
     GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
 
+    -- Determine final MainFrame height based on content and profile settings
     if Profile.autoresize then
         if GF:IsShown() then
             y = y - GF:GetHeight()
-            print("y = " .. y)
         end
 
         MF:SetHeight(-y + pad)
@@ -1810,6 +1820,15 @@ function WoWPro:CreateRow(index)
     row:SetHeight(25)
     row:RegisterForClicks("AnyUp")
 
+    -- Text padding defaults
+    row.TextPaddingTop  = 10    -- minimum top inset for StepTitle
+    row.TextPaddingLeft = 3    -- left inset for StepTitle
+    row.TextSpacing     = 2    -- vertical spacing between title/note/tracker
+    row.MaxTextWidth = WoWPro.MainFrame:GetWidth()
+                   - row.TextPaddingLeft
+                   - 3 -- check button width (approx)
+                   - 20 -- icon width (approx)
+                   - 5 -- right padding
     row.check = WoWPro:CreateCheck(row)
     row.check:SetScript("OnEnter", function(this)
         _G.GameTooltip:SetOwner(this, "CheckButton")
@@ -1893,17 +1912,45 @@ function WoWPro:RowTextSet(row, step)
     row.StepNote:SetWidth(row.MaxTextWidth)
     row.Tracker:SetWidth(row.MaxTextWidth)
 
-    -- anchor steptitle
+    -- anchor steptitle (top horizontal line: Check → Icon → StepTitle → LootIcons)
     row.StepTitle:ClearAllPoints()
-    row.StepTitle:SetPoint("TOPLEFT", row, "TOPLEFT", row.TextPaddingLeft, -row.TextPaddingTop)
+    row.StepTitle:SetPoint(
+        "LEFT",
+        row.iconTexture.frame,
+        "RIGHT",
+        3 + (row.TextPaddingLeft or 0),
+        -(row.TextPaddingTop or 0)
+    )
 
-    -- anchor stepnote
+    -- anchor stepnote (vertical stack under StepTitle)
     row.StepNote:ClearAllPoints()
-    row.StepNote:SetPoint("TOPLEFT", row.StepTitle, "BOTTOMLEFT", 0, -row.TextSpacing)
+    row.StepNote:SetPoint(
+        "TOPLEFT",
+        row.StepTitle,
+        "BOTTOMLEFT",
+        0,
+        -(row.TextSpacing or 3)
+    )
 
-    -- anchor tracker
+    -- anchor tracker (vertical stack under StepNote or StepTitle)
     row.Tracker:ClearAllPoints()
-    row.Tracker:SetPoint("TOPLEFT", row.StepNote, "BOTTOMLEFT", 0, -row.TextSpacing)
+    if row.StepNote:IsShown() then
+        row.Tracker:SetPoint(
+            "TOPLEFT",
+            row.StepNote,
+            "BOTTOMLEFT",
+            0,
+            -(row.TextSpacing or 3)
+        )
+    else
+        row.Tracker:SetPoint(
+            "TOPLEFT",
+            row.StepTitle,
+            "BOTTOMLEFT",
+            0,
+            -(row.TextSpacing or 3)
+        )
+    end
 
     -- visibility
     if step.note and WoWProDB.profile.showNotes then
@@ -1924,9 +1971,9 @@ function WoWPro:RowTextSet(row, step)
     local trackerHeight = row.Tracker:IsShown()   and row.Tracker:GetStringHeight()   or 0
 
     -- store heights
-    row.StepTitleHeight   = titleHeight
-    row.StepNoteHeight    = noteHeight
-    row.TrackerHeight     = trackerHeight
+    row.StepTitleHeight = titleHeight
+    row.StepNoteHeight  = noteHeight
+    row.TrackerHeight   = trackerHeight
 end
 
 -- Anchor the main icon cluster to StepTitle
@@ -1972,90 +2019,73 @@ function WoWPro:RowIconSet(row, step)
     row.IconClusterHeight = hQuest + hAction + hLoot + (row.IconSpacing * 2)
 end
 
+-- Sets row height based on StepTitle, StepNote, and Tracker
 function WoWPro.RowSizeSet()
-    if _G.InCombatLockdown() or not WoWPro.rows then
-        return
-    end
+    if InCombatLockdown() or not WoWPro.rows then return end
 
-    local space = WoWProDB.profile.space
-    for i, row in ipairs(WoWPro.rows) do
-        local iconFrame = row.iconTexture.frame
+    local space = WoWProDB.profile.space or 0
+
+    for _, row in ipairs(WoWPro.rows) do
+        -- left-side static block
         row.check:ClearAllPoints()
-        row.check:SetPoint("TOPLEFT", 1, -space)
-        iconFrame:ClearAllPoints()
-        iconFrame:SetPoint("LEFT", row.check, "RIGHT", 3, 0)
+        row.check:SetPoint("TOPLEFT", row, "TOPLEFT", 1, -space)
+
+        row.iconTexture.frame:ClearAllPoints()
+        row.iconTexture.frame:SetPoint("LEFT", row.check, "RIGHT", 3, 0)
+
+        -- text container (horizontal block after icon)
         row.step:ClearAllPoints()
-        row.step:SetPoint("TOPLEFT", iconFrame, "TOPRIGHT", 3, 0)
+        row.step:SetPoint("TOPLEFT", row.iconTexture.frame, "TOPRIGHT", 3, 0)
         row.step:SetPoint("TOPRIGHT", row, "TOPRIGHT", -132, 0)
 
-        local noteHeight
-        if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index) then
-            noteHeight = 1
-            row.note:Hide()
-            if WoWPro.mousenotes and WoWPro.mousenotes[i] then
-                WoWPro.mousenotes[i]:Hide()
-                WoWPro.mousenotes[i].note:SetText(row.note:GetText())
-                WoWPro.mousenotes[i]:SetHeight(WoWPro.mousenotes[i].note:GetHeight() + 20)
-                row:SetScript("OnEnter", function()
-                    WoWPro.SetMouseNotesPoints()
-                    WoWPro.mousenotes[i]:Show()
-                end)
-                row:SetScript("OnLeave", function()
-                    WoWPro.mousenotes[i]:Hide()
-                end)
-            end
-        else
-            row.note:ClearAllPoints()
-            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
-            row.note:SetPoint("TOPRIGHT", row, "TOPRIGHT", -3, -3)
-            noteHeight = row.note:GetHeight()
-            row.note:Show()
-            row:SetScript("OnEnter", function() end)
-            row:SetScript("OnLeave", function() end)
-        end
+        -- vertical text stack heights
+        local titleHeight   = row.StepTitleHeight or (row.StepTitle:IsShown() and row.StepTitle:GetStringHeight() or 0)
+        local noteHeight    = row.StepNoteHeight  or (row.StepNote:IsShown()  and row.StepNote:GetStringHeight()  or 0)
+        local trackerHeight = row.TrackerHeight   or (row.Tracker:IsShown()   and row.Tracker:GetStringHeight()   or 0)
 
-        local trackHeight
-        if row.trackcheck and row.track:GetText() ~= "" then
-            row.track:Show()
-            row.track:ClearAllPoints()
-            if row.note:IsShown() then
-                row.track:SetPoint("TOPLEFT", row.note, "BOTTOMLEFT", 0, -3)
-            else
-                row.track:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
-            end
-            row.track:SetPoint("TOPRIGHT", row, "TOPRIGHT", -3, -3)
-            trackHeight = row.track:GetHeight()
-            row.progressBar:SetWidth(row:GetWidth() - 30)
-        else
-            row.track:Hide()
-            row.progressBar:Hide()
-            trackHeight = 1
-        end
+        local padTop    = row.TextPaddingTop or 0
+        local padBottom = row.TextPaddingBottom or 0
+        local spacing   = row.TextSpacing or 3
 
-        local rowHeight = noteHeight + trackHeight + max(row.step:GetHeight(), row.iconTexture:GetHeight()) + space * 2 + 3
+        -- final row height (vertical stack under StepTitle)
+        local rowHeight =
+            padTop +
+            titleHeight +
+            (noteHeight    > 0 and spacing + noteHeight    or 0) +
+            (trackerHeight > 0 and spacing + trackerHeight or 0) +
+            padBottom +
+            (space * 2)
+
         row:SetHeight(rowHeight)
     end
 end
 
--- Computes final row height from text and icon heights
+-- Computes final row height from StepTitle, StepNote, and Tracker
 function WoWPro:RowLayoutSizeSet(row)
     WoWPro:Trace("RowLayoutSizeSet")
+    if not row then return end
+
     -- gather text heights
-    local titleHeight   = row.StepTitleHeight or 0
-    local noteHeight    = row.StepNoteHeight or 0
-    local trackerHeight = row.TrackerHeight or 0
+    local titleHeight   = row.StepTitleHeight   or 0
+    local noteHeight    = row.StepNoteHeight    or 0
+    local trackerHeight = row.TrackerHeight     or 0
 
-    -- gather icon height
-    local iconHeight = row.IconClusterHeight or 0
+    -- vertical text stack height
+    local contentHeight = titleHeight
 
-    -- compute content height
-    local contentHeight = titleHeight + noteHeight + trackerHeight
+    if noteHeight > 0 then
+        contentHeight = contentHeight + (row.TextSpacing or 3) + noteHeight
+    end
 
-    -- choose the tallest vertical stack
-    local maxHeight = math.max(contentHeight, iconHeight)
+    if trackerHeight > 0 then
+        contentHeight = contentHeight + (row.TextSpacing or 3) + trackerHeight
+    end
 
     -- apply padding
-    local finalHeight = maxHeight + row.TextPaddingTop + row.TextPaddingBottom
+    local finalHeight =
+        (row.TextPaddingTop or 0) +
+        contentHeight +
+        (row.TextPaddingBottom or 0)
 
     -- set row height
     row:SetHeight(finalHeight)
