@@ -2,7 +2,6 @@
 --WoWPro_ZoneData.lua:  This are the new 8.X map names
 ----------------------------------
 
-local DefineZone = WoWPro.DefineZone  -- While we patch up the guides for 8.0
 local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 
 local UIMapType = _G.Enum.UIMapType
