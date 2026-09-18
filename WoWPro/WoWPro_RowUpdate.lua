@@ -63,6 +63,42 @@ local SetupJumpButton
 local SetupEAButton
 local SetupTargetButton
 
+function WoWPro.RowSizeSet()
+    if InCombatLockdown() or not WoWPro.rows then
+        return
+    end
+
+    local spacing = WoWProDB.profile.space or 0
+    local bottomPadding = 5
+    for _, row in ipairs(WoWPro.rows) do
+        if row:IsShown() then
+            local stepHeight = row.step:GetStringHeight() or 0
+            local noteHeight = row.note:IsShown() and row.note:GetStringHeight() or 0
+            local trackHeight = row.track:IsShown() and row.track:GetStringHeight() or 0
+            local contentHeight = stepHeight
+
+            if noteHeight > 0 then
+                contentHeight = contentHeight + 3 + noteHeight
+            end
+            if trackHeight > 0 then
+                contentHeight = contentHeight + 3 + trackHeight
+            end
+            if row.progressBar:IsShown() then
+                contentHeight = contentHeight + 3 + row.progressBar:GetHeight()
+            end
+
+            local buttonHeight = 0
+            for _, button in ipairs({row.itembutton, row.targetbutton, row.jumpbutton, row.eabutton}) do
+                if button and button:IsShown() then
+                    buttonHeight = math.max(buttonHeight, button:GetHeight() + 7)
+                end
+            end
+
+            row:SetHeight(math.max(25, contentHeight + (spacing * 2) + bottomPadding, buttonHeight))
+        end
+    end
+end
+
 local function NormalizeTrackText(track)
     if type(track) ~= "string" then
         return ""
@@ -185,6 +221,15 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
         end
     end
 
+    local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
+    row.track:ClearAllPoints()
+    row.track:SetPoint("LEFT", row.step, "LEFT")
+    row.track:SetPoint("TOP", trackAnchor, "BOTTOM", 0, -3)
+    row.track:SetPoint("RIGHT")
+    row.progressBar:ClearAllPoints()
+    row.progressBar:SetPoint("LEFT", row.step, "LEFT")
+    row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -3)
+
     row.track:SetText(NormalizeTrackText(track))
 end
 
@@ -277,6 +322,7 @@ function WoWPro:RowUpdate(offset)
 
     WoWPro.RowDropdownMenu = {}
     local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
+    local skipped = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].skipped) or {}
     local syncData = {steps = {}, tracks = {}}
     local startIndex = offset or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
@@ -302,10 +348,10 @@ function WoWPro:RowUpdate(offset)
     for _, stepIdx in ipairs(allSteps) do
         if stepIdx and WoWPro.step[stepIdx] then
             if WoWPro.sticky[stepIdx] then
-                if IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary) then
+                if not skipped[stepIdx] and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary) then
                     table.insert(stickySteps, stepIdx)
                 end
-            elseif ShouldShowRow(stepIdx, completion) then
+            elseif ShouldShowRow(stepIdx, completion, skipped) then
                 table.insert(regularSteps, stepIdx)
             end
         end
@@ -339,6 +385,9 @@ function WoWPro:RowUpdate(offset)
         local currentRow = WoWPro.rows[i]
         currentRow.index = k
         currentRow.num = i
+        if not InCombatLockdown() then
+            WoWPro:SetRowBackdrop(currentRow)
+        end
 
         -- Run module hook
         RunModulePreRowUpdate(module, currentRow)
@@ -382,6 +431,10 @@ function WoWPro:RowUpdate(offset)
             currentRow.eabutton:SetScript("OnUpdate", nil)
         end
         currentRow.step:SetText(step)
+        currentRow.note:ClearAllPoints()
+        currentRow.note:SetPoint("TOPLEFT", currentRow.step, "BOTTOMLEFT", 0, -3)
+        currentRow.note:SetPoint("RIGHT")
+        currentRow.note:SetText(note)
         WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
 
         if step ~= "" then
@@ -399,7 +452,6 @@ function WoWPro:RowUpdate(offset)
             currentRow.check:SetBlank()
         end
 
-        currentRow.note:SetText(note)
         WoWPro.SetActionTexture(currentRow)
         currentRow.check:SetScript("OnClick", function(row, button)
             WoWPro:CheckFunction(currentRow, button)
@@ -1304,9 +1356,9 @@ end
 
 -- Row Visibility, RowLimit, and Layout Helpers
 -- Helper: Determine if a row should be shown (non-sticky logic)
-ShouldShowRow = function(stepIdx, completion)
+ShouldShowRow = function(stepIdx, completion, skipped)
     -- Completed steps are filtered out (RowUpdate never completes steps)
-    if completion[stepIdx] then
+    if completion[stepIdx] or (skipped and skipped[stepIdx]) then
         return false
     end
 

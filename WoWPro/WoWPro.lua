@@ -321,7 +321,7 @@ local defaults = { profile = {
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     size = {300, 200},  -- {Height, Width}
     userPad = 5,
-    space = 5,
+    space = 10,
     mousenotes = false,
     minimap = { hidden = false, },
     track = true,

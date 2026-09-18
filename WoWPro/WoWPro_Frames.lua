@@ -966,6 +966,9 @@ function WoWPro.MainFrameLayout()
     WoWPro:Trace("MainFrameLayout")
     if InCombatLockdown() then return end
 
+    WoWPro.RowSizeSet()
+    WoWPro:GuideWindowLayout()
+
     local BB      = WoWPro.ButtonBar
     local SH      = WoWPro.StickyHeader
     local MF      = WoWPro.MainFrame
@@ -2585,7 +2588,7 @@ function WoWPro:MainFrameMouseHandler()
 
         BB.Buttons[4]:SetScript("OnClick", function()
             WoWPro:CloseDiscordDialog()
-            if not WoWPro.ActiveStep or not WoWPro.rows then
+            if not WoWPro.rows then
                 WoWPro:Print("No active step to skip.")
                 return
             end
@@ -2594,6 +2597,14 @@ function WoWPro:MainFrameMouseHandler()
                 if row.index == WoWPro.ActiveStep then
                     currentRow = row
                     break
+                end
+            end
+            if not currentRow and WoWPro.CurrentIndex then
+                for _, row in ipairs(WoWPro.rows) do
+                    if row.index == WoWPro.CurrentIndex then
+                        currentRow = row
+                        break
+                    end
                 end
             end
             if currentRow then

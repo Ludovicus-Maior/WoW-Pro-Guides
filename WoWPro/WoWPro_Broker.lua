@@ -1873,7 +1873,6 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:MapPoint()
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
-        WoWPro:GuideWindowLayout()
         WoWPro.MainFrameLayout()
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
