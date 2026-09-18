@@ -603,8 +603,6 @@ function WoWPro.RowSizeSet()
     -- Get current expansion anchor (default to TOPLEFT if not set)
     local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
     AnchorDebug("RowSizeSet: autoresize=%s exp=%s", _G.tostring(WoWProDB.profile.autoresize), expansionAnchor)
-    -- Only debug if anchor or position changes
-    local anchorChanged = false
 
     -- Calculate screen-limited bounds based on expansion anchor
     local screenW, screenH = GetUIScreenSize()
