@@ -377,6 +377,10 @@ function WoWPro:RowUpdate(offset)
 
         -- Set row content
         currentRow:Show()
+        if not InCombatLockdown() then
+            currentRow.itembutton:SetScript("OnUpdate", nil)
+            currentRow.eabutton:SetScript("OnUpdate", nil)
+        end
         currentRow.step:SetText(step)
         WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
 
