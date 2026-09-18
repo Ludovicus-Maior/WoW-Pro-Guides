@@ -46,6 +46,18 @@ WoWPro.Leveling.ClassicStartGuides = {
     Tauren = 'ClassicMulgore0112',
     Troll = 'ClassicDurotar0112'
 }
+WoWPro.Leveling.ClassForeverStartGuides = {
+    Dwarf = 'ClassicDunMorogh0112',
+    Gnome = 'ClassicDunMorogh0112',
+    Human = 'ClassicElwynn0112',
+    NightElf = "ClassicTeldrassil0112",
+    Orc = 'ClassicDurotar0112',
+    Scourge = 'ClassicTirisfalGlades0112',
+    Tauren = 'ClassicMulgore0112',
+    Troll = 'ClassicDurotar0112',
+    HighOrderSkyborne = nil, -- Alliance Skyborne
+    WindshaperSkyborne = nil, -- Horde Skyborne
+}
 WoWPro.Leveling.ClassicBCStartGuides = {
     BloodElf = "BC-BloodElf",
     Draenei = "BC-Draenei",
@@ -128,6 +140,8 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:Print("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+            elseif WoWPro.FOREVER then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ForeverStartGuides[engRace]
             elseif WoWPro.BC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
             elseif WoWPro.WRATH then
