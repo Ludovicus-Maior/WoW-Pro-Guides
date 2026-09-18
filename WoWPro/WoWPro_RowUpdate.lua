@@ -89,6 +89,7 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
 
     row.trackcheck = false
     row.track:SetText(track)
+    row.progressBar:Hide()
 
     if WoWProDB.profile.track and (action == "C" or questtext or lootitem) then
         if QID and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) and WoWPro:QIDsInTableKey(QID, WoWPro.QuestLog, "leaderBoard") then
