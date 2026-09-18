@@ -289,8 +289,7 @@ local function createDisplayConfig()
                                 get = function(info) return tonumber(WoWProDB.profile.userPad) or 0 end,
                                 set = function(info,val)
                                     WoWProDB.profile.userPad = tonumber(val) or 0
-                                    WoWPro.MainFrameLayout()
-                                    WoWPro.RowSizeSet() end,
+                                    WoWPro:UpdateGuide("Config: Padding") end,
                                 width = "full"
                             },
                             spacing = {
@@ -301,7 +300,7 @@ local function createDisplayConfig()
                                 min = 0, max = 10, step = 1,
                                 get = function(info) return WoWProDB.profile.space end,
                                 set = function(info,val) WoWProDB.profile.space = val
-                                    WoWPro.RowSizeSet() end,
+                                    WoWPro:UpdateGuide("Config: Row Spacing") end,
                                 width = "full"
                             },
                             drag = {
