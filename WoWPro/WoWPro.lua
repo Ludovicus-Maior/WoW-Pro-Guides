@@ -365,8 +365,12 @@ local defaults = { profile = {
     buttonbar = true,
     buttoniconsize = 20,
     buttonpadding  = 2,
-    }
-}
+    showItemButton = true,
+    showTargetButton = true,
+    showEAButton = true,
+    showJumpButton = true,
+    showLootsButtons = true,
+} }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
