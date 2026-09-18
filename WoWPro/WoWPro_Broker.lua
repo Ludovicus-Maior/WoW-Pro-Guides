@@ -1792,8 +1792,10 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount))
 
         -- Calling on the guide's module to populate the guide window's rows --
+        local syncData
         local function rowContentUpdate()
-            local reload = WoWPro:RowUpdate(offset)
+            local reload, currentSyncData = WoWPro:RowUpdate(offset)
+            syncData = currentSyncData
             -- Hijack the click and menu functions for the Recorder if it's enabled --
             if WoWPro.Recorder then
                 WoWPro.Recorder:RowUpdate(offset)
@@ -1804,6 +1806,15 @@ function WoWPro.UpdateGuideReal(From)
         -- Reloading until all stickies that need to unsticky have done so --
         while reload do
             reload = rowContentUpdate()
+        end
+
+        if WoWPro.GroupSync and syncData then
+            if #syncData.steps > 0 then
+                _G.C_ChatInfo.SendAddonMessage("WoWPro", "steps " .. table.concat(syncData.steps, " ") .. " ", "PARTY")
+            end
+            for index, track in pairs(syncData.tracks) do
+                _G.C_ChatInfo.SendAddonMessage("WoWPro", "track " .. index .. " " .. track, "PARTY")
+            end
         end
 
         if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then

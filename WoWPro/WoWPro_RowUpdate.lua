@@ -73,7 +73,7 @@ local function NormalizeTrackText(track)
         :gsub("\n\n+", "\n")
 end
 
-function WoWPro.UpdateQuestTrackerRow(row)
+function WoWPro.UpdateQuestTrackerRow(row, syncData)
     local GID = WoWProDB.char.currentguide
     if not GID or not WoWPro.Guides[GID] then
         return
@@ -174,8 +174,8 @@ function WoWPro.UpdateQuestTrackerRow(row)
         end
     end
 
-    if row.trackcheck and WoWPro.GroupSync then
-        C_ChatInfo.SendAddonMessage("WoWPro", "track " .. index .. " " .. track, "PARTY")
+    if syncData and row.trackcheck then
+        syncData.tracks[index] = track
     end
     if WoWPro.mygroupsteps[index] ~= nil then
         row.trackcheck = true
@@ -277,7 +277,7 @@ function WoWPro:RowUpdate(offset)
     WoWPro.RowDropdownMenu = {}
     local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
     local reload = false
-    local sendsteps = "steps "
+    local syncData = {steps = {}, tracks = {}}
     local startIndex = offset or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
 
@@ -378,7 +378,7 @@ function WoWPro:RowUpdate(offset)
         -- Set row content
         currentRow:Show()
         currentRow.step:SetText(step)
-        WoWPro.UpdateQuestTrackerRow(currentRow)
+        WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
 
         if step ~= "" then
             currentRow.check:Show()
@@ -400,7 +400,7 @@ function WoWPro:RowUpdate(offset)
         currentRow.check:SetScript("OnClick", function(row, button)
             WoWPro:CheckFunction(currentRow, button)
         end)
-        sendsteps = sendsteps .. k .. " "
+        table.insert(syncData.steps, k)
 
         -- Dropdown menu
         BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
@@ -472,12 +472,7 @@ function WoWPro:RowUpdate(offset)
     local currentRow = WoWPro.rows[WoWPro:GetActiveStickyCount() + 1]
     WoWPro.CurrentIndex = currentRow and currentRow.index or stepList[1]
 
-    -- Group sync
-    if WoWPro.GroupSync then
-        C_ChatInfo.SendAddonMessage("WoWPro", sendsteps, "PARTY")
-    end
-
-    return reload
+    return reload, syncData
 end
 
 -- Rowupdate Helpers --
