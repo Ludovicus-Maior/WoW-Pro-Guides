@@ -276,7 +276,6 @@ function WoWPro:RowUpdate(offset)
 
     WoWPro.RowDropdownMenu = {}
     local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
-    local reload = false
     local syncData = {steps = {}, tracks = {}}
     local startIndex = offset or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
@@ -330,7 +329,7 @@ function WoWPro:RowUpdate(offset)
     -- Hide rows beyond visible limit
     if #stepList == 0 then
         HideRemainingRows(1)
-        return reload
+        return syncData
     end
 
     -- Process visible rows
@@ -472,7 +471,7 @@ function WoWPro:RowUpdate(offset)
     local currentRow = WoWPro.rows[WoWPro:GetActiveStickyCount() + 1]
     WoWPro.CurrentIndex = currentRow and currentRow.index or stepList[1]
 
-    return reload, syncData
+    return syncData
 end
 
 -- Rowupdate Helpers --
