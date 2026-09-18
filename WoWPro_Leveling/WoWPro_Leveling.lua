@@ -46,7 +46,7 @@ WoWPro.Leveling.ClassicStartGuides = {
     Tauren = 'ClassicMulgore0112',
     Troll = 'ClassicDurotar0112'
 }
-WoWPro.Leveling.ClassForeverStartGuides = {
+WoWPro.Leveling.ForeverStartGuides = {
     Dwarf = 'ClassicDunMorogh0112',
     Gnome = 'ClassicDunMorogh0112',
     Human = 'ClassicElwynn0112',
