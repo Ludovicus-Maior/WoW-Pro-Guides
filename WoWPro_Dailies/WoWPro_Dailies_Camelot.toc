@@ -1,4 +1,4 @@
-## Interface: 120007,120100
+## Interface: 11509
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -12,9 +12,3 @@ WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
-Retail\Alliance\Guides.xml
-Retail\Horde\Guides.xml
-Retail\Neutral\Guides.xml
-Retail\Alliance\Time_Running\Guides.xml
-Retail\Horde\Time_Running\Guides.xml
-Retail\Neutral\Time_Running\Guides.xml
