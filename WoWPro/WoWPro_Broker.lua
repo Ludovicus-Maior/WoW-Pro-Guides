@@ -1721,7 +1721,7 @@ function WoWPro.UpdateGuideReal(From)
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
         SoundDiag("UpdateGuideReal source=%s", why)
-        if not WoWPro.GuideFrame:IsVisible() then
+        if not WoWPro.GuideFrame or not WoWPro.GuideFrame.IsVisible or not WoWPro.GuideFrame:IsVisible() then
             -- Cinematic hides things (or user collapsed frame with double-click).
             -- Only re-queue if the user did not intentionally collapse the frame.
             if not WoWPro.UserCollapsed then
@@ -1874,6 +1874,13 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
         WoWPro.MainFrameLayout()
+        if _G.C_Timer and _G.C_Timer.After then
+            _G.C_Timer.After(0, function()
+                if WoWPro.GuideFrame and WoWPro.GuideFrame:IsShown() and not _G.InCombatLockdown() then
+                    WoWPro.MainFrameLayout()
+                end
+            end)
+        end
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
             WoWPro.GuideUpdated = true

@@ -70,11 +70,16 @@ function WoWPro.RowSizeSet()
 
     local spacing = WoWProDB.profile.space or 0
     local bottomPadding = 5
+    local rightPadding = 5
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
-            local stepHeight = row.step:GetStringHeight() or 0
-            local noteHeight = row.note:IsShown() and row.note:GetStringHeight() or 0
-            local trackHeight = row.track:IsShown() and row.track:GetStringHeight() or 0
+            row.step:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
+            row.note:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
+            row.track:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
+
+            local stepHeight = row.step:GetHeight() or 0
+            local noteHeight = row.note:IsShown() and row.note:GetHeight() or 0
+            local trackHeight = row.track:IsShown() and row.track:GetHeight() or 0
             local contentHeight = stepHeight
 
             if noteHeight > 0 then
@@ -223,11 +228,13 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
 
     local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
     row.track:ClearAllPoints()
+    row.track:SetJustifyH("RIGHT")
     row.track:SetPoint("LEFT", row.step, "LEFT")
+    row.track:SetPoint("RIGHT", row, "RIGHT", -5, 0)
     row.track:SetPoint("TOP", trackAnchor, "BOTTOM", 0, -3)
-    row.track:SetPoint("RIGHT")
     row.progressBar:ClearAllPoints()
     row.progressBar:SetPoint("LEFT", row.step, "LEFT")
+    row.progressBar:SetPoint("RIGHT", row, "RIGHT", -5, 0)
     row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -3)
 
     row.track:SetText(NormalizeTrackText(track))
@@ -326,26 +333,20 @@ function WoWPro:RowUpdate(offset)
     local syncData = {steps = {}, tracks = {}}
     local startIndex = offset or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
+    local regularLimit = WoWProDB.profile.autoresize and WoWProDB.profile.numsteps or 15
 
     if not InCombatLockdown() then
         _G.ClearOverrideBindings(WoWPro.MainFrame)
     end
 
-    -- Build the current window, keeping visible sticky rows above regular rows.
-    local allSteps = {}
+    -- Build enough candidates to collect the configured number of regular rows.
     local nextIndex = startIndex
-    for i = 1, 15 do
-        table.insert(allSteps, nextIndex)
-        if WoWProDB.profile.guidescroll then
-            nextIndex = nextIndex + 1
-        else
-            nextIndex = WoWPro.NextStep(nextIndex, i) + 1
-        end
-    end
-
+    local scanIndex = 1
+    local regularCount = 0
     local stickySteps = {}
     local regularSteps = {}
-    for _, stepIdx in ipairs(allSteps) do
+    while regularCount < regularLimit and scanIndex <= (WoWPro.stepcount + 15) do
+        local stepIdx = nextIndex
         if stepIdx and WoWPro.step[stepIdx] then
             if WoWPro.sticky[stepIdx] then
                 if not skipped[stepIdx] and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary) then
@@ -353,8 +354,16 @@ function WoWPro:RowUpdate(offset)
                 end
             elseif ShouldShowRow(stepIdx, completion, skipped) then
                 table.insert(regularSteps, stepIdx)
+                regularCount = regularCount + 1
             end
         end
+
+        if WoWProDB.profile.guidescroll then
+            nextIndex = nextIndex + 1
+        else
+            nextIndex = WoWPro.NextStep(nextIndex, scanIndex) + 1
+        end
+        scanIndex = scanIndex + 1
     end
 
     local stepList = {}
@@ -385,9 +394,6 @@ function WoWPro:RowUpdate(offset)
         local currentRow = WoWPro.rows[i]
         currentRow.index = k
         currentRow.num = i
-        if not InCombatLockdown() then
-            WoWPro:SetRowBackdrop(currentRow)
-        end
 
         -- Run module hook
         RunModulePreRowUpdate(module, currentRow)
@@ -516,6 +522,10 @@ function WoWPro:RowUpdate(offset)
             SetupTargetButton(currentRow, target, module)
         else
             SetupTargetButton(currentRow, nil, module)
+        end
+
+        if not InCombatLockdown() then
+            WoWPro:SetRowBackdrop(currentRow)
         end
 
         -- Save row

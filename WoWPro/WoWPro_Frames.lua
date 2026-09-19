@@ -452,7 +452,7 @@ function WoWPro:SetRowBackdrop(row)
     if not row or not row.SetBackdrop then return end
     local Profile = WoWProDB.profile
     local sticky = row.index and WoWPro.sticky and WoWPro.sticky[row.index]
-    local texture = sticky and Profile.stickytexture or Profile.bgtexture
+    local texture = sticky and (Profile.stickytexture or Profile.bgtexture) or Profile.bgtexture
     local color = sticky and Profile.stickycolor or Profile.bgcolor
 
     row:SetBackdrop({
@@ -1047,7 +1047,7 @@ function WoWPro:GuideWindowLayout()
         totalHeight = minHeight
     end
 
-    GF:SetHeight(totalHeight)
+    GF:SetHeight(totalHeight + (WoWProDB.profile.space or 0))
 end
 
 -- Lay out all row parts left-to-right so the row stays aligned and consistent
@@ -2330,10 +2330,34 @@ function WoWPro:CreateSkipStepsDialog()
     end
 end
 
--- Helper function to close Discord dialog when other buttons are pressed
-function WoWPro:CloseDiscordDialog()
-    if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then
-        WoWPro.DiscordDialog:Hide()
+-- Helper function to manage mutual exclusion and toggle navigation windows
+function WoWPro:ToggleWindow(buttonIndex)
+    local select  = WoWPro.GuideList
+    local current = WoWPro.CurrentGuideFrame
+    local discord = WoWPro.DiscordDialog
+print("ToggleWindow called with buttonIndex:", buttonIndex)
+print("Current open frame:", openFrame)
+print("Select frame:", select)
+print("Current frame:", current)
+print("Discord frame:", discord)
+
+    -- 1. Grab whichever window is currently active on screen
+    local openFrame = (select and select:IsShown() and select)
+                   or (current and current:IsShown() and current)
+                   or (discord and discord:IsShown() and discord)
+
+    -- 2. Slam the screen clear instantly
+    if openFrame then openFrame:Hide() end
+
+    -- 3. Open the newly requested window (Indices 1, 2, and 5)
+    if buttonIndex == 1 and openFrame ~= select then
+        if select then select:Show() end
+    elseif buttonIndex == 2 and openFrame ~= current then
+        if current then current:Show() end
+    elseif buttonIndex == 5 and openFrame ~= discord then
+        if discord then
+            discord:Show()
+        end
     end
 end
 
@@ -2526,11 +2550,15 @@ function WoWPro:MainFrameMouseHandler()
         end
     end
 
+    local isMoving = false
     -- OB drag: start + stop, MF only moves
     if OB then
         OB:SetScript("OnMouseDown", function(ob, button)
             if button == "LeftButton" and Profile.drag and not InCombatLockdown() then
-                MF:StartMoving()
+                if not isMoving then
+                    isMoving = true
+                    MF:StartMoving()
+                end
             elseif button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, ob, "cursor", 0, 0, "MENU")
             end
@@ -2539,7 +2567,10 @@ function WoWPro:MainFrameMouseHandler()
         OB:SetScript("OnMouseUp", function(ob, button)
             if button == "LeftButton" and Profile.drag then
                 MF:StopMovingOrSizing()
-                WoWPro.AnchorStore("OptionButtonMouseUp")
+                isMoving = false
+                C_Timer.After(0, function()
+                    WoWPro.AnchorStore("OptionButtonMouseUp")
+                end)
             end
         end)
     end
@@ -2557,37 +2588,11 @@ function WoWPro:MainFrameMouseHandler()
     -- ButtonBar buttons
     local BB = WoWPro.ButtonBar
     if BB and BB.Buttons then
-        BB.Buttons[1]:SetScript("OnClick", function()
-            WoWPro:CloseDiscordDialog()
-            if WoWPro.GuideList and WoWPro.GuideList:IsShown() then
-                WoWPro.GuideList:Hide()
-            else
-                if WoWPro.CurrentGuideFrame and WoWPro.CurrentGuideFrame:IsShown() then
-                    WoWPro.CurrentGuideFrame:Hide()
-                end
-                WoWPro.GuideList:Show()
-            end
-        end)
-
-        BB.Buttons[2]:SetScript("OnClick", function()
-            WoWPro:CloseDiscordDialog()
-            if WoWPro.CurrentGuideFrame and WoWPro.CurrentGuideFrame:IsShown() then
-                WoWPro.CurrentGuideFrame:Hide()
-            else
-                if WoWPro.GuideList and WoWPro.GuideList:IsShown() then
-                    WoWPro.GuideList:Hide()
-                end
-                WoWPro.CurrentGuideFrame:Show()
-            end
-        end)
-
-        BB.Buttons[3]:SetScript("OnClick", function()
-            WoWPro:CloseDiscordDialog()
-            WoWPro.ResetCurrentGuide()
-        end)
-
+        BB.Buttons[1]:SetScript("OnClick", function() WoWPro:ToggleWindow(1) end)
+        BB.Buttons[2]:SetScript("OnClick", function() WoWPro:ToggleWindow(2) end)
+        BB.Buttons[3]:SetScript("OnClick", function() WoWPro.ResetCurrentGuide() end)
         BB.Buttons[4]:SetScript("OnClick", function()
-            WoWPro:CloseDiscordDialog()
+            if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then WoWPro.DiscordDialog:Hide() end
             if not WoWPro.rows then
                 WoWPro:Print("No active step to skip.")
                 return
@@ -2614,17 +2619,7 @@ function WoWPro:MainFrameMouseHandler()
                 WoWPro:Print("Current step not visible in guide window.")
             end
         end)
-
-        BB.Buttons[5]:SetScript("OnClick", function()
-            if not WoWPro.DiscordDialog then
-                WoWPro:CreateDiscordDialog()
-            end
-            if WoWPro.DiscordDialog:IsShown() then
-                WoWPro.DiscordDialog:Hide()
-            else
-                WoWPro.DiscordDialog:Show()
-            end
-        end)
+        BB.Buttons[5]:SetScript("OnClick", function() WoWPro:ToggleWindow(5) end)
     end
 
     -- Row clicks

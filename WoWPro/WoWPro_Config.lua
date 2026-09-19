@@ -408,7 +408,7 @@ local function createDisplayConfig()
                                 order = 1,
                                 type = "toggle",
                                 name = L["Enable Title Bar"],
-                                desc = L["Enables/disables the title bar attached to the guide window."],
+                                desc = L["Enables/disables the title bar attached to the guide window.\n\n** This does nothing if the guide window is hidden."],
                                 get = function(info) return WoWProDB.profile.titlebar end,
                                 set = function(info,val) WoWPro:HideAndSeek(WoWPro.TitleBar, "titlebar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
