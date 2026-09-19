@@ -872,12 +872,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         local _, Name, _, _, _, _, _, Description = _G.GetAchievementInfo(achnum)
         if WoWPro.step[i] == "Achievement" and count == 0 then
             WoWPro.step[i] = Name
-            WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
+            WoWPro.note[i] = Description.."\n \n"..WoWPro.note[i]
         end
         if WoWPro.step[i] == "Achievement" and count > 0 then
             WoWPro.step[i] = Name
             local description, _, _, _, requiredQuantity, _, _, _, quantityString = _G.GetAchievementCriteriaInfo(achnum, achitem)
-            WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
+            WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n \n"..WoWPro.note[i]
         end
     end
 
@@ -1205,11 +1205,13 @@ end
 
 -- Guide Load --
 function WoWPro:LoadGuideSteps()
+    WoWPro:Trace("LoadGuideSteps:ENTER")
     WoWPro:dbp("Signaled for LoadGuideSteps for %s",tostring(WoWProDB.char.currentguide))
     WoWPro:SendMessage("WoWPro_LoadGuideSteps")
 end
 
 function WoWPro.LoadGuideStepsReal()
+    WoWPro:Trace("LoadGuideStepsReal:ENTER")
     local GID = WoWProDB.char.currentguide
     local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
 
@@ -1290,12 +1292,14 @@ end
 
 -- Guide Setup --
 function WoWPro:GuideSetup()
+    WoWPro:Trace("GuideSetup:ENTER")
     WoWPro:dbp("Signaled for GuideSetup for %s",tostring(WoWProDB.char.currentguide))
     WoWPro:SendMessage("WoWPro_GuideSetup")
 end
 
 
 function WoWPro.SetupGuideReal()
+    WoWPro:Trace("SetupGuideReal:ENTER")
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guide_nocache = WoWPro.Guides[GID].nocache
@@ -1330,7 +1334,12 @@ function WoWPro.SetupGuideReal()
         end
     end
 
-    -- Scrollbar Settings --
+        -- Scrollbar Settings --
+    if not WoWPro.Scrollbar then
+        WoWPro:CreateFrames()
+        -- Frames didn't exist yet when OnEnable ran CustomizeFrames, so the saved anchor was never restored; do it now.
+        WoWPro:CustomizeFrames()
+    end
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
     WoWPro.GuideLoaded = true
@@ -1338,9 +1347,20 @@ function WoWPro.SetupGuideReal()
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro.SetupGuideReal(1)")
     -- Location, Location, Location
-    local currentindex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
-    if currentindex and WoWPro.AutoCompleteZone(currentindex) then
-        WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
+    local sticky = WoWPro:GetActiveStickyCount()
+    local row = WoWPro.rows[1 + sticky]
+
+    if row and row.index then
+        local currentindex = row.index
+        if currentindex and WoWPro.AutoCompleteZone(currentindex) then
+            WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
+        end
+    end    WoWPro:SendMessage("WoWPro_PostLoadGuide")
+
+    WoWPro:MainFrameStackOffset()
+    WoWPro:UpdateBars()
+    if not WoWPro.MouseHandlerBound then
+        WoWPro:MainFrameMouseHandler()
+        WoWPro.MouseHandlerBound = true
     end
-    WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end

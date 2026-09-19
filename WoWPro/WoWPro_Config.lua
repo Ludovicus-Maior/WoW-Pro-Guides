@@ -15,6 +15,7 @@ LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\
 
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
+    WoWPro:Trace("CustomizeFrames:FROM_CONFIG")
     WoWPro:CustomizeFrames()
 end
 
@@ -103,6 +104,7 @@ local function createDisplayConfig()
                                 width = "double",
                                 get = function(info) return WoWProDB.profile.mousenotes end,
                                 set = function(info,val) WoWProDB.profile.mousenotes = val
+                                    if val then WoWPro:CreateMouseNotes() end
                                     WoWPro.RowSizeSet() end
                             },
                             track = {
@@ -142,7 +144,7 @@ local function createDisplayConfig()
                                 width = "double",
                                 get = function(info) return WoWProDB.profile.guidescroll end,
                                 set = function(info,val) WoWProDB.profile.guidescroll = val
-                                    WoWPro:TitlebarSet()
+                                    WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Scroll Mode") end,
                             },
                             guideprogress = {
@@ -154,7 +156,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.guideprogress end,
                                 set = function(info, val)
                                     WoWProDB.profile.guideprogress = val
-                                    WoWPro:TitlebarSet()
+                                    WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Guide Progress")
                                 end,
                             },
@@ -284,20 +286,21 @@ local function createDisplayConfig()
                                 name = L["Padding"],
                                 desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
                                 min = 0, max = 20, step = 1,
-                                get = function(info) return WoWProDB.profile.pad end,
-                                set = function(info,val) WoWProDB.profile.pad = val
-                                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                get = function(info) return tonumber(WoWProDB.profile.userPad) or 0 end,
+                                set = function(info,val)
+                                    WoWProDB.profile.userPad = tonumber(val) or 0
+                                    WoWPro:UpdateGuide("Config: Padding") end,
                                 width = "full"
                             },
                             spacing = {
                                 order = 2,
                                 type = "range",
                                 name = L["Spacing"],
-                                desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
+                                desc = L["Spacing determines how much blank space is left between rows in the guide window. "],
                                 min = 0, max = 10, step = 1,
                                 get = function(info) return WoWProDB.profile.space end,
                                 set = function(info,val) WoWProDB.profile.space = val
-                                    WoWPro.RowSizeSet() end,
+                                    WoWPro:UpdateGuide("Config: Row Spacing") end,
                                 width = "full"
                             },
                             drag = {
@@ -345,7 +348,7 @@ local function createDisplayConfig()
                                 order = 6,
                                 type = "toggle",
                                 name = L["Auto Resize"],
-                                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
+                                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle.\n \n**A reload is required to re-initialize Auto Resize."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.autoresize end,
                                 set = function(info,val) WoWProDB.profile.autoresize = val
@@ -375,6 +378,10 @@ local function createDisplayConfig()
                                 min = 250, max = 1000, step = 10,
                                 get = function(info) return WoWProDB.profile.hminresize end,
                                 set = function(info,val) WoWProDB.profile.hminresize = val
+                                    if WoWPro.MainFrame and not _G.InCombatLockdown() then
+                                        WoWPro.MainFrame:SetWidth(val)
+                                        WoWPro.AnchorSync(true)
+                                    end
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
                                 width = "full"
                             },
@@ -401,10 +408,9 @@ local function createDisplayConfig()
                                 order = 1,
                                 type = "toggle",
                                 name = L["Enable Title Bar"],
-                                desc = L["Enables/disables the title bar attached to the guide window."],
+                                desc = L["Enables/disables the title bar attached to the guide window.\n\n** This does nothing if the guide window is hidden."],
                                 get = function(info) return WoWProDB.profile.titlebar end,
-                                set = function(info,val) WoWProDB.profile.titlebar = val
-                                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                                set = function(info,val) WoWPro:HideAndSeek(WoWPro.TitleBar, "titlebar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
                             },
                             titlecolor = {
@@ -414,9 +420,7 @@ local function createDisplayConfig()
                                 desc = L["Background color for the title bar."],
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-                                set = function(info,r,g,b,a)
-                                    WoWProDB.profile.titlecolor = {r,g,b,a}
-                                    WoWPro.TitlebarSet() end
+                                set = function(info,r,g,b,a) WoWProDB.profile.titlecolor = {r,g,b,a}; WoWPro:BackgroundSet() end,
                             },
                             buttonbar = {
                                 order = 3,
@@ -424,10 +428,7 @@ local function createDisplayConfig()
                                 name = L["Enable Button Bar"],
                                 desc = L["Enables/disables the button bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.buttonbar ~= false end,
-                                set = function(info,val)
-                                    WoWProDB.profile.buttonbar = val
-                                    WoWPro:TitlebarShow()
-                                end,
+                                set = function(info,val) WoWPro:HideAndSeek(WoWPro.ButtonBar, "buttonbar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
                                 width = "double"
                             },
                         },
@@ -552,14 +553,14 @@ local function createDisplayConfig()
                                     WoWProDB.profile.stepfont = hashtable[val]
                                     WoWPro.RowFontSet() end
                             },
-                            steptextsize = {
+                            stepfontsize = {
                                 order = 2,
                                 type = "range",
                                 name = L["Step Text Size"],
                                 desc = L["Size of the main step text."],
                                 min = 1, max = 30, step = 1,
-                                get = function(info) return WoWProDB.profile.steptextsize end,
-                                set = function(info,val) WoWProDB.profile.steptextsize = val
+                                get = function(info) return WoWProDB.profile.stepfontsize end,
+                                set = function(info,val) WoWProDB.profile.stepfontsize = val
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
@@ -594,14 +595,14 @@ local function createDisplayConfig()
                                     WoWProDB.profile.notefont = hashtable[val]
                                     WoWPro.RowFontSet() end
                             },
-                            notetextsize = {
+                            notefontsize = {
                                 order = 5,
                                 type = "range",
                                 name = L["Note Text Size"],
                                 desc = L["Size of the note text."],
                                 min = 1, max = 30, step = 1,
-                                get = function(info) return WoWProDB.profile.notetextsize end,
-                                set = function(info,val) WoWProDB.profile.notetextsize = val
+                                get = function(info) return WoWProDB.profile.notefontsize end,
+                                set = function(info,val) WoWProDB.profile.notefontsize = val
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
@@ -636,14 +637,14 @@ local function createDisplayConfig()
                                     WoWProDB.profile.trackfont = hashtable[val]
                                     WoWPro.RowFontSet() end
                             },
-                            tracktextsize = {
+                            trackfontsize = {
                                 order = 8,
                                 type = "range",
                                 name = L["Tracker Text Size"],
                                 desc = L["Size of the tracking text."],
                                 min = 1, max = 30, step = 1,
-                                get = function(info) return WoWProDB.profile.tracktextsize end,
-                                set = function(info,val) WoWProDB.profile.tracktextsize = val
+                                get = function(info) return WoWProDB.profile.trackfontsize end,
+                                set = function(info,val) WoWProDB.profile.trackfontsize = val
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
@@ -676,17 +677,17 @@ local function createDisplayConfig()
                                 set = function(info,val)
                                     local hashtable = LSM:HashTable("font")
                                     WoWProDB.profile.titlefont = hashtable[val]
-                                    WoWPro:TitlebarSet() end
+                                    WoWPro:TitleBarSet() end
                             },
-                            titletextsize = {
+                            titlefontsize = {
                                 order = 11,
                                 type = "range",
                                 name = L["Title Bar Text Size"],
                                 desc = L["Size of the title bar text."],
                                 min = 1, max = 30, step = 1,
-                                get = function(info) return WoWProDB.profile.titletextsize end,
-                                set = function(info,val) WoWProDB.profile.titletextsize = val
-                                    WoWPro:TitlebarSet() end
+                                get = function(info) return WoWProDB.profile.titlefontsize end,
+                                set = function(info,val) WoWProDB.profile.titlefontsize = val
+                                    WoWPro:TitleBarSet() end
                             },
                             titletextcolor = {
                                 order = 12,
@@ -695,9 +696,9 @@ local function createDisplayConfig()
                                 desc = L["Color of the title bar text."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
-                                set = function(info,r,g,b)
-                                    WoWProDB.profile.titletextcolor = {r,g,b}
-                                    WoWPro:TitlebarSet() end
+                                set = function(info,r,g,b,a)
+                                    WoWProDB.profile.titletextcolor = {r,g,b,a}
+                                    WoWPro:TitleBarSet() end
                             },
                             stickytitlefont = {
                                 order = 13,
@@ -720,14 +721,14 @@ local function createDisplayConfig()
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
-                            stickytitletextsize = {
+                            stickytitlefontsize = {
                                 order = 14,
                                 type = "range",
                                 name = L["'As you go:' Text Size"],
                                 desc = L["Size of the text on the top of the sticky frame."],
                                 min = 1, max = 30, step = 1,
-                                get = function(info) return WoWProDB.profile.stickytitletextsize end,
-                                set = function(info,val) WoWProDB.profile.stickytitletextsize = val
+                                get = function(info) return WoWProDB.profile.stickytitlefontsize end,
+                                set = function(info,val) WoWProDB.profile.stickytitlefontsize = val
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
