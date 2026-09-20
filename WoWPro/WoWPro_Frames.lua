@@ -2335,11 +2335,6 @@ function WoWPro:ToggleWindow(buttonIndex)
     local select  = WoWPro.GuideList
     local current = WoWPro.CurrentGuideFrame
     local discord = WoWPro.DiscordDialog
-print("ToggleWindow called with buttonIndex:", buttonIndex)
-print("Current open frame:", openFrame)
-print("Select frame:", select)
-print("Current frame:", current)
-print("Discord frame:", discord)
 
     -- 1. Grab whichever window is currently active on screen
     local openFrame = (select and select:IsShown() and select)
@@ -2355,9 +2350,13 @@ print("Discord frame:", discord)
     elseif buttonIndex == 2 and openFrame ~= current then
         if current then current:Show() end
     elseif buttonIndex == 5 and openFrame ~= discord then
-        if discord then
-            discord:Show()
+        -- THE LAZY CREATION TEST: If it doesn't exist yet, call the creator function!
+        if not discord and type(WoWPro.CreateDiscordDialog) == "function" then
+            WoWPro:CreateDiscordDialog() -- Execute the build function
+            discord = WoWPro.DiscordDialog -- Re-fetch the newly generated window table
         end
+        -- Safe execution pass now that it is guaranteed to exist
+        if discord then discord:Show() end
     end
 end
 
