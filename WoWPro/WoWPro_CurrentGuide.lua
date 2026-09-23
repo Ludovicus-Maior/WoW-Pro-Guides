@@ -225,7 +225,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = _G.WoWProDB.char.currentguide
-    text = ("Version: %s\nClass: %s\nRace: %s\nFaction: %s\nGuide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
+    text = ("Version: %s\nClass: %s\nRace: %s\nFaction: %s\nGuide: %s\n \n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText(text)

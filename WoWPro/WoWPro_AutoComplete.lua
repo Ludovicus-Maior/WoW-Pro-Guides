@@ -175,11 +175,11 @@ end
 
 -- Auto-Complete: Do we have a buff? --
 function WoWPro.AutoCompleteBuff(unit, ...)
-    if unit ~= "player" then return end
+    if unit ~= "player" or not WoWPro.rows then return end
     for i = 1,15 do
         local index = WoWPro.rows[i].index
         if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
-            -- Log only the usefull ones!
+            -- Log only the useful ones!
             WoWPro:LogEvent("UNIT_AURA", unit, ...)
             WoWPro.CompleteStep(index, "AutoCompleteBuff", nil, "AutoCompleteBuff")
         end
