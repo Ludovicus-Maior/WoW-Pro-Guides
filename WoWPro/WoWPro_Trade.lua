@@ -6,7 +6,7 @@
 
 -- list of all available professions and their skillLine ID
 
-if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure something else can be done (Classic does not recognize the [2477] = { exp = 0, parent ...etc lines)
+if WoWPro.CLASSIC or WoWPro.FOREVER then   --  Gets Profs to work in Classic doing this, not sure something else can be done (Classic does not recognize the [2477] = { exp = 0, parent ...etc lines)
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
 		[165] = { name = 'Leatherworking' },
@@ -356,10 +356,14 @@ if not WoWPro.RETAIL then
 	WoWPro.ProfessionLocalNames["Riding"] = "Riding"
     for profName, spellID in pairs(WoWPro.ProfessionSpellIDs) do
         local spellInfo = WoWPro.C_Spell_GetSpellInfo(spellID)
-        local localName = spellInfo.name
-        if localName ~= nil then
-            WoWPro.ProfessionLocalNames[localName] = profName
-        end
+		if spellInfo ~= nil then
+			local localName = spellInfo.name
+			if localName ~= nil then
+				WoWPro.ProfessionLocalNames[localName] = profName
+			end
+		else
+			WoWPro:dbp("WoWPro.ProfessionLocalNames: SpellID %d for profession %s returned nil from GetSpellInfo()", spellID, profName)
+		end
     end
 
     -- generate a lookup table for profession names to profession skill lines
@@ -375,7 +379,35 @@ if not WoWPro.RETAIL then
         local scanned = 0
         local tradeskills = {}
 
-        for idx = 1, _G.GetNumSkillLines() do
+		if not (_G.GetNumSkillLines and _G.GetSkillLineInfo) then
+			-- WoW: Forever reports a Classic interface version but does not provide
+			-- the Classic skill-line globals. It does provide
+			-- GetProfessions()/GetProfessionInfo(), the same pair the Retail branch
+			-- below uses, so scan with those instead of giving up on professions.
+			if _G.GetProfessions and _G.GetProfessionInfo then
+				for _, profIndex in pairs({_G.GetProfessions()}) do
+					local _, _, skillLevel, skillMaxRank, _, _, skillLineID, skillModifier = _G.GetProfessionInfo(profIndex)
+					if skillLineID and WoWPro.ProfessionSkillLines[skillLineID] then
+						tradeskills[skillLineID] = {
+							name = WoWPro.ProfessionSkillLines[skillLineID].name,
+							skillLvl = skillLevel,
+							skillMod = skillModifier,
+							skillMax = skillMaxRank
+						}
+						scanned = scanned + 1
+					end
+				end
+				WoWPro.UpdateTradeSkillsTable(tradeskills)
+				WoWPro:dbp("UpdateTradeSkills(): GetNumSkillLines() is absent, GetProfessions() scanned %d tradeskills", scanned)
+				return
+			end
+
+			WoWPro:dbp("UpdateTradeSkills(): neither GetNumSkillLines() nor GetProfessions() is available")
+			WoWPro.UpdateTradeSkillsTable(tradeskills)
+			return
+		end
+
+        for idx = 1, (_G.GetNumSkillLines() or 0) do
             local localName, header, _, skillLevel, _, skillModifier, skillMaxRank = _G.GetSkillLineInfo(idx)
             local skillName = WoWPro.ProfessionLocalNames[localName]
             local profID = WoWPro.ProfessionNameToSkillLine[skillName]
@@ -473,7 +505,7 @@ function WoWPro.TradeskillsReport()
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Tradeskills Bug Report","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local text
-        local GID = WoWProDB.char.currentguide
+        local GID = WoWPro.GetCurrentGuide()
         text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
         text = text .. "_TID Lvl Max ++ Name\n"
         for tradeID, tradeskill in pairs(WoWProCharDB.Tradeskills) do

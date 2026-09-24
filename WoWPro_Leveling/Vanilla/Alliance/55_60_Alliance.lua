@@ -6,7 +6,7 @@ Permissions beyond the scope of this license may be available at http://github.c
 local guide = WoWPro:RegisterGuide('ClassicAlliance5560', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Alliance Leveling 55-60')
 WoWPro:GuideLevels(guide,55, 59)
-WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
+WoWPro:GuideNextGuide(guide, 'Dungeon_BRD')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|1455; Ironforge|N|From Cenarion Emissary Jademoon.|

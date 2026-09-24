@@ -253,7 +253,7 @@ end
 function WoWPro.DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
     if not WoWPro.map[j] then return 1e196 end
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if WoWProCharDB.Guide[GID].completion[i] or WoWProCharDB.Guide[GID].completion[j] then return 0 end
     if WoWProCharDB.Guide[GID].skipped[j] or WoWProCharDB.Guide[GID].skipped[j] then return 0 end
     local map_i, map_j = WoWPro.map[i], WoWPro.map[j]
@@ -279,7 +279,7 @@ end
 
 function WoWPro.DistanceToStep(i)
     if not WoWPro.map[i] then return 1e200 end
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
     if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
     local map_i = WoWPro.map[i]
@@ -342,7 +342,7 @@ end
 
 local LastMapPoint = nil
 function WoWPro:MapPoint(row)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
     if not WoWPro.GuideLoaded then return end
     if WoWPro.InitLockdown then return end

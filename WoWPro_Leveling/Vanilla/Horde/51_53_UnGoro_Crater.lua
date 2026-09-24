@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('ClassicUngoro5153', 'Leveling', "Un'Goro Crater", 'WoWPro Team', 'Horde', 1)
 WoWPro:GuideName(guide, "Un'Goro Crater (51-53)")
 WoWPro:GuideLevels(guide, 51, 53, 52)
-WoWPro:GuideNextGuide(guide, 'ClassicHordeBurningSteppes')
+WoWPro:GuideNextGuide(guide, 'ClassicHordeBurningSteppes5354')
 WoWPro:GuideSteps(guide, function()
 return [[
 

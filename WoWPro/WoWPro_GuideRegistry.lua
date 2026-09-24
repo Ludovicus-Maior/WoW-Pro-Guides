@@ -230,6 +230,26 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
+    -- WoWPro:FinalizeGuides() calls <module>:RegisterGuide(guide) with the guide
+    -- object, while guide files call WoWPro:RegisterGuide(id, ...) with the id as
+    -- a string. Both reach this function for the WorldEvents module, so accept
+    -- either form rather than assuming the string.
+    local who = GIDvalue
+    if type(GIDvalue) == "table" then
+        who = GIDvalue.GID or GIDvalue.name or GIDvalue.guidetype or tostring(GIDvalue)
+    end
+
+    if type(zonename) ~= "string" then
+        -- A guide with no zone is legitimate - WoWPro:ValidZone() below copes with
+        -- an empty one and falls back to the guide name - but indexing it here
+        -- raised "attempt to index local 'zonename' (a nil value)" and took the
+        -- whole addon down with it. Report it and carry on instead.
+        --
+        -- Reporting the object itself leaves "table: 0x..." in the log with
+        -- nothing to act on, so the identifier is extracted above.
+        WoWPro:Error("WoWPro:RegisterGuide(%s): no zone given, using the id as the zone.", tostring(who))
+        zonename = tostring(who)
+    end
     -- Check for funky zones line 'Shadowglen (NightElf)'
     local trueZone = zonename:match("([^%(]+)"):trim()
     local name = nil

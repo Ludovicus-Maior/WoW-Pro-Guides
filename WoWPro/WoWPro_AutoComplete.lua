@@ -314,7 +314,7 @@ end
 
 -- Auto-Complete: Quest Update --
 function WoWPro:AutoCompleteQuestUpdate(questComplete)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
     if not WoWProCharDB.Guide then return end
     if not WoWProCharDB.Guide[GID] then return end
@@ -506,7 +506,7 @@ end
 function WoWPro:AutoCompleteLevel(...)
     local newlevel = ... or _G.UnitLevel("player")
     if WoWProCharDB.Guide then
-        local GID = WoWProDB.char.currentguide
+        local GID = WoWPro.GetCurrentGuide()
         if not WoWProCharDB.Guide[GID] then return end
         for i=1,WoWPro.stepcount do
             if not WoWProCharDB.Guide[GID].completion[i]

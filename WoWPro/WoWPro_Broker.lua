@@ -624,7 +624,7 @@ function WoWPro:LoadGuide(guideID)
         return
     end
     if guideID then
-        WoWProDB.char.currentguide = WoWPro:GuideFormalName(guideID)
+        WoWPro.SetCurrentGuide(WoWPro:GuideFormalName(guideID))
     end
     WoWPro.GuideLoaded = false
     WoWPro.GuideUpdated = false
@@ -638,8 +638,84 @@ function WoWPro:LoadGuide(guideID)
 	end
 end
 
+-- How many one-second attempts to make before treating a missing guide selection as
+-- real, and then how often to keep looking afterwards.
+--
+-- A selection can appear at any point: the client restoring it, the player picking one,
+-- or a workaround for the Forever beta's broken SavedVariables restore (see the TOC
+-- note). Asking once and giving up leaves the window on the loading note for the rest of
+-- the session even after the data turns up, so the fast retries are followed by a slow
+-- poll, and both are cheap.
+WoWPro.NilGuideMaxRetries = WoWPro.NilGuideMaxRetries or 150
+
+-- One second for the first ten minutes, then five seconds for another twenty. Silent
+-- until it succeeds: a character with no guide selected must not be told every second
+-- that there is nothing to restore.
+WoWPro.LateGuidePollFastSeconds = 1
+WoWPro.LateGuidePollSlowSeconds = 5
+WoWPro.LateGuidePollFastMinutes = 10
+WoWPro.LateGuidePollMinutes = 30
+
+function WoWPro.PollForLateGuide()
+    local function again()
+        if _G.C_Timer and _G.C_Timer.After then
+            local delay = WoWPro.LateGuidePollFastSeconds
+            if (WoWPro.LateGuidePolls or 0) > (WoWPro.LateGuidePollFastMinutes * 60) / WoWPro.LateGuidePollFastSeconds then
+                delay = WoWPro.LateGuidePollSlowSeconds
+            end
+            _G.C_Timer.After(delay, function() WoWPro.PollForLateGuide() end)
+        end
+    end
+
+    if WoWPro.GuideLoaded then
+        WoWPro.LateGuidePollActive = false
+        return
+    end
+    if WoWPro.NilGuideRetries > 0 then
+        -- The retry is already asking; let it finish.
+        again()
+        return
+    end
+    if WoWPro.RefreshDatabaseIfReplaced() then
+        -- The rebuild asked for a load; look again shortly in case it could not
+        -- finish (guide not registered yet, say).
+        again()
+        return
+    end
+
+    local GID = WoWPro.GetCurrentGuide()
+    if GID and WoWPro.Guides[GID] then
+        WoWPro.LateGuidePollActive = false
+        WoWPro.ReselectLastGuide("late SavedVariables")
+        return
+    end
+
+    WoWPro.LateGuidePolls = (WoWPro.LateGuidePolls or 0) + 1
+    local limit = (WoWPro.LateGuidePollMinutes * 60) / WoWPro.LateGuidePollFastSeconds
+    if WoWPro.LateGuidePolls > limit then
+        WoWPro.LateGuidePollActive = false
+        WoWPro:print("PollForLateGuide(): stopped after %d checks over %d minutes; no guide selection arrived.",
+            WoWPro.LateGuidePolls, WoWPro.LateGuidePollMinutes)
+        return
+    end
+    again()
+end
+
+function WoWPro.StartLateGuidePoll()
+    if not (_G.C_Timer and _G.C_Timer.After) then return end
+    if WoWPro.LateGuidePollActive then return end
+    WoWPro.LateGuidePollActive = true
+    WoWPro.LateGuidePolls = 0
+    _G.C_Timer.After(WoWPro.LateGuidePollFastSeconds, function() WoWPro.PollForLateGuide() end)
+end
+
 function WoWPro.LoadGuideReal()
-    local GID = WoWProDB.char.currentguide
+    -- The account SavedVariables can land after OnInitialize, replacing the table
+    -- AceDB was built on; rebuild from them when that has happened, so the saved
+    -- profile and its currentguide are actually visible to the lines below.
+    WoWPro:RefreshDatabaseIfReplaced()
+
+    local GID = WoWPro.GetCurrentGuide()
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
     -- If currently in startup lockdown, punt
     if WoWPro.LockdownTimer ~= nil then
@@ -692,18 +768,88 @@ function WoWPro.LoadGuideReal()
             end
         until GID
 
-        WoWProDB.char.currentguide = GID
+        WoWPro.SetCurrentGuide(GID)
     end
 
     WoWPro:print("WoWPro.LoadGuideReal(): starting guide cleanup:  %s",tostring(GID))
 
     --Checking the GID and loading the guide --
     if not GID then
+        -- Normally there is genuinely no guide to load. But on a client that
+        -- restores SavedVariables late, currentguide can still be empty when this
+        -- first runs, and LoadNilGuide() wipes the window - so the guide looks
+        -- deselected even though it is about to arrive.
+        --
+        -- Confirmed on WoW: Forever: LoadGuideReal() logged a cleanup for nil at
+        -- 01:07:52 and for the real guide at 01:08:05, thirteen seconds later.
+        -- Rather than tear the display down on the first empty read, wait a short
+        -- while for the value to turn up, and give up on it only once the retries
+        -- are spent.
+        WoWPro.NilGuideRetries = (WoWPro.NilGuideRetries or 0) + 1
+        if WoWPro.NilGuideRetries <= WoWPro.NilGuideMaxRetries then
+            -- Mark that the window is inside the recovery period, so LoadNilGuide()
+            -- shows a loading note instead of wiping the rows. Bounded by wall clock
+            -- as well as by the retry count, so a genuine "no guide" is still
+            -- reported rather than deferred indefinitely.
+            WoWPro.NilGuideInStartup = true
+            WoWPro.NilGuideWaitUntil = WoWPro.NilGuideWaitUntil or ((_G.GetTime and _G.GetTime() or 0) + 30)
+            if (_G.GetTime and _G.GetTime() or 0) > WoWPro.NilGuideWaitUntil then
+                WoWPro.NilGuideInStartup = false
+            end
+
+            -- Log the state of every store that could be holding the answer, so a
+            -- gap between "no guide yet" and the guide appearing can be attributed
+            -- rather than guessed at. print() not dbp(), because these lines are the
+            -- point of the diagnostic and dbp is silent unless debug is on.
+            --
+            -- WoWProLastGuide is included because it is now the store the recovery
+            -- actually depends on; the first version of this line omitted it, which
+            -- is why the previous session showed both databases nil and said nothing
+            -- about the one that was about to answer.
+            -- The first attempt and then every twenty-fifth. The log is a SavedVariable,
+            -- so a line here is a line in the player's account file on every logout.
+            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 25 == 0 then
+                WoWPro:print("LoadGuideReal(): no guide selection yet (attempt %d/%d).",
+                    WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries)
+            end
+            WoWPro:dbp("LoadGuideReal(): no guide yet, waiting for SavedVariables (attempt %d/%d).",
+                WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries)
+            -- Retried with a direct timer rather than WoWPro_LoadGuide. That message
+            -- is bucketed, and on this client the bucket is not servicing it promptly
+            -- during startup: one session logged the retry at 01:32:05 and the guide
+            -- only loading at 01:32:31, with no further attempts in between, even
+            -- though seventy-nine were left. A timer does not depend on the bucket
+            -- being spun up.
+            if _G.C_Timer and _G.C_Timer.After then
+                _G.C_Timer.After(1.0, function() WoWPro.LoadGuideReal() end)
+            else
+                WoWPro:SendMessage("WoWPro_LoadGuide")
+            end
+            return
+        end
+
+        WoWPro.NilGuideRetries = 0
         WoWPro:LoadNilGuide()
         WoWPro:dbp("No guide specified, loading NilGuide.")
-        -- LFO: something else here
+        -- Tell the player why the window has nothing in it, once. On this client it is
+        -- not a slow load that is about to finish: the beta never restores addon
+        -- SavedVariables, so unless a workaround is installed the selection is simply
+        -- not coming, and saying so beats another empty window.
+        if not WoWPro.NoSelectionNoticeShown then
+            WoWPro.NoSelectionNoticeShown = true
+            WoWPro:Print("No saved guide was restored - WoW: Forever's beta does not restore addon SavedVariables. Pick one with the leftmost icon above the window, or see github.com/nobewayo/ForeverSVFix.")
+        end
+        -- Spending the retries is not proof that the character has no guide: the
+        -- client has been seen handing the saved file over five and a half minutes
+        -- after login. Keep asking, slowly, so the guide comes back on its own
+        -- rather than staying lost until the next reload.
+        WoWPro.StartLateGuidePoll()
         return
     end
+
+    WoWPro.NilGuideRetries = 0
+    WoWPro.NilGuideInStartup = false
+    WoWPro.NilGuideWaitUntil = nil
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
@@ -719,13 +865,18 @@ function WoWPro.LoadGuideReal()
             WoWProCharDB.Guide[newGID] = WoWProCharDB.Guide[GID]
             WoWProCharDB.Guide[GID] = nil
             GID = newGID
-            WoWProDB.char.currentguide = GID
+            WoWPro.SetCurrentGuide(GID)
         end
     end
     if not WoWPro.Guides[GID] then
+        -- The guide not being registered is not the same as the player having no
+        -- guide selected. Clearing the selection here meant that a single bad load -
+        -- a guide file that failed to load, or a client that had not registered it
+        -- yet - threw the player's choice away permanently. Show the nil guide, but
+        -- leave the selection alone so it loads once the guide is available.
         WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
+        WoWPro:Warning("Guide %q is not registered, so it cannot be loaded yet. The selection is kept.", tostring(GID))
         WoWPro:LoadNilGuide()
-        WoWProDB.char.currentguide = nil
         return
     end
     WoWPro:dbp("Loading Guide: "..GID)
@@ -822,7 +973,7 @@ WoWPro.GuideOffset = nil
 
 -- Update Quest Tracker --
 function WoWPro.UpdateQuestTrackerRow(row)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
 
     local index = row.index
@@ -1234,11 +1385,27 @@ end
 
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
         WoWPro:dbp("Punting: WoWPro:RowUpdate()")
         return
     end
+    -- The completion table is read ~80 lines below. NextStep() cannot supply a
+    -- missing one - it punts - so without this the read raised
+    -- "attempt to index field '?' (a nil value)" from the AceTimer driving the
+    -- update, and NextStep's own warning flooded chat on every cycle.
+    --
+    -- The state normally exists by now, created by LoadGuideReal(). When it does
+    -- not, an empty one still gives the correct display (nothing completed yet)
+    -- and LoadGuideReal fills it in when it runs.
+    local guideState = WoWProCharDB.Guide[GID]
+    if not guideState then
+        WoWPro:dbp("RowUpdate(): no state for %s, creating an empty one", tostring(GID))
+        guideState = {}
+        WoWProCharDB.Guide[GID] = guideState
+    end
+    guideState.completion = guideState.completion or {}
+    guideState.skipped = guideState.skipped or {}
     WoWPro:dbp("Running: WoWPro:RowUpdate()")
     WoWPro:SetActiveStickyCount(0)
     local reload = false
@@ -2015,7 +2182,12 @@ if step then
                 mtext = "/target "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
-                if not WoWPro.MIDNIGHT then
+                -- SetRaidTarget() is protected. Calling it from the secure button's
+                -- macro taints the button and the client raises
+                -- ADDON_ACTION_FORBIDDEN, which blocks the whole action rather than
+                -- just the marker. The option is off by default on clients where
+                -- that happens, but a user who turns it on asked for it.
+                if not WoWPro.MIDNIGHT and WoWProDB.profile.targetButtonRaidMarker then
                     mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
                 end
             end
@@ -2110,7 +2282,7 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro.UpdateGuideRealInProgress = true
     local function runUpdate()
-        local GID = WoWProDB.char.currentguide
+        local GID = WoWPro.GetCurrentGuide()
         local why = ""
         for who, count in pairs(From) do
             why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
@@ -2313,7 +2485,7 @@ function WoWPro.UpdateGuideReal(From)
         -- If the guide is complete, loading the next guide --
         if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
             if WoWProDB.profile.autoload then
-                WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
+                WoWPro.SetCurrentGuide(WoWPro:NextGuide(GID))
                 WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
                 WoWPro:LoadGuide()
                 return
@@ -2366,12 +2538,20 @@ Rep2IdAndClass = {
 -- Determines the next active step --
 function WoWPro.NextStep(guideIndex, rowIndex)
     -- Removed unused qid variable; use QID from WoWPro.QID[guideIndex] directly where needed
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local guide = WoWProCharDB.Guide[GID]
     if not guide then
-        WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
+        -- NextStep runs on a repeating bucket, so this warning used to repeat every
+        -- cycle and flood the chat frame with hundreds of identical lines. Report it
+        -- once per guide instead; the state is created by LoadGuideReal(), and
+        -- repeating the message does not bring it back.
+        if WoWPro.NextStepMissingStateFor ~= GID then
+            WoWPro.NextStepMissingStateFor = GID
+            WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
+        end
         return 1
     end
+    WoWPro.NextStepMissingStateFor = nil
     guide.skipped = guide.skipped or {}
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
@@ -4265,7 +4445,7 @@ function WoWPro.CompleteStep(step, why, noUpdate, origin)
         WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
         return false
     end
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
     local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
@@ -4372,7 +4552,7 @@ WoWPro.inhibit_oldQuests_update = false
 -- Populate the Quest Log table for other functions to call on --
 -- Check all repeatable A steps and uncomplete if quest no longer in log --
 function WoWPro.CheckRepeatableSteps()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
     local guide = WoWProCharDB.Guide[GID]
     if not guide then return end
@@ -4751,7 +4931,7 @@ end
 -- Quest Ordering by distance to travel
 
 function WoWPro.SwapSteps(i,j)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag][j] ,  WoWPro[tag][i] =  WoWPro[tag][i] ,  WoWPro[tag][j]
     end
@@ -4775,7 +4955,7 @@ end
 
 -- Put completed and skipped steps at end of guide
 function WoWPro:CompleteAtEnd()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local last = WoWPro.stepcount
     for i=1, WoWPro.stepcount do
         if WoWProCharDB.Guide[GID].completion[i] then
@@ -4865,7 +5045,7 @@ end
 -- Interface to Grail
 function WoWPro:SkipAll()
     WoWPro:Print("Marking All Quests as skipped")
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     for index=1, WoWPro.stepcount do
         if not WoWProCharDB.Guide[GID].completion[index] then
             WoWProCharDB.Guide[GID].skipped[index] = true
@@ -4875,7 +5055,7 @@ end
 
 function WoWPro:DoQuest(qid)
     WoWPro:Print("Marking QID %s for execution.",qid)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     qid = tonumber(qid)
     for index=1, WoWPro.stepcount do
         if tonumber(WoWPro.QID[index]) == qid and not WoWProCharDB.Guide[GID].completion[index] then

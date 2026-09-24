@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Misfit Dragons', 'Leveling', 'Valdrakken', '
 WoWPro:GuideName(guide,"Misfit Dragons")
 WoWPro:GuideLevels(guide,70, 80)
 WoWPro:GuideNickname(guide, "Misfit Dragons")
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'ChromieTimeA|ChromieTimeH')
 WoWPro:GuideQuestTriggers(guide, 76460)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:TopCategory(guide, "End Game")
