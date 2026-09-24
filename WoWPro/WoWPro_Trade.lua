@@ -380,10 +380,31 @@ if not WoWPro.RETAIL then
         local tradeskills = {}
 
         -- Older Classic clients expose the skill-line API as globals. WoW: Forever
-        -- reports a Classic interface version but does not provide them, so scan
-        -- only when they are present and report the shortfall otherwise.
+        -- reports a Classic interface version but does not provide them. It does
+        -- provide GetProfessions()/GetProfessionInfo(), which the Retail branch
+        -- below already uses, so fall back to those rather than giving up.
         if not (_G.GetNumSkillLines and _G.GetSkillLineInfo) then
-            WoWPro:Warning("UpdateTradeSkills(): GetNumSkillLines()/GetSkillLineInfo() are unavailable on this client; profession tracking is disabled.")
+            if _G.GetProfessions and _G.GetProfessionInfo then
+                for _, profIndex in pairs({_G.GetProfessions()}) do
+                    local _, _, skillLevel, skillMaxRank, _, _, skillLineID, skillModifier = _G.GetProfessionInfo(profIndex)
+                    -- skillLineID is always the parent id, so once you learn an
+                    -- expansion the id stays the base one
+                    if skillLineID and WoWPro.ProfessionSkillLines[skillLineID] then
+                        tradeskills[skillLineID] = {
+                            name = WoWPro.ProfessionSkillLines[skillLineID].name,
+                            skillLvl = skillLevel,
+                            skillMod = skillModifier,
+                            skillMax = skillMaxRank
+                        }
+                        scanned = scanned + 1
+                    end
+                end
+                WoWPro.UpdateTradeSkillsTable(tradeskills)
+                WoWPro:dbp("UpdateTradeSkills(): GetNumSkillLines() is unavailable, used GetProfessions() and scanned %d tradeskills", scanned)
+                return
+            end
+
+            WoWPro:Warning("UpdateTradeSkills(): neither GetNumSkillLines() nor GetProfessions() is available on this client; profession tracking is disabled.")
             WoWPro.UpdateTradeSkillsTable(tradeskills)
             return
         end
