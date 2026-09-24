@@ -406,32 +406,49 @@ function WoWPro:OnInitialize()
     WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
 
-    -- The selected guide is kept in two places.
+    -- The selected guide is kept in three places, because on WoW: Forever the
+    -- first two both come back empty at login.
     --
-    -- It normally lives in WoWProDB.char, keyed by "name - realm". On WoW: Forever
-    -- that is the one thing that goes missing: after a /reload the char table came
-    -- back holding "hearth" but not "currentguide", so the addon concluded no guide
-    -- was selected and showed "No Guide Loaded", and cleared the stored value on the
-    -- way out.
+    -- It normally lives in WoWProDB.char, keyed by "name - realm", and on this
+    -- client that is the entry that goes missing: after a /reload the char table
+    -- came back holding "hearth" but not "currentguide", so the addon concluded no
+    -- guide was selected and then cleared what was stored on the way out.
     --
-    -- WoWProCharDB is plain per-character SavedVariables and demonstrably survives
-    -- - it is where the Guide[] progress state lives - so every write mirrors there
-    -- and a read that finds nothing adopts what it finds there.
+    -- Mirroring into WoWProCharDB was not enough, because the same clearing writes
+    -- nil over the mirror too. A diagnostic from a live session confirmed both
+    -- stores reading nil at the first load attempt:
+    --
+    --     WoWProDB.char.currentguide=nil WoWProCharDB.currentguide=nil
+    --
+    -- So the last guide that was actually selected is also kept in WoWProLastGuide,
+    -- a plain top-level SavedVariable that is only ever written with a real guide
+    -- id. Nothing in the load or reset paths clears it, so it survives whatever is
+    -- losing the other two.
     function WoWPro.GetCurrentGuide()
-        local GID = WoWProDB.char.currentguide
-        if not GID then
-            GID = WoWProCharDB.currentguide
-            if GID then
-                -- Adopt the recovered value so the rest of the session sees it.
-                WoWProDB.char.currentguide = GID
-            end
+        local GID = WoWProDB.char.currentguide or WoWProCharDB.currentguide
+        if not GID and type(WoWProLastGuide) == "string" and WoWProLastGuide ~= "" then
+            GID = WoWProLastGuide
+        end
+        if GID then
+            -- Adopt the recovered value so the rest of the session sees it.
+            WoWProDB.char.currentguide = GID
+            WoWProCharDB.currentguide = GID
         end
         return GID
     end
 
-    function WoWPro.SetCurrentGuide(GID)
+    -- forget: true means "this is a reset, do not remember the selection".
+    -- Callers that are giving up on finding a guide pass it, so a later load does
+    -- not resurrect a guide the addon had already decided to drop. A normal
+    -- selection records itself and is never forgotten.
+    function WoWPro.SetCurrentGuide(GID, forget)
         WoWProDB.char.currentguide = GID
         WoWProCharDB.currentguide = GID
+        if GID then
+            WoWProLastGuide = GID
+        elseif forget then
+            WoWProLastGuide = nil
+        end
     end
 
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}

@@ -774,9 +774,14 @@ function WoWPro.LoadGuideReal()
         end
     end
     if not WoWPro.Guides[GID] then
+        -- The guide not being registered is not the same as the player having no
+        -- guide selected. Clearing the selection here meant that a single bad load -
+        -- a guide file that failed to load, or a client that had not registered it
+        -- yet - threw the player's choice away permanently. Show the nil guide, but
+        -- leave the selection alone so it loads once the guide is available.
         WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
+        WoWPro:Warning("Guide %q is not registered, so it cannot be loaded yet. The selection is kept.", tostring(GID))
         WoWPro:LoadNilGuide()
-        WoWPro.SetCurrentGuide(nil)
         return
     end
     WoWPro:dbp("Loading Guide: "..GID)
