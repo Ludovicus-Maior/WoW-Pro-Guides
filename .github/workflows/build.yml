@@ -14,3 +14,9 @@ jobs:
         sudo apt-get install luarocks
         luarocks install --local luacheck
         /home/runner/.luarocks/bin/luacheck . --no-color -q
+
+    - name: Validate .toc file references
+      run: python3 validate_tocs.py
+
+    - name: Run the .toc validator tests
+      run: python3 tests/test_validate_tocs.py
