@@ -72,8 +72,9 @@ RegisterMarkup("ach", WoWPro.ExpandAch)
 function WoWPro.ExpandSpell(spell, want_icon, want_text)
 
     local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spell))
-    local name = spellInfo.name
-    local texture = spellInfo.iconID
+    -- Guard before indexing: a spell the client does not know yields no info.
+    local name = spellInfo and spellInfo.name
+    local texture = spellInfo and spellInfo.iconID
     local link  =  WoWPro.C_Spell_GetSpellLink(tonumber(spell))
     local expanded = ""
     if name then

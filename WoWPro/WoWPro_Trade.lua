@@ -379,8 +379,30 @@ if not WoWPro.RETAIL then
         local scanned = 0
         local tradeskills = {}
 
-		if not _G.GetNumSkillLines then
-			WoWPro:dbp("UpdateTradeSkills(): GetNumSkillLines() is nil)")
+		if not (_G.GetNumSkillLines and _G.GetSkillLineInfo) then
+			-- WoW: Forever reports a Classic interface version but does not provide
+			-- the Classic skill-line globals. It does provide
+			-- GetProfessions()/GetProfessionInfo(), the same pair the Retail branch
+			-- below uses, so scan with those instead of giving up on professions.
+			if _G.GetProfessions and _G.GetProfessionInfo then
+				for _, profIndex in pairs({_G.GetProfessions()}) do
+					local _, _, skillLevel, skillMaxRank, _, _, skillLineID, skillModifier = _G.GetProfessionInfo(profIndex)
+					if skillLineID and WoWPro.ProfessionSkillLines[skillLineID] then
+						tradeskills[skillLineID] = {
+							name = WoWPro.ProfessionSkillLines[skillLineID].name,
+							skillLvl = skillLevel,
+							skillMod = skillModifier,
+							skillMax = skillMaxRank
+						}
+						scanned = scanned + 1
+					end
+				end
+				WoWPro.UpdateTradeSkillsTable(tradeskills)
+				WoWPro:dbp("UpdateTradeSkills(): GetNumSkillLines() is absent, GetProfessions() scanned %d tradeskills", scanned)
+				return
+			end
+
+			WoWPro:dbp("UpdateTradeSkills(): neither GetNumSkillLines() nor GetProfessions() is available")
 			WoWPro.UpdateTradeSkillsTable(tradeskills)
 			return
 		end
