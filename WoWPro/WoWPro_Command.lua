@@ -50,6 +50,11 @@ local function handler(msg, editbox)
     elseif ltoken == "load-guide" then
         WoWPro.SetCurrentGuide(nil)
         WoWPro:LoadGuide(tokens[2])
+    elseif ltoken == "last-guide" or ltoken == "last" then
+        -- Same as the "Reset Current Guide" menu entry, except it works when no guide
+        -- is loaded at all: it recovers the last guide this character was on from the
+        -- saved stores and rebuilds it from the quest log.
+        WoWPro.ReselectLastGuide("command", true)
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
@@ -193,7 +198,7 @@ local function handler(msg, editbox)
             end
         end
     else
-        local text = ("%s or %s [where|flightids¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devzone|devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        local text = ("%s or %s [where|flightids¦last-guide¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devzone|devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
     end
 end

@@ -12,6 +12,7 @@ globals = {
     "WoWPro_Locale",
     "WoWProDB",
     "WoWProCharDB",
+    "WoWProLastGuide",
 
     "TourGuide",
 }
