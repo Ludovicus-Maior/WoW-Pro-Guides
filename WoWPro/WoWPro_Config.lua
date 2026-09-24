@@ -238,8 +238,18 @@ local function createDisplayConfig()
                                         set = function(info,val) WoWProDB.profile.showTargetButton = val
                                             WoWPro:UpdateGuide("Config: Target Button Visibility") end
                                     },
-                                    showEAButton = {
+                                    targetButtonRaidMarker = {
                                         order = 3,
+                                        type = "toggle",
+                                        name = L["Mark Target With Skull"],
+                                        desc = L["Mark the target button's mob with the skull raid marker. On clients that do not allow an addon to set a raid marker this raises an \"action blocked\" warning and can stop the button working, so it is off by default there."],
+                                        width = "double",
+                                        get = function(info) return WoWProDB.profile.targetButtonRaidMarker end,
+                                        set = function(info,val) WoWProDB.profile.targetButtonRaidMarker = val
+                                            WoWPro:UpdateGuide("Config: Target Raid Marker") end
+                                    },
+                                    showEAButton = {
+                                        order = 4,
                                         type = "toggle",
                                         name = L["Show Extra Action Button"],
                                         desc = L["Enable/Disable the extra action button (for quest objectives)"],
@@ -249,7 +259,7 @@ local function createDisplayConfig()
                                             WoWPro:UpdateGuide("Config: EA Button Visibility") end
                                     },
                                     showJumpButton = {
-                                        order = 4,
+                                        order = 5,
                                         type = "toggle",
                                         name = L["Show Jump Button"],
                                         desc = L["Enable/Disable the guide jump button (for level jumps or guide transitions)"],
@@ -259,7 +269,7 @@ local function createDisplayConfig()
                                             WoWPro:UpdateGuide("Config: Jump Button Visibility") end
                                     },
                                     showLootsButtons = {
-                                        order = 5,
+                                        order = 6,
                                         type = "toggle",
                                         name = L["Show Loot Buttons"],
                                         desc = L["Enable/Disable the loot item buttons (for item actions)"],

@@ -2015,7 +2015,12 @@ if step then
                 mtext = "/target "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
-                if not WoWPro.MIDNIGHT then
+                -- SetRaidTarget() is protected. Calling it from the secure button's
+                -- macro taints the button and the client raises
+                -- ADDON_ACTION_FORBIDDEN, which blocks the whole action rather than
+                -- just the marker. The option is off by default on clients where
+                -- that happens, but a user who turns it on asked for it.
+                if not WoWPro.MIDNIGHT and WoWProDB.profile.targetButtonRaidMarker then
                     mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
                 end
             end
