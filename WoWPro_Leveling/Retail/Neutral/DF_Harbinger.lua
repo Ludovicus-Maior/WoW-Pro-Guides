@@ -3,7 +3,7 @@ WoWPro:GuideName(guide,"Harbinger")
 WoWPro:GuideQuestTriggers(guide, 79009)
 WoWPro:GuideLevels(guide,70, 80)
 WoWPro:GuideContent(guide, "Dragonflight")
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'ChromieTimeA|ChromieTimeH')
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[

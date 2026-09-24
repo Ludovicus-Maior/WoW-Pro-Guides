@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Maghar', 'Achievements', 'Orgrimmar', 'WoWPr
 WoWPro:GuideName(guide,"Mag'har Orc Unlock")
 WoWPro:GuideLevels(guide,1, 60)
 WoWPro.Achievements:GuideMisc(guide, "Maghar Orc", "Allied Races", "Legion")
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'ChromieTimeH')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Caverns of Time|QID|53467|M|66.96,73.74|Z|1163|N|From Chief Telemancer Oculeth.|

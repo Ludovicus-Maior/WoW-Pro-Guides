@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Lorewalking-Loa', 'Achievements', 'Orgrimmar
 WoWPro:GuideName(guide,"Lorewalking")
 WoWPro:GuideLevels(guide,10, 90)
 WoWPro.Achievements:GuideMisc(guide, "Lorewalking-Loa", "Lorewalking", "Midnight")
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'ChromieTimeA|ChromieTimeH')
 WoWPro:GuideSteps(guide, function()
 return [[
 C Lorewalking: The Loa of Kings|QID|92826|M|58.72,70.82|Z|2393|QO|1|NC|N|Listen to Li Li to learn about the loa.|
