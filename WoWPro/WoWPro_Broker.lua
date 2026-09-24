@@ -638,6 +638,12 @@ function WoWPro:LoadGuide(guideID)
 	end
 end
 
+-- How many WoWPro_LoadGuide cycles to wait for currentguide to appear before
+-- treating its absence as real. The message is bucketed at 0.25s, so 80 attempts
+-- is about 20 seconds, comfortably covering the 13 seconds WoW: Forever took to
+-- hand the saved value over.
+WoWPro.NilGuideMaxRetries = WoWPro.NilGuideMaxRetries or 80
+
 function WoWPro.LoadGuideReal()
     local GID = WoWProDB.char.currentguide
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
@@ -699,11 +705,32 @@ function WoWPro.LoadGuideReal()
 
     --Checking the GID and loading the guide --
     if not GID then
+        -- Normally there is genuinely no guide to load. But on a client that
+        -- restores SavedVariables late, currentguide can still be empty when this
+        -- first runs, and LoadNilGuide() wipes the window - so the guide looks
+        -- deselected even though it is about to arrive.
+        --
+        -- Confirmed on WoW: Forever: LoadGuideReal() logged a cleanup for nil at
+        -- 01:07:52 and for the real guide at 01:08:05, thirteen seconds later.
+        -- Rather than tear the display down on the first empty read, wait a short
+        -- while for the value to turn up, and give up on it only once the retries
+        -- are spent.
+        WoWPro.NilGuideRetries = (WoWPro.NilGuideRetries or 0) + 1
+        if WoWPro.NilGuideRetries <= WoWPro.NilGuideMaxRetries then
+            WoWPro:dbp("LoadGuideReal(): no guide yet, waiting for SavedVariables (attempt %d/%d).",
+                WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries)
+            WoWPro:SendMessage("WoWPro_LoadGuide")
+            return
+        end
+
+        WoWPro.NilGuideRetries = 0
         WoWPro:LoadNilGuide()
         WoWPro:dbp("No guide specified, loading NilGuide.")
         -- LFO: something else here
         return
     end
+
+    WoWPro.NilGuideRetries = 0
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
