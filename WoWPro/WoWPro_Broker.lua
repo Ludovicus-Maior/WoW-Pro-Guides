@@ -747,7 +747,17 @@ function WoWPro.LoadGuideReal()
             end
             WoWPro:dbp("LoadGuideReal(): no guide yet, waiting for SavedVariables (attempt %d/%d).",
                 WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries)
-            WoWPro:SendMessage("WoWPro_LoadGuide")
+            -- Retried with a direct timer rather than WoWPro_LoadGuide. That message
+            -- is bucketed, and on this client the bucket is not servicing it promptly
+            -- during startup: one session logged the retry at 01:32:05 and the guide
+            -- only loading at 01:32:31, with no further attempts in between, even
+            -- though seventy-nine were left. A timer does not depend on the bucket
+            -- being spun up.
+            if _G.C_Timer and _G.C_Timer.After then
+                _G.C_Timer.After(1.0, function() WoWPro.LoadGuideReal() end)
+            else
+                WoWPro:SendMessage("WoWPro_LoadGuide")
+            end
             return
         end
 
