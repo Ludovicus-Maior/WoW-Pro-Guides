@@ -3,6 +3,19 @@
 -------------------------------
 
 function WoWPro:LoadNilGuide()
+    -- Do not tear the window down while the selected guide is still being waited
+    -- for. On WoW: Forever the saved value arrives seconds after login, and during
+    -- that window the display was wiped to "No Guide Loaded" - which reads as the
+    -- guide having been reset even though it is about to be restored.
+    --
+    -- LoadGuideReal() counts the wait in WoWPro.NilGuideRetries; while that count is
+    -- climbing, show a loading note and leave the rows alone.
+    if (WoWPro.NilGuideRetries or 0) > 0 and WoWPro.NilGuideInStartup then
+        WoWPro:dbp("LoadNilGuide(): deferred, still waiting for the guide selection (attempt %d).", WoWPro.NilGuideRetries)
+        WoWPro.TitleText:SetText("WoW-Pro: loading guide...")
+        return
+    end
+
     WoWPro.step = { "No Guide Loaded" }
     WoWPro.action = { "Interface\\Icons\\INV_Misc_Note_01" }
     WoWPro.stepcount = 1

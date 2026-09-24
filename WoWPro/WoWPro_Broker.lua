@@ -717,6 +717,28 @@ function WoWPro.LoadGuideReal()
         -- are spent.
         WoWPro.NilGuideRetries = (WoWPro.NilGuideRetries or 0) + 1
         if WoWPro.NilGuideRetries <= WoWPro.NilGuideMaxRetries then
+            -- Mark that the window is inside the recovery period, so LoadNilGuide()
+            -- shows a loading note instead of wiping the rows. Bounded by wall clock
+            -- as well as by the retry count, so a genuine "no guide" is still
+            -- reported rather than deferred indefinitely.
+            WoWPro.NilGuideInStartup = true
+            WoWPro.NilGuideWaitUntil = WoWPro.NilGuideWaitUntil or ((_G.GetTime and _G.GetTime() or 0) + 30)
+            if (_G.GetTime and _G.GetTime() or 0) > WoWPro.NilGuideWaitUntil then
+                WoWPro.NilGuideInStartup = false
+            end
+
+            -- Log the state of every store that could be holding the answer, so a
+            -- gap between "no guide yet" and the guide appearing can be attributed
+            -- rather than guessed at. print() not dbp(), because these lines are the
+            -- point of the diagnostic and dbp is silent unless debug is on.
+            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 10 == 0 then
+                WoWPro:print("LoadGuideReal(): no guide yet (attempt %d/%d). WoWProDB.char.currentguide=%s WoWProCharDB.currentguide=%s lockdown=%s guides2register=%s",
+                    WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries,
+                    tostring(WoWProDB and WoWProDB.char and WoWProDB.char.currentguide),
+                    tostring(WoWProCharDB and WoWProCharDB.currentguide),
+                    tostring(WoWPro.LockdownTimer),
+                    tostring(WoWPro.Guides2Register and #WoWPro.Guides2Register))
+            end
             WoWPro:dbp("LoadGuideReal(): no guide yet, waiting for SavedVariables (attempt %d/%d).",
                 WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries)
             WoWPro:SendMessage("WoWPro_LoadGuide")
@@ -731,6 +753,8 @@ function WoWPro.LoadGuideReal()
     end
 
     WoWPro.NilGuideRetries = 0
+    WoWPro.NilGuideInStartup = false
+    WoWPro.NilGuideWaitUntil = nil
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
