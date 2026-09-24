@@ -129,6 +129,21 @@ local function holiday_for(name)
 end
 
 function WoWPro.WorldEvents:RegisterGuide(gid, name, zone, kind, author, faction, steps, release)
+    -- This method is reached two ways and they pass different things:
+    --
+    --   * guide files call it as WorldEvents:RegisterGuide(gid, name, zone, ...)
+    --   * WoWPro:FinalizeGuides() calls guide-owning modules as
+    --     <module>:RegisterGuide(guide), passing the already-built guide object
+    --
+    -- WoWPro:RegisterGuide() is the base registry, and the WorldEvents method
+    -- shadows it here, so the second form landed in this function and was passed
+    -- straight back out as if the guide object were an id - which is what put
+    -- "RegisterGuide(table: 0x...): no zone given" in the log. A guide that is
+    -- already registered has nothing left to do, so that form returns early.
+    if type(gid) == "table" then
+        return gid
+    end
+
     local guide = WoWPro:RegisterGuide(gid, 'WorldEvents', zone, author, faction, release or 1)
     if not guide then
         return nil
