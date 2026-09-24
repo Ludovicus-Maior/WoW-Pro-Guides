@@ -424,13 +424,36 @@ function WoWPro:OnInitialize()
     -- a plain top-level SavedVariable that is only ever written with a real guide
     -- id. Nothing in the load or reset paths clears it, so it survives whatever is
     -- losing the other two.
+    -- Which stores actually survive on this client, established by comparing the
+    -- saved files rather than by reasoning:
+    --
+    --   account level, WoWProData          restores. The "Default" profile came back
+    --                                      with size, position and scale intact, and
+    --                                      WoWProData.char[<key>].hearth survives too.
+    --   account level, a new global        restores in principle, but every save
+    --   (WoWProLastGuide)                  taken so far has it as nil, and a
+    --                                      traceback on the only code that can clear
+    --                                      it never fired.
+    --   per character, WoWProCharDB        does NOT restore. Both saves on disk have
+    --                                      an empty Guide table and no completedQIDs,
+    --                                      and WoWProCharDB.currentguide is absent.
+    --
+    -- So the guide selection is kept in the account-level profile, which is the one
+    -- store with evidence of restoring. The other places are still written, so this
+    -- is harmless on clients that behave and is the only thing that works on this
+    -- one.
     function WoWPro.GetCurrentGuide()
-        local GID = WoWProDB.char.currentguide or WoWProCharDB.currentguide
+        local fromProfile = WoWProDB.profile and WoWProDB.profile.currentguide
+        local GID = fromProfile or WoWProDB.char.currentguide or WoWProCharDB.currentguide
         if not GID and type(WoWProLastGuide) == "string" and WoWProLastGuide ~= "" then
             GID = WoWProLastGuide
         end
         if GID then
-            -- Adopt the recovered value so the rest of the session sees it.
+            -- Adopt the recovered value so the rest of the session sees it, and so
+            -- the next save carries it in the store that is actually restoring.
+            if fromProfile ~= GID then
+                WoWProDB.profile.currentguide = GID
+            end
             WoWProDB.char.currentguide = GID
             WoWProCharDB.currentguide = GID
         end
@@ -442,6 +465,19 @@ function WoWPro:OnInitialize()
     -- not resurrect a guide the addon had already decided to drop. A normal
     -- selection records itself and is never forgotten.
     function WoWPro.SetCurrentGuide(GID, forget)
+        -- Clearing the selection also clears the stores that survive a lost restore,
+        -- so who did it and from where matters. A live session came back with every
+        -- store nil without any of the known callers appearing to run, so the caller
+        -- is traced rather than reasoned about.
+        if not GID then
+            WoWPro:print("SetCurrentGuide(nil) called with forget=%s. profile=%s char=%s last=%s. Caller: %s",
+                tostring(forget),
+                tostring(WoWProDB.profile and WoWProDB.profile.currentguide),
+                tostring(WoWProDB.char.currentguide),
+                tostring(WoWProLastGuide),
+                tostring(_G.debugstack and _G.debugstack(2) or "?"))
+        end
+        if WoWProDB.profile then WoWProDB.profile.currentguide = GID end
         WoWProDB.char.currentguide = GID
         WoWProCharDB.currentguide = GID
         if GID then

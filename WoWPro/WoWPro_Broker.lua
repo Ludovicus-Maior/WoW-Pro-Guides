@@ -731,11 +731,17 @@ function WoWPro.LoadGuideReal()
             -- gap between "no guide yet" and the guide appearing can be attributed
             -- rather than guessed at. print() not dbp(), because these lines are the
             -- point of the diagnostic and dbp is silent unless debug is on.
-            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 10 == 0 then
-                WoWPro:print("LoadGuideReal(): no guide yet (attempt %d/%d). WoWProDB.char.currentguide=%s WoWProCharDB.currentguide=%s lockdown=%s guides2register=%s",
+            --
+            -- WoWProLastGuide is included because it is now the store the recovery
+            -- actually depends on; the first version of this line omitted it, which
+            -- is why the previous session showed both databases nil and said nothing
+            -- about the one that was about to answer.
+            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 5 == 0 then
+                WoWPro:print("LoadGuideReal(): no guide yet (attempt %d/%d). WoWProDB.char=%s WoWProCharDB=%s WoWProLastGuide=%s lockdown=%s g2r=%s",
                     WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries,
                     tostring(WoWProDB and WoWProDB.char and WoWProDB.char.currentguide),
                     tostring(WoWProCharDB and WoWProCharDB.currentguide),
+                    tostring(WoWProLastGuide),
                     tostring(WoWPro.LockdownTimer),
                     tostring(WoWPro.Guides2Register and #WoWPro.Guides2Register))
             end
