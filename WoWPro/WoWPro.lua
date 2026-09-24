@@ -354,6 +354,17 @@ local defaults = { profile = {
     buttonbar = true,
     showItemButton = true,
     showTargetButton = true,
+    -- Mark the target button's mob with the skull raid marker. SetRaidTarget() is
+    -- protected, so on clients that forbid an addon from calling it the call
+    -- taints the secure button's macro and the client raises
+    -- ADDON_ACTION_FORBIDDEN. Off by default from interface 16000 (WoW: Forever's
+    -- 1.60.1), which is the client this was reported on and the first one where
+    -- the call is refused; Midnight, where the marker line is dropped entirely,
+    -- is unaffected by the default either way.
+    --
+    -- GetBuildInfo() is read directly because this table is built before
+    -- WoWPro.TocVersion is assigned.
+    targetButtonRaidMarker = (select(4, _G.GetBuildInfo()) < 16000),
     showEAButton = true,
     showJumpButton = true,
     showLootsButtons = true,
