@@ -2307,7 +2307,7 @@ function WoWPro.ResetCurrentGuide()
     if not WoWProDB.char.currentguide then return end
     if not WoWPro.GuideLoaded then return end
     WoWPro.GuideLoaded = false
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     WoWProCharDB.Guide[GID] = nil
     WoWPro.RowLimit = nil  -- Reset row limit so it recalculates on guide reload
     if WoWPro.stepcount then

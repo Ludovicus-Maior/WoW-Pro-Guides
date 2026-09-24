@@ -511,7 +511,7 @@ end
 
 function WoWPro.ProcessFinalRound(winner, qidx)
     local QID = WoWPro.QID[qidx]
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not QID then return; end
 
     if winner == 1 then

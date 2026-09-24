@@ -139,28 +139,28 @@ function WoWPro.Leveling:OnEnable()
         if currentLevel == 1 and currentXP < 100 then
             WoWPro.Leveling:Print("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ClassicStartGuides[engRace])
             elseif WoWPro.FOREVER then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ForeverStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ForeverStartGuides[engRace])
             elseif WoWPro.BC then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ClassicBCStartGuides[engRace])
             elseif WoWPro.WRATH then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ClassicWrathStartGuides[engRace])
             elseif WoWPro.CATA then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicCataStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ClassicCataStartGuides[engRace])
             elseif WoWPro.MOP then
-                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicMoPStartGuides[engRace]
+                WoWPro.SetCurrentGuide(WoWPro.Leveling.ClassicMoPStartGuides[engRace])
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 or mapID == 1409 then
 					local faction = WoWPro.Faction
 					if faction == "Horde" then
-						WoWProDB.char.currentguide = "EliHordeExile"
+						WoWPro.SetCurrentGuide("EliHordeExile")
 					else
-						WoWProDB.char.currentguide = "CagER0110"
+						WoWPro.SetCurrentGuide("CagER0110")
 					end
 				else
-					WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+					WoWPro.SetCurrentGuide(WoWPro.Leveling.StartGuides[engRace])
 				end
             end
             WoWPro.Leveling:Print("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
@@ -176,20 +176,20 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:Print("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("JamScar5558")
         elseif currentLevel == 10 and currentXP < 300 and _G.PlayerGetTimerunningSeasonID and (_G.PlayerGetTimerunningSeasonID() == 2) then
-            WoWProDB.char.currentguide = "TR_LegionIntro"
+            WoWPro.SetCurrentGuide("TR_LegionIntro")
             WoWPro.Leveling:Print("Loading Legion Remix universal starter guide %s", WoWProDB.char.currentguide)
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 10 and currentXP < 300 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
             WoWPro.Leveling:Print("Loading Allied DK starter %s guide",locClass)
-            WoWProDB.char.currentguide = "LudoAlliedDK"
+            WoWPro.SetCurrentGuide("LudoAlliedDK")
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 8 and currentXP < 300 and engClass == "DEMONHUNTER" then
             WoWPro.Leveling:Print("Loading DH starter %s guide",locClass)
-            WoWProDB.char.currentguide =  "LinksMardum098099"
+            WoWPro.SetCurrentGuide("LinksMardum098099")
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         elseif currentLevel == 10 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
             WoWPro.Leveling:Print("Loading Allied starter %s guide",engRace)
-            WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
+            WoWPro.SetCurrentGuide(WoWPro.Leveling.AlliedStartGuides[engRace])
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         -- No current guide, but a guide was stored for later use --
         elseif WoWProDB.char.lastlevelingguide then

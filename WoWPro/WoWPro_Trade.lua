@@ -505,7 +505,7 @@ function WoWPro.TradeskillsReport()
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Tradeskills Bug Report","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local text
-        local GID = WoWProDB.char.currentguide
+        local GID = WoWPro.GetCurrentGuide()
         text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
         text = text .. "_TID Lvl Max ++ Name\n"
         for tradeID, tradeskill in pairs(WoWProCharDB.Tradeskills) do

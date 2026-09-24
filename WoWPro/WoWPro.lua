@@ -405,6 +405,35 @@ function WoWPro:OnInitialize()
     WoWProCharDB = WoWProCharDB or {}
     WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
+
+    -- The selected guide is kept in two places.
+    --
+    -- It normally lives in WoWProDB.char, keyed by "name - realm". On WoW: Forever
+    -- that is the one thing that goes missing: after a /reload the char table came
+    -- back holding "hearth" but not "currentguide", so the addon concluded no guide
+    -- was selected and showed "No Guide Loaded", and cleared the stored value on the
+    -- way out.
+    --
+    -- WoWProCharDB is plain per-character SavedVariables and demonstrably survives
+    -- - it is where the Guide[] progress state lives - so every write mirrors there
+    -- and a read that finds nothing adopts what it finds there.
+    function WoWPro.GetCurrentGuide()
+        local GID = WoWProDB.char.currentguide
+        if not GID then
+            GID = WoWProCharDB.currentguide
+            if GID then
+                -- Adopt the recovered value so the rest of the session sees it.
+                WoWProDB.char.currentguide = GID
+            end
+        end
+        return GID
+    end
+
+    function WoWPro.SetCurrentGuide(GID)
+        WoWProDB.char.currentguide = GID
+        WoWProCharDB.currentguide = GID
+    end
+
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
     WoWProCharDB.completedQIDsWarband = WoWProCharDB.completedQIDsWarband or {}
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
@@ -1143,7 +1172,7 @@ function WoWPro.TestGuideLoad(guidID)
         return
     end
     WoWPro:print("Test Loading " .. guidID)
-    WoWProDB.char.currentguide = guidID
+    WoWPro.SetCurrentGuide(guidID)
     --Re-initializing tags and counts--
     for i,tag in pairs(WoWPro.Tags) do
         WoWPro[tag] = {}

@@ -258,7 +258,7 @@ end
 -- Skip a step --
 
 function WoWPro.SkipStep(index, list_only)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local skippedQIDs = {}
     local skipped = {}
     WoWPro:dbp("SkipStep(%s) Action is %s QID is %s. list_only=%s",tostring(index),  tostring(WoWPro.action[index]), tostring(WoWPro.QID[index]), tostring(list_only))
@@ -318,7 +318,7 @@ end
 
 -- Unskip a step --
 function WoWPro.UnSkipStep(index)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     WoWProCharDB.Guide[GID].completion[index] = nil
     if WoWPro.QID[index] then
         local numqids = select("#", ("^&"):split(WoWPro.QID[index]))
@@ -534,7 +534,7 @@ end
 
 
 function WoWPro.EmitStep(i)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
 
     if not i or not WoWPro.stepcount then return "<nil>"; end
     if i > WoWPro.stepcount then return "<EOG>"; end
@@ -604,7 +604,7 @@ function WoWPro.EmitSafeStep(index)
 end
 
 function WoWPro.ParseQuestLine(faction, zone, i, text)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
 
     text = text:trim()
     -- Printing anything with a | is dangerous.  Map it to a ¦
@@ -928,7 +928,7 @@ function WoWPro.RecordStuff(i)
     local NPCs = WoWPro.NPC[i]
     if not QIDs then return end
 
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local guideType = WoWPro.Guides[GID].guidetype
     local guideClass = WoWPro[guideType]
     local recordQIDs = guideClass.RecordQIDs or WoWPro.Guides[GID].AutoSwitch
@@ -997,7 +997,7 @@ end
 -- Quest parsing function --
 function WoWPro.ParseSteps(steps)
     WoWPro:dbp("Parsing Guide, %d steps",#steps)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local i = 2  -- Leave room the the L step
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
@@ -1210,7 +1210,7 @@ function WoWPro:LoadGuideSteps()
 end
 
 function WoWPro.LoadGuideStepsReal()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local AutoSwitch = WoWPro.Guides[GID].AutoSwitch
 
     WoWPro:dbp("LoadGuideStepsReal(%s) AutoSwitch=%s",GID,tostring(AutoSwitch));
@@ -1296,7 +1296,7 @@ end
 
 
 function WoWPro.SetupGuideReal()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local guideType = WoWPro.Guides[GID].guidetype
     local guide_nocache = WoWPro.Guides[GID].nocache
 

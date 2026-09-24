@@ -624,7 +624,7 @@ function WoWPro:LoadGuide(guideID)
         return
     end
     if guideID then
-        WoWProDB.char.currentguide = WoWPro:GuideFormalName(guideID)
+        WoWPro.SetCurrentGuide(WoWPro:GuideFormalName(guideID))
     end
     WoWPro.GuideLoaded = false
     WoWPro.GuideUpdated = false
@@ -645,7 +645,7 @@ end
 WoWPro.NilGuideMaxRetries = WoWPro.NilGuideMaxRetries or 80
 
 function WoWPro.LoadGuideReal()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
     -- If currently in startup lockdown, punt
     if WoWPro.LockdownTimer ~= nil then
@@ -698,7 +698,7 @@ function WoWPro.LoadGuideReal()
             end
         until GID
 
-        WoWProDB.char.currentguide = GID
+        WoWPro.SetCurrentGuide(GID)
     end
 
     WoWPro:print("WoWPro.LoadGuideReal(): starting guide cleanup:  %s",tostring(GID))
@@ -746,13 +746,13 @@ function WoWPro.LoadGuideReal()
             WoWProCharDB.Guide[newGID] = WoWProCharDB.Guide[GID]
             WoWProCharDB.Guide[GID] = nil
             GID = newGID
-            WoWProDB.char.currentguide = GID
+            WoWPro.SetCurrentGuide(GID)
         end
     end
     if not WoWPro.Guides[GID] then
         WoWPro:dbp("Guide "..GID.." not found, loading NilGuide.")
         WoWPro:LoadNilGuide()
-        WoWProDB.char.currentguide = nil
+        WoWPro.SetCurrentGuide(nil)
         return
     end
     WoWPro:dbp("Loading Guide: "..GID)
@@ -849,7 +849,7 @@ WoWPro.GuideOffset = nil
 
 -- Update Quest Tracker --
 function WoWPro.UpdateQuestTrackerRow(row)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
 
     local index = row.index
@@ -1261,7 +1261,7 @@ end
 
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
         WoWPro:dbp("Punting: WoWPro:RowUpdate()")
         return
@@ -2158,7 +2158,7 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWPro.UpdateGuideRealInProgress = true
     local function runUpdate()
-        local GID = WoWProDB.char.currentguide
+        local GID = WoWPro.GetCurrentGuide()
         local why = ""
         for who, count in pairs(From) do
             why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
@@ -2361,7 +2361,7 @@ function WoWPro.UpdateGuideReal(From)
         -- If the guide is complete, loading the next guide --
         if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
             if WoWProDB.profile.autoload then
-                WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
+                WoWPro.SetCurrentGuide(WoWPro:NextGuide(GID))
                 WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
                 WoWPro:LoadGuide()
                 return
@@ -2414,7 +2414,7 @@ Rep2IdAndClass = {
 -- Determines the next active step --
 function WoWPro.NextStep(guideIndex, rowIndex)
     -- Removed unused qid variable; use QID from WoWPro.QID[guideIndex] directly where needed
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local guide = WoWProCharDB.Guide[GID]
     if not guide then
         -- NextStep runs on a repeating bucket, so this warning used to repeat every
@@ -4321,7 +4321,7 @@ function WoWPro.CompleteStep(step, why, noUpdate, origin)
         WoWPro:print("WoWPro.CompleteStep called with nil step; reason='%s'", tostring(why))
         return false
     end
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
     local alreadyComplete = not not WoWProCharDB.Guide[GID].completion[step]
@@ -4428,7 +4428,7 @@ WoWPro.inhibit_oldQuests_update = false
 -- Populate the Quest Log table for other functions to call on --
 -- Check all repeatable A steps and uncomplete if quest no longer in log --
 function WoWPro.CheckRepeatableSteps()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     if not GID or not WoWPro.Guides[GID] then return end
     local guide = WoWProCharDB.Guide[GID]
     if not guide then return end
@@ -4807,7 +4807,7 @@ end
 -- Quest Ordering by distance to travel
 
 function WoWPro.SwapSteps(i,j)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag][j] ,  WoWPro[tag][i] =  WoWPro[tag][i] ,  WoWPro[tag][j]
     end
@@ -4831,7 +4831,7 @@ end
 
 -- Put completed and skipped steps at end of guide
 function WoWPro:CompleteAtEnd()
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     local last = WoWPro.stepcount
     for i=1, WoWPro.stepcount do
         if WoWProCharDB.Guide[GID].completion[i] then
@@ -4921,7 +4921,7 @@ end
 -- Interface to Grail
 function WoWPro:SkipAll()
     WoWPro:Print("Marking All Quests as skipped")
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     for index=1, WoWPro.stepcount do
         if not WoWProCharDB.Guide[GID].completion[index] then
             WoWProCharDB.Guide[GID].skipped[index] = true
@@ -4931,7 +4931,7 @@ end
 
 function WoWPro:DoQuest(qid)
     WoWPro:Print("Marking QID %s for execution.",qid)
-    local GID = WoWProDB.char.currentguide
+    local GID = WoWPro.GetCurrentGuide()
     qid = tonumber(qid)
     for index=1, WoWPro.stepcount do
         if tonumber(WoWPro.QID[index]) == qid and not WoWProCharDB.Guide[GID].completion[index] then

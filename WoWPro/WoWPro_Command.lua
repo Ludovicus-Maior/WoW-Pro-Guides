@@ -48,7 +48,7 @@ local function handler(msg, editbox)
 		end
 		WoWPro.LoadGuideStepsReal()
     elseif ltoken == "load-guide" then
-        WoWProDB.char.currentguide = nil
+        WoWPro.SetCurrentGuide(nil)
         WoWPro:LoadGuide(tokens[2])
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()

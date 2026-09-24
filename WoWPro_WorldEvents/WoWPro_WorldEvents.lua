@@ -33,7 +33,7 @@ function WoWPro.WorldEvents:OnDisable()
     if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "WorldEvents" then
         WoWPro:RemoveMapPoint()
         WoWProDB.char.lastWorldEventsguide = WoWProDB.char.currentguide
-        WoWProDB.char.currentguide = nil
+        WoWPro.SetCurrentGuide(nil)
         WoWPro:LoadGuide()
     end
 end
