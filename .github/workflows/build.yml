@@ -7,10 +7,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
 
+    - name: Validate .toc and XML file references
+      run: python3 validate_tocs.py
+
+    - name: Run the validator tests
+      run: python3 -m unittest discover -s tests -v
+
+    # validate_guides.py is deliberately not run here: it reports 25 guide links
+    # that resolve to nothing in guide trees this branch does not touch, so it
+    # would fail on pre-existing content. It is still useful locally.
     - name: Install and run Luacheck
       run: |
-        sudo apt-get install luarocks
+        sudo apt-get install -y luarocks
         luarocks install --local luacheck
         /home/runner/.luarocks/bin/luacheck . --no-color -q
