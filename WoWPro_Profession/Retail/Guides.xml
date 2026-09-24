@@ -67,7 +67,7 @@
 	<Script file="Leatherworking_MoP.lua"/>
 	<Script file="Leatherworking_WoD.lua"/>
 	<Script file="Leatherworking_LEG.lua"/>
-	<Script file="Leatherworking_BfA.lua"/>
+	<Script file="Leatherworking_BFA.lua"/>
 	<Script file="Leatherworking_SL.lua"/>
 	<Script file="Tailoring_HUB.lua"/>
 	<Script file="Tailoring_VAN.lua"/>
