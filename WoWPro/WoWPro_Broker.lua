@@ -638,15 +638,139 @@ function WoWPro:LoadGuide(guideID)
 	end
 end
 
--- How many WoWPro_LoadGuide cycles to wait for currentguide to appear before
--- treating its absence as real. The message is bucketed at 0.25s, so 80 attempts
--- is about 20 seconds, comfortably covering the 13 seconds WoW: Forever took to
--- hand the saved value over.
-WoWPro.NilGuideMaxRetries = WoWPro.NilGuideMaxRetries or 80
+-- How many one-second attempts to make before treating a missing guide selection as
+-- real.
+--
+-- It is a long wait on purpose. On the WoW: Forever beta the client does not restore
+-- addon SavedVariables at all (see the note above GetCurrentGuide), so on a plain
+-- client this is waiting for something that never comes - but with the workaround from
+-- github.com/nobewayo/ForeverSVFix installed the data does appear, at load, and this
+-- covers the case where it lands after the addon has already started asking.
+WoWPro.NilGuideMaxRetries = WoWPro.NilGuideMaxRetries or 150
+
+-- Keep looking for the guide selection after the fast retries above are spent.
+--
+-- Stop asking and the window stays on the loading note for the rest of the session even
+-- if the data turns up, which is what a live session did for one minute forty-three
+-- seconds before this existed. One second for the first ten minutes, then five seconds
+-- for another twenty: cheap, and it means any way the selection can appear - the client
+-- being fixed, the workaround being installed, or the player picking a guide - is
+-- noticed within a second.
+--
+-- Silent until it succeeds, because a character that genuinely has no guide selected
+-- must not be told every second that there is nothing to restore.
+WoWPro.LateGuidePollFastSeconds = 1
+WoWPro.LateGuidePollSlowSeconds = 5
+WoWPro.LateGuidePollFastMinutes = 10
+WoWPro.LateGuidePollMinutes = 30
+
+function WoWPro.PollForLateGuide()
+    local function again()
+        if _G.C_Timer and _G.C_Timer.After then
+            local delay = WoWPro.LateGuidePollFastSeconds
+            if (WoWPro.LateGuidePolls or 0) > (WoWPro.LateGuidePollFastMinutes * 60) / WoWPro.LateGuidePollFastSeconds then
+                delay = WoWPro.LateGuidePollSlowSeconds
+            end
+            _G.C_Timer.After(delay, function() WoWPro.PollForLateGuide() end)
+        end
+    end
+
+    if WoWPro.GuideLoaded then
+        WoWPro.LateGuidePollActive = false
+        return
+    end
+    if WoWPro.NilGuideRetries > 0 then
+        -- The retry is already asking; let it finish.
+        again()
+        return
+    end
+    if WoWPro.RefreshDatabaseIfReplaced() then
+        -- The rebuild asked for a load; look again shortly in case it could not
+        -- finish (guide not registered yet, say).
+        again()
+        return
+    end
+
+    local GID = WoWPro.GetCurrentGuide()
+    if GID and WoWPro.Guides[GID] then
+        WoWPro.LateGuidePollActive = false
+        WoWPro.ReselectLastGuide("late SavedVariables")
+        return
+    end
+
+    WoWPro.LateGuidePolls = (WoWPro.LateGuidePolls or 0) + 1
+    local limit = (WoWPro.LateGuidePollMinutes * 60) / WoWPro.LateGuidePollFastSeconds
+    if WoWPro.LateGuidePolls > limit then
+        WoWPro.LateGuidePollActive = false
+        WoWPro:print("PollForLateGuide(): stopped after %d checks over %d minutes; no guide selection arrived.",
+            WoWPro.LateGuidePolls, WoWPro.LateGuidePollMinutes)
+        return
+    end
+    again()
+end
+
+function WoWPro.StartLateGuidePoll()
+    if not (_G.C_Timer and _G.C_Timer.After) then return end
+    if WoWPro.LateGuidePollActive then return end
+    WoWPro.LateGuidePollActive = true
+    WoWPro.LateGuidePolls = 0
+    _G.C_Timer.After(WoWPro.LateGuidePollFastSeconds, function() WoWPro.PollForLateGuide() end)
+end
 
 function WoWPro.LoadGuideReal()
+    -- The account SavedVariables can land after OnInitialize, replacing the table
+    -- AceDB was built on; rebuild from them when that has happened, so the saved
+    -- profile and its currentguide are actually visible to the lines below.
+    WoWPro:RefreshDatabaseIfReplaced()
+
+    -- Time the first answer from each store that can hold the selection. "The
+    -- SavedVariables are not working" is the natural reading of a window that waits
+    -- minutes for its guide, and the distinction decides what to do about it: a store
+    -- that never answers has to be replaced, while one that answers late is the
+    -- client's own timing and can only be waited for. Times are seconds since the
+    -- addon loaded, and the summary is printed once, when a guide is found.
+    local sessionStart = WoWPro.SessionStart or (_G.GetTime and _G.GetTime() or 0)
+    local function noteArrival(name, value)
+        if value == nil then return end
+        WoWPro.StoreArrival = WoWPro.StoreArrival or {}
+        if WoWPro.StoreArrival[name] == nil then
+            WoWPro.StoreArrival[name] = math.floor(((_G.GetTime and _G.GetTime() or 0) - sessionStart) + 0.5)
+        end
+    end
+    noteArrival("profile", WoWProDB and WoWProDB.profile and WoWProDB.profile.currentguide)
+    noteArrival("char", WoWProDB and WoWProDB.char and WoWProDB.char.currentguide)
+    noteArrival("charDB", WoWProCharDB and WoWProCharDB.currentguide)
+    noteArrival("lastGuide", WoWProLastGuide)
+
+    -- Sample other addons' account SavedVariables at the same time. If those land long
+    -- before this addon's do, the client is working through WTF in an order, and the
+    -- fix for the wait is to keep a copy of the selection in an addon that loads
+    -- earlier, where it can be read minutes sooner. If they all land together, the
+    -- delay is one sweep and there is nothing to exploit - either way this is worth
+    -- knowing before building anything on it.
+    noteArrival("AllTheThings", _G.AllTheThings)
+    noteArrival("Leatrix_Plus", _G.Leatrix_Plus)
+    noteArrival("TomTom", _G.TomTom)
+    noteArrival("RareScanner", _G.RareScanner)
+
+    local function arrivalSummary()
+        local a = WoWPro.StoreArrival or {}
+        return ("profile=%s char=%s charDB=%s lastGuide=%s | other addons: AllTheThings=%s Leatrix_Plus=%s TomTom=%s RareScanner=%s"):format(
+            tostring(a.profile or "never"), tostring(a.char or "never"),
+            tostring(a.charDB or "never"), tostring(a.lastGuide or "never"),
+            tostring(a.AllTheThings or "never"), tostring(a.Leatrix_Plus or "never"),
+            tostring(a.TomTom or "never"), tostring(a.RareScanner or "never"))
+    end
+
     local GID = WoWPro.GetCurrentGuide()
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
+    if GID and not WoWPro.StoreArrivalReported then
+        WoWPro.StoreArrivalReported = true
+        WoWPro:print("Guide selection %s found %ss after load (seconds since OnEnable). Store arrivals: %s",
+            tostring(GID),
+            tostring(math.floor(((_G.GetTime and _G.GetTime() or 0) - sessionStart) + 0.5)),
+            arrivalSummary())
+    end
     -- If currently in startup lockdown, punt
     if WoWPro.LockdownTimer ~= nil then
         WoWPro:dbp("Suppresssed guide load:  In lockdown.")
@@ -764,7 +888,27 @@ function WoWPro.LoadGuideReal()
         WoWPro.NilGuideRetries = 0
         WoWPro:LoadNilGuide()
         WoWPro:dbp("No guide specified, loading NilGuide.")
-        -- LFO: something else here
+        -- Tell the player why the window has nothing in it, once. On this client it is
+        -- not a slow load that is about to finish: the beta never restores addon
+        -- SavedVariables, so unless a workaround is installed the selection is simply
+        -- not coming, and saying so beats another empty window.
+        if not WoWPro.NoSelectionNoticeShown then
+            WoWPro.NoSelectionNoticeShown = true
+            WoWPro:Print("No saved guide was restored - WoW: Forever's beta does not restore addon SavedVariables. Pick one with the leftmost icon above the window, or see github.com/nobewayo/ForeverSVFix.")
+        end
+        -- Report the store timings here too: this is the case where the selection never
+        -- turned up at all, which is the one worth replacing a store over.
+        if not WoWPro.StoreArrivalReported then
+            WoWPro.StoreArrivalReported = true
+            WoWPro:print("No guide selection %ss after load; still waiting. Store arrivals: %s",
+                tostring(math.floor(((_G.GetTime and _G.GetTime() or 0) - sessionStart) + 0.5)),
+                arrivalSummary())
+        end
+        -- Spending the retries is not proof that the character has no guide: the
+        -- client has been seen handing the saved file over five and a half minutes
+        -- after login. Keep asking, slowly, so the guide comes back on its own
+        -- rather than staying lost until the next reload.
+        WoWPro.StartLateGuidePoll()
         return
     end
 
@@ -1308,9 +1452,21 @@ end
 function WoWPro:RowUpdate(offset)
     local GID = WoWPro.GetCurrentGuide()
     if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
+        -- Coming back empty handed here leaves the window exactly as it was, so it is
+        -- the one silent way for a loaded guide to stay off the screen. Report the
+        -- reason once per distinct reason: RowUpdate() is driven by a repeating
+        -- bucket and would otherwise repeat this on every cycle.
+        local why = ("combat=%s gid=%s registered=%s"):format(
+            tostring(WoWPro.MaybeCombatLockdown()), tostring(GID),
+            tostring(GID and WoWPro.Guides[GID] ~= nil))
+        if WoWPro.RowUpdatePuntWhy ~= why then
+            WoWPro.RowUpdatePuntWhy = why
+            WoWPro:Warning("RowUpdate(): nothing to draw (%s)", why)
+        end
         WoWPro:dbp("Punting: WoWPro:RowUpdate()")
         return
     end
+    WoWPro.RowUpdatePuntWhy = nil
     -- The completion table is read ~80 lines below. NextStep() cannot supply a
     -- missing one - it punts - so without this the read raised
     -- "attempt to index field '?' (a nil value)" from the AceTimer driving the
@@ -2431,6 +2587,16 @@ function WoWPro.UpdateGuideReal(From)
 end
     runUpdate()
     WoWPro.UpdateGuideRealInProgress = false
+    -- Rows have just been rebuilt from a real guide, so the loading note is stale.
+    WoWPro.LoadingStateWhere = nil
+    WoWPro:DiagLayout("UpdateGuideReal")
+    -- Look again once the dust has settled. The state at the end of the update is not
+    -- necessarily the state the player sees: the update leaves queued passes behind it,
+    -- and a row that is shown here can be hidden by the next one.
+    if _G.C_Timer and _G.C_Timer.After then
+        _G.C_Timer.After(5, function() WoWPro:DiagLayout("UpdateGuideReal+5s") end)
+        _G.C_Timer.After(30, function() WoWPro:DiagLayout("UpdateGuideReal+30s") end)
+    end
 end
 
 

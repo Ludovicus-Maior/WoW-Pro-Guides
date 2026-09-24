@@ -654,6 +654,18 @@ WoWPro.ShownRows = 0
 function WoWPro.RowSizeSet()
 -- Row-Specific Customization --
     if _G.InCombatLockdown() then return end
+    -- Part of this function measures the rows against WoWPro.GuideFrame's height, and
+    -- only PaddingSet() recomputes that height from the main frame's. Any resize since
+    -- the last PaddingSet therefore leaves the frame stale, and a stale frame that is
+    -- too short hides rows that would otherwise fit - on a live reload that was
+    -- "Screen height limits guide visibility" over an empty window. Put the frame back
+    -- in step before measuring rows against it.
+    local padCheck = WoWProDB.profile.pad
+    local stickyCheck = WoWPro.StickyFrame:IsShown() and WoWPro.StickyFrame:GetHeight() or 0
+    local expectedGuideHeight = math.max((WoWPro.MainFrame:GetHeight() or 0) - stickyCheck - (padCheck * 2), 25)
+    if math.abs((WoWPro.GuideFrame:GetHeight() or 0) - expectedGuideHeight) > 0.5 then
+        WoWPro:PaddingSet()
+    end
     local wasInhibit = WoWPro.InhibitAnchorStore
     WoWPro.InhibitAnchorStore = true
     local space = WoWProDB.profile.space
@@ -928,7 +940,12 @@ function WoWPro.RowSizeSet()
 
     if not _G.InCombatLockdown() then
         if guideWindowCropped then
-            if not WoWPro.CroppedGuideWarning then
+            -- Only complain when there is a guide on screen to be cut short. Before the
+            -- first guide loads the window is still at its creation size and position,
+            -- so the clamp trips on arithmetic against a frame that has not been placed
+            -- yet, and the player is told the screen is limiting a guide that is not
+            -- there - a live reload printed this over the "loading guide" note.
+            if not WoWPro.CroppedGuideWarning and WoWPro.GuideLoaded then
                 WoWPro:Print("|cffffff00WoWPro: Screen height limits guide visibility. Enable mouseover notes, reduce displayed rows, or move the window to give more space.|r")
                 WoWPro.CroppedGuideWarning = true
             end

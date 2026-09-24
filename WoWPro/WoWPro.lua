@@ -60,24 +60,6 @@ function WoWPro:Add2Log(level, msg)
         WoWPro.Log[WoWPro.Serial] = msg
     end
 end
--- Debug print function. log, never console --
-function WoWPro:dbp(message, ...)
-    if WoWPro.DebugLevel > 0 and message ~= nil then
-        local msg = ("|c7f007f00%s|r: "..message):format(self.name or "Wow-Pro", ...)
-        WoWPro:Add2Log(2, msg)
-    end
-end
-WoWPro:Export("dbp")
-
---  Print function. log, never console --
-function WoWPro:print(message, ...)
-    if message ~= nil then
-        local msg = ("|c7f0000ff%s|r: "..message):format(self.name or "Wow-Pro", ...)
-        WoWPro:Add2Log(2, msg)
-    end
-end
-WoWPro:Export("print")
-
 -- Build a log line from the caller's message and arguments.
 --
 -- The log helpers take printf-style arguments, but the message comes from guide
@@ -87,10 +69,14 @@ WoWPro:Export("print")
 -- reporting itself, which replaced the real message and hid the original problem.
 -- Formatting is best effort; on any failure the pieces are joined with tostring()
 -- so the message still gets out.
+--
+-- The message is appended to the format string deliberately: every existing caller
+-- relies on that, and where it contains no '%' this is exactly the concatenation it
+-- looks like. It does mean that a message carrying a percent sign of its own is a
+-- malformed format string - the window title "Tirisfal Glades   (40%)" is one, and
+-- it raised "invalid option in 'format'" from the layout probe - so every helper
+-- below goes through here instead of calling format() on the message itself.
 local function log_line(colour, message, ...)
-    -- The message is appended to the format string deliberately: every existing
-    -- caller relies on that, and where it contains no '%' this is exactly the
-    -- concatenation it looks like.
     local ok, formatted = pcall(string.format, ("|c%s%s|r: "):format(colour, WoWPro.name or "Wow-Pro") .. message, ...)
     if ok then
         return formatted
@@ -101,6 +87,89 @@ local function log_line(colour, message, ...)
         parts[#parts + 1] = tostring(select(i, ...))
     end
     return table.concat(parts, " ")
+end
+
+-- Debug print function. log, never console --
+function WoWPro:dbp(message, ...)
+    if WoWPro.DebugLevel > 0 and message ~= nil then
+        WoWPro:Add2Log(2, log_line("7f007f00", message, ...))
+    end
+end
+WoWPro:Export("dbp")
+
+--  Print function. log, never console --
+function WoWPro:print(message, ...)
+    if message ~= nil then
+        WoWPro:Add2Log(2, log_line("7f0000ff", message, ...))
+    end
+end
+WoWPro:Export("print")
+
+-- One-line layout probe for the guide window.
+--
+-- The window can be created, themed and correctly sized while showing nothing at
+-- all, and from outside the game a missing row, a hidden row and a zero height row
+-- are indistinguishable. The row loop in RowSizeSet() sizes rows against
+-- WoWPro.GuideFrame:GetHeight() and hides the ones that do not fit, so the numbers
+-- below are what separates those cases. print(), not dbp(), because dbp is silent
+-- unless debug is on and these lines are the point of the probe.
+function WoWPro:DiagLayout(tag)
+    local function num(v)
+        if type(v) ~= "number" then return "nil" end
+        return ("%.0f"):format(v)
+    end
+    local function txt(v)
+        if v == nil then return "nil" end
+        v = tostring(v)
+        if #v > 32 then v = v:sub(1, 32) .. ".." end
+        return v
+    end
+    local profile = WoWProDB and WoWProDB.profile
+    local frame, guideFrame = WoWPro.MainFrame, WoWPro.GuideFrame
+    local row1 = WoWPro.rows and WoWPro.rows[1]
+    local line = ("DiagLayout(%s): gid=%s loaded=%s f=%sx%s top=%s shown=%s g=%s gshown=%s rows=%s r1=%s/%s/%s title=%s ns=%s ar=%s scroll=%s pad=%s svlive=%s proflive=%s lastguide=%s r1vis=%s r1top=%s r1bot=%s alpha=%s"):format(
+        tostring(tag),
+        txt(WoWPro.GetCurrentGuide and WoWPro.GetCurrentGuide()),
+        tostring(WoWPro.GuideLoaded),
+        num(frame and frame:GetWidth()), num(frame and frame:GetHeight()), num(frame and frame:GetTop()),
+        tostring(frame and frame:IsShown()),
+        num(guideFrame and guideFrame:GetHeight()),
+        tostring(guideFrame and guideFrame:IsShown()),
+        tostring(WoWPro.ShownRows),
+        tostring(row1 and row1:IsShown()), num(row1 and row1:GetHeight()),
+        txt(row1 and row1.step and row1.step:GetText()),
+        txt(WoWPro.TitleText and WoWPro.TitleText:GetText()),
+        tostring(profile and profile.numsteps),
+        tostring(profile and profile.autoresize),
+        tostring(profile and profile.guidescroll),
+        tostring(profile and profile.pad),
+        -- Is the database object still the one the client will save? svlive=false
+        -- means the client replaced WoWProData after AceDB was built on the empty
+        -- table, so everything written through WoWProDB is going nowhere.
+        tostring(WoWProDB and WoWProDB.sv == _G.WoWProData),
+        tostring(WoWProDB and _G.WoWProData and _G.WoWProData.profiles
+            and WoWProDB.profile == _G.WoWProData.profiles.Default),
+        txt(WoWProLastGuide),
+        -- GuideFrame is created with SetClipsChildren(true), so a row can be shown
+        -- and still not be drawn: it needs to sit inside the frame's rect. Row 1 is
+        -- anchored to GuideFrame's TOPLEFT, so in GuideFrame space its top should
+        -- equal the frame height and its bottom should stay above zero. IsVisible()
+        -- differs from IsShown() in checking every parent in the chain, which is the
+        -- difference between a hidden frame and a frame inside a hidden one.
+        tostring(row1 and row1:IsVisible()),
+        num(row1 and row1:GetTop()), num(row1 and row1:GetBottom()),
+        num(frame and frame:GetAlpha()))
+    -- This is called on every guide update, so report the state when it changes and
+    -- otherwise at most twice a minute: a transition into a broken layout is what
+    -- matters, and a per-update line would push everything else out of the log.
+    local now = _G.GetTime and _G.GetTime() or 0
+    if line == WoWPro.LastDiagLayout and now - (WoWPro.LastDiagLayoutAt or 0) < 30 then return end
+    WoWPro.LastDiagLayout = line
+    WoWPro.LastDiagLayoutAt = now
+    -- The line is the argument, never the format string: it carries the window title,
+    -- and a title like "Tirisfal Glades   (40%)" makes format() raise "invalid option
+    -- in 'format'" because print() appends its message to its format string.
+    WoWPro:print("%s", line)
 end
 
 -- WoWPro print function, log and console --
@@ -394,6 +463,25 @@ local defaults = { profile = {
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
+    -- Sample the saved variables before AceDB touches them. A nil/empty WoWProData here
+    -- means the client had not applied the saved file by the time this addon
+    -- initialised - which is a completely different problem from a file that turns up a
+    -- minute later, needs a different fix, and had never been measured. The doc comment
+    -- above says "after saved variables have loaded"; on this client that is exactly
+    -- what is in doubt.
+    do
+        local dataAtInit = _G.WoWProData
+        local charAtInit = _G.WoWProCharDB
+        WoWPro.SavedVarsAtInit = (dataAtInit ~= nil) and (next(dataAtInit) ~= nil) or false
+        WoWPro.CharDBSavedVarsAtInit = (charAtInit ~= nil) and (next(charAtInit) ~= nil) or false
+        local profilePositionAtInit = dataAtInit and dataAtInit.profiles and dataAtInit.profiles.Default
+            and dataAtInit.profiles.Default.position
+        WoWPro:print("OnInitialize: WoWProData=%s (%s) WoWProCharDB=%s (%s) WoWProLastGuide=%s Default.position=%s",
+            tostring(dataAtInit ~= nil), tostring(WoWPro.SavedVarsAtInit),
+            tostring(charAtInit ~= nil), tostring(WoWPro.CharDBSavedVarsAtInit),
+            tostring(_G.WoWProLastGuide),
+            tostring(profilePositionAtInit and profilePositionAtInit[1]))
+    end
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
     -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
@@ -402,6 +490,12 @@ function WoWPro:OnInitialize()
 
 
     -- Creating empty user settings if none exist --
+    --
+    -- On WoW: Forever neither of these globals is handed over: sampled before AceDB
+    -- touched them, WoWProData and WoWProCharDB were both absent in a session where
+    -- TomTom's account variables were present. Removing the per-character declaration
+    -- from the Camelot TOC to test that theory changed nothing, so both live here as
+    -- empty tables for the client to fill in whenever it gets round to it.
     WoWProCharDB = WoWProCharDB or {}
     WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
@@ -427,21 +521,33 @@ function WoWPro:OnInitialize()
     -- Which stores actually survive on this client, established by comparing the
     -- saved files rather than by reasoning:
     --
-    --   account level, WoWProData          restores. The "Default" profile came back
-    --                                      with size, position and scale intact, and
-    --                                      WoWProData.char[<key>].hearth survives too.
-    --   account level, a new global        restores in principle, but every save
-    --   (WoWProLastGuide)                  taken so far has it as nil, and a
-    --                                      traceback on the only code that can clear
-    --                                      it never fired.
-    --   per character, WoWProCharDB        does NOT restore. Both saves on disk have
-    --                                      an empty Guide table and no completedQIDs,
-    --                                      and WoWProCharDB.currentguide is absent.
+    --   account level, WoWProData          written, never restored - see below.
+    --   account level, WoWProLastGuide     written, never restored - see below.
+    --   per character, WoWProCharDB        written, never restored - see below.
     --
-    -- So the guide selection is kept in the account-level profile, which is the one
-    -- store with evidence of restoring. The other places are still written, so this
-    -- is harmless on clients that behave and is the only thing that works on this
-    -- one.
+    -- None of them comes back, and it is a client fault, not the addon's: on the
+    -- WoW: Forever beta the SavedVariables files are written correctly but the
+    -- client's restore stage does not run. Measured by sampling the globals before
+    -- AceDB or this addon touched them:
+    --
+    --     OnInitialize: WoWProData=false (false) WoWProCharDB=false (false)
+    --
+    -- in sessions where the same files on disk parsed as valid Lua and held the saved
+    -- guide, and where a session-long one-second retry saw every store nil. The bug is
+    -- publicly documented, with a filesystem workaround that executes the saved files
+    -- through the addon loader instead (github.com/nobewayo/ForeverSVFix).
+    --
+    -- Earlier readings in this file used to say the values "arrive late" and quoted
+    -- timings of sixty-nine seconds and five and a half minutes. Those were the player
+    -- selecting the guide by hand, which leaves exactly the same state behind as a
+    -- restore, so it read as an arrival. The addon now names the caller of every
+    -- selection, which is what separated the two.
+    --
+    -- So the guide selection is read from every store that can hold it, in the order
+    -- below, and the first one that answers is adopted back into all of them so the
+    -- next save carries it everywhere. On this client that happens when the client is
+    -- fixed, when the workaround is installed, or when the player picks a guide - and
+    -- the load retry and the late poll catch it in all three cases.
     function WoWPro.GetCurrentGuide()
         local fromProfile = WoWProDB.profile and WoWProDB.profile.currentguide
         local GID = fromProfile or WoWProDB.char.currentguide or WoWProCharDB.currentguide
@@ -450,12 +556,16 @@ function WoWPro:OnInitialize()
         end
         if GID then
             -- Adopt the recovered value so the rest of the session sees it, and so
-            -- the next save carries it in the store that is actually restoring.
+            -- the next save carries it in every store that survives a restore. All
+            -- four are written here, not just the three that are read above: the
+            -- stores come back at different times on this client, and the cheapest
+            -- insurance against losing the selection is having it in all of them.
             if fromProfile ~= GID then
                 WoWProDB.profile.currentguide = GID
             end
             WoWProDB.char.currentguide = GID
             WoWProCharDB.currentguide = GID
+            WoWProLastGuide = GID
         end
         return GID
     end
@@ -465,6 +575,19 @@ function WoWPro:OnInitialize()
     -- not resurrect a guide the addon had already decided to drop. A normal
     -- selection records itself and is never forgotten.
     function WoWPro.SetCurrentGuide(GID, forget)
+        -- A guide being selected by the player is not the client handing SavedVariables
+        -- over, and the log could not tell the two apart: a restore and a click both
+        -- leave every store holding the same id. Several "the guide arrived after N
+        -- seconds" readings were measured against a live session where the player had
+        -- simply picked the guide themselves. Name the caller.
+        if GID then
+            local caller = "?"
+            if _G.debugstack then
+                local stack = _G.debugstack(2, 2, 2)
+                if stack then caller = tostring(stack:match("([^\n]*)")) end
+            end
+            WoWPro:print("SetCurrentGuide(%s) forget=%s caller=%s", tostring(GID), tostring(forget), caller)
+        end
         -- Clearing the selection also clears the stores that survive a lost restore,
         -- so who did it and from where matters. A live session came back with every
         -- store nil without any of the known callers appearing to run, so the caller
@@ -485,6 +608,80 @@ function WoWPro:OnInitialize()
         elseif forget then
             WoWProLastGuide = nil
         end
+    end
+
+    -- The client on WoW: Forever reads the account SavedVariables file long after
+    -- ADDON_LOADED - sixty-nine seconds in one session, five and a half minutes in
+    -- another. When it finally runs, it assigns WoWProData, which replaces the empty
+    -- table that AceDB was built on. From then on WoWProDB is a database nobody
+    -- saves and nobody reads: the saved profile, including its currentguide, is
+    -- never seen.
+    --
+    -- Called from the load retry, so the databases are rebuilt from the arrived data
+    -- on the first attempt after it lands, and the selection becomes visible to
+    -- GetCurrentGuide() immediately instead of whenever something else happens to
+    -- look.
+    function WoWPro.RefreshDatabaseIfReplaced()
+        local arrived = _G.WoWProData
+        -- AceDB keeps the table it was given in .sv (AceDB-3.0.lua: db.sv = sv), and
+        -- takes it from _G[name] at construction, so the two going their separate
+        -- ways is exactly the late handover.
+        if not arrived or not WoWProDB or WoWProDB.sv == arrived then return false end
+        local inSession = WoWProDB.char and WoWProDB.char.currentguide
+        WoWPro:print("Account SavedVariables were applied after OnInitialize; rebuilding the database from them.")
+        WoWPro:OnInitialize()
+        -- A guide chosen while the client was still handing nothing over is newer than
+        -- anything in the file.
+        if inSession and not WoWPro.GetCurrentGuide() then
+            WoWPro.SetCurrentGuide(inSession)
+        end
+        -- The window was positioned from an empty profile, so let the arrived one
+        -- place and size it the way the player left it.
+        WoWPro.HasRestoredThisSession = false
+        WoWPro:RefreshConfig()
+        return true
+    end
+
+    -- Put the character back on the guide it was last using.
+    --
+    -- ResetCurrentGuide() is the same idea, but it needs a guide to already be
+    -- loaded. The case this exists for is the opposite one: a reload came back with no
+    -- guide loaded at all because the client restored nothing, and the player wants
+    -- their guide back without hunting through the guide list.
+    --
+    -- reset wipes the character's progress state for the guide, exactly as
+    -- ResetCurrentGuide() does, and the guide is then rebuilt from the quest log.
+    -- Left false, the stored progress is kept and the guide is only redrawn.
+    function WoWPro.ReselectLastGuide(where, reset)
+        WoWPro:RefreshDatabaseIfReplaced()
+        local GID = WoWPro.GetCurrentGuide()
+        if not GID then
+            WoWPro:Print("No guide to reselect yet: this character has no stored guide and none has been chosen (%s).", tostring(where))
+            return false
+        end
+        if not WoWPro.Guides[GID] then
+            -- Registration is lazy, so this is normal early on; the selection is kept
+            -- and the load retry picks it up once the guide is there.
+            WoWPro:dbp("ReselectLastGuide(%s): guide %s is not registered yet.", tostring(where), tostring(GID))
+            return false
+        end
+        WoWPro:Print("Reselecting the last guide: %s%s", tostring(GID), reset and " (progress reset)" or "")
+        WoWPro.GuideLoaded = false
+        WoWPro.RowLimit = nil  -- Reset row limit so it recalculates on guide reload
+        if reset then
+            WoWProCharDB.Guide[GID] = nil
+            if WoWPro.stepcount then
+                for j = 1, WoWPro.stepcount do
+                    if WoWPro.QID[j] then
+                        WoWPro:WipeQIDsInTable(WoWPro.QID[j], WoWProCharDB.skippedQIDs)
+                    end
+                end
+            end
+            WoWPro.ClearNpcFauxQuests(GID)
+            WoWPro.ClearQID2Guide(GID)
+        end
+        WoWPro:LoadGuide(GID)
+        return true
     end
 
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
@@ -640,6 +837,8 @@ end
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
     WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
+    -- Origin for the store-arrival timings reported by LoadGuideReal().
+    WoWPro.SessionStart = _G.GetTime and _G.GetTime() or 0
     -- Shouldn't be necessary anymore but keeping just in case we need to revert back.
 	--if  WoWProDB.global.RecklessCombat then
         --WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
@@ -663,6 +862,13 @@ function WoWPro:OnEnable()
     WoWPro.HasRestoredThisSession = false
 
     WoWPro:CustomizeFrames()    -- Applies profile display settings
+
+    -- The window exists from here on, so give it something readable straight away.
+    -- On WoW: Forever the per-character SavedVariables that hold the guide selection
+    -- can arrive a minute or more after login, and until they do the frame is a
+    -- correctly sized, correctly coloured, completely empty box - which reads as
+    -- "the guide is gone" rather than "not here yet".
+    WoWPro:ShowLoadingState("OnEnable")
 
     -- Keybindings Initial Setup --
     if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
