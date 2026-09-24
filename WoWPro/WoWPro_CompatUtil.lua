@@ -272,9 +272,15 @@ end
 --[[C_Spell.GetSpellInfo]]
 function WoWPro.C_Spell_GetSpellInfo(spellID)
     if not _G.GetSpellInfo then
+        -- C_Spell.GetSpellInfo() returns nil for a spell the client does not know,
+        -- and clients such as WoW: Forever do not know every spell referenced by
+        -- the guides. Return nil rather than letting callers index the result.
         return _G.C_Spell.GetSpellInfo(spellID)
     else
         local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
+        if not name then
+            return nil
+        end
         return{
            castTime = castTime,
            name = name,

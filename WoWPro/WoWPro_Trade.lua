@@ -356,9 +356,13 @@ if not WoWPro.RETAIL then
 	WoWPro.ProfessionLocalNames["Riding"] = "Riding"
     for profName, spellID in pairs(WoWPro.ProfessionSpellIDs) do
         local spellInfo = WoWPro.C_Spell_GetSpellInfo(spellID)
-        local localName = spellInfo.name
-        if localName ~= nil then
-            WoWPro.ProfessionLocalNames[localName] = profName
+        -- Not every client knows every profession spell: WoW: Forever has no
+        -- Inscription or Archaeology, so those lookups come back empty.
+        if spellInfo then
+            local localName = spellInfo.name
+            if localName ~= nil then
+                WoWPro.ProfessionLocalNames[localName] = profName
+            end
         end
     end
 

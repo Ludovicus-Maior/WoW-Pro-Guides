@@ -789,7 +789,9 @@ end)
 
 -- scan skill lines when they change
 WoWPro.RegisterEventHandler("SKILL_LINES_CHANGED", function(event, ...)
-    WoWPro.UpdateTradeSkills(...)
+    -- UpdateTradeSkills takes no arguments; forwarding the event name as a
+    -- first argument is wrong even though the function currently ignores it.
+    WoWPro:UpdateTradeSkills()
 end)
 
 -- register newly learned recipes
