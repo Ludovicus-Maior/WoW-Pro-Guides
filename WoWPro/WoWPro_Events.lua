@@ -41,6 +41,17 @@ function WoWPro:RegisterEvents(eventtable)
     --[[Purpose: Iterates through the supplied table of events, and registers each
     event to the event frame.
     ]]--
+    if not WoWPro.EventFrame then
+        return
+    end
+    if _G.InCombatLockdown() then
+        -- Frame:RegisterEvent is protected in combat on Midnight 12.1.
+        local snapshot = eventtable
+        WoWPro.DeferUntilOutOfCombat(function()
+            WoWPro:RegisterEvents(snapshot)
+        end)
+        return
+    end
     if not eventtable then
         eventtable = WoWPro.EventTable
     end

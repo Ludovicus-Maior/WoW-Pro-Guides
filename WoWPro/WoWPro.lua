@@ -3,6 +3,7 @@
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
+-- luacheck: globals C_Timer
 
 --------------------------
 --      WoWPro.lua      --
@@ -520,6 +521,71 @@ end
 
 function WoWPro.MaybeCombatLockdown()
     return _G.InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
+end
+
+-- Defer work that is forbidden during combat lockdown.
+-- Midnight 12.1 reports AceEvent30Frame:RegisterEvent as a protected function
+-- (issue #3454); calling it while locked produces ADDON_ACTION_FORBIDDEN.
+WoWPro._combatDeferred = WoWPro._combatDeferred or {}
+function WoWPro.DeferUntilOutOfCombat(fn)
+    if type(fn) ~= "function" then
+        return
+    end
+    if not _G.InCombatLockdown() then
+        fn()
+        return
+    end
+    tinsert(WoWPro._combatDeferred, fn)
+    if WoWPro._combatDeferTicker then
+        return
+    end
+    WoWPro._combatDeferTicker = _G.C_Timer.NewTicker(0.25, function(ticker)
+        if _G.InCombatLockdown() then
+            return
+        end
+        ticker:Cancel()
+        WoWPro._combatDeferTicker = nil
+        local queue = WoWPro._combatDeferred
+        WoWPro._combatDeferred = {}
+        for i = 1, #queue do
+            queue[i]()
+        end
+    end)
+end
+
+-- Wrap AceEvent's hidden frame so RegisterEvent is queued until combat ends
+-- instead of tainting/forbidding the call.
+do
+    local AceEvent = _G.LibStub("AceEvent-3.0", true)
+    if AceEvent and AceEvent.frame and not AceEvent.frame._wowproSafeRegister then
+        local aceFrame = AceEvent.frame
+        aceFrame._wowproSafeRegister = true
+        local origRegister = aceFrame.RegisterEvent
+        local origUnregister = aceFrame.UnregisterEvent
+        local pending = {}
+        aceFrame.RegisterEvent = function(self, event)
+            if not event then
+                return
+            end
+            if _G.InCombatLockdown() then
+                pending[event] = true
+                WoWPro.DeferUntilOutOfCombat(function()
+                    for ev in pairs(pending) do
+                        pending[ev] = nil
+                        origRegister(aceFrame, ev)
+                    end
+                end)
+                return
+            end
+            return origRegister(self, event)
+        end
+        aceFrame.UnregisterEvent = function(self, event)
+            if event then
+                pending[event] = nil
+            end
+            return origUnregister(self, event)
+        end
+    end
 end
 
 

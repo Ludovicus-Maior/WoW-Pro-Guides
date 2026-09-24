@@ -2017,6 +2017,9 @@ if step then
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
                 if not WoWPro.MIDNIGHT then
                     mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
+                else
+                    -- SetRaidTarget is no longer usable from macros in Midnight; /tm still works.
+                    mtext = mtext .. "/tm 8"
                 end
             end
             currentRow.targetbutton:SetAttribute("macrotext", mtext)
