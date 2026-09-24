@@ -78,11 +78,35 @@ function WoWPro:print(message, ...)
 end
 WoWPro:Export("print")
 
+-- Build a log line from the caller's message and arguments.
+--
+-- The log helpers take printf-style arguments, but the message comes from guide
+-- code and is not always a well-formed format string. A caller reaching this with
+-- a table, or with more arguments than it has placeholders, used to raise
+-- "bad argument #2 to 'format' (string expected, got table)" from inside the
+-- reporting itself, which replaced the real message and hid the original problem.
+-- Formatting is best effort; on any failure the pieces are joined with tostring()
+-- so the message still gets out.
+local function log_line(colour, message, ...)
+    -- The message is appended to the format string deliberately: every existing
+    -- caller relies on that, and where it contains no '%' this is exactly the
+    -- concatenation it looks like.
+    local ok, formatted = pcall(string.format, ("|c%s%s|r: "):format(colour, WoWPro.name or "Wow-Pro") .. message, ...)
+    if ok then
+        return formatted
+    end
+
+    local parts = { "|c" .. colour .. (WoWPro.name or "Wow-Pro") .. "|r:", tostring(message) }
+    for i = 1, select("#", ...) do
+        parts[#parts + 1] = tostring(select(i, ...))
+    end
+    return table.concat(parts, " ")
+end
+
 -- WoWPro print function, log and console --
 function WoWPro:Print(message, ...)
     if message ~= nil then
-        local msg = ("|c7fffff7f%s|r: "..message):format(self.name or "Wow-Pro", ...)
-        WoWPro:Add2Log(0, msg)
+        WoWPro:Add2Log(0, log_line("7fffff7f", message, ...))
     end
 end
 WoWPro:Export("Print")
@@ -90,8 +114,7 @@ WoWPro:Export("Print")
 -- WoWPro warning function, log and console --
 function WoWPro:Warning(message, ...)
     if message ~= nil then
-        local msg = ("|cffFFA500%s|r: "..message):format(self.name or "Wow-Pro", ...)
-        WoWPro:Add2Log(0, msg)
+        WoWPro:Add2Log(0, log_line("ffFFA500", message, ...))
     end
 end
 WoWPro:Export("Warning")
@@ -100,9 +123,7 @@ WoWPro:Export("Warning")
 local LogErrorCount = 0
 function WoWPro:Error(message, ...)
     if message ~= nil then
-
-        local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
-        WoWPro:Add2Log(0, msg)
+        WoWPro:Add2Log(0, log_line("ffff7d0a", message, ...))
         LogErrorCount = LogErrorCount + 1
     end
 end
