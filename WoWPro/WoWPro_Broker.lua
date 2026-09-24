@@ -1239,6 +1239,22 @@ function WoWPro:RowUpdate(offset)
         WoWPro:dbp("Punting: WoWPro:RowUpdate()")
         return
     end
+    -- The completion table is read ~80 lines below. NextStep() cannot supply a
+    -- missing one - it punts - so without this the read raised
+    -- "attempt to index field '?' (a nil value)" from the AceTimer driving the
+    -- update, and NextStep's own warning flooded chat on every cycle.
+    --
+    -- The state normally exists by now, created by LoadGuideReal(). When it does
+    -- not, an empty one still gives the correct display (nothing completed yet)
+    -- and LoadGuideReal fills it in when it runs.
+    local guideState = WoWProCharDB.Guide[GID]
+    if not guideState then
+        WoWPro:dbp("RowUpdate(): no state for %s, creating an empty one", tostring(GID))
+        guideState = {}
+        WoWProCharDB.Guide[GID] = guideState
+    end
+    guideState.completion = guideState.completion or {}
+    guideState.skipped = guideState.skipped or {}
     WoWPro:dbp("Running: WoWPro:RowUpdate()")
     WoWPro:SetActiveStickyCount(0)
     local reload = false
@@ -2374,9 +2390,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
     local GID = WoWProDB.char.currentguide
     local guide = WoWProCharDB.Guide[GID]
     if not guide then
-        WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
+        -- NextStep runs on a repeating bucket, so this warning used to repeat every
+        -- cycle and flood the chat frame with hundreds of identical lines. Report it
+        -- once per guide instead; the state is created by LoadGuideReal(), and
+        -- repeating the message does not bring it back.
+        if WoWPro.NextStepMissingStateFor ~= GID then
+            WoWPro.NextStepMissingStateFor = GID
+            WoWPro:Warning("WoWPro.NextStep(): WoWProCharDB.Guide[%q] is nil.  Let us punt.", tostring(GID))
+        end
         return 1
     end
+    WoWPro.NextStepMissingStateFor = nil
     guide.skipped = guide.skipped or {}
     if not guideIndex then guideIndex = 1 end --guideIndex is the position in the guide
     if not rowIndex then rowIndex = 1 end --rowIndex is the position on the rows
