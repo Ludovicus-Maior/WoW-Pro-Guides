@@ -379,6 +379,15 @@ if not WoWPro.RETAIL then
         local scanned = 0
         local tradeskills = {}
 
+        -- Older Classic clients expose the skill-line API as globals. WoW: Forever
+        -- reports a Classic interface version but does not provide them, so scan
+        -- only when they are present and report the shortfall otherwise.
+        if not (_G.GetNumSkillLines and _G.GetSkillLineInfo) then
+            WoWPro:Warning("UpdateTradeSkills(): GetNumSkillLines()/GetSkillLineInfo() are unavailable on this client; profession tracking is disabled.")
+            WoWPro.UpdateTradeSkillsTable(tradeskills)
+            return
+        end
+
         for idx = 1, _G.GetNumSkillLines() do
             local localName, header, _, skillLevel, _, skillModifier, skillMaxRank = _G.GetSkillLineInfo(idx)
             local skillName = WoWPro.ProfessionLocalNames[localName]
