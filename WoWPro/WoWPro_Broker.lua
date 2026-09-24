@@ -860,7 +860,10 @@ function WoWPro.LoadGuideReal()
             -- actually depends on; the first version of this line omitted it, which
             -- is why the previous session showed both databases nil and said nothing
             -- about the one that was about to answer.
-            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 5 == 0 then
+            -- The first attempt and then every twenty-fifth: with 150 attempts this is
+            -- seven lines instead of thirty, and each one is written to the account
+            -- file on logout.
+            if WoWPro.NilGuideRetries == 1 or WoWPro.NilGuideRetries % 25 == 0 then
                 WoWPro:print("LoadGuideReal(): no guide yet (attempt %d/%d). WoWProDB.char=%s WoWProCharDB=%s WoWProLastGuide=%s lockdown=%s g2r=%s",
                     WoWPro.NilGuideRetries, WoWPro.NilGuideMaxRetries,
                     tostring(WoWProDB and WoWProDB.char and WoWProDB.char.currentguide),

@@ -45,7 +45,13 @@ function WoWPro:Add2Log(level, msg)
         _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
     WoWPro.Serial = WoWPro.Serial + 1
-    if WoWPro.Serial > 2500 then
+    -- This log is a SavedVariable, so every line kept is a line written to the player's
+    -- account file on every logout. At 2500 entries the log alone was 10,774 bytes of a
+    -- 12,552 byte file - almost all of it, for a diagnostic aid nobody reads in bulk -
+    -- and on a client whose SavedVariables restore is fragile, carrying ten kilobytes of
+    -- debug text is a poor bet. Two hundred lines is several sessions' worth of
+    -- anything worth looking at.
+    if WoWPro.Serial > 200 then
         WoWPro.Serial = 1
     end
     if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
