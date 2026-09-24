@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Dark_Ranger_Customization', 'Achievements', 
 WoWPro:GuideName(guide,"Dark Ranger Customization")
 WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideQuestTriggers(guide, 65655,65656)
-WoWPro:GuideNextGuide(guide, "Hunter Order Hall")
+WoWPro:GuideNextGuide(guide, "Hunter: Order Hall")
 WoWPro.Achievements:GuideMisc(guide, "Dark Ranger Customization", "Customization", "")
 WoWPro:GuideSteps(guide, function()
 return [[
