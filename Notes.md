@@ -1,3 +1,12 @@
+# Release 2026.09.30.A
+## Bug Fixes
+* Interim Fix for Frame Jumping issue
+* Fix Recorder not saving first step on newly created guides
+* Added configuration to enable/disable extra buttons independently:
+## Guide Updates
+* Retail Achievements: Undead Heritage Armor, Return to Lordaeron (Horde)
+
+
 # Release 2026.08.27.A
 ## Bug Fixes
 * Don't check Auras during combat, just in case
