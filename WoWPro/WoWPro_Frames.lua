@@ -31,12 +31,12 @@ end
 
 local L = WoWPro_Locale
 
--- Component tables (An idea that didn't pan out, but kept for reference)
-WoWPro.ButtonBar      = WoWPro.ButtonBar or {}
-WoWPro.TitleBar       = WoWPro.TitleBar or {}
-WoWPro.MainFrame      = WoWPro.MainFrame or {}
-WoWPro.GuideFrame     = WoWPro.GuideFrame or {}
-WoWPro.StickyHeader   = WoWPro.StickyHeader or {}
+-- Component frame globals: leave nil until created to avoid accidental table placeholders
+WoWPro.ButtonBar      = WoWPro.ButtonBar or nil
+WoWPro.TitleBar       = WoWPro.TitleBar or nil
+WoWPro.MainFrame      = WoWPro.MainFrame or nil
+WoWPro.GuideFrame     = WoWPro.GuideFrame or nil
+WoWPro.StickyHeader   = WoWPro.StickyHeader or nil
 WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 
 local function GetUIScreenSize()
@@ -51,10 +51,63 @@ end
 -- Frame Update Functions --
 function WoWPro:GetButtonBarHideOffset()
     if not WoWPro.ButtonBar then return 0 end
-    local barHeight = WoWPro.ButtonBar:GetHeight() or 0
+    local barHeight = WoWPro:SafeGetHeight(WoWPro.ButtonBar) or 0
     local barGap = 3
     return math.max(barHeight - barGap, 0)
 end
+
+-- ValidateUIFrames: Verify core UI globals are real Frame objects and haven't been accidentally replaced with a non-frame
+-- (e.g. a plain table).
+function WoWPro:ValidateUIFrames()
+    local ok = true
+    -- Expandable list of core UI frames to validate
+    local check = { "MainFrame", "TitleBar", "ButtonBar", "GuideFrame", "StickyHeader" }
+    for _, name in ipairs(check) do
+        local obj = WoWPro[name]
+        -- Report issue to the debug log and bail
+       if not obj then
+            WoWPro:dbp("ValidateUIFrames: %s is nil", name)
+            ok = false
+        else -- specific cases can be added as necessary
+            if type(obj.IsShown) ~= "function" then
+                WoWPro:dbp("ValidateUIFrames: %s exists but is not a Frame (missing IsShown)", name)
+                -- Replace unsafe value with nil to force callers to use safe helpers
+                WoWPro[name] = nil
+                ok = false
+            end
+        end
+    end
+    return ok
+end
+
+-- Safe frame helpers: call frame methods only when the object is a real Frame
+function WoWPro:SafeIsShown(obj)
+    if not obj then return false end
+    if type(obj.IsShown) == "function" then return obj:IsShown() end
+    return false
+end
+
+function WoWPro:SafeShow(obj)
+    if not obj then return end
+    if type(obj.Show) == "function" then obj:Show() end
+end
+
+function WoWPro:SafeHide(obj)
+    if not obj then return end
+    if type(obj.Hide) == "function" then obj:Hide() end
+end
+
+function WoWPro:SafeSetShown(obj, val)
+    if not obj then return end
+    if type(obj.SetShown) == "function" then obj:SetShown(val) elseif val and type(obj.Show) == "function" then obj:Show() elseif not val and type(obj.Hide) == "function" then obj:Hide() end
+end
+
+function WoWPro:SafeGetHeight(obj)
+    if not obj then return 0 end
+    if type(obj.GetHeight) == "function" then return obj:GetHeight() or 0 end
+    return 0
+end
+
 
 function WoWPro:AdjustMainFrameForHiddenButtonBar()
     if _G.InCombatLockdown() or WoWProDB.profile.buttonbar then return end
@@ -77,7 +130,7 @@ end
 
 function WoWPro:AdjustMainFrameForVisibleButtonBar()
     if _G.InCombatLockdown() or not WoWProDB.profile.buttonbar then return end
-    if not WoWPro.ButtonBar or not WoWPro.ButtonBar:IsShown() then return end
+    if not WoWPro.ButtonBar or not WoWPro:SafeIsShown(WoWPro.ButtonBar) then return end
     local offset = WoWPro:GetButtonBarHideOffset()
     if offset <= 0 then return end
     local ui = _G.UIParent
@@ -171,7 +224,7 @@ function WoWPro:ResizeSet()
         if WoWPro.ResizeBL then WoWPro.ResizeBL:Hide() end
         if WoWPro.ResizeBR then WoWPro.ResizeBR:Hide() end
     end
-    WoWPro.SetResizeBounds(MF, Profile.hminresize, Profile.vminresize)
+        WoWPro.SetResizeBounds(MF, Profile.hminresize, Profile.vminresize)
     local resized = false
     if MF:GetWidth() < Profile.hminresize then
         MF:SetWidth(Profile.hminresize)
@@ -184,7 +237,7 @@ function WoWPro:ResizeSet()
     if resized then
         WoWPro.AnchorSync(true)
     end
-    WoWPro:UpdateBars()
+        WoWPro:MainFrameLayout()
 end
 
 -- Purpose: Toggle the ButtonBar, GuideFrame, and TitleBar (TB) visibility while preventing TB+GF from both being hidden
@@ -193,27 +246,39 @@ function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
     local GF      = WoWPro.GuideFrame
     local Profile = WoWProDB.profile
 
-    if bar then if isVisible then bar:Show() else bar:Hide() end end
+    if bar then WoWPro:SafeSetShown(bar, isVisible) end
     -- Toggle the GuideFrame visibility if gfToo
     if toggleGF and GF then
         if isVisible then
             GF:Show()
         else
             GF:Hide()
+            -- If the GuideFrame is hidden there are no visible active stickies;
+            -- ensure the StickyHeader is hidden too to avoid orphaned stickies.
+            if WoWPro.StickyHeader then
+                WoWPro.StickyHeader.Visible = false
+                WoWPro:SafeSetShown(WoWPro.StickyHeader, false)
+            end
+            -- Also ensure the TitleBar remains visible when the GuideFrame is hidden
+            if TB then
+                WoWPro:SafeSetShown(TB, true)
+                Profile.titlebar = true
+            end
         end
     end
 
-    -- If both the TitleBar and GuideFrame are hidden, show the TitleBar
-    if not TB:IsShown() and not GF:IsShown() then TB:Show() end
-    Profile[key] = isVisible
+    -- Enforce: if the GuideFrame is hidden, the TitleBar cannot be hidden.
+    if key == "titlebar" and not WoWPro:SafeIsShown(GF) and not isVisible then
+        -- Ignore the request to hide the TitleBar while the GuideFrame is hidden.
+        if bar then WoWPro:SafeSetShown(bar, true) end
+        Profile[key] = true
+    else
+        Profile[key] = isVisible
+    end
 
-    WoWPro.MainFrameLayout()
-    WoWPro:MainFrameStackOffset()
-    WoWPro:UpdateBars()
-end
-
--- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
-function WoWPro:DisableLeftHandedIfOffScreen()
+    WoWPro:MainFrameLayout()
+    -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
+    -- MainFrameLayout already applies offsets and visibility; keep offsets in sync
     if not WoWPro.rows or not WoWProDB.profile.buttonbar then return end
     if not WoWPro.rows[1] then return end
 
@@ -375,11 +440,13 @@ function WoWPro:BackgroundSet()
 
     -- StickyHeader backdrop (optional)
     if SH then
-        SH:SetBackdrop({
-            bgFile   = Profile.stickytexture or "Interface\\Tooltips\\UI-Tooltip-Background",
-            tile     = true,
-            tileSize = 16
-        })
+        if type(SH.SetBackdrop) == "function" then
+            SH:SetBackdrop({
+                bgFile   = Profile.stickytexture or "Interface\\Tooltips\\UI-Tooltip-Background",
+                tile     = true,
+                tileSize = 16
+            })
+        end
     end
 
     if GF and GF.SetBackdrop then
@@ -390,38 +457,46 @@ function WoWPro:BackgroundSet()
         })
     end
 
-    -- Colors
-    MF:SetBackdropColor(
-        Profile.bgcolor[1],
-        Profile.bgcolor[2],
-        Profile.bgcolor[3],
-        Profile.bgcolor[4]
-    )
-
-    BB:SetBackdropColor(
-        Profile.bgcolor[1],
-        Profile.bgcolor[2],
-        Profile.bgcolor[3],
-        Profile.bgcolor[4]
-    )
-
-    TB:SetBackdropColor(
-        Profile.titlecolor[1],
-        Profile.titlecolor[2],
-        Profile.titlecolor[3],
-        Profile.titlecolor[4]
-    )
-
-    if SH then
-        SH:SetBackdropColor(
-            Profile.stickycolor[1],
-            Profile.stickycolor[2],
-            Profile.stickycolor[3],
-            Profile.stickycolor[4]
+    -- Colors (call only when the frame supports the API)
+    if MF and type(MF.SetBackdropColor) == "function" then
+        MF:SetBackdropColor(
+            Profile.bgcolor[1],
+            Profile.bgcolor[2],
+            Profile.bgcolor[3],
+            Profile.bgcolor[4]
         )
     end
 
-    if GF and GF.SetBackdropColor then
+    if BB and type(BB.SetBackdropColor) == "function" then
+        BB:SetBackdropColor(
+            Profile.bgcolor[1],
+            Profile.bgcolor[2],
+            Profile.bgcolor[3],
+            Profile.bgcolor[4]
+        )
+    end
+
+    if TB and type(TB.SetBackdropColor) == "function" then
+        TB:SetBackdropColor(
+            Profile.titlecolor[1],
+            Profile.titlecolor[2],
+            Profile.titlecolor[3],
+            Profile.titlecolor[4]
+        )
+    end
+
+    if SH then
+        if type(SH.SetBackdropColor) == "function" then
+            SH:SetBackdropColor(
+                Profile.stickycolor[1],
+                Profile.stickycolor[2],
+                Profile.stickycolor[3],
+                Profile.stickycolor[4]
+            )
+        end
+    end
+
+    if GF and type(GF.SetBackdropColor) == "function" then
         GF:SetBackdropColor(
             Profile.bgcolor[1],
             Profile.bgcolor[2],
@@ -438,14 +513,20 @@ function WoWPro:BackgroundSet()
 
     -- Border enable/disable
     local alpha = Profile.border and 1 or 0
-    MF:SetBackdropBorderColor(1, 1, 1, alpha)
-    BB:SetBackdropBorderColor(1, 1, 1, alpha)
+    if MF and type(MF.SetBackdropBorderColor) == "function" then
+        MF:SetBackdropBorderColor(1, 1, 1, alpha)
+    end
+    if BB and type(BB.SetBackdropBorderColor) == "function" then
+        BB:SetBackdropBorderColor(1, 1, 1, alpha)
+    end
 
     -- Recorder customization (optional)
     local Recorder = WoWPro.Recorder
     if Recorder and Recorder.CustomizeFrames then
         Recorder:CustomizeFrames()
     end
+    -- Ensure layout is refreshed so backdrop/color changes are visible immediately
+    WoWPro:MainFrameLayout()
 end
 
 function WoWPro:SetRowBackdrop(row)
@@ -506,8 +587,8 @@ function WoWPro:ContractGuideToRows()
     if not WoWPro.MainFrame or not WoWPro.rows then return end
 
     local pad = GetMainFrameContentPad()
-    local titleheight = (WoWPro.TitleBar and WoWPro.TitleBar:IsShown()) and WoWPro.TitleBar:GetHeight() or 0
-    local stickyHeight = (WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown()) and WoWPro.StickyHeader:GetHeight() or 0
+    local titleheight = (WoWPro.TitleBar and WoWPro:SafeIsShown(WoWPro.TitleBar)) and WoWPro:SafeGetHeight(WoWPro.TitleBar) or 0
+    local stickyHeight = (WoWPro.StickyHeader and WoWPro:SafeIsShown(WoWPro.StickyHeader)) and WoWPro:SafeGetHeight(WoWPro.StickyHeader) or 0
 
     local rowsHeight = 0
     for _, row in ipairs(WoWPro.rows) do
@@ -854,84 +935,39 @@ function WoWPro.MainFrameStackOffset()
     local cumulative = 0
 
     -- ButtonBar
-    if WoWPro.ButtonBar and WoWPro.ButtonBar:IsShown() then
+    if WoWPro.ButtonBar and WoWPro:SafeIsShown(WoWPro.ButtonBar) then
         offsets.ButtonBar = cumulative
-        cumulative = cumulative + WoWPro.ButtonBar:GetHeight()
+        cumulative = cumulative + WoWPro:SafeGetHeight(WoWPro.ButtonBar)
     else
         offsets.ButtonBar = cumulative
     end
 
     -- TitleBar
-    if WoWPro.TitleBar and WoWPro.TitleBar:IsShown() then
+    if WoWPro.TitleBar and WoWPro:SafeIsShown(WoWPro.TitleBar) then
         offsets.TitleBar = cumulative
-        cumulative = cumulative + WoWPro.TitleBar:GetHeight()
+        cumulative = cumulative + WoWPro:SafeGetHeight(WoWPro.TitleBar)
     else
         offsets.TitleBar = cumulative
     end
 
     -- StickyHeader
-    if WoWPro.StickyHeader and WoWPro.StickyHeader:IsShown() then
+    if WoWPro.StickyHeader and WoWPro:SafeIsShown(WoWPro.StickyHeader) then
         offsets.StickyHeader = cumulative
-        cumulative = cumulative + WoWPro.StickyHeader:GetHeight()
+        cumulative = cumulative + WoWPro:SafeGetHeight(WoWPro.StickyHeader)
     else
         offsets.StickyHeader = cumulative
     end
 
     -- GuideFrame (rows)
     offsets.GuideFrame = cumulative
-    cumulative = cumulative + WoWPro.GuideFrame:GetHeight()
+    cumulative = cumulative + WoWPro:SafeGetHeight(WoWPro.GuideFrame)
 
     WoWProDB.profile.totalOffset = cumulative
     WoWPro.AnchorOffsets = offsets
 end
 
--- Keeps all bars visually stacked by applying visibility‑based offsets from MainFrameStackOffset()
-function WoWPro:UpdateBars()
-    WoWPro:Trace("UpdateBars")
-    local MF  = WoWPro.MainFrame
-    local BB  = WoWPro.ButtonBar
-    local TB  = WoWPro.TitleBar
-    local SH  = WoWPro.StickyHeader
-    local GF  = WoWPro.GuideFrame
-
-    local pad = GetMainFrameContentPad()
-
-    if not MF then return end
-    WoWPro:MainFrameStackOffset()
-    local off = WoWPro.AnchorOffsets
-    if not off then return end
-
-    -- TitleBar
-    if TB then
-        TB:ClearAllPoints()
-        TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.TitleBar)
-        TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.TitleBar)
-    end
-
-    -- ButtonBar
-    if BB then
-        BB:ClearAllPoints()
-        BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.ButtonBar)
-        BB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.ButtonBar)
-    end
-
-    -- StickyHeader
-    if SH then
-        SH:ClearAllPoints()
-        SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, -pad - off.StickyHeader)
-        SH:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.StickyHeader)
-
-        -- Apply visibility as dictated by RowUpdate
-        SH:SetShown(SH.Visible)
-    end
-
-    -- GuideFrame
-    if GF then
-        GF:ClearAllPoints()
-        GF:SetPoint("TOPLEFT", MF, "TOPLEFT", pad, -pad - off.GuideFrame)
-        GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, -pad - off.GuideFrame)
-    end
-end
+-- NOTE: `UpdateBars` was removed. `MainFrameLayout` is the single authority
+-- responsible for arranging and showing/hiding the main frame children.
 
 function WoWPro.CustomizeFrames()
     WoWPro:Trace("CustomizeFrames")
@@ -958,8 +994,7 @@ function WoWPro.CustomizeFrames()
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
 
-    WoWPro:MainFrameStackOffset()
-    WoWPro:UpdateBars()
+    WoWPro:MainFrameLayout()
 end
 
 function WoWPro.MainFrameLayout()
@@ -980,43 +1015,58 @@ function WoWPro.MainFrameLayout()
     local y   = -pad
 
     if SH then
-        SH.Visible = WoWPro:GetActiveStickyCount() > 0
-        SH:SetShown(SH.Visible)
+        -- Only allow the StickyHeader to be visible when the GuideFrame itself is visible.
+        -- Otherwise force it hidden to avoid orphaned/positionless sticky header showing.
+        if GF and WoWPro:SafeIsShown(GF) then
+            SH.Visible = WoWPro:GetActiveStickyCount() > 0
+            WoWPro:SafeSetShown(SH, SH.Visible)
+        else
+            SH.Visible = false
+            WoWPro:SafeSetShown(SH, false)
+        end
     end
 
     -- BUTTONBAR (optional)
-    if BB and BB:IsShown() then
-        BB:ClearAllPoints()
-        BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
-        BB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
-        y = y - BB:GetHeight()
+    if BB and WoWPro:SafeIsShown(BB) then
+        if type(BB.ClearAllPoints) == "function" then
+            BB:ClearAllPoints()
+            BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
+            BB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+        end
+        y = y - WoWPro:SafeGetHeight(BB)
     end
 
     -- TITLEBAR (optional)
-    if TB and TB:IsShown() then
-        TB:ClearAllPoints()
-        TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
-        TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
-        y = y - TB:GetHeight()
+    if TB and WoWPro:SafeIsShown(TB) then
+        if type(TB.ClearAllPoints) == "function" then
+            TB:ClearAllPoints()
+            TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
+            TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+        end
+        y = y - WoWPro:SafeGetHeight(TB)
     end
 
     -- STICKYHEADER (optional)
-    if GF and GF:IsShown() and SH and SH.Visible then
-        SH:ClearAllPoints()
-        SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
-        SH:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
-        y = y - SH:GetHeight()
+    if GF and WoWPro:SafeIsShown(GF) and SH and SH.Visible then
+        if type(SH.ClearAllPoints) == "function" then
+            SH:ClearAllPoints()
+            SH:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
+            SH:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+        end
+        y = y - WoWPro:SafeGetHeight(SH)
     end
 
     -- GUIDEFRAME (static)
-    GF:ClearAllPoints()
-    GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
-    GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+    if type(GF.ClearAllPoints) == "function" then
+        GF:ClearAllPoints()
+        GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
+        GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+    end
 
     -- Determine final MainFrame height based on content and profile settings
     if Profile.autoresize then
-        if GF:IsShown() then
-            y = y - GF:GetHeight()
+        if WoWPro:SafeIsShown(GF) then
+            y = y - WoWPro:SafeGetHeight(GF)
         end
 
         MF:SetHeight(-y + pad)
@@ -1191,19 +1241,19 @@ function WoWPro.ComputeMFHeight()
     local SH = WoWPro.StickyHeader
     local GF = WoWPro.GuideFrame
 
-    if BB and BB:IsShown() then
-        total = total + BB:GetHeight()
+    if BB and WoWPro:SafeIsShown(BB) then
+        total = total + WoWPro:SafeGetHeight(BB)
     end
 
-    if TB and TB:IsShown() then
-        total = total + TB:GetHeight()
+    if TB and WoWPro:SafeIsShown(TB) then
+        total = total + WoWPro:SafeGetHeight(TB)
     end
 
-    if SH and SH:IsShown() then
-        total = total + SH:GetHeight()
+    if SH and WoWPro:SafeIsShown(SH) then
+        total = total + WoWPro:SafeGetHeight(SH)
     end
 
-    total = total + GF:GetHeight()
+    total = total + WoWPro:SafeGetHeight(GF)
 
     return total
 end
@@ -1303,7 +1353,7 @@ function WoWPro:SetDynamicResizeBounds(corner)
 
     local barMargin = 0
     if WoWProDB.profile.buttonbar and WoWPro.ButtonBar then
-        local bh = WoWPro.ButtonBar:GetHeight() or 0
+        local bh = WoWPro:SafeGetHeight(WoWPro.ButtonBar) or 0
         barMargin = math.max(bh - 3, 0)
     end
 
@@ -2578,7 +2628,7 @@ function WoWPro:MainFrameMouseHandler()
     if TB then
         TB:SetScript("OnDoubleClick", function(tb, button)
             if button == "LeftButton" then
-                local newGFState = not WoWPro.GuideFrame:IsShown()
+                local newGFState = not WoWPro:SafeIsShown(WoWPro.GuideFrame)
                 WoWPro:HideAndSeek(GF, "guideframe", newGFState, true)
             end
         end)
@@ -2684,17 +2734,20 @@ function WoWPro:CreateFrames()
     WoWPro:CreateMiniMapButton()
     WoWPro:CreateDropdownMenu()
     WoWPro:CreateGuideList()
+    -- Validate core UI frames after creation to detect accidental table/nil overwrites
+    WoWPro:ValidateUIFrames()
 end
 
 --Enables or Disables frames (hides/shows)
 function WoWPro:AbleFrames()
     if WoWPro:IsEnabled() then
-        WoWPro.MainFrame:Show()
-        WoWPro.ButtonBar:Show()
-        WoWPro.TitleBar:Show()
+        -- MainFrame visible when addon enabled; bars respect profile settings
+        WoWPro:SafeSetShown(WoWPro.MainFrame, true)
+        WoWPro:SafeSetShown(WoWPro.ButtonBar, WoWProDB and WoWProDB.profile and WoWProDB.profile.buttonbar)
+        WoWPro:SafeSetShown(WoWPro.TitleBar,  WoWProDB and WoWProDB.profile and WoWProDB.profile.titlebar)
     else
-        WoWPro.MainFrame:Hide()
-        WoWPro.ButtonBar:Hide()
-        WoWPro.TitleBar:Hide()
+        WoWPro:SafeSetShown(WoWPro.MainFrame, false)
+        WoWPro:SafeSetShown(WoWPro.ButtonBar, false)
+        WoWPro:SafeSetShown(WoWPro.TitleBar, false)
     end
 end

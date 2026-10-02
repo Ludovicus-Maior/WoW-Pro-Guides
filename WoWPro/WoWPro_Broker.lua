@@ -1876,7 +1876,7 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.MainFrameLayout()
         if _G.C_Timer and _G.C_Timer.After then
             _G.C_Timer.After(0, function()
-                if WoWPro.GuideFrame and WoWPro.GuideFrame:IsShown() and not _G.InCombatLockdown() then
+                if WoWPro:SafeIsShown(WoWPro.GuideFrame) and not _G.InCombatLockdown() then
                     WoWPro.MainFrameLayout()
                 end
             end)

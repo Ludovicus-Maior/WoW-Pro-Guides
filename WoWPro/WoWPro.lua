@@ -572,6 +572,10 @@ function WoWPro:OnEnable()
     -- Applies profile display settings
     WoWPro:Trace("CustomizeFrames:FROM_WOWPRO")
     WoWPro:CustomizeFrames()
+    -- Validate core UI frames after customization/enable to detect accidental overwrites
+    if WoWPro.ValidateUIFrames then
+        WoWPro:ValidateUIFrames()
+    end
 
     -- Keybindings Initial Setup --
     if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
@@ -1087,10 +1091,20 @@ end
 function WoWPro.HideFrame(toHide, why)
     if toHide ~= WoWPro.IsHidden then
         if toHide then
-            WoWPro.MainFrame:Hide()
-            WoWPro.TitleBar:Hide()
+            WoWPro:SafeSetShown(WoWPro.MainFrame, false)
+            -- Do not hide the TitleBar if the GuideFrame is already hidden
+            if WoWPro.GuideFrame and WoWPro:SafeIsShown(WoWPro.GuideFrame) then
+                WoWPro:SafeSetShown(WoWPro.TitleBar, false)
+            else
+                WoWPro:SafeSetShown(WoWPro.TitleBar, true)
+            end
+            -- When the main UI is hidden, also hide any StickyHeader to avoid orphaned stickies
+            if WoWPro.StickyHeader then
+                WoWPro.StickyHeader.Visible = false
+                WoWPro:SafeSetShown(WoWPro.StickyHeader, false)
+            end
         else
-            WoWPro.MainFrame:Show()
+            WoWPro:SafeSetShown(WoWPro.MainFrame, true)
             WoWPro:TitleBarShow()
         end
         WoWPro.IsHidden = toHide
