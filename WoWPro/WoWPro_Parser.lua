@@ -1376,8 +1376,7 @@ function WoWPro.SetupGuideReal()
         end
     end    WoWPro:SendMessage("WoWPro_PostLoadGuide")
 
-    WoWPro:MainFrameStackOffset()
-    WoWPro:UpdateBars()
+    WoWPro:MainFrameLayout()
     if not WoWPro.MouseHandlerBound then
         WoWPro:MainFrameMouseHandler()
         WoWPro.MouseHandlerBound = true
