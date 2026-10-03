@@ -49,7 +49,7 @@ if WoWPro.CLASSIC  then   --  Gets Profs to work in Classic doing this, not sure
 		[2548] = { exp = 0, parent = 185, name = 'Cooking' },
 		[356] = { name = 'Fishing' },
 		[2592] = { exp = 0, parent = 356, name = 'Fishing' },
-		[633] = { name = 'Lockpicking' },		
+		[633] = { name = 'Lockpicking' },
 	}
  	elseif WoWPro.BC then
 	WoWPro.ProfessionSkillLines = {
