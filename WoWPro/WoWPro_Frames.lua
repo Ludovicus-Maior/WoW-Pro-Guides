@@ -397,9 +397,6 @@ function WoWPro:ClampSideButtonsOnScreen()
         end
         WoWPro.MainFrame:ClearAllPoints()
         WoWPro.MainFrame:SetPoint(pos[1], pos[2], pos[3], x + dx, y)
-        if not WoWPro.IsMoving then
-            WoWPro.AnchorStore("ClampSideButtonsOnScreen")
-        end
         WoWPro.SetMouseNotesPoints()
     end
 end
@@ -601,38 +598,10 @@ function WoWPro:ContractGuideToRows()
     local currentHeight = WoWPro.MainFrame:GetHeight() or 0
 
     if desiredHeight > 0 and desiredHeight < currentHeight then
-        local expansionAnchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
-        local screenW, screenH = GetUIScreenSize()
-        local left = WoWPro.MainFrame:GetLeft() or 0
-        local right = WoWPro.MainFrame:GetRight() or screenW
-        local top = WoWPro.MainFrame:GetTop() or screenH
-        local bottom = WoWPro.MainFrame:GetBottom() or 0
-
-        local offsetX, offsetY
-        if expansionAnchor == "TOPLEFT" then
-            offsetX, offsetY = left, top - screenH
-        elseif expansionAnchor == "TOPRIGHT" then
-            offsetX, offsetY = right - screenW, top - screenH
-        elseif expansionAnchor == "BOTTOMLEFT" then
-            offsetX, offsetY = left, bottom
-        elseif expansionAnchor == "BOTTOMRIGHT" then
-            offsetX, offsetY = right - screenW, bottom
-        end
-
-        WoWPro.MainFrame:ClearAllPoints()
-        WoWPro.MainFrame:SetPoint(expansionAnchor, _G.UIParent, expansionAnchor, offsetX, offsetY)
-
         local wasClampedToScreen = WoWPro.MainFrame:IsClampedToScreen()
         WoWPro.MainFrame:SetClampedToScreen(false)
         WoWPro.MainFrame:SetHeight(desiredHeight)
         WoWPro.MainFrame:SetClampedToScreen(wasClampedToScreen)
-
-        if expansionAnchor == "BOTTOMLEFT" or expansionAnchor == "BOTTOMRIGHT" then
-            local ptAnchor, relTo, relPt, x, y = WoWPro.MainFrame:GetPoint(1)
-            if ptAnchor then
-                WoWPro.MainFrame:SetPoint(ptAnchor, relTo, relPt, x, y)
-            end
-        end
     end
 end
 
