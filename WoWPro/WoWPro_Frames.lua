@@ -2351,6 +2351,7 @@ end
 
 -- Helper function to manage mutual exclusion and toggle navigation windows
 function WoWPro:ToggleWindow(buttonIndex)
+    WoWPro:Print("ToggleWindow: entered %s", tostring(buttonIndex))
     local select  = WoWPro.GuideList
     local current = WoWPro.CurrentGuideFrame
     local discord = WoWPro.DiscordDialog
@@ -2364,26 +2365,34 @@ function WoWPro:ToggleWindow(buttonIndex)
     if openFrame then openFrame:Hide() end
 
     -- 3. Open the newly requested window (Indices 1, 2, and 5)
-    if buttonIndex == 1 and openFrame ~= select then
+    if buttonIndex == 1 and (not openFrame or openFrame ~= select) then
         if select then select:Show() end
-    elseif buttonIndex == 2 and openFrame ~= current then
+    elseif buttonIndex == 2 and (not openFrame or openFrame ~= current) then
         if current then current:Show() end
-    elseif buttonIndex == 5 and openFrame ~= discord then
-        -- THE LAZY CREATION TEST: If it doesn't exist yet, call the creator function!
+    elseif buttonIndex == 5 and (not openFrame or openFrame ~= discord) then
+        -- Lazy-creation: build the dialog if a creator exists
         if not discord and type(WoWPro.CreateDiscordDialog) == "function" then
-            WoWPro:CreateDiscordDialog() -- Execute the build function
+            WoWPro.CreateDiscordDialog() -- Execute the build function
             discord = WoWPro.DiscordDialog -- Re-fetch the newly generated window table
         end
-        -- Safe execution pass now that it is guaranteed to exist
-        if discord then discord:Show() end
+        -- Show the dialog if available
+        if discord then
+            local ok, err = pcall(function() discord:Show() end)
+            if not ok then
+                WoWPro:Print("ToggleWindow: discord:Show() error: %s", tostring(err))
+            end
+        end
     end
 end
 
 -- Discord Dialog --
 function WoWPro:CreateDiscordDialog()
     if WoWPro.DiscordDialog then return end
-
-    local frame = WoWPro:CreateDialogBox("Discord Server!", 400, 180)
+    WoWPro:Trace("CreateDiscordDialog: creating dialog")
+    -- Use a safe internal frame name (no spaces/punctuation) to avoid client-specific CreateFrame quirks
+    local frame, titletext = WoWPro:CreateDialogBox("WoWPro_DiscordDialog", 400, 180)
+    -- Set a friendly visible title
+    if titletext and titletext.SetText then titletext:SetText("Discord Server!") end
     frame:SetFrameStrata("DIALOG")
 
     -- Discord icon
@@ -2400,12 +2409,28 @@ function WoWPro:CreateDiscordDialog()
     desc:SetText("Connect with other players, get help, and stay updated!")
 
     -- EditBox
-    local editbox = _G.CreateFrame("EditBox", nil, frame, "InputBoxTemplate")
-    editbox:SetSize(260, 20)
-    editbox:SetPoint("TOP", desc, "BOTTOM", 0, -20)
-    editbox:SetText("https://discord.gg/aarduK7")
-    editbox:SetAutoFocus(false)
-    editbox:SetScript("OnEscapePressed", function() frame:Hide() end)
+    -- Try creating an EditBox with the standard template; fall back if unavailable in some clients
+    local editbox
+    local ok, res = pcall(_G.CreateFrame, "EditBox", nil, frame, "InputBoxTemplate")
+    if ok and res then
+        editbox = res
+    else
+        -- Fallback: plain EditBox without template
+        editbox = _G.CreateFrame("EditBox", nil, frame)
+        if editbox.SetSize == nil then
+            WoWPro:Print("CreateDiscordDialog: failed to create EditBox")
+            editbox = nil
+        end
+    end
+    if editbox then
+        editbox:SetSize(260, 20)
+        editbox:SetPoint("TOP", desc, "BOTTOM", 0, -20)
+        editbox:SetText("https://discord.gg/aarduK7")
+        editbox:SetAutoFocus(false)
+        editbox:SetScript("OnEscapePressed", function() frame:Hide() end)
+    else
+        WoWPro:Print("CreateDiscordDialog: EditBox not available; dialog will still show link in description")
+    end
 
     -- Copy button
     local copyButton = _G.CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
@@ -2413,8 +2438,10 @@ function WoWPro:CreateDiscordDialog()
     copyButton:SetPoint("TOPLEFT", editbox, "BOTTOMLEFT", 0, -10)
     copyButton:SetText("Copy")
     copyButton:SetScript("OnClick", function()
-        editbox:SetFocus()
-        editbox:HighlightText()
+        if editbox and editbox.SetFocus then
+            editbox:SetFocus()
+            if editbox.HighlightText then editbox:HighlightText() end
+        end
         _G.DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00Discord link copied! Paste it in your browser.|r")
     end)
 
@@ -2427,12 +2454,13 @@ function WoWPro:CreateDiscordDialog()
 
     -- Auto-select text when shown
     frame:SetScript("OnShow", function()
-        editbox:SetText("https://discord.gg/aarduK7")
-        editbox:SetFocus()
-        editbox:HighlightText()
+        if editbox and editbox.SetText then editbox:SetText("https://discord.gg/aarduK7") end
+        if editbox and editbox.SetFocus then editbox:SetFocus() end
+        if editbox and editbox.HighlightText then editbox:HighlightText() end
     end)
 
     WoWPro.DiscordDialog = frame
+    WoWPro:Trace("CreateDiscordDialog: dialog created and assigned to WoWPro.DiscordDialog")
 end
 
 -- TODO: make it module specific, move this to WoWPro_Leveling
@@ -2585,10 +2613,15 @@ function WoWPro:MainFrameMouseHandler()
         OB:SetScript("OnMouseUp", function(ob, button)
             if button == "LeftButton" and Profile.drag then
                 MF:StopMovingOrSizing()
-                isMoving = false
-                C_Timer.After(0, function()
-                    WoWPro.AnchorStore("OptionButtonMouseUp")
-                end)
+                    isMoving = false
+                    -- Delay AnchorStore slightly to avoid racing with UI clamping/movement in Classic
+                    if _G.C_Timer and _G.C_Timer.After then
+                        _G.C_Timer.After(0.1, function()
+                            WoWPro.AnchorStore("OptionButtonMouseUp")
+                        end)
+                    else
+                        WoWPro.AnchorStore("OptionButtonMouseUp")
+                    end
             end
         end)
     end
@@ -2637,7 +2670,11 @@ function WoWPro:MainFrameMouseHandler()
                 WoWPro:Print("Current step not visible in guide window.")
             end
         end)
-        BB.Buttons[5]:SetScript("OnClick", function() WoWPro:ToggleWindow(5) end)
+        BB.Buttons[5]:SetScript("OnClick", function()
+            WoWPro:Print("Discord button clicked")
+            local ok, err = pcall(function() WoWPro:ToggleWindow(5) end)
+            if not ok then WoWPro:Print("ToggleWindow error:", tostring(err)) end
+        end)
     end
 
     -- Row clicks
