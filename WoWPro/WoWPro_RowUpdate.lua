@@ -104,6 +104,46 @@ function WoWPro.RowSizeSet()
     end
 end
 
+local function ForEachRow(row, callback)
+    if row then
+        callback(row)
+        return
+    end
+    for _, currentRow in ipairs(WoWPro.rows or {}) do
+        callback(currentRow)
+    end
+end
+
+function WoWPro:RowFontSet(row)
+    local profile = WoWProDB.profile
+    ForEachRow(row, function(currentRow)
+        if profile.fontTitle and profile.fontTitleSize then
+            currentRow.step:SetFont(profile.fontTitle, profile.fontTitleSize, profile.fontTitleFlags)
+        end
+        if profile.fontNote and profile.fontNoteSize then
+            currentRow.note:SetFont(profile.fontNote, profile.fontNoteSize, profile.fontNoteFlags)
+        end
+        if profile.fontTracker and profile.fontTrackerSize then
+            currentRow.track:SetFont(profile.fontTracker, profile.fontTrackerSize, profile.fontTrackerFlags)
+        end
+    end)
+end
+
+function WoWPro:RowColorSet(row)
+    local profile = WoWProDB.profile
+    ForEachRow(row, function(currentRow)
+        if profile.colorTitle then
+            currentRow.step:SetTextColor(profile.colorTitle.r, profile.colorTitle.g, profile.colorTitle.b)
+        end
+        if profile.colorNote then
+            currentRow.note:SetTextColor(profile.colorNote.r, profile.colorNote.g, profile.colorNote.b)
+        end
+        if profile.colorTracker then
+            currentRow.track:SetTextColor(profile.colorTracker.r, profile.colorTracker.g, profile.colorTracker.b)
+        end
+    end)
+end
+
 local function NormalizeTrackText(track)
     if type(track) ~= "string" then
         return ""
