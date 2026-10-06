@@ -726,25 +726,30 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
 
     local activeUS = WoWPro.ActiveStep
     local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
+    local isManualSticky = WoWPro.manualSticky and WoWPro.manualSticky[stepIdx]
 
     -- Hide paired sticky S when its US step is active
     if IsPairedStickyHidden(activeUS, stepIdx) then
         return false
     end
 
+    if isManualSticky then
+        return true
+    end
+
     -- Sticky steps beyond progression boundary are hidden
     -- Except S!US (sticky+unsticky) which stays visible until completion
-    if not isSUS and stepIdx > stickyBoundary then
+    if not isSUS and not isManualSticky and stepIdx > stickyBoundary then
         return false
     end
 
     -- AVAILABLE filter (sticky visibility only)
-    if not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
+    if not isSUS and not isManualSticky and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
         return false
     end
 
     -- ACTIVE filter (sticky visibility only)
-    if not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
+    if not isSUS and not isManualSticky and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
         return false
     end
 
@@ -1500,6 +1505,8 @@ BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
             tinsert(dropdown,
                 {text = "Un-Sticky", func = function()
                     WoWPro.sticky[currentRow.index] = false
+                    WoWPro.manualSticky = WoWPro.manualSticky or {}
+                    WoWPro.manualSticky[currentRow.index] = nil
                     WoWPro:UpdateGuide("ClickedUnSticky")
                 end}
             )
@@ -1508,6 +1515,8 @@ BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
                 {text = "Make Sticky", func = function()
                     WoWPro.sticky[currentRow.index] = true
                     WoWPro.unsticky[currentRow.index] = false
+                    WoWPro.manualSticky = WoWPro.manualSticky or {}
+                    WoWPro.manualSticky[currentRow.index] = true
                     WoWPro:UpdateGuide("ClickedMakeSticky")
                 end}
             )
