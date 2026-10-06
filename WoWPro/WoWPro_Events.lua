@@ -13,9 +13,14 @@ function WoWPro:OnEnableEvents()
     WoWPro:dbp("Registering Events: Core Addon")
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
+    WoWPro:RegisterMessage("WoWPro_AnchorStoreRequested", "HandleAnchorStoreRequest")
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+end
+
+function WoWPro:HandleAnchorStoreRequest(_, reason, expansionAnchorOverride)
+    WoWPro.AnchorStore(reason, expansionAnchorOverride)
 end
 
 -- Event Registration Functions --

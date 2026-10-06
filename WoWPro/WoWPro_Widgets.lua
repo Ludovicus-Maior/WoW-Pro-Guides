@@ -93,6 +93,7 @@ function WoWPro:CreateStep(parent, anchor)
     local step = parent:CreateFontString(nil, nil, "GameFontHighlight")
     step:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
     step:SetPoint("RIGHT")
+    step:SetPoint("TOP", parent, "TOP")
     step:SetJustifyH("LEFT")
 
     return step
@@ -575,7 +576,7 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
 --- end)
 
     row.step = WoWPro:CreateStep(row, row.iconTexture)
-    row.note = WoWPro:CreateNote(row, row.iconTexture)
+    row.note = WoWPro:CreateNote(row, row.step)
     return row
 end
 

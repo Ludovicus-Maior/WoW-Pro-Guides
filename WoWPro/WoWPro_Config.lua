@@ -13,6 +13,18 @@ local AceGUI = _G.LibStub("AceGUI-3.0")
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
+local function ResolveFontPath(value)
+    local fonts = LSM:HashTable("font")
+    return (fonts and fonts[value]) or value
+end
+
+local function RefreshTextLayout()
+    WoWPro.RowSizeSet()
+    if WoWPro.MainFrameLayout then
+        WoWPro:MainFrameLayout()
+    end
+end
+
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
     WoWPro:Trace("CustomizeFrames:FROM_CONFIG")
@@ -339,9 +351,6 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.resize end,
                                 set = function(info,val) WoWProDB.profile.resize = val
                                     if val then WoWProDB.profile.autoresize = false end
-                                    if not val then
-                                        WoWPro.AnchorStore("ResizeLocked")
-                                    end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },
                             autoresize = {
@@ -353,8 +362,6 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.autoresize end,
                                 set = function(info,val) WoWProDB.profile.autoresize = val
                                     if val then WoWProDB.profile.resize = false
-                                    else
-                                        WoWPro.AnchorStore("AutoResizeDisabled")
                                     end
                                     WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
                             },
@@ -549,9 +556,9 @@ local function createDisplayConfig()
                                     local hash = values[WoWProDB.profile.stepfont]
                                     return hash end,
                                 set = function(info,val)
-                                    local hashtable = LSM:HashTable("font")
-                                    WoWProDB.profile.stepfont = hashtable[val]
-                                    WoWPro.RowFontSet() end
+                                    WoWProDB.profile.stepfont = ResolveFontPath(val)
+                                    WoWPro.RowFontSet()
+                                    RefreshTextLayout() end
                             },
                             stepfontsize = {
                                 order = 2,
@@ -562,7 +569,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.stepfontsize end,
                                 set = function(info,val) WoWProDB.profile.stepfontsize = val
                                     WoWPro.RowFontSet()
-                                    WoWPro.RowSizeSet() end
+                                    RefreshTextLayout() end
                             },
                             steptextcolor = {
                                 order = 3,
@@ -573,7 +580,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.steptextcolor[1], WoWProDB.profile.steptextcolor[2], WoWProDB.profile.steptextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.steptextcolor = {r,g,b}
-                                    WoWPro.RowFontSet() end
+                                    WoWPro.RowColorSet() end
                             },
                             notefont = {
                                 order = 4,
@@ -591,9 +598,9 @@ local function createDisplayConfig()
                                     local hash = values[WoWProDB.profile.notefont]
                                     return hash end,
                                 set = function(info,val)
-                                    local hashtable = LSM:HashTable("font")
-                                    WoWProDB.profile.notefont = hashtable[val]
-                                    WoWPro.RowFontSet() end
+                                    WoWProDB.profile.notefont = ResolveFontPath(val)
+                                    WoWPro.RowFontSet()
+                                    RefreshTextLayout() end
                             },
                             notefontsize = {
                                 order = 5,
@@ -604,7 +611,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.notefontsize end,
                                 set = function(info,val) WoWProDB.profile.notefontsize = val
                                     WoWPro.RowFontSet()
-                                    WoWPro.RowSizeSet() end
+                                    RefreshTextLayout() end
                             },
                             notetextcolor = {
                                 order = 6,
@@ -615,7 +622,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.notetextcolor[1], WoWProDB.profile.notetextcolor[2], WoWProDB.profile.notetextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.notetextcolor = {r,g,b}
-                                    WoWPro.RowFontSet() end
+                                    WoWPro.RowColorSet() end
                             },
                             trackfont = {
                                 order = 7,
@@ -633,9 +640,9 @@ local function createDisplayConfig()
                                     local hash = values[WoWProDB.profile.trackfont]
                                     return hash end,
                                 set = function(info,val)
-                                    local hashtable = LSM:HashTable("font")
-                                    WoWProDB.profile.trackfont = hashtable[val]
-                                    WoWPro.RowFontSet() end
+                                    WoWProDB.profile.trackfont = ResolveFontPath(val)
+                                    WoWPro.RowFontSet()
+                                    RefreshTextLayout() end
                             },
                             trackfontsize = {
                                 order = 8,
@@ -646,7 +653,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.trackfontsize end,
                                 set = function(info,val) WoWProDB.profile.trackfontsize = val
                                     WoWPro.RowFontSet()
-                                    WoWPro.RowSizeSet() end
+                                    RefreshTextLayout() end
                             },
                             tracktextcolor = {
                                 order = 9,
@@ -657,7 +664,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.tracktextcolor[1], WoWProDB.profile.tracktextcolor[2], WoWProDB.profile.tracktextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.tracktextcolor = {r,g,b}
-                                    WoWPro.RowFontSet() end
+                                    WoWPro.RowColorSet() end
                             },
                             titlefont = {
                                 order = 10,
@@ -675,8 +682,7 @@ local function createDisplayConfig()
                                     local hash = values[WoWProDB.profile.titlefont]
                                     return hash end,
                                 set = function(info,val)
-                                    local hashtable = LSM:HashTable("font")
-                                    WoWProDB.profile.titlefont = hashtable[val]
+                                    WoWProDB.profile.titlefont = ResolveFontPath(val)
                                     WoWPro:TitleBarSet() end
                             },
                             titlefontsize = {
@@ -716,8 +722,8 @@ local function createDisplayConfig()
                                     local hash = values[WoWProDB.profile.stickytitlefont]
                                     return hash end,
                                 set = function(info,val)
-                                    local hashtable = LSM:HashTable("font")
-                                    WoWProDB.profile.stickytitlefont = hashtable[val]
+                                    WoWProDB.profile.stickytitlefont = ResolveFontPath(val)
+                                    WoWPro:StickyHeaderSet()
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
@@ -729,6 +735,7 @@ local function createDisplayConfig()
                                 min = 1, max = 30, step = 1,
                                 get = function(info) return WoWProDB.profile.stickytitlefontsize end,
                                 set = function(info,val) WoWProDB.profile.stickytitlefontsize = val
+                                    WoWPro:StickyHeaderSet()
                                     WoWPro.RowFontSet()
                                     WoWPro.RowSizeSet() end
                             },
@@ -741,6 +748,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.stickytitletextcolor = {r,g,b}
+                                    WoWPro:StickyHeaderSet()
                                     WoWPro.RowFontSet() end
                             },
                         },

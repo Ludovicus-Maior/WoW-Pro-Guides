@@ -277,6 +277,9 @@ function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
     end
 
     WoWPro:MainFrameLayout()
+    if toggleGF then
+        WoWPro.AnchorSync(true)
+    end
     -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
     -- MainFrameLayout already applies offsets and visibility; keep offsets in sync
     if not WoWPro.rows or not WoWProDB.profile.buttonbar then return end
@@ -579,6 +582,26 @@ local function GetMainFrameContentPad()
     return pad
 end
 
+local function SetMainFrameHeightPreservingAnchor(height)
+    local MF = WoWPro.MainFrame
+    local anchor = WoWProDB.profile.expansionAnchor or "TOPLEFT"
+    local preserveTop = anchor == "TOPLEFT" or anchor == "TOPRIGHT"
+    local edgeBefore = preserveTop and MF:GetTop() or MF:GetBottom()
+    local scale = MF:GetScale() or 1
+
+    MF:SetHeight(height)
+
+    local edgeAfter = preserveTop and MF:GetTop() or MF:GetBottom()
+    if not edgeBefore or not edgeAfter then return end
+
+    local point = {MF:GetPoint(1)}
+    if not point[1] then return end
+
+    local offsetY = (point[5] or 0) + ((edgeBefore - edgeAfter) / scale)
+    MF:ClearAllPoints()
+    MF:SetPoint(point[1], point[2], point[3], point[4] or 0, offsetY)
+end
+
 function WoWPro:ContractGuideToRows()
     if _G.InCombatLockdown() or WoWProDB.profile.autoresize then return end
     if not WoWPro.MainFrame or not WoWPro.rows then return end
@@ -729,65 +752,6 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
             " | pctY=" .. string.format("%.4f", pos[8] or 0))
     end
 
-    if reason == "ResizeEnd" then return end
-
-    MF:SetScript("OnUpdate", function()
-        if not WoWPro.MaybeCombatLockdown() then
-
-            -- Use the user's configured expansion anchor for consistent position storage
-            local anchorUpdate_expansionAnchor = Profile.expansionAnchor or "TOPLEFT"
-            local anchorUpdate_ui = _G.UIParent
-            local anchorUpdate_screenW = anchorUpdate_ui and anchorUpdate_ui:GetWidth() or 0
-            local anchorUpdate_screenH = anchorUpdate_ui and anchorUpdate_ui:GetHeight() or 0
-            if anchorUpdate_screenW <= 0 or anchorUpdate_screenH <= 0 then
-                anchorUpdate_screenW, anchorUpdate_screenH = GetUIScreenSize()
-            end
-
-            local anchorUpdate_left = MF:GetLeft() or 0
-            local anchorUpdate_right = MF:GetRight() or anchorUpdate_screenW
-            local anchorUpdate_top = MF:GetTop() or anchorUpdate_screenH
-            local anchorUpdate_bottom = MF:GetBottom() or 0
-
-            -- Calculate offsets based on expansion anchor
-            local anchorUpdate_offsetX, anchorUpdate_offsetY
-            if anchorUpdate_expansionAnchor == "TOPLEFT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_left, anchorUpdate_top - anchorUpdate_screenH
-            elseif anchorUpdate_expansionAnchor == "TOPRIGHT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_right - anchorUpdate_screenW, anchorUpdate_top - anchorUpdate_screenH
-            elseif anchorUpdate_expansionAnchor == "BOTTOMLEFT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_left, anchorUpdate_bottom
-            elseif anchorUpdate_expansionAnchor == "BOTTOMRIGHT" then
-                anchorUpdate_offsetX, anchorUpdate_offsetY = anchorUpdate_right - anchorUpdate_screenW, anchorUpdate_bottom
-            end
-
-            local anchorUpdate_pos = {anchorUpdate_expansionAnchor, "UIParent", anchorUpdate_expansionAnchor, anchorUpdate_offsetX, anchorUpdate_offsetY}
-            local anchorUpdate_scale = MF:GetScale()
-            local anchorUpdate_storePercent = true
-
-            for i=4,5 do
-                anchorUpdate_pos[i] = anchorUpdate_pos[i] * anchorUpdate_scale
-            end
-
-            if anchorUpdate_storePercent and anchorUpdate_screenW > 0 and anchorUpdate_screenH > 0 then
-                anchorUpdate_pos[6] = "pct"
-                anchorUpdate_pos[7] = anchorUpdate_offsetX / anchorUpdate_screenW
-                anchorUpdate_pos[8] = anchorUpdate_offsetY / anchorUpdate_screenH
-                anchorUpdate_pos[9] = anchorUpdate_screenW
-                anchorUpdate_pos[10] = anchorUpdate_screenH
-            end
-
-            AnchorDebug("AnchorStore %s: anchor=%s offs=(%.1f,%.1f) screen=(%.1f,%.1f) scale=%.3f mode=%s", reason, anchorUpdate_expansionAnchor, anchorUpdate_offsetX, anchorUpdate_offsetY, anchorUpdate_screenW, anchorUpdate_screenH, anchorUpdate_scale, anchorUpdate_pos[6] or "px")
-
-            Profile.position = anchorUpdate_pos
-            Profile.scale = anchorUpdate_scale
-            local anchorUpdate_size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
-            Profile.size = anchorUpdate_size
-
-            WoWPro:dbp("AnchorStore(" .. reason .. "): Saved position using " .. anchorUpdate_expansionAnchor .. " - Width: " .. anchorUpdate_size[2] .. " Height: " .. anchorUpdate_size[1])
-
-            WoWPro.MainFrame:SetScript("OnUpdate", nil)
-        end
-    end)
 end
 
 function WoWPro.AnchorSync(reset_size)
@@ -944,6 +908,8 @@ function WoWPro.CustomizeFrames()
 
     WoWPro.InhibitAnchorStore = true  -- Prevent OnSizeChanged from calling AnchorStore during init
     WoWPro.BackgroundSet()
+    WoWPro.RowFontSet()
+    WoWPro.RowColorSet()
     WoWPro.ResizeSet()
     WoWPro.MinimapSet()
 
@@ -1037,8 +1003,8 @@ function WoWPro.MainFrameLayout()
             y = y - WoWPro:SafeGetHeight(GF)
         end
 
-        MF:SetHeight(-y + pad)
-        WoWPro.AnchorSync(true)
+        SetMainFrameHeightPreservingAnchor(-y + pad)
+        Profile.size = {MF:GetHeight(), MF:GetWidth()}
     else
         local guideHeight = math.max((MF:GetHeight() or 0) + y - pad, Profile.vminresize or 50)
         GF:SetHeight(guideHeight)
@@ -1060,7 +1026,7 @@ function WoWPro:GuideWindowLayout()
     end
 
     -- enforce minimum height
-    local minHeight = WoWProDB.profile.minResizeHeight or 50
+        local minHeight = WoWProDB.profile.vminresize or 50
     if totalHeight < minHeight then
         totalHeight = minHeight
     end
@@ -1340,7 +1306,7 @@ function WoWPro:SetExpansionAnchor(corner)
     end
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint(corner, ui, corner, x, y)
-    WoWPro.AnchorStore("SetExpansionAnchor", corner)
+    WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "SetExpansionAnchor", corner)
 
     -- Update resize handle visibility based on new anchor
     WoWPro:ResizeSet()
@@ -1422,7 +1388,6 @@ function WoWPro.ResizeHandlers.OnMouseUp()
     WoWPro.InhibitAnchorSync = false
     WoWPro.InhibitAnchorStore   = false
 
-    WoWPro.AnchorStore("ResizeStop")
     WoWPro:UpdateGuide("ResizeStop")
 end
 
@@ -1448,7 +1413,7 @@ function WoWPro:CreateButtonBar()
     BB:SetHeight(iconSize + (btnPad * 2))
 
     -- Position: border vs no border
-    if Profile.borderenabled then
+    if Profile.border then
         BB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  GBM.stackSideInset, -GBM.stackTopInset)
         BB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -GBM.stackSideInset, -GBM.stackTopInset)
     else
@@ -1550,7 +1515,6 @@ function WoWPro:ButtonBarSet()
     -- Apply to each button
     for _, btn in ipairs(BB.Buttons) do
         btn:SetSize(frameSize, frameSize)
-        btn.icon:SetSize(iconSize, iconSize)
         btn.icon:ClearAllPoints()
         btn.icon:SetPoint("CENTER")
     end
@@ -1577,7 +1541,7 @@ function WoWPro:CreateTitleBar()
     TB:SetHeight(visualHeight)
 
     -- Position: border vs no border
-    if Profile.borderenabled then
+    if Profile.border then
         TB:SetPoint("TOPLEFT",  MF, "BOTTOMLEFT",  GBM.stackSideInset, -GBM.stackTopInset)
         TB:SetPoint("TOPRIGHT", MF, "BOTTOMRIGHT", -GBM.stackSideInset, -GBM.stackTopInset)
     else
@@ -1676,7 +1640,7 @@ function WoWPro:CreateStickyHeader()
     SHtitle:SetFont("Fonts\\FRIZQT__.TTF", 14)
     SHtitle:SetText(L["As you go:"])
 
-    WoWPro.StickyTitle = SHtitle
+    WoWPro.StickyHeaderTitle = SHtitle
 
     WoWPro:StickyHeaderSet()
 end
@@ -1686,11 +1650,11 @@ function WoWPro:StickyHeaderSet()
     local SH = WoWPro.StickyHeader
     if not SH then return end
 
-    local fontName  = WoWProDB.profile.stickyheaderfont or "Fonts\\FRIZQT__.TTF"
-    local fontSize  = WoWProDB.profile.stickyheaderfontsize or 14
-    local textColor = WoWProDB.profile.stickyheadertextcolor or {1, 1, 1, 1}
+    local fontName  = WoWProDB.profile.stickytitlefont or "Fonts\\FRIZQT__.TTF"
+    local fontSize  = WoWProDB.profile.stickytitlefontsize or 14
+    local textColor = WoWProDB.profile.stickytitletextcolor or {1, 1, 1, 1}
     local bgColor   = WoWProDB.profile.stickycolor or {0, 0, 0, 0.85}
-    local inset     = WoWProDB.profile.stickyheaderinset or 4
+    local inset     = tonumber(WoWProDB.profile.userPad) or 0
 
     SH:SetBackdrop({
         bgFile = WoWProDB.profile.stickytexture or [[Interface\Tooltips\UI-Tooltip-Background]],
@@ -1698,9 +1662,9 @@ function WoWPro:StickyHeaderSet()
     })
     SH:SetBackdropColor(bgColor[1], bgColor[2], bgColor[3], bgColor[4])
 
-    if WoWPro.StickyTitle then
-        WoWPro.StickyTitle:SetFont(fontName, fontSize)
-        WoWPro.StickyTitle:SetTextColor(textColor[1], textColor[2], textColor[3], textColor[4])
+    if WoWPro.StickyHeaderTitle then
+        WoWPro.StickyHeaderTitle:SetFont(fontName, fontSize)
+        WoWPro.StickyHeaderTitle:SetTextColor(textColor[1], textColor[2], textColor[3], textColor[4])
     end
 
     SH:SetHeight(fontSize + 8)
@@ -1735,7 +1699,7 @@ function WoWPro:CreateGuideFrame()
     end)
 
     -- Anchor GuideFrame inside MainFrame
-    if Profile.borderenabled then
+    if Profile.border then
         GF:SetPoint("TOPLEFT",     MF, "TOPLEFT",     GBM.mainInsets.left,  -GBM.mainInsets.top)
         GF:SetPoint("BOTTOMRIGHT", MF, "BOTTOMRIGHT", -GBM.mainInsets.right,  GBM.mainInsets.bottom)
     else
@@ -1791,7 +1755,7 @@ function WoWPro:CreateRow(index)
     row:RegisterForClicks("AnyUp")
 
     -- Text padding defaults
-    row.TextPaddingTop  = 10    -- minimum top inset for StepTitle
+    row.TextPaddingTop = 0
     row.TextPaddingLeft = 3    -- left inset for StepTitle
     row.TextSpacing     = 2    -- vertical spacing between title/note/tracker
     row.MaxTextWidth = WoWPro.MainFrame:GetWidth()
@@ -1813,8 +1777,8 @@ function WoWPro:CreateRow(index)
     end)
     row.iconTexture = WoWPro:CreateIcon(row, row.check)
     row.step = WoWPro:CreateStep(row, row.iconTexture)
-    row.note = WoWPro:CreateNote(row, row.iconTexture)
-    row.track = WoWPro:CreateTrack(row, row.iconTexture)
+    row.note = WoWPro:CreateNote(row, row.step)
+    row.track = WoWPro:CreateTrack(row, row.note)
     row.progressBar = WoWPro:CreateProgressBar(row, row.track)
     row.progressBar:Hide()
     row.itembutton, row.itemicon, row.itemcooldown = WoWPro:CreateItemButton(WoWPro.MainFrame, index, row)
@@ -2304,10 +2268,10 @@ function WoWPro:MainFrameMouseHandler()
                     -- Delay AnchorStore slightly to avoid racing with UI clamping/movement in Classic
                     if _G.C_Timer and _G.C_Timer.After then
                         _G.C_Timer.After(0.1, function()
-                            WoWPro.AnchorStore("OptionButtonMouseUp")
+                            WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
                         end)
                     else
-                        WoWPro.AnchorStore("OptionButtonMouseUp")
+                        WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
                     end
             end
         end)
