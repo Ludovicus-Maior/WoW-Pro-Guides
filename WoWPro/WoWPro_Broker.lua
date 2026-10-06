@@ -1037,7 +1037,7 @@ function WoWPro:LegacyRowUpdate(offset)
 
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
-    -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
+    -- StickyHeader now keys off ActiveStickyCount, which is computed from the sorted rows.
     local allSteps = {}
     local tempK = k
     for i = 1, 15 do

@@ -73,6 +73,11 @@ function WoWPro.RowSizeSet()
     local rightPadding = 5
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
+            row.TextPaddingTop = 0
+            row.step:SetPoint("TOP", row, "TOP")
+            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
+            row.track:SetPoint("TOPLEFT", trackAnchor, "BOTTOMLEFT", 0, -3)
             row.step:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
             row.note:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
             row.track:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
@@ -80,7 +85,7 @@ function WoWPro.RowSizeSet()
             local stepHeight = row.step:GetHeight() or 0
             local noteHeight = row.note:IsShown() and row.note:GetHeight() or 0
             local trackHeight = row.track:IsShown() and row.track:GetHeight() or 0
-            local contentHeight = stepHeight
+            local contentHeight = stepHeight + (row.TextPaddingTop or 0)
 
             if noteHeight > 0 then
                 contentHeight = contentHeight + 3 + noteHeight
@@ -117,14 +122,14 @@ end
 function WoWPro:RowFontSet(row)
     local profile = WoWProDB.profile
     ForEachRow(row, function(currentRow)
-        if profile.fontTitle and profile.fontTitleSize then
-            currentRow.step:SetFont(profile.fontTitle, profile.fontTitleSize, profile.fontTitleFlags)
+        if profile.stepfont and profile.stepfontsize then
+            currentRow.step:SetFont(profile.stepfont, profile.stepfontsize)
         end
-        if profile.fontNote and profile.fontNoteSize then
-            currentRow.note:SetFont(profile.fontNote, profile.fontNoteSize, profile.fontNoteFlags)
+        if profile.notefont and profile.notefontsize then
+            currentRow.note:SetFont(profile.notefont, profile.notefontsize)
         end
-        if profile.fontTracker and profile.fontTrackerSize then
-            currentRow.track:SetFont(profile.fontTracker, profile.fontTrackerSize, profile.fontTrackerFlags)
+        if profile.trackfont and profile.trackfontsize then
+            currentRow.track:SetFont(profile.trackfont, profile.trackfontsize)
         end
     end)
 end
@@ -132,14 +137,14 @@ end
 function WoWPro:RowColorSet(row)
     local profile = WoWProDB.profile
     ForEachRow(row, function(currentRow)
-        if profile.colorTitle then
-            currentRow.step:SetTextColor(profile.colorTitle.r, profile.colorTitle.g, profile.colorTitle.b)
+        if profile.steptextcolor then
+            currentRow.step:SetTextColor(profile.steptextcolor[1], profile.steptextcolor[2], profile.steptextcolor[3])
         end
-        if profile.colorNote then
-            currentRow.note:SetTextColor(profile.colorNote.r, profile.colorNote.g, profile.colorNote.b)
+        if profile.notetextcolor then
+            currentRow.note:SetTextColor(profile.notetextcolor[1], profile.notetextcolor[2], profile.notetextcolor[3])
         end
-        if profile.colorTracker then
-            currentRow.track:SetTextColor(profile.colorTracker.r, profile.colorTracker.g, profile.colorTracker.b)
+        if profile.tracktextcolor then
+            currentRow.track:SetTextColor(profile.tracktextcolor[1], profile.tracktextcolor[2], profile.tracktextcolor[3])
         end
     end)
 end
