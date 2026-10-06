@@ -1752,6 +1752,7 @@ function WoWPro:CreateRow(index)
     row:SetPoint("LEFT")
     row:SetPoint("RIGHT")
     row:SetHeight(25)
+    row:EnableMouse(true)
     row:RegisterForClicks("AnyUp")
 
     -- Text padding defaults
@@ -1809,25 +1810,31 @@ end
 
 -- Opens the context menu for the clicked row
 function WoWPro:RowContextMenu(row)
-    local index = row.index
-    local menu = WoWPro.RowDropdownMenu[index]
+    local menuIndex = row.num or row.index
+    local menu = WoWPro.RowDropdownMenu[menuIndex]
 
     if not menu then
         return
     end
 
     -- Recorder override
-    if WoWPro.Recorder and WoWPro.Recorder.RowDropdownMenu[index] then
-        menu = WoWPro.Recorder.RowDropdownMenu[index]
+    if WoWPro.Recorder and WoWPro.Recorder.RowDropdownMenu[menuIndex] then
+        menu = WoWPro.Recorder.RowDropdownMenu[menuIndex]
     end
 
-    -- Unified backend
-    WoWPro.EasyMenu(menu, nil, row, 0, 0, "MENU")
+    WoWPro.RowMenuAnchor = WoWPro.RowMenuAnchor or _G.CreateFrame("Frame", "WoWPro_RowMenuAnchor", _G.UIParent, "UIDropDownMenuTemplate")
+    WoWPro.RowMenuAnchor:SetSize(1, 1)
+    WoWPro.RowMenuAnchor:ClearAllPoints()
+    local anchorPoint = WoWProDB.profile.leftside and "TOPLEFT" or "TOPRIGHT"
+    WoWPro.RowMenuAnchor.MenuPoint = WoWProDB.profile.leftside and "TOPRIGHT" or "TOPLEFT"
+    WoWPro.RowMenuAnchor:SetPoint(anchorPoint, row, anchorPoint)
+    WoWPro.RowMenuAnchor:Show()
+    WoWPro.EasyMenu(menu, WoWPro.RowMenuAnchor, anchorPoint, 0, 0, "MENU")
 end
 
 -- Attaches the Context Menu handler to the row
 function WoWPro:RowContextMenuBind(row)
-    row:SetScript("OnMouseDown", function(frame, button)
+    row:SetScript("OnClick", function(frame, button)
         if button == "RightButton" then
             WoWPro:RowContextMenu(frame)
         end
