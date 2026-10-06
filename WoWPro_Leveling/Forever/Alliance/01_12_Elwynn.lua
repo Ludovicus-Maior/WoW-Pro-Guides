@@ -13,7 +13,7 @@ A A Threat Within|QID|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Will
 A The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|Pick up your class quest from Drusilla La Salle (your class trainer) on the south side of the Abbey before continuing.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|R|Human|C|Warlock|
 T A Threat Within|QID|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride, inside the Abbey.|
 A Kobold Camp Cleanup|QID|7|PRE|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride|
-= Immolate|ACTIVE|7|M|PLAYER|CC|N|Prioritize earning 10c so you can learn Immolate from Drusilla La Salle.\n[color=FF0000]NOTE: [/color]You can sell items to Godric Rothgar (or any of the other vendors) to earn the money.|SPELL|348;Immolate|C|Warlock|S!US|
+A Nibbled-On Book|QID|91741|M|48.33,36.44|Z|1429; Elwynn Forest|N|Looted from Kobold Vermin, Workers, and Laborers.|U|247834|O|
 C Kobold Camp Cleanup|QID|7|M|47.5,36.1|Z|1429; Elwynn Forest|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|S|
 A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Eagan Peltskinner|QID|5261|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner around back of the Abbey.|
@@ -33,8 +33,13 @@ A Glyphic Letter|QID|3104|PRE|7|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marsh
 A Tainted Letter|QID|3105|PRE|7|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Warlock|
 
 A Investigate Echo Ridge|QID|15|PRE|7|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride.|
-C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill the Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are larger than the Vermin.|T|Kobold Worker|S|
+T Nibbled-On Book|QID|91741|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
+A Book Inventory|QID|92124|M|49.51,40.46|Z|1429; Elwynn Forest|N|From Brother Paxton.|
+T Book Inventory|QID|92124|M|49.48,40.62|Z|1429; Elwynn Forest|N|To Daniel.|
+A Rascally Rodents|QID|91743|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
+C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|S|
 
+C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill the Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are larger than the Vermin.|T|Kobold Worker|S|
 T Simple Letter|QID|3100|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere in the Hall of Arms.|C|Warrior|
 A The Lost Rune|AVAILABLE|77616|M|50.21,42.22|Z|1429; Elwynn Forest|N|From Llane Beshere.|R|Human|C|Warrior|RUNE|
 T Consecrated Letter|QID|3101|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel in the Hall of Arms.|C|Paladin|
@@ -49,19 +54,14 @@ A Brotherhood of Thieves|QID|18|PRE|783|M|48.05,43.56|Z|1429; Elwynn Forest|N|Fr
 T Encrypted Letter|QID|3102|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.|C|Rogue|
 A Thrice Stolen|AVAILABLE|77618|M|50.3,39.9|Z|1429; Elwynn Forest|N|From Jorik Kerridan.|R|Human|C|Rogue|RUNE|
 T Tainted Letter|QID|3105|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle outside on the right side of the Abbey.|C|Warlock|
-A Stolen Power|AVAILABLE|77621|M|49.87,42.65|Z|1429; Elwynn Forest|N|From Drusilla La Salle.|R|Human|C|Warlock|RUNE|
+A Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|From Drusilla La Salle.|R|Human|C|Warlock|
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
-l Rune of Haunting|ACTIVE|77621|QO|1|M|52.56,51.87|Z|1429; Elwynn Forest|N|Loot the Rune of Haunting from the Defias Stashbox between the outhouses.|U|403919|S!US|
-l Spell Notes: CALE ENCI|ACTIVE|77620|QO|1|M|54.60,41.90|Z|1429; Elwynn Forest|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|203751|S!US|
-l Rune of Shadowstrike|ACTIVE|77618|QO|1|M|52.56,51.87|Z|1429; Elwynn Forest|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|204795|S!US|
-l Libram of Judgement|ACTIVE|77617|QO|1|M|54.60,41.90|Z|1429; Elwynn Forest|N|Kill and loot the Defias Thugs until you loot Libram of Judgement. After equipping it use judgement on 10 mobs.|U|205420|S!US|
-l Memory of a Troubled Acolyte|ACTIVE|77619|QO|1|M|50.62,27.24|Z|1429; Elwynn Forest|N|Loot the Memory of a Troubled Acolyte from the Kobald Laborers inside the mine. Then go outside the cave and /kneel and use the memory.|U|205951|S!US|
 t Meditation on the Light|QID|77619|M|49.80,39.54|Z|1429; Elwynn Forest|N|To Priestess Anetta.|C|Priest|
 t Spell Research|QID|77620|M|49.66,39.44|Z|1429; Elwynn Forest|N|To Khelden Bremen.|C|Mage|
 C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
+C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|US|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|S|
-l Rune of Victory Rush|ACTIVE|77616|QO|1|M|50.62,27.24|Z|1429; Elwynn Forest|N|Loot the Rune of Victory Rush from the Kobold Stashbox inside Echo Ridge Cave, all the way to the back.|U|204806|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
 C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
 T Stolen Power|QID|77621|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|C|Warlock|
