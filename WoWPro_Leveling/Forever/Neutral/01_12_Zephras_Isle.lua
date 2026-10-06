@@ -4,42 +4,70 @@ WoWPro:GuideLevels(guide,1,12,8)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; -- BETA RECORDING AND TESTING
-
 A Coming of Age|QID|92460|M|42.82,23.38|Z|2521; Zephras Isle|N|From Ailee Farheart.|
 T Coming of Age|QID|92460|M|42.07,23.49|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
+A Harmony in Balance|QID|92461|M|42.11,23.48|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 A Infestation Investigation|QID|92462|PRE|92460|M|43.44,24.79|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-K Harmony in Balance|QID|92461|M|45.36,28.39|Z|2521; Zephras Isle|N|8/8 Juvenile Vuldren slain.|
-K Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|8/8 Pesky Cirrusfly slain.|
-
-L Level 2|QID|92462|LVL|2|N|You should be around level 2 by this point.|
-r Repair/Restock|QID|92462|M|42.76,24.48|N|At Uualia Suncrest.|
-
+K Harmony in Balance|QID|92461|QO|1|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vuldren slain.|S|
+K Infestation Investigation|QID|92462|QO|1|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|
+K Harmony in Balance|QID|92461|QO|1|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vuldren slain.|US|
+T Harmony in Balance|QID|92461|M|42.11,23.48|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
+A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
+A The Way of the Hunter|QID|92482|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
+T The Way of the Hunter|QID|92482|M|42.48,23.62|Z|2521; Zephras Isle|N|To Tai'ree Farsight.|
+N Train Skills|QID|92462|N|Train any class skills that you have available and can afford. NOTE: Manually check this step off to continue.|
+T Infestation Investigation|QID|92462|M|43.44,24.79|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
+A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
+A Reading the Ley Lines|QID|92597|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|
 A Harvesting Windstones|QID|93552|M|43.33,24.00|Z|2521; Zephras Isle|N|From Dalia the Collector.|
 A The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|N|From Halaan Hawk-Eye at the top of the tower.|
-C The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|NC|N|View the Anchor Pylon.|
-T The Anchors of Zephras|QID|94414|M|43.76,24.08|Z|2521; Zephras Isle|N|To Halaan Hawk-Eye.|
-A Falling With Style|QID|92474|PRE|94414|M|43.67,24.06|Z|2521; Zephras Isle|N|From Myriaal Mistwake.|
+A Falling With Style|QID|92474|M|43.67,24.06|Z|2521; Zephras Isle|N|From Myriaal Mistwake.|
 C Falling With Style|QID|92474|M|43.33,23.82|Z|2521; Zephras Isle|NC|N|Use Walk on Air, aim for Rorian the Dayseeker.|
 T Falling With Style|QID|92474|M|42.10,23.51|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
+C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|N|Windstone Cluster.|S|
+C Reading the Ley Lines|QID|92597|M|46.29,17.87|Z|2521; Zephras Isle|NC|N|Use your Read Ley Line ability near the Thendal Grove Ley Line.|
+
+
+
+
+
+C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|N|Windstone Cluster.|US|
+
+T Harvesting Windstones|QID|93552|M|43.31,23.95|Z|2521; Zephras Isle|N|To Dalia the Collector.|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r Repair/Restock|QID|92462|M|42.76,24.48|Z|2521; Zephras Isle|N|At Uualia Suncrest.|
+C The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|NC|N|View the Anchor Pylon.|
+T The Anchors of Zephras|QID|94414|M|43.76,24.08|Z|2521; Zephras Isle|N|To Halaan Hawk-Eye.|
+
 T Harmony in Balance|QID|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 A A Student of Nature|QID|92485|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
-A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 T A Student of Nature|QID|92485|M|41.71,23.37|Z|2521; Zephras Isle|N|To Xyton Silverwind.|
 N Train Skills|QID|92462|N|Train any class skills that you have available and can afford. NOTE: Manually check this step off to continue.|
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
-A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-A Reading the Ley Lines|QID|92597|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|
 T Elemental Unrest|QID|92464|M|47.21,21.89|Z|2521; Zephras Isle|N|To Yala Windwatcher.|
 A Agitators|QID|92465|PRE|92474&92464|M|47.21,21.89|Z|2521; Zephras Isle|N|From Yala Windwatcher.|
-C Reading the Ley Lines|QID|92597|M|46.29,17.87|Z|2521; Zephras Isle|NC|N|Use your Read Ley Line ability near the Thendal Grove Ley Line.|
 K Agitators|QID|92465|M|47.54,20.16|Z|2521; Zephras Isle|N|7/7 Al'Aketh Convert slain.|
 C Agitators|QID|92465|M|46.97,20.88|Z|2521; Zephras Isle|NC|N|6/6 Roiling Winds destroyed.|
 T Agitators|QID|92465|M|47.26,21.87|Z|2521; Zephras Isle|N|To Yala Windwatcher.|
 A Return to Rorian|QID|92469|PRE|92465|M|47.26,21.87|Z|2521; Zephras Isle|N|From Yala Windwatcher.|
 K The Cirrusfly Queen|QID|92463|M|48.31,27.83|Z|2521; Zephras Isle|N|1/1 Cirrusfly Queen slain.|
-C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|N|15/15 Windstone Cluster.|
-T Harvesting Windstones|QID|93552|M|43.31,23.95|Z|2521; Zephras Isle|N|To Dalia the Collector.|
+
 T The Cirrusfly Queen|QID|92463|M|43.40,24.70|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 
 r Repair/Restock|QID|92462|M|42.76,24.48|N|At Uualia Suncrest.|
@@ -49,7 +77,6 @@ T Return to Rorian|QID|92469|M|42.08,23.52|Z|2521; Zephras Isle|N|To Rorian the 
 T Aetheen of the Gales|QID|92471|M|42.73,23.65|Z|2521; Zephras Isle|N|To Aetheen of the Gales.|
 A Foul Matriarch|QID|92470|M|42.73,23.65|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
 
-L Level 4|QID|92469|LVL|4|N|You should be around level 4 by this point.|
 N Train Skills|QID|92470|N|Train any class skills that you have available and can afford. NOTE: Manually check this step off to continue.|
 
 A Aggressive Encroachment|QID|92473|M|42.42,25.08|Z|2521; Zephras Isle|N|From Valreaa Valewind.|
@@ -70,7 +97,6 @@ K Al'Aketh Thugs|QID|92544|M|37.02,31.46|Z|2521; Zephras Isle|N|4/4 Al'Aketh Neo
 K Al'Aketh Thugs|QID|92544|M|36.65,31.74|Z|2521; Zephras Isle|N|6/6 Al'Aketh Brute slain.|
 T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.|
 
-L Level 6|QID|92544|LVL|6|N|You should be around level 6 by this point.|
 
 T The Adventurer|QID|96638|M|41.67,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
@@ -138,7 +164,6 @@ A Infiltrating the Cult|QID|93036|PRE|92553&93951&92515&94413&93319&92516&92517|
 T Infiltrating the Cult|QID|93036|M|44.85,45.46|Z|2521; Zephras Isle|N|To Sania Silverstream.|
 A Falaath Village|QID|92529|PRE|93036|M|44.85,45.46|Z|2521; Zephras Isle|N|From Sania Silverstream.|
 
-L Level 8|LVL|8|N|You should be around level 8 by this point.|
 N Train Skills|QID|93036|N|Train any class skills that you have available and can afford. NOTE: Manually check this step off to continue.|
 
 C Camping 101: First Aid|QID|97965|M|43.13,46.21|Z|2521; Zephras Isle|NC|N|Raise your first aid skill to 20.|O|
@@ -210,7 +235,6 @@ A Fillion's Mission|QID|99260|PRE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|Fro
 T Fillion's Mission|QID|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
 A Catching Wind|QID|92840|PRE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
 
-L Level 10|QID|92849|LVL|10|N|You should be around level 10 by this point.|
 N Train Skills|QID|92679|N|Train any class skills that you have available and can afford. NOTE: Manually check this step off to continue.|
 
 A Unnerving Silence|QID|94484|PRE|92701|M|63.99,75.13|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|
@@ -242,11 +266,6 @@ T Standing Our Ground|QID|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|To Aamelia 
 A Deliver the News|QID|92703|PRE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
 
 C Catching Wind|QID|92840|M|47.57,68.85|Z|2521; Zephras Isle|NC|N|6/6 Gather Data on Elemental Currents.|
-
-
-
-
-
 H Hearth to Valanaar|QID|92850|N|Hearth back to turn in.|
 
 
