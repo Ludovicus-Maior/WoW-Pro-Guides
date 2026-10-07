@@ -550,8 +550,8 @@ end
 
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     -- Deduplication check: Skip if we've already processed this criteria state
-    if old_scenario and 
-       old_scenario.Criteria and 
+    if old_scenario and
+       old_scenario.Criteria and
        old_scenario.Criteria.serial == scenario.Criteria.serial then
         return  -- Already processed this exact criteria state
     end
