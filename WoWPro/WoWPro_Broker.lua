@@ -4612,12 +4612,12 @@ local function ComputeCriteriaContentHash()
     if not WoWPro.Scenario or not WoWPro.Scenario.numCriteria then
         return nil
     end
-    
+
     local parts = {}
     table.insert(parts, tostring(WoWPro.Scenario.currentStage))
     table.insert(parts, tostring(WoWPro.Scenario.numCriteria))
     table.insert(parts, tostring(WoWPro.Scenario.completed))
-    
+
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
         if criteriaInfo and criteriaInfo.description then
@@ -4625,10 +4625,9 @@ local function ComputeCriteriaContentHash()
             table.insert(parts, tostring(criteriaInfo.completed))
         end
     end
-    
+
     return table.concat(parts, "\001")
 end
-
 
 function WoWPro.ProcessScenarioCriteria(punt)
     WoWPro:print("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
@@ -4646,7 +4645,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     -- Always create a new Criteria table in a clone of the Scenario table.
     WoWPro.Scenario = WoWPro.ShallowCopyTable(WoWPro.Scenario)
     WoWPro.Scenario.Criteria = {}
-    
+
     -- Only increment serial if criteria content actually changed
     local currentContentHash = ComputeCriteriaContentHash()
     if currentContentHash ~= PreviousCriteriaContentHash then
@@ -4654,7 +4653,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
         PreviousCriteriaContentHash = currentContentHash
     end
     WoWPro.Scenario.Criteria.serial = ScenarioSerial
-    
+
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex);
