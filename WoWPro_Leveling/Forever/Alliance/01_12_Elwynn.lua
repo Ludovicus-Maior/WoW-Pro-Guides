@@ -13,7 +13,8 @@ A A Threat Within|QID|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Will
 A The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|Pick up your class quest from Drusilla La Salle (your class trainer) on the south side of the Abbey before continuing.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|R|Human|C|Warlock|
 T A Threat Within|QID|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride, inside the Abbey.|
 A Kobold Camp Cleanup|QID|7|PRE|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride|
-A Nibbled-On Book|QID|91741|M|48.33,36.44|Z|1429; Elwynn Forest|N|Looted from Kobold Vermin, Workers, and Laborers.|U|247834|O|
+l Nibbled-On Book|AVAILABLE|91741|M|48.33,36.44|Z|1429; Elwynn Forest|L|247834|N|Looted from Kobold Vermin, Workers, and Laborers.|S!US|
+A Nibbled-On Book|QID|91741|M|48.33,36.44|Z|1429; Elwynn Forest|N|Looted from Kobold Vermin, Workers, and Laborers.|U|247834|
 C Kobold Camp Cleanup|QID|7|M|47.5,36.1|Z|1429; Elwynn Forest|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|S|
 A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Eagan Peltskinner|QID|5261|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner around back of the Abbey.|
@@ -36,38 +37,36 @@ A Investigate Echo Ridge|QID|15|PRE|7|M|48.92,41.61|Z|1429; Elwynn Forest|N|From
 T Nibbled-On Book|QID|91741|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
 A Book Inventory|QID|92124|M|49.51,40.46|Z|1429; Elwynn Forest|N|From Brother Paxton.|
 T Book Inventory|QID|92124|M|49.48,40.62|Z|1429; Elwynn Forest|N|To Daniel.|
-A Rascally Rodents|QID|91743|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
+A Rascally Rodents|QID|91743|M|49.51,40.46|Z|1429; Elwynn Forest|N|From Brother Paxton.|
 C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|S|
-
 C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill the Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are larger than the Vermin.|T|Kobold Worker|S|
 T Simple Letter|QID|3100|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere in the Hall of Arms.|C|Warrior|
-A The Lost Rune|AVAILABLE|77616|M|50.21,42.22|Z|1429; Elwynn Forest|N|From Llane Beshere.|R|Human|C|Warrior|RUNE|
 T Consecrated Letter|QID|3101|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel in the Hall of Arms.|C|Paladin|
-A Relics of the Light|AVAILABLE|77617|M|50.43,42.12|Z|1429; Elwynn Forest|N|From Brother Sammuel.|R|Human|C|Paladin|RUNE|
 T Hallowed Letter|QID|3103|M|49.81,39.49|Z|1429; Elwynn Forest|N|To Priestess Anetta in the alcove off the Library Wing.|C|Priest|
-A Meditation on the Light|AVAILABLE|77619|M|49.80,39.54|Z|1429; Elwynn Forest|N|From Priestess Anetta.|R|Human|C|Priest|RUNE|
 T Glyphic Letter|QID|3104|M|49.66,39.44|Z|1429; Elwynn Forest|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|
-A Spell Research|AVAILABLE|77620|M|49.66,39.44|Z|1429; Elwynn Forest|N|From Khelden Bremen.|R|Human|C|Mage|RUNE|
 = Level 2 Training|AVAILABLE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|-Rogue,-Warlock|
-
-A Brotherhood of Thieves|QID|18|PRE|783|M|48.05,43.56|Z|1429; Elwynn Forest|N|From Deputy Willem.|
+A Brotherhood of Thieves|QID|18|PRE|783|M|48.16,42.91|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Encrypted Letter|QID|3102|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.|C|Rogue|
-A Thrice Stolen|AVAILABLE|77618|M|50.3,39.9|Z|1429; Elwynn Forest|N|From Jorik Kerridan.|R|Human|C|Rogue|RUNE|
 T Tainted Letter|QID|3105|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle outside on the right side of the Abbey.|C|Warlock|
 A Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|From Drusilla La Salle.|R|Human|C|Warlock|
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
-
-t Meditation on the Light|QID|77619|M|49.80,39.54|Z|1429; Elwynn Forest|N|To Priestess Anetta.|C|Priest|
-t Spell Research|QID|77620|M|49.66,39.44|Z|1429; Elwynn Forest|N|To Khelden Bremen.|C|Mage|
 C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
 C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|US|
+T Investigate Echo Ridge|QID|15|M|48.9,41.6|Z|1429; Elwynn Forest|N|To Marshal McBride.|
+A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|Z|1429; Elwynn Forest|N|From Marshal McBride.|
+T Rascally Rodents|QID|91743|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
+A Mining Consultant|QID|91745|M|49.51,40.46|Z|1429; Elwynn Forest|N|From Brother Paxton.|
+T Mining Consultant|QID|91745|M|47.19,32.23|Z|1429; Elwynn Forest|N|To Kelsey Fargo.|
+A The Big Picture|QID|91752|M|47.19,32.23|Z|1429; Elwynn Forest|N|From Kelsey Fargo.|
+C The Big Picture|QID|91752|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfinder Narf and then loot the Sack.|S|
+C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
+C The Big Picture|QID|91752|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfinder Narf and then loot the Sack.|US|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|S|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
-C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
+C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
 T Stolen Power|QID|77621|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|C|Warlock|
 L Level 4|ACTIVE|18|Z|1429; Elwynn Forest|N|Grind until you're within 5 bubbles of level 4.|LVL|3;-360|C|Warlock|
 L Level 4|ACTIVE|18|Z|1429; Elwynn Forest|N|Grind until you're halfway to level 4.|LVL|3;-710|C|-Warlock|
-
 T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|
 = Level 4 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
 = Demon trainer|ACTIVE|18|PRE|1598|QID|3903|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
@@ -75,37 +74,37 @@ T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La 
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
 A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 A Bounty on Garrick Padfoot|QID|6|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
-T Investigate Echo Ridge|QID|15|M|48.9,41.6|Z|1429; Elwynn Forest|N|To Marshal McBride.|
-A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|Z|1429; Elwynn Forest|N|From Marshal McBride.|
-
-T Investigate Echo Ridge|QID|15|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride.|
-A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride.|
-r Sell and Repair|ACTIVE|3903|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|C|Warlock|
-r Sell and Repair|ACTIVE|3903|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.\n[color=FF0000]NOTE: [/color]You may need the extra coin for training.|C|-Warlock|
+T Skirmish at Echo Ridge|QID|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride.|
+T The Big Picture|QID|91752|M|48.88,41.64|Z|1429; Elwynn Forest|N|To Marshal McBride.|
+A Report to Goldshire|QID|54|PRE|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride.|
+A The Adventurer|QID|96627|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
+A Follow That Kobold!|QID|91758|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
+T Follow That Kobold!|QID|91758|M|51.23,40.85|Z|1429; Elwynn Forest|N|To Tordrin Sternblade.|
+A Shhh! We're Hunting Kobolds|QID|91772|M|51.23,40.85|Z|1429; Elwynn Forest|N|From Tordrin Sternblade.|
 T The Lost Rune|QID|77616|M|50.21,42.22|Z|1429; Elwynn Forest|N|To Llane Beshere.|C|Warrior|
 T Thrice Stolen|QID|77618|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan.|C|Rogue|
 = Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
-
-C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
 T Milly Osworth|QID|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth at the back of the Abbey, near the stable.|
 A Milly's Harvest|QID|3904|PRE|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
-C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|L|11119 8|N|Collect Milly's Harvest Buckets from the vineyards.|S|NC|
+C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|S|NC|
 C Bounty on Garrick Padfoot|QID|6|M|57.52,48.25|Z|1429; Elwynn Forest|L|182|N|Kill Garrick Padfoot and loot his head.\n[color=FF0000]NOTE: [/color]Focus on killing him before his guard; you can always run away and come back to loot.|T|Garrick Padfoot|
 C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|US|NC|
-L Level 5|ACTIVE|3904|Z|1429; Elwynn Forest|N|Grind until you're halfway to level 5.|LVL|4;-1090|
 T Milly's Harvest|QID|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth.|
 A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
 r Sell and Repair|ACTIVE|21|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|
-T Skirmish at Echo Ridge|QID|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride.|
-A Report to Goldshire|QID|54|PRE|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|Z|1429; Elwynn Forest|N|To Brother Neals, at the very top of the spiral staircase inside the abbey.|
 A In Favor of the Light|QID|5623|M|49.81,39.49|Z|1429; Elwynn Forest|N|Get your level 5 class quest from Priestess Anetta.|R|Human|C|Priest|LVL|5|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
-T Relics of the Light|QID|77617|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel.|
 A Rest and Relaxation|QID|2158|M|45.57,47.75|Z|1429; Elwynn Forest|N|From Falkhaan Isenstrider, in front of the fountain at the entrance to Northshire Valley.|
-
-R Goldshire|ACTIVE|54|M|44.25,62.50|Z|1429; Elwynn Forest|N|Say goodbye to Northshire and follow the road south to Goldshire.|
+C Shhh! We're Hunting Kobolds|QID|91772|M|45.91,51.86|Z|1429; Elwynn Forest|N|Follow the kobold tracks.|U|247970|
+T The Adventurer|QID|96627|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
+A The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|
+C The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|Sit next to the fire using /sit.|
+T The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
+A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|
 T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
+T Shhh! We're Hunting Kobolds|QID|91772|M|42.18,65.88|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
+A Book Return|QID|91775|M|42.18,65.88|Z|1429; Elwynn Forest|N|From Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 r Sell and Repair|QID|2158|M|41.71,65.79|Z|1429; Elwynn Forest|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 A Kobold Candles|QID|60|M|43.32,65.70|Z|1429; Elwynn Forest|N|From William Pestle inside the Inn.|
@@ -113,11 +112,13 @@ h Goldshire|ACTIVE|2158|M|43.77,65.80|Z|1429; Elwynn Forest|N|Make this inn your
 T Rest and Relaxation|QID|2158|M|43.77,65.80|Z|1429; Elwynn Forest|N|To Innkeeper Farley.|
 T In Favor of the Light|QID|5623|M|43.28,65.72|Z|1429; Elwynn Forest|N|To Priestess Josetta (upstairs).|C|Priest|
 A Garments of the Light|QID|5624|PRE|5623|M|43.28,65.72|Z|1429; Elwynn Forest|N|From Priestess Josetta.|R|Human|C|Priest|
+C Camping 101: Cooking|QID|96626|M|44.29,66.01|Z|1429; Elwynn Forest|N|Learn Cooking from Tomas.|
+T Camping 101: Cooking|QID|96626|M|44.29,66.01|Z|1429; Elwynn Forest|N|To Tomas.|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times", by the cart outside.|
-
 C Garments of the Light|QID|5624|M|48.16,68.03|Z|1429; Elwynn Forest|N|Target Guard Roberts, use Lesser Heal (Rank 2), and then cast Power Word: Fortitude on him.\n[color=FF0000]NOTE: [/color]If he's not there, someone just finished the quest and you have to wait a few moments for him to respawn.|T|Guard Roberts|R|Human|C|Priest|
 T Garments of the Light|QID|5624|M|43.28,65.72|Z|1429; Elwynn Forest|N|To Priestess Josetta.|C|Priest|
 C Chunks of Boar Meat|AVAILABLE|86|M|41.5,86.8|Z|1429; Elwynn Forest|L|769 4|ITEM|769|N|Stonetusk Boars.\n[color=FF0000]NOTE: [/color]You'll need them for an upcoming quest.|T|Stonetusk Boar|S|
+C Book Return|QID|91775|QO|2|M|42.18,65.88|Z|1429; Elwynn Forest|N|From the Kobolds in the area.|S|
 C Gold Dust Exchange|QID|47|ACTIVE|62|M|41.04,79.78|Z|1429; Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|S|
 C Kobold Candles|QID|60|ACTIVE|62|M|41.04,79.78|Z|1429; Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|S|
 R The Stonefield Farm|AVAILABLE|85|M|34.53,79.11|Z|1429; Elwynn Forest|N|Follow the road west out of Goldshire to the second curve.|
