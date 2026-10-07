@@ -20,6 +20,9 @@ WoWPro.playerGroup = {}
 
 WoWPro.UpdateGuideRealInProgress = false
 
+-- Track previous criteria content hash to prevent duplicate serial assignment
+local PreviousCriteriaContentHash = nil
+
 -- Debug toggles
 WoWPro.DEBUG_STICKY_PAIRING = false -- Set to true to enable sticky pairing debug output
 WoWPro.DEBUG_REPEATABLE = false -- Set to true to enable debug output for repeatable A step resets and quest log changes
@@ -4572,6 +4575,7 @@ function WoWPro.ProcessScenarioStage(flag)
         if WoWPro.Scenario then
             WoWPro.Scenario = nil
             WoWPro.ScenarioFirstStep = nil
+            PreviousCriteriaContentHash = nil
         end
         if WoWPro.Recorder and WoWPro.Recorder.ProcessScenarioStage then
             WoWPro.Recorder.ProcessScenarioStage(nil)
@@ -4604,6 +4608,28 @@ function WoWPro.ProcessScenarioStage(flag)
 end
 
 
+local function ComputeCriteriaContentHash()
+    if not WoWPro.Scenario or not WoWPro.Scenario.numCriteria then
+        return nil
+    end
+    
+    local parts = {}
+    table.insert(parts, tostring(WoWPro.Scenario.currentStage))
+    table.insert(parts, tostring(WoWPro.Scenario.numCriteria))
+    table.insert(parts, tostring(WoWPro.Scenario.completed))
+    
+    for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
+        local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
+        if criteriaInfo and criteriaInfo.description then
+            table.insert(parts, criteriaInfo.description)
+            table.insert(parts, tostring(criteriaInfo.completed))
+        end
+    end
+    
+    return table.concat(parts, "\001")
+end
+
+
 function WoWPro.ProcessScenarioCriteria(punt)
     WoWPro:print("WoWPro.ProcessScenarioCriteria(%s)", tostring(punt))
     if not WoWPro.Scenario then
@@ -4620,8 +4646,15 @@ function WoWPro.ProcessScenarioCriteria(punt)
     -- Always create a new Criteria table in a clone of the Scenario table.
     WoWPro.Scenario = WoWPro.ShallowCopyTable(WoWPro.Scenario)
     WoWPro.Scenario.Criteria = {}
+    
+    -- Only increment serial if criteria content actually changed
+    local currentContentHash = ComputeCriteriaContentHash()
+    if currentContentHash ~= PreviousCriteriaContentHash then
+        ScenarioSerial = ScenarioSerial + 1
+        PreviousCriteriaContentHash = currentContentHash
+    end
     WoWPro.Scenario.Criteria.serial = ScenarioSerial
-    ScenarioSerial = ScenarioSerial + 1
+    
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex);

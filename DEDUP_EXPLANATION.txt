@@ -1,0 +1,90 @@
+SCENARIO CRITERIA DEDUPLICATION FIX - PLAIN ENGLISH EXPLANATION
+================================================================
+
+PROBLEM
+-------
+When recording scenario criteria, the addon was recording the exact same criteria 
+multiple times. If the API returned the same criteria state twice in a row (common 
+due to repeated event processing), it would record a duplicate entry.
+
+WHY IT HAPPENED
+---------------
+The deduplication logic relied on serial numbers:
+  - old_scenario has serial 5
+  - new scenario should have serial 5 if content is identical
+  - BUT: serial was ALWAYS incremented (5→6)
+  - So new scenario gets serial 6
+  - Comparison: 5 ≠ 6, so it processes as "new" (DUPLICATE!)
+
+EXAMPLE OF BROKEN BEHAVIOR
+---------------------------
+Event 1: API returns "Kill 5 Trolls, Kill 3 Elves"
+  → Recorder processes this, stores old_scenario with serial 5
+
+Event 2: API returns "Kill 5 Trolls, Kill 3 Elves" (identical!)
+  → Same criteria, but serial gets incremented to 6
+  → Recorder sees serial 5 ≠ 6, thinks it's new
+  → Records DUPLICATE
+
+Event 3: API returns "Kill 5 Trolls, Kill 3 Elves" (still identical!)
+  → Serial becomes 7
+  → Another DUPLICATE recorded
+
+THE FIX
+-------
+Instead of ALWAYS incrementing the serial, we now:
+
+1. Compute a "fingerprint" (hash) of the current criteria:
+   - Hash includes: stage number, criteria count, each criteria text, completion status
+   - Same criteria = same hash
+   - Different criteria = different hash
+
+2. Compare fingerprints:
+   - If fingerprint is SAME as before: DON'T increment serial
+   - If fingerprint is DIFFERENT: increment serial
+
+3. Result:
+   - Same criteria across multiple events → same serial → dedup works!
+   - Different criteria → different serial → processes as intended
+
+EXAMPLE OF FIXED BEHAVIOR
+--------------------------
+Event 1: API returns "Kill 5 Trolls, Kill 3 Elves" (hash: ABC123)
+  → No previous hash, so increment serial to 5
+  → Store hash ABC123 for next comparison
+
+Event 2: API returns "Kill 5 Trolls, Kill 3 Elves" (hash: ABC123)
+  → Same hash as before! Don't increment
+  → Serial stays 5
+  → Recorder sees serial 5 = 5 → SKIPS (no duplicate!)
+
+Event 3: API returns "Kill 5 Trolls, Kill 3 Elves" (hash: ABC123)
+  → Same hash, serial stays 5
+  → Recorder: serial 5 = 5 → SKIPS (no duplicate!)
+
+Event 4: API returns "Kill 8 Trolls, Kill 3 Elves" (hash: DEF456)
+  → Different hash! Increment serial to 6
+  → Store new hash DEF456
+  → Recorder sees serial 5 ≠ 6 → PROCESSES (correct!)
+
+CODE LOCATIONS
+--------------
+WoWPro_Broker.lua:
+  - Line ~14: Added PreviousCriteriaContentHash variable
+  - Line ~4605: Added ComputeCriteriaContentHash() function
+  - Line ~4645: Modified serial assignment logic
+  - Line ~4578: Added hash reset when scenario ends
+
+WHAT CHANGED
+------------
+1. Added a variable to remember the previous criteria fingerprint
+2. Added a function to compute the current criteria fingerprint
+3. Modified the serial increment to only happen when fingerprint changes
+4. Reset the fingerprint when a scenario ends
+
+RESULT
+------
+✓ Identical criteria state no longer produces duplicates
+✓ Changed criteria still get recorded properly
+✓ No changes to recorder logic (it just works now)
+✓ Fully backward compatible
