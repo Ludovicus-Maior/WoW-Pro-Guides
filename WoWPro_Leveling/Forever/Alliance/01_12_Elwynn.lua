@@ -118,7 +118,7 @@ A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two
 C Garments of the Light|QID|5624|M|48.16,68.03|Z|1429; Elwynn Forest|N|Target Guard Roberts, use Lesser Heal (Rank 2), and then cast Power Word: Fortitude on him.\n[color=FF0000]NOTE: [/color]If he's not there, someone just finished the quest and you have to wait a few moments for him to respawn.|T|Guard Roberts|R|Human|C|Priest|
 T Garments of the Light|QID|5624|M|43.28,65.72|Z|1429; Elwynn Forest|N|To Priestess Josetta.|C|Priest|
 C Chunks of Boar Meat|AVAILABLE|86|M|41.5,86.8|Z|1429; Elwynn Forest|L|769 4|ITEM|769|N|Stonetusk Boars.\n[color=FF0000]NOTE: [/color]You'll need them for an upcoming quest.|T|Stonetusk Boar|S|
-C Book Return|QID|91775|QO|2|M|42.18,65.88|Z|1429; Elwynn Forest|N|From the Kobolds in the area.|S|
+l Book Return|QID|91775|QO|2|M|40.48,82.36|Z|1429; Elwynn Forest|ITEM|248001|N|From the Kobolds in the area.|S|
 C Gold Dust Exchange|QID|47|ACTIVE|62|M|41.04,79.78|Z|1429; Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|S|
 C Kobold Candles|QID|60|ACTIVE|62|M|41.04,79.78|Z|1429; Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|S|
 R The Stonefield Farm|AVAILABLE|85|M|34.53,79.11|Z|1429; Elwynn Forest|N|Follow the road west out of Goldshire to the second curve.|
@@ -127,29 +127,24 @@ R The Maclure Vineyards|ACTIVE|85|M|39.89,85.86|Z|1429; Elwynn Forest|N|Head eas
 T Lost Necklace|QID|85|M|43.14,85.72|Z|1429; Elwynn Forest|N|To Billy Maclure.|
 A Pie for Billy|QID|86|PRE|85|M|43.14,85.72|Z|1429; Elwynn Forest|N|From Billy Maclure.|
 C Chunks of Boar Meat|QID|86|M|41.5,86.8|Z|1429; Elwynn Forest|L|769 4|ITEM|769|N|Stonetusk Boars.|T|Stonetusk Boar|US|
-L Level 6|ACTIVE|86|Z|1429; Elwynn Forest|N|Grind until you're within 4 bubbles of level 6.|LVL|5;-550|
 T Pie for Billy|QID|86|M|34.49,84.25|Z|1429; Elwynn Forest|N|To "Auntie" Bernice Stonefield.|
 A Back to Billy|QID|84|PRE|86|M|34.49,84.25|Z|1429; Elwynn Forest|N|From "Auntie" Bernice Stonefield.|
 A Young Lovers|QID|106|M|43.15,89.62|Z|1429; Elwynn Forest|N|From Maybell Maclure.\n[color=FF0000]NOTE: [/color]If she's not there (or you can't interact with her), someone has turned in a later quest and she's invisible. Just wait a few moments.|
 T Back to Billy|QID|84|M|43.14,85.72|Z|1429; Elwynn Forest|N|To Billy Maclure.|
 A Goldtooth|QID|87|PRE|84|M|43.14,85.72|Z|1429; Elwynn Forest|N|From Billy Maclure.|
-R Goldshire|ACTIVE|87|M|43.77,65.80|Z|1429; Elwynn Forest|N|Return to Goldshire.|
-= Level 6 Training|ACTIVE|87|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Goldshire^Lion's Pride Inn|
-
 R Fargodeep Mine|ACTIVE|62|QO|1|M|38.98,82.33|Z|1429; Elwynn Forest|N|Head to the Fargodeep Mine.|
 R The Fargodeep Mine|ACTIVE|62|QO|1|M|40.45,82.31|Z|1429; Elwynn Forest|N|From either entrance (the lower entrance is more direct), walk into the mine until you reach the large cavern and go through the furthest left tunnel.|
-C Goldtooth|QID|87|M|41.69,77.94|Z|1429; Elwynn Forest|L|981|ITEM|981|N|Goldtooth.|
+K Goldtooth|ACTIVE|87|QO|1|M|41.69,77.94|Z|1429; Elwynn Forest|L|981|ITEM|981|N|Goldtooth.|
+K Nimsy|QID|91775|QO|1|M|41.69,77.94|Z|1429; Elwynn Forest|ITEM|248002|N|Kill Nimsy and loot the book.|
 C Kobold Candles|QID|60|M|62.92,55.04|Z|1429; Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|US|
-L Level 7|ACTIVE|87|Z|1429; Elwynn Forest|N|Grind until you're within 13 bubbles of level 7.|LVL|6;-2260|
+l Book Return|QID|91775|QO|2|M|40.48,82.36|Z|1429; Elwynn Forest|ITEM|248001|N|From the Kobolds in the area.|US|
 T Goldtooth|QID|87|M|34.49,84.25|Z|1429; Elwynn Forest|N|To "Auntie" Bernice Stonefield.|
 A Princess Must Die!|QID|88|M|34.66,84.48|Z|1429; Elwynn Forest|N|From Ma Stonefield.|
 T Young Lovers|QID|106|M|29.84,86.00|Z|1429; Elwynn Forest|N|To Tommy Joe Stonefield.|
 A Speak with Gramma|QID|111|PRE|106|M|29.84,86.00|Z|1429; Elwynn Forest|N|From Tommy Joe Stonefield.|
 T Speak with Gramma|QID|111|M|34.94,83.86|Z|1429; Elwynn Forest|N|To Gramma Stonefield, inside the house.|
 A Note to William|QID|107|PRE|111|M|34.94,83.86|Z|1429; Elwynn Forest|N|From Gramma Stonefield.|
-
 R Goldshire|ACTIVE|107|M|43.77,65.80|Z|1429; Elwynn Forest|N|Run back to Goldshire.|LVL|6;-1500|S|
-L Level 7|ACTIVE|107|Z|1429; Elwynn Forest|N|Grind until you're within 8.5 bubbles of level 7.|LVL|6;-2260|
 H Goldshire|ACTIVE|107|M|43.77,65.80|Z|1429; Elwynn Forest|N|Use your hearth or run back to Goldshire (depending on how close you are).|TZ|Lion's Pride Inn|
 T Note to William|QID|107|M|43.32,65.70|Z|1429; Elwynn Forest|N|To William Pestle.|
 A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|Z|1429; Elwynn Forest|N|From William Pestle.|
@@ -157,16 +152,20 @@ T Kobold Candles|QID|60|M|43.32,65.70|Z|1429; Elwynn Forest|N|To William Pestle.
 A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|Z|1429; Elwynn Forest|N|From William Pestle.|
 T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
+T Book Return|QID|91775|M|42.16,65.93|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
+A Rare Books|QID|91777|M|42.16,65.93|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04;41.04,79.78|CN|Z|1429; Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around either Jasperlode or Fargodeep Mine.|S|
 A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".|LVL|7|
 T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 
+
+
 ; The next few steps are in Stormwind City
 R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|1453; Stormwind City|N|Follow the road northwest to Stormwind City.|
 N Housekeeping|ACTIVE|61|Z|1453; Stormwind City|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Stormwind City Guard|S!US|IZ|1453; Stormwind City|
 f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
-T Shipment to Stormwind|QID|61|M|56.21,64.58|Z|1453; Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
+T Shipment to Stormwind|QID|61|M|63.07,74.57|Z|1453; Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
 R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 R Crystal Lake|ACTIVE|112|QO|1|M|54.10,66.60|Z|1429; Elwynn Forest|N|Follow the road to the lake east of Goldshire.|
 C Collecting Kelp|QID|112|M|54.1,66.6|Z|1429; Elwynn Forest|L|1256 4|ITEM|1256|N|Any Murloc around Crystal Lake.|
