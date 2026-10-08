@@ -32,14 +32,14 @@
 -- ShouldShowRow ComputeRowLimit HideRemainingRows RunModulePreRowUpdate
 -- FormatCoords NormalizeStepText NormalizeNote EmbedCoordsInNote AddNoCoordsWarning
 -- IsStickyVisible BuildDropdownMenu SetupTrashItemButton SetupUseItemButton
--- SetupItemKeybind SetupPetSwitchButton SetupPetSwitchKeybind SetupLootButtons
+-- SetupItemKeybind SetupPetSwitchButton SetupPetSwitchKeybind SetupLootIcons
 -- SetupJumpButton SetupEAButton SetupTargetButton
 -- UpdateQuestTrackerRow SetActionTexture
 
 -- Row fields accessed
 -- luacheck: globals
 -- currentRow step note itembutton itembuttonSecured itemicon itemcooldown
--- lootsbuttons jumpbutton jumpbuttonSecured eabutton eabuttonSecured
+-- looticons jumpbutton jumpbuttonSecured eabutton eabuttonSecured
 -- eaicon targetbutton targetbuttonSecured
 
 local ShouldShowRow
@@ -58,7 +58,7 @@ local SetupUseItemButton
 local SetupItemKeybind
 local SetupPetSwitchButton
 local SetupPetSwitchKeybind
-local SetupLootButtons
+local SetupLootIcons
 local SetupJumpButton
 local SetupEAButton
 local SetupTargetButton
@@ -533,11 +533,11 @@ function WoWPro:RowUpdate(offset)
             SetupPetSwitchKeybind(i, currentRow)
         end
 
-        -- Loot buttons
-        if WoWProDB.profile.showLootsButtons then
-            SetupLootButtons(currentRow, item, action, note, k)
+        -- Loot icons
+        if WoWProDB.profile.showLootIcons then
+            SetupLootIcons(currentRow, item, action, note, k)
         else
-            SetupLootButtons(currentRow, nil, action, note, k)
+            SetupLootIcons(currentRow, nil, action, note, k)
         end
 
         -- Jump button
@@ -1042,11 +1042,11 @@ SetupPetSwitchButton = function(currentRow, switch, k)
     SetupPetSwitchSecuredOverlay(currentRow, switch, k)
 end
 
--- Loot Button Helpers
--- Helper: Hide all loot buttons on the row
-local function HideAllLootButtons(currentRow)
-    for i = 1, #currentRow.lootsbuttons do
-        currentRow.lootsbuttons[i].button:Hide()
+-- Loot Icon Helpers
+-- Helper: Hide all loot icons on the row
+local function HideAllLootIcons(currentRow)
+    for i = 1, #currentRow.looticons do
+        currentRow.looticons[i].frame:Hide()
     end
 end
 
@@ -1105,32 +1105,32 @@ local function NormalizeLootNote(note)
     return note
 end
 
--- Main helper: Setup loot buttons + update note
-SetupLootButtons = function(currentRow, item, action, note, k)
-    -- No loot items → hide all buttons
+-- Main helper: Setup loot icons + update note
+SetupLootIcons = function(currentRow, item, action, note, k)
+    -- No loot items -> hide all icons
     if not item then
-        HideAllLootButtons(currentRow)
+        HideAllLootIcons(currentRow)
         return note
     end
 
     local items = ParseLootItems(item)
     local itemNames = {}
-    local buttonIndex = 1
+    local iconIndex = 1
 
-    -- Assign items to loot buttons
+    -- Assign items to loot icons
     for _, itemID in ipairs(items) do
-        if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
-            local lootData = currentRow.lootsbuttons[buttonIndex]
-            local nomen = lootData.button:SetItemByID(itemID)
-            lootData.button:Show()
+        if itemID ~= "" and iconIndex <= #currentRow.looticons then
+            local lootData = currentRow.looticons[iconIndex]
+            local nomen = lootData.frame:SetItemByID(itemID)
+            lootData.frame:Show()
             table.insert(itemNames, nomen)
-            buttonIndex = buttonIndex + 1
+            iconIndex = iconIndex + 1
         end
     end
 
-    -- Hide unused loot buttons
-    for i = buttonIndex, #currentRow.lootsbuttons do
-        currentRow.lootsbuttons[i].button:Hide()
+    -- Hide unused loot icons
+    for i = iconIndex, #currentRow.looticons do
+        currentRow.looticons[i].frame:Hide()
     end
 
     -- Update note text based on loot items

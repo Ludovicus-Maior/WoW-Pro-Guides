@@ -368,7 +368,7 @@ local defaults = { profile = {
     showTargetButton = true,
     showEAButton = true,
     showJumpButton = true,
-    showLootsButtons = true,
+    showLootIcons = true,
     buttoniconsize = 20,
     buttonpadding = 2,
 } }
