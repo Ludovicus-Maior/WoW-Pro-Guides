@@ -280,7 +280,7 @@ function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
     if toggleGF then
         WoWPro.AnchorSync(true)
     end
-    -- Disable left-handed mode if buttons go off-screen (left side), or enable it if they go off right side
+    -- Disable left-side mode if buttons go off-screen (left side), or enable it if they go off right side
     -- MainFrameLayout already applies offsets and visibility; keep offsets in sync
     if not WoWPro.rows or not WoWProDB.profile.buttonbar then return end
     if not WoWPro.rows[1] then return end
@@ -306,46 +306,28 @@ function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
     local windowRight = WoWPro.MainFrame:GetRight()
     if not windowLeft or not windowRight then return end
 
-    -- If buttons on LEFT of window (leftside=false) and window is at left edge, move buttons to RIGHT of window (leftside=true)
-    if not WoWProDB.profile.leftside and windowLeft < screenMargin then
-        WoWProDB.profile.leftside = true
+    -- If buttons on LEFT of window (leftside=true) and window is at left edge, move buttons to RIGHT of window (leftside=false)
+    if WoWProDB.profile.leftside and windowLeft < screenMargin then
+        WoWProDB.profile.leftside = false
         for _, row in ipairs(WoWPro.rows) do
-            if row.itembutton then
-                row.itembutton:ClearAllPoints()
-                row.itembutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
-            end
-            if row.targetbutton then
-                row.targetbutton:ClearAllPoints()
-                -- Check if itembutton is actually shown to determine offset
-                if row.itembutton and row.itembutton:IsShown() then
-                    row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 46, -7)
-                else
-                    row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
-                end
-            end
+            WoWPro:PositionTargetUseButtons(row)
+            WoWPro:PositionFlyoutButton(row.jumpbutton, row)
+            WoWPro:PositionFlyoutButton(row.eabutton, row)
         end
+        WoWPro:MainFrameLayout()
         WoWPro.SetMouseNotesPoints()
         return
     end
 
-    -- If buttons on RIGHT of window (leftside=true) and window is at right edge, move buttons to LEFT of window (leftside=false)
-    if WoWProDB.profile.leftside and windowRight > screenRight - screenMargin then
-        WoWProDB.profile.leftside = false
+    -- If buttons on RIGHT of window (leftside=false) and window is at right edge, move buttons to LEFT of window (leftside=true)
+    if not WoWProDB.profile.leftside and windowRight > screenRight - screenMargin then
+        WoWProDB.profile.leftside = true
         for _, row in ipairs(WoWPro.rows) do
-            if row.itembutton then
-                row.itembutton:ClearAllPoints()
-                row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-            end
-            if row.targetbutton then
-                row.targetbutton:ClearAllPoints()
-                -- Check if itembutton is actually shown to determine offset
-                if row.itembutton and row.itembutton:IsShown() then
-                    row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -46, -7)
-                else
-                    row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-                end
-            end
+            WoWPro:PositionTargetUseButtons(row)
+            WoWPro:PositionFlyoutButton(row.jumpbutton, row)
+            WoWPro:PositionFlyoutButton(row.eabutton, row)
         end
+        WoWPro:MainFrameLayout()
         WoWPro.SetMouseNotesPoints()
         return
     end
@@ -402,6 +384,31 @@ function WoWPro:ClampSideButtonsOnScreen()
         WoWPro.MainFrame:SetPoint(pos[1], pos[2], pos[3], x + dx, y)
         WoWPro.SetMouseNotesPoints()
     end
+end
+
+function WoWPro:PositionFlyoutButton(button, row, useActive)
+    if not button or not row then return end
+
+    local profile = WoWProDB.profile
+    local offset = 10 + (profile.guidescroll and 16 or 0)
+    if useActive then
+        offset = offset + 36
+    end
+
+    button:ClearAllPoints()
+    if profile.leftside then
+        button:SetPoint("TOPRIGHT", row, "TOPLEFT", -offset, -7)
+    else
+        button:SetPoint("TOPLEFT", row, "TOPRIGHT", offset, -7)
+    end
+end
+
+function WoWPro:PositionTargetUseButtons(row)
+    if not row then return end
+
+    local useShown = row.itembutton and row.itembutton:IsShown()
+    WoWPro:PositionFlyoutButton(row.itembutton, row)
+    WoWPro:PositionFlyoutButton(row.targetbutton, row, useShown)
 end
 
 function WoWPro:BackgroundSet()
@@ -643,13 +650,13 @@ function WoWPro.SetMouseNotesPoints()
             local right = row:GetRight() or screenW
             local top = row:GetTop() or screenH
             local bottom = row:GetBottom() or 0
-            local placeRight = WoWProDB.profile.leftside
+            local placeRight = not WoWProDB.profile.leftside
             local canPlaceRight = (right + 10 + noteWidth <= screenW)
             local canPlaceLeft = (left - 10 - noteWidth >= 0)
             local availableBelow = top
             local yOffset = 0
 
-            -- Prefer the current leftside preference, but flip if the chosen side would be off-screen.
+            -- Prefer the current side preference, but flip if the chosen side would be off-screen.
             if placeRight and not canPlaceRight and canPlaceLeft then
                 placeRight = false
             elseif not placeRight and not canPlaceLeft and canPlaceRight then
@@ -995,6 +1002,19 @@ function WoWPro.MainFrameLayout()
         GF:ClearAllPoints()
         GF:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
         GF:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
+    end
+
+    if WoWPro.Scrollbar then
+        local scrollbarOffset = 0
+        WoWPro.Scrollbar:ClearAllPoints()
+        if Profile.leftside then
+            WoWPro.Scrollbar:SetPoint("TOPRIGHT", MF, "TOPLEFT", -scrollbarOffset, -20)
+            WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", MF, "BOTTOMLEFT", -scrollbarOffset, 20)
+        else
+            WoWPro.Scrollbar:SetPoint("TOPLEFT", MF, "TOPRIGHT", scrollbarOffset, -20)
+            WoWPro.Scrollbar:SetPoint("BOTTOMLEFT", MF, "BOTTOMRIGHT", scrollbarOffset, 20)
+        end
+        WoWPro:SafeSetShown(WoWPro.Scrollbar, Profile.guidescroll)
     end
 
     -- Determine final MainFrame height based on content and profile settings
@@ -1387,6 +1407,7 @@ function WoWPro.ResizeHandlers.OnMouseUp()
 
     WoWPro.InhibitAnchorSync = false
     WoWPro.InhibitAnchorStore   = false
+    WoWPro:HideAndSeek(nil, "buttonbar", WoWProDB.profile.buttonbar, false)
 
     WoWPro:UpdateGuide("ResizeStop")
 end
@@ -1710,7 +1731,7 @@ end
 
 -- Scrollbar --
 function WoWPro:CreateGuideWindowScrollbar()
-    WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.GuideFrame, nil, 1)
+    WoWPro.Scrollbar = WoWPro:CreateScrollbar(WoWPro.MainFrame, nil, 1)
     WoWPro.Scrollbar:SetPoint("TOPRIGHT",   WoWPro.MainFrame, "TOPRIGHT", 20, -20)
     WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
 
@@ -1825,8 +1846,8 @@ function WoWPro:RowContextMenu(row)
     WoWPro.RowMenuAnchor = WoWPro.RowMenuAnchor or _G.CreateFrame("Frame", "WoWPro_RowMenuAnchor", _G.UIParent, "UIDropDownMenuTemplate")
     WoWPro.RowMenuAnchor:SetSize(1, 1)
     WoWPro.RowMenuAnchor:ClearAllPoints()
-    local anchorPoint = WoWProDB.profile.leftside and "TOPLEFT" or "TOPRIGHT"
-    WoWPro.RowMenuAnchor.MenuPoint = WoWProDB.profile.leftside and "TOPRIGHT" or "TOPLEFT"
+    local anchorPoint = WoWProDB.profile.leftside and "TOPRIGHT" or "TOPLEFT"
+    WoWPro.RowMenuAnchor.MenuPoint = WoWProDB.profile.leftside and "TOPLEFT" or "TOPRIGHT"
     WoWPro.RowMenuAnchor:SetPoint(anchorPoint, row, anchorPoint)
     WoWPro.RowMenuAnchor:Show()
     WoWPro.EasyMenu(menu, WoWPro.RowMenuAnchor, anchorPoint, 0, 0, "MENU")
@@ -2272,6 +2293,7 @@ function WoWPro:MainFrameMouseHandler()
             if button == "LeftButton" and Profile.drag then
                 MF:StopMovingOrSizing()
                     isMoving = false
+                    WoWPro:HideAndSeek(nil, "buttonbar", Profile.buttonbar, false)
                     -- Delay AnchorStore slightly to avoid racing with UI clamping/movement in Classic
                     if _G.C_Timer and _G.C_Timer.After then
                         _G.C_Timer.After(0.1, function()

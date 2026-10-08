@@ -147,11 +147,7 @@ function WoWPro:CreateItemButton(parent, id, positionParent)
     itembutton:SetFrameStrata("LOW")
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
-    if _G.WoWProDB.profile.leftside then
-        itembutton:SetPoint("TOPLEFT", positionParent, "TOPRIGHT", 10, -7)
-    else
-        itembutton:SetPoint("TOPRIGHT", positionParent, "TOPLEFT", -10, -7)
-    end
+    WoWPro:PositionFlyoutButton(itembutton, positionParent)
 
     local itemcooldown = _G.CreateFrame("Cooldown", nil, itembutton, "CooldownFrameTemplate")
     itemcooldown:SetAllPoints(itembutton)
@@ -174,11 +170,7 @@ function WoWPro:CreateJumpButton(parent, id, positionParent)
     jumpbutton:SetFrameStrata("LOW")
     jumpbutton:SetHeight(24)
     jumpbutton:SetWidth(24)
-    if _G.WoWProDB.profile.leftside then
-        jumpbutton:SetPoint("TOPLEFT", positionParent, "TOPRIGHT", 10, -7)
-    else
-        jumpbutton:SetPoint("TOPRIGHT", positionParent, "TOPLEFT", -10, -7)
-    end
+    WoWPro:PositionFlyoutButton(jumpbutton, positionParent)
 
     local jumpicon = jumpbutton:CreateTexture(nil, "ARTWORK")
     jumpicon:SetWidth(24)
@@ -203,26 +195,9 @@ function WoWPro:CreateTargetButton(parent, id, positionParent)
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton.Position = function (use_active)
-        if use_active then
-            -- WoWPro:dbp("CTBλPosition: use_active=%s, leftside=%s", tostring(use_active), tostring(leftside))
-            if _G.WoWProDB.profile.leftside then
-                targetbutton:SetPoint("TOPLEFT", positionParent, "TOPRIGHT", 46, -7)
-                -- WoWPro:dbp("CTBλPosition:A")
-            else
-                targetbutton:SetPoint("TOPRIGHT", positionParent, "TOPLEFT", -46, -7)
-                -- WoWPro:dbp("CTBλPosition:B")
-            end
-        else
-            if _G.WoWProDB.profile.leftside then
-                targetbutton:SetPoint("TOPLEFT", positionParent, "TOPRIGHT", 10, -7)
-                -- WoWPro:dbp("CTBλPosition:C")
-            else
-                targetbutton:SetPoint("TOPRIGHT", positionParent, "TOPLEFT", -10, -7)
-                -- WoWPro:dbp("CTBλPosition:D")
-            end
-        end
+        WoWPro:PositionFlyoutButton(targetbutton, positionParent, use_active)
     end
-    targetbutton.Position(true)
+    targetbutton.Position()
 
 
     local targeticon = targetbutton:CreateTexture(nil, "ARTWORK")
@@ -247,11 +222,7 @@ function WoWPro:CreateEAButton(parent, id, positionParent)
     eabutton:SetFrameStrata("LOW")
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
-    if _G.WoWProDB.profile.leftside then
-        eabutton:SetPoint("TOPLEFT", positionParent, "TOPRIGHT", 10, -7)
-    else
-        eabutton:SetPoint("TOPRIGHT", positionParent, "TOPLEFT", -10, -7)
-    end
+    WoWPro:PositionFlyoutButton(eabutton, positionParent)
 
     local cooldown = _G.CreateFrame("Cooldown", nil, eabutton, "CooldownFrameTemplate")
     cooldown:SetAllPoints(eabutton)
@@ -492,7 +463,11 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
     up:GetHighlightTexture():SetBlendMode("ADD")
 
     up:SetScript("OnClick", function(this)
-        slider:SetValue(slider:GetValue() - (step or slider:GetHeight()/2))
+        if WoWPro.ScrollGuideByRow then
+            WoWPro:ScrollGuideByRow(slider, -1)
+        else
+            slider:SetValue(slider:GetValue() - (step or slider:GetHeight()/2))
+        end
         _G.PlaySound(_G.SOUNDKIT.U_CHAT_SCROLL_BUTTON)
     end)
 
@@ -511,7 +486,11 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
     down:GetHighlightTexture():SetBlendMode("ADD")
 
     down:SetScript("OnClick", function(this)
-        slider:SetValue(slider:GetValue() + (step or slider:GetHeight()/2))
+        if WoWPro.ScrollGuideByRow then
+            WoWPro:ScrollGuideByRow(slider, 1)
+        else
+            slider:SetValue(slider:GetValue() + (step or slider:GetHeight()/2))
+        end
         _G.PlaySound(_G.SOUNDKIT.U_CHAT_SCROLL_BUTTON)
     end)
 
