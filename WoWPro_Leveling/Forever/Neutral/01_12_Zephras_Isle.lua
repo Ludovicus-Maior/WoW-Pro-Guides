@@ -140,7 +140,7 @@ C The Windshapers|QID|92595|M|43.53,44.80|Z|2521; Zephras Isle|NC|N|1/1 Listen t
 T The Windshapers|QID|92595|M|43.53,44.80|Z|2521; Zephras Isle|N|To Illaya Amberwind.|FACTION|Horde]
 A Meddlesome Mages|QID|94411|PRE|92595|M|43.53,44.80|Z|2521; Zephras Isle|N|From Illaya Amberwind.|FACTION|Horde]
 
-;Not sure that the end points of the Camping 101 need to be added, since everyone will hit at different times? 
+;Not sure that the end points of the Camping 101 need to be added, since everyone will hit at different times?
 ;T Camping 101: Skinning|QID|97971|M|43.26,43.38|Z|2521; Zephras Isle|N|To Mendalass Tattermend.|P|Skinning;393+20|
 ;T Camping 101: Alchemy|QID|97963|M|43.70,43.45|Z|2521; Zephras Isle|N|To Nyassa Swiftdraught.|P|Alchemy;171+20|
 
