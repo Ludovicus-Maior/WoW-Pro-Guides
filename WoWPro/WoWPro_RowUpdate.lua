@@ -586,6 +586,39 @@ function WoWPro:RowUpdate(offset)
     return syncData
 end
 
+function WoWPro:ScrollGuideByRow(slider, direction)
+    if not WoWProDB.profile.guidescroll then
+        slider:SetValue(slider:GetValue() + direction)
+        return
+    end
+
+    local GID = WoWProDB.char.currentguide
+    local guide = GID and WoWProCharDB.Guide[GID]
+    if not guide then
+        return
+    end
+
+    local completion = guide.completion or {}
+    local skipped = guide.skipped or {}
+    local current = floor(slider:GetValue())
+    local candidate = current + direction
+    local limit = direction > 0 and WoWPro.stepcount or 1
+
+    while (direction > 0 and candidate <= limit) or (direction < 0 and candidate >= limit) do
+        local visible
+        if WoWPro.sticky[candidate] then
+            visible = not skipped[candidate] and IsStickyVisible(candidate, candidate, completion, WoWPro.ActiveStep or candidate)
+        else
+            visible = ShouldShowRow(candidate, completion, skipped)
+        end
+        if visible then
+            slider:SetValue(candidate)
+            return
+        end
+        candidate = candidate + direction
+    end
+end
+
 -- Rowupdate Helpers --
 -----------------------
 -- Text, Note, Coord, and Step Normalization Helpers
@@ -919,10 +952,12 @@ SetupUseItemButton = function(currentRow, use, k)
     local itemID = SelectUseItem(use)
     if not itemID then
         currentRow.itembutton:Hide()
+        WoWPro:PositionTargetUseButtons(currentRow)
         return
     end
 
     currentRow.itembutton:Show()
+    WoWPro:PositionTargetUseButtons(currentRow)
     currentRow.itemicon.item_IsVisible = nil
     currentRow.itemicon.currentTexture = nil
     currentRow.itemcooldown.OnCooldown = nil
@@ -1382,11 +1417,13 @@ SetupTargetButton = function(currentRow, target, module)
             currentRow.targetbutton:Hide()
             currentRow.targetbuttonSecured:Hide()
         end
+        WoWPro:PositionTargetUseButtons(currentRow)
         return
     end
 
     if not InCombatLockdown() then
         currentRow.targetbutton:Show()
+        WoWPro:PositionTargetUseButtons(currentRow)
     end
 
     -- Build macrotext
@@ -1404,7 +1441,7 @@ SetupTargetButton = function(currentRow, target, module)
 
     -- Position target button (only out of combat)
     if not InCombatLockdown() then
-        currentRow.targetbutton.Position(WoWPro.use[currentRow.index] or WoWPro.eab[currentRow.index])
+        WoWPro:PositionTargetUseButtons(currentRow)
     end
 
     -- Secured overlay

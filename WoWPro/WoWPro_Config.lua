@@ -188,40 +188,13 @@ local function createDisplayConfig()
                                 order = 14,
                                 type = "toggle",
                                 name = L["Left Handed"],
-                                desc = L["When enabled:\n- Target and Use buttons move to the right side of the window\n\nAuto-protect:\n- Automatically enables or disables to keep the buttons on-screen\n\nWhen disabled:\n- Buttons stay on the left side of the window"],
+                                desc = L["When enabled:\n- Target and Use buttons move to the left side of the window\n\nAuto-protect:\n- Automatically enables or disables to keep the buttons on-screen\n\nWhen disabled:\n- Buttons move to the right side of the window"],
                                 width = "double",
                                 get = function(info) return WoWProDB.profile.leftside end,
                                 set = function(info,val) WoWProDB.profile.leftside = val
                                     if WoWPro.rows then
                                         for _, row in ipairs(WoWPro.rows) do
-                                            if row.itembutton then
-                                                row.itembutton:ClearAllPoints()
-                                                if val then
-                                                    row.itembutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
-                                                else
-                                                    row.itembutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-                                                end
-                                            end
-                                            if row.targetbutton then
-                                                row.targetbutton:ClearAllPoints()
-                                                if row.targetbutton.Position then
-                                                    row.targetbutton:Position(true)
-                                                else
-                                                    if row.itembutton and row.itembutton:IsShown() then
-                                                        if val then
-                                                            row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 46, -7)
-                                                        else
-                                                            row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -46, -7)
-                                                        end
-                                                    else
-                                                        if val then
-                                                            row.targetbutton:SetPoint("TOPLEFT", row, "TOPRIGHT", 10, -7)
-                                                        else
-                                                            row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-                                                        end
-                                                    end
-                                                end
-                                            end
+                                            WoWPro:PositionTargetUseButtons(row)
                                         end
                                     end
                                 end
