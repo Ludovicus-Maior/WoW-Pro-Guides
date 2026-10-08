@@ -369,7 +369,7 @@ local defaults = { profile = {
     showTargetButton = true,
     showEAButton = true,
     showJumpButton = true,
-    showLootsButtons = true,
+    showLootIcons = true,
 } }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --

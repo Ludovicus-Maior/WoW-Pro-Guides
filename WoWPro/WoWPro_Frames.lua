@@ -1807,10 +1807,10 @@ function WoWPro:CreateRow(index)
     row.itembuttonSecured = WoWPro:CreateItemButtonSecured(index)
     row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(WoWPro.MainFrame, index, row)
     row.targetbuttonSecured = WoWPro:CreateTargetButtonSecured(index)
-    row.lootsbuttons = {}
-    for buttonIndex = 1, 5 do
-        local lootsbutton, lootsicon = WoWPro:CreateLootsButton(row, index, buttonIndex)
-        row.lootsbuttons[buttonIndex] = {button = lootsbutton, icon = lootsicon}
+    row.looticons = {}
+    for iconIndex = 1, 5 do
+        local lootFrame, lootIcon = WoWPro:CreateLootIcon(row, index, iconIndex)
+        row.looticons[iconIndex] = {frame = lootFrame, icon = lootIcon}
     end
     row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(WoWPro.MainFrame, index, row)
     row.eabutton, row.eaicon, row.eacooldown = WoWPro:CreateEAButton(WoWPro.MainFrame, index, row)

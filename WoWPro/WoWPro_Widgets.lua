@@ -271,18 +271,18 @@ function WoWPro:CreateItemButtonSecured(id)
     return itembutton
 end
 
-function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
+function WoWPro:CreateLootIcon(parent, id, iconIndex, positionParent)
     positionParent = positionParent or parent
-    buttonIndex = buttonIndex or 1
-    local lootsbutton = _G.CreateFrame("Button", "WoWPro_looticon"..id.."_"..buttonIndex, parent)
-    lootsbutton:SetFrameStrata("MEDIUM")
-    lootsbutton:SetHeight(24)
-    lootsbutton:SetWidth(24)
-    -- Position based on buttonIndex: 0 pixels for first, -26 for second, -52 for third, etc.
-    local xOffset = -(buttonIndex - 1) * 26
-    lootsbutton:SetPoint("TOPRIGHT", positionParent, "TOPRIGHT", xOffset, 0)
-    lootsbutton.ID = nil
-    lootsbutton:SetScript("OnEnter", function(this)
+    iconIndex = iconIndex or 1
+    local lootFrame = _G.CreateFrame("Button", "WoWPro_looticon"..id.."_"..iconIndex, parent)
+    lootFrame:SetFrameStrata("MEDIUM")
+    lootFrame:SetHeight(24)
+    lootFrame:SetWidth(24)
+    -- Position based on iconIndex: 0 pixels for first, -26 for second, -52 for third, etc.
+    local xOffset = -(iconIndex - 1) * 26
+    lootFrame:SetPoint("TOPRIGHT", positionParent, "TOPRIGHT", xOffset, 0)
+    lootFrame.ID = nil
+    lootFrame:SetScript("OnEnter", function(this)
         _G.GameTooltip:SetOwner(this, 'ANCHOR_LEFT')
         if this.ID and this.ID:len() > 1 and this.ID:sub(1,1) == "$" then
             _G.GameTooltip:SetCurrencyByID(tonumber(this.ID:sub(2)))
@@ -292,21 +292,21 @@ function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
             _G.GameTooltip:Show()
         end
     end)
-    lootsbutton:SetScript("OnLeave", function(this)
+    lootFrame:SetScript("OnLeave", function(this)
         if this.ID then
             _G.GameTooltip:Hide()
         end
     end)
 
 
-    local lootsicon = lootsbutton:CreateTexture(nil, "ARTWORK")
-    lootsbutton.lootsicon = lootsicon
-    lootsicon:SetWidth(24)
-    lootsicon:SetHeight(24)
-    lootsicon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
-    lootsicon:SetAllPoints(lootsbutton)
+    local lootIcon = lootFrame:CreateTexture(nil, "ARTWORK")
+    lootFrame.lootIcon = lootIcon
+    lootIcon:SetWidth(24)
+    lootIcon:SetHeight(24)
+    lootIcon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
+    lootIcon:SetAllPoints(lootFrame)
 
-    function lootsbutton:SetItemByID(ID)
+    function lootFrame:SetItemByID(ID)
         self.ID = ID
         local name, texture, _
         if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
@@ -319,17 +319,17 @@ function WoWPro:CreateLootsButton(parent, id, buttonIndex, positionParent)
             name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
         end
         if texture then
-            self.lootsicon:SetTexture(texture)
+            self.lootIcon:SetTexture(texture)
             return name
         else
-            self.lootsicon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
+            self.lootIcon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
             return ("Unknown item [%s]"):format(tostring(ID))
         end
     end
 
-    lootsbutton:Hide()
+    lootFrame:Hide()
 
-    return lootsbutton, lootsicon
+    return lootFrame, lootIcon
 end
 
 function WoWPro:CreateHeading(parent, text, subtext)

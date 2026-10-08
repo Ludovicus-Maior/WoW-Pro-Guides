@@ -245,14 +245,14 @@ local function createDisplayConfig()
                                         set = function(info,val) WoWProDB.profile.showJumpButton = val
                                             WoWPro:UpdateGuide("Config: Jump Button Visibility") end
                                     },
-                                    showLootsButtons = {
+                                    showLootIcons = {
                                         order = 5,
                                         type = "toggle",
-                                        name = L["Show Loot Buttons"],
-                                        desc = L["Enable/Disable the loot item buttons (for item actions)"],
+                                        name = L["Show Loot Icons"],
+                                        desc = L["Enable/Disable the loot item icons (for item actions)"],
                                         width = "double",
-                                        get = function(info) return WoWProDB.profile.showLootsButtons end,
-                                        set = function(info,val) WoWProDB.profile.showLootsButtons = val
+                                        get = function(info) return WoWProDB.profile.showLootIcons end,
+                                        set = function(info,val) WoWProDB.profile.showLootIcons = val
                                             WoWPro:UpdateGuide("Config: Loots Button Visibility") end
                                     },
                                 },

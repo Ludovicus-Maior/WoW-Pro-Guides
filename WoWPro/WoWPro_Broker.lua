@@ -1463,27 +1463,27 @@ function WoWPro:LegacyRowUpdate(offset)
             end
         end
 
-        -- Loots Buttons --
-        if item and WoWProDB.profile.showLootsButtons then
+        -- Loot Icons --
+        if item and WoWProDB.profile.showLootIcons then
             -- Parse multiple items separated by semicolons
             local items = {(";"):split(item)}
-            local buttonIndex = 1
+            local iconIndex = 1
             local itemNames = {}
 
             for _, itemID in ipairs(items) do
                 itemID = itemID:trim()
-                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
-                    local lootData = currentRow.lootsbuttons[buttonIndex]
-                    local nomen = lootData.button:SetItemByID(itemID)
-                    lootData.button:Show()
+                if itemID ~= "" and iconIndex <= #currentRow.looticons then
+                    local lootData = currentRow.looticons[iconIndex]
+                    local nomen = lootData.frame:SetItemByID(itemID)
+                    lootData.frame:Show()
                     tinsert(itemNames, nomen)
-                    buttonIndex = buttonIndex + 1
+                    iconIndex = iconIndex + 1
                 end
             end
 
-            -- Hide unused loot buttons
-            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[btnIdx].button:Hide()
+            -- Hide unused loot icons
+            for hiddenIndex = iconIndex, #currentRow.looticons do
+                currentRow.looticons[hiddenIndex].frame:Hide()
             end
 
             -- Update note text
@@ -1509,9 +1509,9 @@ function WoWPro:LegacyRowUpdate(offset)
             end
             currentRow.note:SetText(note)
         else
-            -- Hide all loot buttons when no items
-            for btnIdx = 1, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[btnIdx].button:Hide()
+            -- Hide all loot icons when no items
+            for iconIndex = 1, #currentRow.looticons do
+                currentRow.looticons[iconIndex].frame:Hide()
             end
         end
 
