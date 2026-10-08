@@ -65,10 +65,7 @@ C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITE
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
 T Stolen Power|QID|77621|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|C|Warlock|
-L Level 4|ACTIVE|18|Z|1429; Elwynn Forest|N|Grind until you're within 5 bubbles of level 4.|LVL|3;-360|C|Warlock|
-L Level 4|ACTIVE|18|Z|1429; Elwynn Forest|N|Grind until you're halfway to level 4.|LVL|3;-710|C|-Warlock|
 T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|
-= Level 4 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
 = Demon trainer|ACTIVE|18|PRE|1598|QID|3903|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
 = Imp Blood Impact|PRE|1598|M|PLAYER|CC|N|Read the Grimoire to learn the spell.\n[color=FF0000]NOTE: [/color]You must summon your demon in order to train it.|SPELL|Blood Pact;6307|U|16321|O|
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
@@ -83,7 +80,7 @@ T Follow That Kobold!|QID|91758|M|51.23,40.85|Z|1429; Elwynn Forest|N|To Tordrin
 A Shhh! We're Hunting Kobolds|QID|91772|M|51.23,40.85|Z|1429; Elwynn Forest|N|From Tordrin Sternblade.|
 T The Lost Rune|QID|77616|M|50.21,42.22|Z|1429; Elwynn Forest|N|To Llane Beshere.|C|Warrior|
 T Thrice Stolen|QID|77618|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan.|C|Rogue|
-= Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
+;= Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
 T Milly Osworth|QID|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth at the back of the Abbey, near the stable.|
 A Milly's Harvest|QID|3904|PRE|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
 C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|S|NC|
@@ -158,12 +155,7 @@ C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04;41.04,79.78|CN|Z|1429; Elwyn
 A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".|LVL|7|
 T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
-
-
-
-; The next few steps are in Stormwind City
 R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|1453; Stormwind City|N|Follow the road northwest to Stormwind City.|
-N Housekeeping|ACTIVE|61|Z|1453; Stormwind City|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Stormwind City Guard|S!US|IZ|1453; Stormwind City|
 f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
 T Shipment to Stormwind|QID|61|M|63.07,74.57|Z|1453; Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
 R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
@@ -171,6 +163,10 @@ R Crystal Lake|ACTIVE|112|QO|1|M|54.10,66.60|Z|1429; Elwynn Forest|N|Follow the 
 C Collecting Kelp|QID|112|M|54.1,66.6|Z|1429; Elwynn Forest|L|1256 4|ITEM|1256|N|Any Murloc around Crystal Lake.|
 R Jasperlode Mine|ACTIVE|76|QO|1|M|58.72,56.28|Z|1429; Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
 R The Jasperlode Mine|ACTIVE|76|QO|1|M|61.71,53.85;60.53,49.97|CC|Z|1429; Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
+
+K Geosculpter Yip|ACTIVE|91777|QO|1|M|60.53,49.97|Z|1429; Elwynn Forest|N|Kill Geosculpter amd loot his book.|
+K Mother Fang|ACTIVE|91777|QO|2|M|60.53,49.97|Z|1429; Elwynn Forest|N|Kill Mother Fang and look its book.|
+
 C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04|Z|1429; Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around Jasperlode Mine.|US|
 T Further Concerns|QID|35|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
 A Find the Lost Guards|QID|37|PRE|35|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
