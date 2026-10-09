@@ -642,7 +642,8 @@ NormalizeNote = function(note)
     -- Expand markup first
     note = WoWPro.ExpandMarkup(note)
 
-    -- Replace CRLF with LF
+    -- Convert guide newline escapes and normalize line endings
+    note = note:gsub("\\n", "\n")
     note = note:gsub("\r\n", "\n")
 
     -- Strip leading blank lines
@@ -652,7 +653,7 @@ NormalizeNote = function(note)
     note = note:gsub("\n+$", "")
 
     -- Collapse multiple blank lines
-    note = note:gsub("\n\n+", "\n")
+    -- note = note:gsub("\n\n+", "\n")  This is not what we want to do - Hendo72
 
     return note
 end
