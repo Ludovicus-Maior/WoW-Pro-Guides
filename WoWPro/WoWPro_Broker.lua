@@ -2015,9 +2015,6 @@ if step then
                 mtext = "/target "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget[dead]\n/target "..tar.."\n"
-                if not WoWPro.MIDNIGHT then
-                    mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
-                end
             end
             currentRow.targetbutton:SetAttribute("macrotext", mtext)
             -- Run Module specific RowUpdateTarget() to override macrotext
