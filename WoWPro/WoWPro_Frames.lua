@@ -14,7 +14,7 @@ local function AnchorDebug(msg, ...)
 end
 
 -- Where are you going? Trace function calls for debugging.
-local Tracer = true
+local Tracer = false
 function WoWPro:Trace(func)
     if Tracer and WoWPro.DebugLevel > 0 then
         print("TRACE:", func) -- It will output to chat whatever you pass to it
