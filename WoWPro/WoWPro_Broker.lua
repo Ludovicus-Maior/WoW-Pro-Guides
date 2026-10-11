@@ -2004,7 +2004,7 @@ if step then
         end
 
 
-        -- Target Button --
+                -- Target Button --
         if showButtons and target and not _G.InCombatLockdown() and WoWProDB.profile.showTargetButton then
             local mtext
             local tar, emote = (","):split(target)
@@ -2014,10 +2014,7 @@ if step then
             elseif emote then
                 mtext = "/target "..tar.."\n/"..emote
             else
-                mtext = "/cleartarget[dead]\n/target "..tar.."\n"
-                if not WoWPro.MIDNIGHT then
-                    mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
-                end
+                mtext = "/cleartarget[dead]\n/target "..tar.."\n/tm [@target,exists,nodead] 8"
             end
             currentRow.targetbutton:SetAttribute("macrotext", mtext)
             -- Run Module specific RowUpdateTarget() to override macrotext
