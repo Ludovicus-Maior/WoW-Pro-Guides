@@ -47,16 +47,16 @@ WoWPro.Leveling.ClassicStartGuides = {
     Troll = 'ClassicDurotar0112'
 }
 WoWPro.Leveling.ForeverStartGuides = {
-    Dwarf = 'ClassicDunMorogh0112',
-    Gnome = 'ClassicDunMorogh0112',
-    Human = 'ClassicElwynn0112',
-    NightElf = "ClassicTeldrassil0112",
+    Dwarf = 'Dun Morogh 1-12',
+    Gnome = 'Dun Morogh 1-12',
+    Human = 'Elwynn Forest 1-12',
+    NightElf = "Teldrassil 1-12",
     Orc = 'ClassicDurotar0112',
-    Scourge = 'ClassicTirisfalGlades0112',
-    Tauren = 'ClassicMulgore0112',
+    Scourge = 'Tirisfal Glades',
+    Tauren = 'Mulgore',
     Troll = 'ClassicDurotar0112',
-    HighOrderSkyborne = nil, -- Alliance Skyborne
-    WindshaperSkyborne = nil, -- Horde Skyborne
+    Skyborne = 'Zephras Isle', 
+    
 }
 WoWPro.Leveling.ClassicBCStartGuides = {
     BloodElf = "BC-BloodElf",
