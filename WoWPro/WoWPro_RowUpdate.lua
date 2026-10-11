@@ -390,14 +390,23 @@ function WoWPro:RowUpdate(offset)
     local regularCount = 0
     local stickySteps = {}
     local regularSteps = {}
+
+    -- Sticky steps remain eligible even when they precede the current regular step.
+    -- IsStickyVisible applies completion, pairing, and progression filters.
+    for stepIdx = 1, WoWPro.stepcount do
+        if WoWPro.sticky[stepIdx] then
+            local visible = not skipped[stepIdx]
+                and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary)
+            if visible then
+                table.insert(stickySteps, stepIdx)
+            end
+        end
+    end
+
     while regularCount < regularLimit and scanIndex <= (WoWPro.stepcount + 15) do
         local stepIdx = nextIndex
         if stepIdx and WoWPro.step[stepIdx] then
-            if WoWPro.sticky[stepIdx] then
-                if not skipped[stepIdx] and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary) then
-                    table.insert(stickySteps, stepIdx)
-                end
-            elseif ShouldShowRow(stepIdx, completion, skipped) then
+            if not WoWPro.sticky[stepIdx] and ShouldShowRow(stepIdx, completion, skipped) then
                 table.insert(regularSteps, stepIdx)
                 regularCount = regularCount + 1
             end
@@ -771,9 +780,9 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return true
     end
 
-    -- Sticky steps beyond progression boundary are hidden
-    -- Except S!US (sticky+unsticky) which stays visible until completion
-    if not isSUS and not isManualSticky and stepIdx > stickyBoundary then
+    -- Sticky steps beyond progression boundary are hidden.
+    -- S!US becomes eligible when it reaches the current progression boundary.
+    if not isManualSticky and stepIdx > stickyBoundary then
         return false
     end
 
@@ -809,9 +818,9 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return false
     end
 
-    -- Action C with no QID: show if stepIdx <= k
+    -- Action C with no QID: show if stepIdx <= the active progression boundary
     if action == "C" and not QID then
-        return stepIdx <= k
+        return stepIdx <= stickyBoundary
     end
 
     -- S!US steps always show until completion
@@ -819,8 +828,8 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return true
     end
 
-    -- Default: show if stepIdx <= k
-    return stepIdx <= k
+    -- Default: show if stepIdx <= the active progression boundary
+    return stepIdx <= stickyBoundary
 end
 
 -- Item Button Helpers
