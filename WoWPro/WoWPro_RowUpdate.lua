@@ -1323,11 +1323,19 @@ end
 
 -- Helper: Hide all remaining rows starting at index i
 HideRemainingRows = function(startIndex)
-    for j = startIndex, 15 do
-        local row = WoWPro.rows[j]
-        row:Hide()
+    -- 1. COMBAT OVERRIDE: Exit instantly if in combat to prevent forbidden .Hide() action errors
+    if InCombatLockdown() then return end
 
-        if not InCombatLockdown() then
+    -- 2. SANITY CHECK: Only parse rows if the table is loaded
+    if not WoWPro.rows then return end
+
+    local maxRows = #WoWPro.rows or 15 -- row count, fallback to 15 if WoWPro.rows is nil
+    -- 3. SAFE OUT-OF-COMBAT LOOP
+    for j = startIndex, maxRows do
+        local row = WoWPro.rows[j]
+        if row then
+            row:Hide()
+
             if row.itembutton then row.itembutton:Hide() end
             if row.itembuttonSecured then row.itembuttonSecured:Hide() end
 
