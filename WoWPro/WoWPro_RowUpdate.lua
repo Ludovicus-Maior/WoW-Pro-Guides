@@ -1482,24 +1482,29 @@ end
 
 -- Helper: Hide all remaining rows starting at index i
 HideRemainingRows = function(startIndex)
-    for j = startIndex, 15 do
-        local row = WoWPro.rows[j]
+if InCombatLockdown() then return end
+if not WoWPro.rows then return end
+
+local maxRows = #WoWPro.rows or 15
+
+for j = startIndex, maxRows do
+    local row = WoWPro.rows[j]
+    if row then
         row:Hide()
 
-        if not InCombatLockdown() then
-            if row.itembutton then row.itembutton:Hide() end
-            if row.itembuttonSecured then row.itembuttonSecured:Hide() end
+        if row.itembutton then row.itembutton:Hide() end
+        if row.itembuttonSecured then row.itembuttonSecured:Hide() end
 
-            if row.targetbutton then row.targetbutton:Hide() end
-            if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
+        if row.targetbutton then row.targetbutton:Hide() end
+        if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
 
-            if row.jumpbutton then row.jumpbutton:Hide() end
-            if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
+        if row.jumpbutton then row.jumpbutton:Hide() end
+        if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
 
-            if row.eabutton then row.eabutton:Hide() end
-            if row.eabuttonSecured then row.eabuttonSecured:Hide() end
-        end
+        if row.eabutton then row.eabutton:Hide() end
+        if row.eabuttonSecured then row.eabuttonSecured:Hide() end
     end
+end
 end
 
 -- Helper: Update RowLimit based on visible steps
