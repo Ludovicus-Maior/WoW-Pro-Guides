@@ -663,9 +663,9 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return false
     end
 
-    -- Action C with no QID: show if stepIdx <= k
+    -- Action C with no QID: show if stepIdx <= the active progression boundary
     if action == "C" and not QID then
-        return stepIdx <= k
+        return stepIdx <= stickyBoundary
     end
 
     -- S!US steps always show until completion
@@ -673,8 +673,8 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return true
     end
 
-    -- Default: show if stepIdx <= k
-    return stepIdx <= k
+    -- Default: show if stepIdx <= the active progression boundary
+    return stepIdx <= stickyBoundary
 end
 
 -- Item Button Helpers
