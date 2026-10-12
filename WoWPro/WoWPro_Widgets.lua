@@ -33,7 +33,7 @@ end
 function WoWPro:CreateCheck(parent)
     local check = _G.CreateFrame("CheckButton", nil, parent)
     check:RegisterForClicks("anyDown")
-    check:SetPoint("TOPLEFT")
+    check:SetPoint("TOPLEFT", parent, "TOPLEFT", 0, -WoWPro.Layout.RowPaddingTop)
     check:SetWidth(16)
     check:SetHeight(16)
     check:SetNormalTexture(WoWPro.UI_CheckBox_Up)
@@ -50,7 +50,7 @@ end
 
 function WoWPro:CreateIcon(parent, anchor)
     local frame = _G.CreateFrame("Frame", nil, parent)
-    frame:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
+    frame:SetPoint("TOPLEFT", anchor, "TOPRIGHT", 3, 0)
     frame:SetWidth(16)
     frame:SetHeight(16)
     frame:EnableMouse(true)
@@ -91,9 +91,8 @@ end
 
 function WoWPro:CreateStep(parent, anchor)
     local step = parent:CreateFontString(nil, nil, "GameFontHighlight")
-    step:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
+    step:SetPoint("TOPLEFT", anchor, "TOPRIGHT", 3, 0)
     step:SetPoint("RIGHT")
-    step:SetPoint("TOP", parent, "TOP")
     step:SetJustifyH("LEFT")
 
     return step
@@ -280,7 +279,7 @@ function WoWPro:CreateLootIcon(parent, id, iconIndex, positionParent)
     lootFrame:SetWidth(24)
     -- Position based on iconIndex: 0 pixels for first, -26 for second, -52 for third, etc.
     local xOffset = -(iconIndex - 1) * 26
-    lootFrame:SetPoint("TOPRIGHT", positionParent, "TOPRIGHT", xOffset, 0)
+    lootFrame:SetPoint("TOPRIGHT", positionParent, "TOPRIGHT", xOffset, -WoWPro.Layout.RowPaddingTop)
     lootFrame.ID = nil
     lootFrame:SetScript("OnEnter", function(this)
         _G.GameTooltip:SetOwner(this, 'ANCHOR_LEFT')

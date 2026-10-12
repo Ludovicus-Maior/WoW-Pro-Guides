@@ -74,7 +74,6 @@ function WoWPro.RowSizeSet()
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
             row.TextPaddingTop = 0
-            row.step:SetPoint("TOP", row, "TOP")
             row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
             local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
             row.track:SetPoint("TOPLEFT", trackAnchor, "BOTTOMLEFT", 0, -3)
@@ -376,7 +375,7 @@ function WoWPro:RowUpdate(offset)
     local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
     local skipped = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].skipped) or {}
     local syncData = {steps = {}, tracks = {}}
-    local startIndex = offset or WoWPro.NextStep(1)
+    local startIndex = offset or WoWPro.ActiveStep or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
     local regularLimit = WoWProDB.profile.autoresize and WoWProDB.profile.numsteps or 15
 
@@ -1472,7 +1471,7 @@ ShouldShowRow = function(stepIdx, completion, skipped)
     -- US steps: only show if paired sticky is complete or no sticky exists
     if WoWPro.unsticky[stepIdx] and not WoWPro.sticky[stepIdx] then
         local pairedSticky = WoWPro.FindPairedStickyStep(stepIdx)
-        if pairedSticky and not completion[pairedSticky] then
+        if pairedSticky and not completion[pairedSticky] and stepIdx ~= WoWPro.ActiveStep then
             return false
         end
     end
