@@ -99,7 +99,7 @@ A Al'Aketh Thugs|QID|92544|M|38.35,30.19|Z|2521; Zephras Isle|N|From Hanaa Night
 C Al'Aketh Thugs|QID|92544|M|36.65,31.74|Z|2521; Zephras Isle|QO|1|N|Al'Aketh Brute slain.|
 C Al'Aketh Thugs|QID|92544|M|37.02,31.46|Z|2521; Zephras Isle|QO|2|N|4/4 Al'Aketh Neophyte slain.|
 K Al'Aketh Thugs|QID|92544|M|36.59,33.24|Z|2521; Zephras Isle|QO|3|N|Malduko Cloudcrush slain.|
-T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.|
+T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.| 
 
 T The Adventurer|QID|96638|M|41.67,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
@@ -149,7 +149,7 @@ A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isl
 A Camping 101: Tailoring|QID|97973|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197;0|FACTION|Alliance|
 A Camping 101: Tailoring|QID|97972|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197;0|FACTION|Horde|
 
-;Not sure that the end points of the Camping 101 need to be added, since everyone will hit at different times?
+;Not sure that the end points of the Camping 101 need to be added, since everyone will hit at different times? 
 ;T Camping 101: Skinning|QID|97971|M|43.26,43.38|Z|2521; Zephras Isle|N|To Mendalass Tattermend.|P|Skinning;393;0+20|
 ;T Camping 101: Alchemy|QID|97963|M|43.70,43.45|Z|2521; Zephras Isle|N|To Nyassa Swiftdraught.|P|Alchemy;171;0+20|
 ;T Camping 101: Herbalism|QID|97968|M|57.89,75.52|Z|2521; Zephras Isle|N|To Syriel Nightrain.|P|Herbalism;182;0+20|

@@ -4,18 +4,6 @@ WoWPro:GuideLevels(guide,1,12,8)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
-;A Taming the Beast|QID|94978|M|59.59,72.63|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
-;T Taming the Beast|QID|94978|M|59.59,72.66|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
-;A Taming the Beast|QID|94979|PRE|94978|M|59.59,72.66|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
-;T Taming the Beast|QID|94979|M|59.61,72.64|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
-;A Taming the Beast|QID|94013|PRE|94979|M|59.61,72.64|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
-;T Taming the Beast|QID|94013|M|59.57,72.64|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
-;A Training the Beast|QID|94050|PRE|94013|M|59.58,72.64|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
-;T Training the Beast|QID|94050|M|59.61,72.53|Z|2521; Zephras Isle|N|To Quel'dora Quickgale.|C|Hunter|
-
-
-
 A Coming of Age|QID|92460|M|42.82,23.38|Z|2521; Zephras Isle|N|From Ailee Farheart.|
 T Coming of Age|QID|92460|M|42.07,23.49|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 A Harmony in Balance|QID|92461|M|42.07,23.49|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
@@ -26,7 +14,7 @@ C Harmony in Balance|QID|92461|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vul
 C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|US|
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-A Reading the Ley Lines|QID|92597|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|
+A Reading the Ley Lines|QID|92597|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|FACTION|Alliance|
 r Repair/Restock|QID|92463|M|42.76,24.48|N|At Uualia Suncrest.|
 T Harmony in Balance|QID|92461|M|42.05,23.50|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
@@ -45,11 +33,11 @@ A Falling With Style|QID|92474|PRE|94414|M|43.67,24.06|Z|2521; Zephras Isle|N|Fr
 C Falling With Style|QID|92474|M|43.33,23.82|Z|2521; Zephras Isle|NC|N|Use Walk on Air, aim for Rorian the Dayseeker.|
 T Falling With Style|QID|92474|M|42.10,23.51|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 
-T The Way of the Hunter|QID|92482|M|42.47,23.72|Z|2521; Zephras Isle|N|To Tai'ree Farsight.|C|Hunter|
-T A Student of Nature|QID|92485|M|41.71,23.37|Z|2521; Zephras Isle|N|To Xyton Silverwind.|C|Druid|
-T A Student of the Arcane|QID|92481|M|41.54,23.68|Z|2521; Zephras Isle|N|To Dorii Brightwhisper.|C|Mage|
-T At Home in the Shadows|QID|92483|M|43.74,24.34|Z|2521; Zephras Isle|N|To Akeri Duskblade.|C|Rogue|
-T The Warrior's Path|QID|92532|M|43.66,24.14|Z|2521; Zephras Isle|N|To Blademaster Ren.|C|Warrior|
+T The Way of the Hunter|ACTIVE|92482|M|42.47,23.72|Z|2521; Zephras Isle|N|To Tai'ree Farsight.|C|Hunter|
+T A Student of Nature|ACTIVE|92485|M|41.71,23.37|Z|2521; Zephras Isle|N|To Xyton Silverwind.|C|Druid|
+T A Student of the Arcane|ACTIVE|92481|M|41.54,23.68|Z|2521; Zephras Isle|N|To Dorii Brightwhisper.|C|Mage|
+T At Home in the Shadows|ACTIVE|92483|M|43.74,24.34|Z|2521; Zephras Isle|N|To Akeri Duskblade.|C|Rogue|
+T The Warrior's Path|ACTIVE|92532|M|43.66,24.14|Z|2521; Zephras Isle|N|To Blademaster Ren.|C|Warrior|
 
 N Train Skills|QID|92463|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
 
@@ -83,7 +71,7 @@ C Foul Matriarch|QID|92470|QO|1|M|36.27,25.66|Z|2521; Zephras Isle|N|Ursera Scav
 K Urs'anah|ACTIVE|92470|QO|2|M|36.11,25.97|Z|2521; Zephras Isle|NC|N|Head of Urs'anah.|T|Urs'anah|
 C Aggressive Encroachment|QID|92473|M|37.30,25.16|Z|2521; Zephras Isle|N|Scrawny Ursera Claw.|US|
 C Foul Matriarch|QID|92470|QO|1|M|36.27,25.66|Z|2521; Zephras Isle|N|Ursera Scavenger slain.|US|
-H Thendal Village|ACTIVE|92470|N|Hearth back to Thendal Village if your hearth is on CD, start beating feet.|
+H Thendal Village|ACTIVE|92470|N|Hearth back to Thendal Village if your hearth is on CD, start beating feet.| 
 T Aggressive Encroachment|QID|92473|M|42.38,25.04|Z|2521; Zephras Isle|N|To Valreaa Valewind.|
 T Foul Matriarch|QID|92470|M|42.76,23.67|Z|2521; Zephras Isle|N|To Aetheen of the Gales.|
 A The Adventurer|QID|96638|PRE|92473&92470|M|42.73,23.70|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
@@ -97,7 +85,7 @@ C Al'Aketh Thugs|QID|92544|QO|2|M|37.02,31.46|Z|2521; Zephras Isle|N|Al'Aketh Ne
 K Malduko Cloudcrush|ACTIVE|92544|QO|3|M|36.59,33.24|Z|2521; Zephras Isle|N|Malduko Cloudcrush slain.|T|Malduko Cloudcrush|
 C Al'Aketh Thugs|QID|92544|QO|1|M|36.65,31.74|Z|2521; Zephras Isle|N|Al'Aketh Brute slain.|US|
 C Al'Aketh Thugs|QID|92544|QO|2|M|37.02,31.46|Z|2521; Zephras Isle|N|Al'Aketh Neophyte slain.|US|
-T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.|
+T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.| 
 
 T The Adventurer|QID|96638|M|41.67,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
@@ -128,18 +116,18 @@ r Repair/Restock|QID|96646|M|44.67,44.52|N|At Indari Sunseam.|
 
 
 T The Next Step|QID|92472|M|45.66,45.46|Z|2521|N|To Constable Aonda.|
-A Welcome to Shen'dar Village|QID|93461|PRE|92472|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
-C Welcome to Shen'dar Village|QID|93461|M|45.02,46.42|Z|2521; Zephras Isle|CHAT|N|Speak with Rathiril Sunlance.|QO|1|
-A The High Order|QID|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|From Rathiril Sunlance. Follow all the Chat Prompts to complete.|
-C The High Order|QID|92596|M|45.02,46.42|Z|2521; Zephras Isle|NC|N|Listen to Rathiril Sunlance.|CHAT|QO|1|
-T The High Order|QID|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|To Rathiril Sunlance.|
-A A Magical Affront|QID|94413|PRE|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|From Rathiril Sunlance.|
+A Welcome to Shen'dar Village|QID|93461|PRE|92472|M|45.66,45.46|Z|2521|N|From Constable Aonda.|FACTION|Alliance|
+C Welcome to Shen'dar Village|QID|93461|M|45.02,46.42|Z|2521; Zephras Isle|CHAT|N|Speak with Rathiril Sunlance.|QO|1|FACTION|Alliance|
+A The High Order|QID|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|From Rathiril Sunlance. Follow all the Chat Prompts to complete.|FACTION|Alliance|
+C The High Order|ACTIVE|92596|M|45.02,46.42|Z|2521; Zephras Isle|NC|N|Listen to Rathiril Sunlance.|CHAT|QO|1|
+T The High Order|ACTIVE|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|To Rathiril Sunlance.|FACTION|Alliance|
+A A Magical Affront|QID|94413|PRE|92596|M|45.02,46.42|Z|2521; Zephras Isle|N|From Rathiril Sunlance.|FACTION|Alliance|
 
 
-C Welcome to Shen'dar Village|QID|93461|M|43.04,43.36|Z|2521; Zephras Isle|CHAT|N|Speak with the Innkeeper.|QO|2|
+C Welcome to Shen'dar Village|ACTIVE|93461|M|43.04,43.36|Z|2521; Zephras Isle|CHAT|N|Speak with the Innkeeper.|QO|2|FACTION|Alliance|
 h Shen'dar Village|QID|94413|M|43.04,43.36|Z|2521; Zephras Isle|N|At Coriella Calmbreeze.|
 
-T Welcome to Shen'dar Village|QID|93461|M|45.66,45.46|Z|2521|N|To Constable Aonda.|
+T Welcome to Shen'dar Village|QID|93461|M|45.66,45.46|Z|2521|N|To Constable Aonda.|FACTION|Alliance|
 A The Criminal Element|QID|92517|PRE|93461|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
 
 A Hippogryph Harassment|QID|92516|PRE|93461|M|44.42,44.93|Z|2521|N|From Teeri Wellwind.|
@@ -153,7 +141,7 @@ C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small
 C Restocking the Larders|QID|92553|M|41.30,45.02|Z|2521; Zephras Isle|NC|N|Strider Meat.|S|QO|2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|S|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|Prideclaw Pelt.|S|QO|1|
-C A Magical Affront|QID|94413|M|38.82,47.68|Z|2521; Zephras Isle|NC|N|Windshaper Novice Seer defeated.|QO|1|S|
+C A Magical Affront|ACTIVE|94413|M|38.82,47.68|Z|2521; Zephras Isle|NC|N|Windshaper Novice Seer defeated.|QO|1|S|
 C Hippogryph Harassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1|S|
 C Hippogryph Harassment|QID|92516|M|35.76,53.19|Z|2521; Zephras Isle|N|Hippogryph Protector slain.|QO|2|S|
 K Hippogryph Matriarch|ACTIVE|92516|M|34.31,51.30|Z|2521; Zephras Isle|N|Hippogryph Matriarch slain.|QO|3|T|Hippogryph Matriarch|
@@ -235,13 +223,13 @@ T Deliver the Signet|QID|93948|M|66.20,76.59|Z|2521; Zephras Isle|N|To Talaanis 
 T To Valanaar|QID|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 A Bugged|QID|93949|PRE|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 C Bugged|QID|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|S|T|Skyhopper|
-A The Supreme Magister|QID|92699|PRE|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
-T The Supreme Magister|QID|92699|M|66.63,79.91|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-A A Grand Adventure|QID|92709|PRE|92699|M|66.63,79.91|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-C A Grand Adventure|QID|92709|M|66.63,79.91|Z|2521; Zephras Isle|NC|N|Listen to Elaadrin.|QO|1|
-T A Grand Adventure|QID|92709|M|66.63,79.91|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-A The Missing Scholar|QID|92727|PRE|92709|M|66.29,79.85|Z|2521; Zephras Isle|N|From Dondallion Whisperwind.|
-A Unwelcome Visitors|QID|92741|PRE|92709|M|66.33,79.55|Z|2521; Zephras Isle|N|From Iaadaria Bitterwind.|
+A The Supreme Magister|QID|92699|PRE|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|From Valennia Stormfist.|FACTION|Alliance|
+T The Supreme Magister|ACTIVE|92699|M|66.63,79.91|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|FACTION|Alliance|
+A A Grand Adventure|QID|92709|PRE|92699|M|66.63,79.91|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+C A Grand Adventure|ACTIVE|92709|M|66.63,79.91|Z|2521; Zephras Isle|NC|N|Listen to Elaadrin.|QO|1|FACTION|Alliance|
+T A Grand Adventure|ACTIVE|92709|M|66.63,79.91|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|FACTION|Alliance|
+A The Missing Scholar|QID|92727|PRE|92709|M|66.29,79.85|Z|2521; Zephras Isle|N|From Dondallion Whisperwind.|FACTION|Alliance|
+A Unwelcome Visitors|QID|92741|PRE|92709|M|66.33,79.55|Z|2521; Zephras Isle|N|From Iaadaria Bitterwind.|FACTION|Alliance|
 A Blood Tithe|QID|92679|PRE|92709|M|62.11,73.37|Z|2521; Zephras Isle|N|From Alvarion Windfield. (Upstairs in the Inn)|
 A Crab Season|QID|93317|PRE|92709|M|60.63,72.66|Z|2521; Zephras Isle|N|From Nyalah Brightfire.|
 A Unnerving Silence|QID|94484|M|63.99,75.13|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|
@@ -249,156 +237,268 @@ A Aid For The Refugees|QID|94896|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|N|
 A The Fate of a Loved One|QID|94897|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|
 C Bugged|QID|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|US|T|Skyhopper|
 T Bugged|QID|93949|M|66.20,76.61|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+
 h Valanaar|QID|92741|M|62.15,72.63|Z|2521; Zephras Isle|N|At Donaal Downbreeze.|
+
 C Crab Season|QID|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|S|
-T The Missing Scholar|QID|92727|M|53.35,72.23|Z|2521; Zephras Isle|N|To Bloodstained Satchel.|
-A The Missing Scholar|QID|92849|PRE|93949&92727|M|53.33,72.18|Z|2521; Zephras Isle|N|From Bloodstained Satchel.|
-C The Missing Scholar|QID|92849|M|50.65,65.40|Z|2521; Zephras Isle|NC|N|Find Fillion Flamebreeze.|QO|1|
-C The Missing Scholar|QID|92849|M|52.04,69.39|Z|2521; Zephras Isle|NC|N|Carry Fillion Flamebreeze to safety while avoiding enemies.|QO|1|
-T The Missing Scholar|QID|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|To Fillion Flamebreeze.|
-A The Missing Scholar|QID|92850|PRE|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|
-C The Missing Scholar|QID|92850|M|52.09,64.91|Z|2521; Zephras Isle|NC|N|Shriekling Matriarch's Head.|QO|1|
+T The Missing Scholar|ACTIVE|92727|M|53.35,72.23|Z|2521; Zephras Isle|FACTION|Alliance|
+A The Missing Scholar|QID|92849|PRE|93949&92727|M|53.33,72.18|Z|2521; Zephras Isle|FACTION|Alliance|
+C The Missing Scholar|ACTIVE|92849|M|50.65,65.40|Z|2521; Zephras Isle|NC|N|Find Fillion Flamebreeze.|FACTION|Alliance|QO|1|
+C The Missing Scholar|ACTIVE|92849|M|52.04,69.39|Z|2521; Zephras Isle|NC|N|Carry Fillion Flamebreeze to safety while avoiding enemies.|FACTION|Alliance|QO|1|
+T The Missing Scholar|ACTIVE|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|To Fillion Flamebreeze.|FACTION|Alliance|
+A The Missing Scholar|QID|92850|PRE|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|FACTION|Alliance|
+C The Missing Scholar|ACTIVE|92850|M|52.09,64.91|Z|2521; Zephras Isle|NC|N|Shriekling Matriarch's Head.|FACTION|Alliance|QO|1|
+
+
 C Blood Tithe|QID|92679|M|46.71,81.93|Z|2521; Zephras Isle|NC|N|Find Aamelia Windfield.|
-T Blood Tithe|QID|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A Make Yourself Useful|QID|92682|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-A Ornery Ornery Galestriders|QID|92684|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-A Flutterfly Dust|QID|92683|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-C Make Yourself Useful|QID|92682|M|48.44,83.94|Z|2521; Zephras Isle|NC|N|Ripe Stormapple.|QO|1|S|
-C Ornery Ornery Galestriders|QID|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|S|
-C Make Yourself Useful|QID|92682|M|48.36,83.85|Z|2521; Zephras Isle|N|Hungry Bandit slain.|QO|2|S|
-C Flutterfly Dust|QID|92683|M|48.23,78.62|Z|2521; Zephras Isle|NC|N|Flutterfly Dust.|QO|1|U|253666|S|
-A What Is My Purpose?|QID|92698|PRE|92679|M|48.77,78.17|Z|2521; Zephras Isle|N|From Malfunctioning Cyclone Construct.|
-C Flutterfly Dust|QID|92683|M|48.23,78.62|Z|2521; Zephras Isle|NC|N|Flutterfly Dust.|QO|1|U|253666|US|
-C Make Yourself Useful|QID|92682|M|48.36,83.85|Z|2521; Zephras Isle|N|Hungry Bandit slain.|QO|2|US|
-C Make Yourself Useful|QID|92682|M|48.44,83.94|Z|2521; Zephras Isle|NC|N|Ripe Stormapple.|QO|1|US|
-C Ornery Ornery Galestriders|QID|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|US|
-T What Is My Purpose?|QID|92698|M|46.72,81.92|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-T Flutterfly Dust|QID|92683|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-T Make Yourself Useful|QID|92682|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-T Ornery Ornery Galestriders|QID|92684|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A The Hills Have Eyes|QID|92685|PRE|92683&92682&92684|M|46.75,81.94|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-C The Hills Have Eyes|QID|92685|M|51.02,72.48|Z|2521; Zephras Isle|NC|N|Blood-Stained Bandit Mask.|QO|1|
-T The Hills Have Eyes|QID|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A Standing Our Ground|QID|92693|PRE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-C Standing Our Ground|QID|92693|M|46.72,81.95|Z|2521; Zephras Isle|CHAT|N|Speak with Aamelia Windfield.|QO|1|
-C Standing Our Ground|QID|92693|M|47.47,78.50|Z|2521; Zephras Isle|NC|N|Follow Aamelia and make your final stand.|QO|1|
-T Standing Our Ground|QID|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A Deliver the News|QID|92703|PRE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-H Valanaar|ACTIVE|92703|N|Hearth back to turn in the head and pick up more quests.|
-T Deliver the News|QID|92703|M|62.15,73.35|Z|2521; Zephras Isle|N|To Alvarion Windfield. (Upstairs in the Inn)|
-A The Great Ursera Spirit|QID|94006|PRE|99260|M|64.00,75.10|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|C|Druid|
-T The Missing Scholar|QID|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|To Fillion Flamebreeze.|
-A Fillion's Mission|QID|99260|PRE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|
-T Fillion's Mission|QID|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
+T Blood Tithe|ACTIVE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+
+
+
+
+
+
+
+
 
 L Level 10|QID|92849|LVL|10|N|You should be around level 10 by this point, if not, kill things to get to Level 10|
 N Train Skills|QID|92679|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
+r Repair/Restock|QID|93317|M|58.15,76.40|
 
-A Speak with Belann|QID|93791|M|65.93,80.52|Z|2521; Zephras Isle|N|From Anathamaas Aetherwind.|
-A Catching Wind|QID|92840|PRE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-T Speak with Belann|QID|93791|M|62.92,77.42|Z|2521; Zephras Isle|N|To Belann Windwood.|
-A Boughs in the Wind|QID|93797|M|62.92,77.42|Z|2521; Zephras Isle|N|From Belann Windwood.|C|MAGE|
-C Catching Wind|QID|92840|M|47.57,68.85|Z|2521; Zephras Isle|NC|N|Gather Data on Elemental Currents.|QO|1|S|
-C Boughs in the Wind|QID|93797|M|48.73,67.75|Z|2521; Zephras Isle|N|Limb on the ground.|C|MAGE|
-C Catching Wind|QID|92840|M|47.57,68.85|Z|2521; Zephras Isle|NC|N|Gather Data on Elemental Currents.|QO|1|US|
+
+
+
+
+
+A Taming the Beast|QID|94978|M|59.59,72.63|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
+T Taming the Beast|QID|94978|M|59.59,72.66|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
+A Taming the Beast|QID|94979|PRE|94978|M|59.59,72.66|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
+T Taming the Beast|QID|94979|M|59.61,72.64|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
+A Taming the Beast|QID|94013|PRE|94979|M|59.61,72.64|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
+T Taming the Beast|QID|94013|M|59.57,72.64|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|
+A Training the Beast|QID|94050|PRE|94013|M|59.58,72.64|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|
+T Training the Beast|QID|94050|M|59.61,72.53|Z|2521; Zephras Isle|N|To Quel'dora Quickgale.|C|Hunter|
+
+
+
+A Make Yourself Useful|QID|92682|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+A Ornery Ornery Galestriders|QID|92684|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+A Flutterfly Dust|QID|92683|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+C Ornery Ornery Galestriders|ACTIVE|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|S|
+A What Is My Purpose?|QID|92698|PRE|92679|M|48.77,78.17|Z|2521; Zephras Isle|N|From Malfunctioning Cyclone Construct.|
+T What Is My Purpose?|ACTIVE|92698|M|46.72,81.92|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+C Make Yourself Useful|ACTIVE|92682|M|48.36,83.85|Z|2521; Zephras Isle|N|5/5 Hungry Bandit slain.|QO|2|
+C Make Yourself Useful|ACTIVE|92682|M|48.44,83.94|Z|2521; Zephras Isle|NC|N|Ripe Stormapple.|QO|1|
+U Bonk Flutterfly to get Dust|ACTIVE|92683|L|253595|N|Hit the Flutterfly with the Flutterfly Swatter to have it drop dust, then pick up off the ground.|U|253666|
+C Flutterfly Dust|ACTIVE|92683|M|48.23,78.62|Z|2521; Zephras Isle|NC|N|5/5 Flutterfly Dust.|QO|1|
+C Ornery Ornery Galestriders|ACTIVE|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|US|
+T Flutterfly Dust|ACTIVE|92683|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+T Make Yourself Useful|ACTIVE|92682|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+T Ornery Ornery Galestriders|ACTIVE|92684|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+A The Hills Have Eyes|QID|92685|PRE|92683&92682&92684|M|46.75,81.94|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+C The Hills Have Eyes|ACTIVE|92685|M|51.02,72.48|Z|2521; Zephras Isle|NC|N|Blood-Stained Bandit Mask.|QO|1|
+
+
+N Collect Construct Parts!|ACTIVE|93737|N|Search piles of Construct parts for the Crystallized Lightning. NOTE: Manually check this step off to continue.|FACTION|Horde|
+C The Broken Construct|ACTIVE|93737|M|53.25,65.54|Z|2521; Zephras Isle|NC|N|Obtain Crystallized lightning from the Shriekling Cave.|QO|1|FACTION|Horde|
+
+T The Hills Have Eyes|ACTIVE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+A Standing Our Ground|QID|92693|PRE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+C Standing Our Ground|ACTIVE|92693|M|46.72,81.95|Z|2521; Zephras Isle|CHAT|N|Speak with Aamelia Windfield.|QO|1|
+C Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|NC|N|Follow Aamelia and make your final stand.|QO|1|
+T Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+A Deliver the News|QID|92703|PRE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+
+T Call of Fire|ACTIVE|97243|M|51.23,86.18|Z|2521; Zephras Isle|N|To Olariaan Swiftburn.|C|Shaman|
+A Call of Fire|QID|97244|PRE|92703&93317&97243|M|51.23,86.18|Z|2521; Zephras Isle|N|From Olariaan Swiftburn.|C|Shaman|
+
+H Hearth to Valanaar|ACTIVE|92703|N|Hearth back to turn in the head and pick up more quests.|
+
+T Deliver the News|QID|92703|M|62.15,73.35|Z|2521; Zephras Isle|N|To Alvarion Windfield. (Upstairs in the Inn)|
+
+A The Great Ursera Spirit|QID|94006|PRE|99260|M|64.00,75.10|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|C|Druid|
+
+T The Missing Scholar|ACTIVE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|To Fillion Flamebreeze.|FACTION|Alliance|
+A Fillion's Mission|QID|99260|PRE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|FACTION|Alliance|
+T Fillion's Mission|ACTIVE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|FACTION|Alliance|
+A Catching Wind|QID|92840|PRE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+
+N More Construct Parts!|ACTIVE|93737|N|Search the camp for piles of Construct parts for the Air Construct Core. NOTE: Manually check this step off to continue.|FACTION|Horde|
+C The Broken Construct|ACTIVE|93737|M|43.42,74.60|Z|2521; Zephras Isle|NC|N|Obtain Air Construct Core from the Bandit Camp.|QO|3|FACTION|Horde|
+
+C Catching Wind|ACTIVE|92840|M|47.57,68.85|Z|2521; Zephras Isle|NC|N|Gather Data on Elemental Currents.|FACTION|Alliance|QO|1|
+N More Construct Parts!|ACTIVE|93737|N|Search the water for piles of Construct parts for the Gyrozephyr. NOTE: Manually check this step off to continue.|FACTION|Horde|
+C The Broken Construct|ACTIVE|93737|M|52.49,45.76|Z|2521; Zephras Isle|NC|N|Obtain Enchanted Gyrozephyr from Windsong Lake.|QO|2|FACTION|Horde|
+
+N Crabbing Time!|QID|93317|N|Travel around the water to finish collecting crab meat. NOTE: Manually check this step off to continue.|
 C Crab Season|QID|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|US|
-H Valanaar|ACTIVE|93317|N|If available, Hearth back to turn in.|
+
+H Hearth to Valanaar|ACTIVE|93317|N|If available, Hearth back to turn in.|
+
 T Crab Season|QID|93317|M|60.64,72.70|Z|2521; Zephras Isle|N|To Nyalah Brightfire.|
-T Boughs in the Wind|QID|93797|M|62.92,77.42|Z|2521; Zephras Isle|N|To Belann Windwood.|C|MAGE|
-T Catching Wind|QID|92840|M|66.61,79.90|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-A Avenged Tenfold|QID|92834|PRE|92703&93317&92840|M|66.61,79.90|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-A In Service of Zephras|QID|92860|PRE|92703&93317&92840|M|66.62,79.91|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-T In Service of Zephras|QID|92860|M|66.20,76.65|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+
+r Repair/Restock|M|58.98,75.45|
+
+T Catching Wind|ACTIVE|92840|M|66.61,79.90|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|FACTION|Alliance|
+A Avenged Tenfold|QID|92834|PRE|92703&93317&92840|M|66.61,79.90|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+A In Service of Zephras|QID|92860|PRE|92703&93317&92840|M|66.62,79.91|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+T In Service of Zephras|ACTIVE|92860|M|66.20,76.65|Z|2521; Zephras Isle|N|To Valennia Stormfist.|FACTION|Alliance|
+
+T The Broken Construct|ACTIVE|93737|M|59.07,73.01|Z|2521; Zephras Isle|N|To Riaani Nightwind.|FACTION|Horde|
+A The Broken Construct|QID|93738|PRE|93737|M|59.07,73.01|Z|2521; Zephras Isle|N|From Riaani Nightwind.|FACTION|Horde|
+T The Broken Construct|ACTIVE|93738|M|59.15,79.76|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|FACTION|Horde|
+A A Firm Response|QID|93746|PRE|93738|M|59.15,79.76|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|FACTION|Horde|
+C A Firm Response|ACTIVE|93746|M|60.01,56.98|Z|2521; Zephras Isle|NC|N|Confront Belathaan Brightwish.|FACTION|Horde|QO|1|
+T A Firm Response|ACTIVE|93746|M|59.14,79.76|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|FACTION|Horde|
+A In Service of Zephras|QID|92871|PRE|93746|M|59.14,79.76|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|FACTION|Horde|
+A Blood for Blood|QID|93740|PRE|93746|M|59.14,79.76|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|FACTION|Horde|
+
 A Tower Defense|QID|93320|PRE|92860|M|66.20,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 T Tower Defense|QID|93320|M|69.63,67.08|Z|2521|N|To Yorana Windyreed.|
 A Disrupting Logistics|QID|92642|PRE|93320|M|69.63,67.08|Z|2521|N|From Yorana Windyreed.|
 A Breaking the Breaker|QID|92645|PRE|93320|M|69.63,67.08|Z|2521|N|From Yorana Windyreed.|
-R Jump off Cliff|ACTIVE|92642|M|68.99,65.83|Z|Zephras Isle|N|Jump off the cliff and use your Walk on Air spell.|R|Skyborne|
-T The Great Ursera Spirit|QID|94006|M|69.69,61.53|Z|2521|N|To Urs'endris.|C|Druid|
+
+R Jump off Cliff|ACTIVE|92642|M|68.99,65.83|Z|Zephras Isle|N|Jump off the cliff and use your Walk on Air spell.|R|Skyborne|SPELL|1259416|
+
+N Cliff Diving for Shaman!|ACTIVE|97244|N|Jump off aiming left to come up on the quest mobs from the back. NOTE: Manually check this step off to continue.|
+N Cliff Diving for Druids!|ACTIVE|94006|N|Jump off the cliff toward your quest turn in on the island below. NOTE: Manually check this step off to continue.|
+
+T The Great Ursera Spirit|ACTIVE|94006|M|69.69,61.53|Z|2521|N|To Urs'endris.|C|Druid|
 A Strength and Mercy|QID|94638|PRE|94006|M|69.69,61.53|Z|2521|N|From Urs'endris.|C|Druid|
-C Disrupting Logistics|QID|92642|QO|1|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healer slain.|S|
-C Disrupting Logistics|QID|92642|QO|2|M|65.15,67.86|Z|2521; Zephras Isle|N|Al'Aketh Brawler slain.|S|
-C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|S|
-K Commander Belguilos|ACTIVE|92645|QO|1|M|65.88,65.37|Z|2521; Zephras Isle|N|Commander Belguilos slain.|T|Commander Belguilos|
-C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|US|
-C Disrupting Logistics|QID|92642|QO|1|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healer slain.|US|
-C Disrupting Logistics|QID|92642|QO|2|M|65.15,67.86|Z|2521; Zephras Isle|N|Al'Aketh Brawler slain.|US|
+
+C Call of Fire|ACTIVE|97244|M|64.34,63.46|Z|2521; Zephras Isle|NC|N|Faladiel's Heart.|C|Shaman|QO|1|
+
+K Breaking the Breaker|QID|92645|M|65.88,65.37|Z|2521; Zephras Isle|N|Commander Belguilos slain.|
+C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|
+C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healer slain.|
+C Disrupting Logistics|QID|92642|M|65.15,67.86|Z|2521; Zephras Isle|N|Al'Aketh Brawler slain.|
 C Blood for Blood|QID|93740|M|65.32,65.94|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|
+
 T Disrupting Logistics|QID|92642|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
 T Breaking the Breaker|QID|92645|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
-A Return to Valanaar|QID|92880|PRE|92642&92645|M|69.62,67.10|Z|2521; Zephras Isle|N|From Yorana Windyreed.|
+A Return to Valanaar|QID|92880|PRE|98512&92834&92642&92645|M|69.62,67.10|Z|2521; Zephras Isle|N|From Yorana Windyreed.|
+
 R Shen'dar Highlands|ACTIVE|98512|M|53.79,65.22|Z|Zephras Isle|N|Make your way to the Shen'dar Highlands. Urs'endris is in the cave.|C|Druid|
+
 K Strength and Mercy|ACTIVE|94638|M|54.02,65.50|Z|2521; Zephras Isle|N|Ur'endra slain.|C|Druid|
-T Strength and Mercy|QID|94638|M|69.74,61.60|Z|2521; Zephras Isle|N|To Urs'endris.|C|Druid|
-H Valanaar|ACTIVE|92880|N|Hearth back to town.|
-T Avenged Tenfold|QID|92834|M|66.62,79.94|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-T Blood for Blood|QID|93740|M|59.17,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+T Strength and Mercy|ACTIVE|94638|M|69.74,61.60|Z|2521; Zephras Isle|N|To Urs'endris.|C|Druid|
+T Call of Fire|ACTIVE|97244|M|51.25,86.19|Z|2521; Zephras Isle|N|To Olariaan Swiftburn.|C|Shaman|
+A Call of Fire|QID|97245|PRE|93740&97244|M|51.25,86.19|Z|2521; Zephras Isle|N|From Olariaan Swiftburn.|C|Shaman|
+R Kuramaa's Stump|ACTIVE|97245|M|42.39,68.90|N|Head to Kuramaa's Stump and attack it until it appears.|
+C Call of Fire|ACTIVE|97245|M|42.70,69.58|Z|2521; Zephras Isle|NC|N|Kuramaa's Mask.|C|Shaman|
+C Call of Fire|ACTIVE|97257|M|51.25,85.93|Z|2521; Zephras Isle|NC|N|Complete the Ritual with Olariaan.Note: Once this step completes, it is timed!|C|Shaman|
+
+H Hearth to Valanaar|ACTIVE|92880|N|Hearth back to town.|
+r Repair/Restock|QID|92880|M|62.18,73.19|Z|Zephras Isle|
+
+C Call of Fire|ACTIVE|97257|M|58.36,78.81|Z|2521; Zephras Isle|NC|N|Light the Brazier of Eternal Flame.|C|Shaman|
+T Call of Fire|ACTIVE|97257|M|58.32,78.52|Z|2521; Zephras Isle|N|To Sessaria Skystride.|C|Shaman|
+
+L Level 12|QID|92880|LVL|12|N|You should be around level 12 by this point.|
+N Train Skills|QID|92880|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
+
+T Avenged Tenfold|ACTIVE|92834|M|66.62,79.94|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
+T Blood for Blood|ACTIVE|93740|M|59.17,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+
 T Return to Valanaar|QID|92880|M|66.19,76.65|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 A The High Elder's Request|QID|92881|PRE|92880|M|66.19,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 T The High Elder's Request|QID|92881|M|66.18,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A The Turncoat|QID|92643|PRE|92881|M|66.18,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-A Al'Aketh Assassins|QID|98512|M|56.83,61.08|Z|2521; Zephras Isle|N|From Fendaal Windstone.|
-C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Assassin slain.|S|
-C The Turncoat|QID|92643|M|56.21,60.73|Z|2521; Zephras Isle|NC|N|Find the secluded house in Shen'dar Highlands.|
-C The Turncoat|QID|92643|M|56.05,58.73|Z|2521; Zephras Isle|NC|N|Find the Al'Aketh Turncoat.|
-T The Turncoat|QID|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|To Dead Cultist.|
-A Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|From Dead Cultist.|
-C Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|NC|N|Collect the glowing crystal from the body.|
-C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Assassin slain.|US|
-T Al'Aketh Assassins|QID|98512|M|56.81,61.09|Z|2521; Zephras Isle|N|To Fendaal Windstone.|
-R Gustberry Lowlands|ACTIVE|94484|M|62.00,63.01|Z|Zephras Isle|N|Make your way to the Gustberry Lowlands.|
-R Gustberry Lowlands|ACTIVE|94484|M|58.63,62.59|Z|Zephras Isle|N|Make your way to the Gustberry Lowlands.|
+
+
+
+
+R Gustberry Lowlands|ACTIVE|92741|M|62.00,63.01|Z|Zephras Isle|N|Make your way to the Gustberry Lowlands.|
+R Gustberry Lowlands|ACTIVE|92741|M|58.63,62.59|Z|Zephras Isle|N|Make your way to the Gustberry Lowlands.|
+
 C Unwelcome Visitors|QID|92741|M|60.67,38.98|Z|2521; Zephras Isle|NC|N|Shriekling Talons.|S|
+
 T Unnerving Silence|QID|94484|M|61.76,39.17|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
-A Unwanted and Unworthy|QID|94487|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Feathers for Binding|QID|94486|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Tears of the Lady|QID|94485|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-C Feathers for Binding|QID|94486|M|61.57,36.77|Z|2521; Zephras Isle|NC|N|Pristine Shriekling Feathers.|S|
-C Unwanted and Unworthy|QID|94487|M|62.84,37.06|Z|2521; Zephras Isle|NC|N|Bloody Heirloom.|S|
-C Tears of the Lady|QID|94485|M|59.22,38.46|Z|2521; Zephras Isle|NC|N|Lady's Tear Moss.|S|
-A Mercy Falls on Deaf Ears|QID|93165|PRE|94484|M|63.80,35.99|Z|2521; Zephras Isle|N|From Vayn Moongaze.|
-C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|
-C Unwelcome Visitors|QID|92741|M|60.67,38.98|Z|2521; Zephras Isle|NC|N|Shriekling Talons.|US|
-C Feathers for Binding|QID|94486|M|61.57,36.77|Z|2521; Zephras Isle|NC|N|Pristine Shriekling Feathers.|US|
-C Unwanted and Unworthy|QID|94487|M|62.84,37.06|Z|2521; Zephras Isle|NC|N|Bloody Heirloom.|US|
-C Tears of the Lady|QID|94485|M|59.22,38.46|Z|2521; Zephras Isle|NC|N|Lady's Tear Moss.|US|
-T Mercy Falls on Deaf Ears|QID|93165|M|63.79,35.99|Z|2521; Zephras Isle|N|To Vayn Moongaze.|
+A Tears of the Lady|QID|94485|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
+A Feathers for Binding|QID|94486|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
+A Unwanted and Unworthy|QID|94487|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
+A Mercy Falls on Deaf Ears|QID|93165|PRE|94638&94484|M|63.80,35.99|Z|2521; Zephras Isle|N|From Vayn Moongaze.|
+C Tears of the Lady|QID|94485|M|59.22,38.46|Z|2521; Zephras Isle|NC|N|Lady's Tear Moss.|
+C Feathers for Binding|QID|94486|M|61.57,36.77|Z|2521; Zephras Isle|NC|N|20/20 Pristine Shriekling Feathers.|
+C Unwanted and Unworthy|QID|94487|M|62.84,37.06|Z|2521; Zephras Isle|NC|N|Bloody Heirloom.|
 T Tears of the Lady|QID|94485|M|61.78,39.18|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Feathers for Binding|QID|94486|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Unwanted and Unworthy|QID|94487|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 A The Ties That Bind|QID|94488|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
 A The Wounds of Betrayal|QID|94489|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-C The Wounds of Betrayal|QID|94489|QO|1|M|64.38,31.94|Z|2521; Zephras Isle|NC|N|Injured Druids healed.|S|
-K Commander Haalien|ACTIVE|94488|QO|1|M|66.00,36.63|Z|2521; Zephras Isle|N|Commander Haalien's Severed Head.|T|Commander Haalien|
-l Ripped Missive|AVAILABLE|94490|M|66.00,36.63|Z|2521; Zephras Isle|L|265476|N|Loot the Ripped Missive from Commander Haalien.|O|
-A Ripped Missive|QID|94490|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
-C The Wounds of Betrayal|QID|94489|QO|2|M|64.54,34.82|Z|2521; Zephras Isle|NC|N|Find Jorel Windsinger.|
-C The Wounds of Betrayal|QID|94489|QO|1|M|64.38,31.94|Z|2521; Zephras Isle|NC|N|Injured Druids healed.|US|
+C The Ties That Bind|QID|94488|M|66.00,36.63|Z|2521; Zephras Isle|NC|N|Commander Haalien's Severed Head.|
+A Ripped Missive|QID|94490|PRE|93165&94485&94486&94487|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
+C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|
+T Mercy Falls on Deaf Ears|QID|93165|M|63.79,35.99|Z|2521; Zephras Isle|N|To Vayn Moongaze.|
+
+;Quest becomes repeatable: More Al'Aketh Ears|QID|93459|M|63.79,35.99|Z|2521; Zephras Isle|N|Deliver another 5 ears to Vayn Moongaze.|
+r Repair/Restock|QID|94485|M|63.79,35.99|Z|2521; Zephras Isle|N|At Vayn Moongaze.|
+
+C The Wounds of Betrayal|QID|94489|M|64.54,34.82|Z|2521; Zephras Isle|NC|N|Find Jorel Windsinger.|
+C The Wounds of Betrayal|QID|94489|M|64.38,31.94|Z|2521; Zephras Isle|NC|N|Injured Druids healed.|
 T The Ties That Bind|QID|94488|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T The Wounds of Betrayal|QID|94489|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Ripped Missive|QID|94490|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 A The Fate of the Den|QID|94491|PRE|94490&94488&94489|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-C Aid For The Refugees|QID|94896|M|59.13,32.24|Z|2521; Zephras Isle|NC|N|Abandoned Belongings.|S|
+
+C Unwelcome Visitors|ACTIVE|92741|M|60.67,38.98|Z|2521; Zephras Isle|NC|N|Shriekling Talons.|
+C Unwelcome Spirits|ACTIVE|93736|M|58.76,32.51|Z|2521; Zephras Isle|NC|N|Wind Hollow Essence.|
+
 C The Fate of a Loved One|QID|94897|M|57.09,29.39|Z|2521; Zephras Isle|NC|N|Resaan's Heirloom.|
-C Aid For The Refugees|QID|94896|M|59.13,32.24|Z|2521; Zephras Isle|NC|N|Abandoned Belongings.|US|
-H Valanaar|ACTIVE|92644|M|62.15,72.69|Z|2521; Zephras Isle|N|If available Hearth back to town.|
-r Repair/Restock|QID|94638|M|62.18,73.19|Z|Zephras Isle|
-T The Fate of the Den|QID|94491|M|64.00,75.12|Z|2521; Zephras Isle|N|To Lotheluum Starbreeze.|
+C Aid For The Refugees|QID|94896|M|59.13,32.24|Z|2521; Zephras Isle|NC|N|Abandoned Belongings.|
+
+H Hearth to Valanaar|ACTIVE|94491|N|If available Hearth back to town.|
+r Repair/Restock|QID|94491|M|62.18,73.19|Z|Zephras Isle|
+
+T Unwelcome Visitors|ACTIVE|92741|M|66.33,79.55|Z|2521; Zephras Isle|N|To Iaadaria Bitterwind.||
+T Unwelcome Spirits|ACTIVE|93736|M|58.18,78.25|Z|2521; Zephras Isle|N|To Endaria Mistgaze.|
+
 T Aid For The Refugees|QID|94896|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
 T The Fate of a Loved One|QID|94897|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
+T The Fate of the Den|QID|94491|M|64.00,75.12|Z|2521; Zephras Isle|N|To Lotheluum Starbreeze.|
+
+R Head along the road North.|ACTIVE|92643|M|58.36,61.42|N|Head along the road to this point, then turn left.|
+
+A Al'Aketh Assassins|QID|98512|M|56.83,61.08|Z|2521; Zephras Isle|N|From Fendaal Windstone.|
+C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Assassin slain.|
+C The Turncoat|QID|92643|M|56.21,60.73|Z|2521; Zephras Isle|NC|N|Find the secluded house in Shen'dar Highlands.|
+C The Turncoat|QID|92643|M|56.05,58.73|Z|2521; Zephras Isle|NC|N|Find the Al'Aketh Turncoat.|
+T The Turncoat|QID|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|To Dead Cultist.|
+A Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|From Dead Cultist.|
+C Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|NC|N|Collect the glowing crystal from the body.|
+;loot item 273852 - got error unknown tag
+T Al'Aketh Assassins|QID|98512|M|56.81,61.09|Z|2521; Zephras Isle|N|To Fendaal Windstone.|
+
+H Hearth to Valanaar|ACTIVE|92644|N|If available Hearth back to town.|
+r Repair/Restock|QID|94638|M|62.18,73.19|Z|Zephras Isle|
+
 T Unfortunate News|QID|92644|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
 C The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|NC|N|Learn what you can from the crystal.|
 T The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
+
 A Desperate Times|QID|92640|M|66.23,76.53|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-C Desperate Times|QID|92640|QO|1|M|66.19,76.65|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist.|
-C Desperate Times|QID|92640|QO|2|M|59.12,79.73|Z|2521; Zephras Isle|CHAT|N|Recruit the Windshapers.|
-C Desperate Times|QID|92640|QO|3|M|66.63,79.91|Z|2521; Zephras Isle|NC|N|Recruit the High Order.|
-T Unwelcome Visitors|QID|92741|M|66.33,79.55|Z|2521; Zephras Isle|N|To Iaadaria Bitterwind.|
+C Desperate Times|QID|92640|M|66.19,76.65|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist.|
+
+R Jump off Tower|ACTIVE|92640|M|66.26,76.13|Z|Zephras Isle|N|Jump off the tower toward the next turnin and use your Walk on Air spell.|R|Skyborne|SPELL|1259416|
+
+r Repair/Restock|QID|94638|M|62.18,73.19|Z|Zephras Isle|
+N Train Skills|QID|94638|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
+
+C Desperate Times|QID|92640|M|59.14,79.75|Z|2521; Zephras Isle|NC|N|Recruit the Windshapers.|
+C Desperate Times|QID|92640|M|66.63,79.91|Z|2521; Zephras Isle|NC|N|Recruit the High Order.|
 T Desperate Times|QID|92640|M|66.19,76.66|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+
 A Prepare for Battle|QID|93065|M|66.19,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
+
+R Jump off Tower|ACTIVE|93065|M|65.95,76.34|N|Jump off the tower toward the next turnin and use your Walk on Air spell.|R|Skyborne|SPELL|1259416|
+
+L Level 14|QID|92643|LVL|14|N|You should be around level 14 by this point.|
+N Train Skills|QID|94638|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
+
 C Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|NC|N|Find Valennia on the Road.|
 T Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+
 A Making Our Move|QID|92947|M|61.16,70.93|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 C Making Our Move|QID|92947|M|61.30,52.83|Z|2521; Zephras Isle|N|Al'Aketh Guardian slain.|
 C Making Our Move|QID|92947|M|63.21,53.87|Z|2521; Zephras Isle|N|Al'Aketh Spiritcaller slain.|
@@ -407,55 +507,123 @@ T Making Our Move|QID|92947|M|63.79,50.52|Z|2521; Zephras Isle|N|To Hyusaa Quick
 A The Inner Sanctum|QID|93958|M|63.79,50.52|Z|2521; Zephras Isle|N|From Hyusaa Quickbreeze.|
 T The Inner Sanctum|QID|93958|M|65.19,50.38|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
-A Confront Lorthuna|QID|93835|M|65.19,50.38|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
-C Confront Lorthuna|QID|93835|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|
-P Valanaar|M|75.14,53.22|N|Take the portal to Valanaar.|
-T Confront Lorthuna|QID|93835|M|66.62,79.95|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-A The Fate of Zephras|QID|94369|M|66.62,79.95|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-C The Fate of Zephras|QID|94369|M|66.57,79.93|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|
-T The Fate of Zephras|QID|94369|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
-A What Comes Next|QID|93089|M|66.19,76.52|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-T What Comes Next|QID|93089|M|66.63,79.92|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
-A The Magical City of Dalaran|QID|94946|M|66.63,79.92|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
+;-------Here it splits by Faction to complete the zone------
+
+;Alliance Steps
+A Confront Lorthuna|QID|93835|M|65.19,50.38|Z|2521; Zephras Isle|N|From Valennia Stormfist.|FACTION|Alliance|
+;Talk to Elaadrin Evengale to start encounter.
+C Confront Lorthuna|ACTIVE|93835|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|
+
+P Portal to Valanaar|M|75.14,53.22|N|Take the portal to Valanaar.|FACTION|Alliance|
+
+T Confront Lorthuna|ACTIVE|93835|M|66.62,79.95|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
+A The Fate of Zephras|QID|94369|M|66.62,79.95|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+C The Fate of Zephras|ACTIVE|94369|M|66.57,79.93|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|
+T The Fate of Zephras|ACTIVE|94369|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
+A What Comes Next|QID|93089|M|66.19,76.52|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|FACTION|Alliance|
+T What Comes Next|ACTIVE|93089|M|66.63,79.92|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
+A The Magical City of Dalaran|QID|94946|M|66.63,79.92|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|FACTION|Alliance|
+
+N Wrap things up|ACTIVE|94946|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
+
 R Head to the Dock|ACTIVE|94946|M|65.78,83.34|N|Make your way to the Dock to meet the airship.|
 b Take the Skycutter to Dalaran|ACTIVE|94946|N|Take the airship to Dalaran|
-T The Magical City of Dalaran|QID|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|To Denaaris Stargale.|
-A Welcome to Azeroth|QID|94947|PRE|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|From Denaaris Stargale.|
-A Child of Nature|QID|94912|PRE|94946|M|11.73,56.55|Z|1416; City of Dalaran|N|From Alfina Nightgaze.|C|Druid|
+T The Magical City of Dalaran|ACTIVE|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|To Denaaris Stargale.|
+
+A Welcome to Azeroth|QID|94947|PRE|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|From Denaaris Stargale.|FACTION|Alliance|
+A Child of Nature|QID|94912|PRE|94946|M|11.73,56.55|Z|1416; City of Dalaran|N|From Alfina Nightgaze.|C|Druid|FACTION|Alliance|
+
 P Take the portal to Stormwind|ACTIVE|94947|M|12.30,56.34|Z|1416; City of Dalaran|N|Take the portal to Stormwind.|
-C Welcome to Azeroth|QID|94947|M|12.05,56.23|Z|1416|NC|N|Take the Skyborne Portal to Stormwind.|
-T Child of Nature|QID|94912|M|35.86,67.39|Z|1453; Stormwind City|N|To Sheldras Moontree.|C|Druid|
+C Welcome to Azeroth|ACTIVE|94947|M|12.05,56.23|Z|1416|NC|N|Take the Skyborne Portal to Stormwind.|
+
+T Child of Nature|ACTIVE|94912|M|35.86,67.39|Z|1453; Stormwind City|N|To Sheldras Moontree.|C|Druid|
 A Moonglade|QID|94914|PRE|94912|M|35.86,67.39|Z|1453; Stormwind City|N|From Sheldras Moontree.|C|Druid|
-A Reading Room|QID|97234|PRE|94912|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
+
+A Reading Room|QID|97234|PRE|94912|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|FACTION|Alliance|
 T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
-A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|
-C Shelf Picked|QID|97237|M|75.56,30.40|Z|1453; Stormwind City|NC|N|Trollbane Conquests.|
-C Shelf Picked|QID|97237|M|76.38,30.39|Z|1453; Stormwind City|NC|N|The Forsaken Ally.|
-C Shelf Picked|QID|97237|M|76.18,30.91|Z|1453; Stormwind City|NC|N|Field Accounts of Horde Razings.|
-C Shelf Picked|QID|97237|M|76.16,29.31|Z|1453; Stormwind City|NC|N|Cycles of Morality.|
-T Welcome to Azeroth|QID|94947|M|80.17,38.38|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
-A Exploring the Alliance|QID|93963|PRE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|
-C Exploring the Alliance|QID|93963|M|79.00,44.94|Z|1453; Stormwind City|NC|N|Receive Instructions from Randal Emerson.|
+A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|FACTION|Alliance|
+C Shelf Picked|ACTIVE|97237|M|75.56,30.40|Z|1453; Stormwind City|NC|N|Trollbane Conquests.|
+C Shelf Picked|ACTIVE|97237|M|76.38,30.39|Z|1453; Stormwind City|NC|N|The Forsaken Ally.|
+C Shelf Picked|ACTIVE|97237|M|76.18,30.91|Z|1453; Stormwind City|NC|N|Field Accounts of Horde Razings.|
+C Shelf Picked|ACTIVE|97237|M|76.16,29.31|Z|1453; Stormwind City|NC|N|Cycles of Morality.|
+T Welcome to Azeroth|ACTIVE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A Exploring the Alliance|QID|93963|PRE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|FACTION|Alliance|
+C Exploring the Alliance|ACTIVE|93963|M|79.00,44.94|Z|1453; Stormwind City|NC|N|Receive Instructions from Randal Emerson.|
 N Read the Note|ACTIVE|93963|N|Read the notes from Randal Emerson to see the instructions. NOTE: Manually check this step off to continue.|
 N Take the Deeprun Tram to Ironforge|ACTIVE|93963|N|Take the Deeprun Tram to Ironforge. NOTE: Manually check this step off to continue.|
-f The Great Forge|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Grab the flightpath at Gryth Thurden.|
+f The Great Forge|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Grab the flightpath at Gryth Thurden.|FACTION|Alliance|
+
 P Nighthaven|ACTIVE|98021|M|70.92,48.77|Z|Ironforge|N|Take the portal to Moonglade.|C|Druid|
 R Head back to the Deeprun Tram|ACTIVE|93963|M|72.74,50.19|Z|Ironforge|N|Make your way back to the Deeprun Tram to return to Stormwind then take the boat to Teldrassil.|C|-Druid|
-T Moonglade|QID|94914|M|56.22,30.60|Z|1450; Moonglade|N|To Dendrite Starblaze.|C|Druid|
+
+T Moonglade|ACTIVE|94914|M|56.22,30.60|Z|1450; Moonglade|N|To Dendrite Starblaze.|C|Druid|
 R Run to the Exit-only Flightpoint|ACTIVE|93963|M|44.27,45.18|Z|Moonglade|N|Make your way to the Exit-only Flightpoint.|C|Druid|
 F Rut'theran Village|ACTIVE|93963|M|44.27,45.18|Z|Moonglade|N|Head to the flightmaster and take a flight to Rut'theran Village.|
 f Rut'theran Village|ACTIVE|93963|M|58.38,93.92|Z|1438; Teldrassil|N|At Vesprystus.|
 P Darnassus|ACTIVE|93963|M|55.93,89.70|Z|Teldrassil|N|Take the portal to Darnassus.|
-C Exploring the Alliance|QID|93963|M|39.10,81.51|Z|1457; Darnassus|CHAT|N|Speak with Tyrande Whisperwind.|
-A Eyes of the Sentinels|QID|98067|M|39.63,89.55|Z|1457; Darnassus|N|From Sentinel Dalia Sunblade.|
-C Eyes of the Sentinels|QID|98067|M|40.81,43.59|Z|1457; Darnassus|NC|N|Darnassus Bank.|
-C Eyes of the Sentinels|QID|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|
-C Eyes of the Sentinels|QID|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|
-C Eyes of the Sentinels|QID|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate.|
-T Eyes of the Sentinels|QID|98067|M|39.59,89.53|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
-T Exploring the Alliance|QID|93963|M|80.17,38.38|Z|1453; Stormwind City|N|At Highlord Bolvar Fordragon.|
 
-A Journey to Sentinel Hill|QID|98021|PRE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|
+C Exploring the Alliance|ACTIVE|93963|M|39.10,81.51|Z|1457; Darnassus|CHAT|N|Speak with Tyrande Whisperwind.|
+A Eyes of the Sentinels|QID|98067|M|39.63,89.55|Z|1457; Darnassus|N|From Sentinel Dalia Sunblade.|FACTION|Alliance|
+C Eyes of the Sentinels|ACTIVE|98067|M|40.81,43.59|Z|1457; Darnassus|NC|N|Darnassus Bank.|
+C Eyes of the Sentinels|ACTIVE|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|
+C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|
+C Eyes of the Sentinels|ACTIVE|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate.|
+T Eyes of the Sentinels|ACTIVE|98067|M|39.59,89.53|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
+T Exploring the Alliance|ACTIVE|93963|M|80.17,38.38|Z|1453; Stormwind City|N|At Highlord Bolvar Fordragon.|
+
+;A Journey to Sentinel Hill|QID|98021|PRE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|FACTION|Alliance|
+
+
+;------------------------------
+
+;Horde Steps
+A Confront Lorthuna|QID|92646|M|65.19,50.38|Z|2521; Zephras Isle|N|From Valennia Stormfist.|FACTION|Horde|
+;Talk to Ayessa Dawnsinger to start encounter.
+C Confront Lorthuna|ACTIVE|92646|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|
+
+P Portal to Valanaar|ACTIVE|92646|M|75.14,53.22|N|Take the portal to Valanaar.|
+
+T Confront Lorthuna|ACTIVE|92646|M|59.12,79.71|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+A The Fate of Zephras|QID|93836|M|59.12,79.71|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|FACTION|Horde|
+C The Fate of Zephras|ACTIVE|93836|M|66.18,76.51|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|
+T The Fate of Zephras|ACTIVE|93836|M|66.18,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
+A What Comes Next|QID|93090|M|66.18,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
+T What Comes Next|ACTIVE|93090|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+A The Earthen Ring|QID|95349|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|FACTION|Horde|
+
+N Wrap things up|ACTIVE|95349|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
+
+R Head to the Dock|ACTIVE|95349|M|57.93,80.73|N|Make your way to the Dock to meet the airship.|
+b Take the Skycutter to Mulgore|ACTIVE|95349|N|Take the airship to Mulgore.|
+
+T The Earthen Ring|ACTIVE|95349|M|33.35,22.53|Z|1412; Mulgore|N|To Alaana Stormwalker.|
+A Welcome to Azeroth|QID|95350|M|33.35,22.53|Z|1412; Mulgore|N|From Alaana Stormwalker.|FACTION|Horde|
+f Thunder Bluff|ACTIVE|95350|M|46.97,49.62|Z|Thunder Bluff|N|Grab the flightpath.|
+F Fly to Orgrimmar|ACTIVE|95350|M|46.97,49.62|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Valley of Strength.|
+h Orgrimmar|ACTIVE|95350|M|53.96,68.65|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
+T Welcome to Azeroth|ACTIVE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|To Thrall.|
+A Exploring the Horde|QID|93739|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall.|FACTION|Horde|
+A Journey to the Crossroads|QID|98024|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall.|FACTION|Horde|
+C Exploring the Horde|ACTIVE|93739|M|32.25,35.93|Z|1454; Orgrimmar|NC|N|Obtain Instructions from Nazgrel.|
+N Read the Note|ACTIVE|93739|N|Read the notes from Nazgrel to see the instructions. NOTE: Manually check this step off to continue.|U|285357|
+C Exploring the Horde|ACTIVE|93739|M|34.28,36.40|Z|1454; Orgrimmar|CHAT|N|Speak with Vol'jin.|FACTION|Horde|
+F Fly to Thunder Bluff|ACTIVE|93739|M|45.15,63.78|Z|Orgrimmar|N|Head to the flightmaster and take a flight to Thunder Bluff.|
+C Exploring the Horde|ACTIVE|93739|M|60.05,51.76|Z|1456; Thunder Bluff|CHAT|N|Speak with Cairne Bloodhoof.|FACTION|Horde|
+N Run to The Crossroads|ACTIVE|93739|N|Run to The Crossroads to pick up the flight point and turn in.|
+f The Crossroads|ACTIVE|98024|M|51.51,30.33|Z|1413; The Barrens|N|Frab the flightpath.|
+T Journey to the Crossroads|ACTIVE|98024|M|51.50,30.86|Z|1413; The Barrens|N|To Thork.|
+F Valley of Strength|ACTIVE|93739|M|51.50,30.35|Z|The Barrens|N|Head to the flightmaster and take a flight to Valley of Strength.|
+R Head to the Zepplin Tower|ACTIVE|93739|M|50.79,13.80|Z|Durotar|N|Make your way out of Orgrimmar and to the Zepplin Tower.|
+b Take the Zepplin to Tirisfal Glades|ACTIVE|93739|N|Take the Zepplin to Tirisfal Glades|
+f Trade Quarter|ACTIVE|93739|M|63.19,48.25|Z|1458; Undercity|N|At Michael Garrett.|
+R Entrance to find Sylvanas|ACTIVE|93739|M|52.49,63.83|Z|Undercity|N|Make your way to the The Apothecarium and use the middle entrance to find Sylvanas.|
+
+;A The Power to Destroy...|QID|5725|PRE|98024|M|56.30,92.09|Z|1458; Undercity|N|From Varimathras. This goes to Ragefire Chasm.|O|RANK|3|FACTION|Horde|
+
+H Exploring the Horde|ACTIVE|93739|QO|Hearth back to Orgrimmar.|
+T Exploring the Horde|ACTIVE|93739|M|31.77,37.76|Z|1454; Orgrimmar|N|To Thrall.|
+
+;A Hidden Enemies|QID|5726|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall. This quest chain leads to Ragefire Chasm.|FACTION|Horde|
 
 ]]
 end)
