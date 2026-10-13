@@ -2,6 +2,7 @@
 	<Script file="01_12_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn.lua"/>
 	<Script file="01_12_Teldrassil.lua"/>
+	<Script file="01_12_Zephras_Isle_A.lua"/>
 	<Script file="12_20_Darkshore.lua"/>
 	<Script file="12_20_Eastern_Kingdom.lua"/>
 	<Script file="19_25_Alliance.lua"/>
