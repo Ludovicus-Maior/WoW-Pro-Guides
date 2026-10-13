@@ -17,7 +17,6 @@ WoWPro:GuideSteps(guide, function() return [[
 ;T Camping 101: Herbalism|QID|97921|M|39.8,48.4|Z|1429; Elwynn Forest|N|To Herbalist Pomeroy.|
 ;T Camping 101: Mining|QID|97923|M|59.0,37.6|Z|1453; Stormwind City|N|To Gelman Stonehand.|
 ;T Camping 101: Engineering|QID|97918|M|61.8,30.8|Z|453; Stormwind City|N|To Sprite Jumpsprocket.|
-;T Camping 101: Enchanting|QID|97917|M|53.0,73.8|Z|453; Stormwind City|N|To Betty Quin.|
 ;T Camping 101: Skinning|QID|97924|M|46.2,62.2|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
 ;T Camping 101: First Aid|QID|97919|M|43.4,65.6|Z|1429; Elwynn Forest|N|To Michelle Belle.|
 ;T Camping 101: Fishing|QID|97920|M|47.6,62.2|Z|1429; Elwynn Forest|N|To Lee Brown.|
@@ -113,18 +112,18 @@ A The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sa
 C The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|Sit next to the fire using /sit.|
 T The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
 
-A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|IZ|Goldshire|
-A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|IZ|Goldshire|
-A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|IZ|Goldshire|
-A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|IZ|Goldshire|
-A Camping 101: Mining|QID|97923|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Mining;186|IZ|Goldshire|
-A Camping 101: Tailoring|QID|97925|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Tailoring;197|IZ|Goldshire|
-A Camping 101: Engineering|QID|97918|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Engineering;202|IZ|Goldshire|
-A Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Enchanting;333|IZ|Goldshire|
-A Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Skinning;393|IZ|Goldshire|
-A Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|First Aid;129|IZ|Goldshire|
-A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|IZ|Goldshire|
-A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|IZ|Goldshire|
+A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|IZ|Goldshire|
+A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|SPELL|Leatherworking; 2108|IZ|Goldshire|
+A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|SPELL|Alchemy; 2259|IZ|Goldshire|
+A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|SPELL|Herbalism; 2366|IZ|Goldshire|
+A Camping 101: Mining|QID|97923|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Mining;186|SPELL|Mining; 2575|IZ|Goldshire|
+A Camping 101: Tailoring|QID|97925|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Tailoring;197|SPELL|Tailoring; 3908|IZ|Goldshire|
+A Camping 101: Engineering|QID|97918|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Engineering;202|SPELL|Engineering; 3908|IZ|Goldshire|
+A Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Enchanting;333|SPELL|Enchanting; 7411|IZ|Goldshire|
+A Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Skinning;393|SPELL|Skinning; 8613|IZ|Goldshire|
+A Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|First Aid;129|SPELL|First Aid; 3273|IZ|Goldshire|
+A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|
+A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Goldshire|
 
 C Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your blacksmithing skill to 20.|S!US|
 C Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your leatherworking skill to 20.|S!US|
@@ -137,6 +136,9 @@ C Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise 
 C Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your skinning skill to 20.|S!US|
 C Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your first aid skill to 20.|S!US|
 C Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your fishing skill to 20.|P|S!US|
+
+t Camping 101: Enchanting|QID|97917|M|53.0,73.8|Z|1453; Stormwind City|N|To Betty Quin.|IZ|Stormwind City|
+
 
 T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 T Shhh! We're Hunting Kobolds|QID|91772|M|42.18,65.88|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
@@ -236,12 +238,6 @@ C Protect the Frontier|QID|52|QO|1;2|M|86.94,64.70|Z|1429; Elwynn Forest|N|Kill 
 A Downstream|QID|91733|M|76.54,72.01|Z|1429; Elwynn Forest|N|From Ormin Pelford.|
 A Red Linen Goods|QID|83|M|79.46,68.79|Z|1429; Elwynn Forest|N|From Sara Timberlain.|
 t Camping 101: Tailoring|QID|97925|M|79.26,68.99|Z|1429; Elwynn Forest|N|To Eldrin.|
-
-
-
-
-
-
 A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429; Elwynn Forest|N|From Supervisor Raelen in Eastvale Logging Camp.|
 A Good Steel|QID|91732|M|82.43,63.92|Z|1429; Elwynn Forest|N|From Hagar Lowe.|
 C A Bundle of Trouble|QID|5545|M|80.44,60.48|Z|1429; Elwynn Forest|L|13872 8|N|Loot the Bundles of Wood, found at the base of the trees.\n[color=FF0000]NOTE: [/color]Stay clear of the higher leveled Murlocs by the lake.\n\nTurning down the Ground Clutter setting in the Graphics option menu will make these easier to see.|
@@ -249,21 +245,30 @@ r Sell and Repair|ACTIVE|5545|M|83.29,66.09|Z|1429; Elwynn Forest|N|Sell junk an
 C Downstream|QID|91733|QO|2|M|74.20,76.24|Z|1429; Elwynn Forest|N|Grab the Waterlogged Saw.|NC|
 C Downstream|QID|91733|QO|1|M|76.79,82.44|Z|1429; Elwynn Forest|N|Grab the Waterlogged Axe.|NC|
 C Downstream|QID|91733|QO|3|M|77.23,86.87|Z|1429; Elwynn Forest|N|Grab the Waterlogged Toolbox from the water.|NC|
+l Croaky's Head|AVAILABLE|91740|M|76.48,87.46|Z|1429; Elwynn Forest|L|247826|ITEM|247826|ELITE|T|Croaky|
+A Croaky's Head|QID|91740|M|PLAYER|CC|N|From Croaky's head you just looted.|U|247826|O|
 l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S!US|
 A Furlbrow's Deed|QID|184|M|PLAYER|CC|N|From the Westfall Deed you just looted.|U|1972|O|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429; Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|S|
 C Princess Must Die!|QID|88|M|69.70,79.69|Z|1429; Elwynn Forest|L|1006|ITEM|1006|N|Princess.\n[color=FF0000]NOTE: [/color]She has two guards with her.\nFocus on killing her, break combat, and come back to loot.\n\nAsk for help if you have trouble, or skip this step to move on for now.|T|Princess|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429; Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|US|
+T Croaky's Head|QID|91740|M|84.70,79.30|Z|1429; Elwynn Forest|N|To Merell Ross in the tower.|
+l Elmpaw's Head|AVAILABLE|91746|M|84.73,84.88|Z|1429; Elwynn Forest|L|247862|ITEM|247862|ELITE|T|Elmpaw|
+A Elmpaw's Head|QID|91746|M|PLAYER|CC|N|From Elmpaw's Head you just looted.|U|247862|O|
 T Downstream|QID|91733|M|76.54,72.01|Z|1429; Elwynn Forest|N|To Ormin Pelford.|
 T Red Linen Goods|QID|83|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlain.|
 T A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429; Elwynn Forest|N|To Supervisor Raelen.|
 A Stolen Enchanting Supplies|QID|91725|M|63.22,72.77|Z|1429; Elwynn Forest|N|From Blizie Fitzwink.|
 A Delicate Instruments|QID|91723|M|65.03,69.82|Z|1429; Elwynn Forest|N|From Hamish Bergwort.|
+A An Enchanting Lesson|QID|91753|M|64.86,70.68|Z|1429; Elwynn Forest|N|From Kitta Firewind.|P|Enchanting;333|SPELL|Enchanting; 7411|
+C An Enchanting Lesson|QID|91753|M|62.52,55.54|Z|1429; Elwynn Forest|N|You get  Luminous Residue from DEing Crude Wax Effigies from Geomancers.|S|
 C Delicate Instruments|QID|91723|M|62.52,55.54|Z|1429; Elwynn Forest|N|Kill some Geomancers.|S|
 C Good Steel|QID|91732|M|62.52,55.54|Z|1429; Elwynn Forest|N|Loot the mining equipment. They are little buckets inside the cave.|
 C Delicate Instruments|QID|91723|M|62.52,55.54|Z|1429; Elwynn Forest|N|Kill some Geomancers.|US|
+C An Enchanting Lesson|QID|91753|M|62.52,55.54|Z|1429; Elwynn Forest|N|You get  Luminous Residue from DEing Crude Wax Effigies from Geomancers.|US|
 T Delicate Instruments|QID|91723|M|65.03,69.82|Z|1429; Elwynn Forest|N|To Hamish Bergwort.|
 A Delicate Instruments|QID|91724|M|65.03,69.82|Z|1429; Elwynn Forest|N|From Hamish Bergwort.|
+T An Enchanting Lesson|QID|91753|M|64.86,70.68|Z|1429; Elwynn Forest|N|To Kitta Firewind.|
 T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429; Elwynn Forest|N|To "A half-eaten body".\n[color=FF0000]NOTE: [/color]There is no '?' over the body.|
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.65,60.33|Z|1429; Elwynn Forest|N|From A half-eaten body.|
 T Discover Rolf's Fate|QID|45|M|79.80,55.52|Z|1429; Elwynn Forest|N|To Rolf's corpse after clearing the area.\n[color=FF0000]NOTE: [/color]Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
@@ -283,6 +288,7 @@ H Goldshire|QID|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Hearth back to Goldshi
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Argus.|
+T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
 R The Maclure Vineyards|ACTIVE|114|M|39.89,85.86|Z|1429; Elwynn Forest|N|Head south out of Goldshire to the Vineyards.|
 T The Escape|QID|114|M|43.16,89.63|Z|1429; Elwynn Forest|N|To Maybell Maclure.|
 R The Stonefield Farm|ACTIVE|88|M|35.48,85.18|Z|1429; Elwynn Forest|N|Head west from the Vineyards to the farm.|
@@ -291,7 +297,7 @@ R Forest's Edge|AVAILABLE|176|M|28.79,77.94|Z|1429; Elwynn Forest|N|Follow the r
 T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429; Elwynn Forest|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429; Elwynn Forest|N|From Deputy Rainer.|
 A WANTED: "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429; Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
-l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429; Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge).\n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
+l Gold Pickup Schedule|AVAILABLE|123|M|26.00,89.60|Z|1429; Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge).\n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
 A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
 C WANTED: "Hogger"|QID|176|M|26.31,93.44|Z|1429; Elwynn Forest|L|1931|ITEM|1931|N|Hogger.\n[color=FF0000]NOTE: [/color]This Level 11 Elite has a multiple spawn points.\nGroup up with whomever is around, or skip this step to move on.|IZ|1429; Elwynn Forest|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429; Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
@@ -321,7 +327,7 @@ A Dead-tooth Jack|QID|1667|PRE|1666|M|84,69|Z|1429; Elwynn Forest|N|From Marshal
 C Dead-tooth Jack|QID|1667|M|89.3,78.8|Z|1429; Elwynn Forest|N|Clear the area, until you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|C|Warrior|
 T Dead-tooth Jack|QID|1667|M|84,69|Z|1429; Elwynn Forest|N|To Marshal Haggard.|C|Warrior|
 ; ** Warlock
-A Gakin's Summons|QID|1685|M|44.4,66.2|Z|1429; Elwynn Forest|N|From Remen Marcot, in the basement of the Inn.|C|Warlock|
+A Gakin's Summons|QID|1685|LEAD|1688|M|44.4,66.2|Z|1429; Elwynn Forest|N|From Remen Marcot, in the basement of the Inn.|C|Warlock|
 = Level 10 Training|ACTIVE|1685|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|WArlock|LVL|10|IZ|Goldshire^Lion's Pride Inn|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|
@@ -386,41 +392,6 @@ R Deeprun Tram|QID|6661|M|68.96,30.97|Z|1453; Stormwind City|N|Run to the Deepru
 R Tinker Town|ACTIVE|353|Z|1429; Elwynn Forest|N|Board the Tram back to Ironforge and take the tunnel to your North.|
 
 f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|1455; Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
-R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|1455; Ironforge|N|Head to the exit of Ironforge.|
-R Kharanos|QID|384|M|47.16,45.39|Z|1426; Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
-A Operation Recombobulation|QID|412|M|45.84,49.37|Z|1426; Dun Morogh|N|From Razzle Sprysprocket.|
-A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
-C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|1426; Dun Morogh|L|2886 6|ITEM|2886|N|any Crag Boars around the area.|S|
-A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|1426; Dun Morogh|N|From Pilot Bellowfiz.|
-C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|1426; Dun Morogh|L|769 4|ITEM|769|N|any Crag Boars around the area.|S|
-C Stocking Jetsteam|QID|317|M|67,59.6|Z|1426; Dun Morogh|L|6952 2|ITEM|6952|N|Young Black Bears.|S|
-A The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|From Pilot Stonegear.|
-A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|1426; Dun Morogh|N|From Loslor Rudge.|
-
-R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|CC|Z|1426; Dun Morogh|N|Make your way to the cave entrance.|
-C The Grizzled Den|QID|313|M|42.59,54.78|Z|1426; Dun Morogh|L|2671 8|ITEM|2671|N|Wendigos.|
-C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|1426; Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
-T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|CC|Z|1426; Dun Morogh|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
-R Coldridge Pass|QID|412|M|36.20,61.79|Z|1426; Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
-R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|CC|Z|1426; Dun Morogh|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
-A Bitter Rivals|QID|310|M|30.2,45.6|Z|1426; Dun Morogh|N|From Marleth Barleybrew.|
-R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|1426; Dun Morogh|N|Head northeast to Gnomeregan.|
-C Operation Recombobulation|QID|412|L|3083 8|ITEM|3083|N|Leper Gnomes.|S|
-C Operation Recombobulation|QID|412|L|3084 8|ITEM|3084|N|Leper Gnomes.|
-C Operation Recombobulation|QID|412|L|3083 8|ITEM|3083|N|Leper Gnomes.|US|
-C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|1426; Dun Morogh|L|2886 6|ITEM|2886|N|any Crag Boars around the area.|US|
-C Stocking Jetsteam|QID|317|M|27.64,42.52|Z|1426; Dun Morogh|L|769 4|ITEM|769|N|any Crag Boars around the area.|US|
-C Stocking Jetsteam|QID|317|M|67,59.6|Z|1426; Dun Morogh|L|6952 2|ITEM|6952|N|Young Black Bears.|US|
-L Level 12|QID|412|Z|1426; Dun Morogh|N|Grind until you're within 5 bubbles of level 12.|LVL|11;-2080|
-R Kharanos|QID|412|M|47.11,47.01|Z|1426; Dun Morogh|N|Return to Kharanos.|
-T Operation Recombobulation|QID|412|M|45.84,49.37|Z|1426; Dun Morogh|N|To Razzle Sprysprocket.|
-B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|1426; Dun Morogh|L|2894|ITEM|2894|N|from Innkeeper Belm inside Thunderbrew Distillery.|
-B Thunder Ale|ACTIVE|310|M|47.37,52.53|Z|1426; Dun Morogh|L|2686|ITEM|2686|N|from Innkeeper Belm before you go.\n[color=FF0000]NOTE: [/color]You need this to turn in 'Bitter Rivals'.
-A Distracting Jarven|QID|308|ACTIVE|310|M|47.64,52.66|Z|1426; Dun Morogh|N|Cut through the kitchen and make your way down the stairs to Jarven Thunderbrew in the basement.|
-T Bitter Rivals|QID|310|M|47.72,52.70|Z|1426; Dun Morogh|N|Once Jarven leaves, right-click on the Unguarded Thunder Ale Barrel.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
-T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|1426; Dun Morogh|N|To Ragnar Thunderbrew.|
-T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
-T The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|To Pilot Stonegear.|
 N Level 12 Training|AVAILABLE|314|Z|1426; Dun Morogh|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|
 
 ]]
