@@ -227,10 +227,10 @@ T A Man About a Murloc|QID|99129|M|42.14,67.25|Z|1429; Elwynn Forest|N|To Remy "
 A An Enticing Offer|QID|99130|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".|
 C An Enticing Offer|QID|99130|M|33.14,85.32|Z|1429; Elwynn Forest|N|As you go collect the materials you need.|
 T An Enticing Offer|QID|99130|M|42.14,67.25|Z|1429; Elwynn Forest|N|To Remy "Two Times".|
-A Baited for Success|QID|99131|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".| 
+A Baited for Success|QID|99131|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".|
 T Collecting Kelp|QID|112|M|43.32,65.70|Z|1429; Elwynn Forest|N|To William Pestle.|
 A The Escape|QID|114|PRE|112|M|43.32,65.70|Z|1429; Elwynn Forest|N|From William Pestle.\n[color=FF0000]NOTE: [/color]It takes ~10 seconds from completing the previous quest for this one to become available.|
-T Baited for Success|QID|99131|M|47.54,62.31|Z|1429; Elwynn Forest|N|To Jason Mathers.| 
+T Baited for Success|QID|99131|M|47.54,62.31|Z|1429; Elwynn Forest|N|To Jason Mathers.|
 T Further Concerns|QID|35|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
 A Find the Lost Guards|QID|37|PRE|35|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
 A Protect the Frontier|QID|52|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
