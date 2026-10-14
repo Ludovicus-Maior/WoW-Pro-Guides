@@ -55,7 +55,7 @@ WoWPro.Leveling.ForeverStartGuides = {
     Scourge = 'Tirisfal Glades',
     Tauren = 'Mulgore',
     Troll = 'ClassicDurotar0112',
-    Skyborne = 'Zephras Isle',    
+    Skyborne = 'Zephras Isle',
 }
 WoWPro.Leveling.ClassicBCStartGuides = {
     BloodElf = "BC-BloodElf",
