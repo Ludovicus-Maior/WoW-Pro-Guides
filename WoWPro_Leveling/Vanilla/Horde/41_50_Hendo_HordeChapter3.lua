@@ -124,32 +124,32 @@ T Threat From the Sea|QID|1426|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|To Katar
 A Threat From the Sea|QID|1427|PRE|1426|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|From Katar.|
 T Threat From the Sea|QID|1427|M|81.33,80.97|Z|1435; Swamp of Sorrows|N|To Tok'Kar.|
 A Continued Threat|QID|1428|PRE|1427|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|From Katar.|
-C Continued Threat|QID|1428|QO|1|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|S|IZ|Misty Reed Strand|
+C Continued Threat|QID|1428|QO|1|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|S|IZ|Misty Reed Strand^The Forbidding Sea|
 C Continued Threat|QID|1428|QO|2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters and Oracles; found primarily in the center of the coast.\n[color=FF0000]NOTE: [/color]If you can get water breathing, there is a group of 4-5 Oracles/Flesheaters underwater at the waypoint. They randomly respawn as either an Oracle or a Flesheater.\n \nKeep an eye out for Jarquia, a level 46 mob that hangs out near the Oracles by the camps.|S|IZ|Misty Reed Strand|
 C Fresh Meat|QID|1430|M|94.88,44.57|Z|1435; Swamp of Sorrows|L|6184 10|ITEM|6184|N|Monstrous Crawlers found in the water all the way up and down the coast.\n[color=FF0000]NOTE: [/color]Make sure your're not attacking the Silt Crawlers.|T|Monstrous Crawler|US|
-C Continued Threat|QID|1428|QO|2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters and Oracles; found primarily in the center of the coast.\n[color=FF0000]NOTE: [/color]If you wish, there is a cave to the west of Misty Reed Post that has many of them inside.|US|IZ|Misty Reed Strand|
+C Continued Threat|QID|1428|QO|2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Flesheaters and Oracles; found primarily in the center of the coast.\n[color=FF0000]NOTE: [/color]If you wish, there is a cave to the west of Misty Reed Post that has many of them inside.|US|IZ|Misty Reed Strand^The Forbidding Sea|
 C Continued Threat|QID|1428|QO|1|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers found all along the coast.|US|IZ|Misty Reed Strand|
 C Continued Threat|QID|1428|QO|1;2;3|M|95.08,27.10|Z|1435; Swamp of Sorrows|N|Kill the Marsh Inkspewers, Flesheaters and Oracles found inside the cave.|US|IZ|-Misty Reed Strand|
 T Continued Threat|QID|1428|M|83.75,80.42|Z|1435; Swamp of Sorrows|N|To Katar.|
-R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435; Swamp of Sorrows|
+R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435; Swamp of Sorrows|N|Return to Stonard.|
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435; Swamp of Sorrows|N|To Dar.|
 
 ; --- Stranglethorn Vale
-F Grom'gol|ACTIVE|572|M|46.08,54.82|Z|1435; Swamp of Sorrows|
+F Grom'gol|ACTIVE|572|M|46.08,54.82|Z|1435; Swamp of Sorrows|N|Fly to Grom'gol Base Camp to resume your Stranglethorn Vale questing.|
 R Southern Savage Coast|ACTIVE|572|M|32.62,35.53|Z|1434; Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
-K Raptor Mastery|ACTIVE|196|QO|1|M|33.63,37.87|Z|1434; Stranglethorn Vale|N|Kill Jungle Stalkers.|
+C Raptor Mastery|QID|196|M|33.63,37.87|Z|1434; Stranglethorn Vale|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|ITEM|3863|N|Jungle Stalkers|US|
-C Venture Company Mining|QID|600|M|40.5,43.1;41.20,43.58|CC|Z|1434; Stranglethorn Vale|L|3917 10|ITEM|3917|N|Any Venture Co. mob in this area.\n[color=FF0000]NOTE: [/color]The Tinkerers summon a Harvest Reaper that can cause problems.|
+C Venture Company Mining|QID|600|M|41.20,43.58|Z|1434; Stranglethorn Vale|L|3917 10|ITEM|3917|N|Any Venture Co. mob in this area.\n[color=FF0000]NOTE: [/color]The Tinkerers summon a Harvest Reaper that can cause problems.|
 R Grom'gol Base Camp|AVAILABLE|571|M|32.16,28.76|Z|1434; Stranglethorn Vale|
 T Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434; Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|571|PRE|572|M|32.12,29.24|Z|1434; Stranglethorn Vale|N|From Far Seer Mok'thardin.|
-F Booty Bay|AVAILABLE|2864|M|32.54,29.35|Z|1434; Stranglethorn Vale|
+F Booty Bay|AVAILABLE|2864|M|32.54,29.35|Z|1434; Stranglethorn Vale|N|Fly to Booty Bay.|
 A Tran'rek|QID|2864|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|From Krazek on the top floor of the Tavern.|
-h Booty Bay|AVAILABLE|617|M|27.04,77.31|Z|1434; Stranglethorn Vale|N|Set your hearthstone to Booty Bay.|
+h Booty Bay|AVAILABLE|617|M|27.04,77.31|Z|1434; Stranglethorn Vale|N|Set your hearthstone to Booty Bay with Innkeeper Skindle.|
 T Venture Company Mining|QID|600|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|To Crank Fizzlebub.|
 A Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|From Crank Fizzlebub.|
-A Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434; Stranglethorn Vale|N|From Brivateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
+A Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434; Stranglethorn Vale|N|From Privateer Bloads in front of the bank.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
 A Scaring Shaky|QID|606|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|From "Sea Wolf" MacKinley|
 A Stoley's Debt|QID|2872|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|From "Sea Wolf" MacKinley|
 A Stranglethorn Fever|QID|348|M|27.61,76.73|Z|1434; Stranglethorn Vale|N|From Fin Fizracket who is under the broken boat.|RANK|2|
@@ -158,15 +158,15 @@ R The Cape of Stranglethorn|ACTIVE|595|M|29.41,72.73|Z|1434; Stranglethorn Vale|
 R Southern Savage Coast|ACTIVE|595|M|27.99,70.04|Z|1434; Stranglethorn Vale|N|Turn and head west down the hill to the bottom.|
 T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|Z|1434; Stranglethorn Vale|N|After clearing the camp of all Bloodsails, locate the Bloodsail Correspondence on the barrel and click on it.|
 A The Bloodsail Buccaneers|QID|597|PRE|595|M|27.28,69.52|Z|1434; Stranglethorn Vale|N|From Bloodsail Correspondence.|
-C Akiris by the Bundle|QID|617|M|26.05,61.53|Z|1434; Stranglethorn Vale|L|4029 10|ITEM|4029|N|Any Naga\n[color=FF0000]NOTE: [/color]Work your way around the island to the path on the west side. You can either go up the path or continue along the shoreline until you meet the path on the north side.\nIf you find this area too crowded, there is a second path just before the bridge on the north side.|
+C Akiris by the Bundle|QID|617|M|26.05,61.53|Z|1434; Stranglethorn Vale|L|4029 10|ITEM|4029|N|any Naga in the area.\n[color=FF0000]NOTE: [/color]Work your way around the island to the path on the west side. You can either go up the path or continue along the shoreline until you meet the path on the north side.\nIf you find this area too crowded, there is a second path just before the bridge on the north side.|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|S|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
-l Gorilla Fang|ACTIVE|348|M|31.67,60.14|Z|1434; Stranglethorn Vale|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|S|
-R Mistvale Valley|ACTIVE|348|M|27.19,58.97;33.19,62.69|CS|Z|1434; Stranglethorn Vale|N|Head west over the 2 bridges towards the road. The entrance is west of the road.|
-l Gorilla Fang|ACTIVE|348|M|33.29,63.39|Z|1434; Stranglethorn Vale|L|2799|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need one Gorilla Fang for 'each' attempt at completing the next quest.|US|
-R Spirit Den|ACTIVE|348|M|34.2,63.6;34.65,62.52|CC|Z|1434; Stranglethorn Vale|N|Locate the path on the north side of Mistvale Valley.|
-C Stranglethorn Fever|QID|348|QO|1|M|35.26,60.39|Z|1434; Stranglethorn Vale|N|When you're ready, give the Gorrilla Fang to Witch Doctor Unbagwa. He'll start 3 waves of gorilla attacks; an Enraged Silverback Gorilla, then Konda, and finally Mokk the Savage.\n[color=FF0000]NOTE: [/color]Remember to heal and recharge between waves.|
-C Stranglethorn Fever|QID|348|M|35.26,60.39|Z|1434; Stranglethorn Vale|N|[color=CC00FF]QUEST FAILED [/color]\nGive a Gorrilla Fang to Witch Doctor Unbagwa to stat again\n[color=FF0000]NOTE: [/color]If you don't have a Gorilla Fang, you'll need to get one to start again.|FAIL|
+l Gorilla Fang|ACTIVE|348|M|31.67,60.14|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|S|
+N Stranglethorn Fever|ACTIVE|348|N|At your current level, completing "Stranglethorn Fever" may be challenging. Consider leveling up or gathering additional Gorilla Fangs before attempting the quest.\nFinding a group of players to assist with the encounter can also increase your chances of success.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Mistvale Valley|ACTIVE|348|M|33.19,62.69|Z|1434; Stranglethorn Vale|N|Head west towards the road and the entrance is just on the other side of the road.|IZ|-Spirit Den|
+l Gorilla Fang|ACTIVE|348|M|33.29,63.39|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|US|
+R Spirit Den|ACTIVE|348|M|34.63,62.42|Z|1434; Stranglethorn Vale|L|2797|N|Locate the path on the north side of Mistvale Valley.\n[color=FF0000]NOTE: [/color]Be mindful that someone may have already started the encounter and be progressing through the waves along the same route. If you cross paths with their mobs, you could draw their aggro and become the target of their attacks.|
+C Stranglethorn Fever|ACTIVE|348|M|35.26,60.39|Z|1434; Stranglethorn Vale|L|2797|ITEM|2797|N|Mokk the Savage in the final wave.\nGive the Gorilla Fangs to Witch Doctor Unbagwa when you're ready to start the 3 waves of gorilla attacks.\nThe waves are as follows:\n- a group of Enraged Silverback Gorilla, \n- Konda with a group of Enraged Silverback Gorillas, and finally\n- Mokk the Savage with yet another group of Enraged Silverback Gorillas.\n[color=FF0000]NOTE: [/color]If Witch Doctor Unbagwa dies, you fail and have to start again with 10 more Gorilla Fangs.\nRemember to heal and recharge between waves.\nIn the last wave, focus on Killing Mokk the Savage. If you fail, at least you can loot the Heart without rerunning the gauntlet.|IZ|Spirit Den^Mistvale Valley|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|US|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
 R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434; Stranglethorn Vale|
