@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------
-r161 | funkehdude | 2026-07-17 01:55:20 +0000 (Fri, 17 Jul 2026) | 1 line
+r165 | funkehdude | 2026-10-10 16:37:40 +0000 (Sat, 10 Oct 2026) | 1 line
 Changed paths:
-   M /trunk/LibDBIcon-1.0.toc
+   M /trunk/LibDBIcon-1.0/LibDBIcon-1.0.lua
 
-Bump toc
+Fix icons on Forever
 ------------------------------------------------------------------------
 
