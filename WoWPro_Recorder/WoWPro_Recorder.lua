@@ -671,6 +671,7 @@ local dropdown = {
         WoWPro.Recorder.AddStep(stepInfo, pos)
     end}
 }
+
 function WoWPro.Recorder:RowUpdate(offset)
     WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
     WoWPro.Recorder.RowDropdownMenu = {}
@@ -785,7 +786,18 @@ end
 
 
 function WoWPro.Recorder:CheckpointCurrentGuide(why)
-    local GID = WoWProDB.char.currentguide
+    -- Ensure guide tables exist before saving
+    local guideID = WoWProDB.char.currentguide
+
+    if not WoWPro.Guides[guideID] then
+        WoWPro.Guides[guideID] = {}
+    end
+
+    if not WoWPro.Guides[guideID].steps then
+    WoWPro.Guides[guideID].steps = {}
+    end
+
+    local GID = guideID
 
     local function quoted(str)
         if (str == nil) or (str == 'nil') then
