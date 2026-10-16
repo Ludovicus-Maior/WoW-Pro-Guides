@@ -275,6 +275,14 @@ A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Mas
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
 
+A Reading Room|QID|97234|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
+T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
+A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|
+C Shelf Picked|QID|97237|QO|1|M|75.56,30.40|Z|1453; Stormwind City|N|Trollbane Conquests.|NC|
+C Shelf Picked|QID|97237|QO|2|M|76.38,30.39|Z|1453; Stormwind City|N|The Forsaken Ally.|NC|
+C Shelf Picked|QID|97237|QO|3|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accounts of Horde Razings.|NC|
+C Shelf Picked|QID|97237|QO|4|M|76.16,29.31|Z|1453; Stormwind City|N|Cycles of Morality.|NC|
+
 F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
