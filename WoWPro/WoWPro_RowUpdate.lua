@@ -394,7 +394,9 @@ function WoWPro:RowUpdate(offset)
     -- IsStickyVisible applies completion, pairing, and progression filters.
     for stepIdx = 1, WoWPro.stepcount do
         if WoWPro.sticky[stepIdx] then
+            local eligible = WoWPro.NextStep(stepIdx, 1) == stepIdx
             local visible = not skipped[stepIdx]
+                and eligible
                 and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary)
             if visible then
                 table.insert(stickySteps, stepIdx)
@@ -403,7 +405,8 @@ function WoWPro:RowUpdate(offset)
     end
 
     while regularCount < regularLimit and scanIndex <= (WoWPro.stepcount + 15) do
-        local stepIdx = nextIndex
+        local stepIdx = WoWPro.NextStep(nextIndex, scanIndex)
+
         if stepIdx and WoWPro.step[stepIdx] then
             if not WoWPro.sticky[stepIdx] and ShouldShowRow(stepIdx, completion, skipped) then
                 table.insert(regularSteps, stepIdx)
@@ -411,11 +414,7 @@ function WoWPro:RowUpdate(offset)
             end
         end
 
-        if WoWProDB.profile.guidescroll then
-            nextIndex = nextIndex + 1
-        else
-            nextIndex = WoWPro.NextStep(nextIndex, scanIndex) + 1
-        end
+        nextIndex = stepIdx and stepIdx + 1 or WoWPro.stepcount + 1
         scanIndex = scanIndex + 1
     end
 
@@ -763,8 +762,6 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     local action = WoWPro.action[stepIdx]
     local QID = WoWPro.QID[stepIdx]
     local questtext = WoWPro.questtext and WoWPro.questtext[stepIdx]
-    local available = WoWPro.available and WoWPro.available[stepIdx]
-    local activeReq = WoWPro.active and WoWPro.active[stepIdx]
 
     local activeUS = WoWPro.ActiveStep
     local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
@@ -782,16 +779,6 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     -- Sticky steps beyond progression boundary are hidden.
     -- S!US becomes eligible when it reaches the current progression boundary.
     if not isManualSticky and stepIdx > stickyBoundary then
-        return false
-    end
-
-    -- AVAILABLE filter (sticky visibility only)
-    if not isSUS and not isManualSticky and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
-        return false
-    end
-
-    -- ACTIVE filter (sticky visibility only)
-    if not isSUS and not isManualSticky and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
         return false
     end
 
