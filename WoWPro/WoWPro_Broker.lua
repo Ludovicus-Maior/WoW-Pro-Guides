@@ -1037,7 +1037,7 @@ function WoWPro:LegacyRowUpdate(offset)
 
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
-    -- StickyHeader now keys off ActiveStickyCount, which is computed from the sorted rows.
+    -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
     local allSteps = {}
     local tempK = k
     for i = 1, 15 do
@@ -1463,27 +1463,27 @@ function WoWPro:LegacyRowUpdate(offset)
             end
         end
 
-        -- Loot Icons --
-        if item and WoWProDB.profile.showLootIcons then
+        -- Loots Buttons --
+        if item and WoWProDB.profile.showLootsButtons then
             -- Parse multiple items separated by semicolons
             local items = {(";"):split(item)}
-            local iconIndex = 1
+            local buttonIndex = 1
             local itemNames = {}
 
             for _, itemID in ipairs(items) do
                 itemID = itemID:trim()
-                if itemID ~= "" and iconIndex <= #currentRow.looticons then
-                    local lootData = currentRow.looticons[iconIndex]
-                    local nomen = lootData.frame:SetItemByID(itemID)
-                    lootData.frame:Show()
+                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
+                    local lootData = currentRow.lootsbuttons[buttonIndex]
+                    local nomen = lootData.button:SetItemByID(itemID)
+                    lootData.button:Show()
                     tinsert(itemNames, nomen)
-                    iconIndex = iconIndex + 1
+                    buttonIndex = buttonIndex + 1
                 end
             end
 
-            -- Hide unused loot icons
-            for hiddenIndex = iconIndex, #currentRow.looticons do
-                currentRow.looticons[hiddenIndex].frame:Hide()
+            -- Hide unused loot buttons
+            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
             end
 
             -- Update note text
@@ -1509,9 +1509,9 @@ function WoWPro:LegacyRowUpdate(offset)
             end
             currentRow.note:SetText(note)
         else
-            -- Hide all loot icons when no items
-            for iconIndex = 1, #currentRow.looticons do
-                currentRow.looticons[iconIndex].frame:Hide()
+            -- Hide all loot buttons when no items
+            for btnIdx = 1, #currentRow.lootsbuttons do
+                currentRow.lootsbuttons[btnIdx].button:Hide()
             end
         end
 
@@ -1721,7 +1721,7 @@ function WoWPro.UpdateGuideReal(From)
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
         SoundDiag("UpdateGuideReal source=%s", why)
-        if not WoWPro.GuideFrame or not WoWPro.GuideFrame.IsVisible or not WoWPro.GuideFrame:IsVisible() then
+        if not WoWPro.GuideFrame:IsVisible() then
             -- Cinematic hides things (or user collapsed frame with double-click).
             -- Only re-queue if the user did not intentionally collapse the frame.
             if not WoWPro.UserCollapsed then
@@ -1873,14 +1873,8 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:MapPoint()
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
-        WoWPro.MainFrameLayout()
-        if _G.C_Timer and _G.C_Timer.After then
-            _G.C_Timer.After(0, function()
-                if WoWPro:SafeIsShown(WoWPro.GuideFrame) and not _G.InCombatLockdown() then
-                    WoWPro.MainFrameLayout()
-                end
-            end)
-        end
+        WoWPro.PaddingSet()
+        WoWPro.RowSet()
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
             WoWPro.GuideUpdated = true
