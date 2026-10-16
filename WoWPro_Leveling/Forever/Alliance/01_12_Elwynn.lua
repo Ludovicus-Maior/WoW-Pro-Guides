@@ -9,19 +9,6 @@ WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function() return [[
 
-
-; THESE NEED TO BE SLOTTED IN STILL
-;T Camping 101: Blacksmithing|QID|97916|M|41.6,65.6|Z|1429; Elwynn Forest|N|To Smith Argus.|
-;T Camping 101: Leatherworking|QID|97922|M|46.6,62.2|Z|1429; Elwynn Forest|N|To Adele Fielder.|
-;T Camping 101: Alchemy|QID|97915|M|39.8,48.6|Z|1429; Elwynn Forest|N|To Alchemist Mallory.|
-;T Camping 101: Herbalism|QID|97921|M|39.8,48.4|Z|1429; Elwynn Forest|N|To Herbalist Pomeroy.|
-;T Camping 101: Mining|QID|97923|M|59.0,37.6|Z|1453; Stormwind City|N|To Gelman Stonehand.|
-;T Camping 101: Engineering|QID|97918|M|61.8,30.8|Z|453; Stormwind City|N|To Sprite Jumpsprocket.|
-;T Camping 101: Skinning|QID|97924|M|46.2,62.2|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
-;T Camping 101: First Aid|QID|97919|M|43.4,65.6|Z|1429; Elwynn Forest|N|To Michelle Belle.|
-;T Camping 101: Fishing|QID|97920|M|47.6,62.2|Z|1429; Elwynn Forest|N|To Lee Brown.|
-
-
 A A Threat Within|QID|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 A The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|Pick up your class quest from Drusilla La Salle (your class trainer) on the south side of the Abbey before continuing.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|R|Human|C|Warlock|
 T A Threat Within|QID|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride, inside the Abbey.|
@@ -125,21 +112,6 @@ A Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sa
 A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|
 A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Goldshire|
 
-C Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your blacksmithing skill to 20.|S!US|
-C Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your leatherworking skill to 20.|S!US|
-C Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your alchemy skill to 20.|S!US|
-C Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your herbalism skill to 20.|S!US|
-C Camping 101: Mining|QID|97923|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your mining skill to 20.|S!US|
-C Camping 101: Tailoring|QID|97925|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your tailoring skill to 20.|S!US|
-C Camping 101: Engineering|QID|97918|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your engineering skill to 20.||S!US|
-C Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your enchanting skill to 20.|S!US|
-C Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your skinning skill to 20.|S!US|
-C Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your first aid skill to 20.|S!US|
-C Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|Raise your fishing skill to 20.|P|S!US|
-
-t Camping 101: Enchanting|QID|97917|M|53.0,73.8|Z|1453; Stormwind City|N|To Betty Quin.|IZ|Stormwind City|
-
-
 T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 T Shhh! We're Hunting Kobolds|QID|91772|M|42.18,65.88|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
 A Book Return|QID|91775|M|42.18,65.88|Z|1429; Elwynn Forest|N|From Marshal Dughan.|
@@ -237,7 +209,6 @@ A Protect the Frontier|QID|52|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard T
 C Protect the Frontier|QID|52|QO|1;2|M|86.94,64.70|Z|1429; Elwynn Forest|N|Kill the required Prowlers and Young Forest Bears.|S|
 A Downstream|QID|91733|M|76.54,72.01|Z|1429; Elwynn Forest|N|From Ormin Pelford.|
 A Red Linen Goods|QID|83|M|79.46,68.79|Z|1429; Elwynn Forest|N|From Sara Timberlain.|
-t Camping 101: Tailoring|QID|97925|M|79.26,68.99|Z|1429; Elwynn Forest|N|To Eldrin.|
 A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429; Elwynn Forest|N|From Supervisor Raelen in Eastvale Logging Camp.|
 A Good Steel|QID|91732|M|82.43,63.92|Z|1429; Elwynn Forest|N|From Hagar Lowe.|
 C A Bundle of Trouble|QID|5545|M|80.44,60.48|Z|1429; Elwynn Forest|L|13872 8|N|Loot the Bundles of Wood, found at the base of the trees.\n[color=FF0000]NOTE: [/color]Stay clear of the higher leveled Murlocs by the lake.\n\nTurning down the Ground Clutter setting in the Graphics option menu will make these easier to see.|
