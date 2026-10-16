@@ -384,6 +384,25 @@ local function validate_old_list_of_ints(action, step, tag, value)
 end
 WoWPro.validate_old_list_of_ints = validate_old_list_of_ints
 
+local function validate_text_and_int(action, step, tag, value)
+    -- <text> ; <integer> {; ...}
+    -- Mandatory text and integer maybe followed by other semicolon seperated stuff
+    -- text can't be a number
+    local text, integer, _ = (";"):split(value)
+
+    return (not tonumber(text)) and tonumber(integer)
+end
+WoWPro.validate_text_and_int = validate_text_and_int
+
+local function validate_integer_and_stuff(action, step, tag, value)
+    -- <integer> {; ...}
+    -- Mandatory integer maybe followed by other semicolon seperated stuff
+    local integer, _ = (";"):split(value)
+    return tonumber(integer)
+end
+WoWPro.validate_integer_and_stuff = validate_integer_and_stuff
+
+
 -- QID Tags first
 DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
 DefineTag("MID","MID","string",validate_andor_list_of_ints,nil)
@@ -478,7 +497,7 @@ DefineTag("PET","pet","string",nil,nil)
 DefineTag("REN","renown","string",nil,nil)
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
-DefineTag("SPELL","spell","string",nil,nil)
+DefineTag("SPELL","spell","string",validate_text_and_int,nil)
 DefineTag("TAXI","taxi","string",nil,nil)
 DefineTag("TWWREN","twwrenown","string",nil,nil)
 DefineTag("HOA","hoa","string",nil,nil)
