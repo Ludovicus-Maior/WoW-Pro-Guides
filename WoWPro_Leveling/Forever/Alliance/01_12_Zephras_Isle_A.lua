@@ -74,7 +74,7 @@ C Foul Matriarch|QID|92470|QO|1|M|36.27,25.66|Z|2521; Zephras Isle|N|Ursera Scav
 K Urs'anah|ACTIVE|92470|QO|2|M|36.11,25.97|Z|2521; Zephras Isle|NC|N|Head of Urs'anah.|T|Urs'anah|
 C Aggressive Encroachment|QID|92473|M|37.30,25.16|Z|2521; Zephras Isle|N|Scrawny Ursera Claw.|US|
 C Foul Matriarch|QID|92470|QO|1|M|36.27,25.66|Z|2521; Zephras Isle|N|Ursera Scavenger slain.|US|
-H Thendal Village|ACTIVE|92470|N|Hearth back to Thendal Village if your hearth is on CD, start beating feet.| 
+H Thendal Village|ACTIVE|92470|N|Hearth back to Thendal Village if your hearth is on CD, start beating feet.|
 T Aggressive Encroachment|QID|92473|M|42.38,25.04|Z|2521; Zephras Isle|N|To Valreaa Valewind.|
 T Foul Matriarch|QID|92470|M|42.76,23.67|Z|2521; Zephras Isle|N|To Aetheen of the Gales.|
 A The Adventurer|QID|96638|PRE|92473&92470|M|42.73,23.70|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
@@ -88,7 +88,7 @@ C Al'Aketh Thugs|QID|92544|QO|2|M|37.02,31.46|Z|2521; Zephras Isle|N|Al'Aketh Ne
 K Malduko Cloudcrush|ACTIVE|92544|QO|3|M|36.59,33.24|Z|2521; Zephras Isle|N|Malduko Cloudcrush slain.|T|Malduko Cloudcrush|
 C Al'Aketh Thugs|QID|92544|QO|1|M|36.65,31.74|Z|2521; Zephras Isle|N|Al'Aketh Brute slain.|US|
 C Al'Aketh Thugs|QID|92544|QO|2|M|37.02,31.46|Z|2521; Zephras Isle|N|Al'Aketh Neophyte slain.|US|
-T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.| 
+T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwind.|
 
 T The Adventurer|QID|96638|M|41.67,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
