@@ -289,11 +289,15 @@ function WoWPro:RowUpdate(offset)
     local allSteps = {}
     local nextIndex = startIndex
     for i = 1, 15 do
-        table.insert(allSteps, nextIndex)
         if WoWProDB.profile.guidescroll then
+            table.insert(allSteps, nextIndex)
             nextIndex = nextIndex + 1
         else
-            nextIndex = WoWPro.NextStep(nextIndex, i) + 1
+            -- Evaluate conditions before adding the step so stickies follow the same
+            -- progression rules as regular rows.
+            nextIndex = WoWPro.NextStep(nextIndex, i)
+            table.insert(allSteps, nextIndex)
+            nextIndex = nextIndex + 1
         end
     end
 
@@ -614,8 +618,6 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     local action = WoWPro.action[stepIdx]
     local QID = WoWPro.QID[stepIdx]
     local questtext = WoWPro.questtext and WoWPro.questtext[stepIdx]
-    local available = WoWPro.available and WoWPro.available[stepIdx]
-    local activeReq = WoWPro.active and WoWPro.active[stepIdx]
 
     local activeUS = WoWPro.ActiveStep
     local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
@@ -628,16 +630,6 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     -- Sticky steps beyond progression boundary are hidden
     -- Except S!US (sticky+unsticky) which stays visible until completion
     if not isSUS and stepIdx > stickyBoundary then
-        return false
-    end
-
-    -- AVAILABLE filter (sticky visibility only)
-    if not isSUS and available and not WoWPro.QuestAvailable(available, false, "AVAILABLE") then
-        return false
-    end
-
-    -- ACTIVE filter (sticky visibility only)
-    if not isSUS and activeReq and not WoWPro:QIDsInTableLogical(activeReq, WoWPro.QuestLog) then
         return false
     end
 
