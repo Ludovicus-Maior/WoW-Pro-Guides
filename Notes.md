@@ -1,3 +1,16 @@
+# Release 2026.10.16.A
+* A quick update before Forever gets released
+## Bug Fixes
+* Updated the retail .toc files
+* Zone Data refresh for retail
+* Update HereBeDragons to 2.18-release, which adds support for 16001 and 120105
+* Update LibSharedMedia to v12.1.2
+* Update LibDBIcon to v12.1.1
+* Add parse time check for SPELL arguments
+## Guide Updates
+* Vanilla Leveling: Alliance 50-55, Horde Chapter 3 41-50
+
+
 # Release 2026.09.30.A
 ## Bug Fixes
 * Interim Fix for Frame Jumping issue
