@@ -8,14 +8,28 @@ WoWPro:GuideNextGuide(guide, 'ClassicSilverpineForest1215')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+;to be placed
+;A Tomb Weed|QID|99142|M|58.28,49.82|Z|1420; Tirisfal Glades|N|From Junior Apothecary Holland.|R|Undead|
+;C Tomb Weed|QID|99142|M|58.28,49.82|Z|1420; Tirisfal Glades|N|Loot the Tomb Weed from the fields.|R|Undead|
+;T Tomb Weed|QID|99142|M|58.28,49.82|Z|1420; Tirisfal Glades|N|From Executor Zygand.|R|Undead|
+;A The Argent Emissary|QID|96895|M|61.45,53.47|Z|1420; Tirisfal Glades|N|Deathguard Terrence.|R|Undead|
+
+
+
+
+
 R Go upstairs|AVAILABLE|363|M|30.33,71.99|Z|1420; Tirisfal Glades|TZ|Deathknell|N|Leave the crypt and go upstairs to your first quest.|R|Undead|
 A Rude Awakening|QID|363|M|30.21,71.64|Z|1420; Tirisfal Glades|N|From Undertaker Mordo outside.|R|Undead|
 T Rude Awakening|QID|363|M|30.84,66.20|Z|1420; Tirisfal Glades|N|To Shadow Priest Sarvis in the chapel to the north.|
 A The Mindless Ones|QID|364|PRE|363|M|30.84,66.20|Z|1420; Tirisfal Glades|N|From Shadow Priest Sarvis.|R|-Tauren|
 A Piercing the Veil|QID|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|From Venya Marthand.\n[color=FF0000]NOTE: [/color]This is your class quest to earn your Imp.|R|Undead|C|Warlock|
+C Piercing the Veil|QID|1470|M|33.00,61.60|Z|1420; Tirisfal Glades|L|6281 3|ITEM|6281|N|Rattlecage Skeletons.|S|
 C The Mindless Ones|QID|364|QO|1;2|M|32.22,63.16|Z|1420; Tirisfal Glades|N|Kill Mindless Zombies and Wretched Zombies outside.|
-;L Level 2|QID|364|
+C Piercing the Veil|QID|1470|M|33.00,61.60|Z|1420; Tirisfal Glades|L|6281 3|ITEM|6281|N|Rattlecage Skeletons.|T|Rattlecage Skeleton|US|
+T Piercing the Veil|QID|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|To Venya Marthand in the chapel.|
+N Summon Imp|AVAILABLE|6395|PRE|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|You can now have the ability to summon your Imp.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 T The Mindless Ones|QID|364|M|30.84,66.20|Z|1420; Tirisfal Glades|N|From Shadow Priest Sarvis inside the chapel.|
+
 ; --- First class quest
 A Simple Scroll|QID|3095|PRE|364|M|30.84,66.20|Z|1420; Tirisfal Glades|N|From Shadow Priest Sarvis.|R|Orc,Undead|C|Warrior|
 A Encrypted Scroll|QID|3096|PRE|364|M|30.84,66.20|Z|1420; Tirisfal Glades|N|From Shadow Priest Sarvis.|R|Undead|C|Rogue|
@@ -36,21 +50,17 @@ A Rediscovering the Light|QID|90902|M|31.09,66.36|Z|1420; Tirisfal Glades|N|From
 = Level 2 Training|ACTIVE|376|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 
 C Rattling the Rattlecages|QID|3901|M|33.00,61.60|Z|1420; Tirisfal Glades|N|Kill Rattlecage Skeletons to the east.|S|
-C Piercing the Veil|QID|1470|M|33.00,61.60|Z|1420; Tirisfal Glades|L|6281 3|ITEM|6281|N|Rattlecage Skeletons.|S|
 C The Damned|QID|376|M|31.70,58.70|Z|1420; Tirisfal Glades|L|3264 6;3265 6|ITEM|3264;3265|N|Duskbats and Young Scavengers.|S|
 C Rediscovering the Light|QID|90902|M|31.70,66.04|Z|1420; Tirisfal Glades|N|Use Holy Light on the Injured Deathguards.|R|Undead|C|Paladin|
 
 ;L Level 3|QID|3901|
 C Rattling the Rattlecages|QID|3901|M|33.00,61.60|Z|1420; Tirisfal Glades|N|Kill Rattlecage Skeletons to the east.|T|Rattlecage Skeleton|US|
-C Piercing the Veil|QID|1470|M|33.00,61.60|Z|1420; Tirisfal Glades|L|6281 3|ITEM|6281|N|Rattlecage Skeletons.|T|Rattlecage Skeleton|US|
 C The Damned|QID|376|M|31.70,58.70|Z|1420; Tirisfal Glades|L|3264 6;3265 6|ITEM|3264;3265|N|Duskbats and Young Scavengers.|US|
 L Level 4|ACTIVE|376|M|PLAYER|CC|N|Grind until you're within 6 bars of level 4.|LVL|3;980|
 T Rediscovering the Light|QID|90902|M|31.09,66.36|Z|1420; Tirisfal Glades|N|To Aramis Hammerhand.|R|Undead|C|Paladin|
 T The Damned|QID|376|M|30.86,66.05|Z|1420; Tirisfal Glades|N|To Novice Elreth in the chapel.|
 A Marla's Last Wish|QID|6395|PRE|376|M|30.85,66.05|Z|1420; Tirisfal Glades|N|From Novice Elreth.|
 T Rattling the Rattlecages|QID|3901|M|30.84,66.20|Z|1420; Tirisfal Glades|N|To Shadow Priest Sarvis.|
-T Piercing the Veil|QID|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|To Venya Marthand in the chapel.|
-N Summon Imp|AVAILABLE|6395|PRE|1470|M|30.98,66.41|Z|1420; Tirisfal Glades|N|You can now have the ability to summon your Imp.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 = Level 4 Training|AVAILABLE|3902|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
 = Level 4 Demon Training|AVAILABLE|3902|PRE|1470|M|PLAYER|CC|N|Pick up your Grimoire of Blood Pact for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
 
@@ -59,9 +69,9 @@ A Continue Your Training|QID|91209|M|31.09,66.36|Z|1420; Tirisfal Glades|N|From 
 A A Light in the Darkness|QID|98389|M|31.09,66.36|Z|1420; Tirisfal Glades|N|From Aramis Hammerhand.|R|Undead|
 A Scavenging Deathknell|QID|3902|PRE|376|M|31.64,65.58|Z|1420; Tirisfal Glades|N|From Deathguard Saltain.|R|-Tauren|
 A Night Web's Hollow|QID|380|PRE|376|M|32.14,66.02|Z|1420; Tirisfal Glades|N|From Executor Arren.|R|-Tauren|
-C Scavenging Deathknell|QID|3902|M|33.20,63.70|Z|1420; Tirisfal Glades|L|11127 6|N|Find the crates in and around the ruined houses east of the chapel.|S|
+
 C Marla's Last Wish|QID|6395|QO|1|M|36.67,61.65|Z|1420; Tirisfal Glades|L|16333|ITEM|16333|N|Samuel Fipps.\n[color=FF0000]NOTE: [/color]He's east/northeast where the small tents are.|T|Samuel Fipps|
-C Scavenging Deathknell|QID|3902|M|33.20,63.70|Z|1420; Tirisfal Glades|L|11127 6|N|Find the crates in and around the ruined houses east of the chapel.\n[color=FF0000]NOTE: [/color]They have enough static spawn points that you won't need to camp a spot.|US|
+C Scavenging Deathknell|QID|3902|M|33.20,63.70|Z|1420; Tirisfal Glades|L|11127 6|N|Find the crates in and around the ruined houses east of the chapel.|
 C Night Web's Hollow|QID|380|QO|2;1|M|27.04,59.33|Z|1420; Tirisfal Glades|N|Kill the required spiders at Night Web's Hollow.\n[color=FF0000]NOTE: [/color]Focus on getting to the Night Web Spiders located inside the mine. Unlike the Young ones, these ones will attack you.|S|
 C A Light in the Darkness|QID|98389|M|27.04,59.33|Z|1420; Tirisfal Glades|N|Break the Forsaken from the webs.|
 C Night Web's Hollow|QID|380|QO|2;1|M|27.04,59.33|Z|1420; Tirisfal Glades|N|Kill the required spiders at Night Web's Hollow.\n[color=FF0000]NOTE: [/color]Focus on getting to the Night Web Spiders located inside the mine. Unlike the Young ones, these ones will attack you.|US|
@@ -73,10 +83,11 @@ T Night Web's Hollow|QID|380|M|32.16,66.02|Z|1420; Tirisfal Glades|N|From Execut
 A The Scarlet Crusade|QID|381|PRE|380|M|32.16,66.02|Z|1420; Tirisfal Glades|N|From Executor Arren|R|-Tauren|
 T Coming to Terms|QID|91208|M|31.09,66.36|Z|1420; Tirisfal Glades|N|To Aramis Hammerhand.|R|Undead|C|Paladin|
 T A Light in the Darkness|QID|98389|M|31.09,66.36|Z|1420; Tirisfal Glades|N|To Aramis Hammerhand.|R|Undead|
+
 T Marla's Last Wish|QID|6395|M|30.86,66.05|Z|1420; Tirisfal Glades|N|To Novice Elreth in the chapel.|
 A In Favor of Darkness|QID|5651|M|31.11,66.03|Z|1420; Tirisfal Glades|N|Pick up your next class quest from Dark Cleric Duesten.|C|Priest|
 
-R Scarlet Crusade Camp|ACTIVE|381|QO|1|M|35.51,67.29|CC|Z|1420; Tirisfal Glades|N|Head towards the tents on the other side of the village.|
+R Scarlet Crusade Camp|ACTIVE|381|M|35.51,67.29|CC|Z|1420; Tirisfal Glades|N|Head towards the tents on the other side of the village.|
 C The Scarlet Crusade|QID|381|M|36.95,67.61|Z|1420; Tirisfal Glades|L|3266 12|ITEM|3266|N|Scarlet Converts (melee) and Initiates (caster).\n[color=FF0000]NOTE: [/color]Unless required, stay away from the tents.|
 T The Scarlet Crusade|QID|381|M|32.16,66.02|Z|1420; Tirisfal Glades|N|To Executor Arren.|
 A The Red Messenger|QID|382|PRE|381|M|32.16,66.02|Z|1420; Tirisfal Glades|N|From Executor Arren.|
@@ -93,7 +104,7 @@ A In Favor of Darkness|QID|5651|Z|1420; Tirisfal Glades|N|From Dark Cleric Duest
 
 A A Rogue's Deal|QID|8|M|38.24,56.74|Z|1420; Tirisfal Glades|N|From Calvin Montague by the gates to Tirisfal Glades.|
 A Fields of Grief|QID|365|M|40.91,54.17|Z|1420; Tirisfal Glades|N|From Deathguard Simmer.\n[color=FF0000]NOTE: [/color]He's at the intersection.|
-R Solliden Farmstead|ACTIVE|365|QO|1|M|38.92,52.38|Z|1420; Tirisfal Glades|N|Follow the road west.|
+R Solliden Farmstead|ACTIVE|365|M|38.92,52.38|Z|1420; Tirisfal Glades|N|Follow the road west.|
 C Fields of Grief|QID|365|M|36.21,50.48|Z|1420; Tirisfal Glades|L|2846 10|N|Gather 10 Tirisfal Pumpkins from the fields.\n[color=FF0000]NOTE: [/color]Watch out for Farmer Solliden, a rare level 8 mob.|
 A Gordo's Task|QID|5481|M|43.56,54.27;58.03,51.70|CS|Z|1420; Tirisfal Glades|N|From Gordo, an abomination found patrolling the road east towards Brill.|
 C Gordo's Task|QID|5481|M|51.86,55.23|Z|1420; Tirisfal Glades|L|12737 3|N|Collect Gloom Weed.\n[color=FF0000]NOTE: [/color]It's found ALL OVER the area.|S|
@@ -105,21 +116,22 @@ A The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|From Elea
 C The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|/sit at the fire.|T|Eleanor Shackleton,sit|
 T The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|To Eleanor Shackleton.|
 
-A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|IZ|Goldshire|
-A Camping 101: Leatherworking|QID|97958|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Leatherworking;165|SPELL|Leatherworking; 2108|IZ|Goldshire|
-A Camping 101: Alchemy|QID|97951|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Alchemy;171|SPELL|Alchemy; 2259|IZ|Goldshire|
-A Camping 101: Herbalism|QID|97957|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Herbalism;182|SPELL|Herbalism; 2366|IZ|Goldshire|
-A Camping 101: Mining|QID|97959|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Mining;186|SPELL|Mining; 2575|IZ|Goldshire|
-A Camping 101: Tailoring|QID|97961|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Tailoring;197|SPELL|Tailoring; 3908|IZ|Goldshire|
-A Camping 101: Engineering|QID|97954|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Engineering;202|SPELL|Engineering; 3908|IZ|Goldshire|
-A Camping 101: Enchanting|QID|97953|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Enchanting;333|SPELL|Enchanting; 7411|IZ|Goldshire|
-A Camping 101: Skinning|QID|97960|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Skinning;393|SPELL|Skinning; 8613|IZ|Goldshire|
-A Camping 101: First Aid|QID|97955|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|First Aid;129|SPELL|First Aid; 3273|IZ|Goldshire|
+A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|IZ|Tirisfal Glades|
+A Camping 101: Leatherworking|QID|97958|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Leatherworking;165|IZ|Tirisfal Glades|
+A Camping 101: Alchemy|QID|97951|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Alchemy;171|IZ|Tirisfal Glades|
+A Camping 101: Herbalism|QID|97957|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Herbalism;182|IZ|Tirisfal Glades|
+A Camping 101: Mining|QID|97959|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Mining;186|IZ|Tirisfal Glades|
+A Camping 101: Tailoring|QID|97961|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Tailoring;197|IZ|Tirisfal Glades|
+A Camping 101: Engineering|QID|97954|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Engineering;202|IZ|Tirisfal Glades|
+A Camping 101: Enchanting|QID|97953|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Enchanting;333|IZ|Tirisfal Glades|
+A Camping 101: Skinning|QID|97960|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Skinning;393|IZ|Tirisfal Glades|
+A Camping 101: First Aid|QID|97955|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|First Aid;129|IZ|Tirisfal Glades|
 A Camping 101: Cooking|QID|96658|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|
-A Camping 101: Fishing|QID|97956|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Goldshire|
+A Camping 101: Fishing|QID|97956|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Fishing;356|IZ|Tirisfal Glades|
 
 R Brill|AVAILABLE|404|M|58.03,51.70|Z|1420; Tirisfal Glades|N|Continue following the road east to Brill.|
 A A Putrid Task|QID|404|M|58.19,51.44|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger outside the cemetery.|
+A Sticks and Bones|QID|86784|M|58.43,51.43|Z|1420; Tirisfal Glades|N|From Deathguard Bartholomew.|
 T Fields of Grief|QID|365|M|59.44,52.39|Z|1420; Tirisfal Glades|N|To Apothecary Johaan inside the first house on the right.|
 A Fields of Grief|QID|407|PRE|365|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
 A A New Plague|QID|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
@@ -127,9 +139,10 @@ A A New Plague|QID|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary J
 = Herbalism|ACTIVE|383|M|59.79,52.13|Z|1420; Tirisfal Glades|N|From Faruza, the Herbalism trainer (near the mount vendor).\n[color=FF0000]NOTE: [/color]Manually check this step off to skip.|SPELL|Herb Gathering;2366|
 T Vital Intelligence|QID|383|M|60.57,51.77|Z|1420; Tirisfal Glades|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|427|PRE|383|M|60.57,51.77|Z|1420; Tirisfal Glades|N|From Executor Zygand.|
-A Wanted: Maggot Eye|QID|398|M|60.73,51.51|Z|1420; Tirisfal Glades|N|From the WANTED poster behind Executor Zygand.\n[color=FF0000]NOTE: [/color]It has no '!' marking it.|
+A Patience|QID|99141|M|60.60,51.82|Z|1420; Tirisfal Glades|N|From Executor Zygand.|R|Undead|
+A Discipline|QID|99134|M|60.60,51.82|Z|1420; Tirisfal Glades|N|From Executor Zygand.|R|Undead|
+A WANTED: Maggot Eye|QID|398|M|60.73,51.51|Z|1420; Tirisfal Glades|N|From the WANTED poster behind Executor Zygand.|
 A Graverobbers|QID|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From Magistrate Sevren inside Brill Town Hall.|
-
 ; --- Secondary trainers
 = First Aid|ACTIVE|8|M|61.82,52.82|Z|1420; Tirisfal Glades|N|From Nurse Neela, the First Aid Trainer, standing just inside the Gallow's End Tavern.\n[color=FF0000]NOTE: [/color]Manually check this step off to skip.|SPELL|First Aid;3273|
 = Enchanting|ACTIVE|8|M|61.77,51.56|Z|1420; Tirisfal Glades|N|From Vance Undergloom, the Enchanting trainer, on the 2nd floor of the Tavern.\n[color=FF0000]NOTE: [/color]Manually check this step off to skip.|SPELL|Alchemy;2259|
@@ -143,24 +156,73 @@ T Fields of Grief|QID|407|M|61.97,51.28|Z|1420; Tirisfal Glades|N|To the Capture
 T In Favor of Darkness|QID|5651|M|61.57,52.19|Z|1420; Tirisfal Glades|N|To Dark Cleric Beryl upstairs at the inn.|
 A Garments of Darkness|QID|5650|PRE|5651|Z|1420; Tirisfal Glades|N|From Dark Cleric Beryl|R|Undead|C|Priest|
 C Garments of Darkness|QID|5650|QO|1|M|59.18,46.49|Z|1420; Tirisfal Glades|N|Locate Deathguard Kel, heal him and cast Power Word: Fortitude on him.|
+
 ; ---
 C A New Plague|QID|367|Z|1420; Tirisfal Glades|L|2858 5|ITEM|2858|N|any Darkhounds.\n[color=FF0000]NOTE: [/color]They're found all over the map.|S|
 C A Putrid Task|QID|404|M|53.42,55.96|Z|1420; Tirisfal Glades|L|2855 7|ITEM|2855|N|either Ravaged Corpses or Rotting Deads.\n[color=FF0000]NOTE: [/color]You begin to see them starting around the area of Cold Hearth Manor.|S|
+C Discipline|QID|99134|M|60.60,51.82|Z|1420; Tirisfal Glades|N|Punish Deathguards along the road.|R|Undead|S|U|286176|
+C Sticks and Bones|QID|86784|M|58.43,51.43|Z|1420; Tirisfal Glades|N|From Deathguard Bartholomew.|S|
+C Deathguard Kristof|QID|99141|QO|2|M|65.3,60.2|Z|1420; Tirisfal Glades|N|Speak to Deathguard Kristof.|R|Undead|CHAT|
+A Hides for the Forsaken|QID|97558|M|65.34,60.07|Z|1420; Tirisfal Glades|N|From Shelene Rohobart.|R|Undead|
+A Rear Guard Patrol|QID|356|M|65.48,60.24|Z|1420; Tirisfal Glades|N|From Deathguard Linnea.|
+C Deathguard Dillinger|QID|99141|QO|1|M|58.2,51.4|Z|1420; Tirisfal Glades|N|Speak to Deathguard Dillinger.|R|Undead|CHAT|
+C Gordo|QID|99141|QO|3|M|60.60,51.82|Z|1420; Tirisfal Glades|N|Speak to Gordo.|R|Undead|CHAT|
+A A Rogue's Deal|QID|590|PRE|8|M|38.26,56.79|Z|1420; Tirisfal Glades|N|From Calvin Montague (at the Deathknell entrance).\n[color=FF0000]NOTE: [/color]Be prepared for an immediate fight as soon as you accept this.|
+C A Rogue's Deal|QID|590|M|38.26,56.79|Z|1420; Tirisfal Glades|N|Beat Calvin Montague down to ~5% health.|
+T A Rogue's Deal|QID|590|M|38.26,56.79|Z|1420; Tirisfal Glades|N|To Calvin Montague once he finishes 'healing'.|
+C A New Plague|QID|367|M|48.66,53.89|Z|1420; Tirisfal Glades|L|2858 5|ITEM|2858|N|any Darkhounds.\n[color=FF0000]NOTE: [/color]They're found all over the map.|US|
+C A Putrid Task|QID|404|M|53.42,55.96|Z|1420; Tirisfal Glades|L|2855 7|ITEM|2855|N|Ravaged Corpses and Rotting Deads.|US|
+C Discipline|QID|99134|M|60.60,51.82|Z|1420; Tirisfal Glades|N|Punish Deathguards along the road.|R|Undead|US|U|286176|
+C Sticks and Bones|QID|86784|M|58.43,51.43|Z|1420; Tirisfal Glades|N|From Deathguard Bartholomew.|US|
 
 C Continue Your Training|QID|91209|M|60.26,52.62|Z|1420; Tirisfal Glades|N|Talk to Shari Stilwell.|CHAT|R|Undead|C|Paladin|
 T Continue Your Training|QID|91209|M|60.26,52.62|Z|1420; Tirisfal Glades|N|To Shari Stilwell.|R|Undead|C|Paladin|
 
+T Patience|QID|99141|M|60.60,51.82|Z|1420; Tirisfal Glades|N|To Executor Zygand.|R|Undead|
+T Discipline|QID|99134|M|60.60,51.82|Z|1420; Tirisfal Glades|N|To Executor Zygand.|R|Undead|
+T A New Plague|QID|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|To Apothecary Johaan.|
+A A New Plague|QID|368|PRE|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
+A That Shadowvale Green Elixir|QID|95314|M|59.49,52.21|Z|1420; Tirisfal Glades|N|From Carolai Anise.|
+T A Putrid Task|QID|404|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguard Dillinger.|
+A The Mills Overrun|QID|426|PRE|404|M|58.20,51.45|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger.|
+T Gordo's Task|QID|5481|M|57.67,48.97;59.24,46.77;58.32,50.49|CS|Z|1420; Tirisfal Glades|N|To Junior Apothecary Holland in the cemetery.\n[color=FF0000]NOTE: [/color]He paths between the north and south entrances, cutting through the fountain on the west side.|T|Junior Apothecary Holland|
+A Doom Weed|QID|5482|PRE|5481|M|57.85,49.63|Z|1420; Tirisfal Glades|N|From Junior Apothecary Holland.|
+T Sticks and Bones|QID|86784|M|57.25,55.41|Z|1420; Tirisfal Glades|N|To Eleanor Shackleton.|
+
+C Doom Weed|QID|5482|M|55.20,42.00|Z|1420; Tirisfal Glades|L|13702 10|N|Loot the Doom Weed in the area.|S|
+C Graverobbers|QID|358|M|46.31,33.81|Z|1420; Tirisfal Glades|L|2834 8|ITEM|2834|N|any Rot Hide mob.|S|
+C Rot Hide Mongrels|QID|358|QO|2|M|59.18,32.78|Z|1420; Tirisfal Glades|N|Kill 5 Rot Hide Mongrels.|S|
+C Rot Hide Graverobbers|QID|358|QO|1|M|55.33,41.42|Z|1420; Tirisfal Glades|N|Kill 5 Rot Hide Graverobbers.|S|
+R The North Coast|ACTIVE|368|M|60.03,29.38|Z|1420; Tirisfal Glades|N|Just run north towards the water.|
+C Hides for the Forsaken|QID|97558|R|Undead|S|
+C A New Plague|QID|368|M|74.94,27.00;59.18,27.96|CS|Z|1420; Tirisfal Glades|L|2859 5|ITEM|2859|N|Vile Fin Murlocs at The North Coast.|
+C Hides for the Forsaken|QID|97558|R|Undead|US|
+R Garren's Haunt|ACTIVE|358|M|60.29,32.44|Z|1420; Tirisfal Glades|N|Head back to the field.|
+C WANTED: Maggot Eye|QID|398|M|58.68,30.74|Z|1420; Tirisfal Glades|L|3635|ITEM|3635|N|Maggot Eye (level 10).\n[color=FF0000]NOTE: [/color]Clear the field around the fence and pull the mobs around the house one at a time. Once done, pull Maggot Eye at max range.|C|Mage,Warlock,Priest|
+C WANTED: Maggot Eye|QID|398|M|58.68,30.74|Z|1420; Tirisfal Glades|L|3635|ITEM|3635|N|Maggot Eye (level 10).\n[color=FF0000]NOTE: [/color]Clear the field around the fence and pull the mobs around the house one at a time. Once done, fight Maggot Eye inside the house.|C|-Mage,-Warlock,-Priest|
+C Rot Hide Mongrels|QID|358|QO|2|M|59.18,32.78|Z|1420; Tirisfal Glades|N|Finish killing the Rot Hide Mongrels.|US|
+C Rot Hide Graverobbers|QID|358|QO|1|M|55.33,41.42|Z|1420; Tirisfal Glades|N|Finish killing the Rot Hide Graverobbers.|T|Rot Hide Graverobber|US|
+C Graverobbers|QID|358|M|57.00,39.88|Z|1420; Tirisfal Glades|L|2834 8|ITEM|2834|N|any Rot Hide mob.|US|
+C Doom Weed|QID|5482|M|55.20,42.00|Z|1420; Tirisfal Glades|L|13702 10|N|Finish collecting the Doom Weed in the area.|US|
+T Doom Weed|QID|5482|M|59.24,46.80;57.67,48.96;58.31,50.41|CC|Z|1420; Tirisfal Glades|N|To Junior Apothecary Holland, by the fountain.|
+T Graverobbers|QID|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate Sevren in the town hall.| ;700 exp
+T WANTED: Maggot Eye|QID|398|M|60.57,51.77|Z|1420; Tirisfal Glades|N|To Executor Zygand.| ;850 exp
 
 
-A A Rogue's Deal|QID|590|PRE|8|M|38.26,56.79|Z|1420; Tirisfal Glades|N|From Calvin Montague (at the Deathknell entrance).\n[color=FF0000]NOTE: [/color]Be prepared for an immediate fight as soon as you accept this.|NA|
-C A Rogue's Deal|QID|590|M|38.26,56.79|Z|1420; Tirisfal Glades|N|Beat Calvin Montague down to ~5% health.|
-T A Rogue's Deal|QID|590|M|38.26,56.79|Z|1420; Tirisfal Glades|N|To Calvin Montague once he finishes 'healing'.|
+
+
+
+
+
+
+
+
+
+
+
 C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|Z|1420; Tirisfal Glades|N|Kill the Scarlet Warriors located along the road south of Solliden Farmstead. \n[color=FF0000]NOTE: [/color]Watch for the Farmers and Farmerhands to avoid unnecessary fights.|T|Scarlet Warrior|S|
-A A Rogue's Deal|QID|590|PRE|8|M|38.26,56.79|Z|1420; Tirisfal Glades|N|From Calvin Montague (at the Deathknell entrance).\n[color=FF0000]NOTE: [/color]Be prepared for an immediate fight as soon as you accept this.|NA|
 A Seeking Refuge|QID|99144|M|31.95,46.33|Z|1420; Tirisfal Glades|N|From Bareth Dawnstone.|
 C Seeking Refuge|QID|99144|M|39.00,48.73|Z|1420; Tirisfal Glades|N|Escort Bareth Dawnstone back to Brill.|
-C A New Plague|QID|367|M|48.66,53.89|Z|1420; Tirisfal Glades|L|2858 5|ITEM|2858|N|any Darkhounds.\n[color=FF0000]NOTE: [/color]They're found all over the map.|US|
-C A Putrid Task|QID|404|M|53.42,55.96|Z|1420; Tirisfal Glades|L|2855 7|ITEM|2855|N|Ravaged Corpses and Rotting Deads.|US|
 H Brill|AVAILABLE|354|M|61.97,51.28|Z|1420; Tirisfal Glades|N|Hearth back to Brill, or grind your way back.|TZ|Gallows' End Tavern|
 A Deaths in the Family|QID|354|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Coleman Farthing on the ground floor the Tavern.|
 A The Haunted Mills|QID|362|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Coleman Farthing.|
@@ -171,10 +233,6 @@ T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|Z|1420; Tirisfal Glades|
 A At War With The Scarlet Crusade|QID|370|PRE|427|M|60.57,51.77|Z|1420; Tirisfal Glades|N|From Executor Zygand.|
 A Proof of Demise|QID|374|PRE|427|M|60.93,51.98|Z|1420; Tirisfal Glades|N|From Deathguard Burgess.|
 r Housekeeping|ACTIVE|404|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
-T A New Plague|QID|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|To Apothecary Johaan.|
-A A New Plague|QID|368|PRE|367|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
-T A Putrid Task|QID|404|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguard Dillinger.|
-A The Mills Overrun|QID|426|PRE|404|M|58.20,51.45|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger.|
 
 C The Chill of Death|QID|375|QO|1|M|53.72,62.55|Z|1420; Tirisfal Glades|L|2876 5|ITEM|2876|N|Duskbats around the area southwest of Brill.|S|
 C Proof of Demise|QID|374|M|51.21,67.76|Z|1420; Tirisfal Glades|L|2875 10|ITEM|2875|N|Scarlet Crusade mobs.|S|
@@ -184,8 +242,6 @@ C At War With The Scarlet Crusade|QID|370|QO|2;3|M|51.21,67.76|Z|1420; Tirisfal 
 C The Chill of Death|QID|375|QO|1|M|53.72,62.55|Z|1420; Tirisfal Glades|L|2876 5|ITEM|2876|N|Duskbats around the area southwest of Brill.|US|
 L Level 8|ACTIVE|370|M|PLAYER|CC|N|Grind until you're within 5 bubbles of level 8.|LVL|6;-675|
 
-A A Second Home|QID|91282|M|60.29,52.60|Z|1420; Tirisfal Glades|N|From Shari Stillwell.|
-
 T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|Z|1420; Tirisfal Glades|N|To Executor Zygand in Brill.|
 A At War With The Scarlet Crusade|QID|371|PRE|370|M|60.57,51.77|Z|1420; Tirisfal Glades|N|From Executor Zygand in Brill.|
 r Housekeeping|ACTIVE|5481|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
@@ -193,23 +249,8 @@ B Coarse Thread|QID|375|QO|2|M|61.02,52.37|Z|1420; Tirisfal Glades|L|2320|N|From
 T The Chill of Death|QID|375|M|61.89,52.71|Z|1420; Tirisfal Glades|N|To Gretchen Dedmar upstairs at the Tavern.|
 = Level 8 Training|ACTIVE|5481|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Brill|
 = Level 8 Demon Training|ACTIVE|5481|M|PLAYER|CC|N|Pick up your Grimoire of Firebolt for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|C|Warlock|
-T Gordo's Task|QID|5481|M|57.67,48.97;59.24,46.77;58.32,50.49|CS|Z|1420; Tirisfal Glades|N|To Junior Apothecary Holland in the cemetery.\n[color=FF0000]NOTE: [/color]He paths between the north and south entrances, cutting through the fountain on the west side.|T|Junior Apothecary Holland|
-A Doom Weed|QID|5482|PRE|5481|Z|1420; Tirisfal Glades|N|From Junior Apothecary Holland.|
 
-C Graverobbers|QID|358|M|46.31,33.81|Z|1420; Tirisfal Glades|L|2834 8|ITEM|2834|N|any Rot Hide mob.|S|
-C Rot Hide Mongrels|QID|358|QO|2|M|59.18,32.78|Z|1420; Tirisfal Glades|N|Kill 5 Rot Hide Mongrels.|S|
-C Rot Hide Graverobbers|QID|358|QO|1|M|55.33,41.42|Z|1420; Tirisfal Glades|N|Kill 5 Rot Hide Graverobbers.|S|
-C Wanted: Maggot Eye|QID|398|M|58.68,30.74|Z|1420; Tirisfal Glades|L|3635|ITEM|3635|N|Maggot Eye (level 10).\n[color=FF0000]NOTE: [/color]Clear the field around the fence and pull the mobs around the house one at a time. Once done, pull Maggot Eye at max range.|C|Mage,Warlock,Priest|
-C Wanted: Maggot Eye|QID|398|M|58.68,30.74|Z|1420; Tirisfal Glades|L|3635|ITEM|3635|N|Maggot Eye (level 10).\n[color=FF0000]NOTE: [/color]Clear the field around the fence and pull the mobs around the house one at a time. Once done, fight Maggot Eye inside the house.|C|-Mage,-Warlock,-Priest|
-R The North Coast|ACTIVE|368|QO|1|M|60.03,29.38|Z|1420; Tirisfal Glades|N|Just run north towards the water.|
-C A New Plague|QID|368|M|74.94,27.00;59.18,27.96|CS|Z|1420; Tirisfal Glades|L|2859 5|ITEM|2859|N|Vile Fin Murlocs at The North Coast.|
-R Garren's Haunt|ACTIVE|358|QO|1;2;3|M|60.29,32.44|Z|1420; Tirisfal Glades|N|Head back to the field.|
-C Rot Hide Mongrels|QID|358|QO|2|M|59.18,32.78|Z|1420; Tirisfal Glades|N|Finish killing the Rot Hide Mongrels.|US|
-C Doom Weed|QID|5482|M|55.20,42.00|Z|1420; Tirisfal Glades|L|13702 10|N|Loot the Doom Weed in the area.|S|
-C Rot Hide Graverobbers|QID|358|QO|1|M|55.33,41.42|Z|1420; Tirisfal Glades|N|Finish killing the Rot Hide Graverobbers.|T|Rot Hide Graverobber|US|
-C Graverobbers|QID|358|M|57.00,39.88|Z|1420; Tirisfal Glades|L|2834 8|ITEM|2834|N|any Rot Hide mob.|US|
-C Doom Weed|QID|5482|M|55.20,42.00|Z|1420; Tirisfal Glades|L|13702 10|N|Finish collecting the Doom Weed in the area.|US|
-T Doom Weed|QID|5482|M|59.24,46.80;57.67,48.96;58.31,50.41|CC|Z|1420; Tirisfal Glades|N|To Junior Apothecary Holland, by the fountain.|
+
 
 R Agamand Mills|ACTIVE|426|QO|1;2|M|47.68,43.26|Z|1420; Tirisfal Glades|N|Run northwest to Agamand Mills.\n[color=FF0000]NOTE: [/color]Unless you're looking to grind your way across, stick to the mountain edge or follow the road.|
 l A Letter to Yvette|AVAILABLE|361|M|46.36,34.69|Z|1420; Tirisfal Glades|L|2839|ITEM|2839|N|Darkeyed Bonecasters or either type of Soldiers.\n[color=FF0000]NOTE: [/color]Drop rate is not the best, so skip this quest if you wish.|IZ|Agamand Mills|S!US|
@@ -227,12 +268,10 @@ T The Haunted Mills|QID|362|M|61.71,52.31|Z|1420; Tirisfal Glades|N|To Coleman F
 T Deaths in the Family|QID|354|M|61.71,52.31|Z|1420; Tirisfal Glades|N|To Coleman Farthing in the Tavern.| ;875 exp
 A Speak with Sevren|QID|355|PRE|354|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Colman Farthing in the Tavern.|
 t A Letter Undelivered|QID|361|M|61.57,52.60|Z|1420; Tirisfal Glades|N|To Yvette Farthing in the Tavern.| ;480 exp
-T Graverobbers|QID|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate Sevren in the town hall.| ;700 exp
 T Speak with Sevren|QID|355|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate Sevren In the town hall.| ;
 A The Family Crypt|QID|408|PRE|355|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From Magistrate Sevren In the town hall.|
 A Forsaken Duties|QID|359|PRE|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From Magistrate Sevren In the town hall.|
 A The Prodigal Lich|QID|405|PRE|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From Magistrate Sevren In the town hall.|
-T Wanted: Maggot Eye|QID|398|M|60.57,51.77|Z|1420; Tirisfal Glades|N|To Executor Zygand.| ;850 exp
 T A New Plague|QID|368|M|59.44,52.39|Z|1420; Tirisfal Glades|N|To Apothecary Johaan.| ;775 exp
 A A New Plague|QID|369|PRE|368|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
 N Important Tip|ACTIVE|426|PRE|368|N|[color=FF0000]NOTE: [/color]Don't sell/trash the [color=33fff9]Slumber Sand[/color] you got from turning in 'A New Plague' because this will come in handy later.\n \nManually check this step off to continue.|
@@ -256,7 +295,33 @@ T Ulag the Cleaver|QID|1819|M|58.20,51.45|Z|1420; Tirisfal Glades|N|To Deathguar
 A Speak with Coleman|QID|1820|PRE|1819|M|58.20,51.45|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger.|C|Warrior|
 T Speak with Coleman|QID|1820|M|61.71,52.31|Z|1420; Tirisfal Glades|N|To Coleman Farthing by the fireplace inside the Tavern.|
 A Agamand Heirlooms|QID|1821|PRE|1820|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Coleman Farthing.|C|Warrior|
-; ---
+; ---Pally
+A A Second Home|QID|91282|M|60.29,52.60|Z|1420; Tirisfal Glades|N|From Shari Stillwell.|R|Undead|C|Paladin|
+T A Second Home|QID|91282|M|21.84,45.28|Z|1420; Tirisfal Glades|N|To Breton Samuels.|R|Undead|C|Paladin|
+A Murlocs at the Gates|QID|91285|M|21.84,45.28|Z|1420; Tirisfal Glades|N|From Breton Samuels.|R|Undead|C|Paladin|
+C Murlocs at the Gates|QID|91285|M|15.77,52.73|Z|1420; Tirisfal Glades|N|Cull the Murlocs needed.|R|Undead|C|Paladin|
+T Murlocs at the Gates|QID|91285|M|21.84,45.28|Z|1420; Tirisfal Glades|N|To Breton Samuels.|R|Undead|C|Paladin|
+A Touring the Grounds|QID|91294|M|21.84,45.28|Z|1420; Tirisfal Glades|N|From Breton Samuels.|R|Undead|C|Paladin|
+C Touring the Grounds|QID|91294|QO|2|M|21.84,45.28|Z|1420; Tirisfal Glades|N|Talk to Jorin Croge.|R|Undead|C|Paladin|CHAT|
+C Touring the Grounds|QID|91294|QO|1|M|22.00,47.14|Z|1420; Tirisfal Glades|N|Talk to Hilda the Breaker.|R|Undead|C|Paladin|CHAT|
+C Touring the Grounds|QID|91294|QO|3|M|25.38,50.47|Z|1420; Tirisfal Glades|N|Talk to Ander Solliden.|R|Undead|C|Paladin|CHAT|
+C Touring the Grounds|QID|91294|QO|4|M|22.08,44.71|Z|1420; Tirisfal Glades|N|Talk to Danitha Morr.|R|Undead|C|Paladin|CHAT|
+T Touring the Grounds|QID|91294|M|22.08,44.71|Z|1420; Tirisfal Glades|N|To Danitha Morr.|R|Undead|C|Paladin|
+A The Tarnished|QID|91317|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
+C The Tarnished|QID|91317|QO|2|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Drudge.|R|Undead|C|Paladin|S|
+C The Tarnished|QID|91317|QO|3|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Zealots.|R|Undead|C|Paladin|S|
+K Commander Rudolph Gelhardt|ACTIVE|91317|QO|1|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Kill Commander Rudolph Gelhardt and loot his head.|R|Undead|C|Paladin|T|Commander Rudolph Gelhardt|
+C The Tarnished|QID|91317|QO|2|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Drudge.|R|Undead|C|Paladin|US|
+C The Tarnished|QID|91317|QO|3|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Zealots.|R|Undead|C|Paladin|US|
+T The Tarnished|QID|91317|M|22.08,44.71|Z|1420; Tirisfal Glades|N|To Danitha Morr.|R|Undead|C|Paladin|
+A A Lesson in Divinity|QID|94427|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
+A A Token of Good Faith|QID|95803|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
+A Making Repairs|QID|91316|M|22.65,44.73|Z|1420; Tirisfal Glades|N|From Jorin Croge.|R|Undead|C|Paladin|
+C Making Repairs|QID|91316|M|12.93,65.72|Z|1420; Tirisfal Glades|N|Down in the cellar loot the wood you need. .|R|Undead|C|Paladin|S|
+l Whispering Horror Residue|AVAILABLE|95328|L|268812|M|9.6,59.8|Z|1420; Tirisfal Glades|N|Kill Whispering Horror and loot its Residue.|R|Undead|C|Paladin|
+A Whispering Horror Residue|QID|95328|M|PLAYER|N|Use the Whispering Horror Residue you just looted.|U|268812|O|R|Undead|C|Paladin|
+C Making Repairs|QID|91316|M|12.93,65.72|Z|1420; Tirisfal Glades|N|Down in the cellar loot the wood you need. .|R|Undead|C|Paladin|S|
+T Making Repairs|QID|91316|M|22.65,44.73|Z|1420; Tirisfal Glades|N|To Jorin Croge.|R|Undead|C|Paladin|
 
 ; --- Undercity
 R Undercity|ACTIVE|405|M|66.22,2.14|Z|1458; Undercity|N|Enter Undercity and take the elevator down.|
@@ -267,6 +332,13 @@ B Skinning Knife|ACTIVE|405|M|70.05,58.45|Z|1458; Undercity|L|7005|ITEM|7005|N| 
 ; --- Mage
 T Speak with Anastasia|QID|1881|M|85.13,10.07|Z|1458; Undercity|N|To Anastasia Hartwell in the Magic Quarter.|
 A The Balnir Farmstead|QID|1882|PRE|1881|M|85.13,10.07|Z|1458; Undercity|N|From Anastasia Hartwell.|R|Undead|C|Mage|
+; --- Paladin
+T Lesson in Divinity|QID|94427|M|65.51,37.69|Z|1458; Undercity|N|To Danitha Morr.|R|Undead|C|Paladin|
+A Lesson in Divinity|QID|94434|M|65.51,37.69|Z|1458; Undercity|N|From Danitha Morr.|R|Undead|C|Paladin|
+C Lesson in Divinity|QID|94434|M|65.51,37.69|Z|1458; Undercity|L|2589 10|N|Gather your linen cloth from the bank or buy it from the AH.|R|Undead|C|Paladin|
+T Lesson in Divinity|QID|94434|M|65.51,37.69|Z|1458; Undercity|N|To Danitha Morr.|R|Undead|C|Paladin|
+A Lesson in Divinity|QID|94435|M|65.51,37.69|Z|1458; Undercity|N|From Danitha Morr.|R|Undead|C|Paladin|
+T A Token of Good Faith|QID|95803|M|57.82,91.72|Z|1458; Undercity|N|To Lady Sylvanas Windrunner.|R|Undead|C|Paladin|
 ; --- Priest
 A Touch of Weakness|QID|5658|M|49.28,18.36|Z|1458; Undercity|N|From Aelthalyste in the War Quarter.|R|Undead|C|Priest|
 T Touch of Weakness|QID|5658^5660^5661^5662^5663|M|49.28,18.36|Z|1458; Undercity|N|Turn into Aelthalyste.| ; ** This quest has multiple QIDs - Hendo72
@@ -303,24 +375,28 @@ R Leave Undercity|ACTIVE|359|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal G
 B Fishing Rod|ACTIVE|359|M|65.86,59.64|Z|1420; Tirisfal Glades|L|6256|ITEM|6256|N| from Martine Tramblay if you plan on learning fishing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Forsaken Duties|QID|359|M|65.48,60.24|Z|1420; Tirisfal Glades|N|Follow the road northeast to Deathguard Linnea.|
 A Return to the Magistrate|QID|360|PRE|359|M|65.48,60.24|Z|1420; Tirisfal Glades|N|From Deathguard Linnea.|
-A Rear Guard Patrol|QID|356|M|65.48,60.24|Z|1420; Tirisfal Glades|N|From Deathguard Linnea.|
-= Fishing|ACTIVE|356|M|67.17,50.98|Z|1420; Tirisfal Glades|N|From Clyde Kellen wa-a-ay out by the shore of Brightwater Lake.\nManually check this step off to continue.|SPELL|Fishing;7620|
-
+T Lesson in Divinity|QID|94435|M|22.09,44.73|Z|1420; Tirisfal Glades|N|To Danitha Morr.|R|Undead|C|Paladin|
+A Lesson in Divinity|QID|94436|M|22.09,44.73|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
+T Lesson in Divinity|QID|94436|M|21.94,44.50|Z|1420; Tirisfal Glades|N|To Deathguard Billmuth.|R|Undead|C|Paladin|
+A Lesson in Divinity|QID|94438|M|21.94,44.50|Z|1420; Tirisfal Glades|N|From Deathguard Billmuth.|R|Undead|C|Paladin|
 R Balnir Farmstead|ACTIVE|356|QO|1;2|M|76.09,60.26|Z|1420; Tirisfal Glades|N|Follow the road east until you see it to the north of you.|
 C Balnir Farmstead|QID|1882|M|76.94,62.21|Z|1420; Tirisfal Glades|L|7227|N|Loot the Balnir Snapdragons from one of the planters.|S|
 C Rear Guard Patrol|QID|356|QO|1;2|M|76.09,60.26|Z|1420; Tirisfal Glades|N|Kill the required mobs.\n[color=FF0000]NOTE: [/color]Watch out for Felicient's Shade, a level 12 rare ghost roaming the fields.|
 C Balnir Farmstead|QID|1882|M|76.94,62.21|Z|1420; Tirisfal Glades|L|7227|N|Loot the Balnir Snapdragons from one of the planters.|US|
-
 R Crusader Outpost|ACTIVE|371|QO|1;2|M|76.92,56.34|Z|1420; Tirisfal Glades|N|Head north from Balnir Farmstead up into the hills.|
 C At War With The Scarlet Crusade|QID|371|QO|2|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill 5 Scarlet Friars.|S|
-K Captain Vachon|ACTIVE|371|QO|1|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill Captain Vachon outside outside the tower after clearing the entrance.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.\nIf you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.|U|3434|
+K Captain Vachon|ACTIVE|371|QO|1|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill Captain Vachon outside outside the tower after clearing the entrance.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.\nIf you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.|U|3434|S|
+T Lesson in Divinity|QID|94438|M|86.77,47.79|Z|1420; Tirisfal Glades|N|T Deathguard Falgan.|R|Undead|C|Paladin|T|Deathguard Falgan|U|6866|
+A Lesson in Divinity|QID|94440|M|86.77,47.79|Z|1420; Tirisfal Glades|N|From Deathguard Falgan.|R|Undead|C|Paladin|
+C Lesson in Divinity|QID|94440|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Murderfy all the Scarlett doods till they drop the Attack Plans.|R|Undead|C|Paladin|S|
+K Captain Vachon|ACTIVE|371|QO|1|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill Captain Vachon outside outside the tower after clearing the entrance.\n[color=FF0000]NOTE: [/color]Captain Vachon is level 11 and can be difficult for some classes (especially, since he has an add who will heal him). Now is a good time to use your Slumber Sand to crowd control the Friar while you kill Captain Vachon.\nIf you find it difficult to get around the tower from the rear, drop down and work your way around to the front entrance.|U|3434|US|
 C At War With The Scarlet Crusade|QID|371|QO|2|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Kill 5 Scarlet Friars.|US|
 C Proof of Demise|QID|374|M|79.20,54.55|Z|1420; Tirisfal Glades|L|2875 10|ITEM|2875|N|Scarlet Crusade mobs.|US|
+C Lesson in Divinity|QID|94440|M|79.20,54.55|Z|1420; Tirisfal Glades|N|Murderfy all the Scarlett doods till they drop the Attack Plans.|R|Undead|C|Paladin|US|
 R Venomweb Vale|ACTIVE|369|QO|1|M|82.20,53.95|Z|1420; Tirisfal Glades|N|Leave Crusader Outpost from the east entrance.|
-C A New Plague|QID|369|M|86.72,51.99|Z|1420; Tirisfal Glades|L|2872 4|ITEM|2872|N|Vicious Night Web Spiders.|T|Vicious Night Web Spider|
+C A New Plague|QID|369|M|86.72,51.99|Z|1420; Tirisfal Glades|L|2872 4|ITEM|2872|N|Vicious Night Web Spiders.|T|Vicious Night Web Spider|S|
 R Gunther's Retreat|ACTIVE|357|QO|1|M|68.00,42.10|Z|1420; Tirisfal Glades|N|Make your way to Gunther's Retreat, the island in Brightwater Lake.|
 C The Lich's Identity|QID|357|M|67.97,42.10|Z|1420; Tirisfal Glades|L|2833|N|Loot the Lich's Spellbook from Gunther's Books on the table at his camp site.|
-= Fishing|ACTIVE|374|M|67.17,50.99|Z|1420; Tirisfal Glades|N|From Clyde Kellen.\n[color=FF0000]NOTE: [/color]He's on the south shore of Brightwater Lake.\nManually check this step off to continue.|SPELL|Fishing;7620|
 R Brill|ACTIVE|374|M|61.70,48.92|Z|1420; Tirisfal Glades|N|Run back to Brill.\n[color=FF0000]NOTE: [/color]You can hearth back if you want to. However, the plan is to use it in the near future and it may not be off CD by then.|
 T Proof of Demise|QID|374|M|60.93,51.98|Z|1420; Tirisfal Glades|N|To Deathguard Burgess.|
 T Return to the Magistrate|QID|360|M|61.26,50.84|Z|1420; Tirisfal Glades|N|To Magistrate Sevren in the town hall.|
@@ -329,15 +405,19 @@ A At War With The Scarlet Crusade|QID|372|PRE|371|M|60.57,51.77|Z|1420; Tirisfal
 T A New Plague|QID|369|M|59.44,52.39|Z|1420; Tirisfal Glades|N|To Apothecary Johaan.|
 A A New Plague|QID|492|PRE|369|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.|
 T A New Plague|QID|492|M|61.93,51.40|Z|1420; Tirisfal Glades|N|To the Captured Mountaineer in the basement of the Tavern.|
+T Lesson in Divinity|QID|94440|M|21.94,44.50|Z|1420; Tirisfal Glades|N|To Deathguard Billmuth.|R|Undead|C|Paladin|
+A Lesson in Divinity|QID|94441|M|21.94,44.50|Z|1420; Tirisfal Glades|N|From Deathguard Billmuth.|R|Undead|C|Paladin|
+T Lesson in Divinity|QID|94441|M|22.07,44.72|Z|1420; Tirisfal Glades|N|To Danitha Morr.|R|Undead|C|Paladin|
 
 R Undercity|ACTIVE|357|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Head to Undercity.|
 T The Lich's Identity|QID|357|M|84.05,17.37|Z|1458; Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
 A Return the Book|QID|366|PRE|357|M|84.05,17.37|Z|1458; Undercity|N|From Bethor Iceshard.|R|-Tauren|
 T The Balnir Farmstead|QID|1882|M|85,10|Z|1458; Undercity|N|To Anastasia Hartwell.|
+T Whispering Horror Residue|QID|95328|M|49.51,16.03|Z|1458; Undercity|N|To Father Lankester|R|Undead|C|Paladin|
+
 
 R Leave Undercity|ACTIVE|356|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal Glades|N|Take the elevator up and exit Undercity through the front gates.|
 T Rear Guard Patrol|QID|356|M|65.48,60.24|Z|1420; Tirisfal Glades|N|Leave the Undercity and follow the road northeast to Deathguard Linnea.|
-= Fishing|ACTIVE|366|M|67.17,50.99|Z|1420; Tirisfal Glades|N|From Clyde Kellen.\n[color=FF0000]NOTE: [/color]He's on the south shore of Brightwater Lake.\nManually check this step off to continue.|SPELL|Fishing;7620|
 T Return the Book|QID|366|M|68.19,41.92|Z|1420; Tirisfal Glades|N|To Gunther Arcanus, on the island in Brightwater Lake.|
 A Proving Allegiance|QID|409|PRE|366|M|68.19,41.92|Z|1420; Tirisfal Glades|N|From Gunther Arcanus.|
 N Hidden quests|ACTIVE|409|QO|1|N|2 additional quests have been unlocked but do not show in the quest log.\nThese quests are The Candles of Beckoning and The Dormant Shade.\nThey are sequential steps that are required to complete the main quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -371,6 +451,6 @@ T The Prodigal Lich Returns|QID|411|M|84.05,17.37|Z|1458; Undercity|N|To Bethor 
 r Housekeeping|PRE|411|M|PLAYER|CC|N|Before leaving Undercity, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1458; Undercity|
 R Tirisfal Glades|PRE|411|M|61.86,64.98|Z|1420; Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|IZ|1458; Undercity|
 
-D Next Guide|AVAILABLE|445|PRE|411|N|This ends the Tirisfal Glades guide. Seeing as you skipped the breadcrumb, we assume you want to use a different guide next.\n[color=FF0000]NOTE: [/color]Manually check this step off to move on and choose your next guide from the guide list.|
+;D Next Guide|AVAILABLE|445|PRE|411|N|This ends the Tirisfal Glades guide. Seeing as you skipped the breadcrumb, we assume you want to use a different guide next.\n[color=FF0000]NOTE: [/color]Manually check this step off to move on and choose your next guide from the guide list.|
 ]]
 end)
