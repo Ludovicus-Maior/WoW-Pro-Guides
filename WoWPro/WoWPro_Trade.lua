@@ -474,7 +474,7 @@ function WoWPro.TradeskillsReport()
         local LogBox = WoWPro.LogBox
         local text
         local GID = WoWProDB.char.currentguide
-        text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
+        text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n \n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
         text = text .. "_TID Lvl Max ++ Name\n"
         for tradeID, tradeskill in pairs(WoWProCharDB.Tradeskills) do
             local line

@@ -391,7 +391,20 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
     else
         anchorFrame = WoWPro.menuFrame
     end
-    if _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
+    local function PositionAnchoredMenu()
+        if anchor == "cursor" then return end
+        local listFrame = _G.DropDownList1
+        if not listFrame then return end
+        listFrame:ClearAllPoints()
+        listFrame:SetPoint(anchorFrame.MenuPoint or anchor, anchorFrame, anchor, x or 0, y or 0)
+        if listFrame.SetClampedToScreen then
+            listFrame:SetClampedToScreen(true)
+        end
+    end
+    if anchor ~= "cursor" and _G.EasyMenu then
+        _G.EasyMenu(menuList, anchorFrame, anchor, x, y, displayMode, autoHideDelay )
+        PositionAnchoredMenu()
+    elseif anchor == "cursor" and _G.MenuUtil and _G.MenuUtil.CreateContextMenu then
         local function GenerateMenu(ownerRegion, rootDescription)
             local function AddMenuItems(description, items)
                 for _, item in ipairs(items) do
@@ -440,7 +453,8 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
         _G.UIDropDownMenu_Initialize(anchorFrame, function(frame, level)
             EasyMenu_Initialize(frame, level, frame.menuList)
         end, displayMode);
-        _G.ToggleDropDownMenu(1, nil, anchorFrame, anchor, x, y, menuList, nil, autoHideDelay);
+        _G.ToggleDropDownMenu(1, nil, anchorFrame, "cursor", x, y, menuList, nil, autoHideDelay);
+        PositionAnchoredMenu()
     else
         WoWPro:Print("Warning: No compatible menu system found. Menu functionality disabled.")
     end

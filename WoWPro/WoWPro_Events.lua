@@ -13,9 +13,14 @@ function WoWPro:OnEnableEvents()
     WoWPro:dbp("Registering Events: Core Addon")
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
+    WoWPro:RegisterMessage("WoWPro_AnchorStoreRequested", "HandleAnchorStoreRequest")
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+end
+
+function WoWPro:HandleAnchorStoreRequest(_, reason, expansionAnchorOverride)
+    WoWPro.AnchorStore(reason, expansionAnchorOverride)
 end
 
 -- Event Registration Functions --
@@ -254,12 +259,12 @@ function WoWPro:InitializeHearthBind()
 end
 
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end, true)
-WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end, true)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event)
     WoWPro:InitializeHearthBind()
     return
-end, true)
-WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
+end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
     WoWPro:UpdateGuide(event)
