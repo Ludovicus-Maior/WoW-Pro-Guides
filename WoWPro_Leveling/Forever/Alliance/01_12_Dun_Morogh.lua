@@ -4,81 +4,113 @@ WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426|N|From Sten Stoutarm.|
+A Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|
 L Level 2|LVL|2|N|You should be around level 2 by this point.|
-C Dwarven Outfitters|QID|179|M|27.33,76.40|Z|1426|NC|N|8/8 Tough Wolf Meat.|
-T Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426|N|To Sten Stoutarm.|
-A Archaic Rune|QID|98581|PRE|179|M|29.94,71.30|Z|1426|N|From Sten Stoutarm.|
-A A New Threat|QID|170|PRE|179|M|29.78,71.29|Z|1426|N|From Balir Frosthammer.|
-T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426|N|To Teo Hammerstorm.|
-T Coldridge Valley Mail Delivery|QID|233|M|22.62,71.34|Z|1426|N|To Talin Keeneye.|
-A Coldridge Valley Mail Delivery|QID|234|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|
-A The Boar Hunter|QID|183|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|
-T Coldridge Valley Mail Delivery|QID|234|M|25.00,75.72|Z|1426|N|To Grelin Whitebeard.|
-A The Troll Cave|QID|182|PRE|234|M|25.00,75.72|Z|1426|N|From Grelin Whitebeard.|
+C Dwarven Outfitters|QID|179|M|27.33,76.40|Z|1426; Dun Morogh|NC|N|8/8 Tough Wolf Meat.|
+T Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|To Sten Stoutarm.|
+
+; Quest name changes depending upon your class
+A Archaic Rune|QID|98581|PRE|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|C|Shaman|R|Dwarf|
+A Simple Rune|QID|3106|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warrior|R|Dwarf|
+A Consecrated Rune|QID|3107|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Paladin|R|Dwarf|
+A Etched Rune|QID|3108|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Hunter|R|Dwarf|
+A Encrypted Rune|QID|3109|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Rogue|R|Dwarf|
+A Hallowed Rune|QID|3110|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Priest|R|Dwarf|
+A Simple Memorandum|QID|3112|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warrior|R|Gnome|
+A Encrypted Memorandum|QID|3113|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Rogue|R|Gnome|
+A Glyphic Memorandum|QID|3114|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Mage|R|Gnome|
+A Tainted Memorandum|QID|3115|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warlock|R|Gnome|
+A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
+r Sell Junk|AVAILABLE|170|M|30.09,71.56|N|Sell your junk to Adlin Pridedrift.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+
+T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|C|Shaman|R|Dwarf|
+T Simple Rune|QID|3106|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Dwarf|
+T Consecrated Rune|QID|3107|M|28.83,68.33|N|To Bromos Grummner in Anvilmar.|C|Paladin|R|Dwarf|
+T Etched Rune|QID|3108|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.|C|Hunter|R|Dwarf|
+T Encrypted Rune|QID|3109|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
+T Hallowed Rune|QID|3110|M|28.60,66.38|N|To Branstock Khalder in Anvilmar.|C|Priest|R|Dwarf|
+T Simple Memorandum|QID|3112|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Gnome|
+T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
+T Glyphic Memorandum|QID|3114|M|28.71,66.37|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
+T Tainted Memorandum|QID|3115|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
+
+A A New Threat|QID|170|PRE|179|M|29.78,71.29|Z|1426; Dun Morogh|N|From Balir Frosthammer.|
+T Coldridge Valley Mail Delivery|QID|233|M|22.62,71.34|Z|1426; Dun Morogh|N|To Talin Keeneye.|
+A Coldridge Valley Mail Delivery|QID|234|PRE|98581&233|M|22.62,71.34|Z|1426; Dun Morogh|N|From Talin Keeneye.|
+A The Boar Hunter|QID|183|PRE|98581&233|M|22.62,71.34|Z|1426; Dun Morogh|N|From Talin Keeneye.|
+T Coldridge Valley Mail Delivery|QID|234|M|25.00,75.72|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
+A The Troll Cave|QID|182|PRE|234|M|25.00,75.72|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
 L Level 3|QID|182|LVL|3|N|You should be around level 3 by this point.|
-K A New Threat|QID|170|M|22.44,72.64|Z|1426|N|6/6 Burly Rockjaw Trogg slain.|
-K A New Threat|QID|170|M|31.87,74.68|Z|1426|N|6/6 Rockjaw Trogg slain.|
-T A New Threat|QID|170|M|29.76,71.37|Z|1426|N|To Balir Frosthammer.|
-A A Refugee's Quandary|QID|3361|PRE|170|M|28.53,67.73|Z|1426|N|From Felix Whindlebolt.|
-K The Boar Hunter|QID|183|M|22.89,69.78|Z|1426|N|12/12 Small Crag Boar slain.|
+K A New Threat|QID|170|M|22.44,72.64|Z|1426; Dun Morogh|N|6/6 Burly Rockjaw Trogg slain.|
+K A New Threat|QID|170|M|31.87,74.68|Z|1426; Dun Morogh|N|6/6 Rockjaw Trogg slain.|
+T A New Threat|QID|170|M|29.76,71.37|Z|1426; Dun Morogh|N|To Balir Frosthammer.|
+A A Refugee's Quandary|QID|3361|PRE|170|M|28.53,67.73|Z|1426; Dun Morogh|N|From Felix Whindlebolt.|
+K The Boar Hunter|QID|183|M|22.89,69.78|Z|1426; Dun Morogh|N|12/12 Small Crag Boar slain.|
 L Level 4|QID|3361|LVL|4|N|You should be around level 4 by this point.|
-T The Boar Hunter|QID|183|M|22.61,71.32|Z|1426|N|To Talin Keeneye.|
-A Call of Earth|QID|94373|PRE|183|M|28.85,66.20|Z|1426|N|From Teo Hammerstorm.|
-C A Refugee's Quandary|QID|3361|M|26.32,79.16|Z|1426|NC|N|1/1 Felix's Bucket of Bolts.|
-C A Refugee's Quandary|QID|3361|M|22.80,79.88|Z|1426|NC|N|1/1 Felix's Chest.|
-C Call of Earth|QID|94373|M|22.65,79.39|Z|1426|NC|N|2/2 Iceclaw Bear Pendant.|
-C A Refugee's Quandary|QID|3361|M|20.98,76.04|Z|1426|NC|N|1/1 Felix's Box.|
-K The Troll Cave|QID|182|M|21.31,75.83|Z|1426|N|14/14 Frostmane Troll Whelp slain.|
-T The Troll Cave|QID|182|M|24.99,75.75|Z|1426|N|To Grelin Whitebeard.|
-A The Stolen Journal|QID|218|PRE|182|M|24.99,75.75|Z|1426|N|From Grelin Whitebeard.|
-A Scalding Mornbrew Delivery|QID|3364|PRE|182|M|24.97,75.83|Z|1426|N|From Nori Pridedrift.|
-T A Refugee's Quandary|QID|3361|M|28.54,67.77|Z|1426|N|To Felix Whindlebolt.|
-T Scalding Mornbrew Delivery|QID|3364|M|28.79,66.44|Z|1426|N|To Durnan Furcutter.|
-A Bring Back the Mug|QID|3365|PRE|3361&3364|M|28.79,66.44|Z|1426|N|From Durnan Furcutter.|
-T Call of Earth|QID|94373|M|28.85,66.20|Z|1426|N|To Teo Hammerstorm.|
-A Call of Earth|QID|94374|PRE|94373|M|28.85,66.20|Z|1426|N|From Teo Hammerstorm.|
-A Grund and Gozwin|QID|97277|PRE|94373|M|28.61,67.47|Z|1426|N|From Grund Drokda.|
-C Grund and Gozwin|QID|97277|M|27.28,62.95|Z|1426|NC|N|1/1 Gozwin's Mechanic's Log.|
-K Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426|N|1/1 Snow Leopard Prowler slain.|
+T The Boar Hunter|QID|183|M|22.61,71.32|Z|1426; Dun Morogh|N|To Talin Keeneye.|
+A Call of Earth|QID|94373|PRE|183|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|
+C A Refugee's Quandary|QID|3361|M|26.32,79.16|Z|1426; Dun Morogh|NC|N|1/1 Felix's Bucket of Bolts.|
+C A Refugee's Quandary|QID|3361|M|22.80,79.88|Z|1426; Dun Morogh|NC|N|1/1 Felix's Chest.|
+C Call of Earth|QID|94373|M|22.65,79.39|Z|1426; Dun Morogh|NC|N|2/2 Iceclaw Bear Pendant.|
+C A Refugee's Quandary|QID|3361|M|20.98,76.04|Z|1426; Dun Morogh|NC|N|1/1 Felix's Box.|
+K The Troll Cave|QID|182|M|21.31,75.83|Z|1426; Dun Morogh|N|14/14 Frostmane Troll Whelp slain.|
+T The Troll Cave|QID|182|M|24.99,75.75|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
+A The Stolen Journal|QID|218|PRE|182|M|24.99,75.75|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
+A Scalding Mornbrew Delivery|QID|3364|PRE|182|M|24.97,75.83|Z|1426; Dun Morogh|N|From Nori Pridedrift.|
+T A Refugee's Quandary|QID|3361|M|28.54,67.77|Z|1426; Dun Morogh|N|To Felix Whindlebolt.|
+T Scalding Mornbrew Delivery|QID|3364|M|28.79,66.44|Z|1426; Dun Morogh|N|To Durnan Furcutter.|
+A Bring Back the Mug|QID|3365|PRE|3361&3364|M|28.79,66.44|Z|1426; Dun Morogh|N|From Durnan Furcutter.|
+T Call of Earth|QID|94373|M|28.85,66.20|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|
+A Call of Earth|QID|94374|PRE|94373|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|
+A Grund and Gozwin|QID|97277|PRE|94373|M|28.61,67.47|Z|1426; Dun Morogh|N|From Grund Drokda.|
+C Grund and Gozwin|QID|97277|M|27.28,62.95|Z|1426; Dun Morogh|NC|N|1/1 Gozwin's Mechanic's Log.|
+K Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426; Dun Morogh|N|1/1 Snow Leopard Prowler slain.|
 L Level 5|QID|97277|LVL|5|N|You should be around level 5 by this point.|
-T Call of Earth|QID|94374|M|24.89,61.82|Z|1426|N|To Minor Manifestation of Earth.|
-A Call of Earth|QID|94375|PRE|94374|M|24.89,61.82|Z|1426|N|From Minor Manifestation of Earth.|
-T Grund and Gozwin|QID|97277|M|28.61,67.59|Z|1426|N|To Grund Drokda.|
-T Call of Earth|QID|94375|M|28.87,66.23|Z|1426|N|To Teo Hammerstorm.|
-T Bring Back the Mug|QID|3365|M|25.03,75.89|Z|1426|N|To Nori Pridedrift.|
-C The Stolen Journal|QID|218|M|30.08,79.33|Z|1426|NC|N|1/1 Grelin Whitebeard's Journal.|
-T The Stolen Journal|QID|218|M|25.10,75.84|Z|1426|N|To Grelin Whitebeard.|
+T Call of Earth|QID|94374|M|24.89,61.82|Z|1426; Dun Morogh|N|To Minor Manifestation of Earth.|
+A Call of Earth|QID|94375|PRE|94374|M|24.89,61.82|Z|1426; Dun Morogh|N|From Minor Manifestation of Earth.|
+T Grund and Gozwin|QID|97277|M|28.61,67.59|Z|1426; Dun Morogh|N|To Grund Drokda.|
+T Call of Earth|QID|94375|M|28.87,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|
+T Bring Back the Mug|QID|3365|M|25.03,75.89|Z|1426; Dun Morogh|N|To Nori Pridedrift.|
+C The Stolen Journal|QID|218|M|30.08,79.33|Z|1426; Dun Morogh|NC|N|1/1 Grelin Whitebeard's Journal.|
+T The Stolen Journal|QID|218|M|25.10,75.84|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
 L Level 6|QID|94375|LVL|6|N|You should be around level 6 by this point.|
-T Senir's Observations|QID|282|M|33.45,71.92|Z|1426|N|To Mountaineer Thalos.|
-A The Adventurer|QID|96628|PRE|97277&94375&3365&218&282|M|33.45,71.92|Z|1426|N|From Mountaineer Thalos.|
-A Supplies to Tannok|QID|2160|PRE|97277&94375&3365&218&282|M|33.78,72.15|Z|1426|N|From Hands Springsprocket.|
-T The Adventurer|QID|96628|M|46.66,53.98|Z|1426|N|To Eric Brighthammer.|
-A The Great Outdoors|QID|96608|PRE|96628|M|46.66,53.98|Z|1426|N|From Eric Brighthammer.|
-C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426|NC|N|1/1 Sit near the campfire.|
-C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426|NC|N|Gain the Boosted Rest buff.|
-T The Great Outdoors|QID|96608|M|46.66,53.95|Z|1426|N|To Eric Brighthammer.|
-A Camping 101: Skinning|QID|96056|PRE|96608|M|46.66,53.95|Z|1426|N|From Eric Brighthammer.|
-A Camping 101: Cooking|QID|96629|PRE|96608|M|46.66,53.95|Z|1426|N|From Eric Brighthammer.|
-T Senir's Observations|QID|420|M|46.74,53.87|Z|1426|N|To Senir Whitebeard.|
-A Secure the Mountain|QID|98322|PRE|420|M|46.74,53.87|Z|1426|N|From Senir Whitebeard.|
-A Beer Basted Boar Ribs|QID|384|PRE|420|M|46.79,52.47|Z|1426|N|From Ragnar Thunderbrew.|
-T Supplies to Tannok|QID|2160|M|47.24,52.13|Z|1426|N|To Tannok Frosthammer.|
-C Camping 101: Cooking|QID|96629|M|47.62,52.36|Z|1426|NC|N|Learn cooking from Gremlock Pilsnor in Kharanos.|
-T Camping 101: Cooking|QID|96629|M|47.62,52.36|Z|1426|N|To Gremlock Pilsnor.|
-h Thunderbrew Distillery|QID|384|M|47.32,52.57|Z|1426|N|At Innkeeper Belm.|
-C Beer Basted Boar Ribs|QID|384|M|47.32,52.57|Z|1426|NC|N|1/1 Rhapsody Malt.|
-A Tools for Steelgrill|QID|400|PRE|2160&96629|M|46.07,51.70|Z|1426|N|From Tharek Blackstone.|
-A Flintfire's Shipment|QID|98321|PRE|2160&96629|M|45.33,52.02|Z|1426|N|From Tognus Flintfire.|
-A Camping 101: First Aid|QID|96047|PRE|2160&96629|M|46.65,53.91|Z|1426|N|From Eric Brighthammer.|
-T Tools for Steelgrill|QID|400|M|50.36,49.13|Z|1426|N|To Beldin Steelgrill.|
-A Ammo for Rumbleshot|QID|5541|PRE|400|M|50.08,49.30|Z|1426|N|From Loslor Rudge.|
-A The Grizzled Den|QID|313|PRE|400|M|49.66,48.52|Z|1426|N|From Pilot Stonegear.|
-A Stocking Jetsteam|QID|317|PRE|400|M|49.49,48.41|Z|1426|N|From Pilot Bellowfiz.|
-C Camping 101: First Aid|QID|96047|M|33.21,51.04|Z|1455|NC|N|Raise your first aid skill to 20.|
-T Camping 101: Skinning|QID|96056|M|39.53,32.56|Z|1455|N|To Balthus Stoneflayer.|
-A Camping 101: Leatherworking|QID|96031|PRE|96056|M|46.67,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-T Camping 101: First Aid|QID|96047|M|47.21,52.49|Z|1426; Dun Morogh|N|To Thamner Pol.|
+T Senir's Observations|QID|282|M|33.45,71.92|Z|1426; Dun Morogh|N|To Mountaineer Thalos.|
+A The Adventurer|QID|96628|PRE|97277&94375&3365&218&282|M|33.45,71.92|Z|1426; Dun Morogh|N|From Mountaineer Thalos.|
+A Supplies to Tannok|QID|2160|PRE|97277&94375&3365&218&282|M|33.78,72.15|Z|1426; Dun Morogh|N|From Hands Springsprocket.|
+T The Adventurer|QID|96628|M|46.66,53.98|Z|1426; Dun Morogh|N|To Eric Brighthammer.|
+A The Great Outdoors|QID|96608|PRE|96628|M|46.66,53.98|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
+C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426; Dun Morogh|NC|N|1/1 Sit near the campfire.|
+C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426; Dun Morogh|NC|N|Gain the Boosted Rest buff.|
+T The Great Outdoors|QID|96608|M|46.66,53.95|Z|1426; Dun Morogh|N|To Eric Brighthammer.|
+
+A Camping 101: Blacksmithing|QID|96044|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|IZ|Dun Morogh|
+A Camping 101: Leatherworking|QID|96031|M|46.67,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Leatherworking;165|SPELL|Leatherworking; 2108|IZ|Dun Morogh|
+A Camping 101: Alchemy|QID|96045|M|46.67,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Alchemy;171|SPELL|Alchemy; 2259|IZ|Dun Morogh|
+A Camping 101: Herbalism|QID|96055|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Herbalism;182|SPELL|Herbalism; 2366|IZ|Dun Morogh|
+A Camping 101: Mining|QID|96046|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Mining;186|SPELL|Mining; 2575|IZ|Dun Morogh|
+A Camping 101: Tailoring|QID|96057|M|46.65,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Tailoring;197|SPELL|Tailoring; 3908|IZ|Dun Morogh|
+A Camping 101: Engineering|QID|96058|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Engineering;202|SPELL|Engineering; 3908|IZ|Dun Morogh|
+A Camping 101: Enchanting|QID|96059|M|46.66,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Enchanting;333|SPELL|Enchanting; 7411|IZ|Dun Morogh|
+A Camping 101: Skinning|QID|96056|M|46.66,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Skinning;393|SPELL|Skinning; 8613|IZ|Dun Morogh|
+A Camping 101: First Aid|QID|96047|M|46.65,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|First Aid;129|SPELL|First Aid; 3273|IZ|Dun Morogh|
+A Camping 101: Cooking|QID|96629|M|46.66,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
+A Camping 101: Fishing|QID|96050|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Dun Morogh|
+
+C Camping 101: Cooking|QID|96629|M|47.62,52.36|Z|1426; Dun Morogh|NC|N|Learn cooking from Gremlock Pilsnor in Kharanos.|
+T Camping 101: Cooking|QID|96629|M|47.62,52.36|Z|1426; Dun Morogh|N|To Gremlock Pilsnor.|
+
+T Senir's Observations|QID|420|M|46.74,53.87|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
+A Secure the Mountain|QID|98322|PRE|420|M|46.74,53.87|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
+A Beer Basted Boar Ribs|QID|384|PRE|420|M|46.79,52.47|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
+T Supplies to Tannok|QID|2160|M|47.24,52.13|Z|1426; Dun Morogh|N|To Tannok Frosthammer.|
+h Thunderbrew Distillery|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|N|At Innkeeper Belm.|
+C Beer Basted Boar Ribs|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|NC|N|1/1 Rhapsody Malt.|
+A Tools for Steelgrill|QID|400|PRE|2160&96629|M|46.07,51.70|Z|1426; Dun Morogh|N|From Tharek Blackstone.|
+A Flintfire's Shipment|QID|98321|PRE|2160&96629|M|45.33,52.02|Z|1426; Dun Morogh|N|From Tognus Flintfire.|
+T Tools for Steelgrill|QID|400|M|50.36,49.13|Z|1426; Dun Morogh|N|To Beldin Steelgrill.|
+A Ammo for Rumbleshot|QID|5541|PRE|400|M|50.08,49.30|Z|1426; Dun Morogh|N|From Loslor Rudge.|
+A The Grizzled Den|QID|313|PRE|400|M|49.66,48.52|Z|1426; Dun Morogh|N|From Pilot Stonegear.|
+A Stocking Jetsteam|QID|317|PRE|400|M|49.49,48.41|Z|1426; Dun Morogh|N|From Pilot Bellowfiz.|
 C Ammo for Rumbleshot|QID|5541|M|44.12,56.85|Z|1426; Dun Morogh|NC|N|1/1 Rumbleshot's Ammo.|
 T Secure the Mountain|QID|98322|M|44.10,56.96|Z|1426; Dun Morogh|N|To Mountaineer Gretchen.|
 A Secure the Mountain|QID|98319|PRE|96047&98322|M|44.10,56.96|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
@@ -120,7 +152,6 @@ T Rime's Wrath|QID|99161|M|57.78,44.87|Z|1426; Dun Morogh|N|To Father Gavin.|
 A Your Package Has Arrived|QID|97263|PRE|99161|M|72.29,48.72|Z|1455; Ironforge|
 A Data Hoarders|QID|95041|PRE|99161|M|68.15,44.53|Z|1455; Ironforge|N|From Jemma Quikswitch.|
 T Your Package Has Arrived|QID|97263|M|47.32,13.09|Z|1455; Ironforge|N|To Eldrun Stormbreaker.|
-T Camping 101: Leatherworking|QID|96031|M|38.88,32.47|Z|1455; Ironforge|N|To Gretta Finespindle.|
 A Frosthowl|QID|98326|PRE|97263&96031|M|31.53,44.73|Z|1426; Dun Morogh|N|From Gretta Ganter.|
 L Level 9|QID|98326|LVL|9|N|You should be around level 9 by this point.|
 T Evershine|QID|318|M|30.27,45.69|Z|1426; Dun Morogh|N|To Rejold Barleybrew.|
@@ -137,7 +168,6 @@ T The Perfect Stout|QID|315|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Barleyb
 A Shimmer Stout|QID|413|PRE|315|M|30.15,45.78|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 T Bitter Rivals|QID|310|M|47.66,52.64|Z|1426; Dun Morogh|
 A Return to Marleth|QID|311|PRE|310|M|47.66,52.64|Z|1426; Dun Morogh|
-A Camping 101: Fishing|QID|96050|PRE|310|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
 T Return to Bellowfiz|QID|320|M|49.34,48.44|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
 A A Visitor to Dun Morogh|QID|96408|PRE|320|M|50.40,49.14|Z|1426; Dun Morogh|N|From Beldin Steelgrill.|
 A Tundra MacGrann's Stolen Stash|QID|312|PRE|320|M|34.64,51.63|Z|1426; Dun Morogh|N|From Tundra MacGrann.|
@@ -152,7 +182,6 @@ C Operation Recombobulation|QID|412|M|25.48,41.31|Z|1426; Dun Morogh|NC|N|8/8 Gy
 C Operation Recombobulation|QID|412|M|24.86,42.80|Z|1426; Dun Morogh|NC|N|8/8 Restabilization Cog.|
 T Return to Marleth|QID|311|M|30.16,45.48|Z|1426; Dun Morogh|N|To Marleth Barleybrew.|
 T Frosthowl|QID|98326|M|31.49,44.75|Z|1426; Dun Morogh|N|To Gretta Ganter.|
-T Camping 101: Fishing|QID|96050|M|35.39,40.24|Z|1426; Dun Morogh|N|To Paxton Ganter.|
 T Operation Recombobulation|QID|412|M|45.88,49.24|Z|1426; Dun Morogh|N|To Razzle Sprysprocket.|
 T Frostmane Hold|QID|287|M|46.72,53.72|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
 A The Reports|QID|291|PRE|312&311&98326&96050&412&287|M|46.72,53.72|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
@@ -202,6 +231,7 @@ A Call of Fire|QID|94466|PRE|94465|M|32.06,66.12|Z|1432; Loch Modan|N|From Brald
 T Stout to Kadrell|QID|414|M|32.72,49.83|Z|1432; Loch Modan|N|To Mountaineer Kadrell.|
 f Thelsamar|QID|94466|M|33.79,50.84|Z|1432; Loch Modan|N|At Thorgrum Borrelson.|
 h Stoutlager Inn|QID|94466|M|35.47,48.24|Z|1432; Loch Modan|N|At Innkeeper Hearthstove.|
+
 ]]
 
 end)

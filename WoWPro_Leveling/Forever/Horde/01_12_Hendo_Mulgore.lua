@@ -277,7 +277,7 @@ A Fizsprocket's Notes|QID|98424|N|Right click on the Mulgore Expansion Plans to 
 C Fizsprocket's Notes|QID|98424|M|60.37,49.99;58.97,46.46;59.11,48.18;58.62,47.3;61.64,47.01|CS|Z|1412; Mulgore|N|Click on the quest items on the ground at the waypoint locations.|
 C The Venture Co.|QID|764|M|60.47,49.65|Z|1412; Mulgore|N|Kill the required Venture Co. Workers and Supervisors.|US|
 C Stalk With The Earthmother|QID|76156|M|64.29,42.24|Z|1412; Mulgore|N|Loot the Mining Charges from the carts in the cave.|S|
-R Exit the Mines|M|59.56,46.45;57.13,49.11;56.70,49.77Z|1412; Mulgore|N|Follow the waypoints to exit the mine.|
+R Exit the Mines|M|59.56,46.45;57.13,49.11;56.70,49.77|CC|Z|1412; Mulgore|N|Follow the waypoints to exit the mine.|
 C Drive Them Out|QID|99080|M|60.51,59.75|Z|1412; Mulgore|N|Kill the required centaurs.|
 T The Venture Co.|QID|764|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker on the road.\n[color=FF0000]NOTE: [/color]Start at the intersection unless you know where to begin looking for him.|T|Morin Cloudstalker|
 T Supervisor Fizsprocket|QID|765|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker.|
