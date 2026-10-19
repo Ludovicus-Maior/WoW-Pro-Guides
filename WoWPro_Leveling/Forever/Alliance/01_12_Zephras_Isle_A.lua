@@ -32,7 +32,7 @@ A The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|N|From Hal
 C The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|NC|N|View the Anchor Pylon.|
 T The Anchors of Zephras|QID|94414|M|43.76,24.08|Z|2521; Zephras Isle|N|To Halaan Hawk-Eye.|
 A Falling With Style|QID|92474|PRE|94414|M|43.67,24.06|Z|2521; Zephras Isle|N|From Myriaal Mistwake.|
-C Falling With Style|QID|92474|M|43.33,23.82|Z|2521; Zephras Isle|NC|N|Use Walk on Air, aim for Rorian the Dayseeker.|
+C Falling With Style|QID|92474|M|43.33,23.82|Z|2521; Zephras Isle|NC|N|Use [color=61C9F6]Walk on Air[/color], aim for Rorian the Dayseeker.|
 T Falling With Style|QID|92474|M|42.10,23.51|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 
 T The Way of the Hunter|ACTIVE|92482|M|42.47,23.72|Z|2521; Zephras Isle|N|To Tai'ree Farsight.|C|Hunter|
@@ -327,9 +327,9 @@ A Breaking the Breaker|QID|92645|PRE|93320|M|69.63,67.08|Z|2521|N|From Yorana Wi
 N Cliff Diving for Druids!|ACTIVE|94006|N|Jump off the cliff toward your quest turn in on the island below. NOTE: Manually check this step off to continue.|C|Druid|
 
 ;This is for non-druids
-R Jump off Cliff|ACTIVE|92642|M|68.99,65.83|Z|Zephras Isle|N|Jump off the cliff and use your Walk on Air spell.|R|Skyborne|SPELL|Walk on Air;1259416|C|-Druid|
+R Jump off Cliff|ACTIVE|92642|M|68.99,65.83|Z|Zephras Isle|N|Jump off the cliff and use your [color=61C9F6]Walk on Air[/color] spell.|CC|C|-Druid|
 
-R Snag the Ley Line Buff|ACTIVE|92642|M|69.06,61.96|Z|Zephras Isle|N|Stop by the Ley Line for the 14 min buff.|R|Skyborne|SPELL|1259705|
+R Snag the Ley Line Buff|ACTIVE|92642|M|69.06,61.96|Z|Zephras Isle|N|Stop by the Ley Line for the 14 min buff.|CC|
 
 T The Great Ursera Spirit|ACTIVE|94006|M|69.69,61.53|Z|2521|N|To Urs'endris.|C|Druid|
 A Strength and Mercy|QID|94638|PRE|94006|M|69.69,61.53|Z|2521|N|From Urs'endris.|C|Druid|
@@ -439,7 +439,7 @@ T The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|To Talaan
 A Desperate Times|QID|92640|M|66.23,76.53|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
 C Desperate Times|QID|92640|M|66.19,76.65|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist.|QO|1|
 
-R Jump off Tower|ACTIVE|92640|M|66.26,76.13|Z|Zephras Isle|N|Jump off the tower toward the next turnin and use your Walk on Air spell.|R|Skyborne|SPELL|Walk on Air;1259416|
+R Jump off Tower|ACTIVE|92640|M|66.26,76.13|Z|Zephras Isle|N|Jump off the tower toward the next turnin and use your [color=61C9F6]Walk on Air[/color] spell.|CC|
 
 C Desperate Times|QID|92640|M|59.14,79.75|Z|2521; Zephras Isle|NC|N|Recruit the Windshapers.|QO|2|
 C Desperate Times|QID|92640|M|66.63,79.91|Z|2521; Zephras Isle|NC|N|Recruit the High Order.|QO|3|
@@ -447,7 +447,7 @@ T Desperate Times|QID|92640|M|66.19,76.66|Z|2521; Zephras Isle|N|To Valennia Sto
 
 A Prepare for Battle|QID|93065|M|66.19,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 
-R Jump off Tower|ACTIVE|93065|M|65.95,76.34|N|Jump off the tower toward the next turnin and use your Walk on Air spell.|R|Skyborne|SPELL|Walk on Air;1259416|
+R Jump off Tower|ACTIVE|93065|M|65.95,76.34|N|Jump off the tower toward the next turnin and use your [color=61C9F6]Walk on Air[/color] spell.|CC|
 
 L Level 14|QID|92643|LVL|14|N|You should be around level 14 by this point.|
 N Train Skills|QID|94638|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
@@ -542,6 +542,7 @@ P Rut'theran Village|ACTIVE|93963|M|55.93,89.70|Z|Teldrassil|N|Take the portal t
 b Take the boat to Auberdine|ACTIVE|93963|N|Take the boat to Auberdine. (Check off Manually if you were able to Hearth)|CC|
 b Take the boat to Stormwind City|ACTIVE|93963|N|Take the boat to Stormwind City. (Check off Manually if you were able to Hearth)|CC|
 T Exploring the Alliance|ACTIVE|93963|M|80.17,38.38|Z|1453; Stormwind City|N|At Highlord Bolvar Fordragon.|
+
 
 R Goldshire|ACTIVE|98021|M|44.25,62.50|Z|1429; Elwynn Forest|N|Follow the road east to Goldshire.|
 A Report to Gryan Stoutmantle|QID|109|M|42.15,65.92|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
