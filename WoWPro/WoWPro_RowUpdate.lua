@@ -483,7 +483,9 @@ function WoWPro:RowUpdate(offset)
         end
 
         -- Set row content
-        currentRow:Show()
+        if not InCombatLockdown() then
+            currentRow:Show()
+        end
         if not InCombatLockdown() then
             currentRow.itembutton:SetScript("OnUpdate", nil)
             currentRow.eabutton:SetScript("OnUpdate", nil)
@@ -495,10 +497,12 @@ function WoWPro:RowUpdate(offset)
         currentRow.note:SetText(note)
         WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
 
-        if step ~= "" then
-            currentRow.check:Show()
-        else
-            currentRow.check:Hide()
+        if not InCombatLockdown() then
+            if step ~= "" then
+                currentRow.check:Show()
+            else
+                currentRow.check:Hide()
+            end
         end
         if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
             if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
@@ -1412,8 +1416,8 @@ SetupTargetButton = function(currentRow, target, module)
         if not InCombatLockdown() then
             currentRow.targetbutton:Hide()
             currentRow.targetbuttonSecured:Hide()
+            WoWPro:PositionTargetUseButtons(currentRow)
         end
-        WoWPro:PositionTargetUseButtons(currentRow)
         return
     end
 
@@ -1430,7 +1434,11 @@ SetupTargetButton = function(currentRow, target, module)
         WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
         macroText = currentRow.targetbutton:GetAttribute("macrotext") or macroText
     else
-        currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        if not InCombatLockdown() then
+            currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        else
+            currentRow.targetbutton._pendingMacro = macroText
+        end
     end
 
     WoWPro:dbp("Target text set to: %s", macroText)
