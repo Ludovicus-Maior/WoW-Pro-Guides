@@ -99,18 +99,18 @@ A The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sa
 C The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|Sit next to the fire using /sit.|
 T The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
 
-A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|IZ|Goldshire|
-A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|SPELL|Leatherworking; 2108|IZ|Goldshire|
-A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|SPELL|Alchemy; 2259|IZ|Goldshire|
-A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|SPELL|Herbalism; 2366|IZ|Goldshire|
-A Camping 101: Mining|QID|97923|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Mining;186|SPELL|Mining; 2575|IZ|Goldshire|
-A Camping 101: Tailoring|QID|97925|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Tailoring;197|SPELL|Tailoring; 3908|IZ|Goldshire|
-A Camping 101: Engineering|QID|97918|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Engineering;202|SPELL|Engineering; 3908|IZ|Goldshire|
-A Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Enchanting;333|SPELL|Enchanting; 7411|IZ|Goldshire|
-A Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Skinning;393|SPELL|Skinning; 8613|IZ|Goldshire|
-A Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|First Aid;129|SPELL|First Aid; 3273|IZ|Goldshire|
+A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Goldshire|
+A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Goldshire|
+A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Goldshire|
+A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Goldshire|
+A Camping 101: Mining|QID|97923|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Goldshire|
+A Camping 101: Tailoring|QID|97925|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Goldshire|
+A Camping 101: Engineering|QID|97918|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Goldshire|
+A Camping 101: Enchanting|QID|97917|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Goldshire|
+A Camping 101: Skinning|QID|97924|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Goldshire|
+A Camping 101: First Aid|QID|97919|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Goldshire|
 A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|
-A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Goldshire|
+A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Goldshire|
 
 T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 T Shhh! We're Hunting Kobolds|QID|91772|M|42.18,65.88|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
@@ -231,7 +231,7 @@ T Red Linen Goods|QID|83|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlai
 T A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429; Elwynn Forest|N|To Supervisor Raelen.|
 A Stolen Enchanting Supplies|QID|91725|M|63.22,72.77|Z|1429; Elwynn Forest|N|From Blizie Fitzwink.|
 A Delicate Instruments|QID|91723|M|65.03,69.82|Z|1429; Elwynn Forest|N|From Hamish Bergwort.|
-A An Enchanting Lesson|QID|91753|M|64.86,70.68|Z|1429; Elwynn Forest|N|From Kitta Firewind.|P|Enchanting;333|SPELL|Enchanting; 7411|
+A An Enchanting Lesson|QID|91753|M|64.86,70.68|Z|1429; Elwynn Forest|N|From Kitta Firewind.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|
 C An Enchanting Lesson|QID|91753|M|62.52,55.54|Z|1429; Elwynn Forest|N|You get  Luminous Residue from DEing Crude Wax Effigies from Geomancers.|S|
 C Delicate Instruments|QID|91723|M|62.52,55.54|Z|1429; Elwynn Forest|N|Kill some Geomancers.|S|
 C Good Steel|QID|91732|M|62.52,55.54|Z|1429; Elwynn Forest|N|Loot the mining equipment. They are little buckets inside the cave.|
