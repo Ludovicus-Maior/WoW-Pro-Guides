@@ -9,24 +9,23 @@ WoWPro:GuideSteps(guide, function() return [[
 
 A The Hunt Begins|QID|747|M|44.46,77.53|Z|1412; Mulgore|N|From Grull Hawkwind.|
 A A Humble Task|QID|752|M|43.92,76.69|Z|1412; Mulgore|N|From Chief Hawkwind.|
-C The Hunt Begins|QID|747|M|47.87,77.76|Z|1412; Mulgore|N|Kill Plainstriders around the camp.|T|Plainstrider|S|
+C The Hunt Begins|QID|747|M|47.87,77.76|Z|1412; Mulgore|N|Kill Plainstriders around the camp.|T|Plainstrider|
 ; lv 2
 T A Humble Task|QID|752|M|48.77,80.93|Z|1412; Mulgore|N|To Greatmother Hawkwind.|
 A A Humble Task|QID|753|PRE|752|M|48.77,80.93|Z|1412; Mulgore|N|From Greatmother Hawkwind.|
 C Water Pitcher|QID|753|M|48.91,81.08|Z|1412; Mulgore|L|4755|N|Click the Water Pitcher on the fountain.|
-C The Hunt Begins|QID|747|M|47.87,77.76|Z|1412; Mulgore|N|Kill Plainstriders around the camp.|T|Plainstrider|US|
 
-T The Hunt Begins|QID|747|M|44.47,77.52|Z|1412; Mulgore|N|To Grull Hawkwind.|
-A Simple Note|QID|3091|PRE|747|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Warrior|
-A Etched Note|QID|3092|PRE|747|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Hunter|
-A Rune-Inscribed Note|QID|3093|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Shaman|
-A Verdant Note|QID|3094|PRE|747|M|44.64,76.62|Z|1412; Mulgore|N|From Grull Hawkwind.|C|Druid|
-A The Hunt Continues|QID|750|PRE|747|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|
+T The Hunt Begins|QID|747|M|44.49,77.52|Z|1412; Mulgore|N|To Grull Hawkwind.|
+A Simple Note|QID|3091|PRE|747|M|44.49,77.52|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Warrior|
+A Etched Note|QID|3092|PRE|747|M|44.45,77.58|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Hunter|
+A Rune-Inscribed Note|QID|3093|M|44.49,77.52|Z|1412; Mulgore|N|From Grull Hawkwind.|R|Tauren|C|Shaman|
+A Verdant Note|QID|3094|PRE|747|M|44.49,77.52|Z|1412; Mulgore|N|From Grull Hawkwind.|C|Druid|
+A The Hunt Continues|QID|750|PRE|747|M|44.49,77.52|Z|1412; Mulgore|N|From Grull Hawkwind.|
 r Sell junk|ACTIVE|3091^3092^3093^3094|M|44.80,77.03|Z|1412; Mulgore|N|You'll need the money for your training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Simple Note|QID|3091|M|44.02,76.13|Z|1412; Mulgore|N|To Harutt Thunderhorn.|
-T Etched Note|QID|3092|M|44.26,75.70|Z|1412; Mulgore|N|To Lanka Farshot.|
-T Rune-Inscribed Note|QID|3093|M|45.01,75.95|Z|1412; Mulgore|N|To Meela Dawnstrider.|
-T Verdant Note|QID|3094|M|45.09,75.94|Z|1412; Mulgore|N|To Gart Mistrunner.|
+T Etched Note|QID|3092|M|44.60,76.59|Z|1412; Mulgore|N|To Lanka Farshot.|
+T Rune-Inscribed Note|QID|3093|M|44.60,76.59|Z|1412; Mulgore|N|To Meela Dawnstrider.|
+T Verdant Note|QID|3094|M|44.60,76.59|Z|1412; Mulgore|N|To Gart Mistrunner.|
 = Level 2 Training|ACTIVE|753|PRE|3091^3092^3093^3094|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 
 T A Humble Task|QID|753|M|43.92,76.69|Z|1412; Mulgore|N|To Chief Hawkwind.|
@@ -40,17 +39,17 @@ A Grace of An'she and Mu'sha|QID|95805|M|42.54,90.10|Z|1412; Mulgore|N|From Seer
 
 T The Hunt Continues|QID|750|M|44.46,77.53|Z|1412; Mulgore|N|To Grull Hawkwind.|
 ; lv 4
-A The Battleboars|QID|780|PRE|750|M|44.87,77.08|Z|1412; Mulgore|N|From Grull Hawkwind.|
+A The Battleboars|QID|780|PRE|750|M|44.45,77.58|Z|1412; Mulgore|N|From Grull Hawkwind.|
 r Sell Junk|AVAILABLE|3376|M|44.80,77.03|Z|1412; Mulgore|N|Sell your junk.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 = Level 4 Training|AVAILABLE|3376|PRE|750|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
-A Break Sharptusk!|QID|3376|M|44.11,76.91|Z|1412; Mulgore|N|From Brave Windfeather, who walks around the camp.|T|Brave Windfeather|
-A Call of Earth|QID|1519|M|44.73,76.19|Z|1412; Mulgore|N|From Seer Ravenfeather.|R|Tauren|C|Shaman|
+A Break Sharptusk!|QID|3376|M|44.43,77.03|Z|1412; Mulgore|N|From Brave Windfeather, who walks around the camp.|T|Brave Windfeather|
+A Call of Earth|QID|1519|M|44.37,76.78|Z|1412; Mulgore|N|From Seer Ravenfeather.|R|Tauren|C|Shaman|
 
 l The Battleboars|ACTIVE|780|QO|1;2|M|56.98,85.95|Z|1412; Mulgore|N|Kill and loot the Battleboars in front of the Brambleblade Ravine entrance.|S|
 T Grace of An'she and Mu'sha|QID|95805|M|56.6,88.7|Z|1412; Mulgore|N|To the campfire.  This is a timed quest.  Do not let it expire while you are killing Battleboars.|
 l The Battleboars|ACTIVE|780|QO|1;2|M|55.05,84.81|Z|1412; Mulgore|N|Kill and loot the Battleboars in front of the Brambleblade Ravine entrance.|US|
 C Rite of Strength|QID|757|M|61.02,76.11|Z|1412; Mulgore|L|4770 12|ITEM|4770|N|Bristleback Quillboars in Brambleblade Ravine.|S|
-C Break Sharptusk!|QID|3376|M|56.50,83.27;58.26,81.76;59.33,80.24;59.32,78.81;61.04,78.00|CS|Z|1412; Mulgore|L|10459|ITEM|10459|N|Sharptusk inside the big building.\n[color=FF0000]NOTE: [/color]After entering Brambleblade Ravine through the tunnel and clearing your way to the building entrance, pull everything from inside first before you you attack Sharptusk.|
+K Sharptusk|ACTIVE|3376|QO|1|M|56.50,83.27;58.26,81.76;59.33,80.24;59.32,78.81;61.04,78.00|CS|Z|1412; Mulgore|L|10459|ITEM|10459|N|Sharptusk inside the big building.\n[color=FF0000]NOTE: [/color]After entering Brambleblade Ravine through the tunnel and clearing your way to the building entrance, pull everything from inside first before you you attack Sharptusk.|
 ; lv 5
 l Dirt-stained Map|AVAILABLE|781|M|59.80,82.26|Z|1412; Mulgore|L|4851|N|Loot the Map from the ground inside the cave.\n[color=FF0000]NOTE: [/color]You'll have to kill a Shaman and possibly "Squealer" Thornmantle (lv 5 rare) to get to it.|
 A Attack on Camp Narache|QID|781|Z|1412; Mulgore|N|From the Dirt-stained Map.|U|4851|O|
@@ -60,42 +59,43 @@ H Camp Narache|ACTIVE|780|M|44.88,77.22|Z|1412; Mulgore|N|Hearth back to Camp Na
 
 T The Battleboars|QID|780|M|44.47,77.52|Z|1412; Mulgore|N|To Grull Hawkwind.|
 T Break Sharptusk!|QID|3376|M|44.16,77.06|Z|1412; Mulgore|N|To Brave Windfeather, who walks around the camp.|
-T Call of Earth|QID|1519|M|44.73,76.19|Z|1412; Mulgore|N|To Seer Ravenfeather.|
-A Call of Earth|QID|1520|PRE|1519|M|44.73,76.19|Z|1412; Mulgore|N|From Seer Ravenfeather.|R|Tauren|C|Shaman|
+T Call of Earth|QID|1519|M|44.37,76.78|Z|1412; Mulgore|N|To Seer Ravenfeather.|
+A Call of Earth|QID|1520|PRE|1519|M|44.37,76.78|Z|1412; Mulgore|N|From Seer Ravenfeather.|R|Tauren|C|Shaman|
 T Rite of Strength|QID|757|M|43.92,76.69|Z|1412; Mulgore|N|To Chief Hawkwind.|
 A Rites of the Earthmother|QID|763|PRE|757|M|43.92,76.69|Z|1412; Mulgore|N|From Chief Hawkwind.|
 T Attack on Camp Narache|QID|781|M|43.92,76.69|Z|1412; Mulgore|N|To Chief Hawkwind.|
+A The Adventurer|QID|96659|M|43.92,76.69|Z|1412; Mulgore|N|From Chief Hawkwind.  This is a new quest to introduce you to the camping system in Forever.|
 
 ; --- Shaman class quest
 R Kodo Rock|QID|1521|M|53.95,80.21|R|Tauren|C|Shaman|
-T Call of Earth|QID|1520|M|53.83,80.57|Z|1412; Mulgore|N|Use the Earth Sapta once you are at Kodo Rock.|U|6635|
-A Call of Earth|QID|1521|PRE|1520|M|53.83,80.57|R|Tauren|C|Shaman|
-T Call of Earth|QID|1521|M|44.73,76.19|Z|1412; Mulgore|N|To Seer Ravenfeather.|
+T Call of Earth|QID|1520|M|51.97,80.52|Z|1412; Mulgore|N|Use the Earth Sapta once you are at Kodo Rock.|U|6635|
+A Call of Earth|QID|1521|PRE|1520|M|51.97,80.52|Z|1412; Mulgore|N|From Minor Manifestation of Earth|R|Tauren|C|Shaman|
+T Call of Earth|QID|1521|M|44.37,76.78|Z|1412; Mulgore|N|To Seer Ravenfeather.|
 N Train other skills|QID|1521|Z|1412; Mulgore|N|You can train the remaining skills.|R|Tauren|C|Shaman|
 ; ---
 
-A The Adventurer|QID|96659|M|43.92,76.69|Z|1412; Mulgore|N|From Chief Hawkwind.  This is a new quest to introduce you to the camping system in Forever.|
 A A Task Unfinished|QID|1656|M|39.20,81.27|Z|1412; Mulgore|N|From Antur Fallow.\n[color=FF0000]NOTE: [/color]Follow the road to the arch at the top of the hill.|
 
-T The Adventurer|QID|96659|M|46.2,67.2|Z|1412; Mulgore|N|Follow the road to the village.|
-A The Great Outdoors|QID|96605|M|46.2,67.2|Z|1412; Mulgore|
-N The Great Outdoors|QID|96605|M|46.2,67.2|Z|1412; Mulgore|N|/Sit next to the campfire for 1 minute to complete the quest. NOTE: Manually check this step once you have obtained the buff and completed the quest, to continue.|
-T The Great Outdoors|QID|96605|M|46.2,67.2|Z|1412; Mulgore|
+T The Adventurer|QID|96659|M|46.22,67.24|Z|1412; Mulgore|N|Follow the road to the village.|
+A The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|
+C The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|/Sit next to the campfire for 1 minute to complete the quest.|
+T The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|To Kaga Wildhoof.|
 
-N Camping 101|ACTIVE|96661|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
-A Camping 101: Cooking|QID|96661|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|
-A Camping 101: First Aid|QID|97931|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|First Aid;129|SPELL|First Aid; 3273|
-A Camping 101: Fishing|QID|97932|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Fishing;356|SPELL|Fishing; 7620|
-A Camping 101: Herbalism|QID|97933|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Herbalism;182|SPELL|Herbalism; 2366|
-A Camping 101: Skinning|QID|97936|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Skinning;393|SPELL|Skinning; 8613|
-A Camping 101: Mining|QID|97935|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Mining;186|SPELL|Mining; 2575|
-A Camping 101: Alchemy|QID|97927|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Alchemy;171|SPELL|Alchemy; 2259|
-A Camping 101: Leatherworking|QID|97934|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Leatherworking;165|SPELL|Leatherworking; 2108|
-A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|
-A Camping 101: Enchanting|QID|97929|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Enchanting;333|SPELL|Enchanting; 7411|
-A Camping 101: Tailoring|QID|97973|PRE|96605|M|46.2,67.2|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Tailoring;197|SPELL|Tailoring; 3908|
+A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Stonebull Lake|
+A Camping 101: Leatherworking|QID|97934|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Stonebull Lake|
+A Camping 101: Alchemy|QID|97927|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Stonebull Lake|
+A Camping 101: Herbalism|QID|97933|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Stonebull Lake|
+A Camping 101: Mining|QID|97935|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Stonebull Lake|
+A Camping 101: Tailoring|QID|97973|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Stonebull Lake|
+A Camping 101: Engineering|QID|97930|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Stonebull Lake|
+A Camping 101: Enchanting|QID|97929|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Stonebull Lake|
+A Camping 101: Skinning|QID|97936|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Stonebull Lake|
+A Camping 101: First Aid|QID|97931|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Stonebull Lake|
+A Camping 101: Cooking|QID|96661|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|
+A Camping 101: Fishing|QID|97932|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Stonebull Lake|
 
 A Dangers of the Windfury|QID|743|M|46.52,65.01|Z|1412; Mulgore|N|From Ruul Eagletalon.|
+A Longwalker Malah|QID|99079|M|46.74,63.47|Z|1412; Mulgore|N|From Brave Wildrunner. He patrols around Bloodhoof Village.|
 A Poison Water|QID|748|M|47.52,63.61|Z|1412; Mulgore|N|From Mull Thunderhorn.|R|Tauren|
 A Sparring Match|QID|99108|M|48.28,63.73|Z|1412; Mulgore|N|From Krang Stonehoof.|
 C Sparring Match|QID|99108|M|48.66,63.72|Z|1412; Mulgore|N|Talk to the Novice Warriors sitting in a circle and select 'I challenge you' to initiate the duel.  Win 3 duels to complete the quest.|
@@ -105,7 +105,6 @@ T Rites of the Earthmother|QID|763|M|46.68,63.41|Z|1412; Mulgore|N|To Baine Bloo
 A Rite of Vision|QID|767|PRE|763|M|46.68,63.41|Z|1412; Mulgore|N|From Baine Bloodhoof.|
 A Sharing the Land|QID|745|M|46.68,63.41|Z|1412; Mulgore|N|From Baine Bloodhoof.|
 A Dwarven Digging|QID|746|M|46.68,63.41|Z|1412; Mulgore|N|From Baine Bloodhoof.|
-A Longwalker Malah|QID|99079|M|46.74,63.47|Z|1412; Mulgore|N|From Brave Wildrunner. He patrols around Bloodhoof Village.|
 T Rite of Vision|QID|767|M|46.88,61.22|Z|1412; Mulgore|N|To Zarlman Two-Moons.|
 A Rite of Vision|QID|771|PRE|767|M|46.88,61.22|Z|1412; Mulgore|N|From Zarlman Two-Moons.|
 A Mazzranache|QID|766|M|46.24,60.80|Z|1412; Mulgore|N|From Maur Raincaller.|
@@ -117,8 +116,8 @@ T A Task Unfinished|QID|1656|M|45.94,64.13|Z|1412; Mulgore|N|To Innkeeper Kauth.
 ; lv 6
 = Level 6 Training|ACTIVE|771|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Bloodhoof Village|
 r Repair/Sell|ACTIVE|771|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
-C Camping 101: Cooking|QID|96661|PRE|96605|M|45.94,64.13|Z|1412; Mulgore|N|To Pyall Silentstride.|IZ|Bloodhoof Village|
-T Camping 101: Cooking|QID|96661|PRE|96605|M|45.94,64.13|Z|1412; Mulgore|N|To Pyall Silentstride.|IZ|Bloodhoof Village|
+C Camping 101: Cooking|QID|96661|PRE|96605|M|44.94,61.67|Z|1412; Mulgore|N|Learn Cooking.|IZ|Bloodhoof Village|
+T Camping 101: Cooking|QID|96661|PRE|96605|M|44.94,61.67|Z|1412; Mulgore|N|To Pyall Silentstride.|IZ|Bloodhoof Village|
 
 l Poison Water|ACTIVE|748|QO|1;2|M|40.08,65.54|Z|1412; Mulgore|N|Kill and loot Prairie Wolves and Plainstriders.|S|
 C Swoop Hunting|QID|761|M|47.00,41.00|Z|1412; Mulgore|L|4769 8|ITEM|4769|N|Swoops.|S|
@@ -128,7 +127,7 @@ C Rite of Vision|QID|771|M|52.03,63.70|Z|1412; Mulgore|L|4809 2|N|Loot Ambercorn
 C Rite of Vision|QID|771|M|51.53,67.97|Z|1412; Mulgore|L|4808 2|N|Clear a spot and loot two Well Stones.\n[color=FF0000]NOTE: [/color]The two on the west side are probably the easiest to get.|
 C Rite of Vision|QID|771|M|50.43,64.15;48.94,68.48;47.79,67.25;41.37,66.61|CS|Z|1412; Mulgore|L|4809 2|N|Loot Ambercorn from under the trees.|US|
 C Chakuyak|QID|96130|M|39.48,66.1;39.31,63.56|CS|Z|1412; Mulgore|N|Kill Chakuyak and loot his pelt. He patrols between the tree stands.|
-C Kyle's Gone Missing!|QID|99411|M|46.98,63.63|Z|1412; Mulgore|N|Feed the Tender Strider Meat to Kyle the Frenzied.  He is the wolf running quickly around Bloodhoof Village. Using the item in your bags will place it on the ground and he will come over and eat.  After a few moments, the quest will complete.|
+C Kyle's Gone Missing!|QID|99411|M|46.98,63.63|Z|1412; Mulgore|N|Feed the Tender Strider Meat to Kyle the Frenzied.  He is the wolf running quickly around Bloodhoof Village. Using the item in your bags will place it on the ground and he will come over and eat.  After a few moments, the quest will complete.|U|287505|
 l Poison Water|ACTIVE|748|QO|1;2|M|40.08,65.54|Z|1412; Mulgore|N|Kill and loot Prairie Wolves and Plainstriders.|US|
 T Poison Water|QID|748|M|47.52,63.61|Z|1412; Mulgore|N|To Mull Thunderhorn.|
 A Winterhoof Cleansing|QID|754|PRE|748|M|47.52,63.61|Z|1412; Mulgore|N|From Mull Thunderhorn.|R|Tauren|
@@ -175,7 +174,7 @@ r Repair/Sell|ACTIVE|756|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors insid
 l Thunderhorn Totem|ACTIVE|756|QO|1;2|M|42.12,47.80|Z|1412; Mulgore|N|Kill and loot Prairie Stalkers and Flatland Cougars.|S|
 A The Longwalkers|QID|98430|M|35.42,65.63;33.84,63.50;32.27,64.13;33.09,65.96|CS|Z|1412; Mulgore|N|From Perith Stormhoof. He is standing on a rock in the middle of a puddle of water, at the end of the cave, waiting for you to help escort him out. Note: This is an escort through a densly populated cave.  If you are not interested, manually check off this step to continue.|
 C The Longwalkers|QID|98430|M|37.19,64.63|Z|1412; Mulgore|
-C Dwarven Digging|QID|746|M|33.6,53.6|Z|1412; Mulgore|L|4702 5|ITEM|4702|N|Dwarves at Bael'dun Digsite.|
+C Dwarven Digging|QID|746|QO|1|M|33.6,53.6|Z|1412; Mulgore|L|4702 5|ITEM|4702|N|Dwarves at Bael'dun Digsite.|
 C Dwarven Digging|QID|746|QO|1|M|33.17,54.83|Z|1412; Mulgore|N|Use the Picks at the forge to destroy them.\n[color=FF0000]NOTE: [/color]You'll want to clear the entire area as quick as you can before they start to respawn.\n\nMake sure you have AT LEAST 1 OPEN BAG SLOT to put the broken tool before you start destroying them.|U|4702|NC|
 * Prospector's Pick|PRE|746|M|31.26,49.83|Z|1412; Mulgore|N|Once you've gotten yourself to a safer location, trash the Prospector's Picks you have left over.|U|4702|O|
 ; lv 9
@@ -190,12 +189,12 @@ T Dwarven Digging|QID|746|M|46.68,63.41|Z|1412; Mulgore|N|To Baine Bloodhoof.|
 r Repair/Sell|ACTIVE|756|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
 
 C Thunderhorn Cleansing|QID|758|M|44.29,51.07|Z|1412; Mulgore|N|Clear a spot beside the well and use the totem.|U|5415|
-A A Sacred Burial|QID|833|M|44.29,51.07|Z|1412; Mulgore|N|From Lorekeeper Raintotem at his camp in Red Rocks.|
+A A Sacred Burial|QID|833|M|57.01,34.56|Z|1412; Mulgore|N|From Lorekeeper Raintotem at his camp in Red Rocks.|
 C A Sacred Burial|QID|833|M|58.2,30.6|Z|1412; Mulgore|N|Kill Bristleback Interlopers.|S|
 T Rite of Wisdom|QID|773|M|58.2,30.6|Z|1412; Mulgore|N|To Ancestral Spirit.|
 A Journey into Thunder Bluff|QID|775|PRE|773|M|58.2,30.6|Z|1412; Mulgore|N|From Ancestral Spirit.\n[color=FF0000]NOTE: [/color]You'll have to clear your way into the camp.|
 C A Sacred Burial|QID|833|M|58.2,30.6|Z|1412; Mulgore|N|Kill Bristleback Interlopers.|US|
-T A Sacred Burial|QID|833|M|44.29,51.07|Z|1412; Mulgore|N|To Lorekeeper Raintotem.|
+T A Sacred Burial|QID|833|M|57.01,34.51|Z|1412; Mulgore|N|To Lorekeeper Raintotem.|
 L Level 10|AVAILABLE|861|M|PLAYER|CC|N|Grind until you're within 2.5 bubbles of level 10.|LVL|9;-700|
 H Bloodhoof Village|ACTIVE|758|M|46.62,61.09|Z|1412; Mulgore|N|Hearth back to Bloodhoof Village if you're hearthstone is available.|
 A The Hunter's Way|QID|861|M|46.07,63.42|Z|1412; Mulgore|N|From Skorn Whitecloud.|LVL|10|
@@ -207,7 +206,7 @@ A Wildmane Totem|QID|759|PRE|758|M|47.52,63.61|Z|1412; Mulgore|N|From Mull Thund
 ; --- Warrior
 A Veteran Uzzek|QID|1505|M|48.28,63.73|Z|1412; Mulgore|N|From Krang Stonehoof.|R|Tauren|C|Warrior|
 ; --- Shaman
-A Call of Fire|QID|2984|M|48.39,59.16|Z|1412; Mulgore|N|From Narm Skychaser.|R|Tauren|C|Shaman|
+A Call of Fire|QID|2984|M|47.42,62.58|Z|1412; Mulgore|N|From Narm Skychaser.|R|Tauren|C|Shaman|
 ; --- Druid
 A Heeding the Call|QID|5926^5927^5928|M|48.48,59.65|Z|1412; Mulgore|N|From Gennia Runetotem.|C|Druid| ; Multiple QIDs... 5928 is the one you get here - Hendo72
 ; --- Hunter {Tame pet quest chain}
@@ -226,7 +225,21 @@ R Thunder Bluff|QID|775|M|36.11,28.92|Z|1412; Mulgore|N|Run to Thunder Bluff and
 A Preparation for Ceremony|QID|744|M|37.69,59.57|Z|1456; Thunder Bluff|N|From Eyahn Eagletalon.|
 A Traditions of the Bluff|QID|97485|M|38.07,56.21|Z|1456; Thunder Bluff|N|From Eylah Sunhorn.|
 A Stalk With The Earthmother|QID|76156|M|39.61,65.72|Z|1456; Thunder Bluff|N|From Boarton Shadetotem.|
-N Traditions of the Bluff|QID|97485|M|46.83,45.96;44.99,39.19;49.47,39.42;51.00,52.3|CS|Z|1456; Thunder Bluff|N|Buy Sinew Thread from Mahu in the big tent at WP 1, Bundle of Dried Cedar Twigs from Nata Dawstrider at WP 2, and Bundle of Herbs from Nida Winterhoof at WP 3 - all on the middle level.  Continue to the top level and buy Ceremonial Flint and Tinder from Naal Mistrunner at WP 4. Once you have obtained all 4 items, right click on one in your bag to combine them. Manually check off this step once completed to continue.|
+B Sinew Thread|QID|97485|M|43.78,44.79|Z|1456; Thunder Bluff|L|278081|N|Buy the Sinew Thread from Mahu in the big tent.|
+B Bundle of Dried Cedar Twigs|QID|97485|M|45.18,38.99|Z|1456; Thunder Bluff|L|278080|N|Buy the Bundle of Dried Cedar Twigs from Nata Dawstrider.|
+B Bundle of Herbs|QID|97485|M|49.47,39.42|Z|1456; Thunder Bluff|L|278079|N|Buy the Bundle of Herbs from Nida Winterhoof.|
+B Ceremonial Flint and Tinder|QID|97485|M|51.00,52.30|Z|1456; Thunder Bluff|L|278083|N|Buy the Ceremonial Flint and Tinder from Naal Mistrunner.|
+C Ceremonial Flint and Tinder|QID|97485|QO|1|M|PLAYER|Z|1456; Thunder Bluff|N|Use one of the items to create the incense.|U|278083|
+C Traditions of the Bluff|QID|97485|QO|2|M|53.09,87.85|Z|1456; Thunder Bluff|N|Sprinkle the incense off Hunters Rise.|U|278078|
+
+
+
+
+
+
+
+
+
 ; --- Complete Hunter {Tame pet quest chain}
 T Training the Beast|QID|6089|M|57.29,89.75|Z|1456; Thunder Bluff|N|To Holt Thunderhorn.|
 ; ---
@@ -268,7 +281,7 @@ C Preparation for Ceremony|QID|744|QO|1;2|M|39.88,18.98|Z|1412; Mulgore|N|Kill a
 C Rites of the Earthmother|QID|776|M|47.80,28.78|Z|1412; Mulgore|L|4841|ITEM|4841|N|Arra'chea.NOTE He travels clockwise through the plains in this area.\nFind a clear spot to attack him.|T|Arra'chea|
 C Wildmane Totem|QID|759|M|50.91,14.50|Z|1412; Mulgore|L|4803 8|ITEM|4803|N|Prairie Wolf Alphas.NOTE They are spread all over the area.|US|
 C The Hunter's Way|QID|861|QO|1|M|53.19,34.87|Z|1412; Mulgore|L|5203 4|ITEM|5203|N|Flatland Prowlers.NOTE They are spread all over the area.|US|
-R The Venture Co. Mine|ACTIVE|764|M|47.80,28.78|Z|1412; Mulgore|N|Run to the Venture Co. Mine.|
+R The Venture Co. Mine|ACTIVE|764|M|64.29,42.24|Z|1412; Mulgore|N|Run to the Venture Co. Mine.|
 C The Venture Co.|QID|764|M|64.29,42.24|Z|1412; Mulgore|N|Kill the required Venture Co. Workers and Supervisors.|S|
 C Stalk With The Earthmother|QID|76156|M|64.29,42.24|Z|1412; Mulgore|N|Loot the Mining Charges from the carts in the cave.|S|
 N Stalk With The Earthmother|N|Right click on the Venture Co Disguise in your bag to put on your 'disguise'. Manually check off this step to continue.|
@@ -276,7 +289,7 @@ C Supervisor Fizsprocket|QID|765|M|57.72,54.8;58.31,52.54;60.24,49.98;61.16,49.4
 A Fizsprocket's Notes|QID|98424|N|Right click on the Mulgore Expansion Plans to accept the quest.|
 C Fizsprocket's Notes|QID|98424|M|60.37,49.99;58.97,46.46;59.11,48.18;58.62,47.3;61.64,47.01|CS|Z|1412; Mulgore|N|Click on the quest items on the ground at the waypoint locations.|
 C The Venture Co.|QID|764|M|60.47,49.65|Z|1412; Mulgore|N|Kill the required Venture Co. Workers and Supervisors.|US|
-C Stalk With The Earthmother|QID|76156|M|64.29,42.24|Z|1412; Mulgore|N|Loot the Mining Charges from the carts in the cave.|S|
+C Stalk With The Earthmother|QID|76156|M|64.29,42.24|Z|1412; Mulgore|N|Loot the Mining Charges from the carts in the cave.|US|
 R Exit the Mines|M|59.56,46.45;57.13,49.11;56.70,49.77|CC|Z|1412; Mulgore|N|Follow the waypoints to exit the mine.|
 C Drive Them Out|QID|99080|M|60.51,59.75|Z|1412; Mulgore|N|Kill the required centaurs.|
 T The Venture Co.|QID|764|M|69.71,60.63|Z|1412; Mulgore|N|To Morin Cloudstalker on the road.\n[color=FF0000]NOTE: [/color]Start at the intersection unless you know where to begin looking for him.|T|Morin Cloudstalker|
@@ -301,9 +314,10 @@ T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cair
 T The High Chieftain|QID|99082|M|60.26,51.69|Z|1456; Thunder Bluff|N|To Cairne Bloodhoof.|
 = Level 12 Training|ACTIVE|760|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Thunder Bluff|
 
-R Wildmane Water Well|ACTIVE|760|M|42.31,15.37|Z|1412; Mulgore|N|Use the lifts on the north side to exit Thunder Bluff and head north.|
+R Wildmane Water Well|ACTIVE|760|M|42.17,25.60|Z|1412; Mulgore|N|Use the lifts on the north side to exit Thunder Bluff and head north.|
 C Wildmane Cleansing|QID|760|M|42.4,24.9|Z|1412; Mulgore|N|Clear your way to the well and use the Wildmane Totem.\n\n[color=FF0000]NOTE: [/color]Pulling the Supervisor will draw EVERYONE around him.|U|5416|NC|
-C Stalk With The Earthmother|QID|76160|M|38.1,21.9|Z|1412; Mulgore|N|Gather 8 Windfury Cones from the ground under the trees and then right click on the Mortar and Pestle in your inventory to complete the quest.|
+l Windfury Cone|ACTIVE|760|M|37.91,21.94|Z|1412; Mulgore|L|206170|N|Loot the Windfury Cone under the trees.|
+C Stalk With The Earthmother|QID|76160|M|38.1,21.9|Z|1412; Mulgore|N|Gather 8 Windfury Cones from the ground under the trees and then right click on the Mortar and Pestle in your inventory to complete the quest.|U|206617|
 R Thunder Bluff|M|39.3,29.4|Z|1412; Mulgore|N|Run to Thunder Bluff and go up the lift.|
 T Stalk With The Earthmother|QID|76160|M|39.61,65.72|Z|1456; Thunder Bluff|N|To Boarton Shadetotem.|
 A Stalk with The Earthmother|QID|76240|M|39.61,65.72|Z|1456; Thunder Bluff|N|From Boarton Shadetotem.|

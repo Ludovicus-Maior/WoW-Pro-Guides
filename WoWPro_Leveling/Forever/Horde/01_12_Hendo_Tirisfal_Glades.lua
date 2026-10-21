@@ -93,18 +93,18 @@ T The Adventurer|QID|96656|M|57.22,55.48|Z|1420; Tirisfal Glades|N|To Eleanor Sh
 A The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|
 C The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|/sit at the fire.|T|Eleanor Shackleton,sit|
 T The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|To Eleanor Shackleton.|
-A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018|IZ|Tirisfal Glades|
-A Camping 101: Leatherworking|QID|97958|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Leatherworking;165|SPELL|Leatherworking; 2108|IZ|Tirisfal Glades|
-A Camping 101: Alchemy|QID|97951|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Alchemy;171|SPELL|Alchemy; 2259|IZ|Tirisfal Glades|
-A Camping 101: Herbalism|QID|97957|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Herbalism;182|SPELL|Herbalism; 2366|IZ|Tirisfal Glades|
-A Camping 101: Mining|QID|97959|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Mining;186|SPELL|Mining; 2575|IZ|Tirisfal Glades|
-A Camping 101: Tailoring|QID|97961|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Tailoring;197|SPELL|Tailoring; 3908|IZ|Tirisfal Glades|
-A Camping 101: Engineering|QID|97954|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Engineering;202|SPELL|Engineering; 3908|IZ|Tirisfal Glades|
-A Camping 101: Enchanting|QID|97953|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Enchanting;333|SPELL|Enchanting; 7411|IZ|Tirisfal Glades|
-A Camping 101: Skinning|QID|97960|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Skinning;393|SPELL|Skinning; 8613|IZ|Tirisfal Glades|
-A Camping 101: First Aid|QID|97955|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|First Aid;129|SPELL|First Aid; 3273|IZ|Tirisfal Glades|
+A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Tirisfal Glades|
+A Camping 101: Leatherworking|QID|97958|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Tirisfal Glades|
+A Camping 101: Alchemy|QID|97951|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Tirisfal Glades|
+A Camping 101: Herbalism|QID|97957|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Tirisfal Glades|
+A Camping 101: Mining|QID|97959|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Tirisfal Glades|
+A Camping 101: Tailoring|QID|97961|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Tirisfal Glades|
+A Camping 101: Engineering|QID|97954|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Tirisfal Glades|
+A Camping 101: Enchanting|QID|97953|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Tirisfal Glades|
+A Camping 101: Skinning|QID|97960|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Tirisfal Glades|
+A Camping 101: First Aid|QID|97955|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Tirisfal Glades|
 A Camping 101: Cooking|QID|96658|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|
-A Camping 101: Fishing|QID|97956|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Fishing;356|SPELL|Fishing; 7620|IZ|Tirisfal Glades|
+A Camping 101: Fishing|QID|97956|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Tirisfal Glades|
 R Brill|AVAILABLE|404|M|58.03,51.70|Z|1420; Tirisfal Glades|N|Continue following the road east to Brill.|
 A A Putrid Task|QID|404|M|58.19,51.44|Z|1420; Tirisfal Glades|N|From Deathguard Dillinger outside the cemetery.|
 A Sticks and Bones|QID|86784|M|58.43,51.43|Z|1420; Tirisfal Glades|N|From Deathguard Bartholomew.|
