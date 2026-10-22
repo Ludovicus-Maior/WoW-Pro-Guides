@@ -1,4 +1,4 @@
-## Interface: 11509
+## Interface: 16001
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -8,6 +8,7 @@
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## DefaultState: disabled
+## ExcludeLoadGameType: forever
 WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
