@@ -2350,7 +2350,6 @@ function WoWPro:MainFrameMouseHandler()
             end
         end)
         BB.Buttons[5]:SetScript("OnClick", function()
-            WoWPro:Print("Discord button clicked")
             local ok, err = pcall(function() WoWPro:ToggleWindow(5) end)
             if not ok then WoWPro:Print("ToggleWindow error:", tostring(err)) end
         end)
