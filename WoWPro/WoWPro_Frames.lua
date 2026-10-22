@@ -2030,7 +2030,6 @@ end
 
 -- Helper function to manage mutual exclusion and toggle navigation windows
 function WoWPro:ToggleWindow(buttonIndex)
-    WoWPro:Print("ToggleWindow: entered %s", tostring(buttonIndex))
     local select  = WoWPro.GuideList
     local current = WoWPro.CurrentGuideFrame
     local discord = WoWPro.DiscordDialog
