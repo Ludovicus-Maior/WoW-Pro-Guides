@@ -13,9 +13,14 @@ function WoWPro:OnEnableEvents()
     WoWPro:dbp("Registering Events: Core Addon")
     WoWPro.FirstUpdatePending = true
     WoWPro:RegisterEvents(nil)
+    WoWPro:RegisterMessage("WoWPro_AnchorStoreRequested", "HandleAnchorStoreRequest")
     WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU", 0.333, WoWPro.PuntedQLU)
     -- EventFrame is created earlier in WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+end
+
+function WoWPro:HandleAnchorStoreRequest(_, reason, expansionAnchorOverride)
+    WoWPro.AnchorStore(reason, expansionAnchorOverride)
 end
 
 -- Event Registration Functions --
@@ -254,12 +259,12 @@ function WoWPro:InitializeHearthBind()
 end
 
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end, true)
-WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end, true)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event)
     WoWPro:InitializeHearthBind()
     return
-end, true)
-WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end, true)
+end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end)
 
 WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
     WoWPro:UpdateGuide(event)
@@ -820,7 +825,11 @@ WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
 end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local row = WoWPro.rows and WoWPro.rows[WoWPro:GetActiveStickyCount()+1]
+    local qidx = row and row.index
+    if not qidx then
+        return
+    end
     local action = WoWPro.action[qidx]
     if action == "F" or action == "b" or action == "R" then
         if _G.UnitOnTaxi("player") then
@@ -835,17 +844,13 @@ end
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_GAINED", function(event, ...)
     if WoWPro.TaxiPendingStep then
         if not _G.UnitOnTaxi("player") then
-            local currentindex = WoWPro.rows[1+WoWPro:GetActiveStickyCount()].index
-            if currentindex == WoWPro.TaxiPendingStep then
-                local completed = WoWPro.AutoCompleteZone("PLAYER_CONTROL_GAINED")
-                if completed then
-                    WoWPro:dbp("PLAYER_CONTROL_GAINED: completed pending taxi step %d", WoWPro.TaxiPendingStep)
-                    WoWPro.TaxiPendingStep = nil
-                else
-                    WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d ended but destination not reached", WoWPro.TaxiPendingStep)
-                end
+            local pendingStep = WoWPro.TaxiPendingStep
+            local completed = WoWPro.AutoCompleteZone(pendingStep)
+            if completed then
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: completed pending taxi step %d", pendingStep)
+                WoWPro.TaxiPendingStep = nil
             else
-                WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d is not the current active step %d", WoWPro.TaxiPendingStep, currentindex)
+                WoWPro:dbp("PLAYER_CONTROL_GAINED: pending taxi step %d ended but destination not reached", pendingStep)
             end
         else
             WoWPro:dbp("PLAYER_CONTROL_GAINED: still on taxi, waiting for disembark")
@@ -932,6 +937,3 @@ function WoWPro.DelayedEventHandler(frame,event)
         WoWPro.EventHandler(frame,event)
     end)
 end
-
-
-

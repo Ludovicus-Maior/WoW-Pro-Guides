@@ -175,11 +175,11 @@ end
 
 -- Auto-Complete: Do we have a buff? --
 function WoWPro.AutoCompleteBuff(unit, ...)
-    if unit ~= "player" then return end
+    if unit ~= "player" or not WoWPro.rows then return end
     for i = 1,15 do
         local index = WoWPro.rows[i].index
         if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
-            -- Log only the usefull ones!
+            -- Log only the useful ones!
             WoWPro:LogEvent("UNIT_AURA", unit, ...)
             WoWPro.CompleteStep(index, "AutoCompleteBuff", nil, "AutoCompleteBuff")
         end
@@ -442,13 +442,43 @@ function WoWPro:AutoCompleteSetHearth(event, loc, noUpdate)
 end
 
 -- Auto-Complete: Zone based --
+function WoWPro.ScheduleTaxiCompletion(index)
+    WoWPro.TaxiPendingStep = index
+    if WoWPro.TaxiCompletionTimer then return end
+
+    WoWPro.TaxiCompletionTimer = true
+    WoWPro.TaxiCompletionAttempts = 0
+    local function retry()
+        if WoWPro.TaxiPendingStep ~= index then
+            WoWPro.TaxiCompletionTimer = nil
+            return
+        end
+
+        WoWPro.TaxiCompletionAttempts = WoWPro.TaxiCompletionAttempts + 1
+        if not _G.UnitOnTaxi("player") then
+            if WoWPro.AutoCompleteZone(index) or WoWPro.TaxiCompletionAttempts >= 10 then
+                WoWPro.TaxiPendingStep = nil
+                WoWPro.TaxiCompletionTimer = nil
+                return
+            end
+        end
+
+        _G.C_Timer.After(0.5, retry)
+    end
+
+    _G.C_Timer.After(0.5, retry)
+end
+
 function WoWPro.AutoCompleteZone(index)
     local currentindex = index
     if not currentindex then
-        if not WoWPro.rows then return false end
-        local row = WoWPro.rows[1+WoWPro:GetActiveStickyCount()]
-        if not row or not row.index then return false end
-        currentindex = row.index
+        currentindex = WoWPro.ActiveStep
+        if not currentindex then
+            if not WoWPro.rows then return false end
+            local row = WoWPro.rows[1+WoWPro:GetActiveStickyCount()]
+            if not row or not row.index then return false end
+            currentindex = row.index
+        end
     end
     local action = WoWPro.action[currentindex] or "?"
     local step = WoWPro.step[currentindex] or "?"
@@ -456,7 +486,14 @@ function WoWPro.AutoCompleteZone(index)
     local zoneTag = select(1, (";"):split(targetzone)) or targetzone
     zoneTag = zoneTag:trim()
     local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
+    local _, _, mapId = WoWPro:GetPlayerZonePosition()
     WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
+    if action == "F" and _G.UnitOnTaxi("player") then
+        if currentindex == WoWPro.ActiveStep or currentindex == WoWPro.TaxiPendingStep then
+            WoWPro.ScheduleTaxiCompletion(currentindex)
+        end
+        return false
+    end
     if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
         if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
             if (step == zonetext) or (step == subzonetext) then
@@ -467,7 +504,6 @@ function WoWPro.AutoCompleteZone(index)
                     WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone, nil, "AutoCompleteZone")
                 return true
             end
-            local _, _, mapId = WoWPro:GetPlayerZonePosition()
             if (tonumber(zoneTag) and tonumber(zoneTag) == mapId) then
                     WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone, nil, "AutoCompleteZone")
                 return true
