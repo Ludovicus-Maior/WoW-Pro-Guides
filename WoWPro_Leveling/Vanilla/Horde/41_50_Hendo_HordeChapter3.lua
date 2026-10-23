@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicHorde4050', 'Leveling', 'Stranglethorn Vale', 'WoWPro Team', 'Horde', 1)
 WoWPro:GuideName(guide, 'Horde Chapter 3')
 WoWPro:GuideLevels(guide,40, 50)
-WoWPro:GuideNextGuide(guide, 'ClassicUngoro5153')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Azshara')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -135,8 +135,8 @@ R Stonard|ACTIVE|1430|M|46.45,51.43|Z|1435; Swamp of Sorrows|N|Return to Stonard
 T Fresh Meat|QID|1430|M|44.71,57.22|Z|1435; Swamp of Sorrows|N|To Dar.|
 
 ; --- Stranglethorn Vale
-F Grom'gol|ACTIVE|572|M|46.08,54.82|Z|1435; Swamp of Sorrows|N|Fly to Grom'gol Base Camp to resume your Stranglethorn Vale questing.|
-R Southern Savage Coast|ACTIVE|572|M|32.62,35.53|Z|1434; Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
+F Grom'gol|ACTIVE|572|M|46.08,54.82|Z|1435; Swamp of Sorrows|N|Fly to Grom'gol to resume your Stranglethorn Vale questing.|TZ|Grom'gol Base Camp|
+R Southern Savage Coast|ACTIVE|572|QO|1|M|32.62,35.53|Z|1434; Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|ITEM|3863|N|Jungle Stalkers|S|
 C Raptor Mastery|QID|196|M|33.63,37.87|Z|1434; Stranglethorn Vale|N|Kill Jungle Stalkers.|
 C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|ITEM|3863|N|Jungle Stalkers|US|
@@ -161,109 +161,113 @@ A The Bloodsail Buccaneers|QID|597|PRE|595|M|27.28,69.52|Z|1434; Stranglethorn V
 C Akiris by the Bundle|QID|617|M|26.05,61.53|Z|1434; Stranglethorn Vale|L|4029 10|ITEM|4029|N|any Naga in the area.\n[color=FF0000]NOTE: [/color]Work your way around the island to the path on the west side. You can either go up the path or continue along the shoreline until you meet the path on the north side.\nIf you find this area too crowded, there is a second path just before the bridge on the north side.|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|S|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|S|
-l Gorilla Fang|ACTIVE|348|M|31.67,60.14|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|S|
-N Stranglethorn Fever|ACTIVE|348|N|At your current level, completing "Stranglethorn Fever" may be challenging. Consider leveling up or gathering additional Gorilla Fangs before attempting the quest.\nFinding a group of players to assist with the encounter can also increase your chances of success.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Mistvale Valley|ACTIVE|348|M|33.19,62.69|Z|1434; Stranglethorn Vale|N|Head west towards the road and the entrance is just on the other side of the road.|IZ|-Spirit Den|
-l Gorilla Fang|ACTIVE|348|M|33.29,63.39|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|US|
-R Spirit Den|ACTIVE|348|M|34.63,62.42|Z|1434; Stranglethorn Vale|L|2797|N|Locate the path on the north side of Mistvale Valley.\n[color=FF0000]NOTE: [/color]Be mindful that someone may have already started the encounter and be progressing through the waves along the same route. If you cross paths with their mobs, you could draw their aggro and become the target of their attacks.|
-C Stranglethorn Fever|ACTIVE|348|M|35.26,60.39|Z|1434; Stranglethorn Vale|L|2797|ITEM|2797|N|Mokk the Savage in the final wave.\nGive the Gorilla Fangs to Witch Doctor Unbagwa when you're ready to start the 3 waves of gorilla attacks.\nThe waves are as follows:\n- a group of Enraged Silverback Gorilla, \n- Konda with a group of Enraged Silverback Gorillas, and finally\n- Mokk the Savage with yet another group of Enraged Silverback Gorillas.\n[color=FF0000]NOTE: [/color]If Witch Doctor Unbagwa dies, you fail and have to start again with 10 more Gorilla Fangs.\nRemember to heal and recharge between waves.\nIn the last wave, focus on Killing Mokk the Savage. If you fail, at least you can loot the Heart without rerunning the gauntlet.|IZ|Spirit Den^Mistvale Valley|
+l Gorilla Fangs|ACTIVE|348&606|M|31.67,60.14|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|S|
+R Mistvale Valley|ACTIVE|348&606|M|33.19,62.69|Z|1434; Stranglethorn Vale|N|Head west towards the road and the entrance is just on the other side of the road.|IZ|-Spirit Den|
 C Scaring Shaky|QID|606|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3919 5|ITEM|3919|N|Elder Mistvale Gorillas|US|
 C Mok'thardin's Enchantment|QID|571|M|33.53,64.82|Z|1434; Stranglethorn Vale|L|3862|ITEM|3862|N|Elder Mistvale Gorillas\n[color=FF0000]NOTE: [/color]The drop rate is not very good.|US|
-R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434; Stranglethorn Vale|
+N Stranglethorn Fever|ACTIVE|348&606|N|At your current level, completing "Stranglethorn Fever" may be challenging. Consider leveling up or gathering additional Gorilla Fangs before attempting the quest.\nFinding a group of players to assist with the encounter can also increase your chances of success.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+l Gorilla Fangs|ACTIVE|348&606|M|33.29,63.39|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|US|
+R Spirit Den|ACTIVE|348&606|M|34.63,62.42|Z|1434; Stranglethorn Vale|L|2797|N|Locate the path on the north side of Mistvale Valley.\n[color=FF0000]NOTE: [/color]Be mindful that someone may have already started the encounter and be progressing through the waves along the same route. If you cross paths with their mobs, you could draw their aggro and become the target of their attacks.|
+C Stranglethorn Fever|ACTIVE|348&606|M|35.26,60.39|Z|1434; Stranglethorn Vale|L|2797|ITEM|2797|N|Mokk the Savage in the final wave.\nGive the Gorilla Fangs to Witch Doctor Unbagwa when you're ready to start the 3 waves of gorilla attacks.\nThe waves are as follows:\n- a group of 4 Enraged Silverback Gorilla, \n- Konda with a group of 4 Enraged Silverback Gorillas, and finally\n- Mokk the Savage with yet another group of 4 Enraged Silverback Gorillas.\n[color=FF0000]NOTE: [/color]If Witch Doctor Unbagwa dies, you fail and have to start again with 10 more Gorilla Fangs.\nRemember to heal and recharge between waves.\nIn the last wave, focus on Killing Mokk the Savage. If you fail, at least you can loot the Heart without rerunning the gauntlet.\n \nIf you cannot find a group to help and you find this too tough to solo, skip this step for now and you'll get another opportunity before you leave the area.|IZ|Spirit Den^Mistvale Valley|
+R Booty Bay|ACTIVE|606|M|29.34,72.83|Z|1434; Stranglethorn Vale|N|Return to Booty Bay.\n[color=FF0000]You can use your hearth, but the steps will be out of order.|
 T Scaring Shaky|QID|606|M|26.89,73.59|Z|1434; Stranglethorn Vale|N|"Shaky" Phillipe is at the bottom of the ramp as you enter Booty Bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|PRE|606|M|26.89,73.59|Z|1434; Stranglethorn Vale|N|From "Shaky" Phillipe.|
 T The Bloodsail Buccaneers|QID|597|M|28.10,76.22|Z|1434; Stranglethorn Vale|N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers|QID|599|PRE|597|M|28.10,76.22|Z|1434; Stranglethorn Vale|N|From First Mate Crazz.|
-T Stranglethorn Fever|QID|348|M|27.61,76.73|Z|1434; Stranglethorn Vale|N|To Fin Fitzracket.|
+t Stranglethorn Fever|QID|348|M|27.61,76.73|Z|1434; Stranglethorn Vale|N|To Fin Fitzracket.|IZ|Booty Bay|
 T Return to MacKinley|QID|607|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
 A Voodoo Dues|QID|609|PRE|607|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
+T Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434; Stranglethorn Vale|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]You may see him on your way to the Inn; he paths up there every so often.|S|IZ|-The Salty Sailor Tavern|
 A Up to Snuff|QID|587|PRE|595|M|26.92,77.35|Z|1434; Stranglethorn Vale|N|From Deeg at the top of the inn.|
-T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|Z|1434; Stranglethorn Vale|N|To Fleet Master Seahorn on the balcony at the top of the Tavern .|
+T The Bloodsail Buccaneers|QID|599|M|27.18,77.01|Z|1434; Stranglethorn Vale|N|To Fleet Master Seahorn on the balcony at the top of the Tavern.|
 A The Bloodsail Buccaneers|QID|604|PRE|599|M|27.18,77.01|Z|1434; Stranglethorn Vale|N|From Fleet Master Seahorn.|
-T Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434; Stranglethorn Vale|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|
+T Akiris by the Bundle|QID|617|M|26.76,76.38|Z|1434; Stranglethorn Vale|N|To Privateer Bloads.\n[color=FF0000]NOTE: [/color]If he's not here, check at the top of the ramp. He paths up there every so often.|US|
 A Keep An Eye Out|QID|576|PRE|595|M|28.2,76.3;28.59,75.90|CC|Z|1434; Stranglethorn Vale|N|From Dizzy One-Eye.\n[color=FF0000]NOTE: [/color]He's on the second level, in the corner just to the south of the Booty Bay Blacksmith.|
-C Keep An Eye Out|QID|576|M|31.24,80.69|Z|1434; Stranglethorn Vale|L|3897|ITEM|3897|N|Any Bloodsail Buccaneer|S!US|
-R The Cape of Stranglethorn|ACTIVE|604|M|29.41,72.73|Z|1434; Stranglethorn Vale|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
-C Up to Snuff|QID|587|M|31.24,80.69|Z|1434; Stranglethorn Vale|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|S|
-R Wild Shore|ACTIVE|604|M|32.53,72.89|Z|1434; Stranglethorn Vale|N|Head east down the hill towards the water.|
-K Bloodsail Swashbucklers|ACTIVE|604|QO|1|M|30.24,81.14|CC|Z|1434; Stranglethorn Vale|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
+C Keep An Eye Out|QID|576|M|31.24,80.69|Z|1434; Stranglethorn Vale|L|3897|ITEM|3897|N|any Bloodsail Buccaneer|S!US|
+R The Cape of Stranglethorn|ACTIVE|604|QO|1|M|29.41,72.73|Z|1434; Stranglethorn Vale|N|Depending on which level you're standing on, make your way through the tunnel to the other side.|IZ|Booty Bay|
+C Up to Snuff|QID|587|M|31.24,80.69|Z|1434; Stranglethorn Vale|L|3910 15|ITEM|3910|N|any Bloodsail Buccaneer|S|
+R Wild Shore|ACTIVE|604|QO|1|M|32.53,72.89|Z|1434; Stranglethorn Vale|N|Head east down the hill towards the water.|
+C Bloodsail Swashbucklers|QID|604|QO|1|M|30.24,81.14|CC|Z|1434; Stranglethorn Vale|N|Kill Swashbucklers in the area.|T|Bloodsail Swashbuckler|S|
 l The Bloodsail Buccaneers|ACTIVE|604|QO|2;3|M|29.58,80.84;27.74,83.13;27.15,82.69|CS|Z|1434; Stranglethorn Vale|N|Check the two camps and the boat (3 waypoints) for the Orders and Charts.| ; Hendo72 - Using CS because CN provides no forward motion.|
-K Bloodsail Swashbucklers|ACTIVE|604|QO|1|M|30.24,81.14|Z|1434; Stranglethorn Vale|N|Finish Killing Swashbucklers in the area.|T|Bloodsail Swashbuckler|US|
+C Bloodsail Swashbucklers|QID|604|QO|1|M|30.24,81.14|Z|1434; Stranglethorn Vale|N|Finish Killing Swashbucklers in the area.|T|Bloodsail Swashbuckler|US|
 C Up to Snuff|QID|587|M|31.24,80.69|Z|1434; Stranglethorn Vale|L|3910 15|ITEM|3910|N|Any Bloodsail Buccaneer|US|
-R Booty Bay|ACTIVE|604|M|29.34,72.83|Z|1434; Stranglethorn Vale|
+R Booty Bay|ACTIVE|604|M|29.34,72.83|Z|1434; Stranglethorn Vale|N|Return to Booty Bay.|
 t Keep An Eye Out|QID|576|M|28.59,75.90|Z|1434; Stranglethorn Vale|N|To Dizzy One-Eye.|IZ|Booty Bay|
 N Bank|ACTIVE|571|M|26.56,76.50|Z|1434; Stranglethorn Vale|N|Make sure you grab any items that you put away when you left the area earlier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 N Auctioneer O'reely|AVAILABLE|339^340^341^342|M|26.59,76.35|Z|1434; Stranglethorn Vale|N|Check the auction house for any Stranglethorn pages you're missing while you're here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Booty Bay|
 T Up to Snuff|QID|587|M|26.92,77.35|Z|1434; Stranglethorn Vale|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|PRE|189|M|27.00,77.13|Z|1434; Stranglethorn Vale|N|From Kebok.|
 T The Bloodsail Buccaneers|QID|604|M|27.18,77.01|Z|1434; Stranglethorn Vale|N|To Fleet Master Seahorn.|
-A The Bloodsail Buccaneers.|QID|608|PRE|604| ; -- Breaking Auto-accept - Hendo72|M|27.18,77.01|Z|1434; Stranglethorn Vale|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Fleet Master Seahorn.\n[color=FF0000]NOTE: [/color]Manually Accept or Decline this step to continue.|
-F Grom'gol|ACTIVE|571|M|26.87,77.10|Z|1434; Stranglethorn Vale|
+A The Bloodsail Buccaneers|QID|608|PRE|604|M|27.18,77.01|Z|1434; Stranglethorn Vale|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Fleet Master Seahorn.|
+F Grom'gol|ACTIVE|571|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Fly to Grom'gol.|TZ|Grom'gol Base Camp|
 T Mok'thardin's Enchantment|QID|571|M|32.12,29.24|Z|1434; Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|573|PRE|571|M|32.12,29.24|Z|1434; Stranglethorn Vale|N|From Far Seer Mok'thardin.|
-R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|CC|Z|1434; Stranglethorn Vale|N|Make your way to the Bal'lal Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.47,10.40|CC|Z|1434; Stranglethorn Vale|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by using the hills and walls.|
+R Bal'lal Ruins|ACTIVE|584|QO|1;2|M|29.12,18.28|Z|1434; Stranglethorn Vale|N|Make your way to the Bal'lal Ruins.|
+R Ruins of Zul'Kunda|ACTIVE|584|QO|1;2|M|30.03,13.07;27.47,10.40|CC|Z|1434; Stranglethorn Vale|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by using the hills and walls.|
 R Easiest route|ACTIVE|584|QO|1;2|M|26.35,8.09;24.88,7.95;24.88,7.95|CS|Z|1434; Stranglethorn Vale|N|If you follow the hills along the wall on the right side, you can drop onto the wall in the corner (this make take a couple tries). There is a ledge along the north wall you can walk along to where the waterfall is.\n[color=FF0000]NOTE: [/color]If you fall off the ledge or the waterfall, there is no way back up.|
 K Gan'zulah|ACTIVE|584|M|23.26,8.72|Z|1434; Stranglethorn Vale|L|3904|ITEM|3904|N|Gan'zulah\nStanding on the wall, start pulling the mobs closest to you until Gan'zulah is alone, or joins the fight.|
 K Nezzliok|ACTIVE|584|M|23.26,9.77|Z|1434; Stranglethorn Vale|L|3905|ITEM|3905|N|Nezzliok\nTurning south, begin pulling the mobs around him until he is the only one left or he joins the fight.|
-R Nesingwary's Expedition|ACTIVE|584^196^338|M|34.91,11.00|Z|1434; Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in.\nOnce you're out of the Ruins, make your way to the Nesingwary's Expedition.|
-A The Green Hills of Stranglethorn|QID|338|PRE|583| ; In case it's not picked up yet - Hendo72|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
-A Chapter I|QID|339|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
-T Chapter I|QID|339|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Takes pages 1, 4, 6, and 8. To Barnil Stonepot.|
-A Chapter II|QID|340|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
-T Chapter II|QID|340|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Takes pages 10,11,14, and 16. To Barnil Stonepot.|
-A Chapter III|QID|341|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
-T Chapter III|QID|341|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Takes pages 18, 20, 21, and 24. To Barnil Stonepot.|
-A Chapter IV|QID|342|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
-T Chapter IV|QID|342|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Takes pages 25, 26, and 27. To Barnil Stonepot.|
-T The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|To Barnil Stonepot.|
+R Nesingwary's Expedition|ACTIVE|196|M|34.91,11.00|Z|1434; Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in.\nOnce you're out of the Ruins, make your way to the Nesingwary's Expedition.|
+
+A The Green Hills of Stranglethorn|QID|338|PRE|583|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.|
+A Chapter I|QID|339|M|35.66,10.53|Z|1434; Stranglethorn Vale|L|2755;2756;2757;2758|N|From Barnil Stonepot.|NA|O|IZ|Nesingwary's Expedition|
+t Chapter I|QID|339|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Bring pages 1, 4, 6, and 8 to Barnil Stonepot.|IZ|Nesingwary's Expedition|
+A Chapter II|QID|340|M|35.66,10.53|Z|1434; Stranglethorn Vale|L|2759;2760;2761;2762|N|From Barnil Stonepot.|NA|O|IZ|Nesingwary's Expedition|
+t Chapter II|QID|340|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Bring pages 10,11,14, and 16 to Barnil Stonepot.|IZ|Nesingwary's Expedition|
+A Chapter III|QID|341|M|35.66,10.53|Z|1434; Stranglethorn Vale|L|2763;2764;2765;2766|N|From Barnil Stonepot.|NA|O|IZ|Nesingwary's Expedition|
+t Chapter III|QID|341|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Bring pages 18, 20, 21, and 24 to Barnil Stonepot.|IZ|Nesingwary's Expedition|
+A Chapter IV|QID|342|M|35.66,10.53|Z|1434; Stranglethorn Vale|L|2767;2768;2769|N|From Barnil Stonepot.|NA|O|IZ|Nesingwary's Expedition|
+t Chapter IV|QID|342|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|Bring pages 25, 26, and 27 to Barnil Stonepot.|IZ|Nesingwary's Expedition|
+t The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|To Barnil Stonepot.|IZ|Nesingwary's Expedition|
+
 T Raptor Mastery|QID|196|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery|QID|197|PRE|196|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|From Hemet Nesingwary.|
-R South|ACTIVE|197|M|43.4,29.8;38.7,40.7|CC|Z|1434; Stranglethorn Vale|N|Head back to the main road and follow it south towards Gurubashi Arena.|
+R South|ACTIVE|197|QO|1|M|43.4,29.8;38.7,40.7|CC|Z|1434; Stranglethorn Vale|N|Head back to the main road and follow it south towards Gurubashi Arena.|
 K Tethis|ACTIVE|197|M|28,43;31,40;31,43|CN|Z|1434; Stranglethorn Vale|L|3877|ITEM|3877|N|Tethis\nSpawns at multiple points in the area to the north of Gurubashi Arena.|T|Tethis|
-R Venture Co. Base Camp|ACTIVE|193|M|44.82,25.69|Z|1434; Stranglethorn Vale|N|Head back to the main road and follow it north.|
+R Venture Co. Base Camp|ACTIVE|193|QO|1|M|44.82,25.69|Z|1434; Stranglethorn Vale|N|Head back to the main road and follow it north.|
 K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|CS|Z|1434; Stranglethorn Vale|L|3876|ITEM|3876|N|Bhag'thera\nYou'll find Bhag'thera in one of 3 locations.|T|Bhag'thera|
-L Level 44|ACTIVE|193^197|N|Grind out on the mobs in the area until you're halfway to level 44.|LVL|43;-14000|
+L Level 44|ACTIVE|584|N|Grind until you're within half a bubble of level 44.|LVL|43;-6850|
 R Nesingwary's Expedition|ACTIVE|193^197|M|35.65,10.66|Z|1434; Stranglethorn Vale|
 T Panther Mastery|QID|193|M|35.56,10.54|Z|1434; Stranglethorn Vale|N|To S.J. Erlgadin.|
 T Raptor Mastery|QID|197|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-A Big Game Hunter.|QID|208|PRE|188&193&197|M|35.66,10.81|Z|1434; Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|RANK|3| ; Auto-accept intentionally broken - Hendo72|
-R Grom'gol Base Camp|ACTIVE|584|M|32.16,28.76|Z|1434; Stranglethorn Vale|
-T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|Click on the Bubbling Cauldron next to Nimboya.|
+A Big Game Hunter|QID|208|PRE|188&193&197|M|35.66,10.81|Z|1434; Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Hemet Nesingwary Jr.\n[color=FF0000]NOTE: [/color]This quest requires that you head back down to Gurubashi Arena and return here to turn it in.\nThis quest is the only reason to come back to this area.\nSkip this quest if you're not interested.|NA|RANK|3|
+R Grom'gol Base Camp|ACTIVE|584|M|32.16,28.76|Z|1434; Stranglethorn Vale|N|Return to Grom'gol Base Camp.|
+
+; ** I'm thinking we don't need to include the Moonglade training step for now - Hendo72
+;P Moonglade|ACTIVE|598|M|PLAYER|CC|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.\n[color=FF0000]NOTE: [/color]If your hearthstone is on cooldown, skip this step and go to Orgrimmar. Otherwise, you'll have to take the 9 minute flight from Moonglade to get back to Grom'gol.|C|Druid|
+b Durotar|ACTIVE|584|M|31.37,30.15|Z|1434; Stranglethorn Vale|N|Take the Zeppelin to Durotar from Grom'gol.|IZ|Grom'gol Base Camp|
+R Orgrimmar|ACTIVE|584|M|49.15,95.09|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|IZ|Durotar|
+= Level 44 Training|ACTIVE|584|M|PLAYER|CC|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Orgrimmar|
+b Grom'gol|ACTIVE|584|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|Take the boat to Grom'gol from Orgrimmar/Durotar.|IZ|Orgrimmar^Durotar|
+T Bloodscalp Clan Heads|QID|584|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|To the Bubbling Cauldron (click on it) at the north entrance.|
 A Speaking with Nezzliok|QID|585|PRE|584|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|From the Bubbling Cauldron.|
 A Speaking with Gan'zulah|QID|586|PRE|584|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|From the Bubbling Cauldron.|
 A Split Bone Necklace|QID|598|PRE|596|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|From Kin'weelay.|
-b Durotar|ACTIVE|598|M|31.37,30.15|Z|1434; Stranglethorn Vale|N|Take the Zeppelin to Durotar.|C|-Druid|
-R Orgrimmar|ACTIVE|598|M|49.15,95.09|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|C|-Druid|
-P Moonglade|ACTIVE|598|N|Use your Teleport: Moonglade to portal to Moonglade to do your training.|C|Druid|
-= Level 44 Training|ACTIVE|598|N|Do your level 44 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-H The Salty Sailor Tavern|ACTIVE|598|M|29.52,72.53|Z|1434; Stranglethorn Vale|N|If your hearthstone is on cooldown, take the boat from Ratchet.|
-F Grom'gol|ACTIVE|598|M|26.87,77.09|Z|1434; Stranglethorn Vale|IZ|Booty Bay|
-K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434; Stranglethorn Vale|L|3880|ITEM|3880|N|King Bangalash\nExit Grom'gol Base to the south side and swim across to the opposite shore.\nHead up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.|T|King Bangalash|
-R Balia'mah Ruins|ACTIVE|585^209^598|M|44.81,31.10|Z|1434; Stranglethorn Vale|N|Heading east from Grom'gol, cross the river and continue to the other side of the main road.|
+K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434; Stranglethorn Vale|L|3880|ITEM|3880|N|King Bangalash (lv 43 elite).\n \nExit Grom'gol Base to the south side and swim across to the opposite shore.\nHead up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.\n \nSome classes may need help with this. If you find this too difficult, skip it and wait for the next next chance to do it.|T|King Bangalash|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|Z|1434; Stranglethorn Vale|L|1524 18|ITEM|1524|N|Any Skullsplitter|S|
 C Split Bone Necklace|QID|598|M|46.51,39.22|Z|1434; Stranglethorn Vale|L|3916 25|ITEM|3916|N|Any Skullsplitter|S|
+R Balia'mah Ruins|ACTIVE|585^209^598|M|44.81,31.10|Z|1434; Stranglethorn Vale|N|Make your way to the ruins on the east side of the main road.|
 C Balia'mah Trophy|QID|585|M|46.14,32.33|Z|1434; Stranglethorn Vale|L|3906|N|Loot the Balia'mah Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.|
-R Ziata'jai Ruins|QID|585|M|44.14,33.50|Z|1434; Stranglethorn Vale|N|Follow the path south from Balia'mah.|
+R Ziata'jai Ruins|ACTIVE|585|QO|1|M|44.14,33.50|Z|1434; Stranglethorn Vale|N|Follow the path south from Balia'mah.|
 C Ziata'jai Trophy|QID|585|M|42.21,36.12|Z|1434; Stranglethorn Vale|L|3907|N|Loot the Ziata'jai Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the group of 3 Skullsplitters that patrols between Balia'mah and Ziata'jai.|
-R Ruins of Zul'Mamwe|QID|585|M|43.69,40.22|Z|1434; Stranglethorn Vale|N|Follow the path southeast from Ziata'jai.|
+R Ruins of Zul'Mamwe|QID|585|QO|2|M|43.69,40.22|Z|1434; Stranglethorn Vale|N|Follow the path southeast from Ziata'jai.|
 K Speaking with Gan'zulah|ACTIVE|586|QO|1;2;3|M|46.51,39.22|Z|1434; Stranglethorn Vale|N|The Skullsplitters you require are spread across this area.|S|
 C Zul'Mamwe Trophy|QID|585|M|47.65,39.54|Z|1434; Stranglethorn Vale|L|3908|N|Loot the Zul'Mamwe Trophy from the stack of skulls after you clear the area around it.\n[color=FF0000]NOTE: [/color]Keep an eye out for the multiple groups of 3 Skullsplitters that patrol this area.|
-K Ana'thek|ACTIVE|586|QO|4|M|44.67,44.18|Z|1434; Stranglethorn Vale|N|This one is tough, so be careful.\nAna'thek the Cruel spawns in the cave and leaves to patrol the road.\n[color=FF0000]NOTE: [/color]Clear the cave entrance and attack him inside the cave to avoid more adds. Using a 'hit and run' tactic, kill any Spiritchasers with him before killing Ana'thek and running again.|T|Ana'thek|
+K Ana'thek|ACTIVE|586|QO|4|M|44.67,44.18|Z|1434; Stranglethorn Vale|L|3909|ITEM|3909|N|Ana'thek the Cruel.\nThis one is tough, so be careful.\nHe spawns in the cave at the south end of the Ruins of Zul'Mamwe and leaves to patrol the road occassionally.\n[color=FF0000]NOTE: [/color]Clear the cave entrance and attack him inside the cave to avoid more adds.\nUsing a 'hit and run' tactic, kill any Spiritchasers with him before attacking Ana'thek. The Spritchasers cast Manaburn and will heal the group if not dealt with quickly. You can clear his whole group if you'd prefer to fight him alone. But, if you take too long, they'll respawn eventually.|T|Ana'thek|
 K Speaking with Gan'zulah|ACTIVE|586|QO|1;2;3|M|46.51,39.22|Z|1434; Stranglethorn Vale|N|The Skullsplitter Hunters you require are spread across this area and only have 4-5 spawn points.\n[color=FF0000]NOTE: [/color]Do not mistake the Beastmasters for the Hunters; both have pet Panthers.|S|
 K Speaking with Gan'zulah|ACTIVE|586|QO|2;3|M|47.70,42.86|Z|1434; Stranglethorn Vale|N|Finish killing the Skullsplitter Headhunters and Beserkers you need.\n[color=FF0000]NOTE: [/color]The Headhunters share spawn points and you may have to clear the other mobs if you can't find them.|US|
 K Speaking with Gan'zulah|ACTIVE|586|QO|1|M|45.64,41.37|Z|1434; Stranglethorn Vale|N|Finish killing the Skullsplitter Hunters you need.\n[color=FF0000]NOTE: [/color]Be aware, they only have 4-5 spawn points and respawn their panther after you kill it.|T|Skullsplitter Hunter|
 C Skullsplitter Tusks|QID|209|M|46.51,39.22|Z|1434; Stranglethorn Vale|L|1524 18|ITEM|1524|N|Any Skullsplitter|US|
 C Split Bone Necklace|QID|598|M|46.48,39.92|Z|1434; Stranglethorn Vale|L|3916 25|ITEM|3916|N|Any Skullsplitter|US|
-R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|Z|1434; Stranglethorn Vale|
-T Big Game Hunter|QID|208|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary Jr.|
-R Grom'gol Base Camp|ACTIVE|-208&598|M|32.16,28.76|Z|1434; Stranglethorn Vale|
+t Big Game Hunter|QID|208|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary Jr in Nesingwary's Expedition.|
+R Grom'gol Base Camp|AVAILABLE|589|M|32.16,28.76|Z|1434; Stranglethorn Vale|N|Return to Grom'gol Base Camp.|
 T Speaking with Nezzliok|QID|585|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|To the Bubbling Cauldron.|
 T Speaking with Gan'zulah|QID|586|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|To the Bubbling Cauldron.|
 A The Fate of Yenniku|QID|588|M|32.22,27.60|Z|1434; Stranglethorn Vale|N|From the Bubbling Cauldron.|
 T The Fate of Yenniku|QID|588|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|To Kin'weelay.|
 A The Singing Crystals|QID|589|PRE|588|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|From Kin'weelay.|
 T Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|To Kin'weelay.|
+
 F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|1434; Stranglethorn Vale|
 T Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|1434; Stranglethorn Vale|N|To Kebok.|
 A The Captain's Chest |QID|8551|M|26.69,73.61|Z|1434; Stranglethorn Vale|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
@@ -294,6 +298,14 @@ C Voodoo Dues|QID|609|M|35.22,51.19|Z|1434; Stranglethorn Vale|L|3924|ITEM|3924|
 C Zanzil's Secret|QID|621|M|34.40,51.43|Z|1434; Stranglethorn Vale|L|4016 12|ITEM|4016|N|Any Zanzil mob|US|
 R Crystalvein Mine|ACTIVE|589|M|37.4,49.4;39.00,50.54|CC|Z|1434; Stranglethorn Vale|N|Exit the Ruins and take the road north until you come to the path headed east into the jungle. Follow the path until you see the cave.|
 C The Singing Crystals|QID|589|M|42.77,49.08|Z|1434; Stranglethorn Vale|L|3911 3|ITEM|3911|N|Ironjaw Basilisks|
+
+; Second chance at completing Stranglethorn Fever
+R Mistvale Valley|ACTIVE|348&621|M|33.19,62.69|Z|1434; Stranglethorn Vale|N|Head west towards the road and the entrance is just on the other side of the road.|IZ|-Spirit Den|
+N Stranglethorn Fever|ACTIVE|348|N|This is your last opportunity to complete this quest before leaving the area.\nAt your current level, completing "Stranglethorn Fever" may be challenging. Consider leveling up or gathering additional Gorilla Fangs before attempting the quest.\nFinding a group of players to assist with the encounter can also increase your chances of success.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+l Gorilla Fangs|ACTIVE|348&621|M|33.29,63.39|Z|1434; Stranglethorn Vale|L|2799 10|ITEM|2799|N|Any Gorilla in STV\n[color=FF0000]NOTE: [/color]You need ten Gorilla Fangs for 'each' attempt at acquiring Mokk's Heart for "Stranglethorn Fever".|US|
+R Spirit Den|ACTIVE|348&621|M|34.63,62.42|Z|1434; Stranglethorn Vale|L|2797|N|Locate the path on the north side of Mistvale Valley.\n[color=FF0000]NOTE: [/color]Be mindful that someone may have already started the encounter and be progressing through the waves along the same route. If you cross paths with their mobs, you could draw their aggro and become the target of their attacks.|
+C Stranglethorn Fever|ACTIVE|348&621|M|35.26,60.39|Z|1434; Stranglethorn Vale|L|2797|ITEM|2797|N|Mokk the Savage in the final wave.\nGive the Gorilla Fangs to Witch Doctor Unbagwa when you're ready to start the 3 waves of gorilla attacks.\nThe waves are as follows:\n- a group of 4 Enraged Silverback Gorilla, \n- Konda with a group of 4 Enraged Silverback Gorillas, and finally\n- Mokk the Savage with yet another group of 4 Enraged Silverback Gorillas.\n[color=FF0000]NOTE: [/color]If Witch Doctor Unbagwa dies, you fail and have to start again with 10 more Gorilla Fangs.\nRemember to heal and recharge between waves.\nIn the last wave, focus on Killing Mokk the Savage. If you fail, at least you can loot the Heart without rerunning the gauntlet.\n \nIf you cannot find a group to help and you still find this too tough to solo, skip this step and move on.|IZ|Spirit Den^Mistvale Valley|
+
 H The Salty Sailor Tavern|AVAILABLE|580|M|29.34,72.83|Z|1434; Stranglethorn Vale|N|Run back if your hearthstone is on cooldown.|IZ|-Booty Bay|
 T Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|To Crank Fizzlebub, beside the bar.|
 A Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434; Stranglethorn Vale|N|From Whiskey Slim.|
@@ -307,6 +319,10 @@ R Stonard|ACTIVE|589|M|41.93,54.82|Z|1435; Swamp of Sorrows|N|Return to Stonard.
 F Grom'gol|ACTIVE|589|M|46.08,54.82|Z|1435; Swamp of Sorrows|N|At Breyk.|
 T Mok'thardin's Enchantment|QID|573|M|32.12,29.24|Z|1434; Stranglethorn Vale|N|To Far Seer Mok'thardin.|
 T The Singing Crystals|QID|589|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|To Kin'weelay.|
+
+; Second chance at completing King Bangalash
+K King Bangalash|ACTIVE|208|M|38.20,35.40|Z|1434; Stranglethorn Vale|L|3880|ITEM|3880|N|King Bangalash (lv 43 elite).\n \nExit Grom'gol Base to the south side and swim across to the opposite shore.\nHead up to the plateau and clear the area before starting because he will pull surrounding tigers to help.\n[color=FF0000]NOTE: [/color]At 50% damage, he will summon two panthers to help him. Ignore them and stay focused on Bangalash; the quest ends when he dies.\nIf you can stun him before he reaches 50% and quickly burn him below 50%, he won't summon the panthers.\n \nSome classes may need help with this. Skip this and move on if you still find it too difficult.|T|King Bangalash|
+R Nesingwary's Expedition|ACTIVE|208|M|35.65,10.66|Z|1434; Stranglethorn Vale|
 
 ; --- Dustwallow Marsh
 b Durotar|AVAILABLE|1166|M|31.37,30.15|Z|1434; Stranglethorn Vale|N|Take the Zeppelin to Durotar.|

@@ -405,7 +405,14 @@ function WoWPro:RowUpdate(offset)
     end
 
     while regularCount < regularLimit and scanIndex <= (WoWPro.stepcount + 15) do
-        local stepIdx = WoWPro.NextStep(nextIndex, scanIndex)
+        local stepIdx
+        if WoWProDB.profile.guidescroll then
+            stepIdx = nextIndex
+        else
+            -- Evaluate conditions before adding the step so stickies follow the same
+            -- progression rules as regular rows.
+            stepIdx = WoWPro.NextStep(nextIndex, scanIndex)
+        end
 
         if stepIdx and WoWPro.step[stepIdx] then
             if not WoWPro.sticky[stepIdx] and ShouldShowRow(stepIdx, completion, skipped) then
@@ -781,8 +788,8 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     end
 
     -- Sticky steps beyond progression boundary are hidden.
-    -- S!US becomes eligible when it reaches the current progression boundary.
-    if not isManualSticky and stepIdx > stickyBoundary then
+    -- Except S!US (sticky+unsticky) which stays visible until completion
+    if not isSUS and stepIdx > stickyBoundary then
         return false
     end
 
@@ -1476,29 +1483,28 @@ end
 
 -- Helper: Hide all remaining rows starting at index i
 HideRemainingRows = function(startIndex)
-if InCombatLockdown() then return end
-if not WoWPro.rows then return end
+    if InCombatLockdown() then return end
+    if not WoWPro.rows then return end
 
-local maxRows = #WoWPro.rows or 15
+    local maxRows = #WoWPro.rows or 15
+    for j = startIndex, maxRows do
+        local row = WoWPro.rows[j]
+        if row then
+            row:Hide()
 
-for j = startIndex, maxRows do
-    local row = WoWPro.rows[j]
-    if row then
-        row:Hide()
+            if row.itembutton then row.itembutton:Hide() end
+            if row.itembuttonSecured then row.itembuttonSecured:Hide() end
 
-        if row.itembutton then row.itembutton:Hide() end
-        if row.itembuttonSecured then row.itembuttonSecured:Hide() end
+            if row.targetbutton then row.targetbutton:Hide() end
+            if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
 
-        if row.targetbutton then row.targetbutton:Hide() end
-        if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
+            if row.jumpbutton then row.jumpbutton:Hide() end
+            if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
 
-        if row.jumpbutton then row.jumpbutton:Hide() end
-        if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
-
-        if row.eabutton then row.eabutton:Hide() end
-        if row.eabuttonSecured then row.eabuttonSecured:Hide() end
+            if row.eabutton then row.eabutton:Hide() end
+            if row.eabuttonSecured then row.eabuttonSecured:Hide() end
+        end
     end
-end
 end
 
 -- Helper: Update RowLimit based on visible steps
