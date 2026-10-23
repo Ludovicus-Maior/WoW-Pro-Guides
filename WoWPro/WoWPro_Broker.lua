@@ -1873,13 +1873,6 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
         WoWPro.MainFrameLayout()
-        if _G.C_Timer and _G.C_Timer.After then
-            _G.C_Timer.After(0, function()
-                if WoWPro:SafeIsShown(WoWPro.GuideFrame) and not _G.InCombatLockdown() then
-                    WoWPro.MainFrameLayout()
-                end
-            end)
-        end
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
             WoWPro.GuideUpdated = true
