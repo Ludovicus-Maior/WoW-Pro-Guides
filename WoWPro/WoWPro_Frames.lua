@@ -2323,9 +2323,13 @@ function WoWPro:AbleFrames()
         WoWPro.MainFrame:Show()
         WoWPro.ButtonBar:Show()
         WoWPro.Titlebar:Show()
+        if not WoWPro.UserCollapsed then
+            WoWPro.GuideFrame:Show()
+        end
     else
         WoWPro.MainFrame:Hide()
         WoWPro.ButtonBar:Hide()
         WoWPro.Titlebar:Hide()
+        WoWPro.GuideFrame:Hide()
     end
 end

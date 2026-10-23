@@ -6,7 +6,7 @@
 
 -- list of all available professions and their skillLine ID
 
-if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure something else can be done (Classic does not recognize the [2477] = { exp = 0, parent ...etc lines)
+if WoWPro.CLASSIC  then   --  Gets Profs to work in Classic doing this, not sure something else can be done (Classic does not recognize the [2477] = { exp = 0, parent ...etc lines)
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
 		[165] = { name = 'Leatherworking' },
@@ -23,7 +23,34 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[356] = { name = 'Fishing' },
 		[633] = { name = 'Lockpicking' },
 	}
-
+    elseif WoWPro.FOREVER then
+	WoWPro.ProfessionSkillLines = {
+		[164] = { name = 'Blacksmithing' },
+		[2938] = { exp = 0, parent = 164, name = 'Blacksmithing' },
+		[165] = { name = 'Leatherworking' },
+		[2945] = { exp = 0, parent = 165, name = 'Leatherworking' },
+		[171] = { name = 'Alchemy' },
+		[2937] = { exp = 0, parent = 171, name = 'Alchemy' },
+		[182] = { name = 'Herbalism' },
+		[2944] = { exp = 0, parent = 182, name = 'Herbalism' },
+		[186] = { name = 'Mining' },
+		[2946] = { exp = 0, parent = 186, name = 'Mining' },
+		[197] = { name = 'Tailoring' },
+		[2948] = { exp = 0, parent = 197, name = 'Tailoring' },
+		[202] = { name = 'Engineering' },
+		[2941] = { exp = 0, parent = 202, name = 'Engineering' },
+		[333] = { name = 'Enchanting' },
+		[2940] = { exp = 0, parent = 333, name = 'Enchanting' },
+		[393] = { name = 'Skinning' },
+		[2947] = { exp = 0, parent = 393, name = 'Skinning' },
+		[129] = { name = 'First Aid'},
+	  --  Not included in GetTradeSkillLineInfoByID()
+		[185] = { name = 'Cooking' },
+		[2548] = { exp = 0, parent = 185, name = 'Cooking' },
+		[356] = { name = 'Fishing' },
+		[2592] = { exp = 0, parent = 356, name = 'Fishing' },
+		[633] = { name = 'Lockpicking' },
+	}
 	elseif WoWPro.BC then
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
@@ -329,7 +356,7 @@ for skill, data in pairs(WoWPro.ProfessionSkillLines) do
 end
 
 -- special handling for Classics because of the reduced addon API
-if not WoWPro.RETAIL then
+if not (WoWPro.RETAIL or WoWPro.FOREVER) then
 
     -- list of all available professions and SpellIDs with their names
     WoWPro.ProfessionSpellIDs = {
@@ -356,10 +383,14 @@ if not WoWPro.RETAIL then
 	WoWPro.ProfessionLocalNames["Riding"] = "Riding"
     for profName, spellID in pairs(WoWPro.ProfessionSpellIDs) do
         local spellInfo = WoWPro.C_Spell_GetSpellInfo(spellID)
-        local localName = spellInfo.name
-        if localName ~= nil then
-            WoWPro.ProfessionLocalNames[localName] = profName
-        end
+		if spellInfo ~= nil then
+			local localName = spellInfo.name
+			if localName ~= nil then
+				WoWPro.ProfessionLocalNames[localName] = profName
+			end
+		else
+			WoWPro:dbp("WoWPro.ProfessionLocalNames: SpellID %d for profession %s returned nil from GetSpellInfo()", spellID, profName)
+		end
     end
 
     -- generate a lookup table for profession names to profession skill lines
@@ -375,7 +406,13 @@ if not WoWPro.RETAIL then
         local scanned = 0
         local tradeskills = {}
 
-        for idx = 1, _G.GetNumSkillLines() do
+		if not _G.GetNumSkillLines then
+			WoWPro:dbp("UpdateTradeSkills(): GetNumSkillLines() is nil)")
+			WoWPro.UpdateTradeSkillsTable(tradeskills)
+			return
+		end
+
+        for idx = 1, (_G.GetNumSkillLines() or 0) do
             local localName, header, _, skillLevel, _, skillModifier, skillMaxRank = _G.GetSkillLineInfo(idx)
             local skillName = WoWPro.ProfessionLocalNames[localName]
             local profID = WoWPro.ProfessionNameToSkillLine[skillName]
@@ -393,7 +430,7 @@ if not WoWPro.RETAIL then
         WoWPro.UpdateTradeSkillsTable(tradeskills)
         WoWPro:dbp("UpdateTradeSkills() for Classic scanned %d tradeskills", scanned)
     end
-elseif WoWPro.RETAIL then
+elseif (WoWPro.RETAIL or WoWPro.FOREVER) then
     function WoWPro.UpdateTradeSkills()
         local scanned = 0
         local tradeskills = {}
@@ -488,7 +525,7 @@ function WoWPro.TradeskillsReport()
 end
 
 -- special handling for Classics because of the reduced addon API
-if not WoWPro.RETAIL then
+if not (WoWPro.RETAIL or WoWPro.FOREVER) then
     -- scan Tradeskill information and recipes on Classic
     function WoWPro.ScanTrade()
         WoWPro:dbp("ScanTrade() for Classic")
