@@ -1681,7 +1681,6 @@ function WoWPro:LegacyRowUpdate(offset)
 
     if not _G.InCombatLockdown() then
         WoWPro.RowSizeSet()
-        WoWPro.PaddingSet()
     end
 	if WoWPro.GroupSync then
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
