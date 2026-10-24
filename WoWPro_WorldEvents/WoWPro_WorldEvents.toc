@@ -1,4 +1,4 @@
-## Interface: 120105
+## Interface: 11509,16001,20506,38002,50504,120105
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -8,7 +8,7 @@
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## DefaultState: disabled [AllowLoadGameType vanilla,tbc,mists,forever][ExcludeLoadGameType standard]
-## ExcludeLoadGameType: vanilla,tbc,mists,forever
+## ExcludeLoadGameType: classic,tbc,mists,forever
 WoWPro_WorldEvents.lua
 WoWPro_WorldEvents_Parser.lua
 WoWPro_WorldEvents_Config.lua
