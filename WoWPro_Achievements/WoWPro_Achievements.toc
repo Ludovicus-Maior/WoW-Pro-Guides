@@ -7,6 +7,8 @@
 ## Version: 2026.10.16.A
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
+## DefaultState: disabled [AllowLoadGameType tbc][ExcludeLoadGameType standard,mists]
+## ExcludeLoadGameType: vanilla,forever
 WoWPro_Achievements.lua
 WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua

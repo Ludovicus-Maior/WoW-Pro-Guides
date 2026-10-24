@@ -7,10 +7,11 @@
 ## Version: 2026.10.16.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+## DefaultState: disabled [AllowLoadGameType mists][ExcludeLoadGameType standard,tbc]
+## ExcludeLoadGameType: mists,forever
 WoWPro_Profession.lua
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
-Retail\Guides.xml
+[Game]\Guides.xml
 Vendors\Guides.xml
-Vanilla\Guides.xml
