@@ -1,5 +1,10 @@
 -- Purpose: Reset WoWPro when no guide is loaded
 function WoWPro:LoadNilGuide()
+    if not WoWPro.MainFrame then
+        WoWPro:CreateFrames()
+        WoWPro:CustomizeFrames()
+    end
+
     -- If the UI isn't created yet, do NOT run layout
     if not WoWPro.MainFrame
        or not WoWPro.ButtonBar

@@ -375,7 +375,28 @@ local defaults = { profile = {
 
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
+-- Migrate profile keys before AceDB applies defaults to saved profiles.
+local function MigrateProfileSettings()
+    local savedData = _G.WoWProData
+    if not savedData or type(savedData.profiles) ~= "table" then
+        return
+    end
+
+    for _, profile in pairs(savedData.profiles) do
+        if type(profile) == "table" then
+            if profile.userPad == nil and profile.pad ~= nil then
+                profile.userPad = profile.pad
+            end
+            profile.pad = nil
+            if profile.stepfontsize == nil and profile.steptextsize ~= nil then
+                profile.stepfontsize = profile.steptextsize
+            end
+            profile.steptextsize = nil
+        end
+    end
+end
 function WoWPro:OnInitialize()
+    MigrateProfileSettings()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
     -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
@@ -519,7 +540,7 @@ function WoWPro:OnInitialize()
 			0.4156862745098039, -- [2]
 		},
 		["stepfontsize"] = 16,
-		["pad"] = 5,
+		["userPad"] = 5,
 		["steptextcolor"] = {
 			nil, -- [1]
 			0.8392156862745098, -- [2]
@@ -555,7 +576,6 @@ function WoWPro:OnEnable()
     --end
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
-        -- WoWPro:CreateFrames() ** called too early - hendo72
         WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
