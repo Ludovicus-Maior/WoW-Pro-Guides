@@ -25,7 +25,7 @@ end
 
 function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -34,7 +34,7 @@ end
 function WoWPro.DefineZone1(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 1 then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone1(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone1(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -43,7 +43,7 @@ end
 function WoWPro.DefineZone2(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 2 then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone2(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone2(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -52,7 +52,7 @@ end
 function WoWPro.DefineZone3(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 3 then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone3(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone3(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -61,7 +61,7 @@ end
 function WoWPro.DefineZone4(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 4 then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone4(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone4(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -70,7 +70,7 @@ end
 function WoWPro.DefineZone5(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 5 then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone5(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone5(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
@@ -80,7 +80,7 @@ function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 9 then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone9(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone9(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
         return
     end
     WoWPro.Zone2MapID[zone] = mapId
@@ -90,7 +90,7 @@ function WoWPro.DefineZone10(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 10 then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone10(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone10(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
         return
     end
     WoWPro.Zone2MapID[zone] = mapId
@@ -100,7 +100,7 @@ function WoWPro.DefineZone11(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 11 then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone11(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone11(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
         return
     end
     WoWPro.Zone2MapID[zone] = mapId
@@ -110,7 +110,7 @@ function WoWPro.DefineZone12(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 12 then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone12(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:print("DupCheck(): DefineZone12(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
         return
     end
     WoWPro.Zone2MapID[zone] = mapId
