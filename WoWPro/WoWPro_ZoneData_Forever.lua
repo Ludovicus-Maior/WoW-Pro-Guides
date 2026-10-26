@@ -1,11 +1,12 @@
-﻿----------------------------------
---WoWPro_ZoneData.lua:  This are the new 8.X map names
+----------------------------------
+--WoWPro_ZoneData.lua:  This are the WoW Forever zone names
 ----------------------------------
 
-local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
-
+local DefineZone1 = WoWPro.DefineZone1 -- New Forever style names
 local UIMapType = _G.Enum.UIMapType
-DefineZone1(0947, "Azeroth#947", UIMapType.World, 0000, nil, 1414, 1415, 2521)
+
+WoWPro:print("Loading map names for client 1 Forever")
+DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 2521)
 DefineZone1(1411, "Durotar", UIMapType.Zone, 1414, nil)
 DefineZone1(1412, "Mulgore", UIMapType.Zone, 1414, nil)
 DefineZone1(1413, "The Barrens", UIMapType.Zone, 1414, nil, 1460)
