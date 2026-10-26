@@ -29,8 +29,9 @@ WoWPro_GuideList.lua
 WoWPro_Frames.lua
 WoWPro_Config.lua
 WoWPro_Zones.lua
-WoWPro_ZoneData.lua
 WoWPro_ZoneDataLegacy.lua
+WoWPro_ZoneData_Patches.lua
+WoWPro_ZoneData_TBC.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
 WoWPro_RowUpdate.lua
