@@ -584,7 +584,7 @@ local function GetMainFrameContentPad()
     local pad = tonumber(WoWProDB.profile.userPad) or 0
     if WoWProDB.profile.border then
         local metrics = WoWPro:GetBorderMetrics()
-        pad = math.max(pad, metrics.edgeSize or 0)
+        pad = pad + (metrics.edgeSize or 0)
     end
     return pad
 end
@@ -1136,7 +1136,7 @@ end
 -- Compute total height for MF
 function WoWPro.ComputeMFHeight()
     local Profile = WoWProDB.profile
-    local pad = Profile.userPad or 0
+    local pad = tonumber(Profile.userPad) or 0
     local total = pad
 
     local BB = WoWPro.ButtonBar
@@ -1506,7 +1506,7 @@ function WoWPro:CreateButtonBar()
         end
 
         -- Vertical anchor to ButtonBar (fixes Retail drift)
-        btn:SetPoint("TOP", BB, "TOP", -userPad, 0)
+        btn:SetPoint("TOP", BB, "TOP", 0, -userPad / 2)
 
         BB.Buttons[i] = btn
     end
@@ -1524,7 +1524,7 @@ function WoWPro:ButtonBarSet()
     -- Read Profile values
     local iconSize = Profile.buttoniconsize
     local btnPad   = Profile.buttonpadding
-    local userPad  = Profile.userPad
+    local userPad  = tonumber(Profile.userPad) or 0
 
     -- Math
     local frameSize = iconSize + (btnPad * 2)

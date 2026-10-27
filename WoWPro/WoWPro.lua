@@ -1127,7 +1127,14 @@ function WoWPro.HideFrame(toHide, why)
             end
         else
             WoWPro:SafeSetShown(WoWPro.MainFrame, true)
-            WoWPro:TitleBarShow()
+            local showTitleBar = WoWProDB
+                and WoWProDB.profile
+                and WoWProDB.profile.titlebar
+            if WoWPro.GuideFrame and not WoWPro:SafeIsShown(WoWPro.GuideFrame) then
+                showTitleBar = true
+            end
+            WoWPro:SafeSetShown(WoWPro.TitleBar, showTitleBar)
+            WoWPro:MainFrameLayout()
         end
         WoWPro.IsHidden = toHide
     end
