@@ -11,7 +11,7 @@
 WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
 WoWPro.GetAddOnMetadata = _G.GetAddOnMetadata or _G.C_AddOns.GetAddOnMetadata
 WoWPro.Version = WoWPro.GetAddOnMetadata("WoWPro", "Version")
-WoWPro.DebugLevel = 0
+WoWPro.DebugLevel = 1 -- Pretend we have full debugging until vars are loaded
 WoWPro.CombatLock = false
 WoWPro.DevMode = false
 WoWPro.Guides = {}
@@ -72,6 +72,7 @@ function WoWPro:Add2Log(level, msg)
         WoWPro.Log[WoWPro.Serial] = msg
     end
 end
+
 -- Debug print function. log, never console --
 function WoWPro:dbp(message, ...)
     if WoWPro.DebugLevel > 0 and message ~= nil then
@@ -81,7 +82,7 @@ function WoWPro:dbp(message, ...)
 end
 WoWPro:Export("dbp")
 
---  Print function. log, never console --
+--  print function. log, never console --
 function WoWPro:print(message, ...)
     if message ~= nil then
         local msg = ("|c7f0000ff%s|r: "..message):format(self.name or "Wow-Pro", ...)
@@ -90,7 +91,7 @@ function WoWPro:print(message, ...)
 end
 WoWPro:Export("print")
 
--- WoWPro print function, log and console --
+-- WoWPro Print function, log and console --
 function WoWPro:Print(message, ...)
     if message ~= nil then
         local msg = ("|c7fffff7f%s|r: "..message):format(self.name or "Wow-Pro", ...)
@@ -99,7 +100,7 @@ function WoWPro:Print(message, ...)
 end
 WoWPro:Export("Print")
 
--- WoWPro warning function, log and console --
+-- WoWPro Warning function, log and console --
 function WoWPro:Warning(message, ...)
     if message ~= nil then
         local msg = ("|cffFFA500%s|r: "..message):format(self.name or "Wow-Pro", ...)
@@ -108,7 +109,7 @@ function WoWPro:Warning(message, ...)
 end
 WoWPro:Export("Warning")
 
--- WoWPro error function, log and console --
+-- WoWPro Error function, log and console --
 local LogErrorCount = 0
 function WoWPro:Error(message, ...)
     if message ~= nil then
@@ -1271,7 +1272,8 @@ end
 WoWPro.TocVersion =  select(4, _G.GetBuildInfo())
 WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 
-WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
+WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 16000))
+WoWPro.FOREVER = ((WoWPro.TocVersion >= 16000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))

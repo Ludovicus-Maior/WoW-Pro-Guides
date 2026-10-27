@@ -2422,16 +2422,27 @@ function WoWPro:CreateFrames()
     WoWPro:ValidateUIFrames()
 end
 
---Enables or Disables frames (hides/shows)
+-- Enables or disables frames (hides/shows)
 function WoWPro:AbleFrames()
     if WoWPro:IsEnabled() then
-        -- MainFrame visible when addon enabled; bars respect profile settings
+        -- MainFrame is visible when enabled; bars respect profile settings.
         WoWPro:SafeSetShown(WoWPro.MainFrame, true)
-        WoWPro:SafeSetShown(WoWPro.ButtonBar, WoWProDB and WoWProDB.profile and WoWProDB.profile.buttonbar)
-        WoWPro:SafeSetShown(WoWPro.TitleBar,  WoWProDB and WoWProDB.profile and WoWProDB.profile.titlebar)
+        WoWPro:SafeSetShown(
+            WoWPro.ButtonBar,
+            WoWProDB and WoWProDB.profile and WoWProDB.profile.buttonbar
+        )
+        WoWPro:SafeSetShown(
+            WoWPro.TitleBar,
+            WoWProDB and WoWProDB.profile and WoWProDB.profile.titlebar
+        )
+
+        if not WoWPro.UserCollapsed then
+            WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
+        end
     else
         WoWPro:SafeSetShown(WoWPro.MainFrame, false)
         WoWPro:SafeSetShown(WoWPro.ButtonBar, false)
         WoWPro:SafeSetShown(WoWPro.TitleBar, false)
+        WoWPro:SafeSetShown(WoWPro.GuideFrame, false)
     end
 end
