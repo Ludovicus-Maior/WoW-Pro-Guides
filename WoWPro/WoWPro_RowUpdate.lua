@@ -1174,12 +1174,6 @@ local HideRemainingRows = function(startIndex)
     end
 end
 
--- Helper: Update RowLimit based on visible steps
-local ComputeRowLimit = function(stepList)
-    -- RowLimit is simply the number of visible steps
-    return #stepList
-end
-
 -- Module Hook Helpers
 -- Helper: Run module-specific PreRowUpdate() if present
 local RunModulePreRowUpdate = function(module, currentRow)
@@ -1390,6 +1384,7 @@ function WoWPro:RowUpdate(offset)
     local startIndex = offset or WoWPro.ActiveStep or WoWPro.NextStep(1)
     local stickyBoundary = WoWPro.ActiveStep or startIndex
     local regularLimit = WoWProDB.profile.autoresize and WoWProDB.profile.numsteps or 15
+    local maxVisibleRows = 15
 
     if not InCombatLockdown() then
         _G.ClearOverrideBindings(WoWPro.MainFrame)
@@ -1438,20 +1433,25 @@ function WoWPro:RowUpdate(offset)
     end
 
     local stepList = {}
-    for _, stepIdx in ipairs(stickySteps) do
-        table.insert(stepList, stepIdx)
+    local stickyLimit = #regularSteps > 0 and maxVisibleRows - 1 or maxVisibleRows
+    for i = 1, math.min(#stickySteps, stickyLimit) do
+        table.insert(stepList, stickySteps[i])
     end
     for _, stepIdx in ipairs(regularSteps) do
+        if #stepList >= maxVisibleRows then
+            break
+        end
         local pairedSticky = WoWPro.FindPairedStickyStep(stepIdx)
         if not pairedSticky or completion[pairedSticky] or stepIdx == WoWPro.ActiveStep then
             table.insert(stepList, stepIdx)
         end
     end
 
-    WoWPro:SetActiveStickyCount(#stickySteps)
+    local displayedStickyCount = math.min(#stickySteps, stickyLimit)
+    WoWPro:SetActiveStickyCount(displayedStickyCount)
 
-    -- RowLimit = number of visible steps
-    WoWPro.RowLimit = ComputeRowLimit(stepList)
+    -- RowLimit counts regular rows; sticky rows have separate physical capacity.
+    WoWPro.RowLimit = #stepList - displayedStickyCount
 
     -- Hide rows beyond visible limit
     if #stepList == 0 then
@@ -1460,7 +1460,7 @@ function WoWPro:RowUpdate(offset)
     end
 
     -- Process visible rows
-    for i = 1, math.min(#stepList, 15) do
+    for i = 1, #stepList do
         local k = stepList[i]
         local currentRow = WoWPro.rows[i]
         currentRow.index = k
