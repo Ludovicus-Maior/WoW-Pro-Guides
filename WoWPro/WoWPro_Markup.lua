@@ -15,7 +15,7 @@ function WoWPro.ExpandAbility(ability,want_icon, want_text)
     local expanded = ""
     if name then
         if want_icon then
-            expanded = expanded .. "|T" .. icon .. ":0::0:0|t"
+            expanded = expanded .. "|T" .. icon .. ":0|t"
         end
         if want_text then
             expanded = expanded .. " " .. name
@@ -27,6 +27,14 @@ function WoWPro.ExpandAbility(ability,want_icon, want_text)
     return expanded
 end
 RegisterMarkup("ability", WoWPro.ExpandAbility)
+
+function WoWPro.ExpandTexture(texture, want_icon, want_text)
+    local expanded
+    expanded = "|T" .. texture .. ":0|t"
+    WoWPro:print("ExpandTexture %s", tostring(texture))
+    return expanded
+end
+RegisterMarkup("texture", WoWPro.ExpandTexture)
 
 local InvalidCount = {}
 function WoWPro.ExpandItem(item, want_icon, want_text)
@@ -131,7 +139,7 @@ function WoWPro.ExpandMarkup(text)
             -- Lets try no qualifier
             -- WoWPro:dbp("ExpandMarkup Failed [/color]")
             -- [fizzel=123AZ/XXX and Y]
-            tag_text, tag_id = tag:match("^%[([%a]+)=([%d%a/: -]+)%]$")
+            tag_text, tag_id = tag:match("^%[([%a]+)=([%d%a/\\: -]+)%]$")
             if not tag_text then
                 -- WoWPro:dbp("ExpandMarkup Failed [foo=123/XXX-and-Y]")
                 -- [money=123.45]
@@ -182,7 +190,7 @@ function WoWPro.ExpandMarkup(text)
         -- If we were unable to expand, punt!
         expand = text:sub(tag_start, tag_end)
     end
-    -- WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
+    WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
     text = pre..expand..WoWPro.ExpandMarkup(post)
     return text
 end
@@ -193,5 +201,6 @@ function WoWPro.TestMarkup()
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[money=12.34]"))
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[ability=593/surge-of-power]"))
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[color=112233]Oh Yeah![/color]"))
+    _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[texture=Interface\\Buttons\\UI-GuildButton-MOTD-Up] [texture=Interface\\Buttons\\UI-GuildButton-PublicNote-Up] Guides"))
     _G.DEFAULT_CHAT_FRAME:AddMessage(WoWPro.ExpandMarkup("[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.\nXXX"))
 end

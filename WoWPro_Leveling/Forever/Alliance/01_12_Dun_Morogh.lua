@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide,'Dun Morogh 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
@@ -29,7 +29,7 @@ T Etched Rune|QID|3108|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.|C|Hunter|
 T Encrypted Rune|QID|3109|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
 T Hallowed Rune|QID|3110|M|28.60,66.38|N|To Branstock Khalder in Anvilmar.|C|Priest|R|Dwarf|
 T Simple Memorandum|QID|3112|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Gnome|
-T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
+T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Gnome|
 T Glyphic Memorandum|QID|3114|M|28.71,66.37|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
 T Tainted Memorandum|QID|3115|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
 
@@ -72,7 +72,7 @@ K Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426|N|1/1 Snow Leopard Prowler sla
 T Call of Earth|QID|94374|M|24.89,61.82|Z|1426|N|To Minor Manifestation of Earth.|C|Shaman|
 A Call of Earth|QID|94375|PRE|94374|M|24.89,61.82|Z|1426|N|From Minor Manifestation of Earth.|C|Shaman|
 T Grund and Gozwin|QID|97277|M|28.61,67.59|Z|1426|N|To Grund Drokda.|
-T Call of Earth|QID|94375|M|28.87,66.23|Z|1426|N|To Teo Hammerstorm.|
+T Call of Earth|QID|94375|M|28.87,66.23|Z|1426|N|To Teo Hammerstorm.|C|Shaman|
 T Bring Back the Mug|QID|3365|M|25.03,75.89|Z|1426|N|To Nori Pridedrift.|
 C The Stolen Journal|QID|218|M|30.08,79.33|Z|1426|NC|N|1/1 Grelin Whitebeard's Journal.|
 T The Stolen Journal|QID|218|M|25.10,75.84|Z|1426|N|To Grelin Whitebeard.|
@@ -169,11 +169,10 @@ T The Perfect Stout|QID|315|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Barleyb
 A Shimmer Stout|QID|413|PRE|315|M|30.15,45.78|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 T Bitter Rivals|QID|310|M|47.66,52.64|Z|1426; Dun Morogh|
 A Return to Marleth|QID|311|PRE|310|M|47.66,52.64|Z|1426; Dun Morogh|
-T Return to Bellowfiz|QID|320|M|49.34,48.44|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
 
-A The Hunter's Path|QID|6075|M|30.6,45.4|N|coords From Tristane Shadowstone.\n[color=FF0000]NOTE: [/color]This starts your class quest chain to tame your pet.|C|Hunter|R|Dwarf|LVL|10|
+A The Hunter's Path|QID|6075|M|30.6,45.4|N|From Tristane Shadowstone.\n[color=FF0000]NOTE: [/color]This starts your class quest chain to tame your pet.|C|Hunter|R|Dwarf|LVL|10|
 H Thunderbrew Distillery|ACTIVE|320|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|
-T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
+T Return to Bellowfiz|QID|320|M|49.34,48.44|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
 
 ; ---------- LEVEL 10 CLASS QUEST ------------
 ; -- Paladin ** No class quest
@@ -184,16 +183,16 @@ R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|1455;Ironforge|N|Run to Ironforge.|TZ
 = Level 10 Training|AVAILABLE|6661|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|R|Dwarf,Gnome|LVL|10|IZ|City of Ironforge|
 ; -- Hunter
 T The Hunter's Path|QID|6075|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|LVL|10|
-A Taming the Beast |QID|6064|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
+A Taming the Beast|QID|6064|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 = Level 10 Training|ACTIVE|6064|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|LVL|10|IZ|Kharanos|
-C Taming the Beast |QID|6064|M|48.17,56.07|N|Tame a Large Crag Boar using the taming rod.\n[color=FF0000]NOTE: [/color]During the 20 second cast, you will see heart shapes and a casting bar.|T|Large Crag Boar|U|15911|C|Hunter|R|Dwarf|
-T Taming the Beast |QID|6064|M|45.81,53.04|N|To Grif Wildheart.|C|Hunter|R|Dwarf|
-A Taming the Beast |QID|6084|PRE|6064|M|45.81,53.04|N|From Grif Wildheart.|C|Hunter|R|Dwarf|
-C Taming the Beast |QID|6084|M|48.17,56.07|N|Tame a Snow Leopard.\n[color=FF0000]NOTE: [/color]You will need to dismiss your pet Large Crag Boar first. Do this by right-clicking on your pet's portrait and selecting 'Dismiss' from the drop-down.|T|Snow Leopard|U|15913|C|Hunter|R|Dwarf|
-T Taming the Beast |QID|6084|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
-A Taming the Beast |QID|6085|PRE|6084|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
-C Taming the Beast |QID|6085|M|51.5,44.5|N|Tame an Ice Claw Bear.\n[color=FF0000]NOTE: [/color]You will need to dismiss your pet Snow Leopard first.|T|Ice Claw Bear|U|15908|C|Hunter|R|Dwarf|
-T Taming the Beast |QID|6085|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
+C Taming the Beast|QID|6064|M|48.17,56.07|N|Tame a Large Crag Boar using the taming rod.\n[color=FF0000]NOTE: [/color]During the 20 second cast, you will see heart shapes and a casting bar.|T|Large Crag Boar|U|15911|C|Hunter|R|Dwarf|
+T Taming the Beast|QID|6064|M|45.81,53.04|N|To Grif Wildheart.|C|Hunter|R|Dwarf|
+A Taming the Beast|QID|6084|PRE|6064|M|45.81,53.04|N|From Grif Wildheart.|C|Hunter|R|Dwarf|
+C Taming the Beast|QID|6084|M|48.17,56.07|N|Tame a Snow Leopard.\n[color=FF0000]NOTE: [/color]You will need to dismiss your pet Large Crag Boar first. Do this by right-clicking on your pet's portrait and selecting 'Dismiss' from the drop-down.|T|Snow Leopard|U|15913|C|Hunter|R|Dwarf|
+T Taming the Beast|QID|6084|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
+A Taming the Beast|QID|6085|PRE|6084|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
+C Taming the Beast|QID|6085|M|51.5,44.5|N|Tame an Ice Claw Bear.\n[color=FF0000]NOTE: [/color]You will need to dismiss your pet Snow Leopard first.|T|Ice Claw Bear|U|15908|C|Hunter|R|Dwarf|
+T Taming the Beast|QID|6085|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 R Ironforge|ACTIVE|6086|M|15.59,85.32|Z|1455;Ironforge|N|Run to Ironforge.|TZ|City of Ironforge|C|Hunter|R|Dwarf|
 T Training the Beast|QID|6086|M|70.86,85.81|Z|1455;Ironforge|N|To Belia Thundergranite, inside the Hall of Arms in the Military Ward.|C|Hunter|R|Dwarf|
@@ -203,7 +202,7 @@ A Speak with Bink|QID|1879|N|From Magis Sparkmantle.|C|Mage|R|Gnome|LVL|10|
 = Level 10 Training|ACTIVE|1879|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|R|Gnome|LVL|10|IZ|Kharanos|
 T Speak with Bink|QID|1879|N|To Bink in Ironforge.|C|Mage|R|Gnome|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
-C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|N|coords The Gizmonitor is in a toolbox at the waypoint.|C|Mage|R|Gnome|
+C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|N|The Gizmonitor is in a toolbox at the waypoint.|C|Mage|R|Gnome|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
 ; -- Rogue
 A Road to Salvation|QID|2218|N|From Hogral Bakkan.|C|Rogue|R|Dwarf,Gnome|LVL|10|
