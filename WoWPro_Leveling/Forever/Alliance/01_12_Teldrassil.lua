@@ -86,11 +86,11 @@ B Skinning Knife|ACTIVE|3521|M|59.53,40.92|CN|Z|1438;Teldrassil|L|7005|N|You'll 
 = Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
 
 T Iverron's Antidote|QID|3521|M|60.90,41.96|Z|1438;Teldrassil|N|To Dirania Silvershine.|
-A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|Z|1438;Teldrassil|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|NOAUTO| ; ** auto-accept stopped because of timer - Hendo72
-A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|Z|1438;Teldrassil|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|NOAUTO|
+A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|Z|1438;Teldrassil|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|
+A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|Z|1438;Teldrassil|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|Z|1438;Teldrassil|N|To Iverron.\n[color=FF0000]NOTE: [/color]You only have 5 minutes to turn this in.\nThe timer doesn't stop until you choose a reward and click 'Quest Complete'.|
 R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|Z|1438;Teldrassil|N|Enter the cave.|
-C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|56.7,31.7|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
 K Githyiss the Vile Hunt|M|56.65,25.74|Z|1438;Teldrassil|N|Kill Githyiss who is guarding the eggs and loot his fang.|S|
 C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|Z|1438;Teldrassil|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end with a drop to the same location as the other two.|
 K Githyiss the Vile Hunt|M|56.65,25.74|Z|1438;Teldrassil|N|Kill Githyiss who is guarding the eggs and loot his fang.|US|
@@ -99,7 +99,6 @@ H Shadowglen|ACTIVE|917|M|58.54,44.64|Z|1438;Teldrassil|N|Hearth out of the cave
 T Webwood Egg|QID|917|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
 T A Fang of Githyiss|QID|97236|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|Z|1438;Teldrassil|N|From Gilshalan Windwalker.|
-A Fang of Githyiss|QID|97236|N|Right click on the Fang of Githyiss in your inventory to accept the quest.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|Z|1438;Teldrassil|N|To Tenaron Stormgrip at the top of the tree.\n[color=FF0000]NOTE: [/color]Use the ramp outside the tree.|
 
 A Crown of the Earth|QID|921|PRE|920|M|59.06,39.44|Z|1438;Teldrassil|N|From Tenaron Stormgrip.|
@@ -121,10 +120,21 @@ A Zenn's Bidding|QID|488|M|60.43,56.25|Z|1438;Teldrassil|N|From Zenn Foulhoof.\n
 
 ;--- Camping 101
 A The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
-C The Great Outdoors|ACTIVE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|/Sit next to the campfire for 1 minute to complete the quest.|QO|
+C The Great Outdoors|ACTIVE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|/Sit next to the campfire for 1 minute to complete the quest.|QO|1|
 T The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|To Lyreena Duskblade.|
 
 A Camping 101: Cooking|QID|96646|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
+A Camping 101: First Aid|QID|97965|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Teldrassil|
+A Camping 101: Fishing|QID|97967|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Teldrassil|
+A Camping 101: Herbalism|QID|97968|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Teldrassil|
+A Camping 101: Skinning|QID|97971|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Teldrassil|
+A Camping 101: Mining|QID|97970|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Teldrassil|
+A Camping 101: Alchemy|QID|97963|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Teldrassil|
+A Camping 101: Leatherworking|QID|97969|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Teldrassil|
+A Camping 101: Blacksmithing|QID|97964|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Teldrassil|
+A Camping 101: Enchanting|QID|98284|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Teldrassil|
+A Camping 101: Engineering|QID|98285|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Teldrassil|
+A Camping 101: Tailoring|QID|97973|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Teldrassil|
 
 A The Sisterhood of Elune|QID|98391|M|55.57,56.79|Z|1438; Teldrassil|N|From Laurna Morninglight.|
 
@@ -138,22 +148,11 @@ A Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftr
 T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 h Dolanaar|ACTIVE|2159|M|55.62,59.79|Z|1438;Teldrassil|N|Set your Hearthstone to Dolanaar.|
 
-C Camping 101: Cooking|ACTIVE|96634|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
-T Camping 101: Cooking|QID|96634|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
+C Camping 101: Cooking|ACTIVE|96646|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
+T Camping 101: Cooking|QID|96646|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|From Zarrin.|P|Cooking;185;0|
 
 N Camping 101|ACTIVE|96606|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
-A Camping 101: First Aid|QID|97965|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Teldrassil|
-A Camping 101: Fishing|QID|97967|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Teldrassil|
-A Camping 101: Herbalism|QID|97968|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Teldrassil|
-A Camping 101: Skinning|QID|97971|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Teldrassil|
-A Camping 101: Mining|QID|97970|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Teldrassil|
-A Camping 101: Alchemy|QID|97963|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Teldrassil|
-A Camping 101: Leatherworking|QID|97969|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Teldrassil|
-A Camping 101: Blacksmithing|QID|97964|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Teldrassil|
-A Camping 101: Enchanting|QID|98284|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Teldrassil|
-A Camping 101: Engineering|QID|98285|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Teldrassil|
-A Camping 101: Tailoring|QID|97973|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Teldrassil|
 
 A A Troubling Breeze|QID|475|M|55.96,57.28|Z|1438;Teldrassil|N|From Athridas Bearmantle in Dolanaar.|
 
@@ -170,13 +169,13 @@ T Crown of the Earth|QID|928|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moon
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|Z|1438;Teldrassil|N|From Corithras Moonrage.|
 
 C Garments of the Moon|ACTIVE|5621|M|57.24,63.50|Z|1438;Teldrassil|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
-T Garments of the Moon|QID|5621|M|55.56,56.75|Z|1438;Teldrassil|N|To Laurana Morninglight.|C|Priest|
+T Garments of the Moon|QID|5621|M|55.56,56.75|Z|1438;Teldrassil|N|To Laurna Morninglight.|C|Priest|
 
 C Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|S|
-C Soft Saber Pelts|ACTIVE|87288||QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|S|
-C Recipe of the Kaldorei|ACTIVE|4161||QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
+C Soft Saber Pelts|ACTIVE|87288|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|S|
+C Recipe of the Kaldorei|ACTIVE|4161|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
 
-C Crown of the Earth|ACTIVE|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Crystal Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
+C Crown of the Earth|ACTIVE|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Jade Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
 T A Troubling Breeze|QID|475|M|66.26,58.55|Z|1438;Teldrassil|N|To Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|Z|1438;Teldrassil|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|ACTIVE|2438|M|68.01,59.65|Z|1438;Teldrassil|L|8048|N|Inside the dresser to the right of the entrance in the small house.|
@@ -218,7 +217,7 @@ r Sell/Repair|ACTIVE|997|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of
 T Denalan's Earth|QID|997|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.\n[color=FF0000]NOTE: [/color]It will take a few moments for this quest to be offerred.|
 A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.|
-C Timberling Sprouts|ACTIVE|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S||QO|1|
+C Timberling Sprouts|ACTIVE|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S|QO|1|
 C Timberling Seeds|ACTIVE|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|S|QO|1|
 C Timberling Seeds|ACTIVE|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|US|QO|1|
 C Timberling Sprouts|ACTIVE|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|US|QO|1|
@@ -234,7 +233,7 @@ r Sell/Repair|ACTIVE|932|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of
 
 R Fel Rock|ACTIVE|932|QO|1|M|54.65,52.65|Z|1438;Teldrassil|N|The cave entrance is behind the tree building.\n[color=FF0000]NOTE: [/color]It can be accessed from either side of the tree.|
 
-;Where are these collected??
+
 U Teldrassil Treasure Map|M|PLAYER|CC|L|208605|N|Combine the four map pieces to make the map.|U|208601^208602^208603^208604|O|
 
 R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|Z|1438;Teldrassil|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nInside the cave keep right.|
@@ -277,7 +276,7 @@ A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyr
 C Eyes of the Sentinels|ACTIVE|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|QO|1|U|279378|
 C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|QO|3|U|279378|
 C Eyes of the Sentinels|ACTIVE|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
-T Eyes of the Sentinels|QID|98067|M|39.70,89.25|Z|1457; Darnassus|N|From Sentinel Dalia Sunblade.|
+T Eyes of the Sentinels|QID|98067|M|39.70,89.25|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
 
 R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
 
@@ -370,17 +369,13 @@ H Darnassus|ACTIVE|5931|M|44.15,45.22|Z|1450;Moonglade|N|If your Hearth is on co
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|1457;Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
 
-
 U Tame a Deer|ACTIVE|6103|N|Use the Deer Musk.\n[color=FF0000]NOTE: [/color]The buff lasts 10 minutes.|U|208607|BUFF|421311|C|Hunter|O|
 C Tame a Deer|ACTIVE|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
-; Need to add BUFF for having deer tamed
-
 T Training the Beast|QID|6103|M|40.36,08.59|Z|1457;Darnassus|N|To Jocaste.|C|Hunter|
 = Pet Skills|AVAILABLE|2498|PRE|6103|M|42.47,9.16|Z|1457;Darnassus|N|Walk up the tree, keeping to the left, and learn your pet spells from Silvaria.\n[color=FF0000]NOTE: [/color]Make sure to visit your Pet Trainer every time you visit your class trainer.\n\nManually check this step off to continue.|C|Hunter|
 
 T Tumors|QID|923|M|38.24,21.61|Z|1457;Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyre.|
-A The Temple of the Moon|QID|2519|M|28.99,45.73|CC|Z|1457;Darnassus|N|From Sister Aquinne.|
 P Rut'theran Village|ACTIVE|6344|M|28.82,41.50|Z|1457;Darnassus|N|Walk into the portal down to Rut'theran Village.|
 T Nessa Shadowsong|QID|6344|M|56.25,92.44|Z|1438;Teldrassil|N|To Nessa Shadowsong.|
 A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|Z|1438;Teldrassil|N|From Nessa Shadowsong.|
@@ -397,9 +392,6 @@ T Return to Nessa|QID|6343|M|56.25,92.44|Z|1438;Teldrassil|N|To Nessa Shadowsong
 
 P Darnassus|ACTIVE|2519|M|55.86,89.45|Z|1438;Teldrassil|N|Walk into the portal back to Darnassus.|
 T Body and Heart|QID|6001|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
-R Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|CS|Z|1457;Darnassus|N|Enter Temple of the Moon.|
-T The Temple of the Moon|QID|2519|M|40.49,91.51;36.63,85.94|CC|Z|1457;Darnassus|N|To Priestess A'moora (take the ramp up to the second floor).|
-A Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457;Darnassus|N|From Priestess A'moora.|
 
 T Returning Home|QID|5629|M|39.52,81.18|Z|1457;Darnassus|N|To Priestess Alathea.|C|Priest|
 R Teldrassil|ACTIVE|7383|M|35.71,54.38|Z|1438;Teldrassil|N|Make your way to the exit back to Teldrassil.|
@@ -412,6 +404,9 @@ A The Enchanted Glade|QID|937|M|38.32,34.37|Z|1438;Teldrassil|N|From Sentinel Ar
 R Wellspring River|ACTIVE|937|M|42.25,28.60|Z|1438;Teldrassil|N|Head to Wellspring river.|
 K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|Z|1438;Teldrassil|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|S|IZ|Wellspring River|RARE|
 A The Moss-twined Heart|QID|927|M|43.37,27.75|Z|1438;Teldrassil|N|Click on the Heart to accept the quest.|U|5179|O|
+R Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|CS|Z|1457;Darnassus|N|Enter Temple of the Moon.|
+T The Temple of the Moon|QID|2519|M|40.49,91.51;36.63,85.94|CC|Z|1457;Darnassus|N|To Priestess A'moora (take the ramp up to the second floor).|
+A Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457;Darnassus|N|From Priestess A'moora.|
 C Tears of the Moon|QID|2518|M|48.01,25.11;41.81,25.24;39.15,25.27|CN|Z|1438;Teldrassil|L|8344|ITEM|8344|N|Loot the Silvery Spinnerets from the giant spider named Lady Sathrah\n[color=FF0000]NOTE: [/color]She spawns in multiple locations.|T|Lady Sathrah|
 C Destiny Calls|QID|2242|M|37,21|Z|1438;Teldrassil|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|C|Rogue|
 C The Enchanted Glade|QID|937|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|S|
@@ -476,7 +471,6 @@ A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|1457;Darnassus|N|From Ar
 A Crown of the Earth|QID|98046|M|34.91,08.82|Z|1457;Darnassus|N|From Arch Druid Fandral Staghelm.|
 T Crown of the Earth|QID|98046|M|40.42,88.50|Z|1457; Darnassus|N|To Lariia.|
 A Crown of the Earth|QID|98065|M|40.42,88.50|Z|1457; Darnassus|N|From Lariia.|
-T Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457;Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|1457;Darnassus|N|From Priestess A'moora.|
 T Crown of the Earth|QID|98065|M|39.11,81.44|Z|1457; Darnassus|N|To Tyrande Whisperwind.|
 C Sathrah's Sacrifice|QID|2520|M|38.24,85.73|Z|1457;Darnassus|N|Use Sathrah's Sacrifice in the fountain down below.|U|8155|NC|
