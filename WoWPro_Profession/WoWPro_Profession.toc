@@ -1,4 +1,4 @@
-## Interface: 120105
+## Interface: 11509,16001,20506,38002,50504,120105
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
@@ -7,10 +7,10 @@
 ## Version: 2026.10.16.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+## ExcludeLoadGameType: forever
 WoWPro_Profession.lua
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
-Retail\Guides.xml
+[Game]\Guides.xml
 Vendors\Guides.xml
-Vanilla\Guides.xml

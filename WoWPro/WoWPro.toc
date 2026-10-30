@@ -1,4 +1,4 @@
-## Interface: 120105
+## Interface: 11509,16001,20506,38002,50504,120105
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
@@ -40,9 +40,9 @@ WoWPro_GuideList.lua
 WoWPro_Frames.lua
 WoWPro_Config.lua
 WoWPro_Zones.lua
+WoWPro_ZoneData_[Game].lua
 WoWPro_ZoneDataLegacy.lua
 WoWPro_ZoneData_Patches.lua
-WoWPro_ZoneData_Standard.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
 WoWPro_RowUpdate.lua
