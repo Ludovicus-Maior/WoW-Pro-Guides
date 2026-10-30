@@ -43,7 +43,6 @@ WoWPro_Zones.lua
 WoWPro_ZoneData_[Game].lua
 WoWPro_ZoneDataLegacy.lua
 WoWPro_ZoneData_Patches.lua
-WoWPro_ZoneData_Standard.lua
 WoWPro_Mapping.lua
 WoWPro_Broker.lua
 WoWPro_RowUpdate.lua
