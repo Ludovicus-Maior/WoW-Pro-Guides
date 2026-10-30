@@ -73,7 +73,7 @@ T A Bump in the Road|QID|1175|M|81.63,77.95|Z|1441; Thousand Needles|N|To Trackm
 T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
 T Hardened Shells|QID|1105|M|78.14,77.13|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
-T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles||N|To Fizzle Brassbolts.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
 T Rocket Car Parts|QID|1110|M|77.79,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
 A Wharfmaster Dizzywig|QID|1111|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
@@ -199,7 +199,7 @@ A The Green Hills of Stranglethorn|QID|338|PRE|583|M|35.66,10.53|Z|1434; Strangl
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are in the camp.\n[color=FF0000]NOTE: [/color]You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 r Housekeeping|ACTIVE|201|M|35.76,10.66|Z|1434; Stranglethorn Vale|N|Bags will get full quickly here. |
 
-H The Salty Sailor Tavern|QID|201|M|27.07,77.60|Z|1434; Stranglethorn Vale|N|Hearth to Booty Bay.
+H The Salty Sailor Tavern|QID|201|M|27.07,77.60|Z|1434; Stranglethorn Vale|N|Hearth to Booty Bay.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 T Krazek's Cookery|QID|210|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 B Lesser Bloodstone Ore|QID|627|Z|1455; Ironforge|L|4278 4|ITEM|4278|N|Obtain four Lesser Bloodstone Ores from the AH or a player with Mining.\n[color=FF0000]NOTE: [/color]You require them for the next quest.\nSkip this step if you cannot find them.|IZ|Booty Bay|
@@ -269,7 +269,7 @@ T Northfold Manor|QID|681|M|45.83,47.55|Z|1417; Arathi Highlands|N|To Captain Ni
 A Worth Its Weight in Gold|QID|691|PRE|690|M|46.20,47.76|Z|1417; Arathi Highlands|N|From Apprentice Kryten.|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|1417; Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|PRE|659|M|60.18,53.85|Z|1417; Arathi Highlands|N|From Quae.|
-K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|S|IZ|14171417; Arathi Highlands|
+K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|S|IZ|1417; Arathi Highlands|
 R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|1417; Arathi Highlands|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|1417; Arathi Highlands|N|Accept the quest from Foggy MacKreel in the room on the right.\n[color=FF0000]NOTE: [/color]Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
 A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CC|Z|1417; Arathi Highlands|N|Accept the quest from Foggy MacKreel in the room on the right.\n[color=FF0000]NOTE: [/color]From Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion (if you have one) or Movement Ability. Run and jump onto the ledge on the opposite side.\nIf you fail the jump, swim east until you come to a hill you can run back up and try it again.|
@@ -338,7 +338,7 @@ T Costly Menace|QID|564|M|52.4,56.0|Z|1424; Hillsbrad Foothills|N|To Darren Malv
 T Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|1424; Hillsbrad Foothills|N|To Bartolo Ginsetti.|
 
 F Menethil Harbor|QID|1249|PRE|1248|M|49.34,52.28|Z|1424; Hillsbrad Foothills|N|Fly to Menethil Harbor on the way to Ironforge to do more Missing Diplomat.|
-A The Missing Diplomat|QID|1249|PRE|1248||M|10.61,60.77|Z|1437; Wetlands|N|From Mikhail. When you accept this quest Tapoke Jahn will immediatly stealth and make his way out the door to escape. Be ready for a fight.|
+A The Missing Diplomat|QID|1249|PRE|1248|M|10.61,60.77|Z|1437; Wetlands|N|From Mikhail. When you accept this quest Tapoke Jahn will immediatly stealth and make his way out the door to escape. Be ready for a fight.|
 C The Missing Diplomat|QID|1249|QO|1|M|10.61,60.77|Z|1437; Wetlands|N|Run out and attack Tapoke Jahn now! He is stealthed trying to escape.|
 T The Missing Diplomat|QID|1249|M|10.61,60.77|Z|1437; Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1250|PRE|1249|M|10.61,60.77|Z|1437; Wetlands|N|From Tapoke "Slim" Jahn.|
@@ -789,8 +789,8 @@ A Stone Is Better than Cloth|QID|716|PRE|712|M|25.82,44.23|Z|1418; Badlands|N|Fr
 T Stone Is Better than Cloth|QID|716|M|25.82,44.23|Z|1418; Badlands|N|To Lucien Tosselwrench. You do have those bracers with you, right?|
 T This Is Going to Be Hard|QID|734|M|25.82,44.23|Z|1418; Badlands|N|To Lucien Tosselwrench.|
 A This Is Going to Be Hard|QID|777|PRE|734|M|25.82,44.23|Z|1418; Badlands|N|From Lucien Tosselwrench.|
-N Be forewarned!|AVAILABLE|778|PRE|777|N|A level 45 Elemental will spawn after accepting the next quest.\n[color=FF0000]NOTE: [/color]Unless you're level 41 already this will be very difficult to do solo, (but not impossible) as reds take only half damage and resist/dodge a lot. Almost 5k experience and speed trinket so it's worth a try, even having another player in the area to help should make it doable.|
 T This Is Going to Be Hard|QID|777|M|25.95,44.87|Z|1418; Badlands|N|To Lotwil Veriatus.|
+N Be forewarned!|AVAILABLE|778|PRE|777|N|A level 45 Elemental will spawn after accepting the next quest.\n[color=FF0000]NOTE: [/color]Unless you're level 41 already this will be very difficult to do solo, (but not impossible) as reds take only half damage and resist/dodge a lot. Almost 5k experience and speed trinket so it's worth a try, even having another player in the area to help should make it doable.|
 A This Is Going to Be Hard|QID|778|PRE|777|M|25.95,44.87|Z|1418; Badlands|N|From Lotwil Veriatus.\n\nCaution: You must be level 41 minimum to do this quest or grouped with someone level 41 or higher.|
 C This Is Going to Be Hard|QID|778|M|25.9,44.6|Z|1418; Badlands|N|Kill the Elemental and loot the shackles.|T|Fam'retor Elemental|
 T This Is Going to Be Hard|QID|778|M|25.95,44.87|Z|1418; Badlands|N|To Lotwil Veriatus.|
@@ -828,7 +828,7 @@ A Power in Uldaman|QID|1956|PRE|1955|M|46.06,57.09|Z|1445; Dustwallow Marsh|ELIT
 F Gadgetzan|QID|1137|Z|1445; Dustwallow Marsh|M|67.6,51.4|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.56,26.76|Z|1446; Tanaris|N|To Tran'rek. Don't get follow-up.|
 R The Shimmering Flats|QID|1137|M|75.51,97.69|Z|1441; Thousand Needles|N|Return to Thousand Needles.|
-T Rumors for Kravel|QID|1117|M|77.79,77.28|Z|1441; Thousand Needles||N|To Kravel Koalbeard.|
+T Rumors for Kravel|QID|1117|M|77.79,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
 A Back to Booty Bay|QID|1118|PRE|1117|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
 T News for Fizzle|QID|1137|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
 A Keeping Pace|QID|1190|PRE|1137|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|

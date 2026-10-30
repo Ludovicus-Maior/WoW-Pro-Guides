@@ -81,7 +81,7 @@ A The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoo
 C The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|/Sit next to the campfire for 1 minute to complete the quest.|
 T The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|To Kaga Wildhoof.|
 
-A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Stonebull Lake|
+A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Stonebull Lake|
 A Camping 101: Leatherworking|QID|97934|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Stonebull Lake|
 A Camping 101: Alchemy|QID|97927|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Stonebull Lake|
 A Camping 101: Herbalism|QID|97933|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Stonebull Lake|

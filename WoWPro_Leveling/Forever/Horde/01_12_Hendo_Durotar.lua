@@ -120,16 +120,25 @@ A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar P
 = Herbalism|AVAILABLE|786|M|55.44,75.08|Z|1411; Durotar|N|Mishiki, Herbalist, trainer. Sen'jin Village|SPELL|Herb Gathering;2366|RANK|2|
 = Alchemy|AVAILABLE|786|M|55.41,73.95|Z|1411; Durotar|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|SPELL|Alchemy;2259|RANK|3|
 = Level 6 Training|AVAILABLE|2161|M|56.31,75.11|Z|1411; Durotar|N|Do your Level 6 training with Un'Thuwa.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
-C Legging It|QID|96821|QO|1;2|M|52.50,60.00|Z|1411; Durotar|N|Kill Ridgeshade Lurkers and Creepers as you head north (6 of each).\n[color=FF8800]TODO: [/color]Better coords for the lurkers along the route north.|S|
-C Legging It|QID|96821|QO|1;2|M|50.60,56.40|Z|1411; Durotar|N|Finish killing Ridgeshade Creepers and Ridgeshade Lurkers (6 of each).|T|Ridgeshade Creeper|
-R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Gathering profession at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Herbalism;182;20|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Mining at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Mining;186;20|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Skinning at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Skinning;393;20|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5 and the P| profession tag syntax for your WoWPro version. Ideally hide this step when a profession step applies.|LVL|5;-1540|
+C Legging It|QID|96821|QO|1;2|M|52.50,60.00|Z|1411; Durotar|N|Kill Ridgeshade Lurkers and Creepers as you head north, Clearing everythingfrom south to north should avoid any backtracking.|
 
 T The Adventurer|QID|96652|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
-= Brakk's profession quests|ACTIVE|823|M|52.00,47.20|Z|1411; Durotar|CC|N|Accept whichever profession quests Brakk offers you (they depend on your professions).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+
+A The Great Outdoors|QID|96604
+T The Great Outdoors|QID|96604
+
+A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
+A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
+A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
+A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
+A Camping 101: Mining|QID|97907|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
+A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
+A Camping 101: Engineering|QID|97902|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
+A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
+A Camping 101: Skinning|QID|97908|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
+A Camping 101: First Aid|QID|97903|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
+A Camping 101: Cooking|QID|96655|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|
+A Camping 101: Fishing|QID|97904|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
 
 T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
 h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
@@ -178,11 +187,11 @@ C From The Wreckage....|QID|825|M|62.66,49.44|Z|1411; Durotar|L|4863 3|N|Look fo
 C A Solvent Spirit|QID|818|M|60.33,49.85|Z|1411; Durotar|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 R Razormane Grounds|ACTIVE|937|QO|1;2|M|51.06,49.06|Z|1411; Durotar|N|Make your south across the road to the Razormane Grounds (southwest of Razor Hill).|
 C Encroachment|QID|837|QO|1;2|M|51.03,48.31|Z|1411; Durotar|N|Kill Razormane Quillboars and Scouts in Razormane Grounds.\n[color=FF0000]NOTE: [/color]Loot the Prickly Pear Fruits from the cactus trees around 49.1, 49.3 as you go (This Fruit Could Bite Back).|
-
+C This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|L|275718 8|ITEM|275718|N|Finish collecting the Prickly Pear Fruits.
 R Razormane Grounds|ACTIVE|837|QO|3;4|M|45.58,40.75|Z|1411; Durotar|N|(north side of the road).|
 C Encroachment|QID|837|QO|3;4|M|43.94,40.46|Z|1411; Durotar|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is); Captain Flat Tusk (lv 11 elite) may be in there.|
-
-
+T Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok in Razor Hill.|
+T This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|N|To Cook Torka.|
 L Level 8|QID|825|M|PLAYER|CC|N|Grind until you're within 3 bubbles of level 8.|LVL|7;-700|C|-Mage|
 L Level 8|QID|825|Z|1411; Durotar|N|Grind until you're within 6 bubbles of level 8.|LVL|7;-1330|C|Mage|
 T From The Wreckage....|QID|825|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok.|
@@ -192,9 +201,12 @@ A A Missing Hand |QID|99048|M|52.2,43.2|Z|1411; Durotar|N|To Orgnil Soulscar.
 A Threat From Below|QID|99049|M|58.60,45.60|Z|1411; Durotar|N|From Heglan Shadeeye.
 C Threat From Below|QID|99049|M|58.86,44.38;60.04,42.39;60.12,44.76|CN|Z|1411; Durotar|L|286012 1;286011 1;286010 1|ITEM|286012|N|Orcish Dagger at 58.86,44.38, Banner Scrap at 60.04,42.39, Broken Bone Trident at 60.12,44.76.|
 T Threat From Below|QID|99049|M|52.20,43.20|Z|1411; Durotar|N|To Orgnil Soulscar.|
-A Threat From Below|QID|99909|PRE|99049|M|52.20,43.20|Z|1411; Durotar|N|From Orgnil Soulscar.\n[color=FF8800]TODO: [/color]Real QID; follow-up objectives/turn-in steps not written yet.|
-r Repair/Restock|ACTIVE|786|M|51.90,41.14|Z|1411; Durotar|N|At Wuark.|
+A Threat From Below|QID|99051|PRE|99049
+C Threat From Below|QID|99051|M|59,28|Z|1411; Durotar |L|286008 9|ITEM|286008|N|From the various Naga|
+T Threat From Below|QID|99051|M|52.20,43.20|Z|1411; Durotar|N|To Orgnil Soulscar.
+A Threat From Below|QID|99052|M|52.20,43.20|Z|1411; Durotar|N|From Orgnil Soulscar.
 
+r Repair/Restock|ACTIVE|786|M|51.90,41.14|Z|1411; Durotar|N|At Wuark.|
 
 K Ukor's Bane|ACTIVE|2161|M|50.60,56.40|Z|1411; Durotar|N|OPTIONAL: Ukor's Bane is a level 8 elite. Get help if you need it.\n[color=FF0000]NOTE: [/color]Skip this step if you wish.|T|Ukor's Bane|
 A Ukor's Lost Pack|QID|96876|M|50.60,56.40|Z|1411; Durotar|L|275722|ITEM|275722|N|Loot Ukor's Lost Pack from Ukor's Bane to start this quest. It's a 100% drop.\n[color=FF8800]TODO: [/color]This step only works if Ukor's Bane really is at 50.6, 56.4. Earlier notes put her through a mountain path northeast of the Den - send her coords and I'll split the kill into its own step.|O|
@@ -228,43 +240,13 @@ T Practical Prey|QID|817|M|55.95,73.93|Z|1411; Durotar|N|To Vel'rin Fang.|
 
 T Forgotten Loa Idols|QID|97225|M|56.00,74.60|Z|1411; Durotar|N|To Master Vornal.|
 T Bloodtalon Matriarch|QID|97223|M|55.20,75.60|Z|1411; Durotar|N|To Xar'Ti.|
-H Razor Hill|ACTIVE|815|M|52.48,44.42|Z|1411; Durotar|N|Use your hearth, or run if it's still on cooldown.|
-T Break a Few Eggs|QID|815|M|51.11,42.45|Z|1411; Durotar|N|To Cook Torka in Razor Hill.|
-N Centaur quest|ACTIVE|823|N|You accepted the centaur quest from Sen'jin Village on your first pass through.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
 
-R Tor'kren Farm|AVAILABLE|816|M|43.85,32.29|Z|1411; Durotar|N|Make your way to Tor'kren Farm (north of Razormane Grounds).|
-A Lost But Not Forgotten|QID|816|M|43.10,30.24|Z|1411; Durotar|N|From Misha Tor'kren.|
-A Winds in the Desert|QID|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak (at his camp beside the main road).|
-C Winds in the Desert|QID|834|M|49.86,24.32|Z|1411; Durotar|L|4918 5|N|Loot the Sacks of Supplies on the ground in the Razorwind Canyon.\n[color=FF0000]NOTE: [/color]They have stationary spawn points, but you can get all 5 before the first one respawns.|
-T Winds in the Desert|QID|834|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.|
-A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak.|
-C Securing the Lines|QID|835|QO|1;2|M|53.99,27.78|Z|1411; Durotar|N|Kill Dustwind Storm Witches and Savages.\n[color=FF0000]NOTE: [/color]Drop off the ledge and work your way through the Ravine.\nGoing to the right of the fork leads to a dead end.|
-
-
-Dull storm orb
-
-
-T Securing the Lines|QID|835|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.\n[color=FF0000]NOTE: [/color]Going to the left is the fastest way out to the road.|
-
-A Stormy Potential
-
-
-L Level 10|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-630|C|-Hunter|S|
-R Razor Hill|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Follow the main road south to Razor Hill.\n[color=FF0000]NOTE: [/color]If you need to grind, cut through Razorwind Canyon on the west side of the road.|C|-Hunter|
-R Razor Hill|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Return to Razor Hill.|C|Hunter| ; ** They are headed to Sen'jin next and can grind on the way there - Hendo72
-T Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok in Razor Hill.|
-C This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|L|275718 8|ITEM|275718|N|Finish collecting the Prickly Pear Fruits.\n[color=FF8800]TODO: [/color]Do the pears drop for this quest before you accept it at Razor Hill? If not, the pears looted during the quillboar step must be moved or dropped.|US|
-T This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|N|To Cook Torka.|
-; ** Hunter lv 10
-L Level 10|PRE|837|AVAILABLE|6069|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're level 10.|LVL|10|R|Orc,Troll|C|Hunter|S|
-R Sen'jin Village|AVAILABLE|6069|M|54.33,72.91|Z|1411; Durotar|N|Head to Sen'jin Village.|R|Orc,Troll|C|Hunter|
-L Level 10|PRE|837|AVAILABLE|6069|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're level 10.|LVL|10|R|Orc,Troll|C|Hunter|US|
-A The Hunter's Path|QID|6069|M|56.2,74.2|Z|1411; Durotar|N|From Kali Remik.|R|Orc,Troll|C|Hunter|
-R Razor Hill|ACTIVE|6069|M|52.48,44.42|Z|1411; Durotar|N|Return to Razor Hill.|LVL|10|R|Orc,Troll|C|Hunter|
 = Level 10 Training|AVAILABLE|840|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|-Mage|
-= Level 10 Training|AVAILABLE|840|M|PLAYER|CC|N|There's no need to run to Sen'jin at this time because you're headed to Orgrimmar shortly and you can do your training there.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Mage|
-; --- Level 10 Class Quests
-; --- Hunter (Only quest chain that is done in Razor Hill)
+A The Hunter's Path|QID|6069|M|56.2,74.2|Z|1411; Durotar|N|From Kali Remik.|R|Orc,Troll|C|Hunter|
+
+H Razor Hill|ACTIVE|815|M|52.48,44.42|Z|1411; Durotar|N|Use your hearth, or run if it's still on cooldown.|
+
+
 T The Hunter's Path|QID|6069|M|51.85,43.49|Z|1411; Durotar|N|To Thotar.|
 A Taming the Beast|QID|6062|M|51.85,43.49|Z|1411; Durotar|N|From Thotar.|R|Orc,Troll|C|Hunter|
 C Taming the Beast|QID|6062|M|52.02,47.38|Z|1411; Durotar|N|Use the taming rod to tame a Dire Mottled Boar.|U|15917|
@@ -285,17 +267,66 @@ A Gan'rul's Summons|QID|1506|M|54.37,41.29|Z|1411; Durotar|N|From Ophek.|R|Orc|C
 A Veteran Uzzek|QID|1505|M|54.19,42.47|Z|1411; Durotar|N|From Tarshaw Jaggedscar.|R|Orc,Troll|C|Warrior|
 ; --- Shaman
 A Call of Fire|QID|2983|M|54.42,42.59|Z|1411; Durotar|N|From Swart.|R|Orc,Troll|C|Shaman|
-
-
-
 A Conscript of the Horde|QID|840|M|50.85,43.59|Z|1411; Durotar|N|From Takrin Pathseeker.|
-A Need for a Cure|QID|812|M|41.53,18.62|Z|1411; Durotar|L|-4904|N|From Rhinag at Rocktusk Farm.\n[color=FF0000]NOTE: [/color]Follow the road north out of Razor Hill or go cross country for some grinding.\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
-R Orgrimmar|ACTIVE|-812&831|M|49.23,94.98|Z|1454; Orgrimmar|N|Follow the road north out of Razor Hill to the Orgrimmar southern entrance.|
-R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|49.23,94.98|Z|1454; Orgrimmar|N|Make your way northeast to the Orgrimmar southern entrance.|
-R Grommash Hold|ACTIVE|831|M|42.70,61.96;40.09,36.99|CC|Z|1454; Orgrimmar|N|As you enter Orgrimmar, follow the road to your left and go up the tower to the second level. Continue to the right and follow the road until you reach Grommash Hold in Valley of Wisdom.\n[color=FF0000]NOTE: [/color]There are multiple routes, but I find this one is the fastest (~1:45).|
+
+T Break a Few Eggs|QID|815|M|51.11,42.45|Z|1411; Durotar|N|To Cook Torka in Razor Hill.|
+R Tor'kren Farm|AVAILABLE|816|M|43.85,32.29|Z|1411; Durotar|N|Make your way to Tor'kren Farm (north of Razormane Grounds).|
+A Lost But Not Forgotten|QID|816|M|43.10,30.24|Z|1411; Durotar|N|From Misha Tor'kren.|
+T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
+A Path of Defense|QID|1498|PRE|1505|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|R|Orc,Troll|C|Warrior|
+C Lost But Not Forgotten|QID|816|M|38.54,71.82|Z|1411; Durotar|L|4891|ITEM|4891|N|Dreadmaw Crocolisks.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|T|Dreadmaw Crocolisk|R|Orc,Troll|C|Warrior|
+A Winds in the Desert|QID|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak (at his camp beside the main road).|
+C Winds in the Desert|QID|834|M|49.86,24.32|Z|1411; Durotar|L|4918 5|N|Loot the Sacks of Supplies on the ground in the Razorwind Canyon.\n[color=FF0000]NOTE: [/color]They have stationary spawn points, but you can get all 5 before the first one respawns.|
+T Winds in the Desert|QID|834|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.|
+A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak.|
+C Securing the Lines|QID|835|QO|1;2|M|53.99,27.78|Z|1411; Durotar|N|Kill Dustwind Storm Witches and Savages.\n[color=FF0000]NOTE: [/color]Drop off the ledge and work your way through the Ravine.\nGoing to the right of the fork leads to a dead end.|
+A Simmering Storm|QID|97281|N|Drops from the harpies you're grinding on.
+T Securing the Lines|QID|835|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.
+T A Simmering Storm|QID|97281|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.
+A Stormy Potential|QID|97282|PRE|97281|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak.|
+C Stormy Potential|QID|97282|M|40.6 24.2|Z|1411; Durotar|L|277665 5|ITEM|277665|N|Drop down from the north and clear your way south|N| Consider getting a group here to kill the Elite and help with FizzleClaw. Alternitively head to orgrimar, gear up, do profession quests etc. If you feel strong, continuing here is slightly more efficient in travel time.
+C Path of Defense|QID|1498|Z|1411; Durotar|L|6486|ITEM|6486|N|While you're in Thunder Ridge get the scales from the Thunder Lizards.|S|
+
+A Halikor's Hoof 
+
+C Dark Storms|QID|806|M|42.12,26.62|Z|1411; Durotar|L|4869|ITEM|4869|N|Fizzle Darkstorm (Lv 12).
+R Exit Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|Z|1411; Durotar|N|Run back to the entrance of Thunder Ridge.|IZ|Thunder Ridge|
+R Southfury River|ACTIVE|816|PRE|812|M|35.36,20.26|Z|1411; Durotar|N|Head west to the Southfury River.|
+C Lost But Not Forgotten|QID|816|M|38.54,71.82|Z|1411; Durotar|L|4891|ITEM|4891|N|Dreadmaw Crocolisks.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|T|Dreadmaw Crocolisk|
+T Lost But Not Forgotten|QID|816|M|43.11,30.22|Z|1411; Durotar|N|To Misha Tor'kren.|
+R Razor Hill|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar
+T Dark Storms|QID|806|M|52.25,43.16|Z|1411; Durotar|N|To Orgnil Soulscar.|
+A Margoz|QID|828|PRE|806|M|52.25,43.16|Z|1411; Durotar|N|From Orgnil Soulscar.|
+T Conscript of the Horde|QID|840|M|62.27,19.37|Z|1413; The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens.\n[color=FF0000]NOTE: [/color]He's just on the other side of the Southfury Bridge.|
+A Crossroads Conscription|QID|842|PRE|840|M|62.27,19.37|Z|1413; The Barrens|N|From Kargal Battlescar.|
+T Path of Defense|QID|1498|Z|1411;|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
+T Call of Fire|QID|2983|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss. He wanders around a bit.|
+A Call of Fire|QID|1524|PRE|2983|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|R|Orc,Troll|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|1411; Durotar|N|Follow the hidden path here upwards.|
+T Call of Fire|QID|1524|M|38.52,58.92|Z|1411; Durotar|N|To Telf Joolam.|
+A Call of Fire|QID|1525|PRE|1524|M|38.52,58.92|Z|1411; Durotar|N|From Telf Joolam.|R|Orc,Troll|C|Shaman|
+C Call of Fire|QID|1525|PRE|1524 |R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1525|PRE|1524 |R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1526|PRE|1525 |R|Orc,Troll|C|Shaman|
+C Call of Fire|QID|1526|PRE|1525  R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1526|PRE|1525 |R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1527|PRE|1526 |R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1527|PRE|1526|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|R|Orc,Troll|C|Shaman|
+
+R Crossroads |N|TODO|
+
+A Meats to Orgrimmar|QID|6365|PRE|815|M|52.62,29.84|Z|1413; The Barrens|N|From Zargh.|R|Orc,Troll|
+T Meats to Orgrimmar|QID|6365|M|51.50,30.33|Z|1413; The Barrens|N|To Devrak.|
+A Ride to Orgrimmar|QID|6384|PRE|6365|M|51.50,30.33|Z|1413; The Barrens|N|From Devrak.|R|Orc,Troll|
+F Orgrimmar|ACTIVE|6384|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Orgrimmar.|R|Orc,Troll|
+T Ride to Orgrimmar|QID|6384|M|54.09,68.43|Z|1454; Orgrimmar|N|To Innkeeper Gryshka.|
+A Doras the Wind Rider Master|QID|6385|PRE|6384|M|54.09,68.43|Z|1454; Orgrimmar|N|From Innkeeper Gryshka.|R|Orc,Troll|
+
 T The Admiral's Orders|QID|831|M|32.27,35.79|Z|1454; Orgrimmar|N|To Nazgrel inside the 2nd room of Grommash Hold.|
 A Hidden Enemies|QID|5726|M|31.75,37.82|Z|1454; Orgrimmar|N|From Thrall.|
-A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|1454; Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
+T Halikors Hoof|QID|96877|M|63.2 44.4|Z|1454; Orgrimmar
+
+
 r Housekeeping|ACTIVE|5726&840|N|While in Orgrimmar, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1454; Orgrimmar|
 ; --- locations of profession trainers in Orgrimmar
 = Cooking|ACTIVE|840|M|57.39,53.95|Z|1454; Orgrimmar|N|Zamja, Cooking Trainer, inside Barstan's Firepit (The Drag - 2nd level).\n[color=FF0000]NOTE: [/color]Skip this step if you wish.|SPELL|Cooking;2550|IZ|1454; Orgrimmar|
@@ -313,10 +344,7 @@ r Housekeeping|ACTIVE|5726&840|N|While in Orgrimmar, take a minute to visit the 
 = Weapon Masters|ACTIVE|840|M|57,32|Z|1458; Undercity|N|Archibald (in the War Quarter, Undercity) teaches crossbows, daggers, one & two handed swords and polearms.\n[color=FF0000]NOTE: [/color]Skip this step if you wish or manually check it off to continue.|IZ|1454; Orgrimmar|RANK|2|
 = Weapon Masters|ACTIVE|840|M|40.94,62.74|Z|1456; Thunder Bluff|N|Ansekwa (on the lower plateau of Thunder Bluff) teaches one & two handed maces, staves, and guns.\n[color=FF0000]NOTE: [/color]Skip this step if you wish or manually check it off to continue.|IZ|1454; Orgrimmar|RANK|2|
 = First Aid|ACTIVE|840|M|34.17,84.55|Z|1454; Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.\n[color=FF0000]NOTE: [/color]Skip this step if you wish.|SPELL|First Aid;3273|IZ|1454; Orgrimmar|
-; --- Class quests in Orgrimmar
-; --- Mage
-A Speak with Un'thuwa|QID|1883|M|39.15,86.27|Z|1454; Orgrimmar|N|From Uthel'nay, Valley of the Spirits.|R|Troll|C|Mage|
-= Level 10 Training|ACTIVE|1883|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Mage|
+
 ; --- Hunter
 T Training the Beast|QID|6081|M|66.06,18.52|Z|1454; Orgrimmar|N|To Ormak Grimshot.|
 ; --- Rogue
@@ -325,54 +353,11 @@ A The Shattered Hand|QID|1963|M|42.73,53.44|Z|1454; Orgrimmar|N|From Therzok.|R|
 ; --- Warlock
 T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|1454; Orgrimmar|N|To Gan'rul Bloodeye.|
 A Creature of the Void|QID|1501|PRE|1506|M|48.20,45.70|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye.|R|Orc|C|Warlock|
-; ---
-; ** Not doing the 'Need for a Cure' quest chain
-R Exit Orgrimmar|ACTIVE|5726&816|AVAILABLE|812|M|11.56,67.02|Z|1454; Orgrimmar|N|Exit Orgrimmar through the west gate past Valley of Spirits.\n[color=FF0000]NOTE: [/color]This will bring you out to Southfury River.|IZ|1454; Orgrimmar|
-;
+
+
+
 R Exit Orgrimmar|ACTIVE|5726&813|M|52.42,84.43|Z|1454; Orgrimmar|N|Exit Orgrimmar through the south gate.|IZ|1454; Orgrimmar|
-C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|Z|1411; Durotar|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
-R Orgrimmar|ACTIVE|813|M|49.23,94.98|Z|1454; Orgrimmar|N|Head back to Orgrimmar.|
-R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|CC|Z|Orgrimmar|
-T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|1454; Orgrimmar|L|4904|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote.\n[color=FF0000]NOTE: [/color]If you lose the Antidote, this quest is repeatable.|
-R Exit Orgrimmar|ACTIVE|5726&812|M|56.73,41.96;49.44,60.35;52.42,84.43|CC|Z|1454; Orgrimmar|N|Exit Orgrimmar through the south gate.|IZ|1454; Orgrimmar|
-A Need for a Cure|QID|812|M|41.54,18.60|Z|1411; Durotar|N|From Rhinag.|RANK|3|FAIL|
-T Need for a Cure|QID|812|M|41.54,18.60|Z|1411; Durotar|N|To Rhinag.|
-R Southfury River|ACTIVE|816|PRE|812|M|37.22,20.26|Z|1411; Durotar|N|Head west to the Southfury River.|
-C Lost But Not Forgotten|QID|816|M|38.54,71.82|Z|1411; Durotar|L|4891|ITEM|4891|N|Dreadmaw Crocolisks.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|T|Dreadmaw Crocolisk|
-T Conscript of the Horde|QID|840|M|62.27,19.37|Z|1413; The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens.\n[color=FF0000]NOTE: [/color]He's just on the other side of the Southfury Bridge.|
-A Crossroads Conscription|QID|842|PRE|840|M|62.27,19.37|Z|1413; The Barrens|N|From Kargal Battlescar.|
-; --- Shaman/Warrior Class quests cont.
-T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
-A Path of Defense|QID|1498|PRE|1505|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|R|Orc,Troll|C|Warrior|
-T Call of Fire|QID|2983|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss. He wanders around a bit.|
-A Call of Fire|QID|1524|PRE|2983|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|R|Orc,Troll|C|Shaman|
-R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|1411; Durotar|N|Follow the hidden path here upwards.|
-T Call of Fire|QID|1524|M|38.52,58.92|Z|1411; Durotar|N|To Telf Joolam.|
-A Call of Fire|QID|1525|PRE|1524|M|38.52,58.92|Z|1411; Durotar|N|From Telf Joolam.|R|Orc,Troll|C|Shaman|
-N Fizzle Darkstorm|ACTIVE|806|N|The next steps can be a bit tricky, especially if you're a squishy or undergeared.\nFizzle is a spellcaster (40-50 dmg with a Shadowbolt) with a weak Imp pet.\n[color=FF0000]NOTE: [/color]If you find it too difficult, enlist a helper, or you can skip these quests and come back later when you're stronger.\n\nManually check this step off to continue.|
-R Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|Z|1411; Durotar|N|Run to the entrance of Thunder Ridge.|
-C Path of Defense|QID|1498|Z|1411; Durotar|L|6486|ITEM|6486|N|While you're in Thunder Ridge get the scales from the Thunder Lizards.|S|
-R Dark Storms|ACTIVE|806|M|41.46,25.26|CC|Z|1411; Durotar|N|The path to Fizzle Darkstorm's camp is here.\n[color=FF0000]NOTE: [/color]If you wish to save some fighting, you can walk along the top ledge and drop down when you get there.|
-C Hidden Enemies|QID|5726|M|41.73,25.99|Z|1411; Durotar|L|14544|ITEM|14544|N|Burning Blade Apprentices and Fanatics in Thunder Ridge (or Skull Rock).|IZ|Thunder Ridge^Skull Rock|S|
-C Dark Storms|QID|806|M|42.12,26.62|Z|1411; Durotar|L|4869|ITEM|4869|N|Fizzle Darkstorm (Lv 12).\n[color=FF0000]NOTE: [/color]He pathes between the campfire and the alcove to the east.\Take out the guard circling the perimeter and when Fizzle moves away from the fire, pull the one beside the fire. Depending on how close you need to get, you may need to take out the mobs under the canopies.\nOnce you've cleared what you need to, pull Fizzle when he walks back to the fire.|
-C Path of Defense|QID|1498|Z|1411; Durotar|N|Finish collecting the scales from the Thunder Lizards.|US|
-R Exit Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|Z|1411; Durotar|N|Run back to the entrance of Thunder Ridge.|IZ|Thunder Ridge|
-T Lost But Not Forgotten|QID|816|M|43.11,30.22|Z|1411; Durotar|N|To Misha Tor'kren.|
-T Dark Storms|QID|806|M|52.25,43.16|Z|1411; Durotar|N|To Orgnil Soulscar.|
-A Margoz|QID|828|PRE|806|M|52.25,43.16|Z|1411; Durotar|N|From Orgnil Soulscar.|
-r Repair/Restock|QID|828|M|51.90,41.15|Z|1411; Durotar|N|At Flakk.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-; --- Mage class quest cont.
-R Sen'jin Village|ACTIVE|1883|M|54.33,72.91|Z|1411; Durotar|N|Follow the road south to Sen'jin Village.|R|Troll|C|Mage|
-T Speak with Un'thuwa|QID|1883|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa in Sen'jin Village.|
-A Ju-Ju Heaps|QID|1884|PRE|1883|M|56.31,75.11|Z|1411; Durotar|N|From Un'Thuwa.|R|Troll|C|Mage|
-C Ju-Ju Heaps|QID|1884|M|67.37,82.50;68.45,82.32;68.54,84.18;67.78,83.37;68.42,83.31|CN|Z|1411; Durotar|N|Click on the Ju-Ju Heaps located inside the 4 huts on the southeast side of the largest island in Echo Isles.\n[color=FF0000]NOTE: [/color]There are 2 of them inside the big hut if you need it.|NC|
-T Ju-Ju Heaps|QID|1884|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa.|
-H Razor Hill|ACTIVE|835|Z|1411; Durotar|N|Hearth back to Razor Hill.\n[color=FF0000]NOTE: [/color]If your hearth is on CD, run back.|R|Troll|C|Mage|
-; ---
-R Drygulch Ravine|ACTIVE|835|M|54.26,39.79;53.51,28.68;53.76,27.72|CC|Z|1411; Durotar|N|Head to Drygulch Ravine.\n[color=FF0000]NOTE: [/color]You can go the long way around through Razorwind Canyon, or take the shortcut this way.|
-
-R Razorwind Canyon|ACTIVE|835|M|53.71,27.77;51.74,27.41|CC|Z|1411; Durotar|N|Head back to Razor Hill.\n[color=FF0000]NOTE: [/color]There's a tunnel leading out to Razorwind Canyon if you go back to where you came in (this was the other way in).|
-
+T Stormy Potential|QID|97282|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.|
 T Margoz|QID|828|M|56.42,20.04|CC|Z|1411; Durotar|N|To Margoz at his camp on the other side of Razorwind Canyon (east).|
 A Skull Rock|QID|827|PRE|828|M|56.42,20.04|Z|1411; Durotar|N|From Margoz.|
 C Skull Rock|QID|827|M|55.07,9.94|Z|1411; Durotar|L|4871 6|ITEM|4871|N|Burning Blade mobs inside the cave.\n[color=FF0000]NOTE: [/color]Avoid going too deep into the cave if you don't have to.|
@@ -380,7 +365,6 @@ A Burning Shadows|QID|832|Z|1411; Durotar|N|From the Eye of Burning Shadow.|U|49
 C Hidden Enemies|QID|5726|M|41.73,25.99|Z|1411; Durotar|L|14544|ITEM|14544|N|Burning Blade Apprentices and Fanatics in Skull Rock (or Thunder Ridge).\n[color=FF0000]NOTE: [/color]Avoid going too deep into the cave if you don't have to.|US|
 T Skull Rock|QID|827|M|56.42,20.04|Z|1411; Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|829|PRE|827|M|56.42,20.04|Z|1411; Durotar|N|From Margoz.|
-L Level 12|ACTIVE|5726|N|Grind until you're within  bubbles of level .|LVL|11;-1820|
 R Orgrimmar|ACTIVE|5726|M|49.23,94.98|Z|1454; Orgrimmar|N|Head to Orgrimmar.|
 R Grommash Hold|ACTIVE|5726|M|40.38,37.00|Z|1454; Orgrimmar|N|Make your way to Grommash Hold.|
 T Hidden Enemies|QID|5726|M|31.76,37.81|Z|1454; Orgrimmar|N|To Thrall.|
@@ -398,3 +382,13 @@ A Hidden Enemies|QID|5728|PRE|5727|M|31.75,37.82|Z|1454; Orgrimmar|ELITE|N|[colo
 r Housekeeping|ACTIVE|809|PRE|5727|N|While in Orgrimmar, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1454; Orgrimmar|
 ]]
 end)
+
+
+
+r Repair/Restock|QID|828|M|51.90,41.15|Z|1411; Durotar|N|At Flakk.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+; --- Mage class quest cont.
+R Sen'jin Village|ACTIVE|1883|M|54.33,72.91|Z|1411; Durotar|N|Follow the road south to Sen'jin Village.|R|Troll|C|Mage|
+T Speak with Un'thuwa|QID|1883|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa in Sen'jin Village.|
+A Ju-Ju Heaps|QID|1884|PRE|1883|M|56.31,75.11|Z|1411; Durotar|N|From Un'Thuwa.|R|Troll|C|Mage|
+C Ju-Ju Heaps|QID|1884|M|67.37,82.50;68.45,82.32;68.54,84.18;67.78,83.37;68.42,83.31|CN|Z|1411; Durotar|N|Click on the Ju-Ju Heaps located inside the 4 huts on the southeast side of the largest island in Echo Isles.\n[color=FF0000]NOTE: [/color]There are 2 of them inside the big hut if you need it.|NC|
+T Ju-Ju Heaps|QID|1884|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa.|

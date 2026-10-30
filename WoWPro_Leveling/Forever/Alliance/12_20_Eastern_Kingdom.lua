@@ -75,7 +75,7 @@ C The Trogg Threat|QID|267|US|N|Continue killing the troggs until you get the it
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|Z|1432;Loch Modan|
 T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|Z|1432;Loch Modan|
 
-R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|1432;Loch Modan|N|Follow the road north to Thelsamar.|
+R Thelsamar|ACTIVE|414|M|32.96,49.44|Z|1432;Loch Modan|N|Follow the road north to Thelsamar.|
 A Rat Catching|QID|416|M|34.8,47.1|Z|1432;Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|Z|1432;Loch Modan|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|1432;Loch Modan|N|From Vidra Hearthstove inside the inn.|
@@ -101,7 +101,7 @@ F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly 
 
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|1453; Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|1453; Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|Z|1453; Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
+A Humble Beginnings|QID|399|Z|1453; Stormwind City|M|49.21,30.27|N|From Baros Alexston, in Cathedral Square.|
 
 T Tome of Divinity|QID|3681|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
 A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
@@ -150,16 +150,16 @@ T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan in Goldshire.|Z|1429; Elwynn 
 R Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
 
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|N|From Farmer Furlbrow.|Z|1436; Westfall|
-A Westfall Stew |QID|36|M|59.92,19.41|N|From Verna Furlbrow.|Z|1436; Westfall|
+A Westfall Stew|QID|36|M|59.92,19.41|N|From Verna Furlbrow.|Z|1436; Westfall|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|N|From Verna Furlbrow.|Z|1436; Westfall|
 C Poor Old Blanchy|ACTIVE|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|
 R Saldean's Farm|AVAILABLE|9|ACTIVE|36|N|Run to Saldean's Farm.|Z|1436; Westfall|
 A The Killing Fields|QID|9|M|56.04,31.23|N|From Farmer Saldean. Note, he is also a vendor.|Z|1436; Westfall|
-T Westfall Stew |QID|36|M|56.41,30.52|N|To Salma Saldean.|Z|1436; Westfall|
-A Westfall Stew |QID|38|M|56.41,30.52|N|From Salma Saldean.|PRE|36|Z|1436; Westfall|
+T Westfall Stew|QID|36|M|56.41,30.52|N|To Salma Saldean.|Z|1436; Westfall|
+A Westfall Stew|QID|38|M|56.41,30.52|N|From Salma Saldean.|PRE|36|Z|1436; Westfall|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|N|From Salma Saldean.|Z|1436; Westfall|
 C Goretusk Liver Pie|QID|22|L|723 8|N|From now on, kill Goretusks.|S|Z|1436; Westfall|
-C Westfall Stew |QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
+C Westfall Stew|QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
 C The Killing Fields|QID|9|M|55.00,33.20|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
 C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
 C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
@@ -169,7 +169,7 @@ N Bag space|ACTIVE|22^38|N|There are a number of collection quests in this zone.
 A Red Leather Bandanas|QID|153|M|53.98,52.99|N|From Scout Galiaan.|Z|1436; Westfall|
 C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1>8|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S!US|Z|1436; Westfall|
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The People's Militia |QID|12|M|56.33,47.52|N|From Gryan Stoutmantle.|Z|1436; Westfall|
+A The People's Militia|QID|12|M|56.33,47.52|N|From Gryan Stoutmantle.|Z|1436; Westfall|
 C The People's Militia|QID|12|QO|1;2|N|Kill any Defias Trappers and Smugglers you may come across.|S|Z|1436; Westfall|
 A Patrolling Westfall|QID|102|M|56.42,47.61|N|From Captain Danuvin.|Z|1436; Westfall|
 C Patrolling Westfall|QID|102|M|36.00,29.00|L|725 8|N|Kill Gnolls until you get the items for this quest.|S|Z|1436; Westfall|
@@ -188,11 +188,11 @@ C Goretusk Liver Pie|QID|22|L|723 8|N|Finish collecting your Goretusk Livers.|US
 
 L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
 T The Killing Fields|QID|9|M|56.04,31.23|N|To Farmer Saldean.|Z|1436; Westfall|
-t Westfall Stew |QID|38|M|56.41,30.52|N|To Salma Saldean.|Z|1436; Westfall|
+t Westfall Stew|QID|38|M|56.41,30.52|N|To Salma Saldean.|Z|1436; Westfall|
 T Goretusk Liver Pie|QID|22|M|56.41,30.52|N|To Salma Saldean.|Z|1436; Westfall|
-T The People's Militia |QID|12|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|1436; Westfall|
-A The Defias Brotherhood |QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|Z|1436; Westfall|
+T The People's Militia|QID|12|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
+A The People's Militia|QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|1436; Westfall|
+A The Defias Brotherhood|QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|Z|1436; Westfall|
 T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|Z|1436; Westfall|
 t Red Leather Bandanas|QID|153|M|53.98,52.99|N|To Scout Galiaan.|Z|1436; Westfall|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|Z|1436; Westfall|
@@ -204,28 +204,28 @@ A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|1453; Stormwind City|N|From Osric St
 ; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
 
 
-F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|TZ|Stormwind City|
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|NightElf|C|-Druid|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 
-A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|Redridge Mountains
-T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|Z|Redridge Mountains
-A Assessing the Threat|QID|246|M|30.74,59.99|N|From Deputy Feldon.|PRE|244|Z|Redridge Mountains
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|Z|Redridge Mountains
+A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
+T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
+A Assessing the Threat|QID|246|M|30.74,59.99|N|From Deputy Feldon.|PRE|244|Z|1433; Redridge Mountains|
+f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
 
-A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|Z|Redridge Mountains
-A The Price of Shoes|QID|118|M|30.98,47.28|N|From Verner Osgood.|Z|Redridge Mountains
+A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
+A The Price of Shoes|QID|118|M|30.98,47.28|N|From Verner Osgood.|Z|1433; Redridge Mountains|
 
-A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|Z|Redridge Mountains
-A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|Z|Redridge Mountains
-A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|Z|Redridge Mountains
-T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs.|Z|Redridge Mountains
-A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|Z|Redridge Mountains
-A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|Redridge Mountains
-A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|Z|Redridge Mountains
+A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|Z|1433; Redridge Mountains|
+A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|Z|1433; Redridge Mountains|
+A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|Z|1433; Redridge Mountains|
+T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs.|Z|1433; Redridge Mountains|
+A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
+A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
+A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
 
-C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|Z|Redridge Mountains
-F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City.|TZ|Stormwind City|Z|Redridge Mountains
+C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|Z|1433; Redridge Mountains|
+F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City.|TZ|Stormwind City|Z|1433; Redridge Mountains|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|1429; Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|1429; Elwynn Forest|N|To Smith Argus in Goldshire.|
@@ -236,7 +236,7 @@ A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|1453; Stormwind City|N|From Gen
 B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|1453; Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|Z|Redridge Mountains
+A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|Z|1433; Redridge Mountains|
 
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|1433|
@@ -245,7 +245,7 @@ T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|1433; Redridge Mountai
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|Z|1433; Redridge Mountains|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|From Guard Parker. He roams the fork in the road.|PRE|129|Z|1433; Redridge Mountains|
 
-R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|Z|Redridge Mountains
+R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|Z|1433; Redridge Mountains|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|CS|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|Z|1433; Redridge Mountains|
