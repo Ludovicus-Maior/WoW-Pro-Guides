@@ -48,7 +48,6 @@ T Glyphic Letter|QID|3104|M|49.66,39.44|Z|1429; Elwynn Forest|N|To Khelden Breme
 A Brotherhood of Thieves|QID|18|PRE|783|M|48.16,42.91|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Encrypted Letter|QID|3102|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.|C|Rogue|
 T Tainted Letter|QID|3105|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle outside on the right side of the Abbey.|C|Warlock|
-A Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|From Drusilla La Salle.|R|Human|C|Warlock|
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
 C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|US|
@@ -64,9 +63,8 @@ C The Big Picture|QID|91752|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfind
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|S|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
-T Stolen Power|QID|77621|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|C|Warlock|
 T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|
-= Demon trainer|ACTIVE|18|PRE|1598|QID|3903|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
+= Demon trainer|ACTIVE|18|PRE|1598|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
 = Imp Blood Impact|PRE|1598|M|PLAYER|CC|N|Read the Grimoire to learn the spell.\n[color=FF0000]NOTE: [/color]You must summon your demon in order to train it.|SPELL|Blood Pact;6307|U|16321|O|
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
 A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
@@ -78,8 +76,6 @@ A The Adventurer|QID|96627|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal Mc
 A Follow That Kobold!|QID|91758|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 T Follow That Kobold!|QID|91758|M|51.23,40.85|Z|1429; Elwynn Forest|N|To Tordrin Sternblade.|
 A Shhh! We're Hunting Kobolds|QID|91772|M|51.23,40.85|Z|1429; Elwynn Forest|N|From Tordrin Sternblade.|
-T The Lost Rune|QID|77616|M|50.21,42.22|Z|1429; Elwynn Forest|N|To Llane Beshere.|C|Warrior|
-T Thrice Stolen|QID|77618|M|50.3,39.9|Z|1429; Elwynn Forest|N|To Jorik Kerridan.|C|Rogue|
 ;= Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
 T Milly Osworth|QID|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth at the back of the Abbey, near the stable.|
 A Milly's Harvest|QID|3904|PRE|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
@@ -253,9 +249,10 @@ C Protect the Frontier|QID|52|QO|1;2|M|86.94,64.70|Z|1429; Elwynn Forest|N|Kill 
 T Report to Thomas|QID|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|
+A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
 R Goldshire|ACTIVE|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Start heading towards Goldshire.|LVL|8;-2220|S!US|
 H Goldshire|QID|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|TZ|Lion's Pride Inn|
-= Level 8 Training|ACTIVE|76|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
+= Level 8 Training|ACTIVE|39|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Argus.|
@@ -272,8 +269,6 @@ l Gold Pickup Schedule|AVAILABLE|123|M|26.00,89.60|Z|1429; Elwynn Forest|L|1307|
 A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
 C WANTED: "Hogger"|QID|176|M|26.31,93.44|Z|1429; Elwynn Forest|L|1931|ITEM|1931|N|Hogger.\n[color=FF0000]NOTE: [/color]This Level 11 Elite has a multiple spawn points.\nGroup up with whomever is around, or skip this step to move on.|IZ|1429; Elwynn Forest|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429; Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
-L Level 10|ACTIVE|61|AVAILABLE|123|Z|1429; Elwynn Forest|N|Grind until you're within 8 bubbles of level 10.|LVL|9;-2610|
-L Level 10|ACTIVE|11&123|Z|1429; Elwynn Forest|N|Grind until you're within 5 bubbles of level 10.|LVL|9;-1610|
 T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429; Elwynn Forest|N|To Deputy Rainer.|
 R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429; Elwynn Forest|N|Follow the road east to Goldshire.|
 t WANTED: "Hogger"|QID|176|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
@@ -299,7 +294,7 @@ C Dead-tooth Jack|QID|1667|M|89.3,78.8|Z|1429; Elwynn Forest|N|Clear the area, u
 T Dead-tooth Jack|QID|1667|M|84,69|Z|1429; Elwynn Forest|N|To Marshal Haggard.|C|Warrior|
 ; ** Warlock
 A Gakin's Summons|QID|1685|LEAD|1688|M|44.4,66.2|Z|1429; Elwynn Forest|N|From Remen Marcot, in the basement of the Inn.|C|Warlock|
-= Level 10 Training|ACTIVE|1685|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|WArlock|LVL|10|IZ|Goldshire^Lion's Pride Inn|
+= Level 10 Training|ACTIVE|1685|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|LVL|10|IZ|Goldshire^Lion's Pride Inn|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|
 = Level 10 Training|ACTIVE|1860|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|LVL|10|IZ|Goldshire^Lion's Pride Inn|
@@ -351,16 +346,15 @@ T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias
 A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
 C Snatch and Grab|QID|2206|M|47,87|Z|1429; Elwynn Forest|L|7298|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest until next time you are conveniently in Goldshire.|C|Rogue|
 T Snatch and Grab|QID|2206|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-T Continue to Stormwind|QID|6281|M|77.09,61.20|Z|1453; Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|
+T Continue to Stormwind|QID|6281|M|77.09,61.20|Z|1453; Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
 A Dungar Longdrink|QID|6261|PRE|6281|M|77.09,61.20|Z|1453; Stormwind City|N|From Osric Strang.|R|Human|
 T Desperate Prayer|QID|5635|M|38.57,26.06|Z|1453; Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|C|Priest|
-T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 ; --
 T Elmore's Task|QID|1097|M|59.66,33.97|Z|1453; Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
 A Stormpike's Delivery|QID|353|PRE|1097|M|59.66,33.97|Z|1453; Stormwind City|N|From Grimand Elmore.|
 
 R Deeprun Tram|QID|6661|M|68.96,30.97|Z|1453; Stormwind City|N|Run to the Deeprun Tram.|
-R Tinker Town|ACTIVE|353|Z|1429; Elwynn Forest|N|Board the Tram back to Ironforge and take the tunnel to your North.|
+R Tinker Town|ACTIVE|353|Z|1455; Ironforge|N|Board the Tram back to Ironforge and take the tunnel to your North.|
 
 f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|1455; Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
 N Level 12 Training|AVAILABLE|314|Z|1426; Dun Morogh|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|
