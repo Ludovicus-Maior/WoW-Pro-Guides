@@ -1,4 +1,4 @@
-## Interface: 120105
+## Interface: 11509,16001,20506,38002,50504,120105
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -7,15 +7,15 @@
 ## Version: 2026.10.16.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-## DefaultState: disabled
-## ExcludeLoadGameType: forever
+## AllowLoadGameType: tbc,mists,standard
+## ExcludeLoadGameType: vanilla,forever
 WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
-Retail\Alliance\Guides.xml
-Retail\Horde\Guides.xml
-Retail\Neutral\Guides.xml
-Retail\Alliance\Time_Running\Guides.xml
-Retail\Horde\Time_Running\Guides.xml
-Retail\Neutral\Time_Running\Guides.xml
+[Game]\Alliance\Guides.xml [ExcludeLoadGameType tbc]
+[Game]\Horde\Guides.xml [ExcludeLoadGameType tbc]
+[Game]\Neutral\Guides.xml 
+[Game]\Alliance\Time_Running\Guides.xml [ExcludeLoadGameType tbc,mists]
+[Game]\Horde\Time_Running\Guides.xml [ExcludeLoadGameType tbc,mists]
+[Game]\Neutral\Time_Running\Guides.xml [ExcludeLoadGameType tbc,mists]
