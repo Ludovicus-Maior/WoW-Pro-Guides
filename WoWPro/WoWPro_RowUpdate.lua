@@ -283,7 +283,13 @@ function WoWPro.SetActionTexture(currentRow)
 end
 
 function WoWPro:CheckFunction(row, button)
-    if button == "LeftButton" and row.check:GetChecked() then
+    if button == "RightButton" then
+        row.check:SetGold()
+        if WoWPro.CompleteStep(row.index, "Right-Click") then
+            return
+        end
+        WoWPro:UpdateGuide("CheckFunction:CompleteClick")
+    elseif button == "LeftButton" and row.check:GetChecked() then
         local steplist = WoWPro.SkipStep(row.index, true)
         if steplist ~= "" then
             WoWPro:SkipStepDialogCall(row.index, steplist, row.check)
@@ -292,12 +298,6 @@ function WoWPro:CheckFunction(row, button)
             row.check:SetSilver()
             WoWPro:UpdateGuide("CheckFunction:Skip1Step")
         end
-    elseif button == "RightButton" and row.check:GetChecked() then
-        row.check:SetGold()
-        if WoWPro.CompleteStep(row.index, "Right-Click") then
-            return
-        end
-        WoWPro:UpdateGuide("CheckFunction:CompleteClick")
     elseif not row.check:GetChecked() then
         WoWPro.UnSkipStep(row.index)
         WoWPro:UpdateGuide("CheckFunction:UnSkip")
