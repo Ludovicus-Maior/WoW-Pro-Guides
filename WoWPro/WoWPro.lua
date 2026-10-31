@@ -338,6 +338,7 @@ local defaults = { profile = {
     numsteps = 1,
     hminresize = 250,
     vminresize = 100,
+    resizeoverride = false,
     titlebar = true,
     titlecolor = {0.5, 0.5, 0.5, 1},
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],

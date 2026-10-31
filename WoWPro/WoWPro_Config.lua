@@ -33,11 +33,10 @@ end
 
 function WoWPro:SetDefaults()
     -- MainFrame --
-    WoWPro.MainFrame:SetHeight(300)
-    WoWPro.MainFrame:SetWidth(200)
-    WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
+    WoWPro.SetMainFrameSize(200, 300, true)
+    WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
 
     WoWPro:RefreshConfig()
 end
@@ -330,13 +329,21 @@ local function createDisplayConfig()
                                 order = 6,
                                 type = "toggle",
                                 name = L["Auto Resize"],
-                                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle.\n \n**A reload is required to re-initialize Auto Resize."],
+                                desc = L["Guide automatically resizes to the configured number of steps. Manual Resize is disabled while Auto Resize is enabled."],
                                 width = "full",
-                                get = function(info) return WoWProDB.profile.autoresize end,
-                                set = function(info,val) WoWProDB.profile.autoresize = val
-                                    if val then WoWProDB.profile.resize = false
+                                get = function(info)
+                                    return WoWProDB.profile.autoresize
+                                end,
+                                set = function(info, val)
+                                    WoWProDB.profile.autoresize = val
+
+                                    if val then
+                                        WoWProDB.profile.resize = false
                                     end
-                                    WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
+
+                                    WoWPro:ResizeSet(true)
+                                    WoWPro:UpdateGuide("Config:autoresize")
+                                end
                             },
                             numsteps = {
                                 order = 7,
@@ -359,8 +366,7 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.hminresize end,
                                 set = function(info,val) WoWProDB.profile.hminresize = val
                                     if WoWPro.MainFrame and not _G.InCombatLockdown() then
-                                        WoWPro.MainFrame:SetWidth(val)
-                                        WoWPro.AnchorSync(true)
+                                        WoWPro.SetMainFrameSize(val, WoWPro.MainFrame:GetHeight(), true)
                                     end
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
                                 width = "full"
@@ -375,6 +381,16 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.vminresize = val
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
                                 width = "full"
+                            },
+                            resizeoverride = {
+                                order = 10,
+                                type = "toggle",
+                                name = L["Override Minimum Width"],
+                                desc = L["Allows the guide window to be resized narrower than Min Resize - Width while dragging. Turning this off restores the Min Resize - Width limit."],
+                                width = "full",
+                                get = function(info) return WoWProDB.profile.resizeoverride end,
+                                set = function(info,val) WoWProDB.profile.resizeoverride = val
+                                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
                             },
                         },
                     },
