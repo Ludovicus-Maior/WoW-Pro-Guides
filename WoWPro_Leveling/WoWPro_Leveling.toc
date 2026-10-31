@@ -1,4 +1,4 @@
-## Interface: 120105
+## Interface: 11509,16001,20506,38002,50504,120105
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Leveling
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
@@ -12,6 +12,6 @@ WoWPro_Leveling_Config.lua
 WoWPro_Leveling_GuideList.lua
 WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Frames.lua
-Retail\Alliance\Guides.xml
-Retail\Neutral\Guides.xml
-Retail\Horde\Guides.xml
+[Game]\Alliance\Guides.xml
+[Game]\Neutral\Guides.xml
+[Game]\Horde\Guides.xml
