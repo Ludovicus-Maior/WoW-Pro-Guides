@@ -866,6 +866,11 @@ function WoWPro.TrashItem(use, step)
 end
 
 function WoWPro.BindKeysToButton(step)
+    if _G.InCombatLockdown() then
+        WoWPro:dbp("Punting: WoWPro.BindKeysToButton() in combat")
+        return
+    end
+
     local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
     if key1 then
         _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_itembuttonSecure"..step, "LeftButton")
