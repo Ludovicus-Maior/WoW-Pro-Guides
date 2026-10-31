@@ -23,8 +23,8 @@ A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 A The Bloodsail Buccaneers|QID|595|M|28.10,76.22|N|From First Mate Crazz.|
 
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.36,69.38|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|L|4027|
-T The Bloodsail Buccaneers |QID|595|M|27.28,69.52|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
-A The Bloodsail Buccaneers |QID|597|M|27.28,69.52|N|From 'Bloodsail Correspondence'.|PRE|595|
+T The Bloodsail Buccaneers|QID|595|M|27.28,69.52|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
+A The Bloodsail Buccaneers|QID|597|M|27.28,69.52|N|From 'Bloodsail Correspondence'.|PRE|595|
 C Scaring Shaky|QID|606|M|33,65|S|N|Kill Gorillas here for their Giblets.|
 l Gorilla Fang|QID|348|M|33,65|N|Kill gorillas for their fangs. Bank these as we will need them later.|L|2799 10|
 C Scaring Shaky|QID|606|M|33,65|US|N|Kill Gorillas here for their Giblets.|
@@ -32,15 +32,15 @@ C Scaring Shaky|QID|606|M|33,65|US|N|Kill Gorillas here for their Giblets.|
 R Booty Bay|QID|606|M|26.9,73.6|N|Return to Booty Bay. Do not use your hearth.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|To "Shaky" Philippe.|
 A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Philippe.|PRE|606|
-T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|To First Mate Crazz.|
-A The Bloodsail Buccaneers |QID|599|M|28.1,76.2|N|From First Mate Crazz.|PRE|597|
+T The Bloodsail Buccaneers|QID|597|M|28.1,76.2|N|To First Mate Crazz.|
+A The Bloodsail Buccaneers|QID|599|M|28.1,76.2|N|From First Mate Crazz.|PRE|597|
 A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizzy One-Eye. Up on the platform overhead.|PRE|595|
 T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|PRE|607|
 T "Pretty Boy" Duncan|QID|610|M|27.28,77.53|N|To Catelyn the Blade on the 2nd floor fo the Inn. Don't get follow-up.|
 A Up to Snuff|QID|587|M|26.92,77.34|N|From Deeg on the third floor of the Inn.|PRE|595|
-T The Bloodsail Buccaneers |QID|599|M|27.17,77.01|N|To Fleet Master Seahorn on the Balcony up top of the Inn.|
-A The Bloodsail Buccaneers |QID|604|M|27.17,77.01|N|From Fleet Master Seahorn on the Balcony up top of the Inn.|PRE|599|
+T The Bloodsail Buccaneers|QID|599|M|27.17,77.01|N|To Fleet Master Seahorn on the Balcony up top of the Inn.|
+A The Bloodsail Buccaneers|QID|604|M|27.17,77.01|N|From Fleet Master Seahorn on the Balcony up top of the Inn.|PRE|599|
 r Sell junk, repair, restock|QID|604|N|Sell junk, repair, restock.|
 
 C Keep An Eye Out|QID|576|M|32.8,76.2|S|N|Kill Bloodsail mobs until you get Dizzy's Eye.|
@@ -63,7 +63,7 @@ A A Meal Served Cold|QID|212|M|41.50,89.39|Z|1453; Stormwind City|N|From Angus S
 F Darkshire|ACTIVE|212|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Darkshire at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
 R Rebel Camp|QID|205|M|37.8,3.4|N|Run to the Rebel camp. You should arrive to Brother Nimetz with 22 minutes to spare.|PRE|207|
 A Troll Witchery|QID|205|M|37.83,3.56|N|From Brother Nimetz.|PRE|207|
-R Nesingwary's Expedition|QID|196||M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
+R Nesingwary's Expedition|QID|196|M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
 C Raptor Mastery|QID|196|M|32.80,40.30|S|N|Kill Jungle Stalkers near this location.|
 C Feast Meal Served Cold|QID|212|M|32.80,40.30|N|Kill the Cold Eye Basilisks until you get the haunch. You should arrive to the area with about 17.5 minutes to spare giving you about 15 minutes.|
@@ -95,15 +95,15 @@ T Venture Company Mining|QID|600|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 A Sunken Treasure|QID|670|M|27.17,77.00|N|From Fleet Master Seahorn.|PRE|669|
-A Akiris by the Bundle |QID|617|M|26.76,76.39|N|From Privateer Bloads.|
+A Akiris by the Bundle|QID|617|M|26.76,76.39|N|From Privateer Bloads.|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|To "Sea Wolf" MacKinley. (skip follow up).|
 
 C Akiris by the Bundle|QID|617|M|26.00,62.00|S|N|Kill Nagas here for Akiris Reeds.|
 l Holy Spring Water|QID|48|M|28.98,61.92|N|Click on the Holy Spring to get the water. It can be hard for shorter races to get back out so be careful. Hold onto this, you will need it later.|L|737|
 C Akiris by the Bundle|QID|617|M|26.00,62.00|US|N|Kill Nagas here for Akiris Reeds.|
 A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
-T Akiris by the Bundle |QID|617|M|26.8,76.4|N|To Privateer Bloads.|
-A Akiris by the Bundle |QID|623|M|26.8,76.4|N|From Privateer Bloads.|PRE|617|
+T Akiris by the Bundle|QID|617|M|26.8,76.4|N|To Privateer Bloads.|
+A Akiris by the Bundle|QID|623|M|26.8,76.4|N|From Privateer Bloads.|PRE|617|
 
 F Sentinel Hill|QID|48|M|27.53,77.78|N|At Gyll.|
 R Sweet Amber|QID|48|M|52.56,72.21;44.6,80.2|CC|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
@@ -243,24 +243,24 @@ A The Mark of Quality|QID|2821|M|30.63,42.71|Z|1444; Feralas|N|From Pratt McGrub
 h Feathermoon Stronghold|QID|4124|M|30.97,43.48|Z|1444; Feralas|N|Set your hearthstone to Feathermoon Stronghold.|
 r Sell junk, repair, restock|QID|4124|M|30.92,43.31|Z|1444; Feralas|N|Sell junk, repair, restock|
 A The Ruins of Solarsal|QID|2866|M|30.28,46.17|Z|1444; Feralas|N|From Shandris Feathermoon.|
-A The Missing Courier |QID|4124|M|30.38,46.17|Z|1444; Feralas|N|From Latronicus Moonspear.|
+A The Missing Courier|QID|4124|M|30.38,46.17|Z|1444; Feralas|N|From Latronicus Moonspear.|
 A The High Wilderness|QID|2982|M|31.83,45.61|Z|1444; Feralas|N|From Angelas Moonbreeze.|
 A In Search of Knowledge|QID|2939|M|31.78,45.50|Z|1444; Feralas|N|From Troyas Moonbreeze.|
-T The Missing Courier |QID|4124|M|31.86,45.13|Z|1444; Feralas|N|To Ginro Hearthkindle. Upstairs at the building you're in.|
-A The Missing Courier |QID|4125|M|31.86,45.13|Z|1444; Feralas|N|From Ginro Hearthkindle.|PRE|4124|
+T The Missing Courier|QID|4124|M|31.86,45.13|Z|1444; Feralas|N|To Ginro Hearthkindle. Upstairs at the building you're in.|
+A The Missing Courier|QID|4125|M|31.86,45.13|Z|1444; Feralas|N|From Ginro Hearthkindle.|PRE|4124|
 T The Ruins of Solarsal|QID|2866|M|26.31,52.34|Z|1444; Feralas|N|To Solarsal Gazebo.|
 A Return to Feathermoon Stronghold|QID|2867|M|26.31,52.34|Z|1444; Feralas|N|From Solarsal Gazebo.|PRE|2866|
 T Return to Feathermoon Stronghold|QID|2867|M|30.28,46.17|Z|1444; Feralas|N|To Shandris Feathermoon.|
-A Against the Hatecrest |QID|3130|M|30.28,46.17|Z|1444; Feralas|N|From Shandris Feathermoon.|PRE|2867|
-T Against the Hatecrest |QID|3130|M|30.38,46.17|Z|1444; Feralas|N|To Latronicus Moonspear.|
-A Against the Hatecrest |QID|2869|M|30.38,46.17|Z|1444; Feralas|N|From Latronicus Moonspear.|PRE|3130|
+A Against the Hatecrest|QID|3130|M|30.28,46.17|Z|1444; Feralas|N|From Shandris Feathermoon.|PRE|2867|
+T Against the Hatecrest|QID|3130|M|30.38,46.17|Z|1444; Feralas|N|To Latronicus Moonspear.|
+A Against the Hatecrest|QID|2869|M|30.38,46.17|Z|1444; Feralas|N|From Latronicus Moonspear.|PRE|3130|
 C Against the Hatecrest|QID|2869|M|26.90,55.30|Z|1444; Feralas|N|Kill the Nagas to get the Scales needed for this quest.|
-T Against the Hatecrest |QID|2869|M|30.38,46.17|Z|1444; Feralas|N|To Latronicus Moonspear.|
+T Against the Hatecrest|QID|2869|M|30.38,46.17|Z|1444; Feralas|N|To Latronicus Moonspear.|
 A Against Lord Shalzaru|QID|2870|M|30.38,46.17|Z|1444; Feralas|N|From Latronicus Moonspear.|PRE|2869|
 
 r Sell junk, repair, restock|QID|4125|M|30.92,43.31|Z|1444; Feralas|N|Sell junk, repair, restock.|
 C Screecher Spirits|QID|3520|M|46.00,49.30|Z|1444; Feralas|U|10699|N|Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit. Continue south.|
-T The Missing Courier |QID|4125|M|45.45,64.97|Z|1444; Feralas|N|To Wrecked Row Boat.|
+T The Missing Courier|QID|4125|M|45.45,64.97|Z|1444; Feralas|N|To Wrecked Row Boat.|
 A Boat Wreckage|QID|4127|M|45.45,64.97|Z|1444; Feralas|N|From Wrecked Row Boat.|PRE|4125|
 
 H Feathermoon Stronghold|QID|4127|M|PLAYER|Z|1444; Feralas|N|Hearth or run to Feathermoon Stronghold.|
@@ -310,7 +310,7 @@ A Rise of the Silithid|QID|4267|M|30.28,46.17|Z|1444; Feralas|N|From Shandris Fe
 
 F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|1444; Feralas|N|Fly to Rut'theran Village.|TAXI|Rut'theran Village|
 F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|1444; Feralas|N|Fly to Auberdine.|TAXI|-Rut'theran Village|
-b The Moonspray|ACTIVE|3022|M|33.2, 40.2|Z|1439; Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
+b The Moonspray|ACTIVE|3022|M|33.2,40.2|Z|1439; Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
 
 T Handle With Care|QID|3022|M|55.50,92.04|Z|1438; Teldrassil|N|To Erelas Ambersky.|
 A Favored of Elune?|QID|3661|M|55.50,92.04|Z|1438; Teldrassil|N|From Erelas Ambersky.|
@@ -636,10 +636,10 @@ C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first.  T
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|1446; Tanaris|N|To Marvon Rivetseeker.|
 
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446; Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Insect Part Analysis |QID|110|M|50.21,27.48|Z|1446; Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
-T Insect Part Analysis |QID|110|M|50.89,26.96|Z|1446; Tanaris|N|To Alchemist Pestlezugg.|
-A Insect Part Analysis |QID|113|M|50.89,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|110|
-T Insect Part Analysis |QID|113|M|50.21,27.48|Z|1446; Tanaris|N|To Senior Surveyor Fizzledowser.|
+A Insect Part Analysis|QID|110|M|50.21,27.48|Z|1446; Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|10|
+T Insect Part Analysis|QID|110|M|50.89,26.96|Z|1446; Tanaris|N|To Alchemist Pestlezugg.|
+A Insect Part Analysis|QID|113|M|50.89,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|110|
+T Insect Part Analysis|QID|113|M|50.21,27.48|Z|1446; Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Rise of the Silithid|QID|162|M|50.21,27.48|Z|1446; Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 H Ironforge|QID|2977|M|PLAYER|Z|1446; Tanaris|N|Use your hearthstone to get back to Ironforge, if you changed it or used it, you know the drill.|

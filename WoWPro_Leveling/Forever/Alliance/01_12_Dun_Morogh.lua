@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', 'Leveling', 'Dun Morogh', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideName(guide,'Dun Morogh 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
@@ -39,8 +39,10 @@ A Beginnings|QID|1599|M|28.65,66.14|N|From Alamar Grimm in Anvilmar.|C|Warlock|
 A A New Threat|QID|170|PRE|179|M|29.78,71.29|Z|1426|N|From Balir Frosthammer.|
 C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|S|C|Warlock|
 T Coldridge Valley Mail Delivery|QID|233|M|22.62,71.34|Z|1426|N|To Talin Keeneye.|
-A Coldridge Valley Mail Delivery|QID|234|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|
-A The Boar Hunter|QID|183|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|
+A Coldridge Valley Mail Delivery|QID|234|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|C|Shaman|
+A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|C|-Shaman|
+A The Boar Hunter|QID|183|PRE|98581&233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|C|Shaman|
+A The Boar Hunter|QID|183|PRE|233|M|22.62,71.34|Z|1426|N|From Talin Keeneye.|C|-Shaman|
 T Coldridge Valley Mail Delivery|QID|234|M|25.00,75.72|Z|1426|N|To Grelin Whitebeard.|
 A The Troll Cave|QID|182|PRE|234|M|25.00,75.72|Z|1426|N|From Grelin Whitebeard.|
 K A New Threat|QID|170|M|22.44,72.64|Z|1426|N|6/6 Burly Rockjaw Trogg slain.|
@@ -66,7 +68,8 @@ A Bring Back the Mug|QID|3365|PRE|3361&3364|M|28.79,66.44|Z|1426|N|From Durnan F
 T Beginnings|QID|1599|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|
 T Call of Earth|QID|94373|M|28.85,66.20|Z|1426|N|To Teo Hammerstorm.|C|Shaman|
 A Call of Earth|QID|94374|PRE|94373|M|28.85,66.20|Z|1426|N|From Teo Hammerstorm.|C|Shaman|
-A Grund and Gozwin|QID|97277|PRE|94373|M|28.61,67.47|Z|1426|N|From Grund Drokda.|
+A Grund and Gozwin|QID|97277|PRE|94373|M|28.61,67.47|Z|1426|N|From Grund Drokda.|C|Shaman|
+A Grund and Gozwin|QID|97277|M|28.61,67.47|Z|1426|N|From Grund Drokda.|C|-Shaman|
 C Grund and Gozwin|QID|97277|M|27.28,62.95|Z|1426|NC|N|1/1 Gozwin's Mechanic's Log.|
 K Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426|N|1/1 Snow Leopard Prowler slain.|
 T Call of Earth|QID|94374|M|24.89,61.82|Z|1426|N|To Minor Manifestation of Earth.|C|Shaman|
@@ -78,26 +81,28 @@ C The Stolen Journal|QID|218|M|30.08,79.33|Z|1426|NC|N|1/1 Grelin Whitebeard's J
 T The Stolen Journal|QID|218|M|25.10,75.84|Z|1426|N|To Grelin Whitebeard.|
 A In Favor of the Light|QID|5626|M|28.60,66.38|N|From Branstock Khalder.|C|Priest|R|Dwarf|
 T Senir's Observations|QID|282|M|33.45,71.92|Z|1426|N|To Mountaineer Thalos.|
-A The Adventurer|QID|96628|PRE|97277&94375&3365&218&282|M|33.45,71.92|Z|1426|N|From Mountaineer Thalos.|
-A Supplies to Tannok|QID|2160|PRE|97277&94375&3365&218&282|M|33.78,72.15|Z|1426|N|From Hands Springsprocket.|
+A The Adventurer|QID|96628|PRE|97277&94375&3365&218&282|M|33.45,71.92|Z|1426|N|From Mountaineer Thalos.|C|Shaman|
+A The Adventurer|QID|96628|PRE|97277&3365&218&282|M|33.45,71.92|Z|1426|N|From Mountaineer Thalos.|C|-Shaman|
+A Supplies to Tannok|QID|2160|PRE|97277&94375&3365&218&282|M|33.78,72.15|Z|1426|N|From Hands Springsprocket.|C|Shaman|
+A Supplies to Tannok|QID|2160|PRE|97277&3365&218&282|M|33.78,72.15|Z|1426|N|From Hands Springsprocket.|C|-Shaman|
 T The Adventurer|QID|96628|M|46.66,53.98|Z|1426|N|To Eric Brighthammer.|
 A The Great Outdoors|QID|96608|PRE|96628|M|46.66,53.98|Z|1426|N|From Eric Brighthammer.|
 C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426|NC|N|1/1 Sit near the campfire.|
 C The Great Outdoors|QID|96608|M|46.63,53.90|Z|1426|NC|N|Gain the Boosted Rest buff.|
 T The Great Outdoors|QID|96608|M|46.66,53.95|Z|1426|N|To Eric Brighthammer.|
 
+A Camping 101: Blacksmithing|QID|96044|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Dun Morogh|
+A Camping 101: Leatherworking|QID|96031|PRE|96608|M|46.67,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Dun Morogh|
+A Camping 101: Alchemy|QID|96045|PRE|96608|M|66.50,55.16|Z|1455; Ironforge|N|From Vosur Brakthel.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Dun Morogh|
+A Camping 101: Herbalism|QID|96055|PRE|96608|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Dun Morogh|
+A Camping 101: Mining|QID|96046|PRE|96608|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Dun Morogh|
+A Camping 101: Tailoring|QID|96057|PRE|96608|M|46.65,53.95|Z|1426|N|From Eric Brighthammer.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Dun Morogh|
+A Camping 101: Engineering|QID|96058|PRE|96608|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Dun Morogh|
+A Camping 101: Enchanting|QID|96059|PRE|96608|M|60.45,45.16|Z|1455; Ironforge|N|From Eric Brighthammer.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Dun Morogh|
+A Camping 101: Skinning|QID|96056|PRE|96608|M|46.66,53.95|Z|1426|N|From Eric Brighthammer.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Dun Morogh|
+A Camping 101: First Aid|QID|96047|PRE|96608|M|46.65,53.91|Z|1426|N|From Eric Brighthammer.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Dun Morogh|
 A Camping 101: Cooking|QID|96629|PRE|96608|M|46.66,53.95|Z|1426|N|From Eric Brighthammer.|
-A Camping 101: First Aid|QID|96047|PRE|2160&96629|M|46.65,53.91|Z|1426|N|From Eric Brighthammer.|
-A Camping 101: Fishing|QID|96050|PRE|310|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Skinning|QID|96056|PRE|96608|M|46.66,53.95|Z|1426|N|From Eric Brighthammer.|
-A Camping 101: Herbalism|QID|96055|PRE|96608|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Mining|QID|96046|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Engineering|QID|96058|M|46.73,53.84|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Leatherworking|QID|96031|PRE|96056|M|46.67,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Blacksmithing|QID|96044|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-A Camping 101: Alchemy|QID|96045|PRE|96044|M|66.50,55.16|Z|1455; Ironforge|N|From Vosur Brakthel.|
-A Camping 101: Tailoring|QID|96057|PRE|96045|M|46.65,53.95|Z|1426|N|From Eric Brighthammer.|
-A Camping 101: Enchanting|QID|96059|PRE|96057|M|60.45,45.16|Z|1455; Ironforge|N|From Thonys Pillarstone.|
+A Camping 101: Fishing|QID|96050|PRE|96608|M|46.65,53.90|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Dun Morogh|
 
 T Senir's Observations|QID|420|M|46.74,53.87|Z|1426|N|To Senir Whitebeard.|
 A Secure the Mountain|QID|98322|PRE|420|M|46.74,53.87|Z|1426|N|From Senir Whitebeard.|
