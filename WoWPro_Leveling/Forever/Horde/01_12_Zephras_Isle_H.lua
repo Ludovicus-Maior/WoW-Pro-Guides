@@ -85,7 +85,7 @@ T Call of Earth|ACTIVE|92466|M|42.81,23.54|Z|2521; Zephras Isle|N|To Windshaper 
 A Call of Earth|QID|92467|PRE|92466|M|42.81,23.56|Z|2521; Zephras Isle|N|From Windshaper Boro.|C|Shaman|
 R Rise of Spirits|ACTIVE|92467|M|47.34,25.27|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
 R Rise of Spirits|ACTIVE|92467|M|48.43,25.96|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
-U Call of Earth|ACTIVE|92467|QO|Drink the Earth Sapta|U|6635|C|Shaman|
+U Call of Earth|ACTIVE|92467|N|Drink the Earth Sapta|U|6635|C|Shaman|
 T Call of Earth|ACTIVE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|To Minor Manifestation of Earth.|C|Shaman|
 A Call of Earth|QID|92468|PRE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|From Minor Manifestation of Earth.|C|Shaman|
 T Call of Earth|ACTIVE|92468|M|42.81,23.57|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
@@ -122,7 +122,6 @@ A Meddlesome Mages|QID|94411|PRE|92595|M|43.53,44.80|Z|2521; Zephras Isle|N|From
 C Welcome to Shen'dar Village|ACTIVE|92514|M|43.04,43.36|Z|2521; Zephras Isle|CHAT|N|Speak with the Innkeeper.|QO|2|
 h Shen'dar Village|QID|94413|M|43.04,43.36|Z|2521; Zephras Isle|N|At Coriella Calmbreeze.|
 
-N Camping 101|ACTIVE|96646|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
 A Camping 101: Cooking|QID|96646|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
 A Camping 101: First Aid|QID|97965|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
 A Camping 101: Fishing|QID|97967|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Shen'dar Village|
@@ -369,7 +368,7 @@ T Disrupting Logistics|QID|92642|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana 
 T Breaking the Breaker|QID|92645|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
 A Return to Valanaar|QID|92880|PRE|92645|M|69.62,67.10|Z|2521; Zephras Isle|N|From Yorana Windyreed.|
 
-R Shen'dar Highlands|ACTIVE|98512|M|53.79,65.22|Z|2521; Zephras Isle|N|Make your way to the Shen'dar Highlands. Urs'endris is in the cave.|C|Druid|
+R Shen'dar Highlands|ACTIVE|94638|M|53.79,65.22|Z|2521; Zephras Isle|N|Make your way to the Shen'dar Highlands. Urs'endris is in the cave.|C|Druid|
 
 K Strength and Mercy|ACTIVE|94638|M|54.02,65.50|Z|2521; Zephras Isle|N|Ur'endra slain.|C|Druid|
 T Strength and Mercy|ACTIVE|94638|M|69.74,61.60|Z|2521; Zephras Isle|N|To Urs'endris.|C|Druid|
@@ -509,7 +508,7 @@ A What Comes Next|QID|93090|M|66.18,76.51|Z|2521; Zephras Isle|N|From Talaanis S
 
 L Level 14|QID|95349|LVL|14|N|You should be around level 14 by this point.|
 N Train Skills|QID|95349|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
-N Wrap things up|ACTIVE|95349|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
+N Wrap things up|ACTIVE|93090|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
 
 T What Comes Next|ACTIVE|93090|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 A The Earthen Ring|QID|95349|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
@@ -520,13 +519,13 @@ b Mulgore|ACTIVE|95349|N|Take the airship to Mulgore.|CC|
 T The Earthen Ring|ACTIVE|95349|M|33.35,22.53|Z|1412; Mulgore|N|To Alaana Stormwalker.|
 A Welcome to Azeroth|QID|95350|M|33.35,22.53|Z|1412; Mulgore|N|From Alaana Stormwalker.|
 
-f Thunder Bluff|ACTIVE|95350|M|46.97,49.62|Z|Thunder Bluff|N|Grab the flightpath. (Up the central tower)|
-F Orgrimmar|ACTIVE|95350|M|46.97,49.62|Z|Thunder Bluff|N|Head to the flightmaster and take a flight to Valley of Strength.|CC|
+f Thunder Bluff|ACTIVE|95350|M|46.97,49.62|Z|1456; Thunder Bluff|N|Grab the flightpath. (Up the central tower)|
+F Orgrimmar|ACTIVE|95350|M|46.97,49.62|Z|1456; Thunder Bluff|N|Head to the flightmaster and take a flight to Valley of Strength.|CC|
 h Orgrimmar|ACTIVE|95350|M|53.96,68.65|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
 
 R Head up the Tower|ACTIVE|95350|M|47.75,65.28|Z|1454; Orgrimmar|N|Go up the tower to the flightmaster.|CC|
 R Cross the Bridge|ACTIVE|95350|M|44.77,64.58|Z|1454; Orgrimmar|N|Run across the bridge next to the flightmaster.|CC|
-R Follow the Path to Thrall|ACTIVE|95350|M|39.23, 60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
+R Follow the Path to Thrall|ACTIVE|95350|M|39.23,60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
 
 T Welcome to Azeroth|ACTIVE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|To Thrall.|
 A Exploring the Horde|QID|93739|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall.|
@@ -536,22 +535,22 @@ N Read the Note|ACTIVE|93739|N|Read the notes from Nazgrel to see the instructio
 C Exploring the Horde|ACTIVE|93739|M|34.28,36.40|Z|1454; Orgrimmar|CHAT|N|Speak with Vol'jin.|QO|2|
 
 R Head out of Orgrimmar|ACTIVE|93739|M|52.37,83.02|Z|1454; Orgrimmar|N|Make your way out of Orgrimmar.|CC|
-R Follow the Road|ACTIVE|93739|M|45.84,13.95|Z|Durotar|N|Follow the road South to Razor Hill.|CC|
-R Leave Razor Hill toward The Barrens|ACTIVE|93739|M|50.64,43.93|Z|Durotar|N|Make your way toward The Barrens.|CC|
-R Over the River and... Through the Desert|ACTIVE|93739|M|34.71,42.31|Z|Durotar|N|Make your way across the Southfury River to The Barrens.|CC|
+R Follow the Road|ACTIVE|93739|M|45.84,13.95|Z|1411; Durotar|N|Follow the road South to Razor Hill.|CC|
+R Leave Razor Hill toward The Barrens|ACTIVE|93739|M|50.64,43.93|Z|1411; Durotar|N|Make your way toward The Barrens.|CC|
+R Over the River and... Through the Desert|ACTIVE|93739|M|34.71,42.31|Z|1411; Durotar|N|Make your way across the Southfury River to The Barrens.|CC|
 R Travel through The Barrens|ACTIVE|93739|M|54.83,22.55|Z|1413; The Barrens|N|Make your way to the The Barrens. Turn here if you don't care about agro, or stay on the road.|CC|
 R Run to The Crossroads|ACTIVE|93739|M|51.99,30.40|Z|1413; The Barrens|N|Run to The Crossroads to pick up the flight point and turn in Journey to the Crossroads.|CC|
 
 T Journey to the Crossroads|ACTIVE|98024|M|51.50,30.86|Z|1413; The Barrens|N|To Thork.|
-f The Crossroads|ACTIVE|98024|M|51.51,30.33|Z|1413; The Barrens|N|Frab the flightpath.|
+f The Crossroads|ACTIVE|93739|M|51.51,30.33|Z|1413; The Barrens|N|Frab the flightpath.|
 F Thunder Bluff|ACTIVE|93739|M|51.50,30.36|Z|1413; The Barrens|N|Head to the flightmaster and take a flight to Thunder Bluff.|CC|
 
 C Exploring the Horde|ACTIVE|93739|M|60.05,51.76|Z|1456; Thunder Bluff|CHAT|N|Speak with Cairne Bloodhoof.|QO|3|
 
 F Orgrimmar|ACTIVE|93739|M|47.05,50.07|Z|1456; Thunder Bluff|N|Head to the flightmaster and take a flight to Valley of Strength.|CC|
 R Head out of Orgrimmar|ACTIVE|93739|M|52.37,83.02|Z|1454; Orgrimmar|N|Make your way out of Orgrimmar.|CC|
-R Turn Left|ACTIVE|93739|M|45.69,12.44|Z|Durotar|N|Turn left toward the Zepplin Tower.|CC|
-R Head to the Zepplin Tower|ACTIVE|93739|M|50.39,13.39|Z|Durotar|N|Make your way out of Orgrimmar and to the Zepplin Tower.|CC|
+R Turn Left|ACTIVE|93739|M|45.69,12.44|Z|1411; Durotar|N|Turn left toward the Zepplin Tower.|CC|
+R Head to the Zepplin Tower|ACTIVE|93739|M|50.39,13.39|Z|1411; Durotar|N|Make your way out of Orgrimmar and to the Zepplin Tower.|CC|
 b Tirisfal Glades|ACTIVE|93739|N|Take the Zepplin to Tirisfal Glades|CC|
 
 f Trade Quarter|ACTIVE|93739|M|63.19,48.25|Z|1458; Undercity|N|At Michael Garrett.|
@@ -564,10 +563,10 @@ C Exploring the Horde|ACTIVE|93739|M|57.8,91.8|Z|1456; Thunder Bluff|CHAT|N|Spea
 
 ;A The Power to Destroy...|QID|5725|M|56.30,92.09|Z|1458; Undercity|N|From Varimathras. This goes to Ragefire Chasm.|O|RANK|3|
 
-H Orgrimmar|ACTIVE|93739|QO|Hearth back to Orgrimmar.|CC|
+H Orgrimmar|ACTIVE|93739|N|Hearth back to Orgrimmar.|CC|
 R Head up the Tower|ACTIVE|93739|M|47.75,65.28|Z|1454; Orgrimmar|N|Go up the tower to the flightmaster.|CC|
 R Cross the Bridge|ACTIVE|93739|M|44.77,64.58|Z|1454; Orgrimmar|N|Run across the bridge next to the flightmaster.|CC|
-R Follow the Path to Thrall|ACTIVE|93739|M|39.23, 60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
+R Follow the Path to Thrall|ACTIVE|93739|M|39.23,60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
 T Exploring the Horde|ACTIVE|93739|M|31.77,37.76|Z|1454; Orgrimmar|N|To Thrall.|
 
 ;A Hidden Enemies|QID|5726|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall. This quest chain leads to Ragefire Chasm.|

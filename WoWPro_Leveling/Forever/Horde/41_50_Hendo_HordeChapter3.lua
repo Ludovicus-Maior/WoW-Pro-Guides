@@ -266,7 +266,7 @@ A The Singing Crystals|QID|589|PRE|588|M|32.28,27.71|Z|1434; Stranglethorn Vale|
 T Split Bone Necklace|QID|598|M|32.28,27.71|Z|1434; Stranglethorn Vale|N|To Kin'weelay.|
 F Booty Bay|ACTIVE|209|M|32.54,29.35|Z|1434; Stranglethorn Vale|
 T Skullsplitter Tusks|QID|209|M|27.00,77.13|Z|1434; Stranglethorn Vale|N|To Kebok.|
-A The Captain's Chest |QID|8551|M|26.69,73.61|Z|1434; Stranglethorn Vale|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
+A The Captain's Chest|QID|8551|M|26.69,73.61|Z|1434; Stranglethorn Vale|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Captain Hecklebury Smotts.\n[color=FF0000]NOTE: [/color]At your level, soloing shouldn't be too difficult.|RANK|3|
 R The Cape of Stranglethorn|ACTIVE|608^8551|M|29.41,72.73|Z|1434; Stranglethorn Vale|N|Head up the stairs and through the tunnel to the other side.|IZ|Booty Bay|
 R Wild Shore|ACTIVE|608^8551|M|32.53,72.89|Z|1434; Stranglethorn Vale|N|Head east down the hill towards the water.|
 R Swim|ACTIVE|-624&608|M|34.44,85.51|Z|1434; Stranglethorn Vale|N|Enter the water and swim across to the island near the far left pirate ship.|
@@ -298,7 +298,7 @@ H The Salty Sailor Tavern|AVAILABLE|580|M|29.34,72.83|Z|1434; Stranglethorn Vale
 T Zanzil's Secret|QID|621|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|To Crank Fizzlebub, beside the bar.|
 A Whiskey Slim's Lost Grog|QID|580|M|27.13,77.45|Z|1434; Stranglethorn Vale|N|From Whiskey Slim.|
 T Voodoo Dues|QID|609|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|To Sea Wolf MacKinley.|
-T The Captain's Chest |QID|8551|M|26.69,73.61|Z|1434; Stranglethorn Vale|N|To Captain Hecklebury Smotts.| ; == Auto-complete seems to need that space in order to work - Hendo72|
+T The Captain's Chest|QID|8551|M|26.69,73.61|Z|1434; Stranglethorn Vale|N|To Captain Hecklebury Smotts.| ; == Auto-complete seems to need that space in order to work - Hendo72|
 T The Bloodsail Buccaneers|QID|608|M|27.18,77.01|Z|1434; Stranglethorn Vale|N|To Fleet-Master Seahorn on the balcony of the Inn.|
 F Stonard|ACTIVE|624|M|26.87,77.09|Z|1434; Stranglethorn Vale|
 T Cortello's Riddle|QID|624|M|22.86,48.18|Z|1435; Swamp of Sorrows|N|Follow the road west to the ornate bridge. Click on the soggy scroll under the bridge to turn it in.|
@@ -439,7 +439,7 @@ A Alpha Strike.|QID|2863|PRE|2862|M|74.91,42.46|Z|1444; Feralas|N|[color=CC00FF]
 C Splintered Log|ACTIVE|3128|L|9590 2|ITEM|9590|N|Wandering Forest Walkers\n[color=FF0000]NOTE: [/color]They only have 4 specific spawn points in Feralas.|IZ|1444; Feralas|S|
 R Lower Wilds|ACTIVE|2863|M|74.00,53.13|Z|1444; Feralas|N|Head west from Camp Mojache.|
 K Alpha Strike|QID|2863|QO|1|M|74.4,54.1;75.3,56.8;73.3,57.0;71.9,56.7;71.2,56.5|CC|Z|1444; Feralas|N|You'll find Woodpaw Alphas in the camps around the Lower Wilds and Woodpaw Hills.\n[color=FF0000]NOTE: [/color]The timer does not stop until you turn in the quest.|
-R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444; Feralas|N|Remember the TIMER is still running. Don't get distracted by shineys.|
+R Camp Mojache|ACTIVE|2863|M|73.12,47.44|Z|1444; Feralas|N|Remember the TIMER is still running. Don't get distracted by shineys.|
 T Alpha Strike|QID|2863|M|74.91,42.46|Z|1444; Feralas|N|To Hadoken Swiftstrider.|
 A Woodpaw Investigation|QID|2902|PRE|2863|M|74.91,42.46|Z|1444; Feralas|N|From Hadoken Swiftstrider.|
 K The Ogres of Feralas|ACTIVE|2975|QO|1;2;3|M|74.8,35.4|Z|1444; Feralas|S|
@@ -691,7 +691,7 @@ T Hunt the Savages|QID|7829|M|79.16,79.53|Z|1425; The Hinterlands|N|To Huntsman 
 T Avenging the Fallen|QID|7830|M|79.16,79.53|Z|1425; The Hinterlands|N|To Huntsman Markhor.|
 
 N Artisan First Aid|AVAILABLE|6622|N|If you are interested, now would be a good time to unlock your First Aid to 300 (provided you have reached 225 in First Aid).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|First Aid;129;0+150|
-F Hammerfall|AVAILABLE|6622|M|81.71,81.75|Z|1425;Hinterlands|N|[color=FF0000]NOTE: [/color]Skip this step if you don't want to do your First Aid.|
+F Hammerfall|AVAILABLE|6622|M|81.71,81.75|Z|1425; The Hinterlands|N|[color=FF0000]NOTE: [/color]Skip this step if you don't want to do your First Aid.|
 = First Aid|AVAILABLE|6622|N|You need to up your First Aid to 225 to start the quest.|P|First Aid;129;0+225;1|IZ|1417;Arathi Highlands|
 A Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|From Doctor Gregory Victor.\n[color=FF0000]NOTE: [/color]You cannot accept the quest if someone is on it.|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|
 C Triage|QID|6622|QO|1|M|73.03,36.86|Z|1417; Arathi Highlands|N|Stand in the middle row, in the middle of the grid and begin targetting the Critically Injured, followed by the Badly and finally, any injured talking about dying.\nAs soon as you start healing your target, switch to your next target and be ready to heal them... rinse and repeat until done.|U|16991|P|First Aid;129;0+225|IZ|1417;Arathi Highlands|NC|
@@ -699,7 +699,7 @@ T Triage|QID|6622|M|73.41,36.90|Z|1417;Arathi Highlands|N|To Doctor Gregory Vict
 * Triage Bandage|PRE|6622|N|You no longer require this quest item. It can be safely destroyed.|U|16991|
 ; --- Undercity/Orgrimmar
 F Undercity|ACTIVE|2995|M|81.71,81.75|Z|1425; The Hinterlands|IZ|1425;Hinterlands|
-F Undercity|ACTIVE|2995|M|73.07,32.61|Z|Arathi Highlands|IZ|1417;Arathi Highlands|
+F Undercity|ACTIVE|2995|M|73.07,32.61|Z|1417; Arathi Highlands|IZ|1417;Arathi Highlands|
 T Lines of Communication|QID|2995|M|73.07,32.85|Z|1458; Undercity|N|To Oran Snakewrithe in the Magic Quarter.|
 T Rin'ji's Secret|QID|2782|M|73.07,32.85|Z|1458; Undercity|N|To Oran Snakewrithe.|
 T Oran's Gratitude|QID|8273|M|73.07,32.85|Z|1458; Undercity|N|To Oran Snakewrithe.|
