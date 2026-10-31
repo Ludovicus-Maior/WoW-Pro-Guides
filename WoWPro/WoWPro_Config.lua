@@ -302,7 +302,7 @@ local function createDisplayConfig()
                                 type = "select",
                                 name = L["Window Expansion Anchor"],
                                 desc = L["Choose which corner the window expands from; content grows away from that corner and stays on-screen."],
-                                width = "full",
+                                width = 0.7,
                                 values = {
                                     ["TOPLEFT"] = "Top Left",
                                     ["TOPRIGHT"] = "Top Right",
@@ -386,7 +386,7 @@ local function createDisplayConfig()
                                 order = 10,
                                 type = "toggle",
                                 name = L["Override Minimum Width"],
-                                desc = L["Allows the guide window to be resized narrower than Min Resize - Width while dragging. Turning this off restores the Min Resize - Width limit."],
+                                desc = L["Allows the guide window to be resized narrower than 'Min Resize - Width' while manually resizing it.\nDisabling this restores the Min Resize - Width limit."],
                                 width = "full",
                                 get = function(info) return WoWProDB.profile.resizeoverride end,
                                 set = function(info,val) WoWProDB.profile.resizeoverride = val
