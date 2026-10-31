@@ -380,11 +380,6 @@ A Hidden Enemies|QID|5728|PRE|5727|M|31.75,37.82|Z|1454; Orgrimmar|ELITE|N|[colo
 * Lieutenant's Insignia|PRE|5727|N|You can safely destroy the Lieutenant's Insignia now.|U|14544|
 = Level 12 Training|ACTIVE|809|M|PLAYER|CC|N|Do your level 12 training (ask a guard if you don't know where they are).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|1454; Orgrimmar|
 r Housekeeping|ACTIVE|809|PRE|5727|N|While in Orgrimmar, take a minute to visit the bank to pick up or drop off items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1454; Orgrimmar|
-]]
-end)
-
-
-
 r Repair/Restock|QID|828|M|51.90,41.15|Z|1411; Durotar|N|At Flakk.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Mage class quest cont.
 R Sen'jin Village|ACTIVE|1883|M|54.33,72.91|Z|1411; Durotar|N|Follow the road south to Sen'jin Village.|R|Troll|C|Mage|
@@ -392,3 +387,8 @@ T Speak with Un'thuwa|QID|1883|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa in Se
 A Ju-Ju Heaps|QID|1884|PRE|1883|M|56.31,75.11|Z|1411; Durotar|N|From Un'Thuwa.|R|Troll|C|Mage|
 C Ju-Ju Heaps|QID|1884|M|67.37,82.50;68.45,82.32;68.54,84.18;67.78,83.37;68.42,83.31|CN|Z|1411; Durotar|N|Click on the Ju-Ju Heaps located inside the 4 huts on the southeast side of the largest island in Echo Isles.\n[color=FF0000]NOTE: [/color]There are 2 of them inside the big hut if you need it.|NC|
 T Ju-Ju Heaps|QID|1884|M|56.31,75.11|Z|1411; Durotar|N|To Un'Thuwa.|
+]]
+end)
+
+
+
