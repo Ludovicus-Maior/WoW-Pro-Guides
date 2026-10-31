@@ -408,6 +408,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     return value
 end
 
+
 WoWPro.ObjectiveOperators = {}
 -- Quest Objective functions
 function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
@@ -527,6 +528,7 @@ WoWPro.ObjectiveOperators['H='] = WoWPro.ObjectiveOperators.HeartEqual
 WoWPro.ObjectiveOperators['H>'] = WoWPro.ObjectiveOperators.HeartGreater
 WoWPro.ObjectiveOperators['H'] = WoWPro.ObjectiveOperators.HearStop
 
+
 function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = questtext:match(OBJECTIVE_PATTERN)
     WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, tostring(objective), tostring(operator), tostring(target))
@@ -616,7 +618,6 @@ end
 
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
-    WoWPro:Trace("LoadGuide")
     WoWPro:dbp("Signaled for LoadGuide %s",tostring(guideID))
     if WoWPro.GuideLoaded and guideID and WoWProDB.char.currentguide == guideID then
         WoWPro:print("Guide %s already loaded. Recycle!", guideID)
@@ -638,7 +639,6 @@ function WoWPro:LoadGuide(guideID)
 end
 
 function WoWPro.LoadGuideReal()
-    WoWPro:Trace("LoadGuideReal:ENTER")
     local GID = WoWProDB.char.currentguide
     WoWPro:dbp("LoadGuideReal(%s)",tostring(GID))
     -- If currently in startup lockdown, punt
@@ -805,6 +805,7 @@ function WoWPro:NextGuide(GID)
     return WoWPro:GuideFormalName(nextGID)
 
 end
+
 
 function WoWPro:UpdateGuide(From)
     WoWPro:print("Signaled for UpdateGuide from %s", WoWPro.Ptable(From))
@@ -1708,7 +1709,6 @@ function WoWPro.UpdateGuideRealSlow(From)
 end
 
 function WoWPro.UpdateGuideReal(From)
-    WoWPro:Trace("UpdateGuideReal:ENTER")
     if WoWPro.UpdateGuideRealInProgress then
         WoWPro:dbp("UpdateGuideReal(): nested update suppressed")
         return
@@ -1808,14 +1808,6 @@ function WoWPro.UpdateGuideReal(From)
             end
         end
 
-        -- RowUpdate owns row content and row-local sizing; Broker coordinates frame layout.
-        if WoWPro.GuideWindowLayout then
-            WoWPro:GuideWindowLayout()
-        end
-        if WoWPro.MainFrameLayout then
-            WoWPro.MainFrameLayout()
-        end
-
         if pendingPairedSticky and not WoWProCharDB.Guide[GID].completion[pendingPairedSticky] then
             SoundDiag("StickyPair complete us=%s sticky=%s visible=%s (post-row rebuild)", tostring(WoWPro.ActiveStep), tostring(pendingPairedSticky), tostring(IsStepVisibleInGuide(pendingPairedSticky)))
             WoWPro.CompleteStep(pendingPairedSticky, "[Broker] Active US step paired completion", true, "STICKY_UNSTICKY_PAIR")
@@ -1846,24 +1838,24 @@ function WoWPro.UpdateGuideReal(From)
         local currentMainStep = WoWPro.NextStepNotSticky()
         if WoWPro.Recorder then
             if WoWProDB.profile.guideprogress then
-                WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
             else
                 if total > 0 then
                     local percentage = math.floor((currentMainStep / total) * 100)
-                    WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
                 else
-                    WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
                 end
             end
         else
             if WoWProDB.profile.guideprogress then
-                WoWPro.TitleBar.title:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
             else
                 if total > 0 then
                     local percentage = math.floor((currentMainStep / total) * 100)
-                    WoWPro.TitleBar.title:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+                    WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
                 else
-                    WoWPro.TitleBar.title:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
                 end
             end
 
@@ -1893,8 +1885,6 @@ function WoWPro.UpdateGuideReal(From)
         end
     end
     runUpdate()
-    WoWPro:MainFrameStackOffset()
-    WoWPro:UpdateBars()
     WoWPro.UpdateGuideRealInProgress = false
 end
 
@@ -4770,10 +4760,10 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
-    text = "Welcome to WoWPro.\n \n"
+    text = "Welcome to WoWPro.\n\n"
         .. "For this addon to function properly, you need to install either: "
-        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n \n"
-        .. "WoWPro's guides won't have their full functionality without one of them!\n\n"
+        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\n"
+        .. "WoW-Pro's guides won't have their full functionality without one of them!\n\n"
         .. "Download it for free from www.wowinterface.com or www.curseforge.com.",
     button1 = _G.OKAY,
     whileDead = true,

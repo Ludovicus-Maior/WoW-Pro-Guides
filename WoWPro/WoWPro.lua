@@ -365,15 +365,14 @@ local defaults = { profile = {
     guideprogress = false,
     progressbar = true,
     buttonbar = true,
+    buttoniconsize = 20,
+    buttonpadding  = 2,
     showItemButton = true,
     showTargetButton = true,
     showEAButton = true,
     showJumpButton = true,
     showLootIcons = true,
-    buttoniconsize = 20,
-    buttonpadding = 2,
 } }
-
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 -- Migrate profile keys before AceDB applies defaults to saved profiles.
