@@ -19,6 +19,18 @@ WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {} -- Temporary local log
 WoWPro.GuideLoaded = false
 
+-- Layout table: centralizes spacing, padding, and sizing values for all row/frame layout
+WoWPro.Layout = {
+    RowPadding = 4,
+    RowPaddingLeft = 4,
+    RowPaddingTop = 3,
+    RowPaddingBottom = 2,
+    ColumnSpacing = 4,
+    StepTextOffsetX = 4,
+    RowMinHeight = 22,
+    IconSize = 16,
+}
+
 -- Define list of objects to be exported to Guide Addons
 WoWPro.mixins = {}
 function WoWPro:Embed(target)
@@ -303,15 +315,14 @@ function WoWPro.toboolean(v)
 end
 WoWPro:Export("toboolean")
 
-
-
 -- Default profile options --
 local defaults = { profile = {
     drag = true,
+    expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     size = {300, 200},  -- {Height, Width}
-    pad = 5,
-    space = 5,
+    userPad = 5,
+    space = 10,
     mousenotes = false,
     minimap = { hidden = false, },
     track = true,
@@ -327,51 +338,83 @@ local defaults = { profile = {
     numsteps = 1,
     hminresize = 250,
     vminresize = 100,
+    resizeoverride = false,
     titlebar = true,
     titlecolor = {0.5, 0.5, 0.5, 1},
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-    bgcolor = {0, 0, 0, 0.8},
+    bgcolor = {1, 1, 1, 1},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
     border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     stickycolor = {0.8, 0.8, 0.8, 0.7},
     stepfont = [[Fonts\FRIZQT__.TTF]],
-    steptextsize = 13,
+    stepfontsize = 13,
     steptextcolor = {1, 1, 1},
     notefont = [[Fonts\FRIZQT__.TTF]],
-    notetextsize = 11,
+    notefontsize = 11,
     notetextcolor = {1, 1, 0},
     trackfont = [[Fonts\FRIZQT__.TTF]],
-    tracktextsize = 10,
+    trackfontsize = 10,
     tracktextcolor = {1, 1, 0},
     titlefont = [[Fonts\FRIZQT__.TTF]],
-    titletextsize = 15,
+    titlefontsize = 15,
     titletextcolor = {1, 1, 1},
     stickytitlefont = [[Fonts\FRIZQT__.TTF]],
-    stickytitletextsize = 13,
+    stickytitlefontsize = 13,
     stickytitletextcolor = {1, 1, 1},
     guideprogress = false,
     progressbar = true,
     buttonbar = true,
+    buttoniconsize = 20,
+    buttonpadding  = 2,
     showItemButton = true,
     showTargetButton = true,
     showEAButton = true,
     showJumpButton = true,
-    showLootsButtons = true,
+    showLootIcons = true,
 } }
 
-
 -- Called before all addons have loaded, but after saved variables have loaded. --
+-- Migrate profile keys before AceDB applies defaults to saved profiles.
+local function MigrateProfileSettings()
+    local savedData = _G.WoWProData
+    if not savedData or type(savedData.profiles) ~= "table" then
+        return
+    end
+
+    for _, profile in pairs(savedData.profiles) do
+        if type(profile) == "table" then
+            if profile.userPad == nil and profile.pad ~= nil then
+                profile.userPad = profile.pad
+            end
+            profile.pad = nil
+            if profile.stepfontsize == nil and profile.steptextsize ~= nil then
+                profile.stepfontsize = profile.steptextsize
+            end
+            profile.steptextsize = nil
+        end
+    end
+end
 function WoWPro:OnInitialize()
+    MigrateProfileSettings()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
     -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 
-
     -- Creating empty user settings if none exist --
-    WoWProCharDB = WoWProCharDB or {}
+    WoWPro.DEFAULT_BORDER_METRICS = WoWPro.DEFAULT_BORDER_METRICS or
+    {
+        edgeSize = 8,
+        mainInsets = { left = 4, right = 4, top = 4, bottom = 4 },
+        buttonInsets = { left = 2, right = 2, top = 2, bottom = 2 },
+        titleInsets  = { left = 4, right = 4, top = 2, bottom = 2 },
+        titleTextYOffset = -1,
+        stackTopInset  = 2,
+        stackSideInset = 2,
+    }
+        WoWProCharDB = WoWProCharDB or {}
     WoWProDB.char = WoWProDB.char or {}
     WoWProCharDB.Guide = WoWProCharDB.Guide or {}
     WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
@@ -473,7 +516,7 @@ function WoWPro:OnInitialize()
 			0, -- [4]
 		},
 		["bordertexture"] = "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga",
-		["stickytitletextsize"] = 14,
+		["stickytitlefontsize"] = 14,
 		["stepfont"] = "Fonts\\MORPHEUS_CYR.TTF",
 		["stickycolor"] = {
 			1, -- [1]
@@ -490,14 +533,14 @@ function WoWPro:OnInitialize()
 			0.8666666666666667, -- [2]
 			0.8549019607843137, -- [3]
 		},
-		["titletextsize"] = 16,
+		["titlefontsize"] = 16,
 		["hminresize"] = 340,
 		["stickytitletextcolor"] = {
 			0.3843137254901961, -- [1]
 			0.4156862745098039, -- [2]
 		},
-		["steptextsize"] = 16,
-		["pad"] = 5,
+		["stepfontsize"] = 16,
+		["userPad"] = 5,
 		["steptextcolor"] = {
 			nil, -- [1]
 			0.8392156862745098, -- [2]
@@ -533,7 +576,6 @@ function WoWPro:OnEnable()
     --end
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro:CreateFrames()
         WoWPro.SettingsId = WoWPro:CreateConfig()
         WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
         WoWPro.FramesLoaded = true
@@ -549,7 +591,13 @@ function WoWPro:OnEnable()
     -- Reset anchor restore flag for this session
     WoWPro.HasRestoredThisSession = false
 
-    WoWPro:CustomizeFrames()    -- Applies profile display settings
+    -- Applies profile display settings
+    WoWPro:Trace("CustomizeFrames:FROM_WOWPRO")
+    WoWPro:CustomizeFrames()
+    -- Validate core UI frames after customization/enable to detect accidental overwrites
+    if WoWPro.ValidateUIFrames then
+        WoWPro:ValidateUIFrames()
+    end
 
     -- Keybindings Initial Setup --
     if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
@@ -999,6 +1047,8 @@ function WoWPro.LevelColor(guide)
 end
 
 function WoWPro.ShouldInstanceHide()
+    if not WoWPro.rows or not WoWPro.rows[1] then return false end
+
     local inInstance, instanceType = _G.IsInInstance()
 
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index or 1
@@ -1042,6 +1092,7 @@ WoWPro.IsHidden = false
 function WoWPro.AutoHideFrame(msg, why)
 
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
+
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == false  then
             WoWPro:dbp("WoWPro.ShowFrame(hide):"..msg)
         else
@@ -1062,11 +1113,28 @@ end
 function WoWPro.HideFrame(toHide, why)
     if toHide ~= WoWPro.IsHidden then
         if toHide then
-            WoWPro.MainFrame:Hide()
-            WoWPro.Titlebar:Hide()
+            WoWPro:SafeSetShown(WoWPro.MainFrame, false)
+            -- Do not hide the TitleBar if the GuideFrame is already hidden
+            if WoWPro.GuideFrame and WoWPro:SafeIsShown(WoWPro.GuideFrame) then
+                WoWPro:SafeSetShown(WoWPro.TitleBar, false)
+            else
+                WoWPro:SafeSetShown(WoWPro.TitleBar, true)
+            end
+            -- When the main UI is hidden, also hide any StickyHeader to avoid orphaned stickies
+            if WoWPro.StickyHeader then
+                WoWPro.StickyHeader.Visible = false
+                WoWPro:SafeSetShown(WoWPro.StickyHeader, false)
+            end
         else
-            WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
+            WoWPro:SafeSetShown(WoWPro.MainFrame, true)
+            local showTitleBar = WoWProDB
+                and WoWProDB.profile
+                and WoWProDB.profile.titlebar
+            if WoWPro.GuideFrame and not WoWPro:SafeIsShown(WoWPro.GuideFrame) then
+                showTitleBar = true
+            end
+            WoWPro:SafeSetShown(WoWPro.TitleBar, showTitleBar)
+            WoWPro:MainFrameLayout()
         end
         WoWPro.IsHidden = toHide
     end

@@ -1,67 +1,97 @@
 -- luacheck: std lua51
--- luacheck: globals InCombatLockdown GetBindingKey SetOverrideBindingClick C_ChatInfo C_ChromieTime C_PetBattles HasExtraActionBar ExtraActionButton1 ExtraActionButton1Icon tinsert strupper strsub strlower floor
-
--- WoWPro addon namespace
 -- luacheck: globals WoWPro WoWProDB
+-- luacheck: globals InCombatLockdown GetBindingKey SetOverrideBindingClick
+-- luacheck: globals C_ChatInfo C_ChromieTime C_PetBattles HasExtraActionBar
+-- luacheck: globals ExtraActionButton1 ExtraActionButton1Icon
+-- luacheck: globals tinsert strupper strsub strlower floor
+-- luacheck: globals tonumber tostring select ipairs pairs next type
+-- luacheck: globals string table math
 
--- WoW API globals used in RowUpdate
--- luacheck: globals
--- InCombatLockdown
--- ClearOverrideBindings
--- GetBindingKey
--- SetOverrideBindingClick
--- C_ChatInfo
--- C_ChromieTime
--- C_PetBattles
--- HasExtraActionBar
--- ExtraActionButton1
--- ExtraActionButton1Icon
 
--- Frame API
--- luacheck: globals
--- CreateFrame
--- UIParent
+function WoWPro.RowSizeSet()
+    if InCombatLockdown() or not WoWPro.rows then
+        return
+    end
 
--- Utility functions used implicitly
--- luacheck: globals
--- tonumber tostring select ipairs pairs next type
--- string table math
+    local spacing = WoWProDB.profile.space or 0
+    local bottomPadding = 5
+    local rightPadding = 5
+    for _, row in ipairs(WoWPro.rows) do
+        if row:IsShown() then
+            row.TextPaddingTop = 0
+            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
+            row.track:SetPoint("TOPLEFT", trackAnchor, "BOTTOMLEFT", 0, -3)
+            row.step:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
+            row.note:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
+            row.track:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
 
--- WoWPro utility functions referenced
--- luacheck: globals
--- ShouldShowRow ComputeRowLimit HideRemainingRows RunModulePreRowUpdate
--- FormatCoords NormalizeStepText NormalizeNote EmbedCoordsInNote AddNoCoordsWarning
--- IsStickyVisible BuildDropdownMenu SetupTrashItemButton SetupUseItemButton
--- SetupItemKeybind SetupPetSwitchButton SetupPetSwitchKeybind SetupLootButtons
--- SetupJumpButton SetupEAButton SetupTargetButton
--- UpdateQuestTrackerRow SetActionTexture
+            local stepHeight = row.step:GetHeight() or 0
+            local noteHeight = row.note:IsShown() and row.note:GetHeight() or 0
+            local trackHeight = row.track:IsShown() and row.track:GetHeight() or 0
+            local contentHeight = stepHeight + (row.TextPaddingTop or 0)
 
--- Row fields accessed
--- luacheck: globals
--- currentRow step note itembutton itembuttonSecured itemicon itemcooldown
--- lootsbuttons jumpbutton jumpbuttonSecured eabutton eabuttonSecured
--- eaicon targetbutton targetbuttonSecured
+            if noteHeight > 0 then
+                contentHeight = contentHeight + 3 + noteHeight
+            end
+            if trackHeight > 0 then
+                contentHeight = contentHeight + 3 + trackHeight
+            end
+            if row.progressBar:IsShown() then
+                contentHeight = contentHeight + 3 + row.progressBar:GetHeight()
+            end
 
-local ShouldShowRow
-local ComputeRowLimit
-local HideRemainingRows
-local RunModulePreRowUpdate
-local NormalizeStepText
-local NormalizeNote
-local FormatCoords
-local EmbedCoordsInNote
-local AddNoCoordsWarning
-local IsStickyVisible
-local BuildDropdownMenu
-local SetupTrashItemButton
-local SetupUseItemButton
-local SetupItemKeybind
-local SetupPetSwitchButton
-local SetupPetSwitchKeybind
-local SetupLootButtons
-local SetupJumpButton
-local SetupEAButton
-local SetupTargetButton
+            local buttonHeight = 0
+            for _, button in ipairs({row.itembutton, row.targetbutton, row.jumpbutton, row.eabutton}) do
+                if button and button:IsShown() then
+                    buttonHeight = math.max(buttonHeight, button:GetHeight() + 7)
+                end
+            end
+
+            row:SetHeight(math.max(25, contentHeight + (spacing * 2) + bottomPadding, buttonHeight))
+        end
+    end
+end
+
+local function ForEachRow(row, callback)
+    if row then
+        callback(row)
+        return
+    end
+    for _, currentRow in ipairs(WoWPro.rows or {}) do
+        callback(currentRow)
+    end
+end
+
+function WoWPro:RowFontSet(row)
+    local profile = WoWProDB.profile
+    ForEachRow(row, function(currentRow)
+        if profile.stepfont and profile.stepfontsize then
+            currentRow.step:SetFont(profile.stepfont, profile.stepfontsize)
+        end
+        if profile.notefont and profile.notefontsize then
+            currentRow.note:SetFont(profile.notefont, profile.notefontsize)
+        end
+        if profile.trackfont and profile.trackfontsize then
+            currentRow.track:SetFont(profile.trackfont, profile.trackfontsize)
+        end
+    end)
+end
+
+function WoWPro:RowColorSet(row)
+    local profile = WoWProDB.profile
+    ForEachRow(row, function(currentRow)
+        if profile.steptextcolor then
+            currentRow.step:SetTextColor(profile.steptextcolor[1], profile.steptextcolor[2], profile.steptextcolor[3])
+        end
+        if profile.notetextcolor then
+            currentRow.note:SetTextColor(profile.notetextcolor[1], profile.notetextcolor[2], profile.notetextcolor[3])
+        end
+        if profile.tracktextcolor then
+            currentRow.track:SetTextColor(profile.tracktextcolor[1], profile.tracktextcolor[2], profile.tracktextcolor[3])
+        end
+    end)
+end
 
 local function NormalizeTrackText(track)
     if type(track) ~= "string" then
@@ -185,6 +215,17 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
         end
     end
 
+    local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
+    row.track:ClearAllPoints()
+    row.track:SetJustifyH("RIGHT")
+    row.track:SetPoint("LEFT", row.step, "LEFT")
+    row.track:SetPoint("RIGHT", row, "RIGHT", -5, 0)
+    row.track:SetPoint("TOP", trackAnchor, "BOTTOM", 0, -3)
+    row.progressBar:ClearAllPoints()
+    row.progressBar:SetPoint("LEFT", row.step, "LEFT")
+    row.progressBar:SetPoint("RIGHT", row, "RIGHT", -5, 0)
+    row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -3)
+
     row.track:SetText(NormalizeTrackText(track))
 end
 
@@ -242,7 +283,13 @@ function WoWPro.SetActionTexture(currentRow)
 end
 
 function WoWPro:CheckFunction(row, button)
-    if button == "LeftButton" and row.check:GetChecked() then
+    if button == "RightButton" then
+        row.check:SetGold()
+        if WoWPro.CompleteStep(row.index, "Right-Click") then
+            return
+        end
+        WoWPro:UpdateGuide("CheckFunction:CompleteClick")
+    elseif button == "LeftButton" and row.check:GetChecked() then
         local steplist = WoWPro.SkipStep(row.index, true)
         if steplist ~= "" then
             WoWPro:SkipStepDialogCall(row.index, steplist, row.check)
@@ -251,243 +298,17 @@ function WoWPro:CheckFunction(row, button)
             row.check:SetSilver()
             WoWPro:UpdateGuide("CheckFunction:Skip1Step")
         end
-    elseif button == "RightButton" and row.check:GetChecked() then
-        row.check:SetGold()
-        if WoWPro.CompleteStep(row.index, "Right-Click") then
-            return
-        end
-        WoWPro:UpdateGuide("CheckFunction:CompleteClick")
     elseif not row.check:GetChecked() then
         WoWPro.UnSkipStep(row.index)
         WoWPro:UpdateGuide("CheckFunction:UnSkip")
     end
 end
 
-function WoWPro:RowUpdate(offset)
-    local GID = WoWProDB.char.currentguide
-    if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
-        WoWPro:dbp("Punting: WoWPro:RowUpdate()")
-        return false
-    end
-
-    local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-    if not module or not module:IsEnabled() then
-        return false
-    end
-
-    WoWPro.RowDropdownMenu = {}
-    local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
-    local syncData = {steps = {}, tracks = {}}
-    local startIndex = offset or WoWPro.NextStep(1)
-    local stickyBoundary = WoWPro.ActiveStep or startIndex
-
-    if not InCombatLockdown() then
-        _G.ClearOverrideBindings(WoWPro.MainFrame)
-    end
-
-    -- Build the current window, keeping visible sticky rows above regular rows.
-    local allSteps = {}
-    local nextIndex = startIndex
-    for i = 1, 15 do
-        if WoWProDB.profile.guidescroll then
-            table.insert(allSteps, nextIndex)
-            nextIndex = nextIndex + 1
-        else
-            -- Evaluate conditions before adding the step so stickies follow the same
-            -- progression rules as regular rows.
-            nextIndex = WoWPro.NextStep(nextIndex, i)
-            table.insert(allSteps, nextIndex)
-            nextIndex = nextIndex + 1
-        end
-    end
-
-    local stickySteps = {}
-    local regularSteps = {}
-    for _, stepIdx in ipairs(allSteps) do
-        if stepIdx and WoWPro.step[stepIdx] then
-            if WoWPro.sticky[stepIdx] then
-                if IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary) then
-                    table.insert(stickySteps, stepIdx)
-                end
-            elseif ShouldShowRow(stepIdx, completion) then
-                table.insert(regularSteps, stepIdx)
-            end
-        end
-    end
-
-    local stepList = {}
-    for _, stepIdx in ipairs(stickySteps) do
-        table.insert(stepList, stepIdx)
-    end
-    for _, stepIdx in ipairs(regularSteps) do
-        local pairedSticky = WoWPro.FindPairedStickyStep(stepIdx)
-        if not pairedSticky or completion[pairedSticky] or stepIdx == WoWPro.ActiveStep then
-            table.insert(stepList, stepIdx)
-        end
-    end
-
-    WoWPro:SetActiveStickyCount(#stickySteps)
-
-    -- RowLimit = number of visible steps
-    WoWPro.RowLimit = ComputeRowLimit(stepList)
-
-    -- Hide rows beyond visible limit
-    if #stepList == 0 then
-        HideRemainingRows(1)
-        return syncData
-    end
-
-    -- Process visible rows
-    for i = 1, math.min(#stepList, 15) do
-        local k = stepList[i]
-        local currentRow = WoWPro.rows[i]
-        currentRow.index = k
-        currentRow.num = i
-
-        -- Run module hook
-        RunModulePreRowUpdate(module, currentRow)
-
-        -- Extract step fields
-        local action = WoWPro.action[k]
-        local step   = NormalizeStepText(WoWPro.step[k])
-        local note   = NormalizeNote(WoWPro.note[k])
-        local use    = WoWPro.use[k]
-        local item   = WoWPro.item[k]
-        local target = WoWPro.target[k]
-        local jump   = WoWPro.jump[k]
-        local eab    = WoWPro.eab[k]
-        local switch = WoWPro.switch[k]
-        local coord  = WoWPro.map[k]
-        local zone   = WoWPro.zone[k]
-
-        if action == "H" and not use then
-            use = WoWPro.SelectHearthstone()
-        end
-
-        -- Format coordinates
-        local formattedCoord, playerZone = FormatCoords(GID, action, step, coord)
-        if playerZone then
-            zone = playerZone
-        end
-
-        -- Embed coords into note
-        if formattedCoord then
-            if WoWProDB.profile.showcoords then
-                note = EmbedCoordsInNote(note, formattedCoord, zone)
-            end
-        else
-            note = AddNoCoordsWarning(note, action, GID)
-        end
-
-        -- Set row content
-        currentRow:Show()
-        if not InCombatLockdown() then
-            currentRow.itembutton:SetScript("OnUpdate", nil)
-            currentRow.eabutton:SetScript("OnUpdate", nil)
-        end
-        currentRow.step:SetText(step)
-        WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
-
-        if step ~= "" then
-            currentRow.check:Show()
-        else
-            currentRow.check:Hide()
-        end
-        if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
-            if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
-                currentRow.check:SetSilver()
-            else
-                currentRow.check:SetGold()
-            end
-        else
-            currentRow.check:SetBlank()
-        end
-
-        currentRow.note:SetText(note)
-        WoWPro.SetActionTexture(currentRow)
-        currentRow.check:SetScript("OnClick", function(row, button)
-            WoWPro:CheckFunction(currentRow, button)
-        end)
-        table.insert(syncData.steps, k)
-
-        -- Dropdown menu
-        BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
-
-        -- Item buttons
-        if WoWProDB.profile.showItemButton and use and use ~= "" then
-            if use:sub(1, 1) == "*" then
-                SetupTrashItemButton(currentRow, use:sub(2), k)
-            else
-                SetupUseItemButton(currentRow, use, k)
-            end
-            SetupItemKeybind(i, currentRow)
-        else
-            if not InCombatLockdown() then
-                currentRow.itembutton:Hide()
-                currentRow.itembuttonSecured:Hide()
-            end
-        end
-
-        -- Pet switch button
-        if WoWProDB.profile.showItemButton and switch and switch ~= "" then
-            SetupPetSwitchButton(currentRow, switch, k)
-            SetupPetSwitchKeybind(i, currentRow)
-        end
-
-        -- Loot buttons
-        if WoWProDB.profile.showLootsButtons then
-            SetupLootButtons(currentRow, item, action, note, k)
-        else
-            SetupLootButtons(currentRow, nil, action, note, k)
-        end
-
-        -- Jump button
-        if jump and WoWProDB.profile.showJumpButton then
-            SetupJumpButton(currentRow, jump, i)
-        else
-            if not InCombatLockdown() then
-                currentRow.jumpbutton:Hide()
-                if currentRow.jumpbuttonSecured then
-                    currentRow.jumpbuttonSecured:Hide()
-                end
-            end
-        end
-
-        -- EA button
-        if WoWProDB.profile.showEAButton and eab then
-            SetupEAButton(currentRow, eab, i)
-        else
-            if not InCombatLockdown() then
-                currentRow.eabutton:Hide()
-                currentRow.eabuttonSecured:Hide()
-            end
-        end
-
-        -- Target button
-        if WoWProDB.profile.showTargetButton then
-            SetupTargetButton(currentRow, target, module)
-        else
-            SetupTargetButton(currentRow, nil, module)
-        end
-
-        -- Save row
-        WoWPro.rows[i] = currentRow
-    end
-
-    -- Hide unused rows
-    HideRemainingRows(#stepList + 1)
-    -- Update current index
-    local currentRow = WoWPro.rows[WoWPro:GetActiveStickyCount() + 1]
-    WoWPro.CurrentIndex = currentRow and currentRow.index or stepList[1]
-
-    return syncData
-end
-
 -- Rowupdate Helpers --
 -----------------------
 -- Text, Note, Coord, and Step Normalization Helpers
 -- Normalize step text (expand markup, trim whitespace)
-NormalizeStepText = function(step)
+local NormalizeStepText = function(step)
     -- Expand WoWPro markup if present
     if step then
         step = WoWPro.ExpandMarkup(step)
@@ -498,7 +319,7 @@ NormalizeStepText = function(step)
 end
 
 -- Normalize note text (newline cleanup, collapse blank lines)
-NormalizeNote = function(note)
+local NormalizeNote = function(note)
     if not note then
         return ""
     end
@@ -506,7 +327,8 @@ NormalizeNote = function(note)
     -- Expand markup first
     note = WoWPro.ExpandMarkup(note)
 
-    -- Replace CRLF with LF
+    -- Convert guide newline escapes and normalize line endings
+    note = note:gsub("\\n", "\n")
     note = note:gsub("\r\n", "\n")
 
     -- Strip leading blank lines
@@ -516,13 +338,13 @@ NormalizeNote = function(note)
     note = note:gsub("\n+$", "")
 
     -- Collapse multiple blank lines
-    note = note:gsub("\n\n+", "\n")
+    -- note = note:gsub("\n\n+", "\n")  This is not what we want to do - Hendo72
 
     return note
 end
 
 -- Validate and format coordinate text
-FormatCoords = function(GID, action, step, coord)
+local FormatCoords = function(GID, action, step, coord)
     if not coord then
         return nil
     end
@@ -545,7 +367,7 @@ FormatCoords = function(GID, action, step, coord)
 end
 
 -- Embed coordinates + zone into note text
-EmbedCoordsInNote = function(note, coord, zone)
+local EmbedCoordsInNote = function(note, coord, zone)
     if not coord then
         return note
     end
@@ -565,7 +387,7 @@ EmbedCoordsInNote = function(note, coord, zone)
 end
 
 -- Add "No coordinates" warning when appropriate
-AddNoCoordsWarning = function(note, action, GID)
+local AddNoCoordsWarning = function(note, action, GID)
     if action and not WoWPro.Guides[GID].NoCoordsOK then
         return note .. "\n(No coordinates)"
     end
@@ -609,7 +431,7 @@ local function StickyObjectiveIncomplete(QID, questtext)
 end
 
 -- Main sticky visibility logic extracted from RowUpdate
-IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
+local IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     -- Completed sticky steps never show
     if completion[stepIdx] then
         return false
@@ -621,13 +443,18 @@ IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
 
     local activeUS = WoWPro.ActiveStep
     local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
+    local isManualSticky = WoWPro.manualSticky and WoWPro.manualSticky[stepIdx]
 
     -- Hide paired sticky S when its US step is active
     if IsPairedStickyHidden(activeUS, stepIdx) then
         return false
     end
 
-    -- Sticky steps beyond progression boundary are hidden
+    if isManualSticky then
+        return true
+    end
+
+    -- Sticky steps beyond progression boundary are hidden.
     -- Except S!US (sticky+unsticky) which stays visible until completion
     if not isSUS and stepIdx > stickyBoundary then
         return false
@@ -672,7 +499,7 @@ end
 -- Item Button Helpers
 
 -- Helper: Bind keys to a visible item button (only once per RowUpdate pass)
-SetupItemKeybind = function(i, currentRow)
+local SetupItemKeybind = function(i, currentRow)
     -- Only bind if button is visible and not in combat
     if currentRow.itembutton:IsVisible() and not InCombatLockdown() then
         WoWPro.BindKeysToButton(i)
@@ -699,7 +526,7 @@ local function SetupItemSecuredOverlay(currentRow, attributeType, attributeValue
 end
 
 -- Helper: Setup trash-item button (action "*")
-SetupTrashItemButton = function(currentRow, use, k)
+local SetupTrashItemButton = function(currentRow, use, k)
     if InCombatLockdown() then
         return
     end
@@ -791,7 +618,7 @@ local function SelectUseItem(use)
 end
 
 -- Helper: Setup item-use button (action uses item)
-SetupUseItemButton = function(currentRow, use, k)
+local SetupUseItemButton = function(currentRow, use, k)
     if InCombatLockdown() then
         return
     end
@@ -799,10 +626,12 @@ SetupUseItemButton = function(currentRow, use, k)
     local itemID = SelectUseItem(use)
     if not itemID then
         currentRow.itembutton:Hide()
+        WoWPro:PositionTargetUseButtons(currentRow)
         return
     end
 
     currentRow.itembutton:Show()
+    WoWPro:PositionTargetUseButtons(currentRow)
     currentRow.itemicon.item_IsVisible = nil
     currentRow.itemicon.currentTexture = nil
     currentRow.itemcooldown.OnCooldown = nil
@@ -821,7 +650,7 @@ end
 
 -- Pet Switch Button Helpers
 -- Helper: Bind keys to pet-switch button (only once per RowUpdate pass)
-SetupPetSwitchKeybind = function(i, currentRow)
+local SetupPetSwitchKeybind = function(i, currentRow)
     if currentRow.itembutton:IsVisible() and not InCombatLockdown() then
         local key1, key2 = GetBindingKey("CLICK WoWPro_FauxPetSwitchButton:LeftButton")
 
@@ -865,7 +694,7 @@ local function SetupPetSwitchSecuredOverlay(currentRow, switch, k)
 end
 
 -- Helper: Setup pet-switch button (WoWPro.switch[k] > 0)
-SetupPetSwitchButton = function(currentRow, switch, k)
+local SetupPetSwitchButton = function(currentRow, switch, k)
     if InCombatLockdown() then
         return
     end
@@ -887,11 +716,11 @@ SetupPetSwitchButton = function(currentRow, switch, k)
     SetupPetSwitchSecuredOverlay(currentRow, switch, k)
 end
 
--- Loot Button Helpers
--- Helper: Hide all loot buttons on the row
-local function HideAllLootButtons(currentRow)
-    for i = 1, #currentRow.lootsbuttons do
-        currentRow.lootsbuttons[i].button:Hide()
+-- Loot Icon Helpers
+-- Helper: Hide all loot icons on the row
+local function HideAllLootIcons(currentRow)
+    for i = 1, #currentRow.looticons do
+        currentRow.looticons[i].frame:Hide()
     end
 end
 
@@ -950,32 +779,32 @@ local function NormalizeLootNote(note)
     return note
 end
 
--- Main helper: Setup loot buttons + update note
-SetupLootButtons = function(currentRow, item, action, note, k)
-    -- No loot items → hide all buttons
+-- Main helper: Setup loot icons + update note
+local SetupLootIcons = function(currentRow, item, action, note, k)
+    -- No loot items -> hide all icons
     if not item then
-        HideAllLootButtons(currentRow)
+        HideAllLootIcons(currentRow)
         return note
     end
 
     local items = ParseLootItems(item)
     local itemNames = {}
-    local buttonIndex = 1
+    local iconIndex = 1
 
-    -- Assign items to loot buttons
+    -- Assign items to loot icons
     for _, itemID in ipairs(items) do
-        if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
-            local lootData = currentRow.lootsbuttons[buttonIndex]
-            local nomen = lootData.button:SetItemByID(itemID)
-            lootData.button:Show()
+        if itemID ~= "" and iconIndex <= #currentRow.looticons then
+            local lootData = currentRow.looticons[iconIndex]
+            local nomen = lootData.frame:SetItemByID(itemID)
+            lootData.frame:Show()
             table.insert(itemNames, nomen)
-            buttonIndex = buttonIndex + 1
+            iconIndex = iconIndex + 1
         end
     end
 
-    -- Hide unused loot buttons
-    for i = buttonIndex, #currentRow.lootsbuttons do
-        currentRow.lootsbuttons[i].button:Hide()
+    -- Hide unused loot icons
+    for i = iconIndex, #currentRow.looticons do
+        currentRow.looticons[i].frame:Hide()
     end
 
     -- Update note text based on loot items
@@ -1036,7 +865,7 @@ local function SetupJumpSecuredOverlay(currentRow)
 end
 
 -- Helper: Setup jump button (guide jump)
-SetupJumpButton = function(currentRow, jumpTag, i)
+local SetupJumpButton = function(currentRow, jumpTag, i)
     if not jumpTag then
         return
     end
@@ -1153,7 +982,7 @@ local function SetupEAIconTracking(currentRow)
 end
 
 -- Main helper: Setup EA button
-SetupEAButton = function(currentRow, eab, i)
+local SetupEAButton = function(currentRow, eab, i)
     if not eab then
         return
     end
@@ -1255,18 +1084,20 @@ local function SetupTargetKeybind(i, currentRow)
 end
 
 -- Main helper: Setup target button
-SetupTargetButton = function(currentRow, target, module)
+local SetupTargetButton = function(currentRow, target, module)
     if not target then
         -- Hide both buttons when no target tag
         if not InCombatLockdown() then
             currentRow.targetbutton:Hide()
             currentRow.targetbuttonSecured:Hide()
+            WoWPro:PositionTargetUseButtons(currentRow)
         end
         return
     end
 
     if not InCombatLockdown() then
         currentRow.targetbutton:Show()
+        WoWPro:PositionTargetUseButtons(currentRow)
     end
 
     -- Build macrotext
@@ -1277,14 +1108,18 @@ SetupTargetButton = function(currentRow, target, module)
         WoWPro[module:GetName()]:RowUpdateTarget(currentRow)
         macroText = currentRow.targetbutton:GetAttribute("macrotext") or macroText
     else
-        currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        if not InCombatLockdown() then
+            currentRow.targetbutton:SetAttribute("macrotext", macroText)
+        else
+            currentRow.targetbutton._pendingMacro = macroText
+        end
     end
 
     WoWPro:dbp("Target text set to: %s", macroText)
 
     -- Position target button (only out of combat)
     if not InCombatLockdown() then
-        currentRow.targetbutton.Position(WoWPro.use[currentRow.index] or WoWPro.eab[currentRow.index])
+        WoWPro:PositionTargetUseButtons(currentRow)
     end
 
     -- Secured overlay
@@ -1296,16 +1131,16 @@ end
 
 -- Row Visibility, RowLimit, and Layout Helpers
 -- Helper: Determine if a row should be shown (non-sticky logic)
-ShouldShowRow = function(stepIdx, completion)
+local ShouldShowRow = function(stepIdx, completion, skipped)
     -- Completed steps are filtered out (RowUpdate never completes steps)
-    if completion[stepIdx] then
+    if completion[stepIdx] or (skipped and skipped[stepIdx]) then
         return false
     end
 
     -- US steps: only show if paired sticky is complete or no sticky exists
     if WoWPro.unsticky[stepIdx] and not WoWPro.sticky[stepIdx] then
         local pairedSticky = WoWPro.FindPairedStickyStep(stepIdx)
-        if pairedSticky and not completion[pairedSticky] then
+        if pairedSticky and not completion[pairedSticky] and stepIdx ~= WoWPro.ActiveStep then
             return false
         end
     end
@@ -1314,15 +1149,11 @@ ShouldShowRow = function(stepIdx, completion)
 end
 
 -- Helper: Hide all remaining rows starting at index i
-HideRemainingRows = function(startIndex)
-    -- 1. COMBAT OVERRIDE: Exit instantly if in combat to prevent forbidden .Hide() action errors
+local HideRemainingRows = function(startIndex)
     if InCombatLockdown() then return end
-
-    -- 2. SANITY CHECK: Only parse rows if the table is loaded
     if not WoWPro.rows then return end
 
-    local maxRows = #WoWPro.rows or 15 -- row count, fallback to 15 if WoWPro.rows is nil
-    -- 3. SAFE OUT-OF-COMBAT LOOP
+    local maxRows = #WoWPro.rows or 15
     for j = startIndex, maxRows do
         local row = WoWPro.rows[j]
         if row then
@@ -1343,15 +1174,9 @@ HideRemainingRows = function(startIndex)
     end
 end
 
--- Helper: Update RowLimit based on visible steps
-ComputeRowLimit = function(stepList)
-    -- RowLimit is simply the number of visible steps
-    return #stepList
-end
-
 -- Module Hook Helpers
 -- Helper: Run module-specific PreRowUpdate() if present
-RunModulePreRowUpdate = function(module, currentRow)
+local RunModulePreRowUpdate = function(module, currentRow)
     -- Some modules define a PreRowUpdate hook to adjust row before processing
     local mod = WoWPro[module:GetName()]
     if mod and mod.PreRowUpdate then
@@ -1359,7 +1184,7 @@ RunModulePreRowUpdate = function(module, currentRow)
     end
 end
 
-BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
+local BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
     -- Populate RowDropdownMenu data --
     WoWPro.RowDropdownMenu = WoWPro.RowDropdownMenu or {}
     local dropdown = {}
@@ -1393,6 +1218,8 @@ BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
             tinsert(dropdown,
                 {text = "Un-Sticky", func = function()
                     WoWPro.sticky[currentRow.index] = false
+                    WoWPro.manualSticky = WoWPro.manualSticky or {}
+                    WoWPro.manualSticky[currentRow.index] = nil
                     WoWPro:UpdateGuide("ClickedUnSticky")
                 end}
             )
@@ -1401,6 +1228,8 @@ BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
                 {text = "Make Sticky", func = function()
                     WoWPro.sticky[currentRow.index] = true
                     WoWPro.unsticky[currentRow.index] = false
+                    WoWPro.manualSticky = WoWPro.manualSticky or {}
+                    WoWPro.manualSticky[currentRow.index] = true
                     WoWPro:UpdateGuide("ClickedMakeSticky")
                 end}
             )
@@ -1535,4 +1364,287 @@ BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
         )
     end
     WoWPro.RowDropdownMenu[i] = dropdown
+end
+function WoWPro:RowUpdate(offset)
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
+        WoWPro:dbp("Punting: WoWPro:RowUpdate()")
+        return false
+    end
+
+    local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
+    if not module or not module:IsEnabled() then
+        return false
+    end
+
+    WoWPro.RowDropdownMenu = {}
+    local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
+    local skipped = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].skipped) or {}
+    local syncData = {steps = {}, tracks = {}}
+    local startIndex = offset or WoWPro.ActiveStep or WoWPro.NextStep(1)
+    local stickyBoundary = WoWPro.ActiveStep or startIndex
+    local regularLimit = WoWProDB.profile.autoresize and WoWProDB.profile.numsteps or 15
+    local maxVisibleRows = 15
+
+    if not InCombatLockdown() then
+        _G.ClearOverrideBindings(WoWPro.MainFrame)
+    end
+
+    -- Build enough candidates to collect the configured number of regular rows.
+    local nextIndex = startIndex
+    local scanIndex = 1
+    local regularCount = 0
+    local stickySteps = {}
+    local regularSteps = {}
+
+    -- Sticky steps remain eligible even when they precede the current regular step.
+    -- IsStickyVisible applies completion, pairing, and progression filters.
+    for stepIdx = 1, WoWPro.stepcount do
+        if WoWPro.sticky[stepIdx] then
+            local eligible = WoWPro.NextStep(stepIdx, 1) == stepIdx
+            local visible = not skipped[stepIdx]
+                and eligible
+                and IsStickyVisible(stepIdx, startIndex, completion, stickyBoundary)
+            if visible then
+                table.insert(stickySteps, stepIdx)
+            end
+        end
+    end
+
+    while regularCount < regularLimit and scanIndex <= (WoWPro.stepcount + 15) do
+        local stepIdx
+        if WoWProDB.profile.guidescroll then
+            stepIdx = nextIndex
+        else
+            -- Evaluate conditions before adding the step so stickies follow the same
+            -- progression rules as regular rows.
+            stepIdx = WoWPro.NextStep(nextIndex, scanIndex)
+        end
+
+        if stepIdx and WoWPro.step[stepIdx] then
+            if not WoWPro.sticky[stepIdx] and ShouldShowRow(stepIdx, completion, skipped) then
+                table.insert(regularSteps, stepIdx)
+                regularCount = regularCount + 1
+            end
+        end
+
+        nextIndex = stepIdx and stepIdx + 1 or WoWPro.stepcount + 1
+        scanIndex = scanIndex + 1
+    end
+
+    local stepList = {}
+    local stickyLimit = #regularSteps > 0 and maxVisibleRows - 1 or maxVisibleRows
+    for i = 1, math.min(#stickySteps, stickyLimit) do
+        table.insert(stepList, stickySteps[i])
+    end
+    for _, stepIdx in ipairs(regularSteps) do
+        if #stepList >= maxVisibleRows then
+            break
+        end
+        local pairedSticky = WoWPro.FindPairedStickyStep(stepIdx)
+        if not pairedSticky or completion[pairedSticky] or stepIdx == WoWPro.ActiveStep then
+            table.insert(stepList, stepIdx)
+        end
+    end
+
+    local displayedStickyCount = math.min(#stickySteps, stickyLimit)
+    WoWPro:SetActiveStickyCount(displayedStickyCount)
+
+    -- RowLimit counts regular rows; sticky rows have separate physical capacity.
+    WoWPro.RowLimit = #stepList - displayedStickyCount
+
+    -- Hide rows beyond visible limit
+    if #stepList == 0 then
+        HideRemainingRows(1)
+        return syncData
+    end
+
+    -- Process visible rows
+    for i = 1, #stepList do
+        local k = stepList[i]
+        local currentRow = WoWPro.rows[i]
+        currentRow.index = k
+        currentRow.num = i
+
+        -- Run module hook
+        RunModulePreRowUpdate(module, currentRow)
+
+        -- Extract step fields
+        local action = WoWPro.action[k]
+        local step   = NormalizeStepText(WoWPro.step[k])
+        local note   = NormalizeNote(WoWPro.note[k])
+        local use    = WoWPro.use[k]
+        local item   = WoWPro.item[k]
+        local target = WoWPro.target[k]
+        local jump   = WoWPro.jump[k]
+        local eab    = WoWPro.eab[k]
+        local switch = WoWPro.switch[k]
+        local coord  = WoWPro.map[k]
+        local zone   = WoWPro.zone[k]
+
+        if action == "H" and not use then
+            use = WoWPro.SelectHearthstone()
+        end
+
+        -- Format coordinates
+        local formattedCoord, playerZone = FormatCoords(GID, action, step, coord)
+        if playerZone then
+            zone = playerZone
+        end
+
+        -- Embed coords into note
+        if formattedCoord then
+            if WoWProDB.profile.showcoords then
+                note = EmbedCoordsInNote(note, formattedCoord, zone)
+            end
+        else
+            note = AddNoCoordsWarning(note, action, GID)
+        end
+
+        -- Set row content
+        if not InCombatLockdown() then
+            currentRow:Show()
+        end
+        if not InCombatLockdown() then
+            currentRow.itembutton:SetScript("OnUpdate", nil)
+            currentRow.eabutton:SetScript("OnUpdate", nil)
+        end
+        currentRow.step:SetText(step)
+        currentRow.note:ClearAllPoints()
+        currentRow.note:SetPoint("TOPLEFT", currentRow.step, "BOTTOMLEFT", 0, -3)
+        currentRow.note:SetPoint("RIGHT")
+        currentRow.note:SetText(note)
+        WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
+
+        if not InCombatLockdown() then
+            if step ~= "" then
+                currentRow.check:Show()
+            else
+                currentRow.check:Hide()
+            end
+        end
+        if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
+            if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k], WoWProCharDB.skippedQIDs) then
+                currentRow.check:SetSilver()
+            else
+                currentRow.check:SetGold()
+            end
+        else
+            currentRow.check:SetBlank()
+        end
+
+        WoWPro.SetActionTexture(currentRow)
+        currentRow.check:SetScript("OnClick", function(row, button)
+            WoWPro:CheckFunction(currentRow, button)
+        end)
+        table.insert(syncData.steps, k)
+
+        -- Dropdown menu
+        BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
+
+        -- Item buttons
+        if WoWProDB.profile.showItemButton and use and use ~= "" then
+            if use:sub(1, 1) == "*" then
+                SetupTrashItemButton(currentRow, use:sub(2), k)
+            else
+                SetupUseItemButton(currentRow, use, k)
+            end
+            SetupItemKeybind(i, currentRow)
+        else
+            if not InCombatLockdown() then
+                currentRow.itembutton:Hide()
+                currentRow.itembuttonSecured:Hide()
+            end
+        end
+
+        -- Pet switch button
+        if WoWProDB.profile.showItemButton and switch and switch ~= "" then
+            SetupPetSwitchButton(currentRow, switch, k)
+            SetupPetSwitchKeybind(i, currentRow)
+        end
+
+        -- Loot icons
+        if WoWProDB.profile.showLootIcons then
+            SetupLootIcons(currentRow, item, action, note, k)
+        else
+            SetupLootIcons(currentRow, nil, action, note, k)
+        end
+
+        -- Jump button
+        if jump and WoWProDB.profile.showJumpButton then
+            SetupJumpButton(currentRow, jump, i)
+        else
+            if not InCombatLockdown() then
+                currentRow.jumpbutton:Hide()
+                if currentRow.jumpbuttonSecured then
+                    currentRow.jumpbuttonSecured:Hide()
+                end
+            end
+        end
+
+        -- EA button
+        if WoWProDB.profile.showEAButton and eab then
+            SetupEAButton(currentRow, eab, i)
+        else
+            if not InCombatLockdown() then
+                currentRow.eabutton:Hide()
+                currentRow.eabuttonSecured:Hide()
+            end
+        end
+
+        -- Target button
+        if WoWProDB.profile.showTargetButton then
+            SetupTargetButton(currentRow, target, module)
+        else
+            SetupTargetButton(currentRow, nil, module)
+        end
+
+        if not InCombatLockdown() then
+            WoWPro:SetRowBackdrop(currentRow)
+        end
+
+        -- Save row
+        WoWPro.rows[i] = currentRow
+    end
+
+    -- Hide unused rows
+    HideRemainingRows(#stepList + 1)
+    -- Update current index
+    local currentRow = WoWPro.rows[WoWPro:GetActiveStickyCount() + 1]
+    WoWPro.CurrentIndex = currentRow and currentRow.index or stepList[1]
+
+    return syncData
+end
+
+function WoWPro:ScrollGuideByRow(slider, direction)
+    if not WoWProDB.profile.guidescroll then
+        slider:SetValue(slider:GetValue() + direction)
+        return
+    end
+
+    local GID = WoWProDB.char.currentguide
+    local guide = GID and WoWProCharDB.Guide[GID]
+    if not guide then
+        return
+    end
+
+    local completion = guide.completion or {}
+    local skipped = guide.skipped or {}
+    local current = floor(slider:GetValue())
+    local candidate = current + direction
+    local limit = direction > 0 and WoWPro.stepcount or 1
+
+    while (direction > 0 and candidate <= limit) or (direction < 0 and candidate >= limit) do
+        local visible
+        if WoWPro.sticky[candidate] then
+            visible = not skipped[candidate] and IsStickyVisible(candidate, candidate, completion, WoWPro.ActiveStep or candidate)
+        else
+            visible = ShouldShowRow(candidate, completion, skipped)
+        end
+        if visible then
+            slider:SetValue(candidate)
+            return
+        end
+        candidate = candidate + direction
+    end
 end
