@@ -1046,10 +1046,35 @@ function WoWPro.LevelColor(guide)
 
 end
 
+-- Warlords garrison instance IDs (Horde: Frostwall, Alliance: Lunarfall), levels 1-4
+local GARRISON_INSTANCE_IDS = {
+    [1152] = true, [1330] = true, [1153] = true, [1154] = true,
+    [1158] = true, [1331] = true, [1159] = true, [1160] = true,
+}
+
+-- The game reports garrisons as instances, but they are part of the open world for guide purposes.
+function WoWPro.InGarrisonInstance()
+    local instanceID = select(8, _G.GetInstanceInfo())
+    if instanceID and GARRISON_INSTANCE_IDS[instanceID] then
+        return true
+    end
+    local C_Garrison = _G.C_Garrison
+    local garrisonType = _G.Enum and _G.Enum.GarrisonType
+        and (_G.Enum.GarrisonType.Type_6_0_Garrison or _G.Enum.GarrisonType.Type_6_0)
+    if C_Garrison and C_Garrison.IsPlayerInGarrison and garrisonType then
+        return C_Garrison.IsPlayerInGarrison(garrisonType) and true or false
+    end
+    return false
+end
+
 function WoWPro.ShouldInstanceHide()
     if not WoWPro.rows or not WoWPro.rows[1] then return false end
 
     local inInstance, instanceType = _G.IsInInstance()
+    if inInstance and WoWPro.InGarrisonInstance() then
+        WoWPro:print("ShouldInstanceHide: in a garrison, not hiding.")
+        return false
+    end
 
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index or 1
     local guidetype = "WoWPro"
