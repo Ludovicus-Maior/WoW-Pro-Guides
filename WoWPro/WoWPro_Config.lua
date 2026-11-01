@@ -1471,6 +1471,24 @@ local function createHelpConfig()
                         width = "full",
                         name = "Start here to select a guide and set your questing preferences.",
                     },
+                    tutorial = {
+                        order = 1.5,
+                        type = "execute",
+                        name = function()
+                            return WoWPro:CanResumeTutorial() and L["Resume / Restart Tutorial"] or L["Replay Tutorial"]
+                        end,
+                        desc = L["Explore the guide controls with optional practice actions or Next. Your place is saved across reloads; choose Resume or Restart for an unfinished tour. Starts automatically on new installations only. The tour itself does not change guide progress or settings."],
+                        width = "full",
+                        func = function()
+                            if WoWPro:StartTutorial() then
+                                dialog:Close("WoWPro")
+                                local settingsFrame = _G.SettingsPanel or _G.InterfaceOptionsFrame
+                                if settingsFrame and settingsFrame:IsShown() then
+                                    _G.HideUIPanel(settingsFrame)
+                                end
+                            end
+                        end,
+                    },
                     wowproHeader = {
                         order = 2,
                         type = "header",
@@ -2121,7 +2139,8 @@ function WoWPro.CreateConfig()
 
     config:RegisterOptionsTable("WoWPro", topConfig)
 
-    local _, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
+    local settingsFrame, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
+    WoWPro.SettingsFrame = settingsFrame
     return id or "WoWPro"
 end
 
