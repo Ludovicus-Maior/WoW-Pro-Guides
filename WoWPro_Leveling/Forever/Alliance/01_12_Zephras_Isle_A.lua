@@ -98,7 +98,6 @@ C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Gain the 
 T The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 
 
-N Camping 101|ACTIVE|96646|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
 A Camping 101: Cooking|QID|96646|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
 A Camping 101: First Aid|QID|97965|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
 A Camping 101: Fishing|QID|97967|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Shen'dar Village|
@@ -107,7 +106,7 @@ A Camping 101: Skinning|QID|97971|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N
 A Camping 101: Mining|QID|97970|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
 A Camping 101: Alchemy|QID|97963|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
 A Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
-A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Shen'dar Village|
+A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
 A Camping 101: Enchanting|QID|98284|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
 A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
 A Camping 101: Tailoring|QID|97973|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
@@ -183,7 +182,7 @@ T Among the Faithful|QID|92528|M|45.64,45.47|Z|2521; Zephras Isle|N|To Constable
 
 A The Western Watch|QID|93926|PRE|92528|M|45.67,45.47|Z|2521; Zephras Isle|N|From Constable Aonda.|
 A Havoc in the Highlands|QID|92550|M|45.66,45.52|Z|2521|N|From Constable Aonda.|
-A Stolen Supplies|QID|92551|PRE|92550|M|45.22,45.25|Z|2521|N|From Danarii Bellowveil.|
+A Stolen Supplies|QID|92551|M|45.22,45.25|Z|2521|N|From Danarii Bellowveil.|
 
 R Run down toward the Dock|ACTIVE|92551|M|45.23,47.91|N|Make your way toward the the Dock.|CC|
 R Jump off the Dock|ACTIVE|92551|M|46.96,48.66|N|Jump off the dock and swim to the far shore to come up behind the quest area.|CC|
@@ -370,10 +369,14 @@ R Keep going North|ACTIVE|92741|M|58.97,44.20|Z|2521; Zephras Isle|N|Cross the b
 C Unwelcome Visitors|QID|92741|M|60.67,38.98|Z|2521; Zephras Isle|NC|N|Shriekling Talons.|QO|1|S|
 
 T Unnerving Silence|QID|94484|M|61.76,39.17|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
-A Tears of the Lady|QID|94485|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Feathers for Binding|QID|94486|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Unwanted and Unworthy|QID|94487|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Mercy Falls on Deaf Ears|QID|93165|PRE|94638&94484|M|63.80,35.99|Z|2521; Zephras Isle|N|From Vayn Moongaze.|
+A Tears of the Lady|QID|94485|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|Druid|
+A Tears of the Lady|QID|94485|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|-Druid|
+A Feathers for Binding|QID|94486|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|Druid|
+A Feathers for Binding|QID|94486|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|-Druid|
+A Unwanted and Unworthy|QID|94487|PRE|94638&94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|Druid|
+A Unwanted and Unworthy|QID|94487|PRE|94484|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|C|-Druid|
+A Mercy Falls on Deaf Ears|QID|93165|PRE|94638&94484|M|63.80,35.99|Z|2521; Zephras Isle|N|From Vayn Moongaze.|C|Druid|
+A Mercy Falls on Deaf Ears|QID|93165|PRE|94484|M|63.80,35.99|Z|2521; Zephras Isle|N|From Vayn Moongaze.|C|-Druid|
 C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|QO|1|S|
 C Tears of the Lady|QID|94485|M|59.22,38.46|Z|2521; Zephras Isle|NC|N|Lady's Tear Moss.|QO|1|
 C Feathers for Binding|QID|94486|M|61.57,36.77|Z|2521; Zephras Isle|NC|N|Pristine Shriekling Feathers.|QO|1|
@@ -381,19 +384,18 @@ C Unwanted and Unworthy|QID|94487|M|62.84,37.06|Z|2521; Zephras Isle|NC|N|Bloody
 T Tears of the Lady|QID|94485|M|61.78,39.18|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Feathers for Binding|QID|94486|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Unwanted and Unworthy|QID|94487|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
-A The Ties That Bind|QID|94488|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A The Wounds of Betrayal|QID|94489|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-C The Ties That Bind|QID|94488|M|66.00,36.63|Z|2521; Zephras Isle|NC|N|Commander Haalien's Severed Head.|QO|1|
-A Ripped Missive|QID|94490|PRE|93165&94485&94486&94487|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
 C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|QO|1|US|
 T Mercy Falls on Deaf Ears|QID|93165|M|63.79,35.99|Z|2521; Zephras Isle|N|To Vayn Moongaze.|
-
-r Repair/Restock|PRE|94489|M|63.79,35.99|Z|2521; Zephras Isle|N|At Vayn Moongaze.|
+A The Ties That Bind|QID|94488|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
+A The Wounds of Betrayal|QID|94489|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
+A Ripped Missive|QID|94490|PRE|93165&94485&94486&94487|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
+C The Ties That Bind|QID|94488|M|66.00,36.63|Z|2521; Zephras Isle|NC|N|Commander Haalien's Severed Head.|QO|1|
 
 C The Wounds of Betrayal|QID|94489|M|64.54,34.82|Z|2521; Zephras Isle|NC|N|Find Jorel Windsinger.|QO|2|
 C The Wounds of Betrayal|QID|94489|M|64.38,31.94|Z|2521; Zephras Isle|NC|N|Injured Druids healed.|QO|1|
 T The Ties That Bind|QID|94488|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T The Wounds of Betrayal|QID|94489|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
+r Repair/Restock|PRE|94489|M|63.79,35.99|Z|2521; Zephras Isle|N|At Vayn Moongaze.|
 T Ripped Missive|QID|94490|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 A The Fate of the Den|QID|94491|PRE|94490|M|61.75,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
 
@@ -476,12 +478,12 @@ A The Magical City of Dalaran|QID|94946|M|66.63,79.92|Z|2521; Zephras Isle|N|Fro
 
 R Head to the Dock|ACTIVE|94946|M|65.78,83.34|N|Make your way to the Dock to meet the airship.|CC|
 b Take the Skycutter to Dalaran|ACTIVE|94946|N|Take the airship to Dalaran|CC|
-T The Magical City of Dalaran|ACTIVE|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|To Denaaris Stargale.|
+T The Magical City of Dalaran|ACTIVE|94946|M|12.30,56.34|Z|1416; Alterac Mountains|N|To Denaaris Stargale.|
 
-A Welcome to Azeroth|QID|94947|PRE|94946|M|12.30,56.34|Z|1416; City of Dalaran|N|From Denaaris Stargale.|
-A Child of Nature|QID|94912|PRE|94946|M|11.73,56.55|Z|1416; City of Dalaran|N|From Alfina Nightgaze.|C|Druid|
+A Welcome to Azeroth|QID|94947|PRE|94946|M|12.30,56.34|Z|1416; Alterac Mountains|N|From Denaaris Stargale.|
+A Child of Nature|QID|94912|PRE|94946|M|11.73,56.55|Z|1416; Alterac Mountains|N|From Alfina Nightgaze.|C|Druid|
 
-P Take the portal to Stormwind|ACTIVE|94947|M|12.30,56.34|Z|1416; City of Dalaran|N|Take the portal to Stormwind.|CC|
+P Take the portal to Stormwind|ACTIVE|94947|M|12.30,56.34|Z|1416; Alterac Mountains|N|Take the portal to Stormwind.|CC|
 C Welcome to Azeroth|ACTIVE|94947|M|12.05,56.23|Z|1416|NC|N|Take the Skyborne Portal to Stormwind.|QO|1|
 h Stormwind City|ACTIVE|94947|M|60.36,75.22|Z|1453; Stormwind City|N|At Innkeeper Allison.|
 
@@ -508,7 +510,7 @@ C Exploring the Alliance|ACTIVE|93963|M|68.85,49.00|Z|1457; Darnassus|CHAT|N|Spe
 f The Great Forge|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Grab the flightpath at Gryth Thurden.|
 C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1457; Darnassus|CHAT|N|Speak with King Magni Bronzebeard.|QO|3|
 
-P Nighthaven|ACTIVE|98021|M|70.92,48.77|Z|1455; Ironforge|N|Take the portal to Moonglade.|C|Druid|CC|
+P Nighthaven|ACTIVE|93963|M|70.92,48.77|Z|1455; Ironforge|N|Take the portal to Moonglade.|C|Druid|CC|
 F Stormwind City|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Head to the flightmaster and take a flight to Stormwind Ciry.|C|-Druid|CC|
 R Head to the Dock to catch the boat to Auberdine|ACTIVE|93963|M|22.80,56.15|Z|1453; Stormwind City|N|Make your way to take the boat to Darkshore.|C|-Druid|CC|
 b Take the boat to Auberdine|ACTIVE|93963|N|Take the boat to Auberdine.|C|-Druid|CC|

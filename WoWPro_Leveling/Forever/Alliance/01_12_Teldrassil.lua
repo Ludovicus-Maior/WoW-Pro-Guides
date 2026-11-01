@@ -97,7 +97,7 @@ K Githyiss the Vile Hunt|M|56.65,25.74|Z|1438;Teldrassil|N|Kill Githyiss who is 
 A Fang of Githyiss|QID|97236|N|Right click on the Fang of Githyiss in your inventory to accept the quest.|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|Z|1438;Teldrassil|N|Hearth out of the cave.|
 T Webwood Egg|QID|917|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
-T A Fang of Githyiss|QID|97236|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
+T Fang of Githyiss|QID|97236|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|Z|1438;Teldrassil|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|Z|1438;Teldrassil|N|To Tenaron Stormgrip at the top of the tree.\n[color=FF0000]NOTE: [/color]Use the ramp outside the tree.|
 
@@ -123,6 +123,7 @@ A The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena D
 C The Great Outdoors|ACTIVE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|/Sit next to the campfire for 1 minute to complete the quest.|QO|1|
 T The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|To Lyreena Duskblade.|
 
+N Camping 101|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
 A Camping 101: Cooking|QID|96646|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
 A Camping 101: First Aid|QID|97965|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Teldrassil|
 A Camping 101: Fishing|QID|97967|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Teldrassil|
@@ -131,7 +132,7 @@ A Camping 101: Skinning|QID|97971|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|F
 A Camping 101: Mining|QID|97970|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Teldrassil|
 A Camping 101: Alchemy|QID|97963|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Teldrassil|
 A Camping 101: Leatherworking|QID|97969|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Teldrassil|
-A Camping 101: Blacksmithing|QID|97964|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Teldrassil|
+A Camping 101: Blacksmithing|QID|97964|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Teldrassil|
 A Camping 101: Enchanting|QID|98284|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Teldrassil|
 A Camping 101: Engineering|QID|98285|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Teldrassil|
 A Camping 101: Tailoring|QID|97973|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Teldrassil|
@@ -143,16 +144,15 @@ A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallo
 A Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftroot.|
 
 = Apprentice First Aid|ACTIVE|2159|M|55.29,56.82|Z|1438;Teldrassil|N|If you want to learn First Aid, now is your chance from Byancie, inside the building on the lowest floor.|P|First Aid;129;0;true|
-= Professions|ACTIVE|475|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you'll have one heck of a detour to take). All of the others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
+= Professions|ACTIVE|2159|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you'll have one heck of a detour to take). All of the others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
 
-T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 h Dolanaar|ACTIVE|2159|M|55.62,59.79|Z|1438;Teldrassil|N|Set your Hearthstone to Dolanaar.|
+T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 
 C Camping 101: Cooking|ACTIVE|96646|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
 T Camping 101: Cooking|QID|96646|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|From Zarrin.|P|Cooking;185;0|
 
-N Camping 101|ACTIVE|96606|N|Grab your Camping 101 quests for your professions, plus Cooking. NOTE: Manually check this step, as well as steps for any professions you do not have, to continue.|
 
 A A Troubling Breeze|QID|475|M|55.96,57.28|Z|1438;Teldrassil|N|From Athridas Bearmantle in Dolanaar.|
 
@@ -161,7 +161,7 @@ A Garments of the Moon|QID|5621|PRE|5622|M|55.56,56.75|Z|1438;Teldrassil|N|From 
 
 A Denalan's Earth|QID|997|M|56.08,57.72|Z|1438;Teldrassil|N|From Syral Bladeleaf.|
 
-r Sell/Repair|ACTIVE|2159|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|
+r Sell/Repair|ACTIVE|475|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|
 
 A The Lost Runner|QID|99046|M|56.02,59.49|Z|1438; Teldrassil|N|From Sentinel Kyra Stargsong.|
 
@@ -200,7 +200,7 @@ A Ferocitas the Dream Eater|QID|2459|PRE|2438|M|55.58,56.95|Z|1438;Teldrassil|N|
 
 C Seek Redemption!|ACTIVE|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
 
-= Level 6 Training|ACTIVE|929|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Dolanaar|
+= Level 6 Training|ACTIVE|2459|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Dolanaar|
 
 C Gnarlpine Mystics|ACTIVE|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|S|
 K Ferocitas the Dream Eater|ACTIVE|2459|QO|2|M|69.38,53.39|Z|1438;Teldrassil|L|8049|ITEM|8049|N|Ferocitas the Dream Eater in Starbreeze Village.|T|Ferocitas the Dream Eater|
@@ -247,7 +247,7 @@ A The Road to Darnassus|QID|487|M|55.84,58.30|Z|1438;Teldrassil|N|From Moon Prie
 T Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot at the top of the tree.|
 A Twisted Hatred|QID|98403|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftroot at the top of the tree.|
 
-;B Skinning Knife|ACTIVE|922|M|55.27,57.15|Z|1438;Teldrassi|L|7005|N|If you plan on learning skinning, get your [color=33fff9]Skinning Knife[/color] now from Narret Shadowgrove. Otherwise, you'll have to wait until you get to Darnassus before you can do any skinning.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want it.|
+;B Skinning Knife|ACTIVE|922|M|55.27,57.15|Z|1438;Teldrassil|L|7005|N|If you plan on learning skinning, get your [color=33fff9]Skinning Knife[/color] now from Narret Shadowgrove. Otherwise, you'll have to wait until you get to Darnassus before you can do any skinning.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want it.|
 
 r Sell/Repair|AVAILABLE|487|M|56.25,59.25|Z|1438;Teldrassil|N|Sell Junk and Repair.|
 
@@ -325,16 +325,16 @@ A Returning Home|QID|5629|M|55.56,56.75|Z|1438;Teldrassil|N|From Laurna Morningl
 
 ; Race specific Hunter quest, other races have their own versions in their areas.
 = Level 10 Training|AVAILABLE|6063|M|56.68,59.50|Z|1438;Teldrassil|N|Do your level 10 training with Dazalar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|LVL|10|IZ|Dolanaar|
-A Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|LVL|10|
-C Taming the Beast|QID|6063|M|58.85,59.87|Z|1438;Teldrassil|N|Tame a Webwood Lurker by using the rod.|T|Webwood Lurker|U|15921|C|Hunter|R|Night Elf|NC|
-T Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
-A Taming the Beast|QID|6101|PRE|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|
-C Taming the Beast|QID|6101|M|55.97,71.72|Z|1438;Teldrassil|N|Tame a Nightsaber Stalker.\n[color=FF0000]NOTE: [/color]You'll need to dismiss your current pet before you can tame your next one. Right-click on its portrait and choose Dismiss.|T|Nightsaber Stalker|U|15922|C|Hunter|R|Night Elf|NC|
-T Taming the Beast|QID|6101|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
-A Taming the Beast|QID|6102|PRE|6101|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|
-C Taming the Beast|QID|6102|M|44.01,51.12|Z|1438;Teldrassil|N|Tame a Strigid Screecher.|T|Strigid Screecher|U|15923|C|Hunter|R|Night Elf|NC|
-T Taming the Beast|QID|6102|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
-A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.\n[color=FF0000]NOTE: [/color]You can tame your first pet now, but can't feed it yet; we have to go to Darnassus for that.|C|Hunter|R|Night Elf|
+A Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|NightElf|LVL|10|
+C Taming the Beast|QID|6063|M|58.85,59.87|Z|1438;Teldrassil|N|Tame a Webwood Lurker by using the rod.|T|Webwood Lurker|U|15921|C|Hunter|R|NightElf|NC|
+T Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|NightElf|
+A Taming the Beast|QID|6101|PRE|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|NightElf|
+C Taming the Beast|QID|6101|M|55.97,71.72|Z|1438;Teldrassil|N|Tame a Nightsaber Stalker.\n[color=FF0000]NOTE: [/color]You'll need to dismiss your current pet before you can tame your next one. Right-click on its portrait and choose Dismiss.|T|Nightsaber Stalker|U|15922|C|Hunter|R|NightElf|NC|
+T Taming the Beast|QID|6101|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|NightElf|
+A Taming the Beast|QID|6102|PRE|6101|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|NightElf|
+C Taming the Beast|QID|6102|M|44.01,51.12|Z|1438;Teldrassil|N|Tame a Strigid Screecher.|T|Strigid Screecher|U|15923|C|Hunter|R|NightElf|NC|
+T Taming the Beast|QID|6102|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|NightElf|
+A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.\n[color=FF0000]NOTE: [/color]You can tame your first pet now, but can't feed it yet; we have to go to Darnassus for that.|C|Hunter|R|NightElf|
 
 T Escaping Ban'ethil|QID|99053|M|56.00,59.48|Z|1438; Teldrassil|N|To Sentinel Kyra Starsong.|
 T The Relics of Wakening|QID|483|M|55.96,57.28|Z|1438;Teldrassil|N|To Athridas Bearmantle.|
@@ -413,8 +413,8 @@ C The Enchanted Glade|QID|937|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle G
 A The Shimmering Frond|QID|931|M|34.67,28.75|Z|1438;Teldrassil|N|From the Strange Fronded Plant.\n[color=FF0000]NOTE: [/color]Right-click the glowing tree.|
 C The Enchanted Glade|QID|937|M|33.0,32.0|Z|1438;Teldrassil|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|US|
 N Clear the area|AVAILABLE|938|M|31.53,31.61|Z|1438;Teldrassil|N|Clear anything you see in the area. You want nothing alive to get in your way as you do the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Mist|QID|938|M|31.53,31.61|Z|1438;Teldrassil|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Mist.\n[color=FF0000]NOTE: [/color]Once accepted, this will start a 9 minute timer.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,Night Elf,Dwarf|
-A Mist|QID|938|M|31.53,31.61|Z|1438;Teldrassil|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Mist to restart.\n[color=FF0000]NOTE: [/color]Once accepted, you have 9 minutes to complete it.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,Night Elf,Dwarf|FAIL|
+A Mist|QID|938|M|31.53,31.61|Z|1438;Teldrassil|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Mist.\n[color=FF0000]NOTE: [/color]Once accepted, this will start a 9 minute timer.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,NightElf,Dwarf|
+A Mist|QID|938|M|31.53,31.61|Z|1438;Teldrassil|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Mist to restart.\n[color=FF0000]NOTE: [/color]Once accepted, you have 9 minutes to complete it.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,NightElf,Dwarf|FAIL|
 C Mist|QID|938|M|38.32,34.37|Z|1438;Teldrassil|N|Lead Mist to Sentinel Arynia Cloudsbreak.\n[color=FF0000]NOTE: [/color]Mist will follow you, but will not help you fight.|NC|
 T Mist|QID|938|M|38.32,34.37|Z|1438;Teldrassil|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|Z|1438;Teldrassil|N|To Sentinel Arynia Cloudsbreak.|
@@ -471,6 +471,7 @@ A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|1457;Darnassus|N|From Ar
 A Crown of the Earth|QID|98046|M|34.91,08.82|Z|1457;Darnassus|N|From Arch Druid Fandral Staghelm.|
 T Crown of the Earth|QID|98046|M|40.42,88.50|Z|1457; Darnassus|N|To Lariia.|
 A Crown of the Earth|QID|98065|M|40.42,88.50|Z|1457; Darnassus|N|From Lariia.|
+T Tears of the Moon|QID|2518|M|36.63,85.94|Z|1457;Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|1457;Darnassus|N|From Priestess A'moora.|
 T Crown of the Earth|QID|98065|M|39.11,81.44|Z|1457; Darnassus|N|To Tyrande Whisperwind.|
 C Sathrah's Sacrifice|QID|2520|M|38.24,85.73|Z|1457;Darnassus|N|Use Sathrah's Sacrifice in the fountain down below.|U|8155|NC|

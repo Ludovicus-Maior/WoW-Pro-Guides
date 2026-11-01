@@ -17,66 +17,66 @@ T Scholomance|QID|5533|M|42.66,83.77|Z|1422; Western Plaguelands|N|To Alchemist 
 A Skeletal Fragments|QID|5537|M|42.6,83.8|Z|1422; Western Plaguelands|N|From Alchemist Arbington.|LVL|55|PRE|5533|
 
 R Eastern Plaguelands|QID|5601|M|70.18,50.29|Z|1422; Western Plaguelands|N|Run to Eastern Plaguelands.|
-A Demon Dogs|QID|5542|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|
-A Blood Tinged Skies|QID|5543|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|
-A Carrion Grubbage|QID|5544|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|
-C Demon Dogs|QID|5542|M|7.55,43.61|Z|Eastern Plaguelands|S|N|Kill the Demon Dogs Required.|
-C Blood Tinged Skies|QID|5543|M|7.55,43.61|Z|Eastern Plaguelands|S|N|Kill Plaguebats.|
-C Carrion Grubbage|QID|5544|M|18.20,67.03|Z|Eastern Plaguelands|S|N|Kill Carrion Grubs and collect their meat.|
-T Sister Pamela|QID|5601|M|36.46,90.74|Z|Eastern Plaguelands|N|To Pamela Redpath.|
-A Pamela's Doll|QID|5149|M|36.46,90.74|Z|Eastern Plaguelands|N|From Pamela Redpath.|LVL|50|PRE|5142|
-l Head|QID|5149|M|39.22,91.42|Z|Eastern Plaguelands|S!US|N|Loot the dolls head on the ground.|L|12886|
-l Right Side|QID|5149|M|39.22,91.42|Z|Eastern Plaguelands|S!US|N|Loot the dolls Right Side on the ground.|L|12888|
-l Left Side|QID|5149|M|39.22,91.42|Z|Eastern Plaguelands|S!US|N|Loot the dolls Left on the ground.|L|12887|
-C Pamela's Doll|QID|5149|M|39.22,91.42|Z|Eastern Plaguelands|NC|N|Collect all 3 pieces of Pamela's doll scattered around Darrowshire buidldings.|U|12886|
-T Pamela's Doll|QID|5149|M|36.46,90.74|Z|Eastern Plaguelands|N|To Pamela Redpath.|
-A Auntie Marlene|QID|5152|M|36.46,90.74|Z|Eastern Plaguelands|N|From Pamela Redpath.|PRE|5149|
-A Uncle Carlin|QID|5241|M|36.46,90.74|Z|Eastern Plaguelands|N|From Pamela Redpath.|PRE|5149|
-C Plaguehounds|QID|5542|M|57.34,54.83|Z|Eastern Plaguelands|QO|2|N|Kill the Demon Dogs Required.|
+A Demon Dogs|QID|5542|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|
+A Blood Tinged Skies|QID|5543|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|
+A Carrion Grubbage|QID|5544|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|
+C Demon Dogs|QID|5542|M|7.55,43.61|Z|1423; Eastern Plaguelands|S|N|Kill the Demon Dogs Required.|
+C Blood Tinged Skies|QID|5543|M|7.55,43.61|Z|1423; Eastern Plaguelands|S|N|Kill Plaguebats.|
+C Carrion Grubbage|QID|5544|M|18.20,67.03|Z|1423; Eastern Plaguelands|S|N|Kill Carrion Grubs and collect their meat.|
+T Sister Pamela|QID|5601|M|36.46,90.74|Z|1423; Eastern Plaguelands|N|To Pamela Redpath.|
+A Pamela's Doll|QID|5149|M|36.46,90.74|Z|1423; Eastern Plaguelands|N|From Pamela Redpath.|LVL|50|PRE|5142|
+l Head|QID|5149|M|39.22,91.42|Z|1423; Eastern Plaguelands|S!US|N|Loot the dolls head on the ground.|L|12886|
+l Right Side|QID|5149|M|39.22,91.42|Z|1423; Eastern Plaguelands|S!US|N|Loot the dolls Right Side on the ground.|L|12888|
+l Left Side|QID|5149|M|39.22,91.42|Z|1423; Eastern Plaguelands|S!US|N|Loot the dolls Left on the ground.|L|12887|
+C Pamela's Doll|QID|5149|M|39.22,91.42|Z|1423; Eastern Plaguelands|NC|N|Collect all 3 pieces of Pamela's doll scattered around Darrowshire buidldings.|U|12886|
+T Pamela's Doll|QID|5149|M|36.46,90.74|Z|1423; Eastern Plaguelands|N|To Pamela Redpath.|
+A Auntie Marlene|QID|5152|M|36.46,90.74|Z|1423; Eastern Plaguelands|N|From Pamela Redpath.|PRE|5149|
+A Uncle Carlin|QID|5241|M|36.46,90.74|Z|1423; Eastern Plaguelands|N|From Pamela Redpath.|PRE|5149|
+C Plaguehounds|QID|5542|M|57.34,54.83|Z|1423; Eastern Plaguelands|QO|2|N|Kill the Demon Dogs Required.|
 
-f Light's Hope Chapel|QID|5241|M|81.63,59.28|Z|Eastern Plaguelands|N|Grab the fligtpath off Khaelyn Steelwing.|
-T Duke Nicholas Zverenhoff|QID|6030|M|81.44,59.82|Z|Eastern Plaguelands|N|To Duke Nicholas Zverenhoff.|
-T Uncle Carlin|QID|5241|M|81.52,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath.|
-A Defenders of Darrowshire|QID|5211|M|81.52,59.77|Z|Eastern Plaguelands|N|From Carlin Redpath.|LVL|50|PRE|5241|
-A Zaeldarr the Outcast|QID|6021|M|79.4,63.8|Z|Eastern Plaguelands|N|From Caretaker Alen.|LVL|50|
+f Light's Hope Chapel|QID|5241|M|81.63,59.28|Z|1423; Eastern Plaguelands|N|Grab the fligtpath off Khaelyn Steelwing.|
+T Duke Nicholas Zverenhoff|QID|6030|M|81.44,59.82|Z|1423; Eastern Plaguelands|N|To Duke Nicholas Zverenhoff.|
+T Uncle Carlin|QID|5241|M|81.52,59.77|Z|1423; Eastern Plaguelands|N|To Carlin Redpath.|
+A Defenders of Darrowshire|QID|5211|M|81.52,59.77|Z|1423; Eastern Plaguelands|N|From Carlin Redpath.|LVL|50|PRE|5241|
+A Zaeldarr the Outcast|QID|6021|M|79.4,63.8|Z|1423; Eastern Plaguelands|N|From Caretaker Alen.|LVL|50|
 
-C Frenzied Plaguehounds|QID|5542|M|62.53,36.71|Z|Eastern Plaguelands|QO|3|N|Kill the Demon Dogs Required.|
-C Carrion Grubbage|QID|5544|M|18.20,67.03|Z|Eastern Plaguelands|US|N|Kill Carrion Grubs and collect their meat.|
-C Blood Tinged Skies|QID|5543|M|18.20,67.03|Z|Eastern Plaguelands|US|N|Kill Plaguebats.|
-C Demon Dogs|QID|5542|M|18.20,67.03|Z|Eastern Plaguelands|US|N|Kill the Demon Dogs Required.|
-T Demon Dogs|QID|5542|M|7.53,43.67|Z|Eastern Plaguelands|N|To Tirion Fordring.|
-T Blood Tinged Skies|QID|5543|M|7.53,43.67|Z|Eastern Plaguelands|N|To Tirion Fordring.|
-T Carrion Grubbage|QID|5544|M|7.53,43.67|Z|Eastern Plaguelands|N|To Tirion Fordring.|
-A Redemption|QID|5742|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|PRE|5542&5543&5544|
-C Redemption|QID|5742|M|7.53,43.67|Z|Eastern Plaguelands|CHAT|N|Talk to the NPC and listen to the story.|
-T Redemption|QID|5742|M|7.53,43.67|Z|Eastern Plaguelands|N|To Tirion Fordring.|
-A Of Forgotten Memories|QID|5781|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|PRE|5742|
+C Frenzied Plaguehounds|QID|5542|M|62.53,36.71|Z|1423; Eastern Plaguelands|QO|3|N|Kill the Demon Dogs Required.|
+C Carrion Grubbage|QID|5544|M|18.20,67.03|Z|1423; Eastern Plaguelands|US|N|Kill Carrion Grubs and collect their meat.|
+C Blood Tinged Skies|QID|5543|M|18.20,67.03|Z|1423; Eastern Plaguelands|US|N|Kill Plaguebats.|
+C Demon Dogs|QID|5542|M|18.20,67.03|Z|1423; Eastern Plaguelands|US|N|Kill the Demon Dogs Required.|
+T Demon Dogs|QID|5542|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+T Blood Tinged Skies|QID|5543|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+T Carrion Grubbage|QID|5544|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+A Redemption|QID|5742|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|PRE|5542&5543&5544|
+C Redemption|QID|5742|M|7.53,43.67|Z|1423; Eastern Plaguelands|CHAT|N|Talk to the NPC and listen to the story.|
+T Redemption|QID|5742|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+A Of Forgotten Memories|QID|5781|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|PRE|5742|
 
-K Zaeldarr the Outcast|QID|6021|M|27.46,84.87|Z|Eastern Plaguelands|QO|1|N|Kill Zaeldarr at the bottom of the tomb and loot his head.|
-A Hameya's Plea|QID|6024|M|27.27,85.21|Z|Eastern Plaguelands|N|From Torn Scroll. Down into the tombs at a large Scroll on the ground.|LVL|54|
-C Of Forgotten Memories|QID|5781|M|28.31,86.89|Z|Eastern Plaguelands|N|Recover Taelan's Hammer outside the tomb. When you click on the soil by the grave Mercuito and his gang will show up and attack you.\n\nThis is easier with a group but solo isn't bad if you kite him up the hill until his gang turns back. As soon as you click the soil run to the other side of the fence so you can run east. When he is in range, range pull and run, after about 100 yards turn around and range him 1 more time for good measure, keep runnning until you're alone with him and kill him.|
-T Of Forgotten Memories|QID|5781|M|7.53,43.67||Z|Eastern Plaguelands|N|To Tirion Fordring.|
-A Of Lost Honor|QID|5845|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|LVL|52|PRE|5781|
-T Zaeldarr the Outcast|QID|6021|M|79.59,63.79|Z|Eastern Plaguelands|N|To Caretaker Alen.|
-A The Restless Souls|QID|5281|M|79.59,63.79|Z|Eastern Plaguelands|N|From Caretaker Alen.|LVL|55|
+K Zaeldarr the Outcast|QID|6021|M|27.46,84.87|Z|1423; Eastern Plaguelands|QO|1|N|Kill Zaeldarr at the bottom of the tomb and loot his head.|
+A Hameya's Plea|QID|6024|M|27.27,85.21|Z|1423; Eastern Plaguelands|N|From Torn Scroll. Down into the tombs at a large Scroll on the ground.|LVL|54|
+C Of Forgotten Memories|QID|5781|M|28.31,86.89|Z|1423; Eastern Plaguelands|N|Recover Taelan's Hammer outside the tomb. When you click on the soil by the grave Mercuito and his gang will show up and attack you.\n\nThis is easier with a group but solo isn't bad if you kite him up the hill until his gang turns back. As soon as you click the soil run to the other side of the fence so you can run east. When he is in range, range pull and run, after about 100 yards turn around and range him 1 more time for good measure, keep runnning until you're alone with him and kill him.|
+T Of Forgotten Memories|QID|5781|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+A Of Lost Honor|QID|5845|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|LVL|52|PRE|5781|
+T Zaeldarr the Outcast|QID|6021|M|79.59,63.79|Z|1423; Eastern Plaguelands|N|To Caretaker Alen.|
+A The Restless Souls|QID|5281|M|79.59,63.79|Z|1423; Eastern Plaguelands|N|From Caretaker Alen.|LVL|55|
 
-C Of Lost Honor|QID|5845|M|71.29,33.95|Z|Eastern Plaguelands|N|Symbol of Lost Honor. A flag at the bottom of the pond.|
-C Hameya's Plea|QID|6024|M|70.26,16.75|Z|Eastern Plaguelands|QO|1|N|Kill Hameya and loot his key.|T|Infiltrator Hameya|
-t Troubled Spirits of Kel'Theril|QID|5245|M|53.51,21.99|Z|Eastern Plaguelands|N|To Aurora Skycaller.|
-A Fragments of the Past|QID|5246|M|53.51,21.99|Z|Eastern Plaguelands|N|From Aurora Skycaller.|LVL|53|PRE|5245|
-C A Plague Upon Thee|QID|5903|M|23.4,22.4|Z|Eastern Plaguelands|S|N|Use the termite jar on the mounds to collect Plagueland Termites.|U|15042|
-T The Restless Souls|QID|5281|M|14.45,33.74|Z|Eastern Plaguelands|N|To Egan. Don't get follow-up unless you plan on running Strat right away.|
-A Augustus' Receipt Book|QID|6164|M|14.45,33.48|Z|Eastern Plaguelands|N|From Augustus the Touched.|LVL|50|
-C Augustus' Receipt Book|QID|6164|M|17.43,31.09|Z|Eastern Plaguelands|N|Retreive Augustus' Receipt Book from the Inn, upstairs on the floor.|
-T Augustus' Receipt Book|QID|6164|M|14.45,33.48|Z|Eastern Plaguelands|N|To Augustus the Touched.|
-C Defenders of Darrowshire|QID|5211|M|29.30,33.51|Z|Eastern Plaguelands|US|N|Free Darrowshire Spirits after killing them as ghouls. Kill all ghouls you see.|
+C Of Lost Honor|QID|5845|M|71.29,33.95|Z|1423; Eastern Plaguelands|N|Symbol of Lost Honor. A flag at the bottom of the pond.|
+C Hameya's Plea|QID|6024|M|70.26,16.75|Z|1423; Eastern Plaguelands|QO|1|N|Kill Hameya and loot his key.|T|Infiltrator Hameya|
+t Troubled Spirits of Kel'Theril|QID|5245|M|53.51,21.99|Z|1423; Eastern Plaguelands|N|To Aurora Skycaller.|
+A Fragments of the Past|QID|5246|M|53.51,21.99|Z|1423; Eastern Plaguelands|N|From Aurora Skycaller.|LVL|53|PRE|5245|
+C A Plague Upon Thee|QID|5903|M|23.4,22.4|Z|1423; Eastern Plaguelands|S|N|Use the termite jar on the mounds to collect Plagueland Termites.|U|15042|
+T The Restless Souls|QID|5281|M|14.45,33.74|Z|1423; Eastern Plaguelands|N|To Egan. Don't get follow-up unless you plan on running Strat right away.|
+A Augustus' Receipt Book|QID|6164|M|14.45,33.48|Z|1423; Eastern Plaguelands|N|From Augustus the Touched.|LVL|50|
+C Augustus' Receipt Book|QID|6164|M|17.43,31.09|Z|1423; Eastern Plaguelands|N|Retreive Augustus' Receipt Book from the Inn, upstairs on the floor.|
+T Augustus' Receipt Book|QID|6164|M|14.45,33.48|Z|1423; Eastern Plaguelands|N|To Augustus the Touched.|
+C Defenders of Darrowshire|QID|5211|M|29.30,33.51|Z|1423; Eastern Plaguelands|US|N|Free Darrowshire Spirits after killing them as ghouls. Kill all ghouls you see.|
 
-T Defenders of Darrowshire|QID|5211|M|81.52,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath.|
-T Hameya's Plea|QID|6024|M|28.03,86.15|Z|Eastern Plaguelands|N|To Mound of Dirt.|
-T Of Lost Honor|QID|5845|M|7.53,43.67|Z|Eastern Plaguelands|N|To Tirion Fordring.|
-A Of Love and Family|QID|5846|M|7.53,43.67|Z|Eastern Plaguelands|N|From Tirion Fordring.|LVL|52|PRE|5845|
+T Defenders of Darrowshire|QID|5211|M|81.52,59.77|Z|1423; Eastern Plaguelands|N|To Carlin Redpath.|
+T Hameya's Plea|QID|6024|M|28.03,86.15|Z|1423; Eastern Plaguelands|N|To Mound of Dirt.|
+T Of Lost Honor|QID|5845|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|To Tirion Fordring.|
+A Of Love and Family|QID|5846|M|7.53,43.67|Z|1423; Eastern Plaguelands|N|From Tirion Fordring.|LVL|52|PRE|5845|
 
-R Western Plaguelands|QID|5152|M|10.71,72.62|Z|Eastern Plaguelands|N|Make your way to Western Plaguelands.
+R Western Plaguelands|QID|5152|M|10.71,72.62|Z|1423; Eastern Plaguelands|N|Make your way to Western Plaguelands.|
 T Of Love and Family|QID|5846|M|65.76,75.38|Z|1422; Western Plaguelands|N|To Artist Renfray. In a house near the docks. Don't get follow-up unless you intend to run Strat right away.|
 C Skeletal Fragments|QID|5537|Z|1422; Western Plaguelands|S|N|Collect Skeletal Fragments.|
 T Auntie Marlene|QID|5152|M|48.86,78.40|Z|1422; Western Plaguelands|N|To Marlene Redpath. She roams around the entire building.|
@@ -96,13 +96,13 @@ T A Plague Upon Thee|QID|5904|M|48.35,32.00|Z|1422; Western Plaguelands|N|Chat w
 A A Plague Upon Thee|QID|6389|M|48.35,32.00|Z|1422; Western Plaguelands|N|From Termite Barrel.|LVL|48|PRE|5904|
 T A Plague Upon Thee|QID|6389|M|43.42,84.83|Z|1422; Western Plaguelands|N|To Nathaniel Dumah.|
 F Light's Hope Chapel|ACTIVE|5210|M|42.93,85.06|Z|1422; Western Plaguelands|N|Fly to Eastern Plaguelands.|
-T Brother Carlin|QID|5210|M|81.51,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath.|
-A Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|Eastern Plaguelands|N|From Carlin Redpath.|LVL|50|PRE|5210|
-C Villains of Darrowshire 1|QID|5181|M|51.10,49.93|Z|Eastern Plaguelands|QO|1|NC|N|Click on the Skull of Horgus at the bottom of the lake.|
-C Villains of Darrowshire 2|QID|5181|M|53.91,65.76|Z|Eastern Plaguelands|QO|2|N|Drop down in the infected scar, drop is only about half health so heal up before you drop. Click on the Shattered Sword of Marduk.|
-T Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath. Head Southwest to get out of the Infected Scar.\n\nDon't get follow-up|
+T Brother Carlin|QID|5210|M|81.51,59.77|Z|1423; Eastern Plaguelands|N|To Carlin Redpath.|
+A Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|1423; Eastern Plaguelands|N|From Carlin Redpath.|LVL|50|PRE|5210|
+C Villains of Darrowshire 1|QID|5181|M|51.10,49.93|Z|1423; Eastern Plaguelands|QO|1|NC|N|Click on the Skull of Horgus at the bottom of the lake.|
+C Villains of Darrowshire 2|QID|5181|M|53.91,65.76|Z|1423; Eastern Plaguelands|QO|2|N|Drop down in the infected scar, drop is only about half health so heal up before you drop. Click on the Shattered Sword of Marduk.|
+T Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|1423; Eastern Plaguelands|N|To Carlin Redpath. Head Southwest to get out of the Infected Scar.\n\nDon't get follow-up|
 
-H Ironforge|QID|5159|M|PLAYER|Z|Eastern Plaguelands|N|Hearth or otherwise make your way to Ironforge.|
+H Ironforge|QID|5159|M|PLAYER|Z|1423; Eastern Plaguelands|N|Hearth or otherwise make your way to Ironforge.|
 B Thorium Bar|QID|5538|Z|1455; Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
 A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|1455; Ironforge|N|From Laris Geardawdle.|PRE|4512|
 F Menethil Harbor|QID|5159|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|
@@ -112,7 +112,7 @@ A Volcanic Activity|QID|4502|M|62.45,38.73|Z|1413; The Barrens|N|From Liv Rizzle
 T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|1413; The Barrens|N|To Islen Waterseer.|
 A Cleansed Water Returns to Felwood|QID|5159|M|65.83,43.78|Z|1413; The Barrens|N|From Islen Waterseer.|PRE|5158|
 
-F Talrendis Point|QID|5159|M|63.08,37.16|Z|1413; The Barrens|N|Fly to Talrendis Point in the in Azshara.
+F Talrendis Point|QID|5159|M|63.08,37.16|Z|1413; The Barrens|N|Fly to Talrendis Point in the in Azshara.|
 C Fragments of the Past|QID|5246|M|41.51,52.53|Z|1447; Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
 A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|1447; Azshara|N|From Kim'jael.|LVL|47|
 C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|1447; Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
@@ -159,7 +159,7 @@ T The Remains of Trey Lightforge|QID|5385|M|51.34,82.02|Z|1448; Felwood|N|To Jes
 C Iron Heart|QID|4084|M|49.13,28.91|Z|1448; Felwood|QO|2|S|N|Run up to Irontree woods and kill treants until ou get the Irontree Heart.|
 C Toxic Horrors|QID|5086|M|48,24|Z|1448; Felwood|N|Kill Toxic Horrors and collect droplets.|
 A Ancient Spirit|QID|4261|M|49.87,30.78|Z|1448; Felwood|N|Escort Quest. From, Arei Run up to the ruins at the waypoint, use the flute, and be prepared for an escort once you accept the quest.|U|11445|PRE|4442|
-C Ancient Spirit|QID|4261|M|49.35,14.52|Z|1448; Felwood|N|Escort Arei up to the road north.
+C Ancient Spirit|QID|4261|M|49.35,14.52|Z|1448; Felwood|N|Escort Arei up to the road north.|
 C Iron Heart|QID|4084|M|49.13,28.91|Z|1448; Felwood|QO|2|US|N|Run up to Irontree woods and kill treants until ou get the Irontree Heart.|
 C Silver Claws|QID|4084|M|46.4,23.4|Z|1448; Felwood|QO|1|US|N|Kill Bears and Wolves to collec the Silvery Claws.|
 R Winterspring|ACTIVE|5086|M|64.27,14.92;65.10,8.09;65.40,6.88;64.66,3.13;66.44,2.99;68.49,5.98|Z|1448; Felwood|CC|N|Run back through Timbermaw hold back to Winterspring.|
@@ -226,7 +226,7 @@ l Book of Aquor|QID|4005|M|70.44,49.90|Z|1446; Tanaris|N|Open Eridan's Supply ba
 C Aquementas|QID|4005|M|70.44,49.90|Z|1446; Tanaris|N|Use the Book of Aquor to summon Aquementas and kill him.|U|11169|
 
 R Gadgetzan|QID|4005|M|51.01,29.34|Z|1446; Tanaris|N|Head back to Gadgetzan.|
-F Marshal's Refuge|QID|4005|M|51.01,29.34|Z|1446; Tanaris|N|Fly to Un'Goro Crater.
+F Marshal's Refuge|QID|4005|M|51.01,29.34|Z|1446; Tanaris|N|Fly to Un'Goro Crater.|
 T Aquementas|QID|4005|M|41.91,2.69|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
 A Linken's Adventure|QID|3961|M|41.91,2.69|Z|1449; Un'Goro Crater|N|From J.D. Collie.|LVL|47|PRE|4005|
 A Lost!|QID|4492|M|43.62,8.50|Z|1449; Un'Goro Crater|N|From Spraggle Frock.|
@@ -262,34 +262,34 @@ T The Mighty U'cha|QID|4301|M|71.63,75.97|Z|1449; Un'Goro Crater|N|To Torwa Path
 C A Little Slime Goes a Long Way|QID|4513|M|32,30|Z|1449; Un'Goro Crater|US|N|Kill Oozes around and click the jar on their corpse.|U|11953|
 
 R Silithus|QID|1124|M|29.46,22.44;29.81,10.41;27.03,10.93|Z|1449; Un'Goro Crater|CS|N|Make your way to Silithus.|
-T Wasteland|QID|1124|M|81.87,18.92|Z|Silithus|N|To Layo Starstrike.|
-A The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|Silithus|N|From Layo Starstrike.|LVL|54|PRE|1124|
-K Desert Stormers|QID|6805|M|16.2,27.8|Z|Silithus|QO|1|S|N|Kill Dust Stormer.|
-K Desert Rumblers|QID|6805|M|17.4,17.8|Z|Silithus|QO|2|S|N|Kill Desert Rumbler.|
-T Taking Back Silithus|QID|8275|M|51.15,38.27|Z|Silithus|N|To Windcaller Proudhorn.|
-A Securing the Supply Lines|QID|8280|M|51.15,38.27|Z|Silithus|N|From Windcaller Proudhorn.|
-A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|51.35,38.28|Z|Silithus|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted Poster: Deathclasp.|
-A Desert Recipe|QID|8307|M|51.89,39.15|Z|Silithus|P|Cooking;185;0+285;0|N|From Calandrath.|
-A Deadly Desert Venom|QID|8277|M|51.70,38.58|Z|Silithus|N|From Beetix Ficklespragg upstairs.|
-A The Twilight Mystery|QID|8284|M|49.66,37.44|Z|Silithus|N|From Geologist Larksbane.|
-A Secret Communication|QID|8318|M|48.57,37.75|Z|Silithus|N|From Bor Wildmane.|LVL|57|
-A Report to Marshal Bluewall|QID|9415|M|50.69,34.70|Z|Silithus|N|From Rifleman Torrig.|
-f Cenarion Hold|M|50.59,34.45|Z|Silithus|N|Get the Flightpath in Silithus from Cloud Skydancer.|
-T Desert Recipe|QID|8307|M|37.94,45.31|Z|Silithus|
-A Sharing the Knowledge|QID|8313|PRE|8307|M|37.94,45.31|Z|Silithus|
+T Wasteland|QID|1124|M|81.87,18.92|Z|1451; Silithus|N|To Layo Starstrike.|
+A The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|1451; Silithus|N|From Layo Starstrike.|LVL|54|PRE|1124|
+K Desert Stormers|QID|6805|M|16.2,27.8|Z|1451; Silithus|QO|1|S|N|Kill Dust Stormer.|
+K Desert Rumblers|QID|6805|M|17.4,17.8|Z|1451; Silithus|QO|2|S|N|Kill Desert Rumbler.|
+T Taking Back Silithus|QID|8275|M|51.15,38.27|Z|1451; Silithus|N|To Windcaller Proudhorn.|
+A Securing the Supply Lines|QID|8280|M|51.15,38.27|Z|1451; Silithus|N|From Windcaller Proudhorn.|
+A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|51.35,38.28|Z|1451; Silithus|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted Poster: Deathclasp.|
+A Desert Recipe|QID|8307|M|51.89,39.15|Z|1451; Silithus|P|Cooking;185;0+285;0|N|From Calandrath.|
+A Deadly Desert Venom|QID|8277|M|51.70,38.58|Z|1451; Silithus|N|From Beetix Ficklespragg upstairs.|
+A The Twilight Mystery|QID|8284|M|49.66,37.44|Z|1451; Silithus|N|From Geologist Larksbane.|
+A Secret Communication|QID|8318|M|48.57,37.75|Z|1451; Silithus|N|From Bor Wildmane.|LVL|57|
+A Report to Marshal Bluewall|QID|9415|M|50.69,34.70|Z|1451; Silithus|N|From Rifleman Torrig.|
+f Cenarion Hold|M|50.59,34.45|Z|1451; Silithus|N|Get the Flightpath in Silithus from Cloud Skydancer.|
+T Desert Recipe|QID|8307|M|37.94,45.31|Z|1451; Silithus|
+A Sharing the Knowledge|QID|8313|PRE|8307|M|37.94,45.31|Z|1451; Silithus|
 
-C The Spirits of Southwind|QID|1125|M|61.58,50.91|Z|Silithus|N|Free the spirits of Tortured Druids and Tortured Sentinels.|
-T The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|Silithus|N|To Layo Starstrike.|
-A Hive in the Tower|QID|1126|M|81.87,18.92|Z|Silithus|N|From Layo Starstrike.|LVL|54|PRE|1125|
-C Hive in the Tower|QID|1126|M|60.35,52.57|Z|Silithus|N|Scale the tower of Southwind Village and click the Hive'Ashi Pod.|
-C Hive in the Tower 1|QID|1126|M|60.2,52.4|Z|Silithus|QO|1|N|Encrusted Silithid Object.|
-T Hive in the Tower|QID|1126|M|81.87,18.92|Z|Silithus|N|To Layo Starstrike.|
-A Umber, Archivist|QID|6844|M|81.87,18.92|Z|Silithus|N|From Layo Starstrike.|LVL|54|PRE|1126|
-K Desert Rumblers|QID|6805|M|26.22,11.58|Z|Silithus|QO|2|US|N|Kill Desert Rumbler.|
-K Desert Stormers|QID|6805|M|30.21,14.43|Z|Silithus|QO|1|US|N|Kill Dust Stormer.|
+C The Spirits of Southwind|QID|1125|M|61.58,50.91|Z|1451; Silithus|N|Free the spirits of Tortured Druids and Tortured Sentinels.|
+T The Spirits of Southwind|QID|1125|M|81.87,18.92|Z|1451; Silithus|N|To Layo Starstrike.|
+A Hive in the Tower|QID|1126|M|81.87,18.92|Z|1451; Silithus|N|From Layo Starstrike.|LVL|54|PRE|1125|
+C Hive in the Tower|QID|1126|M|60.35,52.57|Z|1451; Silithus|N|Scale the tower of Southwind Village and click the Hive'Ashi Pod.|
+C Hive in the Tower 1|QID|1126|M|60.2,52.4|Z|1451; Silithus|QO|1|N|Encrusted Silithid Object.|
+T Hive in the Tower|QID|1126|M|81.87,18.92|Z|1451; Silithus|N|To Layo Starstrike.|
+A Umber, Archivist|QID|6844|M|81.87,18.92|Z|1451; Silithus|N|From Layo Starstrike.|LVL|54|PRE|1126|
+K Desert Rumblers|QID|6805|M|26.22,11.58|Z|1451; Silithus|QO|2|US|N|Kill Desert Rumbler.|
+K Desert Stormers|QID|6805|M|30.21,14.43|Z|1451; Silithus|QO|1|US|N|Kill Dust Stormer.|
 
 
-F Gadgetzan|ACTIVE|4507|M|50.59,34.45|Z|Silithus|N|Fly back to Gadgetzan.|
+F Gadgetzan|ACTIVE|4507|M|50.59,34.45|Z|1451; Silithus|N|Fly back to Gadgetzan.|
 T Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|1446; Tanaris|N|To Alchemist Pestlezugg.|
 A Calm Before the Storm|QID|4508|M|50.88,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|4507|
 
@@ -358,7 +358,7 @@ C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|1419; Blasted Lands|QO|3>2|N|Se
 C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3>3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
 T The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A Heroes of Old|QID|2702|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2681|
-T Heroes of Old|QID|2702|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|To Corporal Thund Splithoof.
+T Heroes of Old|QID|2702|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|To Corporal Thund Splithoof.|
 A Heroes of Old|QID|2701|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
 T Heroes of Old|QID|2701|M|33.39,66.13|Z|1435; Swamp of Sorrows|N|To Spectral Lockbox.|
 A Kirith|QID|2721|M|34.28,66.14|Z|1435; Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
@@ -375,22 +375,22 @@ T Flint Shadowmore|QID|6184|M|43.61,84.50|Z|1422; Western Plaguelands|N|To Flint
 A The Eastern Plagues|QID|6185|M|43.61,84.50|Z|1422; Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6184|
 
 F Light's Hope Chapel|QID|5246|M|42.93,85.06|Z|1422; Western Plaguelands|N|Fly to Eastern Plaguelands.|
-T Fragments of the Past|QID|5246|M|53.51,21.99|Z|Eastern Plaguelands|N|To Aurora Skycaller. The follow-up will be out of scope for this guide. The chain continues in Feralas, back to Eastern Plaguelands, to winterspring and then Darnassus. Grab it if you would like, you will probably manage to complete it eventually between Dire Maul and Strat runs.|
+T Fragments of the Past|QID|5246|M|53.51,21.99|Z|1423; Eastern Plaguelands|N|To Aurora Skycaller. The follow-up will be out of scope for this guide. The chain continues in Feralas, back to Eastern Plaguelands, to winterspring and then Darnassus. Grab it if you would like, you will probably manage to complete it eventually between Dire Maul and Strat runs.|
 
-C Poisoned Water|QID|6804|M|63,80|Z|Eastern Plaguelands|QO|1|N|Use the Aspect of Neptulon on the various plagued water elementals and loot their Discordant Bracers.|U|17310|
-C Rutger|QID|6185|M|28.81,79.87|Z|Eastern Plaguelands|QO|1|NC|N|Loot Rutgers SI:7 Insignia.|
-C Turyen|QID|6185|M|28.80,74.88|Z|Eastern Plaguelands|QO|3|NC|N|Loot Turyens SI:7 Insignia.|
-C Fredo|QID|6185|M|27.15,74.97|Z|Eastern Plaguelands|QO|2|NC|N|Loot Fredos SI:7 Insignia.|
-C The Eastern Plagues|QID|6185|M|26,74|Z|Eastern Plaguelands|N|The Blightcaller Uncovered. You don't have to actually fight him, just get close enough.|
+C Poisoned Water|QID|6804|M|63,80|Z|1423; Eastern Plaguelands|QO|1|N|Use the Aspect of Neptulon on the various plagued water elementals and loot their Discordant Bracers.|U|17310|
+C Rutger|QID|6185|M|28.81,79.87|Z|1423; Eastern Plaguelands|QO|1|NC|N|Loot Rutgers SI:7 Insignia.|
+C Turyen|QID|6185|M|28.80,74.88|Z|1423; Eastern Plaguelands|QO|3|NC|N|Loot Turyens SI:7 Insignia.|
+C Fredo|QID|6185|M|27.15,74.97|Z|1423; Eastern Plaguelands|QO|2|NC|N|Loot Fredos SI:7 Insignia.|
+C The Eastern Plagues|QID|6185|M|26,74|Z|1423; Eastern Plaguelands|N|The Blightcaller Uncovered. You don't have to actually fight him, just get close enough.|
 
-R Western Plaguelands|QID|6185|M|10.71,72.62|Z|Eastern Plaguelands|N|Make your way to Western Plaguelands.
+R Western Plaguelands|QID|6185|M|10.71,72.62|Z|1423; Eastern Plaguelands|N|Make your way to Western Plaguelands.|
 T The Eastern Plagues|QID|6185|M|43.62,84.50|Z|1422; Western Plaguelands|N|To Flint Shadowmore.|
 A The Blightcaller Cometh|QID|6186|M|43.62,84.50|Z|1422; Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6185|
 
 F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|1422; Western Plaguelands|N|Fly to Menethil Harbor. Do NOT Hearth!|
 b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|1437; Wetlands|N|Take the boat to Darkshore.|
 F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|1439; Darkshore|N|Fly to Azshara.|
-C The Demon Hunter |QID|2744|M|60.82,66.35|Z|1435; Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
+C The Demon Hunter|QID|2744|M|60.82,66.35|Z|1435; Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
 T The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
 A Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
 C Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
@@ -432,7 +432,7 @@ F Nethergarde Keep|ACTIVE|3626|M|77.48,44.29|Z|1431; Duskwood|N|Fly to the Blast
 T Return to the Blasted Lands|QID|3626|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
 A Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde. You will need a group for this!|LVL|45|PRE|3626|
 l Fel Salve|ACTIVE|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|Talk to The Fallen Hero again and tell him you destroyed your weapon, even if you didn't and you will get a Fel Salve you can use on the boss instead of equiping the weapon.|L|11582|
-K Grol|QID|3627|M|42.58,12.97|Z|1419; Blasted Lands|QO|2|N|[color=ff8000]Elite: [/color]Amulet of Grol.|U|11582||
+K Grol|QID|3627|M|42.58,12.97|Z|1419; Blasted Lands|QO|2|N|[color=ff8000]Elite: [/color]Amulet of Grol.|U|11582|
 K Sevine|QID|3627|M|40.6,30.2|Z|1419; Blasted Lands|QO|3|N|[color=ff8000]Elite: [/color]Amulet of Sevine.|U|11582|
 K Allistarj|QID|3627|M|66.75,29.24|Z|1419; Blasted Lands|QO|1|N|[color=ff8000]Elite: [/color]Amulet of Allistarj.|U|11582|
 T Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|

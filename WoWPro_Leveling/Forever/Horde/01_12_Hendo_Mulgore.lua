@@ -30,7 +30,7 @@ T Verdant Note|QID|3094|M|44.60,76.59|Z|1412; Mulgore|N|To Gart Mistrunner.|
 
 T A Humble Task|QID|753|M|43.92,76.69|Z|1412; Mulgore|N|To Chief Hawkwind.|
 A Rites of the Earthmother|QID|755|PRE|753|M|43.92,76.69|Z|1412; Mulgore|N|From Chief Hawkwind.|
-C The Hunt Continues|QID|750|M|43.71,87.46|Z|1412; Mulgore|L|4742 10|ITEM|4742|N|Mountain Cougars.
+C The Hunt Continues|QID|750|M|43.71,87.46|Z|1412; Mulgore|L|4742 10|ITEM|4742|N|Mountain Cougars.|
 L Level 4|ACTIVE|750|M|PLAYER|CC|N|Grind until you're within 8 bubbles of level 4.|LVL|3;-500|
 ; lv 3
 T Rites of the Earthmother|QID|755|M|42.54,90.10|Z|1412; Mulgore|N|To Seer Graytongue.|
@@ -81,7 +81,7 @@ A The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoo
 C The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|/Sit next to the campfire for 1 minute to complete the quest.|
 T The Great Outdoors|QID|96605|M|46.22,67.24|Z|1412; Mulgore|N|To Kaga Wildhoof.|
 
-A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Stonebull Lake|
+A Camping 101: Blacksmithing|QID|97928|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Stonebull Lake|
 A Camping 101: Leatherworking|QID|97934|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Stonebull Lake|
 A Camping 101: Alchemy|QID|97927|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Stonebull Lake|
 A Camping 101: Herbalism|QID|97933|PRE|96605|M|46.22,67.24|Z|1412; Mulgore|N|From Kaga Wildhoof.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Stonebull Lake|
@@ -137,7 +137,7 @@ C Rite of Vision|ACTIVE|772|M|46.88,61.22|Z|1412; Mulgore|N|Use the Water of the
 t Mazzranache|QID|766|M|46.24,60.80|Z|1412; Mulgore|N|To Maur Raincaller.|IZ|Bloodhoof Village| ; ** Adding IZ to prevent step showing as soon as quest complete - Hendo72
 T Chakuyak|QID|96130|M|46.89,59.62|Z|1412; Mulgore|N|To Yaw Sharpmane.|
 T Kyle's Gone Missing!|QID|99411|M|47.27,57.71|Z|1412; Mulgore|N|To Ahab Wheathoof.|
-r Repair/Sell|AVAILABLE|749|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.
+r Repair/Sell|AVAILABLE|749|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
 C Winterhoof Cleansing|QID|754|M|51.53,67.97|Z|1412; Mulgore|N|Clear your way to the Water Well and use the Winterhoof Cleansing Totem.\n[color=FF0000]NOTE: [/color]The northwest corner is probably the best place to do it (less mobs to clear).|U|5411|NC|
 C Sharing the Land|QID|745|M|51.88,73.44|Z|1412; Mulgore|N|Kill the required Palemane Tanners (Caster), Skinners (Melee), and Poachers (Range) in 3 separate camps.\n[color=FF0000]NOTE: [/color]Start at the easternmost camp until you're done with the Poachers (you can only find them here) and move west to the other camps.\nSnagglespear (lv 9 rare) spawns around the camps; hitting relatively hard and using Net to trap you.|
@@ -181,12 +181,12 @@ C Dwarven Digging|QID|746|QO|1|M|33.17,54.83|Z|1412; Mulgore|N|Use the Picks at 
 T Rite of Vision|QID|772|M|35.92,43.90;34.34,43.30|CS|Z|1412; Mulgore|N|To Seer Wiserunner inside the cave.|
 A Rite of Wisdom|QID|773|PRE|772|M|32.72,36.09|Z|1412; Mulgore|N|From Seer Wiserunner.|
 l Thunderhorn Totem|ACTIVE|756|QO|1;2|M|42.12,47.80|Z|1412; Mulgore|N|Kill and loot Prairie Stalkers and Flatland Cougars.|US|
-R Bloodhoof Village|ACTIVE|761|M|48.95,63.00|Z|1412; Mulgore|N|Return to the village.|
-r Repair/Sell|ACTIVE|761|M|46.19,58.55|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
+R Bloodhoof Village|ACTIVE|756|M|48.95,63.00|Z|1412; Mulgore|N|Return to the village.|
+r Repair/Sell|ACTIVE|756|M|46.19,58.55|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
 T Thunderhorn Totem|QID|756|M|47.52,63.61|Z|1412; Mulgore|N|From Mull Thunderhorn.|
 A Thunderhorn Cleansing|QID|758|PRE|756|M|47.52,63.61|Z|1412; Mulgore|N|From Mull Thunderhorn.|R|Tauren|
 T Dwarven Digging|QID|746|M|46.68,63.41|Z|1412; Mulgore|N|To Baine Bloodhoof.|
-r Repair/Sell|ACTIVE|756|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
+r Repair/Sell|ACTIVE|758^773|M|45.27,62.12|Z|1412; Mulgore|N|There are vendors inside the large building to whom you can sell and repair with.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Bloodhoof Village|
 
 C Thunderhorn Cleansing|QID|758|M|44.29,51.07|Z|1412; Mulgore|N|Clear a spot beside the well and use the totem.|U|5415|
 A A Sacred Burial|QID|833|M|57.01,34.56|Z|1412; Mulgore|N|From Lorekeeper Raintotem at his camp in Red Rocks.|
@@ -376,7 +376,7 @@ R Dustwind Cave|ACTIVE|1525|M|50.63,43.97;54.14,40.68|CS|Z|1411; Durotar|N|Go th
 C Call of Fire|QID|1525|Z|1412; Mulgore|L|6652|ITEM|6652|N|{COORDS}Burning Blade Cultists.|
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|1411; Durotar|N|From Takrin Pathseeker.\n[color=FF0000]NOTE: [/color]We pick this up because its and free XP.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1525|M|38.52,58.92|Z|1411; Durotar|N|Make your way back to Telf Joolam.|
-R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
+R Far Watch Outpost|ACTIVE|840|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
 T Conscript of the Horde|QID|840|M|62.26,19.37|Z|1412; Mulgore|N|To Kargal Battlescar.|
 A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|1412; Mulgore|N|From Kargal Battlescar.|R|Tauren|C|Shaman|
 ; ---

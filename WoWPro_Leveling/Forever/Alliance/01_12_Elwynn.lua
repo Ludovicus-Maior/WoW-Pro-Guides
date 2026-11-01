@@ -84,7 +84,7 @@ C Bounty on Garrick Padfoot|QID|6|M|57.52,48.25|Z|1429; Elwynn Forest|L|182|N|Ki
 C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|US|NC|
 T Milly's Harvest|QID|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth.|
 A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
-r Sell and Repair|ACTIVE|21|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|
+r Sell and Repair|ACTIVE|3905|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|
 T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|Z|1429; Elwynn Forest|N|To Brother Neals, at the very top of the spiral staircase inside the abbey.|
 A In Favor of the Light|QID|5623|M|49.81,39.49|Z|1429; Elwynn Forest|N|Get your level 5 class quest from Priestess Anetta.|R|Human|C|Priest|LVL|5|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
@@ -95,7 +95,7 @@ A The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sa
 C The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|Sit next to the fire using /sit.|
 T The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
 
-A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Goldshire|
+A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Goldshire|
 A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Goldshire|
 A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Goldshire|
 A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Goldshire|
@@ -250,7 +250,7 @@ T Report to Thomas|QID|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
-R Goldshire|ACTIVE|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Start heading towards Goldshire.|LVL|8;-2220|S!US|
+R Goldshire|ACTIVE|39|M|43.77,65.95|Z|1429; Elwynn Forest|N|Start heading towards Goldshire.|LVL|8;-2220|S!US|
 H Goldshire|QID|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|TZ|Lion's Pride Inn|
 = Level 8 Training|ACTIVE|39|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
