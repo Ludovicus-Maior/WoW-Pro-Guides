@@ -116,7 +116,8 @@ function WoWPro.GetQuestInfo(QuidList)
     local result = LookupQuestInfo(QuidList)
     local C_QuestInfoSystem = _G.C_QuestInfoSystem
     local QuestClassification = _G.Enum and _G.Enum.QuestClassification
-    local questID = tonumber(string.match(tostring(QuidList or ""), "^(%d+)"))
+    local questID = type(result) == "table" and tonumber(result.questID)
+    questID = questID or tonumber(string.match(tostring(QuidList or ""), "^(%d+)"))
     if not (questID and C_QuestInfoSystem and C_QuestInfoSystem.GetQuestClassification and QuestClassification) then
         return result
     end
