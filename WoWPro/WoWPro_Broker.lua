@@ -867,6 +867,11 @@ function WoWPro.TrashItem(use, step)
 end
 
 function WoWPro.BindKeysToButton(step)
+    if _G.InCombatLockdown() then
+        WoWPro:dbp("Punting: WoWPro.BindKeysToButton() in combat")
+        return
+    end
+
     local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
     if key1 then
         _G.SetOverrideBindingClick(WoWPro.MainFrame, false, key1, "WoWPro_itembuttonSecure"..step, "LeftButton")
@@ -1037,7 +1042,7 @@ function WoWPro:LegacyRowUpdate(offset)
 
     -- Pre-build the visible steps so we can sort stickies to the top without reparenting rows
     -- StickyFrame reparenting is avoided because CheckButton rows are protected in combat.
-    -- StickyTitleBar now keys off ActiveStickyCount, which is computed from the sorted rows.
+    -- StickyHeader now keys off ActiveStickyCount, which is computed from the sorted rows.
     local allSteps = {}
     local tempK = k
     for i = 1, 15 do
@@ -1463,27 +1468,27 @@ function WoWPro:LegacyRowUpdate(offset)
             end
         end
 
-        -- Loots Buttons --
-        if item and WoWProDB.profile.showLootsButtons then
+        -- Loot Icons --
+        if item and WoWProDB.profile.showLootIcons then
             -- Parse multiple items separated by semicolons
             local items = {(";"):split(item)}
-            local buttonIndex = 1
+            local iconIndex = 1
             local itemNames = {}
 
             for _, itemID in ipairs(items) do
                 itemID = itemID:trim()
-                if itemID ~= "" and buttonIndex <= #currentRow.lootsbuttons then
-                    local lootData = currentRow.lootsbuttons[buttonIndex]
-                    local nomen = lootData.button:SetItemByID(itemID)
-                    lootData.button:Show()
+                if itemID ~= "" and iconIndex <= #currentRow.looticons then
+                    local lootData = currentRow.looticons[iconIndex]
+                    local nomen = lootData.frame:SetItemByID(itemID)
+                    lootData.frame:Show()
                     tinsert(itemNames, nomen)
-                    buttonIndex = buttonIndex + 1
+                    iconIndex = iconIndex + 1
                 end
             end
 
-            -- Hide unused loot buttons
-            for btnIdx = buttonIndex, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[btnIdx].button:Hide()
+            -- Hide unused loot icons
+            for hiddenIndex = iconIndex, #currentRow.looticons do
+                currentRow.looticons[hiddenIndex].frame:Hide()
             end
 
             -- Update note text
@@ -1509,9 +1514,9 @@ function WoWPro:LegacyRowUpdate(offset)
             end
             currentRow.note:SetText(note)
         else
-            -- Hide all loot buttons when no items
-            for btnIdx = 1, #currentRow.lootsbuttons do
-                currentRow.lootsbuttons[btnIdx].button:Hide()
+            -- Hide all loot icons when no items
+            for iconIndex = 1, #currentRow.looticons do
+                currentRow.looticons[iconIndex].frame:Hide()
             end
         end
 
@@ -1678,7 +1683,6 @@ function WoWPro:LegacyRowUpdate(offset)
 
     if not _G.InCombatLockdown() then
         WoWPro.RowSizeSet()
-        WoWPro.PaddingSet()
     end
 	if WoWPro.GroupSync then
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
@@ -1718,7 +1722,7 @@ function WoWPro.UpdateGuideReal(From)
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
         SoundDiag("UpdateGuideReal source=%s", why)
-        if not WoWPro.GuideFrame:IsVisible() then
+        if not WoWPro.GuideFrame or not WoWPro.GuideFrame.IsVisible or not WoWPro.GuideFrame:IsVisible() then
             -- Cinematic hides things (or user collapsed frame with double-click).
             -- Only re-queue if the user did not intentionally collapse the frame.
             if not WoWPro.UserCollapsed then
@@ -1870,8 +1874,7 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:MapPoint()
         WoWPro:SendMessage("WoWPro_PostUpdateGuide")
         -- Update content and formatting --
-        WoWPro.PaddingSet()
-        WoWPro.RowSet()
+        WoWPro.MainFrameLayout()
         if not WoWPro.GuideUpdated then
             WoWPro:dbp("[Broker]: First Guide Update completed.  Resuming normal processing.")
             WoWPro.GuideUpdated = true
