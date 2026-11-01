@@ -55,23 +55,18 @@ local function createDisplayConfig()
         type = "group",
         name = L["Guide Display"],
         desc = L["Options that alter the way the guide frame looks"],
+        childGroups = "tab",
         args = {
-            displayPanel = {
-                order = 1,
+            behavior = {
+                order = 10,
                 type = "group",
-                name = L["Guide Display"],
-                inline = true,
+                name = "Behavior",
+                inline = false,
                 args = {
-                    intro = {
+                    visibility = {
                         order = 1,
-                        type = "description",
-                        name = L["On this page you can edit the way the guide frame looks."],
-                        width = "full",
-                    },
-                    behavior = {
-                        order = 10,
                         type = "group",
-                        name = "Behavior",
+                        name = L["Visibility"],
                         inline = true,
                         args = {
                             hide = {
@@ -79,116 +74,176 @@ local function createDisplayConfig()
                                 type = "toggle",
                                 name = L["Enable Instance Hide"],
                                 desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
                                 set = function(info,val)
                                     if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
-                                end
+                                end,
+                                relWidth = 0.5,
                             },
                             notify = {
                                 order = 2,
                                 type = "toggle",
                                 name = L["Enable Instance Notify"],
                                 desc = L["Enables/Disables notifying when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProCharDB.AutoHideInsideInstancesNotify ; end,
                                 set = function(info,val)
                                     if WoWProCharDB.AutoHideInsideInstancesNotify == true then WoWProCharDB.AutoHideInsideInstancesNotify=false; else WoWProCharDB.AutoHideInsideInstancesNotify=true; end
-                                end
+                                end,
+                                relWidth = 0.5,
                             },
                             combathide = {
                                 order = 3,
                                 type = "toggle",
                                 name = L["Enable Combat Hide"],
                                 desc = L["Enables/Disables hiding the active module when you are in combat."],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
                                 set = function(info,val)
                                     if WoWProCharDB.AutoHideInCombat == true then WoWProCharDB.AutoHideInCombat=false; else WoWProCharDB.AutoHideInCombat=true; end
-                                end
+                                end,
+                                relWidth = 0.5,
                             },
+                        },
+                    },
+                    content = {
+                        order = 2,
+                        type = "group",
+                        name = L["Guide Content"],
+                        inline = true,
+                        args = {
                             noteshow = {
                                 order = 4,
                                 type = "toggle",
                                 name = L["Mouseover Notes"],
                                 desc = L["Show notes on mouseover instead of always displaying them."],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.mousenotes end,
                                 set = function(info,val) WoWProDB.profile.mousenotes = val
                                     if val then WoWPro:CreateMouseNotes() end
-                                    WoWPro.RowSizeSet() end
-                            },
-                            track = {
-                                order = 6,
-                                type = "toggle",
-                                name = L["Quest Tracking"],
-                                desc = L["Allows tracking of quests in the guide frame"],
-                                width = "double",
-                                get = function(info) return WoWProDB.profile.track end,
-                                set = function(info,val) WoWProDB.profile.track = val
-                                    WoWPro:UpdateGuide("Config: Quest Tracking") end
+                                    WoWPro.RowSizeSet() end,
+                                relWidth = 0.5,
                             },
                             showcoords = {
                                 order = 7,
                                 type = "toggle",
                                 name = L["Show Coordinates"],
                                 desc = L["Shows the coordinates in the note text."],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.showcoords end,
                                 set = function(info,val) WoWProDB.profile.showcoords = val
-                                    WoWPro:UpdateGuide("Config: Show Coordinates") end
-                            },
-                            autoload = {
-                                order = 8,
-                                type = "toggle",
-                                name = L["Auto-Load Guide"],
-                                desc = L["Will automatically load the next guide when you complete one."],
-                                width = "double",
-                                get = function(info) return WoWProDB.profile.autoload end,
-                                set = function(info,val) WoWProDB.profile.autoload = val end
+                                    WoWPro:UpdateGuide("Config: Show Coordinates") end,
+                                relWidth = 0.5,
                             },
                             guidescroll = {
                                 order = 9,
                                 type = "toggle",
                                 name = L["Scroll Mode"],
                                 desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.guidescroll end,
                                 set = function(info,val) WoWProDB.profile.guidescroll = val
                                     WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Scroll Mode") end,
+                                relWidth = 0.5,
                             },
                             guideprogress = {
                                 order = 10,
                                 type = "toggle",
                                 name = L["Guide Progress"],
                                 desc = L["If enabled, will show the progress of the guide as a count rather than %."],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.guideprogress end,
                                 set = function(info, val)
                                     WoWProDB.profile.guideprogress = val
                                     WoWPro:TitleBarSet()
                                     WoWPro:UpdateGuide("Config: Guide Progress")
                                 end,
+                                relWidth = 0.5,
                             },
                             progressbar = {
                                 order = 11,
                                 type = "toggle",
                                 name = L["Display Quest Progress Bar"],
                                 desc = L["If enabled, will show a progrerss bar for % based quests"],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.progressbar end,
                                 set = function(info, val)
                                     WoWProDB.profile.progressbar = val
                                     WoWPro:UpdateGuide("Config: Display Quest Progress")
                                 end,
+                                relWidth = 0.5,
+                            },
+                        },
+                    },
+                    buttonDisplay = {
+                        order = 3,
+                        type = "group",
+                        name = "Button Display Options",
+                        inline = true,
+                        args = {
+                            showItemButton = {
+                                order = 1,
+                                type = "toggle",
+                                name = L["Show Item/Use Button"],
+                                desc = L["Enable/Disable the item use button (trash item, use item actions)"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.showItemButton end,
+                                set = function(info,val) WoWProDB.profile.showItemButton = val
+                                    WoWPro:UpdateGuide("Config: Item Button Visibility") end,
+                                relWidth = 0.5,
+                            },
+                            showTargetButton = {
+                                order = 2,
+                                type = "toggle",
+                                name = L["Show Target Button"],
+                                desc = L["Enable/Disable the target button (target and emote actions)"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.showTargetButton end,
+                                set = function(info,val) WoWProDB.profile.showTargetButton = val
+                                    WoWPro:UpdateGuide("Config: Target Button Visibility") end,
+                                relWidth = 0.5,
+                            },
+                            showEAButton = {
+                                order = 3,
+                                type = "toggle",
+                                name = L["Show Extra Action Button"],
+                                desc = L["Enable/Disable the extra action button (for quest objectives)"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.showEAButton end,
+                                set = function(info,val) WoWProDB.profile.showEAButton = val
+                                    WoWPro:UpdateGuide("Config: EA Button Visibility") end,
+                                relWidth = 0.5,
+                            },
+                            showJumpButton = {
+                                order = 4,
+                                type = "toggle",
+                                name = L["Show Jump Button"],
+                                desc = L["Enable/Disable the guide jump button (for level jumps or guide transitions)"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.showJumpButton end,
+                                set = function(info,val) WoWProDB.profile.showJumpButton = val
+                                    WoWPro:UpdateGuide("Config: Jump Button Visibility") end,
+                                relWidth = 0.5,
+                            },
+                            showLootIcons = {
+                                order = 5,
+                                type = "toggle",
+                                name = L["Show Loot Icons"],
+                                desc = L["Enable/Disable the loot item icons (for item actions)"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.showLootIcons end,
+                                set = function(info,val) WoWProDB.profile.showLootIcons = val
+                                    WoWPro:UpdateGuide("Config: Loots Button Visibility") end,
+                                relWidth = 0.5,
                             },
                             lefty = {
-                                order = 14,
+                                order = 6,
                                 type = "toggle",
                                 name = L["Left Handed"],
                                 desc = L["When enabled:\n- Target and Use buttons move to the left side of the window\n\nAuto-protect:\n- Automatically enables or disables to keep the buttons on-screen\n\nWhen disabled:\n- Buttons move to the right side of the window"],
-                                width = "double",
+                                width = "relative",
                                 get = function(info) return WoWProDB.profile.leftside end,
                                 set = function(info,val) WoWProDB.profile.leftside = val
                                     if WoWPro.rows then
@@ -196,113 +251,43 @@ local function createDisplayConfig()
                                             WoWPro:PositionTargetUseButtons(row)
                                         end
                                     end
-                                end
-                            },
-                            buttonDisplay = {
-                                order = 15,
-                                type = "group",
-                                name = "Button Display Options",
-                                inline = true,
-                                args = {
-                                    showItemButton = {
-                                        order = 1,
-                                        type = "toggle",
-                                        name = L["Show Item/Use Button"],
-                                        desc = L["Enable/Disable the item use button (trash item, use item actions)"],
-                                        width = "double",
-                                        get = function(info) return WoWProDB.profile.showItemButton end,
-                                        set = function(info,val) WoWProDB.profile.showItemButton = val
-                                            WoWPro:UpdateGuide("Config: Item Button Visibility") end
-                                    },
-                                    showTargetButton = {
-                                        order = 2,
-                                        type = "toggle",
-                                        name = L["Show Target Button"],
-                                        desc = L["Enable/Disable the target button (target and emote actions)"],
-                                        width = "double",
-                                        get = function(info) return WoWProDB.profile.showTargetButton end,
-                                        set = function(info,val) WoWProDB.profile.showTargetButton = val
-                                            WoWPro:UpdateGuide("Config: Target Button Visibility") end
-                                    },
-                                    showEAButton = {
-                                        order = 3,
-                                        type = "toggle",
-                                        name = L["Show Extra Action Button"],
-                                        desc = L["Enable/Disable the extra action button (for quest objectives)"],
-                                        width = "double",
-                                        get = function(info) return WoWProDB.profile.showEAButton end,
-                                        set = function(info,val) WoWProDB.profile.showEAButton = val
-                                            WoWPro:UpdateGuide("Config: EA Button Visibility") end
-                                    },
-                                    showJumpButton = {
-                                        order = 4,
-                                        type = "toggle",
-                                        name = L["Show Jump Button"],
-                                        desc = L["Enable/Disable the guide jump button (for level jumps or guide transitions)"],
-                                        width = "double",
-                                        get = function(info) return WoWProDB.profile.showJumpButton end,
-                                        set = function(info,val) WoWProDB.profile.showJumpButton = val
-                                            WoWPro:UpdateGuide("Config: Jump Button Visibility") end
-                                    },
-                                    showLootIcons = {
-                                        order = 5,
-                                        type = "toggle",
-                                        name = L["Show Loot Icons"],
-                                        desc = L["Enable/Disable the loot item icons (for item actions)"],
-                                        width = "double",
-                                        get = function(info) return WoWProDB.profile.showLootIcons end,
-                                        set = function(info,val) WoWProDB.profile.showLootIcons = val
-                                            WoWPro:UpdateGuide("Config: Loots Button Visibility") end
-                                    },
-                                },
+                                end,
+                                relWidth = 0.5,
                             },
                         },
                     },
-                    windowLayout = {
-                        order = 20,
+                },
+            },
+            windowLayout = {
+                order = 20,
+                type = "group",
+                name = "Window Layout",
+                inline = false,
+                args = {
+                    positioning = {
+                        order = 1,
                         type = "group",
-                        name = "Window Layout",
+                        name = "Position & Anchor",
                         inline = true,
                         args = {
-                            padding = {
-                                order = 1,
-                                type = "range",
-                                name = L["Padding"],
-                                desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
-                                min = 0, max = 20, step = 1,
-                                get = function(info) return tonumber(WoWProDB.profile.userPad) or 0 end,
-                                set = function(info,val)
-                                    WoWProDB.profile.userPad = tonumber(val) or 0
-                                    WoWPro:UpdateGuide("Config: Padding") end,
-                                width = "full"
-                            },
-                            spacing = {
-                                order = 2,
-                                type = "range",
-                                name = L["Spacing"],
-                                desc = L["Spacing determines how much blank space is left between rows in the guide window. "],
-                                min = 0, max = 10, step = 1,
-                                get = function(info) return WoWProDB.profile.space end,
-                                set = function(info,val) WoWProDB.profile.space = val
-                                    WoWPro:UpdateGuide("Config: Row Spacing") end,
-                                width = "full"
-                            },
                             drag = {
-                                order = 3,
+                                order = 1,
                                 type = "toggle",
                                 name = L["Enable Drag"],
                                 desc = L["When enabled: Click on the button bar to move the window. Drag to reposition it on your screen.\nWhen disabled: Window is locked in place."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.5,
                                 get = function(info) return WoWProDB.profile.drag end,
                                 set = function(info,val) WoWProDB.profile.drag = val
-                                    WoWPro.DragSet() end
+                                    WoWPro.DragSet() end,
                             },
                             expansionAnchor = {
-                                order = 4,
+                                order = 2,
                                 type = "select",
                                 name = L["Window Expansion Anchor"],
                                 desc = L["Choose which corner the window expands from; content grows away from that corner and stays on-screen."],
-                                width = 0.7,
+                                width = "relative",
+                                relWidth = 0.5,
                                 values = {
                                     ["TOPLEFT"] = "Top Left",
                                     ["TOPRIGHT"] = "Top Right",
@@ -314,23 +299,33 @@ local function createDisplayConfig()
                                     WoWPro:SetExpansionAnchor(val)
                                 end,
                             },
+                        },
+                    },
+                    sizing = {
+                        order = 2,
+                        type = "group",
+                        name = "Window Sizing",
+                        inline = true,
+                        args = {
                             resize = {
-                                order = 5,
+                                order = 1,
                                 type = "toggle",
                                 name = L["Resize Handle"],
                                 desc = L["Shows a resize handle at the corner opposite your anchor point.\n\nWhen enabled:\n- Drag the handle to manually resize the window\n- Window respects screen boundaries\n- Auto-resize is disabled\n\nWhen disabled:\n- Hides the handle and locks the current window size"],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.5,
                                 get = function(info) return WoWProDB.profile.resize end,
                                 set = function(info,val) WoWProDB.profile.resize = val
                                     if val then WoWProDB.profile.autoresize = false end
-                                    WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
+                                    WoWPro.ResizeSet(); WoWPro.RowSizeSet() end,
                             },
                             autoresize = {
-                                order = 6,
+                                order = 2,
                                 type = "toggle",
                                 name = L["Auto Resize"],
                                 desc = L["Guide automatically resizes to the configured number of steps. Manual Resize is disabled while Auto Resize is enabled."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.5,
                                 get = function(info)
                                     return WoWProDB.profile.autoresize
                                 end,
@@ -343,47 +338,55 @@ local function createDisplayConfig()
 
                                     WoWPro:ResizeSet(true)
                                     WoWPro:UpdateGuide("Config:autoresize")
-                                end
+                                end,
                             },
                             numsteps = {
-                                order = 7,
+                                order = 3,
                                 type = "range",
                                 name = L["Auto Resize: Number of Steps"],
                                 desc = L["Sets how many steps to show and auto-resizes the window to fit them. Only applies when Auto Resize is enabled. Sticky steps are not counted."],
-                                min = 1, max = 15, step = 1,
+                                min = 1,
+                                max = 15,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.numsteps end,
                                 set = function(info,val) WoWProDB.profile.numsteps = val
                                     WoWPro.RowSizeSet()
                                     WoWPro:UpdateGuide("Config:numsteps") end,
-                                width = "full"
+                                width = "full",
                             },
                             minresizeh = {
-                                order = 8,
+                                order = 4,
                                 type = "range",
                                 name = L["Min Resize - Width"],
                                 desc = L["Minimum horizontal pixel size the guide window can be set to."],
-                                min = 250, max = 1000, step = 10,
+                                min = 250,
+                                max = 1000,
+                                step = 10,
                                 get = function(info) return WoWProDB.profile.hminresize end,
                                 set = function(info,val) WoWProDB.profile.hminresize = val
                                     if WoWPro.MainFrame and not _G.InCombatLockdown() then
                                         WoWPro.SetMainFrameSize(val, WoWPro.MainFrame:GetHeight(), true)
                                     end
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
-                                width = "full"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             minresizev = {
-                                order = 9,
+                                order = 5,
                                 type = "range",
                                 name = L["Min Resize - Height"],
                                 desc = L["Minimum height (pixels) the guide window can be set to."],
-                                min = 50, max = 1000, step = 10,
+                                min = 50,
+                                max = 1000,
+                                step = 10,
                                 get = function(info) return WoWProDB.profile.vminresize end,
                                 set = function(info,val) WoWProDB.profile.vminresize = val
                                     WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
-                                width = "full"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             resizeoverride = {
-                                order = 10,
+                                order = 6,
                                 type = "toggle",
                                 name = L["Override Minimum Width"],
                                 desc = L["Allows the guide window to be resized narrower than 'Min Resize - Width' while manually resizing it.\nDisabling this restores the Min Resize - Width limit."],
@@ -394,8 +397,53 @@ local function createDisplayConfig()
                             },
                         },
                     },
+                    contentSpacing = {
+                        order = 3,
+                        type = "group",
+                        name = "Content Spacing",
+                        inline = true,
+                        args = {
+                            padding = {
+                                order = 1,
+                                type = "range",
+                                name = L["Padding"],
+                                desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
+                                min = 0,
+                                max = 20,
+                                step = 1,
+                                get = function(info) return tonumber(WoWProDB.profile.userPad) or 0 end,
+                                set = function(info,val)
+                                    WoWProDB.profile.userPad = tonumber(val) or 0
+                                    WoWPro:UpdateGuide("Config: Padding") end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            spacing = {
+                                order = 2,
+                                type = "range",
+                                name = L["Spacing"],
+                                desc = L["Spacing determines how much blank space is left between rows in the guide window. "],
+                                min = 0,
+                                max = 10,
+                                step = 1,
+                                get = function(info) return WoWProDB.profile.space end,
+                                set = function(info,val) WoWProDB.profile.space = val
+                                    WoWPro:UpdateGuide("Config: Row Spacing") end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
+                    },
+                },
+            },
+            appearance = {
+                order = 30,
+                type = "group",
+                name = "Appearance",
+                inline = false,
+                args = {
                     bars = {
-                        order = 30,
+                        order = 1,
                         type = "group",
                         name = L["Title Bar & Button Bar"],
                         inline = true,
@@ -407,7 +455,8 @@ local function createDisplayConfig()
                                 desc = L["Enables/disables the button bar attached to the guide window."],
                                 get = function(info) return WoWProDB.profile.buttonbar ~= false end,
                                 set = function(info,val) WoWPro:HideAndSeek(WoWPro.ButtonBar, "buttonbar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
-                                width = "double"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             titlebar = {
                                 order = 2,
@@ -416,7 +465,8 @@ local function createDisplayConfig()
                                 desc = L["Enables/disables the title bar attached to the guide window.\n\n** This does nothing if the guide window is hidden."],
                                 get = function(info) return WoWProDB.profile.titlebar end,
                                 set = function(info,val) WoWPro:HideAndSeek(WoWPro.TitleBar, "titlebar", val); WoWPro.MainFrameLayout(); WoWPro.RowSizeSet() end,
-                                width = "double"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             titlecolor = {
                                 order = 3,
@@ -426,13 +476,14 @@ local function createDisplayConfig()
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
                                 set = function(info,r,g,b,a) WoWProDB.profile.titlecolor = {r,g,b,a}; WoWPro:BackgroundSet() end,
+                                width = "full",
                             },
                         },
                     },
-                    backgrounds = {
-                        order = 40,
+                    guideBackground = {
+                        order = 2,
                         type = "group",
-                        name = L["Backgrounds"],
+                        name = L["Guide Window Background"],
                         inline = true,
                         args = {
                             bgtexture = {
@@ -451,7 +502,8 @@ local function createDisplayConfig()
                                     return WoWProDB.profile.bgtexture end,
                                 set = function(info,val) WoWProDB.profile.bgtexture = val
                                     WoWPro.BackgroundSet() end,
-                                width = "double"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             bgcolor = {
                                 order = 2,
@@ -462,8 +514,18 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3] ,WoWProDB.profile.bgcolor[4] end,
                                 set = function(info,r,g,b,a)
                                     WoWProDB.profile.bgcolor = {r,g,b,a}
-                                    WoWPro.BackgroundSet() end
+                                    WoWPro.BackgroundSet() end,
+                                width = "relative",
+                                relWidth = 0.5,
                             },
+                        },
+                    },
+                    guideBorder = {
+                        order = 3,
+                        type = "group",
+                        name = L["Border"],
+                        inline = true,
+                        args = {
                             bordertexture = {
                                 order = 3,
                                 type = "select",
@@ -481,7 +543,8 @@ local function createDisplayConfig()
                                 set = function(info,val) WoWProDB.profile.bordertexture = val
                                     WoWPro.border = true
                                     WoWPro.BackgroundSet() end,
-                                width = "double"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             border = {
                                 order = 4,
@@ -490,8 +553,18 @@ local function createDisplayConfig()
                                 desc = L["Enables/disables the border around the guide window."],
                                 get = function(info) return WoWProDB.profile.border end,
                                 set = function(info,val) WoWProDB.profile.border = val
-                                    WoWPro.BackgroundSet() end
+                                    WoWPro.BackgroundSet() end,
+                                width = "relative",
+                                relWidth = 0.5,
                             },
+                        },
+                    },
+                    stickyBackground = {
+                        order = 4,
+                        type = "group",
+                        name = L["Sticky Background"],
+                        inline = true,
+                        args = {
                             stickytexture = {
                                 order = 5,
                                 type = "select",
@@ -508,7 +581,8 @@ local function createDisplayConfig()
                                     return WoWProDB.profile.stickytexture end,
                                 set = function(info,val) WoWProDB.profile.stickytexture = val
                                     WoWPro.BackgroundSet(); WoWPro.RowColorSet() end,
-                                width = "double"
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                             stickycolor = {
                                 order = 6,
@@ -519,14 +593,24 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3] ,WoWProDB.profile.stickycolor[4] end,
                                 set = function(info,r,g,b,a)
                                     WoWProDB.profile.stickycolor = {r,g,b,a}
-                                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
+                                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end,
+                                width = "relative",
+                                relWidth = 0.5,
                             },
                         },
                     },
-                    textFormatting = {
-                        order = 50,
+                },
+            },
+            textFormatting = {
+                order = 40,
+                type = "group",
+                name = L["Text Formatting"],
+                inline = false,
+                args = {
+                    steps = {
+                        order = 1,
                         type = "group",
-                        name = L["Text Formatting"],
+                        name = L["Steps"],
                         inline = true,
                         args = {
                             stepfont = {
@@ -547,30 +631,45 @@ local function createDisplayConfig()
                                 set = function(info,val)
                                     WoWProDB.profile.stepfont = ResolveFontPath(val)
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.4,
                             },
                             stepfontsize = {
                                 order = 2,
                                 type = "range",
                                 name = L["Step Text Size"],
                                 desc = L["Size of the main step text."],
-                                min = 1, max = 30, step = 1,
+                                min = 1,
+                                max = 30,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.stepfontsize end,
                                 set = function(info,val) WoWProDB.profile.stepfontsize = val
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.3,
                             },
                             steptextcolor = {
                                 order = 3,
                                 type = "color",
                                 name = L["Step Text Color"],
                                 desc = L["Color of the main step text."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.3,
                                 get = function(info) return WoWProDB.profile.steptextcolor[1], WoWProDB.profile.steptextcolor[2], WoWProDB.profile.steptextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.steptextcolor = {r,g,b}
-                                    WoWPro.RowColorSet() end
+                                    WoWPro.RowColorSet() end,
                             },
+                        },
+                    },
+                    notes = {
+                        order = 2,
+                        type = "group",
+                        name = L["Notes"],
+                        inline = true,
+                        args = {
                             notefont = {
                                 order = 4,
                                 type = 'select',
@@ -589,30 +688,45 @@ local function createDisplayConfig()
                                 set = function(info,val)
                                     WoWProDB.profile.notefont = ResolveFontPath(val)
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.4,
                             },
                             notefontsize = {
                                 order = 5,
                                 type = "range",
                                 name = L["Note Text Size"],
                                 desc = L["Size of the note text."],
-                                min = 1, max = 30, step = 1,
+                                min = 1,
+                                max = 30,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.notefontsize end,
                                 set = function(info,val) WoWProDB.profile.notefontsize = val
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.3,
                             },
                             notetextcolor = {
                                 order = 6,
                                 type = "color",
                                 name = L["Note Text Color"],
                                 desc = L["Color of the note text."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.3,
                                 get = function(info) return WoWProDB.profile.notetextcolor[1], WoWProDB.profile.notetextcolor[2], WoWProDB.profile.notetextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.notetextcolor = {r,g,b}
-                                    WoWPro.RowColorSet() end
+                                    WoWPro.RowColorSet() end,
                             },
+                        },
+                    },
+                    tracking = {
+                        order = 3,
+                        type = "group",
+                        name = L["Quest Tracking"],
+                        inline = true,
+                        args = {
                             trackfont = {
                                 order = 7,
                                 type = "select",
@@ -631,30 +745,45 @@ local function createDisplayConfig()
                                 set = function(info,val)
                                     WoWProDB.profile.trackfont = ResolveFontPath(val)
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.4,
                             },
                             trackfontsize = {
                                 order = 8,
                                 type = "range",
                                 name = L["Tracker Text Size"],
                                 desc = L["Size of the tracking text."],
-                                min = 1, max = 30, step = 1,
+                                min = 1,
+                                max = 30,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.trackfontsize end,
                                 set = function(info,val) WoWProDB.profile.trackfontsize = val
                                     WoWPro.RowFontSet()
-                                    RefreshTextLayout() end
+                                    RefreshTextLayout() end,
+                                width = "relative",
+                                relWidth = 0.3,
                             },
                             tracktextcolor = {
                                 order = 9,
                                 type = "color",
                                 name = L["Tracker Text Color"],
                                 desc = L["Color of the tracking text."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.3,
                                 get = function(info) return WoWProDB.profile.tracktextcolor[1], WoWProDB.profile.tracktextcolor[2], WoWProDB.profile.tracktextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.tracktextcolor = {r,g,b}
-                                    WoWPro.RowColorSet() end
+                                    WoWPro.RowColorSet() end,
                             },
+                        },
+                    },
+                    title = {
+                        order = 4,
+                        type = "group",
+                        name = L["Title Bar"],
+                        inline = true,
+                        args = {
                             titlefont = {
                                 order = 10,
                                 type = "select",
@@ -672,29 +801,44 @@ local function createDisplayConfig()
                                     return hash end,
                                 set = function(info,val)
                                     WoWProDB.profile.titlefont = ResolveFontPath(val)
-                                    WoWPro:TitleBarSet() end
+                                    WoWPro:TitleBarSet() end,
+                                width = "relative",
+                                relWidth = 0.4,
                             },
                             titlefontsize = {
                                 order = 11,
                                 type = "range",
                                 name = L["Title Bar Text Size"],
                                 desc = L["Size of the title bar text."],
-                                min = 1, max = 30, step = 1,
+                                min = 1,
+                                max = 30,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.titlefontsize end,
                                 set = function(info,val) WoWProDB.profile.titlefontsize = val
-                                    WoWPro:TitleBarSet() end
+                                    WoWPro:TitleBarSet() end,
+                                width = "relative",
+                                relWidth = 0.3,
                             },
                             titletextcolor = {
                                 order = 12,
                                 type = "color",
                                 name = L["Title Bar Text Color"],
                                 desc = L["Color of the title bar text."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.3,
                                 get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
                                 set = function(info,r,g,b,a)
                                     WoWProDB.profile.titletextcolor = {r,g,b,a}
-                                    WoWPro:TitleBarSet() end
+                                    WoWPro:TitleBarSet() end,
                             },
+                        },
+                    },
+                    sticky = {
+                        order = 5,
+                        type = "group",
+                        name = L["As you go:"],
+                        inline = true,
+                        args = {
                             stickytitlefont = {
                                 order = 13,
                                 type = "select",
@@ -714,37 +858,44 @@ local function createDisplayConfig()
                                     WoWProDB.profile.stickytitlefont = ResolveFontPath(val)
                                     WoWPro:StickyHeaderSet()
                                     WoWPro.RowFontSet()
-                                    WoWPro.RowSizeSet() end
+                                    WoWPro.RowSizeSet() end,
+                                width = "relative",
+                                relWidth = 0.4,
                             },
                             stickytitlefontsize = {
                                 order = 14,
                                 type = "range",
                                 name = L["'As you go:' Text Size"],
                                 desc = L["Size of the text on the top of the sticky frame."],
-                                min = 1, max = 30, step = 1,
+                                min = 1,
+                                max = 30,
+                                step = 1,
                                 get = function(info) return WoWProDB.profile.stickytitlefontsize end,
                                 set = function(info,val) WoWProDB.profile.stickytitlefontsize = val
                                     WoWPro:StickyHeaderSet()
                                     WoWPro.RowFontSet()
-                                    WoWPro.RowSizeSet() end
+                                    WoWPro.RowSizeSet() end,
+                                width = "relative",
+                                relWidth = 0.3,
                             },
                             stickytitletextcolor = {
                                 order = 15,
                                 type = "color",
                                 name = L["'As you go:' Text Color"],
                                 desc = L["Color of the text on the top of the sticky frame."],
-                                width = "full",
+                                width = "relative",
+                                relWidth = 0.3,
                                 get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
                                 set = function(info,r,g,b)
                                     WoWProDB.profile.stickytitletextcolor = {r,g,b}
                                     WoWPro:StickyHeaderSet()
-                                    WoWPro.RowFontSet() end
+                                    WoWPro.RowFontSet() end,
                             },
                         },
                     },
                 },
             },
-        }
+        },
     }
 end
 
@@ -753,141 +904,176 @@ local function createMainConfig()
         name = L["Main"],
         type = "group",
         args = {
-            status = {
-                order = 20,
+            general = {
+                order = 10,
                 type = "group",
-                name = "Main Options and Debugging",
-                inline = true,
+                name = L["General"],
+                inline = false,
                 args = {
-                    enable = {
-                        order = 2,
-                        type = "toggle",
-                        name = L["Enable Addon"],
-                        desc = L["Enables/Disables showing the WoW-Pro guide addons."],
-                        get = function(info) return WoWProCharDB.Enabled end,
-                        set = function(info,val)
-                            if WoWProCharDB.Enabled then
-                                WoWProCharDB.Enabled = false
-                                WoWPro:Disable()
-                            else
-                                WoWProCharDB.Enabled = true
-                                WoWPro:Enable()
-                            end
-                        end,
-                    },
-                    enableDebug = {
-                        order = 3,
-                        type = "toggle",
-                        name = L["Enable Debug"],
-                        desc = L["Enables/Disables debug logging"],
-                        get = function(info) return WoWPro.DebugLevel > 0 end,
-                        set = function(info,val)
-                            if WoWPro.DebugLevel > 0 then
-                                WoWPro.DebugLevel = 0
-                            else
-                                WoWPro.DebugLevel = 1
-                            end
-                            WoWProCharDB.DebugLevel = WoWPro.DebugLevel
-                        end,
-                    },
-                    minimap = {
-                        order = 4,
-                        type = "toggle",
-                        name = L["Minimap Button"],
-                        desc = L["Show/hide WoW-Pro mini map button."],
-                        get = function(info) return not WoWProDB.profile.minimap.hide end,
-                        set = function(info,val) WoWProDB.profile.minimap.hide = not val
-                            WoWPro.MinimapSet() end
-                    },
-                    checksound = {
-                        order = 5,
-                        type = "toggle",
-                        name = L["Enable Sound"],
-                        desc = L["Plays a check-off sound when a guide step is completed."],
-                        get = function(info) return WoWProDB.profile.checksound end,
-                        set = function(info,val) WoWProDB.profile.checksound = val end
-                    },
-                    checksoundfile = {
-                        order = 6,
-                        type = "select",
-                        name = L["Step Completed Sound"],
-                        desc = L["Sound played when a guide step is completed"],
-                        values = function() local values = {}
-                            for k,v in pairs(soundfiles) do
-                                values[v] = k
-                            end
-                            return values end,
-                        get = function(info)
-                            return WoWProDB.profile.checksoundfile end,
-                        set = function(info,val) WoWProDB.profile.checksoundfile = val
-                            _G.PlaySoundFile(val) end,
-                        disabled = function(...) return not WoWProDB.profile.checksound end,
-                        width = "double"
-                    },
-                },
-            },
-            automation = {
-                order = 30,
-                type = "group",
-                name = "Automation",
-                inline = true,
-                args = {
-                    autoSelect = {
+                    status = {
                         order = 1,
-                        type = "toggle",
-                        name = L["Auto Select"],
-                        desc = L["Enables/Disables automatically selecting quests/flights from NPCs"],
-                        get = function(info) return WoWProCharDB.AutoSelect end,
-                        set = function(info,val)
-                            if WoWProCharDB.AutoSelect == true then
-                                WoWProCharDB.AutoSelect = false
-                            else
-                                WoWProCharDB.AutoSelect = true
-                            end
-                        end,
+                        type = "group",
+                        name = L["Addon & Sound"],
+                        inline = true,
+                        args = {
+                            enable = {
+                                order = 2,
+                                type = "toggle",
+                                name = L["Enable Addon"],
+                                desc = L["Enables/Disables showing the WoW-Pro guide addons."],
+                                get = function(info) return WoWProCharDB.Enabled end,
+                                set = function(info,val)
+                                    if WoWProCharDB.Enabled then
+                                        WoWProCharDB.Enabled = false
+                                        WoWPro:Disable()
+                                    else
+                                        WoWProCharDB.Enabled = true
+                                        WoWPro:Enable()
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            minimap = {
+                                order = 4,
+                                type = "toggle",
+                                name = L["Minimap Button"],
+                                desc = L["Show/hide WoW-Pro mini map button."],
+                                get = function(info) return not WoWProDB.profile.minimap.hide end,
+                                set = function(info,val) WoWProDB.profile.minimap.hide = not val
+                                    WoWPro.MinimapSet() end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            checksound = {
+                                order = 5,
+                                type = "toggle",
+                                name = L["Enable Sound"],
+                                desc = L["Plays a check-off sound when a guide step is completed."],
+                                get = function(info) return WoWProDB.profile.checksound end,
+                                set = function(info,val) WoWProDB.profile.checksound = val end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            checksoundfile = {
+                                order = 6,
+                                type = "select",
+                                name = L["Step Completed Sound"],
+                                desc = L["Sound played when a guide step is completed"],
+                                values = function() local values = {}
+                                    for k,v in pairs(soundfiles) do
+                                        values[v] = k
+                                    end
+                                    return values end,
+                                get = function(info)
+                                    return WoWProDB.profile.checksoundfile end,
+                                set = function(info,val) WoWProDB.profile.checksoundfile = val
+                                    _G.PlaySoundFile(val) end,
+                                disabled = function(...) return not WoWProDB.profile.checksound end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
                     },
-                    autoAccept = {
-                        order = 2,
-                        type = "toggle",
-                        name = L["Auto Accept"],
-                        desc = L["Enables/Disables automatically accepting quests from NPCs"],
-                        get = function(info) return WoWProCharDB.AutoAccept end,
-                        set = function(info,val)
-                            if WoWProCharDB.AutoAccept == true then
-                                WoWProCharDB.AutoAccept = false
-                            else
-                                WoWProCharDB.AutoAccept = true
-                            end
-                        end,
+                    automation = {
+                        order = 30,
+                        type = "group",
+                        name = "Automation",
+                        inline = true,
+                        args = {
+                            autoSelect = {
+                                order = 1,
+                                type = "toggle",
+                                name = L["Auto Select"],
+                                desc = L["Enables/Disables automatically selecting quests/flights from NPCs"],
+                                get = function(info) return WoWProCharDB.AutoSelect end,
+                                set = function(info,val)
+                                    if WoWProCharDB.AutoSelect == true then
+                                        WoWProCharDB.AutoSelect = false
+                                    else
+                                        WoWProCharDB.AutoSelect = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            autoAccept = {
+                                order = 2,
+                                type = "toggle",
+                                name = L["Auto Accept"],
+                                desc = L["Enables/Disables automatically accepting quests from NPCs"],
+                                get = function(info) return WoWProCharDB.AutoAccept end,
+                                set = function(info,val)
+                                    if WoWProCharDB.AutoAccept == true then
+                                        WoWProCharDB.AutoAccept = false
+                                    else
+                                        WoWProCharDB.AutoAccept = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            autoTurnin = {
+                                order = 3,
+                                type = "toggle",
+                                name = L["Auto Turnin"],
+                                desc = L["Enables/Disables automatically turning in quests to NPCs"],
+                                get = function(info) return WoWProCharDB.AutoTurnin end,
+                                set = function(info,val)
+                                    if WoWProCharDB.AutoTurnin == true then
+                                        WoWProCharDB.AutoTurnin = false
+                                    else
+                                        WoWProCharDB.AutoTurnin = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            automationNote = {
+                                order = 4,
+                                type = "description",
+                                name = L["NOTE: Quest automation does not work in instances or in combat"],
+                                hidden = function() return not WoWPro.MIDNIGHT end,
+                                width = "full",
+                            },
+                        },
                     },
-                    autoTurnin = {
-                        order = 3,
-                        type = "toggle",
-                        name = L["Auto Turnin"],
-                        desc = L["Enables/Disables automatically turning in quests to NPCs"],
-                        get = function(info) return WoWProCharDB.AutoTurnin end,
-                        set = function(info,val)
-                            if WoWProCharDB.AutoTurnin == true then
-                                WoWProCharDB.AutoTurnin = false
-                            else
-                                WoWProCharDB.AutoTurnin = true
-                            end
-                        end,
-                    },
-                    automationNote = {
-                        order = 4,
-                        type = "description",
-                        name = L["NOTE: Quest automation does not work in instances or in combat"],
-                        hidden = function() return not WoWPro.MIDNIGHT end,
-                        width = "full",
+                    guideBehavior = {
+                        order = 35,
+                        type = "group",
+                        name = "Guide Behavior",
+                        inline = true,
+                        args = {
+                            track = {
+                                order = 1,
+                                type = "toggle",
+                                name = L["Quest Tracking"],
+                                desc = L["Allows tracking of quests in the guide frame"],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.track end,
+                                set = function(info,val) WoWProDB.profile.track = val
+                                    WoWPro:UpdateGuide("Config: Quest Tracking") end,
+                                relWidth = 0.5,
+                            },
+                            autoload = {
+                                order = 2,
+                                type = "toggle",
+                                name = L["Auto-Load Guide"],
+                                desc = L["Will automatically load the next guide when you complete one."],
+                                width = "relative",
+                                get = function(info) return WoWProDB.profile.autoload end,
+                                set = function(info,val) WoWProDB.profile.autoload = val end,
+                                relWidth = 0.5,
+                            },
+                        },
                     },
                 },
             },
             modifiers = {
-                order = 40,
+                order = 20,
                 type = "group",
                 name = "Guide Modifiers",
-                inline = true,
+                inline = false,
                 args = {
                     petBattles = {
                         order = 1,
@@ -902,6 +1088,8 @@ local function createMainConfig()
                                 WoWProCharDB.EnablePetBattles = true
                             end
                         end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     doRares = {
                         order = 2,
@@ -916,6 +1104,8 @@ local function createMainConfig()
                                 WoWProCharDB.EnableRares = true
                             end
                         end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     doTreasures = {
                         order = 3,
@@ -930,9 +1120,11 @@ local function createMainConfig()
                                 WoWProCharDB.EnableTreasures = true
                             end
                         end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     warbandcompleted = {
-                        order = 4,
+                        order = 7,
                         type = "toggle",
                         name = L["Use Warband Quest Completion"],
                         desc = L["Treat quests completed by another character in your Warband as completed for step filtering."],
@@ -958,7 +1150,8 @@ local function createMainConfig()
                                 WoWProCharDB.EnableDungeons = true
                             end
                         end,
-                        width = "double",
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     doFlight = {
                         order = 6,
@@ -973,17 +1166,19 @@ local function createMainConfig()
                                 WoWProCharDB.EnableFlight = true
                             end
                         end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                 },
             },
             tools = {
-                order = 50,
+                order = 30,
                 type = "group",
-                name = "Master Addon Tools",
-                inline = true,
+                name = L["Tools"],
+                inline = false,
                 args = {
                     resetGuide = {
-                        order = 1,
+                        order = 4,
                         type = "execute",
                         name = L["Reset WoWPro Addons"],
                         desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters."],
@@ -992,6 +1187,7 @@ local function createMainConfig()
                             WoWPro:RESET()
                             _G.PlaySound(1026) -- Rabitt death
                         end,
+                        width = "full",
                     },
                     resetLog = {
                         order = 2,
@@ -1000,6 +1196,8 @@ local function createMainConfig()
                         desc = L["Wow-Pro's Debug Log"],
                         image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
                         func = function(info) WoWPro:LogClear("UI") end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     showLog = {
                         order = 3,
@@ -1008,10 +1206,35 @@ local function createMainConfig()
                         desc = L["Wow-Pro's Secret Debug Log"],
                         image = "Interface\\RaidFrame\\ReadyCheck-Ready",
                         func = function(info) WoWPro:LogShow() end,
+                        width = "relative",
+                        relWidth = 0.5,
+                    },
+                    enableDebug = {
+                        order = 1,
+                        type = "toggle",
+                        name = L["Enable Debug"],
+                        desc = L["Enables/Disables debug logging"],
+                        get = function(info) return WoWPro.DebugLevel > 0 end,
+                        set = function(info,val)
+                            if WoWPro.DebugLevel > 0 then
+                                WoWPro.DebugLevel = 0
+                            else
+                                WoWPro.DebugLevel = 1
+                            end
+                            WoWProCharDB.DebugLevel = WoWPro.DebugLevel
+                        end,
+                        width = "full",
+                    },
+                    resetWarning = {
+                        order = 3.5,
+                        type = "description",
+                        width = "full",
+                        name = L["Resetting WoW-Pro wipes saved state across all characters. Use the log tools first when troubleshooting."],
                     },
                 },
             },
-        }
+        },
+        childGroups = "tab",
     }
 end
 
@@ -1023,78 +1246,132 @@ local function createAboutConfig()
             overview = {
                 order = 10,
                 type = "group",
-                name = "About WoW-Pro",
-                inline = true,
+                name = L["Overview"],
+                inline = false,
                 args = {
-                    introTitle = {
+                    introduction = {
                         order = 1,
-                        type = "description",
-                        fontSize = "large",
-                        width = "full",
-                        name = "What WoW-Pro Does"
+                        type = "group",
+                        name = L["About WoW-Pro"],
+                        inline = true,
+                        args = {
+                            introTitle = {
+                                order = 1,
+                                type = "description",
+                                fontSize = "large",
+                                width = "full",
+                                name = "What WoW-Pro Does",
+                            },
+                            intro1 = {
+                                order = 2,
+                                type = "description",
+                                fontSize = "medium",
+                                width = "full",
+                                name = "WoW-Pro is a community-built addon collection that helps with questing, leveling, and guide-driven progression.",
+                            },
+                            intro2 = {
+                                order = 3,
+                                type = "description",
+                                fontSize = "medium",
+                                width = "full",
+                                name = "It has grown through years of player contributions, covering content from legacy expansions through current Retail.",
+                            },
+                            introSpacer = {
+                                order = 4,
+                                type = "description",
+                                width = "full",
+                                name = " ",
+                            },
+                            introStartTitle = {
+                                order = 5,
+                                type = "description",
+                                fontSize = "medium",
+                                width = "full",
+                                name = "Where To Start",
+                            },
+                            intro3 = {
+                                order = 6,
+                                type = "description",
+                                fontSize = "medium",
+                                width = "full",
+                                name = "New here: begin with Main and Guide Display to set automation, layout, and text style.",
+                            },
+                            intro4 = {
+                                order = 7,
+                                type = "description",
+                                fontSize = "medium",
+                                width = "full",
+                                name = "Troubleshooting: open Main > Tools for logging and About > Commands for command shortcuts.",
+                            },
+                        },
                     },
-                    intro1 = {
-                        order = 2,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "WoW-Pro is a community-built addon collection that helps with questing, leveling, and guide-driven progression."
-                    },
-                    intro2 = {
-                        order = 3,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "It has grown through years of player contributions, covering content from legacy expansions through current Retail."
-                    },
-                    introSpacer = {
-                        order = 4,
-                        type = "description",
-                        width = "full",
-                        name = " "
-                    },
-                    introStartTitle = {
-                        order = 5,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "Where To Start"
-                    },
-                    intro3 = {
-                        order = 6,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "New here: begin with Main and Guide Display to set automation, layout, and text style."
-                    },
-                    intro4 = {
-                        order = 7,
-                        type = "description",
-                        fontSize = "medium",
-                        width = "full",
-                        name = "Troubleshooting: use the built-in log tools and command shortcuts listed below."
+                    status = {
+                        order = 50,
+                        type = "group",
+                        name = "Runtime Status",
+                        inline = true,
+                        args = {
+                            addonVersion = {
+                                order = 1,
+                                type = "description",
+                                width = "full",
+                                name = function()
+                                    return ("Addon Version: %s"):format(tostring(WoWPro.Version or "Unknown"))
+                                end,
+                            },
+                            wowVersion = {
+                                order = 2,
+                                type = "description",
+                                width = "full",
+                                name = function()
+                                    local v, b, _, t = _G.GetBuildInfo()
+                                    return ("WoW Client: %s (Build %s, TOC %s)"):format(tostring(v or "?"), tostring(b or "?"), tostring(t or "?"))
+                                end,
+                            },
+                            profileName = {
+                                order = 3,
+                                type = "description",
+                                width = "full",
+                                name = function()
+                                    local profile = "Unknown"
+                                    if WoWProDB and WoWProDB.GetCurrentProfile then
+                                        profile = WoWProDB:GetCurrentProfile() or "Unknown"
+                                    end
+                                    return ("Active Profile: %s"):format(tostring(profile))
+                                end,
+                            },
+                            currentGuide = {
+                                order = 4,
+                                type = "description",
+                                width = "full",
+                                name = function()
+                                    local gid = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide or nil
+                                    return ("Current Guide: %s"):format(tostring(gid or "None"))
+                                end,
+                            },
+                        },
                     },
                 },
             },
             links = {
                 order = 30,
                 type = "group",
-                name = "Community and Links",
-                inline = true,
+                name = L["Community"],
+                inline = false,
                 args = {
                     linksTitle = {
                         order = 1,
                         type = "description",
                         fontSize = "large",
                         width = "full",
-                        name = "Stay Connected"
+                        name = "Stay Connected",
                     },
                     linksIntro = {
                         order = 2,
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Use these links for announcements, support, and development updates."
+                        name = "Use these links for announcements, support, and development updates.",
                     },
                     discord = {
                         order = 3,
@@ -1103,7 +1380,7 @@ local function createAboutConfig()
                         get = function() return "https://discord.gg/aarduK7" end,
                         set = function() return "https://discord.gg/aarduK7" end,
                         icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
-                        width = "full"
+                        width = "full",
                     },
                     github = {
                         order = 4,
@@ -1111,114 +1388,69 @@ local function createAboutConfig()
                         name = "Source Repository",
                         get = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
                         set = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
-                        width = "full"
+                        width = "full",
                     },
                     linksNote = {
                         order = 5,
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Tip: Include your guide name or ID and a short log snippet when asking for help in Discord."
+                        name = "Tip: Include your guide name or ID and a short log snippet when asking for help in Discord.",
                     },
                 },
             },
             commands = {
                 order = 40,
                 type = "group",
-                name = "Useful Commands",
-                inline = true,
+                name = L["Commands"],
+                inline = false,
                 args = {
                     cmdIntro = {
                         order = 1,
                         type = "description",
                         width = "full",
-                        name = "Use /wp or /wow-pro with the following commands:"
+                        name = "Use /wp or /wow-pro with the following commands:",
                     },
                     cmd1 = {
                         order = 2,
                         type = "description",
                         width = "full",
-                        name = "- where: print current map position and area details"
+                        name = "- where: print current map position and area details",
                     },
                     cmd2 = {
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "- reset: clear WoW-Pro saved runtime state"
+                        name = "- reset: clear WoW-Pro saved runtime state",
                     },
                     cmd3 = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "- clear-log / log: clear or show the debug log"
+                        name = "- clear-log / log: clear or show the debug log",
                     },
                     cmd4 = {
                         order = 5,
                         type = "description",
                         width = "full",
-                        name = "- guide-bug / trade-bug: create focused bug reports"
+                        name = "- guide-bug / trade-bug: create focused bug reports",
                     },
                     cmd5 = {
                         order = 6,
                         type = "description",
                         width = "full",
-                        name = "- devcoords / devzone / devmode: developer mapping helpers"
+                        name = "- devcoords / devzone / devmode: developer mapping helpers",
                     },
                     cmd6 = {
                         order = 7,
                         type = "description",
                         width = "full",
-                        name = "- flightids [dest]: inspect flight node IDs for your current map"
-                    },
-                },
-            },
-            status = {
-                order = 50,
-                type = "group",
-                name = "Runtime Status",
-                inline = true,
-                args = {
-                    addonVersion = {
-                        order = 1,
-                        type = "description",
-                        width = "full",
-                        name = function()
-                            return ("Addon Version: %s"):format(tostring(WoWPro.Version or "Unknown"))
-                        end,
-                    },
-                    wowVersion = {
-                        order = 2,
-                        type = "description",
-                        width = "full",
-                        name = function()
-                            local v, b, _, t = _G.GetBuildInfo()
-                            return ("WoW Client: %s (Build %s, TOC %s)"):format(tostring(v or "?"), tostring(b or "?"), tostring(t or "?"))
-                        end,
-                    },
-                    profileName = {
-                        order = 3,
-                        type = "description",
-                        width = "full",
-                        name = function()
-                            local profile = "Unknown"
-                            if WoWProDB and WoWProDB.GetCurrentProfile then
-                                profile = WoWProDB:GetCurrentProfile() or "Unknown"
-                            end
-                            return ("Active Profile: %s"):format(tostring(profile))
-                        end,
-                    },
-                    currentGuide = {
-                        order = 4,
-                        type = "description",
-                        width = "full",
-                        name = function()
-                            local gid = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide or nil
-                            return ("Current Guide: %s"):format(tostring(gid or "None"))
-                        end,
+                        name = "- flightids [dest]: inspect flight node IDs for your current map",
                     },
                 },
             },
         },
+        childGroups = "tab",
     }
 end
 
@@ -1231,13 +1463,13 @@ local function createHelpConfig()
                 order = 10,
                 type = "group",
                 name = "Getting Started",
-                inline = true,
+                inline = false,
                 args = {
                     intro = {
                         order = 1,
                         type = "description",
                         width = "full",
-                        name = "Use these steps to get running with WoW-Pro as a player, then use the Recorder to build or edit your own guide.",
+                        name = "Start here to select a guide and set your questing preferences.",
                     },
                     wowproHeader = {
                         order = 2,
@@ -1248,19 +1480,19 @@ local function createHelpConfig()
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "1) WoWPro has 2 options to display guides. You can either choose the 'Horn' icon on the button bar to open the 'Old Style' Guide List and select a guide that matches your level, campaign, or expansion path or you can right click the 'Options' icon on the button bar to open the 'New Style' Guide List and select a guide that matches your level, campaign, or expansion path.",
+                        name = "1) Click the Horn icon for the classic Guide List, or right-click the Options icon for the new Guide List. Choose a guide matching your level, campaign, or expansion.",
                     },
                     wowpro2 = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "2) Open Main and set your automation preferences, especially Auto Accept, Auto Turn-in, and Auto Select, before you start questing.",
+                        name = "2) Open Main > General for Auto Select, Auto Accept, Auto Turn-in, Quest Tracking, and Auto-Load Guide. Use Main > Guide Modifiers to choose optional content.",
                     },
                     wowpro3 = {
                         order = 5,
                         type = "description",
                         width = "full",
-                        name = "3) Open Guide Display and adjust frame size, number of rows, text scale, and background so the guide fits your UI cleanly.",
+                        name = "3) Open Guide Display > Window Layout to adjust Position & Anchor, Window Sizing, and Content Spacing. Use Appearance for backgrounds and Text Formatting for fonts and text size.",
                     },
                     wowpro4 = {
                         order = 6,
@@ -1274,6 +1506,46 @@ local function createHelpConfig()
                         width = "full",
                         name = "5) If a guide looks stuck or out of sync, use /wp reset to clear guide state and /wp log to inspect the debug log before reporting the issue.",
                     },
+                },
+            },
+            troubleshooting = {
+                order = 40,
+                type = "group",
+                name = L["Troubleshooting"],
+                inline = false,
+                args = {
+                    h1 = {
+                        order = 1,
+                        type = "description",
+                        width = "full",
+                        name = "- If steps do not advance, check Main > General automation and the Ranks page. Open Main > Tools to enable debugging and inspect the log.",
+                    },
+                    h2 = {
+                        order = 2,
+                        type = "description",
+                        width = "full",
+                        name = "- Use /wp log to inspect debug entries and /wp clear-log before reproducing issues.",
+                    },
+                    h3 = {
+                        order = 3,
+                        type = "description",
+                        width = "full",
+                        name = "- Use /wp reset if saved state becomes inconsistent after major patches.",
+                    },
+                    h4 = {
+                        order = 4,
+                        type = "description",
+                        width = "full",
+                        name = "- If needed, share logs and guide ID in Discord for faster support.",
+                    },
+                },
+            },
+            recorder = {
+                order = 20,
+                type = "group",
+                name = L["Recorder"],
+                inline = false,
+                args = {
                     recorderHeader = {
                         order = 8,
                         type = "header",
@@ -1327,6 +1599,14 @@ local function createHelpConfig()
                         width = "full",
                         name = "8) After saving, reopen the guide with Open and run through a few steps to verify quest IDs, notes, and automatic completion behave the way you expect.",
                     },
+                },
+            },
+            sharing = {
+                order = 30,
+                type = "group",
+                name = L["Sharing"],
+                inline = false,
+                args = {
                     exportHeader = {
                         order = 17,
                         type = "header",
@@ -1358,39 +1638,8 @@ local function createHelpConfig()
                     },
                 },
             },
-            troubleshooting = {
-                order = 20,
-                type = "group",
-                name = "Troubleshooting Checklist",
-                inline = true,
-                args = {
-                    h1 = {
-                        order = 1,
-                        type = "description",
-                        width = "full",
-                        name = "- If steps do not advance, open Main and check automation toggles plus guide rank settings."
-                    },
-                    h2 = {
-                        order = 2,
-                        type = "description",
-                        width = "full",
-                        name = "- Use /wp log to inspect debug entries and /wp clear-log before reproducing issues."
-                    },
-                    h3 = {
-                        order = 3,
-                        type = "description",
-                        width = "full",
-                        name = "- Use /wp reset if saved state becomes inconsistent after major patches."
-                    },
-                    h4 = {
-                        order = 4,
-                        type = "description",
-                        width = "full",
-                        name = "- If needed, share logs and guide ID in Discord for faster support."
-                    },
-                },
-            },
         },
+        childGroups = "tab",
     }
 end
 
@@ -1402,8 +1651,8 @@ local function createExpertOptions()
             engine = {
                 order = 10,
                 type = "group",
-                name = L["Quest Engine Delay"],
-                inline = true,
+                name = L["Quest Engine"],
+                inline = false,
                 args = {
                     engineHelp = {
                         order = 1,
@@ -1417,18 +1666,20 @@ local function createExpertOptions()
                         type = "range",
                         name = L["The amount of time to wait for the WoW client to update it's state."],
                         desc = "Default is 0.5 seconds.",
-                        min = 0.1, max = 0.75, step = .05,
+                        min = 0.1,
+                        max = 0.75,
+                        step = .05,
                         get = function(info) return WoWProDB.global.QuestEngineDelay end,
                         set = function(info,val) WoWProDB.global.QuestEngineDelay = val end,
-                        width = "full"
+                        width = "full",
                     },
                 },
             },
             developer = {
                 order = 20,
                 type = "group",
-                name = "Developer Tools",
-                inline = true,
+                name = L["Developer"],
+                inline = false,
                 args = {
                     warning = {
                         order = 1,
@@ -1451,112 +1702,127 @@ local function createExpertOptions()
                             end
                             WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                         end,
-                        width = "double"
+                        width = "full",
                     },
-                    EnableGrailQuestline = {
+                    grail = {
                         order = 6,
-                        type = "toggle",
-                        name = L["Grail Quest Lines"],
-                        desc = L["Enables/Disables Grail Quest Line Integration"],
-                        get = function(info) return WoWProCharDB.EnableGrailQuestline end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailQuestline then
-                                WoWProCharDB.EnableGrailQuestline = false
-                            else
-                                WoWProCharDB.EnableGrailQuestline = true
-                            end
-                        end,
-                        width = "double"
-                    },
-                    EnableGrailCheckPrereq = {
-                        order = 7,
-                        type = "toggle",
-                        name = L["Grail Check PRE"],
-                        desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
-                        get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailCheckPrereq then
-                                WoWProCharDB.EnableGrailCheckPrereq = false
-                            else
-                                WoWProCharDB.EnableGrailCheckPrereq = true
-                            end
-                        end,
-                        width = "double"
-                    },
-                    EnableGrailBreadcrumbs = {
-                        order = 8,
-                        type = "toggle",
-                        name = L["Grail Check LEAD"],
-                        desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
-                        get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailBreadcrumbs then
-                                WoWProCharDB.EnableGrailBreadcrumbs = false
-                            else
-                                WoWProCharDB.EnableGrailBreadcrumbs = true
-                            end
-                        end,
-                        width = "double"
-                    },
-                    EnableGrailQuestName = {
-                        order = 9,
-                        type = "toggle",
-                        name = L["Grail Quest Name Check"],
-                        desc = L["Enables/Disables Grail Quest Quest Name Checking"],
-                        get = function(info) return WoWProCharDB.EnableGrailQuestName end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailQuestName then
-                                WoWProCharDB.EnableGrailQuestName = false
-                            else
-                                WoWProCharDB.EnableGrailQuestName = true
-                            end
-                        end,
-                        width = "double"
-                    },
-                    EnableGrailQuestLevel = {
-                        order = 10,
-                        type = "toggle",
-                        name = L["Grail Quest Level Check"],
-                        desc = L["Enables/Disables Grail Quest Quest Level Checking"],
-                        get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailQuestLevel then
-                                WoWProCharDB.EnableGrailQuestLevel = false
-                            else
-                                WoWProCharDB.EnableGrailQuestLevel = true
-                            end
-                        end,
-                        width = "double"
-                    },
-                    EnableGrailQuestObsolete = {
-                        order = 11,
-                        type = "toggle",
-                        name = L["Grail Obsolete Quest Check"],
-                        desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
-                        get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
-                        set = function(info,val)
-                            if WoWProCharDB.EnableGrailQuestObsolete then
-                                WoWProCharDB.EnableGrailQuestObsolete = false
-                            else
-                                WoWProCharDB.EnableGrailQuestObsolete = true
-                            end
-                        end,
-                        width = "double"
+                        type = "group",
+                        name = L["Grail Integration"],
+                        inline = true,
+                        args = {
+                            EnableGrailQuestline = {
+                                order = 6,
+                                type = "toggle",
+                                name = L["Grail Quest Lines"],
+                                desc = L["Enables/Disables Grail Quest Line Integration"],
+                                get = function(info) return WoWProCharDB.EnableGrailQuestline end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailQuestline then
+                                        WoWProCharDB.EnableGrailQuestline = false
+                                    else
+                                        WoWProCharDB.EnableGrailQuestline = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            EnableGrailCheckPrereq = {
+                                order = 7,
+                                type = "toggle",
+                                name = L["Grail Check PRE"],
+                                desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
+                                get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailCheckPrereq then
+                                        WoWProCharDB.EnableGrailCheckPrereq = false
+                                    else
+                                        WoWProCharDB.EnableGrailCheckPrereq = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            EnableGrailBreadcrumbs = {
+                                order = 8,
+                                type = "toggle",
+                                name = L["Grail Check LEAD"],
+                                desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
+                                get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailBreadcrumbs then
+                                        WoWProCharDB.EnableGrailBreadcrumbs = false
+                                    else
+                                        WoWProCharDB.EnableGrailBreadcrumbs = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            EnableGrailQuestName = {
+                                order = 9,
+                                type = "toggle",
+                                name = L["Grail Quest Name Check"],
+                                desc = L["Enables/Disables Grail Quest Quest Name Checking"],
+                                get = function(info) return WoWProCharDB.EnableGrailQuestName end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailQuestName then
+                                        WoWProCharDB.EnableGrailQuestName = false
+                                    else
+                                        WoWProCharDB.EnableGrailQuestName = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            EnableGrailQuestLevel = {
+                                order = 10,
+                                type = "toggle",
+                                name = L["Grail Quest Level Check"],
+                                desc = L["Enables/Disables Grail Quest Quest Level Checking"],
+                                get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailQuestLevel then
+                                        WoWProCharDB.EnableGrailQuestLevel = false
+                                    else
+                                        WoWProCharDB.EnableGrailQuestLevel = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            EnableGrailQuestObsolete = {
+                                order = 11,
+                                type = "toggle",
+                                name = L["Grail Obsolete Quest Check"],
+                                desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
+                                get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
+                                set = function(info,val)
+                                    if WoWProCharDB.EnableGrailQuestObsolete then
+                                        WoWProCharDB.EnableGrailQuestObsolete = false
+                                    else
+                                        WoWProCharDB.EnableGrailQuestObsolete = true
+                                    end
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
                     },
                     checkGuides = {
                         order = 13,
                         type = "execute",
                         name = L["Guide Errors Checker"],
                         image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
-                        func =  function (info)
+                        func = function (info)
                             WoWPro:LogClear("CheckGuides")
                             WoWPro:LoadAllGuides()
                         end,
-                        width = "full"
+                        width = "full",
                     },
                 },
             },
         },
+        childGroups = "tab",
     }
 end
 
@@ -1564,6 +1830,7 @@ local function createRankConfig()
     local ranks = {
         name = L["Ranks"],
         type = "group",
+        childGroups = "select",
         args = {
             WoWProRank={name="WoWPro",
             type = "group",
@@ -1684,6 +1951,12 @@ local function createActionConfig()
         }
     }
     WoWPro.InsertActionDescriptions(actions.args.legend.args, 20)
+    for key, option in pairs(actions.args.legend.args) do
+        if key ~= "intro" and key ~= "spacer" then
+            option.width = "relative"
+            option.relWidth = 0.5
+        end
+    end
     return actions
 end
 
@@ -1755,26 +2028,70 @@ end
 
 
 function WoWPro.CreateConfig()
-    local profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
-
-    -- Layout pass: make Profiles less cramped by stacking key controls.
-    if profileConfig and profileConfig.args then
-        profileConfig.args.desc.width = "full"
-        profileConfig.args.descreset.width = "full"
-        profileConfig.args.choosedesc.width = "full"
-        profileConfig.args.copydesc.width = "full"
-        profileConfig.args.deldesc.width = "full"
-
-        profileConfig.args.reset.width = "double"
-        profileConfig.args.current.width = "full"
-
-        profileConfig.args.new.width = "full"
-        profileConfig.args.choose.width = "full"
-        profileConfig.args.copyfrom.width = "full"
-        profileConfig.args.delete.width = "full"
-
-        profileConfig.args.desc.name = "\n" .. profileConfig.args.desc.name
+    local baseProfiles = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
+    local profileConfig, profileOptions = {}, {}
+    -- AceDBOptions shares its option definitions with other addons.
+    for key, value in pairs(baseProfiles) do
+        profileConfig[key] = value
     end
+    for key, option in pairs(baseProfiles.args) do
+        local copy = {}
+        for field, value in pairs(option) do
+            copy[field] = value
+        end
+        copy.width = "full"
+        profileOptions[key] = copy
+    end
+    profileOptions.new.width = "relative"
+    profileOptions.new.relWidth = 0.5
+    profileOptions.choose.width = "relative"
+    profileOptions.choose.relWidth = 0.5
+    profileOptions.reset.width = "relative"
+    profileOptions.reset.relWidth = 0.5
+    profileOptions.reset.order = 3
+    profileOptions.delete.width = "relative"
+    profileOptions.delete.relWidth = 0.5
+    profileOptions.delete.order = 4
+    profileOptions.descreset.order = 1
+    profileOptions.deldesc.order = 2
+    profileOptions.current.order = 2
+    profileConfig.args = {
+        desc = profileOptions.desc,
+        current = profileOptions.current,
+        selection = {
+            order = 10,
+            type = "group",
+            name = L["Select or Create"],
+            inline = true,
+            args = {
+                choosedesc = profileOptions.choosedesc,
+                new = profileOptions.new,
+                choose = profileOptions.choose,
+            },
+        },
+        copying = {
+            order = 20,
+            type = "group",
+            name = L["Copy Settings"],
+            inline = true,
+            args = {
+                copydesc = profileOptions.copydesc,
+                copyfrom = profileOptions.copyfrom,
+            },
+        },
+        maintenance = {
+            order = 30,
+            type = "group",
+            name = L["Reset or Delete"],
+            inline = true,
+            args = {
+                descreset = profileOptions.descreset,
+                deldesc = profileOptions.deldesc,
+                reset = profileOptions.reset,
+                delete = profileOptions.delete,
+            },
+        },
+    }
 
     local topConfig = {
         name = "Options",
