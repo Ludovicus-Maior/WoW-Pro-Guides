@@ -93,6 +93,7 @@ local steps = {
         observe = function()
             local options = _G.LibStub("AceConfigDialog-3.0").OpenFrames.WoWPro
             return IsVisible(WoWPro.SettingsFrame) or IsVisible(options and options.frame)
+                or (awaitingClose and IsVisible(_G.SettingsPanel or _G.InterfaceOptionsFrame))
         end,
         hint = L["Try it: open WoW-Pro options from the gear menu. The tour will then ask you to close options before continuing. Next bypasses this action."],
         closeTitle = L["Close options"],
