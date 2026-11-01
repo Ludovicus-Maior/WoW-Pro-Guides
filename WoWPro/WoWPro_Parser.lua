@@ -99,7 +99,46 @@ WoWPro.actionlabels = {
 }
 
 local GetQuestInfoDebug = true
+local LookupQuestInfo
+
+-- Maps Enum.QuestClassification names to the flags used by the icon tables below.
+local ClassificationFlags = {
+    Campaign = "isCampaign",
+    Calling = "isCovenantCalling",
+    Important = "isImportant",
+    Legendary = "isLegendary",
+    Meta = "isMeta",
+    Recurring = "isRecurring",
+}
+
+-- Blizzard classifies quests even before they are in the quest log; merge that into the info.
 function WoWPro.GetQuestInfo(QuidList)
+    local result = LookupQuestInfo(QuidList)
+    local C_QuestInfoSystem = _G.C_QuestInfoSystem
+    local QuestClassification = _G.Enum and _G.Enum.QuestClassification
+    local questID = type(result) == "table" and tonumber(result.questID)
+    questID = questID or tonumber(string.match(tostring(QuidList or ""), "^(%d+)"))
+    if not (questID and C_QuestInfoSystem and C_QuestInfoSystem.GetQuestClassification and QuestClassification) then
+        return result
+    end
+    local classification = C_QuestInfoSystem.GetQuestClassification(questID)
+    if classification == nil then
+        return result
+    end
+    for name, flag in pairs(ClassificationFlags) do
+        if QuestClassification[name] ~= nil and classification == QuestClassification[name] then
+            local merged = {}
+            for key, value in pairs(result or {}) do
+                merged[key] = value
+            end
+            merged[flag] = true
+            return merged
+        end
+    end
+    return result
+end
+
+LookupQuestInfo = function(QuidList)
     if tonumber(QuidList) and WoWPro.QuestLog[tonumber(QuidList)] then
         local result = WoWPro.QuestLog[tonumber(QuidList)]
         if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", QuidList, WoWPro.Ptable(result)); end
@@ -126,10 +165,23 @@ WoWPro.OfferIcons = {
     isCovenantCalling = "CampaignAvailableDailyQuestIcon",
     isImportant = "importantavailablequesticon",
     isMeta = "Wrapperavailablequesticon",
+    isRecurring = "Recurringavailablequesticon",
     isDaily = "Recurringavailablequesticon",
     isWeekly = "Recurringavailablequesticon",
     isRepeatable = "Interface/GossipFrame/DailyActiveQuestIcon",
     default = "Interface/GossipFrame/AvailableQuestIcon"
+}
+
+-- Same precedence as Blizzard's QuestUtil.GetQuestIconOffer/GetQuestIconActive.
+WoWPro.OfferIconPriority = {
+    "isCampaign", "isLegendary", "isCovenantCalling", "isImportant", "isMeta",
+    "isRecurring", "isDaily", "isWeekly", "isRepeatable",
+}
+WoWPro.ActiveIconPriority = {
+    "isCampaign", "isCovenantCalling", "isRecurring", "isLegendary", "isImportant", "isMeta",
+}
+WoWPro.CompleteIconPriority = {
+    "isCampaign", "isCovenantCalling", "isRecurring", "isLegendary", "isImportant", "isMeta",
 }
 
 function WoWPro.GetQuestIconOffer(QID)
@@ -154,6 +206,7 @@ end
 
 WoWPro.ActiveIcons = {
     isCampaign = "CampaignInProgressQuestIcon",
+    isCovenantCalling = "CampaignInProgressQuestIcon",
     isLegendary = "legendaryInProgressquesticon",
     isImportant = "importantInProgressquesticon",
     isMeta = "WrapperInProgressquesticon",
