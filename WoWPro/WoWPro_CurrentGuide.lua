@@ -172,7 +172,7 @@ local function AddStepDevInfo(gt, k, iconText)
     local GID = _G.WoWProDB.char.currentguide
     local guide = GID and _G.WoWProCharDB.Guide[GID] or {}
     local status
-    if guide.skipped and guide.skipped[k] then
+    if (guide.skipped and guide.skipped[k]) or WoWPro:QIDsInTable(WoWPro.QID[k], _G.WoWProCharDB.skippedQIDs or {}) then
         status = "|cff808080skipped|r"
     elseif guide.completion and guide.completion[k] then
         status = "|cff00ff00completed|r"
