@@ -141,9 +141,6 @@ do
 			table.sort(sortedlist, textSort)
 			for i, k in ipairs(sortedlist) do
 				local f = GetContentLine()
-				local _, size, outline= f.text:GetFont()
-				local font = self.list[k] ~= k and self.list[k] or Media:Fetch('font',k)
-				f.text:SetFont(font,size,outline)
 				f.text:SetText(k)
 				if k == self.value then
 					f.check:Show()
