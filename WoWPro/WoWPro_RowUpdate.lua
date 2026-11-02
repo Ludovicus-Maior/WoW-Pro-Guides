@@ -704,7 +704,7 @@ local SetupPetSwitchButton = function(currentRow, switch, k)
     -- Show main button
     currentRow.itembutton:Show()
     WoWPro:PositionTargetUseButtons(currentRow)
-    currentRow.itembutton:SetScript("OnClick", nil)
+    currentRow.itembutton:SetScript("OnClick", _G.SecureActionButton_OnClick)
     currentRow.itembutton:SetScript("OnUpdate", nil)
     currentRow.itemcooldown:Hide()
     currentRow.itemcooldown.OnCooldown = nil
