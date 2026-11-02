@@ -93,7 +93,7 @@ C Muigin and Larion|QID|4141|M|65.00,27.00|Z|1449; Un'Goro Crater|S|N|Kill and l
 C The Northern Pylon|QID|4285|M|56.5,12.4|Z|1449; Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
 C The Apes of Un'Goro|QID|4289|M|65.7,15.5|Z|1449; Un'Goro Crater|N|Kill Gorillas (in the cave as well) until you get all the pelts.|
 T Chasing A-Me 01|QID|4243|M|67.65,16.76|Z|1449; Un'Goro Crater|N|To A-Me 01|
-A Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|1449; Un'Goro Crater|N|From A-Me 01|PRE|4243
+A Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|1449; Un'Goro Crater|N|From A-Me 01|PRE|4243|
 T Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|1449; Un'Goro Crater|N|To A-Me 01|
 A Chasing A-Me 01|QID|4245|M|67.65,16.76|Z|1449; Un'Goro Crater|N|From A-Me 01|PRE|4244|
 C Chasing A-Me 01|QID|4245|M|46.38,13.44|Z|1449; Un'Goro Crater|N|Escort A-Me 01 back to Karna.|
@@ -268,7 +268,7 @@ T Target: Felstone Field|QID|5216|M|37.18,56.88|Z|1422; Western Plaguelands|N|To
 A Return to Chillwind Camp|QID|5217|M|37.0,57.1|Z|1422; Western Plaguelands|N|From The Scourge Cauldron.|PRE|5216|
 A Better Late Than Never|QID|5021|M|38.40,54.06|Z|1422; Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|
 T Better Late Than Never|QID|5021|M|38.72,55.24|Z|1422; Western Plaguelands|N|To Janice's Parcel.|
-A Better Late Than Never|QID|5022|M|38.72,55.24|Z|1422; Western Plaguelands|N|From Janice's Parcel.|PRE|5021
+A Better Late Than Never|QID|5022|M|38.72,55.24|Z|1422; Western Plaguelands|N|From Janice's Parcel.|PRE|5021|
 
 T Return to Chillwind Camp|QID|5217|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
 A Target: Dalson's Tears|QID|5219|M|42.96,84.50|Z|1422; Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5217|
@@ -525,7 +525,7 @@ T Moontouched Wildkin|QID|978|M|55.50,92.05|Z|1438; Teldrassil|N|To Erelas Amber
 A Find Ranshalla|QID|979|M|55.50,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|PRE|978|
 
 F Gadgetzan|ACTIVE|3912|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Gadgetzan. This is going to be a long flight, take a 10 minute break.|
-d Meet at the Grave|QID|3912|M|54.03,28.71|Z|1446; Tanaris|N|Goto the Graveyard and take the potion|U|11243|
+C Meet at the Grave|QID|3912|M|54.03,28.71|Z|1446; Tanaris|N|Goto the Graveyard and take the potion|U|11243|
 T Meet at the Grave|QID|3912|M|54.03,23.34|Z|1446; Tanaris|N|Remove the Graveyard Waypoint, or look at your map for directions. To Gaeriyan as a Ghost.|
 A A Grave Situation|QID|3913|M|54.03,23.34|Z|1446; Tanaris|N|From Gaeriyan as a Ghost.|PRE|3912|
 T A Grave Situation|QID|3913|M|53.82,29.06|Z|1446; Tanaris|N|To a Conspicuous Gravestone. Go back to the Graveyard and Resurrect.|
@@ -535,7 +535,7 @@ T Linken's Sword|QID|3914|M|44.66,8.11|Z|1449; Un'Goro Crater|N|To Linken.|
 A A Gnome's Assistance|QID|3941|M|44.66,8.11|Z|1449; Un'Goro Crater|N|From Linken.|PRE|3914|
 T A Gnome's Assistance|QID|3941|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
 A Linken's Memory|QID|3942|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|PRE|3941|
-H Ironforge|M|PLAYER|Z|1449; Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 3!.
+H Ironforge|M|PLAYER|Z|1449; Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 3!.|
 
 N The End|M|PLAYER|N|This is the end. You are left with about 11 quests going into chapter 4 which isn't complete yet if you are seeing this message. Unfortunately all these quests are chains and needed without having to travel all over the place to collect them again.\n\nFor now I recommend running Blackrock Depths Dungeon, goto Burning Steppes and get all the quests that we unlocked. After that, head up to Eastern Plaguelands before heading to Ratchet where you will continue your felwood chain, and then wrap up felwood, winterspring and ungoro before going to Silithus. |
 ]]

@@ -78,11 +78,11 @@ R The Sepulcher|AVAILABLE|437^443|M|46.21,41.59|Z|1421; Silverpine Forest|N|Head
 f The Sepulcher|AVAILABLE|437^443|M|45.62,42.60|Z|1421; Silverpine Forest|N|Get the flightpath from Karos Razok|TAXI|-The Sepulcher|
 ; ---
 ; --- Undead need to pass through Orgrimmar too to get to Silverpine Forest. - Hendo72
-F Orgrimmar|ACTIVE|443|QO|1|M|73.18,61.59|Z|1440; Ashenvale|N|Fly to Orgrimmar.|R|Undead|IZ|1440; Ashenvale|
-h Orgrimmar|ACTIVE|443|QO|1|M|54.11,68.39|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|R|Undead|IZ|1454; Orgrimmar|
-b Tirisfal Glades|ACTIVE|443|QO|1|M|50.88,13.83|Z|1411; Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|R|Undead|
-R Undercity|ACTIVE|443|QO|1|M|66.22,1.74|Z|1458; Undercity|N|Enter Undercity.|R|Undead|
-F The Sepulcher|ACTIVE|443|QO|1|M|63.26,48.54|Z|1458; Undercity|R|Undead|
+F Orgrimmar|AVAILABLE|437^443|QO|1|M|73.18,61.59|Z|1440; Ashenvale|N|Fly to Orgrimmar.|R|Undead|IZ|1440; Ashenvale|
+h Orgrimmar|AVAILABLE|437^443|QO|1|M|54.11,68.39|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|R|Undead|IZ|1454; Orgrimmar|
+b Tirisfal Glades|AVAILABLE|437^443|QO|1|M|50.88,13.83|Z|1411; Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|R|Undead|
+R Undercity|AVAILABLE|437^443|QO|1|M|66.22,1.74|Z|1458; Undercity|N|Enter Undercity.|R|Undead|
+F The Sepulcher|AVAILABLE|437^443|QO|1|M|63.26,48.54|Z|1458; Undercity|R|Undead|
 ; ---
 ; --- Get and complete prequels if not done yet
 A The Dead Fields|QID|437|M|43.43,40.86|Z|1421; Silverpine Forest|N|From High Executor Hadrec down inside the crypt.|
@@ -300,13 +300,13 @@ b Tirisfal Glades|AVAILABLE|502|ACTIVE|1195|M|50.88,13.83|Z|1411; Durotar|N|Take
 R Undercity|AVAILABLE|502|ACTIVE|1195|M|66.22,1.74|Z|1458; Undercity|N|Enter Undercity.|
 F Tarren Mill|AVAILABLE|502|ACTIVE|1195|M|63.26,48.54|Z|1458; Undercity|N|Fly to Tarren Mill.|
 A Elixir of Pain|QID|502|PRE|501|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Agony|QID|509|PRE|502|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 A Dangerous!|QID|567|M|62.55,19.69|Z|1424; Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
 h Tarren Mill|QID|527|M|62.78,19.03|Z|1424; Hillsbrad Foothills|N|Set your hearth to Tarren Mill with Innkeeper Shay.|
 R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|1424; Hillsbrad Foothills|N|Run to the north end of the area.\n[color=FF0000]NOTE: [/color]You can either take the road, or follow the hillside. But, steer clear of Darrow Hill and the Cave Yetis (lv 30+).|
 C Battle of Hillsbrad|QID|527|QO|1;2|M|35.29,40.64|Z|1424; Hillsbrad Foothills|N|Kill Hillsbrad Farmers and Farmhands.|S|
 C Dangerous!|QID|567|QO|2|M|32.60,41.60|Z|1424; Hillsbrad Foothills|N|Kill Citizen Wilkes.\n[color=FF0000]NOTE: [/color]He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.|IZ|Hillsbrad Fields|S|
 T Elixir of Pain|QID|502|M|32.67,35.32|Z|1424; Hillsbrad Foothills|N|To Stanley beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
+A Elixir of Agony|QID|509|PRE|502|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 C Farmer Ray|QID|527|QO|3|M|32.67,35.62;33.74,33.50|CN|Z|1424; Hillsbrad Foothills|N|Kill Farmer Ray just inside the front door.\n[color=FF0000]NOTE: [/color]Draw him out so you don't aggro the mobs inside with him.\nIf he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
 C Farmer Getz|QID|527|QO|4|M|35.45,38.00;36.52,39.45;35.29,40.64|CN|Z|1424; Hillsbrad Foothills|N|Kill Farmer Getz.\n[color=FF0000]NOTE: [/color]If he's inside the barn, you'll aggro the 2 mobs in there with him.\nIf he's at the house (east of the barn), he'll only have 1 mob with him.\nIf he's in the field, pull what you can to clear the field first.|T|Farmer Getz|
 C Battle of Hillsbrad|QID|527|QO|1;2|M|35.29,40.64|Z|1424; Hillsbrad Foothills|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
