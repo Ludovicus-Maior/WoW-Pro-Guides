@@ -309,7 +309,7 @@ local function CreateTutorial()
         edgeSize = 16,
         insets = {left = 4, right = 4, top = 4, bottom = 4},
     })
-    highlight:SetBackdropColor(1, 0.8, 0, 0.06)
+    highlight:SetBackdropColor(1, 0.8, 0, 0.18)
     highlight:SetBackdropBorderColor(1, 0.8, 0, 1)
     local pulseTime = 0
     highlight:SetScript("OnShow", function(self)
@@ -317,8 +317,8 @@ local function CreateTutorial()
         self:SetAlpha(1)
     end)
     highlight:SetScript("OnUpdate", function(self, elapsed)
-        pulseTime = (pulseTime + elapsed) % 1.8
-        self:SetAlpha(0.8 + 0.2 * math.cos(pulseTime * math.pi * 2 / 1.8))
+        pulseTime = (pulseTime + elapsed) % 1.4
+        self:SetAlpha(0.575 + 0.425 * math.cos(pulseTime * math.pi * 2 / 1.4))
     end)
     highlight:Hide()
 
