@@ -287,7 +287,7 @@ function WoWPro:UpdateFlyoutClip()
     if not GF or not WoWPro.rows then return end
     local top, bottom = GF:GetTop(), GF:GetBottom()
     if not top or not bottom then return end
-    local contentTop, contentBottom = top - 1, bottom + 1
+    local contentTop, contentBottom = top, bottom
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
@@ -836,8 +836,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync()
- -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync() -- Restore saved position after initial module setup
+        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -1098,8 +1098,13 @@ function WoWPro:CreateOptionButton()
 
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
-        _G.GameTooltip:SetOwner(ob, "ANCHOR_LEFT")
-        _G.GameTooltip:SetText("Left-click and hold to drag or right-click for menu", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
+        if WoWProDB.profile.drag then
+            _G.GameTooltip:SetText(L["Left click to drag"])
+            _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
+        else
+            _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        end
         _G.GameTooltip:Show()
     end)
     OB:SetScript("OnLeave", function()
@@ -2154,7 +2159,13 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.ShowGuideMenu()
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
+        {text = L["Proximity Sort"], func = function()
+            if not WoWPro.GuideLoaded then
+                WoWPro:Print(L["No guide loaded."])
+                return
+            end
+            WoWPro.OrderSteps(true)
+        end},
         {text = L["Quest Picker"], func = WoWPro.PickQuestline }
     }
 end
@@ -2235,7 +2246,7 @@ function WoWPro:MainFrameMouseHandler()
         BB.Buttons[3]:SetScript("OnClick", function() WoWPro.ResetCurrentGuide() end)
         BB.Buttons[4]:SetScript("OnClick", function(_, button)
             if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then WoWPro.DiscordDialog:Hide() end
-            if not WoWPro.rows then
+            if not WoWPro.GuideLoaded or not WoWPro.rows then
                 WoWPro:Print("No active step to skip.")
                 return
             end
@@ -2336,6 +2347,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateGuideList()
     -- Validate core UI frames after creation to detect accidental table/nil overwrites
     WoWPro:ValidateUIFrames()
+    WoWPro:MainFrameMouseHandler()
 end
 
 -- Enables or disables frames (hides/shows)
