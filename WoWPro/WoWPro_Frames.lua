@@ -287,7 +287,7 @@ function WoWPro:UpdateFlyoutClip()
     if not GF or not WoWPro.rows then return end
     local top, bottom = GF:GetTop(), GF:GetBottom()
     if not top or not bottom then return end
-    local contentTop, contentBottom = top - 1, bottom + 1
+    local contentTop, contentBottom = top, bottom
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
@@ -666,6 +666,15 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
 
 end
 
+function WoWPro:ResetMainFrame()
+    if _G.InCombatLockdown() then return end
+    WoWPro.MainFrame:SetScale(1)
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
+    WoWPro.SetMainFrameSize(200, 300, true)
+    WoWPro.AnchorStore("ResetMainFrame")
+end
+
 function WoWPro.AnchorSync()
     WoWPro:Trace("AnchorSync")
     if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
@@ -815,6 +824,12 @@ function WoWPro.CustomizeFrames()
     WoWPro.BackgroundSet()
     WoWPro.RowFontSet()
     WoWPro.RowColorSet()
+    WoWPro.DragSet()
+    WoWPro:ButtonBarSet()
+    WoWPro:TitleBarSet()
+    if WoWPro.OptionButton then
+        WoWPro.OptionButton:SetSize(WoWProDB.profile.buttoniconsize, WoWProDB.profile.buttoniconsize)
+    end
     WoWPro.ResizeSet()
     WoWPro.MinimapSet()
 
@@ -825,9 +840,10 @@ function WoWPro.CustomizeFrames()
         end
     end
 
-    -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
+    -- Restore on initial UI load and after profile settings change.
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync() -- Restore saved position after initial module setup
+        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -986,7 +1002,7 @@ end
 function WoWPro:CreateMainFrame()
     local MF = CreateFrame("Frame", "WoWProMainFrame", UIParent, "BackdropTemplate")
     MF:SetClampedToScreen(true)
-    MF:SetSize(200, 300)
+    MF:SetSize(300, 300)
     MF:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
 
     -- MF is the ONLY movable frame
@@ -1088,8 +1104,13 @@ function WoWPro:CreateOptionButton()
 
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
-        _G.GameTooltip:SetOwner(ob, "ANCHOR_LEFT")
-        _G.GameTooltip:SetText("Left-click and hold to drag or right-click for menu", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
+        if WoWProDB.profile.drag then
+            _G.GameTooltip:SetText(L["Left click to drag"])
+            _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
+        else
+            _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        end
         _G.GameTooltip:Show()
     end)
     OB:SetScript("OnLeave", function()
@@ -1436,10 +1457,17 @@ function WoWPro:ButtonBarSet()
     BB:SetHeight(height)
 
     -- Apply to each button
-    for _, btn in ipairs(BB.Buttons) do
+    for i, btn in ipairs(BB.Buttons) do
         btn:SetSize(frameSize, frameSize)
+        btn:ClearAllPoints()
+        if i == 1 then
+            btn:SetPoint("LEFT", BB, "LEFT", userPad, 0)
+        else
+            btn:SetPoint("LEFT", BB.Buttons[i - 1], "RIGHT", userPad, 0)
+        end
         btn.icon:ClearAllPoints()
         btn.icon:SetPoint("CENTER")
+        btn.icon:SetSize(iconSize, iconSize)
     end
 
     -- Dynamic footprint
@@ -2144,7 +2172,13 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.ShowGuideMenu()
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
+        {text = L["Proximity Sort"], func = function()
+            if not WoWPro.GuideLoaded then
+                WoWPro:Print(L["No guide loaded."])
+                return
+            end
+            WoWPro.OrderSteps(true)
+        end},
         {text = L["Quest Picker"], func = WoWPro.PickQuestline }
     }
 end
@@ -2157,7 +2191,6 @@ function WoWPro:MainFrameMouseHandler()
     local TB      = WoWPro.TitleBar
     local SF      = WoWPro.ScrollFrame
     local GF      = WoWPro.GuideFrame
-    local Profile = WoWProDB.profile
 
     -- Resize Controls
     local ctrls = {
@@ -2177,32 +2210,40 @@ function WoWPro:MainFrameMouseHandler()
     end
 
     local isMoving = false
-    -- OB drag: start + stop, MF only moves
+    local function StartDrag()
+        if WoWProDB.profile.drag and not InCombatLockdown() and not isMoving then
+            isMoving = true
+            MF:StartMoving()
+        end
+    end
+
+    local function StopDrag()
+        if not isMoving then return end
+        MF:StopMovingOrSizing()
+        isMoving = false
+        WoWPro:HideAndSeek(nil, "buttonbar", WoWProDB.profile.buttonbar, false)
+        -- Let screen clamping settle before saving the anchor on Classic.
+        if _G.C_Timer and _G.C_Timer.After then
+            _G.C_Timer.After(0.1, function()
+                WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "WindowDragStop")
+            end)
+        else
+            WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "WindowDragStop")
+        end
+    end
+
+    local BB = WoWPro.ButtonBar
+    for _, handle in ipairs({MF, BB, TB, OB}) do
+        handle:EnableMouse(true)
+        handle:RegisterForDrag("LeftButton")
+        handle:SetScript("OnDragStart", StartDrag)
+        handle:SetScript("OnDragStop", StopDrag)
+    end
+
     if OB then
         OB:SetScript("OnMouseDown", function(ob, button)
-            if button == "LeftButton" and Profile.drag and not InCombatLockdown() then
-                if not isMoving then
-                    isMoving = true
-                    MF:StartMoving()
-                end
-            elseif button == "RightButton" then
+            if button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, ob, "cursor", 0, 0, "MENU")
-            end
-        end)
-
-        OB:SetScript("OnMouseUp", function(ob, button)
-            if button == "LeftButton" and Profile.drag then
-                MF:StopMovingOrSizing()
-                    isMoving = false
-                    WoWPro:HideAndSeek(nil, "buttonbar", Profile.buttonbar, false)
-                    -- Delay AnchorStore slightly to avoid racing with UI clamping/movement in Classic
-                    if _G.C_Timer and _G.C_Timer.After then
-                        _G.C_Timer.After(0.1, function()
-                            WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
-                        end)
-                    else
-                        WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
-                    end
             end
         end)
     end
@@ -2218,14 +2259,13 @@ function WoWPro:MainFrameMouseHandler()
     end
 
     -- ButtonBar buttons
-    local BB = WoWPro.ButtonBar
     if BB and BB.Buttons then
         BB.Buttons[1]:SetScript("OnClick", function() WoWPro:ToggleWindow(1) end)
         BB.Buttons[2]:SetScript("OnClick", function() WoWPro:ToggleWindow(2) end)
         BB.Buttons[3]:SetScript("OnClick", function() WoWPro.ResetCurrentGuide() end)
         BB.Buttons[4]:SetScript("OnClick", function(_, button)
             if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then WoWPro.DiscordDialog:Hide() end
-            if not WoWPro.rows then
+            if not WoWPro.GuideLoaded or not WoWPro.rows then
                 WoWPro:Print("No active step to skip.")
                 return
             end
@@ -2326,6 +2366,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateGuideList()
     -- Validate core UI frames after creation to detect accidental table/nil overwrites
     WoWPro:ValidateUIFrames()
+    WoWPro:MainFrameMouseHandler()
 end
 
 -- Enables or disables frames (hides/shows)

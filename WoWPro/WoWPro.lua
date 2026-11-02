@@ -320,7 +320,7 @@ local defaults = { profile = {
     drag = true,
     expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
-    size = {300, 200},  -- {Height, Width}
+    size = {300, 300},  -- {Height, Width}
     userPad = 5,
     space = 10,
     mousenotes = false,
@@ -395,9 +395,36 @@ local function MigrateProfileSettings()
         end
     end
 end
+local function RegisterThemeProfile()
+    _G.WoWProData = _G.WoWProData or {}
+    _G.WoWProData.profiles = _G.WoWProData.profiles or {}
+    _G.WoWProData.profiles["Eli-Theme"] = {
+        bgcolor = {0.01568627450980392, 0.01568627450980392, 0.01568627450980392, 0.8205126523971558},
+        space = 6,
+        titlecolor = {0.5019607843137255, 0.5019607843137255, 0.5019607843137255, 0},
+        bordertexture = [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]],
+        stickytitlefontsize = 14,
+        stepfont = [[Fonts\MORPHEUS_CYR.TTF]],
+        stickycolor = {1, 1, 1, 0.162651002407074},
+        tracktextcolor = {[1] = 0.9882352941176471, [3] = 0.4666666666666667},
+        notetextcolor = {0.8666666666666667, 0.8666666666666667, 0.8549019607843137},
+        titlefontsize = 16,
+        hminresize = 340,
+        stickytitletextcolor = {0.3843137254901961, 0.4156862745098039},
+        stepfontsize = 16,
+        userPad = 5,
+        steptextcolor = {[2] = 0.8392156862745098, [3] = 0},
+        titletextcolor = {[2] = 0.407843137254902, [3] = 0},
+    }
+end
+
 function WoWPro:OnInitialize()
+    local isNewInstall = not _G.WoWProData or next(_G.WoWProData) == nil
     MigrateProfileSettings()
+    -- Seed presets before AceDB caches the active profile and applies defaults.
+    RegisterThemeProfile()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
+    WoWPro:InitializeTutorial(isNewInstall)
     -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
@@ -501,57 +528,6 @@ function WoWPro:OnInitialize()
     end
     WoWPro.inhibit_oldQuests_update = false
 
-	WoWProDB.profiles["Eli-Theme"] = {
-		["bgcolor"] = {
-			0.01568627450980392, -- [1]
-			0.01568627450980392, -- [2]
-			0.01568627450980392, -- [3]
-			0.8205126523971558, -- [4]
-		},
-		["space"] = 6,
-		["titlecolor"] = {
-			0.5019607843137255, -- [1]
-			0.5019607843137255, -- [2]
-			0.5019607843137255, -- [3]
-			0, -- [4]
-		},
-		["bordertexture"] = "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga",
-		["stickytitlefontsize"] = 14,
-		["stepfont"] = "Fonts\\MORPHEUS_CYR.TTF",
-		["stickycolor"] = {
-			1, -- [1]
-			1, -- [2]
-			1, -- [3]
-			0.162651002407074, -- [4]
-		},
-		["tracktextcolor"] = {
-			0.9882352941176471, -- [1]
-			[3] = 0.4666666666666667,
-		},
-		["notetextcolor"] = {
-			0.8666666666666667, -- [1]
-			0.8666666666666667, -- [2]
-			0.8549019607843137, -- [3]
-		},
-		["titlefontsize"] = 16,
-		["hminresize"] = 340,
-		["stickytitletextcolor"] = {
-			0.3843137254901961, -- [1]
-			0.4156862745098039, -- [2]
-		},
-		["stepfontsize"] = 16,
-		["userPad"] = 5,
-		["steptextcolor"] = {
-			nil, -- [1]
-			0.8392156862745098, -- [2]
-			0, -- [3]
-		},
-		["titletextcolor"] = {
-			nil, -- [1]
-			0.407843137254902, -- [2]
-			0, -- [3]
-		},
-	}
 end
 
 function WoWPro:RESET()
@@ -688,10 +664,15 @@ function WoWPro:OnEnable()
     end
 
     -- WoWPro:MapPoint()               -- Maps the active step
+    -- Make sure the Minimap button is shown if enabled
+    WoWPro:CreateMiniMapButton()
     -- If the base addon was disabled by the user, put it to sleep now.
     if not WoWProCharDB.Enabled then
         WoWPro:Disable()
         return
+    else
+        -- Make sure the guide has loaded
+        WoWPro.LoadGuide()
     end
 
 	if WoWProCharDB.DevCoords then
@@ -709,10 +690,12 @@ function WoWPro:OnEnable()
         WoWPro:dbp("Enabling "..name.." module...")
         module:Enable()
     end
+    WoWPro:QueueTutorial()
 end
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
+    WoWPro:StopTutorial()
     -- Module Disabling --
     for name, module in WoWPro:IterateModules() do
         WoWPro:dbp("Disabling "..name.." module...")
