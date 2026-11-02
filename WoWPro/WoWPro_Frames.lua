@@ -667,6 +667,7 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
 end
 
 function WoWPro:ResetMainFrame()
+    if _G.InCombatLockdown() then return end
     WoWPro.MainFrame:SetScale(1)
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
