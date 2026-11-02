@@ -2154,7 +2154,13 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.ShowGuideMenu()
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
+        {text = L["Proximity Sort"], func = function()
+            if not WoWPro.GuideLoaded then
+                WoWPro:Print(L["No guide loaded."])
+                return
+            end
+            WoWPro.OrderSteps(true)
+        end},
         {text = L["Quest Picker"], func = WoWPro.PickQuestline }
     }
 end
