@@ -834,7 +834,7 @@ function WoWPro.CustomizeFrames()
         end
     end
 
-    -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
+    -- Restore on initial UI load and after profile settings change.
     if not WoWPro.HasRestoredThisSession then
         WoWPro.AnchorSync() -- Restore saved position after initial module setup
         WoWPro.HasRestoredThisSession = true
@@ -996,7 +996,7 @@ end
 function WoWPro:CreateMainFrame()
     local MF = CreateFrame("Frame", "WoWProMainFrame", UIParent, "BackdropTemplate")
     MF:SetClampedToScreen(true)
-    MF:SetSize(200, 300)
+    MF:SetSize(300, 300)
     MF:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
 
     -- MF is the ONLY movable frame
