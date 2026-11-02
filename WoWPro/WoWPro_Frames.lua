@@ -827,7 +827,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync() -- Restore saved position after initial module setup
+        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -1088,14 +1089,18 @@ function WoWPro:CreateOptionButton()
 
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
-        _G.GameTooltip:SetOwner(ob, "ANCHOR_LEFT")
-        _G.GameTooltip:SetText("Left-click and hold to drag or right-click for menu", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
+        if Profile.drag then
+            _G.GameTooltip:SetText(L["Left click to drag"])
+            _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
+        else
+            _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        end
         _G.GameTooltip:Show()
     end)
     OB:SetScript("OnLeave", function()
         _G.GameTooltip:Hide()
     end)
-
     return OB
 end
 
