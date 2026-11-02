@@ -459,8 +459,8 @@ function WoWPro:SetRowBackdrop(row)
     if row.GetHighlightTexture then
         local highlight = row:GetHighlightTexture()
         if highlight then
-            local color = Profile.bordercolor
-            highlight:SetVertexColor(color[1], color[2], color[3])
+            local highlightColor = Profile.bordercolor
+            highlight:SetVertexColor(highlightColor[1], highlightColor[2], highlightColor[3])
         end
     end
 end
