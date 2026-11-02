@@ -1236,6 +1236,7 @@ local function createMainConfig()
                                 type = "execute",
                                 name = L["Reset window"],
                                 desc = L["Centers the window and restores its default size and scale."],
+                                disabled = function() return not WoWPro.MainFrame end,
                                 func = function(info) WoWPro:ResetMainFrame() end,
                                 width = "relative",
                                 relWidth = 0.5,
