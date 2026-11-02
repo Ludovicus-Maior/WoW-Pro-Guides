@@ -827,7 +827,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync()
+ -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -2225,7 +2226,7 @@ function WoWPro:MainFrameMouseHandler()
         BB.Buttons[3]:SetScript("OnClick", function() WoWPro.ResetCurrentGuide() end)
         BB.Buttons[4]:SetScript("OnClick", function(_, button)
             if WoWPro.DiscordDialog and WoWPro.DiscordDialog:IsShown() then WoWPro.DiscordDialog:Hide() end
-            if not WoWPro.rows then
+            if not WoWPro.GuideLoaded or not WoWPro.rows then
                 WoWPro:Print("No active step to skip.")
                 return
             end
@@ -2326,6 +2327,7 @@ function WoWPro:CreateFrames()
     WoWPro:CreateGuideList()
     -- Validate core UI frames after creation to detect accidental table/nil overwrites
     WoWPro:ValidateUIFrames()
+    WoWPro:MainFrameMouseHandler()
 end
 
 -- Enables or disables frames (hides/shows)
