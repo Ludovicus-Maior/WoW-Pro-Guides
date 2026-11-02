@@ -1177,59 +1177,97 @@ local function createMainConfig()
                 name = L["Tools"],
                 inline = false,
                 args = {
-                    resetGuide = {
-                        order = 4,
-                        type = "execute",
-                        name = L["Reset WoWPro Addons"],
-                        desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters."],
-                        image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
-                        func = function(info)
-                            WoWPro:RESET()
-                            _G.PlaySound(1026) -- Rabitt death
-                        end,
-                        width = "full",
-                    },
-                    resetLog = {
-                        order = 2,
-                        type = "execute",
-                        name = L["Clear the log"],
-                        desc = L["Wow-Pro's Debug Log"],
-                        image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
-                        func = function(info) WoWPro:LogClear("UI") end,
-                        width = "relative",
-                        relWidth = 0.5,
-                    },
-                    showLog = {
-                        order = 3,
-                        type = "execute",
-                        name = L["Show the log"],
-                        desc = L["Wow-Pro's Secret Debug Log"],
-                        image = "Interface\\RaidFrame\\ReadyCheck-Ready",
-                        func = function(info) WoWPro:LogShow() end,
-                        width = "relative",
-                        relWidth = 0.5,
-                    },
-                    enableDebug = {
+                    debugLog = {
                         order = 1,
-                        type = "toggle",
-                        name = L["Enable Debug"],
-                        desc = L["Enables/Disables debug logging"],
-                        get = function(info) return WoWPro.DebugLevel > 0 end,
-                        set = function(info,val)
-                            if WoWPro.DebugLevel > 0 then
-                                WoWPro.DebugLevel = 0
-                            else
-                                WoWPro.DebugLevel = 1
-                            end
-                            WoWProCharDB.DebugLevel = WoWPro.DebugLevel
-                        end,
-                        width = "full",
+                        type = "group",
+                        name = L["Debug Log"],
+                        inline = true,
+                        args = {
+                            enableDebug = {
+                                order = 1,
+                                type = "toggle",
+                                name = L["Enable Debug"],
+                                desc = L["Enables/Disables debug logging"],
+                                get = function(info) return WoWPro.DebugLevel > 0 end,
+                                set = function(info,val)
+                                    if WoWPro.DebugLevel > 0 then
+                                        WoWPro.DebugLevel = 0
+                                    else
+                                        WoWPro.DebugLevel = 1
+                                    end
+                                    WoWProCharDB.DebugLevel = WoWPro.DebugLevel
+                                end,
+                                width = "full",
+                            },
+                            resetLog = {
+                                order = 2,
+                                type = "execute",
+                                name = L["Clear the log"],
+                                desc = L["Clears the WoWPro debug log."],
+                                func = function(info) WoWPro:LogClear("UI") end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                            showLog = {
+                                order = 3,
+                                type = "execute",
+                                name = L["Show the log"],
+                                desc = L["Opens the WoWPro debug log so you can review recent messages."],
+                                func = function(info) WoWPro:LogShow() end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
                     },
-                    resetWarning = {
-                        order = 3.5,
-                        type = "description",
-                        width = "full",
-                        name = L["Resetting WoW-Pro wipes saved state across all characters. Use the log tools first when troubleshooting."],
+                    windowRecovery = {
+                        order = 2,
+                        type = "group",
+                        name = L["Window Recovery"],
+                        inline = true,
+                        args = {
+                            resetWindowInfo = {
+                                order = 1,
+                                type = "description",
+                                width = "full",
+                                name = L["Restores the guide window's position, size, and scale without changing guide progress or other settings."],
+                            },
+                            resetWindow = {
+                                order = 2,
+                                type = "execute",
+                                name = L["Reset window"],
+                                desc = L["Centers the window and restores its default size and scale."],
+                                disabled = function() return not WoWPro.MainFrame end,
+                                func = function(info) WoWPro:ResetMainFrame() end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
+                    },
+                    addonDataReset = {
+                        order = 3,
+                        type = "group",
+                        name = L["Addon Data Reset"],
+                        inline = true,
+                        args = {
+                            resetWarning = {
+                                order = 1,
+                                type = "description",
+                                width = "full",
+                                name = L["Resetting WoW-Pro wipes saved state across all characters. Use the log tools first when troubleshooting."],
+                            },
+                            resetGuide = {
+                                order = 2,
+                                type = "execute",
+                                name = L["Reset WoWPro Addons"],
+                                desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters."],
+                                func = function(info)
+                                    WoWPro:RESET()
+                                    _G.PlaySound(1026) -- Rabitt death
+                                end,
+                                width = "relative",
+                                relWidth = 0.5,
+                            },
+                        },
                     },
                 },
             },
@@ -1470,6 +1508,24 @@ local function createHelpConfig()
                         type = "description",
                         width = "full",
                         name = "Start here to select a guide and set your questing preferences.",
+                    },
+                    tutorial = {
+                        order = 1.5,
+                        type = "execute",
+                        name = function()
+                            return WoWPro:CanResumeTutorial() and L["Resume / Restart Tutorial"] or L["Replay Tutorial"]
+                        end,
+                        desc = L["Explore the guide controls with optional practice actions or Next. Your place is saved across reloads; choose Resume or Restart for an unfinished tour. Starts automatically on new installations only. The tour itself does not change guide progress or settings."],
+                        width = "full",
+                        func = function()
+                            if WoWPro:StartTutorial() then
+                                dialog:Close("WoWPro")
+                                local settingsFrame = _G.SettingsPanel or _G.InterfaceOptionsFrame
+                                if settingsFrame and settingsFrame:IsShown() then
+                                    _G.HideUIPanel(settingsFrame)
+                                end
+                            end
+                        end,
                     },
                     wowproHeader = {
                         order = 2,
@@ -2121,7 +2177,8 @@ function WoWPro.CreateConfig()
 
     config:RegisterOptionsTable("WoWPro", topConfig)
 
-    local _, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
+    local settingsFrame, id = dialog:AddToBlizOptions("WoWPro", "WoWPro")
+    WoWPro.SettingsFrame = settingsFrame
     return id or "WoWPro"
 end
 
