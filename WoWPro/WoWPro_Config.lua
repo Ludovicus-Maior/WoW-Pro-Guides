@@ -26,6 +26,7 @@ local function RefreshTextLayout()
 end
 
 function WoWPro:RefreshConfig()
+    WoWPro.HasRestoredThisSession = false
     WoWPro:LoadGuide()
     WoWPro:Trace("CustomizeFrames:FROM_CONFIG")
     WoWPro:CustomizeFrames()

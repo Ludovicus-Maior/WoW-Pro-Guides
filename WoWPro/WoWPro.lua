@@ -320,7 +320,7 @@ local defaults = { profile = {
     drag = true,
     expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
-    size = {300, 200},  -- {Height, Width}
+    size = {300, 300},  -- {Height, Width}
     userPad = 5,
     space = 10,
     mousenotes = false,
