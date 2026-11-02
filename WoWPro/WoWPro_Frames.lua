@@ -666,6 +666,15 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
 
 end
 
+function WoWPro:ResetMainFrame()
+    if _G.InCombatLockdown() then return end
+    WoWPro.MainFrame:SetScale(1)
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
+    WoWPro.SetMainFrameSize(200, 300, true)
+    WoWPro.AnchorStore("ResetMainFrame")
+end
+
 function WoWPro.AnchorSync()
     WoWPro:Trace("AnchorSync")
     if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
@@ -827,7 +836,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync()
+ -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization

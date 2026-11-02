@@ -2390,9 +2390,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     -- Lets double check the current Scenario
                     local name = _G.C_Scenario.GetInfo()
                     if not name then
+                        WoWPro:dbp("C_Scenario.GetInfo(): Scenario %s went away.", WoWPro.Scenario.name)
                         WoWPro.Scenario = nil
                         WoWPro.ScenarioFirstStep = nil
-                        WoWPro:dbp("C_Scenario.GetInfo(): Scenario %s went away.", WoWPro.Scenario.name)
                     elseif name ~= WoWPro.Scenario.name then
                          WoWPro:dbp("Step %s [%s/%s]  Scenario mismatch [%s] vs [%s] ",stepAction,step,tostring(QID), name, WoWPro.Scenario.name)
                          WoWPro.Scenario = nil
