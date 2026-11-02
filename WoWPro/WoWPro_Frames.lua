@@ -287,7 +287,7 @@ function WoWPro:UpdateFlyoutClip()
     if not GF or not WoWPro.rows then return end
     local top, bottom = GF:GetTop(), GF:GetBottom()
     if not top or not bottom then return end
-    local contentTop, contentBottom = top - 1, bottom + 1
+    local contentTop, contentBottom = top, bottom
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
@@ -827,7 +827,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync()
+ -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
