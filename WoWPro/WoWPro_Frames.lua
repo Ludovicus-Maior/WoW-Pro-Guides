@@ -666,6 +666,15 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
 
 end
 
+function WoWPro:ResetMainFrame()
+    if _G.InCombatLockdown() then return end
+    WoWPro.MainFrame:SetScale(1)
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
+    WoWPro.SetMainFrameSize(200, 300, true)
+    WoWPro.AnchorStore("ResetMainFrame")
+end
+
 function WoWPro.AnchorSync()
     WoWPro:Trace("AnchorSync")
     if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
@@ -1090,7 +1099,7 @@ function WoWPro:CreateOptionButton()
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
         _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
-        if WoWProDB.profile.drag then
+        if WoWProDB.profile.drag then
             _G.GameTooltip:SetText(L["Left click to drag"])
             _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
         else
@@ -1101,6 +1110,7 @@ function WoWPro:CreateOptionButton()
     OB:SetScript("OnLeave", function()
         _G.GameTooltip:Hide()
     end)
+
     return OB
 end
 
