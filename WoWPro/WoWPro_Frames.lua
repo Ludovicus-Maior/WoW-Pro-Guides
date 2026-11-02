@@ -1090,7 +1090,7 @@ function WoWPro:CreateOptionButton()
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
         _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
-        if Profile.drag then
+        if WoWProDB.profile.drag then
             _G.GameTooltip:SetText(L["Left click to drag"])
             _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
         else
