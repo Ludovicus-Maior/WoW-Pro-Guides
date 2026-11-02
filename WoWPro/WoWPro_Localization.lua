@@ -21,6 +21,7 @@ local english = {
     ["Author"] = "Author",
     ["Debug Log"] = "Debug Log",
     ["Window Recovery"] = "Window Recovery",
+    ["When enabled: Drag the button bar, title bar, or settings button to move the window.\nWhen disabled: Window is locked in place."] = "When enabled: Drag the button bar, title bar, or settings button to move the window.\nWhen disabled: Window is locked in place.",
     ["Addon Data Reset"] = "Addon Data Reset",
     ["Reset window"] = "Reset window",
     ["Restores the guide window's position, size, and scale without changing guide progress or other settings."] = "Restores the guide window's position, size, and scale without changing guide progress or other settings.",
