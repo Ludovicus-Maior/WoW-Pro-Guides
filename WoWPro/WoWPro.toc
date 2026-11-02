@@ -39,6 +39,8 @@ WoWPro_CurrentGuide.lua
 WoWPro_GuideList.lua
 WoWPro_Frames.lua
 WoWPro_Tutorial.lua
+WoWPro_Profiles.lua
+WoWPro_ProfileThemes.lua
 WoWPro_Config.lua
 WoWPro_Zones.lua
 WoWPro_ZoneData_[Game].lua

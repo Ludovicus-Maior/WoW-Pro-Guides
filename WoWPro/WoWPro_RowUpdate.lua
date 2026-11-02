@@ -64,7 +64,7 @@ local function ForEachRow(row, callback)
 end
 
 function WoWPro:RowFontSet(row)
-    local profile = WoWProDB.profile
+    local profile = WoWPro:GetAppearanceProfile()
     ForEachRow(row, function(currentRow)
         if profile.stepfont and profile.stepfontsize then
             currentRow.step:SetFont(profile.stepfont, profile.stepfontsize)
@@ -79,7 +79,7 @@ function WoWPro:RowFontSet(row)
 end
 
 function WoWPro:RowColorSet(row)
-    local profile = WoWProDB.profile
+    local profile = WoWPro:GetAppearanceProfile()
     ForEachRow(row, function(currentRow)
         if profile.steptextcolor then
             currentRow.step:SetTextColor(profile.steptextcolor[1], profile.steptextcolor[2], profile.steptextcolor[3])

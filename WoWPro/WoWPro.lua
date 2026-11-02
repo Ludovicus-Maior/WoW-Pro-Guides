@@ -321,6 +321,7 @@ local defaults = { profile = {
     expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
     size = {300, 300},  -- {Height, Width}
+    scale = 1,
     userPad = 5,
     space = 10,
     mousenotes = false,
@@ -340,11 +341,12 @@ local defaults = { profile = {
     vminresize = 100,
     resizeoverride = false,
     titlebar = true,
-    titlecolor = {0.5, 0.5, 0.5, 1},
+    titlecolor = {0.05, 0.05, 0.05, 0.85},
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-    bgcolor = {1, 1, 1, 1},
+    bgcolor = {0.05, 0.05, 0.05, 0.85},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
     border = false,
+    bordercolor = {1, 1, 1, 1},
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
     stickycolor = {0.8, 0.8, 0.8, 0.7},
     stepfont = [[Fonts\FRIZQT__.TTF]],
@@ -395,10 +397,8 @@ local function MigrateProfileSettings()
         end
     end
 end
-local function RegisterThemeProfile()
-    _G.WoWProData = _G.WoWProData or {}
-    _G.WoWProData.profiles = _G.WoWProData.profiles or {}
-    _G.WoWProData.profiles["Eli-Theme"] = {
+function WoWPro:GetEliThemeProfile()
+    return {
         bgcolor = {0.01568627450980392, 0.01568627450980392, 0.01568627450980392, 0.8205126523971558},
         space = 6,
         titlecolor = {0.5019607843137255, 0.5019607843137255, 0.5019607843137255, 0},
@@ -416,6 +416,13 @@ local function RegisterThemeProfile()
         steptextcolor = {[2] = 0.8392156862745098, [3] = 0},
         titletextcolor = {[2] = 0.407843137254902, [3] = 0},
     }
+end
+
+local function RegisterThemeProfile()
+    _G.WoWProData = _G.WoWProData or {}
+    _G.WoWProData.profiles = _G.WoWProData.profiles or {}
+    if _G.WoWProData.profiles["Eli-Theme"] then return end
+    _G.WoWProData.profiles["Eli-Theme"] = WoWPro:GetEliThemeProfile()
 end
 
 function WoWPro:OnInitialize()

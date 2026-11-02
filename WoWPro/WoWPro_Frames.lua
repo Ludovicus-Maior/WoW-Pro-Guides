@@ -140,8 +140,12 @@ end
 function WoWPro:MinimapSet()
     WoWPro:Trace("MinimapSet")
     local icon = _G.LibStub("LibDBIcon-1.0")
+    if icon:IsRegistered("WoWProIcon") then
+        icon:Refresh("WoWProIcon", WoWProDB.profile.minimap)
+    end
     if not WoWProDB.profile.minimap.hide then
         local function tryRegister()
+            if WoWProDB.profile.minimap.hide then return end
             if _G.InCombatLockdown() then C_Timer.After(1, tryRegister); return end
             if not _G.Minimap or not _G.Minimap:IsVisible() then C_Timer.After(1, tryRegister); return end
             if not icon.objects or not icon.objects["WoWProIcon"] then
@@ -309,7 +313,7 @@ end
 function WoWPro:BackgroundSet()
     WoWPro:Trace("BackgroundSet")
     -- Shorthand locals
-    local Profile = WoWProDB.profile
+    local Profile = WoWPro:GetAppearanceProfile()
     local MF      = WoWPro.MainFrame
     local BB      = WoWPro.ButtonBar
     local SH      = WoWPro.StickyHeader
@@ -339,6 +343,12 @@ function WoWPro:BackgroundSet()
         edgeSize = 16,
         insets   = insets
     })
+    if BB then
+        BB:SetBackdrop({
+            bgFile = Profile.bgtexture, edgeFile = Profile.bordertexture,
+            tile = true, tileSize = 16, edgeSize = 16, insets = insets,
+        })
+    end
 
     -- StickyHeader backdrop (optional)
     if SH then
@@ -415,11 +425,12 @@ function WoWPro:BackgroundSet()
 
     -- Border enable/disable
     local alpha = Profile.border and 1 or 0
+    local borderColor = Profile.bordercolor
     if MF and type(MF.SetBackdropBorderColor) == "function" then
-        MF:SetBackdropBorderColor(1, 1, 1, alpha)
+        MF:SetBackdropBorderColor(borderColor[1], borderColor[2], borderColor[3], borderColor[4] * alpha)
     end
     if BB and type(BB.SetBackdropBorderColor) == "function" then
-        BB:SetBackdropBorderColor(1, 1, 1, alpha)
+        BB:SetBackdropBorderColor(borderColor[1], borderColor[2], borderColor[3], borderColor[4] * alpha)
     end
 
     -- Recorder customization (optional)
@@ -433,7 +444,7 @@ end
 
 function WoWPro:SetRowBackdrop(row)
     if not row or not row.SetBackdrop then return end
-    local Profile = WoWProDB.profile
+    local Profile = WoWPro:GetAppearanceProfile()
     local sticky = row.index and WoWPro.sticky and WoWPro.sticky[row.index]
     local texture = sticky and (Profile.stickytexture or Profile.bgtexture) or Profile.bgtexture
     local color = sticky and Profile.stickycolor or Profile.bgcolor
@@ -445,6 +456,13 @@ function WoWPro:SetRowBackdrop(row)
     })
     row:SetBackdropColor(color[1], color[2], color[3], color[4])
     row:SetBackdropBorderColor(1, 1, 1, 0)
+    if row.GetHighlightTexture then
+        local highlight = row:GetHighlightTexture()
+        if highlight then
+            local color = Profile.bordercolor
+            highlight:SetVertexColor(color[1], color[2], color[3])
+        end
+    end
 end
 
 function WoWPro:GetBorderMetrics()
@@ -477,7 +495,7 @@ WoWPro.ShownRows = 0
 
 local function GetMainFrameContentPad()
     local pad = tonumber(WoWProDB.profile.userPad) or 0
-    if WoWProDB.profile.border then
+    if WoWPro:GetAppearanceProfile().border then
         local metrics = WoWPro:GetBorderMetrics()
         pad = pad + (metrics.edgeSize or 0)
     end
@@ -827,6 +845,7 @@ function WoWPro.CustomizeFrames()
     WoWPro.DragSet()
     WoWPro:ButtonBarSet()
     WoWPro:TitleBarSet()
+    WoWPro:StickyHeaderSet()
     if WoWPro.OptionButton then
         WoWPro.OptionButton:SetSize(WoWProDB.profile.buttoniconsize, WoWProDB.profile.buttoniconsize)
     end
@@ -839,6 +858,10 @@ function WoWPro.CustomizeFrames()
             WoWPro[name]:CustomizeFrames()
         end
     end
+
+    WoWPro:SafeSetShown(WoWPro.ButtonBar, WoWProDB.profile.buttonbar)
+    WoWPro:SafeSetShown(WoWPro.GuideFrame, WoWProDB.profile.guideframe ~= false)
+    WoWPro:SafeSetShown(WoWPro.TitleBar, WoWProDB.profile.titlebar or WoWProDB.profile.guideframe == false)
 
     -- Restore on initial UI load and after profile settings change.
     if not WoWPro.HasRestoredThisSession then
@@ -1548,10 +1571,11 @@ function WoWPro:TitleBarSet()
     if not TB then return end
 
     -- User settings
-    local fontName  = WoWProDB.profile.titlefont or "Fonts\\FRIZQT__.TTF"
-    local fontSize  = WoWProDB.profile.titlefontsize or 14
-    local fontColor = WoWProDB.profile.titletextcolor or {1, 1, 1, 1}
-    local bgColor   = WoWProDB.profile.titlecolor or {0, 0, 0, 0.85}
+    local profile = WoWPro:GetAppearanceProfile()
+    local fontName  = profile.titlefont or "Fonts\\FRIZQT__.TTF"
+    local fontSize  = profile.titlefontsize or 14
+    local fontColor = profile.titletextcolor or {1, 1, 1, 1}
+    local bgColor   = profile.titlecolor or {0, 0, 0, 0.85}
 
     -- Background color
     TB:SetBackdropColor(bgColor[1], bgColor[2], bgColor[3], bgColor[4])
@@ -1601,14 +1625,15 @@ function WoWPro:StickyHeaderSet()
     local SH = WoWPro.StickyHeader
     if not SH then return end
 
-    local fontName  = WoWProDB.profile.stickytitlefont or "Fonts\\FRIZQT__.TTF"
-    local fontSize  = WoWProDB.profile.stickytitlefontsize or 14
-    local textColor = WoWProDB.profile.stickytitletextcolor or {1, 1, 1, 1}
-    local bgColor   = WoWProDB.profile.stickycolor or {0, 0, 0, 0.85}
+    local profile = WoWPro:GetAppearanceProfile()
+    local fontName  = profile.stickytitlefont or "Fonts\\FRIZQT__.TTF"
+    local fontSize  = profile.stickytitlefontsize or 14
+    local textColor = profile.stickytitletextcolor or {1, 1, 1, 1}
+    local bgColor   = profile.stickycolor or {0, 0, 0, 0.85}
     local inset     = tonumber(WoWProDB.profile.userPad) or 0
 
     SH:SetBackdrop({
-        bgFile = WoWProDB.profile.stickytexture or [[Interface\Tooltips\UI-Tooltip-Background]],
+        bgFile = profile.stickytexture or [[Interface\Tooltips\UI-Tooltip-Background]],
         tile = true, tileSize = 16
     })
     SH:SetBackdropColor(bgColor[1], bgColor[2], bgColor[3], bgColor[4])

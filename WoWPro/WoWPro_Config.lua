@@ -26,6 +26,7 @@ local function RefreshTextLayout()
 end
 
 function WoWPro:RefreshConfig()
+    WoWPro:CancelProfileThemePreview(true)
     WoWPro.HasRestoredThisSession = false
     WoWPro:LoadGuide()
     WoWPro:Trace("CustomizeFrames:FROM_CONFIG")
@@ -552,6 +553,15 @@ local function createDisplayConfig()
                                     WoWPro.BackgroundSet() end,
                                 width = "relative",
                                 relWidth = 0.5,
+                            },
+                            bordercolor = {
+                                order = 5, type = "color", name = L["Border and highlight color"],
+                                hasAlpha = true, width = "full",
+                                get = function() return unpack(WoWProDB.profile.bordercolor) end,
+                                set = function(_, r, g, b, a)
+                                    WoWProDB.profile.bordercolor = {r, g, b, a}
+                                    WoWPro:BackgroundSet()
+                                end,
                             },
                         },
                     },
@@ -2080,7 +2090,7 @@ end
 
 
 function WoWPro.CreateConfig()
-    local baseProfiles = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
+    local baseProfiles = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB, true)
     local profileConfig, profileOptions = {}, {}
     -- AceDBOptions shares its option definitions with other addons.
     for key, value in pairs(baseProfiles) do
@@ -2094,56 +2104,42 @@ function WoWPro.CreateConfig()
         copy.width = "full"
         profileOptions[key] = copy
     end
-    profileOptions.new.width = "relative"
-    profileOptions.new.relWidth = 0.5
-    profileOptions.choose.width = "relative"
-    profileOptions.choose.relWidth = 0.5
-    profileOptions.reset.width = "relative"
-    profileOptions.reset.relWidth = 0.5
     profileOptions.reset.order = 3
-    profileOptions.delete.width = "relative"
-    profileOptions.delete.relWidth = 0.5
-    profileOptions.delete.order = 4
     profileOptions.descreset.order = 1
-    profileOptions.deldesc.order = 2
     profileOptions.current.order = 2
+    for _, key in ipairs({"reset"}) do
+        local option = profileOptions[key]
+        local originalDisabled = option.disabled
+        option.disabled = function(info)
+            if _G.InCombatLockdown() then return true end
+            if type(originalDisabled) == "string" then return info.handler[originalDisabled](info.handler, info) end
+            return false
+        end
+        local actionKey = key == "reset" and "func" or "set"
+        local action = option[actionKey]
+        option[actionKey] = function(info, ...)
+            if _G.InCombatLockdown() then
+                WoWPro:Print("%s", L["Profiles cannot be changed during combat."])
+                return
+            end
+            return info.handler[action](info.handler, info, ...)
+        end
+    end
+    profileOptions.reset.confirm = true
+    profileOptions.reset.confirmText = L["Reset the current profile's settings? Guide progress and character settings will not be changed."]
     profileConfig.args = {
-        desc = profileOptions.desc,
-        current = profileOptions.current,
-        selection = {
-            order = 10,
-            type = "group",
-            name = L["Select or Create"],
-            inline = true,
-            args = {
-                choosedesc = profileOptions.choosedesc,
-                new = profileOptions.new,
-                choose = profileOptions.choose,
-            },
-        },
-        copying = {
-            order = 20,
-            type = "group",
-            name = L["Copy Settings"],
-            inline = true,
-            args = {
-                copydesc = profileOptions.copydesc,
-                copyfrom = profileOptions.copyfrom,
-            },
-        },
         maintenance = {
             order = 30,
             type = "group",
-            name = L["Reset or Delete"],
+            name = profileOptions.reset.name,
             inline = true,
             args = {
                 descreset = profileOptions.descreset,
-                deldesc = profileOptions.deldesc,
                 reset = profileOptions.reset,
-                delete = profileOptions.delete,
             },
         },
     }
+    profileConfig.args.themes = WoWPro:CreateProfileThemeOptions()
 
     local topConfig = {
         name = "Options",
