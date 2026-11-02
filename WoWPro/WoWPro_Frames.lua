@@ -253,11 +253,20 @@ function WoWPro.ApplySideSwitch()
     return true
 end
 
+local function GetMainFrameContentPad()
+    local pad = tonumber(WoWProDB.profile.userPad) or 0
+    if WoWProDB.profile.border then
+        local metrics = WoWPro:GetBorderMetrics()
+        pad = pad + (metrics.edgeSize or 0)
+    end
+    return pad
+end
+
 function WoWPro:PositionFlyoutButton(button, row, useActive)
     if not button or not row then return end
 
     local profile = WoWProDB.profile
-    local offset = 10 + (profile.guidescroll and 16 or 0)
+    local offset = GetMainFrameContentPad() + 10 + (profile.guidescroll and 16 or 0)
     if useActive then
         offset = offset + 36
     end
@@ -474,15 +483,6 @@ function WoWPro:GetBorderMetrics()
 end
 
 WoWPro.ShownRows = 0
-
-local function GetMainFrameContentPad()
-    local pad = tonumber(WoWProDB.profile.userPad) or 0
-    if WoWProDB.profile.border then
-        local metrics = WoWPro:GetBorderMetrics()
-        pad = pad + (metrics.edgeSize or 0)
-    end
-    return pad
-end
 
 -- Minimum MainFrame height: visible bars plus one row, never below the user's vminresize
 function WoWPro.GetMinMainFrameHeight()
@@ -945,6 +945,11 @@ function WoWPro.MainFrameLayout()
 
     if WoWPro.ApplySideSwitch() then
         WoWPro.MainFrameLayout()
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        WoWPro:PositionTargetUseButtons(row)
+        WoWPro:PositionFlyoutButton(row.jumpbutton, row)
+        WoWPro:PositionFlyoutButton(row.eabutton, row)
     end
     WoWPro:UpdateFlyoutClip()
 end
