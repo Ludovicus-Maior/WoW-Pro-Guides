@@ -834,7 +834,7 @@ function WoWPro.CustomizeFrames()
         end
     end
 
-    -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
+    -- Restore on initial UI load and after profile settings change.
     if not WoWPro.HasRestoredThisSession then
         WoWPro.AnchorSync()
         -- Restore saved position after initial module setup
