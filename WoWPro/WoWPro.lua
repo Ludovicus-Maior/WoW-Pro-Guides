@@ -688,6 +688,8 @@ function WoWPro:OnEnable()
     end
 
     -- WoWPro:MapPoint()               -- Maps the active step
+    -- Make sure the Minimap button is shown if enabled
+    WoWPro:CreateMiniMapButton()
     -- If the base addon was disabled by the user, put it to sleep now.
     if not WoWProCharDB.Enabled then
         WoWPro:Disable()
