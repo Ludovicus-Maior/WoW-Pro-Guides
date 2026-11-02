@@ -90,7 +90,7 @@ local function ValidValue(key, value, expectedType)
         return length == 2 and NumberInRange(value[1], 1, 32768) and NumberInRange(value[2], 1, 32768)
     end
     local expectedLength = #WoWProDB.defaults.profile[key]
-    if length ~= expectedLength then return false end
+    if length ~= expectedLength and not (key == "titletextcolor" and length == 4) then return false end
     for i = 1, length do if not NumberInRange(value[i], 0, 1) then return false end end
     return true
 end
