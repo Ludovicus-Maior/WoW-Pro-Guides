@@ -287,7 +287,7 @@ function WoWPro:UpdateFlyoutClip()
     if not GF or not WoWPro.rows then return end
     local top, bottom = GF:GetTop(), GF:GetBottom()
     if not top or not bottom then return end
-    local contentTop, contentBottom = top - 1, bottom + 1
+    local contentTop, contentBottom = top, bottom
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
@@ -666,6 +666,15 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
 
 end
 
+function WoWPro:ResetMainFrame()
+    if _G.InCombatLockdown() then return end
+    WoWPro.MainFrame:SetScale(1)
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
+    WoWPro.SetMainFrameSize(200, 300, true)
+    WoWPro.AnchorStore("ResetMainFrame")
+end
+
 function WoWPro.AnchorSync()
     WoWPro:Trace("AnchorSync")
     if WoWPro.InhibitAnchorSync or _G.InCombatLockdown() then
@@ -827,7 +836,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync() -- Restore saved position after initial module setup
+        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -1088,8 +1098,13 @@ function WoWPro:CreateOptionButton()
 
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
-        _G.GameTooltip:SetOwner(ob, "ANCHOR_LEFT")
-        _G.GameTooltip:SetText("Left-click and hold to drag or right-click for menu", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetOwner(ob, "ANCHOR_RIGHT")
+        if WoWProDB.profile.drag then
+            _G.GameTooltip:SetText(L["Left click to drag"])
+            _G.GameTooltip:AddLine(L["Right click for options"], 1, 1, 1)
+        else
+            _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        end
         _G.GameTooltip:Show()
     end)
     OB:SetScript("OnLeave", function()
