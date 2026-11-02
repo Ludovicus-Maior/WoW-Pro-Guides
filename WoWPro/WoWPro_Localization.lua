@@ -13,6 +13,18 @@ local loc = _G.GetLocale()
 -----------------------
 
 local english = {
+    ["Debug Log"] = "Debug Log",
+    ["Window Recovery"] = "Window Recovery",
+    ["Addon Data Reset"] = "Addon Data Reset",
+    ["Restore the guide window position, size, and scale without resetting guide progress or other settings."] = "Restore the guide window position, size, and scale without resetting guide progress or other settings.",
+    ["Reset window"] = "Reset window",
+    ["Reset the guide window position and size?"] = "Reset the guide window position and size?",
+    ["Move the guide window to the center of the screen and restore a usable size and scale. Guide progress and other profile settings are preserved. Unavailable during combat."] = "Move the guide window to the center of the screen and restore a usable size and scale. Guide progress and other profile settings are preserved. Unavailable during combat.",
+    ["Cannot reset the guide window during combat."] = "Cannot reset the guide window during combat.",
+    ["Cannot reset the guide window before it has been created."] = "Cannot reset the guide window before it has been created.",
+    ["Right-click for options"] = "Right-click for options",
+    ["Left-click to drag.\nRight-click for menu."] = "Left-click to drag.\nRight-click for menu.",
+    ["Left-drag. Right-click for menu."] = "Left-drag. Right-click for menu.",
     -- Leveling Module --
     ["Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it."] = "Available WoW-Pro leveling guides are listed below. \nSelect one and hit \"Okay\" to load. \nShift+click a guide to clear it.",
     ["Guide List"] = "Guide List",

@@ -40,6 +40,7 @@ WoWPro.StickyHeader   = WoWPro.StickyHeader or nil
 WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 -- Narrowest MainFrame width allowed when the resizeoverride option is enabled
 WoWPro.NARROW_MIN_WIDTH = 100
+local TITLEBAR_CONTENT_GAP = 10
 
 local function GetUIScreenSize()
     local ui = _G.UIParent
@@ -766,6 +767,33 @@ function WoWPro.AnchorSync()
     WoWPro.InhibitAnchorStore = wasInhibited  -- Restore the previous state
 end
 
+function WoWPro:ResetWindow()
+    if _G.InCombatLockdown() then
+        self:Print(L["Cannot reset the guide window during combat."])
+        return
+    end
+    local MF = self.MainFrame
+    if not MF then
+        self:Print(L["Cannot reset the guide window before it has been created."])
+        return
+    end
+
+    local wasInhibited = self.InhibitAnchorStore
+    self.InhibitAnchorStore = true
+    MF:StopMovingOrSizing()
+    MF:SetScale(1)
+    MF:ClearAllPoints()
+    MF:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
+    self.SetMainFrameSize(math.max(200, self.GetMinMainFrameWidth()), math.max(300, self.GetMinMainFrameHeight()))
+    self.MainFrameLayout()
+    -- Layout can resize around the expansion corner; center the final size before saving.
+    MF:ClearAllPoints()
+    MF:SetPoint("CENTER", _G.UIParent, "CENTER", 0, 0)
+    self.AnchorStore("ResetWindow")
+    self.SetMouseNotesPoints()
+    self.InhibitAnchorStore = wasInhibited
+end
+
 -- Compute vertical offsets for all MainFrame children based on visibility and growth direction
 function WoWPro.MainFrameStackOffset()
     WoWPro:Trace("MainFrameStackOffset")
@@ -827,7 +855,8 @@ function WoWPro.CustomizeFrames()
 
     -- Only restore on initial UI load, not on subsequent CustomizeFrames calls
     if not WoWPro.HasRestoredThisSession then
-        WoWPro.AnchorSync() -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
+        WoWPro.AnchorSync()
+ -- Restore saved position after initial module setup        WoWPro.HasRestoredThisSession = true
     end
 
     WoWPro.InhibitAnchorStore = false  -- Re-enable AnchorStore after customization
@@ -882,6 +911,7 @@ function WoWPro.MainFrameLayout()
             TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
         end
         y = y - WoWPro:SafeGetHeight(TB)
+        y = y - TITLEBAR_CONTENT_GAP
     end
 
     -- STICKYHEADER (optional)
@@ -986,7 +1016,7 @@ end
 function WoWPro:CreateMainFrame()
     local MF = CreateFrame("Frame", "WoWProMainFrame", UIParent, "BackdropTemplate")
     MF:SetClampedToScreen(true)
-    MF:SetSize(200, 300)
+    MF:SetSize(300, 300)
     MF:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
 
     -- MF is the ONLY movable frame
@@ -1052,6 +1082,7 @@ function WoWPro.ComputeMFHeight()
 
     if TB and WoWPro:SafeIsShown(TB) then
         total = total + WoWPro:SafeGetHeight(TB)
+        total = total + TITLEBAR_CONTENT_GAP
     end
 
     if SH and WoWPro:SafeIsShown(SH) then
@@ -1088,9 +1119,31 @@ function WoWPro:CreateOptionButton()
 
     -- Tooltip
     OB:SetScript("OnEnter", function(ob)
-        _G.GameTooltip:SetOwner(ob, "ANCHOR_LEFT")
-        _G.GameTooltip:SetText("Left-click and hold to drag or right-click for menu", nil, nil, nil, nil, true)
-        _G.GameTooltip:Show()
+        local tip = _G.GameTooltip
+        tip:SetOwner(ob, "ANCHOR_NONE")
+        local text
+        if not WoWProDB.profile.drag or _G.InCombatLockdown() then
+            text = L["Right-click for options"]
+        else
+            text = L["Left-click to drag.\nRight-click for menu."]
+        end
+        tip:SetText(text, nil, nil, nil, nil, false)
+        -- Sit beside the window (clear of its scrollbar) so it never covers guide content; flip left near the screen edge.
+        local tipScale = tip:GetEffectiveScale()
+        local SB = WoWPro.Scrollbar
+        local sbWidth = (SB and SB:IsShown()) and (SB:GetWidth() * SB:GetEffectiveScale() / tipScale) or 0
+        local leftside = WoWProDB.profile.leftside
+        local rightGap = 4 + (leftside and 0 or sbWidth)
+        local leftGap = 4 + (leftside and sbWidth or 0)
+        local mfRight = (MF:GetRight() or 0) * MF:GetEffectiveScale()
+        local screenRight = _G.UIParent:GetRight() * _G.UIParent:GetEffectiveScale()
+        tip:ClearAllPoints()
+        if mfRight + (rightGap + (tip:GetWidth() or 0)) * tipScale <= screenRight then
+            tip:SetPoint("TOPLEFT", MF, "TOPRIGHT", rightGap, 0)
+        else
+            tip:SetPoint("TOPRIGHT", MF, "TOPLEFT", -leftGap, 0)
+        end
+        tip:Show()
     end)
     OB:SetScript("OnLeave", function()
         _G.GameTooltip:Hide()
