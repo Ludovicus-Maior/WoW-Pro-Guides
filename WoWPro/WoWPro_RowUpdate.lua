@@ -18,10 +18,17 @@ function WoWPro.RowSizeSet()
     local rightPadding = 5
     for _, row in ipairs(WoWPro.rows) do
         if row:IsShown() then
-            row.TextPaddingTop = 0
-            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            row.TextPaddingTop = WoWPro.Layout.RowPaddingTop + spacing
+            local textSpacing = row.TextSpacing
+            row.check:SetPoint("TOPLEFT", row, "TOPLEFT", 0, -row.TextPaddingTop)
+            row.step:SetSpacing(1)
+            row.note:SetSpacing(2)
+            row.track:SetSpacing(2)
+            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -textSpacing)
             local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
-            row.track:SetPoint("TOPLEFT", trackAnchor, "BOTTOMLEFT", 0, -3)
+            row.track:ClearAllPoints()
+            row.track:SetPoint("TOPLEFT", trackAnchor, "BOTTOMLEFT", 0, -textSpacing)
+            row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -textSpacing)
             row.step:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
             row.note:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
             row.track:SetPoint("RIGHT", row, "RIGHT", -rightPadding, 0)
@@ -32,13 +39,13 @@ function WoWPro.RowSizeSet()
             local contentHeight = stepHeight + (row.TextPaddingTop or 0)
 
             if noteHeight > 0 then
-                contentHeight = contentHeight + 3 + noteHeight
+                contentHeight = contentHeight + textSpacing + noteHeight
             end
             if trackHeight > 0 then
-                contentHeight = contentHeight + 3 + trackHeight
+                contentHeight = contentHeight + textSpacing + trackHeight
             end
             if row.progressBar:IsShown() then
-                contentHeight = contentHeight + 3 + row.progressBar:GetHeight()
+                contentHeight = contentHeight + textSpacing + row.progressBar:GetHeight()
             end
 
             local buttonHeight = 0
@@ -48,7 +55,7 @@ function WoWPro.RowSizeSet()
                 end
             end
 
-            row:SetHeight(math.max(25, contentHeight + (spacing * 2) + bottomPadding, buttonHeight))
+            row:SetHeight(math.max(25, contentHeight + spacing + bottomPadding, buttonHeight))
         end
     end
 end
@@ -220,11 +227,11 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
     row.track:SetJustifyH("RIGHT")
     row.track:SetPoint("LEFT", row.step, "LEFT")
     row.track:SetPoint("RIGHT", row, "RIGHT", -5, 0)
-    row.track:SetPoint("TOP", trackAnchor, "BOTTOM", 0, -3)
+    row.track:SetPoint("TOP", trackAnchor, "BOTTOM", 0, -row.TextSpacing)
     row.progressBar:ClearAllPoints()
     row.progressBar:SetPoint("LEFT", row.step, "LEFT")
     row.progressBar:SetPoint("RIGHT", row, "RIGHT", -5, 0)
-    row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -3)
+    row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -row.TextSpacing)
 
     row.track:SetText(NormalizeTrackText(track))
 end
@@ -1511,7 +1518,7 @@ function WoWPro:RowUpdate(offset)
         end
         currentRow.step:SetText(step)
         currentRow.note:ClearAllPoints()
-        currentRow.note:SetPoint("TOPLEFT", currentRow.step, "BOTTOMLEFT", 0, -3)
+        currentRow.note:SetPoint("TOPLEFT", currentRow.step, "BOTTOMLEFT", 0, -currentRow.TextSpacing)
         currentRow.note:SetPoint("RIGHT")
         currentRow.note:SetText(note)
         WoWPro.UpdateQuestTrackerRow(currentRow, syncData)

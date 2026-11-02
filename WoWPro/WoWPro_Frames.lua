@@ -1584,8 +1584,8 @@ function WoWPro:CreateStickyHeader()
     WoWPro.StickyHeader = SH
 
     local SHtitle = SH:CreateFontString(nil, "OVERLAY")
-    SHtitle:SetPoint("TOPLEFT", 2, 0)
-    SHtitle:SetPoint("TOPRIGHT", -5, 0)
+    SHtitle:SetPoint("TOPLEFT", 2, -4)
+    SHtitle:SetPoint("TOPRIGHT", -5, -4)
     SHtitle:SetJustifyH("LEFT")
     SHtitle:SetJustifyV("MIDDLE")
     SHtitle:SetFont("Fonts\\FRIZQT__.TTF", 14)
@@ -1707,9 +1707,9 @@ function WoWPro:CreateRow(index)
     row:RegisterForClicks("AnyUp")
 
     -- Text padding defaults
-    row.TextPaddingTop = 0
+    row.TextPaddingTop = WoWPro.Layout.RowPaddingTop
     row.TextPaddingLeft = 3    -- left inset for StepTitle
-    row.TextSpacing     = 2    -- vertical spacing between title/note/tracker
+    row.TextSpacing     = 5    -- vertical spacing between title/note/tracker
     row.MaxTextWidth = WoWPro.MainFrame:GetWidth()
                    - row.TextPaddingLeft
                    - 3 -- check button width (approx)
