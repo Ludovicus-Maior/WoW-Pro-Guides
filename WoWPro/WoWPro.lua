@@ -396,8 +396,10 @@ local function MigrateProfileSettings()
     end
 end
 function WoWPro:OnInitialize()
+    local isNewInstall = not _G.WoWProData or next(_G.WoWProData) == nil
     MigrateProfileSettings()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
+    WoWPro:InitializeTutorial(isNewInstall)
     -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
@@ -688,6 +690,8 @@ function WoWPro:OnEnable()
     end
 
     -- WoWPro:MapPoint()               -- Maps the active step
+    -- Make sure the Minimap button is shown if enabled
+    WoWPro:CreateMiniMapButton()
     -- If the base addon was disabled by the user, put it to sleep now.
     if not WoWProCharDB.Enabled then
         WoWPro:Disable()
@@ -709,10 +713,12 @@ function WoWPro:OnEnable()
         WoWPro:dbp("Enabling "..name.." module...")
         module:Enable()
     end
+    WoWPro:QueueTutorial()
 end
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
+    WoWPro:StopTutorial()
     -- Module Disabling --
     for name, module in WoWPro:IterateModules() do
         WoWPro:dbp("Disabling "..name.." module...")
