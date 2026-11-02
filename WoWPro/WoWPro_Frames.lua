@@ -40,7 +40,6 @@ WoWPro.StickyHeader   = WoWPro.StickyHeader or nil
 WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 -- Narrowest MainFrame width allowed when the resizeoverride option is enabled
 WoWPro.NARROW_MIN_WIDTH = 100
-local TITLEBAR_CONTENT_GAP = 10
 
 local function GetUIScreenSize()
     local ui = _G.UIParent
@@ -911,7 +910,6 @@ function WoWPro.MainFrameLayout()
             TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
         end
         y = y - WoWPro:SafeGetHeight(TB)
-        y = y - TITLEBAR_CONTENT_GAP
     end
 
     -- STICKYHEADER (optional)
@@ -1082,7 +1080,6 @@ function WoWPro.ComputeMFHeight()
 
     if TB and WoWPro:SafeIsShown(TB) then
         total = total + WoWPro:SafeGetHeight(TB)
-        total = total + TITLEBAR_CONTENT_GAP
     end
 
     if SH and WoWPro:SafeIsShown(SH) then
