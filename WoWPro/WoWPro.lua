@@ -694,6 +694,9 @@ function WoWPro:OnEnable()
     if not WoWProCharDB.Enabled then
         WoWPro:Disable()
         return
+    else
+        -- Make sure the guide has loaded
+        WoWPro.LoadGuide()
     end
 
 	if WoWProCharDB.DevCoords then
