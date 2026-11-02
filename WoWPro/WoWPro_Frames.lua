@@ -671,7 +671,7 @@ function WoWPro:ResetMainFrame()
     WoWPro.MainFrame:ClearAllPoints()
     WoWPro.MainFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
     WoWPro.SetMainFrameSize(200, 300, true)
-    WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "ResetMainFrame")
+    WoWPro.AnchorStore("ResetMainFrame")
 end
 
 function WoWPro.AnchorSync()
