@@ -681,6 +681,8 @@ local function SetupPetSwitchSecuredOverlay(currentRow, switch, k)
         secured:Show()
 
         -- Secured attribute for pet switching
+        secured:SetAttribute("type1", nil)
+        secured:SetAttribute("item1", nil)
         secured:SetAttribute("type", "SwitchPet")
         secured.SwitchPet = function()
             C_PetBattles.ChangePet(switch)
@@ -701,11 +703,19 @@ local SetupPetSwitchButton = function(currentRow, switch, k)
 
     -- Show main button
     currentRow.itembutton:Show()
+    WoWPro:PositionTargetUseButtons(currentRow)
+    currentRow.itembutton:SetScript("OnClick", nil)
+    currentRow.itembutton:SetScript("OnUpdate", nil)
+    currentRow.itemcooldown:Hide()
+    currentRow.itemcooldown.OnCooldown = nil
+    currentRow.itemcooldown.ActiveItem = nil
 
     -- Set icon
     currentRow.itemicon:SetTexture(WoWPro.PetIcon(switch))
 
     -- Set secure attributes for main button
+    currentRow.itembutton:SetAttribute("type1", nil)
+    currentRow.itembutton:SetAttribute("item1", nil)
     currentRow.itembutton:SetAttribute("type", "SwitchPet")
     currentRow.itembutton.SwitchPet = function()
         C_PetBattles.ChangePet(switch)
@@ -1558,7 +1568,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         -- Pet switch button
-        if WoWProDB.profile.showItemButton and switch and switch ~= "" then
+        if WoWProDB.profile.showItemButton and switch and switch > 0 then
             SetupPetSwitchButton(currentRow, switch, k)
             SetupPetSwitchKeybind(i, currentRow)
         end

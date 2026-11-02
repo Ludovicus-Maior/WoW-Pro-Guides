@@ -143,7 +143,7 @@ function WoWPro:CreateItemButton(parent, id, positionParent)
     positionParent = positionParent or parent
     local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "InsecureActionButtonTemplate")
     itembutton:SetAttribute("type", "item")
-    itembutton:SetFrameStrata("LOW")
+    itembutton:SetFrameStrata("HIGH")
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     WoWPro:PositionFlyoutButton(itembutton, positionParent)
