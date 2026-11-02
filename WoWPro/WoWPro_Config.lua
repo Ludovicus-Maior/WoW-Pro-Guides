@@ -33,12 +33,7 @@ function WoWPro:RefreshConfig()
 end
 
 function WoWPro:SetDefaults()
-    -- MainFrame --
-    WoWPro.MainFrame:ClearAllPoints()
-    WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
-    WoWPro.SetMainFrameSize(200, 300, true)
-    WoWPro.SetResizeBounds(WoWPro.MainFrame, 150, 40)
-
+    WoWPro:ResetMainFrame()
     WoWPro:RefreshConfig()
 end
 
@@ -275,7 +270,7 @@ local function createDisplayConfig()
                                 order = 1,
                                 type = "toggle",
                                 name = L["Enable Drag"],
-                                desc = L["When enabled: Click on the button bar to move the window. Drag to reposition it on your screen.\nWhen disabled: Window is locked in place."],
+                                desc = L["When enabled: Drag the button bar, title bar, or settings button to move the window.\nWhen disabled: Window is locked in place."],
                                 width = "relative",
                                 relWidth = 0.5,
                                 get = function(info) return WoWProDB.profile.drag end,

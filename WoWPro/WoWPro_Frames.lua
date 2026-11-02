@@ -824,6 +824,12 @@ function WoWPro.CustomizeFrames()
     WoWPro.BackgroundSet()
     WoWPro.RowFontSet()
     WoWPro.RowColorSet()
+    WoWPro.DragSet()
+    WoWPro:ButtonBarSet()
+    WoWPro:TitleBarSet()
+    if WoWPro.OptionButton then
+        WoWPro.OptionButton:SetSize(WoWProDB.profile.buttoniconsize, WoWProDB.profile.buttoniconsize)
+    end
     WoWPro.ResizeSet()
     WoWPro.MinimapSet()
 
@@ -1451,10 +1457,17 @@ function WoWPro:ButtonBarSet()
     BB:SetHeight(height)
 
     -- Apply to each button
-    for _, btn in ipairs(BB.Buttons) do
+    for i, btn in ipairs(BB.Buttons) do
         btn:SetSize(frameSize, frameSize)
+        btn:ClearAllPoints()
+        if i == 1 then
+            btn:SetPoint("LEFT", BB, "LEFT", userPad, 0)
+        else
+            btn:SetPoint("LEFT", BB.Buttons[i - 1], "RIGHT", userPad, 0)
+        end
         btn.icon:ClearAllPoints()
         btn.icon:SetPoint("CENTER")
+        btn.icon:SetSize(iconSize, iconSize)
     end
 
     -- Dynamic footprint
@@ -2178,7 +2191,6 @@ function WoWPro:MainFrameMouseHandler()
     local TB      = WoWPro.TitleBar
     local SF      = WoWPro.ScrollFrame
     local GF      = WoWPro.GuideFrame
-    local Profile = WoWProDB.profile
 
     -- Resize Controls
     local ctrls = {
@@ -2198,32 +2210,40 @@ function WoWPro:MainFrameMouseHandler()
     end
 
     local isMoving = false
-    -- OB drag: start + stop, MF only moves
+    local function StartDrag()
+        if WoWProDB.profile.drag and not InCombatLockdown() and not isMoving then
+            isMoving = true
+            MF:StartMoving()
+        end
+    end
+
+    local function StopDrag()
+        if not isMoving then return end
+        MF:StopMovingOrSizing()
+        isMoving = false
+        WoWPro:HideAndSeek(nil, "buttonbar", WoWProDB.profile.buttonbar, false)
+        -- Let screen clamping settle before saving the anchor on Classic.
+        if _G.C_Timer and _G.C_Timer.After then
+            _G.C_Timer.After(0.1, function()
+                WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "WindowDragStop")
+            end)
+        else
+            WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "WindowDragStop")
+        end
+    end
+
+    local BB = WoWPro.ButtonBar
+    for _, handle in ipairs({MF, BB, TB, OB}) do
+        handle:EnableMouse(true)
+        handle:RegisterForDrag("LeftButton")
+        handle:SetScript("OnDragStart", StartDrag)
+        handle:SetScript("OnDragStop", StopDrag)
+    end
+
     if OB then
         OB:SetScript("OnMouseDown", function(ob, button)
-            if button == "LeftButton" and Profile.drag and not InCombatLockdown() then
-                if not isMoving then
-                    isMoving = true
-                    MF:StartMoving()
-                end
-            elseif button == "RightButton" then
+            if button == "RightButton" then
                 WoWPro.EasyMenu(WoWPro.DropdownMenu, ob, "cursor", 0, 0, "MENU")
-            end
-        end)
-
-        OB:SetScript("OnMouseUp", function(ob, button)
-            if button == "LeftButton" and Profile.drag then
-                MF:StopMovingOrSizing()
-                    isMoving = false
-                    WoWPro:HideAndSeek(nil, "buttonbar", Profile.buttonbar, false)
-                    -- Delay AnchorStore slightly to avoid racing with UI clamping/movement in Classic
-                    if _G.C_Timer and _G.C_Timer.After then
-                        _G.C_Timer.After(0.1, function()
-                            WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
-                        end)
-                    else
-                        WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "OptionButtonMouseUp")
-                    end
             end
         end)
     end
@@ -2239,7 +2259,6 @@ function WoWPro:MainFrameMouseHandler()
     end
 
     -- ButtonBar buttons
-    local BB = WoWPro.ButtonBar
     if BB and BB.Buttons then
         BB.Buttons[1]:SetScript("OnClick", function() WoWPro:ToggleWindow(1) end)
         BB.Buttons[2]:SetScript("OnClick", function() WoWPro:ToggleWindow(2) end)
