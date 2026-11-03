@@ -20,6 +20,7 @@ function WoWPro:LoadNilGuide()
 
     -- Clear guide metadata
     WoWPro.TitleText:SetText("No Guide Loaded")
+    WoWPro.ProgressText:SetText(nil)
     WoWPro.CurrentGuide = nil
     WoWPro.GuideLoaded = false
 
