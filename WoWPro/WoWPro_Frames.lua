@@ -41,13 +41,19 @@ WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 -- Narrowest MainFrame width allowed when the resizeoverride option is enabled
 WoWPro.NARROW_MIN_WIDTH = 100
 
+-- Screen size in UIParent coordinates, the space that GetLeft/GetTop/etc. and SetPoint
+-- offsets against UIParent use. Physical pixels divided by the UI scale is not that space:
+-- the UI is 768 units tall at scale 1, so that overstated the screen by physH / 768
+-- (1920x1080 at UI scale 0.9 gave 2133x1200 instead of 1517x853).
 local function GetUIScreenSize()
     local ui = _G.UIParent
+    local screenW, screenH = ui:GetWidth(), ui:GetHeight()
+    if screenW > 0 and screenH > 0 then
+        return screenW, screenH
+    end
     local physW, physH = _G.GetPhysicalScreenSize()
-    local uiScale = ui:GetEffectiveScale() or ui:GetScale() or 1
-    local screenW = (physW and physW > 0) and (physW / uiScale) or ui:GetWidth()
-    local screenH = (physH and physH > 0) and (physH / uiScale) or ui:GetHeight()
-    return screenW, screenH
+    screenH = 768 / (ui:GetEffectiveScale() or 1)
+    return screenH * physW / physH, screenH
 end
 
 -- Frame Update Functions --
