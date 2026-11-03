@@ -13,7 +13,7 @@ A A Threat Within|QID|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Will
 A The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|Pick up your class quest from Drusilla La Salle (your class trainer) on the south side of the Abbey before continuing.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|R|Human|C|Warlock|
 T A Threat Within|QID|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride, inside the Abbey.|
 A Kobold Camp Cleanup|QID|7|PRE|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|From Marshal McBride|
-= Immolate|ACTIVE|7|M|PLAYER|CC|N|Prioritize earning 10c so you can learn Immolate from Drusilla La Salle.\n[color=FF0000]NOTE: [/color]You can sell items to Godric Rothgar (or any of the other vendors) to earn the money.|SPELL|348;Immolate|C|Warlock|S!US|
+= Immolate|ACTIVE|7|M|PLAYER|CC|N|Prioritize earning 10c so you can learn Immolate from Drusilla La Salle.\n[color=FF0000]NOTE: [/color]You can sell items to Godric Rothgar (or any of the other vendors) to earn the money.|SPELL|Immolate;348|C|Warlock|S!US|
 C Kobold Camp Cleanup|QID|7|M|47.5,36.1|Z|1429; Elwynn Forest|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|S|
 A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Eagan Peltskinner|QID|5261|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner around back of the Abbey.|

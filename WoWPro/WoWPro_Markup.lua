@@ -190,7 +190,7 @@ function WoWPro.ExpandMarkup(text)
         -- If we were unable to expand, punt!
         expand = text:sub(tag_start, tag_end)
     end
-    WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
+    -- WoWPro:dbp("ExpandMarkup [%s=%s;%s] => %s",tag_text, tostring(tag_id), tag_qual, expand:gsub("|", "¦"))
     text = pre..expand..WoWPro.ExpandMarkup(post)
     return text
 end
