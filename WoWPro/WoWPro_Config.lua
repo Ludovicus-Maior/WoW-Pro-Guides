@@ -118,7 +118,8 @@ local function createDisplayConfig()
                                 get = function(info) return WoWProDB.profile.mousenotes end,
                                 set = function(info,val) WoWProDB.profile.mousenotes = val
                                     if val then WoWPro:CreateMouseNotes() end
-                                    WoWPro.RowSizeSet() end,
+                                    WoWPro.UpdateMouseNotes()
+                                    WoWPro.MainFrameLayout() end,
                                 relWidth = 0.5,
                             },
                             showcoords = {
