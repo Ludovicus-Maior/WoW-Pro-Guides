@@ -1,7 +1,7 @@
 # Release 2026.11.04.A
 ## Bug Fixes (Long!)
 * **Forever** Support
-	** Note: Installing the Ace3 r1424-alpha addon is **necessary** till Ace3 does a formal release.
+	** Note: Installing the Ace3 [r1424-alpha](https://www.curseforge.com/wow/addons/ace3/files/9350543) addon is **necessary** till Ace3 does a formal release.
 	** The Ace3 addon is *not* necessary for the other WoW clients.
 	** We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
 * New Interactive Tutorial
