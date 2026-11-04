@@ -548,8 +548,8 @@ function WoWPro.SetMouseNotesPoints()
     -- Rows and notes inherit MainFrame's scale, so their GetLeft()/GetWidth() are in
     -- MainFrame units; convert the screen size into the same units before comparing.
     local scale = WoWPro.MainFrame:GetScale() or 1
-    local screenW, screenH = GetUIScreenSize()
-    screenW, screenH = screenW / scale, screenH / scale
+    local screenW = _G.UIParent:GetWidth() / scale
+    local screenH = _G.UIParent:GetHeight() / scale
     for i,row in ipairs(WoWPro.rows) do
         local note = WoWPro.mousenotes[i]
         if note then
@@ -1803,6 +1803,27 @@ function WoWPro:RowContextMenuBind(row)
 end
 
 -- Mouseover Notes individual rows --
+function WoWPro.UpdateMouseNotes()
+    local enabled = WoWProDB.profile.mousenotes
+    if enabled and WoWPro.rows and not WoWPro.mousenotes then
+        WoWPro:CreateMouseNotes()
+    end
+    for i, row in ipairs(WoWPro.rows or {}) do
+        row.note:SetShown(not enabled)
+        local popup = WoWPro.mousenotes and WoWPro.mousenotes[i]
+        if popup then
+            local text = row.note:GetText() or ""
+            popup.note:SetFont(row.note:GetFont())
+            popup.note:SetTextColor(row.note:GetTextColor())
+            popup.note:SetText(text)
+            popup:SetHeight(popup.note:GetStringHeight() + 20)
+            if not enabled or text == "" or not row:IsShown() then
+                popup:Hide()
+            end
+        end
+    end
+end
+
 function WoWPro:CreateMouseNotes()
     if not WoWProDB.profile.mousenotes or not WoWPro.rows then
         return
@@ -1838,6 +1859,21 @@ function WoWPro:CreateMouseNotes()
         row:Hide()
 
         WoWPro.mousenotes[i] = row
+        local guideRow = WoWPro.rows[i]
+        guideRow:HookScript("OnEnter", function()
+            if not WoWProDB.profile.mousenotes then return end
+            WoWPro.UpdateMouseNotes()
+            local text = guideRow.note:GetText()
+            if not text or text == "" then return end
+            WoWPro.SetMouseNotesPoints()
+            row:Show()
+        end)
+        guideRow:HookScript("OnLeave", function()
+            row:Hide()
+        end)
+        guideRow:HookScript("OnHide", function()
+            row:Hide()
+        end)
     end
 end
 
