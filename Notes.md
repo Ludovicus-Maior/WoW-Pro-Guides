@@ -1,3 +1,30 @@
+# Release 2026.11.04.A
+## Bug Fixes (Long!)
+* **Forever** Support
+	** Note: Installing the Ace3 r1424-alpha addon is **necessary** till Ace3 does a formal release.
+	** The Ace3 addon is *not* necessary for the other WoW clients.
+	** We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
+* New Interactive Tutorial
+* Major Guide Window Improvements
+	* Reworked window layout and row rendering for more consistent sizing and positioning.
+	* Improved resizing, screen-edge handling, expansion anchors, and saved window geometry.
+	* Drag the title bar, empty button-bar space, or settings cog to reposition the window when dragging is enabled.
+	* Added Reset window to restore position, size, and scale without clearing guide progress or other settings.
+	* Improved default window sizing, dark backgrounds, and toolbar spacing.
+	* Fixed profile resets and switching so appearance and window settings apply correctly.
+	* Fixed Eli-Theme failing to apply correctly after a reset and reload.
+* Settings and Usability: Reorganized configuration options.
+* Click a step icon to open Report Step Problem, with copyable diagnostic details and the community Discord link.
+* Updated addon loading so unsupported modules are excluded for the relevant game version.
+* Fixed a Lua error when scenarios end.
+* Prevented the guide from incorrectly auto-hiding inside Warlords of Draenor garrisons.
+* Added combat safeguards for window recovery.
+## Guide Updates
+* Forever Leveling Guides!
+* Updated Vanilla leveling content, including Horde Chapter 3, with additional community-submitted corrections.
+* Other guides may have been changed, but since we reorganized things, I can't tell what!
+
+
 # Release 2026.10.16.A
 * A quick update before Forever gets released
 ## Bug Fixes
