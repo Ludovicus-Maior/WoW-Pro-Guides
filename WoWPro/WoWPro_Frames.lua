@@ -545,7 +545,11 @@ function WoWPro.SetMouseNotesPoints()
     if not WoWPro.rows or not WoWPro.mousenotes then
         return
     end
+    -- Rows and notes inherit MainFrame's scale, so their GetLeft()/GetWidth() are in
+    -- MainFrame units; convert the screen size into the same units before comparing.
+    local scale = WoWPro.MainFrame:GetScale() or 1
     local screenW, screenH = GetUIScreenSize()
+    screenW, screenH = screenW / scale, screenH / scale
     for i,row in ipairs(WoWPro.rows) do
         local note = WoWPro.mousenotes[i]
         if note then
