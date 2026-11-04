@@ -539,7 +539,8 @@ function WoWPro.SetMouseNotesPoints()
     if not WoWPro.rows or not WoWPro.mousenotes then
         return
     end
-    local screenW, screenH = GetUIScreenSize()
+    local screenW = _G.UIParent:GetWidth()
+    local screenH = _G.UIParent:GetHeight()
     for i,row in ipairs(WoWPro.rows) do
         local note = WoWPro.mousenotes[i]
         if note then
