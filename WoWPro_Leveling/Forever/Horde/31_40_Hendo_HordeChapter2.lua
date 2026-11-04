@@ -110,7 +110,7 @@ T Test of Strength|QID|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Pla
 A Test of Lore|QID|1152|PRE|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
 C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
 C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.81,24.45|Z|1441; Thousand Needles|L|12946|ITEM|12946|N|Enraged Panther.\n[color=FF0000]NOTE: [/color]Make your way to the area where the cage is and once you're there, clear the area of any and all mobs. When you're ready, open the cage and prepare to fight.\n\nThis'll be your last chance to do it.|
-R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
+R Whitereach Post|ACTIVE|1153|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
 
 ; --- The Barrens
 H Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.\n[color=FF0000]NOTE: [/color]If you used it already, you'll have to run back.|
@@ -249,7 +249,7 @@ N Desolace|AVAILABLE|5501|Z|1441; Thousand Needles|N|We are now headed to Desola
 F Orgrimmar|AVAILABLE|5501^5561|M|51.60,25.44|Z|1446; Tanaris|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.\n[color=FF0000]NOTE: [/color]The FP in Tanaris is closer than Freewind Post.|
 h Orgrimmar|AVAILABLE|5501^5561|M|54.11,68.39|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
 F Sun Rock Retreat|AVAILABLE|5501^5561|M|45.13,63.88|Z|1454; Orgrimmar|N|Continue on to your original destination in Stonetalon Mountains.|
-R The Charred Vale|AVAILABLE|5501^5561|M|44.55,63.01;37.99,68.08;30.19,76.00|CC|Z|1442; Stonetalon Mountains|N|Head up into the mountains and follow the torch-marked path south over the mountain to the bottom.
+R The Charred Vale|AVAILABLE|5501^5561|M|44.55,63.01;37.99,68.08;30.19,76.00|CC|Z|1442; Stonetalon Mountains|N|Head up into the mountains and follow the torch-marked path south over the mountain to the bottom.|
 R Desolace|AVAILABLE|5501^5561|M|54.11,3.01|Z|1443; Desolace|N|Follow the mountain edge around the Charred Vale to the Desolace border in the south.\n[color=FF0000]NOTE: [/color]The mobs are barely grey and can be annoying.|
 A Bone Collector|QID|5501|M|62.34,38.99|Z|1443; Desolace|N|From Bibbly F'utzbuckle at Kormek's Hut.|
 A Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443; Desolace|N|From Smeed Scrabblescrew at Scrabblescrew's Camp.\n[color=FF0000]NOTE: [/color]If you are feeling adventurous, you can try and make the run straight down through some higher level mobs. I'd suggest taking the road east and coming in that way.|
@@ -408,7 +408,7 @@ C Turtle Meat|QID|7321|N|Kill Turtles to loot their meat.|S|
 R Southshore|ACTIVE|553|M|54.47,51.56|Z|1424; Hillsbrad Foothills|N|Follow the river south to Southshore.\n[color=FF0000]NOTE: [/color]Keep your distance from the Alliance guards patroling the edge of Southshore.|
 T Helcular's Revenge|QID|553|M|52.76,53.34|Z|1424; Hillsbrad Foothills|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
 C Turtle Meat|QID|7321|N|<coords>Finish collecting your Turtle meat as you make your way north along the river towards Tarren Mill.\n[color=FF0000]NOTE: [/color]You may have to travel up and down the river to kill enough turtles.|US|
-R Tarren Mill|ACTIVE|7321|M|67.69,21.35|Z|1424; Hillsbrad Foothills|N|Make your way back to Tarren Mill.|
+R Tarren Mill|ACTIVE|1136|M|67.69,21.35|Z|1424; Hillsbrad Foothills|N|Make your way back to Tarren Mill.|
 
 ; --- Thunder Bluff
 H Orgrimmar|ACTIVE|1136|M|54.11,68.39|Z|1454; Orgrimmar|N|Use your hearth to save time.\n[color=FF0000]NOTE: [/color]If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
@@ -480,7 +480,7 @@ l Mok'thardin's Enchantment|ACTIVE|570|L|3838 8|N|<coords>Kill Shadowmaw Panther
 l Mok'thardin's Enchantment|ACTIVE|570|M|47.25,22.74|Z|1434; Stranglethorn Vale|L|3839|N|Head up into the hills on the east side of Venture Co, Base Camp. Kill Stranglethorn Tigresses until one drops a Pristine Tigress Fang.\n[color=FF0000]NOTE: [/color]Watch out for the Elite Mosh'Ogg south of the road.|
 l Mok'thardin's Enchantment|ACTIVE|570|L|3838 8|N|<coords>Finish collecting Shadowmaw Claws.|US|
 C Panther Mastery|QID|192|QO|1|N|<coords>Kill 10 Shadowmaw Panthers.|US|
-R Nesingwary's Expedition|ACTIVE|186|M|37.56,11.73|Z|1434; Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+R Nesingwary's Expedition|ACTIVE|192|M|37.56,11.73|Z|1434; Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Panther Mastery|QID|192|M|35.56,10.54|Z|1434; Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|193|PRE|192|M|35.56,10.54|Z|1434; Stranglethorn Vale|ELITE|N|[color=ff8000]Elite: [/color]From Sir S. J. Erlgadin.|
 R Tkashi Ruins|QID|187|M|35.01,16.73|CC|Z|1434; Stranglethorn Vale|N|Head to the road and follow it south.|
@@ -646,7 +646,7 @@ F Camp Taurajo|AVAILABLE|1251^1268^1269|M|45.50,63.84|Z|1454; Orgrimmar|
 R Dustwallow Marsh|AVAILABLE|1251^1268^1269|M|28.53,47.18|N|Head east out Camp Taurajo to Southern Gold Road and follow the signs to Dustwallow Marsh.|
 
 A Suspicious Hoofprints|QID|1268|M|29.70,47.65|Z|1445; Dustwallow Marsh|
-A The Black Shield |QID|1251|M|29.63,48.59|Z|1445; Dustwallow Marsh|
+A The Black Shield|QID|1251|M|29.63,48.59|Z|1445; Dustwallow Marsh|
 A Lieutenant Paval Reethe|QID|1269|M|29.82,48.21|Z|1445; Dustwallow Marsh|
 A Hungry!|QID|1177|M|35.16,38.26|Z|1445; Dustwallow Marsh|N|Head From Mudcrush Durtfeet.|
 R Brackenwall Village|ACTIVE|1268^1251^1269|M|34.59,30.63|Z|1445; Dustwallow Marsh|N|Make your way to Brackenwall Village.|
@@ -654,7 +654,7 @@ A Theramore Spies|QID|1201|M|35.21,30.67|Z|1445; Dustwallow Marsh|N|From Nazeer 
 f Brackenwall Village|QID|1201|M|35.56,31.88|Z|1445; Dustwallow Marsh|N|At Shardi.|TAXI|-Brackenwall Village|
 T Suspicious Hoofprints|QID|1268|M|36.42,31.88|Z|1445; Dustwallow Marsh|N|To Krog.|
 T Lieutenant Paval Reethe|QID|1269|M|36.42,31.88|Z|1445; Dustwallow Marsh|N|To Krog.|
-T The Black Shield |QID|1251|M|36.42,31.88|Z|1445; Dustwallow Marsh|N|To Krog.|
+T The Black Shield|QID|1251|M|36.42,31.88|Z|1445; Dustwallow Marsh|N|To Krog.|
 A The Black Shield|QID|1321|PRE|1268&1251|M|36.42,31.88|Z|1445; Dustwallow Marsh|N|From Krog.|
 T The Black Shield|QID|1321|M|36.53,30.79|Z|1445; Dustwallow Marsh|N|To Do'gol.|
 A The Black Shield|QID|1322|PRE|1321|M|36.53,30.79|Z|1445; Dustwallow Marsh|N|From Do'gol.|

@@ -95,7 +95,7 @@ R Thunder Bluff|LEAD|870|AVAILABLE|886|M|51.25,58.96;46.76,51.95;37.16,31.89|CC|
 f Thunder Bluff|LEAD|870|AVAILABLE|886|M|47.02,49.83|Z|1456; Thunder Bluff|N|Get the flightpath from Tal.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Thunder Bluff|
 A The Barrens Oases|QID|886|LEAD|870|M|78.57,28.57|Z|1456; Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.\n[color=FF0000]NOTE: [/color]This may be a low level quest by now; get it anyway.|
 r Housekeeping|ACTIVE|886|N|Take a minute to visit the bank to pick up or offload items, the Auction House to find some gear or make some coin, or the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1456; Thunder Bluff|
-F Crossroads|ACTIVE|886|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads||N|Fly to The Crossroads.|
+F Crossroads|ACTIVE|886|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads|N|Fly to The Crossroads.|
 
 R Thorn Hill|ACTIVE|871|QO|1;2;3|M|53.57,24.46|Z|1413; The Barrens|N|Follow the road north out of Crossroads to the the small camp on the right.|
 C Disrupt The Attack|QID|871|QO|1;2;3|M|55.08,25.66|Z|1413; The Barrens|N|Kill the required Razormane Quilboars.\n[color=FF0000]NOTE: [/color]You'll find them in several camps in the area to the southeast.|
@@ -132,7 +132,7 @@ A Prowlers of the Barrens|QID|903|PRE|845|M|52.23,31.01|Z|1413; The Barrens|N|Fr
 T The Forgotten Pools|QID|870|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.|
 A The Stagnant Oasis|QID|877|PRE|870|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|
 
-F Orgrimmar|ACTIVE|887|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Orgrimmar to do your training.\n[color=FF0000]NOTE: [/color]Orgrimmar is a shorter flight than Thunder Bluff, but you can skip this step and fly to Thunder Bluff if you wish.|LVL|16|C|-Druid|
+F Orgrimmar|AVAILABLE|887|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Orgrimmar to do your training.\n[color=FF0000]NOTE: [/color]Orgrimmar is a shorter flight than Thunder Bluff, but you can skip this step and fly to Thunder Bluff if you wish.|LVL|16|C|-Druid|
 = Level 16 Training|AVAILABLE|887|M|PLAYER|CC|N|Do your level 16 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|C|-Druid|IZ|Orgrimmar^Thunder Bluff|
 
 ; --- Finish up Druid Cure Poison quest
@@ -230,7 +230,7 @@ F Thunder Bluff|ACTIVE|853|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Thunder Bl
 R The Pools of Vision|ACTIVE|853|M|30.26,30.30|Z|1456; Thunder Bluff|N|Head to the cave under Spirit Rise.\n[color=FF0000]NOTE: [/color]Using the bridge at the lowest level is quickest way there.|
 T Apothecary Zamah|QID|853|M|22.79,20.90|Z|1456; Thunder Bluff|N|To Apothecary Zamah near the back of the Pools of Vision beneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.79,20.90|Z|1456; Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|1456; Thunder Bluff|DUNGEON|
-F Crossroads|ACTIVE|894|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads||N|Return to The Crossroads.|
+F Crossroads|ACTIVE|894|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads|N|Return to The Crossroads.|
 R Control Console|ACTIVE|894|M|52.48,12.54|CC|N|Exit The Crossroads and head north looking for the big piece of machinery.|
 T Samophlange|QID|894|M|52.40,11.65|Z|1413; The Barrens|N|To the Control Console after you click on it. It's beside the machinery.\n[color=FF0000]NOTE: [/color]To avoid problems, clear any peons around you by pulling them away from the area. Otherwise, they will run for help.|
 A Samophlange|QID|900|PRE|894|M|52.40,11.65|Z|1413; The Barrens|N|From the Control Panel after you click on it.\n[color=FF0000]NOTE: [/color]You need to channel uninterrupted to access it.|
@@ -329,7 +329,7 @@ A Smart Drinks|QID|1491|PRE|865|M|62.37,37.62|Z|1413; The Barrens|ELITE|N|[color
 A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|Z|1413; The Barrens|N|From Mebox Mizzyrix.|
 A Trouble at the Docks|QID|959|M|63.09,37.60|Z|1413; The Barrens|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.\n[color=FF0000]NOTE: [/color]Skip if you wish.|DUNGEON|
 A The Guns of Northwatch|QID|891|M|62.29,39.03|Z|1413; The Barrens|N|From Captain Thalo'thas Brightsun.|
-F Crossroads|ACTIVE|880|M|63.09,37.16|Z|1413; The Barrens|TZ|The Crossroads||N|Fly to The Crossroads.|
+F Crossroads|ACTIVE|880|M|63.09,37.16|Z|1413; The Barrens|TZ|The Crossroads|N|Fly to The Crossroads.|
 T Altered Beings|QID|880|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.|
 ; lv 19
 A Hamuul Runetotem|QID|1489|PRE|880|M|52.26,31.93|Z|1413; The Barrens|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem.\n[color=FF0000]NOTE: [/color]This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|
@@ -368,7 +368,7 @@ R Splintertree Post|AVAILABLE|6442|M|67.24,71.58;70.05,70.19|CC|Z|1440; Ashenval
 U Warsong Reports|ACTIVE|6543|N|Open your Bundle of Reports.|U|16783|O| ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.|
 T Warsong Scout Update|QID|6543|QO|1|M|71.04,68.22|Z|1440; Ashenvale|N|Give one of the Reports to the Warsong Scout with a blue question mark over her head.\n[color=FF0000]NOTE: [/color]She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|
 f Splintertree Post|QID|6442|M|73.18,61.59|Z|1440; Ashenvale|N|Get the flightpath from Vhulgra.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Splintertree Post|
-F Crossroads|ACTIVE|876|M|73.18,61.59|Z|1440; Ashenvale|TZ|The Crossroads||N|Fly to The Crossroads.|
+F Crossroads|ACTIVE|876|M|73.18,61.59|Z|1440; Ashenvale|TZ|The Crossroads|N|Fly to The Crossroads.|
 T Serena Bloodfeather|QID|876|M|51.62,30.90|Z|1413; The Barrens|N|To Darsok Swiftdagger, up in the tower.| ;1950 exp|
 A Letter to Jin'Zil|QID|1060|PRE|876|M|51.62,30.90|Z|1413; The Barrens|N|From Darsok Swiftdagger.|
 F Orgrimmar|ACTIVE|3923|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Orgrimmar.|
@@ -474,9 +474,9 @@ A News of Dogran|QID|1510|PRE|1509|M|51.93,30.32|Z|1413; The Barrens|N|From Gazr
 ; --- (Chain will continue when in Stonetalon)
 
 ; --- You need to be in The Crossroads for the next step. Warlocks should already be there.
-F Crossroads|AVAILABLE|6548|M|44.44,59.15|Z|1413; The Barrens|TZ|The Crossroads|C|Shaman||N|Fly to the Crossroads from Camp Taurajo.|
-F Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads|C|Druid,Warrior,Mage,Hunter||N|Fly to the Crossroads from Thunder Bluff.|
-F Crossroads|AVAILABLE|6548|M|45.50,63.84|Z|1454; Orgrimmar|TZ|The Crossroads|C|Priest,Rogue||N|Fly to the Crossroads from Orgrimmar.|
+F Crossroads|AVAILABLE|6548|M|44.44,59.15|Z|1413; The Barrens|TZ|The Crossroads|C|Shaman|N|Fly to the Crossroads from Camp Taurajo.|
+F Crossroads|AVAILABLE|6548|M|47.02,49.83|Z|1456; Thunder Bluff|TZ|The Crossroads|C|Druid,Warrior,Mage,Hunter|N|Fly to the Crossroads from Thunder Bluff.|
+F Crossroads|AVAILABLE|6548|M|45.50,63.84|Z|1454; Orgrimmar|TZ|The Crossroads|C|Priest,Rogue|N|Fly to the Crossroads from Orgrimmar.|
 
 N Sun Rock Retreat (Stonetalon) FP|ACTIVE|1061|N|Another side trip to get the flight path in Sun Rock Retreat (Stonetalon).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Honor's Stand|AVAILABLE|6548|M|40.32,24.82|Z|1413; The Barrens|N|Head west out the Crossroads towards the mountains on the far side.\n[color=FF0000]NOTE: [/color]You can follow the road all the way around to the main entrance, or at this level, it's a safe bet to run straight across to the side entrance through the Forgotten Pools without much trouble.|TAXI|-Sun Rock Retreat|
@@ -621,7 +621,7 @@ t Owatanka|QID|884|M|44.86,59.14|Z|1413; The Barrens|N|To Jorn Skyseer.|IZ|Camp 
 A Cry of the Thunderhawk|QID|913|PRE|907|M|44.86,59.14|Z|1413; The Barrens|N|From Jorn Skyseer.|
 C Cry of the Thunderhawk|QID|913|M|45.34,49.10|Z|1413; The Barrens|L|5164|ITEM|5164|N|Thunderhawks.\n[color=FF0000]NOTE: [/color]You'll find them all around the outside edge of Camp Taurajo.|T|Thunderhawk|
 L Level 22|AVAILABLE|1131|N|You'll want to be within a bubble of level 22 before you return to Camp Taurajo.|LVL|21;-1950|C|Rogue|
-T Cry of the Thunderhawk |QID|913|M|44.86,59.14|Z|1413; The Barrens|N|To Jorn Skyseer back to Camp Taurajo.|
+T Cry of the Thunderhawk|QID|913|M|44.86,59.14|Z|1413; The Barrens|N|To Jorn Skyseer back to Camp Taurajo.|
 A Mahren Skyseer|QID|874|PRE|913|M|44.86,59.14|Z|1413; The Barrens|N|From Jorn Skyseer.|
 A The Ashenvale Hunt|QID|6382^235^742|LEAD|6383|M|44.86,59.14|Z|1413; The Barrens|N|From Jorn Skyseer.|
 A Melor Sends Word|QID|1130|LEAD|1131|M|44.86,59.14|Z|1413; The Barrens|N|From Jorn Skyseer.|
