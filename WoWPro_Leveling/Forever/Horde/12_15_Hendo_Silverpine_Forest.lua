@@ -2,8 +2,9 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('ClassicSilverpineForest1215', 'Leveling', 'Silverpine Forest', 'Hendo72', 'Horde', 1)
+WoWPro:GuideName(guide, 'Silverpine Forest')
 WoWPro:GuideLevels(guide, 10, 15)
-WoWPro:GuideNextGuide(guide, 'ClassicTheBarrens1521')
+WoWPro:GuideNextGuide(guide, 'BarrensP1Classic1518')
 WoWPro:GuideSteps(guide, function() return
 [[
 
@@ -33,17 +34,17 @@ A Lost Deathstalkers|QID|428|LEAD|429|M|43.43,40.86|Z|1421; Silverpine Forest|N|
 A Border Crossings|QID|477|M|43.97,40.93|Z|1421; Silverpine Forest|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
 C A Recipe For Death|QID|447|M|51.36,39.07|Z|1421; Silverpine Forest|L|3253 6;3254 6|ITEM|3253;3254|N|Grizzled Bear and spiders.\n[color=FF0000]NOTE: [/color]Do not go out of your way to get them. You will come to a good spot later.|S|
-C Prove Your Worth|QID|421|QO|1|M|47.97,40.43|Z|1421; Silverpine Forest|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
+C Prove Your Worth|QID|421|QO|1|M|47.97,40.43|Z|1421; Silverpine Forest|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Be careful in the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
 T Lost Deathstalkers|QID|428|M|53.47,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
-C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
+C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 3|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
 A Escorting Erland|QID|435|M|56.18,9.18|Z|1421; Silverpine Forest|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Deathstalker Erland inside the house at Malden's Orchard.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you have to wait for them to finish, or he's dead and you're waiting for him to respawn.|NA|
 A Escorting Erland|QID|435|M|56.18,9.18|Z|1421; Silverpine Forest|N|[color=FF0000]NOTE: [/color]You failed the quest.\nGo back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
 C Escorting Erland|QID|435|M|54.07,13.56|Z|1421; Silverpine Forest|N|Escort Erland to Rane Yorick in Ivar Patch.\n[color=FF0000]NOTE: [/color]Let him pull the aggro, but DO NOT leave him to tank or he will die.|
 T Escorting Erland|QID|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick (after they finish the convo).|
 ; lv 13
 A The Deathstalkers' Report|QID|449|PRE|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
-C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|T|Mottled Worg|US|
+C Wild Hearts|QID|429|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 3|ITEM|3164|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|T|Mottled Worg|US|
 C Prove Your Worth|QID|421|M|55.75,18.26|Z|1421; Silverpine Forest|N|Finish killing the Moonrage Whitescalps.|T|Moonrage Whitescalp|US|
 R The Sepulcher|ACTIVE|421|M|46.21,41.59|Z|1421; Silverpine Forest|N|Run back to the Sepulcher.|
 
@@ -56,29 +57,34 @@ A Speak with Renferrel|QID|3221|PRE|449|M|43.43,40.86|Z|1421; Silverpine Forest|
 T Speak with Renferrel|QID|3221|M|42.80,40.86|Z|1421; Silverpine Forest|N|To Apothecary Renferrel.|
 A Zinge's Delivery|QID|1359|PRE|3221|M|42.80,40.86|Z|1421; Silverpine Forest|N|From Apothecary Renferrel.|
 
-C Arugal's Folly|QID|422|M|52.82,28.58|Z|1421; Silverpine Forest|L|3155|N|After you clear your way to the second floor of the house at Valgan's Field, click the Dusty Spellbooks on the floor in the 2nd room.\n[color=FF0000]NOTE: [/color]Face the doorway when you click on it because a Moonrage Darkrunner will spawn and attack you from that direction.|
+C Arugal's Folly|QID|422|M|49.73,28.63;52.82,28.58|CS|Z|1421; Silverpine Forest|L|3155|N|After you clear your way to the second floor of the house at Valgan's Field, click the Dusty Spellbooks on the floor in the 2nd room.\n[color=FF0000]NOTE: [/color]Face the doorway when you click on it because a Moonrage Darkrunner will spawn and attack you from that direction.|
 T Return to Quinn|QID|430|M|53.43,12.59|Z|1421; Silverpine Forest|N|To Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
-A Ivar the Foul|QID|425|PRE|430|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
-K Ivar the Foul|ACTIVE|425|M|51.52,13.89|Z|1421; Silverpine Forest|N|Kill Ivar the Foul inside the barn.\n[color=FF0000]NOTE: [/color]Make your way inside the barn at the end of the field; clearing the mobs as you get to them. If you do not clear them as you go, you will become overwhelmed very QUICKLY with adds.\n \nStaying against the outside wall as you enter the barn, wait for the mob to path up to you and kill him. Ivar is in the far corner with a mob protecting him; if you pull one, you pull both.|
-T Ivar the Foul|QID|425|M|53.46,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick.\n[color=FF0000]NOTE: [/color]Do not linger inside the barn or you'll be fighting respawns as you exit.|
-R The Dead Fields|QID|437|QO|2|M|45.47,21.00|Z|1421; Silverpine Forest|N|Make your way to the Dead Fields.\n[color=FF0000]NOTE: [/color]Much like Ivar, you will want to clear the mobs as you go.\n \nApproaching the field from the north and entering on the west side is probably the better way to do it.|
+A Wild Eyes|QID|91920|M|53.43,12.59|Z|1421; Silverpine Forest|N|From Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
+C Wild Eyes|QID|91920|M|58.5,18.0|Z|1421; Silverpine Forest|N|Kill murlocks and loot their eyes.|
+
+R The Dead Fields|QID|437|QO|2|M|45.47,21.00|Z|1421; Silverpine Forest|N|Make your way to the Dead Fields.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go.\n \nApproaching the field from the north and entering on the west side is probably the better way to do it.|
 C The Dead Fields|QID|437|QO|1|M|45.47,21.00|Z|1421; Silverpine Forest|L|3622|ITEM|3622|N|Nightlash standing in the center of the Dead Fields.\n[color=FF0000]NOTE: [/color]If she's not there, kill all the Rot Hide Gnolls you see until she spawns.|T|Nightlash|
 B Cooking recipes|ACTIVE|447|M|33.00,17.84|Z|1421; Silverpine Forest|N|From Killian Sanatha by the shore in North Tide's Run.\n[color=FF0000]NOTE: [/color]He can help if you need bag space.\n \nManually check this step off to skip.|S!US|IZ|The Skittering Dark^North Tide's Run|
-C A Recipe For Death|QID|447|M|35.91,15.07|Z|1421; Silverpine Forest|L|3253 6;3254 6|ITEM|3253;3254|N|Grizzled Bear and spiders.\n[color=FF0000]NOTE: [/color]Don't go in the mine unless you have to.\nKeep an eye out for Krethis Shadowspinner (lv 15 rare) that spawns at the mine entrance.|T|Moss Stalker|US|
+C A Recipe For Death|QID|447|M|35.91,15.07|Z|1421; Silverpine Forest|L|3253 6;3254 6|ITEM|3253;3254|N|Grizzled Bear and spiders.\n[color=FF0000]NOTE: [/color]Don't go in the mine unless you have to.\nKeep an eye out for Krethis Shadowspinner (lv 15 rare) that spawns at the mine entrance, and the level 21 elite Son of Arugal which patrols the area.|T|Moss Stalker|US|
 L Level 14|ACTIVE|437|N|Grind until you're level 14.|LVL|14|C|Druid|
 P Moonglade|ACTIVE|437|N|Use your 'Teleport: Moonglade'.\n[color=FF0000]NOTE: [/color]Use this before you hearth back to the Sepulcher.|R|Tauren|C|Druid|
 = Level 14 Training|ACTIVE|437|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|IZ|Nighthaven|R|Tauren|C|Druid|
 N Cure Poison Class Quest|AVAILABLE|6126|ACTIVE|437|N|This is generally not worth the time doing as you can simply train 'Abolish Poison' at level 26, which is a better version of the spell.\nIf you still want to do it, do so now.SKIP|SPELL|Cure Poison;8946|R|Tauren|C|Druid|
 H The Sepulcher|ACTIVE|437|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth back to The Sepulcher|
 T The Dead Fields|QID|437|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec inside the Crypt.|
+T Wild Eyes|QID|91920|M|42.80,40.86|Z|1421; Silverpine Forest|N|To Apothecary Renferrel.|
+A Back to Quinn (Again)|QID|91921|M|42.80,40.86|Z|1421; Silverpine Forest|N|From Apothecary Renferrel.|
 A The Decrepit Ferry|QID|438|PRE|437|M|43.43,40.86|Z|1421; Silverpine Forest|N|From High Executor Hadrec.|
 A Supplying the Sepulcher|QID|6321|M|43.43,41.69|Z|1421; Silverpine Forest|N|From Deathguard Podrig at the Crypt entrance.|R|Undead|
 T Arugal's Folly|QID|422|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|423|PRE|422|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
+
 ; lv 14
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|PRE|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|From Karos Razok.|R|Undead|
 F Undercity|ACTIVE|447|M|45.62,42.60|Z|1421; Silverpine Forest|N|At Karos Razok.|
+A Prompt Potion Runner|QID|97891|M|58.28,55.07|Z|1458; Undercity|N|From Alessandro Luca.|
+T Prompt Potion Runner|QID|97891|N|To Doctor Martin Felben|
 R The Apothecarium|ACTIVE|447^1359|M|53.37,54.84|Z|1458; Undercity|N|Make your way to The Apothecarium in the southwest corner of Undercity.|
 T A Recipe For Death|QID|447|M|48.81,69.26|Z|1458; Undercity|N|To Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Cross the bridge over the canal to the outer ring and make your way to the passage way leading to him.\n \nDo NOT take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|1458; Undercity|N|To Apothecary Zinge.|
@@ -94,7 +100,11 @@ F The Sepulcher|ACTIVE|438|M|63.26,48.54|Z|1458; Undercity|N|Fly back to The Sep
 
 T Return to Podrig|QID|6324|M|43.43,41.69|Z|1421; Silverpine Forest|N|To Deathguard Podrig at the Crypt entrance.|R|Undead|
 R North Tide's Hollow|ACTIVE|423|QO|1;2|M|44.78,34.34|Z|1421; Silverpine Forest|N|Exit the Sepulcher through the gap in the hills on the north side and follow the hill down to the bottom.\n[color=FF0000]NOTE: [/color]This is a one way trip; you cannot climb back up this way.|
-C Arugal's Folly|QID|423|QO|1;2|M|44.12,31.76|Z|1421; Silverpine Forest|L|3156 6;3157 3|ITEM|3156;3157|N|Moonrage Gluttons and Darksouls.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 20-25 Elite that roams the area.|
+C Arugal's Folly|QID|423|QO|1;2|M|44.21,38.11;40,29|CS|Z|1421; Silverpine Forest|L|3156 6;3157 3|ITEM|3156;3157|N|Moonrage Gluttons and Darksouls.\n[color=FF0000]NOTE: [/color]Keep an eye out for Son of Arugal, a lv 20-25 Elite that roams the area.|
+T Back to Quinn (Again)|QID|91921|M|53.43,12.59|Z|1421; Silverpine Forest|N|To Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
+A Ivar the Foul|QID|425|PRE|430|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
+C Ivar the Foul|ACTIVE|425|M|51.52,13.89|Z|1421; Silverpine Forest|N|Kill Ivar the Foul inside the barn.\n[color=FF0000]NOTE: [/color]Make your way inside the barn at the end of the field; clearing the mobs as you get to them. If you do not clear them as you go, you will become overwhelmed very QUICKLY with adds.\n \nStaying against the outside wall as you enter the barn, wait for the mob to path up to you and kill him. Ivar is in the far corner with a mob protecting him; if you pull one, you pull both.|
+T Ivar the Foul|QID|425|M|53.46,13.43|Z|1421; Silverpine Forest|N|To Rane Yorick.\n[color=FF0000]NOTE: [/color]Do not linger inside the barn or you'll be fighting respawns as you exit.|
 R The Decrepit Ferry|ACTIVE|438|M|49.76,30.22;54.63,31.24|CC|Z|1421; Silverpine Forest|N|Make your way to the bridge on the main road. Cross the bridge and follow the south shore east.\n[color=FF0000]NOTE: [/color]The mobs in this area (Hand of Ravenclaw) hit hard and they roam considerably. But, they are afraid of water.|
 T The Decrepit Ferry|QID|438|M|58.41,34.83|Z|1421; Silverpine Forest|N|To the Corpse Laden Boat by the dock.\n[color=FF0000]NOTE: [/color]Click on the boat to turn it in.|
 A Rot Hide Clues|QID|439|PRE|438|M|58.41,34.83|Z|1421; Silverpine Forest|N|From the Corpse Laden Boat.|
@@ -164,6 +174,7 @@ R Tirisfal Glades|ACTIVE|1358|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal 
 ; --- Travel to Durotar (Orgrimmar)
 b Durotar|ACTIVE|1358|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|IZ|1420; Tirisfal Glades|
 R Orgrimmar|ACTIVE|1358|AVAILABLE|1061|LEAD|1062|M|49.10,94.87|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
+N Moving On...|N|From here you can move to the Dungeon: Ruins of Lorderon guide before continuing on to The Barrens Part 1. For the purposes of this guide, we will be moving straight to The Barrens.  Manually check off this step to complete the guide and proceed.|
 
 ]]
 end)
