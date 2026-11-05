@@ -16,10 +16,8 @@ C Harmony in Balance|QID|92461|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vul
 C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|US|
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-A Reading the Ley Lines|QID|92597|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|
 r Repair/Restock|QID|92463|M|42.76,24.48|N|At Uualia Suncrest.|
 T Harmony in Balance|QID|92461|M|42.05,23.50|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
-A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 
 A A Student of the Arcane|QID|92481|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Mage|
 A The Way of the Hunter|QID|92482|PRE|92461|M|42.07,23.49|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Hunter|
@@ -27,6 +25,8 @@ A A Student of Nature|QID|92485|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|F
 A At Home in the Shadows|QID|92483|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Rogue|
 A The Warrior's Path|QID|92532|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Warrior|
 
+A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
+A Reading the Ley Lines|QID|92597|PRE|92461|M|43.33,24.86|Z|2521; Zephras Isle|N|From Falorne Fallwind.|
 A Harvesting Windstones|QID|93552|M|43.33,24.00|Z|2521; Zephras Isle|N|From Dalia the Collector.|
 A The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|N|From Halaan Hawk-Eye at the top of the tower.|
 C The Anchors of Zephras|QID|94414|M|43.76,24.09|Z|2521; Zephras Isle|NC|N|View the Anchor Pylon.|
