@@ -133,18 +133,18 @@ A The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|From Brakk.|
 T The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
 
 
-A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
-A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
-A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
-A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
-A Camping 101: Mining|QID|97907|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
-A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
-A Camping 101: Engineering|QID|97902|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
-A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
-A Camping 101: Skinning|QID|97908|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
-A Camping 101: First Aid|QID|97903|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
-A Camping 101: Cooking|QID|96655|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|
-A Camping 101: Fishing|QID|97904|PRE|96604|M|52.0 47.2|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
+A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
+A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
+A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
+A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
+A Camping 101: Mining|QID|97907|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
+A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
+A Camping 101: Engineering|QID|97902|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
+A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
+A Camping 101: Skinning|QID|97908|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
+A Camping 101: First Aid|QID|97903|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
+A Camping 101: Cooking|QID|96655|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|
+A Camping 101: Fishing|QID|97904|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
 
 
 T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
