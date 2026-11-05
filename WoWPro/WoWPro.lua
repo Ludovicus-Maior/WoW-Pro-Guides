@@ -320,9 +320,9 @@ local defaults = { profile = {
     drag = true,
     expansionAnchor = "TOPLEFT",
     position = {"CENTER", "UIParent" , "CENTER", 0, 0},
-    size = {300, 300},  -- {Height, Width}
+    size = {300, 200},  -- {Height, Width}
     userPad = 5,
-    space = 10,
+    space = 5,
     mousenotes = false,
     minimap = { hidden = false, },
     track = true,
@@ -342,7 +342,7 @@ local defaults = { profile = {
     titlebar = true,
     titlecolor = {0.5, 0.5, 0.5, 1},
     bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-    bgcolor = {1, 1, 1, 1},
+    bgcolor = {0, 0, 0, 0.8},
     bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
     border = false,
     stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
@@ -392,6 +392,22 @@ local function MigrateProfileSettings()
                 profile.stepfontsize = profile.steptextsize
             end
             profile.steptextsize = nil
+            if profile.notefontsize == nil and profile.notetextsize ~= nil then
+                profile.notefontsize = profile.notetextsize
+            end
+            profile.notetextsize = nil
+            if profile.trackfontsize == nil and profile.tracktextsize ~= nil then
+                profile.trackfontsize = profile.tracktextsize
+            end
+            profile.tracktextsize = nil
+            if profile.titlefontsize == nil and profile.titletextsize ~= nil then
+                profile.titlefontsize = profile.titletextsize
+            end
+            profile.titletextsize = nil
+            if profile.stickytitlefontsize == nil and profile.stickytitletextsize ~= nil then
+                profile.stickytitlefontsize = profile.stickytitletextsize
+            end
+            profile.stickytitletextsize = nil
         end
     end
 end
