@@ -188,6 +188,7 @@ C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04|Z|1429; Elwynn Forest|L|773 
 K Geosculpter Yip|ACTIVE|91777|QO|1|M|60.51,49.86|Z|1429; Elwynn Forest|N|Kill Geosculpter amd loot his book.|US|
 K Mother Fang|ACTIVE|91777|QO|2|M|61.38,47.13|Z|1429; Elwynn Forest|N|Kill Mother Fang and look its book.|US|
 T Rare Books|QID|91777|M|49.57,40.40|Z|1429; Elwynn Forest|N|Run back to Northshire Valley and turn in to Brother Paxton.|
+H Goldshire|ACTIVE|76|M|43.77,65.80|Z|1429; Elwynn Forest|N|Use your hearth or run back to Goldshire (depending on how close you are).|TZ|Lion's Pride Inn|
 T The Jasperlode Mine|QID|76|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429; Elwynn Forest|N|To Remy "Two Times".|
@@ -214,7 +215,7 @@ C Downstream|QID|91733|QO|1|M|76.79,82.44|Z|1429; Elwynn Forest|N|Grab the Water
 C Downstream|QID|91733|QO|3|M|77.23,86.87|Z|1429; Elwynn Forest|N|Grab the Waterlogged Toolbox from the water.|NC|
 l Croaky's Head|AVAILABLE|91740|M|76.48,87.46|Z|1429; Elwynn Forest|L|247826|ITEM|247826|ELITE|T|Croaky|
 A Croaky's Head|QID|91740|M|PLAYER|CC|N|From Croaky's head you just looted.|U|247826|O|
-l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S!US|
+l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S|
 A Furlbrow's Deed|QID|184|M|PLAYER|CC|N|From the Westfall Deed you just looted.|U|1972|O|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429; Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|S|
 C Princess Must Die!|QID|88|M|69.70,79.69|Z|1429; Elwynn Forest|L|1006|ITEM|1006|N|Princess.\n[color=FF0000]NOTE: [/color]She has two guards with her.\nFocus on killing her, break combat, and come back to loot.\n\nAsk for help if you have trouble, or skip this step to move on for now.|T|Princess|

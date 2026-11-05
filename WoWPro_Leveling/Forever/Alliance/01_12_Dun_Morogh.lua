@@ -5,7 +5,7 @@ WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|
-C Dwarven Outfitters|QID|179|M|27.33,76.40|Z|1426; Dun Morogh|NC|N|8/8 Tough Wolf Meat.|
+C Dwarven Outfitters|QID|179|M|27.33,76.40|Z|1426; Dun Morogh|NC|N|Tough Wolf Meat.|
 T Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|To Sten Stoutarm.|
 
 ; Quest name changes depending upon your class
@@ -43,8 +43,8 @@ A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.62,71.34|Z|1426; Dun Morog
 A The Boar Hunter|QID|183|PRE|233|M|22.62,71.34|Z|1426; Dun Morogh|N|From Talin Keeneye.|
 T Coldridge Valley Mail Delivery|QID|234|M|25.00,75.72|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
 A The Troll Cave|QID|182|PRE|234|M|25.00,75.72|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
-K A New Threat|QID|170|M|22.44,72.64|Z|1426; Dun Morogh|N|6/6 Burly Rockjaw Trogg slain.|
-K A New Threat|QID|170|M|31.87,74.68|Z|1426; Dun Morogh|N|6/6 Rockjaw Trogg slain.|
+K A New Threat|QID|170|M|22.44,72.64|Z|1426; Dun Morogh|N|Burly Rockjaw Trogg slain.|
+K A New Threat|QID|170|M|31.87,74.68|Z|1426; Dun Morogh|N|Rockjaw Trogg slain.|
 T A New Threat|QID|170|M|29.76,71.37|Z|1426; Dun Morogh|N|To Balir Frosthammer.|
 A A Refugee's Quandary|QID|3361|PRE|170|M|28.53,67.73|Z|1426; Dun Morogh|N|From Felix Whindlebolt.|
 K The Boar Hunter|QID|183|M|22.89,69.78|Z|1426; Dun Morogh|N|12/12 Small Crag Boar slain.|
@@ -120,11 +120,11 @@ T Secure the Mountain|QID|98322|M|44.10,56.96|Z|1426; Dun Morogh|N|To Mountainee
 A Secure the Mountain|QID|98319|PRE|96047&98322|M|44.10,56.96|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
 T Ammo for Rumbleshot|QID|5541|M|40.76,65.07|Z|1426; Dun Morogh|N|To Hegnar Rumbleshot.|
 C Secure the Mountain|QID|98319|M|42.91,49.52|Z|1426; Dun Morogh|NC|N|Mountaineer Cornelius found.|
-C Flintfire's Shipment|QID|98321|M|43.51,49.49|Z|1426; Dun Morogh|NC|N|8/8 Flintfire's Shipment.|
-C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|NC|N|8/8 Wendigo Mane.|
+C Flintfire's Shipment|QID|98321|M|43.51,49.49|Z|1426; Dun Morogh|NC|N|Flintfire's Shipment.|
+C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|NC|N|Wendigo Mane.|
 T Secure the Mountain|QID|98319|M|44.04,56.95|Z|1426; Dun Morogh|N|To Mountaineer Gretchen.|
 A Secure the Mountain|QID|98323|PRE|5541&98319|M|44.04,56.95|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
-C Beer Basted Boar Ribs|QID|384|M|47.37,63.40|Z|1426; Dun Morogh|NC|N|6/6 Crag Boar Rib.|
+C Beer Basted Boar Ribs|QID|384|M|47.37,63.40|Z|1426; Dun Morogh|NC|N|Crag Boar Rib.|
 C Stocking Jetsteam|QID|317|M|46.33,63.79|Z|1426; Dun Morogh|NC|N|4/4 Chunk of Boar Meat.|
 T Secure the Mountain|QID|98323|M|46.73,53.85|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
 A Frostmane Hold|QID|287|PRE|98323|M|46.73,53.85|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
@@ -143,7 +143,7 @@ T Finding Warmth|QID|99159|M|57.76,45.01|Z|1426; Dun Morogh|N|To Father Gavin.|
 A Rime's Wrath|QID|99160|PRE|99159|M|57.76,45.01|Z|1426; Dun Morogh|N|From Father Gavin.|
 A Treacherous Cold|QID|99162|PRE|99159|M|57.76,45.01|Z|1426; Dun Morogh|N|From Father Gavin.|
 C Treacherous Cold|QID|99162|M|52.12,44.00|Z|1426; Dun Morogh|NC|N|Coalbeard's Rifle.|
-K Rime's Wrath|QID|99160|M|55.54,44.99|Z|1426; Dun Morogh|N|10/10 Minor Ice Elemental slain.|
+K Rime's Wrath|ACTIVE|99160|QO|1|M|55.54,44.99|Z|1426; Dun Morogh|N|Minor Ice Elemental slain.|
 C Treacherous Cold|QID|99162|M|59.84,50.15|Z|1426; Dun Morogh|NC|N|Sunhammer's Rifle.|
 C Treacherous Cold|QID|99162|M|53.22,58.68|Z|1426; Dun Morogh|NC|N|Stoneanvil's Rifle.|
 T Rime's Wrath|QID|99160|M|57.76,45.00|Z|1426; Dun Morogh|N|To Father Gavin.|
@@ -152,17 +152,19 @@ A Rime's Wrath|QID|99161|PRE|99160&99162|M|57.76,45.00|Z|1426; Dun Morogh|N|From
 C Rime's Wrath|QID|99161|M|58.02,41.95|Z|1426; Dun Morogh|NC|N|Avala's Core.|
 T Rime's Wrath|QID|99161|M|57.78,44.87|Z|1426; Dun Morogh|N|To Father Gavin.|
 A Your Package Has Arrived|QID|97263|PRE|99161|M|72.29,48.72|Z|1455; Ironforge|
-A Data Hoarders|QID|95041|PRE|99161|M|68.15,44.53|Z|1455; Ironforge|N|From Jemma Quikswitch.|
+A Data Hoarders|QID|95041|PRE|99161|M|68.15,44.53|Z|1455; Ironforge|N|From Jemma Quikswitch.|LVL|7|
 T Your Package Has Arrived|QID|97263|M|47.32,13.09|Z|1455; Ironforge|N|To Eldrun Stormbreaker.|
 A Frosthowl|QID|98326|PRE|97263&96031|M|31.53,44.73|Z|1426; Dun Morogh|N|From Gretta Ganter.|
 T Evershine|QID|318|M|30.27,45.69|Z|1426; Dun Morogh|N|To Rejold Barleybrew.|
 A A Favor for Evershine|QID|319|PRE|318|M|30.27,45.69|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 A The Perfect Stout|QID|315|PRE|318|M|30.27,45.69|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 A Bitter Rivals|QID|310|PRE|318|M|30.25,45.57|Z|1426; Dun Morogh|N|From Marleth Barleybrew.|
-C The Perfect Stout|QID|315|M|41.57,43.85|Z|1426; Dun Morogh|NC|N|6/6 Shimmerweed.|
-K A Favor for Evershine|QID|319|M|37.97,42.76|Z|1426; Dun Morogh|N|6/6 Ice Claw Bear slain.|
-K A Favor for Evershine|QID|319|M|35.03,35.67|Z|1426; Dun Morogh|N|8/8 Elder Crag Boar slain.|
-K A Favor for Evershine|QID|319|M|28.96,44.50|Z|1426; Dun Morogh|N|8/8 Snow Leopard slain.|
+C The Perfect Stout|QID|315|M|41.57,43.85|Z|1426; Dun Morogh|NC|N|Shimmerweed.|
+K A Favor for Evershine|ACTIVE|319|QO|1|M|37.97,42.76|Z|1426; Dun Morogh|N|Ice Claw Bear slain.|S|
+K A Favor for Evershine|ACTIVE|319|QO|2|M|35.03,35.67|Z|1426; Dun Morogh|N|Elder Crag Boar slain.|S|
+K A Favor for Evershine|ACTIVE|319|QO|3|M|28.96,44.50|Z|1426; Dun Morogh|N|Snow Leopard slain.|
+K A Favor for Evershine|ACTIVE|319|QO|1|M|37.97,42.76|Z|1426; Dun Morogh|N|Ice Claw Bear slain.|US|
+K A Favor for Evershine|ACTIVE|319|QO|2|M|35.03,35.67|Z|1426; Dun Morogh|N|Elder Crag Boar slain.|US|
 T A Favor for Evershine|QID|319|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Barleybrew.|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.15,45.78|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 T The Perfect Stout|QID|315|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Barleybrew.|
@@ -235,10 +237,9 @@ T Grey Iron Weapons|QID|1682|M|48.65,42.49|Z|1455;Ironforge|N|To Tormus Deepforg
 A A Visitor to Dun Morogh|QID|96408|PRE|320|M|50.40,49.14|Z|1426; Dun Morogh|N|From Beldin Steelgrill.|
 C Frosthowl|QID|98326|M|40.13,48.06|Z|1426; Dun Morogh|NC|N|Sack of Fish.|
 C Frostmane Hold|QID|287|M|21.12,54.04|Z|1426; Dun Morogh|NC|N|Fully explore Frostmane Hold.|
-K Frostmane Hold|QID|287|M|21.11,51.40|Z|1426; Dun Morogh|N|5/5 Frostmane Headhunter slain.|
-C Data Hoarders|QID|95041|M|26.77,42.20|Z|1426; Dun Morogh|NC|N|7/7 Gnomeregan Archival Data.|
-C Operation Recombobulation|QID|412|M|25.48,41.31|Z|1426; Dun Morogh|NC|N|8/8 Gyromechanic Gear.|
-C Operation Recombobulation|QID|412|M|24.86,42.80|Z|1426; Dun Morogh|NC|N|8/8 Restabilization Cog.|
+C Data Hoarders|QID|95041|M|26.77,42.20|Z|1426; Dun Morogh|NC|N|Gnomeregan Archival Data.|
+C Operation Recombobulation|QID|412|M|25.48,41.31|Z|1426; Dun Morogh|NC|N|Gyromechanic Gear.|
+C Operation Recombobulation|QID|412|M|24.86,42.80|Z|1426; Dun Morogh|NC|N|Restabilization Cog.|
 T Return to Marleth|QID|311|M|30.16,45.48|Z|1426; Dun Morogh|N|To Marleth Barleybrew.|
 T Frosthowl|QID|98326|M|31.49,44.75|Z|1426; Dun Morogh|N|To Gretta Ganter.|
 A Tundra MacGrann's Stolen Stash|QID|312|PRE|320|M|34.64,51.63|Z|1426; Dun Morogh|N|From Tundra MacGrann.|
@@ -264,13 +265,13 @@ A Those Blasted Troggs!|QID|432|PRE|96392|M|69.03,56.27|Z|1426; Dun Morogh|N|Fro
 A Stolen Blasting Powder|QID|95213|PRE|96392|M|70.62,53.18|Z|1426; Dun Morogh|N|From Rockjaw Bonesnapper.|
 T Stolen Blasting Powder|QID|95213|M|69.11,54.81|Z|1426; Dun Morogh|N|To Quarrymaster Thesten.|
 A Stolen Blasting Powder|QID|95214|PRE|95213|M|69.11,54.81|Z|1426; Dun Morogh|N|From Quarrymaster Thesten.|
-K Those Blasted Troggs!|QID|432|M|67.63,59.21|Z|1426; Dun Morogh|N|6/6 Rockjaw Skullthumper slain.|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|67.63,59.21|Z|1426; Dun Morogh|N|Rockjaw Skullthumper slain.|
 T Those Blasted Troggs!|QID|432|M|69.05,56.28|Z|1426; Dun Morogh|N|To Foreman Stonebrow.|
 C Stolen Blasting Powder|QID|95214|M|73.62,52.63|Z|1426; Dun Morogh|NC|N|16/16 Stolen Blasting Powder.|
-C Never Saddle on Quality|QID|95212|M|75.52,61.86|Z|1426; Dun Morogh|NC|N|6/6 Pristine Leopard Pelt.|
+C Never Saddle on Quality|QID|95212|M|75.52,61.86|Z|1426; Dun Morogh|NC|N|Pristine Leopard Pelt.|
 A Underground Map|QID|96391|PRE|432|M|77.15,61.62|Z|1426; Dun Morogh|
-K The Public Servant|QID|433|M|80.09,55.47|Z|1426; Dun Morogh|N|10/10 Rockjaw Bonesnapper slain.|
-K Nip 'Em in the Bud|QID|96390|M|76.89,61.32|Z|1426; Dun Morogh|N|10/10 Dark Iron Spy slain.|
+K The Public Servant|ACTIVE|433|QO|1|M|80.09,55.47|Z|1426; Dun Morogh|N|Rockjaw Bonesnapper slain.|
+K Nip 'Em in the Bud|ACTIVE|96390|QO|1|M|76.89,61.32|Z|1426; Dun Morogh|N|Dark Iron Spy slain.|
 T Stolen Blasting Powder|QID|95214|M|69.15,54.89|Z|1426; Dun Morogh|N|To Quarrymaster Thesten.|
 T The Public Servant|QID|433|M|68.66,55.84|Z|1426; Dun Morogh|N|To Senator Mehr Stonehallow.|
 T Nip 'Em in the Bud|QID|96390|M|64.83,58.40|Z|1426; Dun Morogh|N|To Earthseer Farsen.|
