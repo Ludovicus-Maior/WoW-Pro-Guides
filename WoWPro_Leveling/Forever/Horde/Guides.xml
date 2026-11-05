@@ -4,7 +4,9 @@
   <Script file="01_12_Hendo_Tirisfal_Glades.lua"/>
   <Script file="01_12_Zephras_Isle_H.lua"/>
   <Script file="12_15_Hendo_Silverpine_Forest.lua"/>
-  <Script file="15_21_Hendo_The_Barrens.lua"/>
+  ;<Script file="15_21_Hendo_The_Barrens.lua"/>
+  <Script file="15_18_Hendo_The_Barrens1.lua"/>
+  <Script file="18_21_Hendo_The_Barrens2.lua"/>
   <Script file="21_30_Hendo_HordeChapter1.lua"/>
   <Script file="31_40_Hendo_HordeChapter2.lua"/>
   <Script file="41_50_Hendo_HordeChapter3.lua"/>

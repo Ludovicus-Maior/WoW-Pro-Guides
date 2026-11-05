@@ -84,7 +84,7 @@ C Bounty on Garrick Padfoot|QID|6|M|57.52,48.25|Z|1429; Elwynn Forest|L|182|N|Ki
 C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|US|NC|
 T Milly's Harvest|QID|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth.|
 A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
-r Sell and Repair|ACTIVE|21|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|
+r Sell and Repair|ACTIVE|3905|M|47.69,41.42|Z|1429; Elwynn Forest|N|Sell and Repair at Godric Rothgar.|
 T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|Z|1429; Elwynn Forest|N|To Brother Neals, at the very top of the spiral staircase inside the abbey.|
 A In Favor of the Light|QID|5623|M|49.81,39.49|Z|1429; Elwynn Forest|N|Get your level 5 class quest from Priestess Anetta.|R|Human|C|Priest|LVL|5|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
@@ -95,7 +95,7 @@ A The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sa
 C The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|Sit next to the fire using /sit.|
 T The Great Outdoors|QID|95998|M|44.87,63.26|Z|1429; Elwynn Forest|N|To Sam Sarsaparilla.|
 
-A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Goldshire|
+A Camping 101: Blacksmithing|QID|97916|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Goldshire|
 A Camping 101: Leatherworking|QID|97922|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Goldshire|
 A Camping 101: Alchemy|QID|97915|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Goldshire|
 A Camping 101: Herbalism|QID|97921|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Goldshire|
@@ -188,6 +188,7 @@ C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04|Z|1429; Elwynn Forest|L|773 
 K Geosculpter Yip|ACTIVE|91777|QO|1|M|60.51,49.86|Z|1429; Elwynn Forest|N|Kill Geosculpter amd loot his book.|US|
 K Mother Fang|ACTIVE|91777|QO|2|M|61.38,47.13|Z|1429; Elwynn Forest|N|Kill Mother Fang and look its book.|US|
 T Rare Books|QID|91777|M|49.57,40.40|Z|1429; Elwynn Forest|N|Run back to Northshire Valley and turn in to Brother Paxton.|
+H Goldshire|ACTIVE|76|M|43.77,65.80|Z|1429; Elwynn Forest|N|Use your hearth or run back to Goldshire (depending on how close you are).|TZ|Lion's Pride Inn|
 T The Jasperlode Mine|QID|76|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429; Elwynn Forest|N|To Remy "Two Times".|
@@ -214,7 +215,7 @@ C Downstream|QID|91733|QO|1|M|76.79,82.44|Z|1429; Elwynn Forest|N|Grab the Water
 C Downstream|QID|91733|QO|3|M|77.23,86.87|Z|1429; Elwynn Forest|N|Grab the Waterlogged Toolbox from the water.|NC|
 l Croaky's Head|AVAILABLE|91740|M|76.48,87.46|Z|1429; Elwynn Forest|L|247826|ITEM|247826|ELITE|T|Croaky|
 A Croaky's Head|QID|91740|M|PLAYER|CC|N|From Croaky's head you just looted.|U|247826|O|
-l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S!US|
+l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S|
 A Furlbrow's Deed|QID|184|M|PLAYER|CC|N|From the Westfall Deed you just looted.|U|1972|O|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429; Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|S|
 C Princess Must Die!|QID|88|M|69.70,79.69|Z|1429; Elwynn Forest|L|1006|ITEM|1006|N|Princess.\n[color=FF0000]NOTE: [/color]She has two guards with her.\nFocus on killing her, break combat, and come back to loot.\n\nAsk for help if you have trouble, or skip this step to move on for now.|T|Princess|
@@ -250,7 +251,7 @@ T Report to Thomas|QID|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas.|
-R Goldshire|ACTIVE|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Start heading towards Goldshire.|LVL|8;-2220|S!US|
+R Goldshire|ACTIVE|39|M|43.77,65.95|Z|1429; Elwynn Forest|N|Start heading towards Goldshire.|LVL|8;-2220|S!US|
 H Goldshire|QID|112|M|43.77,65.95|Z|1429; Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|TZ|Lion's Pride Inn|
 = Level 8 Training|ACTIVE|39|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan.|

@@ -93,7 +93,7 @@ T The Adventurer|QID|96656|M|57.22,55.48|Z|1420; Tirisfal Glades|N|To Eleanor Sh
 A The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|
 C The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|/sit at the fire.|T|Eleanor Shackleton,sit|
 T The Great Outdoors|QID|96607|M|57.22,55.48|Z|1420; Tirisfal Glades|N|To Eleanor Shackleton.|
-A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; FLIP|IZ|Tirisfal Glades|
+A Camping 101: Blacksmithing|QID|97952|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Tirisfal Glades|
 A Camping 101: Leatherworking|QID|97958|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Tirisfal Glades|
 A Camping 101: Alchemy|QID|97951|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Tirisfal Glades|
 A Camping 101: Herbalism|QID|97957|M|57.21,55.48|Z|1420; Tirisfal Glades|N|From Eleanor Shackleton.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Tirisfal Glades|
@@ -186,10 +186,10 @@ A The Prodigal Lich|QID|405|PRE|358|M|61.26,50.84|Z|1420; Tirisfal Glades|N|From
 A Deaths in the Family|QID|354|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Coleman Farthing on the ground floor the Tavern.|
 A The Haunted Mills|QID|362|M|61.71,52.31|Z|1420; Tirisfal Glades|N|From Coleman Farthing.|
 A The Chill of Death|QID|375|M|61.89,52.71|Z|1420; Tirisfal Glades|N|From Gretchen Dedmar upstairs in the Tavern.|
-L Level 8|ACTIVE|370|M|PLAYER|CC|N|Grind until you're within 5 bubbles of level 8.|LVL|6;-675|
-r Housekeeping|ACTIVE|5481|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
-= Level 8 Training|ACTIVE|5481|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Brill|
-= Level 8 Demon Training|ACTIVE|5481|M|PLAYER|CC|N|Pick up your Grimoire of Firebolt for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|C|Warlock|
+L Level 8|ACTIVE|354|M|PLAYER|CC|N|Grind until you're within 5 bubbles of level 8.|LVL|6;-675|
+r Housekeeping|ACTIVE|354|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
+= Level 8 Training|ACTIVE|354|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Brill|
+= Level 8 Demon Training|ACTIVE|354|M|PLAYER|CC|N|Pick up your Grimoire of Firebolt for 25c.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|C|Warlock|
 C The Chill of Death|QID|375|QO|1|M|53.72,62.55|Z|1420; Tirisfal Glades|L|2876 5|ITEM|2876|N|Duskbats around the area southwest of Brill.|S|
 A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|Z|1420; Tirisfal Glades|N|From Apothecary Johaan.\n[color=FF0000]NOTE: [/color]Accept this breadcrumb quest if you intend to do Silverpine Forest next. Otherwise, decline the quest and skip this step to move on.| ; ** If you're not already at level 10, this step will activate as soon as you are. - Hendo72
 R Agamand Mills|ACTIVE|426|M|47.68,43.26|Z|1420; Tirisfal Glades|N|Run northwest to Agamand Mills.\n[color=FF0000]NOTE: [/color]Unless you're looking to grind your way across, stick to the mountain edge or follow the road.|
@@ -323,7 +323,7 @@ T Seeking Refuge|QID|99144|M|60.2,52.6|Z|1420; Tirisfal Glades|N|To Shari Stilwe
 T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|Z|1420; Tirisfal Glades|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|370|PRE|427|M|60.57,51.77|Z|1420; Tirisfal Glades|N|From Executor Zygand.|
 A Proof of Demise|QID|374|PRE|427|M|60.93,51.98|Z|1420; Tirisfal Glades|N|From Deathguard Burgess.|
-r Housekeeping|ACTIVE|404|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
+r Housekeeping|ACTIVE|370|M|60.32,52.81|Z|1420; Tirisfal Glades|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
 C Proof of Demise|QID|374|M|51.21,67.76|Z|1420; Tirisfal Glades|L|2875 10|ITEM|2875|N|Scarlet Crusade mobs.|S|
 C At War With The Scarlet Crusade|QID|370|QO|2;3|M|51.21,67.76|Z|1420; Tirisfal Glades|N|Kill the required Scarlet mobs.|S|
 C At War With The Scarlet Crusade|QID|370|QO|1|M|51.21,67.76|Z|1420; Tirisfal Glades|N|Clear your way to Captain Perrine, inside the tower.\n[color=FF0000]NOTE: [/color]You cannot pull his guard inside without pulling him.|

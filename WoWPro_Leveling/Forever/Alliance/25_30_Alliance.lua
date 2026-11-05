@@ -58,7 +58,7 @@ N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I 
 ; Redridge 26-27
 F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|1437; Wetlands|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|1453; Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|1453; Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
+B Stormwind Seasoning Herbs|QID|90|M|60.07,51.55;64.15,60.60|CS|Z|1453; Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|1453; Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
 t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
 t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
@@ -156,7 +156,7 @@ C Klaven's Tower|QID|2359|M|70.4,73.93|Z|1436; Westfall|QO|1|N|Sneak to the top 
 N Touch of Zanzil|QID|2359|N|You can't stealth anymore because of this annoying debuff. You'll need to ask a Paladin, Druid or Shaman to remove it for you. Or you can do it yourself with Anti-Venom if you leveled first aid enough. Close this step.|C|Rogue|
 N Lockpicking|QID|2359|N|You can level your lockpicking skill up to 170 on this chest. Highly recommend doing it. Close this step.|C|Rogue|
 T The Legend of Stalvan|QID|67|M|41.51,66.72|Z|1436; Westfall|N|To Old Footlocker. On the floor.|
-A The Legend of Stalvan |QID|68|M|41.51,66.72|Z|1436; Westfall|N|From Old Footlocker. On the floor.|PRE|67|
+A The Legend of Stalvan|QID|68|M|41.51,66.72|Z|1436; Westfall|N|From Old Footlocker. On the floor.|PRE|67|
 t The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
@@ -282,7 +282,7 @@ T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Do
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|Z|1431; Duskwood|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|1431; Duskwood|
 A The Missing Diplomat|QID|1245|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|PRE|1244|Z|1431; Duskwood|
-T Look To The Stars |QID|181|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|1431; Duskwood|
+T Look To The Stars|QID|181|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|1431; Duskwood|
 
 F Ironforge|QID|1653|M|77.50,44.30|N|Fly to Ironforge.|C|Paladin|Z|1431; Duskwood|
 A The Brassbolts Brothers|QID|1179|M|72.60,93.80|Z|1455; Ironforge|N|From Pilot Longbeard at the back of the Military Ward.|C|Paladin|
@@ -348,7 +348,7 @@ A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|1440; Ashen
 A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|1440; Ashenvale|
 A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|Z|1440; Ashenvale|
 R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|1440; Ashenvale|
-K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|1440; Ashenvale|
+K Raene's Cleansing|QID|1026|M|54.42,35.39|N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|1440; Ashenvale|
 C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|1440; Ashenvale|
 C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|Z|1440; Ashenvale|
 R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|Z|1440; Ashenvale|
@@ -363,7 +363,7 @@ C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|1440; Ashenvale|
 A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|1440; Ashenvale|
 C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|Z|1440; Ashenvale|
-C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1027|S|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|1440; Ashenvale|
 C Fallen Sky Lake|QID|1035|M|66.60,82.00|N|Kill the Shadethicket Oracle|Z|1440; Ashenvale|
 C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|1440; Ashenvale|
 N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You currently have your WoW-Pro Rank set to 3.\nThe guide will shortly be going through a set of quests that are really out of the way.\nIf you wish to skip these quests please set your Rank below 3 in settings and continue the guide.|RANK|3|Z|1440; Ashenvale|
@@ -444,7 +444,7 @@ f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|1445; Dustwallow Marsh|N|Get th
 F Ratchet|QID|1039|M|67.48,51.30|Z|1445; Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|TAXI|Ratchet|
 R Barrens|AVAILABLE|1040|M|27.8,46.6|Z|1445; Dustwallow Marsh|N|You must not have got the Ratchet flightpath from the earlier guide. Follow the road to the Barrens.|TAXI|-Ratchet|
 R Ratchet|AVAILABLE|1094|ACTIVE|1039|M|62.7,36.2|Z|1413; The Barrens|N|Run northest to Ratchet.|TAXI|-Ratchet|
-f Ratchet|AVAILABLE|1094|ACTIVE|1039|M|63.09,37.16|Z|1413; The Barrens|N|Get the flight path.||TAXI|-Ratchet|
+f Ratchet|AVAILABLE|1094|ACTIVE|1039|M|63.09,37.16|Z|1413; The Barrens|N|Get the flight path.|TAXI|-Ratchet|
 T The Barrens Port|QID|1039|Z|1413; The Barrens|M|63.35,38.46|N|To Wharfmaster Dizzywig.|
 A Passage to Booty Bay|QID|1040|Z|1413; The Barrens|M|63.35,38.46|N|From Wharfmaster Dizzywig.|PRE|1039|
 

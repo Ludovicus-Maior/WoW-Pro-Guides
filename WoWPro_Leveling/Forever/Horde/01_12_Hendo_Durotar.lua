@@ -11,7 +11,7 @@ A Vile Familiars|QID|1485|M|42.59,69.00|Z|1411; Durotar|N|From Ruzan.\n[color=FF
 T Your Place In The World|QID|4641|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 A Wayward Weapons|QID|97279|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
-= Arcane Intellect|ACTIVE|788|M|42.59,67.34;42.51,69.04|CC|Z|1411; Durotar|N|This buff gives you +2 INT for 30 min.\nSell your food and/or water to Duokna to get the 1 copper required to afford to learn it from Mai'ah.\n[color=FF0000]NOTE: [/color]This step will complete once you've learned it.|SPELL|Arcane Intellect;1459|C|Mage|
+= Arcane Intellect|ACTIVE|788|M|42.59,67.34;42.51,69.04|CC|Z|1411; Durotar|N|This buff gives you +2 INT for 30 min.\nSell your food and/or water to Duokna to get the 10 copper required to afford to learn it from Mai'ah.\n[color=FF0000]NOTE: [/color]This step will complete once you've learned it.|SPELL|Arcane Intellect;1459|C|Mage|
 C Cutting Teeth|QID|788|M|44.23,66.39|Z|1411; Durotar|N|Kill Mottled boars.\n[color=FF0000]NOTE: [/color]They're all over the area.|S|
 C Vile Familiars|QID|1485|M|45.17,57.12|Z|1411; Durotar|L|6487 6|ITEM|6487|N|the Vile Familiars in front of the cave.\n[color=FF0000]NOTE: [/color]Don't worry about their level. They don't hit very hard if you're using your Demon Skin buff.|
 C Cutting Teeth|QID|788|M|44.23,66.39|Z|1411; Durotar|N|Kill Mottled boars.\n[color=FF0000]NOTE: [/color]They're all over the area.|US|
@@ -126,10 +126,26 @@ R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Gathering profession at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Herbalism;182;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Mining at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Mining;186;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Skinning at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Skinning;393;20|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5 and the P| profession tag syntax for your WoWPro version. Ideally hide this step when a profession step applies.|LVL|5;-1540|
+L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5|LVL|5;-1540|
 
 T The Adventurer|QID|96652|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
-= Brakk's profession quests|ACTIVE|823|M|52.00,47.20|Z|1411; Durotar|CC|N|Accept whichever profession quests Brakk offers you (they depend on your professions).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|From Brakk.|
+T The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
+
+
+A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
+A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
+A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
+A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
+A Camping 101: Mining|QID|97907|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
+A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
+A Camping 101: Engineering|QID|97902|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
+A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
+A Camping 101: Skinning|QID|97908|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
+A Camping 101: First Aid|QID|97903|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
+A Camping 101: Cooking|QID|96655|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|
+A Camping 101: Fishing|QID|97904|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
+
 
 T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
 h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|

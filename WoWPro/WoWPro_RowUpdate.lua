@@ -13,6 +13,7 @@ function WoWPro.RowSizeSet()
         return
     end
 
+    WoWPro.UpdateMouseNotes()
     local spacing = WoWProDB.profile.space or 0
     local bottomPadding = 5
     local rightPadding = 5
