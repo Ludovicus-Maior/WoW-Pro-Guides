@@ -16,9 +16,7 @@ C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
 r Repair/Restock|QID|92463|M|42.76,24.48|N|At Uualia Suncrest.|
-A The Gift of Skysight|QID|92598|PRE|92462|M|42.62,24.32|Z|2521; Zephras Isle|N|From Ventaari Brightwish.|
 T Harmony in Balance|QID|92461|M|42.05,23.50|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
-A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 
 A The Way of the Hunter|QID|92482|PRE|92461|M|42.07,23.49|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Hunter|
 A Embracing the Elements|QID|92484|PRE|92461|M|42.05,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Shaman|
@@ -26,6 +24,8 @@ A A Student of Nature|QID|92485|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|F
 A At Home in the Shadows|QID|92483|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Rogue|
 A The Warrior's Path|QID|92532|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Warrior|
 
+A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
+A The Gift of Skysight|QID|PRE|92461|92598|PRE|92462|M|42.62,24.32|Z|2521; Zephras Isle|N|From Ventaari Brightwish.|
 A Harvesting Windstones|QID|93552|M|43.33,24.00|Z|2521; Zephras Isle|N|From Dalia the Collector.|
 T The Warrior's Path|ACTIVE|92532|M|43.66,24.14|Z|2521; Zephras Isle|N|To Blademaster Ren.|C|Warrior|
 T At Home in the Shadows|ACTIVE|92483|M|43.74,24.34|Z|2521; Zephras Isle|N|To Akeri Duskblade.|C|Rogue|
