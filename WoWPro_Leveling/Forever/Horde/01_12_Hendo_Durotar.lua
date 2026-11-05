@@ -257,7 +257,7 @@ A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak
 C Securing the Lines|QID|835|QO|1;2|M|53.99,27.78|Z|1411; Durotar|N|Kill Dustwind Storm Witches and Savages.\n[color=FF0000]NOTE: [/color]Drop off the ledge and work your way through the Ravine.\nGoing to the right of the fork leads to a dead end.|
 
 
-Dull storm orb
+; Dull storm orb
 
 
 T Securing the Lines|QID|835|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.\n[color=FF0000]NOTE: [/color]Going to the left is the fastest way out to the road.|

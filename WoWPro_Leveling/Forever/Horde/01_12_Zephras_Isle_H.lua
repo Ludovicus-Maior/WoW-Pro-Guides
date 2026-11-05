@@ -25,7 +25,7 @@ A At Home in the Shadows|QID|92483|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|
 A The Warrior's Path|QID|92532|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|C|Warrior|
 
 A Elemental Unrest|QID|92464|PRE|92461|M|42.10,23.50|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
-A The Gift of Skysight|QID|PRE|92461|92598|PRE|92462|M|42.62,24.32|Z|2521; Zephras Isle|N|From Ventaari Brightwish.|
+A The Gift of Skysight|QID|92598|PRE|92461|M|42.62,24.32|Z|2521; Zephras Isle|N|From Ventaari Brightwish.|
 A Harvesting Windstones|QID|93552|M|43.33,24.00|Z|2521; Zephras Isle|N|From Dalia the Collector.|
 T The Warrior's Path|ACTIVE|92532|M|43.66,24.14|Z|2521; Zephras Isle|N|To Blademaster Ren.|C|Warrior|
 T At Home in the Shadows|ACTIVE|92483|M|43.74,24.34|Z|2521; Zephras Isle|N|To Akeri Duskblade.|C|Rogue|
