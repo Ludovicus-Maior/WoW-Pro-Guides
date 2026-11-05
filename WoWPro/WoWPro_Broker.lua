@@ -1836,27 +1836,19 @@ function WoWPro.UpdateGuideReal(From)
         local total = WoWPro.stepcount or 1
         local currentStep = WoWPro.ActiveStep or 1
         local currentMainStep = WoWPro.NextStepNotSticky()
-        if WoWPro.Recorder then
-            if WoWProDB.profile.guideprogress then
-                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
-            else
-                if total > 0 then
-                    local percentage = math.floor((currentMainStep / total) * 100)
-                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
-                else
-                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
-                end
-            end
+        if WoWProDB.profile.guideprogress then
+            WoWPro.ProgressText:SetText("(" .. currentStep .. "/" .. total .. ")")
         else
-            if WoWProDB.profile.guideprogress then
-                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
+            local percentage = total > 0 and math.floor((currentMainStep / total) * 100) or 0
+            WoWPro.ProgressText:SetText("(" .. percentage .. "%)")
+        end
+        if WoWPro.Recorder then
+            WoWPro.TitleText:SetText(GID or WoWPro.Guides[GID].zone)
+        else
+            if WoWProDB.profile.guideprogress or total > 0 then
+                WoWPro.TitleText:SetText(WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone)
             else
-                if total > 0 then
-                    local percentage = math.floor((currentMainStep / total) * 100)
-                    WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
-                else
-                    WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
-                end
+                WoWPro.TitleText:SetText(GID or WoWPro.Guides[GID].zone)
             end
 
             -- If the guide is complete, loading the next guide --

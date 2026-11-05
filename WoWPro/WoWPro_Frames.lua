@@ -898,6 +898,7 @@ function WoWPro.MainFrameLayout()
             TB:SetPoint("TOPLEFT",  MF, "TOPLEFT",  pad, y)
             TB:SetPoint("TOPRIGHT", MF, "TOPRIGHT", -pad, y)
         end
+        WoWPro:TitleBarLayout()
         y = y - WoWPro:SafeGetHeight(TB)
     end
 
@@ -1518,17 +1519,21 @@ function WoWPro:CreateTitleBar()
 
     -- Title text (center)
     local title = TB:CreateFontString(nil, "OVERLAY")
-    title:SetPoint("CENTER", TB, "CENTER", 0, 0)
+    title:SetJustifyH("CENTER")
+    title:SetWordWrap(false)
+    title:SetNonSpaceWrap(false)
     title:SetFont(fontName, fontSize)
     title:SetTextColor(unpack(fontColor))
 
     TB.title = title
     WoWPro.TitleText = title
 
-    -- Progress text (right)
+    -- Progress text (below title)
     local progress = TB:CreateFontString(nil, "OVERLAY")
-    progress:SetPoint("RIGHT", TB, "RIGHT", 0, 0)
-    progress:SetFont(fontName, fontSize)
+    progress:SetJustifyH("CENTER")
+    progress:SetWordWrap(false)
+    progress:SetNonSpaceWrap(false)
+    progress:SetFont(fontName, math.max(10, fontSize - 2))
     progress:SetTextColor(unpack(fontColor))
 
     TB.progress = progress
@@ -1541,6 +1546,48 @@ function WoWPro:CreateTitleBar()
 
     -- Apply user font/color settings
     WoWPro:TitleBarSet()
+end
+
+function WoWPro:TitleBarLayout()
+    local TB = WoWPro.TitleBar
+    if not TB or not TB.title or _G.InCombatLockdown() then return end
+
+    local Profile = WoWProDB.profile
+    local GBM = WoWPro:GetBorderMetrics()
+    local leftInset = Profile.border and GBM.titleInsets.left or 0
+    local rightInset = Profile.border and GBM.titleInsets.right or 0
+    local fontName = Profile.titlefont or "Fonts\\FRIZQT__.TTF"
+    local fontSize = math.max(10, Profile.titlefontsize or 14)
+    local availableWidth = TB:GetWidth() - leftInset - rightInset
+    local title = TB.title
+
+    -- Measure unconstrained text so truncation cannot hide an oversized title.
+    title:ClearAllPoints()
+    title:SetWidth(0)
+    title:SetFont(fontName, fontSize)
+    while fontSize > 10 and title:GetStringWidth() > availableWidth do
+        fontSize = math.max(10, fontSize - 1)
+        title:SetFont(fontName, fontSize)
+    end
+
+    local height = math.max(24, math.ceil(title:GetStringHeight()) + 4)
+    local progress = TB.progress
+    progress:SetFont(fontName, math.max(10, fontSize - 2))
+    progress:ClearAllPoints()
+    if progress:GetText() and progress:GetText() ~= "" then
+        local titleHeight = math.ceil(title:GetStringHeight())
+        title:SetPoint("TOPLEFT", TB, "TOPLEFT", leftInset, -2)
+        title:SetPoint("RIGHT", TB, "RIGHT", -rightInset, 0)
+        progress:SetPoint("TOPLEFT", TB, "TOPLEFT", leftInset, -titleHeight - 4)
+        progress:SetPoint("RIGHT", TB, "RIGHT", -rightInset, 0)
+        height = math.max(24, titleHeight + math.ceil(progress:GetStringHeight()) + 6)
+    else
+        title:SetPoint("LEFT", TB, "LEFT", leftInset, 0)
+        title:SetPoint("RIGHT", TB, "RIGHT", -rightInset, 0)
+    end
+    if TB:GetHeight() ~= height then
+        TB:SetHeight(height)
+    end
 end
 
 -- Applies all user Title Bar appearance settings to the existing TitleBar frame.
@@ -1565,8 +1612,13 @@ function WoWPro:TitleBarSet()
 
     -- Progress text
     if TB.progress then
-        TB.progress:SetFont(fontName, fontSize)
+        TB.progress:SetFont(fontName, math.max(10, fontSize - 2))
         TB.progress:SetTextColor(fontColor[1], fontColor[2], fontColor[3], fontColor[4])
+    end
+
+    WoWPro:TitleBarLayout()
+    if WoWPro.GuideFrame and WoWPro.rows then
+        WoWPro.MainFrameLayout()
     end
 end
 
