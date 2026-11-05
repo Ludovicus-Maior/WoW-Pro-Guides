@@ -1,3 +1,29 @@
+# Release 2026.11.05.A
+## Bug Fixes
+* **Forever** Support
+	* Note: Installing the Ace3 [r1424-alpha](https://www.curseforge.com/wow/addons/ace3/files/9350543) addon is **necessary** till Ace3 does a formal release.
+	* The Ace3 addon is *not* necessary for the other WoW clients.
+	* We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
+* Bad guide reference in *Forever/Horde/Guides.xml* fixed.
+* Adjust defaults for minimum height.
+* Fit titles and separate progress
+    - Keep the guide title on one line, shrinking only as needed to a 10 pt minimum.
+    - Show progress centered below the title, 2 pt smaller with a 10 pt minimum.
+    - Adjust the bar height to fit both lines and account for border insets.
+    - Restore the configured title size when space allows without changing saved settings.
+    - Clear progress when no guide is loaded.
+## Guide Updates
+* Forever
+	* Alliance:
+		* Dun Morogh, Elwynn,Zephras_Isle 1-12
+		* Level 50-55 guide
+	* Horde:
+		* Durotar, Zephras_Isle, 1-12
+		* The Barrens 15-18
+* TBC Alliance 50-55
+* Vanilla Horde: Durotar 1-12
+
+
 # Release 2026.11.04.A
 ## Bug Fixes (Long!)
 * **Forever** Support
