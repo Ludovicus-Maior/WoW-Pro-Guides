@@ -126,7 +126,7 @@ R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Gathering profession at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Herbalism;182;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Mining at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Mining;186;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Skinning at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Skinning;393;20|
-L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5 and the P| profession tag syntax for your WoWPro version. Ideally hide this step when a profession step applies.|LVL|5;-1540|
+L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5|LVL|5;-1540|
 
 T The Adventurer|QID|96652|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
 A The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|From Brakk.|
