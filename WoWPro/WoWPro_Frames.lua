@@ -374,7 +374,7 @@ function WoWPro:BackgroundSet()
             Profile.bgcolor[1],
             Profile.bgcolor[2],
             Profile.bgcolor[3],
-            Profile.bgcolor[4]
+            0
         )
     end
 
@@ -403,7 +403,7 @@ function WoWPro:BackgroundSet()
             Profile.bgcolor[1],
             Profile.bgcolor[2],
             Profile.bgcolor[3],
-            Profile.bgcolor[4]
+            0
         )
     end
 
@@ -443,7 +443,8 @@ function WoWPro:SetRowBackdrop(row)
         tile = true,
         tileSize = 16
     })
-    row:SetBackdropColor(color[1], color[2], color[3], color[4])
+    -- MainFrame supplies the window background; only sticky rows add an overlay.
+    row:SetBackdropColor(color[1], color[2], color[3], sticky and color[4] or 0)
     row:SetBackdropBorderColor(1, 1, 1, 0)
 end
 
@@ -1374,7 +1375,7 @@ function WoWPro:CreateButtonBar()
         insets   = { left = 4, right = 3, top = 4, bottom = 3 }
     })
 
-    BB:SetBackdropColor(unpack(Profile.bgcolor))
+    BB:SetBackdropColor(Profile.bgcolor[1], Profile.bgcolor[2], Profile.bgcolor[3], 0)
     BB:SetBackdropBorderColor(1, 1, 1, Profile.border and 1 or 0)
 
     -- Button container
@@ -1649,7 +1650,7 @@ function WoWPro:CreateStickyHeader()
     WoWPro:StickyHeaderSet()
 end
 
--- Apply appearance settings to the Sticky Header
+-- Apply appearance settings; MainFrameLayout owns the Sticky Header's position.
 function WoWPro:StickyHeaderSet()
     local SH = WoWPro.StickyHeader
     if not SH then return end
@@ -1658,7 +1659,6 @@ function WoWPro:StickyHeaderSet()
     local fontSize  = WoWProDB.profile.stickytitlefontsize or 14
     local textColor = WoWProDB.profile.stickytitletextcolor or {1, 1, 1, 1}
     local bgColor   = WoWProDB.profile.stickycolor or {0, 0, 0, 0.85}
-    local inset     = tonumber(WoWProDB.profile.userPad) or 0
 
     SH:SetBackdrop({
         bgFile = WoWProDB.profile.stickytexture or [[Interface\Tooltips\UI-Tooltip-Background]],
@@ -1673,9 +1673,9 @@ function WoWPro:StickyHeaderSet()
 
     SH:SetHeight(fontSize + 8)
 
-    SH:ClearAllPoints()
-    SH:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT", inset, 0)
-    SH:SetPoint("TOPRIGHT", WoWPro.MainFrame, "TOPRIGHT", -inset, 0)
+    if WoWPro.GuideFrame and WoWPro.rows then
+        WoWPro.MainFrameLayout()
+    end
 end
 
 -- Guide Frame --
@@ -1741,11 +1741,7 @@ end
 -- Create a row in the GuideFrame ready to be populated with guide data
 function WoWPro:CreateRow(index)
     local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    row:SetBackdrop( {
-        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
-        tile = true, tileSize = 16
-    })
-    row:SetBackdropBorderColor(1, 1, 1, 0)
+    WoWPro:SetRowBackdrop(row)
     if index == 1 then
         row:SetPoint("TOPLEFT")
         row:SetPoint("TOPRIGHT")
