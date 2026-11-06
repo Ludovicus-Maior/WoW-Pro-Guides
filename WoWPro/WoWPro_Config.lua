@@ -10,6 +10,43 @@ local dialog = _G.LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
 local AceGUI = _G.LibStub("AceGUI-3.0")
 
+local alphaPreview
+
+local function StartAlphaPreview(frame)
+    local picker = _G.ColorPickerFrame
+    if frame.obj.disabled or not frame.obj.HasAlpha or not picker:IsShown()
+        or not picker.Content or not picker.Content.ColorPicker then
+        return
+    end
+
+    if not alphaPreview then
+        alphaPreview = _G.CreateFrame("Frame")
+        alphaPreview:SetScript("OnUpdate", function(self)
+            if not picker:IsShown() or picker.opacityFunc ~= self.callback then
+                self.callback = nil
+                self:Hide()
+                return
+            end
+            local alpha = picker:GetColorAlpha()
+            if alpha ~= self.alpha then
+                self.alpha = alpha
+                self.callback()
+            end
+        end)
+    end
+    alphaPreview.callback = picker.opacityFunc
+    alphaPreview.alpha = picker:GetColorAlpha()
+    alphaPreview:Show()
+end
+
+AceGUI:RegisterWidgetType("WoWProColorPicker", function()
+    local widget = AceGUI.WidgetRegistry.ColorPicker()
+    widget.type = "WoWProColorPicker"
+    -- Keep AceGUI's colour handling; preview alpha-only changes on newer pickers.
+    widget.frame:HookScript("OnClick", StartAlphaPreview)
+    return widget
+end, 1)
+
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
@@ -469,6 +506,7 @@ local function createDisplayConfig()
                                 order = 3,
                                 type = "color",
                                 name = L["Title Bar Color"],
+                                dialogControl = "WoWProColorPicker",
                                 desc = L["Background color for the title bar."],
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
@@ -506,6 +544,7 @@ local function createDisplayConfig()
                                 order = 2,
                                 type = "color",
                                 name = L["Guide Window Color"],
+                                dialogControl = "WoWProColorPicker",
                                 desc = L["Background color for the guide window"],
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3] ,WoWProDB.profile.bgcolor[4] end,
@@ -585,6 +624,7 @@ local function createDisplayConfig()
                                 order = 6,
                                 type = "color",
                                 name = L["Sticky Step Color"],
+                                dialogControl = "WoWProColorPicker",
                                 desc = L["Background color for the sticky step frames."],
                                 hasAlpha = true,
                                 get = function(info) return WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3] ,WoWProDB.profile.stickycolor[4] end,
