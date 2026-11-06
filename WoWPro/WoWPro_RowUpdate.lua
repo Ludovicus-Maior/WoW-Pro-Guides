@@ -1029,13 +1029,7 @@ local function BuildTargetMacro(target)
     end
 
     -- Default: clear dead target, target mob, set skull marker
-    local macro = "/cleartarget[dead]\n/target " .. tar .. "\n"
-
-    if not WoWPro.MIDNIGHT then
-        macro = macro .. "/tm [@target,exists,nodead] 8"
-    end
-
-    return macro
+    return "/cleartarget[dead]\n/target " .. tar .. "\n/tm [@target,exists,nodead] 8"
 end
 
 -- Helper: Setup secured overlay for target button
