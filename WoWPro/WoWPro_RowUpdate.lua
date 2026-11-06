@@ -1032,9 +1032,7 @@ local function BuildTargetMacro(target)
     local macro = "/cleartarget[dead]\n/target " .. tar .. "\n"
 
     if not WoWPro.MIDNIGHT then
-        macro = macro ..
-            "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then " ..
-            "SetRaidTarget('target', 8) end"
+        macro = macro .. "/tm [@target,exists,nodead] 8"
     end
 
     return macro
