@@ -6,6 +6,7 @@
 -- luacheck: globals tinsert strupper strsub strlower floor
 -- luacheck: globals tonumber tostring select ipairs pairs next type
 -- luacheck: globals string table math
+local L = WoWPro_Locale
 
 
 function WoWPro.RowSizeSet()
@@ -250,7 +251,7 @@ function WoWPro.SetActionTexture(currentRow)
     end
     if WoWPro.noncombat[k] and (action == "C" or action == "N") then
         currentRow.iconTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
-        tooltipText.text = "No Combat"
+        tooltipText.text = L["No Combat"]
     elseif WoWPro.hand[k] and (action == "C" or action == "N") then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes["HAND TAG"])
         tooltipText.text = WoWPro.actionlabels["HAND TAG"]
@@ -259,19 +260,19 @@ function WoWPro.SetActionTexture(currentRow)
         tooltipText.text = WoWPro.actionlabels["INSPECT TAG"]
     elseif WoWPro.lootitem[k] and action == "C" then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes.l)
-        tooltipText.text = "Loot Complete"
+        tooltipText.text = L["Loot Complete"]
     elseif WoWPro.chat[k] then
         currentRow.iconTexture:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
-        tooltipText.text = "Chat"
+        tooltipText.text = L["Chat"]
     elseif WoWPro.jump[k] then
         currentRow.iconTexture:SetTexture("Interface\\Icons\\spell_arcane_teleportironforge")
-        tooltipText.text = "Jump"
+        tooltipText.text = L["Jump"]
     elseif WoWPro.vehichle[k] then
         currentRow.iconTexture:SetTexture("Interface\\CURSOR\\vehichleCursor")
-        tooltipText.text = "Take Vehicle"
+        tooltipText.text = L["Take Vehicle"]
     elseif WoWPro.elite[k] and action == "A" then
         currentRow.iconTexture:SetTexture(WoWPro.actiontypes[action .. " ELITE"])
-        tooltipText.text = "Elite Quest"
+        tooltipText.text = L["Elite Quest"]
     elseif action == "A" then
         local tex, label = WoWPro.GetQuestIconOffer(QID)
         WoWPro.SetAtlasOrTexture(currentRow.iconTexture, tex)
@@ -1251,7 +1252,7 @@ local BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
 
                     local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
                     title:SetPoint("TOP", titleBar, "TOP", 0, -6)
-                    title:SetText("Wowhead Link")
+                    title:SetText(L["Wowhead Link"])
 
                     local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
                     editBox:SetAutoFocus(true)
@@ -1465,6 +1466,10 @@ function WoWPro:RowUpdate(offset)
         -- Extract step fields
         local action = WoWPro.action[k]
         local step   = NormalizeStepText(WoWPro.step[k])
+        --  Non-English clients: use the game's own quest name when it has one.
+        if WoWPro.ClientData then
+            step = WoWPro.ClientData.StepText(action, WoWPro.QID[k], step)
+        end
         local note   = NormalizeNote(WoWPro.note[k])
         local use    = WoWPro.use[k]
         local item   = WoWPro.item[k]
@@ -1483,6 +1488,11 @@ function WoWPro:RowUpdate(offset)
         local formattedCoord, playerZone = FormatCoords(GID, action, step, coord)
         if playerZone then
             zone = playerZone
+        end
+
+        --  Non-English clients: show the zone in the game's language.
+        if WoWPro.ClientData then
+            zone = WoWPro.ClientData.ZoneName(zone) or zone
         end
 
         -- Embed coords into note

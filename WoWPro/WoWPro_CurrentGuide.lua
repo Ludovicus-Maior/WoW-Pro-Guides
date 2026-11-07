@@ -293,7 +293,7 @@ local function ShowStepReport(k, iconText)
 
         local title = f:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
         title:SetPoint("TOP", 0, -12)
-        title:SetText("WoWPro - Report Step Problem")
+        title:SetText(L["WoWPro - Report Step Problem"])
 
         local close = _G.CreateFrame("Button", nil, f, "UIPanelCloseButton")
         close:SetPoint("TOPRIGHT", -4, -4)
@@ -302,7 +302,7 @@ local function ShowStepReport(k, iconText)
         help:SetPoint("TOPLEFT", 16, -38)
         help:SetPoint("RIGHT", -16, 0)
         help:SetJustifyH("LEFT")
-        help:SetText("1. Copy the Discord invite below (Ctrl+C) and open it in your browser.\n2. Copy the details below and paste them into Discord, then describe what went wrong.")
+        help:SetText(L["1. Copy the Discord invite below (Ctrl+C) and open it in your browser.\n2. Copy the details below and paste them into Discord, then describe what went wrong."])
 
         local url = _G.CreateFrame("EditBox", nil, f, "InputBoxTemplate")
         url:SetPoint("TOPLEFT", help, "BOTTOMLEFT", 6, -8)
@@ -330,13 +330,13 @@ local function ShowStepReport(k, iconText)
         local selectDetails = _G.CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
         selectDetails:SetSize(140, 24)
         selectDetails:SetPoint("BOTTOMLEFT", 16, 12)
-        selectDetails:SetText("Select details")
+        selectDetails:SetText(L["Select details"])
         selectDetails:SetScript("OnClick", function() box:SetFocus() box:HighlightText() end)
 
         local selectUrl = _G.CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
         selectUrl:SetSize(140, 24)
         selectUrl:SetPoint("LEFT", selectDetails, "RIGHT", 8, 0)
-        selectUrl:SetText("Select invite")
+        selectUrl:SetText(L["Select invite"])
         selectUrl:SetScript("OnClick", function() url:SetFocus() url:HighlightText() end)
 
         reportFrame = f
@@ -381,6 +381,10 @@ function WoWPro.UpdateCurrentGuidePanel()
         end
 
         local step = steplist[index]
+        --  Non-English clients: show the quest name the game uses.
+        if step and WoWPro.ClientData then
+            step = WoWPro.ClientData.StepText(WoWPro.action[index], WoWPro.QID[index], step)
+        end
         if step then row.check:Show() else row.check:Hide() end
         if optional[index] then step = step.." (optional)" end
         if WoWPro.prof[index] then
@@ -457,7 +461,7 @@ frame:SetScript("OnShow", function()
     local guide = _G.WoWProDB.char.currentguide
     local rank, rankSource = WoWPro.GuideRank(guide)
     local guideName = WoWPro.Guides[guide] and WoWPro.Guides[guide].name or guide
-    frame.subtitle:SetText("Faction: "..faction.."\nGuide: "..guideName.."\nRank: "..tostring(rank).." ("..rankSource..")")
+    frame.subtitle:SetText(L["Faction: %s\nGuide: %s\nRank: %s (%s)"]:format(faction, guideName, tostring(rank), rankSource))
 
     for i=1,NUMROWS do
         local row = WoWPro:CreateGuideRow(frame.box, ROWHEIGHT)

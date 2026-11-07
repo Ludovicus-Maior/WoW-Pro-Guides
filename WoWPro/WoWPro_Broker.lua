@@ -7,6 +7,8 @@
 --      WoWPro_Broker      --
 -----------------------------
 
+local L = WoWPro_Locale
+
 -- Is nil when no scenario is active
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
@@ -821,7 +823,7 @@ end
 WoWPro.GuideOffset = nil
 
 _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
-    text = "Would you like to trash %s?" ,
+    text = L["Would you like to trash %s?"] ,
     button1 = _G.OKAY,
     button2 = _G.CANCEL,
     whileDead = true,
@@ -4444,20 +4446,20 @@ function WoWPro:Questline(qid)
 end
 
 _G.StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
-    text = "Please enter the quest ID to select and then click GO!",
-    button1 = "Go!",
-    button2 = "Never Mind",
+    text = L["Please enter the quest ID to select and then click GO!"],
+    button1 = L["Go!"],
+    button2 = L["Never Mind"],
     OnAccept = function(self,data,data2) local qid = self.EditBox:GetText() ; WoWPro:Questline(tonumber(qid)) end,
     hideOnEscape = true,
     preferredIndex = 3,
     hasEditBox = true,
-    OnShow = function (self, data) self.EditBox:SetText("quest id #") end
+    OnShow = function (self, data) self.EditBox:SetText(L["quest id #"]) end
 }
 
 _G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
-    text = "Please enter the quest ID to select and then click GO!",
-    button1 = "Go!",
-    button2 = "Never Mind",
+    text = L["Please enter the quest ID to select and then click GO!"],
+    button1 = L["Go!"],
+    button2 = L["Never Mind"],
     OnAccept = function(self,data,data2) local qid = self.EditBox:GetText() ; WoWPro:Questline(tonumber(qid)) end,
     hideOnEscape = true,
     preferredIndex = 3,
@@ -4733,12 +4735,7 @@ function WoWPro.Cannonball()
 end
 
 _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
-    text = "Welcome to WoWPro. For this addon to function, you need to enable one of the following addons: "
-           .. "|cffFF9900WoW-|r|cff46921APro|r Achievements, "
-           .. "|cffFF9900WoW-|r|cff46921APro|r Dailies, "
-           .. "|cffFF9900WoW-|r|cff46921APro|r Leveling, "
-           .. "|cffFF9900WoW-|r|cff46921APro|r Professions, "
-           .. "or |cffFF9900WoW-|r|cff46921APro|r WorldEvents.",
+    text = L["Welcome to WoWPro. For this addon to function, you need to enable one of the following addons: |cffFF9900WoW-|r|cff46921APro|r Achievements, |cffFF9900WoW-|r|cff46921APro|r Dailies, |cffFF9900WoW-|r|cff46921APro|r Leveling, |cffFF9900WoW-|r|cff46921APro|r Professions, or |cffFF9900WoW-|r|cff46921APro|r WorldEvents."],
     button1 = _G.OKAY,
     button2 = _G.CANCEL,
     whileDead = true,
@@ -4752,11 +4749,7 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
-    text = "Welcome to WoWPro.\n\n"
-        .. "For this addon to function properly, you need to install either: "
-        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\n"
-        .. "WoW-Pro's guides won't have their full functionality without one of them!\n\n"
-        .. "Download it for free from www.wowinterface.com or www.curseforge.com.",
+    text = L["Welcome to WoWPro.\n\nFor this addon to function properly, you need to install either: |cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\nWoW-Pro's guides won't have their full functionality without one of them!\n\nDownload it for free from www.wowinterface.com or www.curseforge.com."],
     button1 = _G.OKAY,
     whileDead = true,
     hideOnEscape = true,
