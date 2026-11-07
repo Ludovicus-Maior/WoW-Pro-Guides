@@ -1918,6 +1918,7 @@ end
 
 -- Mini-map Button --
 function WoWPro:CreateMiniMapButton()
+    if WoWPro.MinimapButton then return end
     local ldb = _G.LibStub:GetLibrary("LibDataBroker-1.1")
     local icon = _G.LibStub("LibDBIcon-1.0")
 
