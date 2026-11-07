@@ -39,6 +39,11 @@ function WoWPro.Recorder:OnEnable()
 
     --Loading Frames--
     if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
+        -- Guide loading can defer the core UI until after the recorder is enabled.
+        if not WoWPro.MainFrame then
+            WoWPro:CreateFrames()
+            WoWPro:CustomizeFrames()
+        end
         WoWPro.Recorder:CreateRecorderFrame()
         WoWPro.Recorder.SelectedStep = nil
         WoWPro.Recorder.FramesLoaded = true
@@ -122,6 +127,11 @@ local function checkClassQuest(QID, questTable)
     end
 end
 
+function WoWPro.Recorder.CleanObjectiveNote(note)
+    local cleanedNote = note:gsub("%.$", "")
+    cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
+    return cleanedNote
+end
 
 function WoWPro.Recorder.eventHandler(frame, event, ...)
     local GID = WoWProDB.char.currentguide
@@ -307,8 +317,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                         for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
-                                local cleanedNote = (status or ""):gsub("%.$", "")
-                                cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
+                                local cleanedNote = WoWPro.Recorder.CleanObjectiveNote(status or "")
                                 local stepInfo = {
                                     action = "C",
                                     step = WoWPro.QuestLog[QID].title,
