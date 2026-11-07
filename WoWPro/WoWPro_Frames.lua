@@ -319,7 +319,7 @@ function WoWPro:UpdateFlyoutClip()
     local GF = WoWPro.GuideFrame
     if not GF or not WoWPro.rows then return end
     local contentBottom = GF:GetBottom()
-+   if not contentBottom then return end
+    if not contentBottom then return end
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
@@ -327,7 +327,7 @@ function WoWPro:UpdateFlyoutClip()
         local titleHeight = title and title:GetHeight()
         local titleBottom = rowTop and titleHeight and rowTop - titleHeight
         local inView = row:IsShown() and titleBottom ~= nil
-+            and titleBottom >= contentBottom
+            and titleBottom >= contentBottom
         for _, key in ipairs(FLYOUT_KEYS) do
             local b = row[key]
             if b then
