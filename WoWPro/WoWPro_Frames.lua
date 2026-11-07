@@ -225,20 +225,56 @@ function WoWPro:HideAndSeek(bar, key, isVisible, toggleGF)
     WoWPro:MainFrameLayout()
 end
 
--- Flip the side buttons when the window is pinned to the edge their side occupies; a flip only happens when the other side has room
+local function GetMainFrameContentPad()
+    local pad = tonumber(WoWProDB.profile.userPad) or 0
+    if WoWProDB.profile.border then
+        local metrics = WoWPro:GetBorderMetrics()
+        pad = pad + (metrics.edgeSize or 0)
+    end
+    return pad
+end
+
+local function GetFlyoutOffset(useActive)
+    return GetMainFrameContentPad() + 10 + (WoWProDB.profile.guidescroll and 16 or 0)
+        + (useActive and 36 or 0)
+end
+
+-- Only flip when the full visible flyout group fits on the opposite side.
 function WoWPro.ApplySideSwitch()
     local Profile = WoWProDB.profile
-    if not Profile.buttonbar or not WoWPro.rows or not WoWPro.rows[1] then return false end
-    local screenMargin = 50
-    local screenRight = _G.UIParent:GetWidth()
-    local windowLeft = WoWPro.MainFrame:GetLeft()
-    local windowRight = WoWPro.MainFrame:GetRight()
+    if not WoWPro.rows or not WoWPro.rows[1] then return false end
+    local mainFrame = WoWPro.MainFrame
+    local scale = mainFrame:GetEffectiveScale()
+    local screenRight = _G.UIParent:GetWidth() * _G.UIParent:GetEffectiveScale()
+    local windowLeft = mainFrame:GetLeft()
+    local windowRight = mainFrame:GetRight()
     if not windowLeft or not windowRight then return false end
+    windowLeft, windowRight = windowLeft * scale, windowRight * scale
+
+    local leftExtent, rightExtent = 0, 0
+    for _, row in ipairs(WoWPro.rows) do
+        if row:IsShown() then
+            local rowLeft, rowRight = row:GetLeft(), row:GetRight()
+            if rowLeft and rowRight then
+                local rowScale = row:GetEffectiveScale()
+                local useShown = row.itembutton and row.itembutton:IsShown()
+                for _, key in ipairs({"itembutton", "targetbutton", "jumpbutton", "eabutton"}) do
+                    local button = row[key]
+                    if button and button:IsShown() then
+                        local extent = (GetFlyoutOffset(key == "targetbutton" and useShown) + button:GetWidth())
+                            * button:GetEffectiveScale()
+                        leftExtent = math.max(leftExtent, extent - (rowLeft * rowScale - windowLeft))
+                        rightExtent = math.max(rightExtent, extent - (windowRight - rowRight * rowScale))
+                    end
+                end
+            end
+        end
+    end
 
     local newLeftside
-    if Profile.leftside and windowLeft < screenMargin and windowRight <= screenRight - screenMargin then
+    if Profile.leftside and windowLeft < leftExtent and screenRight - windowRight >= rightExtent then
         newLeftside = false
-    elseif not Profile.leftside and windowRight > screenRight - screenMargin and windowLeft >= screenMargin then
+    elseif not Profile.leftside and screenRight - windowRight < rightExtent and windowLeft >= leftExtent then
         newLeftside = true
     else
         return false
@@ -257,10 +293,7 @@ function WoWPro:PositionFlyoutButton(button, row, useActive)
     if not button or not row then return end
 
     local profile = WoWProDB.profile
-    local offset = 10 + (profile.guidescroll and 16 or 0)
-    if useActive then
-        offset = offset + 36
-    end
+    local offset = GetFlyoutOffset(useActive)
 
     button:ClearAllPoints()
     if profile.leftside then
@@ -285,17 +318,16 @@ local FLYOUT_KEYS = { "itembutton", "targetbutton", "jumpbutton", "eabutton", "i
 function WoWPro:UpdateFlyoutClip()
     local GF = WoWPro.GuideFrame
     if not GF or not WoWPro.rows then return end
-    local top, bottom = GF:GetTop(), GF:GetBottom()
-    if not top or not bottom then return end
-    local contentTop, contentBottom = top, bottom
+    local contentBottom = GF:GetBottom()
+    if not contentBottom then return end
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
         local rowTop = row:GetTop()
         local titleHeight = title and title:GetHeight()
         local titleBottom = rowTop and titleHeight and rowTop - titleHeight
-        local inView = row:IsShown() and rowTop ~= nil and titleBottom ~= nil
-            and rowTop <= contentTop and titleBottom >= contentBottom
+        local inView = row:IsShown() and titleBottom ~= nil
+            and titleBottom >= contentBottom
         for _, key in ipairs(FLYOUT_KEYS) do
             local b = row[key]
             if b then
@@ -475,15 +507,6 @@ function WoWPro:GetBorderMetrics()
 end
 
 WoWPro.ShownRows = 0
-
-local function GetMainFrameContentPad()
-    local pad = tonumber(WoWProDB.profile.userPad) or 0
-    if WoWProDB.profile.border then
-        local metrics = WoWPro:GetBorderMetrics()
-        pad = pad + (metrics.edgeSize or 0)
-    end
-    return pad
-end
 
 -- Minimum MainFrame height: visible bars plus one row, never below the user's vminresize
 function WoWPro.GetMinMainFrameHeight()
@@ -948,6 +971,11 @@ function WoWPro.MainFrameLayout()
 
     if WoWPro.ApplySideSwitch() then
         WoWPro.MainFrameLayout()
+    end
+    for _, row in ipairs(WoWPro.rows) do
+        WoWPro:PositionTargetUseButtons(row)
+        WoWPro:PositionFlyoutButton(row.jumpbutton, row)
+        WoWPro:PositionFlyoutButton(row.eabutton, row)
     end
     WoWPro:UpdateFlyoutClip()
 end
