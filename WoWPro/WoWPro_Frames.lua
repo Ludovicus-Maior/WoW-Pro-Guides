@@ -318,17 +318,16 @@ local FLYOUT_KEYS = { "itembutton", "targetbutton", "jumpbutton", "eabutton", "i
 function WoWPro:UpdateFlyoutClip()
     local GF = WoWPro.GuideFrame
     if not GF or not WoWPro.rows then return end
-    local top, bottom = GF:GetTop(), GF:GetBottom()
-    if not top or not bottom then return end
-    local contentTop, contentBottom = top, bottom
+    local contentBottom = GF:GetBottom()
++   if not contentBottom then return end
 
     for _, row in ipairs(WoWPro.rows) do
         local title = row.step
         local rowTop = row:GetTop()
         local titleHeight = title and title:GetHeight()
         local titleBottom = rowTop and titleHeight and rowTop - titleHeight
-        local inView = row:IsShown() and rowTop ~= nil and titleBottom ~= nil
-            and rowTop <= contentTop and titleBottom >= contentBottom
+        local inView = row:IsShown() and titleBottom ~= nil
++            and titleBottom >= contentBottom
         for _, key in ipairs(FLYOUT_KEYS) do
             local b = row[key]
             if b then
