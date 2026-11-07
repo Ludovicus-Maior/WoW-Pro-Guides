@@ -428,8 +428,14 @@ function WoWPro:GuidePetBattle(guide)
 end
 
 -- Set a guide's display name
+-- A translated name wins. If there is none and the name is simply the
+-- guide's zone, use the zone name the game shows. Otherwise keep English.
 function WoWPro:GuideName(guide, name)
-    guide['name']=name
+    local localized = WoWPro_Locale[name] or name
+    if localized == name and WoWPro.ClientData then
+        localized = WoWPro.ClientData.GuideName(guide, name) or name
+    end
+    guide['name'] = localized
 end
 
 -- Mark a guide as secret (hidden from menus)

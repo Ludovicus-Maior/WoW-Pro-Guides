@@ -631,7 +631,7 @@ function WoWPro.Recorder:RegisterEvents()
 end
 
 local dropdown = {
-    {text = "Move Earlier", func = function()
+    {text = L["Move Earlier"], func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == 1 then return end
 
@@ -646,7 +646,7 @@ local dropdown = {
         WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
         WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
     end},
-    {text = "Move Later", func = function()
+    {text = L["Move Later"], func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == WoWPro.stepcount then return end
 
@@ -661,7 +661,7 @@ local dropdown = {
         WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
         WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
     end},
-    {text = "Clone Step", func = function()
+    {text = L["Clone Step"], func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         local stepInfo = {}
         for key, tag in pairs(WoWPro.Tags) do
@@ -858,14 +858,14 @@ function WoWPro.Recorder:SaveGuide(window)
     local guideString = WoWPro.Recorder:CheckpointCurrentGuide("Save")
     -- Save Guide Dialog --
     config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {
-        name = "Save Guide",
+        name = L["Save Guide"],
         type = "group",
         args = {
             guidetype = {
                 order = 0,
                 type = "input",
                 multiline = 55,
-                name = "Copy the following and paste it into a guide file:",
+                name = L["Copy the following and paste it into a guide file:"],
                 desc = "",
                 width = "full",
                 get = function(info)

@@ -390,6 +390,10 @@ function WoWPro:MapPoint(row)
 	end
 
     local desc = WoWPro.step[stepIndex]
+    --  Non-English clients: label the waypoint with the game's quest name.
+    if desc and WoWPro.ClientData then
+        desc = WoWPro.ClientData.StepText(WoWPro.action[stepIndex], WoWPro.QID[stepIndex], desc)
+    end
     local zone
     zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].zone
     autoarrival = WoWPro.waypcomplete[stepIndex]

@@ -93,7 +93,7 @@ local function createDisplayConfig()
             behavior = {
                 order = 10,
                 type = "group",
-                name = "Behavior",
+                name = L["Behavior"],
                 inline = false,
                 args = {
                     visibility = {
@@ -214,7 +214,7 @@ local function createDisplayConfig()
                     buttonDisplay = {
                         order = 3,
                         type = "group",
-                        name = "Button Display Options",
+                        name = L["Button Display Options"],
                         inline = true,
                         args = {
                             showItemButton = {
@@ -295,13 +295,13 @@ local function createDisplayConfig()
             windowLayout = {
                 order = 20,
                 type = "group",
-                name = "Window Layout",
+                name = L["Window Layout"],
                 inline = false,
                 args = {
                     positioning = {
                         order = 1,
                         type = "group",
-                        name = "Position & Anchor",
+                        name = L["Position & Anchor"],
                         inline = true,
                         args = {
                             drag = {
@@ -338,7 +338,7 @@ local function createDisplayConfig()
                     sizing = {
                         order = 2,
                         type = "group",
-                        name = "Window Sizing",
+                        name = L["Window Sizing"],
                         inline = true,
                         args = {
                             resize = {
@@ -434,7 +434,7 @@ local function createDisplayConfig()
                     contentSpacing = {
                         order = 3,
                         type = "group",
-                        name = "Content Spacing",
+                        name = L["Content Spacing"],
                         inline = true,
                         args = {
                             padding = {
@@ -473,7 +473,7 @@ local function createDisplayConfig()
             appearance = {
                 order = 30,
                 type = "group",
-                name = "Appearance",
+                name = L["Appearance"],
                 inline = false,
                 args = {
                     bars = {
@@ -1015,7 +1015,7 @@ local function createMainConfig()
                     automation = {
                         order = 30,
                         type = "group",
-                        name = "Automation",
+                        name = L["Automation"],
                         inline = true,
                         args = {
                             autoSelect = {
@@ -1078,7 +1078,7 @@ local function createMainConfig()
                     guideBehavior = {
                         order = 35,
                         type = "group",
-                        name = "Guide Behavior",
+                        name = L["Guide Behavior"],
                         inline = true,
                         args = {
                             track = {
@@ -1109,7 +1109,7 @@ local function createMainConfig()
             modifiers = {
                 order = 20,
                 type = "group",
-                name = "Guide Modifiers",
+                name = L["Guide Modifiers"],
                 inline = false,
                 args = {
                     petBattles = {
@@ -1315,7 +1315,7 @@ end
 
 local function createAboutConfig()
     return {
-        name = "About",
+        name = L["About"],
         type = "group",
         args = {
             overview = {
@@ -1335,21 +1335,21 @@ local function createAboutConfig()
                                 type = "description",
                                 fontSize = "large",
                                 width = "full",
-                                name = "What WoW-Pro Does",
+                                name = L["What WoW-Pro Does"],
                             },
                             intro1 = {
                                 order = 2,
                                 type = "description",
                                 fontSize = "medium",
                                 width = "full",
-                                name = "WoW-Pro is a community-built addon collection that helps with questing, leveling, and guide-driven progression.",
+                                name = L["WoW-Pro is a community-built addon collection that helps with questing, leveling, and guide-driven progression."],
                             },
                             intro2 = {
                                 order = 3,
                                 type = "description",
                                 fontSize = "medium",
                                 width = "full",
-                                name = "It has grown through years of player contributions, covering content from legacy expansions through current Retail.",
+                                name = L["It has grown through years of player contributions, covering content from legacy expansions through current Retail."],
                             },
                             introSpacer = {
                                 order = 4,
@@ -1362,28 +1362,28 @@ local function createAboutConfig()
                                 type = "description",
                                 fontSize = "medium",
                                 width = "full",
-                                name = "Where To Start",
+                                name = L["Where To Start"],
                             },
                             intro3 = {
                                 order = 6,
                                 type = "description",
                                 fontSize = "medium",
                                 width = "full",
-                                name = "New here: begin with Main and Guide Display to set automation, layout, and text style.",
+                                name = L["New here: begin with Main and Guide Display to set automation, layout, and text style."],
                             },
                             intro4 = {
                                 order = 7,
                                 type = "description",
                                 fontSize = "medium",
                                 width = "full",
-                                name = "Troubleshooting: open Main > Tools for logging and About > Commands for command shortcuts.",
+                                name = L["Troubleshooting: open Main > Tools for logging and About > Commands for command shortcuts."],
                             },
                         },
                     },
                     status = {
                         order = 50,
                         type = "group",
-                        name = "Runtime Status",
+                        name = L["Runtime Status"],
                         inline = true,
                         args = {
                             addonVersion = {
@@ -1439,19 +1439,19 @@ local function createAboutConfig()
                         type = "description",
                         fontSize = "large",
                         width = "full",
-                        name = "Stay Connected",
+                        name = L["Stay Connected"],
                     },
                     linksIntro = {
                         order = 2,
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Use these links for announcements, support, and development updates.",
+                        name = L["Use these links for announcements, support, and development updates."],
                     },
                     discord = {
                         order = 3,
                         type = "input",
-                        name = "Discord Invite",
+                        name = L["Discord Invite"],
                         get = function() return "https://discord.gg/aarduK7" end,
                         set = function() return "https://discord.gg/aarduK7" end,
                         icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
@@ -1460,7 +1460,7 @@ local function createAboutConfig()
                     github = {
                         order = 4,
                         type = "input",
-                        name = "Source Repository",
+                        name = L["Source Repository"],
                         get = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
                         set = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides" end,
                         width = "full",
@@ -1470,7 +1470,7 @@ local function createAboutConfig()
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Tip: Include your guide name or ID and a short log snippet when asking for help in Discord.",
+                        name = L["Tip: Include your guide name or ID and a short log snippet when asking for help in Discord."],
                     },
                 },
             },
@@ -1484,43 +1484,43 @@ local function createAboutConfig()
                         order = 1,
                         type = "description",
                         width = "full",
-                        name = "Use /wp or /wow-pro with the following commands:",
+                        name = L["Use /wp or /wow-pro with the following commands:"],
                     },
                     cmd1 = {
                         order = 2,
                         type = "description",
                         width = "full",
-                        name = "- where: print current map position and area details",
+                        name = L["- where: print current map position and area details"],
                     },
                     cmd2 = {
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "- reset: clear WoW-Pro saved runtime state",
+                        name = L["- reset: clear WoW-Pro saved runtime state"],
                     },
                     cmd3 = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "- clear-log / log: clear or show the debug log",
+                        name = L["- clear-log / log: clear or show the debug log"],
                     },
                     cmd4 = {
                         order = 5,
                         type = "description",
                         width = "full",
-                        name = "- guide-bug / trade-bug: create focused bug reports",
+                        name = L["- guide-bug / trade-bug: create focused bug reports"],
                     },
                     cmd5 = {
                         order = 6,
                         type = "description",
                         width = "full",
-                        name = "- devcoords / devzone / devmode: developer mapping helpers",
+                        name = L["- devcoords / devzone / devmode: developer mapping helpers"],
                     },
                     cmd6 = {
                         order = 7,
                         type = "description",
                         width = "full",
-                        name = "- flightids [dest]: inspect flight node IDs for your current map",
+                        name = L["- flightids [dest]: inspect flight node IDs for your current map"],
                     },
                 },
             },
@@ -1531,20 +1531,20 @@ end
 
 local function createHelpConfig()
     return {
-        name = "Help",
+        name = L["Help"],
         type = "group",
         args = {
             gettingStarted = {
                 order = 10,
                 type = "group",
-                name = "Getting Started",
+                name = L["Getting Started"],
                 inline = false,
                 args = {
                     intro = {
                         order = 1,
                         type = "description",
                         width = "full",
-                        name = "Start here to select a guide and set your questing preferences.",
+                        name = L["Start here to select a guide and set your questing preferences."],
                     },
                     tutorial = {
                         order = 1.5,
@@ -1567,37 +1567,37 @@ local function createHelpConfig()
                     wowproHeader = {
                         order = 2,
                         type = "header",
-                        name = "Starting WoW-Pro",
+                        name = L["Starting WoW-Pro"],
                     },
                     wowpro1 = {
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "1) Click the Horn icon for the classic Guide List, or right-click the Options icon for the new Guide List. Choose a guide matching your level, campaign, or expansion.",
+                        name = L["1) Click the Horn icon for the classic Guide List, or right-click the Options icon for the new Guide List. Choose a guide matching your level, campaign, or expansion."],
                     },
                     wowpro2 = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "2) Open Main > General for Auto Select, Auto Accept, Auto Turn-in, Quest Tracking, and Auto-Load Guide. Use Main > Guide Modifiers to choose optional content.",
+                        name = L["2) Open Main > General for Auto Select, Auto Accept, Auto Turn-in, Quest Tracking, and Auto-Load Guide. Use Main > Guide Modifiers to choose optional content."],
                     },
                     wowpro3 = {
                         order = 5,
                         type = "description",
                         width = "full",
-                        name = "3) Open Guide Display > Window Layout to adjust Position & Anchor, Window Sizing, and Content Spacing. Use Appearance for backgrounds and Text Formatting for fonts and text size.",
+                        name = L["3) Open Guide Display > Window Layout to adjust Position & Anchor, Window Sizing, and Content Spacing. Use Appearance for backgrounds and Text Formatting for fonts and text size."],
                     },
                     wowpro4 = {
                         order = 6,
                         type = "description",
                         width = "full",
-                        name = "4) Start playing. WoW-Pro will load the selected guide into the main frame and advance steps as quests and objectives update.",
+                        name = L["4) Start playing. WoW-Pro will load the selected guide into the main frame and advance steps as quests and objectives update."],
                     },
                     wowpro5 = {
                         order = 7,
                         type = "description",
                         width = "full",
-                        name = "5) If a guide looks stuck or out of sync, use /wp reset to clear guide state and /wp log to inspect the debug log before reporting the issue.",
+                        name = L["5) If a guide looks stuck or out of sync, use /wp reset to clear guide state and /wp log to inspect the debug log before reporting the issue."],
                     },
                 },
             },
@@ -1611,25 +1611,25 @@ local function createHelpConfig()
                         order = 1,
                         type = "description",
                         width = "full",
-                        name = "- If steps do not advance, check Main > General automation and the Ranks page. Open Main > Tools to enable debugging and inspect the log.",
+                        name = L["- If steps do not advance, check Main > General automation and the Ranks page. Open Main > Tools to enable debugging and inspect the log."],
                     },
                     h2 = {
                         order = 2,
                         type = "description",
                         width = "full",
-                        name = "- Use /wp log to inspect debug entries and /wp clear-log before reproducing issues.",
+                        name = L["- Use /wp log to inspect debug entries and /wp clear-log before reproducing issues."],
                     },
                     h3 = {
                         order = 3,
                         type = "description",
                         width = "full",
-                        name = "- Use /wp reset if saved state becomes inconsistent after major patches.",
+                        name = L["- Use /wp reset if saved state becomes inconsistent after major patches."],
                     },
                     h4 = {
                         order = 4,
                         type = "description",
                         width = "full",
-                        name = "- If needed, share logs and guide ID in Discord for faster support.",
+                        name = L["- If needed, share logs and guide ID in Discord for faster support."],
                     },
                 },
             },
@@ -1642,55 +1642,55 @@ local function createHelpConfig()
                     recorderHeader = {
                         order = 8,
                         type = "header",
-                        name = "Starting With The Recorder",
+                        name = L["Starting With The Recorder"],
                     },
                     recorder1 = {
                         order = 9,
                         type = "description",
                         width = "full",
-                        name = "1) Enable WoWPro_Recorder in the AddOns list, then reload the UI if needed. When it is active, a recorder toolbar appears above the main WoW-Pro frame.",
+                        name = L["1) Enable WoWPro_Recorder in the AddOns list, then reload the UI if needed. When it is active, a recorder toolbar appears above the main WoW-Pro frame."],
                     },
                     recorder2 = {
                         order = 10,
                         type = "description",
                         width = "full",
-                        name = "2) Click New on the recorder toolbar to create a guide. Choose the guide type first, then fill in the guide fields such as Guide ID, zone, author, faction, and level range.",
+                        name = L["2) Click New on the recorder toolbar to create a guide. Choose the guide type first, then fill in the guide fields such as Guide ID, zone, author, faction, and level range."],
                     },
                     recorder3 = {
                         order = 11,
                         type = "description",
                         width = "full",
-                        name = "3) Finish the New Guide dialog to register the guide. WoW-Pro will load that guide immediately so you can begin editing or recording steps into it.",
+                        name = L["3) Finish the New Guide dialog to register the guide. WoW-Pro will load that guide immediately so you can begin editing or recording steps into it."],
                     },
                     recorder4 = {
                         order = 12,
                         type = "description",
                         width = "full",
-                        name = "4) Click Record to capture questing progress while you play. Click Stop any time you want to pause before moving, testing, or editing steps manually.",
+                        name = L["4) Click Record to capture questing progress while you play. Click Stop any time you want to pause before moving, testing, or editing steps manually."],
                     },
                     recorder5 = {
                         order = 13,
                         type = "description",
                         width = "full",
-                        name = "5) Use Open to load an existing guide for editing. Use Save to write the current recorder version to your saved guides so it can be reopened later.",
+                        name = L["5) Use Open to load an existing guide for editing. Use Save to write the current recorder version to your saved guides so it can be reopened later."],
                     },
                     recorder6 = {
                         order = 14,
                         type = "description",
                         width = "full",
-                        name = "6) In Advanced mode, use Add to insert a step after the selected step, or use buttons such as Run, Flight, Portal, Note, and Delete to refine the route.",
+                        name = L["6) In Advanced mode, use Add to insert a step after the selected step, or use buttons such as Run, Flight, Portal, Note, and Delete to refine the route."],
                     },
                     recorder7 = {
                         order = 15,
                         type = "description",
                         width = "full",
-                        name = "7) Use /wpr to toggle Basic or Advanced recorder mode. Use /wpr help to list recorder slash commands, and /wpr qdebug on or off if you need extra quest API logging while testing.",
+                        name = L["7) Use /wpr to toggle Basic or Advanced recorder mode. Use /wpr help to list recorder slash commands, and /wpr qdebug on or off if you need extra quest API logging while testing."],
                     },
                     recorder8 = {
                         order = 16,
                         type = "description",
                         width = "full",
-                        name = "8) After saving, reopen the guide with Open and run through a few steps to verify quest IDs, notes, and automatic completion behave the way you expect.",
+                        name = L["8) After saving, reopen the guide with Open and run through a few steps to verify quest IDs, notes, and automatic completion behave the way you expect."],
                     },
                 },
             },
@@ -1703,31 +1703,31 @@ local function createHelpConfig()
                     exportHeader = {
                         order = 17,
                         type = "header",
-                        name = "Exporting And Sharing",
+                        name = L["Exporting And Sharing"],
                     },
                     export1 = {
                         order = 18,
                         type = "description",
                         width = "full",
-                        name = "1) Click Save after recording or editing. The recorder opens a large text box containing the full Lua guide definition for the currently loaded guide.",
+                        name = L["1) Click Save after recording or editing. The recorder opens a large text box containing the full Lua guide definition for the currently loaded guide."],
                     },
                     export2 = {
                         order = 19,
                         type = "description",
                         width = "full",
-                        name = "2) Copy that text and paste it into a guide file if you want to move the guide into the addon source, share it with another author, or submit it for review.",
+                        name = L["2) Copy that text and paste it into a guide file if you want to move the guide into the addon source, share it with another author, or submit it for review."],
                     },
                     export3 = {
                         order = 20,
                         type = "description",
                         width = "full",
-                        name = "3) The recorder also keeps a saved copy in WoWPro_RecorderDB, so you can reload the guide later with Open even if you have not moved it into a permanent guide file yet.",
+                        name = L["3) The recorder also keeps a saved copy in WoWPro_RecorderDB, so you can reload the guide later with Open even if you have not moved it into a permanent guide file yet."],
                     },
                     export4 = {
                         order = 21,
                         type = "description",
                         width = "full",
-                        name = "4) For out-of-game backup or sharing, look in your WoW SavedVariables for WoWPro_Recorder.lua under WTF/Account/<account>/SavedVariables. That file stores the recorder guides saved on this installation.",
+                        name = L["4) For out-of-game backup or sharing, look in your WoW SavedVariables for WoWPro_Recorder.lua under WTF/Account/<account>/SavedVariables. That file stores the recorder guides saved on this installation."],
                     },
                 },
             },
@@ -1752,13 +1752,13 @@ local function createExpertOptions()
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Adjust the delay used while waiting for WoW API state updates. Increase this if steps complete too early; decrease it if updates feel sluggish.",
+                        name = L["Adjust the delay used while waiting for WoW API state updates. Increase this if steps complete too early; decrease it if updates feel sluggish."],
                     },
                     QuestEngineDelay = {
                         order = 2,
                         type = "range",
                         name = L["The amount of time to wait for the WoW client to update it's state."],
-                        desc = "Default is 0.5 seconds.",
+                        desc = L["Default is 0.5 seconds."],
                         min = 0.1,
                         max = 0.75,
                         step = .05,
@@ -1939,16 +1939,13 @@ local function createRankConfig()
                     type = "description",
                     fontSize = "medium",
                     width = "full",
-                    name = "Ranks control how many optional steps are included in guides.\n" ..
-                        "1 = shortest route (core progression only), 2 = balanced route, 3 = fullest route (most optional content).\n\n" ..
-                        "Priority for this character is: Toon Rank first, then Global Rank as fallback.",
+                    name = L["Ranks control how many optional steps are included in guides.\n1 = shortest route (core progression only), 2 = balanced route, 3 = fullest route (most optional content).\n\nPriority for this character is: Toon Rank first, then Global Rank as fallback."],
                 },
                 grank = {
                     order = 25,
                     type = "range",
                     name = L["Global Rank (Difficulty/Completeness)"],
-                    desc = "Default rank for all characters and guides unless overridden.\n\n" ..
-                        "Use 1 for speed leveling, 2 for normal play, or 3 for completion-focused runs.",
+                    desc = L["Default rank for all characters and guides unless overridden.\n\nUse 1 for speed leveling, 2 for normal play, or 3 for completion-focused runs."],
                     min = 1, max = 3, step = 1,
                     get = function(info) return WoWProDB.profile.rank end,
                     set = function(info,val) WoWProDB.profile.rank = val
@@ -1962,8 +1959,7 @@ local function createRankConfig()
                     order = 26,
                     type = "range",
                     name = L["Toon Rank (Difficulty/Completeness)"],
-                    desc = "Character-specific override for this toon.\n\n" ..
-                        "If set, this value is used instead of Global Rank for this character.",
+                    desc = L["Character-specific override for this toon.\n\nIf set, this value is used instead of Global Rank for this character."],
                     min = 1, max = 3, step = 1,
                     get = function(info) return WoWProCharDB.Rank[1] end,
                     set = function(info,val) WoWProCharDB.Rank[1] = val
@@ -1997,8 +1993,7 @@ local function createRankConfig()
                     order = 25,
                     type = "range",
                     name = L[name.." Rank (Difficulty/Completeness)"],
-                    desc = "Profile-level rank for this module's guide type.\n\n" ..
-                        "Use this when you want different strictness for " .. tostring(L[name] or name) .. " than your default rank.",
+                    desc = L["Profile-level rank for this module's guide type.\n\nUse this when you want different strictness for %s than your default rank."]:format(tostring(L[name] or name)),
                     min = 1, max = 3, step = 1,
                     get = function(info) return WoWProDB.profile[name.."rank"] end,
                     set = function(info,val) WoWProDB.profile[name.."rank"] = val
@@ -2031,7 +2026,7 @@ local function createActionConfig()
                         type = "description",
                         fontSize = "medium",
                         width = "full",
-                        name = "Action letters appear in each step and indicate what kind of step it is. Use this legend to quickly decode guide rows.",
+                        name = L["Action letters appear in each step and indicate what kind of step it is. Use this legend to quickly decode guide rows."],
                     },
                     spacer = {
                         order = 11,
@@ -2187,7 +2182,7 @@ function WoWPro.CreateConfig()
     }
 
     local topConfig = {
-        name = "Options",
+        name = L["Options"],
         type = "group",
         childGroups = "tab",
         args = {
