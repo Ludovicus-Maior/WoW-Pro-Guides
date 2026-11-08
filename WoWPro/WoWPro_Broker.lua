@@ -980,39 +980,97 @@ local function LootItemKey(lootitem)
     return table.concat(items, "|")
 end
 
+local function StickyPairMatches(usIndex, stickyIndex, usLootKey, collectMismatches)
+    local mismatches = collectMismatches and {} or nil
+    local qid = WoWPro.QID[usIndex]
+
+    if qid and WoWPro.QID[stickyIndex] ~= qid then
+        if not mismatches then return false end
+        table.insert(mismatches, "QID")
+    end
+    if WoWPro.step[stickyIndex] ~= WoWPro.step[usIndex] then
+        if not mismatches then return false end
+        table.insert(mismatches, "step text")
+    end
+    local stickyQuestText = WoWPro.questtext and WoWPro.questtext[stickyIndex]
+    local usQuestText = WoWPro.questtext and WoWPro.questtext[usIndex]
+    if stickyQuestText ~= usQuestText then
+        if not mismatches then return false end
+        table.insert(mismatches, "QO")
+    end
+    local stickyLoot = WoWPro.lootitem and WoWPro.lootitem[stickyIndex]
+    if LootItemKey(stickyLoot) ~= usLootKey then
+        if not mismatches then return false end
+        table.insert(mismatches, "L")
+    end
+
+    return not mismatches or #mismatches == 0, mismatches
+end
+
 function WoWPro.FindPairedStickyStep(usIndex)
     if not usIndex or not WoWPro.step[usIndex] then return nil end
-    local qid = WoWPro.QID[usIndex]
-    local questtext = WoWPro.questtext and WoWPro.questtext[usIndex]
-    local stepText = WoWPro.step[usIndex]
     local lootUS = WoWPro.lootitem and WoWPro.lootitem[usIndex]
     local lootKeyUS = LootItemKey(lootUS)
 
     for idx = 1, WoWPro.stepcount do
         if WoWPro.sticky[idx] and not WoWPro.unsticky[idx] then
-            local valid = true
-            if qid and WoWPro.QID[idx] ~= qid then
-                valid = false
-            end
-            if valid and WoWPro.step[idx] ~= stepText then
-                valid = false
-            end
-            if valid then
-                local qtextS = WoWPro.questtext and WoWPro.questtext[idx]
-                if questtext ~= qtextS then
-                    valid = false
-                end
-            end
-            if valid then
-                local lootS = WoWPro.lootitem and WoWPro.lootitem[idx]
-                local lootKeyS = LootItemKey(lootS)
-                if lootKeyS == lootKeyUS then
-                    return idx
-                end
+            if StickyPairMatches(usIndex, idx, lootKeyUS) then
+                return idx
             end
         end
     end
     return nil
+end
+
+function WoWPro:ValidateStickyPairs(GID)
+    local unstickySteps = {}
+    local unstickyLootKeys = {}
+    for idx = 1, WoWPro.stepcount do
+        if WoWPro.unsticky[idx] and not WoWPro.sticky[idx] then
+            table.insert(unstickySteps, idx)
+            local loot = WoWPro.lootitem and WoWPro.lootitem[idx]
+            unstickyLootKeys[idx] = LootItemKey(loot)
+        end
+    end
+
+    for stickyIndex = 1, WoWPro.stepcount do
+        if WoWPro.sticky[stickyIndex] and not WoWPro.unsticky[stickyIndex] then
+            local bestUS
+            local bestMismatches
+            local matched = false
+            for _, usIndex in ipairs(unstickySteps) do
+                local candidateMatches, mismatches = StickyPairMatches(usIndex, stickyIndex, unstickyLootKeys[usIndex], true)
+                if candidateMatches then
+                    matched = true
+                    break
+                end
+                if not bestMismatches or #mismatches < #bestMismatches then
+                    bestUS = usIndex
+                    bestMismatches = mismatches
+                end
+            end
+
+            if not matched then
+                if bestUS then
+                    WoWPro:Warning(
+                        "Guide %s: Sticky S step %d [%s] has no matching US; closest US step %d differs in %s.",
+                        tostring(GID),
+                        stickyIndex,
+                        tostring(WoWPro.step[stickyIndex]),
+                        bestUS,
+                        table.concat(bestMismatches, ", ")
+                    )
+                else
+                    WoWPro:Warning(
+                        "Guide %s: Sticky S step %d [%s] has no matching US step in the guide.",
+                        tostring(GID),
+                        stickyIndex,
+                        tostring(WoWPro.step[stickyIndex])
+                    )
+                end
+            end
+        end
+    end
 end
 
 -- Legacy row-content implementation retained below for reference.
