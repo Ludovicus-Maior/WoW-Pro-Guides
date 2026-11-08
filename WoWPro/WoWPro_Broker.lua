@@ -1145,8 +1145,8 @@ function WoWPro:LegacyRowUpdate(offset)
                         showSticky = false
                     else
                         local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
-                        -- Never show sticky steps that are beyond current progression (except S!US, which stays visible until its condition completes)
-                        if not isSUS and stepIdx > stickyBoundary then
+                        -- Both S and S!US must be reached before becoming visible.
+                        if stepIdx > stickyBoundary then
                             showSticky = false
                         -- Respect AVAILABLE/ACTIVE tags for sticky visibility (filters, not triggers)
                         -- S!US should always show until completion, regardless of these filters
@@ -1187,8 +1187,7 @@ function WoWPro:LegacyRowUpdate(offset)
                                 showSticky = true
                             end
                         else
-                            -- S!US steps should remain visible while incomplete, even if they are past the current active step
-                            if isSUS or stepIdx <= k then
+                            if stepIdx <= stickyBoundary then
                                 showSticky = true
                             end
                         end
