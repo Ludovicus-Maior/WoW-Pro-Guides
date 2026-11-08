@@ -1052,7 +1052,7 @@ function WoWPro:ValidateStickyPairs(GID)
 
             if not matched then
                 if bestUS then
-                    WoWPro:Warning(
+                    WoWPro:dev_error(
                         "Guide %s: Sticky S step %d [%s] has no matching US; closest US step %d differs in %s.",
                         tostring(GID),
                         stickyIndex,
@@ -1061,7 +1061,7 @@ function WoWPro:ValidateStickyPairs(GID)
                         table.concat(bestMismatches, ", ")
                     )
                 else
-                    WoWPro:Warning(
+                    WoWPro:dev_error(
                         "Guide %s: Sticky S step %d [%s] has no matching US step in the guide.",
                         tostring(GID),
                         stickyIndex,
