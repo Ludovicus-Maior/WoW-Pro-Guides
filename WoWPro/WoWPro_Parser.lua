@@ -1390,6 +1390,8 @@ function WoWPro.SetupGuideReal()
         WoWPro.OrderSteps(false)
     end
 
+    WoWPro:ValidateStickyPairs(GID)
+
     -- Checking to see if any steps are already complete --
     WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
     WoWProCharDB.Guide[GID].completion =  WoWProCharDB.Guide[GID].completion or {}

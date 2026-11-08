@@ -109,8 +109,19 @@ function WoWPro:Warning(message, ...)
 end
 WoWPro:Export("Warning")
 
--- WoWPro Error function, log and console --
+-- WoWPro error function, log and maybe console --
 local LogErrorCount = 0
+function WoWPro:error(message, ...)
+    if message ~= nil then
+
+        local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(1, msg)
+        LogErrorCount = LogErrorCount + 1
+    end
+end
+WoWPro:Export("error")
+
+-- WoWPro Error function, log and console --
 function WoWPro:Error(message, ...)
     if message ~= nil then
 
