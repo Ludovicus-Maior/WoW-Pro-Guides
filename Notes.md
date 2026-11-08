@@ -1,3 +1,20 @@
+# Release 2026.11.08.A
+* Quick Patch Release
+## Bug Fixes
+* **Forever** Support
+	* Note: Installing the Ace3 [r1424-alpha](https://www.curseforge.com/wow/addons/ace3/files/9350543) addon is **necessary** till Ace3 does a formal release.
+	* The Ace3 addon is *not* necessary for the other WoW clients.
+	* We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
+* Add guide-load warnings for unmatched sticky steps
+* Fix Recorder startup and save errors
+* Fix target markers on Retail and Forever
+* Fix window appearance controls and checkbox/icon alignment.
+## Guide Updates
+* Forever
+	* Alliance: Elwynn
+	* Horde: Durotar
+
+
 # Release 2026.11.05.A
 ## Bug Fixes
 * **Forever** Support
