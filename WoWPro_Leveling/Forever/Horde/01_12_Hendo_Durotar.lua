@@ -6,9 +6,9 @@ WoWPro:GuideLevels(guide,1, 12)
 WoWPro:GuideNextGuide(guide, 'ClassicSilverpineForest1215')
 WoWPro:GuideSteps(guide, function() return
 [[
-A Your Place In The World|QID|4641|LEAD|788|M|43.29,68.53|Z|1411; Durotar|N|From Kaltunk.|
+A Your Place in the World|QID|4641|LEAD|788|M|43.29,68.53|Z|1411; Durotar|N|From Kaltunk.|
 A Vile Familiars|QID|1485|M|42.59,69.00|Z|1411; Durotar|N|From Ruzan.\n[color=FF0000]NOTE: [/color]This class quest is to unlock your Imp.|R|Orc,Troll|C|Warlock|
-T Your Place In The World|QID|4641|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
+T Your Place in the World|QID|4641|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 A Wayward Weapons|QID|97279|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
 = Arcane Intellect|ACTIVE|788|M|42.59,67.34;42.51,69.04|CC|Z|1411; Durotar|N|This buff gives you +2 INT for 30 min.\nSell your food and/or water to Duokna to get the 10 copper required to afford to learn it from Mai'ah.\n[color=FF0000]NOTE: [/color]This step will complete once you've learned it.|SPELL|Arcane Intellect;1459|C|Mage|
