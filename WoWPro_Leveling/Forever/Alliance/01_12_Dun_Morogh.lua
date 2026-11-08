@@ -4,9 +4,9 @@ WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|
-C Dwarven Outfitters|QID|179|M|27.33,76.40|Z|1426; Dun Morogh|NC|N|Tough Wolf Meat.|
-T Dwarven Outfitters|QID|179|M|29.94,71.30|Z|1426; Dun Morogh|N|To Sten Stoutarm.|
+A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
+C Dwarven Outfitters|QID|179|M|29.80,74.30|L|750 8|ITEM|750|N|Ragged Young Wolves all around the area.|T|Ragged Young Wolf|
+T Dwarven Outfitters|QID|179|M|29.92,71.21|N|To Sten Stoutarm.|
 
 ; Quest name changes depending upon your class
 A Archaic Rune|QID|98581|PRE|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|C|Shaman|R|Dwarf|
@@ -21,8 +21,8 @@ A Glyphic Memorandum|QID|3114|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Mage|
 A Tainted Memorandum|QID|3115|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warlock|R|Gnome|
 A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
 r Sell Junk|AVAILABLE|170|M|30.09,71.56|N|Sell your junk to Adlin Pridedrift.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-
-T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|C|Shaman|R|Dwarf|
+A A New Threat|QID|170|PRE|179|M|29.71,71.25|N|From Balir Frosthammer|
+T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm in Anvilmar.|C|Shaman|R|Dwarf|
 T Simple Rune|QID|3106|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Dwarf|
 T Consecrated Rune|QID|3107|M|28.83,68.33|N|To Bromos Grummner in Anvilmar.|C|Paladin|R|Dwarf|
 T Etched Rune|QID|3108|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.|C|Hunter|R|Dwarf|
@@ -32,22 +32,25 @@ T Simple Memorandum|QID|3112|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|War
 T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Gnome|
 T Glyphic Memorandum|QID|3114|M|28.71,66.37|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
 T Tainted Memorandum|QID|3115|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
+= Level 2 Training|ACTIVE|170|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|IZ|Anvilmar|
 
 ; -- Warlock Imp quest
 A Beginnings|QID|1599|M|28.65,66.14|N|From Alamar Grimm in Anvilmar.|C|Warlock|
+C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|C|Warlock|S|
+; --
 
-A A New Threat|QID|170|PRE|179|M|29.78,71.29|Z|1426; Dun Morogh|N|From Balir Frosthammer.|
-C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|S|C|Warlock|
-T Coldridge Valley Mail Delivery|QID|233|M|22.62,71.34|Z|1426; Dun Morogh|N|To Talin Keeneye.|
-A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.62,71.34|Z|1426; Dun Morogh|N|From Talin Keeneye.|
-A The Boar Hunter|QID|183|PRE|233|M|22.62,71.34|Z|1426; Dun Morogh|N|From Talin Keeneye.|
-T Coldridge Valley Mail Delivery|QID|234|M|25.00,75.72|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
-A The Troll Cave|QID|182|PRE|234|M|25.00,75.72|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
-K A New Threat|QID|170|M|22.44,72.64|Z|1426; Dun Morogh|N|Burly Rockjaw Trogg slain.|
-K A New Threat|QID|170|M|31.87,74.68|Z|1426; Dun Morogh|N|Rockjaw Trogg slain.|
-T A New Threat|QID|170|M|29.76,71.37|Z|1426; Dun Morogh|N|To Balir Frosthammer.|
-A A Refugee's Quandary|QID|3361|PRE|170|M|28.53,67.73|Z|1426; Dun Morogh|N|From Felix Whindlebolt.|
-K The Boar Hunter|QID|183|M|22.89,69.78|Z|1426; Dun Morogh|N|12/12 Small Crag Boar slain.|
+C A New Threat|QID|170|QO|1;2|M|31.30,76.10|N|Kill Rockjaw Troggs and Burly Rockjaw Troggs.|
+L Level 3|AVAILABLE|3361|N|Grind until you're within 3.5 bubbles of level 3.|LVL|2;-170|
+T A New Threat|QID|170|M|29.71,71.25|N|To Balir Frosthammer|
+A A Refugee's Quandary|QID|3361|M|28.49,67.74|N|From Felix Whindlebolt|
+r Sell and Repair|ACTIVE|233|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
+T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye.\n[color=FF0000]NOTE: [/color]Exit Anvilmar and follow the road west.|
+A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|N|From Talin Keeneye.|
+A The Boar Hunter|QID|183|M|22.60,71.43|N|From Talin Keeneye.|
+C The Boar Hunter|ACTIVE|183|QO|1|M|22.00,72.00|N|Kill Small Crag Boar.\n[color=FF0000]NOTE: [/color]They are neutral until you attack them.|S|
+T Coldridge Valley Mail Delivery|QID|234|M|25.08,75.71|N|To Grelin Whitebeard.|
+A The Troll Cave|QID|182|M|25.08,75.71|N|From Grelin Whitebeard.|
+C The Troll Cave|ACTIVE|182|QO|1|M|26.30,78.80|N|Kill Frostmane Troll Whelp.|T|Frostmane Troll Whelp|S|
 T The Boar Hunter|QID|183|M|22.61,71.32|Z|1426; Dun Morogh|N|To Talin Keeneye.|
 A Call of Earth|QID|94373|PRE|183|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|C|Shaman|
 C A Refugee's Quandary|QID|3361|M|26.32,79.16|Z|1426; Dun Morogh|NC|N|Felix's Bucket of Bolts.|
@@ -67,8 +70,8 @@ T Beginnings|QID|1599|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|
 T Call of Earth|QID|94373|M|28.85,66.20|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|C|Shaman|
 A Call of Earth|QID|94374|PRE|94373|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|C|Shaman|
 A Grund and Gozwin|QID|97277|M|28.61,67.47|Z|1426; Dun Morogh|N|From Grund Drokda.|
-C Grund and Gozwin|QID|97277|M|27.28,62.95|Z|1426; Dun Morogh|NC|N|Gozwin's Mechanic's Log.|
-K Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426; Dun Morogh|N|Snow Leopard Prowler slain.|
+C Grund and Gozwin|QID|97277|M|27.28,62.95|Z|1426; Dun Morogh|NC|N|Loot Gozwin's Mechanic's Log. Walk up the mountain directly behind Anvilmar.|
+C Grund and Gozwin|QID|97277|M|27.67,62.69|Z|1426; Dun Morogh|N|Snow Leopard Prowler slain.|
 T Call of Earth|QID|94374|M|24.89,61.82|Z|1426; Dun Morogh|N|To Minor Manifestation of Earth.|C|Shaman|
 A Call of Earth|QID|94375|PRE|94374|M|24.89,61.82|Z|1426; Dun Morogh|N|From Minor Manifestation of Earth.|C|Shaman|
 T Grund and Gozwin|QID|97277|M|28.61,67.59|Z|1426; Dun Morogh|N|To Grund Drokda.|

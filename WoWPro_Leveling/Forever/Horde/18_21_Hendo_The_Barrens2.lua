@@ -223,7 +223,7 @@ N Water Totem class quest|ACTIVE|1536|N|At this point, you'll be doing some trav
 R Camp Taurajo|ACTIVE|1536|M|46.29,58.00|Z|1413; The Barrens|N|.|C|Shaman|
 ; ---
 ; --- Warlock Succubus class quest (This chain runs inline with guide for the most part - Hendo72)
-N Level 20 class quest|AVAILABLE|1507&1472|N|This is your Succubus quest.\nThere are two breadcrumbs to start this quest, but to keep it simple, we're going to get the one in Orgrimmar.\nIf you wish, you can go you're own way and get the other breadcrumb. The guide will adapt if you do.\nThere is also a quest ('Love Hurts') to get the Incubus. It's faster to do, but requires killing lv 28-30 mobs. You can do that on your own if you wish to.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Priest|
+N Level 20 class quest|AVAILABLE|1507&1472|N|This is your Succubus quest.\nThere are two breadcrumbs to start this quest, but to keep it simple, we're going to get the one in Orgrimmar.\nIf you wish, you can go you're own way and get the other breadcrumb. The guide will adapt if you do.\nThere is also a quest ('Love Hurts') to get the Incubus. It's faster to do, but requires killing lv 28-30 mobs. You can do that on your own if you wish to.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Undead|C|Warlock|
 A Devourer of Souls|QID|1507|AVAILABLE|1472|M|48.24,45.28|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
 T Devourer of Souls|QID|1507^1472|M|47.04,46.46|Z|1454; Orgrimmar|N|To Cazul in Cleft of Shadow.|
 A Blind Cazul|QID|1508|PRE|1507^1472|M|47.04,46.46|Z|1454; Orgrimmar|N|From Cazul.|C|Warlock|
