@@ -443,7 +443,6 @@ local IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     local questtext = WoWPro.questtext and WoWPro.questtext[stepIdx]
 
     local activeUS = WoWPro.ActiveStep
-    local isSUS = WoWPro.sticky[stepIdx] and WoWPro.unsticky[stepIdx]
     local isManualSticky = WoWPro.manualSticky and WoWPro.manualSticky[stepIdx]
 
     -- Hide paired sticky S when its US step is active
@@ -455,9 +454,8 @@ local IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
         return true
     end
 
-    -- Sticky steps beyond progression boundary are hidden.
-    -- Except S!US (sticky+unsticky) which stays visible until completion
-    if not isSUS and stepIdx > stickyBoundary then
+    -- Both S and S!US must be reached before becoming visible.
+    if stepIdx > stickyBoundary then
         return false
     end
 
@@ -486,11 +484,6 @@ local IsStickyVisible = function(stepIdx, k, completion, stickyBoundary)
     -- Action C with no QID: show if stepIdx <= the active progression boundary
     if action == "C" and not QID then
         return stepIdx <= stickyBoundary
-    end
-
-    -- S!US steps always show until completion
-    if isSUS then
-        return true
     end
 
     -- Default: show if stepIdx <= the active progression boundary
