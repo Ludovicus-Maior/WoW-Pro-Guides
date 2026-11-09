@@ -250,6 +250,7 @@ end
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
     if not WoWPro.GuideLoaded then return end
+    WoWPro.RefreshUseItemAvailability()
     for i = 1, 1 + WoWPro:GetActiveStickyCount() do
         local index = WoWPro.rows[i].index
         local lootItems = WoWPro.lootitem[index]
