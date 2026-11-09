@@ -68,7 +68,6 @@ A Call of Earth|QID|92466|PRE|92471|M|42.76,23.57|Z|2521; Zephras Isle|N|From Wi
 
 L Level 4|QID|92470|LVL|4|N|You should be around level 4 by this point, if not, kill a few more things.|
 N Train Skills|QID|92470|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
-r Repair/Restock|QID|92470|M|42.76,24.48|N|At Uualia Suncrest.|
 
 A Aggressive Encroachment|QID|92473|M|42.42,25.08|Z|2521; Zephras Isle|N|From Valreaa Valewind.|
 C Aggressive Encroachment|QID|92473|M|37.30,25.16|Z|2521; Zephras Isle|NC|N|Scrawny Ursera Claw.|QO|1|
@@ -153,16 +152,14 @@ A WANTED: Vulgara the Insatiable|QID|93318|PRE|92514|M|43.38,45.85|Z|2521|N|From
 C Camping 101: Fishing|QID|97967|M|46.78,48.93|Z|2521; Zephras Isle|NC|N|Raise your fishing skill to 20.|P|Fishing;356;0|
 T Camping 101: Fishing|QID|97967|M|45.03,48.43|Z|2521; Zephras Isle|N|To Fenn Fairweather.|P|Fishing;356;0+20|
 
-C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|3/3 Small Egg.|S|QO|1|
-C Restocking the Larders|QID|92553|M|41.30,45.02|Z|2521; Zephras Isle|NC|N|Strider Meat.|S|QO|2|
+C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small Eggs & Strider Meat.|S|QO|1;2|
+C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Protectors & Youth slain.|S|QO|1;2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|S|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|10/10 Prideclaw Pelt.|S|QO|1|
 
-C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1|
-C Hippogryph Harrassment|QID|92516|M|35.76,53.19|Z|2521; Zephras Isle|N|Hippogryph Protector slain.|QO|2|
+C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Protectors & Youth slain.|US|QO|1;2|
 C Hippogryph Harrassment|QID|92516|M|35.43,53.67|Z|2521; Zephras Isle|N|Hippogryph Matriarch slain.|QO|3|
-C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|3/3 Small Egg.|US|QO|1|
-C Restocking the Larders|QID|92553|M|41.30,45.02|Z|2521; Zephras Isle|NC|N|Strider Meat.|US|QO|2|
+C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small Eggs & Strider Meat.|S|QO|1;2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|US|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|10/10 Prideclaw Pelt.|US|QO|1|
 T Restocking the Larders|QID|92553|M|43.84,43.93|Z|2521; Zephras Isle|N|To Zerril Softbreeze.|

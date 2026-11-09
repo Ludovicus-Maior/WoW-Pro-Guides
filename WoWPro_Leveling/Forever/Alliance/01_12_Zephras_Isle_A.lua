@@ -10,10 +10,8 @@ A Coming of Age|QID|92460|M|42.82,23.38|Z|2521; Zephras Isle|N|From Ailee Farhea
 T Coming of Age|QID|92460|M|42.07,23.49|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 A Harmony in Balance|QID|92461|M|42.07,23.49|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 A Infestation Investigation|QID|92462|PRE|92460|M|43.44,24.79|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-C Harmony in Balance|QID|92461|N|Kill Juvenile Vuldren.|S|
-C Infestation Investigation|QID|92462|N|Kill Pesky Cirrusfly.|S|
-C Harmony in Balance|QID|92461|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vuldren slain.|
-C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|US|
+C Harmony in Balance|QID|92461|N|Kill Juvenile Vuldren.|QO|1|
+C Infestation Investigation|QID|92462|N|Kill Pesky Cirrusfly.|QO|1|
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
 r Repair/Restock|QID|92463|M|42.76,24.48|N|At Uualia Suncrest.|
@@ -67,7 +65,6 @@ T Aetheen of the Gales|QID|92471|M|42.73,23.65|Z|2521; Zephras Isle|N|To Aetheen
 A Foul Matriarch|QID|92470|M|42.73,23.65|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
 
 N Train Skills|QID|92470|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
-r Repair/Restock|QID|92470|M|42.76,24.48|N|At Uualia Suncrest.|
 
 A Aggressive Encroachment|QID|92473|M|42.42,25.08|Z|2521; Zephras Isle|N|From Valreaa Valewind.|
 C Aggressive Encroachment|QID|92473|M|37.30,25.16|Z|2521; Zephras Isle|N|Scrawny Ursera Claw.|S|
@@ -96,7 +93,6 @@ A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isl
 C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Use the /sit emote near the campfire.|
 C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Gain the Boosted Rest buff.|
 T The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
-
 
 A Camping 101: Cooking|QID|96646|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
 A Camping 101: First Aid|QID|97965|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
@@ -142,12 +138,10 @@ C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small
 C Restocking the Larders|QID|92553|M|41.30,45.02|Z|2521; Zephras Isle|NC|N|Strider Meat.|S|QO|2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|S|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|Prideclaw Pelt.|S|QO|1|
-C A Magical Affront|ACTIVE|94413|M|38.82,47.68|Z|2521; Zephras Isle|NC|N|Windshaper Novice Seer defeated.|QO|1|S|
-C Hippogryph Harassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1|S|
-C Hippogryph Harassment|QID|92516|M|35.76,53.19|Z|2521; Zephras Isle|N|Hippogryph Protector slain.|QO|2|S|
+C A Magical Affront|ACTIVE|94413|M|38.82,47.68|Z|2521; Zephras Isle|NC|N|Windshaper Novice Seer defeated.|QO|1|
+C Hippogryph Harassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1;2|S|
 K Hippogryph Matriarch|ACTIVE|92516|M|34.31,51.30|Z|2521; Zephras Isle|N|Hippogryph Matriarch slain.|QO|3|T|Hippogryph Matriarch|
-C Hippogryph Harassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1|US|
-C Hippogryph Harassment|QID|92516|M|35.76,53.19|Z|2521; Zephras Isle|N|Hippogryph Protector slain.|QO|2|US|
+C Hippogryph Harassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Youth slain.|QO|1;2|US|
 C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small Egg.|US|QO|1|
 C Restocking the Larders|QID|92553|M|41.30,45.02|Z|2521; Zephras Isle|NC|N|Strider Meat.|US|QO|2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|US|QO|1|
@@ -199,9 +193,9 @@ C The Western Watch|QID|93926|M|42.35,61.96|Z|2521|NC|N|Check in on the Western 
 T The Western Watch|QID|93926|M|42.35,61.96|Z|2521|N|To Peacekeeper Vaaniel.|
 A A Last Request|QID|93927|PRE|93926|M|42.35,61.96|Z|2521|N|From Peacekeeper Vaaniel.|
 C A Last Request|QID|93927|M|42.37,62.06|Z|2521|NC|N|Collect and read the note.|QO|1|
-C A Last Request|QID|93927|M|41.11,64.07|Z|2521|NC|N|Raani's Favorite Feather.|QO|2|
-C A Last Request|QID|93927|M|40.98,64.07|Z|2521|NC|N|Shadowsong Family Signet.|QO|3|
-K A Last Request|QID|93927|M|41.15,64.15|Z|2521|N|Skypriest Aanders slain.|QO|4|
+C A Last Request|QID|93927|M|41.11,64.07|Z|2521|NC|N|Raani's Favorite Feather.|QO|3|
+C A Last Request|QID|93927|M|40.98,64.07|Z|2521|NC|N|Shadowsong Family Signet.|QO|4|
+K A Last Request|QID|93927|M|41.15,64.15|Z|2521|N|Skypriest Aanders slain.|QO|2|
 
 C WANTED: Vulgara the Insatiable|QID|93318|M|42.71,52.73|Z|2521; Zephras Isle|NC|N|Vulgara's Head.|QO|1|
 T WANTED: Vulgara the Insatiable|QID|93318|M|45.19,45.22|Z|2521; Zephras Isle|N|To Danarii Bellowveil.|
@@ -233,9 +227,6 @@ h Valanaar|QID|92741|M|62.15,72.63|Z|2521; Zephras Isle|N|At Donaal Downbreeze.|
 A Blood Tithe|QID|92679|PRE|92709|M|62.11,73.37|Z|2521; Zephras Isle|N|From Alvarion Windfield. (Upstairs in the Inn)|
 A Crab Season|QID|93317|PRE|92709|M|60.63,72.66|Z|2521; Zephras Isle|N|From Nyalah Brightfire.|
 
-;This Sticky was acting odd, it would show, but hide all other quests, or not show, and the other quests did show, and would randomly flip back and forth.
-C Crab Season|QID|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|S|
-
 ;Hunter quests require LVL|10|
 ;L Level 10|LVL|10|N|You should be around level 10 by this point. If not kill things until you are.|
 
@@ -248,7 +239,7 @@ T Taming the Beast|QID|94013|M|59.57,72.64|Z|2521; Zephras Isle|N|To Quel'ana Qu
 A Training the Beast|QID|94050|PRE|94013|M|59.58,72.64|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|LVL|10|
 T Training the Beast|QID|94050|M|59.61,72.53|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|LVL|10|
 
-r Repair/Restock|QID|93317|M|58.15,76.40|
+r Repair/Restock|QID|93317|M|58.95,75.43|
 
 C Blood Tithe|QID|92679|M|46.71,81.93|Z|2521; Zephras Isle|NC|N|Find Aamelia Windfield.|
 T Blood Tithe|ACTIVE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
@@ -258,16 +249,17 @@ A Flutterfly Dust|QID|92683|PRE|92679|M|46.71,81.93|Z|2521; Zephras Isle|N|From 
 C Ornery Ornery Galestriders|ACTIVE|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|S|
 A What Is My Purpose?|QID|92698|PRE|92679|M|48.77,78.17|Z|2521; Zephras Isle|N|From Malfunctioning Cyclone Construct.|
 T What Is My Purpose?|ACTIVE|92698|M|46.72,81.92|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-C Make Yourself Useful|ACTIVE|92682|M|48.36,83.85|Z|2521; Zephras Isle|N|5/5 Hungry Bandit slain.|QO|2|
+C Make Yourself Useful|ACTIVE|92682|M|48.36,83.85|Z|2521; Zephras Isle|N|Kill Hungry Bandits.|QO|2|
 C Make Yourself Useful|ACTIVE|92682|M|48.44,83.94|Z|2521; Zephras Isle|NC|N|Ripe Stormapple.|QO|1|
-U Bonk Flutterfly to get Dust|ACTIVE|92683|L|253595|N|Hit the Flutterfly with the Flutterfly Swatter to have it drop dust, then pick up off the ground.|U|253666|
-C Flutterfly Dust|ACTIVE|92683|M|48.23,78.62|Z|2521; Zephras Isle|NC|N|5/5 Flutterfly Dust.|QO|1|
+C Flutterfly Dust|ACTIVE|92683|M|48.23,78.62|Z|2521; Zephras Isle|NC|N|Hit the Flutterfly with the Flutterfly Swatter to have it drop dust, then pick up off the ground.|QO|1|U|253666|
 C Ornery Ornery Galestriders|ACTIVE|92684|M|49.32,78.95|Z|2521; Zephras Isle|NC|N|Lowlands Galestrider Tenderloin.|QO|1|US|
 T Flutterfly Dust|ACTIVE|92683|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
 T Make Yourself Useful|ACTIVE|92682|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
 T Ornery Ornery Galestriders|ACTIVE|92684|M|46.75,81.94|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
 A The Hills Have Eyes|QID|92685|PRE|92683&92682&92684|M|46.75,81.94|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-C The Hills Have Eyes|ACTIVE|92685|M|51.02,72.48|Z|2521; Zephras Isle|NC|N|Blood-Stained Bandit Mask.|QO|1|
+
+C Crab Season|ACTIVE|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|S|
+C The Hills Have Eyes|ACTIVE|92685|M|51.02,72.48|Z|2521; Zephras Isle|NC|N|Blood-Stained Bandit Mask.|QO|1|S|
 
 T The Missing Scholar|ACTIVE|92727|M|53.35,72.23|Z|2521; Zephras Isle|
 A The Missing Scholar|QID|92849|PRE|93949&92727|M|53.33,72.18|Z|2521; Zephras Isle|
@@ -277,19 +269,6 @@ T The Missing Scholar|ACTIVE|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|To Filli
 A The Missing Scholar|QID|92850|PRE|92849|M|52.06,69.38|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|
 C The Missing Scholar|ACTIVE|92850|M|52.09,64.91|Z|2521; Zephras Isle|NC|N|Shriekling Matriarch's Head.|QO|1|
 
-T The Hills Have Eyes|ACTIVE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A Standing Our Ground|QID|92693|PRE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-C Standing Our Ground|ACTIVE|92693|M|46.72,81.95|Z|2521; Zephras Isle|CHAT|N|Speak with Aamelia Windfield.|QO|1|
-C Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|NC|N|Follow Aamelia and make your final stand.|QO|1|
-T Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
-A Deliver the News|QID|92703|PRE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
-
-H Hearth to Valanaar|ACTIVE|92703|N|Hearth back to turn in the head and pick up more quests.|
-
-T Deliver the News|QID|92703|M|62.15,73.35|Z|2521; Zephras Isle|N|To Alvarion Windfield. (Upstairs in the Inn)|
-
-A The Great Ursera Spirit|QID|94006|PRE|92703|M|64.00,75.10|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|C|Druid|
-
 T The Missing Scholar|ACTIVE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|To Fillion Flamebreeze.|
 A Fillion's Mission|QID|99260|PRE|92850|M|66.20,79.89|Z|2521; Zephras Isle|N|From Fillion Flamebreeze.|
 T Fillion's Mission|ACTIVE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
@@ -297,14 +276,28 @@ A Catching Wind|QID|92840|PRE|99260|M|66.60,79.93|Z|2521; Zephras Isle|N|From El
 
 C Catching Wind|ACTIVE|92840|M|47.57,68.85|Z|2521; Zephras Isle|NC|N|Gather Data on Elemental Currents.|QO|1|
 
-N Crabbing Time!|QID|93317|N|Travel around the water to finish collecting crab meat. NOTE: Manually check this step off to continue.|
-C Crab Season|QID|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|US|
+N Crabbing Time!|ACTIVE|93317|N|Travel around the water to finish collecting crab meat. NOTE: Manually check this step off to continue.|
+C Crab Season|ACTIVE|93317|M|50.10,67.82|Z|2521; Zephras Isle|NC|N|Windsong Crawler Meat.|QO|1|US|
 
-H Hearth to Valanaar|ACTIVE|93317|N|If available, Hearth back to turn in.|
+C The Hills Have Eyes|ACTIVE|92685|M|51.02,72.48|Z|2521; Zephras Isle|NC|N|Blood-Stained Bandit Mask.|QO|1|US|
+
+T The Hills Have Eyes|ACTIVE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+A Standing Our Ground|QID|92693|PRE|92685|M|46.72,81.95|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+C Standing Our Ground|ACTIVE|92693|M|46.72,81.95|Z|2521; Zephras Isle|CHAT|N|Speak with Aamelia Windfield.|QO|1|
+C Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|NC|N|Follow Aamelia and make your final stand.|QO|1|
+T Standing Our Ground|ACTIVE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|To Aamelia Windfield.|
+A Deliver the News|QID|92703|PRE|92693|M|47.47,78.50|Z|2521; Zephras Isle|N|From Aamelia Windfield.|
+
+H Valanaar|ACTIVE|92703|N|Hearth back to turn in the head and pick up more quests.|
+
+T Deliver the News|QID|92703|M|62.15,73.35|Z|2521; Zephras Isle|N|To Alvarion Windfield. (Upstairs in the Inn)|
 
 T Crab Season|QID|93317|M|60.64,72.70|Z|2521; Zephras Isle|N|To Nyalah Brightfire.|
 
-r Repair/Restock|M|58.98,75.45|
+A Unnerving Silence|QID|94484|M|63.99,75.13|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|
+A The Great Ursera Spirit|QID|94006|PRE|92703|M|64.00,75.10|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|C|Druid|
+
+r Repair/Restock|M|65.40,80.14|
 
 T Catching Wind|ACTIVE|92840|M|66.61,79.90|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
 A Avenged Tenfold|QID|92834|PRE|92703&93317&92840|M|66.61,79.90|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
@@ -313,6 +306,7 @@ T In Service of Zephras|ACTIVE|92860|M|66.20,76.65|Z|2521; Zephras Isle|N|To Val
 
 A Tower Defense|QID|93320|PRE|92860|M|66.20,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 
+
 R Swim across to the tree|ACTIVE|92860|M|65.48,73.29|Z|2521; Zephras Isle|N|Swim across and walk up the fallen tree.|
 R Head through the gap in the hills|ACTIVE|92860|M|65.57,70.56|Z|2521; Zephras Isle|N|Head through the gap in the hills and to the right to get to the tower.|
 
@@ -320,11 +314,11 @@ T Tower Defense|QID|93320|M|69.63,67.08|Z|2521|N|To Yorana Windyreed.|
 A Disrupting Logistics|QID|92642|PRE|93320|M|69.63,67.08|Z|2521|N|From Yorana Windyreed.|
 A Breaking the Breaker|QID|92645|PRE|93320|M|69.63,67.08|Z|2521|N|From Yorana Windyreed.|
 
-;This is for druids who have an additional quest
-N Cliff Diving for Druids!|ACTIVE|94006|N|Jump off the cliff toward your quest turn in on the island below. NOTE: Manually check this step off to continue.|C|Druid|
+; This is for druids who have an additional quest
+R Cliff Diving for Druids!|ACTIVE|94006|M|69.00,65.81|Z|2521; Zephras Isle|N|Jump off the cliff toward your quest turn in on the island below.|CC|C|Druid|
 
-;This is for non-druids
-R Jump off Cliff|ACTIVE|92642|M|68.99,65.83|Z|2521; Zephras Isle|N|Jump off the cliff and use your [color=61C9F6]Walk on Air[/color] spell.|CC|C|-Druid|
+; This is for non-druids
+R Jump off Cliff|ACTIVE|92642|M|69.00,65.81|Z|2521; Zephras Isle|N|Jump off the cliff and use your [color=61C9F6]Walk on Air[/color] spell.|CC|C|-Druid|
 
 R Snag the Ley Line Buff|ACTIVE|92642|M|69.06,61.96|Z|2521; Zephras Isle|N|Stop by the Ley Line for the 14 min buff.|CC|
 
@@ -332,8 +326,7 @@ T The Great Ursera Spirit|ACTIVE|94006|M|69.69,61.53|Z|2521|N|To Urs'endris.|C|D
 A Strength and Mercy|QID|94638|PRE|94006|M|69.69,61.53|Z|2521|N|From Urs'endris.|C|Druid|
 
 K Breaking the Breaker|QID|92645|M|65.88,65.37|Z|2521; Zephras Isle|N|Commander Belguilos slain.|QO|1|
-C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healer slain.|QO|1|
-C Disrupting Logistics|QID|92642|M|65.15,67.86|Z|2521; Zephras Isle|N|Al'Aketh Brawler slain.|QO|2|
+C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healers & Brawlers slain.|QO|1;2|
 C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|QO|1|
 
 T Disrupting Logistics|QID|92642|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
@@ -360,8 +353,6 @@ A The Turncoat|QID|92643|PRE|92881|M|66.18,76.51|Z|2521; Zephras Isle|N|From Tal
 
 A Aid For The Refugees|QID|94896|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|N|From Ealaane Nimbuswalker.|
 A The Fate of a Loved One|QID|94897|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|
-
-A Unnerving Silence|QID|94484|M|63.99,75.13|Z|2521; Zephras Isle|N|From Lotheluum Starbreeze.|
 
 R Head to the Road|ACTIVE|92741|M|58.05,68.32|Z|2521; Zephras Isle|N|Head to the road North.|CC|
 R Keep going North|ACTIVE|92741|M|58.97,44.20|Z|2521; Zephras Isle|N|Cross the bridges and keep going North.|CC|
