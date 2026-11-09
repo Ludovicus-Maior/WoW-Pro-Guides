@@ -73,7 +73,7 @@ A Assassination Plot|QID|4881|M|PLAYER|CC|N|Click on the Assassination Note to s
 R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
 t Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|Z|1441; Thousand Needles|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
 T Assassination Plot|QID|4881|M|21.24,32.06|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
-A Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|From Kanati Greycloud.|NA|
+A Protect Kanati Greycloud|QID|4966|PRE|4881|M|21.24,32.06|Z|1441; Thousand Needles|N|From Kanati Greycloud.|NA|
 C Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|As you lead Kanati, a group of 3 Galak Assassins will spawn and attack you. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
 C Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|Z|1441; Thousand Needles|L|12732 10|N|Loot these from in and around the pond.|

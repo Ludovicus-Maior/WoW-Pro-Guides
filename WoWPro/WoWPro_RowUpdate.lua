@@ -611,6 +611,20 @@ local function SelectUseItem(use)
     return next(items)
 end
 
+function WoWPro.RefreshUseItemAvailability()
+    if not WoWProDB.profile.showItemButton or not WoWPro.rows then
+        return
+    end
+
+    for _, row in ipairs(WoWPro.rows) do
+        if row:IsShown() and row.useItemTag
+            and SelectUseItem(row.useItemTag) ~= row.selectedUseItemID then
+            WoWPro:UpdateGuide("UseItemAvailabilityChanged")
+            return
+        end
+    end
+end
+
 -- Helper: Setup item-use button (action uses item)
 local SetupUseItemButton = function(currentRow, use, k)
     if InCombatLockdown() then
@@ -618,8 +632,11 @@ local SetupUseItemButton = function(currentRow, use, k)
     end
 
     local itemID = SelectUseItem(use)
+    currentRow.useItemTag = use
+    currentRow.selectedUseItemID = itemID
     if not itemID then
         currentRow.itembutton:Hide()
+        currentRow.itembuttonSecured:Hide()
         WoWPro:PositionTargetUseButtons(currentRow)
         return
     end
@@ -1529,6 +1546,8 @@ function WoWPro:RowUpdate(offset)
         BuildDropdownMenu(i, currentRow, step, WoWPro.QID[k], formattedCoord, WoWPro.sticky[k], GID)
 
         -- Item buttons
+        currentRow.useItemTag = nil
+        currentRow.selectedUseItemID = nil
         if WoWProDB.profile.showItemButton and use and use ~= "" then
             if use:sub(1, 1) == "*" then
                 SetupTrashItemButton(currentRow, use:sub(2), k)
