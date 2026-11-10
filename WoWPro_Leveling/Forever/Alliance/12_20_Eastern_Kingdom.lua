@@ -99,25 +99,25 @@ A Tome of Divinity|QID|3681|M|23.11,6.15|Z|1455; Ironforge|N|From Brandur Ironha
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|1455; Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
-T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|1453; Stormwind City|N|To Dungar Longdrink.|
-A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|1453; Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|M|49.21,30.27|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
+T Dungar Longdrink|QID|6261|M|71.29,72.23|Z|1453; Stormwind City|N|To Dungar Longdrink.|
+A Return to Lewis|QID|6285|PRE|6261|M|71.29,72.23|Z|1453; Stormwind City|N|From Dungar Longdrink.|
+A Humble Beginnings|QID|399|M|57.75,47.86|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
 
-T Tome of Divinity|QID|3681|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
-A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
-T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
-T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
-A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
+T Tome of Divinity|QID|3681|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
+A The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
+T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
+T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
+A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
 C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|
-T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|
-A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
-T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
-T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
-A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
+T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|
+A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
+T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
+T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
+A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
 
-T Stormpike's Order|QID|1338|M|58.10,16.57|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
+T Stormpike's Order|QID|1338|M|64.63,37.26|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
@@ -141,9 +141,9 @@ A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|1433; Redridge Mountains|
 f Lakeshire|QID|65|M|30.60,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
-T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
-A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
-T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|
+T The Tome of Divinity|QID|1787|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
+A The Tome of Divinity|QID|1788|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
+T The Tome of Divinity|QID|1788|C|Paladin|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|
 R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|
 
@@ -199,8 +199,8 @@ F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
-T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|1453; Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
-A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|1453; Stormwind City|N|From Osric Strang.|PRE|6281|
+T Continue to Stormwind|QID|6281|M|77.18,60.99|Z|1453; Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
+A Dungar Longdrink|QID|6261|M|77.18,60.99|Z|1453; Stormwind City|N|From Osric Strang.|PRE|6281|
 ; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
 
 
@@ -230,11 +230,11 @@ R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the w
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|1429; Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|1429; Elwynn Forest|N|To Smith Argus in Goldshire.|
 A Return to Verner|QID|119|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Argus.|PRE|118|
-R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|1453; Stormwind City|N|Return to Stormwind City.|
-T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|1453; Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
-A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
-B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
-F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|1453; Stormwind City|N|Fly back to Redridge.|
+R Stormwind City|ACTIVE|120|M|74.47,92.90|Z|1453; Stormwind City|N|Return to Stormwind City.|
+T Messenger to Stormwind|QID|120|M|69.20,82.76|Z|1453; Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
+A Messenger to Stormwind|QID|121|M|69.20,82.76|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+B Cask of Merlot|ACTIVE|116|M|60.03,76.95|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
+F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
@@ -269,11 +269,11 @@ A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stout
 
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
+T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 
-A Humble Beginnings|QID|399|M|49.19,30.27|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
-T Elmore's Task|QID|1097|M|51.74,12.13|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
+A Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
+T Elmore's Task|QID|1097|M|59.71,33.82|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
 
 A Reading Room|QID|97234|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
 T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
@@ -283,7 +283,7 @@ C Shelf Picked|QID|97237|QO|2|M|76.38,30.39|Z|1453; Stormwind City|N|The Forsake
 C Shelf Picked|QID|97237|QO|3|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accounts of Horde Razings.|NC|
 C Shelf Picked|QID|97237|QO|4|M|76.16,29.31|Z|1453; Stormwind City|N|Cycles of Morality.|NC|
 
-F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
+F Ironforge|AVAILABLE|2039|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 
