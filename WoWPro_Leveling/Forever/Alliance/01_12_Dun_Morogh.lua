@@ -55,7 +55,7 @@ T The Boar Hunter|QID|183|M|22.61,71.32|Z|1426; Dun Morogh|N|To Talin Keeneye.|
 A Call of Earth|QID|94373|PRE|183|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|C|Shaman|
 C A Refugee's Quandary|QID|3361|M|26.32,79.16|Z|1426; Dun Morogh|NC|N|Felix's Bucket of Bolts.|
 C A Refugee's Quandary|QID|3361|M|22.80,79.88|Z|1426; Dun Morogh|NC|N|Felix's Chest.|
-C Call of Earth|ACTIVE|94373|M|22.65,79.39|Z|1426; Dun Morogh|NC|N|2/2 Iceclaw Bear Pendant.|C|Shaman|
+C Call of Earth|QID|94373|M|22.65,79.39|Z|1426; Dun Morogh|NC|N|2/2 Iceclaw Bear Pendant.|C|Shaman|
 C A Refugee's Quandary|QID|3361|M|20.98,76.04|Z|1426; Dun Morogh|NC|N|Felix's Box.|
 K The Troll Cave|QID|182|M|21.31,75.83|Z|1426; Dun Morogh|N|14/14 Frostmane Troll Whelp slain.|
 C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|US|C|Warlock|
