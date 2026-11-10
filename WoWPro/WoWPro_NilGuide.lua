@@ -1,4 +1,5 @@
 -- Purpose: Reset WoWPro when no guide is loaded
+local L = WoWPro_Locale
 function WoWPro:LoadNilGuide()
     if not WoWPro.MainFrame then
         WoWPro:CreateFrames()
@@ -19,7 +20,7 @@ function WoWPro:LoadNilGuide()
     WoWPro.stepcount = 1
 
     -- Clear guide metadata
-    WoWPro.TitleText:SetText("No Guide Loaded")
+    WoWPro.TitleText:SetText(L["No Guide Loaded"])
     WoWPro.ProgressText:SetText(nil)
     WoWPro.CurrentGuide = nil
     WoWPro.GuideLoaded = false
@@ -37,7 +38,7 @@ function WoWPro:LoadNilGuide()
             if row.step then row.step:SetText(nil) end
             if row.note then row.note:SetText(nil) end
             if i == 1 and row.note then
-                row.note:SetText("To select a guide, click the horn icon in the top bar")
+                row.note:SetText(L["To select a guide, click the horn icon in the top bar"])
             end
             if row.track then row.track:SetText(nil) end
             if row.iconTexture then row.iconTexture:SetTexture(nil) end
