@@ -57,64 +57,64 @@ N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I 
 
 ; Redridge 26-27
 F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|1437; Wetlands|
-B Bronze Tube|QID|174|M|53.19,60.7|Z|1453; Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-B Stormwind Seasoning Herbs|QID|90|M|60.07,51.55;64.15,60.60|CS|Z|1453; Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
-N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|1453; Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
-t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
-t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
+B Bronze Tube|QID|174|M|60.83,71.40|Z|1453; Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
+B Stormwind Seasoning Herbs|QID|90|M|66.15,64.32;69.31,71.33|CS|Z|1453; Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
+N Level Cooking SKill to 50|QID|90|M|78.36,53.03|Z|1453; Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
+t Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
+t A Scroll from Mauren|QID|1075|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
 
 F Lakeshire|QID|128|M|70.90,72.60|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
-A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|1433; Redridge Mountains|
-A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|1433; Redridge Mountains|
-A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|1433; Redridge Mountains|
-T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
-h Lakeshire|ACTIVE|126|M|27.97,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
-A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|1433; Redridge Mountains|
-C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|1433; Redridge Mountains|
-T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|1433; Redridge Mountains|
-R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire.|Z|1433; Redridge Mountains|
+A Blackrock Bounty|QID|128|M|26.45,57.86|N|From Guard Howe.|Z|1433; Redridge Mountains|
+A Blackrock Menace|QID|20|M|28.40,48.99|N|From Marshal Marris.|Z|1433; Redridge Mountains|
+A Howling in the Hills|QID|126|M|25.87,47.27|N|From Verner Osgood.|PRE|124|Z|1433; Redridge Mountains|
+T Messenger to Darkshire|QID|146|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+h Lakeshire|ACTIVE|126|M|22.88,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
+A An Unwelcome Guest|QID|34|M|16.81,46.30|N|From Martie Jainrose.|Z|1433; Redridge Mountains|
+C An Unwelcome Guest|QID|34|M|11.18,49.00|N|Kill Bellgrub.|Z|1433; Redridge Mountains|
+T An Unwelcome Guest|QID|34|M|16.81,46.30|N|To Martie Jainrose.|Z|1433; Redridge Mountains|
+R Gnoll Camps|ACTIVE|126|M|34.91,33.10|CC|N|Head north-east out of Lakeshire.|Z|1433; Redridge Mountains|
 C Howling in the Hills|QID|126|M|40.00,33.10;27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|Z|1433; Redridge Mountains|
-R Render's Camp|ACTIVE|20|M|47.60,27.90|CC|N|Get back on the road and head towards Render's Camp|Z|1433; Redridge Mountains|
-C Blackrock Menace|QID|20|M|29.2,11.60|S|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
-A Missing In Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan inside the cave.|Z|1433; Redridge Mountains|
-C Missing In Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town. He is a elite level 25 and is able to tank a couple of mobs. His health will regen to full after 5 seconds of being out of combat.|Z|1433; Redridge Mountains|
-T Missing In Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-C Blackrock Bounty|QID|128|M|29.2,11.60|N|Kill Blackrock Champions.|Z|1433; Redridge Mountains|
+R Render's Camp|ACTIVE|20|M|42.51,27.90|CC|N|Get back on the road and head towards Render's Camp|Z|1433; Redridge Mountains|
+C Blackrock Menace|QID|20|M|24.11,11.60|S|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
+A Missing In Action|QID|219|M|23.31,12.56|N|From Corporal Keeshan inside the cave.|Z|1433; Redridge Mountains|
+C Missing In Action|QID|219|M|28.31,48.94|N|Escort him out of the cave and back to town. He is a elite level 25 and is able to tank a couple of mobs. His health will regen to full after 5 seconds of being out of combat.|Z|1433; Redridge Mountains|
+T Missing In Action|QID|219|M|28.31,48.94|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+C Blackrock Bounty|QID|128|M|24.11,11.60|N|Kill Blackrock Champions.|Z|1433; Redridge Mountains|
 C Blackrock Menace|QID|20|M|47.46,29.39;42.10,12.40|CN|US|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
-T Blackrock Menace|QID|20|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-A Tharil'zun|QID|19|M|33.49,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
-A Shadow Magic|QID|115|M|33.49,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
-T Blackrock Bounty|QID|128|M|31.54,57.86|N|To Guard Howe.|Z|1433; Redridge Mountains|
-T Howling in the Hills|QID|126|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-A Wanted: Gath'Ilzogg|QID|169|M|29.62,46.18|N|From the wanted poster on the townhall archway.|Z|1433; Redridge Mountains|
-A Solomon's Law|QID|91|M|29.72,44.26|N|From Bailiff Conacher.|Z|1433; Redridge Mountains|
-A Wanted: Lieutenant Fangore|QID|180|M|26.77,46.44|N|From poster in front of the Inn.|Z|1433; Redridge Mountains|
-C Solomon's Law|QID|91|M|78,42|S|N|Kill Shadowhide Gnolls and loot their pendants.|Z|1433; Redridge Mountains|
-T A Watchful Eye|QID|94|M|84.3,46.9|N|To Lion Statue.|Z|1433; Redridge Mountains|
-A Looking Further|QID|248|M|84.3,46.9|N|From Lion Statue.|PRE|94|Z|1433; Redridge Mountains|
-C Wanted: Lieutenant Fangore|QID|180|M|79.75,37.6|N|Kill Lieutenant Fangore and loot his paw. He roams around from camp to camp.\nBe aware that he will pull nearby Gnolls in a large radius when agro'd.|T|Lieutenant Fangore|Z|1433; Redridge Mountains|
-C Solomon's Law|QID|91|M|78,42|US|N|Kill Shadowhide Gnoll gnolls and loot their pendants.|Z|1433; Redridge Mountains|
-l Glowing Shadow Pendant|QID|178|M|78,42|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|1433; Redridge Mountains|
-A Theocritus' Retrieval|QID|178|M|78,42|U|1962|N|Click the Pendant to accept the quest.|Z|1433; Redridge Mountains|
+T Blackrock Menace|QID|20|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+A Tharil'zun|QID|19|M|28.40,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
+A Shadow Magic|QID|115|M|28.40,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
+T Blackrock Bounty|QID|128|M|26.45,57.86|N|To Guard Howe.|Z|1433; Redridge Mountains|
+T Howling in the Hills|QID|126|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+A Wanted: Gath'Ilzogg|QID|169|M|24.53,46.18|N|From the wanted poster on the townhall archway.|Z|1433; Redridge Mountains|
+A Solomon's Law|QID|91|M|24.63,44.26|N|From Bailiff Conacher.|Z|1433; Redridge Mountains|
+A Wanted: Lieutenant Fangore|QID|180|M|21.68,46.44|N|From poster in front of the Inn.|Z|1433; Redridge Mountains|
+C Solomon's Law|QID|91|M|72.91,42.00|S|N|Kill Shadowhide Gnolls and loot their pendants.|Z|1433; Redridge Mountains|
+T A Watchful Eye|QID|94|M|79.21,46.90|N|To Lion Statue.|Z|1433; Redridge Mountains|
+A Looking Further|QID|248|M|79.21,46.90|N|From Lion Statue.|PRE|94|Z|1433; Redridge Mountains|
+C Wanted: Lieutenant Fangore|QID|180|M|74.66,37.60|N|Kill Lieutenant Fangore and loot his paw. He roams around from camp to camp.\nBe aware that he will pull nearby Gnolls in a large radius when agro'd.|T|Lieutenant Fangore|Z|1433; Redridge Mountains|
+C Solomon's Law|QID|91|M|72.91,42.00|US|N|Kill Shadowhide Gnoll gnolls and loot their pendants.|Z|1433; Redridge Mountains|
+l Glowing Shadow Pendant|QID|178|M|72.91,42.00|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|1433; Redridge Mountains|
+A Theocritus' Retrieval|QID|178|M|72.91,42.00|U|1962|N|Click the Pendant to accept the quest.|Z|1433; Redridge Mountains|
 N Elite Quests|QID|180|N|You will now be doing 5 elite quests in the area. The quests will require at least 3 people - however 5 is highly recommended. Skip the next 9 steps if you cannot find a group.|Z|1433; Redridge Mountains|
-C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|1433; Redridge Mountains|
-T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower.|Z|1433; Redridge Mountains|
-C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|1433; Redridge Mountains|
+C Shadow Magic|QID|115|M|58.11,49.80|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|1433; Redridge Mountains|
+T Looking Further|QID|248|M|58.11,49.80|N|To An Empty Jar, At the top of the tower.|Z|1433; Redridge Mountains|
+C Tharil'Zun|QID|19|M|63.22,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|1433; Redridge Mountains|
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|1433; Redridge Mountains|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|1433; Redridge Mountains|
-A Morganth|QID|249|M|84.3,46.9|N|From the Lion Statue.|Z|1433; Redridge Mountains|PRE|248|
+A Morganth|QID|249|M|79.21,46.90|N|From the Lion Statue.|Z|1433; Redridge Mountains|PRE|248|
 C Morganth|QID|249|M|80.00,78.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|1433; Redridge Mountains|
-T Tharil'zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-T Solomon's Law|QID|91|M|29.72,44.26|N|To Bailiff Conacher.|Z|1433; Redridge Mountains|
-T Wanted: Gath'Ilzogg|QID|169|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
-T Wanted: Lieutenant Fangore|QID|180|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+T Tharil'zun|QID|19|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+T Shadow Magic|QID|115|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+T Solomon's Law|QID|91|M|24.63,44.26|N|To Bailiff Conacher.|Z|1433; Redridge Mountains|
+T Wanted: Gath'Ilzogg|QID|169|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+T Wanted: Lieutenant Fangore|QID|180|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
 T Theocritus' Retrieval|QID|178|M|65.2,69.8|Z|1429; Elwynn Forest|N|To Theocritus at the top of the Tower of Azora.|
 T Morganth|QID|249|M|65.2,69.8|Z|1429; Elwynn Forest|N|To Theocritus|
 
 ; Duskwood 27-28
 R Darkshire|QID|174|M|75,48|Z|1431; Duskwood|N|Run to Darkshire.|
-B Bronze Tube|QID|174|M|53.19,60.7|Z|1453; Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
+B Bronze Tube|QID|174|M|60.83,71.40|Z|1453; Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 r Sell junk and repair|AVAILABLE|67|S|
 A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|1431; Duskwood|O|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|Z|1431; Duskwood|
@@ -209,34 +209,34 @@ L Level 28|ACTIVE|70|N|You should be level 28 or close by now. We're about to go
 
 F Stormwind|ACTIVE|70|M|77.50,44.30|N|Fly to Stormwind City.|Z|1431; Duskwood|
 
-T The Tome of Valor|QID|1652|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Test of Righteousness|QID|1653|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
-T Klaven's Tower|QID|2359|M|76,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A The Touch of Zanzil|QID|2607|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
-T The Touch of Zanzil|QID|2607|M|78,59|Z|1453; Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
-A The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
-C The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
-T The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-A The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
-T The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+T The Tome of Valor|QID|1652|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Test of Righteousness|QID|1653|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
+T Klaven's Tower|QID|2359|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A The Touch of Zanzil|QID|2607|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
+T The Touch of Zanzil|QID|2607|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
+A The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
+C The Touch of Zanzil|QID|2608|M|78.48,70.71|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
+T The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+A The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
+C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.73,71.26|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+T The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 r Sell junk, repair, train etc|AVAILABLE|1243|S|
-T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|1453; Stormwind City|N|To Caretaker Folsom.|
-A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|1453; Stormwind City|N|From Caretaker Folsom.|PRE|70|
-T The Legend of Stalvan|QID|72|M|29.44,61.52|Z|1453; Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
-A The Legend of Stalvan|QID|74|M|29.44,61.52|Z|1453; Stormwind City|N|From the Sealed Crate.|PRE|72|
-A The Missing Diplomat|QID|1274|M|41.2,30.6|Z|1453; Stormwind City|N|From Thomas.|
-T Seeking Wisdom|QID|269|M|39.11,27.85|Z|1453; Stormwind City|N|From Bishop Farthing.|
-A The Doomed Fleet|QID|270|M|39.11,27.85|Z|1453; Stormwind City|N|From Bishop Farthing.|PRE|269|
-T The Missing Diplomat|QID|1274|M|78.29,25.52|Z|1453; Stormwind City|N|To Bishop DeLavey.|
-A The Missing Diplomat|QID|1241|M|78.29,25.52|Z|1453; Stormwind City|N|From Bishop DeLavey.|PRE|1274|
-T An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|1453; Stormwind City|N|To Milton Sheaf.|
-A Southshore|QID|538|M|74.19,7.46|Z|1453; Stormwind City|N|From Milton Sheaf.|PRE|337|
-T The Missing Diplomat|QID|1241|M|73.17,78.41|Z|1453; Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
-A The Missing Diplomat|QID|1242|M|73.17,78.41|Z|1453; Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
-T The Missing Diplomat|QID|1242|M|59.90,64.19|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1243|M|59.90,64.19|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
+T The Legend of Stalvan|QID|70|M|42.53,72.36|Z|1453; Stormwind City|N|To Caretaker Folsom.|
+A The Legend of Stalvan|QID|72|M|42.53,72.36|Z|1453; Stormwind City|N|From Caretaker Folsom.|PRE|70|
+T The Legend of Stalvan|QID|72|M|42.46,72.04|Z|1453; Stormwind City|N|Right-click the Sealed Crate just next to Caretaker Folsom.|
+A The Legend of Stalvan|QID|74|M|42.46,72.04|Z|1453; Stormwind City|N|From the Sealed Crate.|PRE|72|
+A The Missing Diplomat|QID|1274|M|51.56,48.11|Z|1453; Stormwind City|N|From Thomas.|
+T Seeking Wisdom|QID|269|M|49.94,45.98|Z|1453; Stormwind City|N|From Bishop Farthing.|
+A The Doomed Fleet|QID|270|M|49.94,45.98|Z|1453; Stormwind City|N|From Bishop Farthing.|PRE|269|
+T The Missing Diplomat|QID|1274|M|80.25,44.18|Z|1453; Stormwind City|N|To Bishop DeLavey.|
+A The Missing Diplomat|QID|1241|M|80.25,44.18|Z|1453; Stormwind City|N|From Bishop DeLavey.|PRE|1274|
+T An Old History Book|QID|337|ACTIVE|337|M|77.08,30.21|Z|1453; Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|M|77.08,30.21|Z|1453; Stormwind City|N|From Milton Sheaf.|PRE|337|
+T The Missing Diplomat|QID|1241|M|76.29,85.11|Z|1453; Stormwind City|N|To Jorgen. Fishing out in the Valley of Heroes.|
+A The Missing Diplomat|QID|1242|M|76.29,85.11|Z|1453; Stormwind City|N|From Jorgen. Fishing out in the Valley of Heroes.|PRE|1241|
+T The Missing Diplomat|QID|1242|M|66.02,74.11|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1243|M|66.02,74.11|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1242|
 
 F Darkshire|QID|1243|M|71,72.6|Z|1453; Stormwind City|N|Fly back to Darkshire, Duskwood.|
 T The Missing Diplomat|QID|1243|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|Z|1431; Duskwood|
@@ -320,20 +320,20 @@ T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|Z|1437; Wetlands|
 A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|Z|1437; Wetlands|
 
 F Stormwind|QID|322|N|Fly to Stormwind|M|9.50,59.70|Z|1437; Wetlands|
-t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
-T The Missing Diplomat|QID|1246|M|70.56,44.89|Z|1453; Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1447|M|70.56,44.89|Z|1453; Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
-C The Missing Diplomat|QID|1447|M|70.56,44.89|Z|1453; Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
-T The Missing Diplomat|QID|1447|M|70.56,44.89|Z|1453; Stormwind City|N|To Dashel Stonefist.|
-A The Missing Diplomat|QID|1247|M|70.56,44.89|Z|1453; Stormwind City|N|To Dashel Stonefist.|PRE|1447|
-T The Missing Diplomat|QID|1247|M|59.90,64.19|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
-A The Missing Diplomat|QID|1248|M|59.90,64.19|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
-T Cleansing the Eye|QID|293|M|39.6,27.23|Z|1453; Stormwind City|N|To Archbishop Benedictus.|
-T Blessed Arm|QID|322|M|51.75,12.12|Z|1453; Stormwind City|N|To Grimand Elmore.|
-A Armed and Ready|QID|325|M|51.75,12.12|Z|1453; Stormwind City|N|From Grimand Elmore.|PRE|322|
-t An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|1453; Stormwind City|N|To Milton Sheaf.|
-A Southshore|QID|538|M|74.19,7.46|Z|1453; Stormwind City|N|From Milton Sheaf.|PRE|337|
+t The Missing Diplomat|QID|1245|M|66.02,74.11|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1246|M|66.02,74.11|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
+T The Missing Diplomat|QID|1246|M|74.27,59.17|Z|1453; Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1447|M|74.27,59.17|Z|1453; Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
+C The Missing Diplomat|QID|1447|M|74.27,59.17|Z|1453; Stormwind City|N|Defeat Dashel Stonefist. Just focus on him, he will give up at about 1/3 health and call off his goons.|
+T The Missing Diplomat|QID|1447|M|74.27,59.17|Z|1453; Stormwind City|N|To Dashel Stonefist.|
+A The Missing Diplomat|QID|1247|M|74.27,59.17|Z|1453; Stormwind City|N|To Dashel Stonefist.|PRE|1447|
+T The Missing Diplomat|QID|1247|M|66.02,74.11|Z|1453; Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+A The Missing Diplomat|QID|1248|M|66.02,74.11|Z|1453; Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
+T Cleansing the Eye|QID|293|M|50.32,45.50|Z|1453; Stormwind City|N|To Archbishop Benedictus.|
+T Blessed Arm|QID|322|M|59.72,33.81|Z|1453; Stormwind City|N|To Grimand Elmore.|
+A Armed and Ready|QID|325|M|59.72,33.81|Z|1453; Stormwind City|N|From Grimand Elmore.|PRE|322|
+t An Old History Book|QID|337|ACTIVE|337|M|77.08,30.21|Z|1453; Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|M|77.08,30.21|Z|1453; Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
 N Buy/Repair/Sell/Train|QID|1248|N|Be sure to sell, auction, repair and do any major city stuff you need to do before moving on. Close this step when you're done.|
 H Deepwater Tavern|QID|1248|N|Hearth back to Menethil Harbor.|
@@ -468,7 +468,7 @@ T The Scythe of Elune|QID|1043|M|75.32,49.03|Z|1431; Duskwood|N|To Jonathan Care
 A Answered Questions|QID|1044|M|75.32,49.03|Z|1431; Duskwood|N|From Jonathan Carevin.|PRE|1043|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|1431; Duskwood|N|To Jonathan Carevin.|
 F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Warlock,Mage|
-N Train Here|QID|1044|M|55.6,60.42|Z|1453; Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
+N Train Here|QID|1044|M|62.70,71.19|Z|1453; Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|1457; Darnassus|N|To Thyn'tel Bladeweaver.|
 N Gnomeregan|QID|2929|N|If you wish to run Gnomeregan now is a good time to do so. Be sure to collect all the quests as they give a lot of experience|
