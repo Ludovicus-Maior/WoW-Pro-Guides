@@ -64,51 +64,51 @@ t Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin
 t A Scroll from Mauren|QID|1075|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
 
 F Lakeshire|QID|128|M|70.90,72.60|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
-A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|1433; Redridge Mountains|
-A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|1433; Redridge Mountains|
-A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|1433; Redridge Mountains|
-T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
-h Lakeshire|ACTIVE|126|M|27.97,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
-A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|1433; Redridge Mountains|
-C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|1433; Redridge Mountains|
-T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|1433; Redridge Mountains|
-R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire.|Z|1433; Redridge Mountains|
+A Blackrock Bounty|QID|128|M|26.45,57.86|N|From Guard Howe.|Z|1433; Redridge Mountains|
+A Blackrock Menace|QID|20|M|28.40,48.99|N|From Marshal Marris.|Z|1433; Redridge Mountains|
+A Howling in the Hills|QID|126|M|25.87,47.27|N|From Verner Osgood.|PRE|124|Z|1433; Redridge Mountains|
+T Messenger to Darkshire|QID|146|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+h Lakeshire|ACTIVE|126|M|22.88,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
+A An Unwelcome Guest|QID|34|M|16.81,46.30|N|From Martie Jainrose.|Z|1433; Redridge Mountains|
+C An Unwelcome Guest|QID|34|M|11.18,49.00|N|Kill Bellgrub.|Z|1433; Redridge Mountains|
+T An Unwelcome Guest|QID|34|M|16.81,46.30|N|To Martie Jainrose.|Z|1433; Redridge Mountains|
+R Gnoll Camps|ACTIVE|126|M|34.91,33.10|CC|N|Head north-east out of Lakeshire.|Z|1433; Redridge Mountains|
 C Howling in the Hills|QID|126|M|40.00,33.10;27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|Z|1433; Redridge Mountains|
-R Render's Camp|ACTIVE|20|M|47.60,27.90|CC|N|Get back on the road and head towards Render's Camp|Z|1433; Redridge Mountains|
-C Blackrock Menace|QID|20|M|29.2,11.60|S|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
-A Missing In Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan inside the cave.|Z|1433; Redridge Mountains|
-C Missing In Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town. He is a elite level 25 and is able to tank a couple of mobs. His health will regen to full after 5 seconds of being out of combat.|Z|1433; Redridge Mountains|
-T Missing In Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-C Blackrock Bounty|QID|128|M|29.2,11.60|N|Kill Blackrock Champions.|Z|1433; Redridge Mountains|
+R Render's Camp|ACTIVE|20|M|42.51,27.90|CC|N|Get back on the road and head towards Render's Camp|Z|1433; Redridge Mountains|
+C Blackrock Menace|QID|20|M|24.11,11.60|S|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
+A Missing In Action|QID|219|M|23.31,12.56|N|From Corporal Keeshan inside the cave.|Z|1433; Redridge Mountains|
+C Missing In Action|QID|219|M|28.31,48.94|N|Escort him out of the cave and back to town. He is a elite level 25 and is able to tank a couple of mobs. His health will regen to full after 5 seconds of being out of combat.|Z|1433; Redridge Mountains|
+T Missing In Action|QID|219|M|28.31,48.94|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+C Blackrock Bounty|QID|128|M|24.11,11.60|N|Kill Blackrock Champions.|Z|1433; Redridge Mountains|
 C Blackrock Menace|QID|20|M|47.46,29.39;42.10,12.40|CN|US|N|Kill Orcs until you get the items for this quest.|Z|1433; Redridge Mountains|
-T Blackrock Menace|QID|20|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-A Tharil'zun|QID|19|M|33.49,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
-A Shadow Magic|QID|115|M|33.49,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
-T Blackrock Bounty|QID|128|M|31.54,57.86|N|To Guard Howe.|Z|1433; Redridge Mountains|
-T Howling in the Hills|QID|126|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-A Wanted: Gath'Ilzogg|QID|169|M|29.62,46.18|N|From the wanted poster on the townhall archway.|Z|1433; Redridge Mountains|
-A Solomon's Law|QID|91|M|29.72,44.26|N|From Bailiff Conacher.|Z|1433; Redridge Mountains|
-A Wanted: Lieutenant Fangore|QID|180|M|26.77,46.44|N|From poster in front of the Inn.|Z|1433; Redridge Mountains|
-C Solomon's Law|QID|91|M|78,42|S|N|Kill Shadowhide Gnolls and loot their pendants.|Z|1433; Redridge Mountains|
-T A Watchful Eye|QID|94|M|84.3,46.9|N|To Lion Statue.|Z|1433; Redridge Mountains|
-A Looking Further|QID|248|M|84.3,46.9|N|From Lion Statue.|PRE|94|Z|1433; Redridge Mountains|
-C Wanted: Lieutenant Fangore|QID|180|M|79.75,37.6|N|Kill Lieutenant Fangore and loot his paw. He roams around from camp to camp.\nBe aware that he will pull nearby Gnolls in a large radius when agro'd.|T|Lieutenant Fangore|Z|1433; Redridge Mountains|
-C Solomon's Law|QID|91|M|78,42|US|N|Kill Shadowhide Gnoll gnolls and loot their pendants.|Z|1433; Redridge Mountains|
-l Glowing Shadow Pendant|QID|178|M|78,42|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|1433; Redridge Mountains|
-A Theocritus' Retrieval|QID|178|M|78,42|U|1962|N|Click the Pendant to accept the quest.|Z|1433; Redridge Mountains|
+T Blackrock Menace|QID|20|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+A Tharil'zun|QID|19|M|28.40,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
+A Shadow Magic|QID|115|M|28.40,48.99|N|From Marshal Marris.|PRE|20|Z|1433; Redridge Mountains|
+T Blackrock Bounty|QID|128|M|26.45,57.86|N|To Guard Howe.|Z|1433; Redridge Mountains|
+T Howling in the Hills|QID|126|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+A Wanted: Gath'Ilzogg|QID|169|M|24.53,46.18|N|From the wanted poster on the townhall archway.|Z|1433; Redridge Mountains|
+A Solomon's Law|QID|91|M|24.63,44.26|N|From Bailiff Conacher.|Z|1433; Redridge Mountains|
+A Wanted: Lieutenant Fangore|QID|180|M|21.68,46.44|N|From poster in front of the Inn.|Z|1433; Redridge Mountains|
+C Solomon's Law|QID|91|M|72.91,42.00|S|N|Kill Shadowhide Gnolls and loot their pendants.|Z|1433; Redridge Mountains|
+T A Watchful Eye|QID|94|M|79.21,46.90|N|To Lion Statue.|Z|1433; Redridge Mountains|
+A Looking Further|QID|248|M|79.21,46.90|N|From Lion Statue.|PRE|94|Z|1433; Redridge Mountains|
+C Wanted: Lieutenant Fangore|QID|180|M|74.66,37.60|N|Kill Lieutenant Fangore and loot his paw. He roams around from camp to camp.\nBe aware that he will pull nearby Gnolls in a large radius when agro'd.|T|Lieutenant Fangore|Z|1433; Redridge Mountains|
+C Solomon's Law|QID|91|M|72.91,42.00|US|N|Kill Shadowhide Gnoll gnolls and loot their pendants.|Z|1433; Redridge Mountains|
+l Glowing Shadow Pendant|QID|178|M|72.91,42.00|L|1962|N|Rare drop from the gnolls in the area, if you don't want to bother you can just skip the next 2 steps.|Z|1433; Redridge Mountains|
+A Theocritus' Retrieval|QID|178|M|72.91,42.00|U|1962|N|Click the Pendant to accept the quest.|Z|1433; Redridge Mountains|
 N Elite Quests|QID|180|N|You will now be doing 5 elite quests in the area. The quests will require at least 3 people - however 5 is highly recommended. Skip the next 9 steps if you cannot find a group.|Z|1433; Redridge Mountains|
-C Shadow Magic|QID|115|M|63.2,49.8|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|1433; Redridge Mountains|
-T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower.|Z|1433; Redridge Mountains|
-C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|1433; Redridge Mountains|
+C Shadow Magic|QID|115|M|58.11,49.80|S|N|Kill the Blackrock Shadowcasters in the area and loot their orbs. These are elites and will banish a random player. It is highly recommended to focus them first|Z|1433; Redridge Mountains|
+T Looking Further|QID|248|M|58.11,49.80|N|To An Empty Jar, At the top of the tower.|Z|1433; Redridge Mountains|
+C Tharil'Zun|QID|19|M|63.22,59.41|N|Kill Tharil'Zun and loot his head. Elite surrounded by elites, will most likely need a group. He is not immune to crown control and it is recommended to clear all the elite packs around him first.|Z|1433; Redridge Mountains|
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|1433; Redridge Mountains|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|1433; Redridge Mountains|
-A Morganth|QID|249|M|84.3,46.9|N|From the Lion Statue.|Z|1433; Redridge Mountains|PRE|248|
+A Morganth|QID|249|M|79.21,46.90|N|From the Lion Statue.|Z|1433; Redridge Mountains|PRE|248|
 C Morganth|QID|249|M|80.00,78.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|1433; Redridge Mountains|
-T Tharil'zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
-T Solomon's Law|QID|91|M|29.72,44.26|N|To Bailiff Conacher.|Z|1433; Redridge Mountains|
-T Wanted: Gath'Ilzogg|QID|169|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
-T Wanted: Lieutenant Fangore|QID|180|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+T Tharil'zun|QID|19|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+T Shadow Magic|QID|115|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
+T Solomon's Law|QID|91|M|24.63,44.26|N|To Bailiff Conacher.|Z|1433; Redridge Mountains|
+T Wanted: Gath'Ilzogg|QID|169|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
+T Wanted: Lieutenant Fangore|QID|180|M|24.90,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
 T Theocritus' Retrieval|QID|178|M|65.2,69.8|Z|1429; Elwynn Forest|N|To Theocritus at the top of the Tower of Azora.|
 T Morganth|QID|249|M|65.2,69.8|Z|1429; Elwynn Forest|N|To Theocritus|
 
