@@ -499,7 +499,7 @@ C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1457; Darnassus|CHAT|N|Spe
 
 P Nighthaven|ACTIVE|93963|M|70.92,48.77|Z|1455; Ironforge|N|Take the portal to Moonglade.|C|Druid|CC|
 F Stormwind City|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Head to the flightmaster and take a flight to Stormwind Ciry.|C|-Druid|CC|
-R Head to the Dock to catch the boat to Auberdine|ACTIVE|93963|M|22.80,56.15|Z|1453; Stormwind City|N|Make your way to take the boat to Darkshore.|C|-Druid|CC|
+R Head to the Dock to catch the boat to Auberdine|ACTIVE|93963|M|37.32,67.88|Z|1453; Stormwind City|N|Make your way to take the boat to Darkshore.|C|-Druid|CC|
 b Take the boat to Auberdine|ACTIVE|93963|N|Take the boat to Auberdine.|C|-Druid|CC|
 f Auberdine|ACTIVE|93963|M|36.35,45.57|Z|1439; Darkshore|N|Grab the flightpath at Caylais Moonfeather.|
 R Head to the next Dock to catch the boat to Rut'theran Village|ACTIVE|93963|M|33.20,40.16|Z|1439; Darkshore|N|Make your way to take the boat to Teldrassil.|C|-Druid|CC|
