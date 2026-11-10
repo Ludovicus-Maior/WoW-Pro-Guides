@@ -117,7 +117,7 @@ l Elmpaw's Head|AVAILABLE|91746|M|84.73,84.88|Z|1429; Elwynn Forest|L|247862|ITE
 T Croaky's Head|QID|91740|M|84.70,79.30|Z|1429; Elwynn Forest|N|To Merell Ross in the tower.|
 
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|10.34,71.38|Z|1433; Redridge Mountains|N|From Guard Parker.| 
+A Encroaching Gnolls|QID|244|M|10.34,71.38|Z|1433; Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|25.73,60.10|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|25.73,60.10|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
 A Show of Force|QID|98407|M|25.73,60.10|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
