@@ -64,19 +64,19 @@ C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|1428; Burning Steppes|US|ELITE|N|[co
 T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|N|To Helendis Riverhorn.|
 A The True Masters|QID|4183|M|85.80,68.94|Z|1428; Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 F Lakeshire|QID|4183|M|84.33,68.32|Z|1428; Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
+T The True Masters|QID|4183|M|24.89,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4184|M|24.89,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
+F Stormwind|QID|4184|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
 T The True Masters|QID|4184|M|80.20,38.34|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4185|M|80.20,38.34|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
 C The True Masters|QID|4185|M|80.12,38.18|Z|1453; Stormwind City|CHAT|N|Speak with Lady Prestor.|
 T The True Masters|QID|4185|M|80.20,38.34|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4186|M|80.20,38.34|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
 F Lakeshire|QID|4186|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
+T The True Masters|QID|4186|M|24.89,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4223|M|24.89,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
+F Morgan's Vigil|QID|4223|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
 T The True Masters|QID|4223|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
 A The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|1428; Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
