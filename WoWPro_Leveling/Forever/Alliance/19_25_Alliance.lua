@@ -36,18 +36,18 @@ H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|
 F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.56,72.09|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
-T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
-A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
-T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs at the Inn.|Z|1433; Redridge Mountains|
-A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
+T Encroaching Gnolls|QID|244|M|25.65,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
+f Lakeshire|AVAILABLE|125|M|25.51,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
+A The Lost Tools|QID|125|M|27.05,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
+T The Defias Brotherhood|QID|65|M|21.41,45.30|N|To Wiley the Black upstairs at the Inn.|Z|1433; Redridge Mountains|
+A The Defias Brotherhood|QID|132|M|21.41,45.30|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
+A Hilary's Necklace|QID|3741|M|24.21,53.60|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud at the bottom of the water.|Z|1433; Redridge Mountains|
-C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|1433; Redridge Mountains|
-T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|1433; Redridge Mountains|
-F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|1433; Redridge Mountains|
+C The Lost Tools|QID|125|M|36.51,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|1433; Redridge Mountains|
+T The Lost Tools|QID|125|M|27.01,48.60|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
+T Hilary's Necklace|QID|3741|M|24.15,53.62|N|To Hilary.|Z|1433; Redridge Mountains|
+F Sentinel Hill|ACTIVE|132|M|25.50,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|1433; Redridge Mountains|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|132|
@@ -120,10 +120,10 @@ N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure t
 
 F Lakeshire|ACTIVE|116|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Redridge.|
 ;if not done elwynn guide --
-t Return to Verner|QID|119|M|30.97,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A Messenger to Westfall|QID|143|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
-T Dry Times|QID|116|M|26.49,43.95|Z|1433; Redridge Mountains|N|To Barkeep Daniels.|
+t Return to Verner|QID|119|M|25.88,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+t Messenger to Stormwind|QID|121|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Westfall|QID|143|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
+T Dry Times|QID|116|M|21.40,43.95|Z|1433; Redridge Mountains|N|To Barkeep Daniels.|
 L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
 
 H Westfall|ACTIVE|166|N|Return to Westfall, fly if your hearthstone isn't ready.|
@@ -165,36 +165,36 @@ r Repair/Restock|QID|345|M|41.40,65.59|Z|1429; Elwynn Forest|N|Repair/Sell Junk 
 A A Watchful Eye|QID|94|Z|1429; Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|1429; Elwynn Forest|
 
-A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|Z|1433; Redridge Mountains|
-T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|LVL|20|Z|1433; Redridge Mountains|
-A Rethban Ore|QID|347|M|32.14,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|1433; Redridge Mountains|
-t Messenger to Westfall|QID|144|M|29.99,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
-A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
-A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|30.96,47.27|S|N|Kill Black Dragon Whelps.|Z|1433; Redridge Mountains|
+A The Everstill Bridge|QID|89|M|27.05,48.64|N|From Foreman Oslow.|PRE|125|Z|1433; Redridge Mountains|
+T Ink Supplies|QID|345|M|27.11,48.60|N|To Foreman Oslow.|LVL|20|Z|1433; Redridge Mountains|
+A Rethban Ore|QID|347|M|27.05,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|1433; Redridge Mountains|
+t Messenger to Westfall|QID|144|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Darkshire|QID|145|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
+A Selling Fish|QID|127|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
+A Murloc Poachers|QID|150|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
+A Redridge Goulash|QID|92|M|17.59,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
+A Underbelly Scales|QID|122|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
+A A Baying of Gnolls|QID|124|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
+C Underbelly Scales|QID|122|M|25.87,47.27|S|N|Kill Black Dragon Whelps.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|S|N|Kill the tarantulas, and goretusks for the items required|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|S|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
 C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|40.73,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
+C The Everstill Bridge|QID|89|M|35.64,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
 K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|1433; Redridge Mountains|
 K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|40.73,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
-C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|1433; Redridge Mountains|
+C The Everstill Bridge|QID|89|M|35.64,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
+C Rethban Ore|QID|347|M|14.81,34.65;15.31,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;3|US|M|23.51,72.73|N|Collect any remaining items required from the tarantulas, and goretusks.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|US|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|43.00,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|1433; Redridge Mountains|
-T The Everstill Bridge|QID|89|M|32.14,48.64|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Underbelly Scales|QID|122|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T A Baying of Gnolls|QID|124|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T Selling Fish|QID|127|M|27.8,47.3|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Murloc Poachers|QID|150|M|27.8,47.3|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|Z|1433; Redridge Mountains|
+C Underbelly Scales|QID|122|M|37.91,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|1433; Redridge Mountains|
+T The Everstill Bridge|QID|89|M|27.05,48.64|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
+T Underbelly Scales|QID|122|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+T A Baying of Gnolls|QID|124|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+T Selling Fish|QID|127|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
+T Murloc Poachers|QID|150|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
+T Redridge Goulash|QID|92|M|17.59,43.83|N|To Chef Breanna.|Z|1433; Redridge Mountains|
 
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
