@@ -291,7 +291,7 @@ T The Powers Below|QID|968|M|50.82,5.66|Z|1455;Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455;Ironforge|DUNGEON|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|1455;Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|AVAILABLE|343|N|Take the tram ride and then run into Stormwind.|
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+f Stormwind|AVAILABLE|343|M|71.29,72.23|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 ; --- This guide ends in Stormwind City
 
 
