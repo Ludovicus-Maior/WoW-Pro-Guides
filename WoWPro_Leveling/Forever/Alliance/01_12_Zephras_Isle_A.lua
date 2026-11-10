@@ -90,7 +90,7 @@ T Al'Aketh Thugs|QID|92544|M|38.31,30.20|Z|2521; Zephras Isle|N|To Hanaa Nightwi
 
 T The Adventurer|QID|96638|M|41.67,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 A The Great Outdoors|QID|96101|PRE|92544&96638|M|41.67,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
-C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Use the /sit emote near the campfire.|
+C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Use the /sit emote near the campfire.|T|Raan Wildwind,sit|
 C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Gain the Boosted Rest buff.|
 T The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 
@@ -325,9 +325,11 @@ R Snag the Ley Line Buff|ACTIVE|92642|M|69.06,61.96|Z|2521; Zephras Isle|N|Stop 
 T The Great Ursera Spirit|ACTIVE|94006|M|69.69,61.53|Z|2521|N|To Urs'endris.|C|Druid|
 A Strength and Mercy|QID|94638|PRE|94006|M|69.69,61.53|Z|2521|N|From Urs'endris.|C|Druid|
 
+C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healers & Brawlers slain.|S|QO|1;2|
+C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|S|QO|1|
 K Breaking the Breaker|QID|92645|M|65.88,65.37|Z|2521; Zephras Isle|N|Commander Belguilos slain.|QO|1|
-C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healers & Brawlers slain.|QO|1;2|
-C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|QO|1|
+C Disrupting Logistics|QID|92642|M|66.27,67.92|Z|2521; Zephras Isle|N|Al'Aketh Healers & Brawlers slain.|US|QO|1;2|
+C Avenged Tenfold|QID|92834|M|65.00,67.57|Z|2521; Zephras Isle|NC|N|Al'Aketh Windstone Charm.|US|QO|1|
 
 T Disrupting Logistics|QID|92642|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
 T Breaking the Breaker|QID|92645|M|69.62,67.10|Z|2521; Zephras Isle|N|To Yorana Windyreed.|
@@ -335,14 +337,11 @@ A Return to Valanaar|QID|92880|PRE|92642&92645|M|69.62,67.10|Z|2521; Zephras Isl
 
 R Shen'dar Highlands|ACTIVE|94638|M|53.79,65.22|Z|2521; Zephras Isle|N|Make your way to the Shen'dar Highlands. Urs'endris is in the cave.|C|Druid|
 
-K Strength and Mercy|ACTIVE|94638|M|54.02,65.50|Z|2521; Zephras Isle|N|Ur'endra slain.|C|Druid|
+K Strength and Mercy|ACTIVE|94638|M|54.02,65.50|Z|2521; Zephras Isle|N|Ur'endra slain.|QO|1|C|Druid|
 T Strength and Mercy|ACTIVE|94638|M|69.74,61.60|Z|2521; Zephras Isle|N|To Urs'endris.|C|Druid|
 
-H Hearth to Valanaar|ACTIVE|92880|N|Hearth back to town.|
-r Repair/Restock|QID|92880|M|62.18,73.19|Z|2521; Zephras Isle|
-
-L Level 12|QID|92880|LVL|12|N|You should be around level 12 by this point.|
-N Train Skills|QID|92880|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
+H Valanaar|ACTIVE|92880|N|Hearth back to town.|
+r Repair/Restock|QID|92880|M|65.42,80.12|Z|2521; Zephras Isle|
 
 T Avenged Tenfold|ACTIVE|92834|M|66.62,79.94|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
 
@@ -353,6 +352,9 @@ A The Turncoat|QID|92643|PRE|92881|M|66.18,76.51|Z|2521; Zephras Isle|N|From Tal
 
 A Aid For The Refugees|QID|94896|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|N|From Ealaane Nimbuswalker.|
 A The Fate of a Loved One|QID|94897|PRE|92701|M|65.95,74.32|Z|2521; Zephras Isle|
+
+L Level 12|QID|92643|LVL|12|N|You should be around level 12 by this point. If not, kill some things until you are.|
+N Train Skills|QID|92643|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
 
 R Head to the Road|ACTIVE|92741|M|58.05,68.32|Z|2521; Zephras Isle|N|Head to the road North.|CC|
 R Keep going North|ACTIVE|92741|M|58.97,44.20|Z|2521; Zephras Isle|N|Cross the bridges and keep going North.|CC|
@@ -371,15 +373,18 @@ C Unwanted and Unworthy|QID|94487|M|62.84,37.06|Z|2521; Zephras Isle|NC|N|Bloody
 T Tears of the Lady|QID|94485|M|61.78,39.18|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Feathers for Binding|QID|94486|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T Unwanted and Unworthy|QID|94487|M|61.76,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
-C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|QO|1|US|
-T Mercy Falls on Deaf Ears|QID|93165|M|63.79,35.99|Z|2521; Zephras Isle|N|To Vayn Moongaze.|
 A The Ties That Bind|QID|94488|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
 A The Wounds of Betrayal|QID|94489|PRE|93165&94485&94486&94487|M|61.76,39.16|Z|2521; Zephras Isle|N|From Elegael Thornpaw.|
-A Ripped Missive|QID|94490|PRE|93165&94485&94486&94487|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
-C The Ties That Bind|QID|94488|M|66.00,36.63|Z|2521; Zephras Isle|NC|N|Commander Haalien's Severed Head.|QO|1|
+C Mercy Falls on Deaf Ears|QID|93165|M|63.75,35.94|Z|2521; Zephras Isle|NC|N|Al'Alketh Cultist's Ear.|QO|1|US|
+T Mercy Falls on Deaf Ears|QID|93165|M|63.79,35.99|Z|2521; Zephras Isle|N|To Vayn Moongaze.|
+
+r Repair/Restock|QID|92880|M|63.82,36.02|Z|2521; Zephras Isle|
 
 C The Wounds of Betrayal|QID|94489|M|64.54,34.82|Z|2521; Zephras Isle|NC|N|Find Jorel Windsinger.|QO|2|
 C The Wounds of Betrayal|QID|94489|M|64.38,31.94|Z|2521; Zephras Isle|NC|N|Injured Druids healed.|QO|1|
+C The Ties That Bind|QID|94488|M|66.00,36.63|Z|2521; Zephras Isle|NC|N|Commander Haalien's Severed Head.|QO|1|
+A Ripped Missive|QID|94490|PRE|93165&94485&94486&94487|M|65.92,36.39|Z|2521; Zephras Isle|N|From note in your bag.|U|265476|
+
 T The Ties That Bind|QID|94488|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 T The Wounds of Betrayal|QID|94489|M|61.75,39.16|Z|2521; Zephras Isle|N|To Elegael Thornpaw.|
 r Repair/Restock|PRE|94489|M|63.79,35.99|Z|2521; Zephras Isle|N|At Vayn Moongaze.|
@@ -391,16 +396,7 @@ C Unwelcome Visitors|ACTIVE|92741|M|60.67,38.98|Z|2521; Zephras Isle|NC|N|Shriek
 C The Fate of a Loved One|QID|94897|M|57.09,29.39|Z|2521; Zephras Isle|NC|N|Resaan's Heirloom.|QO|1|
 C Aid For The Refugees|QID|94896|M|59.13,32.24|Z|2521; Zephras Isle|NC|N|Abandoned Belongings.|QO|1|
 
-H Hearth to Valanaar|ACTIVE|94491|N|If available Hearth back to town.|CC|
-r Repair/Restock|QID|94491|M|62.18,73.19|Z|2521; Zephras Isle|
-
-T Unwelcome Visitors|ACTIVE|92741|M|66.33,79.55|Z|2521; Zephras Isle|N|To Iaadaria Bitterwind.|
-
-T Aid For The Refugees|QID|94896|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
-T The Fate of a Loved One|QID|94897|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
-T The Fate of the Den|QID|94491|M|64.00,75.12|Z|2521; Zephras Isle|N|To Lotheluum Starbreeze.|
-
-R Head along the road North.|ACTIVE|92643|M|58.36,61.42|N|Head along the road to this point, then turn left.|CC|
+R Head back along the road.|ACTIVE|92643|M|58.28,60.93|N|Head along the road to this point, then turn.|CC|
 
 A Al'Aketh Assassins|QID|98512|M|56.83,61.08|Z|2521; Zephras Isle|N|From Fendaal Windstone.|
 C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Assassin slain.|QO|1|
@@ -411,13 +407,20 @@ A Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|From
 C Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|NC|N|Collect the glowing crystal from the body.|
 T Al'Aketh Assassins|QID|98512|M|56.81,61.09|Z|2521; Zephras Isle|N|To Fendaal Windstone.|
 
-H Hearth to Valanaar|ACTIVE|92644|N|If available Hearth back to town.|CC|
-r Repair/Restock|QID|94638|M|62.18,73.19|Z|2521; Zephras Isle|
-N Train Skills|QID|94638|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
+H Valanaar|QID|92644|N|If available Hearth back to town.|CC|
+
+T Unwelcome Visitors|ACTIVE|92741|M|66.33,79.55|Z|2521; Zephras Isle|N|To Iaadaria Bitterwind.|
+
+T Aid For The Refugees|QID|94896|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
+T The Fate of a Loved One|QID|94897|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
+T The Fate of the Den|QID|94491|M|64.00,75.12|Z|2521; Zephras Isle|N|To Lotheluum Starbreeze.|
+
+r Repair/Restock|QID|94491|M|62.18,73.19|Z|2521; Zephras Isle|
+N Train Skills|QID|92644|N|Train any class skills that you have available and can afford. Update Talents if needed.  NOTE: Manually check this step off to continue.|
 
 T Unfortunate News|QID|92644|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-C The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|NC|N|Learn what you can from the crystal.|
+C The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|CHAT|N|Learn what you can from the crystal.|
 T The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 
 A Desperate Times|QID|92640|M|66.23,76.53|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
@@ -433,7 +436,7 @@ A Prepare for Battle|QID|93065|M|66.19,76.65|Z|2521; Zephras Isle|N|From Valenni
 
 R Jump off Tower|ACTIVE|93065|M|65.95,76.34|N|Jump off the tower toward the next turnin and use your [color=61C9F6]Walk on Air[/color] spell.|CC|
 
-N Train Skills|QID|94638|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
+N Train Skills|QID|93065|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
 
 C Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|NC|N|Find Valennia on the Road.|
 T Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|N|To Valennia Stormfist.|

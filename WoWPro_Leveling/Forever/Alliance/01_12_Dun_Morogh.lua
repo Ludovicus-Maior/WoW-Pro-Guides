@@ -55,7 +55,7 @@ T The Boar Hunter|QID|183|M|22.61,71.32|Z|1426; Dun Morogh|N|To Talin Keeneye.|
 A Call of Earth|QID|94373|PRE|183|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo Hammerstorm.|C|Shaman|
 C A Refugee's Quandary|QID|3361|M|26.32,79.16|Z|1426; Dun Morogh|NC|N|Felix's Bucket of Bolts.|
 C A Refugee's Quandary|QID|3361|M|22.80,79.88|Z|1426; Dun Morogh|NC|N|Felix's Chest.|
-C Call of Earth|QID|94373|M|22.65,79.39|Z|1426; Dun Morogh|NC|N|2/2 Iceclaw Bear Pendant.|
+C Call of Earth|QID|94373|M|22.65,79.39|Z|1426; Dun Morogh|NC|N|2/2 Iceclaw Bear Pendant.|C|Shaman|
 C A Refugee's Quandary|QID|3361|M|20.98,76.04|Z|1426; Dun Morogh|NC|N|Felix's Box.|
 K The Troll Cave|QID|182|M|21.31,75.83|Z|1426; Dun Morogh|N|14/14 Frostmane Troll Whelp slain.|
 C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|US|C|Warlock|
@@ -107,7 +107,7 @@ A Secure the Mountain|QID|98322|PRE|420|M|46.74,53.87|Z|1426; Dun Morogh|N|From 
 A Beer Basted Boar Ribs|QID|384|PRE|420|M|46.79,52.47|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
 T Supplies to Tannok|QID|2160|M|47.24,52.13|Z|1426; Dun Morogh|N|To Tannok Frosthammer.|
 h Thunderbrew Distillery|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|N|At Innkeeper Belm.|
-C Beer Basted Boar Ribs|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|NC|N|Rhapsody Malt.|
+C Beer Basted Boar Ribs|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|NC|N|Buy Rhapsody Malt.|B|2894|
 T In Favor of the Light|QID|5626|M|47.34,52.18|N|To Maxan Anvol.|C|Priest|R|Dwarf|
 A Garments of the Light|QID|5625|PRE|5626|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|
 A Tools for Steelgrill|QID|400|PRE|2160&96629|M|46.07,51.70|Z|1426; Dun Morogh|N|From Tharek Blackstone.|
@@ -127,7 +127,7 @@ C Flintfire's Shipment|QID|98321|M|43.51,49.49|Z|1426; Dun Morogh|NC|N|Flintfire
 C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|NC|N|Wendigo Mane.|
 T Secure the Mountain|QID|98319|M|44.04,56.95|Z|1426; Dun Morogh|N|To Mountaineer Gretchen.|
 A Secure the Mountain|QID|98323|PRE|5541&98319|M|44.04,56.95|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
-C Beer Basted Boar Ribs|QID|384|M|47.37,63.40|Z|1426; Dun Morogh|NC|N|Crag Boar Rib.|
+C Beer Basted Boar Ribs|QID|384|M|47.37,63.40|Z|1426; Dun Morogh|NC|N|Kill Crag Boars for Ribs.|
 C Stocking Jetsteam|QID|317|M|46.33,63.79|Z|1426; Dun Morogh|NC|N|4/4 Chunk of Boar Meat.|
 T Secure the Mountain|QID|98323|M|46.73,53.85|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
 A Frostmane Hold|QID|287|PRE|98323|M|46.73,53.85|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
@@ -172,11 +172,12 @@ T A Favor for Evershine|QID|319|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Bar
 A Return to Bellowfiz|QID|320|PRE|319|M|30.15,45.78|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
 T The Perfect Stout|QID|315|M|30.15,45.78|Z|1426; Dun Morogh|N|To Rejold Barleybrew.|
 A Shimmer Stout|QID|413|PRE|315|M|30.15,45.78|Z|1426; Dun Morogh|N|From Rejold Barleybrew.|
+H Thunderbrew Distillery|ACTIVE|320|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|
 T Bitter Rivals|QID|310|M|47.66,52.64|Z|1426; Dun Morogh|
 A Return to Marleth|QID|311|PRE|310|M|47.66,52.64|Z|1426; Dun Morogh|
 
 A The Hunter's Path|QID|6075|M|30.6,45.4|N|From Tristane Shadowstone.\n[color=FF0000]NOTE: [/color]This starts your class quest chain to tame your pet.|C|Hunter|R|Dwarf|LVL|10|
-H Thunderbrew Distillery|ACTIVE|320|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|
+
 T Return to Bellowfiz|QID|320|M|49.34,48.44|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
 
 ; ---------- LEVEL 10 CLASS QUEST ------------
@@ -251,7 +252,7 @@ T Tundra MacGrann's Stolen Stash|QID|312|M|34.64,51.63|Z|1426; Dun Morogh|N|To T
 T Operation Recombobulation|QID|412|M|45.88,49.24|Z|1426; Dun Morogh|N|To Razzle Sprysprocket.|
 T Frostmane Hold|QID|287|M|46.72,53.72|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
 A The Reports|QID|291|PRE|312&311&98326&96050&412&287|M|46.72,53.72|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
-A Call of Fire|QID|94449|PRE|312&311&98326&96050&412&287|M|47.51,51.94|Z|1426; Dun Morogh|N|From Ingrid Dunwald.|
+A Call of Fire|QID|94449|PRE|312&311&98326&96050&412&287|M|47.51,51.94|Z|1426; Dun Morogh|N|From Ingrid Dunwald.|C|Shaman|
 T Data Hoarders|QID|95041|M|68.06,44.55|Z|1455; Ironforge|N|To Jemma Quikswitch.|
 T The Reports|QID|291|M|39.54,56.92|Z|1455; Ironforge|N|To Senator Barin Redstone.|
 A Protecting the Herd|QID|314|PRE|95041&291|M|63.09,49.93|Z|1426; Dun Morogh|N|From Rudra Amberstill.|
@@ -288,10 +289,10 @@ C A Pilot's Revenge|QID|417|M|79.48,36.42|Z|1426; Dun Morogh|NC|N|Mangy Claw.|
 T A Pilot's Revenge|QID|417|M|83.85,39.08|Z|1426; Dun Morogh|N|To Pilot Hammerfoot.|
 T Shimmer Stout|QID|413|M|86.27,48.94|Z|1426; Dun Morogh|N|To Mountaineer Barleybrew.|
 A Stout to Kadrell|QID|414|PRE|417&413|M|86.27,48.94|Z|1426; Dun Morogh|N|From Mountaineer Barleybrew.|
-T Call of Fire|QID|94449|M|87.60,43.75|Z|1426; Dun Morogh|N|To Bruegs Kindleborn.|
-A Call of Fire|QID|94465|PRE|94449|M|87.60,43.75|Z|1426; Dun Morogh|N|From Bruegs Kindleborn.|
-T Call of Fire|QID|94465|M|32.06,66.12|Z|1432; Loch Modan|N|To Braldir Ashmantle.|
-A Call of Fire|QID|94466|PRE|94465|M|32.06,66.12|Z|1432; Loch Modan|N|From Braldir Ashmantle.|
+T Call of Fire|QID|94449|M|87.60,43.75|Z|1426; Dun Morogh|N|To Bruegs Kindleborn.|C|Shaman|
+A Call of Fire|QID|94465|PRE|94449|M|87.60,43.75|Z|1426; Dun Morogh|N|From Bruegs Kindleborn.|C|Shaman|
+T Call of Fire|QID|94465|M|32.06,66.12|Z|1432; Loch Modan|N|To Braldir Ashmantle.|C|Shaman|
+A Call of Fire|QID|94466|PRE|94465|M|32.06,66.12|Z|1432; Loch Modan|N|From Braldir Ashmantle.|C|Shaman|
 T Stout to Kadrell|QID|414|M|32.72,49.83|Z|1432; Loch Modan|N|To Mountaineer Kadrell.|
 f Thelsamar|QID|94466|M|33.79,50.84|Z|1432; Loch Modan|N|At Thorgrum Borrelson.|
 h Stoutlager Inn|QID|94466|M|35.47,48.24|Z|1432; Loch Modan|N|At Innkeeper Hearthstove.|

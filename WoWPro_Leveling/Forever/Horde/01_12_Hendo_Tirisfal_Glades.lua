@@ -314,7 +314,7 @@ N Voidwalker|ACTIVE|405|PRE|1471|N|Congratulations! Now you need to start collec
 T The Prodigal Lich|QID|405|M|84.05,17.37|Z|1458; Undercity|N|To Bethor Iceshard in the Magic Quarter.|
 A The Lich's Identity|QID|357|PRE|405|M|84.05,17.37|Z|1458; Undercity|N|From Bethor Iceshard.|
 R Leave Undercity|ACTIVE|357|M|61.88,64.87|Z|1420; Tirisfal Glades|TZ|Tirisfal Glades|N|Take the elevator up and leave Undercity through the front gates.|
-C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|Z|1420; Tirisfal Glades|N|Kill the Scarlet Warriors located along the road south of Solliden Farmstead. \n[color=FF0000]NOTE: [/color]Watch for the Farmers and Farmerhands to avoid unnecessary fights.|T|Scarlet Warrior|S|
+C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|Z|1420; Tirisfal Glades|N|Kill the Scarlet Warriors located along the road south of Solliden Farmstead. \n[color=FF0000]NOTE: [/color]Watch for the Farmers and Farmerhands to avoid unnecessary fights.|T|Scarlet Warrior|
 A Seeking Refuge|QID|99144|M|31.95,46.33|Z|1420; Tirisfal Glades|N|From Bareth Dawnstone.|
 C Seeking Refuge|QID|99144|M|39.00,48.73|Z|1420; Tirisfal Glades|N|Escort Bareth Dawnstone back to Brill.|
 H Brill|AVAILABLE|99144|M|61.97,51.28|Z|1420; Tirisfal Glades|N|Hearth back to Brill, or grind your way back.|TZ|Gallows' End Tavern|
