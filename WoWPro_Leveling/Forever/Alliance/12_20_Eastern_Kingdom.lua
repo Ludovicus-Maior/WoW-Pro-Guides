@@ -134,12 +134,12 @@ T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas
 
 K Morgan the Collector|ACTIVE|147|M|70.97,80.49|Z|1429; Elwynn Forest|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
 
-R Redridge Mountains|QID|244|M|8.98,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|M|30.60,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
+R Redridge Mountains|QID|244|M|3.89,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker.|
+T Encroaching Gnolls|QID|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|PRE|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
+f Lakeshire|QID|65|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
+F Stormwind|ACTIVE|147^1787|M|25.51,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
 T The Tome of Divinity|QID|1787|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
@@ -208,24 +208,24 @@ F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
-T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|M|30.74,59.99|Z|1433; Redridge Mountains|N|From Deputy Feldon.|PRE|244|
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433; Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
+T Encroaching Gnolls|QID|244|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|M|25.65,59.99|Z|1433; Redridge Mountains|N|From Deputy Feldon.|PRE|244|
+f Lakeshire|AVAILABLE|125|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
 
-A The Lost Tools|QID|125|M|32.14,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|
-A The Price of Shoes|QID|118|M|30.98,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|
+A The Lost Tools|QID|125|M|27.05,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|
+A The Price of Shoes|QID|118|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|
 
-A Messenger to Stormwind|QID|120|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon, in the town hall.|
-A A Free Lunch|QID|129|M|26.9,44.53|Z|1433; Redridge Mountains|N|From Darcy, in the inn.|
-A Dry Times|QID|116|M|26.49,43.95|Z|1433; Redridge Mountains|N|From Barkeep Daniels.|
-T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
-A The Defias Brotherhood|QID|132|M|26.5,45.3|Z|1433; Redridge Mountains|N|From Wiley the Black.|PRE|65|
-A Redridge Goulash|QID|92|M|22.68,43.83|Z|1433; Redridge Mountains|N|From Chef Breanna.|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|Z|1433; Redridge Mountains|N|From Shawn, at the end of the dock.|
+A Messenger to Stormwind|QID|120|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon, in the town hall.|
+A A Free Lunch|QID|129|M|21.81,44.53|Z|1433; Redridge Mountains|N|From Darcy, in the inn.|
+A Dry Times|QID|116|M|21.40,43.95|Z|1433; Redridge Mountains|N|From Barkeep Daniels.|
+T The Defias Brotherhood|QID|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
+A The Defias Brotherhood|QID|132|M|21.41,45.30|Z|1433; Redridge Mountains|N|From Wiley the Black.|PRE|65|
+A Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|From Chef Breanna.|
+A Hilary's Necklace|QID|3741|M|24.21,53.60|Z|1433; Redridge Mountains|N|From Shawn, at the end of the dock.|
 
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|Z|1433; Redridge Mountains|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|
-F Stormwind|ACTIVE|118|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind City.|TZ|Stormwind City|
+F Stormwind|ACTIVE|118|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind City.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|1429; Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|1429; Elwynn Forest|N|To Smith Argus in Goldshire.|
@@ -235,30 +235,30 @@ T Messenger to Stormwind|QID|120|M|69.20,82.76|Z|1453; Stormwind City|N|To Gener
 A Messenger to Stormwind|QID|121|M|69.20,82.76|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 B Cask of Merlot|ACTIVE|116|M|60.03,76.95|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|
-T Return to Verner|QID|119|M|30.98,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-A Underbelly Scales|QID|122|M|30.98,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
+T Return to Verner|QID|119|M|25.89,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+A Underbelly Scales|QID|122|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|1433|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
-T Hilary's Necklace|QID|3741|M|29.24,53.62|Z|1433; Redridge Mountains|N|To Hilary.|
-T A Free Lunch|QID|129|M|15.28,71.46|Z|1433; Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
-A Visit the Herbalist|QID|130|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
+T Hilary's Necklace|QID|3741|M|24.15,53.62|Z|1433; Redridge Mountains|N|To Hilary.|
+T A Free Lunch|QID|129|M|10.37,71.26|Z|1433; Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
+A Visit the Herbalist|QID|130|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
 
-R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|Z|1433; Redridge Mountains|N|Follow the road east.|
+R Lakeridge Highway|ACTIVE|246|M|19.30,76.09|Z|1433; Redridge Mountains|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|
 C Underbelly Scales|ACTIVE|122|QO|1|M|28.00,71.00|Z|1433; Redridge Mountains|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
-T Assessing the Threat|QID|246|M|30.74,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-C The Lost Tools|QID|125|M|41.60,54.70|Z|1433; Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
-T The Lost Tools|QID|125|M|32.1,48.6|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
-t Underbelly Scales|QID|122|M|31.00,47.30|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-t Redridge Goulash|QID|92|M|22.68,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|US|
-T Visit the Herbalist|QID|130|M|21.85,46.32|Z|1433; Redridge Mountains|N|To Martie Jainrose.|
-A Delivering Daffodils|QID|131|M|21.85,46.32|Z|1433; Redridge Mountains|N|From Martie Jainrose.|PRE|130|
-T Delivering Daffodils|QID|131|M|26.9,44.53|Z|1433; Redridge Mountains|N|To Darcy. She wanders around a bit.|
-R Duskwood|ACTIVE|132|M|6.42,91.32|Z|1433; Redridge Mountains|N|Go to Duskwood|
+T Assessing the Threat|QID|246|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+C The Lost Tools|QID|125|M|36.51,54.70|Z|1433; Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
+T The Lost Tools|QID|125|M|27.01,48.60|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
+t Underbelly Scales|QID|122|M|25.91,47.30|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+t Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|US|
+T Visit the Herbalist|QID|130|M|16.76,46.32|Z|1433; Redridge Mountains|N|To Martie Jainrose.|
+A Delivering Daffodils|QID|131|M|16.76,46.32|Z|1433; Redridge Mountains|N|From Martie Jainrose.|PRE|130|
+T Delivering Daffodils|QID|131|M|21.81,44.53|Z|1433; Redridge Mountains|N|To Darcy. She wanders around a bit.|
+R Duskwood|ACTIVE|132|M|1.33,91.32|Z|1433; Redridge Mountains|N|Go to Duskwood|
 R Darkshire|ACTIVE|132|M|72.40,37.99|Z|1431; Duskwood|N|Continue following the road south into Darkshire.|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|1431; Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
