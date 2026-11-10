@@ -300,7 +300,7 @@ A Good Luck Charm|QID|5050|M|60.2,57.0|Z|1453; Stormwind City|N|From Ol' Emma.|P
 r Sell junk, repair, restock|QID|5220|N|Sell junk, repair, restock|
 
 F Lakeshire|QID|3823|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
-R Burning Steppes|QID|3823|M|46.43,6.34|Z|1433; Redridge Mountains|N|Make your way to the Burning Steppes.|
+R Burning Steppes|QID|3823|M|41.34,6.34|Z|1433; Redridge Mountains|N|Make your way to the Burning Steppes.|
 f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|1428; Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
 
 A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|
@@ -376,18 +376,18 @@ T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|N|To Helendis 
 A The True Masters|QID|4183|M|85.80,68.94|Z|1428; Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 
 F Lakeshire|QID|4183|M|84.33,68.32|Z|1428; Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
+T The True Masters|QID|4183|M|24.89,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4184|M|24.89,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
+F Stormwind|QID|4184|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
 T The True Masters|QID|4184|M|80.20,38.34|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4185|M|80.20,38.34|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
 C The True Masters|QID|4185|M|80.12,38.18|Z|1453; Stormwind City|CHAT|N|Speak with Lady Prestor.|
 T The True Masters|QID|4185|M|80.20,38.34|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4186|M|80.20,38.34|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
 F Lakeshire|QID|4186|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
+T The True Masters|QID|4186|M|24.89,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4223|M|24.89,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
+F Morgan's Vigil|QID|4223|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
 T The True Masters|QID|4223|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
 A The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The True Masters|QID|4224|M|65.02,23.74|Z|1428; Burning Steppes|CHAT|N|Talk with Ragged John.|
