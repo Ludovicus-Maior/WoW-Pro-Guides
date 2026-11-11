@@ -131,7 +131,7 @@ B Lesser Bloodstone Ore|QID|627|Z|1455; Ironforge|L|4278 4|ITEM|4278|N|Obtain fo
 F Stormwind|QID|198|M|27.53,77.78|Z|1434; Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|C|-Mage|
 P Wizard's Sanctum|QID|198|M|27.53,77.78|Z|1434; Stranglethorn Vale|N|Teleport to Stormwind to train and take care of city business.|C|Mage|
 N Clear Bags!|QID|198|M|71,72.6|Z|1453; Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
-F Darkshire|QID|198|M|66.29,62.13|Z|1453; Stormwind City|N|Take a flight up to Duskwood.|
+F Darkshire|QID|198|M|71.29,72.23|Z|1453; Stormwind City|N|Take a flight up to Duskwood.|
 l An Old History Book|AVAILABLE|337|M|PLAYER|CC|L|2794|ITEM|2794|N|any Duskwood mob.|S|
 A An Old History Book|QID|337|M|PLAYER|CC|N|From the item you just picked up.|U|2794|O|
 R Elwynn Forest|ACTIVE|74|M|84.6,69.4|Z|1429; Elwynn Forest|N|Run north to Elwynn to Marshal Hagard turn in the quest accept follow up and run back to Darkshire.|
@@ -224,12 +224,12 @@ B Bolt of Woolen Cloth|AVAILABLE|565|L|2997|ITEM|2997|N|Obtained from the AH or 
 B Fine Thread|AVAILABLE|565|L|2321|ITEM|2321|N|Purchased from any Tailor Supply vendor.|
 B Swiftness Potion|AVAILABLE|647|L|2459|ITEM|2459|N|Buy a Swiftness Potion from the AH or a player with Alchemy.|C|Warrior,Warlock,Paladin|
 B Light Feather|AVAILABLE|647|L|17056|ITEM|17053|N|Make sure you have at least one Light Feather on hand for Slowfall/Levitate|C|Mage,Priest|
-A Malin's Request|QID|690|M|39.84,81.44|Z|1453; Stormwind City|N|From Archmage Malin.|
-t An Old History Book|QID|337|M|74,7.6|Z|1453; Stormwind City|N|To Milton Sheaf.|
-A Southshore|QID|538|PRE|337|M|74,7.6|Z|1453; Stormwind City|N|From Milton Sheaf.|
+A Malin's Request|QID|690|M|50.50,87.45|Z|1453; Stormwind City|N|From Archmage Malin.|
+t An Old History Book|QID|337|M|76.93,30.31|Z|1453; Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|PRE|337|M|76.93,30.31|Z|1453; Stormwind City|N|From Milton Sheaf.|
 
 F Refuge Pointe|ACTIVE|690|M|49.34,52.28|Z|1429; Elwynn Forest|N|Fly to Refuge Pointe in Arathi Highlands.\n[color=FF0000]NOTE: [/color] It's a 7.5 Minute flight|TAXI|Refuge Pointe|
-F Ironforge|ACTIVE|690|M|66.28,62.12|Z|1453; Stormwind City|N|Fly to Ironforge or use the Tram to get there.|TAXI|-Refuge Pointe|
+F Ironforge|ACTIVE|690|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge or use the Tram to get there.|TAXI|-Refuge Pointe|
 F Menethil Harbor|ACTIVE|690|M|55.49,47.72|Z|1455; Ironforge|N|Fly to Menethil Harbor.|TAXI|-Refuge Pointe|
 R Refuge Pointe|ACTIVE|690|M|45.76,46.10|Z|1417; Arathi Highlands|N|Follow the road northeast from Menethil Harbor until it the road splits and contune following it north. Continue across the ruined bridge Thandol Span into the Arathi Highlands. Refuge Points is straight north from here.|TAXI|-Refuge Pointe|
 f Refuge Pointe|ACTIVE|690|M|39.85,47.34|Z|1417; Arathi Highlands|N|Get the flight point from Cedrik Prose.|
@@ -355,21 +355,21 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|1455; Ironforge|N|To Prospector Stor
 
 R Deeprun Tram|QID|563|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|563|N|Take the tram ride and then run into Stormwind.|
-R The Canals|ACTIVE|542|M|65.57,29.19|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
-R Stormwind Keep|ACTIVE|542|M|69.11,28.34|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
-T Return to Milton|QID|542|M|74.18,7.47|Z|1453; Stormwind City|N|To Milton Sheaf in the Library.|
-T Reassignment|QID|563|Z|1453; Stormwind City|M|72.56,15.88|N|To Major Samuelson. \n\nCheck Mini-Map, need to run back to the main hallway and head NE turning left into first entryway.|
-R The Canals|QID|622|M|69.11,28.34|Z|1453; Stormwind City|N|Out of the Keep.|
-R Cathedral Square|QID|622|M|51.23,33.25|Z|1453; Stormwind City|N|Toward the Cathedral of Light.|
-R Cathedral of Light|QID|622|M|43.06,34.42|Z|1453; Stormwind City|N|Toward the Cathedral of Light.|
-A Brother Anton|QID|6141|M|42.58,24.23|Z|1453; Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
-A Morgan Stern|QID|1260|M|41.50,89.39|Z|1453; Stormwind City|N|From Angus Stern in the Blue Recluse.|
-A Return to the Marsh|QID|1953|M|38.6,79.6|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
+R The Canals|ACTIVE|542|M|70.41,47.02|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+R Stormwind Keep|ACTIVE|542|M|73.15,46.36|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+T Return to Milton|QID|542|M|77.07,30.21|Z|1453; Stormwind City|N|To Milton Sheaf in the Library.|
+T Reassignment|QID|563|Z|1453; Stormwind City|M|75.82,36.72|N|To Major Samuelson. \n\nCheck Mini-Map, need to run back to the main hallway and head NE turning left into first entryway.|
+R The Canals|QID|622|M|73.15,46.36|Z|1453; Stormwind City|N|Out of the Keep.|
+R Cathedral Square|QID|622|M|59.32,50.16|Z|1453; Stormwind City|N|Toward the Cathedral of Light.|
+R Cathedral of Light|QID|622|M|52.99,51.07|Z|1453; Stormwind City|N|Toward the Cathedral of Light.|
+A Brother Anton|QID|6141|M|52.62,43.18|Z|1453; Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
+A Morgan Stern|QID|1260|M|51.79,93.61|Z|1453; Stormwind City|N|From Angus Stern in the Blue Recluse.|
+A Return to the Marsh|QID|1953|M|49.54,86.03|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 N Required items|AVAILABLE|713^714^716|Z|1455; Ironforge|N|Obtain the following items and make sure you keep them on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Stormwind City|
 B Frost Oil|AVAILABLE|713|Z|1455; Ironforge|L|3829|ITEM|3829|N|Obtain a Frost Oil from the AH or a player with Alchemy.\n[color=FF0000]NOTE: [/color]Skip this step for now if you cannot find one.|IZ|Stormwind City|
 B Gyrochronatom|AVAILABLE|714|Z|1455; Ironforge|L|4389|ITEM|4389|N|Obtain a Gyrochronatom from the AH or a player with Engineering.\n[color=FF0000]NOTE: [/color]Skip this step for now if you cannot find one.|IZ|Stormwind City|
 B Patterned Bronze Bracers|AVAILABLE|716|Z|1455; Ironforge|L|2868|ITEM|2868|N|Obtain a Patterned Bronze Bracers from the AH or a player with Blacksmithing.\n[color=FF0000]NOTE: [/color]Skip this step for now if you cannot find one.|IZ|Stormwind City|
-r Repair, restock, train|QID|622|M|54.92,63.77|Z|1453; Stormwind City|N|We are going to Stranglethorn if you banked your green hills of stranglethorn pages you may want to grab them if you got the bag space. There is a bank in Booty Bay if you need.|
+r Repair, restock, train|QID|622|M|62.17,73.78|Z|1453; Stormwind City|N|We are going to Stranglethorn if you banked your green hills of stranglethorn pages you may want to grab them if you got the bag space. There is a bank in Booty Bay if you need.|
 
 F Booty Bay|QID|622|N|Fly back to Booty Bay.|Z|1453; Stormwind City|M|71,72.6|
 A Singing Blue Shards|QID|605|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|From Crank Fizzlebub.|
@@ -612,12 +612,12 @@ A Dream Dust in the Swamp|QID|1116|PRE|1115|M|26.94,77.21|Z|1434; Stranglethorn 
 F Stormwind|QID|1396|M|27.4,77.6|Z|1434; Stranglethorn Vale|N|Fly to Stormwind.|TZ|Stormwind City|C|-Mage|
 P Wizard's Sanctum|QID|1396|M|27.4,77.6|Z|1434; Stranglethorn Vale|N|Teleport or Fly to Stormwind.|C|Mage|
 N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.|
-A Mazen's Behest|QID|1363|M|41.51,64.34|Z|1453; Stormwind City|N|From Mazen Mac'Nadir.|
-T Mazen's Behest|QID|1363|M|41.00,63.82|Z|1453; Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
-A Mazen's Behest|QID|1364|M|41.00,63.82|Z|1453; Stormwind City|N|From Acolyte Dellis.|
-A In Search of The Temple|QID|1448|M|64.35,20.64|Z|1453; Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
+A Mazen's Behest|QID|1363|M|51.80,74.22|Z|1453; Stormwind City|N|From Mazen Mac'Nadir.|
+T Mazen's Behest|QID|1363|M|51.40,73.82|Z|1453; Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
+A Mazen's Behest|QID|1364|M|51.40,73.82|Z|1453; Stormwind City|N|From Acolyte Dellis.|
+A In Search of The Temple|QID|1448|M|69.47,40.40|Z|1453; Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 
-F Darkshire|AVAILABLE|1396|M|66.2,62.4|Z|1453; Stormwind City|N|At Dungar Longdrink.|
+F Darkshire|AVAILABLE|1396|M|71.29,72.23|Z|1453; Stormwind City|N|At Dungar Longdrink.|
 R Deadwind Pass|AVAILABLE|1396|M|91.35,41.54|Z|1431; Duskwood|N|Run east through Duskwood to Deadwind Pass.|
 R Swamp of Sorrows|AVAILABLE|1396|M|59.99,40.99|Z|1430; Deadwind Pass|N|Run east to Swamp of Sorrows.|
 A Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|1435; Swamp of Sorrows|N|From Watcher Biggs.|
@@ -657,8 +657,8 @@ f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|1419; Blasted Lands|N|Get the fli
 
 F Stormwind|ACTIVE|1448|M|65.54,24.34|Z|1419; Blasted Lands|N|Fly to Stormwind.|TZ|Stormwind City|C|-Mage|
 P Wizard's Sanctum|ACTIVE|1448|N|Teleport to Storwind|C|Mage|
-T In Search of The Temple|QID|1448|M|64.34,20.62|Z|1453; Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
-R Deeprun Tram|QID|1467|M|63.85,8.19|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
+T In Search of The Temple|QID|1448|M|69.46,40.39|Z|1453; Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
+R Deeprun Tram|QID|1467|M|69.08,30.77|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1467|N|Take the tram ride and then run into Ironforge.|
 T Reagents for Reclaimers Inc.|QID|1467|M|69.9,21.3|Z|1455; Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|
 T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|1455; Ironforge|N|To Roetten Stonehammer. He patrols the entrance to the Hall of Explorers.|
@@ -807,8 +807,8 @@ T Badlands Reagent Run|QID|2500|M|37,49.2|Z|1432; Loch Modan|N|To Ghak Healtouch
 F Stormwind|QID|603|M|33.92,50.95|Z|1432; Loch Modan|N|Fly to Stormwind.\n\nThis is a long flight, use the restroom, go get a drink or snack!\n\nWhatever you do, don't waste your hearthstone, you will be needing it soon.|C|-Mage|
 P Wizard's Sanctum|QID|603|M|33.92,50.95|Z|1432; Loch Modan|N|Teleport to Storwind, or optionally you can fly|C|Mage|
 N City stuff|QID|603|Z|1453; Stormwind City|N|Take care of your big city needs, train, auction ect. This is the final stretch, mainly wrapping up your final quest turn-ins.|
-h Stormwind City|QID|603|M|52.61,65.71|Z|1453; Stormwind City|N|Set Hearthstone in Stormwind.\n[color=FF0000]NOTE: [/color]Seriously... this is the only reason we came back here.|
-F Booty Bay|QID|603|M|66.27,62.16|Z|1453; Stormwind City|N|Fly to Booty Bay.|
+h Stormwind City|QID|603|M|60.38,75.28|Z|1453; Stormwind City|N|Set Hearthstone in Stormwind.\n[color=FF0000]NOTE: [/color]Seriously... this is the only reason we came back here.|
+F Booty Bay|QID|603|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Booty Bay.|
 T Dream Dust in the Swamp|QID|1116|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 A Rumors for Kravel|QID|1117|PRE|1116|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|From Krazek up on the top floor of the Inn.|
 A Tran'rek|QID|2864|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|From Krazek up on the top floor of the Inn.|
@@ -843,8 +843,8 @@ T Safety First|QID|1188|M|50.96,27.24|Z|1446; Tanaris|N|To Shreev.|
 A Safety First|QID|1189|PRE|1188|M|50.96,27.24|Z|1446; Tanaris|N|From Shreev.|
 R The Shimmering Flats|QID|1189|M|75.51,97.69|Z|1441; Thousand Needles|N|Return to Thousand Needles.|
 T Safety First|QID|1189|M|80.33,76.09|Z|1441; Thousand Needles|N|To Razzeric.|
-H Stormwind City|AVAILABLE|1271|M|52.61,65.71|Z|1453; Stormwind City|N|Hearth, or otherwise make your way back to Stormwind.|
-A Feast at the Blue Recluse|QID|1271|PRE|1258&1222|M|41.50,89.39|Z|1453; Stormwind City|N|From Angus Stern in the Blue Recluse.|
-T Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|1453; Stormwind City|N|To Angus Stern in the Blue Recluse.\n[color=FF0000]NOTE: [/color]A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
+H Stormwind City|AVAILABLE|1271|M|60.38,75.28|Z|1453; Stormwind City|N|Hearth, or otherwise make your way back to Stormwind.|
+A Feast at the Blue Recluse|QID|1271|PRE|1258&1222|M|51.79,93.61|Z|1453; Stormwind City|N|From Angus Stern in the Blue Recluse.|
+T Feast at the Blue Recluse|QID|1271|M|51.79,93.61|Z|1453; Stormwind City|N|To Angus Stern in the Blue Recluse.\n[color=FF0000]NOTE: [/color]A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
 ]]
 end)

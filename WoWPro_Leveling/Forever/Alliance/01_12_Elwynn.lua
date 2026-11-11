@@ -191,8 +191,8 @@ T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429; Elwynn Forest|N|To Remy "Two T
 A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429; Elwynn Forest|N|From Remy "Two Times".|LVL|7|
 T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
-R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|1453; Stormwind City|N|Follow the road northwest to Stormwind City.|
-f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
+R Stormwind City|ACTIVE|61|M|74.63,93.36|Z|1453; Stormwind City|N|Follow the road northwest to Stormwind City.|
+f Stormwind City|ACTIVE|61|M|68.20,74.38;71.29,72.23|CS|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
 T Shipment to Stormwind|QID|61|M|63.07,74.57|Z|1453; Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
 R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 
@@ -232,43 +232,43 @@ T Baited for Success|QID|99131|M|47.54,62.31|Z|1429; Elwynn Forest|N|To Jason Ma
 ; ---------- LEVEL 10 CLASS QUEST ------------
 ; ** Warrior
 A A Warrior's Training|QID|1638|M|41,65.8|Z|1429; Elwynn Forest|N|From Lyria Du Lac, in Goldshire smithing shop.|C|Warrior|LVL|10|
-T A Warrior's Training|QID|1638|M|73.6,37.6|Z|1453; Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
-A Bartleby the Drunk|QID|1639|PRE|1638|M|73.6,37.6|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
-T Bartleby the Drunk|QID|1639|M|73.8,36.6|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
-A Beat Bartleby|QID|1640|PRE|1639|M|73.8,36.6|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
-C Beat Bartleby|QID|1640|M|73.8,36.6|Z|1453; Stormwind City|N|Ask him for his mug and a fight ensues.|C|Warrior|
-T Beat Bartleby|QID|1640|M|73.8,36.6|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
-A Bartleby's Mug|QID|1665|PRE|1640|M|73.8,36.6|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
-T Bartleby's Mug|QID|1665|M|73.6,37.6|Z|1453; Stormwind City|N|To Harry Burlguard.|C|Warrior|
-A Marshal Haggard|QID|1666|PRE|1665|M|73.6,37.6|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T A Warrior's Training|QID|1638|M|76.62,53.53|Z|1453; Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
+A Bartleby the Drunk|QID|1639|PRE|1638|M|76.62,53.53|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T Bartleby the Drunk|QID|1639|M|76.78,52.76|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
+A Beat Bartleby|QID|1640|PRE|1639|M|76.78,52.76|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
+C Beat Bartleby|QID|1640|M|76.78,52.76|Z|1453; Stormwind City|N|Ask him for his mug and a fight ensues.|C|Warrior|
+T Beat Bartleby|QID|1640|M|76.78,52.76|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
+A Bartleby's Mug|QID|1665|PRE|1640|M|76.78,52.76|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
+T Bartleby's Mug|QID|1665|M|76.62,53.53|Z|1453; Stormwind City|N|To Harry Burlguard.|C|Warrior|
+A Marshal Haggard|QID|1666|PRE|1665|M|76.62,53.53|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
 T Marshal Haggard|QID|1666|M|84,69|ITEM|6985|Z|1429; Elwynn Forest|N|(one of 4 weapons to choose from) If this is an upgrade, its probably worth running out of your way to do this now. if not, right click and sticky it to remember for later, when you are headed to Redridge.|C|Warrior|
 A Dead-tooth Jack|QID|1667|PRE|1666|M|84,69|Z|1429; Elwynn Forest|N|From Marshal Haggard.|C|Warrior|
 C Dead-tooth Jack|QID|1667|M|89.3,78.8|Z|1429; Elwynn Forest|N|Clear the area, until you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|C|Warrior|
 T Dead-tooth Jack|QID|1667|M|84,69|Z|1429; Elwynn Forest|N|To Marshal Haggard.|C|Warrior|
 ; ** Warlock
 A Gakin's Summons|QID|1685|LEAD|1688|M|44.4,66.2|Z|1429; Elwynn Forest|N|From Remen Marcot, in the basement of the Inn.|C|Warlock|LVL|10|
-T Gakin's Summons|QID|1685|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
-A Surena Caledon|QID|1688|M|25.2,78.6|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+T Gakin's Summons|QID|1685|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
+A Surena Caledon|QID|1688|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
 C Surena Caledon|QID|1688|M|71,80|Z|1429; Elwynn Forest|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
-T Surena Caledon|QID|1688|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C The Binding|QID|1689|M|25.2,77.2|Z|1453; Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
-T The Binding|QID|1689|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+T Surena Caledon|QID|1688|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+A The Binding|QID|1689|PRE|1688|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+C The Binding|QID|1689|M|39.18,84.17|Z|1453; Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
+T The Binding|QID|1689|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|LVL|10|
-T Mirror Lake|QID|1861|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
-T Speak with Jennea|QID|1860|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
-A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
+T Mirror Lake|QID|1861|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
+T Speak with Jennea|QID|1860|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
+A Mirror Lake|QID|1861|PRE|1860|M|49.54,85.88|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 C Mirror Lake|QID|1861|M|28.6,61.4|Z|1429; Elwynn Forest|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|U|7207|C|Mage|
 ; ** Rogue
 A Seek out SI: 7|QID|2205|M|43.77,65.80|Z|1429; Elwynn Forest|N|From Keryn Sylvius, upstairs in the Goldshire inn.|C|Rogue|LVL|10|
-T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
+T Seek out SI: 7|QID|2205|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A Snatch and Grab|QID|2206|PRE|2205|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
 C Snatch and Grab|QID|2206|M|47,87|Z|1429; Elwynn Forest|L|7298|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest until next time you are conveniently in Goldshire.|C|Rogue|
-T Snatch and Grab|QID|2206|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+T Snatch and Grab|QID|2206|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 ; ** Priest
 A Desperate Prayer|QID|5635|M|43.28,65.72|Z|1429; Elwynn Forest|N|From Priestess Josetta.|C|Priest|LVL|10|
-T Desperate Prayer|QID|5635|M|38.57,26.06|Z|1453; Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|C|Priest|
+T Desperate Prayer|QID|5635|M|49.52,44.60|Z|1453; Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|C|Priest|
 ; ** Paladin - No class quest
 ; ** Hunter
 A Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|

@@ -11,11 +11,11 @@ WoWPro:GuideSteps(guide, function() return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+f Stormwind|AVAILABLE|343|M|71.29,72.23|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|1429; Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
-F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
+F Sentinel Hill|AVAILABLE|65|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|C|-Druid|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
@@ -36,24 +36,24 @@ H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|
 F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.56,72.09|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
-T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
-A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
-T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs at the Inn.|Z|1433; Redridge Mountains|
-A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
+T Encroaching Gnolls|QID|244|M|25.65,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
+f Lakeshire|AVAILABLE|125|M|25.51,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
+A The Lost Tools|QID|125|M|27.05,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
+T The Defias Brotherhood|QID|65|M|21.41,45.30|N|To Wiley the Black upstairs at the Inn.|Z|1433; Redridge Mountains|
+A The Defias Brotherhood|QID|132|M|21.41,45.30|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
+A Hilary's Necklace|QID|3741|M|24.21,53.60|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud at the bottom of the water.|Z|1433; Redridge Mountains|
-C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|1433; Redridge Mountains|
-T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|1433; Redridge Mountains|
-F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|1433; Redridge Mountains|
+C The Lost Tools|QID|125|M|36.51,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|1433; Redridge Mountains|
+T The Lost Tools|QID|125|M|27.01,48.60|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
+T Hilary's Necklace|QID|3741|M|24.15,53.62|N|To Hilary.|Z|1433; Redridge Mountains|
+F Sentinel Hill|ACTIVE|132|M|25.50,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|1433; Redridge Mountains|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|132|
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
+T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|1453; Stormwind City|M|71.00,72.50|
 
 ; Westfall 18-20
@@ -112,18 +112,18 @@ A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|Z
 A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|Z|1436; Westfall|DUNGEON|
 
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|1436; Westfall|
-T Humble Beginnings|QID|399|M|49.19,30.27|Z|1453; Stormwind City|N|To Baros Alexston.|
-A Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
-A Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+T Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|To Baros Alexston.|
+A Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+A Oh Brother. . .|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+A Collecting Memories|QID|168|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
 N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
 
-F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|1453; Stormwind City|N|Fly to Redridge.|
+F Lakeshire|ACTIVE|116|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Redridge.|
 ;if not done elwynn guide --
-t Return to Verner|QID|119|M|30.97,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A Messenger to Westfall|QID|143|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
-T Dry Times|QID|116|M|26.49,43.95|Z|1433; Redridge Mountains|N|To Barkeep Daniels.|
+t Return to Verner|QID|119|M|25.88,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+t Messenger to Stormwind|QID|121|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Westfall|QID|143|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
+T Dry Times|QID|116|M|21.40,43.95|Z|1433; Redridge Mountains|N|To Barkeep Daniels.|
 L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
 
 H Westfall|ACTIVE|166|N|Return to Westfall, fly if your hearthstone isn't ready.|
@@ -133,84 +133,84 @@ A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|1
 t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|1436; Westfall|
 
 F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
-A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|1453; Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
-T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|1453; Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
-A Brother Paxton|QID|344|M|74.2,7.5|Z|1453; Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
-h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|1453; Stormwind City|N|At Innkeeper Allison.|
+A Speaking of Fortitude|QID|343|M|55.04,54.15|Z|1453; Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
+T Speaking of Fortitude|QID|343|M|77.09,30.31|Z|1453; Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
+A Brother Paxton|QID|344|M|77.09,30.24|Z|1453; Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
+h Stormwind City|ACTIVE|344|M|60.38,75.28|Z|1453; Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
-A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
+A Mathias and the Defias|QID|2360|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
 F Sentinel Hill|ACTIVE|2360|N|Fly to Westfall|Z|1453; Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|1436; Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|1436; Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
 C Klaven's Tower|QID|2359|M|70.4,73.93|Z|1436; Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
 F Stormwind City|QID|2359|M|56.55,52.65|Z|1436; Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
-T Klaven's Tower|QID|2359|M|76,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A The Touch of Zanzil|QID|2607|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
-T The Touch of Zanzil|QID|2607|M|78,59|Z|1453; Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
-A The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
-C The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
-T The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-A The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
-T The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+T Klaven's Tower|QID|2359|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A The Touch of Zanzil|QID|2607|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
+T The Touch of Zanzil|QID|2607|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
+A The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
+C The Touch of Zanzil|QID|2608|M|78.48,70.71|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
+T The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+A The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
+C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.73,71.26|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+T The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 ; Redridge 20-21
-R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|1453; Stormwind City|M|74.76,93.41|
+R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|1453; Stormwind City|M|77.52,96.72|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
 r Repair/Restock|QID|345|M|41.40,65.59|Z|1429; Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
 A A Watchful Eye|QID|94|Z|1429; Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|1429; Elwynn Forest|
 
-A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|Z|1433; Redridge Mountains|
-T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|LVL|20|Z|1433; Redridge Mountains|
-A Rethban Ore|QID|347|M|32.14,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|1433; Redridge Mountains|
-t Messenger to Westfall|QID|144|M|29.99,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
-A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
-A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
-A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|30.96,47.27|S|N|Kill Black Dragon Whelps.|Z|1433; Redridge Mountains|
+A The Everstill Bridge|QID|89|M|27.05,48.64|N|From Foreman Oslow.|PRE|125|Z|1433; Redridge Mountains|
+T Ink Supplies|QID|345|M|27.11,48.60|N|To Foreman Oslow.|LVL|20|Z|1433; Redridge Mountains|
+A Rethban Ore|QID|347|M|27.05,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|1433; Redridge Mountains|
+t Messenger to Westfall|QID|144|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A Messenger to Darkshire|QID|145|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
+A Selling Fish|QID|127|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
+A Murloc Poachers|QID|150|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
+A Redridge Goulash|QID|92|M|17.59,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
+A Underbelly Scales|QID|122|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
+A A Baying of Gnolls|QID|124|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
+C Underbelly Scales|QID|122|M|25.87,47.27|S|N|Kill Black Dragon Whelps.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|S|N|Kill the tarantulas, and goretusks for the items required|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|S|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
 C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
 C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|40.73,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
+C The Everstill Bridge|QID|89|M|35.64,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
 K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|1433; Redridge Mountains|
 K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|40.73,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
-C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|1433; Redridge Mountains|
+C The Everstill Bridge|QID|89|M|35.64,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
+C Rethban Ore|QID|347|M|14.81,34.65;15.31,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;3|US|M|23.51,72.73|N|Collect any remaining items required from the tarantulas, and goretusks.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|US|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|43.00,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|1433; Redridge Mountains|
-T The Everstill Bridge|QID|89|M|32.14,48.64|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Underbelly Scales|QID|122|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T A Baying of Gnolls|QID|124|M|30.96,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T Selling Fish|QID|127|M|27.8,47.3|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Murloc Poachers|QID|150|M|27.8,47.3|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|Z|1433; Redridge Mountains|
+C Underbelly Scales|QID|122|M|37.91,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|1433; Redridge Mountains|
+T The Everstill Bridge|QID|89|M|27.05,48.64|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
+T Underbelly Scales|QID|122|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+T A Baying of Gnolls|QID|124|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
+T Selling Fish|QID|127|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
+T Murloc Poachers|QID|150|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
+T Redridge Goulash|QID|92|M|17.59,43.83|N|To Chef Breanna.|Z|1433; Redridge Mountains|
 
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
-= Train|ACTIVE|346|M|22.46,52.12|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
-= Train|ACTIVE|346|M|61.21,16.35|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
-= Train|ACTIVE|346|M|38.86,81.39|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
-= Train|ACTIVE|346|M|44.82,37.96|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
-= Train|ACTIVE|346|M|44.82,37.96|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
-= Train|ACTIVE|346|M|76.26,55.84|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
-= Train|ACTIVE|346|M|61.78,83.73|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
-= Train|ACTIVE|346|M|29.35,73.41|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
-= Train|ACTIVE|346|M|76.26,55.84|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
-T Return to Kristoff|QID|346|M|45.8,38.6|Z|1453; Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
-F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|1453; Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
-F Lakeshire|AVAILABLE|163|M|62.25,62.26;66.28,62.13|CS|Z|1453; Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
+= Train|ACTIVE|346|M|37.06,64.77|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
+= Train|ACTIVE|346|M|67.04,37.09|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
+= Train|ACTIVE|346|M|49.75,87.42|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
+= Train|ACTIVE|346|M|54.36,53.81|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
+= Train|ACTIVE|346|M|54.36,53.81|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
+= Train|ACTIVE|346|M|78.68,67.64|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
+= Train|ACTIVE|346|M|67.48,89.23|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
+= Train|ACTIVE|346|M|42.39,81.24|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
+= Train|ACTIVE|346|M|78.68,67.64|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
+T Return to Kristoff|QID|346|M|55.11,54.30|Z|1453; Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
+F Darkshire|ACTIVE|145|M|67.84,72.61;71.29,72.23|CS|Z|1453; Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
+F Lakeshire|AVAILABLE|163|M|67.84,72.61;71.29,72.23|CS|Z|1453; Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|1431; Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
@@ -251,30 +251,30 @@ T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|Z|1431; 
 T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|1431; Duskwood|
 
 F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50,44.30|Z|1431; Duskwood|
-T Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
-T Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
-T Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|1453; Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
+T Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
+T Oh Brother. . .|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
+T Collecting Memories|QID|168|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
+A The Corruption Abroad|QID|3765|M|36.24,67.60|Z|1453; Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 
-A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
+A Mathias and the Defias|QID|2360|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 
-A The Tome of Valor|QID|1793|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|
-T The Tome of Valor|QID|1793|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1793|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|
+T The Tome of Valor|QID|1793|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Tome of Valor|QID|1649|C|Paladin|U|6776|N|Click the Tome to get the follow up quest.|PRE|1793|
-T The Tome of Valor|QID|1649|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Valor|QID|1650|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
+T The Tome of Valor|QID|1649|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1650|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
-T The Tome of Valor|QID|1652|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Test of Righteousness|QID|1653|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
+T The Tome of Valor|QID|1652|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Test of Righteousness|QID|1653|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 
 N Sell junk and repair|AVAILABLE|1078|S|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|
-A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
-R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|68.50,31.50|Z|1453; Stormwind City|
+A Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
+R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|72.68,48.81|Z|1453; Stormwind City|
 R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455; Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|DUNGEON|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|1426; Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|

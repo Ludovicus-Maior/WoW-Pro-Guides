@@ -99,25 +99,25 @@ A Tome of Divinity|QID|3681|M|23.11,6.15|Z|1455; Ironforge|N|From Brandur Ironha
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|1455; Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
-T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|1453; Stormwind City|N|To Dungar Longdrink.|
-A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|1453; Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|M|49.21,30.27|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
+T Dungar Longdrink|QID|6261|M|71.29,72.23|Z|1453; Stormwind City|N|To Dungar Longdrink.|
+A Return to Lewis|QID|6285|PRE|6261|M|71.29,72.23|Z|1453; Stormwind City|N|From Dungar Longdrink.|
+A Humble Beginnings|QID|399|M|57.75,47.86|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
 
-T Tome of Divinity|QID|3681|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
-A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
-T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
-T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
-A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
+T Tome of Divinity|QID|3681|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
+A The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
+T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
+T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
+A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
 C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|
-T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|
-A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
-T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
-T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
-A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
+T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|
+A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
+T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
+T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
+A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
 
-T Stormpike's Order|QID|1338|M|58.10,16.57|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
+T Stormpike's Order|QID|1338|M|64.63,37.26|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
@@ -134,16 +134,16 @@ T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas
 
 K Morgan the Collector|ACTIVE|147|M|70.97,80.49|Z|1429; Elwynn Forest|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
 
-R Redridge Mountains|QID|244|M|8.98,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|M|30.60,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
+R Redridge Mountains|QID|244|M|3.89,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker.|
+T Encroaching Gnolls|QID|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|PRE|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
+f Lakeshire|QID|65|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
+F Stormwind|ACTIVE|147^1787|M|25.51,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
-T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
-A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
-T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|1453; Stormwind City|N|To Duthorian Rall.|
+T The Tome of Divinity|QID|1787|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
+A The Tome of Divinity|QID|1788|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
+T The Tome of Divinity|QID|1788|C|Paladin|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|
 R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|
 
@@ -199,8 +199,8 @@ F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
-T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|1453; Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
-A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|1453; Stormwind City|N|From Osric Strang.|PRE|6281|
+T Continue to Stormwind|QID|6281|M|77.18,60.99|Z|1453; Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
+A Dungar Longdrink|QID|6261|M|77.18,60.99|Z|1453; Stormwind City|N|From Osric Strang.|PRE|6281|
 ; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
 
 
@@ -208,57 +208,57 @@ F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
-T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|M|30.74,59.99|Z|1433; Redridge Mountains|N|From Deputy Feldon.|PRE|244|
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433; Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
+T Encroaching Gnolls|QID|244|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|M|25.65,59.99|Z|1433; Redridge Mountains|N|From Deputy Feldon.|PRE|244|
+f Lakeshire|AVAILABLE|125|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
 
-A The Lost Tools|QID|125|M|32.14,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|
-A The Price of Shoes|QID|118|M|30.98,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|
+A The Lost Tools|QID|125|M|27.05,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|
+A The Price of Shoes|QID|118|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|
 
-A Messenger to Stormwind|QID|120|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon, in the town hall.|
-A A Free Lunch|QID|129|M|26.9,44.53|Z|1433; Redridge Mountains|N|From Darcy, in the inn.|
-A Dry Times|QID|116|M|26.49,43.95|Z|1433; Redridge Mountains|N|From Barkeep Daniels.|
-T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
-A The Defias Brotherhood|QID|132|M|26.5,45.3|Z|1433; Redridge Mountains|N|From Wiley the Black.|PRE|65|
-A Redridge Goulash|QID|92|M|22.68,43.83|Z|1433; Redridge Mountains|N|From Chef Breanna.|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|Z|1433; Redridge Mountains|N|From Shawn, at the end of the dock.|
+A Messenger to Stormwind|QID|120|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon, in the town hall.|
+A A Free Lunch|QID|129|M|21.81,44.53|Z|1433; Redridge Mountains|N|From Darcy, in the inn.|
+A Dry Times|QID|116|M|21.40,43.95|Z|1433; Redridge Mountains|N|From Barkeep Daniels.|
+T The Defias Brotherhood|QID|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
+A The Defias Brotherhood|QID|132|M|21.41,45.30|Z|1433; Redridge Mountains|N|From Wiley the Black.|PRE|65|
+A Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|From Chef Breanna.|
+A Hilary's Necklace|QID|3741|M|24.21,53.60|Z|1433; Redridge Mountains|N|From Shawn, at the end of the dock.|
 
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|Z|1433; Redridge Mountains|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|
-F Stormwind|ACTIVE|118|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind City.|TZ|Stormwind City|
+F Stormwind|ACTIVE|118|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind City.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|1429; Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|1429; Elwynn Forest|N|To Smith Argus in Goldshire.|
 A Return to Verner|QID|119|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Argus.|PRE|118|
-R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|1453; Stormwind City|N|Return to Stormwind City.|
-T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|1453; Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
-A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
-B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
-F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|1453; Stormwind City|N|Fly back to Redridge.|
-T Return to Verner|QID|119|M|30.98,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-A Underbelly Scales|QID|122|M|30.98,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
+R Stormwind City|ACTIVE|120|M|74.47,92.90|Z|1453; Stormwind City|N|Return to Stormwind City.|
+T Messenger to Stormwind|QID|120|M|69.20,82.76|Z|1453; Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
+A Messenger to Stormwind|QID|121|M|69.20,82.76|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+B Cask of Merlot|ACTIVE|116|M|60.03,76.95|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
+F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|
+T Return to Verner|QID|119|M|25.89,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+A Underbelly Scales|QID|122|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|1433|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
-T Hilary's Necklace|QID|3741|M|29.24,53.62|Z|1433; Redridge Mountains|N|To Hilary.|
-T A Free Lunch|QID|129|M|15.28,71.46|Z|1433; Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
-A Visit the Herbalist|QID|130|M|15.28,71.46|Z|1433; Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
+T Hilary's Necklace|QID|3741|M|24.15,53.62|Z|1433; Redridge Mountains|N|To Hilary.|
+T A Free Lunch|QID|129|M|10.37,71.26|Z|1433; Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
+A Visit the Herbalist|QID|130|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
 
-R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|Z|1433; Redridge Mountains|N|Follow the road east.|
+R Lakeridge Highway|ACTIVE|246|M|19.30,76.09|Z|1433; Redridge Mountains|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|
 C Underbelly Scales|ACTIVE|122|QO|1|M|28.00,71.00|Z|1433; Redridge Mountains|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
-T Assessing the Threat|QID|246|M|30.74,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
-C The Lost Tools|QID|125|M|41.60,54.70|Z|1433; Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
-T The Lost Tools|QID|125|M|32.1,48.6|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
-t Underbelly Scales|QID|122|M|31.00,47.30|Z|1433; Redridge Mountains|N|To Verner Osgood.|
-t Redridge Goulash|QID|92|M|22.68,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|US|
-T Visit the Herbalist|QID|130|M|21.85,46.32|Z|1433; Redridge Mountains|N|To Martie Jainrose.|
-A Delivering Daffodils|QID|131|M|21.85,46.32|Z|1433; Redridge Mountains|N|From Martie Jainrose.|PRE|130|
-T Delivering Daffodils|QID|131|M|26.9,44.53|Z|1433; Redridge Mountains|N|To Darcy. She wanders around a bit.|
-R Duskwood|ACTIVE|132|M|6.42,91.32|Z|1433; Redridge Mountains|N|Go to Duskwood|
+T Assessing the Threat|QID|246|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+C The Lost Tools|QID|125|M|36.51,54.70|Z|1433; Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
+T The Lost Tools|QID|125|M|27.01,48.60|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
+t Underbelly Scales|QID|122|M|25.91,47.30|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+t Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|US|
+T Visit the Herbalist|QID|130|M|16.76,46.32|Z|1433; Redridge Mountains|N|To Martie Jainrose.|
+A Delivering Daffodils|QID|131|M|16.76,46.32|Z|1433; Redridge Mountains|N|From Martie Jainrose.|PRE|130|
+T Delivering Daffodils|QID|131|M|21.81,44.53|Z|1433; Redridge Mountains|N|To Darcy. She wanders around a bit.|
+R Duskwood|ACTIVE|132|M|1.33,91.32|Z|1433; Redridge Mountains|N|Go to Duskwood|
 R Darkshire|ACTIVE|132|M|72.40,37.99|Z|1431; Duskwood|N|Continue following the road south into Darkshire.|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|1431; Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
@@ -269,11 +269,11 @@ A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stout
 
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
+T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 
-A Humble Beginnings|QID|399|M|49.19,30.27|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
-T Elmore's Task|QID|1097|M|51.74,12.13|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
+A Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
+T Elmore's Task|QID|1097|M|59.71,33.82|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
 
 A Reading Room|QID|97234|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
 T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
@@ -283,7 +283,7 @@ C Shelf Picked|QID|97237|QO|2|M|76.38,30.39|Z|1453; Stormwind City|N|The Forsake
 C Shelf Picked|QID|97237|QO|3|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accounts of Horde Razings.|NC|
 C Shelf Picked|QID|97237|QO|4|M|76.16,29.31|Z|1453; Stormwind City|N|Cycles of Morality.|NC|
 
-F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
+F Ironforge|AVAILABLE|2039|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 
