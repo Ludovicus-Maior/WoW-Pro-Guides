@@ -630,9 +630,9 @@ R The Gaping Chasm|ACTIVE|10|M|56,71|Z|1446; Tanaris|N|Continue South to the Gap
 R The Scrimshank Redemption|ACTIVE|10|M|55.77,68.97;56.22,68.38;57.17,70.10;57.58,70.79|Z|1446; Tanaris|CS|N|Go down the spiral and take the second tunnel (it goes north). Go right at the first fork, then through the circle room, then right at the fork. Loot the Surveying Gear from the room up ahead (the arrow will point to it).|
 C The Scrimshank Redemption|QID|10|M|55.96,71.16|Z|1446; Tanaris|N|Click on Scrimshank's Surveying Gear to collect it.|
 A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, right click it to start this quest.|
-t Find OOX-17/TN!|QID|351|M|60,65|N|If you have the OOX-17/TN quest, turn it in.|
-A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest. This will be near impossible to solo.|PRE|351|
-C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first.  There are 3 preset ambushes in route.|
+t Find OOX-17/TN!|QID|351|M|60.23,64.72|Z|1446; Tanaris|N|If you have the OOX-17/TN quest, turn it in.|
+A Rescue OOX-17/TN!|QID|648|M|60.23,64.72|Z|1446; Tanaris|N|This is an Escort Quest. This will be near impossible to solo.|PRE|351|
+C Rescue OOX-17/TN!|QID|648|M|60.23,64.72|Z|1446; Tanaris|N|Let the chicken lead, so he will get hit first.  There are 3 preset ambushes in route.|
 T Gahz'ridian|QID|3161|M|52.71,45.92|Z|1446; Tanaris|N|To Marvon Rivetseeker.|
 
 T The Scrimshank Redemption|QID|10|M|50.21,27.48|Z|1446; Tanaris|N|To Senior Surveyor Fizzledowser.|

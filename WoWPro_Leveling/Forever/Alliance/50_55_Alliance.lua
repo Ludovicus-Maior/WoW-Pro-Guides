@@ -113,7 +113,7 @@ C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|1449; Un'Goro Crater|US|N|Kill Diemetra
 C Beware of Pterrordax|QID|4501|M|56.39,89.08|Z|1449; Un'Goro Crater|QO|1|N|Kill the around.|US|
 C Roll the Bones|QID|3882|M|34.75,72.40|Z|1449; Un'Goro Crater|US|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
 C Muigin and Larion|QID|4141|M|65.00,27.00|Z|1449; Un'Goro Crater|US|N|Kill and loot Bloodpetals.|
-C Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|1446; Tanaris|QO|2|N|Make sure you have at least 5 soil before you head back.|
+C Bungle in the Jungle|QID|4496|M|62.16,17.57|Z|1449; Un'Goro Crater|QO|2|N|Make sure you have at least 5 soil before you head back.|
 L Level Check|QID|4141|N|You should be about a bubble from level 51 before turning in these quests. No need to grind but you should try killing a little extra in your travels.|LVL|50;-7000|
 
 T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|1449; Un'Goro Crater|N|To Shizzle.|
