@@ -58,7 +58,7 @@ T Consecrated Letter|QID|3101|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother S
 A The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|Pick up your class quest from Drusilla La Salle (your class trainer) on the south side of the Abbey before continuing.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|R|Human|C|Warlock|
 C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|S|
-C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
+C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|C|Warlock|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
 A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
@@ -74,9 +74,9 @@ A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|Z|1429; Elwynn Forest|N|From 
 = Level 4 Training|ACTIVE|21|M|50.27,42.18|Z|1429; Elwynn Forest|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warrior|
 = Level 4 Training|ACTIVE|21|M|50.37,42.08|Z|1429; Elwynn Forest|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Paladin|
 
-T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|
-= Demon trainer|ACTIVE|15|PRE|1598|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
-= Imp Blood Impact|PRE|1598|M|PLAYER|CC|N|Read the Grimoire to learn the spell.\n[color=FF0000]NOTE: [/color]You must summon your demon in order to train it.|SPELL|Blood Pact;6307|U|16321|O|
+T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La Salle.|C|Warlock|
+= Demon trainer|ACTIVE|21|PRE|1598|M|50.05,42.69|Z|1429; Elwynn Forest|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|C|Warlock|
+= Imp Blood Impact|ACTIVE|21|PRE|1598|M|PLAYER|CC|N|Read the Grimoire to learn the spell.\n[color=FF0000]NOTE: [/color]You must summon your demon in order to train it.|SPELL|Blood Pact;6307|U|16321|O|C|Warlock|
 
 C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|
 T Milly Osworth|QID|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth at the back of the Abbey, near the stable.|
@@ -124,7 +124,7 @@ A Camping 101: Cooking|QID|96626|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam 
 A Camping 101: Fishing|QID|97920|M|44.87,63.26|Z|1429; Elwynn Forest|N|From Sam Sarsaparilla.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Goldshire|
 
 A Rough Wolf Pelts|QID|91751|M|46.29,62.18|Z|1429; Elwynn Forest|N|From Helene Peltskinner.|P|Skinning;393|SPELL|Skinning; 8613; Flip|
-C Rough Wolf Pelts|QID|91751|M|46.29,62.18|Z|1429; Elwynn Forest|N|Skin wolves throughout the zone till you finish this..|S|
+C Rough Wolf Pelts|QID|91751|M|46.29,62.18|Z|1429; Elwynn Forest|N|Skin wolves throughout the zone till you finish this..|S!US|
 t Rough Wolf Pelts|QID|91751|M|46.29,62.18|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|IZ|Goldshire|
 T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|
 T Shhh! We're Hunting Kobolds|QID|91772|M|42.18,65.88|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
@@ -256,10 +256,10 @@ C The Binding|QID|1689|M|39.18,84.17|Z|1453; Stormwind City|N|Go down the stairs
 T The Binding|QID|1689|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|LVL|10|
-T Mirror Lake|QID|1861|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
-T Speak with Jennea|QID|1860|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
-A Mirror Lake|QID|1861|PRE|1860|M|49.54,85.88|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
+T Speak with Jennea|QID|1860|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
+A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 C Mirror Lake|QID|1861|M|28.6,61.4|Z|1429; Elwynn Forest|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|U|7207|C|Mage|
+T Mirror Lake|QID|1861|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
 ; ** Rogue
 A Seek out SI: 7|QID|2205|M|43.77,65.80|Z|1429; Elwynn Forest|N|From Keryn Sylvius, upstairs in the Goldshire inn.|C|Rogue|LVL|10|
 T Seek out SI: 7|QID|2205|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
@@ -271,17 +271,17 @@ A Desperate Prayer|QID|5635|M|43.28,65.72|Z|1429; Elwynn Forest|N|From Priestess
 T Desperate Prayer|QID|5635|M|49.52,44.60|Z|1453; Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|C|Priest|
 ; ** Paladin - No class quest
 ; ** Hunter
-A Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|
-C Taming the Beast|QID|94792|M|43.49,79.92|Z|1429; Elwynn Forest|N|Tame a Rockhide Boar.|U|266158|
-T Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|
-A Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|
-C Taming the Beast|QID|94863|M|64.00,65.00|Z|1429; Elwynn Forest|N|Tame a Gray Forest Wolf.|U|266253|
-T Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|
-A Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|
-C Taming the Beast|QID|94864|M|46.73,77.41|Z|1429; Elwynn Forest|N|Tame a Young Forest Bear.|U|266254|
-T Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|
-A Training the Beast|QID|94793|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|
-T Training the Beast|QID|94793|M|41.77,66.41|Z|1429; Elwynn Forest|N|To Isaac Chan.|
+A Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+C Taming the Beast|QID|94792|M|43.49,79.92|Z|1429; Elwynn Forest|N|Tame a Rockhide Boar.|U|266158|C|Hunter|
+T Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
+A Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+C Taming the Beast|QID|94863|M|64.00,65.00|Z|1429; Elwynn Forest|N|Tame a Gray Forest Wolf.|U|266253|C|Hunter|
+T Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
+A Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+C Taming the Beast|QID|94864|M|46.73,77.41|Z|1429; Elwynn Forest|N|Tame a Young Forest Bear.|U|266254|C|Hunter|
+T Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
+A Training the Beast|QID|94793|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+T Training the Beast|QID|94793|M|41.77,66.41|Z|1429; Elwynn Forest|N|To Isaac Chan.|C|Hunter|
 
 = Level 10 Training|ACTIVE|88|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Warlock|
 = Level 10 Training|ACTIVE|88|M|43.83,65.91|Z|1429; Elwynn Forest|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Rogue|
@@ -304,7 +304,7 @@ r Sell and Repair|ACTIVE|5545|M|83.29,66.09|Z|1429; Elwynn Forest|N|Sell junk an
 C Downstream|QID|91733|QO|2|M|74.20,76.24|Z|1429; Elwynn Forest|N|Grab the Waterlogged Saw.|NC|
 C Downstream|QID|91733|QO|1|M|76.79,82.44|Z|1429; Elwynn Forest|N|Grab the Waterlogged Axe.|NC|
 C Downstream|QID|91733|QO|3|M|77.23,86.87|Z|1429; Elwynn Forest|N|Grab the Waterlogged Toolbox from the water.|NC|
-l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S|
+l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|S!US|
 A Furlbrow's Deed|QID|184|M|PLAYER|CC|N|From the Westfall Deed you just looted.|U|1972|O|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429; Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|S|
 C Princess Must Die!|QID|88|M|69.70,79.69|Z|1429; Elwynn Forest|L|1006|ITEM|1006|N|Princess.\n[color=FF0000]NOTE: [/color]She has two guards with her.\nFocus on killing her, break combat, and come back to loot.\n\nAsk for help if you have trouble, or skip this step to move on for now.|T|Princess|
@@ -363,8 +363,24 @@ R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429; Elwynn Forest|N|Follow the road
 t WANTED: "Hogger"|QID|176|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 t The Collector|QID|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
-l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429; Elwynn Forest|L|1972|ITEM|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|IZ|1429; Elwynn Forest|US|
 
-= Level 12 Training|ACTIVE|109|M|PLAYER|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|
+R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
+t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|1436; Westfall|N|To Farmer Furlbrow.|IZ|1436; Westfall|
+R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|1436; Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
+T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A A Swift Message|QID|6181|M|57.00,47.17|Z|1436; Westfall|N|From Quartermaster Lewis.|R|Human|
+f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Sentinel Hill|
+T A Swift Message|QID|6181|M|56.55,52.65|Z|1436; Westfall|N|To Thor.|
+A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|1436; Westfall|N|From Thor.|R|Human|
+F Stormwind|ACTIVE|6281|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City.|TZ|Stormwind City|
+T Continue to Stormwind|QID|6281|M|77.09,61.20|Z|1453; Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
+A Dungar Longdrink|QID|6261|PRE|6281|M|77.09,61.20|Z|1453; Stormwind City|N|From Osric Strang.|R|Human|
+T Elmore's Task|QID|1097|M|59.66,33.97|Z|1453; Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|59.66,33.97|Z|1453; Stormwind City|N|From Grimand Elmore.|
+
+R Deeprun Tram|QID|6661|M|68.96,30.97|Z|1453; Stormwind City|N|Run to the Deeprun Tram.|
+R Tinker Town|ACTIVE|353|Z|1455; Ironforge|N|Board the Tram back to Ironforge and take the tunnel to your North.|
+f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|1455; Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
+
 ]]
 end)
