@@ -19,7 +19,7 @@ A The Defias Brotherhood|QID|132|PRE|65|M|21.41,45.30|Z|1433; Redridge Mountains
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|PRE|135|M|75.79,59.85|Z|1436; Westfall|N|From Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|PRE|135|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|
 T The Defias Brotherhood|QID|141|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 C The Defias Brotherhood|QID|142|M|36.4,43.4;43.2,59.8;45.6,66.6;44.6,69.6|CN|N|Find and kill the Defias Messenger, loot his message. He paths following the road from Moonbrook into the Quarry, back out and then continues following the road north.|
