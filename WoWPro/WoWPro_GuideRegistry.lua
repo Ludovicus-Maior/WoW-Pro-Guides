@@ -27,6 +27,7 @@ local nameToID = {
     ["Dragonflight"] = _G.LE_EXPANSION_DRAGONFLIGHT,
     ["The War Within"] = _G.LE_EXPANSION_WAR_WITHIN,
     ["Midnight"] = _G.LE_EXPANSION_MIDNIGHT,
+    ["Forever"] = _G.LE_EXPANSION_CLASSIC,
 }
 
 local ValidClass = {}
@@ -50,6 +51,7 @@ RegisterClass("EVOKER")
 local expansionOrder = {
     ["Intro"] = 0,
     ["Classic"] = 1,
+    ["Forever"] = 1.6,
     ["The Burning Crusade"] = 2,
     ["Wrath of the Lich King"] = 3,
     ["Cataclysm"] = 4,

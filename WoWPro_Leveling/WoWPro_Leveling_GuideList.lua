@@ -23,7 +23,17 @@ local introZones = {
     [463] = true, -- Echo Isles - Troll
     [465] = true, -- Deathknell - Undead
     [467] = true, -- Sunstrider Isle - Blood Elf
+    -- Forever Intro Zones
+    [1426] = true, -- Dun Morogh - Dwarf/Gnome
+    [1438] = true, -- Teldrassil - Night Elf
+    [1429] = true, -- Elwynn Forest - Human
+    [1411] = true, -- Durotar - Orc/Troll
+    [1412] = true, -- Mulgore - Tauren
+    [1420] = true, -- Tirisfal Glades - Undead
+    [2521] = true , -- Zephras Isle
 }
+
+
 local oddZones = {
     [1355] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH -- Nazjatar
 }
@@ -47,7 +57,7 @@ local continentToXpac = {
     [2537] = _G.LE_EXPANSION_MIDNIGHT, -- MIDNIGHT
 }
 
--- /dump C_Map.GetMapInfo(1355)
+-- /dump C_Map.GetMapInfo(1411)
 local function GetGuideContent(guide, mapID)
     if not mapID then
         Leveling:dbp("Invalid zone %s in guide %s", tostring(guide.zone), guide.GID)
@@ -116,7 +126,16 @@ local function ResolveGuide(guide)
         elseif WoWPro.Client >= 3 then
             guide.category = guide.Content
         else
-            guide.category = _G["EXPANSION_NAME"..tostring(WoWPro.Client-1)]
+            if WoWPro.FOREVER then
+                local _, zoneID = WoWPro:ValidZone(guide.zone)
+                if introZones[zoneID] or guide.isIntro then
+                    guide.category = "Intro"
+                else
+                    guide.category = "Forever"
+                end
+            else
+                guide.category = _G["EXPANSION_NAME"..tostring(WoWPro.Client-1)]
+            end
         end
     else
         local _, mapID = WoWPro:ValidZone(guide.zone)
