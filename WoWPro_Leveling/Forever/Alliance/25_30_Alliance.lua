@@ -103,7 +103,7 @@ C Tharil'Zun|QID|19|M|63.22,59.41|N|Kill Tharil'Zun and loot his head. Elite sur
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.\nThis is a tough quest. Be careful not to overpull packs whilst inside the keep.\nGath'Ilzogg is not immune to crowd control. Keep him CC'd whilst you kill the other elites with him.|Z|1433; Redridge Mountains|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|Z|1433; Redridge Mountains|
 A Morganth|QID|249|M|79.21,46.90|N|From the Lion Statue.|Z|1433; Redridge Mountains|PRE|248|
-C Morganth|QID|249|M|80.00,78.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|1433; Redridge Mountains|
+C Morganth|QID|249|M|80.00,48.75|N|On the top floor of the tower next to the statue. Morganth is a level 27 elite. Morganth can be CC'd whilst you clear the non-elites with him. If he casts Minion of Morganth a level 30 non-elite undead mob will appear. It has high HP but does not hit hard|PRE|248|Z|1433; Redridge Mountains|
 T Tharil'zun|QID|19|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
 T Shadow Magic|QID|115|M|28.40,48.99|N|To Marshal Marris.|Z|1433; Redridge Mountains|
 T Solomon's Law|QID|91|M|24.63,44.26|N|To Bailiff Conacher.|Z|1433; Redridge Mountains|
@@ -423,8 +423,8 @@ R Auberdine|QID|1037|AVAILABLE|981|M|36.34,45.58|Z|1439; Darkshore|N|Run back to
 F Stonetalon Peak|QID|1059|M|34.41,47.99|Z|1440; Ashenvale|N|Fly back to Stonetalon Peak.|PRE|1057|
 A Reclaiming the Charred Vale|QID|1059|M|37.11,8.10|Z|1442; Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1057|
 
-F Rut'theran Village|QID|1037|M|34.41,47.99|N|Time to head to Darnassus.|R|NightElf|Z|1442; Stonetalon Mountains|
-F Auberdine|QID|1037|M|34.41,47.99|N|Time to head to Darnassus. If you already have the flightpath to Rut'theran Village you can fly directly there and skip the next boat step.|R|-NightElf|Z|1442; Stonetalon Mountains|
+F Rut'theran Village|QID|1037|M|36.44,7.18|N|Time to head to Darnassus.|R|NightElf|Z|1442; Stonetalon Mountains|
+F Auberdine|QID|1037|M|36.44,7.18|N|Time to head to Darnassus. If you already have the flightpath to Rut'theran Village you can fly directly there and skip the next boat step.|R|-NightElf|Z|1442; Stonetalon Mountains|
 b Rut'theran Village|QID|1038|M|33.19,40.1|Z|1439; Darkshore|N|Take the boat to Rut'theran Village.|R|-NightElf|
 R Darnassus|QID|1038|M|55.88,89.55|Z|1438; Teldrassil|N|Take the teleporter to Darnassus.|
 T Velinde Starsong|QID|1037|M|61.77,39.18|Z|1457; Darnassus|N|To Thyn'tel Bladeweaver.|
@@ -467,7 +467,7 @@ A Worgen in the Woods|QID|223|Z|1431; Duskwood|M|75.29,48.05|N|From Calor.|PRE|2
 T The Scythe of Elune|QID|1043|M|75.32,49.03|Z|1431; Duskwood|N|To Jonathan Carevin.|
 A Answered Questions|QID|1044|M|75.32,49.03|Z|1431; Duskwood|N|From Jonathan Carevin.|PRE|1043|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|1431; Duskwood|N|To Jonathan Carevin.|
-F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Warlock,Mage|
+F Trade District|QID|1044|M|77.50,44.30|Z|1431; Duskwood|N|Fly to Stormwind City.|C|Paladin,Warlock,Mage|
 N Train Here|QID|1044|M|62.70,71.19|Z|1453; Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|1457; Darnassus|N|To Thyn'tel Bladeweaver.|

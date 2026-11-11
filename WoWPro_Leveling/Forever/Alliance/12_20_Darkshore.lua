@@ -175,8 +175,8 @@ T A Lesson to Learn|QID|26|M|56.21,30.62|Z|1450;Moonglade|N|To Dendrite Starblaz
 A Trial of the Lake|QID|29|PRE|27|M|56.21,30.62|Z|1450;Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|C|Druid|
 R Lake Elune'ara|ACTIVE|29|M|52.72,37.91|Z|1450;Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|C|Druid|
 C Trial of the Lake|QID|29|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|C|Druid|
-T Trial of the Lake|QID|29|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|C|Druid|
-A Trial of the Sea Lion|QID|272|PRE|29|M|36.51,40.12|N|From Tajarri.|C|Druid|
+T Trial of the Lake|QID|29|M|36.51,40.12|Z|1450;Moonglade|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|C|Druid|
+A Trial of the Sea Lion|QID|272|PRE|29|M|36.51,40.12|Z|1450;Moonglade|N|From Tajarri.|C|Druid|
 F Rut'theran Village|ACTIVE|272|AVAILABLE|1138|M|44.15,45.22|Z|1450;Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
 P Rut'theran Village|AVAILABLE|1138|M|28.82,41.50|Z|1457;Darnassus|N|Use the portal to Rut'theran.|C|-Druid|
 F Auberdine|AVAILABLE|1138|M|58.40,94.01|Z|1438;Teldrassil|N|Talk to Vesprystus to fly back to Auberdine.|
@@ -284,8 +284,8 @@ N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to
 R Harbor Docks|AVAILABLE|971|M|5.1,63.4|Z|1437;Wetlands|CC|N|Get on the boat for Theramore|TAXI|-Ironforge|
 R Dun Morogh|AVAILABLE|971|M|32.0,6.4;17.7,16.4|Z|1426;Dun Morogh|CS|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
 R Kharanos|AVAILABLE|971|M|17.9,17|Z|1426;Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
-R Ironforge|AVAILABLE|971|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
-R Deeprun Tram|AVAILABLE|971|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
+R Ironforge|AVAILABLE|971|M|47.40,41.80;54.2,34.40|Z|1426;Dun Morogh|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
+R Deeprun Tram|AVAILABLE|971|M|76.83,51.28|Z|1455;Ironforge|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
 f Ironforge|AVAILABLE|971|M|55.49,47.72|Z|1455;Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|1455;Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455;Ironforge|DUNGEON|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|

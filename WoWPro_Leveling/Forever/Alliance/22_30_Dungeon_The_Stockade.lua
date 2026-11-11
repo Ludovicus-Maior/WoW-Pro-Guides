@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Cag_AStocks', 'Leveling', 'Orgrimmar', 'WowPro Team', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('Cag_AStocks', 'Leveling', 'Stormwind City', 'WowPro Team', 'Alliance', 1)
 WoWPro:GuideLevels(guide,22, 30)
 WoWPro:GuideName(guide, 'Dungeon: The Stockade')
 WoWPro:GuideSteps(guide, function()
@@ -21,7 +21,7 @@ T Crime and Punishment|QID|377|M|72.0,47.8|Z|1431; Duskwood|N|From Councilman Mi
 T Quell The Uprising|QID|387|M|51.56,69.32|Z|1453;Stormwind City|N|To Warden Thelwater in Stormwind|
 T What Comes Around...|QID|386|M|21.31,46.60|Z|1433;Redridge Mountains|N|From Guard Berton in Lakeshire.|
 T The Fury Runs Deep|QID|303|M|49.6,18.2|Z|1437; Wetlands|N|From Motley Garmason in Wetlands.|
-T The Color of Blood|QID|388|M|69.2,40.0|Z|1437; Wetlands|N|From Nikova Raskol in Stormwind.|
+T The Color of Blood|QID|388|M|73.22,55.39|Z|1453;Stormwind City|N|To Nikova Raskol in Stormwind.|
 
 
 
