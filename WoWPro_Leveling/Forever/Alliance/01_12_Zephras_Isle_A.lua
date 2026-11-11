@@ -101,10 +101,10 @@ A Camping 101: Herbalism|QID|97968|PRE|96101|M|41.66,44.75|Z|2521; Zephras Isle|
 A Camping 101: Skinning|QID|97971|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Shen'dar Village|
 A Camping 101: Mining|QID|97970|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
 A Camping 101: Alchemy|QID|97963|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
-A Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
+A Camping 101: Leatherworking|QID|97969|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
 A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
-A Camping 101: Enchanting|QID|98284|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
-A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
+A Camping 101: Enchanting|QID|98284|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
+A Camping 101: Engineering|QID|98285|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
 A Camping 101: Tailoring|QID|97973|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
 
 C Camping 101: Cooking|QID|96646|PRE|96101|M|43.8,43.8|Z|2521; Zephras Isle|N|To Zerril Softbreeze.|
@@ -496,9 +496,9 @@ A Exploring the Alliance|QID|93963|PRE|94947|M|80.17,38.38|Z|1453; Stormwind Cit
 C Exploring the Alliance|ACTIVE|93963|M|79.00,44.94|Z|1453; Stormwind City|NC|N|Receive Instructions from Randal Emerson.|QO|1|
 N Read the Note|ACTIVE|93963|N|Read the notes from Randal Emerson to see the instructions. NOTE: Manually check this step off to continue.|
 N Take the Deeprun Tram to Ironforge|ACTIVE|93963|N|Take the Deeprun Tram to Ironforge. NOTE: Manually check this step off to continue.|
-C Exploring the Alliance|ACTIVE|93963|M|68.85,49.00|Z|1457; Darnassus|CHAT|N|Speak with High Tinker Mekkatorque.|QO|2|
+C Exploring the Alliance|ACTIVE|93963|M|68.85,49.00|Z|1455; Ironforge|CHAT|N|Speak with High Tinker Mekkatorque.|QO|2|
 f The Great Forge|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Grab the flightpath at Gryth Thurden.|
-C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1457; Darnassus|CHAT|N|Speak with King Magni Bronzebeard.|QO|3|
+C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1455; Ironforge|CHAT|N|Speak with King Magni Bronzebeard.|QO|3|
 
 P Nighthaven|ACTIVE|93963|M|70.92,48.77|Z|1455; Ironforge|N|Take the portal to Moonglade.|C|Druid|CC|
 F Stormwind City|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Head to the flightmaster and take a flight to Stormwind Ciry.|C|-Druid|CC|
@@ -520,7 +520,7 @@ C Exploring the Alliance|ACTIVE|93963|M|39.10,81.51|Z|1457; Darnassus|CHAT|N|Spe
 C Eyes of the Sentinels|ACTIVE|98067|M|40.81,43.59|Z|1457; Darnassus|NC|N|Darnassus Bank.|QO|2|U|279378|
 C Eyes of the Sentinels|ACTIVE|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|QO|1|U|279378|
 C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|QO|3|U|279378|
-C Eyes of the Sentinels|ACTIVE|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
+C Eyes of the Sentinels|ACTIVE|98067|M|88.50,35.40|Z|1457; Darnassus|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
 T Eyes of the Sentinels|ACTIVE|98067|M|39.59,89.53|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
 
 H Hearth to Stormwind City|ACTIVE|93963|N|If available Hearth back to town.|CC|

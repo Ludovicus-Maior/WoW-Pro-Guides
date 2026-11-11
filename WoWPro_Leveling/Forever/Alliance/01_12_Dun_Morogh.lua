@@ -91,12 +91,12 @@ T The Great Outdoors|QID|96608|M|46.66,53.95|Z|1426; Dun Morogh|N|To Eric Bright
 
 A Camping 101: Blacksmithing|QID|96044|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Dun Morogh|
 A Camping 101: Leatherworking|QID|96031|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Dun Morogh|
-A Camping 101: Alchemy|QID|96045|PRE|96608|M|46.64,53.91|Z|1455; Ironforge|N|From Vosur Brakthel.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Dun Morogh|
+A Camping 101: Alchemy|QID|96045|PRE|96608|M|66.33,55.69|Z|1455; Ironforge|N|From Vosur Brakthel.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Dun Morogh|
 A Camping 101: Herbalism|QID|96055|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Dun Morogh|
 A Camping 101: Mining|QID|96046|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Dun Morogh|
 A Camping 101: Tailoring|QID|96057|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Dun Morogh|
 A Camping 101: Engineering|QID|96058|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Dun Morogh|
-A Camping 101: Enchanting|QID|96059|PRE|96608|M|46.64,53.91|Z|1455; Ironforge|N|From Eric Brighthammer.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Dun Morogh|
+A Camping 101: Enchanting|QID|96059|PRE|96608|M|60.27,45.37|Z|1455; Ironforge|N|From Thonys Pillarstone.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Dun Morogh|
 A Camping 101: Skinning|QID|96056|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Dun Morogh|
 A Camping 101: First Aid|QID|96047|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Dun Morogh|
 A Camping 101: Cooking|QID|96629|PRE|96608|M|46.64,53.91|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
