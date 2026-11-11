@@ -54,7 +54,7 @@ A There's the Rub|QID|92957|PRE|92955|M|39.01,38.82|Z|2437; Zul'Aman|N|From Zul'
 A Brain Drain|QID|92958|PRE|92955|M|38.98,38.89|Z|2437; Zul'Aman|N|From Befuddled Amani Mask.|
 C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Kill Vilebranch and loot the Hex Fetishes.|S|
 C There's the Rub|QID|92957|M|36.75,37.05|Z|2437; Zul'Aman|N|Click the Amani Tablets.|H|
-C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Finish collecting Hex Fetishes from the Vilebranch you slaughter.|S|
+C Brain Drain|QID|92958|M|37.56,37.58|Z|2437; Zul'Aman|N|Finish collecting Hex Fetishes from the Vilebranch you slaughter.|US|
 T There's the Rub|QID|92957|M|38.98,38.90|Z|2437; Zul'Aman|N|To Loa Speaker Kinduru.|
 T Brain Drain|QID|92958|M|38.99,38.89|Z|2437; Zul'Aman|N|To Befuddled Amani Mask.|
 A Mission to Maisara|QID|92952|PRE|92958&92957|M|38.98,38.90|Z|2437; Zul'Aman|N|From Befuddled Amani Mask.|
@@ -346,7 +346,7 @@ A Fried Eggs|QID|93229|PRE|93449|M|63.00,44.51|Z|2512; The Coiled Isle|N|From Za
 A Slithering in the Mire|QID|93199|PRE|93449|M|63.00,44.51|Z|2512; The Coiled Isle|N|From Zawadi.|
 C Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|S|N|Kill the snake people.|
 C Fried Eggs|QID|93229|M|66.02,38.97|Z|2512; The Coiled Isle|EAB|N|Use the provided torch to burn the eggs.|
-C Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|N|Keep killing Children of Ula'tek.|
+C Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|US|N|Keep killing Children of Ula'tek.|
 T Fried Eggs|QID|93229|M|66.02,38.97|Z|2512; The Coiled Isle|N|To Zawadi.|
 T Slithering in the Mire|QID|93199|M|66.02,38.97|Z|2512; The Coiled Isle|N|To Zawadi.|
 A The Search for Wa'kani|QID|93576|PRE|93199&93229|M|66.02,38.97|Z|2512; The Coiled Isle|N|From Zawadi.|
