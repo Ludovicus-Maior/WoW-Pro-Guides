@@ -256,11 +256,11 @@ K Commander Rudolph Gelhardt|ACTIVE|91317|QO|1|M|14.8,64.6|Z|1420; Tirisfal Glad
 C The Tarnished|QID|91317|QO|2|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Drudge.|R|Undead|C|Paladin|US|
 C The Tarnished|QID|91317|QO|3|M|14.8,64.6|Z|1420; Tirisfal Glades|N|Murderfy all the Tarnished Zealots.|R|Undead|C|Paladin|US|
 T The Tarnished|QID|91317|M|22.08,44.71|Z|1420; Tirisfal Glades|N|To Danitha Morr.|R|Undead|C|Paladin|
-A A Lesson in Divinity|QID|94427|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
+A A Lesson in Divinity|QID|94427|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|LVL|12|
 A A Token of Good Faith|QID|95803|M|22.08,44.71|Z|1420; Tirisfal Glades|N|From Danitha Morr.|R|Undead|C|Paladin|
 A Making Repairs|QID|91316|M|22.65,44.73|Z|1420; Tirisfal Glades|N|From Jorin Croge.|R|Undead|C|Paladin|
 C Making Repairs|QID|91316|M|12.93,65.72|Z|1420; Tirisfal Glades|N|Down in the cellar loot the wood you need. .|R|Undead|C|Paladin|S|
-C Making Repairs|QID|91316|M|12.93,65.72|Z|1420; Tirisfal Glades|N|Down in the cellar loot the wood you need. .|R|Undead|C|Paladin|S|
+C Making Repairs|QID|91316|M|12.93,65.72|Z|1420; Tirisfal Glades|N|Down in the cellar loot the wood you need. .|R|Undead|C|Paladin|US|
 T Making Repairs|QID|91316|M|22.65,44.73|Z|1420; Tirisfal Glades|N|To Jorin Croge.|R|Undead|C|Paladin|
 ; --- Undercity
 T The Argent Emissary|QID|96895|M|65.87,61.08|Z|1420; Tirisfal Glades|N|To Hadric Harison.|R|Undead|

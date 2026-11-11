@@ -59,7 +59,7 @@ A Zinge's Delivery|QID|1359|PRE|3221|M|42.80,40.86|Z|1421; Silverpine Forest|N|F
 
 C Arugal's Folly|QID|422|M|49.73,28.63;52.82,28.58|CS|Z|1421; Silverpine Forest|L|3155|N|After you clear your way to the second floor of the house at Valgan's Field, click the Dusty Spellbooks on the floor in the 2nd room.\n[color=FF0000]NOTE: [/color]Face the doorway when you click on it because a Moonrage Darkrunner will spawn and attack you from that direction.|
 T Return to Quinn|QID|430|M|53.43,12.59|Z|1421; Silverpine Forest|N|To Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
-A Wild Eyes|QID|91920|M|53.43,12.59|Z|1421; Silverpine Forest|N|From Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
+A Wild Eyes|QID|91920|M|53.42,12.66|Z|1421; Silverpine Forest|N|From Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
 C Wild Eyes|QID|91920|M|58.5,18.0|Z|1421; Silverpine Forest|N|Kill murlocks and loot their eyes.|
 
 R The Dead Fields|QID|437|QO|2|M|45.47,21.00|Z|1421; Silverpine Forest|N|Make your way to the Dead Fields.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go.\n \nApproaching the field from the north and entering on the west side is probably the better way to do it.|
@@ -84,7 +84,7 @@ T Supplying the Sepulcher|QID|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|To 
 A Ride to the Undercity|QID|6323|PRE|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|From Karos Razok.|R|Undead|
 F Undercity|ACTIVE|447|M|45.62,42.60|Z|1421; Silverpine Forest|N|At Karos Razok.|
 A Prompt Potion Runner|QID|97891|M|58.28,55.07|Z|1458; Undercity|N|From Alessandro Luca.|
-T Prompt Potion Runner|QID|97891|N|To Doctor Martin Felben|
+T Prompt Potion Runner|QID|97891|M|46.64,74.27|Z|1458; Undercity|N|To Doctor Martin Felben|
 R The Apothecarium|ACTIVE|447^1359|M|53.37,54.84|Z|1458; Undercity|N|Make your way to The Apothecarium in the southwest corner of Undercity.|
 T A Recipe For Death|QID|447|M|48.81,69.26|Z|1458; Undercity|N|To Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Cross the bridge over the canal to the outer ring and make your way to the passage way leading to him.\n \nDo NOT take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|1458; Undercity|N|To Apothecary Zinge.|
