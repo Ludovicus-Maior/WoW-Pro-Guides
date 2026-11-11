@@ -195,6 +195,21 @@ function WoWPro:AutoCompleteDeath(...)
     end
 end
 
+
+function WoWPro:AutoCompleteTrain(event, ...)
+    local msg
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.rows[i]:IsVisible() and WoWPro.action[index] == "=" then
+            msg = ("AutoCompleteTrain(%s): Step %s/%d [%s]?"):format(event, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+            WoWPro:dbp(msg)
+            WoWPro.CompleteStep(index, "AutoCompleteTrain", nil, "AutoCompleteTrain")
+            return
+        end
+    end
+end
+
+
 -- Update Item Tracking --
 function WoWPro.GetLootTrackingInfo(lootItems)
 --[[Purpose: Creates a string containing:

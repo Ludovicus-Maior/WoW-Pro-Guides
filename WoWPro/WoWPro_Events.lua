@@ -803,6 +803,10 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function(event, ...)
 end)
 
 -- Auto-Completion --
+WoWPro.RegisterEventHandler("TRAINER_SHOW", function(event, ...)
+    WoWPro:AutoCompleteTrain(event, ...)
+end)
+
 -- TAXIMAP_OPENED is only for auto-select route selection and flight-point discovery.
 -- It does not mean the ride has started or ended.
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
