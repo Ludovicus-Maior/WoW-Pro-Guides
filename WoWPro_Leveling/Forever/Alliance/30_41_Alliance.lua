@@ -228,11 +228,11 @@ A Malin's Request|QID|690|M|50.50,87.45|Z|1453; Stormwind City|N|From Archmage M
 t An Old History Book|QID|337|M|76.93,30.31|Z|1453; Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|76.93,30.31|Z|1453; Stormwind City|N|From Milton Sheaf.|
 
-F Refuge Pointe|ACTIVE|690|M|49.34,52.28|Z|1429; Elwynn Forest|N|Fly to Refuge Pointe in Arathi Highlands.\n[color=FF0000]NOTE: [/color] It's a 7.5 Minute flight|TAXI|Refuge Pointe|
+F Refuge Pointe|ACTIVE|690|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Refuge Pointe in Arathi Highlands.\n[color=FF0000]NOTE: [/color] It's a 7.5 Minute flight|TAXI|Refuge Pointe|
 F Ironforge|ACTIVE|690|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge or use the Tram to get there.|TAXI|-Refuge Pointe|
 F Menethil Harbor|ACTIVE|690|M|55.49,47.72|Z|1455; Ironforge|N|Fly to Menethil Harbor.|TAXI|-Refuge Pointe|
 R Refuge Pointe|ACTIVE|690|M|45.76,46.10|Z|1417; Arathi Highlands|N|Follow the road northeast from Menethil Harbor until it the road splits and contune following it north. Continue across the ruined bridge Thandol Span into the Arathi Highlands. Refuge Points is straight north from here.|TAXI|-Refuge Pointe|
-f Refuge Pointe|ACTIVE|690|M|39.85,47.34|Z|1417; Arathi Highlands|N|Get the flight point from Cedrik Prose.|
+f Refuge Pointe|ACTIVE|690|M|45.73,46.10|Z|1417; Arathi Highlands|N|Get the flight point from Cedrik Prose.|
 T Malin's Request|QID|690|M|46.65,47.01|Z|1417; Arathi Highlands|N|To Skuerto.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
 A Northfold Manor|QID|681|M|45.83,47.55|Z|1417; Arathi Highlands|N|From Captain Nials.|
 C Northfold Manor|QID|681|M|33.95,33.00|Z|1417; Arathi Highlands|N|Kill the Syndicate in this area.|
@@ -269,7 +269,7 @@ T Northfold Manor|QID|681|M|45.83,47.55|Z|1417; Arathi Highlands|N|To Captain Ni
 A Worth Its Weight in Gold|QID|691|PRE|690|M|46.20,47.76|Z|1417; Arathi Highlands|N|From Apprentice Kryten.|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|1417; Arathi Highlands|N|To Quae.|
 A Hints of a New Plague?|QID|658|PRE|659|M|60.18,53.85|Z|1417; Arathi Highlands|N|From Quae.|
-K Forsaken Courier|ACTIVE|658|M|61.00,60.00|L|647|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|S|IZ|1417; Arathi Highlands|
+K Forsaken Courier|ACTIVE|658|M|61.00,60.00|Z|1417; Arathi Highlands|L|647|N|Look out for a group of Forsaken leaving Go'Shek Farm. The Forsaken Courier in the center drops a Sealed Folder. A group is recommended to kill these.\nIf unable to find others use and cooldowns or crowd control available whilst focusing the Courier then reset the Guards and loot the letter|T|Forsaken Courier|S|IZ|1417; Arathi Highlands|
 R Thandol Span|AVAILABLE|647|M|60.80,60.65;45.80,59.20;43.25,91.20|CC|Z|1417; Arathi Highlands|N|Head to the road leading out of Go'Shek Farm. Follow the road west and towards Wetlands when the road turns south|
 A MacKreel's Moonshine|QID|647|M|43.25,91.20;43.24,92.64|CC|Z|1417; Arathi Highlands|N|Accept the quest from Foggy MacKreel in the room on the right.\n[color=FF0000]NOTE: [/color]Head to the broken side of the bridge. Stand on the right side of the chain and use Slowfall/Levitate on yourself. Aim yourself towards the Torch on the opposite side. Run and jump off the bridge to float over. Accept the quest from Foggy MacKreel in the room on the right. Be aware this is a timed quest. If you fail the jump swim east until you come to a hill you can run back up.|C|Mage,Priest|
 A MacKreel's Moonshine|QID|647|M|42.90,91.25;43.24,92.64|CC|Z|1417; Arathi Highlands|N|Accept the quest from Foggy MacKreel in the room on the right.\n[color=FF0000]NOTE: [/color]From Head to the broken side of the bridge. Stand on the ledge to the far right and use your Swiftness Potion (if you have one) or Movement Ability. Run and jump onto the ledge on the opposite side.\nIf you fail the jump, swim east until you come to a hill you can run back up and try it again.|
@@ -302,7 +302,7 @@ A A King's Tribute|QID|686|PRE|683|M|39.11,56.21|Z|1455; Ironforge|N|From King M
 T A King's Tribute|QID|686|M|38.74,87.05|Z|1455; Ironforge|N|To Grand Mason Marblesten.|
 A A King's Tribute|QID|689|PRE|686|M|38.74,87.05|Z|1455; Ironforge|N|From Grand Mason Marblesten.|
 B Fine Thread|AVAILABLE|565|M|38.30,73.60|L|2321|ITEM|2321|N|Buy a Fine Thread from Fillius Fizzlespinner.\n[color=FF0000]NOTE: [/color]Skip this step for now if you didn't get the two items earlier.|
-F Southshore|AVAILABLE|565|M|49.34,52.28|Z|1455; Ironforge|N|Fly back to Southshore.|
+F Southshore|AVAILABLE|565|M|55.50,47.74|Z|1455; Ironforge|N|Fly back to Southshore.|
 T Hints of a New Plague?|QID|661|M|50.35,59.05|Z|1424; Hillsbrad Foothills|N|To Phin Odelic.|
 A Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|1424; Hillsbrad Foothills|N|From Bartolo Ginsetti.\n[color=FF0000]NOTE: [/color]Skip this step for now if you could not get all the previous items required.|
 A Crushridge Bounty|QID|500|M|49.47,58.73|Z|1424; Hillsbrad Foothills|N|From Marshal Redpath.|

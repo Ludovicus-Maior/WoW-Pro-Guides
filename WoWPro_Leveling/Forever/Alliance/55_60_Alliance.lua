@@ -390,7 +390,7 @@ A The Blightcaller Cometh|QID|6186|M|43.62,84.50|Z|1422; Western Plaguelands|N|F
 F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|1422; Western Plaguelands|N|Fly to Menethil Harbor. Do NOT Hearth!|
 b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|1437; Wetlands|N|Take the boat to Darkshore.|
 F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|1439; Darkshore|N|Fly to Azshara.|
-C The Demon Hunter|QID|2744|M|60.82,66.35|Z|1435; Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
+C The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Speak with Loramus Thalipedes.|
 T The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
 A Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
 C Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|

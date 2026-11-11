@@ -348,11 +348,12 @@ T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|143
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|1439; Darkshore|DUNGEON|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|1439; Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|1439; Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
-F Rut'theran Village|AVAILABLE|1198|M|55.92,89.5|Z|1438; Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
+F Rut'theran Village|AVAILABLE|1198|M|36.34,45.58|Z|1439; Darkshore|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|R|NightElf|
+R Darnassus|AVAILABLE|1198|M|55.88,89.55|Z|1438; Teldrassil|N|Take the teleporter to Darnassus. Train your skills, sell and repair, and pick up the BFD quests.|LVL|20|
 A Twilight Falls|QID|1199|M|55.24,24.01|Z|1457; Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|DUNGEON|
 A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|1457; Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|DUNGEON|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|1438; Teldrassil|N|Get the flight path.|R|-NightElf|
-F Auberdine|QID|965|M|36.34,45.58|Z|1438; Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
+F Auberdine|QID|965|M|58.40,94.02|Z|1438; Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
 F Astranaar|QID|965|M|36.30,45.60|Z|1439; Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
 A The Tower of Althalaxx|QID|965|M|39.1,43.5|Z|1439; Darkshore|N|From Sentinel Elissa Starbreeze upstairs.|
 T The Tower of Althalaxx|QID|965|M|54.9,24.9|Z|1439; Darkshore|N|To Balthule Shadowstrike.|
