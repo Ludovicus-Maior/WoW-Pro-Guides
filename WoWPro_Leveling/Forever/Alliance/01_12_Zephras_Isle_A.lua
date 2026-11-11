@@ -227,8 +227,8 @@ h Valanaar|QID|92741|M|62.15,72.63|Z|2521; Zephras Isle|N|At Donaal Downbreeze.|
 A Blood Tithe|QID|92679|PRE|92709|M|62.11,73.37|Z|2521; Zephras Isle|N|From Alvarion Windfield. (Upstairs in the Inn)|
 A Crab Season|QID|93317|PRE|92709|M|60.63,72.66|Z|2521; Zephras Isle|N|From Nyalah Brightfire.|
 
-;Hunter quests require LVL|10|
-;L Level 10|LVL|10|N|You should be around level 10 by this point. If not kill things until you are.|
+; Hunter quests require LVL|10|
+; L Level 10|LVL|10|N|You should be around level 10 by this point. If not kill things until you are.|
 
 A Taming the Beast|QID|94978|M|59.59,72.63|Z|2521; Zephras Isle|N|From Quel'ana Quickgale.|C|Hunter|LVL|10|
 T Taming the Beast|QID|94978|M|59.59,72.66|Z|2521; Zephras Isle|N|To Quel'ana Quickgale.|C|Hunter|LVL|10|
@@ -445,7 +445,7 @@ A Making Our Move|QID|92947|M|61.16,70.93|Z|2521; Zephras Isle|N|From Valennia S
 C Making Our Move|QID|92947|M|61.30,52.83|Z|2521; Zephras Isle|N|Al'Aketh Guardian slain.|QO|1|
 C Making Our Move|QID|92947|M|63.21,53.87|Z|2521; Zephras Isle|N|Al'Aketh Spiritcaller slain.|QO|2|
 C Making Our Move|QID|92947|M|62.74,49.78|Z|2521; Zephras Isle|N|Al'Aketh Blademaster slain.|QO|3|
-T Making Our Move|QID|92947|M|63.79,50.52|Z|2521; Zephras Isle|N|To Hyusaa Quickbreeze.|QO|4|
+T Making Our Move|QID|92947|M|63.79,50.52|Z|2521; Zephras Isle|N|To Hyusaa Quickbreeze.|
 A The Inner Sanctum|QID|93958|M|63.79,50.52|Z|2521; Zephras Isle|N|From Hyusaa Quickbreeze.|
 T The Inner Sanctum|QID|93958|M|65.19,50.38|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
@@ -453,61 +453,60 @@ A Confront Lorthuna|QID|93835|M|65.19,50.38|Z|2521; Zephras Isle|N|From Valennia
 C Confront Lorthuna|QID|93835|M|74.16,52.57|Z|2521; Zephras Isle|N|Talk to Elaadrin Evengale to start encounter.|CHAT|
 C Confront Lorthuna|ACTIVE|93835|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|QO|1|
 
-P Portal to Valanaar|M|75.14,53.22|N|Take the portal to Valanaar.|CC|
+P Valanaar|M|75.14,53.22|N|Take the portal to Valanaar.|CC|
 
 T Confront Lorthuna|ACTIVE|93835|M|66.62,79.95|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
 A The Fate of Zephras|QID|94369|M|66.62,79.95|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
-C The Fate of Zephras|ACTIVE|94369|M|66.57,79.93|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|QO|1|
+C The Fate of Zephras|ACTIVE|94369|M|66.19,76.52|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|QO|1|
 T The Fate of Zephras|ACTIVE|94369|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A What Comes Next|QID|93089|M|66.19,76.52|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
 
-N Wrap things up|ACTIVE|94946|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
+N Wrap things up|ACTIVE|93089|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
 
 T What Comes Next|ACTIVE|93089|M|66.63,79.92|Z|2521; Zephras Isle|N|To Elaadrin Evengale.|
 A The Magical City of Dalaran|QID|94946|M|66.63,79.92|Z|2521; Zephras Isle|N|From Elaadrin Evengale.|
 
 R Head to the Dock|ACTIVE|94946|M|65.78,83.34|N|Make your way to the Dock to meet the airship.|CC|
-b Take the Skycutter to Dalaran|ACTIVE|94946|N|Take the airship to Dalaran|CC|
+b Dalaran|ACTIVE|94946|N|Take the Skycutter airship to Dalaran|CC|
 T The Magical City of Dalaran|ACTIVE|94946|M|12.30,56.34|Z|1416; Alterac Mountains|N|To Denaaris Stargale.|
 
 A Welcome to Azeroth|QID|94947|PRE|94946|M|12.30,56.34|Z|1416; Alterac Mountains|N|From Denaaris Stargale.|
 A Child of Nature|QID|94912|PRE|94946|M|11.73,56.55|Z|1416; Alterac Mountains|N|From Alfina Nightgaze.|C|Druid|
 
-P Take the portal to Stormwind|ACTIVE|94947|M|12.30,56.34|Z|1416; Alterac Mountains|N|Take the portal to Stormwind.|CC|
+P Stormwind|ACTIVE|94947|M|12.30,56.34|Z|1416; Alterac Mountains|N|Take the portal to Stormwind.|CC|
 C Welcome to Azeroth|ACTIVE|94947|M|12.05,56.23|Z|1416|NC|N|Take the Skyborne Portal to Stormwind.|QO|1|
 h Stormwind City|ACTIVE|94947|M|60.36,75.22|Z|1453; Stormwind City|N|At Innkeeper Allison.|
 
 T Child of Nature|ACTIVE|94912|M|35.86,67.39|Z|1453; Stormwind City|N|To Sheldras Moontree.|C|Druid|
 A Moonglade|QID|94914|PRE|94912|M|35.86,67.39|Z|1453; Stormwind City|N|From Sheldras Moontree.|C|Druid|
 
-;For Druids who are already in the Park, These SW quest goes to someone in the library, so is easy XP.
-;A Reading Room|QID|97234|PRE|94912|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
-;T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
+N Side Quests|QID|94947|N|For Druids who are already in the Park, This SW quest goes to someone in the library, so is easy XP. If you don't want to detour, just check these off.|
+A Reading Room|QID|97234|PRE|94912|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
+R Turn Left Here|QID|97234|M|76.16,42.62|Z|1453; Stormwind City|N|Turn to get to the library.|CC|
+T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
 
-;This would go back to the Park, not sure if you want to include it or not.
-;A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|
-;C Shelf Picked|ACTIVE|97237|M|75.56,30.40|Z|1453; Stormwind City|NC|N|Trollbane Conquests.|QO|2|
-;C Shelf Picked|ACTIVE|97237|M|76.38,30.39|Z|1453; Stormwind City|NC|N|The Forsaken Ally.|QO|3|
-;C Shelf Picked|ACTIVE|97237|M|76.18,30.91|Z|1453; Stormwind City|NC|N|Field Accounts of Horde Razings.|QO|1|
-;C Shelf Picked|ACTIVE|97237|M|76.16,29.31|Z|1453; Stormwind City|NC|N|Cycles of Morality.|QO|4|
+A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|
+C Shelf Picked|ACTIVE|97237|M|75.56,30.40|Z|1453; Stormwind City|NC|N|Trollbane Conquests.|QO|2|
+C Shelf Picked|ACTIVE|97237|M|76.38,30.39|Z|1453; Stormwind City|NC|N|The Forsaken Ally.|QO|3|
+C Shelf Picked|ACTIVE|97237|M|76.18,30.91|Z|1453; Stormwind City|NC|N|Field Accounts of Horde Razings.|QO|1|
+C Shelf Picked|ACTIVE|97237|M|76.16,29.31|Z|1453; Stormwind City|NC|N|Cycles of Morality.|QO|4|
 
 T Welcome to Azeroth|ACTIVE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A Exploring the Alliance|QID|93963|PRE|94947|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|
 C Exploring the Alliance|ACTIVE|93963|M|79.00,44.94|Z|1453; Stormwind City|NC|N|Receive Instructions from Randal Emerson.|QO|1|
 N Read the Note|ACTIVE|93963|N|Read the notes from Randal Emerson to see the instructions. NOTE: Manually check this step off to continue.|
-N Take the Deeprun Tram to Ironforge|ACTIVE|93963|N|Take the Deeprun Tram to Ironforge. NOTE: Manually check this step off to continue.|
-C Exploring the Alliance|ACTIVE|93963|M|68.85,49.00|Z|1457; Darnassus|CHAT|N|Speak with High Tinker Mekkatorque.|QO|2|
+R Take the Deeprun Tram to Ironforge|ACTIVE|93963|M|66.52,33.98|Z|1453; Stormwind City|N|Take the Deeprun Tram to Ironforge.|CC|
+C Exploring the Alliance|ACTIVE|93963|M|68.85,49.00|Z|1455; Ironforge|CHAT|N|Speak with High Tinker Mekkatorque.|QO|2|
 f The Great Forge|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Grab the flightpath at Gryth Thurden.|
-C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1457; Darnassus|CHAT|N|Speak with King Magni Bronzebeard.|QO|3|
+C Exploring the Alliance|ACTIVE|93963|M|39.36,55.97|Z|1455; Ironforge|CHAT|N|Speak with King Magni Bronzebeard.|QO|3|
+
+F Stormwind City|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Head to the flightmaster and take a flight to Stormwind Ciry.|C|-Druid|CC|
+R Head to the Dock to catch the boat to Auberdine|ACTIVE|93963|M|22.72,55.98|Z|1453; Stormwind City|N|Make your way to take the boat to Auberdine.|C|-Druid|CC|
+b Auberdine|ACTIVE|93963|N|Take the boat to Auberdine.|C|-Druid|CC|
+R Head to the next Dock to catch the boat to Rut'theran Village|ACTIVE|93963|M|33.20,40.16|Z|1439; Darkshore|N|Make your way to take the boat to Teldrassil.|C|-Druid|CC|
+b Rut'theran Village|ACTIVE|93963|N|Take the boat to Rut'theran Village.|C|-Druid|CC|
 
 P Nighthaven|ACTIVE|93963|M|70.92,48.77|Z|1455; Ironforge|N|Take the portal to Moonglade.|C|Druid|CC|
-F Stormwind City|ACTIVE|93963|M|55.63,48.11|Z|1455; Ironforge|N|Head to the flightmaster and take a flight to Stormwind Ciry.|C|-Druid|CC|
-R Head to the Dock to catch the boat to Auberdine|ACTIVE|93963|M|37.32,67.88|Z|1453; Stormwind City|N|Make your way to take the boat to Darkshore.|C|-Druid|CC|
-b Take the boat to Auberdine|ACTIVE|93963|N|Take the boat to Auberdine.|C|-Druid|CC|
-f Auberdine|ACTIVE|93963|M|36.35,45.57|Z|1439; Darkshore|N|Grab the flightpath at Caylais Moonfeather.|
-R Head to the next Dock to catch the boat to Rut'theran Village|ACTIVE|93963|M|33.20,40.16|Z|1439; Darkshore|N|Make your way to take the boat to Teldrassil.|C|-Druid|CC|
-b Take the boat to Rut'theran Village|ACTIVE|93963|N|Take the boat to Rut'theran Village.|C|-Druid|CC|
-
 T Moonglade|ACTIVE|94914|M|56.22,30.60|Z|1450; Moonglade|N|To Dendrite Starblaze.|C|Druid|
 R Run to the Exit-only Flightpoint|ACTIVE|93963|M|44.27,45.18|Z|1450; Moonglade|N|Make your way to the Exit-only Flightpoint.|C|Druid|CC|
 F Rut'theran Village|ACTIVE|93963|M|44.27,45.18|Z|1450; Moonglade|N|Head to the flightmaster and take a flight to Rut'theran Village.|C|Druid|CC|
@@ -523,10 +522,16 @@ C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Crafts
 C Eyes of the Sentinels|ACTIVE|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
 T Eyes of the Sentinels|ACTIVE|98067|M|39.59,89.53|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
 
-H Hearth to Stormwind City|ACTIVE|93963|N|If available Hearth back to town.|CC|
-P Rut'theran Village|ACTIVE|93963|M|55.93,89.70|Z|1438; Teldrassil|N|Take the portal to Rut'theran Village. (Check off Manually if you were able to Hearth)|CC|
-b Take the boat to Auberdine|ACTIVE|93963|N|Take the boat to Auberdine. (Check off Manually if you were able to Hearth)|CC|
-b Take the boat to Stormwind City|ACTIVE|93963|N|Take the boat to Stormwind City. (Check off Manually if you were able to Hearth)|CC|
+P Rut'theran Village|QID|93963|M|55.93,89.70|Z|1438; Teldrassil|N|Take the portal to Rut'theran Village. (Check off Manually if you were able to Hearth)|CC|
+R Head to the Dock to Auberdine|QID|93963|M|54.84,96.70|Z|1438; Teldrassil|N|Make your way to take the boat to Auberdine.|CC|
+b Auberdine|QID|93963|N|Take the boat to Auberdine.|CC|
+f Auberdine|QID|93963|M|36.35,45.57|Z|1439; Darkshore|N|Grab the flightpath at Caylais Moonfeather.|
+H Stormwind City|QID|93963|N|If available Hearth back to town. (Check off Manually if you were NOT able to Hearth)|CC|
+R Head to the Dock to Stormwind City|QID|93963|M|30.76,41.01|Z|1439; Darkshore|N|Make your way to take the boat to Stormwind City. (Check off Manually if you were able to Hearth)|CC|
+b Stormwind City|QID|93963|N|Take the boat to Stormwind City. (Check off Manually if you were able to Hearth)|CC|
+
+T Shelf Picked|ACTIVE|97237|M|38.83,62.23|Z|1453; Stormwind City|N|To Roy Lewells.|
+
 T Exploring the Alliance|QID|93963|M|80.17,38.38|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
 A Journey to Sentinel Hill|QID|98021|M|80.17,38.38|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|
 
@@ -549,6 +554,7 @@ A Patrolling Westfall|QID|102|M|56.42,47.62|Z|1436; Westfall|N|From Captain Danu
 h Sentinel Hill|ACTIVE|102|M|52.86,53.71|Z|1436; Westfall|N|Set your hearth at Innkeeper Heather.|
 f Sentinel Hill|ACTIVE|102|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Sentinel Hill|
 F Stormwind|ACTIVE|102|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City.|TZ|Stormwind City|
+
 
 ]]
 end)
