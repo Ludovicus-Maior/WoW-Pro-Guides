@@ -123,18 +123,18 @@ A The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena D
 C The Great Outdoors|ACTIVE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|/Sit next to the campfire for 1 minute to complete the quest.|QO|1|
 T The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|To Lyreena Duskblade.|
 
-A Camping 101: Cooking|QID|96646|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
-A Camping 101: First Aid|QID|97965|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Teldrassil|
-A Camping 101: Fishing|QID|97967|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Teldrassil|
-A Camping 101: Herbalism|QID|97968|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Teldrassil|
-A Camping 101: Skinning|QID|97971|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Teldrassil|
-A Camping 101: Mining|QID|97970|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Teldrassil|
-A Camping 101: Alchemy|QID|97963|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Teldrassil|
-A Camping 101: Leatherworking|QID|97969|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Teldrassil|
-A Camping 101: Blacksmithing|QID|97964|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Teldrassil|
-A Camping 101: Enchanting|QID|98284|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Teldrassil|
-A Camping 101: Engineering|QID|98285|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Teldrassil|
-A Camping 101: Tailoring|QID|97973|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Teldrassil|
+A Camping 101: Cooking|QID|96634|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
+A Camping 101: First Aid|QID|97942|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Teldrassil|
+A Camping 101: Fishing|QID|97943|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Teldrassil|
+A Camping 101: Herbalism|QID|97944|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Teldrassil|
+A Camping 101: Skinning|QID|97949|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Teldrassil|
+A Camping 101: Mining|QID|97948|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Teldrassil|
+A Camping 101: Alchemy|QID|97938|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Teldrassil|
+A Camping 101: Leatherworking|QID|97946|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Teldrassil|
+A Camping 101: Blacksmithing|QID|97939|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Teldrassil|
+A Camping 101: Enchanting|QID|97940|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Teldrassil|
+A Camping 101: Engineering|QID|97941|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Teldrassil|
+A Camping 101: Tailoring|QID|97950|PRE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Teldrassil|
 
 A The Sisterhood of Elune|QID|98391|M|55.57,56.79|Z|1438; Teldrassil|N|From Laurna Morninglight.|
 
@@ -148,8 +148,8 @@ A Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftr
 h Dolanaar|ACTIVE|2159|M|55.62,59.79|Z|1438;Teldrassil|N|Set your Hearthstone to Dolanaar.|
 T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 
-C Camping 101: Cooking|ACTIVE|96646|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
-T Camping 101: Cooking|QID|96646|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
+C Camping 101: Cooking|ACTIVE|96634|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
+T Camping 101: Cooking|QID|96634|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|From Zarrin.|P|Cooking;185;0|
 
 
@@ -162,7 +162,7 @@ A Denalan's Earth|QID|997|M|56.08,57.72|Z|1438;Teldrassil|N|From Syral Bladeleaf
 
 r Sell/Repair|ACTIVE|475|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|
 
-A The Lost Runner|QID|99046|M|56.02,59.49|Z|1438; Teldrassil|N|From Sentinel Kyra Stargsong.|
+A The Lost Runner|QID|99046|M|56.02,59.49|Z|1438; Teldrassil|N|From Sentinel Kyra Starsong.|
 
 T Crown of the Earth|QID|928|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|Z|1438;Teldrassil|N|From Corithras Moonrage.|
@@ -274,7 +274,7 @@ T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|1457;Darnassus|N|To Rellian Greensp
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyre.|
 C Eyes of the Sentinels|ACTIVE|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|QO|1|U|279378|
 C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|QO|3|U|279378|
-C Eyes of the Sentinels|ACTIVE|98067|M|35.76,54.21|Z|1438; Teldrassil|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
+C Eyes of the Sentinels|ACTIVE|98067|M|88.50,35.40|Z|1457; Darnassus|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
 T Eyes of the Sentinels|QID|98067|M|39.70,89.25|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
 
 R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
