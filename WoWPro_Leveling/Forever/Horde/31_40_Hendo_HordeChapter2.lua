@@ -110,7 +110,7 @@ T Test of Strength|QID|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Pla
 A Test of Lore|QID|1152|PRE|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
 C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
 C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.81,24.45|Z|1441; Thousand Needles|L|12946|ITEM|12946|N|Enraged Panther.\n[color=FF0000]NOTE: [/color]Make your way to the area where the cage is and once you're there, clear the area of any and all mobs. When you're ready, open the cage and prepare to fight.\n\nThis'll be your last chance to do it.|
-R Whitereach Post|ACTIVE|1153|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
+R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
 
 ; --- The Barrens
 H Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.\n[color=FF0000]NOTE: [/color]If you used it already, you'll have to run back.|
