@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Make your way to the Dark Portal|N| The Portal is in the Blasted Lands, The closest Flight point is at Stonard in Swamp of Sorrows, Then head South following the main roads.
-A Through the Dark Portal|QID|9407^10046|AVAILABLE|28705|LEAD|10120|M|58.06,56.00|Z|1419; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.|
+A Through the Dark Portal|QID|9407^10046|LEAD|10120|M|58.06,56.00|Z|1419; Blasted Lands|N|From Warlord Dar'toon on the Blasted Lands side of the Dark Portal.|
 P The Stair of Destiny|ACTIVE|9407^10046|M|55.05,54.48|Z|1419; Blasted Lands|N|Go through the Dark Portal.|
 T Through the Dark Portal|QID|9407^10046|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|Z|1944; Hellfire Peninsula|N|From Lieutenant General Orion.|
