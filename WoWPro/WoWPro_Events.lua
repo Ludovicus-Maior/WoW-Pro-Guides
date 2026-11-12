@@ -417,9 +417,12 @@ local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 	if not _G.IsInGroup(_G.LE_PARTY_CATEGORY_HOME) then
 		WoWPro.GroupSync = false
+		WoWPro.playerGroup = {}
+		WoWPro.mygroupsteps = {}
+		WoWPro.myGroupTrack = {}
 	end
+	WoWPro:UpdateGuide(event)
 	if successfulRequest then
-		WoWPro:UpdateGuide(event)
 		WoWPro:SendGroupInfo()
 	end
 end)
