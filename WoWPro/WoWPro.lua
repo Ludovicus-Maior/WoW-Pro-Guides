@@ -545,6 +545,7 @@ function WoWPro:OnInitialize()
     end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
+    WoWPro.CheckStickies = WoWProCharDB.CheckStickies or false
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
     WoWPro.GuideUpdated = false
@@ -1241,7 +1242,9 @@ function WoWPro.TestGuideLoad(guidID)
             end
         end
     end
-    WoWPro:ValidateStickyPairs(guidID)
+    if WoWPro.CheckStickies then
+        WoWPro:ValidateStickyPairs(guidID)
+    end
     if WoWPro.Guides[guidID].faction then
         if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end
         if WoWPro.Guides[guidID].faction == "Neutral"  then WoWPro.LoadAll.nCount = WoWPro.LoadAll.nCount + 1 end

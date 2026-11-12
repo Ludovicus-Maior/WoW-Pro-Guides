@@ -1782,7 +1782,7 @@ local function createExpertOptions()
                         name = L["Stay away from the below settings unless you are a developer"],
                     },
                     debugClasses = {
-                        order = 5,
+                        order = 4,
                         type = "toggle",
                         name = L["Debug Classes"],
                         desc = L["Enables/Disables loading of all class guides"],
@@ -1795,7 +1795,25 @@ local function createExpertOptions()
                             end
                             WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                         end,
-                        width = "full",
+                        width = "relative",
+                        relWidth = 0.5,
+                    },
+                    checkStickies = {
+                        order = 5,
+                        type = "toggle",
+                        name = L["Check Stickies"],
+                        desc = L["Enables/Disables checking of S/US tag matches"],
+                        get = function(info) return WoWPro.CheckStickies end,
+                        set = function(info,val)
+                            if WoWPro.CheckStickies then
+                                WoWPro.CheckStickies = false
+                            else
+                                WoWPro.CheckStickies = true
+                            end
+                            WoWProCharDB.CheckStickies = WoWPro.CheckStickies
+                        end,
+                        width = "relative",
+                        relWidth = 0.5,
                     },
                     grail = {
                         order = 6,
