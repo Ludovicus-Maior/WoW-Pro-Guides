@@ -1241,6 +1241,7 @@ function WoWPro.TestGuideLoad(guidID)
             end
         end
     end
+    WoWPro:ValidateStickyPairs(guidID)
     if WoWPro.Guides[guidID].faction then
         if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end
         if WoWPro.Guides[guidID].faction == "Neutral"  then WoWPro.LoadAll.nCount = WoWPro.LoadAll.nCount + 1 end
