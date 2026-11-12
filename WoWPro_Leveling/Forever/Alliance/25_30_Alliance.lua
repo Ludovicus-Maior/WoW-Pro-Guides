@@ -218,7 +218,7 @@ A The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc M
 C The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
 T The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 A The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.73,71.26|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.72,71.24|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 r Sell junk, repair, train etc|AVAILABLE|1243|S|
