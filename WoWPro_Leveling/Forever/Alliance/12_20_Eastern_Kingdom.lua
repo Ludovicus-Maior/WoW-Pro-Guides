@@ -79,7 +79,7 @@ A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|Z|1426;Dun Morogh|N|From Dwarv
 C A Pilot's Revenge|QID|417|M|78.34,37.82|Z|1426;Dun Morogh|L|3183|N|Kill and loot Mangeclaw.|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|1426;Dun Morogh|N|To Pilot Hammerfoot|
 R South Gate Pass|ACTIVE|413|M|79.28,51.84|Z|1426;Dun Morogh|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
-R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|Z|1426;Dun Morogh|CC|N|Continue up the hill and through the tunnel to South Gate Outpost.|
+R South Gate Outpost|ACTIVE|413|M|82.28,53.43;84.33,51.16|Z|1426;Dun Morogh|CC|N|Continue up the hill and through the tunnel to South Gate Outpost.|
 T Shimmer Stout|QID|413|M|86.28,48.82|Z|1426;Dun Morogh|N|To Mountaineer Barleybrew|
 A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|Z|1426;Dun Morogh|N|From Mountaineer Barleybrew|
 
@@ -212,8 +212,6 @@ C Westfall Stew|QID|38|QO|3|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along 
 l Captain Sander's Treasure Map|AVAILABLE|136|L|1357|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for this drop.|
 A Captain Sander's Treasure Map|QID|136|M|54.51,11.10|Z|1436; Westfall|N|Accpet the quest from the treasure map.|U|1357|O|
 
-
-
 L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
 T The Killing Fields|QID|9|M|56.04,31.23|Z|1436; Westfall|N|To Farmer Saldean.|
 T Westfall Stew|QID|38|M|56.41,30.52|Z|1436; Westfall|N|To Salma Saldean.|
@@ -225,14 +223,12 @@ T Patrolling Westfall|QID|102|M|56.42,47.61|Z|1436; Westfall|N|To Captain Danuvi
 T Red Leather Bandanas|QID|153|M|53.98,52.99|Z|1436; Westfall|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
-
 A Show of Force|QID|98407|M|25.58,59.87|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|77.18,60.99|Z|1453; Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|77.18,60.99|Z|1453; Stormwind City|N|From Osric Strang.|PRE|6281|
 ; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
-
 
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|NightElf|C|-Druid|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
@@ -264,25 +260,29 @@ A Return to Verner|QID|119|M|41.71,65.55|Z|1429; Elwynn Forest|N|From Smith Argu
 R Stormwind City|ACTIVE|120|M|74.47,92.90|Z|1453; Stormwind City|N|Return to Stormwind City.|
 T Messenger to Stormwind|QID|120|M|69.20,82.76|Z|1453; Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
 A Messenger to Stormwind|QID|121|M|69.20,82.76|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+
 B Cask of Merlot|ACTIVE|116|M|60.03,76.95|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|25.89,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|N|Kill tarantulas, goretusks for the items required.|S|LVL|17|
-C Redridge Goulash|ACTIVE|92|QO|1;3|N|Kill tarantulas and goretusks for the items required.|S|LVL|-17|IZ|1433|
 C Underbelly Scales|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|LVL|17|
 T A Free Lunch|QID|129|M|10.37,71.26|Z|1433; Redridge Mountains|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. He roams the fork in the road.|PRE|129|
+C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|S|
+C Show of Force|QID|98407|M|11.61,66.31|Z|1433; Redridge Mountains|N|Kill Redridge Thrashers and loot the collars.|
 
 R Lakeridge Highway|ACTIVE|246|M|19.30,76.09|Z|1433; Redridge Mountains|N|Follow the road east.|
-C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|
+C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|Z|1433; Redridge Mountains|US|
 C Redridge Goulash|ACTIVE|92|QO|1;2;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas, goretusks and condors for any remaining items required.|US|LVL|17|
 C Redridge Goulash|ACTIVE|92|QO|1;3|M|28.00,71.00|Z|1433; Redridge Mountains|CS|N|Kill tarantulas and goretusks for any remaining items required.|US|LVL|-17|
 C Underbelly Scales|ACTIVE|122|QO|1|M|28.00,71.00|Z|1433; Redridge Mountains|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|US|LVL|17|
 T Assessing the Threat|QID|246|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+T Show of Force|QID|98407|M|25.58,59.87|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|36.51,54.70|Z|1433; Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|27.01,48.60|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
+
 t Underbelly Scales|QID|122|M|25.91,47.30|Z|1433; Redridge Mountains|N|To Verner Osgood.|
 t Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|US|
 T Visit the Herbalist|QID|130|M|16.76,46.32|Z|1433; Redridge Mountains|N|To Martie Jainrose.|
@@ -294,24 +294,23 @@ B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|1431; Duskwood|L|1942|N|Buy a B
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
 F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|1431; Duskwood|N|Fly to Sentinel Hill.|
 
+T The Defias Brotherhood|QID|132|M|56.29,47.56|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|135|M|56.29,47.56|Z|1436; Westfall|N|From Gryan Stoutmantle.|
+F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-
-F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|Z|1453; Stormwind City|CS|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-
 A Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|59.71,33.82|Z|1453; Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
 
 A Reading Room|QID|97234|M|38.83,62.23|Z|1453; Stormwind City|N|From Roy Lewells.|
 T Reading Room|QID|97234|M|75.05,30.16|Z|1453; Stormwind City|N|To Donyal Tovald.|
 A Shelf Picked|QID|97237|PRE|97234|M|75.05,30.16|Z|1453; Stormwind City|N|From Donyal Tovald.|
-C Shelf Picked|QID|97237|QO|1|M|75.56,30.40|Z|1453; Stormwind City|N|Trollbane Conquests.|NC|
-C Shelf Picked|QID|97237|QO|2|M|76.38,30.39|Z|1453; Stormwind City|N|The Forsaken Ally.|NC|
-C Shelf Picked|QID|97237|QO|3|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accounts of Horde Razings.|NC|
+C Shelf Picked|QID|97237|QO|2|M|75.56,30.40|Z|1453; Stormwind City|N|Trollbane Conquests.|NC|
+C Shelf Picked|QID|97237|QO|3|M|76.38,30.39|Z|1453; Stormwind City|N|The Forsaken Ally.|NC|
+C Shelf Picked|QID|97237|QO|1|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accounts of Horde Razings.|NC|
 C Shelf Picked|QID|97237|QO|4|M|76.16,29.31|Z|1453; Stormwind City|N|Cycles of Morality.|NC|
+T Shelf Picked|QID|97237|M|38.83,62.23|Z|1453; Stormwind City|N|To Roy Lewells.|
+
 
 F Ironforge|AVAILABLE|2039|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
@@ -319,7 +318,7 @@ F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gr
 
 A Ironband's Excavation|QID|436|M|37.24,47.39|Z|1432;Loch Modan|N|From Jern Hornhelm, inside the house, down the stairs.|
 A WANTED: Chok'sul|QID|256|M|37.29,46.50|Z|1432;Loch Modan|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|
-A Mercenaries|QID|255|M|34.69,43.18|Z|1432;Loch Modan|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|
+A Mercenaries|QID|255|M|34.60,44.50|Z|1432; Loch Modan|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|Z|1432;Loch Modan|N|Take the road south out of Thelsamar.|LVL|-18|
 A The Trogg Threat|QID|267|M|23.24,73.67|Z|1432;Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|LVL|-18|
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|1432;Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-18|
