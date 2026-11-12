@@ -65,7 +65,4 @@ DefineZone1(2521, "Zephras Isle", UIMapType.Zone, 0947, nil)
 DefineZone1(2524, "Darkspear Islands!Instance", UIMapType.Orphan, 1414, nil)
 DefineZone1(2548, "Riverglades", UIMapType.Zone, 1415, nil)
 DefineZone1(2652, "Shen'dralas", UIMapType.Zone, 1414, nil)
--- Ruins of Lordaeron, the dungeon new in Forever. The Forever client ships no UiMap for it (as of build 1.60.1.70888),
--- so this is a name-only entry keyed by the instance's MapID (2999). It lets guide steps tagged |Z|Ruins of Lordaeron|
--- validate and count as an instance zone, so the guide isn't auto-hidden inside. Don't put |M| coords on those steps.
 DefineZone1(2999, "Ruins of Lordaeron", UIMapType.Dungeon, 1420, nil)
