@@ -1,3 +1,24 @@
+# Release 2026.11.12.A
+* Quick Patch Release
+## Bug Fixes
+* **Forever** Support
+	* Note: Installing the Ace3 [r1424-alpha](https://www.curseforge.com/wow/addons/ace3/files/9350543) addon is **necessary** till Ace3 does a formal release.
+	* The Ace3 addon is *not* necessary for the other WoW clients.
+	* We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
+* Fix premature S!US visibility
+* Fix use buttons not appearing when items become available
+* Fix stale use-button visibility after bag changes
+* Add 'Intro' and 'Forever' content labels for leveling guides
+* Add autocomplete on train steps using TRAINER_SHOW
+* Fixed stale party progress
+## Guide Updates
+* Note: We have implemented stricter guide checks for all clients, so don't enable Debug Logging or you will be SPAMMED in chat!
+* Forever Leveling
+	* Alliance: Dun Morogh, Elwynn, Teldrassil, Zephras Isle, WestfallPt1, Darkshore, Eastern Kingdom, Deadmines, Alliance (19-25, 25-30, 30-41, 42-50, 50-55, 55-60), Stockades, Maraudon, Blackrock Depths
+	* Horde: Durotar, Tirisfal Glades, Zephras Isle, Silverpine Forest, The Barrens2, HordeChapter2
+* Retail Leveling: The Curse of Ula'tek
+
+
 # Release 2026.11.08.A
 * Quick Patch Release
 ## Bug Fixes
@@ -32,10 +53,10 @@
 ## Guide Updates
 * Forever
 	* Alliance:
-		* Dun Morogh, Elwynn,Zephras_Isle 1-12
+		* Dun Morogh, Elwynn,Zephras Isle 1-12
 		* Level 50-55 guide
 	* Horde:
-		* Durotar, Zephras_Isle, 1-12
+		* Durotar, Zephras Isle, 1-12
 		* The Barrens 15-18
 * TBC Alliance 50-55
 * Vanilla Horde: Durotar 1-12
@@ -384,7 +405,7 @@
 ## Guide Updates
 * Retail Achievements: K'aresh Dragon Riding Glyphs
 * MOP Achievements: Klaxxi
-* MOP Alliance/Horde/Neutral: Hellfire, Westfall, Northern_ Stranglethorn, Blood Elf Intro, Pandaren Intro, KunLai Summit
+* MOP Alliance/Horde/Neutral: Hellfire, Westfall, Northern  Stranglethorn, Blood Elf Intro, Pandaren Intro, KunLai Summit
 * Retail Leveling: 103 guides updated somehow...
 
 
