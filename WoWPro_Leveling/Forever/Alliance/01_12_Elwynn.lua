@@ -232,15 +232,15 @@ T Baited for Success|QID|99131|M|47.54,62.31|Z|1429; Elwynn Forest|N|To Jason Ma
 ; ---------- LEVEL 10 CLASS QUEST ------------
 ; ** Warrior
 A A Warrior's Training|QID|1638|M|41,65.8|Z|1429; Elwynn Forest|N|From Lyria Du Lac, in Goldshire smithing shop.|C|Warrior|LVL|10|
-T A Warrior's Training|QID|1638|M|76.62,53.53|Z|1453; Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
-A Bartleby the Drunk|QID|1639|PRE|1638|M|76.62,53.53|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T A Warrior's Training|QID|1638|M|77.13,53.26|Z|1453; Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
+A Bartleby the Drunk|QID|1639|PRE|1638|M|77.13,53.26|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
 T Bartleby the Drunk|QID|1639|M|76.78,52.76|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
 A Beat Bartleby|QID|1640|PRE|1639|M|76.78,52.76|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
 C Beat Bartleby|QID|1640|M|76.78,52.76|Z|1453; Stormwind City|N|Ask him for his mug and a fight ensues.|C|Warrior|
 T Beat Bartleby|QID|1640|M|76.78,52.76|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
 A Bartleby's Mug|QID|1665|PRE|1640|M|76.78,52.76|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
-T Bartleby's Mug|QID|1665|M|76.62,53.53|Z|1453; Stormwind City|N|To Harry Burlguard.|C|Warrior|
-A Marshal Haggard|QID|1666|PRE|1665|M|76.62,53.53|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T Bartleby's Mug|QID|1665|M|77.13,53.26|Z|1453; Stormwind City|N|To Harry Burlguard.|C|Warrior|
+A Marshal Haggard|QID|1666|PRE|1665|M|77.13,53.26|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
 T Marshal Haggard|QID|1666|M|84,69|ITEM|6985|Z|1429; Elwynn Forest|N|(one of 4 weapons to choose from) If this is an upgrade, its probably worth running out of your way to do this now. if not, right click and sticky it to remember for later, when you are headed to Redridge.|C|Warrior|
 A Dead-tooth Jack|QID|1667|PRE|1666|M|84,69|Z|1429; Elwynn Forest|N|From Marshal Haggard.|C|Warrior|
 C Dead-tooth Jack|QID|1667|M|89.3,78.8|Z|1429; Elwynn Forest|N|Clear the area, until you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|C|Warrior|
