@@ -127,6 +127,10 @@ local function ResolveGuide(guide)
             guide.category = guide.Content
         else
             if WoWPro.FOREVER then
+                guide.xpac = _G.LE_EXPANSION_CLASSIC
+                if guide.category then
+                    return
+                end
                 local _, zoneID = WoWPro:ValidZone(guide.zone)
                 if introZones[zoneID] or guide.isIntro then
                     guide.category = "Intro"

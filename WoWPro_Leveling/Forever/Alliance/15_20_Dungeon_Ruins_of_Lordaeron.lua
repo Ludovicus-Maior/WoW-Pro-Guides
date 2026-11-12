@@ -10,8 +10,9 @@ Permissions beyond the scope of this license may be available at http://github.c
 
 local guide = WoWPro:RegisterGuide('Forever_ARoL', 'Leveling', 'Tirisfal Glades', 'WoWPro Team', 'Alliance', 1)
 WoWPro:GuideLevels(guide, 15, 20)
-WoWPro:GuideName(guide, 'Dungeon: Ruins of Lordaeron')
+WoWPro:GuideName(guide, 'Ruins of Lordaeron')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
+WoWPro:GuideCategory(guide, "Dungeon")
 WoWPro:GuideSteps(guide, function()
 return [[
 
