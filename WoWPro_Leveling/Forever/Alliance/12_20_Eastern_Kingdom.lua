@@ -174,7 +174,7 @@ T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Gold
 T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
 R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
 
-A The Forgotten Heirloom|QID|64|M|56.04,31.24|Z|1436; Westfall|N|From Farmer Furlbrow.|
+A The Forgotten Heirloom|QID|64|M|59.92,19.41|Z|1436; Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew|QID|36|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
 C Poor Old Blanchy|QID|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|
@@ -185,7 +185,7 @@ A Westfall Stew|QID|38|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|PRE|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|
 C Goretusk Liver Pie|QID|22|L|723 8|N|From now on, kill Goretusks.|S|Z|1436; Westfall|
 C Westfall Stew|QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
-C The Killing Fields|QID|9|M|55.00,33.20|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
+C The Killing Fields|QID|9|M|55.00,33.20|QO|1|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|S|
 C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
 C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
 
