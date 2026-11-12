@@ -517,7 +517,8 @@ function WoWPro:OnInitialize()
         WoWProCharDB.Enabled = true
     end
     WoWProDB.global.Log = {}
-    WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or 0
+    WoWProCharDB.DebugLevel = nil -- Deprecated
+    WoWProCharDB.DebugLevel2 = WoWProCharDB.DebugLevel2 or 0
     WoWProDB.global.Deltas = nil
     if WoWProCharDB.AutoHideInsideInstances == nil then
         WoWProCharDB.AutoHideInsideInstances = true
@@ -543,7 +544,7 @@ function WoWPro:OnInitialize()
     if WoWProCharDB.EnableDungeons == nil then
         WoWProCharDB.EnableDungeons = true
     end
-    WoWPro.DebugLevel = WoWProCharDB.DebugLevel
+    WoWPro.DebugLevel = WoWProCharDB.DebugLevel2
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.CheckStickies = WoWProCharDB.CheckStickies or false
     WoWPro.GossipText = nil

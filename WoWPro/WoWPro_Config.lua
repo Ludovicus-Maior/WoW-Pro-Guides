@@ -1232,7 +1232,7 @@ local function createMainConfig()
                                     else
                                         WoWPro.DebugLevel = 1
                                     end
-                                    WoWProCharDB.DebugLevel = WoWPro.DebugLevel
+                                    WoWProCharDB.DebugLevel2 = WoWPro.DebugLevel
                                 end,
                                 width = "full",
                             },
