@@ -12,6 +12,7 @@
 	<Script file="50_55_Alliance.lua"/>
 	<Script file="55_60_Alliance.lua"/>
 	<!--<Script file="14_24_Dungeon_Deadmines.lua"/>-->
+	<Script file="15_20_Dungeon_Ruins_of_Lordaeron.lua"/>
 	<!--<Script file="15_24_Dungeon_Wailing_Caverns.lua"/>-->
 	<!--<Script file="21_30_Dungeon_Blackfathom.lua"/>-->
 	<!--<Script file="22_30_Dungeon_The_Stockade.lua"/>-->
