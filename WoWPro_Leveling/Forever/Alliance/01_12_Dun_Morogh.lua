@@ -107,7 +107,7 @@ A Secure the Mountain|QID|98322|PRE|420|M|46.74,53.87|Z|1426; Dun Morogh|N|From 
 A Beer Basted Boar Ribs|QID|384|PRE|420|M|46.79,52.47|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
 T Supplies to Tannok|QID|2160|M|47.24,52.13|Z|1426; Dun Morogh|N|To Tannok Frosthammer.|
 h Thunderbrew Distillery|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|N|At Innkeeper Belm.|
-C Beer Basted Boar Ribs|QID|384|M|47.32,52.57|Z|1426; Dun Morogh|NC|N|Buy Rhapsody Malt.|B|2894|
+B Beer Basted Boar Ribs|ACTIVE|384|M|47.32,52.57|Z|1426; Dun Morogh|NC|N|Buy Rhapsody Malt from Belm.|L|2894|
 T In Favor of the Light|QID|5626|M|47.34,52.18|N|To Maxan Anvol.|C|Priest|R|Dwarf|
 A Garments of the Light|QID|5625|PRE|5626|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|
 A Tools for Steelgrill|QID|400|PRE|2160&96629|M|46.07,51.70|Z|1426; Dun Morogh|N|From Tharek Blackstone.|
