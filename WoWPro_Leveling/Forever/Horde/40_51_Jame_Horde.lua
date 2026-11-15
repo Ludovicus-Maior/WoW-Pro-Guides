@@ -514,8 +514,8 @@ A Ripple Recovery |QID|649|M|59.5,36.8|Z|Orgrimmar|N|Get this quest from Dran Dr
 T Ripple Recovery |QID|649|M|59.5,36.8|Z|Orgrimmar|N|Turn around and turn this into Malton Droffers standing next to you.|
 A Ripple Recovery |QID|650|PRE|649|M|59.5,36.8|Z|Orgrimmar|N|From Malton Doffers.|
 b Tirisfal Glades|ACTIVE|650|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
-A Lines of Communication|QID|2995|M|73.0,32.9|Z|Undercity|N|From Oran Snakewrithe in/near the Mage Quarter.|
-F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
+A Lines of Communication|QID|2995|M|73.0,32.9|Z|1458; Undercity|N|From Oran Snakewrithe in/near the Mage Quarter.|
+F Tarren Mill|ACTIVE|650|M|63.6,48.6|Z|1458; Undercity|N|At Michael Garrett, Bat Handler.|
 R The Hinterlands|QID|650|Z|1424; Hillsbrad Foothills|M|84,32|N|Ride southeast to the pass which leads to the Hinterlands.|
 T Ripple Recovery |QID|650|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilveradin Sunchaser.|
 A A Sticky Situation|QID|77|PRE|650|M|26.7,48.6|Z|The Hinterlands|N|From Gilveradin Sunchaser.|
@@ -614,8 +614,8 @@ T Dark Vessels|QID|7850|RANK|2|
 ;----------------------------------------------------------------------------
 L Level Check|ACTIVE|2995|LVL|49|N|You should now be level 49|
 F Undercity|ACTIVE|2995|N|Fly to the Undercity|
-T Lines of Communication|QID|2995|M|73.0,32.9|Z|Undercity|N|Head towards the Magic Quarter and turn the quest in to Oran Snakewrithe.|
-T Rin'ji's Secret|QID|2782|M|73.0,32.9|Z|Undercity|
+T Lines of Communication|QID|2995|M|73.0,32.9|Z|1458; Undercity|N|Head towards the Magic Quarter and turn the quest in to Oran Snakewrithe.|
+T Rin'ji's Secret|QID|2782|M|73.0,32.9|Z|1458; Undercity|
 T Oran's Gratitude|QID|8273|N||
 
 ;------002_50_51_Jame_Tanaris.lua--------------
@@ -757,11 +757,11 @@ L Level Check|LVL|51|N|You should be level 51, if not stay and grind here abit.|
 
 ;----002_45_46_Jame_Tanaris.lua---------------
 ;b Tirisfal Glades|QID|232|N|Take the zepplin to the Undercity (the landing is in Tirisfal Glades)|
-;A Errand for Apothecary Zinge |QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge.|M|49.9,68.4|Z|Undercity|
-;T Errand for Apothecary Zinge |QID|232|N|Head up to the inner circle just on the other side of the slime from the Apothecarium and find Alessandro Luca to turn in the quest and get the followup.|M|58.00,55.00|Z|Undercity|
-;A Errand for Apothecary Zinge |QID|238|M|58.6,54.7|Z|Undercity|
-;T Errand for Apothecary Zinge |QID|238|N|Head back to Zinge and turn this in and get the follow up.|M|49.9,68.4|Z|Undercity|
-;A Into the Field|QID|243|M|49.9,68.4|Z|Undercity|
+;A Errand for Apothecary Zinge |QID|232|N|Ride/run to the Apothecarium and get [45] Errand for Apothecary Zinge from Apothecary Zinge.|M|49.9,68.4|Z|1458; Undercity|
+;T Errand for Apothecary Zinge |QID|232|N|Head up to the inner circle just on the other side of the slime from the Apothecarium and find Alessandro Luca to turn in the quest and get the followup.|M|58.00,55.00|Z|1458; Undercity|
+;A Errand for Apothecary Zinge |QID|238|M|58.6,54.7|Z|1458; Undercity|
+;T Errand for Apothecary Zinge |QID|238|N|Head back to Zinge and turn this in and get the follow up.|M|49.9,68.4|Z|1458; Undercity|
+;A Into the Field|QID|243|M|49.9,68.4|Z|1458; Undercity|
 
 
 ]]
