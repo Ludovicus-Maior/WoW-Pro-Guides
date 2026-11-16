@@ -54,11 +54,13 @@ A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stout
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-F Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|1453; Stormwind City|M|71.00,72.50|
+H Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|1453; Stormwind City|M|71.00,72.50|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|1436; Westfall|
+t The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|IZ|Sentinel Tower|
+
 A The People's Militia|QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|1436; Westfall|
 h Sentinel Hill|ACTIVE|142|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|C|Druid|
 

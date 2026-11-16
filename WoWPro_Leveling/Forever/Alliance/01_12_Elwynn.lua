@@ -15,11 +15,11 @@ A Kobold Camp Cleanup|QID|7|PRE|783|M|48.92,41.61|Z|1429; Elwynn Forest|N|From M
 A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 T Eagan Peltskinner|QID|5261|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner around back of the Abbey.|
 A Wolves Across the Border|QID|33|PRE|5261|M|48.94,40.17|Z|1429; Elwynn Forest|N|From Eagan Peltskinner.|
+C Wolves Across the Border|QID|33|M|46.89,39.05|Z|1429; Elwynn Forest|L|750 8|ITEM|750|N|Diseased Young Wolves.|
+r Sell Junk and Repair|ACTIVE|33|M|47.69,41.42|Z|1429; Elwynn Forest|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
+T Wolves Across the Border|QID|33|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner.|
 l Nibbled-On Book|AVAILABLE|91741|M|48.33,36.44|Z|1429; Elwynn Forest|L|247834|N|Looted from Kobold Vermin, Workers, and Laborers.|S!US|
 A Nibbled-On Book|QID|91741|M|48.33,36.44|Z|1429; Elwynn Forest|N|Looted from Kobold Vermin, Workers, and Laborers.|U|247834|
-C Kobold Camp Cleanup|QID|7|M|47.5,36.1|Z|1429; Elwynn Forest|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|S|
-C Wolves Across the Border|QID|33|M|46.89,39.05|Z|1429; Elwynn Forest|L|750 8|ITEM|750|N|Diseased Young Wolves.|
-T Wolves Across the Border|QID|33|M|48.94,40.17|Z|1429; Elwynn Forest|N|To Eagan Peltskinner.|
 C Kobold Camp Cleanup|QID|7|M|47.5,36.1|Z|1429; Elwynn Forest|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|US|
 r Sell Junk and Repair|ACTIVE|7|M|47.69,41.42|Z|1429; Elwynn Forest|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
 A Brotherhood of Thieves|QID|18|PRE|783|M|48.16,42.91|Z|1429; Elwynn Forest|N|From Deputy Willem.|
@@ -60,6 +60,7 @@ C Investigate Echo Ridge|QID|15|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill The K
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|S|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|Z|1429; Elwynn Forest|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|C|Warlock|
 C Brotherhood of Thieves|QID|18|M|54.60,41.90|Z|1429; Elwynn Forest|L|752 12|ITEM|752|N|Defias Thugs.|US|
+H Northshire Valley|ACTIVE|18|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth back to the Abby.|
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
 A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
 A Bounty on Garrick Padfoot|QID|6|PRE|18|M|48.15,42.95|Z|1429; Elwynn Forest|N|From Deputy Willem.|
@@ -81,12 +82,14 @@ T The Stolen Tome|QID|1598|M|49.87,42.65|Z|1429; Elwynn Forest|N|To Drusilla La 
 C Rascally Rodents|QID|91743|M|48.39,35.52|Z|1429; Elwynn Forest|N|Kill Worker, Laborers, and Vermin and loot the books.|
 T Milly Osworth|QID|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth at the back of the Abbey, near the stable.|
 A Milly's Harvest|QID|3904|PRE|3903|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
-C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
 T Rascally Rodents|QID|91743|M|49.51,40.46|Z|1429; Elwynn Forest|N|To Brother Paxton.|
 A Mining Consultant|QID|91745|M|49.51,40.46|Z|1429; Elwynn Forest|N|From Brother Paxton.|
+r Sell Junk and Repair|ACTIVE|91745|M|47.69,41.42|Z|1429; Elwynn Forest|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
 T Mining Consultant|QID|91745|M|47.19,32.23|Z|1429; Elwynn Forest|N|To Kelsey Fargo.|
-A The Big Picture|QID|91752|M|47.19,32.23|Z|1429; Elwynn Forest|N|From Kelsey Fargo.|ELITE|
-C The Big Picture|QID|91752|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfinder Narf and then loot the Sack.|
+A The Big Picture|QID|91752|M|47.19,32.23|Z|1429; Elwynn Forest|N|From Kelsey Fargo.|ELITE|RANK|3|
+C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|S|
+K Shinyfinder Narf|ACTIVE|91752|QO|1|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfinder Narf and then loot the Sack.|T|Shinyfinder Narf|
+C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|S|
 T The Big Picture|QID|91752|M|48.88,41.64|Z|1429; Elwynn Forest|N|To Marshal McBride.|
 A Follow That Kobold!|QID|91758|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 T Skirmish at Echo Ridge|QID|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride.|
@@ -94,10 +97,10 @@ A Report to Goldshire|QID|54|PRE|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|From M
 A The Adventurer|QID|96627|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 C Bounty on Garrick Padfoot|QID|6|M|57.52,48.25|Z|1429; Elwynn Forest|L|182|N|Kill Garrick Padfoot and loot his head.\n[color=FF0000]NOTE: [/color]Focus on killing him before his guard; you can always run away and come back to loot.|T|Garrick Padfoot|
 C Milly's Harvest|QID|3904|M|53.85,48.55|Z|1429; Elwynn Forest|N|Collect Milly's Harvest Buckets from the vineyards.|NC|
-T Milly's Harvest|QID|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth.|
-A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
 T Follow That Kobold!|QID|91758|M|51.23,40.85|Z|1429; Elwynn Forest|N|To Tordrin Sternblade.|
 A Shhh! We're Hunting Kobolds|QID|91772|M|51.23,40.85|Z|1429; Elwynn Forest|N|From Tordrin Sternblade.|
+T Milly's Harvest|QID|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|To Milly Osworth.|
+A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|Z|1429; Elwynn Forest|N|From Milly Osworth.|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|Z|1429; Elwynn Forest|N|To Deputy Willem.|
 T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|Z|1429; Elwynn Forest|N|To Brother Neals, at the very top of the spiral staircase inside the abbey.|
 A Rest and Relaxation|QID|2158|M|45.57,47.75|Z|1429; Elwynn Forest|N|From Falkhaan Isenstrider, in front of the fountain at the entrance to Northshire Valley.|
@@ -248,10 +251,10 @@ T Dead-tooth Jack|QID|1667|M|84,69|Z|1429; Elwynn Forest|N|To Marshal Haggard.|C
 ; ** Warlock
 A Gakin's Summons|QID|1685|LEAD|1688|M|44.4,66.2|Z|1429; Elwynn Forest|N|From Remen Marcot, in the basement of the Inn.|C|Warlock|LVL|10|
 T Gakin's Summons|QID|1685|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
-A Surena Caledon|QID|1688|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+A Surena Caledon|QID|1688|PRE|1685|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|LVL|10|
 C Surena Caledon|QID|1688|M|71,80|Z|1429; Elwynn Forest|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
 T Surena Caledon|QID|1688|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-A The Binding|QID|1689|PRE|1688|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+A The Binding|QID|1689|PRE|1688|M|39.18,85.26|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|LVL|10|
 C The Binding|QID|1689|M|39.18,84.17|Z|1453; Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
 T The Binding|QID|1689|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 ; ** Mage
@@ -274,13 +277,13 @@ T Desperate Prayer|QID|5635|M|49.52,44.60|Z|1453; Stormwind City|N|To High Pries
 A Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
 C Taming the Beast|QID|94792|M|43.49,79.92|Z|1429; Elwynn Forest|N|Tame a Rockhide Boar.|U|266158|C|Hunter|
 T Taming the Beast|QID|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
-A Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+A Taming the Beast|QID|94863|PRE|94792|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
 C Taming the Beast|QID|94863|M|64.00,65.00|Z|1429; Elwynn Forest|N|Tame a Gray Forest Wolf.|U|266253|C|Hunter|
 T Taming the Beast|QID|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
-A Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+A Taming the Beast|QID|94864|PRE|94863|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
 C Taming the Beast|QID|94864|M|46.73,77.41|Z|1429; Elwynn Forest|N|Tame a Young Forest Bear.|U|266254|C|Hunter|
 T Taming the Beast|QID|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|To Josephine Carson.|C|Hunter|
-A Training the Beast|QID|94793|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
+A Training the Beast|QID|94793|PRE|94864|M|41.13,66.26|Z|1429; Elwynn Forest|N|From Josephine Carson.|C|Hunter|
 T Training the Beast|QID|94793|M|41.77,66.41|Z|1429; Elwynn Forest|N|To Isaac Chan.|C|Hunter|
 
 = Level 10 Training|ACTIVE|88|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Warlock|

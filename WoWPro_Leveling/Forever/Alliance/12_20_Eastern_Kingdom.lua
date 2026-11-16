@@ -34,6 +34,7 @@ A Protecting the Herd|QID|314|M|63.08,49.86|Z|1426;Dun Morogh|ELITE|N|[color=FF8
 R Up the hill|QID|314|M|62.27,50.25;62.27,49.00;62.12,47.12|Z|1426;Dun Morogh|CC|N|Vagash is in a cave atop the hill.\n[color=FF0000]NOTE: [/color]Depending on your angle of approach, you may have to wiggle to get the right 'path' up.|
 K Vagash|ACTIVE|314|M|62.22,46.90|Z|1426;Dun Morogh|L|3627|ITEM|3627|N|Vagash|
 T Protecting the Herd|QID|314|M|63.08,49.86|Z|1426;Dun Morogh|N|To Rudra Amberstill.\n[color=FF0000]NOTE: [/color]Go back down the way you came up.|
+A A Visitor to Dun Morogh|QID|96408|M|50.41,49.06|Z|1426; Dun Morogh|N|From Beldin Steelgrill.|
 T A Visitor to Dun Morogh|QID|96408|M|64.85,58.46|Z|1426; Dun Morogh|N|To Earthseer Farseen.|
 A Farsen's Watch|QID|96392|M|64.85,58.46|Z|1426; Dun Morogh|N|From Earthseer Farseen.|
 C Farsen's Watch|QID|96392|M|64.85,58.46|Z|1426; Dun Morogh|N|Talk to Earthseer Farseen.|CHAT
@@ -122,31 +123,31 @@ T Dungar Longdrink|QID|6261|M|71.29,72.23|Z|1453; Stormwind City|N|To Dungar Lon
 A Return to Lewis|QID|6285|PRE|6261|M|71.29,72.23|Z|1453; Stormwind City|N|From Dungar Longdrink.|
 A Humble Beginnings|QID|399|M|57.75,47.86|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
 
-T Tome of Divinity|QID|3681|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
-A The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
-T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
-T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
-A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
-C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|
-T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|
-A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
-T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
-T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|
-A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
+T Tome of Divinity|QID|3681|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1642|PRE|1641^3681|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
 
 T Stormpike's Order|QID|1338|M|64.63,37.26|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 R Elwynn Forest|ACTIVE|59|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
-R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|Z|1429; Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
-C The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|
-T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|N|To Henze Faulk.|C|Paladin|
-A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|1429; Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|
-C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|1429; Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
-R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|
+R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|Z|1429; Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|N|To Henze Faulk.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|1429; Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|1429; Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
 
 C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|
@@ -164,12 +165,13 @@ A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Gua
 T Encroaching Gnolls|QID|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|25.51,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
+F Stormwind|ACTIVE|147^1787|M|25.51,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|C|Paladin|R|Human|
 
-T The Tome of Divinity|QID|1787|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
-A The Tome of Divinity|QID|1788|C|Paladin|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|PRE|1787|
-T The Tome of Divinity|QID|1788|C|Paladin|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|
-R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
+T The Tome of Divinity|QID|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1788|PRE|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1788|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|C|Paladin|R|Human|
+H Goldshire|ACTIVE|109|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth back to Goldshire.|C|-Paladin|R|-Human|
 T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|
 T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
 R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
@@ -221,6 +223,7 @@ A The People's Militia|QID|13|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutm
 A The Defias Brotherhood|QID|65|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 T Patrolling Westfall|QID|102|M|56.42,47.61|Z|1436; Westfall|N|To Captain Danuvin.|
 T Red Leather Bandanas|QID|153|M|53.98,52.99|Z|1436; Westfall|N|To Scout Galiaan.|
+h Westfall|ACTIVE|65|M|52.87,53.68|Z|1436; Westfall|N|Set your hearth at Westfall Inn.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 A Show of Force|QID|98407|M|25.58,59.87|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
@@ -311,7 +314,6 @@ C Shelf Picked|QID|97237|QO|1|M|76.18,30.91|Z|1453; Stormwind City|N|Field Accou
 C Shelf Picked|QID|97237|QO|4|M|76.16,29.31|Z|1453; Stormwind City|N|Cycles of Morality.|NC|
 T Shelf Picked|QID|97237|M|38.83,62.23|Z|1453; Stormwind City|N|To Roy Lewells.|
 
-
 F Ironforge|AVAILABLE|2039|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-1455|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
@@ -324,7 +326,7 @@ A The Trogg Threat|QID|267|M|23.24,73.67|Z|1432;Loch Modan|N|From Captain Ruglef
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|1432;Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-18|
 C The Trogg Threat|QID|267|S|N|Loot the troggs you kill for the items for this quest|
 C In Defense of the King's Lands|QID|224|M|33.00,73.00|Z|1432;Loch Modan|N|Kill Troggs and Scouts until you finish this quest.|
-t The Trogg Threat|QID|267|S|N|To Captain Ruglefuss inside the bunker at Valley of Kings.|
+T The Trogg Threat|QID|267|N|To Captain Ruglefuss inside the bunker at Valley of Kings.|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|1432;Loch Modan|N|From Mountaineer Cobbleflint, outside|
 A In Defense of the King's Lands|QID|237|M|23.53,76.40|Z|1432;Loch Modan|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|PRE|224|
 C In Defense of the King's Lands|QID|237|M|35.50,79.60|Z|1432;Loch Modan|N|Kill Skullthumpers and Seers until you finish the quest.|
@@ -345,12 +347,12 @@ C Crocolisk Hunting|QID|385|QO|1;2|S|N|Kill and loot crocolisks for their skin a
 T Find Bingles|QID|2039|M|63.56,47.92|Z|1432;Loch Modan|N|To Bingles Blastenheimer.|
 A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|Z|1432;Loch Modan|N|From Bingles Blastenheimer.|PRE|2039|
 R Northern Island|ACTIVE|2038|M|56,28|Z|1432;Loch Modan|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|
+C In Defense of the King's Lands|QID|263|N|Kill Bonesnappers and Shaman until you finish the quest.|S|
 C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|Z|1432;Loch Modan|L|7376|N|Clear camp of troggs and Bingles' Blastencapper is here.\n[color=FF0000]NOTE: [/color]Be careful with your pulls. You can easily, and quite quickly, overwhelmed with 2 or 3 of them. Multiple casters is even worse.|
 C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|Z|1432;Loch Modan|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|
 C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|Z|1432;Loch Modan|L|7345|N|Clear camp of troggs and his Screwdriver is here.|
 C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|Z|1432;Loch Modan|L|7343|N|Clear camp of troggs and his Wrench is here.|
-C In Defense of the King's Lands|QID|263|N|Kill Bonesnappers and Shaman until you finish the quest.|
-C The Trogg Threat|QID|267|US|N|Continue with the troggs until you get the items for this quest.|
+C In Defense of the King's Lands|QID|263|N|Kill Bonesnappers and Shaman until you finish the quest.|US|
 C Crocolisk Hunting|QID|385|QO|1;2|M|54.50,39.00|Z|1432;Loch Modan|US|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
 T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|Z|1432;Loch Modan|N|To Bingles Blastenheimer.|
 R The Farstrider Lodge|ACTIVE|385|M|80.78,59.47|Z|1432;Loch Modan|N|Run to the Farstrider Lodge.|
@@ -375,7 +377,7 @@ T A Dark Threat Looms|QID|199|M|46.04,13.62|Z|1432;Loch Modan|N|To Chief Enginee
 A A Dark Threat Looms|QID|161|M|46.04,13.62|Z|1432;Loch Modan|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|O|
 
 R Thelsamar|ACTIVE|298|M|33.82,48.41|Z|1432;Loch Modan|N|Run back to Thelsamar.|
-A Stonegear's Search|QID|467|M|33.82,48.41|Z|1432;Loch Modan|N|From Mountaineer Kadrell.|LVL|20|
+A Stonegear's Search|QID|467|M|33.82,48.41|Z|1432;Loch Modan|N|From Mountaineer Kadrell.|LVL|20|IZ|Thelsamar|
 T Excavation Progress Report|QID|298|M|37.24,47.38|Z|1432;Loch Modan|N|To Jern Hornhelm.|
 A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|Z|1432;Loch Modan|N|From Jern Hornhelm.|
 T Mercenaries|QID|255|M|34.69,43.19|Z|1432;Loch Modan|N|To Magistrate Bluntnose.|
@@ -390,7 +392,6 @@ F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gry
 T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
 
-
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|Z|1432;Loch Modan|N|To Mountaineer Wallbang.|
 A In Defense of the King's Lands|QID|217|M|23.24,73.67|Z|1432;Loch Modan|N|From Captain Ruglefuss.|PRE|263|
@@ -399,7 +400,7 @@ T In Defense of the King's Lands|QID|217|M|23.24,73.67|Z|1432;Loch Modan|N|To Ca
 T Powder to Ironband|QID|302|M|37.24,47.38|Z|1432;Loch Modan|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|Z|1432;Loch Modan|N|From Jern Hornhelm.|
 R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|Z|1432;Loch Modan|
-K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|Z|1432;Loch Modan|CS|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|
+K Ol' Sooty|ACTIVE|271|QO|1|M|40.21,66.95;36.81,61.23|Z|1432;Loch Modan|CS|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|
 C Resupplying the Excavation|QID|273|M|50.77,69.03|Z|1432;Loch Modan|QO|1|N|Find Huldar, Miran, and Saean.|
 T Resupplying the Excavation|QID|273|M|52.20,69.35|Z|1432;Loch Modan|N|To Huldar.|
 A After the Ambush|QID|454|M|52.20,69.35|Z|1432;Loch Modan|N|From Huldar.|PRE|273|
@@ -408,7 +409,12 @@ A Protecting the Shipment|QID|309|M|52.22,69.44|Z|1432;Loch Modan|ELITE|N|[color
 C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|Z|1432;Loch Modan|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|
 T Protecting the Shipment|QID|309|M|65.96,65.62|Z|1432;Loch Modan|N|To Prospector Ironband.|
 A Gathering Idols|QID|297|M|64.89,66.66|Z|1432;Loch Modan|N|From Magmar Fellhew.|
-C Gathering Idols|QID|297|L|2636 8|N|Kill and loot troggs to collect the idols.|
+l Excavation Tools|AVAILABLE|86613|L|278049|M|69.66,62.65|Z|1432; Loch Modan|N|Loot the Pickaxe off the ground against the scaffolding.|
+A Excavation Tools|QID|86613|M|PLAYER|Z|1432; Loch Modan|N|Accept the quest from the Pickaxe off the ground against the scaffolding.|U|278049|
+C Gathering Idols|QID|297|L|2636 8|M|68.19,63.24|Z|1432; Loch Modan|N|Kill and loot troggs to collect the idols.|S|
+C Excavation Tools|QID|86613|M|68.19,63.24|Z|1432; Loch Modan|N|Click the pickaxes on the ground around the zone while collecting the idols.|U|278049|
+C Gathering Idols|QID|297|L|2636 8|M|68.19,63.24|Z|1432; Loch Modan|N|Kill and loot troggs to collect the idols.|US|
+T Excavation Tools|QID|86613|M|65.87,65.72|Z|1432; Loch Modan|N|To Prospector Ironband.|
 T Gathering Idols|QID|297|M|64.90,66.66|Z|1432;Loch Modan|N|To Magmar Fellhew.|
 T Vyrin's Revenge|QID|271|M|83.51,65.44|Z|1432;Loch Modan|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|Z|1432;Loch Modan|N|From Daryl the Youngling.|
