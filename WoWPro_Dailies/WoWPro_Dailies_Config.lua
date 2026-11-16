@@ -48,7 +48,7 @@ local function createBlizzOptions()
         helpheader = {
             order = 5,
             type = "header",
-            name = "WoW-Pro Dailies Help",
+            name = L["WoW-Pro Dailies Help"],
         },
         blank3 = {
             order = 6,

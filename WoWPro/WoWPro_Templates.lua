@@ -184,7 +184,7 @@ function SortableScrollListMixin:SetHeaderInfo(headerInfo)
             header.sort = headerInfo.sorts[headerIndex]
             header.size = headerInfo.size[headerIndex]
 
-            header.text:SetText(header.name)
+            header.text:SetText(_G.WoWPro_Locale[header.name] or header.name)
             header:SetWidth(frameWidth * header.size)
             header.arrow:Hide()
             header:Show()

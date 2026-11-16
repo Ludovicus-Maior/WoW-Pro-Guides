@@ -4,6 +4,8 @@
 --      WoWPro_Profession_Frames.lua      --
 ------------------------------------------
 
+local L = WoWPro_Locale
+
 -- Spells available reminder --
 function WoWPro.Profession.CreateSpellFrame()
     local spellbutton = _G.CreateFrame("Button", nil, WoWPro.MainFrame)
@@ -38,7 +40,7 @@ function WoWPro.Profession.CreateSpellFrame()
     tooltiptext:SetJustifyH("LEFT")
     tooltiptext:SetJustifyV("TOP")
     tooltiptext:SetWidth(200-20)
-    tooltiptext:SetText("You have new abilities available to learn!\n\nClick here to see what they are.\nRight-click to open your spellbook.\n\nMake sure to visit your trainer next time you are in a major city.")
+    tooltiptext:SetText(L["You have new abilities available to learn!\n\nClick here to see what they are.\nRight-click to open your spellbook.\n\nMake sure to visit your trainer next time you are in a major city."])
     tooltip.tooltiptext = tooltiptext
 
     WoWPro.Profession.SpellButton:SetScript("OnEnter", function()
@@ -83,7 +85,7 @@ function WoWPro.Profession.CreateSpellListFrame()
     local button1text = button1:CreateFontString()
     button1text:SetPoint("TOP", button1, "TOP", 0, -7)
     button1text:SetFontObject(_G.GameFontNormalSmall)
-    button1text:SetText("Okay")
+    button1text:SetText(L["Okay"])
     button1text:SetTextColor(1, 1, 1)
     button1:SetScript("OnClick", function(self, button)
         WoWPro.Profession.SpellListDialog:Hide()
@@ -94,7 +96,7 @@ function WoWPro.Profession.CreateSpellListFrame()
         for _,spellname in pairs(WoWPro.Profession.AvailableSpells) do
             listOfSpells = listOfSpells.."   - "..spellname.."\n"
         end
-        WoWPro.Profession.SpellListDialogText:SetText("When you visit your trainer, you'll be able to learn the following abilities:\n\n"
+        WoWPro.Profession.SpellListDialogText:SetText(L["When you visit your trainer, you'll be able to learn the following abilities:\n\n"]
             ..listOfSpells)
         WoWPro.Profession.SpellListDialog:SetHeight(70+WoWPro.Profession.SpellListDialogText:GetHeight())
         WoWPro.Profession.SpellListDialog:Show()
