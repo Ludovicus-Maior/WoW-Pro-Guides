@@ -9,10 +9,8 @@ A Coming of Age|QID|92460|M|42.82,23.38|Z|2521; Zephras Isle|N|From Ailee Farhea
 T Coming of Age|QID|92460|M|42.07,23.49|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 A Harmony in Balance|QID|92461|M|42.07,23.49|Z|2521; Zephras Isle|N|From Rorian the Dayseeker.|
 A Infestation Investigation|QID|92462|PRE|92460|M|43.44,24.79|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
-C Harmony in Balance|QID|92461|N|Kill Juvenile Vuldren.|S|
-C Infestation Investigation|QID|92462|N|Kill Pesky Cirrusfly.|S|
 C Harmony in Balance|QID|92461|M|45.36,28.39|Z|2521; Zephras Isle|N|Juvenile Vuldren slain.|
-C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|US|
+C Infestation Investigation|QID|92462|M|46.31,28.21|Z|2521; Zephras Isle|N|Pesky Cirrusfly slain.|
 T Infestation Investigation|QID|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 A The Cirrusfly Queen|QID|92463|PRE|92462|M|43.43,24.86|Z|2521; Zephras Isle|N|From Elatrell Featherlight.|
 r Repair/Restock|QID|92463|M|42.76,24.48|N|At Uualia Suncrest.|
@@ -37,8 +35,9 @@ C Falling With Style|QID|92474|M|43.33,23.82|Z|2521; Zephras Isle|NC|N|Use [colo
 T Falling With Style|QID|92474|M|42.10,23.51|Z|2521; Zephras Isle|N|To Rorian the Dayseeker.|
 
 T The Way of the Hunter|ACTIVE|92482|M|42.47,23.72|Z|2521; Zephras Isle|N|To Tai'ree Farsight.|C|Hunter|
-T Embracing the Elements|ACTIVE|92484|M|42.78,23.57|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
 T A Student of Nature|ACTIVE|92485|M|41.71,23.37|Z|2521; Zephras Isle|N|To Xyton Silverwind.|C|Druid|
+T Embracing the Elements|ACTIVE|92484|M|42.78,23.57|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
+A Call of Earth|QID|92466|PRE|92484|M|42.76,23.57|Z|2521; Zephras Isle|N|From Windshaper Boro.|C|Shaman|
 
 C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|N|Loot Windstone Clusters.|QO|1|S|
 T Elemental Unrest|QID|92464|M|47.21,21.89|Z|2521; Zephras Isle|N|To Yala Windwatcher.|
@@ -51,8 +50,8 @@ C Agitators|QID|92465|M|47.54,20.16|Z|2521; Zephras Isle|N|Slay the Wind Element
 T Agitators|QID|92465|M|47.26,21.87|Z|2521; Zephras Isle|N|To Yala Windwatcher.|
 A Return to Rorian|QID|92469|PRE|92465|M|47.26,21.87|Z|2521; Zephras Isle|N|From Yala Windwatcher.|
 K The Cirrusfly Queen|ACTIVE|92463|QO|1|M|48.31,27.83|Z|2521; Zephras Isle|N|Cirrusfly Queen slain.|
-C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|US|N|Loot Windstone Clusters.|
-T Harvesting Windstones|QID|93552|M|43.31,23.95|Z|2521; Zephras Isle|N|To Dalia the Collector.|QO|1|US|
+C Harvesting Windstones|QID|93552|M|42.87,22.30|Z|2521; Zephras Isle|NC|N|Loot Windstone Clusters.|QO|1|US|
+T Harvesting Windstones|QID|93552|M|43.31,23.95|Z|2521; Zephras Isle|N|To Dalia the Collector.|
 T The Cirrusfly Queen|QID|92463|M|43.43,24.86|Z|2521; Zephras Isle|N|To Elatrell Featherlight.|
 
 r Repair/Restock|QID|92469|M|42.76,24.48|N|At Uualia Suncrest.|
@@ -64,10 +63,17 @@ A Aetheen of the Gales|QID|92471|M|42.08,23.52|Z|2521; Zephras Isle|N|From Roria
 T Aetheen of the Gales|QID|92471|M|42.73,23.65|Z|2521; Zephras Isle|N|To Aetheen of the Gales.|
 A Foul Matriarch|QID|92470|M|42.73,23.65|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
 
-A Call of Earth|QID|92466|PRE|92471|M|42.76,23.57|Z|2521; Zephras Isle|N|From Windshaper Boro.|C|Shaman|
-
 L Level 4|QID|92470|LVL|4|N|You should be around level 4 by this point, if not, kill a few more things.|
 N Train Skills|QID|92470|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
+
+T Call of Earth|ACTIVE|92466|M|42.81,23.54|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
+A Call of Earth|QID|92467|PRE|92466|M|42.81,23.56|Z|2521; Zephras Isle|N|From Windshaper Boro.|C|Shaman|
+R Rise of Spirits|ACTIVE|92467|M|47.34,25.27|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
+R Rise of Spirits|ACTIVE|92467|M|48.43,25.96|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
+U Call of Earth|ACTIVE|92467|N|Drink the Earth Sapta|U|6635|C|Shaman|
+T Call of Earth|ACTIVE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|To Minor Manifestation of Earth.|C|Shaman|
+A Call of Earth|QID|92468|PRE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|From Minor Manifestation of Earth.|C|Shaman|
+T Call of Earth|ACTIVE|92468|M|42.81,23.57|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
 
 A Aggressive Encroachment|QID|92473|M|42.42,25.08|Z|2521; Zephras Isle|N|From Valreaa Valewind.|
 C Aggressive Encroachment|QID|92473|M|37.30,25.16|Z|2521; Zephras Isle|NC|N|Scrawny Ursera Claw.|QO|1|
@@ -79,15 +85,6 @@ A The Adventurer|QID|96638|PRE|92473&92470|M|42.73,23.70|Z|2521; Zephras Isle|N|
 A The Next Step|QID|92472|PRE|92473&92470|M|42.75,23.66|Z|2521; Zephras Isle|N|From Aetheen of the Gales.|
 
 r Repair/Restock|QID|92470|M|42.76,24.48|N|At Uualia Suncrest.|
-
-T Call of Earth|ACTIVE|92466|M|42.81,23.54|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
-A Call of Earth|QID|92467|PRE|92466|M|42.81,23.56|Z|2521; Zephras Isle|N|From Windshaper Boro.|C|Shaman|
-R Rise of Spirits|ACTIVE|92467|M|47.34,25.27|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
-R Rise of Spirits|ACTIVE|92467|M|48.43,25.96|N|Make your way to the Rise of Spirits.|C|Shaman|CC|
-U Call of Earth|ACTIVE|92467|N|Drink the Earth Sapta|U|6635|C|Shaman|
-T Call of Earth|ACTIVE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|To Minor Manifestation of Earth.|C|Shaman|
-A Call of Earth|QID|92468|PRE|92467|M|49.73,23.93|Z|2521; Zephras Isle|N|From Minor Manifestation of Earth.|C|Shaman|
-T Call of Earth|ACTIVE|92468|M|42.81,23.57|Z|2521; Zephras Isle|N|To Windshaper Boro.|C|Shaman|
 
 A Al'Aketh Thugs|QID|92544|M|38.35,30.19|Z|2521; Zephras Isle|N|From Hanaa Nightwind.|
 C Al'Aketh Thugs|QID|92544|QO|1|M|36.65,31.74|Z|2521; Zephras Isle|N|Al'Aketh Brute slain.|S|
@@ -103,14 +100,12 @@ C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Use the /
 C The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|NC|N|Gain the Boosted Rest buff.|
 T The Great Outdoors|QID|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|To Raan Wildwind.|
 
-L Level 6|QID|92472|LVL|6|N|You should be around level 6 by this point.|
+N Camping 101|AVAILABLE|96646|N|Completing a Camping 101 quest teaches you the recipe for a campsite item, which can provide useful buffs or services around your campfire.\nCheck with Raan Wildwind for a quest matching each profession you've learned. If you haven't learned a profession yet, go learn it first and return to Raan for its quest.\nCooking is the exception: Raan offers a quest to go learn it if you haven't yet.\n[color=FF0000]NOTE: [/color]Manually check this note off when you're ready to continue.|
 
-N Train Skills|QID|92472|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
-N Professions|QID|92472|N|Pick up any additional professions that you want and can afford. NOTE: Manually check this step off to continue.|
-r Repair/Restock|QID|96646|M|44.67,44.52|N|At Indari Sunseam.|
+A Camping 101: Cooking|QID|96646|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
 
 T The Next Step|QID|92472|M|45.66,45.46|Z|2521|N|To Constable Aonda.|
-A Welcome to Shen'dar Village|QID|92514|PRE|97971&92472|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
+A Welcome to Shen'dar Village|QID|92514|PRE|92472|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
 
 C Welcome to Shen'dar Village|ACTIVE|92514|M|43.53,44.80|Z|2521; Zephras Isle|CHAT|N|Speak with Illaya Amberwind.|QO|1|
 A The Windshapers|QID|92595|M|43.53,44.80|Z|2521; Zephras Isle|N|From Illaya Amberwind.|
@@ -121,29 +116,44 @@ A Meddlesome Mages|QID|94411|PRE|92595|M|43.53,44.80|Z|2521; Zephras Isle|N|From
 C Welcome to Shen'dar Village|ACTIVE|92514|M|43.04,43.36|Z|2521; Zephras Isle|CHAT|N|Speak with the Innkeeper.|QO|2|
 h Shen'dar Village|QID|94413|M|43.04,43.36|Z|2521; Zephras Isle|N|At Coriella Calmbreeze.|
 
-A Camping 101: Cooking|QID|96646|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|
-A Camping 101: First Aid|QID|97965|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
+L Level 6|QID|92472|LVL|6|N|You should be around level 6 by this point.|
+
+N Train Skills|QID|92472|N|Train any class skills that you have available and can afford. Be sure you update the skills on your bar if you get new ranks! NOTE: Manually check this step off to continue.|
+N Professions|QID|92472|N|Pick up any additional professions that you want and can afford. NOTE: Manually check this step off to continue.|
+r Repair/Restock|QID|96646|M|44.67,44.52|N|At Indari Sunseam.|
+
 A Camping 101: Fishing|QID|97967|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Shen'dar Village|
-A Camping 101: Herbalism|QID|97968|PRE|96101|M|41.66,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Shen'dar Village|
-A Camping 101: Skinning|QID|97971|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Shen'dar Village|
-A Camping 101: Mining|QID|97970|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
-A Camping 101: Alchemy|QID|97963|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
-A Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
-A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
-A Camping 101: Enchanting|QID|98284|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
-A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
-A Camping 101: Tailoring|QID|97972|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
+A Camping 101: First Aid|QID|97965|PRE|96101|M|41.72,44.85|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|First Aid;129;0|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
+t Camping 101: First Aid|QID|97965|PRE|96101|M|43.07,46.31|Z|2521; Zephras Isle|N|To Naleeia Tattermend.|P|First Aid;129;0+20|SPELL|First Aid; 3273; Flip|IZ|Shen'dar Village|
+A Camping 101: Herbalism|QID|97968|PRE|96101|M|41.66,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Herbalism;182;0|SPELL|Herbalism; 2366; Flip|IZ|Shen'dar Village|
+t Camping 101: Herbalism|QID|97968|M|42.97,43.54|Z|2521; Zephras Isle|N|To Halassa Fernbreeze.|P|Herbalism;182;0+20|SPELL|Herbalism; 2366; Flip|IZ|Shen'dar Village|
+A Camping 101: Skinning|QID|97971|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Skinning;393;0|SPELL|Skinning; 8613; Flip|IZ|Shen'dar Village|
+t Camping 101: Skinning|QID|97971|M|43.28,43.37|Z|2521; Zephras Isle|N|To Mendalass Tattermend.|P|Skinning;393;0+20|SPELL|Skinning; 8613; Flip|IZ|Shen'dar Village|
+A Camping 101: Mining|QID|97970|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Mining;186;0|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
+t Camping 101: Mining|QID|97970|PRE|96101|M|44.76,44.54|Z|2521; Zephras Isle|N|To Messana Crestwind.|P|Mining;186;0+20|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
+A Camping 101: Alchemy|QID|97963|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Alchemy;171;0|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
+t Camping 101: Alchemy|QID|97963|M|43.69,43.43|Z|2521; Zephras Isle|N|To Nyassa Swiftdraught.|P|Alchemy;171;0+20|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
+A Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165;0|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
+t Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.68,44.52|Z|2521; Zephras Isle|N|To Indari Sunseam.|P|Leatherworking;165;0+20|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
+A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164;0|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
+t Camping 101: Blacksmithing|QID|97964|PRE|96101|M|44.88,44.36|Z|2521; Zephras Isle|N|To Aedi Thriceforged.|P|Blacksmithing;164;0+20|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
+A Camping 101: Enchanting|QID|98284|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333;0|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
+t Camping 101: Enchanting|QID|98284|M|43.24,43.17|Z|2521; Zephras Isle|N|To Nasalanna Windsinger.|P|Enchanting;333;0+20|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
+A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202;0|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
+A Camping 101: Tailoring|QID|97972|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197;0|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
+t Camping 101: Tailoring|QID|97972|PRE|96101|M|44.87,44.20|Z|2521; Zephras Isle|N|To Taleen Shimmerthread.|P|Tailoring;197;0+20|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
 ;Alliance has a different QID on Wowhead??
-;A Camping 101: Tailoring|QID|97972|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
+;A Camping 101: Tailoring|QID|97973|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197;0|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
+;t Camping 101: Tailoring|QID|97973|PRE|96101|M|44.87,44.20|Z|2521; Zephras Isle|N|To Taleen Shimmerthread.|P|Tailoring;197;0+20|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
 
 C Camping 101: Cooking|QID|96646|PRE|96101|M|43.8,43.8|Z|2521; Zephras Isle|N|To Zerril Softbreeze.|P|Cooking;185;0|
 T Camping 101: Cooking|QID|96646|PRE|96101|M|43.8,43.8|Z|2521; Zephras Isle|N|To Zerril Softbreeze.|P|Cooking;185;0|
 
-T Welcome to Shen'dar Village|ACTIVE|92514|PRE|97971&92472|M|45.66,45.46|Z|2521|N|To Constable Aonda.|
-A The Criminal Element|QID|92517|PRE|93461|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
+T Welcome to Shen'dar Village|ACTIVE|92514|M|45.66,45.46|Z|2521|N|To Constable Aonda.|
+A The Criminal Element|QID|92517|PRE|92514|M|45.66,45.46|Z|2521|N|From Constable Aonda.|
 
-A Hippogryph Harrassment|QID|92516|PRE|92514|M|44.42,44.93|Z|2521|N|From Teeri Wellwind.|
 A Pilfered Windstones|QID|93319|PRE|92514|M|44.42,44.93|Z|2521|N|From Teeri Wellwind.|
+A Hippogryph Harrassment|QID|92516|PRE|92514|M|44.42,44.93|Z|2521|N|From Teeri Wellwind.|
 A The Problem with Prideclaws|QID|92515|PRE|92514|M|44.67,44.52|Z|2521|N|From Indari Sunseam.|
 A A Little Beauty|QID|93951|PRE|92514|M|44.82,44.23|Z|2521|N|From Taleen Shimmerthread.|
 A Restocking the Larders|QID|92553|PRE|92514|M|43.8,43.8|Z|2521; Zephras Isle|N|From Zerril Softbreeze.|
@@ -156,10 +166,9 @@ C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small
 C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Protectors & Youth slain.|S|QO|1;2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|S|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|10/10 Prideclaw Pelt.|S|QO|1|
-
-C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Protectors & Youth slain.|US|QO|1;2|
 C Hippogryph Harrassment|QID|92516|M|35.43,53.67|Z|2521; Zephras Isle|N|Hippogryph Matriarch slain.|QO|3|
-C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small Eggs & Strider Meat.|S|QO|1;2|
+C Hippogryph Harrassment|QID|92516|M|39.03,54.31|Z|2521; Zephras Isle|N|Hippogryph Protectors & Youth slain.|US|QO|1;2|
+C Restocking the Larders|QID|92553|M|37.26,50.97|Z|2521; Zephras Isle|NC|N|Small Eggs & Strider Meat.|US|QO|1;2|
 C A Little Beauty|QID|93951|M|38.74,53.08|Z|2521; Zephras Isle|NC|N|Hippogryph Down.|US|QO|1|
 C The Problem With Prideclaws|QID|92515|M|40.32,50.30|Z|2521; Zephras Isle|NC|N|10/10 Prideclaw Pelt.|US|QO|1|
 T Restocking the Larders|QID|92553|M|43.84,43.93|Z|2521; Zephras Isle|N|To Zerril Softbreeze.|
@@ -221,35 +230,36 @@ T Stolen Supplies|QID|92551|M|45.23,45.19|Z|2521; Zephras Isle|N|To Danarii Bell
 T Havoc in the Highlands|QID|92550|M|45.66,45.52|Z|2521|N|To Constable Aonda.|
 T A Last Request|QID|93927|M|45.66,45.52|Z|2521|N|To Constable Aonda.|
 
-A To Valanaar|QID|92701|PRE|92550&93927|M|45.66,45.52|Z|2521|N|From Constable Aonda.|
+A To Valanaar|QID|92579|PRE|92550&93927|M|45.66,45.52|Z|2521|N|From Constable Aonda.|
 A Deliver the Signet|QID|93948|PRE|92550&93927|M|45.66,45.52|Z|2521|N|From Constable Aonda.|
 
-N Kill Along the Way|QID|92701|N|Kill a handful of things along the way to push yourself closer to leveling. NOTE: Manually check this step off to continue.|
+N Kill Along the Way|QID|93948|N|Kill a handful of things along the way to push yourself closer to leveling. NOTE: Manually check this step off to continue.|
 
 T Deliver the Signet|QID|93948|M|66.20,76.59|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
-T To Valanaar|QID|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
-A Bugged|QID|93949|PRE|92701|M|66.20,76.59|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
-C Bugged|ACTIVE|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|S|
+T To Valanaar|QID|92579|M|66.20,76.59|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+A Bugged|QID|93949|PRE|92579|M|66.20,76.59|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
+A The Grand Skyseer|QID|92700|PRE|92579|M|66.16,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
 
-A The Grand Skyseer|QID|92700|PRE|92701|M|66.16,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
+C Bugged|QID|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|S|
+
 T The Grand Skyseer|QID|92700|M|59.14,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 T The Grand Skyseer|QID|92700|M|59.14,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 A A Grand Adventure|QID|92708|PRE|92700|M|59.14,79.77|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|
 A The Broken Construct|QID|93735|PRE|92700|M|59.14,79.77|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|
-C A Grand Adventure|ACTIVE|92708|M|59.14,79.77|Z|2521; Zephras Isle|NC|N|Listen to Ayessa.|QO|1|
-T A Grand Adventure|ACTIVE|92708|M|59.14,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+C A Grand Adventure|QID|92708|M|59.14,79.77|Z|2521; Zephras Isle|NC|N|Listen to Ayessa.|QO|1|
+T A Grand Adventure|QID|92708|M|59.14,79.77|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 A Unwelcome Spirits|QID|93736|PRE|92708|M|58.13,78.32|Z|2521; Zephras Isle|N|From Endaria Mistgaze.|
-T The Broken Construct|ACTIVE|93735|M|59.05,73.00|Z|2521; Zephras Isle|N|To Riaani Nightwind.|
+T The Broken Construct|QID|93735|M|59.05,73.00|Z|2521; Zephras Isle|N|To Riaani Nightwind.|
 A The Broken Construct|QID|93737|PRE|93735|M|59.05,73.00|Z|2521; Zephras Isle|N|From Riaani Nightwind.|
-C The Broken Construct|ACTIVE|93737|PRE|93735|M|59.05,73.00|Z|2521; Zephras Isle|N|From Riaani Nightwind.|CHAT|QO|1|
+C The Broken Construct|QID|93737|PRE|93735|M|59.05,73.00|Z|2521; Zephras Isle|N|From Riaani Nightwind.|CHAT|QO|1|
 
-C Bugged|ACTIVE|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|US|
-T Bugged|QID|93949|M|66.20,76.61|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
+A Crab Season|QID|93317|M|60.63,72.66|Z|2521; Zephras Isle|N|From Nyalah Brightfire.|
 
 h Valanaar|QID|92741|M|62.15,72.63|Z|2521; Zephras Isle|N|At Donaal Downbreeze.|
-
 A Blood Tithe|QID|92679|M|62.11,73.37|Z|2521; Zephras Isle|N|From Alvarion Windfield. (Upstairs in the Inn)|
-A Crab Season|QID|93317|M|60.63,72.66|Z|2521; Zephras Isle|N|From Nyalah Brightfire.|
+
+C Bugged|QID|93949|M|62.16,72.86|Z|2521; Zephras Isle|NC|N|Enchanted Skyhopper Exterminated.|QO|1|US|
+T Bugged|QID|93949|M|66.20,76.61|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
 L Level 10|QID|92849|LVL|10|N|You should be around level 10 by this point, if not, kill things to get to Level 10|
 N Train Skills|QID|92679|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
