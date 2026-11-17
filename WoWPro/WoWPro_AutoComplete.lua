@@ -347,7 +347,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
                 if not tonumber(QID) then
                     WoWPro:Error("Bad QID [%s] in Guide %s, step [%s %s]", WoWPro.QID[i], GID, action, WoWPro.step[i])
-                    break
+                    return
                 end
                 QID = tonumber(QID)
 
