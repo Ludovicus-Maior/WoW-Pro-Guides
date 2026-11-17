@@ -624,6 +624,8 @@ R Strahnbrad|ACTIVE|503|M|55.63,19.55;50.62,56.20;55.34,49.20|CC|Z|1416; Alterac
 K Jailor Borhuin|QID|503|QO|1|M|62.69,40.15|Z|1416; Alterac Mountains|N|You'll find him inside the town hall in the far corner.\nEnter the building cautiously and pull the mobs singly as best you can. Wizards will follow the rule of LoS after their first cast. If pulled singly, make sure you get between them and the other mobs. They will back up to maintain range distance, possibly aggroing others.\n[color=FF0000]NOTE: [/color]Do not enter the main room. Pull from the doorway and draw them back to the entrance.|
 T Gol'dir|QID|503|M|60.62,43.87;60.01,43.76|CC|Z|1416; Alterac Mountains|N|Enter the building and work your way upstairs to where Gol'dir is being held.|
 A Blackmoore's Legacy|QID|506|PRE|503|M|60.01,43.76|Z|1416; Alterac Mountains|N|From Gol'dir.|
+T Blackmoore's Legacy|QID|506|M|63.24,20.66|Z|1424; Hillsbrad Foothills|N|To Krusk.|
+A Lord Aliden Perenolde|QID|507|PRE|506|M|63.24,20.66|Z|1424; Hillsbrad Foothills|N|From Krusk.|
 R Dalaran|ACTIVE|557^545|M|48.94,71.34;41.51,81.86;29.72,78.88|CS|Z|1416; Alterac Mountains|N|Make your way northwest to Dalaran. Cutting across the plateaus is the fastest way there.\nMake sure to avoid the Alliance outpost.|
 C Bracers of Binding|QID|557|L|3715 4|ITEM|3715|N|<coords>Elemental Slaves.|S|
 C Dalaran Patrols|QID|545|QO|1;2|N|<coords>Kill 12 Elemental Slaves and 6 Dalaran Summoners.|

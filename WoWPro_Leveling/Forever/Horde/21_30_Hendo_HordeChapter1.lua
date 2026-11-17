@@ -12,7 +12,7 @@ A Boulderslide Ravine|QID|6421|M|47.22,64.05|Z|1442; Stonetalon Mountains|N|From
 h Sun Rock Retreat|ACTIVE|1483|M|47.46,62.13|Z|1442; Stonetalon Mountains|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.\n[color=FF0000]NOTE: [/color]If you're feeling adventurous and impatient, jump of the cliff into the water.|
 R Windshear Crag|ACTIVE|1483|M|53.15,61.61;59.97,71.14|CC|Z|1442; Stonetalon Mountains|N|Follow the road south out of Sun Rock Retreat to Windshear Crag (look for the sign).\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can get in through the graveyard you pass along the way.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|Z|1442; Stonetalon Mountains|N|To Ziz Fizziks inside the hut in the SW alcove beneath the graveyard.|
-A Super Reaper 6000|QID|1093|PRE|1483|M|58.99,62.61|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks.|
+A Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks.|
 C Super Reaper 6000|QID|1093|M|67.25,50.07|Z|1442; Stonetalon Mountains|L|5734|ITEM|5734|N|Venture Co. Operators.\n[color=FF0000]NOTE: [/color]You'll find them around equipment and buildings.|S|
 C Goblin Invaders|QID|1062|QO|1|M|64.94,54.87|Z|1442; Stonetalon Mountains|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
 N Lockpicking|ACTIVE|1062&1093|Z|1442; Stonetalon Mountains|N|You'll find Battered Footlockers scattered around the area that you can open for some goodies and a skill point.\nCheck this step off to continue.|C|Rogue|
