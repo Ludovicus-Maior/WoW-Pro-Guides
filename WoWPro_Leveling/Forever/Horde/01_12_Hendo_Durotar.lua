@@ -21,7 +21,6 @@ A Vile Familiars|QID|1499|PRE|1485|M|42.59,69.00|Z|1411; Durotar|N|From Ruzan.|R
 T Vile Familiars|QID|1499|M|42.85,69.15|Z|1411; Durotar|N|To Zureetha Fargaze.|
 A Burning Blade Medallion|QID|794|PRE|1499|M|42.85,69.15|Z|1411; Durotar|N|From Zureetha Fargaze.|C|Warlock|
 r Sell junk/reload|ACTIVE|788|M|42.59,67.34|Z|1411; Durotar|N|At Duokna to pay for your upcoming training.\n[color=FF0000]NOTE: [/color]Don't go to the vendors inside the Den, just in case you accidentally pay for any repairs; you'll need the extra money.\n\nManually check this step off to continue.|
-
 T Cutting Teeth|QID|788|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 A Sting of the Scorpid|QID|789|PRE|788|M|42.06,68.33|Z|1411; Durotar|N|From Gornek.|
 C Sting of the Scorpid|QID|789|M|41.61,63.61|Z|1411; Durotar|L|4862 10|ITEM|4862|N|Scorpid Workers.|S|
@@ -55,8 +54,7 @@ T Tainted Tablet|QID|98575|M|40.65,68.51|Z|1411; Durotar|N|To Nartok at the very
 ; ---
 A Galgar's Cactus Apple Surprise|QID|4402|PRE|788|M|42.73,67.24|Z|1411; Durotar|N|From Galgar.|
 C Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|Z|1411; Durotar|L|11583 10|N|Collect them from random cactuses around the area.|S|
-A Lazy Peons|QID|5441|M|44.62,68.65|Z|1411; Durotar|N|From Foreman Thazz'ril.|
-C Lazy Peons|QID|5441|M|45.70,59.87|Z|1411; Durotar|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them.\n[color=FF0000]NOTE: [/color]Look for the piles of wood logs around the outer edge.|U|16114|S|NC|
+A Vile Familiars|QID|792|M|42.85,69.15|Z|1411; Durotar|N|From Zureetha Fargaze.|C|-Warlock| ; ** Warlocks should've already done this one - Hendo72
 A Sarkoth|QID|790|M|40.59,62.59|Z|1411; Durotar|N|From Hana'zua laying on the ground at the base of the big tree.|
 C Sarkoth|QID|790|M|40.66,65.73|Z|1411; Durotar|L|4905|ITEM|4905|N|Sarkoth.\n[color=FF0000]NOTE: [/color]He's a level 4 scorpid.|T|Sarkoth|
 T Sarkoth|QID|790|M|40.59,62.59|Z|1411; Durotar|N|To Hana'zua.|
@@ -65,7 +63,7 @@ C Sting of the Scorpid|QID|789|M|41.61,66.18|Z|1411; Durotar|L|4862 10|ITEM|4862
 C Galgar's Cactus Apple Surprise|QID|4402|M|41.61,66.18|Z|1411; Durotar|L|11583 10|N|Collect them from random cactuses around the area.|US|
 C Wayward Weapons|QID|97279|M|41.40,59.25|Z|1411; Durotar|L|277653 6|N|Finish collecting them.|US|
 L Level 4|ACTIVE|4402|M|41.51,63.08|Z|1411; Durotar|N|Grind until your halfway to level 4.\n[color=FF0000]NOTE: [/color]The three quests you're about to turn in will make you level up.|LVL|3;-700|
-T Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|Z|1411; Durotar|N|To Galgar.\n[color=FF0000]NOTE: [/color]If you're in the area above the Den, you can safely drop to the Den's roof below.|
+T Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|Z|1411; Durotar|N|To Galgar.\n[color=FF0000]NOTE: [/color]If you're in the area above the Den, you can safely drop to the Den's roof below.\nYour reward for this quest is to learn a collection profession for free. You'll still need to buy a tool if so needed.|
 r Sell junk/reload|ACTIVE|789^804|M|42.59,67.34|Z|1411; Durotar|N|At Duokna.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Sting of the Scorpid|QID|789|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
 T Sarkoth|QID|804|M|42.06,68.33|Z|1411; Durotar|N|To Gornek.|
@@ -73,10 +71,11 @@ T Wayward Weapons|QID|97279|M|40.60,68.00|Z|1411; Durotar|N|To Kzan Thornslash, 
 = Level 4 Training|AVAILABLE|5441|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
 = Level 4 Demon Training|AVAILABLE|5441|PRE|804|M|PLAYER|CC|N|Pick up your Grimoire of Blood Pact for 1s.\nCome back later if you can't afford it.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|SPELL|Blood Pact;6307|C|Warlock|
 A Call of Earth|QID|1516|M|42.41,69.16|Z|1411; Durotar|N|From Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
-A Vile Familiars|QID|792|M|42.85,69.15|Z|1411; Durotar|N|From Zureetha Fargaze.|C|-Warlock| ; ** Warlocks should've already done this one - Hendo72
-C Call of Earth|QID|1516|Z|1411; Durotar|L|6640 2|ITEM|6640|N|COORDSFelstalkers.\n[color=FF0000]NOTE: [/color]They are inside the cave.|S|
-C Vile Familiars|QID|792|M|45.17,57.12|Z|1411; Durotar|N|Kill the Vile Familiars in front of the cave.|
-C Call of Earth|QID|1516|Z|1411; Durotar|L|6640 2|ITEM|6640|N|COORDSFelstalkers.\n[color=FF0000]NOTE: [/color]They are inside the cave.|US|
+A Lazy Peons|QID|5441|M|44.62,68.65|Z|1411; Durotar|N|From Foreman Thazz'ril.|LVL|3|
+C Lazy Peons|QID|5441|M|45.70,59.87|Z|1411; Durotar|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them.\n[color=FF0000]NOTE: [/color]Look for the piles of wood logs around the outer edge.|T|Lazy Peon|U|16114|S|NC|
+C Call of Earth|QID|1516|M|45.35,55.81|Z|1411; Durotar|L|6640 2|ITEM|6640|N|Felstalkers inside Burning Blade Coven.|S|
+C Vile Familiars|QID|792|M|45.17,57.12|Z|1411; Durotar|N|Kill the Vile Familiars in front of the cave.\n[color=FF0000]NOTE: [/color]If the area is busy, there are more inside the cave.|
+C Call of Earth|QID|1516|M|45.35,55.81|Z|1411; Durotar|L|6640 2|ITEM|6640|N|Felstalkers inside Burning Blade Coven.|US|
 C Lazy Peons|QID|5441|M|41.40,59.25|Z|1411; Durotar|N|Wake the Lazy Peons.\n[color=FF0000]NOTE: [/color]Look for the piles of wood logs around the outer edge.\nIf you're not in a hurry, pick one and do it repeatedly to them (~1 min/cycle).|T|Lazy Peon|U|16114|US|NC|
 T Lazy Peons|QID|5441|M|44.62,68.65|Z|1411; Durotar|N|To Foreman Thazz'ril.|
 
@@ -86,11 +85,11 @@ A Burning Blade Medallion|QID|794|PRE|792|M|42.85,69.15|Z|1411; Durotar|N|From Z
 ; --- Shaman Earth Totem quest
 T Call of Earth|QID|1516|M|42.41,69.16|Z|1411; Durotar|N|To Canaga Earthcaller.|
 A Call of Earth|QID|1517|PRE|1516|M|42.41,69.16|Z|1411; Durotar|N|From Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
-T Call of Earth|QID|1517|M|43.40,69.42;43.08,71.11;41.27,73.68;44.12,76.19|CS|Z|1411; Durotar|N|Walk up the hidden path towards to Spirit Rock and drink the Earth Sapta when you get there.|U|6635|
-A Call of Earth|QID|1518|PRE|1517|M|44.02,76.17|Z|1411; Durotar|N|From Minor Manifestation of Earth.|R|Orc,Troll|C|Shaman|
-T Call of Earth|QID|1518|M|42.41,69.16|Z|1411; Durotar|N|To Canaga Earthcaller.|
+T Call of Earth|QID|1517|M|43.45,69.54;41.25,73.71;44.12,76.19|CS|Z|1411; Durotar|N|To Minor Manifestation of Earth.\n[color=FF0000]NOTE: [/color]Walk up the hidden path towards to Spirit Rock and drink the Earth Sapta when you get there.|U|6635|
+A Call of Earth|QID|1518|PRE|1517|M|44.12,76.19|Z|1411; Durotar|N|From Minor Manifestation of Earth.|R|Orc,Troll|C|Shaman|
+T Call of Earth|QID|1518|M|42.41,69.16|Z|1411; Durotar|N|To Canaga Earthcaller.\n[color=FF0000]NOTE: [/color]You can walk down the side of the mountain instead of retracing your steps.|
 ; ---
-R Burning Blade Coven|ACTIVE|794|QO|1|M|45.31,56.57|Z|1411; Durotar|N|Head back to the cave entrance in the north.|
+R Burning Blade Coven|ACTIVE|794|QO|1|M|45.35,55.81|Z|1411; Durotar|N|Head back to the cave entrance in the north.|
 C Thazz'ril's Pick|QID|6394|M|43.73,53.79|Z|1411; Durotar|L|16332|N|Pick up the Pick leaning against a spire on the far side of the pool.\n[color=FF0000]NOTE: [/color]When the entrance tunnel opens up at the fork, go though the center passage.|
 C Burning Blade Medallion|QID|794|M|42.70,52.91|Z|1411; Durotar|L|4859|ITEM|4859|N|Yarrog Baneshadow.\n[color=FF0000]NOTE: [/color]Head back out to the fork and go through the tunnel on your left as you come out. Continue past the stream and staying to the right at the next fork, continue to the opening at the end of the tunnel.|T|Yarrog Baneshadow|
 T Burning Blade Medallion|QID|794|M|42.85,69.15|Z|1411; Durotar|N|To Zureetha Fargaze.\n[color=FF0000]NOTE: [/color]Use your hearth to skip fighting your way out and the walk back.|U|6948|
@@ -103,57 +102,57 @@ T Thazz'ril's Pick|QID|6394|M|44.62,68.65|Z|1411; Durotar|N|To Foreman Thazz'ril
 R Exit Valley of Trials|ACTIVE|805|PRE|6394|M|50.79,68.42|Z|1411; Durotar|TZ|Sen'jin Village|N|Follow the road east out of Valley of Trials.|IZ|Valley of Trials|
 
 A A Peon's Burden|QID|2161|M|52.06,68.31|Z|1411; Durotar|N|From Ukor, at the sign post.|
-R Sen'jin Village|ACTIVE|805|M|54.30,72.84|Z|1411; Durotar|N|Continue east, taking the south road when you get to the road marker.|
 L Level 6|ACTIVE|805|N|Grind until you're within 1.5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]You'll want to be level 6 before you leave Sen'jin because you won't be back here for a while, and you'll want to do your level 6 training before leaving.|LVL|5;-225|C|Mage|US|
+R Sen'jin Village|ACTIVE|805|M|54.30,72.84|Z|1411; Durotar|N|Continue east, taking the south road when you get to the road marker.|
+A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar Prowltusk if you happen to pass him on the way to Sen'jin Village.|S|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|Z|1411; Durotar|N|To Master Gadrin.|
 A Minshina's Skull|QID|808|M|55.95,74.72|Z|1411; Durotar|N|From Master Gadrin.|
 A Zalazane|QID|826|M|55.95,74.72|Z|1411; Durotar|N|From Master Gadrin.|
 A Report to Orgnil|QID|823|M|55.95,74.72|Z|1411; Durotar|N|From Master Gadrin.|
+= Level 6 Training|AVAILABLE|2161|M|56.31,75.11|Z|1411; Durotar|N|Do your Level 6 training with Un'Thuwa.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
 A A Solvent Spirit|QID|818|M|55.94,74.39|Z|1411; Durotar|N|From Master Vornal.|
 A Forgotten Loa Idols|QID|97225|M|56.00,74.60|Z|1411; Durotar|N|From Master Vornal.|
 A Practical Prey|QID|817|M|55.95,73.93|Z|1411; Durotar|N|From Vel'rin Fang.|
 A Legging It|QID|96821|M|55.80,74.00|Z|1411; Durotar|N|From Vel'rin Fang.|
+= Alchemy|AVAILABLE|97223|M|55.41,73.95|Z|1411; Durotar|N|Learn from Miao'zan in Sen'jin Village.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested.|SPELL|Alchemy;2259|RANK|2|
+= Herbalism|AVAILABLE|97223|M|55.44,75.08|Z|1411; Durotar|N|Learn from Mishiki in Sen'jin Village.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested.|SPELL|Herb Gathering;2366|RANK|2|
 A Bloodtalon Matriarch|QID|97223|M|55.25,75.57|Z|1411; Durotar|N|From Xar'Ti.|
-A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar Prowltusk.\n[color=FF0000]NOTE: [/color]If he's not here by the tree, wait a few minutes for him to return or you can find him just south of your location.|
-= Herbalism|AVAILABLE|786|M|55.44,75.08|Z|1411; Durotar|N|Mishiki, Herbalist, trainer. Sen'jin Village|SPELL|Herb Gathering;2366|RANK|2|
-= Alchemy|AVAILABLE|786|M|55.41,73.95|Z|1411; Durotar|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|SPELL|Alchemy;2259|RANK|3|
-= Level 6 Training|AVAILABLE|2161|M|56.31,75.11|Z|1411; Durotar|N|Do your Level 6 training with Un'Thuwa.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|
-C Legging It|QID|96821|QO|1;2|M|50.22,52.12|Z|1411; Durotar|N|Kill Ridgeshade Lurkers and Creepers on either side of the road.|T|Ridgeshade Lurker|
-R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
+A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|Z|1411; Durotar|N|From Lar Prowltusk.\n[color=FF0000]NOTE: [/color]If he's not here by the tree, wait a few minutes for him to return or you can find him just south of your location.|US|
+= Fishing|AVAILABLE|97904|M|53.25,81.59|Z|1411; Durotar|N|Learn from Lau'Tiki in Darkspear Strand to the southwest of you.|SPELL|Fishing;7620|RANK|2|
+C Legging It|QID|96821|QO|1;2|M|50.22,52.12|Z|1411; Durotar|N|Kill Ridgeshade Lurkers and Creepers on west side of the road.|T|Ridgeshade|
+
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Gathering profession at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Herbalism;182;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Mining at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Mining;186;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 14 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Skinning at skill 20 - you only need this step; manually check off the next one.|LVL|5;-1960|P|Skinning;393;20|
 L Level 6|ACTIVE|823|Z|1411; Durotar|N|Grind the lurkers on your way north until you're within 11 bubbles of level 6.\n[color=FF8800]TODO: [/color]Verify 1 bubble = 140 XP at level 5|LVL|5;-1540|
 
-T The Adventurer|QID|96652|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
-A The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|From Brakk.|
-T The Great Outdoors|QID|96604|M|52.00,47.20|Z|1411; Durotar|N|To Brakk.|
+T The Adventurer|QID|96652|M|52.02,47.31|Z|1411; Durotar|N|To Brakk.|
+A The Great Outdoors|QID|96604|M|52.02,47.31|Z|1411; Durotar|N|From Brakk.|
+C The Great Outdoors|QID|96604|M|52.02,47.31|Z|1411; Durotar|N|Sit by the Basic Campfire for a minute.|T|/target [@player]\n/sit|
+T The Great Outdoors|QID|96604|M|52.02,47.31|Z|1411; Durotar|N|To Brakk.|
+A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
+A Camping 101: Cooking|QID|96655|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|
+A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
+A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
+A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
+A Camping 101: Engineering|QID|97902|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
+A Camping 101: First Aid|QID|97903|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
+A Camping 101: Fishing|QID|97904|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
+A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
+A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
+A Camping 101: Mining|QID|97907|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
+A Camping 101: Skinning|QID|97908|PRE|96604|M|52.02,47.30|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
 
-
-A Camping 101: Blacksmithing|QID|97900|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Blacksmithing;164|SPELL|Blacksmithing; 2018; Flip|IZ|Durotar|
-A Camping 101: Leatherworking|QID|97906|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Durotar|
-A Camping 101: Alchemy|QID|97899|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Alchemy;171|SPELL|Alchemy; 2259; Flip|IZ|Durotar|
-A Camping 101: Herbalism|QID|97905|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Herbalism;182|SPELL|Herbalism; 2366; Flip|IZ|Durotar|
-A Camping 101: Mining|QID|97907|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Mining;186|SPELL|Mining; 2575; Flip|IZ|Durotar|
-A Camping 101: Tailoring|QID|96102|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Durotar|
-A Camping 101: Engineering|QID|97902|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Durotar|
-A Camping 101: Enchanting|QID|97901|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Durotar|
-A Camping 101: Skinning|QID|97908|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Skinning;393|SPELL|Skinning; 8613; Flip|IZ|Durotar|
-A Camping 101: First Aid|QID|97903|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|First Aid;129|SPELL|First Aid; 3273; Flip|IZ|Durotar|
-A Camping 101: Cooking|QID|96655|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|
-A Camping 101: Fishing|QID|97904|PRE|96604|M|52.0,47.2|Z|1411; Durotar|N|From Brakk.|P|Fishing;356|SPELL|Fishing; 7620; Flip|IZ|Durotar|
-
-
-T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
-h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
-
+R Razor Hill|ACTIVE|823|M|52.48,44.42|Z|1411; Durotar|N|Enter Razor Hill.|
 T Report to Orgnil|QID|823|M|52.24,43.15|Z|1411; Durotar|N|To Orgnil Soulscar.| ;320
 A Dark Storms|QID|806|PRE|823|M|52.24,43.15|Z|1411; Durotar|N|From Orgnil Soulscar.|
+h Razor Hill|ACTIVE|2161|M|51.52,41.65|Z|1411; Durotar|N|At Innkeeper Grosk.|
+T A Peon's Burden|QID|2161|M|51.52,41.65|Z|1411; Durotar|N|To Innkeeper Grosk.|
+
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
-T Legging It|QID|96821|M|55.80,74.00|Z|1411; Durotar|N|To Vel'rin Fang.|
 A Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|LVL|6|
 
-A For Honor|QID|96822|M|54.00,42.60|Z|1411; Durotar|N|From Turroc.|
+A For Honor|QID|96822|M|54.00,42.60|Z|1411; Durotar|N|From Turroc inside Razor Hill Barracks.|
 ; -- Training in Razor Hill
 = Level 6 Training|AVAILABLE|815|M|51.98,43.70|Z|1411; Durotar|N|Do your Level 6 training with Kaplak (standing beside Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
 = Level 6 Training|AVAILABLE|815|M|51.85,43.49|Z|1411; Durotar|N|Do your Level 6 training with Thotar (standing below Gar'Thok).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|
@@ -179,6 +178,7 @@ A The Admiral's Orders|QID|830|M|PLAYER|CC|N|Open the Aged Envelope.|U|4881|O|
 C Vanquish the Betrayers|QID|784|QO|1;2|Z|1411; Durotar|N|Finish killing Kul Tiras Sailors & Marines.|US|
 C Carry Your Weight|QID|791|M|56.36,54.22|Z|1411; Durotar|L|4870 8|ITEM|4870|N|Kul Tiras Marines and Sailors in the area.\n[color=FF0000]NOTE: [/color]There's a chance of looting them with other kills, but the Kul Tiras Marines and Sailors have the highest drop rate.|US|
 C For Honor|QID|96822|M|59.60,58.20|Z|1411; Durotar|L|275713 1;275716 1;275717 1|ITEM|275713|N|Finish looting the Raider's weapons.|US|
+T Legging It|QID|96821|M|55.80,74.00|Z|1411; Durotar|N|To Vel'rin Fang in Sen'jin Village.|
 H Razor Hill|ACTIVE|784|M|51.52,41.65|Z|1411; Durotar|N|Use your hearth to return to Razor Hill.|
 T Vanquish the Betrayers|QID|784|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|PRE|784|M|51.95,43.50|Z|1411; Durotar|N|From Gar'Thok.|
@@ -194,7 +194,6 @@ C Encroachment|QID|837|QO|1;2|M|51.03,48.31|Z|1411; Durotar|N|Kill Razormane Qui
 
 R Razormane Grounds|ACTIVE|837|QO|3;4|M|45.58,40.75|Z|1411; Durotar|N|(north side of the road).|
 C Encroachment|QID|837|QO|3;4|M|43.94,40.46|Z|1411; Durotar|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is); Captain Flat Tusk (lv 11 elite) may be in there.|
-
 
 L Level 8|QID|825|M|PLAYER|CC|N|Grind until you're within 3 bubbles of level 8.|LVL|7;-700|C|-Mage|
 L Level 8|QID|825|Z|1411; Durotar|N|Grind until you're within 6 bubbles of level 8.|LVL|7;-1330|C|Mage|
@@ -265,6 +264,7 @@ A Stormy Potential
 L Level 10|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-630|C|-Hunter|S|
 R Razor Hill|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Follow the main road south to Razor Hill.\n[color=FF0000]NOTE: [/color]If you need to grind, cut through Razorwind Canyon on the west side of the road.|C|-Hunter|
 R Razor Hill|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Return to Razor Hill.|C|Hunter| ; ** They are headed to Sen'jin next and can grind on the way there - Hendo72
+L Level 10|ACTIVE|837|M|52.48,44.42|Z|1411; Durotar|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-630|C|-Hunter|US|
 T Encroachment|QID|837|M|51.95,43.50|Z|1411; Durotar|N|To Gar'Thok in Razor Hill.|
 C This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|L|275718 8|ITEM|275718|N|Finish collecting the Prickly Pear Fruits.\n[color=FF8800]TODO: [/color]Do the pears drop for this quest before you accept it at Razor Hill? If not, the pears looted during the quillboar step must be moved or dropped.|US|
 T This Fruit Could Bite Back|QID|96825|M|51.20,42.40|Z|1411; Durotar|N|To Cook Torka.|
@@ -368,7 +368,7 @@ C Path of Defense|QID|1498|Z|1411; Durotar|L|6486|ITEM|6486|N|While you're in Th
 R Dark Storms|ACTIVE|806|M|41.46,25.26|CC|Z|1411; Durotar|N|The path to Fizzle Darkstorm's camp is here.\n[color=FF0000]NOTE: [/color]If you wish to save some fighting, you can walk along the top ledge and drop down when you get there.|
 C Hidden Enemies|QID|5726|M|41.73,25.99|Z|1411; Durotar|L|14544|ITEM|14544|N|Burning Blade Apprentices and Fanatics in Thunder Ridge (or Skull Rock).|IZ|Thunder Ridge^Skull Rock|S|
 C Dark Storms|QID|806|M|42.12,26.62|Z|1411; Durotar|L|4869|ITEM|4869|N|Fizzle Darkstorm (Lv 12).\n[color=FF0000]NOTE: [/color]He pathes between the campfire and the alcove to the east.\Take out the guard circling the perimeter and when Fizzle moves away from the fire, pull the one beside the fire. Depending on how close you need to get, you may need to take out the mobs under the canopies.\nOnce you've cleared what you need to, pull Fizzle when he walks back to the fire.|
-C Path of Defense|QID|1498|Z|1411; Durotar|N|Finish collecting the scales from the Thunder Lizards.|US|
+C Path of Defense|QID|1498|Z|1411; Durotar|L|6486|ITEM|6486|N|Finish collecting the scales from the Thunder Lizards.|US|
 R Exit Thunder Ridge|ACTIVE|806^1498|M|39.18,32.29|Z|1411; Durotar|N|Run back to the entrance of Thunder Ridge.|IZ|Thunder Ridge|
 T Lost But Not Forgotten|QID|816|M|43.11,30.22|Z|1411; Durotar|N|To Misha Tor'kren.|
 T Dark Storms|QID|806|M|52.25,43.16|Z|1411; Durotar|N|To Orgnil Soulscar.|
