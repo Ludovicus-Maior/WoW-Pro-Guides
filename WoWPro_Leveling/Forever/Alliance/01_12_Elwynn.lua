@@ -259,10 +259,10 @@ C The Binding|QID|1689|M|39.18,84.17|Z|1453; Stormwind City|N|Go down the stairs
 T The Binding|QID|1689|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|LVL|10|
-T Speak with Jennea|QID|1860|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
-A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
+T Speak with Jennea|QID|1860|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
+A Mirror Lake|QID|1861|PRE|1860|M|49.54,85.88|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 C Mirror Lake|QID|1861|M|28.6,61.4|Z|1429; Elwynn Forest|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|U|7207|C|Mage|
-T Mirror Lake|QID|1861|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
+T Mirror Lake|QID|1861|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
 ; ** Rogue
 A Seek out SI: 7|QID|2205|M|43.77,65.80|Z|1429; Elwynn Forest|N|From Keryn Sylvius, upstairs in the Goldshire inn.|C|Rogue|LVL|10|
 T Seek out SI: 7|QID|2205|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
