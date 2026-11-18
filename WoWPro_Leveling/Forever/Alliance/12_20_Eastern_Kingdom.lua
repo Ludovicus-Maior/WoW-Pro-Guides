@@ -34,7 +34,6 @@ A Protecting the Herd|QID|314|M|63.08,49.86|Z|1426;Dun Morogh|ELITE|N|[color=FF8
 R Up the hill|QID|314|M|62.27,50.25;62.27,49.00;62.12,47.12|Z|1426;Dun Morogh|CC|N|Vagash is in a cave atop the hill.\n[color=FF0000]NOTE: [/color]Depending on your angle of approach, you may have to wiggle to get the right 'path' up.|
 K Vagash|ACTIVE|314|M|62.22,46.90|Z|1426;Dun Morogh|L|3627|ITEM|3627|N|Vagash|
 T Protecting the Herd|QID|314|M|63.08,49.86|Z|1426;Dun Morogh|N|To Rudra Amberstill.\n[color=FF0000]NOTE: [/color]Go back down the way you came up.|
-A A Visitor to Dun Morogh|QID|96408|M|50.41,49.06|Z|1426; Dun Morogh|N|From Beldin Steelgrill.|
 T A Visitor to Dun Morogh|QID|96408|M|64.85,58.46|Z|1426; Dun Morogh|N|To Earthseer Farseen.|
 A Farsen's Watch|QID|96392|M|64.85,58.46|Z|1426; Dun Morogh|N|From Earthseer Farseen.|
 C Farsen's Watch|QID|96392|M|64.85,58.46|Z|1426; Dun Morogh|N|Talk to Earthseer Farseen.|CHAT
@@ -114,40 +113,16 @@ T Filthy Paws|QID|307|M|24.77,18.39|Z|1432;Loch Modan|N|To Mountaineer Stormpike
 C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z|1432;Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|US|
 T Rat Catching|QID|416|M|34.8,47.1|Z|1432;Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|1432;Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
-F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|1432;Loch Modan|C|Paladin|
-A Tome of Divinity|QID|3681|M|23.11,6.15|Z|1455; Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
-F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|1455; Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
-F Stormwind|ACTIVE|1338|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
+F Stormwind|ACTIVE|1338|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|
 
 T Dungar Longdrink|QID|6261|M|71.29,72.23|Z|1453; Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|71.29,72.23|Z|1453; Stormwind City|N|From Dungar Longdrink.|
 A Humble Beginnings|QID|399|M|57.75,47.86|Z|1453; Stormwind City|N|From Baros Alexston, in Cathedral Square.|
-
-T Tome of Divinity|QID|3681|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1642|PRE|1641^3681|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
-C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
-
 T Stormpike's Order|QID|1338|M|64.63,37.26|Z|1453; Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
-R Elwynn Forest|ACTIVE|59|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
+R Elwynn Forest|ACTIVE|6285|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Run north to the island in the middle of Stone Cairn Lake.|
-R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|Z|1429; Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|R|Human|
-C The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|N|To Henze Faulk.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|1429; Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
-C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|1429; Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
-R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
 
 C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|
@@ -160,61 +135,63 @@ A Elmpaw's Head|QID|91746|M|PLAYER|CC|N|From Elmpaw's Head you just looted.|U|24
 l Elmpaw's Head|AVAILABLE|91746|M|84.73,84.88|Z|1429; Elwynn Forest|L|247862|ITEM|247862|ELITE|T|Elmpaw|
 T Croaky's Head|QID|91740|M|84.70,79.30|Z|1429; Elwynn Forest|N|To Merell Ross in the tower.|
 
-R Redridge Mountains|QID|244|M|3.89,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
+R Redridge Mountains|ACTIVE|6285|M|3.89,71.72|Z|1433; Redridge Mountains|N|Go to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|25.65,60.00|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-F Stormwind|ACTIVE|147^1787|M|25.51,59.40|Z|1433; Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|C|Paladin|R|Human|
+f Lakeshire|ACTIVE|6285|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 
-T The Tome of Divinity|QID|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|C|Paladin|R|Human|
-A The Tome of Divinity|QID|1788|PRE|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|C|Paladin|R|Human|
-T The Tome of Divinity|QID|1788|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
-R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|C|Paladin|R|Human|
-H Goldshire|ACTIVE|109|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth back to Goldshire.|C|-Paladin|R|-Human|
+H Goldshire|ACTIVE|6285|M|42.83,65.64|Z|1429; Elwynn Forest|N|Hearth back to Goldshire.|
 T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|
 T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|
-R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
+R Westfall|ACTIVE|6285|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
 
 A The Forgotten Heirloom|QID|64|M|59.92,19.41|Z|1436; Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew|QID|36|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
-C Poor Old Blanchy|QID|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|
 R Saldean's Farm|AVAILABLE|9|M|56.04,31.23|Z|1436; Westfall|N|Run to Saldean's Farm.|
 A The Killing Fields|QID|9|M|56.04,31.23|Z|1436; Westfall|N|From Farmer Saldean. Note, he is also a vendor.|
 T Westfall Stew|QID|36|M|56.41,30.52|Z|1436; Westfall|N|To Salma Saldean.|
 A Westfall Stew|QID|38|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|PRE|36|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|
-C Goretusk Liver Pie|QID|22|L|723 8|N|From now on, kill Goretusks.|S|Z|1436; Westfall|
-C Westfall Stew|QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
-C The Killing Fields|QID|9|M|55.00,33.20|QO|1|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|S|
-C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
-C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
 
 ;--------------------new content---------------------------
 N Bag space|ACTIVE|22^38|N|There are a number of collection quests in this zone. You will need a minimum of 9 empty spaces to carry everything.|Z|1436; Westfall|
 A Red Leather Bandanas|QID|153|M|53.98,52.99|Z|1436; Westfall|N|From Scout Galiaan.|
-C Red Leather Bandanas|QID|153|M|44.00,25.00|Z|1436; Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S!US|
+A Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+A Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+h Sentinel Hill|ACTIVE|6285|M|52.87,53.68|Z|1436; Westfall|N|Set your hearth at Westfall Inn.|
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The People's Militia|QID|12|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 A Patrolling Westfall|QID|102|M|56.42,47.61|Z|1436; Westfall|N|From Captain Danuvin.|
 T Return to Lewis|QID|6285|M|57.02,47.16|Z|1436; Westfall|N|To Quartermaster Lewis.|
-
+A Harvesting the Harvesters|QID|92909|M|51.55,32.23|Z|1436; Westfall|N|From Ozwin Ironsprocket.|
+C Harvesting the Harvesters|QID|92909|M|55.00,33.20|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|S|
+C The Killing Fields|QID|9|M|55.00,33.20|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|S|
 C The Forgotten Heirloom|QID|64|M|49.00,19.00|Z|1436; Westfall|L|841|N|Loot the watch from the cupboard in the house.|
-C Poor Old Blanchy|QID|151|L|1528 8|N|Loot the rest of the oats for this quest. They may be far from this point in neighboring farms.|US|
+C Poor Old Blanchy|QID|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|
+C The Killing Fields|QID|9|M|55.00,33.20|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|US|
 T Poor Old Blanchy|QID|151|M|59.92,19.41|Z|1436; Westfall|N|To Verna Furlbrow.|
 T The Forgotten Heirloom|QID|64|M|59.92,19.41|Z|1436; Westfall|N|To Farmer Furlbrow.|
-C The Killing Fields|QID|9|M|52.89,21.41;52.69,29.19;47.70,34.92;39.02,47.01|Z|1436; Westfall|CC|QO|1|N|Finish killing the Harvest Watchers. There should be a group of them at each coordinate.|US|
+C Testing the Wells|QID|92742|QO|1|M|56.7,18.8|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Gills.|S|
+C Westfall Stew|QID|38|QO|2|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Eyes.|
+A Captain Sander's Treasure Map|QID|136|M|54.51,11.10|Z|1436; Westfall|N|Accpet the quest from the treasure map.|U|1357|O|
+C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Gills.|US|
 R Patrolling Westfall|ACTIVE|102|M|40.26,31.51|Z|1436; Westfall|CC|N|Make your way to this area.|
 C Patrolling Westfall|QID|102|L|725 8|N|Finish collecting your Gnoll paws.\nStick with the lesser populated camps and the patrolers.|
 R Jangolode Mine|ACTIVE|12|M|43.55,27.13|Z|1436; Westfall|N|Head to the Jangolode Mine entrance.|
+C Red Leather Bandanas|QID|153|M|44.00,25.00|Z|1436; Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S|
 C The People's Militia|QID|12|QO|1;2|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|
-C Goretusk Liver Pie|QID|22|L|723 8|N|Finish collecting your Goretusk Livers.|US|
-C Westfall Stew|QID|38|QO|3|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Eyes.|
-l Captain Sander's Treasure Map|AVAILABLE|136|L|1357|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for this drop.|
-A Captain Sander's Treasure Map|QID|136|M|54.51,11.10|Z|1436; Westfall|N|Accpet the quest from the treasure map.|U|1357|O|
-
-L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
+C Red Leather Bandanas|QID|153|M|44.00,25.00|Z|1436; Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|US|
+C Testing the Wells|QID|92742|QO|2|M|46.2,38.5|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+C Goretusk Liver Pie|QID|22|L|723 8|N|Finish collecting your Goretusk Livers.|
+C Westfall Stew|QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
+C The Killing Fields|QID|9|M|55.00,33.20|QO|1|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|US|
+C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
+C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
+C Harvesting the Harvesters|QID|92909|M|55.00,33.20|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|US|
+T Harvesting the Harvesters|QID|92909|M|51.55,32.23|Z|1436; Westfall|N|To Ozwin Ironsprocket.|
 T The Killing Fields|QID|9|M|56.04,31.23|Z|1436; Westfall|N|To Farmer Saldean.|
 T Westfall Stew|QID|38|M|56.41,30.52|Z|1436; Westfall|N|To Salma Saldean.|
 T Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|1436; Westfall|N|To Salma Saldean.|
@@ -223,7 +200,9 @@ A The People's Militia|QID|13|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutm
 A The Defias Brotherhood|QID|65|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 T Patrolling Westfall|QID|102|M|56.42,47.61|Z|1436; Westfall|N|To Captain Danuvin.|
 T Red Leather Bandanas|QID|153|M|53.98,52.99|Z|1436; Westfall|N|To Scout Galiaan.|
-h Westfall|ACTIVE|65|M|52.87,53.68|Z|1436; Westfall|N|Set your hearth at Westfall Inn.|
+T Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+T Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+A The State of the Mine|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 A Show of Force|QID|98407|M|25.58,59.87|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
