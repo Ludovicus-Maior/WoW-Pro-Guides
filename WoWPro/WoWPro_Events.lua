@@ -356,6 +356,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function(event
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
     local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
         WoWPro.CompleteStep(qidx,"Forced Swap", nil, "PetBattleForcedSwap")
@@ -365,6 +366,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
     local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     local winner = ...
     WoWPro.ProcessFinalRound(winner, qidx)
     end)
@@ -818,6 +820,7 @@ end)
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
     local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
         if WoWProCharDB.AutoSelect == true then
             WoWPro.TakeTaxi(WoWPro.step[qidx])
@@ -835,8 +838,7 @@ WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
 end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
-    local row = WoWPro.rows and WoWPro.rows[WoWPro:GetActiveStickyCount()+1]
-    local qidx = row and row.index
+    local qidx = WoWPro.ActiveStepIndex()
     if not qidx then
         return
     end
