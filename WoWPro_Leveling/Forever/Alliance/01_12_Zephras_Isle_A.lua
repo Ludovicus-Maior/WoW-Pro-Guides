@@ -124,13 +124,13 @@ A Camping 101: Mining|QID|97970|PRE|96101|M|41.69,44.75|Z|2521; Zephras Isle|N|F
 t Camping 101: Mining|QID|97970|PRE|96101|M|44.76,44.54|Z|2521; Zephras Isle|N|To Messana Crestwind.|P|Mining;186;0+20|SPELL|Mining; 2575; Flip|IZ|Shen'dar Village|
 A Camping 101: Alchemy|QID|97963|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Alchemy;171;0|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
 t Camping 101: Alchemy|QID|97963|M|43.69,43.43|Z|2521; Zephras Isle|N|To Nyassa Swiftdraught.|P|Alchemy;171;0+20|SPELL|Alchemy; 2259; Flip|IZ|Shen'dar Village|
-A Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165;0|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
+A Camping 101: Leatherworking|QID|97969|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Leatherworking;165;0|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
 t Camping 101: Leatherworking|QID|97969|PRE|96101|M|44.68,44.52|Z|2521; Zephras Isle|N|To Indari Sunseam.|P|Leatherworking;165;0+20|SPELL|Leatherworking; 2108; Flip|IZ|Shen'dar Village|
 A Camping 101: Blacksmithing|QID|97964|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Blacksmithing;164;0|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
 t Camping 101: Blacksmithing|QID|97964|PRE|96101|M|44.88,44.36|Z|2521; Zephras Isle|N|To Aedi Thriceforged.|P|Blacksmithing;164;0+20|SPELL|Blacksmithing; 2018; Flip|IZ|Shen'dar Village|
-A Camping 101: Enchanting|QID|98284|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333;0|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
+A Camping 101: Enchanting|QID|98284|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Enchanting;333;0|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
 t Camping 101: Enchanting|QID|98284|M|43.24,43.17|Z|2521; Zephras Isle|N|To Nasalanna Windsinger.|P|Enchanting;333;0+20|SPELL|Enchanting; 7411; Flip|IZ|Shen'dar Village|
-A Camping 101: Engineering|QID|98285|PRE|96101|M|44.67,44.52|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Engineering;202;0|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
+A Camping 101: Engineering|QID|98285|PRE|96101|M|54.0,39.0|Z|2521; Zephras Isle|N|From the Strange Hermit.|P|Engineering;202;0|SPELL|Engineering; 4036; Flip|IZ|Shen'dar Village|
 A Camping 101: Tailoring|QID|97973|PRE|96101|M|41.67,44.79|Z|2521; Zephras Isle|N|From Raan Wildwind.|P|Tailoring;197;0|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village|
 t Camping 101: Tailoring|QID|97973|PRE|96101|M|44.87,44.20|Z|2521; Zephras Isle|N|To Taleen Shimmerthread.|P|Tailoring;197;0+20|SPELL|Tailoring; 3908; Flip|IZ|Shen'dar Village
 ;Horde has a different QID on Wowhead??
