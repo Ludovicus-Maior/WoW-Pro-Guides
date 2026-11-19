@@ -367,6 +367,54 @@ t WANTED: "Hogger"|QID|176|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dug
 t The Collector|QID|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 
+= Level 12 Training|ACTIVE|109|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warlock|
+= Level 12 Training|ACTIVE|109|M|43.83,65.91|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Rogue|
+= Level 12 Training|ACTIVE|109|M|43.34,65.74|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Priest|
+= Level 12 Training|ACTIVE|109|M|43.30,66.19|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Mage|
+= Level 12 Training|ACTIVE|109|M|41.09,66.26|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Hunter|
+= Level 12 Training|ACTIVE|109|M|41.03,65.76|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warrior|
+
+A Tome of Divinity|QID|2998|M|41.07,66.05|Z|1429; Elwynn Forest|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+= Level 12 Training|ACTIVE|2998|M|41.07,66.06|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Paladin|
+T Tome of Divinity|QID|2998|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+N Accept the blue ? quest from Duthorian. He gives you a book to start the next quest.|AVAILABLE|1642|
+A The Tome of Divinity|QID|1642|PRE|2998|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
+A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|C|Paladin|R|Human|
+T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|C|Paladin|R|Human|
+R Stone Cairn Lake|ACTIVE|1786|M|74.45,56.74|Z|1429; Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|R|Human|
+C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|S|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|N|To Henze Faulk.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|1429; Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|1429; Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
+C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|US|C|Paladin|R|Human|
+T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|C|Paladin|R|Human|
+K Morgan the Collector|ACTIVE|147|M|70.97,80.49|Z|1429; Elwynn Forest|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|C|Paladin|R|Human|
+l Croaky's Head|AVAILABLE|91740|M|76.48,87.46|Z|1429; Elwynn Forest|L|247826|ITEM|247826|ELITE|T|Croaky|RANK|3|C|Paladin|R|Human|
+A Croaky's Head|QID|91740|M|PLAYER|CC|N|From Croaky's head you just looted.|U|247826|O|C|Paladin|R|Human|
+l Elmpaw's Head|AVAILABLE|91746|M|84.73,84.88|Z|1429; Elwynn Forest|L|247862|ITEM|247862|ELITE|T|Elmpaw|RANK|3|C|Paladin|R|Human|
+A Elmpaw's Head|QID|91746|M|PLAYER|CC|N|From Elmpaw's Head you just looted.|U|247862|O|C|Paladin|R|Human|
+T Croaky's Head|QID|91740|M|84.70,79.30|Z|1429; Elwynn Forest|N|To Merell Ross in the tower.|C|Paladin|R|Human|
+H Goldshire|ACTIVE|91746|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth back to Goldshire.|C|Paladin|R|Human|
+T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|C|Paladin|R|Human|
+T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1788|PRE|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1788|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|C|Paladin|R|Human|
+
 R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
 t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|1436; Westfall|N|To Farmer Furlbrow.|IZ|1436; Westfall|
 R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|1436; Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
