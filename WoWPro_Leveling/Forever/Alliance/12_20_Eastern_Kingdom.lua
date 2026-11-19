@@ -244,7 +244,7 @@ T Messenger to Stormwind|QID|120|M|69.20,82.76|Z|1453; Stormwind City|N|To Gener
 A Messenger to Stormwind|QID|121|M|69.20,82.76|Z|1453; Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 
 B Cask of Merlot|ACTIVE|116|M|60.03,76.95|Z|1453; Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
-F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|
+F Lakeshire|ACTIVE|119|M|71.29,72.23|Z|1453; Stormwind City|N|Fly back to Redridge.|TZ|Redridge Mountains|
 T Return to Verner|QID|119|M|25.89,47.28|Z|1433; Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|25.89,47.28|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
 
@@ -353,7 +353,7 @@ A A Dark Threat Looms|QID|250|M|46.04,13.61|Z|1432;Loch Modan|N|From Chief Engin
 T A Dark Threat Looms|QID|250|M|56.07,13.24|Z|1432;Loch Modan|N|To a Suspicious Barrel. Kill the Dark Iron mobs guarding it.\n[color=FF0000]NOTE: [/color]Make sure you back up when they set off an explosive just before they die... it hurts. Each one will do it.|
 A A Dark Threat Looms|QID|199|M|56.07,13.24|Z|1432;Loch Modan|N|From a Suspicious Barrel.|PRE|250|
 T A Dark Threat Looms|QID|199|M|46.04,13.62|Z|1432;Loch Modan|N|To Chief Engineer Hinderweir VII.|
-A A Dark Threat Looms|QID|161|M|46.04,13.62|Z|1432;Loch Modan|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|O|
+A A Dark Threat Looms|QID|161|M|46.04,13.62|Z|1432;Loch Modan|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|
 
 R Thelsamar|ACTIVE|298|M|33.82,48.41|Z|1432;Loch Modan|N|Run back to Thelsamar.|
 A Stonegear's Search|QID|467|M|33.82,48.41|Z|1432;Loch Modan|N|From Mountaineer Kadrell.|LVL|20|IZ|Thelsamar|

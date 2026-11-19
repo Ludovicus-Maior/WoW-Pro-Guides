@@ -367,12 +367,12 @@ t WANTED: "Hogger"|QID|176|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dug
 t The Collector|QID|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
 
-= Level 12 Training|ACTIVE|109|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Warlock|
-= Level 12 Training|ACTIVE|109|M|43.83,65.91|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Rogue|
-= Level 12 Training|ACTIVE|109|M|43.34,65.74|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Priest|
-= Level 12 Training|ACTIVE|109|M|43.30,66.19|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Mage|
-= Level 12 Training|ACTIVE|109|M|41.09,66.26|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Hunter|
-= Level 12 Training|ACTIVE|109|M|41.03,65.76|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Warrior|
+= Level 12 Training|ACTIVE|109|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warlock|
+= Level 12 Training|ACTIVE|109|M|43.83,65.91|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Rogue|
+= Level 12 Training|ACTIVE|109|M|43.34,65.74|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Priest|
+= Level 12 Training|ACTIVE|109|M|43.30,66.19|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Mage|
+= Level 12 Training|ACTIVE|109|M|41.09,66.26|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Hunter|
+= Level 12 Training|ACTIVE|109|M|41.03,65.76|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warrior|
 
 A Tome of Divinity|QID|2998|M|41.07,66.05|Z|1429; Elwynn Forest|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
 = Level 12 Training|ACTIVE|2998|M|41.07,66.06|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Paladin|
