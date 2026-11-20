@@ -32,10 +32,10 @@ C Bloodied Insignia|QID|95195|Z|Ruins of Lordaeron|O|N|Finish collecting 10 Bloo
 
 ; --- Turn-ins
 H Stormwind City|ACTIVE|92415|N|Hearth or travel back to Stormwind.|
-T Bloodied Insignia|QID|95195|M|64.01,75.38|Z|1453; Stormwind City|O|N|To General Marcus Jonathan, by the SI:7 building in Old Town.|
-T Crest of Lordaeron|QID|95189|M|63.8,6.4|Z|1453; Stormwind City|O|N|To Lady Dena Kennedy.|
-T Remember That I Love You|QID|92415|M|47.2,38.4|Z|1453; Stormwind City|N|To Orphan Matron Nightingale, by the Cathedral Square orphanage.|
-A Remember That I Love You|QID|95161|PRE|92415|M|47.2,38.4|Z|1453; Stormwind City|N|From Orphan Matron Nightingale.|
+T Bloodied Insignia|QID|95195|M|69.17,82.72|Z|1453; Stormwind City|O|N|To General Marcus Jonathan, by the SI:7 building in Old Town.|
+T Crest of Lordaeron|QID|95189|M|69.04,29.39|Z|1453; Stormwind City|O|N|To Lady Dena Kennedy.|
+T Remember That I Love You|QID|92415|M|56.31,53.99|Z|1453; Stormwind City|N|To Orphan Matron Nightingale, by the Cathedral Square orphanage.|
+A Remember That I Love You|QID|95161|PRE|92415|M|56.31,53.99|Z|1453; Stormwind City|N|From Orphan Matron Nightingale.|
 T Remember That I Love You|QID|95161|M|73.1,44.6|Z|1431; Duskwood|N|To Avette Fellwood, at her farm in eastern Duskwood. Reward: Tarnished Locket.|
 
 ]]

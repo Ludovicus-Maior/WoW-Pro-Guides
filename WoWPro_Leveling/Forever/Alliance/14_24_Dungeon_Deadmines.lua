@@ -13,6 +13,19 @@ A Collecting Memories|QID|168|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder
 A Oh Brother. . .|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle.|
 A Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent.|
 
+A Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+A Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+C Testing the Wells|QID|92742|QO|1|M|56.7,18.8|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Gills.|
+C Testing the Wells|QID|92742|QO|2|M|46.2,38.5|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+T Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+T Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+
+
+
+
+
+
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 T The Defias Brotherhood|QID|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
 A The Defias Brotherhood|QID|132|PRE|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|From Wiley the Black.|

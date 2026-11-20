@@ -89,7 +89,7 @@ T Mining Consultant|QID|91745|M|47.19,32.23|Z|1429; Elwynn Forest|N|To Kelsey Fa
 A The Big Picture|QID|91752|M|47.19,32.23|Z|1429; Elwynn Forest|N|From Kelsey Fargo.|ELITE|RANK|3|
 C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|S|
 K Shinyfinder Narf|ACTIVE|91752|QO|1|M|49.17,27.97|Z|1429; Elwynn Forest|N|Kill Shinyfinder Narf and then loot the Sack.|T|Shinyfinder Narf|
-C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|S|
+C Skirmish at Echo Ridge|QID|21|M|48.41,29.31|Z|1429; Elwynn Forest|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|US|
 T The Big Picture|QID|91752|M|48.88,41.64|Z|1429; Elwynn Forest|N|To Marshal McBride.|
 A Follow That Kobold!|QID|91758|M|48.88,41.64|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 T Skirmish at Echo Ridge|QID|21|M|48.92,41.61|Z|1429; Elwynn Forest|N|To Marshal McBride.|
@@ -259,10 +259,10 @@ C The Binding|QID|1689|M|39.18,84.17|Z|1453; Stormwind City|N|Go down the stairs
 T The Binding|QID|1689|M|39.18,85.26|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 ; ** Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|Z|1429; Elwynn Forest|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|LVL|10|
-T Speak with Jennea|QID|1860|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
-A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
+T Speak with Jennea|QID|1860|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
+A Mirror Lake|QID|1861|PRE|1860|M|49.54,85.88|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 C Mirror Lake|QID|1861|M|28.6,61.4|Z|1429; Elwynn Forest|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|U|7207|C|Mage|
-T Mirror Lake|QID|1861|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
+T Mirror Lake|QID|1861|M|49.54,85.88|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
 ; ** Rogue
 A Seek out SI: 7|QID|2205|M|43.77,65.80|Z|1429; Elwynn Forest|N|From Keryn Sylvius, upstairs in the Goldshire inn.|C|Rogue|LVL|10|
 T Seek out SI: 7|QID|2205|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
@@ -366,6 +366,54 @@ R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429; Elwynn Forest|N|Follow the road
 t WANTED: "Hogger"|QID|176|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 t The Collector|QID|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|To Marshall Dughan.|IZ|Goldshire|
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429; Elwynn Forest|N|From Marshall Dughan.|
+
+= Level 12 Training|ACTIVE|109|M|44.42,66.18|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warlock|
+= Level 12 Training|ACTIVE|109|M|43.83,65.91|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Rogue|
+= Level 12 Training|ACTIVE|109|M|43.34,65.74|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Priest|
+= Level 12 Training|ACTIVE|109|M|43.30,66.19|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Mage|
+= Level 12 Training|ACTIVE|109|M|41.09,66.26|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Hunter|
+= Level 12 Training|ACTIVE|109|M|41.03,65.76|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|C|Warrior|
+
+A Tome of Divinity|QID|2998|M|41.07,66.05|Z|1429; Elwynn Forest|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+= Level 12 Training|ACTIVE|2998|M|41.07,66.06|Z|1429; Elwynn Forest|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Paladin|
+T Tome of Divinity|QID|2998|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
+N Accept the blue ? quest from Duthorian. He gives you a book to start the next quest.|AVAILABLE|1642|
+A The Tome of Divinity|QID|1642|PRE|2998|M|50.47,47.48|Z|1453; Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1642|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1643|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1643|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1644|M|63.84,72.20|Z|1453; Stormwind City|N|To Stephanie Turner.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1780|M|63.84,72.20|Z|1453; Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1780|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1781|M|50.47,47.48|Z|1453; Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1781|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, up at the altar.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1786|M|49.53,44.99|Z|1453; Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|R|Human|
+A Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|C|Paladin|R|Human|
+T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|1429; Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|C|Paladin|R|Human|
+R Stone Cairn Lake|ACTIVE|1786|M|74.45,56.74|Z|1429; Elwynn Forest|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|R|Human|
+C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|S|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|1429; Elwynn Forest|N|To Henze Faulk.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|1429; Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
+C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|1429; Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|1429; Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
+C Bounty on Murlocs|QID|46|M|77.29,58.83|Z|1429; Elwynn Forest|L|780 8|N|Kill murlocs until you collect the torn fins needed.|US|C|Paladin|R|Human|
+T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|1429; Elwynn Forest|N|To Guard Thomas.|C|Paladin|R|Human|
+K Morgan the Collector|ACTIVE|147|M|70.97,80.49|Z|1429; Elwynn Forest|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|C|Paladin|R|Human|
+l Croaky's Head|AVAILABLE|91740|M|76.48,87.46|Z|1429; Elwynn Forest|L|247826|ITEM|247826|ELITE|T|Croaky|RANK|3|C|Paladin|R|Human|
+A Croaky's Head|QID|91740|M|PLAYER|CC|N|From Croaky's head you just looted.|U|247826|O|C|Paladin|R|Human|
+l Elmpaw's Head|AVAILABLE|91746|M|84.73,84.88|Z|1429; Elwynn Forest|L|247862|ITEM|247862|ELITE|T|Elmpaw|RANK|3|C|Paladin|R|Human|
+A Elmpaw's Head|QID|91746|M|PLAYER|CC|N|From Elmpaw's Head you just looted.|U|247862|O|C|Paladin|R|Human|
+T Croaky's Head|QID|91740|M|84.70,79.30|Z|1429; Elwynn Forest|N|To Merell Ross in the tower.|C|Paladin|R|Human|
+H Goldshire|ACTIVE|91746|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth back to Goldshire.|C|Paladin|R|Human|
+T Manhunt|QID|147|M|42.1,65.9|Z|1429; Elwynn Forest|N|To Marshall Dughan in Goldshire.|C|Paladin|R|Human|
+T Elmpaw's Head|QID|91746|M|46.29,62.26|Z|1429; Elwynn Forest|N|To Helene Peltskinner.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm, back in Stormwind.|C|Paladin|R|Human|
+A The Tome of Divinity|QID|1788|PRE|1787|M|49.53,44.99|Z|1453; Stormwind City|N|To Gazin Tenorm.|C|Paladin|R|Human|
+T The Tome of Divinity|QID|1788|M|50.47,47.48|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
+R Elwynn Forest|ACTIVE|147|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|C|Paladin|R|Human|
 
 R Westfall|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
 t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|1436; Westfall|N|To Farmer Furlbrow.|IZ|1436; Westfall|
