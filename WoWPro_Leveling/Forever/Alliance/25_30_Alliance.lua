@@ -58,7 +58,6 @@ N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I 
 ; Redridge 26-27
 F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|1437; Wetlands|
 B Bronze Tube|QID|174|M|60.83,71.40|Z|1453; Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
-B Stormwind Seasoning Herbs|QID|90|M|66.15,64.32;69.31,71.33|CS|Z|1453; Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|78.36,53.03|Z|1453; Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
 t Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
 t A Scroll from Mauren|QID|1075|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
