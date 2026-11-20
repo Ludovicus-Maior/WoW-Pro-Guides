@@ -549,7 +549,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         return
     end
 
-    local npcQuests = WoWPro.GossipInfo_GetActiveQuests()
+    local npcQuests = _G.C_GossipInfo.GetActiveQuests()
     local npcCount = #npcQuests
 
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
