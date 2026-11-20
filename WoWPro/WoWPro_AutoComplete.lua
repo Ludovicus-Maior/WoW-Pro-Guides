@@ -347,7 +347,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
                 local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
                 if not tonumber(QID) then
                     WoWPro:Error("Bad QID [%s] in Guide %s, step [%s %s]", WoWPro.QID[i], GID, action, WoWPro.step[i])
-                    return
+                    break
                 end
                 QID = tonumber(QID)
 
@@ -533,7 +533,8 @@ end
 function WoWPro.AutoCompleteCriteria()
     if not WoWProDB.char.currentguide then return end
 
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
            WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest", nil, "AutoCompleteCriteria")
     else
@@ -547,7 +548,8 @@ function WoWPro.AutoCompleteChest()
 
     local zone = WoWPro.GetZoneText()
     if zone == "Timeless Isle" then
-        local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+        local qidx = WoWPro.ActiveStepIndex()
+        if not qidx then return end
         if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
                 WoWPro.CompleteStep(qidx,"AutoCompleteChest", nil, "AutoCompleteChest")
         end
