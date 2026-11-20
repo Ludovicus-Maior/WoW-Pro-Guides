@@ -179,8 +179,8 @@ function WoWPro.EventHandler(_frame, event, ...)
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
     if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
-        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
+        local numAvailableQuests = _G.C_GossipInfo.GetNumAvailableQuests()
+        local numActiveQuests = _G.C_GossipInfo.GetNumActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 
@@ -538,7 +538,7 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
 end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
-    WoWPro.GossipText = WoWPro.GossipInfo_GetText():upper()
+    WoWPro.GossipText = _G.C_GossipInfo.GetText():upper()
     WoWPro:print("GetGossipText: %s", WoWPro.GossipText)
 
     local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
@@ -567,7 +567,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         WoWPro.QuestCount = 0
     end
 
-    npcQuests = WoWPro.GossipInfo_GetAvailableQuests()
+    npcQuests = _G.C_GossipInfo.GetAvailableQuests()
     npcCount = #npcQuests
 
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
