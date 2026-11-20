@@ -10,7 +10,7 @@ WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A The Balance of Nature|QID|456|M|58.69,44.27|Z|1438;Teldrassil|N|From Conservator Ilthalaine in front of you.|
-K The Balance of Nature|ACTIVE|456|QO|1;2|N|Kill Young Nightsabers and Young Thistle Boars.|
+C The Balance of Nature|QID|456|M|58.87,44.68|Z|1438; Teldrassil|N|Kill Young Nightsabers and Young Thistle Boars.|
 T The Balance of Nature|QID|456|M|58.69,44.27|Z|1438;Teldrassil|N|To Conservator Ilthalaine.|
 
 A Simple Sigil|QID|3116|PRE|456|M|58.69,44.27|Z|1438;Teldrassil|N|From Conservator Ilthalaine.|C|Warrior|
@@ -44,16 +44,16 @@ T The Woodland Protector|QID|458|M|57.73,45.23|Z|1438;Teldrassil|N|To Tarindrell
 A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|Z|1438;Teldrassil|N|From Tarindrella.|
 A Nature's Call|QID|97977|M|57.73,45.23|Z|1438;Teldrassil|N|From Tarindrella.|
 
-C Nature's Call|ACTIVE|97977|M|55.91,45.79|Z|1438;Teldrassil|N|Loot Gnarlpine Totem's off the ground.|S|
-C The Woodland Protector|ACTIVE|459|M|55.91,45.79|Z|1438;Teldrassil|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|T|Grell|
-C Nature's Call|ACTIVE|97977|M|55.91,45.79|Z|1438;Teldrassil|N|Loot Gnarlpine Totem's off the ground.|US|
+C Nature's Call|QID|97977|M|55.91,45.79|Z|1438;Teldrassil|N|Loot Gnarlpine Totem's off the ground.|S|
+C The Woodland Protector|QID|459|M|55.91,45.79|Z|1438;Teldrassil|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|T|Grell|
+C Nature's Call|QID|97977|M|55.91,45.79|Z|1438;Teldrassil|N|Loot Gnarlpine Totem's off the ground.|US|
 
 L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-500|
 
 T The Woodland Protector|QID|459|M|57.73,45.23|Z|1438;Teldrassil|N|To Tarindrella.|
 T Nature's Call|QID|97977|M|57.73,45.23|Z|1438;Teldrassil|N|To Tarindrella.|
 A Webwood Venom|QID|916|M|57.81,41.65|Z|1438;Teldrassil|N|From Gilshalan Windwalker.|LVL|3|
-C Webwood Venom|ACTIVE|916|M|56.80,29.20|Z|1438;Teldrassil|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen.|S|QO|1|
+C Webwood Venom|QID|916|M|56.80,29.20|Z|1438;Teldrassil|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen.|S|QO|1|
 T A Good Friend|QID|4495|M|54.60,32.99|Z|1438;Teldrassil|N|To Iverron, in the alcove before the cave entrance.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|Z|1438;Teldrassil|N|From Iverron.|
 
@@ -63,12 +63,12 @@ r Sell/Repair|AVAILABLE|3521|M|59.31,41.09|Z|1438;Teldrassil|N|Clear some bag sp
 
 T A Friend in Need|QID|3519|M|60.90,41.97|Z|1438;Teldrassil|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|Z|1438;Teldrassil|N|From Dirania Silvershine.|
-C Hyacinth Mushrooms|ACTIVE|3521|M|55.43,39.30|Z|1438;Teldrassil|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|S|QO|1|
-C Moonpetal Lily|ACTIVE|3521|M|57.69,37.59|Z|1438;Teldrassil|L|10641 4|N|You'll find plenty at the lake behind Aldrassil.|QO|2|
-C Webwood Ichor|ACTIVE|3521|M|56.80,31.60|Z|1438;Teldrassil|L|10640|ITEM|10640|N|Webwood Spiders found in the northwest corner of Shadowglen.|QO|3|
-C Webwood Venom|ACTIVE|916|M|56.80,29.20|Z|1438;Teldrassil|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen and inside the Shadowthread Cave.|US|QO|1|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|Z|1438;Teldrassil|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|S|QO|1|
+C Moonpetal Lily|QID|3521|M|57.69,37.59|Z|1438;Teldrassil|L|10641 4|N|You'll find plenty at the lake behind Aldrassil.|QO|2|
+C Webwood Ichor|QID|3521|M|56.80,31.60|Z|1438;Teldrassil|L|10640|ITEM|10640|N|Webwood Spiders found in the northwest corner of Shadowglen.|QO|3|
+C Webwood Venom|QID|916|M|56.80,29.20|Z|1438;Teldrassil|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen and inside the Shadowthread Cave.|US|QO|1|
 K The Balance of Nature|ACTIVE|457|QO|1;2|M|61.08,34.71|Z|1438;Teldrassil|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|US|
-C Hyacinth Mushrooms|ACTIVE|3521|M|55.43,39.30|Z|1438;Teldrassil|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|US|QO|1|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|Z|1438;Teldrassil|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|US|QO|1|
 
 L Level 4|ACTIVE|916|N|Grind until you're at least halfway level 4.|LVL|3;-680|
 
@@ -91,10 +91,10 @@ A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|Z|1438;Teldrassil|N|[color=
 T Iverron's Antidote|QID|3522|M|54.60,32.99|Z|1438;Teldrassil|N|To Iverron.\n[color=FF0000]NOTE: [/color]You only have 5 minutes to turn this in.\nThe timer doesn't stop until you choose a reward and click 'Quest Complete'.|
 R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|Z|1438;Teldrassil|N|Enter the cave.|
 C Amidst the Shadowed Webs|QID|77575|QO|1|M|56.7,31.7|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
-K Githyiss the Vile Hunt|M|56.65,25.74|Z|1438;Teldrassil|N|Kill Githyiss who is guarding the eggs and loot his fang.|S|
+K Githyiss the Vile Hunt|AVAILABLE|97236|M|56.65,25.74|Z|1438;Teldrassil|L|277190|N|Kill Githyiss who is guarding the eggs and loot his fang.|S|
 C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|Z|1438;Teldrassil|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end with a drop to the same location as the other two.|
-K Githyiss the Vile Hunt|M|56.65,25.74|Z|1438;Teldrassil|N|Kill Githyiss who is guarding the eggs and loot his fang.|US|
-A Fang of Githyiss|QID|97236|N|Right click on the Fang of Githyiss in your inventory to accept the quest.|
+K Githyiss the Vile Hunt|AVAILABLE|97236|M|56.65,25.74|Z|1438;Teldrassil|L|277190|N|Kill Githyiss who is guarding the eggs and loot his fang.|US|
+A Fang of Githyiss|QID|97236|M|PLAYER|N|Right click on the Fang of Githyiss in your inventory to accept the quest.|O|U|277190|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|Z|1438;Teldrassil|N|Hearth out of the cave.|
 T Webwood Egg|QID|917|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
 T Fang of Githyiss|QID|97236|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
@@ -112,13 +112,14 @@ L Level 5|ACTIVE|921|N|Grind until you're within 3.5 bubbles of level 5.|LVL|4;-
 
 T Crown of the Earth|QID|921|M|57.64,41.70;59.06,39.44|CS|Z|1438;Teldrassil|N|To Tenaron Stormgrip at the top of the tree.|
 A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|Z|1438;Teldrassil|N|From Tenaron Stormgrip.|
-
+A The Adventurer|QID|96630|PRE|921|M|59.06,39.44|Z|1438;Teldrassil|N|From Lost Journal.|
 A In Favor of Elune|QID|5622|M|59.18,40.45|CC|Z|1438;Teldrassil|N|Grab your class quest before you go.|C|Priest|LVL|5|
 
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|Z|1438;Teldrassil|N|From Porthannius, on the road to Dolanaar|
 A Zenn's Bidding|QID|488|M|60.43,56.25|Z|1438;Teldrassil|N|From Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 
 ;--- Camping 101
+T The Adventurer|QID|96630|M|57.59,56.67|Z|1438; Teldrassil|N|To Lyreena Duskblade.|
 A The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|From Lyreena Duskblade.|
 C The Great Outdoors|ACTIVE|96606|M|57.59,56.67|Z|1438; Teldrassil|N|/Sit next to the campfire for 1 minute to complete the quest.|QO|1|
 T The Great Outdoors|QID|96606|M|57.59,56.67|Z|1438; Teldrassil|N|To Lyreena Duskblade.|
@@ -148,7 +149,7 @@ A Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftr
 h Dolanaar|ACTIVE|2159|M|55.62,59.79|Z|1438;Teldrassil|N|Set your Hearthstone to Dolanaar.|
 T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 
-C Camping 101: Cooking|ACTIVE|96634|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
+C Camping 101: Cooking|QID|96634|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|
 T Camping 101: Cooking|QID|96634|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|From Zarrin.|P|Cooking;185;0|
 
@@ -167,25 +168,25 @@ A The Lost Runner|QID|99046|M|56.02,59.49|Z|1438; Teldrassil|N|From Sentinel Kyr
 T Crown of the Earth|QID|928|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|Z|1438;Teldrassil|N|From Corithras Moonrage.|
 
-C Garments of the Moon|ACTIVE|5621|M|57.24,63.50|Z|1438;Teldrassil|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
+C Garments of the Moon|QID|5621|M|57.24,63.50|Z|1438;Teldrassil|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
 T Garments of the Moon|QID|5621|M|55.56,56.75|Z|1438;Teldrassil|N|To Laurna Morninglight.|C|Priest|
 
-C Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|S|
-C Soft Saber Pelts|ACTIVE|87288|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|S|
-C Recipe of the Kaldorei|ACTIVE|4161|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
+C Zenn's Bidding|QID|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|S|
+C Soft Saber Pelts|QID|87288|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|S|
+C Recipe of the Kaldorei|QID|4161|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
 
-C Crown of the Earth|ACTIVE|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Jade Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
+C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Jade Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
 T A Troubling Breeze|QID|475|M|66.26,58.55|Z|1438;Teldrassil|N|To Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|Z|1438;Teldrassil|N|From Gaerolas Talvethren|
-C The Emerald Dreamcatcher|ACTIVE|2438|M|68.01,59.65|Z|1438;Teldrassil|L|8048|N|Inside the dresser to the right of the entrance in the small house.|
+C The Emerald Dreamcatcher|QID|2438|M|68.01,59.65|Z|1438;Teldrassil|L|8048|N|Inside the dresser to the right of the entrance in the small house.|
 
 L Level 6|ACTIVE|476|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-970|
 
-C Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|US|
+C Zenn's Bidding|QID|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|US|
 T Zenn's Bidding|QID|488|M|60.43,56.25|Z|1438;Teldrassil|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 
-C Soft Saber Pelts|ACTIVE|87288|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|US|
-C Recipe of the Kaldorei|ACTIVE|4161|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|US|
+C Soft Saber Pelts|QID|87288|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|N|Kill and loot Nightsabers.|US|
+C Recipe of the Kaldorei|QID|4161|QO|1|M|60.4,60.2;53.3,63.2|CS|Z|1438;Teldrassil|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|US|
 
 T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|IZ|Dolanaar|
 T Crown of the Earth|QID|929|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moonrage.|
@@ -197,16 +198,16 @@ T Soft Saber Pelts|QID|87288|M|55.47,57.18|Z|1438; Teldrassil|N|To Aldia on the 
 T The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot at the top of the building.|
 A Ferocitas the Dream Eater|QID|2459|PRE|2438|M|55.58,56.95|Z|1438;Teldrassil|N|From Tallonkai Swiftroot.|
 
-C Seek Redemption!|ACTIVE|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
+C Seek Redemption!|QID|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
 
 = Level 6 Training|ACTIVE|2459|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Dolanaar|
 
-C Gnarlpine Mystics|ACTIVE|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|S|
+C Gnarlpine Mystics|QID|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|S|
 K Ferocitas the Dream Eater|ACTIVE|2459|QO|2|M|69.38,53.39|Z|1438;Teldrassil|L|8049|ITEM|8049|N|Ferocitas the Dream Eater in Starbreeze Village.|T|Ferocitas the Dream Eater|
-C Tallonkai's Jewel|ACTIVE|2459|M|PLAYER|CC|L|8050|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|U|8049|NC|
-C Gnarlpine Mystics|ACTIVE|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|US|
+C Tallonkai's Jewel|QID|2459|M|PLAYER|CC|L|8050|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|U|8049|NC|
+C Gnarlpine Mystics|QID|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|US|
 
-C Seek Redemption!|ACTIVE|489|M|59,56;59,61.25;60.2,62.25|CN|Z|1438;Teldrassil|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|US|
+C Seek Redemption!|QID|489|M|59,56;59,61.25;60.2,62.25|CN|Z|1438;Teldrassil|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|US|
 T Seek Redemption!|QID|489|M|60.43,56.25|Z|1438;Teldrassil|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to one minute (another player has just turned this quest in).|
 
 T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot|
@@ -216,10 +217,10 @@ r Sell/Repair|ACTIVE|997|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of
 T Denalan's Earth|QID|997|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.\n[color=FF0000]NOTE: [/color]It will take a few moments for this quest to be offerred.|
 A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.|
-C Timberling Sprouts|ACTIVE|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S|QO|1|
-C Timberling Seeds|ACTIVE|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|S|QO|1|
-C Timberling Seeds|ACTIVE|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|US|QO|1|
-C Timberling Sprouts|ACTIVE|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|US|QO|1|
+C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S|QO|1|
+C Timberling Seeds|QID|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|S|QO|1|
+C Timberling Seeds|QID|918|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|US|QO|1|
+C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|Z|1438;Teldrassil|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|US|QO|1|
 T Timberling Seeds|QID|918|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 T Timberling Sprouts|QID|919|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Rellian Greenspyre|QID|922|PRE|918|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.|
@@ -269,12 +270,12 @@ A The Temple of the Moon|QID|2519|M|28.99,45.69|Z|1457; Darnassus|N|From Sister 
 A Eyes of the Sentinels|QID|98067|M|39.70,89.25|Z|1457; Darnassus|N|From Sentinel Dalia Sunblade.|
 T The Temple of the Moon|QID|2519|M|36.44,85.83|Z|1457; Darnassus|N|To Priestess A'moora on the top level of the Temple of the Moon.|
 A Tears of the Moon|QID|2518|M|36.44,85.83|Z|1457; Darnassus|N|From Priestess A'moora on the top level of the Temple of the Moon.|
-C Eyes of the Sentinels|ACTIVE|98067|M|40.81,43.59|Z|1457; Darnassus|NC|N|Darnassus Bank.|QO|2|U|279378|
+C Eyes of the Sentinels|QID|98067|M|40.81,43.59|Z|1457; Darnassus|NC|N|Darnassus Bank.|QO|2|U|279378|
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|1457;Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyre.|
-C Eyes of the Sentinels|ACTIVE|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|QO|1|U|279378|
-C Eyes of the Sentinels|ACTIVE|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|QO|3|U|279378|
-C Eyes of the Sentinels|ACTIVE|98067|M|88.50,35.40|Z|1457; Darnassus|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
+C Eyes of the Sentinels|QID|98067|M|33.55,16.46|Z|1457; Darnassus|NC|N|Cenarion Hold depths entrance.|QO|1|U|279378|
+C Eyes of the Sentinels|QID|98067|M|66.90,15.05|Z|1457; Darnassus|NC|N|Craftsman's Terrace Inn.|QO|3|U|279378|
+C Eyes of the Sentinels|QID|98067|M|88.50,35.40|Z|1457; Darnassus|NC|N|City Gate (on road under the arch).|QO|4|U|279378|
 T Eyes of the Sentinels|QID|98067|M|39.70,89.25|Z|1457; Darnassus|N|To Sentinel Dalia Sunblade.|
 
 R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
@@ -369,7 +370,7 @@ T Back to Darnassus|QID|5931|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bear
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|1457;Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
 
 U Tame a Deer|ACTIVE|6103|N|Use the Deer Musk.\n[color=FF0000]NOTE: [/color]The buff lasts 10 minutes.|U|208607|BUFF|421311|C|Hunter|O|
-C Tame a Deer|ACTIVE|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
+C Tame a Deer|QID|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
 T Training the Beast|QID|6103|M|40.36,08.59|Z|1457;Darnassus|N|To Jocaste.|C|Hunter|
 = Pet Skills|AVAILABLE|2498|PRE|6103|M|42.47,9.16|Z|1457;Darnassus|N|Walk up the tree, keeping to the left, and learn your pet spells from Silvaria.\n[color=FF0000]NOTE: [/color]Make sure to visit your Pet Trainer every time you visit your class trainer.\n\nManually check this step off to continue.|C|Hunter|
 
