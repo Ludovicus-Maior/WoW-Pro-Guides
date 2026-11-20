@@ -66,11 +66,15 @@ h Sentinel Hill|ACTIVE|142|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather
 
 C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|1436; Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|1436; Westfall|L|2998|N|Loot the Compass from the chest at this location.|
+A ... and that note you found|QID|79008|M|37.47,50.73|Z|1436; Westfall|N|From Burned-Out Remains. This starts the Sleeping bag quest line. Click the book to jump to its own guide, Or we will cover it as we come across it in the normal guides.|JUMP|SleepingBagA|RANK|3|
 l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|1436; Westfall|
 l Flasks of Oil|QID|103|M|44.40,38.87|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|1436; Westfall|
-C The People's Militia|QID|13|Z|1436; Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
+C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|S|
+C The People's Militia|QID|13|M|29.5,47.3|Z|1436; Westfall|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
+C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|US|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|1436; Westfall|
+
 R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|1436; Westfall|
 C The People's Militia|QID|14|QO|1;2;3|S|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|Z|1436; Westfall|
 R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|Z|1436; Westfall|

@@ -510,6 +510,7 @@ function WoWPro.PetIcon(who)
 end
 
 function WoWPro.ProcessFinalRound(winner, qidx)
+    if not qidx then return end
     local QID = WoWPro.QID[qidx]
     local GID = WoWProDB.char.currentguide
     if not GID or not QID then return; end

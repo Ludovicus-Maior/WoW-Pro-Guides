@@ -178,13 +178,18 @@ C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the
 C Westfall Stew|QID|38|QO|2|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Eyes.|
 A Captain Sander's Treasure Map|QID|136|M|54.51,11.10|Z|1436; Westfall|N|Accpet the quest from the treasure map.|U|1357|O|
 C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the western coast for Murloc Gills.|US|
+C Testing the Wells|QID|92742|QO|2|M|46.2,38.5|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+T Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+T Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+A The State of the Mines|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
 R Patrolling Westfall|ACTIVE|102|M|40.26,31.51|Z|1436; Westfall|CC|N|Make your way to this area.|
 C Patrolling Westfall|QID|102|L|725 8|N|Finish collecting your Gnoll paws.\nStick with the lesser populated camps and the patrolers.|
 R Jangolode Mine|ACTIVE|12|M|43.55,27.13|Z|1436; Westfall|N|Head to the Jangolode Mine entrance.|
+C The State of the Mines|QID|92745|QO|1|M|45.6,20.8|Z|1436; Westfall|N|Murder Kobold Diggers.|S|
 C Red Leather Bandanas|QID|153|M|44.00,25.00|Z|1436; Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|S|
 C The People's Militia|QID|12|QO|1;2|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|
 C Red Leather Bandanas|QID|153|M|44.00,25.00|Z|1436; Westfall|N|All Defias mobs drop them. There are multiple kill quests and plenty of opportunities to collect these while doing them.|US|
-C Testing the Wells|QID|92742|QO|2|M|46.2,38.5|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
+C The State of the Mines|QID|92745|QO|1|M|45.6,20.8|Z|1436; Westfall|N|Murder Kobold Diggers.|US|
 C Goretusk Liver Pie|QID|22|L|723 8|N|Finish collecting your Goretusk Livers.|
 C Westfall Stew|QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
 C The Killing Fields|QID|9|M|55.00,33.20|QO|1|Z|1436; Westfall|N|Kill Harvest Watchers until you finish this quest.|US|
@@ -200,9 +205,6 @@ A The People's Militia|QID|13|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutm
 A The Defias Brotherhood|QID|65|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 T Patrolling Westfall|QID|102|M|56.42,47.61|Z|1436; Westfall|N|To Captain Danuvin.|
 T Red Leather Bandanas|QID|153|M|53.98,52.99|Z|1436; Westfall|N|To Scout Galiaan.|
-T Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
-T Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
-A The State of the Mine|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 A Show of Force|QID|98407|M|25.58,59.87|Z|1433; Redridge Mountains|N|From Deputy Feldon.|
@@ -388,9 +390,9 @@ A Protecting the Shipment|QID|309|M|52.22,69.44|Z|1432;Loch Modan|ELITE|N|[color
 C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|Z|1432;Loch Modan|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|
 T Protecting the Shipment|QID|309|M|65.96,65.62|Z|1432;Loch Modan|N|To Prospector Ironband.|
 A Gathering Idols|QID|297|M|64.89,66.66|Z|1432;Loch Modan|N|From Magmar Fellhew.|
+C Gathering Idols|QID|297|L|2636 8|M|68.19,63.24|Z|1432; Loch Modan|N|Kill and loot troggs to collect the idols.|S|
 l Excavation Tools|AVAILABLE|86613|L|278049|M|69.66,62.65|Z|1432; Loch Modan|N|Loot the Pickaxe off the ground against the scaffolding.|
 A Excavation Tools|QID|86613|M|PLAYER|Z|1432; Loch Modan|N|Accept the quest from the Pickaxe off the ground against the scaffolding.|U|278049|
-C Gathering Idols|QID|297|L|2636 8|M|68.19,63.24|Z|1432; Loch Modan|N|Kill and loot troggs to collect the idols.|S|
 C Excavation Tools|QID|86613|M|68.19,63.24|Z|1432; Loch Modan|N|Click the pickaxes on the ground around the zone while collecting the idols.|U|278049|
 C Gathering Idols|QID|297|L|2636 8|M|68.19,63.24|Z|1432; Loch Modan|N|Kill and loot troggs to collect the idols.|US|
 T Excavation Tools|QID|86613|M|65.87,65.72|Z|1432; Loch Modan|N|To Prospector Ironband.|

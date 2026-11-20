@@ -9,6 +9,12 @@
     WoWPro.EventTable = {}
     WoWPro.InitLockdownEvents = {}
 
+-- Index of the first non-sticky row's step, or nil if the guide has no rows yet.
+function WoWPro.ActiveStepIndex()
+    local row = WoWPro.rows and WoWPro.rows[WoWPro:GetActiveStickyCount()+1]
+    return row and row.index
+end
+
 function WoWPro:OnEnableEvents()
     WoWPro:dbp("Registering Events: Core Addon")
     WoWPro.FirstUpdatePending = true
@@ -179,8 +185,8 @@ function WoWPro.EventHandler(_frame, event, ...)
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
     if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
-        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
+        local numAvailableQuests = _G.C_GossipInfo.GetNumAvailableQuests()
+        local numActiveQuests = _G.C_GossipInfo.GetNumActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 
@@ -349,7 +355,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function(event
     end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
         WoWPro.CompleteStep(qidx,"Forced Swap", nil, "PetBattleForcedSwap")
@@ -358,7 +365,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
 
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     local winner = ...
     WoWPro.ProcessFinalRound(winner, qidx)
     end)
@@ -538,10 +546,10 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
 end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
-    WoWPro.GossipText = WoWPro.GossipInfo_GetText():upper()
+    WoWPro.GossipText = _G.C_GossipInfo.GetText():upper()
     WoWPro:print("GetGossipText: %s", WoWPro.GossipText)
 
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
     local myNPC = WoWPro:TargetNpcId()
 
     if not qidx then
@@ -549,7 +557,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         return
     end
 
-    local npcQuests = WoWPro.GossipInfo_GetActiveQuests()
+    local npcQuests = _G.C_GossipInfo.GetActiveQuests()
     local npcCount = #npcQuests
 
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
@@ -567,7 +575,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         WoWPro.QuestCount = 0
     end
 
-    npcQuests = WoWPro.GossipInfo_GetAvailableQuests()
+    npcQuests = _G.C_GossipInfo.GetAvailableQuests()
     npcCount = #npcQuests
 
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
@@ -630,7 +638,7 @@ function WoWPro.QUEST_GREETING_PUNTED(event, ...)
     local numAvailableQuests = _G.GetNumAvailableQuests()
     local numActiveQuests = _G.GetNumActiveQuests()
     WoWPro:print("%s: numActiveQuests=%d, numAvailableQuests=%d", event, numActiveQuests, numAvailableQuests)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
     local myNPC = WoWPro:TargetNpcId()
 
     if not qidx then
@@ -693,7 +701,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event, ...)
     local myNPC = WoWPro:TargetNpcId()
 
     if not qidx then
-        qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+        qidx = WoWPro.ActiveStepIndex()
         if not qidx then
             WoWPro:print("%s: No active step.", event)
             return
@@ -742,7 +750,8 @@ WoWPro.RegisterEventHandler("QUEST_PROGRESS", function(event, ...)
 function WoWPro.QUEST_PROGRESS_PUNTED(event, ...)
     if not WoWProCharDB.AutoTurnin then return; end
 
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     local questtitle = _G.GetTitleText();
     WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
     if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
@@ -752,7 +761,8 @@ end
 
 -- Noting that a quest is being completed for AutoTurnin --
 WoWPro.RegisterEventHandler("QUEST_COMPLETE", function(event, ...)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     local questtitle = _G.GetTitleText();
     WoWPro:dbp("Quest is [%s], matching %s[%s]",tostring(questtitle),tostring(WoWPro.action[qidx]), tostring(WoWPro.step[qidx]))
     if WoWProCharDB.AutoTurnin == true and
@@ -774,25 +784,20 @@ WoWPro.RegisterEventHandler("QUEST_COMPLETE", function(event, ...)
 
 WoWPro.RegisterEventHandler("QUEST_TURNED_IN", function(event, ...)
     local qid, exp, money = ...
-    WoWPro:dbp("%s(qid=%d,exp=%d,money=%d)",event,qid, exp, money)
+    WoWPro:dbp("%s(qid=%s,exp=%s,money=%s)",event,tostring(qid),tostring(exp),tostring(money))
     WoWPro.CompletingQuest = true
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    if WoWPro.action[qidx] == "T" and not WoWPro.nocache[qidx] then
+    local qidx = WoWPro.ActiveStepIndex()
+    if qidx and WoWPro.action[qidx] == "T" and not WoWPro.nocache[qidx] then
         WoWProCharDB.completedQIDs[qid] = true
     end
     WoWPro:AutoCompleteQuestUpdate(qid)
 end)
 
+-- A steps complete when the quest shows up in the quest log (QUEST_LOG_UPDATE -> NextStep),
+-- so QUEST_ACCEPTED only needs to log.
 WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function(event, ...)
     local qlidx, qid = ...
-    WoWPro:dbp("%s(qidx=%d,qid=%d)",event,qlidx,qid)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
-    local questtitle = _G.GetTitleText();
-    if WoWProCharDB.AutoAccept == true and
-       WoWPro.action[qidx] == "A" and
-       questtitle == WoWPro.step[qidx] then
-        WoWPro:AutoCompleteQuestUpdate(nil)
-    end
+    WoWPro:dbp("%s(qidx=%s,qid=%s)",event,tostring(qlidx),tostring(qid))
 end)
 
 -- scan skill lines when they change
@@ -814,7 +819,8 @@ end)
 -- It does not mean the ride has started or ended.
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
     WoWPro:RecordTaxiLocations(...)
-    local qidx = WoWPro.rows[WoWPro:GetActiveStickyCount()+1].index
+    local qidx = WoWPro.ActiveStepIndex()
+    if not qidx then return end
     if WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b" then
         if WoWProCharDB.AutoSelect == true then
             WoWPro.TakeTaxi(WoWPro.step[qidx])
@@ -832,8 +838,7 @@ WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
 end)
 
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
-    local row = WoWPro.rows and WoWPro.rows[WoWPro:GetActiveStickyCount()+1]
-    local qidx = row and row.index
+    local qidx = WoWPro.ActiveStepIndex()
     if not qidx then
         return
     end
