@@ -206,7 +206,8 @@ end
 
 local function checkClassQuest(QID, questTable)
     local className = _G.UnitClass("player")
-    if className == questTable[QID].header then
+    local quest = questTable and questTable[QID]
+    if quest and className == quest.header then
         return className
     else
         return nil
@@ -216,6 +217,8 @@ end
 function WoWPro.Recorder.CleanObjectiveNote(note)
     local cleanedNote = note:gsub("%.$", "")
     cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
+    cleanedNote = cleanedNote:gsub("%s*:?%s*%d+%s*/%s*%d+%s*$", "")
+    cleanedNote = cleanedNote:gsub("^%s+", ""):gsub("%s+$", "")
     return cleanedNote
 end
 
@@ -227,6 +230,80 @@ local function RecorderHasQuestStep(questID, action)
         end
     end
     return false
+end
+
+local function RecorderHasObjectiveStep(questID, objective)
+    local normalized = WoWPro.Recorder.CleanObjectiveNote(tostring(objective or ""))
+    for index = 1, WoWPro.stepcount or 0 do
+        if tonumber(WoWPro.QID[index]) == tonumber(questID) then
+            local stored = tostring(WoWPro.questtext[index] or WoWPro.note[index] or "")
+            for part in stored:gmatch("[^;]+") do
+                if WoWPro.Recorder.CleanObjectiveNote(part) == normalized then
+                    return true
+                end
+            end
+        end
+    end
+    return false
+end
+
+function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, location)
+    if not questID then return end
+    for index = 1, WoWPro.stepcount or 0 do
+        if tonumber(WoWPro.QID[index]) == tonumber(questID)
+            and (WoWPro.questtext[index] or WoWPro.action[index] == "K") then
+            return
+        end
+    end
+
+    local objectives = {}
+    if _G.C_QuestLog and _G.C_QuestLog.GetQuestObjectives then
+        objectives = _G.C_QuestLog.GetQuestObjectives(questID) or {}
+    end
+    if #objectives == 0 and questInfo and questInfo.leaderBoard then
+        for index, text in pairs(questInfo.leaderBoard) do
+            objectives[index] = { text = text }
+        end
+    end
+
+    local objectiveTexts = {}
+    local action = "C"
+    local allNonCombat = true
+    local target
+    local usesItem = false
+    for _, objective in ipairs(objectives) do
+        local objectiveText = WoWPro.Recorder.CleanObjectiveNote(objective.text or "")
+        if objectiveText ~= "" then
+            objectiveTexts[#objectiveTexts + 1] = objectiveText
+            local isKill = objective.type == "monster" or WoWPro.Recorder.FindText("kill", objectiveText)
+            if isKill then
+                action = "K"
+                allNonCombat = false
+                target = target or WoWPro.Recorder.FindTarget(objectiveText)
+            elseif WoWPro.Recorder.FindText("chat", objectiveText) then
+                allNonCombat = false
+            end
+            usesItem = usesItem or objective.type == "item"
+        end
+    end
+
+    local combinedObjective = table.concat(objectiveTexts, ";")
+    if combinedObjective == "" or RecorderHasObjectiveStep(questID, objectiveTexts[1]) then return end
+
+    WoWPro.Recorder.AddStep({
+        action = action,
+        step = questInfo and questInfo.title or combinedObjective,
+        QID = questID,
+        questtext = combinedObjective,
+        map = location and location.map,
+        zone = location and location.zone,
+        chat = action == "C" and WoWPro.Recorder.FindText("chat", table.concat(objectiveTexts, " ")),
+        noncombat = action == "C" and allNonCombat,
+        use = usesItem and questInfo and questInfo.use or nil,
+        note = table.concat(objectiveTexts, " ") .. ".",
+        target = target,
+        class = questInfo and checkClassQuest(questID, WoWPro.QuestLog),
+    })
 end
 
 local function RemoveRecorderQuestSteps(questID)
@@ -349,6 +426,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 map = mapxy,
                 zone = zonetag,
                 note = targetName and ("From "..targetName..".") or nil,
+            })
+            WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, {
+                map = mapxy,
+                zone = zonetag,
             })
             WoWPro.Recorder.PrevStep = "A"
             WoWPro.Recorder.lastStep = questID
@@ -546,6 +627,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             WoWPro.Recorder.lastStep = WoWPro.newQuest
             WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
             WoWPro.Recorder.AddStep(stepInfo)
+            WoWPro.Recorder.SuggestObjectiveSteps(WoWPro.newQuest, questInfo, {
+                map = mapxy,
+                zone = zonetag,
+            })
             WoWPro:AutoCompleteQuestUpdate()
 
         elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
@@ -577,6 +662,9 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                         for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
+                                if RecorderHasObjectiveStep(QID, status) then
+                                    WoWPro.Recorder:dbp("Objective already suggested for QID %d: %s", QID, status)
+                                else
                                 local cleanedNote = WoWPro.Recorder.CleanObjectiveNote(status or "")
                                 local stepInfo = {
                                     action = "C",
@@ -588,6 +676,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     noncombat = WoWPro.Recorder.FindText("nc", status),
                                     use = WoWPro.QuestLog[QID].use,
                                     note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
+                                    questtext = cleanedNote,
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
                                 if WoWPro.Recorder.FindText("kill", status) then
@@ -598,6 +687,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                 WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
                                 WoWPro.Recorder.AddStep(stepInfo)
                                 WoWPro:AutoCompleteQuestUpdate()
+                                end
                             end
                         end
                     end
@@ -608,10 +698,13 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 end
 
 function WoWPro.Recorder.FindText(otype, objectiveText)
+	if not objectiveText then return false end
 	objectiveText = objectiveText:lower()
 	if objectiveText:find("consulted", 1, true) then
 		if otype == "chat" then return true end
-	elseif objectiveText:find("speak", 1, true) then
+	elseif objectiveText:find("speak", 1, true)
+		or objectiveText:find("talk to", 1, true)
+		or objectiveText:find("interact", 1, true) then
 		if otype == "chat" then return true end
 	elseif objectiveText:find("%f[%a]slain%f[%A]")
 	or objectiveText:find("%f[%a]defeat%f[%A]")
@@ -626,13 +719,18 @@ end
 
 function WoWPro.Recorder.FindTarget(objectiveText)
 	if not objectiveText then return nil end
-	local text = objectiveText:match("[^/%d%s].+")
+	local text = WoWPro.Recorder.CleanObjectiveNote(objectiveText)
 	if not text then return nil end
 	text = text:gsub("%.$", "")
 	text = text:gsub("^%s+", ""):gsub("%s+$", "")
-	local target = text:match("^(?:[Ss]lay|[Kk]ill|[Dd]efeat)%s+(.+)")
+	local target = text:match("^[Ss]lay%s+(.+)")
+		or text:match("^[Kk]ill%s+(.+)")
+		or text:match("^[Dd]efeat%s+(.+)")
+		or text:match("^[Ss]laughter%s+(.+)")
+		or text:match("^(.+)%s+[Ss]lain$")
 	if not target then return nil end
 	target = target:gsub("^%d+%s+", "")
+	target = target:gsub("%s*:%s*$", "")
 	target = target:gsub("%s+$", "")
 	if target ~= "" then return target end
 	return nil
