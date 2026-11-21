@@ -332,8 +332,8 @@ function WoWPro.Recorder:CreatePreviewFrame()
     frame:SetClampedToScreen(true)
     frame:EnableMouse(true)
     frame:RegisterForDrag("LeftButton")
-    frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
-    frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+    frame:SetScript("OnDragStart", function(dragFrame) dragFrame:StartMoving() end)
+    frame:SetScript("OnDragStop", function(dragFrame) dragFrame:StopMovingOrSizing() end)
     frame:Hide()
 
     local title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
@@ -362,10 +362,10 @@ function WoWPro.Recorder:CreatePreviewFrame()
     row.note:SetWordWrap(true)
     row.track:SetWordWrap(true)
     row:EnableMouse(true)
-    row:SetScript("OnEnter", function(self)
-        if WoWProDB.profile.mousenotes and self.note:GetText() ~= "" then
-            _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-            _G.GameTooltip:SetText(self.note:GetText(), 1, 1, 1, 1, true)
+    row:SetScript("OnEnter", function(previewRow)
+        if WoWProDB.profile.mousenotes and previewRow.note:GetText() ~= "" then
+            _G.GameTooltip:SetOwner(previewRow, "ANCHOR_RIGHT")
+            _G.GameTooltip:SetText(previewRow.note:GetText(), 1, 1, 1, 1, true)
             _G.GameTooltip:Show()
         end
     end)
@@ -507,8 +507,8 @@ function WoWPro.Recorder:CreateStepListFrame()
     frame:SetClampedToScreen(true)
     frame:EnableMouse(true)
     frame:RegisterForDrag("LeftButton")
-    frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
-    frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+    frame:SetScript("OnDragStart", function(dragFrame) dragFrame:StartMoving() end)
+    frame:SetScript("OnDragStop", function(dragFrame) dragFrame:StopMovingOrSizing() end)
     StyleRecorderPanel(frame)
 
     local title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
@@ -533,9 +533,9 @@ function WoWPro.Recorder:CreateStepListFrame()
     content:SetSize(370, 1)
     scroll:SetScrollChild(content)
     scroll:EnableMouseWheel(true)
-    scroll:SetScript("OnMouseWheel", function(self, delta)
-        local position = self:GetVerticalScroll() - delta * stepListRowHeight * 3
-        self:SetVerticalScroll(math.max(0, math.min(position, self:GetVerticalScrollRange())))
+    scroll:SetScript("OnMouseWheel", function(scrollFrame, delta)
+        local position = scrollFrame:GetVerticalScroll() - delta * stepListRowHeight * 3
+        scrollFrame:SetVerticalScroll(math.max(0, math.min(position, scrollFrame:GetVerticalScrollRange())))
     end)
     frame.scroll, frame.content, frame.rows = scroll, content, {}
     frame.empty = content:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
@@ -548,15 +548,15 @@ function WoWPro.Recorder:CreateStepListFrame()
     dropTexture:SetAllPoints()
     dropTexture:SetColorTexture(0.35, 1, 0.45, 1)
     frame.dropLine:Hide()
-    frame:SetScript("OnHide", function(self)
-        self.drag = nil
-        self.dropLine:Hide()
+    frame:SetScript("OnHide", function(listFrame)
+        listFrame.drag = nil
+        listFrame.dropLine:Hide()
     end)
-    frame:SetScript("OnUpdate", function(self, elapsed)
-        if not self.drag then return end
-        local boundary, y = StepListDropBoundary(self)
+    frame:SetScript("OnUpdate", function(listFrame, elapsed)
+        if not listFrame.drag then return end
+        local boundary, y = StepListDropBoundary(listFrame)
         if not boundary then
-            self.dropLine:Hide()
+            listFrame.dropLine:Hide()
             return
         end
         local top, bottom = scroll:GetTop(), scroll:GetBottom()
@@ -569,12 +569,12 @@ function WoWPro.Recorder:CreateStepListFrame()
         if velocity ~= 0 then
             local position = scroll:GetVerticalScroll() + velocity * elapsed
             scroll:SetVerticalScroll(math.max(0, math.min(position, scroll:GetVerticalScrollRange())))
-            boundary = StepListDropBoundary(self)
+            boundary = StepListDropBoundary(listFrame)
         end
-        self.dropLine:ClearAllPoints()
-        self.dropLine:SetPoint("TOPLEFT", content, "TOPLEFT", 0, -boundary * stepListRowHeight)
-        self.dropLine:SetPoint("TOPRIGHT", content, "TOPRIGHT", 0, -boundary * stepListRowHeight)
-        self.dropLine:Show()
+        listFrame.dropLine:ClearAllPoints()
+        listFrame.dropLine:SetPoint("TOPLEFT", content, "TOPLEFT", 0, -boundary * stepListRowHeight)
+        listFrame.dropLine:SetPoint("TOPRIGHT", content, "TOPRIGHT", 0, -boundary * stepListRowHeight)
+        listFrame.dropLine:Show()
     end)
     frame:Hide()
     self.StepListFrame = frame
@@ -617,9 +617,9 @@ function WoWPro.Recorder:UpdateStepList()
             row.text:SetPoint("RIGHT", row, "RIGHT", -6, 0)
             row.text:SetJustifyH("LEFT")
             row.text:SetWordWrap(false)
-            row:SetScript("OnClick", function(self)
+            row:SetScript("OnClick", function(clickedRow)
                 if not WoWPro.Recorder:IsRecordingGuide() then return end
-                WoWPro.Recorder.SelectedStep = self.index
+                WoWPro.Recorder.SelectedStep = clickedRow.index
                 WoWPro.Recorder:RowUpdate()
             end)
 
@@ -631,20 +631,20 @@ function WoWPro.Recorder:UpdateStepList()
             grip:SetPoint("CENTER")
             grip:SetText("::")
             grip:SetTextColor(0.68, 0.74, 0.82)
-            handle:SetScript("OnEnter", function(self)
-                _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+            handle:SetScript("OnEnter", function(dragHandle)
+                _G.GameTooltip:SetOwner(dragHandle, "ANCHOR_RIGHT")
                 _G.GameTooltip:SetText("Drag to reorder this step.")
                 _G.GameTooltip:Show()
             end)
             handle:SetScript("OnLeave", function() _G.GameTooltip:Hide() end)
-            handle:SetScript("OnDragStart", function(self)
+            handle:SetScript("OnDragStart", function(dragHandle)
                 if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded then return end
                 if _G.InCombatLockdown() then
                     WoWPro.Recorder:Warning("Steps cannot be reordered during combat.")
                     return
                 end
                 frame.drag = {
-                    index = self:GetParent().index,
+                    index = dragHandle:GetParent().index,
                     guideID = WoWProDB.char.currentguide,
                     steps = StepListSnapshot(),
                 }
