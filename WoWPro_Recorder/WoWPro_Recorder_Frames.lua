@@ -238,7 +238,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
     -- Scripts --
     WoWPro.RecorderFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.ResetMainFramePosition()
             WoWPro.MainFrame:StartMoving()
         end
     end)
