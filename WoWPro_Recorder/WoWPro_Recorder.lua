@@ -19,6 +19,74 @@ WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 WoWPro.Recorder.Flights = nil
 WoWPro.Recorder.Portals = nil
+WoWPro.Recorder.RecentTurnIns = {}
+
+local function StyleRecorderStaticPopup(frame)
+    if not frame then return end
+    if frame.SetBackdrop then
+        frame:SetBackdrop({
+            bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+            edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+            tile = true,
+            tileSize = 16,
+            edgeSize = 10,
+            insets = { left = 3, right = 3, top = 3, bottom = 3 },
+        })
+        frame:SetBackdropColor(0.045, 0.05, 0.055, 0.98)
+        frame:SetBackdropBorderColor(0.32, 0.34, 0.37, 1)
+    end
+    if frame.text and frame.text.SetTextColor then
+        frame.text:SetTextColor(0.86, 0.88, 0.91, 1)
+    end
+    for index = 1, 3 do
+        local button = frame["button"..index]
+        if button then
+            if button.SetBackdrop and button.SetBackdropColor then
+                button:SetBackdrop({
+                    bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+                    edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+                    tile = true,
+                    tileSize = 16,
+                    edgeSize = 8,
+                    insets = { left = 2, right = 2, top = 2, bottom = 2 },
+                })
+                button:SetBackdropColor(0.08, 0.085, 0.095, 0.98)
+                button:SetBackdropBorderColor(0.38, 0.40, 0.43, 1)
+            end
+            local label = button.Text or button.GetFontString and button:GetFontString()
+            if label and label.SetTextColor then
+                label:SetTextColor(0.92, 0.93, 0.95, 1)
+            end
+        end
+    end
+end
+
+_G.StaticPopupDialogs["WOWPRO_RECORDER_STOPPED_QUEST"] = {
+    text = "Quest: %s\nQID: %s\n\nThis quest was not recorded because the recorder is stopped.\n\nChoose Don't Remind Me to disable this warning permanently. You may then miss guide steps at your own risk.",
+    button1 = "Don't Remind Me",
+    button2 = "Keep Reminders",
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    OnAccept = function()
+        WoWProCharDB = WoWProCharDB or {}
+        WoWProCharDB.SuppressStoppedQuestWarnings = true
+    end,
+    OnShow = function(frame)
+        StyleRecorderStaticPopup(frame)
+    end,
+}
+
+_G.StaticPopupDialogs["WOWPRO_RECORDER_MESSAGE"] = {
+    text = "%s",
+    button1 = _G.OKAY,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    OnShow = function(frame)
+        StyleRecorderStaticPopup(frame)
+    end,
+}
 
 _G.SLASH_WPR1 = "/wpr";
 function _G.SlashCmdList.WPR(msg)
@@ -52,9 +120,22 @@ function WoWPro.Recorder:OnEnable()
     -- Creating empty user settings if none exist
     WoWPro_RecorderDB = WoWPro_RecorderDB or {}
     WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
+    if WoWProCharDB.RecorderActive and WoWProCharDB.RecorderGuide then
+        WoWPro.Recorder.CurrentGuide.GID = WoWProCharDB.RecorderGuide
+    elseif WoWProCharDB.RecorderActive == nil then
+        WoWProCharDB.RecorderActive = false
+    end
     WoWPro.Recorder:CustomizeFrames()
     WoWPro.Recorder:RegisterEvents()
     WoWPro.Recorder:RegisterSavedGuides()
+    if WoWProCharDB.RecorderActive and WoWProCharDB.RecorderGuide
+        and WoWPro.Guides[WoWProCharDB.RecorderGuide] then
+        _G.C_Timer.After(0.1, function()
+            if WoWProDB.char.currentguide ~= WoWProCharDB.RecorderGuide then
+                WoWPro:LoadGuide(WoWProCharDB.RecorderGuide)
+            end
+        end)
+    end
     WoWPro.Recorder.ProcessScenarioStage(nil)
     WoWPro.Recorder:OnUIReloaded()
 end
@@ -71,11 +152,11 @@ end
 
 function WoWPro.Recorder:OnUIReloaded()
     if WoWPro.Recorder.Advanced then
+        WoWPro.RecorderFrame:SetWidth(650)
+        WoWPro.MainFrame:SetWidth(650)
+    else
         WoWPro.RecorderFrame:SetWidth(350)
         WoWPro.MainFrame:SetWidth(350)
-    else
-        WoWPro.RecorderFrame:SetWidth(250)
-        WoWPro.MainFrame:SetWidth(250)
     end
 end
 
@@ -107,6 +188,10 @@ function WoWPro.Recorder:RegisterSavedGuides()
 end
 
 function WoWPro.Recorder:InitGuide(GIDvalue,guidetype,kvp)
+    WoWProCharDB = WoWProCharDB or {}
+    WoWProCharDB.RecorderGuide = GIDvalue
+    WoWProCharDB.RecorderActive = true
+    WoWPro.Recorder.CurrentGuide.GID = GIDvalue
     WoWPro.Guides[GIDvalue] = {
         guidetype = guidetype,
         sequence = function()
@@ -133,10 +218,165 @@ function WoWPro.Recorder.CleanObjectiveNote(note)
     return cleanedNote
 end
 
+local function RecorderHasQuestStep(questID, action)
+    if not questID then return false end
+    for index = 1, WoWPro.stepcount or 0 do
+        if WoWPro.QID[index] == questID and (not action or WoWPro.action[index] == action) then
+            return true
+        end
+    end
+    return false
+end
+
+local function RemoveRecorderQuestSteps(questID)
+    local removed = 0
+    local targetQID = tonumber(questID)
+    for position = WoWPro.stepcount or 0, 1, -1 do
+        if targetQID and tonumber(WoWPro.QID[position]) == targetQID then
+            for key in pairs(WoWPro.Tags) do
+                WoWPro[key][position] = nil
+                for index = position + 1, WoWPro.stepcount do
+                    WoWPro[key][index - 1] = WoWPro[key][index]
+                end
+                WoWPro[key][WoWPro.stepcount] = nil
+            end
+            WoWPro.stepcount = WoWPro.stepcount - 1
+            removed = removed + 1
+        end
+    end
+
+    if removed > 0 then
+        WoWPro.Recorder.SelectedStep = math.min(
+            WoWPro.Recorder.SelectedStep or WoWPro.stepcount,
+            WoWPro.stepcount
+        )
+        WoWPro.Recorder:CheckpointCurrentGuide("AbandonedQuest")
+        WoWPro:UpdateGuide("WoWPro.Recorder:AbandonedQuest")
+        WoWPro.Recorder:CustomizeFrames()
+    end
+    return removed
+end
+
 function WoWPro.Recorder.eventHandler(frame, event, ...)
     local GID = WoWProDB.char.currentguide
     WoWPro.Recorder:dbp(event.." event fired.")
-    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    if event == "QUEST_ACCEPTED" and WoWPro.Recorder.status == "STOP" then
+        if WoWProCharDB and WoWProCharDB.SuppressStoppedQuestWarnings then
+            return
+        end
+        local firstValue, secondValue = ...
+        local questID = tonumber(secondValue or firstValue)
+        local questLogIndex = secondValue and firstValue or nil
+        _G.C_Timer.After(0.25, function()
+            local questName
+            local questInfo = WoWPro.QuestLog and questID and WoWPro.QuestLog[questID]
+            if questInfo then
+                questName = questInfo.title
+            end
+            if not questName and questID and _G.C_QuestLog and _G.C_QuestLog.GetTitleForQuestID then
+                questName = _G.C_QuestLog.GetTitleForQuestID(questID)
+            end
+            if not questName and questLogIndex and _G.C_QuestLog and _G.C_QuestLog.GetInfo then
+                local info = _G.C_QuestLog.GetInfo(questLogIndex)
+                questName = info and info.title
+            end
+            if not questName and _G.GetQuestLogTitle and questLogIndex then
+                questName = _G.GetQuestLogTitle(questLogIndex)
+            end
+            questName = questName or "Unknown Quest"
+            _G.StaticPopup_Show("WOWPRO_RECORDER_STOPPED_QUEST", questName, questID or "Unknown")
+        end)
+        return
+    end
+    if event == "QUEST_ACCEPTED" and WoWPro.Recorder.status ~= "STOP" then
+        local firstValue, secondValue = ...
+        local questID = secondValue or firstValue
+        local function recordAcceptedQuest(attempt)
+            if WoWPro.Recorder.status == "STOP" then return end
+            if RecorderHasQuestStep(questID, "A") then return end
+            local recordingGID = WoWProCharDB and WoWProCharDB.RecorderActive
+                and (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
+                    or WoWProCharDB.RecorderGuide)
+            if not WoWPro.GuideLoaded or WoWProDB.char.currentguide ~= recordingGID then
+                if attempt < 10 then
+                    _G.C_Timer.After(0.25, function() recordAcceptedQuest(attempt + 1) end)
+                end
+                return
+            end
+            local questInfo = WoWPro.QuestLog and WoWPro.QuestLog[questID]
+            local questName = questInfo and questInfo.title
+            if not questName and _G.C_QuestLog and _G.C_QuestLog.GetTitleForQuestID then
+                questName = _G.C_QuestLog.GetTitleForQuestID(questID)
+            end
+            if not questName then
+                if attempt < 10 then
+                    _G.C_Timer.After(0.25, function() recordAcceptedQuest(attempt + 1) end)
+                end
+                return
+            end
+
+            local x, y = WoWPro:GetPlayerZonePosition()
+            local mapxy
+            if x and y then
+                mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+            end
+            local zonetag = _G.C_Map.GetBestMapForUnit("player")
+            local zoneText = _G.GetZoneText()
+            if zonetag and zoneText then
+                zonetag = zonetag .. "; " .. zoneText
+            elseif not zonetag then
+                zonetag = zoneText
+            end
+            if WoWPro.Guides[recordingGID] and zonetag == WoWPro.Guides[recordingGID].zone then
+                zonetag = nil
+            end
+            local targetName = _G.UnitName and _G.UnitName("target")
+            WoWPro.Recorder.AddStep({
+                action = "A",
+                step = questName,
+                QID = questID,
+                class = questInfo and checkClassQuest(questID, WoWPro.QuestLog),
+                prereq = WoWPro.Recorder.PREquest,
+                map = mapxy,
+                zone = zonetag,
+                note = targetName and ("From "..targetName..".") or nil,
+            })
+            WoWPro.Recorder.PrevStep = "A"
+            WoWPro.Recorder.lastStep = questID
+            WoWPro.Recorder:CustomizeFrames()
+        end
+        _G.C_Timer.After(0.25, function() recordAcceptedQuest(1) end)
+        return
+    end
+    if event == "QUEST_REMOVED" and WoWPro.Recorder.status ~= "STOP" then
+        local firstValue, secondValue = ...
+        local questID = tonumber(secondValue or firstValue)
+        if not questID then return end
+        _G.C_Timer.After(0.5, function()
+            if WoWPro.Recorder.status == "STOP" then return end
+            if WoWPro.Recorder.RecentTurnIns[questID] then
+                WoWPro.Recorder.RecentTurnIns[questID] = nil
+                return
+            end
+            RemoveRecorderQuestSteps(questID)
+        end)
+        return
+    end
+    if event == "QUEST_TURNED_IN" then
+        local questID = ...
+        if questID then
+            questID = tonumber(questID)
+            WoWPro.Recorder.RecentTurnIns[questID] = true
+            _G.C_Timer.After(5, function()
+                WoWPro.Recorder.RecentTurnIns[questID] = nil
+            end)
+        end
+        return
+    end
+    if WoWPro.Recorder.status == "STOP" then
+        return
+    end
+    if not WoWPro.Guides[GID] then return end
 
     local x, y = WoWPro:GetPlayerZonePosition()
     local zonetag = _G.C_Map.GetBestMapForUnit("player")
@@ -252,6 +492,12 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
         WoWPro.inhibit_oldQuests_update = false
 
+        if WoWPro.missingQuest and not WoWPro.CompletingQuest then
+            RemoveRecorderQuestSteps(WoWPro.missingQuest)
+            WoWPro.missingQuest = false
+            return
+        end
+
         -- Don't record quests immediately after a reload or guide load
         if WoWPro.Recorder.LoadingGuide then
             WoWPro.Recorder:dbp("Suppressing quest recording during guide load/reload")
@@ -271,6 +517,11 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         end
 
         if WoWPro.newQuest then
+            if RecorderHasQuestStep(WoWPro.newQuest, "A") then
+                WoWPro.Recorder:dbp("Quest %d was already recorded from QUEST_ACCEPTED.", WoWPro.newQuest)
+                WoWPro.newQuest = false
+                return
+            end
             local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
             local stepInfo = {
                 action = "A",
@@ -461,16 +712,40 @@ function WoWPro.Recorder.PostQuestLogUpdate()
 end
 
 function WoWPro.Recorder.PostGuideLoad()
+    local recordingGID = WoWProCharDB and WoWProCharDB.RecorderActive
+        and (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
+            or WoWProCharDB.RecorderGuide)
+    if recordingGID and WoWProDB.char.currentguide ~= recordingGID and WoWPro.Guides[recordingGID] then
+        WoWPro.Recorder:dbp("Recorder is active; reloading recorder guide %s", recordingGID)
+        WoWPro:LoadGuide(recordingGID)
+        return
+    end
+
+    local pendingAction = WoWPro.Recorder.PendingGuideAction
+    local pendingGID = WoWPro.Recorder.PendingGuideActionGID
+    WoWPro.Recorder.PendingGuideAction = nil
+    WoWPro.Recorder.PendingGuideActionGID = nil
     -- Clear the LoadingGuide flag after guide has been loaded with a small delay
     -- to ensure quest log has been properly populated
     _G.C_Timer.After(1.0, function()
         WoWPro.Recorder.LoadingGuide = false
         WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay, quest recording enabled")
+        WoWPro.Recorder:CustomizeFrames()
+        if pendingAction and WoWProDB.char.currentguide == pendingGID then
+            if pendingAction == "edit" then
+                dialog:Open("WoWPro Recorder - Edit", WoWPro.DialogFrame)
+                WoWPro.Recorder:StyleDialog("WoWPro Recorder - Edit")
+            end
+        end
     end)
 end
 
 function WoWPro.Recorder.PostUpdateGuide()
     WoWPro.Recorder:CustomizeFrames()
+    if (WoWPro.stepcount or 0) < 1 then
+        WoWPro.Recorder.SelectedStep = nil
+        return
+    end
     if not WoWPro.Recorder.SelectedStep then
         if WoWPro.ActiveStep then
             WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
@@ -480,6 +755,10 @@ function WoWPro.Recorder.PostUpdateGuide()
             WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at EOG.", WoWPro.stepcount)
         end
     else
+        WoWPro.Recorder.SelectedStep = math.max(
+            1,
+            math.min(WoWPro.Recorder.SelectedStep, WoWPro.stepcount)
+        )
         WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
     end
 end
@@ -513,7 +792,6 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                 unsticky = true,
                 sobjective = tostring(old_scenario.currentStage),
             }
-            WoWPro.Recorder:Print("Closing old stage: %s", stepInfo.step)
             WoWPro.Recorder.AddStep(stepInfo)
             stepInfo = {
                 action = "C",
@@ -523,7 +801,6 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                 sticky = true,
                 sobjective = tostring(scenario.currentStage),
             }
-            WoWPro.Recorder:Print("Entering next stage: %s", stepInfo.step)
             WoWPro.Recorder.AddStep(stepInfo)
         else
             if scenario.completed then
@@ -536,7 +813,6 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                     unsticky = true,
                     sobjective = tostring(old_scenario.currentStage),
                 }
-                WoWPro.Recorder:Print("Finishing final stage: %s", stepInfo.step)
                 WoWPro.Recorder.AddStep(stepInfo)
             end
         end
@@ -550,8 +826,6 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
             sticky = true,
             sobjective = tostring(scenario.currentStage),
         }
-        WoWPro.Recorder:Print("Starting new scenario: %s", tostring(scenario.name))
-        WoWPro.Recorder:Print("Entering new stage: %s", tostring(scenario.stageName))
         WoWPro.Recorder.AddStep(stepInfo)
     end
     WoWPro.Recorder.ProcessScenarioCriteria(scenario)
@@ -582,7 +856,6 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     if x and y then
                         stepInfo.map = ("%.2f,%.2f"):format(x * 100, y * 100)
                     end
-                    WoWPro.Recorder:Print("Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
             end
@@ -602,7 +875,6 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                     if x and y then
                         stepInfo.map = ("%.2f,%.2f"):format(x * 100, y * 100)
                     end
-                    WoWPro.Recorder:Print("Assuming Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
                 end
             end
@@ -629,7 +901,16 @@ end
 
 
 function WoWPro.Recorder:RegisterEvents()
-    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "PLAYER_CONTROL_GAINED", "AREA_POIS_UPDATED"}
+    WoWPro.Recorder.events = {
+        "UI_INFO_MESSAGE",
+        "CHAT_MSG_SYSTEM",
+        "PLAYER_LEVEL_UP",
+        "PLAYER_CONTROL_GAINED",
+        "AREA_POIS_UPDATED",
+        "QUEST_ACCEPTED",
+        "QUEST_REMOVED",
+        "QUEST_TURNED_IN",
+    }
 
     for _, event in pairs(WoWPro.Recorder.events) do
         WoWPro.RecorderFrame:RegisterEvent(event)
@@ -684,12 +965,74 @@ local dropdown = {
 function WoWPro.Recorder:RowUpdate(offset)
     WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
     WoWPro.Recorder.RowDropdownMenu = {}
-    for i,row in pairs(WoWPro.rows) do
-        WoWPro.Recorder.RowDropdownMenu[i] = dropdown
-        if WoWPro.Recorder.SelectedStep == row.index then
-            row:SetChecked(true)
-        else
-            row:SetChecked(false)
+    local selected = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 1
+    local startStep = math.max(1, math.min(selected, WoWPro.stepcount or 1))
+    local endStep = startStep
+    local rowIndex = 0
+
+    for stepIndex = startStep, endStep do
+        rowIndex = rowIndex + 1
+        local row = WoWPro.rows[rowIndex]
+        if row then
+            row.index = stepIndex
+            row.num = rowIndex
+            row.step:ClearAllPoints()
+            row.step:SetPoint("TOPLEFT", row.iconTexture, "TOPRIGHT", 3, -5)
+            row.step:SetPoint("RIGHT", row, "RIGHT", -5, 0)
+            row.step:SetText(string.format("#%d  %s", stepIndex, tostring(WoWPro.step[stepIndex] or "")))
+            row.step:SetWordWrap(true)
+            row.step:SetNonSpaceWrap(true)
+            row.note:ClearAllPoints()
+            row.note:SetPoint("TOPLEFT", row.step, "BOTTOMLEFT", 0, -3)
+            row.note:SetPoint("TOPRIGHT", row.step, "BOTTOMRIGHT", -6, -3)
+            row.note:SetWidth(math.max(100, row.step:GetWidth() - 6))
+            row.note:SetWordWrap(true)
+            row.note:SetNonSpaceWrap(true)
+            local detail = tostring(WoWPro.EmitSafeStep(stepIndex) or "")
+            detail = detail:gsub("¦", "  ¦  "):gsub("%s*;%s*", "; ")
+            row.note:SetText(detail)
+            row.track:SetText("")
+            row.track:Hide()
+            if row.progressBar then row.progressBar:Hide() end
+            row.check:Show()
+            row.check:SetBlank()
+            WoWPro.SetActionTexture(row)
+            row:SetChecked(WoWPro.Recorder.SelectedStep == stepIndex)
+            local detailHeight = row.note:GetStringHeight() or 0
+            row:SetHeight(math.max(48, row.step:GetStringHeight() + detailHeight + 20))
+            row:SetAlpha(1)
+            row:Show()
+            WoWPro.Recorder.RowDropdownMenu[rowIndex] = dropdown
+
+            if row.itembutton then row.itembutton:Hide() end
+            if row.itembuttonSecured then row.itembuttonSecured:Hide() end
+            if row.targetbutton then row.targetbutton:Hide() end
+            if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
+            if row.jumpbutton then row.jumpbutton:Hide() end
+            if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
+            if row.eabutton then row.eabutton:Hide() end
+            if row.eabuttonSecured then row.eabuttonSecured:Hide() end
+        end
+    end
+
+    for index = rowIndex + 1, #WoWPro.rows do
+        WoWPro.rows[index]:SetAlpha(0)
+        WoWPro.rows[index]:Hide()
+    end
+    WoWPro.RowLimit = rowIndex
+    WoWPro:SetActiveStickyCount(0)
+    WoWPro:MainFrameLayout()
+
+    if not _G.InCombatLockdown() then
+        local rowsHeight = 0
+        for _, row in ipairs(WoWPro.rows) do
+            if row:IsShown() then
+                rowsHeight = rowsHeight + row:GetHeight()
+            end
+        end
+        local compactHeight = math.max(72, rowsHeight + 12)
+        if WoWPro.MainFrame:GetHeight() ~= compactHeight then
+            WoWPro.SetMainFrameSize(WoWPro.MainFrame:GetWidth(), compactHeight)
         end
     end
 end
@@ -737,17 +1080,11 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
     end
 
     WoWPro.stepcount = WoWPro.stepcount + 1
-    if WoWPro.Recorder.SelectedStep then
-        WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
-    else
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount
-    end
-
-    local line = WoWPro.EmitSafeStep(pos)
-    line = line:gsub("%%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
-    WoWPro.Recorder:Print(line)
+    WoWPro.Recorder.SelectedStep = pos
 
     WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
+    WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
+    WoWPro:MainFrameLayout()
     WoWPro:UpdateGuide("WoWPro.Recorder.AddStep()")
 end
 
@@ -797,6 +1134,17 @@ end
 function WoWPro.Recorder:CheckpointCurrentGuide(why)
     -- Ensure guide tables exist before saving
     local guideID = WoWProDB.char.currentguide
+    WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
+    local recordingGID = WoWProCharDB.RecorderActive
+        and (WoWPro.Recorder.CurrentGuide.GID or WoWProCharDB.RecorderGuide)
+    if recordingGID and guideID ~= recordingGID then
+        WoWPro.Recorder:Error("The loaded guide is not the active recorder guide.")
+        return
+    end
+    if not recordingGID then
+        WoWPro.Recorder:Error("No active recorder guide is selected.")
+        return
+    end
 
     if not WoWPro.Guides[guideID] then
         WoWPro.Guides[guideID] = {}
@@ -859,22 +1207,79 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     return guideString
 end
 
+local function RenderRecorderGuide(GID, guide)
+    local function quoted(str)
+        if (str == nil) or (str == "nil") then
+            return "nil"
+        end
+        return "'"..tostring(str).."'"
+    end
+
+    local sequence = guide.sequence
+    if type(sequence) == "function" then
+        sequence = sequence()
+    end
+    sequence = tostring(sequence or "")
+
+    local guidetype = guide.guidetype or "Leveling"
+    local zone = guide.zone or ""
+    local author = guide.author or "Unknown"
+    local faction = guide.faction or "Neutral"
+    local startlevel = guide.startlevel or 1
+    local endlevel = guide.endlevel or 100
+
+    return "local guide = WoWPro:RegisterGuide('"
+        ..GID.."', '"
+        ..guidetype.."', '"
+        ..zone.."', '"
+        ..author.."', '"
+        ..faction.."')\n"
+        ..'WoWPro:GuideName(guide,"'..GID..'")\n'
+        .."WoWPro:GuideLevels(guide,"..startlevel..", "..endlevel..")\n"
+        .."WoWPro:GuideNextGuide(guide, "..quoted(guide.nextGID)..")\n"
+        .."WoWPro:GuideSteps(guide, function()\nreturn [[\n"
+        ..sequence.."\n]]\n\nend)"
+end
+
 function WoWPro.Recorder:SaveGuide(window)
-    if not WoWPro.GuideLoaded then
-        WoWPro.Recorder:Warning("Hey, no guide is loaded!")
+    local recordingGID = WoWProCharDB and WoWProCharDB.RecorderActive
+        and (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
+            or WoWProCharDB.RecorderGuide)
+    if not recordingGID then
+        WoWPro.Recorder:Error("There is no recorder guide in progress. Create or open a recorder guide first.")
         return
     end
-    local guideString = WoWPro.Recorder:CheckpointCurrentGuide("Save")
+
+    local guideString
+    if WoWProDB.char.currentguide == recordingGID and WoWPro.GuideLoaded then
+        guideString = WoWPro.Recorder:CheckpointCurrentGuide("Save")
+        _G.C_Timer.After(0, function()
+            if WoWPro.GuideLoaded then
+                WoWPro.Recorder:CustomizeFrames()
+                WoWPro.Recorder:RowUpdate(WoWPro.GuideOffset)
+                WoWPro:MainFrameLayout()
+            end
+        end)
+    else
+        local guide = WoWPro_RecorderDB and WoWPro_RecorderDB[recordingGID]
+        if not guide then
+            WoWPro.Recorder:Error("The recorder guide has not been saved yet. Record at least one step first.")
+            return
+        end
+        guideString = RenderRecorderGuide(recordingGID, guide)
+    end
+
+    if not guideString then return end
     -- Save Guide Dialog --
     config:RegisterOptionsTable("WoWPro Recorder - Save Guide", {
-        name = "Save Guide",
+        name = "Save Recorder Guide: "..recordingGID,
         type = "group",
         args = {
             guidetype = {
                 order = 0,
                 type = "input",
                 multiline = 55,
-                name = "Copy the following and paste it into a guide file:",
+                name = "Recorder guide "..recordingGID..". Copy this output into a guide file:",
                 desc = "",
                 width = "full",
                 get = function(info)

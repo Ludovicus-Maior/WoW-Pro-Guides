@@ -1959,6 +1959,12 @@ Rep2IdAndClass = {
 -- Next Step --
 -- Determines the next active step --
 function WoWPro.NextStep(guideIndex, rowIndex)
+    if WoWPro.Recorder and WoWProCharDB
+        and WoWProCharDB.RecorderActive
+        and WoWPro.Recorder.CurrentGuide
+        and WoWProDB.char.currentguide == WoWPro.Recorder.CurrentGuide.GID then
+        return math.max(1, math.min(guideIndex or 1, WoWPro.stepcount or 1))
+    end
     -- Removed unused qid variable; use QID from WoWPro.QID[guideIndex] directly where needed
     local GID = WoWProDB.char.currentguide
     local guide = WoWProCharDB.Guide[GID]
@@ -2419,7 +2425,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Zone sensitive steps
-            if stepAction:find("FHbPR") then
+            if stepAction and stepAction:find("FHbPR") then
                 if WoWPro.AutoCompleteZone(guideIndex) then
                     skip = true
                     break

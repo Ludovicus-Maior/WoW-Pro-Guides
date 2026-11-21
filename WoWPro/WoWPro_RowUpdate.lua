@@ -1369,6 +1369,12 @@ local BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
     WoWPro.RowDropdownMenu[i] = dropdown
 end
 function WoWPro:RowUpdate(offset)
+    if WoWPro.Recorder and WoWProCharDB
+        and WoWProCharDB.RecorderActive
+        and WoWPro.Recorder.CurrentGuide
+        and WoWProDB.char.currentguide == WoWPro.Recorder.CurrentGuide.GID then
+        return {steps = {}, tracks = {}}
+    end
     local GID = WoWProDB.char.currentguide
     if WoWPro.MaybeCombatLockdown() or not GID or not WoWPro.Guides[GID] then
         WoWPro:dbp("Punting: WoWPro:RowUpdate()")

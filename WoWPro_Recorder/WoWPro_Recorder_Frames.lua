@@ -15,6 +15,19 @@ local function RecorderSelectedOrActiveStep()
     return WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep or 1
 end
 
+local function CurrentRecorderGuideID()
+    if WoWProCharDB and WoWProCharDB.RecorderActive == false then
+        return
+    end
+    local recordingGID = WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
+    if not recordingGID and WoWProCharDB and WoWProCharDB.RecorderActive then
+        recordingGID = WoWProCharDB.RecorderGuide
+    end
+    if recordingGID and (WoWPro.Guides[recordingGID] or (WoWPro_RecorderDB and WoWPro_RecorderDB[recordingGID])) then
+        return recordingGID
+    end
+end
+
 local function BuildCurrentGuideStepList()
     local total = WoWPro.stepcount or 0
     local selected = RecorderSelectedOrActiveStep()
@@ -37,6 +50,19 @@ local function BuildCurrentGuideStepList()
     end
 
     return table.concat(lines, "\n")
+end
+
+local function OpenActionForRecorderGuide(GID, action)
+    local currentGID = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide
+    if currentGID == GID and WoWPro.GuideLoaded then
+        dialog:Open("WoWPro Recorder - Edit", WoWPro.DialogFrame)
+        WoWPro.Recorder:StyleDialog("WoWPro Recorder - Edit")
+        return
+    end
+
+    WoWPro.Recorder.PendingGuideAction = action
+    WoWPro.Recorder.PendingGuideActionGID = GID
+    WoWPro:LoadGuide(GID)
 end
 
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
@@ -141,9 +167,6 @@ local function CreateInitSpecMenu(module)
             for idx,value in ipairs(initSpecs[module]) do
                 if value[4] then
                     optArgs[value[4]] = WoWPro.Recorder.CurrentGuide[value[3]]
-                    WoWPro.Recorder:Print("Setting %s to '%s'",value[4], WoWPro.Recorder.CurrentGuide[value[3]])
-                else
-                    WoWPro.Recorder:Print("Skipped %s",value[3])
                 end
             end
 
@@ -168,6 +191,12 @@ local function CreateInitSpecMenu(module)
 
             WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
             WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
+            if WoWPro.TitleText then
+                WoWPro.TitleText:SetText("Recorder: "..WoWPro.Recorder.CurrentGuide.GID)
+            end
+            if WoWPro.ProgressText then
+                WoWPro.ProgressText:SetText("Loading recorder guide")
+            end
             dialog:Close("WoWPro Recorder - New - "..module);
         end,
     }
@@ -189,74 +218,245 @@ local function CreateInitSpecMenus()
     end
 end
 
-local buttonTexture = [[Interface\Addons\WoWPro_Recorder\Textures\%s.tga]]
-local function CreateButton(name, desc, anchor, status)
-    local button = _G.CreateFrame("Button", "WoWProRecorder"..name.."Button", WoWPro.RecorderFrame)
-    button:SetSize(20,20)
-    button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
-    button:SetNormalTexture(buttonTexture:format(name))
-    -- button:SetText(name:sub(1,1))
+local recorderButtons = {}
+local recorderModeText
+local recorderStatusDot
+local recorderStatusLabel = {
+    REC = "RECORDING",
+    STOP = "STOPPED",
+}
+
+local function UpdateRecorderStatus(status)
+    WoWPro.Recorder.status = status
+    if WoWPro.RecordText then
+        WoWPro.RecordText:SetText((recorderStatusLabel[status] or status))
+        if status == "STOP" then
+            WoWPro.RecordText:SetTextColor(1, 0.28, 0.22)
+        else
+            WoWPro.RecordText:SetTextColor(0.35, 1, 0.45)
+        end
+    end
+    if recorderStatusDot then
+        local red, green, blue = 0.35, 1, 0.45
+        if status == "STOP" then
+            red, green, blue = 1, 0.28, 0.22
+        end
+        recorderStatusDot:SetColorTexture(red, green, blue, 1)
+    end
+end
+
+local function LayoutRecorderButtons()
+    local frame = WoWPro.RecorderFrame
+    if not frame or #recorderButtons == 0 then return end
+
+    local buttonHeight = 18
+    local gap = 3
+    local frameWidth = frame:GetWidth()
+    local horizontalPadding = 8
+    local buttonWidth = math.floor(
+        (frameWidth - (horizontalPadding * 2) - (gap * (#recorderButtons - 1))) / #recorderButtons
+    )
+    buttonWidth = math.max(34, buttonWidth)
+    local rowWidth = #recorderButtons * buttonWidth + (#recorderButtons - 1) * gap
+
+    for index, button in ipairs(recorderButtons) do
+        local x = math.floor((frameWidth - rowWidth) / 2 + 0.5) + (index - 1) * (buttonWidth + gap)
+
+        button:ClearAllPoints()
+        button:SetSize(buttonWidth, buttonHeight)
+        button:SetPoint("TOPLEFT", frame, "TOPLEFT", x, -23)
+    end
+
+    if recorderModeText then
+        recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+    end
+end
+
+local function SetRecorderButtonNormal(button)
+    button:SetBackdropColor(0.045, 0.05, 0.055, 0.96)
+    button:SetBackdropBorderColor(0.28, 0.29, 0.30, 0.95)
+end
+
+local function StyleRecorderPanel(frame)
+    if not frame or not frame.SetBackdrop or not frame.SetBackdropColor then return end
+    frame:SetBackdrop({
+        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = true,
+        tileSize = 16,
+        edgeSize = 8,
+        insets = { left = 1, right = 1, top = 1, bottom = 1 },
+    })
+    frame:SetBackdropColor(0.045, 0.05, 0.055, 0.96)
+    frame:SetBackdropBorderColor(0.28, 0.29, 0.30, 0.95)
+end
+
+local function StyleRecorderDialogNode(node)
+    if not node then return end
+    local nodeType = node.GetObjectType and node:GetObjectType()
+
+    if node.SetBackdrop and node.SetBackdropColor then
+        StyleRecorderPanel(node)
+    end
+    if nodeType == "FontString" and node.SetTextColor then
+        node:SetTextColor(0.82, 0.84, 0.87, 1)
+    elseif nodeType == "EditBox" and node.SetTextColor then
+        node:SetTextColor(0.9, 0.92, 0.95, 1)
+    end
+
+    if node.GetRegions then
+        local regions = { node:GetRegions() }
+        for _, region in ipairs(regions) do
+            if region ~= node then
+                StyleRecorderDialogNode(region)
+            end
+        end
+    end
+    if node.GetChildren then
+        local children = { node:GetChildren() }
+        for _, child in ipairs(children) do
+            StyleRecorderDialogNode(child)
+        end
+    end
+end
+
+function WoWPro.Recorder:StyleDialog(appName)
+    local function applyStyle()
+        local widget = dialog.OpenFrames and dialog.OpenFrames[appName]
+        if widget and widget.frame then
+            StyleRecorderDialogNode(widget.frame)
+        end
+    end
+    applyStyle()
+    _G.C_Timer.After(0.1, applyStyle)
+end
+
+if not dialog.WoWProRecorderStyledOpen then
+    local originalOpen = dialog.Open
+    dialog.Open = function(self, appName, ...)
+        local result = originalOpen(self, appName, ...)
+        if type(appName) == "string" and appName:find("^WoWPro Recorder") then
+            WoWPro.Recorder:StyleDialog(appName)
+        end
+        return result
+    end
+    dialog.WoWProRecorderStyledOpen = true
+end
+
+local function CreateButton(name, desc, _anchor, status)
+    local button = _G.CreateFrame("Button", "WoWProRecorder"..name.."Button", WoWPro.RecorderFrame, "BackdropTemplate")
+    button:SetSize(34, 18)
+    button:SetBackdrop({
+        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = true,
+        tileSize = 16,
+        edgeSize = 8,
+        insets = { left = 1, right = 1, top = 1, bottom = 1 },
+    })
+    SetRecorderButtonNormal(button)
+    local label = name == "Subtract" and "Remove" or name == "Advanced" and "Mode" or name
+    local text = button:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+    text:SetPoint("CENTER")
+    text:SetText(label)
+    text:SetTextColor(0.82, 0.84, 0.87)
+    button.Text = text
 
     button:SetScript("OnMouseUp", function(self, mouseButton)
         if mouseButton == "LeftButton" then
             if status then
-                WoWPro.Recorder.status = status
-                WoWPro.RecordText:SetText(WoWPro.Recorder.status)
+                if status == "REC" and not CurrentRecorderGuideID() then
+                    _G.StaticPopup_Show("WOWPRO_RECORDER_MESSAGE", "Create or open a recorder guide before starting recording.")
+                    return
+                end
+                UpdateRecorderStatus(status)
             else
                 dialog:Open("WoWPro Recorder - "..name, WoWPro.DialogFrame)
             end
         end
     end)
     button:SetScript("OnEnter", function(self)
-        _G.GameTooltip:ClearAllPoints()
-        _G.GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-        _G.GameTooltip:AddLine(name, 1, 1, 1, 1)
+        self:SetBackdropColor(0.11, 0.13, 0.16, 1)
+        self:SetBackdropBorderColor(0.52, 0.56, 0.62, 1)
+        self.Text:SetTextColor(1, 1, 1)
+        _G.GameTooltip:SetOwner(self, "ANCHOR_TOP")
+        _G.GameTooltip:SetText(name, 1, 0.82, 0)
         _G.GameTooltip:AddLine(desc, 0.7, 0.7, 0.7, 0.7)
         _G.GameTooltip:Show()
     end)
     button:SetScript("OnLeave", function(self)
+        SetRecorderButtonNormal(self)
+        self.Text:SetTextColor(0.82, 0.84, 0.87)
         _G.GameTooltip:Hide()
     end)
 
+    recorderButtons[#recorderButtons + 1] = button
     return button
 end
 
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
-    local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    recorderframe:SetHeight(48)
+    recorderButtons = {}
+    recorderModeText = nil
+    recorderStatusDot = nil
+
+    local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, "BackdropTemplate")
+    recorderframe:SetHeight(45)
     recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
     recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
-    recorderframe:SetBackdrop( {
-        bgFile = WoWProDB.profile.bgtexture,
-        edgeFile = WoWProDB.profile.bordertexture,
-        tile = true, tileSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+    recorderframe:SetBackdrop({
+        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        tile = true, tileSize = 16, edgeSize = 12,
+        insets = { left = 3, right = 3, top = 3, bottom = 3 },
     })
-    recorderframe:RegisterForClicks("AnyUp")
+    recorderframe:SetBackdropColor(0.035, 0.04, 0.05, 0.97)
+    recorderframe:SetBackdropBorderColor(0.35, 0.38, 0.42, 1)
+    recorderframe:EnableMouse(true)
+    recorderframe:RegisterForDrag("LeftButton")
     WoWPro.RecorderFrame = recorderframe
-    -- Scripts --
-    WoWPro.RecorderFrame:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.ResetMainFramePosition()
+    for _, row in ipairs(WoWPro.rows or {}) do
+        row:Hide()
+        row:SetAlpha(0)
+    end
+
+    recorderframe:SetScript("OnDragStart", function()
+        if WoWProDB.profile.drag and not _G.InCombatLockdown() then
             WoWPro.MainFrame:StartMoving()
         end
     end)
-    WoWPro.RecorderFrame:SetScript("OnMouseUp", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
+    recorderframe:SetScript("OnDragStop", function()
+        if WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.AnchorStore("Recorder:OnMouseUp")
+            _G.C_Timer.After(0.1, function()
+                WoWPro:SendMessage("WoWPro_AnchorStoreRequested", "RecorderFrameDragStop")
+            end)
         end
     end)
+    recorderframe:SetScript("OnSizeChanged", LayoutRecorderButtons)
 
-    local recordtext = WoWPro.RecorderFrame:CreateFontString(nil, nil, "GameFontHighlight")
-    recordtext:SetFont("Fonts\\FRIZQT__.TTF", 10)
-    recordtext:SetPoint("LEFT", WoWPro.RecorderFrame, "LEFT", 6, 8)
-    recordtext:SetPoint("RIGHT", WoWPro.RecorderFrame, "LEFT", 37, 8)
-    recordtext:SetJustifyH("LEFT")
-    WoWPro.Recorder.status = WoWPro.Recorder.status or "REC"
-    recordtext:SetText(WoWPro.Recorder.status)
+    local title = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+    title:SetPoint("TOPLEFT", recorderframe, "TOPLEFT", 8, -7)
+    title:SetText("GUIDE RECORDER")
+    title:SetTextColor(0.68, 0.74, 0.82)
+
+    recorderModeText = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+    recorderModeText:SetPoint("TOP", recorderframe, "TOP", 0, -7)
+    recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+
+    local recordtext = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+    recordtext:SetPoint("TOPRIGHT", recorderframe, "TOPRIGHT", -10, -7)
+    recordtext:SetJustifyH("RIGHT")
+    if not CurrentRecorderGuideID() then
+        WoWPro.Recorder.status = "STOP"
+    else
+        WoWPro.Recorder.status = WoWPro.Recorder.status or "REC"
+    end
     WoWPro.RecordText = recordtext
+    recorderStatusDot = recorderframe:CreateTexture(nil, "OVERLAY")
+    recorderStatusDot:SetSize(6, 6)
+    recorderStatusDot:SetPoint("RIGHT", recordtext, "LEFT", -5, 0)
+    UpdateRecorderStatus(WoWPro.Recorder.status)
 
     WoWPro.RecordButton = CreateButton("Record", "Click to record.", WoWPro.RecordText, "REC")
     WoWPro.StopButton = CreateButton("Stop", "Click to stop recording.", WoWPro.RecordButton, "STOP")
@@ -427,8 +627,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             return tonumber(rank)
                     end,
                     set = function(info,val)
-                        if val == 1 then val = nil else val = tostring(val) end
-                        WoWPro.Recorder.stepInfo.rank = val
+                        WoWPro.Recorder.stepInfo.rank = tostring(val)
                     end,
                 },
                 map = {
@@ -763,6 +962,17 @@ function WoWPro.Recorder:CreateRecorderFrame()
         dialog:SetDefaultSize("WoWPro Recorder - Subtract", 300, 200)
 
     WoWPro.EditButton = CreateButton("Edit", "Click to open the step editor for the selected step.", WoWPro.SubtractButton)
+    WoWPro.EditButton:SetScript("OnMouseUp", function(_, mouseButton)
+        if mouseButton ~= "LeftButton" then return end
+
+        local GID = CurrentRecorderGuideID()
+        if not GID then
+            WoWPro:Error("There is no recorder guide in progress. Create or open a recorder guide first.")
+            return
+        end
+
+        OpenActionForRecorderGuide(GID, "edit")
+    end)
         config:RegisterOptionsTable("WoWPro Recorder - Current Guide Steps", {
             name = "Current Guide Steps",
             type = "group",
@@ -885,8 +1095,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             return tonumber(rank)
                         end,
                     set = function(info,val)
-                            if val == 1 then val = nil else val = tostring(val) end
-                            WoWPro.rank[WoWPro.Recorder.SelectedStep] = val
+                            WoWPro.rank[WoWPro.Recorder.SelectedStep] = tostring(val)
                             WoWPro:UpdateGuide()
                             WoWPro.Recorder:SaveGuide()
                         end,
@@ -1317,38 +1526,42 @@ function WoWPro.Recorder:CreateRecorderFrame()
         })
         dialog:SetDefaultSize("WoWPro Recorder - New", 300, 125)
 
-        WoWPro.OpenButton = CreateButton("Open", "Click to open a guide to edit.", WoWPro.NewButton)
+        WoWPro.OpenButton = CreateButton("Open", "Click to open a recorder guide in progress.", WoWPro.NewButton)
         config:RegisterOptionsTable("WoWPro Recorder - Open", {
-            name = "Open Guide",
+            name = "Open Recorder Guide",
             type = "group",
             args = {
                 guidetype = {
                     order = 0,
                     type = "select",
-                    name = "Select a guide to open:",
-                    desc = "All guides are listed here, including those that come with the addon and those you have created using the recorder.",
+                    name = "Select a recorder guide to open:",
+                    desc = "Only guides saved or currently being created by the recorder are listed here.",
                     width = "full",
                     values = function()
                         local infoTable = {}
                         local sortedGuides = {}
                         WoWPro.Recorder.OpenGuideMap = {}
                         for GID, guideInfo in pairs(WoWPro.Guides) do
-                            local guideName = WoWPro:GetGuideName(GID)
-                            local author = tostring(guideInfo.author or "Unknown")
-                            local label
-                            if WoWPro.Recorder.Advanced then
-                                label = string.format("%s (%s) by %s", guideName, GID, author)
-                                if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
-                                    label = "!" .. label
+                            local isRecordingGuide = (WoWPro_RecorderDB and WoWPro_RecorderDB[GID])
+                                or (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID == GID)
+                            if isRecordingGuide then
+                                local guideName = WoWPro:GetGuideName(GID)
+                                local author = tostring(guideInfo.author or "Unknown")
+                                local label
+                                if WoWPro.Recorder.Advanced then
+                                    label = string.format("%s (%s) by %s", guideName, GID, author)
+                                    if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
+                                        label = "!" .. label
+                                    end
+                                else
+                                    label = string.format("%s (%s)", guideName, GID)
                                 end
-                            else
-                                label = string.format("%s (%s)", guideName, GID)
+                                sortedGuides[#sortedGuides + 1] = {
+                                    gid = GID,
+                                    label = label,
+                                    sortName = tostring(guideName):lower(),
+                                }
                             end
-                            sortedGuides[#sortedGuides + 1] = {
-                                gid = GID,
-                                label = label,
-                                sortName = tostring(guideName):lower(),
-                            }
                         end
                         table.sort(sortedGuides, function(a, b)
                             if a.sortName == b.sortName then
@@ -1371,6 +1584,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                                 return
                             end
                             WoWPro:Print("Recorder loading guide %s",GID)
+                            WoWProCharDB = WoWProCharDB or {}
+                            WoWProCharDB.RecorderGuide = GID
+                            WoWProCharDB.RecorderActive = true
+                            WoWPro.Recorder.CurrentGuide.GID = GID
                             WoWPro:LoadGuide(GID)
                             dialog:Close("WoWPro Recorder - Open")
                         end,
@@ -1382,6 +1599,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
     WoWPro.SaveButton = CreateButton("Save", "Click to save the current guide.", WoWPro.OpenButton)
     WoWPro.SaveButton:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" then
+            local GID = CurrentRecorderGuideID()
+            if not GID then
+                WoWPro:Error("There is no recorder guide in progress. Create or open a recorder guide first.")
+                return
+            end
+
             WoWPro.Recorder:SaveGuide(true)
         end
     end)
@@ -1413,6 +1636,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             end
                             WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
                         end
+                        WoWProCharDB.RecorderActive = false
+                        WoWProCharDB.RecorderGuide = nil
+                        WoWPro.Recorder.CurrentGuide.GID = nil
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
 
@@ -1462,28 +1688,39 @@ function WoWPro.Recorder:CreateRecorderFrame()
         end
     end)
     dialog:SetDefaultSize("WoWPro Recorder - Adv", 300, 125)
-
+    LayoutRecorderButtons()
 end
 
 -- Customizing Recorder Frame --
 function WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.RecorderFrame then return end
     WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
-    WoWPro.RecorderFrame:SetBackdrop( {
-        bgFile = WoWProDB.profile.bgtexture,
-        edgeFile = WoWProDB.profile.bordertexture,
-        tile = true, tileSize = 16, edgeSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-    })
-    WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
+    WoWPro.RecorderFrame:SetBackdropColor(0.035, 0.04, 0.05, 0.97)
     if WoWProDB.profile.border then
-        WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1)
+        WoWPro.RecorderFrame:SetBackdropBorderColor(0.35, 0.38, 0.42, 1)
     else
         WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0)
     end
 
+    for _, panel in ipairs({
+        WoWPro.MainFrame,
+        WoWPro.TitleBar,
+        WoWPro.GuideFrame,
+        WoWPro.StickyHeader,
+    }) do
+        StyleRecorderPanel(panel)
+    end
+    if WoWPro.TitleText then WoWPro.TitleText:SetTextColor(0.84, 0.88, 0.94, 1) end
+    if WoWPro.ProgressText then WoWPro.ProgressText:SetTextColor(0.55, 0.86, 0.72, 1) end
+    for _, row in ipairs(WoWPro.rows or {}) do
+        StyleRecorderPanel(row)
+        if row.step then row.step:SetTextColor(0.92, 0.82, 0.46, 1) end
+        if row.note then row.note:SetTextColor(0.72, 0.76, 0.82, 1) end
+        if row.track then row.track:SetTextColor(0.62, 0.76, 0.88, 1) end
+    end
+
 --Minimum Frame Size to match --
-    local minSize = ( (WoWProCharDB and WoWProCharDB.Advanced) or WoWPro.Recorder.Advanced ) and 350 or 250
+    local minSize = ((WoWProCharDB and WoWProCharDB.Advanced) or WoWPro.Recorder.Advanced) and 850 or 350
     if WoWProDB and WoWProDB.profile then
         WoWProDB.profile.hminresize = minSize
     end
@@ -1491,6 +1728,34 @@ function WoWPro.Recorder:CustomizeFrames()
         WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Adjusting MainFrame width to %d.", minSize)
         WoWPro.MainFrame:SetWidth(minSize)
     end
+
+    local recordingGID = CurrentRecorderGuideID()
+    local currentGID = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide
+    local showingRecorderGuide = recordingGID and currentGID == recordingGID
+
+    WoWPro:SafeSetShown(WoWPro.GuideFrame, showingRecorderGuide and WoWPro.GuideLoaded and true or false)
+    if not showingRecorderGuide then
+        WoWPro:SafeSetShown(WoWPro.StickyHeader, false)
+    end
+    WoWPro:SafeSetShown(WoWPro.ButtonBar, false)
+    if showingRecorderGuide then
+        if WoWPro.TitleText then
+            local guide = WoWPro.Guides[recordingGID]
+            WoWPro.TitleText:SetText("Recorder: "..(guide and (guide.name or recordingGID) or recordingGID))
+        end
+        if WoWPro.ProgressText then
+            WoWPro.ProgressText:SetText((WoWPro.stepcount or 0).." recorded steps")
+        end
+    else
+        if WoWPro.TitleText then
+            WoWPro.TitleText:SetText("No recorder guide selected")
+        end
+        if WoWPro.ProgressText then
+            WoWPro.ProgressText:SetText("Use New or Open to begin")
+        end
+    end
+    WoWPro:MainFrameLayout()
+    LayoutRecorderButtons()
 end
 
 -- Dialogs --
