@@ -41,6 +41,14 @@ WoWPro.ResizeHandlers = WoWPro.ResizeHandlers or {}
 -- Narrowest MainFrame width allowed when the resizeoverride option is enabled
 WoWPro.NARROW_MIN_WIDTH = 100
 
+local function IsRecorderEnabled()
+    return WoWPro.Recorder and WoWPro.Recorder:IsEnabled()
+end
+
+local function PreserveNormalFrameSize()
+    return IsRecorderEnabled() or WoWPro.Recorder and WoWPro.Recorder.RestoringNormalFrame
+end
+
 local function GetUIScreenSize()
     local ui = _G.UIParent
     local physW, physH = _G.GetPhysicalScreenSize()
@@ -79,7 +87,7 @@ function WoWPro.SetMainFrameSize(w, h, persist)
     local MF = WoWPro.MainFrame
     local maxW, maxH = WoWPro.GetMainFrameMaxSize()
     MF:SetSize(math.min(w, maxW), math.min(h, maxH))
-    if persist then
+    if persist and not PreserveNormalFrameSize() then
         WoWProDB.profile.size = {MF:GetHeight(), MF:GetWidth()}
     end
 end
@@ -529,6 +537,9 @@ end
 
 -- Minimum MainFrame width: the user's hminresize, or the fixed override floor when resizeoverride is enabled
 function WoWPro.GetMinMainFrameWidth()
+    if IsRecorderEnabled() then
+        return WoWPro.Recorder.Advanced and 850 or 350
+    end
     local Profile = WoWProDB.profile
     if Profile.resizeoverride then
         return WoWPro.NARROW_MIN_WIDTH
@@ -669,7 +680,9 @@ function WoWPro.AnchorStore(reason, expansionAnchorOverride)
     Profile.position = pos
     Profile.scale = scale
     local size = {MF:GetHeight(), MF:GetWidth() }
-    Profile.size = size
+    if not PreserveNormalFrameSize() then
+        Profile.size = size
+    end
 
     WoWPro:dbp("AnchorStore(" .. reason .. "): Saved position using " .. expansionAnchor .. " - Width: " .. size[2] .. " Height: " .. size[1])
     WoWPro.Trace("AnchorStore: position saved", reason)
@@ -1364,7 +1377,9 @@ function WoWPro.ResizeHandlers.OnMouseUp(_, button)
 
     WoWPro:UpdateGuide("ResizeStop")
     WoWPro:UpdateFlyoutClip()
-    WoWProDB.profile.size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth()}
+    if not PreserveNormalFrameSize() then
+        WoWProDB.profile.size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth()}
+    end
 end
 
 -- Button Bar --

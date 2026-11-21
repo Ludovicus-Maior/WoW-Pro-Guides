@@ -2329,14 +2329,12 @@ function WoWPro.Recorder:CustomizeFrames()
         if row.track then row.track:SetTextColor(0.62, 0.76, 0.88, 1) end
     end
 
---Minimum Frame Size to match --
-    local minSize = ((WoWProCharDB and WoWProCharDB.Advanced) or WoWPro.Recorder.Advanced) and 850 or 350
-    if WoWProDB and WoWProDB.profile then
-        WoWProDB.profile.hminresize = minSize
-    end
-    if WoWPro.MainFrame:GetWidth() ~= minSize then
+    local minSize = WoWPro.Recorder.Advanced and 850 or 350
+    if not _G.InCombatLockdown() and WoWPro.MainFrame:GetWidth() ~= minSize then
         WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Adjusting MainFrame width to %d.", minSize)
         WoWPro.MainFrame:SetWidth(minSize)
+    elseif _G.InCombatLockdown() then
+        self.PendingCombatRowUpdate = true
     end
 
     local recordingGID = CurrentRecorderGuideID()

@@ -146,6 +146,7 @@ function WoWPro.Recorder:OnInitialize()
 end
 
 function WoWPro.Recorder:OnEnable()
+    self.RestoringNormalFrame = nil
     WoWProCharDB = WoWProCharDB or {}
     if WoWProCharDB.Advanced == nil then
         WoWProCharDB.Advanced = WoWPro.Recorder.Advanced
@@ -202,6 +203,26 @@ function WoWPro.Recorder:OnDisable()
     end
     if self.PreviewFrame then self.PreviewFrame:Hide() end
     if self.StepListFrame then self.StepListFrame:Hide() end
+    self.RestoringNormalFrame = true
+    local function restoreNormalFrame()
+        if self:IsEnabled() or not WoWPro:IsEnabled() then
+            self.RestoringNormalFrame = nil
+            return
+        end
+        if _G.InCombatLockdown() then
+            _G.C_Timer.After(1, restoreNormalFrame)
+            return
+        end
+        if WoWPro.RecorderFrame then WoWPro.RecorderFrame:Hide() end
+        if WoWPro.MainFrame and WoWPro.rows then
+            WoWPro:CustomizeFrames()
+            WoWPro.AnchorSync()
+            WoWPro:MainFrameLayout()
+            WoWPro:UpdateGuide("WoWPro.Recorder:Disabled")
+        end
+        self.RestoringNormalFrame = nil
+    end
+    restoreNormalFrame()
 end
 
 function WoWPro.Recorder:OnUIReloaded()
