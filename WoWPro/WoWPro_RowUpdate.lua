@@ -109,6 +109,7 @@ local function DuplicateObjectiveNote(note, track)
     track = track:gsub("%s+%(C%)$", "")
     local objective = track:match("^%-%s*(%d+%s*/%s*%d+%s+.+)$")
         or track:match("^%-%s*(.-%s+%d+%s*/%s*%d+)%s*$")
+        or track:match("^%-%s*(.+)$")
     if not objective then return false end
     local function normalize(text)
         return text:lower():gsub("^%s*%d+%s*/%s*%d+%s+", "")
