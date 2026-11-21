@@ -730,7 +730,12 @@ function WoWPro.Recorder.PostGuideLoad()
     _G.C_Timer.After(1.0, function()
         WoWPro.Recorder.LoadingGuide = false
         WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay, quest recording enabled")
+        WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
         WoWPro.Recorder:CustomizeFrames()
+        WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
+        if WoWPro.Recorder.SelectedStep then
+            WoWPro.Recorder:RowUpdate()
+        end
         if pendingAction and WoWProDB.char.currentguide == pendingGID then
             if pendingAction == "edit" then
                 dialog:Open("WoWPro Recorder - Edit", WoWPro.DialogFrame)
@@ -963,7 +968,13 @@ local dropdown = {
 }
 
 function WoWPro.Recorder:RowUpdate(offset)
-    WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
+    if (WoWPro.stepcount or 0) < 1 or not WoWPro.rows then
+        return
+    end
+    WoWPro.Recorder.SelectedStep = math.max(
+        1,
+        math.min(WoWPro.Recorder.SelectedStep or WoWPro.stepcount, WoWPro.stepcount)
+    )
     WoWPro.Recorder.RowDropdownMenu = {}
     local selected = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 1
     local startStep = math.max(1, math.min(selected, WoWPro.stepcount or 1))

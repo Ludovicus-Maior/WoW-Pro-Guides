@@ -324,6 +324,12 @@ function WoWPro.Recorder:StyleDialog(appName)
     local function applyStyle()
         local widget = dialog.OpenFrames and dialog.OpenFrames[appName]
         if widget and widget.frame then
+            if appName == "WoWPro Recorder - Edit" then
+                local status = dialog:GetStatusTable(appName)
+                status.width = 900
+                status.height = 780
+                widget:SetStatusTable(status)
+            end
             StyleRecorderDialogNode(widget.frame)
         end
     end
@@ -665,7 +671,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     multiline = true,
                     name = "Note Text:",
                     desc = "Details on how to complete this step of the guide. No more than one or two sentences, please. Only leave blank for blatantly obvious steps.",
-                    width = "full",
+                    width = 3,
                     get = function(info,val) return WoWPro.Recorder.stepInfo.note end,
                     set = function(info,val)
                         if val == "" then val = nil end
@@ -681,6 +687,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 9,
                     type = "toggle",
                     name = "Sticky Step",
+                    width = "double",
                     desc = "Check if this is an sticky step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.sticky end,
                     set = function(info,val)
@@ -691,6 +698,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 10,
                     type = "toggle",
                     name = "Unsticky Step",
+                    width = "double",
                     desc = "Check if this is an unsticky step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.unsticky end,
                     set = function(info,val)
@@ -701,6 +709,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 11,
                     type = "toggle",
                     name = "Non-Combat Step",
+                    width = "double",
                     desc = "Check if this is a quest completion step NOT involving combat.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.noncombat end,
                     set = function(info,val)
@@ -711,6 +720,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 12,
                     type = "toggle",
                     name = "Optional Step",
+                    width = "double",
                     desc = "Check if this is an optional step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.optional end,
                     set = function(info,val)
@@ -1018,7 +1028,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "input",
                     name = "Go To Step:",
                     desc = "Jump to a step index while staying in the editor.",
-                    width = 1.5,
+                    width = 1,
                     get = function(info)
                         local selected = RecorderSelectedOrActiveStep()
                         WoWPro.Recorder.EditGoToStep = WoWPro.Recorder.EditGoToStep or selected
@@ -1056,16 +1066,17 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 0.3,
                     type = "execute",
                     name = "Current Guide",
-                    width = 1,
+                    width = 3,
                     desc = "Open a numbered list of every step in the current guide.",
                     func = function()
                         dialog:Open("WoWPro Recorder - Current Guide Steps", WoWPro.DialogFrame)
                     end,
                 },
                 action = {
-                    order = 1,
+                    order = 1.1,
                     type = "select",
                     name = "Action Type:",
+                    width = "double",
                     desc = "The step's type.",
                     values = WoWPro.actionlabels,
                     get = function(info)
@@ -1077,9 +1088,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         end,
                 },
                 rank = {
-                    order = 3,
+                    order = 1.11,
                     type = "select",
                     name = "Rank:",
+                    width = "double",
                     desc = "The rank of the step. If you are unsure, leave it as 1.",
                     values = {
                         [-3] = "Rank -3",
@@ -1101,9 +1113,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         end,
                 },
                 QID = {
-                    order = 3,
+                    order = 1,
                     type = "input",
                     name = "Quest ID:",
+                    width = 0.6,
                     desc = "The quest tied to this step. If this quest is complete, this step will be checked off.",
                     get = function(info) return tostring(WoWPro.QID[WoWPro.Recorder.SelectedStep]) end,
                     set = function(info,val)
@@ -1114,9 +1127,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     end,
                 },
                 zone = {
-                    order = 4,
+                    order = 1.3,
                     type = "input",
                     name = "Zone:",
+                    width = 2,
                     desc = "You need a zone tag if the coordinates lead to a point outside the guide's title zone.",
                     get = function(info) return WoWPro.zone[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1127,10 +1141,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     end,
                 },
                 map = {
-                    order = 5,
+                    order = 1.4,
                     type = "input",
                     name = "Coordinates:",
-                    width = 1.5,
+                    width = 2,
                     desc = "Enter coordinates for the step here, in the form '##.##,##.##'. Seperate multiple coordinates with semicolons (;)",
                     get = function(info) return WoWPro.map[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1141,7 +1155,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     end,
                 },
                 here = {
-                    order = 5.5,
+                    order = 1.5,
                     type = "execute",
                     name = "Here",
                     width = 0.5,
@@ -1164,9 +1178,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     end,
                 },
                 step = {
-                    order = 1.5,
+                    order = 1.01,
                     type = "input",
                     name = "Quest Name",
+                    width = 3.5,
                     desc = "The main text for this step - often the quest name.",
                     get = function(info) return WoWPro.step[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1176,9 +1191,14 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         WoWPro.Recorder:SaveGuide()
                     end,
                 },
+                locationheader = {
+                    order = 1.15,
+                    type = "header",
+                    name = "Location",
+                },
 
                 note = {
-                    order = 7,
+                    order = 2.3,
                     type = "input",
                     multiline = true,
                     name = "Note Text:",
@@ -1195,7 +1215,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                 comheader = {
                     order = 8,
                     type = "header",
-                    name = "Common Tags",
+                    name = "Common Tags and Step Behavior",
                 },
                 sticky = {
                     order = 9,
@@ -1249,6 +1269,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 13,
                     type = "toggle",
                     name = "Chat Step",
+                    width = 1,
                     desc = "Check if this is a chat step.",
                     get = function(info) return WoWPro.chat[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1261,6 +1282,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 14,
                     type = "toggle",
                     name = "Waypoint Complete",
+                    width = 1,
                     desc = "Makes a run step complete based on coordinates rather than zone name. (CC)",
                     get = function(info)
                         local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
@@ -1278,6 +1300,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 15,
                     type = "toggle",
                     name = "Waypoint Series",
+                    width = 1,
                     desc = "Makes a run step complete based on a series of coordinates, followed in order. (CS)",
                     get = function(info)
                         local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
@@ -1295,6 +1318,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 16,
                     type = "toggle",
                     name = "Resource List",
+                    width = 1,
                     desc = "Do not complete based on coordinates. Just show the dots. (CN)",
                     get = function(info)
                         local wc = WoWPro.waypcomplete[WoWPro.Recorder.SelectedStep]
@@ -1317,6 +1341,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 17,
                     type = "input",
                     name = "Quest Objective:",
+                    width = "full",
                     desc = "If the step completes based on one or two quest objectives, not the whole quest, you can enter the quest objective here. Seperate multiple objectives with semicolons (;)",
                     get = function(info) return WoWPro.questtext[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1330,6 +1355,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 18,
                     type = "input",
                     name = "Scenario Stage/Objective:",
+                    width = 1,
                     desc = "If the step completes based on a scenario stage or objective, put the stage (or stage and objective separated by a ;) here.",
                     get = function(info) return WoWPro.sobjective[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1343,6 +1369,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 19,
                     type = "input",
                     name = "Prerequisite QID:",
+                    width = 1,
                     desc = "If the quest has a prerequisite, list it's QID here. Seperate multiple prerequisites with AND/OR (&^)",
                     get = function(info) return WoWPro.prereq[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1356,6 +1383,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 20,
                     type = "input",
                     name = "Active QID:",
+                    width = 1,
                     desc = "If a particular quest must be active, list it's QID here. Seperate multiple actives with AND/OR (&^)",
                     get = function(info) return WoWPro.active[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1369,6 +1397,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 22,
                     type = "input",
                     name = "Useable Item ID:",
+                    width = 1,
                     desc = "If the step requires you to use an item, put it's ID here.",
                     get = function(info) return WoWPro.use[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1382,6 +1411,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 23,
                     type = "input",
                     name = "Target Name:",
+                    width = 1,
                     desc = "If it would be helpful to provide an easy way to target a named mob, enter the mob's name here. Use only for hard to find mobs.",
                     get = function(info) return WoWPro.target[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1395,6 +1425,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 24,
                     type = "input",
                     name = "Looted Item ID:",
+                    width = 1,
                     desc = "If the step completes when you loot an item, put it's ID here.",
                     get = function(info)
                         local items = WoWPro.lootitem[WoWPro.Recorder.SelectedStep]
@@ -1423,6 +1454,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 26,
                     type = "input",
                     name = "Level Completion:",
+                    width = 1,
                     desc = "This step will be marked complete when you reach this level.",
                     get = function(info) return WoWPro.level[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1436,6 +1468,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 27,
                     type = "input",
                     name = "Profession Step:",
+                    width = 1,
                     desc = "Displayed if the user has the profession at the required skill level. Please enter in the form of 'Profession SkillLevel'.",
                     get = function(info) return WoWPro.prof[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1449,6 +1482,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 28,
                     type = "input",
                     name = "Lead-In to QID:",
+                    width = "full",
                     desc = "If this quest is a Lead-In to another quest (meaning that other quest CAN be completed without this one, and doing so makes this quest no longer available), please list the quest it leads to's QID here.",
                     get = function(info) return WoWPro.leadin[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1460,7 +1494,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                 },
             },
         })
-        dialog:SetDefaultSize("WoWPro Recorder - Edit", 750, 725)
+        dialog:SetDefaultSize("WoWPro Recorder - Edit", 900, 780)
 
     WoWPro.NoteButton = CreateButton("Note", "Click to open the note editor for the selected step.", WoWPro.EditButton)
         config:RegisterOptionsTable("WoWPro Recorder - Note", {
