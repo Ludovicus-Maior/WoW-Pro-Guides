@@ -290,6 +290,58 @@ local function RecorderHasObjectiveStep(questID, objective, objectiveIndex)
     return false
 end
 
+local function GetQuestSpecialItem(questID)
+    if not questID or not _G.GetQuestLogSpecialItemInfo then return end
+    local guideID = WoWProDB.char.currentguide
+    local guide = WoWPro.Guides and WoWPro.Guides[guideID]
+    if guide and guide.recorderIgnoredQuestItems and guide.recorderIgnoredQuestItems[tostring(questID)] then return end
+    local index
+    if _G.C_QuestLog and _G.C_QuestLog.GetLogIndexForQuestID then
+        index = _G.C_QuestLog.GetLogIndexForQuestID(questID)
+    elseif _G.GetQuestLogIndexByID then
+        index = _G.GetQuestLogIndexByID(questID)
+    else
+        local quest = WoWPro.QuestLog and WoWPro.QuestLog[questID]
+        index = quest and quest.index
+    end
+    if type(index) ~= "number" or index <= 0 then return end
+    local info = WoWPro.QuestLog_GetInfo(index)
+    if not info or tonumber(info.questID) ~= questID then return end
+    local link = _G.GetQuestLogSpecialItemInfo(index)
+    return type(link) == "string" and link:match("item:(%d+)") or nil
+end
+WoWPro.Recorder.GetQuestSpecialItem = GetQuestSpecialItem
+
+function WoWPro.Recorder:AddQuestItemsToExistingSteps()
+    if not self:IsRecordingGuide() or not WoWPro.GuideLoaded or self.LoadingGuide then return end
+    local stepsByQuest = {}
+    for index = 1, WoWPro.stepcount or 0 do
+        local questID = tonumber(WoWPro.QID[index])
+        if questID and WoWPro.action[index] == "C" then
+            if stepsByQuest[questID] then
+                stepsByQuest[questID] = false
+            elseif stepsByQuest[questID] ~= false then
+                stepsByQuest[questID] = index
+            end
+        end
+    end
+
+    local changed = false
+    for questID, index in pairs(stepsByQuest) do
+        if index and (not WoWPro.use[index] or WoWPro.use[index] == "") then
+            local item = GetQuestSpecialItem(questID)
+            if item then
+                WoWPro.use[index] = item
+                changed = true
+            end
+        end
+    end
+    if changed then
+        self:CheckpointCurrentGuide("QuestItems")
+        WoWPro:UpdateGuide("WoWPro.Recorder:QuestItems")
+    end
+end
+
 function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, position)
     if not questID then return false end
     for index = 1, WoWPro.stepcount or 0 do
@@ -348,7 +400,7 @@ function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, position)
         step = step,
         QID = questID,
         chat = WoWPro.Recorder.FindText("chat", table.concat(objectiveTexts, " ")),
-        use = usesItem and questInfo and questInfo.use or nil,
+        use = GetQuestSpecialItem(tonumber(questID)),
         note = note,
         target = target,
         class = questInfo and checkClassQuest(questID, WoWPro.QuestLog),
@@ -815,7 +867,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                         map = mapxy,
                                         zone = zonetag,
                                         chat = WoWPro.Recorder.FindText("chat", status),
-                                        use = WoWPro.QuestLog[QID].use,
+                                        use = GetQuestSpecialItem(tonumber(QID)),
                                         note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
                                         questtext = tostring(idx),
                                         class = checkClassQuest(QID,WoWPro.QuestLog)
@@ -975,6 +1027,7 @@ function WoWPro.Recorder.PostQuestLogUpdate()
         WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
         return
     end
+    WoWPro.Recorder:AddQuestItemsToExistingSteps()
     WoWPro.Recorder.eventHandler(nil,"POST_QUEST_LOG_UPDATE")
 end
 
@@ -1005,6 +1058,7 @@ function WoWPro.Recorder.PostGuideLoad()
             WoWPro.Recorder:CustomizeFrames()
             return
         end
+        WoWPro.Recorder:AddQuestItemsToExistingSteps()
         WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
         WoWPro.Recorder:CustomizeFrames()
         WoWPro:SafeSetShown(WoWPro.GuideFrame, true)

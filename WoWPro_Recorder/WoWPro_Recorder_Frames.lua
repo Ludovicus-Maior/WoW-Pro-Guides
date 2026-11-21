@@ -1318,8 +1318,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     desc = "If the step requires you to use an item, put it's ID here.",
                     get = function(info)
                         if WoWPro.Recorder.QIDtoAdd and not WoWPro.Recorder.stepInfo.use then
-                            WoWPro.Recorder.stepInfo.use = WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].use
-                            return WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].use
+                            local questID = tonumber(WoWPro.Recorder.stepInfo.QID or WoWPro.Recorder.QIDtoAdd)
+                            WoWPro.Recorder.stepInfo.use = WoWPro.Recorder.GetQuestSpecialItem(questID)
+                            return WoWPro.Recorder.stepInfo.use
                         else return WoWPro.Recorder.stepInfo.use end
                     end,
                     set = function(info,val)
@@ -1917,11 +1918,22 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "input",
                     name = "Useable Item ID:",
                     width = 1,
-                    desc = "If the step requires you to use an item, put it's ID here.",
+                    desc = "Enter an item ID, or clear it to disable automatic quest-item detection for this quest in this guide.",
                     get = function(info) return WoWPro.use[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
                         if val == "" then val = nil end
-                        WoWPro.use[WoWPro.Recorder.SelectedStep] = val
+                        local index = WoWPro.Recorder.SelectedStep
+                        local questID = WoWPro.action[index] == "C" and tonumber(WoWPro.QID[index])
+                        local guide = WoWPro.Guides[WoWProDB.char.currentguide]
+                        if questID and guide then
+                            if not val then
+                                guide.recorderIgnoredQuestItems = guide.recorderIgnoredQuestItems or {}
+                                guide.recorderIgnoredQuestItems[tostring(questID)] = true
+                            elseif guide.recorderIgnoredQuestItems then
+                                guide.recorderIgnoredQuestItems[tostring(questID)] = nil
+                            end
+                        end
+                        WoWPro.use[index] = val
                         WoWPro:UpdateGuide();
                         WoWPro.Recorder:SaveGuide()
                     end,
