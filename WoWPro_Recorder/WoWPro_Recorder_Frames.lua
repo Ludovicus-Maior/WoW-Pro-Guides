@@ -291,6 +291,14 @@ local function StyleRecorderPanel(frame)
     frame:SetBackdropBorderColor(0.28, 0.29, 0.30, 0.95)
 end
 
+local function ClearRecorderPanel(frame)
+    if not frame or not frame.SetBackdropColor then return end
+    frame:SetBackdropColor(0, 0, 0, 0)
+    if frame.SetBackdropBorderColor then
+        frame:SetBackdropBorderColor(0, 0, 0, 0)
+    end
+end
+
 local function StyleRecorderDialogNode(node)
     if not node then return end
     local nodeType = node.GetObjectType and node:GetObjectType()
@@ -1736,18 +1744,22 @@ function WoWPro.Recorder:CustomizeFrames()
         WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0)
     end
 
-    for _, panel in ipairs({
-        WoWPro.MainFrame,
-        WoWPro.TitleBar,
-        WoWPro.GuideFrame,
-        WoWPro.StickyHeader,
-    }) do
-        StyleRecorderPanel(panel)
+    StyleRecorderPanel(WoWPro.MainFrame)
+    StyleRecorderPanel(WoWPro.TitleBar)
+    if WoWPro.TitleBar then
+        WoWPro.TitleBar:SetHeight(58)
+        WoWPro.TitleText:ClearAllPoints()
+        WoWPro.TitleText:SetPoint("TOP", WoWPro.TitleBar, "TOP", 0, -10)
+        WoWPro.ProgressText:ClearAllPoints()
+        WoWPro.ProgressText:SetPoint("TOP", WoWPro.TitleText, "BOTTOM", 0, -4)
     end
+    ClearRecorderPanel(WoWPro.GuideFrame)
+    ClearRecorderPanel(WoWPro.StickyHeader)
     if WoWPro.TitleText then WoWPro.TitleText:SetTextColor(0.84, 0.88, 0.94, 1) end
     if WoWPro.ProgressText then WoWPro.ProgressText:SetTextColor(0.55, 0.86, 0.72, 1) end
     for _, row in ipairs(WoWPro.rows or {}) do
-        StyleRecorderPanel(row)
+        row:SetBackdropColor(0.045, 0.05, 0.055, 0.96)
+        row:SetBackdropBorderColor(0, 0, 0, 0)
         if row.step then row.step:SetTextColor(0.92, 0.82, 0.46, 1) end
         if row.note then row.note:SetTextColor(0.72, 0.76, 0.82, 1) end
         if row.track then row.track:SetTextColor(0.62, 0.76, 0.88, 1) end
@@ -1789,6 +1801,11 @@ function WoWPro.Recorder:CustomizeFrames()
         end
     end
     WoWPro:MainFrameLayout()
+    if WoWPro.TitleBar then
+        WoWPro.TitleBar:SetHeight(58)
+        WoWPro.TitleText:SetPoint("TOP", WoWPro.TitleBar, "TOP", 0, -10)
+        WoWPro.ProgressText:SetPoint("TOP", WoWPro.TitleText, "BOTTOM", 0, -4)
+    end
     LayoutRecorderButtons()
 end
 

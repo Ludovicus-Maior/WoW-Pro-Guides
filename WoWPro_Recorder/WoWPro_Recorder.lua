@@ -260,6 +260,14 @@ end
 function WoWPro.Recorder.eventHandler(frame, event, ...)
     local GID = WoWProDB.char.currentguide
     WoWPro.Recorder:dbp(event.." event fired.")
+    if event == "PLAYER_REGEN_ENABLED" then
+        if WoWPro.Recorder.PendingCombatRowUpdate then
+            WoWPro.Recorder.PendingCombatRowUpdate = nil
+            WoWPro.Recorder:RowUpdate()
+            WoWPro.Recorder:CustomizeFrames()
+        end
+        return
+    end
     if event == "QUEST_ACCEPTED" and WoWPro.Recorder.status == "STOP" then
         if WoWProCharDB and WoWProCharDB.SuppressStoppedQuestWarnings then
             return
@@ -915,6 +923,7 @@ function WoWPro.Recorder:RegisterEvents()
         "QUEST_ACCEPTED",
         "QUEST_REMOVED",
         "QUEST_TURNED_IN",
+        "PLAYER_REGEN_ENABLED",
     }
 
     for _, event in pairs(WoWPro.Recorder.events) do
@@ -971,6 +980,10 @@ function WoWPro.Recorder:RowUpdate(offset)
     if (WoWPro.stepcount or 0) < 1 or not WoWPro.rows then
         return
     end
+    if _G.InCombatLockdown() then
+        WoWPro.Recorder.PendingCombatRowUpdate = true
+        return
+    end
     WoWPro.Recorder.SelectedStep = math.max(
         1,
         math.min(WoWPro.Recorder.SelectedStep or WoWPro.stepcount, WoWPro.stepcount)
@@ -987,6 +1000,10 @@ function WoWPro.Recorder:RowUpdate(offset)
         if row then
             row.index = stepIndex
             row.num = rowIndex
+            row:ClearAllPoints()
+            row:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", 3, -3)
+            row:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -3, -3)
+            row:SetWidth(WoWPro.GuideFrame:GetWidth() - 6)
             row.step:ClearAllPoints()
             row.step:SetPoint("TOPLEFT", row.iconTexture, "TOPRIGHT", 3, -5)
             row.step:SetPoint("RIGHT", row, "RIGHT", -5, 0)
@@ -1011,24 +1028,30 @@ function WoWPro.Recorder:RowUpdate(offset)
             row:SetChecked(WoWPro.Recorder.SelectedStep == stepIndex)
             local detailHeight = row.note:GetStringHeight() or 0
             row:SetHeight(math.max(48, row.step:GetStringHeight() + detailHeight + 20))
+            row:SetBackdropColor(0.045, 0.05, 0.055, 0.96)
+            row:SetBackdropBorderColor(0, 0, 0, 0)
             row:SetAlpha(1)
             row:Show()
             WoWPro.Recorder.RowDropdownMenu[rowIndex] = dropdown
 
-            if row.itembutton then row.itembutton:Hide() end
-            if row.itembuttonSecured then row.itembuttonSecured:Hide() end
-            if row.targetbutton then row.targetbutton:Hide() end
-            if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
-            if row.jumpbutton then row.jumpbutton:Hide() end
-            if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
-            if row.eabutton then row.eabutton:Hide() end
-            if row.eabuttonSecured then row.eabuttonSecured:Hide() end
+            if not _G.InCombatLockdown() then
+                if row.itembutton then row.itembutton:Hide() end
+                if row.itembuttonSecured then row.itembuttonSecured:Hide() end
+                if row.targetbutton then row.targetbutton:Hide() end
+                if row.targetbuttonSecured then row.targetbuttonSecured:Hide() end
+                if row.jumpbutton then row.jumpbutton:Hide() end
+                if row.jumpbuttonSecured then row.jumpbuttonSecured:Hide() end
+                if row.eabutton then row.eabutton:Hide() end
+                if row.eabuttonSecured then row.eabuttonSecured:Hide() end
+            end
         end
     end
 
     for index = rowIndex + 1, #WoWPro.rows do
         WoWPro.rows[index]:SetAlpha(0)
-        WoWPro.rows[index]:Hide()
+        if not _G.InCombatLockdown() then
+            WoWPro.rows[index]:Hide()
+        end
     end
     WoWPro.RowLimit = rowIndex
     WoWPro:SetActiveStickyCount(0)
@@ -1041,7 +1064,7 @@ function WoWPro.Recorder:RowUpdate(offset)
                 rowsHeight = rowsHeight + row:GetHeight()
             end
         end
-        local compactHeight = math.max(72, rowsHeight + 12)
+        local compactHeight = math.max(110, rowsHeight + 42)
         if WoWPro.MainFrame:GetHeight() ~= compactHeight then
             WoWPro.SetMainFrameSize(WoWPro.MainFrame:GetWidth(), compactHeight)
         end
