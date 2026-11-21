@@ -104,6 +104,20 @@ local function NormalizeTrackText(track)
         :gsub("\n\n+", "\n")
 end
 
+local function DuplicateObjectiveNote(note, track)
+    if not note or track:find("\n", 1, true) then return false end
+    track = track:gsub("%s+%(C%)$", "")
+    local objective = track:match("^%-%s*(%d+%s*/%s*%d+%s+.+)$")
+        or track:match("^%-%s*(.-%s+%d+%s*/%s*%d+)%s*$")
+    if not objective then return false end
+    local function normalize(text)
+        return text:lower():gsub("^%s*%d+%s*/%s*%d+%s+", "")
+            :gsub("%s*:?%s*%d+%s*/%s*%d+%s*$", "")
+            :gsub("[%s%.]+$", ""):gsub("^%s+", "")
+    end
+    return normalize(note) == normalize(objective)
+end
+
 function WoWPro.UpdateQuestTrackerRow(row, syncData)
     local GID = WoWProDB.char.currentguide
     if not GID or not WoWPro.Guides[GID] then
@@ -216,6 +230,15 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
         end
     end
 
+    track = NormalizeTrackText(track)
+    if row.displayNoteIndex == index then
+        local note = row.displayNote
+        local baseNote = row.displayBaseNote
+        if baseNote and note:sub(1, #baseNote) == baseNote and DuplicateObjectiveNote(baseNote, track) then
+            note = note:sub(#baseNote + 1):gsub("^%s+", "")
+        end
+        row.note:SetText(note)
+    end
     local trackAnchor = row.note:IsShown() and row.note:GetText() ~= "" and row.note or row.step
     row.track:ClearAllPoints()
     row.track:SetJustifyH("RIGHT")
@@ -227,7 +250,7 @@ function WoWPro.UpdateQuestTrackerRow(row, syncData)
     row.progressBar:SetPoint("RIGHT", row, "RIGHT", -5, 0)
     row.progressBar:SetPoint("TOP", row.track, "BOTTOM", 0, -3)
 
-    row.track:SetText(NormalizeTrackText(track))
+    row.track:SetText(track)
 end
 
 function WoWPro.SetActionTexture(currentRow)
@@ -393,6 +416,24 @@ local AddNoCoordsWarning = function(note, action, GID)
         return note .. "\n(No coordinates)"
     end
     return note
+end
+
+function WoWPro.GetStepDisplayText(index, GID)
+    local action = WoWPro.action[index]
+    local step = NormalizeStepText(WoWPro.step[index])
+    local note = NormalizeNote(WoWPro.note[index])
+    local baseNote = note
+    local zone = WoWPro.zone[index]
+    local coord, playerZone = FormatCoords(GID, action, step, WoWPro.map[index])
+    zone = playerZone or zone
+    if coord then
+        if WoWProDB.profile.showcoords then
+            note = EmbedCoordsInNote(note, coord, zone)
+        end
+    else
+        note = AddNoCoordsWarning(note, action, GID)
+    end
+    return step, note, coord, baseNote
 end
 
 -- Sticky Visibility Helpers
@@ -591,7 +632,6 @@ local function SelectUseItem(use)
     if not items then
         return nil
     end
-
     -- "&" mode: first item in original order
     if use:find("&", 1, true) then
         for _, itemID in ipairs({("&"):split(use)}) do
@@ -610,6 +650,7 @@ local function SelectUseItem(use)
     -- Single item mode
     return next(items)
 end
+WoWPro.SelectUseItem = SelectUseItem
 
 function WoWPro.RefreshUseItemAvailability()
     if not WoWProDB.profile.showItemButton or not WoWPro.rows then
@@ -1369,10 +1410,7 @@ local BuildDropdownMenu = function(i, currentRow, step, QID, coord, sticky, GID)
     WoWPro.RowDropdownMenu[i] = dropdown
 end
 function WoWPro:RowUpdate(offset)
-    if WoWPro.Recorder and WoWProCharDB
-        and WoWProCharDB.RecorderActive
-        and WoWPro.Recorder.CurrentGuide
-        and WoWProDB.char.currentguide == WoWPro.Recorder.CurrentGuide.GID then
+    if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
         return {steps = {}, tracks = {}}
     end
     local GID = WoWProDB.char.currentguide
@@ -1480,34 +1518,16 @@ function WoWPro:RowUpdate(offset)
 
         -- Extract step fields
         local action = WoWPro.action[k]
-        local step   = NormalizeStepText(WoWPro.step[k])
-        local note   = NormalizeNote(WoWPro.note[k])
+        local step, note, formattedCoord, baseNote = WoWPro.GetStepDisplayText(k, GID)
         local use    = WoWPro.use[k]
         local item   = WoWPro.item[k]
         local target = WoWPro.target[k]
         local jump   = WoWPro.jump[k]
         local eab    = WoWPro.eab[k]
         local switch = WoWPro.switch[k]
-        local coord  = WoWPro.map[k]
-        local zone   = WoWPro.zone[k]
 
         if action == "H" and not use then
             use = WoWPro.SelectHearthstone()
-        end
-
-        -- Format coordinates
-        local formattedCoord, playerZone = FormatCoords(GID, action, step, coord)
-        if playerZone then
-            zone = playerZone
-        end
-
-        -- Embed coords into note
-        if formattedCoord then
-            if WoWProDB.profile.showcoords then
-                note = EmbedCoordsInNote(note, formattedCoord, zone)
-            end
-        else
-            note = AddNoCoordsWarning(note, action, GID)
         end
 
         -- Set row content
@@ -1522,6 +1542,9 @@ function WoWPro:RowUpdate(offset)
         currentRow.note:ClearAllPoints()
         currentRow.note:SetPoint("TOPLEFT", currentRow.step, "BOTTOMLEFT", 0, -3)
         currentRow.note:SetPoint("RIGHT")
+        currentRow.displayNote = note
+        currentRow.displayBaseNote = baseNote
+        currentRow.displayNoteIndex = k
         currentRow.note:SetText(note)
         WoWPro.UpdateQuestTrackerRow(currentRow, syncData)
 

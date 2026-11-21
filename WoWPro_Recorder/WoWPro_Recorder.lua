@@ -21,6 +21,17 @@ WoWPro.Recorder.Flights = nil
 WoWPro.Recorder.Portals = nil
 WoWPro.Recorder.RecentTurnIns = {}
 
+WoWPro.Recorder.StepTagOrder = {
+    "QID", "PRE", "ACTIVE", "AVAILABLE", "QO", "M", "Z", "CC", "CS", "CN",
+    "L", "N", "S", "US", "U", "T", "C", "R", "LVL",
+}
+function WoWPro.Recorder:IsRecordingGuide()
+    local guideID = WoWProCharDB and WoWProCharDB.RecorderActive
+        and (self.CurrentGuide and self.CurrentGuide.GID or WoWProCharDB.RecorderGuide)
+    return self:IsEnabled() and guideID ~= nil
+        and WoWProDB and WoWProDB.char and WoWProDB.char.currentguide == guideID
+end
+
 local function StyleRecorderStaticPopup(frame)
     if not frame then return end
     if frame.SetBackdrop then
@@ -149,6 +160,8 @@ function WoWPro.Recorder:OnDisable()
             WoWPro.RecorderFrame:UnregisterEvent(event)
         end
     end
+    if self.PreviewFrame then self.PreviewFrame:Hide() end
+    if self.StepListFrame then self.StepListFrame:Hide() end
 end
 
 function WoWPro.Recorder:OnUIReloaded()
@@ -217,6 +230,7 @@ end
 function WoWPro.Recorder.CleanObjectiveNote(note)
     local cleanedNote = note:gsub("%.$", "")
     cleanedNote = cleanedNote:gsub("%s*%(%d+%%%s*%)%s*$", "")
+    cleanedNote = cleanedNote:gsub("^%s*%d+%s*/%s*%d+%s+", "")
     cleanedNote = cleanedNote:gsub("%s*:?%s*%d+%s*/%s*%d+%s*$", "")
     cleanedNote = cleanedNote:gsub("^%s+", ""):gsub("%s+$", "")
     return cleanedNote
@@ -232,13 +246,18 @@ local function RecorderHasQuestStep(questID, action)
     return false
 end
 
-local function RecorderHasObjectiveStep(questID, objective)
+local function RecorderHasObjectiveStep(questID, objective, objectiveIndex)
     local normalized = WoWPro.Recorder.CleanObjectiveNote(tostring(objective or ""))
     for index = 1, WoWPro.stepcount or 0 do
         if tonumber(WoWPro.QID[index]) == tonumber(questID) then
+            if (WoWPro.action[index] == "C" or WoWPro.action[index] == "K")
+                and not WoWPro.questtext[index] then
+                return true
+            end
             local stored = tostring(WoWPro.questtext[index] or WoWPro.note[index] or "")
             for part in stored:gmatch("[^;]+") do
-                if WoWPro.Recorder.CleanObjectiveNote(part) == normalized then
+                if (objectiveIndex and tonumber(part) == objectiveIndex)
+                    or WoWPro.Recorder.CleanObjectiveNote(part) == normalized then
                     return true
                 end
             end
@@ -247,12 +266,12 @@ local function RecorderHasObjectiveStep(questID, objective)
     return false
 end
 
-function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, location)
-    if not questID then return end
+function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, position)
+    if not questID then return false end
     for index = 1, WoWPro.stepcount or 0 do
         if tonumber(WoWPro.QID[index]) == tonumber(questID)
-            and (WoWPro.questtext[index] or WoWPro.action[index] == "K") then
-            return
+            and (WoWPro.action[index] == "C" or WoWPro.action[index] == "K") then
+            return true
         end
     end
 
@@ -267,55 +286,145 @@ function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, location)
     end
 
     local objectiveTexts = {}
-    local action = "C"
-    local allNonCombat = true
     local target
     local usesItem = false
+    local bountyTarget = WoWPro.Recorder.FindTarget(questInfo and questInfo.title)
     for _, objective in ipairs(objectives) do
         local objectiveText = WoWPro.Recorder.CleanObjectiveNote(objective.text or "")
         if objectiveText ~= "" then
             objectiveTexts[#objectiveTexts + 1] = objectiveText
-            local questTitle = questInfo and questInfo.title
             local isKill = objective.type == "monster"
                 or WoWPro.Recorder.FindText("kill", objectiveText)
-                or WoWPro.Recorder.FindText("kill", questTitle)
+                or WoWPro.Recorder.FindText("kill", questInfo and questInfo.title)
             if isKill then
-                action = "K"
-                allNonCombat = false
                 target = target or WoWPro.Recorder.FindTarget(objectiveText)
-                target = target or WoWPro.Recorder.FindTarget(questInfo and questInfo.title)
-                if not target and _G.UnitName and _G.UnitName("target") then
-                    target = _G.UnitName("target")
-                end
-            elseif WoWPro.Recorder.FindText("chat", objectiveText) then
-                allNonCombat = false
-            elseif not WoWPro.Recorder.FindText("nc", objectiveText) then
-                allNonCombat = false
+                target = target or bountyTarget
             end
             usesItem = usesItem or objective.type == "item"
         end
     end
 
     local combinedObjective = table.concat(objectiveTexts, ";")
-    if combinedObjective == "" or RecorderHasObjectiveStep(questID, objectiveTexts[1]) then return end
+    if combinedObjective == "" then return false end
+    if RecorderHasObjectiveStep(questID, objectiveTexts[1], 1) then return true end
 
+    local note = table.concat(objectiveTexts, " ") .. "."
+    if target and target == bountyTarget and usesItem and #objectiveTexts == 1 then
+        local item = objectiveTexts[1]
+        local owner, itemName = item:match("^(.+)'s%s+(.+)$")
+        if owner and (owner:lower() == target:lower() or owner:lower() == target:match("^%S+"):lower()) then
+            item = "their " .. itemName:gsub("^%u", string.lower)
+        end
+        note = "Kill the target and loot " .. item .. "."
+    end
+
+    local step = questInfo and questInfo.title or combinedObjective
     WoWPro.Recorder.AddStep({
-        action = action,
-        step = questInfo and questInfo.title or combinedObjective,
+        action = "C",
+        step = step,
         QID = questID,
-        questtext = combinedObjective,
-        map = location and location.map,
-        zone = location and location.zone,
-        chat = action == "C" and WoWPro.Recorder.FindText("chat", table.concat(objectiveTexts, " ")),
-        noncombat = action == "C" and allNonCombat,
+        chat = WoWPro.Recorder.FindText("chat", table.concat(objectiveTexts, " ")),
         use = usesItem and questInfo and questInfo.use or nil,
-        note = table.concat(objectiveTexts, " ") .. ".",
+        note = note,
         target = target,
         class = questInfo and checkClassQuest(questID, WoWPro.QuestLog),
-    })
+    }, position)
+    local guideID = WoWProDB.char.currentguide
+    WoWProCharDB.RecorderPendingObjectiveLocations = WoWProCharDB.RecorderPendingObjectiveLocations or {}
+    local pending = WoWProCharDB.RecorderPendingObjectiveLocations
+    pending[guideID] = pending[guideID] or {}
+    pending[guideID][tostring(questID)] = { step = step, note = note }
+    return true
+end
+
+local function ScheduleObjectiveSuggestion(questID, questName, guideID)
+    local function trySuggest(attempt)
+        local recordingGID = WoWProCharDB and WoWProCharDB.RecorderActive
+            and (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
+                or WoWProCharDB.RecorderGuide)
+        if WoWPro.Recorder.status == "STOP" or not WoWPro.GuideLoaded
+            or WoWProDB.char.currentguide ~= guideID
+            or recordingGID ~= guideID then return end
+        local questInfo = WoWPro.QuestLog and WoWPro.QuestLog[questID]
+        if not questInfo or not questInfo.title then
+            questInfo = WoWPro.ShallowCopyTable(questInfo or {})
+            questInfo.title = questName
+        end
+        local position
+        for index = 1, WoWPro.stepcount or 0 do
+            if tonumber(WoWPro.QID[index]) == tonumber(questID) and WoWPro.action[index] == "A" then
+                position = index
+            end
+        end
+        if not position then return end
+        if WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, position) then return end
+        if attempt < 20 then
+            _G.C_Timer.After(0.25, function() trySuggest(attempt + 1) end)
+        else
+            WoWPro.Recorder:print("No objectives available for quest %s (%s); no suggestion added.", questName, tostring(questID))
+        end
+    end
+    trySuggest(1)
+end
+
+local function RecordObjectiveLocations(guideID, mapxy, zonetag)
+    local pending = WoWProCharDB.RecorderPendingObjectiveLocations
+    pending = pending and pending[guideID]
+    if not pending or not mapxy then return end
+
+    local changed = false
+    for questKey, suggestion in pairs(pending) do
+        local questID = tonumber(questKey)
+        local oldQuest = WoWPro.oldQuests and WoWPro.oldQuests[questID]
+        local quest = WoWPro.QuestLog and WoWPro.QuestLog[questID]
+        if oldQuest and quest and oldQuest.leaderBoard and quest.leaderBoard then
+            local progressed = false
+            for index in pairs(quest.leaderBoard) do
+                local oldCount = oldQuest.ncompleted and oldQuest.ncompleted[index]
+                local newCount = quest.ncompleted and quest.ncompleted[index]
+                if type(oldCount) ~= "number" or type(newCount) ~= "number" then
+                    local oldText, newText = oldQuest.leaderBoard[index], quest.leaderBoard[index]
+                    oldCount = oldText and tonumber(oldText:match("^%s*(%d+)%s*/%s*%d+")
+                        or oldText:match("(%d+)%s*/%s*%d+%s*$"))
+                    newCount = newText and tonumber(newText:match("^%s*(%d+)%s*/%s*%d+")
+                        or newText:match("(%d+)%s*/%s*%d+%s*$"))
+                end
+                if type(oldCount) == "number" and type(newCount) == "number" and newCount > oldCount
+                    or oldQuest.ocompleted and quest.ocompleted
+                        and not oldQuest.ocompleted[index] and quest.ocompleted[index] then
+                    progressed = true
+                    break
+                end
+            end
+            if progressed then
+                local match, matches = nil, 0
+                for index = 1, WoWPro.stepcount or 0 do
+                    if tonumber(WoWPro.QID[index]) == questID and WoWPro.action[index] == "C"
+                        and not WoWPro.questtext[index] and WoWPro.step[index] == suggestion.step
+                        and WoWPro.note[index] == suggestion.note then
+                        match, matches = index, matches + 1
+                    end
+                end
+                if matches == 1 and not WoWPro.map[match] and not WoWPro.zone[match] then
+                    WoWPro.map[match] = mapxy
+                    WoWPro.zone[match] = zonetag or false
+                    changed = true
+                end
+                pending[questKey] = nil
+            end
+        end
+    end
+    if changed then
+        WoWPro.Recorder:CheckpointCurrentGuide("ObjectiveLocation")
+        WoWPro:UpdateGuide("WoWPro.Recorder:ObjectiveLocation")
+    end
 end
 
 local function RemoveRecorderQuestSteps(questID)
+    if not WoWPro.Recorder:IsRecordingGuide() then return 0 end
+    local pending = WoWProCharDB.RecorderPendingObjectiveLocations
+    pending = pending and pending[WoWProDB.char.currentguide]
+    if pending then pending[tostring(questID)] = nil end
     local removed = 0
     local targetQID = tonumber(questID)
     for position = WoWPro.stepcount or 0, 1, -1 do
@@ -436,10 +545,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 zone = zonetag,
                 note = targetName and ("From "..targetName..".") or nil,
             })
-            WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, {
-                map = mapxy,
-                zone = zonetag,
-            })
+            ScheduleObjectiveSuggestion(questID, questName, recordingGID)
             WoWPro.Recorder.PrevStep = "A"
             WoWPro.Recorder.lastStep = questID
             WoWPro.Recorder:CustomizeFrames()
@@ -457,7 +563,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 WoWPro.Recorder.RecentTurnIns[questID] = nil
                 return
             end
-            RemoveRecorderQuestSteps(questID)
+            local removed = RemoveRecorderQuestSteps(questID)
         end)
         return
     end
@@ -615,9 +721,15 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             return
         end
 
+        RecordObjectiveLocations(GID, mapxy, zonetag)
+
         if WoWPro.newQuest then
             if RecorderHasQuestStep(WoWPro.newQuest, "A") then
                 WoWPro.Recorder:dbp("Quest %d was already recorded from QUEST_ACCEPTED.", WoWPro.newQuest)
+                local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
+                if questInfo then
+                    ScheduleObjectiveSuggestion(WoWPro.newQuest, questInfo.title, GID)
+                end
                 WoWPro.newQuest = false
                 return
             end
@@ -636,10 +748,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             WoWPro.Recorder.lastStep = WoWPro.newQuest
             WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
             WoWPro.Recorder.AddStep(stepInfo)
-            WoWPro.Recorder.SuggestObjectiveSteps(WoWPro.newQuest, questInfo, {
-                map = mapxy,
-                zone = zonetag,
-            })
+            ScheduleObjectiveSuggestion(WoWPro.newQuest, questInfo.title, GID)
             WoWPro:AutoCompleteQuestUpdate()
 
         elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
@@ -671,34 +780,31 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                         for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                             WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
                             if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
-                                if RecorderHasObjectiveStep(QID, status) then
+                                if RecorderHasObjectiveStep(QID, status, idx) then
                                     WoWPro.Recorder:dbp("Objective already suggested for QID %d: %s", QID, status)
                                 else
-                                local cleanedNote = WoWPro.Recorder.CleanObjectiveNote(status or "")
-                                local stepInfo = {
-                                    action = "C",
-                                    step = WoWPro.QuestLog[QID].title,
-                                    QID = QID,
-                                    map = mapxy,
-                                    zone = zonetag,
-                                    chat = WoWPro.Recorder.FindText("chat", status),
-                                    noncombat = WoWPro.Recorder.FindText("nc", status),
-                                    use = WoWPro.QuestLog[QID].use,
-                                    note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
-                                    questtext = cleanedNote,
-                                    class = checkClassQuest(QID,WoWPro.QuestLog)
-                                }
-                                if WoWPro.Recorder.FindText("kill", status)
-                                    or WoWPro.Recorder.FindText("kill", WoWPro.QuestLog[QID].title) then
-                                    stepInfo.action = "K"
-                                    stepInfo.noncombat = nil
-                                    local target = WoWPro.Recorder.FindTarget(status)
-                                        or WoWPro.Recorder.FindTarget(WoWPro.QuestLog[QID].title)
-                                    if target then stepInfo.target = target end
-                                end
-                                WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
-                                WoWPro.Recorder.AddStep(stepInfo)
-                                WoWPro:AutoCompleteQuestUpdate()
+                                    local cleanedNote = WoWPro.Recorder.CleanObjectiveNote(status or "")
+                                    local stepInfo = {
+                                        action = "C",
+                                        step = WoWPro.QuestLog[QID].title,
+                                        QID = QID,
+                                        map = mapxy,
+                                        zone = zonetag,
+                                        chat = WoWPro.Recorder.FindText("chat", status),
+                                        use = WoWPro.QuestLog[QID].use,
+                                        note = cleanedNote ~= "" and (cleanedNote .. ".") or false,
+                                        questtext = tostring(idx),
+                                        class = checkClassQuest(QID,WoWPro.QuestLog)
+                                    }
+                                    if WoWPro.Recorder.FindText("kill", status)
+                                        or WoWPro.Recorder.FindText("kill", WoWPro.QuestLog[QID].title) then
+                                        local target = WoWPro.Recorder.FindTarget(status)
+                                            or WoWPro.Recorder.FindTarget(WoWPro.QuestLog[QID].title)
+                                        if target then stepInfo.target = target end
+                                    end
+                                    WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
+                                    WoWPro.Recorder.AddStep(stepInfo)
+                                    WoWPro:AutoCompleteQuestUpdate()
                                 end
                             end
                         end
@@ -836,6 +942,10 @@ end
 
 
 function WoWPro.Recorder.PostQuestLogUpdate()
+    if not WoWPro.Recorder:IsRecordingGuide() then
+        WoWPro.PostQuestLogUpdate()
+        return
+    end
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:dbp("Suppressing PostQuestLogUpdate() after LoadGuide()")
         WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
@@ -845,6 +955,7 @@ function WoWPro.Recorder.PostQuestLogUpdate()
 end
 
 function WoWPro.Recorder.PostGuideLoad()
+    if not WoWPro.Recorder:IsEnabled() then return end
     local recordingGID = WoWProCharDB and WoWProCharDB.RecorderActive
         and (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID
             or WoWProCharDB.RecorderGuide)
@@ -858,17 +969,25 @@ function WoWPro.Recorder.PostGuideLoad()
     local pendingGID = WoWPro.Recorder.PendingGuideActionGID
     WoWPro.Recorder.PendingGuideAction = nil
     WoWPro.Recorder.PendingGuideActionGID = nil
+    local loadedGID = WoWProDB.char.currentguide
     -- Clear the LoadingGuide flag after guide has been loaded with a small delay
     -- to ensure quest log has been properly populated
     _G.C_Timer.After(1.0, function()
+        if not WoWPro.Recorder:IsEnabled() or WoWProDB.char.currentguide ~= loadedGID then return end
         WoWPro.Recorder.LoadingGuide = false
         WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay, quest recording enabled")
+        if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded then
+            WoWPro.Recorder.SelectedStep = nil
+            WoWPro.Recorder:CustomizeFrames()
+            return
+        end
         WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
         WoWPro.Recorder:CustomizeFrames()
         WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
         if WoWPro.Recorder.SelectedStep then
             WoWPro.Recorder:RowUpdate()
         end
+        WoWPro:UpdateGuide("WoWPro.Recorder.PostGuideLoad")
         if pendingAction and WoWProDB.char.currentguide == pendingGID then
             if pendingAction == "edit" then
                 dialog:Open("WoWPro Recorder - Edit", WoWPro.DialogFrame)
@@ -879,9 +998,11 @@ function WoWPro.Recorder.PostGuideLoad()
 end
 
 function WoWPro.Recorder.PostUpdateGuide()
+    if not WoWPro.Recorder:IsEnabled() then return end
     WoWPro.Recorder:CustomizeFrames()
-    if (WoWPro.stepcount or 0) < 1 then
+    if not WoWPro.Recorder:IsRecordingGuide() or (WoWPro.stepcount or 0) < 1 then
         WoWPro.Recorder.SelectedStep = nil
+        WoWPro.Recorder:UpdatePreview()
         return
     end
     if not WoWPro.Recorder.SelectedStep then
@@ -899,6 +1020,7 @@ function WoWPro.Recorder.PostUpdateGuide()
         )
         WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
     end
+    WoWPro.Recorder:UpdatePreview()
 end
 
 local old_scenario = nil
@@ -906,6 +1028,10 @@ local old_scenario = nil
 function WoWPro.Recorder.ProcessScenarioStage(scenario)
     -- Cleanup!
     if not scenario then
+        old_scenario = nil
+        return
+    end
+    if not WoWPro.Recorder:IsRecordingGuide() then
         old_scenario = nil
         return
     end
@@ -970,6 +1096,10 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
 end
 
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
+    if not WoWPro.Recorder:IsRecordingGuide() then
+        old_scenario = nil
+        return
+    end
     local GID = WoWProDB.char.currentguide
     local x, y = WoWPro:GetPlayerZonePosition()
     local zonetag = WoWPro.GetZoneText()
@@ -1059,36 +1189,67 @@ function WoWPro.Recorder:RegisterEvents()
     WoWPro.RecorderFrame:SetScript("OnEvent", WoWPro.Recorder.eventHandler);
 end
 
+function WoWPro.Recorder:MoveStep(from, to)
+    if not self:IsRecordingGuide() or not WoWPro.GuideLoaded then
+        self:Warning("No recorder guide is currently loaded.")
+        return false
+    end
+    if _G.InCombatLockdown() then
+        self:Warning("Steps cannot be reordered during combat.")
+        return false
+    end
+    local count = WoWPro.stepcount or 0
+    if type(from) ~= "number" or type(to) ~= "number"
+        or from ~= math.floor(from) or to ~= math.floor(to)
+        or from < 1 or from > count or to < 1 or to > count then
+        self:Warning("Cannot move a step outside the current guide.")
+        return false
+    end
+    if from == to then return true end
+
+    local guideID = WoWProDB.char.currentguide
+    local guide = WoWProCharDB.Guide and WoWProCharDB.Guide[guideID]
+    if not guide or not guide.completion or not guide.skipped then
+        self:Warning("Cannot reorder steps while guide progress is unavailable.")
+        return false
+    end
+
+    local direction = from < to and 1 or -1
+    for index = from, to - direction, direction do
+        local nextIndex = index + direction
+        WoWPro.SwapSteps(index, nextIndex)
+        for _, key in ipairs({"repeatable", "mygroupsteps", "myGroupTrack"}) do
+            local values = WoWPro[key]
+            if values and not WoWPro.Tags[key] then
+                values[index], values[nextIndex] = values[nextIndex], values[index]
+            end
+        end
+    end
+    local function movedIndex(index)
+        if index == from then return to end
+        if from < to and index and index > from and index <= to then return index - 1 end
+        if from > to and index and index >= to and index < from then return index + 1 end
+        return index
+    end
+    WoWPro.ActiveStep = movedIndex(WoWPro.ActiveStep)
+    WoWPro.CurrentIndex = movedIndex(WoWPro.CurrentIndex)
+    self.SelectedStep = to
+    self:CheckpointCurrentGuide("MoveStep")
+    WoWPro:UpdateGuide("WoWPro.Recorder:MoveStep")
+    self:RowUpdate()
+    return true
+end
+
 local dropdown = {
     {text = "Move Earlier", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == 1 then return end
-
-        for key, tag in pairs(WoWPro.Tags) do
-            local a = WoWPro[key][pos]
-            local b = WoWPro[key][pos-1]
-            WoWPro[key][pos] = b
-            WoWPro[key][pos-1] = a
-        end
-
-        WoWPro.Recorder.SelectedStep = pos-1
-        WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
-        WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
+        WoWPro.Recorder:MoveStep(pos, pos - 1)
     end},
     {text = "Move Later", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == WoWPro.stepcount then return end
-
-        for key,tag in pairs(WoWPro.Tags) do
-            local a = WoWPro[key][pos]
-            local b = WoWPro[key][pos+1]
-            WoWPro[key][pos] = b
-            WoWPro[key][pos+1] = a
-        end
-
-        WoWPro.Recorder.SelectedStep = pos+1
-        WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
-        WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
+        WoWPro.Recorder:MoveStep(pos, pos + 1)
     end},
     {text = "Clone Step", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -1102,7 +1263,10 @@ local dropdown = {
 }
 
 function WoWPro.Recorder:RowUpdate(offset)
+    if not self:IsRecordingGuide() then return end
     if (WoWPro.stepcount or 0) < 1 or not WoWPro.rows then
+        WoWPro.Recorder:UpdateStepList()
+        WoWPro.Recorder:UpdatePreview()
         return
     end
     if _G.InCombatLockdown() then
@@ -1113,6 +1277,8 @@ function WoWPro.Recorder:RowUpdate(offset)
         1,
         math.min(WoWPro.Recorder.SelectedStep or WoWPro.stepcount, WoWPro.stepcount)
     )
+    WoWPro.Recorder:UpdateStepList()
+    WoWPro.Recorder:UpdatePreview()
     WoWPro.Recorder.RowDropdownMenu = {}
     local selected = WoWPro.Recorder.SelectedStep or WoWPro.stepcount or 1
     local startStep = math.max(1, math.min(selected, WoWPro.stepcount or 1))
@@ -1141,7 +1307,7 @@ function WoWPro.Recorder:RowUpdate(offset)
             row.note:SetWidth(math.max(100, row.step:GetWidth() - 6))
             row.note:SetWordWrap(true)
             row.note:SetNonSpaceWrap(true)
-            local detail = tostring(WoWPro.EmitSafeStep(stepIndex) or "")
+            local detail = tostring(WoWPro.EmitSafeStep(stepIndex, WoWPro.Recorder.StepTagOrder) or "")
             detail = detail:gsub("¦", "  ¦  "):gsub("%s*;%s*", "; ")
             row.note:SetText(detail)
             row.track:SetText("")
@@ -1202,6 +1368,10 @@ function WoWPro.Recorder:RowLeftClick(i)
 end
 
 function WoWPro.Recorder.AddStep(stepInfo, position)
+    if not WoWPro.Recorder:IsRecordingGuide() then
+        WoWPro.Recorder:Warning("No recorder guide is currently loaded.")
+        return
+    end
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
@@ -1248,6 +1418,10 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
 end
 
 function WoWPro.Recorder:RemoveStep(position)
+    if not self:IsRecordingGuide() then
+        self:Warning("No recorder guide is currently loaded.")
+        return
+    end
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
@@ -1341,7 +1515,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 
     local sequence = {}
 
-    for i,action in pairs(WoWPro.action) do
+    for i = 1, WoWPro.stepcount do
         if WoWPro.questtext[i] and WoWPro.note[i] then
             WoWPro.note[i] = WoWPro.Recorder.CleanObjectiveNote(WoWPro.note[i])
             if WoWPro.note[i] ~= "" then
@@ -1350,7 +1524,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
                 WoWPro.note[i] = false
             end
         end
-        local line = WoWPro.EmitStep(i)
+        local line = WoWPro.EmitStep(i, WoWPro.Recorder.StepTagOrder)
         tinsert(sequence,line)
     end
 

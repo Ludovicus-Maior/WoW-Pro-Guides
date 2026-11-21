@@ -995,7 +995,11 @@ function WoWPro:GuideWindowLayout()
     end
 
     -- enforce minimum height
-        local minHeight = WoWProDB.profile.vminresize or 50
+    local minHeight = WoWProDB.profile.vminresize or 50
+    if WoWPro.Recorder and WoWPro.Recorder:IsEnabled()
+        and WoWPro.Recorder.EmptyState and WoWPro.Recorder.EmptyState:IsShown() then
+        minHeight = math.max(minHeight, 60)
+    end
     if totalHeight < minHeight then
         totalHeight = minHeight
     end
@@ -1846,7 +1850,8 @@ function WoWPro:RowContextMenu(row)
     end
 
     -- Recorder override
-    if WoWPro.Recorder and WoWPro.Recorder.RowDropdownMenu[menuIndex] then
+    if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide()
+        and WoWPro.Recorder.RowDropdownMenu and WoWPro.Recorder.RowDropdownMenu[menuIndex] then
         menu = WoWPro.Recorder.RowDropdownMenu[menuIndex]
     end
 

@@ -1779,6 +1779,10 @@ function WoWPro.UpdateGuideReal(From)
         end
         WoWPro:dbp("UpdateGuideReal(%s): Running", why)
         SoundDiag("UpdateGuideReal source=%s", why)
+        if WoWPro.Recorder and WoWPro.Recorder:IsEnabled()
+            and WoWPro.RecorderFrame and not WoWPro.Recorder:IsRecordingGuide() then
+            return
+        end
         if not WoWPro.GuideFrame or not WoWPro.GuideFrame.IsVisible or not WoWPro.GuideFrame:IsVisible() then
             -- Cinematic hides things (or user collapsed frame with double-click).
             -- Only re-queue if the user did not intentionally collapse the frame.
@@ -1843,7 +1847,7 @@ function WoWPro.UpdateGuideReal(From)
             end
         end
 
-        if WoWPro.Recorder then
+        if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
             WoWPro.ActiveStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
         end
         if not offset then WoWPro.Scrollbar:SetValue(WoWPro.ActiveStep) end
@@ -1852,7 +1856,7 @@ function WoWPro.UpdateGuideReal(From)
         -- Calling on the guide's module to populate the guide window's rows --
         local syncData = WoWPro:RowUpdate(offset)
         -- Hijack the click and menu functions for the Recorder if it's enabled --
-        if WoWPro.Recorder then
+        if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
             WoWPro.Recorder:RowUpdate(offset)
         end
 
@@ -1959,10 +1963,7 @@ Rep2IdAndClass = {
 -- Next Step --
 -- Determines the next active step --
 function WoWPro.NextStep(guideIndex, rowIndex)
-    if WoWPro.Recorder and WoWProCharDB
-        and WoWProCharDB.RecorderActive
-        and WoWPro.Recorder.CurrentGuide
-        and WoWProDB.char.currentguide == WoWPro.Recorder.CurrentGuide.GID then
+    if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
         return math.max(1, math.min(guideIndex or 1, WoWPro.stepcount or 1))
     end
     -- Removed unused qid variable; use QID from WoWPro.QID[guideIndex] directly where needed

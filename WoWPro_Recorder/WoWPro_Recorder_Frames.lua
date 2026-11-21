@@ -39,7 +39,7 @@ local function BuildCurrentGuideStepList()
 
     for index = 1, total do
         local prefix = "  "
-        local text = WoWPro.EmitSafeStep(index)
+        local text = WoWPro.EmitSafeStep(index, WoWPro.Recorder.StepTagOrder)
 
         if index == selected then
             prefix = ">>"
@@ -254,18 +254,23 @@ local function LayoutRecorderButtons()
     local gap = 3
     local frameWidth = frame:GetWidth()
     local horizontalPadding = 8
+    local columns = WoWPro.Recorder.Advanced and #recorderButtons or math.ceil(#recorderButtons / 2)
     local buttonWidth = math.floor(
-        (frameWidth - (horizontalPadding * 2) - (gap * (#recorderButtons - 1))) / #recorderButtons
+        (frameWidth - (horizontalPadding * 2) - (gap * (columns - 1))) / columns
     )
     buttonWidth = math.max(34, buttonWidth)
-    local rowWidth = #recorderButtons * buttonWidth + (#recorderButtons - 1) * gap
 
     for index, button in ipairs(recorderButtons) do
-        local x = math.floor((frameWidth - rowWidth) / 2 + 0.5) + (index - 1) * (buttonWidth + gap)
+        local row = math.floor((index - 1) / columns)
+        local column = (index - 1) % columns
+        local rowCount = math.min(columns, #recorderButtons - row * columns)
+        local rowWidth = rowCount * buttonWidth + (rowCount - 1) * gap
+        local x = math.floor((frameWidth - rowWidth) / 2 + 0.5) + column * (buttonWidth + gap)
+        local top = WoWPro.Recorder.Advanced and 23 or 39
 
         button:ClearAllPoints()
         button:SetSize(buttonWidth, buttonHeight)
-        button:SetPoint("TOPLEFT", frame, "TOPLEFT", x, -23)
+        button:SetPoint("TOPLEFT", frame, "TOPLEFT", x, -top - row * (buttonHeight + gap))
     end
 
     if recorderModeText then
@@ -316,6 +321,373 @@ local function ClearRecorderPanel(frame)
     frame:SetBackdropColor(0, 0, 0, 0)
     if frame.SetBackdropBorderColor then
         frame:SetBackdropBorderColor(0, 0, 0, 0)
+    end
+end
+
+function WoWPro.Recorder:CreatePreviewFrame()
+    local frame = _G.CreateFrame("Frame", "WoWProRecorderPreview", _G.UIParent, "BackdropTemplate")
+    frame:SetSize(350, 80)
+    frame:SetPoint("TOPLEFT", WoWPro.MainFrame, "BOTTOMLEFT", 0, -8)
+    frame:SetMovable(true)
+    frame:SetClampedToScreen(true)
+    frame:EnableMouse(true)
+    frame:RegisterForDrag("LeftButton")
+    frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
+    frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+    frame:Hide()
+
+    local title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+    title:SetPoint("TOPLEFT", frame, "TOPLEFT", 8, -8)
+    title:SetText("GUIDE PREVIEW  (read-only)")
+    title:SetTextColor(0.68, 0.74, 0.82)
+
+    local empty = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    empty:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -10)
+    empty:SetText("Select or record a step to preview it.")
+    frame.empty = empty
+
+    local row = _G.CreateFrame("Frame", nil, frame, "BackdropTemplate")
+    row:SetPoint("TOPLEFT", frame, "TOPLEFT", 5, -26)
+    row:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -5, -26)
+    row:SetHeight(25)
+    row.check = WoWPro:CreateCheck(row)
+    row.check:EnableMouse(false)
+    row.iconTexture = WoWPro:CreateIcon(row, row.check)
+    row.iconTexture.frame:EnableMouse(false)
+    row.step = WoWPro:CreateStep(row, row.iconTexture)
+    row.note = WoWPro:CreateNote(row, row.step)
+    row.track = WoWPro:CreateTrack(row, row.note)
+    row.progressBar = WoWPro:CreateProgressBar(row, row.track)
+    row.step:SetWordWrap(true)
+    row.note:SetWordWrap(true)
+    row.track:SetWordWrap(true)
+    row:EnableMouse(true)
+    row:SetScript("OnEnter", function(self)
+        if WoWProDB.profile.mousenotes and self.note:GetText() ~= "" then
+            _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+            _G.GameTooltip:SetText(self.note:GetText(), 1, 1, 1, 1, true)
+            _G.GameTooltip:Show()
+        end
+    end)
+    row:SetScript("OnLeave", function() _G.GameTooltip:Hide() end)
+    frame.row = row
+
+    frame.itemIcon = frame:CreateTexture(nil, "ARTWORK")
+    frame.itemIcon:SetSize(32, 32)
+    frame.targetIcon = frame:CreateTexture(nil, "ARTWORK")
+    frame.targetIcon:SetSize(32, 32)
+    frame.targetIcon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
+    frame.jumpIcon = frame:CreateTexture(nil, "ARTWORK")
+    frame.jumpIcon:SetSize(24, 24)
+    frame.jumpIcon:SetTexture(WoWPro.RETAIL and "Interface\\Icons\\Inv_7xp_inscription_talenttome02"
+        or "Interface\\Icons\\inv_misc_book_12")
+    frame.eaIcon = frame:CreateTexture(nil, "ARTWORK")
+    frame.eaIcon:SetSize(32, 32)
+    self.PreviewFrame = frame
+    if self.PreviewVisible == nil then self.PreviewVisible = true end
+end
+
+function WoWPro.Recorder:UpdatePreview()
+    local frame = self.PreviewFrame
+    if not frame then return end
+    local GID = CurrentRecorderGuideID()
+    if not self:IsEnabled() or not self.PreviewVisible or not GID or not WoWPro.GuideLoaded
+        or WoWProDB.char.currentguide ~= GID then
+        frame:Hide()
+        return
+    end
+
+    local profile = WoWProDB.profile
+    StyleRecorderPanel(frame)
+    if not profile.border then frame:SetBackdropBorderColor(1, 1, 1, 0) end
+    frame:Show()
+
+    local index = self.SelectedStep
+    local row = frame.row
+    if not index or index < 1 or index > (WoWPro.stepcount or 0) then
+        row:Hide()
+        frame.empty:Show()
+        frame.itemIcon:Hide()
+        frame.targetIcon:Hide()
+        frame.jumpIcon:Hide()
+        frame.eaIcon:Hide()
+        frame:SetHeight(65)
+        return
+    end
+
+    frame.empty:Hide()
+    row.index = index
+    row:Show()
+    WoWPro:SetRowBackdrop(row)
+    WoWPro:RowFontSet(row)
+    WoWPro:RowColorSet(row)
+    local step, note, _, baseNote = WoWPro.GetStepDisplayText(index, GID)
+    row.step:SetText(step)
+    row.displayNote = note
+    row.displayBaseNote = baseNote
+    row.displayNoteIndex = index
+    row.note:SetText(note)
+    row.note:SetShown(not profile.mousenotes)
+    row.check:SetBlank()
+    local guide = WoWProCharDB.Guide and WoWProCharDB.Guide[GID]
+    if guide and guide.skipped and guide.skipped[index] then
+        row.check:SetSilver()
+    elseif guide and guide.completion and guide.completion[index] then
+        row.check:SetGold()
+    end
+    row.check:SetShown(step ~= "")
+    WoWPro.SetActionTexture(row)
+    WoWPro.UpdateQuestTrackerRow(row)
+
+    local use = WoWPro.use[index]
+    if WoWPro.action[index] == "H" and not use then use = WoWPro.SelectHearthstone() end
+    local itemID
+    if profile.showItemButton and use and use ~= "" then
+        itemID = use:sub(1, 1) == "*" and use:sub(2) or WoWPro.SelectUseItem(use)
+    end
+    frame.itemIcon:SetShown(itemID and true or false)
+    if itemID then
+        frame.itemIcon:SetTexture(WoWPro.C_Item_GetItemIconByID(itemID))
+        WoWPro:PositionFlyoutButton(frame.itemIcon, row)
+    end
+    local target = profile.showTargetButton and WoWPro.target[index]
+    frame.targetIcon:SetShown(target and true or false)
+    if target then WoWPro:PositionFlyoutButton(frame.targetIcon, row, itemID and true or false) end
+    local jump = profile.showJumpButton and WoWPro.jump[index]
+    frame.jumpIcon:SetShown(jump and true or false)
+    if jump then WoWPro:PositionFlyoutButton(frame.jumpIcon, row) end
+    local eab = profile.showEAButton and WoWPro.eab[index]
+    local eaTexture = eab and _G.ExtraActionButton1Icon and _G.ExtraActionButton1Icon:GetTexture()
+    frame.eaIcon:SetShown(eaTexture and true or false)
+    if eaTexture then
+        frame.eaIcon:SetTexture(eaTexture)
+        WoWPro:PositionFlyoutButton(frame.eaIcon, row)
+    end
+
+    local height = row.step:GetStringHeight() or 0
+    if row.note:IsShown() and row.note:GetText() ~= "" then
+        height = height + 3 + (row.note:GetStringHeight() or 0)
+    end
+    if row.track:IsShown() and row.track:GetText() ~= "" then
+        height = height + 3 + (row.track:GetStringHeight() or 0)
+    end
+    if row.progressBar:IsShown() then height = height + 3 + row.progressBar:GetHeight() end
+    height = math.max(25, height + 5)
+    row:SetHeight(height)
+    frame:SetHeight(math.max(65, height + 34))
+end
+
+local stepListRowHeight = 26
+
+local function StepListDropBoundary(frame)
+    local scroll = frame.scroll
+    local left, right, top, bottom = scroll:GetLeft(), scroll:GetRight(), scroll:GetTop(), scroll:GetBottom()
+    if not left or not right or not top or not bottom then return end
+    local x, y = _G.GetCursorPosition()
+    local scale = scroll:GetEffectiveScale()
+    x, y = x / scale, y / scale
+    if x < left or x > right or y > top or y < bottom then return end
+    local position = top - y + scroll:GetVerticalScroll()
+    return math.max(0, math.min(WoWPro.stepcount or 0, math.floor(position / stepListRowHeight + 0.5))), y
+end
+
+local function StepListSnapshot()
+    local steps = {}
+    for index = 1, WoWPro.stepcount or 0 do
+        steps[index] = WoWPro.EmitSafeStep(index, WoWPro.Recorder.StepTagOrder)
+    end
+    return steps
+end
+
+function WoWPro.Recorder:CreateStepListFrame()
+    local frame = _G.CreateFrame("Frame", "WoWProRecorderStepList", _G.UIParent, "BackdropTemplate")
+    frame:SetSize(410, 350)
+    frame:SetPoint("TOPLEFT", WoWPro.RecorderFrame, "TOPRIGHT", 8, 0)
+    frame:SetMovable(true)
+    frame:SetClampedToScreen(true)
+    frame:EnableMouse(true)
+    frame:RegisterForDrag("LeftButton")
+    frame:SetScript("OnDragStart", function(self) self:StartMoving() end)
+    frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
+    StyleRecorderPanel(frame)
+
+    local title = frame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
+    title:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -10)
+    title:SetText("GUIDE STEPS")
+    title:SetTextColor(0.68, 0.74, 0.82)
+    local help = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    help:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -6)
+    help:SetText("Drag a handle to reorder. Click a step to select it.")
+    help:SetTextColor(0.72, 0.76, 0.82)
+    local close = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
+    close:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -2, -2)
+    close:SetScript("OnClick", function()
+        WoWPro.Recorder.StepListVisible = false
+        frame:Hide()
+    end)
+
+    local scroll = _G.CreateFrame("ScrollFrame", "WoWProRecorderStepListScroll", frame, "UIPanelScrollFrameTemplate")
+    scroll:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -49)
+    scroll:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -30, 10)
+    local content = _G.CreateFrame("Frame", nil, scroll)
+    content:SetSize(370, 1)
+    scroll:SetScrollChild(content)
+    scroll:EnableMouseWheel(true)
+    scroll:SetScript("OnMouseWheel", function(self, delta)
+        local position = self:GetVerticalScroll() - delta * stepListRowHeight * 3
+        self:SetVerticalScroll(math.max(0, math.min(position, self:GetVerticalScrollRange())))
+    end)
+    frame.scroll, frame.content, frame.rows = scroll, content, {}
+    frame.empty = content:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    frame.empty:SetPoint("TOPLEFT", content, "TOPLEFT", 5, -8)
+    frame.empty:SetText("No recorded steps yet.")
+    frame.dropLine = _G.CreateFrame("Frame", nil, content)
+    frame.dropLine:SetFrameLevel(content:GetFrameLevel() + 4)
+    frame.dropLine:SetHeight(2)
+    local dropTexture = frame.dropLine:CreateTexture(nil, "OVERLAY")
+    dropTexture:SetAllPoints()
+    dropTexture:SetColorTexture(0.35, 1, 0.45, 1)
+    frame.dropLine:Hide()
+    frame:SetScript("OnHide", function(self)
+        self.drag = nil
+        self.dropLine:Hide()
+    end)
+    frame:SetScript("OnUpdate", function(self, elapsed)
+        if not self.drag then return end
+        local boundary, y = StepListDropBoundary(self)
+        if not boundary then
+            self.dropLine:Hide()
+            return
+        end
+        local top, bottom = scroll:GetTop(), scroll:GetBottom()
+        local velocity = 0
+        if y > top - 24 then
+            velocity = -220
+        elseif y < bottom + 24 then
+            velocity = 220
+        end
+        if velocity ~= 0 then
+            local position = scroll:GetVerticalScroll() + velocity * elapsed
+            scroll:SetVerticalScroll(math.max(0, math.min(position, scroll:GetVerticalScrollRange())))
+            boundary = StepListDropBoundary(self)
+        end
+        self.dropLine:ClearAllPoints()
+        self.dropLine:SetPoint("TOPLEFT", content, "TOPLEFT", 0, -boundary * stepListRowHeight)
+        self.dropLine:SetPoint("TOPRIGHT", content, "TOPRIGHT", 0, -boundary * stepListRowHeight)
+        self.dropLine:Show()
+    end)
+    frame:Hide()
+    self.StepListFrame = frame
+end
+
+function WoWPro.Recorder:UpdateStepList()
+    local frame = self.StepListFrame
+    if not frame then return end
+    if not self.StepListVisible or not self:IsRecordingGuide() or not WoWPro.GuideLoaded then
+        frame:Hide()
+        return
+    end
+    frame:Show()
+    local guideID = WoWProDB.char.currentguide
+    if frame.guideID ~= guideID then
+        frame.guideID = guideID
+        frame.scroll:SetVerticalScroll(0)
+    end
+    local count = WoWPro.stepcount or 0
+    frame.content:SetHeight(math.max(stepListRowHeight, count * stepListRowHeight))
+    local maxScroll = math.max(0, frame.content:GetHeight() - frame.scroll:GetHeight())
+    if frame.scroll:GetVerticalScroll() > maxScroll then
+        frame.scroll:SetVerticalScroll(maxScroll)
+    end
+    frame.empty:SetShown(count == 0)
+    for index = 1, count do
+        local row = frame.rows[index]
+        if not row then
+            row = _G.CreateFrame("Button", nil, frame.content, "BackdropTemplate")
+            row:SetHeight(stepListRowHeight - 2)
+            row:SetBackdrop({
+                bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+                edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+                edgeSize = 8,
+                insets = { left = 1, right = 1, top = 1, bottom = 1 },
+            })
+            row:SetBackdropBorderColor(0.28, 0.29, 0.30, 0.95)
+            row.text = row:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+            row.text:SetPoint("LEFT", row, "LEFT", 30, 0)
+            row.text:SetPoint("RIGHT", row, "RIGHT", -6, 0)
+            row.text:SetJustifyH("LEFT")
+            row.text:SetWordWrap(false)
+            row:SetScript("OnClick", function(self)
+                if not WoWPro.Recorder:IsRecordingGuide() then return end
+                WoWPro.Recorder.SelectedStep = self.index
+                WoWPro.Recorder:RowUpdate()
+            end)
+
+            local handle = _G.CreateFrame("Button", nil, row, "BackdropTemplate")
+            handle:SetSize(24, stepListRowHeight - 2)
+            handle:SetPoint("LEFT", row, "LEFT", 0, 0)
+            handle:RegisterForDrag("LeftButton")
+            local grip = handle:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+            grip:SetPoint("CENTER")
+            grip:SetText("::")
+            grip:SetTextColor(0.68, 0.74, 0.82)
+            handle:SetScript("OnEnter", function(self)
+                _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+                _G.GameTooltip:SetText("Drag to reorder this step.")
+                _G.GameTooltip:Show()
+            end)
+            handle:SetScript("OnLeave", function() _G.GameTooltip:Hide() end)
+            handle:SetScript("OnDragStart", function(self)
+                if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded then return end
+                if _G.InCombatLockdown() then
+                    WoWPro.Recorder:Warning("Steps cannot be reordered during combat.")
+                    return
+                end
+                frame.drag = {
+                    index = self:GetParent().index,
+                    guideID = WoWProDB.char.currentguide,
+                    steps = StepListSnapshot(),
+                }
+            end)
+            handle:SetScript("OnDragStop", function()
+                local drag = frame.drag
+                frame.drag = nil
+                frame.dropLine:Hide()
+                if not drag then return end
+                local boundary = StepListDropBoundary(frame)
+                if not boundary then return end
+                if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded
+                    or WoWProDB.char.currentguide ~= drag.guideID
+                    or (WoWPro.stepcount or 0) ~= #drag.steps then
+                    WoWPro.Recorder:Warning("The guide changed while dragging; the step was not moved.")
+                    return
+                end
+                for stepIndex = 1, #drag.steps do
+                    if WoWPro.EmitSafeStep(stepIndex, WoWPro.Recorder.StepTagOrder) ~= drag.steps[stepIndex] then
+                        WoWPro.Recorder:Warning("The guide changed while dragging; the step was not moved.")
+                        return
+                    end
+                end
+                local destination = boundary >= drag.index and boundary or boundary + 1
+                WoWPro.Recorder:MoveStep(drag.index, destination)
+            end)
+            frame.rows[index] = row
+        end
+        row.index = index
+        row:ClearAllPoints()
+        row:SetPoint("TOPLEFT", frame.content, "TOPLEFT", 0, -(index - 1) * stepListRowHeight)
+        row:SetPoint("TOPRIGHT", frame.content, "TOPRIGHT", 0, -(index - 1) * stepListRowHeight)
+        row.text:SetText(("%d. %s %s"):format(index, tostring(WoWPro.action[index] or "?"),
+            tostring(WoWPro.step[index] or "")))
+        if index == self.SelectedStep then
+            row:SetBackdropColor(0.12, 0.16, 0.14, 0.98)
+        else
+            row:SetBackdropColor(0.045, 0.05, 0.055, 0.96)
+        end
+        row:Show()
+    end
+    for index = count + 1, #frame.rows do
+        frame.rows[index]:Hide()
     end
 end
 
@@ -436,7 +808,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
     recorderSaveText = nil
 
     local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, "BackdropTemplate")
-    recorderframe:SetHeight(45)
+    recorderframe:SetHeight(self.Advanced and 45 or 82)
     recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
     recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
     recorderframe:SetBackdrop({
@@ -450,6 +822,15 @@ function WoWPro.Recorder:CreateRecorderFrame()
     recorderframe:EnableMouse(true)
     recorderframe:RegisterForDrag("LeftButton")
     WoWPro.RecorderFrame = recorderframe
+    self:CreatePreviewFrame()
+    self:CreateStepListFrame()
+    local emptyState = WoWPro.GuideFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    emptyState:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", 12, -14)
+    emptyState:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -12, -14)
+    emptyState:SetJustifyH("LEFT")
+    emptyState:SetTextColor(0.72, 0.76, 0.82, 1)
+    emptyState:Hide()
+    self.EmptyState = emptyState
     for _, row in ipairs(WoWPro.rows or {}) do
         row:Hide()
         row:SetAlpha(0)
@@ -496,6 +877,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
     recorderStatusDot:SetSize(6, 6)
     recorderStatusDot:SetPoint("RIGHT", recordtext, "LEFT", -5, 0)
     UpdateRecorderStatus(WoWPro.Recorder.status)
+
+    if not self.Advanced then
+        recorderSaveText:ClearAllPoints()
+        recorderSaveText:SetPoint("TOPLEFT", recorderframe, "TOPLEFT", 8, -21)
+        recorderModeText:ClearAllPoints()
+        recorderModeText:SetPoint("LEFT", recorderSaveText, "RIGHT", 8, 0)
+        recorderModeText:SetPoint("RIGHT", recorderframe, "RIGHT", -8, 0)
+        recorderModeText:SetJustifyH("RIGHT")
+        recorderModeText:SetWordWrap(false)
+    end
 
     WoWPro.RecordButton = CreateButton("Record", "Click to record.", WoWPro.RecordText, "REC")
     WoWPro.StopButton = CreateButton("Stop", "Click to stop recording.", WoWPro.RecordButton, "STOP")
@@ -720,7 +1111,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 9,
                     type = "toggle",
                     name = "Sticky Step",
-                    width = "double",
                     desc = "Check if this is an sticky step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.sticky end,
                     set = function(info,val)
@@ -731,7 +1121,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 10,
                     type = "toggle",
                     name = "Unsticky Step",
-                    width = "double",
                     desc = "Check if this is an unsticky step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.unsticky end,
                     set = function(info,val)
@@ -742,7 +1131,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 11,
                     type = "toggle",
                     name = "Non-Combat Step",
-                    width = "double",
                     desc = "Check if this is a quest completion step NOT involving combat.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.noncombat end,
                     set = function(info,val)
@@ -753,7 +1141,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 12,
                     type = "toggle",
                     name = "Optional Step",
-                    width = "double",
                     desc = "Check if this is an optional step.",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.optional end,
                     set = function(info,val)
@@ -1254,6 +1641,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 9,
                     type = "toggle",
                     name = "Sticky Step",
+                    width = 1,
                     desc = "Check if this is an sticky step.",
                     get = function(info) return WoWPro.sticky[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1266,6 +1654,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 10,
                     type = "toggle",
                     name = "Unsticky Step",
+                    width = 1,
                     desc = "Check if this is an unsticky step.",
                     get = function(info) return WoWPro.unsticky[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1278,6 +1667,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 11,
                     type = "toggle",
                     name = "Non-Combat Step",
+                    width = 1,
                     desc = "Check if this is a quest completion step NOT involving combat.",
                     get = function(info) return WoWPro.noncombat[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1290,6 +1680,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 12,
                     type = "toggle",
                     name = "Optional Step",
+                    width = 1,
                     desc = "Check if this is an optional step.",
                     get = function(info) return WoWPro.optional[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
@@ -1703,6 +2094,9 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             end
                             WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
                         end
+                        if WoWProCharDB.RecorderPendingObjectiveLocations then
+                            WoWProCharDB.RecorderPendingObjectiveLocations[WoWProDB.char.currentguide] = nil
+                        end
                         WoWProCharDB.RecorderActive = false
                         WoWProCharDB.RecorderGuide = nil
                         WoWPro.Recorder.CurrentGuide.GID = nil
@@ -1754,13 +2148,48 @@ function WoWPro.Recorder:CreateRecorderFrame()
 			 WoWPro.Recorder:ToggleAdvanced()
         end
     end)
+    local stepsButton = CreateButton("Steps", "Show or hide the step list for selecting and reordering steps.", WoWPro.AdvancedButton)
+    stepsButton:SetScript("OnMouseUp", function(_, button)
+        if button ~= "LeftButton" then return end
+        if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded then
+            _G.StaticPopup_Show("WOWPRO_RECORDER_MESSAGE", "Create or open a recorder guide first.")
+            return
+        end
+        WoWPro.Recorder.StepListVisible = not WoWPro.Recorder.StepListVisible
+        WoWPro.Recorder:UpdateStepList()
+        if WoWPro.Recorder.StepListVisible then
+            local guideID = WoWProDB.char.currentguide
+            _G.C_Timer.After(0, function()
+                local recorder = WoWPro.Recorder
+                local frame = recorder.StepListFrame
+                if not recorder.StepListVisible or not recorder:IsRecordingGuide()
+                    or WoWProDB.char.currentguide ~= guideID or not frame then return end
+                local index = recorder.SelectedStep
+                if index then
+                    local position = (index - 1) * stepListRowHeight
+                    local scroll = frame.scroll
+                    if position < scroll:GetVerticalScroll()
+                        or position + stepListRowHeight > scroll:GetVerticalScroll() + scroll:GetHeight() then
+                        scroll:SetVerticalScroll(math.max(0, math.min(position, scroll:GetVerticalScrollRange())))
+                    end
+                end
+            end)
+        end
+    end)
+    local previewButton = CreateButton("Preview", "Show or hide the read-only guide preview.", stepsButton)
+    previewButton:SetScript("OnMouseUp", function(_, button)
+        if button == "LeftButton" then
+            WoWPro.Recorder.PreviewVisible = not WoWPro.Recorder.PreviewVisible
+            WoWPro.Recorder:UpdatePreview()
+        end
+    end)
     dialog:SetDefaultSize("WoWPro Recorder - Adv", 300, 125)
     LayoutRecorderButtons()
 end
 
 -- Customizing Recorder Frame --
 function WoWPro.Recorder:CustomizeFrames()
-    if not WoWPro.RecorderFrame then return end
+    if not self:IsEnabled() or not WoWPro.RecorderFrame then return end
     WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
     WoWPro.RecorderFrame:SetBackdropColor(0.035, 0.04, 0.05, 0.97)
     if WoWProDB.profile.border then
@@ -1797,8 +2226,28 @@ function WoWPro.Recorder:CustomizeFrames()
     local recordingGID = CurrentRecorderGuideID()
     local currentGID = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide
     local showingRecorderGuide = recordingGID and currentGID == recordingGID
+    local empty = not showingRecorderGuide or not WoWPro.GuideLoaded or (WoWPro.stepcount or 0) < 1
 
-    WoWPro:SafeSetShown(WoWPro.GuideFrame, showingRecorderGuide and WoWPro.GuideLoaded and true or false)
+    if empty and not _G.InCombatLockdown() then
+        for _, row in ipairs(WoWPro.rows or {}) do
+            row:SetAlpha(0)
+            row:Hide()
+            for _, key in ipairs({"itembutton", "itembuttonSecured", "targetbutton", "targetbuttonSecured",
+                "jumpbutton", "jumpbuttonSecured", "eabutton", "eabuttonSecured"}) do
+                if row[key] then row[key]:Hide() end
+            end
+        end
+    elseif empty then
+        self.PendingCombatRowUpdate = true
+    end
+    if self.EmptyState then
+        self.EmptyState:SetText(showingRecorderGuide and WoWPro.GuideLoaded
+            and "No recorded steps yet." or "No recorder guide selected. Use New or Open to begin.")
+        self.EmptyState:SetShown(empty)
+    end
+    if not _G.InCombatLockdown() then
+        WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
+    end
     if not showingRecorderGuide then
         WoWPro:SafeSetShown(WoWPro.StickyHeader, false)
     end
@@ -1820,7 +2269,12 @@ function WoWPro.Recorder:CustomizeFrames()
         end
     end
     WoWPro:MainFrameLayout()
+    if empty and not _G.InCombatLockdown() and WoWPro.MainFrame:GetHeight() < 72 then
+        WoWPro.SetMainFrameSize(WoWPro.MainFrame:GetWidth(), 72)
+    end
     LayoutRecorderButtons()
+    self:UpdateStepList()
+    self:UpdatePreview()
 end
 
 -- Dialogs --

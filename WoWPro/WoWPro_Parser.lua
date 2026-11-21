@@ -605,7 +605,7 @@ local function addTag(line, tag)
 end
 
 
-function WoWPro.EmitStep(i)
+function WoWPro.EmitStep(i, tagOrder)
     local GID = WoWProDB.char.currentguide
 
     if not i or not WoWPro.stepcount then return "<nil>"; end
@@ -615,10 +615,30 @@ function WoWPro.EmitStep(i)
         return ""
     end
 
-    local line = WoWPro.action[i].." "..WoWPro.step[i].."||"
+    local action = WoWPro.action[i]
+    if action == "A" and WoWPro.repeatable and WoWPro.repeatable[i] then
+        action = "a"
+    elseif action == "T" and WoWPro.conditional and WoWPro.conditional[i] then
+        action = "t"
+    end
+    local line = action.." "..WoWPro.step[i].."||"
 
-    for idx=1,#WoWPro.TagList do
-        local tag = WoWPro.TagList[idx]
+    local tags = WoWPro.TagList
+    if tagOrder then
+        tags = {}
+        local included = {}
+        for _, tag in ipairs(tagOrder) do
+            tags[#tags + 1] = tag
+            included[tag] = true
+        end
+        for _, tag in ipairs(WoWPro.TagList) do
+            if not included[tag] then
+                tags[#tags + 1] = tag
+            end
+        end
+    end
+    for idx=1,#tags do
+        local tag = tags[idx]
         local key = WoWPro.TagTable[tag].key
         -- Special tags get handled first
         if key == "lootitem" and WoWPro.lootitem[i] then
@@ -660,7 +680,7 @@ function WoWPro.EmitStep(i)
             if WoWPro[key][i] then
                 line = addTag(line, tag)
             end
-        elseif key then
+        elseif key and (tag ~= "T" or tagOrder) then
 
             -- Everything else is a value
             if WoWPro[key][i] then
@@ -668,11 +688,14 @@ function WoWPro.EmitStep(i)
             end
         end
     end
+    if not tagOrder and WoWPro.target[i] then
+        line = addTagValue(line, "T", WoWPro.target[i])
+    end
     return line
 end
 
-function WoWPro.EmitSafeStep(index)
-    return WoWPro.EmitStep(index):gsub("||", "¦")
+function WoWPro.EmitSafeStep(index, tagOrder)
+    return WoWPro.EmitStep(index, tagOrder):gsub("||", "¦")
 end
 
 function WoWPro.ParseQuestLine(faction, zone, i, text)
