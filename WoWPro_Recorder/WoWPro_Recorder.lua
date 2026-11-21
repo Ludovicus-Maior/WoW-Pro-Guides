@@ -173,6 +173,11 @@ function WoWPro.Recorder:OnEnable()
     if WoWProCharDB.RecorderActive and WoWProCharDB.RecorderGuide then
         WoWPro.Recorder.CurrentGuide.GID = WoWProCharDB.RecorderGuide
         WoWPro.Recorder.LastCheckpointAt = WoWProCharDB.RecorderCheckpoint
+        if WoWProCharDB.RecorderOpenedGuide == WoWProCharDB.RecorderGuide
+            and WoWProCharDB.RecorderStatus ~= "REC" then
+            WoWPro.Recorder.PendingOpenedGuide = WoWProCharDB.RecorderGuide
+            WoWPro.Recorder.FollowGuideProgress = true
+        end
     elseif WoWProCharDB.RecorderActive == nil then
         WoWProCharDB.RecorderActive = false
     end
@@ -268,6 +273,10 @@ function WoWPro.Recorder:InitGuide(GIDvalue,guidetype,kvp)
     WoWProCharDB = WoWProCharDB or {}
     WoWProCharDB.RecorderGuide = GIDvalue
     WoWProCharDB.RecorderActive = true
+    WoWProCharDB.RecorderOpenedGuide = nil
+    WoWPro.Recorder.PendingOpenedGuide = nil
+    WoWPro.Recorder.FollowGuideProgress = false
+    WoWPro.Recorder.GuideProgressComplete = false
     WoWPro.Recorder.CurrentGuide.GID = GIDvalue
     WoWPro.Guides[GIDvalue] = {
         guidetype = guidetype,
@@ -469,7 +478,7 @@ function WoWPro.Recorder:ConfirmObservedQuestItem(data)
 end
 
 function WoWPro.Recorder:AddQuestItemsToExistingSteps()
-    if not self:IsRecordingGuide() or not WoWPro.GuideLoaded or self.LoadingGuide then return end
+    if not self:IsRecordingGuide() or self.status ~= "REC" or not WoWPro.GuideLoaded or self.LoadingGuide then return end
     local stepsByQuest = {}
     for index = 1, WoWPro.stepcount or 0 do
         local questID = tonumber(WoWPro.QID[index])
@@ -1156,7 +1165,7 @@ end
 
 
 function WoWPro.Recorder.PostQuestLogUpdate()
-    if not WoWPro.Recorder:IsRecordingGuide() then
+    if not WoWPro.Recorder:IsRecordingGuide() or WoWPro.Recorder.status ~= "REC" then
         WoWPro.PostQuestLogUpdate()
         return
     end
@@ -1191,19 +1200,25 @@ function WoWPro.Recorder.PostGuideLoad()
     _G.C_Timer.After(1.0, function()
         if not WoWPro.Recorder:IsEnabled() or WoWProDB.char.currentguide ~= loadedGID then return end
         WoWPro.Recorder.LoadingGuide = false
-        WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay, quest recording enabled")
+        WoWPro.Recorder:dbp("PostGuideLoad: Clearing LoadingGuide flag after delay")
         if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded then
             WoWPro.Recorder.SelectedStep = nil
             WoWPro.Recorder:CustomizeFrames()
             return
         end
         WoWPro.Recorder:AddQuestItemsToExistingSteps()
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
+        if WoWPro.Recorder.PendingOpenedGuide == loadedGID then
+            WoWPro.Recorder.PendingOpenedGuide = nil
+            WoWPro.Recorder:SelectCurrentGuideStep()
+        else
+            WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
+        end
         WoWPro.Recorder:CustomizeFrames()
         WoWPro:SafeSetShown(WoWPro.GuideFrame, true)
         if WoWPro.Recorder.SelectedStep then
             WoWPro.Recorder:RowUpdate()
         end
+        WoWPro.Recorder:ScrollStepListToSelection()
         WoWPro:UpdateGuide("WoWPro.Recorder.PostGuideLoad")
         if pendingAction and WoWProDB.char.currentguide == pendingGID then
             if pendingAction == "edit" then
@@ -1214,11 +1229,37 @@ function WoWPro.Recorder.PostGuideLoad()
     end)
 end
 
+function WoWPro.Recorder:SelectCurrentGuideStep()
+    if (WoWPro.stepcount or 0) < 1 then
+        self.SelectedStep = nil
+        self.GuideProgressComplete = false
+        return
+    end
+    local step = WoWPro.NextStepNotSticky(1, true)
+    self.GuideProgressComplete = step > WoWPro.stepcount
+    self.SelectedStep = not self.GuideProgressComplete and step or nil
+end
+
 function WoWPro.Recorder.PostUpdateGuide()
     if not WoWPro.Recorder:IsEnabled() then return end
     WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.Recorder:IsRecordingGuide() or (WoWPro.stepcount or 0) < 1 then
         WoWPro.Recorder.SelectedStep = nil
+        WoWPro.Recorder:UpdatePreview()
+        return
+    end
+    if WoWPro.Recorder.FollowGuideProgress and WoWPro.Recorder.status == "STOP" then
+        local previousStep = WoWPro.Recorder.SelectedStep
+        local wasComplete = WoWPro.Recorder.GuideProgressComplete
+        WoWPro.Recorder:SelectCurrentGuideStep()
+        if previousStep ~= WoWPro.Recorder.SelectedStep or wasComplete ~= WoWPro.Recorder.GuideProgressComplete then
+            WoWPro.Recorder:CustomizeFrames()
+            if WoWPro.Recorder.SelectedStep then
+                WoWPro.Recorder:RowUpdate()
+                WoWPro.Recorder:ScrollStepListToSelection()
+                WoWPro:UpdateGuide("WoWPro.Recorder:FollowGuideProgress")
+            end
+        end
         WoWPro.Recorder:UpdatePreview()
         return
     end
@@ -1500,12 +1541,16 @@ local dropdown = {
             stepInfo[key] = WoWPro[key][pos]
         end
 
-        WoWPro.Recorder.AddStep(stepInfo, pos)
+        WoWPro.Recorder.AddStep(stepInfo, pos, true)
     end}
 }
 
 function WoWPro.Recorder:RowUpdate(offset)
     if not self:IsRecordingGuide() then return end
+    if self.GuideProgressComplete and not self.SelectedStep then
+        self:CustomizeFrames()
+        return
+    end
     if (WoWPro.stepcount or 0) < 1 or not WoWPro.rows then
         WoWPro.Recorder:UpdateStepList()
         WoWPro.Recorder:UpdatePreview()
@@ -1609,7 +1654,7 @@ function WoWPro.Recorder:RowLeftClick(i)
     WoWPro.Recorder:RowUpdate(true)
 end
 
-function WoWPro.Recorder.AddStep(stepInfo, position)
+function WoWPro.Recorder.AddStep(stepInfo, position, manual)
     if not WoWPro.Recorder:IsRecordingGuide() then
         WoWPro.Recorder:Warning("No recorder guide is currently loaded.")
         return
@@ -1618,7 +1663,7 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
     end
-    if WoWPro.Recorder.status == "STOP" then
+    if WoWPro.Recorder.status == "STOP" and not manual then
         WoWPro.Recorder:print("Hey! Recorder.AddStep while status==%s", WoWPro.Recorder.status)
         return
     end

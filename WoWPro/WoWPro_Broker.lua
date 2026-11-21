@@ -1962,8 +1962,8 @@ Rep2IdAndClass = {
 
 -- Next Step --
 -- Determines the next active step --
-function WoWPro.NextStep(guideIndex, rowIndex)
-    if WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
+function WoWPro.NextStep(guideIndex, rowIndex, useGuideProgress)
+    if not useGuideProgress and WoWPro.Recorder and WoWPro.Recorder:IsRecordingGuide() then
         return math.max(1, math.min(guideIndex or 1, WoWPro.stepcount or 1))
     end
     -- Removed unused qid variable; use QID from WoWPro.QID[guideIndex] directly where needed
@@ -3836,13 +3836,13 @@ end
 
 -- Next Step Not Sticky --
 -- Determines the next active step that isn't a sticky step (for mapping) --
-function WoWPro.NextStepNotSticky(guideIndex)
+function WoWPro.NextStepNotSticky(guideIndex, useGuideProgress)
     WoWPro:dbp("Called WoWPro.NextStepNotSticky(%d)",guideIndex)
     if not guideIndex then guideIndex = 1 end
     local sticky = true
     while sticky do
         sticky = false
-        guideIndex = WoWPro.NextStep(guideIndex)
+        guideIndex = WoWPro.NextStep(guideIndex, nil, useGuideProgress)
         if WoWPro.sticky[guideIndex] then
             sticky = true
             guideIndex = guideIndex + 1

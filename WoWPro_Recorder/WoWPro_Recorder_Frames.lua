@@ -229,6 +229,15 @@ local recorderStatusLabel = {
 
 local function UpdateRecorderStatus(status)
     WoWPro.Recorder.status = status
+    WoWProCharDB.RecorderStatus = status
+    if status == "STOP" then
+        WoWPro.Recorder.RecentQuestItemUse = nil
+        WoWPro.Recorder.Flights = nil
+        WoWPro.Recorder.Portals = nil
+    else
+        WoWPro.Recorder.FollowGuideProgress = false
+        WoWPro.Recorder.GuideProgressComplete = false
+    end
     if WoWPro.RecordText then
         WoWPro.RecordText:SetText((recorderStatusLabel[status] or status))
         if status == "STOP" then
@@ -406,6 +415,8 @@ function WoWPro.Recorder:UpdatePreview()
     local row = frame.row
     if not index or index < 1 or index > (WoWPro.stepcount or 0) then
         row:Hide()
+        frame.empty:SetText(self.GuideProgressComplete and "Guide complete. Select a step to edit it."
+            or "Select or record a step to preview it.")
         frame.empty:Show()
         frame.itemIcon:Hide()
         frame.targetIcon:Hide()
@@ -612,6 +623,7 @@ function WoWPro.Recorder:CreateStepListFrame()
     close:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -2, -2)
     close:SetScript("OnClick", function()
         WoWPro.Recorder.StepListVisible = false
+        WoWProCharDB.RecorderShowSteps = false
         frame:Hide()
     end)
 
@@ -708,7 +720,12 @@ function WoWPro.Recorder:UpdateStepList()
             row.text:SetWordWrap(false)
             row:SetScript("OnClick", function(clickedRow)
                 if not WoWPro.Recorder:IsRecordingGuide() then return end
+                if WoWPro.Recorder.SelectedStep ~= clickedRow.index then
+                    WoWPro.Recorder.FollowGuideProgress = false
+                    WoWPro.Recorder.GuideProgressComplete = false
+                end
                 WoWPro.Recorder.SelectedStep = clickedRow.index
+                WoWPro.Recorder:CustomizeFrames()
                 WoWPro.Recorder:RowUpdate()
             end)
 
@@ -772,7 +789,10 @@ function WoWPro.Recorder:UpdateStepList()
         if action == "A" or action == "C" or action == "T" then
             levelText = "[" .. tostring(questLevel or "?") .. "] "
         end
-        row.text:SetText(("%d. %s%s %s"):format(index, levelText, tostring(action or "?"),
+        local guide = WoWProCharDB.Guide and WoWProCharDB.Guide[guideID]
+        local state = guide and guide.skipped and guide.skipped[index] and "[Skipped] "
+            or guide and guide.completion and guide.completion[index] and "[Done] " or ""
+        row.text:SetText(("%d. %s%s%s %s"):format(index, state, levelText, tostring(action or "?"),
             tostring(WoWPro.step[index] or "")))
         if index == self.SelectedStep then
             row:SetBackdropColor(0.12, 0.16, 0.14, 0.98)
@@ -784,6 +804,24 @@ function WoWPro.Recorder:UpdateStepList()
     for index = count + 1, #frame.rows do
         frame.rows[index]:Hide()
     end
+end
+
+function WoWPro.Recorder:ScrollStepListToSelection()
+    local guideID = WoWProDB.char.currentguide
+    _G.C_Timer.After(0, function()
+        local frame = self.StepListFrame
+        if not self.StepListVisible or not self:IsRecordingGuide()
+            or WoWProDB.char.currentguide ~= guideID or not frame then return end
+        local index = self.SelectedStep
+        if index then
+            local position = (index - 1) * stepListRowHeight
+            local scroll = frame.scroll
+            if position < scroll:GetVerticalScroll()
+                or position + stepListRowHeight > scroll:GetVerticalScroll() + scroll:GetHeight() then
+                scroll:SetVerticalScroll(math.max(0, math.min(position, scroll:GetVerticalScrollRange())))
+            end
+        end
+    end)
 end
 
 local function StyleRecorderDialogNode(node)
@@ -870,7 +908,13 @@ local function CreateButton(name, desc, _anchor, status)
                     _G.StaticPopup_Show("WOWPRO_RECORDER_MESSAGE", "Create or open a recorder guide before starting recording.")
                     return
                 end
+                local wasComplete = WoWPro.Recorder.GuideProgressComplete
                 UpdateRecorderStatus(status)
+                if status == "REC" and wasComplete and WoWPro.GuideLoaded then
+                    WoWPro.Recorder.SelectedStep = WoWPro.stepcount > 0 and WoWPro.stepcount or nil
+                    WoWPro.Recorder:CustomizeFrames()
+                    WoWPro.Recorder:RowUpdate()
+                end
             else
                 dialog:Open("WoWPro Recorder - "..name, WoWPro.DialogFrame)
             end
@@ -919,6 +963,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
     WoWPro.RecorderFrame = recorderframe
     self:CreatePreviewFrame()
     self:CreateStepListFrame()
+    self.StepListVisible = WoWProCharDB.RecorderShowSteps == true
     local emptyState = WoWPro.GuideFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     emptyState:SetPoint("TOPLEFT", WoWPro.GuideFrame, "TOPLEFT", 12, -14)
     emptyState:SetPoint("TOPRIGHT", WoWPro.GuideFrame, "TOPRIGHT", -12, -14)
@@ -965,7 +1010,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
     if not CurrentRecorderGuideID() then
         WoWPro.Recorder.status = "STOP"
     else
-        WoWPro.Recorder.status = WoWPro.Recorder.status or "REC"
+        WoWPro.Recorder.status = WoWPro.Recorder.status or WoWProCharDB.RecorderStatus or "REC"
     end
     WoWPro.RecordText = recordtext
     recorderStatusDot = recorderframe:CreateTexture(nil, "OVERLAY")
@@ -1028,7 +1073,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             zone = zonetag,
                             note = note,
                             waycomplete = 1,
-                        })
+                        }, nil, true)
                     end,
                 },
                 notquest = {
@@ -1423,7 +1468,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                                 WoWPro:Error("Looks like your step is missing a QID! We can't register it without one. Please fill that out and try again.")
                                 return
                         end
-                        WoWPro.Recorder.AddStep(WoWPro.Recorder.stepInfo)
+                        WoWPro.Recorder.AddStep(WoWPro.Recorder.stepInfo, nil, true)
                         WoWPro.Recorder.stepInfo = {}
                         WoWPro.Recorder.QIDtoAdd = nil
                         WoWPro.Recorder.questtextset = nil
@@ -1571,6 +1616,8 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             return
                         end
                         WoWPro.Recorder.SelectedStep = step
+                        WoWPro.Recorder.FollowGuideProgress = false
+                        WoWPro.Recorder.GuideProgressComplete = false
                         WoWPro.GuideOffset = step
                         if WoWPro.Scrollbar then
                             WoWPro.Scrollbar:SetValue(step)
@@ -2154,15 +2201,28 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             end
                             WoWPro:Print("Recorder loading guide %s",GID)
                             WoWProCharDB = WoWProCharDB or {}
+                            UpdateRecorderStatus("STOP")
                             WoWProCharDB.RecorderGuide = GID
                             WoWProCharDB.RecorderActive = true
+                            WoWProCharDB.RecorderOpenedGuide = GID
                             WoWPro.Recorder.CurrentGuide.GID = GID
+                            WoWPro.Recorder.StepListVisible = true
+                            WoWProCharDB.RecorderShowSteps = true
+                            WoWPro.Recorder.FollowGuideProgress = true
+                            WoWPro.Recorder.GuideProgressComplete = false
                             WoWPro.Recorder:PrepareGuideForEditing(GID)
                             if WoWProDB.char.currentguide == GID and WoWPro.GuideLoaded then
-                                WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep or (WoWPro.stepcount > 0 and WoWPro.stepcount or nil)
+                                WoWPro.Recorder.PendingOpenedGuide = nil
+                                WoWPro.Recorder:SelectCurrentGuideStep()
                                 WoWPro.Recorder:CustomizeFrames()
+                                WoWPro.Recorder:RowUpdate()
+                                WoWPro.Recorder:ScrollStepListToSelection()
+                                WoWPro:UpdateGuide("WoWPro.Recorder:OpenGuide")
+                            else
+                                WoWPro.Recorder.SelectedStep = nil
+                                WoWPro.Recorder.PendingOpenedGuide = GID
+                                WoWPro:LoadGuide(GID)
                             end
-                            WoWPro:LoadGuide(GID)
                             dialog:Close("WoWPro Recorder - Open")
                         end,
                 },
@@ -2215,6 +2275,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         end
                         WoWProCharDB.RecorderActive = false
                         WoWProCharDB.RecorderGuide = nil
+                        WoWProCharDB.RecorderOpenedGuide = nil
+                        WoWPro.Recorder.PendingOpenedGuide = nil
+                        WoWPro.Recorder.FollowGuideProgress = false
+                        WoWPro.Recorder.GuideProgressComplete = false
                         WoWPro.Recorder.CurrentGuide.GID = nil
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
@@ -2272,24 +2336,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
             return
         end
         WoWPro.Recorder.StepListVisible = not WoWPro.Recorder.StepListVisible
+        WoWProCharDB.RecorderShowSteps = WoWPro.Recorder.StepListVisible
         WoWPro.Recorder:UpdateStepList()
         if WoWPro.Recorder.StepListVisible then
-            local guideID = WoWProDB.char.currentguide
-            _G.C_Timer.After(0, function()
-                local recorder = WoWPro.Recorder
-                local frame = recorder.StepListFrame
-                if not recorder.StepListVisible or not recorder:IsRecordingGuide()
-                    or WoWProDB.char.currentguide ~= guideID or not frame then return end
-                local index = recorder.SelectedStep
-                if index then
-                    local position = (index - 1) * stepListRowHeight
-                    local scroll = frame.scroll
-                    if position < scroll:GetVerticalScroll()
-                        or position + stepListRowHeight > scroll:GetVerticalScroll() + scroll:GetHeight() then
-                        scroll:SetVerticalScroll(math.max(0, math.min(position, scroll:GetVerticalScrollRange())))
-                    end
-                end
-            end)
+            WoWPro.Recorder:ScrollStepListToSelection()
         end
     end)
     local previewButton = CreateButton("Preview", "Show or hide the read-only guide preview.", stepsButton)
@@ -2361,6 +2411,7 @@ function WoWPro.Recorder:CustomizeFrames()
     local currentGID = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide
     local showingRecorderGuide = recordingGID and currentGID == recordingGID
     local empty = not showingRecorderGuide or not WoWPro.GuideLoaded or (WoWPro.stepcount or 0) < 1
+        or self.GuideProgressComplete and not self.SelectedStep
 
     if empty and not _G.InCombatLockdown() then
         for _, row in ipairs(WoWPro.rows or {}) do
@@ -2375,8 +2426,10 @@ function WoWPro.Recorder:CustomizeFrames()
         self.PendingCombatRowUpdate = true
     end
     if self.EmptyState then
-        self.EmptyState:SetText(showingRecorderGuide and WoWPro.GuideLoaded
-            and "No recorded steps yet." or "No recorder guide selected. Use New or Open to begin.")
+        self.EmptyState:SetText(self.GuideProgressComplete and showingRecorderGuide and WoWPro.GuideLoaded
+            and "Guide complete. Select a step to edit it."
+            or showingRecorderGuide and WoWPro.GuideLoaded and "No recorded steps yet."
+            or "No recorder guide selected. Use New or Open to begin.")
         self.EmptyState:SetShown(empty)
     end
     if not _G.InCombatLockdown() then
