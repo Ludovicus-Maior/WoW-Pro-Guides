@@ -122,6 +122,21 @@ _G.StaticPopupDialogs["WOWPRO_RECORDER_MOVE_PRE"] = {
     end,
 }
 
+_G.StaticPopupDialogs["WOWPRO_RECORDER_QUEST_ITEM"] = {
+    text = "Quest progress followed the use of a quest item.\n\nQuest: %s\nItem ID: %s\n\nAdd this item to the completion step? The match may be coincidental.",
+    button1 = "Add Item",
+    button2 = _G.CANCEL,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 0,
+    OnAccept = function(_, data)
+        WoWPro.Recorder:ConfirmObservedQuestItem(data)
+    end,
+    OnShow = function(frame)
+        StyleRecorderStaticPopup(frame)
+    end,
+}
+
 _G.SLASH_WPR1 = "/wpr";
 function _G.SlashCmdList.WPR(msg)
 	WoWPro.Recorder:ToggleAdvanced()
@@ -178,6 +193,7 @@ end
 
 
 function WoWPro.Recorder:OnDisable()
+    self.RecentQuestItemUse = nil
     -- Unregistering Recorder Module Events --
     if WoWPro.RecorderFrame and WoWPro.Recorder.events then
         for _, event in ipairs(WoWPro.Recorder.events) do
@@ -311,6 +327,123 @@ local function GetQuestSpecialItem(questID)
     return type(link) == "string" and link:match("item:(%d+)") or nil
 end
 WoWPro.Recorder.GetQuestSpecialItem = GetQuestSpecialItem
+
+local QUEST_ITEM_MATCH_SECONDS = 10
+
+local function FindUniqueCompletionStep(questID)
+    local match
+    for index = 1, WoWPro.stepcount or 0 do
+        if WoWPro.action[index] == "C" and tonumber(WoWPro.QID[index]) == questID then
+            if match then return end
+            match = index
+        end
+    end
+    return match
+end
+
+local function QuestObjectiveProgressed(oldQuest, quest)
+    if not oldQuest or not quest or not oldQuest.leaderBoard or not quest.leaderBoard then return false end
+    for index in pairs(quest.leaderBoard) do
+        local oldCount = oldQuest.ncompleted and oldQuest.ncompleted[index]
+        local newCount = quest.ncompleted and quest.ncompleted[index]
+        if type(oldCount) ~= "number" or type(newCount) ~= "number" then
+            local oldText, newText = oldQuest.leaderBoard[index], quest.leaderBoard[index]
+            oldCount = oldText and tonumber(oldText:match("^%s*(%d+)%s*/%s*%d+")
+                or oldText:match("(%d+)%s*/%s*%d+%s*$"))
+            newCount = newText and tonumber(newText:match("^%s*(%d+)%s*/%s*%d+")
+                or newText:match("(%d+)%s*/%s*%d+%s*$"))
+        end
+        if type(oldCount) == "number" and type(newCount) == "number" and newCount > oldCount
+            or oldQuest.ocompleted and quest.ocompleted
+                and not oldQuest.ocompleted[index] and quest.ocompleted[index] then
+            return true
+        end
+    end
+    return false
+end
+
+function WoWPro.Recorder:ObserveQuestItemUse(bag, slot)
+    if not self:IsRecordingGuide() or self.status ~= "REC" or self.LoadingGuide or not WoWPro.GuideLoaded then return end
+    local container = _G.C_Container
+    if not container or not container.GetContainerItemID or not container.GetContainerItemQuestInfo then return end
+    local itemID = container.GetContainerItemID(bag, slot)
+    local info = itemID and container.GetContainerItemQuestInfo(bag, slot)
+    if not itemID or not info or not info.isQuestItem then return end
+    local now = _G.GetTime()
+    local recent = self.RecentQuestItemUse
+    if recent and recent.guideID == WoWProDB.char.currentguide
+        and now - recent.time <= QUEST_ITEM_MATCH_SECONDS then
+        recent.ambiguous = recent.ambiguous or recent.itemID ~= itemID
+    else
+        recent = { guideID = WoWProDB.char.currentguide, itemID = itemID }
+        self.RecentQuestItemUse = recent
+    end
+    recent.time = now
+end
+
+function WoWPro.Recorder:SuggestObservedQuestItem()
+    local recent = self.RecentQuestItemUse
+    if not recent then return end
+    if not self:IsRecordingGuide() or self.status ~= "REC" or self.LoadingGuide or not WoWPro.GuideLoaded
+        or recent.guideID ~= WoWProDB.char.currentguide
+        or _G.GetTime() - recent.time > QUEST_ITEM_MATCH_SECONDS then
+        self.RecentQuestItemUse = nil
+        return
+    end
+    local progressedQuest
+    for questID, quest in pairs(WoWPro.QuestLog or {}) do
+        if QuestObjectiveProgressed(WoWPro.oldQuests and WoWPro.oldQuests[questID], quest) then
+            if progressedQuest then
+                self.RecentQuestItemUse = nil
+                self:print("Quest item suggestion skipped: multiple quests progressed.")
+                return
+            end
+            progressedQuest = tonumber(questID)
+        end
+    end
+    if not progressedQuest then return end
+    self.RecentQuestItemUse = nil
+    if recent.ambiguous then
+        self:print("Quest item suggestion skipped: multiple quest items were used.")
+        return
+    end
+    local index = FindUniqueCompletionStep(progressedQuest)
+    local guide = WoWPro.Guides[recent.guideID]
+    if not index or WoWPro.use[index] and WoWPro.use[index] ~= ""
+        or guide and guide.recorderIgnoredQuestItems and guide.recorderIgnoredQuestItems[tostring(progressedQuest)] then
+        return
+    end
+    if _G.StaticPopup_FindVisible("WOWPRO_RECORDER_QUEST_ITEM") then
+        self:print("Quest item suggestion skipped: another item confirmation is open.")
+        return
+    end
+    local data = {
+        guideID = recent.guideID, questID = progressedQuest, itemID = recent.itemID,
+        step = WoWPro.step[index], note = WoWPro.note[index], questtext = WoWPro.questtext[index],
+    }
+    if not _G.StaticPopup_Show("WOWPRO_RECORDER_QUEST_ITEM", tostring(data.step), tostring(data.itemID), data) then
+        self:Warning("Could not display the quest item confirmation.")
+    end
+end
+
+function WoWPro.Recorder:ConfirmObservedQuestItem(data)
+    if not data or not self:IsRecordingGuide() or not WoWPro.GuideLoaded
+        or WoWProDB.char.currentguide ~= data.guideID then
+        self:Warning("The guide changed; the quest item was not added.")
+        return
+    end
+    local index = FindUniqueCompletionStep(data.questID)
+    local guide = WoWPro.Guides[data.guideID]
+    if not index or WoWPro.step[index] ~= data.step or WoWPro.note[index] ~= data.note
+        or WoWPro.questtext[index] ~= data.questtext or WoWPro.use[index] and WoWPro.use[index] ~= ""
+        or guide and guide.recorderIgnoredQuestItems and guide.recorderIgnoredQuestItems[tostring(data.questID)] then
+        self:Warning("The completion step changed; the quest item was not added.")
+        return
+    end
+    WoWPro.use[index] = tostring(data.itemID)
+    self:CheckpointCurrentGuide("ObservedQuestItem")
+    WoWPro:UpdateGuide("WoWPro.Recorder:ObservedQuestItem")
+end
 
 function WoWPro.Recorder:AddQuestItemsToExistingSteps()
     if not self:IsRecordingGuide() or not WoWPro.GuideLoaded or self.LoadingGuide then return end
@@ -454,25 +587,7 @@ local function RecordObjectiveLocations(guideID, mapxy, zonetag)
         local oldQuest = WoWPro.oldQuests and WoWPro.oldQuests[questID]
         local quest = WoWPro.QuestLog and WoWPro.QuestLog[questID]
         if oldQuest and quest and oldQuest.leaderBoard and quest.leaderBoard then
-            local progressed = false
-            for index in pairs(quest.leaderBoard) do
-                local oldCount = oldQuest.ncompleted and oldQuest.ncompleted[index]
-                local newCount = quest.ncompleted and quest.ncompleted[index]
-                if type(oldCount) ~= "number" or type(newCount) ~= "number" then
-                    local oldText, newText = oldQuest.leaderBoard[index], quest.leaderBoard[index]
-                    oldCount = oldText and tonumber(oldText:match("^%s*(%d+)%s*/%s*%d+")
-                        or oldText:match("(%d+)%s*/%s*%d+%s*$"))
-                    newCount = newText and tonumber(newText:match("^%s*(%d+)%s*/%s*%d+")
-                        or newText:match("(%d+)%s*/%s*%d+%s*$"))
-                end
-                if type(oldCount) == "number" and type(newCount) == "number" and newCount > oldCount
-                    or oldQuest.ocompleted and quest.ocompleted
-                        and not oldQuest.ocompleted[index] and quest.ocompleted[index] then
-                    progressed = true
-                    break
-                end
-            end
-            if progressed then
+            if QuestObjectiveProgressed(oldQuest, quest) then
                 local match, matches = nil, 0
                 for index = 1, WoWPro.stepcount or 0 do
                     if tonumber(WoWPro.QID[index]) == questID and WoWPro.action[index] == "C"
@@ -1028,6 +1143,7 @@ function WoWPro.Recorder.PostQuestLogUpdate()
         return
     end
     WoWPro.Recorder:AddQuestItemsToExistingSteps()
+    WoWPro.Recorder:SuggestObservedQuestItem()
     WoWPro.Recorder.eventHandler(nil,"POST_QUEST_LOG_UPDATE")
 end
 
@@ -1247,6 +1363,13 @@ end
 
 
 function WoWPro.Recorder:RegisterEvents()
+    local container = _G.C_Container
+    if not self.QuestItemHookInstalled and _G.hooksecurefunc and container and container.UseContainerItem then
+        _G.hooksecurefunc(container, "UseContainerItem", function(bag, slot)
+            WoWPro.Recorder:ObserveQuestItemUse(bag, slot)
+        end)
+        self.QuestItemHookInstalled = true
+    end
     WoWPro.Recorder.events = {
         "UI_INFO_MESSAGE",
         "CHAT_MSG_SYSTEM",
