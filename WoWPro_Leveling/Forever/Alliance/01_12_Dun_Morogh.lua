@@ -9,7 +9,6 @@ C Dwarven Outfitters|QID|179|M|29.80,74.30|Z|1426; Dun Morogh|L|750 8|ITEM|750|N
 T Dwarven Outfitters|QID|179|M|29.92,71.21|Z|1426; Dun Morogh|N|To Sten Stoutarm.|
 
 ; Quest name changes depending upon your class
-A Archaic Rune|QID|98581|PRE|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|C|Shaman|R|Dwarf|
 A Simple Rune|QID|3106|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Warrior|R|Dwarf|
 A Consecrated Rune|QID|3107|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Paladin|R|Dwarf|
 A Etched Rune|QID|3108|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Hunter|R|Dwarf|
@@ -19,10 +18,11 @@ A Simple Memorandum|QID|3112|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Ste
 A Encrypted Memorandum|QID|3113|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Rogue|R|Gnome|
 A Glyphic Memorandum|QID|3114|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Mage|R|Gnome|
 A Tainted Memorandum|QID|3115|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Warlock|R|Gnome|
+A Hallowed Memorandum|QID|98574|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|C|Priest|R|Gnome|
+A Archaic Rune|QID|98581|PRE|179|M|29.94,71.30|Z|1426; Dun Morogh|N|From Sten Stoutarm.|C|Shaman|R|Dwarf|
 A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|Z|1426; Dun Morogh|N|From Sten Stoutarm|
 r Sell Junk|AVAILABLE|170|M|30.09,71.56|Z|1426; Dun Morogh|N|Sell your junk to Adlin Pridedrift.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A A New Threat|QID|170|PRE|179|M|29.71,71.25|Z|1426; Dun Morogh|N|From Balir Frosthammer|
-T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm in Anvilmar.|C|Shaman|R|Dwarf|
 T Simple Rune|QID|3106|M|28.83,67.24|Z|1426; Dun Morogh|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Dwarf|
 T Consecrated Rune|QID|3107|M|28.83,68.33|Z|1426; Dun Morogh|N|To Bromos Grummner in Anvilmar.|C|Paladin|R|Dwarf|
 T Etched Rune|QID|3108|M|29.17,67.45|Z|1426; Dun Morogh|N|To Thorgas Grimson in Anvilmar.|C|Hunter|R|Dwarf|
@@ -32,6 +32,8 @@ T Simple Memorandum|QID|3112|M|28.83,67.24|Z|1426; Dun Morogh|N|To Thran Khorman
 T Encrypted Memorandum|QID|3113|M|28.37,67.51|Z|1426; Dun Morogh|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Gnome|
 T Glyphic Memorandum|QID|3114|M|28.71,66.37|Z|1426; Dun Morogh|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
 T Tainted Memorandum|QID|3115|M|28.65,66.14|Z|1426; Dun Morogh|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
+T Hallowed Memorandum|QID|98574|M|28.60,66.38|Z|1426; Dun Morogh|N|To Branstock Khalder in Anvilmar.|C|Priest|R|Gnome|
+T Archaic Rune|QID|98581|M|28.86,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm in Anvilmar.|C|Shaman|R|Dwarf|
 = Level 2 Training|ACTIVE|170|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|IZ|Anvilmar|
 
 ; -- Warlock Imp quest
@@ -39,7 +41,6 @@ A Beginnings|QID|1599|M|28.65,66.14|Z|1426; Dun Morogh|N|From Alamar Grimm in An
 C Beginnings|QID|1599|M|29.80,80.94|Z|1426; Dun Morogh|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|C|Warlock|S|
 ; --
 
-A A New Threat|QID|170|PRE|179|M|29.71,71.25|Z|1426; Dun Morogh|N|From Balir Frosthammer|
 C A New Threat|QID|170|QO|1;2|M|31.30,76.10|Z|1426; Dun Morogh|N|Kill Rockjaw Troggs and Burly Rockjaw Troggs.|
 L Level 3|AVAILABLE|3361|N|Grind until you're within 3.5 bubbles of level 3.|LVL|2;-170|
 T A New Threat|QID|170|M|29.71,71.25|Z|1426; Dun Morogh|N|To Balir Frosthammer|
@@ -49,7 +50,7 @@ T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|Z|1426; Du
 A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|Z|1426; Dun Morogh|N|From Talin Keeneye.|
 A The Boar Hunter|QID|183|M|22.60,71.43|Z|1426; Dun Morogh|N|From Talin Keeneye.|
 C The Boar Hunter|QID|183|QO|1|M|22.00,72.00|Z|1426; Dun Morogh|N|Kill Small Crag Boar.\n[color=FF0000]NOTE: [/color]They are neutral until you attack them.|S|
-T Coldridge Valley Mail Delivery|QID|234|M|25.08,75.71|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
+T Coldridge Valley Mail Delivery|QID|234|M|25.08,75.71|Z|1426; Dun Morogh|N|To Grelin Whitebeard.\n[color=FF0000]NOTE: [/color]Your reward for this quest is to learn a collection profession for free. You'll still need to buy a tool if so needed.|
 A The Troll Cave|QID|182|M|25.08,75.71|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
 C The Troll Cave|QID|182|QO|1|M|26.30,78.80|Z|1426; Dun Morogh|N|Kill Frostmane Troll Whelps.|T|Frostmane Troll Whelp|S|
 C Felix's Box|QID|3361|M|20.88,76.07|Z|1426; Dun Morogh|L|10438|N|Loot Felix's Box from the ground in front of the tent.|
@@ -74,14 +75,14 @@ C Call of Earth|QID|94373|M|27.59,81.10|Z|1426; Dun Morogh|L|264356 2|ITEM|26435
 = Level 4 Training|AVAILABLE|97277|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Anvilmar|
 T A Refugee's Quandary|QID|3361|M|28.49,67.63|Z|1426; Dun Morogh|N|To Felix Whindlebolt.|
 A Grund and Gozwin|QID|97277|M|28.67,67.51|Z|1426; Dun Morogh|N|From Grund Drokda.|
-C Grund and Gozwin|QID|97277|QO|1|M|27.28,62.85|CS|Z|1426; Dun Morogh|N|Loot Gozwin's Mechanic's Log.|S|
-C Grund and Gozwin|QID|97277|QO|2|M|26.50,68.11;27.28,62.85|CS|Z|1426; Dun Morogh|N|Kill the Snow Leopard Prowler that spawns by the fire.\n[color=FF0000]NOTE: [/color]Walk up the mountain behind Anvilmar.|
-C Grund and Gozwin|QID|97277|QO|1|M|27.28,62.85|CS|Z|1426; Dun Morogh|N|Loot Gozwin's Mechanic's Log from the ground.|US|
+C Grund and Gozwin|QID|97277|QO|1|M|27.28,62.85|Z|1426; Dun Morogh|N|Loot Gozwin's Mechanic's Log.|S|
+C Grund and Gozwin|QID|97277|QO|2|M|26.50,68.11;27.48,62.86|CS|Z|1426; Dun Morogh|N|Kill the Snow Leopard Prowler that spawns by the fire.\n[color=FF0000]NOTE: [/color]Walk up the mountain behind Anvilmar.\nDon't let it's level intimidate you.|
+C Grund and Gozwin|QID|97277|QO|1|M|27.28,62.85|Z|1426; Dun Morogh|N|Loot Gozwin's Mechanic's Log from the ground.\n[color=FF0000]NOTE: [/color]Do it quick before the Leopard respawns.|US|
 
 T Grund and Gozwin|QID|97277|M|28.67,67.51|Z|1426; Dun Morogh|N|To Grund Drokda.|
 T Call of Earth|QID|94375|M|28.87,66.23|Z|1426; Dun Morogh|N|To Teo Hammerstorm.|C|Shaman|
 T Bring Back the Mug|QID|3365|M|24.98,75.94|Z|1426; Dun Morogh|N|To Nori Pridedrift.|
-C The Stolen Journal|QID|218|M|30.08,79.33|Z|1426; Dun Morogh|L|2004|ITEM|2004|N|Grik'nir the Cold.\n[color=FF0000]NOTE: [/color]He's on top of the ledge at the very back of the cave.\nYou can get to him by either going through the tunnel to the right after you enter the cave, or by jumping up from the lower ledge by going through the tunnel to the left. Stand on the rock beside the ledge and do a running jump to reach him (this may take a few tries).\nOccasionally, he'll spawn below the ledge, making it easier to reach him|
+C The Stolen Journal|QID|218|M|26.73,79.62;30.08,79.33|CC|Z|1426; Dun Morogh|L|2004|ITEM|2004|N|Grik'nir the Cold at the back of the cave in the southeast corner of Coldridge Valley.\n[color=FF0000]NOTE: [/color]He's on top of a high ledge and you can get to him by either going through the tunnel to the right after you enter the cave, or by jumping up from the lower ledge by going through the tunnel to the left. Stand on the rock beside the ledge and do a running jump to reach him (this may take a few tries).\nOccasionally, he'll spawn below the ledge, making it easier to reach him|
 C Call of Earth|QID|94373|M|27.59,81.10|Z|1426; Dun Morogh|L|264356 2|ITEM|264356|N|Frostmane Novices and Troll Whelps.|C|Shaman|US|
 T The Stolen Journal|QID|218|M|25.08,75.71|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
 A Senir's Observations|QID|282|PRE|218|M|25.08,75.71|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
@@ -93,24 +94,24 @@ A Call of Earth|QID|94374|PRE|94373|M|28.85,66.20|Z|1426; Dun Morogh|N|From Teo 
 T Call of Earth|QID|94374|M|24.85,61.85|Z|1426; Dun Morogh|N|To Minor Manifestation of Earth.\n[color=FF0000]NOTE: [/color]Climb the hill behind Anvilmar as you did before; except this time continue west past the camp to the Spirit Stone.\nDrink (use) the Earth Sapta near the Spirit Stone to summon it.|C|Shaman|U|6635|
 A Call of Earth|QID|94375|PRE|94374|M|24.89,61.82|Z|1426; Dun Morogh|N|From Minor Manifestation of Earth.|C|Shaman|
 ; -- Priest quest line start
-A In Favor of the Light|QID|5626|M|28.60,66.38|Z|1426; Dun Morogh|N|From Branstock Khalder.|C|Priest|R|Dwarf|
+A In Favor of the Light|QID|5626|M|28.60,66.38|Z|1426; Dun Morogh|N|From Branstock Khalder.|C|Priest|R|Dwarf,Gnome|
 ;
 R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, stop and sell as you pass Anvilmar.|C|-Priest,-Shaman|
 R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Exit Anvilmar and follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, sell before you leave Anvilmar.|C|Priest,Shaman|
 T Senir's Observations|QID|282|M|33.48,71.84|N|To Mountaineer Thalos.|
 A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos.|
-A The Adventurer|QID|96628|PRE|97277&3365&282|M|33.45,71.92|Z|1426; Dun Morogh|N|From Mountaineer Thalos.| ; ** 218 is the PRE for 282 -
+A The Adventurer|QID|96628|PRE|97277&3365&282|LEAD|96608|M|33.45,71.92|Z|1426; Dun Morogh|N|From Mountaineer Thalos.| ; ** 218 is the PRE for 282 -
 A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket.|
 ; ** End of Coldridge Valley
 
 C Beer Basted Boar Ribs|AVAILABLE|384|M|47.37,63.40|Z|1426; Dun Morogh|L|2886 6|ITEM|2886|N|Kill Crag Boars for Ribs.|T|Crag Boar|S!US|IZ|Dun Morogh|
-R Kharanos|ACTIVE|96628|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|LVL|5;-495|S|
-L Level 6|ACTIVE|96628|N|Grind until you're within 3.5 bubbles of level 6.|LVL|5;-495|
+R Kharanos|ACTIVE|96628|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|LVL|5;-1020|S|
+L Level 6|ACTIVE|96628|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-1020|
 R Kharanos|ACTIVE|96628|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|US|
 T The Adventurer|QID|96628|M|46.71,53.95|Z|1426; Dun Morogh|N|To Eric Brighthammer.|
-A The Great Outdoors|QID|96608|PRE|96628|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
-C The Great Outdoors|QID|96608|QO|1;2|M|46.71,53.95|Z|1426; Dun Morogh|N|Sit and remain sitting for 1 minute to gain the Boosted Rest buff.\n[color=FF0000]NOTE: [/color]As long as you are around the campfire, you will gain the Boosted Rest buff. The optional part is sitting close enough you risk burning to trigger completion.|T|/sit|
-T The Great Outdoors|QID|96608|M|46.66,53.95|Z|1426; Dun Morogh|N|To Eric Brighthammer.|
+A The Great Outdoors|QID|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|
+C The Great Outdoors|QID|96608|QO|1;2|M|46.61,53.95|Z|1426; Dun Morogh|N|Sit and remain sitting for 1 minute to gain the Boosted Rest buff.\n[color=FF0000]NOTE: [/color]As long as you are around the campfire, you will gain the Boosted Rest buff. The optional part is sitting close enough you risk burning to trigger completion.|T|/sit|BUFF|1229451|
+T The Great Outdoors|QID|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|To Eric Brighthammer.| ;410 exp
 
 N Camping 101|AVAILABLE|384|N|Completing a Camping 101 quest teaches you the recipe for a campsite item, which can provide useful buffs or services around your campfire.\n\n[color=FF0000]NOTE: [/color]Check with Eric Brighthammer for a quest matching each profession you've learned. If you haven't learned a profession yet, go learn it first and return to Eric for its quest.\n\nManually check this step off to continue.|
 A Camping 101: Leatherworking|QID|96031|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Leatherworking;165|SPELL|Leatherworking; 2108; Flip|IZ|Dun Morogh|
@@ -124,55 +125,57 @@ A Camping 101: Skinning|QID|96056|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|F
 A Camping 101: Tailoring|QID|96057|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Tailoring;197|SPELL|Tailoring; 3908; Flip|IZ|Dun Morogh|
 A Camping 101: Engineering|QID|96058|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|P|Engineering;202|SPELL|Engineering; 4036; Flip|IZ|Dun Morogh|
 A Camping 101: Enchanting|QID|96059|PRE|96608|M|60.27,45.37|Z|1455; Ironforge|N|From Thonys Pillarstone.|P|Enchanting;333|SPELL|Enchanting; 7411; Flip|IZ|Dun Morogh|
-A Camping 101: Cooking|QID|96629|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|IZ|Dun Morogh|
+A Camping 101: Cooking|QID|96629|PRE|96608|M|46.71,53.95|Z|1426; Dun Morogh|N|From Eric Brighthammer.|IZ|Dun Morogh| ;270 exp
 
-T Senir's Observations|QID|420|M|46.78,53.81|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
-A Secure the Mountain|QID|98322|PRE|420|M|46.78,53.81|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
+T Senir's Observations|QID|420|M|46.78,53.81|Z|1426; Dun Morogh|N|To Senir Whitebeard.| ;340 exp
+A Secure the Mountain|QID|98322|PRE|96608|M|46.78,53.81|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
 A Beer Basted Boar Ribs|QID|384|PRE|420|M|46.83,52.36|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
 C Beer Basted Boar Ribs|QID|384|M|47.37,63.40|Z|1426; Dun Morogh|L|2886 6|ITEM|2886|N|Crag Boars.|S|
 = Level 6 Training|QID|400|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Kharanos^Thunderbrew Distillery|
 T Supplies to Tannok|QID|2160|M|47.22,52.19|Z|1426; Dun Morogh|N|To Tannok Frosthammer.|
 h Thunderbrew Distillery|ACTIVE|98322|M|47.38,52.52|Z|1426; Dun Morogh|N|Set your hearthstone with Innkeeper Belm.|
-B Rhapsody Malt|ACTIVE|384|M|47.38,52.52|Z|1426; Dun Morogh|L|2894|ITEM|2894|N|from Innkeeper Belm.|
-A Dawn in the Mountains|QID|99158|M|47.28,52.08|Z|1426; Dun Morogh|N|From Maxan Anvol, the Priest trainer.|
+B Rhapsody Malt|ACTIVE|384|M|47.38,52.52|Z|1426; Dun Morogh|L|2894|ITEM|2894|N|from Innkeeper Belm.\n[color=FF0000]NOTE: [/color]Skip this step for now if you can't afford it.|
+A Dawn in the Mountains|QID|99158|PRE|96608|M|47.28,52.08|Z|1426; Dun Morogh|N|From Maxan Anvol, the Priest trainer.|
+T In Favor of the Light|QID|5626|M|47.34,52.18|Z|1426; Dun Morogh|N|To Maxan Anvol.|
+A Garments of the Light|QID|5625|PRE|5626|M|47.34,52.18|Z|1426; Dun Morogh|N|From Maxan Anvol.|C|Priest|R|Dwarf,Gnome|
 = First Aid|AVAILABLE|400|M|47.18,52.61|Z|1426; Dun Morogh|N|Learn First Aid from Thamner Pol.\n[color=FF0000]NOTE: [/color]Skip and come back later if you can't afford it.|SPELL|First Aid; 3273|IZ|Kharanos^Thunderbrew Distillery|
 = Cooking|AVAILABLE|400|M|47.67,52.31|Z|1426; Dun Morogh|N|Learn Cooking from Gremlock Pilsnor.\n[color=FF0000]NOTE: [/color]Skip and come back later if you can't afford it.|SPELL|Cooking; 2550|IZ|Kharanos^Thunderbrew Distillery|
 t Camping 101: Cooking|QID|96629|M|47.67,52.31|Z|1426; Dun Morogh|N|To Gremlock Pilsnor.|SPELL|Cooking; 2550; Flip|IZ|Thunderbrew Distillery|
-T In Favor of the Light|QID|5626|M|47.34,52.18|Z|1426; Dun Morogh|N|To Maxan Anvol.|C|Priest|R|Dwarf|
-A Garments of the Light|QID|5625|PRE|5626|M|47.34,52.18|Z|1426; Dun Morogh|N|From Maxan Anvol.|C|Priest|R|Dwarf|
 A Tools for Steelgrill|QID|400|M|46.02,51.67|Z|1426; Dun Morogh|N|From Tharek Blackstone.|
 A Flintfire's Shipment|QID|98321|M|45.31,51.92|Z|1426; Dun Morogh|N|From Tognus Flintfire.|
-C Garments of the Light|QID|5625|M|45.81,54.57|Z|1426; Dun Morogh|N|Target Mountaineer Dolf (located just south of town) and cast [color=33fff9]Lesser Heal[/color] on him; followed by [color=33fff9]Power Word: Fortitude[/color].|T|/target Mountaineer Dolf\n/castsequence reset=target Lesser Heal, Power Word: Fortitude|C|Priest|R|Dwarf|NC| ; ** Experimenting with chaining macros on a T button. - Hendo72
-T Garments of the Light|QID|5625|M|47.34,52.18|Z|1426; Dun Morogh|N|To Maxan Anvol.|C|Priest|R|Dwarf|
 A Stocking Jetsteam|QID|317|M|49.42,48.41|Z|1426; Dun Morogh|N|From Pilot Bellowfiz in Steelgrill's Depot.|
 C Stocking Jetsteam|QID|317|M|46.33,63.79|Z|1426; Dun Morogh|L|769 4;6952 2|ITEM|769;6952|N|boars and bears for the required materials.|S|
 A The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|From Pilot Stonegear.|
 A Ammo for Rumbleshot|QID|5541|M|50.09,49.43|Z|1426; Dun Morogh|N|From Loslor Rudge.|
 T Tools for Steelgrill|QID|400|M|50.45,49.09|Z|1426; Dun Morogh|N|To Beldin Steelgrill.|
+C Garments of the Light|QID|5625|M|45.81,54.57|Z|1426; Dun Morogh|N|Target Mountaineer Dolf (located just south of town) and cast [color=33fff9]Lesser Heal (Rank 2)[/color] on him; followed by [color=33fff9]Power Word: Fortitude[/color].\n[color=FF0000]NOTE: [/color]You can use the button to target and cast Lesser Heal on him. You'll have to manually cast Fortitude.|T|/target Mountaineer Dolf\n/cast Lesser Heal|NC|
+T Garments of the Light|QID|5625|M|47.34,52.18|Z|1426; Dun Morogh|N|To Maxan Anvol.|
 T Secure the Mountain|QID|98322|M|44.10,57.06|Z|1426; Dun Morogh|N|To Mountaineer Gretchen.|
 A Secure the Mountain|QID|98319|PRE|98322|M|44.10,57.06|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
 C Ammo for Rumbleshot|QID|5541|M|44.13,56.95|Z|1426; Dun Morogh|L|13850|N|Loot Rumbleshot's Ammo from the Ammo Crate at Mountaineer Gretchen's camp.|
 T Ammo for Rumbleshot|QID|5541|M|40.69,65.13|Z|1426; Dun Morogh|N|To Hegnar Rumbleshot.\n[color=FF0000]NOTE: [/color]You can walk up the hill directly behind the camp to reach the road.|
 C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|L|2671 8|ITEM|2671|N|any Wendigo around Grizzled Den.|S|IZ|The Grizzled Den|
 C Flintfire's Shipment|QID|98321|M|43.51,49.49|Z|1426; Dun Morogh|L|280413 8|N|Collect Flintfire's Shipment from inside the cave.|S|IZ|The Grizzled Den|
-R Secure the Mountain|ACTIVE|98319|QO|1|M|42.91,49.52|Z|1426; Dun Morogh|N|Locate Mountaineer Cornelius' body at the back of the cave.|
+R The Grizzled Den|ACTIVE|313|M|42.30,55.14|Z|1426; Dun Morogh|N|Make your way north to The Grizzled Den.|
+R Secure the Mountain|ACTIVE|98319|QO|1|M|43.03,49.60|Z|1426; Dun Morogh|N|Locate Mountaineer Cornelius' body at the back of the cave.|
 C Flintfire's Shipment|QID|98321|M|41.99,49.40|Z|1426; Dun Morogh|L|280413 8|N|Collect Flintfire's Shipment from inside the cave.\n[color=FF0000]NOTE: [/color]They have static spawnpoints.|US|
-C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|L|2671 8|ITEM|2671|N|any Wendigo around Grizzled Den.|US|
+C The Grizzled Den|QID|313|M|42.13,51.58|Z|1426; Dun Morogh|L|2671 8|ITEM|2671|N|any Wendigo around Grizzled Den.\n[color=FF0000]NOTE: [/color]These guys have a rather large aggro radius; watch you don't get overwhelmed.|US|
 T Secure the Mountain|QID|98319|M|44.10,57.06|Z|1426; Dun Morogh|N|To Mountaineer Gretchen.|
 A Secure the Mountain|QID|98323|PRE|98319|M|44.10,57.06|Z|1426; Dun Morogh|N|From Mountaineer Gretchen.|
 C Stocking Jetsteam|QID|317|M|41.90,60.90|Z|1426; Dun Morogh|L|769 4;6952 2|ITEM|769;6952|N|boars and bears for the required materials.|US|
 C Beer Basted Boar Ribs|QID|384|M|48.90,59.50|Z|1426; Dun Morogh|L|2886 6|ITEM|2886|N|Crag Boars.|US|
-T Secure the Mountain|QID|98323|M|46.73,53.85|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
-A Frostmane Hold|QID|287|M|46.73,53.85|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
+T Secure the Mountain|QID|98323|M|46.76,53.81|Z|1426; Dun Morogh|N|To Senir Whitebeard.|
+A Frostmane Hold|QID|287|M|46.76,53.81|Z|1426; Dun Morogh|N|From Senir Whitebeard.|
+B Rhapsody Malt|ACTIVE|384|M|47.38,52.52|Z|1426; Dun Morogh|L|2894|ITEM|2894|N|from Innkeeper Belm.\n[color=FF0000]NOTE: [/color]Skip this step for now if you can't afford it.|
 T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|1426; Dun Morogh|N|To Ragnar Thunderbrew.|
 T Flintfire's Shipment|QID|98321|M|45.33,51.96|Z|1426; Dun Morogh|N|To Tognus Flintfire.|
-A Operation Recombobulation|QID|412|M|45.85,49.36|Z|1426; Dun Morogh|N|From Razzle Sprysprocket.|
+A Operation Recombobulation|QID|412|M|45.85,49.36|Z|1426; Dun Morogh|N|From Razzle Sprysprocket.\n[color=FF0000]NOTE: [/color]One of his quests starts a conversation that makes it impossible to interact with him until he's finished. Be patient and prepared for when it's done.|
 T Stocking Jetsteam|QID|317|M|49.42,48.41|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
 A Evershine|QID|318|PRE|317|M|49.42,48.41|Z|1426; Dun Morogh|N|From Pilot Bellowfiz.|
 T The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|To Pilot Stonegear.|
 T Dawn in the Mountains|QID|99158|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin in Misty Pine Refuge.|
 A Finding Warmth|QID|99159|PRE|99158|M|57.73,44.88|Z|1426; Dun Morogh|N|From Father Gavin.|
-C Finding Warmth|QID|99159|M|55.57,51.22|Z|1426; Dun Morogh|L|286339 14|N|Collect 1-2 Mostly Dry Firewood from the white Fallen Logs found amongst the trees in the area.\n[color=FF0000]NOTE: [/color]They have a static spawn point.|
+C Finding Warmth|QID|99159|M|55.57,51.22|Z|1426; Dun Morogh|L|286339 14|N|Collect 1-2 Mostly Dry Firewood from the white Fallen Logs found amongst the trees in the area.\n[color=FF0000]NOTE: [/color]They have a static (but random) spawn point. Depending on how busy, this may take some time and traveling around.|
 T Finding Warmth|QID|99159|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin.|
 A Rime's Wrath|QID|99160|PRE|99159|M|57.73,44.88|Z|1426; Dun Morogh|N|From Father Gavin.|
 A Treacherous Cold|QID|99162|PRE|99159|M|57.73,44.88|Z|1426; Dun Morogh|N|From Father Gavin.|
@@ -181,10 +184,10 @@ C Treacherous Cold|QID|99162|QO|2|M|59.92,50.10|Z|1426; Dun Morogh|L|286359|N|Pi
 C Treacherous Cold|QID|99162|QO|1|M|53.15,58.77|Z|1426; Dun Morogh|L|286360|N|Pick it up from Mountaineer Stoneanvil located southeast of your location in the Tundrid Hills.|
 C Treacherous Cold|QID|99162|QO|3|M|52.11,44.04|Z|1426; Dun Morogh|L|286358|N|Pick it up from Mountaineer Coalbeard under the fallen tree at the western end of the frozen river.\n[color=FF0000]NOTE: [/color]Make your way around the southern tip of the mountain and go north until you reach the frozen river.|
 C Rime's Wrath|QID|99160|M|55.54,44.99|Z|1426; Dun Morogh|N|Kill Minor Ice Elementals on the the ice.|US|
-T Rime's Wrath|QID|99160|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin.|
 T Treacherous Cold|QID|99162|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin.|
-A Rime's Wrath|QID|99161|PRE|99160&99162|M|57.73,44.88|Z|1426; Dun Morogh|N|From Father Gavin.|
-C Rime's Wrath|QID|99161|M|58.02,41.95|Z|1426; Dun Morogh|L|286325|N|Avala.\n[color=FF0000]NOTE: [/color]Walk over the hill behind the house and you'll find Avala a little further up.|
+T Rime's Wrath|QID|99160|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin.|
+A Rime's Wrath|QID|99161|PRE|99160|M|57.73,44.88|Z|1426; Dun Morogh|N|From Father Gavin.|
+C Rime's Wrath|QID|99161|M|58.02,41.95|Z|1426; Dun Morogh|L|286325|ITEM|286325|N|Avala.\n[color=FF0000]NOTE: [/color]Walk over the hill behind the house and you'll find Avala a little further up.|T|Avala|
 T Rime's Wrath|QID|99161|M|57.73,44.88|Z|1426; Dun Morogh|N|To Father Gavin.|
 R Gates of Ironforge|AVAILABLE|97263|M|47.18,44.75;47.16,41.70;72.29,48.72|CS|Z|1426; Dun Morogh|N|Time to visit Ironforge.\n[color=FF0000]NOTE: [/color]Follow the road back to Kharanos and go up the hill just to the north of the intersection.|
 ; ** The following 2 steps are pulled ahaead for Shaman specifically because one leads to their trainer and the other is right there. - Hendo72
@@ -236,7 +239,7 @@ A Return to Marleth|QID|311|PRE|310|M|47.66,52.64|Z|1426; Dun Morogh|N|From the 
 ; ---------- LEVEL 10 CLASS QUEST ------------
 ; -- Paladin and Priest no class quest
 ; -- Hunter
-T The Hunter's Path|QID|6075|M|45.81,53.04|Z|1426; Dun Morogh|N|To Grif Wildheart|C|Hunter|R|Dwarf|LVL|10|
+T The Hunter's Path|QID|6075|M|45.81,53.04|Z|1426; Dun Morogh|N|To Grif Wildheart|
 A Taming the Beast|QID|6064|M|45.81,53.04|Z|1426; Dun Morogh|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 C Taming the Beast|QID|6064|M|48.17,56.07|Z|1426; Dun Morogh|N|Tame a Large Crag Boar using the taming rod.\n[color=FF0000]NOTE: [/color]During the 20 second cast, you will see heart shapes and a casting bar.|T|Large Crag Boar|U|15911|C|Hunter|R|Dwarf|
 T Taming the Beast|QID|6064|M|45.81,53.04|Z|1426; Dun Morogh|N|To Grif Wildheart.|C|Hunter|R|Dwarf|
@@ -252,16 +255,16 @@ T Training the Beast|QID|6086|M|70.86,85.81|Z|1455;Ironforge|N|To Belia Thunderg
 N Feeding|AVAILABLE|-6086&6661|N|Once you have tamed your pet, you'll need to use your 'Feed Pet' ability to feed it something to make it happier, or it will eventually run away and you'll have to tame another one.|C|Hunter|
 ; -- Mage
 A Speak with Bink|QID|1879|N|From Magis Sparkmantle.|C|Mage|R|Gnome|LVL|10|
-T Speak with Bink|QID|1879|N|To Bink in Ironforge.|C|Mage|R|Gnome|
+T Speak with Bink|QID|1879|N|To Bink in Ironforge.|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
-C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|Z|1426; Dun Morogh|N|The Gizmonitor is in a toolbox at the waypoint.|C|Mage|R|Gnome|
-T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
+C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|Z|1426; Dun Morogh|N|The Gizmonitor is in a toolbox at the waypoint.|
+T Mage-tastic Gizmonitor|QID|1880|
 ; -- Rogue
 A Road to Salvation|QID|2218|N|From Hogral Bakkan.|C|Rogue|R|Dwarf,Gnome|LVL|10|
-T Road to Salvation|QID|2218|M|51.90,14.89|Z|1455;Ironforge|N|To Hulfdan Blackbeard in Ironforge.|C|Rogue|R|Dwarf,Gnome|
+T Road to Salvation|QID|2218|M|51.90,14.89|Z|1455;Ironforge|N|To Hulfdan Blackbeard in Ironforge.|
 A Simple Subterfugin'|QID|2238|PRE|2218|M|51.90,14.89|Z|1455;Ironforge|N|From Hulfdan Blackbeard.|C|Rogue|R|Dwarf,Gnome|
 T Simple Subterfugin'|QID|2238|M|25.16,44.46|Z|1426; Dun Morogh|N|To Onin MacHammar.\n[color=FF0000]NOTE: [/color]He's stealthed on top of the wooden tower. You'll need to get very close to him to see the turn-in.|C|Rogue|R|Dwarf,Gnome|
-A Onin's Report|QID|2239|PRE|2238|M|25.16,44.46|Z|1426; Dun Morogh|N|From Onin MacHammar.|C|Rogue|R|Dwarf,Gnome|
+A Onin's Report|QID|2239|PRE|2238|M|25.16,44.46|Z|1426; Dun Morogh|N|From Onin MacHammar.|
 T Onin's Report|QID|2239|M|51.90,14.89|Z|1455;Ironforge|N|To Hulfdan Blackbeard.|C|Rogue|R|Dwarf,Gnome|
 ; -- Warlock
 R Ironforge|AVAILABLE|1715|M|15.59,85.32|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|C|Warlock|
