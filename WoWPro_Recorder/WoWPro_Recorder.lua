@@ -358,7 +358,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 WoWPro.Recorder.RecentTurnIns[questID] = nil
                 return
             end
-            local removed = RemoveRecorderQuestSteps(questID)
+            RemoveRecorderQuestSteps(questID)
         end)
         return
     end
