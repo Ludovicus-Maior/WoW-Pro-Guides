@@ -269,7 +269,12 @@ local function LayoutRecorderButtons()
     end
 
     if recorderModeText then
-        recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+        local GID = CurrentRecorderGuideID()
+        if GID and WoWProDB.char.currentguide == GID then
+            recorderModeText:SetText(GID.." • "..(WoWPro.stepcount or 0).." STEPS")
+        else
+            recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+        end
     end
 end
 
@@ -1765,14 +1770,8 @@ function WoWPro.Recorder:CustomizeFrames()
     end
 
     StyleRecorderPanel(WoWPro.MainFrame)
-    StyleRecorderPanel(WoWPro.TitleBar)
-    if WoWPro.TitleBar then
-        WoWPro.TitleBar:SetHeight(58)
-        WoWPro.TitleText:ClearAllPoints()
-        WoWPro.TitleText:SetPoint("TOP", WoWPro.TitleBar, "TOP", 0, -10)
-        WoWPro.ProgressText:ClearAllPoints()
-        WoWPro.ProgressText:SetPoint("TOP", WoWPro.TitleText, "BOTTOM", 0, -4)
-    end
+    ClearRecorderPanel(WoWPro.TitleBar)
+    WoWPro:SafeSetShown(WoWPro.TitleBar, false)
     ClearRecorderPanel(WoWPro.GuideFrame)
     ClearRecorderPanel(WoWPro.StickyHeader)
     if WoWPro.TitleText then WoWPro.TitleText:SetTextColor(0.84, 0.88, 0.94, 1) end
@@ -1807,7 +1806,7 @@ function WoWPro.Recorder:CustomizeFrames()
     if showingRecorderGuide then
         if WoWPro.TitleText then
             local guide = WoWPro.Guides[recordingGID]
-            WoWPro.TitleText:SetText("Recorder: "..(guide and (guide.name or recordingGID) or recordingGID))
+            recorderModeText:SetText((guide and (guide.name or recordingGID) or recordingGID).." • "..(WoWPro.stepcount or 0).." STEPS")
         end
         if WoWPro.ProgressText then
             WoWPro.ProgressText:SetText((WoWPro.stepcount or 0).." recorded steps")
@@ -1821,11 +1820,6 @@ function WoWPro.Recorder:CustomizeFrames()
         end
     end
     WoWPro:MainFrameLayout()
-    if WoWPro.TitleBar then
-        WoWPro.TitleBar:SetHeight(58)
-        WoWPro.TitleText:SetPoint("TOP", WoWPro.TitleBar, "TOP", 0, -10)
-        WoWPro.ProgressText:SetPoint("TOP", WoWPro.TitleText, "BOTTOM", 0, -4)
-    end
     LayoutRecorderButtons()
 end
 

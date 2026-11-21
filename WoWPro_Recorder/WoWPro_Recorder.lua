@@ -1065,7 +1065,7 @@ function WoWPro.Recorder:RowUpdate(offset)
                 rowsHeight = rowsHeight + row:GetHeight()
             end
         end
-        local compactHeight = math.max(110, rowsHeight + 42)
+        local compactHeight = math.max(72, rowsHeight + 12)
         if WoWPro.MainFrame:GetHeight() ~= compactHeight then
             WoWPro.SetMainFrameSize(WoWPro.MainFrame:GetWidth(), compactHeight)
         end
