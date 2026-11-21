@@ -499,6 +499,95 @@ local function StepListSnapshot()
     return steps
 end
 
+local function StepListDragValid(drag)
+    if not drag or not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded
+        or WoWProDB.char.currentguide ~= drag.guideID
+        or (WoWPro.stepcount or 0) ~= #drag.steps then
+        return false
+    end
+    for index = 1, #drag.steps do
+        if WoWPro.EmitSafeStep(index, WoWPro.Recorder.StepTagOrder) ~= drag.steps[index] then
+            return false
+        end
+    end
+    return true
+end
+
+local function UnmetStepPrerequisite(index)
+    local pre = WoWPro.prereq and WoWPro.prereq[index]
+    if not pre or tostring(pre) == "" then return end
+    pre = tostring(pre)
+    local any = pre:find("^", 1, true)
+    local separator = any and "^" or "&"
+    for _, qid in ipairs({separator:split(pre)}) do
+        local completed = WoWPro:IsQuestFlaggedCompleted(qid, true)
+        if any and completed then return end
+        if not any and not completed then return pre end
+    end
+    if any then return pre end
+end
+
+local function StepMovePrerequisiteWarning(from, destination)
+    if from == destination then return end
+    local function newPosition(index)
+        if index == from then return destination end
+        if destination < from and index >= destination and index < from then return index + 1 end
+        if destination > from and index > from and index <= destination then return index - 1 end
+        return index
+    end
+    local function crossedPrerequisite(turnIn, dependent)
+        local pre = WoWPro.prereq and WoWPro.prereq[dependent]
+        local qids = WoWPro.QID[turnIn]
+        if not pre or not qids then return end
+        for term in tostring(pre):gmatch("[^^&]+") do
+            local required = tonumber(term)
+            if required and required ~= 0 then
+                for quest in tostring(qids):gmatch("[^^&]+") do
+                    local qid = tonumber(quest)
+                    if qid and qid > 0 and math.abs(required) == qid then
+                        local before = turnIn < dependent
+                        local afterMove = newPosition(turnIn) < newPosition(dependent)
+                        if required > 0 and before and not afterMove then
+                            return ("Step %d (PRE %s) would come before quest %s's turn-in at step %d.")
+                                :format(dependent, tostring(pre):gsub("|", "/"), tostring(qid), turnIn)
+                        elseif required < 0 and not before and afterMove then
+                            return ("Quest %s's turn-in at step %d would come before step %d (PRE %s).")
+                                :format(tostring(qid), turnIn, dependent, tostring(pre):gsub("|", "/"))
+                        end
+                    end
+                end
+            end
+        end
+    end
+    local first, last = math.min(from, destination), math.max(from, destination)
+    for crossed = first, last do
+        if crossed ~= from then
+            local warning
+            if WoWPro.action[from] == "T" then
+                warning = crossedPrerequisite(from, crossed)
+            end
+            if not warning and WoWPro.action[crossed] == "T" then
+                warning = crossedPrerequisite(crossed, from)
+            end
+            if warning then return warning end
+        end
+    end
+    if destination < from then
+        local pre = UnmetStepPrerequisite(from)
+        if pre then
+            return ("Step %d has an unmet PRE: %s."):format(from, pre:gsub("|", "/"))
+        end
+    end
+end
+
+function WoWPro.Recorder:ConfirmStepMove(drag)
+    if not StepListDragValid(drag) then
+        self:Warning("The guide changed before confirmation; the step was not moved.")
+        return
+    end
+    self:MoveStep(drag.index, drag.destination)
+end
+
 function WoWPro.Recorder:CreateStepListFrame()
     local frame = _G.CreateFrame("Frame", "WoWProRecorderStepList", _G.UIParent, "BackdropTemplate")
     frame:SetSize(410, 350)
@@ -517,7 +606,7 @@ function WoWPro.Recorder:CreateStepListFrame()
     title:SetTextColor(0.68, 0.74, 0.82)
     local help = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     help:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -6)
-    help:SetText("Drag a handle to reorder. Click a step to select it.")
+    help:SetText("Drag to reorder. Quest level: [number], or [?] if unknown.")
     help:SetTextColor(0.72, 0.76, 0.82)
     local close = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
     close:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -2, -2)
@@ -656,20 +745,20 @@ function WoWPro.Recorder:UpdateStepList()
                 if not drag then return end
                 local boundary = StepListDropBoundary(frame)
                 if not boundary then return end
-                if not WoWPro.Recorder:IsRecordingGuide() or not WoWPro.GuideLoaded
-                    or WoWProDB.char.currentguide ~= drag.guideID
-                    or (WoWPro.stepcount or 0) ~= #drag.steps then
+                if not StepListDragValid(drag) then
                     WoWPro.Recorder:Warning("The guide changed while dragging; the step was not moved.")
                     return
                 end
-                for stepIndex = 1, #drag.steps do
-                    if WoWPro.EmitSafeStep(stepIndex, WoWPro.Recorder.StepTagOrder) ~= drag.steps[stepIndex] then
-                        WoWPro.Recorder:Warning("The guide changed while dragging; the step was not moved.")
-                        return
-                    end
-                end
                 local destination = boundary >= drag.index and boundary or boundary + 1
-                WoWPro.Recorder:MoveStep(drag.index, destination)
+                local warning = StepMovePrerequisiteWarning(drag.index, destination)
+                if warning then
+                    drag.destination = destination
+                    if not _G.StaticPopup_Show("WOWPRO_RECORDER_MOVE_PRE", warning, nil, drag) then
+                        WoWPro.Recorder:Warning("Could not show the PRE warning; the step was not moved.")
+                    end
+                else
+                    WoWPro.Recorder:MoveStep(drag.index, destination)
+                end
             end)
             frame.rows[index] = row
         end
@@ -677,7 +766,13 @@ function WoWPro.Recorder:UpdateStepList()
         row:ClearAllPoints()
         row:SetPoint("TOPLEFT", frame.content, "TOPLEFT", 0, -(index - 1) * stepListRowHeight)
         row:SetPoint("TOPRIGHT", frame.content, "TOPRIGHT", 0, -(index - 1) * stepListRowHeight)
-        row.text:SetText(("%d. %s %s"):format(index, tostring(WoWPro.action[index] or "?"),
+        local questLevel = self:GetStepQuestLevel(index)
+        local action = WoWPro.action[index]
+        local levelText = ""
+        if action == "A" or action == "C" or action == "T" then
+            levelText = "[" .. tostring(questLevel or "?") .. "] "
+        end
+        row.text:SetText(("%d. %s%s %s"):format(index, levelText, tostring(action or "?"),
             tostring(WoWPro.step[index] or "")))
         if index == self.SelectedStep then
             row:SetBackdropColor(0.12, 0.16, 0.14, 0.98)
@@ -1984,36 +2079,40 @@ function WoWPro.Recorder:CreateRecorderFrame()
         })
         dialog:SetDefaultSize("WoWPro Recorder - New", 300, 125)
 
-        WoWPro.OpenButton = CreateButton("Open", "Click to open a recorder guide in progress.", WoWPro.NewButton)
+        WoWPro.OpenButton = CreateButton("Open", "Click to open a recorder or live guide for editing.", WoWPro.NewButton)
         config:RegisterOptionsTable("WoWPro Recorder - Open", {
             name = "Open Recorder Guide",
             type = "group",
             args = {
-                guidetype = {
+                warning = {
                     order = 0,
+                    type = "description",
+                    name = "Edits save an override for all characters using only the steps loaded for this character. Filtered steps are not included. Delete the override to restore the original guide.",
+                    width = "full",
+                },
+                guidetype = {
+                    order = 1,
                     type = "select",
-                    name = "Select a recorder guide to open:",
-                    desc = "Only guides saved or currently being created by the recorder are listed here.",
+                    name = "Select a guide to edit:",
+                    desc = "Live guides are edited as recorder overrides; their original files are not changed.",
                     width = "full",
                     values = function()
                         local infoTable = {}
                         local sortedGuides = {}
                         WoWPro.Recorder.OpenGuideMap = {}
                         for GID, guideInfo in pairs(WoWPro.Guides) do
-                            local isRecordingGuide = (WoWPro_RecorderDB and WoWPro_RecorderDB[GID])
-                                or (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID == GID)
-                            if isRecordingGuide then
+                            if type(guideInfo.sequence) == "function" then
+                                local isRecordingGuide = (WoWPro_RecorderDB and WoWPro_RecorderDB[GID])
+                                    or (WoWPro.Recorder.CurrentGuide and WoWPro.Recorder.CurrentGuide.GID == GID)
                                 local guideName = WoWPro:GetGuideName(GID)
                                 local author = tostring(guideInfo.author or "Unknown")
                                 local label
                                 if WoWPro.Recorder.Advanced then
                                     label = string.format("%s (%s) by %s", guideName, GID, author)
-                                    if WoWPro_RecorderDB and WoWPro_RecorderDB[GID] then
-                                        label = "!" .. label
-                                    end
                                 else
                                     label = string.format("%s (%s)", guideName, GID)
                                 end
+                                label = (isRecordingGuide and "[Recorder] " or "[Live] ") .. label
                                 sortedGuides[#sortedGuides + 1] = {
                                     gid = GID,
                                     label = label,
@@ -2046,13 +2145,18 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             WoWProCharDB.RecorderGuide = GID
                             WoWProCharDB.RecorderActive = true
                             WoWPro.Recorder.CurrentGuide.GID = GID
+                            WoWPro.Recorder:PrepareGuideForEditing(GID)
+                            if WoWProDB.char.currentguide == GID and WoWPro.GuideLoaded then
+                                WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep or (WoWPro.stepcount > 0 and WoWPro.stepcount or nil)
+                                WoWPro.Recorder:CustomizeFrames()
+                            end
                             WoWPro:LoadGuide(GID)
                             dialog:Close("WoWPro Recorder - Open")
                         end,
                 },
             },
         })
-        dialog:SetDefaultSize("WoWPro Recorder - Open", 300, 125)
+        dialog:SetDefaultSize("WoWPro Recorder - Open", 350, 190)
 
     WoWPro.SaveButton = CreateButton("Save", "Click to save the current guide.", WoWPro.OpenButton)
     WoWPro.SaveButton:SetScript("OnMouseUp", function(this, button)

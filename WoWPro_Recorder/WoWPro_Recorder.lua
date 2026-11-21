@@ -32,6 +32,14 @@ function WoWPro.Recorder:IsRecordingGuide()
         and WoWProDB and WoWProDB.char and WoWProDB.char.currentguide == guideID
 end
 
+function WoWPro.Recorder:PrepareGuideForEditing(GID)
+    local guide = WoWPro.Guides[GID]
+    if guide and not guide.original and not (WoWPro_RecorderDB and WoWPro_RecorderDB[GID]) then
+        WoWPro.Guides[GID] = WoWPro.ShallowCopyTable(guide)
+        WoWPro.Guides[GID].original = guide
+    end
+end
+
 local function StyleRecorderStaticPopup(frame)
     if not frame then return end
     if frame.SetBackdrop then
@@ -99,6 +107,21 @@ _G.StaticPopupDialogs["WOWPRO_RECORDER_MESSAGE"] = {
     end,
 }
 
+_G.StaticPopupDialogs["WOWPRO_RECORDER_MOVE_PRE"] = {
+    text = "This move may break a prerequisite:\n\n%s\n\nMove it anyway?",
+    button1 = "Move Anyway",
+    button2 = _G.CANCEL,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 0,
+    OnAccept = function(_, data)
+        WoWPro.Recorder:ConfirmStepMove(data)
+    end,
+    OnShow = function(frame)
+        StyleRecorderStaticPopup(frame)
+    end,
+}
+
 _G.SLASH_WPR1 = "/wpr";
 function _G.SlashCmdList.WPR(msg)
 	WoWPro.Recorder:ToggleAdvanced()
@@ -142,6 +165,7 @@ function WoWPro.Recorder:OnEnable()
     WoWPro.Recorder:RegisterSavedGuides()
     if WoWProCharDB.RecorderActive and WoWProCharDB.RecorderGuide
         and WoWPro.Guides[WoWProCharDB.RecorderGuide] then
+        WoWPro.Recorder:PrepareGuideForEditing(WoWProCharDB.RecorderGuide)
         _G.C_Timer.After(0.1, function()
             if WoWProDB.char.currentguide ~= WoWProCharDB.RecorderGuide then
                 WoWPro:LoadGuide(WoWProCharDB.RecorderGuide)
@@ -1189,6 +1213,30 @@ function WoWPro.Recorder:RegisterEvents()
     WoWPro.RecorderFrame:SetScript("OnEvent", WoWPro.Recorder.eventHandler);
 end
 
+function WoWPro.Recorder:GetStepQuestLevel(index)
+    local action = WoWPro.action[index]
+    if action ~= "A" and action ~= "C" and action ~= "T" then return end
+    local questID = tonumber(WoWPro.QID[index])
+    if not questID or questID <= 0 or questID ~= math.floor(questID) then return end
+
+    local quest = WoWPro.QuestLog and WoWPro.QuestLog[questID]
+    local level = quest and quest.level
+    if (type(level) ~= "number" or level <= 0) and _G.C_QuestLog and _G.C_QuestLog.GetQuestDifficultyLevel then
+        level = _G.C_QuestLog.GetQuestDifficultyLevel(questID)
+    end
+    if type(level) == "number" and level > 0 then return level end
+end
+
+local function SwapRecorderSteps(i, j)
+    WoWPro.SwapSteps(i, j)
+    for _, key in ipairs({"repeatable", "mygroupsteps", "myGroupTrack"}) do
+        local values = WoWPro[key]
+        if values and not WoWPro.Tags[key] then
+            values[i], values[j] = values[j], values[i]
+        end
+    end
+end
+
 function WoWPro.Recorder:MoveStep(from, to)
     if not self:IsRecordingGuide() or not WoWPro.GuideLoaded then
         self:Warning("No recorder guide is currently loaded.")
@@ -1217,13 +1265,7 @@ function WoWPro.Recorder:MoveStep(from, to)
     local direction = from < to and 1 or -1
     for index = from, to - direction, direction do
         local nextIndex = index + direction
-        WoWPro.SwapSteps(index, nextIndex)
-        for _, key in ipairs({"repeatable", "mygroupsteps", "myGroupTrack"}) do
-            local values = WoWPro[key]
-            if values and not WoWPro.Tags[key] then
-                values[index], values[nextIndex] = values[nextIndex], values[index]
-            end
-        end
+        SwapRecorderSteps(index, nextIndex)
     end
     local function movedIndex(index)
         if index == from then return to end
@@ -1501,9 +1543,9 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     local header = "local guide = WoWPro:RegisterGuide('"
         ..GID.."', '"
         ..WoWPro.Guides[GID].guidetype.."', '"
-        ..WoWPro.Guides[GID].zone.."', '"
-        ..WoWPro.Guides[GID].author.."', '"
-        ..WoWPro.Guides[GID].faction.."')\n"
+        ..(WoWPro.Guides[GID].zone or "").."', '"
+        ..(WoWPro.Guides[GID].author or "Unknown").."', '"
+        ..(WoWPro.Guides[GID].faction or "Neutral").."')\n"
 		..'WoWPro:GuideName(guide,"'
         ..GID..'")\n'
         .."WoWPro:GuideLevels(guide,"
@@ -1516,7 +1558,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     local sequence = {}
 
     for i = 1, WoWPro.stepcount do
-        if WoWPro.questtext[i] and WoWPro.note[i] then
+        if not WoWPro.Guides[GID].original and WoWPro.questtext[i] and WoWPro.note[i] then
             WoWPro.note[i] = WoWPro.Recorder.CleanObjectiveNote(WoWPro.note[i])
             if WoWPro.note[i] ~= "" then
                 WoWPro.note[i] = WoWPro.note[i] .. "."
@@ -1536,6 +1578,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 
     WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
     WoWPro_RecorderDB[GID].sequence = sequence_string
+    WoWPro_RecorderDB[GID].original = nil
     WoWPro.Recorder.SaveDirty = false
     WoWPro.Recorder.LastCheckpointAt = time()
     WoWProCharDB.RecorderCheckpoint = WoWPro.Recorder.LastCheckpointAt
