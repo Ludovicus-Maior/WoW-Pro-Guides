@@ -808,6 +808,9 @@ function WoWPro.AnchorSync()
     if WoWPro.ApplySideSwitch() then
         WoWPro.MainFrameLayout()
     end
+    if IsRecorderEnabled() and WoWPro.Recorder.KeepToolbarOnScreen then
+        WoWPro.Recorder:KeepToolbarOnScreen()
+    end
     WoWPro.SetMouseNotesPoints()
 
     WoWPro.InhibitAnchorStore = wasInhibited  -- Restore the previous state

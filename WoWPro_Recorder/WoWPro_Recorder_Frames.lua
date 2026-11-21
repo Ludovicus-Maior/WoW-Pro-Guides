@@ -2304,6 +2304,26 @@ function WoWPro.Recorder:CreateRecorderFrame()
 end
 
 -- Customizing Recorder Frame --
+function WoWPro.Recorder:KeepToolbarOnScreen()
+    if not self:IsEnabled() or not WoWPro.RecorderFrame or _G.InCombatLockdown() then return end
+
+    local frame = WoWPro.MainFrame
+    local toolbar = WoWPro.RecorderFrame
+    frame:SetClampRectInsets(0, 0, toolbar:GetHeight(), 0)
+
+    local top, screenTop = frame:GetTop(), _G.UIParent:GetTop()
+    if not top or not screenTop then return end
+    local frameScale, screenScale = frame:GetEffectiveScale(), _G.UIParent:GetEffectiveScale()
+    local overflow = top + toolbar:GetHeight() - screenTop * screenScale / frameScale
+    if overflow > 0 then
+        local point, relativeTo, relativePoint, x, y = frame:GetPoint()
+        if point then
+            frame:ClearAllPoints()
+            frame:SetPoint(point, relativeTo, relativePoint, x, y - overflow)
+        end
+    end
+end
+
 function WoWPro.Recorder:CustomizeFrames()
     if not self:IsEnabled() or not WoWPro.RecorderFrame then return end
     WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
@@ -2385,6 +2405,10 @@ function WoWPro.Recorder:CustomizeFrames()
     WoWPro:MainFrameLayout()
     if empty and not _G.InCombatLockdown() and WoWPro.MainFrame:GetHeight() < 72 then
         WoWPro.SetMainFrameSize(WoWPro.MainFrame:GetWidth(), 72)
+    end
+    if not _G.InCombatLockdown() then
+        WoWPro.RecorderFrame:Show()
+        self:KeepToolbarOnScreen()
     end
     LayoutRecorderButtons()
     self:UpdateStepList()

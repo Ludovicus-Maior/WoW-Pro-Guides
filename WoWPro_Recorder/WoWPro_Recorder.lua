@@ -215,6 +215,7 @@ function WoWPro.Recorder:OnDisable()
         end
         if WoWPro.RecorderFrame then WoWPro.RecorderFrame:Hide() end
         if WoWPro.MainFrame and WoWPro.rows then
+            WoWPro.MainFrame:SetClampRectInsets(0, 0, 0, 0)
             WoWPro:CustomizeFrames()
             WoWPro.AnchorSync()
             WoWPro:MainFrameLayout()
@@ -233,6 +234,7 @@ function WoWPro.Recorder:OnUIReloaded()
         WoWPro.RecorderFrame:SetWidth(350)
         WoWPro.MainFrame:SetWidth(350)
     end
+    self:KeepToolbarOnScreen()
 end
 
 function WoWPro.Recorder:ToggleAdvanced()
