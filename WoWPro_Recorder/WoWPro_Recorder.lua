@@ -1,6 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
 -- luacheck: globals table ipairs pairs tinsert tremove C_Timer
--- luacheck: globals tonumber tostring type max
+-- luacheck: globals tonumber tostring type max time date
 
 -----------------------------------
 --      WoWPro.Recorder.lua      --
@@ -122,6 +122,7 @@ function WoWPro.Recorder:OnEnable()
     WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
     if WoWProCharDB.RecorderActive and WoWProCharDB.RecorderGuide then
         WoWPro.Recorder.CurrentGuide.GID = WoWProCharDB.RecorderGuide
+        WoWPro.Recorder.LastCheckpointAt = WoWProCharDB.RecorderCheckpoint
     elseif WoWProCharDB.RecorderActive == nil then
         WoWProCharDB.RecorderActive = false
     end
@@ -1237,6 +1238,12 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 
     WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
     WoWPro_RecorderDB[GID].sequence = sequence_string
+    WoWPro.Recorder.SaveDirty = false
+    WoWPro.Recorder.LastCheckpointAt = time()
+    WoWProCharDB.RecorderCheckpoint = WoWPro.Recorder.LastCheckpointAt
+    if WoWPro.Recorder.UpdateSaveStatus then
+        _G.C_Timer.After(0.35, WoWPro.Recorder.UpdateSaveStatus)
+    end
     WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)
     return guideString
 end
@@ -1282,6 +1289,10 @@ function WoWPro.Recorder:SaveGuide(window)
     if not recordingGID then
         WoWPro.Recorder:Error("There is no recorder guide in progress. Create or open a recorder guide first.")
         return
+    end
+    WoWPro.Recorder.SaveDirty = true
+    if WoWPro.Recorder.UpdateSaveStatus then
+        WoWPro.Recorder:UpdateSaveStatus()
     end
 
     local guideString

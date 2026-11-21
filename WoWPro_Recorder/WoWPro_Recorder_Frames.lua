@@ -1,6 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
 -- luacheck: globals ipairs pairs tinsert
--- luacheck: globals tostring tonumber string table
+-- luacheck: globals tostring tonumber string table date
 
 ------------------------------------------
 --      WoWPro.Recorder_Frames.lua      --
@@ -221,6 +221,7 @@ end
 local recorderButtons = {}
 local recorderModeText
 local recorderStatusDot
+local recorderSaveText
 local recorderStatusLabel = {
     REC = "RECORDING",
     STOP = "STOPPED",
@@ -269,6 +270,20 @@ local function LayoutRecorderButtons()
 
     if recorderModeText then
         recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+    end
+end
+
+function WoWPro.Recorder:UpdateSaveStatus()
+    if not recorderSaveText then return end
+    if WoWPro.Recorder.SaveDirty then
+        recorderSaveText:SetText("UNSAVED")
+        recorderSaveText:SetTextColor(1, 0.72, 0.24, 1)
+    elseif WoWPro.Recorder.LastCheckpointAt then
+        recorderSaveText:SetText("SAVED "..date("%H:%M", WoWPro.Recorder.LastCheckpointAt))
+        recorderSaveText:SetTextColor(0.35, 1, 0.45, 1)
+    else
+        recorderSaveText:SetText("NO CHECKPOINT")
+        recorderSaveText:SetTextColor(0.62, 0.62, 0.62, 1)
     end
 end
 
@@ -413,6 +428,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
     recorderButtons = {}
     recorderModeText = nil
     recorderStatusDot = nil
+    recorderSaveText = nil
 
     local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, "BackdropTemplate")
     recorderframe:SetHeight(45)
@@ -457,6 +473,10 @@ function WoWPro.Recorder:CreateRecorderFrame()
     recorderModeText = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
     recorderModeText:SetPoint("TOP", recorderframe, "TOP", 0, -7)
     recorderModeText:SetText(WoWPro.Recorder.Advanced and "ADVANCED" or "BASIC")
+
+    recorderSaveText = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+    recorderSaveText:SetPoint("LEFT", title, "RIGHT", 8, 0)
+    WoWPro.Recorder:UpdateSaveStatus()
 
     local recordtext = recorderframe:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
     recordtext:SetPoint("TOPRIGHT", recorderframe, "TOPRIGHT", -10, -7)
