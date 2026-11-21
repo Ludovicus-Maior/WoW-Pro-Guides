@@ -275,12 +275,21 @@ function WoWPro.Recorder.SuggestObjectiveSteps(questID, questInfo, location)
         local objectiveText = WoWPro.Recorder.CleanObjectiveNote(objective.text or "")
         if objectiveText ~= "" then
             objectiveTexts[#objectiveTexts + 1] = objectiveText
-            local isKill = objective.type == "monster" or WoWPro.Recorder.FindText("kill", objectiveText)
+            local questTitle = questInfo and questInfo.title
+            local isKill = objective.type == "monster"
+                or WoWPro.Recorder.FindText("kill", objectiveText)
+                or WoWPro.Recorder.FindText("kill", questTitle)
             if isKill then
                 action = "K"
                 allNonCombat = false
                 target = target or WoWPro.Recorder.FindTarget(objectiveText)
+                target = target or WoWPro.Recorder.FindTarget(questInfo and questInfo.title)
+                if not target and _G.UnitName and _G.UnitName("target") then
+                    target = _G.UnitName("target")
+                end
             elseif WoWPro.Recorder.FindText("chat", objectiveText) then
+                allNonCombat = false
+            elseif not WoWPro.Recorder.FindText("nc", objectiveText) then
                 allNonCombat = false
             end
             usesItem = usesItem or objective.type == "item"
@@ -679,9 +688,12 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     questtext = cleanedNote,
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
-                                if WoWPro.Recorder.FindText("kill", status) then
+                                if WoWPro.Recorder.FindText("kill", status)
+                                    or WoWPro.Recorder.FindText("kill", WoWPro.QuestLog[QID].title) then
                                     stepInfo.action = "K"
+                                    stepInfo.noncombat = nil
                                     local target = WoWPro.Recorder.FindTarget(status)
+                                        or WoWPro.Recorder.FindTarget(WoWPro.QuestLog[QID].title)
                                     if target then stepInfo.target = target end
                                 end
                                 WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
@@ -706,14 +718,23 @@ function WoWPro.Recorder.FindText(otype, objectiveText)
 		or objectiveText:find("talk to", 1, true)
 		or objectiveText:find("interact", 1, true) then
 		if otype == "chat" then return true end
-	elseif objectiveText:find("%f[%a]slain%f[%A]")
-	or objectiveText:find("%f[%a]defeat%f[%A]")
-	or objectiveText:find("%f[%a]kill%f[%A]")
-	or objectiveText:find("%f[%a]slay%f[%A]") then
+	elseif objectiveText:find("slain", 1, true)
+	or objectiveText:find("defeat", 1, true)
+	or objectiveText:find("kill", 1, true)
+	or objectiveText:find("slay", 1, true)
+	or objectiveText:find("destroy", 1, true)
+	or objectiveText:find("bounty on", 1, true)
+	or objectiveText:find("bounty for", 1, true) then
 		if otype == "kill" then return true end
 		return
 	elseif otype == "nc" then
-		return true
+		local isNonCombat = objectiveText:find("collect", 1, true)
+			or objectiveText:find("gather", 1, true)
+			or objectiveText:find("retrieve", 1, true)
+			or objectiveText:find("deliver", 1, true)
+			or objectiveText:find("locate", 1, true)
+			or objectiveText:find("find", 1, true)
+		return not not isNonCombat
 	end
 end
 
@@ -728,10 +749,15 @@ function WoWPro.Recorder.FindTarget(objectiveText)
 		or text:match("^[Dd]efeat%s+(.+)")
 		or text:match("^[Ss]laughter%s+(.+)")
 		or text:match("^(.+)%s+[Ss]lain$")
+		or text:match("^[Bb]ounty%s+on%s+(.+)")
+		or text:match("^[Bb]ounty%s+for%s+(.+)")
 	if not target then return nil end
 	target = target:gsub("^%d+%s+", "")
 	target = target:gsub("%s*:%s*$", "")
 	target = target:gsub("%s+$", "")
+	target = target:gsub("%s+slain$", "")
+	target = target:gsub("%s+killed$", "")
+	target = target:gsub("%s+%d+%s*/%s*%d+$", "")
 	if target ~= "" then return target end
 	return nil
 end
