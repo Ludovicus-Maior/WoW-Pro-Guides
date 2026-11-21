@@ -1,3 +1,20 @@
+# Release 2026.11.21.A
+## Bug Fixes
+* **Forever** Support
+	* Note: Installing the Ace3 [r1424-alpha](https://www.curseforge.com/wow/addons/ace3/files/9350543) addon is **necessary** till Ace3 does a formal release.
+	* The Ace3 addon is *not* necessary for the other WoW clients.
+	* We will update the addon as frequently as necessary as the ecosystem catches up and we all collectively learn what tweaks Blizzard may have made.
+* Set the default DebugLevel to 0 correctly
+* Deprecate WoWProCharDB.DebugLevel and use WoWProCharDB.DebugLevel2 cause Ludo is stupid.
+* Make quest event handlers nil-safe; drop redundant QUEST_ACCEPTED update
+* Remove some compat util functions that are not needed
+## Guide Updates
+* Forever Leveling
+	* Alliance: Dun Morogh, Elwynn, Teldrassil, Zephras Isle, Eastern Kingdom, Deadmines, Alliance (12-20, 19-25, 25-30), Stockades, Ruins of Maraudon Lordaeron
+	* Horde: Durotar, Zephras Isle, Horde Chapters 1+2, Ragefire Chasm
+	* Neutral: Sleeping Bag!
+
+
 # Release 2026.11.12.A
 * Quick Patch Release
 ## Bug Fixes
