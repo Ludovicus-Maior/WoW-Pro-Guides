@@ -508,15 +508,13 @@ local function SetupItemSecuredOverlay(currentRow, attributeType, attributeValue
         return
     end
 
-    if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
-        local secured = currentRow.itembuttonSecured
-        secured:Show()
-        secured:SetAttribute("type1", attributeType)
-        secured:SetAttribute("item1", attributeValue)
-        secured:ClearAllPoints()
-        secured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
-        secured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
-    end
+    local secured = currentRow.itembuttonSecured
+    secured:Show()
+    secured:SetAttribute("type1", attributeType)
+    secured:SetAttribute("item1", attributeValue)
+    secured:ClearAllPoints()
+    secured:SetPoint("BOTTOMLEFT", currentRow.itembutton, "BOTTOMLEFT", 0, 0)
+    secured:SetFrameLevel(currentRow.itembutton:GetFrameLevel() + 1)
 end
 
 -- Helper: Setup trash-item button (action "*")
@@ -649,8 +647,9 @@ local SetupUseItemButton = function(currentRow, use, k)
     currentRow.itemcooldown.ActiveItem = nil
 
     -- Setup secure item-use
-    currentRow.itembutton:SetAttribute("type1", "item")
-    currentRow.itembutton:SetAttribute("item1", "item:" .. itemID)
+    currentRow.itembutton:SetAttribute("type", nil)
+    currentRow.itembutton:SetAttribute("type1", nil)
+    currentRow.itembutton:SetScript("OnClick", currentRow.itembutton.actionOnClick)
 
     -- Cooldown + icon tracking
     SetupItemCooldown(currentRow, itemID)
