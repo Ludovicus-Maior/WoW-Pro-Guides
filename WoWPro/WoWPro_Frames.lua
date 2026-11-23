@@ -175,7 +175,7 @@ function WoWPro:ResizeSet(skipLayout)
         if WoWPro.ResizeBL then WoWPro.ResizeBL:Hide() end
         if WoWPro.ResizeBR then WoWPro.ResizeBR:Hide() end
     end
-        WoWPro.SetResizeBounds(MF, WoWPro.GetMinMainFrameWidth(), WoWPro.GetMinMainFrameHeight())
+        MF:SetResizeBounds(WoWPro.GetMinMainFrameWidth(), WoWPro.GetMinMainFrameHeight())
     local minH = WoWPro.GetMinMainFrameHeight()
     local minW = WoWPro.GetMinMainFrameWidth()
     if MF:GetWidth() < minW or MF:GetHeight() < minH then

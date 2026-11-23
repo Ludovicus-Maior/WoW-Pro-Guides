@@ -4218,7 +4218,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     ScenarioSerial = ScenarioSerial + 1
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
-        local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex);
+        local criteriaInfo = _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex);
 
         if (criteriaInfo and criteriaInfo.description) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
@@ -4227,7 +4227,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
             WoWPro.Scenario.Criteria[criteriaIndex].quantity = criteriaInfo.quantity
             WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = criteriaInfo.totalQuantity
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaInfo.criteriaID
-            WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = WoWPro.C_ScenarioInfo_GetCriteriaInfo(%d)",
+            WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = _G.C_ScenarioInfo.GetCriteriaInfo(%d)",
                          criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity),
                          tostring( criteriaInfo.totalQuantity), tostring( criteriaInfo.flags), tostring( criteriaInfo.assetID),tostring(criteriaInfo.criteriaID),
                          tostring(criteriaInfo.duration), tostring(criteriaInfo.elapsed), tostring(criteriaInfo.isWeightedProgress), criteriaIndex)
@@ -4275,7 +4275,7 @@ local function questCompleted(questID, force)
         return WoWProCharDB.completedQIDs[questID] or (useWarbandCompletion and WoWProCharDB.completedQIDsWarband[questID]) or false
     end
 
-    WoWProCharDB.completedQIDs[questID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(questID) or false
+    WoWProCharDB.completedQIDs[questID] = _G.C_QuestLog.IsQuestFlaggedCompleted(questID) or false
     if useWarbandCompletion then
         WoWProCharDB.completedQIDsWarband[questID] = WoWPro.QuestLog_IsQuestFlaggedCompletedOnAccount(questID) or false
     end

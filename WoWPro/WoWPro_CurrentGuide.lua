@@ -87,7 +87,7 @@ local function QuestStatus(qid)
         end
         return "|cffffff00in log|r"
     end
-    local charDone = WoWPro.QuestLog_IsQuestFlaggedCompleted and WoWPro.QuestLog_IsQuestFlaggedCompleted(id)
+    local charDone = _G.C_QuestLog.IsQuestFlaggedCompleted(id)
     if charDone then
         return "|cff00ff00completed|r"
     end
