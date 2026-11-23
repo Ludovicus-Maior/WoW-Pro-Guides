@@ -464,19 +464,19 @@ C Unwelcome Spirits|QID|93736|M|58.76,32.51|Z|2521; Zephras Isle|NC|N|Wind Hollo
 H Valanaar|ACTIVE|94491|N|If available Hearth back to town.|CC|
 r Repair/Restock|QID|94491|M|59.71,75.94|Z|2521; Zephras Isle|
 
-T Unwelcome Spirits|ACTIVE|93736|M|58.18,78.25|Z|2521; Zephras Isle|N|To Endaria Mistgaze.|
+T Unwelcome Spirits|QID|93736|M|58.18,78.25|Z|2521; Zephras Isle|N|To Endaria Mistgaze.|
 
 T Aid For The Refugees|QID|94896|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
 T The Fate of a Loved One|QID|94897|M|65.94,74.32|Z|2521; Zephras Isle|N|To Ealaane Nimbuswalker.|
 T The Fate of the Den|QID|94491|M|64.00,75.12|Z|2521; Zephras Isle|N|To Lotheluum Starbreeze.|
 
-R Head along the road North.|ACTIVE|92643|M|58.36,61.42|N|Head along the road to this point, then turn left.|
+R Head along the road North.|ACTIVE|92643|M|58.36,61.42|N|Head along the road to this point, then turn left.|CC|
 
 A Al'Aketh Assassins|QID|98512|M|56.83,61.08|Z|2521; Zephras Isle|N|From Fendaal Windstone.|
 C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Assassin slain.|QO|1|S|
-C The Turncoat|ACTIVE|92643|M|56.21,60.73|Z|2521; Zephras Isle|NC|N|Find the secluded house in Shen'dar Highlands.|QO|1|
-C The Turncoat|ACTIVE|92643|M|56.05,58.73|Z|2521; Zephras Isle|NC|N|Find the Al'Aketh Turncoat.|QO|2|
-T The Turncoat|ACTIVE|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|To Dead Cultist.|
+C The Turncoat|QID|92643|M|56.21,60.73|Z|2521; Zephras Isle|NC|N|Find the secluded house in Shen'dar Highlands.|QO|1|
+C The Turncoat|QID|92643|M|56.05,58.73|Z|2521; Zephras Isle|NC|N|Find the Al'Aketh Turncoat.|QO|2|
+T The Turncoat|QID|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|To Dead Cultist.|
 A Unfortunate News|QID|92644|PRE|92643|M|56.03,58.78|Z|2521; Zephras Isle|N|From Dead Cultist.|
 C Unfortunate News|QID|92644|M|56.03,58.78|Z|2521; Zephras Isle|NC|N|Collect the glowing crystal from the body.|QO|1|
 ;Loot Item ID is 273852 but |l| doesn't work?
@@ -484,27 +484,21 @@ C Al'Aketh Assassins|QID|98512|M|56.42,61.02|Z|2521; Zephras Isle|N|Al'Aketh Ass
 T Al'Aketh Assassins|QID|98512|M|56.81,61.09|Z|2521; Zephras Isle|N|To Fendaal Windstone.|
 
 H Valanaar|ACTIVE|92644|N|If available Hearth back to town.|CC|
-r Repair/Restock|QID|94638|M|58.97,75.45|Z|2521; Zephras Isle|
+r Repair/Restock|QID|94638|M|62.90,77.42|Z|2521; Zephras Isle|
 
 T Unfortunate News|QID|92644|M|66.19,76.52|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-C The Cult's True Plans|ACTIVE|94568|M|66.19,76.51|Z|2521; Zephras Isle|CHAT|N|Learn what you can from the crystal.|QO|1|
+C The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|CHAT|N|Learn what you can from the crystal.|QO|1|
 T The Cult's True Plans|QID|94568|M|66.19,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 
 A Desperate Times|QID|92640|M|66.23,76.53|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
-C Desperate Times|ACTIVE|92640|M|66.19,76.65|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist.|QO|1|
-
-R Jump off Tower|ACTIVE|92640|M|66.26,76.13|Z|2521; Zephras Isle|N|Jump off the tower toward the next turnin and use your [color=61C9F6][color=61C9F6]Walk on Air[/color][/color] spell.|CC|
-
-C Desperate Times|ACTIVE|92640|M|59.14,79.75|Z|2521; Zephras Isle|CHAT|N|Recruit the Windshapers.|QO|2|
-C Desperate Times|ACTIVE|92640|M|66.63,79.91|Z|2521; Zephras Isle|CHAT|N|Recruit the High Order.|QO|3|
+C Desperate Times|QID|92640|M|66.19,76.65|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist.|QO|1|
+C Desperate Times|QID|92640|M|59.14,79.75|Z|2521; Zephras Isle|CHAT|N|Recruit the Windshapers.|QO|2|
+C Desperate Times|QID|92640|M|66.63,79.91|Z|2521; Zephras Isle|CHAT|N|Recruit the High Order.|QO|3|
 T Desperate Times|QID|92640|M|66.19,76.66|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
 A Prepare for Battle|QID|93065|M|66.19,76.65|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
-
-R Jump off Tower|ACTIVE|93065|M|65.95,76.34|Z|2521; Zephras Isle|N|Jump off the tower toward the next turnin and use your [color=61C9F6]Walk on Air[/color] spell.|CC|
-
-C Prepare for Battle|ACTIVE|93065|M|61.16,70.93|Z|2521; Zephras Isle|NC|N|Find Valennia on the Road.|QO|1|
+C Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|NC|N|Find Valennia on the Road.|QO|1|
 T Prepare for Battle|QID|93065|M|61.16,70.93|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
 A Making Our Move|QID|92947|M|61.16,70.93|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
@@ -512,39 +506,36 @@ A Making Our Move|QID|92947|M|61.16,70.93|Z|2521; Zephras Isle|N|From Valennia S
 R Head to the Road|ACTIVE|92947|M|57.95,64.95|Z|2521; Zephras Isle|N|Head to the road North.|CC|
 R Cross the Bridge|ACTIVE|92947|M|59.15,51.64|Z|2521; Zephras Isle|N|Cross the bridge and turn right to get to the mobs.|CC|
 
-C Making Our Move|ACTIVE|92947|M|61.71,50.62|Z|2521; Zephras Isle|N|Al'Aketh Guardian slain.|QO|1;2;3|
-C Making Our Move|ACTIVE|92947|M|63.21,53.87|Z|2521; Zephras Isle|N|Report to Hyusaa Quickbreeze.|QO|4|
+C Making Our Move|QID|92947|M|61.71,50.62|Z|2521; Zephras Isle|N|Al'Aketh Guardian slain.|QO|1;2;3|
+C Making Our Move|QID|92947|M|63.21,53.87|Z|2521; Zephras Isle|N|Report to Hyusaa Quickbreeze.|QO|4|
 T Making Our Move|QID|92947|M|63.79,50.52|Z|2521; Zephras Isle|N|To Hyusaa Quickbreeze.|
 A The Inner Sanctum|QID|93958|M|63.79,50.52|Z|2521; Zephras Isle|N|From Hyusaa Quickbreeze.|
 C The Inner Sanctum|QID|93958|M|65.19,50.38|Z|2521; Zephras Isle|CHAT|N|Speak with Valennia Stormfist. (Upstairs)|
 T The Inner Sanctum|QID|93958|M|65.19,50.38|Z|2521; Zephras Isle|N|To Valennia Stormfist.|
 
-;-------Here it splits by Faction to complete the zone------
-
 A Confront Lorthuna|QID|92646|M|65.19,50.38|Z|2521; Zephras Isle|N|From Valennia Stormfist.|
-P Take the Portal|ACTIVE|92646|N|Take the portal to the scenario.|CC|
-C Confront Lorthuna|QID|92646|M|74.04,52.63|Z|2521; Zephras Isle|CHAT|N|Talk to Ayessa Dawnsinger to start encounter.|
-C Confront Lorthuna|ACTIVE|92646|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|QO|1|
+P Rohashi Spires|ACTIVE|92646|N|Take the portal to the scenario. (Check off Manually)|CC|
+C Confront Lorthuna|QID|92646|M|74.04,52.63|Z|2521; Zephras Isle|CHAT|N|Talk to Ayessa Dawnsinger to start encounter. (Check off Manually)|
+C Confront Lorthuna|QID|92646|M|75.23,53.45|Z|2521; Zephras Isle|NC|N|Confront Lorthuna.|QO|1|
 
-P Portal to Valanaar|ACTIVE|92646|M|75.14,53.22|N|Take the portal to Valanaar.|CC|
+P Valanaar|ACTIVE|92646|M|75.14,53.22|N|Take the portal to Valanaar.|CC|
 
-T Confront Lorthuna|ACTIVE|92646|M|59.12,79.71|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+T Confront Lorthuna|QID|92646|M|59.12,79.71|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 A The Fate of Zephras|QID|93836|M|59.12,79.71|Z|2521; Zephras Isle|N|From Ayessa Dawnsinger.|
-C The Fate of Zephras|ACTIVE|93836|M|66.18,76.51|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|QO|1|
-T The Fate of Zephras|ACTIVE|93836|M|66.18,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
+C The Fate of Zephras|QID|93836|M|66.18,76.51|Z|2521; Zephras Isle|CHAT|N|Speak with Talaanis Shadowsong.|QO|1|
+T The Fate of Zephras|QID|93836|M|66.18,76.51|Z|2521; Zephras Isle|N|To Talaanis Shadowsong.|
 A What Comes Next|QID|93090|M|66.18,76.51|Z|2521; Zephras Isle|N|From Talaanis Shadowsong.|
 
-L Level 14|QID|95349|LVL|14|N|You should be around level 14 by this point.|
 N Train Skills|QID|95349|N|Train any class skills that you have available and can afford. Update Talents if needed. NOTE: Manually check this step off to continue.|
 N Wrap things up|ACTIVE|93090|N|Wrap up any local training, turn ins, etc. NOTE: Manually check this step off to continue.|
 
-T What Comes Next|ACTIVE|93090|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
+T What Comes Next|QID|93090|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 A The Earthen Ring|QID|95349|M|59.12,79.73|Z|2521; Zephras Isle|N|To Ayessa Dawnsinger.|
 
 R Head to the Dock|ACTIVE|95349|M|57.93,80.73|Z|2521; Zephras Isle|N|Make your way to the Dock to meet the airship.|CC|
 b Mulgore|ACTIVE|95349|N|Take the airship to Mulgore.|CC|
 
-T The Earthen Ring|ACTIVE|95349|M|33.35,22.53|Z|1412; Mulgore|N|To Alaana Stormwalker.|
+T The Earthen Ring|QID|95349|M|33.35,22.53|Z|1412; Mulgore|N|To Alaana Stormwalker.|
 A Welcome to Azeroth|QID|95350|M|33.35,22.53|Z|1412; Mulgore|N|From Alaana Stormwalker.|
 
 f Thunder Bluff|ACTIVE|95350|M|46.97,49.62|Z|1456; Thunder Bluff|N|Grab the flightpath. (Up the central tower)|
@@ -555,12 +546,12 @@ R Head up the Tower|ACTIVE|95350|M|47.75,65.28|Z|1454; Orgrimmar|N|Go up the tow
 R Cross the Bridge|ACTIVE|95350|M|44.77,64.58|Z|1454; Orgrimmar|N|Run across the bridge next to the flightmaster.|CC|
 R Follow the Path to Thrall|ACTIVE|95350|M|39.23,60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
 
-T Welcome to Azeroth|ACTIVE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|To Thrall.|
+T Welcome to Azeroth|QID|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|To Thrall.|
 A Exploring the Horde|QID|93739|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall.|
 A Journey to the Crossroads|QID|98024|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall.|
-C Exploring the Horde|ACTIVE|93739|M|32.25,35.93|Z|1454; Orgrimmar|CHAT|N|Obtain Instructions from Nazgrel.|QO|1|
+C Exploring the Horde|QID|93739|M|32.25,35.93|Z|1454; Orgrimmar|CHAT|N|Obtain Instructions from Nazgrel.|QO|1|
 N Read the Note|ACTIVE|93739|N|Read the notes from Nazgrel to see the instructions. NOTE: Manually check this step off to continue.|U|285357|
-C Exploring the Horde|ACTIVE|93739|M|34.28,36.40|Z|1454; Orgrimmar|CHAT|N|Speak with Vol'jin.|QO|2|
+C Exploring the Horde|QID|93739|M|34.28,36.40|Z|1454; Orgrimmar|CHAT|N|Speak with Vol'jin.|QO|2|
 
 R Head out of Orgrimmar|ACTIVE|93739|M|52.37,83.02|Z|1454; Orgrimmar|N|Make your way out of Orgrimmar.|CC|
 R Follow the Road|ACTIVE|93739|M|45.84,13.95|Z|1411; Durotar|N|Follow the road South to Razor Hill.|CC|
@@ -569,11 +560,11 @@ R Over the River and... Through the Desert|ACTIVE|93739|M|34.71,42.31|Z|1411; Du
 R Travel through The Barrens|ACTIVE|93739|M|54.83,22.55|Z|1413; The Barrens|N|Make your way to the The Barrens. Turn here if you don't care about agro, or stay on the road.|CC|
 R Run to The Crossroads|ACTIVE|93739|M|51.99,30.40|Z|1413; The Barrens|N|Run to The Crossroads to pick up the flight point and turn in Journey to the Crossroads.|CC|
 
-T Journey to the Crossroads|ACTIVE|98024|M|51.50,30.86|Z|1413; The Barrens|N|To Thork.|
+T Journey to the Crossroads|QID|98024|M|51.50,30.86|Z|1413; The Barrens|N|To Thork.|
 f The Crossroads|ACTIVE|93739|M|51.51,30.33|Z|1413; The Barrens|N|Frab the flightpath.|
 F Thunder Bluff|ACTIVE|93739|M|51.50,30.36|Z|1413; The Barrens|N|Head to the flightmaster and take a flight to Thunder Bluff.|CC|
 
-C Exploring the Horde|ACTIVE|93739|M|60.05,51.76|Z|1456; Thunder Bluff|CHAT|N|Speak with Cairne Bloodhoof.|QO|3|
+C Exploring the Horde|QID|93739|M|60.05,51.76|Z|1456; Thunder Bluff|CHAT|N|Speak with Cairne Bloodhoof.|QO|3|
 
 F Orgrimmar|ACTIVE|93739|M|47.05,50.07|Z|1456; Thunder Bluff|N|Head to the flightmaster and take a flight to Valley of Strength.|CC|
 R Head out of Orgrimmar|ACTIVE|93739|M|52.37,83.02|Z|1454; Orgrimmar|N|Make your way out of Orgrimmar.|CC|
@@ -587,7 +578,7 @@ R Use the Passage to the Outer Ring|ACTIVE|93739|M|65.92,56.26|Z|1458; Undercity
 R Cross over the bridge|ACTIVE|93739|M|58.61,62.82|Z|1458; Undercity|N|Make your way downstairs and out to the Canals.|CC|
 R Entrance to find Sylvanas|ACTIVE|93739|M|52.49,63.83|Z|1458; Undercity|N|Make your way to the The Apothecarium and use the middle entrance to find Sylvanas.|CC|
 
-C Exploring the Horde|ACTIVE|93739|M|57.8,91.8|Z|1456; Thunder Bluff|CHAT|N|Speak with Lady Sylvanas Windrunner.|QO|4|
+C Exploring the Horde|QID|93739|M|57.8,91.8|Z|1456; Thunder Bluff|CHAT|N|Speak with Lady Sylvanas Windrunner.|QO|4|
 
 ;A The Power to Destroy...|QID|5725|M|56.30,92.09|Z|1458; Undercity|N|From Varimathras. This goes to Ragefire Chasm.|O|RANK|3|
 
@@ -595,7 +586,7 @@ H Orgrimmar|ACTIVE|93739|N|Hearth back to Orgrimmar.|CC|
 R Head up the Tower|ACTIVE|93739|M|47.75,65.28|Z|1454; Orgrimmar|N|Go up the tower to the flightmaster.|CC|
 R Cross the Bridge|ACTIVE|93739|M|44.77,64.58|Z|1454; Orgrimmar|N|Run across the bridge next to the flightmaster.|CC|
 R Follow the Path to Thrall|ACTIVE|93739|M|39.23,60.06|Z|1454; Orgrimmar|N|Head down the path and turn left into the building where you can find Thrall.|CC|
-T Exploring the Horde|ACTIVE|93739|M|31.77,37.76|Z|1454; Orgrimmar|N|To Thrall.|
+T Exploring the Horde|QID|93739|M|31.77,37.76|Z|1454; Orgrimmar|N|To Thrall.|
 
 ;A Hidden Enemies|QID|5726|PRE|95350|M|31.76,37.77|Z|1454; Orgrimmar|N|From Thrall. This quest chain leads to Ragefire Chasm.|
 
