@@ -12,7 +12,7 @@ function WoWPro.GossipInfo_SelectActiveQuest(index)
     WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
     return _G.C_GossipInfo.SelectActiveQuest(qid)
  end
-function WoWPro.GossipInfo_SelectAvailableQuest(index) 
+function WoWPro.GossipInfo_SelectAvailableQuest(index)
     local aQuests = _G.C_GossipInfo.GetAvailableQuests()
     local qid = aQuests[index].questID
     WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
