@@ -314,7 +314,7 @@ function WoWPro:CreateLootIcon(parent, id, iconIndex, positionParent)
                 texture = result['iconFileID']
             end
         elseif tonumber(ID) then
-            name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
+            name, _, _, _, _, _, _, _, _, texture = _G._G.C_Item.GetItemInfo(tonumber(ID))
         end
         if texture then
             self.lootIcon:SetTexture(texture)

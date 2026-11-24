@@ -182,48 +182,6 @@ function WoWPro.C_Spell_GetSpellLink(spellID)
     end
 end
 
---[[C_Item.GetItemInfo]]
-function WoWPro.C_Item_GetItemInfo(itemID)
-    if not _G.GetItemInfo then
-        return _G.C_Item.GetItemInfo(itemID)
-    else
-        return _G.GetItemInfo(itemID)
-    end
-end
-
---[[C_Item.GetItemCount]]
-function WoWPro.C_Item_GetItemCount(itemID, includeBank)
-    if not _G.GetItemCount then
-        return _G.C_Item.GetItemCount(itemID, includeBank)
-    else
-        return _G.GetItemCount(itemID, includeBank)
-    end
-end
-
-function WoWPro.C_Item_GetItemIconByID(itemID)
-    if not _G.GetItemIcon then
-        return _G.C_Item.GetItemIconByID(itemID)
-    else
-        return _G.GetItemIcon(itemID)
-    end
-end
-
-function WoWPro.C_CurrencyInfo_GetCoinTextureString(itemID)
-    if not _G.GetCoinTextureString then
-        return _G.C_CurrencyInfo.GetCoinTextureString(itemID)
-    else
-        return _G.GetCoinTextureString(itemID)
-    end
-end
-
-function WoWPro.C_Item_IsEquippedItem(itemID)
-    if not  _G.IsEquippedItem then
-        return 	_G.C_Item.IsEquippedItem(itemID)
-    else
-        return _G.IsEquippedItem(itemID)
-    end
-end
-
 -- [[EasyMenu]]
 local function EasyMenu_Initialize( frame, level, menuList )
     if not menuList then
@@ -321,31 +279,15 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
     end
 end
 
-function WoWPro.IsValidAchievement(achnum)
-    if not _G.GetAchievementInfo then
-        return _G.C_AchievementInfo.IsValidAchievement(achnum)
-    else
-     local _, name = _G.GetAchievementInfo(achnum)
-        return name
-    end
-end
-
 function WoWPro.UnitAura(Unit, BuffIndex, filter)
-    if _G.UnitAura then
-        -- name, icon, count, dispelType, duration, expirationTime, source, isStealable,
-        -- nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, castByPlayer, nameplateShowAll, timeMod
-        local ret = {_G.UnitAura(Unit, BuffIndex, filter)}
-        return unpack(ret)
+    local ret = _G.C_UnitAuras.GetAuraDataByIndex(Unit, BuffIndex, filter)
+    -- ret.applications might be wrong. See https://warcraft.wiki.gg/wiki/API_C_UnitAuras.GetAuraDataByIndex
+    if ret then
+        return ret.name, ret.icon, ret.applications, ret.dispelName, ret.duration, ret.expirationTime, ret.sourceUnit, ret.isStealable,
+                ret.nameplateShowPersonal, ret.spellId, ret.canApplyAura, ret.isBossAura, ret.isFromPlayerOrPlayerPet, ret.nameplateShowAll,
+                ret.timeMod
     else
-        local ret = _G.C_UnitAuras.GetAuraDataByIndex(Unit, BuffIndex, filter)
-        -- ret.applications might be wrong. See https://warcraft.wiki.gg/wiki/API_C_UnitAuras.GetAuraDataByIndex
-        if ret then
-            return ret.name, ret.icon, ret.applications, ret.dispelName, ret.duration, ret.expirationTime, ret.sourceUnit, ret.isStealable,
-                 ret.nameplateShowPersonal, ret.spellId, ret.canApplyAura, ret.isBossAura, ret.isFromPlayerOrPlayerPet, ret.nameplateShowAll,
-                 ret.timeMod
-        else
-            return nil
-        end
+        return nil
     end
 end
 
