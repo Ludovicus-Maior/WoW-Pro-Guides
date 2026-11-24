@@ -2376,7 +2376,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Select the right C step with the QG tag that matches the gossip
             if WoWPro.GossipText and WoWPro.gossip[guideIndex] and not guide.completion[guideIndex] then
                 -- is gossip in GossipText?
-                if WoWPro.GossipText:find(WoWPro.gossip[guideIndex], 1 , true) then
+                if WoWPro.GossipText:find(WoWPro.gossip[guideIndex]:upper(), 1 , true) then
                     -- Found it
                     WoWPro:dbp("Step %s [%s] '%s' in GossipText",stepAction,step,WoWPro.gossip[guideIndex])
                     WoWPro.why[guideIndex] = "Located gossip word in gossip text"
