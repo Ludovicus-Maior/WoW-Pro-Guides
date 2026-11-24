@@ -7,26 +7,16 @@
 ]]
 
 function WoWPro.GossipInfo_SelectActiveQuest(index)
-    if _G.SelectGossipActiveQuest then
-        WoWPro:dbp("GossipInfo_SelectActiveQuest(~RETAIL): pick %d", index)
-        return _G.SelectGossipActiveQuest(index)
-    else
-        local aQuests = _G.C_GossipInfo.GetActiveQuests()
-        local qid = aQuests[index].questID
-        WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
-        return _G.C_GossipInfo.SelectActiveQuest(qid)
-    end
-end
+    local aQuests = _G.C_GossipInfo.GetActiveQuests()
+    local qid = aQuests[index].questID
+    WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
+    return _G.C_GossipInfo.SelectActiveQuest(qid)
+ end
 function WoWPro.GossipInfo_SelectAvailableQuest(index)
-    if _G.SelectGossipAvailableQuest then
-        WoWPro:dbp("GossipInfo_SelectAvailableQuest(~RETAIL): pick %d", index)
-        return _G.SelectGossipAvailableQuest(index)
-    else
-        local aQuests = _G.C_GossipInfo.GetAvailableQuests()
-        local qid = aQuests[index].questID
-        WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
-        return _G.C_GossipInfo.SelectAvailableQuest(qid)
-    end
+    local aQuests = _G.C_GossipInfo.GetAvailableQuests()
+    local qid = aQuests[index].questID
+    WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
+    return _G.C_GossipInfo.SelectAvailableQuest(qid)
 end
 
 
@@ -103,10 +93,6 @@ function WoWPro.QuestLog_IsComplete(questID)
     end
 end
 
-function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
-    return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
-end
-
 function WoWPro.QuestLog_IsQuestFlaggedCompletedOnAccount(questID)
     if not _G.C_QuestLog then
         return false
@@ -120,25 +106,12 @@ function WoWPro.QuestLog_IsQuestFlaggedCompletedOnAccount(questID)
     return false
 end
 
-
-
 --[[ C_SuperTrack ]]--
 function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)
     if not _G.SetSuperTrackedQuestID then
         return _G.C_SuperTrack.SetSuperTrackedQuestID(questID)
     else
         return _G.SetSuperTrackedQuestID(questID)
-    end
-end
-
-function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
-    if frame.SetResizeBounds then
-       frame:SetResizeBounds(minWidth, minHeight, maxWidth, maxHeight)
-    else
-        frame:SetMinResize(minWidth, minHeight)
-        if maxWidth then
-            frame:SetMaxResize(maxWidth, maxHeight)
-        end
     end
 end
 
@@ -196,31 +169,6 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
            iconID = icon,
            maxRange = maxRange,
            spellID = spellID
-        }
-    end
-end
-
---[[C_ScenarioInfo.GetCriteriaInfo]]
-function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
-    if not _G.C_Scenario or not _G.C_Scenario.GetCriteriaInfo then
-        return _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex)
-    else
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, _, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
-
-        return{
-           criteriaID = criteriaID,
-           description = criteriaString,
-           elapsed = elapsed,
-           duration = duration,
-           isWeightedProgress = isWeightedProgress,
-           completed = completed,
-           quantity = quantity,
-           -- isFormatted
-           failed = criteriaFailed,
-           assetID = assetID,
-           flags = flags,
-           criteriaType = criteriaType,
-           totalQuantity = totalQuantity
         }
     end
 end
