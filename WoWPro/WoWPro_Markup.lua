@@ -38,7 +38,7 @@ RegisterMarkup("texture", WoWPro.ExpandTexture)
 
 local InvalidCount = {}
 function WoWPro.ExpandItem(item, want_icon, want_text)
-    local name, link, _, _, _, _, _, _, _, texture = WoWPro.C_Item_GetItemInfo(tonumber(item))
+    local name, link, _, _, _, _, _, _, _, texture = _G.C_Item.GetItemInfo(tonumber(item))
     local expanded = ""
     if name then
         if want_icon then
@@ -100,7 +100,7 @@ end
 RegisterMarkup("spell", WoWPro.ExpandSpell)
 
 function WoWPro.ExpandMoney(money,want_icon, want_text)
-    local expanded = WoWPro.C_CurrencyInfo_GetCoinTextureString(tonumber(money)*100*100)
+    local expanded = _G.C_CurrencyInfo.GetCoinTextureString(tonumber(money)*100*100)
     return expanded
 end
 RegisterMarkup("money", WoWPro.ExpandMoney)

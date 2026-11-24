@@ -526,7 +526,7 @@ local SetupTrashItemButton = function(currentRow, use, k)
     end
 
     currentRow.itembutton:Show()
-    currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
+    currentRow.itemicon:SetTexture(_G.C_Item.GetItemIconByID(use))
 
     -- Clicking the button destroys the item
     currentRow.itembutton:SetAttribute("type1", "click1")
@@ -550,8 +550,8 @@ local function SetupItemCooldown(currentRow, itemID)
         end
         timeElapsed = 0
 
-        local icon = WoWPro.C_Item_GetItemIconByID(itemID)
-        local count = WoWPro.C_Item_GetItemCount(itemID)
+        local icon = _G.C_Item.GetItemIconByID(itemID)
+        local count = _G.C_Item.GetItemCount(itemID)
         local start, duration, enabled = WoWPro.GetItemCooldown(itemID)
 
         -- Update icon visibility

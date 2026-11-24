@@ -856,7 +856,7 @@ function WoWPro.TrashItem(use, step)
         for slot=1,slots do
             local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName = WoWPro.C_Item_GetItemInfo(id) or "this item" -- On retail the API intermittantly fails to return the name
+                local itemName = _G.C_Item.GetItemInfo(id) or "this item" -- On retail the API intermittantly fails to return the name
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = { step = step, itemName = itemName}
                 dialog.data2 = {bag = bag, slot = slot}
@@ -921,7 +921,7 @@ local Stones = {
 function WoWPro.SelectHearthstone()
     local have={}
     for id, nomen in pairs(Stones) do
-        if  _G.WoWPro.C_Item_GetItemCount(id) > 0 then
+        if  _G._G.C_Item.GetItemCount(id) > 0 then
             tinsert(have, id)
         end
     end
@@ -937,7 +937,7 @@ function WoWPro.SelectItemToUse(use, debug)
         local items = {("&"):split(use)}
         local allPresent = true
         for _, item in ipairs(items) do
-            local count = _G.WoWPro.C_Item_GetItemCount(item)
+            local count = _G._G.C_Item.GetItemCount(item)
             if count == 0 then
                 allPresent = false
                 break
@@ -950,7 +950,7 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): & mode, result=%s", use, tostring(result and "table" or "nil"))
     elseif not use:find("^", 1, true) then
         -- Single item
-        local count = _G.WoWPro.C_Item_GetItemCount(use)
+        local count = _G._G.C_Item.GetItemCount(use)
         if count > 0 then
             result[use] = count
         else
@@ -959,9 +959,9 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): single, result=%s", use, tostring(result and "table" or "nil"))
     else
         -- ^ or | : select first available
-        local value = QidMapReduce(use, false, "^", nil, function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+        local value = QidMapReduce(use, false, "^", nil, function (item) return (_G._G.C_Item.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
         if value then
-            result[value] = _G.WoWPro.C_Item_GetItemCount(value)
+            result[value] = _G._G.C_Item.GetItemCount(value)
         else
             result = nil
         end
@@ -1367,7 +1367,7 @@ function WoWPro:LegacyRowUpdate(offset)
                 if not _G.InCombatLockdown() then
                     currentRow.itembutton:Show()
                 end
-                currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
+                currentRow.itemicon:SetTexture(_G.C_Item.GetItemIconByID(use))
                 currentRow.itembutton:SetAttribute("type1", "click1")
                 currentRow.itembutton:SetAttribute("click", "clickbutton")
                 currentRow.itembutton:SetScript("OnClick", function ()
@@ -1435,19 +1435,19 @@ function WoWPro:LegacyRowUpdate(offset)
                             timeElapsed = timeElapsed + elapsed
                             if timeElapsed > 0.05 then
                                 timeElapsed = 0
-                                local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
+                                local itemtexture = _G.C_Item.GetItemIconByID(_use)
                                 local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
                                 if not start then
                                     WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
                                 end
-                                if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+                                if _G._G.C_Item.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
                                     currentRow.itemicon.item_IsVisible = true
                                     currentRow.itemicon:SetTexture(itemtexture)
                                     currentRow.itemicon.currentTexture = itemtexture
-                                elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+                                elseif itemtexture ~= currentRow.itemicon.currentTexture and _G._G.C_Item.GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
                                     currentRow.itemicon:SetTexture(itemtexture)
                                     currentRow.itemicon.currentTexture = itemtexture
-                                elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+                                elseif _G._G.C_Item.GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
                                     currentRow.itemicon.item_IsVisible = false
                                     currentRow.itemicon:SetTexture()
                                     currentRow.itemicon.currentTexture = nil
@@ -2066,7 +2066,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if stepAction == "*" then
                 if WoWPro.use and WoWPro.use[guideIndex] then
                         skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
-                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G._G.C_Item.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
                     else
                         skip = true -- No item, skip!
@@ -2084,7 +2084,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
                     local allPresent = true
                     for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
-                        if qty > 0 and _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                        if qty > 0 and _G._G.C_Item.GetItemCount(itemID) < qty then
                             allPresent = false
                             break
                         end
@@ -2108,7 +2108,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(itemID)] then
                                 qty = WoWPro.lootitem[guideIndex][tonumber(itemID)]
                             end
-                            if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                            if _G._G.C_Item.GetItemCount(itemID) < qty then
                                 allPresent = false
                                 break
                             end
@@ -2134,7 +2134,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         if WoWPro.lootitem and WoWPro.lootitem[guideIndex] and WoWPro.lootitem[guideIndex][tonumber(useTag)] then
                             qty = WoWPro.lootitem[guideIndex][tonumber(useTag)]
                         end
-                        showStep = (_G.WoWPro.C_Item_GetItemCount(useTag) >= qty)
+                        showStep = (_G._G.C_Item.GetItemCount(useTag) >= qty)
                         if showStep then
                             WoWPro.why[guideIndex] = "NextStep(): Optional U step with item present is not skipped."
                         else
@@ -2184,7 +2184,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if WoWPro.lootitem and WoWPro.lootitem[guideIndex] then
                     items = WoWPro.lootitem[guideIndex]
                     for itemID, qty in pairs(items) do
-                        if _G.WoWPro.C_Item_GetItemCount(itemID) < qty then
+                        if _G._G.C_Item.GetItemCount(itemID) < qty then
                             items = nil
                             break
                         end
@@ -2427,7 +2427,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Equipped Item? Complete step
-            if WoWPro.equipped[guideIndex] and WoWPro.C_Item_IsEquippedItem(WoWPro.equipped[guideIndex]) then
+            if WoWPro.equipped[guideIndex] and _G.C_Item.IsEquippedItem(WoWPro.equipped[guideIndex]) then
                 WoWPro.CompleteStep(guideIndex,"Item "..tostring(WoWPro.equipped[guideIndex]).." equipped.")
                 skip = true
                 break
@@ -2960,7 +2960,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     achflip = WoWPro.toboolean(achflip)
                     achall = WoWPro.toboolean(achall)
                     if achitem == "" or achitem == "0" then achitem = nil end
-                    if not WoWPro.IsValidAchievement(tonumber(achnum)) then
+                    if not _G.C_AchievementInfo.IsValidAchievement(tonumber(achnum)) then
                         why = "NextStep(): "..achnum.." is not valid. Punting on: "..aval
                         WoWPro:print(why)
                         achcheck = false
@@ -3630,7 +3630,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local allNegativeComplete = true
                 local hasNegative = false
                 for itemID, qty in pairs(WoWPro.lootitem[guideIndex]) do
-                    local count = _G.WoWPro.C_Item_GetItemCount(itemID)
+                    local count = _G._G.C_Item.GetItemCount(itemID)
                     if qty > 0 and count < qty then
                         allPositiveComplete = false
                     elseif qty < 0 then
@@ -3714,7 +3714,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             else
                 -- Special for Buy steps where the step name is the item to buy and no |L| specified
                 if stepAction == "B" then
-                    if _G.WoWPro.C_Item_GetItemCount(step) > 0 then
+                    if _G._G.C_Item.GetItemCount(step) > 0 then
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you bought enough named loot.")
                         skip = true
                     end

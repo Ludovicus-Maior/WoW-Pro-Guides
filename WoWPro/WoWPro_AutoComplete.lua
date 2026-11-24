@@ -222,9 +222,9 @@ function WoWPro.GetLootTrackingInfo(lootItems)
     if not lootItems or next(lootItems) == nil then return "" end
     local tracks = ""
     for itemID, qty in pairs(lootItems) do
-        if _G.WoWPro.C_Item_GetItemInfo(itemID) then
-            local numinbag = _G.WoWPro.C_Item_GetItemCount(itemID)
-            local track = _G.WoWPro.C_Item_GetItemInfo(itemID) .. ": " .. numinbag .. "/" .. qty
+        if _G._G.C_Item.GetItemInfo(itemID) then
+            local numinbag = _G._G.C_Item.GetItemCount(itemID)
+            local track = _G._G.C_Item.GetItemInfo(itemID) .. ": " .. numinbag .. "/" .. qty
             if (qty > 0 and numinbag >= qty) or (qty < 0 and numinbag < -qty) then
                 track = track .. " (C)"
             end
@@ -247,7 +247,7 @@ function WoWPro.LootItemsCollected(lootItems)
     local allNegativeComplete = true
     local hasNegative = false
     for itemID, qty in pairs(lootItems) do
-        local count = _G.WoWPro.C_Item_GetItemCount(itemID)
+        local count = _G._G.C_Item.GetItemCount(itemID)
         if qty > 0 then
             if count < qty then
                 allPositiveComplete = false
@@ -275,7 +275,7 @@ function WoWPro.AutoCompleteLoot()
             end
             local allComplete = true
             for itemID, qty in pairs(lootItems) do
-                local itemCount = _G.WoWPro.C_Item_GetItemCount(itemID)
+                local itemCount = _G._G.C_Item.GetItemCount(itemID)
                 if qty > 0 then
                     if itemCount < qty then allComplete = false; break end
                 elseif qty < 0 then
