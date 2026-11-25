@@ -141,7 +141,7 @@ end
 function WoWPro:CreateItemButton(parent, id, positionParent)
     positionParent = positionParent or parent
     local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "InsecureActionButtonTemplate")
-    itembutton:SetAttribute("type", "item")
+    itembutton.actionOnClick = itembutton:GetScript("OnClick")
     itembutton:SetFrameStrata("LOW")
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
