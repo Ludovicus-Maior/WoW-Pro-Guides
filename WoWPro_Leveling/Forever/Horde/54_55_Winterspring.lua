@@ -50,10 +50,10 @@ C Are We There, Yeti?|QID|977|M|66.00,43.00|N|pristine horns here|
 H Everlook|ACTIVE|977|
 T Are We There, Yeti?|QID|977|M|60.8,37.6|N|Umi Rumplesnicker|
 
-F Bloodvenom Post|
+F Bloodvenom Post|ACTIVE|4741|
 T Wild Guardians|QID|4741|M|0.54,72.33|N|Trull Failbane-Skip the follow-up|
 
-F Emerald Sanctuary|
+;F Emerald Sanctuary|
 T Collection of the Corrupt Water|QID|5157|M|13.89,96.07|N|Greta Mosshoof-Skip the follow-up|
 T Verifying the Corruption|QID|5156|M|13.63,95.68|N|Taronn Redfeather|
 T Cleansing Felwood|QID|4102|M|10.28,96.9|N|North along the road|

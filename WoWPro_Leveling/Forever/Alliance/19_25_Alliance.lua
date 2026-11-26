@@ -64,7 +64,7 @@ t The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; W
 A The People's Militia|QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|1436; Westfall|
 h Sentinel Hill|ACTIVE|142|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|C|Druid|
 
-C The Defias Brotherhood|ACTIVE|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|1436; Westfall|T|Defias Messenger|M|45.59,64.99|
+C The Defias Brotherhood|QID|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|1436; Westfall|T|Defias Messenger|M|45.59,64.99|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|1436; Westfall|L|2998|N|Loot the Compass from the chest at this location.|
 A ... and that note you found|QID|79008|M|37.47,50.73|Z|1436; Westfall|N|From Burned-Out Remains. This starts the Sleeping bag quest line. Click the book to jump to its own guide, Or we will cover it as we come across it in the normal guides.|JUMP|SleepingBagA|RANK|3|
 l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|1436; Westfall|
@@ -74,8 +74,11 @@ C The People's Militia|QID|13|M|29.5,47.3|Z|1436; Westfall|N|Kill Defias Looters
 C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|US|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|1436; Westfall|
+T The State of the Mines|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
 
+A Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
 R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|1436; Westfall|
+C Moonbrook Espionage|QID|92747|M|44.39,68.09|Z|1436; Westfall|N|Grab the yellow chests from inside all the buildings.|
 C The People's Militia|QID|14|QO|1;2;3|S|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|Z|1436; Westfall|
 R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|Z|1436; Westfall|
 A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|1436; Westfall|
@@ -87,7 +90,7 @@ A Keeper of the Flame|QID|103|M|30.01,86.02|N|From Captain Grayson.|Z|1436; West
 A The Coast Isn't Clear|QID|152|M|30.01,86.02|N|From Captain Grayson.|Z|1436; Westfall|
 A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|Z|1436; Westfall|
 T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
-C The Coast Isn't Clear|QID|152|S|N|As you run along the beach kill the required murlocs|Z|1436; Westfall|
+C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|S|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|1436; Westfall|
 C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|CN|QO|1|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|Z|1436; Westfall|
 C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|US|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|1436; Westfall|
 C The Coast Isn't Clear|QID|152|M|25.70,49.80;35.80,20.00|CN|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|Z|1436; Westfall|
@@ -105,9 +108,12 @@ T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's L
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|1436; Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
-C The Defias Brotherhood|ACTIVE|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|1436; Westfall|T|Defias Messenger|
+C The Defias Brotherhood|QID|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|1436; Westfall|T|Defias Messenger|
 
-H Sentinel Hill|ACTIVE|142|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|1436; Westfall|
+H Sentinel Hill|ACTIVE|14|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|1436; Westfall|
+T Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+A Explosive Consultation|QID|92748|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|Z|1436; Westfall|
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
@@ -120,11 +126,24 @@ A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|1436; Westfall|
 T Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|To Baros Alexston.|
 A Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
-A Oh Brother. . .|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+T Explosive Consultation|QID|92748|M|61.86,30.79|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+A A Dynamite Plan|QID|92749|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+A Detonation at a Distance|QID|92750|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+A Oh Brother...|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
 A Collecting Memories|QID|168|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+T Detonation at a Distance|QID|92750|M|80.20,70.09|Z|1453; Stormwind City|N|To Jasper Fel.|
+A Detonation at a Distance|QID|92751|M|80.20,70.09|Z|1453; Stormwind City|N|From Jasper Fel.|
+B Rough Dynamite|ACTIVE|92749|QO|1|M|61.16,71.17|Z|1453; Stormwind City|N|Buy Beg Borrow or steal.|
+T Detonation at a Distance|QID|92751|M|61.87,30.71|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+T A Dynamite Plan|QID|92749|M|61.87,30.71|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+A Explosive Consultation|QID|92752|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+H Sentinel Hill|ACTIVE|92752|M|PLAYER|N|Make your way back to Westfall.|
+T Explosive Consultation|QID|92752|M|52.48,52.98|Z|1436; Westfall|N|To Alba Fairmoon.|
+A Destruction in Deadmines|QID|92753|M|52.48,52.98|Z|1436; Westfall|N|From Alba Fairmoon|DUNGEON|
+t Destruction in Deadmines|QID|92819|M|38.6,83.6|Z|1436; Westfall|N|To Alba Fairmoon|
 N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
 
-F Lakeshire|ACTIVE|116|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Redridge.|
+F Lakeshire|ACTIVE|116|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Redridge.|TZ|Redridge Mountains|
 ;if not done elwynn guide --
 t Return to Verner|QID|119|M|25.88,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
 t Messenger to Stormwind|QID|121|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
