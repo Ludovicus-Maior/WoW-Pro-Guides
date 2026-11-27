@@ -33,7 +33,17 @@ WoWPro.lua
 WoWPro_CompatUtil.lua
 WoWPro_Templates.xml
 WoWPro_Widgets.lua
+Localization\WoWPro_Localization_deDE.lua
+Localization\WoWPro_Localization_esES.lua
+Localization\WoWPro_Localization_frFR.lua
+Localization\WoWPro_Localization_itIT.lua
+Localization\WoWPro_Localization_koKR.lua
+Localization\WoWPro_Localization_ptBR.lua
+Localization\WoWPro_Localization_ruRU.lua
+Localization\WoWPro_Localization_zhCN.lua
+Localization\WoWPro_Localization_zhTW.lua
 WoWPro_Localization.lua
+Localization\WoWPro_Localization_ClientData.lua
 WoWPro_GuideRegistry.lua
 WoWPro_CurrentGuide.lua
 WoWPro_GuideList.lua

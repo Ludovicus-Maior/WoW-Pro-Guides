@@ -1,4 +1,5 @@
 -- luacheck: globals tonumber tostring type WoWPro _G.WoWProDB
+local L = WoWPro_Locale
 ---@diagnostic disable-next-line: undefined-field
 local WoWPro= _G.WoWPro
 
@@ -593,7 +594,7 @@ function WoWPro:CreateErrorLog(title)
     ErrorLog.Mesg:SetPoint("BOTTOMLEFT",ErrorLog, "BOTTOMLEFT", -10, 0)
     ErrorLog.Mesg:SetPoint("RIGHT", ErrorLog, "RIGHT", 15, 0)
     ErrorLog.Mesg:SetHeight(20)
-    ErrorLog.Mesg:SetText("Select All and Copy the above error message to report this log. Hit ESC to close.")
+    ErrorLog.Mesg:SetText(L["Select All and Copy the above error message to report this log. Hit ESC to close."])
 
     ErrorLog.Title = ErrorLog:CreateFontString("", "OVERLAY", "GameFontNormal")
     ErrorLog.Title:SetJustifyH("CENTER")

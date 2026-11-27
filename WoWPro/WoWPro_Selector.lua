@@ -1,5 +1,6 @@
 -- luacheck: globals pairs unpack tinsert sort
 -- luacheck: globals tostring
+local L = WoWPro_Locale
 
 --
 --      WoWPro_Selector     --
@@ -10,14 +11,14 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
     WoWProCharDB.Guide[nGID] = WoWProCharDB.Guide[nGID] or {}
     local function OnEnter(this)
         _G.GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
-        _G.GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
+        _G.GameTooltip:SetText(L["Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch."]);
     end
     local function OnLeave(this)
         _G.GameTooltip:Hide()
     end
 
     _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
-        text = "Would you like to switch to the guide for the quest you just accepted?",
+        text = L["Would you like to switch to the guide for the quest you just accepted?"],
         OnAccept = function(this, data, data2)
             WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID);
         end ,
@@ -39,7 +40,7 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
         timeout = 30,
         button1 = _G.YES,
         button2 = _G.NO,
-        button3 = "Don't ask"
+        button3 = L["Don't ask"]
     }
 
     if quest then
