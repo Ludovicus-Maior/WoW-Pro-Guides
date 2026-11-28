@@ -12,7 +12,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ; Darkshore Guide Synchronization Steps
 f Stormwind|AVAILABLE|343|M|71.29,72.23|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
-h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
+h Stormwind City|QID|272|N|Head to the Innkeeper in the trade district and set your hearthstone|C|Druid|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|1429; Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
 F Sentinel Hill|AVAILABLE|65|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
@@ -21,109 +21,109 @@ h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 
 ; Druid Aquatic Form Chain
-R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|1436; Westfall|N|At this point, you're now going to finish up your swim form quest chain.|
-l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|1436; Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
-P Moonglade|ACTIVE|272|C|Druid|Z|1450; Moonglade|N|Use your Moonglade portal spell.|
-L Half Pendant of Aquatic Agility|ACTIVE|272|M|48.85,11.28|Z|1439; Darkshore|C|Druid|L|15883|N|You will need the first half of the pendant. Fly to Darkshore and loot the item.|
-C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|1450; Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
-T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|
-A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|272|
-F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|1450; Moonglade|N|Fly back using the Darnassus Flight Master.|
-R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|1457; Darnassus|N|Walk into the portal back to Darnassus.|
-T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
+R Longshore|ACTIVE|272|M|26.90,40.00|Z|1436; Westfall|N|At this point, you're now going to finish up your swim form quest chain.|C|Druid|
+l Trial of the Sea Lion (Part 2)|ACTIVE|272|M|17.91,33.10|Z|1436; Westfall|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|C|Druid|L|15882|
+P Moonglade|ACTIVE|272|Z|1450; Moonglade|N|Use your Moonglade portal spell.|C|Druid|
+l Half Pendant of Aquatic Agility|ACTIVE|272|M|48.85,11.28|Z|1439; Darkshore|N|You will need the first half of the pendant. Fly to Darkshore and loot the item.|C|Druid|L|15883|
+C Trial of the Sea Lion|QID|272|QO|1|M|35.90,41.25|Z|1450; Moonglade|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|C|Druid|U|15883|NC|
+T Trial of the Sea Lion|QID|272|M|56.21,30.62|Z|1450; Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|C|Druid|
+A Aquatic Form|QID|5061|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|C|Druid|PRE|272|
+F Rut'theran Village|ACTIVE|5061|M|44.15,45.22|Z|1450; Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
+R Darnassus|ACTIVE|5061|M|55.86,89.45|Z|1457; Darnassus|N|Walk into the portal back to Darnassus.|C|Druid|
+T Aquatic Form|QID|5061|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
 
-F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
+F Stormwind|AVAILABLE|244|Z|1436; Westfall|N|Fly to Stormwind.|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429; Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.56,72.09|Z|1429; Elwynn Forest|N|Follow the road east to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|10.37,71.26|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|1433; Redridge Mountains|
-T Encroaching Gnolls|QID|244|M|25.65,59.99|N|To Deputy Feldon.|Z|1433; Redridge Mountains|
-f Lakeshire|AVAILABLE|125|M|25.51,59.40|N|Get the flight path from Ariena Stormfeather.|Z|1433; Redridge Mountains|
-A The Lost Tools|QID|125|M|27.05,48.64|N|From Foreman Oslow.|Z|1433; Redridge Mountains|
-T The Defias Brotherhood|QID|65|M|21.41,45.30|N|To Wiley the Black upstairs at the Inn.|Z|1433; Redridge Mountains|
-A The Defias Brotherhood|QID|132|M|21.41,45.30|N|From Wiley the Black.|PRE|65|Z|1433; Redridge Mountains|
-A Hilary's Necklace|QID|3741|M|24.21,53.60|N|From Shawn, at the end of the dock.|Z|1433; Redridge Mountains|
-C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud at the bottom of the water.|Z|1433; Redridge Mountains|
-C The Lost Tools|QID|125|M|36.51,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|Z|1433; Redridge Mountains|
-T The Lost Tools|QID|125|M|27.01,48.60|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Hilary's Necklace|QID|3741|M|24.15,53.62|N|To Hilary.|Z|1433; Redridge Mountains|
-F Sentinel Hill|ACTIVE|132|M|25.50,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|1433; Redridge Mountains|
+A Encroaching Gnolls|QID|244|M|10.37,71.26|Z|1433; Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
+T Encroaching Gnolls|QID|244|M|25.65,59.99|Z|1433; Redridge Mountains|N|To Deputy Feldon.|
+f Lakeshire|AVAILABLE|125|M|25.51,59.40|Z|1433; Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
+A The Lost Tools|QID|125|M|27.05,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|
+T The Defias Brotherhood|QID|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs at the Inn.|
+A The Defias Brotherhood|QID|132|M|21.41,45.30|Z|1433; Redridge Mountains|N|From Wiley the Black.|PRE|65|
+A Hilary's Necklace|QID|3741|M|24.21,53.60|Z|1433; Redridge Mountains|N|From Shawn, at the end of the dock.|
+C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|Z|1433; Redridge Mountains|N|Loot the necklace from the Glinting Mud at the bottom of the water.|CN|L|10958|
+C The Lost Tools|QID|125|M|36.51,54.70|Z|1433; Redridge Mountains|N|Loot the tools from the chest at the bottom of the lake.|L|1309|
+T The Lost Tools|QID|125|M|27.01,48.60|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
+T Hilary's Necklace|QID|3741|M|24.15,53.62|Z|1433; Redridge Mountains|N|To Hilary.|
+F Sentinel Hill|ACTIVE|132|M|25.50,59.41|Z|1433; Redridge Mountains|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|132|
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+T The Defias Brotherhood|QID|135|M|77.47,65.91;78.32,70.75|Z|1453; Stormwind City|N|To Master Mathias Shaw.|CS|
 A The Defias Brotherhood|QID|141|M|78.32,70.75|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-H Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|1453; Stormwind City|M|71.00,72.50|
+H Sentinel Hill|ACTIVE|141|M|71.00,72.50|Z|1453; Stormwind City|N|Fly or Hearth to Westfall|
 
 ; Westfall 18-20
-T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|Z|1436; Westfall|
-t The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|IZ|Sentinel Tower|
+T The Defias Brotherhood|QID|141|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|142|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle|PRE|141|
+t The Defias Brotherhood|QID|142|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|IZ|Sentinel Tower|
 
-A The People's Militia|QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|Z|1436; Westfall|
+A The People's Militia|QID|13|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|12|
 h Sentinel Hill|ACTIVE|142|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|C|Druid|
 
-C The Defias Brotherhood|QID|142|L|1381|S|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |Z|1436; Westfall|T|Defias Messenger|M|45.59,64.99|
-C Humble Beginnings|QID|399|M|36.25,54.50|Z|1436; Westfall|L|2998|N|Loot the Compass from the chest at this location.|
+C The Defias Brotherhood|QID|142|M|45.59,64.99|Z|1436; Westfall|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |L|1381|S|T|Defias Messenger|
+C Humble Beginnings|QID|399|M|36.25,54.50|Z|1436; Westfall|N|Loot the Compass from the chest at this location.|L|2998|
 A ... and that note you found|QID|79008|M|37.47,50.73|Z|1436; Westfall|N|From Burned-Out Remains. This starts the Sleeping bag quest line. Click the book to jump to its own guide, Or we will cover it as we come across it in the normal guides.|JUMP|SleepingBagA|RANK|3|
-l Hops|ACTIVE|116|M|44.40,38.87|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|Z|1436; Westfall|
-l Flasks of Oil|QID|103|M|44.40,38.87|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|Z|1436; Westfall|
+l Hops|ACTIVE|116|M|44.40,38.87|Z|1436; Westfall|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|L|1274 5|
+l Flasks of Oil|QID|103|M|44.40,38.87|Z|1436; Westfall|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|L|814 5|
 C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|S|
 C The People's Militia|QID|13|M|29.5,47.3|Z|1436; Westfall|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|US|
-T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|Z|1436; Westfall|
+T The People's Militia|QID|13|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A The People's Militia|QID|14|M|56.33,47.52|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|13|
 T The State of the Mines|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
 
 A Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
-R Moonbrook|ACTIVE|14|M|45.63,64.86|N|Run to Moonbrook.|CC|Z|1436; Westfall|
+R Moonbrook|ACTIVE|14|M|45.63,64.86|Z|1436; Westfall|N|Run to Moonbrook.|CC|
 C Moonbrook Espionage|QID|92747|M|44.39,68.09|Z|1436; Westfall|N|Grab the yellow chests from inside all the buildings.|
-C The People's Militia|QID|14|QO|1;2;3|S|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|Z|1436; Westfall|
-R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|Z|1436; Westfall|
-A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|Z|1436; Westfall|
-T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|Z|1436; Westfall|
-R Demont's Place|ACTIVE|14|M|36.62,77.04|N|Make your way down the hill to the open field below.|Z|1436; Westfall|
-C The People's Militia|QID|14|QO|1;2;3|US|N|Finish killing Defias Highwaymen, Pathstalkers and Knuckledusters. \n[color=FF0000]NOTE: [/color]Once you've cleared the groups in this area, head back up the hill to clear the ones on the other side of Dagger Hill. Path back and forth between the two areas until you are done.|Z|1436; Westfall|
-C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|Z|1436; Westfall|
-A Keeper of the Flame|QID|103|M|30.01,86.02|N|From Captain Grayson.|Z|1436; Westfall|
-A The Coast Isn't Clear|QID|152|M|30.01,86.02|N|From Captain Grayson.|Z|1436; Westfall|
-A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|Z|1436; Westfall|
-T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
-C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|S|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|1436; Westfall|
-C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|CN|QO|1|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|Z|1436; Westfall|
-C The Coast Isn't Clear|QID|152|M|34.60,84.9;27.1,52.6|QO|3;4|CN|US|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|Z|1436; Westfall|
-C The Coast Isn't Clear|QID|152|M|25.70,49.80;35.80,20.00|CN|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|Z|1436; Westfall|
-C The Coast Isn't Clear|QID|152|M|42.00,12.00;57.00,8.30|CN|QO|1|N|Coastrunners are found at the north end of Longshore.|Z|1436; Westfall|
+C The People's Militia|QID|14|QO|1;2;3|Z|1436; Westfall|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|S|
+R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|Z|1436; Westfall|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|CS|
+A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|Z|1436; Westfall|N|From Grimbooze Thunderbrew.|
+T Thunderbrew|QID|117|M|44.63,80.26|Z|1436; Westfall|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
+R Demont's Place|ACTIVE|14|M|36.62,77.04|Z|1436; Westfall|N|Make your way down the hill to the open field below.|
+C The People's Militia|QID|14|QO|1;2;3|Z|1436; Westfall|N|Finish killing Defias Highwaymen, Pathstalkers and Knuckledusters. \n[color=FF0000]NOTE: [/color]Once you've cleared the groups in this area, head back up the hill to clear the ones on the other side of Dagger Hill. Path back and forth between the two areas until you are done.|US|
+C Red Leather Bandanas|QID|153|M|37,81.87|Z|1436; Westfall|N|Continue killing defias mobs until you finish your bandana collection.|
+A Keeper of the Flame|QID|103|M|30.01,86.02|Z|1436; Westfall|N|From Captain Grayson.|
+A The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436; Westfall|N|From Captain Grayson.|
+A The Coastal Menace|QID|104|M|30.01,86.02|Z|1436; Westfall|N|From Captain Grayson.|
+T Keeper of the Flame|QID|103|M|30.01,86.02|Z|1436; Westfall|N|To Captain Grayson.|
+C The Coast Isn't Clear|QID|152|QO|3;4|M|34.60,84.9;27.1,52.6|Z|1436; Westfall|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|CN|S|
+C The Coastal Menace|QID|104|QO|1|M|35.23,85.47;26.34,66.12|Z|1436; Westfall|N|Old Murk-Eye pathes between the two points.|CN|T|Old Murk-Eye|
+C The Coast Isn't Clear|QID|152|QO|3;4|M|34.60,84.9;27.1,52.6|Z|1436; Westfall|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|CN|US|
+C The Coast Isn't Clear|QID|152|QO|2|M|25.70,49.80;35.80,20.00|Z|1436; Westfall|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|CN|
+C The Coast Isn't Clear|QID|152|QO|1|M|42.00,12.00;57.00,8.30|Z|1436; Westfall|N|Coastrunners are found at the north end of Longshore.|CN|
 
-A Captain Sander's Hidden Treasure|QID|136|O|U|1357|N|Start the quest from the map you looted.|Z|1436; Westfall|
-* Captain Sander's Hidden Treasure|QID|136|U|1357|N|Trash the item as it is no longer needed.|Z|1436; Westfall|
-T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|Z|1436; Westfall|
-A Captain Sander's Hidden Treasure|M|25.91,47.77|QID|138|N|From Captain Sander's Foot Locker.|PRE|136|Z|1436; Westfall|
-T Captain Sander's Hidden Treasure|M|40.51,47.80|QID|138|N|To A Broken Barrel, alongside the path near Alexston's farm.|Z|1436; Westfall|
-A Captain Sander's Hidden Treasure|M|40.51,47.80|QID|139|N|From A Broken Barrel.|PRE|138|Z|1436; Westfall|
-T Captain Sander's Hidden Treasure|M|40.63,17.03|QID|139|N|To Captain Sander's Jug, at the base of Windmill overlooking the coast.|Z|1436; Westfall|
-A Captain Sander's Hidden Treasure|M|40.63,17.03|QID|140|N|From Captain Sander's Jug.|PRE|139|Z|1436; Westfall|
-T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's Locked Chest, which requires swimming to an offshore island.|Z|1436; Westfall|
+A Captain Sander's Hidden Treasure|QID|136|Z|1436; Westfall|N|Start the quest from the map you looted.|O|U|1357|
+* Captain Sander's Hidden Treasure|QID|136|Z|1436; Westfall|N|Trash the item as it is no longer needed.|U|1357|
+T Captain Sander's Hidden Treasure|QID|136|M|25.91,47.77|Z|1436; Westfall|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
+A Captain Sander's Hidden Treasure|QID|138|M|25.91,47.77|Z|1436; Westfall|N|From Captain Sander's Foot Locker.|PRE|136|
+T Captain Sander's Hidden Treasure|QID|138|M|40.51,47.80|Z|1436; Westfall|N|To A Broken Barrel, alongside the path near Alexston's farm.|
+A Captain Sander's Hidden Treasure|QID|139|M|40.51,47.80|Z|1436; Westfall|N|From A Broken Barrel.|PRE|138|
+T Captain Sander's Hidden Treasure|QID|139|M|40.63,17.03|Z|1436; Westfall|N|To Captain Sander's Jug, at the base of Windmill overlooking the coast.|
+A Captain Sander's Hidden Treasure|QID|140|M|40.63,17.03|Z|1436; Westfall|N|From Captain Sander's Jug.|PRE|139|
+T Captain Sander's Hidden Treasure|QID|140|M|25.97,16.92|Z|1436; Westfall|N|To Captain Sander's Locked Chest, which requires swimming to an offshore island.|
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|1436; Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
-T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
-T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|Z|1436; Westfall|
-C The Defias Brotherhood|QID|142|L|1381|US|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|Z|1436; Westfall|T|Defias Messenger|
+T The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436; Westfall|N|To Captain Grayson.|
+T The Coastal Menace|QID|104|M|30.01,86.02|Z|1436; Westfall|N|To Captain Grayson.|
+C The Defias Brotherhood|QID|142|M|44.48,69.70|Z|1436; Westfall|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|L|1381|US|T|Defias Messenger|
 
-H Sentinel Hill|ACTIVE|14|M|52.90,53.63|N|Hearth or run back to Sentinel Hill|Z|1436; Westfall|
+H Sentinel Hill|ACTIVE|14|M|52.90,53.63|Z|1436; Westfall|N|Hearth or run back to Sentinel Hill|
 T Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
 A Explosive Consultation|QID|92748|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
 
-T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|Z|1436; Westfall|
-T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The Defias Brotherhood|QID|155|M|55.68,47.51|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|PRE|142|Z|1436; Westfall|
-C The Defias Brotherhood|QID|155|M|42.53,71.69|N|Escort the NPC to the end of Moonbrook. Do not let him die.|Z|1436; Westfall|
-T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|Z|1436; Westfall|DUNGEON|
-A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|Z|1436; Westfall|DUNGEON|
+T Red Leather Bandanas|QID|153|M|53.99,52.98|Z|1436; Westfall|N|To Scout Gillian.|
+T The People's Militia|QID|14|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+T The Defias Brotherhood|QID|142|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|155|M|55.68,47.51|Z|1436; Westfall|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|PRE|142|
+C The Defias Brotherhood|QID|155|M|42.53,71.69|Z|1436; Westfall|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
+T The Defias Brotherhood|QID|155|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|166|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|155|DUNGEON|
+A Red Silk Bandanas|QID|214|M|56.67,47.34|Z|1436; Westfall|N|From Scout Riell on top of the tower.|PRE|155|DUNGEON|
 
-F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|1436; Westfall|
+F Stormwind|ACTIVE|399|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind.|TZ|Stormwind City|
 T Humble Beginnings|QID|399|M|57.74,47.86|Z|1453; Stormwind City|N|To Baros Alexston.|
 A Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
 T Explosive Consultation|QID|92748|M|61.86,30.79|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
@@ -141,7 +141,7 @@ H Sentinel Hill|ACTIVE|92752|M|PLAYER|N|Make your way back to Westfall.|
 T Explosive Consultation|QID|92752|M|52.48,52.98|Z|1436; Westfall|N|To Alba Fairmoon.|
 A Destruction in Deadmines|QID|92753|M|52.48,52.98|Z|1436; Westfall|N|From Alba Fairmoon|DUNGEON|
 t Destruction in Deadmines|QID|92819|M|38.6,83.6|Z|1436; Westfall|N|To Alba Fairmoon|
-N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
+N The Deadmines|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|S|
 
 F Lakeshire|ACTIVE|116|M|71.29,72.23|Z|1453; Stormwind City|N|Fly to Redridge.|TZ|Redridge Mountains|
 ;if not done elwynn guide --
@@ -149,28 +149,28 @@ t Return to Verner|QID|119|M|25.88,47.27|Z|1433; Redridge Mountains|N|To Verner 
 t Messenger to Stormwind|QID|121|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|21.40,43.95|Z|1433; Redridge Mountains|N|To Barkeep Daniels.|
-L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
+L Level 20|N|Grind or run Deadmines until you are level 20|LVL|20|
 
 H Westfall|ACTIVE|166|N|Return to Westfall, fly if your hearthstone isn't ready.|
-t The Defias Brotherhood|QID|166|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
-A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|1436; Westfall|
-t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|1436; Westfall|
+t The Defias Brotherhood|QID|166|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+T Messenger to Westfall|QID|143|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
+A Messenger to Westfall|QID|144|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle|PRE|143|
+t Red Silk Bandanas|QID|214|M|56.67,47.34|Z|1436; Westfall|N|Scout Riell on top of the tower.|
 
-F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
+F Stormwind|AVAILABLE|343|M|56.55,52.65|Z|1436; Westfall|N|Guide begins with picking up a quest in Stormwind.|
 A Speaking of Fortitude|QID|343|M|55.04,54.15|Z|1453; Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|77.09,30.31|Z|1453; Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
-A Brother Paxton|QID|344|M|77.09,30.24|Z|1453; Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
+A Brother Paxton|QID|344|M|77.09,30.24|Z|1453; Stormwind City|N|From Brother Paxton.|PRE|343|LVL|20|
 h Stormwind City|ACTIVE|344|M|60.38,75.28|Z|1453; Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
 A Mathias and the Defias|QID|2360|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-F Sentinel Hill|ACTIVE|2360|N|Fly to Westfall|Z|1453; Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinel Hill|ACTIVE|2360|M|71.00,72.50|Z|1453; Stormwind City|N|Fly to Westfall|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|1436; Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
-C Klaven's Tower|QID|2359|M|70,75|Z|1436; Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
-C Klaven's Tower|QID|2359|M|70.4,73.93|Z|1436; Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
+C Klaven's Tower|QID|2359|QO|2|M|70,75|Z|1436; Westfall|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
+C Klaven's Tower|QID|2359|QO|1|M|70.4,73.93|Z|1436; Westfall|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
 F Stormwind City|QID|2359|M|56.55,52.65|Z|1436; Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
 T Klaven's Tower|QID|2359|M|78.48,70.71|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 A The Touch of Zanzil|QID|2607|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
@@ -179,47 +179,47 @@ A The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc M
 C The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
 T The Touch of Zanzil|QID|2608|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 A The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.72,71.24|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+C The Touch of Zanzil|QID|2609|M|50.63,60.34;64.72,71.24|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |CS|C|Rogue|
 T The Touch of Zanzil|QID|2609|M|80.03,70.09|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 ; Redridge 20-21
-R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|1453; Stormwind City|M|77.52,96.72|
+R Elwynn Forest|QID|344|M|77.52,96.72|Z|1453; Stormwind City|N|Go to Elwynn Forest.|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
 r Repair/Restock|QID|345|M|41.40,65.59|Z|1429; Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
-A A Watchful Eye|QID|94|Z|1429; Elwynn Forest|M|65.2,69.8|LVL|20|N|From Theocritus, at the top of the Tower of Azora.|
-R Redridge Mountains|AVAILABLE|89|N|Go to Redridge Mountains.|M|95.17,72.34|Z|1429; Elwynn Forest|
+A A Watchful Eye|QID|94|M|65.2,69.8|Z|1429; Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|LVL|20|
+R Redridge Mountains|AVAILABLE|89|M|95.17,72.34|Z|1429; Elwynn Forest|N|Go to Redridge Mountains.|
 
-A The Everstill Bridge|QID|89|M|27.05,48.64|N|From Foreman Oslow.|PRE|125|Z|1433; Redridge Mountains|
-T Ink Supplies|QID|345|M|27.11,48.60|N|To Foreman Oslow.|LVL|20|Z|1433; Redridge Mountains|
-A Rethban Ore|QID|347|M|27.05,48.64|N|From Foreman Oslow.|PRE|345|LVL|20|Z|1433; Redridge Mountains|
+A The Everstill Bridge|QID|89|M|27.05,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|PRE|125|
+T Ink Supplies|QID|345|M|27.11,48.60|Z|1433; Redridge Mountains|N|To Foreman Oslow.|LVL|20|
+A Rethban Ore|QID|347|M|27.05,48.64|Z|1433; Redridge Mountains|N|From Foreman Oslow.|PRE|345|LVL|20|
 t Messenger to Westfall|QID|144|M|24.90,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Darkshire|QID|145|M|24.90,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
-A Selling Fish|QID|127|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Murloc Poachers|QID|150|M|22.71,47.30|N|From Dockmaster Baren.|Z|1433; Redridge Mountains|
-A Redridge Goulash|QID|92|M|17.59,43.83|N|From Chef Breanna.|Z|1433; Redridge Mountains|
-A Underbelly Scales|QID|122|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-A A Baying of Gnolls|QID|124|PRE|119|M|25.87,47.27|N|From Verner Osgood.|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|25.87,47.27|S|N|Kill Black Dragon Whelps.|Z|1433; Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|S|N|Kill the tarantulas, and goretusks for the items required|Z|1433; Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|S|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
-C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
-C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
-C Selling Fish|QID|127|M|38.23,51.25|US|N|Kill Murlocs until you get the items for this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|35.64,37.79|S|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
-K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|N|Kill Brutes until you finish this quest.|Z|1433; Redridge Mountains|
-K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|N|Kill Gnolls until you finish this quest.|Z|1433; Redridge Mountains|
-C The Everstill Bridge|QID|89|M|35.64,37.79|US|N|Kill Gnolls until you get the items for this quest.|Z|1433; Redridge Mountains|
-C Rethban Ore|QID|347|M|14.81,34.65;15.31,27.80|CS|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|Z|1433; Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|QO|1;3|US|M|23.51,72.73|N|Collect any remaining items required from the tarantulas, and goretusks.|Z|1433; Redridge Mountains|
-C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|US|N|Kill the condors for the items required|Z|1433; Redridge Mountains|
-C Underbelly Scales|QID|122|M|37.91,31.60|CN|US|N|Collect any remaining underbelly scales from Black Dragon Whelps.|Z|1433; Redridge Mountains|
-T The Everstill Bridge|QID|89|M|27.05,48.64|N|To Foreman Oslow.|Z|1433; Redridge Mountains|
-T Underbelly Scales|QID|122|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T A Baying of Gnolls|QID|124|M|25.87,47.27|N|To Verner Osgood.|Z|1433; Redridge Mountains|
-T Selling Fish|QID|127|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Murloc Poachers|QID|150|M|22.71,47.30|N|To Dockmaster Baren.|Z|1433; Redridge Mountains|
-T Redridge Goulash|QID|92|M|17.59,43.83|N|To Chef Breanna.|Z|1433; Redridge Mountains|
+A Selling Fish|QID|127|M|22.71,47.30|Z|1433; Redridge Mountains|N|From Dockmaster Baren.|
+A Murloc Poachers|QID|150|M|22.71,47.30|Z|1433; Redridge Mountains|N|From Dockmaster Baren.|
+A Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|From Chef Breanna.|
+A Underbelly Scales|QID|122|M|25.87,47.27|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
+A A Baying of Gnolls|QID|124|M|25.87,47.27|Z|1433; Redridge Mountains|N|From Verner Osgood.|PRE|119|
+C Underbelly Scales|QID|122|M|25.87,47.27|Z|1433; Redridge Mountains|N|Kill Black Dragon Whelps.|S|
+C Redridge Goulash|QID|92|QO|1;3|M|23.51,72.73|Z|1433; Redridge Mountains|N|Kill the tarantulas, and goretusks for the items required|S|
+C Redridge Goulash|QID|92|QO|2|M|56.03,76.39|Z|1433; Redridge Mountains|N|Kill the condors for the items required|S|
+C Selling Fish|QID|127|M|38.23,51.25|Z|1433; Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|S|
+C Murloc Poachers|QID|150|M|40.00,45.00|Z|1433; Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|
+C Selling Fish|QID|127|M|38.23,51.25|Z|1433; Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|US|
+C The Everstill Bridge|QID|89|M|35.64,37.79|Z|1433; Redridge Mountains|N|Kill Gnolls until you get the items for this quest.|S|
+K Redridge Brute|QID|124|QO|1|M|26.60,38.20|Z|1433; Redridge Mountains|N|Kill Brutes until you finish this quest.|
+K Redridge Mystic|QID|124|QO|2|M|35.00,39.40|Z|1433; Redridge Mountains|N|Kill Gnolls until you finish this quest.|
+C The Everstill Bridge|QID|89|M|35.64,37.79|Z|1433; Redridge Mountains|N|Kill Gnolls until you get the items for this quest.|US|
+C Rethban Ore|QID|347|M|14.81,34.65;15.31,27.80|Z|1433; Redridge Mountains|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|CS|
+C Redridge Goulash|QID|92|QO|1;3|M|23.51,72.73|Z|1433; Redridge Mountains|N|Collect any remaining items required from the tarantulas, and goretusks.|US|
+C Redridge Goulash|QID|92|QO|2|M|56.03,76.39|Z|1433; Redridge Mountains|N|Kill the condors for the items required|US|
+C Underbelly Scales|QID|122|M|37.91,31.60|Z|1433; Redridge Mountains|N|Collect any remaining underbelly scales from Black Dragon Whelps.|CN|US|
+T The Everstill Bridge|QID|89|M|27.05,48.64|Z|1433; Redridge Mountains|N|To Foreman Oslow.|
+T Underbelly Scales|QID|122|M|25.87,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+T A Baying of Gnolls|QID|124|M|25.87,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|
+T Selling Fish|QID|127|M|22.71,47.30|Z|1433; Redridge Mountains|N|To Dockmaster Baren.|
+T Murloc Poachers|QID|150|M|22.71,47.30|Z|1433; Redridge Mountains|N|To Dockmaster Baren.|
+T Redridge Goulash|QID|92|M|17.59,43.83|Z|1433; Redridge Mountains|N|To Chef Breanna.|
 
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
@@ -234,61 +234,65 @@ A Return to Kristoff|QID|346|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Pa
 = Train|ACTIVE|346|M|42.39,81.24|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
 = Train|ACTIVE|346|M|78.68,67.64|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
 T Return to Kristoff|QID|346|M|55.11,54.30|Z|1453; Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
-F Darkshire|ACTIVE|145|M|67.84,72.61;71.29,72.23|CS|Z|1453; Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
-F Lakeshire|AVAILABLE|163|M|67.84,72.61;71.29,72.23|CS|Z|1453; Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
-R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
+F Darkshire|ACTIVE|145|M|67.84,72.61;71.29,72.23|Z|1453; Stormwind City|N|Fly to Darkshire, Duskwood.|CS|TAXI|Darkshire|
+F Lakeshire|AVAILABLE|163|M|67.84,72.61;71.29,72.23|Z|1453; Stormwind City|N|Fly to Lakeshire.|CS|TAXI|-Darkshire|
+R Duskwood|ACTIVE|145|M|6.39,91.51|Z|1433; Redridge Mountains|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|1431; Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
 
 ; Duskwood 21-22
-h Darkshire|QID|163|M|73.90,44.40|N|Set your home location to Darkshire.|Z|1431; Duskwood|
-t Messenger to Darkshire|QID|145|M|71.93,46.43|N|To Lord Ello Ebonlocke.|Z|1431; Duskwood|
-A Messenger to Darkshire|QID|146|M|71.93,46.43|N|From Lord Ello Ebonlocke.|PRE|145|Z|1431; Duskwood|
-A Raven Hill|QID|163|M|75.33,48.71|N|From Elaine Carevin.|Z|1431; Duskwood|
-A Deliveries to Sven|QID|164|M|75.33,48.71|N|From Elaine Carevin.|Z|1431; Duskwood|
-A The Hermit|QID|165|M|75.33,48.71|N|From Elaine Carevin.|Z|1431; Duskwood|
-A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|CS|N|Follow the road to Watcher Dodds, who sometimes is dead and needs to respawn.|Z|1431; Duskwood|
-T Raven Hill|QID|163|M|18.33,56.24|N|Follow the road, turn in to Jitters.|Z|1431; Duskwood|
-A Jitters' Growling Gut|QID|5|M|18.33,56.24|N|From Jitters.|PRE|163|Z|1431; Duskwood|
-C Eight-Legged Menaces|QID|245|M|9.7,55.9|S|N|Kill Pygmy Venom Web Spiders on sight; they are near the water on the west and north coast. Keep any Gooey Spider Legs you find, you will need them later.|Z|1431; Duskwood|
-T Deliveries to Sven|QID|164|M|7.79,34.12|N|To Sven Yorgen.|Z|1431; Duskwood|
-A Sven's Revenge|QID|95|M|7.79,34.12|N|From Sven Yorgen.|Z|1431; Duskwood|
-A Wolves at Our Heels|QID|226|M|7.73,33.26|N|From Lars.|Z|1431; Duskwood|
-C Wolves at Our Heels|QID|226|M|15.1,27.2|S|N|Kill Starving Dire Wolves and Rabid Dire Wolves on sight. Keep any lean wolf flank you find.|Z|1431; Duskwood|
-T The Hermit|QID|165|M|28.11,31.47|N|To Abercrombie.|Z|1431; Duskwood|
-A Supplies from Darkshire|QID|148|M|28.11,31.47|N|From Abercrombie.|PRE|165|Z|1431; Duskwood|
-C Wolves at Our Heels|QID|226|M|42.7,20;17,25|CN|US|N|Kill the rest of the wolves for this quest.|Z|1431; Duskwood|
-T Wolves at Our Heels|QID|226|M|7.73,33.26|N|To Lars.|Z|1431; Duskwood|
-C Eight-Legged Menaces|QID|245|M|12,49|US|N|Kill all the spiders in this area, even the other kinds of spiders. Keep on killing them until you finish this quest.|Z|1431; Duskwood|
-K Gooey Spider Leg|QID|93|M|12,49|N|Kill any spiders around until you get 6 Gooey Spider Legs.|L|2251 6|Z|1431; Duskwood|
-T Eight-Legged Menaces|QID|245|M|21.37,60;45.12,67.02|CS|N|Get back on the road and then go turn in to Watcher Dodds.|Z|1431; Duskwood|
-H Darkshire|ACTIVE|5|M|73.95,44.48|CC|N|Hearth or Run back to Darkshire.|Z|1431; Duskwood|
-T Jitters' Growling Gut|QID|5|M|73.77,43.51|N|To Chef Graul at the Inn.|Z|1431; Duskwood|
-A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul.|PRE|5|Z|1431; Duskwood|
-T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul. Don't get the follow-up for now.|Z|1431; Duskwood|
-T Supplies from Darkshire|QID|148|M|75.77,45.29|N|To Madame Eva.|Z|1431; Duskwood|
-A Ghost Hair Thread|QID|149|M|75.77,45.29|N|From Madame Eva.|PRE|148|Z|1431; Duskwood|
-A The Night Watch|QID|56|M|73.56,46.86|N|From Commander Althea Ebonlocke.|Z|1431; Duskwood|
-T Ghost Hair Thread|QID|149|M|81.9,59.3|N|To Blind Mary.|Z|1431; Duskwood|
-A Return the Comb|QID|154|M|81.9,59.3|N|From Blind Mary.|PRE|149|Z|1431; Duskwood|
-C The Night Watch|QID|56|M|79,70|N|Kill mobs here until you finish this quest.|Z|1431; Duskwood|
-T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|Z|1431; Duskwood|
-T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|1431; Duskwood|
+h Darkshire|QID|163|M|73.90,44.40|Z|1431; Duskwood|N|Set your home location to Darkshire.|
+t Messenger to Darkshire|QID|145|M|71.93,46.43|Z|1431; Duskwood|N|To Lord Ello Ebonlocke.|
+A Messenger to Darkshire|QID|146|M|71.93,46.43|Z|1431; Duskwood|N|From Lord Ello Ebonlocke.|PRE|145|
+A Raven Hill|QID|163|M|75.33,48.71|Z|1431; Duskwood|N|From Elaine Carevin.|
+A Deliveries to Sven|QID|164|M|75.33,48.71|Z|1431; Duskwood|N|From Elaine Carevin.|
+A The Hermit|QID|165|M|75.33,48.71|Z|1431; Duskwood|N|From Elaine Carevin.|
+A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|Z|1431; Duskwood|N|Follow the road to Watcher Dodds, who sometimes is dead and needs to respawn.|CS|
+T Raven Hill|QID|163|M|18.33,56.24|Z|1431; Duskwood|N|Follow the road, turn in to Jitters.|
+A Jitters' Growling Gut|QID|5|M|18.33,56.24|Z|1431; Duskwood|N|From Jitters.|PRE|163|
+C Eight-Legged Menaces|QID|245|M|9.7,55.9|Z|1431; Duskwood|N|Kill Pygmy Venom Web Spiders on sight; they are near the water on the west and north coast. Keep any Gooey Spider Legs you find, you will need them later.|S|
+T Deliveries to Sven|QID|164|M|7.79,34.12|Z|1431; Duskwood|N|To Sven Yorgen.|
+A Sven's Revenge|QID|95|M|7.79,34.12|Z|1431; Duskwood|N|From Sven Yorgen.|
+A Wolves at Our Heels|QID|226|M|7.73,33.26|Z|1431; Duskwood|N|From Lars.|
+C Wolves at Our Heels|QID|226|M|15.1,27.2|Z|1431; Duskwood|N|Kill Starving Dire Wolves and Rabid Dire Wolves on sight. Keep any lean wolf flank you find.|S|
+T The Hermit|QID|165|M|28.11,31.47|Z|1431; Duskwood|N|To Abercrombie.|
+A Supplies from Darkshire|QID|148|M|28.11,31.47|Z|1431; Duskwood|N|From Abercrombie.|PRE|165|
+l Ira's Dagger|AVAILABLE|96137|M|PLAYER|Z|1431; Duskwood|N|Find and kill a Lost Stalker rogue mob. Then loot the dagger.|L|281143|S!US|T|Lost Stalker|
+A Ira's Dagger|QID|96137|M|PLAYER|N|Use the dagger you just received.|U|281143|O|
+C Wolves at Our Heels|QID|226|M|42.7,20;17,25|Z|1431; Duskwood|N|Kill the rest of the wolves for this quest.|CN|US|
+T Wolves at Our Heels|QID|226|M|7.73,33.26|Z|1431; Duskwood|N|To Lars.|
+C Eight-Legged Menaces|QID|245|M|12,49|Z|1431; Duskwood|N|Kill all the spiders in this area, even the other kinds of spiders. Keep on killing them until you finish this quest.|US|
+l Gooey Spider Leg|AVAILABLE|93|M|12,49|Z|1431; Duskwood|N|Kill any spiders around until you get 6 Gooey Spider Legs.|L|2251 6|
+T Eight-Legged Menaces|QID|245|M|21.37,60;45.12,67.02|Z|1431; Duskwood|N|Get back on the road and then go turn in to Watcher Dodds.|CS|
+H Darkshire|ACTIVE|5|M|73.95,44.48|Z|1431; Duskwood|N|Hearth or Run back to Darkshire.|CC|
+T Jitters' Growling Gut|QID|5|M|73.77,43.51|Z|1431; Duskwood|N|To Chef Graul at the Inn.|
+A Dusky Crab Cakes|QID|93|M|73.77,43.51|Z|1431; Duskwood|N|From Chef Graul.|PRE|5|
+T Dusky Crab Cakes|QID|93|M|73.77,43.51|Z|1431; Duskwood|N|To Chef Graul. Don't get the follow-up for now.|
+T Supplies from Darkshire|QID|148|M|75.77,45.29|Z|1431; Duskwood|N|To Madame Eva.|
+A Ghost Hair Thread|QID|149|M|75.77,45.29|Z|1431; Duskwood|N|From Madame Eva.|PRE|148|
+A The Night Watch|QID|56|M|73.56,46.86|Z|1431; Duskwood|N|From Commander Althea Ebonlocke.|
+T Ghost Hair Thread|QID|149|M|81.9,59.3|Z|1431; Duskwood|N|To Blind Mary.|
+A Return the Comb|QID|154|M|81.9,59.3|Z|1431; Duskwood|N|From Blind Mary.|PRE|149|
+l Grant's Shield|AVAILABLE|79362|M|77.69,70.21|Z|1431; Duskwood|N|Kill the Lost Knight and loot the shield.|L|281147|S!US|
+A Grant's Shield|QID|79362|M|PLAYER|N|Accept the quest from the shield.|U|281147|O|
+C The Night Watch|QID|56|M|79,70|Z|1431; Duskwood|N|Kill mobs here until you finish this quest.|
+T The Night Watch|QID|56|M|73.56,46.86|Z|1431; Duskwood|N|To Commander Althea Ebonlocke.|
+T Return the Comb|QID|154|M|75.77,45.29|Z|1431; Duskwood|N|To Madame Eva.|
 
-F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50,44.30|Z|1431; Duskwood|
+F Stormwind City|AVAILABLE|3765|M|77.50,44.30|Z|1431; Duskwood|N|Fly to Stormwind|
 T Underground Assault|QID|2040|M|62.63,34.12|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
-T Oh Brother. . .|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
+T Oh Brother...|QID|167|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 T Collecting Memories|QID|168|M|70.31,40.82|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 A The Corruption Abroad|QID|3765|M|36.24,67.60|Z|1453; Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 
 A Mathias and the Defias|QID|2360|M|78.48,70.71|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 
-A The Tome of Valor|QID|1793|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1793|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|LEAD|1649|C|Paladin|
 T The Tome of Valor|QID|1793|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Valor|QID|1649|C|Paladin|U|6776|N|Click the Tome to get the follow up quest.|PRE|1793|
+A The Tome of Valor|QID|1649|N|Click the Tome to get the follow up quest.|PRE|1793|C|Paladin|U|6776|
 T The Tome of Valor|QID|1649|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Tome of Valor|QID|1650|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
-T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
+R Westfall|ACTIVE|1650|M|41.6,88.6|Z|1436; Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
@@ -297,9 +301,9 @@ A The Tome of Valor|QID|1652|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell
 T The Tome of Valor|QID|1652|M|50.63,47.49|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|50.63,47.49|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 
-N Sell junk and repair|AVAILABLE|1078|S|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|
-A Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|To Collin Mauren.|
-R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|72.68,48.81|Z|1453; Stormwind City|
+N Sell junk and repair|AVAILABLE|1078|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|S|
+A Retrieval for Mauren|QID|1078|M|53.01,86.60|Z|1453; Stormwind City|N|From Collin Mauren.|
+R Deeprun Tram|AVAILABLE|288|M|66.21,34.34|Z|1453; Stormwind City|N|Run to the Deeprun Tram|
 R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455; Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|DUNGEON|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|1426; Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
@@ -308,70 +312,72 @@ A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|1426; Dun Morogh|N|From Jorda
 ; Wetlands 22-23
 F Menethil Harbor|AVAILABLE|288|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|1455; Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
-R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25,0.20|Z|1432;Loch Modan|TAXI|-Menethil Harbor|
-C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
+A Report to Mountaineer Rockgar|QID|468|LEAD|455|M|36.72,42.05|Z|1432; Loch Modan|N|From Mountaineer Kadrell.|TAXI|-Menethil Harbor|
+T Report to Mountaineer Rockgar|QID|468|M|25.5,10.5|Z|1432; Loch Modan|N|To Mountaineer Rockgar.|TAXI|-Menethil Harbor|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432; Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
+R Wetlands|AVAILABLE|455|M|25.25,0.20|Z|1432; Loch Modan|N|Go through the tunnel to Wetlands|TAXI|-Menethil Harbor|
+C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|Z|1437; Wetlands|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|
+A Daily Delivery|QID|469|M|50,39.5|Z|1437; Wetlands|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|Z|1437; Wetlands|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|
+T Daily Delivery|QID|469|M|8.49,55.7|Z|1437; Wetlands|N|To James Halloran.|TAXI|-Menethil Harbor|
 
-A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|Z|1437; Wetlands|
-A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|Z|1437; Wetlands|
-f Menethil Harbor|AVAILABLE|463|N|Get the flight path.|M|9.50,59.70|TAXI|-Menethil Harbor|Z|1437; Wetlands|
-A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|1437; Wetlands|
-A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|1437; Wetlands|
-h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|1437; Wetlands|
-B Flagon of Dwarven Honeymead|ACTIVE|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|1437; Wetlands|
+A Young Crocolisk Skins|QID|484|M|8.49,55.7|Z|1437; Wetlands|N|From James Halloran.|
+A Claws from the Deep|QID|279|M|8.33,58.52|Z|1437; Wetlands|N|From Karl Boran.|
+f Menethil Harbor|AVAILABLE|463|M|9.50,59.70|Z|1437; Wetlands|N|Get the flight path.|TAXI|-Menethil Harbor|
+A The Greenwarden|QID|463|M|10.9,59.66|Z|1437; Wetlands|N|From First Mate Fitzsimmons.|
+A The Third Fleet|QID|288|M|10.9,59.66|Z|1437; Wetlands|N|From First Mate Fitzsimmons.|
+h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|Z|1437; Wetlands|N|Make Deepwater Tavern your home location.|
+B Flagon of Dwarven Honeymead|ACTIVE|288|M|10.7,60.96|Z|1437; Wetlands|N|Buy a Flagon of Dwarven honeymead from Innkeeper Helbrek. Hint: It's on the second page.|L|2594|
 A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|1437; Wetlands|N|From Archaeologist Flagongut.|PRE|942|
-T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|1437; Wetlands|
-A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|1437; Wetlands|
-A In Search of The Excavation Team|QID|305|M|11.5,52.16|N|From Tarrel Rockweaver.|Z|1437; Wetlands|
-C Young Crocolisk Skins|QID|484|M|51.00,36.00|S|N|Kill and loot Young Wetlands Crocolisks.|Z|1437; Wetlands|
-C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|Z|1437; Wetlands|
-C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|Z|1437; Wetlands|
-C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|Z|1437; Wetlands|
-C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|Z|1437; Wetlands|
-A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|CC|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|Z|1437; Wetlands|
-T In Search of The Excavation Team|QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|Z|1437; Wetlands|
-A In Search of The Excavation Team|QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|Z|1437; Wetlands|
-C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|Z|1437; Wetlands|
-T The Greenwarden|QID|463|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
-A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|Z|1437; Wetlands|
-C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|Z|1437; Wetlands|
-R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|1437; Wetlands|N|Run to the Dun Algaz tunnnel entrance|
-R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|1437; Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
-f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|1432;Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|
-C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|Z|1437; Wetlands|
-C The Algaz Gauntlet|QID|455|QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|Z|1437; Wetlands|
-T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
-L Level 23|AVAILABLE|277|LVL|23|S|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind.|
-A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|Z|1437; Wetlands|
-C Digging Through the Ooze|QID|470|M|44.00,24.00|US|N|Kill black oozes until you get Sida's Bag|Z|1437; Wetlands|
-C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CN|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|Z|1437; Wetlands|
-T Fire Taboo|QID|277|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
-A Blisters on The Land|QID|275|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|277|Z|1437; Wetlands|
-C Young Crocolisk Skins|QID|484|M|51.00,36.00|US|N|Kill and loot Young Wetlands Crocolisks.|Z|1437; Wetlands|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|Z|1437; Wetlands|
-C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors outside the excavation site until you complete this quest.|Z|1437; Wetlands|
-C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|Z|1437; Wetlands|
-C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|Z|1437; Wetlands|
-T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid.|Z|1437; Wetlands|
-A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|1437; Wetlands|
-H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|N|Hearth or Run back to town.|Z|1437; Wetlands|
-T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|1437; Wetlands|N|From Archaeologist Flagongut.|
-T Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|1437; Wetlands|
-T In Search of The Excavation Team|QID|306|M|11.5,52.16|N|To Tarrel Rockweaver.|Z|1437; Wetlands|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|Z|1437; Wetlands|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
-T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
-T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|1437; Wetlands|
+T The Third Fleet|QID|288|M|10.9,59.66|Z|1437; Wetlands|N|To First Mate Fitzsimmons.|
+A Digging Through the Ooze|QID|470|M|11.8,58|Z|1437; Wetlands|N|From Sida.|
+A In Search of the Excavation Team|QID|305|M|11.5,52.16|Z|1437; Wetlands|N|From Tarrel Rockweaver.|
+C Young Crocolisk Skins|QID|484|M|51.00,36.00|Z|1437; Wetlands|N|Kill and loot Young Wetlands Crocolisks.|S|
+C Claws from the Deep|QID|279|QO|1|M|20,40.6|Z|1437; Wetlands|N|Kill Bluegill Murlocs.|S|
+C Gobbler's Head|QID|279|QO|2|M|18.10,40.10|Z|1437; Wetlands|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|
+C Claws from the Deep|QID|279|QO|1|M|20,40.6|Z|1437; Wetlands|N|Kill Bluegill Murlocs.|US|
+C Digging Through the Ooze|QID|470|M|44.00,24.00|Z|1437; Wetlands|N|Kill black oozes until you get Sida's Bag|S|
+A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|Z|1437; Wetlands|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|CC|
+T In Search of the Excavation Team|QID|305|M|38.91,52.34|Z|1437; Wetlands|N|To Merrin Rockweaver.|
+A In Search of the Excavation Team|QID|306|M|38.91,52.34|Z|1437; Wetlands|N|From Merrin Rockweaver.|PRE|305|
+C The Absent Minded Prospector|QID|943|QO|2|M|38.86,52.2|Z|1437; Wetlands|N|Loot the Fossil on the ground in front of the dwarves.|
+T The Greenwarden|QID|463|M|56.34,40.41|Z|1437; Wetlands|N|To Rethiel the Greenwarden.|
+A Tramping Paws|QID|276|M|56.34,40.41|Z|1437; Wetlands|N|From Rethiel the Greenwarden.|PRE|463|
+C Tramping Paws|QID|276|M|62.00,70.00|Z|1437; Wetlands|N|Kill the mobs needed for this quest.|
+R Dun Algaz|AVAILABLE|455|M|54.00,70.50|Z|1437; Wetlands|N|Run to the Dun Algaz tunnel entrance|CS|
+R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|Z|1437; Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|CS|
+f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|1432; Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432; Loch Modan|N|From Mountaineer Rockgar.|
+C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|Z|1437; Wetlands|N|Go to the orc camp and kill the orcs needed for the quest.|
+C The Algaz Gauntlet|QID|455|QO|3|M|54.00,70.50|Z|1437; Wetlands|N|Go back to the tunnel and continue down the path until you complete this quest.|
+T Tramping Paws|QID|276|M|56.34,40.41|Z|1437; Wetlands|N|To Rethiel the Greenwarden.|
+L Level 23|AVAILABLE|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind.|LVL|23|S|
+A Fire Taboo|QID|277|M|56.34,40.41|Z|1437; Wetlands|N|From Rethiel the Greenwarden.|PRE|276|
+C Digging Through the Ooze|QID|470|M|44.00,24.00|Z|1437; Wetlands|N|Kill black oozes until you get Sida's Bag|US|
+C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|Z|1437; Wetlands|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|CN|
+T Fire Taboo|QID|277|M|56.34,40.41|Z|1437; Wetlands|N|To Rethiel the Greenwarden.|
+A Blisters on the Land|QID|275|M|56.34,40.41|Z|1437; Wetlands|N|From Rethiel the Greenwarden.|PRE|277|
+C Young Crocolisk Skins|QID|484|M|51.00,36.00|Z|1437; Wetlands|N|Kill and loot Young Wetlands Crocolisks.|US|
+A Daily Delivery|QID|469|M|50,39.5|Z|1437; Wetlands|N|From Einar Stonegrip.|
+C Ormer's Revenge|QID|294|M|28.8,43.4|Z|1437; Wetlands|N|Kill raptors outside the excavation site until you complete this quest.|S|
+C The Absent Minded Prospector|QID|943|QO|1|M|28.8,43.4|Z|1437; Wetlands|N|Kill Raptors for the Stone.|
+C Ormer's Revenge|QID|294|M|24.3,52.5|Z|1437; Wetlands|N|Kill raptors until you complete this quest.|US|
+T Ormer's Revenge|QID|294|M|38.07,51.18|Z|1437; Wetlands|N|Back up the ramp in the excavation site to Ormer Ironbraid.|
+A Ormer's Revenge|QID|295|M|38.1,51.2|Z|1437; Wetlands|N|From Ormer Ironbraid.|PRE|294|
+H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|Z|1437; Wetlands|N|Hearth or Run back to town.|
+T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|1437; Wetlands|N|To Archaeologist Flagongut.|
+T Digging Through the Ooze|QID|470|M|11.8,58|Z|1437; Wetlands|N|To Sida.|
+T In Search of the Excavation Team|QID|306|M|11.5,52.16|Z|1437; Wetlands|N|To Tarrel Rockweaver.|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|Z|1437; Wetlands|N|To Valstag Ironjaw.|
+T Daily Delivery|QID|469|M|8.49,55.7|Z|1437; Wetlands|N|To James Halloran.|
+T Young Crocolisk Skins|QID|484|M|8.49,55.7|Z|1437; Wetlands|N|To James Halloran.|
+T Claws from the Deep|QID|279|M|8.33,58.52|Z|1437; Wetlands|N|To Karl Boran.|
 
 ; Ashenvale 23-25
-b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|1437; Wetlands|
-T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|1439; Darkshore|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|1439; Darkshore|DUNGEON|
-f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|1439; Darkshore|
+b Darkshore|AVAILABLE|1008|M|4.61,57.07|Z|1437; Wetlands|N|Take Boat to Auberdine.|
+T The Corruption Abroad|QID|3765|M|38.33,43.04|Z|1439; Darkshore|N|To Gershala Nightwhisper.|
+A Researching the Corruption|QID|1275|M|38.33,43.04|Z|1439; Darkshore|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|DUNGEON|
+f Auberdine|QID|965|M|36.34,45.58|Z|1439; Darkshore|N|Get the flightpath.|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|1439; Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
 F Rut'theran Village|AVAILABLE|1198|M|36.34,45.58|Z|1439; Darkshore|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|R|NightElf|
 R Darnassus|AVAILABLE|1198|M|55.88,89.55|Z|1438; Teldrassil|N|Take the teleporter to Darnassus. Train your skills, sell and repair, and pick up the BFD quests.|LVL|20|
@@ -387,113 +393,113 @@ C The Tower of Althalaxx|QID|966|M|55.41,26.86|Z|1439; Darkshore|N|Do not enter 
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|Z|1439; Darkshore|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|M|54.9,24.9|Z|1439; Darkshore|N|From Balthule Shadowstrike.|PRE|966|
 A The Sleeper Has Awakened|QID|5321|M|44.39,76.43|Z|1439; Darkshore|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
-C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|Z|1439; Darkshore|QO|1|N|Loot the Horn of awakening from the box on the ground|
-C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440; Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
+C The Sleeper Has Awakened|QID|5321|QO|1|M|44.38,76.31|Z|1439; Darkshore|N|Loot the Horn of awakening from the box on the ground|
+C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440; Ashenvale|N|Escort Kerlonian, use the horn if he falls asleep.|U|13536|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|1440; Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
-F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|36.37,45.55|Z|1439; Darkshore|TAXI|Astranaar|
-f Astranaar|N|Get the flight path.|M|34.39,48.03|TAXI|-Astranaar|Z|1440; Ashenvale|
+F Astranaar|AVAILABLE|1008|M|36.37,45.55|Z|1439; Darkshore|N|Fly to Astranaar|TAXI|Astranaar|
+f Astranaar|M|34.39,48.03|Z|1440; Ashenvale|N|Get the flight path.|TAXI|-Astranaar|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|1440; Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
-A Raene's Cleansing|QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|1440; Ashenvale|
-h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|991|M|36.6,49.6|Z|1440; Ashenvale|N|From Raene Wolfrunner|
+h Astranaar|QID|991|M|36.97,49.26|Z|1440; Ashenvale|N|Make Astranaar your home location.|
 A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|967|
-A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|Z|1440; Ashenvale|
+A Bathran's Hair|QID|1010|M|26.4,38.6|Z|1440; Ashenvale|N|From Orendil Broadleaf.|
 C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|1440; Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
 C Bathran's Hair|QID|1010|M|31.4,23.3|Z|1440; Ashenvale|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
 T Bathran's Hair|QID|1010|M|26.4,38.6|Z|1440; Ashenvale|N|To Orendil Broadleaf.|
 A Orendil's Cure|QID|1020|M|26.4,38.6|Z|1440; Ashenvale|N|From Orendil Broadleaf.|PRE|1010|
 T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|970|
-T Raene's Cleansing|QID|991|M|20.3,42.3|N|To Teronis' Corpse beware of the murlocs around.|Z|1440; Ashenvale|
-A Raene's Cleansing|QID|1023|M|20.3,42.3|N|From Teronis' Corpse.|PRE|991|Z|1440; Ashenvale|
-C Raene's Cleansing|QID|1023|M|20.30,44.40|N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.|Z|1440; Ashenvale|
-A The Ancient Statuette|QID|1007|M|14.80,31.29|N|From Talen near the Zoram Strand.|Z|1440; Ashenvale|
-C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|S|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
-C The Ancient Statuette|QID|1007|M|14.21,20.64|N|Loot the ancient statuette.|Z|1440; Ashenvale|
-T The Ancient Statuette|QID|1007|M|14.80,31.29|N|To Talen.|Z|1440; Ashenvale|
-A Ruuzel|QID|1009|M|14.80,31.29|LVL|20|N|From Talen.|PRE|1007|Z|1440; Ashenvale|
-C Ruuzel|QID|1009|M|6.58,13.57|N|Find Ruuzel patrolling around the island|T|Ruuzel|Z|1440; Ashenvale|
-C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|US|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
-T Ruuzel|QID|1009|M|14.80,31.29|N|To Talen.|Z|1440; Ashenvale|
-H Astranaar|QID|1023|M|34.68,48.84|N|Hearth or Run back to Astranaar.|Z|1440; Ashenvale|
-T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up yet|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|991|M|20.3,42.3|Z|1440; Ashenvale|N|To Teronis' Corpse beware of the murlocs around.|
+A Raene's Cleansing|QID|1023|M|20.3,42.3|Z|1440; Ashenvale|N|From Teronis' Corpse.|PRE|991|
+C Raene's Cleansing|QID|1023|M|20.30,44.40|Z|1440; Ashenvale|N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.|
+A The Ancient Statuette|QID|1007|M|14.80,31.29|Z|1440; Ashenvale|N|From Talen near the Zoram Strand.|
+C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|S|
+C The Ancient Statuette|QID|1007|M|14.21,20.64|Z|1440; Ashenvale|N|Loot the ancient statuette.|
+T The Ancient Statuette|QID|1007|M|14.80,31.29|Z|1440; Ashenvale|N|To Talen.|
+A Ruuzel|QID|1009|M|14.80,31.29|Z|1440; Ashenvale|N|From Talen.|LVL|20|PRE|1007|
+C Ruuzel|QID|1009|M|6.58,13.57|Z|1440; Ashenvale|N|Find Ruuzel patrolling around the island|T|Ruuzel|
+C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|US|
+T Ruuzel|QID|1009|M|14.80,31.29|Z|1440; Ashenvale|N|To Talen.|
+H Astranaar|QID|1023|M|34.68,48.84|Z|1440; Ashenvale|N|Hearth or Run back to Astranaar.|
+T Raene's Cleansing|QID|1023|M|36.6,49.6|Z|1440; Ashenvale|N|To Raene Wolfrunner. Don't get follow up yet|
 T The Zoram Strand|QID|1008|M|34.68,48.84|Z|1440; Ashenvale|N|To Shindrell Swiftfire.|
 A Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|1440; Ashenvale|N|From Shindrell Swiftfire.|PRE|1008|
 A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|1440; Ashenvale|N|From Sentinel Thenysil.|
 A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|1440; Ashenvale|N|From Faldreas Goeth'Shael.|
 * Teronis' Journal|QID|1070|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|U|5505|
-T Orendil's Cure|QID|1020|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
-A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|Z|1440; Ashenvale|
+T Orendil's Cure|QID|1020|M|37.36,51.79|Z|1440; Ashenvale|N|To Pelturas Whitemoon.|
+A Elune's Tear|QID|1033|M|37.36,51.79|Z|1440; Ashenvale|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|
 
-R Stonetalon Mountains|QID|1070|CS|M|37.50,60.80;42.3,71.09|Z|1440; Ashenvale|N|Head to the Stonetalon cave.|
-R Windshear Crag|ACTIVE|1070|M|76,46.21|Z|1442; Stonetalon Mountains|N|Follow the path with lanterns throught the cave.|
+R Stonetalon Mountains|QID|1070|M|37.50,60.80;42.3,71.09|Z|1440; Ashenvale|N|Head to the Stonetalon cave.|CS|
+R Windshear Crag|ACTIVE|1070|M|76,46.21|Z|1442; Stonetalon Mountains|N|Follow the path with lanterns through the cave.|
 A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks.|
-T On Guard in Stonetalon|QID|1070|M|60.50,70.00;58.80,68.20;59.90,66.84|CS|Z|1442; Stonetalon Mountains|N|Follow the path around the hill up to the camp. Turn in the quest to Kaela Shadowspear.|
+T On Guard in Stonetalon|QID|1070|M|60.50,70.00;58.80,68.20;59.90,66.84|Z|1442; Stonetalon Mountains|N|Follow the path around the hill up to the camp. Turn in the quest to Kaela Shadowspear.|CS|
 A On Guard in Stonetalon|QID|1085|M|59.90,66.84|Z|1442; Stonetalon Mountains|N|From Kaela Shadowspear.|
 T On Guard in Stonetalon|QID|1085|M|59.52,67.14|Z|1442; Stonetalon Mountains|N|To Gaxim Rustfizzle.|
 A A Gnome's Respite|QID|1071|M|59.52,67.14|Z|1442; Stonetalon Mountains|N|From Gaxim Rustfizzle.|PRE|1085|
-C Pridewings of Stonetalon|QID|1134|M|55,63|Z|1442; Stonetalon Mountains|S|N|Kill Pridewing Wyverns as you go.|
-C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|1442; Stonetalon Mountains|S|N|Kill Venture co. Operators until you get the blueprints needed for Super Reaper 6000.|
+C Pridewings of Stonetalon|QID|1134|M|55,63|Z|1442; Stonetalon Mountains|N|Kill Pridewing Wyverns as you go.|S|
+C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|1442; Stonetalon Mountains|N|Kill Venture co. Operators until you get the blueprints needed for Super Reaper 6000.|S|
 C A Gnome's Respite|QID|1071|M|69.5,54.5|Z|1442; Stonetalon Mountains|N|Kill Loggers and Deforesters around the area.|
-C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|1442; Stonetalon Mountains|US|N|If for some reason you still haven't found it, keep killing Venture Co. until drops.|
+C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|1442; Stonetalon Mountains|N|If for some reason you still haven't found it, keep killing Venture Co. until drops.|US|
 T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|1442; Stonetalon Mountains|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|59.0,62.6|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks.|PRE|1093|
 T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|1442; Stonetalon Mountains|N|To Gaxim Rustfizzle back at the camp around the hill.|
 A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|1442; Stonetalon Mountains|N|From Gaxim Rustfizzle.|PRE|1071|
-C Pridewings of Stonetalon|QID|1134|M|50.43,45.78|Z|1442; Stonetalon Mountains|US|N|Kill Pridewing Wyverns to finish this up.|
+C Pridewings of Stonetalon|QID|1134|M|50.43,45.78|Z|1442; Stonetalon Mountains|N|Kill Pridewing Wyverns to finish this up.|US|
 T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|1442; Stonetalon Mountains|N|To Keeper Albagorm.|
 A Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|1442; Stonetalon Mountains|N|From Keeper Albagorm.|
 f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|1442; Stonetalon Mountains|N|Grab the flightpath from Teloren|
-R The Charred Vale|QID|1057|M|43.50,16.30;42.50,42.40;38.40,42.90;34.10,61.40|CS|Z|1442; Stonetalon Mountains|N|Run south to the Chared Vale|
-C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442; Stonetalon Mountains|S|N|Kill Harpys in the area.|
+R The Charred Vale|QID|1057|M|43.50,16.30;42.50,42.40;38.40,42.90;34.10,61.40|Z|1442; Stonetalon Mountains|N|Run south to the Charred Vale|CS|
+C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442; Stonetalon Mountains|N|Kill Harpys in the area.|S|
 C Retrieval for Mauren|QID|1078|M|34,65|Z|1442; Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
-C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442; Stonetalon Mountains|US|N|Kill Harpys in the area.|
+C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442; Stonetalon Mountains|N|Kill Harpys in the area.|US|
 R Desolace|QID|1057|M|28.00,84.00|Z|1442; Stonetalon Mountains|N|Run through the Charred Vale to get to Desolace. This will come in handy in the next guide.|
-R Nijel's Point FP|QID|1057|M|56.57,13.37;67.00,16.00|CC|Z|1443; Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|
-f Nijel's Point|QID|1437|M|64.66,10.54|Z|1443; Desolace|N|Get the flight path.|
+R Nijel's Point FP|QID|1057|M|56.57,13.37;67.00,16.00|Z|1443; Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|CC|
+f Nijel's Point|QID|1057|M|64.66,10.54|Z|1443; Desolace|N|Get the flight path.|
 F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|1443; Desolace|N|Fly back to Stonetalon Peak.|
 T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|1442; Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
 
 F Astranaar|QID|1134|M|36.44,7.18|Z|1442; Stonetalon Mountains|N|Fly back to Astranaar.|
 T Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|1440; Ashenvale|N|To Shindrell Swiftfire.|
-A An Aggressive Defense|QID|1025|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|1440; Ashenvale|
-A Culling the Threat|QID|1054|M|36.6,49.6|N|From Raene Wolfrunner|Z|1440; Ashenvale|
-C Culling the Threat|QID|1054|M|35.3,32.4|N|Kill Dal Bloodclaw and loot his skull. He wanders between the camps.|T|Dal Bloodclaw|Z|1440; Ashenvale|
-C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot an Elune's Tear from the island.|Z|1440; Ashenvale|
-R Astranaar|QID|1020|M|34.68,48.84|N|Run back to Astranaar.|Z|1440; Ashenvale|
-T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
-A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|1440; Ashenvale|
-T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|1440; Ashenvale|
-N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|1440; Ashenvale|
-N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|1440; Ashenvale|
-R Silverwind Refuge|AVAILABLE|1016|M|43.10,62.81;49.79,67.21|CS|N|Run to Silverwind Refuge|Z|1440; Ashenvale|
-A Elemental Bracers|QID|1016|M|49.79,67.21|N|From Sentinel Velene Starstrike.|Z|1440; Ashenvale|
-l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|Z|1440; Ashenvale|
-U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|Z|1440; Ashenvale|
-T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|Z|1440; Ashenvale|
-A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|Z|1440; Ashenvale|
-B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|1440; Ashenvale|
-C An Aggressive Defense|QID|1025|M|50.00,61.00|N|Kill mobs until you finish this quest.|Z|1440; Ashenvale|
+A An Aggressive Defense|QID|1025|M|36.6,49.6|Z|1440; Ashenvale|N|From Raene Wolfrunner.|PRE|1023|
+A Culling the Threat|QID|1054|M|36.6,49.6|Z|1440; Ashenvale|N|From Raene Wolfrunner|
+C Culling the Threat|QID|1054|M|35.3,32.4|Z|1440; Ashenvale|N|Kill Dal Bloodclaw and loot his skull. He wanders between the camps.|T|Dal Bloodclaw|
+C Elune's Tear|QID|1033|M|46.71,46.58|Z|1440; Ashenvale|N|Loot an Elune's Tear from the island.|
+R Astranaar|QID|1033|M|34.68,48.84|Z|1440; Ashenvale|N|Run back to Astranaar.|
+T Elune's Tear|QID|1033|M|37.36,51.79|Z|1440; Ashenvale|N|To Pelturas Whitemoon.|
+A The Ruins of Stardust|QID|1034|M|37.4,51.8|Z|1440; Ashenvale|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|
+T Culling the Threat|QID|1054|M|36.6,49.6|Z|1440; Ashenvale|N|To Raene Wolfrunner.|
+N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|Z|1440; Ashenvale|N|Close this step when you're done.|
+N Dungeon Group|QID|1198|Z|1440; Ashenvale|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|
+R Silverwind Refuge|AVAILABLE|1016|M|43.10,62.81;49.79,67.21|Z|1440; Ashenvale|N|Run to Silverwind Refuge|CS|
+A Elemental Bracers|QID|1016|M|49.79,67.21|Z|1440; Ashenvale|N|From Sentinel Velene Starstrike.|
+l Elemental Bracers|QID|1016|M|50.28,69.90|Z|1440; Ashenvale|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|L|12220 5|
+U Divined Scroll|QID|1016|Z|1440; Ashenvale|N|Use the Divined Scroll.|U|5456|L|5455|
+T Elemental Bracers|QID|1016|M|49.79,67.21|Z|1440; Ashenvale|N|To Sentinel Velene Starstrike.|
+A Mage Summoner|QID|1017|M|49.79,67.21|Z|1440; Ashenvale|N|From Sentinel Velene Starstrike.|PRE|1016|
+B Expert Cooking|QID|1025|M|49.48,67.07|Z|1440; Ashenvale|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|
+C An Aggressive Defense|QID|1025|M|50.00,61.00|Z|1440; Ashenvale|N|Kill mobs until you finish this quest.|
 
-R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|CS|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|Z|1440; Ashenvale|
-R Climb Dreadmist Peak|QID|1094|M|48.90,5.30;47.30,16.00;47.40,18.75|CS|Z|1413; The Barrens|N|When entering The Barrens head to the left of the horde outpost to avoid the PvP Guards, then take the path up Dreadmist Peak|
+R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|Z|1440; Ashenvale|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|CS|
+R Climb Dreadmist Peak|QID|1094|M|48.90,5.30;47.30,16.00;47.40,18.75|Z|1413; The Barrens|N|When entering The Barrens head to the left of the horde outpost to avoid the PvP Guards, then take the path up Dreadmist Peak|CS|
 C Mage Summoner|QID|1017|M|48.22,19.14|Z|1413; The Barrens|N|Run up the cliff on the left side of the cave and kill Sarilus Foulborne to loot his head.|
-R Ratchet|QID|1094|M|58.70,25.00;62.98,37.22|CS|Z|1413; The Barrens|N|Run down the south side of the mountain and then around the left side of the next mountain to Rachet.|
+R Ratchet|QID|1094|M|58.70,25.00;62.98,37.22|Z|1413; The Barrens|N|Run down the south side of the mountain and then around the left side of the next mountain to Rachet.|CS|
 T Further Instructions|QID|1094|M|62.98,37.22|Z|1413; The Barrens|N|To Sputtervalve. Don't get follow up.|
 f Ratchet|QID|1017|M|63.09,37.16|Z|1413; The Barrens|N|Grab the Ratchet flightpoint from Bragok.|
-H Astranaar|AVAILABLE|1026|M|34.68,48.84|N|Hearth or fly back to Astranaar.|Z|1440; Ashenvale|
-A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|1440; Ashenvale|
-T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.|Z|1440; Ashenvale|
-R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|1440; Ashenvale|
-T Raene's Cleansing|QID|1024|M|53.5,46.3|N|To Shael'dryn.|Z|1440; Ashenvale|
-A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|Z|1440; Ashenvale|
-T Mage Summoner|QID|1017|M|49.79,67.21|N|To Sentinel Velene Starstrike at Mystral Lake.|Z|1440; Ashenvale|
-C The Ruins of Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that have sparkles.|Z|1440; Ashenvale|
-C The Tower of Althalaxx|QID|973|M|25.2,60.6|N|From Delgren the Purifier.|Z|1440; Ashenvale|
+H Astranaar|AVAILABLE|1026|M|34.68,48.84|Z|1440; Ashenvale|N|Hearth or fly back to Astranaar.|
+A Raene's Cleansing|QID|1024|M|36.6,49.6|Z|1440; Ashenvale|N|From Raene Wolfrunner.|PRE|1023|
+T An Aggressive Defense|QID|1025|M|36.6,49.6|Z|1440; Ashenvale|N|To Raene Wolfrunner.|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|Z|1440; Ashenvale|N|Head to Moonwell to turn in Raene's Cleansing|CS|
+T Raene's Cleansing|QID|1024|M|53.5,46.3|Z|1440; Ashenvale|N|To Shael'dryn.|
+A Raene's Cleansing|QID|1026|M|53.5,46.3|Z|1440; Ashenvale|N|From Shael'dryn.|PRE|1024|
+T Mage Summoner|QID|1017|M|49.79,67.21|Z|1440; Ashenvale|N|To Sentinel Velene Starstrike at Mystral Lake.|
+C The Ruins of Stardust|QID|1034|M|33.9,66.6|Z|1440; Ashenvale|N|Loot from big white bushes that have sparkles.|
+C The Tower of Althalaxx|QID|973|M|25.2,60.6|Z|1440; Ashenvale|N|From Delgren the Purifier.|
 T The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|973|
-A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|1440; Ashenvale|
-T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
+A The Howling Vale|QID|1022|M|22.24,52.98|Z|1440; Ashenvale|N|From Sentinel Melyria Frostshadow.|
+T The Ruins of Stardust|QID|1034|M|37.36,51.79|Z|1440; Ashenvale|N|To Pelturas Whitemoon.|
 N BFD Dungeon|QID|1198|N|Last Chance to do BFD before we leave. Time to head to wetlands and gain a couple levels.|
 ]]
 end)

@@ -310,10 +310,13 @@ C In Defense of the King's Lands|QID|224|M|33.00,73.00|Z|1432;Loch Modan|N|Kill 
 T The Trogg Threat|QID|267|N|To Captain Ruglefuss inside the bunker at Valley of Kings.|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|1432;Loch Modan|N|From Mountaineer Cobbleflint, outside|
 A In Defense of the King's Lands|QID|237|M|23.53,76.40|Z|1432;Loch Modan|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|PRE|224|
-C In Defense of the King's Lands|QID|237|M|35.50,79.60|Z|1432;Loch Modan|N|Kill Skullthumpers and Seers until you finish the quest.|
+C In Defense of the King's Lands|QID|237|M|35.50,79.60|Z|1432;Loch Modan|N|Kill Skullthumpers and Seers until you finish the quest.|S|
+A Banner of the Fallen|QID|86585|M|31.78,86.27|Z|1432; Loch Modan|N|From a dead dwarf, if you are in the first cove, come out go left and up and around.|
+C Banner of the Fallen|QID|86585|M|31.78,86.27|Z|1432; Loch Modan|N|Theres gunna be 3 waves of mobs, progressivly harder. then Skullsplitter.|U|253247|
+C In Defense of the King's Lands|QID|237|M|35.50,79.60|Z|1432;Loch Modan|N|Kill Skullthumpers and Seers until you finish the quest.|S|
 T In Defense of the King's Lands|QID|237|M|23.53,76.40|Z|1432;Loch Modan|N|To Mountaineer Gravelgaw.|
 A In Defense of the King's Lands|QID|263|M|23.47,74.49|Z|1432;Loch Modan|N|From Mountaineer Wallbang.|PRE|237|
-
+T Banner of the Fallen|QID|86585|M|23.23,73.75|Z|1432; Loch Modan|N|To Captain Rugelfuss.|
 R Ironband's Excavation Site|QID|436|M|60.37,65.11|Z|1432;Loch Modan|N|Run to Ironband's Excavation Site.|
 T Ironband's Excavation|QID|436|M|64.89,66.66|Z|1432;Loch Modan|N|To Magmar Fellhew.|
 A Excavation Progress Report|QID|298|M|65.94,65.62|Z|1432;Loch Modan|N|From Prospector Ironband.|
