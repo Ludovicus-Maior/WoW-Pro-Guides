@@ -464,18 +464,45 @@ function WoWPro.Recorder.PostGuideLoad()
     end)
 end
 
+function WoWPro.Recorder:GetSelectedStep()
+    local total = WoWPro.stepcount or 0
+
+    if total == 0 then
+        self.SelectedStep = nil
+        return nil
+    end
+
+    local function IsValid(index)
+        return type(index) == "number"
+            and index == math.floor(index)
+            and index >= 1
+            and index <= total
+            and WoWPro.step
+            and WoWPro.step[index]
+    end
+
+    if IsValid(self.SelectedStep) then
+        return self.SelectedStep
+    end
+
+    if IsValid(WoWPro.ActiveStep) then
+        self.SelectedStep = WoWPro.ActiveStep
+    else
+        self.SelectedStep = total
+    end
+
+    return self.SelectedStep
+end
+
 function WoWPro.Recorder.PostUpdateGuide()
     WoWPro.Recorder:CustomizeFrames()
-    if not WoWPro.Recorder.SelectedStep then
-        if WoWPro.ActiveStep then
-            WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
-            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at ActiveStep.", WoWPro.ActiveStep)
-        else
-            WoWPro.Recorder.SelectedStep = WoWPro.stepcount
-            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at EOG.", WoWPro.stepcount)
-        end
-    else
-        WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
+
+    local pos = WoWPro.Recorder:GetSelectedStep()
+
+    if pos then
+        WoWPro.Recorder:dbp(
+            "PostUpdateGuide(): Selected step %d.", pos
+        )
     end
 end
 
@@ -869,21 +896,32 @@ local dropdown = {
 }
 
 function WoWPro.Recorder:RowUpdate(offset)
-    WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
-    WoWPro.Recorder.RowDropdownMenu = {}
-    for i,row in pairs(WoWPro.rows) do
-        WoWPro.Recorder.RowDropdownMenu[i] = dropdown
-        if WoWPro.Recorder.SelectedStep == row.index then
-            row:SetChecked(true)
-        else
-            row:SetChecked(false)
-        end
+    local selected = self:GetSelectedStep()
+
+    self.RowDropdownMenu = {}
+
+    for i, row in pairs(WoWPro.rows) do
+        self.RowDropdownMenu[i] = dropdown
+
+        row:SetChecked(
+            selected ~= nil and selected == row.index
+        )
     end
 end
 
 function WoWPro.Recorder:RowLeftClick(i)
-    WoWPro.Recorder.SelectedStep = WoWPro.rows[i].index
-    WoWPro.Recorder:RowUpdate(true)
+    local row = WoWPro.rows[i]
+
+    if not row or not row.index then
+        return
+    end
+
+    if row.index < 1 or row.index > WoWPro.stepcount then
+        return
+    end
+
+    self.SelectedStep = row.index
+    self:RowUpdate(true)
 end
 
 function WoWPro.Recorder.AddStep(stepInfo, position)
@@ -902,11 +940,12 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
         stepInfo.step = "?"
     end
 
-    local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-    if pos > WoWPro.stepcount then
-        pos = WoWPro.stepcount
-    end
+    local pos = position
+     or WoWPro.Recorder:GetSelectedStep()
+        or WoWPro.stepcount
+        or 0
 
+    pos = math.max(0, math.min(pos, WoWPro.stepcount))
     pos = pos + 1
     WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
     for key, tag in pairs(WoWPro.Tags) do
@@ -924,11 +963,7 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
     end
 
     WoWPro.stepcount = WoWPro.stepcount + 1
-    if WoWPro.Recorder.SelectedStep then
-        WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
-    else
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount
-    end
+    WoWPro.Recorder.SelectedStep = pos
 
     local line = WoWPro.EmitSafeStep(pos)
     line = line:gsub("%%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
@@ -962,10 +997,13 @@ function WoWPro.Recorder:RemoveStep(position)
     end
 
     WoWPro.stepcount = WoWPro.stepcount - 1
-    if position then
-        WoWPro.Recorder.SelectedStep = max(position - 1, 1)
+
+    if WoWPro.stepcount > 0 then
+     WoWPro.Recorder.SelectedStep = math.max(
+        1, math.min(pos - 1, WoWPro.stepcount)
+    )
     else
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount
+     WoWPro.Recorder.SelectedStep = nil
     end
 
     WoWPro.Recorder:CheckpointCurrentGuide("RemoveStep")

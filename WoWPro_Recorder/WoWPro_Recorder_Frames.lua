@@ -12,7 +12,7 @@ local dialog = _G.LibStub("AceConfigDialog-3.0")
 local initSpecs = {}
 
 local function RecorderSelectedOrActiveStep()
-    return WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep or 1
+    return WoWPro.Recorder:GetSelectedStep()
 end
 
 local function BuildCurrentGuideStepList()
@@ -430,7 +430,12 @@ local function CreateGuideLineFrame(parent, reorderButton)
         local index = RecorderSelectedOrActiveStep()
         local total = WoWPro.stepcount or 0
         local line, caption
-        if not WoWPro.GuideLoaded or not guide or not WoWPro.Guides[guide] or index < 1 or index > total then
+        if not WoWPro.GuideLoaded
+        or not guide
+        or not WoWPro.Guides[guide]
+        or not index
+        or index < 1
+        or index > total then
             caption = "No guide step selected"
             line = ""
         else
@@ -1379,36 +1384,46 @@ local function CreateStepEditorFrame(editOptions)
         frame.categoryButtons[categoryKey] = button
     end
     frame:SetScript("OnShow", function(self)
-        local index = RecorderSelectedOrActiveStep()
-        if not WoWPro.step[index] then
-            WoWPro:Error("Select a guide step before opening the editor.")
-            self:Hide()
-            return
-        end
-        WoWPro.Recorder.SelectedStep = index
-        WoWPro.Recorder.EditGoToStep = index
-        self.currentStep = index
-        self.currentGuide = WoWProDB.char.currentguide
-        CustomizeRecorderDialog(self)
-        BuildCategories()
-        self:ShowCategory(self.category or "general")
+    local index = RecorderSelectedOrActiveStep()
+
+    if not index then
+        WoWPro:Error("The current guide has no available steps to edit.")
+        self:Hide()
+        return
+    end
+
+    WoWPro.Recorder.SelectedStep = index
+    WoWPro.Recorder.EditGoToStep = index
+
+    self.currentStep = index
+    self.currentGuide = WoWProDB.char.currentguide
+
+    CustomizeRecorderDialog(self)
+    BuildCategories()
+    self:ShowCategory(self.category or "general")
     end)
     frame:SetScript("OnUpdate", function(self)
         local index = RecorderSelectedOrActiveStep()
         local guide = WoWProDB.char.currentguide
-        if index ~= self.currentStep or guide ~= self.currentGuide then
-            if not WoWPro.step[index] then
-                WoWPro:Error("The selected guide step is no longer available.")
-                self:Hide()
-                return
-            end
-            WoWPro.Recorder.SelectedStep = index
+
+        if not index then
+            WoWPro:Error("The selected guide step is no longer available.")
+            self:Hide()
+            return
+        end
+
+        if index ~= self.currentStep
+            or guide ~= self.currentGuide then
+
+         WoWPro.Recorder.SelectedStep = index
             WoWPro.Recorder.EditGoToStep = index
+
             self.currentStep = index
             self.currentGuide = guide
-            self:ShowCategory(self.category)
+
+            self:ShowCategory(self.category or "general")
         end
-    end)
+    end)    
     WoWPro.Recorder.EditStepFrame = frame
     return frame
 end
@@ -1972,7 +1987,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     name = function()
                         local guideId = WoWProDB and WoWProDB.char and WoWProDB.char.currentguide or "Unknown"
                         local total = WoWPro.stepcount or 0
-                        return string.format("Guide: %s\nSteps: %d\nSelected: %d\n", guideId, total, RecorderSelectedOrActiveStep())
+                        return string.format("Guide: %s\nSteps: %d\nSelected: %s\n",guideId,total,tostring(RecorderSelectedOrActiveStep() or "None"))
                     end,
                     width = "full",
                 },
@@ -2142,10 +2157,11 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     desc = "Insert your current location and zone",
                     func = function(info,val)
                             local x, y = WoWPro:GetPlayerZonePosition()
-                            local zonetag = WoWPro.GetZoneText()
-                            local GID = WoWProDB.char.currentguide
-                            if zonetag == WoWPro.Guides[GID].zone then
-                                zonetag = nil
+                            local zoneName, mapID = WoWPro.GetZoneText()
+                            local zonetag
+                            zoneName = zoneName:match("^[^!]+") or zoneName
+                            if mapID and zoneName then
+                                zonetag = ("%04d; %s"):format(mapID, zoneName)
                             end
                             local mapxy = nil
                             if x and y then
