@@ -8,7 +8,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|8325|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
 A Reclaiming Sunstrider Isle|QID|8325|M|61.03,45.15|Z|467; Sunstrider Isle|N|From Magistrix Erona.|R|BloodElf|
-K Reclaiming Sunstrider Isle|QID|8325|M|59.77,54.64|Z|467; Sunstrider Isle|N|Slay Mana Wyrms|R|BloodElf|
+C Reclaiming Sunstrider Isle|QID|8325|M|59.77,54.64|Z|467; Sunstrider Isle|N|Slay Mana Wyrms|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|61.03,45.12|Z|467; Sunstrider Isle|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|PRE|8325|M|61.03,45.12|Z|467; Sunstrider Isle|N|From Magistrix Erona.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|67.15,36.49|Z|467; Sunstrider Isle|N|Slay and loot Lynx for collars.|R|BloodElf|NC|
@@ -32,12 +32,12 @@ T Solanian's Belongings|QID|37443|M|63.96,42.80|Z|467; The Sunspire|N|To Well Wa
 T A Fistful of Slivers|QID|37440|M|61.82,39.36|Z|467; Sunstrider Isle|N|To Arcanist Ithanas.|R|BloodElf|
 T Thirst Unending|QID|37439|M|58.46,38.79|Z|467; Sunstrider Isle|N|To Arcanist Helion.|R|BloodElf|
 A Aggression|QID|8334|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
-K Aggression|QID|8334|M|42.71,46.74|Z|467; Sunstrider Isle|N|Feral Tender slain.|R|BloodElf|
-K Aggression|QID|8334|M|41.76,50.89|Z|467; Sunstrider Isle|N|Tender slain.|R|BloodElf|
+C Aggression|QID|8334|M|42.71,46.74|Z|467; Sunstrider Isle|N|Feral Tender slain.|R|BloodElf|
+C Aggression|QID|8334|M|41.76,50.89|Z|467; Sunstrider Isle|N|Tender slain.|R|BloodElf|
 A Felendren the Banished|QID|8335|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
-K Felendren the Banished|QID|8335|M|42.38,71.54|Z|467; Sunstrider Isle|N|Arcane Wraith slain.|R|BloodElf|
+C Felendren the Banished|QID|8335|M|42.38,71.54|Z|467; Sunstrider Isle|N|Arcane Wraith slain.|R|BloodElf|
 A Tainted Arcane Sliver|QID|8338|PRE|37442&37443&37440&37439|M|41.57,71.01|Z|467; Sunstrider Isle|R|BloodElf|
-K Felendren the Banished|QID|8335|M|39.69,65.47|Z|467; Sunstrider Isle|N|Tainted Arcane Wraith slain.|R|BloodElf|
+C Felendren the Banished|QID|8335|M|39.69,65.47|Z|467; Sunstrider Isle|N|Tainted Arcane Wraith slain.|R|BloodElf|
 C Felendren the Banished|QID|8335|M|38.48,65.17|Z|467; Sunstrider Isle|N|Felendren's Head.|R|BloodElf|NC|
 A Aiding the Outrunners|QID|8347|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|58.45,38.80|Z|467; Sunstrider Isle|N|To Arcanist Helion.|R|BloodElf|
