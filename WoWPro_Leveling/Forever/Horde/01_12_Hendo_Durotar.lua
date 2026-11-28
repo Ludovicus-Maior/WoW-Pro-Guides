@@ -204,9 +204,8 @@ A A Missing Hand |QID|99048|M|52.2,43.2|Z|1411; Durotar|N|To Orgnil Soulscar.
 A Threat From Below|QID|99049|M|58.60,45.60|Z|1411; Durotar|N|From Heglan Shadeeye.
 C Threat From Below|QID|99049|M|58.86,44.38;60.04,42.39;60.12,44.76|CN|Z|1411; Durotar|L|286012 1;286011 1;286010 1|ITEM|286012|N|Orcish Dagger at 58.86,44.38, Banner Scrap at 60.04,42.39, Broken Bone Trident at 60.12,44.76.|
 T Threat From Below|QID|99049|M|52.20,43.20|Z|1411; Durotar|N|To Orgnil Soulscar.|
-A Threat From Below|QID|99909|PRE|99049|M|52.20,43.20|Z|1411; Durotar|N|From Orgnil Soulscar.\n[color=FF8800]TODO: [/color]Real QID; follow-up objectives/turn-in steps not written yet.|
+A Threat From Below|QID|99051|PRE|99049|M|52.20,43.20|Z|1411; Durotar|N|From Orgnil Soulscar.\n[color=FF8800]TODO: [/color]Real QID; follow-up objectives/turn-in steps not written yet.|
 r Repair/Restock|ACTIVE|786|M|51.90,41.14|Z|1411; Durotar|N|At Wuark.|
-
 
 K Ukor's Bane|ACTIVE|2161|M|50.60,56.40|Z|1411; Durotar|N|OPTIONAL: Ukor's Bane is a level 8 elite. Get help if you need it.\n[color=FF0000]NOTE: [/color]Skip this step if you wish.|T|Ukor's Bane|
 A Ukor's Lost Pack|QID|96876|M|50.60,56.40|Z|1411; Durotar|L|275722|ITEM|275722|N|Loot Ukor's Lost Pack from Ukor's Bane to start this quest. It's a 100% drop.\n[color=FF8800]TODO: [/color]This step only works if Ukor's Bane really is at 50.6, 56.4. Earlier notes put her through a mountain path northeast of the Den - send her coords and I'll split the kill into its own step.|O|
@@ -252,10 +251,7 @@ T Winds in the Desert|QID|834|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.|
 A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|Z|1411; Durotar|N|From Rezlak.|
 C Securing the Lines|QID|835|QO|1;2|M|53.99,27.78|Z|1411; Durotar|N|Kill Dustwind Storm Witches and Savages.\n[color=FF0000]NOTE: [/color]Drop off the ledge and work your way through the Ravine.\nGoing to the right of the fork leads to a dead end.|
 
-
 ; Dull storm orb
-
-
 T Securing the Lines|QID|835|M|46.37,22.94|Z|1411; Durotar|N|To Rezlak.\n[color=FF0000]NOTE: [/color]Going to the left is the fastest way out to the road.|
 
 A Stormy Potential

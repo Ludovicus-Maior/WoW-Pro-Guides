@@ -20,11 +20,28 @@ C Murloc Gills|QID|92744|M|54.51,11.10|Z|1436; Westfall|N|Kill Murlocs along the
 C Testing the Wells|QID|92742|QO|2|M|46.2,38.5|Z|1436; Westfall|N|Use the Sample Kit at the farm.|U|254545|
 T Testing the Wells|QID|92742|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
 T Murloc Gills|QID|92744|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
-
-
-
-
-
+A The State of the Mines|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+C The State of the Mines|QID|92745|QO|1|M|45.6,20.8|Z|1436; Westfall|N|Murder Kobold Diggers.|
+C The State of the Mines|QID|92745|QO|2|M|29.5,47.3|Z|1436; Westfall|N|Murder Riverpaw Miners.|
+T The State of the Mines|QID|92745|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+A Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+C Moonbrook Espionage|QID|92747|M|44.39,68.09|Z|1436; Westfall|N|Grab the yellow chests from inside all the buildings.|
+T Moonbrook Espionage|QID|92747|M|52.51,53.05|Z|1436; Westfall|N|To Alba Fairmoon.|
+A Explosive Consultation|QID|92748|M|52.51,53.05|Z|1436; Westfall|N|From Alba Fairmoon.|
+F Stormwind|ACTIVE|92748|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|1436; Westfall|
+T Explosive Consultation|QID|92748|M|61.86,30.79|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+A A Dynamite Plan|QID|92749|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+A Detonation at a Distance|QID|92750|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+T Detonation at a Distance|QID|92750|M|80.20,70.09|Z|1453; Stormwind City|N|To Jasper Fel.|
+A Detonation at a Distance|QID|92751|M|80.20,70.09|Z|1453; Stormwind City|N|From Jasper Fel.|
+B Rough Dynamite|ACTIVE|92749|QO|1|M|61.16,71.17|Z|1453; Stormwind City|N|Buy Beg Borrow or steal.|
+T Detonation at a Distance|QID|92751|M|61.87,30.71|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+T A Dynamite Plan|QID|92749|M|61.87,30.71|Z|1453; Stormwind City|N|To Sprite Jumpsprocket.|
+A Explosive Consultation|QID|92752|M|61.86,30.79|Z|1453; Stormwind City|N|From Sprite Jumpsprocket.|
+H Sentinel Hill|ACTIVE|92752|M|PLAYER|N|Make your way back to Westfall.|
+T Explosive Consultation|QID|92752|M|52.48,52.98|Z|1436; Westfall|N|To Alba Fairmoon.|
+A Destruction in Deadmines|QID|92753|M|52.48,52.98|Z|1436; Westfall|N|From Alba Fairmoon|
+t Destruction in Deadmines|QID|92819|M|38.6,83.6|Z|1436; Westfall|N|To Alba Fairmoon|
 
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 T The Defias Brotherhood|QID|65|M|21.41,45.30|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|

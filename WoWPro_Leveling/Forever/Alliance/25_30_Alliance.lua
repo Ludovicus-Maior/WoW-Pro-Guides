@@ -28,9 +28,9 @@ T The Search Continues|QID|284|M|13.61,38.21|N|To the Sealed Barrel.|Z|1437; Wet
 A Search More Hovels|QID|285|M|13.61,38.21|N|From the Sealed Barrel.|PRE|284|Z|1437; Wetlands|
 T Search More Hovels|QID|285|M|13.94,34.81|N|To the Half-buried Barrel.|Z|1437; Wetlands|
 A Return the Statuette|QID|286|M|13.94,34.81|N|From the Half-buried Barrel.|PRE|285|Z|1437; Wetlands|
-C Blisters on The Land|QID|275|M|20.25,32.1|S|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
+C Blisters on the Land|QID|275|M|20.25,32.1|S|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
 C Apprentice's Duties|QID|471|M|28.3,19.7|N|Kill Giant Wetlands Crocolisks.|Z|1437; Wetlands|
-C Blisters on The Land|QID|275|M|20.25,32.1|US|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
+C Blisters on the Land|QID|275|M|20.25,32.1|US|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
 A Uncovering the Past|QID|299|M|34,41;37,43.6;38.81,52.38|CS|N|From Prospector Whelgar.|Z|1437; Wetlands|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|1437; Wetlands|
 C Ormer's Revenge|QID|295|M|35.00,48.00|S|N|Kill the Raptors needed for this quest.|Z|1437; Wetlands|
@@ -47,7 +47,7 @@ T Uncovering the Past|QID|299|M|38.81,52.38|N|To Prospector Whelgar.|Z|1437; Wet
 C Ormer's Revenge|QID|296|M|33.17,51.40|N|Kill Sarltooth at this location.|Z|1437; Wetlands|
 T Ormer's Revenge|QID|296|M|38.1,51.1|N|To Ormer Ironbraid.|Z|1437; Wetlands|
 C War Banners|QID|464|M|43,42|N|Kill the orc mobs here until you get all the banners you need.|Z|1437; Wetlands|
-T Blisters on The Land|QID|275|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
+T Blisters on the Land|QID|275|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
 H Deepwater Tavern|QID|464|N|Hearth or run back to town.|
 T War Banners|QID|464|M|9.86,57.48|N|To Captain Stoutfist on the 2nd floor of the keep.|Z|1437; Wetlands|
 T Apprentice's Duties|QID|471|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
