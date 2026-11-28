@@ -7,46 +7,40 @@ WoWPro:GuideNextGuide(guide, 'Ghostlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|8325|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
-A Reclaiming Sunstrider Isle|QID|8325|M|60.95,45.22|Z|0094; Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-K Reclaiming Sunstrider Isle|ACTIVE|8325|QO|1|M|51.01,41.96|Z|0094; Eversong Woods|N|Slay Mana Wyrms.|R|BloodElf|
-T Reclaiming Sunstrider Isle|QID|8325|M|61.04,45.13|Z|0094; Eversong Woods|N|To Magistrix Erona.|R|BloodElf|
-A Unfortunate Measures|QID|8326|PRE|8325|M|61.04,45.13|Z|0094; Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-l Unfortunate Measures|ACTIVE|8326|QO|1|M|67.18,32.63|Z|0094; Eversong Woods|N|Slay and loot Lynx for collars.|R|BloodElf|
-T Unfortunate Measures|QID|8326|M|61.12,45.11|Z|0094; Eversong Woods|N|To Magistrix Erona.|R|BloodElf|
-A Report to Lanthan Perilon|QID|8327|PRE|8326|M|61.12,45.11|Z|0094; Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-A Solanian's Belongings|QID|37443|M|63.96,42.84|Z|0094; Eversong Woods|N|From Well Watcher Solanian, inside the building and up the ramp.|R|BloodElf|
-A The Shrine of Dath'Remar|QID|37442|M|63.96,42.84|Z|0094; Eversong Woods|N|From Well Watcher Solanian.|R|BloodElf|
-A A Fistful of Slivers|QID|37440|M|61.84,39.35|Z|0094; Eversong Woods|N|From Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|M|58.33,39.03|Z|0094; Eversong Woods|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-A Thirst Unending|QID|37439|M|58.45,38.79|Z|0094; Eversong Woods|N|From Arcanist Helion.|R|BloodElf|
+A Reclaiming Sunstrider Isle|QID|8325|M|61.03,45.15|Z|467; Sunstrider Isle|N|From Magistrix Erona.|R|BloodElf|
+C Reclaiming Sunstrider Isle|QID|8325|M|59.77,54.64|Z|467; Sunstrider Isle|N|Slay Mana Wyrms|R|BloodElf|
+T Reclaiming Sunstrider Isle|QID|8325|M|61.03,45.12|Z|467; Sunstrider Isle|N|To Magistrix Erona.|R|BloodElf|
+A Unfortunate Measures|QID|8326|PRE|8325|M|61.03,45.12|Z|467; Sunstrider Isle|N|From Magistrix Erona.|R|BloodElf|
+C Unfortunate Measures|QID|8326|M|67.15,36.49|Z|467; Sunstrider Isle|N|Slay and loot Lynx for collars.|R|BloodElf|NC|
+T Unfortunate Measures|QID|8326|M|61.04,45.11|Z|467; Sunstrider Isle|N|To Magistrix Erona.|R|BloodElf|
+A Report to Lanthan Perilon|QID|8327|PRE|8326|M|61.04,45.11|Z|467; Sunstrider Isle|N|From Magistrix Erona.|R|BloodElf|
+A The Shrine of Dath'Remar|QID|37442|PRE|8326|M|63.96,42.82|Z|467; The Sunspire|N|From Well Watcher Solanian.|R|BloodElf|
+A Solanian's Belongings|QID|37443|PRE|8326|M|63.96,42.82|Z|467; The Sunspire|N|From Well Watcher Solanian.|R|BloodElf|
+A A Fistful of Slivers|QID|37440|PRE|8326|M|61.82,39.34|Z|467; Sunstrider Isle|N|From Arcanist Ithanas.|R|BloodElf|
+r r Repair and restock|AVAILABLE|37439|M|58.33,39.03|Z|0094; Eversong Woods|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
+A Thirst Unending|QID|37439|PRE|8326|M|58.47,38.78|Z|467; Sunstrider Isle|N|From Arcanist Helion.|R|BloodElf|
 r Repair and restock|AVAILABLE|37439|Z|0094; Eversong Woods|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-C A Fistful of Slivers|QID|37440|QO|1|M|48.18,39.43|Z|0094; Eversong Woods|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|S|R|BloodElf|
-C Thirst Unending|QID|37439|QO|1|M|54.14,39.28|Z|0094; Eversong Woods|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|
-C A Fistful of Slivers|QID|37440|QO|1|M|48.18,39.43|Z|0094; Eversong Woods|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|US|R|BloodElf|
-C The Shrine of Dath'Remar|QID|37442|QO|1|M|35.31,40.27|Z|0094; Eversong Woods|N|Click on the glowing part of the shrine.|NC|R|BloodElf|
-C Solanian's Belongings|QID|37443|QO|2|M|40.42,50.27|R|BloodElf|
-T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|Z|0094; Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
-A Aggression|QID|8334|PRE|8326|M|52.75,49.81|Z|0094; Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|Z|0094; Eversong Woods|S|R|BloodElf|
-C Solanian's Belongings|QID|37443|QO|1|M|52.15,69.59|Z|0094; Eversong Woods|NC|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|Z|0094; Eversong Woods|US|R|BloodElf|
-C Solanian's Belongings|QID|37443|QO|3|M|59.88,57.05|Z|0094; Eversong Woods|NC|R|BloodElf|
-T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|Z|0094; Eversong Woods|N|To Well Watcher Solanian.|R|BloodElf|
-T Solanian's Belongings|QID|37443|M|63.94,42.69|Z|0094; Eversong Woods|N|To Well Watcher Solanian.|R|BloodElf|
-T A Fistful of Slivers|QID|37440|M|61.65,39.43|Z|0094; Eversong Woods|N|To Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|Z|0094; Eversong Woods|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-T Thirst Unending|QID|37439|M|58.54,38.90|Z|0094; Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|Z|0094; Eversong Woods|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-T Aggression|QID|8334|PRE|8326|M|52.89,49.70|Z|0094; Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
-A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|Z|0094; Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
-A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|Z|0094; Eversong Woods|N|From Tainted Arcane Wraith. Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|R|BloodElf|S!US|
-C Felendren the Banished|QID|8335|M|38.27,73.41|Z|0094; Eversong Woods|N|Slay Arcane and Tainted Arcane Wraiths as you head up the ramps to slay Felendren.|S|R|BloodElf|
-K Felendren|ACTIVE|8335|QO|3|M|38.87,64.08|T|Felendren the Banished|R|BloodElf|
-C Felendren the Banished|QID|8335|M|38.27,73.41|Z|0094; Eversong Woods|N|Finish killing Arcane and Tainted Arcane Wraiths.|US|R|BloodElf|
-T Felendren the Banished|QID|8335|M|52.77,49.63|Z|0094; Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
-A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|52.77,49.63|Z|0094; Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
-T Tainted Arcane Sliver|QID|8338|M|58.56,38.75|Z|0094; Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
-T Aiding the Outrunners|QID|8347|M|40.43,32.16|Z|0094; Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
+C A Fistful of Slivers|QID|37440|M|49.24,41.14|Z|467; Sunstrider Isle|N|Slay Mana Wyrms and loot them for the Arcane Slivers|S|R|BloodElf|NC|
+C Thirst Unending|QID|37439|M|58.07,40.62|Z|467; Sunstrider Isle|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|NC|
+C A Fistful of Slivers|QID|37440|M|49.24,41.14|Z|467; Sunstrider Isle|N|Slay Mana Wyrms and loot them for the Arcane Slivers|US|R|BloodElf|NC|
+C Solanian's Belongings|QID|37443|M|40.46,50.51|Z|467; Sunstrider Isle|N|Click on the Scroll of Scourge Magic.|R|BloodElf|NC|
+C The Shrine of Dath'Remar|QID|37442|M|35.24,40.23|Z|467; Sunstrider Isle|N|Click on the glowing part of the shrine|R|BloodElf|NC|
+C Solanian's Belongings|QID|37443|M|52.16,69.46|Z|467; Sunstrider Isle|N|Click on Solanian's Scrying Orb.|R|BloodElf|NC|
+C Solanian's Belongings|QID|37443|M|60.05,57.12|Z|467; Sunstrider Isle|N|Click on Solanian's Journal.|R|BloodElf|NC|
+T The Shrine of Dath'Remar|QID|37442|M|63.96,42.80|Z|467; The Sunspire|N|To Well Watcher Solanian.|R|BloodElf|
+T Solanian's Belongings|QID|37443|M|63.96,42.80|Z|467; The Sunspire|N|To Well Watcher Solanian.|R|BloodElf|
+T A Fistful of Slivers|QID|37440|M|61.82,39.36|Z|467; Sunstrider Isle|N|To Arcanist Ithanas.|R|BloodElf|
+T Thirst Unending|QID|37439|M|58.46,38.79|Z|467; Sunstrider Isle|N|To Arcanist Helion.|R|BloodElf|
+A Aggression|QID|8334|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
+C Aggression|QID|8334|M|42.71,46.74|Z|467; Sunstrider Isle|N|Feral Tender slain.|R|BloodElf|
+C Aggression|QID|8334|M|41.76,50.89|Z|467; Sunstrider Isle|N|Tender slain.|R|BloodElf|
+A Felendren the Banished|QID|8335|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
+C Felendren the Banished|QID|8335|M|42.38,71.54|Z|467; Sunstrider Isle|N|Arcane Wraith slain.|R|BloodElf|
+A Tainted Arcane Sliver|QID|8338|PRE|37442&37443&37440&37439|M|41.57,71.01|Z|467; Sunstrider Isle|R|BloodElf|
+C Felendren the Banished|QID|8335|M|39.69,65.47|Z|467; Sunstrider Isle|N|Tainted Arcane Wraith slain.|R|BloodElf|
+C Felendren the Banished|QID|8335|M|38.48,65.17|Z|467; Sunstrider Isle|N|Felendren's Head.|R|BloodElf|NC|
+A Aiding the Outrunners|QID|8347|PRE|37442&37443&37440&37439|M|52.88,49.78|Z|467; Sunstrider Isle|N|From Lanthan Perilon.|R|BloodElf|
+T Tainted Arcane Sliver|QID|8338|M|58.45,38.80|Z|467; Sunstrider Isle|N|To Arcanist Helion.|R|BloodElf|
 ;The guide continues at this point for all races
 R Eversong Woods|QID|9704|M|56.95,49.60|Z|0094; Eversong Woods|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|
 A Slain by the Wretched|QID|9704|M|40.4,32.2|Z|0094; Eversong Woods|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
