@@ -70,13 +70,8 @@ function WoWPro.Recorder:OnDisable()
 end
 
 function WoWPro.Recorder:OnUIReloaded()
-    if WoWPro.Recorder.Advanced then
-        WoWPro.RecorderFrame:SetWidth(350)
-        WoWPro.MainFrame:SetWidth(350)
-    else
-        WoWPro.RecorderFrame:SetWidth(250)
-        WoWPro.MainFrame:SetWidth(250)
-    end
+    WoWPro.RecorderFrame:SetWidth(350)
+    WoWPro.MainFrame:SetWidth(350)
 end
 
 function WoWPro.Recorder:ToggleAdvanced()
@@ -469,18 +464,45 @@ function WoWPro.Recorder.PostGuideLoad()
     end)
 end
 
+function WoWPro.Recorder:GetSelectedStep()
+    local total = WoWPro.stepcount or 0
+
+    if total == 0 then
+        self.SelectedStep = nil
+        return nil
+    end
+
+    local function IsValid(index)
+        return type(index) == "number"
+            and index == math.floor(index)
+            and index >= 1
+            and index <= total
+            and WoWPro.step
+            and WoWPro.step[index]
+    end
+
+    if IsValid(self.SelectedStep) then
+        return self.SelectedStep
+    end
+
+    if IsValid(WoWPro.ActiveStep) then
+        self.SelectedStep = WoWPro.ActiveStep
+    else
+        self.SelectedStep = total
+    end
+
+    return self.SelectedStep
+end
+
 function WoWPro.Recorder.PostUpdateGuide()
     WoWPro.Recorder:CustomizeFrames()
-    if not WoWPro.Recorder.SelectedStep then
-        if WoWPro.ActiveStep then
-            WoWPro.Recorder.SelectedStep = WoWPro.ActiveStep
-            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at ActiveStep.", WoWPro.ActiveStep)
-        else
-            WoWPro.Recorder.SelectedStep = WoWPro.stepcount
-            WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Selecting step %d as current position at EOG.", WoWPro.stepcount)
-        end
-    else
-        WoWPro.Recorder:dbp("WoWPro.Recorder.PostUpdateGuide(): Keeping step %d as current position.", WoWPro.Recorder.SelectedStep)
+
+    local pos = WoWPro.Recorder:GetSelectedStep()
+
+    if pos then
+        WoWPro.Recorder:dbp(
+            "PostUpdateGuide(): Selected step %d.", pos
+        )
     end
 end
 
@@ -639,36 +661,228 @@ function WoWPro.Recorder:RegisterEvents()
     WoWPro.RecorderFrame:SetScript("OnEvent", WoWPro.Recorder.eventHandler);
 end
 
+_G.StaticPopupDialogs["WOWPRO_RECORDER_REORDER"] = {
+    text = "%s",
+    button1 = _G.OKAY,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+}
+
+function WoWPro.Recorder:ShowReorderMessage(message, ...)
+    local text = string.format(message, ...)
+    if WoWPro.DebugLevel > 0 then
+        WoWPro:Print("Reorder: %s", text)
+    end
+    if not _G.StaticPopup_Show("WOWPRO_RECORDER_REORDER", text) then
+        _G.UIErrorsFrame:AddMessage(text, 1, 0.2, 0.2)
+    end
+end
+
+local function ReorderedPosition(index, source, target)
+    if index == source then return target end
+    if source < target and index > source and index <= target then return index - 1 end
+    if source > target and index >= target and index < source then return index + 1 end
+    return index
+end
+
+local function BuildQuestActionIndex(action)
+    local steps = {}
+    for index = 1, WoWPro.stepcount do
+        if WoWPro.action[index] == action and WoWPro.QID[index] then
+            local expression = tostring(WoWPro.QID[index])
+            local simple = expression:match("^%s*(%d+)%s*$")
+            for value in expression:gmatch("[^%^&]+") do
+                local qid = tonumber(value)
+                if qid and qid > 0 and qid == math.floor(qid) then
+                    steps[qid] = steps[qid] or {}
+                    steps[qid][#steps[qid] + 1] = { index = index, certain = simple ~= nil }
+                end
+            end
+        end
+    end
+    return steps
+end
+
+local function QuestOrderStatus(expression, stepIndex, source, target, questSteps, lookAfter)
+    expression = tostring(expression)
+    local isOr = expression:find("^", 1, true) ~= nil
+    if expression == "*" or (isOr and expression:find("&", 1, true)) then return nil end
+    local separator = isOr and "^" or "&"
+    local unknown = false
+    local matched, failed = false, false
+    local blockers = {}
+    local count = 0
+    for value in (expression..separator):gmatch("(.-)"..(isOr and "%^" or "&")) do
+        count = count + 1
+        local qid = tonumber(value)
+        if not qid or qid == 0 or qid ~= math.floor(qid) then return nil end
+        local matches = questSteps[math.abs(qid)]
+        local found, inOrder, uncertainInOrder = false, false, false
+        local candidate, candidatePosition
+        for _, entry in ipairs(matches or {}) do
+            local position = ReorderedPosition(entry.index, source, target)
+            local correctSide = (lookAfter and position > stepIndex) or (not lookAfter and position < stepIndex)
+            if entry.certain then
+                found = true
+                if correctSide then inOrder = true end
+                if (qid > 0 and not correctSide) or (qid < 0 and correctSide) then
+                    local preferEarlier = not lookAfter
+                    if not candidate or (preferEarlier and position < candidatePosition)
+                        or (not preferEarlier and position > candidatePosition) then
+                        candidate, candidatePosition = entry.index, position
+                    end
+                end
+            elseif correctSide then
+                uncertainInOrder = true
+            end
+        end
+        local met
+        if inOrder then
+            met = true
+        elseif found and not uncertainInOrder then
+            met = false
+        end
+        if met ~= nil and qid < 0 then met = not met end
+        if met == true then matched = true end
+        if met == false then
+            failed = true
+            if candidate then blockers[candidate] = true end
+        end
+        if met == nil then unknown = true end
+    end
+    if isOr and matched then return true end
+    if not isOr and failed then return false, blockers end
+    if count == 0 or unknown then return nil end
+    return not isOr, blockers
+end
+
+local function DescribeQuestSteps(steps, expression)
+    local indices = {}
+    for index in pairs(steps) do indices[#indices + 1] = index end
+    table.sort(indices)
+    local alternatives = #indices > 1 and tostring(expression):find("^", 1, true)
+    return (alternatives and "one of " or "")..(#indices == 1 and "step " or "steps ")..table.concat(indices, ", ")
+end
+
+function WoWPro.Recorder:MoveStep(source, target, failureContext)
+    local function ReportFailure(message, ...)
+        self:ShowReorderMessage("%s%s", failureContext or "", string.format(message, ...))
+    end
+    local guide = WoWProDB.char.currentguide
+    local total = WoWPro.stepcount or 0
+    if not WoWPro.GuideLoaded or not guide or not WoWPro.Guides[guide] then
+        ReportFailure("Load a guide before reordering steps.")
+        return false
+    end
+    if _G.InCombatLockdown() then
+        ReportFailure("Steps cannot be reordered during combat.")
+        return false
+    end
+    if type(source) ~= "number" or type(target) ~= "number"
+        or source ~= math.floor(source) or target ~= math.floor(target)
+        or source < 1 or target < 1 or source > total or target > total then
+        ReportFailure("The selected step or destination is no longer available.")
+        return false
+    end
+    if source == target then return true end
+    local guideState = WoWProCharDB.Guide and WoWProCharDB.Guide[guide]
+    if not guideState or not guideState.completion or not guideState.skipped then
+        ReportFailure("Guide progress is not ready; reload the guide before reordering.")
+        return false
+    end
+
+    local turnIns = BuildQuestActionIndex("T")
+    local accepts = BuildQuestActionIndex("A")
+    local warning, questIssue
+    local preIssues = {}
+    for index = math.min(source, target), math.max(source, target) do
+        local pre = WoWPro.prereq[index]
+        if pre and pre ~= "" then
+            local before = QuestOrderStatus(pre, index, source, source, turnIns)
+            local after, blockers = QuestOrderStatus(pre, ReorderedPosition(index, source, target), source, target, turnIns)
+            if after == false and (before ~= false or (index == source and target < source)) then
+                local negative = tonumber(pre) and tonumber(pre) < 0
+                if negative then
+                    preIssues[#preIssues + 1] = ("Step %d must precede its PRE quest turn-in at %s (%s)."):format(index, DescribeQuestSteps(blockers, pre), tostring(pre))
+                elseif not tostring(pre):find("-", 1, true) then
+                    preIssues[#preIssues + 1] = ("Step %d must follow its PRE quest turn-in at %s (%s)."):format(index, DescribeQuestSteps(blockers, pre), tostring(pre))
+                else
+                    preIssues[#preIssues + 1] = ("Step %d cannot satisfy PRE %s with quest turn-ins at %s."):format(index, tostring(pre), DescribeQuestSteps(blockers, pre))
+                end
+            elseif after == nil and not warning then
+                warning = ("Step %d has PRE %s with an external or ambiguous turn-in; its order could not be verified."):format(index, tostring(pre))
+            end
+        end
+        local qid = WoWPro.QID[index]
+        if WoWPro.action[index] == "T" and qid and qid ~= "" then
+            local before = QuestOrderStatus(qid, index, source, source, accepts)
+            local after, blockers = QuestOrderStatus(qid, ReorderedPosition(index, source, target), source, target, accepts)
+            if after == false and (before ~= false or (index == source and target < source)) then
+                questIssue = questIssue or ("Turn-in step %d must follow its quest acceptance at %s (%s)."):format(index, DescribeQuestSteps(blockers, qid), tostring(qid))
+            elseif after == nil and not warning then
+                warning = ("Turn-in step %d has QID %s with an external or ambiguous acceptance; its order could not be verified."):format(index, tostring(qid))
+            end
+        end
+        if WoWPro.action[index] == "C" and qid and qid ~= "" then
+            local newIndex = ReorderedPosition(index, source, target)
+            local beforeAccept = QuestOrderStatus(qid, index, source, source, accepts)
+            local afterAccept, acceptBlockers = QuestOrderStatus(qid, newIndex, source, target, accepts)
+            if afterAccept == false and (beforeAccept ~= false or (index == source and target < source)) then
+                questIssue = questIssue or ("Completion step %d must follow its quest acceptance at %s (%s)."):format(index, DescribeQuestSteps(acceptBlockers, qid), tostring(qid))
+            elseif afterAccept == nil and not warning then
+                warning = ("Completion step %d has QID %s with an external or ambiguous acceptance; its order could not be verified."):format(index, tostring(qid))
+            end
+            local beforeTurnIn = QuestOrderStatus(qid, index, source, source, turnIns, true)
+            local afterTurnIn, turnInBlockers = QuestOrderStatus(qid, newIndex, source, target, turnIns, true)
+            if afterTurnIn == false and (beforeTurnIn ~= false or (index == source and target > source)) then
+                questIssue = questIssue or ("Completion step %d must precede its quest turn-in at %s (%s)."):format(index, DescribeQuestSteps(turnInBlockers, qid), tostring(qid))
+            elseif afterTurnIn == nil and not warning then
+                warning = ("Completion step %d has QID %s with an external or ambiguous turn-in; its order could not be verified."):format(index, tostring(qid))
+            end
+            local exactQID = tostring(qid):match("^%s*(%d+)%s*$")
+            for _, turnIn in ipairs(exactQID and turnIns[tonumber(exactQID)] or {}) do
+                if turnIn.certain and turnIn.index > index
+                    and ReorderedPosition(turnIn.index, source, target) < newIndex then
+                    questIssue = questIssue or ("Completion step %d must precede its quest turn-in at step %d (%s)."):format(index, turnIn.index, tostring(qid))
+                    break
+                end
+            end
+        end
+    end
+
+    if questIssue or #preIssues > 0 then
+        if questIssue then table.insert(preIssues, 1, questIssue) end
+        ReportFailure("Cannot reorder:\n%s", table.concat(preIssues, "\n"))
+        return false
+    end
+
+    local direction = source < target and 1 or -1
+    for index = source, target - direction, direction do
+        WoWPro.SwapSteps(index, index + direction)
+        if WoWPro.repeatable and not WoWPro.Tags.repeatable then
+            WoWPro.repeatable[index], WoWPro.repeatable[index + direction] =
+                WoWPro.repeatable[index + direction], WoWPro.repeatable[index]
+        end
+    end
+    self.reorderRevision = (self.reorderRevision or 0) + 1
+    WoWPro.Recorder.SelectedStep = target
+    WoWPro.Recorder:CheckpointCurrentGuide("ReorderStep")
+    WoWPro:UpdateGuide("WoWPro.Recorder:MoveStep")
+    if warning then self:ShowReorderMessage("Warning: %s", warning) end
+    return true
+end
+
 local dropdown = {
     {text = "Move Earlier", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == 1 then return end
-
-        for key, tag in pairs(WoWPro.Tags) do
-            local a = WoWPro[key][pos]
-            local b = WoWPro[key][pos-1]
-            WoWPro[key][pos] = b
-            WoWPro[key][pos-1] = a
-        end
-
-        WoWPro.Recorder.SelectedStep = pos-1
-        WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
-        WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
+        WoWPro.Recorder:MoveStep(pos, pos - 1)
     end},
     {text = "Move Later", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
         if pos == WoWPro.stepcount then return end
-
-        for key,tag in pairs(WoWPro.Tags) do
-            local a = WoWPro[key][pos]
-            local b = WoWPro[key][pos+1]
-            WoWPro[key][pos] = b
-            WoWPro[key][pos+1] = a
-        end
-
-        WoWPro.Recorder.SelectedStep = pos+1
-        WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
-        WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
+        WoWPro.Recorder:MoveStep(pos, pos + 1)
     end},
     {text = "Clone Step", func = function()
         local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
@@ -682,21 +896,32 @@ local dropdown = {
 }
 
 function WoWPro.Recorder:RowUpdate(offset)
-    WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep or WoWPro.ActiveStep
-    WoWPro.Recorder.RowDropdownMenu = {}
-    for i,row in pairs(WoWPro.rows) do
-        WoWPro.Recorder.RowDropdownMenu[i] = dropdown
-        if WoWPro.Recorder.SelectedStep == row.index then
-            row:SetChecked(true)
-        else
-            row:SetChecked(false)
-        end
+    local selected = self:GetSelectedStep()
+
+    self.RowDropdownMenu = {}
+
+    for i, row in pairs(WoWPro.rows) do
+        self.RowDropdownMenu[i] = dropdown
+
+        row:SetChecked(
+            selected ~= nil and selected == row.index
+        )
     end
 end
 
 function WoWPro.Recorder:RowLeftClick(i)
-    WoWPro.Recorder.SelectedStep = WoWPro.rows[i].index
-    WoWPro.Recorder:RowUpdate(true)
+    local row = WoWPro.rows[i]
+
+    if not row or not row.index then
+        return
+    end
+
+    if row.index < 1 or row.index > WoWPro.stepcount then
+        return
+    end
+
+    self.SelectedStep = row.index
+    self:RowUpdate(true)
 end
 
 function WoWPro.Recorder.AddStep(stepInfo, position)
@@ -715,11 +940,12 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
         stepInfo.step = "?"
     end
 
-    local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-    if pos > WoWPro.stepcount then
-        pos = WoWPro.stepcount
-    end
+    local pos = position
+     or WoWPro.Recorder:GetSelectedStep()
+        or WoWPro.stepcount
+        or 0
 
+    pos = math.max(0, math.min(pos, WoWPro.stepcount))
     pos = pos + 1
     WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
     for key, tag in pairs(WoWPro.Tags) do
@@ -737,11 +963,7 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
     end
 
     WoWPro.stepcount = WoWPro.stepcount + 1
-    if WoWPro.Recorder.SelectedStep then
-        WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
-    else
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount
-    end
+    WoWPro.Recorder.SelectedStep = pos
 
     local line = WoWPro.EmitSafeStep(pos)
     line = line:gsub("%%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
@@ -775,10 +997,13 @@ function WoWPro.Recorder:RemoveStep(position)
     end
 
     WoWPro.stepcount = WoWPro.stepcount - 1
-    if position then
-        WoWPro.Recorder.SelectedStep = max(position - 1, 1)
+
+    if WoWPro.stepcount > 0 then
+     WoWPro.Recorder.SelectedStep = math.max(
+        1, math.min(pos - 1, WoWPro.stepcount)
+    )
     else
-        WoWPro.Recorder.SelectedStep = WoWPro.stepcount
+     WoWPro.Recorder.SelectedStep = nil
     end
 
     WoWPro.Recorder:CheckpointCurrentGuide("RemoveStep")
@@ -834,15 +1059,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 
     local sequence = {}
 
-    for i,action in pairs(WoWPro.action) do
-        if WoWPro.questtext[i] and WoWPro.note[i] then
-            WoWPro.note[i] = WoWPro.Recorder.CleanObjectiveNote(WoWPro.note[i])
-            if WoWPro.note[i] ~= "" then
-                WoWPro.note[i] = WoWPro.note[i] .. "."
-            else
-                WoWPro.note[i] = false
-            end
-        end
+    for i = 1, WoWPro.stepcount do
         local line = WoWPro.EmitStep(i)
         tinsert(sequence,line)
     end

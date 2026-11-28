@@ -604,6 +604,14 @@ local function addTag(line, tag)
     return line
 end
 
+local emitTagOrder = {
+    "QID", "PRE", "ACTIVE", "AVAILABLE", "QO", "M", "Z", "CC", "L",
+    "N", "S", "US", "U", "T", "C", "R", "LVL",
+}
+local prioritizedTags = {}
+for _, tag in ipairs(emitTagOrder) do
+    prioritizedTags[tag] = true
+end
 
 function WoWPro.EmitStep(i)
     local GID = WoWProDB.char.currentguide
@@ -617,8 +625,7 @@ function WoWPro.EmitStep(i)
 
     local line = WoWPro.action[i].." "..WoWPro.step[i].."||"
 
-    for idx=1,#WoWPro.TagList do
-        local tag = WoWPro.TagList[idx]
+    local function emitTag(tag)
         local key = WoWPro.TagTable[tag].key
         -- Special tags get handled first
         if key == "lootitem" and WoWPro.lootitem[i] then
@@ -630,16 +637,6 @@ function WoWPro.EmitStep(i)
                 items = items .. itemID .. " " .. qty
             end
             line = addTagValue(line, tag, items)
-        elseif key == "sticky" then
-            if WoWPro.sticky[i] and WoWPro.unsticky[i] then
-                line = addTag(line, "S!US")
-            elseif  WoWPro.sticky[i] and not WoWPro.unsticky[i] then
-                line = addTag(line, "S")
-            elseif  WoWPro.unsticky[i] and not WoWPro.sticky[i] then
-                line = addTag(line, "US")
-            end
-        elseif key == "unsticky" then
-            line = line
         elseif tag == "CC" then
             if WoWPro.waypcomplete[i] == 1 then
                 line = addTag(line, "CC")
@@ -666,6 +663,15 @@ function WoWPro.EmitStep(i)
             if WoWPro[key][i] then
                 line = addTagValue(line, tag, WoWPro[key][i])
             end
+        end
+    end
+    for _, tag in ipairs(emitTagOrder) do
+        emitTag(tag)
+    end
+    -- Preserve all other defined tags, including tags registered by modules.
+    for _, tag in ipairs(WoWPro.TagList) do
+        if not prioritizedTags[tag] then
+            emitTag(tag)
         end
     end
     return line
