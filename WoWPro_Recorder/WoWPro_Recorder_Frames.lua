@@ -1423,7 +1423,7 @@ local function CreateStepEditorFrame(editOptions)
 
             self:ShowCategory(self.category or "general")
         end
-    end)    
+    end)
     WoWPro.Recorder.EditStepFrame = frame
     return frame
 end
