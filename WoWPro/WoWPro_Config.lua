@@ -1666,19 +1666,19 @@ local function createHelpConfig()
                         order = 12,
                         type = "description",
                         width = "full",
-                        name = "4) Click Record to capture questing progress while you play. Click Stop any time you want to pause before moving, testing, or editing steps manually.",
+                        name = "4) Click Record to capture questing progress while you play. Click Stop any time you want to pause before moving, testing, or editing steps manually. Record is green while recording, and Stop is red while stopped.",
                     },
                     recorder5 = {
                         order = 13,
                         type = "description",
                         width = "full",
-                        name = "5) Use Open to load an existing guide for editing. Use Save to write the current recorder version to your saved guides so it can be reopened later.",
+                        name = "5) Use Open to load an existing guide for editing. Use Save to write the current recorder version to your saved guides so it can be reopened later. The Guide Line window shows the selected step's saved syntax, with common tags in the standard order and other tags following. Close it or use the Line tab beside the guide to reopen it.",
                     },
                     recorder6 = {
                         order = 14,
                         type = "description",
                         width = "full",
-                        name = "6) In Advanced mode, use Add to insert a step after the selected step, or use buttons such as Run, Flight, Portal, Note, and Delete to refine the route.",
+                        name = "6) In Advanced mode, use Add to insert a step after the selected step, or use buttons such as Run, Flight, Portal, Note, and Delete to refine the route. Use Reorder Steps beside the toolbar to drag steps in the full guide list. Undo Last reverses individual moves; Revert All reverses this window's moves after confirmation. History is cleared when the window closes or the guide changes outside it. Undo and reorder moves that break Accept/Complete/Turn-in or known PRE order are blocked; external or ambiguous quest steps produce a warning.",
                     },
                     recorder7 = {
                         order = 15,
